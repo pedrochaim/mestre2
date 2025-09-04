@@ -1,0 +1,244 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schemas.mestre2/pergunta.schema.json",
+  "title": "Esquema de Pergunta (Quiz) — pergunta.schema.json",
+  "description": "Schema oficial para validar perguntas do projeto (uma pergunta por objeto). Compatível com o arquivo histórico 'quiz-question.schema.json'. Campos obrigatórios: id, tema, subtema, tipo, dificuldade, pergunta, resposta, fonte. Campos opcionais: tema_clean, microsubtema, subtema_clean, microsubtema_clean, misc.",
+  "type": "object",
+  "additionalProperties": false,
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "pattern": "^[a-z0-9]+(?:[._-][a-z0-9]+)*$",
+      "description": "Forma 'clean' sem espaços e sem acentos, em minúsculas (ex.: idade_media, fisica, futebol)."
+    },
+    "tipoEnum": {
+      "type": "string",
+      "enum": [
+        "Aberta",
+        "Múltipla escolha",
+        "Verdadeiro-falso"
+      ]
+    },
+    "dificuldadeEnum": {
+      "type": "string",
+      "enum": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "description": "D1=fácil, D2=médio, D3=difícil conforme rubrica."
+    },
+    "httpUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https?://"
+    }
+  },
+  "required": [
+    "id",
+    "tema",
+    "subtema",
+    "tipo",
+    "dificuldade",
+    "pergunta",
+    "resposta",
+    "fonte"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "minLength": 6,
+      "maxLength": 64,
+      "description": "Identificador globalmente único. Recomenda-se ULID/UUID ou timestamp ISO compacto com sufixo (ex.: 20250724T153012Z_0001).",
+      "oneOf": [
+        {
+          "pattern": "^[0-9A-HJKMNP-TV-Z]{26}$",
+          "description": "ULID (26 chars, Crockford base32)."
+        },
+        {
+          "pattern": "^[a-f0-9]{8}-[a-f0-9]{4}-[1-5][a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$",
+          "description": "UUID v1–v5."
+        },
+        {
+          "pattern": "^\\d{8}T\\d{6}Z_\\d{1,6}$",
+          "description": "YYYYMMDDTHHMMSSZ_counter (1–6 dígitos)."
+        },
+        {
+          "pattern": "^[A-Za-z0-9._-]+$",
+          "description": "Fallback: alfanumérico/._- (evitar)."
+        }
+      ]
+    },
+    "tema": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "description": "Tema amplo (ex.: História, Ciências, Esportes). Ver /docs/Dicionario_Temas_Subtemas.md."
+    },
+    "tema_clean": {
+      "$ref": "#/$defs/slug",
+      "description": "Versão limpa do tema para uso em nomes de arquivos/URLs."
+    },
+    "subtema": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 120,
+      "description": "Subtema específico (ex.: Idade Média, Física, Futebol)."
+    },
+    "microsubtema": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160,
+      "description": "Subcategoria dentro do subtema (nível de geração). Ver ./docs/Subtemas_<tema>/Microtemas_<tema_clean>_<subtema_clean>.md."
+    },
+    "subtema_clean": {
+      "$ref": "#/$defs/slug",
+      "description": "Versão limpa do subtema para uso em nomes de arquivos/URLs."
+    },
+    "microsubtema_clean": {
+      "$ref": "#/$defs/slug",
+      "description": "Versão limpa do microsubtema para uso em nomes de arquivos/URLs."
+    },
+    "tipo": {
+      "$ref": "#/$defs/tipoEnum"
+    },
+    "dificuldade": {
+      "$ref": "#/$defs/dificuldadeEnum"
+    },
+    "pergunta": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 2000,
+      "description": "Enunciado auto-contido. Para múltipla escolha, inclua as 4 alternativas A–D no próprio campo. Não usar itens de 'ordenação de eventos'.",
+      "allOf": [
+        {
+          "not": {
+            "pattern": "(?i)ordena(ção|r|e)"
+          },
+          "description": "Evita prompts de ordenação ('Ordene', 'Ordenação', etc.)."
+        }
+      ]
+    },
+    "resposta": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300,
+      "description": "Somente a resposta final, sem explicações."
+    },
+    "fonte": {
+      "type": "array",
+      "description": "≥ 2 URLs específicas e não contraditórias (priorize Wikipedia em inglês + uma fonte adicional confiável/oficial).",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/httpUrl"
+      }
+    },
+    "misc": {
+      "type": "object",
+      "description": "Campo livre para anotações/flags internas (ex.: {\"ignore_dificuldade\": true}).",
+      "properties": {
+        "ignore_dificuldade": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "tipo": {
+            "const": "Verdadeiro-falso"
+          }
+        },
+        "required": [
+          "tipo"
+        ]
+      },
+      "then": {
+        "properties": {
+          "resposta": {
+            "enum": [
+              "Verdadeiro",
+              "Falso"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "tipo": {
+            "const": "Múltipla escolha"
+          }
+        },
+        "required": [
+          "tipo"
+        ]
+      },
+      "then": {
+        "properties": {
+          "pergunta": {
+            "description": "Deve conter exatamente 4 alternativas claras (A, B, C, D) no texto.",
+            "pattern": "(?s).*\\bA\\)[\\s\\S]+\\bB\\)[\\s\\S]+\\bC\\)[\\s\\S]+\\bD\\)[\\s\\S]+$"
+          }
+        }
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "20250826T230000Z_0001",
+      "tema": "Variedades",
+      "subtema": "Números",
+      "subtema_clean": "numeros",
+      "microsubtema": "Nomes de grandes números",
+      "microsubtema_clean": "nomes_grandes_numeros",
+      "tipo": "Aberta",
+      "dificuldade": "D2",
+      "pergunta": "Qual é o nome do número 10^100?",
+      "resposta": "Googol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Googol",
+        "https://mathworld.wolfram.com/Googol.html"
+      ]
+    },
+    {
+      "id": "20250826T230100Z_0002",
+      "tema": "Geografia",
+      "subtema": "Cidades, Capitais e Localizações Notáveis",
+      "subtema_clean": "cidades_capitais_localizacoes_notaveis",
+      "microsubtema": "Penínsulas europeias",
+      "microsubtema_clean": "peninsulas_europeias",
+      "tipo": "Múltipla escolha",
+      "dificuldade": "D1",
+      "pergunta": "Qual destas penínsulas pertence à Europa?\nA) Arábica\nB) Malaca\nC) Kamchatka\nD) Ibérica",
+      "resposta": "Ibérica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iberian_Peninsula",
+        "https://en.wikipedia.org/wiki/Europe"
+      ]
+    },
+    {
+      "id": "20250826T230200Z_0003",
+      "tema": "Geografia",
+      "subtema": "Cartografia e Referenciais Espaciais",
+      "subtema_clean": "cartografia_referenciais_espaciais",
+      "microsubtema": "Longitude e fusos horários",
+      "microsubtema_clean": "longitude_fusos_horarios",
+      "tipo": "Verdadeiro-falso",
+      "dificuldade": "D2",
+      "pergunta": "A Linha Internacional de Data coincide exatamente com o meridiano de 180°. (V/F)",
+      "resposta": "Falso",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/International_Date_Line",
+        "https://www.noaa.gov/education/resource-collections/time-and-space/international-date-line"
+      ]
+    }
+  ]
+}

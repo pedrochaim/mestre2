@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _output   # <- aqui você fixa a pasta de saída
+  render:
+    - "*.qmd"
+    - "!docs/"
+
+website:
+  title: "Mestre 2 — Jogo de Perguntas e Respostas"
+  navbar:
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Regras"
+        href: regras.qmd
+      - text: "Dicionário"
+        href: dicionario_temas_subtemas.qmd
+
+  # Ajuste estas duas linhas conforme o tipo de site do Pages:
+  site-url: "https://pedrochaim.github.io/mestre2/"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
