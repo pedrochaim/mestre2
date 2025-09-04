@@ -2,8 +2,9 @@ project:
   type: website
   output-dir: docs   # <- aqui você fixa a pasta de saída
   render:
-    - "*.qmd"
-    - "!info/"
+    - "**/*.qmd"   # rende tudo que for .qmd em qualquer pasta
+    - "!docs/**"   # nunca render a pasta de saída
+    - "!info/**"   # sua exclusão
 
 website:
   title: "Mestre 2 — Jogo de Perguntas e Respostas"
@@ -18,7 +19,7 @@ website:
 
   # Ajuste estas duas linhas conforme o tipo de site do Pages:
   site-url: "https://pedrochaim.github.io/mestre2/"
-  baseurl: "/mestre2/"
+
 
 format:
   html:
