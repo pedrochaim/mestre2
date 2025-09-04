@@ -3,7 +3,7 @@ project:
   output-dir: docs   # <- aqui você fixa a pasta de saída
   render:
     - "*.qmd"
-    - "!docs/"
+    - "!info/"
 
 website:
   title: "Mestre 2 — Jogo de Perguntas e Respostas"
