@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _output   # <- aqui você fixa a pasta de saída
+  output-dir: output   # <- aqui você fixa a pasta de saída
   render:
     - "*.qmd"
     - "!docs/"
