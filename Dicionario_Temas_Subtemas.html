@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.23">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>dicionario_temas_subtemas</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="Dicionario_Temas_Subtemas_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Dicionario_Temas_Subtemas_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="Dicionario_Temas_Subtemas_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="Dicionario_Temas_Subtemas_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="Dicionario_Temas_Subtemas_files/libs/quarto-html/popper.min.js"></script>
+<script src="Dicionario_Temas_Subtemas_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Dicionario_Temas_Subtemas_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Dicionario_Temas_Subtemas_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Dicionario_Temas_Subtemas_files/libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Dicionario_Temas_Subtemas_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Dicionario_Temas_Subtemas_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Dicionario_Temas_Subtemas_files/libs/bootstrap/bootstrap-9e3ffae467580fdb927a41352e75a2e0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="dicionário-de-temas-e-subtemas" class="level1">
+<h1>Dicionário de Temas e Subtemas</h1>
+<p>Este documento contém uma lista de temas e seus respectivos subtemas. Cada tema é uma categoria ampla, enquanto os subtemas são tópicos mais específicos dentro dessa categoria.</p>
+<p>Cada <code>&lt;subtema&gt;</code> é organizado em subcategorias, cada uma um <code>&lt;microsubtema&gt;</code>. O detalhamento dos microsubtemas é fornecido no momento do prompt para geração de perguntas.</p>
+<p>Os valores <code>&lt;tema&gt;</code> e <code>&lt;subtema&gt;</code> são campos nos arquivos de formato JSON (detalhado no documento <code>./docs/pergunta.schema.json</code>) que são utilizados para armazenar perguntas e respostas.</p>
+<p>As perguntas serão inicialmente organizadas em arquivos por <code>&lt;microsubtema&gt;</code>, depois os arquivos concatenados em arquivos JSON por <code>&lt;subtema&gt;</code>, e então finalmente em um único arquivo JSON por <code>&lt;tema&gt;</code>.</p>
+<p><code>&lt;tema_clean&gt;</code> é o nome do tema sem espaços, acentos ou caracteres especiais, utilizado para nomear os arquivos JSON.</p>
+<p><code>&lt;subtema_clean&gt;</code> é o nome do subtema sem espaços, acentos ou caracteres especiais, utilizado para nomear os arquivos JSON.</p>
+<p>A nomenclatura dos arquivos será no formato <code>&lt;tema_clean&gt;_&lt;subtema_clean&gt;.json</code>, onde <code>&lt;tema_clean&gt;</code> e <code>&lt;subtema_clean&gt;</code> são é o nome do tema e subtema sem espaços, acentos ou caracteres especiais, utilizado para nomear os arquivos JSON.</p>
+<section id="estrutura-do-documento" class="level2">
+<h2 class="anchored" data-anchor-id="estrutura-do-documento">Estrutura do Documento</h2>
+<ul>
+<li>Cada <code>&lt;tema&gt;</code> é seguido por uma breve descrição com no máximo 300 palavras.</li>
+<li>Então é enumerado cada <code>&lt;subtema&gt;</code> relacionado a esse <code>&lt;tema&gt;</code>.</li>
+<li>Um exemplo de JSON é fornecido para cada <code>&lt;subtema&gt;</code>, com o formato:</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"&lt;tema&gt;"</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"&lt;tema_clean&gt;"</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"&lt;subtema&gt;"</span><span class="fu">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"&lt;subtema_clean&gt;"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ul>
+<li>Então inclui uma breve descrição de cada <code>&lt;subtema&gt;</code>, com no máximo 150 palavras.</li>
+</ul>
+</section>
+<section id="tema-geografia" class="level2">
+<h2 class="anchored" data-anchor-id="tema-geografia">Tema: Geografia</h2>
+<p>A geografia é a ciência que estuda a superfície terrestre, suas características físicas, humanas e as interações entre elas. Ela abrange desde o estudo de formações naturais como montanhas, rios e climas, até a análise de como as sociedades humanas se organizam e interagem com o meio ambiente. A geografia é fundamental para entender questões como urbanização, migrações, uso dos recursos naturais e mudanças climáticas.</p>
+<section id="subtema-países-capitais-e-cidades-notáveis" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-países-capitais-e-cidades-notáveis">Subtema: Países, Capitais e Cidades Notáveis</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Geografia"</span><span class="fu">,</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Países, Capitais e Cidades Notáveis"</span><span class="fu">,</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"paises_capitais_e_cidades_notaveis"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema abrange o estudo de países ao redor do mundo, suas capitais e cidades notáveis. Inclui informações sobre localização geográfica, características culturais, econômicas e políticas de cada país, bem como dados sobre as principais cidades que se destacam por sua importância histórica, econômica ou cultural. Inclui curiosidades e fatos interessantes sobre esses lugares, como monumentos famosos, tradições locais e eventos históricos significativos.</p>
+</section>
+<section id="subtema-maravilhas-naturais" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-maravilhas-naturais">Subtema: Maravilhas Naturais</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Geografia"</span><span class="fu">,</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Maravilhas Naturais"</span><span class="fu">,</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"maravilhas_naturais"</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema explora as maravilhas naturais do mundo, incluindo formações geológicas impressionantes, ecossistemas únicos e fenômenos naturais extraordinários. Abrange desde montanhas majestosas, como o Everest, até florestas tropicais exuberantes, como a Amazônia. Também inclui rios famosos, como o Nilo e o Amazonas, e desertos icônicos, como o Saara.</p>
+</section>
+<section id="subtema-geopolítica" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-geopolítica">Subtema: Geopolítica</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Geografia"</span><span class="fu">,</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Geopolítica"</span><span class="fu">,</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"geopolitica"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A geopolítica é o estudo das relações entre geografia e política, analisando como a localização geográfica de países e regiões influencia suas políticas externas, conflitos e alianças. Este subtema abrange tópicos como disputas territoriais, zonas de influência, recursos naturais estratégicos e a importância de rotas comerciais. Inclui também a análise de blocos econômicos, como a União Europeia e o Mercosul, e como as características geográficas moldam as dinâmicas de poder global.</p>
+</section>
+<section id="subtema-economia-regional" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-economia-regional">Subtema: Economia Regional</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Geografia"</span><span class="fu">,</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Economia Regional"</span><span class="fu">,</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"economia_regional"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A economia regional estuda as características econômicas de diferentes regiões do mundo, analisando como fatores geográficos, culturais e históricos influenciam o desenvolvimento econômico local. Este subtema inclui a análise de setores econômicos predominantes, como agricultura, indústria e serviços, bem como a distribuição de recursos naturais e a infraestrutura de transporte. Também abrange questões como desigualdade econômica entre regiões, políticas de desenvolvimento regional e impactos ambientais das atividades econômicas.</p>
+</section>
+<section id="subtema-vegetação-e-biomas" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-vegetação-e-biomas">Subtema: Vegetação e Biomas</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Geografia"</span><span class="fu">,</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Vegetação e Biomas"</span><span class="fu">,</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"vegetacao_e_biomas"</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema examina a diversidade de vegetação terrestre e biomas do planeta — florestas tropicais e temperadas, taiga, savanas, estepes, pradarias, desertos, chaparral/mediterrâneo e tundra — excluindo ecossistemas marinhos. Cada bioma combina clima (temperatura, precipitação, sazonalidade), solo (fertilidade, drenagem), relevo/altitude e regimes de fogo, moldando fisionomias vegetais e endemismos. Aborda espécies dominantes, zonas de transição (ecótonos) e serviços ecossistêmicos. Permite perguntas sobre localização global, fatores limitantes, adaptações, pressões humanas (desmatamento, fragmentação) e conservação (e.g., hotspots, áreas protegidas), incluindo comparações entre continentes e dentro de países.</p>
+</section>
+<section id="subtema-oceanos-e-mares" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-oceanos-e-mares">Subtema: Oceanos e Mares</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Geografia"</span><span class="fu">,</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Oceanos e Mares"</span><span class="fu">,</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"oceanos_e_mares"</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Os oceanos e mares são vastas extensões de água salgada que cobrem cerca de 71% da superfície da Terra. Este subtema abrange a geografia dos oceanos, suas correntes, marés e ecossistemas marinhos. Inclui o estudo das zonas oceânicas, como a zona pelágica, batial e abissal, bem como a importância dos oceanos para o clima global, biodiversidade e economia. Também aborda questões como poluição marinha, pesca sustentável e conservação dos habitats marinhos.</p>
+</section>
+<section id="subtema-relevo-e-formações-geológicas" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-relevo-e-formações-geológicas">Subtema: Relevo e Formações Geológicas</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Geografia"</span><span class="fu">,</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Relevo e Formações Geológicas"</span><span class="fu">,</span></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"relevo_e_formacoes_geologicas"</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>O relevo terrestre é a configuração da superfície da Terra, incluindo montanhas, vales, planícies e outras formações geológicas. Este subtema explora os processos que moldam o relevo, como tectônica de placas, erosão e sedimentação. Inclui o estudo de cadeias montanhosas, como os Andes e o Himalaia, bem como formações geológicas únicas, como cânions, cavernas e vulcões.</p>
+</section>
+<section id="subtema-hidrografia-continental" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-hidrografia-continental">Subtema: Hidrografia Continental</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Geografia"</span><span class="fu">,</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Hidrografia Continental"</span><span class="fu">,</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"hidrografia_continental"</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A hidrografia continental estuda as águas doces presentes na superfície terrestre, incluindo rios, lagos, aquíferos e geleiras. Este subtema abrange a análise dos principais sistemas fluviais, como o Amazonas, Nilo e Yangtze, bem como a importância dos lagos e reservatórios para o abastecimento de água e ecossistemas locais. Inclui também o estudo das bacias hidrográficas, drenagem e os impactos das atividades humanas, como poluição e desmatamento, sobre os recursos hídricos.</p>
+</section>
+<section id="subtema-clima" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-clima">Subtema: Clima</h3>
+</section>
+</section>
+<section id="tema-história-natural" class="level2">
+<h2 class="anchored" data-anchor-id="tema-história-natural">Tema: História Natural</h2>
+<p>A história natural é o estudo das origens e desenvolvimento da vida na Terra, abrangendo desde os primeiros organismos unicelulares até a diversidade atual de espécies. Ela inclui a paleontologia, que estuda fósseis e a evolução das espécies, bem como a ecologia, que analisa as interações entre organismos e seus ambientes. No nosso escopo, História Natural engobla também a interação entre seres vivos hoje, como ecologia, ecossistemas, taxonomia, etc. Incluir subtemas que interessariam uma pessoa que assiste documentários sobre natureza. Evitar sobreposição de assuntos com o tema Ciências.</p>
+<section id="subtema-dinossauros" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-dinossauros">Subtema: Dinossauros</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia-natural"</span><span class="fu">,</span></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Dinossauros"</span><span class="fu">,</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"dinossauros"</span></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema foca nos dinossauros do Mesozoico (Triássico, Jurássico e Cretáceo): origens, diversificação, anatomia, locomoção, dieta, crescimento e comportamento. Usa evidências do registro fóssil — ossos, dentes, pegadas, ovos, ninhos e impressões de pele/penas — para reconstruir paleoecologia, interações tróficas e adaptações. Aborda a relação com aves (terópodes), contextos paleoambientais e o evento de extinção do fim do Cretáceo (K–Pg). Distingue dinossauros de outros répteis contemporâneos (pterossauros, plesiossauros etc.). Gera perguntas factuais sobre cronologia, grupos, características diagnósticas e ambientes, sem detalhar técnicas laboratoriais.</p>
+<hr>
+</section>
+<section id="subtema-ecossistemas-e-biodiversidade-animais" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-ecossistemas-e-biodiversidade-animais">Subtema: Ecossistemas e Biodiversidade: Animais</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia-natural"</span><span class="fu">,</span></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Ecossistemas e Biodiversidade: Animais"</span><span class="fu">,</span></span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"ecossistemas_e_biodiversidade_animais"</span></span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema foca exclusivamente nos <strong>animais</strong> e suas interações ecológicas. Abrange diversidade taxonômica em diferentes biomas, papéis tróficos (predadores, herbívoros, detritívoros), estratégias de sobrevivência (camuflagem, mimetismo, venenos), reprodução e cuidado parental, <strong>comportamento</strong> (território, comunicação, cooperação), migrações e espécies-chave que estruturam comunidades. Explora <strong>relações entre espécies</strong> — predação, competição, mutualismo, parasitismo — e como alterações de habitat influenciam populações e redes alimentares. Não inclui fisiologia molecular nem biologia humana. Gera perguntas factuais sobre distribuições, adaptações, ciclos de vida e interdependências faunísticas, comparando grupos e ambientes sem cobrir plantas ou fungos.</p>
+</section>
+<section id="subtema-ecossistemas-e-biodiversidade-plantas-e-fungos" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-ecossistemas-e-biodiversidade-plantas-e-fungos">Subtema: Ecossistemas e Biodiversidade: Plantas e Fungos</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia-natural"</span><span class="fu">,</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Ecossistemas e Biodiversidade: Plantas e Fungos"</span><span class="fu">,</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"ecossistemas_e_biodiversidade_plantas_e_fungos"</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema trata exclusivamente de <strong>plantas e fungos</strong>. Enfatiza a base produtiva dos ecossistemas (fotossíntese, produtividade primária), <strong>adaptações vegetais</strong> a clima e solo (xeromorfia, epifitismo, carnívoras), reprodução por flores, sementes e esporos, <strong>polinização</strong> e <strong>dispersão</strong>. Para fungos, destaca decomposição, ciclos de nutrientes, <strong>micorrizas</strong> e líquens como engenheiros de habitat. Aborda sucessão ecológica, espécies dominantes e formas de vida (árvores, arbustos, gramíneas, musgos, cogumelos). Não cobre animais, genética molecular nem biologia humana. Gera perguntas objetivas sobre identificação de formações, funções ecológicas, relações planta–fungo e padrões de distribuição, complementando o subtema de Animais sem sobreposição.</p>
+</section>
+<section id="subtema-antropologia-e-evolução-humana" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-antropologia-e-evolução-humana">Subtema: Antropologia e Evolução Humana</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia-natural"</span><span class="fu">,</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Antropologia e Evolução Humana"</span><span class="fu">,</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"antropologia_e_evolucao_humana"</span></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema investiga a origem e o desenvolvimento da nossa espécie, do aparecimento dos primeiros hominínios às populações humanas modernas. O foco recai sobre o registro fóssil, sítios arqueológicos, ferramentas de pedra, fogo, arte, adornos e vestígios de moradia, que ajudam a reconstruir dieta, mobilidade, divisão de tarefas, cooperação e linguagem emergente. Aborda grandes etapas: bipedalismo, expansão do cérebro, fabricação de instrumentos, dispersões “para fora da África”, convivência e cruzamentos com outros humanos antigos e a ocupação de ambientes extremos. Considera também modos de vida de caçadores-coletores, rotas migratórias, domesticação inicial de plantas e animais e mudanças culturais que acompanham climas variáveis. Não entra em genética molecular, medicina ou fisiologia detalhada (para evitar sobreposição com Ciências). Dá ênfase a perguntas factuais e comparativas sobre cronologias, culturas materiais, tecnologias líticas, paleodietas, arte rupestre e contatos entre grupos, sempre com base em evidências datáveis e bem documentadas, em diversas regiões do mundo.</p>
+</section>
+<section id="subtema-terra-primitiva-e-formação-do-planeta" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-terra-primitiva-e-formação-do-planeta">Subtema: Terra Primitiva e Formação do Planeta</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Terra Primitiva e Formação do Planeta"</span><span class="fu">,</span></span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"terra_primitiva_e_formacao_do_planeta"</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema apresenta como a Terra se formou e como passou de um mundo incandescente a um ambiente com água líquida e atmosfera capazes de sustentar a vida. Explica a origem do Sol e dos planetas em linhas gerais, a junção de materiais que deram corpo ao nosso planeta e a separação entre núcleo, rochas e oceanos. Aborda calor interno, vulcões e o movimento lento das placas que levantam cadeias de montanhas e abrem vales. Descreve a formação do ar primitivo e dos primeiros mares, as fontes de água e de energia da superfície, e o papel de impactos de cometas e asteroides. Discute cenários para o aparecimento de moléculas simples que, ao longo do tempo, deram origem aos primeiros microrganismos. Não entra em química ou astronomia avançadas nem em biologia humana; o foco é contar a sequência de eventos que preparou o planeta para a vida.</p>
+</section>
+<section id="subtema-formação-do-universo" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-formação-do-universo">Subtema: Formação do Universo</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Formação do Universo"</span><span class="fu">,</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"formacao_do_universo"</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema apresenta, em linguagem acessível, como o universo surgiu e se organizou ao longo do tempo, do início quente e denso (Big Bang) ao aparecimento de estrelas, galáxias e sistemas planetários. Explica a expansão e o resfriamento do cosmos, a “luz antiga” registrada como radiação cósmica de fundo e a formação dos primeiros elementos leves. Mostra como as primeiras estrelas acenderam, como explosões estelares reciclaram matéria e produziram elementos mais pesados, e como nuvens de gás e poeira formaram discos que deram origem a planetas. Aborda a diversidade de galáxias, o papel de buracos negros massivos em seus centros e a evolução de estruturas em grande escala. Conecta a história cósmica à História Natural ao destacar quando e onde surgem os ingredientes necessários à vida. Evita matemática e física avançadas; privilegia marcos cronológicos claros e evidências observáveis. Não trata de biologia humana.</p>
+</section>
+<section id="subtema-ambientes-extremos-e-vida" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-ambientes-extremos-e-vida">Subtema: Ambientes Extremos e Vida</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Ambientes Extremos e Vida"</span><span class="fu">,</span></span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"ambientes_extremos_e_vida"</span></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Como a vida consegue existir em lugares “impossíveis”? Este subtema explora organismos e comunidades que vivem sob calor ou frio intensos, grande pressão, falta de luz, pouca água, muita salinidade ou acidez. Aborda fontes do fundo do mar, desertos hiperáridos, geleiras, cavernas, lagos salgados e topos de montanhas. O foco está em exemplos, locais e relações ecológicas — sem entrar em química ou genética avançadas, e sem biologia humana. Ideal para perguntas factuais sobre onde esses ambientes ocorrem, que tipos de seres os habitam e que estratégias gerais permitem sobreviver ali.</p>
+</section>
+<section id="subtema-biologia-animal" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-biologia-animal">Subtema: Biologia Animal</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Biologia Animal"</span><span class="fu">,</span></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"biologia_animal"</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema apresenta a diversidade de formas corporais e funções dos animais, do simples ao complexo. Cobre planos corporais, simetria, tecidos, cavidades e esqueleto (hidrostático, externo, interno); alimentação e digestão; trocas gasosas (cutânea, branquial, traqueal, pulmonar); circulação (aberta/fechada), excreção e osmorregulação; reprodução (assexual/sexual, ovíparos/vivíparos) e desenvolvimento (metamorfose, padrões de segmentação). Aborda grandes grupos (poríferos, cnidários, moluscos, anelídeos, artrópodes, equinodermos, cordados) por características diagnósticas simples e exemplos clássicos. Trata de estratégias gerais de proteção e locomoção (conchas, espinhos, nado, voo, escavação) e de como a temperatura corporal é regulada (ectotermia/endotermia), sem entrar em fisiologia molecular. Não inclui comportamento, ecologia ou evolução humana. Visa perguntas diretas sobre “quem tem o quê” (órgãos, tecidos, tipo de simetria), “como funciona” (respira, circula, se reproduz) e “quando surgiu” em linhas evolutivas amplas, com traços fáceis de observar e comparar. Evita perguntas sobre seres humanos.</p>
+</section>
+<section id="subtema-biologia-vegetal" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-biologia-vegetal">Subtema: Biologia Vegetal</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Biologia Vegetal"</span><span class="fu">,</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"biologia_vegetal"</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema apresenta como as plantas são construídas e funcionam, da briófita à árvore. Cobre órgãos e tecidos (raiz, caule, folha; xilema e floema) e suas funções; formas de reprodução (esporos, sementes; flores e frutos) e ciclos de vida (alternância de gerações). Distingue grupos principais — briófitas, pteridófitas, gimnospermas e angiospermas — por traços simples e exemplos conhecidos. Inclui adaptações morfológicas a luz, água e solo (cutículas espessas, folhas reduzidas, suculência, epifitismo, lianas, plantas carnívoras) e estruturas de suporte e condução. Trata de crescimento (meristemas, anéis de crescimento), dispersão de pólen e sementes em linguagem leiga e sem biologia molecular. Não aborda ecologia de comunidades nem evolução humana. Visa perguntas factuais sobre identificação de grupos, partes e funções, tipos de sementes e frutos, formas de reprodução e marcos evolutivos gerais que permitiram a conquista de ambientes terrestres.</p>
+</section>
+</section>
+<section id="tema-variedades" class="level2">
+<h2 class="anchored" data-anchor-id="tema-variedades">Tema: Variedades</h2>
+<p><strong>Variedades</strong> reúne tópicos amplos e atemporais que não se encaixam diretamente em outras áreas. Abrange cultura, lazer, hobbies, culinária, moda, crenças, idiomas e costumes, priorizando fatos estáveis e verificáveis. Diferencia-se de <strong>Cotidiano</strong> por evitar atualidades efêmeras: aqui o foco está em tradições consolidadas, conceitos duradouros e práticas culturais reconhecidas. As perguntas devem ser neutras, factuais e auditáveis (preferindo enciclopédias e obras de referência), com atenção à diversidade regional e à clareza terminológica. Quando houver fronteira com Artes/História/Esportes, trate o assunto pelo ângulo cultural e social (não estético, historiográfico ou competitivo). Evite modismos sazonais, números “do ano” e controvérsias sem consenso acadêmico. Valorize definições, origens, finalidades, rituais, nomenclatura, relações entre categorias e contextos de uso.</p>
+<section id="subtema-folclore" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-folclore">Subtema: Folclore</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Variedades"</span><span class="fu">,</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"variedades"</span><span class="fu">,</span></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Folclore"</span><span class="fu">,</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"folclore"</span></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Abrange lendas, mitos, contos, provérbios, festas e personagens que expressam a memória cultural de povos e regiões. Inclui narrativas de origem, heróis culturais, seres fantásticos, folguedos, cantigas, danças e artesanato ritual. Valoriza variantes regionais e registros consagrados (coletas etnográficas, enciclopédias, museus). Foque em nomes, lugares, motivos recorrentes e traços distintivos; esclareça quando houver múltiplas versões. Evite datas móveis “do ano” e versões controversas sem fonte canônica.</p>
+</section>
+<section id="subtema-religiões" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-religiões">Subtema: Religiões</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Variedades"</span><span class="fu">,</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"variedades"</span><span class="fu">,</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Religiões"</span><span class="fu">,</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"religioes"</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Panorama neutro e descritivo de crenças, práticas, calendários, textos sagrados, autoridades, templos e correntes internas. Abrange tradições abraâmicas, dhármicas, religiosidades indígenas e novos movimentos. Priorize terminologia reconhecida, datas de fundação, locais de culto, rituais marcantes e passagens canônicas, evitando proselitismo e polêmica conjuntural. Diferencie doutrina, prática e organização; indique nomes originais (língua e transliteração) quando pertinente.</p>
+</section>
+<section id="subtema-idiomas" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-idiomas">Subtema: Idiomas</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Variedades"</span><span class="fu">,</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"variedades"</span><span class="fu">,</span></span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Idiomas"</span><span class="fu">,</span></span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"idiomas"</span></span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Cobre famílias linguísticas, sistemas de escrita (alfabeto, abjad, abugida), línguas oficiais, dialetos, topônimos e expressões idiomáticas. Inclui contato linguístico, empréstimos e etimologias consolidadas. Prefira fatos estáveis (classificações, estatuto oficial, escrita), evitando cifras anuais de falantes. Traduções de palavras/frases curtas são permitidas quando sustentadas por fonte enciclopédica.</p>
+</section>
+<section id="subtema-costumes" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-costumes">Subtema: Costumes</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Variedades"</span><span class="fu">,</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"variedades"</span><span class="fu">,</span></span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Costumes"</span><span class="fu">,</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"costumes"</span></span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Hábitos culturais, etiqueta, ritos de passagem e festas que estruturam a vida social (saudações, presentes, mesa, vestimentas tradicionais, casamentos, funerais). Contextualize variações regionais, significados de gestos e cores, tabus e calendários festivos. Evite modismos; privilegie práticas consolidadas com referência etnográfica ou enciclopédica.</p>
+</section>
+<section id="subtema-culinária" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-culinária">Subtema: Culinária</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Variedades"</span><span class="fu">,</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"variedades"</span><span class="fu">,</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Culinária"</span><span class="fu">,</span></span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"culinaria"</span></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Arte e prática de ingredientes, técnicas e pratos em tradições regionais e nacionais. Inclui métodos (assar, brasear, curar), utensílios clássicos, preparações-base, denominações protegidas e contextos festivos. Use nomes consagrados, origens reconhecidas e distinções claras entre pratos similares; evite dietas da moda e alegações nutricionais controversas.</p>
+</section>
+<section id="subtema-teorias-da-conspiração" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-teorias-da-conspiração">Subtema: Teorias da Conspiração</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Variedades"</span><span class="fu">,</span></span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"variedades"</span><span class="fu">,</span></span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Teorias da Conspiração"</span><span class="fu">,</span></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"teorias_da_conspiracao"</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Tratamento descritivo de alegações populares (p.ex., Área 51, “alienígenas do passado”, JFK, 11/9), sempre rotuladas como <strong>alegações</strong>. Mapeie origem, difusão, conteúdo central e refutações reconhecidas, distinguindo fato documentado de especulação. Priorize fontes críticas/enciclopédicas e evite promover desinformação.</p>
+</section>
+<section id="subtema-sociedades-secretas" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-sociedades-secretas">Subtema: Sociedades Secretas</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Variedades"</span><span class="fu">,</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"variedades"</span><span class="fu">,</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Sociedades Secretas"</span><span class="fu">,</span></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"sociedades_secretas"</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Organizações com rituais, símbolos e membros parcialmente reservados (Maçonaria, Illuminati históricos, <em>Skull and Bones</em>, Carbonários), tratadas com enfoque histórico-documental. Descreva origem, objetivos, estrutura, símbolos, influências e confusões comuns com teorias especulativas. Diferencie documentação primária de mito popular.</p>
+</section>
+</section>
+<section id="tema-artes" class="level2">
+<h2 class="anchored" data-anchor-id="tema-artes">Tema: Artes</h2>
+<p><strong>Artes</strong> cobre criações visuais, sonoras, literárias e cênicas, com foco em obras, autores, técnicas, estilos, períodos e instituições. Priorize dados estáveis (datas, escolas, materiais, formas), títulos originais e termos consagrados. Evite juízos de valor e métricas voláteis; destaque contexto histórico e circulação (patrimônio, coleções, edições, montagens). Diferencie áreas afins (História trata processos; Entretenimento cobre indústria e mercado). Use classificações reconhecidas (movimentos, gêneros, tipologias) e descreva funções, materiais e técnicas sem aprofundar teoria estética.</p>
+<section id="subtema-arquitetura" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-arquitetura">Subtema: Arquitetura</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Artes"</span><span class="fu">,</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"artes"</span><span class="fu">,</span></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Arquitetura"</span><span class="fu">,</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"arquitetura"</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Estuda projetos e construções no tempo: estilos, técnicas, materiais, sistemas estruturais e funções. Considera períodos (antiga, medieval, renascentista, barroca, neoclássica, moderna e contemporânea) e escolas regionais. Mapeia tipologias (templos, catedrais, mesquitas, palácios, teatros, pontes, habitação), elementos (colunas e ordens, arco, abóbada, cúpula), urbanismo (praças, eixos, traçados) e instituições (ateliês, academias, patrimônios). Valoriza datas de projeto/inauguração, autoria coletiva ou de mestres, técnicas (alvenaria, concreto armado, aço, vidro), restauração e conservação. Diferencia arquitetura vernácula da erudita, obras originais de reconstruções e ampliações. Evita julgamentos estéticos, preferindo informações auditáveis: planta, seção, fachada, modulação, escala, materialidade, programa e contexto urbano/territorial. Útil para perguntas sobre identificação de estilos, autoria e cronologia, elementos técnicos e funções de edifícios emblemáticos, além de relações entre forma, técnica e uso.</p>
+</section>
+<section id="subtema-música-clássica" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-música-clássica">Subtema: Música Clássica</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Artes"</span><span class="fu">,</span></span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"artes"</span><span class="fu">,</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Música Clássica"</span><span class="fu">,</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"musica_classica"</span></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Abrange tradições eruditas do Ocidente (Medieval a Contemporânea), destacando formas (sinfonia, concerto, sonata, suíte, quarteto), gêneros vocais (ópera, oratório, cantata) e práticas de performance. Considera períodos (Medieval, Renascença, Barroco, Clássico, Romântico, Moderno), sistemas (modalidade, tonalidade, atonalidade) e instrumentação (famílias orquestrais, teclados, vozes). Mapeia autores, obras, datas de composição/estreia, catálogos (BWV, K., Op.), versões e revisões. Inclui instituições (teatros de ópera, orquestras, conservatórios), edições críticas e tratados históricos. Evita rankings, vendagens ou charts; privilegia fontes sobre partituras, manuscritos, libretos e contextos de encomenda. Útil para perguntas sobre identificação de formas, períodos estilísticos, instrumentações típicas, estreia de obras e vínculos entre compositores, escolas e centros musicais, bem como evolução de técnicas de escrita e prática interpretativa.</p>
+</section>
+<section id="subtema-pintura" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-pintura">Subtema: Pintura</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Artes"</span><span class="fu">,</span></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"artes"</span><span class="fu">,</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Pintura"</span><span class="fu">,</span></span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"pintura"</span></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Estuda imagens bidimensionais em suportes variados (tela, madeira, gesso, papel), técnicas (têmpera, óleo, afresco, aquarela, guache, acrílica, encáustica) e procedimentos (camadas, veladuras, impasto). Considera gêneros (retrato, paisagem, natureza-morta, história), movimentos (Renascimento, Maneirismo, Barroco, Neoclassicismo, Romantismo, Impressionismo, Modernismos, Vanguardas) e escolas regionais. Valoriza autoria, datas, dimensões, coleção (museu, galeria), proveniência e estado de conservação. Distingue esboço, estudo, versão e réplica; registra técnicas diagnósticas (sem detalhamento técnico) e intervenções. Evita avaliações críticas, priorizando dados verificáveis sobre iconografia, composição e materialidade. Útil para perguntas de identificação de obras e autores, contexto de produção, circulação museológica, relações entre movimentos e técnicas, bem como terminologia de ateliê, suportes e pigmentos.</p>
+</section>
+<section id="subtema-escultura" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-escultura">Subtema: Escultura</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Artes"</span><span class="fu">,</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"artes"</span><span class="fu">,</span></span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Escultura"</span><span class="fu">,</span></span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"escultura"</span></span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Analisa obras tridimensionais, materiais (mármore, bronze, madeira, terracota, gesso, ferro, aço, resinas) e técnicas (talha, modelagem, fundição em cera perdida, montagem). Mapeia categorias (estátua, busto, alto/baixo-relevo, grupos), escalas (de miniaturas a monumentos públicos) e funções (religiosas, civis, memoriais, decorativas). Considera tradições clássicas e não ocidentais, períodos e escolas, oficinas e patronos. Registra autoria, datas, dimensões, local original, deslocamentos, coleções e restauros. Diferencia original, cópia antiga, fundição posterior e reinterpretações. Evita juízo estético; privilegia informação técnica e histórica verificável. Útil para perguntas sobre identificação de materiais/técnicas, iconografia, proveniência, cronologia e inserção urbana/paisagística, além de relações entre tecnologia, forma e significado.</p>
+</section>
+<section id="subtema-literatura" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-literatura">Subtema: Literatura</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb30"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Artes"</span><span class="fu">,</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"artes"</span><span class="fu">,</span></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Literatura"</span><span class="fu">,</span></span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"literatura"</span></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Cobre produção verbal em prosa e verso, gêneros (épico, lírico, dramático), formas (romance, novela, conto, poesia, ensaio), movimentos e escolas (clássicos, romantismos, realismos, vanguardas). Valoriza autores, obras, datas de publicação, línguas, editoras, edições, traduções e prêmios. Distingue versões, revisões, ciclos narrativos e séries; registra contextos de circulação (periódicos, folhetins, editoras) e recepção histórica. Evita crítica interpretativa; foca dados verificáveis (estrutura, paratextos, dedicatórias, prefácios). Útil para perguntas de autoria, cronologia, gênero, pertença a movimentos e trajetórias editoriais, bem como relações entre obra, contexto cultural e formas de publicação.</p>
+</section>
+<section id="subtema-teatro" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-teatro">Subtema: Teatro</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb31"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Artes"</span><span class="fu">,</span></span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"artes"</span><span class="fu">,</span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Teatro"</span><span class="fu">,</span></span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"teatro"</span></span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Estuda arte cênica: dramaturgia, encenação, atuação, cenografia, figurino, iluminação e música de cena. Considera tradições (tragédia e comédia antigas, teatro medieval, renascentista, neoclássico, realista, épico, simbolista, do absurdo, contemporâneo) e espaços (anfiteatro, palco italiano, arena, rua). Registra autores, peças, datas de estreia, companhias, diretores, teatros, festivais e prêmios. Diferencia texto dramático de montagem; documenta versões, cortes e traduções. Evita resenhas; prioriza dados estáveis sobre repertórios, convenções de cena e história das companhias. Útil para perguntas de identificação de autores/obras, formas cômicas e trágicas, dispositivos cênicos, cronologias e instituições teatrais.</p>
+</section>
+</section>
+<section id="tema-cotidiano" class="level2">
+<h2 class="anchored" data-anchor-id="tema-cotidiano">Tema: Cotidiano</h2>
+<p>O tema <strong>Cotidiano</strong> abrange eventos, práticas e fenômenos que fazem parte da vida diária das pessoas, com foco em aspectos contemporâneos e atuais. Inclui tópicos como tecnologia, saúde, educação, trabalho, transporte, comunicação, mídia, política e questões sociais. Este tema é ideal para perguntas que exploram como as pessoas vivem, trabalham e interagem no mundo moderno, refletindo mudanças culturais e sociais recentes. O escopo é limitado a eventos e práticas dos últimos 40 anos para garantir relevância temporal.</p>
+<section id="subtema-bens-de-consumo" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-bens-de-consumo">Subtema: Bens de Consumo</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb32"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Cotidiano"</span><span class="fu">,</span></span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"cotidiano"</span><span class="fu">,</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Bens de Consumo"</span><span class="fu">,</span></span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"bens_de_consumo"</span></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema explora os produtos e serviços que as pessoas compram e utilizam no dia a dia, abrangendo desde alimentos e roupas até eletrônicos e automóveis. Cobre aspectos como tendências de consumo, marketing, sustentabilidade, impacto ambiental e inovações tecnológicas. Inclui também a análise de hábitos de compra, influências culturais e econômicas, além de questões relacionadas à produção e distribuição de bens. Ideal para perguntas sobre marcas, tipos de produtos, práticas de consumo consciente e mudanças no mercado.</p>
+</section>
+<section id="subtema-polêmicas-de-celebridades" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-polêmicas-de-celebridades">Subtema: Polêmicas de Celebridades</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb33"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Cotidiano"</span><span class="fu">,</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"cotidiano"</span><span class="fu">,</span></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Polêmicas de Celebridades"</span><span class="fu">,</span></span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"polemicas_de_celebridades"</span></span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema aborda controvérsias e escândalos envolvendo figuras públicas, como atores, músicos, atletas e influenciadores digitais. Cobre eventos que geraram repercussão na mídia, incluindo questões legais, comportamentais, políticas e sociais. Inclui também a análise do impacto dessas polêmicas na carreira das celebridades, na opinião pública e nas redes sociais. Ideal para perguntas sobre incidentes específicos, reações do público, consequências para a imagem das celebridades e o papel da mídia na divulgação dessas histórias. Talvez as fontes não sejam tão confiáveis, mas o tema é popular, expandir o escopo das fontes para sites de fofoca.</p>
+</section>
+<section id="subtema-segurança-pública-e-true-crime" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-segurança-pública-e-true-crime">Subtema: Segurança Pública e True Crime</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb34"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Cotidiano"</span><span class="fu">,</span></span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"cotidiano"</span><span class="fu">,</span></span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Segurança Pública e True Crime"</span><span class="fu">,</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"seguranca_publica_e_true_crime"</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema investiga questões relacionadas à segurança pública, criminalidade e justiça criminal, com foco em casos reais de crimes que geraram grande repercussão. Cobre tópicos como tipos de crimes, perfis criminais, investigações policiais, sistemas judiciais e medidas de prevenção. Inclui também a análise de fatores sociais, econômicos e culturais que influenciam a criminalidade, bem como o impacto dos crimes na sociedade. Ideal para perguntas sobre casos específicos, estatísticas de criminalidade, políticas de segurança e o papel das instituições na manutenção da ordem pública. Inclui facções criminosas globais, como máfias, cartéis e gangues.</p>
+</section>
+<section id="subtema-televisão-e-streaming" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-televisão-e-streaming">Subtema: Televisão e Streaming</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb35"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Cotidiano"</span><span class="fu">,</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"cotidiano"</span><span class="fu">,</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Televisão e Streaming"</span><span class="fu">,</span></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"televisao_e_streaming"</span></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema explora o mundo da televisão e das plataformas de streaming, abrangendo desde a história da TV até as tendências atuais em conteúdo digital. Cobre gêneros televisivos, programas populares, séries originais de streaming, mudanças na forma de consumo de mídia e o impacto dessas plataformas na indústria do entretenimento. Inclui também a análise de audiência, estratégias de marketing e a influência cultural da televisão e do streaming. Ideal para perguntas sobre programas específicos, evolução tecnológica, hábitos de consumo e o futuro da mídia audiovisual.</p>
+</section>
+<section id="subtema-premiações" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-premiações">Subtema: Premiações</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb36"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Cotidiano"</span><span class="fu">,</span></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"cotidiano"</span><span class="fu">,</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Premiações"</span><span class="fu">,</span></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"premiacoes"</span></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Este subtema abrange eventos e cerimônias de premiação em diversas áreas, como cinema, música, literatura, esportes e outras formas de arte e entretenimento. Cobre a história e a importância de prêmios renomados, como o Oscar, Grammy, Nobel, entre outros, bem como os critérios de seleção, categorias e vencedores notáveis. Inclui também a análise do impacto dessas premiações na carreira dos indicados e vencedores, além de discussões sobre controvérsias e críticas relacionadas ao processo de escolha. Ideal para perguntas sobre eventos específicos, ganhadores históricos, tendências em premiações e curiosidades sobre as cerimônias.</p>
+</section>
+</section>
+<section id="tema-ciências" class="level2">
+<h2 class="anchored" data-anchor-id="tema-ciências">Tema: Ciências</h2>
+<p>O tema <strong>Ciências</strong> reúne os fundamentos e aplicações de Matemática, Física, Química, Biologia Humana, Astronomia e Ciência da Computação, além de áreas aplicadas como Engenharia, Economia, Materiais, Ciências da Terra, Energia e Medicina. Para orientar subtemas, priorize conceitos estáveis, leis e modelos, grandezas e unidades, métodos de medição, instrumentos e histórias de descobertas que expliquem o “como funciona” do mundo natural e tecnológico. Em Matemática, ideias centrais (funções, probabilidade, lógica, grafos, otimização) e sua modelagem. Em Física, movimento e energia, ondas e luz, eletricidade e magnetismo, termodinâmica e materiais. Em Química, tabela periódica e ligações, reações e soluções, polímeros e ligas. Em Biologia Humana, sistemas do corpo, homeostase, diagnóstico por imagem, vacinas e saúde pública (sem fauna/flora). Em Astronomia, observação do céu, sistema solar, estrelas/galáxias, instrumentos e missões. Em Computação, algoritmos e estruturas de dados, complexidade, redes, segurança e IA em nível conceitual. Em aplicações, princípios de engenharia, energia e sustentabilidade, economia e tomada de decisão baseada em dados. Evite sobreposição com História Natural: não tratar ecossistemas, biomas, animais, plantas ou paleontologia; manter foco em processos físicos, químicos, matemáticos, humanos e tecnológicos.</p>
+<section id="subtema-história-da-ciência" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-história-da-ciência">Subtema: História da Ciência</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb37"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Ciências"</span><span class="fu">,</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"História da Ciência"</span><span class="fu">,</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"historia_da_ciencia"</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A história da ciência investiga como ideias, métodos e instituições científicas se transformaram do mundo antigo à era digital. Mapeia descobertas, teorias e instrumentos — da geometria e astronomia clássicas aos telescópios, microscópios, aceleradores e computadores — e como mudaram maneiras de medir, provar e publicar (acadêmias, revistas, revisão por pares). Aborda momentos-chave como a Revolução Científica, o Iluminismo, a industrialização, a “Big Science” do século XX e a ciência aberta contemporânea, destacando contribuições de diferentes culturas. Examina controvérsias, mudanças de paradigma e o papel de financiamento, guerra, indústria e Estado. Discute impactos sociais, econômicos e éticos de tecnologias (vacinas, eletricidade, nuclear, espaço, informática e IA), bem como educação científica e popularização. Subtema ideal para perguntas sobre quem fez o quê, quando, com que evidências e por que isso importou.</p>
+</section>
+<section id="subtema-matemática" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-matemática">Subtema: Matemática</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb38"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Ciências"</span><span class="fu">,</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Matemática"</span><span class="fu">,</span></span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"matematica"</span></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A Matemática é a ciência dos números, formas e padrões, essencial para descrever e entender o mundo. Este subtema abrange conceitos fundamentais como aritmética, álgebra, geometria, trigonometria, cálculo, estatística, e probabilidade. Inclui história da matemática, desde os antigos babilônios e egípcios até os matemáticos modernos, destacando descobertas e teoremas importantes. Não incluir perguntas envolvendo cálculos numéricos.</p>
+</section>
+<section id="subtema-física" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-física">Subtema: Física</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb39"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Ciências"</span><span class="fu">,</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Física"</span><span class="fu">,</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"fisica"</span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A Física é a ciência que estuda as propriedades e interações da matéria e energia. Este subtema abrange conceitos fundamentais como mecânica, termodinâmica, eletromagnetismo, óptica, física moderna (relatividade e mecânica quântica) e astrofísica. Inclui também a história da Física, desde os primeiros filósofos gregos até os avanços tecnológicos contemporâneos. O foco é entender como as leis da natureza governam o comportamento do universo, sem entrar em cálculos complexos.</p>
+</section>
+<section id="subtema-química" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-química">Subtema: Química</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb40"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Ciências"</span><span class="fu">,</span></span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Química"</span><span class="fu">,</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"quimica"</span></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A Química é a ciência que estuda a composição, estrutura, propriedades e transformações da matéria. Este subtema abrange conceitos fundamentais como átomos, moléculas, reações químicas, estados da matéria, tabela periódica, ligações químicas e estequiometria. Inclui também a história da Química, desde os alquimistas até os avanços modernos em química orgânica e inorgânica. O foco é entender como as substâncias interagem e se transformam, sem entrar em cálculos complexos.</p>
+</section>
+<section id="subtema-biologia-humana" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-biologia-humana">Subtema: Biologia Humana</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb41"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Ciências"</span><span class="fu">,</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Biologia Humana"</span><span class="fu">,</span></span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"biologia_humana"</span></span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A Biologia Humana é o estudo dos sistemas biológicos que compõem o corpo humano, incluindo anatomia, fisiologia, genética e desenvolvimento. Este subtema abrange os principais sistemas do corpo, como circulatório, respiratório, digestivo, nervoso, endócrino e imunológico. Inclui também tópicos como homeostase, metabolismo, reprodução e desenvolvimento humano. A história da Biologia Humana é explorada desde os primeiros estudos anatômicos até as descobertas modernas em genética e biotecnologia. O foco é entender como o corpo humano funciona e se adapta ao ambiente, sem entrar em detalhes sobre ecossistemas ou fauna/flora.</p>
+</section>
+<section id="subtema-astronomia" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-astronomia">Subtema: Astronomia</h3>
+<p>Exemplo JSON:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb42"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb42-2"><a href="#cb42-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Ciências"</span><span class="fu">,</span></span>
+<span id="cb42-3"><a href="#cb42-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"ciencias"</span><span class="fu">,</span></span>
+<span id="cb42-4"><a href="#cb42-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Astronomia"</span><span class="fu">,</span></span>
+<span id="cb42-5"><a href="#cb42-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"astronomia"</span></span>
+<span id="cb42-6"><a href="#cb42-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>A Astronomia estuda o céu e o universo: fases da Lua, eclipses, estações, o Sistema Solar (planetas, satélites, asteroides, cometas), o Sol como estrela, outras estrelas e seus ciclos, exoplanetas, a Via Láctea e as galáxias, além de fenômenos como nebulosas, supernovas, buracos negros e aglomerados. Aborda como surgem sistemas planetários, como as estrelas nascem, vivem e “morrem”, e como a gravidade organiza escalas do local ao cosmológico. Inclui leis clássicas (Kepler, Newton) em nível conceitual, a luz e o espectro para descobrir composição e movimento, e os instrumentos de observação (telescópios terrestres e espaciais, sondas, radiotelescópios). Valoriza linhas do tempo de descobertas e missões, marcos observacionais e comparações entre objetos. Evita matemática pesada: prioriza definições, classificações, causas e consequências observáveis, gerando subtemas claros e férteis para perguntas factuais.</p>
+</section>
+<section id="subtema-ciências-da-computação" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-ciências-da-computação">Subtema: Ciências da Computação</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb43"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Ciências"</span><span class="fu">,</span></span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"ciencias"</span><span class="fu">,</span></span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Ciências da Computação"</span><span class="fu">,</span></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"ciencias_da_computacao"</span></span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+</section>
+<section id="tema-entretenimento" class="level2">
+<h2 class="anchored" data-anchor-id="tema-entretenimento">Tema: Entretenimento</h2>
+<p><strong>Entretenimento</strong> abarca TV, cinema, séries, jogos eletrônicos, anime/mangá, música popular e jogos de mesa/cartas. Priorize dados estáveis (créditos, ano, estúdio, editora, prêmios, formatos) e títulos oficiais, evitando métricas voláteis.</p>
+<section id="subtema-programas-de-televisão" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-programas-de-televisão">Subtema: Programas de Televisão</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb44"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Entretenimento"</span><span class="fu">,</span></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"entretenimento"</span><span class="fu">,</span></span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Programas de Televisão"</span><span class="fu">,</span></span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"programas_de_televisao"</span></span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Abrange gêneros e formatos televisivos (telejornais, variedades, reality, game/talk shows, documentais), com foco em criação, produção e circulação. Considera país de origem, emissoras/redes, licenciamento e adaptações, apresentadores e elencos fixos, datas de estreia, temporadas e reformulações. Explora relação entre formato e grade (diária, semanal, sazonal), papéis de diretores/showrunners/produtoras e diferenças entre conteúdos roteirizados e não roteirizados. Inclui prêmios setoriais, padrões técnicos (classificação indicativa, duração, intervalos), estúdios e locações. Evita audiência semanal e “trend” momentâneo, privilegiando marcos institucionais e mudanças duradouras. Útil para perguntas sobre origem de formatos, versões locais de programas, evolução de quadros, regras de competições e identificação de créditos principais. Quando houver múltiplos títulos em países distintos, prioriza o nome original e a tradução consagrada, registrando também canais de exibição e eventuais mudanças de casa ao longo das temporadas.</p>
+</section>
+<section id="subtema-filmes" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-filmes">Subtema: Filmes</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb45"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Entretenimento"</span><span class="fu">,</span></span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"entretenimento"</span><span class="fu">,</span></span>
+<span id="cb45-4"><a href="#cb45-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Filmes"</span><span class="fu">,</span></span>
+<span id="cb45-5"><a href="#cb45-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"filmes"</span></span>
+<span id="cb45-6"><a href="#cb45-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Foca obras cinematográficas como produtos culturais e industriais: diretores, roteiristas, elencos, produtores, estúdios, distribuidoras, trilhas, direções de fotografia e de arte. Considera cronologias de lançamento, cortes e versões (cinema, diretor, restaurada), gêneros e subgêneros, franquias e universos compartilhados. Aborda classificação indicativa, formatos de exibição (35 mm, digital, IMAX), idiomas e países de produção. Explora festivais e premiações canônicas (Cannes, Veneza, Berlim, Oscars) e critérios de elegibilidade. Evita bilheterias semanais e recepção volátil, priorizando marcos estáveis, prêmios, datas e créditos oficiais. Útil para perguntas sobre autoria, ordem de trilogias, relação com estúdios/selos, primeiras aparições de personagens, inspirações literárias e técnicas recorrentes. Indica títulos originais e traduções consagradas, distinguindo curtas, longas e animações, e registrando relançamentos e restaurações relevantes.</p>
+</section>
+<section id="subtema-séries" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-séries">Subtema: Séries</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb46"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Entretenimento"</span><span class="fu">,</span></span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"entretenimento"</span><span class="fu">,</span></span>
+<span id="cb46-4"><a href="#cb46-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Séries"</span><span class="fu">,</span></span>
+<span id="cb46-5"><a href="#cb46-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"series"</span></span>
+<span id="cb46-6"><a href="#cb46-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Trata séries para TV e streaming, destacando showrunners, criadores, roteiristas, diretores, elenco, canais e plataformas. Cobre temporadas, número e ordem de episódios, calendários de exibição, hiatos e mudanças de casa. Diferencia minisséries, antologias, sitcoms, dramas, procedurais e animações seriadas, além de spin-offs, reboots e crossovers. Explora bíblia da série, ambientação, trilha de abertura e identidade visual, evitando spoilers recentes; quando inevitáveis, sinalize. Considera prêmios (Emmys e afins), classificações etárias e versões internacionais (dublagem, legendagem, cortes regionais). Prioriza dados estáveis: datas de estreia/final, créditos oficiais e ordem canônica de visualização. Útil para perguntas sobre origem, equipe de criação, mudanças de elenco/showrunner, relação com obras-fonte (livros, HQs) e diferenças entre versões, sem recorrer a métricas voláteis de audiência semanal.</p>
+</section>
+<section id="subtema-jogos-eletrônicos" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-jogos-eletrônicos">Subtema: Jogos Eletrônicos</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb47"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Entretenimento"</span><span class="fu">,</span></span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"entretenimento"</span><span class="fu">,</span></span>
+<span id="cb47-4"><a href="#cb47-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Jogos Eletrônicos"</span><span class="fu">,</span></span>
+<span id="cb47-5"><a href="#cb47-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"jogos_eletronicos"</span></span>
+<span id="cb47-6"><a href="#cb47-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Abrange títulos, franquias e estúdios, com ênfase em ano de lançamento, publishers, plataformas (PC, consoles, mobile), gêneros/subgêneros (ação, RPG, estratégia, simulação) e modos (single, cooperativo, competitivo). Considera motores de jogo, remasters, remakes, ports e coleções, classificações etárias (ESRB, PEGI) e acessibilidade. Explora design de níveis, narrativa interativa, trilha e dublagem, conquistas e conteúdo adicional (DLCs, expansões), evitando notas de review e patches voláteis. Reconhece comunidades e cenas estabelecidas (speedrunning, modding) em perspectiva histórica. Útil para perguntas sobre plataformas originais, estúdios responsáveis, mudanças entre versões, cronologias internas de franquias e inovações de mecânica. Prioriza títulos oficiais, edições definitivas e dados canônicos de crédito e lançamento, incluindo compilações e remasterizações.</p>
+</section>
+<section id="subtema-anime-e-mangá" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-anime-e-mangá">Subtema: Anime e Mangá</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb48"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Entretenimento"</span><span class="fu">,</span></span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"entretenimento"</span><span class="fu">,</span></span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Anime e Mangá"</span><span class="fu">,</span></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"anime_e_manga"</span></span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Cobre mangás (autores, editoras, revistas de serialização, demografias — shōnen, shōjo, seinen, josei — volumes e status) e animes (estúdios, diretores, roteiristas, temporadas, cour, filmes, OVAs, ONAs). Registra títulos originais em japonês com transliteração e traduções consagradas, além de datas de estreia e conclusão. Aborda selos editoriais, premiações do setor e blocos de exibição, distinguindo cânone de material adicional. Considera diferenças entre obra-base e adaptação, trilhas de abertura/encerramento, dublagem e distribuição internacional. Evita rankings semanais e “hype” passageiro, priorizando marcos estáveis, créditos oficiais e cronologias de publicação/transmissão. Útil para perguntas sobre origem editorial, equipe principal, estúdio, ordem canônica de leitura/visualização, arcos e filmes vinculados.</p>
+</section>
+<section id="subtema-música-popular" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-música-popular">Subtema: Música Popular</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb49"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Entretenimento"</span><span class="fu">,</span></span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"entretenimento"</span><span class="fu">,</span></span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Música Popular"</span><span class="fu">,</span></span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"musica_popular"</span></span>
+<span id="cb49-6"><a href="#cb49-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Envolve artistas, bandas, compositores e produtores, com foco em álbuns, EPs e singles, selos/distribuidoras, gêneros/subgêneros, anos de lançamento, colaborações e prêmios (Grammy, BRIT, VMA). Prioriza discografias oficiais, créditos de composição/produção, versões e relançamentos, certificações (ouro/platina) e edições especiais. Evita paradas semanais e números voláteis, privilegiando marcos estáveis e influências documentadas. Considera formatos físicos e digitais, remasterizações, capas icônicas e turnês históricas como contexto. Útil para perguntas sobre autoria de canções, ordem de discos, mudanças de formação, selos responsáveis e impacto reconhecido, distinguindo álbuns de estúdio, ao vivo e coletâneas.</p>
+</section>
+<section id="subtema-jogos-de-tabuleiro-e-cartas" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-jogos-de-tabuleiro-e-cartas">Subtema: Jogos de Tabuleiro e Cartas</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb50"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Entretenimento"</span><span class="fu">,</span></span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"entretenimento"</span><span class="fu">,</span></span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Jogos de Tabuleiro e Cartas"</span><span class="fu">,</span></span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"jogos_de_tabuleiro_e_cartas"</span></span>
+<span id="cb50-6"><a href="#cb50-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Abrange jogos clássicos e modernos, enfatizando designers, editoras, ano da primeira edição, mecânicas (worker placement, deck-building, draft, controle de área), tempo médio, número de jogadores e escalabilidade. Considera modos competitivos/cooperativos, variações solo, expansões, reimplementações e edições revisadas. Distingue “core rules” de módulos opcionais, componentes (tabuleiros, miniaturas, cartas, dados, marcadores) e ambientações. Inclui cartas clássicas (bridge, pôquer), TCGs e LCGs, evitando preços e mercado secundário. Útil para perguntas sobre autoria, mecânicas principais, editoras originais, linhas de expansão, prêmios setoriais e diferenças entre edições, com base em regras oficiais e dados de publicação estáveis.</p>
+</section>
+</section>
+<section id="tema-esportes" class="level2">
+<h2 class="anchored" data-anchor-id="tema-esportes">Tema: Esportes</h2>
+<p><strong>Esportes</strong> estuda práticas competitivas e recreativas, suas regras, instituições, arenas e tradições. Priorize fatos estáveis (regras oficiais, formatos de torneios, datas de fundação, sedes históricas, terminologia, equipamentos padronizados) e evite números que mudam por temporada. Quando houver fronteira com <strong>Entretenimento</strong>, foque o aspecto esportivo-institucional, não a cobertura midiática. Para criar <em>microsubtemas</em>, delimite por modalidade, competição, regras, posições/táticas clássicas, infraestrutura (estádios, pistas), cronologias e biografias bem estabelecidas — sem estatísticas voláteis. Prefira regulamentos e fontes enciclopédicas; identifique nomes oficiais (em língua original quando pertinente), datas, locais, instituições e consequências esportivas.</p>
+<section id="subtema-futebol" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-futebol">Subtema: Futebol</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb51"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Esportes"</span><span class="fu">,</span></span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"esportes"</span><span class="fu">,</span></span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Futebol"</span><span class="fu">,</span></span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"futebol"</span></span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Associação (association football): <strong>Leis do Jogo</strong> (IFAB), posições, sistemas de jogo clássicos, árbitros, estádios, clubes e seleções históricas, competições tradicionais e entidades (FIFA, confederações). Evitar estatísticas da temporada; preferir regras, formatos, datas, sedes e títulos consagrados.</p>
+</section>
+<section id="subtema-basquete" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-basquete">Subtema: Basquete</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb52"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Esportes"</span><span class="fu">,</span></span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"esportes"</span><span class="fu">,</span></span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Basquete"</span><span class="fu">,</span></span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"basquete"</span></span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Fundamentos, posições, dimensões de quadra, cronologia e diferenças <strong>FIBA/NBA</strong>, infrações (travelling, goaltending), torneios históricos e franquias/tradições. Valorize regras, formatos de playoffs, recordes estruturais (linhas, tempos), invenção e difusão do esporte.</p>
+</section>
+<section id="subtema-tênis" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-tênis">Subtema: Tênis</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb53"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Esportes"</span><span class="fu">,</span></span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"esportes"</span><span class="fu">,</span></span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Tênis"</span><span class="fu">,</span></span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"tenis"</span></span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Pontuação (games/sets/tiebreak), quadras (saibro, grama, duro), <strong>Grand Slams</strong>, Copa Davis/Billie Jean King Cup, equipamentos homologados e superfícies. Evite rankings atuais; foque regras, formatos, calendários clássicos e sedes históricas.</p>
+</section>
+<section id="subtema-automobilismo" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-automobilismo">Subtema: Automobilismo</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb54"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Esportes"</span><span class="fu">,</span></span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"esportes"</span><span class="fu">,</span></span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Automobilismo"</span><span class="fu">,</span></span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"automobilismo"</span></span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Categorias (F1, Indy, Endurance, Rally), bandeiras e procedimentos, boxes, safety car, circuitos icônicos, regulamentos técnicos de alto nível e entidades (FIA). Priorize formatos de provas, terminologia e evolução de regras consagradas.</p>
+</section>
+<section id="subtema-olimpíadas" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-olimpíadas">Subtema: Olimpíadas</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb55"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Esportes"</span><span class="fu">,</span></span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"esportes"</span><span class="fu">,</span></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Olimpíadas"</span><span class="fu">,</span></span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"olimpiadas"</span></span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>História dos Jogos Olímpicos modernos (verão/inverno), símbolos (aneles, lema), cerimônias, sedes, programas esportivos e estrutura do <strong>COI</strong>/comitês. Diferencie edições, boicotes e marcos institucionais; evitar tabelas de medalhas “da temporada”.</p>
+</section>
+<section id="subtema-esportes-radicais" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-esportes-radicais">Subtema: Esportes Radicais</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb56"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Esportes"</span><span class="fu">,</span></span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"esportes"</span><span class="fu">,</span></span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Esportes Radicais"</span><span class="fu">,</span></span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"esportes_radicais"</span></span>
+<span id="cb56-6"><a href="#cb56-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Skate, surf, BMX, escalada, paraquedismo e afins: ambientes (rua, park, ondas, rocha), manobras, equipamentos, segurança e eventos clássicos. Foque terminologia padronizada, tipos de prova e evolução histórica reconhecida.</p>
+</section>
+<section id="subtema-artes-marciais" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-artes-marciais">Subtema: Artes Marciais</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb57"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Esportes"</span><span class="fu">,</span></span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"esportes"</span><span class="fu">,</span></span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Artes Marciais"</span><span class="fu">,</span></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"artes_marciais"</span></span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Tradições e esportivizações (judô, karatê, taekwondo, jiu-jítsu brasileiro, muay thai, entre outras): origens, graduações, técnicas, regras de competição, federações e eventos canônicos. Distinguir arte marcial de esporte de combate quando necessário.</p>
+</section>
+<section id="subtema-esportes-diversos" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-esportes-diversos">Subtema: Esportes Diversos</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb58"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Esportes"</span><span class="fu">,</span></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"esportes"</span><span class="fu">,</span></span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Esportes Diversos"</span><span class="fu">,</span></span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"esportes_diversos"</span></span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Guarda-chuva para modalidades <strong>não</strong> cobertas acima (exclui: Futebol, Basquete, Tênis, Automobilismo, Olimpíadas, Esportes Radicais, Artes Marciais). Inclui, por exemplo, atletismo, natação, voleibol, handebol, rugby, beisebol/softbol, hóqueis, ginástica, ciclismo, halterofilismo. Valorize regras oficiais, medidas e equipamentos regulamentados, formatos de competição e instituições.</p>
+</section>
+</section>
+<section id="tema-história" class="level2">
+<h2 class="anchored" data-anchor-id="tema-história">Tema: História</h2>
+<p><strong>História</strong> estuda mudanças e permanências nas sociedades humanas no tempo, por meio de fontes (textos, objetos, imagens, arquitetura, mapas) e métodos críticos. Privilegia fatos estáveis, cronologias claras, contextos regionais e interpretações amplamente aceitas. Diferencia-se de <strong>Geografia</strong> (ênfase espacial), <strong>Ciências</strong> (métodos e teorias científicas) e <strong>História Natural</strong> (processos naturais). Para criar <em>microsubtemas</em>, delimite recortes nítidos por período, região, civilização, tema institucional (leis, religião, economia, guerra) ou gênero de fonte, evitando sobreposições e modismos. Prefira registros canônicos (crônicas, inscrições, códigos legais, tratados, obras clássicas), identifique atores, datas, lugares e consequências, e explicite fronteiras (o que entra e o que fica para outro subtema).</p>
+<section id="subtema-filosofia" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-filosofia">Subtema: Filosofia</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb59"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb59-1"><a href="#cb59-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb59-2"><a href="#cb59-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb59-3"><a href="#cb59-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb59-4"><a href="#cb59-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Filosofia"</span><span class="fu">,</span></span>
+<span id="cb59-5"><a href="#cb59-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"filosofia"</span></span>
+<span id="cb59-6"><a href="#cb59-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Desenvolvimento histórico do pensamento filosófico: escolas, movimentos, obras e autores da Antiguidade à contemporaneidade. Foco em correntes (estoicismo, escolástica, iluminismo, idealismo, existencialismo, analítica), textos fundacionais, contextos institucionais (acadêmias, universidades, mosteiros), circulação de ideias e disputas canônicas. Evitar tratamento técnico de lógica ou metafísica; priorizar o <strong>contexto histórico</strong> de produção, recepção e influência (traduções, censuras, polêmicas).</p>
+</section>
+<section id="subtema-pré-história" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-pré-história">Subtema: Pré-História</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb60"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Pré-História"</span><span class="fu">,</span></span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"pre_historia"</span></span>
+<span id="cb60-6"><a href="#cb60-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Abrange a história humana <strong>antes da escrita</strong>, com ênfase arqueológica: Paleolítico a Neolítico, indústrias líticas, arte rupestre e móvel, domicílios, megalitos, domesticação inicial, transições de caça-coleta para agricultura e formação de aldeias/complexidade social. Valoriza cronologias regionais, ambientes e rotas de difusão. Usa datação relativa/absoluta sem técnica laboratorial detalhada. Evita filogenia de hominínios (tratada em “Antropologia e Evolução Humana”).</p>
+</section>
+<section id="subtema-idade-antiga" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-idade-antiga">Subtema: Idade Antiga</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb61"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb61-1"><a href="#cb61-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb61-2"><a href="#cb61-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb61-3"><a href="#cb61-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb61-4"><a href="#cb61-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Idade Antiga"</span><span class="fu">,</span></span>
+<span id="cb61-5"><a href="#cb61-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"idade_antiga"</span></span>
+<span id="cb61-6"><a href="#cb61-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Do surgimento das primeiras civilizações urbanas ao declínio do Império Romano do Ocidente. Inclui Mesopotâmia, Egito, Levante, Pérsia, Grécia, Roma, Índia antiga, China antiga e outras tradições afro-eurasiáticas. Temas: Estados, leis, impérios, comércio, religiões, literatura, artes e tecnologias. Diferenciar de Pré-História (sem escrita) e de Idade Média (novas formações políticas e religiosas).</p>
+</section>
+<section id="subtema-idade-média" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-idade-média">Subtema: Idade Média</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb62"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Idade Média"</span><span class="fu">,</span></span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"idade_media"</span></span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Aproximadamente sécs. V–XV, abrangendo Bizâncio, Europa latina, mundo islâmico, impérios e redes afro-eurasiáticas (Sahel, Índico, Rota da Seda) e Leste Asiático. Temas: feudalismos, cidades e corporações, monaquismo e escolástica, cruzadas, califados e sultanatos, rotas comerciais, cultura material e arte sacra. Marcar transições para Idade Moderna (Renascimentos, expansão marítima, reformas).</p>
+</section>
+<section id="subtema-idade-moderna" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-idade-moderna">Subtema: Idade Moderna</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb63"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb63-3"><a href="#cb63-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb63-4"><a href="#cb63-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Idade Moderna"</span><span class="fu">,</span></span>
+<span id="cb63-5"><a href="#cb63-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"idade_moderna"</span></span>
+<span id="cb63-6"><a href="#cb63-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>C. sécs. XV–XVIII: Renascimentos, expansão atlântica, contatos intercontinentais, Reforma e Contrarreforma, absolutismos, economias mercantis e escravização atlântica. Destacar transformações culturais e institucionais, Estados fiscais-militares, diplomacia e circulação de saberes. Diferenciar da História das Ciências (aspectos técnicos) ao tratar a <strong>contextualização histórica</strong>.</p>
+</section>
+<section id="subtema-idade-contemporânea" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-idade-contemporânea">Subtema: Idade Contemporânea</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb64"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Idade Contemporânea"</span><span class="fu">,</span></span>
+<span id="cb64-5"><a href="#cb64-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"idade_contemporanea"</span></span>
+<span id="cb64-6"><a href="#cb64-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Do final do séc. XVIII ao presente: Revoluções atlânticas, industrializações, nacionalismos e imperialismos, guerras mundiais, descolonizações, Guerra Fria, integrações regionais e globalização. Priorizar marcos institucionais (constituições, tratados, organizações), movimentos sociais, transformações econômicas e culturais. Evitar atualidades efêmeras; focar processos consolidados.</p>
+</section>
+<section id="subtema-história-do-brasil" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-história-do-brasil">Subtema: História do Brasil</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb65"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"História do Brasil"</span><span class="fu">,</span></span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"historia_do_brasil"</span></span>
+<span id="cb65-6"><a href="#cb65-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Da diversidade indígena pré-colonial à República contemporânea: colonização portuguesa, economia colonial e escravização, Independência, Império, Abolição, República, reformas políticas, ciclos econômicos, urbanização, regimes e redemocratização. Destacar constituições, leis fundamentais, conflitos, imigração e formação territorial. Evitar política muito recente; privilegiar sínteses documentadas.</p>
+</section>
+<section id="subtema-segunda-guerra-mundial" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-segunda-guerra-mundial">Subtema: Segunda Guerra Mundial</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb66"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb66-4"><a href="#cb66-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Segunda Guerra Mundial"</span><span class="fu">,</span></span>
+<span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"segunda_guerra_mundial"</span></span>
+<span id="cb66-6"><a href="#cb66-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Conflito global (1939–1945): origens, alianças, frentes de combate, operações decisivas, economia de guerra, diplomacia, genocídios (Holocausto) e consequências geopolíticas. Foco em datas, tratados, campanhas, lideranças e documentos; evitar estimativas controvertidas. Considerar dimensões civil e colonial, resistência e reconstrução pós-guerra.</p>
+</section>
+<section id="subtema-primeira-guerra-mundial" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-primeira-guerra-mundial">Subtema: Primeira Guerra Mundial</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb67"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb67-3"><a href="#cb67-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb67-4"><a href="#cb67-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Primeira Guerra Mundial"</span><span class="fu">,</span></span>
+<span id="cb67-5"><a href="#cb67-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"primeira_guerra_mundial"</span></span>
+<span id="cb67-6"><a href="#cb67-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Conflito (1914–1918): alianças, mobilização, frentes ocidental/oriental/colonial, guerra de trincheiras, tecnologia militar, colapsos imperiais, conferências de paz e redesenho territorial. Enfatizar causas de longa duração, cronologia de 1914, tratados (Versalhes e correlatos) e impactos sociais.</p>
+</section>
+<section id="subtema-roma-antiga" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-roma-antiga">Subtema: Roma Antiga</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb68"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb68-1"><a href="#cb68-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb68-2"><a href="#cb68-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb68-3"><a href="#cb68-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb68-4"><a href="#cb68-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Roma Antiga"</span><span class="fu">,</span></span>
+<span id="cb68-5"><a href="#cb68-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"roma_antiga"</span></span>
+<span id="cb68-6"><a href="#cb68-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Da monarquia à República e ao Império: instituições (senado, magistraturas, direito), expansão, administração provincial, exército, urbanismo, religião, cultura escrita e monumentalidade. Marcar cronologias (Reformas Gracanas, Principado, Dominate), crises e continuidades. Evitar recepções modernas; privilegiar fontes antigas e arqueologia.</p>
+</section>
+<section id="subtema-civilização-chinesa" class="level3">
+<h3 class="anchored" data-anchor-id="subtema-civilização-chinesa">Subtema: Civilização Chinesa</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb69"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb69-1"><a href="#cb69-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb69-2"><a href="#cb69-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História"</span><span class="fu">,</span></span>
+<span id="cb69-3"><a href="#cb69-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia"</span><span class="fu">,</span></span>
+<span id="cb69-4"><a href="#cb69-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Civilização Chinesa"</span><span class="fu">,</span></span>
+<span id="cb69-5"><a href="#cb69-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"civilizacao_chinesa"</span></span>
+<span id="cb69-6"><a href="#cb69-6" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Longa duração das dinastias e Estados na China: formação imperial (Qin–Han), períodos de divisão, reunificações (Sui–Tang), transformações Song–Yuan–Ming–Qing e repúblicas/repensões modernas. Temas: burocracia, exames imperiais, classicismo, religiões/filosofias, tecnologias, comércio interno/externo e relações tributo-diplomáticas. Diferenciar narrativa interna de influências e contatos regionais.</p>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

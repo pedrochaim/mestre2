@@ -5,7 +5,7 @@ O objetivo deste documento é fornecer diretrizes claras e detalhadas para a cri
 As perguntas serão geradas a nível de **microsubtemas** dentro de cada **subtema** de um **tema** maior, conforme detalhado nos documentos específicos de subtemas (ex.: `./docs/Subtemas_Geografia_Detalhamento.md`). Cada microsubtema foca em aspectos distintos do subtema, ajudando a garantir uma cobertura mais detalhada e diversificada. O produto final será um arquivo JSON estruturado conforme o schema definido em `./docs/pergunta.schema.json`. 
 
 Cada arquivo JSON a nível de microsubtema será nomeado seguindo a convenção `./data/Perguntas_{tema}/{tema}_{subtema_clean}_{microsubtema_clean}.json`.
-Eles então serão unidos em um único arquivo por subtema (`./data/Perguntas_{tema}/{tema}_{subtema_clean}.json`), e posteriormente em um arquivo mestre por tema.
+Eles então serão unidos em um único arquivo por subtema (`./data/Perguntas_{tema}/{tema}_{subtema_clean}.json`), e posteriormente em um arquivo mestre por tema (`./data/{tema_clean}.json`.
 
 
 **Escopo multi-temas:** válido para Artes, História, Esportes, Ciências, Geografia, Entretenimento, etc.  
@@ -25,7 +25,7 @@ Eles então serão unidos em um único arquivo por subtema (`./data/Perguntas_{t
 - **`<resposta>`**: somente a **resposta final**, sem explicações. Em V/F deve ser exatamente **"Verdadeiro"** ou **"Falso"**.  
 - **`<fonte>`**: **array** com **≥ 2 URLs** específicas e **não contraditórias** (priorize Wikipedia em inglês + fonte adicional confiável/oficial).
 - Campos opcionais:
-- **`<microsubtema>`**: Cada `<subtema>` é organizado em subcategorias, cada uma um `<microsubtema>`. O detalhamento dos microsubtemas é fornecido em outros documentos, cuja localização no projeto e nomenclatura será no formato `./docs/Subtemas_<tema>_Detalhamento.md`. Os microsubtemas ajudam a garantir uma cobertura mais detalhada e diversificada dentro de cada subtema. O processo de geração de perguntas será ao nível de microsubtemas, assegurando que diferentes aspectos do subtema sejam abordados.
+- **`<microsubtema>`**: Cada `<subtema>` é organizado em subcategorias, cada uma um `<microsubtema>`. O detalhamento dos microsubtemas é fornecido no momento do prompt. Os microsubtemas ajudam a garantir uma cobertura mais detalhada e diversificada dentro de cada subtema. O processo de geração de perguntas será ao nível de microsubtemas, assegurando que diferentes aspectos do subtema sejam abordados.
 - **`<subtema_clean>`**: versão “limpa” do `<subtema>`, sem espaços ou caracteres especiais, para uso em nomes de arquivos e URLs. Use underscores (_) para separar palavras.
 - **`<microsubtema_clean>`**: versão “limpa” do `<microsubtema>`, sem espaços ou caracteres especiais, para uso em nomes de arquivos e URLs. Use underscores (_) para separar palavras.
 - **`<misc>`**: campo livre para anotações internas. Seu valor pode ser utilizado para alterar critérios na geração de perguntas, como por exemplo: `{"ignore_dificuldade": true}`.
@@ -56,8 +56,6 @@ Eles então serão unidos em um único arquivo por subtema (`./data/Perguntas_{t
 - **D1 (fácil)** — Familiaridade **alta**, **1** fato direto, sem sutilezas. Perguntas literais e inequívocas.  
 - **D2 (médio)** — Familiaridade **média**, **1–2** fatos, pequena comparação/associação ou leitura breve.  
 - **D3 (difícil)** — Familiaridade **baixa** ou **exceções**; **2–3** fatos integrados; distinções finas. Não confundir com obscuridade gratuita.
-
-**Regras de ouro**: Dificultar **não** é tornar ambíguo; evite “pegadinhas”. Prefira **fatos estáveis** a dados altamente sazonais/voláteis. D3 ≠ conta longa: foque integração conceitual.
 
 ---
 
@@ -108,7 +106,7 @@ Eles então serão unidos em um único arquivo por subtema (`./data/Perguntas_{t
 - [ ] `id` único; campos do schema preenchidos.  
 - [ ] Enunciado claro, **sem marcações** fora do padrão.  
 - [ ] **2+ fontes** específicas, acessíveis e consistentes.  
-- [ ] ≤ **3 questões** por entidade/fenômeno no conjunto.  
+- [ ] ≤ **5 questões** por entidade/fenômeno no conjunto.  
 - [ ] Similaridade com enunciados existentes **≤ 80%**.  
 - [ ] MCQ: 4 alternativas A–D; 1 correta; distratores plausíveis.  
 - [ ] V/F: resposta “Verdadeiro” ou “Falso”.
@@ -116,7 +114,7 @@ Eles então serão unidos em um único arquivo por subtema (`./data/Perguntas_{t
 ---
 
 ## 9) Convenções e Arquivos
-- Nome do arquivo: `{tema}_{subtema_clean}_{microsubtema_clean}_{YYYYMMDD}.json`.  
+- Nome do arquivo: `{tema}_{subtema_clean}_{microsubtema_clean}.json`.  
 - Ordene por `id`; use UTF-8 e quebras de linha Unix.  
 
 
@@ -136,6 +134,6 @@ Eles então serão unidos em um único arquivo por subtema (`./data/Perguntas_{t
 - Perguntas de atualidades efêmeras; números “do ano”.  
 - Enunciados ambíguos, truques de linguagem ou pegadinhas sem base conceitual.  
 - MCQ com alternativas de tamanhos díspares, ou com “todas/nenhuma”.  
-- Repetir o mesmo indivíduo/obra/time/evento acima de 3 vezes no conjunto.
+- Repetir o mesmo indivíduo/obra/time/evento acima de 5 vezes no conjunto.
 
 ---

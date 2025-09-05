@@ -31,79 +31,6 @@ A nomenclatura dos arquivos será no formato `<tema_clean>_<subtema_clean>.json`
 
 * Então inclui uma breve descrição de cada `<subtema>`, com no máximo 150 palavras.
 
-## Sumário
-- [Dicionário de Temas e Subtemas](#dicionário-de-temas-e-subtemas)
-  - [Estrutura do Documento](#estrutura-do-documento)
-  - [Sumário](#sumário)
-  - [Tema: Geografia](#tema-geografia)
-    - [Subtema: Países, Capitais e Cidades Notáveis](#subtema-países-capitais-e-cidades-notáveis)
-    - [Subtema: Maravilhas Naturais](#subtema-maravilhas-naturais)
-    - [Subtema: Geopolítica](#subtema-geopolítica)
-    - [Subtema: Economia Regional](#subtema-economia-regional)
-    - [Subtema: Vegetação e Biomas](#subtema-vegetação-e-biomas)
-    - [Subtema: Oceanos e Mares](#subtema-oceanos-e-mares)
-    - [Subtema: Relevo e Formações Geológicas](#subtema-relevo-e-formações-geológicas)
-    - [Subtema: Hidrografia Continental](#subtema-hidrografia-continental)
-  - [Tema: História Natural](#tema-história-natural)
-    - [Subtema: Dinossauros](#subtema-dinossauros)
-    - [Subtema: Ecossistemas e Biodiversidade: Animais](#subtema-ecossistemas-e-biodiversidade-animais)
-    - [Subtema: Ecossistemas e Biodiversidade: Plantas e Fungos](#subtema-ecossistemas-e-biodiversidade-plantas-e-fungos)
-    - [Subtema: Antropologia e Evolução Humana](#subtema-antropologia-e-evolução-humana)
-    - [Subtema: Terra Primitiva e Formação do Planeta](#subtema-terra-primitiva-e-formação-do-planeta)
-    - [Subtema: Formação do Universo](#subtema-formação-do-universo)
-    - [Subtema: Ambientes Extremos e Vida](#subtema-ambientes-extremos-e-vida)
-    - [Subtema: Biologia Animal](#subtema-biologia-animal)
-    - [Subtema: Biologia Vegetal](#subtema-biologia-vegetal)
-  - [Tema: Variedades](#tema-variedades)
-    - [Subtema: Culinária](#subtema-culinária)
-    - [Subtema: Teorias da Conspiração](#subtema-teorias-da-conspiração)
-    - [Subtema: Sociedades Secretas](#subtema-sociedades-secretas)
-  - [Tema: Artes](#tema-artes)
-    - [Subtema: Música Classica](#subtema-música-classica)
-    - [Subtema: Pintura](#subtema-pintura)
-    - [Subtema: Escultura](#subtema-escultura)
-    - [Subtema: Literatura](#subtema-literatura)
-    - [Subtema: Teatro](#subtema-teatro)
-  - [Tema: Cotidiano](#tema-cotidiano)
-    - [Subtema: Bens de Consumo](#subtema-bens-de-consumo)
-    - [Subtema: Polêmicas de Celebridades](#subtema-polêmicas-de-celebridades)
-    - [Subtema: Segurança Pública e True Crime](#subtema-segurança-pública-e-true-crime)
-    - [Subtema: Televisão e Streaming](#subtema-televisão-e-streaming)
-    - [Subtema: Premiações](#subtema-premiações)
-  - [Tema: Ciências](#tema-ciências)
-    - [Subtema: História da Ciência](#subtema-história-da-ciência)
-    - [Subtema: Matemática](#subtema-matemática)
-    - [Subtema: Física](#subtema-física)
-    - [Subtema: Química](#subtema-química)
-    - [Subtema: Biologia Humana](#subtema-biologia-humana)
-    - [Subtema: Astronomia](#subtema-astronomia)
-    - [Subtema: Ciências da Computação](#subtema-ciências-da-computação)
-  - [Tema: Entretenimento](#tema-entretenimento)
-    - [Subtema: Programas de Televisão](#subtema-programas-de-televisão)
-    - [Subtema: Filmes](#subtema-filmes)
-    - [Subtema: Séries](#subtema-séries)
-    - [Subtema: Jogos Eletrônicos](#subtema-jogos-eletrônicos)
-    - [Subtema: Anime e Mangá](#subtema-anime-e-mangá)
-    - [Subtema: Música Popular](#subtema-música-popular)
-    - [Subtema: Jogos de Tabuleiro e Cartas](#subtema-jogos-de-tabuleiro-e-cartas)
-  - [Tema: Esportes](#tema-esportes)
-    - [Subtema: Futebol](#subtema-futebol)
-    - [Subtema: Basquete](#subtema-basquete)
-    - [Subtema: Tênis](#subtema-tênis)
-    - [Subtema: Automobilismo](#subtema-automobilismo)
-    - [Subtema: Olimpíadas](#subtema-olimpíadas)
-    - [Subtema: Esportes Radicais](#subtema-esportes-radicais)
-    - [Subtema: Artes Marciais](#subtema-artes-marciais)
-    - [Subtema: Esportes Diversos](#subtema-esportes-diversos)
-  - [Tema: História](#tema-história)
-    - [Subtema: Pré-História](#subtema-pré-história)
-    - [Subtema: Idade Antiga](#subtema-idade-antiga)
-    - [Subtema: Idade Média](#subtema-idade-média)
-    - [Subtema: Idade Moderna](#subtema-idade-moderna)
-    - [Subtema: Idade Contemporânea](#subtema-idade-contemporânea)
-    - [Subtema: História do Brasil](#subtema-história-do-brasil)
-    - [Subtema: Guerras Mundiais](#subtema-guerras-mundiais)
-
 ## Tema: Geografia
 
 A geografia é a ciência que estuda a superfície terrestre, suas características físicas, humanas e as interações entre elas. Ela abrange desde o estudo de formações naturais como montanhas, rios e climas, até a análise de como as sociedades humanas se organizam e interagem com o meio ambiente. A geografia é fundamental para entender questões como urbanização, migrações, uso dos recursos naturais e mudanças climáticas.
@@ -219,6 +146,8 @@ Exemplo JSON:
 ```
 
 A hidrografia continental estuda as águas doces presentes na superfície terrestre, incluindo rios, lagos, aquíferos e geleiras. Este subtema abrange a análise dos principais sistemas fluviais, como o Amazonas, Nilo e Yangtze, bem como a importância dos lagos e reservatórios para o abastecimento de água e ecossistemas locais. Inclui também o estudo das bacias hidrográficas, drenagem e os impactos das atividades humanas, como poluição e desmatamento, sobre os recursos hídricos.
+
+### Subtema: Clima
 
 ## Tema: História Natural
 
@@ -358,7 +287,67 @@ Este subtema apresenta como as plantas são construídas e funcionam, da briófi
 
 ## Tema: Variedades
 
-O tema **Variedades** abrange uma ampla gama de tópicos diversos que não se encaixam diretamente em outras categorias específicas. Inclui assuntos relacionados a cultura, lazer, hobbies, culinária, moda, esportes, entretenimento e outros interesses variados. Este tema é ideal para perguntas que exploram aspectos do cotidiano, tradições culturais, práticas recreativas e tendências sociais. A diversidade de subtemas permite uma abordagem flexível e abrangente, atendendo a curiosidades e interesses variados. Tem um carater atemporal, especialmente quando comparado com o escopo do tema **Cotidiano**, que foca em eventos e práticas atuais (janela de cerca de 20 anos).
+**Variedades** reúne tópicos amplos e atemporais que não se encaixam diretamente em outras áreas. Abrange cultura, lazer, hobbies, culinária, moda, crenças, idiomas e costumes, priorizando fatos estáveis e verificáveis. Diferencia-se de **Cotidiano** por evitar atualidades efêmeras: aqui o foco está em tradições consolidadas, conceitos duradouros e práticas culturais reconhecidas. As perguntas devem ser neutras, factuais e auditáveis (preferindo enciclopédias e obras de referência), com atenção à diversidade regional e à clareza terminológica. Quando houver fronteira com Artes/História/Esportes, trate o assunto pelo ângulo cultural e social (não estético, historiográfico ou competitivo). Evite modismos sazonais, números “do ano” e controvérsias sem consenso acadêmico. Valorize definições, origens, finalidades, rituais, nomenclatura, relações entre categorias e contextos de uso.
+
+### Subtema: Folclore
+
+Exemplo JSON:
+
+```json
+{
+  "tema": "Variedades",
+  "tema_clean": "variedades",
+  "subtema": "Folclore",
+  "subtema_clean": "folclore"
+}
+```
+
+Abrange lendas, mitos, contos, provérbios, festas e personagens que expressam a memória cultural de povos e regiões. Inclui narrativas de origem, heróis culturais, seres fantásticos, folguedos, cantigas, danças e artesanato ritual. Valoriza variantes regionais e registros consagrados (coletas etnográficas, enciclopédias, museus). Foque em nomes, lugares, motivos recorrentes e traços distintivos; esclareça quando houver múltiplas versões. Evite datas móveis “do ano” e versões controversas sem fonte canônica.
+
+### Subtema: Religiões
+
+Exemplo JSON:
+
+```json
+{
+  "tema": "Variedades",
+  "tema_clean": "variedades",
+  "subtema": "Religiões",
+  "subtema_clean": "religioes"
+}
+```
+
+Panorama neutro e descritivo de crenças, práticas, calendários, textos sagrados, autoridades, templos e correntes internas. Abrange tradições abraâmicas, dhármicas, religiosidades indígenas e novos movimentos. Priorize terminologia reconhecida, datas de fundação, locais de culto, rituais marcantes e passagens canônicas, evitando proselitismo e polêmica conjuntural. Diferencie doutrina, prática e organização; indique nomes originais (língua e transliteração) quando pertinente.
+
+### Subtema: Idiomas
+
+Exemplo JSON:
+
+```json
+{
+  "tema": "Variedades",
+  "tema_clean": "variedades",
+  "subtema": "Idiomas",
+  "subtema_clean": "idiomas"
+}
+```
+
+Cobre famílias linguísticas, sistemas de escrita (alfabeto, abjad, abugida), línguas oficiais, dialetos, topônimos e expressões idiomáticas. Inclui contato linguístico, empréstimos e etimologias consolidadas. Prefira fatos estáveis (classificações, estatuto oficial, escrita), evitando cifras anuais de falantes. Traduções de palavras/frases curtas são permitidas quando sustentadas por fonte enciclopédica.
+
+### Subtema: Costumes
+
+Exemplo JSON:
+
+```json
+{
+  "tema": "Variedades",
+  "tema_clean": "variedades",
+  "subtema": "Costumes",
+  "subtema_clean": "costumes"
+}
+```
+
+Hábitos culturais, etiqueta, ritos de passagem e festas que estruturam a vida social (saudações, presentes, mesa, vestimentas tradicionais, casamentos, funerais). Contextualize variações regionais, significados de gestos e cores, tabus e calendários festivos. Evite modismos; privilegie práticas consolidadas com referência etnográfica ou enciclopédica.
 
 ### Subtema: Culinária
 
@@ -373,7 +362,7 @@ Exemplo JSON:
 }
 ```
 
-Este subtema abrange a arte e a ciência da culinária, incluindo técnicas de preparo, ingredientes, tradições gastronômicas e tendências culinárias ao redor do mundo. Cobre desde métodos básicos de cozimento até pratos sofisticados, além de explorar a história e a cultura associadas à comida. Inclui também aspectos nutricionais e dietéticos, bem como a influência da culinária na sociedade e nas celebrações culturais. Ideal para perguntas sobre receitas, ingredientes, estilos culinários e curiosidades gastronômicas.
+Arte e prática de ingredientes, técnicas e pratos em tradições regionais e nacionais. Inclui métodos (assar, brasear, curar), utensílios clássicos, preparações-base, denominações protegidas e contextos festivos. Use nomes consagrados, origens reconhecidas e distinções claras entre pratos similares; evite dietas da moda e alegações nutricionais controversas.
 
 ### Subtema: Teorias da Conspiração
 
@@ -388,7 +377,7 @@ Exemplo JSON:
 }
 ```
 
-Este subtema explora teorias da conspiração, que são explicações alternativas para eventos ou situações, frequentemente envolvendo grupos secretos ou agendas ocultas. Cobre a origem e a disseminação dessas teorias, bem como seu impacto na sociedade e na cultura popular. Inclui também a análise de exemplos notórios, como teorias sobre o 11 de setembro, o assassinato de JFK, a Área 51, entre outros. Ideal para perguntas sobre a veracidade dessas teorias, suas implicações sociais e psicológicas, e como elas se espalham através da mídia e das redes sociais. Incluir fontes variadas, desde artigos acadêmicos até sites de teorias da conspiração. Inclui ufologia e alienígenas, incluindo teorias de alienígenas na antiguidade.
+Tratamento descritivo de alegações populares (p.ex., Área 51, “alienígenas do passado”, JFK, 11/9), sempre rotuladas como **alegações**. Mapeie origem, difusão, conteúdo central e refutações reconhecidas, distinguindo fato documentado de especulação. Priorize fontes críticas/enciclopédicas e evite promover desinformação.
 
 ### Subtema: Sociedades Secretas
 
@@ -403,19 +392,90 @@ Exemplo JSON:
 }
 ```
 
-Este subtema investiga sociedades secretas, que são organizações cujas atividades e membros são mantidos em sigilo. Cobre a história, objetivos, rituais e influências dessas sociedades ao longo do tempo. Inclui exemplos famosos como os Illuminati, Maçonaria, Skull and Bones, entre outros. Ideal para perguntas sobre a origem dessas sociedades, suas crenças, impacto histórico e cultural, e teorias associadas a elas.
+Organizações com rituais, símbolos e membros parcialmente reservados (Maçonaria, Illuminati históricos, *Skull and Bones*, Carbonários), tratadas com enfoque histórico-documental. Descreva origem, objetivos, estrutura, símbolos, influências e confusões comuns com teorias especulativas. Diferencie documentação primária de mito popular.
 
 ## Tema: Artes
 
-### Subtema: Música Classica
+**Artes** cobre criações visuais, sonoras, literárias e cênicas, com foco em obras, autores, técnicas, estilos, períodos e instituições. Priorize dados estáveis (datas, escolas, materiais, formas), títulos originais e termos consagrados. Evite juízos de valor e métricas voláteis; destaque contexto histórico e circulação (patrimônio, coleções, edições, montagens). Diferencie áreas afins (História trata processos; Entretenimento cobre indústria e mercado). Use classificações reconhecidas (movimentos, gêneros, tipologias) e descreva funções, materiais e técnicas sem aprofundar teoria estética.
+
+### Subtema: Arquitetura
+
+```json
+{
+  "tema": "Artes",
+  "tema_clean": "artes",
+  "subtema": "Arquitetura",
+  "subtema_clean": "arquitetura"
+}
+```
+
+Estuda projetos e construções no tempo: estilos, técnicas, materiais, sistemas estruturais e funções. Considera períodos (antiga, medieval, renascentista, barroca, neoclássica, moderna e contemporânea) e escolas regionais. Mapeia tipologias (templos, catedrais, mesquitas, palácios, teatros, pontes, habitação), elementos (colunas e ordens, arco, abóbada, cúpula), urbanismo (praças, eixos, traçados) e instituições (ateliês, academias, patrimônios). Valoriza datas de projeto/inauguração, autoria coletiva ou de mestres, técnicas (alvenaria, concreto armado, aço, vidro), restauração e conservação. Diferencia arquitetura vernácula da erudita, obras originais de reconstruções e ampliações. Evita julgamentos estéticos, preferindo informações auditáveis: planta, seção, fachada, modulação, escala, materialidade, programa e contexto urbano/territorial. Útil para perguntas sobre identificação de estilos, autoria e cronologia, elementos técnicos e funções de edifícios emblemáticos, além de relações entre forma, técnica e uso.
+
+### Subtema: Música Clássica
+
+```json
+{
+  "tema": "Artes",
+  "tema_clean": "artes",
+  "subtema": "Música Clássica",
+  "subtema_clean": "musica_classica"
+}
+```
+
+Abrange tradições eruditas do Ocidente (Medieval a Contemporânea), destacando formas (sinfonia, concerto, sonata, suíte, quarteto), gêneros vocais (ópera, oratório, cantata) e práticas de performance. Considera períodos (Medieval, Renascença, Barroco, Clássico, Romântico, Moderno), sistemas (modalidade, tonalidade, atonalidade) e instrumentação (famílias orquestrais, teclados, vozes). Mapeia autores, obras, datas de composição/estreia, catálogos (BWV, K., Op.), versões e revisões. Inclui instituições (teatros de ópera, orquestras, conservatórios), edições críticas e tratados históricos. Evita rankings, vendagens ou charts; privilegia fontes sobre partituras, manuscritos, libretos e contextos de encomenda. Útil para perguntas sobre identificação de formas, períodos estilísticos, instrumentações típicas, estreia de obras e vínculos entre compositores, escolas e centros musicais, bem como evolução de técnicas de escrita e prática interpretativa.
 
 ### Subtema: Pintura
 
+```json
+{
+  "tema": "Artes",
+  "tema_clean": "artes",
+  "subtema": "Pintura",
+  "subtema_clean": "pintura"
+}
+```
+
+Estuda imagens bidimensionais em suportes variados (tela, madeira, gesso, papel), técnicas (têmpera, óleo, afresco, aquarela, guache, acrílica, encáustica) e procedimentos (camadas, veladuras, impasto). Considera gêneros (retrato, paisagem, natureza-morta, história), movimentos (Renascimento, Maneirismo, Barroco, Neoclassicismo, Romantismo, Impressionismo, Modernismos, Vanguardas) e escolas regionais. Valoriza autoria, datas, dimensões, coleção (museu, galeria), proveniência e estado de conservação. Distingue esboço, estudo, versão e réplica; registra técnicas diagnósticas (sem detalhamento técnico) e intervenções. Evita avaliações críticas, priorizando dados verificáveis sobre iconografia, composição e materialidade. Útil para perguntas de identificação de obras e autores, contexto de produção, circulação museológica, relações entre movimentos e técnicas, bem como terminologia de ateliê, suportes e pigmentos.
+
 ### Subtema: Escultura
+
+```json
+{
+  "tema": "Artes",
+  "tema_clean": "artes",
+  "subtema": "Escultura",
+  "subtema_clean": "escultura"
+}
+```
+
+Analisa obras tridimensionais, materiais (mármore, bronze, madeira, terracota, gesso, ferro, aço, resinas) e técnicas (talha, modelagem, fundição em cera perdida, montagem). Mapeia categorias (estátua, busto, alto/baixo-relevo, grupos), escalas (de miniaturas a monumentos públicos) e funções (religiosas, civis, memoriais, decorativas). Considera tradições clássicas e não ocidentais, períodos e escolas, oficinas e patronos. Registra autoria, datas, dimensões, local original, deslocamentos, coleções e restauros. Diferencia original, cópia antiga, fundição posterior e reinterpretações. Evita juízo estético; privilegia informação técnica e histórica verificável. Útil para perguntas sobre identificação de materiais/técnicas, iconografia, proveniência, cronologia e inserção urbana/paisagística, além de relações entre tecnologia, forma e significado.
 
 ### Subtema: Literatura
 
+```json
+{
+  "tema": "Artes",
+  "tema_clean": "artes",
+  "subtema": "Literatura",
+  "subtema_clean": "literatura"
+}
+```
+
+Cobre produção verbal em prosa e verso, gêneros (épico, lírico, dramático), formas (romance, novela, conto, poesia, ensaio), movimentos e escolas (clássicos, romantismos, realismos, vanguardas). Valoriza autores, obras, datas de publicação, línguas, editoras, edições, traduções e prêmios. Distingue versões, revisões, ciclos narrativos e séries; registra contextos de circulação (periódicos, folhetins, editoras) e recepção histórica. Evita crítica interpretativa; foca dados verificáveis (estrutura, paratextos, dedicatórias, prefácios). Útil para perguntas de autoria, cronologia, gênero, pertença a movimentos e trajetórias editoriais, bem como relações entre obra, contexto cultural e formas de publicação.
+
 ### Subtema: Teatro
+
+```json
+{
+  "tema": "Artes",
+  "tema_clean": "artes",
+  "subtema": "Teatro",
+  "subtema_clean": "teatro"
+}
+```
+
+Estuda arte cênica: dramaturgia, encenação, atuação, cenografia, figurino, iluminação e música de cena. Considera tradições (tragédia e comédia antigas, teatro medieval, renascentista, neoclássico, realista, épico, simbolista, do absurdo, contemporâneo) e espaços (anfiteatro, palco italiano, arena, rua). Registra autores, peças, datas de estreia, companhias, diretores, teatros, festivais e prêmios. Diferencia texto dramático de montagem; documenta versões, cortes e traduções. Evita resenhas; prioriza dados estáveis sobre repertórios, convenções de cena e história das companhias. Útil para perguntas de identificação de autores/obras, formas cômicas e trágicas, dispositivos cênicos, cronologias e instituições teatrais.
+
 
 ## Tema: Cotidiano
 
@@ -598,45 +658,227 @@ A Astronomia estuda o céu e o universo: fases da Lua, eclipses, estações, o S
 
 ## Tema: Entretenimento
 
+**Entretenimento** abarca TV, cinema, séries, jogos eletrônicos, anime/mangá, música popular e jogos de mesa/cartas. Priorize dados estáveis (créditos, ano, estúdio, editora, prêmios, formatos) e títulos oficiais, evitando métricas voláteis.
+
 ### Subtema: Programas de Televisão
+
+```json
+{
+  "tema": "Entretenimento",
+  "tema_clean": "entretenimento",
+  "subtema": "Programas de Televisão",
+  "subtema_clean": "programas_de_televisao"
+}
+```
+
+Abrange gêneros e formatos televisivos (telejornais, variedades, reality, game/talk shows, documentais), com foco em criação, produção e circulação. Considera país de origem, emissoras/redes, licenciamento e adaptações, apresentadores e elencos fixos, datas de estreia, temporadas e reformulações. Explora relação entre formato e grade (diária, semanal, sazonal), papéis de diretores/showrunners/produtoras e diferenças entre conteúdos roteirizados e não roteirizados. Inclui prêmios setoriais, padrões técnicos (classificação indicativa, duração, intervalos), estúdios e locações. Evita audiência semanal e “trend” momentâneo, privilegiando marcos institucionais e mudanças duradouras. Útil para perguntas sobre origem de formatos, versões locais de programas, evolução de quadros, regras de competições e identificação de créditos principais. Quando houver múltiplos títulos em países distintos, prioriza o nome original e a tradução consagrada, registrando também canais de exibição e eventuais mudanças de casa ao longo das temporadas.
 
 ### Subtema: Filmes
 
+```json
+{
+  "tema": "Entretenimento",
+  "tema_clean": "entretenimento",
+  "subtema": "Filmes",
+  "subtema_clean": "filmes"
+}
+```
+
+Foca obras cinematográficas como produtos culturais e industriais: diretores, roteiristas, elencos, produtores, estúdios, distribuidoras, trilhas, direções de fotografia e de arte. Considera cronologias de lançamento, cortes e versões (cinema, diretor, restaurada), gêneros e subgêneros, franquias e universos compartilhados. Aborda classificação indicativa, formatos de exibição (35 mm, digital, IMAX), idiomas e países de produção. Explora festivais e premiações canônicas (Cannes, Veneza, Berlim, Oscars) e critérios de elegibilidade. Evita bilheterias semanais e recepção volátil, priorizando marcos estáveis, prêmios, datas e créditos oficiais. Útil para perguntas sobre autoria, ordem de trilogias, relação com estúdios/selos, primeiras aparições de personagens, inspirações literárias e técnicas recorrentes. Indica títulos originais e traduções consagradas, distinguindo curtas, longas e animações, e registrando relançamentos e restaurações relevantes.
+
 ### Subtema: Séries
+
+```json
+{
+  "tema": "Entretenimento",
+  "tema_clean": "entretenimento",
+  "subtema": "Séries",
+  "subtema_clean": "series"
+}
+```
+
+Trata séries para TV e streaming, destacando showrunners, criadores, roteiristas, diretores, elenco, canais e plataformas. Cobre temporadas, número e ordem de episódios, calendários de exibição, hiatos e mudanças de casa. Diferencia minisséries, antologias, sitcoms, dramas, procedurais e animações seriadas, além de spin-offs, reboots e crossovers. Explora bíblia da série, ambientação, trilha de abertura e identidade visual, evitando spoilers recentes; quando inevitáveis, sinalize. Considera prêmios (Emmys e afins), classificações etárias e versões internacionais (dublagem, legendagem, cortes regionais). Prioriza dados estáveis: datas de estreia/final, créditos oficiais e ordem canônica de visualização. Útil para perguntas sobre origem, equipe de criação, mudanças de elenco/showrunner, relação com obras-fonte (livros, HQs) e diferenças entre versões, sem recorrer a métricas voláteis de audiência semanal.
 
 ### Subtema: Jogos Eletrônicos
 
+```json
+{
+  "tema": "Entretenimento",
+  "tema_clean": "entretenimento",
+  "subtema": "Jogos Eletrônicos",
+  "subtema_clean": "jogos_eletronicos"
+}
+```
+
+Abrange títulos, franquias e estúdios, com ênfase em ano de lançamento, publishers, plataformas (PC, consoles, mobile), gêneros/subgêneros (ação, RPG, estratégia, simulação) e modos (single, cooperativo, competitivo). Considera motores de jogo, remasters, remakes, ports e coleções, classificações etárias (ESRB, PEGI) e acessibilidade. Explora design de níveis, narrativa interativa, trilha e dublagem, conquistas e conteúdo adicional (DLCs, expansões), evitando notas de review e patches voláteis. Reconhece comunidades e cenas estabelecidas (speedrunning, modding) em perspectiva histórica. Útil para perguntas sobre plataformas originais, estúdios responsáveis, mudanças entre versões, cronologias internas de franquias e inovações de mecânica. Prioriza títulos oficiais, edições definitivas e dados canônicos de crédito e lançamento, incluindo compilações e remasterizações.
+
 ### Subtema: Anime e Mangá
+
+```json
+{
+  "tema": "Entretenimento",
+  "tema_clean": "entretenimento",
+  "subtema": "Anime e Mangá",
+  "subtema_clean": "anime_e_manga"
+}
+```
+
+Cobre mangás (autores, editoras, revistas de serialização, demografias — shōnen, shōjo, seinen, josei — volumes e status) e animes (estúdios, diretores, roteiristas, temporadas, cour, filmes, OVAs, ONAs). Registra títulos originais em japonês com transliteração e traduções consagradas, além de datas de estreia e conclusão. Aborda selos editoriais, premiações do setor e blocos de exibição, distinguindo cânone de material adicional. Considera diferenças entre obra-base e adaptação, trilhas de abertura/encerramento, dublagem e distribuição internacional. Evita rankings semanais e “hype” passageiro, priorizando marcos estáveis, créditos oficiais e cronologias de publicação/transmissão. Útil para perguntas sobre origem editorial, equipe principal, estúdio, ordem canônica de leitura/visualização, arcos e filmes vinculados.
 
 ### Subtema: Música Popular
 
+```json
+{
+  "tema": "Entretenimento",
+  "tema_clean": "entretenimento",
+  "subtema": "Música Popular",
+  "subtema_clean": "musica_popular"
+}
+```
+
+Envolve artistas, bandas, compositores e produtores, com foco em álbuns, EPs e singles, selos/distribuidoras, gêneros/subgêneros, anos de lançamento, colaborações e prêmios (Grammy, BRIT, VMA). Prioriza discografias oficiais, créditos de composição/produção, versões e relançamentos, certificações (ouro/platina) e edições especiais. Evita paradas semanais e números voláteis, privilegiando marcos estáveis e influências documentadas. Considera formatos físicos e digitais, remasterizações, capas icônicas e turnês históricas como contexto. Útil para perguntas sobre autoria de canções, ordem de discos, mudanças de formação, selos responsáveis e impacto reconhecido, distinguindo álbuns de estúdio, ao vivo e coletâneas.
+
 ### Subtema: Jogos de Tabuleiro e Cartas
+
+```json
+{
+  "tema": "Entretenimento",
+  "tema_clean": "entretenimento",
+  "subtema": "Jogos de Tabuleiro e Cartas",
+  "subtema_clean": "jogos_de_tabuleiro_e_cartas"
+}
+```
+
+Abrange jogos clássicos e modernos, enfatizando designers, editoras, ano da primeira edição, mecânicas (worker placement, deck-building, draft, controle de área), tempo médio, número de jogadores e escalabilidade. Considera modos competitivos/cooperativos, variações solo, expansões, reimplementações e edições revisadas. Distingue “core rules” de módulos opcionais, componentes (tabuleiros, miniaturas, cartas, dados, marcadores) e ambientações. Inclui cartas clássicas (bridge, pôquer), TCGs e LCGs, evitando preços e mercado secundário. Útil para perguntas sobre autoria, mecânicas principais, editoras originais, linhas de expansão, prêmios setoriais e diferenças entre edições, com base em regras oficiais e dados de publicação estáveis.
+
 
 ## Tema: Esportes
 
+**Esportes** estuda práticas competitivas e recreativas, suas regras, instituições, arenas e tradições. Priorize fatos estáveis (regras oficiais, formatos de torneios, datas de fundação, sedes históricas, terminologia, equipamentos padronizados) e evite números que mudam por temporada. Quando houver fronteira com **Entretenimento**, foque o aspecto esportivo-institucional, não a cobertura midiática. Para criar *microsubtemas*, delimite por modalidade, competição, regras, posições/táticas clássicas, infraestrutura (estádios, pistas), cronologias e biografias bem estabelecidas — sem estatísticas voláteis. Prefira regulamentos e fontes enciclopédicas; identifique nomes oficiais (em língua original quando pertinente), datas, locais, instituições e consequências esportivas.
+
 ### Subtema: Futebol
+
+```json
+{
+  "tema": "Esportes",
+  "tema_clean": "esportes",
+  "subtema": "Futebol",
+  "subtema_clean": "futebol"
+}
+```
+
+Associação (association football): **Leis do Jogo** (IFAB), posições, sistemas de jogo clássicos, árbitros, estádios, clubes e seleções históricas, competições tradicionais e entidades (FIFA, confederações). Evitar estatísticas da temporada; preferir regras, formatos, datas, sedes e títulos consagrados.
 
 ### Subtema: Basquete
 
+```json
+{
+  "tema": "Esportes",
+  "tema_clean": "esportes",
+  "subtema": "Basquete",
+  "subtema_clean": "basquete"
+}
+```
+
+Fundamentos, posições, dimensões de quadra, cronologia e diferenças **FIBA/NBA**, infrações (travelling, goaltending), torneios históricos e franquias/tradições. Valorize regras, formatos de playoffs, recordes estruturais (linhas, tempos), invenção e difusão do esporte.
+
 ### Subtema: Tênis
+
+```json
+{
+  "tema": "Esportes",
+  "tema_clean": "esportes",
+  "subtema": "Tênis",
+  "subtema_clean": "tenis"
+}
+```
+
+Pontuação (games/sets/tiebreak), quadras (saibro, grama, duro), **Grand Slams**, Copa Davis/Billie Jean King Cup, equipamentos homologados e superfícies. Evite rankings atuais; foque regras, formatos, calendários clássicos e sedes históricas.
 
 ### Subtema: Automobilismo
 
+```json
+{
+  "tema": "Esportes",
+  "tema_clean": "esportes",
+  "subtema": "Automobilismo",
+  "subtema_clean": "automobilismo"
+}
+```
+
+Categorias (F1, Indy, Endurance, Rally), bandeiras e procedimentos, boxes, safety car, circuitos icônicos, regulamentos técnicos de alto nível e entidades (FIA). Priorize formatos de provas, terminologia e evolução de regras consagradas.
+
 ### Subtema: Olimpíadas
+
+```json
+{
+  "tema": "Esportes",
+  "tema_clean": "esportes",
+  "subtema": "Olimpíadas",
+  "subtema_clean": "olimpiadas"
+}
+```
+
+História dos Jogos Olímpicos modernos (verão/inverno), símbolos (aneles, lema), cerimônias, sedes, programas esportivos e estrutura do **COI**/comitês. Diferencie edições, boicotes e marcos institucionais; evitar tabelas de medalhas “da temporada”.
 
 ### Subtema: Esportes Radicais
 
+```json
+{
+  "tema": "Esportes",
+  "tema_clean": "esportes",
+  "subtema": "Esportes Radicais",
+  "subtema_clean": "esportes_radicais"
+}
+```
+
+Skate, surf, BMX, escalada, paraquedismo e afins: ambientes (rua, park, ondas, rocha), manobras, equipamentos, segurança e eventos clássicos. Foque terminologia padronizada, tipos de prova e evolução histórica reconhecida.
+
 ### Subtema: Artes Marciais
+
+```json
+{
+  "tema": "Esportes",
+  "tema_clean": "esportes",
+  "subtema": "Artes Marciais",
+  "subtema_clean": "artes_marciais"
+}
+```
+
+Tradições e esportivizações (judô, karatê, taekwondo, jiu-jítsu brasileiro, muay thai, entre outras): origens, graduações, técnicas, regras de competição, federações e eventos canônicos. Distinguir arte marcial de esporte de combate quando necessário.
 
 ### Subtema: Esportes Diversos
 
-Menos (Futebol, Basquete, Tênis, Automobilismo, Olimpíadas, Esportes Radicais, Artes Marciais)
+```json
+{
+  "tema": "Esportes",
+  "tema_clean": "esportes",
+  "subtema": "Esportes Diversos",
+  "subtema_clean": "esportes_diversos"
+}
+```
+
+Guarda-chuva para modalidades **não** cobertas acima (exclui: Futebol, Basquete, Tênis, Automobilismo, Olimpíadas, Esportes Radicais, Artes Marciais). Inclui, por exemplo, atletismo, natação, voleibol, handebol, rugby, beisebol/softbol, hóqueis, ginástica, ciclismo, halterofilismo. Valorize regras oficiais, medidas e equipamentos regulamentados, formatos de competição e instituições.
+
 
 ## Tema: História
 
-### Subtema: Pré-História
+**História** estuda mudanças e permanências nas sociedades humanas no tempo, por meio de fontes (textos, objetos, imagens, arquitetura, mapas) e métodos críticos. Privilegia fatos estáveis, cronologias claras, contextos regionais e interpretações amplamente aceitas. Diferencia-se de **Geografia** (ênfase espacial), **Ciências** (métodos e teorias científicas) e **História Natural** (processos naturais). Para criar *microsubtemas*, delimite recortes nítidos por período, região, civilização, tema institucional (leis, religião, economia, guerra) ou gênero de fonte, evitando sobreposições e modismos. Prefira registros canônicos (crônicas, inscrições, códigos legais, tratados, obras clássicas), identifique atores, datas, lugares e consequências, e explicite fronteiras (o que entra e o que fica para outro subtema).
 
-Exemplo JSON:
+### Subtema: Filosofia
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Filosofia",
+  "subtema_clean": "filosofia"
+}
+```
+
+Desenvolvimento histórico do pensamento filosófico: escolas, movimentos, obras e autores da Antiguidade à contemporaneidade. Foco em correntes (estoicismo, escolástica, iluminismo, idealismo, existencialismo, analítica), textos fundacionais, contextos institucionais (acadêmias, universidades, mosteiros), circulação de ideias e disputas canônicas. Evitar tratamento técnico de lógica ou metafísica; priorizar o **contexto histórico** de produção, recepção e influência (traduções, censuras, polêmicas).
+
+### Subtema: Pré-História
 
 ```json
 {
@@ -647,17 +889,127 @@ Exemplo JSON:
 }
 ```
 
-Este subtema cobre a **pré-história humana** (antes da escrita), com foco em **cultura material** e modos de vida: do Paleolítico ao Neolítico, incluindo indústrias líticas, arte rupestre e móvel, domicílios, megalitos, domesticação inicial de plantas e animais, transições de caçadores-coletores para agricultores e surgimento de aldeias e complexidade social. Valoriza cronologias regionais, ambientes e rotas de dispersão cultural. Utiliza conceitos de datação relativa/absoluta sem entrar em laboratório. Para evitar sobreposição com “Antropologia e Evolução Humana”, **não** trata de filogenia de hominínios, genética ou fisiologia; o foco é arqueológico (tecnologias, artefatos, subsistência, paisagens e práticas sociais). Ideal para perguntas factuais comparando fases, técnicas e evidências em diferentes regiões.
+Abrange a história humana **antes da escrita**, com ênfase arqueológica: Paleolítico a Neolítico, indústrias líticas, arte rupestre e móvel, domicílios, megalitos, domesticação inicial, transições de caça-coleta para agricultura e formação de aldeias/complexidade social. Valoriza cronologias regionais, ambientes e rotas de difusão. Usa datação relativa/absoluta sem técnica laboratorial detalhada. Evita filogenia de hominínios (tratada em “Antropologia e Evolução Humana”).
 
 ### Subtema: Idade Antiga
 
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Idade Antiga",
+  "subtema_clean": "idade_antiga"
+}
+```
+
+Do surgimento das primeiras civilizações urbanas ao declínio do Império Romano do Ocidente. Inclui Mesopotâmia, Egito, Levante, Pérsia, Grécia, Roma, Índia antiga, China antiga e outras tradições afro-eurasiáticas. Temas: Estados, leis, impérios, comércio, religiões, literatura, artes e tecnologias. Diferenciar de Pré-História (sem escrita) e de Idade Média (novas formações políticas e religiosas).
+
 ### Subtema: Idade Média
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Idade Média",
+  "subtema_clean": "idade_media"
+}
+```
+
+Aproximadamente sécs. V–XV, abrangendo Bizâncio, Europa latina, mundo islâmico, impérios e redes afro-eurasiáticas (Sahel, Índico, Rota da Seda) e Leste Asiático. Temas: feudalismos, cidades e corporações, monaquismo e escolástica, cruzadas, califados e sultanatos, rotas comerciais, cultura material e arte sacra. Marcar transições para Idade Moderna (Renascimentos, expansão marítima, reformas).
 
 ### Subtema: Idade Moderna
 
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Idade Moderna",
+  "subtema_clean": "idade_moderna"
+}
+```
+
+C. sécs. XV–XVIII: Renascimentos, expansão atlântica, contatos intercontinentais, Reforma e Contrarreforma, absolutismos, economias mercantis e escravização atlântica. Destacar transformações culturais e institucionais, Estados fiscais-militares, diplomacia e circulação de saberes. Diferenciar da História das Ciências (aspectos técnicos) ao tratar a **contextualização histórica**.
+
 ### Subtema: Idade Contemporânea
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Idade Contemporânea",
+  "subtema_clean": "idade_contemporanea"
+}
+```
+
+Do final do séc. XVIII ao presente: Revoluções atlânticas, industrializações, nacionalismos e imperialismos, guerras mundiais, descolonizações, Guerra Fria, integrações regionais e globalização. Priorizar marcos institucionais (constituições, tratados, organizações), movimentos sociais, transformações econômicas e culturais. Evitar atualidades efêmeras; focar processos consolidados.
 
 ### Subtema: História do Brasil
 
-### Subtema: Guerras Mundiais
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "História do Brasil",
+  "subtema_clean": "historia_do_brasil"
+}
+```
+
+Da diversidade indígena pré-colonial à República contemporânea: colonização portuguesa, economia colonial e escravização, Independência, Império, Abolição, República, reformas políticas, ciclos econômicos, urbanização, regimes e redemocratização. Destacar constituições, leis fundamentais, conflitos, imigração e formação territorial. Evitar política muito recente; privilegiar sínteses documentadas.
+
+### Subtema: Segunda Guerra Mundial
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Segunda Guerra Mundial",
+  "subtema_clean": "segunda_guerra_mundial"
+}
+```
+
+Conflito global (1939–1945): origens, alianças, frentes de combate, operações decisivas, economia de guerra, diplomacia, genocídios (Holocausto) e consequências geopolíticas. Foco em datas, tratados, campanhas, lideranças e documentos; evitar estimativas controvertidas. Considerar dimensões civil e colonial, resistência e reconstrução pós-guerra.
+
+### Subtema: Primeira Guerra Mundial
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Primeira Guerra Mundial",
+  "subtema_clean": "primeira_guerra_mundial"
+}
+```
+
+Conflito (1914–1918): alianças, mobilização, frentes ocidental/oriental/colonial, guerra de trincheiras, tecnologia militar, colapsos imperiais, conferências de paz e redesenho territorial. Enfatizar causas de longa duração, cronologia de 1914, tratados (Versalhes e correlatos) e impactos sociais.
+
+### Subtema: Roma Antiga
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Roma Antiga",
+  "subtema_clean": "roma_antiga"
+}
+```
+
+Da monarquia à República e ao Império: instituições (senado, magistraturas, direito), expansão, administração provincial, exército, urbanismo, religião, cultura escrita e monumentalidade. Marcar cronologias (Reformas Gracanas, Principado, Dominate), crises e continuidades. Evitar recepções modernas; privilegiar fontes antigas e arqueologia.
+
+### Subtema: Civilização Chinesa
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Civilização Chinesa",
+  "subtema_clean": "civilizacao_chinesa"
+}
+```
+
+Longa duração das dinastias e Estados na China: formação imperial (Qin–Han), períodos de divisão, reunificações (Sui–Tang), transformações Song–Yuan–Ming–Qing e repúblicas/repensões modernas. Temas: burocracia, exames imperiais, classicismo, religiões/filosofias, tecnologias, comércio interno/externo e relações tributo-diplomáticas. Diferenciar narrativa interna de influências e contatos regionais.
+
+
+
+
+
 
