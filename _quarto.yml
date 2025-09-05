@@ -2,6 +2,7 @@ project:
   type: website
   output-dir: docs   # <- aqui você fixa a pasta de saída
   render:
+    - "*md"      # rende tudo que for .md na raiz
     - "**/*.qmd"   # rende tudo que for .qmd em qualquer pasta
     - "!docs/**"   # nunca render a pasta de saída
     - "!info/**"   # sua exclusão
@@ -13,9 +14,9 @@ website:
       - text: "Início"
         href: index.qmd
       - text: "Regras"
-        href: regras.qmd
+        href: regras.md
       - text: "Dicionário"
-        href: dicionario_temas_subtemas.qmd
+        href: dicionario_temas_subtemas.md
 
   # Ajuste estas duas linhas conforme o tipo de site do Pages:
   site-url: "https://pedrochaim.github.io/mestre2/"
