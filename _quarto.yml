@@ -3,9 +3,10 @@ project:
   output-dir: docs   # <- aqui você fixa a pasta de saída
   render:
     - "*md"      # rende tudo que for .md na raiz
+    - "*.qmd"     # rende tudo que for .qmd na raiz
     - "**/*.qmd"   # rende tudo que for .qmd em qualquer pasta
     - "!docs/**"   # nunca render a pasta de saída
-    - "!info/**"   # sua exclusão
+    - "info/"
 
 website:
   title: "Mestre 2 — Jogo de Perguntas e Respostas"
@@ -26,3 +27,4 @@ format:
   html:
     theme: cosmo
     toc: true
+

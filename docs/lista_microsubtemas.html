@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>lista_microsubtemas – Mestre 2 — Jogo de Perguntas e Respostas</title>
+<title>Índice de Microsubtemas (R) — links com base_dir – Mestre 2 — Jogo de Perguntas e Respostas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -114,17 +149,98 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#lista-de-links-por-tema_clean" id="toc-lista-de-links-por-tema_clean" class="nav-link active" data-scroll-target="#lista-de-links-por-tema_clean">Lista de links por <code>&lt;tema_clean&gt;</code></a>
+  <ul class="collapse">
+  <li><a href="#ciencias" id="toc-ciencias" class="nav-link" data-scroll-target="#ciencias">Ciencias</a></li>
+  <li><a href="#entretenimento" id="toc-entretenimento" class="nav-link" data-scroll-target="#entretenimento">Entretenimento</a></li>
+  <li><a href="#geografia" id="toc-geografia" class="nav-link" data-scroll-target="#geografia">Geografia</a></li>
+  <li><a href="#historia" id="toc-historia" class="nav-link" data-scroll-target="#historia">Historia</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Índice de Microsubtemas (R) — links com base_dir</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<p>Este índice é gerado em <strong>R</strong> ao renderizar o arquivo no Quarto. Ele varre a pasta <code>params$base_dir</code> (por padrão, <code>./info/</code>) e produz uma lista de links para:</p>
+<pre><code>microsubtemas_&lt;tema_clean&gt;_&lt;subtema_clean&gt;.md</code></pre>
+<blockquote class="blockquote">
+<p>Em <code>_quarto.yml</code>, garanta que <code>info/**</code> seja copiado para a saída:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">project</span><span class="kw">:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">output-dir</span><span class="kw">:</span><span class="at"> docs</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">resources</span><span class="kw">:</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> info/**</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">render</span><span class="kw">:</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="st">"*.qmd"</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="kw">-</span><span class="at"> </span><span class="st">"!info/"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</blockquote>
+<section id="lista-de-links-por-tema_clean" class="level2">
+<h2 class="anchored" data-anchor-id="lista-de-links-por-tema_clean">Lista de links por <code>&lt;tema_clean&gt;</code></h2>
+<section id="ciencias" class="level3">
+<h3 class="anchored" data-anchor-id="ciencias">Ciencias</h3>
+<ul>
+<li><a href="./info/subtemas_ciencias/microsubtemas_ciencias_biologia.html">Biologia</a></li>
+<li><a href="./info/subtemas_ciencias/microsubtemas_ciencias_fisica.html">Fisica</a></li>
+<li><a href="./info/subtemas_ciencias/microsubtemas_ciencias_historia_da_ciencia.html">Historia Da Ciencia</a></li>
+<li><a href="./info/subtemas_ciencias/microsubtemas_ciencias_matematica.html">Matematica</a></li>
+<li><a href="./info/subtemas_ciencias/microsubtemas_ciencias_quimica.html">Quimica</a></li>
+</ul>
+</section>
+<section id="entretenimento" class="level3">
+<h3 class="anchored" data-anchor-id="entretenimento">Entretenimento</h3>
+<ul>
+<li><a href="./info/subtemas_entretenimento/microsubtemas_entretenimento_anime_e_manga.html">Anime e Manga</a></li>
+<li><a href="./info/subtemas_entretenimento/microsubtemas_entretenimento_filmes.html">Filmes</a></li>
+<li><a href="./info/subtemas_entretenimento/microsubtemas_entretenimento_jogos_eletronicos.html">Jogos Eletronicos</a></li>
+<li><a href="./info/subtemas_entretenimento/microsubtemas_entretenimento_musica_popular.html">Musica Popular</a></li>
+<li><a href="./info/subtemas_entretenimento/microsubtemas_entretenimento_series.html">Series</a></li>
+</ul>
+</section>
+<section id="geografia" class="level3">
+<h3 class="anchored" data-anchor-id="geografia">Geografia</h3>
+<ul>
+<li><a href="./info/subtemas_geografia/microsubtemas_geografia_paises_capitais.html">Paises Capitais</a></li>
+<li><a href="./info/subtemas_geografia/microsubtemas_geografia_populacao_e_demografia.html">Populacao e Demografia</a></li>
+<li><a href="./info/subtemas_geografia/microsubtemas_geografia_vegetacao_e_biomas.html">Vegetacao e Biomas</a></li>
+</ul>
+</section>
+<section id="historia" class="level3">
+<h3 class="anchored" data-anchor-id="historia">Historia</h3>
+<ul>
+<li><a href="./info/subtemas_historia/microsubtemas_historia_grecia_antiga.html">Grecia Antiga</a></li>
+<li><a href="./info/subtemas_historia/microsubtemas_historia_idade_contemporanea.html">Idade Contemporanea</a></li>
+<li><a href="./info/subtemas_historia/microsubtemas_historia_idade_medieval.html">Idade Medieval</a></li>
+<li><a href="./info/subtemas_historia/microsubtemas_historia_idade_moderna.html">Idade Moderna</a></li>
+<li><a href="./info/subtemas_historia/microsubtemas_historia_roma_antiga.html">Roma Antiga</a></li>
+</ul>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

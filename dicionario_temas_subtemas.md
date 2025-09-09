@@ -14,7 +14,7 @@ As perguntas serão inicialmente organizadas em arquivos por `<microsubtema>`, d
 
 A nomenclatura dos arquivos será no formato `<tema_clean>_<subtema_clean>.json`, onde `<tema_clean>` e `<subtema_clean>` são é o nome do tema e subtema sem espaços, acentos ou caracteres especiais, utilizado para nomear os arquivos JSON.
 
-## Estrutura do Documento
+**Estrutura do Documento:**
 
 * Cada `<tema>` é seguido por uma breve descrição com no máximo 300 palavras.
 * Então é enumerado cada `<subtema>` relacionado a esse `<tema>`.
@@ -29,7 +29,7 @@ A nomenclatura dos arquivos será no formato `<tema_clean>_<subtema_clean>.json`
 }
 ```
 
-* Então inclui uma breve descrição de cada `<subtema>`, com no máximo 150 palavras.
+* Então inclui uma breve descrição de cada `<subtema>`.
 
 ## Tema: Geografia
 
@@ -751,10 +751,15 @@ Envolve artistas, bandas, compositores e produtores, com foco em álbuns, EPs e 
 
 Abrange jogos clássicos e modernos, enfatizando designers, editoras, ano da primeira edição, mecânicas (worker placement, deck-building, draft, controle de área), tempo médio, número de jogadores e escalabilidade. Considera modos competitivos/cooperativos, variações solo, expansões, reimplementações e edições revisadas. Distingue “core rules” de módulos opcionais, componentes (tabuleiros, miniaturas, cartas, dados, marcadores) e ambientações. Inclui cartas clássicas (bridge, pôquer), TCGs e LCGs, evitando preços e mercado secundário. Útil para perguntas sobre autoria, mecânicas principais, editoras originais, linhas de expansão, prêmios setoriais e diferenças entre edições, com base em regras oficiais e dados de publicação estáveis.
 
+Perfeito — removi os subtemas novos e reequilibrei o texto para dar **mais espaço a pessoas** (atletas, técnicos, árbitros) **sem perder o escopo institucional** (regras, clubes, arenas, entidades, competições). Segue a versão revisada:
+
+---
 
 ## Tema: Esportes
 
-**Esportes** estuda práticas competitivas e recreativas, suas regras, instituições, arenas e tradições. Priorize fatos estáveis (regras oficiais, formatos de torneios, datas de fundação, sedes históricas, terminologia, equipamentos padronizados) e evite números que mudam por temporada. Quando houver fronteira com **Entretenimento**, foque o aspecto esportivo-institucional, não a cobertura midiática. Para criar *microsubtemas*, delimite por modalidade, competição, regras, posições/táticas clássicas, infraestrutura (estádios, pistas), cronologias e biografias bem estabelecidas — sem estatísticas voláteis. Prefira regulamentos e fontes enciclopédicas; identifique nomes oficiais (em língua original quando pertinente), datas, locais, instituições e consequências esportivas.
+**Esportes** estuda práticas competitivas e recreativas, suas **pessoas** (atletas, técnicos, árbitros) e seu **escopo institucional** (regras oficiais, entidades, clubes, arenas e competições). Priorize **fatos estáveis**: biografias consolidadas (nome completo, nacionalidade, posição/função), **títulos/medalhas homologados**, prêmios canônicos, **Hall of Fame**, números de camisa **aposentados**, datas/lugares de eventos históricos, além de fundações, sedes, regulamentos e **formatos consagrados**. Evite números sazonais (estatísticas “da temporada”), **transferências em andamento**, rumores e rankings do momento. Para *microsubtemas*, recorte por modalidade/competição, posições/táticas clássicas, **elencos campeões**, arbitragem, instalações e cronologias institucionais.
+
+---
 
 ### Subtema: Futebol
 
@@ -767,7 +772,7 @@ Abrange jogos clássicos e modernos, enfatizando designers, editoras, ano da pri
 }
 ```
 
-Associação (association football): **Leis do Jogo** (IFAB), posições, sistemas de jogo clássicos, árbitros, estádios, clubes e seleções históricas, competições tradicionais e entidades (FIFA, confederações). Evitar estatísticas da temporada; preferir regras, formatos, datas, sedes e títulos consagrados.
+Associação (association football): **Leis do Jogo** (IFAB), posições e sistemas clássicos, **jogadores e técnicos históricos**, árbitros de finais, estádios, clubes e seleções, competições tradicionais e entidades (FIFA/confederações). Valorize **marcos biográficos e institucionais** (estreias, títulos oficiais, prêmios canônicos, fundações, formatos, sedes), evitando estatísticas/rumores de mercado.
 
 ### Subtema: Basquete
 
@@ -780,7 +785,7 @@ Associação (association football): **Leis do Jogo** (IFAB), posições, sistem
 }
 ```
 
-Fundamentos, posições, dimensões de quadra, cronologia e diferenças **FIBA/NBA**, infrações (travelling, goaltending), torneios históricos e franquias/tradições. Valorize regras, formatos de playoffs, recordes estruturais (linhas, tempos), invenção e difusão do esporte.
+Fundamentos, posições, dimensões de quadra, diferenças **FIBA/NBA**, infrações e **figuras centrais** (jogadores, técnicos, árbitros). Inclui **franquias e torneios históricos**, prêmios clássicos (MVP de finais/temporadas **históricas**), **Hall of Fame**, números aposentados e **formatos de playoffs** — sempre com foco em fatos consolidados.
 
 ### Subtema: Tênis
 
@@ -793,7 +798,7 @@ Fundamentos, posições, dimensões de quadra, cronologia e diferenças **FIBA/N
 }
 ```
 
-Pontuação (games/sets/tiebreak), quadras (saibro, grama, duro), **Grand Slams**, Copa Davis/Billie Jean King Cup, equipamentos homologados e superfícies. Evite rankings atuais; foque regras, formatos, calendários clássicos e sedes históricas.
+Pontuação, superfícies, **Grand Slams**, Copa Davis/Billie Jean King Cup, equipamentos e **tenistas notáveis** (estilo, mão dominante, títulos de Slam, rivalidades clássicas), além de **técnicos relevantes**. Evite rankings correntes; foque **títulos e sedes históricas** e a organização do calendário.
 
 ### Subtema: Automobilismo
 
@@ -806,7 +811,7 @@ Pontuação (games/sets/tiebreak), quadras (saibro, grama, duro), **Grand Slams*
 }
 ```
 
-Categorias (F1, Indy, Endurance, Rally), bandeiras e procedimentos, boxes, safety car, circuitos icônicos, regulamentos técnicos de alto nível e entidades (FIA). Priorize formatos de provas, terminologia e evolução de regras consagradas.
+Categorias (F1, Indy, Endurance, Rally), bandeiras, procedimentos, boxes, safety car, **pilotos e chefes de equipe**, diretores de prova, circuitos icônicos, regulamentos técnicos de alto nível e entidades (FIA). Priorize **títulos mundiais**, equipes, números de carro marcantes, **estreias e eras** homologadas.
 
 ### Subtema: Olimpíadas
 
@@ -819,7 +824,7 @@ Categorias (F1, Indy, Endurance, Rally), bandeiras e procedimentos, boxes, safet
 }
 ```
 
-História dos Jogos Olímpicos modernos (verão/inverno), símbolos (aneles, lema), cerimônias, sedes, programas esportivos e estrutura do **COI**/comitês. Diferencie edições, boicotes e marcos institucionais; evitar tabelas de medalhas “da temporada”.
+História dos Jogos (verão/inverno), símbolos, cerimônias, sedes, programa esportivo, estrutura do **COI** e **atletas olímpicos** (modalidade/país, **medalhas oficiais**, porta-bandeiras, recordes olímpicos homologados). Diferencie edições, boicotes e marcos institucionais.
 
 ### Subtema: Esportes Radicais
 
@@ -832,7 +837,7 @@ História dos Jogos Olímpicos modernos (verão/inverno), símbolos (aneles, lem
 }
 ```
 
-Skate, surf, BMX, escalada, paraquedismo e afins: ambientes (rua, park, ondas, rocha), manobras, equipamentos, segurança e eventos clássicos. Foque terminologia padronizada, tipos de prova e evolução histórica reconhecida.
+Skate, surf, BMX, escalada, paraquedismo: ambientes, manobras, equipamentos, eventos clássicos e **atletas referência** (pioneiros de manobras, campeões de X Games/Mundiais). Combine **terminologia padronizada** com conquistas **homologadas**.
 
 ### Subtema: Artes Marciais
 
@@ -845,7 +850,7 @@ Skate, surf, BMX, escalada, paraquedismo e afins: ambientes (rua, park, ondas, r
 }
 ```
 
-Tradições e esportivizações (judô, karatê, taekwondo, jiu-jítsu brasileiro, muay thai, entre outras): origens, graduações, técnicas, regras de competição, federações e eventos canônicos. Distinguir arte marcial de esporte de combate quando necessário.
+Tradições e esportivizações (judô, karatê, taekwondo, BJJ, muay thai): origens, graduações, **lutadores/professores notáveis**, regras de competição, federações e eventos canônicos. Distinguir arte marcial de esporte de combate quando preciso, priorizando **títulos oficiais** e marcos institucionais.
 
 ### Subtema: Esportes Diversos
 
@@ -858,7 +863,7 @@ Tradições e esportivizações (judô, karatê, taekwondo, jiu-jítsu brasileir
 }
 ```
 
-Guarda-chuva para modalidades **não** cobertas acima (exclui: Futebol, Basquete, Tênis, Automobilismo, Olimpíadas, Esportes Radicais, Artes Marciais). Inclui, por exemplo, atletismo, natação, voleibol, handebol, rugby, beisebol/softbol, hóqueis, ginástica, ciclismo, halterofilismo. Valorize regras oficiais, medidas e equipamentos regulamentados, formatos de competição e instituições.
+Modalidades **não** cobertas acima (atletismo, natação, vôlei, handebol, rugby, beisebol/softbol, hóqueis, ginástica, ciclismo, halterofilismo). Valorize **regras oficiais**, medidas e formatos de competição, **instituições e arenas**, e **atletas de destaque com feitos estáveis** (títulos/recordes **homologados**).
 
 
 ## Tema: História
