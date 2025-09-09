@@ -1,5 +1,7 @@
 project:
   type: website
+  resources: 
+    - info/*.md  # <- inclui os arquivos de instruções na pasta info
   output-dir: docs   # <- aqui você fixa a pasta de saída
   render:
     - "*md"      # rende tudo que for .md na raiz
