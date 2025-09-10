@@ -75,7 +75,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-1fe81d0376b2c50856e68e651e390326.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-1d4f84655f446305ac42a8f1abcf7405.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,7 +107,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -131,13 +131,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Início</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./regras.html"> 
+    <a class="nav-link" href="./regras.qmd"> 
 <span class="menu-text">Regras</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./dicionario_temas_subtemas.html" aria-current="page"> 
 <span class="menu-text">Dicionário</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-instruções" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Instruções</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-instruções">    
+        <li>
+    <a class="dropdown-item" href="./info/instrucoes_geracao_microsubtemas.html">
+ <span class="dropdown-text">Microsubtemas</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./info/instrucoes_geracao_perguntas.html">
+ <span class="dropdown-text">Perguntas</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -149,113 +164,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#dicionário-de-temas-e-subtemas" id="toc-dicionário-de-temas-e-subtemas" class="nav-link active" data-scroll-target="#dicionário-de-temas-e-subtemas">Dicionário de Temas e Subtemas</a>
-  <ul class="collapse">
-  <li><a href="#tema-geografia" id="toc-tema-geografia" class="nav-link" data-scroll-target="#tema-geografia">Tema: Geografia</a>
-  <ul class="collapse">
-  <li><a href="#subtema-países-capitais-e-cidades-notáveis" id="toc-subtema-países-capitais-e-cidades-notáveis" class="nav-link" data-scroll-target="#subtema-países-capitais-e-cidades-notáveis">Subtema: Países, Capitais e Cidades Notáveis</a></li>
-  <li><a href="#subtema-maravilhas-naturais" id="toc-subtema-maravilhas-naturais" class="nav-link" data-scroll-target="#subtema-maravilhas-naturais">Subtema: Maravilhas Naturais</a></li>
-  <li><a href="#subtema-geopolítica" id="toc-subtema-geopolítica" class="nav-link" data-scroll-target="#subtema-geopolítica">Subtema: Geopolítica</a></li>
-  <li><a href="#subtema-economia-regional" id="toc-subtema-economia-regional" class="nav-link" data-scroll-target="#subtema-economia-regional">Subtema: Economia Regional</a></li>
-  <li><a href="#subtema-vegetação-e-biomas" id="toc-subtema-vegetação-e-biomas" class="nav-link" data-scroll-target="#subtema-vegetação-e-biomas">Subtema: Vegetação e Biomas</a></li>
-  <li><a href="#subtema-oceanos-e-mares" id="toc-subtema-oceanos-e-mares" class="nav-link" data-scroll-target="#subtema-oceanos-e-mares">Subtema: Oceanos e Mares</a></li>
-  <li><a href="#subtema-relevo-e-formações-geológicas" id="toc-subtema-relevo-e-formações-geológicas" class="nav-link" data-scroll-target="#subtema-relevo-e-formações-geológicas">Subtema: Relevo e Formações Geológicas</a></li>
-  <li><a href="#subtema-hidrografia-continental" id="toc-subtema-hidrografia-continental" class="nav-link" data-scroll-target="#subtema-hidrografia-continental">Subtema: Hidrografia Continental</a></li>
-  <li><a href="#subtema-clima" id="toc-subtema-clima" class="nav-link" data-scroll-target="#subtema-clima">Subtema: Clima</a></li>
-  </ul></li>
-  <li><a href="#tema-história-natural" id="toc-tema-história-natural" class="nav-link" data-scroll-target="#tema-história-natural">Tema: História Natural</a>
-  <ul class="collapse">
-  <li><a href="#subtema-dinossauros" id="toc-subtema-dinossauros" class="nav-link" data-scroll-target="#subtema-dinossauros">Subtema: Dinossauros</a></li>
-  <li><a href="#subtema-ecossistemas-e-biodiversidade-animais" id="toc-subtema-ecossistemas-e-biodiversidade-animais" class="nav-link" data-scroll-target="#subtema-ecossistemas-e-biodiversidade-animais">Subtema: Ecossistemas e Biodiversidade: Animais</a></li>
-  <li><a href="#subtema-ecossistemas-e-biodiversidade-plantas-e-fungos" id="toc-subtema-ecossistemas-e-biodiversidade-plantas-e-fungos" class="nav-link" data-scroll-target="#subtema-ecossistemas-e-biodiversidade-plantas-e-fungos">Subtema: Ecossistemas e Biodiversidade: Plantas e Fungos</a></li>
-  <li><a href="#subtema-antropologia-e-evolução-humana" id="toc-subtema-antropologia-e-evolução-humana" class="nav-link" data-scroll-target="#subtema-antropologia-e-evolução-humana">Subtema: Antropologia e Evolução Humana</a></li>
-  <li><a href="#subtema-terra-primitiva-e-formação-do-planeta" id="toc-subtema-terra-primitiva-e-formação-do-planeta" class="nav-link" data-scroll-target="#subtema-terra-primitiva-e-formação-do-planeta">Subtema: Terra Primitiva e Formação do Planeta</a></li>
-  <li><a href="#subtema-formação-do-universo" id="toc-subtema-formação-do-universo" class="nav-link" data-scroll-target="#subtema-formação-do-universo">Subtema: Formação do Universo</a></li>
-  <li><a href="#subtema-ambientes-extremos-e-vida" id="toc-subtema-ambientes-extremos-e-vida" class="nav-link" data-scroll-target="#subtema-ambientes-extremos-e-vida">Subtema: Ambientes Extremos e Vida</a></li>
-  <li><a href="#subtema-biologia-animal" id="toc-subtema-biologia-animal" class="nav-link" data-scroll-target="#subtema-biologia-animal">Subtema: Biologia Animal</a></li>
-  <li><a href="#subtema-biologia-vegetal" id="toc-subtema-biologia-vegetal" class="nav-link" data-scroll-target="#subtema-biologia-vegetal">Subtema: Biologia Vegetal</a></li>
-  </ul></li>
-  <li><a href="#tema-variedades" id="toc-tema-variedades" class="nav-link" data-scroll-target="#tema-variedades">Tema: Variedades</a>
-  <ul class="collapse">
-  <li><a href="#subtema-folclore" id="toc-subtema-folclore" class="nav-link" data-scroll-target="#subtema-folclore">Subtema: Folclore</a></li>
-  <li><a href="#subtema-religiões" id="toc-subtema-religiões" class="nav-link" data-scroll-target="#subtema-religiões">Subtema: Religiões</a></li>
-  <li><a href="#subtema-idiomas" id="toc-subtema-idiomas" class="nav-link" data-scroll-target="#subtema-idiomas">Subtema: Idiomas</a></li>
-  <li><a href="#subtema-costumes" id="toc-subtema-costumes" class="nav-link" data-scroll-target="#subtema-costumes">Subtema: Costumes</a></li>
-  <li><a href="#subtema-culinária" id="toc-subtema-culinária" class="nav-link" data-scroll-target="#subtema-culinária">Subtema: Culinária</a></li>
-  <li><a href="#subtema-teorias-da-conspiração" id="toc-subtema-teorias-da-conspiração" class="nav-link" data-scroll-target="#subtema-teorias-da-conspiração">Subtema: Teorias da Conspiração</a></li>
-  <li><a href="#subtema-sociedades-secretas" id="toc-subtema-sociedades-secretas" class="nav-link" data-scroll-target="#subtema-sociedades-secretas">Subtema: Sociedades Secretas</a></li>
-  </ul></li>
-  <li><a href="#tema-artes" id="toc-tema-artes" class="nav-link" data-scroll-target="#tema-artes">Tema: Artes</a>
-  <ul class="collapse">
-  <li><a href="#subtema-arquitetura" id="toc-subtema-arquitetura" class="nav-link" data-scroll-target="#subtema-arquitetura">Subtema: Arquitetura</a></li>
-  <li><a href="#subtema-música-clássica" id="toc-subtema-música-clássica" class="nav-link" data-scroll-target="#subtema-música-clássica">Subtema: Música Clássica</a></li>
-  <li><a href="#subtema-pintura" id="toc-subtema-pintura" class="nav-link" data-scroll-target="#subtema-pintura">Subtema: Pintura</a></li>
-  <li><a href="#subtema-escultura" id="toc-subtema-escultura" class="nav-link" data-scroll-target="#subtema-escultura">Subtema: Escultura</a></li>
-  <li><a href="#subtema-literatura" id="toc-subtema-literatura" class="nav-link" data-scroll-target="#subtema-literatura">Subtema: Literatura</a></li>
-  <li><a href="#subtema-teatro" id="toc-subtema-teatro" class="nav-link" data-scroll-target="#subtema-teatro">Subtema: Teatro</a></li>
-  </ul></li>
-  <li><a href="#tema-cotidiano" id="toc-tema-cotidiano" class="nav-link" data-scroll-target="#tema-cotidiano">Tema: Cotidiano</a>
-  <ul class="collapse">
-  <li><a href="#subtema-bens-de-consumo" id="toc-subtema-bens-de-consumo" class="nav-link" data-scroll-target="#subtema-bens-de-consumo">Subtema: Bens de Consumo</a></li>
-  <li><a href="#subtema-polêmicas-de-celebridades" id="toc-subtema-polêmicas-de-celebridades" class="nav-link" data-scroll-target="#subtema-polêmicas-de-celebridades">Subtema: Polêmicas de Celebridades</a></li>
-  <li><a href="#subtema-segurança-pública-e-true-crime" id="toc-subtema-segurança-pública-e-true-crime" class="nav-link" data-scroll-target="#subtema-segurança-pública-e-true-crime">Subtema: Segurança Pública e True Crime</a></li>
-  <li><a href="#subtema-televisão-e-streaming" id="toc-subtema-televisão-e-streaming" class="nav-link" data-scroll-target="#subtema-televisão-e-streaming">Subtema: Televisão e Streaming</a></li>
-  <li><a href="#subtema-premiações" id="toc-subtema-premiações" class="nav-link" data-scroll-target="#subtema-premiações">Subtema: Premiações</a></li>
-  </ul></li>
-  <li><a href="#tema-ciências" id="toc-tema-ciências" class="nav-link" data-scroll-target="#tema-ciências">Tema: Ciências</a>
-  <ul class="collapse">
-  <li><a href="#subtema-história-da-ciência" id="toc-subtema-história-da-ciência" class="nav-link" data-scroll-target="#subtema-história-da-ciência">Subtema: História da Ciência</a></li>
-  <li><a href="#subtema-matemática" id="toc-subtema-matemática" class="nav-link" data-scroll-target="#subtema-matemática">Subtema: Matemática</a></li>
-  <li><a href="#subtema-física" id="toc-subtema-física" class="nav-link" data-scroll-target="#subtema-física">Subtema: Física</a></li>
-  <li><a href="#subtema-química" id="toc-subtema-química" class="nav-link" data-scroll-target="#subtema-química">Subtema: Química</a></li>
-  <li><a href="#subtema-biologia-humana" id="toc-subtema-biologia-humana" class="nav-link" data-scroll-target="#subtema-biologia-humana">Subtema: Biologia Humana</a></li>
-  <li><a href="#subtema-astronomia" id="toc-subtema-astronomia" class="nav-link" data-scroll-target="#subtema-astronomia">Subtema: Astronomia</a></li>
-  <li><a href="#subtema-ciências-da-computação" id="toc-subtema-ciências-da-computação" class="nav-link" data-scroll-target="#subtema-ciências-da-computação">Subtema: Ciências da Computação</a></li>
-  </ul></li>
-  <li><a href="#tema-entretenimento" id="toc-tema-entretenimento" class="nav-link" data-scroll-target="#tema-entretenimento">Tema: Entretenimento</a>
-  <ul class="collapse">
-  <li><a href="#subtema-programas-de-televisão" id="toc-subtema-programas-de-televisão" class="nav-link" data-scroll-target="#subtema-programas-de-televisão">Subtema: Programas de Televisão</a></li>
-  <li><a href="#subtema-filmes" id="toc-subtema-filmes" class="nav-link" data-scroll-target="#subtema-filmes">Subtema: Filmes</a></li>
-  <li><a href="#subtema-séries" id="toc-subtema-séries" class="nav-link" data-scroll-target="#subtema-séries">Subtema: Séries</a></li>
-  <li><a href="#subtema-jogos-eletrônicos" id="toc-subtema-jogos-eletrônicos" class="nav-link" data-scroll-target="#subtema-jogos-eletrônicos">Subtema: Jogos Eletrônicos</a></li>
-  <li><a href="#subtema-anime-e-mangá" id="toc-subtema-anime-e-mangá" class="nav-link" data-scroll-target="#subtema-anime-e-mangá">Subtema: Anime e Mangá</a></li>
-  <li><a href="#subtema-música-popular" id="toc-subtema-música-popular" class="nav-link" data-scroll-target="#subtema-música-popular">Subtema: Música Popular</a></li>
-  <li><a href="#subtema-jogos-de-tabuleiro-e-cartas" id="toc-subtema-jogos-de-tabuleiro-e-cartas" class="nav-link" data-scroll-target="#subtema-jogos-de-tabuleiro-e-cartas">Subtema: Jogos de Tabuleiro e Cartas</a></li>
-  </ul></li>
-  <li><a href="#tema-esportes" id="toc-tema-esportes" class="nav-link" data-scroll-target="#tema-esportes">Tema: Esportes</a>
-  <ul class="collapse">
-  <li><a href="#subtema-futebol" id="toc-subtema-futebol" class="nav-link" data-scroll-target="#subtema-futebol">Subtema: Futebol</a></li>
-  <li><a href="#subtema-basquete" id="toc-subtema-basquete" class="nav-link" data-scroll-target="#subtema-basquete">Subtema: Basquete</a></li>
-  <li><a href="#subtema-tênis" id="toc-subtema-tênis" class="nav-link" data-scroll-target="#subtema-tênis">Subtema: Tênis</a></li>
-  <li><a href="#subtema-automobilismo" id="toc-subtema-automobilismo" class="nav-link" data-scroll-target="#subtema-automobilismo">Subtema: Automobilismo</a></li>
-  <li><a href="#subtema-olimpíadas" id="toc-subtema-olimpíadas" class="nav-link" data-scroll-target="#subtema-olimpíadas">Subtema: Olimpíadas</a></li>
-  <li><a href="#subtema-esportes-radicais" id="toc-subtema-esportes-radicais" class="nav-link" data-scroll-target="#subtema-esportes-radicais">Subtema: Esportes Radicais</a></li>
-  <li><a href="#subtema-artes-marciais" id="toc-subtema-artes-marciais" class="nav-link" data-scroll-target="#subtema-artes-marciais">Subtema: Artes Marciais</a></li>
-  <li><a href="#subtema-esportes-diversos" id="toc-subtema-esportes-diversos" class="nav-link" data-scroll-target="#subtema-esportes-diversos">Subtema: Esportes Diversos</a></li>
-  </ul></li>
-  <li><a href="#tema-história" id="toc-tema-história" class="nav-link" data-scroll-target="#tema-história">Tema: História</a>
-  <ul class="collapse">
-  <li><a href="#subtema-filosofia" id="toc-subtema-filosofia" class="nav-link" data-scroll-target="#subtema-filosofia">Subtema: Filosofia</a></li>
-  <li><a href="#subtema-pré-história" id="toc-subtema-pré-história" class="nav-link" data-scroll-target="#subtema-pré-história">Subtema: Pré-História</a></li>
-  <li><a href="#subtema-idade-antiga" id="toc-subtema-idade-antiga" class="nav-link" data-scroll-target="#subtema-idade-antiga">Subtema: Idade Antiga</a></li>
-  <li><a href="#subtema-idade-média" id="toc-subtema-idade-média" class="nav-link" data-scroll-target="#subtema-idade-média">Subtema: Idade Média</a></li>
-  <li><a href="#subtema-idade-moderna" id="toc-subtema-idade-moderna" class="nav-link" data-scroll-target="#subtema-idade-moderna">Subtema: Idade Moderna</a></li>
-  <li><a href="#subtema-idade-contemporânea" id="toc-subtema-idade-contemporânea" class="nav-link" data-scroll-target="#subtema-idade-contemporânea">Subtema: Idade Contemporânea</a></li>
-  <li><a href="#subtema-história-do-brasil" id="toc-subtema-história-do-brasil" class="nav-link" data-scroll-target="#subtema-história-do-brasil">Subtema: História do Brasil</a></li>
-  <li><a href="#subtema-segunda-guerra-mundial" id="toc-subtema-segunda-guerra-mundial" class="nav-link" data-scroll-target="#subtema-segunda-guerra-mundial">Subtema: Segunda Guerra Mundial</a></li>
-  <li><a href="#subtema-primeira-guerra-mundial" id="toc-subtema-primeira-guerra-mundial" class="nav-link" data-scroll-target="#subtema-primeira-guerra-mundial">Subtema: Primeira Guerra Mundial</a></li>
-  <li><a href="#subtema-roma-antiga" id="toc-subtema-roma-antiga" class="nav-link" data-scroll-target="#subtema-roma-antiga">Subtema: Roma Antiga</a></li>
-  <li><a href="#subtema-civilização-chinesa" id="toc-subtema-civilização-chinesa" class="nav-link" data-scroll-target="#subtema-civilização-chinesa">Subtema: Civilização Chinesa</a></li>
-  </ul></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
