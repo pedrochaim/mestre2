@@ -1,32 +1,24 @@
 project:
   type: website
-  resources: 
-    - "info/*.md"  # <- inclui os arquivos de instruções na pasta info
-  output-dir: docs   # <- aqui você fixa a pasta de saída
+  output-dir: docs
   render:
-    - "*md"      # rende tudo que for .md na raiz
-    - "*.qmd"     # rende tudo que for .qmd na raiz
-    - "**/*.qmd"   # rende tudo que for .qmd em qualquer pasta
-    - "!docs/**"   # nunca render a pasta de saída
-    - "info/"
+    - "*.qmd"
+    - "info/**/*.md"    # inclui os MD da pasta info/
 
 website:
   title: "Mestre 2 — Jogo de Perguntas e Respostas"
+  site-url: "https://pedrochaim.github.io/mestre2/"
   navbar:
     left:
       - text: "Início"
         href: index.qmd
       - text: "Regras"
-        href: regras.md
+        href: regras.qmd
       - text: "Dicionário"
         href: dicionario_temas_subtemas.md
-
-  # Ajuste estas duas linhas conforme o tipo de site do Pages:
-  site-url: "https://pedrochaim.github.io/mestre2/"
-
-
-format:
-  html:
-    theme: cosmo
-    toc: true
-
+      - text: "Instruções"
+        menu:
+          - text: "Microsubtemas"
+            href: info/instrucoes_geracao_microsubtemas.md
+          - text: "Perguntas"
+            href: info/instrucoes_geracao_perguntas.md
