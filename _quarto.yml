@@ -1,9 +1,11 @@
 project:
   type: website
-  output-dir: docs
+  resources: 
+    - "info/"  # <- inclui os arquivos de instruções na pasta info
+  output-dir: docs   # <- aqui você fixa a pasta de saída
   render:
     - "*.qmd"
-    - "info/**/*.md"    # inclui os MD da pasta info/
+    - "info/**/*.md"    # inclui os MD da pasta info/    - "!docs/**"   # nunca render a pasta de saída
 
 website:
   title: "Mestre 2 — Jogo de Perguntas e Respostas"
@@ -13,7 +15,7 @@ website:
       - text: "Início"
         href: index.qmd
       - text: "Regras"
-        href: regras.qmd
+        href: regras.md
       - text: "Dicionário"
         href: dicionario_temas_subtemas.md
       - text: "Instruções"
