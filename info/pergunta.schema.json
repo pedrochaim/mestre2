@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schemas.mestre2/pergunta.schema.json",
   "title": "Esquema de Pergunta (Quiz) — pergunta.schema.json",
-  "description": "Schema oficial para validar perguntas do projeto (uma pergunta por objeto). Compatível com o arquivo histórico 'quiz-question.schema.json'. Campos obrigatórios: id, tema, subtema, tipo, dificuldade, pergunta, resposta, fonte. Campos opcionais: tema_clean, microsubtema, subtema_clean, microsubtema_clean, misc.",
+  "description": "Schema oficial para validar perguntas do projeto (uma pergunta por objeto). Compatível com o arquivo histórico 'quiz-question.schema.json'. Campos obrigatórios: id, tema, subtema, tipo, pergunta, resposta, fonte. Campos opcionais: tema_clean, microsubtema, subtema_clean, microsubtema_clean, misc.",
   "type": "object",
   "additionalProperties": false,
   "$defs": {
@@ -21,15 +21,6 @@
         "Verdadeiro-falso"
       ]
     },
-    "dificuldadeEnum": {
-      "type": "string",
-      "enum": [
-        "D1",
-        "D2",
-        "D3"
-      ],
-      "description": "D1=fácil, D2=médio, D3=difícil conforme rubrica."
-    },
     "httpUrl": {
       "type": "string",
       "format": "uri",
@@ -41,7 +32,6 @@
     "tema",
     "subtema",
     "tipo",
-    "dificuldade",
     "pergunta",
     "resposta",
     "fonte"
@@ -104,9 +94,6 @@
     "tipo": {
       "$ref": "#/$defs/tipoEnum"
     },
-    "dificuldade": {
-      "$ref": "#/$defs/dificuldadeEnum"
-    },
     "pergunta": {
       "type": "string",
       "minLength": 3,
@@ -138,12 +125,7 @@
     },
     "misc": {
       "type": "object",
-      "description": "Campo livre para anotações/flags internas (ex.: {\"ignore_dificuldade\": true}).",
-      "properties": {
-        "ignore_dificuldade": {
-          "type": "boolean"
-        }
-      },
+      "description": "Campo livre para anotações/flags internas.",
       "additionalProperties": true
     }
   },
@@ -200,7 +182,6 @@
       "microsubtema": "Nomes de grandes números",
       "microsubtema_clean": "nomes_grandes_numeros",
       "tipo": "Aberta",
-      "dificuldade": "D2",
       "pergunta": "Qual é o nome do número 10^100?",
       "resposta": "Googol",
       "fonte": [
@@ -216,7 +197,6 @@
       "microsubtema": "Penínsulas europeias",
       "microsubtema_clean": "peninsulas_europeias",
       "tipo": "Múltipla escolha",
-      "dificuldade": "D1",
       "pergunta": "Qual destas penínsulas pertence à Europa?\nA) Arábica\nB) Malaca\nC) Kamchatka\nD) Ibérica",
       "resposta": "Ibérica",
       "fonte": [
@@ -232,7 +212,6 @@
       "microsubtema": "Longitude e fusos horários",
       "microsubtema_clean": "longitude_fusos_horarios",
       "tipo": "Verdadeiro-falso",
-      "dificuldade": "D2",
       "pergunta": "A Linha Internacional de Data coincide exatamente com o meridiano de 180°. (V/F)",
       "resposta": "Falso",
       "fonte": [
