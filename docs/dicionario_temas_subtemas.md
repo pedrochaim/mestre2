@@ -149,6 +149,17 @@ A hidrografia continental estuda as águas doces presentes na superfície terres
 
 ### Subtema: Clima
 
+```json
+{
+  "tema": "Geografia",
+  "subtema": "Clima",
+  "subtema_clean": "clima"
+}
+```
+
+Este subtema aborda os padrões climáticos de longo prazo da Terra, seus controles e classificações, em diferentes escalas (global, regional e local/microclimas). Cobre elementos do clima (temperatura, precipitação, radiação, pressão, ventos e umidade) e os fatores que os modulam: latitude, altitude, relevo, continentalidade, correntes oceânicas, cobertura vegetal e uso do solo. Inclui a circulação geral da atmosfera (células de Hadley/Ferrel/Polar, jatos, alísios e o escoamento de oeste), zonas de convergência (ITCZ) e regimes climáticos como monções. Contempla teleconexões e variabilidade natural (ENSO/El Niño–Oscilação Sul, NAO, PDO) e seus efeitos climáticos típicos. Abrange climas zonais (tropical, árido, temperado, continental, polar, de montanha) e conceitos como normais climatológicas (médias de 30 anos). Também inclui extremos climáticos (ondas de calor/frio, secas) como manifestações estatísticas do clima, não como eventos do dia.
+Exclusões: previsão do tempo e boletins em tempo real; estatísticas conjunturais do “ano atual”; cobertura marinha detalhada própria de “Oceanos e Mares”; debates opinativos sobre políticas. Foco em fatos estáveis e definições aceitas.
+
 ## Tema: História Natural
 
 A história natural é o estudo das origens e desenvolvimento da vida na Terra, abrangendo desde os primeiros organismos unicelulares até a diversidade atual de espécies. Ela inclui a paleontologia, que estuda fósseis e a evolução das espécies, bem como a ecologia, que analisa as interações entre organismos e seus ambientes. No nosso escopo, História Natural engobla também a interação entre seres vivos hoje, como ecologia, ecossistemas, taxonomia, etc. Incluir subtemas que interessariam uma pessoa que assiste documentários sobre natureza. Evitar sobreposição de assuntos com o tema Ciências.
@@ -302,7 +313,25 @@ Exemplo JSON:
 }
 ```
 
-Abrange lendas, mitos, contos, provérbios, festas e personagens que expressam a memória cultural de povos e regiões. Inclui narrativas de origem, heróis culturais, seres fantásticos, folguedos, cantigas, danças e artesanato ritual. Valoriza variantes regionais e registros consagrados (coletas etnográficas, enciclopédias, museus). Foque em nomes, lugares, motivos recorrentes e traços distintivos; esclareça quando houver múltiplas versões. Evite datas móveis “do ano” e versões controversas sem fonte canônica.
+Abrange lendas, mitos, contos, provérbios, festas e personagens que expressam a memória cultural de povos e regiões. Inclui narrativas de origem, heróis culturais, seres fantásticos, folguedos, cantigas. Valoriza variantes regionais e registros consagrados (coletas etnográficas, enciclopédias, museus). Foque em nomes, lugares, motivos recorrentes e traços distintivos; esclareça quando houver múltiplas versões. Evite datas móveis “do ano” e versões controversas sem fonte canônica.
+
+### Subtema: Mitologia
+
+Exemplo JSON:
+
+```json
+{
+  "tema": "Variedades",
+  "tema_clean": "variedades",
+  "subtema": "Mitologia",
+  "subtema_clean": "mitologia"
+}
+```
+
+A **Mitologia** estuda os grandes ciclos narrativos de povos e civilizações — deuses, deusas, heróis, monstros, cosmogonias e teogonias — bem como seus símbolos e funções (origem do mundo, legitimidade de reis, ética, natureza e destino). Abrange, entre outras, as tradições **grega**, **egípcia**, **nórdica**, **chinesa**, **japonesa**, **mesoamericana** (maia, asteca) e **mesopotâmica**, priorizando fontes clássicas e compêndios (p. ex., *Teogonia* de Hesíodo, *Eddas*, *Kojiki*, *Popol Vuh*).
+**Diferença para Religiões:** aqui o foco não é doutrina, culto, liturgia ou prática de fé contemporânea, mas as **narrativas** e personagens canônicos em perspectiva histórico-cultural. Questões sobre dogmas, ritos, instituições religiosas vivas e suas correntes pertencem ao subtema **Religiões**.
+**Diferença para Folclore:** enquanto *Folclore* cobre lendas locais, festas, provérbios e seres regionais transmitidos pela tradição popular, *Mitologia* trata de **corpos narrativos clássicos e sistematizados** (panteões, genealogias divinas, épicos), ainda que tenham influenciado tradições folclóricas posteriores.
+
 
 ### Subtema: Religiões
 
@@ -475,7 +504,6 @@ Cobre produção verbal em prosa e verso, gêneros (épico, lírico, dramático)
 ```
 
 Estuda arte cênica: dramaturgia, encenação, atuação, cenografia, figurino, iluminação e música de cena. Considera tradições (tragédia e comédia antigas, teatro medieval, renascentista, neoclássico, realista, épico, simbolista, do absurdo, contemporâneo) e espaços (anfiteatro, palco italiano, arena, rua). Registra autores, peças, datas de estreia, companhias, diretores, teatros, festivais e prêmios. Diferencia texto dramático de montagem; documenta versões, cortes e traduções. Evita resenhas; prioriza dados estáveis sobre repertórios, convenções de cena e história das companhias. Útil para perguntas de identificação de autores/obras, formas cômicas e trágicas, dispositivos cênicos, cronologias e instituições teatrais.
-
 
 ## Tema: Cotidiano
 

@@ -1,7 +1,3 @@
-Segue com o **padrão corrigido**: campos JSON em monoespaço (`` `campo` ``) e placeholders de arquivo entre **chaves** (`{token}`).
-
----
-
 # Instruções para Geração de Perguntas
 
 O objetivo deste documento é fornecer diretrizes claras e detalhadas para a criação de um conjunto de perguntas de quiz que sejam variadas e adequadamente referenciadas. Seguindo estas instruções, você ajudará a garantir que o conjunto final seja de alta qualidade, adequado para um público amplo e diversificado.

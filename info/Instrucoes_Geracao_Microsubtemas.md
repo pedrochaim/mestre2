@@ -1,270 +1,203 @@
-# Padrão para Criação de Microsubtemas
+# Instruções do Projeto — Criação de Microsubtemas (versão reorganizada)
 
-> **Propósito.** Este documento padroniza **como** propor e redigir **microsubtemas** para sustentar a geração de perguntas validadas pelo *schema* do projeto, com alta qualidade, baixa sobreposição e foco em **fatos estáveis**.
-
----
-
-## 1) Definição e natureza
-
-Um `microsubtema` é um recorte **operacional** dentro de um `subtema` que viabiliza produzir **pelo menos 80 perguntas** (ideal: 100), com variedade de **tipos de questão**, **fatos estáveis** e **baixa sobreposição** com outros recortes.
-
-Existem duas naturezas válidas:
-
-1. **Temático**
-   Recorte por **assunto/obra/franquia/território** dentro do subtema.
-   *Exemplos*: *Futebol Brasileiro* (Esportes → Futebol), *Dragon Ball* (Entretenimento → Anime e Mangá).
-   • Cobertura: “qualquer tipo de pergunta **desde que** pertença ao assunto escolhido”.
-
-2. **Transversal**
-   Recorte por **propriedade/regra/critério** que cruza entidades diversas do subtema.
-   *Exemplo*: *Cidades com mais de 1 milhão de habitantes* (Geografia → Países, Capitais e Cidades Notáveis).
-   • Cobertura: “perguntas que testam a propriedade/critério (p.ex., pertence/pareia/classifica/está em) independentemente do país/autor/obra”.
-
-**Dica de escolha.** Use **Temático** quando o público espera “saber tudo sobre X”. Use **Transversal** quando o valor pedagógico está em **comparar/classificar** muitos X sob a mesma regra.
-
-**Teste rápido de viabilidade (passe/pare):**
-
-* Há **≥ 80** fatos estáveis sem cair em atualidades sazonais?
-* Consigo cobrir **todos os tipos** (Aberta, Múltipla escolha, Verdadeiro-falso) com enunciados inequívocos?
-* Sei enunciar a **regra** (se transversal) de forma operacional?
-* Consigo listar **Exclusões** claras para evitar sobreposição?
+> **Propósito**. Este guia padroniza **como propor e redigir *microsubtemas*** para sustentar a geração de perguntas factuais e estáveis, validadas pelo schema do projeto. As orientações aqui **não alteram o schema** de perguntas — apenas estruturam o **documento de microsubtema** que servirá de base para gerar questões.
 
 ---
 
-## 2) Nomenclatura e metadados
+## 1) O que é um *microsubtema*
 
-* **Título**: claro, curto (≤ 60 caracteres), maiúsculas usuais.
-  *Ex.* “Capitais em Rios”, “Obras de Shakespeare”, “Dinossauros do Cretáceo”.
-* **Slug (`microsubtema_clean`)**: minúsculas, sem acentos, com `_`.
-  *Ex.* `capitais_em_rios`, `futebol_brasileiro`, `dragon_ball`.
-* **Natureza**: “Temático” ou “Transversal”.
-* **Compatibilidade com o *schema*** (campos quando aplicável ao arquivo de perguntas):
+Um **microsubtema** é um recorte **operacional** dentro de um **subtema** que permite produzir **≥ 80 perguntas** (ideal: \~100) com **baixa sobreposição** com outros recortes, mantendo **fatos estáveis**, clareza de **escopo** e diversidade de itens (aberta, múltipla escolha, verdadeiro/falso).
 
-  * `microsubtema`: título do recorte.
-  * `microsubtema_clean`: *slug* do recorte.
-  * `subtema_clean`: *slug* do subtema (fornecido pelo dicionário).
-* **Relacionados (opcional)**: “↔ ver também: {microsubtema}” — apenas para apontar vizinhos; **não** duplica cobertura.
-* **Fontes recomendadas**: 2+ **tipos canônicos** do tema (Wikipedia-EN da página **específica** + fonte oficial/enciclopédica).
+* **Não é** uma lista fechada de tópicos: o escopo define **fronteiras e exemplos**, mas **é não exaustivo**. É permitido usar **personagens/assuntos não listados explicitamente**, desde que **coerentes com o escopo** e **sustentados por fontes confiáveis**.
+* O microsubtema deve ser **reutilizável** e **longevo** (evitar fatos efêmeros, atualidades voláteis, placares de temporada, preços, etc.).
 
 ---
 
-## 3) Estrutura padrão do bloco
+## 2) Naturezas válidas
 
-*(para o arquivo `Microsubtemas_{tema_clean}_{subtema_clean}.md`; **use o molde idêntico**)*
-
-```
-## N) {Título do microsubtema} — {microsubtema_clean}
-
-**Natureza.** Temático | Transversal  
-**Descrição.** (2–4 linhas didáticas que expliquem o recorte)  
-**Escopo.** (bullets objetivos do que ENTRA)  
-**Inclusões.** (bullets de tópicos/entidades que DEVEM aparecer ao longo do lote)  
-**Exclusões.** (bullets do que NÃO entra para evitar sobreposição)  
-**Matriz de variação.** (estratégias de diversidade: pares, classificações, direções, regiões, épocas, etc.)
-
-**Exemplos por tipo**
-- **Aberta:** …
-- **Verdadeiro/Falso:** …
-- **Múltipla escolha:** …
-
-**Cobertura sugerida.** (regiões/épocas/conjuntos a rotacionar)  
-**Checklist.** (3–6 itens críticos de verificação)  
-**Fontes recomendadas.** (2–4 referências-tipo)
-```
-
-**Orientações do molde:**
-
-* Em **Transversal**, defina a **regra** com precisão (limiar, classe, definição operacional). Evite indicadores **instáveis** (rankings anuais); prefira **classificações estáveis** (p.ex., `landlocked`, “capitais em ilhas”, “rio que banha a capital”).
-* Em **Temático**, **delimite** tempo, canonicidade, corpus oficial e/ou fronteira geográfica.
-* Sempre detalhe **Exclusões** (ex.: “não cobre séries derivadas/‘spin-offs’”, “não inclui territórios com status diplomático controverso”, “não usa estimativas populacionais do ano corrente”).
+* **Temático** — recorte por **assunto/obra/franquia/território** dentro do subtema.
+  *Exs.*: *Futebol Brasileiro* (Esportes → Futebol), *Dragon Ball* (Entretenimento → Anime e Mangá), *Roma Republicana* (História → Roma Antiga).
+* **Transversal** — recorte por **regra/propriedade/condição** que cruza entidades.
+  *Exs.*: *Capitais em Rios* (Geografia), *Países sem Litoral* (Geografia), *Montanhas acima de 7.000 m* (Geografia).
 
 ---
 
-## 4) Regras anti-sobreposição (obrigatórias)
+## 3) Nomenclatura e metadados
 
-1. **Um lar por assunto.** Se um tema caberia em mais de um microsubtema, escolha **apenas um** e adicione “↔ ver também” nos demais.
-2. **Exclusões explícitas.** Liste exemplos típicos que **ficam de fora** para preservar ortogonalidade.
-3. **Limite por entidade/fenômeno.** Até **3 questões** por indivíduo/obra/time/local **por lote** (ou o limite global vigente).
-4. **Estabilidade.** Prefira fatos **estáticos** (status de capital, localização, autoria, datas consolidadas).
-5. **Fontes.** Toda afirmação deve ser sustentada por **2+ fontes específicas** e consistentes.
-6. **Deduplicação cruzada.** Use um “hash central” do par testado (p.ex., `pais|capital`) para prevenir repetição entre microsubtemas.
+* **Título curto** e claro.
+* **`microsubtema_clean`**: minúsculas, **`_`** como separador, sem acentos (ex.: `capitais_em_rios`).
+* Coloque o microsubtema no diretório correspondente **`microsubtemas_<tema_clean>_<subtema_clean>.md`**.
 
 ---
 
-## 5) Exemplos EXPANDIDOS
+## 4) Estrutura padrão do documento de microsubtema
 
-### 5.1 Temáticos
+Cada microsubtema deve seguir, na ordem:
 
-**a) Esportes → Futebol → *Futebol Brasileiro* — `futebol_brasileiro`**
-**Descrição.** Competições nacionais (Séries A/B), Copas, clubes, estádios, regulamentos históricos estáveis e ídolos consolidados.
-**Escopo.**
+1. **Cabeçalho**: Título + código `microsubtema_clean`.
+2. **Natureza**: *Temático* ou *Transversal*.
+3. **Descrição**: objetivo e recorte em 2–4 linhas.
+4. **Escopo** (com subtópicos padronizados):
 
-* Formatos históricos estáveis (pontos corridos, datas de adoção)
-* Clubes, estádios e títulos nacionais; técnicos de títulos
-* Clássicos e alcunhas canônicas
-  **Exclusões.**
-* Tabelas/recordes da temporada corrente
-* Transferências em andamento; rumores
-* Estatísticas “líderes do ano”
-  **Matriz de variação.**
-* Direção (clube→estádio | estádio→clube)
-* Título→ano | técnico→título
-* Regras→data de adoção
-  **Exemplos.**
-* **Aberta:** “Qual clube manda seus jogos no Allianz Parque?”
-* **Múltipla escolha:** “Quem foi o técnico do Penta em 2002? A) Luiz Felipe Scolari B) Carlos Alberto Parreira C) Tite D) Vanderlei Luxemburgo”
-* **V/F:** “O Brasileirão adotou pontos corridos em 2003.”
+   * **Inclusões (não exaustivo)**: itens elegíveis; pode citar **pessoas, obras, lugares, instituições**. *Atenção:* a lista é **aberta**; **não limita** a criação de perguntas a nomes citados.
+   * **Exclusões**: o que fica de fora (p.ex., atualidades efêmeras, especulação, rankings anuais).
+   * **Referências (exemplos)**: bases/entradas **prováveis** (preferência: **Wikipedia em inglês**), e **documentos oficiais** aplicáveis. Não precisa ser exaustivo nem incluir URL — são **sugestões** de onde ancorar fatos.
+5. **Matriz de variação (eixos)**: parâmetros que fomentam diversidade (tempo, espaço, categorias, métricas, papéis de pessoas, etc.).
+6. **Exemplos de enunciados** *(opcional)*: 2–4 **modelos** de itens (Aberta, Múltipla escolha, Verdadeiro/Falso). Os exemplos **não** vinculam o banco a esses nomes; servem apenas como **demonstração de formato**.
+7. **Checklist**: validações antes de gerar perguntas.
 
-**b) Entretenimento → Anime e Mangá → *Dragon Ball* — `dragon_ball`**
-**Escopo.**
-
-* Obras canônicas (mangá original, Z, Super), autor (Toriyama)
-* Arcos, personagens principais, filmes canônicos
-  **Exclusões.**
-* Fanfics, jogos não canônicos, rumores
-  **Exemplos.**
-* **Aberta:** “Quem é o autor de *Dragon Ball*?”
-* **Múltipla escolha:** “Em qual saga surge Cell pela primeira vez? A) Saiyajin B) Freeza C) Cell D) Boo”
-* **V/F:** “*Dragon Ball Super: Broly* é posterior a *Battle of Gods*.”
-
-**c) História → Roma Antiga → *Roma Republicana* — `roma_republicana`**
-**Escopo.** Instituições (cônsules, Senado), Guerras Púnicas, reformas dos Graco, expansão até 27 a.C.
-**Exclusões.** Período imperial; mitologia pura.
-**Exemplos.**
-
-* **Aberta:** “Qual era o cargo máximo anual na República Romana?”
-* **Múltipla escolha:** “A Primeira Guerra Púnica opôs Roma a… A) Cartago B) Macedônia C) Egito Ptolemaico D) Gália”
-* **V/F:** “Os irmãos Graco propuseram reformas agrárias.”
-
-**d) História Natural → Dinossauros → *Terópodes* — `teropodes`**
-**Escopo.** Clado Theropoda, traços diagnósticos, origem das aves.
-**Exclusões.** Pterossauros (não dinossauros); mamíferos mesozoicos.
-**Exemplos.**
-
-* **Aberta:** “As aves descendem de qual grande grupo de dinossauros?”
-* **Múltipla escolha:** “Velociraptor pertence a que clado? A) Sauropodomorpha B) Ornithopoda C) Theropoda D) Thyreophora”
-* **V/F:** “Nem todos os terópodes eram carnívoros.”
-
-### 5.2 Transversais
-
-**a) Geografia → Países, Capitais e Cidades Notáveis → *Capitais em Rios* — `capitais_em_rios`**
-**Regra.** A capital é **banhada** por um rio nomeado (p.ex., Danúbio, Nilo).
-**Exclusões.** Cidades não-capitais; canais artificiais sem consenso; “riachos” locais não canônicos.
-**Exemplos.**
-
-* **Aberta:** “O Danúbio banha qual capital?”
-* **Múltipla escolha:** “Qual par rio→capital está correto? A) Sena→Roma B) Tâmisa→Londres C) Reno→Madri D) Nilo→Cartum”
-* **V/F:** “Cartum situa-se na confluência do Nilo Branco e Azul.”
-
-**b) Geografia → Países, Capitais e Cidades Notáveis → *Países sem Litoral (landlocked)* — `paises_encravados`**
-**Regra.** País sem contato com mar/oceano; incluir casos **duplamente encravados**.
-**Exclusões.** Acesso por rio **não** conta como litoral.
-**Exemplos.**
-
-* **Aberta:** “A Suíça é litorânea?”
-* **Múltipla escolha:** “Qual destes **não** é landlocked? A) Bolívia B) Paraguai C) Mongólia D) Argentina”
-* **V/F:** “Liechtenstein é duplamente encravado.”
-
-**c) Artes → Literatura → *Obras Clássicas (Idade Antiga e Medieval)* — `obras_classicas_antiga_medieval`**
-**Regra.** Obras com datação na **Antiguidade** (\~800 a.C.–\~500 d.C.) ou **Idade Média** (\~500–\~1500 d.C.), conforme referência consagrada.
-**Escopo.** Epopeias, tragédias/comedias, poemas, crônicas e romances medievais (Homero, Virgílio, Sófocles, Dante, *Beowulf*, *A Canção de Rolando*).
-**Exclusões.** Obras renascentistas (>\~1500); textos de canonicidade controversa sem consenso; adaptações modernas.
-**Exemplos.**
-
-* **Aberta:** “Quem é o autor da *Eneida*?”
-* **Múltipla escolha:** “Qual obra é medieval? A) *Ilíada* B) *Odisseia* C) *A Canção de Rolando* D) *Teogonia*”
-* **V/F:** “Dante escreveu *A Divina Comédia* no período medieval.”
-
-**d) Ciências → Matemática → *História da Matemática* — `historia_da_matematica`**
-**Regra.** Fatos **históricos** e **estáveis** sobre marcos, obras e matemáticos (Antiguidade–séc. XX).
-**Escopo.** Autores (Euclides, al-Khwarizmi, Newton, Leibniz, Gauss, Cantor), obras-marco (*Elementos*, *Al-jabr*, *Ars Magna*, *Principia*), institucionalização de áreas.
-**Exclusões.** Resultados recentes/abertos; provas técnicas; biografias especulativas.
-**Exemplos.**
-
-* **Aberta:** “Quem escreveu *Elementos*?”
-* **Múltipla escolha:** “Qual obra traz ‘álgebra’ no título? A) *Arithmetica* B) *Al-jabr…* C) *Ars Magna* D) *Principia*”
-* **V/F:** “Leibniz e Newton desenvolveram, de forma independente, o cálculo no séc. XVII.”
-
-> **Nota sobre “Cidades ≥ 1 milhão”.** Válido como transversal, mas trate como **classificação por faixa** e **fixe a referência** (censo/estimativa consolidada com data) no enunciado. Evite perguntar contagens “do ano”.
+> **Observação — Segurança Pública / True Crime.** Para microsubtemas sensíveis, aplicar o **Padrão metodológico**: priorizar fontes oficiais e Wikipedia; usar **casos encerrados** e informações **documentadas**; excluir especulações e detalhes mórbidos; redação **neutra e auditável**.
 
 ---
 
-## 6) Checklist antes de aprovar um microsubtema
+## 5) Exemplos (modelos completos)
 
-* [ ] **Natureza** marcada (Temático/Transversal).
-* [ ] **Título** e **slug** conformes.
-* [ ] **Descrição/Escopo/Exclusões** claros e operacionais.
-* [ ] **Matriz de variação** comporta os **três tipos** (Aberta/MCQ/VF).
-* [ ] **Fontes recomendadas** factíveis para sustentar os fatos (2+ por pergunta).
-* [ ] **Critério estável** (especialmente em transversais), sem depender de números “do ano”.
-* [ ] **Viabilidade ≥ 80 perguntas** sem romper limites de entidade/fenômeno.
+> Os exemplos abaixo **incluem “Referências (exemplos)” no Escopo** e deixam explícito que **as listas são não exaustivas**.
 
----
+### A) Serial Killers — `serial_killers`
 
-## 7) Conexão com o *schema* e regras globais
+**Natureza.** Temático
+**Descrição.** Pessoas ligadas a casos seriais notórios, com ênfase em autores, vítimas, investigadores, promotores e **marcos processuais documentados**.
 
-* Tipos permitidos: **Aberta**, **Múltipla escolha**, **Verdadeiro-falso** (não usar “ordenar eventos”).
-* **Distribuição por tipo:** seguir as instruções globais (ex.: **50%** abertas; **50%** divididas entre MCQ/VF na razão **75% : 25%**).
-* Campo `fonte`: **array** com **≥ 2 URLs específicas** e consistentes (preferência: Wikipedia-EN + fonte oficial/enciclopédica).
-* Campo `pergunta` (MCQ): incluir **A) B) C) D)** no próprio texto; **uma única correta**.
-* Limite por entidade/fenômeno: **≤ 3** por lote (ou o limite global vigente).
-* Evitar atualidades efêmeras e números sazonais.
+**Escopo**
+
+* **Inclusões (não exaustivo)**: autores (p.ex., Jeffrey Dahmer, Ted Bundy, John Wayne Gacy, Dennis Rader, Harold Shipman, Andrei Chikatilo, Aileen Wuornos, **Francisco de Assis Pereira**), casos históricos de autoria desconhecida (p.ex., *Jack the Ripper*), **investigadores** (p.ex., Frederick Abberline), promotores, juízes e **peritos** associados.
+* **Exclusões**: especulações sobre autoria/culpa; detalhes gráficos; informações de vítimas menores; casos **em andamento**.
+* **Referências (exemplos)**: Wikipedia (EN): *Jack the Ripper*, *Jeffrey Dahmer*, *Ted Bundy*, *John Wayne Gacy*; Wikipedia (PT): *Maníaco do Parque*; acórdãos/sentenças criminais; relatórios de procuradorias/forças policiais.
+
+**Matriz de variação (eixos)**: pessoa→papel (autor/vítima/investigador) | caso→época/lugar | decisão→pena | status→resolvido/identidade desconhecida.
+
+**Checklist**: fatos estáveis; fonte verificável; nada de especulação; linguagem neutra; **no máximo 5 perguntas por indivíduo/caso**.
 
 ---
 
-## 8) Boas práticas para “Matriz de variação”
+### B) Facções Criminosas Brasileiras — `faccoes_criminosas_brasileiras`
 
-Rotacione **eixos** para maximizar diversidade:
+**Natureza.** Temático
+**Descrição.** Pessoas e organizações criminosas brasileiras, com foco em **lideranças/fundadores**, decisões judiciais e **marcos institucionais documentados** (formação, presídios, eventos históricos).
 
-* **Direção do par** (p.ex., país→capital **e** capital→país)
-* **Tempo/época** (períodos, dinastias, décadas)
-* **Região** (continentes, sub-regiões, escolas)
-* **Categoria** (gênero, clado, função)
-* **Relação** (pertence, contrasta, precede, influencia)
-* **Formato** (definição→nome; nome→definição; obra→autor; autor→obra)
+**Escopo**
 
----
+* **Inclusões (não exaustivo)**: organizações (PCC, Comando Vermelho, Terceiro Comando Puro, Amigos dos Amigos, Família do Norte, Guardiões do Estado, Bonde dos 40, Primeiro Grupo Catarinense, Os Manos), lideranças/alcunhas (Marcola, Fernandinho Beira-Mar, Marcinho VP, Elias Maluco, Nem da Rocinha, Rogério 157, William da Silva Lima, Rogério Lemgruber, Fuminho, André do Rap, Gegê do Mangue), **instituições/eventos documentados** (p.ex., **Massacre do Carandiru (1992)**; sistemas prisionais estaduais).
+* **Exclusões**: endereços/contatos; táticas operacionais; especulação sobre cadeias de comando; casos **em andamento**.
+* **Referências (exemplos)**: Wikipedia (EN/PT): *Primeiro Comando da Capital*, *Comando Vermelho*; páginas de líderes notórios; relatórios do MJSP; decisões de tribunais; relatórios de Defensorias/MP; CPIs relevantes.
 
-## 9) Glossário rápido
+**Matriz de variação (eixos)**: pessoa→organização | organização→origem/ano | decisão→efeito | região→facção | instituição/evento→impacto/documentação.
 
-* **Fato estável**: não depende de medida anual/temporária (ex.: autoria, capital, localização).
-* **Regra operacional**: definição aplicável sem ambiguidade (ex.: “país sem litoral oceânico”).
-* **Sobreposição**: quando dois microsubtemas competem pelo mesmo conjunto de fatos.
+**Checklist**: fatos estáveis, documentos citáveis, redação neutra, **no máximo 5 perguntas por indivíduo/facção**.
 
 ---
 
-## 10) Modelo “copiar & colar” (pronto)
+### C) Futebol Brasileiro — `futebol_brasileiro`
 
-```
-## N) {Título} — {slug}
+**Natureza.** Temático
+**Descrição.** Clubes, competições, estádios, regulamentos e marcos históricos do futebol no Brasil.
 
-**Natureza.** Temático | Transversal  
-**Descrição.** (2–4 linhas)  
-**Escopo.**
-- …
-- …
-**Inclusões.**
-- …
-- …
-**Exclusões.**
-- …
-- …
-**Matriz de variação.**
-- Direção: …
-- Região/época: …
-- Relação: …
+**Escopo**
 
-**Exemplos por tipo**
-- **Aberta:** …
-- **Verdadeiro/Falso:** …
-- **Múltipla escolha:** …
+* **Inclusões (não exaustivo)**: Campeonatos (Brasileirão, Copa do Brasil), federações (CBF), estádios (Maracanã, Mineirão), clubes históricos, artilharias **históricas** (análogos estáveis), **jogadores, treinadores, narradores e árbitros** (pessoas relevantes ao futebol brasileiro), dirigentes com passagens marcantes, regras **estáveis** do jogo.
+* **Exclusões**: tabelas **de temporada**; transferências recentes; notícias efêmeras; estatísticas “do ano”.
+* **Referências (exemplos)**: Wikipedia (EN): *Campeonato Brasileiro Série A*, *Copa do Brasil*; Wikipedia de clubes; site oficial **CBF**; regulamentos permanentes.
 
-**Cobertura sugerida.** (como rotacionar regiões/épocas/conjuntos)  
-**Checklist.**
-- Regra/critério operacional definido (se transversal)
-- Exclusões claras
-- Viabilidade ≥ 80 itens estáveis
-**Fontes recomendadas.**
-- Wikipedia-EN (páginas específicas)
-- Fonte oficial/enciclopédica do tema
-```
+**Matriz de variação (eixos)**: competição→era | clube→título/estádio | regra→aplicação | técnico→campanha histórica.
+
+**Checklist**: foco em marcos clássicos; evitar atualidades; 2+ referências quando possível.
+
+---
+
+### D) Dragon Ball — `dragon_ball`
+
+**Natureza.** Temático
+**Descrição.** Obra, personagens, transformações, arcos narrativos e publicações da franquia *Dragon Ball*.
+
+**Escopo**
+
+* **Inclusões (não exaustivo)**: autor (Akira Toriyama), linhas de publicação (mangá/anime), sagas, personagens principais/antagonistas, obras derivadas **canônicas**.
+* **Exclusões**: rumores; materiais **não canônicos** sem respaldo editorial; cronologias fanmade.
+* **Referências (exemplos)**: Wikipedia (EN): *Dragon Ball*, *Akira Toriyama*, *List of Dragon Ball characters*; sites oficiais da Shueisha/Toei para canonicidade.
+
+**Matriz de variação (eixos)**: saga→evento | personagem→arco | publicação→data/formato.
+
+**Checklist**: checar canonicidade; evitar boatos; priorizar publicações oficiais.
+
+---
+
+### E) Roma Republicana — `roma_republicana`
+
+**Natureza.** Temático
+**Descrição.** Instituições, conflitos, personalidades e reformas da **República Romana** (c. 509–27 a.C.).
+
+**Escopo**
+
+* **Inclusões (não exaustivo)**: guerras púnicas, magistraturas (cônsules, tribunos), reformas (Gracos, Mário, Sula), figuras (Cícero, Júlio César), direito e cidadania.
+* **Exclusões**: Império Romano **posterior** (salvo transição), mitologia **não histórica**.
+* **Referências (exemplos)**: Wikipedia (EN): *Roman Republic*, *Punic Wars*, *Gaius Marius*, *Lucius Cornelius Sulla*; *Julius Caesar*; corpora epigráficos e textos clássicos com edição crítica.
+
+**Matriz de variação (eixos)**: instituição→função | guerra→frente | personagem→reforma.
+
+**Checklist**: distinguir República vs. Império; citar datas aproximadas aceitas.
+
+---
+
+### F) Terópodes (Dinossauros) — `teropodes`
+
+**Natureza.** Temático
+**Descrição.** Clado Theropoda: anatomia, filogenia, paleoecologia e registros fósseis clássicos.
+
+**Escopo**
+
+* **Inclusões (não exaustivo)**: táxons (Tyrannosaurus, Velociraptor, Allosaurus), evidências (pegadas, ovos, penas), depósitos fossilíferos notáveis.
+* **Exclusões**: pterossauros e plesiossauros (não são dinossauros); especulações sem respaldo.
+* **Referências (exemplos)**: Wikipedia (EN): *Theropoda*, *Tyrannosaurus*, *Velociraptor*; *Paleobiology Database*; museus/coleções com catálogos públicos.
+
+**Matriz de variação (eixos)**: período geológico | táxon→características | sítio→formação.
+
+**Checklist**: usar diagnósticos aceitos; evitar hipóteses marginais.
+
+---
+
+### G) Capitais em Rios — `capitais_em_rios`
+
+**Natureza.** Transversal
+**Descrição.** Capitais nacionais/localizadas **à beira de rios** ou cortadas por cursos fluviais significativos.
+
+**Escopo**
+
+* **Inclusões (não exaustivo)**: capitais e seus rios (p.ex., Cairo–Nilo; Londres–Tâmisa; Budapeste–Danúbio; Brasília–Paranoá **não elegível** por ser lago artificial).
+* **Exclusões**: capitais apenas litorâneas sem rio expressivo; corpos **artificiais** (canais/represas) quando descaracterizam o critério.
+* **Referências (exemplos)**: Wikipedia (EN): *List of national capitals*, páginas de cada capital, páginas dos rios correspondentes; anuários geográficos oficiais.
+
+**Matriz de variação (eixos)**: continente | bacia hidrográfica | papel do rio (transporte, história, fronteira).
+
+**Checklist**: validar se o curso é natural e relevante.
+
+---
+
+### H) Países sem Litoral — `paises_sem_litoral`
+
+**Natureza.** Transversal
+**Descrição.** Estados soberanos **sem acesso direto ao mar** (landlocked) e suas características geopolíticas/geográficas.
+
+**Escopo**
+
+* **Inclusões (não exaustivo)**: lista de países landlocked (p.ex., Bolívia\*, Paraguai, Níger, Laos, Suíça), enclaves/dobramente landlocked, acordos de livre trânsito.
+* **Exclusões**: territórios dependentes; dúvidas de reconhecimento **não pacificadas**.
+* **Referências (exemplos)**: Wikipedia (EN): *Landlocked country* e páginas dos países; ONU (estatísticas geográficas); bancos de dados regionais.
+
+**Matriz de variação (eixos)**: continente | regime de trânsito | vizinhança marítima mais próxima.
+
+**Checklist**: checar status estatal e fronteiras reconhecidas.
+
+---
+
+## 6) Checklist geral (antes de gerar perguntas)
+
+* [ ] O recorte permite ≥ 80 perguntas estáveis e variadas.
+* [ ] **Escopo com Inclusões/Exclusões explícitas** e nota de **não exaustividade**.
+* [ ] **Referências (exemplos)** listadas (Wikipedia-EN preferencial, + documentos oficiais quando cabível).
+* [ ] **Matriz de variação** define eixos claros para diversidade.
+* [ ] Sem sobreposição indevida com outros microsubtemas (ou com exclusões bem definidas).
+* [ ] Evita atualidades efêmeras e dados sazonais.
+* [ ] Para temas sensíveis (True Crime/Segurança), aplica o **Padrão metodológico**.
+
+> **Lembrete final**: As listas em **Escopo** são **não exaustivas**. Você **pode usar** outras pessoas, obras, lugares e fatos **não listados**, desde que **coerentes** com o recorte e **bem referenciados**.

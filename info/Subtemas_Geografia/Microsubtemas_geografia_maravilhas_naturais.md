@@ -1,124 +1,69 @@
 # Microsubtemas — Geografia → Maravilhas Naturais
 
-> Formato compatível com o projeto Mestre 2. Cada item traz **Natureza**, **Descrição**, **Escopo**, **Exclusões**, **Matriz de variação**, **Exemplos por tipo/dificuldade**, **Cobertura sugerida** e **Fontes recomendadas**.
+## 1) Maravilhas Naturais do Brasil — `maravilhas_naturais_brasil`
 
----
-
-## 1) Cataratas e Grandes Quedas-d’Água — `cataratas_quedas_agua`
 **Natureza.** Temático  
-**Descrição.** Conjuntos de quedas icônicas (volume, altura, largura) e seus contextos geológicos e hidrológicos.  
-**Escopo.** Iguaçu, Vitória, Niágara, Angel, Yosemite; bacias hidrográficas; erosão de cabeceira.  
-**Exclusões.** Barragens artificiais; parques temáticos.  
-**Matriz de variação.** rio↔queda; medida↔método; parque↔país; processo↔forma.  
-**Exemplos (tipos).**  
-- **D1 – Aberta:** “Em que rio ficam as Cataratas Vitória?”  
-- **D2 – Múltipla escolha:** altura/volume corretos de uma queda.  
-- **D3 – Verdadeiro/Falso:** afirmação sobre recuo erosivo de Niágara.  
-**Cobertura sugerida.** Américas, África, Oceania.  
-**Fontes recomendadas.** Wikipedia‑EN; UNESCO World Heritage; Britannica.
+**Descrição.** Conjunto de paisagens e formações notáveis no território brasileiro, cobrindo biomas, serras, quedas d’água, cavernas, dunas, chapadas, cânions e arquipélagos, com ênfase em fatos estáveis (localização, geologia, proteção legal, recordes geográficos).
+
+**Escopo**  
+**Inclusões (não exaustivo):** Amazônia (Encontro das Águas, Anavilhanas), Pantanal, Lençóis Maranhenses, Chapada Diamantina, Chapada dos Veadeiros, Serra dos Órgãos, Aparados da Serra (Cânion Itaimbezinho), Serra do Cipó, Serra do Mar & Mata Atlântica, Fernando de Noronha, Arquipélago de Abrolhos, Jalapão, Gruta do Lago Azul (Bonito), Gruta de Maquiné, Cachoeira da Fumaça, Salto do Yucumã, Pico da Neblina, Monte Roraima (porção brasileira), Vale da Lua, Vale do Catimbau.  
+**Exclusões:** estatísticas sazonais (vazões “do ano”); atrações artificiais (e.g., lago/barragem sem relevância natural própria); notícias de acesso/fechamento temporário.  
+**Referências (exemplos):** Wikipedia EN/PT dos sítios; ICMBio/Parques Nacionais; UNESCO (Patrimônio Natural Brasil); Atlas geográfico oficial.
+
+**Matriz de variação (eixos):** bioma | tipo de feição (caverna/cânion/cachoeira/dunas/chapada/recife) | geologia | proteção (UC/Parque/Patrimônio) | recorde/localização (estado, coordenadas) | usos (mergulho, trilha, observação de fauna).
 
 ---
 
-## 2) Vulcões, Calderas e Gêiseres — `vulcoes_calderas_geiseres`
+## 2) Maravilhas Naturais da América do Sul — `maravilhas_america_do_sul`
+
 **Natureza.** Temático  
-**Descrição.** Maravilhas ligadas ao vulcanismo e hidrotermalismo: cones, caldeiras, gêiseres e campos geotérmicos.  
-**Escopo.** Kīlauea, Etna, Fuji, Yellowstone, Rotorua, Haukadalur; placas e hotspots.  
-**Exclusões.** Sismicidade não vulcânica; mineração geotérmica.  
-**Matriz de variação.** vulcão↔erupção; caldeira↔história; gêiser↔mecanismo; parque↔país.  
-**Exemplos (tipos).**  
-- **D1 – Aberta:** “Qual país abriga o Fuji?”  
-- **D2 – Múltipla escolha:** tipo de vulcão (escudo/estratovulcão).  
-- **D3 – Verdadeiro/Falso:** periodicidade de gêiseres clássicos.  
-**Cobertura sugerida.** Círculo do Fogo do Pacífico, Islândia, Itália, EUA.  
-**Fontes recomendadas.** Wikipedia‑EN; USGS; Smithsonian GVP; Britannica.
+**Descrição.** Paisagens icônicas sul-americanas, cobrindo Andes, planaltos, desérticos, glaciais, ilhas oceânicas e grandes quedas d’água, com foco em localização, gênese geológica e status de conservação.
+
+**Escopo**  
+**Inclusões (não exaustivo):** Cordilheira dos Andes (Aconcágua, Fitz Roy), Altiplano/Atacama (Valle de la Luna, Gêiseres de El Tatio), Salar de Uyuni, Lago Titicaca, Torres del Paine, Perito Moreno (Campo de Gelo Patagônico Sul), Glaciar Pastoruri, Salto Ángel (Venezuela), Cataratas do Iguaçu (Brasil/Argentina), Monte Roraima (BR/VE/GU), Ilhas Galápagos, Parque Nacional Tayrona, Chapada dos Guimarães, Lençóis Maranhenses em comparação regional, Serra do Divisor, Delta do Orinoco.  
+**Exclusões:** listas “Top X do ano”; atrações majoritariamente artificiais.  
+**Referências (exemplos):** Wikipedia EN dos sítios; UNESCO World Heritage (América do Sul); serviços geológicos nacionais; guias oficiais de parques.
+
+**Matriz de variação (eixos):** país/região | altitude/latitude | origem (vulcânica, glacial, tectônica, evaporítica) | bioma/ecossistema | proteção (UNESCO, parque) | conectividade (fronteiras binacionais).
 
 ---
 
-## 3) Grandes Desfiladeiros e Cânions — `desfiladeiros_canyons`
+## 3) Himalaia e Planalto Tibetano — `himalaia_e_planalto_tibetano`
+
 **Natureza.** Temático  
-**Descrição.** Vales encaixados de grande profundidade/expressão cênica e sua evolução fluvial/tectônica.  
-**Escopo.** Grand Canyon, Colca, Fish River, Tara; litologia, terraços, capturas fluviais.  
-**Exclusões.** Gargantas artificiais; cortes de estrada.  
-**Matriz de variação.** rio↔cânion; idade↔método (datações); processo↔forma.  
-**Exemplos (tipos).**  
-- **D1 – Aberta:** “Em que estado fica o Grand Canyon?”  
-- **D2 – Múltipla escolha:** par cânion→rio correto.  
-- **D3 – Verdadeiro/Falso:** profundidade/ordem de grandeza.  
-**Cobertura sugerida.** Américas, África, Europa.  
-**Fontes recomendadas.** Wikipedia‑EN; NPS; UNESCO; Britannica.
+**Descrição.** Conjunto de cumeadas, vales e planaltos de alta altitude no Sul da Ásia, abordando picos, glaciares, rios de cabeceira e paisagens associadas (vales suspensos, mosteiros em penhascos, lagos de altitude).
+
+**Escopo**  
+**Inclusões (não exaustivo):** Everest/Sagarmatha, K2 (limite regional com Karakoram), Kangchenjunga, Annapurna, Nanga Parbat, Lhotse, Makalu; glaciares (Khumbu, Baltoro), vales (Hunza, Khumbu), lagos (Pangong Tso, Tso Moriri, Tilicho), desfiladeiros (Yarlung Tsangpo), nascentes de grandes rios (Ganges, Brahmaputra/Yarlung, Indo), parques (Sagarmatha NP, Valley of Flowers), formações e passos (Khardung La, Thorong La).  
+**Exclusões:** controvérsias fronteiriças contemporâneas; estatísticas de expedições do ano; relatos de risco/segurança.  
+**Referências (exemplos):** Wikipedia EN de picos/vales/glaciares; UNESCO/Parques; Geological Survey/Atlas do Himalaia; enciclopédias de montanhismo.
+
+**Matriz de variação (eixos):** país/região (Nepal, Índia, Butão, Tibete/China, Paquistão) | altitude/classe de pico | glacial vs. periglacial | bacias hidrográficas | parques/zonas núcleo | rotas clássicas/vales.
 
 ---
 
-## 4) Sistemas de Cavernas e Paisagens Cársticas — `cavernas_carste`
-**Natureza.** Temático  
-**Descrição.** Cavidades, espeleotemas, dolinas, rios subterrâneos e superfícies cársticas notáveis.  
-**Escopo.** Sơn Đoòng, Mammoth Cave, Škocjan, Waitomo; calcários/dolomitos; carste tropical/temperado.  
-**Exclusões.** Túneis mineiros; atrações artificiais.  
-**Matriz de variação.** caverna↔recorde (extensão, volume); espeleotema↔condição; bacia↔hidrologia.  
-**Exemplos (tipos).**  
-- **D1 – Aberta:** maior sistema por extensão.  
-- **D2 – Múltipla escolha:** tipo de espeleotema.  
-- **D3 – Verdadeiro/Falso:** ligação cárstica entre bacias.  
-**Cobertura sugerida.** EUA, Vietnã, Eslovênia, México, Nova Zelândia.  
-**Fontes recomendadas.** Wikipedia‑EN; UNESCO; NSS/UIS; Britannica.
+## 4) Grandes Quedas d’Água do Mundo — `grandes_quedas_dagua`
 
----
-
-## 5) Recifes de Coral, Atóis e Ilhas Barreira — `recifes_coral_atol`
-**Natureza.** Temático  
-**Descrição.** Complexos carbonáticos rasos de grande beleza e biodiversidade; morfogênese de recifes/atóis.  
-**Escopo.** Grande Barreira, Belize, Maldivas, Tubbataha; zonamento recifal; teoria de Darwin de subsidência.  
-**Exclusões.** Aquários; recifes artificiais.  
-**Matriz de variação.** recife↔país; tipo↔processo; bioconstrução↔condição ambiental.  
-**Exemplos (tipos).**  
-- **D1 – Aberta:** país da Grande Barreira.  
-- **D2 – Múltipla escolha:** identificar “atol” vs. “recife barreira”.  
-- **D3 – Verdadeiro/Falso:** correntes e branqueamento (conceitual, não sazonal).  
-**Cobertura sugerida.** Pacífico, Índico, Caribe.  
-**Fontes recomendadas.** Wikipedia‑EN; UNESCO; NOAA Coral Reef.
-
----
-
-## 6) Montanhas Icônicas e Paisagens Glaciais — `montanhas_paisagens_glaciais`
-**Natureza.** Temático  
-**Descrição.** Picos emblemáticos e feições glaciárias (fiordes, vales em U, morainas) como maravilhas naturais.  
-**Escopo.** Everest, Matterhorn, Denali, Torres del Paine; Sognefjord, Milford Sound.  
-**Exclusões.** Arranha‑céus; pistas de esqui artificiais.  
-**Matriz de variação.** pico↔cordilheira; altitude↔método; glaciar↔feição.  
-**Exemplos (tipos).**  
-- **D1 – Aberta:** país do Matterhorn.  
-- **D2 – Múltipla escolha:** fiorde→país correto.  
-- **D3 – Verdadeiro/Falso:** processos de erosão glacial.  
-**Cobertura sugerida.** Andes, Himalaia, Alpes, Noruega/Nova Zelândia.  
-**Fontes recomendadas.** Wikipedia‑EN; UNESCO; Britannica.
-
----
-
-## 7) Desertos, Dunas e Formas Eólicas — `desertos_formas_eolicas`
-**Natureza.** Temático  
-**Descrição.** Grandes desertos, mares de dunas e megafeições eólicas de destaque paisagístico.  
-**Escopo.** Saara, Namibe, Atacama, Gobi; dunas barcanas/estrelas; erg/serir; neblina costeira (Atacama/Namibe).  
-**Exclusões.** Campos de areia artificiais; praias urbanas.  
-**Matriz de variação.** deserto↔clima; duna↔morfologia; processo↔regime de ventos.  
-**Exemplos (tipos).**  
-- **D1 – Aberta:** deserto mais seco (região do Atacama).  
-- **D2 – Múltipla escolha:** tipo de duna por planta baixa.  
-- **D3 – Verdadeiro/Falso:** correntes de Humboldt e aridez.  
-**Cobertura sugerida.** África, Américas, Ásia Central.  
-**Fontes recomendadas.** Wikipedia‑EN; Britannica; NOAA/MetOffice (contexto climático).
-
----
-
-## 8) Lagos e Águas Singulares (salinos, tectônicos, glaciares) — `lagos_singulares`
 **Natureza.** Transversal  
-**Descrição.** Lagos com características extremas ou únicas (salinidade, altitude, profundidade, tectônica/volcânica).  
-**Escopo.** Baikal, Tanganica, Mar Morto, Titicaca, Natron; endorreísmo; falhas/rift.  
-**Exclusões.** Represas modernas; fontes termais isoladas.  
-**Matriz de variação.** lago↔tipo (glacial/tectônico/salino); superlativo↔métrica; bacia↔clima.  
-**Exemplos (tipos).**  
-- **D1 – Aberta:** lago mais profundo (Baikal).  
-- **D2 – Múltipla escolha:** par lago→característica correta.  
-- **D3 – Verdadeiro/Falso:** altitude do Titicaca (ordem de grandeza).  
-**Cobertura sugerida.** África, Eurásia, Andes.  
-**Fontes recomendadas.** Wikipedia‑EN; UNESCO; Britannica; Atlas geológico.
+**Descrição.** Cataratas e saltos naturais notáveis por **morfologia, altura, largura, patamar/“horseshoe”, degraus** ou contexto geológico, distribuídos por continentes.
 
+**Escopo**  
+**Inclusões (não exaustivo):** Cataratas do Niágara, Iguaçu, Vitória/Mosi-oa-Tunya, Salto Ángel, Tugela Falls, Yosemite Falls, Kaieteur, Dettifoss, Skógafoss, Gullfoss, Plitvice (conjuntos), Ban Gioc–Detian (fronteira), Rheinfall, Huangguoshu, Gunung Mulu (cascatas em carste), Sutherland, Multnomah, Havasu, Iguazú (lado AR) em contraste binacional.  
+**Exclusões:** cascatas artificiais (barragens), fontes urbanas, “maiores do ano” por vazão sazonal.  
+**Referências (exemplos):** Wikipedia EN de cada queda; UNESCO (quando aplicável); inventários geográficos oficiais/parques nacionais.
+
+**Matriz de variação (eixos):** continente/país | tipo (queda livre, em degraus, em leque, cavalgada) | parâmetro morfológico (altura/largura estimadas, número de quedas) | rio/bacia | proteção (parque/UNESCO) | fronteira internacional.
+
+---
+
+## 5) Sítios Cársticos e Grandes Cavernas — `carste_e_cavernas`
+
+**Natureza.** Transversal  
+**Descrição.** Terrenos **cársticos** (solúveis: calcário, dolomito, gesso) e sistemas de cavernas/dolinas/ponors, com ênfase em gênese, hidrologia subterrânea, espeleotemas e corredores extensos.
+
+**Escopo**  
+**Inclusões (não exaustivo):** Phong Nha–Ke Bang & Son Doong (Vietnã), Mulu (Bornéu), Mammoth Cave (EUA), Carlsbad Caverns (EUA), Škocjan (Eslovênia), Postojna, Eisriesenwelt (caverna de gelo), Waitomo (NZ), Sistema Ox Bel Ha (México), Sistema Chevé (Oaxaca), Guilin/Karst de Torre (China), Gargantas do Velebit (Croácia), Parque Nacional Cavernas do Peruaçu (Brasil), PETAR (Brasil), Serra da Capivara (carste associado), Dolinas de Xiaozhai (China).  
+**Exclusões:** minas e túneis artificiais; “turistificação” sem relevância geocientífica; estatísticas de exploração ainda não publicadas.  
+**Referências (exemplos):** Wikipedia EN dos sítios; UNESCO (karst series); sociedades espeleológicas nacionais; serviços geológicos.
+
+**Matriz de variação (eixos):** litologia (calcário/gesso/dolomito) | feição (caverna, dolina, sumidouro, ponte natural) | extensão/profundidade de sistemas | hidrologia (rios subterrâneos, sifões) | status de proteção.

@@ -1,139 +1,97 @@
 # Microsubtemas — Geografia → Geopolítica
 
-> Formato compatível com o projeto Mestre 2. Cada item traz **Natureza**, **Descrição**, **Escopo**, **Exclusões**, **Matriz de variação**, **Exemplos por tipo/dificuldade**, **Cobertura sugerida** e **Fontes recomendadas**.
-
----
-
-## 1) Fronteiras e Disputas Territoriais — `fronteiras_disputas`
+## 1) Mar do Sul da China e Sudeste Asiático — `mar_do_sul_da_china_e_sudeste_asiatico`
 
 **Natureza.** Temático  
-**Descrição.** Linhas de fronteira, delimitação/demarcação e litígios (terrestres, marítimos e fluviais).  
-**Escopo.** Caxemira; Saara Ocidental; Ilhas Curilas; Crimeia; Mar do Sul da China (disputas); métodos de delimitação.  
-**Exclusões.** Questões estritamente internas sem componente territorial.  
-**Matriz de variação.** fronteira↔método; disputa↔partes; decisão↔organismo; limite↔relevo.  
-**Exemplos (tipos).**  
+**Descrição.** Disputas marítimas, ilhas e recifes, rotas comerciais e direito do mar no Mar do Sul da China e mares adjacentes do Sudeste Asiático, incluindo decisões arbitrais e arranjos regionais (ASEAN).
 
-- **D1 – Aberta:** “Qual corte internacional decide disputas de fronteira marítima?”  
-- **D2 – Múltipla escolha:** par disputa→atores corretos.  
-- **D3 – Verdadeiro/Falso:** enunciado sobre talvegue em rios fronteiriços.  
-**Cobertura sugerida.** Europa, Ásia, África, Américas.  
-**Fontes recomendadas.** Wikipedia‑EN; ICJ; Britannica; UN Cartographic.
+**Escopo**  
+**Inclusões (não exaustivo):** Ilhas Spratly/Paracel; Scarborough Shoal; Estreito de Malaca; UNCLOS; decisão da PCA (2016); ASEAN e DOC/COC; zonas econômicas exclusivas (Filipinas, Vietnã, Malásia, Brunei, China); rotas de cabotagem e chokepoints regionais. **Pessoas notáveis (exemplos):** Lee Kuan Yew (papel regional), Rodrigo Duterte, Nguyen Phu Trong, Xi Jinping (dimensão estratégica), juristas ligados ao caso PCA.  
+**Exclusões:** análises opinativas e previsões; incidentes em curso sem relatório oficial consolidado.  
+**Referências (exemplos):** Wikipedia EN: South China Sea; United Nations Convention on the Law of the Sea (UNCLOS); Permanent Court of Arbitration (2016 South China Sea arbitration); Association of Southeast Asian Nations.
+
+**Matriz de variação (eixos):** feição geográfica | instrumento jurídico (UNCLOS, arbitragens) | ator estatal | rota/chokepoint | cronologia de marcos (tratados/declarações) | capacidade portuária/estreito.
 
 ---
 
-## 2) Chokepoints e Rotas Comerciais Marítimas — `chokepoints_rotas_maritimas`
+## 2) Oriente Médio e Golfo Pérsico — `oriente_medio_e_golfo_persico`
 
 **Natureza.** Temático  
-**Descrição.** Estreitos, canais e passagens estratégicas no comércio global.  
-**Escopo.** Suez, Panamá, Ormuz, Malaca, Bab el‑Mandeb, GIUK; corredores marítimos e fluxos conteinerizados.  
-**Exclusões.** Marinas locais e turismo náutico.  
-**Matriz de variação.** rota↔mercadoria; estreito↔oceano; capacidade↔gargalo; incidente↔impacto.  
-**Exemplos (tipos).**  
+**Descrição.** Hidrocarbonetos, segurança de rotas marítimas e diplomacia em torno do Estreito de Ormuz e do Golfo Pérsico, com marcos históricos e acordos que estruturam a ordem regional.
 
-- **D1 – Aberta:** “Que estreito liga o Golfo Pérsico ao Mar da Arábia?”  
-- **D2 – Múltipla escolha:** par chokepoint→oceanos corretos.  
-- **D3 – Verdadeiro/Falso:** afirmação sobre trânsito em Suez/Panamá.  
-**Cobertura sugerida.** Oriente Médio, Mediterrâneo, Índico, Pacífico.  
-**Fontes recomendadas.** Wikipedia‑EN; UNCTAD; IMO; Britannica.
+**Escopo**  
+**Inclusões (não exaustivo):** Estreito de Ormuz; OPEP; campos petrolíferos chave; Guerra do Golfo (marcos); Camp David Accords; Sykes–Picot (contexto histórico); rotas do Mar Vermelho/Canal de Suez; cooperação/conflitos do Golfo. **Pessoas notáveis (exemplos):** Anwar Sadat, Menachem Begin, Jimmy Carter (Camp David); Tarek El-Molla (energia Egito), Zaki Yamani (OPEP).  
+**Exclusões:** posições políticas do momento; cobertura de hostilidades em curso sem balanço histórico consolidado.  
+**Referências (exemplos):** Wikipedia EN: Strait of Hormuz; OPEC; Camp David Accords; Sykes–Picot Agreement; Suez Canal.
+
+**Matriz de variação (eixos):** recurso (petróleo/gás) | chokepoint | acordo histórico | ator estatal/organizacional | infraestrutura (oleodutos/terminais) | regime de segurança marítima.
 
 ---
 
-## 3) Recursos Energéticos e Minerais Estratégicos — `recursos_energeticos_minerais`
+## 3) Europa Oriental e Espaço Pós-Soviético — `europa_oriental_e_pos_sovietico`
 
 **Natureza.** Temático  
-**Descrição.** Petróleo, gás, urânio e “critical minerals” (terras raras, cobalto, lítio) e sua geopolítica.  
-**Escopo.** OPEP; gasodutos/oleodutos; cinturões metalogenéticos; transição energética.  
-**Exclusões.** Mercados puramente financeiros sem vínculo geográfico.  
-**Matriz de variação.** recurso↔localização; rota↔infraestrutura; ator↔cartel/acordo; choque↔efeito.  
-**Exemplos (tipos).**  
+**Descrição.** Reconfigurações geopolíticas após 1991, tratados e organizações regionais, relações de vizinhança e dependências energéticas na Europa Oriental e no espaço pós-soviético.
 
-- **D1 – Aberta:** “Que organização coordena políticas de petróleo entre membros?”  
-- **D2 – Múltipla escolha:** par mineral→principal região produtora.  
-- **D3 – Verdadeiro/Falso:** enunciado sobre dependência de rotas de gás.  
-**Cobertura sugerida.** Oriente Médio, América do Sul, África, Ásia‑Pacífico.  
-**Fontes recomendadas.** Wikipedia‑EN; IEA; USGS; Britannica.
+**Escopo**  
+**Inclusões (não exaustivo):** Tratado de Lisboa (UE), Parceria Oriental, OSCE, Conselho da Europa, corredores energéticos (oleo/gasodutos), Mar Negro (Bósforo/Dardanelos), Convenção de Montreux, fronteiras e enclaves históricos. **Pessoas notáveis (exemplos):** Mikhail Gorbachev; Lech Wałęsa; Vaclav Havel; George H. W. Bush (diplomacia do pós-Guerra Fria).  
+**Exclusões:** análises em tempo real de crises em andamento; propaganda.  
+**Referências (exemplos):** Wikipedia EN: Eastern Europe; Energy policy of the European Union; Montreux Convention; OSCE; Lisbon Treaty.
+
+**Matriz de variação (eixos):** organização (UE/OSCE/Conselho da Europa) | corredor energético | estreito/mar interior | país fronteiriço | marcos 1989–2009 | dependência/importação energética.
 
 ---
 
-## 4) Blocos Econômicos e Integração Regional — `blocos_economicos_integracao`
+## 4) Subcontinente Indiano — `subcontinente_indiano`
 
 **Natureza.** Temático  
-**Descrição.** Arranjos institucionais (UE, Mercosul, ASEAN, AfCFTA, USMCA) e seus efeitos espaciais.  
-**Escopo.** Tarifas, mobilidade, políticas comuns, fronteiras internas/externas.  
-**Exclusões.** Acordos bilaterais estritamente setoriais.  
-**Matriz de variação.** bloco↔membros; política↔área; expansão↔data; fronteira↔regime.  
-**Exemplos (tipos).**  
+**Descrição.** Dinâmicas entre Índia, Paquistão, Bangladesh, Sri Lanka, Nepal e Butão, com foco em fronteiras, bacias hidrográficas, corredores econômicos e heranças coloniais.
 
-- **D1 – Aberta:** “Qual bloco reúne Brasil, Argentina, Paraguai e Uruguai?”  
-- **D2 – Múltipla escolha:** par sigla→nome completo.  
-- **D3 – Verdadeiro/Falso:** livre circulação de pessoas na UE (conceitual).  
-**Cobertura sugerida.** Europa, Américas, África, Ásia.  
-**Fontes recomendadas.** Wikipedia‑EN; European Union; Mercosur; ASEAN; Britannica.
+**Escopo**  
+**Inclusões (não exaustivo):** Linha de Controle (Caxemira); Acordos do Indo (Tratado das Águas do Indo); Baía de Bengala; Corredor Económico do Bangladesh-Bhutão-Índia-Nepal (BBIN); portos de Chabahar/Colombo; SAARC. **Pessoas notáveis (exemplos):** Jawaharlal Nehru; Muhammad Ali Jinnah; Sheikh Mujibur Rahman; Manmohan Singh (integração econômica).  
+**Exclusões:** previsões eleitorais; cobertura de tensões fronteiriças em curso sem síntese histórica.  
+**Referências (exemplos):** Wikipedia EN: Kashmir; Indus Waters Treaty; SAARC; Bay of Bengal; BBIN initiative.
+
+**Matriz de variação (eixos):** fronteira/linha de controle | bacia hidrográfica | porto/corredor | bloco regional | legado colonial | cidade-âncora.
 
 ---
 
-## 5) Bacias Transfronteiriças e Geopolítica da Água — `bacias_transfronteiricas_agua`
+## 5) África do Chifre e Mar Vermelho — `africa_do_corno_e_mar_vermelho`
+
+**Natureza.** Temático  
+**Descrição.** Rotas do Mar Vermelho e Bab el-Mandeb, bases militares externas, comércio e integração no Chifre da África (Djibouti, Eritreia, Etiópia, Somália) e países ribeirinhos.
+
+**Escopo**  
+**Inclusões (não exaustivo):** Bab el-Mandeb; Portos de Djibouti, Assab, Berbera; bases estrangeiras em Djibouti; iniciativas de integração (IGAD); corredor Etiópia–Djibouti; o papel do Sudão/Egito no Mar Vermelho. **Pessoas notáveis (exemplos):** Haile Selassie (contexto histórico Etiópia); Isaias Afwerki; líderes de IGAD; Nasser (Suez/Mar Vermelho histórico).  
+**Exclusões:** relatos operacionais em tempo real; avaliações de risco.  
+**Referências (exemplos):** Wikipedia EN: Bab-el-Mandeb; Port of Djibouti; IGAD; Red Sea; Suez Crisis.
+
+**Matriz de variação (eixos):** porto/corredor | base/ator extrarregional | organização regional | chokepoint | hinterland logístico | marcos históricos.
+
+---
+
+## 6) Chokepoints e Rotas Estratégicas — `chokepoints_e_rotas_estrategicas`
 
 **Natureza.** Transversal  
-**Descrição.** Rios e aquíferos partilhados, barragens e acordos de uso.  
-**Escopo.** Nilo, Mekong, Tigre‑Eufrates, Danúbio, Aquífero Guarani; tratados e comissões.  
-**Exclusões.** Abastecimento urbano interno sem transfronteira.  
-**Matriz de variação.** bacia↔países; obra↔impacto; tratado↔ano; regime↔estação.  
-**Exemplos (tipos).**  
+**Descrição.** Gargalos marítimos, canais e estreitos que condicionam o comércio e a projeção de poder, integrando o papel de infraestrutura portuária e ferrovias de ligação.
 
-- **D1 – Aberta:** “Cite um rio partilhado por ≥3 países na África.”  
-- **D2 – Múltipla escolha:** par bacia→organismo de gestão.  
-- **D3 – Verdadeiro/Falso:** afirmação sobre montante/jusante e dependência hídrica.  
-**Cobertura sugerida.** África, Sudeste Asiático, Europa, Américas.  
-**Fontes recomendadas.** Wikipedia‑EN; UN Water; FAO AQUASTAT; Britannica.
+**Escopo**  
+**Inclusões (não exaustivo):** Suez, Panamá, Ormuz, Malaca, Bósforo/Dardanelos, Bab el-Mandeb, Gibraltar, Øresund, Canal de Kiel, Estreito de Bering; rotas polares (Passagem do Nordeste/Noroeste). **Pessoas notáveis (exemplos):** Ferdinand de Lesseps (Suez); Theodore Roosevelt (Panamá); engenheiros-chefes dos canais.  
+**Exclusões:** rankings “do ano”; estimativas especulativas de tráfego.  
+**Referências (exemplos):** Wikipedia EN: List of chokepoints; Suez Canal; Panama Canal; Bosporus; Strait of Malacca; Arctic shipping routes.
+
+**Matriz de variação (eixos):** tipo (canal/estreito/passagem) | tonelagem/uso histórico | obras de engenharia | regime jurídico | clima sazonal (áreas polares) | conexão multimodal.
 
 ---
 
-## 6) Espaços Polares, ZEE e Direito do Mar — `polares_zee_direito_mar`
-
-**Natureza.** Temático  
-**Descrição.** Governança do Ártico/Antártica, Zonas Econômicas Exclusivas e plataforma continental (UNCLOS).  
-**Escopo.** Conselho do Ártico; Tratado da Antártica; rotas polares; sobreposições de ZEE/PLCs.  
-**Exclusões.** Navegação fluvial interna.  
-**Matriz de variação.** regime↔tratado; ZEE↔200 milhas; rota↔sazonalidade; reclamação↔prova geológica.  
-**Exemplos (tipos).**  
-
-- **D1 – Aberta:** “Qual tratado rege a Antártica?”  
-- **D2 – Múltipla escolha:** extensão padrão de ZEE.  
-- **D3 – Verdadeiro/Falso:** passagens do Noroeste/Nordeste e degelo estacional.  
-**Cobertura sugerida.** Circumpolar, oceanos globais.  
-**Fontes recomendadas.** Wikipedia‑EN; UN Oceans/DOALOS; NOAA; Britannica.
-
----
-
-## 7) Cidades Globais, Portos e Corredores Logísticos — `cidades_globais_portos_corredores`
+## 7) Recursos Críticos e Segurança de Abastecimento — `recursos_criticos_e_seguranca_de_abastecimento`
 
 **Natureza.** Transversal  
-**Descrição.** Nós financeiros e logísticos (cidades‑globais), portos hub e eixos multimodais.  
-**Escopo.** Roterdã, Xangai, Singapura, Los Angeles/Long Beach; corredores como USMCA, Rota Marítima Ásia‑Europa.  
-**Exclusões.** Trânsito urbano local sem relevância geopolítica.  
-**Matriz de variação.** nó↔função; porto↔TEU; corredor↔modais; política↔competitividade.  
-**Exemplos (tipos).**  
+**Descrição.** Cadeias globais de recursos estratégicos (energia, minerais, água transfronteiriça, alimentos) e vulnerabilidades logísticas/tecnológicas associadas.
 
-- **D1 – Aberta:** “Cite um porto hub do Estreito de Malaca.”  
-- **D2 – Múltipla escolha:** par cidade global→função dominante.  
-- **D3 – Verdadeiro/Falso:** enunciado sobre hinterlândia e ferrovia.  
-**Cobertura sugerida.** Europa, Ásia, América do Norte, Golfo.  
-**Fontes recomendadas.** Wikipedia‑EN; UNCTAD; World Bank Logistics; Britannica.
+**Escopo**  
+**Inclusões (não exaustivo):** petróleo/gás; lítio (Triângulo do Lítio); cobalto (Congo); terras raras (China); grãos do Mar Negro; água do Nilo/Mekong; interconexões elétricas; LNG e regaseificação; oleo/gasodutos e corredores ferroviários. **Pessoas notáveis (exemplos):** Zbigniew Brzezinski (grandes tabuleiros); Daniel Yergin (energia).  
+**Exclusões:** preços correntes; previsões de mercado.  
+**Referências (exemplos):** Wikipedia EN: Critical mineral; Rare earth industry; Nabucco Pipeline; Nile Basin Initiative; Mekong River Commission; Global food trade.
 
----
-
-## 8) Infraestrutura Digital e Poder Geopolítico — `infraestrutura_digital_poder`
-
-**Natureza.** Transversal  
-**Descrição.** Cabos submarinos, estações de aterragem, data centers, GNSS e órbitas como ativos estratégicos.  
-**Escopo.** Cabos transoceânicos; sistemas GPS/GLONASS/Galileo/BeiDou; posições orbitais/ITU; satcom.  
-**Exclusões.** Apps/serviços sem componente infra‑espacial.  
-**Matriz de variação.** ativo↔localização; rede↔redundância; satélite↔órbita; padrão↔organismo.  
-**Exemplos (tipos).**  
-
-- **D1 – Aberta:** “Nomeie um sistema global de navegação por satélite.”  
-- **D2 – Múltipla escolha:** par cabo→oceanos conectados.  
-- **D3 – Verdadeiro/Falso:** afirmação sobre papel de estações de aterragem.  
-**Cobertura sugerida.** Atlântico/Pacífico/Índico; EUA/UE/China/Rússia.  
-**Fontes recomendadas.** Wikipedia‑EN; TeleGeography (mapa de cabos); ITU; ESA/NASA; Britannica.
+**Matriz de variação (eixos):** recurso | bacia/depósito | etapa da cadeia (extração/refino/transportes) | infraestrutura | ator (estado/empresa) | regime de cooperação.
