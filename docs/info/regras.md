@@ -12,7 +12,13 @@ Quando você erra duas perguntas seguidas, ganha uma `Carta de Ação` do monte 
 
 ## Rodada de Pergunta
 
-TESTE
+Em cada **rodada de pergunta** existem três papeis que os jogadores vão atuar:
+
+- **Narrador**: Quem enuncia a pergunta ao **respondente primário**.
+- **Respondente Primário**: Jogador imediatamente à direita do **narrador**, a quem a pergunta está sendo feita.
+- **Respondentes Secundários**: Demais jogadores.
+
+
 
 ## Cartas de Ação
 

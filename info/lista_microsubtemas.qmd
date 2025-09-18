@@ -1,80 +1,122 @@
 ---
-title: "Índice de Microsubtemas (R) — links com base_dir"
+title: "Índice de temas e microsubtemas"
 format:
   html:
-    toc: true
+    toc: false
 execute:
   echo: false
   warning: false
   message: false
-params:
-  create_dummy: false
-  base_dir: "info"
-  subdir_prefix: "subtemas_"
 ---
 
-Este índice é gerado em **R** ao renderizar o arquivo no Quarto.
-Ele varre a pasta `params$base_dir` (por padrão, `./info/`) e produz uma lista de links para:
+```{r, results='asis'}
+`%||%` <- function(a, b) if (is.null(a) || is.na(a) || a == "") b else a
 
-```
-microsubtemas_<tema_clean>_<subtema_clean>.md
-```
+# Caminho relativo entre dois caminhos absolutos
+rel_path <- function(from, to) {
+  from <- normalizePath(from, winslash = "/", mustWork = FALSE)
+  to   <- normalizePath(to,   winslash = "/", mustWork = FALSE)
+  fp <- strsplit(from, "/", fixed = TRUE)[[1]]
+  tp <- strsplit(to,   "/", fixed = TRUE)[[1]]
+  n  <- min(length(fp), length(tp))
+  i  <- 0L
+  while (i < n && fp[i + 1L] == tp[i + 1L]) i <- i + 1L
+  ups  <- if ((length(fp) - i) > 0) rep("..", length(fp) - i) else "."
+  rest <- if ((length(tp) - i) > 0) tp[(i + 1L):length(tp)] else character(0)
+  parts <- c(if (!identical(ups, ".")) ups else character(0), rest)
+  if (length(parts)) paste(parts, collapse = "/") else "."
+}
 
-> Em `_quarto.yml`, garanta que `info/**` seja copiado para a saída:
->
-> ```yaml
-> project:
->   output-dir: docs
->   resources:
->     - info/**
-> render:
->   - "*.qmd"
->   - "!info/"
-> ```
+# Lista hardcoded de <tema_clean>
+temas_validos <- c(
+  "artes","ciencias","cotidiano","entretenimento","esportes",
+  "geografia","historia","historia_natural","variedades"
+)
 
-## Lista de links por `<tema_clean>`
+# Raiz do repositório e diretório deste arquivo
+env_root  <- Sys.getenv("MESTRE2_ROOT", unset = "")
+this_file <- tryCatch(knitr::current_input(), error = function(e) "") %||% "info/lista_microsubtemas.qmd"
+this_dir  <- normalizePath(dirname(this_file), winslash = "/", mustWork = FALSE)
+repo_root <- normalizePath(if (nzchar(env_root)) env_root else file.path(this_dir, ".."),
+                           winslash = "/", mustWork = FALSE)
 
-```{r}
-#| results: asis
-base_dir      <- getOption("base_dir",          default = params$base_dir)
-subdir_prefix <- getOption("subdir_prefix",     default = params$subdir_prefix)
+# Busca por pastas subtemas_<tema_clean>
+all_dirs <- list.dirs(repo_root, recursive = TRUE, full.names = TRUE)
+is_subdir <- grepl("^subtemas_[a-z0-9_]+$", basename(all_dirs), perl = TRUE)
+dirs_hit  <- unique(normalizePath(all_dirs[is_subdir], winslash = "/", mustWork = FALSE))
 
-pattern <- "^microsubtemas_([^_]+)_(.+)\\.[Mm][Dd]$"
+slugs_encontrados <- sort(unique(sub("^subtemas_", "", basename(dirs_hit))))
+slugs_validos     <- sort(intersect(slugs_encontrados, temas_validos))
+slugs_nao_prev    <- sort(setdiff(slugs_encontrados, temas_validos))
+slugs_faltando    <- sort(setdiff(temas_validos, slugs_encontrados))
 
-entries <- list()
-subdirs <- list.dirs(base_dir, recursive = FALSE, full.names = TRUE)
-# Normaliza e filtra
-subdirs_norm <- gsub("\\\\", "/", subdirs)
-subdirs <- subdirs[grepl(paste0("^", base_dir, "/", subdir_prefix), subdirs_norm)]
+# Cabeçalho
+cat("**Raiz usada:** `", repo_root, "`\n\n", sep = "")
+cat("**Padrão de pasta:** `subtemas_<tema_clean>`\n\n")
 
-for (sd in subdirs) {
-  files <- list.files(sd, pattern = "\\.[Mm][Dd]$", full.names = FALSE)
-  for (nm in files) {
-    if (grepl(pattern, nm)) {
-      stem <- sub("\\.[Mm][Dd]$", "", nm)
-      tmp  <- sub("^microsubtemas_", "", stem)
-      tema <- sub("_.+$", "", tmp)
-      subtema <- sub("^[^_]+_", "", tmp)
-      rel <- file.path(base_dir, basename(sd), nm, fsep = "/")
-      rel <- gsub("\\\\", "/", rel)
-      entries[[length(entries) + 1]] <- list(tema = tema, subtema = subtema, rel = rel)
-    }
+# Lista de <tema_clean> encontrados (válidos)
+cat("## <tema_clean> encontrados (válidos)\n\n")
+if (length(slugs_validos) == 0) {
+  cat("_Nenhum._\n\n")
+} else {
+  for (s in slugs_validos) cat("- `", s, "`\n", sep = "")
+  cat("\n")
+}
+
+# Avisos
+if (length(slugs_nao_prev) > 0 || length(slugs_faltando) > 0) {
+  cat("## Avisos\n\n")
+  if (length(slugs_nao_prev) > 0) {
+    cat("**Não previstos na lista hardcoded:**\n\n")
+    for (s in slugs_nao_prev) cat("- `", s, "`\n", sep = "")
+    cat("\n")
+  }
+  if (length(slugs_faltando) > 0) {
+    cat("**Esperados mas não encontrados:**\n\n")
+    for (s in slugs_faltando) cat("- `", s, "`\n", sep = "")
+    cat("\n")
   }
 }
 
-if (length(entries) == 0) {
-  cat("> **Nenhum arquivo `microsubtemas_*_*.md` encontrado.** Verifique `base_dir`/`subdir_prefix`.\n")
-} else {
-  temas <- sort(unique(vapply(entries, `[[`, character(1), "tema")))
-  for (t in temas) {
-    grupo <- entries[vapply(entries, function(e) identical(e$tema, t), logical(1))]
-    ord <- order(tolower(vapply(grupo, `[[`, character(1), "subtema")))
-    grupo <- grupo[ord]
-    tema_label <- tools::toTitleCase(gsub("[-_]", " ", t))
-    cat("### ", tema_label, "\n\n", sep = "")
-    for (e in grupo) {
-      lbl <- tools::toTitleCase(gsub("[-_]", " ", e$subtema))
-      cat(sprintf("- [%s](%s)\n", lbl, e$rel))
+# Para cada <tema_clean>, listar <subtema_clean> com link
+if (length(slugs_validos) > 0) cat("## Microsubtemas por tema\n\n")
+
+for (slug in slugs_validos) {
+  pastas_slug <- dirs_hit[basename(dirs_hit) == paste0("subtemas_", slug)]
+
+  # acumulador: named character vector {name=subtema_clean, value=path}
+  subtema_map <- character(0)
+
+  for (pasta in pastas_slug) {
+    arquivos <- list.files(
+      pasta,
+      pattern = paste0("^microsubtemas_", slug, "_[a-z0-9_]+\\.md$"),
+      full.names = TRUE, recursive = FALSE
+    )
+    if (length(arquivos)) {
+      subts <- sub(paste0("^microsubtemas_", slug, "_([a-z0-9_]+)\\.md$"),
+                   "\\1", basename(arquivos), perl = TRUE)
+      names(arquivos) <- subts
+      # dedup dentro do lote atual
+      arquivos <- arquivos[!duplicated(names(arquivos))]
+      # agrega
+      subtema_map <- c(subtema_map, arquivos)
+    }
+  }
+
+  # DEDUP FINAL (crítico para evitar repetições consecutivas)
+  if (length(subtema_map)) {
+    subtema_map <- subtema_map[!duplicated(names(subtema_map))]
+    subtema_map <- subtema_map[order(names(subtema_map))]
+  }
+
+  cat("### ", slug, "\n\n", sep = "")
+  if (!length(subtema_map)) {
+    cat("_Nenhum arquivo `microsubtemas_", slug, "_<subtema_clean>.md` encontrado._\n\n", sep = "")
+  } else {
+    for (st in names(subtema_map)) {
+      link_rel <- rel_path(this_dir, subtema_map[[st]])
+      cat(sprintf("- [`%s`](%s)\n", st, link_rel))
     }
     cat("\n")
   }
