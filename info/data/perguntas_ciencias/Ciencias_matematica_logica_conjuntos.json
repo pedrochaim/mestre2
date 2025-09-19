@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "20250902T031223Z_001",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "O que é distributividade de ∪ sobre ∩?",
+    "resposta": "X∪(Y∩Z)=(X∪Y)∩(X∪Z)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Distributive_law#Set_theory",
+      "https://mathworld.wolfram.com/DistributiveLaws.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_002",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que caracteriza uma ordem total?",
+    "resposta": "Toda dupla é comparável",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Total_order",
+      "https://mathworld.wolfram.com/TotalOrder.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_003",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D1",
+    "pergunta": "O que é uma relação transitiva?",
+    "resposta": "Se aRb e bRc então aRc",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Transitive_relation",
+      "https://mathworld.wolfram.com/Transitive.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_004",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "Como se lê '∀x ∃y R(x,y)'?",
+    "resposta": "Para todo x existe y tal que R(x,y)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quantifier_(logic)",
+      "https://plato.stanford.edu/entries/logic-quantification/"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_009",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Como se chama o conjunto de todos os subconjuntos de A?",
+    "resposta": "Conjunto das partes (𝒫(A))",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Power_set",
+      "https://mathworld.wolfram.com/PowerSet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_010",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que é uma relação reflexiva?",
+    "resposta": "Todo elemento se relaciona consigo mesmo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reflexive_relation",
+      "https://mathworld.wolfram.com/Reflexive.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_012",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que é diferença simétrica AΔB?",
+    "resposta": "(A\\B) ∪ (B\\A)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Complement_(set_theory)#Relative_complement",
+      "https://mathworld.wolfram.com/SetDifference.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_014",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Enuncie uma lei de De Morgan para conjuntos.",
+    "resposta": "Complemento de (A ∪ B) é (Aᶜ ∩ Bᶜ)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/De_Morgan%27s_laws",
+      "https://mathworld.wolfram.com/DeMorgansLaws.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_015",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que é uma partição de um conjunto?",
+    "resposta": "Coleção de subconjuntos disjuntos que cobrem o conjunto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Partition_of_a_set",
+      "https://mathworld.wolfram.com/Partition.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_018",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "Qual é a negação correta de '∀x P(x)'?",
+    "resposta": "∃x ¬P(x)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quantifier_(logic)",
+      "https://plato.stanford.edu/entries/logic-quantification/"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_019",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "Qual operação de conjuntos é representada por '∩'?",
+    "resposta": "Interseção",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Intersection_(set_theory)",
+      "https://mathworld.wolfram.com/Intersection.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_024",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que é um conjunto universo (U)?",
+    "resposta": "Conjunto de referência com todos os elementos considerados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Universe_(mathematics)",
+      "https://mathworld.wolfram.com/UniversalSet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_026",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Qual é a contrapositiva de P→Q (em lógica clássica)?",
+    "resposta": "¬Q→¬P",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contraposition",
+      "https://mathworld.wolfram.com/Contrapositive.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_027",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D1",
+    "pergunta": "O que significa 'produto cartesiano' A×B?",
+    "resposta": "Conjunto de pares ordenados (a,b) com a∈A e b∈B",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cartesian_product",
+      "https://mathworld.wolfram.com/CartesianProduct.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_028",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "Qual é a forma contrária de 'converso' para P→Q?",
+    "resposta": "Q→P (converso), não equivalente em geral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Converse_(logic)",
+      "https://en.wikipedia.org/wiki/Inverse_(logic)"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_031",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D1",
+    "pergunta": "Qual conectivo representa 'ou' inclusivo?",
+    "resposta": "Disjunção",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Logical_disjunction",
+      "https://mathworld.wolfram.com/Disjunction.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_035",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D1",
+    "pergunta": "O que é uma relação binária?",
+    "resposta": "Subconjunto de A×A (ou A×B) representando pares relacionados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Binary_relation",
+      "https://mathworld.wolfram.com/Relation.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_036",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D1",
+    "pergunta": "Qual é a negação correta de '∃x P(x)'?",
+    "resposta": "∀x ¬P(x)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quantifier_(logic)",
+      "https://plato.stanford.edu/entries/logic-quantification/"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_038",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Defina é um conjunto universo (U)?",
+    "resposta": "Conjunto de referência com todos os elementos considerados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Universe_(mathematics)",
+      "https://mathworld.wolfram.com/UniversalSet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_040",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que significa 'conjunto das partes' 𝒫(A)?",
+    "resposta": "Coleção de todos os subconjuntos de A",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Power_set",
+      "https://mathworld.wolfram.com/PowerSet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_041",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "Defina comutatividade para ∪ ou ∩.",
+    "resposta": "X∪Y=Y∪X e X∩Y=Y∩X",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Set_(mathematics)",
+      "https://www.britannica.com/science/set-theory"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_043",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "O que é distributividade de ∩ sobre ∪?",
+    "resposta": "X∩(Y∪Z)=(X∩Y)∪(X∩Z)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Set_(mathematics)",
+      "https://www.britannica.com/science/set-theory"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_044",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Qual é a negação de P↔Q em forma disjuntiva?",
+    "resposta": "(P∧¬Q) ∨ (¬P∧Q)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/If_and_only_if",
+      "https://mathworld.wolfram.com/Biconditional.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_045",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "Qual operação de conjuntos é representada por '∪'?",
+    "resposta": "União",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Union_(set_theory)",
+      "https://mathworld.wolfram.com/Union.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_047",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "O que é complemento de um conjunto (em U)?",
+    "resposta": "Conjunto dos elementos de U que não estão no conjunto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Complement_(set_theory)",
+      "https://mathworld.wolfram.com/Complement.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_051",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D1",
+    "pergunta": "O que é tabela-verdade?",
+    "resposta": "Tabela que lista valores lógicos para combinações de proposições",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Truth_table",
+      "https://mathworld.wolfram.com/TruthTable.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_057",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Como se chama o conjunto de todos os subconjuntos de A?",
+    "resposta": "Conjunto das partes (𝒫(A))",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Power_set",
+      "https://mathworld.wolfram.com/PowerSet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_058",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Qual produto entre conjuntos forma pares ordenados?",
+    "resposta": "Produto cartesiano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cartesian_product",
+      "https://mathworld.wolfram.com/CartesianProduct.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_059",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Defina relação de equivalência.",
+    "resposta": "Relação reflexiva, simétrica e transitiva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equivalence_relation",
+      "https://mathworld.wolfram.com/EquivalenceRelation.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_060",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que é absorção (forma 2)?",
+    "resposta": "X ∩ (X ∪ Y) = X",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Absorption_law",
+      "https://mathworld.wolfram.com/AbsorptionLaw.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_063",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que é diferença de conjuntos A\\B?",
+    "resposta": "Elementos de A que não pertencem a B",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Complement_(set_theory)#Relative_complement",
+      "https://mathworld.wolfram.com/SetDifference.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_064",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Como se chama o conjunto sem elementos?",
+    "resposta": "Conjunto vazio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Empty_set",
+      "https://mathworld.wolfram.com/EmptySet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_066",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que é o princípio da dupla negação?",
+    "resposta": "¬(¬P) é equivalente a P",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Negation",
+      "https://mathworld.wolfram.com/Negation.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_067",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que é uma contingência lógica?",
+    "resposta": "Fórmula que não é nem tautologia nem contradição",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contingency_(logic)",
+      "https://mathworld.wolfram.com/Contingency.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_073",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "O que é uma classe de equivalência?",
+    "resposta": "Conjunto de elementos equivalentes a um dado elemento",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equivalence_class",
+      "https://mathworld.wolfram.com/EquivalenceClass.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_074",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "O que é uma ordem parcial?",
+    "resposta": "Relação reflexiva, antissimétrica e transitiva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Partially_ordered_set",
+      "https://mathworld.wolfram.com/PartialOrder.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_075",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "Qual conectivo representa 'e' lógico?",
+    "resposta": "Conjunção",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Logical_conjunction",
+      "https://mathworld.wolfram.com/Conjunction.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_076",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "O que significa o conectivo lógico '¬'?",
+    "resposta": "Negação",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Negation",
+      "https://mathworld.wolfram.com/Negation.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_078",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Qual é a definição de subconjunto próprio?",
+    "resposta": "A⊂B e A≠B",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Subset#Proper_subset",
+      "https://mathworld.wolfram.com/ProperSubset.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_080",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D3",
+    "pergunta": "Defina é a classe de equivalência de a em R?",
+    "resposta": "[a]={x: xRa}",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equivalence_class",
+      "https://mathworld.wolfram.com/EquivalenceClass.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_082",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D1",
+    "pergunta": "O que é a classe de equivalência de a em R?",
+    "resposta": "[a]={x: xRa}",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equivalence_class",
+      "https://mathworld.wolfram.com/EquivalenceClass.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_083",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Como se chama a declaração sempre verdadeira por forma lógica?",
+    "resposta": "Tautologia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tautology_(logic)",
+      "https://mathworld.wolfram.com/Tautology.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_084",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Aberta",
+    "dificuldade": "D2",
+    "pergunta": "Qual símbolo indica 'está contido em' entre conjuntos?",
+    "resposta": "Subconjunto (⊆)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Subset",
+      "https://mathworld.wolfram.com/Subset.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_008",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D1",
+    "pergunta": "Qual sentença descreve 'R é reflexiva'? A) Para todo a, aRa B) Se aRb e bRa então a=b C) Se aRb então bRa D) Se aRb e bRc então aRc",
+    "resposta": "Para todo a, aRa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reflexive_relation",
+      "https://mathworld.wolfram.com/Reflexive.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_013",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual lei NÃO é uma identidade de conjuntos? A) Comutatividade B) Idempotência C) Absorção D) Multiplicação escalar",
+    "resposta": "Multiplicação escalar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Algebra_of_sets",
+      "https://mathworld.wolfram.com/SetIdentities.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_017",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual tabela verbal descreve P↔Q? A) Verdadeira quando P e Q diferem B) Verdadeira quando P e Q são ambos verdadeiros C) Verdadeira quando P e Q têm o mesmo valor D) Verdadeira quando P é falso",
+    "resposta": "Verdadeira quando P e Q têm o mesmo valor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/If_and_only_if",
+      "https://mathworld.wolfram.com/Biconditional.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_020",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual é a operação idempotente? A) X∪X=X B) X∩Y=X C) X\\X=X D) X∪Y=∅",
+    "resposta": "X∪X=X",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Set_(mathematics)",
+      "https://www.britannica.com/science/set-theory"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_022",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D1",
+    "pergunta": "Qual operação produz subconjuntos de A? A) 𝒫(A) B) A×B C) A∪B D) A∩B",
+    "resposta": "𝒫(A)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Power_set",
+      "https://mathworld.wolfram.com/PowerSet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_023",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D1",
+    "pergunta": "Qual identidade é correta? A) X∪(Y∩Z)=(X∪Y)∩(X∪Z) B) X∩(Y∩Z)= X∪(Y∩Z) C) X∩(Y∪Z)=(X∩Y)∪(X∩Z) D) (A) e (C)",
+    "resposta": "X∪(Y∩Z)=(X∪Y)∩(X∪Z)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Set_(mathematics)",
+      "https://www.britannica.com/science/set-theory"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_025",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Quais propriedades definem uma ordem parcial? A) simétrica+transitiva B) reflexiva+antissimétrica+transitiva C) reflexiva+simétrica D) transitiva+total",
+    "resposta": "reflexiva+antissimétrica+transitiva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Partially_ordered_set",
+      "https://mathworld.wolfram.com/PartialOrder.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_029",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Qual conectivo representa 'se..., então ...'? A) ∧ B) ∨ C) → D) ↔",
+    "resposta": "→",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Material_conditional",
+      "https://mathworld.wolfram.com/Implication.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_030",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Qual é a contrapositiva de P→Q? A) Q→P B) ¬Q→¬P C) ¬P→¬Q D) P↔Q",
+    "resposta": "¬Q→¬P",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contraposition",
+      "https://mathworld.wolfram.com/Contrapositive.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_032",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual condição caracteriza transitividade? A) aRa B) aRb ⇒ bRa C) aRb e bRc ⇒ aRc D) a=b ⇒ aRb",
+    "resposta": "aRb e bRc ⇒ aRc",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Transitive_relation",
+      "https://mathworld.wolfram.com/Transitive.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_033",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual é a forma da diferença simétrica? A) (A\\B)∩(B\\A) B) (A\\B)∪(B\\A) C) A∩B D) (A∪B)\\(A∩B)",
+    "resposta": "(A\\B)∪(B\\A)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Set_(mathematics)",
+      "https://www.britannica.com/science/set-theory"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_034",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Qual é a negação correta de '∃x P(x)'? A) ∀x ¬P(x) B) ∃x ¬P(x) C) ¬∀x P(x) D) P(¬x)",
+    "resposta": "∀x ¬P(x)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quantifier_(logic)",
+      "https://plato.stanford.edu/entries/logic-quantification/"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_037",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Qual conectivo representa 'se e somente se'? A) → B) ↔ C) ∧ D) ∨",
+    "resposta": "↔",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/If_and_only_if",
+      "https://mathworld.wolfram.com/Biconditional.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_039",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Quais propriedades definem relação de equivalência? A) reflexiva+simétrica B) simétrica+transitiva C) reflexiva+transitiva D) reflexiva+simétrica+transitiva",
+    "resposta": "reflexiva+simétrica+transitiva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equivalence_relation",
+      "https://mathworld.wolfram.com/EquivalenceRelation.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_046",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D1",
+    "pergunta": "Qual opção é contradição? A) P∨Q B) P∧¬P C) P↔Q D) ¬P∨Q",
+    "resposta": "P∧¬P",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contradiction",
+      "https://mathworld.wolfram.com/Contradiction.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_048",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual é a negação correta de '∀x P(x)'? A) ∀x ¬P(x) B) ∃x ¬P(x) C) ¬∃x P(x) D) P(¬x)",
+    "resposta": "∃x ¬P(x)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Quantifier_(logic)",
+      "https://plato.stanford.edu/entries/logic-quantification/"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_049",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Qual proposição é equivalente a P→Q? A) ¬P∨Q B) P∧Q C) P∨Q D) ¬(P∨Q)",
+    "resposta": "¬P∨Q",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Material_conditional",
+      "https://mathworld.wolfram.com/Implication.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_050",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Qual é a definição correta de subconjunto próprio? A) A⊆B B) A⊂B e A≠B C) A=B D) A∩B=∅",
+    "resposta": "A⊂B e A≠B",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Subset#Proper_subset",
+      "https://mathworld.wolfram.com/ProperSubset.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_052",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D1",
+    "pergunta": "Qual expressão equivale a (A\\B)ᶜ? A) Aᶜ∩Bᶜ B) A∪B C) Aᶜ∪B D) A∪Bᶜ",
+    "resposta": "Aᶜ∪B",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Complement_(set_theory)",
+      "https://mathworld.wolfram.com/Complement.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_053",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual lei de De Morgan está correta? A) (A∩B)ᶜ = Aᶜ∪Bᶜ B) (A∩B)ᶜ = A∩B C) (A∪B)ᶜ = A∪B D) (A∪B)ᶜ = ∅",
+    "resposta": "(A∩B)ᶜ = Aᶜ∪Bᶜ",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/De_Morgan%27s_laws",
+      "https://mathworld.wolfram.com/DeMorgansLaws.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_054",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D1",
+    "pergunta": "Qual afirmação sobre ∅ é verdadeira? A) ∅∈∅ B) ∅⊆A para todo A C) ∅=A para todo A D) ∅⊂∅",
+    "resposta": "∅⊆A para todo A",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Empty_set",
+      "https://mathworld.wolfram.com/EmptySet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_061",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual é a negação de P↔Q? A) P↔¬Q B) (P∧Q)∨(¬P∧¬Q) C) (P∧¬Q)∨(¬P∧Q) D) P→Q",
+    "resposta": "(P∧¬Q)∨(¬P∧Q)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/If_and_only_if",
+      "https://mathworld.wolfram.com/Biconditional.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_068",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D1",
+    "pergunta": "Qual opção é tautologia? A) P∨¬P B) P∧¬P C) P D) ¬P",
+    "resposta": "P∨¬P",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tautology_(logic)",
+      "https://mathworld.wolfram.com/Tautology.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_069",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D1",
+    "pergunta": "Qual é o resultado de A×B? A) subconjuntos de A B) pares ordenados (a,b) C) interseções D) uniões",
+    "resposta": "pares ordenados (a,b)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cartesian_product",
+      "https://mathworld.wolfram.com/CartesianProduct.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_071",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D3",
+    "pergunta": "Qual NÃO define equivalência? A) reflexiva+simétrica+transitiva B) reflexiva+simétrica C) simétrica+transitiva D) reflexiva+transitiva",
+    "resposta": "reflexiva+simétrica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equivalence_relation",
+      "https://mathworld.wolfram.com/EquivalenceRelation.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_079",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Múltipla escolha",
+    "dificuldade": "D2",
+    "pergunta": "Qual é a operação 'A\\B'? A) interseção B) diferença C) produto D) complemento absoluto",
+    "resposta": "diferença",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Complement_(set_theory)#Relative_complement",
+      "https://mathworld.wolfram.com/SetDifference.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_005",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "(A\\B) ∪ (B\\A) = (A ∪ B)\\(A ∩ B).",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Complement_(set_theory)#Relative_complement",
+      "https://mathworld.wolfram.com/SetDifference.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_006",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "A disjunção é comutativa.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Logical_disjunction",
+      "https://mathworld.wolfram.com/Disjunction.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_007",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D3",
+    "pergunta": "Idempotência diz que X∪X=X e X∩X=X.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Idempotence#Set_theory",
+      "https://mathworld.wolfram.com/Idempotent.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_011",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "Negação de uma tautologia é sempre tautologia.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tautology_(logic)",
+      "https://mathworld.wolfram.com/Tautology.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_016",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "(A ∩ B) ⊆ A.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Subset",
+      "https://mathworld.wolfram.com/Subset.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_021",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D1",
+    "pergunta": "Toda fórmula é ou tautologia ou contradição.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Contingency_(logic)",
+      "https://mathworld.wolfram.com/Contingency.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_042",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D1",
+    "pergunta": "Toda tautologia é verdadeira em qualquer valoração.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tautology_(logic)",
+      "https://mathworld.wolfram.com/Tautology.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_055",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "Se R é relação de equivalência, então suas classes particionam o conjunto.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equivalence_relation",
+      "https://mathworld.wolfram.com/EquivalenceRelation.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_056",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D1",
+    "pergunta": "(A ∪ B) ⊆ A.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Subset",
+      "https://mathworld.wolfram.com/Subset.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_062",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "O conjunto vazio é subconjunto de todo conjunto.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Empty_set",
+      "https://mathworld.wolfram.com/EmptySet.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_065",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "Em uma ordem total, pode haver elementos incomparáveis.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Total_order",
+      "https://mathworld.wolfram.com/TotalOrder.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_070",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "A bicondicional P↔Q é verdadeira quando P e Q têm o mesmo valor lógico.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/If_and_only_if",
+      "https://mathworld.wolfram.com/Biconditional.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_072",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "A união de conjuntos é comutativa.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Union_(set_theory)",
+      "https://mathworld.wolfram.com/Union.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_077",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "A conjunção é associativa.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Logical_conjunction",
+      "https://mathworld.wolfram.com/Conjunction.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_081",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D1",
+    "pergunta": "Em uma ordem parcial, antissimetria é obrigatória.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Partially_ordered_set",
+      "https://mathworld.wolfram.com/PartialOrder.html"
+    ]
+  },
+  {
+    "id": "20250902T031223Z_085",
+    "tema": "Ciências",
+    "subtema": "Matemática",
+    "tipo": "Verdadeiro-falso",
+    "dificuldade": "D2",
+    "pergunta": "A interseção de conjuntos é comutativa.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Intersection_(set_theory)",
+      "https://mathworld.wolfram.com/Intersection.html"
+    ]
+  }
+]
