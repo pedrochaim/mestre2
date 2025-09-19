@@ -8,7 +8,7 @@ project:
     - "info/**/*.md"    # inclui os MD da pasta info/    - "!docs/**"   # nunca render a pasta de saída
 
 website:
-  title: "Mestre 2 — Jogo de Perguntas e Respostas"
+  title: "Mestre 2 : Jogo de Perguntas e Respostas"
   site-url: "https://pedrochaim.github.io/mestre2/"
   navbar:
     left:
