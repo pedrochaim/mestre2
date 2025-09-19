@@ -7,11 +7,19 @@ page-layout: article
 
 Este site documenta o **Mestre 2**, um jogo de perguntas e respostas organizado por **tema → subtema → microsubtema**, com perguntas geradas e validadas contra um **JSON Schema** próprio. O objetivo é ter **perguntas factuais, diversas e bem referenciadas**, prontas para uso em aplicações web (Quarto, Shiny etc.).
 
-**Acesse:**
+**Descrição:**
 
-- [Regras](info/regras.md)
+- [Regras do Jogo]
 - [Dicionário de Temas e Subtemas](info/dicionario_temas_subtemas.md)
-- [Lista Microsubtemas](info/lista_microsubtemas.qmd)
+
+**Instruções para a IA:**
+
 - [Instruções de Geração de Microsubtemas](info/instrucoes_geracao_microsubtemas.md)
-- [Instruções de Geração de Perguntas](info/instrucoes_geracao_perguntas.md) 
+- [Instruções de Geração de Perguntas](info/instrucoes_geracao_perguntas.md)
+- [Exemplo de prompt]
+
+**Perguntas:**
+
+- [Lista Microsubtemas](info/lista_microsubtemas.qmd)
+- [Lista de Perguntas](info/lista_perguntas.qmd)
 

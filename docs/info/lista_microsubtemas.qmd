@@ -78,6 +78,13 @@ if (length(slugs_nao_prev) > 0 || length(slugs_faltando) > 0) {
   }
 }
 
+# Acumulador global (para salvar JSON canônico ao final)
+canon_pairs <- data.frame(
+  tema_clean    = character(),
+  subtema_clean = character(),
+  stringsAsFactors = FALSE
+)
+
 # Para cada <tema_clean>, listar <subtema_clean> com link
 if (length(slugs_validos) > 0) cat("## Microsubtemas por tema\n\n")
 
@@ -120,5 +127,65 @@ for (slug in slugs_validos) {
     }
     cat("\n")
   }
+
+  # Agrega pares (tema_clean, subtema_clean) para a lista canônica
+  if (length(subtema_map)) {
+    canon_pairs <- rbind(
+      canon_pairs,
+      data.frame(
+        tema_clean    = slug,
+        subtema_clean = names(subtema_map),
+        stringsAsFactors = FALSE
+      )
+    )
+  }
 }
+
+# ---- Salvar JSON canônico com (tema_clean, subtema_clean) -------------------
+
+# Deduplifica globalmente e ordena
+if (nrow(canon_pairs)) {
+  canon_pairs <- unique(canon_pairs)
+  canon_pairs <- canon_pairs[order(canon_pairs$tema_clean, canon_pairs$subtema_clean), , drop = FALSE]
+}
+
+# Local de saída: diretório CORRENTE (onde está este .qmd)
+out_dir  <- this_dir
+suppressWarnings(dir.create(out_dir, recursive = TRUE, showWarnings = FALSE))
+out_path <- normalizePath(file.path(out_dir, "canon_temas_subtemas.json"), winslash = "/", mustWork = FALSE)
+out_rel  <- rel_path(this_dir, out_path)
+
+# Função simples de escape JSON (fallback)
+json_escape <- function(s) {
+  s <- gsub("\\\\", "\\\\\\\\", s, perl = TRUE)
+  s <- gsub('"', '\\"', s, perl = TRUE)
+  s
+}
+
+# Escreve JSON usando jsonlite se disponível; caso contrário, fallback manual
+wrote_ok <- FALSE
+if (requireNamespace("jsonlite", quietly = TRUE)) {
+  try({
+    jsonlite::write_json(canon_pairs, out_path, pretty = TRUE, auto_unbox = TRUE)
+    wrote_ok <- TRUE
+  }, silent = TRUE)
+}
+if (!wrote_ok) {
+  # Constrói JSON manualmente (array de objetos)
+  if (nrow(canon_pairs) == 0) {
+    txt <- "[]"
+  } else {
+    rows <- apply(canon_pairs, 1, function(r) {
+      sprintf('{"tema_clean":"%s","subtema_clean":"%s"}',
+              json_escape(r[[1]]), json_escape(r[[2]]))
+    })
+    txt <- paste0("[\n  ", paste(rows, collapse = ",\n  "), "\n]")
+  }
+  writeLines(txt, out_path, useBytes = TRUE)
+}
+
+cat("## Arquivo canônico salvo\n\n")
+cat("- **Caminho:** `", out_rel, "`\n", sep = "")
+cat("- **Pares (tema_clean, subtema_clean):** ", nrow(canon_pairs), "\n\n", sep = "")
+cat("_O JSON foi salvo no diretório corrente deste arquivo (.qmd)._ \n")
 ```

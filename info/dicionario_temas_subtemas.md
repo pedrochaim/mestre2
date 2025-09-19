@@ -4,7 +4,7 @@ Este documento contém uma lista de temas e seus respectivos subtemas. Cada tema
 
 Cada `<subtema>` é organizado em subcategorias, cada uma um `<microsubtema>`. O detalhamento dos microsubtemas é fornecido no momento do prompt para geração de perguntas.
 
-Os valores `<tema>` e `<subtema>` são campos nos arquivos de formato JSON (detalhado no documento `./docs/pergunta.schema.json`) que são utilizados para armazenar perguntas e respostas.
+Os valores `<tema>` e `<subtema>` são campos nos arquivos de formato JSON (detalhado no documento `pergunta.schema.json`) que são utilizados para armazenar perguntas e respostas.
 
 As perguntas serão inicialmente organizadas em arquivos por `<microsubtema>`, depois os arquivos concatenados em arquivos JSON por `<subtema>`, e então finalmente em um único arquivo JSON por `<tema>`.
 

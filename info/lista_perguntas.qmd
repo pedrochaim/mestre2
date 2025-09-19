@@ -1,0 +1,220 @@
+---
+title: "Índice de Perguntas — por tema e subtema (com contagens)"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r, results='asis'}
+# Utilitários ---------------------------------------------------------------
+`%||%` <- function(a, b) if (is.null(a) || is.na(a) || a == "") b else a
+norm_slashes <- function(x) gsub("\\\\", "/", x)
+
+# Caminho relativo entre dois caminhos absolutos
+rel_path <- function(from, to) {
+  from <- normalizePath(from, winslash = "/", mustWork = FALSE)
+  to   <- normalizePath(to,   winslash = "/", mustWork = FALSE)
+  fp <- strsplit(from, "/", fixed = TRUE)[[1]]
+  tp <- strsplit(to,   "/", fixed = TRUE)[[1]]
+  n  <- min(length(fp), length(tp))
+  i  <- 0L
+  while (i < n && fp[i + 1L] == tp[i + 1L]) i <- i + 1L
+  ups  <- if ((length(fp) - i) > 0) rep("..", length(fp) - i) else "."
+  rest <- if ((length(tp) - i) > 0) tp[(i + 1L):length(tp)] else character(0)
+  parts <- c(if (!identical(ups, ".")) ups else character(0), rest)
+  if (length(parts)) paste(parts, collapse = "/") else "."
+}
+
+.have_jsonlite <- requireNamespace("jsonlite", quietly = TRUE)
+
+# Lê apenas o 1º item do array JSON p/ extrair campos *_clean
+read_first_item_fields <- function(path, fields = c("tema_clean","subtema_clean","microsubtema_clean")) {
+  vals <- setNames(rep(NA_character_, length(fields)), fields)
+  if (.have_jsonlite) {
+    out <- tryCatch({
+      con <- file(path, open = "r"); on.exit(close(con), add = TRUE)
+      jsonlite::stream_in(con, pagesize = 1, verbose = FALSE)
+    }, error = function(e) NULL)
+    if (is.data.frame(out) && nrow(out) >= 1) {
+      for (f in fields) if (!is.null(out[[f]])) vals[[f]] <- as.character(out[[f]][1])
+      return(vals)
+    }
+  }
+  # Fallback: regex nas primeiras linhas
+  txt <- tryCatch(paste(readLines(path, n = 200L, warn = FALSE), collapse = "\n"), error = function(e) "")
+  for (f in fields) {
+    m <- regexec(paste0('"', f, '"\\s*:\\s*"([^"]+)"'), txt, perl = TRUE)
+    hit <- regmatches(txt, m)
+    if (length(hit) && length(hit[[1]]) >= 2) vals[[f]] <- hit[[1]][2]
+  }
+  vals
+}
+
+# Conta quantos objetos existem no array JSON (número de perguntas)
+count_json_items <- function(path) {
+  if (.have_jsonlite) {
+    n <- 0L
+    ok <- tryCatch({
+      con <- file(path, open = "r"); on.exit(close(con), add = TRUE)
+      jsonlite::stream_in(
+        con, pagesize = 5000, verbose = FALSE,
+        handler = function(df) { n <<- n + NROW(df) }
+      )
+      TRUE
+    }, error = function(e) FALSE)
+    if (ok) return(n)
+  }
+  # Fallback: contar ocorrências do campo "id" (suposto presente em cada pergunta)
+  txt <- tryCatch(readLines(path, warn = FALSE), error = function(e) character(0))
+  if (!length(txt)) return(0L)
+  m <- gregexpr('"id"\\s*:', paste(txt, collapse = "\n"), perl = TRUE)
+  hits <- regmatches(paste(txt, collapse = "\n"), m)[[1]]
+  if (identical(hits, -1)) 0L else length(hits)
+}
+
+# Descoberta de diretórios ---------------------------------------------------
+this_file <- tryCatch(knitr::current_input(), error = function(e) "") %||% "info/lista_perguntas.qmd"
+this_dir  <- normalizePath(dirname(this_file), winslash = "/", mustWork = FALSE)
+data_dir  <- normalizePath(file.path(this_dir, "data"), winslash = "/", mustWork = FALSE)
+canon_path <- normalizePath(file.path(this_dir, "canon_temas_subtemas.json"), winslash = "/", mustWork = FALSE)
+
+cat("**Diretório base (este arquivo):** `", this_dir, "`\n\n", sep = "")
+cat("**/data analisado:** `", if (dir.exists(data_dir)) data_dir else "(não encontrado)", "`\n\n", sep = "")
+cat("**Arquivo canônico:** `", if (file.exists(canon_path)) canon_path else "(não encontrado)", "`\n\n", sep = "")
+
+# Carrega lista canônica tema/subtema ---------------------------------------
+canon <- NULL
+if (file.exists(canon_path) && .have_jsonlite) {
+  canon <- tryCatch(jsonlite::read_json(canon_path, simplifyVector = TRUE), error = function(e) NULL)
+}
+if (is.null(canon) && file.exists(canon_path)) {
+  txt <- paste(readLines(canon_path, warn = FALSE), collapse = "\n")
+  tema_hits <- gregexpr('"tema_clean"\\s*:\\s*"([^"]+)"', txt, perl = TRUE)
+  sub_hits  <- gregexpr('"subtema_clean"\\s*:\\s*"([^"]+)"', txt, perl = TRUE)
+  temas <- regmatches(txt, tema_hits)[[1]]
+  subs  <- regmatches(txt, sub_hits)[[1]]
+  get1  <- function(v) if (!length(v)) character(0) else sub('.*"([^"]+)".*', '\\1', v)
+  temas <- get1(temas); subs <- get1(subs)
+  n <- min(length(temas), length(subs))
+  if (n > 0) canon <- data.frame(tema_clean = temas[seq_len(n)],
+                                 subtema_clean = subs[seq_len(n)],
+                                 stringsAsFactors = FALSE)
+}
+if (is.null(canon)) {
+  canon <- data.frame(tema_clean = character(), subtema_clean = character(), stringsAsFactors = FALSE)
+  cat("> **Aviso:** Não foi possível ler `canon_temas_subtemas.json`. A listagem seguirá por descoberta direta.\n\n")
+}
+
+# Descobre pastas perguntas_<tema_clean> em /data ----------------------------
+tema_dirs <- character(0)
+if (dir.exists(data_dir)) {
+  subs <- list.files(data_dir, full.names = TRUE, recursive = FALSE, include.dirs = TRUE)
+  isdir <- suppressWarnings(file.info(subs)$isdir)
+  tema_dirs <- subs[!is.na(isdir) & isdir & grepl("^perguntas_[a-z0-9_]+$", basename(subs), perl = TRUE)]
+}
+temas_encontrados <- sort(sub("^perguntas_", "", basename(tema_dirs)))
+
+cat("## `<tema_clean>` com pastas `perguntas_<tema_clean>` em /data\n\n")
+if (!length(temas_encontrados)) {
+  cat("_Nenhuma pasta `perguntas_<tema_clean>` encontrada._\n\n")
+} else {
+  cat(paste0("- `", temas_encontrados, "`"), sep = "\n"); cat("\n")
+}
+
+# Índice por tema → subtema → arquivos (com contagens) -----------------------
+temas_base <- if (nrow(canon)) sort(unique(canon$tema_clean)) else temas_encontrados
+temas_base <- intersect(temas_base, temas_encontrados)
+
+idx <- data.frame(
+  tema_clean = character(),
+  subtema_clean = character(),
+  microsubtema_clean = character(),
+  file_name = character(),
+  rel_path_from_qmd = character(),
+  n_perguntas = integer(),
+  stringsAsFactors = FALSE
+)
+
+for (tm in temas_base) {
+  tm_dir <- file.path(data_dir, paste0("perguntas_", tm))
+  if (!dir.exists(tm_dir)) next
+
+  files <- list.files(tm_dir, pattern = paste0("^", tm, "_[a-z0-9_]+_[a-z0-9_]+\\.json$"),
+                      full.names = TRUE, recursive = FALSE)
+  if (!length(files)) next
+
+  meta_rows <- lapply(files, function(f) {
+    meta <- read_first_item_fields(f)
+    n_it <- count_json_items(f)
+    data.frame(
+      tema_clean         = meta[["tema_clean"]] %||% tm,
+      subtema_clean      = meta[["subtema_clean"]] %||% NA_character_,
+      microsubtema_clean = meta[["microsubtema_clean"]] %||% NA_character_,
+      file_name          = basename(f),
+      rel_path_from_qmd  = norm_slashes(file.path("data", paste0("perguntas_", tm), basename(f))),
+      n_perguntas        = as.integer(n_it),
+      stringsAsFactors   = FALSE
+    )
+  })
+  idx <- rbind(idx, do.call(rbind, meta_rows))
+}
+
+# Se temos canônico, restringe subtemas ao canônico daquele tema (mantém NA)
+if (nrow(canon) && nrow(idx)) {
+  canon$key <- paste(canon$tema_clean, canon$subtema_clean, sep = "||")
+  idx$key   <- paste(idx$tema_clean, idx$subtema_clean, sep = "||")
+  idx <- idx[idx$key %in% canon$key | is.na(idx$subtema_clean), , drop = FALSE]
+  idx$key <- NULL; canon$key <- NULL
+}
+
+# Ordenação final
+if (nrow(idx)) {
+  ord_na_last <- function(x) ifelse(is.na(x), "\uFFFF", x)
+  idx <- idx[order(idx$tema_clean, ord_na_last(idx$subtema_clean), ord_na_last(idx$microsubtema_clean), idx$file_name), , drop = FALSE]
+}
+
+# Totais ---------------------------------------------------------------------
+grand_total <- if (nrow(idx)) sum(idx$n_perguntas, na.rm = TRUE) else 0L
+by_tema <- if (nrow(idx)) stats::aggregate(n_perguntas ~ tema_clean, idx, sum) else data.frame(tema_clean=character(), n_perguntas=integer())
+by_sub  <- if (nrow(idx)) stats::aggregate(n_perguntas ~ tema_clean + subtema_clean, idx, sum) else data.frame(tema_clean=character(), subtema_clean=character(), n_perguntas=integer())
+
+cat("**Total:** ", grand_total, " perguntas.\n\n", sep = "")
+
+# Emite a listagem organizada (com totais por tema e subtema)
+for (tm in unique(idx$tema_clean)) {
+  tema_total <- by_tema$n_perguntas[match(tm, by_tema$tema_clean)] %||% 0L
+  cat("\n### ", tm, " (", tema_total, ")\n\n", sep = "")
+
+  sub_df <- idx[idx$tema_clean == tm, , drop = FALSE]
+
+  # Ordem dos subtemas: canônica quando existir
+  subs_order <- if (nrow(canon)) {
+    canon_subs <- canon$subtema_clean[canon$tema_clean == tm]
+    unique(c(canon_subs, unique(sub_df$subtema_clean)))
+  } else unique(sub_df$subtema_clean)
+  subs_order <- subs_order[!duplicated(subs_order)]
+
+  for (sb in subs_order) {
+    rows <- sub_df[if (is.na(sb)) is.na(sub_df$subtema_clean) else sub_df$subtema_clean == sb, , drop = FALSE]
+    if (!nrow(rows)) next
+    sub_total <- by_sub$n_perguntas[by_sub$tema_clean == tm & if (is.na(sb)) is.na(by_sub$subtema_clean) else by_sub$subtema_clean == sb]
+    sub_total <- if (length(sub_total)) sub_total[[1]] else 0L
+
+    label <- ifelse(is.na(sb), "(desconhecido)", sb)
+    cat("#### ", label, " (", sub_total, ")\n\n", sep = "")
+
+    for (k in seq_len(nrow(rows))) {
+      micro <- rows$microsubtema_clean[k]
+      micro_lab <- if (is.na(micro) || !nzchar(micro)) "" else paste0(" — *", micro, "*")
+      n_it <- rows$n_perguntas[k] %||% 0L
+      cat("- [", rows$file_name[k], "](", rows$rel_path_from_qmd[k], ")", micro_lab, " (", n_it, ")\n", sep = "")
+    }
+    cat("\n")
+  }
+}
+```

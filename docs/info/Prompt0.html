@@ -137,33 +137,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Tarefa: Gere 50 perguntas no nível do microsubtema abaixo.</p>
-<p>Saída: retorne somente o texto JSON raw válido conforme o schema, respeitando proporções de dificuldade/tipos e diversidade (sem duplicatas e max. 5 perguntas por indivíduo/fenômeno). O nome do arquivo deve seguir a convenção <code>{tema_clean}_{subtema_clean}_{microsubtema_clean}.json</code>.</p>
+<p>Saída: retorne somente o link para o JSON válido conforme o schema, respeitando proporções de dificuldade/tipos e diversidade (sem duplicatas e max. 5 perguntas por indivíduo/fenômeno). O nome do arquivo deve seguir a convenção <code>{tema_clean}_{subtema_clean}_{microsubtema_clean}.json</code>.</p>
 <p>Abaixo segue o detalhamento do microsubtema.</p>
-<section id="facções-criminosas-brasileiras-pcc-comando-vermelho-marcola-fernandinho-beira-mar-facções-do-nordeste-faccoes_criminosas_brasileiras" class="level2">
-<h2 class="anchored" data-anchor-id="facções-criminosas-brasileiras-pcc-comando-vermelho-marcola-fernandinho-beira-mar-facções-do-nordeste-faccoes_criminosas_brasileiras">2) Facções Criminosas Brasileiras (PCC, Comando Vermelho; Marcola; Fernandinho Beira-Mar; Facções do Nordeste) — <code>faccoes_criminosas_brasileiras</code></h2>
-<p><strong>Natureza.</strong> Temático<br>
-<strong>Descrição.</strong> Microsubtema centrado em <strong>pessoas</strong> e organizações criminosas brasileiras, com foco em líderes, fundadores, decisões judiciais e marcos institucionais <strong>documentados</strong> (criação do PCC, atuação do Comando Vermelho, facções regionais).<br>
-<strong>Escopo.</strong> - <strong>Organizações de referência (exemplos; quando oficialmente reconhecidas):</strong> <strong>Primeiro Comando da Capital (PCC)</strong>; <strong>Comando Vermelho (CV)</strong>; <strong>Terceiro Comando Puro (TCP)</strong>; <strong>Amigos dos Amigos (ADA)</strong>; <strong>Família do Norte (FDN)</strong>; <strong>Guardiões do Estado (GDE)</strong>; <strong>Bonde dos 40 (BD40)</strong>; <strong>Primeiro Grupo Catarinense (PGC)</strong>; <strong>Os Manos</strong> (RS); <strong>Trio Ternura</strong> <em>(quando referido em documentos oficiais/relatórios públicos aplicáveis)</em>.<br>
-- <strong>Pessoas de referência (lideranças/fundadores — quando citadas em decisões/relatórios):</strong> <strong>Marcos Willians Herbas Camacho (Marcola)</strong>; <strong>Luiz Fernando da Costa (Fernandinho Beira-Mar)</strong>; <strong>Márcio dos Santos Nepomuceno (Marcinho VP)</strong>; <strong>Elias Pereira da Silva (Elias Maluco)</strong>; <strong>Antônio Francisco Bonfim Lopes (Nem da Rocinha)</strong>; <strong>Rogério Avelino da Silva (Rogério 157)</strong>; <strong>William da Silva Lima</strong> (associado à gênese do CV); <strong>Rogério Lemgruber</strong> (associado a formações históricas no sistema prisional do RJ); <strong>Gilberto Aparecido dos Santos (Fuminho)</strong>; <strong>André Oliveira Macedo (André do Rap)</strong>; <strong>Rogério Jeremias de Simone (Gegê do Mangue)</strong>.<br>
-- <strong>Instituições e marcos de referência (quando documentados):</strong> <strong>Penitenciária Dr.&nbsp;João Chaves (RN)</strong> <em>(instituição prisional citada em contextos oficiais)</em>; <strong>Massacre do Carandiru (1992, SP)</strong> <em>(evento histórico com ampla documentação oficial e judicial)</em>.<br>
-- <strong>Conteúdos:</strong> origem e marcos (ex.: <strong>criação do PCC em 1993</strong>, origem em presídios paulistas), vínculos documentados entre pessoas e organizações, decisões judiciais e regime prisional.<br>
-<strong>Inclusões.</strong> Nomes e alcunhas de liderança; datas/lugares de criação; decisões judiciais; órgãos responsáveis (Justiça/Segurança).<br>
-<strong>Exclusões.</strong> Endereços/contatos; táticas operacionais; especulação sobre cadeias de comando não documentadas.<br>
-<strong>Matriz de variação.</strong> pessoa→organização | organização→origem/ano | decisão→efeito | região→facção | <strong>instituição/evento→impacto/documentação</strong>.</p>
-<p><strong>Exemplos por tipo×dificuldade (perguntas centradas em pessoas)</strong><br>
-- <strong>Aberta</strong><br>
-- <strong>D1:</strong> “Como é conhecido Marcos Willians Herbas Camacho?”<br>
-- <strong>D2:</strong> “Qual organização criminosa é associada a Luiz Fernando da Costa?”<br>
-- <strong>D3:</strong> “Em que estado brasileiro surgiu o PCC na década de 1990?”<br>
-- <strong>Verdadeiro/Falso</strong><br>
-- <strong>D1:</strong> “Marcola é associado ao PCC em decisões judiciais e reportagens de referência.”<br>
-- <strong>D2:</strong> “Fernandinho Beira-Mar é associado historicamente ao Comando Vermelho.”<br>
-- <strong>D3:</strong> “O PCC foi criado fora do sistema prisional.”<br>
-- <strong>Múltipla escolha</strong><br>
-- <strong>D1:</strong> “Quem é ‘Marcola’? A) André Macedo B) Marcos Willians Herbas Camacho C) Luiz Fernando da Costa D) Márcio dos Santos Nepomuceno”<br>
-- <strong>D2:</strong> “A criação do PCC é geralmente datada de: A) 1978 B) 1984 C) 1993 D) 2001”<br>
-- <strong>D3:</strong> “Qual facção é tradicionalmente associada ao RJ? A) PCC B) Comando Vermelho C) Guardiões do Estado D) Bonde dos 40”</p>
-<p><strong>Fontes recomendadas.</strong> Wikipedia-EN/PT (PCC; Comando Vermelho; TCP; ADA; FDN; GDE; PGC; Os Manos; <strong>Massacre do Carandiru</strong>; Marcola; Fernandinho Beira-Mar; Marcinho VP; Elias Maluco; Nem da Rocinha; Rogério 157; William da Silva Lima; Rogério Lemgruber; Fuminho; André do Rap; Gegê do Mangue); relatórios/decisões oficiais de justiça e segurança pública; documentos institucionais de sistemas prisionais estaduais (ex.: <strong>Penitenciária Dr.&nbsp;João Chaves, RN</strong>), quando disponíveis.</p>
+<section id="subcontinente-indiano-subcontinente_indiano" class="level2">
+<h2 class="anchored" data-anchor-id="subcontinente-indiano-subcontinente_indiano">4) Subcontinente Indiano — <code>subcontinente_indiano</code></h2>
+<p><strong>Natureza.</strong> Temático <strong>Público-alvo.</strong> Informado, não especializado; foco em fronteiras, água e integração econômica. <strong>Descrição.</strong> Relações entre <strong>Índia, Paquistão, Bangladesh, Sri Lanka, Nepal e Butão</strong>, incluindo <strong>fronteiras disputadas</strong> (p.ex., <strong>Linha de Controle</strong> na <strong>Caxemira</strong>), <strong>bacias hidrográficas</strong> e <strong>acordos de água</strong> (p.ex., <strong>Indus Waters Treaty</strong>), <strong>corredores econômicos/portos</strong> (p.ex., <strong>Chabahar</strong>, Colombo), e arranjos regionais (<strong>SAARC</strong>, <strong>BBIN</strong>). Ênfase em <strong>marcos documentados</strong> e geografia de conectividade.</p>
+<p><strong>Escopo</strong> <strong>Inclusões (exemplos):</strong></p>
+<ul>
+<li><strong>Fronteiras/linhas</strong>: <strong>Linha de Controle (LoC)</strong>, <strong>Siachen</strong>; delimitação marítima Bangladesh–Índia (Baía de Bengala).</li>
+<li><strong>Água</strong>: <strong>Indus Waters Treaty</strong> e mecanismos conjuntos; controvérsias e protocolos.</li>
+<li><strong>Integração</strong>: <strong>SAARC</strong>, <strong>BBIN</strong>; facilitação de comércio e corredores transfronteiriços.</li>
+<li><strong>Portos/corredores</strong>: <strong>Chabahar</strong>, <strong>Colombo</strong>, e eixos internos (Nepal–Índia). <strong>Exclusões:</strong> previsões eleitorais; cobertura diária de tensões fronteiriças sem síntese histórica. <strong>Referências (exemplos, Wikipedia EN):</strong></li>
+<li>Kashmir — <a href="https://en.wikipedia.org/wiki/Kashmir">https://en.wikipedia.org/wiki/Kashmir</a></li>
+<li>Line of Control — <a href="https://en.wikipedia.org/wiki/Line_of_Control">https://en.wikipedia.org/wiki/Line_of_Control</a></li>
+<li>Indus Waters Treaty — <a href="https://en.wikipedia.org/wiki/Indus_Waters_Treaty">https://en.wikipedia.org/wiki/Indus_Waters_Treaty</a></li>
+<li>SAARC — <a href="https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation">https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation</a></li>
+<li>Bay of Bengal — <a href="https://en.wikipedia.org/wiki/Bay_of_Bengal">https://en.wikipedia.org/wiki/Bay_of_Bengal</a></li>
+<li>Port of Chabahar — <a href="https://en.wikipedia.org/wiki/Port_of_Chabahar">https://en.wikipedia.org/wiki/Port_of_Chabahar</a></li>
+<li>BBIN initiative — <a href="https://en.wikipedia.org/wiki/Bangladesh%E2%80%93Bhutan%E2%80%93India%E2%80%93Nepal_Initiative">https://en.wikipedia.org/wiki/Bangladesh%E2%80%93Bhutan%E2%80%93India%E2%80%93Nepal_Initiative</a> <strong>Matriz de variação (eixos):</strong> fronteira/linha de controle | bacia hidrográfica | porto/corredor | bloco regional | legado colonial | cidade-âncora.</li>
+</ul>
 
 
 </section>
