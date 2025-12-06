@@ -1,4 +1,4 @@
-# Instruções do Projeto — Criação de Microsubtemas (versão reorganizada)
+# Instruções para geração de microsubtemas
 
 > **Propósito**. Este guia padroniza **como propor e redigir *microsubtemas*** para sustentar a geração de perguntas factuais e estáveis, validadas pelo schema do projeto. As orientações aqui **não alteram o schema** de perguntas — apenas estruturam o **documento de microsubtema** que servirá de base para gerar questões.
 
@@ -6,7 +6,7 @@
 
 ## 1) O que é um *microsubtema*
 
-Um **microsubtema** é um recorte **operacional** dentro de um **subtema** que permite produzir **≥ 80 perguntas** (ideal: \~100) com **baixa sobreposição** com outros recortes, mantendo **fatos estáveis**, clareza de **escopo** e diversidade de itens (aberta, múltipla escolha, verdadeiro/falso).
+Um **microsubtema** é um recorte **operacional** dentro de um **subtema** que permite produzir **≥ 80 perguntas** (ideal: ~100) com **baixa sobreposição** com outros recortes, mantendo **fatos estáveis**, clareza de **escopo** e diversidade de itens (aberta, múltipla escolha, verdadeiro/falso, ordenação, associação).
 
 * **Não é** uma lista fechada de tópicos: o escopo define **fronteiras e exemplos**, mas **é não exaustivo**. É permitido usar **personagens/assuntos não listados explicitamente**, desde que **coerentes com o escopo** e **sustentados por fontes confiáveis**.
 * O microsubtema deve ser **reutilizável** e **longevo** (evitar fatos efêmeros, atualidades voláteis, placares de temporada, preços, etc.).
@@ -17,187 +17,185 @@ Um **microsubtema** é um recorte **operacional** dentro de um **subtema** que p
 
 * **Temático** — recorte por **assunto/obra/franquia/território** dentro do subtema.
   *Exs.*: *Futebol Brasileiro* (Esportes → Futebol), *Dragon Ball* (Entretenimento → Anime e Mangá), *Roma Republicana* (História → Roma Antiga).
+
 * **Transversal** — recorte por **regra/propriedade/condição** que cruza entidades.
   *Exs.*: *Capitais em Rios* (Geografia), *Países sem Litoral* (Geografia), *Montanhas acima de 7.000 m* (Geografia).
 
+> **Observação.** Naturezas puramente “referenciais” (listas ou taxonomias auxiliares) devem ser reavaliadas e convertidas, sempre que possível, em recortes **Temáticos** ou **Transversais** com escopo operacional claro.
+
 ---
 
-## 3) Nomenclatura e metadados
+## 3) Localização
 
-* **Título curto** e claro.
+* **Irrestrita** — quando o microsubtema **não trata de assuntos exclusivamente brasileiros**. Em caso de dúvida, considere Irrestrita. A maioria dos microsubtemas será deste tipo.
+* **Nacional** — quando o microsubtema **trata exclusivamente de assuntos culturalmente próximos do Brasil e dos brasileiros** (instituições brasileiras, obras nacionais, culinária local, legislação brasileira, etc.).
+
+  * Para microsubtemas com Localização = **Nacional**, as **fontes principais** do microsubtema devem ser em **português** (ex.: Wikipedia em português, sites oficiais brasileiros).
+
+---
+
+## 4) Nomenclatura e arquivos
+
+* Cada microsubtema deve ter um **título curto** e claro.
 * **`microsubtema_clean`**: minúsculas, **`_`** como separador, sem acentos (ex.: `capitais_em_rios`).
-* Coloque o microsubtema no diretório correspondente **`microsubtemas_<tema_clean>_<subtema_clean>.md`**.
+* As descrições dos microsubtemas são guardadas em arquivos com nome:
+  **`microsubtemas_<tema_clean>_<subtema_clean>.md`**
+  Ex.: `microsubtemas_historia_romana.md`.
+
+Cada arquivo `microsubtemas_<tema_clean>_<subtema_clean>.md` pode conter **vários microsubtemas** do mesmo subtema, cada um com:
+
+1. Um bloco de **front matter YAML** próprio.
+2. Um conjunto de seções em Markdown com a estrutura definida abaixo.
 
 ---
 
-## 4) Estrutura padrão do documento de microsubtema
+## 5) Estrutura padrão de **cada** microsubtema
 
-Cada microsubtema deve seguir, na ordem:
+### 5.1 Front matter YAML (obrigatório)
 
-1. **Cabeçalho**: Título + código `microsubtema_clean`.
+Cada microsubtema deve começar com um bloco YAML mínimo, por exemplo:
+
+```yaml
+---
+tema: "História"
+tema_clean: "historia"
+subtema: "História Romana"
+subtema_clean: "historia_romana"
+
+microsubtema: "Serial Killers"
+microsubtema_clean: "serial_killers"
+
+natureza: "tematico"        # ou "transversal"
+localizacao: "irrestrita"   # ou "nacional"
+
+status: "ativo"             # sugerido: "ativo" | "rascunho" | "desativado"
+autor: "Seu Nome Opcional"  # opcional
+data_criacao: "2025-12-06"  # opcional (ISO)
+---
+```
+
+> **Regra:** os campos `tema`, `tema_clean`, `subtema`, `subtema_clean`, `microsubtema`, `microsubtema_clean`, `natureza` e `localizacao` devem estar **sempre presentes** e coerentes com o dicionário canônico do projeto.
+
+### 5.2 Corpo em Markdown
+
+Depois do YAML, o corpo do microsubtema segue, na ordem:
+
+1. **Cabeçalho**: Título + código `microsubtema_clean` (opcionalmente redundante com o YAML, mas útil para leitura humana).
+
 2. **Natureza**: *Temático* ou *Transversal*.
+
 3. **Descrição**: objetivo e recorte em 2–4 linhas.
-4. **Escopo** (com subtópicos padronizados):
 
-   * **Inclusões (não exaustivo)**: itens elegíveis; pode citar **pessoas, obras, lugares, instituições**. *Atenção:* a lista é **aberta**; **não limita** a criação de perguntas a nomes citados.
+4. **Localização**: *Irrestrita* ou *Nacional*.
+
+5. **Escopo** (com subtópicos padronizados):
+
+   * **Inclusões (não exaustivo)**: itens elegíveis; pode citar **pessoas, obras, lugares, instituições**.
+
+     * A lista é **aberta**; **não limita** a criação de perguntas aos nomes citados.
    * **Exclusões**: o que fica de fora (p.ex., atualidades efêmeras, especulação, rankings anuais).
-   * **Referências (exemplos)**: bases/entradas **prováveis** (preferência: **Wikipedia em inglês**), e **documentos oficiais** aplicáveis. Não precisa ser exaustivo nem incluir URL — são **sugestões** de onde ancorar fatos.
-5. **Matriz de variação (eixos)**: parâmetros que fomentam diversidade (tempo, espaço, categorias, métricas, papéis de pessoas, etc.).
-6. **Exemplos de enunciados** *(opcional)*: 2–4 **modelos** de itens (Aberta, Múltipla escolha, Verdadeiro/Falso). Os exemplos **não** vinculam o banco a esses nomes; servem apenas como **demonstração de formato**.
-7. **Checklist**: validações antes de gerar perguntas.
+   * **Referências (exemplos)**: bases/entradas **prováveis** (preferência: **Wikipedia em inglês** para microsubtemas Irrestritos; **fontes em português** para microsubtemas Nacionais) e **documentos oficiais** aplicáveis.
 
-> **Observação — Segurança Pública / True Crime.** Para microsubtemas sensíveis, aplicar o **Padrão metodológico**: priorizar fontes oficiais e Wikipedia; usar **casos encerrados** e informações **documentadas**; excluir especulações e detalhes mórbidos; redação **neutra e auditável**.
+     * Não precisa ser exaustivo, nem incluir URL obrigatoriamente — são **sugestões** de onde ancorar fatos.
+
+6. **Matriz de variação (eixos)**: parâmetros que fomentam diversidade (tempo, espaço, categorias, métricas, papéis de pessoas, tipos de entidade, etc.).
+
+   * Ex.: tempo (Triássico/Jurássico/Cretáceo), espaço (continentes), tipo de entidade (animal/ambiente/técnica), papel (autor/vítima/investigador), etc.
+
+7. **Exemplos de enunciados**:
+
+   * Pelo menos **4 modelos** de itens cobrindo, no conjunto, os tipos:
+
+     * **Aberta**
+     * **Múltipla escolha**
+     * **Verdadeiro/Falso**
+     * **Ordenação** e/ou **Associação**
+   * Os exemplos **não vinculam** o banco aos nomes usados; servem apenas como **demonstração de formato, nível de detalhe e tom**.
+
+8. **Checklist**: validações antes de gerar perguntas, por exemplo:
+
+   * Fatos estáveis;
+   * Fontes verificáveis;
+   * Linguagem neutra e didática, para público leigo mas informado;
+   * Cobertura mínima de eixos importantes da matriz de variação;
+   * **No máximo 5 perguntas por indivíduo/fenômeno/caso**.
 
 ---
 
-## 5) Exemplos (modelos completos)
+## 6) Exemplo completo de microsubtema
 
 > Os exemplos abaixo **incluem “Referências (exemplos)” no Escopo** e deixam explícito que **as listas são não exaustivas**.
 
 ### A) Serial Killers — `serial_killers`
 
-**Natureza.** Temático
-**Descrição.** Pessoas ligadas a casos seriais notórios, com ênfase em autores, vítimas, investigadores, promotores e **marcos processuais documentados**.
-
-**Escopo**
-
-* **Inclusões (não exaustivo)**: autores (p.ex., Jeffrey Dahmer, Ted Bundy, John Wayne Gacy, Dennis Rader, Harold Shipman, Andrei Chikatilo, Aileen Wuornos, **Francisco de Assis Pereira**), casos históricos de autoria desconhecida (p.ex., *Jack the Ripper*), **investigadores** (p.ex., Frederick Abberline), promotores, juízes e **peritos** associados.
-* **Exclusões**: especulações sobre autoria/culpa; detalhes gráficos; informações de vítimas menores; casos **em andamento**.
-* **Referências (exemplos)**: Wikipedia (EN): *Jack the Ripper*, *Jeffrey Dahmer*, *Ted Bundy*, *John Wayne Gacy*; Wikipedia (PT): *Maníaco do Parque*; acórdãos/sentenças criminais; relatórios de procuradorias/forças policiais.
-
-**Matriz de variação (eixos)**: pessoa→papel (autor/vítima/investigador) | caso→época/lugar | decisão→pena | status→resolvido/identidade desconhecida.
-
-**Checklist**: fatos estáveis; fonte verificável; nada de especulação; linguagem neutra; **no máximo 5 perguntas por indivíduo/caso**.
-
+```yaml
 ---
+tema: "Variedades"
+tema_clean: "variedades"
+subtema: "Crimes e Justiça"
+subtema_clean: "crimes_e_justica"
 
-### B) Facções Criminosas Brasileiras — `faccoes_criminosas_brasileiras`
+microsubtema: "Serial Killers"
+microsubtema_clean: "serial_killers"
 
-**Natureza.** Temático
-**Descrição.** Pessoas e organizações criminosas brasileiras, com foco em **lideranças/fundadores**, decisões judiciais e **marcos institucionais documentados** (formação, presídios, eventos históricos).
+natureza: "tematico"
+localizacao: "irrestrita"
 
-**Escopo**
-
-* **Inclusões (não exaustivo)**: organizações (PCC, Comando Vermelho, Terceiro Comando Puro, Amigos dos Amigos, Família do Norte, Guardiões do Estado, Bonde dos 40, Primeiro Grupo Catarinense, Os Manos), lideranças/alcunhas (Marcola, Fernandinho Beira-Mar, Marcinho VP, Elias Maluco, Nem da Rocinha, Rogério 157, William da Silva Lima, Rogério Lemgruber, Fuminho, André do Rap, Gegê do Mangue), **instituições/eventos documentados** (p.ex., **Massacre do Carandiru (1992)**; sistemas prisionais estaduais).
-* **Exclusões**: endereços/contatos; táticas operacionais; especulação sobre cadeias de comando; casos **em andamento**.
-* **Referências (exemplos)**: Wikipedia (EN/PT): *Primeiro Comando da Capital*, *Comando Vermelho*; páginas de líderes notórios; relatórios do MJSP; decisões de tribunais; relatórios de Defensorias/MP; CPIs relevantes.
-
-**Matriz de variação (eixos)**: pessoa→organização | organização→origem/ano | decisão→efeito | região→facção | instituição/evento→impacto/documentação.
-
-**Checklist**: fatos estáveis, documentos citáveis, redação neutra, **no máximo 5 perguntas por indivíduo/facção**.
-
+status: "ativo"
+data_criacao: "2025-12-06"
 ---
-
-### C) Futebol Brasileiro — `futebol_brasileiro`
+```
 
 **Natureza.** Temático
-**Descrição.** Clubes, competições, estádios, regulamentos e marcos históricos do futebol no Brasil.
+**Descrição.** Pessoas ligadas a casos seriais notórios, com ênfase em autores, vítimas, investigadores, promotores e **marcos processuais documentados** (prisões, julgamentos, sentenças).
+
+**Localização.** Irrestrita
 
 **Escopo**
 
-* **Inclusões (não exaustivo)**: Campeonatos (Brasileirão, Copa do Brasil), federações (CBF), estádios (Maracanã, Mineirão), clubes históricos, artilharias **históricas** (análogos estáveis), **jogadores, treinadores, narradores e árbitros** (pessoas relevantes ao futebol brasileiro), dirigentes com passagens marcantes, regras **estáveis** do jogo.
-* **Exclusões**: tabelas **de temporada**; transferências recentes; notícias efêmeras; estatísticas “do ano”.
-* **Referências (exemplos)**: Wikipedia (EN): *Campeonato Brasileiro Série A*, *Copa do Brasil*; Wikipedia de clubes; site oficial **CBF**; regulamentos permanentes.
+* **Inclusões (não exaustivo)**: autores (p.ex., Jeffrey Dahmer, Ted Bundy, John Wayne Gacy, Dennis Rader, Harold Shipman, Andrei Chikatilo, Aileen Wuornos, **Francisco de Assis Pereira**), casos históricos de autoria desconhecida (p.ex., *Jack the Ripper*), **investigadores** (p.ex., Frederick Abberline), promotores, juízes e **peritos** associados a casos de assassinatos seriais.
+* **Exclusões**: especulações sobre autoria/culpa; detalhes gráficos ou sensacionalistas; informações de vítimas menores; casos **em andamento** sem desfecho claro; trabalhos de ficção inspirados em casos reais.
+* **Referências (exemplos)**:
 
-**Matriz de variação (eixos)**: competição→era | clube→título/estádio | regra→aplicação | técnico→campanha histórica.
+  * Wikipedia (EN): *Jack the Ripper*, *Jeffrey Dahmer*, *Ted Bundy*, *John Wayne Gacy*, *Harold Shipman*, *Andrei Chikatilo*, *Aileen Wuornos*
+  * Wikipedia (PT): *Maníaco do Parque*
+  * Sentenças/acórdãos criminais; relatórios de procuradorias; dossiês de forças policiais.
 
-**Checklist**: foco em marcos clássicos; evitar atualidades; 2+ referências quando possível.
+**Matriz de variação (eixos)**
 
----
+* **Pessoa → Papel**: autor / vítima / investigador / promotor / juiz / perito.
+* **Caso → Época/Lugar**: século XIX, XX, XXI; Europa, Américas, Ásia, etc.
+* **Decisão → Pena**: tipos de condenação (prisão perpétua, pena de morte, número de sentenças).
+* **Status do caso**: resolvido (autor identificado e condenado) / parcialmente esclarecido / identidade oficialmente desconhecida.
 
-### D) Dragon Ball — `dragon_ball`
+**Exemplos de enunciados**
 
-**Natureza.** Temático
-**Descrição.** Obra, personagens, transformações, arcos narrativos e publicações da franquia *Dragon Ball*.
+* **Aberta**
 
-**Escopo**
+  * Em que cidade ocorreu a maior parte dos crimes atribuídos a Jack the Ripper?
 
-* **Inclusões (não exaustivo)**: autor (Akira Toriyama), linhas de publicação (mangá/anime), sagas, personagens principais/antagonistas, obras derivadas **canônicas**.
-* **Exclusões**: rumores; materiais **não canônicos** sem respaldo editorial; cronologias fanmade.
-* **Referências (exemplos)**: Wikipedia (EN): *Dragon Ball*, *Akira Toriyama*, *List of Dragon Ball characters*; sites oficiais da Shueisha/Toei para canonicidade.
+* **Múltipla escolha**
 
-**Matriz de variação (eixos)**: saga→evento | personagem→arco | publicação→data/formato.
+  * Qual destes serial killers atuou principalmente em Milwaukee, nos Estados Unidos?
+    (a) Ted Bundy (b) Jeffrey Dahmer (c) Andrei Chikatilo (d) Harold Shipman
 
-**Checklist**: checar canonicidade; evitar boatos; priorizar publicações oficiais.
+* **Verdadeiro/Falso**
 
----
+  * Harold Shipman foi um médico britânico condenado por assassinar pacientes sob seus cuidados.
 
-### E) Roma Republicana — `roma_republicana`
+* **Ordenação**
 
-**Natureza.** Temático
-**Descrição.** Instituições, conflitos, personalidades e reformas da **República Romana** (c. 509–27 a.C.).
+  * Ordene cronologicamente, do mais antigo para o mais recente, os seguintes casos seriais: Jack the Ripper, Andrei Chikatilo, Jeffrey Dahmer.
 
-**Escopo**
+* **Associação**
 
-* **Inclusões (não exaustivo)**: guerras púnicas, magistraturas (cônsules, tribunos), reformas (Gracos, Mário, Sula), figuras (Cícero, Júlio César), direito e cidadania.
-* **Exclusões**: Império Romano **posterior** (salvo transição), mitologia **não histórica**.
-* **Referências (exemplos)**: Wikipedia (EN): *Roman Republic*, *Punic Wars*, *Gaius Marius*, *Lucius Cornelius Sulla*; *Julius Caesar*; corpora epigráficos e textos clássicos com edição crítica.
+  * Associe o serial killer ao país em que atuou:
+    (1) Andrei Chikatilo – ( ) Estados Unidos ( ) Reino Unido ( ) Rússia
 
-**Matriz de variação (eixos)**: instituição→função | guerra→frente | personagem→reforma.
+**Checklist**
 
-**Checklist**: distinguir República vs. Império; citar datas aproximadas aceitas.
-
----
-
-### F) Terópodes (Dinossauros) — `teropodes`
-
-**Natureza.** Temático
-**Descrição.** Clado Theropoda: anatomia, filogenia, paleoecologia e registros fósseis clássicos.
-
-**Escopo**
-
-* **Inclusões (não exaustivo)**: táxons (Tyrannosaurus, Velociraptor, Allosaurus), evidências (pegadas, ovos, penas), depósitos fossilíferos notáveis.
-* **Exclusões**: pterossauros e plesiossauros (não são dinossauros); especulações sem respaldo.
-* **Referências (exemplos)**: Wikipedia (EN): *Theropoda*, *Tyrannosaurus*, *Velociraptor*; *Paleobiology Database*; museus/coleções com catálogos públicos.
-
-**Matriz de variação (eixos)**: período geológico | táxon→características | sítio→formação.
-
-**Checklist**: usar diagnósticos aceitos; evitar hipóteses marginais.
-
----
-
-### G) Capitais em Rios — `capitais_em_rios`
-
-**Natureza.** Transversal
-**Descrição.** Capitais nacionais/localizadas **à beira de rios** ou cortadas por cursos fluviais significativos.
-
-**Escopo**
-
-* **Inclusões (não exaustivo)**: capitais e seus rios (p.ex., Cairo–Nilo; Londres–Tâmisa; Budapeste–Danúbio; Brasília–Paranoá **não elegível** por ser lago artificial).
-* **Exclusões**: capitais apenas litorâneas sem rio expressivo; corpos **artificiais** (canais/represas) quando descaracterizam o critério.
-* **Referências (exemplos)**: Wikipedia (EN): *List of national capitals*, páginas de cada capital, páginas dos rios correspondentes; anuários geográficos oficiais.
-
-**Matriz de variação (eixos)**: continente | bacia hidrográfica | papel do rio (transporte, história, fronteira).
-
-**Checklist**: validar se o curso é natural e relevante.
-
----
-
-### H) Países sem Litoral — `paises_sem_litoral`
-
-**Natureza.** Transversal
-**Descrição.** Estados soberanos **sem acesso direto ao mar** (landlocked) e suas características geopolíticas/geográficas.
-
-**Escopo**
-
-* **Inclusões (não exaustivo)**: lista de países landlocked (p.ex., Bolívia\*, Paraguai, Níger, Laos, Suíça), enclaves/dobramente landlocked, acordos de livre trânsito.
-* **Exclusões**: territórios dependentes; dúvidas de reconhecimento **não pacificadas**.
-* **Referências (exemplos)**: Wikipedia (EN): *Landlocked country* e páginas dos países; ONU (estatísticas geográficas); bancos de dados regionais.
-
-**Matriz de variação (eixos)**: continente | regime de trânsito | vizinhança marítima mais próxima.
-
-**Checklist**: checar status estatal e fronteiras reconhecidas.
-
----
-
-## 6) Checklist geral (antes de gerar perguntas)
-
-* [ ] O recorte permite ≥ 80 perguntas estáveis e variadas.
-* [ ] **Escopo com Inclusões/Exclusões explícitas** e nota de **não exaustividade**.
-* [ ] **Referências (exemplos)** listadas (Wikipedia-EN preferencial, + documentos oficiais quando cabível).
-* [ ] **Matriz de variação** define eixos claros para diversidade.
-* [ ] Sem sobreposição indevida com outros microsubtemas (ou com exclusões bem definidas).
-* [ ] Evita atualidades efêmeras e dados sazonais.
-* [ ] Para temas sensíveis (True Crime/Segurança), aplica o **Padrão metodológico**.
-
-> **Lembrete final**: As listas em **Escopo** são **não exaustivas**. Você **pode usar** outras pessoas, obras, lugares e fatos **não listados**, desde que **coerentes** com o recorte e **bem referenciados**.
+* Fatos apoiados em **fontes verificáveis** (Wikipedia, documentos oficiais, literatura consolidada).
+* Evitar detalhes gráficos, linguagem sensacionalista ou julgamentos morais; manter tom informativo.
+* Não utilizar casos em andamento ou sem desfecho minimamente consolidado.
+* Garantir diversidade de **épocas, países** e **papéis** (não só autores, mas também investigadores, promotores etc.).
+* **No máximo 5 perguntas por indivíduo/caso específico**, para evitar saturar o banco com um único nome.

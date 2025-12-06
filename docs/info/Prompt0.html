@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>prompt0 – Mestre 2 — Jogo de Perguntas e Respostas</title>
+<title>prompt0 – Mestre 2 : Jogo de Perguntas e Respostas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Mestre 2 — Jogo de Perguntas e Respostas</span>
+    <span class="navbar-title">Mestre 2 : Jogo de Perguntas e Respostas</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -94,10 +94,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Início</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../info/regras.html"> 
-<span class="menu-text">Regras</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../info/dicionario_temas_subtemas.html"> 
@@ -136,28 +132,71 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Tarefa: Gere 50 perguntas no nível do microsubtema abaixo.</p>
-<p>Saída: retorne somente o link para o JSON válido conforme o schema, respeitando proporções de dificuldade/tipos e diversidade (sem duplicatas e max. 5 perguntas por indivíduo/fenômeno). O nome do arquivo deve seguir a convenção <code>{tema_clean}_{subtema_clean}_{microsubtema_clean}.json</code>.</p>
-<p>Abaixo segue o detalhamento do microsubtema.</p>
-<section id="subcontinente-indiano-subcontinente_indiano" class="level2">
-<h2 class="anchored" data-anchor-id="subcontinente-indiano-subcontinente_indiano">4) Subcontinente Indiano — <code>subcontinente_indiano</code></h2>
-<p><strong>Natureza.</strong> Temático <strong>Público-alvo.</strong> Informado, não especializado; foco em fronteiras, água e integração econômica. <strong>Descrição.</strong> Relações entre <strong>Índia, Paquistão, Bangladesh, Sri Lanka, Nepal e Butão</strong>, incluindo <strong>fronteiras disputadas</strong> (p.ex., <strong>Linha de Controle</strong> na <strong>Caxemira</strong>), <strong>bacias hidrográficas</strong> e <strong>acordos de água</strong> (p.ex., <strong>Indus Waters Treaty</strong>), <strong>corredores econômicos/portos</strong> (p.ex., <strong>Chabahar</strong>, Colombo), e arranjos regionais (<strong>SAARC</strong>, <strong>BBIN</strong>). Ênfase em <strong>marcos documentados</strong> e geografia de conectividade.</p>
-<p><strong>Escopo</strong> <strong>Inclusões (exemplos):</strong></p>
+<p>Tarefa: Gere 50 perguntas no nível do microsubtema abaixo. Lembre-se que são para um público informado, mas leigo. Evite termos técnicos desnecessários.</p>
+<p>Saída: retorne somente o arquivo .JSON válido conforme o schema, respeitando proporções de tipos e diversidade (sem duplicatas e max. 5 perguntas por indivíduo/fenômeno).</p>
 <ul>
-<li><strong>Fronteiras/linhas</strong>: <strong>Linha de Controle (LoC)</strong>, <strong>Siachen</strong>; delimitação marítima Bangladesh–Índia (Baía de Bengala).</li>
-<li><strong>Água</strong>: <strong>Indus Waters Treaty</strong> e mecanismos conjuntos; controvérsias e protocolos.</li>
-<li><strong>Integração</strong>: <strong>SAARC</strong>, <strong>BBIN</strong>; facilitação de comércio e corredores transfronteiriços.</li>
-<li><strong>Portos/corredores</strong>: <strong>Chabahar</strong>, <strong>Colombo</strong>, e eixos internos (Nepal–Índia). <strong>Exclusões:</strong> previsões eleitorais; cobertura diária de tensões fronteiriças sem síntese histórica. <strong>Referências (exemplos, Wikipedia EN):</strong></li>
-<li>Kashmir — <a href="https://en.wikipedia.org/wiki/Kashmir">https://en.wikipedia.org/wiki/Kashmir</a></li>
-<li>Line of Control — <a href="https://en.wikipedia.org/wiki/Line_of_Control">https://en.wikipedia.org/wiki/Line_of_Control</a></li>
-<li>Indus Waters Treaty — <a href="https://en.wikipedia.org/wiki/Indus_Waters_Treaty">https://en.wikipedia.org/wiki/Indus_Waters_Treaty</a></li>
-<li>SAARC — <a href="https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation">https://en.wikipedia.org/wiki/South_Asian_Association_for_Regional_Cooperation</a></li>
-<li>Bay of Bengal — <a href="https://en.wikipedia.org/wiki/Bay_of_Bengal">https://en.wikipedia.org/wiki/Bay_of_Bengal</a></li>
-<li>Port of Chabahar — <a href="https://en.wikipedia.org/wiki/Port_of_Chabahar">https://en.wikipedia.org/wiki/Port_of_Chabahar</a></li>
-<li>BBIN initiative — <a href="https://en.wikipedia.org/wiki/Bangladesh%E2%80%93Bhutan%E2%80%93India%E2%80%93Nepal_Initiative">https://en.wikipedia.org/wiki/Bangladesh%E2%80%93Bhutan%E2%80%93India%E2%80%93Nepal_Initiative</a> <strong>Matriz de variação (eixos):</strong> fronteira/linha de controle | bacia hidrográfica | porto/corredor | bloco regional | legado colonial | cidade-âncora.</li>
+<li>Não use ” ” no texto do campo <pergunta>. Exemplo: “pergunta”: “Quem foi Pelé?” (CORRETO) vs “pergunta”: “Quem foi”Pelé”?” (INCORRETO)</pergunta></li>
+<li>Pode utilizar acentuação (ex: não, está, próximo, vêm, etc) no campo <pergunta>.</pergunta></li>
+<li>No campo “fonte”, forneça apenas array com as urls, sem formatação de link clicavel markdown.</li>
+<li>Não há diferenciação de dificuldade. Cheque o json.schema</li>
+<li>nao inclua tag</li>
 </ul>
+<p>Tema: História Natural</p>
+<p>Subtema: Dinossauros</p>
+<p>Microsubtema:</p>
+<section id="defesas-chifres-placas-e-caudas-com-clava-defesas_chifres_e_placas" class="level2">
+<h2 class="anchored" data-anchor-id="defesas-chifres-placas-e-caudas-com-clava-defesas_chifres_e_placas">5) Defesas: chifres, placas e caudas com clava — <code>defesas_chifres_e_placas</code></h2>
+<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Estratégias de proteção em diferentes dinossauros herbívoros: chifres e escudos de cabeça, placas no dorso e caudas armadas. <strong>Escopo</strong> <strong>Inclusões (não exaustivo):</strong> Triceratops (chifres/escudo), Stegosaurus (placas/espinhos), Ankylosaurus (cauda em clava); exibição vs.&nbsp;defesa. <strong>Exclusões:</strong> armas não suportadas por ossos preservados. <strong>Referências (exemplos):</strong> Wikipedia EN: Triceratops; Stegosaurus; Ankylosaurus. <strong>Matriz de variação (eixos):</strong> tipo de defesa | possível função | porte | habitat.</p>
+<section id="exemplos-de-perguntas" class="level3">
+<h3 class="anchored" data-anchor-id="exemplos-de-perguntas">Exemplos de perguntas</h3>
+<p><strong>Abertas</strong></p>
+<ol type="1">
+<li><p>Qual dinossauro herbívoro de três chifres e grande escudo ósseo na cabeça é um dos mais conhecidos do Cretáceo da América do Norte ➜ Resposta: Triceratops.</p></li>
+<li><p>Que dinossauro herbívoro do Jurássico apresenta grandes placas ao longo do dorso e pares de espinhos na cauda ➜ Resposta: Stegosaurus.</p></li>
+<li><p>Qual dinossauro herbívoro fortemente blindado possuía uma cauda reforçada em forma de clava óssea ➜ Resposta: Ankylosaurus.</p></li>
+<li><p>Que tipo de estrutura protegeu partes do corpo de dinossauros blindados como Ankylosaurus além da cauda em clava ➜ Resposta: Placas e escudos ósseos na pele.</p></li>
+</ol>
+<p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Os chifres e o escudo de Triceratops podiam ter servido para
+<ol type="A">
+<li>Capturar peixes em rios rasos</li>
+<li>Defesa contra predadores e exibição entre indivíduos da mesma espécie</li>
+<li>Locomoção mais rápida em mar aberto</li>
+<li>Respiração debaixo do solo ➜ Resposta correta: B) Defesa contra predadores e exibição entre indivíduos da mesma espécie.</li>
+</ol></li>
+<li>As placas nas costas de Stegosaurus podem ter funcionado como
+<ol type="A">
+<li>Âncoras para nadar</li>
+<li>Estruturas para troca de calor e exibição</li>
+<li>Bolsas de ar para voar</li>
+<li>Reservatórios de água ➜ Resposta correta: B) Estruturas para troca de calor e exibição.</li>
+</ol></li>
+<li>A cauda em clava de Ankylosaurus era provavelmente usada principalmente para
+<ol type="A">
+<li>Escavar tocas profundas</li>
+<li>Golpear predadores ou rivais</li>
+<li>Apoiar o corpo ao dormir</li>
+<li>Atrair insetos polinizadores ➜ Resposta correta: B) Golpear predadores ou rivais.</li>
+</ol></li>
+<li>Dinossauros com armaduras pesadas e caudas armadas tendiam a ser
+<ol type="A">
+<li>Pequenos e muito velozes</li>
+<li>Herbívoros de corpo baixo e pesado</li>
+<li>Predadores marinhos</li>
+<li>Voadores ativos de longa distância ➜ Resposta correta: B) Herbívoros de corpo baixo e pesado.</li>
+</ol></li>
+</ol>
+<p><strong>Verdadeiro-falso</strong></p>
+<ol type="1">
+<li><p>Todos os dinossauros herbívoros possuíam chifres na cabeça ➜ Resposta: Falso.</p></li>
+<li><p>As estruturas ósseas de defesa em dinossauros como Stegosaurus e Ankylosaurus são conhecidas a partir de fósseis preservados ➜ Resposta: Verdadeiro.</p></li>
+<li><p>Em dinossauros bem estudados é possível distinguir com segurança entre todas as funções de cada espinho ou placa individual ➜ Resposta: Falso.</p></li>
+<li><p>Em muitos casos as mesmas estruturas que ajudavam na defesa também podiam ser usadas em exibição para outros indivíduos da espécie ➜ Resposta: Verdadeiro.</p></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

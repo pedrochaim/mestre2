@@ -27,22 +27,26 @@ Existem dois tipos de `Carta de Ação`, dependendo de quando elas podem ser usa
 - `Instantânea`: podem ser usadas a qualquer momento, inclusive durante o turno de outro jogador. Exemplo: "Jogador alvo perde a vez".
 - `Limitada`: só pode ser usada imediatamente após o enunciado de uma pergunta, antes de qualquer jogador responder.
 
-### Carta de Ação: Palpite antecipado
+### Carta de Ação: Palpite antecipado (Verde)
 
-### Carta de Ação: Quem pergunta anda se todos errarem
+### Carta de Ação: Quem pergunta anda se todos errarem (Preta)
 
-### Carta de Ação: Jogador alvo volta uma casa
+### Carta de Ação: Jogador alvo volta uma casa (Azul)
 
 ### Carta de Ação: Troca de tema
 
 Efeito no primeiro estágio: altera o tema do estágio até o final do mesmo.
 Efeito no segundo estágio: altera o tema da próxima pergunta a ser respondida. 
 
-### Carta de Ação: Jogador alvo perde a vez
+### Carta de Ação: Jogador alvo perde a vez (Branca)
 
 Pode anular um potencial palpite de um jogador secundário.
 
 ### Carta de Ação: Escolhe Subtema da próxima pergunta
+
+### Carta de Ação: Pergunta de múltipla escolha (Vermelho)
+
+Sua próxima
 
 ## Regra de Ouro
 

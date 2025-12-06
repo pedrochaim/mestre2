@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>instrucoes_geracao_perguntas – Mestre 2 — Jogo de Perguntas e Respostas</title>
+<title>instrucoes_geracao_perguntas – Mestre 2 : Jogo de Perguntas e Respostas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -82,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Mestre 2 — Jogo de Perguntas e Respostas</span>
+    <span class="navbar-title">Mestre 2 : Jogo de Perguntas e Respostas</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -94,10 +129,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Início</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../info/regras.html"> 
-<span class="menu-text">Regras</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../info/dicionario_temas_subtemas.html"> 
@@ -138,141 +169,395 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="instruções-para-geração-de-perguntas" class="level1">
 <h1>Instruções para Geração de Perguntas</h1>
-<p>O objetivo deste documento é fornecer diretrizes claras e detalhadas para a criação de um conjunto de perguntas de quiz que sejam variadas e adequadamente referenciadas. Seguindo estas instruções, você ajudará a garantir que o conjunto final seja de alta qualidade, adequado para um público amplo e diversificado.</p>
-<p>As perguntas serão geradas a nível de <strong>microsubtemas</strong> dentro de cada <strong>subtema</strong> de um <strong>tema</strong> maior. <strong>Temas</strong> e <strong>Subtemas</strong> são detalhados no arquivo <code>dicionario_temas_subtemas.md</code>. O <code>microsubtema</code> específico é detalhado no momento do prompt.</p>
-<p>O produto final será um arquivo JSON estruturado conforme o schema definido em <code>./docs/pergunta.schema.json</code>.</p>
-<p>Cada arquivo JSON a nível de microsubtema será nomeado seguindo a convenção <code>./data/Perguntas_{tema_clean}/{tema_clean}_{subtema_clean}_{microsubtema_clean}.json</code>. Eles então serão unidos em um único arquivo por subtema (<code>./data/Perguntas_{tema_clean}/{tema_clean}_{subtema_clean}.json</code>), e posteriormente em um arquivo mestre por tema (<code>./data/{tema_clean}.json</code>).</p>
+<p>Este arquivo contém <strong>instruções diretas para o modelo Mestre 2</strong>. Sempre que o prompt trouxer algo como:</p>
+<blockquote class="blockquote">
+<p><code>Tarefa: Gere N perguntas no nível do microsubtema ...</code></p>
+</blockquote>
+<p>você deve <strong>seguir rigorosamente</strong> as regras abaixo, usando o <strong>microsubtema detalhado</strong> como principal insumo editorial.</p>
+<p>O objetivo é criar conjuntos de perguntas de quiz que sejam <strong>variadas</strong>, <strong>fatuais</strong>, <strong>estáveis</strong> e <strong>bem referenciadas</strong>, adequadas para um público amplo e leigo interessado.</p>
+<p>As perguntas serão geradas a nível de <strong>microsubtemas</strong> dentro de cada <strong>subtema</strong> de um <strong>tema</strong> maior.</p>
+<ul>
+<li><strong>Temas</strong> e <strong>Subtemas</strong> são detalhados no arquivo <code>Dicionario_Temas_Subtemas.md</code>.</li>
+<li>O <strong>microsubtema</strong> específico vem detalhado no corpo do prompt (recorte, escopo, matriz de variação, exemplos).</li>
+</ul>
+<p>O produto final será um arquivo JSON estruturado conforme o schema definido em <code>./info/pergunta.schema.json</code>.</p>
+<p>Cada arquivo JSON a nível de microsubtema será nomeado seguindo a convenção:</p>
+<ul>
+<li><code>./data/Perguntas_{tema_clean}/{tema_clean}_{subtema_clean}_{microsubtema_clean}.json</code></li>
+</ul>
+<p>Depois serão unidos em:</p>
+<ul>
+<li>um arquivo por subtema: <code>./data/Perguntas_{tema_clean}/{tema_clean}_{subtema_clean}.json</code></li>
+<li>um arquivo mestre por tema: <code>./data/{tema_clean}.json</code></li>
+</ul>
 <p><strong>Escopo multi-temas:</strong> válido para Artes, História, Esportes, Ciências, Geografia, Entretenimento, etc. <strong>Objetivo:</strong> produzir perguntas <strong>manuais</strong>, <strong>factuais</strong>, <strong>diversas</strong> e <strong>bem referenciadas</strong> em português (pt-BR), prontas para uso no jogo de quiz.</p>
 <hr>
 <section id="formato-e-schema" class="level2">
 <h2 class="anchored" data-anchor-id="formato-e-schema">1) Formato e Schema</h2>
+<p>Você <strong>deve</strong> seguir o JSON Schema oficial (<code>pergunta.schema.json</code>) em todas as perguntas.</p>
+<p><strong>Campos obrigatórios:</strong></p>
 <ul>
-<li>Cada questão deve seguir o JSON Schema oficial (<code>pergunta.schema.json</code>).</li>
-<li><strong>Campos obrigatórios:</strong> <code>id</code>, <code>tema</code>, <code>subtema</code>, <code>tipo</code>, <code>pergunta</code>, <code>resposta</code>, <code>fonte</code>.</li>
-<li><strong>Campos descontinuados:</strong> <code>dificuldade</code> (não usar; se ainda constar no schema legado, tratar como <strong>opcional/ignorar</strong>).</li>
-<li><strong><code>id</code></strong>: globalmente único (recomendado ULID/UUID ou <code>YYYYMMDDTHHMMSSZ_counter</code>).</li>
-<li><strong><code>tema</code></strong>: tema amplo (ex.: História, Ciências, Esportes).</li>
-<li><strong><code>subtema</code></strong>: subtema específico (ex.: Idade Média, Física, Futebol). O documento <code>./docs/Dicionario_Temas_Subtemas.md</code> contém uma lista de temas e seus respectivos subtemas.</li>
-<li><strong><code>tipo</code></strong> ∈ {Aberta, Múltipla escolha, Verdadeiro-falso}.</li>
-<li><strong><code>pergunta</code></strong>: enunciado <strong>auto-contido</strong>; para múltipla escolha, incluir as <strong>4 alternativas A–D</strong> no próprio campo. <strong>Não</strong> use perguntas de “ordenação de eventos”.</li>
-<li><strong><code>resposta</code></strong>: somente a <strong>resposta final</strong>, sem explicações. Em V/F deve ser exatamente <strong>“Verdadeiro”</strong> ou <strong>“Falso”</strong>.</li>
-<li><strong><code>fonte</code></strong>: <strong>array</strong> com <strong>≥ 2 URLs</strong> específicas e <strong>não contraditórias</strong> (priorize Wikipedia em inglês + fonte adicional confiável/oficial).</li>
+<li><p><strong><code>id</code></strong>: identificador globalmente único.</p>
+<ul>
+<li>Recomenda-se <code>YYYYMMDDTHHMMSSZ_counter</code> (ex.: <code>20251202T000000Z_041</code>) ou ULID/UUID.</li>
+</ul></li>
+<li><p><strong><code>tema</code></strong>: nome do tema amplo (ex.: <code>"História"</code>, <code>"Ciências"</code>, <code>"Esportes"</code>).</p>
+<ul>
+<li>Deve corresponder exatamente a um tema do <code>Dicionario_Temas_Subtemas.md</code>.</li>
+</ul></li>
+<li><p><strong><code>tema_clean</code></strong>: slug do tema (minúsculas, sem acentos; espaços substituídos por <code>_</code>).</p>
+<ul>
+<li>Ex.: <code>"historia"</code>, <code>"ciencias"</code>, <code>"esportes"</code>.</li>
+</ul></li>
+<li><p><strong><code>subtema</code></strong>: subtema específico (ex.: <code>"Idade Média"</code>, <code>"Física"</code>, <code>"Futebol"</code>).</p>
+<ul>
+<li>Deve corresponder a um subtema válido do dicionário.</li>
+</ul></li>
+<li><p><strong><code>subtema_clean</code></strong>: versão “limpa” do subtema (minúsculas, sem acentos; palavras separadas por <code>_</code>).</p>
+<ul>
+<li>Ex.: <code>"idade_media"</code>, <code>"fisica"</code>, <code>"futebol"</code>.</li>
+</ul></li>
+<li><p><strong><code>microsubtema</code></strong>: nome textual do recorte (ex.: <code>"Capitais em Rios da Europa"</code>).</p>
+<ul>
+<li>Deve bater com o microsubtema do prompt.</li>
+</ul></li>
+<li><p><strong><code>microsubtema_clean</code></strong>: slug do microsubtema (minúsculas, sem acentos; <code>_</code> como separador).</p>
+<ul>
+<li>Ex.: <code>"capitais_em_rios_da_europa"</code>.</li>
+</ul></li>
+<li><p><strong><code>tipo</code></strong> ∈ {<code>"Aberta"</code>, <code>"Múltipla escolha"</code>, <code>"Verdadeiro-falso"</code>}.</p>
+<ul>
+<li><strong>Não</strong> use outros tipos.</li>
+</ul></li>
+<li><p><strong><code>pergunta</code></strong>: enunciado <strong>auto-contido</strong> em português (pt-BR).</p>
+<ul>
+<li>Para <strong>Múltipla escolha</strong>, inclua <strong>exatamente 4 alternativas A–D</strong> <strong>no próprio campo</strong> <code>pergunta</code>.</li>
+<li><strong>Não</strong> use perguntas de ordenação de eventos ou associação de pares.</li>
+</ul></li>
+<li><p><strong><code>resposta</code></strong>: somente a <strong>resposta final</strong>, sem explicações, exemplos ou variações.</p>
+<ul>
+<li>Aberta: um valor único (nome, número, lugar, conceito).</li>
+<li>Múltipla escolha: copie <strong>exatamente</strong> o texto da alternativa correta (ex.: <code>"Xibalba – Popol Vuh"</code>).</li>
+<li>Verdadeiro-falso: deve ser <strong>exatamente</strong> <code>"Verdadeiro"</code> ou <code>"Falso"</code>.</li>
+</ul></li>
+<li><p><strong><code>fonte</code></strong>: <strong>array</strong> com <strong>pelo menos 2 URLs</strong> específicas e <strong>não contraditórias</strong>.</p>
+<ul>
+<li>Priorize <strong>Wikipedia em inglês</strong> + <strong>uma fonte adicional confiável/oficial</strong>.</li>
+<li>Não use apenas Wikipedia; <strong>sempre inclua outra fonte confiável</strong> (enciclopédias, bases oficiais, sites institucionais, etc.).</li>
+</ul></li>
 </ul>
 <p><strong>Campos opcionais:</strong></p>
 <ul>
-<li><strong><code>microsubtema</code></strong>: cada subtema é organizado em subcategorias chamadas <strong>microsubtemas</strong>. O detalhamento é fornecido no momento do prompt de geração.</li>
-<li><strong><code>subtema_clean</code></strong>: versão “limpa” de <code>subtema</code> (minúsculas, sem acentos; palavras com <code>_</code>).</li>
-<li><strong><code>microsubtema_clean</code></strong>: versão “limpa” de <code>microsubtema</code> (minúsculas, sem acentos; palavras com <code>_</code>).</li>
-<li><strong><code>tag</code></strong>: identifica características específicas do assunto da pergunta.</li>
+<li><p><strong><code>tag</code></strong>: rótulo adicional (ex.: <code>"cosmologia"</code>, <code>"dinossauros_ornitopodes"</code>).</p>
+<ul>
+<li><strong>Não inclua</strong> <code>tag</code> a menos que o prompt peça explicitamente.</li>
+<li>Quando incluído, deve ser uma string curta, sem formatações especiais.</li>
+</ul></li>
+<li><p><strong><code>autor</code></strong>: nome do autor humano da questão.</p>
+<ul>
+<li><strong>Só deve ser utilizado se explicitamente indicado no prompt.</strong></li>
+<li>Use apenas quando o autor <strong>for um ser humano</strong> (ex.: <code>"João Silva"</code>, <code>"Equipe de História"</code>).</li>
+<li>Não use este campo para indicar o modelo ou a IA como autora.</li>
+</ul></li>
 </ul>
 <hr>
 </section>
 <section id="proporções-de-tipos" class="level2">
 <h2 class="anchored" data-anchor-id="proporções-de-tipos">2) Proporções de Tipos</h2>
+<p>Ao gerar um conjunto com <strong>N</strong> perguntas em um microsubtema:</p>
 <ul>
-<li><p><strong>50%</strong>: <strong>resposta aberta</strong>.</p></li>
-<li><p><strong>50%</strong>: <strong>múltipla escolha</strong> e <strong>verdadeiro/falso</strong> na razão <strong>75% : 25%</strong>.</p>
+<li><p><strong>50%</strong> devem ser de <strong>resposta aberta</strong>.</p></li>
+<li><p>Os outros <strong>50%</strong> dividem-se entre:</p>
 <ul>
-<li>Ex.: em 100 questões → 50 Abertas, 38 Múltipla escolha, 12 V/F.</li>
+<li><strong>Múltipla escolha</strong>: <strong>75%</strong> desse bloco.</li>
+<li><strong>Verdadeiro-falso</strong>: <strong>25%</strong> desse bloco.</li>
 </ul></li>
 </ul>
+<p>Exemplo em <strong>100</strong> perguntas:</p>
+<ul>
+<li>50 Abertas</li>
+<li>38 Múltipla escolha</li>
+<li>12 Verdadeiro-falso</li>
+</ul>
+<p>Para valores de N menores, aproxime por inteiro mantendo, o máximo possível, as proporções acima.</p>
 <hr>
 </section>
 <section id="diversidade-e-cobertura" class="level2">
 <h2 class="anchored" data-anchor-id="diversidade-e-cobertura">3) Diversidade e Cobertura</h2>
+<p>Ao gerar perguntas para um microsubtema:</p>
 <ul>
-<li><strong>Sem duplicatas</strong>: enunciados <strong>não idênticos</strong> e <strong>similaridade ≤ 80%</strong> (ex.: Levenshtein/Jaccard normalizada).</li>
-<li><strong>Limite por entidade/fenômeno</strong>: <strong>máx. 5 questões</strong> por pessoa, obra, equipe, organização, lugar específico ou evento histórico <strong>no conjunto inteiro</strong>.</li>
-<li><strong>Cobertura ortogonal</strong>: evite sobreposição entre subtemas; diversifique períodos, regiões, estilos, disciplinas ou modalidades conforme o tema.</li>
-<li><strong>Público-alvo pt-BR</strong>: pode priorizar exemplos nacionais <strong>sem ultrapassar ~40%</strong> do conjunto, mantendo diversidade global.</li>
+<li><p><strong>Sem duplicatas</strong>:</p>
+<ul>
+<li>Não repita enunciados idênticos.</li>
+<li>Evite enunciados <strong>muito similares</strong> (similaridade textual &gt; 80%, por medidas como Levenshtein ou Jaccard normalizada).</li>
+</ul></li>
+<li><p><strong>Limite por entidade/fenômeno</strong>:</p>
+<ul>
+<li>Use <strong>no máximo 5 questões</strong> por indivíduo, obra, equipe, organização, lugar específico ou evento histórico <strong>no conjunto inteiro</strong> daquele microsubtema.</li>
+</ul></li>
+<li><p><strong>Cobertura ortogonal</strong>:</p>
+<ul>
+<li>Varie <strong>tempo</strong>, <strong>espaço</strong>, <strong>categorias</strong>, <strong>papéis</strong>, <strong>subtemas internos</strong> do microsubtema conforme a “matriz de variação” descrita no arquivo de microsubtemas.</li>
+<li>Evite que todas as perguntas se concentrem no mesmo período, país, personagem ou subgrupo.</li>
+</ul></li>
+<li><p><strong>Público-alvo pt-BR</strong>:</p>
+<ul>
+<li>Linguagem clara para público leigo, mas minimamente interessado.</li>
+<li>Você pode priorizar exemplos brasileiros, <strong>mas sem ultrapassar ~40%</strong> do conjunto, <strong>salvo</strong> quando o microsubtema for explicitamente marcado como <strong>Nacional</strong>.</li>
+</ul></li>
+<li><p><strong>Microsubtema com Localização = Nacional</strong>:</p>
+<ul>
+<li>Quando o microsubtema for “Nacional” (conforme a instrução de microsubtemas), utilize <strong>100% de contexto brasileiro</strong> (instituições, fatos, personagens, geografia do Brasil, etc.).</li>
+</ul></li>
 </ul>
 <hr>
 </section>
 <section id="fontes-e-verificação" class="level2">
 <h2 class="anchored" data-anchor-id="fontes-e-verificação">4) Fontes e Verificação</h2>
 <ul>
-<li><strong>Mínimo 2 URLs</strong> por questão; priorize enciclopédias, publicações acadêmicas, sites oficiais e bases reconhecidas.</li>
-<li>Use <strong>páginas específicas</strong> da afirmação (não homepages). Verifique <strong>consistência</strong> entre as fontes.</li>
-<li>Fontes instáveis (blogs sem revisão, fóruns, wikis não moderados) <strong>só se inevitáveis</strong>; nesse caso, <strong>rotule-as</strong> após a URL (ex.: “(fonte não revisada)”).</li>
-<li>Para biografias ou esportes, prefira <strong>organismos oficiais</strong>, <strong>históricos consolidados</strong> e <strong>bases estatísticas canônicas</strong>.</li>
+<li><p>Cada pergunta deve ter <strong>no mínimo 2 URLs</strong> em <code>fonte</code>:</p>
+<ul>
+<li><p>Dê preferência a:</p>
+<ul>
+<li><strong>Wikipedia em inglês</strong> (ou em português para temas estritamente nacionais),</li>
+<li>Enciclopédias de prestígio,</li>
+<li>Publicações acadêmicas,</li>
+<li>Sites oficiais de governos, organismos internacionais, federações esportivas, museus, etc.</li>
+</ul></li>
+</ul></li>
+<li><p>Use <strong>páginas específicas</strong> relacionadas ao fato, não homepages genéricas.</p></li>
+<li><p>As fontes devem ser <strong>consistentes</strong> entre si; não utilize fontes que se contradizem sem necessidade.</p></li>
+<li><p>Evite, sempre que possível:</p>
+<ul>
+<li>blogs sem revisão,</li>
+<li>fóruns abertos,</li>
+<li>wikis não moderadas.</li>
+<li>Se não houver alternativa, pode usar, mas acrescente ao final da URL algo como <code>(fonte não revisada)</code> no texto de referência no documento de microsubtema (não no JSON de perguntas).</li>
+</ul></li>
+<li><p>Para biografias, esportes e estatísticas:</p>
+<ul>
+<li>Prefira <strong>bases oficiais</strong> (ex.: FIFA, IOC, IBGE, UN, ligas oficiais) e <strong>históricos consolidados</strong>.</li>
+</ul></li>
 </ul>
 <hr>
 </section>
 <section id="diretrizes-de-redação" class="level2">
 <h2 class="anchored" data-anchor-id="diretrizes-de-redação">5) Diretrizes de Redação</h2>
 <ul>
-<li>Português (pt-BR), claro, objetivo e <strong>neutro</strong>; evite opinião/valor.</li>
-<li>Enunciado <strong>auto-contido</strong>, sem necessidade de contexto externo.</li>
-<li>Evite termos ambíguos (“geralmente”, “talvez”) e dados de “ano corrente”.</li>
-<li><strong>Não use placeholders</strong> ou perguntas simuladas; cada questão deve ser factual e verificável.</li>
-<li>Evite questões cuja resposta esteja <strong>literalmente embutida</strong> na pergunta (ex.: “Qual país sediou a Copa do Mundo de 2014 no Brasil?”).</li>
+<li><p>Escreva em <strong>português (pt-BR)</strong>, com tom:</p>
+<ul>
+<li>claro, objetivo, informativo,</li>
+<li>neutro, sem juízo de valor.</li>
+</ul></li>
+<li><p>O enunciado deve ser <strong>auto-contido</strong>:</p>
+<ul>
+<li>O jogador deve entender a pergunta sem depender de outra questão ou de contexto externo.</li>
+</ul></li>
+<li><p>Evite:</p>
+<ul>
+<li>termos vagos como “geralmente”, “talvez”, “em muitos casos”, se isso afetar a verificabilidade da resposta;</li>
+<li>dependência de “ano corrente” ou valor que mude rapidamente (recordes atualíssimos, rankings anuais, etc.).</li>
+</ul></li>
+<li><p><strong>Não use placeholders</strong> do tipo “País X”, “Jogador Y”, “Cidade Z”.</p>
+<ul>
+<li>Use somente entidades reais, com fontes verificáveis.</li>
+</ul></li>
+<li><p>Evite perguntas cuja resposta esteja <strong>literalmente embutida</strong> de maneira redundante no enunciado, por exemplo:</p>
+<ul>
+<li>Ruim: <code>"Qual país sediou a Copa do Mundo de 2014 no Brasil?"</code></li>
+<li>Melhor: <code>"Qual país sediou a Copa do Mundo de 2014 de futebol masculino?"</code></li>
+</ul></li>
 </ul>
 <hr>
 </section>
 <section id="regras-por-tipo-de-questão" class="level2">
 <h2 class="anchored" data-anchor-id="regras-por-tipo-de-questão">6) Regras por Tipo de Questão</h2>
-<p><strong>Aberta</strong></p>
+<section id="aberta" class="level3">
+<h3 class="anchored" data-anchor-id="aberta">Aberta</h3>
 <ul>
-<li>Respostas curtas e verificáveis (nome, número, local, conceito).</li>
-<li>Evite “Liste N itens” (exceto N ≤ 2 e universalmente aceitos).</li>
+<li><p>Respostas devem ser <strong>curtas e objetivas</strong> (1 nome, 1 número, 1 lugar, 1 conceito).</p></li>
+<li><p>Evite pedidos de listas longas:</p>
+<ul>
+<li>Não peça “Liste 3/4/5 itens”.</li>
+<li>Permite-se, no máximo, “Liste 2 X” quando forem itens canônicos e amplamente aceitos.</li>
+</ul></li>
 </ul>
-<p><strong>Múltipla escolha (4 alternativas)</strong></p>
+</section>
+<section id="múltipla-escolha-4-alternativas" class="level3">
+<h3 class="anchored" data-anchor-id="múltipla-escolha-4-alternativas">Múltipla escolha (4 alternativas)</h3>
 <ul>
-<li>Alternativas A) B) C) D) no campo <code>pergunta</code>.</li>
-<li><strong>Somente 1 correta</strong>; distratores plausíveis, mutuamente exclusivos e de tamanho semelhante.</li>
-<li>Evite “Todas as anteriores/nenhuma”, pistas gramaticais e termos absolutos (“sempre/nunca”).</li>
-<li>Permite leve variação de ordem das alternativas entre versões do mesmo conjunto.</li>
+<li><p>O campo <code>pergunta</code> deve conter:</p>
+<ul>
+<li>o enunciado e</li>
+<li>as <strong>4 alternativas A) B) C) D)</strong>, geralmente em linhas separadas.</li>
+</ul></li>
+<li><p>Deve haver <strong>exatamente 1 alternativa correta</strong>.</p></li>
+<li><p>Os <strong>distratores</strong> (alternativas incorretas) devem ser:</p>
+<ul>
+<li>plausíveis,</li>
+<li>mutuamente exclusivos,</li>
+<li>de tamanho e estilo de redação semelhantes à alternativa correta.</li>
+</ul></li>
+<li><p>Evite:</p>
+<ul>
+<li>“Todas as anteriores” / “Nenhuma das anteriores”,</li>
+<li>pistas gramaticais óbvias,</li>
+<li>uso de termos absolutos como “sempre”, “nunca”, salvo se o fato for realmente absoluto e bem estabelecido.</li>
+</ul></li>
+<li><p>É aceitável variar a <strong>ordem das alternativas</strong> entre diferentes conjuntos, mas <strong>não</strong> dentro do mesmo JSON final (cada pergunta deve ter uma única ordem definida).</p></li>
 </ul>
-<p><strong>Verdadeiro-falso</strong></p>
+</section>
+<section id="verdadeiro-falso" class="level3">
+<h3 class="anchored" data-anchor-id="verdadeiro-falso">Verdadeiro-falso</h3>
 <ul>
-<li>Afirmações factuais, inequívocas e sem dupla negação.</li>
-<li><code>resposta</code> ∈ {“Verdadeiro”, “Falso”} (exatamente).</li>
+<li><p>Afirmativas devem ser:</p>
+<ul>
+<li>factuais,</li>
+<li>inequívocas,</li>
+<li>sem dupla negação,</li>
+<li>não triviais (evite fatos óbvios demais).</li>
+</ul></li>
+<li><p>O campo <code>resposta</code> deve ser <strong>exatamente</strong> <code>"Verdadeiro"</code> ou <code>"Falso"</code>.</p>
+<ul>
+<li>Não use abreviações, nem variações (“V”, “F”, “True”, etc.).</li>
+</ul></li>
 </ul>
 <hr>
 </section>
+</section>
 <section id="checklist-de-qualidade-antes-de-salvar" class="level2">
 <h2 class="anchored" data-anchor-id="checklist-de-qualidade-antes-de-salvar">7) Checklist de Qualidade (antes de salvar)</h2>
+<p>Ao concluir um conjunto de perguntas de um microsubtema, verifique:</p>
 <ul class="task-list">
-<li><label><input type="checkbox">Proporções por <strong>tipo</strong> atendidas.</label></li>
-<li><label><input type="checkbox"><code>id</code> único; campos do schema preenchidos.</label></li>
-<li><label><input type="checkbox">Enunciado claro, <strong>sem marcações</strong> fora do padrão.</label></li>
-<li><label><input type="checkbox"><strong>2+ fontes</strong> específicas, acessíveis e consistentes.</label></li>
-<li><label><input type="checkbox">≤ <strong>5 questões</strong> por entidade/fenômeno no conjunto.</label></li>
-<li><label><input type="checkbox">Similaridade com enunciados existentes <strong>≤ 80%</strong>.</label></li>
-<li><label><input type="checkbox">MCQ: 4 alternativas A–D; 1 correta; distratores plausíveis.</label></li>
-<li><label><input type="checkbox">V/F: resposta “Verdadeiro” ou “Falso”.</label></li>
+<li><label><input type="checkbox">Proporções por <strong>tipo</strong> atendidas (50% abertas; 50% MC/VF na razão ~75/25).</label></li>
+<li><label><input type="checkbox">Cada <code>id</code> é <strong>único</strong> e segue um padrão consistente.</label></li>
+<li><label><input type="checkbox">Todos os campos obrigatórios do schema (<code>tema</code>, <code>subtema</code>, <code>microsubtema</code>, etc.) estão preenchidos.</label></li>
+<li><label><input type="checkbox">Enunciados claros, sem marcações estranhas ou aspas desnecessárias.</label></li>
+<li><label><input type="checkbox">Cada questão tem <strong>2 ou mais fontes</strong> específicas, acessíveis e consistentes.</label></li>
+<li><label><input type="checkbox">Nenhuma entidade/fenômeno aparece em <strong>mais de 5 perguntas</strong> do conjunto.</label></li>
+<li><label><input type="checkbox">Não há enunciados duplicados ou excessivamente parecidos (similaridade ≤ 80%).</label></li>
+<li><label><input type="checkbox">Nas Múltipla escolha, há 4 alternativas A–D, apenas 1 correta, com distratores plausíveis.</label></li>
+<li><label><input type="checkbox">Nos Verdadeiro-falso, <code>resposta</code> é exatamente <code>"Verdadeiro"</code> ou <code>"Falso"</code>.</label></li>
+<li><label><input type="checkbox">Se o campo <code>autor</code> foi utilizado, isso foi <strong>explicitamente pedido</strong> e o valor corresponde a um <strong>autor humano</strong>.</label></li>
 </ul>
 <hr>
 </section>
 <section id="convenções-e-arquivos" class="level2">
 <h2 class="anchored" data-anchor-id="convenções-e-arquivos">8) Convenções e Arquivos</h2>
 <ul>
-<li><strong>Nome do arquivo:</strong> <code>{tema_clean}_{subtema_clean}_{microsubtema_clean}.json</code>.</li>
-<li>Ordene por <code>id</code>; use UTF-8 e quebras de linha Unix.</li>
+<li><p><strong>Nome do arquivo por microsubtema:</strong></p>
+<ul>
+<li><code>{tema_clean}_{subtema_clean}_{microsubtema_clean}.json</code></li>
+<li>localizado em <code>./data/Perguntas_{tema_clean}/</code>.</li>
+</ul></li>
+<li><p><strong>Codificação:</strong> use <strong>UTF-8</strong>.</p></li>
+<li><p><strong>Quebras de linha:</strong> padrão Unix (<code>\n</code>).</p></li>
+<li><p>As perguntas podem ser armazenadas:</p>
+<ul>
+<li>em um único array JSON por arquivo, com cada objeto representando uma questão.</li>
+</ul></li>
 </ul>
 <hr>
 </section>
 <section id="processo-sugerido" class="level2">
 <h2 class="anchored" data-anchor-id="processo-sugerido">9) Processo Sugerido</h2>
+<p>Quando receber um prompt para gerar perguntas de um microsubtema:</p>
 <ol type="1">
-<li><strong>Planeje cobertura</strong> (matriz de <strong>microsubtemas × tipos</strong> de questão).</li>
-<li><strong>Pesquise e fixe 2+ fontes</strong> por pergunta (páginas específicas).</li>
-<li><strong>Redija e normalize</strong> (pt-BR, campo <code>resposta</code>, MCQ/VF conforme regras).</li>
-<li><strong>Valide</strong> (schema JSON + checklist + similaridade + limite por entidade).</li>
-<li><strong>Revisão cruzada</strong>: alguém diferente do autor faz checagem final.</li>
+<li><p><strong>Ler o microsubtema</strong> (arquivo de instrução no prompt):</p>
+<ul>
+<li>identificar claramente <strong>escopo</strong>, <strong>inclusões/exclusões</strong> e <strong>matriz de variação</strong>.</li>
+</ul></li>
+<li><p><strong>Planejar a cobertura</strong>:</p>
+<ul>
+<li>decidir quantas perguntas por tipo,</li>
+<li>garantir variação em tempo, espaço, entidades, papéis, etc.</li>
+</ul></li>
+<li><p><strong>Pesquisar e fixar 2+ fontes</strong> por pergunta:</p>
+<ul>
+<li>escolher páginas específicas e estáveis,</li>
+<li>evitar fontes conflitantes.</li>
+</ul></li>
+<li><p><strong>Redigir as questões</strong>:</p>
+<ul>
+<li>respeitar <code>tipo</code>, proporções, limite por entidade e diretrizes de redação.</li>
+</ul></li>
+<li><p><strong>Normalizar campos</strong>:</p>
+<ul>
+<li>garantir que <code>resposta</code> seja um valor único e limpo,</li>
+<li>garantir que as Múltipla escolha tenham 4 alternativas claras.</li>
+</ul></li>
+<li><p><strong>Validar</strong>:</p>
+<ul>
+<li>JSON contra o schema,</li>
+<li>checklist de qualidade,</li>
+<li>limite de similaridade e de repetição de entidades.</li>
+</ul></li>
+<li><p><strong>Revisão</strong>:</p>
+<ul>
+<li>revisar mentalmente se as perguntas estão didáticas, diversas e bem ancoradas em fontes.</li>
+</ul></li>
 </ol>
 <hr>
 </section>
-<section id="antipadrões-evitar" class="level2">
-<h2 class="anchored" data-anchor-id="antipadrões-evitar">10) Antipadrões (evitar)</h2>
+<section id="antipadrões-evitar-sempre" class="level2">
+<h2 class="anchored" data-anchor-id="antipadrões-evitar-sempre">10) Antipadrões (evitar sempre)</h2>
+<p>Evite gerar perguntas com as seguintes características:</p>
 <ul>
-<li>Perguntas de atualidades efêmeras; números “do ano”.</li>
-<li>Enunciados ambíguos, truques de linguagem ou pegadinhas sem base conceitual.</li>
-<li>MCQ com alternativas de tamanhos díspares, ou com “todas/nenhuma”.</li>
-<li>Repetir o mesmo indivíduo/obra/time/evento acima de 5 vezes no conjunto.</li>
+<li><p>Atualidades efêmeras, placares de temporada, preços recentes, “recordes do ano corrente”.</p></li>
+<li><p>Enunciados ambíguos, pegadinhas sem relevância conceitual ou truques de linguagem.</p></li>
+<li><p>Múltipla escolha com:</p>
+<ul>
+<li>alternativas muito desbalanceadas em tamanho ou detalhe,</li>
+<li>alternativas obviamente absurdas,</li>
+<li>“todas as anteriores” / “nenhuma das anteriores”.</li>
+</ul></li>
+<li><p>Repetir o mesmo indivíduo, obra, time ou evento <strong>acima de 5 vezes</strong> no mesmo conjunto de microsubtema.</p></li>
+<li><p>Questões cuja resposta dependa de opinião, especulação ou de fontes abertamente contraditórias.</p></li>
 </ul>
+<hr>
+</section>
+<section id="exemplos-de-perguntas-já-validadas" class="level2">
+<h2 class="anchored" data-anchor-id="exemplos-de-perguntas-já-validadas">11) Exemplos de perguntas já validadas</h2>
+<section id="exemplo-1-múltipla-escolha" class="level3">
+<h3 class="anchored" data-anchor-id="exemplo-1-múltipla-escolha">Exemplo 1 — Múltipla escolha</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"20251202T000000Z_041"</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"Variedades"</span><span class="fu">,</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"variedades"</span><span class="fu">,</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Mitologia"</span><span class="fu">,</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"mitologia"</span><span class="fu">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"microsubtema"</span><span class="fu">:</span> <span class="st">"Submundos e Pós-Vida nas Mitologias"</span><span class="fu">,</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"microsubtema_clean"</span><span class="fu">:</span> <span class="st">"submundos_e_pos_vida_mitologias"</span><span class="fu">,</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tipo"</span><span class="fu">:</span> <span class="st">"Múltipla escolha"</span><span class="fu">,</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"pergunta"</span><span class="fu">:</span> <span class="st">"Qual par de submundo e obra está corretamente associado?</span><span class="ch">\n</span><span class="st">A) Helheim – Livro dos Mortos</span><span class="ch">\n</span><span class="st">B) Duat – Popol Vuh</span><span class="ch">\n</span><span class="st">C) Hades – Kojiki</span><span class="ch">\n</span><span class="st">D) Xibalba – Popol Vuh"</span><span class="fu">,</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"resposta"</span><span class="fu">:</span> <span class="st">"Xibalba – Popol Vuh"</span><span class="fu">,</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"fonte"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"https://en.wikipedia.org/wiki/Xibalba"</span><span class="ot">,</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"https://en.wikipedia.org/wiki/Popol_Vuh"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="exemplo-2-aberta" class="level3">
+<h3 class="anchored" data-anchor-id="exemplo-2-aberta">Exemplo 2 — Aberta</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode json code-with-copy"><code class="sourceCode json"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"id"</span><span class="fu">:</span> <span class="st">"20251205T030000Z_002"</span><span class="fu">,</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema"</span><span class="fu">:</span> <span class="st">"História Natural"</span><span class="fu">,</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tema_clean"</span><span class="fu">:</span> <span class="st">"historia_natural"</span><span class="fu">,</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema"</span><span class="fu">:</span> <span class="st">"Dinossauros"</span><span class="fu">,</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"subtema_clean"</span><span class="fu">:</span> <span class="st">"dinossauros"</span><span class="fu">,</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"microsubtema"</span><span class="fu">:</span> <span class="st">"Herbívoros com bico e cristas"</span><span class="fu">,</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"microsubtema_clean"</span><span class="fu">:</span> <span class="st">"herbivoros_com_bico_e_cristas"</span><span class="fu">,</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"tipo"</span><span class="fu">:</span> <span class="st">"Aberta"</span><span class="fu">,</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"pergunta"</span><span class="fu">:</span> <span class="st">"Qual dinossauro herbívoro do Cretáceo europeu é famoso por ter um bico robusto na frente da boca e um espinho rígido no polegar"</span><span class="fu">,</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"resposta"</span><span class="fu">:</span> <span class="st">"Iguanodon"</span><span class="fu">,</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="dt">"fonte"</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"https://en.wikipedia.org/wiki/Iguanodon"</span><span class="ot">,</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"https://www.britannica.com/animal/Iguanodon"</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>  <span class="ot">]</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
+</section>
 </section>
 </section>
 

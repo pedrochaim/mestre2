@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>instrucoes_geracao_microsubtemas – Mestre 2 — Jogo de Perguntas e Respostas</title>
+<title>instrucoes_geracao_microsubtemas – Mestre 2 : Jogo de Perguntas e Respostas</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -82,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Mestre 2 — Jogo de Perguntas e Respostas</span>
+    <span class="navbar-title">Mestre 2 : Jogo de Perguntas e Respostas</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -94,10 +129,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Início</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../info/regras.html"> 
-<span class="menu-text">Regras</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../info/dicionario_temas_subtemas.html"> 
@@ -136,15 +167,15 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="instruções-do-projeto-criação-de-microsubtemas-versão-reorganizada" class="level1">
-<h1>Instruções do Projeto — Criação de Microsubtemas (versão reorganizada)</h1>
+<section id="instruções-para-geração-de-microsubtemas" class="level1">
+<h1>Instruções para geração de microsubtemas</h1>
 <blockquote class="blockquote">
 <p><strong>Propósito</strong>. Este guia padroniza <strong>como propor e redigir <em>microsubtemas</em></strong> para sustentar a geração de perguntas factuais e estáveis, validadas pelo schema do projeto. As orientações aqui <strong>não alteram o schema</strong> de perguntas — apenas estruturam o <strong>documento de microsubtema</strong> que servirá de base para gerar questões.</p>
 </blockquote>
 <hr>
 <section id="o-que-é-um-microsubtema" class="level2">
 <h2 class="anchored" data-anchor-id="o-que-é-um-microsubtema">1) O que é um <em>microsubtema</em></h2>
-<p>Um <strong>microsubtema</strong> é um recorte <strong>operacional</strong> dentro de um <strong>subtema</strong> que permite produzir <strong>≥ 80 perguntas</strong> (ideal: ~100) com <strong>baixa sobreposição</strong> com outros recortes, mantendo <strong>fatos estáveis</strong>, clareza de <strong>escopo</strong> e diversidade de itens (aberta, múltipla escolha, verdadeiro/falso).</p>
+<p>Um <strong>microsubtema</strong> é um recorte <strong>operacional</strong> dentro de um <strong>subtema</strong> que permite produzir <strong>≥ 80 perguntas</strong> (ideal: ~100) com <strong>baixa sobreposição</strong> com outros recortes, mantendo <strong>fatos estáveis</strong>, clareza de <strong>escopo</strong> e diversidade de itens (aberta, múltipla escolha, verdadeiro/falso, ordenação, associação).</p>
 <ul>
 <li><strong>Não é</strong> uma lista fechada de tópicos: o escopo define <strong>fronteiras e exemplos</strong>, mas <strong>é não exaustivo</strong>. É permitido usar <strong>personagens/assuntos não listados explicitamente</strong>, desde que <strong>coerentes com o escopo</strong> e <strong>sustentados por fontes confiáveis</strong>.</li>
 <li>O microsubtema deve ser <strong>reutilizável</strong> e <strong>longevo</strong> (evitar fatos efêmeros, atualidades voláteis, placares de temporada, preços, etc.).</li>
@@ -154,168 +185,193 @@ ul.task-list li input[type="checkbox"] {
 <section id="naturezas-válidas" class="level2">
 <h2 class="anchored" data-anchor-id="naturezas-válidas">2) Naturezas válidas</h2>
 <ul>
-<li><strong>Temático</strong> — recorte por <strong>assunto/obra/franquia/território</strong> dentro do subtema. <em>Exs.</em>: <em>Futebol Brasileiro</em> (Esportes → Futebol), <em>Dragon Ball</em> (Entretenimento → Anime e Mangá), <em>Roma Republicana</em> (História → Roma Antiga).</li>
-<li><strong>Transversal</strong> — recorte por <strong>regra/propriedade/condição</strong> que cruza entidades. <em>Exs.</em>: <em>Capitais em Rios</em> (Geografia), <em>Países sem Litoral</em> (Geografia), <em>Montanhas acima de 7.000 m</em> (Geografia).</li>
+<li><p><strong>Temático</strong> — recorte por <strong>assunto/obra/franquia/território</strong> dentro do subtema. <em>Exs.</em>: <em>Futebol Brasileiro</em> (Esportes → Futebol), <em>Dragon Ball</em> (Entretenimento → Anime e Mangá), <em>Roma Republicana</em> (História → Roma Antiga).</p></li>
+<li><p><strong>Transversal</strong> — recorte por <strong>regra/propriedade/condição</strong> que cruza entidades. <em>Exs.</em>: <em>Capitais em Rios</em> (Geografia), <em>Países sem Litoral</em> (Geografia), <em>Montanhas acima de 7.000 m</em> (Geografia).</p></li>
 </ul>
-<hr>
-</section>
-<section id="nomenclatura-e-metadados" class="level2">
-<h2 class="anchored" data-anchor-id="nomenclatura-e-metadados">3) Nomenclatura e metadados</h2>
-<ul>
-<li><strong>Título curto</strong> e claro.</li>
-<li><strong><code>microsubtema_clean</code></strong>: minúsculas, <strong><code>_</code></strong> como separador, sem acentos (ex.: <code>capitais_em_rios</code>).</li>
-<li>Coloque o microsubtema no diretório correspondente <strong><code>microsubtemas_&lt;tema_clean&gt;_&lt;subtema_clean&gt;.md</code></strong>.</li>
-</ul>
-<hr>
-</section>
-<section id="estrutura-padrão-do-documento-de-microsubtema" class="level2">
-<h2 class="anchored" data-anchor-id="estrutura-padrão-do-documento-de-microsubtema">4) Estrutura padrão do documento de microsubtema</h2>
-<p>Cada microsubtema deve seguir, na ordem:</p>
-<ol type="1">
-<li><p><strong>Cabeçalho</strong>: Título + código <code>microsubtema_clean</code>.</p></li>
-<li><p><strong>Natureza</strong>: <em>Temático</em> ou <em>Transversal</em>.</p></li>
-<li><p><strong>Descrição</strong>: objetivo e recorte em 2–4 linhas.</p></li>
-<li><p><strong>Escopo</strong> (com subtópicos padronizados):</p>
-<ul>
-<li><strong>Inclusões (não exaustivo)</strong>: itens elegíveis; pode citar <strong>pessoas, obras, lugares, instituições</strong>. <em>Atenção:</em> a lista é <strong>aberta</strong>; <strong>não limita</strong> a criação de perguntas a nomes citados.</li>
-<li><strong>Exclusões</strong>: o que fica de fora (p.ex., atualidades efêmeras, especulação, rankings anuais).</li>
-<li><strong>Referências (exemplos)</strong>: bases/entradas <strong>prováveis</strong> (preferência: <strong>Wikipedia em inglês</strong>), e <strong>documentos oficiais</strong> aplicáveis. Não precisa ser exaustivo nem incluir URL — são <strong>sugestões</strong> de onde ancorar fatos.</li>
-</ul></li>
-<li><p><strong>Matriz de variação (eixos)</strong>: parâmetros que fomentam diversidade (tempo, espaço, categorias, métricas, papéis de pessoas, etc.).</p></li>
-<li><p><strong>Exemplos de enunciados</strong> <em>(opcional)</em>: 2–4 <strong>modelos</strong> de itens (Aberta, Múltipla escolha, Verdadeiro/Falso). Os exemplos <strong>não</strong> vinculam o banco a esses nomes; servem apenas como <strong>demonstração de formato</strong>.</p></li>
-<li><p><strong>Checklist</strong>: validações antes de gerar perguntas.</p></li>
-</ol>
 <blockquote class="blockquote">
-<p><strong>Observação — Segurança Pública / True Crime.</strong> Para microsubtemas sensíveis, aplicar o <strong>Padrão metodológico</strong>: priorizar fontes oficiais e Wikipedia; usar <strong>casos encerrados</strong> e informações <strong>documentadas</strong>; excluir especulações e detalhes mórbidos; redação <strong>neutra e auditável</strong>.</p>
+<p><strong>Observação.</strong> Naturezas puramente “referenciais” (listas ou taxonomias auxiliares) devem ser reavaliadas e convertidas, sempre que possível, em recortes <strong>Temáticos</strong> ou <strong>Transversais</strong> com escopo operacional claro.</p>
 </blockquote>
 <hr>
 </section>
-<section id="exemplos-modelos-completos" class="level2">
-<h2 class="anchored" data-anchor-id="exemplos-modelos-completos">5) Exemplos (modelos completos)</h2>
+<section id="localização" class="level2">
+<h2 class="anchored" data-anchor-id="localização">3) Localização</h2>
+<ul>
+<li><p><strong>Irrestrita</strong> — quando o microsubtema <strong>não trata de assuntos exclusivamente brasileiros</strong>. Em caso de dúvida, considere Irrestrita. A maioria dos microsubtemas será deste tipo.</p></li>
+<li><p><strong>Nacional</strong> — quando o microsubtema <strong>trata exclusivamente de assuntos culturalmente próximos do Brasil e dos brasileiros</strong> (instituições brasileiras, obras nacionais, culinária local, legislação brasileira, etc.).</p>
+<ul>
+<li>Para microsubtemas com Localização = <strong>Nacional</strong>, as <strong>fontes principais</strong> do microsubtema devem ser em <strong>português</strong> (ex.: Wikipedia em português, sites oficiais brasileiros).</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="nomenclatura-e-arquivos" class="level2">
+<h2 class="anchored" data-anchor-id="nomenclatura-e-arquivos">4) Nomenclatura e arquivos</h2>
+<ul>
+<li>Cada microsubtema deve ter um <strong>título curto</strong> e claro.</li>
+<li><strong><code>microsubtema_clean</code></strong>: minúsculas, <strong><code>_</code></strong> como separador, sem acentos (ex.: <code>capitais_em_rios</code>).</li>
+<li>As descrições dos microsubtemas são guardadas em arquivos com nome: <strong><code>microsubtemas_&lt;tema_clean&gt;_&lt;subtema_clean&gt;.md</code></strong> Ex.: <code>microsubtemas_historia_romana.md</code>.</li>
+</ul>
+<p>Cada arquivo <code>microsubtemas_&lt;tema_clean&gt;_&lt;subtema_clean&gt;.md</code> pode conter <strong>vários microsubtemas</strong> do mesmo subtema, cada um com:</p>
+<ol type="1">
+<li>Um bloco de <strong>front matter YAML</strong> próprio.</li>
+<li>Um conjunto de seções em Markdown com a estrutura definida abaixo.</li>
+</ol>
+<hr>
+</section>
+<section id="estrutura-padrão-de-cada-microsubtema" class="level2">
+<h2 class="anchored" data-anchor-id="estrutura-padrão-de-cada-microsubtema">5) Estrutura padrão de <strong>cada</strong> microsubtema</h2>
+<section id="front-matter-yaml-obrigatório" class="level3">
+<h3 class="anchored" data-anchor-id="front-matter-yaml-obrigatório">5.1 Front matter YAML (obrigatório)</h3>
+<p>Cada microsubtema deve começar com um bloco YAML mínimo, por exemplo:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História Romana"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia_romana"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Serial Killers"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"serial_killers"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span><span class="co">        # ou "transversal"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span><span class="co">   # ou "nacional"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span><span class="co">             # sugerido: "ativo" | "rascunho" | "desativado"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">autor</span><span class="kw">:</span><span class="at"> </span><span class="st">"Seu Nome Opcional"</span><span class="co">  # opcional</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span><span class="co">  # opcional (ISO)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<blockquote class="blockquote">
+<p><strong>Regra:</strong> os campos <code>tema</code>, <code>tema_clean</code>, <code>subtema</code>, <code>subtema_clean</code>, <code>microsubtema</code>, <code>microsubtema_clean</code>, <code>natureza</code> e <code>localizacao</code> devem estar <strong>sempre presentes</strong> e coerentes com o dicionário canônico do projeto.</p>
+</blockquote>
+</section>
+<section id="corpo-em-markdown" class="level3">
+<h3 class="anchored" data-anchor-id="corpo-em-markdown">5.2 Corpo em Markdown</h3>
+<p>Depois do YAML, o corpo do microsubtema segue, na ordem:</p>
+<ol type="1">
+<li><p><strong>Cabeçalho</strong>: Título + código <code>microsubtema_clean</code> (opcionalmente redundante com o YAML, mas útil para leitura humana).</p></li>
+<li><p><strong>Natureza</strong>: <em>Temático</em> ou <em>Transversal</em>.</p></li>
+<li><p><strong>Descrição</strong>: objetivo e recorte em 2–4 linhas.</p></li>
+<li><p><strong>Localização</strong>: <em>Irrestrita</em> ou <em>Nacional</em>.</p></li>
+<li><p><strong>Escopo</strong> (com subtópicos padronizados):</p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: itens elegíveis; pode citar <strong>pessoas, obras, lugares, instituições</strong>.</p>
+<ul>
+<li>A lista é <strong>aberta</strong>; <strong>não limita</strong> a criação de perguntas aos nomes citados.</li>
+</ul></li>
+<li><p><strong>Exclusões</strong>: o que fica de fora (p.ex., atualidades efêmeras, especulação, rankings anuais).</p></li>
+<li><p><strong>Referências (exemplos)</strong>: bases/entradas <strong>prováveis</strong> (preferência: <strong>Wikipedia em inglês</strong> para microsubtemas Irrestritos; <strong>fontes em português</strong> para microsubtemas Nacionais) e <strong>documentos oficiais</strong> aplicáveis.</p>
+<ul>
+<li>Não precisa ser exaustivo, nem incluir URL obrigatoriamente — são <strong>sugestões</strong> de onde ancorar fatos.</li>
+</ul></li>
+</ul></li>
+<li><p><strong>Matriz de variação (eixos)</strong>: parâmetros que fomentam diversidade (tempo, espaço, categorias, métricas, papéis de pessoas, tipos de entidade, etc.).</p>
+<ul>
+<li>Ex.: tempo (Triássico/Jurássico/Cretáceo), espaço (continentes), tipo de entidade (animal/ambiente/técnica), papel (autor/vítima/investigador), etc.</li>
+</ul></li>
+<li><p><strong>Exemplos de enunciados</strong>:</p>
+<ul>
+<li><p>Pelo menos <strong>4 modelos</strong> de itens cobrindo, no conjunto, os tipos:</p>
+<ul>
+<li><strong>Aberta</strong></li>
+<li><strong>Múltipla escolha</strong></li>
+<li><strong>Verdadeiro/Falso</strong></li>
+<li><strong>Ordenação</strong> e/ou <strong>Associação</strong></li>
+</ul></li>
+<li><p>Os exemplos <strong>não vinculam</strong> o banco aos nomes usados; servem apenas como <strong>demonstração de formato, nível de detalhe e tom</strong>.</p></li>
+</ul></li>
+<li><p><strong>Checklist</strong>: validações antes de gerar perguntas, por exemplo:</p>
+<ul>
+<li>Fatos estáveis;</li>
+<li>Fontes verificáveis;</li>
+<li>Linguagem neutra e didática, para público leigo mas informado;</li>
+<li>Cobertura mínima de eixos importantes da matriz de variação;</li>
+<li><strong>No máximo 5 perguntas por indivíduo/fenômeno/caso</strong>.</li>
+</ul></li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="exemplo-completo-de-microsubtema" class="level2">
+<h2 class="anchored" data-anchor-id="exemplo-completo-de-microsubtema">6) Exemplo completo de microsubtema</h2>
 <blockquote class="blockquote">
 <p>Os exemplos abaixo <strong>incluem “Referências (exemplos)” no Escopo</strong> e deixam explícito que <strong>as listas são não exaustivas</strong>.</p>
 </blockquote>
 <section id="a-serial-killers-serial_killers" class="level3">
 <h3 class="anchored" data-anchor-id="a-serial-killers-serial_killers">A) Serial Killers — <code>serial_killers</code></h3>
-<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Pessoas ligadas a casos seriais notórios, com ênfase em autores, vítimas, investigadores, promotores e <strong>marcos processuais documentados</strong>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Variedades"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"variedades"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Crimes e Justiça"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"crimes_e_justica"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Serial Killers"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"serial_killers"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Pessoas ligadas a casos seriais notórios, com ênfase em autores, vítimas, investigadores, promotores e <strong>marcos processuais documentados</strong> (prisões, julgamentos, sentenças).</p>
+<p><strong>Localização.</strong> Irrestrita</p>
 <p><strong>Escopo</strong></p>
 <ul>
-<li><strong>Inclusões (não exaustivo)</strong>: autores (p.ex., Jeffrey Dahmer, Ted Bundy, John Wayne Gacy, Dennis Rader, Harold Shipman, Andrei Chikatilo, Aileen Wuornos, <strong>Francisco de Assis Pereira</strong>), casos históricos de autoria desconhecida (p.ex., <em>Jack the Ripper</em>), <strong>investigadores</strong> (p.ex., Frederick Abberline), promotores, juízes e <strong>peritos</strong> associados.</li>
-<li><strong>Exclusões</strong>: especulações sobre autoria/culpa; detalhes gráficos; informações de vítimas menores; casos <strong>em andamento</strong>.</li>
-<li><strong>Referências (exemplos)</strong>: Wikipedia (EN): <em>Jack the Ripper</em>, <em>Jeffrey Dahmer</em>, <em>Ted Bundy</em>, <em>John Wayne Gacy</em>; Wikipedia (PT): <em>Maníaco do Parque</em>; acórdãos/sentenças criminais; relatórios de procuradorias/forças policiais.</li>
-</ul>
-<p><strong>Matriz de variação (eixos)</strong>: pessoa→papel (autor/vítima/investigador) | caso→época/lugar | decisão→pena | status→resolvido/identidade desconhecida.</p>
-<p><strong>Checklist</strong>: fatos estáveis; fonte verificável; nada de especulação; linguagem neutra; <strong>no máximo 5 perguntas por indivíduo/caso</strong>.</p>
-<hr>
-</section>
-<section id="b-facções-criminosas-brasileiras-faccoes_criminosas_brasileiras" class="level3">
-<h3 class="anchored" data-anchor-id="b-facções-criminosas-brasileiras-faccoes_criminosas_brasileiras">B) Facções Criminosas Brasileiras — <code>faccoes_criminosas_brasileiras</code></h3>
-<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Pessoas e organizações criminosas brasileiras, com foco em <strong>lideranças/fundadores</strong>, decisões judiciais e <strong>marcos institucionais documentados</strong> (formação, presídios, eventos históricos).</p>
-<p><strong>Escopo</strong></p>
+<li><p><strong>Inclusões (não exaustivo)</strong>: autores (p.ex., Jeffrey Dahmer, Ted Bundy, John Wayne Gacy, Dennis Rader, Harold Shipman, Andrei Chikatilo, Aileen Wuornos, <strong>Francisco de Assis Pereira</strong>), casos históricos de autoria desconhecida (p.ex., <em>Jack the Ripper</em>), <strong>investigadores</strong> (p.ex., Frederick Abberline), promotores, juízes e <strong>peritos</strong> associados a casos de assassinatos seriais.</p></li>
+<li><p><strong>Exclusões</strong>: especulações sobre autoria/culpa; detalhes gráficos ou sensacionalistas; informações de vítimas menores; casos <strong>em andamento</strong> sem desfecho claro; trabalhos de ficção inspirados em casos reais.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
 <ul>
-<li><strong>Inclusões (não exaustivo)</strong>: organizações (PCC, Comando Vermelho, Terceiro Comando Puro, Amigos dos Amigos, Família do Norte, Guardiões do Estado, Bonde dos 40, Primeiro Grupo Catarinense, Os Manos), lideranças/alcunhas (Marcola, Fernandinho Beira-Mar, Marcinho VP, Elias Maluco, Nem da Rocinha, Rogério 157, William da Silva Lima, Rogério Lemgruber, Fuminho, André do Rap, Gegê do Mangue), <strong>instituições/eventos documentados</strong> (p.ex., <strong>Massacre do Carandiru (1992)</strong>; sistemas prisionais estaduais).</li>
-<li><strong>Exclusões</strong>: endereços/contatos; táticas operacionais; especulação sobre cadeias de comando; casos <strong>em andamento</strong>.</li>
-<li><strong>Referências (exemplos)</strong>: Wikipedia (EN/PT): <em>Primeiro Comando da Capital</em>, <em>Comando Vermelho</em>; páginas de líderes notórios; relatórios do MJSP; decisões de tribunais; relatórios de Defensorias/MP; CPIs relevantes.</li>
+<li>Wikipedia (EN): <em>Jack the Ripper</em>, <em>Jeffrey Dahmer</em>, <em>Ted Bundy</em>, <em>John Wayne Gacy</em>, <em>Harold Shipman</em>, <em>Andrei Chikatilo</em>, <em>Aileen Wuornos</em></li>
+<li>Wikipedia (PT): <em>Maníaco do Parque</em></li>
+<li>Sentenças/acórdãos criminais; relatórios de procuradorias; dossiês de forças policiais.</li>
+</ul></li>
 </ul>
-<p><strong>Matriz de variação (eixos)</strong>: pessoa→organização | organização→origem/ano | decisão→efeito | região→facção | instituição/evento→impacto/documentação.</p>
-<p><strong>Checklist</strong>: fatos estáveis, documentos citáveis, redação neutra, <strong>no máximo 5 perguntas por indivíduo/facção</strong>.</p>
-<hr>
-</section>
-<section id="c-futebol-brasileiro-futebol_brasileiro" class="level3">
-<h3 class="anchored" data-anchor-id="c-futebol-brasileiro-futebol_brasileiro">C) Futebol Brasileiro — <code>futebol_brasileiro</code></h3>
-<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Clubes, competições, estádios, regulamentos e marcos históricos do futebol no Brasil.</p>
-<p><strong>Escopo</strong></p>
+<p><strong>Matriz de variação (eixos)</strong></p>
 <ul>
-<li><strong>Inclusões (não exaustivo)</strong>: Campeonatos (Brasileirão, Copa do Brasil), federações (CBF), estádios (Maracanã, Mineirão), clubes históricos, artilharias <strong>históricas</strong> (análogos estáveis), <strong>jogadores, treinadores, narradores e árbitros</strong> (pessoas relevantes ao futebol brasileiro), dirigentes com passagens marcantes, regras <strong>estáveis</strong> do jogo.</li>
-<li><strong>Exclusões</strong>: tabelas <strong>de temporada</strong>; transferências recentes; notícias efêmeras; estatísticas “do ano”.</li>
-<li><strong>Referências (exemplos)</strong>: Wikipedia (EN): <em>Campeonato Brasileiro Série A</em>, <em>Copa do Brasil</em>; Wikipedia de clubes; site oficial <strong>CBF</strong>; regulamentos permanentes.</li>
+<li><strong>Pessoa → Papel</strong>: autor / vítima / investigador / promotor / juiz / perito.</li>
+<li><strong>Caso → Época/Lugar</strong>: século XIX, XX, XXI; Europa, Américas, Ásia, etc.</li>
+<li><strong>Decisão → Pena</strong>: tipos de condenação (prisão perpétua, pena de morte, número de sentenças).</li>
+<li><strong>Status do caso</strong>: resolvido (autor identificado e condenado) / parcialmente esclarecido / identidade oficialmente desconhecida.</li>
 </ul>
-<p><strong>Matriz de variação (eixos)</strong>: competição→era | clube→título/estádio | regra→aplicação | técnico→campanha histórica.</p>
-<p><strong>Checklist</strong>: foco em marcos clássicos; evitar atualidades; 2+ referências quando possível.</p>
-<hr>
-</section>
-<section id="d-dragon-ball-dragon_ball" class="level3">
-<h3 class="anchored" data-anchor-id="d-dragon-ball-dragon_ball">D) Dragon Ball — <code>dragon_ball</code></h3>
-<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Obra, personagens, transformações, arcos narrativos e publicações da franquia <em>Dragon Ball</em>.</p>
-<p><strong>Escopo</strong></p>
+<p><strong>Exemplos de enunciados</strong></p>
 <ul>
-<li><strong>Inclusões (não exaustivo)</strong>: autor (Akira Toriyama), linhas de publicação (mangá/anime), sagas, personagens principais/antagonistas, obras derivadas <strong>canônicas</strong>.</li>
-<li><strong>Exclusões</strong>: rumores; materiais <strong>não canônicos</strong> sem respaldo editorial; cronologias fanmade.</li>
-<li><strong>Referências (exemplos)</strong>: Wikipedia (EN): <em>Dragon Ball</em>, <em>Akira Toriyama</em>, <em>List of Dragon Ball characters</em>; sites oficiais da Shueisha/Toei para canonicidade.</li>
-</ul>
-<p><strong>Matriz de variação (eixos)</strong>: saga→evento | personagem→arco | publicação→data/formato.</p>
-<p><strong>Checklist</strong>: checar canonicidade; evitar boatos; priorizar publicações oficiais.</p>
-<hr>
-</section>
-<section id="e-roma-republicana-roma_republicana" class="level3">
-<h3 class="anchored" data-anchor-id="e-roma-republicana-roma_republicana">E) Roma Republicana — <code>roma_republicana</code></h3>
-<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Instituições, conflitos, personalidades e reformas da <strong>República Romana</strong> (c.&nbsp;509–27 a.C.).</p>
-<p><strong>Escopo</strong></p>
+<li><p><strong>Aberta</strong></p>
 <ul>
-<li><strong>Inclusões (não exaustivo)</strong>: guerras púnicas, magistraturas (cônsules, tribunos), reformas (Gracos, Mário, Sula), figuras (Cícero, Júlio César), direito e cidadania.</li>
-<li><strong>Exclusões</strong>: Império Romano <strong>posterior</strong> (salvo transição), mitologia <strong>não histórica</strong>.</li>
-<li><strong>Referências (exemplos)</strong>: Wikipedia (EN): <em>Roman Republic</em>, <em>Punic Wars</em>, <em>Gaius Marius</em>, <em>Lucius Cornelius Sulla</em>; <em>Julius Caesar</em>; corpora epigráficos e textos clássicos com edição crítica.</li>
-</ul>
-<p><strong>Matriz de variação (eixos)</strong>: instituição→função | guerra→frente | personagem→reforma.</p>
-<p><strong>Checklist</strong>: distinguir República vs.&nbsp;Império; citar datas aproximadas aceitas.</p>
-<hr>
-</section>
-<section id="f-terópodes-dinossauros-teropodes" class="level3">
-<h3 class="anchored" data-anchor-id="f-terópodes-dinossauros-teropodes">F) Terópodes (Dinossauros) — <code>teropodes</code></h3>
-<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Clado Theropoda: anatomia, filogenia, paleoecologia e registros fósseis clássicos.</p>
-<p><strong>Escopo</strong></p>
+<li>Em que cidade ocorreu a maior parte dos crimes atribuídos a Jack the Ripper?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
 <ul>
-<li><strong>Inclusões (não exaustivo)</strong>: táxons (Tyrannosaurus, Velociraptor, Allosaurus), evidências (pegadas, ovos, penas), depósitos fossilíferos notáveis.</li>
-<li><strong>Exclusões</strong>: pterossauros e plesiossauros (não são dinossauros); especulações sem respaldo.</li>
-<li><strong>Referências (exemplos)</strong>: Wikipedia (EN): <em>Theropoda</em>, <em>Tyrannosaurus</em>, <em>Velociraptor</em>; <em>Paleobiology Database</em>; museus/coleções com catálogos públicos.</li>
-</ul>
-<p><strong>Matriz de variação (eixos)</strong>: período geológico | táxon→características | sítio→formação.</p>
-<p><strong>Checklist</strong>: usar diagnósticos aceitos; evitar hipóteses marginais.</p>
-<hr>
-</section>
-<section id="g-capitais-em-rios-capitais_em_rios" class="level3">
-<h3 class="anchored" data-anchor-id="g-capitais-em-rios-capitais_em_rios">G) Capitais em Rios — <code>capitais_em_rios</code></h3>
-<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Capitais nacionais/localizadas <strong>à beira de rios</strong> ou cortadas por cursos fluviais significativos.</p>
-<p><strong>Escopo</strong></p>
+<li>Qual destes serial killers atuou principalmente em Milwaukee, nos Estados Unidos?
+<ol type="a">
+<li>Ted Bundy (b) Jeffrey Dahmer (c) Andrei Chikatilo (d) Harold Shipman</li>
+</ol></li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
 <ul>
-<li><strong>Inclusões (não exaustivo)</strong>: capitais e seus rios (p.ex., Cairo–Nilo; Londres–Tâmisa; Budapeste–Danúbio; Brasília–Paranoá <strong>não elegível</strong> por ser lago artificial).</li>
-<li><strong>Exclusões</strong>: capitais apenas litorâneas sem rio expressivo; corpos <strong>artificiais</strong> (canais/represas) quando descaracterizam o critério.</li>
-<li><strong>Referências (exemplos)</strong>: Wikipedia (EN): <em>List of national capitals</em>, páginas de cada capital, páginas dos rios correspondentes; anuários geográficos oficiais.</li>
-</ul>
-<p><strong>Matriz de variação (eixos)</strong>: continente | bacia hidrográfica | papel do rio (transporte, história, fronteira).</p>
-<p><strong>Checklist</strong>: validar se o curso é natural e relevante.</p>
-<hr>
-</section>
-<section id="h-países-sem-litoral-paises_sem_litoral" class="level3">
-<h3 class="anchored" data-anchor-id="h-países-sem-litoral-paises_sem_litoral">H) Países sem Litoral — <code>paises_sem_litoral</code></h3>
-<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Estados soberanos <strong>sem acesso direto ao mar</strong> (landlocked) e suas características geopolíticas/geográficas.</p>
-<p><strong>Escopo</strong></p>
+<li>Harold Shipman foi um médico britânico condenado por assassinar pacientes sob seus cuidados.</li>
+</ul></li>
+<li><p><strong>Ordenação</strong></p>
 <ul>
-<li><strong>Inclusões (não exaustivo)</strong>: lista de países landlocked (p.ex., Bolívia*, Paraguai, Níger, Laos, Suíça), enclaves/dobramente landlocked, acordos de livre trânsito.</li>
-<li><strong>Exclusões</strong>: territórios dependentes; dúvidas de reconhecimento <strong>não pacificadas</strong>.</li>
-<li><strong>Referências (exemplos)</strong>: Wikipedia (EN): <em>Landlocked country</em> e páginas dos países; ONU (estatísticas geográficas); bancos de dados regionais.</li>
+<li>Ordene cronologicamente, do mais antigo para o mais recente, os seguintes casos seriais: Jack the Ripper, Andrei Chikatilo, Jeffrey Dahmer.</li>
+</ul></li>
+<li><p><strong>Associação</strong></p>
+<ul>
+<li>Associe o serial killer ao país em que atuou:
+<ol type="1">
+<li>Andrei Chikatilo – ( ) Estados Unidos ( ) Reino Unido ( ) Rússia</li>
+</ol></li>
+</ul></li>
 </ul>
-<p><strong>Matriz de variação (eixos)</strong>: continente | regime de trânsito | vizinhança marítima mais próxima.</p>
-<p><strong>Checklist</strong>: checar status estatal e fronteiras reconhecidas.</p>
-<hr>
-</section>
-</section>
-<section id="checklist-geral-antes-de-gerar-perguntas" class="level2">
-<h2 class="anchored" data-anchor-id="checklist-geral-antes-de-gerar-perguntas">6) Checklist geral (antes de gerar perguntas)</h2>
-<ul class="task-list">
-<li><label><input type="checkbox">O recorte permite ≥ 80 perguntas estáveis e variadas.</label></li>
-<li><label><input type="checkbox"><strong>Escopo com Inclusões/Exclusões explícitas</strong> e nota de <strong>não exaustividade</strong>.</label></li>
-<li><label><input type="checkbox"><strong>Referências (exemplos)</strong> listadas (Wikipedia-EN preferencial, + documentos oficiais quando cabível).</label></li>
-<li><label><input type="checkbox"><strong>Matriz de variação</strong> define eixos claros para diversidade.</label></li>
-<li><label><input type="checkbox">Sem sobreposição indevida com outros microsubtemas (ou com exclusões bem definidas).</label></li>
-<li><label><input type="checkbox">Evita atualidades efêmeras e dados sazonais.</label></li>
-<li><label><input type="checkbox">Para temas sensíveis (True Crime/Segurança), aplica o <strong>Padrão metodológico</strong>.</label></li>
+<p><strong>Checklist</strong></p>
+<ul>
+<li>Fatos apoiados em <strong>fontes verificáveis</strong> (Wikipedia, documentos oficiais, literatura consolidada).</li>
+<li>Evitar detalhes gráficos, linguagem sensacionalista ou julgamentos morais; manter tom informativo.</li>
+<li>Não utilizar casos em andamento ou sem desfecho minimamente consolidado.</li>
+<li>Garantir diversidade de <strong>épocas, países</strong> e <strong>papéis</strong> (não só autores, mas também investigadores, promotores etc.).</li>
+<li><strong>No máximo 5 perguntas por indivíduo/caso específico</strong>, para evitar saturar o banco com um único nome.</li>
 </ul>
-<blockquote class="blockquote">
-<p><strong>Lembrete final</strong>: As listas em <strong>Escopo</strong> são <strong>não exaustivas</strong>. Você <strong>pode usar</strong> outras pessoas, obras, lugares e fatos <strong>não listados</strong>, desde que <strong>coerentes</strong> com o recorte e <strong>bem referenciados</strong>.</p>
-</blockquote>
 
 
+</section>
 </section>
 </section>
 
