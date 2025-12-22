@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "ent_anime_e_manga_pfi_0001",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "verdadeiro_falso",
+    "pergunta": "Light Yagami é um personagem de Death Note.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Death_Note",
+      "https://anilist.co/character/80/Light-Yagami"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0002",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "verdadeiro_falso",
+    "pergunta": "Usagi Tsukino é a protagonista de Sailor Moon.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sailor_Moon",
+      "https://anilist.co/character/2030/Usagi-Tsukino"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0003",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "verdadeiro_falso",
+    "pergunta": "Spike Spiegel é um personagem de Cowboy Bebop.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cowboy_Bebop",
+      "https://anilist.co/character/1/Spike-Spiegel"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0004",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "verdadeiro_falso",
+    "pergunta": "Mikasa Ackerman é uma personagem de Fullmetal Alchemist.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Attack_on_Titan",
+      "https://anilist.co/character/99/Mikasa-Ackerman"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0005",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "verdadeiro_falso",
+    "pergunta": "Griffith é um personagem de One-Punch Man.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Berserk",
+      "https://anilist.co/character/424/Griffith-"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0006",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "verdadeiro_falso",
+    "pergunta": "Senkuu Ishigami é um personagem de Dragon Ball.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dr._Stone",
+      "https://anilist.co/character/124142/Senkuu-Ishigami"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0007",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Gokuu Son pertence a qual franquia?",
+    "resposta": "Dragon Ball",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dragon_Ball",
+      "https://anilist.co/character/246/Gokuu-Son"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0008",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Naruto Uzumaki pertence a qual franquia?",
+    "resposta": "Naruto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Naruto",
+      "https://anilist.co/character/17/Naruto-Uzumaki"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0009",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Monkey D. Luffy pertence a qual franquia?",
+    "resposta": "One Piece",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/One_Piece",
+      "https://anilist.co/character/40/Monkey-D-Luffy"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0010",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Eren Yeager pertence a qual franquia?",
+    "resposta": "Attack on Titan",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Attack_on_Titan",
+      "https://anilist.co/character/46402/Eren-Yeager"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0011",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Saitama pertence a qual franquia?",
+    "resposta": "One-Punch Man",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/One-Punch_Man",
+      "https://anilist.co/character/73935/Saitama"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0012",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Shinji Ikari pertence a qual franquia?",
+    "resposta": "Neon Genesis Evangelion",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion",
+      "https://anilist.co/character/55/Shinji-Ikari"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0013",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "A personagem Rei Ayanami pertence a qual franquia?",
+    "resposta": "Neon Genesis Evangelion",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion",
+      "https://anilist.co/character/56/Rei-Ayanami"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0014",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Joutarou Kujou pertence a qual franquia?",
+    "resposta": "JoJo's Bizarre Adventure",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure",
+      "https://anilist.co/character/401/Joutarou-Kujou"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0015",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Dio Brando pertence a qual franquia?",
+    "resposta": "JoJo's Bizarre Adventure",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure",
+      "https://anilist.co/character/400/Dio-Brando"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0016",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Tanjirou Kamado pertence a qual franquia?",
+    "resposta": "Demon Slayer: Kimetsu no Yaiba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba",
+      "https://anilist.co/character/87855/Tanjirou-Kamado"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0017",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "A personagem Nezuko Kamado pertence a qual franquia?",
+    "resposta": "Demon Slayer: Kimetsu no Yaiba",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Demon_Slayer:_Kimetsu_no_Yaiba",
+      "https://anilist.co/character/87856/Nezuko-Kamado"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0018",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Yuuji Itadori pertence a qual franquia?",
+    "resposta": "Jujutsu Kaisen",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jujutsu_Kaisen",
+      "https://anilist.co/character/130050/Yuuji-Itadori"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0019",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Satoru Gojou pertence a qual franquia?",
+    "resposta": "Jujutsu Kaisen",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jujutsu_Kaisen",
+      "https://anilist.co/character/130109/Satoru-Gojou"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0020",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Izuku Midoriya pertence a qual franquia?",
+    "resposta": "My Hero Academia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/My_Hero_Academia",
+      "https://anilist.co/character/117909/Izuku-Midoriya"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0021",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Katsuki Bakugou pertence a qual franquia?",
+    "resposta": "My Hero Academia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/My_Hero_Academia",
+      "https://anilist.co/character/117901/Katsuki-Bakugou"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0022",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Gintoki Sakata pertence a qual franquia?",
+    "resposta": "Gintama",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gintama",
+      "https://anilist.co/character/672/Gintoki-Sakata"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0023",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "A personagem Lain Iwakura pertence a qual franquia?",
+    "resposta": "Serial Experiments Lain",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Serial_Experiments_Lain",
+      "https://anilist.co/character/1250/Lain-Iwakura"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0024",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Alucard, o vampiro, pertence a qual franquia?",
+    "resposta": "Hellsing",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hellsing",
+      "https://anilist.co/character/147/Alucard"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0025",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "A personagem Revy pertence a qual franquia?",
+    "resposta": "Black Lagoon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_Lagoon",
+      "https://anilist.co/character/458/Revy-"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0026",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Inuyasha pertence a qual franquia?",
+    "resposta": "Inuyasha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Inuyasha",
+      "https://anilist.co/character/1353/Inuyasha-"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0027",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Ranma Saotome pertence a qual franquia?",
+    "resposta": "Ranma ½",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ranma_%C2%BD",
+      "https://anilist.co/character/668/Ranma-Saotome"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0028",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "O personagem Seiya, o Cavaleiro de Pégaso, pertence a qual franquia?",
+    "resposta": "Saint Seiya",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saint_Seiya",
+      "https://anilist.co/character/2285/Seiya"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0029",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "A personagem Motoko Kusanagi pertence a qual franquia?",
+    "resposta": "Ghost in the Shell",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ghost_in_the_Shell",
+      "https://anilist.co/character/1795/Motoko-Kusanagi"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0030",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "A personagem Chihiro Ogino pertence a qual franquia?",
+    "resposta": "Spirited Away",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spirited_Away",
+      "https://anilist.co/character/384/Chihiro-Ogino"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0031",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "aberta",
+    "pergunta": "A personagem San, a jovem criada por lobos, pertence a qual franquia?",
+    "resposta": "Princess Mononoke",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Princess_Mononoke",
+      "https://anilist.co/character/2727/San-"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0032",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "O personagem Lelouch Lamperouge foi introduzido em qual obra/franquia?\nA) Code Geass\nB) Code Geass: Lelouch of the Rebellion R2\nC) Death Note\nD) Mobile Suit Gundam",
+    "resposta": "Code Geass",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Code_Geass",
+      "https://anilist.co/character/417/Lelouch-Lamperouge"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0033",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "No mangá, o personagem Edward Elric foi introduzido em qual franquia?\nA) Fullmetal Alchemist\nB) Fullmetal Alchemist: Brotherhood\nC) Bleach\nD) Hunter x Hunter",
+    "resposta": "Fullmetal Alchemist",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fullmetal_Alchemist",
+      "https://anilist.co/character/11/Edward-Elric"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0034",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "O personagem Denji foi introduzido em qual obra/franquia?\nA) Chainsaw Man\nB) Chainsaw Man: Buddy Stories\nC) Jujutsu Kaisen\nD) Tokyo Ghoul",
+    "resposta": "Chainsaw Man",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chainsaw_Man",
+      "https://anilist.co/character/130102/Denji"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0035",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "A personagem Anya Forger foi introduzida em qual obra/franquia?\nA) Spy × Family\nB) SPY x FAMILY Code: White\nC) Kaguya-sama: Love Is War\nD) Nichijou",
+    "resposta": "Spy × Family",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spy_%C3%97_Family",
+      "https://anilist.co/character/138100/Anya-Forger"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0036",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "O personagem Koro-sensei foi introduzido em qual obra/franquia?\nA) Assassination Classroom\nB) Koro-sensei Q!\nC) Great Teacher Onizuka\nD) Mob Psycho 100",
+    "resposta": "Assassination Classroom",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Assassination_Classroom",
+      "https://anilist.co/character/65643/Korosensei"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0037",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "A personagem Haruhi Fujioka foi introduzida em qual obra/franquia?\nA) Ouran High School Host Club\nB) Ouran High School Host Club (live-action)\nC) Fruits Basket\nD) Kimi ni Todoke",
+    "resposta": "Ouran High School Host Club",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ouran_High_School_Host_Club",
+      "https://anilist.co/character/18/Haruhi-Fujioka"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0038",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "A personagem Madoka Kaname foi introduzida em qual obra/franquia?\nA) Puella Magi Madoka Magica\nB) Puella Magi Madoka Magica: Rebellion\nC) Sailor Moon\nD) Cardcaptor Sakura",
+    "resposta": "Puella Magi Madoka Magica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica",
+      "https://anilist.co/character/37832/Madoka-Kaname"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0039",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "A personagem Homura Akemi foi introduzida em qual obra/franquia?\nA) Puella Magi Madoka Magica\nB) Puella Magi Madoka Magica: Rebellion\nC) Revolutionary Girl Utena\nD) Magical Girl Lyrical Nanoha",
+    "resposta": "Puella Magi Madoka Magica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Puella_Magi_Madoka_Magica",
+      "https://anilist.co/character/38005/Homura-Akemi"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0040",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "A personagem Sakura Kinomoto foi introduzida em qual obra/franquia?\nA) Cardcaptor Sakura\nB) Cardcaptor Sakura: Clear Card\nC) Sailor Moon\nD) Tokyo Mew Mew",
+    "resposta": "Cardcaptor Sakura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cardcaptor_Sakura",
+      "https://anilist.co/character/2671/Sakura-Kinomoto"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0041",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "A personagem Tooru Honda foi introduzida em qual obra/franquia?\nA) Fruits Basket\nB) Fruits Basket (2019)\nC) Ouran High School Host Club\nD) Nana",
+    "resposta": "Fruits Basket",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fruits_Basket",
+      "https://anilist.co/character/207/Tooru-Honda"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0042",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "No filme de 1984 dirigido por Hayao Miyazaki, qual franquia apresenta a personagem Nausicaä?\nA) Nausicaä of the Valley of the Wind\nB) Nausicaä of the Valley of the Wind (mangá)\nC) Castle in the Sky\nD) Spirited Away",
+    "resposta": "Nausicaä of the Valley of the Wind",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind",
+      "https://anilist.co/character/539/Nausicaa"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0043",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "No mangá de Katsuhiro Otomo, o personagem Shoutarou Kaneda pertence a qual franquia?\nA) Akira\nB) Akira (filme)\nC) Ghost in the Shell\nD) BLAME!",
+    "resposta": "Akira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Akira_(manga)",
+      "https://anilist.co/character/2588/Shoutarou-Kaneda"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0044",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "No mangá de Katsuhiro Otomo, o personagem Tetsuo Shima pertence a qual franquia?\nA) Akira\nB) Akira (filme)\nC) Parasyte\nD) Tokyo Ghoul",
+    "resposta": "Akira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Akira_(manga)",
+      "https://anilist.co/character/2589/Tetsuo-Shima"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0045",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "O personagem Johan Liebert foi introduzido em qual obra/franquia?\nA) Monster\nB) Monster (anime)\nC) 20th Century Boys\nD) Death Note",
+    "resposta": "Monster",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monster_(manga)",
+      "https://anilist.co/character/719/Johan-Liebert"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0046",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "A personagem Frieren foi introduzida em qual obra/franquia?\nA) Frieren: Beyond Journey's End\nB) Frieren: Beyond Journey's End 2nd Season\nC) Spice and Wolf\nD) The Ancient Magus' Bride",
+    "resposta": "Frieren: Beyond Journey's End",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Frieren:_Beyond_Journey%27s_End",
+      "https://anilist.co/character/176754/Frieren"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0047",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "A personagem Violet Evergarden foi introduzida em qual obra/franquia?\nA) Violet Evergarden\nB) Violet Evergarden: Eternity and the Auto Memory Doll\nC) A Silent Voice\nD) Your Name",
+    "resposta": "Violet Evergarden",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Violet_Evergarden",
+      "https://anilist.co/character/90169/Violet-Evergarden"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0048",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "O personagem Thorfinn Karlsefni foi introduzido em qual obra/franquia?\nA) Vinland Saga\nB) Vinland Saga Season 2\nC) Kingdom\nD) Golden Kamuy",
+    "resposta": "Vinland Saga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vinland_Saga_(manga)",
+      "https://anilist.co/character/10138/Thorfinn-Karlsefni"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0049",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "O personagem Vash the Stampede foi introduzido em qual obra/franquia?\nA) Trigun\nB) TRIGUN STAMPEDE\nC) Cowboy Bebop\nD) Hellsing",
+    "resposta": "Trigun",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trigun",
+      "https://anilist.co/character/162/Vash-the-Stampede-"
+    ]
+  },
+  {
+    "id": "ent_anime_e_manga_pfi_0050",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "multipla_escolha",
+    "pergunta": "O personagem Kenshin Himura foi introduzido em qual obra/franquia?\nA) Rurouni Kenshin\nB) Rurouni Kenshin: Hokkaido Arc\nC) Samurai Champloo\nD) Dororo",
+    "resposta": "Rurouni Kenshin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rurouni_Kenshin",
+      "https://anilist.co/character/147/Kenshin-Himura"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_001",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Ichigo Kurosaki pertence a qual franquia?",
+    "resposta": "Bleach",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bleach_(manga)",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Ichigo%20Kurosaki"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_002",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Rukia Kuchiki pertence a qual franquia?",
+    "resposta": "Bleach",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bleach_(manga)",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Rukia%20Kuchiki"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_003",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Gon Freecss pertence a qual franquia?",
+    "resposta": "Hunter × Hunter",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hunter_%C3%97_Hunter",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Gon%20Freecss"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_004",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Killua Zoldyck pertence a qual franquia?",
+    "resposta": "Hunter × Hunter",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hunter_%C3%97_Hunter",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Killua%20Zoldyck"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_005",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Yuusuke Urameshi pertence a qual franquia?",
+    "resposta": "Yu Yu Hakusho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/YuYu_Hakusho",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Yuusuke%20Urameshi"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_006",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Hiei, conhecido pelo Jagan Eye, pertence a qual franquia?",
+    "resposta": "Yu Yu Hakusho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/YuYu_Hakusho",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Hiei"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_007",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Kenshiro pertence a qual franquia?",
+    "resposta": "Fist of the North Star",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fist_of_the_North_Star",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Kenshiro"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_008",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Lum pertence a qual franquia?",
+    "resposta": "Urusei Yatsura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Urusei_Yatsura",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Lum"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_009",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Ataru Moroboshi pertence a qual franquia?",
+    "resposta": "Urusei Yatsura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Urusei_Yatsura",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Ataru%20Moroboshi"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_010",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Oscar François de Jarjayes pertence a qual franquia?",
+    "resposta": "The Rose of Versailles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Rose_of_Versailles",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Oscar%20Fran%C3%A7ois%20de%20Jarjayes"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_011",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Lina Inverse pertence a qual franquia?",
+    "resposta": "Slayers",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Slayers",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Lina%20Inverse"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_012",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Holo pertence a qual franquia?",
+    "resposta": "Spice and Wolf",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spice_and_Wolf",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Holo"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_013",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Kraft Lawrence pertence a qual franquia?",
+    "resposta": "Spice and Wolf",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spice_and_Wolf",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Kraft%20Lawrence"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_014",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Rintarou Okabe pertence a qual franquia?",
+    "resposta": "Steins;Gate",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steins;Gate",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Rintarou%20Okabe"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_015",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Kurisu Makise pertence a qual franquia?",
+    "resposta": "Steins;Gate",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steins;Gate",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Kurisu%20Makise"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_016",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Ken Kaneki pertence a qual franquia?",
+    "resposta": "Tokyo Ghoul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tokyo_Ghoul",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Ken%20Kaneki"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_017",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Touka Kirishima pertence a qual franquia?",
+    "resposta": "Tokyo Ghoul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tokyo_Ghoul",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Touka%20Kirishima"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_018",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Asta pertence a qual franquia?",
+    "resposta": "Black Clover",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_Clover",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Asta"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_019",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Lucy Heartfilia pertence a qual franquia?",
+    "resposta": "Fairy Tail",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fairy_Tail",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Lucy%20Heartfilia"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_020",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Natsu Dragneel pertence a qual franquia?",
+    "resposta": "Fairy Tail",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fairy_Tail",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Natsu%20Dragneel"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_021",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Yoh Asakura pertence a qual franquia?",
+    "resposta": "Shaman King",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shaman_King",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Yoh%20Asakura"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_022",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Sakura Haruno pertence a qual franquia?",
+    "resposta": "Naruto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Naruto",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Sakura%20Haruno"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_023",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Riza Hawkeye pertence a qual franquia?",
+    "resposta": "Fullmetal Alchemist",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fullmetal_Alchemist",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Riza%20Hawkeye"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_024",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Shouyou Hinata pertence a qual franquia?",
+    "resposta": "Haikyu!!",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haikyu!!",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Shouyou%20Hinata"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_025",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Aberta",
+    "pergunta": "O personagem Kensuke Aida pertence a qual franquia?",
+    "resposta": "Neon Genesis Evangelion",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Kensuke%20Aida"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_026",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Vegeta pertence a qual obra/franquia?\nA) Dragon Ball Z\nB) Dragon Ball\nC) One Piece\nD) Naruto",
+    "resposta": "Dragon Ball",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dragon_Ball",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Vegeta"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_027",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Ami Mizuno pertence a qual obra/franquia?\nA) Sailor Moon Crystal\nB) Cardcaptor Sakura\nC) Sailor Moon\nD) Puella Magi Madoka Magica",
+    "resposta": "Sailor Moon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sailor_Moon",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Ami%20Mizuno"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_028",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Rei Hino pertence a qual obra/franquia?\nA) Sailor Moon\nB) Sailor Moon Crystal\nC) Revolutionary Girl Utena\nD) Fruits Basket",
+    "resposta": "Sailor Moon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sailor_Moon",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Rei%20Hino"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_029",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Sakura Matou pertence a qual obra/franquia?\nA) Fate/stay night\nB) Fate/Zero\nC) Bleach\nD) Jujutsu Kaisen",
+    "resposta": "Fate/stay night",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fate/stay_night",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Sakura%20Matou"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_030",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Rin Tohsaka pertence a qual obra/franquia?\nA) Fate/Apocrypha\nB) Fate/stay night\nC) Fate/Zero\nD) Violet Evergarden",
+    "resposta": "Fate/stay night",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fate/stay_night",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Rin%20Tohsaka"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_031",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Artoria Pendragon pertence a qual obra/franquia?\nA) Fate/stay night\nB) Fate/Grand Order\nC) Fullmetal Alchemist\nD) Black Clover",
+    "resposta": "Fate/stay night",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fate/stay_night",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Artoria%20Pendragon"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_032",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Faye Valentine pertence a qual obra/franquia?\nA) Cowboy Bebop: The Movie\nB) Trigun\nC) Cowboy Bebop\nD) Samurai Champloo",
+    "resposta": "Cowboy Bebop",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cowboy_Bebop",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Faye%20Valentine"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_033",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Edward Wong Hau Pepelu Tivrusky IV pertence a qual obra/franquia?\nA) Cowboy Bebop\nB) Cowboy Bebop: The Movie\nC) Serial Experiments Lain\nD) Ghost in the Shell",
+    "resposta": "Cowboy Bebop",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cowboy_Bebop",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Edward%20Wong%20Hau%20Pepelu%20Tivrusky%20IV"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_034",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Yugi Muto pertence a qual obra/franquia?\nA) Yu-Gi-Oh! GX\nB) Pokémon\nC) Yu-Gi-Oh!\nD) Digimon Adventure",
+    "resposta": "Yu-Gi-Oh!",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yu-Gi-Oh!",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Yugi%20Muto"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_035",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Seto Kaiba pertence a qual obra/franquia?\nA) Yu-Gi-Oh! Duel Monsters\nB) Yu-Gi-Oh!\nC) Death Note\nD) One-Punch Man",
+    "resposta": "Yu-Gi-Oh!",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yu-Gi-Oh!",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Seto%20Kaiba"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_036",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Roronoa Zoro pertence a qual obra/franquia?\nA) One Piece\nB) One Piece Film: Z\nC) Bleach\nD) Fairy Tail",
+    "resposta": "One Piece",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/One_Piece",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Roronoa%20Zoro"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_037",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Sanji pertence a qual obra/franquia?\nA) Naruto\nB) One Piece Film: Gold\nC) One Piece\nD) Attack on Titan",
+    "resposta": "One Piece",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/One_Piece",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Sanji"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_038",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Kagome Higurashi pertence a qual obra/franquia?\nA) Inuyasha: The Final Act\nB) Inuyasha\nC) Ranma ½\nD) Demon Slayer: Kimetsu no Yaiba",
+    "resposta": "Inuyasha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Inuyasha",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Kagome%20Higurashi"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_039",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Sesshoumaru pertence a qual obra/franquia?\nA) Yashahime: Princess Half-Demon\nB) Inuyasha\nC) Bleach\nD) Hellsing",
+    "resposta": "Inuyasha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Inuyasha",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Sesshoumaru"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_040",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Simon pertence a qual obra/franquia?\nA) Gurren Lagann\nB) Gurren Lagann the Movie: Childhood's End\nC) Neon Genesis Evangelion\nD) Mobile Suit Gundam",
+    "resposta": "Gurren Lagann",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gurren_Lagann",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Simon%20Gurren%20Lagann"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_041",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Kamina pertence a qual obra/franquia?\nA) One Piece\nB) Gurren Lagann the Movie: The Lights in the Sky Are Stars\nC) Gurren Lagann\nD) Dragon Ball",
+    "resposta": "Gurren Lagann",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gurren_Lagann",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Kamina%20Gurren%20Lagann"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_042",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Haruhi Suzumiya pertence a qual obra/franquia?\nA) The Disappearance of Haruhi Suzumiya\nB) K-On!\nC) The Melancholy of Haruhi Suzumiya\nD) Nichijou",
+    "resposta": "The Melancholy of Haruhi Suzumiya",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Haruhi_Suzumiya",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Haruhi%20Suzumiya%20character"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_043",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Shiro pertence a qual obra/franquia?\nA) No Game No Life: Zero\nB) No Game No Life\nC) Sword Art Online\nD) Log Horizon",
+    "resposta": "No Game No Life",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/No_Game_No_Life",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Shiro%20No%20Game%20No%20Life"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_044",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Múltipla escolha",
+    "pergunta": "O personagem Kazuto Kirigaya pertence a qual obra/franquia?\nA) Sword Art Online\nB) Sword Art Online: Alicization\nC) Accel World\nD) Re:Zero − Starting Life in Another World",
+    "resposta": "Sword Art Online",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sword_Art_Online",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Kazuto%20Kirigaya"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_045",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Verdadeiro-falso",
+    "pergunta": "Akira Fudou é um personagem de Devilman.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Devilman",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Akira%20Fudo"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_046",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Verdadeiro-falso",
+    "pergunta": "Mugen é um personagem de Samurai Champloo.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samurai_Champloo",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Mugen%20Samurai%20Champloo"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_047",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Verdadeiro-falso",
+    "pergunta": "Shinobu Oshino é uma personagem de Monogatari Series.",
+    "resposta": "Verdadeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monogatari_(series)",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Shinobu%20Oshino"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_048",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Verdadeiro-falso",
+    "pergunta": "Edward Elric é um personagem de Bleach.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fullmetal_Alchemist",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Edward%20Elric"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_049",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Verdadeiro-falso",
+    "pergunta": "Sasuke Uchiha é um personagem de One Piece.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Naruto",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Sasuke%20Uchiha"
+    ]
+  },
+  {
+    "id": "20251219T000000Z_pfi2_050",
+    "tema": "Entretenimento",
+    "tema_clean": "entretenimento",
+    "subtema": "Anime e Mangá",
+    "subtema_clean": "anime_e_manga",
+    "microsubtema": "Personagem → Franquia (identificação)",
+    "microsubtema_clean": "personagem_franquia_identificacao",
+    "tipo": "Verdadeiro-falso",
+    "pergunta": "Sakura Kinomoto é uma personagem de Sailor Moon.",
+    "resposta": "Falso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cardcaptor_Sakura",
+      "https://www.animenewsnetwork.com/encyclopedia/search/name?q=Sakura%20Kinomoto"
+    ]
+  }
+]

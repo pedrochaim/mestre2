@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -132,18 +167,660 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="microsubtemas-entretenimento-musica-popular" class="level1">
-<h1>Microsubtemas — Entretenimento / Musica Popular</h1>
-<blockquote class="blockquote">
-<p>Arquivo <em>dummy</em> para testes de links e estrutura. Convenção: <code>microsubtemas_&lt;tema_clean&gt;_&lt;subtema_clean&gt;.md</code></p>
-</blockquote>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Música Popular"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"musica_popular"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Pop global: subgêneros, mercados e formatos"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"pop_global_subgeneros_mercados_e_formatos"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="pop-global-subgêneros-mercados-e-formatos-pop_global_subgeneros_mercados_e_formatos" class="level2">
+<h2 class="anchored" data-anchor-id="pop-global-subgêneros-mercados-e-formatos-pop_global_subgeneros_mercados_e_formatos">Pop global: subgêneros, mercados e formatos — <code>pop_global_subgeneros_mercados_e_formatos</code></h2>
+<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Conceitos e marcos estáveis de “pop mainstream” (pop internacional, teen pop, synthpop, K-pop, J-pop, latin pop), focando em <strong>subgêneros</strong>, <strong>mercados</strong> e <strong>formatos de lançamento</strong> (single/EP/álbum/repackage/deluxe), além de créditos de composição/produção. <strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
 <ul>
-<li><strong>tema_clean:</strong> <code>entretenimento</code></li>
-<li><strong>subtema_clean:</strong> <code>musica_popular</code></li>
-<li><strong>caminho:</strong> <code>info/subtemas_entretenimento/microsubtemas_entretenimento_musica_popular.md</code></li>
+<li><p><strong>Inclusões (não exaustivo)</strong>:</p>
+<ul>
+<li>Subgêneros/linhagens: teen pop, synthpop, dance-pop, electropop, K-pop, J-pop, latin pop (enquanto <strong>estratégia/mercado pop</strong>, não enquanto “ritmo tradicional”).</li>
+<li>Formatos e “objetos” da discografia: single, EP, álbum de estúdio, álbum ao vivo, coletânea, deluxe edition, reissue/re-release, repackage (especialmente no contexto de K-pop).</li>
+<li>Créditos: compositor(es), produtor(es), feat./collab (créditos oficiais), gravadora/selo, ano de lançamento.</li>
+<li>Vocabulário estável: “hook”, “bridge”, “topline”, “B-side”, “lead single”.</li>
+</ul></li>
+<li><p><strong>Exclusões</strong>:</p>
+<ul>
+<li>Paradas semanais e números voláteis (streams do mês, rankings do ano, “hit do verão”).</li>
+<li>Polêmicas de celebridade/vida privada; “melhor música” (opinião).</li>
+<li>“Tendências de TikTok” e virais efêmeros.</li>
+</ul></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN/PT): artistas, álbuns, selos, listas de singles e créditos básicos</li>
+<li>AllMusic/Discogs (para confirmar créditos/edições)</li>
+<li>Sites oficiais de gravadoras/labels e press releases de lançamento (quando existirem)</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Subgênero → convenções</strong> (teen pop / synthpop / K-pop / J-pop / latin pop)</li>
+<li><strong>Mercado → região/indústria</strong> (EUA/UK; Japão; Coreia do Sul; América Latina; “global”)</li>
+<li><strong>Formato → objeto</strong> (single/EP/álbum/deluxe/repackage/coletânea)</li>
+<li><strong>Crédito → papel</strong> (artista / compositor / produtor / feat. / selo)</li>
+<li><strong>Década → estética</strong> (ex.: 1980s synthpop vs 2000s teen pop vs 2010s electropop)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>Como se chama a parte “grudenta” e mais memorável de uma canção pop, geralmente repetida?</li>
+<li>Em discografias, o que significa “EP”?</li>
+<li>Qual termo é usado para a faixa escolhida como principal divulgação de um álbum (“single principal”)?</li>
+<li>Em créditos musicais, quem é normalmente responsável pela “produção” (arranjo/sonoridade/gravação) de uma faixa?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual opção descreve melhor “deluxe edition”?
+<ol type="A">
+<li>Versão com faixas bônus e/ou conteúdo adicional</li>
+<li>Versão com menos faixas que a original</li>
+<li>Uma gravação pirata ao vivo</li>
+<li>Um álbum lançado antes do artista existir</li>
+</ol></li>
+<li>“B-side” refere-se mais diretamente a:
+<ol type="A">
+<li>Faixa adicional associada a um single (historicamente no “lado B”)</li>
+<li>Um prêmio musical internacional</li>
+<li>Um tipo de microfone</li>
+<li>Um gênero específico de rock</li>
+</ol></li>
+<li>Em lançamentos de K-pop, “repackage” costuma indicar:
+<ol type="A">
+<li>Relançamento do álbum com mudanças/adições de faixas e conceito</li>
+<li>Cancelamento oficial do álbum</li>
+<li>Uma coletânea de músicas de vários artistas diferentes</li>
+<li>Um álbum apenas instrumental, sempre</li>
+</ol></li>
+<li>Qual par é um <strong>formato de lançamento</strong> (e não um gênero)?
+<ol type="A">
+<li>EP</li>
+<li>Synthpop</li>
+<li>Teen pop</li>
+<li>Dance-pop</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Um single pode existir como faixa avulsa e também integrar um álbum posteriormente.</li>
+<li>“Feat.” em um crédito indica participação (colaboração) de outro artista na faixa.</li>
+<li>“Hook” é um termo usado para indicar o trecho mais marcante de uma música, pensado para fixar na memória.</li>
+<li>Paradas semanais e números de streaming são métricas estáveis e ideais para um banco longevo de quiz.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Escopo permite <strong>≥ 80 perguntas</strong> variando subgênero/mercado/formato/crédito, sem ficar só em “nomes de artistas”.</label></li>
+<li><label><input type="checkbox">Evita charts semanais e métricas voláteis (streams do momento, rankings do ano).</label></li>
+<li><label><input type="checkbox">Linguagem neutra e auto-contida, sem opinião (“melhor”, “pior”).</label></li>
+<li><label><input type="checkbox">Matriz de variação cobre: subgênero + mercado + formato + papéis de crédito.</label></li>
+<li><label><input type="checkbox"><strong>No máximo 5 perguntas por artista/álbum específico</strong> no conjunto final.</label></li>
 </ul>
 <hr>
-<p>Use este arquivo para inserir a lista de <strong>microsubtemas</strong> e seu detalhamento (natureza, descrição, escopo, exclusões, matriz de variação e exemplos), conforme suas instruções de projeto.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Música Popular"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"musica_popular"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Rock e Metal: subgêneros, cenas e técnicas"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"rock_e_metal_subgeneros_cenas_e_tecnicas"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="rock-e-metal-subgêneros-cenas-e-técnicas-rock_e_metal_subgeneros_cenas_e_tecnicas" class="level2">
+<h2 class="anchored" data-anchor-id="rock-e-metal-subgêneros-cenas-e-técnicas-rock_e_metal_subgeneros_cenas_e_tecnicas">Rock e Metal: subgêneros, cenas e técnicas — <code>rock_e_metal_subgeneros_cenas_e_tecnicas</code></h2>
+<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Estruturas estáveis do rock/hard rock/metal: <strong>subgêneros</strong>, <strong>cenas</strong>, instrumentação e vocabulário (riff, power chord, blast beat etc.), além de marcos por década/cena (sem rankings). <strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>:</p>
+<ul>
+<li>Subgêneros: classic rock, punk, grunge, indie/alternativo; hard rock; metal (thrash/death/black/doom/prog etc. em nível enciclopédico).</li>
+<li>Vocabulário e técnica: riff, power chord, palm muting, solos, double kick, breakdown, blast beat (quando aplicável).</li>
+<li>Cenas e geografia (quando canônico): ex.: grunge ↔︎ Seattle; thrash ↔︎ Bay Area (alto nível).</li>
+<li>Discografias e créditos: álbuns “marco” (por relevância histórica documentada), selos, produtores, mudanças de formação (quando estável).</li>
+</ul></li>
+<li><p><strong>Exclusões</strong>:</p>
+<ul>
+<li>Brigas/polêmicas e vida privada; “qual banda é melhor”; listas por nota.</li>
+<li>Detalhes ultratécnicos de equipamento (modelos específicos) a menos que sejam historicamente centrais e bem documentados.</li>
+</ul></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): verbetes de gêneros e cenas; páginas de bandas/álbuns</li>
+<li>AllMusic (estilos e discografia)</li>
+<li>Sites oficiais/press kits para créditos e datas</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Subgênero → características</strong> (punk vs grunge vs metal extremo etc.)</li>
+<li><strong>Década → evolução</strong> (60s/70s/80s/90s/2000s…)</li>
+<li><strong>Cenário → geografia</strong> (cenas regionais quando bem estabelecidas)</li>
+<li><strong>Formação → instrumentos/papéis</strong> (trio/quarteto; vocal/guitarra/baixo/bateria)</li>
+<li><strong>Técnica → vocabulário</strong> (riff/power chord/palm muting/double kick…)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>Em rock, o que é um “riff”?</li>
+<li>O que é “power chord” (acorde de potência) na guitarra?</li>
+<li>Que termo descreve o uso de abafamento com a palma da mão na guitarra (“palm muting”)?</li>
+<li>Em bateria de metal, o que significa “double kick” (bumbo duplo)?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>“Grunge” é mais frequentemente associado a qual cena/região?
+<ol type="A">
+<li>Seattle (EUA)</li>
+<li>Kingston (Jamaica)</li>
+<li>Lagos (Nigéria)</li>
+<li>Ibiza (Espanha)</li>
+</ol></li>
+<li>Qual opção descreve melhor “punk rock” em termos gerais?
+<ol type="A">
+<li>Rock geralmente mais direto/rápido, com estética DIY</li>
+<li>Música exclusivamente instrumental com longas suítes</li>
+<li>Um estilo de música eletrônica de pista</li>
+<li>Música orquestral do período barroco</li>
+</ol></li>
+<li>“Blast beat” é uma técnica de bateria mais comum em:
+<ol type="A">
+<li>Metal extremo</li>
+<li>Bossa nova</li>
+<li>Valsa vienense</li>
+<li>Choro</li>
+</ol></li>
+<li>Qual item é mais típico do hard rock/metal do que do folk acústico?
+<ol type="A">
+<li>Distortion/overdrive como timbre central</li>
+<li>Banjo como instrumento principal</li>
+<li>Voz a capella sem instrumentos</li>
+<li>Harpa de concerto</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Subgêneros de metal podem variar bastante em vocais, andamento e timbres.</li>
+<li>“DIY” (do-it-yourself) é um conceito historicamente associado a cenas punk.</li>
+<li>“Power chord” é um tipo de acorde muito usado em rock por soar “cheio” com distorção.</li>
+<li>Rankings de “melhores álbuns de todos os tempos” são base estável para um quiz longevo.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Cobre rock/hard rock/metal por subgêneros e técnicas (não só “nomes de bandas”).</label></li>
+<li><label><input type="checkbox">Evita opinião (melhores/piores) e listas por nota/ranking.</label></li>
+<li><label><input type="checkbox">Matriz garante diversidade por década + cena + técnica musical.</label></li>
+<li><label><input type="checkbox">Fatos auditáveis por fontes enciclopédicas/credenciais (discografia, créditos, origem de subgênero).</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por banda/álbum específico</strong> no conjunto final.</label></li>
+</ul>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Música Popular"</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"musica_popular"</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Hip-hop e R&amp;B: subgêneros, produção e técnicas"</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"hiphop_e_rb_subgeneros_producao_e_tecnicas"</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="hip-hop-e-rb-subgêneros-produção-e-técnicas-hiphop_e_rb_subgeneros_producao_e_tecnicas" class="level2">
+<h2 class="anchored" data-anchor-id="hip-hop-e-rb-subgêneros-produção-e-técnicas-hiphop_e_rb_subgeneros_producao_e_tecnicas">Hip-hop e R&amp;B: subgêneros, produção e técnicas — <code>hiphop_e_rb_subgeneros_producao_e_tecnicas</code></h2>
+<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Hip-hop/rap/trap + R&amp;B por <strong>subgêneros</strong>, <strong>linguagem musical</strong> (flow, bars, hook), e <strong>produção</strong> (sample, 808, breakbeat), além de marcos de cenas/regiões em alto nível. <strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>:</p>
+<ul>
+<li>Subgêneros: boom bap, trap, drill, trap latino; R&amp;B contemporâneo; neo-soul (características gerais).</li>
+<li>Vocabulário: flow, bars, punchline, hook, ad-libs, beat, sampling.</li>
+<li>Produção (conceitos): sample vs composição original; 808; hi-hats; breakbeat; mixtape vs álbum.</li>
+<li>Créditos: feats, produtores, selos/coletivos quando canônicos.</li>
+</ul></li>
+<li><p><strong>Exclusões</strong>:</p>
+<ul>
+<li>“Diss do momento”, tretas, política de fandom; rankings e trends.</li>
+<li>Interpretação de letras longas (evitar trechos extensos).</li>
+</ul></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): gêneros/subgêneros, cenas e discografias</li>
+<li>AllMusic (estilos)</li>
+<li>Discogs (créditos/lançamentos) + confirmação em fonte enciclopédica/oficial</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Subgênero → sonoridade</strong> (boom bap / trap / drill / neo-soul etc.)</li>
+<li><strong>Região/cena → tradição</strong> (East/West/South; UK drill; LatAm etc. em alto nível)</li>
+<li><strong>Técnica → performance</strong> (flow/dicção/ad-libs/storytelling)</li>
+<li><strong>Produção → método</strong> (sampling, 808, breakbeat, arranjo R&amp;B)</li>
+<li><strong>Formato → release</strong> (single/mixtape/EP/álbum; feats)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>No rap, o que significa “flow”?</li>
+<li>Em produção musical, o que é “sampling”?</li>
+<li>O que é uma “mixtape” no contexto do hip-hop (como conceito histórico)?</li>
+<li>O que é “ad-lib” em uma faixa de rap/pop?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>“Boom bap” é um rótulo mais associado a:
+<ol type="A">
+<li>Hip-hop com batidas e estética clássicas, especialmente da era 90s</li>
+<li>Música barroca europeia</li>
+<li>Trance melódico de festival</li>
+<li>Reggae roots jamaicano</li>
+</ol></li>
+<li>Em produção, “808” costuma se referir a:
+<ol type="A">
+<li>Timbres de bateria/baixo associados à Roland TR-808 (e seus derivados)</li>
+<li>Um tipo de guitarra de 8 cordas obrigatória</li>
+<li>Um prêmio musical anual</li>
+<li>Um formato físico de vinil</li>
+</ol></li>
+<li>“Hook” em uma música é mais diretamente:
+<ol type="A">
+<li>Trecho pensado para grudar (geralmente refrão/linha marcante)</li>
+<li>O nome do estúdio de gravação</li>
+<li>Um tipo de microfone</li>
+<li>A taxa de amostragem do áudio</li>
+</ol></li>
+<li>“Neo-soul” se relaciona mais a:
+<ol type="A">
+<li>Uma vertente moderna do soul/R&amp;B com forte ênfase em groove e harmonia</li>
+<li>Um subgênero de metal extremo</li>
+<li>Um estilo de música de pista acelerado (160+ BPM)</li>
+<li>Música exclusivamente instrumental para videogames</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>“Feat.” indica participação creditada de outro artista em uma faixa.</li>
+<li>Sampling é a prática de reutilizar trechos de gravações em uma nova produção.</li>
+<li>Subgêneros como trap e drill são idênticos em andamento, estética e produção.</li>
+<li>Um banco longevo deve evitar “tendências do mês” e focar em conceitos e créditos estáveis.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Prioriza conceitos (flow, sampling, formatos) e créditos, não “fofoca” ou trends.</label></li>
+<li><label><input type="checkbox">Matriz garante diversidade por subgênero + região/cena + técnica + produção.</label></li>
+<li><label><input type="checkbox">Enunciados em pt-BR, neutros e auto-contidos.</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por artista/álbum específico</strong> no conjunto final.</label></li>
+</ul>
+<hr>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Música Popular"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"musica_popular"</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Latina e Caribenha: ritmos, instrumentos e fusões"</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"latina_e_caribenha_ritmos_instrumentos_e_fusoes"</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="latina-e-caribenha-ritmos-instrumentos-e-fusões-latina_e_caribenha_ritmos_instrumentos_e_fusoes" class="level2">
+<h2 class="anchored" data-anchor-id="latina-e-caribenha-ritmos-instrumentos-e-fusões-latina_e_caribenha_ritmos_instrumentos_e_fusoes">Latina e Caribenha: ritmos, instrumentos e fusões — <code>latina_e_caribenha_ritmos_instrumentos_e_fusoes</code></h2>
+<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Gêneros latinos e caribenhos por <strong>ritmos</strong> (reggaeton, salsa, bachata, merengue, cumbia, dembow), instrumentação típica (alto nível) e fusões documentadas com pop/hip-hop, sem depender de charts. <strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>:</p>
+<ul>
+<li>Ritmos/subgêneros: salsa, bachata, merengue, cumbia, reggaeton, dembow.</li>
+<li>Instrumentação (alto nível): percussões afro-caribenhas, metais em salsa, padrões de groove; termos amplos como “clave” quando aplicável e bem referenciado.</li>
+<li>Origem geográfica e linhagens (em alto nível e canônicas).</li>
+<li>Fusões: latin pop e crossovers (como fenômeno), remixes oficiais e feats entre cenas.</li>
+</ul></li>
+<li><p><strong>Exclusões</strong>:</p>
+<ul>
+<li>Rankings por país/semana; “música do carnaval do ano”; números de streaming.</li>
+<li>Polêmicas e disputas de autoria não consolidadas.</li>
+</ul></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN/ES/PT): gêneros e cenas; páginas de artistas/álbuns</li>
+<li>Enciclopédias musicais (AllMusic)</li>
+<li>Discogs para edições/créditos + fonte enciclopédica/oficial para confirmação</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Ritmo/subgênero → identidade</strong> (salsa/bachata/merengue/cumbia/reggaeton/dembow)</li>
+<li><strong>País/região → cena</strong> (Caribe hispânico; Colômbia; etc., em alto nível)</li>
+<li><strong>Instrumentação → timbre</strong> (metais/percussão/cordas; arranjos)</li>
+<li><strong>Dança/contexto → performance</strong> (club/baile/festa; alta-level)</li>
+<li><strong>Fusão → direção</strong> (tradicional→pop vs pop→tradicional; remixes/feats)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>Qual gênero latino urbano é fortemente associado ao padrão rítmico conhecido como “dembow” (conceito geral)?</li>
+<li>Qual ritmo é tradicionalmente associado à República Dominicana e é comum em bailes dançantes?</li>
+<li>Em termos gerais, o que diferencia “salsa” de “reggaeton” (instrumentação/arranjo vs batida urbana)?</li>
+<li>Em uma faixa com “remix” e participações extras, como costuma aparecer o crédito do artista convidado?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual gênero é mais associado à República Dominicana?
+<ol type="A">
+<li>Bachata</li>
+<li>Grunge</li>
+<li>Drum &amp; bass</li>
+<li>Bluegrass</li>
+</ol></li>
+<li>“Cumbia” é mais frequentemente associada (em origem histórica) a:
+<ol type="A">
+<li>Colômbia</li>
+<li>Suécia</li>
+<li>Canadá</li>
+<li>Austrália</li>
+</ol></li>
+<li>Salsa costuma enfatizar (em arranjos clássicos):
+<ol type="A">
+<li>Metais e percussão afro-caribenha (alto nível)</li>
+<li>Apenas sintetizadores e drops</li>
+<li>Apenas violão solo e banjo</li>
+<li>Somente canto a capella</li>
+</ol></li>
+<li>Qual opção é um exemplo de “fusão” (crossover) em música popular?
+<ol type="A">
+<li>Uma faixa que mistura elementos de reggaeton com pop mainstream</li>
+<li>Um ranking semanal de rádio</li>
+<li>A troca de capa de um álbum sem mudar o áudio</li>
+<li>Um boato sobre turnê</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Reggaeton é frequentemente entendido como um gênero latino urbano com forte presença de batidas repetitivas e produção eletrônica.</li>
+<li>Cumbia é um ritmo latino com história documentada e múltiplas variações regionais.</li>
+<li>Rankings semanais são a melhor forma de definir o que é “latino e caribenho” num recorte longevo.</li>
+<li>Uma colaboração (“feat.”) pode conectar cenas distintas (pop, urbano, tradicional) no mesmo lançamento.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Separa “latin pop mainstream” (mercado) de “ritmos” (identidade rítmica), para reduzir sobreposição com o microsubtema de Pop.</label></li>
+<li><label><input type="checkbox">Evita charts/streams e prioriza história, instrumentação e créditos.</label></li>
+<li><label><input type="checkbox">Matriz garante diversidade por ritmo + país/cena + instrumento + fusão.</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por artista/faixa/álbum específico</strong> no conjunto final.</label></li>
+</ul>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Música Popular"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"musica_popular"</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Rua e festa: batidas locais e ecossistemas de cena"</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"rua_e_festa_batidas_locais_e_ecossistemas_de_cena"</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="rua-e-festa-batidas-locais-e-ecossistemas-de-cena-rua_e_festa_batidas_locais_e_ecossistemas_de_cena" class="level2">
+<h2 class="anchored" data-anchor-id="rua-e-festa-batidas-locais-e-ecossistemas-de-cena-rua_e_festa_batidas_locais_e_ecossistemas_de_cena">Rua e festa: batidas locais e ecossistemas de cena — <code>rua_e_festa_batidas_locais_e_ecossistemas_de_cena</code></h2>
+<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Gêneros populares ligados a rua/baile/festa (samba/pagode, forró/piseiro, funk, reggae, dancehall, afrobeat, kuduro) por batida, instrumentação (alto nível) e ecossistemas de cena (sound system/aparelhagem/baile), evitando virais efêmeros. <strong>Localização.</strong> Irrestrita <em>(mas com espaço para exemplos brasileiros sem ultrapassar ~40% do conjunto, já que não é “Nacional”)</em>.</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>:</p>
+<ul>
+<li>Gêneros: samba/pagode; forró/piseiro; funk (brasileiro); reggae; dancehall; afrobeat; kuduro.</li>
+<li>Conceitos de cena: bailes/sound systems; cultura de festa; formatos de circulação (em alto nível e quando bem documentado).</li>
+<li>Instrumentação (alto nível): percussão e cavaquinho no samba/pagode; sanfona/triângulo/zabumba no forró; riddims em dancehall; grooves e metais/arranjos em afrobeat (alto nível).</li>
+<li>Créditos e discografias: álbuns/EPs/singles e colaborações oficiais.</li>
+</ul></li>
+<li><p><strong>Exclusões</strong>:</p>
+<ul>
+<li>“Hit do TikTok”, trends do mês, “top 50” semanal; tretas locais não consolidadas.</li>
+<li>Letras explícitas como foco (manter tom informativo).</li>
+</ul></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (PT para gêneros brasileiros + EN para panorama global)</li>
+<li>Enciclopédias musicais (AllMusic)</li>
+<li>Fontes institucionais/culturais (museus, projetos de memória musical) quando houver</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Gênero → batida/groove</strong> (samba/forró/funk/reggae/dancehall/afrobeat/kuduro)</li>
+<li><strong>País/cidade → cena</strong> (Brasil/Jamaica/Nigéria/Angola etc., em alto nível)</li>
+<li><strong>Instrumentação → assinatura</strong> (percussão/sanfona/riddim/metais/eletrônica)</li>
+<li><strong>Contexto → performance</strong> (baile/festa/sound system; rua vs palco)</li>
+<li><strong>Fusão → influência</strong> (ex.: reggae→dancehall; afrobeat↔︎pop; funk↔︎eletrônica — apenas quando bem documentado)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>Qual instrumento é um dos mais associados ao forró tradicional brasileiro (alto nível)?</li>
+<li>Em termos gerais, o que é um “riddim” em contextos ligados ao dancehall/reggae?</li>
+<li>Afrobeat (gênero) é frequentemente associado a qual país em sua origem histórica?</li>
+<li>Qual gênero angolano é conhecido por batidas eletrônicas e dança associada, como fenômeno urbano?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual gênero está mais associado à Jamaica?
+<ol type="A">
+<li>Reggae</li>
+<li>Grunge</li>
+<li>Techno de Detroit</li>
+<li>Bluegrass</li>
+</ol></li>
+<li>Qual instrumento é mais típico no forró tradicional (alto nível)?
+<ol type="A">
+<li>Sanfona</li>
+<li>Oboé</li>
+<li>Harpa celta</li>
+<li>Sitara</li>
+</ol></li>
+<li>Kuduro é mais associado a:
+<ol type="A">
+<li>Angola</li>
+<li>Noruega</li>
+<li>Coreia do Sul</li>
+<li>México</li>
+</ol></li>
+<li>Afrobeat (gênero) tem raízes mais associadas a:
+<ol type="A">
+<li>Nigéria</li>
+<li>Islândia</li>
+<li>Japão</li>
+<li>Canadá</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Reggae e dancehall são gêneros relacionados historicamente, mas com diferenças de época/ênfase sonora.</li>
+<li>Forró e samba são gêneros brasileiros distintos, com instrumentações e contextos tradicionais diferentes.</li>
+<li>Virais semanais são uma base mais estável do que créditos e discografias oficiais.</li>
+<li>Para um banco longevo, é melhor focar em conceitos, origens e instrumentação (alto nível) do que em “hits do mês”.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Mantém o recorte “rua/festa” por <strong>batida + instrumentação + ecossistema de cena</strong>, não por virais.</label></li>
+<li><label><input type="checkbox">Controla o viés Brasil: priorizar exemplos BR é ok, mas <strong>sem ultrapassar ~40%</strong>, por ser Irrestrita.</label></li>
+<li><label><input type="checkbox">Matriz garante diversidade de países, gêneros e contextos (rua/baile/sound system).</label></li>
+<li><label><input type="checkbox">Linguagem informativa, sem sensacionalismo e sem depender de letras explícitas.</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por artista/faixa específica</strong> no conjunto final.</label></li>
+</ul>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Música Popular"</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"musica_popular"</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Cantor/Banda: quem canta o quê (hits e músicas-assinatura)"</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"cantor_banda_quem_canta_o_que_hits_assinatura"</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="cantorbanda-quem-canta-o-quê-hits-e-músicas-assinatura-cantor_banda_quem_canta_o_que_hits_assinatura" class="level2">
+<h2 class="anchored" data-anchor-id="cantorbanda-quem-canta-o-quê-hits-e-músicas-assinatura-cantor_banda_quem_canta_o_que_hits_assinatura">Cantor/Banda: quem canta o quê (hits e músicas-assinatura) — <code>cantor_banda_quem_canta_o_que_hits_assinatura</code></h2>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Banco focado em perguntas do tipo <strong>“Quem canta esta música?”</strong> e <strong>“Qual música é desse(a) cantor(a)/banda?”</strong>, usando um repertório de <strong>músicas-assinatura</strong> (tracks fortemente associadas a um artista específico) e <strong>artistas muito conhecidos</strong>, com respostas verificáveis por discografia/créditos oficiais.</p>
+<p><strong>Localização.</strong> Irrestrita (mistura de repertório internacional + alguns clássicos amplamente conhecidos em países lusófonos, sem virar “somente Brasil”).</p>
+<hr>
+</section>
+<section id="escopo" class="level2">
+<h2 class="anchored" data-anchor-id="escopo">Escopo</h2>
+<section id="inclusões-não-exaustivo" class="level3">
+<h3 class="anchored" data-anchor-id="inclusões-não-exaustivo">Inclusões (não exaustivo)</h3>
+<ul>
+<li><strong>Mapeamento música → intérprete principal</strong> (artista/banda creditado no lançamento original do single/álbum).</li>
+<li><strong>Mapeamento artista → músicas-assinatura</strong> (canções “clássicas” do catálogo, amplamente reconhecidas como daquele artista).</li>
+<li><strong>Feat./colaborações</strong> quando o crédito é oficial e estável (ex.: “Artista A feat. Artista B”).</li>
+<li><strong>Bandas vs carreira solo</strong> quando for claro no crédito (ex.: música do <em>Queen</em> vs música de <em>Freddie Mercury</em> como solo).</li>
+<li>Vocabulário mínimo para desambiguar: <strong>single/álbum</strong>, “feat.”, “versão ao vivo” (apenas se a pergunta explicitar).</li>
+</ul>
+</section>
+<section id="exclusions" class="level3">
+<h3 class="anchored" data-anchor-id="exclusions">Exclusions</h3>
+<ul>
+<li><strong>Rankings voláteis</strong> (top 50 do mês, números de streams, posições em paradas).</li>
+<li>Canções <strong>muito ambíguas</strong> por terem várias versões “mais famosas” (a não ser que a pergunta explicite “originalmente gravada por…” ou “na versão de…”).</li>
+<li>Remixes/edições de DJ/versões de TikTok como objeto principal.</li>
+<li>“Tradicionais/folk” sem um intérprete canônico único (ex.: canções folclóricas com múltiplas atribuições).</li>
+</ul>
+</section>
+<section id="referências-exemplos" class="level3">
+<h3 class="anchored" data-anchor-id="referências-exemplos">Referências (exemplos)</h3>
+<ul>
+<li>Wikipedia (EN/PT) para discografia básica e créditos</li>
+<li>Discogs / AllMusic para checagem de créditos e versões</li>
+<li>Sites oficiais/press releases de selos quando existirem (para single/álbum e créditos)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="matriz-de-variação-eixos" class="level2">
+<h2 class="anchored" data-anchor-id="matriz-de-variação-eixos">Matriz de variação (eixos)</h2>
+<ul>
+<li><strong>Década</strong>: 1950s–2020s (equilíbrio por períodos)</li>
+<li><strong>Tipo de ato</strong>: banda / artista solo / duo / grupo vocal</li>
+<li><strong>Mercado/idioma</strong>: inglês / espanhol / português / japonês / coreano (alto nível, sem exagerar em nichos)</li>
+<li><strong>Gênero amplo</strong>: pop / rock / hip-hop/R&amp;B / eletrônica / latina / “clássicos nacionais”</li>
+<li><strong>Crédito</strong>: intérprete principal vs “feat.”; banda vs projeto solo</li>
+</ul>
+<hr>
+</section>
+<section id="exemplos-de-enunciados" class="level2">
+<h2 class="anchored" data-anchor-id="exemplos-de-enunciados">Exemplos de enunciados</h2>
+<section id="aberta-4" class="level3">
+<h3 class="anchored" data-anchor-id="aberta-4">Aberta (4)</h3>
+<ol type="1">
+<li>Quem interpreta <strong>“Bohemian Rhapsody”</strong>?</li>
+<li>Qual banda lançou <strong>“Smells Like Teen Spirit”</strong>?</li>
+<li>Quem canta <strong>“Billie Jean”</strong>?</li>
+<li>Qual artista é conhecido por <strong>“Rolling in the Deep”</strong>?</li>
+</ol>
+</section>
+<section id="múltipla-escolha-4" class="level3">
+<h3 class="anchored" data-anchor-id="múltipla-escolha-4">Múltipla escolha (4)</h3>
+<ol type="1">
+<li><strong>“Imagine”</strong> é uma música associada a:
+<ol type="A">
+<li>John Lennon</li>
+<li>Paul McCartney</li>
+<li>David Bowie</li>
+<li>Freddie Mercury</li>
+</ol></li>
+<li>Qual música é do <strong>Queen</strong>?
+<ol type="A">
+<li>Hotel California</li>
+<li>Bohemian Rhapsody</li>
+<li>Wonderwall</li>
+<li>Losing My Religion</li>
+</ol></li>
+<li><strong>“Despacito”</strong> é creditada principalmente a:
+<ol type="A">
+<li>Luis Fonsi (feat. Daddy Yankee)</li>
+<li>Shakira (feat. Maluma)</li>
+<li>Bad Bunny (feat. J Balvin)</li>
+<li>Ricky Martin (feat. Pitbull)</li>
+</ol></li>
+<li>Qual destas músicas é do <strong>Nirvana</strong>?
+<ol type="A">
+<li>Enter Sandman</li>
+<li>Smells Like Teen Spirit</li>
+<li>Back in Black</li>
+<li>Sweet Child o’ Mine</li>
+</ol></li>
+</ol>
+</section>
+<section id="verdadeirofalso-4" class="level3">
+<h3 class="anchored" data-anchor-id="verdadeirofalso-4">Verdadeiro/Falso (4)</h3>
+<ol type="1">
+<li>“Hey Jude” é uma música associada aos <strong>The Beatles</strong>.</li>
+<li>“Uptown Funk” é creditada a <strong>Mark Ronson</strong> com participação de <strong>Bruno Mars</strong>.</li>
+<li>“Hotel California” é uma música do <strong>Metallica</strong>.</li>
+<li>“Like a Virgin” é uma música associada a <strong>Madonna</strong>.</li>
+</ol>
+<hr>
+</section>
+</section>
+<section id="checklist" class="level2">
+<h2 class="anchored" data-anchor-id="checklist">Checklist</h2>
+<ul class="task-list">
+<li><label><input type="checkbox">O repertório permite <strong>≥ 80 perguntas</strong> (ideal ~100) sem repetir o mesmo artista o tempo todo.</label></li>
+<li><label><input type="checkbox">Cada item tem <strong>resposta única</strong> (sem ambiguidade de versão/intérprete).</label></li>
+<li><label><input type="checkbox">Evita charts/streams/rankings; foca em <strong>créditos e discografia</strong>.</label></li>
+<li><label><input type="checkbox">Diversidade por década, idioma e tipo de ato (banda/solo).</label></li>
+<li><label><input type="checkbox">Regra editorial: <strong>≤ 5 perguntas por artista</strong> e <strong>≤ 3 por música</strong>, para manter variedade.</label></li>
+</ul>
+<p>Se quiser, eu já posso “derivar” daqui uma <strong>lista curada de ~120 pares música↔︎artista</strong> (apenas como base de geração) priorizando nomes realmente universais e com baixa ambiguidade.</p>
 
 
 </section>

@@ -171,7 +171,7 @@ Exemplo JSON:
 ```json
 {
   "tema": "História Natural",
-  "tema_clean": "historia-natural",
+  "tema_clean": "historia_natural",
   "subtema": "Dinossauros",
   "subtema_clean": "dinossauros"
 }
@@ -188,7 +188,7 @@ Exemplo JSON:
 ```json
 {
   "tema": "História Natural",
-  "tema_clean": "historia-natural",
+  "tema_clean": "historia_natural",
   "subtema": "Ecossistemas e Biodiversidade: Animais",
   "subtema_clean": "ecossistemas_e_biodiversidade_animais"
 }
@@ -203,7 +203,7 @@ Exemplo JSON:
 ```json
 {
   "tema": "História Natural",
-  "tema_clean": "historia-natural",
+  "tema_clean": "historia_natural",
   "subtema": "Ecossistemas e Biodiversidade: Plantas e Fungos",
   "subtema_clean": "ecossistemas_e_biodiversidade_plantas_e_fungos"
 }
@@ -218,7 +218,7 @@ Exemplo JSON:
 ```json
 {
   "tema": "História Natural",
-  "tema_clean": "historia-natural",
+  "tema_clean": "historia_natural",
   "subtema": "Antropologia e Evolução Humana",
   "subtema_clean": "antropologia_e_evolucao_humana"
 }
@@ -1041,8 +1041,83 @@ Da monarquia à República e ao Império: instituições (senado, magistraturas,
 
 Longa duração das dinastias e Estados na China: formação imperial (Qin–Han), períodos de divisão, reunificações (Sui–Tang), transformações Song–Yuan–Ming–Qing e repúblicas/repensões modernas. Temas: burocracia, exames imperiais, classicismo, religiões/filosofias, tecnologias, comércio interno/externo e relações tributo-diplomáticas. Diferenciar narrativa interna de influências e contatos regionais.
 
+### Subtema: Grécia Antiga
 
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Grécia Antiga",
+  "subtema_clean": "grecia_antiga"
+}
+```
 
+História da Grécia Antiga, do mundo micênico e homérico até a conquista romana (século II a.C.), incluindo a formação e o funcionamento das pólis (como Atenas, Esparta e outras), colonização, guerras (Guerras Médicas, Guerra do Peloponeso), instituições políticas, organização social, economia, religiosidade, mitologia em perspectiva histórica, pensamento filosófico em seu contexto, artes, teatro, ciência e práticas cotidianas. Pode abarcar o período helenístico quando enfatiza a continuidade e transformação da cultura grega em diferentes reinos. Não inclui a história de Roma Antiga, recepções modernas da Antiguidade clássica (neoclassicismos, olimpíadas modernas etc.), nem leituras puramente filosóficas ou literárias que caibam melhor em subtemas específicos (como Filosofia ou Literatura), nem a história contemporânea do Estado grego.
 
+### Subtema: Idade do Bronze
 
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Idade do Bronze",
+  "subtema_clean": "idade_do_bronze"
+}
+```
 
+Período arqueológico e histórico em que a metalurgia do bronze (liga de cobre e estanho) se torna central para ferramentas, armas e objetos de prestígio, marcando formas específicas de organização política, guerra, comércio e vida material. Em termos amplos, abrange aproximadamente do III ao início do I milênio a.C., com cronologias regionais distintas, e conecta a Pré-História às primeiras civilizações da Idade Antiga.
+
+Foca especialmente o **Velho Mundo** (Mediterrâneo, Oriente Próximo, Europa, Ásia Central, subcontinente indiano, China), destacando redes de troca de metais e estanho, formas palacianas de poder, cidades fortificadas, rotas terrestres e marítimas, escrita e registros administrativos em algumas regiões (como Mesopotâmia e Egito). Permite recortes por áreas (Egeu minoico e micênico, Anatólia hitita, Levante, Vale do Indo, China Shang/Zhou inicial, Europa atlântica e centro-europeia) e por temas (metalurgia, guerra de carros, colapsos do “Bronze Final”, migrações e reconfigurações políticas).
+
+Não inclui, como foco principal, períodos **anteriores** sem metalurgia consolidada (Paleolítico, Mesolítico, Neolítico – tratados em “Pré-História”) nem o desenvolvimento pleno das civilizações letradas já em contexto de **Idade do Ferro** (como a fase clássica grega e romana, melhor enquadrada em “Grécia Antiga”, “Roma Antiga” ou “Antiguidade Clássica”). Evita ainda debates técnicos de laboratório (análises isotópicas, microscopia metalográfica), concentrando-se em cronologias, culturas arqueológicas, redes de contato e processos de formação/colapso de sociedades complexas.
+
+---
+
+### Subtema: Antiguidade Clássica
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Antiguidade Clássica",
+  "subtema_clean": "antiguidade_classica"
+}
+```
+
+Recorte que enfatiza o conjunto de sociedades, instituições e produções culturais do **mundo greco-romano** e de suas áreas de influência, aproximadamente do surgimento das pólis gregas arcaicas e do mundo clássico (sécs. VIII–V a.C.) até a consolidação e transformação do Império Romano (sécs. I a.C.–V d.C.). Articula em perspectiva comparada e de longa duração o que a tradição posterior chamou de “clássico”: formas de cidade, cidadania, direito, exército, literatura, filosofia, artes, urbanismo e modelos políticos que foram retomados em períodos posteriores.
+
+Inclui interações entre **Grécia Antiga** e **Roma Antiga** (helenização, recepção do direito romano, difusão de modelos urbanos, religião e cultos, circulação de elites e escravizados, uso do grego e do latim como línguas de cultura), bem como áreas de fronteira e influência (Mediterrâneo oriental e ocidental, províncias romanas, reinos helenísticos). Permite organizar microsubtemas que cruzem e comparem temas – por exemplo, cidadania, escravidão, império, cultura escrita, arquiteturas monumentais, heranças “clássicas” em épocas posteriores – sem se limitar a uma única cidade ou período estreito.
+
+Não inclui a totalidade da **Idade Antiga** (Egito faraônico, Mesopotâmia, Pérsia, Índia, China antiga etc., melhor enquadrados em “Idade Antiga” ou subtemas específicos como “Civilização Chinesa”), nem recepções modernas da Antiguidade (Renascimento, neoclassicismo, usos políticos contemporâneos do “clássico”), que devem ser tratadas em subtemas próprios (por exemplo, Idade Moderna, História da Arte, História das Ideias). Também não substitui os subtemas “Grécia Antiga” e “Roma Antiga”: funciona como recorte **transversal e comparativo**, que integra e relaciona esses dois universos em um quadro comum.
+
+### Subtema: Civilizações Pré-colombianas
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Civilizações Pré-colombianas",
+  "subtema_clean": "civilizacoes_pre_colombianas"
+}
+```
+
+Conjunto de sociedades complexas que se desenvolveram nas **Américas antes da conquista e colonização europeias**, aproximadamente de 2000 a.C. ao século XVI, com foco em formações urbanas, Estados, impérios e chefaturas complexas. Inclui tradições **mesoamericanas** (olmeca, teotihuacana, maia, zapoteca, mixteca, tolteca, mexica/asteca, entre outras), **andinas** (Chavín, Moche, Nazca, Tiwanaku, Wari, Inca etc.), bem como outros complexos regionais pré-colombianos nas Américas do Norte e do Sul (por exemplo, culturas mississipianas, pueblos ancestrais, sociedades agrícolas com centros cerimoniais e redes de troca estruturadas).
+
+Prioriza fontes arqueológicas (cidades, pirâmides, centros cerimoniais, sistemas agrícolas como terraços e chinampas, estradas, objetos de prestígio), registros iconográficos e, quando disponíveis, sistemas de escrita, códices e relatos coloniais iniciais. Aborda organização política (cidades-Estado, confederações, impérios), economia (agricultura intensiva, tributos, comércio de longa distância), religiosidades, calendários, astronomia e relações entre diferentes regiões americanas.
+
+Não abrange em detalhe a história **colonial e nacional** posterior (que se enquadra em subtemas de História do Brasil, História das Américas ou Idade Moderna/Contemporânea), nem culturas exclusivamente paleolíticas/mesolíticas sem agricultura ou sedentarização (vistas em “Pré-História”). Evita também debates laboratoriais muito técnicos (genética, análises isotópicas), privilegiando cronologias, áreas culturais, processos de formação, apogeu e colapso das civilizações pré-colombianas em perspectiva comparada.
+
+### Subtema: Egito Antigo
+
+```json
+{
+  "tema": "História",
+  "tema_clean": "historia",
+  "subtema": "Egito Antigo",
+  "subtema_clean": "egito_antigo"
+}
+```
+
+História do Egito faraônico, da formação do Estado unificado no vale do Nilo (c. 3100 a.C.) até a incorporação definitiva ao Império Romano (30 a.C.), passando por Antigo, Médio e Novo Império, Terceiro Período Intermediário, Época Tardia e domínio persa e helenístico (ptolomaico). Foca instituições (faraó, corte, burocracia, templos), economia agrícola ligada às cheias do Nilo, guerras e contatos com Núbia, Levante e Mediterrâneo oriental, religião e culto funerário, escrita (hieroglífica, hierática, demótica), produção artística e monumentalidade (pirâmides, templos, necrópoles).
+
+Prioriza fontes arqueológicas, inscrições, papiros e relatos antigos, permitindo microsubtemas sobre cronologia dinástica, cidade e campo, administração, religião e mitos em perspectiva histórica, artes e técnicas de construção, relações externas e processos de continuidade/ruptura ao longo de três milênios. Não abrange a história do Egito islâmico, otomano ou contemporâneo (tratada em Idade Média/Moderna/Contemporânea), nem a totalidade da Idade Antiga afro-asiática (Mesopotâmia, Levante, Pérsia etc., melhor enquadradas em “Idade Antiga” ou subtemas próprios). Questões estritamente mitológicas ou religiosas sem recorte histórico comparativo podem ser deslocadas para “Mitologia” ou “Religiões”.

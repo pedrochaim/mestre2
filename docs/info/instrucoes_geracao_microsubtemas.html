@@ -269,14 +269,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 <li><p><strong>Exemplos de enunciados</strong>:</p>
 <ul>
-<li><p>Pelo menos <strong>4 modelos</strong> de itens cobrindo, no conjunto, os tipos:</p>
+<li><p>Pelo menos <strong>3 modelos</strong> de itens cobrindo, no conjunto, os tipos:</p>
 <ul>
 <li><strong>Aberta</strong></li>
 <li><strong>Múltipla escolha</strong></li>
 <li><strong>Verdadeiro/Falso</strong></li>
-<li><strong>Ordenação</strong> e/ou <strong>Associação</strong></li>
 </ul></li>
 <li><p>Os exemplos <strong>não vinculam</strong> o banco aos nomes usados; servem apenas como <strong>demonstração de formato, nível de detalhe e tom</strong>.</p></li>
+<li><p>Pelo menos <strong>4 exemplos</strong> por modelo de item (Aberta, Múltipla escolha, Verdadeiro/Falso)</p></li>
 </ul></li>
 <li><p><strong>Checklist</strong>: validações antes de gerar perguntas, por exemplo:</p>
 <ul>
@@ -369,9 +369,137 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Garantir diversidade de <strong>épocas, países</strong> e <strong>papéis</strong> (não só autores, mas também investigadores, promotores etc.).</li>
 <li><strong>No máximo 5 perguntas por indivíduo/caso específico</strong>, para evitar saturar o banco com um único nome.</li>
 </ul>
-
-
+<p>Aqui vai um bloco para você colar direto no <code>instrucoes_geracao_microsubtemas.md</code> como uma nova seção (por exemplo, depois dos exemplos já existentes):</p>
+<p>Perfeito, então vamos simplificar o padrão: <strong>1 obra = 1 microsubtema</strong>, e o <strong>nome do microsubtema é só o nome da obra</strong> (ex.: só “Breaking Bad”), sem complemento.</p>
+<p>Vou reescrever só as partes que mudam: <strong>7.1 (nome)</strong>, o <strong>exemplo de front matter</strong> e a <strong>checklist</strong>.</p>
+<hr>
 </section>
+</section>
+<section id="padrão-de-nomenclatura-microsubtema-e-microsubtema_clean" class="level2">
+<h2 class="anchored" data-anchor-id="padrão-de-nomenclatura-microsubtema-e-microsubtema_clean">7.1 Padrão de nomenclatura (<code>microsubtema</code> e <code>microsubtema_clean</code>)</h2>
+<section id="campo-microsubtema-nome-bonito" class="level3">
+<h3 class="anchored" data-anchor-id="campo-microsubtema-nome-bonito">7.1.1 Campo <code>microsubtema</code> (nome “bonito”)</h3>
+<p><strong>Regra principal:</strong></p>
+<blockquote class="blockquote">
+<p>Para obras específicas, o campo <code>microsubtema</code> deve ser <strong>apenas o nome da obra</strong>, sem dois-pontos, sem subtítulo, sem recorte.</p>
+</blockquote>
+<p>Ou seja:</p>
+<ul>
+<li><p>Série:</p>
+<ul>
+<li><code>microsubtema: "Breaking Bad"</code></li>
+<li><code>microsubtema: "The Sopranos"</code></li>
+<li><code>microsubtema: "La Casa de Papel"</code></li>
+</ul></li>
+<li><p>Livro:</p>
+<ul>
+<li><code>microsubtema: "Dom Casmurro"</code></li>
+<li><code>microsubtema: "O Senhor dos Anéis"</code></li>
+</ul></li>
+</ul>
+<p><strong>Detalhes de convenção:</strong></p>
+<ul>
+<li><p>Usar o título exatamente como será exibido no app (decisão editorial sua):</p>
+<ul>
+<li><p>Se a obra é conhecida principalmente pelo título em português, usar PT-BR:</p>
+<ul>
+<li><code>microsubtema: "A Grande Família"</code></li>
+</ul></li>
+<li><p>Se é mais conhecida pelo título original, manter original:</p>
+<ul>
+<li><code>microsubtema: "Game of Thrones"</code></li>
+<li><code>microsubtema: "Breaking Bad"</code></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Não</strong> incluir:</p>
+<ul>
+<li>subtítulos do tipo “Atores, Personagens e Enredo”;</li>
+<li>indicação de temporada, parte ou ano no nome do microsubtema.</li>
+</ul></li>
+</ul>
+<blockquote class="blockquote">
+<p>Consequência prática: se você quiser diferenciar recortes diferentes da mesma obra, isso <strong>não</strong> será feito em <code>microsubtema</code>, e sim em outros campos (por exemplo, descrição, escopo, matriz de variação). O padrão canônico aqui assume <strong>um microsubtema por obra</strong>.</p>
+</blockquote>
+<hr>
+</section>
+<section id="campo-microsubtema_clean-slug-técnico" class="level3">
+<h3 class="anchored" data-anchor-id="campo-microsubtema_clean-slug-técnico">7.1.2 Campo <code>microsubtema_clean</code> (slug técnico)</h3>
+<p><strong>Objetivo:</strong> ter um identificador simples e estável, em <code>snake_case</code>, derivado <strong>apenas do nome da obra</strong>.</p>
+<p><strong>Regras de formação:</strong></p>
+<ol type="1">
+<li>Partir do valor de <code>microsubtema</code> (o nome da obra).</li>
+<li>Transformar em minúsculas.</li>
+<li>Substituir espaços por <code>_</code>.</li>
+<li>Remover acentos e cedilhas.</li>
+<li>Remover caracteres especiais (<code>:</code>, <code>,</code>, <code>.</code>, <code>?</code>, <code>!</code>, <code>/</code>, <code>-</code> etc.).</li>
+<li>Normalizar múltiplos <code>_</code> consecutivos para um só.</li>
+</ol>
+<p><strong>Padrão geral:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>microsubtema_clean = &lt;obra_em_snake_case&gt;</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Exemplos:</strong></p>
+<ul>
+<li><p><code>microsubtema: "Breaking Bad"</code> <code>microsubtema_clean: "breaking_bad"</code></p></li>
+<li><p><code>microsubtema: "The Sopranos"</code> <code>microsubtema_clean: "the_sopranos"</code></p></li>
+<li><p><code>microsubtema: "La Casa de Papel"</code> <code>microsubtema_clean: "la_casa_de_papel"</code></p></li>
+<li><p><code>microsubtema: "Dom Casmurro"</code> <code>microsubtema_clean: "dom_casmurro"</code></p></li>
+<li><p><code>microsubtema: "O Senhor dos Anéis"</code> <code>microsubtema_clean: "o_senhor_dos_aneis"</code></p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="front-matter-recomendado-ajustado" class="level2">
+<h2 class="anchored" data-anchor-id="front-matter-recomendado-ajustado">7.2 Front matter recomendado (ajustado)</h2>
+<p>Exemplo esquemático para uma série (NÃO é microsubtema completo, só o cabeçalho):</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Séries"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"series"</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Breaking Bad"</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"breaking_bad"</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Outro exemplo para outra série:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Séries"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"series"</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"La Casa de Papel"</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"la_casa_de_papel"</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>O resto da seção 7 (Escopo, Matriz de variação, exemplos de enunciados) continua igual ao que você já escreveu — só muda mesmo o padrão de nome.</p>
+<hr>
+</section>
+<section id="checklist-específico-para-obras-fictícias-ajuste" class="level2">
+<h2 class="anchored" data-anchor-id="checklist-específico-para-obras-fictícias-ajuste">7.6 Checklist específico para obras fictícias (ajuste)</h2>
+<p>Atualizando os itens que falavam do padrão de nome:</p>
+<ul class="task-list">
+<li><label><input type="checkbox">O microsubtema está claramente focado em <strong>uma única obra</strong> (não na franquia inteira, a menos que isso seja explicitado em outro tipo de microsubtema).</label></li>
+<li><label><input type="checkbox"><code>microsubtema</code> é <strong>apenas o nome da obra</strong> (ex.: <code>"Breaking Bad"</code>, <code>"La Casa de Papel"</code>), sem subtítulos ou recortes adicionais.</label></li>
+<li><label><input type="checkbox"><code>microsubtema_clean</code> é o nome da obra em <code>snake_case</code>, sem acentos nem caracteres especiais (ex.: <code>"breaking_bad"</code>, <code>"la_casa_de_papel"</code>).</label></li>
+<li><label><input type="checkbox">A <strong>Descrição</strong> resume a premissa em 1–3 linhas, sem virar resenha ou crítica.</label></li>
+<li><label><input type="checkbox">O <strong>Escopo</strong> cobre, no mínimo: autor/criador, personagens principais, ambientação, conflito básico e, se relevante, 1–2 prêmios importantes.</label></li>
+<li><label><input type="checkbox">A <strong>Matriz de variação</strong> inclui pelo menos um eixo de <strong>ator/dublador → personagem</strong> (quando for obra audiovisual) e um eixo de <strong>enredo → ambientação/conflito</strong>.</label></li>
+<li><label><input type="checkbox">Não há foco em bastidores especulativos, vida privada de atores ou teorias de fãs.</label></li>
+<li><label><input type="checkbox">Não se preocupe com spoilers de séries/filmes já terminados; tenha mais cuidado apenas com obras muito recentes.</label></li>
+<li><label><input type="checkbox">Todas as informações podem ser verificadas em <strong>fontes gerais confiáveis</strong> (Wikipedia, bases enciclopédicas de mídia, sites oficiais de editoras/estúdios).</label></li>
+<li><label><input type="checkbox">Não incluir perguntas nas quais o nome da obra seja a resposta da pergunta.</label></li>
+</ul>
+<hr>
+
+
 </section>
 </section>
 

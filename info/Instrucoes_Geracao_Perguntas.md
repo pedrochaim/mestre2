@@ -63,7 +63,7 @@ Você **deve** seguir o JSON Schema oficial (`pergunta.schema.json`) em todas as
 * **`pergunta`**: enunciado **auto-contido** em português (pt-BR).
 
   * Para **Múltipla escolha**, inclua **exatamente 4 alternativas A–D** **no próprio campo** `pergunta`.
-  * **Não** use perguntas de ordenação de eventos ou associação de pares.
+  * **Não** Use perguntas de ordenação de eventos ou associação de pares.
 * **`resposta`**: somente a **resposta final**, sem explicações, exemplos ou variações.
 
   * Aberta: um valor único (nome, número, lugar, conceito).
@@ -177,6 +177,10 @@ Ao gerar perguntas para um microsubtema:
 
   * Ruim: `"Qual país sediou a Copa do Mundo de 2014 no Brasil?"`
   * Melhor: `"Qual país sediou a Copa do Mundo de 2014 de futebol masculino?"`
+
+* Revise os enunciados para **evitar** enunciados que contém a resposta. 
+  - Exemplo 1: pergunta: "Qual meia brasileiro é conhecido como Ronaldinho Gaúcho e brilhou principalmente pelo Barcelona e pela seleção brasileira?" resposta: "Ronaldinho Gaúcho"
+  - Exemplo 2: Associe o personagem à peça:  Dom Juan — ( ) “Dom Juan” / “Dom Giovanni”  ( ) “As Fenícias” 
 
 ---
 

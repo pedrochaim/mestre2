@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -132,71 +167,128 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Tarefa: Gere 50 perguntas no nível do microsubtema abaixo. Lembre-se que são para um público informado, mas leigo. Evite termos técnicos desnecessários.</p>
-<p>Saída: retorne somente o arquivo .JSON válido conforme o schema, respeitando proporções de tipos e diversidade (sem duplicatas e max. 5 perguntas por indivíduo/fenômeno).</p>
+<p>Tarefa: Gere 50 perguntas no nível do microsubtema abaixo.</p>
+<p>Saída: retorne somente o arquivo .JSON válido (como código, sem formatação) conforme o <code>pergunta.schema.json</code>, respeitando proporções de tipos e diversidade.</p>
 <ul>
 <li>Não use ” ” no texto do campo <pergunta>. Exemplo: “pergunta”: “Quem foi Pelé?” (CORRETO) vs “pergunta”: “Quem foi”Pelé”?” (INCORRETO)</pergunta></li>
 <li>Pode utilizar acentuação (ex: não, está, próximo, vêm, etc) no campo <pergunta>.</pergunta></li>
 <li>No campo “fonte”, forneça apenas array com as urls, sem formatação de link clicavel markdown.</li>
 <li>Não há diferenciação de dificuldade. Cheque o json.schema</li>
 <li>nao inclua tag</li>
+<li>Lembre-se que são para um público informado, mas leigo. Evite termos técnicos desnecessários.</li>
+<li>Revise os enunciados para <strong>evitar</strong> enunciados que contém a resposta.
+<ul>
+<li>Exemplo 1: pergunta: “Qual meia brasileiro é conhecido como Ronaldinho Gaúcho e brilhou principalmente pelo Barcelona e pela seleção brasileira?” resposta: “Ronaldinho Gaúcho”</li>
+<li>Exemplo 2: Associe o personagem à peça: Dom Juan — ( ) “Dom Juan” / “Dom Giovanni” ( ) “As Fenícias”</li>
+</ul></li>
+<li>Ao elaborar questões do tipo Verdadeiro-Falso, equilibre as respostas.</li>
+<li>Respostas para perguntas abertas devem ser diretas: uma palavra (ou termo), ou no máximo uma frase curta.</li>
 </ul>
-<p>Tema: História Natural</p>
-<p>Subtema: Dinossauros</p>
-<p>Microsubtema:</p>
-<section id="defesas-chifres-placas-e-caudas-com-clava-defesas_chifres_e_placas" class="level2">
-<h2 class="anchored" data-anchor-id="defesas-chifres-placas-e-caudas-com-clava-defesas_chifres_e_placas">5) Defesas: chifres, placas e caudas com clava — <code>defesas_chifres_e_placas</code></h2>
-<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Estratégias de proteção em diferentes dinossauros herbívoros: chifres e escudos de cabeça, placas no dorso e caudas armadas. <strong>Escopo</strong> <strong>Inclusões (não exaustivo):</strong> Triceratops (chifres/escudo), Stegosaurus (placas/espinhos), Ankylosaurus (cauda em clava); exibição vs.&nbsp;defesa. <strong>Exclusões:</strong> armas não suportadas por ossos preservados. <strong>Referências (exemplos):</strong> Wikipedia EN: Triceratops; Stegosaurus; Ankylosaurus. <strong>Matriz de variação (eixos):</strong> tipo de defesa | possível função | porte | habitat.</p>
-<section id="exemplos-de-perguntas" class="level3">
-<h3 class="anchored" data-anchor-id="exemplos-de-perguntas">Exemplos de perguntas</h3>
-<p><strong>Abertas</strong></p>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Música Popular"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"musica_popular"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Latina e Caribenha: ritmos, instrumentos e fusões"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"latina_e_caribenha_ritmos_instrumentos_e_fusoes"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="latina-e-caribenha-ritmos-instrumentos-e-fusões-latina_e_caribenha_ritmos_instrumentos_e_fusoes" class="level2">
+<h2 class="anchored" data-anchor-id="latina-e-caribenha-ritmos-instrumentos-e-fusões-latina_e_caribenha_ritmos_instrumentos_e_fusoes">Latina e Caribenha: ritmos, instrumentos e fusões — <code>latina_e_caribenha_ritmos_instrumentos_e_fusoes</code></h2>
+<p><strong>Natureza.</strong> Transversal <strong>Descrição.</strong> Gêneros latinos e caribenhos por <strong>ritmos</strong> (reggaeton, salsa, bachata, merengue, cumbia, dembow), instrumentação típica (alto nível) e fusões documentadas com pop/hip-hop, sem depender de charts. <strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>:</p>
+<ul>
+<li>Ritmos/subgêneros: salsa, bachata, merengue, cumbia, reggaeton, dembow.</li>
+<li>Instrumentação (alto nível): percussões afro-caribenhas, metais em salsa, padrões de groove; termos amplos como “clave” quando aplicável e bem referenciado.</li>
+<li>Origem geográfica e linhagens (em alto nível e canônicas).</li>
+<li>Fusões: latin pop e crossovers (como fenômeno), remixes oficiais e feats entre cenas.</li>
+</ul></li>
+<li><p><strong>Exclusões</strong>:</p>
+<ul>
+<li>Rankings por país/semana; “música do carnaval do ano”; números de streaming.</li>
+<li>Polêmicas e disputas de autoria não consolidadas.</li>
+</ul></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN/ES/PT): gêneros e cenas; páginas de artistas/álbuns</li>
+<li>Enciclopédias musicais (AllMusic)</li>
+<li>Discogs para edições/créditos + fonte enciclopédica/oficial para confirmação</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Ritmo/subgênero → identidade</strong> (salsa/bachata/merengue/cumbia/reggaeton/dembow)</li>
+<li><strong>País/região → cena</strong> (Caribe hispânico; Colômbia; etc., em alto nível)</li>
+<li><strong>Instrumentação → timbre</strong> (metais/percussão/cordas; arranjos)</li>
+<li><strong>Dança/contexto → performance</strong> (club/baile/festa; alta-level)</li>
+<li><strong>Fusão → direção</strong> (tradicional→pop vs pop→tradicional; remixes/feats)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
 <ol type="1">
-<li><p>Qual dinossauro herbívoro de três chifres e grande escudo ósseo na cabeça é um dos mais conhecidos do Cretáceo da América do Norte ➜ Resposta: Triceratops.</p></li>
-<li><p>Que dinossauro herbívoro do Jurássico apresenta grandes placas ao longo do dorso e pares de espinhos na cauda ➜ Resposta: Stegosaurus.</p></li>
-<li><p>Qual dinossauro herbívoro fortemente blindado possuía uma cauda reforçada em forma de clava óssea ➜ Resposta: Ankylosaurus.</p></li>
-<li><p>Que tipo de estrutura protegeu partes do corpo de dinossauros blindados como Ankylosaurus além da cauda em clava ➜ Resposta: Placas e escudos ósseos na pele.</p></li>
-</ol>
-<p><strong>Múltipla escolha</strong></p>
+<li>Qual gênero latino urbano é fortemente associado ao padrão rítmico conhecido como “dembow” (conceito geral)?</li>
+<li>Qual ritmo é tradicionalmente associado à República Dominicana e é comum em bailes dançantes?</li>
+<li>Em termos gerais, o que diferencia “salsa” de “reggaeton” (instrumentação/arranjo vs batida urbana)?</li>
+<li>Em uma faixa com “remix” e participações extras, como costuma aparecer o crédito do artista convidado?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
 <ol type="1">
-<li>Os chifres e o escudo de Triceratops podiam ter servido para
+<li>Qual gênero é mais associado à República Dominicana?
 <ol type="A">
-<li>Capturar peixes em rios rasos</li>
-<li>Defesa contra predadores e exibição entre indivíduos da mesma espécie</li>
-<li>Locomoção mais rápida em mar aberto</li>
-<li>Respiração debaixo do solo ➜ Resposta correta: B) Defesa contra predadores e exibição entre indivíduos da mesma espécie.</li>
+<li>Bachata</li>
+<li>Grunge</li>
+<li>Drum &amp; bass</li>
+<li>Bluegrass</li>
 </ol></li>
-<li>As placas nas costas de Stegosaurus podem ter funcionado como
+<li>“Cumbia” é mais frequentemente associada (em origem histórica) a:
 <ol type="A">
-<li>Âncoras para nadar</li>
-<li>Estruturas para troca de calor e exibição</li>
-<li>Bolsas de ar para voar</li>
-<li>Reservatórios de água ➜ Resposta correta: B) Estruturas para troca de calor e exibição.</li>
+<li>Colômbia</li>
+<li>Suécia</li>
+<li>Canadá</li>
+<li>Austrália</li>
 </ol></li>
-<li>A cauda em clava de Ankylosaurus era provavelmente usada principalmente para
+<li>Salsa costuma enfatizar (em arranjos clássicos):
 <ol type="A">
-<li>Escavar tocas profundas</li>
-<li>Golpear predadores ou rivais</li>
-<li>Apoiar o corpo ao dormir</li>
-<li>Atrair insetos polinizadores ➜ Resposta correta: B) Golpear predadores ou rivais.</li>
+<li>Metais e percussão afro-caribenha (alto nível)</li>
+<li>Apenas sintetizadores e drops</li>
+<li>Apenas violão solo e banjo</li>
+<li>Somente canto a capella</li>
 </ol></li>
-<li>Dinossauros com armaduras pesadas e caudas armadas tendiam a ser
+<li>Qual opção é um exemplo de “fusão” (crossover) em música popular?
 <ol type="A">
-<li>Pequenos e muito velozes</li>
-<li>Herbívoros de corpo baixo e pesado</li>
-<li>Predadores marinhos</li>
-<li>Voadores ativos de longa distância ➜ Resposta correta: B) Herbívoros de corpo baixo e pesado.</li>
+<li>Uma faixa que mistura elementos de reggaeton com pop mainstream</li>
+<li>Um ranking semanal de rádio</li>
+<li>A troca de capa de um álbum sem mudar o áudio</li>
+<li>Um boato sobre turnê</li>
 </ol></li>
-</ol>
-<p><strong>Verdadeiro-falso</strong></p>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
 <ol type="1">
-<li><p>Todos os dinossauros herbívoros possuíam chifres na cabeça ➜ Resposta: Falso.</p></li>
-<li><p>As estruturas ósseas de defesa em dinossauros como Stegosaurus e Ankylosaurus são conhecidas a partir de fósseis preservados ➜ Resposta: Verdadeiro.</p></li>
-<li><p>Em dinossauros bem estudados é possível distinguir com segurança entre todas as funções de cada espinho ou placa individual ➜ Resposta: Falso.</p></li>
-<li><p>Em muitos casos as mesmas estruturas que ajudavam na defesa também podiam ser usadas em exibição para outros indivíduos da espécie ➜ Resposta: Verdadeiro.</p></li>
-</ol>
+<li>Reggaeton é frequentemente entendido como um gênero latino urbano com forte presença de batidas repetitivas e produção eletrônica.</li>
+<li>Cumbia é um ritmo latino com história documentada e múltiplas variações regionais.</li>
+<li>Rankings semanais são a melhor forma de definir o que é “latino e caribenho” num recorte longevo.</li>
+<li>Uma colaboração (“feat.”) pode conectar cenas distintas (pop, urbano, tradicional) no mesmo lançamento.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Separa “latin pop mainstream” (mercado) de “ritmos” (identidade rítmica), para reduzir sobreposição com o microsubtema de Pop.</label></li>
+<li><label><input type="checkbox">Evita charts/streams e prioriza história, instrumentação e créditos.</label></li>
+<li><label><input type="checkbox">Matriz garante diversidade por ritmo + país/cena + instrumento + fusão.</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por artista/faixa/álbum específico</strong> no conjunto final.</label></li>
+</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

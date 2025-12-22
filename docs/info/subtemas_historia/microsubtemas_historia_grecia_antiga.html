@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -132,18 +167,460 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="microsubtemas-historia-grecia-antiga" class="level1">
-<h1>Microsubtemas — Historia / Grecia Antiga</h1>
-<blockquote class="blockquote">
-<p>Arquivo <em>dummy</em> para testes de links e estrutura. Convenção: <code>microsubtemas_&lt;tema_clean&gt;_&lt;subtema_clean&gt;.md</code></p>
-</blockquote>
+<section id="períodos-e-cronologia-da-grécia-antiga-periodos_e_cronologia_da_grecia_antiga" class="level2">
+<h2 class="anchored" data-anchor-id="períodos-e-cronologia-da-grécia-antiga-periodos_e_cronologia_da_grecia_antiga">1) Períodos e Cronologia da Grécia Antiga — <code>periodos_e_cronologia_da_grecia_antiga</code></h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Grécia Antiga"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"grecia_antiga"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Períodos e Cronologia da Grécia Antiga"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"periodos_e_cronologia_da_grecia_antiga"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Recorte centrado nos principais períodos cronológicos da história grega (Bronze Egeu, Idade Obscura, Arcaico, Clássico e Helenístico) e em marcos datáveis: fundações, reformas políticas, guerras, tratados, conquistas e quedas de reinos/cidades.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
 <ul>
-<li><strong>tema_clean:</strong> <code>historia</code></li>
-<li><strong>subtema_clean:</strong> <code>grecia_antiga</code></li>
-<li><strong>caminho:</strong> <code>info/subtemas_historia/microsubtemas_historia_grecia_antiga.md</code></li>
+<li><p><strong>Inclusões (não exaustivo)</strong>: datas aproximadas de início e fim de períodos (civilização minoica e micênica, época homérica, período arcaico, clássico, helenístico), marcos como as Guerras Médicas, Guerra do Peloponeso, morte de Alexandre, criação de ligas e alianças, fundações de cidades importantes, mudanças de hegemonia entre poleis e reinos.</p></li>
+<li><p><strong>Exclusões</strong>: debates puramente interpretativos sobre “espírito” de um período; cronologias altamente controversas sem consenso mínimo; detalhes de Roma Antiga ou Império Bizantino a não ser como limite cronológico.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Verbete “Ancient Greece” / “Classical Greece” em enciclopédias históricas;</li>
+<li>Manuais de história antiga e cronologias sinóticas de mundo grego.</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li>Período histórico (Bronze Egeu, Arcaico, Clássico, Helenístico).</li>
+<li>Tipo de marco (guerra, reforma política, fundação, conquista, tratado).</li>
+<li>Espaço (Grécia continental, ilhas, costa jônica, reinos helenísticos).</li>
+<li>Personagens associados (líderes políticos, reis, estrategos).</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Em que século geralmente se situa o início do chamado período clássico da Grécia Antiga?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li>Qual destes eventos marca o fim convencional do período helenístico?</li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>A queda de Micenas é situável dentro da Idade do Bronze do mundo egeu.</li>
+</ul></li>
+<li><p><strong>Ordenação / Associação</strong></p>
+<ul>
+<li>Ordene os períodos “Arcaico, Helenístico, Clássico” da Grécia Antiga em sequência cronológica correta.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Perguntas distribuem-se entre vários períodos, sem concentrar tudo no século V a.C.</label></li>
+<li><label><input type="checkbox">Datas e marcos conferidos em pelo menos duas cronologias consistentes.</label></li>
+<li><label><input type="checkbox">Evitar números de datação muito polêmicos sem indicar ao menos o século.</label></li>
+<li><label><input type="checkbox">Nenhum indivíduo específico domina mais de 5 perguntas.</label></li>
+<li><label><input type="checkbox">Enunciados são auto-contidos e não dependem de outras questões do conjunto.</label></li>
 </ul>
 <hr>
-<p>Use este arquivo para inserir a lista de <strong>microsubtemas</strong> e seu detalhamento (natureza, descrição, escopo, exclusões, matriz de variação e exemplos), conforme suas instruções de projeto.</p>
+</section>
+<section id="cidades-estado-gregas-e-instituições-políticas-cidades_estado_gregas_e_instituicoes_politicas" class="level2">
+<h2 class="anchored" data-anchor-id="cidades-estado-gregas-e-instituições-políticas-cidades_estado_gregas_e_instituicoes_politicas">2) Cidades-Estado Gregas e Instituições Políticas — <code>cidades_estado_gregas_e_instituicoes_politicas</code></h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Grécia Antiga"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"grecia_antiga"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Cidades-Estado Gregas e Instituições Políticas"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"cidades_estado_gregas_e_instituicoes_politicas"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Foca nas poleis gregas (especialmente Atenas, Esparta e outras cidades relevantes) e em suas instituições políticas: assembleias, conselhos, magistraturas, leis, constituições, formas de governo e mudanças de regime ao longo do tempo.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: estruturas políticas de Atenas (ekklesia, boulé, tribunais populares), Esparta (diarquia, gerúsia, éforos), outras poleis notáveis (Corinto, Tebas, Mileto, Siracusa); formas de governo (monarquia, oligarquia, tirania, democracia); reformas de figuras como Sólon, Clístenes e Licurgo; confederações e ligas (liga de Delos, liga do Peloponeso).</p></li>
+<li><p><strong>Exclusões</strong>: teoria política abstrata posterior (p.&nbsp;ex., recepção moderna da democracia ateniense); história de Roma ou de outras civilizações não gregas, salvo comparações pontuais; mitos não ancorados em instituições reais.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Enciclopédias de história grega com verbetes “polis”, “Athenian democracy”, “Sparta”;</li>
+<li>Edições comentadas de constituições antigas (p.&nbsp;ex., “Constituição de Atenas” atribuída a Aristóteles).</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li>Polis específica (Atenas, Esparta, Tebas, Corinto, etc.).</li>
+<li>Tipo de instituição (assembleia, conselho, magistratura, tribunal, liga).</li>
+<li>Forma de governo (democracia, oligarquia, tirania, monarquia, diarquia).</li>
+<li>Período (Arcaico, Clássico, Helenístico) e mudanças institucionais.</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Qual era o nome da assembleia popular na democracia ateniense clássica?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li>Em que cidade grega vigorava a diarquia, com dois reis exercendo o poder simultaneamente?</li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>Em Atenas, todos os cidadãos homens, livres e nativos podiam participar da ekklesia.</li>
+</ul></li>
+<li><p><strong>Ordenação / Associação</strong></p>
+<ul>
+<li>Associe cada cidade-estado grega à forma de governo predominante em seu auge (Atenas – democracia, Esparta – diarquia oligárquica, etc.).</li>
+</ul></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Cobrir mais de uma polis, evitando foco exclusivo em Atenas.</label></li>
+<li><label><input type="checkbox">Explicar instituições com termos gregos apenas quando necessário e sempre com tradução.</label></li>
+<li><label><input type="checkbox">Evitar debates normativos (“melhor” ou “pior” regime).</label></li>
+<li><label><input type="checkbox">Verificar todas as informações institucionais em fontes especializadas.</label></li>
+<li><label><input type="checkbox">Manter limite de perguntas por personagem (Sólon, Clístenes etc.).</label></li>
+</ul>
+<hr>
+</section>
+<section id="guerras-e-conflitos-na-grécia-clássica-guerras_e_conflitos_na_grecia_classica" class="level2">
+<h2 class="anchored" data-anchor-id="guerras-e-conflitos-na-grécia-clássica-guerras_e_conflitos_na_grecia_classica">3) Guerras e Conflitos na Grécia Clássica — <code>guerras_e_conflitos_na_grecia_classica</code></h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia"</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Grécia Antiga"</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"grecia_antiga"</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Guerras e Conflitos na Grécia Clássica"</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"guerras_e_conflitos_na_grecia_classica"</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Focado em guerras e conflitos envolvendo gregos entre si e contra outros povos, com ênfase em campanhas, batalhas, tratados, lideranças militares e consequências políticas, principalmente entre séculos V e IV a.C.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: Guerras Médicas (Maratona, Salamina, Plateia), Guerra do Peloponeso, conflitos entre ligas (Liga de Delos vs.&nbsp;Liga do Peloponeso), hegemonia tebana, conquistas de Filipe II da Macedônia e campanhas de Alexandre, alianças e tratados (paz de Nícias, etc.), tecnologia militar (hoplitas, falange).</p></li>
+<li><p><strong>Exclusões</strong>: descrições gráficas de violência; debates táticos altamente técnicos; guerras totalmente fora do horizonte grego (Roma vs.&nbsp;Cartago, p.ex.), exceto quando afetam diretamente a Grécia.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Historiadores clássicos (Heródoto, Tucídides, Xenofonte) em edições acadêmicas;</li>
+<li>Sínteses modernas de história militar da Grécia Antiga.</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li>Conflito específico (Guerras Médicas, Peloponeso, hegemonia tebana, campanhas macedônicas).</li>
+<li>Escala (batalhas isoladas, guerras prolongadas, cerco, naval/terrestre).</li>
+<li>Protagonistas (cidades, ligas, reinos, comandantes).</li>
+<li>Consequências (mudanças de hegemonia, destruição de cidades, tratados de paz).</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Em que batalha naval os gregos derrotaram a frota persa durante as Guerras Médicas, em 480 a.C.?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li>Qual historiador é a principal fonte antiga sobre a Guerra do Peloponeso?</li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>As Guerras Médicas foram travadas principalmente entre cidades gregas e o Império Persa aquemênida.</li>
+</ul></li>
+<li><p><strong>Ordenação / Associação</strong></p>
+<ul>
+<li>Ordene cronologicamente: Guerra do Peloponeso, Guerras Médicas, campanhas de Alexandre, o Grande.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Distribuir perguntas entre vários conflitos, não apenas nas Guerras Médicas.</label></li>
+<li><label><input type="checkbox">Verificar datas e nomes de batalhas em mais de uma fonte.</label></li>
+<li><label><input type="checkbox">Evitar linguagem glorificadora ou sensacionalista.</label></li>
+<li><label><input type="checkbox">Limitar a no máximo 5 perguntas por comandante famoso (p.ex., Alexandre).</label></li>
+<li><label><input type="checkbox">Explicitar sempre quem combate quem e em que contexto.</label></li>
+</ul>
+<hr>
+</section>
+<section id="sociedade-e-vida-cotidiana-na-grécia-antiga-sociedade_e_vida_cotidiana_na_grecia_antiga" class="level2">
+<h2 class="anchored" data-anchor-id="sociedade-e-vida-cotidiana-na-grécia-antiga-sociedade_e_vida_cotidiana_na_grecia_antiga">4) Sociedade e Vida Cotidiana na Grécia Antiga — <code>sociedade_e_vida_cotidiana_na_grecia_antiga</code></h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia"</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Grécia Antiga"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"grecia_antiga"</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Sociedade e Vida Cotidiana na Grécia Antiga"</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"sociedade_e_vida_cotidiana_na_grecia_antiga"</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Foca na organização social, papéis de gênero, escravidão, educação, alimentação, habitação, festividades cívicas e rotinas de cidadãos, mulheres, estrangeiros e escravizados em diferentes contextos gregos, sobretudo Atenas e Esparta.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: categorias sociais (cidadãos, metecos, escravizados); infância e educação (paideia, agogê espartana); cotidiano doméstico e urbano (tipo de moradia, alimentação, vestimentas, trabalho); lazer (teatro, esportes, simpósios); papéis de mulheres em diferentes poleis.</p></li>
+<li><p><strong>Exclusões</strong>: descrições de violência sexual ou brutalidade detalhada; juízos morais contemporâneos sobre práticas antigas; reconstruções altamente especulativas sem base textual ou arqueológica clara.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Estudos sobre vida cotidiana na Atenas clássica;</li>
+<li>Obras sobre sociedade espartana e documentação epigráfica/arqueológica.</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li>Grupo social (cidadãos, metecos, escravizados, mulheres, crianças).</li>
+<li>Espaço (Atenas, Esparta, poleis jônicas, colônias).</li>
+<li>Ambiente (casa, praça pública, ginásio, campo, santuário).</li>
+<li>Atividade (trabalho, educação, lazer, culto, política).</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Como eram chamados os estrangeiros residentes em Atenas que não possuíam cidadania plena?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li>Em qual cidade grega a educação masculina incluía a rígida agogê militar desde a infância?</li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>Na maioria das poleis gregas, a cidadania plena estava restrita a homens livres, nascidos de pais cidadãos.</li>
+</ul></li>
+<li><p><strong>Ordenação / Associação</strong></p>
+<ul>
+<li>Associe cada grupo social grego a uma característica típica de seu status (cidadão, meteco, escravizado).</li>
+</ul></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Garantir diversidade de temas: família, trabalho, lazer, educação, status social.</label></li>
+<li><label><input type="checkbox">Evitar estereótipos simplificadores (especialmente sobre Esparta e mulheres).</label></li>
+<li><label><input type="checkbox">Basear afirmações em evidências documentadas (textos, iconografia, arqueologia).</label></li>
+<li><label><input type="checkbox">Tom neutro, sem justificar ou condenar práticas antigas.</label></li>
+<li><label><input type="checkbox">Limitar foco em figuras individuais; priorizar grupos e práticas gerais.</label></li>
+</ul>
+<hr>
+</section>
+<section id="religião-cultos-e-festivais-na-grécia-antiga-religiao_cultos_e_festivais_na_grecia_antiga" class="level2">
+<h2 class="anchored" data-anchor-id="religião-cultos-e-festivais-na-grécia-antiga-religiao_cultos_e_festivais_na_grecia_antiga">5) Religião, Cultos e Festivais na Grécia Antiga — <code>religiao_cultos_e_festivais_na_grecia_antiga</code></h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História"</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia"</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Grécia Antiga"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"grecia_antiga"</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Religião, Cultos e Festivais na Grécia Antiga"</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"religiao_cultos_e_festivais_na_grecia_antiga"</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Trata da religião cívica grega: santuários, templos, rituais, festivais pan-helênicos, oráculos e práticas de culto, privilegiando aspectos institucionais e históricos em vez de narrativas míticas em si (que pertencem ao subtema Mitologia em outro tema).</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: principais santuários (Delfos, Olímpia, Eleusis, Délos), festivais (Jogos Olímpicos, Píticos, Panateneias), sacerdócios, oráculos, calendários cívicos, rituais de sacrifício, relação entre culto e política nas cidades.</p></li>
+<li><p><strong>Exclusões</strong>: interpretações teológicas modernas; discussões de fé contemporânea; narrativas míticas desvinculadas de locais e práticas concretas (essas cabem em Mitologia).</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Estudos sobre religião grega antiga;</li>
+<li>Documentação arqueológica e epigráfica de santuários e festivais.</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li>Tipo de lugar sagrado (santuário pan-helênico, templo urbano, santuário rural).</li>
+<li>Tipo de evento (festival esportivo, religioso, mistério, procissão).</li>
+<li>Cidade ou região (Ática, Peloponeso, Delfos, ilhas).</li>
+<li>Função do culto (cívico, pan-helênico, mistérico, oracular).</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Em qual santuário grego funcionava o famoso oráculo consultado por cidades e indivíduos de todo o mundo helênico?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li>Os Jogos Olímpicos da Antiguidade eram dedicados principalmente a qual deus do panteão grego?</li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>As Panateneias eram festivais em honra de Atena, realizados em Atenas.</li>
+</ul></li>
+<li><p><strong>Ordenação / Associação</strong></p>
+<ul>
+<li>Associe cada festival pan-helênico à cidade ou região em que era realizado.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Diferenciar claramente religião histórica de mitologia narrativa.</label></li>
+<li><label><input type="checkbox">Referenciar lugares e festivais com base em evidência arqueológica e textual.</label></li>
+<li><label><input type="checkbox">Não extrapolar práticas modernas a partir da religião antiga.</label></li>
+<li><label><input type="checkbox">Cobrir mais de um santuário/festival importante.</label></li>
+<li><label><input type="checkbox">Manter linguagem descritiva, sem juízos de valor sobre crenças.</label></li>
+</ul>
+<hr>
+</section>
+<section id="colonização-grega-e-expansão-pelo-mediterrâneo-colonizacao_grega_e_expansao_pelo_mediterraneo" class="level2">
+<h2 class="anchored" data-anchor-id="colonização-grega-e-expansão-pelo-mediterrâneo-colonizacao_grega_e_expansao_pelo_mediterraneo">6) Colonização Grega e Expansão pelo Mediterrâneo — <code>colonizacao_grega_e_expansao_pelo_mediterraneo</code></h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História"</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia"</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Grécia Antiga"</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"grecia_antiga"</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Colonização Grega e Expansão pelo Mediterrâneo"</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"colonizacao_grega_e_expansao_pelo_mediterraneo"</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Dedica-se à expansão grega pelo Mediterrâneo e Mar Negro: fundação de colônias, rotas comerciais, contatos com outros povos, circulação de bens e ideias desde o período arcaico até a época helenística.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: fundação de colônias (p.ex., Siracusa, Tarento, Massália, colônias do Mar Negro), motivos da colonização (superpopulação, comércio, busca de terras), rotas marítimas, relações com povos locais (etruscos, fenícios, povos da Anatólia, egípcios), difusão do alfabeto e de práticas políticas.</p></li>
+<li><p><strong>Exclusões</strong>: colonização romana posterior; projeções de conceitos modernos de colonialismo sem contextualização; números populacionais altamente especulativos.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Estudos de arqueologia colonial grega no Mediterrâneo e Mar Negro;</li>
+<li>Mapas históricos de colônias gregas.</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li>Região de colonização (Magna Grécia, Gália, Mar Negro, norte da África).</li>
+<li>Metrópole (cidade “mãe”) e sua colônia.</li>
+<li>Função principal da colônia (agrícola, comercial, estratégica).</li>
+<li>Povo(s) vizinho(s) com quem mantinha contato.</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Qual cidade grega fundou a colônia de Massália, na costa do que hoje é a França?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li>O termo “Magna Grécia” refere-se principalmente a colônias gregas em qual região atual?</li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>A colonização grega no Mediterrâneo Ocidental ocorreu sobretudo durante o período arcaico.</li>
+</ul></li>
+<li><p><strong>Ordenação / Associação</strong></p>
+<ul>
+<li>Associe cada colônia grega conhecida à região aproximada em que se localizava no mapa atual.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Incluir exemplos de diferentes regiões, não só da Itália do sul.</label></li>
+<li><label><input type="checkbox">Confirmar vínculos metrópole–colônia em mapas e fontes textuais.</label></li>
+<li><label><input type="checkbox">Evitar anacronismos ao falar de “países” modernos.</label></li>
+<li><label><input type="checkbox">Indicar sempre a área geográfica atual para orientar o público leigo.</label></li>
+<li><label><input type="checkbox">Não ultrapassar 5 perguntas por colônia específica.</label></li>
+</ul>
+<hr>
+</section>
+<section id="o-mundo-helenístico-após-alexandre-o-grande-mundo_helenistico_apos_alexandre" class="level2">
+<h2 class="anchored" data-anchor-id="o-mundo-helenístico-após-alexandre-o-grande-mundo_helenistico_apos_alexandre">7) O Mundo Helenístico após Alexandre, o Grande — <code>mundo_helenistico_apos_alexandre</code></h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"História"</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"historia"</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Grécia Antiga"</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"grecia_antiga"</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"O Mundo Helenístico após Alexandre, o Grande"</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"mundo_helenistico_apos_alexandre"</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-06"</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático <strong>Descrição.</strong> Trata do período helenístico após a morte de Alexandre, o Grande: reinos sucessores, cidades importantes, dinastias, centros culturais, misturas culturais e processos políticos entre séculos IV e I a.C., até a incorporação progressiva dessas regiões por Roma.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: reinos helenísticos (ptolomaico, selêucida, antigônida, pérgamo), cidades-chave (Alexandria, Antioquia, Pérgamo), dinastias, bibliotecas e centros de saber, guerras dos Diádocos, cultura de corte, relações com Roma emergente, marcos da transição para domínio romano.</p></li>
+<li><p><strong>Exclusões</strong>: história interna de Roma fora de sua interação com o mundo helenístico; biografias modernas romantizadas sem base documental; debates historiográficos muito especializados.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Sínteses sobre o período helenístico;</li>
+<li>Estudos sobre reinos sucessores de Alexandre e cidades helenísticas.</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li>Reino/dinastia (Ptolomeus, Selêucidas, Antigônidas, Átalidas).</li>
+<li>Tipo de evidência (inscrições, moedas, fontes literárias, arqueologia).</li>
+<li>Espaço (Egito, Ásia Menor, Síria, Macedônia, Oriente Próximo).</li>
+<li>Tema (política, urbanismo, cultura letrada, relações com Roma).</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Qual cidade egípcia se tornou um dos maiores centros culturais do mundo helenístico, sediando uma famosa biblioteca?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li>Em qual reino helenístico governaram os Ptolomeus após a morte de Alexandre?</li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>O período helenístico termina convencionalmente quando Roma consolida o domínio sobre os principais reinos helenísticos.</li>
+</ul></li>
+<li><p><strong>Ordenação / Associação</strong></p>
+<ul>
+<li>Associe cada reino helenístico à região principal que controlava (ptolomaico – Egito, selêucida – Síria e Mesopotâmia, etc.).</li>
+</ul></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Diferenciar claramente período clássico do período helenístico.</label></li>
+<li><label><input type="checkbox">Incluir perguntas sobre ao menos três reinos diferentes.</label></li>
+<li><label><input type="checkbox">Checar cronologias de conquistas e anexações por Roma em mais de uma fonte.</label></li>
+<li><label><input type="checkbox">Evitar foco exclusivo em Alexandria; incluir outras cidades helenísticas.</label></li>
+<li><label><input type="checkbox">Manter limite de perguntas por personagem (p.ex., Alexandre, Ptolomeus).</label></li>
+</ul>
+<hr>
 
 
 </section>

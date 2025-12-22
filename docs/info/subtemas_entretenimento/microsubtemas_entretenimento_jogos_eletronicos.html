@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -132,18 +167,671 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="microsubtemas-entretenimento-jogos-eletronicos" class="level1">
-<h1>Microsubtemas — Entretenimento / Jogos Eletronicos</h1>
-<blockquote class="blockquote">
-<p>Arquivo <em>dummy</em> para testes de links e estrutura. Convenção: <code>microsubtemas_&lt;tema_clean&gt;_&lt;subtema_clean&gt;.md</code></p>
-</blockquote>
+<p>Abaixo estão os <strong>7 microsubtemas</strong> consolidados no <strong>padrão completo</strong> (YAML + corpo em Markdown na ordem <strong>Cabeçalho → Natureza → Descrição → Localização → Escopo → Matriz de variação → Exemplos → Checklist</strong>).</p>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Jogos Eletrônicos"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"jogos_eletronicos"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Gerações de consoles e plataformas (1977–2013)"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"geracoes_de_consoles_e_plataformas_1977_2013"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="gerações-de-consoles-e-plataformas-19772013-geracoes_de_consoles_e_plataformas_1977_2013" class="level2">
+<h2 class="anchored" data-anchor-id="gerações-de-consoles-e-plataformas-19772013-geracoes_de_consoles_e_plataformas_1977_2013">Gerações de consoles e plataformas (1977–2013) — <code>geracoes_de_consoles_e_plataformas_1977_2013</code></h2>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Consoles e plataformas (domésticos e portáteis) organizados por “gerações” e marcos técnicos/editoriais entre 1977 e 2013, com foco em lançamentos, fabricantes, mídias e diferenciações de época.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
 <ul>
-<li><strong>tema_clean:</strong> <code>entretenimento</code></li>
-<li><strong>subtema_clean:</strong> <code>jogos_eletronicos</code></li>
-<li><strong>caminho:</strong> <code>info/subtemas_entretenimento/microsubtemas_entretenimento_jogos_eletronicos.md</code></li>
+<li><p><strong>Inclusões (não exaustivo)</strong>: gerações “clássicas” (pré-crash, 8-bit, 16-bit, 32/64-bit, 128-bit, HD inicial), consoles domésticos e handhelds relevantes; plataformas e famílias (Atari, Nintendo, Sega, Sony, Microsoft, SNK, NEC, etc.); marcos como mídia (cartucho/CD/DVD/UMD), retrocompatibilidade, “add-ons” oficiais, e periféricos emblemáticos (quando canônicos).</p></li>
+<li><p><strong>Exclusões</strong>: números voláteis (vendas “até hoje”, preços, “mais vendido do ano”), revisões de hardware menores sem consenso enciclopédico, rumores/ protótipos não lançados comercialmente, e consoles pós-2013 (como regra editorial para manter estabilidade).</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): verbetes de “video game console generations”, páginas de cada console/handheld</li>
+<li>Enciclopédias e livros de história dos videogames; linhas do tempo oficiais de fabricantes (quando existirem)</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Geração → período</strong> (2ª a 7ª; transições e “ponte” de 2013)</li>
+<li><strong>Plataforma → fabricante</strong> (Nintendo/Sega/Sony/Microsoft/Atari/NEC/SNK…)</li>
+<li><strong>Região → lançamento</strong> (Japão/Américas/Europa; datas e nomes regionais quando canônicos)</li>
+<li><strong>Mídia → formato</strong> (cartucho, CD, DVD, mídia proprietária; digital inicial)</li>
+<li><strong>Categoria → uso</strong> (doméstico vs portátil; híbridos e “microconsoles” apenas se bem documentados no recorte temporal)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>Qual console é frequentemente associado à popularização doméstica de jogos com cartucho no fim dos anos 1970?</li>
+<li>Em qual geração costuma ser colocado o PlayStation 2?</li>
+<li>Qual console marcou a entrada da Microsoft no mercado de consoles domésticos?</li>
+<li>Qual portátil da Nintendo antecedeu o Nintendo DS como grande linha de handhelds?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual par console–fabricante está correto?
+<ol type="A">
+<li>Dreamcast – Sony</li>
+<li>Xbox – Microsoft</li>
+<li>GameCube – Sega</li>
+<li>PlayStation – Nintendo</li>
+</ol></li>
+<li>Qual destes é um console portátil?
+<ol type="A">
+<li>Nintendo 64</li>
+<li>Sega Saturn</li>
+<li>PlayStation Portable (PSP)</li>
+<li>Xbox 360</li>
+</ol></li>
+<li>Qual plataforma é mais frequentemente associada ao salto para a era “HD” (meados dos anos 2000)?
+<ol type="A">
+<li>Atari 2600</li>
+<li>PlayStation 2</li>
+<li>Xbox 360</li>
+<li>Super Nintendo</li>
+</ol></li>
+<li>Qual mídia foi usada como padrão nos jogos do Nintendo 64?
+<ol type="A">
+<li>CD-ROM</li>
+<li>Cartucho</li>
+<li>DVD</li>
+<li>Blu-ray</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>O PlayStation original foi lançado antes do PlayStation 2.</li>
+<li>O Game Boy é um console portátil.</li>
+<li>O Xbox 360 pertence à mesma geração do Atari 2600.</li>
+<li>O Sega Genesis (Mega Drive) é geralmente associado à era 16-bit.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">O recorte permite <strong>≥ 80 perguntas</strong> com variação de gerações, fabricantes e regiões (sem saturar 1 console só).</label></li>
+<li><label><input type="checkbox">Evita métricas voláteis (preços, vendas “até hoje”, rankings do ano).</label></li>
+<li><label><input type="checkbox">Inclusões e exclusões estão claras e <strong>não exaustivas</strong>.</label></li>
+<li><label><input type="checkbox">Matriz cobre tempo, região, mídia e categoria (doméstico/portátil).</label></li>
+<li><label><input type="checkbox">Planejar geração de perguntas com <strong>no máximo 5 itens por console específico</strong>.</label></li>
 </ul>
 <hr>
-<p>Use este arquivo para inserir a lista de <strong>microsubtemas</strong> e seu detalhamento (natureza, descrição, escopo, exclusões, matriz de variação e exemplos), conforme suas instruções de projeto.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Jogos Eletrônicos"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"jogos_eletronicos"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Franquias longas e ordem canônica"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"franquias_longas_e_ordem_canonica"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="franquias-longas-e-ordem-canônica-franquias_longas_e_ordem_canonica" class="level2">
+<h2 class="anchored" data-anchor-id="franquias-longas-e-ordem-canônica-franquias_longas_e_ordem_canonica">Franquias longas e ordem canônica — <code>franquias_longas_e_ordem_canonica</code></h2>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Franquias com muitos títulos, explorando ordem de lançamento, entradas principais vs spin-offs, reboots e (quando oficial) cronologia interna. Foco em informações canônicas e auditáveis.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: franquias extensas (ex.: Mario, Zelda, Final Fantasy, Pokémon, Call of Duty, Resident Evil, Tomb Raider, The Elder Scrolls, Civilization, Metal Gear, Sonic, Street Fighter etc.); distinção entre “mainline” e derivados; reboots/remakes quando oficialmente declarados; plataformas/ano do primeiro lançamento; subtítulos e numerações oficiais.</p></li>
+<li><p><strong>Exclusões</strong>: teorias de fãs, “ordens recomendadas” não oficiais, cronologias disputadas sem fonte canônica, rumores de lançamentos futuros, rankings e recepção crítica como critério central.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): páginas de franquias e listas de jogos por série</li>
+<li>Sites oficiais de publishers/franquias; enciclopédias e compêndios históricos de séries</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Franquia → tamanho</strong> (10+ entradas vs 5–9 vs trilogias com muitos spin-offs)</li>
+<li><strong>Entrada → tipo</strong> (principal / spin-off / remake-remaster / reboot)</li>
+<li><strong>Ordem → critério</strong> (lançamento vs cronologia interna oficial)</li>
+<li><strong>Plataforma → origem</strong> (plataforma do 1º jogo; migração multiplataforma)</li>
+<li><strong>Região → título</strong> (nomes e lançamentos regionais quando canônicos)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>Qual foi o primeiro jogo da franquia Pokémon (título e plataforma original)?</li>
+<li>Qual é a ordem de lançamento dos três primeiros jogos numerados de <em>Street Fighter</em>?</li>
+<li>Em qual plataforma estreou a franquia <em>The Legend of Zelda</em>?</li>
+<li>Qual franquia tem a série principal numerada que inclui <em>Final Fantasy VII</em> e <em>Final Fantasy X</em>?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual par franquia–entrada pertence à série principal (mainline)?
+<ol type="A">
+<li>Resident Evil – Resident Evil 2</li>
+<li>Mario – Mario Kart 8</li>
+<li>The Elder Scrolls – The Elder Scrolls V: Skyrim</li>
+<li>Civilization – Civilization VI <em>(Atenção: “série principal” deve ser tratada conforme a fonte do verbete da franquia; aqui o objetivo é o formato do item.)</em></li>
+</ol></li>
+<li>Qual destas franquias começou originalmente no NES?
+<ol type="A">
+<li>Halo</li>
+<li>The Legend of Zelda</li>
+<li>The Witcher</li>
+<li>Destiny</li>
+</ol></li>
+<li>Qual destas opções descreve melhor um “reboot”?
+<ol type="A">
+<li>Continuação direta da história anterior</li>
+<li>Relançamento do mesmo jogo sem mudanças</li>
+<li>Reinício da continuidade/abordagem da série</li>
+<li>Expansão (DLC) de um jogo existente</li>
+</ol></li>
+<li>Qual destas franquias é conhecida por múltiplas entradas numeradas na série principal?
+<ol type="A">
+<li>Portal</li>
+<li>Final Fantasy</li>
+<li>Disco Elysium</li>
+<li>Inside</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Um “spin-off” é, em geral, um título derivado de uma franquia que não necessariamente faz parte da linha principal.</li>
+<li>Um “remaster” é sempre um jogo totalmente refeito do zero (como um remake).</li>
+<li>A ordem de lançamento de uma franquia pode ser diferente da cronologia interna da história.</li>
+<li>Um “reboot” costuma reiniciar a abordagem de uma série, em vez de apenas relançar o mesmo jogo.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Escopo cobre franquias variadas (RPG, ação, corrida, luta, estratégia etc.) e diferentes décadas.</label></li>
+<li><label><input type="checkbox">Evita cronologias “de fã” e prioriza o que é <strong>oficial/canônico</strong>.</label></li>
+<li><label><input type="checkbox">Evita “melhor jogo da série” (opinião) e listas por nota/ano.</label></li>
+<li><label><input type="checkbox">Mantém <strong>≤ 5 perguntas por franquia</strong> no conjunto, para diversidade.</label></li>
+</ul>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Jogos Eletrônicos"</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"jogos_eletronicos"</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Estúdios e publishers: quem fez o quê"</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"estudios_e_publishers_quem_fez_o_que"</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="estúdios-e-publishers-quem-fez-o-quê-estudios_e_publishers_quem_fez_o_que" class="level2">
+<h2 class="anchored" data-anchor-id="estúdios-e-publishers-quem-fez-o-quê-estudios_e_publishers_quem_fez_o_que">Estúdios e publishers: quem fez o quê — <code>estudios_e_publishers_quem_fez_o_que</code></h2>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Relações auditáveis entre jogos/franquias e seus estúdios/publishers: “quem desenvolveu”, “quem publicou”, e como isso varia por época, região e plataforma.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: desenvolvedores, publishers e selos; distinção “desenvolvido por” vs “publicado por”; jogos e franquias notáveis associados a empresas; fundação/país-sede (quando canônico); engines proprietárias quando diretamente ligadas ao estúdio (alto nível).</p></li>
+<li><p><strong>Exclusões</strong>: fofocas corporativas, rumores de aquisição, mudanças muito recentes e instáveis, dados financeiros, polêmicas e eventos em andamento; “melhor publisher” (opinião).</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): páginas de empresas e listas de jogos por estúdio</li>
+<li>MobyGames (como apoio de créditos, se necessário) + confirmação em fonte enciclopédica/oficial</li>
+<li>Sites oficiais de estúdios/publishers; comunicados oficiais para créditos (quando aplicável)</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Empresa → papel</strong> (developer / publisher / co-desenvolvimento / co-publicação)</li>
+<li><strong>Região → atuação</strong> (Japão, EUA/Canadá, Europa, Coreia, China…)</li>
+<li><strong>Década → marcos</strong> (anos 80/90/2000/2010)</li>
+<li><strong>Plataforma → foco</strong> (PC, consoles, handheld, mobile — quando canônico)</li>
+<li><strong>IP → titularidade</strong> (quando a relação for estável e bem documentada)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>Qual estúdio é creditado como desenvolvedor principal de <em>Half-Life</em>?</li>
+<li>Quem publicou <em>The Witcher 3: Wild Hunt</em> originalmente?</li>
+<li>Qual empresa é tradicionalmente associada à franquia <em>The Legend of Zelda</em> como publisher?</li>
+<li>Qual estúdio é conhecido por desenvolver a série principal <em>Civilization</em>?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual par jogo–desenvolvedor está correto?
+<ol type="A">
+<li>Portal – Valve</li>
+<li>Halo: Combat Evolved – Nintendo</li>
+<li>God of War – Capcom</li>
+<li>Pokémon Red/Blue – Bungie</li>
+</ol></li>
+<li>Em créditos de jogos, “publisher” é, em geral, quem:
+<ol type="A">
+<li>Programa o jogo sozinho</li>
+<li>Distribui/financia/publica comercialmente</li>
+<li>Faz apenas a trilha sonora</li>
+<li>Cria apenas a arte conceitual</li>
+</ol></li>
+<li>Qual empresa é mais associada como publisher da série <em>Assassin’s Creed</em>?
+<ol type="A">
+<li>Ubisoft</li>
+<li>Sega</li>
+<li>Square Enix</li>
+<li>CD Projekt</li>
+</ol></li>
+<li>Qual estúdio é mais associado ao desenvolvimento de <em>World of Warcraft</em>?
+<ol type="A">
+<li>Blizzard Entertainment</li>
+<li>FromSoftware</li>
+<li>id Software</li>
+<li>Rare</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Um jogo pode ter co-desenvolvimento (mais de um estúdio) e ainda assim ter um publisher principal.</li>
+<li>“Developer” e “publisher” significam exatamente a mesma coisa.</li>
+<li>Um mesmo publisher pode publicar jogos de múltiplos estúdios diferentes.</li>
+<li>Créditos de desenvolvimento são, em geral, verificáveis em fontes enciclopédicas e/ou oficiais.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Diferencia claramente “desenvolvido por” vs “publicado por”.</label></li>
+<li><label><input type="checkbox">Evita fatos instáveis (mudanças corporativas recentes/rumores).</label></li>
+<li><label><input type="checkbox">Matriz garante diversidade por região e década.</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por empresa</strong> no conjunto.</label></li>
+</ul>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Jogos Eletrônicos"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"jogos_eletronicos"</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Arcades, fliperamas e placas clássicas"</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"arcades_fliperamas_e_placas_classicas"</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="arcades-fliperamas-e-placas-clássicas-arcades_fliperamas_e_placas_classicas" class="level2">
+<h2 class="anchored" data-anchor-id="arcades-fliperamas-e-placas-clássicas-arcades_fliperamas_e_placas_classicas">Arcades, fliperamas e placas clássicas — <code>arcades_fliperamas_e_placas_classicas</code></h2>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Ecossistema arcade: jogos originalmente de fliperama, fabricantes, padrões e placas/sistemas, além de conceitos (cabinet, JAMMA, conversões/ports), com foco histórico e técnico de alto nível.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: era dos arcades (aprox. fim dos anos 1970–2000s), empresas (Capcom, Sega, Namco, Konami, SNK etc.), padrões (JAMMA), famílias de hardware (ex.: CPS, Neo Geo, Model/Naomi — quando canônico), gêneros “arcade-first” (shoot ’em up, beat ’em up, luta 2D), e jogos notáveis originalmente arcade e suas conversões caseiras históricas.</p></li>
+<li><p><strong>Exclusões</strong>: preços/colecionismo, mercado secundário, recordes de pontuação, “melhores arcades” por opinião, e arcades modernos baseados em patches/temporadas.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): verbetes de sistemas/placas e jogos arcade</li>
+<li>Museus/arquivos de história dos videogames; catálogos históricos (quando disponíveis)</li>
+<li>Documentação técnica resumida e enciclopédica (alto nível)</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Década → era</strong> (70s/80s/90s/2000s)</li>
+<li><strong>Empresa → plataforma</strong> (SNK/Neo Geo; Capcom/CPS; Sega/Model/Naomi etc.)</li>
+<li><strong>Gênero → arcade-first</strong> (luta, shmup, beat ’em up, corrida, rhythm)</li>
+<li><strong>Jogo → origem</strong> (arcade original vs port conhecido)</li>
+<li><strong>Padrão → infraestrutura</strong> (JAMMA, tipos de cabinet, controles típicos)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>O que significa a sigla JAMMA no contexto de arcades?</li>
+<li>Qual empresa está historicamente associada ao sistema Neo Geo?</li>
+<li>Cite um exemplo de jogo que ficou famoso primeiro nos fliperamas antes de ganhar versões caseiras.</li>
+<li>Qual gênero é classicamente associado a máquinas com “1 vs 1” e rounds, como muitos títulos de luta?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual empresa é mais associada historicamente a <em>Street Fighter II</em> no contexto arcade?
+<ol type="A">
+<li>Capcom</li>
+<li>Nintendo</li>
+<li>Microsoft</li>
+<li>Valve</li>
+</ol></li>
+<li>“Beat ’em up” descreve mais diretamente jogos de:
+<ol type="A">
+<li>Combate corpo a corpo em fases com vários inimigos</li>
+<li>Simulação de voo civil</li>
+<li>Quebra-cabeças de palavras</li>
+<li>Gestão de cidades</li>
+</ol></li>
+<li>Qual destas opções é um sistema arcade/placa amplamente associado à SNK?
+<ol type="A">
+<li>Neo Geo</li>
+<li>PlayStation 2</li>
+<li>Game Boy Advance</li>
+<li>Xbox</li>
+</ol></li>
+<li>Em arcades clássicos, “cabinet” se refere principalmente ao:
+<ol type="A">
+<li>Manual do jogo</li>
+<li>Gabinete/máquina física onde o jogo roda</li>
+<li>Nome do desenvolvedor</li>
+<li>Cartão de memória do jogador</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Muitos jogos clássicos foram lançados primeiro em arcades e depois receberam ports para consoles.</li>
+<li>JAMMA é um padrão relacionado a conectores/infraestrutura de arcade.</li>
+<li>“Arcade” e “console doméstico” são necessariamente a mesma categoria de plataforma.</li>
+<li>Gêneros como shmup e beat ’em up tiveram grande presença em fliperamas.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Mantém foco histórico/técnico de alto nível (sem mercado, preços e recordes).</label></li>
+<li><label><input type="checkbox">Matriz garante diversidade por década, empresa e gênero.</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por jogo específico</strong> (não saturar um “clássico” só).</label></li>
+</ul>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Jogos Eletrônicos"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"jogos_eletronicos"</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"FPS: Mecânicas, Subgêneros e Marcos Históricos"</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"fps_mecanicas_subgeneros_e_marcos_historicos"</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="fps-mecânicas-subgêneros-e-marcos-históricos-fps_mecanicas_subgeneros_e_marcos_historicos" class="level2">
+<h2 class="anchored" data-anchor-id="fps-mecânicas-subgêneros-e-marcos-históricos-fps_mecanicas_subgeneros_e_marcos_historicos">FPS: Mecânicas, Subgêneros e Marcos Históricos — <code>fps_mecanicas_subgeneros_e_marcos_historicos</code></h2>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Vocabulário e conceitos de FPS (mecânicas e modos), subgêneros e títulos-marco como referência histórica (sem meta competitivo do momento).</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: conceitos (hitscan vs projétil, ADS, recoil, strafe, TTK como conceito), modos (deathmatch, CTF), subgêneros (arena, tático, mil-sim, boomer shooter, hero shooter), marcos históricos amplamente documentados (ex.: jogos que popularizaram padrões de design).</p></li>
+<li><p><strong>Exclusões</strong>: balanceamento por patch, “tier list”, temporadas/ligas correntes, estatísticas de armas atualizadas, cenas competitivas em tempo real.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): páginas de jogos e artigos sobre “first-person shooter”</li>
+<li>Livros/artigos de história do FPS; documentações oficiais quando relevantes (alto nível)</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Subgênero → foco</strong> (arena vs tático vs mil-sim vs narrativo)</li>
+<li><strong>Modo → objetivo</strong> (DM, CTF, bomb/defuse, co-op etc.)</li>
+<li><strong>Mecânica → ênfase</strong> (movimento, mira, cobertura, classes)</li>
+<li><strong>Época → evolução</strong> (90s/2000s/2010s)</li>
+<li><strong>Plataforma → tradição</strong> (PC vs console; crossplay como conceito apenas se canônico)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>O que significa “ADS” (aim down sights) em um FPS?</li>
+<li>Em termos gerais, qual a diferença entre um FPS “arena” e um FPS “tático”?</li>
+<li>O que é um modo “capture the flag” (CTF)?</li>
+<li>O que significa “hitscan” em mecânicas de tiro?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual opção descreve melhor “recoil”?
+<ol type="A">
+<li>Recuo da arma que afeta a mira ao disparar</li>
+<li>Mudança de mapa entre partidas</li>
+<li>Remoção de texturas para melhorar performance</li>
+<li>Sistema de diálogos com escolhas</li>
+</ol></li>
+<li>Em um FPS “tático”, é mais comum enfatizar:
+<ol type="A">
+<li>Tiroteios caóticos sem objetivos</li>
+<li>Coordenação, posicionamento e objetivos estruturados</li>
+<li>Construção de cidades</li>
+<li>Turnos e grade hexagonal</li>
+</ol></li>
+<li>“Deathmatch” é mais diretamente:
+<ol type="A">
+<li>Partida por equipes para capturar bandeiras</li>
+<li>Modo de eliminação por pontuação/abates</li>
+<li>Modo de cartas colecionáveis</li>
+<li>Modo de gestão econômica</li>
+</ol></li>
+<li>“Strafing” se refere principalmente a:
+<ol type="A">
+<li>Movimento lateral durante a movimentação/combate</li>
+<li>Trocar de arma automaticamente</li>
+<li>Recarregar mais rápido</li>
+<li>Abrir o mapa tático</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>“CTF” é um modo em que equipes tentam capturar a bandeira do adversário.</li>
+<li>“Hitscan” implica que o disparo não tem tempo de viagem perceptível, como se fosse instantâneo.</li>
+<li>FPS é um gênero baseado em turnos obrigatoriamente.</li>
+<li>Subgêneros de FPS podem variar bastante em ritmo e objetivos.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Evita meta/temporadas e mantém conceitos estáveis.</label></li>
+<li><label><input type="checkbox">Matriz assegura diversidade de subgêneros, modos e épocas.</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por jogo específico</strong> (usar jogos como exemplos, não como “monopólio” do banco).</label></li>
+</ul>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Jogos Eletrônicos"</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"jogos_eletronicos"</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"RPG: Sistemas, Estruturas Narrativas e Subgêneros"</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"rpg_sistemas_estruturas_narrativas_e_subgeneros"</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="rpg-sistemas-estruturas-narrativas-e-subgêneros-rpg_sistemas_estruturas_narrativas_e_subgeneros" class="level2">
+<h2 class="anchored" data-anchor-id="rpg-sistemas-estruturas-narrativas-e-subgêneros-rpg_sistemas_estruturas_narrativas_e_subgeneros">RPG: Sistemas, Estruturas Narrativas e Subgêneros — <code>rpg_sistemas_estruturas_narrativas_e_subgeneros</code></h2>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Conceitos e estruturas comuns em RPGs (progressão, builds, combate e narrativa), além de subgêneros (JRPG/CRPG/ARPG/MMORPG etc.) e marcos históricos amplamente aceitos.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: progressão (XP/nível, atributos, classes), builds e árvores de habilidades, loot/raridade (como conceito), party vs solo, estruturas de combate (turn-based, action, real-time with pause), subgêneros (JRPG, CRPG, ARPG, dungeon crawler, MMORPG), e jogos-marco por subgênero (em nível enciclopédico).</p></li>
+<li><p><strong>Exclusões</strong>: “melhor build”, metas online atuais, eventos de temporada, números/porcentagens que mudam, e discussões de “qual é mais RPG” (opinião).</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): páginas sobre RPG e subgêneros + páginas de títulos-chave</li>
+<li>Enciclopédias e livros de design/história de RPG digital (alto nível)</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Subgênero → tradição</strong> (JRPG/CRPG/ARPG/MMO/dungeon crawler)</li>
+<li><strong>Combate → estrutura</strong> (turn-based / action / RTwP / tático)</li>
+<li><strong>Progressão → sistema</strong> (classes fixas vs livres; skill tree; perks)</li>
+<li><strong>Narrativa → forma</strong> (escolhas e consequências, ramificações, moralidade como mecânica)</li>
+<li><strong>Perspectiva → interface</strong> (1ª/3ª/isométrica; party management)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>O que significa “RTwP” (real-time with pause) em RPGs?</li>
+<li>Em termos gerais, o que caracteriza um “JRPG” como rótulo histórico?</li>
+<li>O que é uma “skill tree” (árvore de habilidades) em um RPG?</li>
+<li>O que significa “party” em muitos RPGs clássicos?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>Qual opção descreve melhor “build”?
+<ol type="A">
+<li>Conjunto de escolhas de habilidades/atributos/equipamentos de um personagem</li>
+<li>Nome do estúdio</li>
+<li>Tipo de controle do console</li>
+<li>Método de compressão de áudio</li>
+</ol></li>
+<li>“Turn-based” significa que:
+<ol type="A">
+<li>Ações ocorrem em tempo real sem interrupção</li>
+<li>Ações são realizadas por turnos/rodadas</li>
+<li>O jogo é sempre online</li>
+<li>O jogo não tem progressão</li>
+</ol></li>
+<li>Em um MMORPG, geralmente há:
+<ol type="A">
+<li>Mundo persistente e muitos jogadores simultâneos</li>
+<li>Apenas campanha single-player sem conexão</li>
+<li>Somente puzzles sem combate</li>
+<li>Partidas de 5 minutos sem progressão</li>
+</ol></li>
+<li>“Loot” em RPGs se refere mais diretamente a:
+<ol type="A">
+<li>Itens obtidos como recompensa (equipamentos, consumíveis etc.)</li>
+<li>Nome do mapa</li>
+<li>Tipo de câmera</li>
+<li>Velocidade de movimento</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Muitos RPGs incluem progressão de personagem por níveis e/ou habilidades.</li>
+<li>JRPG e CRPG podem diferir em convenções de design e apresentação, dependendo do contexto histórico.</li>
+<li>Um RPG necessariamente não pode ter combate em tempo real.</li>
+<li>Sistemas de classes podem ser fixos ou permitir combinações, dependendo do jogo.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Evita “meta” e mantém conceitos de sistema e subgênero.</label></li>
+<li><label><input type="checkbox">Matriz cobre combate, progressão e narrativa (não só “lista de RPGs”).</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por jogo/franquia</strong> no conjunto.</label></li>
+</ul>
+<hr>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Entretenimento"</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"entretenimento"</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Jogos Eletrônicos"</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"jogos_eletronicos"</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"RTS: Economia, Tech Tree, Facções e Marcos do Design"</span></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"rts_economia_tech_tree_faccoes_e_marcos_do_design"</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-15"</span></span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="rts-economia-tech-tree-facções-e-marcos-do-design-rts_economia_tech_tree_faccoes_e_marcos_do_design" class="level2">
+<h2 class="anchored" data-anchor-id="rts-economia-tech-tree-facções-e-marcos-do-design-rts_economia_tech_tree_faccoes_e_marcos_do_design">RTS: Economia, Tech Tree, Facções e Marcos do Design — <code>rts_economia_tech_tree_faccoes_e_marcos_do_design</code></h2>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Fundamentos de RTS: economia e coleta, construção de base, tech tree, fog of war, micro vs macro, assimetria de facções e títulos-marco usados como referência histórica.</p>
+<p><strong>Localização.</strong> Irrestrita</p>
+<p><strong>Escopo</strong></p>
+<ul>
+<li><p><strong>Inclusões (não exaustivo)</strong>: economia (recursos, expansão, custos), base-building, fog of war, micro/macro (conceitos), tech tree e upgrades, hard/soft counters (conceitos), assimetria de facções, formatos clássicos (histórico/sci-fi/fantasia), jogos referência (ex.: marcos de época) sem depender de meta competitivo.</p></li>
+<li><p><strong>Exclusões</strong>: estratégias “do patch”, builds orders específicos de temporada, balanceamento competitivo atual, cenários e torneios correntes, e métricas voláteis.</p></li>
+<li><p><strong>Referências (exemplos)</strong>:</p>
+<ul>
+<li>Wikipedia (EN): RTS e jogos referência; verbetes de mecânicas (fog of war etc.)</li>
+<li>Materiais enciclopédicos e históricos sobre estratégia em tempo real</li>
+</ul></li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><strong>Economia → complexidade</strong> (1–2 recursos vs múltiplos; expansão)</li>
+<li><strong>Tech tree → forma</strong> (linear vs ramificada; eras/idades)</li>
+<li><strong>Facções → simetria</strong> (simétricas vs assimétricas; identidades)</li>
+<li><strong>Nível de controle → ênfase</strong> (micro tático vs macro economia)</li>
+<li><strong>Ambientação → tradição</strong> (histórico/sci-fi/fantasia; “base rush” como conceito genérico)</li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ol type="1">
+<li>O que é “fog of war” em jogos de estratégia?</li>
+<li>Em RTS, o que se entende por “tech tree”?</li>
+<li>O que significa “micro” e “macro” no contexto de RTS?</li>
+<li>O que é um “hard counter” como conceito de design?</li>
+</ol></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ol type="1">
+<li>“Base-building” em RTS significa:
+<ol type="A">
+<li>Construir e expandir estruturas para produzir unidades e recursos</li>
+<li>Resolver enigmas de palavras</li>
+<li>Jogar por turnos em um tabuleiro</li>
+<li>Apenas explorar sem combate</li>
+</ol></li>
+<li>“Assimetria de facções” descreve:
+<ol type="A">
+<li>Facções idênticas com skins diferentes</li>
+<li>Facções com unidades/mecânicas distintas</li>
+<li>Um modo sem recursos</li>
+<li>Um modo sem mapas</li>
+</ol></li>
+<li>Qual opção se encaixa melhor em “macro” num RTS?
+<ol type="A">
+<li>Controlar um único duelo entre duas unidades</li>
+<li>Gerir economia, produção e expansão</li>
+<li>Ajustar a sensibilidade do mouse</li>
+<li>Trocar a trilha sonora</li>
+</ol></li>
+<li>Um “upgrade” no tech tree geralmente:
+<ol type="A">
+<li>Reduz o mapa</li>
+<li>Melhora unidades/tecnologias ao longo da partida</li>
+<li>Remove recursos</li>
+<li>Impede construção de estruturas</li>
+</ol></li>
+</ol></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ol type="1">
+<li>Fog of war limita informação do jogador sobre áreas não exploradas ou sem visão.</li>
+<li>RTS pode envolver economia e produção contínuas em tempo real.</li>
+<li>Tech tree é sempre o mesmo em todos os RTS existentes.</li>
+<li>A assimetria de facções é uma escolha comum de design em RTS clássicos.</li>
+</ol></li>
+</ul>
+<p><strong>Checklist</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Evita meta/balanceamento de temporada e mantém conceitos de design.</label></li>
+<li><label><input type="checkbox">Matriz garante variedade entre economia, tech tree e facções.</label></li>
+<li><label><input type="checkbox"><strong>≤ 5 perguntas por jogo específico</strong> no conjunto (usar vários exemplos históricos).</label></li>
+</ul>
+<hr>
 
 
 </section>

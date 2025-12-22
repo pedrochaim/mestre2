@@ -56,3 +56,21 @@ O **jogador ativo**, ao responder uma pergunta, pode duvidar da veracidade da re
 3 jogadores 
 
 3+3
+
+
+
+---
+
+## TODO: Shiny-app
+
+- Contagem total de perguntas no relatório.
+
+### Sistema de feedback
+
+Pergunta apropriada.
+
+Pergunta não apropriada
+  - Resposta factualmente incorreta.
+  - Resposta aparece explicitamente no enunciado da pergunta.
+  - Pergunta excessivamente difícil.
+  - Pergunta inconsistente com tema/subtema/microsubtema.

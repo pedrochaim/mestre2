@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -132,103 +167,628 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="microsubtemas-artes-arquitetura" class="level1">
-<h1>Microsubtemas — Artes / Arquitetura</h1>
-<blockquote class="blockquote">
-<p>Linguagem simples para público leigo. Cada microsubtema traz <strong>título/slug</strong>, <strong>Natureza</strong>, <strong>Descrição</strong>, <strong>Escopo</strong> (pessoas, coisas, instituições, lugares), <strong>Exclusões</strong>, <strong>Matriz de variação</strong>, <strong>Exemplos por tipo</strong> e <strong>Fontes recomendadas</strong>.</p>
-</blockquote>
-<hr>
 <section id="estilos-da-arquitetura-do-clássico-ao-contemporâneo-estilos_da_arquitetura" class="level2">
 <h2 class="anchored" data-anchor-id="estilos-da-arquitetura-do-clássico-ao-contemporâneo-estilos_da_arquitetura">1) Estilos da Arquitetura: do Clássico ao Contemporâneo — <code>estilos_da_arquitetura</code></h2>
-<p><strong>Natureza.</strong> Transversal<br>
-<strong>Descrição.</strong> Um mapa dos principais estilos: <strong>clássico</strong>, <strong>gótico</strong>, <strong>renascentista</strong>, <strong>barroco</strong>, <strong>neoclássico</strong>, <strong>moderno</strong>, <strong>pós-moderno</strong> e <strong>contemporâneo</strong> — com <strong>marcas visuais fáceis de notar</strong> (formas, janelas, decoração) e <strong>exemplos famosos</strong>.<br>
-<strong>Escopo.</strong><br>
-- <strong>Pessoas:</strong> Vitruvius, Andrea Palladio, Le Corbusier, Zaha Hadid.<br>
-- <strong>Coisas:</strong> colunas clássicas, vitrais, cúpulas, fachadas simples do modernismo.<br>
-- <strong>Instituições:</strong> museus e arquivos de arquitetura; ICOMOS.<br>
-- <strong>Lugares:</strong> Roma, Paris, Veneza, Brasília, Bilbao, Dubai.<br>
-<strong>Exclusões.</strong> Debates estéticos subjetivos; jargões estruturais.<br>
-<strong>Matriz de variação.</strong> estilo→características | estilo→obra símbolo | período→estilo.<br>
-<strong>Exemplos por tipo</strong><br>
-- <strong>Aberta:</strong> Qual estilo é conhecido por grandes catedrais com vitrais coloridos?<br>
-- <strong>V/F:</strong> O barroco costuma usar curvas e decoração abundante.<br>
-- <strong>Múltipla escolha:</strong> Qual destes é um exemplo do modernismo brasileiro? (A) Catedral de Brasília (B) Coliseu (C) Torre Eiffel (D) Panteão de Roma)<br>
-<strong>Fontes recomendadas.</strong> Wikipedia-EN: “Architectural style”, “Gothic architecture”, “Baroque architecture”, “Modern architecture”.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Artes"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"artes"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Arquitetura"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"arquitetura"</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Estilos da Arquitetura: do Clássico ao Contemporâneo"</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"estilos_da_arquitetura"</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"transversal"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-09"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Transversal</p>
+<p><strong>Descrição.</strong> Mapa geral dos <strong>principais estilos de arquitetura</strong> que costumam aparecer em edifícios famosos, de referências clássicas a obras contemporâneas. O foco está em <strong>características visuais fáceis de reconhecer</strong> (formas, janelas, ornamentação, materiais aparentes) e em <strong>exemplos emblemáticos</strong> que ajudem o público leigo a identificar cada estilo na prática.</p>
+<p><strong>Escopo – o que entra</strong></p>
+<ul>
+<li><p><strong>Estilos principais</strong></p>
+<ul>
+<li>Clássico/greco romano, românico, gótico, renascentista, barroco, neoclássico.</li>
+<li>Estilos dos séculos XIX e XX: art nouveau, art déco, modernismo, brutalismo, pós modernismo, deconstructivismo.</li>
+<li>Arquitetura contemporânea icônica (museus, sedes corporativas, edifícios culturais).</li>
+</ul></li>
+<li><p><strong>Elementos visuais marcantes</strong></p>
+<ul>
+<li>Colunas (dórica, jônica, coríntia) em termos simples.</li>
+<li>Arcos de volta perfeita e arcos ogivais; vitrais; cúpulas; frontões; fachadas muito decoradas x muito limpas.</li>
+<li>Vidro e aço aparentes, pilotis, lajes em balanço, formas curvas e ângulos ousados em edifícios recentes.</li>
+</ul></li>
+<li><p><strong>Pessoas e obras de referência (exemplos)</strong></p>
+<ul>
+<li>Vitruvius, Andrea Palladio, Le Corbusier, Mies van der Rohe, Frank Lloyd Wright, Oscar Niemeyer, Zaha Hadid, Frank Gehry.</li>
+<li>Exemplos como Panteão de Roma, catedrais góticas, palácios barrocos, edifícios modernistas de Brasília, Museu Guggenheim Bilbao etc.</li>
+</ul></li>
+</ul>
+<p><strong>Exclusões – o que fica fora</strong></p>
+<ul>
+<li>Discussões <strong>puramente teóricas</strong> de história da arte ou debates estéticos subjetivos (o que é “mais bonito” ou “mais correto”).</li>
+<li><strong>Jargão estrutural</strong> avançado (cálculos, sistemas de vigas, normas de engenharia).</li>
+<li>Estilos ultra específicos de nicho que não ajudem a criar um mapa geral para o público leigo.</li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><p><strong>Estilo → características visuais</strong></p>
+<ul>
+<li>Ex.: gótico → arcos ogivais, vitrais coloridos, torres altas.</li>
+</ul></li>
+<li><p><strong>Estilo → obra símbolo / cidade associada</strong></p>
+<ul>
+<li>Ex.: barroco → Palácio de Versalhes; modernismo → Brasília; deconstructivismo → Museu Guggenheim Bilbao.</li>
+</ul></li>
+<li><p><strong>Período histórico → estilos predominantes</strong></p>
+<ul>
+<li>Ex.: Idade Média → românico e gótico; século XX → modernismo e pós modernismo.</li>
+</ul></li>
+<li><p><strong>Arquiteto/arquitetura → estilo</strong></p>
+<ul>
+<li>Ex.: Palladio → clássico renascentista; Le Corbusier → modernismo.</li>
+</ul></li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Que estilo de arquitetura é associado a catedrais com arcos pontudos e vitrais coloridos?</li>
+<li>Qual estilo de arquitetura costuma exibir fachadas muito simples, com linhas retas e pouco enfeite, típico do século XX?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li><p>Qual destas características é típica da arquitetura barroca?</p>
+<ul>
+<li><ol type="A">
+<li>Fachadas totalmente de vidro</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Ornamentação abundante e linhas curvas</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Estruturas metálicas aparentes</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Ausência total de decoração</li>
+</ol></li>
+</ul></li>
+<li><p>Qual destes edifícios é um exemplo famoso de arquitetura modernista no Brasil?</p>
+<ul>
+<li><ol type="A">
+<li>Coliseu de Roma</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Catedral de Brasília</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Torre Eiffel</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Panteão de Atenas</li>
+</ol></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>A arquitetura neoclássica retoma elementos do mundo antigo, como colunas e frontões.</li>
+<li>O brutalismo é conhecido por esconder o concreto e usar apenas vidro nas fachadas.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist de qualidade</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Cobrir um conjunto bem reconhecível de estilos, sem exagerar na quantidade.</label></li>
+<li><label><input type="checkbox">Destacar <strong>marcas visuais</strong> simples que ajudem o jogador a reconhecer o estilo em fotos.</label></li>
+<li><label><input type="checkbox">Incluir exemplos de <strong>diferentes países</strong>, não só Europa ocidental.</label></li>
+<li><label><input type="checkbox">Evitar termos técnicos de engenharia estrutural.</label></li>
+<li><label><input type="checkbox">Diferenciar claramente estilos que o público costuma confundir (ex.: clássico x neoclássico).</label></li>
+</ul>
 <hr>
 </section>
 <section id="edifícios-de-fé-pelo-mundo-edificios_de_fe_pelo_mundo" class="level2">
 <h2 class="anchored" data-anchor-id="edifícios-de-fé-pelo-mundo-edificios_de_fe_pelo_mundo">2) Edifícios de Fé pelo Mundo — <code>edificios_de_fe_pelo_mundo</code></h2>
-<p><strong>Natureza.</strong> Temático<br>
-<strong>Descrição.</strong> <strong>Templos, igrejas, mesquitas, sinagogas e stupas</strong> — para que servem, como se reconhecem e <strong>onde estão alguns dos mais famosos</strong>.<br>
-<strong>Escopo.</strong><br>
-- <strong>Pessoas:</strong> Mimar Sinan (mesquitas otomanas), Antoni Gaudí (Sagrada Família).<br>
-- <strong>Coisas:</strong> torre sineira, minarete, vitral, cúpula, pátio.<br>
-- <strong>Instituições:</strong> UNESCO (Patrimônio Mundial), patriarcados e fundações religiosas (visitação).<br>
-- <strong>Lugares:</strong> Jerusalém, Roma, Istambul, Varanasi, Kyoto, Barcelona.<br>
-<strong>Exclusões.</strong> Doutrina religiosa; polêmicas atuais.<br>
-<strong>Matriz de variação.</strong> tipo de edifício→elementos visuais | cidade→marco religioso | autor→obra.<br>
-<strong>Exemplos por tipo</strong><br>
-- <strong>Aberta:</strong> Em que cidade fica a Sagrada Família?<br>
-- <strong>V/F:</strong> Minaretes são torres comuns em mesquitas.<br>
-- <strong>Múltipla escolha:</strong> Quem projetou a Mesquita Süleymaniye, em Istambul? (A) Palladio (B) Gaudí (C) Sinan (D) Wright)<br>
-<strong>Fontes recomendadas.</strong> Wikipedia-EN: “Religious architecture”, “Cathedral”, “Mosque”, “Synagogue”, “Süleymaniye Mosque”, “Sagrada Família”.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Artes"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"artes"</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Arquitetura"</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"arquitetura"</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Edifícios de Fé pelo Mundo"</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"edificios_de_fe_pelo_mundo"</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-09"</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático</p>
+<p><strong>Descrição.</strong> Arquitetura de <strong>templos e espaços religiosos</strong> de diferentes tradições: igrejas, catedrais, mesquitas, sinagogas, templos hindus e budistas, stupas e santuários. O foco é entender <strong>para que servem, como se reconhecem visualmente</strong> e <strong>onde estão alguns dos exemplos mais famosos</strong>, sem entrar em detalhes de doutrina.</p>
+<p><strong>Escopo – o que entra</strong></p>
+<ul>
+<li><p><strong>Tipos de edifícios religiosos</strong></p>
+<ul>
+<li>Igrejas, catedrais, basílicas, abadias.</li>
+<li>Mesquitas e mesquitas monumentais (otomanas, persas, etc.).</li>
+<li>Sinagogas históricas.</li>
+<li>Templos hindus, budistas, xintoístas; stupas e pagodes.</li>
+</ul></li>
+<li><p><strong>Elementos visuais comuns</strong></p>
+<ul>
+<li>Torres sineiras, campanários, cúpulas, naves, vitrais, altares, claustros.</li>
+<li>Minaretes, pátios internos, fontes para ablução, cúpulas em cebola.</li>
+<li>Pórticos muito decorados em templos hindus, telhados curvos de templos asiáticos.</li>
+</ul></li>
+<li><p><strong>Arquitetos, patronos e contexto</strong></p>
+<ul>
+<li>Mimar Sinan (mesquitas otomanas), Antoni Gaudí (Sagrada Família), ordens religiosas e comunidades locais.</li>
+</ul></li>
+<li><p><strong>Lugares emblemáticos</strong></p>
+<ul>
+<li>Jerusalém, Roma, Istambul, Meca, Varanasi, Kyoto, Barcelona, etc.</li>
+</ul></li>
+<li><p><strong>Dimensão patrimonial e turística</strong></p>
+<ul>
+<li>Patrimônio Mundial UNESCO, restaurações, visitação e regras básicas de respeito a espaços de culto.</li>
+</ul></li>
+</ul>
+<p><strong>Exclusões – o que fica fora</strong></p>
+<ul>
+<li>Discussões de <strong>doutrina religiosa</strong>, teologia ou disputas confessionais.</li>
+<li>Polêmicas políticas ou conflitos atuais ligados a sítios sagrados.</li>
+<li>Questões estritamente litúrgicas (rituais detalhados, hierarquias internas).</li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><p><strong>Tipo de edifício religioso → elementos visuais típicos</strong></p>
+<ul>
+<li>Ex.: mesquita → minarete, pátio, sala de oração orientada para Meca.</li>
+</ul></li>
+<li><p><strong>Cidade / país → marco religioso arquitetônico</strong></p>
+<ul>
+<li>Ex.: Istambul → Mesquita Azul; Jerusalém → Domo da Rocha; Kyoto → templos e santuários tradicionais.</li>
+</ul></li>
+<li><p><strong>Arquitetos / patronos → obra</strong></p>
+<ul>
+<li>Ex.: Gaudí → Sagrada Família; Sinan → Mesquita Süleymaniye.</li>
+</ul></li>
+<li><p><strong>Religião/tradição → formas de edifício</strong></p>
+<ul>
+<li>Ex.: cristianismo ocidental → catedrais góticas; budismo → stupas e pagodes.</li>
+</ul></li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Em que cidade fica a Basílica da Sagrada Família, um dos exemplos mais conhecidos de arquitetura religiosa?</li>
+<li>Qual é o nome das torres altas e esbeltas comuns em muitas mesquitas, usadas para o chamado à oração?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li><p>Qual destes edifícios religiosos está localizado em Istambul e é um exemplo da arquitetura otomana?</p>
+<ul>
+<li><ol type="A">
+<li>Catedral de Notre Dame</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Sagrada Família</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Mesquita Süleymaniye</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Templo de Karnak</li>
+</ol></li>
+</ul></li>
+<li><p>Qual destes elementos é típico da arquitetura de uma catedral gótica europeia?</p>
+<ul>
+<li><ol type="A">
+<li>Minarete</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Vitrais coloridos e arcos pontudos</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Telhado de palha</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Pórtico de vidro espelhado</li>
+</ol></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>Minaretes são estruturas altas associadas à arquitetura de mesquitas.</li>
+<li>Sinagogas são templos típicos do budismo.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist de qualidade</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Representar <strong>diversas tradições religiosas e regiões</strong> (Europa, Oriente Médio, Ásia, Américas).</label></li>
+<li><label><input type="checkbox">Deixar claro quando se fala de <strong>arquitetura religiosa</strong>, não de doutrina.</label></li>
+<li><label><input type="checkbox">Evitar julgamentos de valor sobre crenças e práticas.</label></li>
+<li><label><input type="checkbox">Focar em elementos visuais, localização e contexto histórico básico.</label></li>
+<li><label><input type="checkbox">Não confundir tipos de edifício semelhantes (igreja x catedral x basílica) sem explicar a diferença quando necessário.</label></li>
+</ul>
 <hr>
 </section>
 <section id="palácios-castelos-e-fortificações-palacios_castelos_e_fortificacoes" class="level2">
 <h2 class="anchored" data-anchor-id="palácios-castelos-e-fortificações-palacios_castelos_e_fortificacoes">3) Palácios, Castelos e Fortificações — <code>palacios_castelos_e_fortificacoes</code></h2>
-<p><strong>Natureza.</strong> Temático<br>
-<strong>Descrição.</strong> <strong>Residências reais e construções defensivas</strong>: palácios, castelos, muralhas e cidadelas — sua <strong>função histórica</strong> e <strong>exemplos famosos</strong>.<br>
-<strong>Escopo.</strong><br>
-- <strong>Pessoas:</strong> Luís XIV (Versalhes); Vauban (fortificações francesas).<br>
-- <strong>Coisas:</strong> muralhas, torres, fossos, pontes levadiças, jardins formais.<br>
-- <strong>Instituições:</strong> casas reais; órgãos de patrimônio; museus de sítio.<br>
-- <strong>Lugares:</strong> Versalhes, Alhambra (Granada), Castelo de Windsor, Castelo de Osaka, Cartagena das Índias.<br>
-<strong>Exclusões.</strong> Detalhes militares técnicos; listas de proprietários atuais.<br>
-<strong>Matriz de variação.</strong> lugar→tipo de construção | período→exemplo | elemento→função.<br>
-<strong>Exemplos por tipo</strong><br>
-- <strong>Aberta:</strong> Em que país fica o Palácio de Versalhes?<br>
-- <strong>V/F:</strong> A Alhambra está na Espanha.<br>
-- <strong>Múltipla escolha:</strong> Qual cidade é famosa por suas muralhas coloniais bem preservadas? (A) Cartagena das Índias (B) Viena (C) Oslo (D) Zurique)<br>
-<strong>Fontes recomendadas.</strong> Wikipedia-EN: “Palace”, “Castle”, “Fortification”, “Palace of Versailles”, “Alhambra”.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Artes"</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"artes"</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Arquitetura"</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"arquitetura"</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Palácios, Castelos e Fortificações"</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"palacios_castelos_e_fortificacoes"</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-09"</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático</p>
+<p><strong>Descrição.</strong> Residências de reis e nobres, castelos medievais e grandes sistemas defensivos. O foco é explicar <strong>para que serviam esses edifícios</strong>, como sua arquitetura expressa poder, defesa ou prestígio, e apresentar <strong>exemplos famosos</strong> em diferentes países.</p>
+<p><strong>Escopo – o que entra</strong></p>
+<ul>
+<li><p><strong>Tipos de construções</strong></p>
+<ul>
+<li>Palácios (residências reais e sedes de corte).</li>
+<li>Castelos, fortalezas, cidadelas, alcáçovas, torres de menagem.</li>
+<li>Muralhas e sistemas urbanos de fortificação (bastiões, baluartes, fossos).</li>
+</ul></li>
+<li><p><strong>Funções históricas</strong></p>
+<ul>
+<li>Defesa militar, residência, sede de governo, representação simbólica do poder.</li>
+</ul></li>
+<li><p><strong>Elementos arquitetônicos</strong></p>
+<ul>
+<li>Torres, ameias, fossos, pontes levadiças, portões monumentais, jardins formais, pátios internos.</li>
+</ul></li>
+<li><p><strong>Pessoas e lugares de referência</strong></p>
+<ul>
+<li>Luís XIV e o Palácio de Versalhes; Vauban e fortificações francesas;</li>
+<li>Alhambra (Granada), Castelo de Windsor, Torre de Londres, castelos japoneses (como Osaka ou Himeji), muralhas de Cartagena das Índias.</li>
+</ul></li>
+<li><p><strong>Uso contemporâneo</strong></p>
+<ul>
+<li>Patrimônio, visitação turística, museus instalados em palácios e cidadelas.</li>
+</ul></li>
+</ul>
+<p><strong>Exclusões – o que fica fora</strong></p>
+<ul>
+<li>Detalhamento técnico de <strong>estratégias militares</strong>, armamentos ou táticas de guerra.</li>
+<li>Listas minuciosas de proprietários atuais ou uso residencial contemporâneo muito específico.</li>
+<li>Disputas políticas modernas em torno de monarquias.</li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><p><strong>Lugar / país → tipo de construção</strong></p>
+<ul>
+<li>Ex.: França → palácios barrocos e fortificações de Vauban; Japão → castelos de madeira e pedra.</li>
+</ul></li>
+<li><p><strong>Período histórico → forma de fortificação</strong></p>
+<ul>
+<li>Ex.: Idade Média → castelos de pedra; época moderna → fortificações em estrela.</li>
+</ul></li>
+<li><p><strong>Elemento arquitetônico → função prática</strong></p>
+<ul>
+<li>Ex.: fosso → dificultar invasão; torre → vigia e defesa; jardins formais → representação de poder e ordem.</li>
+</ul></li>
+<li><p><strong>Palácio / castelo → personagem associado</strong></p>
+<ul>
+<li>Ex.: Versalhes → Luís XIV; Alhambra → sultões de Granada; Windsor → monarquia britânica.</li>
+</ul></li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Em que país fica o Palácio de Versalhes, associado ao reinado de Luís XIV?</li>
+<li>Como se chama a estrutura com água que circunda alguns castelos para dificultar ataques?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li><p>Qual destas construções fica na cidade de Granada e mistura elementos islâmicos e cristãos?</p>
+<ul>
+<li><ol type="A">
+<li>Alhambra</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Versalhes</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Castelo de Osaka</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Torre Eiffel</li>
+</ol></li>
+</ul></li>
+<li><p>Qual cidade americana é conhecida por suas muralhas coloniais bem preservadas no Caribe?</p>
+<ul>
+<li><ol type="A">
+<li>Cartagena das Índias</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Nova York</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Lima</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Montreal</li>
+</ol></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>A Alhambra fica na Espanha e foi originalmente uma fortaleza e palácio islâmico.</li>
+<li>Castelos medievais nunca tinham função residencial, apenas militar.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist de qualidade</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Equilibrar exemplos europeus com outros (Ásia, Américas).</label></li>
+<li><label><input type="checkbox">Sempre deixar clara a <strong>função principal</strong> do edifício (defesa, residência, representação).</label></li>
+<li><label><input type="checkbox">Evitar excesso de detalhes militares e tecnicismos.</label></li>
+<li><label><input type="checkbox">Explicar termos como “muralha”, “fosso” ou “ponte levadiça” de forma acessível.</label></li>
+<li><label><input type="checkbox">Destacar edifícios que o público possivelmente reconheça por fotos ou referências culturais.</label></li>
+</ul>
 <hr>
 </section>
 <section id="arranha-céus-e-marcos-urbanos-arranha_ceus_e_marcos_urbanos" class="level2">
 <h2 class="anchored" data-anchor-id="arranha-céus-e-marcos-urbanos-arranha_ceus_e_marcos_urbanos">4) Arranha-céus e Marcos Urbanos — <code>arranha_ceus_e_marcos_urbanos</code></h2>
-<p><strong>Natureza.</strong> Temático<br>
-<strong>Descrição.</strong> A evolução dos <strong>prédios muito altos</strong> e de <strong>ícones urbanos</strong>: dos pioneiros de Chicago e Nova York aos recordistas atuais, e <strong>o que os torna reconhecíveis</strong>.<br>
-<strong>Escopo.</strong><br>
-- <strong>Pessoas:</strong> Fazlur Khan (pioneiro dos arranha-céus modernos), Adrian Smith (Burj Khalifa).<br>
-- <strong>Coisas:</strong> mirante/observatório, elevadores rápidos, antenas.<br>
-- <strong>Instituições:</strong> CTBUH (conselho de prédios altos), Guinness World Records.<br>
-- <strong>Lugares:</strong> Chicago, Nova York, Kuala Lumpur, Xangai, Dubai.<br>
-<strong>Exclusões.</strong> Cálculos estruturais; preços e rankings “do ano”.<br>
-<strong>Matriz de variação.</strong> cidade→marco | década→recordista | edifício→característica marcante.<br>
-<strong>Exemplos por tipo</strong><br>
-- <strong>Aberta:</strong> Em qual cidade fica o Empire State Building?<br>
-- <strong>V/F:</strong> O Burj Khalifa está em Dubai.<br>
-- <strong>Múltipla escolha:</strong> Qual par está correto? (A) Petronas→Kuala Lumpur (B) Shard→Tóquio (C) Willis Tower→Los Angeles (D) Shanghai Tower→Pequim)<br>
-<strong>Fontes recomendadas.</strong> Wikipedia-EN: “Skyscraper”, “List of tallest buildings”, “Empire State Building”, “Burj Khalifa”.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Artes"</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"artes"</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Arquitetura"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"arquitetura"</span></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Arranha-céus e Marcos Urbanos"</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"arranha_ceus_e_marcos_urbanos"</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-09"</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático</p>
+<p><strong>Descrição.</strong> A história dos <strong>prédios muito altos</strong> e de outros <strong>marcos urbanos</strong> que se tornaram símbolos de cidades: dos primeiros arranha céus de Chicago e Nova York aos recordistas recentes da Ásia e do Oriente Médio. O foco está em <strong>localização, aparência geral e papel na paisagem urbana</strong>, não em cálculos estruturais.</p>
+<p><strong>Escopo – o que entra</strong></p>
+<ul>
+<li><p><strong>Arranha céus e torres emblemáticas</strong></p>
+<ul>
+<li>Pioneiros (Home Insurance Building, edifícios de Chicago e Manhattan no início do século XX).</li>
+<li>Clássicos como Empire State Building, Chrysler Building, Willis Tower.</li>
+<li>Ícones recentes: Petronas Towers, Burj Khalifa, Shanghai Tower, Taipei 101 etc.</li>
+<li>Torres de observação e marcos urbanos (CN Tower, Torre Eiffel, Tokyo Skytree).</li>
+</ul></li>
+<li><p><strong>Arquitetos e engenheiros de referência</strong></p>
+<ul>
+<li>Fazlur Khan (estruturas tubulares), Adrian Smith (Burj Khalifa), equipes de grandes escritórios internacionais.</li>
+</ul></li>
+<li><p><strong>Elementos e experiência do visitante</strong></p>
+<ul>
+<li>Mirantes e decks de observação, elevadores rápidos, terraços panorâmicos.</li>
+</ul></li>
+<li><p><strong>Dimensão urbana e simbólica</strong></p>
+<ul>
+<li>Como esses edifícios viram “cara” da cidade, aparecem em cartões postais e filmes.</li>
+<li>Relação com distritos financeiros, centros históricos e frentes marítimas.</li>
+</ul></li>
+</ul>
+<p><strong>Exclusões – o que fica fora</strong></p>
+<ul>
+<li>Disputas ano a ano sobre <strong>qual é o prédio mais alto do mundo</strong> em centímetros.</li>
+<li>Detalhamento matemático de estruturas, materiais ou normas técnicas.</li>
+<li>Preços de construção, especulação imobiliária e dados financeiros muito específicos.</li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><p><strong>Cidade → marco urbano / arranha céu característico</strong></p>
+<ul>
+<li>Ex.: Nova York → Empire State Building; Kuala Lumpur → Torres Petronas.</li>
+</ul></li>
+<li><p><strong>Década / período → evolução da altura</strong></p>
+<ul>
+<li>Ex.: anos 1930 → arranha céus de Nova York; início do século XXI → recordistas em Dubai e Xangai.</li>
+</ul></li>
+<li><p><strong>Edifício → característica marcante</strong></p>
+<ul>
+<li>Ex.: Petronas → duas torres gêmeas ligadas por uma passarela; Burj Khalifa → altura recorde e forma afunilada.</li>
+</ul></li>
+<li><p><strong>Arquiteto / escritório → obra</strong></p>
+<ul>
+<li>Ex.: Adrian Smith → Burj Khalifa; Gustave Eiffel → torre de estrutura metálica em Paris.</li>
+</ul></li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Em que cidade fica o arranha céu conhecido como Empire State Building?</li>
+<li>Em qual cidade estão localizadas as Torres Petronas, que já foram as mais altas do mundo?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li><p>Qual destes edifícios fica em Dubai e é um dos arranha céus mais altos do mundo?</p>
+<ul>
+<li><ol type="A">
+<li>Empire State Building</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Burj Khalifa</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>CN Tower</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Torre Eiffel</li>
+</ol></li>
+</ul></li>
+<li><p>Qual par cidade–edifício está correto?</p>
+<ul>
+<li><ol type="A">
+<li>Petronas Towers → Kuala Lumpur</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Willis Tower → Los Angeles</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Shanghai Tower → Pequim</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>One World Trade Center → Chicago</li>
+</ol></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>O Burj Khalifa está localizado na cidade de Dubai.</li>
+<li>A Torre Eiffel foi construída originalmente como arranha céu de escritórios.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist de qualidade</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Evitar fixar rankings ultra recentes; focar em recordistas historicamente reconhecidos.</label></li>
+<li><label><input type="checkbox">Incluir exemplos de diferentes regiões (Américas, Europa, Ásia, Oriente Médio).</label></li>
+<li><label><input type="checkbox">Destacar sempre a <strong>cidade</strong> e o <strong>país</strong> ao falar de cada edifício.</label></li>
+<li><label><input type="checkbox">Explicar em linguagem simples o que é um arranha céu e como se diferencia de prédios altos comuns.</label></li>
+<li><label><input type="checkbox">Não entrar em detalhes complexos de engenharia.</label></li>
+</ul>
 <hr>
 </section>
 <section id="casas-e-moradias-tradicionais-pelo-mundo-casas_e_moradias_tradicionais" class="level2">
 <h2 class="anchored" data-anchor-id="casas-e-moradias-tradicionais-pelo-mundo-casas_e_moradias_tradicionais">5) Casas e Moradias Tradicionais pelo Mundo — <code>casas_e_moradias_tradicionais</code></h2>
-<p><strong>Natureza.</strong> Temático<br>
-<strong>Descrição.</strong> Formas de morar adaptadas a <strong>clima, materiais locais e costumes</strong>: <strong>palafitas amazônicas</strong>, <strong>riad</strong> marroquino, <strong>trullo</strong> italiano, <strong>ryokan</strong> japonês, <strong>yurta</strong> da Ásia Central, <strong>casas de adobe</strong> andinas, entre outras.<br>
-<strong>Escopo.</strong><br>
-- <strong>Pessoas:</strong> mestres de obra e comunidades locais (transmissão de saberes).<br>
-- <strong>Coisas:</strong> pátio interno, telhado inclinado, paredes de barro, madeira e pedra.<br>
-- <strong>Instituições:</strong> UNESCO/ICOMOS; museus de etnologia e de arquitetura vernacular.<br>
-- <strong>Lugares:</strong> Amazônia, Marrocos (Fez/Marrakech), Puglia (Alberobello), Japão (Kyoto), Altiplano andino, Mongólia.<br>
-<strong>Exclusões.</strong> Decoração “de moda”; tendências passageiras de interiores.<br>
-<strong>Matriz de variação.</strong> região→tipo de moradia | material→exemplo | costume→característica da casa.<br>
-<strong>Exemplos por tipo</strong><br>
-- <strong>Aberta:</strong> Em que país você encontra muitos <strong>trulli</strong> de pedra com telhado cônico?<br>
-- <strong>V/F:</strong> <strong>Riad</strong> é uma casa tradicional com pátio interno no Marrocos.<br>
-- <strong>Múltipla escolha:</strong> Qual moradia é típica da Ásia Central? (A) Yurta (B) Trullo (C) Ryokan (D) Palafita amazônica)<br>
-<strong>Fontes recomendadas.</strong> Wikipedia-EN: “Vernacular architecture”, “Riad (architecture)”, “Trullo”, “Yurt”, “Stilt house”.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">tema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Artes"</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">tema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"artes"</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Arquitetura"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">subtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"arquitetura"</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema</span><span class="kw">:</span><span class="at"> </span><span class="st">"Casas e Moradias Tradicionais pelo Mundo"</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">microsubtema_clean</span><span class="kw">:</span><span class="at"> </span><span class="st">"casas_e_moradias_tradicionais"</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="fu">natureza</span><span class="kw">:</span><span class="at"> </span><span class="st">"tematico"</span></span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="fu">localizacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"irrestrita"</span></span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a><span class="fu">status</span><span class="kw">:</span><span class="at"> </span><span class="st">"ativo"</span></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="fu">data_criacao</span><span class="kw">:</span><span class="at"> </span><span class="st">"2025-12-09"</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Natureza.</strong> Temático</p>
+<p><strong>Descrição.</strong> Formas tradicionais de morar que surgiram como resposta a <strong>climas, materiais locais e costumes culturais</strong>. O foco é em exemplos de <strong>arquitetura vernacular</strong> – como palafitas amazônicas, riads marroquinos, trulli italianos, ryokans japoneses, yurtas da Ásia Central e casas de adobe andinas – mostrando <strong>como a vida cotidiana aparece na planta e nos materiais das casas</strong>.</p>
+<p><strong>Escopo – o que entra</strong></p>
+<ul>
+<li><p><strong>Tipos de moradia vernacular</strong></p>
+<ul>
+<li>Palafitas em áreas alagadas (Amazônia, sudeste asiático).</li>
+<li>Riad marroquino com pátio interno; casas pátio em regiões áridas.</li>
+<li>Trullo (sul da Itália), casas de pedra com telhado cônico.</li>
+<li>Ryokan e machiya no Japão tradicional; casas de madeira em estacas em regiões frias.</li>
+<li>Yurtas (ou gers) da Ásia Central; casas de adobe no altiplano andino.</li>
+</ul></li>
+<li><p><strong>Relação com clima e materiais</strong></p>
+<ul>
+<li>Uso de madeira, palha, barro, pedra, tijolo cru;</li>
+<li>Telhados inclinados para neve e chuva; pátios internos em regiões quentes e secas; paredes espessas que ajudam no isolamento térmico.</li>
+</ul></li>
+<li><p><strong>Organização da vida cotidiana</strong></p>
+<ul>
+<li>Áreas comuns para família extensa; espaços de acolhimento a hóspedes; áreas de trabalho associadas à casa.</li>
+</ul></li>
+<li><p><strong>Dimensão cultural e patrimonial</strong></p>
+<ul>
+<li>Reconhecimento por órgãos como UNESCO e ICOMOS;</li>
+<li>Museus ao ar livre e vilas preservadas para visitação.</li>
+</ul></li>
+</ul>
+<p><strong>Exclusões – o que fica fora</strong></p>
+<ul>
+<li>Tendências passageiras de decoração de interiores e “moda de revista”.</li>
+<li>Arquitetura de luxo contemporânea que apenas imita visualmente estilos tradicionais.</li>
+<li>Detalhes técnicos de engenharia ou normas de construção modernas.</li>
+</ul>
+<p><strong>Matriz de variação (eixos)</strong></p>
+<ul>
+<li><p><strong>Região / país → tipo de moradia tradicional</strong></p>
+<ul>
+<li>Ex.: Marrocos → riad; Itália (Puglia) → trullo; Mongólia → yurta.</li>
+</ul></li>
+<li><p><strong>Clima → característica arquitetônica</strong></p>
+<ul>
+<li>Ex.: regiões chuvosas → telhados muito inclinados; regiões alagadas → palafitas.</li>
+</ul></li>
+<li><p><strong>Material dominante → exemplo de casa</strong></p>
+<ul>
+<li>Ex.: barro/adobe → casas andinas; madeira e palha → cabanas de regiões frias e rurais.</li>
+</ul></li>
+<li><p><strong>Costume / organização social → uso do espaço doméstico</strong></p>
+<ul>
+<li>Ex.: pátio central para convívio; quartos flexíveis que viram sala ou espaço de refeição.</li>
+</ul></li>
+</ul>
+<p><strong>Exemplos de enunciados</strong></p>
+<ul>
+<li><p><strong>Aberta</strong></p>
+<ul>
+<li>Em que país é comum encontrar trulli de pedra com telhados cônicos, especialmente na região da Puglia?</li>
+<li>Que nome se dá às casas tradicionais marroquinas com pátio interno, comuns em cidades como Marrakech e Fez?</li>
+</ul></li>
+<li><p><strong>Múltipla escolha</strong></p>
+<ul>
+<li><p>Qual destas moradias tradicionais é típica da Ásia Central e costuma ser uma tenda circular desmontável?</p>
+<ul>
+<li><ol type="A">
+<li>Trullo</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Ryokan</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Yurta</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Riad</li>
+</ol></li>
+</ul></li>
+<li><p>Qual destas construções é um exemplo de moradia sobre palafitas?</p>
+<ul>
+<li><ol type="A">
+<li>Casa com pátio interno em riad</li>
+</ol></li>
+<li><ol start="2" type="A">
+<li>Casa elevada sobre estacas em área alagada</li>
+</ol></li>
+<li><ol start="3" type="A">
+<li>Torre de pedra medieval</li>
+</ol></li>
+<li><ol start="4" type="A">
+<li>Arranha céu de vidro</li>
+</ol></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Verdadeiro/Falso</strong></p>
+<ul>
+<li>Riad é o nome de um tipo de casa tradicional com pátio interno, comum em cidades do Marrocos.</li>
+<li>Yurtas são casas fixas de concreto usadas em grandes cidades da Europa.</li>
+</ul></li>
+</ul>
+<p><strong>Checklist de qualidade</strong></p>
+<ul class="task-list">
+<li><label><input type="checkbox">Representar <strong>diversos continentes</strong> (América do Sul, Europa, África, Ásia).</label></li>
+<li><label><input type="checkbox">Explicar sempre a relação entre <strong>clima, materiais e forma da casa</strong>.</label></li>
+<li><label><input type="checkbox">Usar linguagem acessível, evitando termos técnicos pesados de arquitetura vernacular.</label></li>
+<li><label><input type="checkbox">Evitar confundir exemplos turísticos modernos com moradias tradicionais originais.</label></li>
+<li><label><input type="checkbox">Sempre deixar claro se a casa ainda é usada no dia a dia ou principalmente preservada como patrimônio/atração.</label></li>
+</ul>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

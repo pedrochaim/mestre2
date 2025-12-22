@@ -1,85 +1,96 @@
-Tarefa: Gere 50 perguntas no nível do microsubtema abaixo. Lembre-se que são para um público informado, mas leigo. Evite termos técnicos desnecessários.
+Tarefa: Gere 50 perguntas no nível do microsubtema abaixo. 
 
-Saída: retorne somente o arquivo .JSON válido conforme o schema, respeitando proporções de tipos e diversidade (sem duplicatas e max. 5 perguntas por indivíduo/fenômeno). 
+Saída: retorne somente o arquivo .JSON válido (como código, sem formatação) conforme o `pergunta.schema.json`, respeitando proporções de tipos e diversidade.
 
 * Não use " " no texto do campo <pergunta>. Exemplo: "pergunta": "Quem foi Pelé?" (CORRETO) vs "pergunta": "Quem foi "Pelé"?" (INCORRETO)
 * Pode utilizar acentuação (ex: não, está, próximo, vêm, etc) no campo <pergunta>.
 * No campo "fonte", forneça apenas array com as urls, sem formatação de link clicavel markdown. 
 * Não há diferenciação de dificuldade. Cheque o json.schema
 * nao inclua tag
+* Lembre-se que são para um público informado, mas leigo. Evite termos técnicos desnecessários.
+* Revise os enunciados para **evitar** enunciados que contém a resposta. 
+  - Exemplo 1: pergunta: "Qual meia brasileiro é conhecido como Ronaldinho Gaúcho e brilhou principalmente pelo Barcelona e pela seleção brasileira?" resposta: "Ronaldinho Gaúcho"
+  - Exemplo 2: Associe o personagem à peça:  Dom Juan — ( ) “Dom Juan” / “Dom Giovanni”  ( ) “As Fenícias” 
+* Ao elaborar questões do tipo Verdadeiro-Falso, equilibre as respostas.
+* Respostas para perguntas abertas devem ser diretas: uma palavra (ou termo), ou no máximo uma frase curta.
+* Distratores em perguntas de múltipla escolha devem incluir (pelo menos 1) termos/personagens/coisas da mesma franquia.
 
-Tema: História Natural
 
-Subtema: Dinossauros
+```yaml
+---
+tema: "Entretenimento"
+tema_clean: "entretenimento"
+subtema: "Anime e Mangá"
+subtema_clean: "anime_e_manga"
 
-Microsubtema:
+microsubtema: "Naruto"
+microsubtema_clean: "naruto"
 
-## 5) Defesas: chifres, placas e caudas com clava — `defesas_chifres_e_placas`
+natureza: "tematico"
+localizacao: "irrestrita"
+status: "ativo"
+---
+```
 
-**Natureza.** Transversal
-**Descrição.** Estratégias de proteção em diferentes dinossauros herbívoros: chifres e escudos de cabeça, placas no dorso e caudas armadas.
-**Escopo**
-**Inclusões (não exaustivo):** Triceratops (chifres/escudo), Stegosaurus (placas/espinhos), Ankylosaurus (cauda em clava); exibição vs. defesa.
-**Exclusões:** armas não suportadas por ossos preservados.
-**Referências (exemplos):** Wikipedia EN: Triceratops; Stegosaurus; Ankylosaurus.
-**Matriz de variação (eixos):** tipo de defesa | possível função | porte | habitat.
+## Naruto — `naruto`
 
-### Exemplos de perguntas
+**Natureza.** Temático (franquia/obra).
+**Descrição.** Mangá de Masashi Kishimoto serializado na *Weekly Shōnen Jump*; foco aqui é gerar perguntas sobre **mundo ninja (chakra/jutsu), vilas e cargos, clãs/dōjutsu, bijū/jinchūriki, organizações e grandes arcos** (spoilers ok). ([Wikipedia][3])
 
-**Abertas**
+### Escopo
 
-1. Qual dinossauro herbívoro de três chifres e grande escudo ósseo na cabeça é um dos mais conhecidos do Cretáceo da América do Norte
-   ➜ Resposta: Triceratops.
+**Inclusões (não exaustivo)**
 
-2. Que dinossauro herbívoro do Jurássico apresenta grandes placas ao longo do dorso e pares de espinhos na cauda
-   ➜ Resposta: Stegosaurus.
+* Parte I e Parte II (Shippuden), com eventos canônicos (mortes, identidades, finais). ([Wikipedia][3])
+* Sistema: chakra; ninjutsu/genjutsu/taijutsu; kekkei genkai; dōjutsu; selamentos.
+* Geopolítica: vilas, Kages, guerras, ANBU.
+* Organizações: Akatsuki etc.
 
-3. Qual dinossauro herbívoro fortemente blindado possuía uma cauda reforçada em forma de clava óssea
-   ➜ Resposta: Ankylosaurus.
+**Exclusões**
 
-4. Que tipo de estrutura protegeu partes do corpo de dinossauros blindados como Ankylosaurus além da cauda em clava
-   ➜ Resposta: Placas e escudos ósseos na pele.
+* “Quem é mais forte”, power scaling e listas subjetivas.
+* Conteúdo de spin-off/sequência só entra se o enunciado marcar explicitamente (para evitar ambiguidade).
 
-**Múltipla escolha**
+**Referências (exemplos)**
 
-1. Os chifres e o escudo de Triceratops podiam ter servido para
-   A) Capturar peixes em rios rasos
-   B) Defesa contra predadores e exibição entre indivíduos da mesma espécie
-   C) Locomoção mais rápida em mar aberto
-   D) Respiração debaixo do solo
-   ➜ Resposta correta: B) Defesa contra predadores e exibição entre indivíduos da mesma espécie.
+* Wikipedia (EN) de *Naruto* + páginas específicas de dōjutsu, organizações e arcos. ([Wikipedia][3])
+* Fontes oficiais (galerias/arquivos) e enciclopédias de mídia, quando necessário. ([naruto-official.com][4])
 
-2. As placas nas costas de Stegosaurus podem ter funcionado como
-   A) Âncoras para nadar
-   B) Estruturas para troca de calor e exibição
-   C) Bolsas de ar para voar
-   D) Reservatórios de água
-   ➜ Resposta correta: B) Estruturas para troca de calor e exibição.
+### Matriz de variação
 
-3. A cauda em clava de Ankylosaurus era provavelmente usada principalmente para
-   A) Escavar tocas profundas
-   B) Golpear predadores ou rivais
-   C) Apoiar o corpo ao dormir
-   D) Atrair insetos polinizadores
-   ➜ Resposta correta: B) Golpear predadores ou rivais.
+* Vila/cargo (Hokage/Kage) ↔ personagem.
+* Clã ↔ dōjutsu ↔ técnica.
+* Bijū ↔ jinchūriki.
+* Organização ↔ objetivo ↔ membros.
+* Spoilers: identidades mascaradas, reviravoltas, destino de personagens.
 
-4. Dinossauros com armaduras pesadas e caudas armadas tendiam a ser
-   A) Pequenos e muito velozes
-   B) Herbívoros de corpo baixo e pesado
-   C) Predadores marinhos
-   D) Voadores ativos de longa distância
-   ➜ Resposta correta: B) Herbívoros de corpo baixo e pesado.
+### Exemplos de enunciados
 
-**Verdadeiro-falso**
+**A) Aberta (4)**
 
-1. Todos os dinossauros herbívoros possuíam chifres na cabeça
-   ➜ Resposta: Falso.
+1. “Qual é o nome da raposa de nove caudas selada dentro de Naruto?”
+2. “Quem é o **Quarto Hokage** de Konoha?”
+3. “Qual organização criminosa reúne ninjas renegados e caça os bijū?”
+4. “Tobi é revelado como qual personagem (spoiler) na linha principal?”
 
-2. As estruturas ósseas de defesa em dinossauros como Stegosaurus e Ankylosaurus são conhecidas a partir de fósseis preservados
-   ➜ Resposta: Verdadeiro.
+**B) Múltipla escolha (4) — distratores da franquia**
 
-3. Em dinossauros bem estudados é possível distinguir com segurança entre todas as funções de cada espinho ou placa individual
-   ➜ Resposta: Falso.
+1. “Qual destes **NÃO** é um dos ‘Três Grandes Dōjutsu’?\nA) Sharingan\nB) Byakugan\nC) Rinnegan\nD) Tenseigan”
+2. “Qual time é formado por **Naruto, Sasuke e Sakura**, sob liderança de Kakashi?\nA) Time 7\nB) Time 8\nC) Time 10\nD) Time Guy”
+3. “Qual destas organizações é a mais diretamente associada a **caçar e capturar os bijū**?\nA) Akatsuki\nB) ANBU\nC) Polícia Militar Uchiha\nD) Sete Espadachins da Névoa”
+4. “Qual destes é um **jutsu de alto nível** ligado ao Rinnegan?\nA) Chibaku Tensei\nB) Rasengan\nC) Chidori\nD) Kage Bunshin no Jutsu”
 
-4. Em muitos casos as mesmas estruturas que ajudavam na defesa também podiam ser usadas em exibição para outros indivíduos da espécie
-   ➜ Resposta: Verdadeiro.
+**C) Verdadeiro/Falso (4)**
+
+1. “O mangá *Naruto* foi serializado na *Weekly Shōnen Jump* por cerca de 15 anos.” (V/F) ([Wikipedia][3])
+2. “Akatsuki tem como objetivo capturar os bijū.” (V/F)
+3. “Neste microsubtema, revelar a identidade de Tobi é permitido.” (V/F)
+4. “Perguntas devem evitar depender de opinião (‘melhor luta’).” (V/F)
+
+### Checklist
+
+* [ ] MC com 4 alternativas e distratores plausíveis do universo.
+* [ ] Não criar perguntas cuja resposta seja “Naruto”.
+* [ ] Máx. 5 por entidade no conjunto do microsubtema.
+* [ ] Distinguir cânone vs material adicional quando afetar a resposta.
+* [ ] Evitar power scaling e rankings subjetivos.
