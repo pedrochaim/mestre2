@@ -1,0 +1,230 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Força Expedicionária Brasileira",
+        "descricao": "Força militar brasileira que lutou ao lado dos Aliados na campanha da Itália, entre 1944 e 1945.",
+        "variantes": [
+          "FEB",
+          "Brazilian Expeditionary Force",
+          "Pracinhas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Enola Gay",
+        "descricao": "Bombardeiro B-29 americano que lançou a bomba atômica sobre Hiroshima em 6 de agosto de 1945.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "eusebio",
+          "nome": "Eusébio",
+          "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+          "variantes": [
+            "Eusébio da Silva Ferreira",
+            "Pantera Negra",
+            "Pérola Negra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Natal",
+        "descricao": "Capital do Rio Grande do Norte, que abrigou uma grande base aérea aliada na Segunda Guerra Mundial.",
+        "variantes": [
+          "Natal (Rio Grande do Norte)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "imperio_bizantino",
+          "nome": "Império Bizantino",
+          "descricao": "Continuação oriental do Império Romano, com capital em Constantinopla, que durou até 1453.",
+          "variantes": [
+            "Império Romano do Oriente",
+            "Bizâncio",
+            "Byzantine Empire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Batalha de Midway",
+        "descricao": "Batalha naval de junho de 1942 no Pacífico, em que os Estados Unidos afundaram quatro porta-aviões japoneses.",
+        "variantes": [
+          "Battle of Midway"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fanta",
+        "descricao": "Refrigerante criado na Alemanha em 1940 pela filial alemã da Coca-Cola.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Admiral Graf Spee",
+        "descricao": "Navio de guerra alemão da classe Deutschland, afundado pela própria tripulação no Rio da Prata em dezembro de 1939.",
+        "variantes": [
+          "Graf Spee",
+          "Encouraçado de bolso Graf Spee"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Batalha de Monte Castelo",
+        "descricao": "Série de combates nos Apeninos italianos em que a Força Expedicionária Brasileira conquistou o Monte Castelo.",
+        "variantes": [
+          "Battle of Monte Castello",
+          "Tomada de Monte Castelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "queda_de_constantinopla",
+          "nome": "Queda de Constantinopla",
+          "descricao": "Conquista da capital bizantina pelo Império Otomano do sultão Maomé Segundo, em 1453.",
+          "variantes": [
+            "Tomada de Constantinopla",
+            "Fall of Constantinople"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Dia D",
+        "descricao": "Desembarque aliado na Normandia, na França, em 6 de junho de 1944.",
+        "variantes": [
+          "Desembarque na Normandia",
+          "D-Day",
+          "Operação Netuno"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "FEB é força militar; Corinthians é clube de futebol."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Bombardeiro B-29 é diferente do jogador Eusébio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade de Natal é diferente do Império Bizantino."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Batalha naval não é a ilha de Filas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Refrigerante Fanta não é França nem Faraó."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Navio de guerra não é a Peste Negra."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Batalha de Monte Castelo difere da Queda de Constantinopla."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Dia D não é o Reino de Roma."
+    }
+  ]
+}
