@@ -3649,5 +3649,764 @@
       "https://pt.wikipedia.org/wiki/Cacha%C3%A7a"
     ],
     "dificuldade": 3
+  },
+  {
+    "id": "q00235",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "capivara",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome capivara vem do tupi. O que ele significa, aproximadamente?",
+    "resposta": "Comedora de capim",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Capivara",
+      "https://en.wikipedia.org/wiki/Capybara"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00236",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "capivara",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual é o maior roedor vivo do mundo?",
+    "resposta": "Capivara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Capybara"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00237",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "onca_pintada",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Com manchas em forma de roseta, qual é o maior felino das Américas?",
+    "resposta": "Onça-pintada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jaguar"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00238",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "onca_pintada",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Algumas onças-pintadas nascem quase totalmente pretas, embora as manchas ainda apareçam sob certa luz. Que fenômeno causa essa cor?",
+    "resposta": "Melanismo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jaguar",
+      "https://en.wikipedia.org/wiki/Melanism"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00239",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "bicho_preguica",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o pelo do bicho-preguiça costuma ter um tom esverdeado?",
+    "resposta": "Algas crescem no pelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sloth"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00240",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "bicho_preguica",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em média, quantas vezes por semana a preguiça-de-três-dedos desce da árvore para defecar?",
+    "resposta": "Uma vez",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sloth"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00241",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "tamandua_bandeira",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O tamanduá-bandeira ganhou esse nome por causa de que parte do corpo, longa e muito peluda?",
+    "resposta": "Cauda",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tamandu%C3%A1-bandeira"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00242",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "tamandua_bandeira",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Apesar de comer milhares de formigas por dia, quantos dentes tem o tamanduá-bandeira?",
+    "resposta": "Nenhum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_anteater"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00243",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "mico_leao_dourado",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O mico-leão-dourado deve a palavra leão do seu nome a qual característica do corpo?",
+    "resposta": "A juba ao redor do rosto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Golden_lion_tamarin"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00244",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "mico_leao_dourado",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Hoje, o mico-leão-dourado vive na natureza apenas na Mata Atlântica de qual estado brasileiro?",
+    "resposta": "Rio de Janeiro",
+    "distratores": [
+      "São Paulo",
+      "Bahia",
+      "Minas Gerais"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Golden_lion_tamarin"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00245",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "lobo_guara",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Com pernas longas e pelagem alaranjada, qual é o maior canídeo da América do Sul?",
+    "resposta": "Lobo-guará",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maned_wolf"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00246",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "lobo_guara",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Lançada em 2020, a cédula de duzentos reais traz a imagem de qual animal?",
+    "resposta": "Lobo-guará",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazilian_real",
+      "https://en.wikipedia.org/wiki/Maned_wolf"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00247",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "boto_cor_de_rosa",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Entre todos os golfinhos de rio do planeta, qual espécie amazônica é a maior?",
+    "resposta": "Boto-cor-de-rosa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amazon_river_dolphin"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00248",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "ariranha",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Vivendo em rios da Amazônia e do Pantanal, qual é a mais comprida de todas as lontras do mundo?",
+    "resposta": "Ariranha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_otter"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00249",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "anta",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual é o maior mamífero terrestre nativo do Brasil?",
+    "resposta": "Anta",
+    "distratores": [
+      "Onça-pintada",
+      "Capivara",
+      "Tamanduá-bandeira"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/South_American_tapir"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00250",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "muriqui",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Endêmico da Mata Atlântica, qual primata é o maior macaco das Américas?",
+    "resposta": "Muriqui",
+    "distratores": [
+      "Bugio",
+      "Macaco-aranha",
+      "Macaco-prego"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Muriqui"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00251",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "baleia_azul",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Até onde a ciência sabe, que animal é o maior que já viveu na Terra?",
+    "resposta": "Baleia-azul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blue_whale"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00252",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "lontra_marinha",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual mamífero do Pacífico Norte, que boia de costas para comer, tem a pelagem mais densa do reino animal?",
+    "resposta": "Lontra-marinha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sea_otter"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00253",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "morcego",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Ao contrário dos esquilos-voadores, que apenas planam, que grupo de mamíferos é o único capaz de voar batendo asas?",
+    "resposta": "Morcegos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bat"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00254",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "rena",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Durante o escuro inverno ártico, os olhos da rena mudam de dourado para azul. Que vantagem isso traz?",
+    "resposta": "Enxergar melhor com pouca luz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reindeer"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00255",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "morcego_vampiro",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o sangue da presa demora a coagular enquanto o morcego-vampiro se alimenta?",
+    "resposta": "Anticoagulante na saliva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vampire_bat",
+      "https://en.wikipedia.org/wiki/Draculin"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00256",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "morcego_vampiro",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Apesar da associação com o Drácula, os morcegos-vampiros vivem naturalmente apenas em que parte do mundo?",
+    "resposta": "Nas Américas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vampire_bat"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00257",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "elefante_africano",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em dias quentes, por que o elefante-africano abana suas enormes orelhas?",
+    "resposta": "Para resfriar o corpo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/African_elephant"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00258",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "coala",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O coala passa quase o dia inteiro dormindo ou descansando. Isso se deve principalmente a quê?",
+    "resposta": "Dieta de eucalipto pobre em energia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Koala"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00259",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "golfinho",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que os golfinhos dormem com apenas metade do cérebro de cada vez?",
+    "resposta": "Para continuar respirando",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dolphin",
+      "https://en.wikipedia.org/wiki/Unihemispheric_slow-wave_sleep"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00260",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "panda_gigante",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o panda-gigante precisa passar grande parte do dia comendo?",
+    "resposta": "O bambu é pouco nutritivo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_panda"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00261",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "panda_gigante",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O falso polegar que o panda-gigante usa para segurar o bambu é, na verdade, um osso alongado de que parte do corpo?",
+    "resposta": "Pulso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_panda"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00262",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "cutia",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ao enterrar sementes e esquecer algumas, a cutia ajuda a espalhar qual árvore amazônica de ouriço duríssimo?",
+    "resposta": "Castanheira-do-pará",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_nut",
+      "https://en.wikipedia.org/wiki/Agouti"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00263",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "castor",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Os dentes da frente do castor têm cor alaranjada por causa de qual metal no esmalte?",
+    "resposta": "Ferro",
+    "distratores": [
+      "Cobre",
+      "Zinco",
+      "Magnésio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beaver"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00264",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "urso_polar",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Por baixo do pelo que parece branco, qual é a cor da pele do urso-polar?",
+    "resposta": "Preta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Polar_bear"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00265",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "vombate",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O vombate, um marsupial australiano, é famoso por produzir fezes com que formato?",
+    "resposta": "Cúbico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wombat"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00266",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "girafa",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Apesar do pescoço enorme, quantas vértebras cervicais tem a girafa?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giraffe"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00267",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "tatu_galinha",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O tatu-galinha costuma parir filhotes idênticos, todos vindos de um único óvulo. Quantos, normalmente?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Dois",
+      "Três",
+      "Seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nine-banded_armadillo"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00268",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "baleia_jubarte",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Qual arquipélago do sul da Bahia é um dos principais berçários das baleias-jubarte no Brasil?",
+    "resposta": "Abrolhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abrolhos_Archipelago",
+      "https://en.wikipedia.org/wiki/Humpback_whale"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00269",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "baleia_jubarte",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Entre as baleias-jubarte, quem produz os longos e complexos cantos que tornaram a espécie famosa?",
+    "resposta": "Os machos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Humpback_whale"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00270",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "leao",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Num grupo de leões, quem realiza a maior parte das caçadas?",
+    "resposta": "As fêmeas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lion"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00271",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "lemure",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Os lêmures são primatas nativos de qual ilha?",
+    "resposta": "Madagascar",
+    "distratores": [
+      "Bornéu",
+      "Sumatra",
+      "Sri Lanka"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lemur"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00272",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "hipopotamo",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Vindo do grego, o nome hipopótamo quer dizer o quê?",
+    "resposta": "Cavalo do rio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hippopotamus"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00273",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "hipopotamo",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Segundo estudos genéticos, quais animais marinhos são os parentes vivos mais próximos do hipopótamo?",
+    "resposta": "Baleias e golfinhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hippopotamus"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00274",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "gamba",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na forma de criar os filhotes, o que o gambá brasileiro e o canguru têm em comum?",
+    "resposta": "São marsupiais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Didelphis",
+      "https://en.wikipedia.org/wiki/Marsupial"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00275",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "equidna",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a equidna e o ornitorrinco têm em comum que os torna raríssimos entre os mamíferos?",
+    "resposta": "Botam ovos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Echidna",
+      "https://en.wikipedia.org/wiki/Monotreme"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00276",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "ornitorrinco",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa do bico achatado, o ornitorrinco recebeu um nome grego que significa focinho de que tipo de animal?",
+    "resposta": "Ave",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Platypus"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00277",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "morsa",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome científico da morsa, Odobenus, vem do grego e significa aquele que caminha com o quê?",
+    "resposta": "Dentes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walrus"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00278",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "sirenios",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A ordem que reúne peixes-bois e dugongos tem nome inspirado em qual criatura mitológica?",
+    "resposta": "Sereias",
+    "distratores": [
+      "Tritões",
+      "Ninfas",
+      "Hidras"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sirenia"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00279",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "rinoceronte",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome rinoceronte junta duas palavras gregas. Uma é nariz. Qual é a outra?",
+    "resposta": "Chifre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rhinoceros"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00280",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "rinoceronte",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O chifre do rinoceronte é formado principalmente por qual substância?",
+    "resposta": "Queratina",
+    "distratores": [
+      "Marfim",
+      "Osso",
+      "Cartilagem"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rhinoceros"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00281",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "orangotango",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na língua malaia, o que significa o nome orangotango?",
+    "resposta": "Homem da floresta",
+    "distratores": [
+      "Macaco vermelho",
+      "Velho da montanha",
+      "Rei das árvores"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orangutan"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00282",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "camelo",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Ao contrário do que muita gente pensa, a corcova do camelo armazena principalmente o quê?",
+    "resposta": "Gordura",
+    "distratores": [
+      "Água",
+      "Músculo",
+      "Sangue"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Camel"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00283",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "bugio",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O uivo do bugio, ouvido a quilômetros de distância, é amplificado por qual osso da garganta, muito aumentado?",
+    "resposta": "Osso hioide",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Howler_monkey"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00284",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "narval",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O que parece um chifre em espiral na cabeça do narval é, na verdade, qual parte do corpo?",
+    "resposta": "Um dente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Narwhal"
+    ],
+    "dificuldade": 3
   }
 ]
