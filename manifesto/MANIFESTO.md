@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.22 — 2026-09-30**
+> **Versão preliminar 0.23 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -558,9 +558,9 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
    - O alto da tela mostra os jogadores, com o tema atual e a posição de cada um. Tocar num jogador o escolhe como respondente e seleciona o tema dele. Ainda dá para escolher outro tema à mão.
    - Os botões de tema têm a cor do tema, herdada do app antigo, e mostram quantas perguntas ainda não saíram na partida. "Qualquer tema" tem faixas com todas as cores.
    - Um segundo filtro escolhe **com ou sem figura**, **só com figura** ou **só sem figura**.
-   - Depois ele toca em **Sortear**.
-4. Ele lê a pergunta em voz alta. Se houver figura, toca nela para abri-la em **tela cheia**, só a imagem, e mostra o aparelho ao respondente. Outro toque fecha a tela cheia.
-5. Ele toca em **Mostrar resposta**. Confirma quem respondeu e marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
+   - Depois ele toca em **Sortear**, na barra fixa do rodapé. A barra sempre mostra a ação do momento: **Sortear**, **Mostrar resposta** ou **Acertou** e **Errou**.
+4. A pergunta ocupa a tela, e a escolha de jogador e de tema some até a rodada acabar. Ele lê a pergunta em voz alta. Se houver figura, toca nela para abri-la em **tela cheia**, só a imagem, e mostra o aparelho ao respondente. Outro toque fecha a tela cheia.
+5. Ele toca em **Mostrar resposta**. O mesmo botão vira **Esconder resposta**, para cobrir a tela se alguém espiar. Quem responde já aparece ("Responde: Ana"), com a opção de **trocar**. Ele marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
 6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, dificuldade estimada, tipo, fontes com link, crédito da figura, autor e id. Antes da resposta o botão não aparece, para não vazar nada.
 
 Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão.
@@ -635,3 +635,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.20 | 2026-09-30 | Lotes de 50 perguntas; limite de saída do CLI elevado para 64 mil tokens; resultados dos primeiros lotes com o pipeline econômico (§13) |
 | 0.21 | 2026-09-30 | Trechos das fontes: artigo equivalente em português quando as fontes são só da Wikipédia em inglês (§11, §13) |
 | 0.22 | 2026-09-30 | Figuras de animais permitidas; só fotos de um único assunto; cinco perguntas de Mamíferos com figura (§6, §13) |
+| 0.23 | 2026-09-30 | App: a pergunta ocupa a tela ao sortear; barra fixa no rodapé com a ação do momento; Mostrar/Esconder resposta no mesmo botão; respondente escolhido uma vez só; figura com altura máxima (§16) |

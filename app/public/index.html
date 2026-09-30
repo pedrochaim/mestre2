@@ -56,7 +56,7 @@
     ul.placar .pontos { font-size: 1.3rem; font-weight: 700; min-width: 2.5ch; text-align: center; }
     ul.placar button { padding: .3rem .8rem; }
     .figura { margin: .3rem 0 .8rem; }
-    .figura img { width: 100%; border-radius: 10px; display: block; cursor: zoom-in; }
+    .figura img { width: 100%; max-height: 42vh; object-fit: contain; background: #000; border-radius: 10px; display: block; cursor: zoom-in; }
     .figura .credito { font-size: .75rem; color: var(--suave); margin-top: .2rem; }
     .figura .credito a { color: inherit; }
     .temas { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0 0 .6rem; }
@@ -87,6 +87,17 @@
     #tela-cheia { position: fixed; inset: 0; background: #000; display: flex; align-items: center;
                   justify-content: center; z-index: 10; cursor: zoom-out; }
     #tela-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
+    /* Barra fixa no rodapé com a ação do momento (Sortear, Mostrar resposta, Acertou/Errou), ao alcance do polegar. */
+    #jogo { padding-bottom: 5.5rem; }
+    .barra { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
+             padding: 1.2rem 16px calc(.8rem + env(safe-area-inset-bottom));
+             background: linear-gradient(to bottom, transparent, var(--fundo) 40%); }
+    .barra > * { display: block; width: 100%; max-width: 528px; margin: 0 auto; }
+    .barra button { padding: .85rem 1rem; font-size: 1.05rem; }
+    .barra .duas { display: flex; gap: .5rem; margin-top: .5rem; }
+    .barra .duas button { flex: 1; }
+    .quem { display: flex; align-items: center; gap: .5rem; margin: .6rem 0 .2rem; }
+    .quem button { padding: .2rem .7rem; font-size: .85rem; color: var(--suave); }
     [hidden] { display: none !important; }
   </style>
 </head>
@@ -122,6 +133,8 @@
 
     <!-- Sorteio -->
     <div id="aba-sorteio">
+      <!-- Preparação do sorteio; some enquanto há uma pergunta na tela -->
+      <div id="preparo">
       <!-- Jogadores: tema, posição, acertos e erros; tocar escolhe quem responde -->
       <div id="mini" class="cartao" hidden>
         <p id="vencedor-mini" class="vencedor" hidden></p>
@@ -136,9 +149,9 @@
           <option value="com">Só com figura</option>
           <option value="sem">Só sem figura</option>
         </select>
-        <button id="sortear" class="principal" style="width:100%;margin-top:.5rem">Sortear</button>
-        <p id="msg-sorteio" class="suave"></p>
       </div>
+      </div>
+      <p id="msg-sorteio" class="suave"></p>
 
       <div id="atual" class="cartao" hidden>
         <div id="atual-tema" class="etiqueta"></div>
@@ -149,15 +162,12 @@
         </div>
         <div id="atual-pergunta" class="pergunta"></div>
         <ol id="atual-opcoes" class="opcoes" type="A" hidden></ol>
-        <button id="revelar" style="width:100%">Mostrar resposta</button>
         <div id="revelado" hidden>
           <div id="atual-resposta" class="resposta"></div>
-          <div class="suave">Quem respondeu?</div>
+          <!-- Quem responde já foi escolhido antes do sorteio: mostra o nome, e a lista só se for trocar -->
+          <div id="quem" class="quem"></div>
+          <div id="quem-rotulo" class="suave">Quem respondeu?</div>
           <div id="respondentes" class="chips"></div>
-          <div class="acoes">
-            <button id="acertou" class="certo" disabled>Acertou (+1)</button>
-            <button id="errou" class="errado" disabled>Errou</button>
-          </div>
           <div class="acoes"><button id="pular">Pular sem pontuar</button></div>
           <!-- Só aparece depois da resposta, para não vazar nada antes dela -->
           <button id="sobre" class="sobre-botao" aria-expanded="false">Sobre a pergunta</button>
@@ -182,6 +192,15 @@
           <input id="campo-nome" placeholder="Nome do jogador" maxlength="30" autocomplete="off" required>
           <button>Adicionar</button>
         </form>
+      </div>
+    </div>
+
+    <div id="barra" class="barra">
+      <button id="sortear" class="principal">Sortear</button>
+      <button id="revelar" class="principal" hidden>Mostrar resposta</button>
+      <div id="barra-resultado" class="duas" hidden>
+        <button id="acertou" class="certo" disabled>Acertou (+1)</button>
+        <button id="errou" class="errado" disabled>Errou</button>
       </div>
     </div>
   </section>
@@ -225,6 +244,7 @@
   let temaEscolhido = "*";   // "*" = qualquer tema
   let atual = null;         // pergunta na tela deste aparelho
   let respondente = null;    // id do jogador escolhido
+  let trocando = false;      // a lista de jogadores está aberta para trocar quem respondeu
   let desligar = [];         // cancela os listeners ao sair
 
   // Cores dos temas, herdadas do app antigo (app.R): [fundo, texto]. A ordem também é a de exibição.
@@ -370,6 +390,8 @@
     codigo = null; atual = null; respondente = null; jogadores = []; sorteios = []; legado = []; vezes = new Map(); resultados = [];
     history.replaceState(null, "", location.pathname);
     $("atual").hidden = true;
+    $("revelado").hidden = true;
+    atualizarBarra();
     $("jogo").hidden = true;
     $("entrada").hidden = false;
   };
@@ -381,6 +403,7 @@
       document.querySelectorAll("[data-aba]").forEach(b => b.setAttribute("aria-selected", b === botao));
       $("aba-sorteio").hidden = botao.dataset.aba !== "sorteio";
       $("aba-placar").hidden = botao.dataset.aba !== "placar";
+      $("barra").hidden = botao.dataset.aba !== "sorteio";
     };
   });
 
@@ -444,6 +467,18 @@
     }
   };
 
+  // Com uma pergunta na tela, a preparação some e a barra mostra a ação seguinte. O mesmo botão mostra e
+  // esconde a resposta; com ela à vista, Acertou e Errou aparecem logo abaixo.
+  function atualizarBarra() {
+    const revelado = Boolean(atual) && !$("revelado").hidden;
+    $("preparo").hidden = Boolean(atual);
+    $("sortear").hidden = Boolean(atual);
+    $("revelar").hidden = !atual;
+    $("revelar").textContent = revelado ? "Esconder resposta" : "Mostrar resposta";
+    $("revelar").classList.toggle("principal", !revelado);
+    $("barra-resultado").hidden = !revelado;
+  }
+
   // "sorteio" é o id do registro deste sorteio; "antes" é quantas vezes a pergunta já tinha saído.
   function mostrar(p, sorteio, antes) {
     atual = { ...p, sorteio, opcoes: p.tipo === "multipla" ? embaralhar([p.resposta, ...(p.distratores || [])]) : null };
@@ -467,19 +502,23 @@
     }));
     $("atual-resposta").textContent = p.resposta;
     desenharSobre(p);
-    $("revelar").hidden = false;
     $("revelado").hidden = true;
     $("atual").hidden = false;
+    $("msg-sorteio").textContent = "";  // avisos da preparação não valem mais
+    trocando = false;
+    atualizarBarra();
     desenharRespondentes();
+    window.scrollTo(0, 0);
   }
 
   $("atual-img").onclick = () => { $("tela-cheia").hidden = false; };
   $("tela-cheia").onclick = () => { $("tela-cheia").hidden = true; };
 
   $("revelar").onclick = () => {
-    $("revelar").hidden = true;
-    $("revelado").hidden = false;
-    [...$("atual-opcoes").children].forEach(li => li.classList.toggle("correta", li.textContent === atual.resposta));
+    const mostrar = $("revelado").hidden;
+    $("revelado").hidden = !mostrar;
+    atualizarBarra();
+    [...$("atual-opcoes").children].forEach(li => li.classList.toggle("correta", mostrar && li.textContent === atual.resposta));
   };
 
   // ---------------------------------------------------------------- sobre a pergunta
@@ -541,11 +580,20 @@
 
   function desenharRespondentes() {
     if (!respondente || !jogadores.some(j => j.id === respondente)) respondente = null;
+    const quem = jogadores.find(j => j.id === respondente);
+    const lista = !quem || trocando;
+    $("quem").hidden = lista;
+    if (quem) {
+      const trocar = el("button", { textContent: "trocar" });
+      trocar.onclick = () => { trocando = true; desenharRespondentes(); };
+      $("quem").replaceChildren("Responde: ", el("strong", { textContent: quem.nome }), trocar);
+    }
+    $("quem-rotulo").hidden = $("respondentes").hidden = !lista;
     $("respondentes").replaceChildren(...jogadores.map(j => {
       const b = document.createElement("button");
       b.textContent = j.nome;
       b.setAttribute("aria-pressed", j.id === respondente);
-      b.onclick = () => escolher(j.id);
+      b.onclick = () => { trocando = false; escolher(j.id); };
       return b;
     }));
     if (!jogadores.length) $("respondentes").textContent = "Adicione jogadores na aba Tabuleiro.";
@@ -579,7 +627,10 @@
     atual = null;
     respondente = null;
     $("atual").hidden = true;
+    $("revelado").hidden = true;
     $("tela-cheia").hidden = true;
+    atualizarBarra();
+    desenharRespondentes();
     desenharPlacar();
   }
 
