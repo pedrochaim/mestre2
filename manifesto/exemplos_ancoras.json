@@ -1,0 +1,48 @@
+[
+  {
+    "id": "venezuela",
+    "nome": "Venezuela",
+    "descricao": "País da América do Sul, no litoral do mar do Caribe, com capital em Caracas.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Venezuela",
+      "https://www.britannica.com/place/Venezuela"
+    ]
+  },
+  {
+    "id": "penicilina",
+    "nome": "Penicilina",
+    "descricao": "Primeiro antibiótico amplamente usado, produzido a partir de fungos do gênero Penicillium.",
+    "variantes": ["Penicillin"],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Penicilina",
+      "https://www.britannica.com/science/penicillin"
+    ]
+  },
+  {
+    "id": "pele",
+    "nome": "Pelé",
+    "descricao": "Futebolista brasileiro, único jogador tricampeão da Copa do Mundo.",
+    "variantes": ["Edson Arantes do Nascimento", "Rei do Futebol"],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pelé",
+      "https://www.britannica.com/biography/Pele-Brazilian-athlete"
+    ]
+  },
+  {
+    "id": "imperio_mongol",
+    "nome": "Império Mongol",
+    "descricao": "Império fundado por Gengis Khan no século XIII, o maior império de terras contínuas da história.",
+    "variantes": ["Mongol Empire"],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Império_Mongol",
+      "https://www.britannica.com/place/Mongol-empire"
+    ]
+  },
+  {
+    "id": "imperio_mongolico",
+    "nome": "Império Mongólico",
+    "descricao": "Império fundado por Gengis Khan no século XIII.",
+    "fontes": ["https://pt.wikipedia.org/wiki/Império_Mongol"],
+    "fundida_em": "imperio_mongol"
+  }
+]

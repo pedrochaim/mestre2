@@ -1,0 +1,707 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Estádio do Maracanã",
+        "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+        "variantes": [
+          "Maracanã",
+          "Estádio Jornalista Mário Filho",
+          "Maracana Stadium"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Estádio_do_Maracanã",
+          "https://en.wikipedia.org/wiki/Maracanã_Stadium"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Maracanã, no Rio de Janeiro, tem um nome oficial que homenageia qual jornalista esportivo?",
+      "resposta": "Mário Filho",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Estádio_do_Maracanã",
+        "https://en.wikipedia.org/wiki/Maracanã_Stadium"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Garrincha",
+        "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+        "variantes": [
+          "Mané Garrincha",
+          "Manuel Francisco dos Santos",
+          "Manoel Francisco dos Santos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Garrincha",
+          "https://en.wikipedia.org/wiki/Garrincha"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O apelido de Garrincha, ídolo do Botafogo, é também o nome popular de que tipo de animal?",
+      "resposta": "Um pássaro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Garrincha",
+        "https://en.wikipedia.org/wiki/Garrincha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Boca Juniors",
+        "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+        "variantes": [
+          "Club Atlético Boca Juniors",
+          "Boca",
+          "Xeneizes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Club_Atlético_Boca_Juniors",
+          "https://en.wikipedia.org/wiki/Boca_Juniors"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os torcedores do Boca Juniors são chamados de xeneizes, termo que remete aos imigrantes de qual cidade italiana?",
+      "resposta": "Gênova",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Club_Atlético_Boca_Juniors",
+        "https://en.wikipedia.org/wiki/Boca_Juniors"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Boca Juniors",
+        "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+        "variantes": [
+          "Club Atlético Boca Juniors",
+          "Boca",
+          "Xeneizes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Club_Atlético_Boca_Juniors",
+          "https://en.wikipedia.org/wiki/Boca_Juniors"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No começo do século vinte, o Boca Juniors adotou o azul e o amarelo copiando a bandeira de um navio no porto. De que país era o navio?",
+      "resposta": "Suécia",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Club_Atlético_Boca_Juniors",
+        "https://en.wikipedia.org/wiki/Boca_Juniors"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Real Madrid",
+        "descricao": "Real Madrid Club de Fútbol, clube de futebol da capital espanhola fundado em 1902.",
+        "variantes": [
+          "Real Madrid Club de Fútbol",
+          "Real Madrid CF",
+          "Madrid Football Club"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Real_Madrid_Club_de_Fútbol",
+          "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em 1920, o clube Madrid ganhou o título de Real, concedido por qual rei da Espanha?",
+      "resposta": "Afonso XIII",
+      "distratores": [
+        "Fernando VII",
+        "Carlos III",
+        "Filipe V"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Real_Madrid_Club_de_Fútbol",
+        "https://en.wikipedia.org/wiki/Real_Madrid_CF"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vasco da Gama",
+        "descricao": "Club de Regatas Vasco da Gama, clube carioca fundado em 1898 por remadores.",
+        "variantes": [
+          "Club de Regatas Vasco da Gama",
+          "Vasco",
+          "CR Vasco da Gama"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Club_de_Regatas_Vasco_da_Gama",
+          "https://en.wikipedia.org/wiki/CR_Vasco_da_Gama"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Vasco, fundado em 1898, foi batizado em homenagem aos quatrocentos anos de qual feito do navegador português?",
+      "resposta": "Chegada às Índias por mar",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Club_de_Regatas_Vasco_da_Gama",
+        "https://en.wikipedia.org/wiki/CR_Vasco_da_Gama"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Corinthians",
+        "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+        "variantes": [
+          "Sport Club Corinthians Paulista",
+          "Timão",
+          "SC Corinthians"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista",
+          "https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O Corinthians, fundado em 1910, recebeu o nome de um time amador que excursionava pelo Brasil. De que país era esse time?",
+      "resposta": "Inglaterra",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista",
+        "https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lev Yashin",
+        "descricao": "Goleiro soviético do Dínamo de Moscou, Bola de Ouro de 1963.",
+        "variantes": [
+          "Lev Iachin",
+          "Lev Ivanovich Yashin",
+          "Lev Jashin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lev_Yashin"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por jogar sempre de uniforme preto, o goleiro soviético Lev Yashin ficou conhecido por qual apelido?",
+      "resposta": "Aranha Negra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lev_Yashin"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tostão",
+        "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+        "variantes": [
+          "Eduardo Gonçalves de Andrade"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tostão",
+          "https://en.wikipedia.org/wiki/Tostão"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que Tostão, craque do tri de 1970, e Sócrates, líder da Democracia Corinthiana, têm em comum fora dos gramados?",
+      "resposta": "Ambos se formaram em medicina",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tostão",
+        "https://en.wikipedia.org/wiki/Tostão",
+        "https://en.wikipedia.org/wiki/Sócrates_(footballer)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Raí",
+        "descricao": "Raí Souza Vieira de Oliveira, meia brasileiro ídolo do São Paulo e do Paris Saint-Germain, campeão mundial em 1994.",
+        "variantes": [
+          "Raí Souza Vieira de Oliveira",
+          "Rai"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Raí",
+          "https://pt.wikipedia.org/wiki/Raí"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que laço une Raí, ídolo do São Paulo e do Paris Saint-Germain, a Sócrates, ídolo do Corinthians?",
+      "resposta": "São irmãos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Raí",
+        "https://en.wikipedia.org/wiki/Sócrates_(footballer)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "River Plate",
+        "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+        "variantes": [
+          "Club Atlético River Plate",
+          "River",
+          "CARP"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Club_Atlético_River_Plate",
+          "https://en.wikipedia.org/wiki/Club_Atlético_River_Plate"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que River Plate e Boca Juniors, grandes rivais argentinos, têm em comum na sua origem?",
+      "resposta": "Ambos nasceram no bairro de La Boca",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Club_Atlético_River_Plate",
+        "https://pt.wikipedia.org/wiki/Club_Atlético_River_Plate"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cruzeiro",
+        "descricao": "Cruzeiro Esporte Clube, clube de futebol de Belo Horizonte fundado em 1921 por imigrantes italianos.",
+        "variantes": [
+          "Cruzeiro Esporte Clube",
+          "Palestra Itália de Belo Horizonte"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cruzeiro_Esporte_Clube",
+          "https://en.wikipedia.org/wiki/Cruzeiro_Esporte_Clube"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Palmeiras e Cruzeiro, fundados por imigrantes italianos, tinham originalmente o mesmo nome. Que nome era esse?",
+      "resposta": "Palestra Itália",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cruzeiro_Esporte_Clube",
+        "https://pt.wikipedia.org/wiki/Sociedade_Esportiva_Palmeiras"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Didier Deschamps",
+        "descricao": "Volante francês, capitão da França campeã mundial em 1998 e técnico da França campeã em 2018.",
+        "variantes": [
+          "Deschamps"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Didier_Deschamps",
+          "https://en.wikipedia.org/wiki/Didier_Deschamps"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em Copas do Mundo, o que Zagallo, Franz Beckenbauer e Didier Deschamps têm em comum?",
+      "resposta": "Campeões como jogador e como técnico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Didier_Deschamps",
+        "https://en.wikipedia.org/wiki/Franz_Beckenbauer",
+        "https://en.wikipedia.org/wiki/Mário_Zagallo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Atlético de Madrid",
+        "descricao": "Club Atlético de Madrid, clube de futebol da capital espanhola fundado em 1903.",
+        "variantes": [
+          "Club Atlético de Madrid",
+          "Atlético Madrid",
+          "Athletic Club de Madrid",
+          "Atleti"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Club_Atlético_de_Madrid",
+          "https://en.wikipedia.org/wiki/Atlético_Madrid"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que ligação existe, na origem, entre o Atlético de Madrid e o Athletic Bilbao?",
+      "resposta": "O Atlético nasceu como filial do Athletic",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atlético_Madrid",
+        "https://pt.wikipedia.org/wiki/Club_Atlético_de_Madrid"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Juventus",
+        "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+        "variantes": [
+          "Juventus Football Club",
+          "Juve",
+          "Velha Senhora",
+          "Vecchia Signora"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Juventus_Football_Club",
+          "https://en.wikipedia.org/wiki/Juventus_FC"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1903, a Juventus trocou o uniforme rosa pelo preto e branco ao receber camisas de qual clube inglês?",
+      "resposta": "Notts County",
+      "distratores": [
+        "Newcastle United",
+        "Derby County",
+        "Fulham"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Juventus_FC",
+        "https://pt.wikipedia.org/wiki/Juventus_Football_Club"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Camisa canarinho",
+        "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca.",
+        "variantes": [
+          "Camisa amarela da seleção",
+          "Amarelinha",
+          "Uniforme canarinho"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_national_football_team",
+          "https://en.wikipedia.org/wiki/Aldyr_Garcia_Schlee"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos cinquenta, a seleção brasileira abandonou o uniforme branco e adotou o amarelo por causa de qual derrota?",
+      "resposta": "Para o Uruguai em 1950 (Maracanazo)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_national_football_team",
+        "https://en.wikipedia.org/wiki/Maracanazo",
+        "https://en.wikipedia.org/wiki/Aldyr_Garcia_Schlee"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Taça Jules Rimet",
+        "descricao": "Troféu da Copa do Mundo FIFA entre 1930 e 1970, entregue em definitivo ao Brasil e roubado no Rio de Janeiro em 1983.",
+        "variantes": [
+          "Jules Rimet",
+          "Copa Jules Rimet",
+          "Jules Rimet Trophy",
+          "Vitória"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Taça_Jules_Rimet",
+          "https://en.wikipedia.org/wiki/Jules_Rimet_Trophy"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1970, por que o Brasil ganhou a posse definitiva da taça Jules Rimet?",
+      "resposta": "Por ser o primeiro tricampeão mundial",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Taça_Jules_Rimet",
+        "https://en.wikipedia.org/wiki/Jules_Rimet_Trophy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tragédia de Heysel",
+        "descricao": "Desastre no estádio de Heysel, em Bruxelas, antes da final da Copa dos Campeões de 1985 entre Liverpool e Juventus, com 39 mortos.",
+        "variantes": [
+          "Desastre de Heysel",
+          "Heysel Stadium disaster"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Heysel_Stadium_disaster",
+          "https://pt.wikipedia.org/wiki/Tragédia_de_Heysel"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Após a tragédia no estádio de Heysel, em 1985, que punição sofreram os clubes ingleses?",
+      "resposta": "Banimento das competições europeias",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Heysel_Stadium_disaster"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cartões amarelo e vermelho",
+        "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+        "variantes": [
+          "Cartão amarelo",
+          "Cartão vermelho",
+          "Penalty card"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penalty_card",
+          "https://en.wikipedia.org/wiki/Ken_Aston"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O árbitro inglês Ken Aston teve a ideia dos cartões amarelo e vermelho ao observar o quê?",
+      "resposta": "Um semáforo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ken_Aston",
+        "https://en.wikipedia.org/wiki/Penalty_card"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cartões amarelo e vermelho",
+        "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+        "variantes": [
+          "Cartão amarelo",
+          "Cartão vermelho",
+          "Penalty card"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penalty_card",
+          "https://en.wikipedia.org/wiki/Ken_Aston"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em qual Copa do Mundo os cartões amarelo e vermelho foram usados pela primeira vez?",
+      "resposta": "1970, no México",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penalty_card",
+        "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guerra do Futebol",
+        "descricao": "Conflito armado de 1969 entre El Salvador e Honduras, deflagrado em meio a jogos das Eliminatórias da Copa de 1970.",
+        "variantes": [
+          "Guerra das Cem Horas",
+          "Football War",
+          "Guerra del Fútbol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Football_War",
+          "https://pt.wikipedia.org/wiki/Guerra_do_Futebol"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1969, El Salvador e Honduras entraram em guerra num clima de tensão acirrado por jogos de qual competição?",
+      "resposta": "Eliminatórias da Copa de 1970",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Football_War",
+        "https://pt.wikipedia.org/wiki/Guerra_do_Futebol"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Final da Copa do Mundo de 2010",
+        "descricao": "Partida final da Copa do Mundo FIFA de 2010, em Joanesburgo, entre Espanha e Holanda.",
+        "variantes": [
+          "2010 FIFA World Cup final",
+          "Espanha x Holanda 2010"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_final"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Na prorrogação da final da Copa de 2010, na África do Sul, quem marcou o gol do título espanhol?",
+      "resposta": "Andrés Iniesta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_final"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Futebol total",
+        "descricao": "Estilo tático de rodízio constante de posições associado ao Ajax e à seleção da Holanda do início dos anos 1970.",
+        "variantes": [
+          "Total Football",
+          "Totaalvoetbal",
+          "Carrossel Holandês",
+          "Laranja Mecânica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Total_Football"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Qual técnico é considerado o criador do futebol total, estilo do Ajax e da Holanda vice-campeã em 1974?",
+      "resposta": "Rinus Michels",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Total_Football",
+        "https://en.wikipedia.org/wiki/Rinus_Michels"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eusébio",
+        "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+        "variantes": [
+          "Eusébio da Silva Ferreira",
+          "Pantera Negra",
+          "Pérola Negra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eusébio",
+          "https://pt.wikipedia.org/wiki/Eusébio"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Eusébio, astro do Benfica e de Portugal na Copa de 1966, nasceu em qual atual país africano?",
+      "resposta": "Moçambique",
+      "distratores": [
+        "Angola",
+        "Cabo Verde",
+        "Guiné-Bissau"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eusébio"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tragédia de Superga",
+        "descricao": "Queda do avião que levava o elenco do Torino, o Grande Torino, na colina de Superga, perto de Turim, em 4 de maio de 1949.",
+        "variantes": [
+          "Desastre aéreo de Superga",
+          "Superga air disaster",
+          "Tragedia di Superga"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Superga_air_disaster",
+          "https://pt.wikipedia.org/wiki/Tragédia_de_Superga"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1949, o avião do Grande Torino caiu perto de Turim, na volta de um amistoso disputado em qual capital europeia?",
+      "resposta": "Lisboa",
+      "distratores": [
+        "Madri",
+        "Paris",
+        "Viena"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Superga_air_disaster"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Just Fontaine",
+        "descricao": "Atacante francês nascido no Marrocos, artilheiro da Copa do Mundo de 1958.",
+        "variantes": [
+          "Justo Fontaine"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Just_Fontaine"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Na Copa de 1958, na Suécia, quantos gols marcou o atacante francês Just Fontaine?",
+      "resposta": "13",
+      "distratores": [
+        "9",
+        "11",
+        "15"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Just_Fontaine",
+        "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Brasil 1 x 7 Alemanha",
+        "descricao": "Semifinal da Copa do Mundo de 2014, disputada no Mineirão, em Belo Horizonte, em 8 de julho de 2014.",
+        "variantes": [
+          "Mineiraço",
+          "Sete a um",
+          "Brazil v Germany 2014"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazil_v_Germany_(2014_FIFA_World_Cup)"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Na semifinal da Copa de 2014, em Belo Horizonte, quantos gols a Alemanha marcou no Brasil ainda no primeiro tempo?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil_v_Germany_(2014_FIFA_World_Cup)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Copa do Mundo FIFA de 2002",
+        "descricao": "Décima sétima Copa do Mundo, disputada no Japão e na Coreia do Sul e vencida pelo Brasil.",
+        "variantes": [
+          "Copa de 2002",
+          "2002 FIFA World Cup",
+          "Copa do Penta"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_2002",
+          "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A Copa de 2002, a primeira disputada na Ásia, teve como sedes o Japão e qual outro país?",
+      "resposta": "Coreia do Sul",
+      "distratores": [
+        "China",
+        "Coreia do Norte",
+        "Tailândia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup",
+        "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_2002"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Flamengo",
+        "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+        "variantes": [
+          "Clube de Regatas do Flamengo",
+          "CR Flamengo",
+          "Mengão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo",
+          "https://en.wikipedia.org/wiki/CR_Flamengo"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes de ter um time de futebol, o Flamengo foi fundado em 1895 para disputar qual esporte?",
+      "resposta": "Remo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo",
+        "https://en.wikipedia.org/wiki/CR_Flamengo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "George Weah",
+        "descricao": "Atacante liberiano, Bola de Ouro de 1995, que depois foi presidente da Libéria.",
+        "variantes": [
+          "George Manneh Oppong Weah"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/George_Weah",
+          "https://pt.wikipedia.org/wiki/George_Weah"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Bola de Ouro em 1995, o atacante George Weah ocupou mais tarde qual cargo político?",
+      "resposta": "Presidente da Libéria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/George_Weah"
+      ]
+    }
+  ]
+}

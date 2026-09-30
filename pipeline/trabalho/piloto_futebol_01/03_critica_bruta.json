@@ -1,0 +1,242 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "motivo": "O nome oficial Estádio Jornalista Mário Filho é um fato correto e bem classificado em 'nome', e o enunciado não vaza a resposta."
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "motivo": "A Wikipédia confirma que o apelido vem do pássaro garrincha, dado pela irmã do jogador; a pergunta é curiosa e audível."
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que xeneize significa genovês, por causa dos imigrantes de Gênova que fundaram o clube."
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que as cores vieram do navio sueco que entrou no porto de La Boca em 1906; a âncora tem 2 perguntas no lote, com ângulos diferentes."
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "motivo": "O fato é correto, mas os distratores eram reis de outras épocas, dos séculos dezoito e dezenove; foram trocados por reis próximos no tempo.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Em 1920, o clube Madrid ganhou o título de Real, concedido por qual rei da Espanha?",
+        "resposta": "Afonso XIII",
+        "distratores": [
+          "Afonso XII",
+          "Amadeu I",
+          "Fernando VII"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+          "https://pt.wikipedia.org/wiki/Real_Madrid_Club_de_Fútbol"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "motivo": "O nome do clube homenageia o quarto centenário da viagem de Vasco da Gama às Índias em 1498; o fato é preciso e o ângulo 'nome' está correto."
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "motivo": "O nome vem do Corinthian FC, time amador inglês que excursionou pelo Brasil em 1910; o fato é correto e interessante."
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "motivo": "Yashin também era chamado de Pantera Negra, então a pergunta aberta tinha duas respostas; além disso, o uniforme era azul muito escuro, e não preto. Virou múltipla escolha sem a outra resposta válida, e o enunciado foi corrigido.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Por jogar com um uniforme tão escuro que parecia preto, o goleiro soviético Lev Yashin ficou conhecido por qual apelido?",
+        "resposta": "Aranha Negra",
+        "distratores": [
+          "Polvo Negro",
+          "Gato Negro",
+          "Muralha Vermelha"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lev_Yashin"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "motivo": "As fontes confirmam que Tostão e Sócrates se formaram em medicina; é uma boa conexão, e a âncora é a menos óbvia das duas."
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "motivo": "Raí e Sócrates são irmãos, um fato correto e memorável; é uma conexão bem ancorada e não duplica a pergunta 9."
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "motivo": "A Wikipédia em português confirma que o River Plate foi fundado em La Boca em 1901; é uma conexão surpreendente, com âncora bem escolhida."
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "motivo": "A palavra 'italianos' no enunciado vaza parte da resposta, Palestra Itália; o trecho foi retirado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Os clubes Palmeiras e Cruzeiro tinham, na fundação, o mesmo nome. Que nome era esse?",
+        "resposta": "Palestra Itália",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Cruzeiro_Esporte_Clube",
+          "https://pt.wikipedia.org/wiki/Sociedade_Esportiva_Palmeiras"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "motivo": "Zagallo, Beckenbauer e Deschamps venceram a Copa como jogadores e como técnicos; a pergunta não diz que são os únicos, então resiste ao tempo."
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que o Atlético foi fundado em 1903 como filial do Athletic Bilbao, de quem só se separou em 1921."
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "motivo": "As fontes situam a troca na temporada de 1901 para 1902, e não em 1903; o ano foi substituído por uma referência de época.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "No início do século vinte, a Juventus trocou o uniforme rosa pelo preto e branco ao receber camisas de qual clube inglês?",
+        "resposta": "Notts County",
+        "distratores": [
+          "Newcastle United",
+          "Derby County",
+          "Fulham"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Juventus_FC",
+          "https://pt.wikipedia.org/wiki/Juventus_Football_Club"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "motivo": "A resposta tinha parênteses desnecessários, e a página de Aldyr Schlee não sustenta a relação com a derrota; a resposta foi simplificada e as fontes foram corrigidas.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Nos anos cinquenta, a seleção brasileira abandonou o uniforme branco e adotou o amarelo por causa de qual derrota?",
+        "resposta": "Maracanazo, contra o Uruguai",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Brazil_national_football_team",
+          "https://en.wikipedia.org/wiki/Maracanazo"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "motivo": "O Brasil ficou com a taça em definitivo por ser o primeiro tricampeão; o fato é correto e a causa está bem formulada."
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que os clubes ingleses foram banidos por tempo indeterminado das competições europeias, de 1985 até 1990 e 1991."
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Ken Aston se inspirou no semáforo; é uma curiosidade clássica e justa."
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma o primeiro uso dos cartões na Copa de 1970, no México; o ângulo difere da pergunta 19, sobre a mesma âncora."
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "motivo": "A guerra eclodiu em meio aos jogos das Eliminatórias da Copa de 1970, e o enunciado evita dizer que o futebol a causou sozinho."
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "motivo": "Iniesta marcou aos 116 minutos da final de 2010; o fato é correto e o ângulo é 'autoria'."
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "motivo": "O verbo 'é considerado' protege a atribuição a Rinus Michels, que é a consagrada."
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "motivo": "Eusébio nasceu em Lourenço Marques, a atual Maputo; o termo 'atual país' é preciso e os distratores são ex-colônias portuguesas críveis."
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que o time voltava de um amistoso contra o Benfica em Lisboa; os distratores são capitais críveis."
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "motivo": "Fontaine marcou 13 gols em 1958; o fato é correto, atemporal porque não fala em recorde, e os distratores têm escala próxima."
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma os cinco gols alemães no primeiro tempo, todos na primeira meia hora."
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "motivo": "A resposta é onde a Copa ocorreu, então o ângulo correto é 'lugar', e não 'composicao'.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "A Copa de 2002, a primeira disputada na Ásia, teve como sedes o Japão e qual outro país?",
+        "resposta": "Coreia do Sul",
+        "distratores": [
+          "China",
+          "Coreia do Norte",
+          "Tailândia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup",
+          "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_2002"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "motivo": "O Flamengo nasceu em 1895 como clube de regatas, e o enunciado não usa o nome completo do clube, que vazaria a resposta."
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "motivo": "Weah também foi senador, então 'qual cargo político' tinha duas respostas; a eleição de 2017 foi incluída para que a resposta seja única.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Bola de Ouro em 1995, o atacante George Weah foi eleito em 2017 para qual cargo político?",
+        "resposta": "Presidente da Libéria",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/George_Weah"
+        ]
+      }
+    }
+  ]
+}

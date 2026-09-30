@@ -1,0 +1,565 @@
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.17 — 2026-09-30**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §17):** esquemas, fluxo de produção, decisões, pendências, o jogo e o app. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 69 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **O enunciado aponta para a figura e é curto:** "Que cidade aparece nesta foto?", "Esta igreja fica em qual capital?". Ele pode trazer um fato que ajude, desde que não entregue a resposta.
+- **O ângulo segue a regra de sempre (§5).** Foto de um monumento e pergunta pela cidade: a âncora é o monumento, e o ângulo é `lugar`.
+- **Tipos de figura, por ordem de prioridade:** lugares (cidades, monumentos, paisagens) e contornos de mapa. Obras de arte, animais e plantas ficam para depois.
+- **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
+- **Proibido:** capas de álbuns, pôsteres, logotipos, fotos de imprensa e fotos de pessoas que não sejam figuras públicas.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Não é óbvia demais:** a Torre Eiffel de frente não ensina nada. Prefira um ângulo menos visto, um detalhe ou um fato no enunciado que torne a pergunta interessante (princípio 4).
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
+
+<!-- FIM DAS REGRAS DE CONTEÚDO: o pipeline envia ao gerador e ao crítico apenas o texto acima desta linha. -->
+
+---
+
+# Parte II — Organização e processo
+
+## 10. Esquemas
+
+### Pergunta ([`pergunta.schema.json`](pergunta.schema.json))
+
+```json
+{
+  "id": "q00004",
+  "tema": "História",
+  "subtema": "Idade Média",
+  "ancora": "imperio_mongol",
+  "angulo": "autoria",
+  "tipo": "multipla",
+  "pergunta": "No século treze, qual líder fundou o Império Mongol?",
+  "resposta": "Gengis Khan (nascido Temujin)",
+  "distratores": ["Kublai Khan", "Átila", "Tamerlão"],
+  "fonte": ["https://pt.wikipedia.org/wiki/Gengis_Khan"]
+}
+```
+
+| Campo | Obrigatório | Descrição |
+|---|---|---|
+| `id` | ✔ | `q` + 5 dígitos. Opaco, permanente e nunca reutilizado. Atribuído pelo pipeline |
+| `tema` | ✔ | Da lista canônica (§3) |
+| `subtema` | ✔ | Da lista canônica. No desempate, o mais específico (§3) |
+| `ancora` | ✔ | `id` de uma entrada do cadastro de âncoras (§4) |
+| `angulo` | ✔ | Um dos 11 valores (§5) |
+| `tipo` | ✔ | `aberta` ou `multipla` (§6) |
+| `pergunta` | ✔ | Enunciado para voz (§7) |
+| `resposta` | ✔ | Direta e específica, sem lista de variantes (§7) |
+| `fonte` | ✔ | Lista com 1 ou mais URLs puras |
+| `distratores` | só em `multipla` | Exatamente 3. Proibido em `aberta` (§6) |
+| `autor` | — | Autor humano. Só é preenchido quando indicado |
+| `imagem` | — | Figura mostrada ao respondente (§6): `arquivo` (id da pergunta + extensão, em `pipeline/banco/imagens/`), `origem` (página no Commons), `autor` e `licenca` |
+
+### Âncora ([`ancora.schema.json`](ancora.schema.json))
+
+O cadastro de âncoras (`pipeline/banco/ancoras.json`) é um *arquivo de autoridade*: cada entidade é definida uma única vez, e as perguntas apontam para o seu `id`.
+
+```json
+{
+  "id": "gengis_khan",
+  "nome": "Gengis Khan",
+  "descricao": "Líder mongol que fundou o Império Mongol no século XIII.",
+  "variantes": ["Genghis Khan", "Temujin", "Chinggis Khan"],
+  "fontes": [
+    "https://pt.wikipedia.org/wiki/Gengis_Khan",
+    "https://www.britannica.com/biography/Genghis-Khan"
+  ]
+}
+```
+
+| Campo | Obrigatório | Descrição |
+|---|---|---|
+| `id` | ✔ | Minúsculas, sem acentos, com `_`. Permanente e nunca reutilizado |
+| `nome` | ✔ | Forma preferida em português |
+| `descricao` | ✔ | Uma frase que identifica a entidade sem ambiguidade |
+| `fontes` | ✔ | Lista com 1 ou mais URLs de fontes confiáveis, em qualquer idioma |
+| `variantes` | — | Outras grafias e nomes |
+| `fundida_em` | — | `id` da entrada que absorveu esta. Só aparece após uma fusão (§11) |
+
+### Regra de evolução
+
+Os esquemas e as listas fechadas só podem mudar **por acréscimo**: campos opcionais novos ou valores novos. Nunca por remoção, renomeação ou mudança de tipo. Assim, toda pergunta e toda âncora já criadas continuam válidas para sempre.
+
+---
+
+## 11. Fluxo de produção
+
+O fluxo é executado pelo pipeline em [`../pipeline/`](../pipeline/README.md), que usa o Claude Code em modo não interativo, sem custo de API. Cada **encomenda** (tema, subtema, quantidade, número de perguntas de múltipla escolha, ângulos a priorizar) passa por cinco etapas:
+
+```
+1. GERAÇÃO     o LLM (Opus) recebe a Parte I deste manifesto e as âncoras e
+               perguntas já existentes no subtema, e produz o lote;
+               para cada âncora, informa nome, descrição, variantes e fontes
+        ↓
+2. VALIDAÇÃO   script: esquema, lista canônica, distratores e duplicatas
+               de perguntas já existentes
+        ↓
+3. CRÍTICA     o LLM (Opus), com acesso à web, abre as fontes e aplica os
+               critérios (§8), a redação para voz (§7) e a granularidade da
+               âncora (§4); cada pergunta é aprovada, reescrita ou descartada
+        ↓
+4. ÂNCORAS     resolução contra o cadastro (abaixo); checagem das URLs;
+               aplicação dos limites por âncora (§4)
+        ↓
+5. REGISTRO    atribuição dos ids; gravação no banco; avisos de variedade (§9)
+```
+
+**O que bloqueia e o que só avisa:**
+- **Descartam a pergunta:** erro de esquema ou da lista canônica, distrator igual à resposta, duplicata de pergunta existente, reprovação pelo crítico, âncora rejeitada, nenhuma fonte respondendo, limites por âncora.
+- **Só geram aviso no log:** regras de variedade do lote (§9), enunciado com mais de 30 palavras, resposta longa, distrator com mais de 4 palavras.
+
+**O LLM nunca escreve no banco.** Ele devolve JSON num formato fixo, e o script decide o que gravar.
+
+### Resolução de âncoras
+
+1. **Correspondência exata:** o nome ou uma variante da proposta, normalizados (minúsculas, sem acento), coincidem com uma âncora cadastrada? Então usa o `id` existente e acrescenta as variantes novas. Propostas do mesmo lote que coincidem entre si viram uma única âncora.
+2. **Candidatas:** se não há correspondência exata, um script seleciona as âncoras cadastradas com nomes parecidos.
+3. **Juiz (LLM, Sonnet):** compara a proposta com as candidatas, **incluindo as descrições**, e decide se é a **mesma entidade** ou uma **entidade nova**.
+4. **Fontes:** se nenhuma URL de uma âncora nova responder, ela é rejeitada, e as perguntas que dependem dela são descartadas.
+
+**Na dúvida, criar em vez de fundir.** Uma duplicata é inofensiva e corrigível depois. Uma fusão errada corrompe as contagens.
+
+### Consolidação periódica
+
+O comando `consolidar` procura pares suspeitos de duplicata no cadastro inteiro, e o juiz decide sobre eles. A entrada absorvida **não é apagada**: recebe `fundida_em` com o `id` da entrada que a absorveu. Assim nenhum `id` deixa de existir, e perguntas antigas continuam válidas.
+
+### Log
+
+Toda decisão automática (descarte, reescrita, aprovação, decisão sobre âncora, fusão, aviso) é registrada com data, encomenda, etapa, decisão, motivo e a pergunta envolvida. É o que permite auditar e reverter qualquer decisão, sem que a aprovação humana seja obrigatória.
+
+---
+
+## 12. Registro de decisões
+
+O esquema foi construído a partir do esquema do projeto anterior (`info/pergunta.schema.json`), com um critério de parcimônia: **um campo só entra se tiver uso concreto e não puder ser derivado de outro**.
+
+| Decisão | Motivo |
+|---|---|
+| `id` opaco (`q` + 5 dígitos) | Um id que carrega tema ou subtema quebra se a pergunta for reclassificada |
+| `tema` e `subtema` mantidos | Organizam o banco e as encomendas. Pequena sobreposição é tolerada, e no desempate vale o mais específico |
+| `tema_clean`, `subtema_clean` e `microsubtema_clean` removidos | O código gera a versão sem acentos |
+| `microsubtema` removido | Fronteiras arbitrárias e excesso de arquivos. Âncora e ângulo cumprem o papel |
+| `tag` removido, e tags livres não adotadas | O que ofereceriam já está coberto por subtema e âncora. Tags livres se multiplicam sem controle |
+| `ancora` adicionada, como string única | Controla profundidade e repetição. Se for preciso, `ancoras_extras` entra depois como campo opcional |
+| Cadastro de âncoras separado | Evita depender só da Wikipédia em português. Descrição e variantes permitem desambiguar e deduplicar |
+| `angulo` adicionado (11 valores) | É o único mecanismo que garante variedade no tipo de pergunta. `obra` saiu, e `atributo` entrou |
+| `excecao` removido | No primeiro lote piloto, virou um molde repetitivo ("X é a cidade famosa, mas qual é a capital?") e tendia a perguntas de sim ou não. Removido antes de existir qualquer pergunta no banco, por isso sem violar a regra de evolução |
+| `dificuldade` não adotada | Em iterações anteriores, o LLM não conseguiu estimá-la de forma confiável. Se for necessária, será medida pelas taxas de acerto em partidas reais, fora do arquivo da pergunta |
+| Época e região não adotadas | Podem ser derivadas das fontes da âncora, por exemplo pelo Wikidata |
+| Verdadeiro ou falso removido | Funciona mal em voz alta e dá 50% de acerto no chute |
+| `tipo` com valores `aberta` e `multipla` | Minúsculas e sem acento, como todos os valores fixos. O app traduz para exibição |
+| `distratores` separados, só em `multipla` | Permite ao app embaralhar e aplicar o 50/50. Elimina a regra de equilibrar A, B, C e D |
+| Sem campo ou fórmula de variantes da resposta | A resposta é direta, com parênteses só quando for muito apropriado. O questionador julga com bom senso |
+| `autor` mantido como opcional | Registra a proveniência e custa nada |
+| Nova lista de temas e subtemas (8 e 69) | Variedades extinto e redistribuído. Seis subtemas removidos por envelhecerem rápido ou serem difíceis de verificar. Duplicatas fundidas. Lacunas preenchidas. Detalhes em [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md) |
+| Fluxo sem validação manual obrigatória | Crítica e resolução de âncoras são automáticas, com log auditável |
+| Pipeline pelo Claude Code, sem API | Sem custo adicional: usa a cota do plano do claude.ai. O formato JSON das respostas é garantido pela opção `--json-schema` |
+| Granularidade da âncora conferida pelo crítico | Precisa valer para toda âncora nova, e não só para as que se parecem com alguma cadastrada |
+| Critério "Precisa" (§8) | No primeiro piloto, o crítico aprovou "o navegador que batizou a Colômbia": conferia a resposta, mas não cada palavra do enunciado |
+| Questionador e respondente mudam a cada pergunta (§15) | Não existe um mestre fixo. Todos leem e todos respondem ao longo da partida |
+| Tabuleiro e sorteio separados (§15) | São funções independentes. O tabuleiro mudou várias vezes sem mexer no sorteio, e o sorteio serve a qualquer regra |
+| Resposta só ao tocar (§15) | O questionador segura o aparelho perto de outros jogadores |
+| Repetição permitida e marcada, com as novas primeiro (§15) | O banco ainda é pequeno, e bloquear a repetição travava o sorteio quando um tema se esgotava. A contagem vale entre todos os aparelhos da partida. Substituiu a proibição de repetir, das v0.7 a v0.16 |
+| Um registro por sorteio, em `sorteios` (§16) | Com repetição, uma entrada por pergunta faria o resultado da segunda vez apagar o da primeira |
+| Avanço pelo sorteio e à mão (§15) | O sorteio registra o resultado de cada pergunta. O ajuste manual cobre correções e regras que o app ainda não implementa |
+| Tabuleiro em dois estágios, inspirado no *Master* (§15) | Primeiro o jogador domina o próprio tema, depois dá uma volta por todos os temas |
+| Anel central com uma casa por tema, terminando no tema do jogador (§15) | Todos passam por todos os temas, e a última pergunta de cada um é do seu tema. Substituiu a sequência de cores sorteada por partida, usada nas v0.10 e v0.11 |
+| Tema inicial sorteado, com troca à mão (§15) | Evita repetir temas entre jogadores sem impedir ajustes do grupo |
+| Os 8 temas no tabuleiro, mesmo sem perguntas (§15) | O tabuleiro fica completo desde já. O app avisa quando o tema não tem perguntas |
+| Casas do estágio 1 do mesmo tamanho (§15) | Todas as casas valem o mesmo, e o desenho mostra isso. O preço é a borda em cata-vento, em vez de um círculo |
+| Cores dos temas herdadas do app antigo (§16) | Continuidade com o jogo anterior. A ordem das cores é a ordem dos braços e do anel |
+| Posição do peão guardada no campo `pontos` (§16) | Evitou migrar os dados das partidas existentes. O nome ficou por compatibilidade |
+| App sempre escuro (§16) | Poupa bateria em celulares com tela OLED |
+| Firebase, sem login, com código de partida (§16) | Tempo real entre aparelhos sem servidor próprio. Entrar com um código curto tem menos atrito que uma conta |
+| Perguntas com figura (§6) | Ampliam o repertório com reconhecimento visual. Exceção ao princípio 2: o respondente vê a figura, mas nunca o texto |
+| `imagem` como campo opcional, sem novo `tipo` nem novo ângulo | Uma pergunta com figura pode ser aberta ou múltipla, e o ângulo segue a relação entre resposta e âncora. Campo opcional respeita a regra de evolução |
+| Imagens só do Wikimedia Commons, copiadas para o banco | Licença livre com autor registrado. O nome do arquivo vira o id da pergunta, porque o nome original costuma entregar a resposta, e a cópia não depende de link externo |
+| Perguntas em arquivo estático, fora do Firestore (§16) | O banco é pequeno e só muda quando o pipeline roda. Cada leitura no Firestore seria custo e latência à toa |
+| Manifesto dividido em duas partes | O gerador e o crítico recebem só as regras de conteúdo (Parte I), sem o ruído de esquemas, processo e histórico |
+
+---
+
+## 13. Lições dos lotes piloto
+
+Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Países e Capitais* e *Esportes › Futebol*.
+
+| | Países e Capitais | Futebol |
+|---|---|---|
+| Entraram no banco | 29 | 30 |
+| Reescritas pelo crítico | 6 | 7 |
+| Descartadas | 1 | 0 |
+
+- **A geração é boa e variada.** Os 11 ângulos apareceram, dentro dos limites, e poucas perguntas eram óbvias.
+- **O crítico pega erros reais**, abrindo as fontes: um "único" contestável (Kiribati), datas erradas (Juventus), respostas duplas (apelidos de Yashin, cargos de Weah) e vazamentos (Seul e Astana, Palestra Itália).
+- **Pontos fracos observados:**
+  - no primeiro piloto, antes do critério "Precisa", o crítico deixou passar uma imprecisão de redação (`q00008`, Colombo);
+  - uma resposta genérica passou ("Um pássaro", `q00031`), o que motivou a regra "resposta específica" (§7);
+  - o juiz de âncoras foi chamado três vezes à toa, para pares como "River Plate" e "Ancara". O filtro de candidatas é frouxo demais para nomes curtos.
+
+**Piloto de figuras (2026-09-30).** Duas perguntas feitas à mão, fora do pipeline, em *Geografia › Cidades e Monumentos*: `q00060` (Ponte Luís I → Porto, aberta) e `q00061` (Hallgrímskirkja → Reykjavík, múltipla). As imagens vieram da propriedade P18 do Wikidata, que aponta a imagem principal de cada entidade.
+- A imagem principal do Wikidata foi boa nos dois casos: sem texto, sem marca d'água e com licença livre.
+- **É preciso olhar a foto e ler a fonte antes de escrever o enunciado.** "Que cidade é esta?" teria duas respostas, porque a ponte liga duas cidades. A foto foi tirada de Gaia, e o enunciado passou a perguntar pela cidade "do outro lado da ponte".
+
+---
+
+## 14. Pendências
+
+- [ ] **Filtro de candidatas do juiz de âncoras:** só enviar ao juiz candidatas que tenham uma palavra significativa em comum com a proposta (§13).
+- [ ] **Comando `recriticar`:** passar de novo pela crítica perguntas que já estão no banco, sempre que os critérios mudarem. Primeiro uso: `q00008` e `q00031`.
+- [ ] **Calibrar os limites por âncora** (§4) e as regras de variedade (§9), à medida que o banco crescer.
+- [ ] **Figuras no pipeline** (§6): etapa que busca imagens no Wikidata e no Commons, e crítico que baixa e olha a imagem antes de aprovar. Até lá, perguntas com figura são feitas à mão.
+- [ ] **Proporção de perguntas com figura:** começar com 5 a 10% do banco e ajustar depois de jogar.
+- [ ] **Tamanho do tabuleiro** (§15): 8 casas no estágio 1 (a casa grande do início e mais 7) e 8 no estágio 2 (uma por tema), ou seja, 16 acertos até a chegada. Ajustar depois de jogar, se preciso.
+- [ ] **Como a vez passa** (§15): quem é o próximo questionador e o próximo respondente. Hoje o grupo combina de viva voz.
+- [ ] **Acesso ao app** (§16): hoje não há login, e quem conhece o código de uma partida pode alterá-la. Rever se o app sair do círculo de amigos.
+- [ ] **Limpeza de partidas antigas** (§16): as regras não permitem apagar partidas, que se acumulam no Firestore. Partidas de teste das v0.10 e v0.11 ainda têm o campo `tabuleiro`, sem uso.
+
+---
+
+## 15. O jogo
+
+As regras do jogo ainda não estão todas definidas (princípio 1). Esta seção registra o que já foi decidido sobre **como as perguntas são usadas** numa partida e sobre o **tabuleiro**, inspirado no jogo *Master*, da Grow.
+
+### Papéis
+
+- A cada pergunta há um **questionador**, que lê a pergunta em voz alta, e um **respondente**, que responde.
+- **Os papéis mudam de pergunta a pergunta.** Não existe um mestre fixo: qualquer jogador pode ler e qualquer jogador pode responder.
+- Por isso o texto precisa funcionar na voz de qualquer pessoa, sem ensaio (§7).
+
+### Duas funções
+
+A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas funções independentes. Hoje são duas abas do mesmo app, mas podem virar dois apps.
+
+| Função | O que faz |
+|---|---|
+| **Tabuleiro** | Mostra a casa de cada jogador e o tema da próxima pergunta dele |
+| **Sorteio** | Sorteia uma pergunta do banco sobre um **tema escolhido** e a mostra ao questionador |
+
+### Regras do tabuleiro
+
+- **Peão e casas:** cada jogador tem um peão. **A cor da casa onde o peão está define o tema** da próxima pergunta dele. Cada acerto avança uma casa, e errar não move o peão.
+- **Tema designado:** ao adicionar um jogador, o app **sorteia um tema** para ele, evitando repetir temas entre jogadores enquanto houver temas livres. O tema pode ser **trocado à mão** durante o estágio 1.
+- **Estágio 1:** o peão começa na **casa grande** do início do braço do seu tema e percorre as **8 casas** desse braço: a casa grande e mais 7. São 8 perguntas seguidas no tema designado.
+- **Estágio 2:** o **anel central**, o mesmo para todos, tem **uma casa por tema**, numa ordem fixa, a mesma dos braços. Cada jogador dá **uma volta completa** no sentido horário, passando pelos 8 temas. Ele entra na casa seguinte à do seu tema, de modo que **a última pergunta é do seu tema designado**. Por exemplo, quem é de Geografia faz N › AP › CO › CI › EN › E › H › G.
+- **Fim:** são **16 acertos** até a chegada, no centro. Vence quem chegar primeiro.
+- **Temas ainda sem perguntas:** os 8 temas entram no tabuleiro e no sorteio do tema designado, mesmo que o banco ainda não tenha perguntas de alguns deles. No Sorteio, esses temas aparecem como "em breve". Quando o tema do jogador não tem perguntas, o app avisa, e o grupo escolhe outro tema ou "Qualquer tema".
+
+### Desenho do tabuleiro
+
+- **Forma:** como no *Master*, há um **braço em espiral por tema**, que leva da borda até o anel central. O fim de cada braço desemboca na casa do anel por onde aquele jogador entra. O disco do centro é a chegada.
+- **Casas do mesmo tamanho:** os braços são faixas de largura constante, e todas as casas do estágio 1 têm o mesmo tamanho, da borda até o anel. Por isso a borda do tabuleiro não é um círculo: é dentada, como um cata-vento.
+- **Casa grande:** a primeira casa de cada braço é mais comprida que as outras e traz o **nome do tema** em letras grandes, ao longo da espiral, no maior tamanho que cabe inteiro. O trecho junto à casa seguinte fica livre para os peões. As casas do anel trazem a sigla do tema (G, N, AP, CO, CI, EN, E, H).
+- **Peões:** cada peão tem a **cor do tema designado**, as iniciais do jogador e anéis branco e preto que o destacam de qualquer casa, inclusive das casas do seu próprio braço. A mesma cor aparece como borda no cartão do jogador, na aba Sorteio e na lista do Tabuleiro.
+- **Leitura de qualquer lado:** os textos giram para a borda mais próxima, e "MESTRE2" aparece duas vezes no centro, uma de cabeça para baixo.
+- **Modo mesa:** o tabuleiro pode ocupar a tela inteira de um aparelho deixado no meio da mesa, visível para todos. A tela não apaga enquanto o modo estiver ligado.
+
+### Definições
+
+- **Tela do questionador:** mostra a pergunta e, se for múltipla escolha, as alternativas embaralhadas. A resposta **só aparece ao tocar**, para não vazar para quem está ao lado.
+- **Repetição:** o sorteio prefere as perguntas que ainda não saíram na partida, em **qualquer aparelho**. Quando as do tema acabam, ele **repete**: sorteia entre as que saíram menos vezes. A pergunta repetida aparece **marcada**, com quantas vezes já saiu na partida. No botão do tema, o número é o de perguntas que ainda não saíram, e "(só repetidas)" indica que todas já saíram.
+- **Avanço:** o tabuleiro tem duas formas de mover o peão, e as duas convivem.
+  - **Pelo sorteio:** depois de revelar a resposta, o questionador escolhe quem respondeu e marca se acertou.
+  - **À mão:** botões + e − no tabuleiro, para corrigir erros ou aplicar regras que o app ainda não conhece.
+- A ordem da vez continua em aberto (§14).
+
+---
+
+## 16. O app
+
+### Visão geral
+
+- É uma página web única, em `app/public/index.html`, publicada no Firebase Hosting. Não há build nem dependências locais: o SDK do Firebase é carregado da CDN do Google.
+- Endereço: **https://mestre2-626dd.web.app**. Projeto Firebase: `mestre2-626dd`. O banco Firestore `(default)` fica em São Paulo (`southamerica-east1`).
+- O app **só lê** o banco de perguntas produzido pelo pipeline (§11). Ele não gera nem altera perguntas.
+- O app é **sempre escuro**, com fundo preto puro, para poupar bateria em celulares com tela OLED. Não segue o tema claro do aparelho.
+
+### Como se joga
+
+1. Um aparelho toca em **Nova partida** e recebe um **código de 4 letras**, sem I e O para não confundir com 1 e 0. Os outros entram digitando o código ou abrindo o link `https://mestre2-626dd.web.app/#CODIGO`.
+2. Na aba **Tabuleiro**, alguém adiciona os jogadores, e o app sorteia o tema designado de cada um. Todos os aparelhos veem o tabuleiro ao vivo.
+   - O tabuleiro em espiral (§15) mostra os peões. O botão **Modo mesa** o põe em tela cheia.
+   - Abaixo fica a lista de jogadores: tema atual, posição, acertos (✓) e erros (✗), os botões − e + e, no estágio 1, a troca de tema.
+3. Na aba **Sorteio**, o questionador escolhe quem responde e sorteia a pergunta.
+   - O alto da tela mostra os jogadores, com o tema atual e a posição de cada um. Tocar num jogador o escolhe como respondente e seleciona o tema dele. Ainda dá para escolher outro tema à mão.
+   - Os botões de tema têm a cor do tema, herdada do app antigo, e mostram quantas perguntas ainda não saíram na partida. "Qualquer tema" tem faixas com todas as cores.
+   - Um segundo filtro escolhe **com ou sem figura**, **só com figura** ou **só sem figura**.
+   - Depois ele toca em **Sortear**.
+4. Ele lê a pergunta em voz alta. Se houver figura, toca nela para abri-la em **tela cheia**, só a imagem, e mostra o aparelho ao respondente. Outro toque fecha a tela cheia.
+5. Ele toca em **Mostrar resposta**. Confirma quem respondeu e marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
+6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, tipo, fontes com link, crédito da figura, autor e id. Antes da resposta o botão não aparece, para não vazar nada.
+
+Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão.
+
+### Dados
+
+As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` copia `pipeline/banco/perguntas.json` para `app/public/perguntas.json`, só com os campos que o app usa: `id`, `tema`, `subtema`, `tipo`, `pergunta`, `resposta`, `distratores`, `imagem`, `angulo`, `fonte` e `autor`. A `ancora` sai já resolvida no cadastro, como nome e descrição. Se a âncora tiver sido fundida em outra, vale a entrada que a absorveu. Ele também copia as figuras de `pipeline/banco/imagens/` para `app/public/img/`. O Firestore guarda apenas o estado das partidas:
+
+| Caminho | Campos | Função |
+|---|---|---|
+| `partidas/{codigo}` | `criada_em` | A partida. O código é o id do documento. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
+| `partidas/{codigo}/jogadores/{id}` | `nome`, `pontos`, `tema`, `criado_em` | Um documento por jogador. `pontos` é a casa do peão; `tema` é o tema do estágio 1 |
+| `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `respondente`, `acertou` | Um registro por sorteio. A mesma pergunta pode ter vários |
+| `partidas/{codigo}/usadas/{id da pergunta}` | `em`, `respondente`, `acertou` | Formato antigo, até a v0.16: uma entrada por pergunta. O app ainda lê essas entradas, e elas contam junto com `sorteios` |
+
+- Cada sorteio cria um registro novo em `sorteios`. O resultado (`respondente` e `acertou`) é acrescentado quando o questionador marca acerto ou erro.
+- Os registros de sorteio já formam um histórico de acertos por pergunta. É daí que uma medida de dificuldade pode vir no futuro, e não do LLM (§12).
+
+### Regras de segurança (`app/firestore.rules`)
+
+- **Não há login.** Quem conhece o código de uma partida pode lê-la e jogar.
+- As regras só limitam o **formato** dos dados:
+  - o código tem 4 letras maiúsculas;
+  - uma partida não pode ser recriada nem apagada;
+  - o nome do jogador tem até 30 caracteres, e o jogador começa com 0 ponto;
+  - o tema do jogador tem até 40 caracteres;
+  - num jogador, só a casa (`pontos`) e o tema podem mudar;
+  - um sorteio é criado só com `pergunta` e `em`, e depois só o resultado (`respondente` e `acertou`) pode ser acrescentado. `usadas` segue a mesma regra, para não quebrar um aparelho que ainda esteja com a versão antiga aberta.
+- Qualquer outra coleção é negada.
+
+### Instruções
+
+Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, sem instalação global.
+
+| Tarefa | Comando |
+|---|---|
+| Atualizar as perguntas do app | `python exportar_perguntas.py` e depois publicar |
+| Publicar página e regras | `npx -y firebase-tools@latest deploy` |
+| Publicar só a página | `npx -y firebase-tools@latest deploy --only hosting` |
+| Publicar só as regras | `npx -y firebase-tools@latest deploy --only firestore` |
+| Refazer o login | `npx -y firebase-tools@latest login --reauth` |
+
+- No **PowerShell**, a política de scripts bloqueia o `npx`. Use `npx.cmd`, ou libere com `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`.
+- O login precisa de um terminal interativo, que abre o navegador. No Claude Code, rode-o numa janela comum do PowerShell.
+- Depois de publicar, as **regras novas levam cerca de 1 minuto** para valer. Nesse intervalo, o app pode dar erro de permissão.
+- A página e o `perguntas.json` são servidos **sem cache** (`firebase.json`), para que uma publicação apareça na hora. As imagens usam o cache padrão de 1 hora.
+
+---
+
+## 17. Histórico
+
+| Versão | Data | Mudanças principais |
+|---|---|---|
+| 0.1–0.2 | 2026-09-29 | Esquema construído campo a campo a partir do antigo; cadastro de âncoras |
+| 0.3 | 2026-09-29 | Registro de decisões; ângulos revisados; nova lista de temas e subtemas |
+| 0.4 | 2026-09-29 | Pipeline; ângulo `excecao` removido |
+| 0.5 | 2026-09-30 | Manifesto em duas partes; critério "Precisa"; resposta específica; variedade dentro do ângulo; fluxo descrito como o pipeline realmente funciona; lições dos pilotos |
+| 0.6 | 2026-09-30 | Seção do jogo e do app: questionador e respondente rotativos; placar e sorteio como funções separadas; projeto Firebase |
+| 0.7 | 2026-09-30 | Definições do jogo (tela do questionador, repetição por partida, pontos pelo sorteio e à mão); nova seção do app: uso, dados, regras de segurança e instruções |
+| 0.8 | 2026-09-30 | Perguntas com figura: campo opcional `imagem`, regras e critérios (§6), exceção ao princípio 2, piloto de duas perguntas, filtro e tela cheia no app |
+| 0.9 | 2026-09-30 | App: cores por tema; placar com acertos e erros visível na aba Sorteio |
+| 0.10 | 2026-09-30 | Tabuleiro em dois estágios (tema próprio sorteado; depois a cor da casa); o placar vira tabuleiro; tema de cada jogador visível no sorteio |
+| 0.11 | 2026-09-30 | Tabuleiro em espiral no estilo do Master; modo mesa em tela cheia |
+| 0.12 | 2026-09-30 | Estágio 2 como anel central com uma casa por tema; cada jogador termina no seu tema original; fim do sorteio de cores por partida |
+| 0.13 | 2026-09-30 | App sempre em modo escuro, com fundo preto |
+| 0.14 | 2026-09-30 | Tabuleiro: nomes dos temas na casa grande do início de cada braço, onde o peão começa (e mais 7 casas no braço); casas do estágio 1 do mesmo tamanho, com borda em cata-vento; peões na cor do tema designado |
+| 0.15 | 2026-09-30 | Revisão geral: §15 separada em regras e desenho do tabuleiro; decisões do jogo e do app registradas (§12); "Como se joga" reorganizado; "narrador" trocado por "questionador" |
+| 0.16 | 2026-09-30 | App: botão "Sobre a pergunta" depois da resposta; exportação passa a incluir âncora (nome e descrição), ângulo, fontes e autor |
+| 0.17 | 2026-09-30 | Perguntas podem se repetir na partida, com as novas primeiro e a repetida marcada; um registro por sorteio, em `sorteios` |

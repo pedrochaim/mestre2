@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["perguntas"],
+  "properties": {
+    "perguntas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ancora", "angulo", "tipo", "pergunta", "resposta", "fonte"],
+        "properties": {
+          "ancora": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["nome", "descricao", "variantes", "fontes"],
+            "properties": {
+              "id_existente": { "type": "string", "description": "id de uma âncora já cadastrada, se a pergunta for sobre ela; omita para âncora nova" },
+              "nome": { "type": "string" },
+              "descricao": { "type": "string" },
+              "variantes": { "type": "array", "items": { "type": "string" } },
+              "fontes": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "angulo": {
+            "type": "string",
+            "enum": ["autoria", "tempo", "lugar", "numero", "nome", "causa", "composicao", "atributo", "comparacao", "conexao", "identidade"]
+          },
+          "tipo": { "type": "string", "enum": ["aberta", "multipla"] },
+          "pergunta": { "type": "string" },
+          "resposta": { "type": "string" },
+          "distratores": { "type": "array", "items": { "type": "string" } },
+          "fonte": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  }
+}

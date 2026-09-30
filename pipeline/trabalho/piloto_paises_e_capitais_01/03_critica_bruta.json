@@ -1,0 +1,215 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Argentina vem do latim argentum, prata; a pergunta é clara, não entrega a resposta e o ângulo nome está correto."
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "motivo": "A Wikipédia confirma que o nome significa confluência lamacenta, e os distratores são traduções de nomes de outras cidades asiáticas, críveis e curtos."
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que o nome vem de reykr, fumaça, e vík, baía, e que foi dado por colonos nórdicos; a pergunta é boa para voz."
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "motivo": "A fonte afirma que Reykjavík é a capital de país soberano mais ao norte do mundo; a palavra soberano evita a ambiguidade com Nuuk."
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que kanata significa aldeia ou povoado e que Cartier registrou o nome em 1535; o fato é bom e a pergunta está bem redigida."
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "motivo": "A Wikipédia confirma a homenagem a James Monroe; a pergunta não cita o nome Monróvia, então não entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que o nome combina Tanganica e Zanzibar em 1964; a pista sonora no próprio nome faz parte da graça de uma pergunta de ângulo nome."
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "motivo": "A resposta é quase óbvia e aberta demais, pois pode ser dita de muitas formas ou confundida com a Guiné Equatorial; é um fato fraco."
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "motivo": "As fontes confirmam que Distrito de Colúmbia e Colômbia derivam de Cristóvão Colombo; exige um raciocínio em duas etapas e não entrega a resposta de forma direta."
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "motivo": "O fato está confirmado, mas a redação original permitia outros traços comuns; dizer que são os únicos garante resposta única.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Chile e Equador são os únicos países da América do Sul com qual característica em relação ao Brasil?",
+        "resposta": "Não fazem fronteira com o Brasil",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Brazil"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Lesoto, San Marino e Vaticano são os três únicos Estados soberanos cercados por um único país."
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Uzbequistão e Liechtenstein são os dois únicos países duplamente sem saída para o mar; é um bom fato de conexão."
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "motivo": "O enunciado usava a palavra capitais, que é a própria resposta; reescrito para não entregá-la.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Seul, na Coreia do Sul, e Astana, no Cazaquistão, têm nomes com o mesmo significado nos idiomas locais. Qual é esse significado?",
+        "resposta": "Capital",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Astana",
+          "https://en.wikipedia.org/wiki/Seoul"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Canberra resultou de um acordo na disputa entre Sydney e Melbourne; os distratores são pares de cidades australianas críveis."
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que o furacão Hattie, em 1961, destruiu a Cidade de Belize e motivou a criação de Belmopan."
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que a Bolívia perdeu o litoral para o Chile na Guerra do Pacífico, entre 1879 e 1884."
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que a Libéria foi fundada, a partir de 1822, pela Sociedade Americana de Colonização para afro-americanos libertos."
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Samoa pulou o dia 30 de dezembro de 2011 para se alinhar à Austrália e à Nova Zelândia."
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "motivo": "A página da Argélia não sustenta a parte sobre a divisão do Sudão; acrescentei a página do Sudão como fonte e mantive o resto.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Desde que o Sudão se dividiu em dois países, qual é o maior país da África em área?",
+        "resposta": "Argélia",
+        "distratores": [
+          "República Democrática do Congo",
+          "Sudão",
+          "Líbia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Algeria",
+          "https://en.wikipedia.org/wiki/Sudan"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "motivo": "Dizer que é uma cidade da Nova Zelândia reduzia a pergunta a qual é a capital neozelandesa; tirei essa pista para valorizar o fato.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "aberta",
+        "pergunta": "Qual é a capital de país soberano situada mais ao sul do mundo?",
+        "resposta": "Wellington",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Wellington"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "motivo": "A fonte afirma que a França usa doze fusos horários, mais que qualquer outro país; os distratores são os concorrentes naturais."
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Haia é a sede do governo e do parlamento, enquanto Amsterdã é a capital oficial."
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Brazzaville fica na margem oposta a Kinshasa, e os distratores são capitais da mesma região."
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que são sete emirados; a pergunta é simples, mas justa e audível."
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma as três capitais; os distratores são cidades sul-africanas conhecidas e críveis."
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que a independência foi em 9 de julho de 2011; a pergunta não repete o fato da número 19."
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que a rainha Vitória escolheu Ottawa como capital, com efeito a partir de 31 de dezembro de 1857."
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Ancara substituiu Istambul como capital em 13 de outubro de 1923, sob a liderança de Atatürk."
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "motivo": "Afirmar que é o único do mundo é contestável, porque Estados Unidos, França e Reino Unido também chegam aos quatro hemisférios somando seus territórios; restringi aos países insulares do Pacífico e usei o fato que a fonte sustenta.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Qual país insular do Pacífico tem ilhas nos quatro hemisférios, cruzando a linha do equador e o meridiano cento e oitenta?",
+        "resposta": "Kiribati",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Kiribati"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "motivo": "O fato está confirmado, mas a resposta é uma denominação oficial, então o ângulo mais específico é nome, e não atributo.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Como a constituição suíça não define uma capital, Berna é oficialmente chamada de quê?",
+        "resposta": "Cidade federal",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Bern"
+        ]
+      }
+    }
+  ]
+}

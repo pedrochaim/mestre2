@@ -1,0 +1,30 @@
+{
+  "encomendas": [
+    {
+      "id": "piloto_paises_e_capitais_01",
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "quantidade": 30,
+      "multipla": 6,
+      "angulos_alvo": [
+        "nome",
+        "conexao",
+        "causa"
+      ],
+      "observacoes": "Lote piloto. Evite as perguntas mais batidas do tipo qual é a capital de um país muito conhecido."
+    },
+    {
+      "id": "piloto_futebol_01",
+      "tema": "Esportes",
+      "subtema": "Futebol",
+      "quantidade": 30,
+      "multipla": 6,
+      "angulos_alvo": [
+        "nome",
+        "conexao",
+        "causa"
+      ],
+      "observacoes": "Segundo lote piloto. Misture futebol brasileiro e internacional, clubes, seleções e jogadores, de épocas diferentes. Evite recordes que ainda podem ser batidos."
+    }
+  ]
+}

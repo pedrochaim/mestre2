@@ -1,0 +1,751 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Argentina",
+        "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+        "variantes": [
+          "República Argentina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Argentina",
+          "https://pt.wikipedia.org/wiki/Argentina"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Argentina vem de uma palavra latina que designa qual metal?",
+      "resposta": "Prata",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Name_of_Argentina",
+        "https://en.wikipedia.org/wiki/Argentina"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Kuala Lumpur",
+        "descricao": "Capital e maior cidade da Malásia.",
+        "variantes": [
+          "KL"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Kuala Lumpur, a capital da Malásia, tem um nome malaio que significa o quê?",
+      "resposta": "Confluência lamacenta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+      ],
+      "distratores": [
+        "Porto perfumado",
+        "Cidade do leão",
+        "Capital do norte"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Reykjavík",
+        "descricao": "Capital e maior cidade da Islândia.",
+        "variantes": [
+          "Reiquiavique",
+          "Reykjavik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Reykjav%C3%ADk",
+          "https://pt.wikipedia.org/wiki/Reiquiavique"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Batizada por colonos nórdicos, a capital islandesa Reykjavík tem um nome que significa baía de quê?",
+      "resposta": "Fumaça",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Reykjavík",
+        "descricao": "Capital e maior cidade da Islândia.",
+        "variantes": [
+          "Reiquiavique",
+          "Reykjavik"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Reykjav%C3%ADk",
+          "https://pt.wikipedia.org/wiki/Reiquiavique"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital de país soberano situada mais ao norte do mundo?",
+      "resposta": "Reykjavík",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Canadá",
+        "descricao": "País da América do Norte cuja capital é Ottawa.",
+        "variantes": [
+          "Canada"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Canada",
+          "https://pt.wikipedia.org/wiki/Canad%C3%A1"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Registrado por Jacques Cartier no século dezesseis, o nome Canadá vem de uma palavra iroquesa que significa o quê?",
+      "resposta": "Aldeia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Name_of_Canada"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Monróvia",
+        "descricao": "Capital da Libéria, na costa oeste da África.",
+        "variantes": [
+          "Monrovia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monrovia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A capital da Libéria recebeu seu nome em homenagem a qual presidente dos Estados Unidos?",
+      "resposta": "James Monroe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monrovia",
+        "https://www.britannica.com/place/Monrovia"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Tanzânia",
+        "descricao": "País da África Oriental formado em 1964 pela união de Tanganica e Zanzibar.",
+        "variantes": [
+          "Tanzania",
+          "República Unida da Tanzânia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tanzania",
+          "https://www.britannica.com/place/Tanzania"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Tanzânia foi criado em 1964, na união de dois territórios africanos. Quais eram eles?",
+      "resposta": "Tanganica e Zanzibar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tanzania"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Guiné-Bissau",
+        "descricao": "País lusófono da costa ocidental da África cuja capital é Bissau.",
+        "variantes": [
+          "Guinea-Bissau",
+          "Guiné Bissau"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Guinea-Bissau",
+          "https://pt.wikipedia.org/wiki/Guin%C3%A9-Bissau"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A Guiné-Bissau incorporou ao nome do país o nome de sua capital. Com que objetivo?",
+      "resposta": "Distinguir-se da vizinha Guiné",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Guinea-Bissau"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Washington, D.C.",
+        "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+        "variantes": [
+          "Washington",
+          "Distrito de Colúmbia",
+          "District of Columbia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Washington,_D.C."
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O distrito onde fica Washington, a capital americana, tem nome derivado do mesmo navegador que batizou qual país sul-americano?",
+      "resposta": "Colômbia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Washington,_D.C.",
+        "https://en.wikipedia.org/wiki/Columbia_(personification)",
+        "https://en.wikipedia.org/wiki/Colombia"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Equador",
+        "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+        "variantes": [
+          "Ecuador",
+          "República do Equador"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ecuador",
+          "https://pt.wikipedia.org/wiki/Equador"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Entre os países da América do Sul, o que Chile e Equador têm em comum em relação ao Brasil?",
+      "resposta": "Não fazem fronteira com o Brasil",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazil",
+        "https://pt.wikipedia.org/wiki/Brasil"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Lesoto",
+        "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+        "variantes": [
+          "Lesotho",
+          "Reino do Lesoto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lesotho",
+          "https://pt.wikipedia.org/wiki/Lesoto"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que Lesoto, San Marino e Vaticano têm em comum no mapa?",
+      "resposta": "São cercados por um único país",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Enclave_and_exclave",
+        "https://en.wikipedia.org/wiki/Lesotho"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Uzbequistão",
+        "descricao": "País da Ásia Central cuja capital é Tashkent.",
+        "variantes": [
+          "Uzbekistan",
+          "Usbequistão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uzbekistan",
+          "https://pt.wikipedia.org/wiki/Uzbequist%C3%A3o"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Uzbequistão e Liechtenstein são os únicos países do mundo com qual característica geográfica?",
+      "resposta": "Duplamente sem saída para o mar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Landlocked_country",
+        "https://en.wikipedia.org/wiki/Uzbekistan",
+        "https://en.wikipedia.org/wiki/Liechtenstein"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Astana",
+        "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+        "variantes": [
+          "Nur-Sultan",
+          "Akmola",
+          "Tselinogrado"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Astana"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que os nomes das capitais Seul, da Coreia do Sul, e Astana, do Cazaquistão, significam nos idiomas locais?",
+      "resposta": "Capital",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Astana",
+        "https://en.wikipedia.org/wiki/Seoul"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Canberra",
+        "descricao": "Cidade planejada que é a capital da Austrália.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Canberra",
+          "https://www.britannica.com/place/Canberra"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "No início do século vinte, Canberra foi criada como capital da Austrália para encerrar a rivalidade entre quais duas cidades?",
+      "resposta": "Sydney e Melbourne",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Canberra"
+      ],
+      "distratores": [
+        "Sydney e Brisbane",
+        "Melbourne e Adelaide",
+        "Perth e Brisbane"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Belmopan",
+        "descricao": "Cidade planejada que é a capital de Belize desde 1970.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Belmopan",
+          "https://www.britannica.com/place/Belmopan"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1961, a antiga capital de Belize foi devastada, o que levou à criação de Belmopan. Que tipo de desastre foi esse?",
+      "resposta": "Um furacão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Belmopan",
+        "https://en.wikipedia.org/wiki/Hurricane_Hattie"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Bolívia",
+        "descricao": "País sem litoral da América do Sul, com capital constitucional em Sucre e sede de governo em La Paz.",
+        "variantes": [
+          "Bolivia",
+          "Estado Plurinacional da Bolívia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bolivia",
+          "https://pt.wikipedia.org/wiki/Bol%C3%ADvia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No fim do século dezenove, a Bolívia perdeu seu litoral para o Chile em qual conflito?",
+      "resposta": "Guerra do Pacífico",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/War_of_the_Pacific",
+        "https://en.wikipedia.org/wiki/Bolivia"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Libéria",
+        "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+        "variantes": [
+          "Liberia",
+          "República da Libéria"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Liberia",
+          "https://pt.wikipedia.org/wiki/Lib%C3%A9ria"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No século dezenove, a Libéria foi fundada na África como destino de qual grupo vindo dos Estados Unidos?",
+      "resposta": "Afro-americanos libertos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Liberia",
+        "https://en.wikipedia.org/wiki/American_Colonization_Society"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Samoa",
+        "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+        "variantes": [
+          "Estado Independente de Samoa",
+          "Samoa Ocidental"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samoa",
+          "https://pt.wikipedia.org/wiki/Samoa"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 2011, Samoa pulou um dia inteiro do calendário, mudando de lado na linha de data, para se alinhar a quais dois vizinhos?",
+      "resposta": "Austrália e Nova Zelândia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samoa",
+        "https://en.wikipedia.org/wiki/International_Date_Line"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Argélia",
+        "descricao": "País do norte da África cuja capital é Argel.",
+        "variantes": [
+          "Algeria",
+          "República Argelina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Algeria",
+          "https://pt.wikipedia.org/wiki/Arg%C3%A9lia"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Desde que o Sudão se dividiu em dois países, qual é o maior país da África em área?",
+      "resposta": "Argélia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Algeria"
+      ],
+      "distratores": [
+        "República Democrática do Congo",
+        "Sudão",
+        "Líbia"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Wellington",
+        "descricao": "Capital da Nova Zelândia, no extremo sul da Ilha Norte.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wellington"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual cidade da Nova Zelândia é a capital de país soberano mais ao sul do planeta?",
+      "resposta": "Wellington",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wellington"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "França",
+        "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+        "variantes": [
+          "France",
+          "República Francesa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/France",
+          "https://pt.wikipedia.org/wiki/Fran%C3%A7a"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Somando seus territórios ultramarinos, qual país tem o maior número de fusos horários do mundo?",
+      "resposta": "França",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Time_in_France"
+      ],
+      "distratores": [
+        "Rússia",
+        "Estados Unidos",
+        "Reino Unido"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Países Baixos",
+        "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+        "variantes": [
+          "Holanda",
+          "Netherlands",
+          "Reino dos Países Baixos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Netherlands",
+          "https://pt.wikipedia.org/wiki/Pa%C3%ADses_Baixos"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Amsterdã é a capital oficial dos Países Baixos, mas em qual cidade ficam o governo e o parlamento?",
+      "resposta": "Haia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Hague",
+        "https://en.wikipedia.org/wiki/Netherlands"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Brazzaville",
+        "descricao": "Capital da República do Congo, na margem norte do rio Congo.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brazzaville"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Às margens do rio Congo, Brazzaville fica bem em frente a qual outra capital africana?",
+      "resposta": "Kinshasa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brazzaville",
+        "https://en.wikipedia.org/wiki/Kinshasa"
+      ],
+      "distratores": [
+        "Luanda",
+        "Libreville",
+        "Bangui"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Emirados Árabes Unidos",
+        "descricao": "Federação de emirados na Península Arábica cuja capital é Abu Dhabi.",
+        "variantes": [
+          "EAU",
+          "United Arab Emirates",
+          "UAE"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/United_Arab_Emirates"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Quantos emirados formam o país Emirados Árabes Unidos?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/United_Arab_Emirates",
+        "https://en.wikipedia.org/wiki/Emirates_of_the_United_Arab_Emirates"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "África do Sul",
+        "descricao": "País do extremo sul da África com três capitais: Pretória, Cidade do Cabo e Bloemfontein.",
+        "variantes": [
+          "South Africa",
+          "República da África do Sul"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/South_Africa",
+          "https://pt.wikipedia.org/wiki/%C3%81frica_do_Sul"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "A África do Sul divide suas funções de capital entre três cidades: Pretória, Cidade do Cabo e qual outra?",
+      "resposta": "Bloemfontein",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/South_Africa",
+        "https://en.wikipedia.org/wiki/Bloemfontein"
+      ],
+      "distratores": [
+        "Joanesburgo",
+        "Durban",
+        "Kimberley"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Sudão do Sul",
+        "descricao": "País da África Oriental, separado do Sudão, cuja capital é Juba.",
+        "variantes": [
+          "South Sudan",
+          "República do Sudão do Sul"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/South_Sudan",
+          "https://pt.wikipedia.org/wiki/Sud%C3%A3o_do_Sul"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano o Sudão do Sul se separou do Sudão e se tornou um país independente?",
+      "resposta": "2011",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/South_Sudan"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Ottawa",
+        "descricao": "Capital do Canadá, na província de Ontário.",
+        "variantes": [
+          "Otava"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ottawa",
+          "https://www.britannica.com/place/Ottawa"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1857, quem escolheu Ottawa como capital do Canadá, então colônia britânica?",
+      "resposta": "Rainha Vitória",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ottawa"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Ancara",
+        "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+        "variantes": [
+          "Ankara",
+          "Angorá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ankara",
+          "https://pt.wikipedia.org/wiki/Ancara"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1923, qual líder turco fez de Ancara a nova capital do país, no lugar de Istambul?",
+      "resposta": "Mustafa Kemal Atatürk",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ankara"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Kiribati",
+        "descricao": "País insular do Oceano Pacífico formado por atóis espalhados em torno do equador, cuja capital é Tarawa do Sul.",
+        "variantes": [
+          "República de Kiribati",
+          "Quiribati"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kiribati",
+          "https://pt.wikipedia.org/wiki/Kiribati"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Qual país do Pacífico é o único do mundo com território nos quatro hemisférios?",
+      "resposta": "Kiribati",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kiribati"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Berna",
+        "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+        "variantes": [
+          "Bern",
+          "Berne"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bern",
+          "https://pt.wikipedia.org/wiki/Berna"
+        ]
+      },
+      "tema": "Geografia",
+      "subtema": "Países e Capitais",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Como a constituição suíça não define uma capital, Berna é oficialmente chamada de quê?",
+      "resposta": "Cidade federal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bern"
+      ]
+    }
+  ]
+}

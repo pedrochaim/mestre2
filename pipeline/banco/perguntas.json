@@ -1,0 +1,920 @@
+[
+  {
+    "id": "q00001",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "argentina",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Argentina vem de uma palavra latina que designa qual metal?",
+    "resposta": "Prata",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Name_of_Argentina",
+      "https://en.wikipedia.org/wiki/Argentina"
+    ]
+  },
+  {
+    "id": "q00002",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "kuala_lumpur",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Kuala Lumpur, a capital da Malásia, tem um nome malaio que significa o quê?",
+    "resposta": "Confluência lamacenta",
+    "distratores": [
+      "Porto perfumado",
+      "Cidade do leão",
+      "Capital do norte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+    ]
+  },
+  {
+    "id": "q00003",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "reykjavik",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Batizada por colonos nórdicos, a capital islandesa Reykjavík tem um nome que significa baía de quê?",
+    "resposta": "Fumaça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+    ]
+  },
+  {
+    "id": "q00004",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "reykjavik",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual é a capital de país soberano situada mais ao norte do mundo?",
+    "resposta": "Reykjavík",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reykjav%C3%ADk"
+    ]
+  },
+  {
+    "id": "q00005",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "canada",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Registrado por Jacques Cartier no século dezesseis, o nome Canadá vem de uma palavra iroquesa que significa o quê?",
+    "resposta": "Aldeia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Name_of_Canada"
+    ]
+  },
+  {
+    "id": "q00006",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "monrovia",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A capital da Libéria recebeu seu nome em homenagem a qual presidente dos Estados Unidos?",
+    "resposta": "James Monroe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monrovia",
+      "https://www.britannica.com/place/Monrovia"
+    ]
+  },
+  {
+    "id": "q00007",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "tanzania",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Tanzânia foi criado em 1964, na união de dois territórios africanos. Quais eram eles?",
+    "resposta": "Tanganica e Zanzibar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tanzania"
+    ]
+  },
+  {
+    "id": "q00008",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "washington_d_c",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O distrito onde fica Washington, a capital americana, tem nome derivado do mesmo navegador que batizou qual país sul-americano?",
+    "resposta": "Colômbia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Washington,_D.C.",
+      "https://en.wikipedia.org/wiki/Columbia_(personification)",
+      "https://en.wikipedia.org/wiki/Colombia"
+    ]
+  },
+  {
+    "id": "q00009",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "equador",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Chile e Equador são os únicos países da América do Sul com qual característica em relação ao Brasil?",
+    "resposta": "Não fazem fronteira com o Brasil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil"
+    ]
+  },
+  {
+    "id": "q00010",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "lesoto",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que Lesoto, San Marino e Vaticano têm em comum no mapa?",
+    "resposta": "São cercados por um único país",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Enclave_and_exclave",
+      "https://en.wikipedia.org/wiki/Lesotho"
+    ]
+  },
+  {
+    "id": "q00011",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "uzbequistao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Uzbequistão e Liechtenstein são os únicos países do mundo com qual característica geográfica?",
+    "resposta": "Duplamente sem saída para o mar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Landlocked_country",
+      "https://en.wikipedia.org/wiki/Uzbekistan",
+      "https://en.wikipedia.org/wiki/Liechtenstein"
+    ]
+  },
+  {
+    "id": "q00012",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "astana",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Seul, na Coreia do Sul, e Astana, no Cazaquistão, têm nomes com o mesmo significado nos idiomas locais. Qual é esse significado?",
+    "resposta": "Capital",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Astana",
+      "https://en.wikipedia.org/wiki/Seoul"
+    ]
+  },
+  {
+    "id": "q00013",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "canberra",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "No início do século vinte, Canberra foi criada como capital da Austrália para encerrar a rivalidade entre quais duas cidades?",
+    "resposta": "Sydney e Melbourne",
+    "distratores": [
+      "Sydney e Brisbane",
+      "Melbourne e Adelaide",
+      "Perth e Brisbane"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Canberra"
+    ]
+  },
+  {
+    "id": "q00014",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "belmopan",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1961, a antiga capital de Belize foi devastada, o que levou à criação de Belmopan. Que tipo de desastre foi esse?",
+    "resposta": "Um furacão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Belmopan",
+      "https://en.wikipedia.org/wiki/Hurricane_Hattie"
+    ]
+  },
+  {
+    "id": "q00015",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "bolivia",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No fim do século dezenove, a Bolívia perdeu seu litoral para o Chile em qual conflito?",
+    "resposta": "Guerra do Pacífico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/War_of_the_Pacific",
+      "https://en.wikipedia.org/wiki/Bolivia"
+    ]
+  },
+  {
+    "id": "q00016",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "liberia",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, a Libéria foi fundada na África como destino de qual grupo vindo dos Estados Unidos?",
+    "resposta": "Afro-americanos libertos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Liberia",
+      "https://en.wikipedia.org/wiki/American_Colonization_Society"
+    ]
+  },
+  {
+    "id": "q00017",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "samoa",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2011, Samoa pulou um dia inteiro do calendário, mudando de lado na linha de data, para se alinhar a quais dois vizinhos?",
+    "resposta": "Austrália e Nova Zelândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samoa",
+      "https://en.wikipedia.org/wiki/International_Date_Line"
+    ]
+  },
+  {
+    "id": "q00018",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "argelia",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Desde que o Sudão se dividiu em dois países, qual é o maior país da África em área?",
+    "resposta": "Argélia",
+    "distratores": [
+      "República Democrática do Congo",
+      "Sudão",
+      "Líbia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Algeria",
+      "https://en.wikipedia.org/wiki/Sudan"
+    ]
+  },
+  {
+    "id": "q00019",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "wellington",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Qual é a capital de país soberano situada mais ao sul do mundo?",
+    "resposta": "Wellington",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wellington"
+    ]
+  },
+  {
+    "id": "q00020",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "franca",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Somando seus territórios ultramarinos, qual país tem o maior número de fusos horários do mundo?",
+    "resposta": "França",
+    "distratores": [
+      "Rússia",
+      "Estados Unidos",
+      "Reino Unido"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Time_in_France"
+    ]
+  },
+  {
+    "id": "q00021",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "paises_baixos",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Amsterdã é a capital oficial dos Países Baixos, mas em qual cidade ficam o governo e o parlamento?",
+    "resposta": "Haia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Hague",
+      "https://en.wikipedia.org/wiki/Netherlands"
+    ]
+  },
+  {
+    "id": "q00022",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "brazzaville",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Às margens do rio Congo, Brazzaville fica bem em frente a qual outra capital africana?",
+    "resposta": "Kinshasa",
+    "distratores": [
+      "Luanda",
+      "Libreville",
+      "Bangui"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazzaville",
+      "https://en.wikipedia.org/wiki/Kinshasa"
+    ]
+  },
+  {
+    "id": "q00023",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "emirados_arabes_unidos",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Quantos emirados formam o país Emirados Árabes Unidos?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/United_Arab_Emirates",
+      "https://en.wikipedia.org/wiki/Emirates_of_the_United_Arab_Emirates"
+    ]
+  },
+  {
+    "id": "q00024",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "africa_do_sul",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "A África do Sul divide suas funções de capital entre três cidades: Pretória, Cidade do Cabo e qual outra?",
+    "resposta": "Bloemfontein",
+    "distratores": [
+      "Joanesburgo",
+      "Durban",
+      "Kimberley"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/South_Africa",
+      "https://en.wikipedia.org/wiki/Bloemfontein"
+    ]
+  },
+  {
+    "id": "q00025",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "sudao_do_sul",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano o Sudão do Sul se separou do Sudão e se tornou um país independente?",
+    "resposta": "2011",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/South_Sudan"
+    ]
+  },
+  {
+    "id": "q00026",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "ottawa",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1857, quem escolheu Ottawa como capital do Canadá, então colônia britânica?",
+    "resposta": "Rainha Vitória",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ottawa"
+    ]
+  },
+  {
+    "id": "q00027",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "ancara",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1923, qual líder turco fez de Ancara a nova capital do país, no lugar de Istambul?",
+    "resposta": "Mustafa Kemal Atatürk",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ankara"
+    ]
+  },
+  {
+    "id": "q00028",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "kiribati",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual país insular do Pacífico tem ilhas nos quatro hemisférios, cruzando a linha do equador e o meridiano cento e oitenta?",
+    "resposta": "Kiribati",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kiribati"
+    ]
+  },
+  {
+    "id": "q00029",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "berna",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Como a constituição suíça não define uma capital, Berna é oficialmente chamada de quê?",
+    "resposta": "Cidade federal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bern"
+    ]
+  },
+  {
+    "id": "q00030",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_do_maracana",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Maracanã, no Rio de Janeiro, tem um nome oficial que homenageia qual jornalista esportivo?",
+    "resposta": "Mário Filho",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Estádio_do_Maracanã",
+      "https://en.wikipedia.org/wiki/Maracanã_Stadium"
+    ]
+  },
+  {
+    "id": "q00031",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "garrincha",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O apelido de Garrincha, ídolo do Botafogo, é também o nome popular de que tipo de animal?",
+    "resposta": "Um pássaro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Garrincha",
+      "https://en.wikipedia.org/wiki/Garrincha"
+    ]
+  },
+  {
+    "id": "q00032",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "boca_juniors",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os torcedores do Boca Juniors são chamados de xeneizes, termo que remete aos imigrantes de qual cidade italiana?",
+    "resposta": "Gênova",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Club_Atlético_Boca_Juniors",
+      "https://en.wikipedia.org/wiki/Boca_Juniors"
+    ]
+  },
+  {
+    "id": "q00033",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "boca_juniors",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No começo do século vinte, o Boca Juniors adotou o azul e o amarelo copiando a bandeira de um navio no porto. De que país era o navio?",
+    "resposta": "Suécia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Club_Atlético_Boca_Juniors",
+      "https://en.wikipedia.org/wiki/Boca_Juniors"
+    ]
+  },
+  {
+    "id": "q00034",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "real_madrid",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em 1920, o clube Madrid ganhou o título de Real, concedido por qual rei da Espanha?",
+    "resposta": "Afonso XIII",
+    "distratores": [
+      "Afonso XII",
+      "Amadeu I",
+      "Fernando VII"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Real_Madrid_CF",
+      "https://pt.wikipedia.org/wiki/Real_Madrid_Club_de_Fútbol"
+    ]
+  },
+  {
+    "id": "q00035",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "vasco_da_gama",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Vasco, fundado em 1898, foi batizado em homenagem aos quatrocentos anos de qual feito do navegador português?",
+    "resposta": "Chegada às Índias por mar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Club_de_Regatas_Vasco_da_Gama",
+      "https://en.wikipedia.org/wiki/CR_Vasco_da_Gama"
+    ]
+  },
+  {
+    "id": "q00036",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "corinthians",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Corinthians, fundado em 1910, recebeu o nome de um time amador que excursionava pelo Brasil. De que país era esse time?",
+    "resposta": "Inglaterra",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista",
+      "https://en.wikipedia.org/wiki/Sport_Club_Corinthians_Paulista"
+    ]
+  },
+  {
+    "id": "q00037",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "lev_yashin",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Por jogar com um uniforme tão escuro que parecia preto, o goleiro soviético Lev Yashin ficou conhecido por qual apelido?",
+    "resposta": "Aranha Negra",
+    "distratores": [
+      "Polvo Negro",
+      "Gato Negro",
+      "Muralha Vermelha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lev_Yashin"
+    ]
+  },
+  {
+    "id": "q00038",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "tostao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que Tostão, craque do tri de 1970, e Sócrates, líder da Democracia Corinthiana, têm em comum fora dos gramados?",
+    "resposta": "Ambos se formaram em medicina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tostão",
+      "https://en.wikipedia.org/wiki/Tostão",
+      "https://en.wikipedia.org/wiki/Sócrates_(footballer)"
+    ]
+  },
+  {
+    "id": "q00039",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "rai",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que laço une Raí, ídolo do São Paulo e do Paris Saint-Germain, a Sócrates, ídolo do Corinthians?",
+    "resposta": "São irmãos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Raí",
+      "https://en.wikipedia.org/wiki/Sócrates_(footballer)"
+    ]
+  },
+  {
+    "id": "q00040",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "river_plate",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que River Plate e Boca Juniors, grandes rivais argentinos, têm em comum na sua origem?",
+    "resposta": "Ambos nasceram no bairro de La Boca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Club_Atlético_River_Plate",
+      "https://pt.wikipedia.org/wiki/Club_Atlético_River_Plate"
+    ]
+  },
+  {
+    "id": "q00041",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "cruzeiro",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os clubes Palmeiras e Cruzeiro tinham, na fundação, o mesmo nome. Que nome era esse?",
+    "resposta": "Palestra Itália",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cruzeiro_Esporte_Clube",
+      "https://pt.wikipedia.org/wiki/Sociedade_Esportiva_Palmeiras"
+    ]
+  },
+  {
+    "id": "q00042",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "didier_deschamps",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em Copas do Mundo, o que Zagallo, Franz Beckenbauer e Didier Deschamps têm em comum?",
+    "resposta": "Campeões como jogador e como técnico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Didier_Deschamps",
+      "https://en.wikipedia.org/wiki/Franz_Beckenbauer",
+      "https://en.wikipedia.org/wiki/Mário_Zagallo"
+    ]
+  },
+  {
+    "id": "q00043",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "atletico_de_madrid",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ligação existe, na origem, entre o Atlético de Madrid e o Athletic Bilbao?",
+    "resposta": "O Atlético nasceu como filial do Athletic",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atlético_Madrid",
+      "https://pt.wikipedia.org/wiki/Club_Atlético_de_Madrid"
+    ]
+  },
+  {
+    "id": "q00044",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "juventus",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "No início do século vinte, a Juventus trocou o uniforme rosa pelo preto e branco ao receber camisas de qual clube inglês?",
+    "resposta": "Notts County",
+    "distratores": [
+      "Newcastle United",
+      "Derby County",
+      "Fulham"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Juventus_FC",
+      "https://pt.wikipedia.org/wiki/Juventus_Football_Club"
+    ]
+  },
+  {
+    "id": "q00045",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "camisa_canarinho",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos cinquenta, a seleção brasileira abandonou o uniforme branco e adotou o amarelo por causa de qual derrota?",
+    "resposta": "Maracanazo, contra o Uruguai",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_national_football_team",
+      "https://en.wikipedia.org/wiki/Maracanazo"
+    ]
+  },
+  {
+    "id": "q00046",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "taca_jules_rimet",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1970, por que o Brasil ganhou a posse definitiva da taça Jules Rimet?",
+    "resposta": "Por ser o primeiro tricampeão mundial",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Taça_Jules_Rimet",
+      "https://en.wikipedia.org/wiki/Jules_Rimet_Trophy"
+    ]
+  },
+  {
+    "id": "q00047",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "tragedia_de_heysel",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Após a tragédia no estádio de Heysel, em 1985, que punição sofreram os clubes ingleses?",
+    "resposta": "Banimento das competições europeias",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Heysel_Stadium_disaster"
+    ]
+  },
+  {
+    "id": "q00048",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "cartoes_amarelo_e_vermelho",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O árbitro inglês Ken Aston teve a ideia dos cartões amarelo e vermelho ao observar o quê?",
+    "resposta": "Um semáforo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ken_Aston",
+      "https://en.wikipedia.org/wiki/Penalty_card"
+    ]
+  },
+  {
+    "id": "q00049",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "cartoes_amarelo_e_vermelho",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em qual Copa do Mundo os cartões amarelo e vermelho foram usados pela primeira vez?",
+    "resposta": "1970, no México",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Penalty_card",
+      "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup"
+    ]
+  },
+  {
+    "id": "q00050",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "guerra_do_futebol",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1969, El Salvador e Honduras entraram em guerra num clima de tensão acirrado por jogos de qual competição?",
+    "resposta": "Eliminatórias da Copa de 1970",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Football_War",
+      "https://pt.wikipedia.org/wiki/Guerra_do_Futebol"
+    ]
+  },
+  {
+    "id": "q00051",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "final_da_copa_do_mundo_de_2010",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na prorrogação da final da Copa de 2010, na África do Sul, quem marcou o gol do título espanhol?",
+    "resposta": "Andrés Iniesta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_final"
+    ]
+  },
+  {
+    "id": "q00052",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "futebol_total",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Qual técnico é considerado o criador do futebol total, estilo do Ajax e da Holanda vice-campeã em 1974?",
+    "resposta": "Rinus Michels",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Total_Football",
+      "https://en.wikipedia.org/wiki/Rinus_Michels"
+    ]
+  },
+  {
+    "id": "q00053",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "eusebio",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Eusébio, astro do Benfica e de Portugal na Copa de 1966, nasceu em qual atual país africano?",
+    "resposta": "Moçambique",
+    "distratores": [
+      "Angola",
+      "Cabo Verde",
+      "Guiné-Bissau"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eusébio"
+    ]
+  },
+  {
+    "id": "q00054",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "tragedia_de_superga",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1949, o avião do Grande Torino caiu perto de Turim, na volta de um amistoso disputado em qual capital europeia?",
+    "resposta": "Lisboa",
+    "distratores": [
+      "Madri",
+      "Paris",
+      "Viena"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Superga_air_disaster"
+    ]
+  },
+  {
+    "id": "q00055",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "just_fontaine",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na Copa de 1958, na Suécia, quantos gols marcou o atacante francês Just Fontaine?",
+    "resposta": "13",
+    "distratores": [
+      "9",
+      "11",
+      "15"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Just_Fontaine",
+      "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup"
+    ]
+  },
+  {
+    "id": "q00056",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "brasil_1_x_7_alemanha",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na semifinal da Copa de 2014, em Belo Horizonte, quantos gols a Alemanha marcou no Brasil ainda no primeiro tempo?",
+    "resposta": "Cinco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_v_Germany_(2014_FIFA_World_Cup)"
+    ]
+  },
+  {
+    "id": "q00057",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "copa_do_mundo_fifa_de_2002",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Copa de 2002, a primeira disputada na Ásia, teve como sedes o Japão e qual outro país?",
+    "resposta": "Coreia do Sul",
+    "distratores": [
+      "China",
+      "Coreia do Norte",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup",
+      "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_2002"
+    ]
+  },
+  {
+    "id": "q00058",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "flamengo",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de ter um time de futebol, o Flamengo foi fundado em 1895 para disputar qual esporte?",
+    "resposta": "Remo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo",
+      "https://en.wikipedia.org/wiki/CR_Flamengo"
+    ]
+  },
+  {
+    "id": "q00059",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "george_weah",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Bola de Ouro em 1995, o atacante George Weah foi eleito em 2017 para qual cargo político?",
+    "resposta": "Presidente da Libéria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_Weah"
+    ]
+  },
+  {
+    "id": "q00060",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_luis_i",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que cidade aparece nesta foto, do outro lado da ponte?",
+    "resposta": "Porto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge",
+      "https://commons.wikimedia.org/wiki/File:Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG"
+    ],
+    "imagem": {
+      "arquivo": "q00060.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG",
+      "autor": "Diego Delso",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q00061",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "hallgrimskirkja",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Esta igreja, cujo desenho lembra colunas de basalto, fica em qual capital?",
+    "resposta": "Reykjavík",
+    "distratores": [
+      "Oslo",
+      "Helsinque",
+      "Copenhague"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja"
+    ],
+    "imagem": {
+      "arquivo": "q00061.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hallgrimskirkja_mai_2026.jpg",
+      "autor": "Steinninn",
+      "licenca": "CC BY 4.0"
+    }
+  }
+]

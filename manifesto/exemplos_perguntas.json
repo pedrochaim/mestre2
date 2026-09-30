@@ -1,0 +1,64 @@
+[
+  {
+    "id": "q00001",
+    "tema": "Geografia",
+    "subtema": "Países e Capitais",
+    "ancora": "venezuela",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Navegadores europeus viram casas sobre palafitas no lago Maracaibo e batizaram a região com um nome que significa pequena versão de qual cidade?",
+    "resposta": "Veneza",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Venezuela"
+    ]
+  },
+  {
+    "id": "q00002",
+    "tema": "Ciências",
+    "subtema": "Corpo Humano e Medicina",
+    "ancora": "penicilina",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1928, num laboratório de Londres, qual cientista descobriu a penicilina?",
+    "resposta": "Alexander Fleming",
+    "distratores": [
+      "Louis Pasteur",
+      "Robert Koch",
+      "Joseph Lister"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Alexander_Fleming"
+    ]
+  },
+  {
+    "id": "q00003",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "pele",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome de batismo de Pelé homenageia qual inventor norte-americano?",
+    "resposta": "Thomas Edison",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pelé"
+    ]
+  },
+  {
+    "id": "q00004",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "imperio_mongol",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "No século treze, qual líder fundou o Império Mongol?",
+    "resposta": "Gengis Khan (nascido Temujin)",
+    "distratores": [
+      "Kublai Khan",
+      "Átila",
+      "Tamerlão"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gengis_Khan"
+    ]
+  }
+]

@@ -1,0 +1,150 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Pergunta Mestre2",
+  "description": "VERSÃO PRELIMINAR 0.8 (2026-09-30). Uma pergunta de quiz para leitura em voz alta. Ver MANIFESTO.md.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "tema",
+    "subtema",
+    "ancora",
+    "angulo",
+    "tipo",
+    "pergunta",
+    "resposta",
+    "fonte"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^q[0-9]{5}$",
+      "description": "Identificador único e permanente. Opaco: não carrega tema nem subtema. 'q' + 5 dígitos. Nunca é reutilizado."
+    },
+    "tema": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Tema amplo. Copiado exatamente de temas_subtemas.json; conferido por script."
+    },
+    "subtema": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Subtema dentro do tema, copiado exatamente de temas_subtemas.json; conferido por script. Pequena sobreposição é tolerada; no desempate, vale o mais específico."
+    },
+    "ancora": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$",
+      "description": "id de uma entrada do cadastro de âncoras (ancora.schema.json). É o assunto da pergunta, não necessariamente a resposta. Uma única âncora: a principal (a entidade sobre a qual está o fato perguntado)."
+    },
+    "angulo": {
+      "enum": [
+        "autoria",
+        "tempo",
+        "lugar",
+        "numero",
+        "nome",
+        "causa",
+        "composicao",
+        "atributo",
+        "comparacao",
+        "conexao",
+        "identidade"
+      ],
+      "description": "Tipo de conhecimento pedido, definido pela relação entre a resposta e a âncora (MANIFESTO §5). Quando mais de um servir, vale o mais específico; identidade e atributo só quando nenhum outro serve."
+    },
+    "tipo": {
+      "enum": [
+        "aberta",
+        "multipla"
+      ],
+      "description": "Formato da pergunta. Valores sempre minúsculos e sem acento; o app traduz para exibição."
+    },
+    "pergunta": {
+      "type": "string",
+      "minLength": 5,
+      "description": "Enunciado para leitura em voz alta: curto, com o contexto primeiro, sem símbolos, sem conter a resposta. Na múltipla escolha, não inclui as alternativas."
+    },
+    "resposta": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Resposta direta: uma palavra, termo ou frase curta, na forma mais completa e conhecida. Sem lista de variantes; observação entre parênteses só quando for muito apropriado, ex.: 'Gengis Khan (nascido Temujin)'."
+    },
+    "fonte": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^https?://"
+      },
+      "minItems": 1,
+      "description": "URLs puras (não links em markdown) que sustentam o fato perguntado."
+    },
+    "distratores": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 3,
+      "maxItems": 3,
+      "uniqueItems": true,
+      "description": "Exatamente 3 alternativas erradas, críveis e da mesma categoria da resposta. Obrigatório quando tipo = multipla; proibido quando tipo = aberta. O app embaralha na exibição."
+    },
+    "autor": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Nome do autor humano. Só é preenchido quando indicado."
+    },
+    "imagem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "arquivo",
+        "origem",
+        "autor",
+        "licenca"
+      ],
+      "description": "Opcional. Figura mostrada ao respondente (MANIFESTO §6). O enunciado continua sendo lido em voz alta.",
+      "properties": {
+        "arquivo": {
+          "type": "string",
+          "pattern": "^q[0-9]{5}\\.(jpg|png|webp)$",
+          "description": "Nome do arquivo em pipeline/banco/imagens/: o id da pergunta, para o nome não entregar a resposta."
+        },
+        "origem": {
+          "type": "string",
+          "pattern": "^https://commons\\.wikimedia\\.org/wiki/File:",
+          "description": "Página do arquivo no Wikimedia Commons."
+        },
+        "autor": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Autor da imagem, como exige a licença."
+        },
+        "licenca": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Licença livre, ex.: 'CC BY-SA 4.0', 'Domínio público'."
+        }
+      }
+    }
+  },
+  "if": {
+    "properties": {
+      "tipo": {
+        "const": "multipla"
+      }
+    }
+  },
+  "then": {
+    "required": [
+      "distratores"
+    ]
+  },
+  "else": {
+    "not": {
+      "required": [
+        "distratores"
+      ]
+    }
+  }
+}

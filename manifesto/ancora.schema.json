@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Âncora Mestre2",
+  "description": "VERSÃO PRELIMINAR 0.4 (2026-09-29). Uma entrada do cadastro de âncoras (ancoras.json, um array destas entradas). Ver MANIFESTO.md §4 e §10.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "nome", "descricao", "fontes"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$",
+      "description": "Identificador permanente: minúsculas, sem acentos, palavras separadas por '_'. Nunca muda e nunca é reutilizado."
+    },
+    "nome": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Forma preferida do nome em português."
+    },
+    "descricao": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 200,
+      "description": "Uma frase que identifica a entidade sem ambiguidade (desambigua homônimos)."
+    },
+    "variantes": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Outras grafias e nomes da mesma entidade. Usadas na resolução automática."
+    },
+    "fontes": {
+      "type": "array",
+      "items": { "type": "string", "pattern": "^https?://" },
+      "minItems": 1,
+      "description": "URLs de fontes confiáveis sobre a entidade, em qualquer idioma."
+    },
+    "fundida_em": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$",
+      "description": "Presente apenas se esta entrada foi fundida em outra: id da entrada que a absorveu. A entrada nunca é apagada."
+    }
+  }
+}

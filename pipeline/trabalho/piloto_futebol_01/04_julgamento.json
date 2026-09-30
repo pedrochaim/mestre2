@@ -1,0 +1,99 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "River Plate",
+        "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+        "variantes": [
+          "Club Atlético River Plate",
+          "River",
+          "CARP"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Atlético de Madrid",
+        "descricao": "Club Atlético de Madrid, clube de futebol da capital espanhola fundado em 1903.",
+        "variantes": [
+          "Club Atlético de Madrid",
+          "Atlético Madrid",
+          "Athletic Club de Madrid",
+          "Atleti"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Camisa canarinho",
+        "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca.",
+        "variantes": [
+          "Camisa amarela da seleção",
+          "Amarelinha",
+          "Uniforme canarinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+          "variantes": [
+            "República Argentina"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "River Plate é um clube de futebol; a única candidata, Ancara, é a capital da Turquia. Entidades diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Atlético de Madrid é um clube de futebol; a candidata Argélia é um país. Entidades diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A camisa canarinho é um uniforme da seleção brasileira. Argélia e Argentina são países, então nenhuma candidata é a mesma entidade."
+    }
+  ]
+}

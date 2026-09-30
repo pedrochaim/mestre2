@@ -1,0 +1,56 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Sem login: quem conhece o código da partida pode ler e jogar.
+    // As regras só limitam o formato dos dados.
+    match /partidas/{codigo} {
+      allow read: if true;
+      allow create: if codigo.matches('^[A-Z]{4}$')
+                    && request.resource.data.keys().hasOnly(['criada_em'])
+                    && request.resource.data.criada_em == request.time;
+
+      // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1.
+      match /jogadores/{id} {
+        allow read: if true;
+        allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em'])
+                      && request.resource.data.nome is string
+                      && request.resource.data.nome.size() > 0
+                      && request.resource.data.nome.size() <= 30
+                      && request.resource.data.pontos == 0
+                      && temaValido(request.resource.data)
+                      && request.resource.data.criado_em == request.time;
+        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos', 'tema'])
+                      && request.resource.data.pontos is int
+                      && temaValido(request.resource.data);
+        allow delete: if true;
+      }
+
+      // Um registro por sorteio; a mesma pergunta pode sair mais de uma vez na partida.
+      match /sorteios/{id} {
+        allow read: if true;
+        allow create: if request.resource.data.keys().hasOnly(['pergunta', 'em'])
+                      && request.resource.data.pergunta is string
+                      && request.resource.data.pergunta.size() <= 20
+                      && request.resource.data.em == request.time;
+        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['respondente', 'acertou'])
+                      && request.resource.data.respondente is string
+                      && request.resource.data.acertou is bool;
+      }
+
+      // Formato antigo (até a v0.16): uma entrada por pergunta, com o id da pergunta. O app atual só lê
+      // estas entradas; continua aceitando gravações para não quebrar um aparelho com a versão antiga aberta.
+      match /usadas/{pergunta} {
+        allow read: if true;
+        allow create: if request.resource.data.keys().hasOnly(['em'])
+                      && request.resource.data.em == request.time;
+        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['respondente', 'acertou'])
+                      && request.resource.data.respondente is string
+                      && request.resource.data.acertou is bool;
+      }
+    }
+
+    function temaValido(dados) {
+      return !('tema' in dados) || (dados.tema is string && dados.tema.size() > 0 && dados.tema.size() <= 40);
+    }
+  }
+}
