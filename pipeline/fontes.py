@@ -5,7 +5,10 @@ passagens mais ligadas à pergunta. O crítico confere o fato nesses trechos, nu
 web. Abrir as páginas pelo próprio modelo custava de 12 a 22 turnos por lote, e cada turno relia o contexto
 inteiro.
 
-Artigos da Wikipédia vêm pela API (texto puro). Outras páginas são baixadas e têm o HTML removido. Os trechos
+Artigos da Wikipédia vêm pela API (texto puro). Outras páginas são baixadas e têm o HTML removido. Quando as
+fontes de uma pergunta são só da Wikipédia em inglês, o artigo equivalente em português também é lido: as
+passagens são escolhidas por palavras em comum com a pergunta, que está em português, e num texto em inglês
+só nomes e números casam (no lote de Mamíferos, 27 de 50 fatos ficaram sem trecho por isso). Os trechos
 ficam em trabalho/<encomenda>/03_fontes.json, para não baixar de novo se a etapa for refeita.
 """
 
@@ -53,6 +56,32 @@ def _wikipedia(url):
             return "desambiguacao", pagina.get("extract", "")
         return "ok", pagina.get("extract", "")
     return "inexistente", ""
+
+
+def equivalente_pt(url):
+    """URL do artigo equivalente na Wikipédia em português, ou None."""
+    partes = urllib.parse.urlsplit(url)
+    titulo = urllib.parse.unquote(partes.path[len("/wiki/"):])
+    try:
+        dados = _baixar("https://en.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
+            {"action": "query", "prop": "langlinks", "lllang": "pt", "redirects": 1,
+             "titles": titulo, "format": "json"}))
+    except (urllib.error.URLError, TimeoutError, ValueError, json.JSONDecodeError):
+        return None
+    for pagina in dados.get("query", {}).get("pages", {}).values():
+        for link in pagina.get("langlinks", []):
+            return "https://pt.wikipedia.org/wiki/" + urllib.parse.quote(link["*"].replace(" ", "_"))
+    return None
+
+
+def _wikipedia_en(url):
+    partes = urllib.parse.urlsplit(url)
+    return partes.netloc.split(".")[0] == "en" and partes.netloc.endswith("wikipedia.org")         and partes.path.startswith("/wiki/")
+
+
+def _wikipedia_pt(url):
+    partes = urllib.parse.urlsplit(url)
+    return partes.netloc.split(".")[0] == "pt" and partes.netloc.endswith("wikipedia.org")
 
 
 def _pagina(url):
@@ -136,12 +165,21 @@ def trechos_do_lote(itens, arquivo):
         if chave in cache:
             continue
         lista = []
-        for url in it["fonte"][:MAX_FONTES]:
+        urls = list(it["fonte"][:MAX_FONTES])
+        if not any(_wikipedia_pt(u) for u in urls):
+            en = next((u for u in urls if _wikipedia_en(u)), None)
+            pt = equivalente_pt(en) if en else None
+            if pt:
+                urls.append(pt)
+        for url in urls:
             if url not in paginas:
                 paginas[url] = baixar_fonte(url)
             situacao, texto = paginas[url]
-            lista.append({"url": url, "situacao": situacao,
-                          "texto": escolher_trechos(texto, it) if situacao == "ok" else texto[:TAM_ABERTURA]})
+            entrada = {"url": url, "situacao": situacao,
+                       "texto": escolher_trechos(texto, it) if situacao == "ok" else texto[:TAM_ABERTURA]}
+            if url not in it["fonte"]:
+                entrada["observacao"] = "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+            lista.append(entrada)
         cache[chave] = lista
     gravar_json(arquivo, cache)
     return cache
