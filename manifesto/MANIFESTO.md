@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.21 — 2026-09-30**
+> **Versão preliminar 0.22 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -156,7 +156,8 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 
 - **O enunciado aponta para a figura e é curto:** "Que cidade aparece nesta foto?", "Esta igreja fica em qual capital?". Ele pode trazer um fato que ajude, desde que não entregue a resposta.
 - **O ângulo segue a regra de sempre (§5).** Foto de um monumento e pergunta pela cidade: a âncora é o monumento, e o ângulo é `lugar`.
-- **Tipos de figura, por ordem de prioridade:** lugares (cidades, monumentos, paisagens) e contornos de mapa. Obras de arte, animais e plantas ficam para depois.
+- **Tipos de figura, por ordem de prioridade:** lugares (cidades, monumentos, paisagens), animais e contornos de mapa. Obras de arte e plantas ficam para depois.
+- **Só fotos de verdade, de um único assunto:** nada de montagens, ilustrações ou pranchas com várias espécies.
 - **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
 - **Proibido:** capas de álbuns, pôsteres, logotipos, fotos de imprensa e fotos de pessoas que não sejam figuras públicas.
 
@@ -436,6 +437,11 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 - A imagem principal do Wikidata foi boa nos dois casos: sem texto, sem marca d'água e com licença livre.
 - **É preciso olhar a foto e ler a fonte antes de escrever o enunciado.** "Que cidade é esta?" teria duas respostas, porque a ponte liga duas cidades. A foto foi tirada de Gaia, e o enunciado passou a perguntar pela cidade "do outro lado da ponte".
 
+**Figuras de animais (2026-09-30).** Cinco perguntas feitas à mão em *Natureza › Mamíferos* (`q00285` a `q00289`: ocapi, társio, pangolim, damão e panda-vermelho), com a imagem principal do Wikidata.
+- A foto não deve ser a pergunta: "que animal é este?" só vale quando o fato do enunciado acrescenta algo (pangolim, o mamífero mais traficado). Nas outras, a foto identifica o bicho e o enunciado pergunta um fato sobre ele: o parente mais próximo do ocapi, o órgão do tamanho do olho do társio.
+- A imagem do Wikidata para "pangolim" era uma montagem de uma foto com duas ilustrações; foi trocada pela de uma espécie. Daí a regra de só usar fotos de um único assunto.
+- Duas afirmações foram ajustadas ao que a fonte diz: o damão não é "o parente mais próximo do elefante" (a fonte diz que isso é contestado), e sim "muito mais aparentado" a ele que a um roedor, numa múltipla escolha sem sirênios entre as opções; o nome Firefox "teria vindo" de um apelido do panda-vermelho, como a fonte registra.
+
 **Comparação de críticos (2026-09-30).** O lote *História › Idade Média* foi criticado de novo em três configurações, sem mexer no banco (`pipeline/comparar_critico.py`):
 
 | Crítico | Custo | Turnos | Decisões iguais às do Opus |
@@ -628,3 +634,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.19 | 2026-09-30 | Pipeline econômico: o script baixa trechos das fontes e o crítico (Sonnet, esforço médio) os confere numa chamada só, sem web, informando o `apoio` de cada fato; `reescrita` obrigatória no esquema da crítica; prompt de sistema mínimo; comparação de críticos (§13). Custo por lote de 20 cai de cerca de US$ 2 para US$ 0,85 |
 | 0.20 | 2026-09-30 | Lotes de 50 perguntas; limite de saída do CLI elevado para 64 mil tokens; resultados dos primeiros lotes com o pipeline econômico (§13) |
 | 0.21 | 2026-09-30 | Trechos das fontes: artigo equivalente em português quando as fontes são só da Wikipédia em inglês (§11, §13) |
+| 0.22 | 2026-09-30 | Figuras de animais permitidas; só fotos de um único assunto; cinco perguntas de Mamíferos com figura (§6, §13) |

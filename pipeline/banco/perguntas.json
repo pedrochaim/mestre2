@@ -4408,5 +4408,116 @@
       "https://en.wikipedia.org/wiki/Narwhal"
     ],
     "dificuldade": 3
+  },
+  {
+    "id": "q00285",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "ocapi",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Apesar das listras que lembram uma zebra, este animal africano é parente mais próximo de qual outro animal?",
+    "resposta": "Girafa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Okapi"
+    ],
+    "imagem": {
+      "arquivo": "q00285.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Okapia_johnstoni_-Marwell_Wildlife,_Hampshire,_England-8a.jpg",
+      "autor": "Charles Miller",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00286",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "tarsio",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Cada olho deste pequeno primata asiático tem mais ou menos o tamanho de qual órgão do próprio corpo?",
+    "resposta": "O cérebro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tarsier"
+    ],
+    "imagem": {
+      "arquivo": "q00286.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tarsier_Hugs_Mossy_Branch.jpg",
+      "autor": "Kok Leng Yeo",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00287",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "pangolim",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Coberto de escamas, este animal é considerado o mamífero mais traficado do mundo. Como ele se chama?",
+    "resposta": "Pangolim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pangolin"
+    ],
+    "imagem": {
+      "arquivo": "q00287.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Manis_temminckii_(29645803646).jpg",
+      "autor": "U.S. Fish and Wildlife Service Headquarters",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00288",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "damao",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Apesar de lembrar um roedor, este pequeno animal da África e do Oriente Médio é muito mais aparentado a qual destes animais?",
+    "resposta": "Elefante",
+    "distratores": [
+      "Coelho",
+      "Castor",
+      "Porquinho-da-índia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hyrax"
+    ],
+    "imagem": {
+      "arquivo": "q00288.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:الوبر_الصخري_١.jpg",
+      "autor": "Basem mosaa",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00289",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "panda_vermelho",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Um apelido deste animal asiático teria dado nome a qual navegador de internet?",
+    "resposta": "Firefox",
+    "distratores": [
+      "Chrome",
+      "Safari",
+      "Opera"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_panda",
+      "https://en.wikipedia.org/wiki/Firefox"
+    ],
+    "imagem": {
+      "arquivo": "q00289.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:RedPanda_SingalilaNationalPark_DFrame.jpg",
+      "autor": "Ajit Hota",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 3
   }
 ]
