@@ -1,0 +1,85 @@
+{
+  "reescritas": [
+    {
+      "indice": 7,
+      "motivo": "O ângulo passou a ser nome: a pergunta agora quer saber de onde vem o apelido, e a resposta é Cleópatra. Tirei o verbo homenageia, que não tem base na fonte, e deixei só o fato verificável: ela viveu mais de mil anos depois do reinado de Tutmés Terceiro.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Dois obeliscos egípcios do reinado de Tutmés Terceiro, hoje em Londres e em Nova York, são chamados de agulha de qual rainha, que viveu mais de mil anos depois?",
+        "resposta": "Cleópatra",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cleopatra%27s_Needle"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "motivo": "O ângulo virou identidade, porque a resposta é a própria âncora. Na frase, quem pousa no cometa agora é o módulo lançado pela sonda, e não a sonda.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "Em 2014, uma sonda espacial europeia enviou um módulo que pousou num cometa. A sonda recebeu o nome de qual célebre artefato egípcio?",
+        "resposta": "Pedra de Roseta",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Rosetta_(spacecraft)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "motivo": "O ângulo virou identidade, porque a resposta é a própria âncora. Troquei 'se inspirou' pela afirmação mais exata de que Ozymandias era o nome grego do faraó.",
+      "reescrita": {
+        "angulo": "identidade",
+        "tipo": "aberta",
+        "pergunta": "O poema Ozymandias, de Percy Shelley, fala da estátua em ruínas de um soberano que se dizia rei dos reis. Ozymandias era o nome grego de qual faraó?",
+        "resposta": "Ramsés II",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ozymandias"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "motivo": "A resposta agora é Alta Represa de Assuã, para não se confundir com a represa antiga de 1902. O enunciado continua o mesmo.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Nos anos sessenta, os templos de Abu Simbel foram cortados em blocos e remontados num terreno mais alto. Que obra os ameaçava?",
+        "resposta": "Alta Represa de Assuã",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Abu_Simbel",
+          "https://en.wikipedia.org/wiki/Aswan_Dam"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "motivo": "O faraó agora funda uma nova capital, que hoje se chama Amarna. Não cito o nome antigo Aquetáton nem o de Aquenáton, porque os dois entregariam Aton.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "No século quatorze antes de Cristo, um faraó deixou Tebas e fundou uma nova capital, hoje chamada Amarna, dedicada ao culto de um único deus. Qual deus?",
+        "resposta": "Aton",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Amarna",
+          "https://en.wikipedia.org/wiki/Akhenaten"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "motivo": "Acrescentei 'depois de Cristo' e o enunciado ficou com 27 palavras. O verbo foi para o passado, 'ficava', porque o templo foi transferido depois para a ilha de Agilkia. O grafito de Esmet-Akhom, de 24 de agosto de 394, está num portão do templo de Ísis em Filas.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em trezentos e noventa e quatro depois de Cristo, gravaram num templo de Ísis a última inscrição hieroglífica conhecida. Em que ilha do Nilo ficava o templo?",
+        "resposta": "Filas",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Philae",
+          "https://en.wikipedia.org/wiki/Graffito_of_Esmet-Akhom"
+        ]
+      }
+    }
+  ]
+}

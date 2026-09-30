@@ -51,15 +51,16 @@ python pipeline/rodar.py simular --encomenda geografia_paises_01    # só grava 
 python pipeline/rodar.py validar                                    # confere o banco inteiro
 python pipeline/rodar.py relatorio                                  # distribuição por subtema, ângulo e tipo
 python pipeline/rodar.py consolidar                                 # procura e funde âncoras duplicadas
+python pipeline/rodar.py dificuldade [--forcar]                     # popularidade na Wikipédia → dificuldade (1 a 5)
 ```
 
 ## O que acontece em cada encomenda
 
 | Etapa | Quem faz | Arquivo em `trabalho/<id>/` |
 |---|---|---|
-| 1. **gerar** | Claude (Opus), com a Parte I do manifesto (regras de conteúdo), as âncoras e as perguntas já existentes no subtema | `01_prompt.md`, `01_geracao.json` |
+| 1. **gerar** | Claude (Opus, esforço alto), com a Parte I do manifesto (regras de conteúdo), as âncoras e as perguntas já existentes no subtema | `01_prompt.md`, `01_geracao.json` |
 | 2. **validar** | Python: esquema, lista canônica, distratores e duplicatas de perguntas já existentes | `02_validado.json` |
-| 3. **criticar** | Claude (Opus) **com acesso à web**, também com a Parte I do manifesto: abre as fontes, confere a precisão literal do enunciado, aplica os critérios de qualidade e aprova, reescreve ou descarta cada pergunta | `03_prompt.md`, `03_critica_bruta.json`, `03_criticado.json` |
+| 3. **criticar** | O Python baixa das URLs de `fonte` a abertura e as passagens ligadas à pergunta (`fontes.py`). Claude (Sonnet, esforço médio), **sem web e numa chamada só**, também com a Parte I do manifesto: confere o fato nos trechos (campo `apoio`: trecho, conhecimento ou contradito), confere a precisão literal do enunciado, aplica os critérios de qualidade e aprova, reescreve ou descarta cada pergunta | `03_fontes.json`, `03_prompt.md`, `03_critica_bruta.json`, `03_criticado.json` |
 | 4. **ancoras** | Python compara as âncoras com o cadastro. O Claude (Sonnet) julga só os casos parecidos. Checa se as URLs respondem e aplica os limites por âncora | `04_julgamento.json`, `04_ancoras.json` |
 | 5. **registrar** | Python: atribui os ids `q00001`… e grava no banco | — |
 
@@ -75,16 +76,19 @@ pipeline/
 ├── rodar.py               ← comandos
 ├── etapas.py              ← as cinco etapas
 ├── banco.py               ← banco, validação, semelhança, checagem de URLs
-├── claude_cli.py          ← chamada ao `claude -p`
+├── claude_cli.py          ← chamada ao `claude -p`, com prompt de sistema mínimo
+├── fontes.py              ← baixa as fontes e escolhe os trechos para o crítico
+├── comparar_critico.py    ← refaz a crítica de um lote com outro modelo, sem gravar no banco
 ├── comum.py               ← caminhos, arquivos, normalização, log
-├── prompts/               ← gerar.md, criticar.md, julgar_ancora.md
+├── prompts/               ← gerar.md, criticar.md, reescrever.md, julgar_ancora.md
 ├── esquemas/              ← formato obrigatório das respostas do Claude em cada etapa
 ├── banco/
 │   ├── perguntas.json     ← o banco de perguntas
 │   ├── ancoras.json       ← o cadastro de âncoras
 │   └── estado.json        ← encomendas concluídas
 ├── trabalho/<id>/         ← resultados intermediários de cada encomenda
-└── log/AAAA-MM-DD.jsonl   ← toda decisão automática, com motivo
+├── log/AAAA-MM-DD.jsonl   ← toda decisão automática, com motivo
+└── log/consumo.jsonl      ← tokens, turnos, duração e custo equivalente de cada chamada
 ```
 
 ## Auditoria
@@ -101,6 +105,24 @@ Para ver o que aconteceu com as perguntas de uma encomenda, filtre o log pelo ca
 | Instruções específicas de cada etapa | `prompts/gerar.md`, `prompts/criticar.md`, `prompts/julgar_ancora.md` |
 | Formato das respostas do Claude | `esquemas/` (precisa acompanhar `manifesto/pergunta.schema.json`) |
 | Temas e subtemas | `manifesto/temas_subtemas.json` (só por acréscimo) |
+
+## Consumo
+
+O pipeline foi desenhado para gastar pouca cota (MANIFESTO §11 e §12):
+
+| Etapa | Modelo e esforço | Web | Custo equivalente por lote de 20 |
+|---|---|---|---|
+| gerar | Opus, alto | não | US$ 0,50 a 0,70 |
+| criticar | Sonnet, médio, numa chamada só | não: os trechos vêm de `fontes.py` | cerca de US$ 0,22 |
+| julgar âncoras | Sonnet, médio | não | cerca de US$ 0,03 |
+
+O custo equivalente em API aparece em `log/consumo.jsonl`. Não há cobrança: ele serve só para comparar o peso das chamadas.
+
+Para testar outro crítico num lote já concluído, sem mexer no banco:
+
+```
+python pipeline/comparar_critico.py historia_idade_media_01 sonnet medium
+```
 
 ## Configuração
 

@@ -1,0 +1,72 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cheia do Nilo",
+        "descricao": "Inundação anual do rio Nilo que depositava lodo fértil nas margens do Egito até a construção da represa de Assuã",
+        "variantes": [
+          "Flooding of the Nile",
+          "Inundação do Nilo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sudao_do_sul",
+          "nome": "Sudão do Sul",
+          "descricao": "País da África Oriental, separado do Sudão, cuja capital é Juba.",
+          "variantes": [
+            "South Sudan",
+            "República do Sudão do Sul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Escaravelho sagrado",
+        "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+        "variantes": [
+          "Scarab",
+          "Quépri",
+          "Khepri",
+          "Scarabaeus sacer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A cheia anual do Nilo é um fenômeno natural, diferente do Sudão do Sul, que é um país."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O escaravelho sagrado é um besouro e símbolo religioso. Ancara é uma cidade e River Plate é um clube, então nenhuma candidata é a mesma entidade."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.17 — 2026-09-30**
+> **Versão preliminar 0.19 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -93,6 +93,13 @@ Cada âncora é registrada com:
 - **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
 - **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
 - **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
 
 **Limites por âncora** (o pipeline descarta o que passar deles):
 - no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
@@ -256,6 +263,7 @@ Toda pergunta precisa passar em **todos** os critérios abaixo:
 | `fonte` | ✔ | Lista com 1 ou mais URLs puras |
 | `distratores` | só em `multipla` | Exatamente 3. Proibido em `aberta` (§6) |
 | `autor` | — | Autor humano. Só é preenchido quando indicado |
+| `dificuldade` | — | 1 (fácil) a 5 (difícil), **calculada** pela popularidade da âncora (§4). Gravada pelo pipeline, nunca escrita pelo LLM. **Apenas ilustrativa**: não entra em nenhuma decisão |
 | `imagem` | — | Figura mostrada ao respondente (§6): `arquivo` (id da pergunta + extensão, em `pipeline/banco/imagens/`), `origem` (página no Commons), `autor` e `licenca` |
 
 ### Âncora ([`ancora.schema.json`](ancora.schema.json))
@@ -283,6 +291,7 @@ O cadastro de âncoras (`pipeline/banco/ancoras.json`) é um *arquivo de autorid
 | `fontes` | ✔ | Lista com 1 ou mais URLs de fontes confiáveis, em qualquer idioma |
 | `variantes` | — | Outras grafias e nomes |
 | `fundida_em` | — | `id` da entrada que absorveu esta. Só aparece após uma fusão (§11) |
+| `popularidade` | — | **Calculada:** `periodo` (AAAA-MM/AAAA-MM), `wikidata` (id do item) e visitas mensais aos artigos em `pt` e `en` (§4) |
 
 ### Regra de evolução
 
@@ -302,19 +311,32 @@ O fluxo é executado pelo pipeline em [`../pipeline/`](../pipeline/README.md), q
 2. VALIDAÇÃO   script: esquema, lista canônica, distratores e duplicatas
                de perguntas já existentes
         ↓
-3. CRÍTICA     o LLM (Opus), com acesso à web, abre as fontes e aplica os
-               critérios (§8), a redação para voz (§7) e a granularidade da
-               âncora (§4); cada pergunta é aprovada, reescrita ou descartada
+3. CRÍTICA     o pipeline baixa trechos das fontes; o LLM (Sonnet, esforço
+               médio), sem web e numa chamada só, confere o fato nos
+               trechos e aplica os critérios (§8), a redação para voz (§7)
+               e a granularidade da âncora (§4); cada pergunta é
+               aprovada, reescrita ou descartada
         ↓
 4. ÂNCORAS     resolução contra o cadastro (abaixo); checagem das URLs;
                aplicação dos limites por âncora (§4)
         ↓
 5. REGISTRO    atribuição dos ids; gravação no banco; avisos de variedade (§9)
+        ↓
+6. DIFICULDADE popularidade das âncoras novas na Wikipédia; dificuldade
+               estimada de todas as perguntas (§4); sem LLM
 ```
+
+A etapa 6 também pode rodar sozinha, com `python pipeline/rodar.py dificuldade`. Âncoras já medidas no período atual não são medidas de novo, a não ser com `--forcar`.
 
 **O que bloqueia e o que só avisa:**
 - **Descartam a pergunta:** erro de esquema ou da lista canônica, distrator igual à resposta, duplicata de pergunta existente, reprovação pelo crítico, âncora rejeitada, nenhuma fonte respondendo, limites por âncora.
 - **Só geram aviso no log:** regras de variedade do lote (§9), enunciado com mais de 30 palavras, resposta longa, distrator com mais de 4 palavras.
+
+**Trechos das fontes:** antes da crítica, o script baixa as páginas citadas em `fonte` (até 3 por pergunta; artigos da Wikipédia pela API, outras páginas sem o HTML) e separa de cada uma a abertura e as passagens com mais palavras em comum com a pergunta e a resposta. Páginas inexistentes ou de desambiguação chegam marcadas. O crítico não tem acesso à web: confere o fato nesses trechos e diz, em cada avaliação, de onde veio a confirmação (`apoio`): de um **trecho**, do seu **conhecimento** (quando o trecho não mostra o fato, e só para fatos amplamente documentados) ou se o trecho **contradiz** a pergunta. A contagem de `apoio` vai para o log e mostra quando a escolha de passagens falha.
+
+**Economia de tokens:** o pipeline roda na cota do plano do claude.ai, e cada etapa usa o modelo mais barato que dá conta dela (§12). Toda chamada leva um prompt de sistema mínimo, sem as configurações, os servidores MCP e as skills do Claude Code. O consumo de cada chamada fica em `pipeline/log/consumo.jsonl`, com o custo equivalente em API, que serve só para comparar.
+
+**Reescrita faltando:** o esquema da crítica exige o campo `reescrita` em toda avaliação (vazio quando não se aplica). Se ainda assim o crítico decide reescrever uma pergunta e não manda a versão corrigida, o pipeline pede de novo só essas reescritas, numa chamada pequena. A pergunta só é descartada se a segunda tentativa também falhar. Nos três primeiros lotes de História, antes desta regra, 8 das 60 perguntas se perderam assim.
 
 **O LLM nunca escreve no banco.** Ele devolve JSON num formato fixo, e o script decide o que gravar.
 
@@ -352,7 +374,9 @@ O esquema foi construído a partir do esquema do projeto anterior (`info/pergunt
 | Cadastro de âncoras separado | Evita depender só da Wikipédia em português. Descrição e variantes permitem desambiguar e deduplicar |
 | `angulo` adicionado (11 valores) | É o único mecanismo que garante variedade no tipo de pergunta. `obra` saiu, e `atributo` entrou |
 | `excecao` removido | No primeiro lote piloto, virou um molde repetitivo ("X é a cidade famosa, mas qual é a capital?") e tendia a perguntas de sim ou não. Removido antes de existir qualquer pergunta no banco, por isso sem violar a regra de evolução |
-| `dificuldade` não adotada | Em iterações anteriores, o LLM não conseguiu estimá-la de forma confiável. Se for necessária, será medida pelas taxas de acerto em partidas reais, fora do arquivo da pergunta |
+| `dificuldade` não estimada pelo LLM | Em iterações anteriores, o LLM não conseguiu estimá-la de forma confiável |
+| `dificuldade` calculada pela popularidade da âncora na Wikipédia (§4) | Sinal objetivo, gratuito e reprodutível, disponível desde a primeira pergunta. Entra como campo opcional, o que a regra de evolução permite. Os dados de partidas não são usados por enquanto |
+| Dificuldade apenas ilustrativa (§4) | É uma estimativa grosseira: mede a fama da âncora, e não a pergunta. Serve de informação na ficha, mas não é confiável o bastante para orientar sorteio, proporções ou geração |
 | Época e região não adotadas | Podem ser derivadas das fontes da âncora, por exemplo pelo Wikidata |
 | Verdadeiro ou falso removido | Funciona mal em voz alta e dá 50% de acerto no chute |
 | `tipo` com valores `aberta` e `multipla` | Minúsculas e sem acento, como todos os valores fixos. O app traduz para exibição |
@@ -383,6 +407,9 @@ O esquema foi construído a partir do esquema do projeto anterior (`info/pergunt
 | `imagem` como campo opcional, sem novo `tipo` nem novo ângulo | Uma pergunta com figura pode ser aberta ou múltipla, e o ângulo segue a relação entre resposta e âncora. Campo opcional respeita a regra de evolução |
 | Imagens só do Wikimedia Commons, copiadas para o banco | Licença livre com autor registrado. O nome do arquivo vira o id da pergunta, porque o nome original costuma entregar a resposta, e a cópia não depende de link externo |
 | Perguntas em arquivo estático, fora do Firestore (§16) | O banco é pequeno e só muda quando o pipeline roda. Cada leitura no Firestore seria custo e latência à toa |
+| Crítica com trechos das fontes baixados pelo script, sem web (§11) | Abrindo as fontes por conta própria, o crítico gastava de 12 a 22 turnos por lote, e cada turno relia o contexto inteiro. Com os trechos no prompt, a crítica é uma chamada só: no lote *Idade Média*, custou US$ 0,22, contra US$ 0,72 a 0,89 do Opus com web, e as decisões bateram em 19 de 20 |
+| Crítico Sonnet com esforço médio (§11) | Testado no mesmo lote: o Sonnet com esforço alto e web custou o mesmo que o Opus (US$ 0,72), porque raciocinou mais; com esforço médio e web, não abriu nenhuma fonte. Com os trechos no prompt, o esforço médio basta para conferir o fato |
+| Prompt de sistema mínimo em toda chamada (§11) | O prompt padrão do Claude Code custava cerca de 6 mil tokens por chamada; o mínimo, cerca de 900 |
 | Manifesto dividido em duas partes | O gerador e o crítico recebem só as regras de conteúdo (Parte I), sem o ruído de esquemas, processo e histórico |
 
 ---
@@ -408,12 +435,27 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 - A imagem principal do Wikidata foi boa nos dois casos: sem texto, sem marca d'água e com licença livre.
 - **É preciso olhar a foto e ler a fonte antes de escrever o enunciado.** "Que cidade é esta?" teria duas respostas, porque a ponte liga duas cidades. A foto foi tirada de Gaia, e o enunciado passou a perguntar pela cidade "do outro lado da ponte".
 
+**Comparação de críticos (2026-09-30).** O lote *História › Idade Média* foi criticado de novo em três configurações, sem mexer no banco (`pipeline/comparar_critico.py`):
+
+| Crítico | Custo | Turnos | Decisões iguais às do Opus |
+|---|---|---|---|
+| Opus, esforço alto, com web (original) | US$ 0,72–0,89 | 17 | — |
+| Sonnet, esforço alto, com web | US$ 0,72 | 12 | 15 de 20 |
+| Sonnet, esforço médio, com web | US$ 0,12 | 2 (não abriu as fontes) | 16 de 20 |
+| **Sonnet, esforço médio, com trechos** | **US$ 0,22** | **1 chamada** | **19 de 20** |
+
+- Com os trechos, o Sonnet confirmou 14 fatos num trecho e 6 pelo próprio conhecimento, e pegou a página de desambiguação de Orban.
+- **Nuances que escaparam** ao Sonnet médio: a destruição da frota mongol de 1274 por tufão é contestada (só o Opus notou); "batalhas navais" entrega a resposta do fogo grego (só o Sonnet alto notou).
+
 ---
 
 ## 14. Pendências
 
 - [ ] **Filtro de candidatas do juiz de âncoras:** só enviar ao juiz candidatas que tenham uma palavra significativa em comum com a proposta (§13).
 - [ ] **Comando `recriticar`:** passar de novo pela crítica perguntas que já estão no banco, sempre que os critérios mudarem. Primeiro uso: `q00008` e `q00031`.
+- [ ] **Acompanhar o crítico Sonnet** (§13): conferir nos próximos lotes se ele deixa passar nuances (fatos contestados, vazamentos) e quantas confirmações vêm de `conhecimento` em vez de `trecho`. Se precisar, ajustar o tamanho dos trechos (hoje cerca de 20 mil tokens por lote) ou a escolha de passagens.
+- [ ] **Esforço da geração:** a geração (Opus, esforço alto, US$ 0,50 a 0,70 por lote) virou a etapa mais cara. Testar esforço médio.
+- [ ] **Calibrar a dificuldade estimada** (§4): conferir se as faixas e o peso de cada língua batem com a experiência de jogo. Como a informação é só ilustrativa, isso não tem prioridade.
 - [ ] **Calibrar os limites por âncora** (§4) e as regras de variedade (§9), à medida que o banco crescer.
 - [ ] **Figuras no pipeline** (§6): etapa que busca imagens no Wikidata e no Commons, e crítico que baixa e olha a imagem antes de aprovar. Até lá, perguntas com figura são feitas à mão.
 - [ ] **Proporção de perguntas com figura:** começar com 5 a 10% do banco e ajustar depois de jogar.
@@ -494,13 +536,13 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
    - Depois ele toca em **Sortear**.
 4. Ele lê a pergunta em voz alta. Se houver figura, toca nela para abri-la em **tela cheia**, só a imagem, e mostra o aparelho ao respondente. Outro toque fecha a tela cheia.
 5. Ele toca em **Mostrar resposta**. Confirma quem respondeu e marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
-6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, tipo, fontes com link, crédito da figura, autor e id. Antes da resposta o botão não aparece, para não vazar nada.
+6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, dificuldade estimada, tipo, fontes com link, crédito da figura, autor e id. Antes da resposta o botão não aparece, para não vazar nada.
 
 Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão.
 
 ### Dados
 
-As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` copia `pipeline/banco/perguntas.json` para `app/public/perguntas.json`, só com os campos que o app usa: `id`, `tema`, `subtema`, `tipo`, `pergunta`, `resposta`, `distratores`, `imagem`, `angulo`, `fonte` e `autor`. A `ancora` sai já resolvida no cadastro, como nome e descrição. Se a âncora tiver sido fundida em outra, vale a entrada que a absorveu. Ele também copia as figuras de `pipeline/banco/imagens/` para `app/public/img/`. O Firestore guarda apenas o estado das partidas:
+As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` copia `pipeline/banco/perguntas.json` para `app/public/perguntas.json`, só com os campos que o app usa: `id`, `tema`, `subtema`, `tipo`, `pergunta`, `resposta`, `distratores`, `imagem`, `angulo`, `fonte`, `autor` e `dificuldade`. A `ancora` sai já resolvida no cadastro, como nome e descrição. Se a âncora tiver sido fundida em outra, vale a entrada que a absorveu. Ele também copia as figuras de `pipeline/banco/imagens/` para `app/public/img/`. O Firestore guarda apenas o estado das partidas:
 
 | Caminho | Campos | Função |
 |---|---|---|
@@ -563,3 +605,5 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.15 | 2026-09-30 | Revisão geral: §15 separada em regras e desenho do tabuleiro; decisões do jogo e do app registradas (§12); "Como se joga" reorganizado; "narrador" trocado por "questionador" |
 | 0.16 | 2026-09-30 | App: botão "Sobre a pergunta" depois da resposta; exportação passa a incluir âncora (nome e descrição), ângulo, fontes e autor |
 | 0.17 | 2026-09-30 | Perguntas podem se repetir na partida, com as novas primeiro e a repetida marcada; um registro por sorteio, em `sorteios` |
+| 0.18 | 2026-09-30 | Dificuldade estimada (1 a 5) pela popularidade da âncora na Wikipédia: campos opcionais `dificuldade` na pergunta e `popularidade` na âncora, etapa 6 do pipeline e ficha no app. A dificuldade é apenas ilustrativa: não entra em nenhuma decisão do projeto |
+| 0.19 | 2026-09-30 | Pipeline econômico: o script baixa trechos das fontes e o crítico (Sonnet, esforço médio) os confere numa chamada só, sem web, informando o `apoio` de cada fato; `reescrita` obrigatória no esquema da crítica; prompt de sistema mínimo; comparação de críticos (§13). Custo por lote de 20 cai de cerca de US$ 2 para US$ 0,85 |

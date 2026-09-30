@@ -5,6 +5,7 @@ retoma de onde parou (por exemplo, depois de esgotar a cota do plano)."""
 import json
 
 import banco as bc
+import fontes
 from claude_cli import chamar
 from comum import (
     ESQUEMAS_DIR, PROMPTS_DIR, gravar_json, gravar_texto, ler_json, ler_texto,
@@ -109,32 +110,88 @@ def validar(enc, banco, canon, pasta):
 
 # ---------------------------------------------------------------- 3. crítica
 
-def criticar(enc, canon, pasta, config):
-    itens = ler_json(pasta / ARQUIVOS["validar"])["itens"]
-    if not itens:
-        gravar_json(pasta / ARQUIVOS["criticar"], {"itens": []})
+def completar_reescritas(enc, avaliacoes, lote, pasta, config):
+    """O crítico às vezes decide "reescrever" sem mandar a reescrita. Em vez de descartar essas perguntas,
+    pede de novo só as reescritas que faltaram, numa chamada pequena, com o motivo que ele mesmo deu."""
+    faltando = [a for a in avaliacoes.values() if a["decisao"] == "reescrever" and not a.get("reescrita")]
+    if not faltando:
         return
+    por_indice = {e["indice"]: e for e in lote}  # cada entrada já traz os trechos das fontes
+    pedido = [{**por_indice[a["indice"]], "motivo": a["motivo"]} for a in faltando if a["indice"] in por_indice]
+    prompt = preencher(
+        ler_texto(PROMPTS_DIR / "reescrever.md"),
+        tema=enc["tema"], subtema=enc["subtema"],
+        lote=json.dumps(pedido, ensure_ascii=False, indent=2),
+        manifesto=manifesto_para_llm(),
+    )
+    c = config["criticar"]
+    saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_reescrita.json"), c["modelo"], c["esforco"],
+                   tempo_limite=c["tempo_limite"])
+    gravar_json(pasta / "03_reescritas_faltantes.json", saida)
+    for r in saida["reescritas"]:
+        a = avaliacoes.get(r["indice"])
+        if a is None or a.get("reescrita"):
+            continue
+        if r.get("descartar") or not r.get("reescrita"):
+            a.update(decisao="descartar", motivo=r["motivo"])
+        else:
+            a["reescrita"] = r["reescrita"]
+    registrar_log(enc["id"], "criticar", "reescritas_pedidas_de_novo",
+                  f"{len(pedido)} reescrita(s) faltando; {sum(1 for r in saida['reescritas'] if r.get('reescrita'))} recebida(s)")
 
-    lote = []
-    for it in itens:
-        entrada = {"indice": it["_indice"],
-                   "ancora": {"nome": it["_ancora"]["nome"], "descricao": it["_ancora"]["descricao"]}}
-        entrada.update({c: it[c] for c in CAMPOS[2:] if c in it})
-        lote.append(entrada)
 
+def montar_prompt_critica(enc, itens, pasta):
+    """Lote com os trechos das fontes já baixados (fontes.py) e o prompt do crítico."""
+    lote = lote_para_critica(itens)
+    trechos = fontes.trechos_do_lote(itens, pasta / "03_fontes.json")
+    for entrada in lote:
+        entrada["trechos"] = trechos.get(str(entrada["indice"]), [])
     prompt = preencher(
         ler_texto(PROMPTS_DIR / "criticar.md"),
         tema=enc["tema"], subtema=enc["subtema"],
         lote=json.dumps(lote, ensure_ascii=False, indent=2),
         manifesto=manifesto_para_llm(),
     )
+    return lote, prompt
+
+
+def criticar(enc, canon, pasta, config):
+    itens = ler_json(pasta / ARQUIVOS["validar"])["itens"]
+    if not itens:
+        gravar_json(pasta / ARQUIVOS["criticar"], {"itens": []})
+        return
+
+    lote, prompt = montar_prompt_critica(enc, itens, pasta)
     gravar_texto(pasta / "03_prompt.md", prompt)
     c = config["criticar"]
     saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_critica.json"), c["modelo"], c["esforco"],
-                   ferramentas=["WebSearch", "WebFetch"], tempo_limite=c["tempo_limite"])
+                   tempo_limite=c["tempo_limite"])
     gravar_json(pasta / "03_critica_bruta.json", saida)
+    apoio = {}
+    for a in saida["avaliacoes"]:
+        apoio[a.get("apoio", "?")] = apoio.get(a.get("apoio", "?"), 0) + 1
+    registrar_log(enc["id"], "criticar", "apoio", ", ".join(f"{k}: {v}" for k, v in sorted(apoio.items())))
 
     avaliacoes = {a["indice"]: a for a in saida["avaliacoes"]}
+    completar_reescritas(enc, avaliacoes, lote, pasta, config)
+    resultado = aplicar_avaliacoes(enc, itens, avaliacoes, canon)
+    gravar_json(pasta / ARQUIVOS["criticar"], {"itens": resultado})
+    registrar_log(enc["id"], "criticar", "concluida", f"{len(resultado)} de {len(itens)} perguntas seguiram")
+
+
+def lote_para_critica(itens):
+    """O que o crítico vê de cada pergunta: índice, âncora (nome e descrição) e os campos da pergunta."""
+    lote = []
+    for it in itens:
+        entrada = {"indice": it["_indice"],
+                   "ancora": {"nome": it["_ancora"]["nome"], "descricao": it["_ancora"]["descricao"]}}
+        entrada.update({c: it[c] for c in CAMPOS[2:] if c in it})
+        lote.append(entrada)
+    return lote
+
+
+def aplicar_avaliacoes(enc, itens, avaliacoes, canon):
+    """Aplica as decisões do crítico e devolve as perguntas que seguem, já com as reescritas."""
     resultado = []
     for it in itens:
         a = avaliacoes.get(it["_indice"])
@@ -164,9 +221,7 @@ def criticar(enc, canon, pasta, config):
             continue
         registrar_log(enc["id"], "criticar", "aprovada", a["motivo"], _resumo(it))
         resultado.append(it)
-
-    gravar_json(pasta / ARQUIVOS["criticar"], {"itens": resultado})
-    registrar_log(enc["id"], "criticar", "concluida", f"{len(resultado)} de {len(itens)} perguntas seguiram")
+    return resultado
 
 
 # ---------------------------------------------------------------- 4. âncoras

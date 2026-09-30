@@ -1,0 +1,283 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Czar",
+        "descricao": "Título dos monarcas da Rússia e de outros Estados eslavos.",
+        "variantes": [
+          "Tsar",
+          "Tzar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Senado romano",
+        "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+        "variantes": [
+          "Senatus",
+          "Roman Senate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "juventus",
+          "nome": "Juventus",
+          "descricao": "Juventus Football Club, clube de futebol de Turim fundado em 1897.",
+          "variantes": [
+            "Juventus Football Club",
+            "Juve",
+            "Velha Senhora",
+            "Vecchia Signora"
+          ]
+        },
+        {
+          "id": "emirados_arabes_unidos",
+          "nome": "Emirados Árabes Unidos",
+          "descricao": "Federação de emirados na Península Arábica cuja capital é Abu Dhabi.",
+          "variantes": [
+            "EAU",
+            "United Arab Emirates",
+            "UAE"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Grande Incêndio de Roma",
+        "descricao": "Incêndio que destruiu grande parte de Roma no ano 64, durante o governo de Nero.",
+        "variantes": [
+          "Incêndio de Roma",
+          "Great Fire of Rome"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Édito de Milão",
+        "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+        "variantes": [
+          "Edito de Milão",
+          "Edict of Milan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "washington_d_c",
+          "nome": "Washington, D.C.",
+          "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+          "variantes": [
+            "Washington",
+            "Distrito de Colúmbia",
+            "District of Columbia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Calendário romano",
+        "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+        "variantes": [
+          "Roman calendar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calendario_egipcio",
+          "nome": "Calendário egípcio",
+          "descricao": "Calendário civil solar do Egito Antigo, com doze meses de trinta dias e dias extras no fim do ano",
+          "variantes": [
+            "Egyptian calendar",
+            "Calendário civil egípcio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Fundação de Roma",
+        "descricao": "Fundação lendária da cidade de Roma por Rômulo.",
+        "variantes": [
+          "Founding of Rome"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cheia_do_nilo",
+          "nome": "Cheia do Nilo",
+          "descricao": "Inundação anual do rio Nilo que depositava lodo fértil nas margens do Egito até a construção da represa de Assuã",
+          "variantes": [
+            "Flooding of the Nile",
+            "Inundação do Nilo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ponte do Gard",
+        "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+        "variantes": [
+          "Pont du Gard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ponte_luis_i",
+          "nome": "Ponte Luís I",
+          "descricao": "Ponte metálica em arco, de dois tabuleiros, sobre o rio Douro, entre Porto e Vila Nova de Gaia, em Portugal.",
+          "variantes": [
+            "Ponte Dom Luís I",
+            "Ponte Luiz I",
+            "Dom Luís I Bridge"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Reino de Roma",
+        "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+        "variantes": [
+          "Monarquia Romana",
+          "Roman Kingdom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dinastia_ptolemaica",
+          "nome": "Dinastia ptolemaica",
+          "descricao": "Dinastia de origem macedônica que governou o Egito de 305 a 30 antes de Cristo, da qual Cleópatra foi a última soberana",
+          "variantes": [
+            "Reino Ptolemaico",
+            "Ptolemaic Kingdom",
+            "Dinastia lágida"
+          ]
+        },
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        },
+        {
+          "id": "washington_d_c",
+          "nome": "Washington, D.C.",
+          "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+          "variantes": [
+            "Washington",
+            "Distrito de Colúmbia",
+            "District of Columbia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Czar é título monárquico russo; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Senado romano é instituição da Roma Antiga; candidatas não relacionadas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Incêndio de Roma no ano 64 não tem relação com a Esfinge de Gizé."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Édito de Milão é um acordo de 313; candidata é Washington, D.C."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Calendário romano é distinto do calendário egípcio."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Fundação de Roma é diferente da Cheia do Nilo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ponte do Gard (França, romana) é diferente da Ponte Luís I (Porto)."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Reino de Roma não corresponde a nenhuma candidata (Ptolemaica, Lesoto, Washington)."
+    }
+  ]
+}

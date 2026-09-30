@@ -1,0 +1,138 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "motivo": "A associação com haxixe está sustentada pela fonte, que a trata como a etimologia tradicional; o enunciado fala em 'apelido' e não afirma que a droga foi usada de fato. Os distratores são críveis."
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "motivo": "O nome 'bizantino' foi criado por historiadores depois da queda, e os habitantes se chamavam romanos (romaioi). A resposta é única e específica, e o fato é interessante."
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "motivo": "Algoritmo vem do nome al-Khwarizmi, e 'essencial da computação' aponta para a palavra certa. O enunciado é curto e a fonte sustenta o fato."
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "motivo": "O termo 'gótico' era pejorativo, vinha dos godos e foi aplicado séculos depois, no Renascimento. O enunciado não vaza a resposta e o fato é interessante."
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "motivo": "Os tufões que destruíram as frotas mongóis ficaram conhecidos como kamikaze, 'vento divino', e a palavra designou pilotos suicidas no século vinte. O enunciado é literalmente correto e a fonte confirma."
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "motivo": "O apelido Bluetooth (Blåtand) de Haroldo deu nome à tecnologia sem fio. O fato é memorável, a resposta é única e o enunciado é literalmente verdadeiro."
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "motivo": "O serviço de dezessete anos na corte de Kublai vem do relato do próprio Polo, e há historiadores que o contestam, então o enunciado afirma como fato algo que não é certo. O fato também é básico e pouco interessante."
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "motivo": "João Sem-Terra foi forçado pelos barões a aceitar a Magna Carta em 1215 e é o vilão em versões da lenda de Robin Hood. A resposta é única e a conexão é interessante."
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "motivo": "A fonte mostra que o papel da pulga de rato como principal vetor é disputado, já que um estudo de 2018 aponta pulgas e piolhos humanos. O enunciado, que fala em 'parasita de ratos', adota o lado contestado, e o fato é básico."
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "motivo": "Orban fundiu um único canhão gigante, a Basílica, então 'armas gigantes' no plural é impreciso. A fonte 'Orban' é uma página de desambiguação.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Em 1453, que arma gigante, fundida pelo engenheiro húngaro Orban, ajudou os otomanos a abrir brechas nas muralhas de Constantinopla?",
+        "resposta": "Canhão",
+        "distratores": [
+          "Catapulta",
+          "Aríete",
+          "Balista"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "motivo": "O enunciado é literalmente verdadeiro: a conquista normanda explica o grande vocabulário de origem francesa no inglês. A resposta é única e a fonte sustenta o fato."
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "motivo": "Segundo as sagas, Erik escolheu um nome favorável para atrair colonos, e a fonte confirma. O enunciado traz a ressalva 'segundo as sagas' e a resposta é única."
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "motivo": "A tradição diz que Polo ditou o livro a Rustichello na prisão de Gênova, e a fonte confirma. A pergunta é de lugar, a resposta é única e o fato é interessante."
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "motivo": "Os algarismos chamados arábicos foram aprendidos pelos árabes com matemáticos indianos. A resposta é específica e o fato surpreende, e o enunciado não vaza a resposta."
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que a tapeçaria mostra o cometa Halley na borda superior, e o enunciado é correto. O fato é interessante."
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "motivo": "A guerra durou de 1337 a 1453, ou seja, 116 anos. O enunciado é correto, a resposta é única e os distratores são numéricos e críveis."
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "motivo": "A coroação de Carlos Magno por Leão Terceiro ocorreu no Natal de 800, em Roma, e o enunciado é literalmente correto. A resposta é única e verificável."
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "motivo": "Segundo as sagas, Leif Erikson deu à terra o nome Vinland, e a fonte confirma. Os distratores são vikings críveis, com no máximo quatro palavras."
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "motivo": "Dizer 'o primeiro presépio' é impreciso, porque havia representações anteriores da natividade. A fonte sustenta apenas que o de Francisco, em Greccio, foi o primeiro presépio vivo.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1223, na aldeia italiana de Greccio, quem montou o que a tradição aponta como o primeiro presépio vivo, com animais de verdade?",
+        "resposta": "São Francisco de Assis",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Nativity_scene",
+          "https://en.wikipedia.org/wiki/Francis_of_Assisi"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "motivo": "'Batalhas navais' entrega a resposta, porque leva direto à água. A correção remove essa pista, e o fato continua sustentado pela fonte.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "O fogo grego, arma incendiária secreta do Império Bizantino, era temido por uma característica rara. Qual era ela?",
+        "resposta": "Queimava sobre a água",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Greek_fire",
+          "https://pt.wikipedia.org/wiki/Fogo_grego"
+        ]
+      }
+    }
+  ]
+}

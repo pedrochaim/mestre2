@@ -1,0 +1,522 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Ordem dos Assassinos",
+        "descricao": "Seita ismaelita nizarita que atuou na Pérsia e na Síria entre os séculos onze e treze, famosa por assassinatos políticos.",
+        "variantes": [
+          "Hashashin",
+          "Nizaritas",
+          "Assassinos",
+          "Order of Assassins"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Order_of_Assassins"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra assassino vem do apelido dado a uma seita islâmica medieval da Pérsia e da Síria. Esse apelido a associava a que substância?",
+      "resposta": "Haxixe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Order_of_Assassins",
+        "https://www.etymonline.com/word/assassin"
+      ],
+      "distratores": [
+        "Ópio",
+        "Vinho",
+        "Café"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Império Bizantino",
+        "descricao": "Continuação oriental do Império Romano, com capital em Constantinopla, que durou até 1453.",
+        "variantes": [
+          "Império Romano do Oriente",
+          "Bizâncio",
+          "Byzantine Empire"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Byzantine_Empire",
+          "https://pt.wikipedia.org/wiki/Império_Bizantino"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Império Bizantino foi criado por historiadores depois da sua queda. Como os próprios habitantes desse império se chamavam?",
+      "resposta": "Romanos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Byzantine_Empire",
+        "https://en.wikipedia.org/wiki/Byzantine_Greeks"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Al-Khwarizmi",
+        "descricao": "Matemático e astrônomo persa do século nove que trabalhou na Casa da Sabedoria, em Bagdá.",
+        "variantes": [
+          "Muhammad ibn Musa al-Khwarizmi",
+          "Al-Khuarizmi",
+          "Algoritmi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do matemático persa al-Khwarizmi, que trabalhou em Bagdá no século nove, deu origem a que palavra essencial da computação?",
+      "resposta": "Algoritmo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+        "https://en.wikipedia.org/wiki/Algorithm"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Arquitetura gótica",
+        "descricao": "Estilo arquitetônico europeu dos séculos doze a dezesseis, típico de catedrais como Notre-Dame de Paris e Chartres.",
+        "variantes": [
+          "Estilo gótico",
+          "Gothic architecture"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gothic_architecture",
+          "https://pt.wikipedia.org/wiki/Arquitetura_gótica"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O estilo das catedrais de Notre-Dame e de Chartres ganhou, séculos depois, um nome pejorativo que o ligava a que povo germânico?",
+      "resposta": "Godos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gothic_architecture"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Invasões mongóis do Japão",
+        "descricao": "Duas tentativas de invasão do Japão pela dinastia Yuan de Kublai Khan, em 1274 e 1281.",
+        "variantes": [
+          "Invasões mongóis ao Japão",
+          "Mongol invasions of Japan",
+          "Genkō"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No século treze, tufões afundaram frotas mongóis que invadiam o Japão. Que nome japonês esses ventos ganharam, e que séculos depois designou pilotos suicidas?",
+      "resposta": "Kamikaze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kamikaze_(typhoon)",
+        "https://en.wikipedia.org/wiki/Mongol_invasions_of_Japan"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Haroldo Dente-Azul",
+        "descricao": "Rei da Dinamarca no século dez, que cristianizou os dinamarqueses e é lembrado nas pedras rúnicas de Jelling.",
+        "variantes": [
+          "Haroldo I da Dinamarca",
+          "Harald Bluetooth",
+          "Harald Blåtand"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Harald_Bluetooth"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Haroldo, rei viking da Dinamarca no século dez, tinha um apelido que hoje dá nome a que tecnologia sem fio?",
+      "resposta": "Bluetooth",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Harald_Bluetooth",
+        "https://en.wikipedia.org/wiki/Bluetooth"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Marco Polo",
+        "descricao": "Mercador e viajante veneziano do século treze que viveu anos na China mongol.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marco_Polo",
+          "https://pt.wikipedia.org/wiki/Marco_Polo"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Durante cerca de dezessete anos, o veneziano Marco Polo serviu na corte de qual imperador mongol, neto de Gengis Khan?",
+      "resposta": "Kublai Khan",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marco_Polo",
+        "https://en.wikipedia.org/wiki/Kublai_Khan"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Magna Carta",
+        "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+        "variantes": [
+          "Magna Charta",
+          "Grande Carta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Magna_Carta",
+          "https://pt.wikipedia.org/wiki/Magna_Carta"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que rei inglês aparece como vilão em versões da lenda de Robin Hood e foi forçado pelos barões a aceitar a Magna Carta em 1215?",
+      "resposta": "João Sem-Terra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/John,_King_of_England",
+        "https://en.wikipedia.org/wiki/Robin_Hood",
+        "https://en.wikipedia.org/wiki/Magna_Carta"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Peste Negra",
+        "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+        "variantes": [
+          "Grande Peste",
+          "Black Death",
+          "Morte Negra"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Black_Death",
+          "https://pt.wikipedia.org/wiki/Peste_Negra"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No século quatorze, a peste negra matou milhões de europeus. Que inseto, parasita de ratos, é apontado como principal transmissor da bactéria causadora?",
+      "resposta": "Pulga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Black_Death",
+        "https://pt.wikipedia.org/wiki/Peste_Negra"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Queda de Constantinopla",
+        "descricao": "Conquista da capital bizantina pelo Império Otomano do sultão Maomé Segundo, em 1453.",
+        "variantes": [
+          "Tomada de Constantinopla",
+          "Fall of Constantinople"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+          "https://pt.wikipedia.org/wiki/Queda_de_Constantinopla"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1453, que armas gigantes, fundidas pelo engenheiro Orban, ajudaram os otomanos a romper as muralhas de Constantinopla?",
+      "resposta": "Canhões",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fall_of_Constantinople",
+        "https://en.wikipedia.org/wiki/Orban"
+      ],
+      "distratores": [
+        "Catapultas",
+        "Aríetes",
+        "Balistas"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Conquista normanda da Inglaterra",
+        "descricao": "Invasão e conquista da Inglaterra por Guilherme, duque da Normandia, a partir da Batalha de Hastings em 1066.",
+        "variantes": [
+          "Conquista Normanda",
+          "Norman Conquest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Norman_Conquest"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A conquista da Inglaterra por Guilherme da Normandia, em 1066, explica por que o inglês tem milhares de palavras vindas de que outra língua?",
+      "resposta": "Francês",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Influence_of_French_on_English",
+        "https://en.wikipedia.org/wiki/Norman_Conquest"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Erik, o Vermelho",
+        "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+        "variantes": [
+          "Érico, o Vermelho",
+          "Erik the Red",
+          "Eiríkr rauði"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Erik_the_Red"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo as sagas nórdicas, por que Erik, o Vermelho, batizou de Terra Verde uma ilha quase toda coberta de gelo?",
+      "resposta": "Para atrair colonos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Erik_the_Red",
+        "https://en.wikipedia.org/wiki/Greenland"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "As Viagens de Marco Polo",
+        "descricao": "Relato das viagens de Marco Polo pela Ásia, escrito por Rustichello de Pisa por volta de 1300.",
+        "variantes": [
+          "O Livro das Maravilhas",
+          "Il Milione",
+          "The Travels of Marco Polo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Travels_of_Marco_Polo"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que cidade italiana, rival de Veneza, Marco Polo estava preso quando ditou o relato de suas viagens à China?",
+      "resposta": "Gênova",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Travels_of_Marco_Polo",
+        "https://en.wikipedia.org/wiki/Marco_Polo"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Algarismos indo-arábicos",
+        "descricao": "Sistema de numeração posicional com os dígitos de zero a nove, usado hoje em quase todo o mundo.",
+        "variantes": [
+          "Algarismos arábicos",
+          "Sistema de numeração indo-arábico",
+          "Hindu-Arabic numeral system"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os algarismos de zero a nove são chamados de arábicos, mas os árabes medievais os aprenderam com matemáticos de que região?",
+      "resposta": "Índia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+        "https://en.wikipedia.org/wiki/Arabic_numerals"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Tapeçaria de Bayeux",
+        "descricao": "Bordado de cerca de setenta metros, feito no século onze, que narra a conquista normanda da Inglaterra.",
+        "variantes": [
+          "Tapeçaria da Rainha Matilde",
+          "Bayeux Tapestry"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bayeux_Tapestry"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A Tapeçaria de Bayeux, bordada no século onze para narrar a conquista normanda da Inglaterra, mostra no céu que famoso cometa?",
+      "resposta": "Halley",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bayeux_Tapestry",
+        "https://en.wikipedia.org/wiki/Halley%27s_Comet"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Guerra dos Cem Anos",
+        "descricao": "Série de conflitos entre os reinos da Inglaterra e da França, de 1337 a 1453.",
+        "variantes": [
+          "Hundred Years' War"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hundred_Years%27_War",
+          "https://pt.wikipedia.org/wiki/Guerra_dos_Cem_Anos"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Apesar do nome, quantos anos durou de fato a Guerra dos Cem Anos, travada entre Inglaterra e França?",
+      "resposta": "116 anos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hundred_Years%27_War",
+        "https://pt.wikipedia.org/wiki/Guerra_dos_Cem_Anos"
+      ],
+      "distratores": [
+        "99 anos",
+        "104 anos",
+        "131 anos"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Carlos Magno",
+        "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+        "variantes": [
+          "Carlos I",
+          "Charlemagne",
+          "Karl der Große"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Charlemagne",
+          "https://pt.wikipedia.org/wiki/Carlos_Magno"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Num dia de Natal, em Roma, o papa Leão Terceiro coroou Carlos Magno imperador. Em que ano isso aconteceu?",
+      "resposta": "800",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Charlemagne",
+        "https://pt.wikipedia.org/wiki/Carlos_Magno"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Vinland",
+        "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+        "variantes": [
+          "Vinlândia",
+          "Vínland"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vinland"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Por volta do ano mil, que navegador viking desembarcou na América do Norte e chamou a terra de Vinland?",
+      "resposta": "Leif Erikson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Vinland",
+        "https://en.wikipedia.org/wiki/Leif_Erikson"
+      ],
+      "distratores": [
+        "Erik, o Vermelho",
+        "Ragnar Lodbrok",
+        "Haroldo Hardrada"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Presépio",
+        "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+        "variantes": [
+          "Presépio de Natal",
+          "Nativity scene"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nativity_scene",
+          "https://pt.wikipedia.org/wiki/Presépio"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1223, na aldeia italiana de Greccio, que santo montou o que é considerado o primeiro presépio de Natal?",
+      "resposta": "São Francisco de Assis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nativity_scene",
+        "https://en.wikipedia.org/wiki/Francis_of_Assisi"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Fogo grego",
+        "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+        "variantes": [
+          "Fogo marinho",
+          "Fogo líquido",
+          "Greek fire"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Greek_fire",
+          "https://pt.wikipedia.org/wiki/Fogo_grego"
+        ]
+      },
+      "tema": "História",
+      "subtema": "Idade Média",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O fogo grego, arma incendiária secreta do Império Bizantino, era temido nas batalhas navais por uma característica rara. Qual era ela?",
+      "resposta": "Queimava sobre a água",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Greek_fire",
+        "https://pt.wikipedia.org/wiki/Fogo_grego"
+      ]
+    }
+  ]
+}

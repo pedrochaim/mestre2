@@ -1,0 +1,176 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "motivo": "O enunciado vaza a resposta, porque 'salário' contém 'sal'. A própria fonte diz que a ligação exata com o sal é desconhecida, e a pergunta cabe mais em Língua Portuguesa do que em Roma Antiga."
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que os palácios imperiais ficavam no Palatino e que o nome da colina deu origem à palavra 'palácio'. O fato é interessante e não há vazamento."
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que a toga era esfregada com giz e usada por candidatos, e 'candidato' vem de candida. É uma boa pergunta de ângulo nome."
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que os soldados do pai dele o apelidaram de 'botinha' por causa das caligae que ele usava. O enunciado é preciso e audível."
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "motivo": "A fonte diz que o nome provavelmente vem do colosso de Nero, levado para junto do anfiteatro, e o 'provavelmente' do enunciado reflete bem essa incerteza."
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que Kaiser e czar derivam do título latino caesar, e a âncora menos óbvia, czar, está correta."
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "motivo": "A fonte registra essa coincidência de nomes, citando inclusive Gibbon, e a deposição por Odoacro em 476. É uma conexão memorável com resposta única."
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "motivo": "O fato está correto, porque Pompeu casou com Júlia, filha de César, mas a resposta pode ser mais curta e direta.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Pompeu foi aliado e depois inimigo de Júlio César. Que laço de família também unia os dois?",
+        "resposta": "Pompeu era genro de César",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Julia_(daughter_of_Caesar)",
+          "https://en.wikipedia.org/wiki/Pompey"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "motivo": "A resposta é o significado da origem do nome da âncora, então o ângulo mais específico é nome, e não conexao.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "A palavra senado vem do mesmo termo latino que deu origem a senil. O que esse termo significa?",
+        "resposta": "Velho",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Roman_Senate"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que, segundo a tradição, o estupro de Lucrécia por Sexto Tarquínio, filho do rei, desencadeou a queda da monarquia."
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "motivo": "A acusação de Nero aos cristãos é conhecida apenas pelo relato de Tácito, que é contestado, então o enunciado precisa atribuir o fato a ele para ser literalmente preciso.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Segundo o historiador Tácito, que grupo o imperador Nero culpou pelo grande incêndio de Roma, no ano 64?",
+        "resposta": "Os cristãos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Great_Fire_of_Rome"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma o acordo de Constantino e Licínio em 313, que deu aos cristãos liberdade de culto. A pergunta também desfaz o equívoco comum de que o édito oficializou o cristianismo."
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que dezembro era o décimo mês do calendário de Rômulo, que começava em março."
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que os plebeus exigiram a lei escrita, que foi exposta no Fórum por volta de 450 antes de Cristo."
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma 753 antes de Cristo como data tradicional, pela cronologia de Varrão, e o enunciado deixa claro que se trata da tradição."
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "motivo": "O fato está confirmado pela fonte, mas o distrator 'Monte Capitolino' é uma colina e não um complexo, por isso foi trocado por 'Fórum de César', que é crível e da mesma categoria.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Nos Idos de Março de 44 antes de Cristo, Júlio César foi morto numa sala de reunião do Senado. Essa sala fazia parte de qual complexo?",
+        "resposta": "Teatro de Pompeu",
+        "distratores": [
+          "Fórum Romano",
+          "Fórum de César",
+          "Templo de Saturno"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Curia_of_Pompey",
+          "https://en.wikipedia.org/wiki/Theatre_of_Pompey"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma que a ponte fica na França, tem três andares de arcos e é do século primeiro. Os distratores são críveis."
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "motivo": "A fonte confirma os sete reis lendários antes de 509 antes de Cristo."
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "motivo": "O fato está confirmado pela fonte, mas as Termas de Caracala não eram um local de espetáculos, por isso o distrator foi trocado pelo Teatro de Pompeu.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual era o maior local de espetáculos da Roma antiga, com lugar para muito mais gente que o Coliseu?",
+        "resposta": "Circo Máximo",
+        "distratores": [
+          "Teatro de Marcelo",
+          "Estádio de Domiciano",
+          "Teatro de Pompeu"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Circus_Maximus"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "motivo": "O fato está correto, mas o enunciado põe uma dica depois da pergunta, contrariando a regra de contexto primeiro e pergunta por último.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "O Primeiro Triunvirato uniu César, Pompeu e um homem famoso pela fortuna e por ter derrotado Espártaco. Quem era ele?",
+        "resposta": "Crasso",
+        "distratores": [
+          "Cícero",
+          "Marco Antônio",
+          "Catão"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/First_Triumvirate",
+          "https://en.wikipedia.org/wiki/Marcus_Licinius_Crassus"
+        ]
+      }
+    }
+  ]
+}

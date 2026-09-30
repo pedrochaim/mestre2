@@ -4,10 +4,33 @@ Usa a conta do claude.ai em que o Claude Code está logado: não há cobrança
 de API, mas cada chamada consome a cota do plano.
 """
 
+import datetime as dt
 import json
 import shutil
 import subprocess
 import tempfile
+
+from comum import LOG_DIR
+
+# Encomenda e etapa em andamento, preenchidas por rodar.py, para identificar cada chamada no registro de consumo.
+contexto = {}
+
+SISTEMA = ("Você é uma etapa automática do pipeline de perguntas do Mestre2. Siga as instruções da mensagem "
+           "e responda apenas com a saída estruturada pedida.")
+
+
+def _registrar_consumo(resposta, modelo, esforco):
+    """Acrescenta a log/consumo.jsonl os tokens, a duração e o custo equivalente em API de uma chamada.
+    No plano do claude.ai não há cobrança; o custo serve só para comparar o peso das chamadas."""
+    entrada = {"quando": dt.datetime.now().isoformat(timespec="seconds"), **contexto,
+               "modelo": modelo, "esforco": esforco,
+               "duracao_s": round((resposta.get("duration_ms") or 0) / 1000),
+               "turnos": resposta.get("num_turns"),
+               "custo_api_usd": resposta.get("total_cost_usd"),
+               "uso": resposta.get("usage")}
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+    with open(LOG_DIR / "consumo.jsonl", "a", encoding="utf-8") as f:
+        f.write(json.dumps(entrada, ensure_ascii=False) + "\n")
 
 
 class ErroClaude(Exception):
@@ -30,6 +53,12 @@ def chamar(prompt, esquema, modelo, esforco=None, ferramentas=None, tempo_limite
         "--json-schema", json.dumps(esquema, ensure_ascii=False),
         "--model", modelo,
         "--no-session-persistence",
+        # Prompt de sistema mínimo no lugar do padrão do Claude Code, sem configurações, MCP nem skills:
+        # o custo fixo de cada chamada cai de ~6 mil para ~900 tokens.
+        "--system-prompt", SISTEMA,
+        "--setting-sources", "",
+        "--strict-mcp-config",
+        "--disable-slash-commands",
     ]
     if ferramentas:
         cmd += ["--tools", ",".join(ferramentas), "--allowedTools", ",".join(ferramentas)]
@@ -53,6 +82,7 @@ def chamar(prompt, esquema, modelo, esforco=None, ferramentas=None, tempo_limite
         detalhe = (proc.stderr or proc.stdout or "").strip()[:1000]
         raise ErroClaude(f"Saída do claude não é JSON (código {proc.returncode}): {detalhe}") from e
 
+    _registrar_consumo(resposta, modelo, esforco)
     if resposta.get("is_error") or resposta.get("subtype") != "success":
         raise ErroClaude(f"Claude devolveu erro ({resposta.get('subtype')}): {str(resposta.get('result'))[:1000]}")
 

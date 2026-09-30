@@ -13,7 +13,7 @@ AQUI = Path(__file__).parent
 BANCO = AQUI.parent / "pipeline" / "banco"
 PUBLICO = AQUI / "public"
 CAMPOS = ["id", "tema", "subtema", "tipo", "pergunta", "resposta", "distratores", "imagem",
-          "angulo", "fonte", "autor"]
+          "angulo", "fonte", "autor", "dificuldade"]
 
 perguntas = json.loads((BANCO / "perguntas.json").read_text(encoding="utf-8"))
 ancoras = {a["id"]: a for a in json.loads((BANCO / "ancoras.json").read_text(encoding="utf-8"))}

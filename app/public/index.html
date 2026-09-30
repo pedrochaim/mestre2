@@ -508,6 +508,11 @@
       item("Âncora", nome, p.ancora.descricao ? `: ${p.ancora.descricao}` : "");
     }
     if (p.angulo) item("Ângulo", ANGULOS[p.angulo] || p.angulo);
+    if (p.dificuldade) {
+      const nivel = ["", "fácil", "média-fácil", "média", "média-difícil", "difícil"][p.dificuldade];
+      item("Dificuldade estimada", `${"●".repeat(p.dificuldade)}${"○".repeat(5 - p.dificuldade)} ${p.dificuldade} de 5, ${nivel}`,
+           el("div", { className: "suave", textContent: "pela popularidade da âncora na Wikipédia" }));
+    }
     item("Tipo", p.tipo === "multipla" ? "Múltipla escolha" : "Aberta");
     const fontes = (p.fonte || []).filter(u => /^https?:\/\//.test(u));
     if (fontes.length) {

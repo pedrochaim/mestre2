@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["reescritas"],
+  "properties": {
+    "reescritas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["indice", "motivo"],
+        "properties": {
+          "indice": { "type": "integer" },
+          "motivo": { "type": "string" },
+          "descartar": { "type": "boolean" },
+          "reescrita": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["angulo", "tipo", "pergunta", "resposta", "fonte"],
+            "properties": {
+              "angulo": {
+                "type": "string",
+                "enum": ["autoria", "tempo", "lugar", "numero", "nome", "causa", "composicao", "atributo", "comparacao", "conexao", "identidade"]
+              },
+              "tipo": { "type": "string", "enum": ["aberta", "multipla"] },
+              "pergunta": { "type": "string" },
+              "resposta": { "type": "string" },
+              "distratores": { "type": "array", "items": { "type": "string" } },
+              "fonte": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    }
+  }
+}

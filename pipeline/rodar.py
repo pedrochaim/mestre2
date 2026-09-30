@@ -8,6 +8,7 @@ Uso (a partir da raiz do projeto):
     python pipeline/rodar.py validar                   # confere o banco inteiro
     python pipeline/rodar.py relatorio                 # distribuição por subtema, ângulo e tipo
     python pipeline/rodar.py consolidar                # procura e funde âncoras duplicadas
+    python pipeline/rodar.py dificuldade [--forcar]    # popularidade na Wikipédia → dificuldade
 """
 
 import argparse
@@ -20,14 +21,16 @@ sys.stderr.reconfigure(encoding="utf-8")
 
 import banco as bc  # noqa: E402
 import etapas  # noqa: E402
+import popularidade  # noqa: E402
+import claude_cli  # noqa: E402
 from claude_cli import ErroClaude  # noqa: E402
-from comum import ENCOMENDAS, TRABALHO_DIR, carregar_canon, gravar_texto, ler_json, normalizar, registrar_log  # noqa: E402
+from comum import ENCOMENDAS, TRABALHO_DIR, carregar_canon, gravar_json, gravar_texto, ler_json, normalizar, registrar_log  # noqa: E402
 
 # Modelos e esforço de cada etapa. "opus" e "sonnet" são apelidos do Claude Code
 # para a versão mais recente de cada linha. Tempo limite em segundos.
 CONFIG = {
     "gerar":    {"modelo": "opus",   "esforco": "high",   "tempo_limite": 1800},
-    "criticar": {"modelo": "opus",   "esforco": "high",   "tempo_limite": 3600},
+    "criticar": {"modelo": "sonnet", "esforco": "medium", "tempo_limite": 3600},
     "julgar":   {"modelo": "sonnet", "esforco": "medium", "tempo_limite": 900},
 }
 
@@ -97,6 +100,7 @@ def cmd_executar(args):
                     print(f"  {n + 1}. {etapa}: já feita")
                     continue
                 print(f"  {n + 1}. {etapa}…", flush=True)
+                claude_cli.contexto.update(encomenda=enc["id"], etapa=etapa)
                 if etapa == "gerar":
                     etapas.gerar(enc, banco, pasta, CONFIG)
                 elif etapa == "validar":
@@ -115,6 +119,50 @@ def cmd_executar(args):
 
         if ultima < len(ORDEM) - 1:
             print(f"  Parado após a etapa '{args.ate}'. Resultados em {pasta}")
+
+    if ultima == len(ORDEM) - 1:
+        print("\nDificuldade (popularidade das âncoras na Wikipédia)…")
+        popularidade.atualizar()
+
+
+def cmd_recuperar(args):
+    """Recupera perguntas que o crítico mandou reescrever sem enviar a reescrita, em lotes já concluídos
+    (antes da segunda tentativa automática). Pede só essas reescritas e as passa por âncoras e registro,
+    numa pasta de trabalho própria (<encomenda>_recuperacao)."""
+    canon = carregar_canon()
+    banco = bc.Banco()
+    encomendas = {e["id"]: e for e in carregar_encomendas(canon)}
+    alvos = [args.encomenda] if args.encomenda else sorted(encomendas)
+    for id_enc in alvos:
+        origem = TRABALHO_DIR / id_enc
+        bruta = ler_json(origem / "03_critica_bruta.json")
+        if id_enc not in banco.estado["concluidas"] or bruta is None:
+            continue
+        rec = {**encomendas[id_enc], "id": f"{id_enc}_recuperacao"}
+        if rec["id"] in banco.estado["concluidas"]:
+            print(f"[{id_enc}] já recuperada; pulando.")
+            continue
+        avaliacoes = {a["indice"]: a for a in bruta["avaliacoes"]
+                      if a["decisao"] == "reescrever" and not a.get("reescrita")}
+        if not avaliacoes:
+            continue
+        itens = [it for it in ler_json(origem / etapas.ARQUIVOS["validar"])["itens"] if it["_indice"] in avaliacoes]
+        pasta = TRABALHO_DIR / rec["id"]
+        pasta.mkdir(parents=True, exist_ok=True)
+        print(f"\n[{id_enc}] {len(itens)} reescrita(s) faltando")
+        try:
+            claude_cli.contexto.update(encomenda=rec["id"], etapa="criticar")
+            etapas.completar_reescritas(rec, avaliacoes, etapas.lote_para_critica(itens), pasta, CONFIG)
+            resultado = etapas.aplicar_avaliacoes(rec, itens, avaliacoes, canon)
+            gravar_json(pasta / etapas.ARQUIVOS["criticar"], {"itens": resultado})
+            claude_cli.contexto.update(etapa="ancoras")
+            etapas.resolver_ancoras(rec, banco, pasta, CONFIG)
+            registradas = etapas.registrar(rec, banco, canon, pasta)
+            print(f"  → {len(registradas)} pergunta(s) recuperada(s).")
+        except ErroClaude as e:
+            print(f"\nInterrompido: {e}")
+            sys.exit(2)
+    popularidade.atualizar()
 
 
 def cmd_simular(args):
@@ -258,6 +306,14 @@ def main():
     sub.add_parser("validar", help="confere o banco inteiro").set_defaults(func=cmd_validar)
     sub.add_parser("relatorio", help="distribuição do banco").set_defaults(func=cmd_relatorio)
     sub.add_parser("consolidar", help="funde âncoras duplicadas").set_defaults(func=cmd_consolidar)
+
+    p = sub.add_parser("recuperar", help="recupera reescritas que o crítico não enviou em lotes já concluídos")
+    p.add_argument("--encomenda", help="id de uma encomenda específica")
+    p.set_defaults(func=cmd_recuperar)
+
+    p = sub.add_parser("dificuldade", help="mede a popularidade das âncoras e estima a dificuldade")
+    p.add_argument("--forcar", action="store_true", help="mede de novo todas as âncoras, mesmo as já medidas")
+    p.set_defaults(func=lambda a: popularidade.atualizar(a.forcar))
 
     args = parser.parse_args()
     args.func(args)

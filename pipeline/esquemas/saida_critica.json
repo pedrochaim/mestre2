@@ -1,33 +1,105 @@
 {
   "type": "object",
   "additionalProperties": false,
-  "required": ["avaliacoes"],
+  "required": [
+    "avaliacoes"
+  ],
   "properties": {
     "avaliacoes": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["indice", "decisao", "motivo"],
+        "required": [
+          "indice",
+          "decisao",
+          "apoio",
+          "motivo",
+          "reescrita"
+        ],
         "properties": {
-          "indice": { "type": "integer" },
-          "decisao": { "type": "string", "enum": ["aprovar", "reescrever", "descartar"] },
-          "motivo": { "type": "string" },
+          "indice": {
+            "type": "integer"
+          },
+          "decisao": {
+            "type": "string",
+            "enum": [
+              "aprovar",
+              "reescrever",
+              "descartar"
+            ]
+          },
+          "apoio": {
+            "type": "string",
+            "enum": [
+              "trecho",
+              "conhecimento",
+              "contradito"
+            ]
+          },
+          "motivo": {
+            "type": "string"
+          },
           "reescrita": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": ["angulo", "tipo", "pergunta", "resposta", "fonte"],
-            "properties": {
-              "angulo": {
-                "type": "string",
-                "enum": ["autoria", "tempo", "lugar", "numero", "nome", "causa", "composicao", "atributo", "comparacao", "conexao", "identidade"]
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "angulo",
+                  "tipo",
+                  "pergunta",
+                  "resposta",
+                  "fonte"
+                ],
+                "properties": {
+                  "angulo": {
+                    "type": "string",
+                    "enum": [
+                      "autoria",
+                      "tempo",
+                      "lugar",
+                      "numero",
+                      "nome",
+                      "causa",
+                      "composicao",
+                      "atributo",
+                      "comparacao",
+                      "conexao",
+                      "identidade"
+                    ]
+                  },
+                  "tipo": {
+                    "type": "string",
+                    "enum": [
+                      "aberta",
+                      "multipla"
+                    ]
+                  },
+                  "pergunta": {
+                    "type": "string"
+                  },
+                  "resposta": {
+                    "type": "string"
+                  },
+                  "distratores": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "fonte": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
               },
-              "tipo": { "type": "string", "enum": ["aberta", "multipla"] },
-              "pergunta": { "type": "string" },
-              "resposta": { "type": "string" },
-              "distratores": { "type": "array", "items": { "type": "string" } },
-              "fonte": { "type": "array", "items": { "type": "string" } }
-            }
+              {
+                "type": "null"
+              }
+            ]
           }
         }
       }

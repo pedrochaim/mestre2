@@ -1,0 +1,146 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Agulhas de Cleópatra",
+        "descricao": "Obeliscos egípcios do reinado de Tutmés III, originalmente em Heliópolis, reerguidos em Londres e em Nova York no século dezenove",
+        "variantes": [
+          "Cleopatra's Needle",
+          "Agulha de Cleópatra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cleopatra",
+          "nome": "Cleópatra",
+          "descricao": "Cleópatra Sétima, última soberana da dinastia ptolemaica do Egito, morta em 30 antes de Cristo",
+          "variantes": [
+            "Cleópatra VII"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pedra de Roseta",
+        "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+        "variantes": [
+          "Rosetta Stone"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Amarna",
+        "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+        "variantes": [
+          "Tell el-Amarna",
+          "Aquetáton",
+          "Akhetaten"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camisa_canarinho",
+          "nome": "Camisa canarinho",
+          "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca.",
+          "variantes": [
+            "Camisa amarela da seleção",
+            "Amarelinha",
+            "Uniforme canarinho"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Filas",
+        "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+        "variantes": [
+          "Philae",
+          "Filae",
+          "Ilha de Filas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Obeliscos egípcios não são a rainha Cleópatra VII; entidades diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pedra de Roseta é uma estela, distinta da Pirâmide de Djoser."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Amarna é a antiga cidade egípcia de Aquenáton; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Filas é uma ilha do Nilo com templos; Flamengo é um clube de futebol."
+    }
+  ]
+}
