@@ -29,7 +29,7 @@ from comum import ENCOMENDAS, TRABALHO_DIR, carregar_canon, gravar_json, gravar_
 # Modelos e esforço de cada etapa. "opus" e "sonnet" são apelidos do Claude Code
 # para a versão mais recente de cada linha. Tempo limite em segundos.
 CONFIG = {
-    "gerar":    {"modelo": "opus",   "esforco": "high",   "tempo_limite": 1800},
+    "gerar":    {"modelo": "opus",   "esforco": "high",   "tempo_limite": 3600},
     "criticar": {"modelo": "sonnet", "esforco": "medium", "tempo_limite": 3600},
     "julgar":   {"modelo": "sonnet", "esforco": "medium", "tempo_limite": 900},
 }

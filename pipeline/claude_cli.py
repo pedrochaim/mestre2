@@ -6,6 +6,7 @@ de API, mas cada chamada consome a cota do plano.
 
 import datetime as dt
 import json
+import os
 import shutil
 import subprocess
 import tempfile
@@ -72,6 +73,8 @@ def chamar(prompt, esquema, modelo, esforco=None, ferramentas=None, tempo_limite
         proc = subprocess.run(
             cmd, input=prompt, capture_output=True, text=True, encoding="utf-8",
             cwd=tempfile.gettempdir(), timeout=tempo_limite,
+            # Lotes de 50 perguntas passam do limite de saída padrão (32 mil tokens, raciocínio incluído).
+            env={**os.environ, "CLAUDE_CODE_MAX_OUTPUT_TOKENS": "64000"},
         )
     except subprocess.TimeoutExpired as e:
         raise ErroClaude(f"Tempo limite de {tempo_limite}s excedido.") from e

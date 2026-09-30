@@ -20,8 +20,8 @@ Todos os comandos são rodados a partir da raiz do projeto.
   "id": "geografia_paises_01",
   "tema": "Geografia",
   "subtema": "Países e Capitais",
-  "quantidade": 30,
-  "multipla": 6,
+  "quantidade": 50,
+  "multipla": 10,
   "angulos_alvo": ["nome", "conexao", "causa"],
   "observacoes": "Texto livre para o gerador (opcional)."
 }
@@ -31,7 +31,7 @@ Todos os comandos são rodados a partir da raiz do projeto.
 |---|---|---|
 | `id` | ✔ | Único, minúsculo, sem acento, com `_`. Identifica a encomenda para sempre |
 | `tema`, `subtema` | ✔ | Exatamente como em `manifesto/temas_subtemas.json` |
-| `quantidade` | ✔ | Quantas perguntas gerar. Algumas serão descartadas pelo caminho |
+| `quantidade` | ✔ | Quantas perguntas gerar. Algumas serão descartadas pelo caminho. Padrão do projeto: **50**, para diluir o custo fixo de cada chamada (MANIFESTO §12) |
 | `multipla` | — | Quantas do tipo `multipla`. Padrão: 20% da quantidade |
 | `angulos_alvo` | — | Ângulos a priorizar |
 | `observacoes` | — | Instruções extras para o gerador |

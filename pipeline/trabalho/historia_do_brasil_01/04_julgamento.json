@@ -1,0 +1,563 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "João Cândido",
+        "descricao": "Marinheiro gaúcho que liderou a Revolta da Chibata no Rio de Janeiro em 1910.",
+        "variantes": [
+          "João Cândido Felisberto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toga_candida",
+          "nome": "Toga cândida",
+          "descricao": "Toga branqueada com giz que os romanos usavam ao disputar um cargo público.",
+          "variantes": []
+        },
+        {
+          "id": "ze_carioca",
+          "nome": "Zé Carioca",
+          "descricao": "Papagaio brasileiro criado pelos estúdios Disney em 1942.",
+          "variantes": [
+            "José Carioca",
+            "Joe Carioca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pau-brasil",
+        "descricao": "Árvore nativa da Mata Atlântica, cuja madeira avermelhada foi o primeiro produto explorado pelos portugueses no Brasil.",
+        "variantes": [
+          "Paubrasilia echinata",
+          "Caesalpinia echinata",
+          "ibirapitanga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abu_simbel",
+          "nome": "Abu Simbel",
+          "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+          "variantes": [
+            "Templos de Abu Simbel",
+            "Abu Simbel temples"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Revolução Farroupilha",
+        "descricao": "Guerra separatista travada no Rio Grande do Sul contra o Império do Brasil entre 1835 e 1845.",
+        "variantes": [
+          "Guerra dos Farrapos",
+          "Revolução dos Farrapos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guerra_dos_cem_anos",
+          "nome": "Guerra dos Cem Anos",
+          "descricao": "Série de conflitos entre os reinos da Inglaterra e da França, de 1337 a 1453.",
+          "variantes": [
+            "Hundred Years' War"
+          ]
+        },
+        {
+          "id": "guerra_do_futebol",
+          "nome": "Guerra do Futebol",
+          "descricao": "Conflito armado de 1969 entre El Salvador e Honduras, deflagrado em meio a jogos das Eliminatórias da Copa de 1970.",
+          "variantes": [
+            "Guerra das Cem Horas",
+            "Football War",
+            "Guerra del Fútbol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Encilhamento",
+        "descricao": "Bolha especulativa e crise financeira ocorrida no Brasil nos primeiros anos da República, entre 1889 e 1891.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Revolta dos Malês",
+        "descricao": "Levante de africanos escravizados e libertos ocorrido em Salvador, na Bahia, em janeiro de 1835.",
+        "variantes": [
+          "Levante dos Malês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Dom Pedro I",
+        "descricao": "Primeiro imperador do Brasil, que proclamou a Independência em 1822 e depois foi rei de Portugal.",
+        "variantes": [
+          "Pedro I do Brasil",
+          "Pedro IV de Portugal",
+          "Pedro de Alcântara",
+          "Dom Pedro II",
+          "Pedro II do Brasil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Conjuração Baiana",
+        "descricao": "Movimento separatista e igualitário descoberto em Salvador, na Bahia, em 1798.",
+        "variantes": [
+          "Revolta dos Alfaiates",
+          "Revolta dos Búzios",
+          "Inconfidência Baiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "operacao_barbarossa",
+          "nome": "Operação Barbarossa",
+          "descricao": "Invasão da União Soviética pela Alemanha nazista e seus aliados, iniciada em junho de 1941.",
+          "variantes": [
+            "Operation Barbarossa",
+            "Unternehmen Barbarossa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ouro Preto",
+        "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+        "variantes": [
+          "Vila Rica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vinland",
+          "nome": "Vinland",
+          "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+          "variantes": [
+            "Vinlândia"
+          ]
+        },
+        {
+          "id": "taca_jules_rimet",
+          "nome": "Taça Jules Rimet",
+          "descricao": "Troféu da Copa do Mundo FIFA entre 1930 e 1970, entregue em definitivo ao Brasil e roubado no Rio de Janeiro em 1983.",
+          "variantes": [
+            "Jules Rimet",
+            "Copa Jules Rimet",
+            "Jules Rimet Trophy",
+            "Vitória"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Francisco José do Nascimento",
+        "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+        "variantes": [
+          "Dragão do Mar",
+          "Chico da Matilde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fundacao_de_roma",
+          "nome": "Fundação de Roma",
+          "descricao": "Fundação lendária da cidade de Roma por Rômulo.",
+          "variantes": [
+            "Founding of Rome"
+          ]
+        },
+        {
+          "id": "garrincha",
+          "nome": "Garrincha",
+          "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Mané Garrincha",
+            "Manuel Francisco dos Santos",
+            "Manoel Francisco dos Santos"
+          ]
+        },
+        {
+          "id": "assassinato_de_julio_cesar",
+          "nome": "Assassinato de Júlio César",
+          "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+          "variantes": [
+            "Idos de Março",
+            "Assassination of Julius Caesar"
+          ]
+        },
+        {
+          "id": "tapecaria_de_bayeux",
+          "nome": "Tapeçaria de Bayeux",
+          "descricao": "Bordado de cerca de setenta metros, feito no século onze, que narra a conquista normanda da Inglaterra.",
+          "variantes": [
+            "Tapeçaria da Rainha Matilde",
+            "Bayeux Tapestry"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Lampião",
+        "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+        "variantes": [
+          "Virgulino Ferreira da Silva",
+          "Rei do Cangaço"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Zumbi dos Palmares",
+        "descricao": "Último líder do Quilombo dos Palmares, morto em 1695.",
+        "variantes": [
+          "Zumbi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mumia_egipcia",
+          "nome": "Múmia egípcia",
+          "descricao": "Corpo humano ou animal preservado artificialmente pelos antigos egípcios para a vida após a morte",
+          "variantes": [
+            "Mummy",
+            "Múmia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Lei do Ventre Livre",
+        "descricao": "Lei brasileira de 1871 que declarou livres os filhos de mulheres escravizadas nascidos a partir de então.",
+        "variantes": [
+          "Lei Rio Branco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Hino da Carta",
+        "descricao": "Hino nacional de Portugal entre 1834 e 1910, com música composta por Dom Pedro.",
+        "variantes": [
+          "Hymno da Carta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Batalha dos Guararapes",
+        "descricao": "Confrontos de 1648 e 1649 em que tropas luso-brasileiras venceram os holandeses no Nordeste.",
+        "variantes": [
+          "Batalhas dos Guararapes",
+          "Primeira Batalha dos Guararapes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "batalha_do_atlantico",
+          "nome": "Batalha do Atlântico",
+          "descricao": "Campanha naval de 1939 a 1945 entre os comboios aliados e os submarinos e navios alemães no Oceano Atlântico.",
+          "variantes": [
+            "Battle of the Atlantic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Maria II de Portugal",
+        "descricao": "Rainha de Portugal no século dezenove, filha mais velha de Dom Pedro I e da imperatriz Leopoldina.",
+        "variantes": [
+          "Maria da Glória",
+          "Dona Maria II"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Guerra de Canudos",
+        "descricao": "Conflito entre o Exército brasileiro e a comunidade liderada por Antônio Conselheiro no sertão da Bahia, entre 1896 e 1897.",
+        "variantes": [
+          "Campanha de Canudos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guerra_dos_cem_anos",
+          "nome": "Guerra dos Cem Anos",
+          "descricao": "Série de conflitos entre os reinos da Inglaterra e da França, de 1337 a 1453.",
+          "variantes": [
+            "Hundred Years' War"
+          ]
+        },
+        {
+          "id": "guerra_do_futebol",
+          "nome": "Guerra do Futebol",
+          "descricao": "Conflito armado de 1969 entre El Salvador e Honduras, deflagrado em meio a jogos das Eliminatórias da Copa de 1970.",
+          "variantes": [
+            "Guerra das Cem Horas",
+            "Football War",
+            "Guerra del Fútbol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Rio de Janeiro",
+        "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+        "variantes": [
+          "São Sebastião do Rio de Janeiro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "assassinato_de_julio_cesar",
+          "nome": "Assassinato de Júlio César",
+          "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+          "variantes": [
+            "Idos de Março",
+            "Assassination of Julius Caesar"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Abolição da escravidão no Ceará",
+        "descricao": "Libertação dos escravizados na província do Ceará, decretada em 25 de março de 1884.",
+        "variantes": [
+          "Data Magna do Ceará"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata descreve João Cândido."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pau-brasil é árvore; candidata é templo egípcio."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Revolução Farroupilha é distinta das guerras candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Encilhamento é crise financeira; Flamengo é clube."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Revolta dos Malês não é Lesoto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Dom Pedro I não é a Pedra de Roseta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Conjuração Baiana é diferente da Operação Barbarossa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Ouro Preto é cidade; candidatas são outras entidades."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Dragão do Mar não corresponde a nenhuma candidata; Garrincha é outra pessoa."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Lampião é pessoa; candidata é estádio."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Zumbi é pessoa; candidata é múmia egípcia."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Lei do Ventre Livre não é o calendário romano."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Hino da Carta é distinto da Magna Carta."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Guararapes é diferente da Batalha do Atlântico."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Maria II é pessoa; Libéria é país."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Guerra de Canudos é distinta das candidatas."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Rio de Janeiro é cidade; candidatas são eventos/períodos romanos."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Abolição no Ceará é distinta da Magna Carta."
+    }
+  ]
+}

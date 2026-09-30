@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.19 — 2026-09-30**
+> **Versão preliminar 0.20 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -334,7 +334,7 @@ A etapa 6 também pode rodar sozinha, com `python pipeline/rodar.py dificuldade`
 
 **Trechos das fontes:** antes da crítica, o script baixa as páginas citadas em `fonte` (até 3 por pergunta; artigos da Wikipédia pela API, outras páginas sem o HTML) e separa de cada uma a abertura e as passagens com mais palavras em comum com a pergunta e a resposta. Páginas inexistentes ou de desambiguação chegam marcadas. O crítico não tem acesso à web: confere o fato nesses trechos e diz, em cada avaliação, de onde veio a confirmação (`apoio`): de um **trecho**, do seu **conhecimento** (quando o trecho não mostra o fato, e só para fatos amplamente documentados) ou se o trecho **contradiz** a pergunta. A contagem de `apoio` vai para o log e mostra quando a escolha de passagens falha.
 
-**Economia de tokens:** o pipeline roda na cota do plano do claude.ai, e cada etapa usa o modelo mais barato que dá conta dela (§12). Toda chamada leva um prompt de sistema mínimo, sem as configurações, os servidores MCP e as skills do Claude Code. O consumo de cada chamada fica em `pipeline/log/consumo.jsonl`, com o custo equivalente em API, que serve só para comparar.
+**Economia de tokens:** o pipeline roda na cota do plano do claude.ai, e cada etapa usa o modelo mais barato que dá conta dela (§12). As encomendas têm **50 perguntas**, para diluir o custo fixo de cada chamada. Toda chamada leva um prompt de sistema mínimo, sem as configurações, os servidores MCP e as skills do Claude Code. O consumo de cada chamada fica em `pipeline/log/consumo.jsonl`, com o custo equivalente em API, que serve só para comparar.
 
 **Reescrita faltando:** o esquema da crítica exige o campo `reescrita` em toda avaliação (vazio quando não se aplica). Se ainda assim o crítico decide reescrever uma pergunta e não manda a versão corrigida, o pipeline pede de novo só essas reescritas, numa chamada pequena. A pergunta só é descartada se a segunda tentativa também falhar. Nos três primeiros lotes de História, antes desta regra, 8 das 60 perguntas se perderam assim.
 
@@ -409,6 +409,7 @@ O esquema foi construído a partir do esquema do projeto anterior (`info/pergunt
 | Perguntas em arquivo estático, fora do Firestore (§16) | O banco é pequeno e só muda quando o pipeline roda. Cada leitura no Firestore seria custo e latência à toa |
 | Crítica com trechos das fontes baixados pelo script, sem web (§11) | Abrindo as fontes por conta própria, o crítico gastava de 12 a 22 turnos por lote, e cada turno relia o contexto inteiro. Com os trechos no prompt, a crítica é uma chamada só: no lote *Idade Média*, custou US$ 0,22, contra US$ 0,72 a 0,89 do Opus com web, e as decisões bateram em 19 de 20 |
 | Crítico Sonnet com esforço médio (§11) | Testado no mesmo lote: o Sonnet com esforço alto e web custou o mesmo que o Opus (US$ 0,72), porque raciocinou mais; com esforço médio e web, não abriu nenhuma fonte. Com os trechos no prompt, o esforço médio basta para conferir o fato |
+| Lotes de 50 perguntas (§11) | Cada chamada tem um custo fixo (manifesto, âncoras e perguntas já existentes, prompt de sistema) que se dilui num lote maior. Primeiro lote de 50 (*História do Brasil*): US$ 1,49 por 47 perguntas no banco, ou 3,2 centavos cada, contra 4,0 no lote de 20 da *Segunda Guerra*. A variedade e a taxa de aproveitamento se mantiveram |
 | Prompt de sistema mínimo em toda chamada (§11) | O prompt padrão do Claude Code custava cerca de 6 mil tokens por chamada; o mínimo, cerca de 900 |
 | Manifesto dividido em duas partes | O gerador e o crítico recebem só as regras de conteúdo (Parte I), sem o ruído de esquemas, processo e histórico |
 
@@ -446,6 +447,22 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 
 - Com os trechos, o Sonnet confirmou 14 fatos num trecho e 6 pelo próprio conhecimento, e pegou a página de desambiguação de Orban.
 - **Nuances que escaparam** ao Sonnet médio: a destruição da frota mongol de 1274 por tufão é contestada (só o Opus notou); "batalhas navais" entrega a resposta do fogo grego (só o Sonnet alto notou).
+
+**Primeiros lotes com o pipeline econômico (2026-09-30).**
+
+| | *Segunda Guerra Mundial* (20) | *História do Brasil* (50) |
+|---|---|---|
+| Entraram no banco | 19 | 47 |
+| Geração (Opus, alto) | US$ 0,52 | US$ 1,07 (36 mil tokens de raciocínio) |
+| Crítica (Sonnet, médio, com trechos) | US$ 0,22 | US$ 0,39 |
+| Juiz de âncoras | US$ 0,02 | US$ 0,04 |
+| **Custo por pergunta no banco** | **4,0 centavos** | **3,2 centavos** |
+| Fato confirmado num trecho | 19 de 20 | 44 de 50 |
+| Reescritas / descartadas pelo crítico | 2 / 1 | 5 / 2 |
+
+- Nenhuma reescrita se perdeu: o esquema com `reescrita` obrigatória dispensou a chamada de recuperação.
+- O crítico com trechos pegou fonte inexistente (Pampulha), fonte sobre a entidade errada (o objeto lampião, e não Lampião) e uma "explicação mais aceita" que a fonte trata só como uma das versões (pau-brasil).
+- O ângulo `nome` passou um pouco do limite nos dois lotes (5 de 19 e 12 de 47).
 
 ---
 
@@ -607,3 +624,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.17 | 2026-09-30 | Perguntas podem se repetir na partida, com as novas primeiro e a repetida marcada; um registro por sorteio, em `sorteios` |
 | 0.18 | 2026-09-30 | Dificuldade estimada (1 a 5) pela popularidade da âncora na Wikipédia: campos opcionais `dificuldade` na pergunta e `popularidade` na âncora, etapa 6 do pipeline e ficha no app. A dificuldade é apenas ilustrativa: não entra em nenhuma decisão do projeto |
 | 0.19 | 2026-09-30 | Pipeline econômico: o script baixa trechos das fontes e o crítico (Sonnet, esforço médio) os confere numa chamada só, sem web, informando o `apoio` de cada fato; `reescrita` obrigatória no esquema da crítica; prompt de sistema mínimo; comparação de críticos (§13). Custo por lote de 20 cai de cerca de US$ 2 para US$ 0,85 |
+| 0.20 | 2026-09-30 | Lotes de 50 perguntas; limite de saída do CLI elevado para 64 mil tokens; resultados dos primeiros lotes com o pipeline econômico (§13) |
