@@ -2919,5 +2919,735 @@
       "https://pt.wikipedia.org/wiki/Anita_Garibaldi"
     ],
     "dificuldade": 3
+  },
+  {
+    "id": "q00187",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "brigadeiro",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O doce brigadeiro surgiu na campanha presidencial de 1945 e leva o nome de qual militar candidato?",
+    "resposta": "Eduardo Gomes",
+    "distratores": [
+      "Juarez Távora",
+      "Cândido Rondon",
+      "Góis Monteiro"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Brigadeiro_(doce)",
+      "https://en.wikipedia.org/wiki/Brigadeiro"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00188",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pao_frances",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O pão francês muda de nome conforme a região do Brasil. Como ele é chamado em Porto Alegre?",
+    "resposta": "Cacetinho",
+    "distratores": [
+      "Pão de sal",
+      "Carioquinha",
+      "Filão"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/P%C3%A3o_franc%C3%AAs"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00189",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pipoca",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome pipoca vem do tupi e descreve o que acontece com o grão de milho no fogo. O que ele significa?",
+    "resposta": "Pele estourada",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pipoca"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00190",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "mandioca",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Rio de Janeiro ela é chamada de aipim. Que outro nome a mandioca recebe na maior parte do Nordeste?",
+    "resposta": "Macaxeira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mandioca"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00191",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cappuccino",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O cappuccino deve seu nome à cor marrom do hábito usado por quais religiosos?",
+    "resposta": "Frades capuchinhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cappuccino"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00192",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tiramisu",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A sobremesa italiana de café, mascarpone e biscoito se chama tiramisù. O que esse nome significa em português?",
+    "resposta": "Me puxa para cima",
+    "distratores": [
+      "Doce da tarde",
+      "Nuvem de café",
+      "Beijo de amor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tiramisu"
+    ],
+    "dificuldade": 2
+  },
+  {
+    "id": "q00193",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "paella",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na língua valenciana, a palavra paella não designava originalmente o prato de arroz, e sim o quê?",
+    "resposta": "A frigideira em que é feito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paella"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00194",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "vodca",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em russo, a palavra vodca é um diminutivo carinhoso de qual palavra do dia a dia?",
+    "resposta": "Água",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vodka"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00195",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "uisque",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra uísque vem de uma antiga expressão gaélica. Qual é o significado dessa expressão?",
+    "resposta": "Água da vida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Whisky"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00196",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "file_a_oswaldo_aranha",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Criado no restaurante Cosmopolita, no Rio, o filé coberto de alho frito leva o nome de qual político e diplomata gaúcho?",
+    "resposta": "Oswaldo Aranha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fil%C3%A9_%C3%A0_Oswaldo_Aranha"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00197",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pao_de_queijo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Servido no café da manhã do país inteiro, o pão de queijo é o quitute mais famoso de qual estado brasileiro?",
+    "resposta": "Minas Gerais",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00198",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pao_de_queijo",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No lugar da farinha de trigo, que ingrediente extraído da mandioca dá a massa elástica do pão de queijo?",
+    "resposta": "Polvilho",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/P%C3%A3o_de_queijo"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00199",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bauru",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O sanduíche bauru, de rosbife, queijo derretido, tomate e picles, leva o nome de uma cidade, mas nasceu no bar Ponto Chic, em qual outra cidade?",
+    "resposta": "São Paulo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bauru_(sandu%C3%ADche)",
+      "https://en.wikipedia.org/wiki/Bauru_(sandwich)"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00200",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bolo_de_rolo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Feito de camadas finíssimas enroladas com goiabada, o bolo de rolo foi declarado patrimônio imaterial de qual estado?",
+    "resposta": "Pernambuco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bolo_de_rolo"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00201",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cajuina",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Cantada por Caetano Veloso, a cajuína, bebida de caju clarificado, é patrimônio cultural associado a qual estado nordestino?",
+    "resposta": "Piauí",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Caju%C3%ADna"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00202",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "barreado",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O barreado, carne cozida por horas em panela de barro vedada com massa de farinha, é o prato típico de qual estado do Sul?",
+    "resposta": "Paraná",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Barreado"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00203",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "terere",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O tereré, erva-mate servida com água gelada, foi reconhecido pela UNESCO como patrimônio cultural de qual país?",
+    "resposta": "Paraguai",
+    "distratores": [
+      "Uruguai",
+      "Argentina",
+      "Bolívia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Terer%C3%A9"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00204",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "croissant",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Símbolo das padarias francesas, o croissant descende do kipferl, um pão em forma de meia-lua típico de qual cidade?",
+    "resposta": "Viena",
+    "distratores": [
+      "Lyon",
+      "Bruxelas",
+      "Milão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Croissant"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00205",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "salada_caesar",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A salada Caesar foi criada em 1924 por um imigrante italiano, num restaurante de qual cidade mexicana?",
+    "resposta": "Tijuana",
+    "distratores": [
+      "Cancún",
+      "Acapulco",
+      "Guadalajara"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caesar_salad"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00206",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tempura",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "No século dezesseis, que povo europeu levou ao Japão a técnica de fritura empanada que deu origem ao tempurá?",
+    "resposta": "Portugueses",
+    "distratores": [
+      "Espanhóis",
+      "Holandeses",
+      "Ingleses"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tempura"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00207",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pesto",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O pesto, molho cru de manjericão, alho, queijo e pinoli, nasceu em qual cidade portuária italiana?",
+    "resposta": "Gênova",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pesto"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00208",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "chimarrao",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No chimarrão, como se chama o canudo de metal com filtro na ponta usado para beber da cuia?",
+    "resposta": "Bomba",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Chimarr%C3%A3o"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00209",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "quentao",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na versão feita com cachaça, açúcar e canela, que raiz picante dá o sabor característico do quentão das festas juninas?",
+    "resposta": "Gengibre",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Quent%C3%A3o"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00210",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tacaca",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Servido na cuia com tucupi e camarão, o tacacá leva qual erva amazônica que deixa a boca dormente?",
+    "resposta": "Jambu",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tacac%C3%A1"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00211",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "acaraje",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Vendido pelas baianas de tabuleiro, o acarajé é um bolinho frito no dendê feito com a massa de qual feijão?",
+    "resposta": "Feijão-fradinho",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Acaraj%C3%A9"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00212",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "romeu_e_julieta",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na sobremesa brasileira chamada Romeu e Julieta, o queijo forma par com qual doce?",
+    "resposta": "Goiabada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Goiabada"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00213",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "quindim",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Além de muita gema de ovo e açúcar, que ingrediente completa a receita do quindim?",
+    "resposta": "Coco ralado",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Quindim",
+      "https://en.wikipedia.org/wiki/Quindim"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00214",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tequila",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A tequila é destilada a partir de qual planta suculenta mexicana?",
+    "resposta": "Agave azul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tequila"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00215",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "gim",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que pequena baga aromática, de um arbusto parente dos pinheiros, dá ao gim seu sabor característico?",
+    "resposta": "Zimbro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gin"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00216",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "mucarela",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nascida no sul da Itália, a muçarela tradicional é feita com o leite de qual animal?",
+    "resposta": "Búfala",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mozzarella"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00217",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pato_no_tucupi",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em Belém, o pato no tucupi é o prato tradicional do almoço de qual grande festa religiosa de outubro?",
+    "resposta": "Círio de Nazaré",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pato_no_tucupi",
+      "https://pt.wikipedia.org/wiki/C%C3%ADrio_de_Nazar%C3%A9"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00218",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "lei_da_pureza_da_cerveja",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A lei da pureza da cerveja, que na Baviera só permitia água, cevada e lúpulo, foi decretada em que século?",
+    "resposta": "Século dezesseis",
+    "distratores": [
+      "Século doze",
+      "Século quatorze",
+      "Século dezoito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Reinheitsgebot"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00219",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bolo_da_lua",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na China, o bolo da lua, redondo e recheado, é tradicionalmente comido durante qual festival?",
+    "resposta": "Festival do Meio do Outono",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mooncake"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00220",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "introducao_do_cafe_no_brasil",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1727, que sargento-mor trouxe da Guiana Francesa para o Pará as primeiras mudas de café do Brasil?",
+    "resposta": "Francisco de Melo Palheta",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Francisco_de_Melo_Palheta"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00221",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pessego_melba",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que chef francês criou em Londres o pêssego Melba, em homenagem à soprano australiana Nellie Melba?",
+    "resposta": "Auguste Escoffier",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peach_Melba"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00222",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "nachos",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Os nachos foram improvisados em 1943, numa cidade mexicana da fronteira, por um maître cujo apelido batizou o petisco. Quem era ele?",
+    "resposta": "Ignacio Anaya",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nachos"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00223",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cha_na_gra_bretanha",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que princesa portuguesa, ao se casar com o rei Carlos Segundo, popularizou o hábito de tomar chá na corte inglesa?",
+    "resposta": "Catarina de Bragança",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Catherine_of_Braganza",
+      "https://en.wikipedia.org/wiki/Tea_in_the_United_Kingdom"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00224",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "manicoba",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na maniçoba paraense, as folhas moídas de mandioca cozinham por cerca de uma semana. Por que esse cozimento tão longo?",
+    "resposta": "Para eliminar o ácido cianídrico",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mani%C3%A7oba"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00225",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "champanhe",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No método tradicional usado para fazer champanhe, que processo dentro da própria garrafa cria as bolhas?",
+    "resposta": "Uma segunda fermentação",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Traditional_method",
+      "https://en.wikipedia.org/wiki/Champagne"
+    ],
+    "dificuldade": 5
+  },
+  {
+    "id": "q00226",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pimenta",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que substância presente nas pimentas é responsável pela sensação de ardência na boca?",
+    "resposta": "Capsaicina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Capsaicina",
+      "https://en.wikipedia.org/wiki/Capsaicin"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00227",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cupuacu",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Com as sementes do cupuaçu se faz um produto muito parecido com chocolate. Isso porque ele é parente próximo de qual planta?",
+    "resposta": "Cacau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theobroma_grandiflorum",
+      "https://pt.wikipedia.org/wiki/Cupua%C3%A7u"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00228",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "guarana",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a semente amazônica do guaraná tem em comum com o grão de café, e em concentração até maior?",
+    "resposta": "Cafeína",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Guarana"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00229",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pizza_marguerita",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a pizza marguerita, com tomate, muçarela e manjericão, tem em comum com a bandeira da Itália?",
+    "resposta": "As cores: verde, branco e vermelho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pizza_Margherita"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00230",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "acafrao",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Colhida à mão dos estigmas de uma flor, qual é considerada a especiaria mais cara do mundo por peso?",
+    "resposta": "Açafrão",
+    "distratores": [
+      "Baunilha",
+      "Cardamomo",
+      "Cravo-da-índia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saffron"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00231",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "jabuticaba",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fruta brasileira, pequena e de casca preta brilhante, nasce grudada diretamente no tronco da árvore?",
+    "resposta": "Jabuticaba",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jabuticaba"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00232",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pequi",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fruto do cerrado, estrela da cozinha goiana, esconde espinhos finos sob a polpa e por isso deve ser roído com cuidado?",
+    "resposta": "Pequi",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pequi"
+    ],
+    "dificuldade": 4
+  },
+  {
+    "id": "q00233",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "baunilha",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A baunilha dos doces vem da vagem de uma trepadeira que pertence a qual família de plantas, famosa pelas flores ornamentais?",
+    "resposta": "Orquídeas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vanilla"
+    ],
+    "dificuldade": 3
+  },
+  {
+    "id": "q00234",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cachaca",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Pela lei brasileira, qual é o teor alcoólico mínimo, em graus, para uma bebida ser chamada de cachaça?",
+    "resposta": "Trinta e oito graus",
+    "distratores": [
+      "Trinta graus",
+      "Trinta e cinco graus",
+      "Quarenta e cinco graus"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cacha%C3%A7a"
+    ],
+    "dificuldade": 3
   }
 ]

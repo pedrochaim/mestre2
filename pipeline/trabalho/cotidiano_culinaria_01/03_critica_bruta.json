@@ -1,0 +1,398 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Dutra também foi militar e candidato em 1945, então é distrator defensável; trocado por um candidato não concorrente.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O doce brigadeiro surgiu na campanha presidencial de 1945 e leva o nome de qual militar candidato?",
+        "resposta": "Eduardo Gomes",
+        "distratores": [
+          "Juarez Távora",
+          "Cândido Rondon",
+          "Góis Monteiro"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Brigadeiro_(doce)",
+          "https://en.wikipedia.org/wiki/Brigadeiro"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cacetinho é o nome gaúcho do pão francês, bem documentado; a fonte lista o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que a origem é desconhecida e só sugere a hipótese de picana; o enunciado afirma como certa.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia tupi confirmada na fonte; resposta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Macaxeira é o nome nordestino, confirmado na fonte e amplamente conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome confirmada na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Significado 'me puxa para cima' é amplamente documentado; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Paella como a frigideira é fato bem conhecido; boa pergunta de nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma diminutivo de voda, água.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Uisce beatha, 'água da vida', é a origem bem documentada, compatível com a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma prato, restaurante e homenageado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem mineira confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Polvilho de mandioca confirmado como base.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As fontes divergem no ano (1934 x 1937); remover a data e explorar a armadilha do nome da cidade.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "O sanduíche bauru, de rosbife, queijo derretido, tomate e picles, leva o nome de uma cidade, mas nasceu no bar Ponto Chic, em qual outra cidade?",
+        "resposta": "São Paulo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bauru_(sandu%C3%ADche)",
+          "https://en.wikipedia.org/wiki/Bauru_(sandwich)"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lei de 2008 reconhece como patrimônio imaterial de Pernambuco.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patrimônio Cultural do Piauí e música de Caetano confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prato mais tradicional do Paraná, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "UNESCO declarou o tereré do Paraguai patrimônio em 2020.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Budapeste tem o kifli, distrator defensável; trocado por cidades sem tradição de kipferl.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Símbolo das padarias francesas, o croissant descende do kipferl, um pão em forma de meia-lua típico de qual cidade?",
+        "resposta": "Viena",
+        "distratores": [
+          "Lyon",
+          "Bruxelas",
+          "Milão"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Croissant"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tijuana, 1924, Cardini confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Portugueses no século dezesseis, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gênova confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Bomba é o termo consagrado; fonte cita a bomba de chimarrão.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Gengibre é ingrediente tradicional do quentão; fonte cita gengibre.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jambu provoca dormência, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Feijão-fradinho confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goiabada com queijo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coco ralado confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte não sustenta 'peixe' e o molho também já levou cogumelos e nozes antes do tomate; resposta não única.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Agave azul confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zimbro confirmado como sabor do gim.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Búfala é o leite da muçarela tradicional.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Almoço do Círio confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1516 é século dezesseis.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Festival do Meio do Outono confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palheta, 1727, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escoffier no Savoy confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ignacio Anaya, 1943, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Catarina de Bragança tornou o chá moda na corte.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma cozimento de cerca de uma semana para tirar o ácido cianídrico.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Segunda fermentação na garrafa confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capsaicina confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cupuaçu relacionado ao cacau; cupulate confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cafeína até 6% contra 1 a 3% no café verde.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta 'As cores' é vaga; especificar as cores.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O que a pizza marguerita, com tomate, muçarela e manjericão, tem em comum com a bandeira da Itália?",
+        "resposta": "As cores: verde, branco e vermelho",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pizza_Margherita"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Açafrão é amplamente citado como a especiaria mais cara; enunciado exclui a baunilha.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jabuticaba, fruta nativa que nasce no tronco; identificação única.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pequi com espinhos no endocarpo confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baunilha é orquídea do gênero Vanilla.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mínimo de 38% vol. confirmado.",
+      "reescrita": null
+    }
+  ]
+}

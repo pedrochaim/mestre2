@@ -1,0 +1,852 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Brigadeiro",
+        "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+        "variantes": [
+          "Brigadeiro (doce)",
+          "Negrinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "garrincha",
+          "nome": "Garrincha",
+          "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Mané Garrincha",
+            "Manuel Francisco dos Santos",
+            "Manoel Francisco dos Santos"
+          ]
+        },
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pão francês",
+        "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+        "variantes": [
+          "Cacetinho",
+          "Pão de sal",
+          "Carioquinha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "id": "sudao_do_sul",
+          "nome": "Sudão do Sul",
+          "descricao": "País da África Oriental, separado do Sudão, cuja capital é Juba.",
+          "variantes": [
+            "South Sudan",
+            "República do Sudão do Sul"
+          ]
+        },
+        {
+          "id": "garrincha",
+          "nome": "Garrincha",
+          "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Mané Garrincha",
+            "Manuel Francisco dos Santos",
+            "Manoel Francisco dos Santos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pipoca",
+        "descricao": "Grãos de milho que estouram quando aquecidos, petisco comum no cinema e nas festas juninas",
+        "variantes": [
+          "Pororoca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mandioca",
+        "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+        "variantes": [
+          "Aipim",
+          "Macaxeira",
+          "Manihot esculenta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "ramses_ii",
+          "nome": "Ramsés II",
+          "descricao": "Faraó da décima nona dinastia que reinou no século treze antes de Cristo, conhecido como Ramsés, o Grande",
+          "variantes": [
+            "Ramesses II",
+            "Ramessés II",
+            "Ozymandias"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Paella",
+        "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+        "variantes": [
+          "Paelha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camisa_canarinho",
+          "nome": "Camisa canarinho",
+          "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca.",
+          "variantes": [
+            "Camisa amarela da seleção",
+            "Amarelinha",
+            "Uniforme canarinho"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Vodca",
+        "descricao": "Bebida destilada incolor tradicional da Rússia, da Polônia e de outros países do Leste Europeu",
+        "variantes": [
+          "Vodka",
+          "Vodga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cajuína",
+        "descricao": "Bebida sem álcool feita de suco de caju clarificado e cozido, típica do Nordeste brasileiro",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Barreado",
+        "descricao": "Prato de carne cozida por muitas horas em panela de barro vedada com massa de farinha, típico do litoral sul do Brasil",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Salada Caesar",
+        "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+        "variantes": [
+          "Caesar salad",
+          "Salada César"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caligula",
+          "nome": "Calígula",
+          "descricao": "Terceiro imperador romano, que governou de 37 a 41 depois de Cristo.",
+          "variantes": [
+            "Caio César Augusto Germânico",
+            "Gaius Caesar"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Pesto",
+        "descricao": "Molho italiano cru de manjericão, alho, pinoli, queijo e azeite, originário da Ligúria",
+        "variantes": [
+          "Pesto genovês",
+          "Pesto alla genovese"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Chimarrão",
+        "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+        "variantes": [
+          "Mate",
+          "Mate amargo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        },
+        {
+          "id": "atletico_de_madrid",
+          "nome": "Atlético de Madrid",
+          "descricao": "Club Atlético de Madrid, clube de futebol da capital espanhola fundado em 1903.",
+          "variantes": [
+            "Club Atlético de Madrid",
+            "Atlético Madrid",
+            "Athletic Club de Madrid",
+            "Atleti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Quentão",
+        "descricao": "Bebida quente e alcoólica servida nas festas juninas brasileiras",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Tacacá",
+        "descricao": "Caldo quente paraense servido em cuia, feito com tucupi, goma de mandioca, camarão seco e jambu",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Acarajé",
+        "descricao": "Bolinho baiano frito no azeite de dendê e recheado com vatapá e camarão, de origem africana",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Muçarela",
+        "descricao": "Queijo fresco italiano de massa filada, originário do sul da Itália",
+        "variantes": [
+          "Mozzarella",
+          "Mussarela"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "camisa_canarinho",
+          "nome": "Camisa canarinho",
+          "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca.",
+          "variantes": [
+            "Camisa amarela da seleção",
+            "Amarelinha",
+            "Uniforme canarinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Pato no tucupi",
+        "descricao": "Prato paraense de pato cozido no tucupi, caldo amarelo extraído da mandioca, servido com jambu",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "patio_do_colegio",
+          "nome": "Pátio do Colégio",
+          "descricao": "Local no centro de São Paulo onde os jesuítas fundaram o colégio que deu origem à cidade.",
+          "variantes": [
+            "Colégio de São Paulo de Piratininga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Introdução do café no Brasil",
+        "descricao": "Chegada das primeiras mudas de café ao território brasileiro, no século dezoito",
+        "variantes": [
+          "Chegada do café ao Brasil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "transferencia_da_corte_portuguesa_para_o_brasil",
+          "nome": "Transferência da corte portuguesa para o Brasil",
+          "descricao": "Mudança da família real e da corte de Portugal para o Brasil entre 1807 e 1808.",
+          "variantes": [
+            "Vinda da família real portuguesa",
+            "Chegada da família real ao Brasil"
+          ]
+        },
+        {
+          "id": "carta_de_pero_vaz_de_caminha",
+          "nome": "Carta de Pero Vaz de Caminha",
+          "descricao": "Carta enviada ao rei Dom Manuel I em 1500, relatando a chegada da frota de Cabral ao Brasil.",
+          "variantes": [
+            "Carta do Achamento do Brasil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Champanhe",
+        "descricao": "Vinho espumante produzido na região de Champagne, na França",
+        "variantes": [
+          "Champagne",
+          "Champanha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        },
+        {
+          "id": "camisa_canarinho",
+          "nome": "Camisa canarinho",
+          "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca.",
+          "variantes": [
+            "Camisa amarela da seleção",
+            "Amarelinha",
+            "Uniforme canarinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Pimenta",
+        "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+        "variantes": [
+          "Capsicum",
+          "Pimenta-malagueta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Guaraná",
+        "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+        "variantes": [
+          "Paullinia cupana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Açafrão",
+        "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+        "variantes": [
+          "Saffron",
+          "Açafrão-verdadeiro",
+          "Crocus sativus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "circo_maximo",
+          "nome": "Circo Máximo",
+          "descricao": "Grande estádio de corridas de bigas da Roma Antiga, entre os montes Aventino e Palatino.",
+          "variantes": [
+            "Circus Maximus"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Baunilha",
+        "descricao": "Especiaria aromática obtida das vagens curadas de plantas do gênero Vanilla",
+        "variantes": [
+          "Vanilla"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vinland",
+          "nome": "Vinland",
+          "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+          "variantes": [
+            "Vinlândia"
+          ]
+        },
+        {
+          "id": "brasilia",
+          "nome": "Brasília",
+          "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Cachaça",
+        "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+        "variantes": [
+          "Pinga",
+          "Aguardente de cana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "prudente_de_morais",
+          "nome": "Prudente de Morais",
+          "descricao": "Político paulista que presidiu o Brasil entre 1894 e 1898.",
+          "variantes": [
+            "Prudente José de Morais Barros"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Doce, candidatas não relacionadas"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pão, distinto de França e outras"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Alimento, não clube"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Raiz, sem correspondência"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Prato, sem correspondência"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Bebida, sem correspondência"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Bebida, sem correspondência"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Prato, sem correspondência"
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Salada, não imperador"
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Molho, sem correspondência"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Bebida, sem correspondência"
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Bebida, sem correspondência"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Prato, sem correspondência"
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Prato, sem correspondência"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Queijo, sem correspondência"
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Prato, sem correspondência"
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Evento distinto"
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Bebida, sem correspondência"
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Fruto, sem correspondência"
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Planta, sem correspondência"
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Especiaria, sem correspondência"
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Especiaria, sem correspondência"
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Bebida, sem correspondência"
+    }
+  ]
+}
