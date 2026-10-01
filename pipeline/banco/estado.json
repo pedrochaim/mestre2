@@ -23,9 +23,10 @@
     "fig_cientistas_001",
     "cotidiano_objetos_do_dia_a_dia_01",
     "fig_bandeiras_002",
-    "cotidiano_moda_e_vestuario_01"
+    "cotidiano_moda_e_vestuario_01",
+    "fig_pratos_bebidas_001"
   ],
-  "maior_id": 965,
+  "maior_id": 974,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -64,6 +65,17 @@
         "3": 1
       },
       "registradas": 11
+    },
+    "pratos_bebidas": {
+      "familias": {
+        "o_que_e": 8,
+        "onde": 1
+      },
+      "niveis": {
+        "1": 7,
+        "2": 2
+      },
+      "registradas": 9
     }
   },
   "rendimento": {

@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Feijão preto com carnes na panela de ferro, reconhecível como feijoada.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato brasileiro, feito com feijão preto e carnes, é este?",
+      "resposta": "Feijoada",
+      "ancora": {
+        "nome": "Feijoada",
+        "descricao": "Cozido de feijão com carnes de porco ou boi, prato emblemático do Brasil.",
+        "variantes": [
+          "Feijoada brasileira",
+          "Feijoada completa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Ensopado alaranjado de camarão com leite de coco: pode ser moqueca, bobó de camarão ou curry; a resposta não é única, e moqueca existe na Bahia e no Espírito Santo."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tortinha de creme com manchas queimadas, bem reconhecível; só dedos aparecem. Nível 3 não rende com a família permitida, então vira reconhecimento.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que doce português, uma tortinha de massa folhada com creme de ovos, é este?",
+      "resposta": "Pastel de nata",
+      "ancora": {
+        "nome": "Pastel de nata",
+        "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+        "variantes": [
+          "Pastéis de nata",
+          "Pastel de Belém"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Coxinhas em formato de gota, bem nítidas; o letreiro ao fundo está cortado e não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que salgado brasileiro, em forma de gota e recheado de frango, é este?",
+      "resposta": "Coxinha",
+      "ancora": {
+        "nome": "Coxinha",
+        "descricao": "Salgado brasileiro frito, em forma de gota, recheado com frango desfiado.",
+        "variantes": [
+          "Coxinha de frango"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Creme amarelo com camarões, enfeitado com azeitona e pimentão: pode ser vatapá, bobó, creme de milho ou curau salgado; não é inequívoco."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Baklavas de pistache claramente visíveis, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que doce de massa folhada e pistache, comum no Oriente Médio e na Turquia, é este?",
+      "resposta": "Baklava",
+      "ancora": {
+        "nome": "Baklava",
+        "descricao": "Doce de massa filo em camadas, recheado com nozes ou pistache e adoçado com calda ou mel.",
+        "variantes": [
+          "Baclava"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pastel frito aberto com queijo derretido e borda serrilhada típica.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que salgado frito, vendido em feiras no Brasil, é este?",
+      "resposta": "Pastel",
+      "distratores": [
+        "Risole",
+        "Enroladinho de queijo",
+        "Pão de queijo"
+      ],
+      "ancora": {
+        "nome": "Pastel",
+        "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+        "variantes": [
+          "Pastel de feira",
+          "Pastel paulista"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Arroz com fatias de carne e aipim, sem feijão visível: não é inequívoco como baião de dois, podendo ser arroz com carne de sol ou maria isabel."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Sopa vermelha de beterraba com creme azedo, típica e nítida.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que sopa de beterraba, típica da Europa Oriental, é esta?",
+      "resposta": "Borscht",
+      "ancora": {
+        "nome": "Borscht",
+        "descricao": "Sopa azeda da Europa Oriental, em geral vermelha por causa da beterraba.",
+        "variantes": [
+          "Borsch",
+          "Bortsch",
+          "Borche"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Peças de sushi (nigiri e gunkan) bem nítidas e reconhecíveis.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prato japonês, de arroz com vinagre e peixe, é este?",
+      "resposta": "Sushi",
+      "ancora": {
+        "nome": "Sushi",
+        "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+        "variantes": [
+          "Sushis",
+          "Nigiri",
+          "Gunkan"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tacos de carne marinada com cebola e limão, reconhecíveis; resposta única para o país.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é típico este prato de tortilla dobrada com recheio?",
+      "resposta": "México",
+      "ancora": {
+        "nome": "Taco",
+        "descricao": "Prato mexicano de tortilla de milho ou trigo dobrada em torno de um recheio.",
+        "variantes": [
+          "Tacos",
+          "Taco al pastor"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Ovos cozidos em molho de tomate na frigideira, com queijo e salsinha.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que prato do Norte da África e do Oriente Médio, de ovos cozidos em molho de tomate, é este?",
+      "resposta": "Shakshuka",
+      "distratores": [
+        "Menemen",
+        "Huevos rancheros",
+        "Ratatouille"
+      ],
+      "ancora": {
+        "nome": "Shakshuka",
+        "descricao": "Prato magrebino de ovos cozidos em molho de tomate, pimentão, cebola e alho.",
+        "variantes": [
+          "Shakshouka",
+          "Chakchouka"
+        ]
+      }
+    }
+  ]
+}
