@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O logotipo da montadora japonesa Subaru tem estrelas porque o nome da marca designa qual conjunto de estrelas?",
+        "resposta": "Plêiades"
+      },
+      "existentes": [
+        {
+          "id": "q00587",
+          "pergunta": "A montadora japonesa Subaru tem o nome e o logotipo inspirados em qual aglomerado de estrelas?",
+          "resposta": "Plêiades"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00587",
+      "motivo": "Ambas perguntam qual aglomerado de estrelas (Plêiades) dá nome e logotipo à Subaru; mesmo fato e mesma resposta."
+    }
+  ]
+}

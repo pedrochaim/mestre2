@@ -1,0 +1,1215 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Ônibus",
+        "descricao": "Veículo rodoviário de grande porte para o transporte coletivo de passageiros.",
+        "variantes": [
+          "Autocarro",
+          "Omnibus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "lucario",
+          "nome": "Lucario",
+          "descricao": "Pokémon dos tipos Lutador e Aço, número 448 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "onix",
+          "nome": "Onix",
+          "descricao": "Pokémon dos tipos Pedra e Terra, número 95 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Toyota",
+        "descricao": "Montadora japonesa de automóveis fundada por Kiichiro Toyoda em 1937.",
+        "variantes": [
+          "Toyota Motor Corporation"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        },
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "RMS Titanic",
+        "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+        "variantes": [
+          "Titanic"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Itália",
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "ramses_ii",
+          "nome": "Ramsés II",
+          "descricao": "Faraó da décima nona dinastia que reinou no século treze antes de Cristo, conhecido como Ramsés, o Grande",
+          "variantes": [
+            "Ramesses II",
+            "Ramessés II",
+            "Ozymandias"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "14-bis",
+        "descricao": "Avião de Alberto Santos-Dumont que voou em Paris em 1906.",
+        "variantes": [
+          "Quatorze Bis",
+          "Oiseau de proie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis"
+          ]
+        },
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "id": "vista_de_toledo",
+          "nome": "Vista de Toledo",
+          "descricao": "Paisagem de El Greco de cerca de 1600.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Penny-farthing",
+        "descricao": "Biciclo do século dezenove com roda dianteira enorme e roda traseira pequena.",
+        "variantes": [
+          "Biciclo",
+          "High wheeler",
+          "Grand-bi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        },
+        {
+          "id": "imperio_bizantino",
+          "nome": "Império Bizantino",
+          "descricao": "Continuação oriental do Império Romano, com capital em Constantinopla, que durou até 1453.",
+          "variantes": [
+            "Império Romano do Oriente",
+            "Bizâncio",
+            "Byzantine Empire"
+          ]
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "band_aid",
+          "nome": "Band-Aid",
+          "descricao": "Curativo adesivo lançado pela Johnson & Johnson a partir da ideia de Earle Dickson, em 1920.",
+          "variantes": [
+            "Curativo adesivo"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mayday",
+        "descricao": "Palavra usada internacionalmente no rádio como pedido de socorro por aviões e navios.",
+        "variantes": [
+          "Mayday (sinal de socorro)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aye_aye",
+          "nome": "Aye-aye",
+          "descricao": "Primata noturno de Madagascar, de dedos longos, espécie Daubentonia madagascariensis.",
+          "variantes": [
+            "Daubentonia madagascariensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nó (unidade)",
+        "descricao": "Unidade de velocidade usada na navegação marítima e aérea, equivalente a uma milha náutica por hora.",
+        "variantes": [
+          "Knot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quimono",
+          "nome": "Quimono",
+          "descricao": "Vestimenta tradicional japonesa em forma de T, com mangas largas e presa por uma faixa chamada obi",
+          "variantes": [
+            "Kimono"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Ford Modelo T",
+        "descricao": "Automóvel da Ford fabricado de 1908 a 1927, o primeiro carro produzido em massa em linha de montagem.",
+        "variantes": [
+          "Ford Model T",
+          "Ford Bigode",
+          "Tin Lizzie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Concorde",
+        "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003.",
+        "variantes": [
+          "Aérospatiale-BAC Concorde"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel"
+          ]
+        },
+        {
+          "id": "tampinha_de_garrafa",
+          "nome": "Tampinha de garrafa",
+          "descricao": "Tampa metálica de bordas onduladas para garrafas, a crown cork, patenteada por William Painter em 1892.",
+          "variantes": [
+            "Crown cork",
+            "Tampa coroa"
+          ]
+        },
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Kombi",
+        "descricao": "Furgão da Volkswagen, também chamado Volkswagen Type 2, fabricado no Brasil de 1957 a 2013.",
+        "variantes": [
+          "Volkswagen Kombi",
+          "Volkswagen Type 2",
+          "Transporter"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kemet",
+          "nome": "Kemet",
+          "descricao": "Nome que os antigos egípcios davam ao próprio país",
+          "variantes": [
+            "Kmt",
+            "Kemi"
+          ]
+        },
+        {
+          "id": "zumbi_dos_palmares",
+          "nome": "Zumbi dos Palmares",
+          "descricao": "Último líder do Quilombo dos Palmares, morto em 1695.",
+          "variantes": [
+            "Zumbi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Estrada de Ferro Madeira-Mamoré",
+        "descricao": "Ferrovia construída em Rondônia no início do século vinte, conhecida como Ferrovia do Diabo.",
+        "variantes": [
+          "Madeira-Mamoré",
+          "Ferrovia do Diabo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cheia_do_nilo",
+          "nome": "Cheia do Nilo",
+          "descricao": "Inundação anual do rio Nilo que depositava lodo fértil nas margens do Egito até a construção da represa de Assuã",
+          "variantes": [
+            "Flooding of the Nile",
+            "Inundação do Nilo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Caixa-preta",
+        "descricao": "Gravador de dados e de voz da cabine instalado em aviões para investigar acidentes.",
+        "variantes": [
+          "Registrador de voo",
+          "Flight recorder",
+          "Black box"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "regra_do_recuo",
+          "nome": "Regra do recuo",
+          "descricao": "Regra do futebol, em vigor desde 1992, que proíbe o goleiro de pegar com as mãos a bola recuada com os pés por um companheiro.",
+          "variantes": [
+            "Back-pass rule",
+            "Regra do recuo de bola"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        },
+        {
+          "id": "capivara",
+          "nome": "Capivara",
+          "descricao": "Roedor semiaquático sul-americano, espécie Hydrochoerus hydrochaeris.",
+          "variantes": [
+            "Hydrochoerus hydrochaeris",
+            "Capybara"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "vista_de_toledo",
+          "nome": "Vista de Toledo",
+          "descricao": "Paisagem de El Greco de cerca de 1600.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Semáforo",
+        "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+        "variantes": [
+          "Sinal de trânsito",
+          "Farol",
+          "Sinaleiro",
+          "Traffic light"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        },
+        {
+          "id": "mineirao",
+          "nome": "Mineirão",
+          "descricao": "Estádio de Belo Horizonte, oficialmente Estádio Governador Magalhães Pinto.",
+          "variantes": []
+        },
+        {
+          "id": "brasil_1_x_7_alemanha",
+          "nome": "Brasil 1 x 7 Alemanha",
+          "descricao": "Semifinal da Copa do Mundo de 2014, disputada no Mineirão, em Belo Horizonte, em 8 de julho de 2014.",
+          "variantes": [
+            "Mineiraço",
+            "Sete a um",
+            "Brazil v Germany 2014"
+          ]
+        },
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "variola",
+          "nome": "Varíola",
+          "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação.",
+          "variantes": [
+            "Smallpox",
+            "Bexiga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Boeing 747",
+        "descricao": "Avião a jato de grande porte da Boeing, com uma corcunda característica na parte dianteira.",
+        "variantes": [
+          "Jumbo",
+          "Jumbo Jet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "umbreon",
+          "nome": "Umbreon",
+          "descricao": "Pokémon do tipo Sombrio, número 197 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "sumo",
+          "nome": "Sumô",
+          "descricao": "Luta tradicional japonesa em que se tenta tirar o adversário do círculo.",
+          "variantes": []
+        },
+        {
+          "id": "zumbi_dos_palmares",
+          "nome": "Zumbi dos Palmares",
+          "descricao": "Último líder do Quilombo dos Palmares, morto em 1695.",
+          "variantes": [
+            "Zumbi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Guia Michelin",
+        "descricao": "Guia de viagem francês publicado desde 1900 pela fabricante de pneus Michelin, famoso por dar estrelas a restaurantes.",
+        "variantes": [
+          "Michelin Guide",
+          "Guide Michelin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum"
+          ]
+        },
+        {
+          "id": "as_viagens_de_marco_polo",
+          "nome": "As Viagens de Marco Polo",
+          "descricao": "Relato das viagens de Marco Polo pela Ásia, escrito por Rustichello de Pisa por volta de 1300.",
+          "variantes": [
+            "O Livro das Maravilhas",
+            "Il Milione",
+            "The Travels of Marco Polo"
+          ]
+        },
+        {
+          "id": "davi_michelangelo",
+          "nome": "Davi (Michelangelo)",
+          "descricao": "Estátua de mármore de Michelangelo, de 1504.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Linha de montagem de Henry Ford",
+        "descricao": "Linha de montagem móvel adotada pela Ford em 1913 para produzir o Modelo T em massa.",
+        "variantes": [
+          "Linha de montagem móvel",
+          "Fordismo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "doenca_do_chapeleiro_louco",
+          "nome": "Doença do chapeleiro louco",
+          "descricao": "Intoxicação crônica por mercúrio que afetava fabricantes de chapéus de feltro, também chamada eretismo",
+          "variantes": [
+            "Eretismo",
+            "Mad hatter disease"
+          ]
+        },
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Francesco Baracca",
+        "descricao": "Aviador italiano, ás da Primeira Guerra Mundial, morto em combate em 1918.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "garrafa_termica",
+          "nome": "Garrafa térmica",
+          "descricao": "Recipiente de parede dupla com vácuo que conserva a temperatura de líquidos.",
+          "variantes": [
+            "Frasco a vácuo",
+            "Vacuum flask",
+            "Thermos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Hindenburg",
+        "descricao": "Dirigível alemão de passageiros destruído por um incêndio em Lakehurst, nos Estados Unidos, em 1937.",
+        "variantes": [
+          "LZ 129 Hindenburg",
+          "Desastre do Hindenburg"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tragedia_de_superga",
+          "nome": "Tragédia de Superga",
+          "descricao": "Queda do avião que levava o elenco do Torino, o Grande Torino, na colina de Superga, perto de Turim, em 4 de maio de 1949.",
+          "variantes": [
+            "Desastre aéreo de Superga",
+            "Superga air disaster",
+            "Tragedia di Superga"
+          ]
+        },
+        {
+          "id": "tragedia_de_heysel",
+          "nome": "Tragédia de Heysel",
+          "descricao": "Desastre no estádio de Heysel, em Bruxelas, antes da final da Copa dos Campeões de 1985 entre Liverpool e Juventus, com 39 mortos.",
+          "variantes": [
+            "Desastre de Heysel",
+            "Heysel Stadium disaster"
+          ]
+        },
+        {
+          "id": "esmalte_dentario",
+          "nome": "Esmalte dentário",
+          "descricao": "Camada externa que reveste a coroa dos dentes.",
+          "variantes": [
+            "Esmalte dos dentes",
+            "Tooth enamel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Bondinho do Pão de Açúcar",
+        "descricao": "Teleférico que liga a Praia Vermelha aos morros da Urca e do Pão de Açúcar, no Rio de Janeiro, inaugurado em 1912.",
+        "variantes": [
+          "Caminho Aéreo Pão de Açúcar",
+          "Sugarloaf Cable Car"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salada_caesar",
+          "nome": "Salada Caesar",
+          "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+          "variantes": [
+            "Caesar salad",
+            "Salada César"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Expresso do Oriente",
+        "descricao": "Serviço ferroviário de luxo criado em 1883 entre Paris e Constantinopla.",
+        "variantes": [
+          "Orient Express",
+          "Orient-Express"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "imperio_bizantino",
+          "nome": "Império Bizantino",
+          "descricao": "Continuação oriental do Império Romano, com capital em Constantinopla, que durou até 1453.",
+          "variantes": [
+            "Império Romano do Oriente",
+            "Bizâncio",
+            "Byzantine Empire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Alberto Santos-Dumont",
+        "descricao": "Aviador e inventor brasileiro, pioneiro dos dirigíveis e do 14-bis.",
+        "variantes": [
+          "Santos Dumont",
+          "Pai da Aviação"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sans_culottes",
+          "nome": "Sans-culottes",
+          "descricao": "Revolucionários das camadas populares de Paris durante a Revolução Francesa",
+          "variantes": [
+            "Sans-culotte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Peugeot",
+        "descricao": "Fabricante francesa de automóveis, originada de uma empresa familiar de produtos de aço do século dezenove.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bode_expiatorio",
+          "nome": "Bode expiatório",
+          "descricao": "Expressão para quem leva a culpa pelos erros dos outros",
+          "variantes": [
+            "Scapegoat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Motor a diesel",
+        "descricao": "Motor de combustão interna em que o combustível se inflama pela compressão do ar, sem vela de ignição.",
+        "variantes": [
+          "Motor diesel",
+          "Diesel engine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "timor_leste",
+          "nome": "Timor-Leste",
+          "descricao": "País do Sudeste Asiático, antiga colônia portuguesa, independente desde 2002",
+          "variantes": [
+            "Timor Lorosae"
+          ]
+        },
+        {
+          "id": "totodile",
+          "nome": "Totodile",
+          "descricao": "Pokémon do tipo Água, número 158 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Cinto de segurança de três pontos",
+        "descricao": "Cinto de segurança que prende o tronco e o quadril, introduzido pela Volvo em 1959.",
+        "variantes": [
+          "Cinto de três pontos",
+          "Three-point seatbelt"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Metrô de Londres",
+        "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+        "variantes": [
+          "London Underground",
+          "The Tube"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argentina_x_inglaterra_na_copa_de_1986",
+          "nome": "Argentina x Inglaterra na Copa de 1986",
+          "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século.",
+          "variantes": [
+            "Mão de Deus",
+            "La mano de Dios",
+            "Argentina 2 x 1 Inglaterra"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Metrô de São Paulo",
+        "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+        "variantes": [
+          "Companhia do Metropolitano de São Paulo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Estrada de Ferro Mauá",
+        "descricao": "Primeira ferrovia do Brasil, construída por Irineu Evangelista de Sousa entre o porto de Mauá e Fragoso, no Rio de Janeiro.",
+        "variantes": [
+          "Imperial Companhia de Navegação a Vapor e Estrada de Ferro Petrópolis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "tragedia_de_superga",
+          "nome": "Tragédia de Superga",
+          "descricao": "Queda do avião que levava o elenco do Torino, o Grande Torino, na colina de Superga, perto de Turim, em 4 de maio de 1949.",
+          "variantes": [
+            "Desastre aéreo de Superga",
+            "Superga air disaster",
+            "Tragedia di Superga"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Fordlândia",
+        "descricao": "Cidade fundada por Henry Ford na Amazônia em 1928 para produzir borracha.",
+        "variantes": [
+          "Fordlandia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        },
+        {
+          "id": "vinland",
+          "nome": "Vinland",
+          "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+          "variantes": [
+            "Vinlândia"
+          ]
+        },
+        {
+          "id": "panda_vermelho",
+          "nome": "Panda-vermelho",
+          "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens.",
+          "variantes": [
+            "Red panda",
+            "Ailurus fulgens"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "ramses_ii",
+          "nome": "Ramsés II",
+          "descricao": "Faraó da décima nona dinastia que reinou no século treze antes de Cristo, conhecido como Ramsés, o Grande",
+          "variantes": [
+            "Ramesses II",
+            "Ramessés II",
+            "Ozymandias"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Rede Integrada de Transporte",
+        "descricao": "Sistema de ônibus de Curitiba com canaletas exclusivas e estações-tubo, referência mundial em corredores expressos.",
+        "variantes": [
+          "RIT",
+          "Ligeirinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rai",
+          "nome": "Raí",
+          "descricao": "Raí Souza Vieira de Oliveira, meia brasileiro ídolo do São Paulo e do Paris Saint-Germain, campeão mundial em 1994.",
+          "variantes": [
+            "Raí Souza Vieira de Oliveira"
+          ]
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro",
+          "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+          "variantes": [
+            "Brigadeiro (doce)",
+            "Negrinho",
+            "Negrinho do Pastoreio"
+          ]
+        },
+        {
+          "id": "gringo",
+          "nome": "Gringo",
+          "descricao": "Palavra usada no Brasil e na América Latina para designar estrangeiros",
+          "variantes": []
+        },
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Ferrovia Transiberiana",
+        "descricao": "Rede ferroviária russa que liga Moscou ao Extremo Oriente russo, atravessando a Sibéria.",
+        "variantes": [
+          "Transiberiana",
+          "Trans-Siberian Railway"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "doenca_de_chagas",
+          "nome": "Doença de Chagas",
+          "descricao": "Doença parasitária causada pelo Trypanosoma cruzi, descrita por Carlos Chagas em 1909.",
+          "variantes": [
+            "Tripanossomíase americana",
+            "Chagas disease"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Caravela",
+        "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+        "variantes": [
+          "Caravel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mucarela",
+          "nome": "Muçarela",
+          "descricao": "Queijo fresco italiano de massa filada, originário do sul da Itália",
+          "variantes": [
+            "Mozzarella",
+            "Mussarela"
+          ]
+        },
+        {
+          "id": "acaraje",
+          "nome": "Acarajé",
+          "descricao": "Bolinho baiano frito no azeite de dendê e recheado com vatapá e camarão, de origem africana",
+          "variantes": []
+        },
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um ônibus."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Toyota."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Titanic."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o 14-bis."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o penny-farthing."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Aye-aye é um primata, não o sinal Mayday."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Quimono não tem relação com a unidade nó."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Forró é um gênero musical, não o Ford Modelo T."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Concorde."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Kombi."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Cheia do Nilo é outra entidade."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a caixa-preta."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o semáforo."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Boeing 747."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Guia Michelin."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a linha de montagem."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Garrafa térmica não é Francesco Baracca."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Hindenburg."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Salada Caesar é outra entidade."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Império Bizantino é diferente do trem Expresso do Oriente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Sans-culottes são outra entidade."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Bode expiatório é outra entidade."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o motor a diesel."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cinto de segurança."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o metrô de Londres."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Salto alto é outra entidade."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Estrada de Ferro Mauá."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Fordlândia."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Rede Integrada de Transporte."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Transiberiana."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a caravela."
+    }
+  ]
+}
