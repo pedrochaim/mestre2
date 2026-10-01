@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.32 — 2026-10-01**
+> **Versão preliminar 0.33 — 2026-10-01**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -54,14 +54,14 @@ Cada pergunta tem quatro coordenadas:
 
 ## 3. Temas e subtemas
 
-A lista canônica tem **8 temas e 69 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
 
 | Tema | Subtemas |
 |---|---|
-| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos |
-| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil |
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
 | Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
-| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
 | Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
 | Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
 | Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
@@ -69,6 +69,12 @@ A lista canônica tem **8 temas e 69 subtemas** e fica em [`temas_subtemas.json`
 
 - Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
 - Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
 - **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
 
 ---
@@ -461,6 +467,7 @@ O esquema foi construído a partir do esquema do projeto anterior (`info/pergunt
 | Crítico Sonnet com esforço médio (§11) | Testado no mesmo lote: o Sonnet com esforço alto e web custou o mesmo que o Opus (US$ 0,72), porque raciocinou mais; com esforço médio e web, não abriu nenhuma fonte. Com os trechos no prompt, o esforço médio basta para conferir o fato |
 | Lotes de 50 perguntas (§11) | Cada chamada tem um custo fixo (manifesto, âncoras e perguntas já existentes, prompt de sistema) que se dilui num lote maior. Primeiro lote de 50 (*História do Brasil*): US$ 1,49 por 47 perguntas no banco, ou 3,2 centavos cada, contra 4,0 no lote de 20 da *Segunda Guerra*. A variedade e a taxa de aproveitamento se mantiveram |
 | Prompt de sistema mínimo em toda chamada (§11) | O prompt padrão do Claude Code custava cerca de 6 mil tokens por chamada; o mínimo, cerca de 900 |
+| Quatro subtemas acrescentados: Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia (§3) | Preenchem lacunas apontadas na revisão dos subtemas: o público é brasileiro, a África não tinha lugar, e Ciências tinha poucos subtemas. Renomear, dividir e fundir foi descartado, porque a lista só cresce por acréscimo |
 | Manifesto dividido em duas partes | O gerador e o crítico recebem só as regras de conteúdo (Parte I), sem o ruído de esquemas, processo e histórico |
 
 ---
@@ -682,10 +689,10 @@ As perguntas se distribuem **por igual entre os oito temas**: cerca de 1 250 por
 
 | Tema | Subtemas | Texto hoje | Meta de texto por subtema | Figura hoje | Meta de figura |
 |---|---|---|---|---|---|
-| Geografia | 8 | 29 | ~117 | 7 | 320 |
-| História | 12 | 125 | ~78 | 8 | 300 |
+| Geografia | 9 | 29 | ~104 | 7 | 320 |
+| História | 13 | 125 | ~72 | 8 | 300 |
 | Natureza | 9 | 50 | ~104 | 8 | 320 |
-| Ciências | 7 | 97 | ~134 | 0 | 310 |
+| Ciências | 9 | 97 | ~104 | 0 | 310 |
 | Artes e Pensamento | 9 | 0 | ~104 | 60 | 320 |
 | Entretenimento | 8 | 0 | ~117 | 57 | 310 |
 | Esportes | 8 | 30 | ~117 | 40 | 310 |
@@ -696,8 +703,8 @@ As perguntas se distribuem **por igual entre os oito temas**: cerca de 1 250 por
 O texto sai do pipeline (§11), em lotes de 50, com cerca de 47 perguntas aproveitadas por lote, custo equivalente de US$ 1,45 e uns 8 minutos de execução. Faltam **cerca de 150 lotes**, que somam uns US$ 220 em equivalente de API, na cota do plano, e umas 20 horas de execução em segundo plano.
 
 O próximo lote é sempre do **subtema com o maior déficit em relação à meta**. Os lotes vêm em três ondas:
-1. **Cobertura:** um lote em cada um dos 57 subtemas que ainda não têm perguntas de texto.
-2. **Segunda passada:** mais um lote em todos os 69 subtemas.
+1. **Cobertura:** um lote em cada um dos 61 subtemas que ainda não têm perguntas de texto.
+2. **Segunda passada:** mais um lote em todos os 73 subtemas.
 3. **Acabamento:** lotes extras até cada subtema chegar à meta. Subtemas populares (Futebol, História do Brasil, Países e Capitais, Música Brasileira, Cinema) podem passar um pouco da meta; subtemas estreitos podem ficar abaixo, se começarem a se repetir.
 
 ### Perguntas com figura: de reconhecimento (§6)
@@ -733,8 +740,8 @@ Um assunto está saturado quando já há perguntas demais apontando para a mesma
 | Sessão | O que se faz | Texto ao fim | Figura ao fim |
 |---|---|---|---|
 | 1 | **Infraestrutura:** saturação por âncora no banco inteiro; plano com as metas por subtema (`pipeline/plano.json`); comando que roda uma fila de lotes e escolhe o subtema de maior déficit; etapa de figuras; relatório de progresso contra as metas. Teste com 2 lotes e 100 figuras | ~520 | ~290 |
-| 2 a 5 | **Onda 1:** cerca de 14 lotes por sessão, cobrindo os 57 subtemas sem texto. Cerca de 300 figuras por sessão (bandeiras, animais, pinturas, pokémon, retratos) | ~3 200 | ~1 500 |
-| 6 a 9 | **Onda 2:** cerca de 17 lotes por sessão, a segunda passada nos 69 subtemas. Cerca de 200 figuras por sessão | ~6 400 | ~2 300 |
+| 2 a 5 | **Onda 1:** cerca de 14 lotes por sessão, cobrindo os 61 subtemas sem texto. Cerca de 300 figuras por sessão (bandeiras, animais, pinturas, pokémon, retratos) | ~3 200 | ~1 500 |
+| 6 a 9 | **Onda 2:** cerca de 17 lotes por sessão, a segunda passada nos 73 subtemas. Cerca de 200 figuras por sessão | ~6 400 | ~2 300 |
 | 10 a 11 | **Onda 3:** lotes extras até as metas, mais as últimas figuras | ~7 500 | ~2 500 |
 | 12 | **Revisão:** relatório final, nova crítica por amostragem (`recriticar`), âncoras saturadas, distribuição por ângulo e tipo, auditoria humana opcional | ~7 500 | ~2 500 |
 
@@ -785,3 +792,4 @@ Um assunto está saturado quando já há perguntas demais apontando para a mesma
 | 0.30 | 2026-09-30 | App: o crédito da figura sai de baixo da foto e fica só na ficha Sobre a pergunta, depois da resposta (nas pinturas, ele entregava o pintor) (§16) |
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
+| 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
