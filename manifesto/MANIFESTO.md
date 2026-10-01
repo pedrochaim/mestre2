@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.31 — 2026-10-01**
+> **Versão preliminar 0.32 — 2026-10-01**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -164,6 +164,51 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 - **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
 - **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É uso privado, num jogo entre amigos, e não licença livre.
 - **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras de um tema, **pelo menos três famílias** e **pelo menos três catálogos**;
+- nenhum catálogo passa de **40%** das perguntas com figura do seu tema;
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
 
 **Critérios da figura**, além dos de §8:
 - [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
@@ -658,10 +703,10 @@ O próximo lote é sempre do **subtema com o maior déficit em relação à meta
 ### Perguntas com figura: de reconhecimento (§6)
 
 Até hoje, as perguntas com figura foram feitas à mão, numa sessão de conversa. Esse ritmo não chega a 2 300, por isso a primeira sessão monta a **etapa de figuras do pipeline** (pendência do §14). Cada fonte de figura é uma lista de entidades, tirada do Wikidata, do Commons ou do PokéAPI, que o script percorre:
-1. Escolhe as entidades, com as mais conhecidas primeiro (pela popularidade na Wikipédia), e pula as âncoras saturadas.
+1. Escolhe as entidades nos catálogos curados, em camadas (diretrizes do §6), e pula as âncoras saturadas.
 2. Baixa a imagem principal, registra autor e licença e põe fundo branco nas transparentes.
 3. Pede ao LLM (Sonnet), que **olha a imagem**, para confirmar três coisas: o assunto é único e reconhecível, não há texto que entregue a resposta e a resposta é única. Ele devolve aprovado ou reprovado, o tipo (aberta ou múltipla) e, se for múltipla, os distratores.
-4. Grava a pergunta com o enunciado padrão da fonte ("Que animal é este?") e com a fonte (Wikipédia ou Bulbapedia).
+4. Escreve a pergunta segundo as famílias e os níveis do §6 (nem todas são "que animal é este?") e a grava com a fonte (Wikipédia ou Bulbapedia).
 
 | Tema | Fontes de figura (quantidade aproximada) |
 |---|---|
@@ -739,3 +784,4 @@ Um assunto está saturado quando já há perguntas demais apontando para a mesma
 | 0.29 | 2026-09-30 | Figuras: obras de arte em domínio público; o ângulo segue o que se pergunta depois de reconhecer a figura (pintor → `autoria`, museu → `lugar`); dez perguntas de Pintura com figura (§6) |
 | 0.30 | 2026-09-30 | App: o crédito da figura sai de baixo da foto e fica só na ficha Sobre a pergunta, depois da resposta (nas pinturas, ele entregava o pintor) (§16) |
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
+| 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
