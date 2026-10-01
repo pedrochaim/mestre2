@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Tetris, cada peça é formada por quatro quadradinhos. Quantos formatos diferentes de peça existem no jogo?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q00759",
+          "pergunta": "Muito antes do e-mail, arroba já era o nome de uma unidade de medida, usada até hoje na venda de gado. O que ela mede?",
+          "resposta": "Peso"
+        },
+        {
+          "id": "q00804",
+          "pergunta": "No Japão, os piqueniques à sombra das cerejeiras na primavera se chamam hanami. O que significa essa palavra?",
+          "resposta": "Ver as flores"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Depois de um episódio exibido no Japão em 1997, por que o Porygon praticamente sumiu do anime Pokémon?",
+        "resposta": "O episódio causou convulsões em crianças"
+      },
+      "existentes": [
+        {
+          "id": "q00478",
+          "pergunta": "Qual é este pokémon?",
+          "resposta": "Porygon"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "As perguntas existentes tratam de arroba e hanami, e nenhuma pergunta quantos formatos de peça o Tetris tem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pede a identificação do Porygon por imagem. A nova pergunta o motivo de ele ter sumido do anime, que é outro fato."
+    }
+  ]
+}
