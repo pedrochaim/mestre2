@@ -393,6 +393,20 @@
       ],
       "observacoes": "Natação, atletismo, ginástica, surfe, skate, ciclismo, golfe e demais esportes sem subtema próprio. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara.",
       "autopiloto": true
+    },
+    {
+      "id": "esportes_volei_01",
+      "tema": "Esportes",
+      "subtema": "Vôlei",
+      "quantidade": 50,
+      "multipla": 10,
+      "angulos_alvo": [
+        "nome",
+        "causa",
+        "conexao"
+      ],
+      "observacoes": "Vôlei de quadra e de praia, seleções e jogadores, regras e história, com o Brasil como potência. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara.",
+      "autopiloto": true
     }
   ]
 }
