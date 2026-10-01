@@ -52,9 +52,10 @@
     "esportes_automobilismo_01",
     "fig_objetos_trajes_003",
     "esportes_outras_modalidades_01",
-    "fig_atletas_001"
+    "fig_atletas_001",
+    "fig_invencoes_001"
   ],
-  "maior_id": 1672,
+  "maior_id": 1681,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -170,6 +171,19 @@
         "3": 1
       },
       "registradas": 10
+    },
+    "invencoes": {
+      "familias": {
+        "o_que_e": 5,
+        "quem_fez": 3,
+        "quando": 1
+      },
+      "niveis": {
+        "1": 2,
+        "2": 5,
+        "3": 2
+      },
+      "registradas": 9
     }
   },
   "rendimento": {

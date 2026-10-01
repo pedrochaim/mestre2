@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Lâmpada incandescente",
+      "titulo": "en:Incandescent light bulb",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Bússola",
+      "titulo": "en:Compass",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Telescópio",
+      "titulo": "en:Telescope",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Microscópio",
+      "titulo": "en:Microscope",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Máquina a vapor",
+      "titulo": "en:Steam engine",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "14-bis",
+      "titulo": "en:14-bis",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina de escrever",
+      "titulo": "en:Typewriter",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fonógrafo",
+      "titulo": "en:Phonograph",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ampulheta",
+      "titulo": "en:Hourglass",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Painel solar",
+      "titulo": "en:Solar panel",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Turbina eólica",
+      "titulo": "en:Wind turbine",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Disquete",
+      "titulo": "en:Floppy disk",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ábaco",
+      "titulo": "en:Abacus",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pilha de Volta",
+      "titulo": "en:Voltaic pile",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Bobina de Tesla",
+      "titulo": "en:Tesla coil",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Pêndulo de Foucault",
+      "titulo": "en:Foucault pendulum",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Astrolábio",
+      "titulo": "en:Astrolabe",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Sextante",
+      "titulo": "en:Sextant",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Barômetro",
+      "titulo": "en:Barometer",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "ENIAC",
+      "titulo": "en:ENIAC",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gerador de Van de Graaff",
+      "titulo": "en:Van de Graaff generator",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina Enigma",
+      "titulo": "en:Enigma machine",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Câmara escura",
+      "titulo": "en:Camera obscura",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Garrafa de Leyden",
+      "titulo": "en:Leyden jar",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Pêndulo de Newton",
+      "titulo": "en:Newton's cradle",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Transistor",
+      "titulo": "en:Transistor",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Moinho de vento",
+      "titulo": "en:Windmill",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Mecanismo de Anticítera",
+      "titulo": "en:Antikythera mechanism",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Máquina diferencial",
+      "titulo": "en:Difference engine",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pascalina",
+      "titulo": "en:Pascal's calculator",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Hemisférios de Magdeburgo",
+      "titulo": "en:Magdeburg hemispheres",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Eolípila",
+      "titulo": "en:Aeolipile",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Radiômetro de Crookes",
+      "titulo": "en:Crookes radiometer",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubo de Crookes",
+      "titulo": "en:Crookes tube",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Câmara de nuvens",
+      "titulo": "en:Cloud chamber",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Galvanômetro",
+      "titulo": "en:Galvanometer",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Tear de Jacquard",
+      "titulo": "en:Jacquard machine",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Motor Stirling",
+      "titulo": "en:Stirling engine",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Pássaro bebedor",
+      "titulo": "en:Drinking bird",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Roda d'água",
+      "titulo": "en:Water wheel",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    }
+  ]
+}

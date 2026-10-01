@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida e isolada de lâmpada com filamento visível, sem texto relevante.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de iluminação elétrica, com um filamento que brilha ao ser aquecido, aparece nesta figura?",
+      "resposta": "Lâmpada incandescente",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+        "variantes": [
+          "Lâmpada de filamento",
+          "Lâmpada elétrica incandescente"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida da pilha de discos empilhados em coluna, reconhecível e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem inventou, em 1799, este aparelho feito de discos de metais diferentes empilhados, a primeira bateria elétrica contínua?",
+      "resposta": "Alessandro Volta",
+      "distratores": [
+        "Luigi Galvani",
+        "Michael Faraday",
+        "André-Marie Ampère"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Pilha de Volta",
+        "descricao": "Primeira bateria elétrica, feita de discos de metais diferentes empilhados, inventada por Alessandro Volta.",
+        "variantes": [
+          "Pilha voltaica",
+          "Voltaic pile"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto do fragmento principal, inconfundível e sem legendas.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este fragmento corroído, de um aparelho grego considerado o computador analógico mais antigo conhecido, foi construído em que século antes de Cristo?",
+      "resposta": "Século dois antes de Cristo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mecanismo de Anticítera",
+        "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+        "variantes": [
+          "Máquina de Anticítera",
+          "Antikythera mechanism"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto clara de bússola; as letras de pontos cardeais não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de orientação, com uma agulha magnetizada, é este?",
+      "resposta": "Bússola",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bússola",
+        "descricao": "Instrumento de orientação com agulha magnetizada que aponta para o norte magnético.",
+        "variantes": [
+          "Compasso magnético",
+          "Compass"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma bobina de Tesla, reconhecível pela forma, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem projetou, em 1891, este transformador ressonante que produz altíssimas tensões?",
+      "resposta": "Nikola Tesla",
+      "distratores": [
+        "Thomas Edison",
+        "Guglielmo Marconi",
+        "Heinrich Hertz"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Bobina de Tesla",
+        "descricao": "Transformador ressonante que gera alta tensão e alta frequência, projetado por Nikola Tesla em 1891.",
+        "variantes": [
+          "Tesla coil",
+          "Transformador de Tesla"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda 'Portion of Babbage's Difference Engine', que entrega a resposta, e é um diagrama cheio de texto e números."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de telescópio de mirante contra o céu, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento óptico para observar objetos distantes é este?",
+      "resposta": "Telescópio (luneta)",
+      "distratores": [
+        "Binóculo",
+        "Periscópio",
+        "Microscópio"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Telescópio",
+        "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+        "variantes": [
+          "Luneta",
+          "Telescope"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto do pêndulo no Panteão de Paris, reconhecível; pessoas só ao fundo e texto ilegível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que físico francês concebeu o experimento mostrado nesta figura para demonstrar a rotação da Terra, em 1851?",
+      "resposta": "Léon Foucault",
+      "destino": 2,
+      "ancora": {
+        "nome": "Pêndulo de Foucault",
+        "descricao": "Experimento com um longo pêndulo cujo plano de oscilação gira, demonstrando a rotação da Terra.",
+        "variantes": [
+          "Foucault pendulum",
+          "Pêndulo de Foucault no Panteão"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida da calculadora de rodas, sem texto que revele o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que calculadora mecânica do século dezessete, de rodas giratórias, é esta?",
+      "resposta": "Pascalina",
+      "distratores": [
+        "Calculadora de Leibniz",
+        "Máquina de Schickard",
+        "Máquina diferencial"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pascalina",
+        "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+        "variantes": [
+          "Máquina de Pascal",
+          "Calculadora de Pascal",
+          "Pascaline"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de microscópio óptico antigo, isolado e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento para observar objetos minúsculos é este?",
+      "resposta": "Microscópio",
+      "distratores": [
+        "Telescópio",
+        "Teodolito",
+        "Espectroscópio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Microscópio",
+        "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+        "variantes": [
+          "Microscópio óptico",
+          "Microscope"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem mostra um planisfério celeste giratório, não um astrolábio, e está cheia de texto em alemão (inclusive 'Kompass', 'Sextant', 'Mikroskop'); a entidade não corresponde."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É uma gravura de ilustração de um objeto que poderia ser fotografado, e parece um recipiente de vácuo genérico, sem garantia de ser reconhecida como os hemisférios de Magdeburgo."
+    }
+  ]
+}
