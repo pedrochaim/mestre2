@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["decisoes"],
+  "properties": {
+    "decisoes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["caso", "decisao", "motivo"],
+        "properties": {
+          "caso": { "type": "integer" },
+          "decisao": { "type": "string", "enum": ["repete", "nova"] },
+          "id_existente": { "type": "string", "description": "obrigatório quando decisao = repete" },
+          "motivo": { "type": "string" }
+        }
+      }
+    }
+  }
+}

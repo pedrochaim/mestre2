@@ -32,6 +32,9 @@ CONFIG = {
     "gerar":    {"modelo": "opus",   "esforco": "high",   "tempo_limite": 3600},
     "criticar": {"modelo": "sonnet", "esforco": "medium", "tempo_limite": 3600},
     "julgar":   {"modelo": "sonnet", "esforco": "medium", "tempo_limite": 900},
+    "repetidos": {"modelo": "sonnet", "esforco": "medium", "tempo_limite": 900},
+    "catalogo": {"modelo": "opus",   "esforco": "medium", "tempo_limite": 1800},
+    "figuras":  {"modelo": "sonnet", "esforco": "medium", "tempo_limite": 3600},
 }
 
 ORDEM = ["gerar", "validar", "criticar", "ancoras", "registrar"]
@@ -89,40 +92,48 @@ def cmd_executar(args):
         if enc["id"] in banco.estado["concluidas"]:
             print(f"[{enc['id']}] já concluída; pulando.")
             continue
-        pasta = TRABALHO_DIR / enc["id"]
-        pasta.mkdir(parents=True, exist_ok=True)
-        print(f"\n[{enc['id']}] {enc['tema']} › {enc['subtema']} ({enc['quantidade']} perguntas)")
-
         try:
-            for n, etapa in enumerate(ORDEM[:ultima + 1]):
-                arquivo = etapas.ARQUIVOS.get(etapa)
-                if arquivo and (pasta / arquivo).exists():
-                    print(f"  {n + 1}. {etapa}: já feita")
-                    continue
-                print(f"  {n + 1}. {etapa}…", flush=True)
-                claude_cli.contexto.update(encomenda=enc["id"], etapa=etapa)
-                if etapa == "gerar":
-                    etapas.gerar(enc, banco, pasta, CONFIG)
-                elif etapa == "validar":
-                    etapas.validar(enc, banco, canon, pasta)
-                elif etapa == "criticar":
-                    etapas.criticar(enc, canon, pasta, CONFIG)
-                elif etapa == "ancoras":
-                    etapas.resolver_ancoras(enc, banco, pasta, CONFIG)
-                elif etapa == "registrar":
-                    registradas = etapas.registrar(enc, banco, canon, pasta)
-                    print(f"  → {len(registradas)} perguntas entraram no banco.")
+            executar_encomenda(enc, banco, canon, ultima)
         except ErroClaude as e:
             registrar_log(enc["id"], "execucao", "interrompida", str(e))
             print(f"\nInterrompido: {e}\nRode o mesmo comando mais tarde; o pipeline retoma desta etapa.")
             sys.exit(2)
 
         if ultima < len(ORDEM) - 1:
-            print(f"  Parado após a etapa '{args.ate}'. Resultados em {pasta}")
+            print(f"  Parado após a etapa '{args.ate}'. Resultados em {TRABALHO_DIR / enc['id']}")
 
     if ultima == len(ORDEM) - 1:
         print("\nDificuldade (popularidade das âncoras na Wikipédia)…")
         popularidade.atualizar()
+
+
+def executar_encomenda(enc, banco, canon, ultima=None):
+    """Roda as etapas de uma encomenda, pulando as já feitas, e devolve as perguntas registradas.
+    Levanta ErroClaude se o Claude falhar (por exemplo, cota esgotada): chamar de novo retoma da mesma etapa."""
+    ultima = len(ORDEM) - 1 if ultima is None else ultima
+    pasta = TRABALHO_DIR / enc["id"]
+    pasta.mkdir(parents=True, exist_ok=True)
+    print(f"\n[{enc['id']}] {enc['tema']} › {enc['subtema']} ({enc['quantidade']} perguntas)", flush=True)
+    registradas = None
+    for n, etapa in enumerate(ORDEM[:ultima + 1]):
+        arquivo = etapas.ARQUIVOS.get(etapa)
+        if arquivo and (pasta / arquivo).exists():
+            print(f"  {n + 1}. {etapa}: já feita")
+            continue
+        print(f"  {n + 1}. {etapa}…", flush=True)
+        claude_cli.contexto.update(encomenda=enc["id"], etapa=etapa)
+        if etapa == "gerar":
+            etapas.gerar(enc, banco, pasta, CONFIG)
+        elif etapa == "validar":
+            etapas.validar(enc, banco, canon, pasta)
+        elif etapa == "criticar":
+            etapas.criticar(enc, canon, pasta, CONFIG)
+        elif etapa == "ancoras":
+            etapas.resolver_ancoras(enc, banco, pasta, CONFIG)
+        elif etapa == "registrar":
+            registradas = etapas.registrar(enc, banco, canon, pasta)
+            print(f"  → {len(registradas)} perguntas entraram no banco.", flush=True)
+    return registradas
 
 
 def cmd_recuperar(args):

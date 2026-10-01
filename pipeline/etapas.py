@@ -20,6 +20,11 @@ ARQUIVOS = {
 }
 CAMPOS = ["tema", "subtema", "angulo", "tipo", "pergunta", "resposta", "distratores", "fonte"]
 MAX_PERGUNTAS_NO_PROMPT = 400
+# Saturação por âncora (MANIFESTO §17): uma âncora com MAX_POR_ANCORA perguntas no banco inteiro, somando texto
+# e figura, não recebe outra. O gerador é avisado das âncoras do tema que já têm SATURACAO_AVISO perguntas.
+MAX_POR_ANCORA = 3
+SATURACAO_AVISO = 2
+MAX_SATURADAS_NO_PROMPT = 300
 
 
 def forma_final(item, id_pergunta="q00000", ancora="a"):
@@ -48,6 +53,16 @@ def montar_prompt_geracao(enc, banco):
 
     linhas_perguntas = [f"- {p['pergunta']} → {p['resposta']}" for p in existentes[-MAX_PERGUNTAS_NO_PROMPT:]]
 
+    # Âncoras do tema inteiro (de qualquer subtema) já perto do limite: o gerador deve evitá-las.
+    do_subtema = {banco.resolver(p["ancora"]) for p in existentes}
+    saturadas = []
+    for id_ancora, ps in banco.perguntas_por_ancora().items():
+        a = banco.ancora_por_id.get(id_ancora)
+        if a and id_ancora not in do_subtema and len(ps) >= SATURACAO_AVISO and any(p["tema"] == enc["tema"] for p in ps):
+            saturadas.append((len(ps), a["nome"]))
+    saturadas.sort(reverse=True)
+    linhas_saturadas = [f"- {nome} ({n})" for n, nome in saturadas[:MAX_SATURADAS_NO_PROMPT]]
+
     quantidade = enc["quantidade"]
     return preencher(
         ler_texto(PROMPTS_DIR / "gerar.md"),
@@ -59,6 +74,7 @@ def montar_prompt_geracao(enc, banco):
         observacoes=enc.get("observacoes") or "nenhuma",
         ancoras_existentes="\n".join(linhas_ancoras) or "(nenhuma)",
         perguntas_existentes="\n".join(linhas_perguntas) or "(nenhuma)",
+        ancoras_saturadas="\n".join(linhas_saturadas) or "(nenhuma)",
         manifesto=manifesto_para_llm(),
     )
 
@@ -325,6 +341,7 @@ def resolver_ancoras(enc, banco, pasta, config):
     # 4d. liga cada pergunta à sua âncora e aplica os limites (MANIFESTO §4 e §9)
     finais = []
     angulos_banco = banco.angulos_por_ancora()
+    total_banco = {k: len(v) for k, v in banco.perguntas_por_ancora().items()}
     no_lote = {}
     for it in itens:
         chave = it.pop("_nova", None)
@@ -351,8 +368,14 @@ def resolver_ancoras(enc, banco, pasta, config):
             registrar_log(enc["id"], "ancoras", "descartada",
                           f"âncora {it['ancora']} já tem 2 perguntas com o ângulo {it['angulo']}", _resumo(it))
             continue
+        if total_banco.get(it["ancora"], 0) + len(angulos_lote) >= MAX_POR_ANCORA:
+            registrar_log(enc["id"], "ancoras", "descartada",
+                          f"âncora {it['ancora']} saturada (máx. {MAX_POR_ANCORA} perguntas no banco inteiro)", _resumo(it))
+            continue
         angulos_lote.append(it["angulo"])
         finais.append(it)
+
+    finais = checar_repetidos(enc, banco, finais, pasta, config)
 
     gravar_json(pasta / ARQUIVOS["ancoras"], {
         "itens": finais,
@@ -361,6 +384,35 @@ def resolver_ancoras(enc, banco, pasta, config):
     })
     registrar_log(enc["id"], "ancoras", "concluida",
                   f"{len(finais)} perguntas, {len(criadas)} âncoras novas, {len(resolvidas)} fundidas pelo juiz")
+
+
+def checar_repetidos(enc, banco, itens, pasta, config):
+    """Repetição pela âncora (MANIFESTO §17): cada pergunta nova cuja âncora já tem perguntas no banco, em qualquer
+    tema, é comparada só com essas perguntas, numa chamada pequena ao LLM. Se pergunta o mesmo fato, sai."""
+    por_ancora = banco.perguntas_por_ancora()
+    casos, item_do_caso = [], {}
+    for it in itens:
+        existentes = por_ancora.get(it["ancora"], [])
+        if existentes:
+            n = len(casos) + 1
+            item_do_caso[n] = it
+            casos.append({"caso": n, "nova": {"pergunta": it["pergunta"], "resposta": it["resposta"]},
+                          "existentes": [{"id": p["id"], "pergunta": p["pergunta"], "resposta": p["resposta"]}
+                                         for p in existentes]})
+    if not casos:
+        return itens
+    c = config.get("repetidos", config["julgar"])
+    prompt = preencher(ler_texto(PROMPTS_DIR / "repetidos.md"), casos=json.dumps(casos, ensure_ascii=False, indent=2))
+    saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_repetidos.json"), c["modelo"], c["esforco"],
+                   tempo_limite=c["tempo_limite"])
+    gravar_json(pasta / "04_repetidos.json", {"casos": casos, "decisoes": saida["decisoes"]})
+    fora = set()
+    for d in saida["decisoes"]:
+        it = item_do_caso.get(d["caso"])
+        if it is not None and d["decisao"] == "repete":
+            fora.add(id(it))
+            registrar_log(enc["id"], "ancoras", "descartada", f"repete {d.get('id_existente', '?')}: {d['motivo']}", _resumo(it))
+    return [it for it in itens if id(it) not in fora]
 
 
 # ---------------------------------------------------------------- 5. registro

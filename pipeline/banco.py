@@ -98,6 +98,14 @@ class Banco:
     def perguntas_do_subtema(self, tema, subtema):
         return [p for p in self.perguntas if p["tema"] == tema and p["subtema"] == subtema]
 
+    def perguntas_por_ancora(self):
+        """{id da âncora ativa: perguntas do banco inteiro (texto e figura) que apontam para ela}.
+        É a medida de saturação de um assunto (MANIFESTO §17)."""
+        grupos = defaultdict(list)
+        for p in self.perguntas:
+            grupos[self.resolver(p["ancora"]) or p["ancora"]].append(p)
+        return grupos
+
     def angulos_por_ancora(self, perguntas=None):
         """{id da âncora ativa: Counter de ângulos}."""
         contagem = defaultdict(Counter)

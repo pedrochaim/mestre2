@@ -1,0 +1,84 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e reconhecível; o texto 'Ordem e Progresso' não nomeia o país.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Brasil",
+      "ancora": {
+        "nome": "Brasil",
+        "descricao": "País da América do Sul, o maior da região, de língua portuguesa e capital Brasília.",
+        "variantes": [
+          "República Federativa do Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira nítida com taegeuk e trigramas, única diante da imagem.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país faz fronteira terrestre com o país desta bandeira?",
+      "resposta": "Coreia do Norte",
+      "distratores": [
+        "China",
+        "Japão",
+        "Mongólia"
+      ],
+      "ancora": {
+        "nome": "Coreia do Sul",
+        "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+        "variantes": [
+          "República da Coreia",
+          "Coreia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e inconfundível, sem texto; formato não retangular a identifica.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cordilheira fica a maior parte do país desta bandeira?",
+      "resposta": "Himalaia",
+      "ancora": {
+        "nome": "Nepal",
+        "descricao": "País sem litoral do sul da Ásia, entre a China e a Índia, com capital em Katmandu e o Monte Everest.",
+        "variantes": [
+          "República Democrática Federal do Nepal"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira nítida com 50 estrelas e 13 listras, inconfundível.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país faz fronteira ao sul com o país desta bandeira?",
+      "resposta": "México",
+      "ancora": {
+        "nome": "Estados Unidos",
+        "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+        "variantes": [
+          "Estados Unidos da América",
+          "EUA",
+          "América"
+        ]
+      }
+    }
+  ]
+}

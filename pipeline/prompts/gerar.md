@@ -30,6 +30,12 @@ Não repita estes fatos, nem com outras palavras:
 
 {{perguntas_existentes}}
 
+# Âncoras já muito usadas em outros subtemas deste tema
+
+Estas entidades já têm várias perguntas no banco, em outros subtemas (o número entre parênteses). **Não as use como âncora**: o banco aceita no máximo 3 perguntas por âncora, somando todos os temas. Procure outras entidades.
+
+{{ancoras_saturadas}}
+
 # Formato de cada pergunta
 
 - `ancora`: a entidade sobre a qual está o fato perguntado (MANIFESTO §4). Informe `nome` (forma preferida em português), `descricao` (uma frase que identifica a entidade sem ambiguidade), `variantes` (outras grafias e nomes; pode ser lista vazia) e `fontes` (URLs sobre a entidade).

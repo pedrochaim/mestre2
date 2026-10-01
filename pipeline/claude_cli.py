@@ -38,7 +38,7 @@ class ErroClaude(Exception):
     """Falha na chamada: cota esgotada, erro do CLI, resposta sem JSON etc."""
 
 
-def chamar(prompt, esquema, modelo, esforco=None, ferramentas=None, tempo_limite=1800):
+def chamar(prompt, esquema, modelo, esforco=None, ferramentas=None, tempo_limite=1800, diretorios=()):
     """Envia `prompt` e devolve o objeto JSON que obedece a `esquema`.
 
     ferramentas: lista de ferramentas liberadas (ex.: ["WebSearch", "WebFetch"]).
@@ -67,6 +67,9 @@ def chamar(prompt, esquema, modelo, esforco=None, ferramentas=None, tempo_limite
         cmd += ["--tools", ""]
     if esforco:
         cmd += ["--effort", esforco]
+    # Pastas que o modelo pode ler com a ferramenta Read (por exemplo, as imagens da etapa de figuras).
+    for d in diretorios:
+        cmd += ["--add-dir", str(d)]
 
     # Roda fora do repositório para não carregar configurações ou memória do projeto.
     try:

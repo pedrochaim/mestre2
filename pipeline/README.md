@@ -77,6 +77,10 @@ pipeline/
 ├── etapas.py              ← as cinco etapas
 ├── banco.py               ← banco, validação, semelhança, checagem de URLs
 ├── claude_cli.py          ← chamada ao `claude -p`, com prompt de sistema mínimo
+├── autopiloto.py          ← executa a programação do MANIFESTO §17 sozinho
+├── figuras.py             ← etapa de figuras (catálogos, imagens, avaliação com visão)
+├── plano.json             ← metas por tema e subtema, orientações e catálogos de figura
+├── catalogos/             ← entidades curadas de cada catálogo de figura
 ├── fontes.py              ← baixa as fontes e escolhe os trechos para o crítico
 ├── comparar_critico.py    ← refaz a crítica de um lote com outro modelo, sem gravar no banco
 ├── comum.py               ← caminhos, arquivos, normalização, log
@@ -105,6 +109,44 @@ Para ver o que aconteceu com as perguntas de uma encomenda, filtre o log pelo ca
 | Instruções específicas de cada etapa | `prompts/gerar.md`, `prompts/criticar.md`, `prompts/julgar_ancora.md` |
 | Formato das respostas do Claude | `esquemas/` (precisa acompanhar `manifesto/pergunta.schema.json`) |
 | Temas e subtemas | `manifesto/temas_subtemas.json` (só por acréscimo) |
+
+## Autopiloto (programação até 10 000 perguntas)
+
+O `autopiloto.py` executa a programação do MANIFESTO §17 sozinho, fora de qualquer conversa:
+
+```
+python pipeline/autopiloto.py                 # roda até a meta, esperando a cota quando preciso
+python pipeline/autopiloto.py --max 3         # para depois de 3 trabalhos
+python pipeline/autopiloto.py --so-texto      # só lotes de texto (ou --so-figuras)
+python pipeline/autopiloto.py --publicar 5    # a cada 5 trabalhos, git push e deploy no Firebase
+python pipeline/autopiloto.py --status        # mostra o progresso contra as metas e sai
+```
+
+- **Escolha do trabalho:** compara o que falta de texto e de figura, em proporção à meta, e ataca o maior déficit. Texto: o subtema mais atrasado ganha uma encomenda nova, montada a partir do `plano.json` (orientação do subtema, orientação geral e rodízio de ângulos). Figura: o tema mais atrasado, e dentro dele o catálogo mais atrasado.
+- **Cota:** se o Claude responde que a cota ou o limite acabou, o autopiloto espera (15 minutos, ou até o horário de liberação informado) e retoma da mesma etapa. Outras falhas são tentadas 3 vezes; depois, o subtema ou o catálogo é pausado.
+- **Assunto esgotado:** dois lotes seguidos de um subtema com menos de 20 perguntas aproveitadas pausam o subtema. Um catálogo sem entidades aproveitáveis também é pausado. Os pausados ficam em `banco/estado.json`.
+- **Depois de cada trabalho:** exporta as perguntas para o app e faz um commit local. Push e deploy só com `--publicar`.
+- **Parar:** crie o arquivo `pipeline/PARAR`. O autopiloto termina o trabalho atual e sai. A trava `pipeline/autopiloto.lock` impede dois autopilotos ao mesmo tempo.
+- **Diário:** `log/autopiloto.jsonl` (cada evento) e `log/autopiloto_status.json` (o estado atual).
+- **Enquanto ele roda, nada mais grava no banco:** cada lote grava o banco inteiro no fim.
+
+## Etapa de figuras
+
+O `figuras.py` faz as perguntas com figura de reconhecimento (MANIFESTO §6), a partir dos **catálogos** do `plano.json`:
+
+| Passo | O que faz | Arquivo em `trabalho/fig_<catálogo>_<n>/` |
+|---|---|---|
+| 0. curadoria | Se o catálogo tem poucas entidades livres, o Claude (Opus) propõe mais 40, em três camadas, sem repetir as do catálogo nem as do banco | `catalogos/<catálogo>.json` |
+| 1. preparo | Escolhe entidades das três camadas e baixa a imagem principal: Wikidata/Commons (`P18`, bandeira `P41`, mapa `P242`) ou PokéAPI. Confere a licença, põe fundo branco, guarda um trecho da Wikipédia e sugere família e nível, puxando para as metas de variedade | `01_selecao.json`, `01.jpg`… |
+| 2. avaliação | O Claude (Sonnet) **abre cada imagem**, reprova as ruins (texto que entrega a resposta, montagem, assunto ambíguo) e escreve a pergunta | `02_avaliacao.json` |
+| 3. registro | Liga à âncora, respeitando a saturação (no máximo 3 perguntas por âncora e 2 com figura), copia a imagem e grava | — |
+
+## Saturação por âncora
+
+O assunto de uma pergunta é a sua âncora. Desde a programação de 10 000 perguntas:
+- uma âncora com 3 perguntas no banco inteiro, somando texto e figura, não recebe outra;
+- o gerador recebe a lista das âncoras do tema que já têm 2 ou mais perguntas em outros subtemas, para evitá-las;
+- na etapa de âncoras, cada pergunta nova cuja âncora já tem perguntas é comparada com essas perguntas por uma chamada pequena ao Sonnet (`prompts/repetidos.md`). Se perguntar o mesmo fato, sai.
 
 ## Consumo
 

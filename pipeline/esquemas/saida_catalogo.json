@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["entidades"],
+  "properties": {
+    "entidades": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["nome", "titulo", "camada", "destino"],
+        "properties": {
+          "nome": { "type": "string" },
+          "titulo": { "type": "string" },
+          "camada": { "type": "integer", "enum": [1, 2, 3] },
+          "destino": { "type": "integer" }
+        }
+      }
+    }
+  }
+}

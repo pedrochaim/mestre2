@@ -10883,5 +10883,90 @@
       "https://en.wikipedia.org/wiki/Louis_Pasteur"
     ],
     "dificuldade": 4
+  },
+  {
+    "id": "q00653",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "brasil",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é esta bandeira?",
+    "resposta": "Brasil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil",
+      "https://pt.wikipedia.org/wiki/Brasil"
+    ],
+    "imagem": {
+      "arquivo": "q00653.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
+      "autor": "Raimundo Teixeira Mendes",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q00654",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "coreia_do_sul",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que país faz fronteira terrestre com o país desta bandeira?",
+    "resposta": "Coreia do Norte",
+    "distratores": [
+      "China",
+      "Japão",
+      "Mongólia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/South_Korea",
+      "https://pt.wikipedia.org/wiki/Coreia_do_Sul"
+    ],
+    "imagem": {
+      "arquivo": "q00654.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "autor": "Original: Government of the Republic of Korea Vector: Great Brightstar and others",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q00655",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "nepal",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cordilheira fica a maior parte do país desta bandeira?",
+    "resposta": "Himalaia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nepal",
+      "https://pt.wikipedia.org/wiki/Nepal"
+    ],
+    "imagem": {
+      "arquivo": "q00655.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_Nepal.svg",
+      "autor": "Drawn by Pumbaa80, Achim1999",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q00656",
+    "tema": "Geografia",
+    "subtema": "Bandeiras e Símbolos",
+    "ancora": "estados_unidos",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que país faz fronteira ao sul com o país desta bandeira?",
+    "resposta": "México",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/United_States",
+      "https://pt.wikipedia.org/wiki/Estados_Unidos"
+    ],
+    "imagem": {
+      "arquivo": "q00656.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States_(1959–1960).svg",
+      "autor": "Flag design by the U.S. Government; SVG by Gunter Küchler / Berlin",
+      "licenca": "Public domain"
+    }
   }
 ]

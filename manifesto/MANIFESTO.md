@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.33 — 2026-10-01**
+> **Versão preliminar 0.34 — 2026-10-01**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -374,7 +374,9 @@ O fluxo é executado pelo pipeline em [`../pipeline/`](../pipeline/README.md), q
                aprovada, reescrita ou descartada
         ↓
 4. ÂNCORAS     resolução contra o cadastro (abaixo); checagem das URLs;
-               aplicação dos limites por âncora (§4)
+               aplicação dos limites por âncora (§4) e da saturação
+               (§17); comparação com as perguntas que o banco já tem
+               sobre a mesma âncora, para não repetir o fato
         ↓
 5. REGISTRO    atribuição dos ids; gravação no banco; avisos de variedade (§9)
         ↓
@@ -544,8 +546,8 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 - [ ] **Esforço da geração:** a geração (Opus, esforço alto, US$ 0,50 a 0,70 por lote) virou a etapa mais cara. Testar esforço médio.
 - [ ] **Calibrar a dificuldade estimada** (§4): conferir se as faixas e o peso de cada língua batem com a experiência de jogo. Como a informação é só ilustrativa, isso não tem prioridade.
 - [ ] **Calibrar os limites por âncora** (§4) e as regras de variedade (§9), à medida que o banco crescer.
-- [ ] **Figuras no pipeline** (§6, §17): etapa que busca imagens no Wikidata, no Commons e no PokéAPI, e crítico que olha a imagem antes de aprovar. É a sessão 1 da programação.
-- [ ] **Saturação por âncora no banco inteiro** (§17): hoje a contagem de perguntas por âncora e a lista de âncoras do gerador só valem dentro do subtema, e por isso entraram repetidos entre temas (a pulga da peste, a Revolta da Vacina). É a sessão 1 da programação.
+- [x] **Figuras no pipeline** (§6, §17): feito em 2026-10-01 (`pipeline/figuras.py`).
+- [x] **Saturação por âncora no banco inteiro** (§17): feito em 2026-10-01.
 - [x] **Proporção de perguntas com figura:** definida em 25% do banco (§17).
 - [ ] **Tamanho do tabuleiro** (§15): 8 casas no estágio 1 (a casa grande do início e mais 7) e 8 no estágio 2 (uma por tema), ou seja, 16 acertos até a chegada. Ajustar depois de jogar, se preciso.
 - [ ] **Como a vez passa** (§15): quem é o próximo questionador e o próximo respondente. Hoje o grupo combina de viva voz.
@@ -735,6 +737,14 @@ Um assunto está saturado quando já há perguntas demais apontando para a mesma
 - o gerador recebe as âncoras mais usadas do tema todo, para evitá-las;
 - uma âncora com mais de 3 perguntas, somando texto e figura, fica bloqueada para novas perguntas, salvo decisão em contrário.
 
+### Autopiloto
+
+A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/README.md`):
+- **`pipeline/plano.json`:** as metas desta seção, a orientação de cada subtema para as encomendas e os catálogos de figura.
+- **`pipeline/autopiloto.py`:** roda sozinho, fora de qualquer conversa. Escolhe o próximo trabalho pelo maior déficit (texto ou figura, subtema ou catálogo), cria a encomenda, executa, exporta e faz um commit local. **Quando a cota do plano acaba, espera e retoma da mesma etapa.** Pausa subtemas que rendem pouco e catálogos esgotados. Para parar, cria-se o arquivo `pipeline/PARAR`. Push e deploy, só com a opção `--publicar`.
+- **`pipeline/figuras.py`:** a etapa de figuras, com curadoria dos catálogos pelo LLM, imagem do Wikidata ou do PokéAPI e avaliação pelo Sonnet, que abre cada imagem. No primeiro teste (4 bandeiras), as 4 entraram, a cerca de 4 centavos por pergunta.
+- **Saturação:** no máximo 3 perguntas por âncora no banco inteiro e 2 com figura; o gerador recebe as âncoras já muito usadas do tema; uma pergunta nova sobre âncora que já tem perguntas é comparada com elas pelo LLM.
+
 ### Sessões
 
 | Sessão | O que se faz | Texto ao fim | Figura ao fim |
@@ -793,3 +803,4 @@ Um assunto está saturado quando já há perguntas demais apontando para a mesma
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.34 | 2026-10-01 | Sessão 1 da programação: autopiloto, plano com metas e orientações por subtema, etapa de figuras com avaliação visual, saturação por âncora no banco inteiro e checagem de repetidos pela âncora (§11, §14, §17) |
