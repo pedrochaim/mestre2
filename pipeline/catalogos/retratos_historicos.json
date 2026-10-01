@@ -61,35 +61,35 @@
       "titulo": "en:Nelson Mandela",
       "camada": 1,
       "destino": 9,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lênin",
       "titulo": "en:Vladimir Lenin",
       "camada": 1,
       "destino": 5,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Josef Stálin",
       "titulo": "en:Joseph Stalin",
       "camada": 1,
       "destino": 7,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pedro Álvares Cabral",
       "titulo": "en:Pedro Álvares Cabral",
       "camada": 1,
       "destino": 8,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Cristóvão Colombo",
       "titulo": "en:Christopher Columbus",
       "camada": 1,
       "destino": 4,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "George Washington",
@@ -152,28 +152,28 @@
       "titulo": "en:Benito Mussolini",
       "camada": 2,
       "destino": 7,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Franklin D. Roosevelt",
       "titulo": "en:Franklin D. Roosevelt",
       "camada": 2,
       "destino": 7,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Charles de Gaulle",
       "titulo": "en:Charles de Gaulle",
       "camada": 2,
       "destino": 7,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Simón Bolívar",
       "titulo": "en:Simón Bolívar",
       "camada": 2,
       "destino": 5,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Augusto",
@@ -250,34 +250,314 @@
       "titulo": "en:Archduke Franz Ferdinand of Austria",
       "camada": 3,
       "destino": 6,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Guilherme II",
       "titulo": "en:Wilhelm II",
       "camada": 3,
       "destino": 6,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Hailé Selassié",
       "titulo": "en:Haile Selassie",
       "camada": 3,
       "destino": 9,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Otto von Bismarck",
       "titulo": "en:Otto von Bismarck",
       "camada": 3,
       "destino": 5,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Hirohito",
       "titulo": "en:Hirohito",
       "camada": 3,
       "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Che Guevara",
+      "titulo": "en:Che Guevara",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Karl Marx",
+      "titulo": "en:Karl Marx",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Maria Antonieta",
+      "titulo": "en:Marie Antoinette",
+      "camada": 1,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Mao Tsé-Tung",
+      "titulo": "en:Mao Zedong",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "John F. Kennedy",
+      "titulo": "en:John F. Kennedy",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Martin Luther King Jr.",
+      "titulo": "en:Martin Luther King Jr.",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Fidel Castro",
+      "titulo": "en:Fidel Castro",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Dom João VI",
+      "titulo": "en:John VI of Portugal",
+      "camada": 1,
+      "destino": 8,
+      "status": "nova"
+    },
+    {
+      "nome": "Juscelino Kubitschek",
+      "titulo": "en:Juscelino Kubitschek",
+      "camada": 1,
+      "destino": 8,
+      "status": "nova"
+    },
+    {
+      "nome": "Fernão de Magalhães",
+      "titulo": "en:Ferdinand Magellan",
+      "camada": 1,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Martinho Lutero",
+      "titulo": "en:Martin Luther",
+      "camada": 1,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Gengis Khan",
+      "titulo": "en:Genghis Khan",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Benjamin Franklin",
+      "titulo": "en:Benjamin Franklin",
+      "camada": 1,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Nicolau II",
+      "titulo": "en:Nicholas II of Russia",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Leon Trótski",
+      "titulo": "en:Leon Trotsky",
+      "camada": 2,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Dwight D. Eisenhower",
+      "titulo": "en:Dwight D. Eisenhower",
+      "camada": 2,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Woodrow Wilson",
+      "titulo": "en:Woodrow Wilson",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Catarina, a Grande",
+      "titulo": "en:Catherine the Great",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedro, o Grande",
+      "titulo": "en:Peter the Great",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Giuseppe Garibaldi",
+      "titulo": "en:Giuseppe Garibaldi",
+      "camada": 2,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Ho Chi Minh",
+      "titulo": "en:Ho Chi Minh",
+      "camada": 2,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Mustafa Kemal Atatürk",
+      "titulo": "en:Mustafa Kemal Atatürk",
+      "camada": 2,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Rui Barbosa",
+      "titulo": "en:Ruy Barbosa",
+      "camada": 2,
+      "destino": 8,
+      "status": "nova"
+    },
+    {
+      "nome": "Barão do Rio Branco",
+      "titulo": "en:José Paranhos, Baron of Rio Branco",
+      "camada": 2,
+      "destino": 8,
+      "status": "nova"
+    },
+    {
+      "nome": "Robespierre",
+      "titulo": "en:Maximilien Robespierre",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Hernán Cortés",
+      "titulo": "en:Hernán Cortés",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Kwame Nkrumah",
+      "titulo": "en:Kwame Nkrumah",
+      "camada": 3,
+      "destino": 9,
+      "status": "nova"
+    },
+    {
+      "nome": "Patrice Lumumba",
+      "titulo": "en:Patrice Lumumba",
+      "camada": 3,
+      "destino": 9,
+      "status": "nova"
+    },
+    {
+      "nome": "Menelik II",
+      "titulo": "en:Menelik II",
+      "camada": 3,
+      "destino": 9,
+      "status": "nova"
+    },
+    {
+      "nome": "Douglas MacArthur",
+      "titulo": "en:Douglas MacArthur",
+      "camada": 3,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Georges Clemenceau",
+      "titulo": "en:Georges Clemenceau",
+      "camada": 3,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Paul von Hindenburg",
+      "titulo": "en:Paul von Hindenburg",
+      "camada": 3,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Carlota Joaquina",
+      "titulo": "en:Carlota Joaquina of Spain",
+      "camada": 3,
+      "destino": 8,
+      "status": "nova"
+    },
+    {
+      "nome": "Marquês de Pombal",
+      "titulo": "en:Sebastião José de Carvalho e Melo, 1st Marquis of Pombal",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Ferdinand Foch",
+      "titulo": "en:Ferdinand Foch",
+      "camada": 3,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Isoroku Yamamoto",
+      "titulo": "en:Isoroku Yamamoto",
+      "camada": 3,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Toussaint Louverture",
+      "titulo": "en:Toussaint Louverture",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Gamal Abdel Nasser",
+      "titulo": "en:Gamal Abdel Nasser",
+      "camada": 3,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Bernard Montgomery",
+      "titulo": "en:Bernard Montgomery",
+      "camada": 3,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Campos Sales",
+      "titulo": "en:Campos Sales",
+      "camada": 3,
+      "destino": 8,
       "status": "nova"
     }
   ]
