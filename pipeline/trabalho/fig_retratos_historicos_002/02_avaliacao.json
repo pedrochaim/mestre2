@@ -1,0 +1,201 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato oficial limpo, sem texto, figura pública reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este presidente brasileiro instaurou, em 1937, um regime autoritário. Que nome teve esse regime?",
+      "resposta": "Estado Novo",
+      "destino": 8,
+      "ancora": {
+        "nome": "Getúlio Vargas",
+        "descricao": "Político gaúcho que presidiu o Brasil de 1930 a 1945 e de 1951 a 1954.",
+        "variantes": [
+          "Getúlio Dornelles Vargas"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato de Rigaud, inconfundível, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este rei da França subiu ao trono?",
+      "resposta": "1643",
+      "destino": 4,
+      "ancora": {
+        "nome": "Luís XIV",
+        "descricao": "Rei da França de 1643 a 1715, o Rei Sol, construtor de Versalhes.",
+        "variantes": [
+          "Rei Sol",
+          "Louis XIV"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Moeda com figura sentada e inscrições árabes; não é um retrato reconhecível de Saladino e a resposta não é única nem identificável pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fotografia antiga de figura pública, sem texto, só ela na imagem.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano esta princesa, que governou o Brasil como regente, assinou a lei mais famosa de seu governo?",
+      "resposta": "1888",
+      "destino": 8,
+      "ancora": {
+        "nome": "Princesa Isabel",
+        "descricao": "Princesa Imperial do Brasil, filha de Pedro Segundo, que assinou a Lei Áurea em 1888.",
+        "variantes": [
+          "Isabel de Bragança",
+          "A Redentora"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Miniatura medieval clássica, um único assunto, sem nome escrito.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade francesa esta guerreira libertou do cerco inglês em 1429?",
+      "resposta": "Orléans",
+      "destino": 3,
+      "ancora": {
+        "nome": "Joana d'Arc",
+        "descricao": "Heroína e santa francesa que liderou tropas na Guerra dos Cem Anos e foi queimada em 1431.",
+        "variantes": [
+          "Jeanne d'Arc",
+          "Joan of Arc",
+          "Donzela de Orléans"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato a óleo de figura reconhecível, sem texto que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este navegador português chegou pela primeira vez à Índia, por mar?",
+      "resposta": "1498",
+      "distratores": [
+        "1488",
+        "1492",
+        "1500"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Vasco da Gama",
+        "descricao": "Navegador português que abriu a rota marítima da Europa à Índia contornando a África.",
+        "variantes": [
+          "Vasco de Gama"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Busto de mármore em primeiro plano, sem texto, retrato famoso.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que rio este general romano atravessou com suas tropas em quarenta e nove antes de Cristo, dando início a uma guerra civil?",
+      "resposta": "Rubicão",
+      "destino": 2,
+      "ancora": {
+        "nome": "Júlio César",
+        "descricao": "General, político e ditador romano assassinado em 44 a.C., conquistador da Gália.",
+        "variantes": [
+          "Caio Júlio César",
+          "Julius Caesar"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Detalhe do mosaico de Pompeia, sem texto, imagem única e legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que conquistador é retratado neste detalhe de um mosaico romano de Pompeia?",
+      "resposta": "Alexandre, o Grande",
+      "destino": 1,
+      "ancora": {
+        "nome": "Alexandre, o Grande",
+        "descricao": "Rei da Macedônia que conquistou o Império Persa e chegou ao noroeste da Índia no século quatro a.C.",
+        "variantes": [
+          "Alexandre Magno",
+          "Alexandre III da Macedônia",
+          "Alexander the Great"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pintura genérica de homem de casaca, sem traço que permita reconhecê-lo; a figura não sustenta uma pergunta e serviria de enfeite."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Há uma assinatura manuscrita visível na parte inferior da fotografia, o que a regra proíbe sem recorte."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Máscara funerária icônica, um único objeto, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que faraó era representado por esta máscara funerária de ouro?",
+      "resposta": "Tutancâmon",
+      "distratores": [
+        "Ramsés Segundo",
+        "Psusenés Primeiro",
+        "Amenhotep Terceiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tutancâmon",
+        "descricao": "Faraó da décima oitava dinastia do Egito, morto por volta dos dezoito anos, cuja tumba foi achada intacta em 1922.",
+        "variantes": [
+          "Tutankhamun",
+          "Tutankhamon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fotografia antiga de figura pública, sem texto, só ele na imagem.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que revolta no Rio Grande do Sul, encerrada em 1845, este militar brasileiro ajudou a pacificar?",
+      "resposta": "Revolução Farroupilha",
+      "destino": 8,
+      "ancora": {
+        "nome": "Duque de Caxias",
+        "descricao": "Luís Alves de Lima e Silva, militar do Império do Brasil, o Pacificador, patrono do Exército.",
+        "variantes": [
+          "Luís Alves de Lima e Silva",
+          "Barão de Caxias",
+          "Marquês de Caxias"
+        ]
+      }
+    }
+  ]
+}
