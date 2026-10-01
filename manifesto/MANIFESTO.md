@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.26 — 2026-09-30**
+> **Versão preliminar 0.27 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -156,10 +156,12 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 
 - **O enunciado aponta para a figura e é curto:** "Que cidade aparece nesta foto?", "Esta igreja fica em qual capital?". Ele pode trazer um fato que ajude, desde que não entregue a resposta.
 - **O ângulo segue a regra de sempre (§5).** Foto de um monumento e pergunta pela cidade: a âncora é o monumento, e o ângulo é `lugar`.
-- **Tipos de figura, por ordem de prioridade:** lugares (cidades, monumentos, paisagens), animais e contornos de mapa. Obras de arte e plantas ficam para depois.
-- **Só fotos de verdade, de um único assunto:** nada de montagens, ilustrações ou pranchas com várias espécies.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa e personagens de lendas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com várias espécies. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
 - **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
-- **Proibido:** capas de álbuns, pôsteres, logotipos, fotos de imprensa e fotos de pessoas que não sejam figuras públicas.
+- **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
 
 **Critérios da figura**, além dos de §8:
 - [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
@@ -442,6 +444,11 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 - A imagem do Wikidata para "pangolim" era uma montagem de uma foto com duas ilustrações; foi trocada pela de uma espécie. Daí a regra de só usar fotos de um único assunto.
 - Duas afirmações foram ajustadas ao que a fonte diz: o damão não é "o parente mais próximo do elefante" (a fonte diz que isso é contestado), e sim "muito mais aparentado" a ele que a um roedor, numa múltipla escolha sem sirênios entre as opções; o nome Firefox "teria vindo" de um apelido do panda-vermelho, como a fonte registra.
 
+**Folclore com figura (2026-09-30).** Vinte perguntas feitas à mão em *Cotidiano › Folclore e Tradições Brasileiras* (`q00346` a `q00365`), logo depois do lote automático de 50 do mesmo subtema.
+- O lote automático já tinha usado os fatos mais conhecidos (a peneira do Saci, o padre da Mula, os pés do Curupira, os três pedidos da fitinha). As perguntas com figura buscaram outros fatos sobre os mesmos assuntos.
+- A imagem principal do Wikidata não existia para vários temas de folclore. Elas vieram de buscas no Commons, e as placas com o nome do assunto foram recortadas (Curupira e carranca).
+- Uma pergunta com figura não pode ser gravada enquanto um lote roda: o pipeline carrega o banco no início e o grava inteiro no fim, o que apagaria o que fosse acrescentado no meio.
+
 **Comparação de críticos (2026-09-30).** O lote *História › Idade Média* foi criticado de novo em três configurações, sem mexer no banco (`pipeline/comparar_critico.py`):
 
 | Crítico | Custo | Turnos | Decisões iguais às do Opus |
@@ -639,3 +646,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.24 | 2026-09-30 | App: temas em grade, com os vazios numa linha de "Em breve"; botão Convidar; regras recolhíveis e modo Editar jogadores no tabuleiro; espiral do tabuleiro como marca na entrada (§16) |
 | 0.25 | 2026-09-30 | App: arrastar o peão no tabuleiro muda a casa do jogador (§16) |
 | 0.26 | 2026-09-30 | Tabuleiro: a última casa do estágio 1 se estende até o anel numa peça só, sem a faixa mais escura da passagem (só visual) |
+| 0.27 | 2026-09-30 | Figuras: plantas, objetos, festas com brincantes e personagens de lendas (ilustração ou escultura) permitidos; recorte de placas permitido; vinte perguntas de folclore com figura (§6, §13) |

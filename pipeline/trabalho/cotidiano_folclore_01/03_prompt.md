@@ -1,0 +1,1526 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Folclore e Tradições Brasileiras** (tema **Cotidiano**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Festival Folclórico de Parintins",
+      "descricao": "Festa anual de bois-bumbás realizada em Parintins, no Amazonas, com a disputa entre os bois Garantido e Caprichoso."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No Amazonas, a cidade de Parintins, palco do grande festival dos bois-bumbás, fica em qual ilha do rio Amazonas?",
+    "resposta": "Ilha Tupinambarana",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parintins"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parintins",
+        "situacao": "ok",
+        "texto": "Parintins é um município brasileiro do interior do estado do Amazonas, na Região Norte do país. É o quarto município mais populoso do estado, com 101 956 habitantes, conforme estimativa do Instituto Brasileiro de Geografia e Estatística (IBGE) em 2024. A sua sede é banhada pelo rio Amazonas.\n[…]\nLocalizada no extremo leste do estado, distante 372 quilômetros em linha reta da capital Manaus, a cidade é conhecida mundialmente por sediar o Festival Folclórico de Parintins, considerado Patrimônio Cultural do Brasil pelo Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN). Sua área é de 5 956 km², representando 0,3789% do estado do Amazonas, 0,1545% da região Norte brasileira e  0,0701% do território brasileiro. Desse total, 12,4235 km² estão em perímetro urbano.\n[…]\nO município possui 13 cadeiras para a Câmara Legislativa, sendo os eleitos para o período 2025-2028: Marcus Cursino, Flávio Farias e Márcia Baranda, do União Brasil; Julvan Medeiros e Alex Garcia, do PSD; Naldo Lima e Fábio Cardoso, do Podemos; Cabo Linhares e Adson Principe, do PL; Telo Pinto (Avante), Fernando Menezes (Republicanos, Babá Tupinambá (Progressistas) e Azamor Pessoa (MDB).\n[…]\nNa música, os destaques de Parintins são: a Toada, (ritmo característico da região) além do samba, forró e outros ritmos nacionais. A cidade possui cantores de renome, como o Chico da Silva, que é autor de inúmeras canções famosas como Pandeiro é Meu Nome, Tempo Bom, É Preciso Muito Amor, Esquadrão do Samba, Cantiga de Parintins, entre outros.\n[…]\n2 VHF - Amazon Sat\n[…]\n7 VHF - Rede Amazônica Parintins (Globo)\n[…]\n43 UHF - Band Amazonas (Band)\n[…]\n7.1 (15 UHF) - Rede Amazônica Parintins (Globo)\n[…]\n12.1 (25 UHF) - TV A Crítica Parintins (TV A Crítica)\n[…]\n43.1 (36 UHF) - Band Amazonas (Band)\n[…]\n«Informações de Parintins»\n[…]\n«Parintins no WikiMapia»"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Festival Folclórico de Parintins",
+      "descricao": "Festa anual de bois-bumbás realizada em Parintins, no Amazonas, com a disputa entre os bois Garantido e Caprichoso."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No Festival de Parintins, o boi Garantido é representado pelo vermelho. Qual é o nome do boi rival, de cor azul?",
+    "resposta": "Caprichoso",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festival_Folclórico_de_Parintins",
+      "https://en.wikipedia.org/wiki/Parintins_Folklore_Festival"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Festival_Folclórico_de_Parintins",
+        "situacao": "ok",
+        "texto": "O Festival Folclórico de Parintins é uma festa popular brasileira criada em 1965 no município de Parintins, interior do estado do Amazonas, sendo o maior festival folclórico a céu aberto do mundo. O festival é reconhecido como Patrimônio Cultural do Brasil pelo Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN). O atual campeão é o Boi-Bumbá Caprichoso, vencendo a edição de 2026.\n[…]\nAo longo de sua história, o Festival Folclórico de Parintins teve 59 edições. As apresentações, que começam na última sexta-feira do mês de junho e vão até o domingo, simbolizam uma disputa a céu aberto entre duas agremiações folclóricas, a do Boi Caprichoso (azul)  e a do Boi Garantido (vermelho), que acontece no Centro Cultural de Parintins — mais conhecido como Bumbódromo, com capacidade para 35 mil espectadores.\n[…]\nSegundo depoimentos de contemporâneos e registros históricos, Muniz também atuou na mediação entre os grupos rivais, contribuindo para que a tradicional rivalidade entre Caprichoso e Garantido fosse transferida das ruas para uma disputa organizada, sob regras e julgamento, estabelecendo as bases do modelo competitivo que caracterizaria o Festival Folclórico de Parintins nas décadas seguintes.\n[…]\nMarcas historicamente vermelhas, como a Coca-Cola, transfiguram-se em azul para dialogar com o Boi Caprichoso, enquanto marcas de identidade azul, como: Telemar, Derby, Cielo, Visa, Trip, Nestlé, Azul Linhas Aéreas assumem o vermelho em homenagem ao Boi Garantido. Um gesto simbólico que traduz, no universo corporativo, a potência de uma rivalidade centenária que move Parintins.\n[…]\n1966: Primeira participação conjunta dos bois Caprichoso e Garantido no festival com disputa oficial, com o Garantido sendo o primeiro campeão do Festival de Parintins;\n[…]\n2000: Primeiro e único empate da história do festival, com título compartilhado entre Caprichoso e Garantido;\n[…]\nFestival Amazonas de Ópera"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Parintins_Folklore_Festival",
+        "situacao": "ok",
+        "texto": "Parintins Folklore Festival (Portuguese: Festival Folclórico de Parintins), also known as the Parintins Festival (Portuguese: Festival de Parintins), is an annual Brazilian folk festival held in Parintins, Amazonas in Brazil. Usually staged over three nights during the last weekend of June, it centres on competitive performances by the boi-bumbá associations Boi Garantido and Boi Caprichoso.\n[…]\nThe phenomenon has become part of the festival's international cultural image and illustrates the extent to which the Caprichoso–Garantido rivalry influences commercial as well as artistic life in Parintins. Rather than representing a permanent change to Coca-Cola's global branding, the blue Coca-Cola imagery is a localized adaptation to the cultural context of the festival.\n[…]\nIn Parintins, groups known as bois (bulls) had performed forms of Bumba meu boi since the early 20th century. These groups were smaller and less formally organised than the later festival associations, and documentation from the period is limited. Garantido and Caprichoso had developed a local rivalry before the creation of the festival, alongside other groups, including Diamantino, Ramalhete, Fita Verde, Corre-Campo, Mina de Ouro, Galante and Campineiro.\n[…]\nThe first Parintins Folklore Festival was held in 1965. It was organised by young people associated with Juventude Alegre Católica (JAC) to raise funds for the construction of the Cathedral of Our Lady of Mount Carmel, the patron saint of Parintins. The event was initially organised as a June festival involving several folk groups. Garantido and Caprichoso were not invited, and there was no contest between them.\n[…]\nFesta Junina\n[…]\nOfficial Festival Website\n[…]\nBoi Bumba Festival\n[…]\nRed (Parintins Festival Music) YouTube Link\n[…]\nParintins for the world to see (Parintins Festival Music) YouTube Link\n[…]\nThe color of my country (Parintins Festival Music) YouTube Link"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Cavalhadas de Pirenópolis",
+      "descricao": "Encenação equestre de batalhas entre cristãos e mouros realizada em Pirenópolis, Goiás, durante a Festa do Divino."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Nas cavalhadas de Pirenópolis, em Goiás, quantos cavaleiros formam cada um dos dois exércitos rivais?",
+    "resposta": "Doze",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cavalhadas_de_Pirenópolis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cavalhadas_de_Pirenópolis",
+        "situacao": "ok",
+        "texto": "As Cavalhadas de Pirenópolis são uma atração turístico-cultural de Pirenópolis, município do estado de Goiás. A encenação é apresentada após a Festa do Divino Espírito Santo, quando dois exércitos contendo doze cavaleiros cada, durante três dias, se apresentam para um público de milhares de pessoas.\n[…]\nReconhecida como uma das mais significativas cavalhadas do Brasil, esta festa virou símbolo e modelo para outras cidades. A pompa, a garbosidade e a seriedade desta manifestação envolve toda a população que espera ansiosamente por este momento.\n[…]\nA tradição foi introduzida em Pirenópolis em 1826 pelo padre Manuel Amâncio da Luz, como um espetáculo chamado de \"O Batalhão de Carlos Magno\". Pirenópolis manteve forte esta tradição, uma vez que os primeiros colonizadores desta antiga cidade mineradora eram, em sua maioria, portugueses oriundos do norte de Portugal, local onde mais se resistiu à invasão moura.\n[…]\nPorém, o que mais motiva a população de Pirenópolis a manter viva a \"rixa\" entre muçulmanos e cristão é a beleza do espetáculo e o prazer pela montaria.\n[…]\nFesta do Divino Espírito Santo de Pirenópolis no YouTube"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Cavalhadas de Pirenópolis",
+      "descricao": "Encenação equestre de batalhas entre cristãos e mouros realizada em Pirenópolis, Goiás, durante a Festa do Divino."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Nas cavalhadas de Pirenópolis, os cavaleiros cristãos vestem azul. Que povo é representado pelos cavaleiros de vermelho?",
+    "resposta": "Os mouros",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cavalhadas_de_Pirenópolis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cavalhadas_de_Pirenópolis",
+        "situacao": "ok",
+        "texto": "As Cavalhadas de Pirenópolis são uma atração turístico-cultural de Pirenópolis, município do estado de Goiás. A encenação é apresentada após a Festa do Divino Espírito Santo, quando dois exércitos contendo doze cavaleiros cada, durante três dias, se apresentam para um público de milhares de pessoas.\n[…]\nReconhecida como uma das mais significativas cavalhadas do Brasil, esta festa virou símbolo e modelo para outras cidades. A pompa, a garbosidade e a seriedade desta manifestação envolve toda a população que espera ansiosamente por este momento.\n[…]\nA tradição foi introduzida em Pirenópolis em 1826 pelo padre Manuel Amâncio da Luz, como um espetáculo chamado de \"O Batalhão de Carlos Magno\". Pirenópolis manteve forte esta tradição, uma vez que os primeiros colonizadores desta antiga cidade mineradora eram, em sua maioria, portugueses oriundos do norte de Portugal, local onde mais se resistiu à invasão moura.\n[…]\nPorém, o que mais motiva a população de Pirenópolis a manter viva a \"rixa\" entre muçulmanos e cristão é a beleza do espetáculo e o prazer pela montaria.\n[…]\nNo Brasil esta representação dramática foi introduzida, sob autorização da Coroa, pelos jesuítas, com o objetivo de catequizar os gentios e escravos africanos, mostrando nisto o poder da fé cristã.\n[…]\nFesta do Divino Espírito Santo de Pirenópolis no YouTube"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Mestre Vitalino",
+      "descricao": "Vitalino Pereira dos Santos, artesão pernambucano famoso por seus bonecos de barro que retratam o cotidiano nordestino."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Os famosos bonecos de barro de Mestre Vitalino, que retratam vaqueiros, retirantes e bandas de pífano, nasceram em qual cidade pernambucana?",
+    "resposta": "Caruaru",
+    "distratores": [
+      "Olinda",
+      "Petrolina",
+      "Garanhuns"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mestre_Vitalino"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mestre_Vitalino",
+        "situacao": "ok",
+        "texto": "Vitalino Pereira dos Santos, conhecido como Mestre Vitalino (Caruaru, 10 de julho de 1909 – Caruaru, 20 de janeiro de 1963), foi um importante artesão, ceramista popular e músico, sendo considerado um dos maiores artistas da História da arte do barro no Brasil.\n[…]\nVitalino Pereira dos Santos nasceu na cidade de Caruaru, Pernambuco. Era filho de um lavrador e de uma artesã que fazia panelas de barro para vender na feira. Ainda criança, começou a modelar pequenos animais de seu repertório rural, como bois e cavalos, com as sobras do barro usado por sua mãe na produção de utensílios domésticos para serem vendidos na feira de Caruaru.\n[…]\nOs primeiros bonecos que criava eram seus brinquedos, e o barro que mais tarde serviria de matéria-prima para a sua arte, era retirado das margens do rio Ipojuca, local onde Vitalino brincava durante sua infância.\n[…]\nA produção do artista passou a ser iconográfica e inspirou a formação de novas gerações de artistas, especialmente no Alto do Moura, um bairro que fica na cidade de Caruaru, onde viveu. A casa onde viveu parte de sua vida atualmente é a instalação da Casa Museu Mestre Vitalino. O entorno é ocupado por oficinas de artesãos.\n[…]\nMestre Vitalino retratou em seus bonecos e bonecas de barro a cultura e o folclore do povo nordestino especialmente do interior de Pernambuco e da tradição do modo de vida dos sertanejos.\n[…]\nEm 2017, por unanimidade, os membros do Conselho Estadual de Preservação do Patrimônio Cultural (CEPPC) aprovaram o tombamento do acervo de Mestre Vitalino. O tombamento incluiu 232 peças do mestre, que fazem parte do acervo de quatro instituições públicas: O Museu do Barro de Caruaru (Mubac), o Centro Cultural Benfica, o Museu de Arte Popular do Recife (MAP) e o Museu do Homem do Nordeste."
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Capim-dourado",
+      "descricao": "Planta do cerrado cujas hastes brilhantes são usadas num artesanato típico do Tocantins."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O artesanato de capim dourado, cujas peças brilham como ouro, é típico de qual região do Tocantins?",
+    "resposta": "Jalapão",
+    "distratores": [
+      "Ilha do Bananal",
+      "Bico do Papagaio",
+      "Vale do Araguaia"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Capim-dourado",
+      "https://pt.wikipedia.org/wiki/Jalapão"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Capim-dourado",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jalapão",
+        "situacao": "ok",
+        "texto": "O parque estadual do Jalapão é uma unidade de conservação brasileira de proteção integral à natureza localizada na região leste do estado do Tocantins. O território do parque, com uma área de 158 970,95 ha, está distribuído pelos municípios de Mateiros e\n[…]\nSão Félix do Tocantins. Criado em 12 de janeiro de 2001, Jalapão é o maior parque estadual do Tocantins. A vegetação no parque é predominantemente a de cerrado ralo e a de campo limpo com veredas.\n[…]\nSua posição estratégica possui continuidade com a área de proteção ambiental do Jalapão, a estação ecológica Serra Geral do Tocantins e o parque nacional das Nascentes do Rio Parnaíba.\n[…]\nO Jalapão é uma região árida pontilhada de oásis. Está situada a leste do estado do Tocantins. Possui temperatura média de 30 graus Celsius. Sua área total é de 34 mil quilômetros quadrados. É cortado por imensa teia de rios, riachos e ribeirões, todos de água límpida e transparente.\n[…]\nO Jalapão abrange os municípios de Ponte Alta do Tocantins, Mateiros, São Félix do Tocantins, Lizarda, Rio Sono, Novo Acordo, Santa Tereza do Tocantins, Lagoa do Tocantins e Rio da Conceição, ocupando uma área equivalente ao estado de Sergipe. Passou à condição de parque estadual em 2001.\n[…]\nÉ possível passar dias no Jalapão sem ver uma única pessoa. A densidade populacional é de 0,8 habitante por quilômetro quadrado.\n[…]\nSão nascentes de rios subterrâneos que não encontram local de vazão e brotam em poços. Os fervedouros são as maiores atrações do Jalapão já que que por causa da pressão da água, os banhistas não afundam. Há algumas regras para as visitações, como o número limitado de visitantes por vez, para evitar a degradação do ambiente.\n[…]\nCapim dourado\n[…]\nMedia relacionados com Parque Estadual do Jalapão no Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Carranca",
+      "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "As carrancas, esculturas de cara feroz presas na proa dos barcos, são uma tradição dos barqueiros de qual rio brasileiro?",
+    "resposta": "Rio São Francisco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carranca",
+      "https://pt.wikipedia.org/wiki/Rio_São_Francisco"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carranca",
+        "situacao": "ok",
+        "texto": "Carranca ou Cabeça de proa é uma escultura com forma humana ou animalesca, produzida em madeira e utilizada a princípio na proa das embarcações que navegam pelo Rio São Francisco.\n[…]\nFigura, figura de proa e leão de barca também eram termos utilizados pelos remeiros para designar as carrancas.\n[…]\nOs primeiros registros de carrancas no Brasil, mas precisamente no Vale do rio São Francisco, datam da segunda metade do século XIX, com indícios desses ornamentos em embarcações que circulavam pelo São Francisco, rio que corta os Estados de Minas Gerais, Bahia, Pernambuco, Sergipe e Alagoas.\n[…]\nAmuleto original do Brasil, é utilizado em barcos do Vale do São Francisco com a pretensão espantar maus espíritos das águas como a mãe d’água, o nego d'água e o surubim-rei que são lendas populares da região. Embarcações tradicionais do São Francisco figuram como as únicas embarcações a apresentar, em culturas ocidentais, carrancas na proa. Não há definição sobre ser sua origem ameríndia ou negra.\n[…]\nAs carrancas em Portugal são elementos escultóricos ou decorativos tradicionalmente utilizados como forma de proteção simbólica, geralmente colocadas em fachadas de edifícios, barcos, fontes, fontes sacras ou mesmo em mobiliário e arte sacra.\n[…]\nEmbora mais frequentemente associadas ao Brasil — onde ganharam destaque na cultura ribeirinha do Rio São Francisco —, as carrancas têm também raízes e paralelos significativos na cultura portuguesa, integrando-se num imaginário europeu mais vasto de figuras apotropaicas, ou seja, destinadas a afastar o mal.\n[…]\n«Por uma mitologia das carrancas»"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rio_São_Francisco",
+        "situacao": "ok",
+        "texto": "O rio São Francisco (popularmente conhecido por Velho Chico) é um curso de água inteiramente em território brasileiro, sendo o quarto maior rio do Brasil e da América do Sul. Passa por cinco estados e 521 municípios do país, iniciando seu percurso no estado de Minas Gerais, atravessando a Bahia, determinando os limites interestaduais entre ela e Pernambuco e entre Sergipe e Alagoas para, por fim, \n[…]\nEm grande parte do vale do São Francisco as áreas mais propícias ao aproveitamento agrícola situam-se às margens do mesmo. Por esse motivo a maior parcela da população do vale se encontra nas proximidades do rio. A hidrovia do São Francisco, através do programa Avança Brasil, passa por uma etapa de grandes intervenções físicas. Aliadas a isso estão as ações de operacionalidade da via.\n[…]\nA transposição do rio São Francisco se refere ao antigo projeto de transposição de parte das águas do rio São Francisco, nomeado pelo governo brasileiro como \"Projeto de Integração do rio São Francisco com Bacias Hidrográficas do Nordeste Setentrional\". O projeto é um empreendimento do Governo Federal, sob a responsabilidade do Ministério da Integração Nacional (MI). Orçado, atualmente, em 6,8 bilhões de reais, que prevê a construção de dois canais que totalizam 700 quilômetros de extensão.\n[…]\nO projeto prevê a irrigação da região semiárida do nordeste brasileiro. O ponto polêmico no projeto tem como base o fato de ser uma obra cara e que, supostamente, abrangeria apenas 5% do território e 0,3% da população do semiárido brasileiro e que afetaria intensamente o ecossistema ao redor de todo o rio São Francisco.\n[…]\nA Adutora do Algodão (oficialmente Sistema Integrado de Abastecimento de Água do Algodão - SIAA do Algodão), é o sistema de fornecimento hídrico a municípios do Alto Sertão do estado brasileiro da Bahia e que integram a sub-bacia do rio das Rãs a partir da captação de água no rio São Francisco."
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Carranca",
+      "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a crença dos barqueiros, para que serve a carranca colocada na frente das embarcações?",
+    "resposta": "Espantar os maus espíritos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carranca"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carranca",
+        "situacao": "ok",
+        "texto": "Carranca ou Cabeça de proa é uma escultura com forma humana ou animalesca, produzida em madeira e utilizada a princípio na proa das embarcações que navegam pelo Rio São Francisco.\n[…]\nAs primeiras referências às carrancas datam de 1888, em livros de Antônio Alves Câmara e Durval Vieira de Aguiar. As carrancas eram construídas, a princípio, com um objetivo comercial, pois a população ribeirinha dependia do transporte de mercadorias pelo rio, e os barqueiros utilizavam as carrancas para chamar a atenção para sua embarcação. Em certo momento, a população ribeirinha passou a atribuir características místicas de afugentar maus espíritos às carrancas.\n[…]\nEsta atribuição colocava em segundo plano o aspecto artístico da produção das carrancas, ou seja, como forma de manifestação cultural popular de uma região brasileira.\n[…]\nAmuleto original do Brasil, é utilizado em barcos do Vale do São Francisco com a pretensão espantar maus espíritos das águas como a mãe d’água, o nego d'água e o surubim-rei que são lendas populares da região. Embarcações tradicionais do São Francisco figuram como as únicas embarcações a apresentar, em culturas ocidentais, carrancas na proa. Não há definição sobre ser sua origem ameríndia ou negra.\n[…]\nUma corrente vai ao encontro da lenda do Nego D'água, também conhecido como Caboclo D\"água, espírito maligno que afunda embarcações. A carranca então passou a ser colocada na frente das embarcações como forma de repelir o Nego D'água. Com o passar do tempo o ornamento passou a constituir uma expressão de arte popular.[carece de fontes]?\n[…]\n«Por uma mitologia das carrancas»"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Cabeça de Cuia",
+      "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A lenda do Cabeça de Cuia, pescador amaldiçoado, se passa no encontro dos rios Poti e Parnaíba, em qual capital nordestina?",
+    "resposta": "Teresina",
+    "distratores": [
+      "São Luís",
+      "Fortaleza",
+      "Natal"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cabeça_de_Cuia"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cabeça_de_Cuia",
+        "situacao": "ok",
+        "texto": "Cabeça de Cuia é uma lenda brasileira da região Nordeste, mais precisamente contada no estado do Piauí, ao longo da bacia do rio Parnaíba.[carece de fontes]?\n[…]\nHá várias versões de lendas que envolvem a figura do Cabeça de Cuia. Em uma das lendas mais difundidas trata-se da história de Crispim, um jovem pescador que morava às margens do rio Parnaíba.\n[…]\nA lenda do Cabeça de Cuia ganhou notoriedade no Piauí no final do século XIX.\n[…]\nEm 3 de outubro de 2023, a Assembleia Legislativa do Piauí (Alepi) aprovou um projeto de lei que reconhece a lenda do Cabeça de Cuia como Patrimônio Cultural Imaterial do Piauí. Em 23 de outubro de 2023, o projeto foi sancionado pelo governador do estado, Rafael Fonteles.\n[…]\nO Cabeça de Cuia é uma figura lendária do folclore brasileiro, especialmente do estado do Piauí. A lenda narra a trajetória de Crispim, um jovem magro, cabeludo e oriundo de uma família pobre, que vivia próximo às margens do rio Parnaíba, no município de Teresina, capital do Piauí. Certo dia, ao deparar-se com uma refeição escassa preparada por sua mãe, ele teria se enfurecido e atirado um osso de boi contra a cabeça dela, causando sua morte.\n[…]\nAntes de falecer, a mãe o amaldiçoou, condenando-o a vagar dia e noite pelos rios Parnaíba e Poti sob a forma de uma criatura com uma cabeça grande, semelhante a uma cuia, daí o nome \"Cabeça de Cuia\". A lenda ainda afirma que Crispim só poderia quebrar a maldição após devorar sete moças virgens chamadas Maria. Após ser amaldiçoado, ele teria corrido em direção ao rio Parnaíba e se lançado nas águas, afogando-se.\n[…]\nLenda\n[…]\nReinaldo Coutinho; Cabeça de Cuia: Monstro ou ET?, Edições do autor, 2002."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Samba de roda",
+      "descricao": "Manifestação de música, dança e poesia afro-brasileira da Bahia, proclamada patrimônio da humanidade pela Unesco."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Reconhecido pela Unesco em 2005, o samba de roda tem suas raízes em qual região da Bahia?",
+    "resposta": "Recôncavo Baiano",
+    "distratores": [
+      "Chapada Diamantina",
+      "Sul da Bahia",
+      "Vale do São Francisco"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Samba_de_roda"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Samba_de_roda",
+        "situacao": "ok",
+        "texto": "O samba de roda é uma forma ancestral de dança do samba originária no Recôncavo Baiano e é tido como a matriz fundamental para o nascimento do samba urbano carioca e do samba rural, especialmente do baiano.\n[…]\nO ritmo e dança teve sua candidatura ao Livro de Registro (que registra os patrimônios imateriais protegidos pelo IPHAN) lançada em 4 de outubro de 2004, e, depois de ampla pesquisa a respeito de sua história, o samba de roda foi finalmente registrado como patrimônio imaterial em 25 de novembro de 2005, status que traz muitos benefícios para a cultura popular e, sobretudo, para a cultura do Recôncavo Baiano, berço do samba de roda.\n[…]\nLançada por artistas como Antônio Carlos Jobim e João Gilberto (este, baiano de Juazeiro, o inventor do ritmo tocado no violão), a Bossa Nova é acusada pelo historiador da música brasileira, José Ramos Tinhorão, de ter se distanciado da evolução natural do samba de roda e se limitar apenas a aproveitar parte de seu ritmo para juntá-lo à influência do jazz e dos standards (a música popular cinematográfica de Hollywood, cujo maior ídolo foi Frank Sinatra).\n[…]\nA manifestação cultural, na sua forma contemporânea, está presente em obras de compositores baianos como Dorival Caymmi, João Gilberto e Caetano Veloso. Nos anos 1980, o Samba de roda foi representado por nomes como Zeca Pagodinho e Dudu Nobre.\n[…]\nO samba de roda designa uma mistura de música, dança, poesia e festa. Presente em todo o estado da Bahia, é praticado principalmente, na região do Recôncavo. Mas o ritmo se espalhou por várias partes do país, sobretudo Pernambuco e Rio de Janeiro.\n[…]\nSamba\n[…]\n«Samba de Roda»\n[…]\n«Samba de Roda do Recôncavo Baiano»"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Quadrilha junina",
+      "descricao": "Dança coletiva típica das festas juninas, derivada de uma dança de salão europeia."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A quadrilha das festas juninas descende de uma dança de salão aristocrática que veio de qual país europeu?",
+    "resposta": "França",
+    "distratores": [
+      "Portugal",
+      "Espanha",
+      "Itália"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Quadrilha_(dança)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quadrilha_(dança)",
+        "situacao": "ok",
+        "texto": "Quadrilha (do francês quadrille) é uma modalidade de dança de salão que, no dizer de Câmara Cascudo, foi \"a grande dança palaciana do séc. XIX\". Era originalmente dançada por quatro pares em formação retangular.\n[…]\nResultado da mistura de várias danças europeias ao longo dos séculos das quais foi incorporando elementos, especialmente da contradança, teve seu auge no século XIX, quando foi introduzida no Brasil e, com suas variações juninas, voltou a ser praticada nos bailes comemorativos aos santos do mês de junho (São Pedro, São João e Santo Antônio) realizados em cidades como Rio de Janeiro, Salvador, Fortaleza e Recife a partir da década de 1990.\n[…]\nNo século XIX era uma dança que compunha o protocolo dos bailes palacianos das cortes europeias e da alta sociedade americana e, mesmo se tornando popular, não perdeu o caráter aristocrático.\n[…]\nFoi introduzida no país no começo do século XIX, durante o Período Regencial, \"trazida por mestres de orquestras de dança francesas, como Milliet e Cavallier, que tocavam as músicas de Musard, \"o pai das quadrilhas\", e Tolbecque\", no registro de Cascudo.\n[…]\nA quadrilha: da partitura aos espaços festivos: música, dança e sociabilidade no Rio de Janeiro oitocentista, Rosa Maria Barbosa Zamith, e-Papers, Rio de Janeiro, 2011, ISBN 9788576503095\n[…]\nFesta junina no Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Quadrilha junina",
+      "descricao": "Dança coletiva típica das festas juninas, derivada de uma dança de salão europeia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na quadrilha junina, o marcador grita anarriê, uma adaptação de uma expressão francesa. O que esse comando significa?",
+    "resposta": "Para trás",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Quadrilha_(dança)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quadrilha_(dança)",
+        "situacao": "ok",
+        "texto": "Quadrilha (do francês quadrille) é uma modalidade de dança de salão que, no dizer de Câmara Cascudo, foi \"a grande dança palaciana do séc. XIX\". Era originalmente dançada por quatro pares em formação retangular.\n[…]\nResultado da mistura de várias danças europeias ao longo dos séculos das quais foi incorporando elementos, especialmente da contradança, teve seu auge no século XIX, quando foi introduzida no Brasil e, com suas variações juninas, voltou a ser praticada nos bailes comemorativos aos santos do mês de junho (São Pedro, São João e Santo Antônio) realizados em cidades como Rio de Janeiro, Salvador, Fortaleza e Recife a partir da década de 1990.\n[…]\nFoi introduzida no país no começo do século XIX, durante o Período Regencial, \"trazida por mestres de orquestras de dança francesas, como Milliet e Cavallier, que tocavam as músicas de Musard, \"o pai das quadrilhas\", e Tolbecque\", no registro de Cascudo.\n[…]\nSua popularização no Brasil fez com que sua execução em cinco partes ganhasse comandos inesperados e grande duração que terminavam por se constituir no próprio baile (e não uma das danças dele); esses comandos eram gritados pelo \"marcante\", muitas vezes com repetições e sua prática se espalhou desde a Corte Imperial aos sertões.\n[…]\nA quadrilha: da partitura aos espaços festivos: música, dança e sociabilidade no Rio de Janeiro oitocentista, Rosa Maria Barbosa Zamith, e-Papers, Rio de Janeiro, 2011, ISBN 9788576503095\n[…]\nFesta junina no Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Padre Cícero",
+      "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Todos os anos, multidões de romeiros nordestinos visitam a cidade cearense onde viveu o Padre Cícero. Que cidade é essa?",
+    "resposta": "Juazeiro do Norte",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Padre_Cícero",
+      "https://pt.wikipedia.org/wiki/Juazeiro_do_Norte"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Padre_Cícero",
+        "situacao": "ok",
+        "texto": "Cícero Romão Batista (Crato, 24 de março de 1844 – Juazeiro do Norte, 20 de julho de 1934) foi um sacerdote católico brasileiro. Na devoção popular, é conhecido como Padre Cícero ou Padim (padrinho, na norma culta) padre Ciço. Obteve grande prestígio e influência sobre a vida social, política e religiosa do Ceará, bem como do Nordeste.\n[…]\nPadre Cícero era filiado ao extinto Partido Republicano Conservador (PRC). Foi o primeiro prefeito de Juazeiro do Norte, em 1911, quando o povoado foi elevado a cidade. Em 1926 foi eleito deputado federal, porém não chegou a assumir o cargo. Em 4 de outubro de 1911, ele e outros dezesseis líderes políticos da região se reuniram em Juazeiro e firmaram um acordo de cooperação mútua bem como o compromisso de apoiar o governador Antônio Pinto Nogueira Accioli.\n[…]\nO padre Cícero morreu em Juazeiro do Norte em 20 de julho de 1934, aos 90 anos, encontrando-se sepultado na Igreja de Nossa Senhora do Perpétuo Socorro, na mesma cidade.\n[…]\nNo dia 20 de agosto de 2022, durante uma missa realizada no largo da Capela do Socorro, em Juazeiro do Norte, o bispo de Crato, Dom Magnus Henrique Lopes, afirmou que recebera da Dicastério para as Causas dos Santos o nihil obstat, datado de 24 de junho de 2022, para dar início ao processo de beatificação de Padre Cícero, agora intitulado \"servo de Deus\". Em 30 de novembro, deu-se início à fase diocesana do processo. O postulador desta causa é o Dr. Paolo Vilotta.\n[…]\nOs Romeiros de Padre Cícero — documentário dirigido por Eduardo Coutinho\n[…]\nBARBOSA, Geraldo Menezes. Relíquia: o mistério do sangue das hóstias de Juazeiro do Norte. Juazeiro do Norte: Gráfica e Editora Royal, 2004.\n[…]\n________________________. A um Sopro do Infinito. Juazeiro do Norte: Realce, 2007.\n[…]\nPágina dedicada à vida de Padre Cícero\n[…]\nSite que resume Juazeiro do Norte e seus personagens mais importantes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Juazeiro_do_Norte",
+        "situacao": "ok",
+        "texto": "Juazeiro do Norte é um município brasileiro do estado do Ceará. Localiza-se na Região Metropolitana do Cariri, no sul do estado, distante 491 km da capital, Fortaleza, a uma altitude de 377 metros acima do nível do mar. Ocupa uma área de 258,788 km², com uma população de 303 004 habitantes, de acordo com o Censo demográfico de 2024, sendo o terceiro mais populoso do Ceará (depois de Fortaleza e Ca\n[…]\nJuazeiro do Norte era inicialmente um distrito da cidade vizinha Crato, até que o jovem Padre Cícero Romão Batista resolveu se fixar como pároco no lugarejo, até então sem capelão e, portanto, sem os serviços religiosos. Padre Cícero, nascido em 24 de março de 1844, foi um dos responsáveis, tempos depois, pela emancipação e independência da cidade.\n[…]\nJuazeiro do Norte é composta pela sede e pelos distritos Padre Cícero  e Marrocos, sendo dividida em 34 bairros.\n[…]\nJuazeiro do Norte, localizada no Nordeste do Brasil, é um dos principais destinos de turismo religioso da região. A cidade atrai mais de 3 milhões de romeiros e visitantes anualmente. Durante a romaria ao túmulo de Padre Cícero, que ocorre entre 29 de outubro e 2 de novembro, Juazeiro do Norte recebe cerca de 500 mil visitantes. Os locais de peregrinação religiosa na cidade são paradas essenciais para a maioria dos romeiros e visitantes.\n[…]\nA maioria das atrações turísticas de Juazeiro do Norte está relacionada a Padre Cícero Romão Batista, um sacerdote da cidade vizinha de Crato. Ele transformou o pequeno vilarejo de “Joazeiro” na próspera cidade de Juazeiro do Norte e foi seu primeiro prefeito. O famoso Milagre da Hóstia, protagonizado pelo Padre Cícero e pela Beata Maria de Araújo, fez com que a cidade se tornasse um centro de peregrinação, atraindo romeiros de todo o Brasil.\n[…]\nMuseu Padre Cícero:\n[…]\nCearenses de Juazeiro do Norte\n[…]\n«Mapa de Juazeiro do Norte» (PDF)\n[…]\n«Juazeiro do Norte no WikiMapia»\n[…]\n«Dados do IBGE de Juazeiro do Norte»"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Negrinho do Pastoreio",
+      "descricao": "Lenda gaúcha de um menino escravizado castigado num formigueiro que reaparece milagrosamente."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A lenda do Negrinho do Pastoreio, o menino escravizado deixado sobre um formigueiro, é tradição de qual estado brasileiro?",
+    "resposta": "Rio Grande do Sul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Negrinho_do_Pastoreio"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Negrinho_do_Pastoreio",
+        "situacao": "ok",
+        "texto": "O Negrinho do Pastoreio é uma lenda afro-cristã muito contada no final do século XIX pelos brasileiros que defendiam o fim da escravidão, sendo muito popular na região Sul do Brasil.\n[…]\nO primeiro registro conhecido da lenda foi feito por Antonio Maria do Amaral Ribeiro, em 1857, que a caracterizou como \"uma superstição, que tem tanto de absurda quanto de ridícula e exótica\". O Negrinho do Pastoreio também apareceu nas obras de Alberto Coelho da Cunha, em 1872, e de Apolinário Porto Alegre, 1875, que por vezes é considerado o primeiro registro da lenda, e por Alfredo Varela, em 1897.\n[…]\nNa versão da lenda escrita por João Simões Lopes Neto, o protagonista é um menino negro e pequeno, escravo de um estancieiro muito mau; este menino não tinha padrinhos nem nome, sendo conhecido como Negrinho, e se dizia afilhado da Virgem Maria. Após perder uma corrida e ser cruelmente punido pelo estancieiro, o Negrinho caiu no sono, e perdeu o pastoreio. Ele foi castigado de novo, mas depois achou o pastoreio, mas, caindo no sono, o perdeu pela segunda vez.\n[…]\nA lenda o negrinho do pastoreio possui muitas cenas fortes e duras, como muitos contos de fadas europeus. Assim como esses contos, a lenda gaúcha possui algumas adaptações que abordam a história de forma branda e bastante lúdica, em formato de livro infantil ou história em quadrinho. Como por exemplo: Lendas Brasileiras da Turma da Mônica, da Editora Girassol, e Coleção Folclore Mágico, da editora Ciranda Cultural.\n[…]\nO personagem foi interpretado por Grande Otelo no filme O Negrinho do Pastoreio, de 1973, dirigido por Antonio Augusto Fagundes."
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Negrinho do Pastoreio",
+      "descricao": "Lenda gaúcha de um menino escravizado castigado num formigueiro que reaparece milagrosamente."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Muitos devotos acendem uma vela para o Negrinho do Pastoreio. Que tipo de ajuda costumam pedir a ele?",
+    "resposta": "Encontrar objetos perdidos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Negrinho_do_Pastoreio"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Negrinho_do_Pastoreio",
+        "situacao": "ok",
+        "texto": "O Negrinho do Pastoreio é uma lenda afro-cristã muito contada no final do século XIX pelos brasileiros que defendiam o fim da escravidão, sendo muito popular na região Sul do Brasil.\n[…]\nSua comemoração é todo dia 14 de maio, levando uma forte devoção à recuperação de causas perdidas.\n[…]\nNo livro “Como Nasceram as Estrelas”, de Clarice Lispector, a história “O Negrinho do Pastoreio”, entre outras lendas, foi abordada. Nessa versão, a história é escrita para o público infanto juvenil, sendo mais branda que a adaptação de Simões Lopes Neto, e mais detalhada que outras adaptações lançadas em formato de história em quadrinhos focadas no público infantil.\n[…]\nA lenda o negrinho do pastoreio possui muitas cenas fortes e duras, como muitos contos de fadas europeus. Assim como esses contos, a lenda gaúcha possui algumas adaptações que abordam a história de forma branda e bastante lúdica, em formato de livro infantil ou história em quadrinho. Como por exemplo: Lendas Brasileiras da Turma da Mônica, da Editora Girassol, e Coleção Folclore Mágico, da editora Ciranda Cultural.\n[…]\nNessas adaptações infantis o filho do patrão, uma criança, não abordado como vilão, e as formigas são amigas do Negrinho e não o matam.\n[…]\nO personagem foi interpretado por Grande Otelo no filme O Negrinho do Pastoreio, de 1973, dirigido por Antonio Augusto Fagundes.\n[…]\nNo filme Netto e o Domador de Cavalos (2008), dirigido por Tabajara Ruas, o negrinho do pastoreio foi interpretado pelo ator Evandro Elias."
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Boitatá",
+      "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Boitatá, que protege os campos contra incêndios, tem nome de origem tupi. Que expressão em português traduz esse nome?",
+    "resposta": "Cobra de fogo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Boitatá",
+      "https://en.wikipedia.org/wiki/Boitatá"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Boitatá",
+        "situacao": "ok",
+        "texto": "Boitatá é um termo oriundo da língua tupi usado para designar, em todo o Brasil, o fenômeno do fogo-fátuo, e deste derivando algumas entidades míticas, das primeiras registradas no país.\n[…]\nNo folclore brasileiro, o Boitatá (Mboitatá) é uma gigantesca cobra-de-fogo, que assim como o Cobra-Grande é um terror que viva nas águas. É o guardião do campo servindo sob a Jaci (deusa geral dos vegetaes), u se transformar também numa tora em brasa, queimando aqueles que põem fogo nas campos, matas e florestas.\n[…]\nDecidiu comer a parte que mais lhe apetecia: os olhos dos animais. De tanto comê-los, foi ficando toda luminosa, cheia de luz de todos esses olhos. Seu corpo transformou-se em ajuntadas pupilas rutilantes, bola de chamas, clarão vivo, boitatá, cobra de fogo. Ao mesmo tempo a alimentação frugal deixou a boiguaçu muito fraca.\n[…]\nA tentativa de escapar da cobra apresenta riscos porque o ente pode imaginar fuga de alguém que ateou fogo nas matas. No Rio Grande do Sul, acredita-se que o \"boitatá\" é o protetor das matas e das campinas. A verdade é que a ideia de uma cobra luminosa, protetora de campinas e dos campos aparece freqüentemente na literatura, sobretudo nas narrativas do Rio Grande do Sul.\n[…]\nApesar do tamanho gigante, a serpente é tão discreta, que só conseguem vê-la aqueles que ela mesmo captura”. Também João Simões Lopes Neto, em obra supramencionada, refere-se ao ser no feminino, valendo citar o trecho: “Foi assim e foi por isso que os homens, quando pela primeira vez viram a boiguaçu tão demudada, não a conheceram mais. Não conheceram e julgando que era outra, muito outra, chamam-na desde então, de boitatá, cobra do fogo, boitatá, a boitatá!”."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Boitatá",
+        "situacao": "ok",
+        "texto": "Boitatá (from Tupi language), in Brazilian native folklore, refers to either a will-o'-the-wisp, a mythical fire snake which guards against humans setting fire to the fields or forests, or a bull-like creature.\n[…]\nBoitatá (var. baitatá, batatá) derives from Tupi-Guaraní: mba'e 'thing' or 'agent, cause' + taʼta/tatá 'fire', influenced by mbói 'snake, serpent'.\n[…]\nThus the term Boitatá, like \"João Galafoice\" could be a synonym for Fogo-fátuo (will-o'-the-wisp). However, it could also refer to a mythical fire-serpent, the defender of fields, or forests. Alternatively, it is a mythical bull that shoots fire out of its nostrils.\n[…]\nThe term Boitatá is also used as papão, i.e., the Portuguese and Brazilian bogeyman to frighten children into obedience.\n[…]\nThe fire snake Boitatá (Mboitatá), according to Magalhães (1876), is one of the being subjected under the moon goddess Jaci, the protectoress of all plants. Mboitátá is the spirit (genio) who guards the fields (campos) against those who sets them on fire (cf. controlled burn, slash-and-burn). The fire-snake sometimes transforms into a fiery log (called méuan) and burns the arsonist to death.\n[…]\nThe fire snake Boitatá is similar to the Cobra-Grande, both being terrifying serpents dwelling in or near water.\n[…]\n1929, published 1948), the Tupi stem mbói for \"snake\" was easily confused with Portuguese boi for \"ox\", hence the shift in the lore from the indigenous original. The artwork of local folklorist Franklin Cascaes has created some 30 pieces of iconography on the boitáta theme, with examples featuring a horned bovine head, body of a bull or cow, as well as wings and bipedalism (standing erect on two legs).\n[…]\nTupi people"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Boitatá",
+      "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1560, qual padre jesuíta fez numa carta o primeiro registro escrito conhecido do Boitatá?",
+    "resposta": "José de Anchieta",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Boitatá",
+      "https://en.wikipedia.org/wiki/Boitatá"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Boitatá",
+        "situacao": "ok",
+        "texto": "Boitatá é um termo oriundo da língua tupi usado para designar, em todo o Brasil, o fenômeno do fogo-fátuo, e deste derivando algumas entidades míticas, das primeiras registradas no país.\n[…]\nEm 1560 registrou o Padre José de Anchieta:\n[…]\n\"Há também outros (fantasmas), máxime nas praias, que vivem a maior parte do tempo junto do mar e dos rios, e são chamados baetatá, que quer dizer coisa de fogo, o que é o mesmo como se se dissesse o que é todo de fogo. Não se vê outra coisa senão um facho cintilante correndo para ali; acomete rapidamente os índios e mata-os, como os curupiras; o que seja isto, ainda não se sabe com certeza.\" (in: Cartas, Informações, Framentos Históricos, etc. do Padre José de Anchieta, Rio de Janeiro, 1933)\n[…]\nA serpente também é relembrada na história de José Santos, “O casamento do Boitatá com a Mula-sem-cabeça”, onde o autor descreve de forma lúdica a união de vários seres do folclore brasileiro. O mito, em sua versão sincrética, aparece ainda no livro \"A lenda do Batatão\", de Marco Haurélio, escrito em sextilhas de cordel. O Batatão, embora conserve sua característica ígnea, se aproxima das almas penadas.\n[…]\nApesar do tamanho gigante, a serpente é tão discreta, que só conseguem vê-la aqueles que ela mesmo captura”. Também João Simões Lopes Neto, em obra supramencionada, refere-se ao ser no feminino, valendo citar o trecho: “Foi assim e foi por isso que os homens, quando pela primeira vez viram a boiguaçu tão demudada, não a conheceram mais. Não conheceram e julgando que era outra, muito outra, chamam-na desde então, de boitatá, cobra do fogo, boitatá, a boitatá!”."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Boitatá",
+        "situacao": "ok",
+        "texto": "Boitatá (from Tupi language), in Brazilian native folklore, refers to either a will-o'-the-wisp, a mythical fire snake which guards against humans setting fire to the fields or forests, or a bull-like creature.\n[…]\nBoitatá (var. baitatá, batatá) derives from Tupi-Guaraní: mba'e 'thing' or 'agent, cause' + taʼta/tatá 'fire', influenced by mbói 'snake, serpent'.\n[…]\nIn a letter dated 31 May 1560, Father José de Anchieta described the apparition as the baetatá (meaning \"thing of fire\" or \"that which is entirely of fire\"), dwelling at most times near sea and rivers, encountered especially on beaches. What appears to be a glimmering beam of light coursing towards its victim will attack the Indians, burning and killing them. Such fatality is likened to the handiwork of the curupira.\n[…]\nThe fire snake Boitatá (Mboitatá), according to Magalhães (1876), is one of the being subjected under the moon goddess Jaci, the protectoress of all plants. Mboitátá is the spirit (genio) who guards the fields (campos) against those who sets them on fire (cf. controlled burn, slash-and-burn). The fire-snake sometimes transforms into a fiery log (called méuan) and burns the arsonist to death.\n[…]\nThe fire snake Boitatá is similar to the Cobra-Grande, both being terrifying serpents dwelling in or near water.\n[…]\nJosé Santos's O casamento do Boitatá com a Mula-sem-cabeça (\"The Wedding of the Boitatá with the Headless Mule\", 2007) combines several beings from Brazilian folklore, like the Headless Mule (Mula sem cabeça).\n[…]\nMarco Haurélio's A lenda do Batatão (\"The Legend of Batatão\", 2012) written in sextilha strophes, features a \"Batatão\" which preserves the fiery characteristic of the boitatá, but is similar to the tormented soul."
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Iara",
+      "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em tupi, o nome da Iara, a sereia que atrai os pescadores para o fundo dos rios, quer dizer o quê?",
+    "resposta": "Senhora das águas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Iara_(mitologia)",
+      "https://en.wikipedia.org/wiki/Iara_(mythology)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Iara_(mitologia)",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Iara_(mythology)",
+        "situacao": "ok",
+        "texto": "Iara, also spelled Uiara, Yara or Hiara (Portuguese pronunciation: [iˈaɾɐ], [wiˈaɾɐ], [ujˈaɾɐ]) or Mãe das Águas ([ˌmɐ̃j̃ dɐz ˈaɡwɐs], \"mother of the waters\"), is a figure from Brazilian mythology based on Tupi and Guaraní mythology.\n[…]\nAnother real-life incident tied to the iara myth concerns Dr. João Barbosa Rodrigues Júnior (1872–1931) who while collaborating with his father to domesticate a tribe, was accompanied by his wife, who was fair-skinned, blue-eyed and blonde, and when she was spotted bathing in the creek, the natives shouted \"Uiara! Uiara!\"\n[…]\nModernists poets also alluded to the iara. Cassiano Ricardo in Martim Cererê (1928) described her as \"a strange woman, very beautiful, very fair, like no other in the world: Green hair, yellow eyes. Her name was Uiara\". Mário de Andrade in Clã do Jabuti ('Clan of the Turtle', 1927) writes of a siren in the river, presumed to refer to the Mãe d'Água, as having \"hair of green river slime\" (limo verde do rio).\n[…]\nThe Mãe-d'água (Mother of the Water, also styled Mãe das Águas) is a supernatural being of the rivers and lakes, held to be the equivalent of the Iara of the Amazon.\n[…]\nThe lore of boto river dolphin sometimes transforming into human women is likened to Iara or Iemanjá.\n[…]\nIara (or Yara) is a very popular female name in Brazil.\n[…]\nIn the 2021 DC Comics' Wonder Girl comic book starring the future Brazilian Wonder Woman, Yara Flor, Iara was a great Brazilian warrior who was later transformed into a mermaid-like divine being as the protector of the sacred waters. It was she who bestowed on Yara Flor her characteristic weapon of power, the Golden Boleadoras.\n[…]\nMadre de aguas – Cuban folklore creature\n[…]\nYacumama (Quechua: \"Madre del Agua\") - legendary serpent of the Amazon"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Frevo",
+      "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do frevo, a dança das sombrinhas coloridas do carnaval pernambucano, vem de uma pronúncia popular de qual verbo?",
+    "resposta": "Ferver",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Frevo",
+      "https://en.wikipedia.org/wiki/Frevo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Frevo",
+        "situacao": "ok",
+        "texto": "O frevo é um ritmo musical e uma dança brasileira com origem no estado de Pernambuco. Sua música baseia-se na fusão de gêneros como marcha, maxixe, dobrado e polca, e sua dança foi influenciada pela capoeira.\n[…]\nA palavra frevo vem de ferver, por sua corruptela, frever, que passou a designar: efervescência, agitação, confusão, rebuliço; apertão nas reuniões de grande massa popular no seu vai e vem em direções opostas, como o Carnaval, de acordo com o \"Vocabulário Pernambucano\", de Pereira da Costa.\n[…]\nNa terceira e última fase, que vai de 1920 até os dias atuais, com a Proclamação da República e abolição da escravatura, tem-se o surgimento de vários clubes oriundos das classes populares que, apesar dos incentivos do governo e da imprensa que prestigiavam o carnaval burguês europeu, faziam as ruas ferverem. Nesse contexto, nascia o frevo.\n[…]\nO Galo da Madrugada é um bloco carnavalesco que preserva as tradições locais. Eles tocam ritmos pernambucanos e desfilam sem cordões de isolamento. O desfile do galo da madrugada é um dos momentos para se ouvir e se dançar frevo no carnaval. É considerado desde 1994 o maior bloco de carnaval do mundo pelo Guinness Book.\n[…]\nSegundo Leonardo Dantas, é no frevo de bloco que está a melhor parte da poesia do carnaval pernambucano.\n[…]\nA presença do clube carnavalesco pernambucano Vassourinhas no carnaval de Salvador, em 1951, insipirou os baianos Dodô e Osmar a tocarem o frevo num instrumento por eles inventado, o pau elétrico - que viria a ser conhecido como guitarra baiana, (nome esse dado por Armandinho Macêdo, que introduziu uma 5ª corda- Dó). -, em cima de um Ford 1929 (a famosa Fobica), dando origem ao trio elétrico.\n[…]\nOsvaldo de Almeida, o pai do frevo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Frevo",
+        "situacao": "ok",
+        "texto": "Frevo is a dance and musical style originating from Recife, Pernambuco, Brazil, traditionally associated with Brazilian Carnival. The word frevo is said to come from frever, a variant of the Portuguese word ferver (to boil). It is said that the sound of the frevo will make listeners and dancers feel as if they are boiling on the ground. The word frevo is used for both the frevo music and the frevo\n[…]\nStarting in the 1950s, one of the biggest contributors to the passo is the master Nascimento do Passo. It's said that he added more than 100 different movements to the dance since then. He also founded the first Frevo school in Recife in the late 1990s. The image of the passista is one of the most prominent icons of the carnival of Pernambuco.\n[…]\nPerformances in military ceremonies and various cultural festivals of Pernambuco allowed for musician Capitão Zuzinha and his frevo-playing band Military Police to act as a bridge between the state police and civilians. The band later changed its name to “Captain Zuzinha Frevo Band” in Zuzinha's honour, as he was the driving force that led to national recognition of the band in the 1930's and 1940's.\n[…]\nCaptain Zuzinha and the band wrote thousands of manuscript scores throughout the early twentieth century and into the early 2000’s. These frevo scores document the historical origins of modern frevo and the genre's emergence in Brazilian pop culture. The Modern Endangered Archives Program at the UCLA Library sponsored a digitization project of nearly 700 music arrangements which document Captain Zuzinha's contribution to the genre. This collection is available digitally through the UCLA library.\n[…]\n(in English) on the origins of frevo-de-trio style (Bahia)\n[…]\nThe Modern Endangered Archives Program Partituras de Frevo da Banda Capitão Zuzinha collection is available through the UCLA Library."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Xaxado",
+      "descricao": "Dança do sertão nordestino associada aos cangaceiros, dançada originalmente só por homens."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da dança sertaneja xaxado é uma imitação de qual som?",
+    "resposta": "Sandálias arrastando no chão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Xaxado"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Xaxado",
+        "situacao": "ok",
+        "texto": "Xaxado é uma dança popular brasileira originada no sertão do estado de Pernambuco, região Nordeste. Originalmente, foi praticada apenas por homens, pois a atuação de mulheres era vedada. Trata-se de um tipo de forró. É executada em círculo ou em fila indiana.\n[…]\nA coreografia caracteriza-se por movimentos laterais com o pé direito, seguidos pelo arraste do pé esquerdo, criando um ritmo marcado e deslizante, muitas vezes acompanhado pelo som de fuzis sendo batidos no chão, em referência ou influência dos cangaceiros liderados por Lampião.\n[…]\nO xaxado foi popularizado e muito praticado no passado pelo cangaço da região Nordeste, em celebração às suas vitórias. Surgiu na segunda década do século XX. É Patrimônio Cultural do Brasil.\n[…]\nA palavra xaxado é uma onomatopeia do barulho xa-xa-xa, que os dançarinos fazem ao arrastar as percatas (alpercatas) no chão durante a dança.\n[…]\nHistória do Xaxado\n[…]\nHistória do Xaxado"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Xaxado",
+      "descricao": "Dança do sertão nordestino associada aos cangaceiros, dançada originalmente só por homens."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A dança xaxado e a canção Mulher Rendeira ficaram famosas por causa do bando de qual cangaceiro?",
+    "resposta": "Lampião",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Xaxado",
+      "https://pt.wikipedia.org/wiki/Lampião"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Xaxado",
+        "situacao": "ok",
+        "texto": "Xaxado é uma dança popular brasileira originada no sertão do estado de Pernambuco, região Nordeste. Originalmente, foi praticada apenas por homens, pois a atuação de mulheres era vedada. Trata-se de um tipo de forró. É executada em círculo ou em fila indiana.\n[…]\nA coreografia caracteriza-se por movimentos laterais com o pé direito, seguidos pelo arraste do pé esquerdo, criando um ritmo marcado e deslizante, muitas vezes acompanhado pelo som de fuzis sendo batidos no chão, em referência ou influência dos cangaceiros liderados por Lampião.\n[…]\nO xaxado foi popularizado e muito praticado no passado pelo cangaço da região Nordeste, em celebração às suas vitórias. Surgiu na segunda década do século XX. É Patrimônio Cultural do Brasil.\n[…]\nA palavra xaxado é uma onomatopeia do barulho xa-xa-xa, que os dançarinos fazem ao arrastar as percatas (alpercatas) no chão durante a dança.\n[…]\nHistória do Xaxado\n[…]\nHistória do Xaxado"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lampião",
+        "situacao": "ok",
+        "texto": "Lampião, lanterna, luminária, lamparina ou candeeiro é um objeto destinado à iluminação, geralmente constituído por uma armação de metal (embora pudesse ser de outro material, como cerâmica) com um anteparo transparente (geralmente de vidro) para proteger a fonte de luz, que pode ser uma vela, uma chama abastecida por combustível (querosene ou gás, por exemplo) ou mesmo vagalumes, como era costume\n[…]\nAntes do surgimento das lâmpadas elétricas, as lanternas eram usadas para iluminação noturna, sendo carregadas em carruagens, . O lampião a gás foi inventado em 1792, e foi uma das circunstâncias que possibilitaram o aumento da jornada de trabalho nas fábricas, principalmente da Inglaterra. O lampião ainda é usado em diversas culturas, como objeto de iluminação ou de decoração para atividades noturnas.\n[…]\nSeu uso atual se dá em residências para casos de falta de energia elétrica (ou onde não há fornecimento desta), acampamentos ou minas. O lampião é um tipo de lanterna."
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Carimbó",
+      "descricao": "Ritmo e dança de roda de origem indígena e africana típicos do Pará."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do carimbó, ritmo paraense de saias rodadas, vem do tupi e designava originalmente qual instrumento?",
+    "resposta": "Tambor",
+    "distratores": [
+      "Flauta",
+      "Chocalho",
+      "Viola"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carimbó"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carimbó",
+        "situacao": "ok",
+        "texto": "O carimbó ou curimbó é uma manifestação cultural brasileira de origem afro-indígena, formado por gênero musical e dança, criado no século XVII no então Império das Amazonas/Conquista do Pará (atual estado do Pará) na então América Portuguesa/Brasil Colônia. Evoluindo como uma celebração interiorana entre amigos e familiares após pescarias e plantios acompanhado pelo batuque do tambor artesanal cur\n[…]\nA palavra \"carimbó\" é proveniente do instrumento que possui a denominação em tupi \"korimbó\", originado do instrumento percussivo indígena tradicional, resultado da junção dos termos \"kori\" que significa “pau oco”, e \"m’bó\" que significa “furado”, significando em português “pau furado que produz som\". Devido a forte presença do instrumento curimbó, tambor que marca o rítmo, feito artesanalmente com a escavação de um tronco de árvore, encoberto com couro de animal e afinado ao calor do fogo.\n[…]\n\"É proibido, sob pena de trinta mil reis de multa: (...) Fazer bulhas, vozerias e dar autos gritos (...). Fazer batuques ou samba. (...) Tocar tambor, carimbó, ou qualquer outro instrumento que pertube o sossego durante a noite, etc.\"\n[…]\nO instrumental geralmente inclui dois ou três tambores com timbres diferentes, onde o maior tem o timbre mais grave e é utilizado para a marcação do rítmo, já os outros, menos graves, fazem os repiniques, síncopes e outros fraseados. Seguidos pelos arpejos fraseados e frenéticos dos instrumentos de sopro, harmonizados pelas cordas do banjo.\n[…]\nNa forma tradicional, sem uso de instrumentos elétricos, é chamado de \"pau e corda\", com uma melodia às vezes horizontalizada e ritmo marcado e uníssono, com os tocadores sentados sobre o tambor curimbó, batucando com as duas mãos. Costumam estar presentes também os maracás, reco-reco e a onça, completando o grupo instrumental.\n[…]\nCarimbó, Portal da Amazônia\n[…]\n«\"Prêmio valoriza mestres e mestras do carimbó paraense\"». IPHAN"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Literatura de cordel",
+      "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os folhetos da literatura de cordel ganharam esse nome por causa da maneira como eram expostos nas feiras. Como eram expostos?",
+    "resposta": "Pendurados em barbantes",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Literatura_de_cordel",
+      "https://en.wikipedia.org/wiki/Literatura_de_cordel"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Literatura_de_cordel",
+        "situacao": "ok",
+        "texto": "Literatura de cordel também conhecida no Brasil como folheto, literatura popular em verso, ou simplesmente cordel, é um gênero literário popular escrito frequentemente em versos, na forma rimada, originado em relatos orais e depois impresso em folhetos. Remonta ao século XVI, quando o Renascimento popularizou a impressão de relatos orais, e mantém-se uma forma literária popular no Brasil.\n[…]\nO nome tem origem na forma como tradicionalmente os folhetos eram expostos para venda, pendurados em cordas, cordéis ou barbantes em Portugal. No Nordeste do Brasil o nome foi herdado, mas a tradição do barbante não se perpetuou: o folheto brasileiro pode ou não estar exposto em barbantes. Alguns poemas são ilustrados com xilogravuras, também usadas nas capas. As estrofes mais comuns são as de dez, oito ou seis versos.\n[…]\nA história da literatura de cordel começa com o romanceiro do Renascimento, quando se iniciou a impressão de relatos tradicionalmente orais feitos pelos trovadores medievais, e desenvolve-se até a Idade Contemporânea. O nome cordel está ligado à forma de comercialização desses folhetos em Portugal, onde eram pendurados em cordões, chamados de cordéis. Inicialmente, eles também continham peças de teatro, como as de autoria de Gil Vicente (1465-1536).\n[…]\nNo Brasil, a literatura de cordel é produção típica do Nordeste, sobretudo nos estados de Pernambuco, da Paraíba, do Rio Grande do Norte, do Ceará e da Bahia. Os folhetos costumavam ser vendidos em mercados e feiras pelos próprios autores. Hoje também se faz presente em outros Estados, como Rio de Janeiro, Minas Gerais e São Paulo. O cordel hoje é vendido em feiras culturais, casas de cultura, livrarias e nas apresentações dos cordelistas.\n[…]\nCandace Slater; Octávio Alves Velho (1984). A vida no barbante : a literatura de cordel no Brasil. [S.l.]: Civilização Brasileira. 321 páginas ."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Literatura_de_cordel",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Figa",
+      "descricao": "Amuleto em forma de mão fechada com o polegar entre o indicador e o médio, usado contra mau-olhado."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A figa, amuleto de mão fechada usado contra o mau-olhado, tem um nome que vem do latim e remete a qual fruta?",
+    "resposta": "Figo",
+    "distratores": [
+      "Romã",
+      "Tâmara",
+      "Azeitona"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Figa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Figa",
+        "situacao": "ok",
+        "texto": "A figa é um gesto manual (ou amuleto) utilizado para atrair boa sorte no Brasil e em Portugal, mas presente em outras culturas, onde assume outros significados (alguns ofensivos). Faz-se a figa pela inclusão do polegar entre o dedo indicador e o médio com o punho fechado. Como amuleto, comumente feito de madeira, pedra ou metal, é difundido por todo o Brasil, onde é associado, nas religiões afro-b\n[…]\nNa Europa, a simbologia da figa remonta ao povo etrusco, na Era Romana, quando o gesto era chamado de \"Mano Fico\". O termo Mano significa \"mão\" e Fico (ou Figa) era a representação de genitais femininos, principalmente o clitóris, sendo associado a fertilidade e erotismo.\n[…]\nNa Itália este sinal, conhecido como \"fica\" ou \"far le fiche\", pela semelhança com o clitóris, foi um gesto comum e muito grosseiro em séculos passados​​, semelhante ao dedo médio. O gesto também é mencionado por Dante no vigésimo quinto canto do Inferno da Divina Comédia nos versos 1-16, onde a alma de Vanni Fucci realiza este gesto como um ato de blasfêmia contra Deus.\n[…]\nNa Rússia este sinal, conhecido como \"фиг тебе\"(pronuncia-se \"fik tibie\") ou \"фиг [тебе] с маслом\" (pronuncia-se \"fik [tibie] s maslam\"),  é um gesto bastante ofensivo e usado para negar alguma coisa a alguém, para rir-se de alguém que não conseguiu o que queria ou para mostrar para alguém que não conseguirá nada.\n[…]\nNestes países é usado também como amuleto contra olho gordo na crença de que o obsceno distraia o mal."
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Fita do Senhor do Bonfim",
+      "descricao": "Fitinha colorida de lembrança da Igreja do Senhor do Bonfim, em Salvador, amarrada no pulso com nós de pedidos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "As fitas do Senhor do Bonfim tinham, no início, o comprimento exato do braço da imagem do santo. Por isso, como eram chamadas?",
+    "resposta": "Medida do Bonfim",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fita_do_Senhor_do_Bonfim"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fita_do_Senhor_do_Bonfim",
+        "situacao": "ok",
+        "texto": "A Fita do Senhor do Bonfim, Fita do Bonfim ou fitinha do Bonfim é um souvenir e amuleto típico de Salvador, capital do estado brasileiro da Bahia.\n[…]\nA fita original foi criada em 1809, tendo desaparecido no início da década de 1950. Conhecida como medida do Bonfim, o seu nome devia-se ao fato de que media exatos 47 centímetros de comprimento, a medida do braço direito da estátua de Jesus Cristo, Senhor do Bonfim, postada no altar-mor da igreja mais famosa da Bahia. A imagem foi esculpida em Setúbal, em Portugal, no século XVIII.\n[…]\nAlguns atribuem a criação da fita a Manuel Antônio da Silva Serva.\n[…]\nConfeccionada atualmente em tecido de algodão e vendida em diversas cores com a frase característica \"Lembrança do Senhor do Bonfim da Bahia\", a Fita do Senhor do Bonfim possui um lado que poucos conhecem: cada cor simboliza um Orixá, apesar da tradição católica devido a sua origem e seu nome. Verde escuro para Oxóssi, azul claro para Iemanjá, amarelo para Oxum.\n[…]\nSeja qual for a cor, a fita possui uma representação simbólica, estética e espiritual típicas das raízes africanas e sincretismo da Bahia.\n[…]\nNa tradição popular, supersticiosa e folclórica, a fita do Senhor do Bonfim é enrolada duas vezes no pulso ou no tornozelo, e amarrada com três nós. A cada nó precede um pedido, realizado mentalmente, e que deve ser mantido em segredo até a fita se romper por desgaste natural. Significa que os desejos ou pedidos foram atendidos."
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Fita do Senhor do Bonfim",
+      "descricao": "Fitinha colorida de lembrança da Igreja do Senhor do Bonfim, em Salvador, amarrada no pulso com nós de pedidos."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Ao amarrar no pulso a fitinha do Senhor do Bonfim, quantos pedidos a tradição manda fazer?",
+    "resposta": "Três",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fita_do_Senhor_do_Bonfim"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fita_do_Senhor_do_Bonfim",
+        "situacao": "ok",
+        "texto": "A Fita do Senhor do Bonfim, Fita do Bonfim ou fitinha do Bonfim é um souvenir e amuleto típico de Salvador, capital do estado brasileiro da Bahia.\n[…]\nNão se sabe quando a transição para a atual fita, de pulso, ocorreu, sendo fato que em meados da década de 1960 a nova fita já era comercializada nas ruas de Salvador, quando foi adotada pelos hippies baianos como parte de sua indumentária. A fita vendida por ambulantes em volta da Igreja do Senhor do Bonfim e amarradas sob o gradil do local, em Salvador, precipuamente é uma lembrança e atestado da visita que o devoto ou turista tenha realizado àquele templo católico.\n[…]\nAlguns atribuem a criação da fita a Manuel Antônio da Silva Serva.\n[…]\nConfeccionada atualmente em tecido de algodão e vendida em diversas cores com a frase característica \"Lembrança do Senhor do Bonfim da Bahia\", a Fita do Senhor do Bonfim possui um lado que poucos conhecem: cada cor simboliza um Orixá, apesar da tradição católica devido a sua origem e seu nome. Verde escuro para Oxóssi, azul claro para Iemanjá, amarelo para Oxum.\n[…]\nSeja qual for a cor, a fita possui uma representação simbólica, estética e espiritual típicas das raízes africanas e sincretismo da Bahia.\n[…]\nNa tradição popular, supersticiosa e folclórica, a fita do Senhor do Bonfim é enrolada duas vezes no pulso ou no tornozelo, e amarrada com três nós. A cada nó precede um pedido, realizado mentalmente, e que deve ser mantido em segredo até a fita se romper por desgaste natural. Significa que os desejos ou pedidos foram atendidos."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Círio de Nazaré",
+      "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra círio, que dá nome à grande procissão de outubro em Belém do Pará, significa o quê?",
+    "resposta": "Vela grande",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Círio_de_Nazaré",
+      "https://pt.wiktionary.org/wiki/círio"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Círio_de_Nazaré",
+        "situacao": "ok",
+        "texto": "O Círio de Nazaré é uma manifestação religiosa católica, herdada dos colonizadores portugueses, marcada por procissões (romarias) em devoção a Nossa Senhora de Nazaré, que ocorre na cidade brasileira de Belém (estado do Pará). É celebrado anualmente desde 1793, no segundo domingo de outubro, reunindo atualmente cerca de dois milhões de pessoas.\n[…]\nO termo \"círio\" vem do latim \"cereum\", que significa \"vela grande\".\n[…]\nDesde então, anualmente no mês de setembro, os portugueses reúnem-se no Sítio da Nazaré, para reverenciar Nossa Senhora da Nazaré. A principal romaria, o Círio da Prata Grande, inicia no Conselho de Mafra e transporta, em uma berlinda, uma outra imagem, onde a Virgem Maria está em pé — semelhante a venerada no Círio brasileiro.\n[…]\n1977 - As imagens de Nossa Senhora de Nazaré e São Luiz de Gonzaga são roubadas por dois homens na Igreja Madre de Deus, em Vigia. Após uma grande mobilização que chamou a atenção da imprensa local e nacional, a imagem de Nossa Senhora de Nazaré é encontrada em um comércio na Rodovia BR 316, em Marituba, mas sem o cabelo e a de São Luiz praticamente destruída.\n[…]\n2021 - O Traslado para Ananindeua e Marituba volta a ser realizado, mas contemplando apenas as grandes vias. Mais uma vez, a grande procissão não aconteceu, sendo substituída pelo Círio Aéreo. Mesmo assim, 500 mil pessoas vão as ruas realizando um Círio próprio.\n[…]\nAs homenagens de fogos de artifício, queimados durante a passagem da imagem pelas ruas do centro histórico de Belém, formam um espetáculo à parte, principalmente o grande espetáculo pirotécnico promovido na noite da Trasladação e a grande queima de fogos promovida no dia do Círio pelo Sindicato dos Estivadores do estado do Pará. Outras homenagens tradicionais das duas procissões são do Banco do Brasil, do Banco do Estado do Pará e do Banco da Amazônia.\n[…]\nMuseu do Círio"
+      },
+      {
+        "url": "https://pt.wiktionary.org/wiki/círio",
+        "situacao": "inacessivel",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Círio de Nazaré",
+      "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição, por volta de 1700, quem encontrou a imagem de Nossa Senhora de Nazaré às margens de um igarapé em Belém?",
+    "resposta": "O caboclo Plácido",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Círio_de_Nazaré",
+      "https://en.wikipedia.org/wiki/Círio_de_Nazaré"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Círio_de_Nazaré",
+        "situacao": "ok",
+        "texto": "O Círio de Nazaré é uma manifestação religiosa católica, herdada dos colonizadores portugueses, marcada por procissões (romarias) em devoção a Nossa Senhora de Nazaré, que ocorre na cidade brasileira de Belém (estado do Pará). É celebrado anualmente desde 1793, no segundo domingo de outubro, reunindo atualmente cerca de dois milhões de pessoas.\n[…]\nEmbora o culto tenha se iniciado na cidade de Vigia de Nazaré, a tradição mais conhecida relata que em 1700, Plácido, um caboclo descendente de portugueses e de índios andava pelas imediações do então igarapé Murutucu na cidade de Belém, área atualmente corresponde aos fundos da Basílica Santuário Nossa Senhora de Nazaré, quando encontrou uma pequena estátua deteriorada de Nossa Senhora da Nazaré, réplica da estátua em Portugal, entalhada em madeira com aproximadamente 28 cm de altura, entre pedras lodosas.\n[…]\nSegundo a lenda, a imagem de Nossa Senhora de Nazaré foi encontrada vestida com um manto pelo caboclo Plácido. Desde então, em todas as edições do Círio, é confeccionado um manto de acordo com o tema da festividade. Até 1973, a irmã Alessandra, da Congregação Filhas de Sant'Anna, ligada ao Colégio Gentil Bittencourt, era quem confeccionava os mantos com os materiais doados por promesseiros, que não tinham e até hoje não têm as suas identidades reveladas.\n[…]\n1700 - O caboclo Plácido encontra uma estátua deteriorada ás margens do Igarapé Murucutu, onde atualmente são os fundos da Basílica Santuário Nossa Senhora de Nazaré, recebendo o nome de Nossa Senhora de Nazaré.\n[…]\n1840 - Segunda restauração da imagem de Nossa Senhora de Nazaré, enviada para Portugal.\n[…]\n2000 - O Círio chega na Praça Santuário por volta das 15h45, batendo o recorde de 1996. Introdução do Carro de Plácido na romaria. É criada a Guarda Mirim de Nazaré de Belém.\n[…]\n«Santuário de Nossa Senhora de Nazaré (Portugal)»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Círio_de_Nazaré",
+        "situacao": "ok",
+        "texto": "The Círio de Nazaré is a Catholic religious celebration, originating from Portuguese colonizers, involving processions (pilgrimages) in devotion to Our Lady of Nazareth, held in the Brazilian city of Belém (state of Pará). It has been observed annually since 1793, on the second Sunday of October, and currently attracts approximately two million participants.\n[…]\nAlthough the devotion began in Vigia de Nazaré, the most well-known account states that in 1700, Plácido, a caboclo descendant of Portuguese and indigenous ancestry, found a small, deteriorated wooden statue of Our Lady of Nazareth, a replica of the Portuguese statue, approximately 28 cm tall, near the Murutucu stream in Belém, an area now behind the Basilica of Our Lady of Nazareth of Exile.\n[…]\nThe account gained the attention of the governor of the Captaincy of Grão Pará, Francisco Maurício de Sousa Coutinho, who ordered the statue moved to the city palace’s chapel. Despite being kept under guard, the statue disappeared and reappeared at Plácido’s hermitage. This led to the devotion gaining official status, and the Basilica of Our Lady of Nazareth was later built where the hermitage stood.\n[…]\nIn 1969, a replica of the statue, known as the Pilgrim Image, was crafted in a caboclo style, representing the Amazonian population. It is used in the Círio pilgrimages and was restored in 2002. The original statue, the Original Image, is kept in the Basilica Sanctuary’s Glória do Altar-Môr, lowered in May for the basilica’s sanctuary status festivities and in October during the Nazarene period, placed in a glass dome.\n[…]\n1700 - Plácido, a caboclo, finds a deteriorated statue of Our Lady of Nazareth near the Murutucu stream, now behind the Basilica of Our Lady of Nazareth of Exile.\n[…]\n2000 - The Float of Plácido and the Nazaré Junior Guard are introduced.\n[…]\nBasilica Nossa Senhora de Nazaré"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Curupira",
+      "descricao": "Protetor das matas do folclore brasileiro, com cabelos vermelhos e os pés virados para trás."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a lenda, por que o Curupira, protetor das matas, tem os pés virados para trás?",
+    "resposta": "Para enganar os caçadores com rastros invertidos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Curupira",
+      "https://en.wikipedia.org/wiki/Curupira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Curupira",
+        "situacao": "ok",
+        "texto": "Curupira é uma entidade da mitologia tupi e do folclore brasileiro, conhecido como o protetor e guardião das florestas e dos animais e por ter os pés voltados para trás.\n[…]\nO Curupira é um dos mitos mais antigos conhecidos do Brasil. É caracterizado como uma entidade das matas e, de acordo com as lendas, tem cabelo cor-de-fogo ou pode ser feito de fogo. Assemelha-se a um homem, um menino ou um anão, mas seus pés estão virados para trás para confundir os caçadores sem escrúpulos, deixando rastros enganosos. Também é famoso por ser o protetor das florestas e por castigar aqueles que fazem mal a elas.\n[…]\nÉ o mais popular dos entes fantásticos das matas brasileiras e, entre os guaranis, é conhecido como Curupi, com o qual, em algumas versões, compartilha características como os pés virados e, às vezes, o falo descomunal – embora sua predileção em procurar mulheres não é tão típica como neste.\n[…]\nO Curupira vive nas florestas, é de prodigiosa força física e tem os pés voltados para trás para criar pegadas ao contrário, confundindo caçadores e viajantes, fazendo-os perder o rumo certo, transviando-os dentro da floresta, com assobios e sinais falsos ou gritos longos e estridentes. Também imita a voz humana, num grito de chamada, para atrair vítimas. O inocente que ouve os gritos e não se apercebe que é um curupira e dele se aproxima perde inteiramente a noção do rumo.\n[…]\nFaz contratos com os caçadores, dando-lhes armas infalíveis, a troco de alimentos sem pimenta ou alho, que abomina, exigindo acima de tudo segredo absoluto. Pune com a morte ou o abandono, equivalente a fome fatal, os que esquecem os pactos.\n[…]\nCurupi"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Curupira",
+        "situacao": "ok",
+        "texto": "The Curupira, Currupira or Korupira (Portuguese pronunciation: [kuɾuˈpiɾɐ]) is a forest spirit in the myth of the Tupí-Guaraní speaking areas in the Brazil, Paraguay and Guyanas. It is a guardian of the forests that punishes humans for overcutting.\n[…]\nA Russian Fairy Tales story collected by Afanasyev, about the fox that tricks the bear into smashing its own forehead and eating the contents, also exhibits the same motif. The Russian leshy (\"lyeshy\") with green hair and green teeth is only superficially similar to the Curupira.\n[…]\nThe Fundaçao Brasileira para Conservação da Natureza (FBCN) has adopted the curupira as its official symbol in 1958.\n[…]\nA being called the Demon Curupira was featured in several episodes of the 1999–2002 television series Beastmaster. Played by Australian actress Emilie de Ravin, this Curupira, while still possessing the backwards feet, had the appearance of a young and deceptively sweet-faced blonde girl clad in green. She was a spirit of the forest and very capricious; she protected the animals, particularly tigers, and with a kiss she could drain humans of their lives, reducing their bodies to mere husks.\n[…]\nIn the 2020 animated film The Red Scroll, the character Idril is inspired by Curupira, although she does not have backwards feet, she clearly demonstrates the ability to leave inverted footprints on the ground in one of the scenes.\n[…]\nThe 2021 Netflix series Invisible City features numerous characters of Brazilian lore, including Curupira. Curupira, played by Fabio Lago, is portrayed as a homeless person who is actually an entity that guards and protects Brazilian forests, perceived by his backward feet, flaming head, and illusion-like high whistles that combine nature and human voices."
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Mula sem cabeça",
+      "descricao": "Assombração do folclore brasileiro: uma mulher transformada em mula que solta fogo pelo pescoço."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a lenda, uma mulher é transformada em mula sem cabeça como castigo por namorar quem?",
+    "resposta": "Um padre",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mula_sem_cabeça",
+      "https://en.wikipedia.org/wiki/Mula_sem_cabeça"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mula_sem_cabeça",
+        "situacao": "ok",
+        "texto": "Mula sem cabeça é um personagem do folclore brasileiro. Segundo a crença popular, é uma assombração de uma mulher que foi amaldiçoada por ter tido relações amorosas com um padre. Como punição, ela foi condenada a transformar-se em uma mula sem cabeça, aterrorizando as pessoas.\n[…]\nCavaleiro sem cabeça\n[…]\nImagem da mula sem cabeça\n[…]\nA mula sem cabeça no programa de TV brasileiro Sítio do Picapau Amarelo\n[…]\n«Mythical Brazilian creatures,». Everything2.com (The Headless Mule, \"A Mula Sem-cabeça\", é um dos mitos brasileiros descritos)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mula_sem_cabeça",
+        "situacao": "ok",
+        "texto": "The Headless Mule (Portuguese: mula sem cabeça, pronounced [ˈmulɐ ˈsẽj kɐˈbesɐ]) is a mythical character in Brazilian folklore.\n[…]\nTransformation usually occurs at a crossroads. Depending on the source the headless mule may have a placeholder head and mane, made of the fire it spews, to which a red-hot iron bridle is tied.\n[…]\nThe transformation can be reversed temporarily by spilling the mule's blood with the prick of a needle or by tying her to a cross. In the first case, transformation will be prevented while the benefactor is alive and lives in the same parish in  which his feat was accomplished. In the second case the woman will remain in human form until the sun dawns, but will transform again the next time.\n[…]\nThe Headless Mule appears in AdventureQuest Worlds as \"Mula Sem Cabeça\". This version of the mule is depicted as having a fire for a head. It is among the creatures that attack Terra da Festa before the Carnaval Party."
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Lenda do boto",
+      "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na lenda amazônica, o boto vira um rapaz de branco para seduzir moças. Por que ele nunca tira o chapéu?",
+    "resposta": "Para esconder o orifício de respirar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Encantado",
+      "https://pt.wikipedia.org/wiki/Boto-cor-de-rosa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Encantado",
+        "situacao": "desambiguacao",
+        "texto": "Encantado (Portuguese for \"charmed\") may refer to:\n\n\n== Places ==\nEncantado, Rio de Janeiro, a neighbourhood in Rio de Janeiro city, Brazil\nEncantado, Rio Grande do Sul, a city in Rio Grande do Sul, Brazil\nEncantado River, a river in Paraná, Brazil\nEncantado, New Mexico, a community in the United States\n\n\n== Other uses ==\nEncantado (album), an album by Brazilian dance group System 7\nEncantado (myt"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Boto-cor-de-rosa",
+        "situacao": "ok",
+        "texto": "Boto-cor-de-rosa, boto-vermelho, boto-rosa, boto-malhado, boto, costa-quadrada, cabeça-de-balde ou uiara são nomes comuns dados a 3 espécies de golfinhos fluviais (não confundir com golfinhos, que pertencem à família Delphinidae) do gênero Inia. As espécies se distribuem nas bacias dos rios Amazonas e Solimões (I. geoffrensis), na sub-bacia Boliviana (I. boliviensis) e na bacia do rio Araguaia (I.\n[…]\n\"Boto-branco\", \"boto-vermelho\", \"boto-cor-de-rosa\" e \"boto-malhado\" são referências à sua coloração, especialmente da região ventral, que é branca com tendência para o avermelhado. \"Uiara\" vem do tupi ï'yara, que significa \"senhor(a) da água\". O epíteto específico homenageia o naturalista francês Étienne Geoffroy Saint-Hilaire.\n[…]\nInia geoffrensis geoffrensis (de Blainville, 1817) - bacia do Amazonas\n[…]\nSeus limites são estabelecidos por cachoeiras intransponíveis, como as dos rios Xingu e Tapajós no Brasil, e por águas muito rasas. Uma série de quedas d'água e cachoeiras no rio Madeira isolaram a população ao sul da bacia Amazônica na Bolívia. O boto também está distribuído na bacia do rio Orinoco, com exceção do rio Caroni e porção superior do rio Caura na Venezuela. A única conexão entre o Orinoco e o Amazonas é através do Canal do Cassiquiare.\n[…]\nA distribuição do boto nos rios e áreas adjacentes depende da época do ano. Na estação seca, habita os leitos dos rios, mas, na época das chuvas, quando os rios transbordam, estão espalhados por áreas alagadas tanto na floresta (igapó) como nas planícies (várzeas) inundadas. Não tolera águas salobras, sendo ausente nos estuários tanto do Amazonas quanto do Orinoco.\n[…]\nNo folclore brasileiro, diz-se que o boto-cor-de-rosa tem a propriedade de se transformar em um jovem galante e engravidar moças.[carece de fontes]?\n[…]\n«Boto rosa da Amazônia está perto da extinção, diz The Guardian»\n[…]\n«População de boto-vermelho diminui 10% ao ano na Amazônia, diz Inpa»"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Mapinguari",
+      "descricao": "Monstro peludo do folclore amazônico, descrito com um só olho e uma boca na barriga."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Alguns cientistas sugerem que a lenda do Mapinguari, monstro peludo da Amazônia, nasceu da lembrança de qual animal extinto?",
+    "resposta": "Preguiça-gigante",
+    "distratores": [
+      "Tigre-dente-de-sabre",
+      "Mastodonte",
+      "Tatu-gigante"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mapinguari",
+      "https://pt.wikipedia.org/wiki/Mapinguari"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mapinguari",
+        "situacao": "ok",
+        "texto": "The Mapinguari or Mapinguary is a cryptid from Brazilian folklore. The Mapinguari is often described as an extremely foul-smelling, hairy animal that is distinct from the North American Bigfoot. Descriptions further allege that the cryptid is a man-eating creature with hook-shaped nails, backwards-facing feet, a bipedal gait, a gaping mouth in its abdomen, and a single eye like the mythological Cy\n[…]\nAuthor Margo DeMello has related the Mapinguari to the Segamai, a legendary creature appearing in accounts shared by the Matsigenka people of Peru. Ethnologist Glenn H. Shepard, who collected testimonies about the Segamai, instead identified a different Matsigenka mythical creature as equivalent to the Mapinguari, called the Oshetoniro (\"mother of spider monkeys\"). This is a large monkey-like creature possessing \"demonic powers and gigantic penises.\n[…]\nThe Mapinguari was believed to haunt the forests of Pará, Amazonas, and Acre into the 20th century.\n[…]\nAs of 2001, David Oren had spoken to between fifty and eighty indigenous Brazilians, rubber planters, and miners who claimed to have seen, and seven hunters who claimed to have shot, Mapinguari or other unknown animals with which Oren equates the Mapinguari, in or near Eirunepé, Manicoré, and Carauarí in Amazonas; Marabá in Pará; the Parque Nacional da Serra do Divisor in Acre; Juína in Mato Grosso; and Tocantins.\n[…]\nLizarralde reasoned that this could be another memory of a ground sloth, because the Barí call not only primates monos (the Spanish word for monkeys) but also non-primate tree-climbing mammals like the kinkajou and olingo, raising the possibility that they could also include sloths. According to Oren, peri-Amazonian peoples in contact with spectacled bears regard the bear and the Mapinguari as very different animals, despite their similar size.\n[…]\nMapinguari National Park"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mapinguari",
+        "situacao": "ok",
+        "texto": "O mapinguari (ou mapinguary) é uma criatura lendária (criptídeo) descrito como sendo coberta de um longo pelo vermelho, e vivendo na floresta amazônica do Brasil e Bolívia.[carece de fontes]? O significado do nome é incerto, mas é possível que tenha origem na língua tupi.\n[…]\nOs cientistas ainda desconhecem essa criatura. Uma hipótese que explicaria a existência do Mapinguari, sugerida pelo paleontólogo argentino Florentino Ameghino no fim do século XIX, seria o fato da sobrevivência de algumas preguiças gigantes (Pleistoceno, 12 mil anos atrás) no interior da floresta amazônica.[carece de fontes]?\n[…]\nEntre muitos, o ornitólogo David Oren chegou a empreender expedições em busca de provas da existência real da criatura. Não obteve nenhum resultado conclusivo. Pelos recolhidos mostraram ser de uma cutia, amostras de fezes de um tamanduá e moldes de pegadas não serviriam muito, já que, como declarou, “podem ser facilmente forjadas”. O mapinguari seria semelhante ao pé-grande.\n[…]\nOren, David C. \"Does the Endangered Xenarthran Fauna of Amazonia Include Remnant Ground Sloths?,\" Edentata (2001) p. 2-5\n[…]\nRohter, Larry (8 de julho de 2007). «A Huge Amazon Monster Is Only a Myth. Or Is It?». The New York Times. Consultado em 30 de dezembro de 2009\n[…]\nVelden, Felipe Ferreira Vander. (2009) Sobre cães e índios: domesticidade, classificação zoológica e relação humano-animal entre os Karitiana, Avá Revista de Antropología. n. 15,  p. 125-143.\n[…]\nVelden, Felipe Ferreira Vander (2016). «Realidade, ciência e fantasia nas controvérsias sobre o Mapinguari no sudoeste amazônico». Boletim do Museu Paraense Emílio Goeldi. Ciências Humanas. 11 (1): 209–224. ISSN 1981-8122. doi:10.1590/1981.81222016000100011"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Bumba meu boi",
+      "descricao": "Folguedo popular brasileiro, muito forte no Maranhão, que encena a morte e a ressurreição de um boi."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No enredo do bumba meu boi, por que Pai Francisco mata o boi preferido do patrão?",
+    "resposta": "Desejo de Catirina pela língua do boi",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bumba_meu_boi",
+      "https://en.wikipedia.org/wiki/Bumba_Meu_Boi"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bumba_meu_boi",
+        "situacao": "ok",
+        "texto": "Bumba meu boi, boi-bumbá ou búfalo-bumbá é uma festa do folclore popular brasileiro, com personagens humanos e animais fantásticos, que gira em torno de uma lenda sobre a morte e ressurreição de um boi.\n[…]\nO Bumba Meu Boi tem sua gênese no Piauí e Maranhão, desenvolvendo-se durante o ciclo do gado no Brasil, ao incorporar elementos dos folguedos portugueses, culturas africana e indígena. O Ciclo do Gado, iniciado na Bahia, expandiu-se no século XVII por duas rotas principais ao longo do rio São Francisco: uma seguia o curso do rio em comboios e a outra o atravessava em direção ao Norte, até chegar ao Piauí, apontado por Câmara Cascudo como “o grande produtor de gadaria”.\n[…]\nA pecuária promoveu o deslocamento de vaqueiros baianos vindos da região do São Francisco para o Piauí, que na época era um território sob a influência política da Bahia e de Pernambuco. Azevedo Neto destaca ainda a importância simbólica das relações entre o ser humano e o boi como elemento central na construção da narrativa do Bumba Meu Boi.\n[…]\nExistem algumas variações a respeito da lenda do boi. A história mais comum aborda a escrava Catirina (ou Catarina), grávida, que pede ao marido Chico (ou Pai Francisco) para comer língua de boi. O escravo atende ao desejo da esposa, matando o boi, e sendo preso a mando do dono da fazenda.\n[…]\nO Capitão é o comandante do espetáculo. Há também Francisco e Catirina, personagens bastante conhecidos que apresentam os bichos, cantam e dançam de forma cômica.\n[…]\nBúfalo-Bumbá de Mestre Damasceno\n[…]\nBumba meu boi do Maranhão\n[…]\nNego Mateus e Catirina\n[…]\nCARVALHO, Maria Michol Pinho de. 1995. Matracas que desafiam o tempo: é o bumba-boi do Maranhão. São Luís: s/e."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bumba_Meu_Boi",
+        "situacao": "ok",
+        "texto": "Bumba Meu Boi is an interactive play celebrated in Brazil. It originated in the 18th century. It is a form of social criticism. Lower-class Brazilians mock and criticize those of higher social status through a comedic folklore story told in song and dance. Though not as well known internationally as Carnival and other Brazilian festivals, it is older and deeply rooted in the culture of Brazil. The\n[…]\nIt involves several characters, such as the owner of the farm (amo or master), Pai Francisco (vaqueiro, a cowboy, or a slave), his wife Catirina, cowboys (vaqueiros), índios, índias and caboclos (indigenous people), the ox, and cazumbás (a mischievous being that represents the overall spirit of Bumba Meu Boi).\n[…]\nAfter a dance of their own, Catirina proclaims her need to consume the tongue of an ox or bull, for she fears her baby will die, or sometimes have certain birth defects if she doesn't. The story follows Mateus (or Pai Francisco) as he leaves to find an ox. He has many comedic encounters with secondary characters, such as a giant and a donkey. In other forms of the story, the ox belongs to the village and there is no journey to find it.\n[…]\nCatirina: As almost all female roles in Bumba Meu Boi, she is played by a man, as a black, provocative woman. She is also pregnant and the mistress of Pai Francisco/Mateus. She is also a comedic character, who is known to dance a frantic Samba. She is very significant in the story, as she is the one who requests the arrival of the bull for its tongue. Sometimes, a secondary female character comes out with Catirina, named Dona Joana.\n[…]\nPai Francisco, Chico or Mateus: Catirina's husband, vaqueiro (cowboy), dress in simpler clothes. His role is to provoke laughter in the audience.\n[…]\nBoi Bumbá – The Parintins Folklore Festival\n[…]\nBumba Meu Boi\n[…]\n\"Brazilian Dramatic Dances: Bumba-meu-boi\". www.maria-brazil.org. Retrieved September 10, 2026."
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Festa junina",
+      "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição católica, a fogueira de São João lembra um aviso. Quem acendeu a primeira fogueira, e para avisar quem?",
+    "resposta": "Isabel, para avisar Maria",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festa_junina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Festa_junina",
+        "situacao": "ok",
+        "texto": "Festas juninas, festas dos santos populares ou celebração do meio do verão são uma celebração da estação do verão do hemisfério norte, geralmente realizada em uma data próxima ao solstício de verão. Tem raízes pagãs pré-cristãs na Europa.\n[…]\nA Fête de la Saint-Jean (Festa de São João), tal como no Brasil e em Portugal, é comemorada em 24 de junho e tem, como maior característica, a fogueira. Em certos municípios franceses, uma alta fogueira é erigida pelos habitantes homenageando São João Batista. Trata-se de uma festa católica, embora ainda sejam mantidas certas tradições pagãs que a originaram. Na região de Vosges, a fogueira é chamada chavande.[carece de fontes]?\n[…]\nAs tradições juninas da Polônia estão associadas principalmente às regiões da Pomerânia e da Casúbia, e a festa é comemorada em 23 de junho, chamada localmente 'Noc Świętojańska\" (Noite de São João). A festa dura o dia todo, começando às 8h da manhã e varando a madrugada. De maneira análoga à festa brasileira, uma das características mais marcantes é o uso de fantasias; no entanto, não de trajes camponeses como no Brasil, mas de vestimentas de piratas.\n[…]\nFestas de São João são ainda celebradas em alguns países europeus católicos, protestantes e ortodoxos (França, Irlanda, os países nórdicos e do Leste europeu). As fogueiras de São João e a celebração de casamentos reais ou encenados (como o casamento fictício no baile da quadrilha nordestina e na tradição portuguesa) são costumes ainda hoje praticados em festas de São João europeias. É ainda costume a realização de fogueiras onde o combustível é o rosmaninho.[carece de fontes]?\n[…]\nVéspera de São João\n[…]\nFlor-de-são-joão\n[…]\nMedia relacionados com Festa junina no Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Festa junina",
+      "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Dos três santos homenageados nas festas juninas, qual é celebrado na data mais tardia do mês de junho?",
+    "resposta": "São Pedro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festa_junina",
+      "https://en.wikipedia.org/wiki/Festa_Junina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Festa_junina",
+        "situacao": "ok",
+        "texto": "Festas juninas, festas dos santos populares ou celebração do meio do verão são uma celebração da estação do verão do hemisfério norte, geralmente realizada em uma data próxima ao solstício de verão. Tem raízes pagãs pré-cristãs na Europa.\n[…]\nPor volta do século VI, várias igrejas foram dedicadas em homenagem a São João Batista e uma vigília, Véspera de São João, foi acrescentada à festa de São João Batista e os padres cristãos celebraram três missas nas igrejas para a celebração.\n[…]\nO monge do século XIII de Winchcomb, Gloucestershire, que compilou um livro de sermões para os dias de festa cristã, registrou como a véspera de São João era celebrada em sua época:Falemos das festas que costumam ser feitas na véspera de São João, das quais existem três tipos.\n[…]\nde santos e anjos cristãos.\n[…]\nAs tradições juninas da Polônia estão associadas principalmente às regiões da Pomerânia e da Casúbia, e a festa é comemorada em 23 de junho, chamada localmente 'Noc Świętojańska\" (Noite de São João). A festa dura o dia todo, começando às 8h da manhã e varando a madrugada. De maneira análoga à festa brasileira, uma das características mais marcantes é o uso de fantasias; no entanto, não de trajes camponeses como no Brasil, mas de vestimentas de piratas.\n[…]\nA festa de Ivan Kupala (João Batista) é conhecida como a mais importante de todas as festas dos povos eslavos orientais de origem pagã, e vai desde 23 de junho até 6 de julho. Há a lenda de que na noite de Ivan Kupala, aparece a flor da samambaia e quem a encontrar será rico e feliz para sempre (essa flor não existe). É um rito de celebração pelo verão, que foi absorvido pela Igreja Ortodoxa.\n[…]\nVéspera de São João\n[…]\nFlor-de-são-joão\n[…]\nMedia relacionados com Festa junina no Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Festa_Junina",
+        "situacao": "ok",
+        "texto": "Festas Juninas (Brazilian Portuguese: [ˈfɛstɐs ʒuˈninɐs]; \"June Festivals/Festivities\"), also known as festas de São João (Brazilian Portuguese: [ˈfɛʃtɐ(s) ˈdi ˈsɐ̃w ʒuˈɐ̃w]; \"Saint John's Day festivals\") for their part in celebrating the nativity of St. John the Baptist (June 24), are annual Brazilian midwinter celebrations. They were introduced by the Portuguese during the colonial period (1500–\n[…]\nMost festivals occurred away from the coast, closer to the many larger plantations in the interior. During Portuguese rule coastal cities, in Pernambuco especially, became industrialized and saw much greater economic prosperity. Hoping to further this growth, King Dom João modified his economic policy to favor cities such as Recife rather than rural interests. Though the Festa Junina continued, its practice in modern cities became much larger.\n[…]\nToday, the sizes of the celebrations have surpassed those of Europe. Although they are primarily practiced and hosted by schools, many cities host their own major celebration. In Caruaru, Pernambuco, approximately 1.5 million people attended a celebration of the festival in 2011, a Guinness World Record for the largest celebration of the festival.\n[…]\nDances involving Bumba Meu Boi are also present during this festival. Here, the dance revolves around a woman wanting to eat the tongue of an ox. Her husband kills the ox, to the dismay of the ox's owner. A healer enters and resuscitates the ox, and all participants celebrate.\n[…]\nMany games targeted at children are present at Festa Juninas, especially at festivals hosted in schools serving as a fundraiser.\n[…]\nCorrida de três pés: A three-legged race, where two participants tie one of their legs to their partner's leg, and race others.\n[…]\nFesta de São João do Porto, in Portugal"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Dia dos Namorados no Brasil",
+      "descricao": "Data comemorativa brasileira dos casais, celebrada em 12 de junho."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, o Dia dos Namorados é comemorado em 12 de junho, e não em fevereiro. Por que essa data foi escolhida?",
+    "resposta": "É a véspera de Santo Antônio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_dos_Namorados"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_dos_Namorados",
+        "situacao": "ok",
+        "texto": "O Dia dos Namorados, também conhecido em diversos países como Dia de São Valentim, é uma celebração anual comemorada a 14 de fevereiro que assinala a união amorosa, o romance e o afeto entre casais.\n[…]\nNo Brasil, a celebração ocorre a 12 de junho, tendo sido instituída por motivos comerciais na véspera do Dia de Santo António, conhecido popularmente como o santo casamenteiro, em detrimento do tradicional São Valentim.\n[…]\nO Dia dos Namorados foi criado pelo publicitário João Doria, que buscava uma data comemorativa para fomentar o comércio no mês de junho — considerado um mês com poucas vendas a época —, sendo comemorada no dia 12 de junho por ser véspera do 13 de junho, Dia de Santo Antônio, santo português com tradição de casamenteiro.\n[…]\nDoria trouxe a ideia do exterior e apresentou-a aos comerciantes paulistas, iniciando em junho de 1949 uma campanha com o lema \"não é só com beijos que se prova o amor\". A ideia se expandiu pelo Brasil, amparada pela correlação com o Dia de São Valentim — que nos países do hemisfério norte, ocorre em 14 de fevereiro e é utilizada para incentivar a troca de presentes entre o casal apaixonado.\n[…]\nA descrição mais antiga do 14 de fevereiro como uma celebração anual do amor surge na Carta da Corte do Amor. A carta, alegadamente emitida por Carlos VI de França em Mantes-la-Jolie no ano de 1400, descreve festividades sumptuosas nas quais participariam vários membros da corte real, incluindo um banquete, competições de poesia e cantigas de amor, justas e dança. No decorrer destas festividades, as damas presentes ouviam e deliberavam sobre disputas entre namorados.\n[…]\nSanto António\n[…]\n«Dia de São Valentim celebra santo que nunca existiu». , na Folha Online"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Pisadeira",
+      "descricao": "Figura do folclore do Sudeste brasileiro, uma velha que pisa no peito de quem dorme de barriga cheia."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A Pisadeira, velha que pisa no peito de quem dorme de barriga cheia, é a explicação popular para qual fenômeno?",
+    "resposta": "Paralisia do sono",
+    "distratores": [
+      "Sonambulismo",
+      "Insônia",
+      "Ronco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pisadeira",
+      "https://pt.wikipedia.org/wiki/Pisadeira"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pisadeira",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pisadeira",
+        "situacao": "desambiguacao",
+        "texto": "Pisadeira pode referir-se a:\n\nCatalepsia projetiva, ou Pisadeira no Brasil, fenómeno natural que ocorre durante o sono\nPisadeira (folclore), uma lenda do folclore brasileiro\nPisadeira, uma mutante da telenovela brasileira Os Mutantes - Caminhos do Coração"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Saci",
+      "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1917, que escritor promoveu, no jornal O Estado de São Paulo, uma pesquisa com os leitores sobre o saci?",
+    "resposta": "Monteiro Lobato",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Saci",
+      "https://pt.wikipedia.org/wiki/Monteiro_Lobato"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Saci",
+        "situacao": "ok",
+        "texto": "Saci é um personagem bastante conhecido do folclore brasileiro. Tem sua origem presumida entre os indígenas da Região das Missões, no Sul do país, de onde teria se espalhado por todo o território brasileiro. A figura do saci surge como um ser maléfico, como somente brincalhão ou como gracioso, conforme as versões comuns ao sul.\n[…]\nO saci se tornou presente nas artes brasileiras a partir dos anos 1910, com um conto de Hugo de Carvalho Ramos e depois Monteiro Lobato em jornal de pesquisa sobre crenças sobre a figura.\n[…]\nO primeiro escritor a se voltar para a figura do saci-pererê foi Hugo de Carvalho Ramos, com seu conto O Saci, publicado em 1910. A partir da leitura dessa obra, Monteiro Lobato se interessou pelo assunto e realizou uma pesquisa entre os leitores do jornal O Estado de S. Paulo. Com o título de \"Mitologia Brasílica – Inquérito sobre o Saci-Pererê\", Lobato colheu respostas dos leitores do jornal que narravam as versões do mito, no ano de 1917.\n[…]\nO resultado foi a publicação, no ano seguinte, da obra O Saci-Pererê: Resultado de um inquérito, primeiro livro do escritor.\n[…]\nEm 1921, Lobato voltou a recorrer ao personagem no livro O Saci, seu segundo trabalho dedicado à literatura infantil.\n[…]\nO primeiro ator a representar o papel de Saci foi Paulo Matozinho, no filme O Saci, adaptado do livro infantil de Monteiro Lobato.\n[…]\nNa televisão, as séries Sitio do Picapau Amarelo que adaptaram a obra de Monteiro Lobato em 1977 e 2007 tiveram Romeu Evaristo e Fabrício Boliveira, respectivamente, interpretando o personagem. O cantor Jorge Ben Jor também encarnou o saci no especial Pirlimpimpim, de 1982. Em Pirlimpimpim 2, de 1984, foi a vez de Genivaldo dos Santos vestir a carapuça.\n[…]\n«Caricatura de Monteiro Lobato e seus personagens: Narizinho, Emília, Saci-Pererê e o Visconde de Sabugosa - ilustração de Belmonte» 🔗"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monteiro_Lobato",
+        "situacao": "ok",
+        "texto": "José Bento Renato Monteiro Lobato (Taubaté, 18 de abril de 1882 – São Paulo, 4 de julho de 1948) foi um escritor, intelectual e editor literário brasileiro. Participou ativamente do pré-modernismo e modernismo brasileiro e da vida política do Brasil, sendo popularmente lembrado por sua série de livros infantis Sítio do Pica Pau Amarelo.\n[…]\nLogo fundou a editora Monteiro Lobato & Cia., depois chamada Companhia Editora Nacional, com a obra O Problema Vital, um conjunto de artigos sobre a saúde pública, seguido pela tese O Saci Pererê: Resultado de um Inquérito. Privilegiava a edição de autores estreantes como Maria José Dupré, com o sucesso \"Éramos Seis\".\n[…]\nOs livros infantis de Monteiro Lobato foram transformados em cinco séries de televisão de bastante sucesso. A primeira delas, na TV Tupi de São Paulo, foi exibida de 3 de junho de 1952 a 1962, ao vivo, pois não havia ainda o videotape. Foi adaptada pela escritora Tatiana Belinky, sendo a mais fiel ao original de todas as adaptações para a televisão. Nada restando desse programa, exceto algumas fotos, pois seus episódios não eram gravados.\n[…]\nPelo Brasil há inúmeras referências em memória de Monteiro Lobato, incluindo diversos logradouros e instituições nomeadas em homenagem ao advogado e escritor brasileiro. No nordeste de São Paulo há o município Monteiro Lobato, assim denominado em sua homenagem, e onde o escritor possuía uma fazenda e passou parte da sua juventude, sendo descrita por ele em seus livros. Pela cidade ainda há a diversas referências a personalidade.\n[…]\nMonteiro Lobato ainda é nome para dezenas de escolas pelo país, da rede pública e da privada de ensino, incluindo uma escola estadual sediada na cidade natal do escritor e uma escola municipal na capital do estado.\n[…]\n«Página do Projeto \"Monteiro Lobato (1882-1948) e outros Modernismos brasileiros\", UNICAMP»"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Saci",
+      "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição, que objeto de cozinha se joga sobre um redemoinho de vento para capturar o saci?",
+    "resposta": "Peneira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Saci",
+      "https://en.wikipedia.org/wiki/Saci_(Brazilian_folklore)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Saci",
+        "situacao": "ok",
+        "texto": "Saci é um personagem bastante conhecido do folclore brasileiro. Tem sua origem presumida entre os indígenas da Região das Missões, no Sul do país, de onde teria se espalhado por todo o território brasileiro. A figura do saci surge como um ser maléfico, como somente brincalhão ou como gracioso, conforme as versões comuns ao sul.\n[…]\nEm 1921, Lobato voltou a recorrer ao personagem no livro O Saci, seu segundo trabalho dedicado à literatura infantil.\n[…]\nEm 1974, para acompanhar a série televisiva \"Sítio do Picapau Amarelo\", Guto Graça Mello compôs e gravou \"Saci\". No especial \"Pirlimpimpim\" (1982), a canção para o personagem ficou por conta de Jorge Benjor (\"Saci Pererê\". A terceira versão do Sítio para a tevê incluiu, na sua trilha, \"Pererê Peralta (saci)\", de Carlinhos Brown (2001) e \"Eu vi o Saci\", de Marcos Sacramento e Izak Dahora (2006).\n[…]\nNa música instrumental, as principais referências são o violonista Carlinhos Antunes (\"Saci-Pererê\", 1996), a banda Terreno Baldio (Saci-Pererê, 1977), Guilherme Lamounier (\"Saci-Pererê\", 1978) e o Quarteto Pererê (\"Polka do Sacy\" e \"Liberdade Pererê\", ambas no álbum \"Balaio\", 2010) . O Quarteto Pererê já havia apresentado, em 2005, o espetáculo Saci Armorial, em que fundia a lenda com o universo literário do escritor pernambucano Ariano Suassuna.\n[…]\nSaci Last Common Ancestor Hypothesis (\"hipótese do saci como último ancestral comum\") foi um termo utilizado em uma discussão primatológica para explicar por que animais da família Hominidae não sabem nadar de forma instintiva. Esta hipótese faz uma referência à mitologia do Saci Pererê como uma criatura que evita entrar na água.\n[…]\n«SOSACI - Sociedade dos Observadores de Saci»\n[…]\n«Caricatura de Monteiro Lobato e seus personagens: Narizinho, Emília, Saci-Pererê e o Visconde de Sabugosa - ilustração de Belmonte» 🔗"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Saci_(Brazilian_folklore)",
+        "situacao": "ok",
+        "texto": "Saci (pronounced [saˈsi]) is a character in Tupi and Guarani folklore. He is a one-legged black boy, who smokes a pipe and wears a magical red cap that enables him to disappear and reappear wherever he wishes (usually in the middle of a dirt devil). Considered an annoying prankster in most parts of Brazil, and a potentially dangerous and malicious creature in others, he nevertheless grants wishes \n[…]\nThe Saci-Pererê concept shows some syncretism with Christian elements: he bolts away when faced with crosses, leaving behind a sulphurous smell – classical attributes of the devil in Christian folklore. It has been argued by Queiroz that Saci's sulfur smell, devilishness, thievery, sorcery, etc., are things that the \"rural dominant class\" among the Paulistas had ascribed black laboring population, while the common rural folk were free of such bigotry.\n[…]\nMonteiro Lobato was not the inventor of the sulfur legend, having only collected it from readers. But Monteiro Lobato's children's book (1921) made Saci familiar to the urban populace, as a heroic figure black color, nevertheless retained the negative stigma of the sulfuric smell and capturability, resulting the modern media subsequently censuring and downplaying those aspects (thus \"taming\" the Saci from the wild) .\n[…]\nThe names of the Brazilian satellites SACI-1 and SACI-2 were backronyms on the character's name, as well as four retrotransposons in the DNA of the fluke Schistosoma mansoni were named Saci-1, Saci-2, Saci-3, and Perere, for their ability to jump around in the parasite's genome.\n[…]\nPrêmio Saci\n[…]\nRetornar para Imaginário (in Portuguese), chapter re capture of Saci, excerpted from Monteiro Lobato's O Saci (in Portuguese)\n[…]\nThe Ziraldo's version of Saci\n[…]\nPicture of Saci\n[…]\nThe legend of Saci\n[…]\nSee the doc. Saci Documentary made in 2005\n[…]\nSaci-Pererê Saci-Pererê: The Mischievous Legend of Brazilian Folklore"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Trio elétrico",
+      "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No carnaval de Salvador de 1950, que dupla saiu às ruas tocando num velho Ford equipado com alto-falantes, dando origem ao trio elétrico?",
+    "resposta": "Dodô e Osmar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Trio_elétrico",
+      "https://en.wikipedia.org/wiki/Trio_elétrico"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trio_elétrico",
+        "situacao": "ok",
+        "texto": "No entretenimento, o trio elétrico é um veículo adaptado com aparelhos de sonorização e alto-falantes, para a apresentação de música ao vivo ao ar livre, criado na cidade brasileira de Salvador (estado da Bahia) em 1950, pelos músicos Dodô e Osmar Macedo. Através das caixas amplificadoras com alto-falantes, normalmente montados em um caminhão/carreta, são normalmente emitidos as músicas dos gênero\n[…]\nVendo a animação com que o público reagira ao frevo e para suprir a frustração provocada pela interrupção do desfile, os músicos Dodô e Osmar Macedo, adaptaram um veículo Ford 1929, ligando à bateria do automóvel a um violão e um protótipo de guitarra, criando assim a \"fobica\", que mais tarde seria reconhecida como o primeiro trio elétrico do mundo. A dupla elétrica Dodô e Osmar saiu pelas ruas executando o ritmo recifense.\n[…]\nOs trios foram ampliando em tamanho, na década de 1960, pelo uso de caminhões cada vez maiores (época em que Dodô e Osmar deixaram de se apresentar). Ligados a blocos identificados por camisões coloridos - as mortalhas - os grupos passam a se isolar dos demais foliões por meio de cordas de separação. Destacava-se, desde então, o Trio Elétrico Tapajós, que era contratado pela Prefeitura do Recife para se apresentar naquela cidade.\n[…]\nEmbora o crescimento do trio tenha permitido a criação de uma nova indústria de relativa importância na Bahia, sua essência permanece na relação entre o artista e o folião; a este respeito Betinho, músico filho de Osmar Macedo, declarou: \"Quando a gente está tocando em cima do trio e vê aquele negão pulando lá embaixo... De repente, o negão pensa que você está tocando para ele dançar, mas não é. Ele é que está dançando para você tocar.\n[…]\n50 anos do trio elétrico - Fred de Góes, Editora Corrupio, 2000, ISBN 8586551082, 168 pág.\n[…]\nSonhos Elétricos - Moraes Moreira, Azougue Editorial, 2011."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Trio_elétrico",
+        "situacao": "ok",
+        "texto": "Trio elétrico (Portuguese pronunciation: [ˈtɾiw eˈlɛtɾiku], electric trio) is a kind of truck or float equipped with a high-power sound system and a stage for music performance on the top, playing for the crowd as it drives through the cities. It was created in Bahia specifically for Carnival and it is now used in similar events in other districts and countries. This setup is used in Brazilian Car\n[…]\nThe idea was introduced in 1949 during a carnival in Bahia by the duo Dodô e Osmar (Adolfo Nascimento and Osmar Macedo).\n[…]\nThe trio elétrico arises from the \"dupla eletrica\" (\"Electric Duo\"), composed of the two friends Adolfo Antônio Nascimento (Dodô) and Osmar Álvares de Macêdo. In 1950, the two used a Ford Model T to perform their self-made electric instrument, known as pau eletrico (electric log), during Bahia carnival. They drove through the streets playing music powered by the car battery. The show took place in the city centre on carnival Sunday and attracted a large crowd.\n[…]\nThe name \"trio elétrico\" was coined in 1951 when Dodô and Osmar invited a friend to perform with them, the architect Temístocles Aragão, turning their dupla into a trio. They played through Salvador in a Chrysler pick-up. Though the name originally referred to the band, it became better known for their invention of a motorized band stage.\n[…]\nIn 1983, a trio built in Italy was inaugurated in Piazza Navona in the presence of 80 thousand people who danced to the electric sound of Dodô, Osmar and Armandinho. That was the first time a trio was featured out of Brazil.\n[…]\nIn 1985, invited by students of the University of Toulouse, in France, Armandinho, Dodô and Osmar traveled once more to Europe to take some of Carnival to more than 100 thousand people in Toulouse.\n[…]\n(in English) Trio Electrico at Europe.\n[…]\n(in English) The origins of the Trio Eletrico in Bahia.\n[…]\n(in Portuguese) - Brazilian Trio Elétrico for Carnival."
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Capoeira regional",
+      "descricao": "Estilo de capoeira sistematizado na Bahia na década de 1930, com método de ensino próprio."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos anos de 1930, em Salvador, que mestre criou a capoeira regional, de método de ensino próprio?",
+    "resposta": "Mestre Bimba",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mestre_Bimba",
+      "https://en.wikipedia.org/wiki/Mestre_Bimba"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mestre_Bimba",
+        "situacao": "ok",
+        "texto": "Manoel dos Reis Machado, também conhecido como Mestre Bimba (Salvador, 23 de novembro de 1900 – Goiânia, 5 de fevereiro de 1974), foi um mestre brasileiro de capoeira e, criador da Luta Regional Baiana, mais tarde chamada de capoeira regional.\n[…]\nMestre Bimba nasceu em Salvador em 1900. Trabalhou como minerador de carvão antes de criar a capoeira regional.\n[…]\nAo perceber que a capoeira estava perdendo seu valor cultural e enfraquecendo enquanto luta, Mestre Bimba misturou elementos da Capoeira Tradicional com o batuque (luta do Nordeste Brasileiro extinta com o passar do tempo) criando assim um novo estilo de luta com praticidade na vida, com movimentos mais rápidos e acompanhada de música. Assim conquistou todas as classes da sociedade.\n[…]\nNo vídeo \"Relíquias da Capoeira: Depoimento do Mestre Bimba\", um documento audiovisual em VHS produzido por Bruno Farias, onde Bimba comenta os motivos que o fizeram se mudar para Goiânia, onde ele conseguiu mais apoio financeiro. Posteriormente, em uma reunião de especialistas em capoeira no Rio de Janeiro, explica-se mais sobre o nome do esporte, sobre a criação da capoeira regional e sobre este mestre.\n[…]\nA Fundação Mestre Bimba é a principal instituição de capoeira regional de Salvador. Responsável pela manutenção do legado do Mestre Bimba, a fundação está sediada no Centro Histórico de Salvador, e foi criada em 30 de novembro de 1993, sendo oficializada em 30 de novembro de 1994.==Referências==\n[…]\nQuem foi Mestre Bimba que recebe um Google Doodle\n[…]\nMestre Bimba - A Capoeira Iluminada\n[…]\nMestre Bimba e a história da Capoeira\n[…]\nMestres - Manoel dos Reis Machado\n[…]\nMANOEL DOS REIS MACHADO, O MESTRE BIMBA\n[…]\nBiografia - MESTRE BIMBA[ligação inativa]\n[…]\nCapoeira Regional - Mestre Bimba"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mestre_Bimba",
+        "situacao": "ok",
+        "texto": "Manuel dos Reis Machado, commonly called Mestre Bimba (Portuguese pronunciation: [ˈmɛstɾi ˈbĩbɐ]; November 23, 1899 or 1900  – February 5, 1974), was a Brazilian capoeira mestre and the founder of the capoeira regional style. He was initially a street fighter and learned the batuque style from his father. Subsequently, he learned traditional capoeira; in the 1910s and 1920s, he reformed it into hi\n[…]\nOther sources, among them Mestre Itapoan, believe that Bimba made virtually no additions from other martial arts to capoeira, and that all its movements came from batuque or itself; moreover, there are reports of capoeira techniques similar to those from judo as far back as 1888, before Eastern martial arts came to Brazil.\n[…]\nMestre Pastinha established a new style closer to the traditional origins preceding some of Bimba's reforms, named capoeira Angola; the two men became respectful competitors. Bimba's Capoeira Regional academy was geographically near Pastinha's Capoeira Angola school.\n[…]\nIn 1949, the regional school toured São Paulo in order to show their art. However, their promoter would force them to work full exhibition matches (marmeladas, a word also used for professional wrestling), which Mestre Bimba didn't approve of. During this tour, they received two challenges to fight for real (pra valer), one by Brazilian catch wrestlers led by Piragibe and another one by capoeira carioca leader Mestre Sinhozinho.\n[…]\nAs of 2023, Bimba's son, Mestre Nenel, continues to teach capoeira in his father's style in Bahia.\n[…]\nBimba developed a capoeira teaching method with commandments, principles and traditions, which are still part of the capoeira regional up to this day. Some of his commandments are:\n[…]\nMestre Bimba: A Capoeira Illuminada (2006) is a documentary about Mestre Bimba and Capoeira.\n[…]\nOfficial Blog of the Fundação Mestre Bimba\n[…]\nDocumentary, Mestre Bimba: A Capoeira Illuminada (2006)"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Malhação de Judas",
+      "descricao": "Costume popular de surrar e queimar um boneco que representa Judas Iscariotes durante a Semana Santa."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em muitas cidades brasileiras, um boneco de Judas é surrado e queimado. Em que dia da Semana Santa acontece essa malhação?",
+    "resposta": "Sábado de Aleluia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Malhação_de_Judas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Malhação_de_Judas",
+        "situacao": "ok",
+        "texto": "A Malhação de Judas (também conhecida como Queima de Judas) é uma tradição folclórica e religiosa praticada no Sábado de Aleluia em diversas comunidades de tradição católica, especialmente na América Latina e na Península Ibérica. O costume consiste no julgamento, espancamento e destruição de um boneco em tamanho real feito de pano, palha ou serragem, que representa Judas Iscariotes o apóstolo que\n[…]\nCom a expansão e consolidação do Cristianismo na Europa durante a Idade Média, esses costumes rurais e expiatórios foram incorporados ao calendário litúrgico cristão, especificamente no encerramento do período de Quaresma e celebração da Páscoa. A efígie do ano velho foi então ressignificada na figura bíblica de Judas Iscariotes, permitindo que a comunidade canalizasse o sentimento de punição ao traidor de Jesus Cristo no contexto do Sábado de Aleluia. [1]\n[…]\nNa véspera ou na manhã do Sábado de Aleluia, o boneco é pendurado em postes de iluminação, árvores ou postes de madeira em praças públicas e ruas periféricas. Em diversas localidades, antecede a execução a leitura pública do \"Testamento de Judas\". Este texto, escrito em versos rimados e bem-humorados, simula a última vontade do traidor ao \"deixar\" pertences simbólicos ou críticas cômicas para os moradores conhecidos da vizinhança ou para figuras do cenário político.\n[…]\nEmbora mantenha a mesma essência ritual, a Malhação de Judas apresenta adaptações culturais únicas em diferentes partes do mundo. No Brasil, destaca-se a tradição do \"Estouro do Judas\" na cidade de Itu, no estado de São Paulo (estado), realizada no centro histórico da cidade. Na praça principal, bonecos representando Judas e o Diabo são montados em estruturas de ferro recheadas de Bombinhas e explosivos, sendo detonados em um espetáculo pirotécnico acompanhado por milhares de espectadores.\n[…]\nQueima do Velho\n[…]\nHistória da Malhação de Judas"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Folia de Reis",
+      "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os grupos da folia de reis começam a visitar as casas no Natal. Em que dia do ano eles encerram a jornada?",
+    "resposta": "6 de janeiro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Folia_de_Reis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Folia_de_Reis",
+        "situacao": "ok",
+        "texto": "Folia de Reis, Companhia de Reis, Reisado ou Festa de Santos Reis (em Portugal diz-se Reisada ou Reiseiros), é uma manifestação católica, cultural e festiva, classificada sobretudo no Brasil como manifestação folclórica, comemorativa da festa religiosa da Epifania do Senhor ou Teofonia, que se caracteriza por celebrar a Adoração dos Magos ao nascimento de Jesus Cristo.\n[…]\nA denominação fala dos festejos entre o natal e o Dia de Reis – 6 de janeiro – e diz respeito tanto ao \"cortejo de pedintes, cantando versos religiosos ou humorísticos, como os autos sacros, com motivos sagrados da história de Cristo (...) no Brasil, sem especificação maior, refere-se sempre aos ranchos, ternos, grupos que festejam o Natal e Reis\" na definição do folclorista Câmara Cascudo, que completa: \"o reisado pode ser apenas a cantoria como também possuir enredo ou série de pequeninos atos encadeados ou não\".\n[…]\nDesse modo, é comum que os grupos, tradicionalmente compostos por 3 cantores do Terno e outros instrumentistas, cheguem às casas de suas comunidades de surpresa durante a noite, entre os dias 25 de dezembro e 6 de janeiro de cada ano.\n[…]\nNa cultura tradicional brasileira, os festejos de Natal eram comemorados por grupos que visitavam as casas, tocando músicas alegres em louvor aos \"Santos Reis\" e ao nascimento de Cristo; essas manifestações festivas estendiam-se até a data consagrada aos Três Reis Magos, 6 de janeiro, trazida ainda no período colonial pelos portugueses e hoje é uma tradição que se mantém viva em pequenas cidades de todo o país.\n[…]\nMas ô meu mestre, seu reisado de quem é?\n[…]\nSua comemoração começa à véspera do Dia de Santos Reis. No período de 24 de dezembro a 6 de janeiro, grupos formados por músicos cantores e dançarinos vão de porta em porta, anunciando, a chegada do Messias e fazendo louvações aos donos das casas, por onde passam e dançam."
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Dia do Folclore",
+      "descricao": "Data comemorativa brasileira dedicada às tradições populares, instituída por decreto em 1965."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que data se comemora oficialmente o Dia do Folclore no Brasil?",
+    "resposta": "22 de agosto",
+    "distratores": [
+      "31 de outubro",
+      "19 de abril",
+      "24 de junho"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dia_do_Folclore",
+      "https://pt.wikipedia.org/wiki/Folclore_brasileiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dia_do_Folclore",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Folclore_brasileiro",
+        "situacao": "ok",
+        "texto": "Folclore brasileiro é a identidade social da comunidade através de suas criações culturais, coletivas ou individuais, sendo uma parte essencial da cultura do Brasil. Embora tenha raízes imemoriais, seu estudo sistemático iniciou somente em meados do século XIX, e levou mais de 100 anos para se consolidar no país. A partir da década de 1970, o folclorismo nacional definitivamente se institucionaliz\n[…]\nComemoram os santos católicos João Batista, Antônio e Pedro, são possivelmente uma herança de antigas tradições agrícolas pagãs. Vieram com os portugueses, enraizaram-se primeiro no Nordeste e logo se espalharam por todo o Brasil. As referências mais antigas foram dadas no século XVI pelo Frei Vicente de Salvador:\n[…]\nA festa se tornou extremamente popular em todo o Brasil, em parte porque sua data coincidia com a colheita do milho, do feijão e do amendoim, e essa fartura era considerada uma bênção a ser comemorada com danças, cantos, rezas e muita comida. Mais tarde sofreram uma série de outras influências, incorporando novas práticas e se diversificando regionalmente. A quadrilha foi contribuição francesa, o coco-de-roda, africana, as polcas e as mazurcas foram trazidas por imigrantes polacos.\n[…]\nO artesanato brasileiro é um dos mais ricos do mundo, revelando, quando tem características folclóricas, usos, costumes e tradições de cada local. Nos últimos anos o artesanato nacional tem conseguido grande projeção, inclusive para fora das fronteiras do país, dignificando o trabalho dos artesãos. Além disso, por empregar grandes contingentes de mão-de-obra pouco especializada, tem importante função social e econômica, garantindo o sustento de muitas famílias e comunidades.\n[…]\nCarta do Folclore Brasileiro. VIII Congresso Brasileiro de Folclore. Salvador, 12 a 16 de dezembro de 1995\n[…]\nInstituto Brasileiro de Educação, Ciência e Cultura\n[…]\nCentro Nacional de Folclore e Cultura Popular"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Iemanjá",
+      "descricao": "Orixá das águas salgadas nas religiões afro-brasileiras, homenageada com oferendas no mar."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em Salvador, o bairro do Rio Vermelho faz uma grande festa com barcos de oferendas para Iemanjá. Em que dia do ano?",
+    "resposta": "2 de fevereiro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Iemanjá"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Iemanjá",
+        "situacao": "ok",
+        "texto": "Iemanjá (Yemọjá na Nigéria, Yemayá em Cuba ou ainda Dona Janaína no Brasil; ver seção Nome e Epítetos) é o orixá dos ebás, a deusa da fertilidade originalmente associada aos rios e desembocaduras. Seu culto principal estabeleceu-se em Abeocutá após migrações forçadas, tomando como suporte o rio Ogum de onde manifesta-se em qualquer outro corpo de água. Também é reverenciada em partes da América do\n[…]\nNo Brasil, a orixá goza de grande popularidade entre os seguidores de religiões afro-brasileiras e até por membros de religiões distintas. Em Salvador, ocorre anualmente, no dia 2 de fevereiro, a maior festa do país em homenagem à \"Rainha do Mar\". A celebração envolve milhares de pessoas que, trajadas de branco, saem em procissão até o templo mor, localizado no bairro Rio Vermelho, onde depositam variedades de oferendas, tais como espelhos, bijuterias, comidas, perfumes e toda sorte de agrados.\n[…]\nPela primeira vez, em 2 de fevereiro de 2010, uma escultura de uma sereia negra, criada pelo artista plástico Washington Santana, foi escolhida para representação de Iemanjá no grande e tradicional presente da festa do Rio Vermelho, em Salvador, na Bahia, no Brasil, em homenagem à África e à religião afrodescendente.\n[…]\nA tradicional Festa de Iemanjá na cidade de Salvador, capital da Bahia, tem lugar na praia do Rio Vermelho todo dia 2 de Fevereiro. Na mesma data, Iemanjá também é cultuada em diversas outras praias brasileiras, onde lhe são ofertadas velas e flores, lançadas ao mar em pequenos barcos artesanais.\n[…]\nEm Montevidéu, fiéis se reúnem na praia de Ramirez no bairro Parque Rodó a cada 2 de fevereiro para celebrar o Dia de Iemanjá. Centenas de milhares de pessoas se sentam à espera do pôr do sol antes de lançar pequenos barcos com oferendas para o oceano.\n[…]\nLENZ, Helena Goldammer. Tupi e Guarani: A língua dos bandeirantes. Cia do eBook, 2015. ISBN 978-85-6822-786-2\n[…]\nFesta de Iemanjá (vídeo)"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Berimbau",
+      "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "No berimbau, que comanda o ritmo da roda de capoeira, que fruto seco e oco serve de caixa de ressonância?",
+    "resposta": "Cabaça",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Berimbau",
+      "https://en.wikipedia.org/wiki/Berimbau"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Berimbau",
+        "situacao": "ok",
+        "texto": "O berimbau(português brasileiro) ou hungo(português angolano) é um instrumento de corda com origem em Angola e tradicional da Bahia.\n[…]\nÉ constituído por uma vara em arco, de madeira ou verga, com comprimento aproximado de 1,50 metros a 1,70 metros e um fio de aço (arame) preso nas extremidades da vara. Na sua base, é amarrada uma cabaça (Lagenaria siceraria) ou um coité (da planta Crescentia cujete), sendo mais comum a cabaça com o fundo cortado, que funciona como caixa de ressonância.\n[…]\nO berimbau é um elemento fundamental na capoeira, sendo reverenciado pelos capoeiristas antes de iniciarem um jogo. Alguns o consideram um instrumento sagrado. Ele comanda a roda de capoeira, dita o ritmo e o estilo de jogo. São dados nomes às variações de toques mais conhecidas, e quando se toca repetidamente um mesmo toque, diz-se que está jogando a capoeira daquele estilo. As variações mais comuns são \"Angola\" e \"São Bento Grande\".\n[…]\nEntre os capoeiristas, há uma divisão em subtipos de berimbau.\n[…]\nEssas categorias relacionam-se ao som, não ao tamanho. A qualidade de um berimbau não depende do comprimento do arco nem do tamanho da cabaça, mas sim do diâmetro e resistência do arco e da qualidade sonora da cabaça.\n[…]\nSegura-se o berimbau com uma das mãos, à altura da cabaça; com a mesma mão, segura-se a moeda ou uma pedra de areia lavada que, durante o toque do instrumento, será, várias vezes, pressionada contra o arame, de forma a modificar o tom do berimbau. A cabaça posiciona-se à altura do abdome do tocador, pois este modifica-lhe o som, quando aproxima ou afasta a cabaça de seu corpo.\n[…]\nBeat! Percussion Fever. \"Berimbau\""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Berimbau",
+        "situacao": "ok",
+        "texto": "The berimbau (Portuguese pronunciation: [beɾĩˈbaw], borrowed from Kimbundu mbirimbau) is a traditional Angolan musical bow that is commonly used in Brazil. It is also known as sekitulege among the Baganda and Busoga. It consists of a single-stringed bow attached to a gourd resonator and is played with a stick and a coin or stone to create different tones and rhythms. The berimbau was used in many \n[…]\nOne strikes the arame with the baqueta to produce the sound. The caxixi accompanies the baqueta. The dobrão is moved back and forth from the arame to change the pitch produced by the berimbau. The sound can also be altered by moving the cabaça back and forth from the abdomen, producing a wah-like sound.\n[…]\nCabaça: opened, dried and hollowed out gourd-like fruit secured to the lower portion of the berimbau, used to amplify and resonate the sound\n[…]\nCalling the cabaça a gourd is technically a mistake. As far as Brazilian berimbaus are concerned, the fruit used for the berimbau's resonator, while still known in Brazil as cabaça (\"gourd\"), it is not technically a gourd (family Cucurbitaceae); instead, it is the fruit of an unrelated species, the tree Crescentia cujete (family Bignoniaceae), known in Brazil as calabaça, cueira, cuia, or cabaceira.\n[…]\nThese categories relate to sound, not to size. The berimbau's quality does not depend on the length of the verga or the size of the gourd, rather on the diameter and hardness of the verga's wood and the quality of the cabaça.\n[…]\nOther sounds may appear in a berimbau performance, but only these define capoeira's rhythmic patterns (except Iuna).\n[…]\nIn capoeira Angola, three Berimbaus play together. Each berimbau holds a position in relation to the \"roda\":\n[…]\nIn Street Fighter 6, Kenyan capoeira fighter Elena (Street Fighter), can also be seen playing a berimbau on the character select screen. During a fight, a berimbau can be heard when an emote is used."
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Maracatu rural",
+      "descricao": "Folguedo carnavalesco da Zona da Mata de Pernambuco, também chamado maracatu de baque solto."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Qual personagem do maracatu rural pernambucano dança com uma longa lança enfeitada, uma cabeleira colorida e um cravo branco na boca?",
+    "resposta": "Caboclo de lança",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Maracatu_rural",
+      "https://pt.wikipedia.org/wiki/Maracatu"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maracatu_rural",
+        "situacao": "ok",
+        "texto": "O Maracatu Rural ou Maracatu de Baque Solto é um tipo de maracatu, uma manifestação folclórica com origem no estado de Pernambuco. Tem como principal símbolo o caboclo de lança, e distingue-se do Maracatu Nação por sua organização, personagens e ritmo.\n[…]\nO Maracatu Rural significa para seus integrantes algo a mais que uma brincadeira: é uma herança secular, motivo de muito orgulho e admiração. É formado por pessoas simples, principalmente por trabalhadores rurais que com as mesmas mãos que cortam cana, lavram a terra e carregam peso, também bordam golas de caboclo, cortam fantasias, enfeitam guiadas, relhos e chapéus; dedicando-se ao bem mais valioso que possuem: a cultura.[parcial?]\n[…]\nO cortejo do Maracatu Rural diferencia-se dos outros maracatus por suas características musicais próprias e pela essência de sua origem refletida no sincretismo de seus personagens. A orquestra é formada por instrumentos de percussão e sopro.\n[…]\nOs mais antigos maracatus foram criados em engenhos de Nazaré da Mata (Zona da Mata de Pernambuco), onde seus fundadores eram trabalhadores rurais, trabalhadores do canavial e cortadores de cana-de-açúcar, entre fins do século XIX e início do XX.\n[…]\nOs personagens do Maracatu Rural são:\n[…]\nCaboclos de lança (ícones do Carnaval de Pernambuco, assim como os passistas de frevo)\n[…]\nMaracatu Nação\n[…]\nCarnaval de Pernambuco\n[…]\nHistória e fotos do Maracatu Rural\n[…]\nVídeos e histórias de Cabolcos e Mestres do Maracatu pernambucano"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maracatu",
+        "situacao": "ok",
+        "texto": "Maracatu é um ritmo musical, dança e ritual de sincretismo religioso com origem no estado brasileiro de Pernambuco.\n[…]\nExistem dois tipos, conforme o \"baque\" ou batida: Maracatu Nação (Baque Virado) e Maracatu Rural (Baque Solto). O primeiro, bastante comum na área metropolitana do Recife, é o mais antigo ritmo afro-brasileiro; e o segundo é característico da cidade de Nazaré da Mata (Zona da Mata Norte de Pernambuco).\n[…]\nO registro mais antigo que se tem sobre o Maracatu Nação data de 1711, mas o ano de sua origem é incerto. O que se sabe é que ele surgiu em Pernambuco e vem se transformando desde então.\n[…]\nOs primeiros maracatus rurais foram criados em engenhos de Nazaré da Mata (Zona da Mata de Pernambuco), onde seus fundadores eram trabalhadores rurais, trabalhadores do canavial e cortadores de cana-de-açúcar, entre fins do século XIX e início do XX.\n[…]\nO maracatu de baque virado é caracterizado pelo uso predominante de instrumentos de origem africana. Na percussão chamam atenção os grandes tambores, chamados alfaias, que são tocados com baquetas específicas. Estes dão o ritmo ou o baque da música e são acompanhados pelas caixas ou taróis, ganzás, abês e um gonguê ou agogô.\n[…]\nMaracatu Nação\n[…]\nMaracatu Rural\n[…]\nCoco (dança)\n[…]\nCultura de Pernambuco\n[…]\nMaracatu Nação\n[…]\nMaracatu na RDB"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Congada",
+      "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Nas congadas, cortejos que encenam a coroação do Rei do Congo, que santa é homenageada ao lado de São Benedito?",
+    "resposta": "Nossa Senhora do Rosário",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Congada"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Congada",
+        "situacao": "ok",
+        "texto": "A congada ou congado é uma manifestação cultural e religiosa afro-brasileira, caracterizada por cortejos, danças, cânticos e encenações que articulam elementos do catolicismo popular com tradições de origem africana. Trata-se de um complexo ritual que, em muitas de suas formas, recria simbolicamente a coroação de um rei do Reino do Congo.\n[…]\nA devoção ao Rosário possui antecedentes na África Central, onde o cristianismo foi apropriado e reinterpretado por populações locais, especialmente no antigo Reino do Congo.\n[…]\nA congada configura-se como um folguedo dramático que articula música, dança e encenação em uma estrutura performática complexa, na qual diferentes planos simbólicos se sobrepõem. Seus enredos frequentemente mobilizam a coroação de reis negros, associada à memória de estruturas políticas africanas, bem como narrativas devocionais vinculadas a São Benedito e Nossa Senhora do Rosário, integrando elementos do catolicismo popular a matrizes culturais de origem africana.\n[…]\nO Reinado de Nossa Senhora do Rosário e as congadas constituem manifestações interligadas no âmbito da religiosidade afro-brasileira, sendo frequentemente compreendidos como dimensões complementares de um mesmo complexo ritual.\n[…]\nHistoricamente, essa articulação remonta às irmandades de Nossa Senhora do Rosário formadas no período colonial, nas quais populações africanas e afrodescendentes encontraram espaços de organização social e expressão religiosa. Nessas associações, a coroação de reis do Congo assumiu papel central, configurando o que a historiografia denomina Reinado do Rosário.\n[…]\nA congada insere-se no campo do catolicismo popular, mantendo vínculos com práticas como missas, procissões e festas de santos, especialmente Nossa Senhora do Rosário, São Benedito e Santa Efigênia.\n[…]\nCongado\n[…]\nReinado de Nossa Senhora do Rosário\n[…]\nNossa Senhora do Rosário"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Lenda da vitória-régia",
+      "descricao": "Lenda indígena amazônica sobre a jovem Naiá, transformada em planta aquática pela Lua."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma lenda indígena, a jovem Naiá se afogou tentando beijar o reflexo da Lua num lago e foi transformada em qual planta?",
+    "resposta": "Vitória-régia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vitória-régia"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vitória-régia",
+        "situacao": "ok",
+        "texto": "A vitória-régina ou victória-régia (Victoria amazonica) é uma planta aquática da família das Nymphaeaceae, típica da região amazônica.\n[…]\nA espécie faz parte do gênero Victoria, colocado por vezes na família Nymphaeaceae e outras vezes na Euryalaceae. A primeira descrição publicada do gênero foi feita por John Lindley em outubro de 1837, com base em espécimes dessa planta devolvidos da Guiana Inglesa por Robert Schomburgk. Lindley deu ao gênero o nome da recém-ascendida Rainha Vitória, e da espécie Victoria regia. A grafia na descrição de Schomburgk no Athenaeum, publicada no mês anterior, foi dada como Victoria Regina .\n[…]\nJoseph Paxton (para o duque de Devonshire) foi o primeiro em novembro de 1849, replicando o habitat quente e pantanoso da vitória-régia (não é fácil no inverno na Inglaterra, com apenas caldeiras a carvão), e um “Sr. Ivison” o segundo e mais constantemente bem-sucedido (para Northumberland) em Syon House .\n[…]\nO suco extraído de suas raízes é utilizado pelos indígenas como tintura negra para os cabelos.\n[…]\nO caule e a parte inferior das folhas são revestidos com muitos espinhos para se defender de peixes e outros herbívoros subaquáticos, embora também possam desempenhar um papel ofensivo ao esmagar plantas rivais nas proximidades, à medida que a vitória-régia se desenvolve agressivamente., privando outras plantas diretamente abaixo de suas folhas desse recurso vital e escurecendo significativamente as águas abaixo.\n[…]\nVitória-régia em Jardineiro.net - foto e descrição\n[…]\nA Vitória-régia em Indaial\n[…]\nLenda da vitória-régia"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Lavagem do Bonfim",
+      "descricao": "Festa popular de Salvador em que baianas lavam as escadarias da Igreja do Senhor do Bonfim com água perfumada."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na Lavagem do Bonfim, em Salvador, quase todos vestem branco porque o Senhor do Bonfim é associado a qual orixá?",
+    "resposta": "Oxalá",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lavagem_do_Bonfim",
+      "https://pt.wikipedia.org/wiki/Oxalá"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lavagem_do_Bonfim",
+        "situacao": "ok",
+        "texto": "A Lavagem do Bonfim é uma celebração inter-religiosa que tem lugar em Salvador da Bahia, Brasil. Acontece na quinta-feira que antecede o segundo domingo após o Dia de Reis, no mês de janeiro.\n[…]\nA tradicional Lavagem não deve ser confundida com a Festa que marca o encerramento do novenário solene, no domingo seguinte, quando ocorre a missa ao Senhor do Bonfim. A lavagem da Igreja teve início em 1773, quando os integrantes da \"Devoção do Senhor Bom Jesus do Bonfim\", constituída por devotos leigos, faziam os escravizados lavar e ornamentar a Igreja como parte dos preparativos para a festa do Senhor do Bonfim.\n[…]\nPosteriormente, para os adeptos do candomblé, a lavagem da igreja do Senhor do Bonfim passou a ser parte da cerimônia das Águas de Oxalá. A Arquidiocese de Salvador, então, proibiu a lavagem na parte interna do templo e transferiu o ritual para as escadarias e o adro.\n[…]\nA lavagem festiva acontece com a saída, pela manhã da quinta-feira, do tradicional cortejo de baianas da Igreja de Nossa Senhora da Conceição da Praia, o qual segue a pé até o alto do Bonfim, para lavar com vassouras e água de cheiro as escadarias e o átrio da Igreja do Nosso Senhor do Bonfim.\n[…]\nTodos se vestem de branco, a cor do orixá, e percorrem 8 quilômetros em procissão, desde o largo da Conceição até o largo do Bonfim. O ponto alto da festa ocorre quando as escadarias da igreja são lavadas por cerca de 200 baianas vestidas a caráter que, de suas \"quartinhas\" — vasos, que trazem aos ombros — despejam água nas escadarias e no átrio da igreja, ao som de palmas, toque de atabaque e cânticos de origem africana.\n[…]\nProcissão das águas de Oxalá\n[…]\nFesta do Bonfim, no site da Fundação Gregório de Mattos"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oxalá",
+        "situacao": "ok",
+        "texto": "Oxalá, do iorubá \"Òriṣànlá\", é nome de um orixá também conhecido como Obatalá. \"Oxalufã\", \"Oxaguiã\" e \"Obatalá\" são termos procedentes da língua iorubá.\n[…]\nOxalá, Orixalá, Orixaguinã, Gunocô ou Obatalá é o orixá associado à criação do mundo e da espécie humana. Apresenta-se de várias maneiras (qualidades) sendo as duas principais qualidades: a forma jovem, em que Oxalá é chamado de Oxaguiã e seus símbolos são uma idá (espada), um pilão de metal branco e um escudo. Na sua forma idosa, Oxalá é chamado Oxalufã e seu símbolo é um cajado de metal chamado opaxorô.\n[…]\nObatalá, Oxalá, Oxalufã, Oxaguiã e Oxá-Popô, todos eles denominados orixá funfum (Òrìsà funfun; branco), devido à cor que os simboliza, a branca. Obatalá e Odudua são associados de diversas maneiras nos mitos da criação.\n[…]\nOrixá-Lá\n[…]\nOxalá, Obatalá, Orixalá, Orixa-Nlá. Oxalá é um nome genérico de vários Òrìxá funfun (branco), como são chamados diversos Orixás africanos no Brasil relacionados à cor branca e à criação do mundo. Os filhos de Oxalá têm algumas restrições (euó):\n[…]\nTambém em função das lendas, o dia de Oxalá é a sexta-feira.\n[…]\nNo candomblé, tanto no Brasil quanto em outros países, todos os iniciados e frequentadores costumam vestir-se de branco em homenagem a Oxalá. Os filhos de Oxalá não comem comida de sal e muitos adotaram não comer carne na sexta-feira (somente peixe).\n[…]\nContudo, também se acredita que esse costume tenha relação com a Igreja Católica e o sincretismo de Oxalá com o Senhor do Bonfim na Bahia, costume também adotado pelos restaurantes em que nas sextas-feiras servem a pescada branca com molho de camarão.\n[…]\nÁguas de Oxalá\n[…]\nFesta do Bonfim"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.26 — 2026-09-30**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §17):** esquemas, fluxo de produção, decisões, pendências, o jogo e o app. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 69 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **O enunciado aponta para a figura e é curto:** "Que cidade aparece nesta foto?", "Esta igreja fica em qual capital?". Ele pode trazer um fato que ajude, desde que não entregue a resposta.
+- **O ângulo segue a regra de sempre (§5).** Foto de um monumento e pergunta pela cidade: a âncora é o monumento, e o ângulo é `lugar`.
+- **Tipos de figura, por ordem de prioridade:** lugares (cidades, monumentos, paisagens), animais e contornos de mapa. Obras de arte e plantas ficam para depois.
+- **Só fotos de verdade, de um único assunto:** nada de montagens, ilustrações ou pranchas com várias espécies.
+- **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
+- **Proibido:** capas de álbuns, pôsteres, logotipos, fotos de imprensa e fotos de pessoas que não sejam figuras públicas.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Não é óbvia demais:** a Torre Eiffel de frente não ensina nada. Prefira um ângulo menos visto, um detalhe ou um fato no enunciado que torne a pergunta interessante (princípio 4).
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

@@ -1,0 +1,484 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O fato é sobre a cidade de Parintins, não sobre o festival que é a âncora; âncora errada e fonte não sustenta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado, resposta única e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Doze cavaleiros por exército, confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cristãos de azul e mouros de vermelho é fato bem documentado; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Bonecos nasceram' é impreciso; o que nasceu em Caruaru foi o artista.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Mestre Vitalino, famoso pelos bonecos de barro de vaqueiros, retirantes e bandas de pífano, nasceu em qual cidade pernambucana?",
+        "resposta": "Caruaru",
+        "distratores": [
+          "Olinda",
+          "Petrolina",
+          "Garanhuns"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Mestre_Vitalino"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte do capim-dourado não existe; manter só a página do Jalapão.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "O artesanato de capim dourado, cujas peças brilham como ouro, é típico de qual região do Tocantins?",
+        "resposta": "Jalapão",
+        "distratores": [
+          "Ilha do Bananal",
+          "Bico do Papagaio",
+          "Vale do Araguaia"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jalapão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carranca ligada ao rio São Francisco, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crença de afugentar maus espíritos sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda em Teresina, nos rios Parnaíba e Poti; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Samba de roda do Recôncavo, proclamado pela Unesco em 2005.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quadrille francês, bem sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Anarriê vem de 'en arrière', para trás; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Juazeiro do Norte, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda gaúcha, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Devoção ligada a recuperar coisas perdidas.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Boitatá significa cobra de fogo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Primeiro registro escrito conhecido' não é sustentado; a fonte diz só que é dos primeiros.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em carta de 1560, qual padre jesuíta descreveu o baetatá, 'coisa de fogo' ancestral do Boitatá?",
+        "resposta": "José de Anchieta",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Boitatá",
+          "https://en.wikipedia.org/wiki/Boitatá"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte pt da Iara não existe; usar a página do boto, que traz o significado de uiara.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Em tupi, o nome da Iara, a sereia que atrai os pescadores para o fundo dos rios, quer dizer o quê?",
+        "resposta": "Senhora das águas",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Iara_(mythology)",
+          "https://pt.wikipedia.org/wiki/Boto-cor-de-rosa"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frevo vem de ferver, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Onomatopeia do arrastar das alpercatas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Juntava dois fatos e a fonte de Lampião era a página do lampião; reformular com fonte do xaxado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Os cangaceiros de qual famoso líder, marido de Maria Bonita, popularizaram a dança xaxado?",
+        "resposta": "Lampião",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Xaxado"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Korimbó era o tambor; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em inglês inexistente; manter só a pt.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Os folhetos da literatura de cordel ganharam esse nome por causa da maneira como eram expostos nas feiras. Como eram expostos?",
+        "resposta": "Pendurados em barbantes",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Literatura_de_cordel"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Resposta 'figo' quase igual a 'figa' no enunciado: vazamento, e a fonte não liga a fruta.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Medida do Bonfim, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três nós, um pedido por nó.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Círio vem de cereum, vela grande.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caboclo Plácido, em 1700, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais; encurtar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Segundo a lenda, por que o Curupira, protetor das matas, tem os pés virados para trás?",
+        "resposta": "Para confundir os caçadores",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Curupira",
+          "https://en.wikipedia.org/wiki/Curupira"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amaldiçoada por relações com um padre.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fontes inadequadas e 'nunca' é absoluto; ajustar fonte e enunciado.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Na lenda amazônica, o boto vira um rapaz de branco para seduzir moças. Por que ele não tira o chapéu?",
+        "resposta": "Para esconder o respiradouro",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Boto-cor-de-rosa"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hipótese da preguiça-gigante sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais e 'preferido' não está na fonte.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "No enredo do bumba meu boi, por que Pai Francisco mata o boi do patrão?",
+        "resposta": "Catirina queria comer a língua",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bumba_meu_boi",
+          "https://en.wikipedia.org/wiki/Bumba_Meu_Boi"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta dupla, resposta composta e fonte não sustenta a lenda.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Santo Antônio dia 13, São João 24, São Pedro 29; São Pedro é a resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Véspera do dia de Santo Antônio, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fontes inexistente e de desambiguação; trocar por páginas corretas.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "A Pisadeira, velha que pisa no peito de quem dorme de barriga cheia, é a explicação popular para qual fenômeno?",
+        "resposta": "Paralisia do sono",
+        "distratores": [
+          "Sonambulismo",
+          "Insônia",
+          "Ronco"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pisadeira_(folclore)",
+          "https://pt.wikipedia.org/wiki/Paralisia_do_sono"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inquérito de Lobato em 1917, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Peneira sobre o redemoinho é tradição bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dodô e Osmar com a fobica, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mestre Bimba criou a capoeira regional.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sábado de Aleluia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Termina em 6 de janeiro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; manter apenas a página de folclore brasileiro.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Em que data se comemora oficialmente o Dia do Folclore no Brasil?",
+        "resposta": "22 de agosto",
+        "distratores": [
+          "31 de outubro",
+          "19 de abril",
+          "24 de junho"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Folclore_brasileiro"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Festa do Rio Vermelho em 2 de fevereiro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cabaça como caixa de ressonância, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Lança' no enunciado vaza parte da resposta.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Qual personagem símbolo do maracatu rural pernambucano usa gola bordada, cabeleira colorida e leva um cravo branco na boca?",
+        "resposta": "Caboclo de lança",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Maracatu_rural",
+          "https://pt.wikipedia.org/wiki/Maracatu"
+        ]
+      }
+    },
+    {
+      "indice": 48,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Santa Efigênia também é homenageada, então 'que santa' não tem resposta única.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Nas congadas, cortejos que encenam a coroação do Rei do Congo, a devoção a São Benedito se une à de qual Nossa Senhora?",
+        "resposta": "Nossa Senhora do Rosário",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Congada"
+        ]
+      }
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lenda de Naiá e a vitória-régia é bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Branco, cor de Oxalá, confirmado.",
+      "reescrita": null
+    }
+  ]
+}
