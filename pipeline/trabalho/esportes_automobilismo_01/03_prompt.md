@@ -1,0 +1,1773 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Automobilismo** (tema **Esportes**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Interlagos",
+      "descricao": "Autódromo José Carlos Pace, em São Paulo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Autódromo de Interlagos leva oficialmente o nome de qual piloto brasileiro, morto num acidente aéreo em 1977?",
+    "resposta": "José Carlos Pace",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+      "https://en.wikipedia.org/wiki/Carlos_Pace"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+        "situacao": "ok",
+        "texto": "Autódromo José Carlos Pace é um autódromo municipal localizado no distrito de Cidade Dutra, na Zona Sul do município brasileiro de São Paulo, e considerado um dos melhores e mais importantes circuitos de corrida do mundo. Pela proximidade com o bairro de Interlagos, situado no distrito vizinho do Socorro, é popularmente chamado de Autódromo de Interlagos.\n[…]\nEm 1985, foi renomeado para homenagear o piloto de Fórmula 1 José Carlos Pace, falecido em 1977. Anexo à sua construção, há o Kartódromo Municipal Ayrton Senna.\n[…]\nEm 1973, a prova já era válida pelo campeonato mundial de equipes e pilotos, sendo vencida pelo brasileiro Emerson Fittipaldi, da Lotus. Em 1975, o autódromo foi palco da primeira dobradinha de brasileiros na Fórmula 1: José Carlos Pace foi o vencedor, seguido de Fittipaldi. Até 1980, o autódromo recebeu o Grande Prêmio sucessivamente, com exceção de 1978 que foi no Autódromo de Jacarepaguá devido a reformas no circuito.\n[…]\nEm agosto de 2024, o corpo de José Carlos Pace foi transferido de seu mausoléu vandalizado para o autódromo, onde foi sepultado no autódromo que leva seu nome. A ideia para isso surgiu de uma iniciativa do presidente da Confederação Brasileira de Automobilismo (CBA), Paulo \"Loco\" Figueiredo, do presidente da Comissão Nacional de Carros Clássicos e do jornalista Ricardo Caruso. O corpo de Pace chegou a Interlagos, onde foi sepultado ao lado do busto que ali se ergue em sua homenagem.\n[…]\nIsso faz de Pace o primeiro piloto falecido a ser sepultado em um circuito de corrida.\n[…]\nO Autódromo de Interlagos foi palco do Grande Prêmio do Brasil de Fórmula 1 nos anos de: 1972 a 1977, 1979, 1980 e de 1990 até 2019. E, desde 2021 sedia o Grande Prêmio de São Paulo.\n[…]\n«Autodromo Interlagos»\n[…]\n«Autódromo de Interlagos no WikiMapia»\n[…]\n«Classificados de Interlagos»\n[…]\nGP Brasil de F1 - Site Oficial"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Carlos_Pace",
+        "situacao": "ok",
+        "texto": "José Carlos Pace (Brazilian Portuguese pronunciation: [ʒoˈzɛ ˈkaʁlus ˈpatʃi]; 6 October 1944 – 18 March 1977)  was a Brazilian racing driver, who competed in Formula One from 1972 to 1977. Pace won the 1975 Brazilian Grand Prix with Brabham.\n[…]\nIn March 1977, Pace was killed in a light aircraft accident in Mairiporã. The Interlagos Circuit in São Paulo was renamed the Autódromo José Carlos Pace upon his death, home of the Brazilian Grand Prix since 1972 and the location of his sole victory in Formula One. It also is his final resting place since 2024.\n[…]\nPace was killed in a private light aircraft accident near São Paulo, Brazil on 18 March 1977, 13 days after fellow F1 driver Tom Pryce and marshal Frederik Jansen van Vuuren lost their lives during the 1977 South African Grand Prix. The Interlagos track, the scene of his only F1 win in 1975, was renamed Autódromo José Carlos Pace in his honour. He was buried in the Araçá cemetery in São Paulo.\n[…]\nFinally, on August 23, Pace's body arrived in Interlagos, where he was buried next to the bust that stands there in his honor. The emotional ceremony was attended by Pace's family (his widow Elda, his children Patrícia and Rodrigo, and his grandchildren), friends, other drivers, journalists and admirers of “Moco”.\n[…]\nThen, José Carlos Pace took one last lap around the track, where Rodrigo, “Moco's” son, drove a 1967 Karmann-Ghia racing car that was used by his father, from the old Dacon team, where José Carlos Pace formed a trio with none other than the Fittipaldi brothers of Emerson and Wilson Jr. at the time. Alongside Rodrigo was Maurício Marx, collector and current owner of the Karmann-Ghia, who took the urn with Pace's remains to his “final chequered flag”."
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Interlagos",
+      "descricao": "Autódromo José Carlos Pace, em São Paulo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O autódromo de Interlagos fica entre quais duas grandes represas da cidade de São Paulo?",
+    "resposta": "Guarapiranga e Billings",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+      "https://en.wikipedia.org/wiki/Interlagos_Circuit"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+        "situacao": "ok",
+        "texto": "Autódromo José Carlos Pace é um autódromo municipal localizado no distrito de Cidade Dutra, na Zona Sul do município brasileiro de São Paulo, e considerado um dos melhores e mais importantes circuitos de corrida do mundo. Pela proximidade com o bairro de Interlagos, situado no distrito vizinho do Socorro, é popularmente chamado de Autódromo de Interlagos.\n[…]\nO nome tradicional do bairro (e consequentemente do circuito) vem do fato da localização em uma região entre dois lagos artificiais, Guarapiranga e Billings, que foram construídos no começo do século XX para suprir a cidade com água e energia elétrica. O nome foi sugerido pelo arquiteto e urbanista francês Alfred Agache devido a semelhança da região com a cidade de Interlaken (literalmente \"entre lagos\"), na Suíça.\n[…]\nNo fim da década de 1920, o engenheiro britânico Luiz Romero Sanson idealizou uma região de lazer entre as represas Billings e Guarapiranga, sendo que sua filha escolheu o nome Interlagos para o local. A ideia era atender a população mais rica da cidade, que se interessava pelo automobilismo. A construção do circuito também foi incentivada por um acidente acontecido em 1936, quando foi realizada a primeira prova internacional de São Paulo nas ruas da cidade.\n[…]\nEm agosto de 2024, o corpo de José Carlos Pace foi transferido de seu mausoléu vandalizado para o autódromo, onde foi sepultado no autódromo que leva seu nome. A ideia para isso surgiu de uma iniciativa do presidente da Confederação Brasileira de Automobilismo (CBA), Paulo \"Loco\" Figueiredo, do presidente da Comissão Nacional de Carros Clássicos e do jornalista Ricardo Caruso. O corpo de Pace chegou a Interlagos, onde foi sepultado ao lado do busto que ali se ergue em sua homenagem.\n[…]\n«Autodromo Interlagos»\n[…]\n«Autódromo de Interlagos no WikiMapia»\n[…]\n«São Paulo Esportes»\n[…]\n«Classificados de Interlagos»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Interlagos_Circuit",
+        "situacao": "ok",
+        "texto": "The Autódromo José Carlos Pace, better known as Interlagos, is a 4.309 km (2.677 mi) motorsport circuit located in the city of São Paulo, Brazil. It was inaugurated on 12 May 1940, by the federal intervener of the state of São Paulo, Adhemar de Barros. In 1985, the circuit was renamed to honor the Formula 1 driver José Carlos Pace, who died in a plane crash in 1977. It is also his final resting pl\n[…]\nThe traditional name of the circuit, Interlagos (in Portuguese, \"between lakes\"), comes from its location on the neighborhood of the same name, a region between two large artificial lakes, Guarapiranga and Billings, built in the early 20th century to supply the metropolitan region of São Paulo with water and electric power. The name \"Interlagos\" was suggested by the French architect and urban planner Alfred Agache after the Interlaken region located in Switzerland.\n[…]\nInterlagos was renamed in 1985 to \"Autódromo José Carlos Pace\" in honor of the Brazilian Formula One driver José Carlos Pace, also known as \"Moco\", who died in a plane crash in 1977.\n[…]\nFormula One started racing at Interlagos in 1972, when the event was run as a non-championship race (won by Argentinean Carlos Reutemann). The first World Championship Brazilian Grand Prix was held there in 1973, and it was won by defending Formula One World Champion and São Paulo local Emerson Fittipaldi. Fittipaldi won the race again the following year, and José Carlos Pace won his only race at Interlagos in 1975.\n[…]\nNovember: Formula One São Paulo Grand Prix, Porsche Cup Brasil, F4 Brazilian Championship\n[…]\nAs of April 2026, the fastest official lap records at the Autódromo José Carlos Pace are listed as:\n[…]\nCidade Dutra\n[…]\nAutodromo Jose Carlos Pace History and Statistics\n[…]\nAutódromo José Carlos Pace on Google Maps (Current Formula 1 Tracks)\n[…]\nGeographic data related to Interlagos Circuit at OpenStreetMap"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Ayrton Senna",
+      "descricao": "Piloto brasileiro tricampeão mundial de Fórmula 1."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Como Silva era um sobrenome comum demais, Ayrton Senna da Silva passou a usar nas pistas o sobrenome de qual parente?",
+    "resposta": "Da mãe, Neide Senna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ayrton_Senna",
+        "situacao": "ok",
+        "texto": "Ayrton Senna da Silva (Brazilian Portuguese: [aˈiʁtõ ˈsẽnɐ dɐ ˈsiwvɐ] ; 21 March 1960 – 1 May 1994) was a Brazilian racing driver and philanthropist who competed in Formula One from 1984 to 1994. Senna won three Formula One World Drivers' Championship titles with McLaren, and—at the time of his death—held the record for most pole positions (65), among others; he won 41 Grands Prix across 11 season\n[…]\nAyrton Senna was born at 2:35 BRT on 21 March 1960, in the Pro-Matre Maternity Hospital of Santana, a neighbourhood of São Paulo. The middle child of a wealthy Brazilian family, he was born to landowner and factory owner Milton Guirado da Silva and his wife Neide Joanna Senna da Silva; he had an older sister, Viviane, and a younger brother, Leonardo.\n[…]\nAt the end of that season, under pressure from his parents to take up a role in the family business, Senna announced his retirement from Formula Ford and returned to Brazil. Before leaving England, Senna was offered a drive with a two-litre Formula Ford team—Rushen Green Racing—for £10,000. Back in Brazil, he decided to take this offer and returned to live in England. As da Silva is the most common Brazilian surname, he adopted his maternal surname, Senna.\n[…]\nSpanish band Delorean (extended play called Ayrton Senna)\n[…]\nBritish acid jazz band Corduroy (song called \"Ayrton Senna\")\n[…]\nHilton, Christopher (1994). Ayrton Senna: The Second Coming. PSL. ISBN 9781852604837.\n[…]\nHilton, Christopher (1999). Ayrton Senna: As Time Goes By. Haynes. ISBN 9781859606117.\n[…]\nHilton, Christopher (2004). Ayrton Senna: The Whole Story. Haynes.\n[…]\nRubython, Tom (2005). The Life of Senna: The Biography of Ayrton Senna. BusinessF1 Books. ISBN 9780954685737.\n[…]\nAyrton Senna Legacy Matters\n[…]\nAyrton Senna career summary at DriverDB.com\n[…]\nAyrton Senna driver statistics at Racing-Reference\n[…]\nAyrton Senna at IMDb\n[…]\nInstituto Ayrton Senna\n[…]\nSenna Documentary with Reviews and Discussion"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ayrton_Senna",
+        "situacao": "ok",
+        "texto": "Ayrton Senna da Silva (São Paulo, 21 de março de 1960 – Bolonha (Circuito de Ímola), 1 de maio de 1994) foi um piloto de Fórmula 1, empresário e filantropo brasileiro. Senna foi campeão da categoria de piloto três vezes, em 1988, 1990 e 1991. Começou sua carreira competindo no kart em 1973 e em \"carros de fórmula\" em 1981, quando venceu as Fórmulas Ford 1600 e 2000. Em 1983 alcançou o título de ca\n[…]\nApesar de a carreira de piloto estar em plena atividade, no início da década de 1990, Ayrton começou a se dedicar com mais afinco aos negócios e a administrar um patrimônio de centenas de milhões de dólares. Uma holding, a Ayrton Senna Promoções e Empreendimentos (Aspe), dirigida pelo pai Milton da Silva, o irmão Leonardo e o primo Fábio, controlava as empresas do grupo. A primeira e principal é a Ayrton Senna Licensing (ASL), criada para comercializar a imagem do piloto.\n[…]\nCasou-se oficialmente com Lílian em fevereiro de 1981. Após o casamento, Lílian passou a assinar Lílian Senna da Silva. Passaram a lua de mel em Chicago, na casa de Fábio Machado, o primo de Senna, e chegaram a viver juntos em uma casa em Londres, na época em que o piloto competia pela Fórmula Ford 1600. A união durou apenas oito meses.\n[…]\nEm 2012, o SBT realizou o programa O Maior Brasileiro de Todos os Tempos para eleger a maior personalidade do país. Ayrton Senna ficou entre os seis mais votados, primeiro entre os esportistas. Em 2014, ano em que se completaram duas décadas de sua morte, a escola de samba do Rio de Janeiro Unidos da Tijuca levou o tricampeão mundial de Fórmula 1 de volta às pistas, como tema do enredo \"Acelera, Tijuca!\".\n[…]\n\"Ayrton Senna's Principles of Race Driving\", Editora Hazleton Pub (1993).\n[…]\nLista de conquistas na carreira de Ayrton Senna\n[…]\n«Instituto Ayrton Senna»\n[…]\n«Acervo sobre Ayrton Senna». no Estadão\n[…]\n«Acervo sobre Ayrton Senna». no O Globo\n[…]\n«Em imagens: O acidente que matou Senna» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Ayrton Senna",
+      "descricao": "Piloto brasileiro tricampeão mundial de Fórmula 1."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1985, debaixo de chuva forte, Ayrton Senna venceu sua primeira corrida de Fórmula 1. Em que país foi essa vitória?",
+    "resposta": "Portugal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1985_Portuguese_Grand_Prix",
+      "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1985_Portuguese_Grand_Prix",
+        "situacao": "ok",
+        "texto": "The 1985 Portuguese Grand Prix was a Formula One motor race held in Estoril on 21 April 1985. It was the second round of the 1985 FIA Formula One World Championship and was won by Ayrton Senna from pole position, taking both his first pole position and win in the process. Senna demonstrated his proficiency in wet racing by finishing the race at least one lap ahead of every car except second-place \n[…]\nBy lap 10, Ayrton Senna had pulled away from 2nd position by almost 13 seconds. Elio de Angelis, Alain Prost, and Michele Alboreto (in order) were closely contending second position, and Derek Warwick was 15 seconds behind them in 5th. Gerhard Berger and Pierluigi Martini both spun off and retired on lap 12. The top four held steady to lap 15, with Niki Lauda and Patrick Tambay in 5th and 6th, 25 seconds behind 4th place Alboreto.\n[…]\nNear lap 30, Mauro Baldi spun out and ended on track with damage to his car and leaving a lot of mud on the racing surface, and Alain Prost retired with damage after spinning and striking the rear of his car on the track barrier. Still in the lead, Ayrton Senna signaled to race officials along pit lane asking them to stop the race. The race was not stopped or interrupted, but did continue at an unusually slow pace because of the poor weather conditions.\n[…]\nThe 1985 Portuguese Grand Prix was originally scheduled for 70 laps. At the beginning of lap 67, race leader Ayrton Senna was given a \"one lap to go\" indication from the race director, as the race had exceeded the prescribed two-hour time limit. Senna crossed the line, having led every lap of the race, and with only one other car on the lead lap, that of second-place Michele Alboreto. Patrick Tambay and Elio de Angelis, both one lap down, took third and fourth.\n[…]\nSenna's win was his first of two in the 1985 Formula One season, and the first of what would be 41 Formula One Grand Prix victories."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ayrton_Senna",
+        "situacao": "ok",
+        "texto": "Ayrton Senna da Silva (Brazilian Portuguese: [aˈiʁtõ ˈsẽnɐ dɐ ˈsiwvɐ] ; 21 March 1960 – 1 May 1994) was a Brazilian racing driver and philanthropist who competed in Formula One from 1984 to 1994. Senna won three Formula One World Drivers' Championship titles with McLaren, and—at the time of his death—held the record for most pole positions (65), among others; he won 41 Grands Prix across 11 season\n[…]\nSenna signed for Toleman in 1984, making his Formula One debut at the Brazilian Grand Prix. After scoring several podium finishes in his rookie season, Senna moved to Lotus in 1985 to replace Nigel Mansell, taking his maiden pole position and victory at the rain-affected Portuguese Grand Prix, a feat he repeated in Belgium. He remained at Lotus for his 1986 and 1987 campaigns, scoring multiple wins in each and finishing third in the latter World Drivers' Championship.\n[…]\nHe was also widely acclaimed for his wet-weather performances, such as at the 1984 Monaco, 1985 Portuguese and 1993 European Grands Prix. Senna was inducted into the International Motorsports Hall of Fame in 2000 and into the Automotive Hall of Fame in 2025.\n[…]\nAt the second round of the season, the Portuguese Grand Prix, Senna took the first pole position of his Formula 1 career. He converted it into his first victory in the race, which was held in very wet conditions, winning by over a minute from the Ferrari of Michele Alboreto, and lapping everyone up to and including third placed Patrick Tambay. The race was the first Grand Slam of Senna's career, as he also set the fastest lap of the race.\n[…]\nHe also drove two other NSX cars owned by Honda Portugal and Senna's friend Antonio Carlos de Almeida Braga.\n[…]\nPortuguese rock band Os Pontos Negros have a song titled \"Senna\" in their 2012 Soba Lobi album\n[…]\nOfficial website (in English and Portuguese)\n[…]\nAyrton Senna at IMDb\n[…]\nInstituto Ayrton Senna\n[…]\nBBC Sport: Formula 1's Greatest Drivers"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Pr%C3%A9mio_de_Portugal_de_1985",
+        "situacao": "ok",
+        "texto": "Resultados do Grande Prêmio de Portugal de Fórmula 1 realizado no Autódromo do Estoril em 21 de abril de 1985. Segunda etapa do campeonato, foi vencido pelo brasileiro Ayrton Senna, da Lotus-Renault, com Michele Alboreto em segundo pela Ferrari e Patrick Tambay em terceiro pela Renault.\n[…]\nPrevisto para 70 voltas (304.500 Km) o Grande Prêmio de Portugal foi encerrado ao atingir o limite temporal de duas horas resultando em 67 voltas completadas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Equipe Fittipaldi",
+      "descricao": "Equipe brasileira de Fórmula 1 criada pelos irmãos Wilson e Emerson Fittipaldi, que competiu de 1975 a 1982."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A equipe brasileira de Fórmula 1 dos irmãos Fittipaldi correu anos com o nome de qual patrocinadora, uma cooperativa de usinas paulistas?",
+    "resposta": "Copersucar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fittipaldi_Automotive"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fittipaldi_Automotive",
+        "situacao": "ok",
+        "texto": "Fittipaldi Automotive was a Formula One racing team and constructor that competed from 1975 to 1982. The cars were officially called Copersucar until the end of 1979 and Fittipaldi from the beginning of 1980 onwards. It was the only Formula One team to have been based in Brazil. The team was formed during 1974 by racing driver Wilson Fittipaldi and his younger brother, double world champion Emerso\n[…]\nThe Copersucar-branded car was designed by Brazilian Richard Divila, who had worked for Fittipaldi Empreendimentos designing Formula Vee cars, and later for the European Formula Two Team Bardahl Fittipaldi, modifying their Lotus and Brabham chassis. National aerospace company Embraer was also involved, supplying materials to the fledgling team and providing wind-tunnel time. Mexican Jo Ramírez was hired as team manager.\n[…]\nThe team was initially based in Brazil, almost 6,000 miles (10,000 km) away from the United Kingdom, a bold move given the overwhelmingly British nature of Formula One technology from the 1960s onwards. The long and low Copersucar FD01, with bulbous bodywork enclosing the engine and unusual rear-mounted radiators, painted in silver with rainbow markings on the flanks, was unveiled in October 1974 at the Federal Senate in Brasília in the presence of President Ernesto Geisel.\n[…]\nAt the end of 1979 Copersucar decided to end their sponsorship. The team bought the remains of close neighbour Wolf Racing, becoming a two car operation for the first time. The team was renamed Skol Team Fittipaldi for the 1980 season to reflect new sponsorship from Skol Brasil (now an AmBev brand). Emerson and Wolf Racing driver Keke Rosberg raced the first part of the season with reworked Wolf chassis from the previous year.\n[…]\n\"A história da equipe Fittipaldi (também conhecida como Copersucar)\" (in Portuguese). Retrieved 7 March 2006."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escuderia_Fittipaldi",
+        "situacao": "ok",
+        "texto": "Escuderia Fittipaldi, também conhecida como: Copersucar-Fittipaldi, Skol-Fittipaldi ou Fittipaldi Automotive, foi uma escuderia de Fórmula 1 brasileira fundada em 1975 pelos irmãos Emerson e Wilson Fittipaldi Jr. (não confundir com Wilson Fittipaldi, o \"Barão\", que chegou a cortar a ajuda financeira aos filhos para tentar desencorajá-los da ideia). Competiu num total de 104 grandes prêmios. Sua es\n[…]\nApós trinta anos de sua apresentação oficial em Brasília, em 16 de outubro de 1974, o modelo FD01, o Copersucar pilotado por Wilson Fittipaldi Jr. - primeiro carro brasileiro a disputar uma prova de Fórmula 1 - voltou em 10 de novembro de 2004 à pista do Autódromo de Interlagos, totalmente restaurado.\n[…]\nNa sua história, a Copersucar-Fittipaldi teve diversos pilotos, como Ingo Hoffmann e Chico Serra, e até ajudou a formar um campeão mundial, o finlandês Keke Rosberg, que defendeu a equipe em 1980 e 1981.\n[…]\nAos que teimam em lembrar da Copersucar, depois Fittipaldi, como um capítulo risível da história da F-1, alguns números são esclarecedores.Na temporada de 1980, por exemplo, o time brasileiro terminou o campeonato em oitavo lugar com onze pontos, enquanto que a Ferrari ficou em decimo lugar com apenas oito pontos. Dois anos antes, a equipe ficou na frente de McLaren, Williams, Renault e Arrows no Mundial de Construtores.\n[…]\nEmerson Fittipaldi, que juntou-se à Copersucar em 1976, marcou um ponto a menos que o canadense Gilles Villeneuve, da Ferrari.\n[…]\nPara comparar: a Jaguar encerrou suas atividades em 2004 com 49 pontos e dois pódios em 85 GPs. Era a equipe oficial da Ford. A Prost somou 35 pontos em 83 corridas, também com três pódios. A Sauber, em 206 largadas, conseguiu apenas seis pódios. Pelos padrões vigentes, pois, a Copersucar-Fittipaldi, hoje, se mantivesse o mesmo desempenho de sua época, estaria ranqueada facilmente entre as chamadas equipes intermediárias.\n[…]\nEmerson Fittipaldi",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Fórmula 1",
+      "descricao": "Principal categoria de monopostos do automobilismo mundial, organizada pela FIA desde 1950."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No nome Fórmula 1, a palavra fórmula indica o quê?",
+    "resposta": "O conjunto de regras dos carros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Formula_One"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Formula_One",
+        "situacao": "ok",
+        "texto": "Formula One (F1) is the highest class of worldwide racing for open-wheel, single-seater formula racing cars run by the Formula One Group and sanctioned by the Fédération Internationale de l'Automobile (FIA). The FIA Formula One World Championship has been one of the world's premier forms of motorsport since its inaugural running in 1950 and is often considered to be the pinnacle of motorsport. The\n[…]\nFormula One teams pay entry fees of $500,000, plus $5,000 per point scored the previous year, or $6,000 per point for the winner of the Constructors' Championship. Formula One drivers pay a FIA Super Licence fee, which in 2013 was €10,000, plus €1,000 per point.\n[…]\nBefore the beginning of the 2020 Formula One World Championship, F1 announced and launched the #WeRaceAsOne initiative. The initiative primarily focuses on visible displays of solidarity in the fight against racism on Grand Prix weekends, as well as the creation of a Formula 1 Task Force that will \"listen to people from across the paddock [...] and make conclusions on the actions required to improve the diversity and opportunity in Formula 1 at all levels\".\n[…]\nFormula One is broadcast live or tape delayed in almost every country and territory, and attracts one of the largest global television audiences. The cumulative television audience for the 2001 season, which was broadcast to 200 territories, was calculated to be 54 billion, and has since fallen to 1.55 billion.\n[…]\nIn March 2018, Formula One announced the launch of F1 TV, an over-the-top streaming platform that lets viewers watch multiple simultaneous video feeds and timing screens in addition to traditionally directed race footage and commentary. In April 2024, FOM launched a free ad-supported streaming television channel known as the Formula 1 Channel in the United States, which plays classic Grands Prix, documentaries, and analysis from past races."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/F%C3%B3rmula_1",
+        "situacao": "ok",
+        "texto": "Fórmula 1 (também F1; em inglês: Formula One) é a categoria mais avançada do esporte a motor e é regulamentada pela Federação Internacional de Automobilismo. O \"Campeonato Mundial de Pilotos\", que se tornou o Campeonato Mundial de Fórmula 1 da FIA em 1981, tem sido uma das principais categorias de corrida em todo o mundo desde sua temporada inaugural em 1950. A palavra \"fórmula\" no nome se refere \n[…]\nNo campo da propaganda, esta época foi decisiva para o futuro das competições na Fórmula 1 como conhecemos hoje. A Lotus se juntou a uma empresa de tabaco em 1968, e criou a equipe Gold Leaf Lotus, com carros pintados de vermelho, branco e dourado, o que fez desaparecer o tradicional verde britânico. As competições se transformaram num meio comercial.\n[…]\nEm 1977, a Renault retornou às corridas de Grande Prêmio (após ter se retirado em 1906), com o projeto de fazer do motor turbo um vencedor na Fórmula 1, que já era desenvolvido em corridas de carros esporte e endurance, como Le Mans.\n[…]\nEm 1978, Lauda mudou-se para a Brabham, mas viu a Fórmula 1 ser dominada pela Lotus. Mario Andretti conquistou o título com treze pontos de vantagem sobre seu companheiro de equipe, Ronnie Peterson. O \"sueco voador\" não terminou aquela temporada. Um acidente depois da largada do Grande Prêmio da Itália, em Monza, envolvendo vários carros o vitimou. Emerson Fittipaldi, que era seu grande amigo, havia abandonado o GP por conta da falta de segurança.\n[…]\nE com a mudança das regras pleiteada pela equipe Mercedes, que atingiu o assoalho flexível utilizado pelos carros da Ferrari, Max Verstappen e a Red Bull foram dominantes na segunda metade da temporada, dando ao neerlandês a conquista do bicampeonato durante o Grande Prêmio do Japão. Esta corrida, tal qual o GP da Bélgica do ano anterior, também se deu debaixo de uma intensa chuva, e correu sério risco de ser cancelada.\n[…]\nFórmula 1 no X\n[…]\nFórmula 1 no YouTube",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Pole position",
+      "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A expressão pole position, a primeira posição no grid de largada, veio de qual outro esporte?",
+    "resposta": "Turfe",
+    "distratores": [
+      "Vela",
+      "Atletismo",
+      "Ciclismo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pole_position"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pole_position",
+        "situacao": "ok",
+        "texto": "In a motorsports race, pole position is the best position on the track at the start and thus, by definition, the participant in pole position is starting it from first place.\n[…]\nThe driver in pole position is referred to as the pole-sitter.\n[…]\nGrid position is typically determined by a qualifying session before the race, where race participants compete to ascend to the number 1 grid slot, the driver, pilot, or rider having recorded fastest qualification time awarded the advantage of the number 1 grid slot (i.e., the pole-position) ahead of all other vehicles for the start of the race. Historically, the fastest qualifier was not necessarily the designated pole-sitter.\n[…]\nDifferent sanctioning bodies in motor sport employ different qualifying formats in designating who starts from pole position. Often, a starting grid is derived either by current rank in the championship, or based on finishing position of a previous race.\n[…]\nOriginally in Grand Prix racing, grid positions, including pole, were determined by lottery among the drivers. Before the inception of the Formula One World Championship, the first instance of grid positions being determined by qualifying times was at the 1933 Monaco Grand Prix. Since then, the FIA have introduced many different qualifying systems to Formula One.\n[…]\n3. The grid for WorldSBK Race 2 will be determined from the first nine positions in the Superpole Race, and the grid from 10th onwards will be the positions from Saturday's Superpole.\n[…]\nTo qualify for the race, riders must record a lap time no longer than 107% of the time recorded by the pole-position rider. Qualifying tires may be used.\n[…]\nMedia related to Pole position at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pole_position",
+        "situacao": "ok",
+        "texto": "Um piloto é considerado o pole position, em automobilismo, quando inicia a corrida na primeira posição do grid (ou grelha) de largada. O termo foi adaptado das corridas de cavalo. Normalmente a posição no grid de largada de uma corrida é determinada em uma sessão à parte de classificação, onde os pilotos tentam obter o melhor resultado. Pode haver várias diferenças na forma como se define o pole p\n[…]\nOu também pode ser feito pela marca, a melhor marca do carro/moto (seja qual for a categoria) tem a garantia da \"Pole Position\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Circuito de Spa-Francorchamps",
+      "descricao": "Circuito nas Ardenas, na Bélgica."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A famosa curva Eau Rouge, em Spa-Francorchamps, tem o nome de um riacho que passa por ali. O que significa Eau Rouge?",
+    "resposta": "Água vermelha",
+    "distratores": [
+      "Pedra vermelha",
+      "Água escura",
+      "Água fria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps",
+        "situacao": "ok",
+        "texto": "The Circuit de Spa-Francorchamps (French pronunciation: [siʁkɥi də spa fʁɑ̃kɔʁʃɑ̃]), informally referred to as Spa, is a 7.004 km (4.352 mi) motor-racing circuit located in Francorchamps, Stavelot, Wallonia, Belgium, about 8 km (5.0 mi) southeast of Spa.\n[…]\nThe original Spa-Francorchamps circuit was essentially a speed course, with drivers managing higher average speeds than on other road race tracks. At the time, the Belgians took pride in having a very fast circuit, and to improve average speeds, in 1939 the former Ancienne Douane slow uphill U-turn after the bottom of the Eau Rouge creek valley was cut short with a faster sweep straight up the hill, called the Raidillon.\n[…]\nAhead of the 2022 FIM EWC 24H Spa EWC Motos race and 2022 F1 Grand Prix, the circuit underwent a major facility and safety facility redevelopment which had been planned since 2020. Extra run-off was added to the Raidillon de l'Eau Rouge part of the course – changes made in response to several big accidents in recent years at that section of the track, including the fatal accident of Anthoine Hubert during the 2019 Spa-Francorchamps Formula 2 round.\n[…]\nThe most famous long-distance and sports car races are the Spa 24 Hours and the 6 Hours of Spa-Francorchamps. The circuit also hosts a 25-hour and 24-hour races for Citroën 2CV cars.\n[…]\nSpa-Francorchamps GP2 round (2005, 2007–2016)\n[…]\nList of Circuit de Spa-Francorchamps fatalities\n[…]\nCircuit de Spa-Francorchamps (in English)—(in French)\n[…]\nBBC Belgian GP circuit guide\n[…]\nCircuit de Spa-Francorchamps history and statistics\n[…]\nCircuit de Spa-Francorchamps on Google Maps (current Formula 1 tracks)\n[…]\nHistoric Circuit de Spa-Francorchamps on Google Maps (1922)\n[…]\nSpectator testimonial of visiting Spa-Francorchamps\n[…]\nCircuit info from official F1 site"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Circuito_de_Spa-Francorchamps",
+        "situacao": "ok",
+        "texto": "Circuito de Spa-Francorchamps é um autódromo belga localizado nos arredores das cidades de Spa, Stavelot e Malmedy, na província de Liège. É conhecido pela sua história e importância, sendo uma das grandes catedrais do automobilismo. Recebe a Fórmula 1 e as 24 Horas de Spa anualmente.\n[…]\nA combinação das curvas Eau Rouge e Raidillon são a mais famosa, e, na opinião unânime dos pilotos de Fórmula 1, a mais traiçoeira, difícil e prazerosa curva do automobilismo. Segundo a revista Mundo Estranho (edição 49), ela é o trecho mais perigoso dos circuitos de F-1. Além disso, por ser uma curva em “S” de alta antecedido por uma generosa descida, ela é a única curva no qual o grande desafio é a força G vertical, e não lateral.\n[…]\nJá na edição de 1995, o autódromo de Spa-Francorchamps voltaria a usar a Eau Rouge clássica até os dias atuais.\n[…]\nO seu nome (Eau Rouge, em francês, quer dizer \"Água Vermelha\") provem de um pequeno rio junto a pista que tem essa cor.\n[…]\n2016: Kevin Magnussen - Perdeu o controle da Renault na desafiadora subida da Eau Rouge e bateu violentamente na barreira de proteção de localizada na saída da curva. O impacto foi tão forte que o protetor do cockpit foi arremessado. O safety car foi acionado, mas os fiscais tiveram dificuldades para reconstruir a proteção de pneus, a bandeira vermelha precisou ser acionada e a corrida ficou paralisada por 20 minutos.\n[…]\nA pista ainda tem outra característica apelativa. No calendário atual, Spa-Francorchamps é o circuito com maior diferença de altitude entre a zona mais baixa e a zona mais alta do circuito e também possui o maior trecho em declive. Desde a reta que antecede a curva Rivage até setenta metros depois da curva de Stavelot são percorridos 2,5 km a descer.\n[…]\n«Página sobre o circuito» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Circuito Gilles Villeneuve",
+      "descricao": "Circuito de rua da Ilha Notre-Dame, em Montreal, sede do Grande Prêmio do Canadá."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No circuito de Montreal, um muro na saída da última chicane ganhou o apelido de Muro dos Campeões. Por quê?",
+    "resposta": "Três campeões bateram nele em 1999",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve",
+        "situacao": "ok",
+        "texto": "The Circuit Gilles Villeneuve, also spelled Circuit Gilles-Villeneuve (French pronunciation: [siʁ.kɥi ʒil vilnœv]), is a 4.361 km (2.710 mi) motor racing circuit on Notre Dame Island in Montreal, Quebec, Canada. It is the venue for the FIA Formula One Canadian Grand Prix.\n[…]\nThe Canadian Grand Prix was first held at the circuit in 1978, where hometown hero Gilles Villeneuve (1950–1982) won for Scuderia Ferrari. The Grand Prix quickly became a mainstay of the Formula One calendar, with the race taking place in Montreal for the next thirty years. Once held in late September, the event was moved to its present location on the calendar of mid-June in 1982, to provide a warmer, more pleasant race weekend.\n[…]\nWith safety concerns with Mosport blighting the 1977 event, it was decided to move the race to the new circuit in Montréal. In 1982, it was renamed in honour of Canadian Formula One driver Gilles Villeneuve, father of Jacques Villeneuve, following his death earlier in the year. The circuit is located in Parc Jean-Drapeau in the city of Montréal. The park is named after the mayor of Montréal who was responsible for the organization of Expo 67.\n[…]\nIn 1999 the wall, which bears the name Bienvenue au Québec (\"Welcome to Quebec\") giving it the nickname \"Mur du Québec\" (Quebec Wall), ended the race of three Formula One World Champions, Damon Hill, Michael Schumacher and Jacques Villeneuve along with FIA GT champion Ricardo Zonta. Since then the wall has been nicknamed \"The Wall of Champions\".\n[…]\nAs of May 2026, the fastest official race lap records at the Circuit Gilles Villeneuve are listed as:\n[…]\nCircuit Gilles Villeneuve History and Statistics\n[…]\nSpectator testimonial of the Circuit Gilles Villeneuve\n[…]\nCircuit Gilles Villeneuve on Google Maps (Current Formula 1 Tracks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Circuito_Gilles_Villeneuve",
+        "situacao": "ok",
+        "texto": "O Circuito Gilles Villeneuve () é um circuito localizado na Ilha de Notre Dame, na cidade de Montreal, maior cidade da província de Quebec, no Canadá. É a sede anual do Grande Prêmio do Canadá de Fórmula 1 desde 1978. Recebeu esse nome em homenagem ao piloto Gilles Villeneuve.\n[…]\nMontreal é uma pista meio de rua e meio permanente. Parte do traçado é usado durante o ano pelos freqüentadores do Park Jean-Drapeau, da Ilha de Notre Dame, uma ilha artificial no Rio St. Lawrence, construída para receber algumas instalações dos Jogos Olímpicos de 1976. Atrás dos boxes fica a raia olímpica usada para as competições de remo. Nela, todos os anos, os mecânicos disputam uma divertida regata com barcos feitos de sucata dos boxes, como pneus velhos, pedaços de papelão e latas de óleo.\n[…]\nO circuito em si não é dos melhores. A pista é muito estreita e apresenta algumas ondulações. As ruas usadas na corrida são fechadas por barreiras, nas quais muitos pilotos experientes já bateram. Uma delas é uma parede no final da chicane que leva à reta dos boxes, construída em 1994, para reduzir a velocidade na curva 13, na Virage du Casino.\n[…]\nIronizando a saudação nela inscrita, “Bem-vindo ao Quebec”, os pilotos lhe deram o apelido de “Muro de Quebec”. Em 1999, três campeões do mundo, Damon Hill, Jacques Villeneuve e Michael Schumacher, terminaram a prova de forma idêntica, de encontro a ela, e desde então, a barreira passou a ser conhecida também como o “Muro dos Campeões”.\n[…]\n↑2  (Última atualização: GP do Canadá de 2026)\n[…]\nCircuit ICAR\n[…]\nCircuito de Mont-Tremblant",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Nordschleife",
+      "descricao": "Traçado norte do Nürburgring, na Alemanha, com cerca de vinte quilômetros de pista em meio a florestas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que apelido o escocês Jackie Stewart deu ao antigo traçado norte de Nürburgring, cercado por florestas na Alemanha?",
+    "resposta": "Inferno Verde",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/N%C3%BCrburgring"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/N%C3%BCrburgring",
+        "situacao": "ok",
+        "texto": "The Nürburgring (German pronunciation: [ˈnyːɐ̯bʊʁkˌʁɪŋ] ) is a 150,000-person capacity motorsports complex located in the town of Nürburg, Rhineland-Palatinate, Germany. It features a Grand Prix race track built in 1984, and a long Nordschleife configuration, built in the 1920s, around the village and medieval castle of Nürburg in the Eifel mountains. The north loop is 20.830 km (12.943 mi) long a\n[…]\nAfter World War II, racing resumed in 1947, and in 1951, the Nordschleife of the Nürburgring again became the main venue for the German Grand Prix as part of the Formula One World Championship (with the exception of 1959, when it was held on the AVUS in Berlin). A new group of Ringmeister arose to dominate the race – Alberto Ascari, Juan Manuel Fangio, Stirling Moss, Jim Clark, John Surtees, Jackie Stewart and Jacky Ickx.\n[…]\nThe Nürburgring Südschleife (south loop) was a motor racing circuit which was built in 1927 at the same time as the Nordschleife.\n[…]\nThe Südschleife was rarely used after the Nordschleife was rebuilt and updated in 1970 and 1971, and was finally destroyed by the building of the current Nürburgring Grand Prix circuit in the early 1980s. Today only small sections of the original track remain.\n[…]\nAs of May 2023, the fastest official race lap records at the Nürburgring Nordschleife are listed as:\n[…]\nLap times recorded on the Nürburgring Nordschleife are published by several manufacturers. They are published and discussed in print media, and online.\n[…]\nNürburg has a semi-continental climate with both oceanic and continental tendencies. It does however land in the former category (Köppen Cfb). Due to the Nordschleife's varied terrain and elevation, weather may be completely different on either end of the track. The elevation shift also makes thermal differences a strong possibility.\n[…]\nList of Nurburgring Nordschleife lap times\n[…]\nInteractive map of Nürburgring Nordschleife"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/N%C3%BCrburgring",
+        "situacao": "ok",
+        "texto": "Nürburgring é um autódromo na cidade de Nürburg, próximo de Colônia e de Frankfurt-am-Main, na Alemanha. Foi inaugurado em 1927 e o traçado original da pista tinha aproximadamente 28 km. Posteriormente, foi criado um novo traçado de aproximadamente 23 km de extensão, sendo utilizado pela Fórmula 1 na década de 1960 para os \"1000 quilômetros de Nürburgring\".\n[…]\nO anel norte (Nordschleife) também é conhecido como \"inferno verde\", pois ele é o segundo circuito com o maior número de acidentes fatais (como aquele no qual Niki Lauda quase perdeu a vida, em 1976), atrás apenas de Indianápolis: além de ter um traçado muito extenso e arriscado, levando um tempo maior para o socorrimento do piloto, a pista é cercada por uma floresta.\n[…]\nInicialmente o circuito de Nürburgring foi criado com 3 objetivos:\n[…]\nColónia e Bona. Por volta de 1925, a construção de um autódromo permanente foi proposto, a sul do circuito de Nideggen, ao redor do antigo castelo da cidade de Nürburg, seguindo os exemplos do circuits italiano de Monza e do AVUS de Berlim, mas com um caráter diferente. O traçado do circuito de montanha assemelhava-se ao evento Targa Florio, uma das corridas motorizadas mais importantes da época.\n[…]\nEm 1929, o Nürburgring completo foi usado pela última vez em grandes eventos de corrida, já que os futuros Grandes Prémios seriam realizados apenas no Nordschleife (o anel norte). Motoss e corridas menores usaram principalmente o Südschleife (anel sul) mais curto e seguro. As memoráveis ​​corridas de pré-guerra no circuito contaram com os talentos dos primeiros Ringmeister (Mestres do anel), como Rudolf Caracciola, Tazio Nuvolari e Bernd Rosemeyer.\n[…]\nO fundo branco indica que foi denominado Grande Prêmio da Alemanha\n[…]\nO fundo verde claro indica que foi denominado Grande Prêmio de Luxemburgo\n[…]\n24 Horas de Nürburgring",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Indianapolis Motor Speedway",
+      "descricao": "Autódromo oval de Indianápolis, nos Estados Unidos, sede das 500 Milhas de Indianápolis."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O oval de Indianápolis é chamado de Brickyard pelos americanos. De onde vem esse apelido?",
+    "resposta": "Da pista pavimentada com tijolos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway",
+        "situacao": "ok",
+        "texto": "The Indianapolis Motor Speedway is a motor racing circuit located in Speedway, Indiana, United States, an enclave suburb of Indianapolis, Indiana. It is the home of the Indianapolis 500 and the Brickyard 400, and formerly the home of the United States Grand Prix and the Indianapolis motorcycle Grand Prix. It is located six miles (9.7 km) west of Downtown Indianapolis.\n[…]\nIn addition to the Indianapolis 500, the speedway also hosts NASCAR's Brickyard 400 and Pennzoil 250. From 2000 to 2007, the speedway hosted the Formula One United States Grand Prix, and from 2008 to 2015 the Moto GP. The speedway served as the venue for the opening ceremonies for the 1987 Pan American Games.\n[…]\nOn the grounds of the speedway is the Indianapolis Motor Speedway Museum, which opened in 1956, and houses the Hall of Fame. The museum moved into its current building located in the infield in 1976. Also on the grounds is the Brickyard Crossing Golf Resort, which originally opened as the Speedway Golf Course in 1929. The golf course has 14 holes outside the track, along the backstretch, and four holes in the infield.\n[…]\nThe opening of the Indianapolis Motor Speedway in 1909 dates back close to the birth of the sport of American Championship car racing. Since its inception, the Speedway has been metonymous within the sport. Many Indy car teams, suppliers, and constructors have been and are based in the greater Indianapolis area, some within blocks of the track. When USAC was formed in 1956, the sanctioning body's headquarters were constructed nearly across the street.\n[…]\nIndianapolis Motor Speedway race results at Racing-Reference\n[…]\nIndianapolis Motor Speedway Page on NASCAR.com\n[…]\nIndianapolis Motor Speedway from Indianapolis, a National Park Service Discover Our Shared Heritage Travel Itinerary\n[…]\nIndianapolis Motor Speedway Collection Archived September 5, 2015, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Indianapolis_Motor_Speedway",
+        "situacao": "ok",
+        "texto": "Indianapolis Motor Speedway é um circuito oval, com um circuito misto combinado, localizado em Speedway, um enclave de Indianápolis, no estado de Indiana, Estados Unidos. Fica aproximadamente a 6 milhas (9,7 km) do centro de Indianápolis.\n[…]\nEm 1926 o circuito foi vendido a Edward Vernon Rickenbacker que construiu um campo de golfe no circuito. Na década de 1930, houve um grande aumento médio da velocidade nas corridas o que resultou em 15 acidentes fatais, forçando a pista a ser reformada, sua superfície original com mais de 1 milhão de tijolos foi parcialmente substituída por tarmac, houve uma reforma nos muros para acompanhar a inclinação da pista.\n[…]\nEm 14 de novembro de 1945 o circuito é vendido à Tony Hulman. Pouco a pouco, a superfície de 3,2 milhões de tijolos foi substituída por asfalto para completar a mudança em 1961, deixando intacto uma faixa de tijolos na linha de chegada, que lhe rendeu o apelido de \"The Brickyard\" (\"terreno de tijolos\").\n[…]\nDepois de décadas tendo uma única corrida por ano, a pista começou a receber outros eventos, como as cerimónias de abertura e encerramento dos Jogos Pan-Americanos de 1987.\n[…]\nNa década de 2000, o local abrigou o Grande Prêmio dos Estados Unidos de Fórmula 1 de 2000 a 2007, no circuito misto. Na sequência, a pista abrigou o motociclismo com o Grande Prêmio de Indianápolis da MotoGP, de 2008 a 2015. O circuito ganhou o soft wall nas curvas do oval a partir de 2002, e a Indy Lights começou a fazer corridas no traçado misto em 2005.\n[…]\n500 Milhas de Indianápolis\n[…]\nBrickyard 400\n[…]\nIndianapolis Motor Speedway Hall of Fame Museum\n[…]\nIndianapolis Raceway Park\n[…]\nDaytona International Speedway\n[…]\nIndianapolis Motor Speedway Page no NASCAR.com\n[…]\nColeção do IMS, o Indianapolis Motor Speedway",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Hélio Castroneves",
+      "descricao": "Piloto brasileiro, vencedor das 500 Milhas de Indianápolis em 2001, 2002, 2009 e 2021."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por escalar o alambrado para comemorar suas vitórias, o brasileiro Hélio Castroneves ganhou qual apelido nos Estados Unidos?",
+    "resposta": "Homem-Aranha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/H%C3%A9lio_Castroneves"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/H%C3%A9lio_Castroneves",
+        "situacao": "ok",
+        "texto": "Hélio Castroneves (Portuguese pronunciation: [ˈɛlju ˈkastɾu ˈnɛvis]; born Hélio Alves de Castro Neves; 10 May 1975) is a Brazilian auto racing driver. He currently competes in the Stock Car Pro Series for Mercado Livre Racing and competes part-time in the IndyCar Series, driving the No. 06 Dallara-Honda for Meyer Shank Racing.\n[…]\nIn late 2012, Castroneves joined Shell Racing in the season-ending Stock Car Brasil race, the Stock Car Corrida do Milhão, after a sponsor invited him to enter with Roger Penske's support. He placed 14th in a Peugeot 408. Castroneves was signed as a guest driver for Shell Racing in the seventh round of the 2013 Stock Car Brasil at Ribeirão Preto Street Circuit; doctors ordered his withdrawal due to sustaining bruised ribs, neck sprain and a deep shin cut in a practice accident.\n[…]\nJohnson, Paul, ed. (2002). \"Helio Castroneves\". Indy Review 2001. Vol. 11. St. Paul, Minnesota: MBI Publishing Company. ISBN 0-7603-1320-2 – via Internet Archive.\n[…]\nL. Evers, John (2004). \"Helio Castroneves (May 10, 1975–)\". In L. Porter, David (ed.). Latino and African American Athletes Today: A Biographical Dictionary. Westport, Connecticut: Greenwood Press. ISBN 978-0-313-32048-4.\n[…]\nC. Friedman, Ian (2007). \"Castroneves, Hélio (1975 –) auto racer\". Latino Athletes. New York City, New York: Facts on File. ISBN 978-0-8160-6384-0.\n[…]\nHollar, Sherman (2010). \"Castroneves, Hélio\". In Jacobs Sparks, Karen; C. Shepherd, Melinda (eds.). Britannica Book of the Year 2010. Chicago, United States: Encyclopedia Britannica, Inc. ISBN 978-1-61535-366-8.\n[…]\nCastroneves, Hélio; Matteo, Marissa (2010). Victory Road: The Ride of My Life. London, England: Penguin Publishing Group. ISBN 978-0-451-22737-9 – via Internet Archive.\n[…]\nHélio Castroneves driver statistics at Racing-Reference"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/H%C3%A9lio_Castroneves",
+        "situacao": "ok",
+        "texto": "Hélio Alves de Castro Neves (São Paulo, 10 de maio de 1975), mais conhecido como Hélio Castroneves, é um automobilista brasileiro. Atualmente corre na IndyCar Series. Venceu as 500 Milhas de Indianápolis em 2001, 2002, 2009 e 2021, sendo um dos quatro pilotos recordistas a vencer quatro vezes a maior prova do automobilismo mundial (os outros três foram A. J. Foyt, Al Unser e Rick Mears), é o estra\n[…]\nRecebeu o apelido de Homem-Aranha depois que subiu no alambrado para comemorar junto ao público a difícil vitória na corrida de Detroit em 2000. Desde então virou essa sua marca registrada nas comemorações.[carece de fontes]?\n[…]\nEm 1996, mudou-se para os Estados Unidos para participar da Indy Lights, a categoria imediatamente inferior da CART. Castroneves foi o sétimo lugar este ano com uma vitória em Trois-Rivières e dois adicionais pódios. Em 1997 obteve o segundo lugar atrás do companheiro de equipe na Tasman, Tony Kanaan, com três vitórias (Long Beach, Savannah e Toronto), quatro pódios e quatro poles em 13 corridas.[carece de fontes]?\n[…]\nCastroneves repetiu a celebração em cada vitória que o apresentador do programa RPM 2Night da ESPN, John Kernan, o apelidou de Homem-Aranha. Também em 2000, ganhou o prêmio \"Greg Moore\", pelo carisma e sua temporada notável. Em 2001, Castroneves terminou em quarto lugar no campeonato com três vitórias em Long Beach, Detroit e Mid-Ohio.[carece de fontes]?\n[…]\nOs resultados nas 500 Milhas de Indianápolis entre 2001 até 2003 são consideradas um marco histórico em Indianápolis, uma vez que conseguiu defender uma vitória com êxito, o que não acontecia desde Al Unser no início da década de 1970. Observa-se que desde sua primeira Indy 500, Hélio Castroneves obteve quatro vitórias: em 2001, 2002, 2009 e 2021. Entre 2001-2003 obteve 2 vitórias e um segundo lugar.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Ford GT40",
+      "descricao": "Carro de corrida da Ford que venceu as 24 Horas de Le Mans de 1966 a 1969."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Ford GT40, que venceu Le Mans nos anos sessenta, tem o número quarenta no nome por causa de qual medida do carro?",
+    "resposta": "Altura de quarenta polegadas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ford_GT40"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ford_GT40",
+        "situacao": "ok",
+        "texto": "The Ford GT40 is a high-performance mid-engined racing car originally designed and built for and by the Ford Motor Company to compete in 1960s European endurance racing and the World Sportscar Championship. Its specific impetus was to beat Scuderia Ferrari, which had won the prestigious 24 Hours of Le Mans race for six years running from 1960 to 1965.\n[…]\nIn the 1966 Le Mans, the GT40 Mk II car broke Ferrari's winning streak, making Ford the first American manufacturer to win a major European race since Jimmy Murphy's Duesenberg in the 1921 French Grand Prix.\n[…]\nIn addition to four consecutive overall Le Mans victories, Ford also won the following four FIA international titles (at what was then unofficially known as the World Sportscar Championship) with the GT40 car:\n[…]\nThe Mk I met with little success in its initial tune during the 1964 season as it had to enter in the prototype class, against others prototypes, like Ferrari P and Chaparral. After the Nassau in December, Ford handed over the project to Carroll Shelby's Shelby American team. The car won the 1965 Continental 2000 km of Daytona and the 12 Hours of Sebring, but otherwise the GT40 program was a disappointment overall, once again failing to finish at Le Mans.\n[…]\nIn 1966, the three teams racing the Mk II (Chris Amon and Bruce McLaren, Denny Hulme and Ken Miles, and Dick Hutcherson and Ronnie Bucknum) dominated Le Mans, taking European audiences by surprise and beating Ferrari to finish 1-2-3 in the standings. Ford GT40 went on to win the Le Mans race for the next three years, but in very different form, as Mk.IV in 1967, and then twice an old Mk.I.\n[…]\nThe 2019 movie Ford v Ferrari is about the GT40's development and victory at the 1966 24 Hours of Le Mans.\n[…]\nFord v Ferrari, 2019 film about the GT40's development\n[…]\nMedia related to Ford GT40 at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ford_GT40",
+        "situacao": "ok",
+        "texto": "Ford GT40 foi um carro de corrida americano de resistência de alto desempenho da Ford Motor Company, criado por ordens de Henry Ford II para correr nas 24 Horas de Le Mans e destruir o reinado da Ferrari. Isso porque Enzo Ferrari desistiu da venda de sua empresa à Ford na última hora e então, para Henry Ford II era questão de honra bater a Ferrari em seu território de domínio. E conseguiu com louv\n[…]\nApós sua sequência de vitórias em Le Mans recebeu o apelido de \"matador  de Ferraris\"!\n[…]\nO modelo original, o primeiro a bater a Ferrari em Le Mans, está avaliado em mais de 8 milhões de dólares.\n[…]\nHenry Ford II queria um Ford no Le Mans desde o início dos anos 1960. No início de 1963, a Ford teria recebido, através de um intermediário europeu, a notícia de que Enzo Ferrari estava interessado em vender para a Ford Motor Company.\n[…]\nEnzo interrompeu o negócio por despeito e Henry Ford II, enfurecido, direcionou sua divisão de corridas para encontrar uma empresa que pudesse construir um batedor de Ferrari no circuito mundial de corridas de resistência. O carro teve a direção de construção por Carrol Shelby e o piloto Ken Milles que moldaram o carro que bateu mais de 3 recordes de voltas em uma mesma Le Mans, ganhando de 1966 a 1969 seguidas corridas, ganhando o título de “Killers of Ferraris” (matador de Ferraris).\n[…]\nRay., Hutton,. Ford GT40. [S.l.: s.n.] p. 12. ISBN 978-1907085680. OCLC 1019613496\n[…]\nPara esse fim, a Ford iniciou as negociações com a Lotus, Lola e Cooper. Cooper não tinha experiência em GT ou protótipo e seus desempenhos na Fórmula 1 estavam em declínio. Foi retratado no filme Ford vs Ferrari de 2019 do diretor James Mangold. O filme venceu alguns prêmios, além de receber quatro indicações no Oscar 2020, incluindo a indicação de melhor filme do ano, vencendo duas estatuetas, a de melhor edição de som e a de melhor montagem.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Nelson Piquet",
+      "descricao": "Piloto brasileiro tricampeão mundial de Fórmula 1, em 1981, 1983 e 1987."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o jovem Nelson Souto Maior começou a correr usando o sobrenome Piquet, da mãe?",
+    "resposta": "Para esconder do pai que corria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nelson_Piquet"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nelson_Piquet",
+        "situacao": "ok",
+        "texto": "Nelson Piquet Souto Maior (Brazilian Portuguese pronunciation: [ˈnɛwsõ piˈke], born 17 August 1952) is a Brazilian former racing driver and businessman, who competed in Formula One from 1978 to 1991. Piquet won three Formula One World Drivers' Championship titles, which he won in 1981, 1983, and 1987, and won 23 Grands Prix across 14 seasons.\n[…]\nPiquet was born 17 August 1952, in Rio de Janeiro, then the capital of Brazil, the son of Estácio Gonçalves Souto Maior (1913–1974), a Brazilian physician, and his housewife Clotilde Piquet (1920–2007), of French descent. His father moved his family to the new capital, Brasília, in 1960 and became Minister for Health in João Goulart's government (1961–1964). Piquet had two brothers, Alexis and Geraldo, and a sister Genusa. Piquet was the youngest of the children.\n[…]\nPiquet's first marriage lasted one year, during which a son was born in 1977. His second produced three children, including Nelson Angelo Piquet and Kelly Piquet. He also has another son from a previous relationship. He has two children with his current wife, including Pedro Estácio Piquet.\n[…]\nPiquet was inducted into the International Motorsports Hall of Fame in 2000 and two racing circuits in Rio de Janeiro (formerly the Jacarepaguá Circuit) and in Brasília have been named \"Autódromo Internacional Nelson Piquet\", though the Rio circuit has since been demolished to make way for venues to be used in the 2016 Summer Olympics, with Rio de Janeiro the host city. Since his retirement, Piquet has been ranked among the greatest Formula One drivers.\n[…]\nPiquet was portrayed by Hugo Bonemer in the 2024 Senna miniseries, a dramatization of the life and racing career of Ayrton Senna.\n[…]\nEntry on Nelson Piquet from grandprix.com\n[…]\nNelson Piquet Statistics Archived 30 September 2007 at the Wayback Machine\n[…]\nNelson Piquet from Revs Digital Library"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nelson_Piquet",
+        "situacao": "ok",
+        "texto": "Nelson Piquet Souto Maior (Rio de Janeiro, 17 de agosto de 1952) é um ex-automobilista e empresário brasileiro, tricampeão mundial de Fórmula 1 nos anos de 1981, 1983 e 1987.\n[…]\nQuando voltou ao Brasil, começou a pilotar e modificar motos, as famosas cinquentinhas, além de outras corridas e modificações que Piquet sempre gostou de fazer, até com carros que nem eram seus. Quando entrou no kart, Nelson escondeu sua identidade usando o sobrenome que era de sua mãe, porém escreveu de maneira diferente e Piquet se transformou em Piket para evitar que seu pai descobrisse seu hobby. Tornou-se o campeão brasileiro de kart em 1971-1972 e venceu o campeonato de Fórmula V em 1976.\n[…]\nFilho do casal pernambucano Clotilde Piquet e Estácio Gonçalves Souto Maior, Nelson Piquet Souto Maior nasceu no Rio de Janeiro, e viveu grande parte de sua infância e juventude na recém-inaugurada capital Brasília. Seu pai, médico e ex-ministro da saúde, não aprovava sua carreira automobilística; por isso, Nelson usava o nome de solteira de sua mãe, a dona Clotilde, escrito erroneamente como \"Piket\" no início da carreira, para esconder sua identidade.\n[…]\nEm 1992, Nelson Piquet decidiu correr as 500 Milhas de Indianápolis, com um Lola-Buick da equipe Menards. Rapidamente se destacou como o mais rápido entre os estreantes. Mas, em um dos treinos, um furo lento num pneu fez o carro rodar a toda velocidade na curva 4 e se espatifar de frente na mureta de proteção do circuito. Além de traumatismo craniano e lesão torácica, Piquet sofreu fraturas múltiplas nas pernas e nos pés.\n[…]\nNelsinho Piquet\n[…]\nNelson Piquet\n[…]\nNelson Piquet - A trajetória de um campeão",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Emerson Fittipaldi",
+      "descricao": "Piloto brasileiro bicampeão mundial de Fórmula 1, em 1972 e 1974, e bicampeão das 500 Milhas de Indianápolis."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ao vencer a Indy 500 de 1993, Emerson Fittipaldi irritou o público ao trocar o tradicional leite por suco de laranja. Com que objetivo?",
+    "resposta": "Promover seus laranjais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1993_Indianapolis_500",
+      "https://en.wikipedia.org/wiki/Emerson_Fittipaldi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1993_Indianapolis_500",
+        "situacao": "ok",
+        "texto": "The 77th Indianapolis 500 was held at the Indianapolis Motor Speedway in Speedway, Indiana on Sunday, May 30, 1993. Emerson Fittipaldi took the lead with 16 laps to go, and won his second career Indy 500 victory. The race was sanctioned by the United States Auto Club (USAC) and was part of the 1993 PPG Indy Car World Series. Several sidebar stories during the month complemented one of the most com\n[…]\nThe green flag came out for the final time with 5 laps to go. Emerson Fittipaldi got the jump on the restart, and pulled away to a comfortable lead. Fittipaldi won his second Indy 500 by 2.8 seconds over Arie Luyendyk. Nigel Mansell held on to finish third, while Raul Boesel worked his way all the way back to the front-runners to come home fourth.\n[…]\nRace winner Emerson Fittipaldi, who previously won in 1989 pulled into victory lane to celebrate his win with team owner Roger Penske. It would be the final time a driver celebrated in the \"hydraulic lift\" version of Indy's victory lane, as a new one was built for 1994. As Fittipaldi emerged from the cockpit, he immediately began the traditional winner's interview, being given by Jack Arute live on ABC-TV.\n[…]\nR  Indianapolis 500 Rookie\n[…]\nThe 1992–93 USAC Gold Crown Championship season consisted of one sanctioned race. The schedule was based on a split-calendar, beginning in June 1992 and running through May 1993. Starting in 1981, USAC scaled back their participation in top-level Indy car racing, and ultimately ceased sanctioning races outside of the Indianapolis 500 following their 1983–84 season.\n[…]\nEmerson Fittipaldi, by virtue of winning the 1993 Indianapolis 500, also won the 1992–93 USAC Championship.\n[…]\n1993 Indianapolis 500 Radio Broadcast, Indianapolis Motor Speedway Radio Network\n[…]\nIndy Review, Volume 3: 77th Indianapolis 500. Osceola, WI: Indy 500 Publications / Indianapolis Motor Speedway Corporation. 1993. ISBN 978-1-880526-02-6."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Emerson_Fittipaldi",
+        "situacao": "ok",
+        "texto": "Emerson Fittipaldi (Brazilian Portuguese: [ˈɛmeʁsõ fitʃiˈpawdʒi]; born 12 December 1946) is a Brazilian former racing driver and motorsport executive, who competed in Formula One from 1970 to 1980. Fittipaldi won two Formula One World Drivers' Championship titles,  in 1972 and 1974 with Lotus and McLaren, respectively; he won 14 Grands Prix across 11 seasons.\n[…]\nFollowing his Formula One career, Fittipaldi moved to the American CART series, achieving numerous successes, including the 1989 CART title and two wins at the Indianapolis 500 in 1989 and 1993. Since his retirement from Indy Car racing in 1996, Fittipaldi races only occasionally. In 2008, he became one of only three people in history to have a Corvette production car named in his honor. At age 67, he entered the 2014 6 Hours of São Paulo.\n[…]\nRoger Penske hired Fittipaldi for his racing team in 1990 and he continued to be among the top drivers in CART, winning at least one race with Penske for six straight years. But for bad luck he might have won three consecutive Indianapolis 500s, suffering blistered tires in 1990 and a gearbox failure in 1991, both while leading. In 1993 he added a second Indianapolis 500 victory by taking the lead from reigning Formula One World Champion Nigel Mansell on lap 185 and holding it for the remainder.\n[…]\nIn early December 2012, Fittipaldi married economist Rossana Fanucchi in São Paulo after a partnership of eleven years. Their children include Emerson Jr.. Emerson Jr. competed in the 2021 F4 Danish Championship, finishing third overall.\n[…]\nLudvigsen, Karl (2002). Emerson Fittipaldi Heart of a Racer. Osceola: Motorbooks International. ISBN 1-85960-837-X.\n[…]\nEmerson Fittipaldi at IMDb\n[…]\nEmerson Fittipaldi career summary at DriverDB.com\n[…]\nEmerson Fittipaldi driver statistics at Racing-Reference"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/500_Milhas_de_Indian%C3%A1polis_de_1993",
+        "situacao": "ok",
+        "texto": "A 77ª edição das 500 Milhas de Indianápolis foi realizada no circuito de Indianapolis em 30 de maio de 1993. Teve como vencedor o brasileiro Emerson Fittipaldi, da equipe Penske, em sua segunda e última vitória. Arie Luyendyk, da Chip Ganassi Racing, e Nigel Mansell, da Newman-Haas Racing, fecharam o pódio.\n[…]\nA pole foi de Arie Luyendyk, vencedor das 500 Milhas de Indianápolis de 1990. Foi sua primeira pole em sua carreira na CART.\n[…]\nSegunda vitória de Fittipaldi nas 500 Milhas de Indianápolis, já que Emmo tinha vencido a edição de 1989. Com isso, o brasileiro faturou o inédito prêmio de 1 milhão de dólares. Outros 9 pilotos terminaram na mesma volta do vencedor. Um total de 400 mil espectadores acompanhou a prova.\n[…]\nNa comemoração, Emerson Fittipaldi quebrou o protocolo ao beber suco de laranja em vez da tradicional garrafa de leite, com a justificativa de promover a indústria da fruta nos EUA. Embora tivesse tomado um gole após a cerimônia de premiação, ele foi alvo de severas críticas da imprensa e da torcida.\n[…]\nÚltima participação de Al Unser nas 500 Milhas. Em 1994, pela Arizona Motorsports, o tetracampeão da prova não obteve classificação para o grid, e anunciou sua aposentadoria.\n[…]\nAlém de Foyt, Bobby Rahal, vencedor das 500 Milhas de Indianápolis de 1986, Buddy Lazier, que viria a vencer em 1996, e Scott Pruett também não se classificaram para a prova.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Juan Manuel Fangio",
+      "descricao": "Piloto argentino pentacampeão mundial de Fórmula 1 nos anos cinquenta."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1958, o que impediu Juan Manuel Fangio de disputar o Grande Prêmio de Cuba, em Havana?",
+    "resposta": "Foi sequestrado por rebeldes cubanos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1958_Cuban_Grand_Prix",
+      "https://en.wikipedia.org/wiki/Juan_Manuel_Fangio"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1958_Cuban_Grand_Prix",
+        "situacao": "inexistente",
+        "texto": ""
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Juan_Manuel_Fangio",
+        "situacao": "ok",
+        "texto": "Juan Manuel Fangio (Spanish: [ˈxwan maˈnwel ˈfaŋxjo], Italian: [ˈfandʒo]; 24 June 1911 – 17 July 1995) was an Argentine racing driver, who competed in Formula One from 1950 to 1958. Nicknamed \"el Chueco\" and \"el Maestro\", Fangio won five Formula One World Drivers' Championship titles and—at the time of his retirement—held the record for most wins (24), pole positions (29), fastest laps (23), and p\n[…]\nThroughout his career, Fangio was backed by funding from the Argentine government of Juan Perón.\n[…]\nPresident Fulgencio Batista of Cuba established the non-Formula One Cuban Grand Prix in Havana in 1957. Fangio won the 1957 event, and had set fastest times during practice for the 1958 race. On 23 February 1958, two gunmen of Fidel Castro's 26th of July Movement entered the Hotel Lincoln in Havana and kidnapped Fangio. Batista ordered the race to continue as usual while a crack team of police hunted down the kidnappers.\n[…]\nIn May 2021, DNA studies confirmed that Juan Carlos Rodriguez is also Fangio's son.\n[…]\nHis nephew, Juan Manuel Fangio II, is also a racing driver.\n[…]\nThe Museo Juan Manuel Fangio was established in Balcarce (Fangio's birthplace) in 1986.\n[…]\nIn February 2017, as part of the 25th National Motorsports Festival held in Balcarce, and in the presence of the Castiglione Messer Marino mayor and officials, a monolith was unveiled bearing the inscription Balcarce, in sisterhood with Castiglione Messer Marino, birthplace of the father of five-time F1 world champion Juan Manuel Fangio.\n[…]\nMuseo Juan Manuel Fangio\n[…]\nKarl Ludvigsen. Juan Manuel Fangio: Motor Racing's Grand Master. Haynes Manuals Inc. ISBN 978-1859606254\n[…]\nPierre Menard & Jacques Vassal. Juan-Manuel Fangio: The Race in the Blood. Chronosports. ISBN 978-2847070453\n[…]\nJuan Manuel Fangio Website\n[…]\nMaserati Celebrates Fangio\n[…]\nJuan Manuel Fangio Museum (in Spanish)\n[…]\nAmigos de Fangio (in Spanish)\n[…]\nJuan Manuel Fangio at IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Desastre de Le Mans de 1955",
+      "descricao": "Acidente nas 24 Horas de Le Mans de 1955 em que um carro da Mercedes voou sobre o público, matando mais de oitenta pessoas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Depois da tragédia de Le Mans de 1955, que matou mais de oitenta espectadores, que país europeu proibiu as corridas de automóvel em circuitos?",
+    "resposta": "Suíça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1955_Le_Mans_disaster"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1955_Le_Mans_disaster",
+        "situacao": "ok",
+        "texto": "On 11 June 1955, a multi-vehicle collision occurred during the 1955 24 Hours of Le Mans in Sarthe, France, resulting in the deaths of an estimated 82 to 84 people. The disaster occurred at the Circuit de la Sarthe, when Mercedes driver Pierre Levegh collided with Austin-Healey driver Lance Macklin after a maneuvre by Jaguar Cars driver Mike Hawthorn. Levegh and his car were hurled into a spectator\n[…]\nMost countries lifted their racing bans within a year after the disaster. France, as the host of Le Mans, lifted their complete ban on 14 September 1955. On that date, the Ministry of the Interior released new regulations for racing events and codified the approval process that future racing events would need to follow. In contrast, Switzerland's ban persisted for more than 60 years.\n[…]\nThe crash caused some drivers present, including Americans Fitch (after completing the season with Mercedes), Phil Walters, and Sherwood Johnston, to retire from racing. Macklin also decided to retire after being involved in another fatal crash, during the 1955 RAC Tourist Trophy race at Dundrod Circuit. Fangio never raced at Le Mans again. At the Circuit de la Sarthe, the audience stands at the pits were demolished.\n[…]\nDeadliest Crash: The Le Mans 1955 Disaster, 2009 TV documentary for the BBC\n[…]\nLe Mans 1955 (film), CG animated short film about the disaster\n[…]\n\"24 heures du Mans 1973\" in Automobile Historique no. 49, June/July 2005 (in French).\n[…]\nLe Mans 1955 from The Mike Hawthorn Tribute Site – Extensive 1955 Le Mans coverage – reports, analysis, photos/video of race & crash. Retrieved 10 December 2016\n[…]\nCatastrophe aux 24 heures du Mans en 1955 (France 3 Ouest, 2008) on YouTube (in French)\n[…]\nRemember Le Mans 1955 (English)\n[…]\nLife Magazine report of the 1955 Le Mans Disaster\n[…]\n1955 Le Mans Disaster depicted and analyzed in depth by a witness (in French) Archived 11 December 2012 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Desastre_de_Le_Mans_em_1955",
+        "situacao": "ok",
+        "texto": "O desastre de Le Mans em 1955 foi um acidente durante a corrida automobilística 24 Horas de Le Mans, em 11 de junho de 1955. Os carros envolvidos no acidente atingiram vários espectadores, matando mais de 80 deles, além do piloto francês Pierre Levegh. Este acidente é considerado como o pior acidente da história do automobilismo.\n[…]\nComo resultado do acidente, houve a morte de Pierre Levegh e mais de 80 espectadores (80-84), sendo este o pior acidente já registrado na história do automobilismo.\n[…]\nA equipe Mercedes se retirou da corrida antes mesmo do término da mesma. No momento da retirada, os carros da Mercedes ocupavam a primeira e terceira posição.\n[…]\nA própria Mercedes retirou-se do automobilismo após o encerramento do Campeonato Mundial de Fórmula 1 de 1955, só retornando à modalidade em 1989, no Campeonato Mundial de Resistência daquele ano.\n[…]\nO automobilismo foi proibido na Suíça devido a esse acidente até 1 de julho de 2026. Por duas vezes foram negadas as propostas para cancelar o banimento na Suíça. Em 2015, no entanto, uma mudança na lei abriu caminho para a realização de corridas com carros elétricos, e em maio de 2026 o banimento foi cancelado de forma ampla.\n[…]\nFrança, Espanha e Alemanha também seguiram o exemplo suíço na época e impediram a realização de provas de automobilismo em seus territórios, mas tal decisão seria revogada pouco tempo depois nesses outros países.\n[…]\n24 Horas de Le Mans de 1955\n[…]\nLe Mans Motor Racing Disaster (1955) no YouTube, British Pathé (em inglês)\n[…]\n«GPTotal – Le Mans 1955 – O pior dos erros I»\n[…]\n«GPTotal – Le Mans 1955 – O pior dos erros II»\n[…]\n«BBC – 1955: Le Mans disaster claims 77 lives» (em inglês)\n[…]\n«1955 Le Mans Disaster» (em inglês)\n[…]\n«La tragédie de 1955» (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Grande Prêmio da Áustria de 2002",
+      "descricao": "Corrida de Fórmula 1 em que Rubens Barrichello, da Ferrari, cedeu a vitória a Michael Schumacher na linha de chegada."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No GP da Áustria de 2002, Barrichello cedeu a vitória a Schumacher na reta final. Que prática a Fórmula 1 proibiu por causa disso?",
+    "resposta": "Ordens de equipe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2002_Austrian_Grand_Prix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2002_Austrian_Grand_Prix",
+        "situacao": "ok",
+        "texto": "The 2002 Austrian Grand Prix (formally the Grosser A1 Preis von Österreich 2002) was a Formula One motor race held on 12 May 2002 at the A1-Ring in Spielberg, Styria, Austria. It was the sixth round of the 2002 Formula One World Championship and the 25th Austrian Grand Prix as part of the Formula One World Championship. Ferrari driver Michael Schumacher won the 71-lap race starting from third posi\n[…]\nAt the post-race podium ceremony, Michael Schumacher implored Barrichello to mount the stand reserved for the race winner and gave the first-place trophy to his teammate. That led the Fédération Internationale de l'Automobile (FIA, Formula One's governing body) to fine Ferrari, Michael Schumacher and Barrichello $1 million on 26 June; each paid a third immediately, while the remainder was suspended.\n[…]\nDuring the 2002 season, Ferrari continued to use team orders, including telling Michael Schumacher to hold position behind Barrichello for another one-two finish a month later at the 2002 European Grand Prix and at the 2002 Hungarian Grand Prix, as Michael Schumacher vowed to pay back Barrichello, who also went on to win the 2002 Italian Grand Prix, for giving him the win in Austria; they did not cause any significant uproar or controversy, as they were limited to tell the drivers to hold position rather than exchange it as was done in Austria.\n[…]\nMonths later at the 2002 United States Grand Prix, Michael Schumacher went for a dead heat finish with Barrichello, who ultimately won by 0.011 seconds, and was interpreted as a way of repaying Barrichello for Austria, a hypothesis Ferrari rejected. In November 2010, Todt admitted to La Stampa he should have avoided invoking team orders on Barrichello due to his subsequent belief Michael Schumacher would have won the championship without significant competition.\n[…]\nFormula One Database > 2002 Austrian Grand Prix – Qualifying [1]"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Pr%C3%AAmio_da_%C3%81ustria_de_2002",
+        "situacao": "ok",
+        "texto": "Resultados do Grande Prêmio da Áustria de Fórmula 1 (formalmente XXVI Großer A1 Preis von Österreich) realizado em A1-Ring em 12 de maio de 2002. Sexta etapa da temporada, foi vencido pelo alemão Michael Schumacher, que subiu ao pódio junto a Rubens Barrichelo numa dobradinha da Ferrari, com Juan Pablo Montoya em terceiro pela Williams-BMW.\n[…]\nConsiderada uma das corridas mais polêmicas da história da Fórmula 1, nela a Ferrari emitiu uma ordem para Rubens Barrichello deixar Michael Schumacher passá-lo e vencer a corrida, mesmo o alemão não precisando de ponto algum para o campeonato de pilotos àquela altura.\n[…]\nBarrichello liderava com folga desde a pole position e não tencionava ceder, mas diminuiu o ritmo gradualmente e cumpriu a infausta ordem a poucos metros da linha de chegada, evidenciando que só não ganhou por causa do jogo de equipe arquitetado pela escuderia italiana. A decisão causou revolta nos torcedores presentes ao autódromo, que vaiaram.\n[…]\nAté os pilotos participantes da corrida fizeram questão de cumprimentar o brasileiro por ter liderado a corrida inteira, sendo o \"vencedor moral\" da mesma. No pódio, um constrangido Schumacher colocou seu companheiro de equipe no topo do pódio, mas o hino executado foi o da Alemanha. Ato contínuo, o piloto germânico deu o troféu da vitória ao cabisbaixo Barrichello. Por conta dessas quebras de protocolo, poucos dias depois, a Ferrari foi multada em R$ 2 milhões.\n[…]\nCaso vencesse, Rubens Barrichello seria o segundo brasileiro a triunfar no Grande Prêmio da Áustria. A única vitória brasileira nessa etapa ocorreu em 1972, com Emerson Fittipaldi correndo pela Lotus (ano em que Fittipaldi também conquistaria seu primeiro título mundial na categoria).\n[…]\nEm entrevista dada em 2012, Barrichello afirmou que fez aquilo pois recebeu uma ameaça que poderia ter encerrado sua carreira.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Escândalo de Singapura de 2008",
+      "descricao": "Caso em que a Renault mandou Nelson Piquet Júnior bater de propósito no Grande Prêmio de Singapura de 2008."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2008, em Singapura, Nelsinho Piquet bateu de propósito para provocar a entrada do carro de segurança e favorecer qual companheiro de equipe?",
+    "resposta": "Fernando Alonso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crashgate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Crashgate",
+        "situacao": "ok",
+        "texto": "The Renault Formula One crash controversy, dubbed \"Crashgate\" by some in the media, was a sporting scandal caused when Renault F1 driver Nelson Piquet Jr. deliberately crashed during the 2008 Singapore Grand Prix to give a sporting advantage to his Renault teammate, Fernando Alonso.\n[…]\nThe 2008 Singapore Grand Prix was the fifteenth race of the 2008 Formula One season, and took place on 28 September 2008. The race was Formula One's first night race. On the race weekend, despite Alonso being close to the top in practice, Renault had a poor qualifying session and started well down the grid, with Fernando Alonso starting in fifteenth place, and Nelson Piquet Jr. alongside him in 16th. Alonso was eliminated during qualifying because of mechanical failure.\n[…]\nFernando Alonso ended the 2008 season fifth in the Drivers Championship with 61 points, while Nelson Piquet Jr. finished in twelfth place, with 19 points. Their collective total earned Renault F1 fourth place in the Constructors Championship. Despite rumours that he was set to leave the team, Renault re-signed Piquet Jr. on a one-year contract for the 2009 season, once again alongside Alonso. By the tenth race of the 2009 season, Piquet Jr.\n[…]\nIn a statement, the FIA stated that the charges against Renault F1 included \"a breach of Article 151c of the International Sporting Code, that the team conspired with its driver, Nelson Piquet Jr, to cause a deliberate crash at the 2008 Singapore Grand Prix with the aim of causing the deployment of the safety car to the advantage of its other driver, Fernando Alonso.\" The team was called to a meeting of the FIA World Motor Sport Council (WMSC) in Paris on 21 September, days before the 2009 running of the Singapore Grand Prix.\n[…]\n2008 Formula One season\n[…]\n2008 Singapore Grand Prix"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Controv%C3%A9rsia_do_acidente_da_Renault_na_F%C3%B3rmula_1_de_2008",
+        "situacao": "ok",
+        "texto": "A controvérsia do acidente da Renault Fórmula 1, intitulada de \"Crashgate\" por alguns na mídia, foi um escândalo esportivo que ocorreu quando o piloto da Renault F1, Nelson Piquet Jr., bateu propositalmente durante o Grande Prêmio de Singapura de 2008 para dar vantagem ao seu companheiro de equipe na Renault, Fernando Alonso .\n[…]\nNo dia 28 de setembro de 2008, na 15ª volta do Grande Prêmio, próxima à janela de boxes esperada para o primeiro pit stop de todos, o Renault R28 pilotado por Piquet Jr. bateu no muro do circuito na curva 17, requerendo a entrada do safety car.\n[…]\nAlonso já havia feito um pit stop anteriormente, e se tornou o líder da corrida, já que os outros carros estavam ficando sem combustível e foram obrigados a parar sob condições de safety car, resultando em uma penalidade, ou pouco depois do período de safety car, o que os colocou várias posições atrás do pelotão, agora agrupado. Alonso venceu a corrida após largar em 15º no grid. Naquele tempo, Piquet Jr.\n[…]\nApós ser desvinculado da equipe Renault depois do Grande Prêmio da Hungria de 2009, Piquet Jr. reportou que a equipe solicitou que ele batesse intencionalmente para melhorar a situação de Alonso na corrida, o que deu início a uma investigação da Renault F1 por manipulação de corrida pela Fédération Internationale de l'Automobile (FIA), autoridade reguladora da Fórmula 1.\n[…]\nSeus banimentos foram posteriormente anulados por um tribunal francês, embora ambos aprovaram não trabalhar na Fórmula 1 ou em eventos sancionados pela FIA por um período específico, como parte de um acordo posterior firmado com a instituição reguladora. Briatore reaparece na F1 em 2022 como embaixador, e como consultor à Team Enstone em 2024, e em 2025 como chefe da equipe Alpine, enquanto Symonds retornaria ao esporte em 2011 como consultor técnico da Virgin Racing .",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Autódromo de Jacarepaguá",
+      "descricao": "Antigo autódromo do Rio de Janeiro, chamado Autódromo Internacional Nelson Piquet, que recebeu o GP do Brasil de Fórmula 1."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O autódromo de Jacarepaguá, no Rio, onde a Fórmula 1 correu nos anos oitenta, foi demolido para dar lugar a quê?",
+    "resposta": "Parque Olímpico da Rio 2016",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barra_Olympic_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Barra_Olympic_Park",
+        "situacao": "ok",
+        "texto": "The Barra Olympic Park (Brazilian Portuguese: Parque Olímpico da Barra), originally the City of Sports Complex, is a cluster of nine sporting venues in Barra da Tijuca, in the west zone of Rio de Janeiro, Brazil. The park, which served as the Olympic Park for the 2016 Summer Olympics and the 2016 Summer Paralympics, was originally built for the 2007 Pan American Games, consisting of three venues.\n[…]\nThe site of the Barra Olympic Park was formerly occupied by the Autódromo Internacional Nelson Piquet, also known as Jacarepaguá. It was a former Formula One circuit that hosted the Brazilian Grand Prix on a number of occasions throughout the 1980s, before the Grand Prix went back to its original home at the Autódromo José Carlos Pace, Interlagos, in 1990.\n[…]\nJacarepaguá was partly demolished to make way for the City of Sports Complex, a cluster of three venues constructed for the 2007 Pan American Games, held in Rio de Janeiro. The venues consisted the Maria Lenk Aquatic Center, which held diving, swimming and synchronized swimming events, the Rio Olympic Arena, which held basketball and artistic gymnastics events, and the Barra Velodrome, which held track cycling and speed roller skating events.\n[…]\nIn 2009, Rio de Janeiro successfully bid to host the 2016 Summer Olympics and Paralympics. Plans for a new array of venues at the City of Sports, rebranded the Barra Olympic Park, along with the complete demolition of the Jacarepaguá, was in the works. The Barra Velodrome, however, was not approved by the International Cycling Union as an appropriate venue for track cycling events at the Olympics.\n[…]\nCarioca Arena 1: basketball, wheelchair basketball, and wheelchair rugby (capacity: 16,000)\n[…]\nIn 2017, it was announced that the Olympic Park will be the permanent site of the Rock in Rio traditional international music festival."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Ol%C3%ADmpico_do_Rio_de_Janeiro",
+        "situacao": "ok",
+        "texto": "Parque Olímpico do Rio de Janeiro é um complexo esportivo e de lazer, construído para os Jogos Olímpicos e Paralímpicos de Verão de 2016, localizado na Barra Olímpica, na Zona Oeste do Rio de Janeiro.\n[…]\nA área onde hoje fica o Parque Olímpico foi ocupada pela primeira vez em 1966, quando foi inaugurado o Autódromo Nova Caledônia. No final da década de 1970, o autódromo foi reformado e expandido para receber a Fórmula 1, passando a se chamar Autódromo de Jacarepaguá. O novo autódromo, inaugurado em 1977, sediou seu primeiro Grande Prêmio de Fórmula 1 em janeiro de 1978, e acabaria sediando outros nove, entre 1981 e 1989.\n[…]\nA candidatura do Rio de Janeiro a sede dos Jogos Olímpicos e Paralímpicos de Verão de 2016 já previa a desativação definitiva do autódromo para a construção de novas arenas e a formação do Parque Olímpico.\n[…]\nApós o encerramento dos Jogos Olímpicos e Paralímpicos de 2016, o Parque Olímpico permaneceu fechado por 4 meses para a transformação da Via Olímpica em um parque público, com a construção de jardins, quadras e outros equipamentos de lazer para uso da população. Nesse período, também foi erguido o Muro dos Campeões, um monumento na entrada do parque registrando cada uma das 2.568 medalhas distribuídas durante os Jogos Olímpicos e Paralímpicos.\n[…]\nO parque também recebeu o monumento Cidade Olímpica, que durante todo o ano de 2016 ficou exposto na Praça Mauá, uma das principais áreas do Boulevard Olímpico e símbolo da transformação da cidade durante a preparação para os Jogos.\n[…]\nDurante os Jogos Olímpicos e Paralímpicos de 2016, o parque contou também com duas arenas temporárias:\n[…]\nTerminal Centro Olímpico\n[…]\nParque Olímpico Rainha Isabel\n[…]\nParque Olímpico de Sydney",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Michael Schumacher",
+      "descricao": "Piloto alemão heptacampeão mundial de Fórmula 1."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Michael Schumacher estreou na Fórmula 1 em 1991, pela Jordan, porque o piloto titular, Bertrand Gachot, estava em que situação?",
+    "resposta": "Preso por agredir um taxista",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bertrand_Gachot",
+      "https://en.wikipedia.org/wiki/Michael_Schumacher"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bertrand_Gachot",
+        "situacao": "ok",
+        "texto": "Bertrand Jean Louis Gachot (French pronunciation: [bɛʁ.tʁɑ̃ ʒɑ̃ ɡa.ʃo]; born 23 December 1962) is a former racing driver and businessman who competed in Formula One from 1989 to 1995. In endurance racing, Gachot won the 24 Hours of Le Mans in 1991 with Mazda.\n[…]\nAfter winning the 1991 24 Hours of Le Mans, Gachot was sentenced to eighteen months in prison for an aggravated assault with a London taxi driver that had occurred the previous December. He was released after two months on appeal, but was replaced by debutant Michael Schumacher, Roberto Moreno and Alessandro Zanardi for the remainder of the 1991 season.\n[…]\nThe situation prompted a campaign of support organised by Belgian racing driver Pascal Witmeur. This campaign involved flags, T-shirts worn by members of the public and racing drivers, graffiti in several locations of the Spa-Francorchamps track during the 1991 Belgian Grand Prix, and prominent sponsorship on Witmeur's Formula 3000 car. Team owner Eddie Jordan replaced him with Michael Schumacher, whose performance at Spa led to a drive with Benetton.\n[…]\n1993 saw Gachot out of Formula 1. He raced for Dick Simon Racing in CART, placing 12th at the Molson Indy Toronto in a one-off drive, and raced in Japanese touring car series for Honda while helping Keith Wiggins' Pacific team prepare to enter Formula One the following season. After becoming a shareholder in the team, Gachot was signed to drive as number 1 alongside pay driver Paul Belmondo for the 1994 season.\n[…]\nGachot also owns F1i.com, a Formula 1 news site.\n[…]\nGachot raced under more than one flag during his career. He initially competed with a Belgian FIA Super Licence, despite carrying a French passport. From the 1992 season onwards he changed to a French licence."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Michael_Schumacher",
+        "situacao": "ok",
+        "texto": "Michael Schumacher (born 3 January 1969) is a German former racing driver who competed in Formula One from 1991 to 2006 and from 2010 to 2012. Schumacher won a record-setting seven Formula One World Drivers' Championship titles, tied by Lewis Hamilton in 2020, and—at the time of his retirement—held the records for most wins (91), pole positions (68), and podium finishes (155), while he maintains t\n[…]\nHe won the title in 1990, also claiming the Macau Grand Prix and becoming a race-winner in the World Sportscar Championship with Sauber Mercedes. Schumacher made his debut Formula One appearance with Jordan at the Belgian Grand Prix in 1991; his qualifying performance saw Benetton sign him for the remainder of the season. In 1992, he achieved his maiden victory in Belgium amongst several podiums, which he repeated at the Portuguese Grand Prix in 1993.\n[…]\nSchumacher made his Formula One debut with the Irish Jordan-Ford team at the Belgian Grand Prix, driving car number 32 as a replacement for the imprisoned Bertrand Gachot. Schumacher, still a contracted Mercedes driver, was signed by Eddie Jordan after Mercedes paid Jordan $150,000 for his debut.\n[…]\nAbout his collision with Schumacher in 1994, Hill wrote: \"There are two things that set Michael apart from the rest of the drivers in Formula One − his sheer talent and his attitude. I am full of admiration for the former, but the latter leaves me cold.\"\n[…]\nHilton, Christopher (2003). Michael Schumacher: The greatest of all. Haynes. ISBN 978-1-84425-044-8.\n[…]\nHilton, Christopher (2006). Michael Schumacher: The Whole Story. Haynes. ISBN 978-1-84425-008-0.\n[…]\nKehm, Sabine (2003). Michael Schumacher. Driving Force. Random House. ISBN 978-0-09-189435-1.\n[…]\nMol, Olav; Houben, Erik (2025). Michael Schumacher: De Formule 1-legende (in Dutch). Amsterdam: Uitgeverij Het Spectrum. ISBN 978-9-0003-9342-8.\n[…]\nMichael Schumacher driver statistics at Racing-Reference"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bertrand_Gachot",
+        "situacao": "ok",
+        "texto": "Bertrand Jean-Louis Gachot (Cidade de Luxemburgo, 23 de dezembro de 1962) é um ex-automobilista luxemburguês, naturalizado belga. Filho de um comissário francês da União Europeia, também possui a cidadania de seu pai.\n[…]\nParticipou da Fórmula 1 entre os anos de 1989 e 1992, com um retorno entre 1994 e 1995, pelas equipes Onyx, Rial, Coloni, Jordan, Larrousse e Pacific, atuando em 47 provas (84 tentativas). Marcou 5 pontos no campeonato, e seu maior feito foi a volta mais rápida do GP da Hungria em 1991. É, até hoje, o único piloto nascido em Luxemburgo (mesmo com a dupla cidadania) a ter participado da principal categoria do automobilismo.\n[…]\nA justiça inglesa deu o veredicto em agosto de 1991: Gachot seria condenado a 6 meses de prisão por posse ilegal de armas, e a um ano por ter usado o spray de pimenta, arma considerada ilegal no Reino Unido. Eddie Jordan, após a perda de seu piloto titular, entrou em dúvida sobre seu substituto. Stefan Johansson e Keke Rosberg foram cogitados, mas o empresário alemão Willi Weber pagou 300 mil dólares para colocar o então desconhecido Michael Schumacher no lugar de Gachot no GP da Bélgica.\n[…]\nEm 1994, Gachot retorna pela segunda vez à F-1, desta vez por outra escuderia estreante na categoria, a Pacific (onde havia corrido na Fórmula Ford). Guiando o carro número 34, ele disputaria cinco etapas, mas o martírio das não-classificações voltaria a atormentar o piloto, que ficou de fora em 11 provas. Em 1995, a Pacific compra o espólio da Lotus, e Gachot permanece no time, praticamente exercendo funções de piloto e dono de equipe.\n[…]\nHoje, Gachot é empresário, exercendo a função de presidente da fábrica de bebidas energéticas Hype.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Grande Prêmio de Detroit de 1986",
+      "descricao": "Corrida de Fórmula 1 vencida por Ayrton Senna nas ruas de Detroit, em junho de 1986."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1986, Senna venceu em Detroit e deu a volta da vitória com a bandeira do Brasil. Que derrota brasileira, na véspera, motivou o gesto?",
+    "resposta": "A eliminação para a França na Copa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1986_Detroit_Grand_Prix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1986_Detroit_Grand_Prix",
+        "situacao": "ok",
+        "texto": "The 1986 Detroit Grand Prix was a Formula One motor race held on June 22, 1986, in Detroit, Michigan.\n[…]\nWith the two of them in front on their own, and Piquet leading by up to 3.5 seconds, Senna was content for the time being to follow his countryman. After eight laps in the lead, Piquet pitted for tires. Senna regained first place and then also pitted. Piquet's 18.4 second stop was even slower than teammate Mansell's had been, but when he returned to the track, the two-time champion got the bit between his teeth.\n[…]\nRunning second behind Senna, Piquet set the fastest lap of the race on lap 41, but with a pit stop ten seconds quicker than Piquet's, Senna was able to retain the lead.\n[…]\nOn the very next lap, the 42nd, Piquet pushed a bit too much, and crashed hard at the left-hand corner before the last chicane. He ended up in the tire barrier, unhurt, but with his car in a very precarious position. The crane, present for just that reason, was unable to move the car. Arnoux, now 16.6 seconds behind in second, took a second a lap off Senna's lead for five laps while a yellow was displayed in the corner where Piquet had crashed.\n[…]\nWith 17 laps to go, Senna led Prost by 27 seconds, but the McLaren's TAG engine was cutting out under braking. Laffite was able to close as Prost struggled, and quickly the Ligier moved by into second place. Senna came home 30 seconds in front for his first victory in the United States, and the only American win for the Renault.\n[…]\nRob Walker (October, 1986). \"5th Detroit Grand Prix: Front And Senna\". Road & Track, 130–132."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Pr%C3%AAmio_de_Detroit_de_1986",
+        "situacao": "ok",
+        "texto": "Resultados do Grande Prêmio de Detroit de Fórmula 1 realizado em Detroit em 22 de junho de 1986. Sétima etapa do campeonato, foi vencido pelo brasileiro Ayrton Senna, da Lotus-Renault, com Jacques Laffite em segundo pela Ligier-Renault e Alain Prost em terceiro pela McLaren-TAG/Porsche.\n[…]\nFoi nessa corrida que Ayrton Senna registrou a sua marca de carregar a bandeira brasileira após a vitória, em resposta a brincadeiras de membros franceses de sua equipe (a Renault era fornecedora de motores da Lotus na época) após a eliminação da Seleção Brasileira pela França na Copa do Mundo no México, no dia anterior.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "NASCAR",
+      "descricao": "Principal entidade de corridas de stock car dos Estados Unidos, fundada em 1948."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "As corridas de stock car que deram origem à NASCAR nasceram de motoristas que, na época da Lei Seca americana, faziam qual atividade ilegal?",
+    "resposta": "Contrabando de bebida alcoólica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/NASCAR"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/NASCAR",
+        "situacao": "ok",
+        "texto": "The National Association for Stock Car Auto Racing, LLC (NASCAR) is an American auto racing sanctioning and operating company that is best known for stock car racing. It is considered to be one of the top-ranked motorsports organizations in the world and is one of the largest spectator sports leagues in America. The privately owned company was founded by Bill France Sr. in 1948. The company is hea\n[…]\nBy early 1947, Bill France saw the potential for a unified series of racing competitors. France announced the foundation of the \"National Championship Stock Car Circuit\", otherwise known as NCSCC. France approached the American Automobile Association, or AAA, in hopes of obtaining financial backing for the venture. When the AAA declined support of the venture, France proceeded to announce a set of rules and awards for the NCSCC.\n[…]\nThe name originally chosen for the series was \"National Stock Car Racing Association\"; when it was pointed out that that name was already in use by a rival sanctioning body, \"National Association for Stock Car Auto Racing\", proposed by mechanic Red Vogt, was selected as the organization's name.\n[…]\nEach division champion receives a point-fund money payout and even more goes to the National champion (driver with most points out of the four division winners). The Whelen All-American Series is the base for stock car racing, developing NASCAR names such as Clint Bowyer, Jimmy Spencer, Tony Stewart, the Bodine brothers, and many others along the way.\n[…]\nIn October 2000, Turner Sports acquired the digital rights to NASCAR, and subsequently took over its website, which features news, information, and interactive features (such as RaceView and RaceBuddy) surrounding its series. While NASCAR had extended Turner's contract to operate the site through 2016, the association announced in January 2012 that it would take operation of the site back in-house in 2013."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/NASCAR",
+        "situacao": "ok",
+        "texto": "A National Association for Stock Car Auto Racing — NASCAR (em português:  Associação Nacional para Corridas de Carros de Série) é uma associação automobilística estadunidense que sanciona e controla múltiplos eventos de esporte a motor, em especial competições de \"stock cars\" (\"automóveis de fábrica\").\n[…]\nAs três principais séries organizadas pela NASCAR são a NASCAR Cup Series, a NASCAR O'Reilly Auto Parts Series e a Truck Series. A empresa também supervisiona a denominada NASCAR Local Racing, o Whelen Modified Tour, Whelen All-American Series e NASCAR iRacing.com Series.\n[…]\nA partir da década de 1920 Daytona Beach foi um lugar de grandes corridas de stock cars nos Estados Unidos. Essas corridas consistiam no uso de carros originais sem nenhum tipo de modificação para corridas, sendo altamente populares nas regiões do interior dos Estados Unidos, especialmente no estado da Carolina do Norte, as corridas também eram associadas a venda ilegal de bebidas alcoólicas durante a Lei seca (nome histórico).\n[…]\nCarros de contrabandistas de bebidas alcoólicas ilegais tinham seus motores especialmente preparados para facilitar a fuga da polícia, o que deu origem às corridas como forma de diversão nos momentos em que seus motoristas não estavam utilizando esses veículos para o transporte de álcool.\n[…]\nEsse formato além de gerar uma audiência maior também garante que os pilotos do Chase possam renegociar contratos de patrocínio.\n[…]\nExistem várias ligas espalhadas pelo Brasil e pelo mundo onde realizam campeonatos virtuais. Alguns campeonatos inclusive seguem fielmente todas as etapas por onde a NASCAR percorre, aumentando ainda mais a realidade da simulação da corrida. Atualmente a versão de jogo mais utilizada para realizar os campeonatos é NASCAR Racing 2003 da Papyrus e seus mods.\n[…]\nAutódromos Americanos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Cavalinho rampante da Ferrari",
+      "descricao": "Símbolo de um cavalo empinado usado pela Ferrari, derivado do emblema do aviador italiano Francesco Baracca."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O cavalinho rampante da Ferrari foi pintado antes no avião de qual ás italiano da Primeira Guerra Mundial?",
+    "resposta": "Francesco Baracca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Francesco_Baracca"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Francesco_Baracca",
+        "situacao": "ok",
+        "texto": "Francesco Baracca (9 May 1888 – 19 June 1918) was Italy's top fighter ace of World War I. He was credited with 34 aerial victories. The emblem he wore side by side on his plane of a black horse prancing on its two rear hooves inspired Enzo Ferrari to use it on his racing car and later in his automotive company.\n[…]\nFrancesco Luigi Giuseppe Baracca was born in Lugo, Emilia-Romagna. He was the son of wealthy landowner Enrico Baracca (1855-1936) and his wife countess Paolina Biancoli . The younger Baracca initially studied at a private school in Florence before entering the Military Academy of Modena in October 1907. As he had become a passionate equestrian as an antidote to classroom boredom, he became a cavalryman with the prestigious Piemonte Reale Cavalleria Regiment upon his commissioning in 1910.\n[…]\nBaracca's total of 34 victory claims can largely be verified from known Austro-Hungarian losses and surviving military records, establishing the Italian as one of the highest-scoring Allied pilots during the conflict. After the war, his home in Lugo was turned into the Francesco Baracca Museum, which displays mementoes, uniforms, and medals from Baracca's life, as well as rudders and guns taken from shot-down aircraft.\n[…]\nIn the 1920s, a SPAD VII once flown by Baracca in December 1917 was presented for display, which was subsequently restored by GVAS (the Italian aeronautical preservation society).\n[…]\nThe roller coaster at Ferrari World on Yas Island Flying Aces, is named after him and themed to him.\n[…]\nFlavio Baracchini\n[…]\nGabriele, Mariano (1963). \"BARACCA, Francesco\". Dizionario Biografico degli Italiani (in Italian). Vol. 5: Bacca–Baratta. Rome: Istituto dell'Enciclopedia Italiana. OCLC 883370.\n[…]\nRegia Aeronautica Italiana – Entry on Francesco Baracca[link removed]\n[…]\nFrancesco Baracca Museum in Lugo di Romagna"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Francesco_Baracca",
+        "situacao": "ok",
+        "texto": "Francesco Baracca (9 de maio de 1888 – 19 de junho de 1918) foi o maior ás da aviação de caça da Itália durante a Primeira Guerra Mundial. Foram-lhe creditadas 34 vitórias aéreas. O emblema que ele usava em seu avião, um cavalo negro empinando sobre as duas patas traseiras, inspirou Enzo Ferrari a usá-lo em seu carro de corrida e, posteriormente, em sua empresa automobilística.\n[…]\nDurante os meses entre o início da Primeira Guerra Mundial e a entrada da Itália na guerra, houve uma intensa controvérsia política na Itália entre facções pró-guerra e pró-paz. Baracca manteve-se neutro, mas pronto para servir sua nação. Após a Itália entrar na guerra ao lado da Tríplice Entente em maio de 1915, ele foi enviado a Paris para converter-se aos Nieuport de dois lugares. Em julho, ao retornar, foi designado para a 8a Squadriglia Nieuport.\n[…]\nAs 34 vitórias reivindicadas por Baracca podem ser amplamente verificadas a partir de perdas austro-húngaras conhecidas e registros militares sobreviventes, estabelecendo o italiano como um dos pilotos Aliados com mais vitórias durante o conflito. Após a guerra, sua casa em Lugo foi transformada no Museu Francesco Baracca, que exibe lembranças, uniformes e medalhas da vida de Baracca, bem como lemes e metralhadoras retiradas de aeronaves abatidas.\n[…]\nMuitas estradas na Itália têm o nome de Baracca. O aeroporto de Bolzano, uma cidade na região de Trentino-Alto Ádige, a base da Força Aérea Italiana de Roma-Centocelle e o aeródromo de Lugo di Romagna têm o nome de Baracca. Um enorme monumento em sua memória domina a praça principal de sua cidade natal, Lugo di Romagna.\n[…]\nGabriele, Mariano (1963). «BARACCA, Francesco». Dizionario Biografico degli Italiani (em italiano). 5: Bacca–Baratta. Roma: Istituto dell'Enciclopedia Italiana. OCLC 883370\n[…]\nRegia Aeronautica Italiana – Entry on Francesco Baracca\n[…]\nFrancesco Baracca Museum in Lugo di Romagna",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Enzo Ferrari",
+      "descricao": "Piloto e empresário italiano, fundador da Scuderia Ferrari e da fabricante Ferrari."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de fabricar carros com o próprio nome, Enzo Ferrari foi piloto e depois comandou a equipe de corrida de qual montadora italiana?",
+    "resposta": "Alfa Romeo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Enzo_Ferrari"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Enzo_Ferrari",
+        "situacao": "ok",
+        "texto": "Enzo Anselmo Giuseppe Maria Ferrari (; Italian: [ˈɛntso anˈsɛlmo ferˈraːri]; 18 February 1898 – 14 August 1988) was an Italian racing driver and entrepreneur, the founder of Scuderia Ferrari in Grand Prix motor racing, and subsequently of the Ferrari automobile marque. Under his leadership in Formula One, Ferrari won nine World Drivers' Championships and eight World Constructors' Championships dur\n[…]\nFollowing the birth of his son Alfredo (Dino) in 1932, Ferrari decided to retire and form a team of superstar drivers, including Giuseppe Campari and Tazio Nuvolari. This team was called Scuderia Ferrari (founded by Enzo in 1929) and acted as a racing division for Alfa Romeo. The team was very successful, thanks to excellent cars like the Alfa Romeo P3 and to the talented drivers, like Nuvolari.\n[…]\nInitially displayed on Ferrari's Alfa Romeo racing car, the shield was first seen on a factory Ferrari in 1947.\n[…]\nAlfa Romeo agreed to partner with Ferrari's racing team until 1933, when financial constraints forced them to withdraw their support – a decision subsequently retracted thanks to the intervention of Pirelli. Despite the quality of the Scuderia drivers, the team struggled to compete with Auto Union and Mercedes.\n[…]\nIn 1937, Scuderia Ferrari was dissolved and Ferrari returned to Alfa's racing team, named \"Alfa Corse\". Alfa Romeo decided to regain full control of its racing division, retaining Ferrari as Sporting Director. After a disagreement with Alfa's managing director Ugo Gobbato, Ferrari left in 1939 and founded Auto-Avio Costruzioni, a company supplying parts to other racing teams.\n[…]\nFerrari (2023 film)\n[…]\nFerrari, Enzo (1985). Piloti, che gente... Conti Editore.\n[…]\nDal Monte, Luca (2024). Enzo Ferrari: The Definitive Biography of an Icon. Cassell. ISBN 978-1-78840-473-0.\n[…]\nGrand Prix History — Hall of Fame Archived 5 June 2011 at the Wayback Machine, Enzo Ferrari\n[…]\nEnzo Ferrari entrepreneur"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Enzo_Ferrari",
+        "situacao": "ok",
+        "texto": "Enzo Anselmo Giuseppe Maria Ferrari (Módena, 18 de fevereiro de 1898 – Maranello, 14 de agosto de 1988) foi o fundador da Scuderia Ferrari e da fábrica de automóveis Ferrari.\n[…]\nEm 1920, Enzo ingressou no departamento de corridas da Alfa Romeo como piloto. Ferrari venceu seu primeiro Grande Prêmio em 1923 em Ravenna no Circuito Savio. 1924 foi sua melhor temporada, com três vitórias, incluindo Ravenna, Polesine e a Coppa Acerbo em Pescara. Profundamente chocado com a morte de Ugo Sivocci em 1923 e Antonio Ascari em 1925, Ferrari, como ele próprio admitiu, continuou a correr sem entusiasmo.\n[…]\nAo mesmo tempo, ele desenvolveu um gosto pelos aspectos organizacionais das corridas de Grande Prêmio. Após o nascimento de seu filho Alfredo (Dino) em 1932, Ferrari decidiu se aposentar e se concentrar na gestão e desenvolvimento dos carros de corrida de fábrica da Alfa, eventualmente construindo uma equipe de pilotos superstar, incluindo Giuseppe Campari e Tazio Nuvolarii. Essa equipe se chamava Scuderia Ferrari (fundada por Enzo em 1929) e funcionava como uma divisão de corrida da Alfa Romeo.\n[…]\nA equipe teve muito sucesso, graças aos excelentes carros, por exemplo, o Alfa Romeo P3 e para os pilotos talentosos, como Nuvolari. A Ferrari se aposentou das competições, tendo participado de 41 Grandes Prêmios com um recorde de 11 vitórias.Nesse período, o emblema do cavalo empinado começou a aparecer nos carros de sua equipe. O emblema foi criado e ostentado pelo piloto de caça italiano Francesco Baracca.\n[…]\nNo final da guerra, Ferrari decidiu começar a fabricar carros com seu nome e fundou a Ferrari em 1947.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Brabham",
+      "descricao": "Equipe britânica de Fórmula 1 fundada por Jack Brabham e Ron Tauranac, que competiu de 1962 a 1992."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Antes de comandar os negócios da Fórmula 1, Bernie Ecclestone foi dono de qual equipe, pela qual Nelson Piquet foi bicampeão?",
+    "resposta": "Brabham",
+    "distratores": [
+      "Williams",
+      "Lotus",
+      "McLaren"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brabham",
+      "https://en.wikipedia.org/wiki/Bernie_Ecclestone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brabham",
+        "situacao": "ok",
+        "texto": "Motor Racing Developments Ltd., commonly known as Brabham ( BRAB-əm), was a British racing car manufacturer and Formula One racing team. It was founded in 1962 by the Australian driver Jack Brabham and the British-Australian designer Ron Tauranac. The team had a successful thirty-year history, winning four FIA Formula One World Drivers' Championships and two World Constructors' Championships.\n[…]\nThe businessman Bernie Ecclestone owned Brabham during most of the 1970s and 1980s, and later became responsible for administering the commercial aspects of Formula One. Under Ecclestone and chief designer Gordon Murray, the team won two more Drivers' Championships in the 1980s with Brazilian Nelson Piquet. During this period, the team withdrew from manufacturing customer cars but introduced innovations such as carbon brakes and hydropneumatic suspension; it also reintroduced in-race refuelling.\n[…]\nAt the end of 1971 Bernie Ecclestone bought MRD. He retained the Brabham brand, as did subsequent owners. Although the production of customer cars continued briefly under Ecclestone's ownership, he believed the company needed to focus on Formula One to succeed. The last production customer Brabhams were the Formula Two BT40 and the Formula Three BT41 of 1973, although Ecclestone sold ex-works Formula One BT44Bs to RAM Racing as late as 1976.\n[…]\nIn the 1960s and early 1970s, drivers who had reached Formula One often continued to compete in Formula Two. In 1966 MRD produced the BT18 for the lower category, with a Honda engine acting as a stressed component. The car was extremely successful, winning 11 consecutive Formula Two races in the hands of the Formula One pairing of Brabham and Hulme. Cars were entered by MRD and not by the Brabham Racing Organisation, avoiding a direct conflict with Repco, their Formula One engine supplier.\n[…]\nList of Brabham racing cars\n[…]\nBrabham - At IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bernie_Ecclestone",
+        "situacao": "ok",
+        "texto": "Bernard Charles Ecclestone (born 28 October 1930) is a British business magnate, motorsport executive and former racing driver. Widely known in journalism as the \"F1 Supremo\", Ecclestone founded the Formula One Group in 1987, controlling the commercial rights to Formula One until 2017.\n[…]\nHe then became a driver manager for Stuart Lewis-Evans and Jochen Rindt, the latter winning the World Drivers' Championship posthumously in 1970. Ecclestone purchased Brabham in 1972—which he operated for 15 years—leading the team to 22 victories, as well as two World Drivers' Championship titles with Nelson Piquet. He co-founded the Formula One Constructors' Association two years later, leading them through the FISA–FOCA war.\n[…]\nThe Brabham-Alfa era ended in 1979, the team's first season with the up-and-coming young Brazilian Nelson Piquet when Alfa Romeo started testing its own Formula One car during that season. This prompted Ecclestone to revert to Cosworth DFV engines – a move Murray described as \"like having a holiday\".\n[…]\nPiquet formed a close and long-lasting relationship with Ecclestone and the team, losing the title after a narrow battle with Alan Jones in 1980 and eventually winning in 1981 and 1983. In the summer of 1981 Brabham had tested a car powered by a BMW turbo engine, and 1982's new BT50 was powered by BMW's turbocharged four-cylinder M10.\n[…]\nEcclestone owned a vast collection of Formula One cars; his collection of 69 single-seaters was one of the largest racing car collections in the world, worth an estimated £500 million. His collection was noted for its historical value, with unique pieces such as the Ferrari 375 F1, Ferrari 312 F1, Ferrari 246 F1, Brabham BT46B, and Maserati 250F. The entire collection was sold to Red Bull GmbH heir Mark Mateschitz."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brabham",
+        "situacao": "ok",
+        "texto": "A Motor Racing Developments Ltd., mais conhecida como Brabham, foi uma equipe britânica de Fórmula 1 fundada em 1961 por Jack Brabham e Ron Tauranac.\n[…]\nNos primeiros anos de competição a Fórmula 1 era regulamentada pela chamada 1,5-litro formula (1961–1965) e as unidades motoras utilizadas pela Brabham nessa fase eram, na sua maior parte, derivados dos motores Coventry Climax; esse período limitou o potencial de desenvolvimento e o desempenho relativo de várias equipes, incluindo a Brabham.\n[…]\nCom a alteração do regulamento para 3,0 L em 1966, a Brabham adaptou-se adotando uma solução baseada no motor Repco V8 (projeto australiano), instalado no chassi BT19 concebido por Ron Tauranac; a combinação privilegiou confiabilidade e leveza, permitindo a Jack Brabham conquistar o Campeonato Mundial de Pilotos de 1966 ao volante do seu próprio carro — até hoje um caso singular na história da Fórmula 1.\n[…]\nNa temporada seguinte (1967) o título foi conquistado por Denny Hulme, mantendo a Brabham entre as principais equipes da época.\n[…]\nJack Brabham retirou-se das provas ao fim da temporada de 1970, vendendo a sua participação na equipe a Ron Tauranac; no final de 1971 a Motor Racing Developments foi adquirida por Bernie Ecclestone, que procedeu a uma reorganização administrativa e técnica da estrutura de competição.\n[…]\nSob a gestão de Ecclestone e com projetos de Gordon Murray assumindo o posto de principal desenhista a partir de 1973, a Brabham alcançou novamente destaque competitivo no início da década de 1980: Nelson Piquet conquistou os campeonatos mundiais de 1981 e 1983 representando a equipe.\n[…]\nPiquet: 13\n[…]\nJ. Brabham: 7\n[…]\nPace: 1\n[…]\n↑1  Nos descartes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Nico Rosberg",
+      "descricao": "Piloto alemão campeão mundial de Fórmula 1 em 2016, filho do finlandês Keke Rosberg."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que os campeões mundiais Damon Hill e Nico Rosberg têm em comum na família?",
+    "resposta": "São filhos de campeões mundiais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nico_Rosberg",
+      "https://en.wikipedia.org/wiki/Damon_Hill"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nico_Rosberg",
+        "situacao": "ok",
+        "texto": "Nico Erik Rosberg ( NEE-koh ROZ-burg; born 27 June 1985) is a German and Finnish former racing driver, entrepreneur, and broadcaster who competed under the German flag in Formula One from 2006 to 2016. Rosberg won the Formula One World Drivers' Championship in 2016 with Mercedes, and won 23 Grands Prix across 11 seasons.\n[…]\nHe was taught five languages: English, French, German, Italian and Spanish, but not Finnish or Swedish, as his father considered those other languages more important for Nico's life and career. Rosberg enjoyed studying mathematics and science, and passed all of his examinations except history. He graduated with an average grade of 1.2 in 2002.\n[…]\nRosberg was paid £500,000 by Williams and was the first son of a former world champion in Formula One since Damon Hill in 1999. To prepare for the season, he achieved the highest score ever in Williams's Engineering Aptitude Test, which tests a new driver's knowledge of car mechanics and engineering aspects of Formula One, and ceased reading the news to avoid becoming angered by negative publicity. Tony Ross was assigned as his race engineer.\n[…]\nTo win the championship, Rosberg needed to finish no worse than third, even if Hamilton won. He won the WDC by five points with a second-place finish after withstanding Hamilton's attempts to back him into the chasing pack and encourage drivers to pass Rosberg to claim the title for himself. Rosberg became the second son of a former world champion to win the title since Damon Hill replicated his father Graham Hill in 1996.\n[…]\nRosberg was inducted into the FIA Hall of Fame in December 2017.\n[…]\nNico Rosberg career summary at DriverDB.com\n[…]\nNico Rosberg at IMDb\n[…]\nNico Rosberg driver statistics at Racing-Reference\n[…]\nNico Rosberg driver statistics at The Third Turn"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Damon_Hill",
+        "situacao": "ok",
+        "texto": "Damon Graham Devereux Hill (born 17 September 1960) is a British former racing driver and broadcaster, who competed in Formula One from 1992 to 1999. Hill won the Formula One World Drivers' Championship in 1996 with Williams, and won 22 Grands Prix across eight seasons.\n[…]\nBorn and raised in London, Hill is the son of two-time Formula One World Champion Graham Hill, and, along with Nico Rosberg, one of two sons of a Formula One World Champion to also win the title. He started racing on motorbikes in 1981, and after minor success moved on to single-seater racing cars. Hill became a test driver for the Formula One title-winning Williams team in 1992.\n[…]\nBy 1975, the family lived in a \"25-room country mansion\" in Hertfordshire and Damon attended the independent The Haberdashers' Aske's Boys' School. The death of his father in an aeroplane crash in 1975 left the 15-year-old Hill, his mother, and sisters Samantha and Brigitte in drastically reduced circumstances. Hill worked as a labourer and a motorcycle courier to support his further education.\n[…]\nHill won at Brands Hatch in the Saab series.\n[…]\nHill's season earned him the 1994 BBC Sports Personality of the Year.\n[…]\nIn June 2018, Hill became the President of the Brooklands Trust Members who are the support group for Brooklands Museum.\n[…]\nHill published his autobiography, Watching the Wheels, in 2016, in which he revealed he had suffered with depression.\n[…]\nSince becoming president of the BRDC in 2006, Hill says he has stopped playing the guitar, being \"too busy doing school runs and looking after pets.\"\n[…]\nHill–Schumacher rivalry\n[…]\nHill, Damon (1999). Damon Hill: Through the Eyes of Damon Hill. Little, Brown. ISBN 978-0-316-85392-7.\n[…]\nTremayne, David (1996). Damon Hill: World Champion. Weidenfeld Nicolson. ISBN 978-0-297-82262-2."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nico_Rosberg",
+        "situacao": "ok",
+        "texto": "Nico Erik Rosberg (Wiesbaden, 27 de junho de 1985) é um ex-automobilista alemão que atuou na Fórmula 1 entre 2006 e 2016 pelas equipes Williams e Mercedes. Foi campeão mundial de Fórmula 1 em 2016, superando seu companheiro de equipe Lewis Hamilton. Ainda foi vice-campeão por duas vezes, em 2014 e 2015. Anteriormente, ele foi campeão da GP2 Series em 2005, e da Fórmula BMW ADAC em 2002. É filho do\n[…]\nCom o domínio do Mercedes F1 W05, Nico e seu companheiro de equipe, Lewis Hamilton, foram os postulantes ao título mundial. Iniciou a primeira metade do campeonato em vantagem em relação a ele. Entretanto, a partir da prova de Singapura, perdeu a liderança do campeonato. Em 16 de julho a equipe anunciou a extensão de seu contrato.\n[…]\nMais uma vez disputando o título com o colega britânico, desta vez Rosberg sagrou-se campeão mundial ao chegar em segundo lugar na última corrida em Abu Dhabi, superando Hamilton (que venceu a prova, mas segurou o pelotão para ajudar adversários a ultrapassarem Rosberg) por cinco pontos.\n[…]\nCom seu título, Nico Rosberg se tornou o segundo filho de piloto campeão mundial a repetir o feito do pai, igualando o que Damon Hill, filho de Graham Hill, alcançou em 1996. Mas ao contrário de Graham, morto em 1975, Keke pôde testemunhar a conquista de seu filho Nico, embora o campeão de 1982 tenha preferido não aparecer em Yas Marina antes do final da corrida para não deixar o filho nervoso.\n[…]\nPouco após ser campeão mundial, Nico Rosberg anunciou sua aposentadoria da F1 em 2 de dezembro de 2016, através de seu site. \"Para mim, é um dia muito especial. Receber o troféu esta noite vai ser incrível, mas por outra razão: quero aproveitar a oportunidade para anunciar que vou encerrar minha carreira na F1\". \"Desde que comecei aos seis anos de idade eu tive um sonho claro. Queria me tornar campeão mundial de F1 e isso estava muito claro em minha mente.\n[…]\nNico Rosberg no X",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Stewart Grand Prix",
+      "descricao": "Equipe de Fórmula 1 fundada por Jackie Stewart e seu filho Paul, que correu de 1997 a 1999."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na história da Fórmula 1, o que as equipes Stewart, Jaguar e Red Bull têm em comum?",
+    "resposta": "São a mesma equipe, renomeada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stewart_Grand_Prix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stewart_Grand_Prix",
+        "situacao": "ok",
+        "texto": "Stewart Grand Prix Limited was a Formula One constructor and racing team founded by triple Formula One champion Jackie Stewart and his son Paul Stewart in 1996. The team competed in F1, as the Ford works-supported team, for only three seasons, from 1997 to 1999.\n[…]\nAfter Ford acquired Cosworth in July 1998, they risked designing and building a brand-new engine for 1999. The Stewart SF3 was quick out of the box, however both cars over-heated on the grid of the first race, the Australian Grand Prix, after qualifying competitively. This put Herbert out instantly and made Barrichello start from the pit lane. Barrichello received a stop-go penalty during the race and finished fifth.\n[…]\nThe car was consistently competitive throughout the season, however the engine initially proved fragile as both cars blew their engines at the Brazilian race which meant the engine was rarely run at full power. Stewart's competitiveness was affirmed by running first in Brazil for a long spell of the race and qualifying on pole for the French Grand Prix with Barrichello.\n[…]\nJohnny Herbert won a popular victory at the rain soaked 1999 European Grand Prix at the new Nürburgring after other leading contenders crashed off the track or lost time in the pits changing tyres. Barrichello finished third, in a result most observers indicated that Stewart deserved given their strength over the season. Herbert also became unwittingly influential in the championship at the next and penultimate race, the Malaysian Grand Prix.\n[…]\nHäkkinen however went on to win the championship later in Japan and Stewart came fourth in the constructors' championship with 36 points, beating teams such as former world champions Williams and Benetton. Stewart's last race was the 1999 Japanese Grand Prix."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Stewart_Grand_Prix",
+        "situacao": "ok",
+        "texto": "Stewart Grand Prix foi uma equipe de automobilismo fundada pelo piloto tricampeão de Fórmula 1 Jackie Stewart juntamente com seu filho Paul Stewart. A equipe competiu na Fórmula 1 por três temporadas: 1997, 1998 e 1999.\n[…]\nNo mundial de equipes, a Stewart ficou em 8º lugar no campeonato de pilotos com 5 pontos. Rubens Barrichello terminou em 12º com 4 pontos e Jan Magnussen ficou em 16° com 1 ponto.\n[…]\nO ano de 1999 foi o último da Stewart na Fórmula 1, apesar dos anos anteriores as coisas mudaram em 1999, pois a equipe evoluiu muito em relação aos outros anos, e no final de 1999 a equipe foi vendida para Montadora Ford, que já mostrava interesse em ter uma equipe na Fórmula 1.\n[…]\nA Stewart continuou sua parceria com o piloto Rubens Barrichello, marcando 21 pontos e conquistando três vezes o 5° lugar: Austrália, Hungria e Malásia, um 4° lugar na Itália, chegou também três vezes em 3° lugar: San Marino, França e Europa. Rubens abandonou três provas, o que é pouco em vista das temporadas anteriores na equipe, e ele foi responsável pela única pole position da escuderia no GP da França.\n[…]\nEm 2000, a equipe, como já citado, pertencia a Ford, que a renomeou para Jaguar Racing. Jackie Stewart, o dono da equipe, continuou como chefe de equipe e Herbert como píloto e fez essa temporada a sua última na carreira, mas Barrichello foi para a Ferrari na vaga de Eddie Irvine. O norte-irlandês veio da Ferrari (temporada de 1999 que terminou como vice-campeão com 74 pontos), ficou com a vaga do piloto brasileiro. A Jaguar Racing foi vendida em 2004 para a Red Bull.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Brawn GP",
+      "descricao": "Equipe de Fórmula 1 que existiu só em 2009 e foi campeã com Jenson Button."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A Brawn GP foi campeã em 2009 com Jenson Button. No ano seguinte, foi comprada e passou a correr com o nome de qual montadora?",
+    "resposta": "Mercedes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brawn_GP"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brawn_GP",
+        "situacao": "ok",
+        "texto": "Brawn GP was a Formula One constructor which competed in the 2009 Formula One World Championship, with drivers Jenson Button and Rubens Barrichello. The team was formed in 2009 by a management buyout led by Ross Brawn of the Honda Racing F1 Team, after Honda announced their withdrawal from the sport in December 2008 due to the 2008 financial crisis, while other teams like Toyota and BMW Sauber rac\n[…]\nThis evolved into a buyout of the team in November 2009 by Mercedes.\n[…]\nThe team started off strongly on the Friday practice of the Australian Grand Prix, finishing in the top five. In qualifying at Australia, Jenson Button took pole, with teammate Rubens Barrichello coming second, followed by Red Bull's Sebastian Vettel. This was followed by a race win for Button, who led from start to finish, with Barrichello second, giving Brawn a 1–2 finish on their debut, which had not happened since Mercedes in the 1954 French Grand Prix.\n[…]\nAccording to team CEO Nick Fry, the team would not have gone on to win the championship with the Honda engines, as according to him the Mercedes engine accounted for 50 percent of the team's upturn in performance. Jenson Button performed its shakedown; the car featuring white, fluorescent chartreuse yellow, and black colours. The team gave the BGP 001 its first test at Circuit de Catalunya on 9 March 2009, topping the timesheets many times.\n[…]\nRoss Brawn retained ownership of chassis BGP 001–02, which was subsequently restored to operational condition and to the championship winning livery (following a period of the car being displayed in silver Mercedes livery) and ran up the hill at the 2016 Goodwood Festival of Speed. Button took ownership of chassis BGP 001–01 as a condition of his contract with Brawn GP in the eventuality that he won the championship, after a protracted legal battle with Mercedes, the subsequent team owners.\n[…]\nBrawn GP profile at Formula1.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brawn_GP",
+        "situacao": "ok",
+        "texto": "Brawn GP Formula One Team foi um construtor e equipe de Fórmula 1, criada no dia 6 de março de 2009, por meio de uma aquisição da Honda Racing F1 Team liderada por Ross Brawn (antigo chefe de equipe da Honda na Fórmula), depois que a Honda anunciou sua retirada da categoria no final de 2008.\n[…]\nA Brawn GP foi a equipe de crescimento mais meteórico na história da Fórmula 1, sendo que na sua primeira e única temporada, alcançou o título de pilotos e o mundial de construtores. Teve como seus pilotos: Jenson Button (Campeão Mundial de Fórmula 1 de 2009) e Rubens Barrichello. Todo o seu sucesso foi creditado a Ross Brawn, conseguindo levar uma equipe falida como a Honda F1, a equipe com o melhor aproveitamento em corridas da história da categoria, superior a 75% dos pontos disputados.\n[…]\nEm 16 de novembro de 2009, foi confirmado que o fornecedor de motores da equipe, a Mercedes-Benz, em parceria com a Aabar Investments havia comprado uma participação de 75,1% na Brawn GP, que foi renomeada para Mercedes GP para a temporada de 2010.\n[…]\nA primeira corrida da equipe foi em Melbourne, no Grande Prêmio da Austrália, realizado no dia 29 de março de 2009. A estreia foi de muito sucesso: foi apenas a terceira vez na história que a Fórmula 1 viu uma equipe estreante levar seus dois pilotos aos dois lugares mais altos do pódio (o que não acontecia desde a Mercedes no Grande Prêmio da França de 1954), além de terem feito dobradinha no grid de largada.\n[…]\nEm 16 de novembro de 2009, foi confirmado que a fornecedora de motores da equipe, a montadora alemã Mercedes-Benz, em parceria com a Aabar Investments havia comprado uma participação de 75,1% na Brawn GP (Mercedes: 45,1%; Aabar: 30%), que foi renomeada Mercedes GP para a temporada de 2010.\n[…]\n* = Campeão",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Felipe Massa",
+      "descricao": "Piloto brasileiro de Fórmula 1, vice-campeão mundial em 2008 pela Ferrari."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 2009, na Hungria, Felipe Massa foi atingido no capacete por uma mola que se soltou do carro de qual compatriota?",
+    "resposta": "Rubens Barrichello",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Felipe_Massa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Felipe_Massa",
+        "situacao": "ok",
+        "texto": "Felipe Massa (Brazilian Portuguese: [feˈlipi ˈmasɐ, fiˈ-]; born 25 April 1981) is a Brazilian racing driver, who competes in the Stock Car Pro Series for TMG and in the IMSA SportsCar Championship for Riley. Massa competed in Formula One from 2002 to 2017, and was runner-up in the World Drivers' Championship in 2008 with Ferrari; he won 11 Grands Prix across 15 seasons.\n[…]\nAt the 2009 Hungarian Grand Prix, Massa was seriously injured during qualifying when a suspension spring from the Brawn BGP 001 of Rubens Barrichello struck his helmet at 162 mph (261 km/h), and was replaced by Luca Badoer and Giancarlo Fisichella for the remainder of the 2009 season. Massa returned to Ferrari in 2010 to partner Fernando Alonso, briefly leading the championship after the Malaysian Grand Prix.\n[…]\nOn 25 July 2009, in the second round of qualifying for the Hungarian Grand Prix, Massa's head, though protected by his driver's helmet, was struck by a suspension spring that had fallen from Rubens Barrichello's Brawn, on a high-speed part of the track. He subsequently crashed head-on into a tyre barrier. Massa was airlifted to the ÁEK hospital in Budapest, where he underwent surgery in the area surrounding his left eye.\n[…]\nMassa held a charity kart race, Desafio Internacional das Estrelas (International Challenge of the Stars) every year between 2005 and 2014. Notably, many active top level Brazilian drivers have competed in the event, such as Formula One drivers Rubens Barrichello and Nelson Piquet Jr., drivers who competed in American open wheel events such as Tony Kanaan, Mario Moraes, Felipe Giaffone, Vítor Meira, Roberto Moreno, and Gil de Ferran, and Stock Car Brasil champion Cacá Bueno.\n[…]\nThe official website for Felipe Massa\n[…]\nFelipe Massa profile and statistics\n[…]\nFelipe Massa statistics Archived 30 September 2007 at the Wayback Machine\n[…]\nFelipe Massa at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Felipe_Massa",
+        "situacao": "ok",
+        "texto": "Felipe Massa (São Paulo, 25 de abril de 1981) é um automobilista brasileiro que atualmente compete na Stock Car Pro Series pela equipe TMG Racing. Sua estreia na categoria foi em 2021, pela equipe Lubrax Podium, onde ficou até 2023. Ele correu na Fórmula 1 em 2002 e entre os anos de 2004 e 2017, tendo passagens pela Sauber, Ferrari e Williams.\n[…]\nEm 1997, Felipe Massa participou da primeira edição das 500 Milhas de Kart, sendo campeão em parceria com Guilherme Rocha, Juliano Bertuccelli, João Paulo Bertuccelli, Tuka Rocha e Júlio Campos. Ele voltou a triunfar em 2002, quando correu com Rubens Barrichello e Tony Kanaan, e em 2009, quando competiu ao lado de Lucas di Grassi e Júlio Campos.\n[…]\nNo mesmo ano, Rubens Barrichello anuncia sua saída da equipe italiana, posto que foi ocupado por Felipe Massa em 2006, sendo companheiro de equipe de Michael Schumacher. Massa foi anunciado para a equipe em agosto de 2005.\n[…]\nDurante o treino classificatório para o Grande Prêmio da Hungria, em 2009, Felipe Massa foi atingido na cabeça por uma mola que se soltou do carro de Rubens Barrichello. O piloto brasileiro ficou inconsciente e colidiu contra a proteção de pneus. Dois fatos comprovam que Massa ficou inconsciente: ele não soltou o volante do carro no momento da colisão (prática comum para se evitar fraturas) e a transmissão relatava que ele estava freando e acelerando ao mesmo tempo.\n[…]\nEm novembro de 2007, Massa casou-se com a empresária Anna Raffaela Bassi. Em 30 de novembro de 2009 nasceu o primeiro filho do casal, Felipe Bassi Massa, apelidado de Felipinho, mas estreou no automobilismo com vitória, em 28 de março de 2026, com o apelido de Pipo Massa.\n[…]\nFelipe Massa no Facebook\n[…]\nFelipe Massa no Instagram\n[…]\nFelipe Massa no X\n[…]\n«Felipe Massa» (em inglês). em Driverdatabase\n[…]\n«Perfil, carreira, fotos e estatísticas de Felipe Massa»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Lotus",
+      "descricao": "Equipe britânica de Fórmula 1 fundada por Colin Chapman, que competiu de 1958 a 1994."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que equipe inglesa deu a Emerson Fittipaldi seu primeiro título mundial e a Ayrton Senna sua primeira vitória na Fórmula 1?",
+    "resposta": "Lotus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Team_Lotus",
+      "https://en.wikipedia.org/wiki/1985_Portuguese_Grand_Prix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Team_Lotus",
+        "situacao": "ok",
+        "texto": "Team Lotus was the motorsport sister company of English sports car manufacturer Lotus Cars. The team ran cars in many motorsport categories including Formula One, Formula Two, Formula Ford, Formula Junior, IndyCar, and sports car racing. Under the direction of founder and chief designer Colin Chapman, Lotus was responsible for many innovative and experimental developments in critical motorsport, i\n[…]\nThe first Formula One victory for a Lotus came in 1954, in the non-Championship Cornwall MRC Formula 1 Race won by John Coombs in a Lotus Mark VIII, although the Mark VIII was not a Formula One car. The first Formula One victory for a Lotus Formula One car was Innes Ireland's win in the non-Championship Glover Trophy in 1960, in a Lotus 18. Stirling Moss recorded the first World Championship victory for a Lotus car at Monaco in his Lotus 18 entered by the privateer Rob Walker Racing Team.\n[…]\nLotus took the championship by surprise in 1972 with 25-year-old Brazilian driver Emerson Fittipaldi, who became at the time the youngest world champion, a distinction he held until 2005, when 24-year-old Fernando Alonso took the accolade. Team Lotus also won the F1 World Championship for Manufacturers for a sixth time in 1973. The 72 raced in Formula 1 for five years, proving to be more successful than its supposed replacement, the Lotus 76.\n[…]\nWhen Nigel Mansell departed at the end of the year the team hired Ayrton Senna. The Lotus 97T scored victories with de Angelis at Imola and Senna in Portugal and Belgium. The team, although it had now won three races instead of none, lost 3rd in the Constructors' Championship to Williams (who beat them on countback with 4 wins). Senna scored eight pole positions, with two wins (Spain and Detroit) in 1986 driving the evolutionary Lotus 98T.\n[…]\nGrant-Braham, Bruce (1993). Lotus: A Formula 1 Team History. Crowood Press. ISBN 978-1-85223-803-2.\n[…]\nTeam Lotus at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1985_Portuguese_Grand_Prix",
+        "situacao": "ok",
+        "texto": "The 1985 Portuguese Grand Prix was a Formula One motor race held in Estoril on 21 April 1985. It was the second round of the 1985 FIA Formula One World Championship and was won by Ayrton Senna from pole position, taking both his first pole position and win in the process. Senna demonstrated his proficiency in wet racing by finishing the race at least one lap ahead of every car except second-place \n[…]\nBy lap 10, Ayrton Senna had pulled away from 2nd position by almost 13 seconds. Elio de Angelis, Alain Prost, and Michele Alboreto (in order) were closely contending second position, and Derek Warwick was 15 seconds behind them in 5th. Gerhard Berger and Pierluigi Martini both spun off and retired on lap 12. The top four held steady to lap 15, with Niki Lauda and Patrick Tambay in 5th and 6th, 25 seconds behind 4th place Alboreto.\n[…]\nNear lap 30, Mauro Baldi spun out and ended on track with damage to his car and leaving a lot of mud on the racing surface, and Alain Prost retired with damage after spinning and striking the rear of his car on the track barrier. Still in the lead, Ayrton Senna signaled to race officials along pit lane asking them to stop the race. The race was not stopped or interrupted, but did continue at an unusually slow pace because of the poor weather conditions.\n[…]\nThe 1985 Portuguese Grand Prix was originally scheduled for 70 laps. At the beginning of lap 67, race leader Ayrton Senna was given a \"one lap to go\" indication from the race director, as the race had exceeded the prescribed two-hour time limit. Senna crossed the line, having led every lap of the race, and with only one other car on the lead lap, that of second-place Michele Alboreto. Patrick Tambay and Elio de Angelis, both one lap down, took third and fourth.\n[…]\nSenna's win was his first of two in the 1985 Formula One season, and the first of what would be 41 Formula One Grand Prix victories."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Team_Lotus",
+        "situacao": "ok",
+        "texto": "Lotus Grand Prix ou Team Lotus foi uma equipe de Fórmula 1 criada por Colin Chapman, que teria revolucionado a categoria por pelo menos duas vezes: uma delas foi com o desenvolvimento do carro-asa, que conquistou o Campeonato Mundial de 1978 com Mario Andretti.\n[…]\nFoi uma equipe da fábrica inglesa de carros Lotus Cars. A equipe, além da Fórmula 1, também participou de muitas competições automotivas incluindo Fórmula 2, Fórmula Ford, Fórmula Júnior, ligas norte-americanas e corridas de carros esportivos. Durante as décadas de 1960 e 1970, a Lotus foi, junto com a Ferrari, a equipe mais tradicional e vitoriosa da categoria.\n[…]\nA primeira vitória da equipe na Fórmula 1 foi no Grande Prêmio dos Estados Unidos de 1961, com o piloto Innes Ireland. Um ano antes, Stirling Moss ganhou pela primeira vez com um carro da Lotus no Grande Prêmio de Mônaco, pilotando uma Lotus 18 inscrito pela equipe independente Rob Walker Racing Team.\n[…]\nHill conquistou o Campeonato Mundial de Fórmula 1 a bordo do Lotus 49.\n[…]\nDurante 3 temporadas, teve o brasileiro Ayrton Senna, egresso da Toleman, como seu principal piloto, e seria com ele que a Lotus conquistaria os últimos resultados de destaque na Fórmula 1, entre 1985 e 1987.\n[…]\nA partir daí, a Lotus viveu sua pior fase desde a estreia, e para reverter a situação contrata o veterano inglês Derek Warwick, que quase assinara com a equipe em 1986, porém teve sua contratação barrada por Ayrton Senna, sob a alegação de que 2 pilotos de talento comprovado não teriam condições iguais de brigar por vitórias.\n[…]\nNa Fórmula 1 contabiliza 7 títulos mundiais entre 1958, seu ano de estreia, e 1994, quando deixou a categoria pela primeira vez.\n[…]\nEmerson Fittipaldi: 9\n[…]\nAyrton Senna: 6\n[…]\nGunnar Nilsson: 1\n[…]\nJo Siffert: 1\n[…]\nInnes Ireland: 1",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Copa do Mundo FIFA de 1994",
+      "descricao": "Copa do Mundo de futebol disputada nos Estados Unidos e vencida pelo Brasil, seu quarto título."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Ao ganhar o tetra nos Estados Unidos, a seleção brasileira estendeu uma faixa dedicando o título a qual esportista, morto naquele ano?",
+    "resposta": "Ayrton Senna",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ayrton_Senna",
+      "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ayrton_Senna",
+        "situacao": "ok",
+        "texto": "Ayrton Senna da Silva (São Paulo, 21 de março de 1960 – Bolonha (Circuito de Ímola), 1 de maio de 1994) foi um piloto de Fórmula 1, empresário e filantropo brasileiro. Senna foi campeão da categoria de piloto três vezes, em 1988, 1990 e 1991. Começou sua carreira competindo no kart em 1973 e em \"carros de fórmula\" em 1981, quando venceu as Fórmulas Ford 1600 e 2000. Em 1983 alcançou o título de ca\n[…]\nPouco antes de sua morte, ele criou a estrutura de uma organização dedicada às crianças pobres brasileiras, que mais tarde se tornou o Instituto Ayrton Senna. Após sua morte, foi descoberto que ele havia doado em segredo uma porção muito grande de sua fortuna pessoal (estimada em cerca de US$ 400 milhões) para ajudar crianças pobres.\n[…]\nDurante a Copa do Mundo de 1994, a Seleção Brasileira prestou homenagens a Ayrton Senna, falecido pouco mais de 2 meses antes do torneio. Após a conquista do Tetracampeonato, os jogadores exibiram uma faixa \"Senna, aceleramos juntos... o tetra é nosso\".\n[…]\nNo mesmo ano, Ayrton Senna foi o primeiro piloto de Fórmula 1 a ser homenageado pela gigante das buscas, a empresa Google. O 54º aniversário do tricampeão mundial recebeu celebração também através do Google Doodle. Ainda em 2014, o programa Esporte Espetacular, da Rede Globo, exibiu a série \"Ayrton Senna do Brasil\", que relembrou os detalhes da vida do tricampeão mundial de F1 morto em 1994.\n[…]\nPesquisas apontam o piloto como o maior ídolo do esporte no Brasil, ganhando inclusive a alcunha de herói nacional por parte da mídia especializada. Também em sua homenagem há a Praça Ayrton Senna, no Centro Esportivo Modelódromo, próximo ao Parque do Ibirapuera, no bairro do Paraíso, em um espaço de aproximadamente 15 mil m², inaugurada em 1º de maio de 2017. No local, o Monumento a Ayrton Senna está em um ponto elevado e cercado pelas bandeiras do Brasil, do estado e da cidade de São Paulo."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ayrton_Senna",
+        "situacao": "ok",
+        "texto": "Ayrton Senna da Silva (Brazilian Portuguese: [aˈiʁtõ ˈsẽnɐ dɐ ˈsiwvɐ] ; 21 March 1960 – 1 May 1994) was a Brazilian racing driver and philanthropist who competed in Formula One from 1984 to 1994. Senna won three Formula One World Drivers' Championship titles with McLaren, and—at the time of his death—held the record for most pole positions (65), among others; he won 41 Grands Prix across 11 season\n[…]\nIn a 1994 interview following Senna's death, Frank Williams said that \"If you want a summary of Ayrton Senna ... he was actually a greater man out of the car than in it.\"\n[…]\nThe tragic events that unfolded at Imola in 1994 with the deaths of Roland Ratzenberger and Ayrton Senna can be understood as a turning point for Formula One driver safety, the changes in attitude and in the procedures and standards that resulted from this were profound, and its effects continues to endure to the present day.\n[…]\n2004 marked the 10th anniversary of Senna's death. On 21 April 2004, Imola hosted a charity football match attended by over 10,000 people. The match featured members of Brazil's 1994 World Cup-winning team competing against an exhibition team of Formula One drivers. Viviane Senna presided at the kickoff. The match finished 5–5 and all profits were donated to the IAS. In addition, the book Ayrton: O Herói Revelado (Ayrton: The Hero Revealed) was published.\n[…]\nSenna launched the cartoon character Senninha (\"Little Senna\") in 1993/94 to appeal to Brazilian children. A Senninha comic book ran from 1994 to 2000, with a brief relaunch in 2008. To this day the brand and character Senninha continues to be featured in many different products sold internationally and in the Brazilian market, part of the profits are reverted to the Instituto Ayrton Senna for the developing of educational projects.\n[…]\nHilton, Christopher (1994). Ayrton Senna: The Second Coming. PSL. ISBN 9781852604837.\n[…]\nInstituto Ayrton Senna"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Suzuka",
+      "descricao": "Circuito japonês com traçado em forma de oito."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que montadora japonesa construiu o circuito de Suzuka, no começo dos anos sessenta, para servir como sua pista de testes?",
+    "resposta": "Honda",
+    "distratores": [
+      "Toyota",
+      "Nissan",
+      "Mazda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course",
+        "situacao": "ok",
+        "texto": "The Suzuka International Racing Course (Japanese: 鈴鹿国際レーシングコース, Hepburn: Suzuka Kokusai Rēsingu Kōsu), a.k.a. the Suzuka Circuit (鈴鹿サーキット, Suzuka Sākitto), is a 5.807 km (3.608 mi) long motorsport race track located in Ino, Suzuka City, Mie Prefecture, Japan, and operated by Honda Mobilityland, a subsidiary of Honda Motor Co, Ltd. It has a capacity of 155,000. It is most well known for its use in \n[…]\nSoichiro Honda decided to develop a new permanent circuit in Mie prefecture in the late 1950s. Designed as a Honda test track in 1962 by Dutchman John \"Hans\" Hugenholtz, the track has a figure-of-eight layout, with the 1.2 km (0.75 mi) long back straight passing over the front section by means of an overpass. It is the only FIA Grade 1 licensed track to have such a layout, after the Fiorano Circuit was downgraded to Grade 2 in 2024.\n[…]\nIt was announced on June 21, 2010, that the east section of the Suzuka Circuit would host the Japanese round of the 2011 WTCC season instead of the Okayama International Circuit. At the 2012 event, the pole position time was 0:52.885 seconds, for an average speed of 94.875 mph (152.687 km/h).\n[…]\nNASCAR Thunder Special Suzuka (1996–1997)\n[…]\nThe Suzuka Circuit is also featured in the Final Lap series of games which first appeared in 1987. Another Namco racing game, Suzuka 8 Hours, based on the motorcycle race of the same name was released for arcades in 1992, followed by a port for the Super NES in 1993.\n[…]\nSuzuka's Ferris wheel was paid homage in the \"Big Forest Track\" in Virtua Racing. The track has been modded into Mario Kart Wii.\n[…]\nMobility Resort Motegi, another Honda-owned race track and oval, host to the FIM MotoGP Japanese Grand Prix\n[…]\nSuzuka track map and circuit history at RacingCircuits.info\n[…]\nSuzuka at the Formula 1 site\n[…]\nSuzuka Circuit History and Statistics\n[…]\nSuzuka Circuit on Google Maps (Current Formula 1 Tracks)\n[…]\nBBC Sport Suzuka Circuit Guide"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Circuito_de_Suzuka",
+        "situacao": "ok",
+        "texto": "Circuito de Suzuka ou Suzuka International Racing Course é um circuito localizado na cidade de Suzuka, no Japão. Sediou o Grande Prêmio do Japão de Fórmula 1 de 1987 até 2006, quando em 2007 e 2008 foi a vez de Fuji, próximo a cidade de Shizuoka. Suzuka retornou a partir de 2009. É um circuito formulado em oito, onde o piloto passa por um túnel (embaixo de uma ponte) e por uma ponte.\n[…]\nProjetado como uma pista de teste da Honda em 1962 pelo holandês John Hans Hugenholtz, Suzuka é um dos poucos circuitos competitivos do mundo a ter o traçado em forma de número 8, com as costas da reta passando sobre a parte da frente por meio de um viaduto.\n[…]\nO circuito pode ser usado em três configurações;  Suzuka Completo, Suzuka Leste e Suzuka Oeste.\n[…]\nA curva 130R, localizada após a descida do viaduto que corta a parte baixa da pista (marcada com o número 15 no mapa acima), é a mais famosa curva do circuito - e uma das mais da Fórmula 1. Ela recebeu este nome - 130R - por causa de seu raio de 130 metros, e pode ser contornada de pé embaixo a mais de 300 km/h na Fórmula 1.\n[…]\nApesar de ser um circuito considerado seletivo e elogiado pela maioria dos pilotos como um dos mais desafiantes da categoria, Suzuka sofre muitas críticas devido as suas limitadas áreas de escape em curvas onde os pilotos beiram os 300km/h.\n[…]\nJuntamente com Fuji Speedway, o circuito de Suzuka é amplamente usado em jogos de arcade e em jogos eletrônicos, o primeiro jogo a contar com o circuito foi o Pole Position II de 1983, também foi o circuito principal do jogo Suzuka 8 Hours de 1993,  outros jogos incluem F355 Challenge, Forza Motorsport 2, Forza Motorsport 3, Forza Motorsport 4, Forza Motorsport 7, Gran Turismo 4, Gran Turismo 5, Gran Turismo 6, Gran Turismo Sport, Tourist Trophy, iRacing, R: Racing Evolution, Auto Modellista, Shift 2 Unleashed, Le Mans 24 Hours, MotoGP 3, MotoGP 4, Racing Battle e outros.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Rush",
+      "descricao": "Filme de 2013 sobre a rivalidade entre Niki Lauda e James Hunt na temporada de 1976 da Fórmula 1."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem dirigiu o filme Rush, de 2013, sobre a rivalidade entre Niki Lauda e James Hunt na Fórmula 1?",
+    "resposta": "Ron Howard",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rush_(2013_film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rush_(2013_film)",
+        "situacao": "ok",
+        "texto": "Rush is a 2013 biographical sports film directed by Ron Howard and written by Peter Morgan. It is centred on the rivalry between two Formula One drivers, James Hunt and Niki Lauda, during the 1976 Formula One season. The film stars Chris Hemsworth as Hunt and Daniel Brühl as Lauda.\n[…]\nThe film premiered in London on 2 September 2013 and was shown at the 2013 Toronto International Film Festival before its United Kingdom release on 13 September 2013. The film received positive reviews from critics for Hemsworth and Brühl's performances, Howard's direction, the racing sequences, and Hans Zimmer's musical score.\n[…]\nJames Hunt and Niki Lauda, two Formula One drivers with contrasting personalities and racing approaches, develop a rivalry after competing in a Formula Three event in London in 1970, where both cars spin before Hunt wins the race. Lauda later obtains a bank loan from Austria's Raiffeisen Bank to finance his entry into the BRM Formula One  team, where he becomes teammates with  Clay Regazzoni .\n[…]\nDirector Ron Howard originally intended for Russell Crowe to make a cameo appearance as Richard Burton for a brief scene where he confronts James Hunt on his affair with Suzy.\n[…]\nBBC Two aired the documentary Hunt vs. Lauda: F1's Greatest Racing Rivals, on 14 July 2013. The documentary provides an extensive look at the rivalry between Hunt and Lauda, featuring interviews with Lauda and former crew members of the McLaren and Ferrari teams.\n[…]\nRush was released on DVD and Blu-ray on 28 January 2014. A Sainsbury's exclusive edition with a bonus disc of new special features was released for a limited time. The Australian Blu-ray release is bundled with the 2013 documentary 1. Shout! Factory released The film on 4K Ultra HD Blu-ray on November 19, 2024.\n[…]\nHunt–Lauda rivalry"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rush_%282013%29",
+        "situacao": "ok",
+        "texto": "Rush (bra: Rush: No Limite da Emoção; prt: Rush - Duelo de Rivais) é um filme teuto-britano-estadunidense de 2013, do gênero drama biográfico de ação, dirigido por Ron Howard, com roteiro de Peter Morgan baseado na história real da rivalidade entre os pilotos James Hunt e Niki Lauda na Temporada de Fórmula 1 de 1976.\n[…]\nEstrelado por Chris Hemsworth (Hunt) e Daniel Brühl (Lauda), o filme estreou em Londres em 2 de setembro de 2013 e foi exibido no Festival Internacional de Cinema de Toronto daquele ano. O lançamento mundial ocorreu em 13 de setembro.\n[…]\nFilme baseado em fatos reais, é centrado na rivalidade entre os pilotos da Fórmula 1 Niki Lauda e James Hunt, na Temporada de 1976.\n[…]\nChris Hemsworth como James Hunt\n[…]\nDaniel Brühl como Niki Lauda\n[…]\nJames Norton como Guy Edwards\n[…]\nHunt e Lauda aparecem como se no final do filme em imagens de arquivo.\n[…]\nO circuito de Nürburgring foi uma das locações do filme, na qual aconteceu o acidente de Niki Lauda que ficou preso nas ferragens por vários minutos quase lhe tirou a vida.\n[…]\nDiretor Ron Howard havia originalmente planejado para Russell Crowe para fazer uma aparição como Richard Burton , em uma breve cena (nunca gravada) em que Burton enfrenta James Hunt em seu caso com Suzy.\n[…]\nA BBC Two levou ao ar o documentário Hunt vs. Lauda: F1's Greatest Racing Rivals, em 14 de julho de 2013. O documentário oferece uma extensa olhada na rivalidade entre Hunt e Lauda, ​​com entrevistas com Lauda e ex-membros da tripulação das equipes McLaren e Ferrari.\n[…]\nNiki Lauda foi surpreendentemente satisfeito com a aparência geral do filme. Ele foi citado como dizendo: \"Quando eu vi pela primeira vez fiquei impressionado. Não houve mudanças de Hollywood ou as coisas mudaram um pouco como Hollywood. Ele é muito preciso. E isso realmente me surpreendeu muito positivamente\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Tema da Vitória",
+      "descricao": "Música instrumental composta em 1981 para as transmissões de Fórmula 1 da TV Globo, tocada nas vitórias de pilotos brasileiros."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem compôs o Tema da Vitória, a música da TV Globo que embalava as vitórias brasileiras na Fórmula 1?",
+    "resposta": "Eduardo Souto Neto",
+    "distratores": [
+      "Tom Jobim",
+      "Marcos Valle",
+      "Ivan Lins"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tema_da_Vit%C3%B3ria"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tema_da_Vit%C3%B3ria",
+        "situacao": "ok",
+        "texto": "O Tema da Vitória é uma canção instrumental brasileira composta por Eduardo Souto Neto - com arranjo do grupo Roupa Nova -, para uso da TV Globo durante as transmissões de corridas de Fórmula 1. Nos primeiros anos, a música foi executada apenas durante a bandeirada final do Grande Prêmio do Brasil, e para pilotos de qualquer nacionalidade, sendo executada pelo primeira vez na vitória de Nelson Piq\n[…]\nA ideia de combinar o encerramento do Grande Prêmio do Brasil com um tema musical próprio partiu do diretor Aloysio Legey, que, no começo da década de 1980, era o responsável pela transmissão da Fórmula 1 na TV Globo. A música foi composta pelo maestro Eduardo Souto Neto e gravada pelo grupo Roupa Nova em 1981, porém, só viria a ser executada a partir de 1983, quando da vitória de Nelson Piquet em Jacarepaguá. A música voltaria a ser reproduzida no ano seguinte, quando Alain Prost venceu a prova.\n[…]\nEm 1985, no entanto, a Globo abandonou a ideia de tocar a canção durante o encerramento do GP do Brasil. Somente em 1986 que a música voltou a ser executada: em mais uma vitória de Piquet no Autódromo de Jacarepaguá. Ayrton Senna ouviu o Tema da Vitória pela primeira vez após receber a bandeira quadriculada no Grande Prêmio de Detroit de 1986 - ocasião na qual inaugurou, também, a tradição de empunhar a bandeira brasileira ao final de cada vitória.\n[…]\nNo GP da Europa de 2009, em comemoração à centésima vitória brasileira na Fórmula 1, o Tema da Vitória foi reproduzido com um arranjo diferente do habitual.\n[…]\nEm 2010, para comemorar a estreia de Bruno Senna — sobrinho de Ayrton Senna — na F1, os patrocinadores do jovem piloto encomendaram ao maestro Eduardo Souto Neto, um tema musical. A música foi composta em dois dias e tem certa semelhança com o tema da vitória.\n[…]\nLista de vitórias do Brasil na Fórmula 1\n[…]\nLista de vitórias de Ayrton Senna em corridas da Fórmula 1"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Champanhe no pódio",
+      "descricao": "Tradição de os vencedores de corridas espirrarem champanhe na comemoração do pódio."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1967, depois de vencer as 24 Horas de Le Mans, que piloto americano é apontado como criador do costume de espirrar champanhe no pódio?",
+    "resposta": "Dan Gurney",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dan_Gurney"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dan_Gurney",
+        "situacao": "ok",
+        "texto": "Daniel Sexton Gurney (April 13, 1931 – January 14, 2018) was an American racing driver, engineer and motorsport executive, who competed in Formula One from 1959 to 1970. Widely regarded as one of the most influential figures in the history of motorsport, Gurney won four Formula One Grands Prix across 11 seasons. In endurance racing, Gurney won the 24 Hours of Le Mans in 1967 with Ford, as well as \n[…]\nOutside of Formula One, Gurney entered ten editions of the 24 Hours of Le Mans from 1958 to 1967, winning the latter alongside A.J. Foyt in the Ford GT40 Mk IV. His celebration upon winning Le Mans—spraying champagne on the podium—has since become a custom throughout global motorsport.\n[…]\nThe win in Belgium came just a week after his surprise victory with A. J. Foyt at the 1967 24 Hours of Le Mans, where Gurney spontaneously began the now-familiar winner's tradition of spraying champagne from the podium to celebrate the unexpected win against the Ferraris and the other Ford GT40 teams.\n[…]\nBetween success with the new Mk II and the older GT40s, Ford secured the World Championship of Makes for sports cars, sealed by a resounding 1-2-3 finish at the 24 Hours of Le Mans, recalled in the 2019 film Ford v Ferrari, in which Gurney was portrayed by his son.\n[…]\nGurney stayed with Shelby-American for their 1967 World Sportscar Championship campaign. Things were not going smoothly in development of Ford's next Prototype entry. After problems highlighted by the fatal accident of Ken Miles in testing the Mark III \"J Car,\" another iteration was designed but it would not be built in time for the season opener at the 24 Hours of Daytona, where the team had a dismal showing with the Mk II.\n[…]\nEagle-eye. Dan Gurney's All American Racers.\n[…]\nThe Gurney Flap Archived July 7, 2011, at the Wayback Machine.All American Racers – Gurney Flap.\n[…]\nDan Gurney's All-American Racers\n[…]\nDan Gurney at 24 Hours of Le Mans (in French)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dan_Gurney",
+        "situacao": "ok",
+        "texto": "Daniel Sexton Gurney, mais conhecido por Dan Gurney (Port Jefferson, 13 de abril de 1931 - Newport Beach,14 de janeiro de 2018) foi um automobilista estadunidense e construtor e diretor de equipes.\n[…]\nGurney também ganhou corridas na  Indy Car, NASCAR, Can-Am e Trans-Am Series. Gurney foi o primeiro dos três pilotos que venceram corridas em carros esportivos (1958), Fórmula 1 (1962), NASCAR (1963) e IndyCar (1967) - os outros dois sendo Mario Andretti e Juan Pablo Montoya.\n[…]\nAlém disso, Gurney venceu as 24 Horas de Le Mans de 1967 com A.J. Foyt, ele espontaneamente pulverizou champanhe ao comemorar no pódio, além desta tradição, ele também foi o primeiro a colocar uma simples extensão de ângulo reto(ângulo de 90 graus) sobre a borda direita superior da asa traseira. Este dispositivo, chamado de Gurney flap (a nomenclatura em inglês), aumenta a pressão aerodinâmica e, se bem projetado, impõe apenas um aumento relativamente pequeno na aerodinâmica.\n[…]\nAlém disso, Gurney como dono de equipe entrou na história da tradição da Indianapolis Motor Speedway como vencedor das 500 Milhas de Indianápolis de 1975, vencido pelo piloto Bobby Unser, com Gurney como dono de equipe.\n[…]\nEm corrida de  carros de resistência, Gurney co-pilotou e venceu com A. J. Foyt não somente as 1967, como outras edições desta corrida de resistência, assim como 12 Horas de Sebring de 1959 ao lado de Chuck Daigh, bem como corridas de Can-Am e o Trans-Am. Em sua vitória nas 24 horas de Le Mans, Gurney iniciou a tradição que os vencedores tomam banho com champanhe sobre os pódios de automobilismo e outras disciplinas desportivas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Rali Dakar",
+      "descricao": "Rali de longa distância criado em 1978, que nasceu ligando Paris a Dakar, no Senegal."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Rali Dakar tem esse nome porque, nas primeiras edições, terminava na capital de qual país africano?",
+    "resposta": "Senegal",
+    "distratores": [
+      "Marrocos",
+      "Mali",
+      "Mauritânia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dakar_Rally"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dakar_Rally",
+        "situacao": "ok",
+        "texto": "The Dakar Rally (French: Le Rallye Dakar) or simply \"The Dakar\" (Le Dakar), formerly known as the Paris–Dakar Rally (Le Rallye Paris-Dakar), is an annual rally organised by the Amaury Sport Organisation (ASO).\n[…]\nThe event began in 1978 as a rally from Paris, France, to Dakar, Senegal. Between 1992 and 2007 some editions did not start in Paris or did not arrive in Dakar, but the rally kept its name. Security threats in Mauritania led to the cancellation of the 2008 rally, and from 2009 to 2019 the rally was held in South America. Since 2020, the rally has been held in Saudi Arabia. The rally is open to amateurs and professionals, with professionals typically making up about eighty percent of participants.\n[…]\n182 vehicles took the start of the inaugural rally in Paris, with 74 surviving the 10,000-kilometre (6,200 mi) trip to the Senegalese capital of Dakar. Cyril Neveu was the event's first winner, riding a Yamaha motorcycle. The event rapidly grew in popularity, with 216 vehicles taking the start in 1980 and 291 in 1981.\n[…]\nThe 1997 rally ran exclusively in Africa for the first time, with the route running from Dakar to Agadez, Niger and back to Dakar. Citroën's withdrawal due to a rule change paved the way for Mitsubishi to take a fourth victory. Japan's Kenjiro Shinozuka became the first non-European to win the event. Peterhansel equalled Neveu's record of five motorcycle category wins in 1997, before going one better in 1998, when the event returned to its traditional Paris-Dakar route.\n[…]\nAfrica Eco Race – Rally raid launched in 2009 in response to the Dakar's move to South America\n[…]\nRally dos Sertões\n[…]\nPeking to Paris\n[…]\nUmi e, See You – A 1988 fictional Japanese film about the Dakar Rally"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rali_Dakar",
+        "situacao": "ok",
+        "texto": "O Rali Dakar (ou simplesmente O Dakar; anteriormente conhecido como Rali Paris-Dakar) é a mais longa prova de rali do mundo. A maioria dos eventos desde o início em 1978 foi realizada em Paris, França, e seguindo até Dakar, Senegal, mas devido à falta de segurança na Mauritânia, os organizadores cancelaram a disputa em 2008, realizando os eventos seguintes de 2009 a 2019 na América do Sul. A ediçã\n[…]\nDe início, o rali partia sempre de Paris e terminava em Dakar, interrompendo-se a prova por um dia para fazer a travessia do mar do Mediterrâneo. Contudo, devido a razões políticas, de segurança, de patrocínios e outros fatores, a prova, incluindo o local de partida e de término, têm variado ao longo dos anos. Por exemplo, devido aos conflitos armados na Argélia, não tem havido passagens pelo seu território nas últimas edições.\n[…]\nEm 2010 e 2011, o rali voltou a ser na Argentina e no Chile. Em 2012 um novo país é visitado pela caravana do Rali Dakar: Peru, terminando o rali na sua capital Lima. A edição de 2013 foi uma inversão do percurso de 2012 iniciando-se no Peru, passando pelo Chile e terminando na Argentina. Em 2014 a caravana do Dakar passou pela primeira vez na Bolívia, enquanto em 2015 realizou-se apenas na Argentina e Bolívia, sendo o primeiro Dakar na América do Sul que não passou pelo Chile.\n[…]\nO ano de 2017 trouxe um novo país para o Dakar: o Paraguai.\n[…]\nA mudança do Rali Dakar não foi consensual, continuando a existir quem defenda o seu regresso às suas origens: Dakar. Assim, um conjunto de pessoas ligadas ao Todo-terreno Mundial, entre elas o ex-campeão Jean-Louis Schlesser decidiram criar uma nova competição que recria Rali Dakar pré-2008, o África Eco Race.\n[…]\nFoi também nessa década que Thierry Sabine, o criador do Rali Dakar (na altura uma prova que ligava Paris a Dakar), morreu num acidente de helicóptero com cinco pessoas, entre as quais o cantor Daniel Balavoine.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Circuito de praia de Daytona",
+      "descricao": "Antigo circuito em Daytona Beach, na Flórida, que usava a areia da praia e um trecho de estrada."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Antes de ganhar seu famoso autódromo oval, a cidade de Daytona, na Flórida, recebia corridas de carro em que tipo de pista?",
+    "resposta": "Na areia da praia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Daytona_Beach_Road_Course"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Daytona_Beach_Road_Course",
+        "situacao": "ok",
+        "texto": "The Daytona Beach and Road Course was a motorsport race track that was instrumental in the formation of the National Association for Stock Car Auto Racing (NASCAR). It originally became famous as the location where 15 world land speed records were set.\n[…]\nOn March 29, 1927, Major Henry Segrave and his Sunbeam 1000 hp Mystery set a world land speed record on the Daytona Beach and Road Course, at 203.79 mph (327.97 km/h), peaking at a top speed of 211 mph (340 km/h).\n[…]\nFrance knew that promoters needed to organize their efforts. Drivers were frequently victimized by unscrupulous promoters who would leave events with all the money before drivers were paid. On December 14, 1947, France began talks at the Ebony Bar at the Streamline Hotel at Daytona Beach, Florida, that ended with the formation of NASCAR on February 21, 1948. The Daytona Beach and Road Course hosted the premiere event of the fledgling series until Darlington Speedway was completed in 1950.\n[…]\nHe arranged financing and in 1957, construction began on the Daytona International Speedway, a 2.5 mi (4.0 km) tri-oval circuit with steep bankings that permitted higher speeds.\n[…]\nThe Daytona Beach course hosted its last event in 1958 and, in 1959 the first Daytona 500 was held at the new superspeedway. Daytona Speed Week on the beach course continued through 1961 without using the adjoining public road, with time/distance record attempts held for the standing mile and flying mile in multiple classes. The six fastest stock cars recorded on the beach were 1960 Chrysler 300G Specials.\n[…]\nHistory of the Daytona Beach shore\n[…]\nDaytona Beach and Road Course race results at Racing-Reference\n[…]\nSpeed TV article on Daytona’s history\n[…]\nProfile of Ormond Beach’s racing history"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Circuito_de_Rua_de_Daytona_Beach",
+        "situacao": "ok",
+        "texto": "O Circuito de Rua de Daytona Beach foi um circuito localizado em Daytona Beach, na Flórida, nos Estados Unidos, utilizado principalmente para corridas de automobilismo durante o início do século XX, é notável por ter sido o local de fundação da NASCAR e de vários recordes mundiais de velocidade.\n[…]\nO circuito era no formato oval, começava na pavimentada Florida State Road A1A em uma reta e depois voltava pela areia da praia, inicialmente possuía 5,1 km (3,2 milhas) de comprimento, durante a década de 1940 foi estendida para 6,8 km (4,2 mi).\n[…]\nEm 1935 Bill France Sr. mudou-se de Washington, DC para Daytona Beach e durante vários anos organizou corridas no local, em 21 de fevereiro de 1948 no Hotel Steamline a NASCAR foi fundada no local. O circuito sediou corridas até 1958 quando foi substituído pelo Daytona International Speedway.\n[…]\nEm 1949 o circuito recebeu a segunda corrida da categoria vencida por Red Byron.\n[…]\nDaytona International Speedway",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Rivalidade Senna e Prost",
+      "descricao": "Disputa entre Ayrton Senna e Alain Prost na Fórmula 1, no fim dos anos oitenta e começo dos noventa."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em quais dois anos seguidos Senna e Prost decidiram o título mundial com batidas entre os dois em Suzuka?",
+    "resposta": "1989 e 1990",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Prost%E2%80%93Senna_rivalry"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Prost%E2%80%93Senna_rivalry",
+        "situacao": "ok",
+        "texto": "The Prost–Senna rivalry, or Senna–Prost rivalry, was a Formula One rivalry between French racing driver Alain Prost and Brazilian racing driver Ayrton Senna. Widely regarded as one of the fiercest rivalries in Formula One history, Prost and Senna together won seven of nine Formula One World Drivers' Championship titles between 1985 and 1993, including two whilst teammates at McLaren from 1988 to 1\n[…]\nTheir rivalry culminated in title-deciding collisions at Suzuka in 1989 and 1990, despite Prost's move to Ferrari in the latter, with Prost winning the former championship and Senna taking the following. They again finished 1–2 in the championship standings in 1993, with Prost winning the title for Williams.\n[…]\nfair.\" Although he conceded that crashing Prost out of the race was \"a [expletive]\" way to end the season, he stood by his actions for three reasons: (1) he wanted to get even with Prost for the Frenchman's \"unforgiveable\" conduct in 1989; (2) he believed that Balestre had exhibited favouritism towards his countryman Prost for years; and (3) before the 1990 race, Balestre had rejected Senna's request, as the polesitter, to start on the clean side of the track, even though the year before, Prost had used the clean side of the track to overtake Senna into turn one.\n[…]\nIn Mosley's view, Senna's premeditated crash ordinarily would have merited disqualification from the 1990 title race. However, he sympathized with Senna because of the events of 1989, which he considered \"absolutely outrageous.\" After Senna agreed to issue a statement that \"at no time did I deliberately collide with Alain,\" Mosley declined to punish him. Prost declined to comment at the time, although he later responded that Senna had not complained about the dirty side of the track in 1989.\n[…]\nAccording to Prost, he was the one driver invited by the Senna family to visit their home after Senna's death.\n[…]\nSenna (film)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rivalidade_Senna%E2%80%93Prost",
+        "situacao": "ok",
+        "texto": "A rivalidade Prost-Senna era uma rivalidade da Fórmula 1 entre o piloto brasileiro Ayrton Senna e o piloto francês Alain Prost. A rivalidade foi mais intensa durante o período em que foram companheiros de equipe na McLaren no Campeonato Mundial de Fórmula 1 em 1988 e na temporada do Campeonato Mundial de Fórmula 1 em 1989 . A rivalidade continuou não apenas entre os pilotos, mas também entre os fa\n[…]\nNo Grande Prêmio da Itália de 1989, Prost deixou claras suas intenções para a temporada de 1990, sinalizando sua mudança para a Ferrari. Prost venceria o GP da Itália depois que o motor de Senna explodiu enquanto estava na frente. Enquanto estava no pódio, Prost jogou seu troféu de primeiro colocado no fanático por Ferrari, Tifosi, para desgosto e fúria de Ron Dennis e funcionários da McLaren.\n[…]\nA temporada de 1990 da Fórmula 1 sinalizou o início de uma intensa rivalidade de construtores entre a Ferrari e a McLaren. Com Senna ainda no comando de seu McLaren e Prost com motor Honda, recém-sentado em uma Ferrari pela primeira vez. Semelhante à temporada de 1989, o campeonato atingiu seu ápice em Suzuka . Depois de Prost tinha montado um desafio significativo título em sua Ferrari, alegando três vitórias consecutivas mid-temporada no México, França, e no britânico Grand Prix.\n[…]\nMantendo sua linha de pilotos de sucesso da temporada de 1990 de Senna e Gerhard Berger, a McLaren estava no banco para a temporada de 1991. Na temporada de 1991, Senna conquistou seu terceiro e último título mundial de pilotos, com a McLaren-Honda conquistando seu quarto campeonato de construtores. Apesar das temporadas anteriores terem visto Senna e Prost batalharem consistentemente pela supremacia, seria o britânico Nigel Mansell quem estaria mais perto de desafiar Senna pelo título.\n[…]\nAyrton Senna\n[…]\nAlain Prost\n[…]\nCampeonato Mundial de Fórmula 1 de 1989\n[…]\nCampeonato Mundial de Fórmula 1 de 1990\n[…]\nRivalidade desportiva",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Silverstone",
+      "descricao": "Circuito na Inglaterra, sede do Grande Prêmio da Grã-Bretanha de Fórmula 1."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano Silverstone recebeu a primeira corrida da história do Campeonato Mundial de Fórmula 1?",
+    "resposta": "1950",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1950_British_Grand_Prix",
+      "https://en.wikipedia.org/wiki/Silverstone_Circuit"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1950_British_Grand_Prix",
+        "situacao": "ok",
+        "texto": "The 1950 British Grand Prix, formally known as The Royal Automobile Club Grand Prix d'Europe Incorporating The British Grand Prix, was a Formula One motor race held on 13 May 1950 at the Silverstone Circuit in Silverstone, England. It was the first World Championship Formula One race, as well as the fifth British Grand Prix, and the third to be held at Silverstone after motor racing resumed after \n[…]\nIn 1946, the Fédération Internationale de l'Automobile's Commission Sportive Internationale first defined the \"International Formula\", a premier single-seater racing series to start in 1947. While the first Formula One race was the 1947 Pau Grand Prix, the 1950 British Grand Prix was the first Grand Prix of the new World Championship of Drivers.\n[…]\nFour non-championship races were held all across Europe in 1950 prior to the Grand Prix: Juan Manuel Fangio won the races in Pau and San Remo, Reg Parnell won in Douglas, and Georges Grignard won in Paris.\n[…]\nThe 1950 edition of the British Grand Prix was fifth held since 1926 and the third held at Silverstone Circuit since its first time in 1948. It was also the designated European Grand Prix for the year, making it the 11th time the circuit has held the title since the first race in 1923.\n[…]\nQualifying took place on Friday and saw the Alfa Romeos end up on the front row of the grid as Farina claimed the first pole position in the history of Formula One with a time of 1:50.8. Fagioli and Fangio and Parnell would fill the remaining spots on the front row of the grid. Prince Bira was the fastest non-Alfa, 1.8 seconds back with the two Talbot's cars filling in the second row.\n[…]\nNino Farina led for 63 laps (1–9, 16–37 and 39–70). Luigi Fagioli led for 6 laps (10–15). Juan Manuel Fangio led for 1 lap (38).\n[…]\nNino Farina achieved the fastest lap of the race, with a 1:50.6 on Lap 2.\n[…]\n^1 – Includes 1 point for fastest lap"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Silverstone_Circuit",
+        "situacao": "ok",
+        "texto": "The Silverstone Circuit ( ) is a motor racing circuit in England, near the Northamptonshire villages Silverstone and Whittlebury. It is the home of the British Grand Prix, which it first hosted as the 1948 British Grand Prix. The 1950 British Grand Prix at Silverstone was the first race in the newly created World Championship of Drivers. The race rotated between Silverstone, Aintree and Brands Hat\n[…]\nThe Silverstone Circuit held two Formula One World Championship races in one season in 2020 (behind closed doors due to the COVID-19 pandemic) on consecutive weekends with the races on 2 and 9 August; the second race was referred to as the 70th Anniversary Grand Prix to commemorate the 70 years since the inception of the Formula One World Championship in 1950.\n[…]\nAfter 945 days without a victory in Formula 1, Lewis Hamilton won his ninth British Grand Prix breaking the record for most wins at a single circuit or Grand Prix and extending his consecutive Silverstone podium record to 12.\n[…]\nOn 6 July 2025, Google commemorated the 75th anniversary of Formula 1 and its origination at Silverstone in 1950 with a dedicated Google Doodle on their homepage, showcasing the iconic Silverstone track, Wing building and red car with the number 75 emblazoned upon it. Lando Norris won his first British Grand Prix becoming the 13th British driver to win on home soil.\n[…]\nIn 2010 Silverstone hosted its very first Superleague Formula event.\n[…]\nSuperleague Formula\n[…]\nMax Verstappen's lap of 1:27.097 in the 2020 British Grand Prix is the official race lap record for the current Grand Prix configuration, which has only been in existence since 2011. The diagram at right illustrates the changes in configuration which have been made, a detailed description of the changes which have been made, see Development history of Silverstone Circuit.\n[…]\nSilverstone Circuit\n[…]\nSilverstone Circuit on Google Maps (Current Formula 1 Tracks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Pr%C3%AAmio_da_Gr%C3%A3-Bretanha_de_1950",
+        "situacao": "ok",
+        "texto": "Resumo do Grande Prêmio da Grã-Bretanha de Fórmula 1 realizado em Silverstone em 13 de maio de 1950. Primeira etapa do campeonato, teve Giuseppe Farina como destaque ao marcar a pole position e vencer logo em sua corrida de estreia. Em meio ao júbilo o piloto Luigi Fagioli assegurou a primeira dobradinha italiana na história da categoria enquanto o britânico Reg Parnell completou o pódio no qual e\n[…]\nAo todo foram 22 competidores, 21 qualificados para a prova e 11 classificados ao fim da corrida. Os números 7 e 13 não foram atribuídos. A equipe de fábrica da Alfa Romeo chegou ao circuito com quatro modelos 158 para Juan Manuel Fangio, Giuseppe Farina, Luigi Fagioli e o piloto da casa, Reg Parnell.\n[…]\nNota: Marcar a volta mais rápida assegurou a Giuseppe Farina um ponto extra na classificação do mundial.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Silverstone",
+      "descricao": "Circuito na Inglaterra, sede do Grande Prêmio da Grã-Bretanha de Fórmula 1."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar autódromo, no fim dos anos quarenta, o terreno de Silverstone abrigava o quê?",
+    "resposta": "Uma base aérea militar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silverstone_Circuit"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Silverstone_Circuit",
+        "situacao": "ok",
+        "texto": "The Silverstone Circuit ( ) is a motor racing circuit in England, near the Northamptonshire villages Silverstone and Whittlebury. It is the home of the British Grand Prix, which it first hosted as the 1948 British Grand Prix. The 1950 British Grand Prix at Silverstone was the first race in the newly created World Championship of Drivers. The race rotated between Silverstone, Aintree and Brands Hat\n[…]\nThe Silverstone Circuit is on the site of a Royal Air Force bomber station, RAF Silverstone, which was operational between 1943 and 1946. The station was the base for the No. 17 Operational Training Unit. The airfield's three runways, in classic WWII triangle format, lie within the outline of the present track.\n[…]\nMany F1 teams have bases in the UK, but Aston Martin is the closest to the track, with a new base having just been built under a kilometre from the race circuit.\n[…]\nOctagon also assumed the management of the circuit and acquired the assets and liabilities of Silverstone Circuits Limited from BRDC. BRDC kept the ownership of the circuit.\n[…]\nAfter 945 days without a victory in Formula 1, Lewis Hamilton won his ninth British Grand Prix breaking the record for most wins at a single circuit or Grand Prix and extending his consecutive Silverstone podium record to 12.\n[…]\nDaily Express Indy Silverstone (1978)\n[…]\nMax Verstappen's lap of 1:27.097 in the 2020 British Grand Prix is the official race lap record for the current Grand Prix configuration, which has only been in existence since 2011. The diagram at right illustrates the changes in configuration which have been made, a detailed description of the changes which have been made, see Development history of Silverstone Circuit.\n[…]\nAnthony Meredith & Gordon Blackwell. \"Silverstone Circuit Through Time\" (2013). Amberley Publishing. ISBN 978-1445606361\n[…]\nSilverstone Circuit\n[…]\nSilverstone Circuit on Google Maps (Current Formula 1 Tracks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Circuito_de_Silverstone",
+        "situacao": "ok",
+        "texto": "O Circuito de Silverstone é uma pista de corrida de automóveis localizada na região das East Midlands, Inglaterra. O terreno do circuito está situado entre duas pequenas vilas: Silverstone, que lhe dá o nome, e Whittlebury.\n[…]\nAnos antes de Silverstone receber a primeira de imensas competições das mais variadas modalidades existentes que recebeu até aos dias de hoje, o local era uma pista de aterragem e decolagem da Royal Air Force (a Força Aérea Britânica) durante a Segunda Guerra Mundial.\n[…]\nFoi corrido muito regularmente, não tendo estado presente no calendário por 17 ocasiões apenas, nas quais alternou com outros circuitos britânicos como  Aintree, inicialmente até 1962, e Brands Hatch, mais tarde, até 1986, pois o segundo e Silverstone eram ambos muito bons para abrigar Grandes Prêmios.\n[…]\nO circuito de Silverstone é tradicionalmente considerado um dos preferidos pelos pilotos, em razão de muitos deles terem passado por categorias de base no Reino Unido, onde adquiriram experiência inicial de condução. Além disso, a região abriga as sedes de diversas equipes da Fórmula 1, o que reforça sua relevância no automobilismo internacional.\n[…]\nO atual contrato dos organizadores do Grande Prémio em Silverstone com a FOM tem validade até 2027, o que garante que o circuito só voltará a estar em risco nessa altura, assim como esteve em 2009.\n[…]\nDurante o ano de 2009, o calendário provisório da Fórmula 1 apontava Donington Park como a nova sede do Grande Prémio da Grã-Bretanha. Silverstone necessitava de grande reformas para atender às exigências da FIA, por isso, Donington abrigaria a Fórmula 1 pelo menos nesse ano. No entanto, Donington Park também precisaria de reformas de altos custos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Tríplice Coroa do Automobilismo",
+      "descricao": "Conquista simbólica de vencer o GP de Mônaco, as 500 Milhas de Indianápolis e as 24 Horas de Le Mans."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que corrida americana completa, ao lado do GP de Mônaco e das 24 Horas de Le Mans, a chamada Tríplice Coroa do automobilismo?",
+    "resposta": "500 Milhas de Indianápolis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Triple_Crown_of_Motorsport"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Triple_Crown_of_Motorsport",
+        "situacao": "ok",
+        "texto": "The Triple Crown of Motorsport is an unofficial motorsport achievement, often regarded as associated with the three most important achievements of a driver in motorsport, inspired by the triple crown of thoroughbred racing.\n[…]\nIndianapolis 500 (first held in 1911)\n[…]\nAmong active drivers, Fernando Alonso is the only one to have won two of three events in both versions of the crown, having won the 2018 and 2019 24 Hours of Le Mans, the 2005 and 2006 World Drivers' Championships, and the 2006 and 2007 editions of the Monaco Grand Prix. The Indianapolis 500 and Monaco Grand Prix themselves have been parts of the World Drivers' Championship during various periods: the Indy 500 from 1950 to 1960, and the Monaco Grand Prix from 1950 to present.\n[…]\nAdditionally, as an engine manufacturer only, Mercedes won the Indianapolis 500 in 1994, the 24 Hours of Le Mans in 1989 and the Monaco Grand Prix in 1998,  2000, 2002, 2005, 2007, 2008, 2009 and 2025.\n[…]\nAs of February 2026, the only active drivers who have won two legs of the traditional Triple Crown are Juan Pablo Montoya and Fernando Alonso. Both have won the Monaco Grand Prix (Montoya in 2003, Alonso in 2006 and 2007), while Montoya has won the Indianapolis 500 twice (2000 and 2015) and Alonso has two overall wins for the 24 Hours of Le Mans (2018 and 2019).\n[…]\nFor the alternative Triple Crown, the only active drivers who have won two legs are Jacques Villeneuve and Fernando Alonso. Villeneuve won the Indianapolis 500 in 1995 and was the F1 World Champion for 1997. Alonso was the F1 World Champion for 2005 and 2006, as well as the winner of the 24 Hours of Le Mans in 2018 and 2019.\n[…]\nTriple Crown\n[…]\nList of winners of Triple Crown of Motorsport races"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tr%C3%ADplice_Coroa_do_Automobilismo",
+        "situacao": "ok",
+        "texto": "A Tríplice Coroa do Automobilismo é um título não oficial concedido a um piloto que conquista as três corridas mais prestigiadas do automobilismo mundial ao longo de sua carreira, que são: o Grande Prêmio de Mônaco, as 500 Milhas de Indianápolis e as 24 Horas de Le Mans.\n[…]\nComo o Grande Prêmio de Mônaco e as 500 Milhas de Indianápolis acontecem sempre na mesma época, é difícil para um piloto conseguir disputar as duas provas no mesmo ano, visto que as provas acontecem em lados opostos do Oceano Atlântico, e desde 1961 fazem parte de competições distintas. Assim, considera-se que um piloto ganhou a tríplice coroa, mesmo vencendo as provas em anos distintos.\n[…]\nEm 1967, A. J. Foyt venceu as 500 Milhas de Indianápolis e as 24 Horas de Le Mans num intervalo de apenas 2 semanas entre as provas.\n[…]\nO escocês Jim Clark é, até hoje, o único piloto a vencer as 500 Milhas de Indianápolis e ser campeão mundial de F1 no mesmo ano. Foi 3° lugar geral em Le Mans no ano de 1960 sendo que nunca venceu o grande prêmio de Mônaco.\n[…]\nO americano Phil Hill é, até hoje, o único piloto a vencer as 24 horas de Le Mans e ser campeão mundial de F1 no mesmo ano.\n[…]\nJuan Manuel Fangio esteve perto de vencer a prova de Le Mans em 1955, fato que não aconteceu por abandonar voluntariamente a prova após o Desastre de Le Mans em 1955, um acidente que matou 84 pessoas entre eles o piloto Pierre Levegh. Fangio venceu o Grande Prêmio de Mônaco e o campeonato mundial e esteve perto de competir nas 500 Milhas de Indianápolis de 1958.\n[…]\nConquistas simultâneas de compatriotas no GP de Mônaco e na Indy 500 são raríssimas. Apenas em 5 oportunidades pilotos de uma mesma nacionalidade venceram as duas provas no mesmo ano, a saber:\n[…]\nTríplice Coroa\n[…]\nA Tríplice Coroa do Esporte Automotor",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Autódromo de Ímola",
+      "descricao": "Autódromo Enzo e Dino Ferrari, em Ímola, na Itália, onde Ayrton Senna morreu em 1994."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Em que curva do autódromo de Ímola Ayrton Senna sofreu o acidente fatal de 1994?",
+    "resposta": "Tamburello",
+    "distratores": [
+      "Tosa",
+      "Rivazza",
+      "Villeneuve"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Death_of_Ayrton_Senna",
+      "https://en.wikipedia.org/wiki/Imola_Circuit"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Death_of_Ayrton_Senna",
+        "situacao": "ok",
+        "texto": "On 1 May 1994, Brazilian Formula One driver Ayrton Senna was killed after his car crashed into a concrete barrier while he was leading the 1994 San Marino Grand Prix at the Imola Circuit in Italy.\n[…]\nOn lap 7, the second lap at racing speed, Senna's car left the racing line at Tamburello, ran in a straight line off the track and struck an unprotected concrete barrier. Telemetry data recovered from the wreckage shows he entered the corner at 309 km/h (192 mph) and then braked hard, downshifting twice to slow down before impacting the wall at 211 km/h (131 mph). The car hit the wall at a shallow angle, tearing off the right front wheel and nose cone before spinning to a halt.\n[…]\nOn 8 May, it was reported that Federico Bendinelli, an official who worked at Imola, said Senna had inspected the Tamburello corner and declared it was \"O.K.\" Williams ran tests on one of their rigs attempting to replicate Senna's accident from the data retrieved. They attempted to simulate a mechanical failure which had not proven conclusive.\n[…]\nOther changes included improved crash barriers, redesigned tracks and tyre barriers, higher crash safety standards, higher sills on the driver cockpit and a limit on 3-litre engines. The FIA immediately investigated the Autodromo Enzo e Dino Ferrari in Imola, and the track's signature Tamburello turn was changed into a left–right chicane as a result.\n[…]\nDuring legal proceedings before the Italian courts on 3 March 1997, based on the expert testimony and evidence of the pathologist, Dr Cipolla, Senna's official time of death was recorded as 2:17 pm on 1 May 1994, coinciding with cerebral death under Italian law, upon Senna hitting the Tamburello wall."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Imola_Circuit",
+        "situacao": "ok",
+        "texto": "The Imola Circuit, officially called Autodromo Internazionale Enzo e Dino Ferrari (Italian for 'Enzo and Dino Ferrari International Autodrome'), is a 4.909 km (3.050 mi) motor racing circuit. It is located in the town of Imola, in the Emilia-Romagna region of Italy, 40 km (25 mi) east of Bologna. Initially used for motorcycle racing, the first race at Imola was held in 1953. The circuit has an FIA\n[…]\nThe circuit is named after the founder of the Ferrari car company, Enzo Ferrari (1898–1988), and his son Alfredo \"Dino\" Ferrari (1932–1956). It was called the Autodromo di Imola from 1953 to 1956 and the Autodromo Dino Ferrari from 1957 to 1988.\n[…]\nImola hosted non-championship Formula One races in the 1963 Imola Grand Prix and the 1979 Dino Ferrari Grand Prix. It was used for official championship races in the 1980 Italian Grand Prix and the San Marino Grand Prix every year from 1981 to 2006. Safety concerns with the circuit were raised throughout the 1980s and 1990s, particularly with the high speed Tamburello corner where numerous accidents occurred.\n[…]\nThe track was originally called the Autodromo di Imola, and inaugurated as a semi-permanent venue in 1953. It had no chicanes, so the runs from Acque Minerali to Rivazza, and from Rivazza all the way to Tosa, through the pits and the Tamburello, were just straights with a few small bends; the circuit remained in this configuration until 1972.\n[…]\nIn response to the deaths of Ayrton Senna and Roland Ratzenberger during the 1994 San Marino Grand Prix, modifications were carried out to the Tamburello corner to make it safer by converting it from a flat-out left hander to a left-right-left chicane.\n[…]\n6 Hours of Imola (2011)\n[…]\nRoland Ratzenberger – 1994 San Marino Grand Prix (Qualifying)\n[…]\nAyrton Senna – 1994 San Marino Grand Prix (Race)\n[…]\nAutodromo Enzo e Dino Ferrari\n[…]\nAutodromo Enzo e Dino Ferrari History and Statistics\n[…]\nInfo from BBC's circuit guide"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Morte_de_Ayrton_Senna",
+        "situacao": "ok",
+        "texto": "Morte de Ayrton Senna ocorreu em 1 de maio de 1994, como resultado de uma colisão entre o carro do piloto brasileiro Ayrton Senna e uma barreira de concreto, enquanto participava do Grande Prêmio de San Marino, no Autódromo Enzo e Dino Ferrari, em Ímola, na Itália.\n[…]\nO segundo ocorreu no sábado, durante os treinos livres, quando o austríaco Roland Ratzenberger, correndo pela Simtek, bateu violentamente na curva Villeneuve num acidente que começou a se formar na fatídica curva Tamburello, quando a asa dianteira de seu carro se soltou fazendo-o perder o controle do veículo. Levado ao Hospital Maggiore de Bolonha, ele faleceu 8 minutos depois. Essa foi a primeira morte de um piloto na pista em oito anos - desde que a FIA adotara sérias medidas de segurança.\n[…]\nNa sexta volta a corrida foi reiniciada, e na abertura da sétima volta Senna rapidamente fez a melhor volta da corrida então abrindo em relação a Schumacher. Senna iniciara o que seria a sua última volta na F1; ele entrou na curva Tamburello (a mesma onde bateu Nelson Piquet com a Williams em 1987 e Berger com a Ferrari em 1989) e perdeu o controle do carro, seguindo reto e chocando-se violentamente contra o muro de concreto.\n[…]\nA reforma do autódromo de Interlagos em 1990 teve uma mudança radical no traçado, foi proposta para seguir as regras de limites de distância de um circuito da FIA, e uma grande curva inclinada foi sugerida para ligar a reta dos boxes à curva do sol. Ayrton propôs um \"S\" que ligasse as duas retas, daí o nome de \"S do Senna\", pelo design do tricampeão, e não somente uma homenagem dada a ele. Com a morte de Ayrton Senna, novas normas de segurança foram implementadas para a F1.\n[…]\nA \"Medalha Ayrton Senna\" foi criada pela Câmara Municipal de Vitória no Espírito Santo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Tyrrell P34",
+      "descricao": "Carro de Fórmula 1 da Tyrrell usado em 1976 e 1977, com quatro rodas pequenas na dianteira."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Quantas rodas tinha o Tyrrell P34, carro de Fórmula 1 que venceu o GP da Suécia de 1976?",
+    "resposta": "Seis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tyrrell_P34"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tyrrell_P34",
+        "situacao": "ok",
+        "texto": "The Tyrrell P34 (Project 34), commonly known as the \"six-wheeler\", was a Formula One (F1) race car designed by Derek Gardner, Tyrrell's chief designer. The car used four specially manufactured 10-inch diameter (254 mm) wheels and tyres at the front, with two ordinary-sized wheels at the back.\n[…]\nFor 1977, Scheckter was replaced by Ronnie Peterson, and the P34 was redesigned for cleaner aerodynamics, and some redesign was done on Peterson's car to accommodate his height. The P34B was wider and heavier than before, and, although Peterson was able to string some promising results from the P34B, as was Depailler, it was clear the car was not as good as before. Tyrrell blamed the problems on the increased weight, now 190 pounds (86 kg) over the 1,268 pounds (575 kg) F1 minimum.\n[…]\nThe Ferrari 312T6 featured the four rear wheels on a single axle. This was similar to how Auto Union increased traction with its Type-D Grand Prix cars in the 1930s. Despite extensive testing, neither the March, Williams, nor the Ferrari, were ever raced. In 1983, the FIA prohibited cars with four driven wheels from competing. Later, the Formula 1 regulations required four as the maximum number of wheels allowed.\n[…]\n* 13 points in 1976 scored using the Tyrrell 007\n[…]\nIn George Harrison's 1976 song \"It's What You Value\" from his album Thirty Three & 1/3, the lyrics mention \"someone's driving a six wheeler,\" which is widely interpreted as a reference to the Tyrrell P34 Formula One car. This aligns with Harrison's known enthusiasm for motorsports.\n[…]\nA 1/43 scale model was made by Minichamps.\n[…]\n1/20 scale and larger 1/12 scale model kits based on the different specifications were made by Tamiya. A 1/10 scale remote-controlled model car is also available."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tyrrell_P34",
+        "situacao": "ok",
+        "texto": "O  P34 foi o modelo de Fórmula 1 da Tyrrell em parte da temporada de 1976 e em toda a temporada de 1977. Foi guiado por Jody Scheckter, Patrick Depailler e Ronnie Peterson.\n[…]\nO Tyrrell P34 não chegou a ser um fracasso e até conseguiu uma importante e histórica vitória com dobradinha no GP da Suécia de 1976 com Scheckter e Depailler.\n[…]\nPela primeira - e que se revelaria única - vez um modelo de seis rodas venceu uma corrida de Fórmula 1, mas no campeonato apresentou um desempenho prático bem aquém do esperado pela equipe, embora a área frontal realmente diminuísse, mas a aerodinâmica proporcionada pelo nariz do carro muito avantajado não era das melhores e, principalmente, as rodas traseiras continuaram com as mesmas dimensões dos outros Fórmula 1 da época, o que acabava deixando a área frontal praticamente igual.\n[…]\nPara a temporada de 1978, Derek Gardner deixaria a equipe, e a Tyrrell apresentaria o modelo 008, projetado por Maurice Philippe, retomando a configuração convencional de quatro rodas. A MARCH também teve seu protótipo de 6 rodas, o modelo 2-4-0, que usava um chassi 771, mas as 4 rodas eram na traseira, logo, em função motriz.\n[…]\nAlguns anos depois, quando algumas equipes começaram a cogitar a possibilidade de usar as quatro rodas motrizes na traseira, principalmente a Williams, que chegou a produzir um protótipo, o FW08B em 1982, a FIA alterou o regulamento da Fórmula 1 para proibir a participação de carros com mais de quatro rodas na categoria.\n[…]\n↑1  Scheckter e Depailler utilizaram o 007 do GP do Brasil até a Espanha (apenas Scheckter) marcando 13 pontos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Grande Prêmio do Brasil de 1991",
+      "descricao": "Corrida de Fórmula 1 em Interlagos, primeira vitória de Ayrton Senna no Brasil."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na sua primeira vitória no Brasil, em 1991, Senna terminou a corrida com o câmbio travado em qual marcha?",
+    "resposta": "Sexta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1991_Brazilian_Grand_Prix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1991_Brazilian_Grand_Prix",
+        "situacao": "ok",
+        "texto": "The 1991 Brazilian Grand Prix was a Formula One motor race held at Interlagos on 24 March 1991. It was the second race of the 1991 Formula One World Championship.\n[…]\nAfter Senna and Patrese had made their stops, Mansell was seven seconds behind the lead McLaren. There seemed no doubt that Senna would be caught but the chance never arose as on lap 50 Mansell had to stop for a new set of tyres after a puncture caused by debris on the track. Unknown to observers, Senna's gearbox was failing, having lost fourth gear and by lap 60 the lead was halved and Mansell had set fastest lap.\n[…]\nYet it was Mansell's gearbox that gave way first, forcing the Williams into a spin and causing him to retire on lap 61. With just a couple of laps left, Senna had also lost fifth and third gears. Having to maintain sixth gear in slow and medium corners meant that several times he nearly stalled. Patrese was catching him rapidly, but with gearbox problems of his own he was unable to pass.\n[…]\nSenna won 2.9 seconds ahead of Patrese. When he crossed the finish line, he started to scream in celebration of achieving his dream of winning at home. The tremendous struggle of trying to keep the car under control caused him to have muscle cramps and fever. After stopping his car, Senna was almost unable to move on his own. He had to be lifted bodily from the car due to exhaustion and driven to the podium in the medical car.\n[…]\nDespite a small fire on the grid and a sticking throttle, Berger claimed the final podium place from Prost, Piquet and Alesi. On the podium, after all that effort, Senna barely managed to lift the trophy."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Pr%C3%AAmio_do_Brasil_de_1991",
+        "situacao": "ok",
+        "texto": "Resultados do Grande Prêmio do Brasil de Fórmula 1 realizado em Interlagos em 24 de março de 1991. Segunda etapa do campeonato, foi vencido pelo brasileiro Ayrton Senna, da McLaren-Honda, com Riccardo Patrese em segundo pela Williams-Renault e Gerhard Berger em terceiro pela McLaren-Honda.\n[…]\nApesar do resultado, a corrida teve um final dramático pois Ayrton Senna perdeu quase todas as marchas de sua McLaren-Honda e sofreu um desgaste físico acima do normal, fazendo com que ele não conseguisse sair sozinho do carro ao cruzar a linha de chegada. Tais elementos fizeram desta uma das provas mais lembradas na carreira do piloto brasileiro.\n[…]\nSenna teve que segurar a alavanca de câmbio com a mão direita e pilotar com a esquerda. Nesse ínterim, Mansell, com problemas no câmbio semiautomático, abandonou a prova. Devido ao problema no seu câmbio, a diferença de Senna para Patrese diminuía a cada volta. O brasileiro terminou a corrida só com a sexta marcha funcionando normalmente. A câmera onboard mostra que Ayrton parou de trocar de marcha nas últimas voltas da corrida, evidenciando o fato.\n[…]\nFaltando duas voltas para o final, começou a chover em Interlagos, o que acabou decidindo a corrida. Após cruzar a linha final, Senna permaneceu no carro, sem forças para sair. Quando parou o carro na reta oposta para receber a bandeira do Brasil, o carro não saiu do lugar, mostrando que de fato o carro estava apenas com 1 marcha.\n[…]\nLogo após a bandeirada final, a comunicação de rádio da equipe foi aberta na TV, no exato momento em que Ayrton gritava, em parte pela vitória inédita como também pelas dores que sentia devido ao desgaste da corrida. Ainda na pista, em seguida a conquista inédita de Senna, os \"fiscais de pista\" comemoravam a vitória do brasileiro com pulos e abraços.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "McLaren MP4/4",
+      "descricao": "Carro da McLaren com motor Honda pilotado por Ayrton Senna e Alain Prost em 1988."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1988, a McLaren de Senna e Prost venceu quantas das dezesseis corridas da temporada?",
+    "resposta": "Quinze",
+    "distratores": [
+      "Doze",
+      "Treze",
+      "Quatorze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/McLaren_MP4/4"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/McLaren_MP4/4",
+        "situacao": "ok",
+        "texto": "The McLaren MP4/4, also known as the McLaren-Honda MP4/4, was one of the most successful and dominant Formula One car designs of all time. Powered by Honda's RA168E 1.5-litre V6-turbo engine and driven by teammates Alain Prost and Ayrton Senna, the car competed during the 1988 Formula One season. The design of the car was led by American engineer Steve Nichols.\n[…]\nPerhaps the most telling example of the MP4/4's emphatic domination was seen at San Marino in just the second race of the season. Senna and Prost both qualified the 5.040 km (3.131 mi) Imola circuit in the 1:27s (Senna 0.7 faster than Prost) while no other driver could get below 1:30. Third on the grid was defending World Champion Nelson Piquet in his Lotus 100T, which used the same 1988 specification Honda engines as McLaren.\n[…]\nThe MP4/4 would be succeeded by the Honda V10 powered McLaren MP4/5 in 1989. Although statistically not as successful as the MP4/4 (more because others such as Ferrari, Williams and Benetton improved rather than McLaren and Honda faltered), the 1989 car would give the team another Constructors Championship, with Prost and Senna finishing 1–2 in the Drivers' Championship.\n[…]\nThe MP4/4 has a Lego Icons set made of it (set no.10330), released on 1 March 2024. The set also includes an Ayrton Senna minifigure.\n[…]\nAll six MP4/4 chassis still exist, with chassis #1 and #6 being still owned by the McLaren Group. Chassis #1 is usually on display at the McLaren Technology Centre and was driven by Sergio Pérez at the Goodwood Festival of Speed in 2013. It was also displayed at Goodwood for McLaren's 60th anniversary in 2024. Chassis #6 has been displayed at the National Motor Museum, Beaulieu (UK) in the Prost livery, and was driven by Bruno Senna at Goodwood in 2009 in the Senna livery.\n[…]\nTeam McLaren\n[…]\n1988 Formula One season\n[…]\nMedia related to McLaren MP4/4 at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/McLaren_MP4/4",
+        "situacao": "ok",
+        "texto": "O MP4/4 foi o modelo da McLaren da temporada de 1988 de F1. Seus condutores foram o francês Alain Prost e o brasileiro Ayrton Senna. É considerado por alguns o melhor modelo de Fórmula 1 da história, vencendo 15 das 16 corridas que disputou, não vencendo apenas o Grande Prêmio da Itália de 1988 porque Senna bateu na Williams do retardatário Jean-Louis Schlesser na penúltima volta da corrida enquan\n[…]\nNos testes de pré-temporada em Jacarepaguá em 1988, Senna e Prost nem testaram o MP4/4, porque o projeto estava muito atrasado fazendo com que ambos utilizasse o MP4/3 (da temporada de 1987) e equipado com motor Honda. No final do mês de março quando estavam sendo realizados os últimos testes, agora em Ímola, (antes da abertura do campeonato que aconteceu no início de abril no Brasil, também em Jacarepaguá), os pilotos sentiram pela primeira vez o MP4/4.\n[…]\nMelhores voltas: 10 (Prost 8 e Senna 2) em 16 GP’s (62,5%)\n[…]\nPara a temporada de 1988, foram moldados seis chassis do MP4/4 em fibra de carbono com a ajuda da Hercules Aerospace. Todos foram usados durante o campeonato. Todos os seis chassis ainda existem: Os de número 1, 3, 4 e 6 pertencem ao Grupo McLaren sendo que o 1º está em exposição permanente no McLaren Technology Centre e o 3º está emprestado para exibição no Donington Grand Prix Exhibition. Outro está em exposição no National Motor Museum  em Beaulieu (UK).\n[…]\n2: Brasil por Prost e Estados Unidos e Japão por Senna.\n[…]\n4: Mônaco, México e França por Prost.\n[…]\nO MP4/4 não terminou 4 provas na temporada de 1988.\n[…]\nGP da Itália: Prost tem um problema de motor e para na 34ª volta. Líder desde a largada, Senna bate em um retardatário na 49ª volta e perdendo a vitória. Termina em 10º e pela primeira vez na temporada que não teve nenhum McLaren no alto do pódio e também a primeira vez que nenhum carro McLaren pontuou na prova.\n[…]\n↑  Site oficial do Museu Honda - McLaren Honda MP4/4. [2]\n[…]\nMcLaren",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "500 Milhas de Indianápolis",
+      "descricao": "Corrida anual disputada no oval de Indianápolis, nos Estados Unidos, desde 1911."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estas corridas famosas, qual foi disputada pela primeira vez há mais tempo?",
+    "resposta": "500 Milhas de Indianápolis",
+    "distratores": [
+      "24 Horas de Le Mans",
+      "GP de Mônaco",
+      "Mil Milhas Brasileiras"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indianapolis_500",
+      "https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans",
+      "https://en.wikipedia.org/wiki/Monaco_Grand_Prix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Indianapolis_500",
+        "situacao": "ok",
+        "texto": "The Indianapolis 500, commonly shortened to Indy 500, is an automobile race held annually at the Indianapolis Motor Speedway in Speedway, Indiana, United States, an enclave suburb of Indianapolis. The event is traditionally held over Memorial Day weekend, usually the last weekend of May. It is contested as part of the IndyCar Series, which is the top level of American open-wheel car racing, a form\n[…]\nIt was announced on March 4, 2014, that Kurt Busch would attempt to qualify for the 2014 Indianapolis 500, driving a fifth car for the Andretti Autosport team. Busch completed all 500 miles at Indy to finish sixth but dropped out of the 600 with a blown engine just past the 400-mile mark.\n[…]\nMany people promote and share information about the Indianapolis 500 and its memorabilia collecting. The National Indy 500 Collectors Club is an independent active organization that has been dedicated to supporting such activities. The organization was established January 1, 1985, in Indianapolis by its founder John Blazier and includes an experienced membership available for discussion and advice on Indy 500 memorabilia trading and Indy 500 questions in general.\n[…]\nIn contrast with the usual sell-out policy, in 2020, the race aired live on WTHR, as the Speedway ran the first three meetings (NASCAR in July, the Indianapolis 500 in August, and Road to Indy in September) behind closed doors as a result of COVID-19 cases in the state (the third INDYCAR meeting, the October road course races, admitted 10,000 spectators each day).\n[…]\nIndianapolis 500 firsts\n[…]\nList of Indianapolis 500 lap leaders\n[…]\nList of Indianapolis 500 broadcasters\n[…]\nList of female Indianapolis 500 drivers\n[…]\nTerry Reed. Indy: The Race and Ritual of the Indianapolis 500. 2nd ed. Potomac Books, Inc.; 2005. ISBN 978-1-57488-907-9.\n[…]\nImages from the Ralph J. Satterlee Indianapolis 500 Photographs Collection, Ball State University Digital Media Repository"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans",
+        "situacao": "ok",
+        "texto": "The 24 Hours of Le Mans (French: 24 Heures du Mans; French pronunciation: [vɛ̃t.katʁ‿œʁ dy mɑ̃]) is an endurance sports car race held annually near the city of Le Mans, France. First run in 1923, it is the oldest active endurance racing event in the world and is widely considered one of the world's most prestigious races.\n[…]\nIt is part of two informal \"Triple Crown\" series: the Triple Crown of Motorsport (with the F1 Monaco Grand Prix and the Indianapolis 500) and the Triple Crown of endurance racing (with the Florida-based 24 Hours of Daytona and 12 Hours of Sebring).\n[…]\nModern competitors often cover well over 5,000 km (3,110 mi). The record is 2010's 5,410 km (3,360 mi), more than six times the length of the Indianapolis 500 (500 mi or 805 km), or about 18 times longer than a Formula One Grand Prix. Drivers and their teams strive for speed and avoiding mechanical damage, as well as managing the cars' consumables – primarily fuel, tires, and braking materials.\n[…]\nGraham Hill is the only driver to win the so-called Triple Crown of Motorsport, winning the Indianapolis 500 (1966), Monaco Grand Prix (1963, 1964, 1965, 1968, 1969), and the 24 Hours of Le Mans (1972).\n[…]\n1 car driven by Mike Rockenfeller when he had contact with another Ferrari GT car. In the runup to Indianapolis corner, Rockenfeller's Audi was sent into the outside barrier at over 270 km/h (170 mph). Only the main cockpit safety cell of the car remained, along with major damage being done to the barriers that needed to be repaired before the race was resumed. Audi had switched to a closed-cockpit car starting in 2011, a decision credited for the fact that neither driver was injured."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Monaco_Grand_Prix",
+        "situacao": "ok",
+        "texto": "The Monaco Grand Prix (French: Grand Prix de Monaco) is a Formula One motor racing event held annually on the Circuit de Monaco, in late May or early June. Run since 1929, it is widely considered to be one of the most important and prestigious automobile races in the world, and is one of the races—along with the Indianapolis 500 and the 24 Hours of Le Mans—that form the Triple Crown of Motorsport.\n[…]\nIn the 1950s, the Indianapolis 500 was part of the drivers World Championships, with separate dates, while since the 1960, when F1 Champions like Jim Clark and Graham Hill won the Indy 500, the events often overlapped. Prior to 2026, the Formula One event in May, often on Ascension Thursday weekend, collided with major US events held on Memorial Day weekend at the end of May, like the Indianapolis 500 (IndyCar Series) and the Coca-Cola 600 (NASCAR Cup Series).\n[…]\nFrom 2026, the race will be held on the first weekend of June, and will therefore no longer clash with the Indianapolis 500 and the Coca-Cola 600. Another extension to 2035 was confirmed in September 2025.\n[…]\nThe Monaco Grand Prix is widely considered to be one of the most important and prestigious automobile races in the world alongside the Indianapolis 500 and the 24 Hours of Le Mans. These three races are considered to form a Triple Crown of the three most famous motor races in the world. As of 2025, Graham Hill is the only driver to have won the Triple Crown, by winning all three races.\n[…]\nThe practice session for Monaco overlaps with that for the Indianapolis 500, and the races themselves sometimes clash. As the two races take place on opposite sides of the Atlantic Ocean and form part of different championships, it is difficult for one driver to compete effectively in both during their career. Juan Pablo Montoya and Fernando Alonso are the only active drivers to have won two of the three events."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/500_Milhas_de_Indian%C3%A1polis",
+        "situacao": "ok",
+        "texto": "As 500 Milhas de Indianápolis, também conhecidas como Indianapolis 500 ou simplesmente Indy 500, são uma das corridas automobilísticas mais tradicionais do mundo e a principal prova do campeonato da IndyCar (conhecida no Brasil como Fórmula Indy), realizada no Indianapolis Motor Speedway, nos Estados Unidos. Este evento é considerado uma das maiores corridas do planeta e é promovido como The Great\n[…]\nPilotos como John Andretti, Davy Jones, Tony Stewart e Robby Gordon tentaram essa façanha, assim como Kurt Busch em 2014 e Kyle Larson nas 500 Milhas de Indianápolis de 2024 porém não teve largada em Charlotte pelo fato da Indy 500 ter sido postergada. Em 27 de maio de 2001, Tony Stewart se tornou o primeiro piloto a completar a distância combinada das duas corridas, totalizando 1 100 milhas (1 800 km) que é o chamado double duty(dupla jornada) no mesmo dia.\n[…]\nNa corrida inaugural de 1994, participaram dois vencedores das 500 Milhas de Indianápolis: A. J. Foyt e Danny Sullivan. Juan Pablo Montoya e Jacques Villeneuve são os únicos pilotos a disputarem a Indy 500, a Brickyard 400 e o Campeonato Mundial de Fórmula 1 (incluindo o Grande Prêmio dos Estados Unidos). Montoya detém o melhor desempenho combinado nas duas corridas, com duas vitórias na Indy 500 e um segundo lugar na Brickyard 400.\n[…]\nLarry Foyt foi o primeiro piloto a competir em todas essas corridas, tendo participado das 400 Milhas de Brickyard; todos os demais, exceto A. J. Allmendinger e Kurt Busch, correram na Indianapolis 500 antes de priorizar a corrida na Brickyard 400.\n[…]\nA lista considera que o amplo domínio da corrida ocorre quando um piloto inscrito consegue liderar três quartos (3/4, 75% ou 150 voltas) das 500 Milhas de Indianápolis.\n[…]\nVenceu as 500 milhas de Indianápolis, o Campeonato Mundial de Fórmula 1 e Daytona 500\n[…]\nVenceu as 500 milhas de Indianápolis, as 24 Horas de Le Mans e as 500 Milhas de Daytona\n[…]\nDaytona 500",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Emerson Fittipaldi",
+      "descricao": "Piloto brasileiro bicampeão mundial de Fórmula 1, em 1972 e 1974, e bicampeão das 500 Milhas de Indianápolis."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes pilotos brasileiros foi o primeiro a ser campeão mundial de Fórmula 1?",
+    "resposta": "Emerson Fittipaldi",
+    "distratores": [
+      "Nelson Piquet",
+      "Ayrton Senna",
+      "Carlos Pace"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emerson_Fittipaldi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Emerson_Fittipaldi",
+        "situacao": "ok",
+        "texto": "Emerson Fittipaldi (Brazilian Portuguese: [ˈɛmeʁsõ fitʃiˈpawdʒi]; born 12 December 1946) is a Brazilian former racing driver and motorsport executive, who competed in Formula One from 1970 to 1980. Fittipaldi won two Formula One World Drivers' Championship titles,  in 1972 and 1974 with Lotus and McLaren, respectively; he won 14 Grands Prix across 11 seasons.\n[…]\nEmerson Fittipaldi was born on 12 December 1946 in São Paulo, Brazil. He is the younger son of Italian-Brazilian motorsports journalist and radio commentator Wilson Fittipaldi Sr and his wife Józefa \"Juzy\" Wojciechowska, an immigrant from Saint Petersburg, Russia, of Polish and Russian descent.\n[…]\nFittipaldi was named after American author and philosopher Ralph Waldo Emerson. Both of his parents had raced production cars shortly after World War II, and his father was responsible for the first Mil Milhas race in 1956, in São Paulo, having been inspired by the 1949 Italian Mille Miglia. Emerson, along with his brother Wilson, became motorsports enthusiasts as young children.\n[…]\nFittipaldi is the younger brother of former Formula One driver and team owner Wilson Fittipaldi. He is the uncle of International Formula 3000 and IMSA champion Christian Fittipaldi. He was married to Maria Helena from 1970 to 1982. They had three children. He was married a second time, to Teresa, in the mid-1980s. They have two children.\n[…]\nIn early December 2012, Fittipaldi married economist Rossana Fanucchi in São Paulo after a partnership of eleven years. Their children include Emerson Jr.. Emerson Jr. competed in the 2021 F4 Danish Championship, finishing third overall.\n[…]\nLudvigsen, Karl (2002). Emerson Fittipaldi Heart of a Racer. Osceola: Motorbooks International. ISBN 1-85960-837-X.\n[…]\nEmerson Fittipaldi at IMDb\n[…]\nEmerson Fittipaldi career summary at DriverDB.com\n[…]\nEmerson Fittipaldi driver statistics at Racing-Reference"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Emerson_Fittipaldi",
+        "situacao": "ok",
+        "texto": "Emerson Fittipaldi (São Paulo, 12 de dezembro de 1946) é um ex-automobilista e empresário brasileiro.\n[…]\nÉ um dos pilotos mais vitoriosos da história brasileira, e foi o primeiro brasileiro a se tornar campeão mundial de Fórmula 1 e em categorias de ponta no automobilismo internacional, abrindo portas para vários compatriotas. Fittipaldi foi campeão da Fórmula 3 Inglesa em 1969, foi bicampeão da Fórmula 1 em 1972 e 1974, campeão da Fórmula Indy em 1989 e bicampeão das 500 milhas de Indianápolis em 1989 e 1993.\n[…]\nO ano de 1971 não viu vitórias de Emerson, embora sua atuação consistente lhe tenha garantido três pódios. Em 1972, com 5 vitórias, Fittipaldi tornou-se o campeão mundial mais jovem da história da Fórmula 1, com 25 anos, oito meses e 29 dias, recorde que manteve por mais de três décadas e que só foi quebrado em 2005, pelo piloto espanhol Fernando Alonso. Em 1973, Emerson venceu mais 3 corridas, no entanto perdeu o título para o escocês Jackie Stewart.\n[…]\nA partir de então houve um declínio técnico na equipe, e, ao final de 1980, no mesmo circuito de Watkins Glen onde vencera sua primeira prova, Emerson Fittipaldi retirou-se da Fórmula 1 como piloto; naquele ano, ele conseguiu o último pódio com o 3º lugar em Long Beach, tendo o compatriota Nelson Piquet como vencedor, e conquistado a primeira vitória na categoria.\n[…]\nEmerson Fittipaldi é o único brasileiro e um dos poucos pilotos da história da Fórmula 1 a vencer um grande prêmio em seu ano de estreia.\n[…]\nEnzo Fittipaldi\n[…]\nPágina oficial de Emerson Fittipaldi (arquivada)\n[…]\nEmerson Fittipaldi no Facebook\n[…]\nEmerson Fittipaldi no Instagram",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Jochen Rindt",
+      "descricao": "Piloto austríaco da Lotus, campeão mundial de Fórmula 1 de 1970, morto em Monza naquele ano."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que piloto da Lotus foi declarado campeão mundial de 1970 mesmo tendo morrido num treino em Monza antes do fim da temporada?",
+    "resposta": "Jochen Rindt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jochen_Rindt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jochen_Rindt",
+        "situacao": "ok",
+        "texto": "Karl Jochen Rindt (German: [ˈjɔxn̩ ˈʁɪnt]; 18 April 1942 – 5 September 1970) was a racing driver who competed under the Austrian flag in Formula One from 1964 to 1970. Rindt won the Formula One World Drivers' Championship in 1970 with Lotus, and remains the only driver to have won the World Drivers' Championship posthumously, following his death at the Italian Grand Prix; he won six Grands Prix ac\n[…]\nJochen Rindt was born on 18 April 1942 in Mainz, Germany, to an Austrian mother and German father. His mother had been a successful tennis player in her youth and, like her father, studied law. Rindt's parents owned a spice mill in Mainz, which he later inherited. They were killed in a bombing raid in Hamburg during the Second World War when he was 15 months old, after which he was raised by his maternal grandparents in Graz, Austria.\n[…]\nRindt was commemorated in many ways. The early season BARC 200 Formula Two race was renamed the Jochen Rindt Memorial Trophy for as long as the series existed. In 2000, on the 30th anniversary of his death, the city of Graz unveiled a bronze plaque in remembrance of Rindt, with wife Nina and daughter Natasha present. The penultimate corner at the Red Bull Ring in Austria is named after Rindt.\n[…]\nThe Historic Sports Car Club in the United Kingdom hosts a historic Formula 2 championship, whose pre-1972 category is called the \"Class A Jochen Rindt Trophy\".\n[…]\nRindt's success popularised motorsport in Austria. Helmut Zwickl called him \"the driving instructor of the nation\". In 1965, Rindt put together the first exhibition of racing cars in Austria, the Jochen-Rindt-Show in Vienna. It was an immediate success, with 30,000 visitors on the first weekend alone. Using his connections, he brought in his friend Joakim Bonnier and former Mercedes Grand Prix manager Alfred Neubauer as opening speakers, with other drivers such as Jackie Stewart attending."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jochen_Rindt",
+        "situacao": "ok",
+        "texto": "Karl Jochen Rindt (Mainz, 18 de abril de 1942 — Milão, 5 de setembro de 1970) foi um automobilista alemão radicado na Áustria. É, até os dias de hoje, o único campeão póstumo da história da Fórmula 1 (1970).\n[…]\nJochen Rindt nasceu em Mainz, Alemanha, mas depois de seus pais terem morrido num bombardeio aliado durante a Segunda Guerra Mundial, foi viver com seus avós em Graz, Áustria, onde cresceu e começou a pilotar. Embora nunca tenha se naturalizado austríaco, pois permaneceu até o fim da vida com a cidadania alemã, optou por representar a Áustria.\n[…]\nDurante os treinos para o Grande Prêmio da Itália, em Monza, Rindt sofreu forte acidente na curva Parabólica, devido provavelmente a um problema nos freios. Foi imediatamente levado em direção ao hospital, mas faleceu no caminho. Rindt, que já havia vencido cinco corridas na temporada, não foi alcançado pelos seus adversários e foi declarado campeão do mundo postumamente.\n[…]\nO carro que Jochen Rindt utilizou nesta corrida pertencia ao seu companheiro de equipe Emerson Fittipaldi, que no treino livre estava amaciando o motor do carro que seria utilizado por Jochen Rindt. Neste treino o carro estava sem as asas, e numa curva não conseguiu frear o carro, pois passou do ponto de freada, saindo da pista e danificando por completo o carro.\n[…]\n6 vitórias (Estados Unidos/1969, Mônaco/1970, Holanda/1970, França/1970, Inglaterra/1970 e Alemanha /1970)\n[…]\n«Hall of Fame - World Champions - Jochen Rindt» (em inglês)\n[…]\n«Jochen Rindt Home» (em alemão)\n[…]\n«Grand Prix History - Hall of Fame - Jochen Rindt» (em inglês)\n[…]\n«My Jochen Rindt Homepage» (em inglês)\n[…]\n«Jochen Rindt» (em inglês)\n[…]\n«F1-Facts - Rindt stats» (em inglês)\n[…]\n«GP Encyclopedia - Jochen Rindt» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Lewis Hamilton",
+      "descricao": "Piloto britânico heptacampeão mundial de Fórmula 1."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que piloto britânico, fã declarado de Ayrton Senna, recebeu em 2022 o título de cidadão honorário brasileiro?",
+    "resposta": "Lewis Hamilton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lewis_Hamilton"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lewis_Hamilton",
+        "situacao": "ok",
+        "texto": "Sir Lewis Carl Davidson Hamilton (born 7 January 1985) is a British racing driver who competes in Formula One for Ferrari. Hamilton has won a joint-record seven Formula One World Drivers' Championship titles—tied with Michael Schumacher—and holds the records for most wins (106), pole positions (104), and podium finishes (207), among others.\n[…]\nLewis Hamilton by Dario Mitidieri, National Portrait Gallery, London (2007)\n[…]\nHamilton for Turn 2 of the Hungaroring (2026)\n[…]\nStafford, Ian (2007). Lewis Hamilton: New Kid on the Grid. Edinburgh: Mainstream Publishing Co. (Edinburgh) Ltd. p. 224. ISBN 978-1-84596-338-5.\n[…]\nBelton, Brian (2007). Lewis Hamilton: A Dream Comes True. London: Pennant Publishing Ltd. p. 256. ISBN 978-1-906015-07-7.\n[…]\nRogers, Gareth (2007). Lewis Hamilton: The Story So Far (paperback ed.). Stroud: The History Press Ltd. p. 200. ISBN 978-0-7524-4480-2.\n[…]\nvan de Burgt, Andrew (2007). Lewis Hamilton: A portrait of Britain's new F1 hero (hardback ed.). Yeovil: J H Haynes & Co Ltd. p. 160. ISBN 978-1-84425-480-4.\n[…]\nJones, Bruce (2007). Lewis Hamilton: The People's Champion (ITV SPORT) (hardback ed.). London: Carlton Books Ltd. p. 128. ISBN 978-1-84442-027-8.\n[…]\nApps, Roy (2008). Lewis Hamilton (Dream to Win) (paperback ed.). London: Franklin Watts Ltd. p. 48. ISBN 978-0-7496-8233-0.\n[…]\nTownsend, John (2008). Lewis Hamilton (hardback ed.). Oxford: Raintree Publishers. p. 32. ISBN 978-1-4062-0953-2.\n[…]\nSpragg, Ian (2008). Lewis Hamilton: The Rise of F1's New Superstar. Bath: Parragon. ISBN 978-1-4075-2104-6.\n[…]\nWorrall, Frank (2016). Lewis Hamilton: Triple World Champion: The Biography (paperback ed.). London: John Blake Publishing Ltd. p. 388. ISBN 978-1-78606-033-4.\n[…]\nLewis Hamilton career summary at DriverDB.com\n[…]\nLewis Hamilton Archived 14 February 2023 at the Wayback Machine biography at MercedesAMGF1.com\n[…]\nLewis Hamilton at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lewis_Hamilton",
+        "situacao": "ok",
+        "texto": "Sir Lewis Carl Davidson Larbalestier Hamilton MBE • HonFREng • Kt (Stevenage, 7 de janeiro de 1985) é um automobilista britânico. Sete vezes campeão mundial de Fórmula 1, nos anos de 2008, 2014, 2015, 2017, 2018, 2019 e 2020, Hamilton é um dos maiores pilotos de todos os tempos, e um dos desportistas mais bem-sucedidos da história.\n[…]\nAlém de ser comparado com os grandes pilotos de Fórmula 1, tem como ídolo o ex-piloto Ayrton Senna. Isso ficou ainda mais evidente quando Lewis Hamilton se igualou em números de pole position a Ayrton Senna no Grande Prêmio do Canadá de 2017, no qual ganhou da família de Ayrton, ainda na pista, um capacete usado por Senna na corrida, não conseguindo conter as lágrimas.\n[…]\nEm 2021, Hamilton recebeu de Carlos, Príncipe de Gales (atualmente Rei Carlos III) o título de Cavaleiro da Ordem do Império Britânico, pelos seus serviços prestados ao automobilismo. Em 2022, a Câmara dos Deputados do Brasil concedeu a Hamilton o título de cidadão honorário do país.\n[…]\nSebastian Vettel chegou apenas em quarto, o que acabou não sendo suficiente para manter a luta do campeonato viva, mesmo que Hamilton terminasse sem marcar pontos. Lewis Hamilton recebeu a bandeirada quadriculada na nona colocação, sagrando-se tetracampeão mundial, e entrando para um seleto grupo de pilotos, se igualando ao próprio Sebastian Vettel e Alain Prost na lista dos campeões com quatro títulos na história da Fórmula 1. Hamilton foi campeão restando duas provas para o fim do campeonato.\n[…]\nNa corrida seguinte, após assegurar uma terceira colocação no GP da Hungria de 2024, Lewis Hamilton se tornou o primeiro piloto na história da Fórmula 1 a atingir a marca de 200 pódios.\n[…]\n«Lewis Hamilton» (em inglês). em McLaren\n[…]\n«Lewis Hamilton» (em inglês). em Driverdatabase\n[…]\nLewis Hamilton no Facebook\n[…]\nLewis Hamilton no X\n[…]\nLewis Hamilton no Instagram",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.34 — 2026-10-01**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas e obras de arte em domínio público (pinturas, gravuras). Obras com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com várias espécies. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É uso privado, num jogo entre amigos, e não licença livre.
+- **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras de um tema, **pelo menos três famílias** e **pelo menos três catálogos**;
+- nenhum catálogo passa de **40%** das perguntas com figura do seu tema;
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

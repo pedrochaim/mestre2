@@ -26284,5 +26284,719 @@
       "autor": "Ridolfo del Ghirlandaio",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q01560",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "interlagos",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Autódromo de Interlagos leva oficialmente o nome de qual piloto brasileiro, morto num acidente aéreo em 1977?",
+    "resposta": "José Carlos Pace",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+      "https://en.wikipedia.org/wiki/Carlos_Pace"
+    ]
+  },
+  {
+    "id": "q01561",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "interlagos",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O autódromo de Interlagos fica entre quais duas grandes represas da cidade de São Paulo?",
+    "resposta": "Guarapiranga e Billings",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace",
+      "https://en.wikipedia.org/wiki/Interlagos_Circuit"
+    ]
+  },
+  {
+    "id": "q01562",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "ayrton_senna",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Como Silva era um sobrenome comum demais, Ayrton Senna da Silva passou a usar nas pistas o sobrenome de qual parente?",
+    "resposta": "Da mãe, Neide Senna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    ]
+  },
+  {
+    "id": "q01563",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "ayrton_senna",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1985, debaixo de chuva forte, Ayrton Senna venceu sua primeira corrida de Fórmula 1. Em que país foi essa vitória?",
+    "resposta": "Portugal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1985_Portuguese_Grand_Prix",
+      "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    ]
+  },
+  {
+    "id": "q01564",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "equipe_fittipaldi",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A equipe brasileira de Fórmula 1 dos irmãos Fittipaldi correu anos com o nome de qual patrocinadora, uma cooperativa de usinas paulistas?",
+    "resposta": "Copersucar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fittipaldi_Automotive"
+    ]
+  },
+  {
+    "id": "q01565",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "formula_1",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No nome Fórmula 1, a palavra fórmula indica o quê?",
+    "resposta": "O conjunto de regras dos carros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Formula_One"
+    ]
+  },
+  {
+    "id": "q01566",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "pole_position",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A expressão pole position, a primeira posição no grid de largada, veio de qual outro esporte?",
+    "resposta": "Turfe",
+    "distratores": [
+      "Vela",
+      "Atletismo",
+      "Ciclismo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pole_position"
+    ]
+  },
+  {
+    "id": "q01567",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "circuito_de_spa_francorchamps",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A famosa curva Eau Rouge, em Spa-Francorchamps, tem o nome de um riacho que passa por ali. O que significa Eau Rouge?",
+    "resposta": "Água vermelha",
+    "distratores": [
+      "Pedra vermelha",
+      "Água escura",
+      "Água fria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"
+    ]
+  },
+  {
+    "id": "q01568",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "circuito_gilles_villeneuve",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No circuito de Montreal, um muro na saída da última chicane ganhou o apelido de Muro dos Campeões. Por quê?",
+    "resposta": "Três campeões bateram nele em 1999",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve"
+    ]
+  },
+  {
+    "id": "q01569",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "nordschleife",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que apelido o escocês Jackie Stewart deu ao antigo traçado norte de Nürburgring, cercado por florestas na Alemanha?",
+    "resposta": "Inferno Verde",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/N%C3%BCrburgring"
+    ]
+  },
+  {
+    "id": "q01570",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "indianapolis_motor_speedway",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O oval de Indianápolis é chamado de Brickyard pelos americanos. De onde vem esse apelido?",
+    "resposta": "Da pista pavimentada com tijolos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway"
+    ]
+  },
+  {
+    "id": "q01571",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "helio_castroneves",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por escalar o alambrado para comemorar suas vitórias, o brasileiro Hélio Castroneves ganhou qual apelido nos Estados Unidos?",
+    "resposta": "Homem-Aranha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/H%C3%A9lio_Castroneves"
+    ]
+  },
+  {
+    "id": "q01572",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "ford_gt40",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Ford GT40, que venceu Le Mans nos anos sessenta, tem o número quarenta no nome por causa de qual medida do carro?",
+    "resposta": "Altura de quarenta polegadas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ford_GT40"
+    ]
+  },
+  {
+    "id": "q01573",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "nelson_piquet",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o jovem Nelson Souto Maior começou a correr usando o sobrenome da mãe, grafado Piket?",
+    "resposta": "Para esconder do pai que corria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nelson_Piquet",
+      "https://pt.wikipedia.org/wiki/Nelson_Piquet"
+    ]
+  },
+  {
+    "id": "q01574",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "emerson_fittipaldi",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Ao vencer a Indy 500 de 1993, Emerson Fittipaldi irritou o público ao trocar o tradicional leite por suco de laranja. Com que objetivo?",
+    "resposta": "Promover a indústria da laranja",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/500_Milhas_de_Indian%C3%A1polis_de_1993",
+      "https://en.wikipedia.org/wiki/Emerson_Fittipaldi"
+    ]
+  },
+  {
+    "id": "q01575",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "juan_manuel_fangio",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1958, o que impediu Juan Manuel Fangio de disputar o Grande Prêmio de Cuba, em Havana?",
+    "resposta": "Foi sequestrado por rebeldes cubanos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Juan_Manuel_Fangio"
+    ]
+  },
+  {
+    "id": "q01576",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "desastre_de_le_mans_de_1955",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Depois da tragédia de Le Mans de 1955, que matou mais de oitenta espectadores, que país europeu manteve a proibição de corridas em circuitos por mais de sessenta anos?",
+    "resposta": "Suíça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1955_Le_Mans_disaster"
+    ]
+  },
+  {
+    "id": "q01577",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "grande_premio_da_austria_de_2002",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No GP da Áustria de 2002, Barrichello cedeu a vitória a Schumacher na reta final. Que prática a Fórmula 1 proibiu por causa disso?",
+    "resposta": "Ordens de equipe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2002_Austrian_Grand_Prix"
+    ]
+  },
+  {
+    "id": "q01578",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "escandalo_de_singapura_de_2008",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2008, em Singapura, Nelsinho Piquet bateu de propósito para provocar a entrada do carro de segurança e favorecer qual companheiro de equipe?",
+    "resposta": "Fernando Alonso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crashgate"
+    ]
+  },
+  {
+    "id": "q01579",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "autodromo_de_jacarepagua",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O autódromo de Jacarepaguá, no Rio, onde a Fórmula 1 correu nos anos oitenta, foi demolido para dar lugar a quê?",
+    "resposta": "Parque Olímpico da Rio 2016",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barra_Olympic_Park"
+    ]
+  },
+  {
+    "id": "q01580",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "michael_schumacher",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Michael Schumacher estreou na Fórmula 1 em 1991, pela Jordan, porque o piloto titular, Bertrand Gachot, estava em que situação?",
+    "resposta": "Preso por agredir um taxista",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bertrand_Gachot",
+      "https://en.wikipedia.org/wiki/Michael_Schumacher"
+    ]
+  },
+  {
+    "id": "q01581",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "grande_premio_de_detroit_de_1986",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1986, Senna venceu em Detroit e deu a volta da vitória com a bandeira do Brasil. Que derrota brasileira, na véspera, motivou o gesto?",
+    "resposta": "A eliminação para a França na Copa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1986_Detroit_Grand_Prix"
+    ]
+  },
+  {
+    "id": "q01582",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "nascar",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "As corridas de stock car que deram origem à NASCAR nasceram de motoristas que, na época da Lei Seca americana, faziam qual atividade ilegal?",
+    "resposta": "Contrabando de bebida alcoólica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/NASCAR"
+    ]
+  },
+  {
+    "id": "q01583",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "cavalinho_rampante_da_ferrari",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O cavalinho rampante da Ferrari foi pintado antes no avião de qual ás italiano da Primeira Guerra Mundial?",
+    "resposta": "Francesco Baracca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Francesco_Baracca"
+    ]
+  },
+  {
+    "id": "q01584",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "enzo_ferrari",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de fabricar carros com o próprio nome, Enzo Ferrari foi piloto e depois comandou a equipe de corrida de qual montadora italiana?",
+    "resposta": "Alfa Romeo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Enzo_Ferrari"
+    ]
+  },
+  {
+    "id": "q01585",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "brabham",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Bernie Ecclestone foi dono de qual equipe de Fórmula 1, pela qual Nelson Piquet foi bicampeão mundial?",
+    "resposta": "Brabham",
+    "distratores": [
+      "Williams",
+      "Lotus",
+      "McLaren"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brabham",
+      "https://en.wikipedia.org/wiki/Bernie_Ecclestone"
+    ]
+  },
+  {
+    "id": "q01586",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "nico_rosberg",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que os campeões mundiais Damon Hill e Nico Rosberg têm em comum na família?",
+    "resposta": "São filhos de campeões mundiais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nico_Rosberg",
+      "https://en.wikipedia.org/wiki/Damon_Hill"
+    ]
+  },
+  {
+    "id": "q01587",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "stewart_grand_prix",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na história da Fórmula 1, o que as equipes Stewart, Jaguar e Red Bull têm em comum?",
+    "resposta": "São a mesma equipe, renomeada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stewart_Grand_Prix"
+    ]
+  },
+  {
+    "id": "q01588",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "brawn_gp",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A Brawn GP foi campeã em 2009 com Jenson Button. No ano seguinte, foi comprada e passou a correr com o nome de qual montadora?",
+    "resposta": "Mercedes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brawn_GP"
+    ]
+  },
+  {
+    "id": "q01589",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "felipe_massa",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 2009, na Hungria, Felipe Massa foi atingido no capacete por uma mola que se soltou do carro de qual compatriota?",
+    "resposta": "Rubens Barrichello",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Felipe_Massa"
+    ]
+  },
+  {
+    "id": "q01590",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "lotus",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que equipe inglesa deu a Emerson Fittipaldi seu primeiro título mundial e a Ayrton Senna sua primeira vitória na Fórmula 1?",
+    "resposta": "Lotus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Team_Lotus",
+      "https://en.wikipedia.org/wiki/1985_Portuguese_Grand_Prix"
+    ]
+  },
+  {
+    "id": "q01591",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "copa_do_mundo_fifa_de_1994",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Ao ganhar o tetra nos Estados Unidos, a seleção brasileira estendeu uma faixa dedicando o título a qual esportista, morto naquele ano?",
+    "resposta": "Ayrton Senna",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ayrton_Senna",
+      "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    ]
+  },
+  {
+    "id": "q01592",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "suzuka",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que montadora japonesa construiu o circuito de Suzuka, no começo dos anos sessenta, para servir como sua pista de testes?",
+    "resposta": "Honda",
+    "distratores": [
+      "Toyota",
+      "Nissan",
+      "Mazda"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course"
+    ]
+  },
+  {
+    "id": "q01593",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "rush",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem dirigiu o filme Rush, de 2013, sobre a rivalidade entre Niki Lauda e James Hunt na Fórmula 1?",
+    "resposta": "Ron Howard",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rush_(2013_film)"
+    ]
+  },
+  {
+    "id": "q01594",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "tema_da_vitoria",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem compôs o Tema da Vitória, a música da TV Globo que embalava as vitórias brasileiras na Fórmula 1?",
+    "resposta": "Eduardo Souto Neto",
+    "distratores": [
+      "Tom Jobim",
+      "Marcos Valle",
+      "Ivan Lins"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tema_da_Vit%C3%B3ria"
+    ]
+  },
+  {
+    "id": "q01595",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "champanhe_no_podio",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1967, depois de vencer as 24 Horas de Le Mans, que piloto americano é apontado como criador do costume de espirrar champanhe no pódio?",
+    "resposta": "Dan Gurney",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dan_Gurney"
+    ]
+  },
+  {
+    "id": "q01596",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "rali_dakar",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Rali Dakar tem esse nome porque, nas primeiras edições, terminava na capital de qual país africano?",
+    "resposta": "Senegal",
+    "distratores": [
+      "Marrocos",
+      "Mali",
+      "Mauritânia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dakar_Rally"
+    ]
+  },
+  {
+    "id": "q01597",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "circuito_de_praia_de_daytona",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Antes do autódromo oval de Daytona Beach, as corridas da cidade usavam um traçado que passava por qual terreno incomum?",
+    "resposta": "A areia da praia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Daytona_Beach_Road_Course"
+    ]
+  },
+  {
+    "id": "q01598",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "rivalidade_senna_e_prost",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em quais dois anos seguidos Senna e Prost decidiram o título mundial com batidas entre os dois em Suzuka?",
+    "resposta": "1989 e 1990",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Prost%E2%80%93Senna_rivalry"
+    ]
+  },
+  {
+    "id": "q01599",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "silverstone",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano Silverstone recebeu a primeira corrida da história do Campeonato Mundial de Fórmula 1?",
+    "resposta": "1950",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1950_British_Grand_Prix",
+      "https://en.wikipedia.org/wiki/Silverstone_Circuit"
+    ]
+  },
+  {
+    "id": "q01600",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "silverstone",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar autódromo, no fim dos anos quarenta, o terreno de Silverstone abrigava o quê?",
+    "resposta": "Uma base aérea militar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silverstone_Circuit"
+    ]
+  },
+  {
+    "id": "q01601",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "triplice_coroa_do_automobilismo",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que corrida americana completa, ao lado do GP de Mônaco e das 24 Horas de Le Mans, a chamada Tríplice Coroa do automobilismo?",
+    "resposta": "500 Milhas de Indianápolis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Triple_Crown_of_Motorsport"
+    ]
+  },
+  {
+    "id": "q01602",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "autodromo_de_imola",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Em que curva do autódromo de Ímola Ayrton Senna sofreu o acidente fatal de 1994?",
+    "resposta": "Tamburello",
+    "distratores": [
+      "Tosa",
+      "Rivazza",
+      "Villeneuve"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Death_of_Ayrton_Senna",
+      "https://en.wikipedia.org/wiki/Imola_Circuit"
+    ]
+  },
+  {
+    "id": "q01603",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "tyrrell_p34",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Quantas rodas tinha o Tyrrell P34, carro de Fórmula 1 que venceu o GP da Suécia de 1976?",
+    "resposta": "Seis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tyrrell_P34"
+    ]
+  },
+  {
+    "id": "q01604",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "grande_premio_do_brasil_de_1991",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na sua primeira vitória no Brasil, em 1991, Senna terminou a corrida com o câmbio travado em qual marcha?",
+    "resposta": "Sexta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1991_Brazilian_Grand_Prix"
+    ]
+  },
+  {
+    "id": "q01605",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "mclaren_mp4_4",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Em 1988, a McLaren de Senna e Prost venceu quantas das dezesseis corridas da temporada?",
+    "resposta": "Quinze",
+    "distratores": [
+      "Doze",
+      "Treze",
+      "Quatorze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/McLaren_MP4/4"
+    ]
+  },
+  {
+    "id": "q01606",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "500_milhas_de_indianapolis",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estas corridas famosas, qual foi disputada pela primeira vez há mais tempo?",
+    "resposta": "500 Milhas de Indianápolis",
+    "distratores": [
+      "24 Horas de Le Mans",
+      "GP de Mônaco",
+      "Mil Milhas Brasileiras"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indianapolis_500",
+      "https://en.wikipedia.org/wiki/24_Hours_of_Le_Mans",
+      "https://en.wikipedia.org/wiki/Monaco_Grand_Prix"
+    ]
+  },
+  {
+    "id": "q01607",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "emerson_fittipaldi",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destes pilotos brasileiros foi o primeiro a ser campeão mundial de Fórmula 1?",
+    "resposta": "Emerson Fittipaldi",
+    "distratores": [
+      "Nelson Piquet",
+      "Ayrton Senna",
+      "Carlos Pace"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emerson_Fittipaldi"
+    ]
+  },
+  {
+    "id": "q01608",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "jochen_rindt",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que piloto da Lotus foi declarado campeão mundial de 1970 mesmo tendo morrido num treino em Monza antes do fim da temporada?",
+    "resposta": "Jochen Rindt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jochen_Rindt"
+    ]
+  },
+  {
+    "id": "q01609",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "lewis_hamilton",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que piloto britânico, fã declarado de Ayrton Senna, recebeu em 2022 o título de cidadão honorário brasileiro?",
+    "resposta": "Lewis Hamilton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lewis_Hamilton"
+    ]
   }
 ]

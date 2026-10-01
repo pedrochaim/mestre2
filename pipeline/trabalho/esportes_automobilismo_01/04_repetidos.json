@@ -1,0 +1,120 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O Autódromo de Interlagos leva oficialmente o nome de qual piloto brasileiro, morto num acidente aéreo em 1977?",
+        "resposta": "José Carlos Pace"
+      },
+      "existentes": [
+        {
+          "id": "q00548",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Interlagos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O autódromo de Interlagos fica entre quais duas grandes represas da cidade de São Paulo?",
+        "resposta": "Guarapiranga e Billings"
+      },
+      "existentes": [
+        {
+          "id": "q00548",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Interlagos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Como Silva era um sobrenome comum demais, Ayrton Senna da Silva passou a usar nas pistas o sobrenome de qual parente?",
+        "resposta": "Da mãe, Neide Senna"
+      },
+      "existentes": [
+        {
+          "id": "q00533",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Ayrton Senna"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1985, debaixo de chuva forte, Ayrton Senna venceu sua primeira corrida de Fórmula 1. Em que país foi essa vitória?",
+        "resposta": "Portugal"
+      },
+      "existentes": [
+        {
+          "id": "q00533",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Ayrton Senna"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A famosa curva Eau Rouge, em Spa-Francorchamps, tem o nome de um riacho que passa por ali. O que significa Eau Rouge?",
+        "resposta": "Água vermelha"
+      },
+      "existentes": [
+        {
+          "id": "q00549",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Spa-Francorchamps"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que montadora japonesa construiu o circuito de Suzuka, no começo dos anos sessenta, para servir como sua pista de testes?",
+        "resposta": "Honda"
+      },
+      "existentes": [
+        {
+          "id": "q00552",
+          "pergunta": "Que circuito de Fórmula 1 é este?",
+          "resposta": "Suzuka"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente é identificação visual do circuito; a nova pergunta sobre o nome oficial/homenageado é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Localização entre represas é fato distinto da identificação do circuito."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Origem do sobrenome Senna é fato distinto da identificação do atleta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "País da primeira vitória é fato distinto da identificação."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Significado de Eau Rouge é outro fato."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Construtor de Suzuka é outro fato."
+    }
+  ]
+}
