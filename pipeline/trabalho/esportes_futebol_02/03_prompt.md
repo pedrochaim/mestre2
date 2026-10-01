@@ -1,0 +1,1737 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Futebol** (tema **Esportes**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Final da Copa do Mundo de 1994",
+      "descricao": "Partida final da Copa do Mundo FIFA de 1994, entre Brasil e Itália, decidida nos pênaltis em Pasadena, nos Estados Unidos."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1994, nos Estados Unidos, Brasil e Itália decidiram a Copa nos pênaltis em qual estádio?",
+    "resposta": "Rose Bowl",
+    "distratores": [
+      "Giants Stadium",
+      "Soldier Field",
+      "Pontiac Silverdome"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_final"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_final",
+        "situacao": "ok",
+        "texto": "The final match of the 1994 FIFA World Cup, the 15th edition of the quadrennial soccer competition organized by FIFA for the men's national teams of its member associations, took place at the Rose Bowl in Pasadena, California, United States, on July 17, 1994. Brazil beat Italy 3–2 on penalties to claim its fourth World Cup title when the game finished 0–0 after extra time.\n[…]\nFIFA awarded the final game of the tournament to the famous college sports stadium near Los Angeles on June 30, 1992; the Rose Bowl was the largest stadium used for the tournament. With over 94,000 spectators, the 1994 final is the most recent World Cup final to have an attendance of 90,000 or more as of 2026.\n[…]\nThe game was played at the Rose Bowl, in the city of Pasadena, California, part of the Los Angeles metropolitan area. With a capacity of 102,000, it was the largest of the venues selected for the World Cup and had previously hosted the gold medal match at the 1984 Summer Olympics and five Super Bowls, as well as the annual Rose Bowl Game in college American football. The ball for this game was the Adidas Questra, which was introduced at the start of the World Cup.\n[…]\nThe Netherlands pulled a goal back a minute later through Dennis Bergkamp, and then equalized with 14 minutes remaining, through Aron Winter. Brazil scored again after 81 minutes when Branco hit a free kick from 30 yards (27 m) to seal a 3–2 win. Brazil's semifinal was against Sweden at the Rose Bowl in Pasadena, California, on July 13. Sweden defended deeply throughout the game and was reduced to 10 players when Jonas Thern was sent off in the 63rd minute for a foul on Dunga.\n[…]\n1999 FIFA Women's World Cup final – another World Cup final that was also held at the Rose Bowl and also decided by penalty shootout after neither finalist scored"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Final_da_Copa_do_Mundo_FIFA_de_1994",
+        "situacao": "ok",
+        "texto": "A final da Copa do Mundo da FIFA de 1994 foi a partida final da Copa do Mundo da FIFA de 1994, a décima quinta edição da Copa do Mundo, principal torneio de futebol organizado pela FIFA envolvendo seleções masculinas de suas associações. Ela foi realizada no Rose Bowl, em Pasadena, Califórnia, Estados Unidos, em 17 de julho de 1994, e foi disputada por Brasil e Itália.\n[…]\nA final foi realizada no Estádio Rose Bowl, na cidade de Pasadena, na Califórnia, parte da área metropolitana da cidade de Los Angeles. Com uma capacidade de 102 mil pessoas, era o maior estádio selecionado para a Copa do Mundo, e já tinha sido sede da final na modalidade de futebol nos Jogos Olímpicos de 1984 e cinco Super Bowls. A bola para o jogo foi a Adidas Questra, que foi apresentada no início da Copa do Mundo. A bola era mais leve dos que as usadas anteriormente.\n[…]\nNo Estádio Rose Bowl, antes da final, a cantora estadunidense Whitney Houston, que entrou em campo com Pelé, foi a artista principal para a cerimônia de abertura da decisão. Houston cantou cinco de seus sucessos, e teve o apoio de 2,5 mil figurantes. Pouco depois da apresentação terminar, o saxofonista Kenny G tocou o hino estadunidense no estádio. Presentes no estádio estavam figuras importantes do país, como o vice-presidente Al Gore, o ex-presidente George H. W.\n[…]\nPaolo Rossi, ex-atacante italiano, campeão da Copa do Mundo de 1982, declarou: \"O Brasil é uma equipe mais forte e a Itália [mereceu] um honroso segundo lugar, mas entristece ver uma final decidida nos pênaltis. Gianni Rivera, também ex-jogador italiano, corroborou a opinião de Rossi sobre a disparidade entre as equipes, afirmando que \"o resultado não foi inesperado\". Enzo Bearzot, técnico da mesma Itália campeã em 1982, afirmou que \"Chegar à final já [seria] uma conquista notável para a Itália\".\n[…]\nBrasil na Copa do Mundo FIFA de 1994",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Copa Intercontinental de 1981",
+      "descricao": "Decisão mundial de clubes de 1981 em que o Flamengo venceu o Liverpool por 3 a 0."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1981, o Flamengo de Zico venceu o Liverpool por três a zero e conquistou o mundo em qual cidade?",
+    "resposta": "Tóquio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1981_Intercontinental_Cup"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1981_Intercontinental_Cup",
+        "situacao": "ok",
+        "texto": "The 1981 Intercontinental Cup was an association football match between Liverpool of England and Flamengo of Brazil on 13 December 1981 at the National Stadium in Tokyo, Japan. The annual Intercontinental Cup was contested between the winners of the European Cup and the Copa Libertadores. Liverpool qualified for the Intercontinental Cup for the first time. They had declined to take part in 1977 an\n[…]\nLiverpool qualified for the Intercontinental Cup by winning the primary European cup competition, the European Cup. They won the 1980–81 European Cup defeating Spanish team Real Madrid 1–0 in the final. Flamengo qualified by winning the primary South American cup competition, the Copa Libertadores. They beat Chilean team Cobreloa 2–0 in a playoff after the previous ties finished 2–2 on points to win the 1981 Copa Libertadores.\n[…]\nLiverpool's last match before the Intercontinental Cup was against Arsenal in the fourth round of the 1981–82 Football League Cup. They won 3–0 in extra time courtesy of goals from Craig Johnston, Terry McDermott and Kenny Dalglish. The last match Flamengo played before the Intercontinental Cup was against Vasco de Gama in the final match of the 1981 Campeonato Carioca. Flamengo won 2–1 with goals from Adílio and João Batista Nunes to win the competition.\n[…]\nZico's pass put Nunes past the Liverpool defence and his precise shot from the right-hand side of the Liverpool penalty area went past Grobbelaar to give Flamengo a 3–0 lead.\n[…]\nThe match finished 3–0 to Flamengo to secure their first victory in the Intercontinental Cup.\n[…]\nA decision by the FIFA Council in 2017, considered all previous winners of the Intercontinental Cup to be world champions, on the same level as the FIFA Club World Cup. The two teams met each other again in the final of the 2019 FIFA Club World Cup. Liverpool won the final 1–0 in extra time.\n[…]\nLiverpool F.C. in international football"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copa_Europeia/Sul-Americana_de_1981",
+        "situacao": "ok",
+        "texto": "A Copa Europeia/Sul-Americana de 1981, também conhecida como Copa Intercontinental, Copa Toyota e popularmente como Mundial de Clubes, foi a 20.ª edição da competição e a segunda a ser disputada no formato de jogo único no Japão. O confronto ocorreu entre o Flamengo, do Brasil, campeão da Copa Libertadores da América, e o Liverpool, da Inglaterra, campeão da Liga dos Campeões da UEFA.\n[…]\nA vitória do Flamengo diante do Liverpool é o maior placar de uma final da Copa Intercontinental desde que os times passaram a jogar em campo neutro, entre 1980 e 2004. Milan e Estrela Vermelha, campeões em 1990 e 1991, respectivamente, também venceram seus jogos por 3 a 0.\n[…]\nA final da Copa Intercontinental de 1981 tinha duas equipes com metas diferentes. Para os ingleses, o objetivo era mostrar a superioridade do futebol britânico. O Liverpool ganhava vários títulos na era de ouro de sua história. A equipe inglesa havia conquistado um tricampeonato europeu e parecia não ter adversários (com exceção, talvez, do Nottingham Forest). Phil Neal, McDermott, Hansen, Souness e a grande estrela Kenny Dalglish eram os astros da equipe tricampeã europeia.\n[…]\nFoi então no dia 23 de novembro de 1981, no Estádio Centenário de Montevidéu, que o Flamengo conquistou seu primeiro título da Copa Libertadores, em uma vitória por 2 a 0 com dois gols de Zico, o grande jogador da equipe. O time teria então apenas 20 dias para a disputa do Mundial. Os grandes astros da equipe carioca eram Raul Plassmann, Leandro, Júnior, Nunes e a grande estrela Zico.\n[…]\nO Liverpool sentiu o golpe. E viu que o jogo estava definitivamente perdido ainda aos 41 minutos do primeiro tempo. Zico protagonizou um lance parecido com o do primeiro gol: lançou novamente Nunes, que avançou e bateu friamente na saída do goleiro. Antes mesmo do intervalo o Flamengo vencia por 3 a 0.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "The Football Association",
+      "descricao": "Federação de futebol da Inglaterra, fundada em Londres em 1863, que deu origem às regras modernas do esporte."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1863, a associação inglesa que deu origem às regras modernas do futebol foi fundada numa reunião em que tipo de estabelecimento de Londres?",
+    "resposta": "Uma taverna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Football_Association",
+      "https://en.wikipedia.org/wiki/Freemasons%27_Tavern"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Football_Association",
+        "situacao": "ok",
+        "texto": "The Football Association (the FA) is the governing body of association football in England and the Crown Dependencies of Jersey, Guernsey and the Isle of Man. Formed in 1863, it is the oldest football association in the world and is responsible for overseeing all aspects of the amateur and professional game in its territory.\n[…]\nIt was in England where the first official Association with clear rules was formed. For centuries before the first meeting of the Football Association in the Freemasons' Tavern in Great Queen Street, London on 26 October 1863, there were no universally accepted rules for playing football.\n[…]\nIn 1862, Ebenezer Cobb Morley, as captain of Barnes, wrote to Bell's Life newspaper proposing a governing body for the sport \"with the object of establishing a definite code of rules for the regulation of the game\"; the letter led to the first meeting at The Freemasons' Tavern that created the FA in 1863. Morley was a founding member. Six meetings near London's Covent Garden, at 81–82 Long Acre, ended in a split between the Association football and Rugby football.\n[…]\nThe first version of the rules for the modern game was drawn up over a series of six meetings held in The Freemasons' Tavern from October to December. Of the clubs at the first meeting, Crusaders, Surbiton and Charterhouse did not attend the subsequent meetings, replaced instead by the Royal Navy School, Wimbledon School and Forest School.\n[…]\nThe Football Association first joined FIFA in 1905. The British Associations (England, Ireland, Scotland and Wales) opted to leave FIFA after World War I when FIFA chose not to exclude those who were part of the Central Powers from the organisation. The British Associations' stance had changed by 1922 and in 1924 they had rejoined FIFA."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Freemasons%27_Tavern",
+        "situacao": "ok",
+        "texto": "The Freemasons' Tavern was established in 1775 at 61–65 Great Queen Street in the West End of London. It served as a meeting place for a variety of notable organisations from the 18th century until it was demolished in 1909 to make way for the Connaught Rooms.\n[…]\nIn 1769, the Premier Grand Lodge of England decided to build a Central Hall. A building was purchased in Great Queen Street in 1775 and Thomas Sandby was tasked with building a hall in the garden. The original house became the tavern with a second house providing office space for the Freemasons. In 1813 the Premier Grand Lodge and rival Ancient Grand Lodge of England merged to form the United Grand Lodge of England.\n[…]\nThe Football Association (FA) held its first meeting here on 26 October 1863\n[…]\nIn 1909 the Grand Lodge demolished most of the Freemasons' Tavern and replaced it over succeeding decades with a new building designed by H. V. Ashley and Winton Newman, who also designed the adjoining Freemasons' Hall. The new building, costing £30,000, was named the Connaught Rooms after the Lodge's Grand Master, Prince Arthur, Duke of Connaught and Strathearn."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Football_Association",
+        "situacao": "ok",
+        "texto": "The Football Association (em português:  Associação de Futebol [da Inglaterra]; conhecida também como The FA) é a entidade que controla o futebol na Inglaterra e nas dependências da Coroa de Jersey, Guernsey e Ilha de Man. Formada em 1863, é a mais antiga associação de futebol do mundo e é responsável por supervisionar todos os aspectos do jogo amador e profissional em seu território. Foi a FA que\n[…]\nA FA é membro da UEFA e da FIFA e tem assento permanente na International Football Association Board (IFAB), que é responsável pelas regras do jogo. Como a primeira associação de futebol, não usa o nome nacional \"Inglês\" em seu título.\n[…]\nTodos os times de futebol profissional da Inglaterra são membros da Football Association. Embora não administre as operações diárias da Premier League, tem poder de veto sobre a nomeação do presidente e executivo-chefe da liga e sobre quaisquer alterações nas regras da liga. A English Football League, composta pelas três divisões totalmente profissionais abaixo da Premier League, é autônoma, sujeita às sanções da FA.\n[…]\nAntes da primeira reunião da FA, em Londres, na data de 26 de outubro de 1863, não havia regras universalmente aceitas para o futebol, o intuito era formar uma associação que unificasse as regras do futebol. Naquela época, os principais códigos de futebol utilizados eram as regras de Cambridge, as regras de Sheffield e as regras de Rugby.\n[…]\nAo todo, ocorreram 6 reuniões entre clubes ingleses entre outubro e dezembro de 1863, na primeira reunião dez clubes estiveram presentes, sendo que um deles não continuou na associação\n[…]\nSistema de ligas do futebol da Inglaterra\n[…]\nSeleção Inglesa de Futebol\n[…]\nSeleção Inglesa de Futebol Feminino",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "FIFA",
+      "descricao": "Federação Internacional de Futebol, entidade que organiza a Copa do Mundo, fundada em 1904."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A FIFA, entidade máxima do futebol mundial, foi fundada em 1904 em qual cidade?",
+    "resposta": "Paris",
+    "distratores": [
+      "Londres",
+      "Zurique",
+      "Bruxelas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FIFA"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/FIFA",
+        "situacao": "ok",
+        "texto": "The Fédération Internationale de Football Association (FIFA) (French for 'International Association Football Federation') is an international self-regulatory governing body of association football, beach soccer, and futsal. It was founded on 21 May 1904 to oversee international competition among the national associations of Belgium, Denmark, France, Germany, the Netherlands, Spain, Sweden, and Swi\n[…]\nThe need for a single body to oversee association football became increasingly apparent at the beginning of the 20th century with the increasing popularity of international fixtures. The Fédération Internationale de Football Association (FIFA) was founded in the rear of the headquarters of the Union des Sociétés Françaises de Sports Athlétiques (USFSA) at the Rue Saint Honoré 229 in Paris on 21 May 1904. The French name and acronym are universally adopted outside French-speaking countries.\n[…]\nUnion of European Football Associations (UEFA; 55 members - all are FIFA Members)\n[…]\nThe 2015 FIFA corruption scandal exposed a widespread bribery and corruption scheme within FIFA. This scandal implicated over two dozen FIFA officials and associates in a 24-year self-enrichment scheme that reached the highest levels of FIFA management. The scandal damaged its reputation and prompting widespread calls for significant reforms in the governance of international football.\n[…]\nFIFA holds an annual awards ceremony, The Best FIFA Football Awards since 2016, which recognizes both individual and team achievements in international association football. Individually, the top men's player is awarded The Best FIFA Men's Player, and the top women's player is The Best FIFA Women's Player. Other prominent awards are The Best FIFA Football Coach and FIFA FIFPRO World 11.\n[…]\nAssociation football: Recognized 1904 (men), 1988 (women)\n[…]\nDAZN (FIFA+)\n[…]\n\"FIFA\". Internal Revenue Service filings. ProPublica Nonprofit Explorer."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Federa%C3%A7%C3%A3o_Internacional_de_Futebol",
+        "situacao": "ok",
+        "texto": "A Federação Internacional de Futebol, por vezes referida como Federação Internacional de Futebol Associação (em francês: Fédération Internationale de Football Association), mais conhecida pelo acrônimo FIFA, é um órgão sem fins lucrativos internacional autorregulador que rege o futebol, o futsal e o futebol de areia.\n[…]\nA FIFA é a entidade máxima que rege o esporte e organiza eventos de futebol em todo o mundo, incluindo a Copa do Mundo (disputada por seleções) e o Mundial de Clubes (disputada por clubes). Filiada ao Comitê Olímpico Internacional, (COI), a FIFA foi fundada em Paris, em 21 de maio de 1904, e tem sua sede em Zurique, na Suíça. Seu atual presidente é o suíço-italiano Gianni Infantino.\n[…]\nAs regras do futebol que governam o jogo não são apenas de responsabilidade da FIFA. Existe um comité chamado International Football Association Board (IFAB) que discute e pondera as regras do futebol. No comitê, a FIFA é representada por quatro dirigentes (metade do comité). A outra metade do comitê é composta por representantes de Inglaterra, Escócia, País de Gales e Irlanda do Norte.\n[…]\nTambém no dia 20 de maio, a instituição abriu o congresso que celebrou seu centenário. E, para festejar, a entidade criou a Ordem do Mérito do Centenário, dividida em dez categorias e entregue durante a cerimônia realizada em Paris. Os agraciados com o prêmio foram:\n[…]\nEm maio de 2010, após dois funcionários da FIFA pagarem cinco milhões e meio de francos suíços em reparações, a procuradoria de Zug, na Suíça, arquivou um processo por peculato e por falsidade ideológica contra ambos e contra a Federação Internacional de Futebol. Na época, cinco jornalistas solicitaram vistas aos documentos do processo, mas os dois funcionários da FIFA entraram na justiça, numa tentativa de impedi-los.\n[…]\nFIFA no Twitter\n[…]\nFIFA no YouTube",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Copa do Mundo de Futebol Feminino de 1991",
+      "descricao": "Primeira Copa do Mundo feminina organizada pela FIFA, disputada em 1991 e vencida pelos Estados Unidos."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A primeira Copa do Mundo feminina organizada pela FIFA, vencida pelos Estados Unidos em 1991, foi disputada em qual país?",
+    "resposta": "China",
+    "distratores": [
+      "Suécia",
+      "Noruega",
+      "Japão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1991_FIFA_Women%27s_World_Cup"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1991_FIFA_Women%27s_World_Cup",
+        "situacao": "ok",
+        "texto": "The 1991 FIFA Women's World Cup was the first FIFA Women's World Cup, the world championship for women's national football teams. It took place in Guangdong, China from 16 to 30 November 1991. FIFA, football's international governing body, selected China as host nation as Guangdong had hosted a prototype world championship three years earlier, the 1988 FIFA Women's Invitation Tournament. Matches w\n[…]\nThe competition was sponsored by Mars, Incorporated, maker of M&M's candy. With FIFA still reluctant to bestow their \"World Cup\" brand, the tournament was officially known as the 1st FIFA World Championship for Women's Football for the M&M's Cup.\n[…]\nIn the opening match at the same stadium, Norway was defeated 4–0 by hosts China. Chinese defender Ma Li scored the first goal in Women's World Cup history, while goalkeeper Zhong Honglian, also of China, posted the first official clean sheet in the tournament.\n[…]\nThe 1991 Women's World Cup had twelve participating teams compete in the final tournament. Each of the six FIFA confederations had at least one representative.\n[…]\nFor a list of the squads that contended for the final tournament, see 1991 FIFA Women's World Cup squads.\n[…]\n\"As president of FIFA it was a special pleasure for me to watch these young ladies playing with such flair and such elegance, and according to the reports of the many media representatives present, making the game truly into a celebration ... women's football is now well and truly established.\"\n[…]\nThe draw for the group stage was held on 14 September 1991 at the Tianhe Stadium in Guangzhou, China. The draw was part of a televised two-hour live show, featuring songs in both Chinese and English from the female singers Zhang Qiang (Beijing), Lin Ping (Guangzhou), Jenny Tseng (Hong Kong) and Irene Yeh (Taiwan).\n[…]\nSource: FIFA Technical Report\n[…]\nFIFA Women's World Cup China PR 1991, FIFA.com\n[…]\nFIFA Technical Report (Part 1) and (Part 2)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copa_do_Mundo_Feminina_da_FIFA_de_1991",
+        "situacao": "ok",
+        "texto": "A Copa do Mundo Feminina da FIFA de 1991 foi a primeira edição do torneio organizado pela Federação Internacional de Futebol (FIFA). Teve início no dia 16 de novembro e término em 30 de novembro de 1991. Sua sede foi a Província de Guangdong,na China. Participaram da competição doze países. Foram disputadas vinte e seis partidas ao longo da competição.\n[…]\nO Campeonato foi realizado em quatro cidades da China: Guangzhou nos distritos de Tianhe, Panyu e Yuexiu; Foshan; Jiangmen e Zhongshan.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Marta",
+      "descricao": "Marta Vieira da Silva, jogadora eleita seis vezes a melhor do mundo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Marta, eleita seis vezes a melhor jogadora do mundo, nasceu em Dois Riachos, no sertão de qual estado brasileiro?",
+    "resposta": "Alagoas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Marta_(futebolista)",
+      "https://en.wikipedia.org/wiki/Marta_(footballer)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Marta_(futebolista)",
+        "situacao": "ok",
+        "texto": "Marta Vieira da Silva (Dois Riachos, 19 de fevereiro de 1986) é uma futebolista brasileira que atua como ponta-esquerda ou meio-campista. Atualmente, joga pelo Orlando Pride, dos Estados Unidos (EUA).\n[…]\nNo duelo entre Itália e Brasil, pela fase de grupos da Copa do Mundo de 2019, Marta marcou seu 17º gol, consagrando-se como a maior artilheira da Copa do Mundo de Futebol Feminino. Além disso, é a primeira pessoa a marcar em cinco edições diferentes do torneio (considerando homens e mulheres). Foi eleita a melhor jogadora de futebol da história pela Federação Internacional de História e Estatísticas do Futebol (IFFHS).\n[…]\nMarta começou a jogar futebol no juvenil do Centro Sportivo Alagoano (CSA), em 1999, e iniciou a carreira profissional no Vasco da Gama, em 2000, aos 14 anos. Após três anos no time cruzmaltino, foi emprestada ao time mineiro Santa Cruz, onde jogaria por mais duas temporadas, antes de ser negociada pelo time carioca, para defender o Umeå IK, da Suécia. Por este clube, tornou-se muito mais conhecida na Europa e foi se destacando cada vez mais, até ser considerada a melhor jogadora do mundo.\n[…]\nApós a falência do Tyresö em 2014, Marta foi contratada em julho pelo FC Rosengård, também da Suécia. A jogadora assinou um contrato de apenas seis meses, mas com possibilidade de renovação. \"Recebi várias ofertas da Europa e dos Estados Unidos, mas ainda tenho fome de títulos, especialmente a Liga dos Campeões\", disse a brasileira em entrevista. \"Vejo um grande potencial no Rosengard, uma equipe forte, e vou fazer todo o possível para que se transforme na melhor da Europa\", acrescentou.\n[…]\nMelhor Jogadora Feminina da Década do Mundo da IFFHS 2011–2020\n[…]\nMarta em Olympics.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Marta_(footballer)",
+        "situacao": "ok",
+        "texto": "Marta Vieira da Silva (Portuguese pronunciation: [ˈmaʁtɐ viˈejɾɐ dɐ ˈsiwvɐ]; born 19 February 1986), known mononymously as Marta, is a Brazilian professional footballer who plays as a forward for the National Women's Soccer League club Orlando Pride and captains the Brazil women's national team. Regarded by many as the greatest female footballer of all time, she has been named FIFA World Player of\n[…]\nMarta was discovered at the age of 14 by Brazilian coach Helena Pacheco. After playing for the Centro Sportivo Alagoano youth team, Marta started her professional career at Vasco da Gama in 2000, but the club folded two years later. She then transferred to Santa Cruz, a small club in the state of Minas Gerais, where she played for two more seasons before joining Umeå IK of Sweden.\n[…]\nLATAM Airlines Brasil named Marta their \"Global Leader of Diversity and Inclusion\" in 2022 and featured her in television commercials. Marta launched a sportswear brand named Go Equal in 2023 and donated all royalties from product sales to football-related organizations that promote female leadership in the sport.\n[…]\nMarta was born in Dois Riachos, Alagoas, where she first learned to play football in the streets with boys. She has three siblings, José, Valdir, and Angela. Her parents are Aldário and Tereza. Her father left the family while Marta was a baby. She moved away from her family at the age of 14 to pursue a professional football career. She is fluent in Portuguese, Spanish, Swedish and English. She is a Catholic and states that God is very important to her, although she does not go to church often.\n[…]\nCopa do Brasil de Futebol Feminino: 2009\n[…]\nFIFA Marta Award: 2024\n[…]\nMarta at the National Women's Soccer League\n[…]\nMarta at Soccerway (archive)\n[…]\nMarta at Olympics.com\n[…]\nMarta at Olympedia\n[…]\nMarta at the Comitê Olímpico do Brasil  (in Portuguese)\n[…]\nMarta on Instagram"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Cafu",
+      "descricao": "Marcos Evangelista de Morais, lateral-direito brasileiro, capitão da seleção campeã mundial em 2002."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Ao erguer a taça em 2002, o capitão Cafu exibiu na camisa uma homenagem a qual bairro paulistano onde cresceu?",
+    "resposta": "Jardim Irene",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cafu",
+      "https://pt.wikipedia.org/wiki/Cafu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cafu",
+        "situacao": "ok",
+        "texto": "Marcos Evangelista de Morais (born 7 June 1970), known as Cafu ([kaˈfu]), is a Brazilian former professional footballer who played as a right-back. Widely regarded as one of the greatest full-backs of all time, he was known for his pace and energetic attacking runs along the right flank. He is the most-capped player for the Brazil national team with 142 appearances.\n[…]\nOne of six children, Cafu was raised in the Jardim Irene favela of São Paulo. At the age of seven, he was able to attend a football academy and soon moved up to the junior sides of Nacional-SP, Portuguesa, and Itaquaquecetuba. He also played futsal for two years.\n[…]\nAfter captaining Brazil to the title in the 2002 FIFA World Cup, Cafu was still ever-present, and although he missed six of the last seven league matches, he made an impact, helping Roma finish 8th and still reach the Coppa Italia final.\n[…]\nBrazil endured a rocky qualification for the 2002 tournament, during which Cafu came under heavy criticism from coach Vanderlei Luxemburgo, who stripped him of the team captaincy after he was sent off in a qualifier against Paraguay. Shortly after that, however, Luxemburgo was out of a job, and replacement Luiz Felipe Scolari made Emerson his new choice for captain. However, Emerson missed the cut after he dislocated his shoulder in training, which allowed Cafu to regain the armband.\n[…]\nAfter Brazil defeated Germany 2–0 in the final match (Cafu's third consecutive World Cup final), he stood on the victory podium during the postmatch celebration and, as he raised the World Cup trophy, shouted to his wife, \"Regina, eu te amo!\" (\"Regina, I love you!\"). Cafu had also written \"100% Jardim Irene\" on his shirt as an homage to his upbringing.\n[…]\nOfficial Cafu Foundation site (in Portuguese)\n[…]\nCafu profile by Aaron Marcus – acmilan-online.com\n[…]\nCafu – UEFA competition record (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cafu",
+        "situacao": "ok",
+        "texto": "Marcos Evangelista de Morais (Itaquaquecetuba, 7 de junho de 1970), mais conhecido como Cafu, é um ex-futebolista brasileiro que atuava com lateral-direito. Considerado por muitos como um dos maiores da sua posição na história do futebol, é o recordista de jogos pela Seleção Brasileira Masculina, com 142 partidas. Fez parte das equipes vencedoras das Copas do Mundo de 1994 e 2002, além de ter disp\n[…]\nComeçou jogando pelo São Paulo, em 1989, depois de passar por nove \"peneiras\" sem sucesso. Ao contrário que muitos pensam, Cafu surgiu no Soberano atuando como atacante, quase um ponta-direita. Vestindo a camisa 11 tricolor, fez uma partida irretocável na primeira final do Campeonato Paulista de 1992 contra o rival Palmeiras, marcando um gol e dando três assistências na vitória por 4–2.\n[…]\nDepois disso, Cafu se tornou um titular absoluto no time brasileiro, ganhando a Copa América em 1997 e 1999, e levando o país à final da Copa do Mundo de 1998, que perderam para a França. Depois de uma penosa eliminatória, Cafu foi o capitão do Brasil na Copa do Mundo de 2002 depois de uma contusão do então capitão Emerson, e ajudou o time a ganhar de 2–0 da Alemanha na final. Ao levantar o troféu da Copa, Cafu imortalizou o amor a sua esposa, dizendo: \"Regina, eu te amo!\".\n[…]\nNa camisa o capitão da seleção de 2002 escreveu a frase \"100% Jardim Irene\" lembrando de sua origem humilde num bairro periférico da zona sul de São Paulo.\n[…]\nCafu é o jogador que mais vezes vestiu a camisa da Seleção Brasileira com 142 jogos, além de ser o único jogador na história do futebol a ter jogado três finais de Copa do Mundo da FIFA. Essas participações de Cafu em decisões ocorreram consecutivamente (1994, 1998 e 2002), feito que certamente será muito difícil de ser superado. É o jogador brasileiro com mais partidas disputadas em Copa do Mundo: entrou em campo 20 vezes.\n[…]\nCafu no Instagram\n[…]\nCafu no X\n[…]\n«Cafu». no Sambafoot"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Ronaldinho Gaúcho",
+      "descricao": "Ronaldo de Assis Moreira, meia-atacante brasileiro do Barcelona, campeão mundial em 2002."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 2005, Ronaldinho Gaúcho fez dois gols pelo Barcelona e foi aplaudido de pé pela torcida rival em qual estádio?",
+    "resposta": "Santiago Bernabéu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ronaldinho"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ronaldinho",
+        "situacao": "ok",
+        "texto": "Ronaldo de Assis Moreira (born 21 March 1980), commonly known as Ronaldinho Gaúcho or simply Ronaldinho, is a Brazilian professional footballer who plays as an attacking midfielder or left winger for Serie C side Ravenna. Widely regarded as one of the greatest players of all time, he won the Ballon d'Or, two FIFA World Player of the Year awards, and was named the FIFPro Player of the Season twice.\n[…]\nRonaldinho returned from injury and scored 15 goals in La Liga during the 2003–04 season, helping the team ultimately finish second in the league. His scooped pass set up the winning goal for Xavi away to Real Madrid on 25 April 2004, the club's first win at the Bernabéu in seven years, a result Xavi credits as the start of \"the Barcelona rise\".\n[…]\nOn 19 November, Ronaldinho scored twice as Barcelona defeated Real Madrid 3–0 on the road in the first leg of El Clásico. After he sealed the match with his second goal, Madrid fans paid homage to his performance by applauding, so rare a tribute only Diego Maradona had ever been granted previously as a Barcelona player at the Santiago Bernabéu Stadium. Ronaldinho stated, \"I will never forget this because it is very rare for any footballer to be applauded in this way by the opposition fans.\"\n[…]\nThis was the second time in Ronaldinho's career he had received such an ovation from opposing fans (after Madrid fans had applauded his performance in a Barcelona shirt in 2005), and after the match, Ronaldinho stated in an interview, \"It is an emotion to live more. I had an ovation at the Bernabéu and now here. I never imagined this. It is something that makes me like Mexico even more and I feel right at home.\"\n[…]\nIn fiction, Ronaldinho features as a character in Rupert Thomson's 2021 novel Barcelona Dreaming.\n[…]\nOnze d'Or: 2005\n[…]\nRonaldinho Gaúcho official website at the Wayback Machine (archived 6 March 2010) (in Spanish, Portuguese, English, and Italian)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ronaldinho_Ga%C3%BAcho",
+        "situacao": "ok",
+        "texto": "Ronaldo de Assis Moreira (Porto Alegre, 21 de março de 1980), mais conhecido como Ronaldinho Gaúcho, é um futebolista, cantor e compositor brasileiro que atua como meio-campista, segundo atacante ou ponta-esquerda no Ravenna Calcio. Amplamente reconhecido como um dos jogadores mais talentosos da história, destacou-se pela extrema habilidade, pelos dribles memoráveis e pela técnica refinada. É cons\n[…]\nNa temporada seguinte, a de 2005–06, repetiu o feito conquistando novamente o Campeonato Espanhol. Nesta temporada, ficou marcado por sua atuação no jogo contra o Real Madrid, o chamado El Clásico, realizado em 19 de novembro de 2005. Ronaldinho marcou duas vezes e foi o grande destaque da vitória por 3–0 na casa do adversário, o Estádio Santiago Bernabéu.\n[…]\nMais do que um confronto entre dois times que disputavam o Brasileirão, o jogo se tornou um duelo entre a torcida gremista e Ronaldinho Gaúcho, que voltava ao estádio no qual se criou, dez anos depois de ter trocado o clube pelo Paris Saint-Germain e um ano depois de preferir o time carioca ao gaúcho quando retornou ao Brasil.\n[…]\nEm 18 de abril, Ronaldinho Gaúcho começou uma partida no banco de reservas, ficando lá até os 39 do segundo tempo. Em oito minutos, o craque marcou duas vezes e garantiu a goleada do seu time por 4–0 sobre o América, mandante. Ganhou o reconhecimento da torcida da casa no Estádio Azteca.\n[…]\nApesar das críticas que recebeu na Copa do Mundo de 2006, Ronaldinho Gaúcho continuou a ser convocado regularmente para a Seleção pelo técnico Dunga, que assumiu após aquela Copa. Em 24 de março de 2007, num amistoso contra o Chile em Gotemburgo, Ronaldinho marcou dois gols na vitória brasileira por 4-0, acabando com um longo jejum de gols. Ele não marcava um gol pela seleção desde a vitória por 4-1 contra a Argentina na final da Copa das Confederações de 2005.\n[…]\nBarcelona\n[…]\nRonaldinho Gaúcho no X\n[…]\n«Ronaldinho». no Sambafoot",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Voo LaMia 2933",
+      "descricao": "Queda do avião que levava a equipe da Chapecoense para a final da Copa Sul-Americana, em novembro de 2016, na Colômbia."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em novembro de 2016, o avião que levava a Chapecoense para a final da Copa Sul-Americana caiu perto de qual cidade colombiana?",
+    "resposta": "Medellín",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/LaMia_Flight_2933"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/LaMia_Flight_2933",
+        "situacao": "ok",
+        "texto": "LaMia Flight 2933 was a regularly scheduled charter flight from Santa Cruz de la Sierra, Bolivia, to Medellín, Colombia. On 28 November 2016, the aircraft operating the flight crashed into Mt. Cerro Gordo near the town of La Unión, Antioquia, Colombia, killing 71 of the 77 people on board. The aircraft was transporting the first-team squad of the Brazilian football club Chapecoense and their entou\n[…]\nAn investigative report by Spanish-language American media company Univision, using data from the Flightradar24 website, claimed that the airline had broken the fuel and loading regulations of the International Civil Aviation Organization on 8 of its 23 previous flights since 22 August, three of which came within a month, including two direct flights from Medellín to Santa Cruz: one on 29 October transporting Chapecoense's final opponent, Atlético Nacional to the away leg of their Copa Sudamericana semifinal, and a flight without passengers on 4 November, and flights involving the Argentina national team to a match for the 2018 World Cup Qualifiers a week later.\n[…]\nSpecific deficiencies in the planning of the flight by LaMia\n[…]\nAll activities related to CONMEBOL (the South American Football Confederation) were suspended immediately, including both legs of the Copa Sudamericana final, scheduled for 30 November and 7 December, and the second leg of the Copa do Brasil Final. Atlético Nacional, Chapecoense's opponents-to-be in the final, asked CONMEBOL to honor Chapecoense by awarding them the Copa Sudamericana title, stating that \"for our part, and forever, Chapecoense are champions of the 2016 Copa Sudamericana\".\n[…]\n\"Final Report Accident COL-16-37-GIA Fuel Exhaustion AVRO 146-RJ85, Reg. CP2933 29 November 2016 Aircraft, La Unión, Antioquia–Colombia\" (PDF). Archived from the original (PDF) on 6 September 2022. Retrieved 15 February 2019. (in English) - Alternate URL"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voo_LaMia_2933",
+        "situacao": "ok",
+        "texto": "Voo 2933 da LaMia faz referência a um acidente aéreo ocorrido com uma operação charter operada pela companhia boliviana LaMia, com a identificação LMI2933, a serviço do clube brasileiro Associação Chapecoense de Futebol, originário de Santa Cruz de la Sierra, Bolívia, com destino ao Aeroporto Internacional José María Córdova, em Rionegro, Colômbia.\n[…]\nO avião levava 77 pessoas a bordo, tendo por passageiros atletas, equipe técnica e diretoria do time brasileiro, jornalistas e convidados, que iriam a Medellín, onde o clube disputaria a primeira partida da Final da Copa Sul-Americana, contra o Atlético Nacional. Entre passageiros e tripulantes, setenta e uma pessoas morreram na queda e seis foram resgatadas com vida.\n[…]\nO time brasileiro da Chapecoense viajava no dia 28 de novembro de 2016 para o jogo de ida da final da Copa Sul-Americana de 2016, contra o Atlético Nacional em Medellín, na Colômbia, que seria realizado dois dias depois. Ainda no Brasil, a equipe tentou, a princípio, fazer o voo saindo do aeroporto de Guarulhos direto para Medellín.\n[…]\nPouco depois, o avião caiu ao se aproximar do Aeroporto José Maria Córdova, em Rionegro, arredores de Medellín, em um monte chamado Cerro El Gordo, de 2 600 m de altitude msl. Em pouco tempo, as autoridades identificaram o local da queda. Helicópteros foram inicialmente incapazes de chegar aos destroços devido à névoa densa, e o acesso dos socorristas da Força Aérea da Colômbia teve que ser por terra.\n[…]\nEm 19 de dezembro de 2016, o prefeito de Chapecó em exercício, Luciano Buligon, através da lei municipal 6926, declarou a cidade de Medellín, cidade-irmã de Chapecó  e no dia 3 de abril de 2017, os prefeitos em exercício de Chapecó e Medellín, Luciano Buligon e Francisco Gutiérrez Zuluaga, assinaram a Declaração Conjunta de Cidades-irmãs para os dois municípios.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Cristiano Ronaldo",
+      "descricao": "Cristiano Ronaldo dos Santos Aveiro, atacante português ídolo do Manchester United e do Real Madrid."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Cristiano Ronaldo nasceu em Funchal, capital de qual arquipélago português no oceano Atlântico?",
+    "resposta": "Madeira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+        "situacao": "ok",
+        "texto": "Cristiano Ronaldo dos Santos Aveiro (born 5 February 1985) is a Portuguese professional footballer who plays as a forward for and captains the Saudi Pro League club Al-Nassr. Nicknamed CR7, he played for the Portugal national team for 23 years, retiring in 2026. He has won numerous individual accolades throughout his career, including five Ballons d'Or, a record three UEFA Men's Player of the Year\n[…]\nCristiano Ronaldo dos Santos Aveiro was born on 5 February 1985 in the São Pedro parish of Funchal, the capital of the Portuguese island of Madeira. He grew up in the nearby parish of Santo António. His mother, Maria Dolores dos Santos Viveiros Aveiro, worked as a cook in the hospitality industry and as a cleaning woman. His father, José Dinis Aveiro, was a municipal gardener at the Junta de Freguesia of Santo António and a part-time kit man for the football club Andorinha.\n[…]\nAfter accepting undisclosed damages from a libel case against The Sun newspaper in 2008, Ronaldo donated the damages to a charity in Madeira.\n[…]\nIn 2007, C.D. Nacional renamed its youth campus Cristiano Ronaldo Campus Futebol (Cristiano Ronaldo Football Campus). In December 2013, Ronaldo opened a museum, Museu CR7, in his hometown of Funchal, Madeira, to house trophies and memorabilia; the museum is an official sponsor of the local football team União da Madeira.\n[…]\nOn 23 July 2016, following Portugal's triumph at Euro 2016, Madeira Airport in Funchal was renamed as Cristiano Ronaldo International Airport. The name change was subject to much debate locally by some politicians and citizens, who even started a petition against the move, an action criticised by President of Madeira Miguel Albuquerque. On 21 September 2020, the Sporting CP's football academy in Alcochete, until then called Academia Sporting, was renamed Academia Cristiano Ronaldo.\n[…]\nPortugal\n[…]\nCristiano Ronaldo at Premier League (archived former page)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cristiano_Ronaldo",
+        "situacao": "ok",
+        "texto": "Cristiano Ronaldo dos Santos Aveiro GOIH • GCM (Funchal, 5 de fevereiro de 1985), é um futebolista português que joga como avançado no Al-Nassr. Tornou-se o maior goleador da história do futebol, simultaneamente por clubes e seleções, trajetória que o levou ao recorde de cinco nomeações ao prémio de melhor goleador do mundo pela Federação Internacional de História e Estatísticas do Futebol (IFFHS)\n[…]\nCristiano Ronaldo dos Santos Aveiro nasceu a 5 de fevereiro de 1985 na freguesia de São Pedro, no Funchal, capital da ilha portuguesa da Madeira, e cresceu na vizinha freguesia de Santo António.\n[…]\nÉ o quarto e mais novo filho de Maria Dolores dos Santos Viveiros Aveiro, que trabalhou como cozinheira na indústria hoteleira e como empregada de limpeza, e de José Dinis Aveiro que era jardineiro municipal da Junta de Freguesia de Santo António e também trabalhava como kitman em tempo parcial no clube de futebol Andorinha. A sua bisavó paterna, Isabel da Piedade, uma mulher africana, nasceu na ilha de São Vicente, no então Cabo Verde português, e mudou-se para a Ilha da Madeira aos 16 anos.\n[…]\nNa final contra a França, Cristiano Ronaldo sofreu uma entrada dura de Dimitri Payet. Mesmo tentando continuar em campo, a lesão o obrigou a sair aos 25 minutos. Do banco, acompanhou Eder a marcar o golo da vitória aos 109 minutos do prolongamento. Na cerimónia de entrega do troféu, o capitão da seleção portuguesa finalmente pôde erguer a taça, conquistando um título importantíssimo pela equipa nacional, um dos poucos que ainda faltavam na sua carreira.\n[…]\nDepois do seu filho alcançar o status de lenda no futebol mundial, a mãe de Cristiano Ronaldo, Dolores Aveiro, tornou-se uma personalidade popular em Portugal a tal ponto que campanhas publicitárias de marcas conhecidas no país, como Maggi, MultiOpticas e Pingo Doce, escolheram-na para publicidade.\n[…]\nSeleção Portuguesa\n[…]\n«O Madeirense Cristiano Ronaldo»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Cristiano Ronaldo",
+      "descricao": "Cristiano Ronaldo dos Santos Aveiro, atacante português ídolo do Manchester United e do Real Madrid."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Ronaldo, de Cristiano Ronaldo, foi escolhido pelo pai em homenagem a qual ator que virou presidente dos Estados Unidos?",
+    "resposta": "Ronald Reagan",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cristiano_Ronaldo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cristiano_Ronaldo",
+        "situacao": "ok",
+        "texto": "Cristiano Ronaldo dos Santos Aveiro (born 5 February 1985) is a Portuguese professional footballer who plays as a forward for and captains the Saudi Pro League club Al-Nassr. Nicknamed CR7, he played for the Portugal national team for 23 years, retiring in 2026. He has won numerous individual accolades throughout his career, including five Ballons d'Or, a record three UEFA Men's Player of the Year\n[…]\nCristiano Ronaldo dos Santos Aveiro was born on 5 February 1985 in the São Pedro parish of Funchal, the capital of the Portuguese island of Madeira. He grew up in the nearby parish of Santo António. His mother, Maria Dolores dos Santos Viveiros Aveiro, worked as a cook in the hospitality industry and as a cleaning woman. His father, José Dinis Aveiro, was a municipal gardener at the Junta de Freguesia of Santo António and a part-time kit man for the football club Andorinha.\n[…]\nRonaldo has an older brother, Hugo, and two older sisters, Elma and Liliana \"Kátia\" Cátia. His father was an admirer of United States president Ronald Reagan, and named Ronaldo after him. Ronaldo's mother revealed that she had wanted to abort him due to poverty, his father's alcoholism, and having too many children already, but her doctor refused to perform the procedure.\n[…]\nOn 23 July 2016, following Portugal's triumph at Euro 2016, Madeira Airport in Funchal was renamed as Cristiano Ronaldo International Airport. The name change was subject to much debate locally by some politicians and citizens, who even started a petition against the move, an action criticised by President of Madeira Miguel Albuquerque. On 21 September 2020, the Sporting CP's football academy in Alcochete, until then called Academia Sporting, was renamed Academia Cristiano Ronaldo.\n[…]\nCristiano Ronaldo – UEFA competition record (archive)\n[…]\nCristiano Ronaldo at Premier League (archived former page)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cristiano_Ronaldo",
+        "situacao": "ok",
+        "texto": "Cristiano Ronaldo dos Santos Aveiro GOIH • GCM (Funchal, 5 de fevereiro de 1985), é um futebolista português que joga como avançado no Al-Nassr. Tornou-se o maior goleador da história do futebol, simultaneamente por clubes e seleções, trajetória que o levou ao recorde de cinco nomeações ao prémio de melhor goleador do mundo pela Federação Internacional de História e Estatísticas do Futebol (IFFHS)\n[…]\nCristiano Ronaldo dos Santos Aveiro nasceu a 5 de fevereiro de 1985 na freguesia de São Pedro, no Funchal, capital da ilha portuguesa da Madeira, e cresceu na vizinha freguesia de Santo António.\n[…]\nO nome Cristiano foi escolhido por uma tia dele, irmã da sua mãe. Diante do facto de que, apesar de tentativas de aborto, o bebé acabou por vir ao mundo, ela sugeriu o nome para simbolizar uma vontade superior, seguindo a religião católica da família, já que Cristiano significa cristão. O nome Ronaldo foi escolhido pelo pai, grande admirador do ator e ex-presidente dos Estados Unidos, Ronald Reagan.\n[…]\nDepois do seu filho alcançar o status de lenda no futebol mundial, a mãe de Cristiano Ronaldo, Dolores Aveiro, tornou-se uma personalidade popular em Portugal a tal ponto que campanhas publicitárias de marcas conhecidas no país, como Maggi, MultiOpticas e Pingo Doce, escolheram-na para publicidade.\n[…]\nCristiano Ronaldo tem cinco filhos vivos. O seu primeiro filho, Cristiano Ronaldo Jr., nasceu a 17 de junho de 2010 nos Estados Unidos. Tem a guarda total da criança e não revelou publicamente a identidade da mãe, conforme um acordo com ela. Em janeiro de 2015, o relacionamento de cinco anos de Cristiano com a modelo russa Irina Shayk chegou ao fim. Em 2017, Cristiano Ronaldo tornou-se pai de gémeos, nascidos em 8 de junho de 2017 nos Estados Unidos por meio de barriga de aluguer.\n[…]\nCristiano Ronaldo no Instagram\n[…]\nCristiano Ronaldo no Facebook\n[…]\nCristiano Ronaldo no Twitter\n[…]\nCristiano Ronaldo no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Seleção Italiana de Futebol",
+      "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual foi a primeira seleção a vencer duas Copas do Mundo seguidas, ainda nos anos trinta?",
+    "resposta": "Itália",
+    "distratores": [
+      "Uruguai",
+      "Alemanha",
+      "Brasil"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1938_FIFA_World_Cup"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1938_FIFA_World_Cup",
+        "situacao": "ok",
+        "texto": "The 1938 FIFA World Cup was the 3rd edition of the World Cup, the quadrennial international football championship for senior men's national teams. It was held in France from 4 to 19 June 1938. Italy defended its title in the final, beating Hungary 4–2. Italy's 1934 and 1938 teams hold the distinction of being the only men's national team to win the World Cup multiple times under the same coach, Vi\n[…]\nHungary convincingly beat Sweden in one of the semi-finals 5–1, while Italy and Brazil had the first of their many important World Cup clashes in the other. The Brazilians were without their star player Leônidas, who was injured, and the Italians won 2–1. Brazil topped Sweden 4–2 for third place.\n[…]\nThe final itself took place at the Stade Olympique de Colombes in Paris. Vittorio Pozzo's Italian side took the lead early, but Hungary equalised within two minutes. The Italians took the lead again shortly after, and by the end of the first half were leading the Hungarians 3–1. Hungary never really got back into the game. With the final score favouring the Italians 4–2, Italy became the first team to successfully defend the title and were once more crowned World Cup winners.\n[…]\nBecause of World War II, the World Cup was not held for next 12 years, until 1950. As a result, Italy were the reigning World Cup holders for a record 16 years, from 1934 to 1950. The Italian Vice-president of FIFA, Dr. Ottorino Barassi, hid the trophy in a shoe-box under his bed throughout the Second World War and thus saved it from falling into the hands of occupying Nazi troops."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1938",
+        "situacao": "ok",
+        "texto": "A Copa do Mundo FIFA de 1938 foi a 3º edição da competição mundial, sediada na França e disputada entre 4 e 19 de junho. A Itália manteve o título e foi bicampeã, derrotando a Hungria por 4–2 na final.\n[…]\nEsta foi a primeira vez em uma Copa do Mundo que a Alemanha não passou da primeira fase, uma vez que a seleção não participou das Copas de 1930 e 1950 - tal fato voltaria a acontecer só oitenta anos depois, na Copa do Mundo da Rússia em 2018. A então campeã Itália bateu a Noruega por 2 a 1, na prorrogação. O Brasil venceu a Polônia na prorrogação por 6 a 5, em um dos melhores jogos da história das copas.\n[…]\nA Hungria derrotou a Suécia em uma das semifinais por 5x1, enquanto Itália e Brasil se encontravam pela primeira vez em uma das rivalidades mais importantes da Copa do Mundo. O técnico brasileiro Ademar Pimenta resolveu descansar sua estrela Leônidas, confiante de que o Brasil iria se classificar para a final. Foi um grande erro. Após um primeiro tempo sem gols, Gino Colaussi abriu o placar para a Squadra Azzurra, aos seis minutos do segundo tempo.\n[…]\nAos 25 minutos do segundo tempo, o melhor jogador húngaro, Gyorgy Sarósi, diminuiu para 3 X 2, ressuscitando as esperanças magiares. Mas, aos 40 minutos, Piola fez o gol do título italiano.Com o placar de 4x2 a favorecendo, a Squadra Azzurra se tornou a primeira seleção a conseguir defender seu título e tornou-se bicampeã da Copa do Mundo. O goleiro magiar Antal Szabó declarou: \"Levei 4 gols, mas salvei a vida de 11 italianos'' (referência as ameaças de Benito Mussolini)\n[…]\nOs cabeças de chave foram  Alemanha,  Brasil,  Cuba,  França,  Hungria,  Itália,  Suécia e  Tchecoslováquia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Copa do Mundo FIFA de 2022",
+      "descricao": "Vigésima segunda Copa do Mundo, disputada no Catar e vencida pela Argentina."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Por causa do calor do Catar, a Copa de 2022 fugiu do tradicional meio do ano e foi disputada em quais meses?",
+    "resposta": "Novembro e dezembro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+        "situacao": "ok",
+        "texto": "The 2022 FIFA World Cup was the 22nd FIFA World Cup, the quadrennial world championship for national football teams organised by FIFA. It took place in Qatar from 20 November to 18 December 2022, after the country was awarded the hosting rights in 2010. It was the first World Cup to be held in the Middle East and the Arabian Peninsula, and the second in an Asian country after the 2002 tournament i\n[…]\nFrank Lowy, chairman of Football Federation Australia, said that if the 2022 World Cup were moved to November and thus upset the schedule of the A-League, they would seek compensation from FIFA. Richard Scudamore, chief executive of the Premier League, stated that they would consider legal action against FIFA because a move would interfere with the Premier League's popular Christmas and New Year fixture programme. In 2015, FIFA confirmed that the final would be played in December.\n[…]\nIn November 2022, there were reports suggesting that the government of Iran were working with Qatari officials to suppress anti-government protests at the 2022 FIFA World Cup, in light of the Mahsa Amini protests. Leaked documents and audio clips suggested that Iranian government officials were in correspondence with Qatari authorities in order to handle possible protesters.\n[…]\nBut according to a source, \"the plans are still being finalised.\" However, on 18 November 2022, days before the first match, Qatar officially banned alcoholic beverages from sale within the eight stadiums. The ban only applied to regular fans, and alcohol was still available to FIFA officials and special guests.\n[…]\nOn 30 November 2022, The Times published an interview with some female fans attending 2022 FIFA World Cup games, with some of them saying that less drunkenness among other attendees made them feel safer at the stadiums than they expected.\n[…]\nFIFA World Cup\n[…]\nOfficial website  at FIFA.com\n[…]\n2022 FIFA World Cup Official Site (Archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_2022",
+        "situacao": "ok",
+        "texto": "Copa do Mundo FIFA de 2022 (português brasileiro) ou Campeonato do Mundo de Futebol FIFA de 2022 (português europeu) foi a vigésima segunda edição desse evento esportivo, um torneio internacional de futebol masculino organizado pela Federação Internacional de Futebol (FIFA) que ocorreu no Catar.\n[…]\nCom sete cidades-sede, o campeonato foi disputado entre 20 de novembro e 18 de dezembro, ao invés do período tradicional devido às altas temperaturas que o país sofre no meio do ano; esta foi a primeira vez em que uma Copa do Mundo foi disputada no final do ano.\n[…]\nO calendário de jogos foi confirmado pela FIFA em 15 de julho de 2020. A partida de abertura, Catar × Equador; foi disputada no Estádio Al Bayt no dia 20 de novembro de 2022, às 19h (UTC+3, Catar possui três horas à frente do horário universal, do Meridiano de Greenwich; transmitido em Portugal às 16h UTC 0; transmitido no Brasil às 13h UTC−3).\n[…]\nEm dezembro de 2017, a mídia mexicano Record acredita que a FIFA poderia retirar a organização da Copa do Mundo no Catar por causa do impacto potencial da crise diplomática de junho de 2017 entre o emirado e seus vizinhos.\n[…]\nA Copa do Mundo de 2022 teve um pôster oficial, divulgado pela FIFA e pelo Comitê Organizador, em 15 de junho. A imagem é obra da artista Bouthayna Al Muftah e foi a principal peça de divulgação do Mundial do Catar, que terá outros seis pôsteres antes do início da competição, entre 20 de novembro e 18 de dezembro.\n[…]\nEm 4 de novembro o youtuber e streamer americano IShowSpeed lançou uma música não oficial intitulada World Cup (Música disponível no Youtube). O clipe popularizou-se em larga escala, sendo o 37° vídeo de música mais visualizado do Youtube no dia 18 de dezembro de 2022.\n[…]\nEliminatórias da Copa do Mundo FIFA de 2022\n[…]\nCopa do Mundo FIFA\n[…]\nFIFA.com 2022 website",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Árbitro assistente de vídeo",
+      "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O árbitro de vídeo, que revê lances polêmicos durante a partida, estreou em Copas do Mundo em qual edição?",
+    "resposta": "2018, na Rússia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Video_assistant_referee"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Video_assistant_referee",
+        "situacao": "ok",
+        "texto": "The video assistant referee (VAR) is a match official in association football who assists the referee by reviewing decisions using video footage and providing advice to the referee based on those reviews.\n[…]\nAfter the previous incident in Yemen, the formalized VAR system was officially developed, used and tested under the International Football Association Board (IFAB)—the body that determines the Laws of the Game—as part of their \"Minimise interference, maximise benefit\" philosophy. The system was first used in an official match on September 21, 2016, in a Dutch cup match between Ajax and Willem II. It made its debut on the global stage at the 2018 FIFA World Cup in Russia.\n[…]\nOn 15 November 2018, Premier League teams voted in principle to bring Video Assistant Referees to the Premier League from the 2019–20 season onwards pending approval of IFAB and FIFA; this came after a controversial decision from referee Simon Hooper to disallow a goal scored by Southampton F.C. striker Charlie Austin.\n[…]\nThe use of VAR has been credited with assisting the 2018 edition's status as the cleanest World Cup since 1986, after no red cards were issued in the opening 11 games and only four players were sent off in the entire tournament which was the fewest since 1978.\n[…]\nIn the 2018 A-League Grand Final between Newcastle Jets and Melbourne Victory, the VAR software suffered a technical malfunction which prevented the assistant referee from viewing the replay, allowing Melbourne Victory a wrongly awarded goal that won them the A-League Championship.\n[…]\nFootball video support\n[…]\nExperiments with Video Assistant Referees (VARs) from FIFA\n[…]\nVideo Assistant Referees (VARs) Experiment Protocol (Summary) from IFAB"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81rbitro_assistente_de_v%C3%ADdeo",
+        "situacao": "ok",
+        "texto": "O árbitro assistente de vídeo (VAR, do inglês video assistant referee), também conhecido como videoárbitro, videoarbitragem ou árbitro de video, é um árbitro assistente de futebol, que analisa as decisões tomadas pelo árbitro principal com a utilização de imagens de vídeo e de uns auscultadores para a comunicação. Os videoárbitros não fazem, atualmente, parte das regras do jogo, mas o seu uso está\n[…]\nA utilização ao vivo do sistema VAR começou em agosto de 2016 na United Soccer League, num jogo entre duas equipas de reserva da Major League Soccer. O árbitro do jogo Ismail Elfath analisou duas faltas durante o jogo e, após consultar o videoárbitro assistente Allen Chapman, decidiu emitir um cartão vermelho e um cartão amarelo nos respetivos incidentes. Os comentários do vídeo foram introduzidos no mês seguinte, durante um internacional amistoso entre a França e a Itália.\n[…]\nA Alemanha introduziu o sistema durante a Bundesliga de 2017–18 e a Itália na Serie A de 2017–18. O sistema foi introduzido em Portugal em 2017 na final Taça de Portugal de 2016–17, depois na Supertaça Cândido de Oliveira de 2017 e, finalmente, na Primeira Liga de 2017–18. A FIFA estreou o sistema na Copa do Mundo FIFA de 2018.\n[…]\nO árbitro assistente do árbitro de vídeo (AVAR, do inglês Assistant Video Assistant Referee) ou videoárbitro assistente é um atual ou ex-árbitro indicado para auxiliar o VAR. As responsabilidades do AVAR incluem assistindo a ação em campo em tempo real, enquanto o VAR faz uma \"revisão\" a lances passados, para tomar notas de incidentes e para comunicar os resultados de uma revisão às emissoras.\n[…]\nDurante a Final da Copa do Mundo de Clubes da FIFA de 2016, no Japão, o primeiro julgamento do VAR numa competição internacional, o treinador do Real Madrid, Zinédine Zidane, chamou o sistema de fonte de confusão e o meia Luka Modrić disse que não gostava do sistema.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Argentina x Inglaterra na Copa de 1986",
+      "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na Copa de 1986, em qual fase do torneio Maradona marcou contra a Inglaterra o famoso gol com a mão?",
+    "resposta": "Quartas de final",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Argentina_v_England_(1986_FIFA_World_Cup)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Argentina_v_England_(1986_FIFA_World_Cup)",
+        "situacao": "ok",
+        "texto": "The Argentina 2–1 England quarter-final match of the 1986 FIFA World Cup was a football match played on 22 June 1986 between Argentina and England at Estadio Azteca in Mexico City. The match was held four years after the end of the Falklands War between Argentina and the United Kingdom, and was a key part of the already intense Argentina–England football rivalry.\n[…]\nThe first goal, referred to as the \"Hand of God\" goal,  was illegally scored by Maradona using his hand in the 51st minute. Four minutes later, Maradona dribbled past five England players to score what became known as the \"Goal of the Century\". Argentina won the match 2–1, and went on to win the tournament after defeating West Germany in the final. Maradona won the Golden Ball as the best player of the tournament.\n[…]\nThe rivalry between the national football teams of Argentinas and  England is generally traced back to the 1966 FIFA World Cup, which was held in England. The quarter-final match at Wembley Stadium contained extensive foul play, and Argentina captain Antonio Rattín was sent off before Argentina lost the match 1–0.\n[…]\nIn 2002, the goal was voted 'Goal of the Century' as part of the buildup to the 2002 FIFA World Cup tournament on the FIFA website. It beat a goal scored by England's Michael Owen against Argentina in the 1998 FIFA World Cup, which came second, whilst another 1986 FIFA World Cup goal by Maradona, from the semi-final match against Belgium, came fourth. In Spanish-speaking countries, this goal is often associated with the passionate live commentary by Uruguayan journalist Víctor Hugo Morales.\n[…]\nOn 17 August 2015, Maradona visited Ali Bin Nasser, the referee of the 1986 World Cup quarter-final, at his home in Tunisia, and paid tribute to him by giving him an Argentine jersey bearing his signature, and referred to him as \"my eternal friend\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Argentina_2%E2%80%931_Inglaterra_%281986%29",
+        "situacao": "ok",
+        "texto": "Argentina 2 x 1 Inglaterra foi uma histórica partida de futebol válida pelas quartas de finais da Copa do Mundo do México de 1986.\n[…]\nPara esta Copa, um uniforme mais leve, com tecnologia chamada de Air-Tech, foi levado pela seleção argentina. No entanto, só a primeira camisa, alviceleste, tinha esta tecnologia. Contra o Uruguai, nas oitavas de final, a equipe teve que jogar com seu segundo uniforme, uma camisa azul-marinho de algodão. Com o andar do jogo e o suor dos jogadores, a camisa ficou pesadíssima, e este fato preocupou o técnico Carlos Bilardo.\n[…]\nLogo aos 6 minutos, Maradona marcou, de mão (naquele que ficou conhecido como \"La Mano de Dios\"), o primeiro gol argentino. Após a bola entrar no gol, Maradona saiu comemorando timidamente e de olho no juiz. Ele percebeu que ninguém de seu time veio ao seu encontro e chamou os colegas: “Vamos, me abracem, ou o árbitro não vai validar o gol!”\n[…]\nCom 2 a 0 no placar, a Argentina passou a jogar com mais precaução na defesa e a Inglaterra dominou as ações ofensivas. Aos 31´, o técnico Bobby Robson colocou a Inglaterra totalmente no ataque ao trocar Steven pelo jovem e habilidoso Barnes. O ponta rapidamente mostrou a que veio e, aos 36´, fez uma boa jogada pela esquerda e cruzou na medida para Lineker diminuir a desvantagem e anotar seu sexto gol na Copa (2 x 1 Argentina, faltando apenas 9 minutos).\n[…]\nLogo na saída de bola, a Argentina ainda meteria uma bola na trave, após Maradona deixar Carlos Tapia na cara do gol. Mas o jogo já estava decididido. Com \"a mão de Deus, e o pé do capeta\", Maradona decretou: 2 x 1 para a Argentina, e fim de papo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Kaká",
+      "descricao": "Ricardo Izecson dos Santos Leite, meia brasileiro do São Paulo, do Milan e do Real Madrid, campeão mundial em 2002."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Kaká, então jogador do Milan, recebeu a Bola de Ouro de melhor jogador do mundo em qual ano?",
+    "resposta": "2007",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2007_Ballon_d%27Or",
+      "https://en.wikipedia.org/wiki/Kak%C3%A1"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2007_Ballon_d%27Or",
+        "situacao": "ok",
+        "texto": "The 2007 Ballon d'Or (lit. '2007 Golden Ball'), given to the best football player in the world given out by France Football and UEFA and judged by an international panel of sports journalists, was awarded to Kaká. This was the first year in which players from clubs outside the UEFA federation were eligible for nomination; this change also led to an increase in the voting pool to include journalist\n[…]\nKaká was the fourth Brazilian national to win the award after Ronaldo (1997, 2002), Rivaldo (1999), and Ronaldinho (2005). He was the sixth AC Milan player to win the trophy after Gianni Rivera (1969), Ruud Gullit (1987), Marco van Basten (1988, 1989, 1992), George Weah (1995), and Andriy Shevchenko (2004).\n[…]\nThe ceremony is notable as Kaká was the last player to win the Ballon d'Or before the Messi–Ronaldo dominance of the award. In 2018, Croatian Luka Modrić ended the 10-year dominance following his win that year."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kak%C3%A1",
+        "situacao": "ok",
+        "texto": "Ricardo Izecson dos Santos Leite (Brazilian Portuguese: [ʁiˈkaʁdu iˈzɛksõ duˈsɐ̃tuz ˈlejtʃi]; born 22 April 1982), commonly known as Kaká (Brazilian Portuguese: [kaˈka] ) or Ricardo Kaká, is a Brazilian former professional footballer who played as an attacking midfielder. Kaká was known for his explosive pace, dribbling, passing, and goalscoring, and is considered one of the greatest players of al\n[…]\nHe played his 200th career match with Milan in a 1–1 home draw with Catania on 30 September, scoring from a penalty, and on 5 October, he was named the 2006–07 FIFPro World Player of the Year, and was elected as part of the FIFPro World XI for the second time in his career. On 2 December 2007, Kaká became the eighth Milan player to win the Ballon d'Or, as he finished with a decisive 444 votes, well ahead of Cristiano Ronaldo and Lionel Messi.\n[…]\nOn 17 December, Kaká was voted the 2007 FIFA World Player of the Year with 1,047 votes, ahead of Lionel Messi with 504 and Cristiano Ronaldo with 426.\n[…]\nKaká gained Italian citizenship on 12 February 2007. He featured in many  Adidas advertisements. He also has a modeling contract with Armani, which prevented him from appearing in a photo collection of Milan players that was published by Armani's rival, Dolce & Gabbana, in 2007.\n[…]\nKaká became an evangelical Christian at the age of 12: \"I learnt that it is faith that decides whether something will happen or not.\" He removed his jersey to reveal an \"I Belong to Jesus\" T-shirt and openly engaged in prayers after Brazil's 2002 World Cup triumph, as well as Milan's 2004 Scudetto and Milan's 2007 Champions League triumphs. He also had the same phrase, along with \"God Is Faithful\", stitched onto the tongues of his boots.\n[…]\nBallon d'Or: 2007\n[…]\nSerie A Footballer of the Year: 2004, 2007\n[…]\nIFFHS World's Best Playmaker: 2007\n[…]\nIAAF Latin Sportsman of the Year: 2007\n[…]\nOnze d'Or: 2007\n[…]\nFIFA Club World Cup Golden Ball: 2007"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ballon_d%27Or_de_2007",
+        "situacao": "ok",
+        "texto": "O Ballon d'Or 2007 foi a 52ª edição da Bola de Ouro apresentada pela revista francesa France Football ao melhor jogador do mundo. Com 445 pontos, o vencedor foi o brasileiro Kaká.\n[…]\nO meia-atacante acabou sendo o último jogador a ganhar a Bola de Ouro antes do domínio de Lionel Messi e Cristiano Ronaldo. A hegemonia durou até 2018, quando o croata Luka Modrić faturou o prêmio.\n[…]\nMelhor Jogador do Mundo pela FIFA\n[…]\nMelhor jogador do mundo pela FIFA em 2007",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Charles Miller",
+      "descricao": "Charles William Miller, paulistano filho de britânicos, considerado o introdutor do futebol no Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Charles Miller, considerado o pai do futebol no Brasil, desembarcou em Santos com bolas e um livro de regras em que ano?",
+    "resposta": "1894",
+    "distratores": [
+      "1872",
+      "1910",
+      "1922"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Charles_Miller"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Charles_Miller",
+        "situacao": "ok",
+        "texto": "Charles William Miller (São Paulo, 24 de novembro de 1874 – 30 de junho de 1953) foi um esportista brasileiro, considerado o \"pai\" do futebol e do rugby no Brasil.\n[…]\nEle retornou ao Brasil em 18 de fevereiro de 1894 para trabalhar na São Paulo Railway (posteriormente Estrada de Ferro Santos-Jundiaí (EFSJ), como seu pai, tornando-se também correspondente da Coroa Britânica e vice-cônsul inglês em 1904. Trouxe na bagagem duas bolas usadas, um par de chuteiras, um livro com as regras do futebol, uma bomba de encher bolas e uniformes usados.\n[…]\nAlguns historiadores contestam o pioneirismo de Charles Miller na história do futebol brasileiro, argumentando e apresentando documentação como prova de que o esporte mais popular do Brasil já era praticado no país antes da volta do famoso futebolista brasileiro da terra de seus antepassados, havendo registros da prática recreativa e não organizada (popularmente conhecida como pelada) do futebol no país desde meados da década de 1870 por parte de marinheiros de navios mercantes ou de guerra, britânicos, franceses e holandeses, como o realizado em 1878 diante do Palácio Isabel (hoje Guanabara) na cidade do Rio de Janeiro.\n[…]\nSegundo essa crítica, o mérito de Miller foi ter chegado ao Brasil com o aparato necessário à pratica do esporte de forma organizada e ter cativado a prática do futebol dentro dos clubes, considerando-se que os ingleses de então eram mais afeitos ao críquete, assim como não foi o primeiro praticante do futebol, mas sim o primeiro dirigente.\n[…]\nJohn Robert Mills - 2005 - Charles Miller - O pai do Futebol Brasileiro -  ISBN 85-87537-99-7"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Democracia Corinthiana",
+      "descricao": "Movimento do Corinthians no início dos anos 1980 em que jogadores e funcionários votavam as decisões do clube, liderado por Sócrates."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Democracia Corinthiana, em que os jogadores votavam as decisões do clube, aconteceu durante qual regime político brasileiro?",
+    "resposta": "Ditadura militar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Corinthians_Democracy",
+      "https://pt.wikipedia.org/wiki/Democracia_Corinthiana"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Corinthians_Democracy",
+        "situacao": "ok",
+        "texto": "The Corinthians Democracy (Portuguese: Democracia Corinthiana) was an ideological football movement of the early 1980s in Brazil. It arose in the Sport Club Corinthians Paulista team. It introduced an innovative way to manage a club. It was recognized in Brazil as one of the most important actions in the struggle against dictatorship. At the time, it was a  challenge to the military government.\n[…]\nIt was an idealistic but effective political cell that fought against the authoritarian way the club's management controlled its players, a microcosm of the way the country was governed by the military. It is the only movement of this nature related to a football club at the time.\n[…]\nOne of the most notable decisions they made was, in 1982, having \"Vote on 15th\" printed on the back of their shirts to motivate fans to vote in the first Brazilian multiparty election since the 1964 military coup.\n[…]\nIn those years Corinthians won two Campeonatos Paulistas: 1982 and 1983. In 1984, Sócrates revived a contact offer from Fiorentina. Despite the offer, the player was willing to stay in Corinthians if Congress approved the Constitutional Amendment introduced by Dante de Oliveira, which would restore direct elections for President. It did not pass, so the most important leader of Democracy left Corinthians.\n[…]\nThe movement had the backing of artists and intellectuals, such as senior media creative Washington Olivetto, who coined the term Democracia Corintiana. Eventually, the government reacted, as Brigadier Jerônimo Bastos, head of the Brazilian Sports Confederation (Portuguese: Confederação Brasileira de Desportos) warned the club for interfering in political affairs.\n[…]\nSocrates and the Corinthians' Democracy. Al Jazeera English, broadcast May/June 2013 as parts of the series Football Rebels (video, English, 25 min.)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Democracia_Corinthiana",
+        "situacao": "ok",
+        "texto": "A Democracia Corinthiana foi um movimento surgido na década de 1980 no time brasileiro de futebol Corinthians, liderado por um grupo de futebolistas politizados como Sócrates, Wladimir, Casagrande e Zenon. Constituiu o maior movimento ideológico da história do futebol brasileiro.\n[…]\nO nascimento deste movimento pode ter sido influenciado pelo fato de que em 1982 o Brasil promoveria a primeira eleição para governador desde o golpe militar de 1964. Para discutir o movimento interno corintiano, foi promovido um debate no TUCA com Adison, Sócrates e Washington, sob mediação do jornalista Juca Kfouri. Ao encerrar o evento, Juca disse: \"estamos tendo o privilégio de ver nascer a democracia corintiana\".\n[…]\nA Democracia Corintiana divulgou as eleições de 15 de novembro de 1982 e pediu às pessoas que participassem e que escolhessem candidatos comprometidos com a democracia e contrários ao regime militar. O ativismo não agradou os ditadores, que, na pessoa do então presidente do Conselho Nacional de Desportos Jerônimo Bastos, ameaçaram intervir no clube, que não mudou sua postura.\n[…]\nO Corinthians foi o primeiro clube a utilizar a camisa com dizeres publicitários. Por iniciativa de Washington, o time estampava em suas camisas frases de cunho político, como \"Diretas Já\" ou \"eu quero votar para presidente\". Isso no período da ditadura militar, quando os movimentos sociais começavam a se rearticular para a instituição de uma democracia.\n[…]\nAlém disso, a maioria dos jornalistas da grande imprensa, bem como membros do regime militar, tachava o movimento como o símbolo de jogadores descompromissados e enxergava tudo como uma \"bagunça\".\n[…]\nFLORENZANO, José Paulo. A Democracia Corinthiana: práticas de liberdade no futebol brasileiro. São Paulo: Editora EDUC, 2010. 509 p."
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Regra do recuo",
+      "descricao": "Regra do futebol, em vigor desde 1992, que proíbe o goleiro de pegar com as mãos a bola recuada com os pés por um companheiro."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A regra que proíbe o goleiro de pegar com as mãos um recuo do companheiro foi criada em reação ao jogo truncado de qual Copa?",
+    "resposta": "Copa de 1990, na Itália",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Back-pass_rule"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Back-pass_rule",
+        "situacao": "ok",
+        "texto": "In association football, the back-pass rule prohibits the goalkeeper from handling the ball in most cases when it is kicked or thrown to them by a teammate. It is described in Law 12, Section 2 of the Laws of the Game.\n[…]\nGoalkeepers are allowed to handle the ball if the ball is played back to them by an action other than a kick or throw-in (such as a header), but defenders are not permitted to attempt to use a deliberate trick to pass the ball to the goalkeeper with a part of the body other than the foot to circumvent the rule.\n[…]\nThe back-pass rule was introduced in 1992 to discourage time-wasting and unduly defensive play after the 1990 World Cup was widely criticised as excessively dull, rife with back-passing and goalkeepers holding up the ball to waste time. Daniel Jeandupeux, then the manager of Ligue 1 team Caen, proposed the rule in December 1990 in a letter to the FIFA technical committee after analysing data from Ligue 1 goalkeepers.\n[…]\nSix months later, FIFA planned an experiment to be run during the 1991 U17 World Championship to trial it, after which it was formally adopted by IFAB and FIFA in May 1992. The last tournament prior to the back-pass rule was UEFA Euro 1992.\n[…]\nIn 1997, the back-pass rule was extended to prevent goalkeepers handling the ball when received directly from a team-mate's throw in.\n[…]\nThe back-pass rule is considered one of the most popular and successful rule changes in the modern game. As well as reducing dull play, it also required goalkeepers to become more proficient with playing the ball with their feet, and has been cited as the start of the evolution of the playmaking \"sweeper-keeper\"."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Milésimo gol de Pelé",
+      "descricao": "Gol de pênalti marcado por Pelé contra o Vasco, no Maracanã, em 19 de novembro de 1969."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Pelé marcou seu milésimo gol em novembro de 1969, no mesmo ano de qual feito histórico da corrida espacial?",
+    "resposta": "A chegada do homem à Lua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pel%C3%A9",
+      "https://en.wikipedia.org/wiki/Apollo_11"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pel%C3%A9",
+        "situacao": "ok",
+        "texto": "Edson Arantes do Nascimento (23 October 1940 – 29 December 2022), better known by his nickname Pelé, was a Brazilian professional footballer who played as a forward. Widely regarded as one of the greatest players in history, he was among the most successful and popular sports figures of the 20th century. His 1,279 goals in 1,363 games, which includes exhibition games, is recognised as a Guinness W\n[…]\nIn December 1965, Santos won the Taça Brasil, their fifth straight Brazilian league title. The following year, the club failed to retain the Taça Brasil, but won the Campeonato Paulista in 1967, 1968, and 1969. On 19 November 1969, Pelé scored his 1,000th goal in all competitions, in what was a highly anticipated moment in Brazil. The goal, dubbed O Milésimo, \"The Thousandth\", occurred when Pelé scored from a penalty kick against Vasco da Gama at the Maracanã Stadium.\n[…]\nHowever, Brazil's 1970 World Cup squad, which included Pelé, Rivellino, Jairzinho, Gérson, Carlos Alberto Torres, Tostão and Clodoaldo, has often been considered the greatest football team in history.\n[…]\nPelé is ranked among the leading scorers in football history in both official and total matches. According to the RSSSF, Pelé scored 538 league goals, and a total of 775 goals in 840 official games. The RSSSF put Pelé's grand total at 1,301 goals in 1,390 appearances during his professional senior career, which included friendlies and tour games. When he scored his 1,000th goal in November 1969, the Brazilian postal service issued a commemorative stamp.\n[…]\nIn 2000, the International Federation of Football History & Statistics (IFFHS) declared Pelé the \"World's Best and Successful Top Division Goal Scorer of all time\" with 541 goals in 560 games, and honoured him with a trophy.\n[…]\nPelé at National Soccer Hall of Fame\n[…]\nPelé: A Legend Looks Back – slideshow by Life magazine\n[…]\nPelé at Santos official website\n[…]\nPelé at Planet World Cup"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Apollo_11",
+        "situacao": "ok",
+        "texto": "Apollo 11 (July 16–24, 1969) was the American spaceflight that first landed humans on the Moon, and the fifth crewed mission of NASA's Apollo program. The mission was crewed by Commander Neil Armstrong, Command Module Pilot Michael Collins, and Lunar Module Pilot Edwin \"Buzz\" Aldrin, all of whom were on their second and final spaceflight.\n[…]\nBy July 1969, all was in readiness for Apollo 11 to take the final step onto the Moon.\n[…]\nThe celebrations continued with a 38-day world goodwill tour titled \"Giant Leap\", which began on September 29 and concluded on November 5, 1969. The astronauts visited 22 countries and met with numerous heads of state, prime ministers, royalty, and civic leaders. The tour, intended to thank the international community for their support of the space program, began in Mexico City and ended in Tokyo.\n[…]\nIn November 1969, Nixon asked NASA to make up about 250 presentation Apollo 11 lunar sample displays for 135 nations, the fifty states of the United States and its possessions, and the United Nations. Each display included Moon dust from Apollo 11 and flags, including one of the Soviet Union, taken along by Apollo 11. The rice-sized particles were four small pieces of Moon soil weighing about 50 mg and were enveloped in a clear acrylic button about as big as a United States half-dollar coin.\n[…]\nFootprints on the Moon, a 1969 documentary film by Bill Gibson and Barry Coe\n[…]\nApollo 11, a 2019 documentary film by Todd Douglas Miller with restored footage of the 1969 event\n[…]\nIn some of the following sources, times are shown in the format hours:minutes:seconds (e.g. 109:24:15), referring to the mission's Ground Elapsed Time (GET), based on the official launch time of July 16, 1969, 13:32:00 UTC (000:00:00 GET).\n[…]\nThe Eagle Has Landed: The Flight of Apollo 11 (1969) (transcript) from US National Archives (via YouTube)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pel%C3%A9",
+        "situacao": "ok",
+        "texto": "Edson Arantes do Nascimento (Três Corações, 23 de outubro de 1940 – São Paulo, 29 de dezembro de 2022), mais conhecido como Pelé, foi um futebolista brasileiro que atuou como atacante. Descrito como o \"Rei do Futebol\", é amplamente considerado como o maior futebolista e um dos maiores atletas de todos os tempos.\n[…]\nNo segundo tempo, o Santos marcou seis gols, com dois de Pelé, vencendo a partida por 6–0.\n[…]\nUm dos momentos mais cultuados de sua carreira é o milésimo gol, anotado em 19 de novembro de 1969, em uma partida contra o Vasco da Gama, quando Pelé marcou a partir de um pênalti, no Estádio do Maracanã. Marcado o pênalti, seu nome passou a ser gritado no Maracanã, até mesmo pela torcida vascaína. Pelé chutou no canto esquerdo de Andrada, que chegou a tocar na bola, mas não conseguiu evitar o gol.\n[…]\nApesar de tudo, lendas contam que o milésimo gol de Pelé, na verdade, teria sido feito em partida contra o Botafogo da Paraíba em partida amistosa no dia 14 de novembro de 1969. A história registrada é que o Santos venceu por 3 a 0. Manoel Maria já havia marcado duas vezes quando sofreu um pênalti, o qual Pelé não queria bater. Depois de muita insistência, foi a contragosto para a cobrança. Fez o gol 999 e depois foi virar goleiro, para reservar para o Maracanã o milésimo gol.\n[…]\n\"Não há dúvida, Pelé tem imã.\"\n[…]\nApresentando a Pelé o Prêmio Laureus do Esporte Mundial, o ex-presidente sul-africano Nelson Mandela disse: \"Observá-lo jogar era observar o deleite de uma criança combinado com a extraordinária graça de um homem por inteiro\". O político e cientista político estadunidense Henry Kissinger declarou: \"O desempenho em um nível alto em qualquer esporte deve exceder a escala humana comum. Mas a performance de Pelé transcendeu a da estrela comum tanto quanto a estrela excede a performance comum\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Sócrates",
+      "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Sócrates morreu em 4 de dezembro de 2011, no mesmo dia em que o Corinthians conquistou qual título?",
+    "resposta": "Campeonato Brasileiro de 2011",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/S%C3%B3crates",
+      "https://pt.wikipedia.org/wiki/Sócrates_(futebolista)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/S%C3%B3crates",
+        "situacao": "ok",
+        "texto": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira (19 February 1954 – 4 December 2011), simply known as Sócrates [ˈsɔkɾat͡ʃis], was a Brazilian footballer who played as a midfielder. His medical degree and his political awareness, combined with style and quality of his play, earned him the nickname \"Doctor Socrates\".\n[…]\nIn 1984–85, aged 30, Sócrates had his first experience abroad, playing in Italian Serie A with Fiorentina. He returned to his country after that sole season, representing Flamengo, Santos and former club Botafogo-SP, and retiring in 1989. During his period in Flamengo, he played 20 games, scoring 5 goals and won Campeonato Carioca: 1986.\n[…]\nIn 2011, Sócrates' health began to deteriorate due to alcohol abuse. On 19 August 2011, he was admitted to the intensive care unit of the Albert Einstein Hospital in São Paulo with gastrointestinal bleeding secondary to portal hypertension (a complication of cirrhosis) and was discharged nine days later. The following month he spent 17 days in hospital with further complications of liver cirrhosis.\n[…]\nOn 1 December 2011, he was hospitalised with food poisoning which developed into septic shock and he was put on life support. He died on 4 December 2011 at the age of 57. Brazilian president Dilma Rousseff paid tribute, saying Brazil had lost \"one of its most cherished sons\". She added: \"On the field, with his talent and sophisticated touches, he was a genius. Off the pitch [...] he was active politically, concerned with his people and his country.\"\n[…]\nCorinthians\n[…]\nCampeonato Paulista: 1979, 1982, 1983\n[…]\nCampeonato Carioca: 1986\n[…]\nCampeonato Paulista top scorer: 1976\n[…]\nSócrates – FIFA competition record (archived)\n[…]\nSócrates at Sambafoot (archive)\n[…]\nSócrates at National-Football-Teams.com\n[…]\nSócrates at Soccerway"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sócrates_(futebolista)",
+        "situacao": "ok",
+        "texto": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira (Belém, 19 de fevereiro de 1954 – São Paulo, 4 de dezembro de 2011) foi um treinador, médico e ex-futebolista brasileiro que atuava como meio-campista. No futebol, atuou principalmente no meio-campo e é considerado um dos grandes craques do futebol brasileiro da década de 1980.\n[…]\nNaquele ano Sócrates foi, ao lado de Zé Mário, o principal jogador da histórica equipe botafoguense que conquistou a Taça Cidade de São Paulo (à época equivalente ao primeiro turno do Campeonato Paulista) em 1977, disputando o título com o São Paulo, no Morumbi. O meia ainda foi o artilheiro do campeonato, fazendo com que a imprensa clamasse por sua convocação à Seleção Brasileira, o que não viria a acontecer enquanto jogador do Botafogo.\n[…]\nAinda pelo clube paulista, Sócrates também se destacou no Campeonato Brasileiro, marcando um célebre gol de calcanhar contra o Santos na Vila Belmiro. Em 1978 deixou o Botafogo e transferiu-se para o Corinthians.\n[…]\nSócrates foi sepultado no dia 4 de dezembro de 2011, no cemitério Bom Pastor, na cidade de Ribeirão Preto que, logo após o falecimento, decretou luto oficial.\n[…]\nPor meio de nota oficial, a Confederação Brasileira de Futebol determinou que em todos os jogos da última rodada do Campeonato Brasileiro de 2011 se fizesse um minuto de silêncio para homenagear Sócrates. A organização também homenageou o jogador em matéria publicada em seu site oficial.\n[…]\nNo dia 18 de janeiro de 2012, disputou-se uma partida entre a Portuguesa (Campeã Brasileira de 2011 - Série B) e o Corinthians (Campeão Brasileiro de 2011 - Série A), no Estádio do Pacaembu, em São Paulo. Com o objetivo de homenagear Sócrates, o vencedor ganharia o referido troféu. Aos 29 minutos do segundo tempo, Rafael Oliveira marcou o gol da vitória da Lusa, diante de 9 870 pagantes."
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Maracanazo",
+      "descricao": "Vitória do Uruguai sobre o Brasil por 2 a 1 no Maracanã, em 16 de julho de 1950, que decidiu a Copa do Mundo daquele ano."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "No jogo que decidiu a Copa de 1950, no Maracanã, quem marcou o gol da virada uruguaia sobre o Brasil?",
+    "resposta": "Alcides Ghiggia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+      "https://en.wikipedia.org/wiki/Alcides_Ghiggia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Uruguay_v_Brazil_(1950_FIFA_World_Cup)",
+        "situacao": "ok",
+        "texto": "The match between Uruguay and Brazil was the decisive match of the final stage at the 1950 FIFA World Cup. It was played at the Maracanã Stadium in the then-capital of Brazil, Rio de Janeiro, on 16 July 1950.\n[…]\nSoon into the second half, Friaça scored Brazil's first goal. Juan Alberto Schiaffino equalised some time later, and with eleven minutes remaining, Alcides Ghiggia put Uruguay ahead. Brazil was unable to score one more goal, and so, Uruguay won 2–1, hoisting the Jules Rimet Trophy for the second time.\n[…]\nThe last survivor of the game was Uruguay's Alcides Ghiggia, who died on 16 July 2015 at the age of 88.\n[…]\nLater, Alcides Ghiggia, running down the right side of the field, scored another goal, with a low shot that went just under goalkeeper Moacir Barbosa (who, having anticipated a cross from Ghiggia's position, dived a moment too late to stop the ball from rolling under him), with only 11 minutes remaining on the clock. The crowd went virtually silent after the second Uruguayan goal until English referee George Reader signalled the end of the match, with the final score being 2–1 to Uruguay.\n[…]\nBrazil beat and eliminated Uruguay by 2–0, with two goals by Romário at the end of the second half, who had been ignored in the tournament and was urgently called in to save Brazil, who would go on to win the tournament.\n[…]\nGhiggia himself, the only player from either 1950 squad who lived to see the 2014 loss, stated that while both games were traumatic, they could not be compared as the 1950 game had more at stake.\n[…]\nGhiggia was the last surviving player from the game; he died on 16 July 2015, exactly 65 years after scoring the decisive goal, at the age of 88. Schlee died on 17 November 2018, aged 83."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alcides_Ghiggia",
+        "situacao": "ok",
+        "texto": "Alcides Edgardo Ghiggia Pereyra (22 December 1926 – 16 July 2015) was a Uruguayan and Italian footballer who played as a right winger. He achieved lasting fame for his decisive role in the final match of the 1950 World Cup, and at the time of his death exactly 65 years later, he was also the last surviving player of Uruguay's 1950 World Cup squad.\n[…]\nGhiggia's family was of Ticinese descent, originally from Sonvico. He played for the national sides of both Uruguay and Italy during his career. He also played for Peñarol and Danubio in Uruguay and AS Roma and AC Milan in Italy.\n[…]\nIn 1950, Ghiggia, then playing for Uruguay, scored the winning goal against Brazil in the final match of that year's World Cup, advancing down the right wing and taking a low shot which slid right in the space between Brazilian goalkeeper Moacir Barbosa (who was anticipating a cross, like the one that originated Uruguay's earlier equaliser through Juan Alberto Schiaffino) and the left post.\n[…]\nOn 29 December 2009, Brazil honoured Ghiggia by celebrating his decisive goal in the 1950 World Cup. Ghiggia returned to Maracanã Stadium almost 60 years later for this honour and planted his feet in a mould to take his place alongside greats including Brazil's Pelé, Portugal's Eusébio and Germany's Franz Beckenbauer on the Maracanã's walk of fame.\n[…]\nGhiggia lived out his last years at his home in Las Piedras, Uruguay. He died on 16 July 2015 in a private hospital in Montevideo at the age of 88. Coincidentally, it was the 65th anniversary of the Maracanazo. At the time of his death, Ghiggia was the oldest living World Cup champion.\n[…]\nGhiggia was the last surviving member from either the Brazilian or Uruguayan squads involved in the historic 1950 World Cup game.\n[…]\nFIFA World Cup: 1950\n[…]\nIFFHS Uruguayan Men's Dream Team (Team B)\n[…]\nAlcides Ghiggia – FIFA competition record (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maracana%C3%A7o",
+        "situacao": "ok",
+        "texto": "Maracanaço (em espanhol: Maracanazo) é o termo usado em referência à partida que decidiu a Copa do Mundo FIFA de 1950 disputada entre as Seleções do Brasil, anfitriã na ocasião, e do Uruguai, que venceu por 2–1 e deixou os brasileiros desolados. A partida ocorreu no recém inaugurado Estádio do Maracanã e é considerada um dos maiores reveses da história do futebol e, em particular, um dos maiores v\n[…]\nO Uruguai reagiu. Apesar da sua admirável capacidade ofensiva, o time do Brasil mostrava falhas na sua defesa. A crônica do A Noite assim registrou: \"a defesa apresentava falhas sensíveis em seu setor esquerdo por onde eram conduzidos os avanços dos orientais. Percebendo-se que enquanto desaparecia Bigode, aparecia, em uma tarde feliz, a ala direita integrada por Alcides Ghiggia e Julio Pérez de cujo setor partiriam concluídas com os dois gols que lhe deram a vitória\".\n[…]\nWilson conclui: \"Os dois alas uruguaios, Schubert Gambetta e Víctor Rodríguez Andrade, foram orientados para marcar os pontas brasileiros, Chico e Friaça, enquanto Obdulio Varela e os outros dois meias uruguaios jogaram mais recuados do que o habitual no que era essencialmente um precursor de um moderno 4-3-3.\" O esquema uruguaio revelou os enormes espaços nas laterais brasileiras deixando Bigode exposto aos avanços de Alcides Ghiggia e Julio Pérez.\n[…]\nAos 21 minutos, Juan Alberto Schiaffino empatou o jogo. Restando apenas 11 minutos de jogo, Alcides Ghiggia disparou pelo lado direito do campo e, com um chute rasteiro que passou por baixo do corpo do goleiro Barbosa (pego de surpresa pois, pela posição do adversário, esperava um cruzamento como o que originou o gol de Schiaffino), marcou o gol que decretou a virada. A multidão morrera. E assim continuou até o árbitro da partida, George Reader da Inglaterra, apitar o fim do jogo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Copa do Mundo FIFA de 1958",
+      "descricao": "Sexta Copa do Mundo, disputada na Suécia e vencida pelo Brasil, seu primeiro título mundial."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem era o técnico da seleção brasileira na conquista da Copa de 1958, na Suécia?",
+    "resposta": "Vicente Feola",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vicente_Feola",
+      "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vicente_Feola",
+        "situacao": "ok",
+        "texto": "Vicente Ítalo Feola (pronounced [ˈfɛːola]; 20 November 1909 – 6 November 1975) was a Brazilian football manager and coach from São Paulo. He is best known for leading the Brazil national team to its first FIFA World Cup title in 1958.\n[…]\nFeola was born in São Paulo to Italian parents. He died in 1975 aged 65.\n[…]\nAs São Paulo coach, Feola won the 1948 and 1949 Campeonato Paulista.\n[…]\nAs Seleção boss in 1958, Feola introduced a 17-year-old Pelé to the footballing world, winning the FIFA World Cup in Sweden, the first and to date only time a non-European side has won a World Cup on European soil. The team trained in Hindås in Sweden during the tournament (pictured).\n[…]\nFeola was appointed manager of Argentine club Boca Juniors briefly in 1961.\n[…]\nFeola returned as coach of the Brazil national team for the 1966 FIFA World Cup in England. In the first round of the tournament, Brazil lost their second game against Hungary. Pelé, although still recovering, was brought back for the last crucial match against Portugal for which Feola, panicked. He changed the entire defence, including the goalkeeper. In the attack, he maintained Jairzinho and substituted the other two players.\n[…]\nIn the midfield, he returned to the formation of the first match, even knowing that Pelé was still not fully recovered from his serious injuries. Brazil suffered a first round elimination. Under Feola's command, Brazil played 74 times, having won 55 games, tied 13 and lost 6 times.\n[…]\nFIFA World Cup: 1958\n[…]\nEnciclopédia do Futebol Brasileiro, Volume 2 – Lance, Rio de Janeiro: Aretê Editorial S/A, 2001.\n[…]\nVicente Feola coach profile at National-Football-Teams.com\n[…]\nVicente Feola coach profile at Soccerway (archived)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup",
+        "situacao": "ok",
+        "texto": "The 1958 FIFA World Cup was the sixth FIFA World Cup, the quadrennial football tournament for senior national teams. It was played in Sweden from 8 to 29 June 1958. It remains the only Nordic country to have hosted a FIFA World Cup.\n[…]\nThe official ball was the \"Top-Star VM-bollen 1958\" model made by Sydsvenska Läder & Remfabriks AB (aka \"Remmen\" or \"Sydläder\") in Ängelholm. Four FIFA officials conducted a blind test to choose it from 102 candidates.\n[…]\nPreventing the defending champions from meeting the hosts in the group stage, either by seeding or predetermined group positions, was a practiced tradition throughout the history of the FIFA World Cup, with 1934 and 1954 being the only two exceptions. This tradition continued in 1958, with West Germany as defending champion and host nation Sweden both being allocated into the same Western European Pot, which kept them from meeting in the group stage.\n[…]\nFor a list of all squads that appeared in the final tournament, see 1958 FIFA World Cup squads.\n[…]\nFIFA selected the following players for the 1958 FIFA World Cup All-Star Team.\n[…]\nIn 1986, FIFA published a report that ranked all teams in each World Cup up to and including 1986, based on progress in the competition and overall results (not counting play-off results). The rankings for the 1958 tournament were as follows:\n[…]\nPer statistical convention in football, matches decided in extra time are counted as wins and losses. Per FIFA's ranking, the results of play-offs are not considered in the tournament ranking.\n[…]\nThe 1958 FIFA World Cup is depicted in the 2016 American film Pelé: Birth of a Legend which is centered around Pelé and the Brazilian team's journey to winning the tournament.\n[…]\n1958 FIFA World Cup Sweden, FIFA.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vicente_Feola",
+        "situacao": "ok",
+        "texto": "Vicente Ítalo Feola (São Paulo, 1 de novembro de 1909 — São Paulo, 6 de novembro de 1975) foi um futebolista e treinador brasileiro.\n[…]\nFeola é o recordista em partidas no comando do São Paulo, com 532 jogos à frente do clube, e o primeiro brasileiro a levar o Brasil ao título da Copa do Mundo, em 1958.\n[…]\nFeola fazia o tipo bonachão e amigo dos jogadores, mas não era bem visto pela crônica esportiva que acompanhava a Seleção. Em alguns jogos, foi acusado de cochilar no banco, o que seria possível, já que tomava muitos remédios, por conta de sua saúde problemática em decorrência da obesidade. De acordo com Djalma Santos, Feola dormiu no banco de reservas, na estreia do Brasil na Copa do Mundo FIFA de 1958 contra a Áustria. Acordou e mandou o time atacar.\n[…]\nJoão Havelange, presidente da CBD, resolveu apostar em um técnico do futebol paulista pela primeira vez. Feola foi escolhido em fevereiro de 1958 como treinador da Seleção Brasileira para a Copa do Mundo daquele ano. A primeira partida de Vicente Feola no comando da Seleção Brasileira aconteceu no dia 4 de maio de 1958, pouco tempo antes do embarque para a Suécia, onde o Brasil goleou o Paraguai por 5 a 1, em jogo válido pela Taça Oswaldo Cruz.\n[…]\nFeola seria o treinador para a Copa do Mundo de 1962, mas adoeceu e foi substituído por Aymoré Moreira.\n[…]\nNo total, Feola comandou o Brasil em um total de 74 jogos, com 54 vitórias, 12 empates e 8 derrotas.\n[…]\nVicente Feola morreu aos 66 anos, vítima de insuficiência cardio-renal.\n[…]\nCopa do Mundo FIFA: 1958\n[…]\nTaça Oswaldo Cruz: 1958\n[…]\nCopa Roca: 1960\n[…]\n«Vicente Feola». no Soccerway\n[…]\n«Vicente Feola» (em inglês). no Football Database",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Copa Libertadores da América",
+      "descricao": "Principal torneio de clubes da América do Sul, organizado pela Conmebol desde 1960."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Qual clube venceu a primeira edição da Copa Libertadores da América, em 1960?",
+    "resposta": "Peñarol",
+    "distratores": [
+      "Santos",
+      "Independiente",
+      "Nacional"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Copa_Libertadores"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Copa_Libertadores",
+        "situacao": "ok",
+        "texto": "The CONMEBOL Libertadores, also known as the Copa Libertadores de América (Portuguese: Copa/Taça Libertadores da América), and most commonly shortened to Copa Libertadores, is an annual continental club football competition organized by CONMEBOL since 1960. It is the highest level of competition in South American club football.\n[…]\nIn 1958, the basis and format of the competition were created by Peñarol's board leaders. On October 8, 1958, João Havelange announced, at a UEFA meeting he attended as an invitee, the creation of Copa de Campeones de America (American Champions Cup, renamed in 1965 as Copa Libertadores), as a South American equivalent of the European Cup, so that the champion clubs of both continental confederations could decide \"the best club team of the world\" in the Intercontinental Cup.\n[…]\nThe Copa Libertadores occupies an important space in South American culture. The folklore, fanfare, and organization of many football competitions around the world owe several aspects to the Libertadores.\n[…]\nFrom its inception in 1960 through the late 1970s, the Copa Libertadores was won exclusively by clubs from South American countries with Atlantic coastlines: Argentina, Brazil, and Uruguay. Olimpia of Paraguay became the first club outside these nations to win the tournament in 1979.\n[…]\nThe data below does not include the 1948 South American Championship of Champions, as it is not listed by Conmebol either as a Copa Libertadores edition or as an official competition.\n[…]\nBarraza, Jorge (1990). Copa Libertadores de América, 30 años (in Spanish). Confederación Sudamericana de Fútbol.\n[…]\nConmebol Libertadores news Archived January 13, 2022, at the Wayback Machine at Fox Sports Mexico (in Spanish)\n[…]\nCopa Libertadores news at ESPN (in Spanish)\n[…]\nCopa Libertadores at Univision (in Spanish)\n[…]\nCopa Libertadores at worldfootball.net"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copa_Libertadores_da_Am%C3%A9rica",
+        "situacao": "ok",
+        "texto": "A Copa Libertadores da América ou Taça Libertadores da América (em espanhol: Copa Libertadores de América), oficialmente CONMEBOL Libertadores, é a principal competição de futebol entre clubes profissionais da América do Sul, organizada pela Confederação Sul-Americana de Futebol (CONMEBOL) desde 1960. É a competição de clubes mais importante do continente e uma das mais prestigiadas do mundo.\n[…]\nA primeira edição da então Copa dos Campeões ocorreu em 1960. Participaram sete equipes na edição inaugural: Bahia do Brasil, Jorge Wilstermann da Bolívia, Millonarios da Colômbia, Olimpia do Paraguai, Peñarol do Uruguai, San Lorenzo da Argentina e Universidad do Chile. Todos esses times foram campeões nacionais de suas respectivas ligas em 1959.\n[…]\nO primeiro jogo da competição ocorreu em 19 de abril de 1960, entre os clubes do Uruguai e Bolívia, que foi vencido pelo Peñarol, que derrotou Jorge Wilstermann por 7–1. E neste jogo, o primeiro gol na história da Copa Libertadores foi marcado pelo atacante uruguaio Carlos Borges do Peñarol. Os uruguaios ganharam essa primeira edição, derrotando o Olimpia nas finais e defendendo com sucesso o título em 1961.\n[…]\nApós as frustrações de 1966 e 1976, o River Plate chegou a sua terceira final de Libertadores em 1986 e foram campeões pela primeira vez depois de vencer as duas partidas da final contra o América de Cali: 2–1 no Estádio Pascual Guerrero e 1–0 no Estádio Monumental de Núñez. O Peñarol venceu a Copa novamente em 1987 depois de bater por 1–0 o América de Cali na prorrogação do playoff decisivo, conquistando seu último título na competição.\n[…]\nEntre 1960 e 2004, o vencedor do torneio era classificado para a disputa da extinta Copa Intercontinental (ou após 1980 Copa Europeia/Sul-Americana Toyota), um torneio de futebol organizado pela UEFA e CONMEBOL que confrontava o campeão da Libertadores e da Liga dos Campeões da UEFA.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Copa Libertadores da América",
+      "descricao": "Principal torneio de clubes da América do Sul, organizado pela Conmebol desde 1960."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A principal competição de clubes da América do Sul, criada em 1960, tem um nome que homenageia quais figuras históricas?",
+    "resposta": "Os líderes da independência sul-americana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Copa_Libertadores"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Copa_Libertadores",
+        "situacao": "ok",
+        "texto": "The CONMEBOL Libertadores, also known as the Copa Libertadores de América (Portuguese: Copa/Taça Libertadores da América), and most commonly shortened to Copa Libertadores, is an annual continental club football competition organized by CONMEBOL since 1960. It is the highest level of competition in South American club football.\n[…]\nThe tournament is named after the Libertadores (Spanish and Portuguese for \"liberators\"), the leaders of the Spanish American wars of independence and Brazilian independence, so a literal translation of its former name into English is \"Liberators Cup\".\n[…]\nIn 1958, the basis and format of the competition were created by Peñarol's board leaders. On October 8, 1958, João Havelange announced, at a UEFA meeting he attended as an invitee, the creation of Copa de Campeones de America (American Champions Cup, renamed in 1965 as Copa Libertadores), as a South American equivalent of the European Cup, so that the champion clubs of both continental confederations could decide \"the best club team of the world\" in the Intercontinental Cup.\n[…]\nThe Copa Libertadores occupies an important space in South American culture. The folklore, fanfare, and organization of many football competitions around the world owe several aspects to the Libertadores.\n[…]\nFrom its inception in 1960 through the late 1970s, the Copa Libertadores was won exclusively by clubs from South American countries with Atlantic coastlines: Argentina, Brazil, and Uruguay. Olimpia of Paraguay became the first club outside these nations to win the tournament in 1979.\n[…]\nThe data below does not include the 1948 South American Championship of Champions, as it is not listed by Conmebol either as a Copa Libertadores edition or as an official competition.\n[…]\nSouth American Championship of Champions\n[…]\nCopa Simón Bolívar\n[…]\nCopa Libertadores at worldfootball.net"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copa_Libertadores_da_Am%C3%A9rica",
+        "situacao": "ok",
+        "texto": "A Copa Libertadores da América ou Taça Libertadores da América (em espanhol: Copa Libertadores de América), oficialmente CONMEBOL Libertadores, é a principal competição de futebol entre clubes profissionais da América do Sul, organizada pela Confederação Sul-Americana de Futebol (CONMEBOL) desde 1960. É a competição de clubes mais importante do continente e uma das mais prestigiadas do mundo.\n[…]\nO seu nome é uma homenagem aos principais líderes da independência das nações da América do Sul: José Artigas, Simón Bolívar, José de San Martín, José Bonifácio de Andrada e Silva, D. Pedro I do Brasil, Antonio José de Sucre e Bernardo O'Higgins.\n[…]\nNaquela reunião foi ratificada a criação da Copa dos Campeões da América, que reuniria todos os times campeões nacionais na América do Sul para uma disputa de melhor time do continente. Em 1965, esse mesmo torneio seria rebatizado de Copa Libertadores da América em homenagem aos heróis das independências das nações sul-americanas, como Simón Bolívar, José de San Martín, Pedro I, Bernardo O'Higgins, José Gervasio Artigas, entre outros.\n[…]\nA partir da edição de 2024, os clubes participantes passaram a ser obrigados a constar na divisão principal de seu respectivo país no ano de disputa do torneio continental. Dessa forma, caso um clube obtenha uma vaga na competição por meio do título de uma copa nacional, da Copa Sul-Americana ou da própria Libertadores, mas seja posteriormente rebaixado no campeonato nacional, perderá o direito de disputar a Libertadores.\n[…]\nDe 1960 até 2025, foram realizadas 66 edições da Copa Libertadores da América. Nesse período, as equipes com mais participações na competição por cada país foram as seguintes:\n[…]\nDe 1960 até 2025, foram realizadas 66 edições da Copa Libertadores da América. Nesse período, os 30 maiores clubes pontuadores na competição, foram os seguintes:\n[…]\nCopa Libertadores da América no TikTok",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Final da Copa do Mundo de 1998",
+      "descricao": "Partida final da Copa do Mundo FIFA de 1998, em Saint-Denis, em que a França venceu o Brasil por 3 a 0."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na final da Copa de 1998, perto de Paris, quem marcou dois gols de cabeça na vitória francesa sobre o Brasil?",
+    "resposta": "Zinédine Zidane",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup_final"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup_final",
+        "situacao": "ok",
+        "texto": "The final match of the 1998 FIFA World Cup, the 16th edition of the quadrennial football competition organised by FIFA for the men's national teams of its member associations, was played at the Stade de France in Paris, France, on 12 July 1998, and was contested by defending champions Brazil and hosts France.\n[…]\nBefore the match, speculation surrounded the fitness of striker Ronaldo, who was initially left out of Brazil's starting line-up, only to be restored to the team before kick-off. France took the lead shortly before the half-hour mark, when Zinedine Zidane outjumped Leonardo to connect with a header from an in-swinging corner from the right taken by Emmanuel Petit. Zidane scored again, with another header from a corner, shortly before half-time to give France a 2–0 lead.\n[…]\nThe game was played at the Stade de France, in the northern Paris suburb of Saint-Denis, an 80,000-capacity stadium which was purpose-built for the 1998 FIFA World Cup because there were no previously existing venues large enough to accommodate the final.\n[…]\nFrance's midfielder Zinedine Zidane had been tied for third place in the 1997 FIFA World Player of the Year contest and was labelled by former Brazilian forward Pelé as \"one of the players to watch\" at the 1998 World Cup. Before the tournament, Aimé Jacquet, the manager of France, told reporters that his team were \"here to win the World Cup, nothing less\".\n[…]\nA political cartoon by Plantu published in L'Express after the final illustrated the issues that a multicultural French team winning the World Cup had posed to the French far-right, reading: Pendant que l'équipe de France black-blanc-beur chante la Marseillaise et que le peuple français acclame Thuram, Zidane et Karembeu, un collaborateur console (Jean-Marie) Le Pen en disant: \"Ne pleure pas, Jean-Marie!"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Final_da_Copa_do_Mundo_FIFA_de_1998",
+        "situacao": "ok",
+        "texto": "A final da Copa do Mundo da FIFA de 1998 foi a partida final da Copa do Mundo da FIFA de 1998, a décima sexta edição da competição quadrienal de futebol organizada pela FIFA para as seleções masculinas de suas associações. Ela foi realizada no Stade de France em Saint-Denis, França, em 12 de julho de 1998, e foi disputada por Brasil e França.\n[…]\nAntes da partida, especulava-se sobre a condição física do atacante brasileiro Ronaldo, que, a princípio, ficou de fora da equipe titular; momentos antes do início do jogo, sua escalação foi confirmada. A França abriu o placar pouco antes da meia hora de jogo, quando Zinédine Zidane marcou, de cabeça, após escanteio cobrado pela direita por Emmanuel Petit. Pouco antes do intervalo, novamente Zidane marcou em uma cabeçada oriunda de escanteio, para dar à França uma vantagem de 2–0.\n[…]\nNo entanto, eles seguiram com uma corrida para as semifinais do Campeonato Europeu de 1996, na qual foram derrotados na disputa de pênaltis pela República Tcheca. O meio-campista francês Zinédine Zidane estava empatado em terceiro lugar no concurso de Jogador do Ano da FIFA em 1997 e foi rotulado pelo ex-atacante brasileiro Pelé como \"um dos jogadores a serem observados\" na Copa do Mundo de 1998.\n[…]\nA seis minutos do fim, a França abriu o placar, com o zagueiro Laurent Blanc marcando o primeiro gol de ouro da Copa do Mundo da FIFA para selar uma vitória por 1–0 e uma vaga nas quartas de final. Lá, eles enfrentaram a Itália, finalista derrotada em 1994, no Stade de France, em 3 de julho. Não houve gols no tempo normal e nenhum gol de ouro, então o jogo foi decidido na disputa de pênaltis.\n[…]\nO placar de 3–0 também foi a maior derrota do Brasil na Copa do Mundo até a derrota por 7–1 para a Alemanha na semifinal da Copa do Mundo de 2014, no Mineirão, em Belo Horizonte.\n[…]\nBrasil na Copa do Mundo FIFA",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Final da Copa do Mundo de 1970",
+      "descricao": "Partida final da Copa do Mundo FIFA de 1970, na Cidade do México, em que o Brasil venceu a Itália por 4 a 1."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na final da Copa de 1970, quem fechou a goleada sobre a Itália com um chute forte após um toque de Pelé?",
+    "resposta": "Carlos Alberto Torres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_final"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_final",
+        "situacao": "ok",
+        "texto": "The final match of the 1970 FIFA World Cup, the ninth edition of FIFA's competition for national football teams, was played at Estadio Azteca in Mexico City, Mexico, on 21 June 1970, and was contested by Brazil and Italy.\n[…]\nBrazil's quarter-final match was against Peru in Guadalajara on 14 June. Brazil held on to a 2–1 lead in the first half, with both Brazilian goals from Rivellino and Tostão, and one from Alberto Gallardo for Peru. Seven minutes into the second half, Tostão scored his second from a rebound of Pelé's shot to make it 3–1, before Teófilo Cubillas added Peru's second in the 69th minute. Jairzinho scored five minutes before the end of regular time to seal another Brazilian victory of 4–2.\n[…]\nPelé capped his superb performance by drawing the Italian defence in the centre and feeding captain Carlos Alberto on the right flank for the final score. Carlos Alberto's goal, after a series of moves by the Brazilian team from the left to the centre, is considered one of the greatest goals ever scored in the history of the tournament.\n[…]\nA total of seven outfield players from Brazil passed the ball until captain Carlos Alberto hammered the ball into the corner of the Italian goal following a pass across the Italian penalty area from Pelé, prompted by Tostão, who, with his back to the goal, told Pelé that Alberto was steaming in on the right flank.\n[…]\nThirty-eight-year-old Brazilian coach Mário Zagallo became the first footballer to win the World Cup as a player (1958, 1962) and a coach, as well the second youngest coach to win a World Cup, after Alberto Suppici in 1930. Pelé ended his World Cup playing career as the competition's first (and as of 2026, only) three-time winner.\n[…]\n1994 FIFA World Cup final"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Final_da_Copa_do_Mundo_FIFA_de_1970",
+        "situacao": "ok",
+        "texto": "A Final da Copa do Mundo FIFA de 1970 foi disputada pelo Brasil e pela Itália, em 21 de junho de 1970 no Estádio Azteca, no México. Esta final ficou marcada como a primeira vez que dois ex-campeões mundiais se reuniram em uma final. A Itália já havia vencido a Copa do Mundo em 1934 e 1938, enquanto o Brasil ganhou em 1958 e 1962.\n[…]\nNota: Na Copa do Mundo FIFA de 1950 não houve uma final propriamente dita, mas sim uma rodada final de um quadrangular.\n[…]\nO Brasil abriu o placar, com Pelé recebendo assistência de Rivelino aos 18 minutos de jogo. Roberto Boninsegna empatou para a Itália, após um erro da defesa brasileira.\n[…]\nNo segundo tempo, o poder de fogo e criatividade do Brasil foi demais para o lado italiano, que se agarrava ao seu sistema defensivo cauteloso. Foi então que Gérson acertou um poderoso tiro para o segundo gol, e depois deu assistência para o terceiro, com uma cobrança de falta certeira para Pelé, que passou para Jairzinho finalizar. Em seguida, Pelé com o seu excelente desempenho, chamou a defesa italiana para marcá-lo e passou ao capitão Carlos Alberto no flanco direito para o gol final.\n[…]\nEste último gol do Brasil, após uma série de invertidas de jogo da esquerda para a direita, é considerado um dos gols mais bonitos da história das copas. Um total de 8 jogadores de linha do Brasil tocaram na bola até que o capitão Carlos Alberto martelou a bola no canto do gol italiano, após um passe perfeito de Pelé. Em 2002, o público do Reino Unido votou esta jogada na posição 36 na lista dos 100 Maiores Momentos Esportivos da história.\n[…]\nO capitão Carlos Alberto Torres levantou a Taça Jules Rimet entregue pela última vez em Copas, agora em caráter definitivo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Folha seca",
+      "descricao": "Chute de efeito em que a bola sobe e cai de repente, celebrizado pelo meia brasileiro Didi nos anos 1950."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que meia da seleção campeã de 1958 ficou famoso pela folha seca, chute em que a bola caía de repente?",
+    "resposta": "Didi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Didi_(footballer,_born_1928)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Didi_(footballer,_born_1928)",
+        "situacao": "ok",
+        "texto": "Waldyr Pereira (8 October 1928 – 12 May 2001), also known as Didi (Brazilian Portuguese: [dʒiˈdʒi]), was a Brazilian footballer who played as a midfielder or as a forward. He played in three FIFA World Cups (1954, 1958, and 1962), winning the latter two.\n[…]\nAn elegant and technical player, Didi was renowned for his range of passing, stamina and technique. He also was a free-kick specialist, being famous for inventing the folha seca (dry leaf) dead ball free kicks, notably used by modern-day players such as Juninho and Cristiano Ronaldo, where the ball would swerve downward unexpectedly at a point resulting in a goal.\n[…]\nDuring the 1954 World Cup he scored goals against Mexico and Yugoslavia, before Brazil's defeat to the favorites Hungary. This match was known as the Battle of Berne; Didi was involved with the brawl that followed this bad-tempered match.\n[…]\nAt club level, he moved to Botafogo, winning the Campeonato Carioca (Rio state championship) in 1957. Didi had previously promised to walk from the Maracanã to his house, in the neighbourhood of Laranjeiras (9,4 km), in his kit, if Botafogo won the championship; 5,000 Botafogo fans joined him as he did so.\n[…]\nAfter almost three successful years with Botafogo, he signed with Sporting Cristal from Peru in 1963, and returning once again for Botafogo for the last time in 1964. Botafogo was the club for which Didi played the most matches: he played 313 games and scored 114 goals. He was Rio champion for the club in 1957, 1961 and 1962 and also won the 1962 Rio-São Paulo Tournament, the same year he won the Pentagonal of Mexico and, in 1963, the Paris Tournament.\n[…]\nScores and results list Brazil's goal tally first, score column indicates score after each Didi goal.\n[…]\nDidi at Sambafoot (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Didi_%28futebolista%29",
+        "situacao": "ok",
+        "texto": "Waldir Pereira, mais conhecido como Didi (Campos dos Goytacazes, 8 de outubro de 1928 — Rio de Janeiro, 12 de maio de 2001), foi um futebolista brasileiro que atuava como meia. Defendeu a Seleção Brasileira em três Copas do Mundo (1954, 1958 e 1962), sendo campeão das duas últimas.\n[…]\nEleito o melhor jogador da Copa de 1958 pela FIFA e selecionado para a seleção do Mundial de 1962, passou a ser chamado de \"Mr. Football\" (\"Senhor Futebol\") pela imprensa europeia. Um dos melhores e mais elegantes meio-campistas da história, Didi era especialista em bolas paradas, sendo a ele creditado a invenção do chute folha seca, que dá um efeito repentino de descaída inesperada na bola.\n[…]\nO lance ficou famoso quando Didi marcou um gol de falta nesse estilo contra a Seleção do Peru, nas eliminatórias para a Copa do Mundo de 1958.No Fluminense, Didi jogou entre 1949 e 1956, clube pelo qual jogou mais tempo sem interrupções, tendo realizado 298 partidas e feito 91 gols, sendo um dos grandes responsáveis pela conquista do Campeonato Carioca de 1951 e da Copa Rio de 1952.\n[…]\nPela Seleção Brasileira, disputou as Copas do Mundo de 1954, 1958 e 1962, fazendo 20 gols e 13 assistências em 68 partidas oficiais. Virou ídolo nacional ao marcar, com seu famoso chute de folha seca, o gol da vitória contra o Peru nas Eliminatórias para a Copa de 1958, que classificou o Brasil para o mundial. Foi amplamente considerado como o melhor jogador do mundial de 1958..\n[…]\n\"O sonho dele era ensinar algum garoto a fazer a 'folha seca'. Didi reclamava que não via mais ninguém fazer isso\", disse, no hospital, o presidente da Agap (Associação de Garantia ao Atleta Profissional), Nilo Chaves de Oliveira.\n[…]\nPerfil de Didi (em inglês) em sambafoot\n[…]\nPerfil de Didi (em inglês) em NFT\n[…]\n«Didi no Museu dos Esportes»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Gol de placa",
+      "descricao": "Expressão brasileira para um gol muito bonito, nascida de uma placa colocada no Maracanã em 1961."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A expressão gol de placa nasceu em 1961, quando uma placa no Maracanã homenageou o gol de qual jogador contra o Fluminense?",
+    "resposta": "Pelé",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gol_de_placa",
+      "https://en.wikipedia.org/wiki/Pel%C3%A9"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gol_de_placa",
+        "situacao": "ok",
+        "texto": "Gol de placa foi um gol marcado pelo Pelé no Maracanã, na partida Fluminense 1 x 3 Santos, em jogo válido pelo Torneio Rio-São Paulo de 1961. O gol ocorreu aos 40 minutos do primeiro tempo e foi o segundo de Pelé no jogo. O gol foi tão bonito, que foi o primeiro gol no Brasil a ser homenageado com uma placa. Na linguagem do futebol brasileiro, tornou-se uma expressão usada para designar gols que, \n[…]\nO gol foi marcado no dia 5 de março de 1961, quando Pelé tinha 20 anos.\n[…]\nDe fato, o gol foi tão espetacular que arrancou aplausos de todos os torcedores que, de pé, esquecendo-se de suas paixões clubísticas e embora empunhando bandeiras tricolores, proporcionaram uma cena jamais vista no Maracanã. Foram quase dois minutos de palmas, contados a relógio, enquanto Pelé desaparecia debaixo dos abraços dos companheiros.\n[…]\nAs imagens gravadas da jogada do gol foram perdidas. Assim, para passá-la no filme “Pelé Eterno”, o cineasta Aníbal Massaini Júnior teve de reproduzir a jogada no Maracanã. O então jovem Toró, fez no papel do Rei.\n[…]\nO jornalista Joelmir Beting, que na época trabalhava no jornal O Esporte, ficou tão impressionado com o gol, que mandou fazer uma placa de bronze para colocar no saguão do estádio, com os dizeres: \"Neste estádio, Pelé marcou no dia 5 de março de 1961 o tento mais bonito da história do Maracanã\". A placa foi descerrada uma semana depois no estádio, imortalizando o lance, o Rei e sua relação com o Maracanã. Desde então, todos os gols marcados com rara beleza são intitulados \"gols de placa\".\n[…]\nEm 2001, quarenta anos após o jogo, Pelé retribuiu a homenagem da mesma forma: deu ao jornalista uma carinhosa placa de agradecimento. Na placa, há os dizeres: Gratidão eterna ao Joelmir Beting. Gratidão eterna do autor do gol de placa ao autor da placa do gol\n[…]\nterceirotempo.bol.uol.com.br/Fotos do Gol de Placa"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pel%C3%A9",
+        "situacao": "ok",
+        "texto": "Edson Arantes do Nascimento (23 October 1940 – 29 December 2022), better known by his nickname Pelé, was a Brazilian professional footballer who played as a forward. Widely regarded as one of the greatest players in history, he was among the most successful and popular sports figures of the 20th century. His 1,279 goals in 1,363 games, which includes exhibition games, is recognised as a Guinness W\n[…]\nIn 1961, the government of Brazil under President Jânio Quadros declared Pelé an \"official national treasure\" to prevent him from being transferred out of the country.\n[…]\nPelé said his most memorable goal was scored against Clube Atlético Juventus on 2 August 1959. As there is no video footage of this match, Pelé asked that a computer animation be made of this specific goal. In March 1961, Santos played against Fluminense at the Maracanã stadium. Near the end of the first half, Pelé received the ball on the edge of his own penalty area, then ran the length of the field, eluding opposing players with feints, before striking the ball beyond the goalkeeper.\n[…]\nAccording to the newspaper O Globo, Pelé's goal earned him a two-minute standing ovation from the crowd, including Fluminense fans. Several days later, a plaque was mounted on the wall of the stadium with a dedication to \"the most beautiful goal in the history of the Maracanã\". The goal became known as the gol de placa, \"the goal of the plaque\". Over the years, this phrase found its way into Brazilian footballing vocabulary as a way to describe a remarkable goal worthy of commemoration.\n[…]\nLandmarks and stadiums were lit up in honour of Pelé, including Rio de Janeiro's Christ the Redeemer statue and Maracanã Stadium, the CONMEBOL headquarters in Paraguay, and Wembley Stadium in London. There was applause and a minute's silence at football matches in honour of Pelé.\n[…]\nPelé at Santos official website\n[…]\nPelé at Planet World Cup"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Futbol Club Barcelona",
+      "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O Barcelona foi fundado em 1899 por um suíço apaixonado por futebol. Qual era o nome dele?",
+    "resposta": "Joan Gamper",
+    "distratores": [
+      "Herbert Kilpin",
+      "Oscar Cox",
+      "Charles Miller"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joan_Gamper",
+      "https://en.wikipedia.org/wiki/FC_Barcelona"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Joan_Gamper",
+        "situacao": "ok",
+        "texto": "Hans Max Gamper-Haessig (German pronunciation: [hans maks ˈɡampər ˈhɛːsɪg]; 22 November 1877 – 30 July 1930), commonly known as Joan Gamper (IPA: [ʒuˈaŋ ˈɡampər]), was a Swiss-born football executive and versatile athlete. He founded football clubs in Switzerland and Spain, most notably Barcelona.\n[…]\nIn 1899, Gamper went to Barcelona to visit his uncle who was living there. He was on his way to Africa to help set up some sugar trading companies but fell in love with the Catalan city and decided to stay put. He would later become a fluent Catalan speaker and adopt the Catalan version of his name: \"Joan Gamper\". As an accountant, he found work with Crédit Lyonnais, the Sarrià Railway Company and as a sports columnist, he worked for two Swiss newspapers.\n[…]\nIn the club's second game, he was the author of Barça's first ever goal, netting twice in a 3–1 win over Català. Gamper played 55 games for Barcelona between 1899 and 1903, scoring 126 goals, thus achieving a game ratio of 2.35 goals per game.\n[…]\nIn 1966, the Barcelona president Enric Llaudet created the Joan Gamper Trophy in his honour. This is a pre-season tournament featuring international teams as guests and is traditionally used by the club to unveil the team for the forthcoming season. The club also permanently retired his club membership number and the city named a street, Carrer de Joan Gamper in Les Corts district, after him.\n[…]\nFC Barcelona\n[…]\nCopa Barcelona:\n[…]\nRodes i Català, Agustí (2001). Joan Gamper, una vida entregada al FC Barcelona (in Catalan). Barcelona: Ediciones Joica. p. 270. ISBN 978-84-931884-5-0.\n[…]\nGamper Soriano, Emma (2008). De Hans Gamper a Joan Gamper: una biografia emocional (in Catalan). Editorial El Clavell. p. 252. ISBN 978-84-89841-48-2.\n[…]\nAbout Joan Gamper in the FC Barcelona Website"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/FC_Barcelona",
+        "situacao": "ok",
+        "texto": "Futbol Club Barcelona (Catalan pronunciation: [fudˈbɔl ˈklub bəɾsəˈlonə] ), commonly known as FC Barcelona and colloquially as Barça ([ˈbaɾsə]), is a professional football club based in Barcelona, Catalonia, Spain, that competes in La Liga, the top division of Spanish football.\n[…]\nFounded in 1899 by a group of Swiss, Catalan, German, and English footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto Més que un club (\"More than a club\"). Unlike many other football clubs, the supporters own and operate Barcelona. It is the third-most valuable football club in the world, worth $5.6 billion, and the world's fourth richest football club in terms of revenue, with an annual turnover of €800.1 million.\n[…]\nIn 1908, Hans Gamper – now known as Joan Gamper – became club president, attempting to prevent Barcelona from shutting down. The club was struggling financially, socially, and in performance. They had not won a competition since the Campionat de Catalunya in 1905. He said in a meeting: \"Barcelona cannot die and must not die. If there is nobody who is going to try, then I will assume the responsibility of running the club from now on.\" He was club president on five occasions from 1908 to 1925.\n[…]\nThe song was first performed on 27 November 1974 at the Camp Nou before the match between Barcelona and the East Germany national team by a 3,500-man choir led by Oriol Martorell. On November 28, 1988, in celebration of the club's centenary, the song was performed by Catalan singer-songwriter Joan Manuel Serrat at the end of the festival at Camp Nou. Since the 2008–09 season, the Cant del Barça has been featured on the official Barcelona jerseys.\n[…]\nCiutat Esportiva Joan Gamper (Barcelona's training ground)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hans_Gamper",
+        "situacao": "ok",
+        "texto": "Hans-Max Gamper Haessig (Winterthur, 22 de novembro de 1877 - Barcelona, 30 de julho de 1930), conhecido na Catalunha como Joan Gamper, nasceu na cidade suíça de Winterthur. Ao longo de sua vida se dedicou ao esporte com a prática de diversas disciplinas, sobretudo o futebol. Em Zurique e na França foi considerado um atleta excepcional por sua classe e vitalidade.\n[…]\nPosteriormente, no ano de 1897, Gamper se muda para Lyon e ali ingressa na Union Athletique, onde praticaria o rugby. Finalmente, no ano de 1899, chega a Barcelona onde logo faz amizade com a colônia estrangeira que havia na cidade.Homem entusiasta e muito ativo, decide contribuir em difundir o futebol e começa a praticá-lo no bairro de Sant Gervasi de Cassoles, onde reside. Pouco a pouco vai amadurecendo o projeto de fundar um clube de futebol na cidade.\n[…]\nNo dia 22 de outubro de 1899, aparece na revista \"Los Deportes\" um anúncio convidando todos os aficionados a prática do futebol para reunir-se. Só um mês e uma semana mais tarde, em 29 de novembro de 1899, no Ginásio Solé, da rua Montjuic del Carme número 5, é o cenário da fundação do Futbol Club Barcelona. As cores escolhidas para a camiseta são as do FC Basiléia, o azul e o vermelho(grená).\n[…]\nHans Gamper jogou na primeira equipe do Barcelona de 1899 até 1903. Posteriormente assumiria em várias ocasiões a presidência do clube:\n[…]\nNo ano de 1966, o então presidente Enric Llaudet institui o Troféu Joan Gamper, que com os anos conseguiu relevante prestígio internacional e com o qual se inicia tradicionalmente a temporada no Camp Nou antes do começo da Liga espanhola de futebol.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Camisa canarinho",
+      "descricao": "Uniforme amarelo da seleção brasileira de futebol, adotado a partir de 1954 no lugar da camisa branca."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em 1953, um concurso de jornal escolheu o novo uniforme da seleção. Quem desenhou a camisa amarela vencedora?",
+    "resposta": "Aldyr Garcia Schlee",
+    "distratores": [
+      "Ziraldo",
+      "Millôr Fernandes",
+      "Carybé"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Aldyr_Garcia_Schlee"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aldyr_Garcia_Schlee",
+        "situacao": "ok",
+        "texto": "Aldyr Garcia Schlee (Jaguarão, 22 de novembro de 1934 – Pelotas, 15 de novembro de 2018) foi um escritor, jornalista, tradutor, desenhista e professor universitário brasileiro. Filho de um imigrante alemão com uma nativa da fronteira Brasil-Uruguai, suas especialidades são a criação literária, a literatura uruguaia e gaúcha, a identidade cultural e as relações fronteiriças. Foi o idealizador da Ca\n[…]\nCriou o uniforme verde e amarelo da seleção brasileira de futebol, mais conhecido como Camisa Canarinho. Em 1953, então com 18 anos, desenhando e fazendo caricaturas para jornais de Pelotas, criou o modelo e o inscreveu no concurso que venceu 201 candidatos, promovido pelo jornal carioca Correio da Manhã para a escolha do novo uniforme da seleção, com análise durante o mês de novembro e cujo resultado final foi divulgado somente em 15 de dezembro, pelo próprio Correio da Manhã.\n[…]\n1999: \"Para Ler os Gaúchos\" (contos, ed. Novo Século)\n[…]\n1988: \"Autores Gaúchos 20: Aldyr Garcia Schlee\" (antologia, ed. IEL)\n[…]\n1990 Para Sempre Uruguai (Antologia de contos). Tradução de Sérgio Faraco e Aldyr Garcia Schlee. Porto Alegre: Instituto Estadual do Livro.\n[…]\n1996 Sarmiento, Domingo Faustino. Facundo: civilização e barbárie no pampa argentino. Tradução, notas e estudo crítico de Aldyr Garcia Schlee. Porto Alegre: Editora da Universidade Federal do Rio Grande do Sul / Editora da Universidade Católica do Rio Grande do Sul.\n[…]\n1997 Acevedo Díaz, Eduardo. Pátria Uruguaia. Antologia. Seleção, tradução e notas de Aldyr Garcia Schlee. Porto Alegre: Instituto Estadual do Livro.\n[…]\n1997 Güiraldes, Ricardo. Don Segundo Sombra.Tradução de Augusto Meyer, revisão da tradução por Aldyr  Garcia Schlee. Porto Alegre: LP&M.\n[…]\n2000 Martins, Cyro. Campo afora/Campo afuera. Edição bilíngue português/espanhol. Tradução para o espanhol de Aldyr Garcia Schlee. Porto Alegre, IEL/CELPCYRO.\n[…]\nHistória da Camisa Canarinho [1]"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Taça Jules Rimet",
+      "descricao": "Troféu da Copa do Mundo FIFA entre 1930 e 1970, entregue em definitivo ao Brasil e roubado no Rio de Janeiro em 1983."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1966, meses antes da Copa na Inglaterra, a taça Jules Rimet foi roubada em Londres. Quem a encontrou num jardim, dias depois?",
+    "resposta": "O cachorro Pickles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pickles_(dog)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pickles_(dog)",
+        "situacao": "ok",
+        "texto": "Pickles (1962 – 1967) was a black and white collie dog, known for his role in finding the stolen Jules Rimet Trophy in March 1966, four months before the 1966 FIFA World Cup was scheduled to begin in England.\n[…]\nCorbett collected nearly £5,000 (equivalent to £81,000 in 2025) as a reward. He used the money to buy a house in Lingfield, Surrey in 1967. Pickles was awarded the silver medal of the National Canine Defence League.\n[…]\nPickles starred with Eric Sykes and June Whitfield in the 1966 film The Spy with a Cold Nose. He also appeared on several television programmes including Blue Peter. He was named \"Dog of the Year\" and awarded a year of free food by pet food manufacturer Spillers.\n[…]\nPickles died in 1967 when he was strangled by his choke chain lead that caught on a tree branch while he was chasing a cat near his new home in Surrey. He was buried in his owner's back garden and his collar is on display in the National Football Museum in Manchester.\n[…]\nA fictional version of the story was told in a 2006 ITV drama written by Michael Chaplin, called Pickles: The Dog Who Won the World Cup; Pickles was voiced by Harry Enfield.\n[…]\nA plaque was installed during England's 2018 World Cup campaign in woodland near the spot where Pickles found the trophy on Beulah Hill, Upper Norwood. The plaque was commissioned and put up by Adam Thoroughgood, a local resident. It was later relocated to the doorway of the St Valery flats.\n[…]\nThe game Reverse: 1999 features Pickles as a playable character, with an interpretation of the theft of the Trophy as part of its 1.1 patch story.\n[…]\nThe Theft of the Jules Rimet Trophy: The Hidden History of the 1966 World Cup, Martin Atherton, Meyer & Meyer Verlag, 2008, ISBN 1841262277"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pickles",
+        "situacao": "ok",
+        "texto": "Pickles (1962 – 1967) foi um cachorro da raça collie que tornou-se notório em 1966 por achar a Taça Jules Rimet, que havia sido roubada naquele ano.\n[…]\nQuatro meses antes da Copa do Mundo de 1966, a Taça Jules Rimet foi roubada de uma vitrine no Westminster Central Hall, em Londres. Sete dias após o roubo da Taça, seu dono, David Corbett, passeava consigo numa praça do Sul da capital inglesa quando Pickles, farejando um arbusto, localizou o valioso troféu, enrolado por jornais.\n[…]\nApós ter achado a Taça, Pickles se tornou uma celebridade, participou de filmes e programas na TV e ganhou um ano grátis de comida canina de uma das empresas patrocinadoras do evento.\n[…]\nUm ano após o grande feito de sua existência, Pickles morreu. Ele estava correndo atrás de um gato e morreu sufocado pela coleira que se enroscou em um galho.[carece de fontes]?\n[…]\nFoi enterrado no jardim da casa que seu dono, David Corbett, comprou com o dinheiro ganho por sua façanha. Está lá até hoje, com uma placa que diz: “Pickles, the finder of the World Cup 1966”.\n[…]\nSeu colar foi doado ao National Football Museum de Manchester, onde encontra-se em exposição até os dias atuais.\n[…]\nEm 1966, o cãozinho fez um papel no filme britânico O Espião de Nariz Frio.\n[…]\nAinda em 1966, ele também participou de vários programas de TV, como Blue Peter e Magpie.\n[…]\nEm 2006, a ITV exibiu o drama \"Pickles: The Dog Who Won The World Cup\", que conta, de forma ficcional, o Roubo da taça Jules Rimet em 1966.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Gol olímpico",
+      "descricao": "Gol marcado diretamente de cobrança de escanteio, sem que outro jogador toque na bola."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O gol direto de escanteio se chama gol olímpico por causa de um gol argentino, em 1924, contra qual seleção então campeã olímpica?",
+    "resposta": "Uruguai",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympic_goal",
+      "https://pt.wikipedia.org/wiki/Gol_olímpico"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Olympic_goal",
+        "situacao": "ok",
+        "texto": "A corner kick, commonly known as a corner, is the method of returning the ball in a game of association football when the ball goes out of play over the goal line, without a goal being scored and having last been touched by a member of the defending team. The kick is taken from the corner of the field of play nearer to the place where the ball crossed the goal line.\n[…]\nA corner kick that scores without being touched by another player is called an Olimpico goal, or less commonly, Olympic goal.\n[…]\nThis type of rare goal is called an Olympic goal or Olimpico goal. On 14 June 1924, the IFAB formally legalized scoring in this manner; the first such goal was scored on 2 October 1924 by Argentina's Cesáreo Onzari against Uruguay, who had just won the 1924 Olympic title.\n[…]\nVirtually all reports of Megan Rapinoe's goal for the United States in the bronze medal match at the 2020 Tokyo Olympics referred to it as an Olimpico goal.\n[…]\nThe first recorded Olimpico goal in England was by Huddersfield Town's Billy Smith on 11 October 1924.\n[…]\nMegan Rapinoe from the United States scored the first Olimpico goal at the Olympic Games in the 2012 women's semi-final match against Canada, as well as in the 2020 bronze medal match against Australia.\n[…]\nHeung-min Son scored an Olimpico as the fourth goal in Tottenham Hotspur's 4–3 win against Manchester United in a League Cup quarterfinal match on 19 December 2024.\n[…]\nWhen it was first introduced in 1872, there was no restriction on scoring a goal directly from a corner-kick. In 1875, this was forbidden, but it was subsequently legalised by the International Football Association Board (IFAB) meeting of 14 June 1924 with effect from for the following season, and is now referred to as an Olimpico goal. In 1997, the laws were amended to remove the possibility of scoring an own goal directly from a corner kick."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gol_olímpico",
+        "situacao": "ok",
+        "texto": "No futebol, gol olímpico (ou golo de canto, em Portugal) é o gol(o) marcado diretamente através de uma cobrança de escanteio/canto. Por ser um chute sem ângulo, é um evento raro de acontecer, mas possível, bastando-se usar o vento contrário ou colocar um efeito na bola.\n[…]\nEm 21 de agosto de 1924, o escocês Billy Alston supostamente teria sido o autor do primeiro gol olímpico, conforme afirmam algumas fontes. Porém, a bola foi cabeceada por outro jogador antes de entrar no gol.\n[…]\nO primeiro gol marcado diretamente de uma cobrança de escanteio foi marcado num jogo amistoso entre as seleções da Argentina e do Uruguai, em 2 de outubro de 1924. O autor do gol foi o atacante argentino Cesáreo Onzari e a sua equipe ganhou por dois a um. Os argentinos chamaram o gol de olímpico para ironizar a seleção uruguaia, que havia ganho o torneio da Olimpíada de Paris, em junho do mesmo ano.\n[…]\nApesar de a informação sobre a origem do termo \"gol olímpico\" constar de muitas publicações sobre a história do futebol, tanto no Brasil quanto no exterior, alguns torcedores do Vasco da Gama divulgam uma versão diferente, ocorrida quatro anos depois do gol do Cesáreo Onzari: que o termo teria surgido após um amistoso entre o Vasco e o clube uruguaio Montevideo Wanderers, disputado em 31 de março de 1928 e que marcava a estreia dos refletores do estádio de São Januário.\n[…]\nO ponta vascaíno Santana marcou o único gol do jogo direto de uma cobrança de escanteio, e ali teria nascido a expressão \"gol olímpico\".\n[…]\nO argentino Aníbal Francisco Cibeyra anotou três gols olímpicos com a camisa do Emelec em três clássicos consecutivos contra o Barcelona de Guayaquil. A façanha, realizada em 1978, lhe valeu o apelido de \"Louco dos Gols Olímpicos\".\n[…]\nEscanteio"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Hat-trick",
+      "descricao": "Expressão para três gols marcados por um mesmo jogador numa única partida."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A expressão hat-trick, usada para três gols de um mesmo jogador numa partida, surgiu originalmente em qual esporte?",
+    "resposta": "Críquete",
+    "distratores": [
+      "Rúgbi",
+      "Golfe",
+      "Polo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hat-trick"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hat-trick",
+        "situacao": "ok",
+        "texto": "A hat-trick or hat trick is the achievement of a generally positive feat three times in a match, or another achievement based on the number three.\n[…]\nIn handball, if a player scores thrice in a game, a hat-trick is made.\n[…]\nA Gordie Howe hat trick is a tongue-in-cheek play on the feat. It is achieved by scoring a goal, getting an assist, and getting into a fight, all in the same game. Namesake Gordie Howe himself only recorded two in his NHL career. Rick Tocchet accomplished the feat 18 times in his career, the most in NHL history.\n[…]\nEddie O'Brien scored a hat-trick for Cork against Wexford in the 1970 All-Ireland Senior Hurling Championship final.\n[…]\nLar Corbett scored a hat-trick for Tipperary in the 2010 All-Ireland Senior Football Championship final to deny Kilkenny what would have been a record-breaking fifth consecutive title.\n[…]\nShane O'Donnell scored a first-half hat-trick for Clare against Cork in the 2013 All-Ireland Senior Hurling Championship replay, despite not featuring at all in the drawn game.\n[…]\nIn lacrosse, like other sports with goal scoring, hat tricks occur when a player scores three goals in one game. Fans rarely throw hats onto the playing surface to acknowledge them due to their frequent occurrences in a game. When a player scores six goals in one game, it is referred to as a sock trick.\n[…]\nIn motor racing, three successive race wins, winning the same event three times in a row, or securing pole position, fastest lap and race victory in one event may all be referred to as a hat-trick.\n[…]\nIn water polo, if a player scores thrice in a game, a hat-trick is scored.\n[…]\nTriple Crown (disambiguation)\n[…]\nTriple double"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Triplete_%28desportos%29",
+        "situacao": "ok",
+        "texto": "Um triplete, também conhecido pelo seu nome em inglês hat-trick, é associado com algum feito positivo que ocorre três vezes dentro de uma partida em algum esporte.\n[…]\nUm hat-trick ocorre no futebol quando um futebolista faz, no mesmo jogo, três gols, apesar de haver várias divergências quanto a um hat-trick válido. São contados os gols feitos no tempo regulamentar, acréscimos ou prorrogação, sendo apenas para alguns essa a condição de ser um hat-trick válido. Os gols de pênalti na disputa por pênaltis após o término da partida não são contados.\n[…]\nO recorde mundial do mais rápido hat-trick ocorreu em 28 de novembro de 1964, quando o jogador escocês Tommy Ross, do Ross County F.C., marcou três gols com uma diferença de apenas noventa segundos entre o primeiro e o terceiro. A partida foi contra o Nairn County F.C., no Victoria Park.\n[…]\nO primeiro jogador a fazer três gols em uma partida de Copa do Mundo foi o norte americano Bert Patenaude, em 1930, no jogo entre Estados Unidos e Paraguai.\n[…]\nO mais jovem jogador a marcar três gols em uma partida de Copa do Mundo foi o brasileiro Pelé, em 1958, no jogo entre Brasil e França, aos 17 anos e 244 dias.\n[…]\nNo hóquei no gelo, o hat-trick é quando um mesmo jogador marca três gols numa mesma partida. Se os gols são consecutivos, sem sequer um gol adversário entre eles, tem-se o chamado hat-trick natural. É comum em jogos da NHL que hat-tricks sejam seguidos por uma \"chuva\" de chapéus e bonés arremessados por torcedores. Em Pittsburgh, os bonés são recolhidos por uma tropa de escoteiros, que os distribui a entidades assistenciais para doação.\n[…]\nPoker-trick — Quando um jogador faz quatro gols numa mesma partida",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Ajax",
+      "descricao": "AFC Ajax, clube de futebol de Amsterdã, na Holanda, fundado em 1900."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Ajax, de Amsterdã, leva o nome de um herói grego que lutou em qual guerra da mitologia?",
+    "resposta": "Guerra de Troia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/AFC_Ajax"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/AFC_Ajax",
+        "situacao": "ok",
+        "texto": "Amsterdamsche Football Club Ajax (Dutch: [ˈaːjɑks]), also known as AFC Ajax, Ajax Amsterdam, or simply Ajax, is a Dutch professional football club based in Amsterdam, that plays in the Eredivisie, the top tier in Dutch football. Historically, Ajax (named after the legendary Greek hero) is the most successful club in the Netherlands, with 36 Eredivisie titles and 20 KNVB Cups, both records.\n[…]\nAjax have won numerous friendly tournaments, unsanctioned by UEFA or FIFA, including the Amsterdam Tournament, Bruges Matins Trophy, Trofeo Santiago Bernabéu, Eusébio Cup, Ted Bates Trophy, Jalkapalloturnaus and Chippie Polar Cup (for a complete list, see: list of AFC Ajax honours).\n[…]\nAmsterdam Sportsteam of the year: 3\n[…]\nThe Amsterdam Arena (now Johan Cruyff Arena) played host to the event since its return until the last edition was played in 2009. Ajax is the most successful team of the tournament, having won it a record ten times, while Benfica from Portugal was the last team to win the tournament, in 2009.\n[…]\nEstablished in 2005, the Copa Amsterdam is an international friendly football tournament for Under-19 youth teams, that is organized by Ajax and the Amsterdam city council, which takes place at the Olympic Stadium as part of the annual Amsterdam Sports Weekend, a citywide sponsored initiative to promote 'sports and recreation' within the city of Amsterdam. Each Summer the city of Amsterdam and Ajax invite U-19 teams from various top clubs from around the World to participate in the tournament.\n[…]\n(in Dutch) David Endt, De godenzonen van Ajax, Rap, Amsterdam, 1993, ISBN 90-6005-463-6\n[…]\n(in Dutch) Jan Baltus Kok, Naar Ajax. Mobiliteitspatronen van bezoekers bij vier thuiswedstrijden van Ajax, University of Amsterdam, Amsterdam, 1992, ISSN 0922-5625\n[…]\n(in Dutch) Evert Vermeer, 95 jaar Ajax. 1900–1995, Luitingh-Sijthoff, Amsterdam, 1996, ISBN 90-245-2364-8\n[…]\nAFC Ajax at Soccerway"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Amsterdamsche_Football_Club_Ajax",
+        "situacao": "ok",
+        "texto": "O Amsterdamsche Football Club Ajax, mais conhecido como AFC Ajax, Ajax Amsterdam ou simplesmente Ajax, é um clube esportivo neerlandês de futebol com sede na cidade de Amsterdã, na província da Holanda do Norte. Participa da Primeira divisão neerlandesa, a mais importante liga de futebol nos Países Baixos, competição da qual é o maior campeão e um dos três clubes que nunca foram rebaixados.\n[…]\nEm 1894, quando o futebol começou a tornar-se popular no mundo inteiro, uns amigos de Amsterdã fundaram um clube de futebol, chamado \"Union\". Neste mesmo ano resolveram dar ao clube o nome de um herói da mitologia grega, Ájax, o Grande, e o clube foi rebatizado \"Footh-Ball Club Ajax\". Só em 1900 o Ajax se tornou um clube oficial, e na fundação no dia 18 de março de 1900, Floris Stempel foi o primeiro presidente.\n[…]\nO apelido muito usado é \"Joden\", que significa \"Judeu\" em holandês. Antes da Segunda Guerra Mundial, os clubes que jogavam contra Ajax passavam pelo bairro judeu em Amsterdã para chegar ao estádio do Ajax. No fim do século XX os torcedores do Ajax adotaram essa 'imagem' e frequentemente levavam bandeiras de Israel para os jogos.\n[…]\nNo fim dos anos 1980 o Ajax passou por uma época difícil. Em 1987 ganhou a Taça Europeia com jogadores como Frank Rijkaard e Marco van Basten. Dois anos depois o Ajax foi eliminado na Taça UEFA pelo Austria Wien.\n[…]\nApós a morte do ex-jogador e técnico Rinus Michels (vice-campeão da Copa do Mundo de 1974), muitos torcedores queriam a mudança do nome do estádio). Com a negativa da administração da Arena, os torcedores do AFC Ajax levam em todos os jogos uma grande faixa escrita: Rinus Michelsstadion e adotam o nome não-oficial.\n[…]\nTorneio de Amsterdã: 10\n[…]\n«AFC Ajax página oficial» (em neerlandês)\n[…]\n«AFC Ajax página oficial» (em inglês)\n[…]\n«AFC Ajax página oficial» (em espanhol)\n[…]\n«AFC Ajax página oficial» (em chinês)\n[…]\n«Página do Ajax na FIFA». (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Arsenal",
+      "descricao": "Arsenal Football Club, clube de futebol de Londres fundado em 1886 no bairro de Woolwich."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Arsenal, de Londres, tem esse nome porque foi fundado em 1886 por operários de que tipo de lugar?",
+    "resposta": "Uma fábrica de armamentos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arsenal_F.C."
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+        "situacao": "ok",
+        "texto": "The Arsenal Football Club, otherwise known as simply Arsenal, is a professional football club based in Islington, North London, England. They compete in the Premier League, the top tier of English football. Domestically, Arsenal have won 14 league titles (including one unbeaten), a record 14 FA Cups, 2 League Cups, 18 FA Community Shields and a Football League Centenary Trophy. In European footbal\n[…]\nIn 1886, munitions workers at the Royal Arsenal in Woolwich founded the club as Dial Square. In 1913, the club crossed the city to the Arsenal Stadium in Highbury, becoming close neighbours of Tottenham Hotspur, thus creating the North London derby. Herbert Chapman won the club its first silverware, and his legacy enabled a trophy-laden period in the 1930s. He helped introduce the WM formation, floodlights, and shirt numbers; he also added the white sleeves and brighter red to the club's jersey.\n[…]\nIn October 1886, Scotsman David Danskin and fifteen fellow munitions workers in Woolwich formed the Dial Square Football Club, named after a workshop at the heart of the Royal Arsenal complex. Each member contributed sixpence, and Danskin also added three shillings to help form the club. Dial Square played their first match on 11 December 1886 against the Eastern Wanderers and won 6–0.\n[…]\nFor much of Arsenal's history, their home colours have been bright red shirts with white sleeves and white shorts, though this has not always been the case. The choice of red is in recognition of a charitable donation from Nottingham Forest, soon after Arsenal's foundation in 1886. Two of Dial Square's founding members, Fred Beardsley and Morris Bates, were former Forest players who had moved to Woolwich for work.\n[…]\nSoar, Phil; Tyler, Martin (3 October 2011). Arsenal 125 Years in the Making: The Official Illustrated History 1886–2011. Hamlyn. ISBN 978-0-600-62353-3.\n[…]\nArsenal F.C. at Premier League"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arsenal_Football_Club",
+        "situacao": "ok",
+        "texto": "O Arsenal Football Club é um clube de futebol profissional sediado em Islington, no Norte de Londres, Inglaterra. O clube disputa a Premier League, a principal divisão do futebol inglês. No futebol doméstico, o Arsenal conquistou 14 títulos da liga (incluindo um título invicto), um recorde de 14 FA Cups, 2 Copas da Liga e 18 FA Community Shields. No futebol europeu, venceu uma Taça dos Clubes Venc\n[…]\nEm 1886, trabalhadores de munições do Royal Arsenal, em Woolwich, fundaram o clube como Dial Square. Em 1913, o clube atravessou a cidade para o Arsenal Stadium, em Highbury, tornando-se vizinho próximo do Tottenham Hotspur e criando o dérbi do Norte de Londres. Herbert Chapman conquistou os primeiros troféus do clube, e seu legado possibilitou um período repleto de conquistas na década de 1930.\n[…]\nO clube foi fundado como Dial Square Football Club em 1886 por um grupo de trabalhadores empregados na oficina Dial Square, no Royal Arsenal, uma fábrica de armamentos em Woolwich, que então pertencia ao condado de Kent, mas foi incorporada a Londres em 1889. Eles eram liderados por um escocês, David Danskin, que comprou a primeira bola de futebol do clube, além de Jack Humble e, posteriormente, do ex-goleiro do Nottingham Forest, Fred Beardsley.\n[…]\nNa temporada 2011-12, o Arsenal comemorou seu 125º aniversário. As comemorações incluíram uma versão modificada do brasão atual usado em suas camisetas para a temporada. Ele era todo branco, rodeada por 15 folhas de carvalho à direita e 15 folhas de louro à esquerda. As folhas de carvalho representam os 15 membros fundadores do clube que se conheceram no pub Royal Oak. As 15 folhas de louro representam o detalhe do design nas peças de seis pence pagas pelos fundadores para estabelecer o clube.\n[…]\nFutebol em Londres\n[…]\nArsenal F.C. no Facebook\n[…]\nArsenal F.C. no Instagram\n[…]\nArsenal F.C. no TikTok\n[…]\nArsenal F.C. na Twitch\n[…]\nArsenal F.C. no X\n[…]\nArsenal F.C. no YouTube",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Leônidas da Silva",
+      "descricao": "Atacante brasileiro dos anos 1930 e 1940, artilheiro da Copa do Mundo de 1938."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Leônidas da Silva, artilheiro da Copa de 1938, tinha um apelido que acabou virando nome de chocolate. Qual?",
+    "resposta": "Diamante Negro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Le%C3%B4nidas",
+      "https://pt.wikipedia.org/wiki/Leônidas_da_Silva"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Le%C3%B4nidas",
+        "situacao": "desambiguacao",
+        "texto": "Leonidas was the king of Sparta who ruled c. 489–480 BC, and who led the allied Greek forces in a last stand at the Battle of Thermopylae.\nLeonidas may also refer to:\n\n\n== Arts and media ==\nLeonidas (Legends of Chima), a character in Legends of Chima\nLeonidas (sculpture), a 5th-century BC sculpture\nLeonidas at Thermopylae, a 19th-century oil painting by Jacques-Louis David\nLeonidas, an 1894 secula"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Leônidas_da_Silva",
+        "situacao": "ok",
+        "texto": "Leônidas da Silva (Rio de Janeiro, 6 de setembro de 1913 — Cotia, 24 de janeiro de 2004) foi um futebolista brasileiro que atuou como atacante. Conhecido também como \"Diamante Negro\" ou \"Homem-Borracha\", é considerado um dos mais importantes atacantes do futebol brasileiro na primeira metade do século XX.\n[…]\nQuando voltou, confirmou-me as declarações. Mandei-o embora imediatamente e fixei o preço do passe em cinco contos [de réis], que era o quanto ele devia à tesouraria do clube. No dia seguinte, o Flávio Costa foi lá no clube e levou o Leônidas para o Flamengo. Eu não podia admitir no Botafogo um atleta que dizia, publicamente, que por baixo da camisa alvinegra, pulsava um coração rubro-negro. Não podia.\n[…]\nAinda no final da década de 1930, Leônidas foi o maior destaque da Seleção Brasileira na Copa do Mundo FIFA de 1938, tendo sido o artilheiro da competição, com sete gols e distribuiu três assistências em quatro jogos. O Brasil conseguiu a sua melhor participação em Mundiais até então, ficando com a terceira colocação. Posteriormente, o Diamante Negro foi escolhido o melhor jogador daquela Copa.\n[…]\nCopa Roca: 1945\n[…]\nChuteira de Ouro da Copa do Mundo FIFA: 1938\n[…]\nMelhor Jogador da Copa do Mundo FIFA: 1938\n[…]\nSeleção da Copa do Mundo FIFA: 1938\n[…]\nCampeonato Carioca de 1938 (16 gols)\n[…]\nCopa Roca de 1939 (4 gols)\n[…]\nCopa do mundo FIFA 1938 (7 gols)\n[…]\nLista de artilheiros da Copa do Mundo FIFA\n[…]\nLista dos maiores artilheiros do São Paulo Futebol Clube\n[…]\nMoraes, Francisco de (1963). «Diamante Negro - A Biblioteca do Futebol». Editora Globo. ISSN 0104-1767\n[…]\nRibeiro, André (1999). O Diamante Eterno - Biografia de Leônidas da Silva. [S.l.]: Gryphus Editora. ISBN 85-85469-61-7\n[…]\n«Terra Magazine  \"O Diamante Negro\"»\n[…]\n«Leônidas no Flamengo.net»\n[…]\n«Site oficial do São Paulo FC. Homenageia o craque Leonidas da silva»"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Flamengo",
+      "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1911, o time de futebol do Flamengo foi formado por jogadores dissidentes de qual clube carioca, que virou seu grande rival?",
+    "resposta": "Fluminense",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CR_Flamengo",
+      "https://pt.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CR_Flamengo",
+        "situacao": "ok",
+        "texto": "Clube de Regatas do Flamengo (Brazilian Portuguese: [ˈklubi dʒi ʁeˈɡataz du flaˈmẽɡu]; lit. 'Flamengo Rowing Club'), more commonly referred to as simply Flamengo, is a Brazilian multi-sports club based in Rio de Janeiro, in the neighborhood of Gávea. It was founded in and named after the Flamengo neighborhood in 1895, and is best known for its professional football team.\n[…]\nIn 2006, Flamengo reached the Copa do Brasil final for a fifth time, finally managing to conquer the title after losing three previous finals, this time beating rivals Vasco da Gama. From 2007 to 2009 Flamengo completed their fifth tricampeonato in the Campeonato Carioca, and became sole owners of the record for most Carioca titles with 31 (Fluminense had 30 at the time).\n[…]\nFlamengo and Fluminense are the two most successful teams in the Campeonato Carioca: as of 2025, Flamengo have 39 state league titles and Fluminense have 34. Since 2012, Fla–Flu has been considered an Intangible Heritage of Rio de Janeiro, being the only football derby to receive this honor.\n[…]\n(2) In 1940 the competition was interrupted with Flamengo and Fluminense in the lead, without the CBD making the title official, however, the clubs and newspapers at the time considered the result definitive and declared the Flamengo and Fluminense as the legitimate champions of the competition. The club currently considers itself champion of the competition and includes this title among its achievements.\n[…]\nCampeonato Carioca de Futebol Feminino: 9\n[…]\nThe club launched their American football team in 2013, forming a partnership with the Rio de Janeiro Emperors. The Emperors were established in 2008 and had previously partnered with Fluminense from 2010 to 2013. The team officially goes by the name of the Flamengo Emperors and compete in the BFA (Brasil Futebol Americano).\n[…]\nClube de Regatas do Flamengo (beach soccer)\n[…]\nFlamengo Esports"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Clube_de_Regatas_do_Flamengo",
+        "situacao": "ok",
+        "texto": "Clube de Regatas do Flamengo (CRF) é uma agremiação poliesportiva brasileira com sede na cidade do Rio de Janeiro, capital do estado homônimo. Fundado no bairro do Flamengo para disputas do esporte remo em 17 de novembro de 1895, tornou-se um dos clubes mais bem-sucedidos e populares do esporte brasileiro especialmente pelo futebol. É considerado um dos maiores e mais tradicionais clubes do Brasil\n[…]\nJogadores\n[…]\nDo lado tricolor, o fato de seus titulares terem desertado e terem ido formar o departamento de futebol do Flamengo, e do lado rubro-negro, o fato de o Fluminense ainda ter vencido a primeira partida com o \"time reserva\", circunstâncias que teriam sido fundamentais para gerar a mística do clássico.\n[…]\nA rivalidade entre os dois clubes começou em outubro de 1911, quando um grupo de nove jogadores insatisfeitos com a diretoria do Fluminense deixou o clube e ingressou no clube de regatas do bairro vizinho, estabelecendo o departamento de futebol do Flamengo. O primeiro Fla-Flu foi disputado no ano seguinte, em 7 de julho. O Fluminense venceu a partida por 3–2, com 800 pessoas presentes, onde hoje fica o Estádio das Laranjeiras.\n[…]\nCom o tempo, Flamengo e Fluminense tornaram-se potências do futebol brasileiro, embora com origens comuns, os clubes tornaram-se muito distintos e em alguns casos antagônicos. Logo, o Flamengo tornou-se o time mais popular do Brasil, com torcedores principalmente das classes populares e trabalhadoras de todo o país. Enquanto o Fluminense manteve-se um clube ligado às classes médias e altas do Rio de Janeiro, principalmente da Zona Sul da cidade, onde o clube foi fundado.\n[…]\nFlamengo e Fluminense são os dois times de maior sucesso no Campeonato Carioca: o Flamengo detém 40 títulos estaduais e o Fluminense 33. Desde 2012, o Fla-Flu é considerado Patrimônio Imaterial do Rio de Janeiro, sendo o único clássico de futebol merecer esta honra.\n[…]\nFutebol"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Final da Copa do Mundo de 1930",
+      "descricao": "Partida final da primeira Copa do Mundo, em Montevidéu, em que o Uruguai venceu a Argentina por 4 a 2."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de se enfrentarem na final da Copa de 1930, Uruguai e Argentina já tinham decidido qual torneio, dois anos antes?",
+    "resposta": "O futebol das Olimpíadas de 1928",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup_final"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup_final",
+        "situacao": "ok",
+        "texto": "The final match of the 1930 FIFA World Cup, the inaugural edition of FIFA's competition for national football teams, was played at the Estadio Centenario in Montevideo, Uruguay, on 30 July 1930, and was contested by Uruguay and Argentina. The tournament comprised hosts Uruguay and 12 other teams that were invited by FIFA to compete. The 13 teams competed in a group stage, from which 4 teams qualif\n[…]\nThe tournament top scorer Guillermo Stábile gave Argentina a 2–1 lead going into the break. In the 57th minute, Uruguay leveled the score via a goal from Pedro Cea. Two more goals in the 68th and the 89th minute from Santos Iriarte and Héctor Castro put Uruguay up 4–2, sealing victory in the inaugural World Cup.\n[…]\nHeading into the 1930 World Cup, Uruguay was experiencing its \"golden generation\" at the time. At continental level, Uruguay had won half of the South America Championship (forerunner to the Copa America), with the national team also winning the gold medal at the 1924 Summer Olympics in Paris and 1928 Summer Olympics in Amsterdam. For Argentina, they won the last two South American Championships in 1927 and 1929 and had also finished with a silver medal at the 1928 Olympics.\n[…]\nBefore the World Cup final, the two teams had played in one hundred and ten matches. This included eleven matches at the continental level, and two matches at the 1928 Olympic final, in which Uruguay won 2–1 in a replay. The last match before the World Cup between the two teams was at the 1930 Copa Newton which was only held two months prior on the 25 May in Buenos Aires which saw the match end in a 1–1 draw between the two teams but as Uruguay was the visiting country, they won the trophy.\n[…]\nWith a minute remaining, Héctor Castro put Uruguay up 4–2, sealing victory in the inaugural World Cup.\n[…]\nUruguay at the FIFA World Cup\n[…]\nArgentina–Uruguay football rivalry\n[…]\n1930 FIFA World Cup final fifa.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Final_da_Copa_do_Mundo_FIFA_de_1930",
+        "situacao": "ok",
+        "texto": "A Final da Copa do Mundo FIFA de 1930 foi disputada pelos finalistas das Olimpíadas de 1928, Uruguai e Argentina.\n[…]\nDias antes da final contra o Uruguai, o atacante argentino Francisco Varallo estava em séria dúvida com uma lesão no joelho. A Argentina chegou à Copa do Mundo sem um médico. Por isso, os delegados entraram em contato com Juan Campisteguy, filho do então presidente da República do Uruguai. Campisteguy examinou Varallo antes da final e recomendou que ele não jogasse por causa de sua lesão no joelho.\n[…]\nOs dirigentes argentinos acharam que seu diagnóstico era parcial, pois jogariam contra o Uruguai, e decidiram incluí-lo na equipe. O jogador entrou em campo e sofreu a lesão aos poucos minutos da final, em um momento em que não eram permitidas substituições.\n[…]\nEu estava tão apavorado que nem pensei que estava jogando futebol. Infelizmente, decepcionei meus colegas de equipe.\".\n[…]\nFaltando 1 minuto para o fim do jogo, Héctor Castro cabeceou um cruzamento de Pablo Dorado para fazer 4 a 2 e dar ao Uruguai seu primeiro título da Copa do Mundo.\n[…]\nO Uruguai acrescentou o título de vencedores da Copa do Mundo para o manto de Campeões Olímpicos, com Jules Rimet, presidente da FIFA, apresentando o troféu da Copa do Mundo, que foi mais tarde batizado com seu nome. O dia seguinte foi declarado feriado nacional no Uruguai; na capital argentina, Buenos Aires, uma multidão atirou pedras no consulado uruguaio.\n[…]\nFrancisco Varallo, falecido em 30 de agosto de 2010, foi último jogador vivo daquela final.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Final da Copa do Mundo de 1930",
+      "descricao": "Partida final da primeira Copa do Mundo, em Montevidéu, em que o Uruguai venceu a Argentina por 4 a 2."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na final de 1930, Uruguai e Argentina não se entenderam sobre qual objeto do jogo, e usaram um de cada país em cada tempo?",
+    "resposta": "A bola",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup_final"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup_final",
+        "situacao": "ok",
+        "texto": "The final match of the 1930 FIFA World Cup, the inaugural edition of FIFA's competition for national football teams, was played at the Estadio Centenario in Montevideo, Uruguay, on 30 July 1930, and was contested by Uruguay and Argentina. The tournament comprised hosts Uruguay and 12 other teams that were invited by FIFA to compete. The 13 teams competed in a group stage, from which 4 teams qualif\n[…]\nThe tournament top scorer Guillermo Stábile gave Argentina a 2–1 lead going into the break. In the 57th minute, Uruguay leveled the score via a goal from Pedro Cea. Two more goals in the 68th and the 89th minute from Santos Iriarte and Héctor Castro put Uruguay up 4–2, sealing victory in the inaugural World Cup.\n[…]\nHeading into the 1930 World Cup, Uruguay was experiencing its \"golden generation\" at the time. At continental level, Uruguay had won half of the South America Championship (forerunner to the Copa America), with the national team also winning the gold medal at the 1924 Summer Olympics in Paris and 1928 Summer Olympics in Amsterdam. For Argentina, they won the last two South American Championships in 1927 and 1929 and had also finished with a silver medal at the 1928 Olympics.\n[…]\nBefore the World Cup final, the two teams had played in one hundred and ten matches. This included eleven matches at the continental level, and two matches at the 1928 Olympic final, in which Uruguay won 2–1 in a replay. The last match before the World Cup between the two teams was at the 1930 Copa Newton which was only held two months prior on the 25 May in Buenos Aires which saw the match end in a 1–1 draw between the two teams but as Uruguay was the visiting country, they won the trophy.\n[…]\nWith a minute remaining, Héctor Castro put Uruguay up 4–2, sealing victory in the inaugural World Cup.\n[…]\nUruguay at the FIFA World Cup\n[…]\nArgentina–Uruguay football rivalry\n[…]\n1930 FIFA World Cup final fifa.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Final_da_Copa_do_Mundo_FIFA_de_1930",
+        "situacao": "ok",
+        "texto": "A Final da Copa do Mundo FIFA de 1930 foi disputada pelos finalistas das Olimpíadas de 1928, Uruguai e Argentina.\n[…]\nUm desentendimento ofuscou a preparação para o jogo porque as equipes discordavam sobre quem deveria fornecer a bola, forçando a FIFA a intervir e decretar que a seleção argentina daria a bola para o primeiro tempo e a uruguaia daria a bola para o segundo.\n[…]\nDias antes da final contra o Uruguai, o atacante argentino Francisco Varallo estava em séria dúvida com uma lesão no joelho. A Argentina chegou à Copa do Mundo sem um médico. Por isso, os delegados entraram em contato com Juan Campisteguy, filho do então presidente da República do Uruguai. Campisteguy examinou Varallo antes da final e recomendou que ele não jogasse por causa de sua lesão no joelho.\n[…]\nAos 12 minutos do primeiro tempo, Pablo Dorado, do Uruguai, abriu o placar após um passe de Héctor Castro. Mas a Argentina reagiu rapidamente. Oito minutos depois, Carlos Peucelle recebeu de Manuel Ferreira e empatou a partida. Luis Monti avançou com a bola em direção ao ataque argentino e lançou. José Nasazzi levantou as mãos para alegar impedimento, mas o árbitro permitiu que a jogada prosseguisse. Guillermo Stábile avançou sem resistência e bateu Ballestrero com um chute alto.\n[…]\nFaltando 1 minuto para o fim do jogo, Héctor Castro cabeceou um cruzamento de Pablo Dorado para fazer 4 a 2 e dar ao Uruguai seu primeiro título da Copa do Mundo.\n[…]\nFrancisco Varallo, falecido em 30 de agosto de 2010, foi último jogador vivo daquela final.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Jogador do Século da FIFA",
+      "descricao": "Prêmio concedido pela FIFA em 2000 ao melhor jogador do século vinte, dividido entre Pelé e Maradona."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 2000, depois de uma votação polêmica, que título da FIFA Pelé e Maradona acabaram dividindo?",
+    "resposta": "Jogador do Século",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/FIFA_Player_of_the_Century"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/FIFA_Player_of_the_Century",
+        "situacao": "ok",
+        "texto": "FIFA Player of the Century was a one-off award created by FIFA to decide the greatest football player of the 20th century, announced at the annual FIFA World gala, held in Rome on 11 December 2000. Diego Maradona and Pelé were joint winners of the award.\n[…]\nSince 1991, FIFA has had awards for FIFA World Player of the Year and they decided to bring in the year 2000 by conducting a public vote to decide the FIFA Player of the Century. This was to be decided by votes on their official website, their official magazine, and a grand jury. Maradona won the Internet-based poll by wide margins, garnering 53.6% of the votes against 18.53% for Pelé.\n[…]\nAs a result, FIFA decided to add a second poll and appointed a \"Football Family\" committee composed of football journalists, officials, and coaches (50%), and also a voting from the FIFA Magazine subscribers (50%) who voted Pelé the best player of the century with an overall 72.75% of the vote. Thus both were joint winners of the award.\n[…]\nThe results of FIFA's Internet poll were as follows: 27 players were voted. Diego Maradona led the poll with 78,000 votes ahead of Pelé on 26,000.\n[…]\nThe FIFA Magazine readers voted in a separate poll contributing 50% to the final result of the FIFA Magazine and Grand jury vote, with Pele as the winner.\n[…]\nOn March 7, 2014, FIFA's magazine, the FIFA Weekly published a list of the best  players in history that wore the iconic number 10 shirt. All players apart from Lionel Messi were retired and had played in the 20th Century. It was the FIFA Weekly's issue #20 and the results were as below:\n[…]\nFIFA World Team of the 20th Century\n[…]\nFIFA 100\n[…]\nFIFA World Cup Dream Team"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Melhor_Jogador_do_S%C3%A9culo_da_FIFA",
+        "situacao": "ok",
+        "texto": "O Melhor Jogador do Século da FIFA foi uma premiação única criada pela FIFA para decidir quem foi o melhor futebolista do século XX. Pelé e Diego Maradona foram vencedores do prêmio. O brasileiro ganhou o prêmio com base em votos de um colégio de eleitores composto por membros da FIFA, jornalistas e treinadores de todo o mundo, enquanto o argentino venceu o prêmio com base numa votação na internet\n[…]\nDesde o início, a FIFA havia divulgado que o prêmio de Melhor do Século seria uma média obtida entre os votos dados por internautas do mundo todo e votos dados por especialistas no assunto. Com a massiva participação, os fãs de Diego Maradona suplantaram os de Pelé por 53,6% a 15,98% na votação pela internet. Pelé obteve maioria entre os especialistas: treinadores e jogadores, da atualidade e aposentados. Assim, decidiu a entidade dividir o prêmio.\n[…]\nNo dia 11 de dezembro de 2000, no evento de premiação do melhor jogador do ano, em Roma, na Itália, Pelé e Maradona receberam o Prêmio FIFA Melhor Jogador do Século.\n[…]\nA cerimônia também premiou o francês Zinédine Zidane como o melhor jogador do ano de 2000. Com o resultado geral da eleição do Melhor Jogador do Século da FIFA, Maradona acabou saindo da premiação contrariado e antes de Pelé receber seu prêmio.\n[…]\nInformações de sites da CNN   (inglês) informam que a FIFA entregou dois prêmios no mesmo evento e no mesmo dia, um a Maradona e outro a Pelé. A CNN prosseguiu comentando que a FIFA não teria comunicado previamente que seriam entregues dois prêmios. A CNN informou, ainda, que isto teria gerado mal estar entre os atletas (Pelé e Maradona) que compareceram ao evento sem saber o que aconteceria.\n[…]\nEsta foi a votação final da FIFA\n[…]\nFutebolista personalidade do século pela FIFA\n[…]\n«Site oficial da FIFA»\n[…]\nJogadores do século FIFA\n[…]\nEleição Fifa jogador do século: Pelé é eleito o melhor, com Maradona ao lado",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Lionel Messi",
+      "descricao": "Atacante argentino ídolo do Barcelona, campeão mundial com a Argentina em 2022."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Aos treze anos, Messi deixou a Argentina rumo ao Barcelona, que se comprometeu a pagar o tratamento de qual problema de saúde?",
+    "resposta": "Deficiência do hormônio do crescimento",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lionel_Messi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lionel_Messi",
+        "situacao": "ok",
+        "texto": "Lionel Andrés \"Leo\" Messi (born 24 June 1987) is an Argentine professional footballer who plays as a forward for the Major League Soccer club Inter Miami, which he captains, and the Argentina national team. Widely regarded as one of the greatest players in history, he has set numerous records for individual accolades won throughout his professional footballing career, including eight Ballons d'Or,\n[…]\nLionel Andrés Messi was born on 24 June 1987 in Rosario, Santa Fe Province, Argentina. His father, Jorge Messi (1958–2026), was the head of department at an Acindar pressed steel manufacturing plant in Villa Constitución. His mother, Celia Cuccittini, worked in a magnet manufacturing workshop. Messi's parents met as youngsters in the Las Heras district of Rosario, where Messi would later grow up.\n[…]\nMessi's future as a professional player was threatened when, at the age of 10, he was diagnosed with a growth hormone deficiency. He began growth hormone therapy at age 11; however, his father's health insurance covered only two years of the therapy, which cost at least 1,000 pesos per month. Newell's agreed to contribute, but later reneged on their promise. Messi was scouted by the Buenos Aires club River Plate, whose playmaker Pablo Aimar he idolised.\n[…]\nAfter a year at Barcelona's youth academy, La Masia, Messi was enrolled in the Royal Spanish Football Federation (RFEF) in February 2002. He could now play in all competitions, and he quickly befriended his teammates, including Cesc Fàbregas and Gerard Piqué. After completing his growth hormone therapy at age 14, Messi became an integral part of the \"Baby Dream Team\", which has been lauded as Barcelona's greatest-ever youth team.\n[…]\nArgentina\n[…]\nLionel Messi at Soccerbase\n[…]\nLionel Messi at Soccerway (archive)\n[…]\nLionel Messi at National-Football-Teams.com\n[…]\nLionel Messi – FIFA competition record (archived)\n[…]\nLionel Messi – UEFA competition record (archive)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lionel_Messi",
+        "situacao": "ok",
+        "texto": "Lionel Andrés Messi Cuccittini (Rosário, 24 de junho de 1987) é um futebolista argentino que atua como atacante no Inter Miami. Como capitão da Seleção Argentina, venceu a Copa do Mundo de 2022. Possui oito prêmios Bola de Ouro da France Football, oito títulos de Melhor Jogador do Mundo pela FIFA, dois Prêmios Laureus de Melhor Esportista, seis Chuteiras de Ouro da Europa e, com 49 conquistas cole\n[…]\nPorém, com onze anos, detectou-se um problema hormonal que retardava o desenvolvimento ósseo de Messi e, consequentemente, seu crescimento. Por um ano e meio, o tratamento de 900 dólares mensais, que consistia em injeções alternadas em cada perna toda noite, foi custeado pela fundação onde seu pai trabalhava, até que a fonte secou. Como o Newell's não quis custear a continuação do tratamento, o pai ofereceu o filho ao River Plate.\n[…]\nAlém de pagar pelo tratamento e pela mudança da família de Messi, o Barcelona também contrataria Jorge para ser informante.\n[…]\nNo entanto, Xavi Hernández — técnico do Barcelona em 2023 — afirmou que o presidente Joan Laporta foi o único responsável por impedir o retorno de Lionel Messi ao Barcelona, alegando que o dirigente temia que o craque argentino exercesse influência excessiva no clube. Xavi declarou que o acordo com Messi já estava praticamente fechado após a Copa do Mundo de 2022, com conversas mantidas até março de 2023, e que a La Liga havia aprovado a operação financeira — contrariando a versão oficial.\n[…]\nMessi atua como Embaixador da Boa Vontade da UNICEF desde sua nomeação em março de 2010, realizando sua primeira missão de campo quatro meses depois, ao viajar ao Haiti para dar visibilidade à situação das crianças do país após o terremoto de 2010. Participou, desde então, de campanhas da organização voltadas à prevenção do HIV, à educação e à inclusão social de crianças com deficiência.\n[…]\n«Lionel Messi» (em inglês). no site oficial do Barcelona",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Palmeiras",
+      "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1942, o clube paulista que se chamava Palestra Itália foi forçado a mudar de nome, até virar Palmeiras. Por quê?",
+    "resposta": "Por causa da Segunda Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sociedade_Esportiva_Palmeiras"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sociedade_Esportiva_Palmeiras",
+        "situacao": "ok",
+        "texto": "The Sociedade Esportiva Palmeiras (Brazilian Portuguese: [sosjeˈdadʒi ispoʁˈtʃivɐ pawˈmejɾɐs] ), commonly known as Palmeiras, is a Brazilian professional football club based in the city of São Paulo, in the district of Perdizes. Palmeiras is one of the most popular clubs in Brazil, with around 15 million fans.\n[…]\nThe Sociedade Esportiva Palmeiras was founded by Italian immigrants on 26 August 1914, as \"Palestra Itália\" (pronounced [paˌlɛstɾiˈtaljɐ]). However, the club changed its name on 14 September 1942, as a result of Brazil joining the Allies in the Second World War against Italy (\"Itália\" in Portuguese) and the Axis powers.\n[…]\nTensions flared during the final league match, where Palmeiras's opponent was São Paulo Futebol Clube (SPFC), which was laying claim to the assets of the former Palestra Italia.\n[…]\nAs they did the season before they reached the Campeonato Paulista finals without a single loss, however, Palmeiras lost the first leg of the final by a 2–1 scoreline against Esporte Clube Água Santa, but proceeded to win the second leg 4–0 as they had done the year before to win their 25th, and second consecutive Campeonato Paulista title.\n[…]\nThe Estádio Palestra Itália was home of Palmeiras from 1917 to 2010. The venue was also known as Parque Antártica because the area was a park built by the Antarctica Paulista Brewing Company in the beginning of the last century, before being acquired by Palmeiras in 1920. In the past its capacity was listed as 35,000 spectators. However, even though its grandstands were extended in the late 1990s, it held only seats 27,640 people due to regulations which enforce safety and comfort.\n[…]\nSociedade Esportiva Palmeiras (women)\n[…]\nSociedade Esportiva Palmeiras (youth)\n[…]\nSociedade Esportiva Palmeiras B\n[…]\nSociedade Esportiva Palmeiras (basketball)\n[…]\nAnything Palmeiras"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sociedade_Esportiva_Palmeiras",
+        "situacao": "ok",
+        "texto": "Sociedade Esportiva Palmeiras é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado homônimo. Foi fundado em 26 de agosto de 1914 e suas cores, presentes no escudo e bandeira oficial, são o verde e branco, tornando-se alviverde. O vermelho, presente desde sua fundação em 1914, foi excluído na mesma reunião que, durante a Segunda Guerra Mundial e sob pressão do governo de Ge\n[…]\nDepois de colecionar nas décadas de 20 e 30 do século XX uma série de títulos paulistas e conquistar uma quantidade relevante de torcedores, o clube foi obrigado a mudar seu nome para Sociedade Esportiva Palmeiras em 1942, por ocasião da Segunda Guerra Mundial, já que o Brasil, governado pelo então presidente Getúlio Vargas, declarou guerra aos países do \"Eixo\" (Alemanha, Itália e Japão) e se alinhou aos países \"Aliados\", (Estados Unidos, União Soviética, Reino Unido, França, e outros).\n[…]\nO \"porco\" surgiu, na verdade, como provocação e gozação das torcidas adversárias, já que o termo era uma forma pejorativa, desde a Segunda Guerra Mundial, como a elite paulistana se referia aos italianos e descendentes que moravam em São Paulo. O termo pejorativo foi adotado em 1969 pela torcida do rival Corinthians. Dois jogadores do time alvinegro morreram em um acidente de carro naquele ano e o Corinthians precisava inscrever novos atletas no Campeonato Paulista.\n[…]\nEm função da Segunda Guerra Mundial, em 1942, membros e diretores do São Paulo Futebol Clube são acusados de estarem envolvidos na luta pela extinção e desapropriação de bens do Palestra Italia, no episódio que, com a mudança obrigatória do nome do Palestra para Palmeiras e com o título do Campeonato Paulista obtido sobre o próprio rival tricolor, foi chamado de Arrancada Heroica.\n[…]\nCAMPOS JÚNIOR, Celso de - 1942 - O Palestra vai à Guerra. São Paulo: Editora Realejo, 2012.\n[…]\nSociedade Esportiva Palmeiras no TikTok\n[…]\nMundo Palmeiras",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Caso Bosman",
+      "descricao": "Decisão de 1995 do Tribunal de Justiça europeu, a partir da ação do jogador belga Jean-Marc Bosman, que mudou as regras de transferência no futebol."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1995, a decisão do caso Bosman, na Justiça europeia, garantiu aos jogadores qual direito ao fim do contrato?",
+    "resposta": "Transferência livre, sem custo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bosman_ruling"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bosman_ruling",
+        "situacao": "ok",
+        "texto": "Union Royale Belge des Sociétés de Football Association ASBL v Jean-Marc Bosman (1995) C-415/93 (known as the Bosman ruling) is a 1995  European Court of Justice decision concerning freedom of movement for workers, freedom of association, and direct effect of article 39 (now article 45 of the Treaty on the Functioning of the European Union) of the Treaty of Rome.\n[…]\nR.F.C. de Liège v Jean-Marc Bosman and others\n[…]\nUEFA v Jean-Marc Bosman\n[…]\nOn 15 December 1995, the court ruled the system, as it was constituted, placed a restriction on the free movement of workers and was prohibited by Article 39(1) of the EC Treaty (now Article 45 (1) of the Treaty on the functioning of the European Union). Bosman and all other EU footballers were given the right to a free transfer at the expiration of their contracts, provided that they transfer from a club within one EU association to a club within another EU association.\n[…]\nPrior to the Bosman ruling, professional clubs in some parts of Europe (but not, for example, in Spain and France) were able to prevent players from joining a club in another country even if their contracts had expired. In the United Kingdom, Transfer Tribunals had been in place since 1981 to resolve disputes over fees between clubs when transferring players at the end of their contracts.\n[…]\nSince the ruling came into effect throughout the EU in 1995, several notable players in European football have benefited from the ruling. In 1996, Edgar Davids became Europe's first high-profile player to benefit from the ruling when he moved from Ajax to Milan. Ex-Hibernian player Paul Kane became the first UK Bosman transfer, moving from Aberdeen to Norwegian side Viking Stavanger in 1996.\n[…]\nRetain and transfer system\n[…]\nWebster ruling, a post-Bosman ruling which formalised the 'buy-out' rules for disputed transfers of players still within their contract term"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caso_Bosman",
+        "situacao": "ok",
+        "texto": "O Caso Bosman é um caso paradigmático do direito que um jogador de futebol belga processou o clube que defendia ao final do seu contrato, obrigando a UEFA a alterar algumas normas.\n[…]\nLiège e Dunkerque concordaram com a transferência do jogador para a temporada mais uma opção de compra, mas não aceita a cláusula de indenização proposta pelo clube belga, que rescinde o contrato do jogador e ele torna-se um jogador livre.\n[…]\nEm 15 de dezembro de 1995, o Tribunal de Justiça da União Europeia, sediado em Luxemburgo, dá razão a Bosman. Devem ser abolidas as restrições sobre a utilização e transferências de jogadores comunitários.\n[…]\n1990: Em final de contrato, o jogador pretende assinar contrato com o Dunkerque, então da segunda divisão francesa, depois de o Liège cortar o seu salário em cerca de 60%. O clube fixa, entretanto, o seu passe em €600.000, valor que o Dunkerque recusa. Dessa maneira, a transferência de Bosman para os Golfinhos não é concretizada.\n[…]\n15 de dezembro de 1995: O tribunal dá razão a Bosman. A decisão vai fazer jurisprudência. A partir desta data devem ser abolidas as restrições sobre a utilização e transferências de jogadores comunitários. A UEFA, reunida em Birmingham, por ocasião do sorteio da fase final da Eurocopa 1996, bem como a FIFA, através de um comunicado, mostram-se desagradadas com a sentença, que não permite qualquer recurso.\n[…]\n24 de janeiro de 1996: O Senado italiano aprova a Emenda Speroni sobre a livre circulação dos desportistas comunitários. Trata-se do artigo 12º da Lei Comunitária, separado como projeto de lei autônomo. A aprovação dá \"luz verde\" à execução do disposto na sentença do Caso Bosman.\n[…]\nA sentença do Caso Bosman",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Adidas Telstar",
+      "descricao": "Bola oficial da Copa do Mundo de 1970, com gomos pretos e brancos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na Copa de 1970, a bola Telstar ganhou gomos pretos e brancos com qual objetivo?",
+    "resposta": "Aparecer bem na TV preto e branco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Adidas_Telstar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Adidas_Telstar",
+        "situacao": "ok",
+        "texto": "Telstar is a ball made by Adidas. The 32-panel alternating black-and-white design of the ball, based on the work of Eigil Nielsen, has since become a global standard design used to portray a football in different media.\n[…]\nThe Telstar was the first World Cup ball to use the now-familiar truncated icosahedron for its design, consisting of 12 black pentagonal and 20 white hexagonal panels. The 32-panel configuration had been introduced in 1962 by Select Sport, and was also used in the official logo for the 1970 World Cup. The black-and-white pattern, to aid visibility on black and white television broadcasts (colour television was still rare worldwide during this time), was also well established before the Telstar.\n[…]\nOnly 20 Telstars were provided for the World Cup; an estimated 600,000 replicas were sold subsequently. Some 1970 matches were played with a brown ball. The Chile Durlast was all white and was used during the Italy-Germany semi-final for the first 20 minutes, then it was replaced by a 32 panel black and white due to a deflation.\n[…]\nA new version of the Telstar, named Telstar 18, was the official match ball for the 2018 FIFA World Cup. The design maintains the general pattern, except the corners of the pentagons are stretched into pixellated gradients.\n[…]\nTelstar is now considered a classic design. Although most footballs used in current championships have different designs and sections, in representations of footballs in cartoons, comics, caricatures and decorations in general, footballs inspired by Adidas Telstar are usually used, becoming a universal icon for football to this day."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Adidas_Telstar",
+        "situacao": "ok",
+        "texto": "Telstar é uma bola de futebol fabricada pela Adidas. Seu icônico design preto e branco com 32 painéis alternados, inspirado no trabalho de Eigil Nielsen, tornou-se um padrão mundial e passou a ser amplamente utilizado para representar uma bola de futebol em diferentes mídias.\n[…]\nA Telstar foi a primeira bola da Copa do Mundo a adotar o conhecido icosaedro truncado em seu design, composto por 12 painéis pentagonais pretos e 20 hexagonais brancos. A configuração de 32 painéis foi introduzida em 1962 pela Select Sport, e também apareceu no logotipo oficial da Copa do Mundo de 1970. O padrão preto e branco, criado para melhorar a visibilidade em transmissões de televisão em preto e branco — a TV colorida ainda era rara naquela época — já estava em uso antes da Telstar.\n[…]\nApenas 20 bolas Telstar foram fornecidas para a Copa do Mundo, mas estima-se que 600 mil réplicas foram vendidas posteriormente. Cerca de 1 970 partidas haviam sido disputadas com uma bola marrom. O modelo Chile Durlast era totalmente branco e foi usado nos primeiros 20 minutos da semifinal Itália-Alemanha, sendo depois substituído pelo modelo 32 preto e branco devido à desinflagem.\n[…]\nO design da bola Adidas Telstar é considerado um ícone clássico do futebol, sendo amplamente usado para representar uma bola de futebol no mundo.\n[…]\nPosteriormente, a Adidas inovou em sua tecnologia para bolas, adicionando uma camada impermeável nas pelotas, assim nomeando-as Adidas Telstar Durlast, e, consequentemente, Adidas Chile Durlast. O nome fora mantido, mas a explicação passou a remeter aos picos nevados dos Andes Chilenos, que ficam totalmente brancos durante o inverno. A Chile Durlast foi usada na Copa do Mundo de 1974, na República Federal da Alemanha.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Formiga",
+      "descricao": "Miraildes Maciel Mota, volante da seleção brasileira feminina entre 1995 e 2021."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A volante Formiga, ícone da seleção brasileira feminina, disputou quantas Copas do Mundo ao longo da carreira?",
+    "resposta": "Sete",
+    "distratores": [
+      "Cinco",
+      "Seis",
+      "Oito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Formiga_(footballer)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Formiga_(footballer)",
+        "situacao": "desambiguacao",
+        "texto": "Formiga may refer to:\n\nFormiga, Minas Gerais, a municipality in Minas Gerais state, Brazil\nMorra da Formiga, a favela in Tijuca, Rio de Janeiro, Brazil\n\n\n== People ==\nFormiga (footballer, born 1895), Brazilian men's footballer\nChico Formiga, footballer, born 1930, full name Francisco Ferreira de Aguiar, Brazilian men's football defender\nFormiga (footballer, born 1976), full name Wander dos Santos "
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Formiga_%28desambigua%C3%A7%C3%A3o%29",
+        "situacao": "desambiguacao",
+        "texto": "Formiga ou Formigas pode referir-se a:\nFormiga — inseto\n\n\n== Geografia ==\nFormiga (Minas Gerais)\nMorro da Formiga (Rio de Janeiro)\nIlhéus das Formigas\n\n\n== Pessoas ==\nFormiga (futebolista) — futebolista brasileira\nChico Formiga — futebolista brasileiro, atuou no Santos FC e no São Paulo FC\nXavier Camargo - futebolista brasileiro, campeão da Copa Roca de 1922\n\n\n== Outros ==\nFormiga Esporte Clube\n\n\n",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Johan Cruyff",
+      "descricao": "Atacante holandês do Ajax e do Barcelona, símbolo do futebol total, vice-campeão mundial em 1974."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Johan Cruyff, gênio holandês do futebol total, imortalizou qual número de camisa, incomum para um craque da época?",
+    "resposta": "14",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Johan_Cruyff"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Johan_Cruyff",
+        "situacao": "ok",
+        "texto": "Hendrik Johannes Cruijff (25 April 1947 – 24 March 2016), internationally known as Johan Cruyff was a Dutch professional football player and manager. Regarded as one of the greatest players in history and as the greatest Dutch footballer ever, he won the Ballon d'Or three times, in 1971, 1973, and 1974. Cruyff was a proponent of the football philosophy known as Total Football, developed by Rinus M\n[…]\nAlthough it was very uncommon in those days for the starters of a game not to play with numbers 1 to 11, from that moment onwards, Cruyff wore number 14, even with the Dutch national team. There was a documentary on Cruyff, Nummer 14 Johan Cruyff and in the Netherlands there is a magazine by Voetbal International, Nummer 14. He soon benefited from the 4-3-3 formation, which was becoming increasingly standard. In November, Cruyff scored six goals against AZ Alkmaar, equaling a record.\n[…]\nTogether with Ruben Jongkind and Wim Jonk, he designed the Cruyff Plan, which envisaged an overhaul of the club from top to bottom. To achieve this, he initially targeted the members' council, which, to Cruyff's annoyance, was made up entirely of people with no football background. Cruyff wanted to fill the eight vacant seats of the 24 seats in the members' council with former Ajax players who shared his views. At the general meeting on 14 December 7 of these 8 players were elected.\n[…]\nDutch author Nico Scheepmaker published the first major biography of Johan Cruyff (Cruijff, Hendrik Johannes, fenomeen) in 1972; Scheepmaker's book was well received. In 2007, Marcel Rözer published a dual biography of Cruyff and Franz Beckenbauer, Beckenbauer & Cruijff: De Keizer en de Verlosser.\n[…]\nOn 18 April 2007, Ajax decided to retire the number 14 shirt in honour of Cruyff and in celebration of his birthday.\n[…]\nde Vos, Maarten (1973). Nummer 14 Johan Cruijff (Motion picture) (in Dutch). Universal Pictures."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Johan_Cruijff",
+        "situacao": "ok",
+        "texto": "Hendrik Johannes \"Johan\" Cruijff ou Cruyff OCO (Amesterdã, 25 de abril de 1947 – Barcelona, 24 de março de 2016), foi um futebolista e treinador neerlandês que atuou como meia-atacante e segundo-atacante. Considerado como um dos maiores jogadores de todos os tempos, inspirou muitos jogadores e treinadores a partir de suas extraordinárias atuações no Ajax, Barcelona (como Xavi, Iniesta, Messi e Pep\n[…]\nCruijff justificou o alto investimento: marcou duas vezes na estreia e reconduziu o Barça a um título espanhol que não vinha havia 14 anos, quando ainda jogavam pelo clube Luis Suárez, László Kubala, Zoltán Czibor, Sándor Kocsis e Evaristo.[carece de fontes]?\n[…]\nCruijff era um jogador à parte no elenco laranja (cuja equipe-base era formada também pelo goleiro Jan Jongbloed e pelo atacante Rob Rensenbrink, de outros clubes), o que se traduzia inclusive no uniforme: enquanto a numeração do restante do elenco foi escolhida conforme a ordem alfabética neerlandesa dos sobrenomes, fazendo o goleiro titular Jongbloed jogar com o número 8, Cruijff pôde utilizar o seu número favorito, o 14.\n[…]\nSua reputação ainda piorou após uma breve passagem na direção do Ajax, em fevereiro de 2008, um ano após ter sido homenageado no clube com a aposentadoria da camisa 14, que ele utilizava. Cruijff apareceu proclamando-se o salvador do time, gerando uma onda de comoção. Toda a direção do clube renunciaria no dia seguinte, deixando o Ajax nas mãos do ex-craque.\n[…]\nO jogo foi no estádio do Ajax; a partida partida realizada pelo clube no local, em 3 de abril, teve homenagem similar, além de cortejo proveniente do bairro proletário de Betondorp (onde Cruijff crescera) com faixas e imagens do ídolo e participação de alguns ex-jogadores como Edwin van der Sar e Marc Overmars. A partida terminou em 3–0 sobre o Zwolle. Antes dela, jogadores das duas equipes vestiram agasalhos com o número 14.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Escócia x Inglaterra de 1872",
+      "descricao": "Primeira partida oficial entre seleções de futebol, disputada em Glasgow em 30 de novembro de 1872."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em 1872, em Glasgow, Escócia e Inglaterra fizeram a primeira partida oficial entre seleções. Quantos gols saíram nesse jogo?",
+    "resposta": "Nenhum, zero a zero",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1872_Scotland_v_England_football_match"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1872_Scotland_v_England_football_match",
+        "situacao": "ok",
+        "texto": "The 1872 association football match between the national teams of Scotland and England is officially recognised by FIFA as the first international. It took place on 30 November 1872 at Hamilton Crescent, the West of Scotland Cricket Club's ground in Partick, Glasgow. The match was watched by 4,000 spectators and finished as a 0–0 draw.\n[…]\nThis was followed by matches on 25 February 1871, England 1–1 Scotland; 18 November 1871, England 2–1 Scotland; and 24 February 1872, England 1–0 Scotland. Most players selected for the Scottish side in these early \"internationals\" were from the London area, although players based in Scotland were also invited. The only player affiliated to a Scottish club was Robert Smith of Queen's Park, Glasgow, who played in the November 1870 match and both of the 1871 games.\n[…]\nIn 1872, Queen's Park, as Scotland's leading club, took up Alcock's challenge, despite there being no Scottish Football Association to sanction it. In the FA's minutes of 3 October 1872 it was noted \"In order to further the interests of the Association in Scotland, it was decided that during the current season, a team should be sent to Glasgow to play a match v Scotland\".\n[…]\nThe reports of the match that were published in the newspapers reveal further details of the 1872 Laws of the Game. Scotland won a defensive corner kick after England's attackers kicked the ball over the goal-line (a feature borrowed from Sheffield Rules but discarded in 1873). The throw-in was awarded to the first team to touch the ball down after it went out of play (this too would be changed in 1873); and there was a break for half-time only because no goals had been scored in the first half.\n[…]\nFirst England–Scotland women's football match, nearly a century later\n[…]\nEngland–Scotland football rivalry\n[…]\nOriginal autographs from 1872 found"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Esc%C3%B3cia_0%E2%80%930_Inglaterra_%281872%29",
+        "situacao": "ok",
+        "texto": "Escócia 0 x 0 Inglaterra, foi o primeiro jogo entre seleções da história do futebol. O jogo aconteceu no dia 30 de novembro de 1872.\n[…]\nlanceactivo.com.br/ O Primeiro jogo Internacional da História do Futebol",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Copa do Mundo FIFA de 1950",
+      "descricao": "Quarta Copa do Mundo, disputada no Brasil e vencida pelo Uruguai."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A Copa de 1950, no Brasil, não teve uma final oficial. Em que formato foi decidido o campeão?",
+    "resposta": "Num quadrangular final",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup",
+        "situacao": "ok",
+        "texto": "The 1950 FIFA World Cup was the fourth edition of the FIFA World Cup, the quadrennial international football championship for senior men's national teams. It was held in Brazil from 24 June to 16 July 1950.\n[…]\nUruguay, who had won the inaugural competition in 1930, defeated the host nation, Brazil, in the deciding match of the four-team group of the final round, causing what is sometimes known as one of the biggest upsets in football history, occasionally called the Maracanaço. This was the only tournament not decided by a one-match final. It was also the inaugural tournament where the trophy was referred to as the Jules Rimet Cup, to mark the 25th anniversary of Jules Rimet's presidency of FIFA.\n[…]\nA new playing format was proposed by the Brazilian organisers of the tournament to maximise matches and ticket sales since the stadiums and infrastructure had been so costly. The thirteen teams were divided into four first-round groups (or \"pools\" as they were then called) of four teams, with the winner of each group advancing to a final group stage, playing in round-robin format to determine the cup winner.\n[…]\nThe final group stage involved the teams that had won their groups: Brazil, Spain, Sweden, and 1930 FIFA World Cup champions Uruguay, who were making their first World Cup appearance since winning the inaugural tournament. The World Cup winner was the team that finished on top of this group. The final group's six matches were shared between Rio de Janeiro and São Paulo.\n[…]\nBrazil played all their final group matches at the Estádio do Maracanã in Rio while the games that did not involve the host nation were played in São Paulo.\n[…]\n1950 FIFA World Cup on FIFA.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1950",
+        "situacao": "ok",
+        "texto": "A Copa do Mundo FIFA de 1950 (português brasileiro) ou  Campeonato do Mundo da FIFA 1950 (português europeu) foi a quarta edição deste evento esportivo, um torneio internacional de futebol masculino organizado pela Federação Internacional de Futebol (FIFA), que ocorreu no Brasil, anfitrião da competição pela primeira vez.\n[…]\nA Copa do Mundo FIFA de 1950 não teve uma final oficialmente. As quatro equipes que se classificaram em primeiro em seus grupos formaram um novo grupo e disputaram partidas entre si. A Espanha e a Suécia foram goleadas pelo Brasil e eliminadas por placares apertados pelo Uruguai. A última partida era coincidentemente entre o primeiro e o segundo colocados, que até então não haviam perdido na competição.\n[…]\nO Estádio Jornalista Mário Filho (Maracanã) foi construído para a Copa do Mundo e tinha a intenção de ser o maior estádio do mundo. O principal palco da Copa tinha a capacidade, na época, de 155 mil pessoas e recebeu 8 jogos, dentre eles 4 da Seleção Brasileira e a final.\n[…]\nA Itália, bicampeã mundial, também caiu na 1ª fase, mas o time não era nem sombra de antes devido ao trágico acidente aéreo que vitimou o time inteiro do Torino, base da Squadra Azzurra, no ano anterior. Os classificados foram os suecos, que ganharam da Itália por 3–2 e empataram com o Paraguai em 2–2, garantindo passagem para a fase seguinte. Na final, um quadrangular inédito e único em copas: Brasil, Suécia, Espanha e Uruguai.\n[…]\nPorém o Uruguai empatou com Juan Alberto Schiaffino e, com onze minutos faltando para o final da partida, virou o jogo com um gol de Alcides Ghiggia, tornando-se campeões da Copa do Mundo da FIFA pela segunda vez.\n[…]\nBrasil vs. Uruguai\n[…]\nBrasil na Copa do Mundo de 1950\n[…]\nCopa das Confederações de 2013\n[…]\nCopa do Mundo FIFA de 2014\n[…]\n«FIFA - 1950 FIFA World Cup Brazil» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Estádio Azteca",
+      "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estádio da Cidade do México recebeu tanto a final da Copa de 1970, vencida pelo Brasil, quanto a de 1986, vencida pela Argentina?",
+    "resposta": "Estádio Azteca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Estadio_Azteca"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Estadio_Azteca",
+        "situacao": "ok",
+        "texto": "Estadio Azteca (Latin American Spanish: [esˈtaðjo asˈteka]), officially known as Estadio Banorte for sponsorship reasons, is a football stadium located in Coyoacán, Mexico City. At an elevation of 2,241 meters (7,352 ft) above sea level it is the official home of Club América of Liga MX and the Mexico national team. With a capacity of 87,523, it is the largest stadium in Latin America and the eigh\n[…]\nEstadio Azteca was envisioned as a major sports venue during the presidency of Adolfo López Mateos; Mexico was awarded the 1968 Summer Olympics in 1963, and the football final was held there. Designed by architects Pedro Ramírez Vázquez and Rafael Mijares Alcérreca, the stadium broke ground in 1961 and the inaugural match was between Club América and Torino F.C. on 29 May 1966, with a capacity for 107,494 spectators.\n[…]\nThe venue is where superstars Pelé (1970) and Diego Maradona (1986) lifted the FIFA World Cup Trophy for the last time. Estadio Azteca has also been used for musical performances throughout its history.\n[…]\nIn April 2017, it was announced that starting July 2018, Cruz Azul would relocate to the Azteca on a temporary basis, due to the impending demolition of the Estadio Azul. The stadium hosted multiple matches during the 2026 FIFA World Cup, including the opener. It was the third World Cup for Azteca, which hosted the final match in both 1970 and 1986.\n[…]\nEstadio Azteca has hosted the FIFA World Cup on three occasions, hosting a total of 24 FIFA World Cup matches overall. The stadium hosted ten matches during the 1970 FIFA World Cup including the final. Sixteen years later the stadium hosted nine matches during the 1986 FIFA World Cup, including the final which was the second FIFA World Cup final to be played at the stadium.\n[…]\n1985 Mexico City Cup / Azteca 2000\n[…]\nList of football stadiums in Mexico\n[…]\n\"Magical memories live on in the vaunted Azteca\" – fifaworldcup.com – FIFA"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Azteca",
+        "situacao": "ok",
+        "texto": "O Estadio Azteca, oficialmente conhecido como Estadio Banorte por questões de patrocínio, é um estádio de futebol localizado na Cidade do México, no México. É o maior estádio do país e é a casa da Seleção Mexicana de Futebol e de clubes como o Club América e o Cruz Azul e já sediou partidas do Necaxa entre outros.\n[…]\nO Estádio Azteca localiza-se na demarcação territorial de Coyoacán, nas imediações da Calzada de Tlalpan. O acesso ao estádio pode ser feito por meio: de linhas de ônibus que trafegam na Calzada de Tlalpan; da Estação Estadio Azteca, uma das estações do VLT da Cidade do México; de táxis; e de automóveis, que podem ficar em um estacionamento aberto situado ao lado do estádio. Recebeu 5 partidas da Copa do Mundo FIFA de 2026, incluindo a partida de abertura do torneio.\n[…]\nO Estádio Azteca foi idealizado como uma grande instalação esportiva durante a presidência de Adolfo López Mateos; México foi escolhido para sediar os Jogos Olímpicos de Verão de 1968, e lá foi realizada a final do campeonato de futebol. Projetado pelos arquitetos Pedro Ramírez Vázquez e Rafael Mijares Alcérreca, o estádio teve suas obras iniciadas em 1961 e a partida inaugural foi entre o Club América e o Torino F.C., no dia 29 de maio de 1966, com capacidade para até 107.494 espectadores.\n[…]\nO local foi também foi o lugar onde Pelé (1970) e Diego Maradona (1986) ergueram o Troféu da Copa do Mundo FIFA pela última vez.\n[…]\nNa Copa do Mundo FIFA de 1970, o Estádio Azteca sediou no total dez partidas, incluindo a final entre as seleções do Brasil e da Itália.\n[…]\nNa Copa do Mundo FIFA de 1986, o Estádio Azteca sediou no total nove partidas, incluindo a final entre as seleções da Alemanha Ocidental e da Argentina.\n[…]\nNa Copa do Mundo FIFA de 2026, o Estádio Azteca sediou no total cinco partidas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.34 — 2026-10-01**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas e obras de arte em domínio público (pinturas, gravuras). Obras com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com várias espécies. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É uso privado, num jogo entre amigos, e não licença livre.
+- **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras de um tema, **pelo menos três famílias** e **pelo menos três catálogos**;
+- nenhum catálogo passa de **40%** das perguntas com figura do seu tema;
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

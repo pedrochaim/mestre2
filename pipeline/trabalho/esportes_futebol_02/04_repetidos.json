@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Marta, eleita seis vezes a melhor jogadora do mundo, nasceu em Dois Riachos, no sertão de qual estado brasileiro?",
+        "resposta": "Alagoas"
+      },
+      "existentes": [
+        {
+          "id": "q00534",
+          "pergunta": "Quem é esta atleta?",
+          "resposta": "Marta"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1953, um concurso de jornal escolheu o novo uniforme da seleção. Quem desenhou a camisa amarela vencedora?",
+        "resposta": "Aldyr Garcia Schlee"
+      },
+      "existentes": [
+        {
+          "id": "q00045",
+          "pergunta": "Nos anos cinquenta, a seleção brasileira abandonou o uniforme branco e adotou o amarelo por causa de qual derrota?",
+          "resposta": "Maracanazo, contra o Uruguai"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1966, meses antes da Copa na Inglaterra, a taça Jules Rimet foi roubada em Londres. Quem a encontrou num jardim, dias depois?",
+        "resposta": "O cachorro Pickles"
+      },
+      "existentes": [
+        {
+          "id": "q00046",
+          "pergunta": "Em 1970, por que o Brasil ganhou a posse definitiva da taça Jules Rimet?",
+          "resposta": "Por ser o primeiro tricampeão mundial"
+        },
+        {
+          "id": "q00544",
+          "pergunta": "Que troféu é este?",
+          "resposta": "Taça Jules Rimet"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1911, o time de futebol do Flamengo foi formado por jogadores dissidentes de qual clube carioca, que virou seu grande rival?",
+        "resposta": "Fluminense"
+      },
+      "existentes": [
+        {
+          "id": "q00058",
+          "pergunta": "Antes de ter um time de futebol, o Flamengo foi fundado em 1895 para disputar qual esporte?",
+          "resposta": "Remo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente é de identificação por imagem (Marta); a nova pergunta o estado natal, fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Designer da camisa amarela e motivo da troca de uniforme são fatos distintos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O roubo da taça em 1966 e quem a encontrou difere da posse definitiva em 1970 e da identificação do troféu."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Origem do time de futebol com dissidentes do Fluminense difere do esporte original da fundação (remo)."
+    }
+  ]
+}
