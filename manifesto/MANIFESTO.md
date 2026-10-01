@@ -1,12 +1,12 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.30 — 2026-09-30**
+> **Versão preliminar 0.31 — 2026-10-01**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
 > Ele tem duas partes:
 > - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
-> - **Parte II — Organização e processo (§10 a §17):** esquemas, fluxo de produção, decisões, pendências, o jogo e o app. É a referência de quem mantém o projeto.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
 >
 > Arquivos relacionados:
 > - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
@@ -492,8 +492,9 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 - [ ] **Esforço da geração:** a geração (Opus, esforço alto, US$ 0,50 a 0,70 por lote) virou a etapa mais cara. Testar esforço médio.
 - [ ] **Calibrar a dificuldade estimada** (§4): conferir se as faixas e o peso de cada língua batem com a experiência de jogo. Como a informação é só ilustrativa, isso não tem prioridade.
 - [ ] **Calibrar os limites por âncora** (§4) e as regras de variedade (§9), à medida que o banco crescer.
-- [ ] **Figuras no pipeline** (§6): etapa que busca imagens no Wikidata e no Commons, e crítico que baixa e olha a imagem antes de aprovar. Até lá, perguntas com figura são feitas à mão.
-- [ ] **Proporção de perguntas com figura:** começar com 5 a 10% do banco e ajustar depois de jogar.
+- [ ] **Figuras no pipeline** (§6, §17): etapa que busca imagens no Wikidata, no Commons e no PokéAPI, e crítico que olha a imagem antes de aprovar. É a sessão 1 da programação.
+- [ ] **Saturação por âncora no banco inteiro** (§17): hoje a contagem de perguntas por âncora e a lista de âncoras do gerador só valem dentro do subtema, e por isso entraram repetidos entre temas (a pulga da peste, a Revolta da Vacina). É a sessão 1 da programação.
+- [x] **Proporção de perguntas com figura:** definida em 25% do banco (§17).
 - [ ] **Tamanho do tabuleiro** (§15): 8 casas no estágio 1 (a casa grande do início e mais 7) e 8 no estágio 2 (uma por tema), ou seja, 16 acertos até a chegada. Ajustar depois de jogar, se preciso.
 - [ ] **Como a vez passa** (§15): quem é o próximo questionador e o próximo respondente. Hoje o grupo combina de viva voz.
 - [ ] **Acesso ao app** (§16): hoje não há login, e quem conhece o código de uma partida pode alterá-la. Rever se o app sair do círculo de amigos.
@@ -620,7 +621,91 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 
 ---
 
-## 17. Histórico
+## 17. Programação até 10 000 perguntas
+
+Plano aprovado em 2026-10-01 para levar o banco de 612 a **cerca de 10 000 perguntas**, com **25% de perguntas com figura**, ao longo das próximas sessões de trabalho.
+
+### Ponto de partida e metas
+
+| | Hoje (2026-10-01) | Meta | Falta |
+|---|---|---|---|
+| Perguntas de texto | 425 | 7 500 | ~7 075 |
+| Perguntas com figura | 187 | 2 500 | ~2 313 |
+| **Total** | **612** | **10 000** | **~9 400** |
+
+As perguntas se distribuem **por igual entre os oito temas**: cerca de 1 250 por tema, com 940 de texto e 310 com figura. Dentro de cada tema, o texto se divide entre os subtemas (§3):
+
+| Tema | Subtemas | Texto hoje | Meta de texto por subtema | Figura hoje | Meta de figura |
+|---|---|---|---|---|---|
+| Geografia | 8 | 29 | ~117 | 7 | 320 |
+| História | 12 | 125 | ~78 | 8 | 300 |
+| Natureza | 9 | 50 | ~104 | 8 | 320 |
+| Ciências | 7 | 97 | ~134 | 0 | 310 |
+| Artes e Pensamento | 9 | 0 | ~104 | 60 | 320 |
+| Entretenimento | 8 | 0 | ~117 | 57 | 310 |
+| Esportes | 8 | 30 | ~117 | 40 | 310 |
+| Cotidiano | 8 | 94 | ~117 | 7 | 310 |
+
+### Perguntas de texto: lotes de 50
+
+O texto sai do pipeline (§11), em lotes de 50, com cerca de 47 perguntas aproveitadas por lote, custo equivalente de US$ 1,45 e uns 8 minutos de execução. Faltam **cerca de 150 lotes**, que somam uns US$ 220 em equivalente de API, na cota do plano, e umas 20 horas de execução em segundo plano.
+
+O próximo lote é sempre do **subtema com o maior déficit em relação à meta**. Os lotes vêm em três ondas:
+1. **Cobertura:** um lote em cada um dos 57 subtemas que ainda não têm perguntas de texto.
+2. **Segunda passada:** mais um lote em todos os 69 subtemas.
+3. **Acabamento:** lotes extras até cada subtema chegar à meta. Subtemas populares (Futebol, História do Brasil, Países e Capitais, Música Brasileira, Cinema) podem passar um pouco da meta; subtemas estreitos podem ficar abaixo, se começarem a se repetir.
+
+### Perguntas com figura: de reconhecimento (§6)
+
+Até hoje, as perguntas com figura foram feitas à mão, numa sessão de conversa. Esse ritmo não chega a 2 300, por isso a primeira sessão monta a **etapa de figuras do pipeline** (pendência do §14). Cada fonte de figura é uma lista de entidades, tirada do Wikidata, do Commons ou do PokéAPI, que o script percorre:
+1. Escolhe as entidades, com as mais conhecidas primeiro (pela popularidade na Wikipédia), e pula as âncoras saturadas.
+2. Baixa a imagem principal, registra autor e licença e põe fundo branco nas transparentes.
+3. Pede ao LLM (Sonnet), que **olha a imagem**, para confirmar três coisas: o assunto é único e reconhecível, não há texto que entregue a resposta e a resposta é única. Ele devolve aprovado ou reprovado, o tipo (aberta ou múltipla) e, se for múltipla, os distratores.
+4. Grava a pergunta com o enunciado padrão da fonte ("Que animal é este?") e com a fonte (Wikipédia ou Bulbapedia).
+
+| Tema | Fontes de figura (quantidade aproximada) |
+|---|---|
+| Geografia | bandeiras de países (150), contornos de países e estados (60), cidades (60), paisagens e maravilhas naturais (50) |
+| Natureza | mamíferos (80), aves (70), vida marinha (50), répteis e anfíbios (40), insetos (30), plantas e frutas (30), dinossauros e fósseis (20) |
+| História | retratos de personagens históricos, em pinturas de domínio público (150), monumentos e sítios (100), mapas e bandeiras históricas (50) |
+| Artes e Pensamento | pinturas (150), retratos de escritores, compositores e filósofos (100), esculturas e arquitetura (70) |
+| Entretenimento | pokémon (180), músicos e atores em fotos livres (80), instrumentos musicais (30), jogos de tabuleiro e peças (20) |
+| Esportes | atletas (120), estádios (60), modalidades (50), objetos e equipamentos (30), circuitos (20), troféus (10), uniformes históricos sem escudo (20) |
+| Ciências | retratos de cientistas (100), astronomia em imagens da NASA, de domínio público (80), invenções e objetos históricos (50), minerais e elementos (40), ilustrações anatômicas antigas (40) |
+| Cotidiano | pratos e bebidas (80), transportes (60), frutas e ingredientes (50), objetos do dia a dia (40), folclore (40), trajes e moda (40) |
+
+A checagem visual pelo LLM custa uns 2 centavos por pergunta, uns US$ 50 no total.
+
+### Saturação por âncora
+
+Um assunto está saturado quando já há perguntas demais apontando para a mesma âncora. A primeira sessão também liga essa medida (pendência do §14):
+- a contagem de perguntas por âncora passa a valer **no banco inteiro**, e não só dentro do subtema;
+- o gerador recebe as âncoras mais usadas do tema todo, para evitá-las;
+- uma âncora com mais de 3 perguntas, somando texto e figura, fica bloqueada para novas perguntas, salvo decisão em contrário.
+
+### Sessões
+
+| Sessão | O que se faz | Texto ao fim | Figura ao fim |
+|---|---|---|---|
+| 1 | **Infraestrutura:** saturação por âncora no banco inteiro; plano com as metas por subtema (`pipeline/plano.json`); comando que roda uma fila de lotes e escolhe o subtema de maior déficit; etapa de figuras; relatório de progresso contra as metas. Teste com 2 lotes e 100 figuras | ~520 | ~290 |
+| 2 a 5 | **Onda 1:** cerca de 14 lotes por sessão, cobrindo os 57 subtemas sem texto. Cerca de 300 figuras por sessão (bandeiras, animais, pinturas, pokémon, retratos) | ~3 200 | ~1 500 |
+| 6 a 9 | **Onda 2:** cerca de 17 lotes por sessão, a segunda passada nos 69 subtemas. Cerca de 200 figuras por sessão | ~6 400 | ~2 300 |
+| 10 a 11 | **Onda 3:** lotes extras até as metas, mais as últimas figuras | ~7 500 | ~2 500 |
+| 12 | **Revisão:** relatório final, nova crítica por amostragem (`recriticar`), âncoras saturadas, distribuição por ângulo e tipo, auditoria humana opcional | ~7 500 | ~2 500 |
+
+**Rotina de cada sessão:**
+1. Rodar `relatorio` e ver o progresso contra as metas.
+2. Disparar a fila de lotes em segundo plano.
+3. Enquanto a fila roda, **não gravar nada no banco**: o pipeline grava o banco inteiro no fim de cada lote (§13). As figuras entram antes ou depois da fila, ou pelo próprio pipeline.
+4. Conferir uma amostra das perguntas novas.
+5. Exportar, commitar e publicar no Firebase.
+6. Registrar no §13 as lições e o custo da sessão.
+
+**Ajustes de rota:** o plano é uma meta, não uma obrigação. Se um subtema começar a se repetir (âncoras saturadas, crítico descartando muito), ele para abaixo da meta, e a diferença vai para subtemas com mais assunto. A proporção de 25% com figura vale para o banco todo, não para cada tema.
+
+---
+
+## 18. Histórico
 
 | Versão | Data | Mudanças principais |
 |---|---|---|
@@ -653,3 +738,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.28 | 2026-09-30 | Perguntas com figura são de reconhecimento: a resposta sai da imagem ("Que animal é este?"); âncora é o que aparece e o ângulo é `identidade`; exceção para arte de Pokémon do Bulbagarden; as 37 primeiras perguntas com figura foram apagadas, e ids apagados não são reaproveitados (§6, §13) |
 | 0.29 | 2026-09-30 | Figuras: obras de arte em domínio público; o ângulo segue o que se pergunta depois de reconhecer a figura (pintor → `autoria`, museu → `lugar`); dez perguntas de Pintura com figura (§6) |
 | 0.30 | 2026-09-30 | App: o crédito da figura sai de baixo da foto e fica só na ficha Sobre a pergunta, depois da resposta (nas pinturas, ele entregava o pintor) (§16) |
+| 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
