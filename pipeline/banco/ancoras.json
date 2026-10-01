@@ -10184,7 +10184,8 @@
     "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
     "variantes": [
       "@",
-      "At sign"
+      "At sign",
+      "Hanami"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/At_sign"
@@ -10572,6 +10573,535 @@
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Trem"
+    ]
+  },
+  {
+    "id": "pinata",
+    "nome": "Piñata",
+    "descricao": "Recipiente enfeitado e cheio de doces que as crianças quebram de olhos vendados em festas mexicanas e latino-americanas.",
+    "variantes": [
+      "Pinhata",
+      "Pignatta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pi%C3%B1ata"
+    ]
+  },
+  {
+    "id": "sesta",
+    "nome": "Sesta",
+    "descricao": "Cochilo tradicional depois do almoço, típico da Espanha e de outros países de clima quente.",
+    "variantes": [
+      "Siesta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Siesta"
+    ]
+  },
+  {
+    "id": "mardi_gras",
+    "nome": "Mardi Gras",
+    "descricao": "Carnaval celebrado em Nova Orleans e em outras cidades de tradição francesa, na terça-feira antes da Quarta-Feira de Cinzas.",
+    "variantes": [
+      "Terça-feira gorda",
+      "Fat Tuesday"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mardi_Gras"
+    ]
+  },
+  {
+    "id": "halloween",
+    "nome": "Halloween",
+    "descricao": "Festa celebrada em 31 de outubro, de origem celta e cristã, conhecida pelas fantasias e pelas abóboras esculpidas.",
+    "variantes": [
+      "Dia das Bruxas",
+      "All Hallows' Eve"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Halloween",
+      "https://pt.wikipedia.org/wiki/Halloween"
+    ]
+  },
+  {
+    "id": "diwali",
+    "nome": "Diwali",
+    "descricao": "Grande festa hindu das luzes, celebrada no outono com lamparinas, velas e fogos.",
+    "variantes": [
+      "Deepavali",
+      "Dipavali"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Diwali"
+    ]
+  },
+  {
+    "id": "hanukkah",
+    "nome": "Hanukkah",
+    "descricao": "Festa judaica de oito dias em que se acendem as velas de um candelabro de nove braços.",
+    "variantes": [
+      "Chanucá",
+      "Hanucá",
+      "Chanukah"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hanukkah"
+    ]
+  },
+  {
+    "id": "daruma",
+    "nome": "Daruma",
+    "descricao": "Boneco japonês redondo e sem braços, usado como amuleto para fazer pedidos.",
+    "variantes": [
+      "Boneco Daruma",
+      "Daruma doll"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Daruma_doll"
+    ]
+  },
+  {
+    "id": "inti_raymi",
+    "nome": "Inti Raymi",
+    "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+    "variantes": [
+      "Festa do Sol"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Inti_Raymi"
+    ]
+  },
+  {
+    "id": "nomes_akan",
+    "nome": "Nomes akan",
+    "descricao": "Sistema tradicional de nomes do povo akan, de Gana, em que o nome indica o dia da semana do nascimento.",
+    "variantes": [
+      "Akan names",
+      "Nomes do dia akan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Akan_names"
+    ]
+  },
+  {
+    "id": "namaste",
+    "nome": "Namastê",
+    "descricao": "Saudação respeitosa indiana feita com as palmas das mãos unidas diante do peito.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Namaste"
+    ]
+  },
+  {
+    "id": "oktoberfest",
+    "nome": "Oktoberfest",
+    "descricao": "Festa popular anual de Munique, na Alemanha, famosa pela cerveja e pelos trajes típicos bávaros.",
+    "variantes": [
+      "Wiesn"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Oktoberfest"
+    ]
+  },
+  {
+    "id": "tetrafobia",
+    "nome": "Tetrafobia",
+    "descricao": "Aversão ao número quatro, comum na China e em outros países do Leste Asiático.",
+    "variantes": [
+      "Tetraphobia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tetraphobia"
+    ]
+  },
+  {
+    "id": "hashi",
+    "nome": "Hashi",
+    "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+    "variantes": [
+      "Chopsticks",
+      "Pauzinhos",
+      "Palitinhos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chopsticks"
+    ]
+  },
+  {
+    "id": "dia_da_marmota",
+    "nome": "Dia da Marmota",
+    "descricao": "Tradição americana e canadense de 2 de fevereiro em que uma marmota supostamente prevê a duração do inverno.",
+    "variantes": [
+      "Groundhog Day"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Groundhog_Day"
+    ]
+  },
+  {
+    "id": "ano_novo_chines",
+    "nome": "Ano-Novo Chinês",
+    "descricao": "Festa da virada do ano no calendário lunissolar chinês, também chamada Festa da Primavera.",
+    "variantes": [
+      "Festa da Primavera",
+      "Ano-Novo Lunar",
+      "Chinese New Year"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chinese_New_Year"
+    ]
+  },
+  {
+    "id": "noite_de_guy_fawkes",
+    "nome": "Noite de Guy Fawkes",
+    "descricao": "Comemoração britânica de 5 de novembro, com fogueiras e fogos de artifício.",
+    "variantes": [
+      "Guy Fawkes Night",
+      "Bonfire Night",
+      "Noite das Fogueiras"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guy_Fawkes_Night"
+    ]
+  },
+  {
+    "id": "vestido_de_noiva_branco",
+    "nome": "Vestido de noiva branco",
+    "descricao": "Costume ocidental de a noiva se casar vestida de branco.",
+    "variantes": [
+      "White wedding",
+      "Casamento branco"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/White_wedding"
+    ]
+  },
+  {
+    "id": "dedo_anelar",
+    "nome": "Dedo anelar",
+    "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+    "variantes": [
+      "Anelar",
+      "Ring finger"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ring_finger"
+    ]
+  },
+  {
+    "id": "quebra_do_copo_no_casamento_judaico",
+    "nome": "Quebra do copo no casamento judaico",
+    "descricao": "Rito do fim da cerimônia de casamento judaica em que o noivo pisa num copo e o quebra.",
+    "variantes": [
+      "Breaking the glass"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jewish_wedding"
+    ]
+  },
+  {
+    "id": "dia_do_rei",
+    "nome": "Dia do Rei",
+    "descricao": "Feriado nacional dos Países Baixos em homenagem ao aniversário do monarca.",
+    "variantes": [
+      "Koningsdag",
+      "King's Day"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Koningsdag"
+    ]
+  },
+  {
+    "id": "tanabata",
+    "nome": "Tanabata",
+    "descricao": "Festival japonês das estrelas, em que se penduram pedidos escritos em ramos de bambu.",
+    "variantes": [
+      "Festival das Estrelas",
+      "Festa das Estrelas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tanabata"
+    ]
+  },
+  {
+    "id": "krampus",
+    "nome": "Krampus",
+    "descricao": "Criatura chifruda e peluda do folclore alpino que assusta as crianças malcriadas na época do Natal.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Krampus"
+    ]
+  },
+  {
+    "id": "haka",
+    "nome": "Haka",
+    "descricao": "Dança cerimonial maori da Nova Zelândia, com gritos, batidas no corpo e expressões faciais intensas.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Haka"
+    ]
+  },
+  {
+    "id": "fallas_de_valencia",
+    "nome": "Fallas de Valência",
+    "descricao": "Festa de março em Valência, na Espanha, que termina com a queima de grandes esculturas satíricas.",
+    "variantes": [
+      "Falles",
+      "Las Fallas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Falles"
+    ]
+  },
+  {
+    "id": "natal_no_japao",
+    "nome": "Natal no Japão",
+    "descricao": "Forma como o Natal, festa sem tradição religiosa local, é celebrado no Japão.",
+    "variantes": [
+      "Christmas in Japan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Christmas_in_Japan"
+    ]
+  },
+  {
+    "id": "numerologia_chinesa",
+    "nome": "Numerologia chinesa",
+    "descricao": "Conjunto de crenças chinesas sobre números de sorte e de azar, baseadas sobretudo na pronúncia.",
+    "variantes": [
+      "Chinese numerology",
+      "Números da sorte chineses"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chinese_numerology"
+    ]
+  },
+  {
+    "id": "matrioska",
+    "nome": "Matrioska",
+    "descricao": "Conjunto russo de bonecas de madeira ocas que se encaixam umas dentro das outras.",
+    "variantes": [
+      "Matryoshka",
+      "Boneca russa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Matryoshka_doll"
+    ]
+  },
+  {
+    "id": "tomatina",
+    "nome": "Tomatina",
+    "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+    "variantes": [
+      "La Tomatina"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/La_Tomatina"
+    ]
+  },
+  {
+    "id": "sinterklaas",
+    "nome": "Sinterklaas",
+    "descricao": "Figura holandesa e belga inspirada em São Nicolau, que traz presentes às crianças no início de dezembro.",
+    "variantes": [
+      "Sint Nicolaas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sinterklaas"
+    ]
+  },
+  {
+    "id": "up_helly_aa",
+    "nome": "Up Helly Aa",
+    "descricao": "Festival escocês de inverno em que se queima uma réplica de galera viking.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Up_Helly_Aa"
+    ]
+  },
+  {
+    "id": "dia_de_sao_patricio",
+    "nome": "Dia de São Patrício",
+    "descricao": "Festa irlandesa de 17 de março em honra do padroeiro da Irlanda, celebrada com desfiles e a cor verde.",
+    "variantes": [
+      "Saint Patrick's Day",
+      "St. Patrick's Day"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Saint_Patrick%27s_Day"
+    ]
+  },
+  {
+    "id": "palio",
+    "nome": "Palio",
+    "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+    "variantes": [
+      "Palio di Siena"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Palio_di_Siena"
+    ]
+  },
+  {
+    "id": "befana",
+    "nome": "Befana",
+    "descricao": "Velha bondosa do folclore italiano que voa numa vassoura e traz doces às crianças.",
+    "variantes": [
+      "La Befana"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Befana"
+    ]
+  },
+  {
+    "id": "nowruz",
+    "nome": "Nowruz",
+    "descricao": "Ano-novo persa, celebrado no Irã, na Ásia Central e em outras regiões de influência persa.",
+    "variantes": [
+      "Noruz",
+      "Norouz"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nowruz"
+    ]
+  },
+  {
+    "id": "terca_feira_13",
+    "nome": "Terça-feira 13",
+    "descricao": "Data considerada de azar nos países de língua espanhola e na Grécia.",
+    "variantes": [
+      "Martes trece",
+      "Tuesday the 13th"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Friday_the_13th"
+    ]
+  },
+  {
+    "id": "white_day",
+    "nome": "White Day",
+    "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+    "variantes": [
+      "Dia Branco",
+      "Howaito Dē"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/White_Day"
+    ]
+  },
+  {
+    "id": "enkutatash",
+    "nome": "Enkutatash",
+    "descricao": "Ano-Novo da Etiópia, celebrado segundo o calendário etíope.",
+    "variantes": [
+      "Ano-Novo etíope"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Enkutatash"
+    ]
+  },
+  {
+    "id": "dia_dos_mortos",
+    "nome": "Dia dos Mortos",
+    "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+    "variantes": [
+      "Día de Muertos",
+      "Día de los Muertos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Day_of_the_Dead"
+    ]
+  },
+  {
+    "id": "cerimonia_do_cha_japonesa",
+    "nome": "Cerimônia do chá japonesa",
+    "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+    "variantes": [
+      "Chanoyu",
+      "Chadō",
+      "Sadō"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Japanese_tea_ceremony"
+    ]
+  },
+  {
+    "id": "algo_velho_algo_novo",
+    "nome": "Algo velho, algo novo",
+    "descricao": "Tradição inglesa de casamento que lista quatro objetos que a noiva deve levar para dar sorte.",
+    "variantes": [
+      "Something old, something new"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Something_old"
+    ]
+  },
+  {
+    "id": "dia_de_santa_luzia_na_suecia",
+    "nome": "Dia de Santa Luzia na Suécia",
+    "descricao": "Celebração sueca de 13 de dezembro com procissões de moças vestidas de branco.",
+    "variantes": [
+      "Luciadagen",
+      "Saint Lucy's Day"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Saint_Lucy%27s_Day"
+    ]
+  },
+  {
+    "id": "doze_uvas_da_sorte",
+    "nome": "Doze uvas da sorte",
+    "descricao": "Costume espanhol de comer uvas acompanhando as badaladas da meia-noite do Ano-Novo.",
+    "variantes": [
+      "Las doce uvas",
+      "Twelve Grapes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Twelve_Grapes"
+    ]
+  },
+  {
+    "id": "joya_no_kane",
+    "nome": "Joya no Kane",
+    "descricao": "Costume japonês de tocar os sinos dos templos budistas na noite de Ano-Novo.",
+    "variantes": [
+      "Sino da véspera de Ano-Novo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Japanese_New_Year"
+    ]
+  },
+  {
+    "id": "la_calavera_catrina",
+    "nome": "La Calavera Catrina",
+    "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+    "variantes": [
+      "Catrina",
+      "La Catrina",
+      "Calavera Garbancera"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/La_Calavera_Catrina"
+    ]
+  },
+  {
+    "id": "ratoncito_perez",
+    "nome": "Ratoncito Pérez",
+    "descricao": "Personagem do folclore espanhol e hispano-americano que troca os dentes de leite das crianças por presentes.",
+    "variantes": [
+      "Ratinho Pérez",
+      "Ratón Pérez"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ratoncito_P%C3%A9rez"
+    ]
+  },
+  {
+    "id": "aceno_de_cabeca_na_bulgaria",
+    "nome": "Aceno de cabeça na Bulgária",
+    "descricao": "Convenção búlgara de gestos de cabeça em que o sim e o não são feitos ao contrário da maioria dos países.",
+    "variantes": [
+      "Nod (gesture)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nod_(gesture)",
+      "https://en.wikipedia.org/wiki/Head_shake"
     ]
   }
 ]

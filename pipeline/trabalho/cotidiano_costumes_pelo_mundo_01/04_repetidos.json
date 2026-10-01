@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Japão, os piqueniques à sombra das cerejeiras na primavera se chamam hanami. O que significa essa palavra?",
+        "resposta": "Ver as flores"
+      },
+      "existentes": [
+        {
+          "id": "q00759",
+          "pergunta": "Muito antes do e-mail, arroba já era o nome de uma unidade de medida, usada até hoje na venda de gado. O que ela mede?",
+          "resposta": "Peso"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Hanami (significado em japonês) e arroba (unidade de peso do gado) são fatos totalmente diferentes."
+    }
+  ]
+}
