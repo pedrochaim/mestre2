@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Kilt xadrez verde e azul, bem visível e sem texto; só pernas e tronco, sem rosto.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 2,
+      "pergunta": "Esta peça de lã xadrez, de pregas atrás, é traje tradicional masculino de qual país?",
+      "resposta": "Escócia",
+      "ancora": {
+        "nome": "Kilt",
+        "descricao": "Peça de vestuário tradicional escocesa, semelhante a uma saia até o joelho, de lã em padrão tartan e com pregas.",
+        "variantes": [
+          "Kilt escocês",
+          "Saiote escocês"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga com dois homens comuns em primeiro plano; não são figuras públicas nem brincantes de festa pública."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano, com rostos bem visíveis. Há vários trajes diferentes e o dashiki não é o único assunto."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cartola preta isolada em fundo claro, sem texto e fácil de reconhecer.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que tipo de chapéu alto e de copa reta é este, associado à roupa formal?",
+      "resposta": "Cartola",
+      "ancora": {
+        "nome": "Cartola",
+        "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+        "variantes": [
+          "Cartola (chapéu)",
+          "Top hat",
+          "Chapéu alto"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Crianças comuns em primeiro plano, em foto doméstica."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "O keffiyeh aparece bem visível na cabeça de uma figura pública. O fundo do Fórum Econômico Mundial não entrega a resposta. Uso múltipla escolha para distinguir de outros lenços de cabeça.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "pergunta": "Como se chama este lenço quadriculado de algodão, usado na cabeça por homens do Oriente Médio?",
+      "resposta": "Keffiyeh",
+      "distratores": [
+        "Turbante",
+        "Pashmina",
+        "Balaclava"
+      ],
+      "ancora": {
+        "nome": "Keffiyeh",
+        "descricao": "Lenço quadrado de algodão, tradicional entre homens do Oriente Médio, usado na cabeça e muitas vezes preso por um cordão chamado agal.",
+        "variantes": [
+          "Quefia",
+          "Shemagh",
+          "Ghutrah",
+          "Hattah",
+          "Kufiyya"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ampulheta de madeira e vidro bem nítida, em fundo branco e sem texto. Troquei a família para o_que_e, porque 'onde' não rende pergunta para um objeto genérico.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que objeto é este, em que a areia escorre de um bulbo de vidro para o outro, medindo o tempo?",
+      "resposta": "Ampulheta",
+      "ancora": {
+        "nome": "Ampulheta",
+        "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+        "variantes": [
+          "Relógio de areia",
+          "Hourglass"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Mulheres comuns e outras pessoas num mercado, em primeiro plano; fotografia de pessoas comuns."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Chapéu de três pontas com galão dourado, em fundo neutro de museu e sem texto; forma inconfundível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que tipo de chapéu de aba dobrada é este, muito popular na Europa do século dezoito?",
+      "resposta": "Tricórnio",
+      "ancora": {
+        "nome": "Tricórnio",
+        "descricao": "Chapéu de feltro com a aba virada para cima em três lados, formando um triângulo, popular na Europa no século dezoito.",
+        "variantes": [
+          "Tricorne",
+          "Tricórnio",
+          "Chapéu de três pontas",
+          "Cocked hat"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É um desenho a nanquim, e ilustração só vale para o que não pode ser fotografado; uma gravata-borboleta pode ser fotografada."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Dois homens comuns em primeiro plano, fora de festa pública. Aparecem também um termo e uma cuia, que distraem do assunto, e o texto da garrafa."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Chapéu deerstalker xadrez com abas e laço, isolado em fundo branco e sem texto. A imagem é pequena, mas a forma é nítida o bastante.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "Que tipo de chapéu xadrez, com abas nas orelhas, é este, famoso como símbolo dos detetives?",
+      "resposta": "Deerstalker (chapéu de caçador de veados)",
+      "ancora": {
+        "nome": "Deerstalker",
+        "descricao": "Boné inglês de caça, em geral de tecido xadrez, com duas abas à frente e atrás e protetores de orelha, associado a Sherlock Holmes.",
+        "variantes": [
+          "Chapéu de caçador de veados",
+          "Chapéu de Sherlock Holmes",
+          "Chapéu de detetive"
+        ]
+      }
+    }
+  ]
+}

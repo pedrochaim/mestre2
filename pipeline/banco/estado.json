@@ -38,9 +38,10 @@
     "fig_mamiferos_002",
     "entretenimento_musica_internacional_01",
     "fig_bandeiras_004",
-    "entretenimento_jogos_eletronicos_01"
+    "entretenimento_jogos_eletronicos_01",
+    "fig_objetos_trajes_002"
   ],
-  "maior_id": 1349,
+  "maior_id": 1355,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -106,15 +107,16 @@
     },
     "objetos_trajes": {
       "familias": {
-        "o_que_e": 3,
-        "com_o_que_se_liga": 4
+        "o_que_e": 8,
+        "com_o_que_se_liga": 4,
+        "onde": 1
       },
       "niveis": {
-        "1": 3,
-        "3": 1,
-        "2": 3
+        "1": 7,
+        "3": 2,
+        "2": 4
       },
-      "registradas": 7
+      "registradas": 13
     },
     "retratos_historicos": {
       "familias": {
