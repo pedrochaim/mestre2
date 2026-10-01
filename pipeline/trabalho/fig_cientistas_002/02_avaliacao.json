@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro, sem texto; Galileu é reconhecível.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 7,
+      "pergunta": "Este cientista italiano apontou um telescópio aperfeiçoado para qual planeta e descobriu suas quatro maiores luas?",
+      "resposta": "Júpiter",
+      "distratores": [],
+      "ancora": {
+        "nome": "Galileu Galilei",
+        "descricao": "Astrônomo, físico e engenheiro italiano (1564–1642), pai da astronomia observacional.",
+        "variantes": [
+          "Galileo Galilei",
+          "Galileu"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de laboratório sem texto legível que entregue a resposta; pessoa única em foco.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 3,
+      "pergunta": "Em 1928, este cientista escocês descobriu uma substância que foi o primeiro antibiótico. Que substância é essa?",
+      "resposta": "Penicilina",
+      "distratores": [],
+      "ancora": {
+        "nome": "Alexander Fleming",
+        "descricao": "Médico e microbiologista escocês (1881–1955), descobridor da penicilina e Nobel de 1945.",
+        "variantes": [
+          "Sir Alexander Fleming"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico em preto e branco, sem texto, bem legível.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que animal aparece num famoso experimento mental imaginado por este físico austríaco?",
+      "resposta": "Gato",
+      "distratores": [],
+      "ancora": {
+        "nome": "Erwin Schrödinger",
+        "descricao": "Físico teórico austríaco (1887–1961), autor da equação de Schrödinger e Nobel de Física de 1933.",
+        "variantes": [
+          "Erwin Schrodinger",
+          "Schroedinger"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A pintura traz o texto '14 BIS' bem visível, que entrega a resposta, além de assinatura e várias pessoas ao fundo."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico clássico, sem texto, reconhecível.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 3,
+      "pergunta": "Que método de tratamento, baseado na conversa com o paciente, foi fundado por este médico austríaco?",
+      "resposta": "Psicanálise",
+      "distratores": [],
+      "ancora": {
+        "nome": "Sigmund Freud",
+        "descricao": "Neurologista austríaco (1856–1939), fundador da psicanálise.",
+        "variantes": [
+          "Freud"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto; múltipla com barbudos vitorianos para distinguir.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Quem é este cientista, que unificou eletricidade, magnetismo e luz numa só teoria?",
+      "resposta": "James Clerk Maxwell",
+      "distratores": [
+        "Lord Kelvin",
+        "Charles Darwin",
+        "Hermann von Helmholtz"
+      ],
+      "ancora": {
+        "nome": "James Clerk Maxwell",
+        "descricao": "Físico e matemático escocês (1831–1879), autor das equações do eletromagnetismo.",
+        "variantes": [
+          "Maxwell"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto, reconhecível.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 5,
+      "pergunta": "Que aparelho de gravar e reproduzir sons, criado em 1877, é invenção deste inventor americano?",
+      "resposta": "Fonógrafo",
+      "distratores": [],
+      "ancora": {
+        "nome": "Thomas Edison",
+        "descricao": "Inventor e empresário americano (1847–1931), conhecido pela lâmpada incandescente e pelo fonógrafo.",
+        "variantes": [
+          "Thomas Alva Edison"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico em preto e branco, sem texto, nítido.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 4,
+      "pergunta": "Quem é este matemático inglês, considerado o pai da ciência da computação teórica?",
+      "resposta": "Alan Turing",
+      "distratores": [],
+      "ancora": {
+        "nome": "Alan Turing",
+        "descricao": "Matemático e lógico inglês (1912–1954), pai da ciência da computação teórica.",
+        "variantes": [
+          "Alan Mathison Turing"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico antigo, sem texto, legível.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 3,
+      "pergunta": "Por seus estudos de que doença este médico alemão ganhou o Nobel de Medicina de 1905?",
+      "resposta": "Tuberculose",
+      "distratores": [
+        "Difteria",
+        "Malária",
+        "Sífilis"
+      ],
+      "ancora": {
+        "nome": "Robert Koch",
+        "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+        "variantes": [
+          "Heinrich Hermann Robert Koch"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico clássico, sem texto, nítido.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 5,
+      "pergunta": "Quem é este engenheiro e inventor, pioneiro do sistema de energia elétrica em corrente alternada?",
+      "resposta": "Nikola Tesla",
+      "distratores": [],
+      "ancora": {
+        "nome": "Nikola Tesla",
+        "descricao": "Engenheiro e inventor sérvio-americano (1856–1943), pioneiro da corrente alternada.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura de corpo inteiro em domínio público, sem texto; figura única.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 4,
+      "pergunta": "Com que máquina de Charles Babbage esta matemática inglesa é famosa por ter trabalhado?",
+      "resposta": "Máquina analítica",
+      "distratores": [
+        "Pascalina",
+        "Máquina de Turing",
+        "Tear de Jacquard"
+      ],
+      "ancora": {
+        "nome": "Ada Lovelace",
+        "descricao": "Matemática inglesa (1815–1852), considerada a primeira programadora de computadores.",
+        "variantes": [
+          "Augusta Ada King",
+          "Condessa de Lovelace"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A placa do pedestal mostra 'JENNER', entregando a resposta; há também pessoas comuns ao fundo."
+    }
+  ]
+}
