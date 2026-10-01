@@ -19272,5 +19272,255 @@
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q01157",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "napoleao_bonaparte",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que líder histórico francês aparece neste retrato?",
+    "resposta": "Napoleão Bonaparte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Napoleon",
+      "https://pt.wikipedia.org/wiki/Napole%C3%A3o_Bonaparte"
+    ],
+    "imagem": {
+      "arquivo": "q01157.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+      "autor": "Jacques-Louis David",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01158",
+    "tema": "História",
+    "subtema": "Idade Moderna",
+    "ancora": "washington_d_c",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano o homem deste retrato começou seu mandato presidencial?",
+    "resposta": "1789",
+    "distratores": [
+      "1776",
+      "1783",
+      "1801"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_Washington",
+      "https://pt.wikipedia.org/wiki/George_Washington"
+    ],
+    "imagem": {
+      "arquivo": "q01158.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+      "autor": "Gilbert Stuart",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01159",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "aquenaton",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A que divindade este faraó dedicou um culto exclusivo, abandonando os demais deuses egípcios?",
+    "resposta": "Áton (Aten)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Akhenaten",
+      "https://pt.wikipedia.org/wiki/Aquen%C3%A1ton"
+    ],
+    "imagem": {
+      "arquivo": "q01159.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:GD-EG-Caire-Musée061.JPG",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q01160",
+    "tema": "História",
+    "subtema": "Segunda Guerra Mundial",
+    "ancora": "adolf_hitler",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que ditador alemão aparece nesta foto?",
+    "resposta": "Adolf Hitler",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Adolf_Hitler",
+      "https://pt.wikipedia.org/wiki/Adolf_Hitler"
+    ],
+    "imagem": {
+      "arquivo": "q01160.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Adolf_Hitler_cropped_restored_3x4.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q01161",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "rainha_vitoria",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano a rainha desta foto subiu ao trono?",
+    "resposta": "1837",
+    "distratores": [
+      "1815",
+      "1851",
+      "1861"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Queen_Victoria",
+      "https://pt.wikipedia.org/wiki/Vit%C3%B3ria_do_Reino_Unido"
+    ],
+    "imagem": {
+      "arquivo": "q01161.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Queen_Victoria_by_Bassano.jpg",
+      "autor": "Alexander Bassano",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01162",
+    "tema": "História",
+    "subtema": "Idade Contemporânea",
+    "ancora": "abraham_lincoln",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que presidente americano aparece nesta foto?",
+    "resposta": "Abraham Lincoln",
+    "distratores": [
+      "Ulysses Grant",
+      "James Garfield",
+      "Benjamin Harrison"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+      "https://pt.wikipedia.org/wiki/Abraham_Lincoln"
+    ],
+    "imagem": {
+      "arquivo": "q01162.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+      "autor": "Alexander Gardner",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01163",
+    "tema": "História",
+    "subtema": "Idade Moderna",
+    "ancora": "elizabeth_i",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Que esquadra espanhola foi derrotada em 1588, durante o reinado da rainha deste retrato?",
+    "resposta": "Invencível Armada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elizabeth_I",
+      "https://pt.wikipedia.org/wiki/Isabel_I_de_Inglaterra"
+    ],
+    "imagem": {
+      "arquivo": "q01163.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Darnley_stage_3.jpg",
+      "autor": "Unidentified painter",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01164",
+    "tema": "História",
+    "subtema": "Roma Antiga",
+    "ancora": "nero",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que imperador romano é retratado neste busto?",
+    "resposta": "Nero",
+    "distratores": [
+      "Calígula",
+      "Cláudio",
+      "Domiciano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nero",
+      "https://pt.wikipedia.org/wiki/Nero"
+    ],
+    "imagem": {
+      "arquivo": "q01164.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nero_Palatino_Inv618.jpg",
+      "autor": "Jastrow",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01165",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "dom_pedro_i",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que monarca aparece nesta fotografia?",
+    "resposta": "Dom Pedro II",
+    "distratores": [
+      "Francisco José I",
+      "Guilherme I",
+      "Dom Luís I"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pedro_II_of_Brazil",
+      "https://pt.wikipedia.org/wiki/Pedro_II_do_Brasil"
+    ],
+    "imagem": {
+      "arquivo": "q01165.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pedro_II_circa_1887b_transparent.png",
+      "autor": "Alphonse Liébert",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01166",
+    "tema": "História",
+    "subtema": "Idade Moderna",
+    "ancora": "henrique_viii",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que rei da Inglaterra aparece neste retrato?",
+    "resposta": "Henrique VIII",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_VIII",
+      "https://pt.wikipedia.org/wiki/Henrique_VIII_de_Inglaterra"
+    ],
+    "imagem": {
+      "arquivo": "q01166.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hans_Holbein,_the_Younger,_Around_1497-1543_-_Portrait_of_Henry_VIII_of_England_-_Google_Art_Project.jpg",
+      "autor": "Hans Holbein the Younger",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01167",
+    "tema": "História",
+    "subtema": "Roma Antiga",
+    "ancora": "constantino",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que cidade este imperador romano inaugurou como nova capital do Império?",
+    "resposta": "Constantinopla",
+    "distratores": [
+      "Nicomédia",
+      "Antioquia",
+      "Ravena"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Constantine_the_Great",
+      "https://pt.wikipedia.org/wiki/Constantino"
+    ],
+    "imagem": {
+      "arquivo": "q01167.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Rome-Capitole-StatueConstantin.jpg",
+      "autor": "Jean-Christophe BENOIST",
+      "licenca": "CC BY 2.5"
+    }
   }
 ]

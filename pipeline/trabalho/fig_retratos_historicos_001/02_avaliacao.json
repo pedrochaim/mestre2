@@ -1,0 +1,247 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato de corpo inteiro de Napoleão por David, emblemático e sem legenda que entregue o nome; a assinatura do pintor no rolo é mínima e não revela o retratado.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que líder histórico francês aparece neste retrato?",
+      "resposta": "Napoleão Bonaparte",
+      "destino": 5,
+      "ancora": {
+        "nome": "Napoleão Bonaparte",
+        "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+        "variantes": [
+          "Napoleão I",
+          "Napoleon Bonaparte"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato de Gilbert Stuart, muito reconhecível e sem texto. A pergunta de data não nomeia o retratado.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano o homem deste retrato começou seu mandato presidencial?",
+      "resposta": "1789",
+      "distratores": [
+        "1776",
+        "1783",
+        "1801"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "George Washington",
+        "descricao": "Comandante do Exército Continental e primeiro presidente dos Estados Unidos, de 1789 a 1797.",
+        "variantes": [
+          "Washington"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Busto colossal de Aquenáton no estilo de Amarna, inconfundível e sem texto. Fundo com outras estátuas não atrapalha o assunto principal.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A que divindade este faraó dedicou um culto exclusivo, abandonando os demais deuses egípcios?",
+      "resposta": "Áton (Aten)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Aquenáton",
+        "descricao": "Faraó da 18ª dinastia do Egito, antes chamado Amenhotep IV, que instituiu o culto de Áton.",
+        "variantes": [
+          "Akhenaten",
+          "Amenhotep IV",
+          "Echnaton"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco, rosto nítido e figura pública inconfundível; sem legenda. A águia na gravata é minúscula e não dá o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ditador alemão aparece nesta foto?",
+      "resposta": "Adolf Hitler",
+      "destino": 7,
+      "ancora": {
+        "nome": "Adolf Hitler",
+        "descricao": "Líder do Partido Nazista e ditador da Alemanha de 1933 a 1945.",
+        "variantes": [
+          "Hitler"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fotografia conhecida da rainha Vitória idosa, com coroa e véu, sem texto visível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano a rainha desta foto subiu ao trono?",
+      "resposta": "1837",
+      "distratores": [
+        "1815",
+        "1851",
+        "1861"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Rainha Vitória",
+        "descricao": "Rainha do Reino Unido de 1837 a 1901, que deu nome à era vitoriana.",
+        "variantes": [
+          "Vitória do Reino Unido",
+          "Queen Victoria"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O busto traz a inscrição em grego com o nome PERIKLES na base, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fotografia nítida e muito conhecida de Lincoln, sem texto. Distratores são presidentes americanos barbados do mesmo século.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que presidente americano aparece nesta foto?",
+      "resposta": "Abraham Lincoln",
+      "distratores": [
+        "Ulysses Grant",
+        "James Garfield",
+        "Benjamin Harrison"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Abraham Lincoln",
+        "descricao": "16º presidente dos Estados Unidos, que governou durante a Guerra Civil Americana e foi assassinado em 1865.",
+        "variantes": [
+          "Lincoln"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato Darnley de Elizabeth I, sem texto, cabelo ruivo e coroa ao lado. Reconhecível por quem conhece a iconografia.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que esquadra espanhola foi derrotada em 1588, durante o reinado da rainha deste retrato?",
+      "resposta": "Invencível Armada",
+      "destino": 4,
+      "ancora": {
+        "nome": "Elizabeth I",
+        "descricao": "Rainha da Inglaterra de 1558 a 1603, última monarca da dinastia Tudor.",
+        "variantes": [
+          "Isabel I",
+          "Elizabeth I da Inglaterra",
+          "Rainha Virgem"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cabeça em mármore de Nero, sem texto, mas semelhante a retratos de outros imperadores júlio-cláudios; por isso, múltipla escolha com distratores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que imperador romano é retratado neste busto?",
+      "resposta": "Nero",
+      "distratores": [
+        "Calígula",
+        "Cláudio",
+        "Domiciano"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Nero",
+        "descricao": "Imperador romano de 54 a 68 d.C., último da dinastia júlio-claudiana.",
+        "variantes": [
+          "Nero Cláudio César",
+          "Nero Claudius Caesar"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fotografia antiga nítida de Dom Pedro II idoso, sem texto. Distratores são monarcas europeus barbados do mesmo período.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que monarca aparece nesta fotografia?",
+      "resposta": "Dom Pedro II",
+      "distratores": [
+        "Francisco José I",
+        "Guilherme I",
+        "Dom Luís I"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Dom Pedro II",
+        "descricao": "Segundo e último imperador do Brasil, reinou de 1831 a 1889.",
+        "variantes": [
+          "Pedro II do Brasil",
+          "Pedro de Alcântara"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato de Holbein, emblemático e sem texto; Henrique VIII é facilmente reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rei da Inglaterra aparece neste retrato?",
+      "resposta": "Henrique VIII",
+      "destino": 4,
+      "ancora": {
+        "nome": "Henrique VIII",
+        "descricao": "Rei da Inglaterra de 1509 a 1547, da dinastia Tudor, que rompeu com a Igreja Católica.",
+        "variantes": [
+          "Henry VIII"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cabeça colossal de Constantino nos Museus Capitolinos, célebre e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cidade este imperador romano inaugurou como nova capital do Império?",
+      "resposta": "Constantinopla",
+      "distratores": [
+        "Nicomédia",
+        "Antioquia",
+        "Ravena"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Constantino",
+        "descricao": "Imperador romano de 306 a 337, o primeiro a se converter ao cristianismo.",
+        "variantes": [
+          "Constantino I",
+          "Constantino, o Grande",
+          "Constantine the Great"
+        ]
+      }
+    }
+  ]
+}
