@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pente isolado em fundo branco, nítido e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de higiene pessoal é este?",
+      "resposta": "Pente",
+      "ancora": {
+        "nome": "Pente",
+        "descricao": "Objeto com uma fileira de dentes usado para desembaraçar, limpar ou pentear o cabelo.",
+        "variantes": [
+          "Comb"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Máquina de escrever portátil bem visível; a marca na imagem não entrega a resposta.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que máquina antiga de escritório é esta?",
+      "resposta": "Máquina de escrever",
+      "ancora": {
+        "nome": "Máquina de escrever",
+        "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+        "variantes": [
+          "Typewriter"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pince-nez nítido, reconhecível e sem texto. Pergunta de nível 3 sobre a origem do nome.",
+      "destino": 1,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este modelo de óculos, sem hastes e popular no fim do século dezenove, tem nome de que idioma?",
+      "resposta": "Francês",
+      "ancora": {
+        "nome": "Pince-nez",
+        "descricao": "Tipo de óculos sem hastes, cujas lentes são presas pressionando a ponte do nariz, popular no fim do século dezenove.",
+        "variantes": [
+          "Pincenê",
+          "Pince nez"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra três disquetes de tamanhos diferentes, e a legenda 'FLOPPY DISK' está visível e entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Par de getas em fundo neutro, sem texto e reconhecível pela base de madeira com dentes.",
+      "destino": 2,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este calçado tradicional de madeira, com dois dentes sob a sola, é típico de que país?",
+      "resposta": "Japão",
+      "distratores": [
+        "Coreia do Sul",
+        "China",
+        "Tailândia"
+      ],
+      "ancora": {
+        "nome": "Geta",
+        "descricao": "Calçado tradicional japonês, espécie de sandália com base plana de madeira elevada por dois dentes e presa ao pé por uma tira de tecido.",
+        "variantes": [
+          "Gueta",
+          "下駄"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É uma gravura colorida de uma pessoa inteira, com chapéu, polainas e chicote, não só o poncho. Há vários elementos e a ilustração não é necessária, pois o poncho pode ser fotografado."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Ábaco de madeira com contas deslizantes, nítido e sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de cálculo, com contas deslizantes em hastes, é este?",
+      "resposta": "Ábaco",
+      "distratores": [
+        "Régua de cálculo",
+        "Quipo",
+        "Ossos de Napier"
+      ],
+      "ancora": {
+        "nome": "Ábaco",
+        "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+        "variantes": [
+          "Abacus",
+          "Soroban",
+          "Schoty"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Close nítido de um sporran sobre tecido xadrez, sem texto.",
+      "destino": 2,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta bolsa, usada na frente da cintura, faz parte do traje tradicional masculino de que país?",
+      "resposta": "Escócia",
+      "ancora": {
+        "nome": "Sporran",
+        "descricao": "Bolsa tradicional escocesa de couro ou pele, usada pendurada na frente da cintura, que serve de bolso para o kilt.",
+        "variantes": [
+          "Sporrão"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fita cassete nítida. A marca TDK não entrega a resposta, que é a empresa criadora do formato.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresa criou este formato de fita magnética, lançado em mil novecentos e sessenta e três?",
+      "resposta": "Philips",
+      "distratores": [
+        "Sony",
+        "Panasonic",
+        "Grundig"
+      ],
+      "ancora": {
+        "nome": "Fita cassete",
+        "descricao": "Formato analógico de fita magnética para gravação e reprodução de áudio, lançado em 1963.",
+        "variantes": [
+          "Cassete",
+          "Compact Cassette",
+          "K7"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Chapéu-coco preto isolado, nítido e sem texto.",
+      "destino": 1,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este chapéu de feltro duro, de copa arredondada, foi criado em meados do século dezenove em que cidade?",
+      "resposta": "Londres",
+      "ancora": {
+        "nome": "Chapéu-coco",
+        "descricao": "Chapéu de feltro duro com copa arredondada, criado em Londres em 1849.",
+        "variantes": [
+          "Bowler hat",
+          "Derby",
+          "Chapéu-melão"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ushanka nítida, com as abas à vista. O emblema é só uma pista e não entrega o nome.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que chapéu de pele com abas para cobrir as orelhas é este?",
+      "resposta": "Ushanka",
+      "ancora": {
+        "nome": "Ushanka",
+        "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+        "variantes": [
+          "Chapéu de pele russo",
+          "Shapka-ushanka"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Grampeador nítido, sem texto. Os grampos ao lado fazem parte dele.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que objeto de escritório, usado para unir folhas de papel, é este?",
+      "resposta": "Grampeador",
+      "distratores": [
+        "Perfurador de papel",
+        "Cortador de papel",
+        "Prensa de papel"
+      ],
+      "ancora": {
+        "nome": "Grampeador",
+        "descricao": "Dispositivo mecânico que une folhas de papel cravando um grampo metálico e dobrando suas pontas.",
+        "variantes": [
+          "Agrafador",
+          "Stapler"
+        ]
+      }
+    }
+  ]
+}
