@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome do Studio Ghibli vem de uma palavra usada pelos italianos para qual fenômeno do deserto do Saara?",
+        "resposta": "Um vento quente"
+      },
+      "existentes": [
+        {
+          "id": "q01090",
+          "pergunta": "Que personagem, uma enorme criatura peluda da floresta, aparece no logotipo do estúdio japonês Ghibli?",
+          "resposta": "Totoro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que personagem de Hayao Miyazaki aparece no logotipo do Studio Ghibli?",
+        "resposta": "Totoro"
+      },
+      "existentes": [
+        {
+          "id": "q01090",
+          "pergunta": "Que personagem, uma enorme criatura peluda da floresta, aparece no logotipo do estúdio japonês Ghibli?",
+          "resposta": "Totoro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a origem do nome (vento do Saara), fato diferente do personagem do logotipo."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q01090",
+      "motivo": "Mesmo fato: Totoro é o personagem do logotipo do Ghibli."
+    }
+  ]
+}

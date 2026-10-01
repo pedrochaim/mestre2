@@ -1,0 +1,1737 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Anime e Mangá** (tema **Entretenimento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Goku",
+      "descricao": "Protagonista de Dragon Ball, criado por Akira Toriyama."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do protagonista de Dragon Ball é a leitura japonesa do nome de qual herói de um clássico da literatura chinesa?",
+    "resposta": "Sun Wukong, o Rei Macaco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Goku"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Goku",
+        "situacao": "ok",
+        "texto": "Son Goku  is a fictional character and the main protagonist of the Dragon Ball manga series created by Akira Toriyama. He is based on Sun Wukong (known as Son Gokū in Japan and the Monkey King in the West), a main character of the classic 16th-century Chinese novel Journey to the West, combined with influences from the Hong Kong action cinema of Jackie Chan and Bruce Lee.\n[…]\nThe character Goku is based on Sun Wukong (Son Goku in Japanese), the central character of the Chinese novel Journey to the West. To be creative with the idea of Sun Wukong, Toriyama designed Goku as a human boy with a monkey's tail, rather than a complete simian, because the tail would give the character a distinguishing feature. He later stated that the tail was a pain to draw, hence why he had it get cut off early on.\n[…]\nIn the film Dragon Ball Super: Super Hero, Goku does not play the role of protagonist, as he and Vegeta train on Beerus' domain, accompanied by newcomer Broly, and his companions from the previous film. He spars with Vegeta without any transformations or ki techniques except for flight.\n[…]\nA number of notable public figures have commented on their feelings towards Goku or his status in popular culture. For example, Jackie Chan has gone on record stating that Goku is his favorite Dragon Ball character. The German rock band Son Goku takes their name from the Dragon Ball protagonist.\n[…]\nOne Piece creator Eiichiro Oda and Naruto creator Masashi Kishimoto said that Goku inspired their protagonists as well as series structure, with Tekken's Lars Alexandersson showing traits of a hero through his design inspired by Goku alongside Marvel Comic's Thor. Commenting on Goku's popularity, Kishimoto stated that when people hear the name \"Son Goku\", no longer do they think of the Journey to the West character, but instead Dragon Ball's protagonist comes to mind."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Goku",
+        "situacao": "ok",
+        "texto": "Son Goku (孫悟空, Son Gokū; mais conhecido apenas como Goku), cujo nome de nascimento é Kakarotto (カカロット, Kakarotto), é o protagonista da franquia Dragon Ball, criada por Akira Toriyama. Sua primeira aparição ocorreu no primeiro capítulo do mangá Dragon Ball, intitulado Bulma e Son Goku (japonês: ブルマと孫悟空, Hepburn: Buruma to Son Gokū), publicado na revista Weekly Shōnen Jump em 3 de dezembro de 1984.\n[…]\nGoku é inspirado num personagem com o mesmo nome, 孫 悟空 (lê-se Sun Wukong em mandarim e Son Goku em japonês), personagem principal do romance chinês Jornada ao Oeste. Porém, Toriyama mudou algumas de suas características para ser mais original. Goku é apresentado como um menino estranho, com rabo de macaco e força sobre-humana. Conforme a história se desenrola, é revelado que ele descende de uma raça fictícia chamada Saiyajins, uma das raças mais poderosas do universo.\n[…]\nQuando Akira decidiu criar Dragon Ball, ele usou o romance Jornada ao Oeste, de Wu Cheng'en, como inspiração. O nome adotado por Toriyama para o personagem é a escrita japonesa do nome chinês Sun Wukong, que é a personagem central da história. Para ser criativo com o personagem, Toriyama declarou que ele projetou Goku para ser um garoto humano com um rabo de macaco, em vez de ser um símio completo como Sun Wukong.\n[…]\nEm 2009, Goku apareceu em Dragon Ball Evolution produzido pela 20th Century Fox, interpretado por Justin Chatwin.\n[…]\nEm abril de 2007, Goku e o apresentador Masaharu Miyake, da Fuji TV, eram comentaristas no programa Nippon Ijin Taishō (日本偉人大賞, Prêmio do Grande Homem Japonês). Intitulado Saikyō no Ijin ha Dare? (最強の偉人は誰？, Quem é o Herói mais Poderoso), o segmento onde ambos apareceram era um Torneio de Artes Marciais que decidiria quem foi o maior homem da história do Japão. Durante o intervalo, Goku conseguiu ligar as cópias dos DVDs R2 de Dragon Ball.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Saiyajins",
+      "descricao": "Raça guerreira alienígena de Dragon Ball, à qual pertencem Goku e Vegeta."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em Dragon Ball, os nomes dos saiyajins, como Vegeta, Kakarotto e Raditz, são trocadilhos com quê?",
+    "resposta": "Verduras e legumes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saiyan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Saiyan",
+        "situacao": "desambiguacao",
+        "texto": "Saiyan may refer to:\n\nSaiyan, a fictional extraterrestrial race in the Dragon Ball media franchise\nSaiyan (film), a 1951 Bollywood film\nRyan Danford (born 1985) also known as \"Saiyan\", American semi-professional Halo player\nSaiyan, Agra, a village in the Agra district of Uttar Pradesh, India\n\"Saiyan\", a song by Stray Kids from Giant"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Os Cavaleiros do Zodíaco",
+      "descricao": "Mangá e anime de Masami Kurumada sobre guerreiros que protegem a deusa Atena, chamado Saint Seiya no Japão."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O título brasileiro Os Cavaleiros do Zodíaco foi tirado da versão do anime exibida em qual país europeu?",
+    "resposta": "França",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Os_Cavaleiros_do_Zod%C3%ADaco",
+      "https://en.wikipedia.org/wiki/Saint_Seiya"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Os_Cavaleiros_do_Zod%C3%ADaco",
+        "situacao": "ok",
+        "texto": "Saint Seiya (聖闘士星矢（セイントセイヤ）, Seinto Seiya; Tradução Adaptada: \"O Santo Guerreiro Seiya\") ou Os Cavaleiros do Zodíaco (nos países lusófonos) é uma série japonesa de mangá e anime escrita e ilustrada por Masami Kurumada. Foi publicada originalmente na revista Weekly Shōnen Jump de dezembro de 1985 até dezembro de 1990.\n[…]\nSaint Seiya começou a ser conhecido no ocidente como Os Cavaleiros do Zodíaco depois que se tornou sucesso na França em 1988, onde recebeu o nome de Les Chevaliers du Zodiaque, o que foi também o primeiro lançamento estrangeiro da série. Tanto o mangá original quanto a adaptação em anime foram muito bem sucedidos em vários países asiáticos, europeus e latino-americanos,  No entanto, nenhum deles foi dublado em inglês até 2003.\n[…]\nDepois do Japão, Saint Seiya foi transmitido pela primeira vez na França em 1988 no Club Dorothée do TF1, sob o título Les Chevaliers du Zodiaque (que inspirou o título em outras versões linguísticas),  e a série tornou-se rapidamente popular. A série foi transmitida em toda a Ásia, Europa e América Latina, onde também foi um sucesso.\n[…]\nEm 2010, a Band exibiu a saga de Hades, até então inédita no país,  e que foi reprisada em 24 de dezembro de 2012 em uma véspera de natal. Em 2016, a Rede Brasil anunciou a transmissão de Os Cavaleiros do Zodíaco em uma versão remasterizada em alta definição. O anime estreou no canal em 31 de outubro como parte do programa Senpai TV, que estreou no mesmo dia ao lado do anime Dragon Ball Z.\n[…]\nEm 2010 foi publicada uma análise por \"O Crítico\" no ANMTV, avaliando o mau desempenho comercial do anime na Band, dizendo que \"CDZ (Cavaleiros do Zodíaco) é um anime que poderia estar lucrando muito no Brasil, (...) que talvez em épocas da TV Manchete estivesse dando picos de audiência e ultrapassando a Globo (como fez em outrora)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Saint_Seiya",
+        "situacao": "ok",
+        "texto": "Saint Seiya (Japanese: 聖闘士星矢（セイントセイヤ）, Hepburn: Seinto Seiya), also known as Saint Seiya: Knights of the Zodiac or simply Knights of the Zodiac (translated from the French title Les Chevaliers du Zodiaque), is a Japanese manga series written and illustrated by Masami Kurumada. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from 1985 to 1990, with its chapters collected in\n[…]\nIn North America, the series was licensed for English release by Viz Media in 2003. Under the title Saint Seiya: Knights of the Zodiac, Viz Media released its 28 volumes from January 21, 2004, to February 2, 2010.\n[…]\nThree Saint Seiya Anime Special mooks, published by Shueisha under its Jump Gold Selection imprint, were released from July 13, 1988, to April 19, 1989. A databook, titled Saint Seiya Taizen (聖闘士星矢 大全; \"Saint Seiya Compendium\"), was released by Shueisha on August 17, 2001.\n[…]\nAnother ONA series, Knights of the Zodiac: Saint Seiya, premiered on Netflix, with six episodes, on July 19, 2019. Another six episodes premiered on January 23, 2020. The second season premiered on Crunchyroll on July 31, 2022.\n[…]\nIn Blood, Biceps, and Beautiful Eyes: Cultural Representations of Masculinity in Masami Kurumada's Saint Seiya, Lorna Piatti-Farnell noted that the masculinity to which Seiya, Shun, Hyoga and Shiryu subscribed—one centered on the achievement of just goals—was consistent with the narrative patterns frequently found in Weekly Shōnen Jump manga.\n[…]\nManga artist Tite Kubo cited Saint Seiya as a major inspiration for the weapon designs and battle sequences in his own series, Bleach.\n[…]\nPiatti-Farnell, Lorna (December 2013). \"Blood, Biceps, and Beautiful Eyes: Cultural Representations of Masculinity in Masami Kurumada's Saint Seiya\". The Journal of Popular Culture. 46 (6): 1133–1155. doi:10.1111/jpcu.12081.\n[…]\nSaint Seiya (manga) at Anime News Network's encyclopedia"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Studio Ghibli",
+      "descricao": "Estúdio japonês de animação fundado em 1985 por Hayao Miyazaki, Isao Takahata e Toshio Suzuki."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do Studio Ghibli vem de uma palavra usada pelos italianos para qual fenômeno do deserto do Saara?",
+    "resposta": "Um vento quente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Studio_Ghibli"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+        "situacao": "ok",
+        "texto": "Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi) is a Japanese animation studio based in Koganei, Tokyo. It was founded on June 15, 1985, by directors Hayao Miyazaki and Isao Takahata and producer Toshio Suzuki, after acquiring Topcraft's assets. It has a strong presence in the animation industry and has expanded its portfolio to include various media such as sh\n[…]\nThe name \"Ghibli\" was chosen by Miyazaki from the Italian noun ghibli (also used in English), the nickname of Italy's Saharan scouting plane Caproni Ca.309, in turn derived from the Italianization of the Libyan Arabic name for a hot desert wind (قبلي qibliyy). The name was chosen by Miyazaki out of his passion for aircraft and for the idea that the studio would \"blow a new wind through the anime industry\".\n[…]\nThe studio was founded after the success of the 1984 film Nausicaä of the Valley of the Wind. Miyazaki chose the name himself, referencing both the Arabic term for a warm wind from the Sahara, as well as the Caproni Ca.309 Ghibli, an aircraft used by the Italian military during the Second World War. The intent behind the creation of the studio was to \"blow a whirlwind\" into a stagnating Japanese animation industry by creating original, high-quality feature films.\n[…]\nMuch of Studio Ghibli's music is composed by Joe Hisaishi, who has worked with Miyazaki on creating the music for his films for over 30 years. He uses storyboard images, provided by Miyazaki, to create an image album, which is then used to build out the final soundtrack for the movie. The music has elements from Baroque counterpoint, jazz, and modal music to create the unique sound that many associate with both Hisaishi and Studio Ghibli.\n[…]\nGhibli Park in Nagakute, Aichi\n[…]\nStudio Kajino, a subsidiary of Studio Ghibli\n[…]\nStudio Ponoc, founded by former members of Studio Ghibli\n[…]\nStudio Ghibli  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Studio_Ghibli",
+        "situacao": "ok",
+        "texto": "Studio Ghibli, Inc. (株式会社スタジオジブリ, Kabushiki gaisha Sutajio Jiburi) é um estúdio de animação japonês sediado em Koganei, Tóquio. Tem forte presença na indústria de animação e ampliou seu portfólio para incluir diversos formatos de mídia, como curtas-metragens, comerciais de televisão e dois filmes para televisão. Seu trabalho foi bem recebido pelo público e reconhecido com inúmeros prêmios.\n[…]\nO nome \"Ghibli\" foi escolhido por Miyazaki do substantivo italiano ghibli (também usado em inglês), uma italianização do nome árabe líbio para um vento quente do deserto (جبلي; ghiblī) e apelido da aeronave italiana Caproni Ca.309. O nome foi escolhido por Miyazaki devido à sua paixão pela aviação e também pela ideia de que o estúdio iria “soprar novos ventos na indústria de anime”.\n[…]\nO estúdio também é conhecido por sua política rígida de \"não edição\" no licenciamento de seus filmes no exterior devido ao fato de Kaze no Tani no Naushika ter sido fortemente editado para o lançamento do filme nos Estados Unidos como Guerreiros do Vento.\n[…]\nEmbora não seja tecnicamente um filme do Studio Ghibli, Taiyō no Ōji Horusu no Daibōken (1968), Panda Kopanda (1972), Rupan Sansei: Kariosutoro no Shiro (1979), Jarinko Chie (1981), Sero Hiki no Gōshu (1982), Kaze no Tani no Naushika (1984), La Tortue rouge (2016), Meari to Majo no Hana (2017) e Chīsana Eiyū: Kani to Tamago to Tōmei Ningen (2018) às vezes são agrupados com a biblioteca do Studio Ghibli (particularmente com a coleção de vídeos caseiros Ghibli ga Ippai lançada pela Walt Disney Studios Japan) devido aos seus laços com o estúdio.\n[…]\nNausicaä foi dirigido por Miyazaki na Topcraft, um estúdio que Miyazaki, Takahata e Toshio Suzuki posteriormente compraram e renomearam Studio Ghibli. Como resultado, o filme foi frequentemente relançado e comercializado como um filme do Studio Ghibli.\n[…]\nMuseu Ghibli\n[…]\nStudio Kajino, uma subsidiária do Estúdio Ghibli",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Totoro",
+      "descricao": "Criatura da floresta que dá nome ao filme Meu Amigo Totoro, de Hayao Miyazaki."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em Meu Amigo Totoro, a pequena Mei batiza a criatura ao pronunciar errado o nome de qual ser do folclore europeu?",
+    "resposta": "Troll",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/My_Neighbor_Totoro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/My_Neighbor_Totoro",
+        "situacao": "ok",
+        "texto": "My Neighbor Totoro is a 1988 Japanese animated fantasy film written and directed by Hayao Miyazaki and animated by Studio Ghibli for Tokuma Shoten. It stars the voices of Noriko Hidaka, Chika Sakamoto and Hitoshi Takagi, and focuses on two young sisters who, after moving with their father to the countryside, experience interactions with friendly wood spirits in postwar Japan.\n[…]\nMei discovers two small spirits that lead her into the hollow of a large camphor tree. She befriends a larger spirit, which identifies itself using a series of roars that she interprets as \"Totoro\". Mei thinks Totoro is the troll from her illustrated book Three Billy Goats Gruff. She falls asleep atop Totoro but when Satsuki finds her, she is on the ground. Despite many attempts, Mei cannot show her family Totoro's tree. Tatsuo comforts her, saying Totoro will reveal himself when he wants to.\n[…]\nEventually, their mother returns home and the girls play with other children while Totoro and his friends watch from afar.\n[…]\nThe fund, started in 1990 after the film's release, held an auction in August 2008 at Pixar Animation Studios to sell over 210 original paintings, illustrations, and sculptures inspired by My Neighbor Totoro.\n[…]\nIn May 2022, the Royal Shakespeare Company and composer Joe Hisaishi announced that a stage adaptation of the film titled My Neighbour Totoro would run from 8 October 2022 to 21 January 2023 at the Barbican Centre in London. It was adapted by British playwright Tom Morton-Smith and directed by Improbable's Phelim McDermott.\n[…]\nMy Neighbor Totoro (film) at Anime News Network's encyclopedia\n[…]\nMy Neighbor Totoro at IMDb\n[…]\nJoe Hisaishi's Soundtrack for My Neighbor Totoro Archived November 1, 2020, at the Wayback Machine, book by Kunio Hara, 33-1/3 Japan Series Archived February 2, 2021, at the Wayback Machine, Bloomsbury, ISBN 9781501345128"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tonari_no_Totoro",
+        "situacao": "ok",
+        "texto": "Tonari no Totoro (bra: Meu Amigo Totoro; prt: O Meu Vizinho Totoro / Totoro) é um filme de animação japonês de 1988, dos gêneros fantasia, drama e aventura, dirigido e roteirizado por Hayao Miyazaki para a Studio Ghibli.\n[…]\nAs irmãs Mei e Satsuke mudam-se para uma nova casa e descobrem que uma floresta nas proximidades é habitada por criaturas chamadas totoros. Elas acabam se tornando amigas do mais velho deles, e ficam boa parte do tempo com ele, pois a mãe delas está num hospital e o pai sai para dar aulas. Ao mesmo tempo que mostra a elas algumas verdades da vida, o totoro lhes mostra um mundo fantástico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Usagi Tsukino",
+      "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No mangá de Naoko Takeuchi, a heroína chamada Serena no Brasil se chama Usagi Tsukino, um trocadilho com qual figura do folclore japonês?",
+    "resposta": "O coelho da lua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sailor_Moon_(character)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sailor_Moon_(character)",
+        "situacao": "ok",
+        "texto": "Usagi Tsukino (Japanese: 月野 うさぎ, Hepburn: Tsukino Usagi; renamed Serena in the DiC and Cloverway English adaptations and Bunny in the Mixx/Tokyopop adaptation), better known as Sailor Moon (Japanese: セーラームーン, Hepburn: Sērā Mūn), is a fictional character and the titular protagonist of the Sailor Moon franchise created by Naoko Takeuchi. She is introduced in chapter No.\n[…]\nUsagi and Sailor Moon series evolved from Naoko Takeuchi's earlier one-shot series called Codename: Sailor V. In Takeuchi's first proposal for the Sailor Moon series, each of the five heroines had a unique outfit. It was eventually decided that they would instead wear uniforms based on a single theme, whose design was closest to Sailor Moon's original costume concept.\n[…]\nOf all the Sailor Guardians, Usagi's personality is closest to Takeuchi's own personality at the time Sailor Moon was created. Takeuchi also based Usagi's signature hairstyle on a \"good luck charm\" she had during her studies as a university student. Takeuchi would put her hair up in odango before difficult classes or exams.\n[…]\nSheila Rose Browning describes Sailor Moon as \"one of the most popular and well-known manga characters in Japan\". Usagi influenced the hairstyle and personality of Misato Katsuragi from Neon Genesis Evangelion, and of Gruier Serenity's anime version from Bodacious Space Pirates. Sailor Moon was ranked 9th on IGN's \"Top 25 Anime Characters of All Time\", being the highest-ranking female character in the list.\n[…]\nDuring the 2020 Olympics, Sailor Moon was selected as one of nine internationally recognized anime and manga characters to serve as Tokyo's mascot ambassadors. Rebecca Silverman, writing about the 2011 re-release of the Sailor Moon manga, felt that Usagi's initial hesitancy about whether she is good enough to be Sailor Moon added authenticity to her claim of being an \"ordinary girl\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sailor_Moon_%28personagem%29",
+        "situacao": "ok",
+        "texto": "Usagi Tsukino (月野 うさぎ, Tsukino Usagi), mais conhecida como Sailor Moon ou Navegante da Lua, é a personagem principal do anime e mangá Sailor Moon. É chamada de Serena Tsukino no Brasil e Bunny Tsukino em Portugal. Devido a difusão da série ao redor do mundo, bem como a seu penteado bastante semelhante a \"espaguete e almôndega\" (odango - bolinhos de massa de arroz - , no original japonês), que a to\n[…]\nCom o lançamento do mangá no Brasil, seguido da estreia de Sailor Moon Crystal ela passa a ser chamada mundialmente de Usagi Tsukino.\n[…]\nUsagi Tsukino (Serena Tsukino no Brasil e Bunny Tsukino em Portugal) é uma estudante normal de quatorze anos, que gosta muito de animais de pelúcia, de comer doces, jogar videogame, ler mangás e que não gosta nada de estudar. É uma péssima aluna, mas isso deve-se mais à sua personalidade ingénua e preguiçosa do que a falta de inteligência. Pode não parecer, mas a Usagi é muito esperta.\n[…]\nA personalidade de Usagi torna-a a mais engraçada de todos os personagens de Sailor Moon, o que dá um toque especial tanto ao mangá, quanto ao anime. Principalmente quando ela conhece um rapaz chamado Mamoru Chiba que simplesmente adora implicar com ela, só para a ver nervosa. Eles discutem sempre que se encontram, e ele nunca perde a oportunidade de implicar com ela, assim como ela nunca deixa de se irritar com ele, principalmente porque ele a critica.\n[…]\nO nome \"Tsukino Usagi\" significa Coelho da Lua. O nome é um trocadilho com a frase \"o coelho da Lua\" (月の兎 tsuki no usagi), que se refere a uma lenda japonesa sobre um coelho que vivia na Lua. Provavelmente, a autora inspirou-se nesta lenda para criar a personagem, ja que o seu penteado lembra umas orelhas grandes de coelho caídas, e a figura de um coelho é sempre relacionada a Usagi, quer seja em roupas ou mesmo num dos encerramentos dos episódios.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Speed Racer",
+      "descricao": "Anime japonês de corridas de 1967, chamado Mach GoGoGo no original."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No original japonês de Speed Racer, o carro Mach 5 tem esse número porque cinco, em japonês, soa igual ao nome de quem?",
+    "resposta": "Go, o protagonista",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Speed_Racer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Speed_Racer",
+        "situacao": "ok",
+        "texto": "Speed Racer, also known as Mach GoGoGo (Japanese: マッハGoGoGo(ゴーゴーゴー), Hepburn: Mahha GōGōGō), is a Japanese anime television series produced by Tatsunoko Production, that aired on Fuji Television from April 1967 to March 1968. In the United States, the show aired in syndication at approximately the same time. A manga adaptation written and illustrated by Tatsuo Yoshida was originally serialized in \n[…]\nThe protagonist of both the anime and the manga is Speed Racer, originally Gō Mifune. He is known for his love of racing and valuing his family. He drives the Mach 5 (as well as other cars, such as the Mach 6 in the movie) and always manages to wind up in extreme danger with either his younger brother or his girlfriend Trixie. Speed is shown to miss his older brother, Rex (secretly disguised as Racer X), in both versions.\n[…]\nJada Toys held the rights to produce die-cast replicas of the Mach 5 from the original animated series..\n[…]\nIn 2006, a joint production of enterthemonkey.com and blitinteractive.com, titled Speed Racer — The Great Plan, was released as a Web browser game to Shockwave.com. The game has all the original voices, sounds, and Mach 5 controls from the original television show. The game features the operational steering wheel buttons from the original animated series. Each button activates a customized accessory to avoid obstacles and take on rough terrains.\n[…]\nThe entire anime series was released in Australia on April 30, 2008, and in the United States on October 7. The US release of the entire anime series is a repackaging of all five individually released volumes into a comic book-style boxed set in an homage to the Mach GoGoGo manga. In addition, a bonus disc containing special features and an episode of Speed Racer: The Next Generation is included. These six discs were packaged in an exclusive die-cast casing modeled after the Mach 5.\n[…]\nSpeed Racer GoGoGo (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Speed_Racer",
+        "situacao": "ok",
+        "texto": "Speed Racer, conhecido como Mach Go Go Go (マッハGoGoGo, Mahha Gō Gō Gō) no Japão, é uma série de mangá e anime dos anos 1960, criado por Tatsuo Yoshida sobre corridas de automóveis. Speed Racer (nome dado na adaptação norte-americana do anime, que nunca diz o nome original Go Mifune), um jovem e audaz piloto de corrida de 18 anos, dirige o carro Mach 5, criado por seu pai (Pops Racer) e vive diversa\n[…]\nO Mach 5 foi roubado de Speed algumas vezes, uma das quais por Cornpone Blotch onde teve o carro para adicioná-lo ao seu veículo na coleção \"Garota Daredevil\". No entanto, geralmente Speed consegue recupera-lo no final do episódio. Em um dado ponto, o carro foi reproduzido, em desenhos e modelos e, com as mais diversas funções, por Speed Racer e um especialista, Dr. Nightcall.\n[…]\nO Shooting Star é o carro do Racer-X (Corredor-X, no Brasil), na cor amarelo-vivo, com um para-choques dianteiro preto, com o número 9 sobre o capô e nas laterais. O motor do carro está localizado na parte de trás e é uma máquina muito ágil, muitas vezes exibindo habilidades semelhantes ou acima às do Mach 5. Muitas de suas características de alta tecnologia permitiram Racer X ficar de olho em Speed Racer, que é seu irmão mais novo.\n[…]\nA - Macacos Hidráulicos (Autojack): Macaco automático - Originalmente Speed usa para agilizar o pit stop do Mach 5. Mas em movimento faz com que o carro seja catapultado e salte obstáculos. Os macacos automáticos existem em carros de Stock car e Formula Indy Cart (Indy Champ Car) e Indy IRL e outras categorias de automobilismo e em caminhões, mas não é para saltos como na série.\n[…]\nEm 2006, é lançada a websérie Speed Racer Lives.\n[…]\nEm 2008, a Tatsunoko lança o anime Mach Girl e o estúdio Lions Gate lança a série Speed Racer: The Next Generation, protagonizada pelos filhos de Speed Racer.\n[…]\nSpeed Racer no IMDb\n[…]\nSpeed Racer (anime) na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Kamehameha",
+      "descricao": "Golpe de energia característico de Goku e de seu mestre, o Mestre Kame, em Dragon Ball."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O golpe Kamehameha, de Dragon Ball, tem o nome de um antigo rei de qual lugar?",
+    "resposta": "Havaí",
+    "distratores": [
+      "Taiti",
+      "Samoa",
+      "Tonga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Goku",
+      "https://en.wikipedia.org/wiki/Kamehameha_I"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Goku",
+        "situacao": "ok",
+        "texto": "Son Goku  is a fictional character and the main protagonist of the Dragon Ball manga series created by Akira Toriyama. He is based on Sun Wukong (known as Son Gokū in Japan and the Monkey King in the West), a main character of the classic 16th-century Chinese novel Journey to the West, combined with influences from the Hong Kong action cinema of Jackie Chan and Bruce Lee.\n[…]\nIn Bang Zoom's dub of the first 27 episodes of Dragon Ball Super produced for Toonami Asia's broadcast, Goku was voiced by Lex Lang as an adult and Philece Sampler as a child.\n[…]\nOn the other hand, Collider was more critical to Goku's actions in the series most notably when Gohan becomes an active character who goes through several character's arcs yet he is constantly overshadowed by his father to the point Akira Toriyama refrained from turning Gohan into his successor following the Cell Games and Goku once again took over Gohan's role in the final arc of Dragon Ball Z.\n[…]\nDespite his predominantly positive reception, Goku has received some negative feedback, in particular for his characterization in Dragon Ball Super due to how his constant desires for fighting stronger enemies resulted in setting up a story where all universes could be destroyed. While Anime Now's Richard Eisenbeis believes Goku is determined to protect his universe, the fact that he does not seemingly care about other loser universes being destroyed has been criticized.\n[…]\nSam Leach from Anime News Network agreed that fans of the series tend to joke about Piccolo being a better paternal figure to Gohan than his actual father, Goku, and felt that Dragon Ball Super emphasized this more when Piccolo started training him again.\n[…]\nList of Dragon Ball characters\n[…]\nPadula, Derek (2012). Dragon Ball Z 'It's Over 9,000!' When Worldviews Collide. foreword by Ryo Horikawa. Derek Padula. ISBN 978-0-9831205-2-0."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Kamehameha_I",
+        "situacao": "ok",
+        "texto": "Kamehameha I (Hawaiian pronunciation: [kəmehəˈmɛhə]; Kalani Paiʻea Wohi o Kaleikini Kealiʻikui Kamehameha o ʻIolani i Kaiwikapu kauʻi Ka Liholiho Kūnuiākea; c. 1736 – c. 1761 to May 8 or 14, 1819), also known as Kamehameha the Great, was the conqueror and first ruler of the Kingdom of Hawaii. The state of Hawaii gave a statue of him to the National Statuary Hall Collection in Washington, D.C., as \n[…]\nKamehameha accepted the allegiance of a group of chiefs from the Kona district.\n[…]\nIn the anime/manga series Dragon Ball, Master Roshi, teacher of the main protagonist Goku, has a signature move named after the Hawaiian King. Creator Akira Toriyama was quoted in an interview stating \"I was wondering whether there was a decent name along the lines of \"something-something-Ha\", when my wife said as a joke, \"Kamehameha would be fine, wouldn't it?\" so I used it as-is. Of course, it's taken from King Kamehameha of Hawaii.\"\n[…]\nPratt, Elizabeth Kekaaniauokalani Kalaninuiohilaukapu (1920). History of Keoua Kalanikupuapa-i-nui: Father of Hawaii Kings, and His Descendants, with Notes on Kamehameha I, First King of All Hawaii. T. H. OCLC 616786469.\n[…]\nTregaskis, Richard (1973). The warrior king: Hawaii's Kamehameha the Great. Macmillan. ISBN 978-0-02-619850-9. OCLC 745361.\n[…]\nTRUSTEES, Hue-M. (1937). \"APPENDIX B REPORT TO THE HAWAIIAN HISTORICAL SOCIETY BY ITS TRUSTEES CONCERNING THE BIRTH DATE OF KAMEHAMEHA I AND KAMEHAMEHA DAY CELEBRATIONS\". Annual Report of the Hawaiian Historical Society. Honolulu: Hawaiian Historical Society. hdl:10524/69.\n[…]\nAhlo, Charles; Walker, Jerry; Johnson, Rubellite Kawena Kenney (2000). Kamehameha's Children Today. Native Books Inc. ISBN 978-0-9967803-0-8. OCLC 950432478.\n[…]\nLevathes, Louise E. (November 1983). \"Kamehameha – Hawaii's Warrior King\". National Geographic. Vol. 164, no. 5. pp. 558–599. ISSN 0027-9358. OCLC 643483454.\n[…]\nKamehameha Schools Biography of Kamehameha"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Goku",
+        "situacao": "ok",
+        "texto": "Son Goku (孫悟空, Son Gokū; mais conhecido apenas como Goku), cujo nome de nascimento é Kakarotto (カカロット, Kakarotto), é o protagonista da franquia Dragon Ball, criada por Akira Toriyama. Sua primeira aparição ocorreu no primeiro capítulo do mangá Dragon Ball, intitulado Bulma e Son Goku (japonês: ブルマと孫悟空, Hepburn: Buruma to Son Gokū), publicado na revista Weekly Shōnen Jump em 3 de dezembro de 1984.\n[…]\nNa capa do CD do álbum Rule, single de Dragon Ball Evolution, a cantora Ayumi Hamasaki foi desenhada por Akira Toriyama vestindo as roupas de Goku. O personagem Sosón Goku do mangá espanhol Dragon Fall é uma paródia de Goku.\n[…]\nDesde o lançamento de Dragon Ball Z nos Estados Unidos, Goku também fez várias aparições na cultura pop americana, em especial na norte-americana. Ele apareceu em uma reportagem da revista Wizard onde ele participou de uma batalha hipotética contra o Super Homem; Goku derrotou o Super Homem ao se transformar em Super Saiyajin e superou seus poderes com um Kamehameha. O episódio \"Chicken Ball Z\" de As Terríveis Aventuras de Billy e Mandy é uma paródia da luta entre Goku e Piccolo.\n[…]\nEle também ficou em 1º lugar no Top 25 dos Personagens de Anime de Todos os Tempos, feito pela IGN. Entretanto, uma segunda edição da lista feita pelo mesmo site em 2014 o desceu para terceiro lugar. Ficou também em primeiro nos \"10 Maiores Ícones Heróis de Animes\", feito pela Mania Entertainment, escrito por Thomas Zoth que comentou que \"Goku e Dragon Ball revolucionaram completamente o gênero shonen\".\n[…]\nNo Brasil, a \"Marcha para Goku\", que é um evento realizado em Curitiba. Trata-se de um evento que reúne fãs de animes, especialmente de Dragon Ball, em uma marcha simbólica pelas ruas da cidade, com o objetivo de celebrar o legado de Goku e promover a cultura pop japonesa. A marcha se tornou um grande evento para a comunidade otaku, com cosplay, apresentações, etc.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Osamu Tezuka",
+      "descricao": "Mangaká japonês, criador de Astro Boy, Kimba e Black Jack."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Pela influência sobre gerações de desenhistas, Osamu Tezuka, criador de Astro Boy, ganhou qual apelido no Japão?",
+    "resposta": "Deus do Mangá",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Osamu_Tezuka",
+      "https://pt.wikipedia.org/wiki/Osamu_Tezuka"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Osamu_Tezuka",
+        "situacao": "ok",
+        "texto": "Osamu Tezuka (手塚 治虫, born 手塚 治, Tezuka Osamu, (1928-11-03)3 November 1928 – 9 February 1989) was a Japanese manga artist, cartoonist and animator. Considered to be among the greatest and most influential cartoonists of all time, his prolific output, pioneering techniques and innovative redefinitions of genres earned him such titles as \"the Father of Manga\" (マンガの父, Manga no Chichi), \"the Godfather \n[…]\nInspired by the early Chinese animated film Princess Iron Fan, Tezuka began what was known as the manga revolution in Japan with his New Treasure Island published in 1947. His output would spawn some of the most influential, successful and well-received manga series including the children's manga Astro Boy, Princess Knight and Kimba the White Lion, and the adult-oriented series Black Jack, Phoenix and Buddha, all of which won several awards.\n[…]\nA complete list of his works can be found on the Tezuka Osamu Manga Museum website.\n[…]\nIn the 2006 list by the Japan Media Arts Festival asking critics, scholars, mangaka, etc. for the 'Greatest Manga of All Time', Tezuka had three works make the top 10: Phoenix(1st), Black Jack(5th) and Astro Boy(tied 6th). He was the only figure with more than one work in the top 10.\n[…]\n1975 Bungeishunjū manga Award\n[…]\nList of Osamu Tezuka manga\n[…]\nSchodt, Frederik L. (2007). The Astro Boy Essays: Osamu Tezuka, Mighty Atom, and the Manga/Anime Revolution. Stone Bridge Press. ISBN 978-1-93333054-9.\n[…]\nHelen McCarthy. The Art of Osamu Tezuka: God of Manga. (New York: Abrams ComicArts, 2009). ISBN 978-0-81098249-9. Biography and presentation of Tezuka's works.\n[…]\nNatsu Onoda Power. God of Comics: Osamu Tezuka and the Creation of Post-World War II Manga. (Jackson: University Press of Mississippi). ISBN 978-1-60473221-4.\n[…]\n\"Faces and Traces – Osamu Tezuka: A Japanese godfather of modern day manga\" by Eyad N. Al-Samman at the Wayback Machine (archived 8 June 2011) – Yemen Times"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Osamu_Tezuka",
+        "situacao": "ok",
+        "texto": "Osamu Tezuka (em japonês: 手塚 治虫; romaniz.: Tezuka Osamu; nascido em Toyonaka, Osaka, Japão, 3 de novembro de 1928 — Tóquio, Japão, 9 de fevereiro de 1989) foi um mangaká, um quadrinista de mangás, bastante influente no Japão e no resto do mundo, lembrado por muitos como o \"pai do mangá moderno\" (em japonês: 現代漫画の父; romaniz.: gendai manga no chichi; lit. \"pai do mangá moderno\") ou simplesmente \"Deu\n[…]\nTezuka começou o que ficou conhecido como a revolução do mangá no Japão com sua obra Shin Takarajima, publicada em 1947. Sua produção lendária geraria algumas das séries de mangá mais influentes e bem-sucedidas da história, incluindo Astro Boy, Kimba, o Leão Branco, Dororo, Black Jack e Hi no Tori, que ganhou diversos prêmios.\n[…]\nMa-chan no Nikkichou (O Diário de Ma-chan), 1946. A estreia de Tezuka como desenhista profissional de mangá se deu com essa tira no jornal Shokokumin Shimbun em Osaka. Tinha dezessete anos quando começou a publicar as tiras.\n[…]\nDiversas outras séries de Astro Boy têm sido feitas desde então.\n[…]\nSeu legado continuou sendo homenageado entre artistas de mangá e animadores. Tezuka guiou muitos artistas de mangá bem conhecidos, como Ishinomori Shotaro e Nagai Go. Artistas como Toriyama Akira (Dr. Slump e Dragon Ball) também citaram Tezuka como inspiração para seus trabalhos. De 2003 a 2009, Naoki Urasawa e Takashi Nagasaki adaptaram um arco de Astro Boy na série de mistério sobre assassinatos Pluto.\n[…]\nEm 2020, um roteirista-desenhista IA criado por Kioxia foi encarregado de criar um novo mangá Tezuka chamado Paidon, que ocorre em uma sociedade apocalíptica futurista e foi lançado na revista Morning em 27 de fevereiro de 2020. Faz parte do projeto, que também foram desenhados por artistas humanos como Shigeto Ikehara, Kenichi Kiriki ou Urumu Tsunogai. O filho de Tezuka realizou uma cerimônia em 26 de fevereiro para apresentar as pessoas ao mangá."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Nausicaä do Vale do Vento",
+      "descricao": "Mangá e filme de 1984 de Hayao Miyazaki sobre uma princesa num mundo pós-apocalíptico."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A princesa Nausicaä, do filme de Hayao Miyazaki, tem o nome de uma personagem de qual poema épico?",
+    "resposta": "Odisseia",
+    "distratores": [
+      "Ilíada",
+      "Eneida",
+      "Teogonia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(manga)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(manga)",
+        "situacao": "ok",
+        "texto": "Nausicaä of the Valley of the Wind (Japanese: 風の谷のナウシカ, Hepburn: Kaze no Tani no Naushika) is a Japanese manga series written and illustrated by Hayao Miyazaki. Taking place on a post-apocalyptic Earth ravaged by a toxic ecosystem, it tells the story of Nausicaä, the princess of the titular Valley of the Wind, who becomes embroiled in a war between kingdoms while an environmental disaster threaten\n[…]\nThe film adaptation of Nausicaä of the Valley of the Wind was released on March 11, 1984, directed by Miyazaki. It was released before Studio Ghibli was founded, but it is now retroactively considered a Studio Ghibli film. Helen McCarthy has noted that it was Miyazaki's creation of the Nausicaä manga \"... that had, in a way, started the actual process of his studio's development\". The film was released with a recommendation from the World Wide Fund for Nature (WWF).\n[…]\nSeveral other Nausicaä related materials have been released. Hayao Miyazaki's Image Board Collection (宮崎駿イメージボード集, Miyazaki Hayao imējibōdo-shū) contains a selection from the sketchbooks Miyazaki created between 1980 and 1982  to record his ideas for potential future projects. The book was published by Kodansha on March 20, 1983. The Art of Nausicaä (ジ・アート・オブ 風の谷のナウシカ, Ji āto Obu kaze no tani no naushika) is the first in  an art book serie, put together by the editorial staff of Animage.\n[…]\nThe Art of Nausicaä of the Valley of the Wind: Watercolor Impressions was released by Tokuma Shoten on September 5, 1995. The book contains artwork of the manga in watercolor, a selection of storyboards for the film, autographed pictures by Hayao Miyazaki, and an Interview on the Birth of Nausicaä. Glénat released the book in French on November 9, 2006. Viz Media released the book in English on November 6, 2007.\n[…]\nComic Box, January 1995, Special Memorial Issue, the finale of Nausicaä; Nausicaä of the Valley of the Wind"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Conan Edogawa",
+      "descricao": "Protagonista do mangá Detetive Conan, de Gosho Aoyama, um detetive que voltou a ter corpo de criança."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em Detetive Conan, o nome falso adotado pelo protagonista homenageia Arthur Conan Doyle e qual escritor japonês de mistério?",
+    "resposta": "Edogawa Ranpo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Case_Closed",
+      "https://en.wikipedia.org/wiki/Edogawa_Ranpo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Case_Closed",
+        "situacao": "ok",
+        "texto": "Case Closed, also officially known as Detective Conan (Japanese: 名探偵コナン, Hepburn: Meitantei Konan; lit. 'Great Detective Conan'), is a Japanese manga series written and illustrated by Gosho Aoyama. It has been serialized in Shogakukan's shōnen manga magazine Weekly Shōnen Sunday since January 1994; its chapters have been collected in 108 tankōbon volumes as of April 2026. Because of legal problems\n[…]\nAdopting the pseudonym Conan Edogawa, Kudo lives with his childhood friend Rachel Moore (Ran Mori) and her father, Richard (Kogoro Mori), who is a private detective. Kudo keeps his real identity secret from most people, but early on confides in family friend and inventor Dr. Agasa, who supplies Kudo with an array of spy gadgets. Throughout the series, young Kudo tags along on Richard's cases.\n[…]\nAoyama and his creations are celebrated in his hometown Hokuei, Tottori; a museum with exhibits of his work is located there, and several bronze statues of Jimmy Kudo, Conan Edogawa, and Rachel Moore are installed in various locations throughout the town. It also has other tourist attractions related to Detective Conan, including a Detective Conan themed airport and train station, and it is promoted as Conan Town.\n[…]\nIn 2018, Case Closed caught the attention of American late night talk show host Conan O'Brien, who discussed the character Conan Edogawa as well as Conan Town in his talk show Conan, and visited the town in September 2018.\n[…]\nIn the United States, Case Closed received praises from Mania.com's Eduardo M. Chavez and IGN's A. E. Sparrow for its stories—telling the mysteries and how they were unfolded by the investigations of Conan and gang. Sparrow called the style of the series a mix of Scooby-Doo and Sherlock Holmes, while Chavez believed the manga had appeal to readers of all ages.\n[…]\nCase Closed (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Edogawa_Ranpo",
+        "situacao": "ok",
+        "texto": "In this Japanese name, the surname is Hirai. In the pen name, the surname is Edogawa.\n[…]\nThe manga and anime series Detective Conan (Meitantei Conan) has the main character's alias as 'Edogawa Conan', created from Sir Arthur Conan Doyle and Edogawa Ranpo's names. The detective that he lives with is called Mouri Kogoro, and Conan is part of a children's detective group called the Detective Boys (Shonen Tantei Dan); all apparent homages to the late Ranpo.\n[…]\nThe anime and manga Bungo Stray Dogs with characters inspired by popular Japanese authors, has a character named Edogawa Ranpo, who is an incredibly talented detective who solves crimes the police have trouble with, along with other mysteries. He has an ability called \"Ultra Deduction\", which allows him to deduce correct answers based on given information. He is also shown to have a close connection with Edgar Allan Poe.\n[…]\nThe last two episodes (10 and 11) of the 2013 Fuji Television (フジテレビ) series, The Case Files of Biblia Bookstore (ビブリア古書堂の事件手帖 Antiquarian Bookseller Biblia's Case Files), are constructed around two Edogawa Ranpo works, Boys Detective Club and The Man Traveling with the Brocade Portrait (translated as \"The Traveler with the Pasted Rag Picture\").\n[…]\nThe 2021 video game Lost Judgment features the character of Kyoko Amasawa, a teen girl detective and mystery enthusiast who names Edogawa as her favorite author. She also has a 'detective dog' named Ranpo, after the author. In the game, Ranpo is an intelligent Shiba Inu who finds clues by smell.\n[…]\nEdogawa Ranpo at  The Encyclopedia of Science Fiction"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Detective_Conan",
+        "situacao": "ok",
+        "texto": "Detetive Conan (名探偵コナン, Meitantei Konan), mais conhecido como Case Closed nos Estados Unidos, é um mangá de mistério japonês escrito e ilustrado por Gosho Aoyama. É serializado na revista Weekly Shōnen Sunday da Shogakukan desde janeiro de 1994, e foi compilado em 108 volumes tankōbon até abril de 2026. Devido a problemas legais com o nome Detective Conan, as versões em inglês de Detective Conan f\n[…]\nAdotando o pseudônimo de Conan Edogawa e mantendo sua verdadeira identidade em segredo, Kudo vive com sua amiga de infância Ran Mouri (em inglês: Rachel Moore) e seu pai Kogoro Mori (em inglês: Richard), que é um detetive particular. Ao longo da série, ele acompanha os casos de Mouri, mas quando consegue resolver um, ele usa um dardo tranquilizante para adormecer Mouri e personifica sua voz usando um modelador de voz para revelar a solução para o caso.\n[…]\nUm guia não oficial em inglês para a série intitulada The Case Closed Casebook: An Essential Guide foi publicado pela DH Publishing Inc. em 25 de março de 2008.\n[…]\nAoyama e suas criações são homenageados em sua cidade natal Hokuei, Tottori; um museu com exposições de seu trabalho está localizado lá, e várias estátuas de bronze de Shinichi Kudo, Conan Edogawa e Ran Mouri estão instaladas em vários locais da cidade. A cidade também tem outras atrações turísticas relacionadas a Detective Conan, incluindo um aeroporto e uma estação de trem com o tema de Detective Conan, sendo promovidas como Cidade do Conan.\n[…]\nAs vozes revelaram-se confusas para Carlo Santos, que analisou o primeiro lançamento em DVD de Case Closed para o Anime News Network; ele disse que enquanto os personagens principais soavam como \"pessoas reais\", os secundários \"[pareciam] caricaturas\". Lori Lancaster, do Mania.com, descreveu Detective Conan como \"uma série inteligente que tem mistérios em cada esquina\", observando a natureza \"bizarra\" e \"interessante\" de cada caso.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Cosplay",
+      "descricao": "Prática de se fantasiar como personagens de anime, mangá, games e filmes."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra cosplay, criada no Japão nos anos oitenta, é a junção de quais duas palavras em inglês?",
+    "resposta": "Costume e play",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cosplay"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cosplay",
+        "situacao": "ok",
+        "texto": "A cosplay (a portmanteau of \"costume play\") is the activity and performance art in which participants called cosplayers wear costumes and fashion accessories to represent a specific character. Cosplayers often interact to create a subculture, and a broader use of the term \"cosplay\" applies to any costumed role-playing in venues apart from the stage. Any entity that lends itself to dramatic interpr\n[…]\nCosplay grew out of the practice of fan costuming at science fiction conventions, beginning with Morojo's \"futuristicostumes\" created for the 1st World Science Fiction Convention held in New York City, United States, in 1939. The Japanese term \"cosplay\" (コスプレ, kosupure) was coined in 1983.\n[…]\nThe term \"cosplay\" is a Japanese blend word of the English terms costume and play. The term was coined by Nobuyuki Takahashi of Studio Hard in an article for the Japanese magazine My Anime in June 1983. Takahashi decided to coin a new word rather than use the existing translation of the English term \"masquerade\" because it implied nobility and was old-fashioned.\n[…]\nThe coinage reflects a common Japanese method of abbreviation in which the first two moras of a pair of words are used to form an independent compound: 'costume' becomes kosu (コス) and 'play' becomes pure (プレ).\n[…]\nCostuming spread with the science fiction conventions and the interaction of fandom. The earliest known instance of costuming at a convention in the United Kingdom was at the London Science Fiction Convention (1953) but this was only as part of a play. However, members of the Liverpool Science Fantasy Society attended the 1st Cytricon (1955), in Kettering, wearing costumes and continued to do so in subsequent years.\n[…]\nCall to Cosplay, a competition reality show that premiered in 2014 on Myx TV. It is a cosplay design competition show where contestants were tasked to create a costumes based on theme and time constraints."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cosplay",
+        "situacao": "ok",
+        "texto": "O cosplay é o ato ou prática de se vestir como um personagem de uma obra de ficção preexistente. O cosplay se tornou comum entre fãs de histórias e personagens retratados em várias formas de mídia de massa, incluindo anime, histórias em quadrinhos, jogos eletrônicos, televisão e cinema. A maioria dos cosplays é feita por amadores por diversão, embora modelos profissionais de cosplay e competições \n[…]\nO termo é derivado da palavra japonesa kosupure (em japonês:  コスプレ), montada com as palavras kosuchuumu (“fantasia”) e pure (“brincadeira”). A cunhagem reflete um método japonês comum de abreviação, no qual as duas primeiras moras de um par de palavras são usadas para formar um composto independente. A anglicização \"cosplay\" é uma abreviação de costume play, do inglês costume - traduzido como \"fantasia\" ou \"figurino\" - e play, traduzido como \"jogo\" ou \"dramatização\".\n[…]\nOs guias de figurino da época, como o Male Character Costumes de Samuel Miller (1884) ou o Fancy Dresses Described de Ardern Holt (1887), apresentam trajes principalmente genéricos, sejam trajes de época, trajes nacionais, objetos ou conceitos abstratos como \"Outono\" ou \"Noite\". Os trajes mais específicos descritos são para figuras históricas, embora alguns sejam provenientes de ficção, como Os Três Mosqueteiros ou personagens de Shakespeare.\n[…]\nDesde então, tornou-se uma prática anual na Worldcon, com concursos e atrações próprias, e mais tarde estendendo-se aos fãs de fantasia e quadrinhos. Os primeiros cosplays de mangá/anime registrados são posteriores aos anos 70, nos EUA. O fenômeno do cosplay chegou ao Japão na década de 80 por meio de Nobuyuki Takahashi, que ficou surpreso com o costume ao visitar um Wordcon, que começou a incentivar a pratica no Japão pelas revistas de ficção científica.\n[…]\n«A Origem do Cosplay: História e Significado»\n[…]\n«Cosplay» (em inglês)  no TV Tropes.\n[…]\n«The Cosplay Journal» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Meu Amigo Totoro",
+      "descricao": "Filme de animação de 1988 de Hayao Miyazaki, produzido pelo Studio Ghibli."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1988, que drama de guerra do Studio Ghibli estreou nos cinemas japoneses em sessão dupla com Meu Amigo Totoro?",
+    "resposta": "Túmulo dos Vagalumes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grave_of_the_Fireflies",
+      "https://en.wikipedia.org/wiki/My_Neighbor_Totoro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grave_of_the_Fireflies",
+        "situacao": "ok",
+        "texto": "Grave of the Fireflies is a 1988 Japanese animated war film written and directed by Isao Takahata. It stars the voices of Tsutomu Tatsumi, Ayano Shiraishi, Yoshiko Shinohara, and Akemi Yamaguchi. Based on Akiyuki Nosaka's 1967 semi-autobiographical short story of the same name, the film is set in Kobe shortly after its bombing by the U.S. Army Air Forces, and follows two orphaned siblings who desp\n[…]\nProduction began after Nosaka became interested in an animated adaptation of his book. It was animated by Studio Ghibli, and was Takahata's first film with the studio. Several critics considered it an anti-war film, but Takahata disagreed. The film was theatrically released in Japan by Toho on April 16, 1988, and was a modest success at the Japanese box office, grossing ¥1.7 billion. Its later international releases between 2018 and 2025 grossed $4.7 million overseas.\n[…]\nProduction of Grave of the Fireflies and My Neighbor Totoro proceeded simultaneously at Ghibli. It is said that even Toei Dōga had never worked on two feature-length films at the same time, and since there were only a limited number of key staff members (animators) who could meet the high standards of Takahata and Miyazaki, the production team struggled to manage their personnel. A particular point of contention was the treatment of animation director Yoshifumi Kondō.\n[…]\nHowever, Totoro merchandise, particularly Totoro and Catbus stuffed toys, sold extremely well after the film and made overall profits for the company to the extent that it stabilized subsequent productions of Studio Ghibli.\n[…]\nIn June 2018, USA Today ranked it 1st on the 100 best animated movies of all time. In 2022, the film was ranked 225th on Sight & Sound's Greatest Films list (Critics + Directors' combined poll), being one of the only three animated films to make the top 250 (alongside My Neighbor Totoro and Spirited Away)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/My_Neighbor_Totoro",
+        "situacao": "ok",
+        "texto": "My Neighbor Totoro is a 1988 Japanese animated fantasy film written and directed by Hayao Miyazaki and animated by Studio Ghibli for Tokuma Shoten. It stars the voices of Noriko Hidaka, Chika Sakamoto and Hitoshi Takagi, and focuses on two young sisters who, after moving with their father to the countryside, experience interactions with friendly wood spirits in postwar Japan.\n[…]\nOga's work on My Neighbor Totoro led to his continued involvement with Studio Ghibli, which assigned him jobs that would play to his strengths, and Oga's style became a trademark style of Studio Ghibli.\n[…]\nAfter writing and filming Nausicaä of the Valley of the Wind (1984) and Castle in the Sky (1986), Hayao Miyazaki began directing My Neighbor Totoro for Studio Ghibli. Miyazaki's production paralleled his colleague Isao Takahata's production of Grave of the Fireflies. Miyazaki's film was financed by executive producer Yasuyoshi Tokuma, and both My Neighbor Totoro and Grave of the Fireflies were released on the same bill in 1988.\n[…]\nTokuma Shoten released My Neighbor Totoro on VHS and LaserDisc in August 1988. Buena Vista Home Entertainment Japan (now Walt Disney Japan) reissued the VHS on June 27, 1997, as part of their series Ghibli ga Ippai. Disney released the film on Blu-ray in Japan on 2012.\n[…]\nThe company reissued My Neighbor Totoro, as well as Castle in the Sky, and Kiki's Delivery Service, with updated cover art highlighting its Studio Ghibli origins, on March 2, 2010, coinciding with the US DVD and Blu-ray debut of Ponyo. My Neighbor Totoro was re-released by Disney on Blu-Ray on May 21, 2013. GKIDS re-issued the film on Blu-ray and DVD on October 17, 2017.\n[…]\nThe fund, started in 1990 after the film's release, held an auction in August 2008 at Pixar Animation Studios to sell over 210 original paintings, illustrations, and sculptures inspired by My Neighbor Totoro."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hotaru_no_Haka",
+        "situacao": "ok",
+        "texto": "Hotaru no Haka (火垂るの墓 ; Brasil: Túmulo dos Vagalumes ou O Túmulo dos Vagalumes / Portugal: O Túmulo dos Pirilampos) é um filme japonês de animação e drama, lançado em 1988. Dirigido por Isao Takahata e produzido pelo Studio Ghibli, o seu roteiro é baseado no romance semi-autobiográfico de Akiyuki Nosaka. Hotaru no Haka é situada na cidade de Cobe, no Japão, e conta a dura história de dois irmãos (\n[…]\nEm seu lançamento nos cinemas, em 16 de abril de 1988, Hotaru no Haka foi lançando junto a Tonari no Totoro, de Hayao Miyazaki. Tanto Isao Takahata como Miyazaki, ambos fundadores do Studio Ghibli, queriam mostrar \"os dois lados da questão que tratavam\".\n[…]\nEnquanto o público-alvo de Tonari no Totoro era o infantil, Hotaru no Haka era direcionado a um público mais velho; o primeiro filme mencionado obteve um enorme êxito comercial graças ao seu marketing, já o segundo não foi tão bem recebido devido à sua natureza adulta e realista sobre a Segunda Guerra Mundial no Japão.\n[…]\nNo Japão, Hotaru no Haka arrecadou ao total 590 milhões de ienes, tendo um sucesso modesto ao de Tonari no Totoro nas bilheterias. Em seu lançamento oficial nos cinemas da América do Norte, em 12 de agosto de 2018, Hotaru no Haka arrecadou 158 101 dólares em sua estreia, em 715 cinemas. No dia seguinte apresentou uma alta de 20,2% com uma receita de 190 019 dólares. Já em seu quarto e último dia (15 de agosto) lucrou 168 842 dólares, ao total arrecadou — em 715 cinemas — 158 101 dólares.\n[…]\nBombardeios no Japão durante a Segunda Guerra Mundial\n[…]\n«\"Túmulo dos Vagalumes\" (Hotaru no Haka, 1988), de Isao Takahata: objetos de memória que se atualizam – esquecimentos que lampejam» (PDF)  — texto dissertativo por Rafael Colombo Martineli, da Universidade Federal de Uberlândia.\n[…]\n«Ficha técnica de Hotaru no Haka no site oficial do Studio Ghibli» (em japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "O Castelo no Céu",
+      "descricao": "Filme de animação de 1986 de Hayao Miyazaki, também chamado Laputa."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o filme O Castelo no Céu, de Miyazaki, tem em comum com o livro As Viagens de Gulliver?",
+    "resposta": "A ilha voadora Laputa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Castle_in_the_Sky"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Castle_in_the_Sky",
+        "situacao": "ok",
+        "texto": "Castle in the Sky, also known as Laputa: Castle in the Sky, is a 1986 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki. It was produced by Isao Takahata, animated by Studio Ghibli, and distributed by the Toei Company. The film stars the voices of Mayumi Tanaka, Keiko Yokozawa, Kotoe Hatsui, and Minori Terada. In the film, orphans Sheeta and Pazu are pursued by govern\n[…]\nAlong with some initial sketches of the visuals, Miyazaki began working on the script on June 17, the first draft of which was completed by the end of the month. The film's title, Laputa: Castle in the Sky, was finalized.\n[…]\nCastle in the Sky contains a strong theme of environmentalism, questioning humanity's relationship with nature and the role of technology. McCarthy interprets the giant tree of Laputa as a \"metaphor for the reviving and life-giving power of nature\". However, in contrast with the more optimistic conclusions of Miyazaki's previous works, Napier notes that the film ends with an \"unsettling view\" of the castle flying away, suggesting that humanity may not deserve to exist in the natural world.\n[…]\nThe film's titular castle takes its name from Laputa, the flying island from Jonathan Swift's novel Gulliver's Travels (1726). Treasure Island provided Laputa's foundation in the narrative, but the idea that it would fly came from Swift. Miyazaki traced his connection with the novel to a library copy he had read in middle school; the literary scholar Brian Milthorpe proposed that he was referring to one of a series of abridged classics published by Sogensha for children.\n[…]\nReviewers also commended Miyazaki's imagination and world-building. The Washington Post's Richard Harrington appreciated the \"moral duality\" of Laputa's technology and the film's strong ecological theme.\n[…]\nCastle in the Sky at IMDb\n[…]\nCastle in the Sky at Metacritic\n[…]\nLaputa: Castle in the Sky at Nausicaa.net"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Castelo_no_C%C3%A9u",
+        "situacao": "ok",
+        "texto": "O Castelo no Céu (天空の城ラピュタ, Tenkū no Shiro Rapyuta) é um filme japonês de animação, aventura, fantasia e ficção científica lançado em 1986. É conhecido por ser o primeiro lançamento do Studio Ghibli, que após o sucesso comercial de Kaze no Tani no Naushika (1984) os roteiristas Hayao Miyazaki e Isao Takahata, juntos a Yasuyoshi Tokuma e Toshio Suzuki, decidiram fundar o estúdio.\n[…]\nA história segue as aventuras de Pazu (voz de Mayumi Tanaka) e Sheeta (voz de Keiko Yokozawa) — no final do século XIX, tentando manter a salvo um cristal mágico de agentes militares, enquanto buscam uma lendária ilha flutuante chamada \"Laputa\", que está repleta de tesouros. A direção e o roteiro do filme foram conduzidas por Miyazaki e contou com a produção de Takahata.\n[…]\nNa série de anime Mirai Shōnen Konan (1978), Miyazaki apresentou uma soma de elementos que seguidamente adaptou em O Castelo no Céu; a exemplo os personagens que serviram como base para Pazu e Sheeta, além de temas que definiram o projeto. O nome \"Laputa\" (ラピュタ, Rapyuta) é derivado do romance As Viagens de Gulliver, de Jonathan Swift, onde também é usada para descrever uma ilha flutuante.\n[…]\nDe acordo com Anthony Lioi, há certa semelhança entre ambos, pois a superioridade tecnológica da ilha é utilizada para fins políticos.\n[…]\nSegundo ele, a obra de Miyazaki não faz qualquer referência ao gênero, mas apresenta Laputa, uma ilha celestial fictícia, que poderia se procriar na imaginação da revolução industrial.\n[…]\nA quadrinhista Katsura Hoshino, conhecida por seu trabalho em D.Gray-man, citou O Castelo no Céu como uma grande influência em sua carreira. O cineasta Makoto Shinkai conhecido por Kimi no Na wa. (2016) e Tenki no Ko (2019), citou a obra de Miyazaki como a sua animação favorita. Yasuhiro Yoshiura descreveu o seu filme Sakasama no Patema (2013) como a sua aventura no \"mundo de Laputa\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Ponyo",
+      "descricao": "Filme de animação de 2008 de Hayao Miyazaki sobre uma peixinha que quer virar menina."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O filme Ponyo, de Hayao Miyazaki, é uma releitura livre de qual conto de Hans Christian Andersen?",
+    "resposta": "A Pequena Sereia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ponyo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ponyo",
+        "situacao": "ok",
+        "texto": "Ponyo is a 2008 Japanese animated fantasy film written and directed by Hayao Miyazaki. It was animated by Studio Ghibli for the Nippon Television Network, Dentsu, Hakuhodo DY Media Partners, Buena Vista Home Entertainment, Mitsubishi, and distributed by Toho. The film stars Yuria Nara, Hiroki Doi, Tomoko Yamaguchi, Kazushige Nagashima, Yūki Amami, George Tokoro, Rumi Hiiragi, Akiko Yano, Kazuko Yo\n[…]\nHayao Miyazaki, the film's director and writer, was prompted to create Ponyo after producer Toshio Suzuki suggested he make a film aimed at children, noting the success of Howl's Moving Castle (2004). The film would be created from a mixture of real-world and fictional influences, combined with a desire to implement new art and animation approaches developed by other Studio Ghibli staff in a feature-length film.\n[…]\nMiyazaki recalled that as a nine-year-old he borrowed a copy of Hans Christian Andersen's \"The Little Mermaid\" from his neighbour, and that while he was reading it, he had difficulty accepting its premise that its protagonist did not have a soul.\n[…]\nMiyazaki wanted his next film to be a sequel to Ponyo, but producer Toshio Suzuki convinced him to make The Wind Rises instead.\n[…]\nPonyo was released in Southeast Asia on January 1, 2009.\n[…]\nIn 2009, Ponyo won five awards at the 8th annual Tokyo Anime Awards. The awards included \"Anime of the year\" and \"Best domestic feature\". Miyazaki received the award for best director and best original story, and Noboru Yoshida received the award for best art direction.\n[…]\nArakawa, Kaku (2019). \"Ponyo Is Here\". 10 Years With Hayao Miyazaki. Episode 1. NHK.\n[…]\nKanazawa, Makoto (2008). \"Interview with Hayao Miyazaki\" special feature. Ponyo (Blu-ray). StudioCanal. Interview on June 30, 2008.\n[…]\nStudio Ghibli (2009). The Art of Ponyo. Viz Media. ISBN 978-1-4215-3064-2.\n[…]\nPonyo (anime) at Anime News Network's encyclopedia\n[…]\nPonyo at IMDb\n[…]\nPonyo at Box Office Mojo"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gake_no_ue_no_Ponyo",
+        "situacao": "ok",
+        "texto": "Gake no Ue no Ponyo (崖の上のポニョ) é um filme de animação japonês que começou a ser escrito pelo famoso Hayao Miyazaki e produzido pelo Studio Ghibli em 2006. A data de estreia no Japão foi 19 de julho de 2008. O filme teve sua estreia em Portugal em 27 de agosto de 2009 e no Brasil em 2 de julho de 2010.\n[…]\nO filme conta a história de Sōsuke, um garotinho de cinco anos, e Ponyo, uma princesa peixinho-dourado que deseja muito virar humana. Um dia Ponyo foge do seu lar no oceano e vai parar na encosta onde Sōsuke a encontra e promete protegê-la para sempre[carece de fontes]?.\n[…]\nMiyazaki foi influenciado nesta história pelo conto A Pequena Sereia de H.C. Andersen, além de inspirar-se na lenda japonesa Urashima Taro. Seu filho Gorō serviu de base para a construção do personagem Sōsuke. A cidade do filme foi baseada no Setonaikai Kokuritsu Kōen um famoso parque japonês.\n[…]\nA música-tema homônima, \"Gake no Ue no Ponyo\", foi lançada anteriormente ao filme em 5 de dezembro de 2007. A música é cantada pelo duo Fujioka Fujimaki (que é formado por Takaaki Fujioka e Naoya Fujimaki) e pela cantora, de então oito anos, Nozomi Ōhashi.\n[…]\nO filme vem recebendo inúmeras críticas positivas, comparando-o com a obra Meu Vizinho Totoro por serem filmes com uma temática mais simples apresentando uma estética mais infantil, além de trazer as já conhecidas marcas de sensibilidade e poesia do seu criador Miyazaki. O Japan Times avaliou a produção em quatro estrelas, sendo que a nota máxima é cinco. Gake no ue no Ponyo liderou as bilheterias do Japão com 91 milhões de dólares acumulados em seu primeiro mês.\n[…]\nIndicado na categoria de Melhor Filme.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Ghost in the Shell",
+      "descricao": "Filme de animação japonês de ficção científica de 1995, dirigido por Mamoru Oshii."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O anime Ghost in the Shell, de 1995, foi uma inspiração assumida pelas irmãs Wachowski para qual filme?",
+    "resposta": "Matrix",
+    "distratores": [
+      "Speed Racer",
+      "A Viagem",
+      "O Destino de Júpiter"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(1995_film)",
+        "situacao": "ok",
+        "texto": "Ghost in the Shell is a 1995 Japanese animated tech noir action thriller film directed by Mamoru Oshii from a screenplay by Kazunori Itō, based on the 1989 manga by Masamune Shirow. It stars the voices of Atsuko Tanaka, Akio Ōtsuka, and Iemasa Kayumi. It is a Japanese-British international co-production between Kodansha, Bandai Visual and Manga Entertainment, with animation provided by Production \n[…]\nIt has inspired filmmakers such as The Wachowskis, creators of The Matrix franchise, and James Cameron, who described it as \"the first truly adult animation film to reach a level of literary and visual excellence.\" At the 24th Annie Awards (1996), the film received numerous accolades, and was nominated in five categories—including Best Animated Feature—giving it the most nominations for a Japanese animated film at the Annie Awards until both The Boy and the Heron and Suzume took over the position (with seven each) at the 51st Annie Awards (2024).\n[…]\nA spin-off novel written by Endo Akira, titled Ghost in the Shell: Burning City (攻殻機動隊灼熱の都市, Kōkaku kidōtai shakunetsu no toshi), was published by Kodansha and released in Japan in November 1995. It was followed by a sequel, titled Ghost in the Shell 2: Star Seed (攻殻機動隊2: Star Seed), released in January 1998. A book titled Analysis of Ghost in the Shell was released on 25 September 1997, by Kodansha.\n[…]\nGhost in the Shell has influenced prominent filmmakers. The Wachowskis, creators of The Matrix and its sequels, showed it to producer Joel Silver, saying, \"We wanna do that for real.\" The Matrix series took inspiration from several concepts from the film, with the digital rain being inspired by the film's opening credits, and the way characters access the Matrix through holes in the back of their necks, directly paralleling the method of electronic communication in the film.\n[…]\nGhost in the Shell  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ghost_in_the_Shell_%281995%29",
+        "situacao": "ok",
+        "texto": "Ghost in the Shell (bra: O Fantasma do Futuro) é um filme de animação japonesa, do ano de 1995, dos gêneros ficção científica e ação, dirigido por Mamoru Oshii e escrito por Masamune Shirow, autor do mangá que inspirou o filme, e Kazunori Itô. Foi uma das principais inspirações para a trilogia Matrix. A história do filme se passa num futuro distante e começa quando um grupo policial tenta encontra\n[…]\nExibido no Brasil na Mostra Internacional de Cinema em São Paulo, a distribuidora FlashStar cogitou exibir Ghost in the Shell nos cinemas antes de lançar direto em vídeo, em 1998, e DVD, em 2001.\n[…]\nO filme dividido entre dois arcos transcorre no futuro, no ano de 2029, onde existe a capacidade técnica de manipular pessoas entrando em suas mentes. O hacker, chamado de Mestre das Marionetes, é especialista em computadores e capaz de controlar a vontade dos outros, e é caçado por um grupo secreto chamado Esquadrão Shell. A líder, Major Motoko, foi tão modificada que quase todo seu corpo não é mais humano. De seu \"eu\" original teria sobrado apenas um \"fantasma\".\n[…]\nalem da animação, a trilha sonora foi composta pelo Kenji Kawai, que usa os elementos da música folclórica Búlgara misturadas com a tradicional japonesa com adição de alguns elementos de música eletrônica, dando uma ambientação atmosférica para a trama do filme.\n[…]\nFantasporto\n[…]\nCategoria Melhor Filme Mamoru Oshii\n[…]\nCategoria Melhor Filme Mamoru Oshii\n[…]\nFantasporto\n[…]\nGhost in the Shell no IMDb\n[…]\nGhost in the Shell no AllMovie (em inglês)\n[…]\n«Ghost in the Shell». no UOL Cinema\n[…]\nGhost in the Shell (em inglês). no Box Office Mojo.\n[…]\n«Ghost in the Shell» (em inglês)  no Rotten Tomatoes\n[…]\n«O Fantasma do Futuro no site Mercado Livre»\n[…]\n«Ghost in the Shell no site The New York Times» (em inglês)\n[…]\n«Ghost In The Shell no site Sapo Cinema»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Shin Godzilla",
+      "descricao": "Filme japonês de 2016 da franquia Godzilla, produzido pela Toho."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o anime Neon Genesis Evangelion e o filme Shin Godzilla, de 2016, têm em comum?",
+    "resposta": "O diretor Hideaki Anno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shin_Godzilla",
+      "https://en.wikipedia.org/wiki/Hideaki_Anno"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shin_Godzilla",
+        "situacao": "ok",
+        "texto": "Shin Godzilla (シン・ゴジラ, Shin Gojira) is a 2016 Japanese kaiju film directed by Hideaki Anno and Shinji Higuchi, with a screenplay by Anno and visual effects by Higuchi. Produced by Toho Pictures and Cine Bazar and distributed by Toho Co., Ltd., it is the 31st film in the Godzilla franchise, the 29th film produced by Toho, Toho's third reboot of the franchise, and the first film in the franchise's R\n[…]\nIn March 2015, Toho announced that the film would be co-directed by Hideaki Anno and Shinji Higuchi (who both collaborated on the anime Neon Genesis Evangelion), in addition to Anno writing the screenplay and Higuchi directing the film's special effects. In addition, Toho announced that the film would begin filming in the fall of 2015 set for a summer 2016 release.\n[…]\nIn 2022, Hideaki Anno revealed that he wrote and submitted a proposal for a potential sequel, stating, \"I wrote a proposal during the filming of Shin Godzilla on February 3, 2016, labeled Sequel Shin Godzilla Memo. The primary working title for the project was Shin Godzilla Raids Again (シン・ゴジラの逆襲, Shin Gojira no Gyakushu) and with the assumption that Mr. Higuchi would direct, it was meant to be something like a Toho Champion Festival kaiju showdown.\n[…]\nIn 2016, Toho and Khara, Inc. collaborated on Godzilla vs. Evangelion, a cross-over line of merchandise uniting Shin Godzilla and Anno's Neon Genesis Evangelion. In May 2019, Universal Studios Japan opened the Godzilla vs. Evangelion: The Real 4D attraction. It ran until August 2019. In February 2022, Toho, Khara, Toei Company, and Tsuburaya Productions announced a collaborative project titled Shin Japan Heroes Universe for merchandise, special events and tie-ins.\n[…]\nThe project unites films that Anno had worked on that bear the katakana title \"Shin\" (シン): Shin Godzilla, Evangelion: 3.0+1.0 Thrice Upon a Time, Shin Ultraman and Shin Kamen Rider.\n[…]\nShin Godzilla at Metacritic"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hideaki_Anno",
+        "situacao": "ok",
+        "texto": "Hideaki Anno (Japanese: 庵野 秀明, Hepburn: Anno Hideaki; born May 22, 1960) is a Japanese animator, filmmaker, and actor. His most celebrated creation, the Evangelion franchise, has had a significant influence on the anime television industry and Japanese popular culture. Anno's style is defined by his postmodernist approach and the extensive portrayal of characters' thoughts and emotions.\n[…]\nEventually, the project culminated in The End of Evangelion, a two-act film that served as a finale to Neon Genesis Evangelion. Anno wrote and directed the Rebuild of Evangelion film series from 2007 to 2021, written to be more accessible to non-fans than the original anime series and films were.\n[…]\nSeveral of Anno's anime have won the Animage Anime Grand Prix award, including Nadia: The Secret of Blue Water in 1990, Neon Genesis Evangelion in 1995 and 1996, and The End of Evangelion in 1997.\n[…]\nAnno's next project was the anime television series Neon Genesis Evangelion (1995–1996). The series is set in a post-apocalyptic futurist version of Tokyo and follows humanity's struggle to survive against an onslaught of giant monsters known as Angels. He considers Evangelion a continuation of Nausicaä, done in his own way.\n[…]\nOn August 1, 2006, Hideaki Anno's official website was updated with job listings for key animators and production staff at a company he founded, Studio Khara. In September 2006, Anno's departure from Gainax was reported in the October edition of the Japanese animation magazine Newtype. On September 9, 2006, Gainax's official website confirmed that Rebuild of Evangelion was in the works.\n[…]\nRebuild of Evangelion (2007–2021)\n[…]\n(in Japanese) Hideaki Anno Official site\n[…]\nHideaki Anno at IMDb\n[…]\n(in Japanese) Anno Hideaki's JMDb Listing\n[…]\nHideaki Anno  at Anime News Network's encyclopedia\n[…]\n\"Special Talk: Yutaka Izubuchi x Hideaki Anno\" -(2003)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Shin_Gojira",
+        "situacao": "ok",
+        "texto": "Shin Gojira (bra: Shin Godzilla) é um filme japonês de 2016, dos gêneros drama, ação e ficção científica, escrito e dirigido por Hideaki Anno.\n[…]\nEstreou em seu país de origem em 25 de julho de 2016. A obra faz referência ao acidente nuclear de Fukushima I e ao sismo e tsunami de Tohoku de 2011.\n[…]\nA equipe de Yaguchi descobre que sangue de Godzilla age como um sistema de resfriamento e que poderiam usar um agente coagulante para congelá-lo. Depois de analisar amostras de tecido, é descoberto que Godzilla é um ser em constante evolução, sendo capaz de se reproduzir assexuadamente. A ONU adverte que caso o Japão não elimine Godzilla em um prazo de poucos dias, será usado de armas termonucleares para subjugá-lo. Várias prefeitura ordenam evacuação em resposta ao iminente ataque.\n[…]\nPoucas horas antes do ataque nuclear, o governo japonês aprova o plano. Godzilla é provocado por drones americanos, usando de sua energia. Trens e edifícios carregados de explosivos são dirigidos e derrubados contra ele, derrubando-o e permitindo aos caminhões injetarem o coagulante na boca de Godzilla. Embora muitos sejam mortos, o plano é um sucesso e o monstro congela. No rescaldo, descobre-se que o estado de congelamento tem uma semivida curta e que Tóquio pode ser reconstruída em breve.\n[…]\nA comunidade internacional concorda em cancelar o ataque, mas o novo governo japonês concorda que, caso Godzilla desperte, um ataque nuclear será ordenado imediatamente. Na última cena, a cauda de Godzilla mostra criaturas humanoides congeladas prestes a emergir.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Weekly Shōnen Jump",
+      "descricao": "Revista semanal japonesa de mangás da editora Shueisha."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Dragon Ball, Naruto e One Piece foram publicados originalmente em qual revista semanal japonesa?",
+    "resposta": "Weekly Shōnen Jump",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Weekly_Sh%C5%8Dnen_Jump"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Weekly_Sh%C5%8Dnen_Jump",
+        "situacao": "ok",
+        "texto": "Weekly Shōnen Jump (Japanese: 週刊少年ジャンプ, Hepburn: Shūkan Shōnen Janpu; stylized in English as WEEKLY JUMP) is a weekly shōnen manga anthology published in Japan by Shueisha under the Jump line of magazines. The manga series within the magazine consist of many action scenes and a fair amount of comedy. Chapters of the series that run in Weekly Shōnen Jump are collected and published in tankōbon volu\n[…]\nMany of the best-selling manga series—including One Piece, Dragon Ball, Naruto, Demon Slayer: Kimetsu no Yaiba, Slam Dunk, and KochiKame: Tokyo Beat Cops, all of which are among the top ten best-selling manga of all time—originate from Weekly Shōnen Jump.\n[…]\nC-Kids (ซีคิดส์ See Kít) is the Thai language Weekly Shōnen Jump published by Siam Inter Comics. C-Kids publishes many Weekly Shōnen Jump series such as One Piece, Gintama along with many original manga-influenced comics from the division Cartoon Thai Studio like EXEcutional.\n[…]\nBoom (บูม) is another Thai language Weekly Shōnen Jump published by Nation Edutainment. Boom publishes many Weekly Shōnen Jump series such as Naruto, Death Note along with many original manga-influenced comics from Factory Studio like Meed Thii Sib-Sam and Apaimanee Saga.\n[…]\nIn November 2004, Manga Media began publication of a Swedish language version of Weekly Shōnen Jump in Sweden, called Shonen Jump as a sister publication to their existing magazines Manga Mania and Shojo Stars. The magazine included chapters from various popular Weekly Shōnen Jump titles including Bleach, Naruto, Shaman King, and Yu-Gi-Oh! In November 2007, after 37 issues published, Manga Media ceased publication of the magazine. It had a circulation of 30,000 copies.\n[…]\nList of series run in Weekly Shōnen Jump\n[…]\nWeekly Shōnen Jump at Viz Media\n[…]\nWeekly Shōnen Jump  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Weekly_Sh%C5%8Dnen_Jump",
+        "situacao": "ok",
+        "texto": "Weekly Shōnen Jump (週刊少年ジャンプ, Shūkan Shōnen Janpu; estilizado em inglês como WEEKLY JUMP) é uma antologia semanal de mangás shōnen publicada pela editora Shueisha sob a linha de revistas \"Jump Comics\". É a revista que está há mais tempo em atividade, tendo sua primeira edição lançada em 1º de agosto de 1968.\n[…]\nWeekly Shōnen Jump foi lançada pela primeira vez pela Shueisha em 2 de julho de 1968 e passou a competir com outras editoras de sucesso como a Weekly Shōnen Magazine e a Weekly Shōnen Sunday. Antes da vigésima edição, a revista era chamada simplesmente de Shōnen Jump, que era originalmente uma revista bissemanal e só veio a se tornar semanal em 1969.\n[…]\nDesde então, experimentou um drástico declínio nas vendas físicas, em razão de diversos fatores como o modo de consumo de mangás que vem migrando para meios digitais desde 2014. Em 2016, houve uma circulação média de 2,2 milhões de cópias, e ao longo de 2021, a revista alcançava a média de 1,3 milhões de cópias por semana. Muitas das séries de mangás mais vendidos são originárias da Weekly Shōnen Jump.\n[…]\nA Weekly Shōnen Jump tem duas revistas-irmãs: Jump SQ (criada após a queda do Monthly Shōnen Jump) e a Saikyō Jump. A revista também tem suas publicações nos Estados Unidos, Canadá, Noruega, Suécia e Alemanha (neste último com o título de Banzai!).\n[…]\nHá atualmente 19 títulos sendo publicados na Weekly Shōnen Jump. Hunter × Hunter vem sendo publicado irregularmente desde 2006. Ruri Dragon desde 2022. Burn the Witch publicou uma temporada, compilada em um volume único, e está pausado desde então.\n[…]\nJump Super Stars\n[…]\nJump Ultimate Stars\n[…]\nJump Force\n[…]\nShonen Gangan\n[…]\nShonen Ace\n[…]\nShonen Champion\n[…]\n«Página oficial» (em japonês e inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Yoshihiro Togashi",
+      "descricao": "Mangaká japonês, autor de Yu Yu Hakusho e Hunter x Hunter."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1999, Yoshihiro Togashi, autor de Yu Yu Hakusho, casou-se com a criadora de qual mangá de garotas mágicas?",
+    "resposta": "Sailor Moon",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yoshihiro_Togashi",
+      "https://en.wikipedia.org/wiki/Naoko_Takeuchi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Yoshihiro_Togashi",
+        "situacao": "ok",
+        "texto": "Yoshihiro Togashi (Japanese: 冨樫 義博, Hepburn: Togashi Yoshihiro; born April 27, 1966) is a Japanese manga artist. He began drawing manga at an early age and was recognized for his talent by the publishing company Shueisha while attending college. Togashi has authored several different manga series in different genres since the 1980s. He is best known for writing and illustrating YuYu Hakusho (1990–\n[…]\nTogashi is married to Naoko Takeuchi, the author of Sailor Moon.\n[…]\nTogashi is married to Naoko Takeuchi, the creator of Sailor Moon. The two were introduced at a party hosted by Kazushi Hagiwara in August 1997. The following year, Takeuchi assisted Togashi for a short time by adding screentone to his manga Hunter × Hunter. Togashi and Takeuchi got married on January 6, 1999. In attendance for the ceremony were several fellow manga artists and voice actors from both the Sailor Moon and YuYu Hakusho anime series.\n[…]\nManga critic Jason Thompson stated that \"Togashi is no ordinary mangaka; he does things his own way\", further noting that Togashi's first one-shots were a mix of school comedy and \"splatter-film horror references\". At age 24, Togashi created a hit with the supernatural fighting comedy YuYu Hakusho. Then, rather than continue the series for as long as possible to maximize his profit, Togashi ended the series abruptly.\n[…]\nManga artists Nobuhiro Watsuki and Pink Hanamori have cited Togashi and YuYu Hakusho as an influence. He is one of the favorite artists of Naruto author Masashi Kishimoto. Jujutsu Kaisen author Gege Akutami named Togashi as an influence and was inspired by YuYu Hakusho and Hunter × Hunter.\n[…]\nHetappi Manga Kenkyūjo R (2011, published by Shueisha)\n[…]\nYoshihiro Togashi on X\n[…]\nYoshihiro Togashi Exhibition -Puzzle- website Archived August 2, 2022, at the Wayback Machine (in Japanese)\n[…]\nYoshihiro Togashi  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Naoko_Takeuchi",
+        "situacao": "ok",
+        "texto": "Naoko Takeuchi (Japanese: 武内 直子, Hepburn: Takeuchi Naoko; born March 15, 1967) is a Japanese manga artist. She is best known as the author of Sailor Moon, one of the most popular manga series of all time. She has won several awards, including the 1993 Kodansha Manga Award for Sailor Moon.\n[…]\nTakeuchi's own studio is called \"Princess Naoko Planning\" (PNP). Takeuchi established PNP to manage her properties, mainly Sailor Moon. The studio later encompassed Yoshihiro Togashi's work as well and appeared in the credits for such anime as Level E and Hunter × Hunter. Its name also appears on the musical credits for Shin Kaguya Shima Densetsu and other projects.\n[…]\nIn 2021, Takeuchi chief supervised the production of the two-part anime film, Pretty Guardian Sailor Moon Eternal The Movie, which adapted the Dream arc of the manga (known as Dead Moon in Japan), and acted as a \"fourth season\" for the Sailor Moon Crystal series. Both films were released in 2021 in Japanese theaters, with the first film on January 8, and the second film on February 11.\n[…]\nIn 2022, Takeuchi chief supervised the production of the sequel to Sailor Moon Eternal, titled Pretty Guardian Sailor Moon Cosmos The Movie. The two-part film covered the Stars arc of the manga (known as Shadow Galactica in Japan), and acted as a \"fifth and final season\" for the Sailor Moon Crystal series. Both films were released in June 2023, with the first film on the 9th, and the second film on the 30th.\n[…]\nTakeuchi has won several awards, including the 2nd Nakayoshi Comic Prize for Newcomers for Yume ja Nai no Ne in 1985. She also won for \"Love Call\", which won Nakayoshi's New Artist award which debuted in the Nakayoshi Deluxe September 1986 issue. In 1993 she won the 17th Kodansha Manga Award for shōjo for Sailor Moon."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Yoshihiro_Togashi",
+        "situacao": "ok",
+        "texto": "Yoshihiro Togashi (em japonês: 冨樫 義博; romaniz.: Togashi Yoshihiro; nascido em Shinjo, Japão, em 27 de abril de 1966) é um mangaká japonês. Começou a desenhar mangá em uma idade precoce, enquanto frequentava  a faculdade, a editora Shueisha reconheceu o seu talento. Togashi é autor de numerosas séries de mangá em diferentes gêneros durante as últimas três décadas.\n[…]\nÉ mais conhecido por escrever e ilustrar as séries Yu Yu Hakusho e Hunter × Hunter, ambos os quais foram publicados na revista Weekly Shonen Jump. Togashi é casado com Naoko Takeuchi, autora de Sailor Moon.\n[…]\nEm 1990, começou a desenhar a obra que o consagrou em todo o mundo, Yu Yu Hakusho, que saiu na revista Shonen Jump, da Shueisha, até seu fim, em 1994. Yu Yu Hakusho foi compilado em 19 volumes tankobon. Um ano depois, ele criou Level E, mangá que conta a história de um príncipe alienígena que veio à Terra para divertir-se com a raça humana.\n[…]\nEm 1998, Yoshihiro criou Hunter × Hunter. É uma obra que se inicia com um enredo simples, mas que, com o passar do tempo, vai se tornando cada vez mais complexa e descontraída, levando o público a uma verdadeira reflexão e uma profunda aula de filosofia e sociologia. Togashi conseguiu criar momentos cada vez mais marcantes ao longo de distintos arcos, em que os personagens evoluíam e os leitores acompanhavam suas mudanças de objetivos.\n[…]\nDesde janeiro de 1999, Yoshihiro Togashi é casado com a autora Naoko Takeuchi, a criadora de Sailor Moon e de Codename wa Sailor V. Ele menciona seu casamento no volume 5 de Hunter × Hunter. Eles têm dois filhos juntos.\n[…]\nYu Yu Hakusho (1990-1994) (19 volumes na edição original e 15 na reedição de luxo)\n[…]\nBiohazard 3: The Last Escape Guia Oficial (1999, publicado pela ASCII )\n[…]\nYoshihiro Togashi no X",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Black Jack",
+      "descricao": "Mangá de Osamu Tezuka sobre um cirurgião genial que opera sem licença."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O cirurgião Black Jack, personagem de Osamu Tezuka, reflete qual formação universitária do próprio autor?",
+    "resposta": "Medicina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_Jack_(manga)",
+      "https://en.wikipedia.org/wiki/Osamu_Tezuka"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Black_Jack_(manga)",
+        "situacao": "ok",
+        "texto": "Black Jack (Japanese: ブラック・ジャック, Hepburn: Burakku Jakku), often abbreviated as B・J, is a Japanese manga series written and illustrated by Osamu Tezuka in the 1970s, dealing with the medical adventures of the title character, doctor Black Jack. Black Jack consists of hundreds of short, self-contained stories that are typically about 20 pages long. Black Jack has also been animated into an OVA, two \n[…]\nLater that night, the debt collectors came for his parents. Thinking that his parents secretly came home and leave, they attacked Guffaw. Black Jack threw one of his darts at one of the collectors. That person used it to stab Guffaw in the throat. He ended up getting cyanosis and eventually transferred far away. Laughter in the school faded away. Later, Black Jack studied medicine at a university and, after 8 years since the accident, he went to search for Guffaw.\n[…]\nOsamu Tezuka is a character that is the self caricature of the main author of Black Jack. Tezuka often inserted himself into his works and is distinguishable by his small round nose and round trimmed glasses and short brown hair. In the manga he sometimes appears in cameos as himself or in humorous situations or to break the fourth wall.\n[…]\nOn 1 October 2015, a twelve episode anime entitled Young Black Jack began to air, about Black Jack's adventures as a medical student. It is based on the spin-off manga of the same title written by Yoshiaki Tabata and illustrated by Yūgo Ōkuma. More closely following the timeline of the original 1973–83 manga by Osamu Tezuka, the new anime is however somewhat discontinuous with the 2004 anime.\n[…]\nBetween 3 March – 27 June 2016, the Osamu Tezuka Manga Museum located in Takarazuka City, Hyōgo Prefecture, Japan, sponsored an art exhibit focused on the \"Heroines of Osamu Tezuka\". It highlighted the leading ladies of Tezuka's comics, such as Sapphire of Princess Knight and Pinoko of Black Jack."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Osamu_Tezuka",
+        "situacao": "ok",
+        "texto": "Osamu Tezuka (手塚 治虫, born 手塚 治, Tezuka Osamu, (1928-11-03)3 November 1928 – 9 February 1989) was a Japanese manga artist, cartoonist and animator. Considered to be among the greatest and most influential cartoonists of all time, his prolific output, pioneering techniques and innovative redefinitions of genres earned him such titles as \"the Father of Manga\" (マンガの父, Manga no Chichi), \"the Godfather \n[…]\nDuring high school in 1944, Tezuka was drafted to work for a factory, supporting the Japanese war effort during World War II; he simultaneously continued writing manga. In 1945, Tezuka was accepted into Osaka University and began studying medicine. During this time, he also began publishing his first professional works.\n[…]\nIn 1951, Tezuka graduated from the Osaka School of Medicine and published Ambassador Atom, the first appearance of the Astro Boy character. That same year Tezuka joined a group known as the Tokyo Children Manga Association, consisting of other manga artists such as Baba Noboru, Ota Jiro, Furusawa Hideo, Eiichi Fukui, Irie Shigeru and Negishi Komichi.\n[…]\nThe answer his mother gave was: \"You should work doing the thing you like most of all.\" Tezuka decided to devote himself to manga creation on a full-time basis. He graduated from Osaka University and obtained his medical degree, but he would later use his medical and scientific knowledge to enrich his sci-fi manga, such as Black Jack.\n[…]\nIn the 2006 list by the Japan Media Arts Festival asking critics, scholars, mangaka, etc. for the 'Greatest Manga of All Time', Tezuka had three works make the top 10: Phoenix(1st), Black Jack(5th) and Astro Boy(tied 6th). He was the only figure with more than one work in the top 10.\n[…]\nList of Osamu Tezuka manga\n[…]\nNatsu Onoda Power. God of Comics: Osamu Tezuka and the Creation of Post-World War II Manga. (Jackson: University Press of Mississippi). ISBN 978-1-60473221-4.\n[…]\nOsamu Tezuka at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Black_Jack_%28mang%C3%A1%29",
+        "situacao": "ok",
+        "texto": "Black Jack (ブラック・ジャック, Burakku Jakku) é um mangá de Osamu Tezuka protagonizado pelo Doutor Black Jack. Sua publicação durou de 1973 até 1983, sendo o trabalho mais longo de Tezuka. Foi também sua obra mais pessoal, pois nela colocou todo o seu conhecimento acadêmico, uma vez que era formado em medicina, embora nunca tendo exercido a profissão.\n[…]\nBlack Jack é considerada por muitos a obra mais enigmática de Osamu Tezuka, o mítico autor conhecido mundialmente como o “deus do mangá” devido aos diversos conceitos que incluiu em seus trabalhos e que influenciaram a indústria de quadrinhos e a animação japonesa.\n[…]\nO mangá conta a história de Black Jack, um médico que trabalha sem licença e cobra preços exorbitantes por seus tratamentos — por isso acaba tendo problemas com a polícia em alguns casos, mas ainda assim mantendo grande reputação entre seus colegas. Normalmente trata de casos que não são excepcionais, mas complicados, apesar de serem comuns. Seus métodos são desconhecidos e quase sobrenaturais, motivo pelo qual Black Jack é algumas vezes referido como “o cirurgião do impossível”.\n[…]\nBlack Jack\n[…]\nÉ a pequena assistente de Black Jack, que mora com o médico, seu guardião legal. Era na verdade um gêmeo parasita no corpo de uma mulher de dezoito anos. Após retirá-la do corpo da hospedeira, Black Jack fez um corpo artificial para ela e passou a cuidar dela como uma filha, apesar dela sempre dizer ter dezoito anos e alegar \"ser\" esposa do médico. Além de ser assistente em algumas cirurgias de Black Jack, cuida do serviço doméstico.\n[…]\nSua personalidade contrasta com a do doutor: enquanto ele é calmo, reservado e finge não se importar com o que acontece a sua volta, Pinoko é inquieta e curiosa.\n[…]\nNo Anime News Network (Mangá) (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Lupin III",
+      "descricao": "Ladrão protagonista do mangá e anime criados por Monkey Punch em 1967."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Monkey Punch criou em 1967 um ladrão japonês apresentado como neto de qual famoso ladrão da literatura francesa?",
+    "resposta": "Arsène Lupin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ars%C3%A8ne_Lupin_III"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ars%C3%A8ne_Lupin_III",
+        "situacao": "ok",
+        "texto": "Lupin III (Japanese: ルパン三世, Hepburn: Rupan Sansei), referred to in some English adaptations as Arsène Lupin III, is a fictional character and the protagonist of the manga series Lupin the Third, which was created by Kazuhiko Katō (known as Monkey Punch) and debuted in Weekly Manga Action on August 10, 1967.\n[…]\nThe aim of Lupin III was to produce a comedy adventure series that reflected the traits of Leblanc's Arsène Lupin character. Originally, the intention was to keep the blood ties between the two fictional characters secret. However, Monkey Punch was convinced by others not to do so. He combined elements of Arsène Lupin with James Bond to develop the character of Lupin III and made him a \"carefree fellow\".\n[…]\nMonkey Punch did not gain permission to use the Arsène Lupin name and, at the time, Japan did not enforce trade copyrights. By the time Leblanc's estate launched legal action in Japan, the name was considered to have entered into common use. However, this was not the case in North America and Europe, and several foreign releases of Lupin III media were obliged to drop the Lupin III title; the character himself was renamed to \"Wolf\" or \"Rupan\".\n[…]\nThe name \"Arsène Lupin III\" continues to occasionally appear in English localizations.\n[…]\nLupin's ethnic origins have been occasionally specified as half-Japanese and half-French, befitting his claimed heritage as grandson of Frenchman Arsène Lupin. In the first TV series, episode 13 (\"Beware the Time Machine!\"), Lupin impersonates a feudal Japanese ancestor of his, claiming he would like to marry a girl by the name of Mylene Lupin from France someday.\n[…]\nFor the video game Persona 5, its creative team originally asked themselves how a character like Lupin III might win appeal in modern society."
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Arale Norimaki",
+      "descricao": "Menina robô protagonista do mangá Dr. Slump, de Akira Toriyama."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que menina robô, estrela de Dr. Slump, outra obra de Akira Toriyama, aparece em Dragon Ball quando Goku passa pela Vila Pinguim?",
+    "resposta": "Arale Norimaki",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dr._Slump"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dr._Slump",
+        "situacao": "ok",
+        "texto": "Dr. Slump (Japanese: Dr.スランプ, Hepburn: Dokutā Suranpu) is a Japanese manga series written and illustrated by Akira Toriyama. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from February 1980 to September 1984, with the chapters collected in 18 tankōbon volumes. The series follows the humorous adventures of the little girl robot Arale Norimaki, her creator Senbei Norimaki,\n[…]\nDr. Slump is set in Penguin Village (ペンギン村, Pengin Mura), a place where humans co-exist with all sorts of anthropomorphic animals and other objects. In this village lives Senbei Norimaki, an inventor. In the first chapter, he builds what he hopes will be the world's most perfect little girl robot, named Arale Norimaki. However, she turns out to be in severe need of eyeglasses.\n[…]\nAfter Dr. Slump ended in 1984, its characters returned for an extended cameo in Toriyama's next series Dragon Ball, in which Arale and Son Goku briefly team up to defeat General Blue during the Red Ribbon Army storyline. A Dr. Slump follow-up manga was written by Takao Koyama and illustrated by Katsuyoshi Nakatsuru, with supervision by Toriyama. It was serialized in V Jump from February 21, 1993, to September 1996 under the title The Brief Return of Dr.\n[…]\nSlump also prominently feature in the 69th episode of Dragon Ball Super, \"Goku vs. Arale! An Off-the-Wall Battle Spells the End of the Earth?\"\n[…]\nArale appears in several Dragon Ball video games as well. She and several other Dr. Slump characters appear in Dragon Ball: Daimaō Fukkatsu, she alone is a hidden battle in Dragon Ball 3: Goku Den, and she and Senbei briefly appear in Dragon Ball Z: Super Goku Den — Totsugeki-Hen. Arale is a playable character, and Penguin Village is a playable map, in Dragon Ball Z: Budokai Tenkaichi 2 and 3 for the PlayStation 2 and Wii.\n[…]\nDr. Slump - Arale-chan at Toei Animation at the Wayback Machine (archived July 22, 2015)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dr._Slump",
+        "situacao": "ok",
+        "texto": "Dr. Slump (スランプ, Dokutā Suranpu) é uma série de mangá japonesa escrita e ilustrada por Akira Toriyama. Foi serializada pela editora Shueisha na revista Weekly Shonen Jump de 1980 a 1984, que formaram 18 volumes tankobon. A série segue as aventuras cômicas do pequeno robô Arale Norimaki, seu criador Senbei Norimaki, e os outros moradores da bizarra Vila Pinguim.\n[…]\nDr. Slump se passa na Vila Pinguim (ペンギン 村, Pengin Mura), um lugar onde os seres humanos vivem com todos os tipos de animais e outros objetos. Nesta vila, vive Senbei Norimaki, um inventor. Seu apelido é \"Dr. Slump\". Ele constrói o que ele espera ser a primeira robô do mundo, a que ele deu nome de Arale Norimaki, por ser um inventor muito desastrado, cria uma robô míope, ela logo acaba precisando usar óculos. Arale é também muito ingênua. Ao contrário dos humanos, ela possui super-força.\n[…]\nDepois de Dr. Slump terminar em 1984, os personagens retornam em alguns capítulos do mangá Dragon Ball, em que Arale e Goku se unem para derrotar o General Blue nos eventos da Red Ribbon.\n[…]\nDr. Slump aparece em alguns episódios de Dragon Ball, como A Vila Pinguim, e seus personagens  do episódio 55 ao 58. Son Goku (versão criança de Dragon Ball), aparece, também na nova versão o The New Dr. Slump, em diversos episódios. Arale aparece no episódio 69 de Dragon Ball Super, ela tem uma pequena batalha com Vegeta e Son Goku.\n[…]\nArale Norimaki\n[…]\nTurbo Norimaki\n[…]\nArale aparece no jogo da Famicom, Famicom Jump: Hero Retsuden de 1988. Arale e Dr. Mashirito aparecem no jogo de Nintendo DS, Jump Super Stars. Ambos retornam na sequência, Jump Ultimate Stars, também para o DS. Arale aparece como um personagem jogável e a Vila Pinguim é um mapa jogável em Dragon Ball Z: Budokai Tenkaichi 3 para a PlayStation 2 e Wii. No jogo de PlayStation 2, Super Dragon Ball Z, Suppaman aparece no fundo do nível da cidade.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Doraemon",
+      "descricao": "Gato-robô vindo do futuro, protagonista do mangá e anime de Fujiko F. Fujio."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o gato-robô Doraemon tem pavor de ratos?",
+    "resposta": "Um rato robô roeu suas orelhas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Doraemon_(character)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Doraemon_(character)",
+        "situacao": "ok",
+        "texto": "Doraemon (Japanese: ドラえもん) is the titular character of the manga and anime series Doraemon, created by Fujiko Fujio. Doraemon is a male robotic cat that travels back in time from the 22nd century to aid a preteen boy named Nobita Nobi in his daily life.\n[…]\nIn his book Japan Pop: Inside the World of Japanese Popular Culture, author Timothy J. Craig wrote, \"Though Doraemon is himself a high-tech product, he possesses an endearing personality that captivates young audiences. He is both a full member of Nobita's family and an intimate friend to Nobita and his companions. Portrayed in this way, Doraemon represents the optimistic view of the relationship between technology and humanity.\"\n[…]\nPolitician Osamu Fujimura is known as the \"Doraemon of Nagatacho\" due to his figure and warm personality. Sumo wrestler Takamisugi was nicknamed \"Doraemon\" because of his resemblance to the character. ESP Guitars, has also made several Doraemon shaped guitars.\n[…]\nDuring 2014, Doraemon was featured on the cover of all 51 magazines published by Shogakukan.\n[…]\nThe Doraemon character has received criticism in mainland Chinese media outlets where they considered Doraemon to be a politically subversive character and that it was a tool of Japan's \"cultural invasion\".\n[…]\nIn 2019, a resolution was made in the Pakistan assembly to ban Doraemon claiming that it has  \"harmful impact on children\". One of the reason cited by the lawmaker is the depiction of mixed-sex education, which he labelled as incompatible with Pakistani culture and Muslim culture.\n[…]\nDoraemon official website (in Japanese)\n[…]\nDoraemon movies official website (in Japanese)\n[…]\nDoraemon official website at Asahi TV (in Japanese)\n[…]\nDoraemon (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Doraemon_%28personagem%29",
+        "situacao": "ok",
+        "texto": "Doraemon (ドラえもん) (conhecido no Brasil como Doraemon: O Super Gato na versão de 1979, Doraemon: O Gato do Futuro na versão de 2005 e em Portugal como Doraemon: O Gato Cósmico)  é um mangá criado por Fujiko F. Fujio que, mais tarde, foi transformado em um  anime de sucesso. A série é sobre um gato robótico chamado Doraemon que voltou dois séculos no passado para ajudar um estudante desastrado: Nobit\n[…]\nO nome Doraemon provém da aglutinação de duas palavras: dora, de dora neko (gato de rua) e \"emon\", um sufixo arcaico em nomes masculinos japoneses, como Goemon.\n[…]\nEm 2015, Doraemon também foi alvo de censura quando passou a ser transmitido no Cartoon Network Portugal. No 2º segmento do consecutivo do episódio 287, \"A Rapariga Robô\", houve uma sensibilidade sobre a nudez da rapariga robô que saía no cano de bambu, quando o Nobita o cortava usando um dos aparelhos do catálogo do futuro que era uma cápsula da princesa Kaguya. A equipa do canal achou a cena demasiado sensível para o público-alvo infantil.\n[…]\nPor meio de acordos específicos com a Shogakukan, o Doraemon também tem sido usado em publicidade. A 0123, uma empresa de transporte japonesa, tem transmitido inúmeros comerciais inspirados no personagem desde 1999. Seguindo a iniciativa Cool Japan promovida pelo governo japonês, a Sharp Corporation produziu vários anúncios apresentando os personagens de Doraemon e Nobita; foram transmitidos exclusivamente em países pertencentes à Associação das Nações do Sudeste Asiático.\n[…]\nEm 2013, a Toyota transmitiu vinte comerciais de ação ao vivo com foco na vida adulta dos protagonistas da obra. Os personagens de Doraemon e Nobita foram interpretados respectivamente pelo ator francês Jean Reno e por Satoshi Tsumabuki ; Shizuka, Gian e Suneo foram interpretados por Asami Mizukawa, Naoya Ogawa e Tomohisa Yamashita.\n[…]\nDoraemon Brasil no YouTube\n[…]\nDoraemon no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Super Saiyajin",
+      "descricao": "Transformação dos saiyajins em Dragon Ball, marcada pelo cabelo loiro e espetado."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Akira Toriyama contou que deixou loiro o cabelo do Super Saiyajin para poupar o trabalho de quem, na produção do mangá?",
+    "resposta": "Seu assistente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saiyan",
+      "https://en.wikipedia.org/wiki/Goku"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Saiyan",
+        "situacao": "desambiguacao",
+        "texto": "Saiyan may refer to:\n\nSaiyan, a fictional extraterrestrial race in the Dragon Ball media franchise\nSaiyan (film), a 1951 Bollywood film\nRyan Danford (born 1985) also known as \"Saiyan\", American semi-professional Halo player\nSaiyan, Agra, a village in the Agra district of Uttar Pradesh, India\n\"Saiyan\", a song by Stray Kids from Giant"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Goku",
+        "situacao": "ok",
+        "texto": "Son Goku  is a fictional character and the main protagonist of the Dragon Ball manga series created by Akira Toriyama. He is based on Sun Wukong (known as Son Gokū in Japan and the Monkey King in the West), a main character of the classic 16th-century Chinese novel Journey to the West, combined with influences from the Hong Kong action cinema of Jackie Chan and Bruce Lee.\n[…]\nWhen Toriyama thought up the Super Saiyan concept during the Frieza arc, he felt the only way to show Goku's massive power-up was to have him transform. Initially he was concerned that the facial expression looked like that of a villain, but felt it was acceptable since the transformation was brought about by anger. The Super Saiyan form spared the trouble of coloring Goku's hair all the time for the standard black-and-white manga pages.\n[…]\nThis was the reason for the Super Saiyan form having blonde hair, because it was easier to draw for Toriyama's assistant who spent a lot of time blacking in Goku's hair. Goku's piercing eyes in Super Saiyan form were inspired by Bruce Lee's paralyzing glare. For the Dragon Ball Z anime adaptation, character designer Tadayoshi Yamamuro used Lee as a reference, stating that, when he \"first becomes a Super Saiyan, his slanting pose with that scowling look in his eyes is all Bruce Lee.\"\n[…]\nDuring the final battle against Gomah, Goku unlocks an alternate version of the Super Saiyan 4 transformation, while Glorio uses the Demon Realm Dragon Balls to restore Goku and his allies back to their normal sizes.\n[…]\nJones also liked the way the series' depict his entire adventures, making him a good main character. Voice actor Mamoru Miyano said that Goku's first Super Saiyan transformation in the manga was his favorite part from the series as Goku not only changed visually but his personality changes into a \"classic, prototypical hero\".\n[…]\nManga"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Fruta do Diabo",
+      "descricao": "Fruta mágica de One Piece que dá poderes sobre-humanos a quem a come."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em One Piece, quem come uma Fruta do Diabo ganha superpoderes, mas perde qual habilidade?",
+    "resposta": "Nadar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/One_Piece",
+      "https://en.wikipedia.org/wiki/Monkey_D._Luffy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/One_Piece",
+        "situacao": "ok",
+        "texto": "One Piece (stylized in all caps) is a Japanese manga series written and illustrated by Eiichiro Oda. It follows the adventures of Monkey D. Luffy and his crew, the Straw Hats, as he searches for the legendary treasure known as the \"One Piece\" to become the next King of the Pirates. The manga has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 1997, with its chapte\n[…]\nThe One Piece world also has supernatural objects such as Devil Fruits, which are mysterious fruits that grant consumers transformative powers at the cost of becoming weakened in bodies of water, causing users to lose the ability to swim. Another supernatural power is Haki, which is an innate ability that grants its users enhanced observation and fighting abilities based on their willpower. It is one of the only effective methods of inflicting bodily harm on certain Devil Fruit users.\n[…]\nOda teamed up with Akira Toriyama to create a single crossover of One Piece and Toriyama's Dragon Ball series. Entitled Cross Epoch, the one-shot was published in the December 25, 2006, issue of Weekly Shōnen Jump and the April 2011 issue of the English Shonen Jump. Oda collaborated with Mitsutoshi Shimabukuro, author of Toriko, for a crossover one-shot of their series titled Taste of the Devil Fruit (実食! 悪魔の実!!, Jitsushoku! Akuma no Mi!!; lit. 'The True Food!\n[…]\nDevil Fruit!!'), published in Weekly Shōnen Jump on April 4, 2011. The spin-off series One Piece Party (ワンピースパーティー, Wan Pīsu Pātī), written by Ei Andō in a chibi art style, began serialization in Saikyō Jump on December 5, 2011. Its final chapter was published on Shōnen Jump+ on February 2, 2021.\n[…]\nRomito, Joseph (2013). \"One Piece\". In Beaty, Bart H.; Weiner, Stephen (eds.). Critical Survey of Graphic Novels: Manga. Ipswich, Mass.: Salem Press. pp. 242–246. ISBN 978-1-58765-955-3.\n[…]\nOne Piece (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Monkey_D._Luffy",
+        "situacao": "ok",
+        "texto": "Monkey D. Luffy ( LOO-fee) (Japanese: モンキー・D・ルフィ, Hepburn: Monkī Dī Rufi; [ɾɯꜜɸiː]), also known as \"Straw Hat\" Luffy, is a fictional character and the main protagonist of the manga series One Piece, created by Eiichiro Oda, as well as the central character of the franchise generated from it. Luffy made his debut as a young boy who acquires the physical properties of rubber after accidentally eatin\n[…]\nThis ability has three types: Armament Haki (武装色の覇気, Busōshoku no Haki), an armor-like force, which can amplify defense and the force of attacks and negate a Devil Fruit user's defense, allow physical contact and damage; Observation Haki (見聞色の覇気, Kenbunshoku no Haki), a sixth sense, which can read a person's moves and detect their presence; and Conqueror's Haki (覇王色の覇気, Haōshoku no Haki), which can render weak-willed people or animals near him unconscious.\n[…]\nLuffy first appears as a young boy in Windmill Village located in the Goa kingdom, where he befriends the pirate \"Red-Haired\" Shanks and intends to become one himself. He accidentally eats a Devil Fruit called the Gum-Gum Fruit and acquires rubber-like properties at the cost of being unable to swim. Shanks later saves Luffy from being devoured by a Sea King, a monstrous sea beast, at the cost of his left arm.\n[…]\nThe Five Elders send CP0 to interfere with the fight, fearing the repercussions of Luffy winning. Despite suffering an apparently fatal blow from Kaido as a result, the thrill triggers the awakening of Luffy's Devil Fruit—now revealed to be the Mythical Zoan-type Devil Fruit called Human-Human Fruit, Model: Nika. In his new transformation, dubbed \"Gear Fifth\", Luffy can fight in any shape he likes and successfully overwhelms Kaido, liberating Wano from his rule.\n[…]\nFour Emperors (One Piece)\n[…]\nList of One Piece characters\n[…]\nList of One Piece pirates\n[…]\nMonkey D. Luffy's bio at One Piece's official website (in Japanese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/One_Piece",
+        "situacao": "ok",
+        "texto": "One Piece (ワンピース, Wan Pīsu) é uma série de mangá escrita e ilustrada por Eiichiro Oda. Os capítulos têm sido publicados na revista Weekly Shōnen Jump, tendo sua primeira publicação em 22 de julho de 1997, com os capítulos compilados e publicados em 111 volumes tankōbon pela editora Shueisha até março de 2025. One Piece segue as aventuras de Monkey D. Luffy, um jovem cujo corpo ganhou as propriedad\n[…]\nA série foca em Monkey D. Luffy, um jovem que se tornou usuário de Akuma no Mi, frutas especiais que dão determinados tipos de poderes para quem as ingerir, acidentalmente quando era criança. Ele comeu a Akuma no Mi conhecida como Gomu Gomu no Mi, ou Fruta da Borracha, que estava sob posse da tripulação do poderoso pirata Shanks, o Ruivo, o ídolo de infância de Luffy.\n[…]\nAo criar uma fruta do diabo, Oda pensa em algo que satisfaria um desejo humano; ele acrescentou que não vê por que desenharia uma fruta do diabo, a menos que a aparência da fruta atraísse alguém a comê-la. Os nomes de muitos ataques especiais, assim como outros conceitos do mangá, consistem em uma forma de punição na qual as frases escritas em kanji são combinadas com uma leituraidiossincrática.\n[…]\nIntitulado Cross Epoch, o one-shot foi publicado na edição de 25 de dezembro de 2006 da Weekly Shōnen Jump e na edição de abril de 2011 da Shonen Jump. Oda colaborou com Mitsutoshi Shimabukuro, autor de Toriko, para um one-shot crossover de suas séries intitulado Taste of the Devil Fruit (実食! 悪魔の実!!, Jitsushoku! Akuma no Mi!!; lit. \"The True Food! Devil Fruit!!\"), lançado na edição de 4 de abril de 2011 da Weekly Shōnen Jump.\n[…]\nSasada, Hiroko (dezembro de 2011). «The Otherness of Heroes: The Shonen as Outsider and Altruist in Oda Eiichiro's One Piece». International Research in Children's Literature. 4 (2): 192–207. doi:10.3366/ircl.2011.0026\n[…]\nOne Piece (mangá) na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Death Note",
+      "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Death Note, se quem escreve um nome no caderno não especifica a causa da morte, de que a vítima morre?",
+    "resposta": "Ataque cardíaco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Death_Note"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Death_Note",
+        "situacao": "ok",
+        "texto": "Death Note (stylized in all caps) is a Japanese manga series written by Tsugumi Ohba and illustrated by Takeshi Obata. It was serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump from December 2003 to May 2006, with its chapters collected in 12 tankōbon volumes. The story follows Light Yagami, a genius high school student who discovers a mysterious notebook, the Death Note. This noteb\n[…]\nAfter volumes of Death Note were found at the February 2013 suicide of a 15-year-old girl in Yekaterinburg, Russia, a local parents' group began campaigning to regulate all media based on the series, saying that it had an adverse effect on the minds of children. In March 2014, investigators concluded that the manga did not cause the girl to commit suicide.\n[…]\nIn Gig Harbor, Washington, one middle school student was expelled and three were suspended on May 14, 2008, for having 50 names in their own \"Death Note\" book, including President George W. Bush.\n[…]\nIn December 2009, two students at an elementary school in Oklahoma were disciplined for a \"Death Note\" with the names and descriptions of deaths of two girls that had angered them. A Michigan middle school student was suspended indefinitely in March 2010 for possessing a \"Death Note\". In May 2010, a middle school student in the Avonworth School District in Pennsylvania was suspended for owning a \"Death Note\" with names of fellow students and pop singer Justin Bieber.\n[…]\nIn February 2015, a fifth-grade student of an elementary school near Pittsburgh was suspended for owning a \"Death Note\" and writing other students' names in it.\n[…]\nNow: Zero, a short story by J. G. Ballard with a similar premise to Death Note\n[…]\n\"Obits\", a short story by Stephen King with a similar premise to Death Note\n[…]\nDeath Note official website at Viz Media\n[…]\nDeath Note official manga website at Manga Plus\n[…]\nDeath Note (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Death_Note",
+        "situacao": "ok",
+        "texto": "Death Note (デスノート, Desu Nōto; lit. \"Caderno da Morte\") é uma série de mangá escrita por Tsugumi Ohba e ilustrada por Takeshi Obata. Os capítulos do mangá foram serializados na revista semanal japonesa Weekly Shōnen Jump de 2003 até 2006, com os capítulos compilados em um total de 12 volumes tankōbon e lançados pela editora Shueisha.[carece de fontes]? No Brasil, a série de mangá foi licenciada pub\n[…]\nLight Yagami é um estudante genial da cidade de Tóquio, no Japão. Um dia, sua vida sofre uma mudança radical, quando encontra um estranho caderno sobrenatural chamado \"Death Note\" caído no chão. Ao ser aberto, as instruções gravadas na capa diziam que a pessoa que tivesse seu nome escrito no caderno e seu rosto visualizado na mente de quem escrevesse morreria em 40 segundos de ataque cardíaco (se acaso a morte não for especificada).\n[…]\nLight teve outros rumos diferentes, no mangá, no anime e no filme de Death Note ele morre depois de ter seu nome escrito no Death Note por Ryuk, no filme ocidental ele sobrevive e no Dorama morre queimado numa explosão do galpão (a morte no mangá e no anime também diferem em certos pontos, sendo no mangá exaltado como sua perda foi patética e como ele implorava por sua vida e até tentava culpar outras pessoas, morrendo de ataque cardíaco quando Ryuk passa a o achar desinteressante e que também gargalha ao ver Light morrer no balcão sem a glória que tanto desejava e também exaltando a insignificância de seus atos, que mesmo se tivessem dado certo, teriam terminado no Mu (O Vazio).\n[…]\nApenas na versão ocidental do Death Note. Ela é colega de classe e namorada de Light Turner. Ela estava disposta a eliminar qualquer um que fique no caminho do Kira, até Light escrever seu nome no Caderno da Morte e ela morrer numa roda-gigante. Ela é atuada por Margaret Qualley e na versão brasileira sua voz por Natália Alves.\n[…]\n«Death Note» (em japonês). na NTV",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Fullmetal Alchemist",
+      "descricao": "Mangá e anime de Hiromu Arakawa sobre os irmãos alquimistas Edward e Alphonse Elric."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Fullmetal Alchemist, os irmãos Elric perdem partes do corpo ao tentar usar a alquimia para quê?",
+    "resposta": "Ressuscitar a mãe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fullmetal_Alchemist"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fullmetal_Alchemist",
+        "situacao": "ok",
+        "texto": "Fullmetal Alchemist (Japanese: 鋼の錬金術師, Hepburn: Hagane no Renkinjutsushi; lit. 'Alchemist of Steel') is a Japanese manga series written and illustrated by Hiromu Arakawa. It was serialized in Square Enix's shōnen manga anthology magazine Monthly Shōnen Gangan between July 2001 and June 2010; the publisher later collected the individual chapters in 27 tankōbon volumes.\n[…]\nBandai has released two RPG titles, Fullmetal Alchemist: Stray Rondo (鋼の錬金術師 迷走の輪舞曲, Hagane no Renkinjutsushi Meisō no Rondo) and Fullmetal Alchemist: Sonata of Memory (鋼の錬金術師 想い出の奏鳴曲, Hagane no Renkinjutsushi Omoide no Sonata), for the Game Boy Advance on March 25 and July 22, 2004, respectively, and one, Dual Sympathy, for the Nintendo DS. They also released an action game, Fullmetal Alchemist: Brotherhood (鋼の錬金術師 背中を託せし者, Hagane no Renkinjutsushi: Senaka o Takuseshimono; lit.\n[…]\nFullmetal Alchemist: The Person Entrusted with his Back) for the PlayStation Portable in Japan on October 15, 2009, and in Australia and Europe on June 17 and July 1, 2010, respectively. In Japan, Bandai released an RPG Fullmetal Alchemist: To the Promised Day (鋼の錬金術師 Fullmetal Alchemist 約束の日へ, Hagane no Renkinjutsushi Fullmetal Alchemist Yakusoku no Hi e) for the PlayStation Portable on May 20, 2010. Bandai also released a fighting game, Dream Carnival, for the PlayStation 2.\n[…]\nThe manga also has three guidebooks; each of them contains timelines, guides to the Elric brothers' journey, and gaiden chapters that were never released in manga volumes. Only the first guidebook was released by Viz Media, titled Fullmetal Alchemist Profiles. A guidebook titled Fullmetal Alchemist Chronicle (鋼の錬金術師 CHRONICLE), which contains post-manga story information, was released in Japan on July 29, 2011.\n[…]\nFullmetal Alchemist (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fullmetal_Alchemist",
+        "situacao": "ok",
+        "texto": "Fullmetal Alchemist (鋼の錬金術師, Hagane no Renkinjutsushi; lit. \"Alquimista de Aço\") é um mangá shōnen escrito e ilustrado por Hiromu Arakawa. Foi serializado na revista mensal japonesa Monthly Shōnen Gangan entre agosto de 2001 e junho de 2010, com os seus 108 capítulos individuais compilados em 27 volumes em formato tankōbon e publicados pela editora Square Enix. O mundo de Fullmetal Alchemist é bas\n[…]\nO pai deles, Van Hohenheim, saiu de casa por razões desconhecidas, e anos mais tarde, sua mãe Trisha Elric morreu de uma doença incurável, deixando, portanto, os dois irmãos sozinhos. Após a morte de sua mãe, Edward decide ressuscitá-la através da alquimia, uma ciência avançada em que os objetos podem ser criados a partir de matérias-primas. Eles pesquisaram sobre Transmutação Humana, uma técnica proibida em que se tenta criar ou modificar um ser humano.\n[…]\nNo 20.º volume do mangá, Arakawa anunciou que uma segunda série de anime baseada em Fullmetal Alchemist estava sendo produzida. Bones produziu a série com Yasuhiro Irie como diretor e Hiroshi Ōnogi como roteirista. Na versão japonesa, o título do anime é também Fullmetal Alchemist, no entanto é usado Hagane no Renkinjutsushi: Fullmetal Alchemist (鋼の錬金術師 FULLMETAL ALCHEMIST, Hagane no Renkinjutsushi: Furumetaru Arukemisuto; abreviado como 鋼の錬金術師FA) para poder se diferenciar da série de 2003.\n[…]\nApós o fim do segundo anime, foi anunciado um novo filme de Fullmetal Alchemist. Um trailer foi liberado em novembro de 2010 no site oficial de Fullmetal Alchemist: Brotherhood, confirmando que o longa intitulado Fullmetal Alchemist: The Sacred Star of Milos, dirigido por Kazuya Murata e escrito por Yūichi Shinpo iria estrear no verão de 2011, o filme mostra os irmãos Elric indo para um novo país, Creta, para capturar um alquimista que utiliza uma forma incomum de alquimia.\n[…]\nFullmetal Alchemist no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "A Viagem de Chihiro",
+      "descricao": "Filme de animação de 2001 de Hayao Miyazaki, produzido pelo Studio Ghibli."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em A Viagem de Chihiro, por que os pais da menina são transformados em porcos?",
+    "resposta": "Comeram a comida dos espíritos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spirited_Away"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spirited_Away",
+        "situacao": "ok",
+        "texto": "Spirited Away is a 2001 Japanese animated fantasy film written and directed by Hayao Miyazaki. It was produced by Toshio Suzuki, animated by Studio Ghibli, and distributed by Toho. The film stars Rumi Hiiragi, alongside Miyu Irino, Mari Natsuki, Takashi Naito, Yasuko Sawaguchi, Tsunehiko Kamijō, Takehiko Ono, and Bunta Sugawara. It follows a young girl named  Chihiro \"Sen\" Ogino, who moves to a ne\n[…]\nWhile exploring further, Chihiro finds an enormous bathhouse and meets a boy named Haku, who warns her to return across the riverbed before sunset. Spirits begin to appear, and Chihiro discovers that her parents have been transformed into pigs and that she cannot cross the now-flooded river.\n[…]\nHaku finds Chihiro and tells her to ask for a job from the bathhouse's boiler-man, Kamaji, a yōkai spirit. Kamaji instead asks a worker named Lin to bring Chihiro to Kamaji's master Yubaba, the witch who runs the bathhouse and who transformed Chihiro's parents. Yubaba tries to frighten Chihiro away but eventually gives her a work contract. As Chihiro signs the contract with her name (千尋), Yubaba takes away the second kanji in her name, renaming her Sen (千).\n[…]\nBesides the original soundtrack, there is also an image album, titled Spirited Away Image Album (千と千尋の神隠し イメージアルバム, Sen to Chihiro no Kamikakushi Imēji Arubamu), that contains 10 tracks.\n[…]\nA stage adaptation of Spirited Away was announced in February 2021 with a world premiere planned in Tokyo on 28 February 2022. It is written and directed by John Caird, with Toho as the production company, with Studio Ghibli's blessing. The role of Chihiro is played by both Kanna Hashimoto and Mone Kamishiraishi. In August 2023, it was announced that the production would have its European premiere at the London Coliseum from April 2024, with most of the cast reprising their roles.\n[…]\nSpirited Away at the Japanese Movie Database (in Japanese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Viagem_de_Chihiro",
+        "situacao": "ok",
+        "texto": "A Viagem de Chihiro (千と千尋の神隠し, Sen to Chihiro no Kamikakushi; lit. O desaparecimento (escondida pelos espíritos) de Sen e Chihiro) é um filme japonês de animação, dos gêneros aventura e fantasia, lançado em 2001. O longa-metragem foi escrito e dirigido por Hayao Miyazaki, com as vozes de Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takeshi Naito, Yasuko Sawaguchi, Tsunehiko Kamijō, Takehiko Ono e Bunta\n[…]\nChihiro corre em busca dos pais, enquanto pouco a pouco a cidade vai ganhando vida: os postes acendem e aparecem uma variedade de espíritos. Ao chegar ao restaurante, Chihiro descobre que seus pais se tornaram em enormes porcos. Aterrorizada, a jovem foge e começa a se dar conta que está ficando transparente.\n[…]\nA temática principal do filme é a viagem liminar que a protagonista realiza até o reino dos espíritos, onde se vê em mundo desconhecido. O trânsito de Chihiro neste reino alternativo, que pode ser comparado com Alice no País das Maravilhas de Lewis Carroll, representa a transição da infância até a fase adulta. O aspecto arquétipo do outro mundo delimita a condição de Chihiro com alguém se encontra entre a fase de ser criança e de ser adulto.\n[…]\nA personagem também se encontra fora dos limites da sociedade ao se encontrar com o sobrenatural. Por sua vez, a personagem Yubaba compartilha várias semelhanças com o cocheiro de Pinóquio, já que este transforma os meninos em asnos da mesma forma que a bruxa transforma os pais em porcos. Ao conseguir emprego na casa de banhos termais, Yubaba rouba o verdadeiro nome de Chihiro (que passa a se chamar Sen), o que simbolicamente significa a morte da menina, que deve assumir então a fase adulta.\n[…]\nPor sua vez, Derek Elley, da revista Variety, comentou que A Viagem de Chihiro “pode ser desfrutado tanto por jovens como por adultos”, e  igualmente elogiou a animação e a música.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Kurama",
+      "descricao": "A Raposa de Nove Caudas selada dentro de Naruto Uzumaki no mangá Naruto."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Naruto, por que o protagonista é rejeitado pelos moradores da vila desde criança?",
+    "resposta": "Carrega a Raposa de Nove Caudas selada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Naruto_Uzumaki"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Naruto_Uzumaki",
+        "situacao": "ok",
+        "texto": "Naruto Uzumaki (Japanese: うずまき ナルト, Hepburn: Uzumaki Naruto) () is the titular character and main protagonist of the manga series Naruto, created by Masashi Kishimoto. He is a ninja from the fictional Hidden Leaf Village (Japanese: 木ノ葉隠れ, Hepburn: Konohagakure). As a boy, Naruto is ridiculed and ostracized on account of the Kurama the Nine-Tailed Fox—a malevolent creature that attacked Hidden Leaf\n[…]\nNaruto is an orphan who has a dangerous fox-like entity known as Kurama the Nine-Tailed Fox sealed within his body by his father, the Fourth Hokage Minato Namikaze, the leader of the Hidden Leaf Village, at the cost of his own life and that of his mother, Kushina Uzumaki. This possession led to Naruto being ridiculed frequently by the rest of the Leaf Village; being associated with him was considered taboo. As a youth, Naruto makes jokes and plays pranks to attract attention.\n[…]\nDespite being targeted by the Akatsuki, Naruto dedicates himself to finding and retrieving Sasuke, who eventually disposes of Orochimaru and starts acting on his vengeance-driven whims. Over time, though resisting the urge to use the Nine-Tails's power, Kurama's influence over him expands, and Naruto begins to lose his rationality as more chakra manifests in the form of tails to the point the Tailed Beast can take control of his body.\n[…]\nWriting for Popular Culture in Counseling, Psychotherapy, and Play-Based Interventions, Lawrence Rubin states that while Naruto has an optimistic and hyperactive personality, the Nine-Tailed Demon Fox (Kurama) within his body symbolizes his negative emotions. He comments that Naruto has a malevolent attitude when dealing with intense conflicts and emotions. He also states that Naruto would use Kurama's chakra for battles he can not handle with his own chakra.\n[…]\nMedia related to Naruto Uzumaki at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Naruto_Uzumaki",
+        "situacao": "ok",
+        "texto": "Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) é um personagem fictício da franquia de mangá e anime Naruto, criada por Masashi Kishimoto. Servindo como o protagonista homônimo da série, ele é um jovem ninja da vila fictícia de Konohagakure (Vila Oculta da Folha). Os aldeões de sua vila o desprezavam por causa da Raposa de Nove Caudas (uma criatura malévola que atacou Konohagakure) que foi selada em seu\n[…]\nA Raposa de Nove Caudas selada em Naruto influencia o seu corpo, levando-o a se parecer com um raposa ao longo de suas batalhas. Embora inicialmente Naruto mostre apenas pequenas alterações, tais como dentes e garras afiadas, mais tarde ele desenvolve um rabo vermelho feito do chakra da Raposa. Esse chakra vermelho começa se a envolver em seu corpo; uma vez quatro caudas se manifestam, o sangue de Naruto começa a fundir-se com o chakra, colorindo todo o seu corpo de vermelho.\n[…]\nNaruto é um órfão que, quando era um recém-nascido, teve um monstro conhecido como a Raposa de Nove Caudas selada dentro de seu corpo pelo seu pai, o Quarto Hokage, Minato Namikaze, o líder da força ninja do País do Fogo, ao custo de sua própria vida. Por causa dele ser o hospedeiro do Nove Caudas, Naruto foi isolado pela maioria dos moradores de sua vila durante sua infância por estar associado com ele e por isso foi considerado tabu.\n[…]\nEscrevendo para o Popular Culture in Counseling, Psychotherapy, e Play-Based Interventions, Lawrence Rubin afirmou que enquanto Naruto tem uma personalidade otimista e hiperativa, a Raposa de Nove Caudas dentro de seu corpo simboliza as emoções negativas. Rubin concluiu que as lutas de Naruto para proteger a vila ajudá-lo a tornar-se uma \"pessoa completa e madura\". Ele comenta que Naruto tem uma atitude malévola ao lidar com intensos conflitos e emoções.\n[…]\nMedia relacionados com Naruto Uzumaki no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Kenshin Himura",
+      "descricao": "Ex-assassino andarilho, protagonista de Rurouni Kenshin, exibido no Brasil como Samurai X."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Samurai X, por que Kenshin luta com uma espada de lâmina invertida, que não corta o inimigo?",
+    "resposta": "Jurou nunca mais matar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kenshin_Himura"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kenshin_Himura",
+        "situacao": "ok",
+        "texto": "Himura Kenshin (緋村 剣心) is a fictional character and the titular protagonist of the manga Rurouni Kenshin created by Nobuhiro Watsuki. Kenshin's story is set in a fictional version of Japan during the Meiji period. Kenshin is a former legendary assassin known as \"Hitokiri Battōsai\" (人斬り抜刀斎), more properly named Himura Battōsai (緋村抜刀斎).\n[…]\nKenshin has been highly popular with the Rurouni Kenshin reader base, having ranked first in every Weekly Shōnen Jump popularity poll of the series, always with more than double the votes of the second place character. Two polls by the official Rurouni Kenshin anime featured Kenshin as one of the series' most popular characters. In the first, Kenshin was at the top, while in the second, he placed second. His Battōsai incarnation was also fifth in the latter poll.\n[…]\nFor Sony's OVAs of the franchise, there have also been multiple response. Matthew Anderson from DVD Vision Japan found the series' title \"Samurai X\" unfitting for Kenshin as the reviewer regarded the character as a hired killer rather than as a samurai as seen across the prequel OVAs.\n[…]\nZulueta from The Enquirer also enjoyed the fight between Kenshin and Shishio, the actors, as well as how the character of Kenshin has helped popularized the term of samurai in western culture. David West from Neo criticized Kenshin's long training with his teacher but still found that in the film, Kenshin's vow of not killing anybody remains true. Satoh's action sequences from The Final and his rivalry with Enishi were also the subject of praise.\n[…]\nIn doing so, Rurouni Kenshin laid\" more than twenty years ago the foundation of a fresh paradigm of humanity based on tenderness and mutual acceptance as a counter-movement to the individualism, competition and efficiency that characterize the project of modernity\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kenshin_Himura",
+        "situacao": "ok",
+        "texto": "Kenshin Himura (緋村 剣心, Himura Kenshin) é um personagem fictício e o protagonista do manga Rurouni Kenshin criado por Nobuhiro Watsuki. Ao criar Kenshin, Watsuki desenhou-o para ser o oposto físico de Hiko Seijūrō, um personagem que aparece na primeira manga ‘one-shot’ de Watsuki, \"Crescent Moon in the Warring States\"; um outro com o mesmo nome aparece em Rurouni Kenshin como o professor de espada \n[…]\nNo fim do Bakumatsu, torna-se um samurai errante (rōnin (浪人)), empunhando uma sakabatō (逆刃刀; lit. \"espada de lâmina invertida\"), uma katana que tem o gume na parte interior da curva da espada, e assim quase incapaz de matar. Kenshin viaja pelo Japão oferecendo protecção e ajuda aos que precisam, como expiação pelos assassinatos que cometeu quando era um assassino. Em Tóquio, conhece uma jovem chamada Kamiya Kaoru, que o convida para viver no seu dojo, apesar de conhecer o passado de Kenshin.\n[…]\nKenshin apareceu pela primeira vez nos dois primeiros episódios de Rurouni, Meiji Swordsman Romantic Story, os capítulos piloto da manga, em que ele chega a Tóquio e derrota vários grupos de vilões que estão a atacar famílias. Nestas histórias, é lhe dada uma personalidade mais similar com a da série, mas o seu nome nunca é mencionado.\n[…]\nKenshin é interpretado por Takeru Satō no filme de 2012 Rurouni Kenshin. O filme começa quando Kenshin e Saito estão em lados opostos na Batalha de Toba-Fushimi. Saito persegue o seu rival, mas a batalha já estava perdida antes deste o encontrar. Kenshin abandona aquela vida, tornando-se um rurouni e fazendo o voto de nunca mais voltar a matar. Dez anos depois, chega a Tóquio, onde conhece Kamiya Kaoru.\n[…]\nNo entanto, alguns analistas fazem notar que a sua personalidade nas OVAs é uma das mais complexas algumas vez feitas na animação sublinhando o facto dele nunca se consegue esquecer do seu passado sangrento, isto apesar de ter uma vida pacifica.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Túmulo dos Vagalumes",
+      "descricao": "Filme de animação de 1988 do Studio Ghibli sobre dois irmãos órfãos no fim da Segunda Guerra Mundial."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem dirigiu Túmulo dos Vagalumes, drama do Studio Ghibli lançado em 1988?",
+    "resposta": "Isao Takahata",
+    "distratores": [
+      "Hayao Miyazaki",
+      "Katsuhiro Otomo",
+      "Mamoru Oshii"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grave_of_the_Fireflies"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Grave_of_the_Fireflies",
+        "situacao": "ok",
+        "texto": "Grave of the Fireflies is a 1988 Japanese animated war film written and directed by Isao Takahata. It stars the voices of Tsutomu Tatsumi, Ayano Shiraishi, Yoshiko Shinohara, and Akemi Yamaguchi. Based on Akiyuki Nosaka's 1967 semi-autobiographical short story of the same name, the film is set in Kobe shortly after its bombing by the U.S. Army Air Forces, and follows two orphaned siblings who desp\n[…]\nGrave of the Fireflies was Takahata's first animated film produced with Studio Ghibli.\n[…]\nThe soundtrack album titled Grave of the Fireflies Soundtrack Collection (火垂るの墓 サウンドトラック集, Hotaru no Haka Saundotorakku Shū) was first released on 5 April 1997 by Studio Ghibli Records and Tokuma Japan Communications, and later re-released on 25 June 1998 by Animage.\n[…]\nAnother soundtrack album titled Grave of the Fireflies Image Album Collection (火垂るの墓 イメージ・アルバム集, Hotaru no Haka Imeji Arubamu Shū) was first released on 5 April 1997 Studio Ghibli Records and Tokuma Japan Communications, and later re-released on 25 November 1997 by Animage.\n[…]\nThe film was intended as an indictment of Japanese imperialist sentiment, which is briefly touched upon in Grave of the Fireflies. Although Takahata finished a full outline (which is republished in his book Thoughts While Making Movies), the film was canceled before production could start due to the 1989 Tiananmen Square protests and massacre. Public opinion in Japan had turned against China, and Ghibli's distributor felt a film partly set there was too risky.\n[…]\nLiang, Jiajun (2026). \"The Ghostly Postwar: Memory and Temporality in Takahata Isao's Grave of the Fireflies\". Mechademia: Second Arc. 18 (2): 165–184 – via Project MUSE.\n[…]\nUe, Tom (December 2022). \"From fireflies to lit windows and from lit windows to fireflies: Alex Dudok de Wit on Isao Takahata's Grave of the Fireflies\". Book 2.0. 12 (2): 199–206. doi:10.1386/btwo_00072_7.\n[…]\nGrave of the Fireflies at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hotaru_no_Haka",
+        "situacao": "ok",
+        "texto": "Hotaru no Haka (火垂るの墓 ; Brasil: Túmulo dos Vagalumes ou O Túmulo dos Vagalumes / Portugal: O Túmulo dos Pirilampos) é um filme japonês de animação e drama, lançado em 1988. Dirigido por Isao Takahata e produzido pelo Studio Ghibli, o seu roteiro é baseado no romance semi-autobiográfico de Akiyuki Nosaka. Hotaru no Haka é situada na cidade de Cobe, no Japão, e conta a dura história de dois irmãos (\n[…]\nIsao Takahata viu-se obrigado a fazer o filme depois de ver como o personagem principal, Seita, era o único [na obra] do nono grau em tempo de guerra. Takahata explicou que qualquer história de guerra (animada ou não) tende a ser comovente e que os jovens desenvolvem um \"complexo de inferioridade\", onde percebem que as pessoas em épocas de conflitos bélicos eram nobres e mais maduras, e, o público acredita que a história não tem nada a ver com eles, e o diretor queria dissipar essa mentalidade.\n[…]\nEm seu lançamento nos cinemas, em 16 de abril de 1988, Hotaru no Haka foi lançando junto a Tonari no Totoro, de Hayao Miyazaki. Tanto Isao Takahata como Miyazaki, ambos fundadores do Studio Ghibli, queriam mostrar \"os dois lados da questão que tratavam\".\n[…]\nJames Berardinelli, do Reelviews, premiou Hotaru no Haka com 4 estrelas, afirmando que \"embora uma criança possa ser afetada no filme, leva um certo tempo para absorver completamente o que o diretor Isao Takahata quis dizer\". Além de ser descrito por sua ótima narrativa, Takahata foi elogiado por não romantizar o sofrimento dos personagens. Também foi descrito como um filme para não ser assistido com a família.\n[…]\n«\"Túmulo dos Vagalumes\" (Hotaru no Haka, 1988), de Isao Takahata: objetos de memória que se atualizam – esquecimentos que lampejam» (PDF)  — texto dissertativo por Rafael Colombo Martineli, da Universidade Federal de Uberlândia.\n[…]\n«Ficha técnica de Hotaru no Haka no site oficial do Studio Ghibli» (em japonês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "O Castelo de Cagliostro",
+      "descricao": "Filme de animação de 1979 estrelado pelo ladrão Lupin III."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1979, qual futuro cofundador do Studio Ghibli estreou como diretor de longas com O Castelo de Cagliostro?",
+    "resposta": "Hayao Miyazaki",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Castle_of_Cagliostro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Castle_of_Cagliostro",
+        "situacao": "ok",
+        "texto": "Lupin III: The Castle of Cagliostro (Japanese: ルパン三世 カリオストロの城, Hepburn: Rupan Sansei: Kariosutoro no Shiro) is a 1979 Japanese animated action adventure comedy film directed and co-written by Hayao Miyazaki. It is the second animated feature film based on the 1967–69 manga series Lupin III by Monkey Punch.\n[…]\nThe manga's popularity led to two anime series, titled Lupin III and Lupin III Part II. The first film, The Mystery of Mamo, was released on 16 December 1978. The Castle of Cagliostro released a year later following the financial success of that film. This is marked as the first feature-length film to be directed by Hayao Miyazaki, who had previously co-directed episodes of the first Lupin anime series with Isao Takahata.\n[…]\nCastle of Cagliostro marked Miyazaki's debut as a theatrical movie director, but he also was a writer, a designer, and a storyboardist on the movie.\n[…]\nThe remaster was released both individually and as part of The Collected Works of Hayao Miyazaki, a box set containing all of Miyazaki's movies. Both these newer releases were released by Studio Ghibli in conjunction with Disney. StudioCanal released a Blu-ray and DVD bundle of the film on 12 November 2012 in the UK. The StudioCanal release is of superior quality with its new high definition transfer, but the credits for the film are absent.\n[…]\nWalt Disney Studios Home Entertainment would later release The Castle of Cagliostro in The Collected Works of Hayao Miyazaki, which released on November 17th, 2015. This release only features the Streamline dub and the Japanese audio with English subtitles; none of the extras from Discotek's releases are included.\n[…]\nMonkey Punch, creator of Lupin III, called Castle of Cagliostro an \"excellent\" film, but agreed Miyazaki's vision of Lupin differs from his own.\n[…]\nAlessandro Cagliostro"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Castelo_de_Cagliostro",
+        "situacao": "ok",
+        "texto": "Rupan Sansei: Kariosutoro no Shiro (ルパン三世 カリオストロの城;; Brasil: Lupin III: O Castelo de Cagliostro ou simplesmente O Castelo de Cagliostro; Portugal: Lupin the 3rd: The Castle of Cagliostro ou Lupin III - O Castelo de Cagliostro) é um filme de animação japonês de 1979 dirigido e co-roteirizado por Hayao Miyazaki. É o segundo longa-metragem que conta com o ladrão principal de Monkey Punch, Arsène Lupi\n[…]\nO filme foi a primeira vez que Miyazaki dirigiu um filme para os cinemas depois de ter trabalhado anteriormente como animador para a Toei Animation e Telecom Animation Film e dirigido várias séries, incluindo Lupin III e dois episódios de Lupin III Parte II.\n[…]\nO filme segue o ladrão cavalheiro Arsène Lupin III, que rouba um cassino com sucesso - apenas para descobrir que o dinheiro é falsificado. Ele se dirige para o pequeno país de Cagliostro, a fonte de rumores das contas, e tenta salvar a fugitiva Clarisse dos homens do Conde Cagliostro. Lupin recruta seus associados, Jigen e Goemon, e envia seu cartão de visitas ao conde para levar o inspetor Zenigata, seu inimigo de longa data, ao castelo.\n[…]\nO lançamento teatral original no Japão ocorreu em 15 de dezembro de 1979. Já a estreia nos cinemas brasileiros foi em 11 de setembro de 1981. Apesar de inicialmente ter desempenho ruim nas bilheterias, O Castelo de Cagliostro ganhou muitos elogios, com críticos e historiadores observando a influência do filme nos trabalhos posteriores de Miyazaki, e desde então se tornou o mais popular e bem visto em toda a franquia Lupin III.\n[…]\nApenas quando Lupin começou sua carreira como ladrão profissional, ele quase foi assassinado enquanto procurava pela origem das falsificações. Decida que é hora de retomar a busca no ducado de Cagliostro.\n[…]\nTaro Ishida como Conde de Cagliostro\n[…]\nO Castelo de Cagliostro no IMDb\n[…]\nO Castelo de Cagliostro (anime) na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Sakura Card Captors",
+      "descricao": "Mangá e anime sobre a menina Sakura, que precisa recuperar cartas mágicas."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Sakura Card Captors foi criado por qual grupo de mangakás formado só por mulheres?",
+    "resposta": "CLAMP",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cardcaptor_Sakura",
+      "https://en.wikipedia.org/wiki/Clamp_(manga_artists)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cardcaptor_Sakura",
+        "situacao": "ok",
+        "texto": "Cardcaptor Sakura (Japanese: カードキャプターさくら, Hepburn: Kādokyaputā Sakura), abbreviated as CCS, is a Japanese manga series written and illustrated by the manga group Clamp. Serialized monthly in the shōjo manga magazine Nakayoshi from the June 1996 to August 2000 issues, it was also published in 12 tankōbon volumes by Kodansha between November 1996 and July 2000.\n[…]\nThe story centers on Sakura Kinomoto, an elementary school student who discovers magical powers after accidentally freeing a set of magical cards into the world; she must retrieve the cards to prevent catastrophe. Each of these cards grants different magical powers, and can only be activated by someone with inherent magical abilities. A sequel by Clamp, Cardcaptor Sakura: Clear Card, focusing on Sakura in junior high school, was serialized in Nakayoshi from the July 2016 to January 2024 issues.\n[…]\nIn addition to the regular 50 chapters of the manga series, Clamp also wrote and drew two special chapters that were released in Japan as part of two volumes of a collection of artbooks titled Cardcaptor Sakura: Illustrated Collection. The first special chapter, which was published in the first volume, focuses on Toya and Sakura's relationship, with Toya caring for her while she has a cold.\n[…]\nAs a preview to the anime series, Kodansha released a tankōbon-sized CD volume titled CD Comic Cardcaptor Sakura in August 1997 containing two character songs sung by the voice actors of Sakura and Tomoyo and drama tracks. Two drama CDs were released for the series. The first, Sakura to Okaa-san no Organ, was released in July 1998 featuring a script written by Clamp author Nanase Ohkawa.\n[…]\nThompson, Jason (March 31, 2011). \"Card Captor Sakura\". House of 1000 Manga. Anime News Network. Retrieved April 1, 2011.\n[…]\nCardcaptor Sakura (manga) at Anime News Network's encyclopedia\n[…]\nCardcaptor Sakura at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Clamp_(manga_artists)",
+        "situacao": "ok",
+        "texto": "Clamp (stylized in all caps) is an all-female Japanese manga artist group, consisting of leader and writer Nanase Ohkawa (born in Osaka), and three artists whose roles shift for each series: Mokona, Tsubaki Nekoi, and Satsuki Igarashi (all born in Kyoto).\n[…]\nNotable works by Clamp include X (1992), Magic Knight Rayearth (1993), Cardcaptor Sakura (1996) and its sequel Cardcaptor Sakura: Clear Card (2016), Chobits (2000), and xxxHolic and Tsubasa: Reservoir Chronicle (both 2003). Various series by the group cross-reference each other, and characters reappear in multiple works by the group. Clamp are noted as among the most critically and commercially acclaimed manga artists in Japan, and as of 2007, have sold nearly 100 million books worldwide.\n[…]\nCardcaptor Sakura: Clear Card began serialization in 2016 with an anime that aired from January to June 2018 on NHK.\n[…]\nClamp also explores the idea of chaste or pure love (as in the manga Chobits). Clamp's disregard for sex or gender (or at times biological age) in these couples has led them to write same-sex couples into many of their manga in contrast to many other manga artists (for example, Tōya and Yukito in Cardcaptor Sakura). A number of such couples have been shown together across parallel dimensions in the Clamp multiverse.\n[…]\nHe also praised the group's artwork and storytelling style as having \"struck a strong chord with male and female manga readers\". The group was placed third after the winner for the Shogakukan Manga Award in the Children's category in 1999. Their work Cardcaptor Sakura won the Seiun Award for best manga in 2001. Almost 100 million Clamp tankōbon copies have been sold worldwide as of October 2007.\n[…]\nClamp  at Anime News Network's encyclopedia\n[…]\nClamp at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cardcaptor_Sakura",
+        "situacao": "ok",
+        "texto": "Cardcaptor Sakura (カードキャプターさくら, Kādokyaputā Sakura; lit. Caça-cartas Sakura), abreviado como CCS, conhecido no Brasil como Card Captor Sakura e em Portugal como Sakura, a Caçadora de Cartas ou apenas Sakura, é uma série de mangá do gênero mahō shōjo criada pelo grupo CLAMP e publicada na revista Nakayoshi, com 12 volumes, de 1996 a 2000. Foi adaptado a uma série de anime pelo estúdio Madhouse, som\n[…]\nEm 2016, a série de mangá comemorou 20 anos e para a surpresa de todos, o grupo CLAMP lançou uma continuação de Cardcaptor Sakura, chamado de \"Clear Card Hen\", lançando capítulos na revista Nakayoshi. A série ganhou anime em janeiro de 2018, com a primeira temporada adaptando os primeiros volumes do mangá.\n[…]\nClear Cards: São cartas totalmente novas vindas do desconhecido, que aparencem apos o sumiço das cartas Sakura, na nova série de manga e anime Cardcaptor Sakura: Clear Card-hen, elas têm uma certa semelhança com as cartas anteriores, mas diferente das outras, elas não possuem dono e nem livro-guardião. Sakura as captura com o báculo dos sonhos, o novo báculo no qual Sakura recebe por um sonho.\n[…]\nSyaoran Li  (リ・シャオラン, Ri Shaoran; do chinês 李 小狼 Lǐ Xiǎoláng) - Um cardcaptor rival de Sakura, e descendente do criador das cartas, Clow Reed. Syaoran veio de Hong Kong em busca das Cartas Clow, mas deparou-se com Sakura, que já havia capturado algumas delas. Ele passa a estudar na mesma escola de Sakura e Tomoyo e a ajudá-las na captura das cartas. No decorrer da história, Syaoran se apaixona por Sakura pouco a pouco até acabar se declarando.\n[…]\n''Gekijōban Cardcaptor Sakura - Fūin Sareta Card'' foi lançado em 15 de julho de 2000 no Japão. No Brasil, ele foi vendido na edição 1 da revista Heróis da TV Especial e exibido no Cartoon Network e Rede Globo. No Brasil, ele recebeu o nome de Sakura Card Captors - A Carta Selada.\n[…]\nProjeto Sakura, Página com bastante conteúdo sobre a série",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Your Name",
+      "descricao": "Filme de animação japonês de 2016 sobre dois jovens que trocam de corpo."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem escreveu e dirigiu o filme Your Name, sucesso de 2016 no Japão?",
+    "resposta": "Makoto Shinkai",
+    "distratores": [
+      "Mamoru Hosoda",
+      "Satoshi Kon",
+      "Hayao Miyazaki"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Your_Name"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Your_Name",
+        "situacao": "ok",
+        "texto": "Your Name (Japanese: 君の名は。, Hepburn: Kimi no Na wa; lit. 'Your Name is...') is a 2016 Japanese animated romantic fantasy film written and directed by Makoto Shinkai, produced by CoMix Wave Films, and distributed by Toho.\n[…]\nThe film was also screened in Southeast Asian countries. Purple Plan streamed an English- and Chinese-subtitled trailer for the film, premièring the film in Singapore on November 3 and in Malaysia on November 8, with daily screenings onwards. In India, PVR Cinemas released Your Name as the opening film of the \"Makoto Shinkai Film Festival\" on May 19, 2023. M Pictures released the film on November 10 in Thailand, earning ฿22,996,714 (approximately US$649,056) in four days.\n[…]\nYour Name was met with widespread critical acclaim. From 120 reviews, Rotten Tomatoes reported that 98% of critics gave the film positive reviews, with an average rating of 8.2/10. The site's critical consensus reads, \"As beautifully animated as it is emotionally satisfying, Your Name adds another outstanding chapter to writer-director Makoto Shinkai's filmography.\" On Metacritic, the film has a score of 81 out of 100 based on 26 critics, indicating \"universal acclaim.\"\n[…]\nThe film was adapted as a light novel by Makoto Shinkai himself. It was published in Japan by Kadokawa on June 18, 2016, a month prior to the film's première, and is 262 pages long.\n[…]\nA followup was released on August 1, 2016, under the title Your Name. Another Side: Earthbound. It is set during the events of Your Name through the perspective of Mitsuha's friends and family. The light novel was written by Shinkai and Arata Kanoh, illustrated by Masayoshi Tanaka and Hiyori Asakawa.\n[…]\nYour Name. (film) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kimi_no_Na_wa",
+        "situacao": "ok",
+        "texto": "Kimi no Na wa (君の名は。; lit. \"Teu Nome\"), lançado no Ocidente como Your Name, é um filme de animação japonês de fantasia romântica de 2016, escrito e dirigido por Makoto Shinkai, produzido pelo CoMix Wave Films e distribuído pela Toho.\n[…]\nO primeiro filme daquela que os críticos consideram a \"trilogia do desastre\" de Shinkai, cujos três volumes compartilham temas inspirados pela frequência de desastres naturais no Japão, retrata a história dos estudantes do ensino médio Taki Tachibana e Mitsuha Miyamizu, que repentinamente começam a trocar de corpos apesar de nunca terem se conhecido, desencadeando o caos na vida um do outro.\n[…]\nYojiro Noda, o vocalista líder da banda Radwimps, compôs a música tema de Your Name. O diretor Shinkai pediu a ele para compor a música \"de uma maneira que a música (complementa) o diálogo ou monólogo dos personagens\". Your Name contém as seguintes canções realizada pela banda Radwimps:\n[…]\nUma adaptação em livro escrito por Makoto Shinkai foi lançado no Japão pela editora Kadokawa no dia 18 de junho de 2016, um mês antes da estreia do filme. A partir de setembro de 2016, o livro vendeu mais de 1,029,000 cópias. Um guia visual oficial foi também lançado. O livro vendeu mais 1.3 milhões de cópias, enquanto que o livro e o guia visual vendeu mais de 2.5 milhões de cópias combinadas.\n[…]\nUma versão em mangá também foi escrita por Makoto Shinkai e ilustrado por Ranmaru Kotone. O mangá foi licenciado pela editora JBC para o lançamento no Brasil com o primeiro volume lançado em 17 de agosto de 2017.\n[…]\nKimi no Na wa. (filme) na enciclopédia do Anime News Network (em inglês)\n[…]\nKimi no Na wa. no IMDb\n[…]\nYour Name. https://www.themoviedb.org/movie/372058\n[…]\nYour Name. https://thetvdb.com/movies/your-name",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Doraemon",
+      "descricao": "Gato-robô vindo do futuro, protagonista do mangá e anime de Fujiko F. Fujio."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O gato-robô Doraemon viaja no tempo para ajudar o menino Nobita. De que século ele vem?",
+    "resposta": "Século vinte e dois",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Doraemon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Doraemon",
+        "situacao": "ok",
+        "texto": "Doraemon (ドラえもん) is a Japanese manga series written and illustrated by Fujiko F. Fujio. First serialized in 1969, the manga's chapters were collected in 45 tankōbon volumes published by Shogakukan from 1974 to 1996. The story revolves around an earless robotic cat named Doraemon, who travels back in time from the 22nd century to assist a boy named Nobita Nobi in his day-to-day life.\n[…]\n[Doraemon] is a comprehensively educational book series which has the effect of developing children's personality\". Doraemon is now a cultural icon in Vietnam, having been featured at many cultural events.\n[…]\nSome critics considered that Nobita's flawed personality and modest background is different from the special or extraordinary characteristics usually seen in other typical anime and manga protagonists; this portrayal has been seen as reasons of its appeal as well as the contrary, especially in the United States.\n[…]\nIn his 2000 article, Leo Ching explained that the success of Doraemon in Asia was due to reflecting Asian values such as imagination and responsibility, the same reason that Oshin, another Japanese cultural export, became well known there. On the other hand, according to an analysis by Anne Allison, professor of cultural anthropology at Duke University, the strong point of it was not the variety of the gadgets, but the relationship between Doraemon and Nobita, which was particularly appreciated.\n[…]\nMany prominent figures have been nicknamed after the cast of Doraemon: politician Osamu Fujimura is known as the \"Doraemon of Nagatacho\" due to his figure and warm personality, and sumo wrestler Takamisugi was nicknamed \"Doraemon\" because of his resemblance to the character. In 2015, a group of people in a drought-affected village in northern Thailand used a Doraemon toy to complete a rain-ritual, in order to avoid controversies that would occur by using real animals."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Doraemon",
+        "situacao": "ok",
+        "texto": "Doraemon (ドラえもん) (conhecido no Brasil como Doraemon: O Super Gato na versão de 1979, Doraemon: O Gato do Futuro na versão de 2005 e em Portugal como Doraemon: O Gato Cósmico)  é um mangá criado por Fujiko F. Fujio que, mais tarde, foi transformado em um  anime de sucesso. A série é sobre um gato robótico chamado Doraemon que voltou dois séculos no passado para ajudar um estudante desastrado: Nobit\n[…]\nGraças ao sucesso obtido, a publicação da HQ foi prolongada e estendida por cerca de vinte e sete anos.\n[…]\nEm todo o caso, Shogakukan, a editora da obra, interveio divulgando um epílogo oficial em que Nobita se casa com Shizuka e permanece amigo para sempre de Doraemon que, tendo cumprido a sua missão, regressa ao futuro.\n[…]\nEm 2009, o Canal Panda, com os primeiros 4 episódios emitidos, e depois Panda Biggs estreou o anime de 2005 na dobragem em castelhano com legendas em português, e pouco mais tarde, emitiu o anime de 1979 com a mesma dobragem e legendagem. Os filmes de Doraemon também chegaram a Portugal através de DVDs distribuídos pela LUK Internacional, dois dos filmes estrearam no Canal Panda e outros demais no Cartoon Network.\n[…]\nOcasionalmente, os filmes acabaram por ser exibidos no Canal Panda nos anos 2000, e com dobragem portuguesa, na mesma época em que o canal ainda passava os episódios na versão espanhola. A versão portuguesa dos filmes \"Doraemon e o Expresso do Tempo\" e \"Doraemon e os Piratas dos Mares do Sul\" era da RTP, sendo dois dos poucos que também passaram no Canal Panda, anos antes do Cartoon Network Portugal começar as suas emissões.\n[…]\nEm 2013, a Toyota transmitiu vinte comerciais de ação ao vivo com foco na vida adulta dos protagonistas da obra. Os personagens de Doraemon e Nobita foram interpretados respectivamente pelo ator francês Jean Reno e por Satoshi Tsumabuki ; Shizuka, Gian e Suneo foram interpretados por Asami Mizukawa, Naoya Ogawa e Tomohisa Yamashita.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Astro Boy",
+      "descricao": "Menino robô criado por Osamu Tezuka, protagonista do mangá Tetsuwan Atom."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No mangá de Osamu Tezuka, lançado nos anos cinquenta, em que ano futuro o robô Astro Boy é criado?",
+    "resposta": "2003",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Astro_Boy_(character)",
+      "https://en.wikipedia.org/wiki/Astro_Boy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Astro_Boy_(character)",
+        "situacao": "ok",
+        "texto": "Astro Boy, known in Japan as Atom (Japanese: アトム, Hepburn: Atomu), is a fictional superhero, cartoon character, and main protagonist of the eponymous manga series and franchise. Created by Osamu Tezuka, the character was introduced in the 1951 Captain Atom manga and then in his own manga series. He since has appeared in animated television shows, an animated feature film adaptation, a live-action \n[…]\nOsamu Tezuka created Astro to be, in the words of Frederik L. Schodt (creator of the English-language version of the Astro Boy manga), a \"21st-century reverse-Pinocchio, a nearly perfect robot who strove to become more human and emotive and to serve as an interface between man and machine.\" As Tezuka's art style advanced, Astro \"became more modern and 'cute'\" to appeal to the audience of boys in elementary school.\n[…]\nAstro Boy re-appears as the protagonist in the 2003 series; a robot with the ability to think and reason. During Astro's creation, Tenma lost the trust of his fellow scientists, who believed that he had gone insane after being overcome with grief for his dead son. Tenma, who was indeed displaying signs of insanity at that point, finished his project and named the robot after his son. Astro is led into a basement full of broken robots and asks for Tenma to fix them.\n[…]\nAs part of the Osamu Tezuka's Star System, Astro has appeared in several of the artist's works (although he is not always identified as \"Astro Boy\").\n[…]\n\"Astro Boy\" in Captain Atom – 1951\n[…]\n\"Astro Boy\" in Osamu Tezuka on American Comics – 1979\n[…]\n\"Astro Boy\" in Atom Cat – 1986\n[…]\n\"Atom\" in Pluto, a remake of the story arc, \"The Greatest Robot on Earth\" (地上最大のロボット, Chijō Saidai no Robotto) by Naoki Urasawa – 2003\n[…]\nKatsuhiro Otomo chose ATOM as the name of the main computer in his manga Fireball as an homage to Tezuka and the character.\n[…]\nList of Osamu Tezuka anime\n[…]\nList of Osamu Tezuka manga\n[…]\nOsamu Tezuka's Star System"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Astro_Boy",
+        "situacao": "ok",
+        "texto": "Astro Boy, known in Japan as Mighty Atom (Japanese: 鉄腕アトム, Hepburn: Tetsuwan Atomu; lit. 'Iron-Armed Atom'), is a Japanese manga series written and illustrated by Osamu Tezuka. It was serialized in Kobunsha's Shōnen from 1952 to 1968, with its 112 chapters collected in 23 tankōbon volumes by Akita Shoten. Dark Horse Comics published an English translation in 2002.\n[…]\nAfter enjoying success abroad, Astro Boy was remade in the 1980s as New Mighty Atom, known as Astroboy in other countries, and again in 2003. In November 2007, the titular character was named Japan's envoy for overseas safety.\n[…]\nMighty Atom / Astro Boy\n[…]\nFrom 2003 to 2009, Naoki Urasawa wrote the series Pluto, with help from Takashi Nagasaki. It adapts Astro Boy's \"The Greatest Robot on Earth\" (地上最大のロボット, Chijō Saidai no Robotto) arc (which Urasawa says \"has been enshrined as a centerpiece in the literature of our generation\") into a murder mystery. In a 2004 manga of Tetsuwan Atom written by Akira Himekawa, the plot, as well as the character designs, loosely followed that of the 2003 anime series.\n[…]\nA third series of fifty episodes was produced by Tezuka Productions, Sony Pictures Entertainment Japan, Dentsu, and Fuji Television network. It was created to celebrate the birth date of Astro Boy, and was first broadcast in Japan on the same date as Astro's day of birth in the manga (April 7, 2003) across Animax and Fuji Television. It was directed by Kazuya Konaka and written by Chiaki J.\n[…]\nOn April 7, 2003, one day after the premiere of the 2003 anime in Japan, the city of Niiza, Saitama registered the Astro Boy character as a resident to coincide with his birthdate in the manga. That same day, the JR Yamanote Line platform at JR Takadanobaba Station started using the theme music from the TV series to signal the departure of a train.\n[…]\nList of Osamu Tezuka manga\n[…]\nAstro Boy at TezukaOsamu.Net"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Akira",
+      "descricao": "Filme de animação japonês de 1988, dirigido por Katsuhiro Otomo a partir de seu próprio mangá."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O filme Akira, de 1988, mostra uma Neo-Tóquio preparando-se para sediar Olimpíadas em qual ano?",
+    "resposta": "2020",
+    "distratores": [
+      "2008",
+      "2016",
+      "2024"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Akira_(1988_film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Akira_(1988_film)",
+        "situacao": "ok",
+        "texto": "Akira (Japanese: アキラ, pronounced [aꜜkiɾa]) is a 1988 Japanese animated cyberpunk action thriller film directed by Katsuhiro Otomo, produced by Ryōhei Suzuki and Shunzō Katō, and written by Otomo and Izo Hashimoto, based on Otomo's 1982 manga Akira.\n[…]\nAkira was released by Toho on July 16, 1988. At the Japanese box office, it was the sixth highest-grossing Japanese film of the year, earning a distribution income (distributor rentals) of ¥750 million in 1988. It topped the box office at the onset, making it a success in the Japanese market. By 2000, the film had earned a Japanese distribution rental income of ¥800 million. The film's 4K remaster received a limited Japanese IMAX re-release in May 2020.\n[…]\nOn April 24, 2020, an Ultra HD Blu-ray version was released in Japan by Bandai Namco Entertainment, featuring a 4K HDR remaster sourced from the original 35 mm film print, as well as the 192 kHz audio transfer created for prior Blu-ray releases. The same remaster was released by FUNimation on December 22, 2020.\n[…]\nWhen Tokyo was chosen to host the 2020 Summer Olympics in the 2013 bidding process, several commentators claimed that Akira predicted the future event. In 2017, Akira was referred to in several Tokyo Olympic promotions. In February 2020, during the COVID-19 pandemic and 147 days before the Olympics, a scene in Akira which calls for the cancellation of the 2020 Olympics and graffiti stating Just Cancel It!\n[…]\n(147 days before the event) led to a social media trend calling for the cancellation of the 2020 Olympics, where it topped trending Twitter topics in Japan. The Summer Olympics were eventually postponed to 2021 due to the pandemic.\n[…]\nAkira at IMDb\n[…]\nAkira (film) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Akira_%28filme%29",
+        "situacao": "ok",
+        "texto": "Akira (アキラ) é um filme cyberpunk animado japonês de 1988 baseado no mangá de mesmo nome de 1982 escrito por Katsuhiro Ôtomo, que também foi diretor do filme e roteirista, junto com Izo Hashimoto, produzido por Ryōhei Suzuki e Shunzō Katō. Foi a primeira animação japonesa a ser exibida em cinemas brasileiros como um filme mainstream.\n[…]\nEm uma instalação secreta do governo, Shikishima e o chefe de pesquisa, doutor Onishi, descobrem que Tetsuo possui poderosas habilidades psíquicas semelhantes a Akira, o esper responsável pela destruição de Tóquio em 1988. A esper Kiyoko informa a Shikishima sobre a destruição iminente de Neo-Tóquio, mas o parlamento da cidade descarta as preocupações de Shikishima, levando a considerar matar Tetsuo a fim de evitar outro cataclismo.\n[…]\nKiyoko diz a Tetsuo que Akira, localizado em um armazenamento criogênico sob o canteiro de obras do Estádio Olímpico, poderia ajudar Tetsuo com seus poderes. Depois de rejeitar todos ao seu redor, especialmente Kaneda, Tetsuo foge do hospital para caçar Akira.\n[…]\nConfundido com Akira por cultistas, Tetsuo ataca Neo-Tóquio, trazendo a superfície o armazenamento criogênico de Akira sob o estádio. Kei luta com Tetsuo, mas ele a derrota e exuma Akira, encontrando seus restos mortais selados em potes para pesquisa científica.\n[…]\nNa singularidade, Kaneda obersva a infância de Tetsuo e dos espers, incluindo a amizade dele e de Tetsuo e o treinamento psíquico dos espers antes da destruição de Tóquio. Os espers devolvem Kaneda a Neo-Tóquio, informando que Akira levará Tetsuo para um lugar seguro e que Kei está desenvolvendo poderes psíquicos. Doutor Onishi testemunha o nascimento de um universo, mas é morto na destruição de seu laboratório.\n[…]\nAkira no IMDb\n[…]\nAkira no AllMovie (em inglês)\n[…]\nAkira (em inglês) no Rotten Tomatoes\n[…]\nAkira (em inglês) no Box Office Mojo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Rurouni Kenshin",
+      "descricao": "Mangá e anime de Nobuhiro Watsuki, exibido no Brasil como Samurai X."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Samurai X se passa no início de qual era da história japonesa, quando os samurais perdiam seu lugar?",
+    "resposta": "Era Meiji",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rurouni_Kenshin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rurouni_Kenshin",
+        "situacao": "ok",
+        "texto": "Rurouni Kenshin: Meiji Swordsman Romantic Story (Japanese: るろうに剣心 -明治剣客浪漫譚-, Hepburn: Rurōni Kenshin -Meiji Kenkaku Roman Tan-) is a Japanese manga series written and illustrated by Nobuhiro Watsuki. The story begins in 1878, the 11th year of the Meiji era in Japan, and follows a former assassin of the Bakumatsu, known as Hitokiri Battosai. After his work against the bakufu, he becomes Himura Kens\n[…]\nThere have been five Rurouni Kenshin video games released for the PlayStation series of consoles. The first, Rurouni Kenshin: Meiji Kenkaku Romantan: Ishin Gekitōhen (るろうに剣心 -明治剣客浪漫譚- 維新激闘編), was released on November 29, 1996. It was developed by ZOOM Inc. and published by Sony Computer Entertainment. The game is a 3D fighting game with nine playable characters, with the plot being based on the first seven volumes of the manga.\n[…]\nThe second one, Rurouni Kenshin: Meiji Kenkaku Romantan: Jūyūshi Inbō Hen (るろうに剣心 -明治剣客浪漫譚- 十勇士陰謀編 – The Ten Warrior Conspiracy), was released on December 18, 1997, and was re-released in the PlayStation The Best lineup on November 5, 1998. The game is a role-playing video game with an original story unrelated to either the manga or anime.\n[…]\nRurouni Kenshin: Meiji Kenkaku Romantan: Enjō! Kyōto Rinne (るろうに剣心 -明治剣客浪漫譚- 炎上!京都輪廻) is the only video game for the PlayStation 2 console. Its Japanese release was slated for September 13, 2006. The game has sold over 130,000 copies in Japan. The game was developed by Eighting and published by Banpresto. A 2D fighting game titled Rurouni Kenshin: Meiji Kenkaku Romantan: Saisen (るろうに剣心 -明治剣客浪漫譚- 再閃) was released for the PlayStation Portable on March 10, 2011.\n[…]\nOn August 30, 2012, a sequel, Rurouni Kenshin: Meiji Kenkaku Romantan: Kansei (るろうに剣心 -明治剣客浪漫譚- 完醒), was released. Both games were developed by Natsume Co., Ltd. and published by Bandai Namco Games.\n[…]\nRurouni Kenshin (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rurouni_Kenshin",
+        "situacao": "ok",
+        "texto": "Samurai X ou Rurouni Kenshin -Meiji Kenkaku Romantan- (るろうに剣心 -明治剣客浪漫譚-, Kenshin, o Andarilho: Crônicas de um Espadachim da Era Meiji) é uma série de mangá criada pelo artista Nobuhiro Watsuki e posteriormente adaptada em anime. A série, ambientada nos primeiros anos da Era Meiji no Japão, conta a história de Kenshin Himura um pacífico espadachim que prometeu nunca mais matar.\n[…]\nRurouni Kenshin: Meiji Kenkaku Romantan - Shin Kyoto-hen, é um OVA de dois episódios que refez o arco de Kyoto da série, foi lançado no Japão de 2011 a 2012. A história se concentra em Makimashi Missao quando encontra Kenshin que está em busca de derrotar Shishio Makoto.\n[…]\nExistem dois jogos sobre Rurouni Kenshin lançados para Playstation. O primeiro é Rurouni Kenshin: Ishin Gekitouhen,lançado em 29 de novembro de 1996. Já o segundo Rurouni Kenshin: Meiji Kenkaku Romantan: Juuyuushi Inbou Hen foi lançado em 18 de dezembro de 1997.\n[…]\nRurouni Kenshin: Meiji Kenkaku Romantan: Juuyuushi Inbou Hen é um RPG estrelando um personagem feminino e um masculino, Hijiri ou Hikaru. A história não tem conexão com o manga ou com o anime. Durante a história você irá recrutar vários personagens do anime incluindo Kenshin. Saito e Aoshi podem ser recrutados dependendo da sua escolha do personagem principal. Escolhendo Hijiri você poderá jogar com Saito e escolhendo Hikaru será Aoshi.\n[…]\nEm 2006, veio a ser lançado um novo jogo, desta vez para Playstation 2 com o nome de Rurouni Kenshin: Meiji Kenkaku Romantan:Enjou! Kyoto Rinne, baseado na saga de Kyoto. Este jogo foi o último trabalho do seiyū Hirotaka Suzuoki antes deste falecer devido ao câncer.\n[…]\nUm novo jogo em 2010 foi confirmado, com o nome de Rurouni Kenshin: Meiji Kenkaku Romantan: Saisen, em comemoração aos 15 anos da série. O título se revelou um game de luta, foi lançado para PSP e conta com personagens de toda a franquia.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Gen Pés Descalços",
+      "descricao": "Mangá de Keiji Nakazawa sobre um menino que sobrevive à bomba atômica."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O mangá Gen Pés Descalços, de Keiji Nakazawa, acompanha um menino sobrevivente da bomba atômica em qual cidade?",
+    "resposta": "Hiroshima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barefoot_Gen"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Barefoot_Gen",
+        "situacao": "ok",
+        "texto": "Barefoot Gen (Japanese: はだしのゲン, Hepburn: Hadashi no Gen) is a Japanese historical manga series written and illustrated by Keiji Nakazawa, loosely based on Nakazawa's experiences as a survivor of the Hiroshima atomic bombing. The series begins in 1945 in and around Hiroshima, Japan, where six-year-old Gen Nakaoka lives with his family. After Hiroshima is destroyed by the bombing, Gen and other surv\n[…]\nCartoonist Keiji Nakazawa created Ore wa Mita (translated into English as I Saw It), an eyewitness account of the atomic-bomb devastation in Japan, for Monthly Shōnen Jump in 1972. It was published in the United States by Educomics in 1982. Nakazawa began to serialize the longer, autobiographical Hadashi No Gen (Barefoot Gen) in the June 4, 1973 issue of Weekly Shōnen Jump.\n[…]\nNew Society Publishers began to release a second English-language version of the series in graphic novel format (as Barefoot Gen: The Cartoon Story of Hiroshima) in 1988.\n[…]\nBarefoot Gen Vol. 1: A Cartoon Story of Hiroshima (paperback ed.). Last Gasp. 2004 [1972–1973]. ISBN 0-86719-602-5.\n[…]\nBarefoot Gen Part 3: Battle of Hiroshima (1980)\n[…]\nBarefoot Gen 2 (1986)\n[…]\nBarefoot Gen 2, set three years after the bombing, focuses on the survival of Gen and the orphans in Hiroshima.\n[…]\nBarefoot Gen was well received by the activist community of the time. The activist community used it as \"an instrument in the struggle against nuclear weapons\" as well as the \"politically charged atmosphere of a country coming to terms with defeat in Vietnam\". The stark picture provided by the comic of being a survivor of Hiroshima lends credibility and usefulness to the activists movements. While affirming an anti nuclear bomb sentiment, it also promoted anti war ideals.\n[…]\nWhite Light/Black Rain: The Destruction of Hiroshima and Nagasaki (2007)\n[…]\nFull translated manga of Barefoot Gen at the Internet Archive\n[…]\nHadashi no Gen (Barefoot Gen) at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hadashi_no_Gen",
+        "situacao": "ok",
+        "texto": "Gen Pés Descalços (はだしのゲン, Hadashi no Gen) é uma série de mangá criada por Keiji Nakazawa.\n[…]\nO mangá foi publicado em várias revistas, incluindo a Weekly Shōnen Jump, de 1973 a 1985. Posteriormente foi adaptado para três live actions dirigidos por Tengo Yamada, lançados entre 1976 e 1980. A Madhouse lançou dois filmes em formato anime baseados no mangá, um em 1983 e outro em 1986. Em 2007, uma adaptação para uma série de televisão foi produzida, transmitida nos dias 10 e 11 de agosto do mesmo ano.\n[…]\nEntre 2000 e 2001, a Conrad Editora publicou no Brasil 4 volumes do mangá e em 2011, iniciou uma nova coleção de 10 volumes.\n[…]\nA série começou em 1945 em Hiroshima e arredores da cidade, onde o garoto de seis anos de idade, Gen, vivia com sua família. Depois que Hiroshima é destruída pela bomba atômica, Gen e outros sobreviventes são obrigados a lidar com as consequências da destruição.\n[…]\nA história é baseada nas experiências do próprio autor, Nakazawa, já que ele próprio é um sobrevivente da bomba lançada em Hiroshima.\n[…]\nHadashi no Gen no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Super Campeões",
+      "descricao": "Mangá e anime de futebol de Yoichi Takahashi, protagonizado por Tsubasa Ozora."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em Super Campeões, Tsubasa deixa o Japão para jogar futebol em qual país, terra natal de seu mentor Roberto?",
+    "resposta": "Brasil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Captain_Tsubasa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Captain_Tsubasa",
+        "situacao": "ok",
+        "texto": "Captain Tsubasa (Japanese: キャプテン翼, Hepburn: Kyaputen Tsubasa) is a Japanese manga series written and illustrated by Yōichi Takahashi. The series mainly revolves around the sport of association football focusing on Tsubasa Oozora and his relationship with his friends, rivalries with his opponents, training, competition, and the action and outcome of each football match. Across the multiple Captain \n[…]\nRoberto becomes a mentor to Tsubasa and helps him to harness his football skills, convincing him to join Nankatsu Elementary School and its fledgling elementary school football team, which Roberto later coaches as he passes his techniques onto Tsubasa.\n[…]\nTsubasa leaves Japan for Brazil and starts playing, with his mentor Roberto as the manager, for São Paulo (FC Brancos in the anime), in Brazil's premier professional championship, Campeonato Brasileiro Série A, winning the finals against Flamengo (FC Domingos in the anime) 4–3.\n[…]\nCaptain Tsubasa Vol. II: Super Striker, released in 1991 for the Famicom.\n[…]\nCaptain Tsubasa 3: Koutei no Chousen: A 1992 Super Famicom game by Tecmo.\n[…]\nCaptain Tsubasa 4: Pro no Rival Tachi: a 1993 Super Famicom game by Tecmo.\n[…]\nCaptain Tsubasa J: A 1995 Bec arcade game.\n[…]\nCaptain Tsubasa J: The Way to World Youth: a 1995 Super Famicom game by Bandai with RPG elements.\n[…]\nA series on which Captain Tsubasa exerted a great influence was Masaya Tsunamoto's Giant Killing.\n[…]\nIn late 2018, the Katsushika City organized the \"Captain Tsubasa Cup, Gotta Win!\" campaign during the yearly Junior Soccer Tournament to help bring tourists to the city and keep young men active, and gave Takahashi the Honorary Citizen Award for the manga's positive impact on the city.\n[…]\nFlash Kicker, a.k.a. Captain Tsubasa, at Enoki Films Archived April 21, 2025, at the Wayback Machine\n[…]\nCaptain Tsubasa ~Road to Dream~ at Enoki Films\n[…]\nCaptain Tsubasa (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Captain_Tsubasa",
+        "situacao": "ok",
+        "texto": "Captain Tsubasa (キャプテン翼, Kyaputen Tsubasa) é uma série de mangá escrita e ilustrada por Yoichi Takahashi. Foi originalmente publicada na Weekly Shōnen Jump entre 1981 e 1988. Foi exportada e bem recebida na América do Sul, Europa e Oriente Médio. A série já foi conhecida inicialmente como Super Campeões no Brasil, e ainda como Capitão Falcão (1.ª exibição) em Portugal. É conhecida por Campeões: Ol\n[…]\nEm seguida, realizou um Campeonato Mundial De Juniores De Futebol em França, onde o Japão venceu a Itália do goleiro imbatível Gino Ernando por 2-1, a Argentina do fantástico Juan Días e do maravilhoso construtor de jogo, Pascal por 4-3, venceu a seleção da casa, a França do artista do relvado, Pierre, e do goleador, Napoleão num jogo que terminou num empate 4-4, e que o Japão venceu nas grandes penalidades por 5-4. Na final o Japão vence a Alemanha e Tsubasa vai jogar no Brasil.\n[…]\nNa partida final, O Japão vence a América do Sul por 2 a 1. No fim da partida Roberto vai felicitar Tsubasa e lhe promete levá-lo para o Brasil.\n[…]\nDepois da conquista contra o Meiwa, Roberto não cumpre o combinado com Tsubasa de levá-lo para o Brasil e deixa um caderno com suas anotações e Tsubasa praticava a risca para poder melhorar fisicamente e treinava aulas para poder melhorar a sua pronúncia. Tsubasa e Roberto depois se reencontram na partida do Japão contra Alemanha e que depois convida Tsubasa para ir para o Brasil.\n[…]\nKumi Sugimoto: Ela aparece depois do arco de Nankatsu contra o Meiwa e gerente do Nankatsu com Sanae e Yukari Sugimoto, prima do Jito. Quando o Nankatsu buscava o tricampeonato, ela também começou a gostar do Tsubasa. Quando o Japão conquistou o seu primeiro campeonato, Roberto convida Tsubasa para ir para o Brasil. Antes que Tsubasa pudesse ir para o Brasil, esta se declara a Tsubasa, mas Tsubasa já gostava da Sanae e esta pede a Tsubasa que se declarasse.\n[…]\nCaptain Tsubasa J, para SNES",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Akihabara",
+      "descricao": "Bairro de Tóquio conhecido por lojas de eletrônicos, anime, mangá e games."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Qual bairro de Tóquio, conhecido como Cidade Elétrica, é famoso pelas lojas de anime, mangá e games?",
+    "resposta": "Akihabara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Akihabara"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Akihabara",
+        "situacao": "ok",
+        "texto": "Akihabara (Japanese: 秋葉原) is a neighborhood in the Chiyoda ward of Tokyo, Japan, generally considered to be the area surrounding Akihabara Station (nicknamed Akihabara Electric Town). This area is part of the Sotokanda (外神田) and Kanda-Sakumachō districts of Chiyoda. There is an administrative district called Akihabara (part of Taitō ward), located north of Akihabara Electric Town surrounding Akiha\n[…]\nThe name Akihabara is a shortening of Akibagahara (秋葉ヶ原), which comes from Akiba (秋葉), named after a fire-controlling deity of a firefighting shrine built after the area was destroyed by a fire in 1869. Akihabara gained the nickname Akihabara Electric Town (秋葉原電気街, Akihabara Denki Gai) shortly after World War II for being a major shopping center for household electronic goods and the post-war black market.\n[…]\nAkihabara is considered by many to be the center of Japanese otaku culture, and is a major shopping district for video games, anime, manga, electronics and computer-related goods. Icons from popular anime and manga are displayed prominently on the shops in the area, and numerous maid cafés and large arcades are found throughout the district.\n[…]\nAs household electronics began to lose their futuristic appeal in the 1980s, the shops of Akihabara shifted their focus to home computers, at a time when they were only used by specialists and hobbyists. This brought in a new type of consumer, computer nerds or otaku. The market in Akihabara latched onto their new customer base that was focused on anime, manga, and video games. The connection between Akihabara and otaku has grown to the point that the region is a center for otaku culture.\n[…]\nAkihabara's role as a free market has allowed a large amount of amateur work to find an audience. Doujinshi (amateur or fanmade manga) has been growing in Akihabara since the 1970s.\n[…]\nAkihabara Electrical Town Organization website\n[…]\nGo Tokyo Akihabara Guide"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Akihabara",
+        "situacao": "ok",
+        "texto": "Akihabara (秋葉原) é como é chamado uma famosa área no bairro de Sotokanda e Kanda Sakumacho da província de Chiyoda, Tóquio, Japão. O nome Akihabara é uma abreviação de Akibagahara (秋葉が原; \"campo de folhas do outono\"), que em última análise vem de Akiba (アキバ), em homenagem a um santuário, dedicado a uma divindade do fogo, que foi construído após a área ter sido destruída por um incêndio em 1869.\n[…]\nAkihabara ganhou o apelido de bairro dos eletrônicos de Akihabara (秋葉原電気街, Akihabara Denki Gai) logo após a Segunda Guerra Mundial, por ser um importante centro de compras de eletrodomésticos e um mercado negro do pós-guerra. Hoje em dia, Akihabara é considerada por muitos um centro cultural otaku e um distrito de compras de video games, anime, mangá e computadores. Ícones populares dos animes e mangás são mostrados nas lojas da região, e inúmeros Maid Cafés são encontrados por todo o distrito.\n[…]\nA região que hoje é conhecida como Akihabara era como uma cidade de entrada para Edo e serviu como uma passagem entre a cidade e o noroeste do Japão. Isto fez da região um lar para muitos artesãos e comerciantes, bem como alguns samurais de classe baixa. Um dos incêndios de Tóquio destruiu a região em 1869 e o povo decidiu substituir os edifícios da área por um santuário chamado Chinkasha, que significa santuário da extinção do fogo, em uma tentativa de evitar a propagação de futuros incêndios.\n[…]\nComo os eletrodomésticos começaram a perder seu apelo futurista por volta da década de 1980, as lojas de Akihabara mudaram seu foco para computadores domésticos em uma época na qual eles eram usados apenas por especilistas ou hobistas. Esta nova especialização trouxe um novo tipo de consumidor, nerds de computador ou otaku. O mercado em Akihabara natualmente se apegou a sua nova base de clientes que era focada em anime, mangá e video games.\n[…]\nSite Oficial de Akihabara em inglês",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Porco Rosso",
+      "descricao": "Filme de animação de 1992 de Hayao Miyazaki sobre um piloto de hidroavião amaldiçoado com cara de porco."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em Porco Rosso, de Miyazaki, o piloto com cara de porco caça piratas do ar sobre qual mar?",
+    "resposta": "Mar Adriático",
+    "distratores": [
+      "Mar Egeu",
+      "Mar Tirreno",
+      "Mar Báltico"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Porco_Rosso"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Porco_Rosso",
+        "situacao": "ok",
+        "texto": "Porco Rosso (Japanese: 紅の豚, Hepburn: Kurenai no Buta; both lit. 'Red/Crimson Pig') is a 1992 Japanese animated adventure fantasy film written and directed by Hayao Miyazaki, based on his 1989 manga Hikōtei Jidai. Produced by Toshio Suzuki and animated by Studio Ghibli, the film was distributed in Japan by Toho, with music composed by Joe Hisaishi. The Japanese voice cast includes Shūichirō Moriyam\n[…]\nThe story follows Marco Pagot, an Italian former World War I fighter ace who now works as a freelance bounty hunter pursuing bands of air pirates operating over the Adriatic Sea. For reasons left ambiguous, Marco has been transformed into an anthropomorphic pig and lives under the name Porco Rosso (lit. 'Red Pig').\n[…]\nBlending aerial adventure with elements of fantasy and romantic drama, Porco Rosso explores themes of disillusionment, personal identity, and the lingering psychological scars of conflict. The film also reflects Miyazaki's anti-war sensibility and his critical view of rising fascism in interwar Italy, while celebrating the craftsmanship and romance of early aviation through detailed mechanical design and expansive flight sequences characteristic of the director's work.\n[…]\nMarco is an Italian hero from the First World War and is shown fighting against Austro-Hungarian fighter planes in a flashback sequence. The story is set in Northern Italy, including Milan, and the Italian and Croatian Adriatic Sea east coast. Some locations resemble certain islands of the Italian Lakes. The concealed beach Porco uses as a hideout bears a strong resemblance to Stiniva Beach, on the southern side of the Croatian island of Vis.\n[…]\nMiyazaki revisited the theme of aviation history in his 2013 film The Wind Rises.\n[…]\nPorco Rosso page at Nausicaa.net\n[…]\nPorco Rosso (film) at Anime News Network's encyclopedia\n[…]\nPorco Rosso at IMDb\n[…]\nPorco Rosso at the TCM Movie Database"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kurenai_no_Buta",
+        "situacao": "ok",
+        "texto": "Kurenai no Buta (紅の豚; Porco Rosso: O Porquinho Voador (título em Portugal) ou Porco Rosso: O Último Herói Romântico (título no Brasil)) é um anime em longa metragem baseado no manga Hikōtei Jidai de Hayao Miyazaki, dirigido pelo próprio Miyazaki e produzido pelo Studio Ghibli, lançado em 1992. Conta as aventuras de um piloto de hidroavião que tem uma cabeça de porco na Itália dos anos 1920.\n[…]\nNa Itália, durante o período entre as duas guerras, com um fundo de recessão econômica e de ascensão do fascismo, perdido numa ilha deserta no mar Adriático, um ex-piloto emérito da Força Aérea Italiana, se vê transformado em um porco e converte-se em caçador de recompensas. Ele se chama \"Porco Rosso\".\n[…]\nPorco Rosso: seu nome verdadeiro é Marco Pagot, é a figura central do filme. Piloto italiano veterano da Primeira Guerra Mundial e altamente qualificado na Força Aérea Italiana, ele quase morreu durante uma batalha aérea durante a Guerra. Porco Rosso é um caçador de recompensas freelance perseguindo \"piratas do ar\" no Mar Adriático que outrora fora amaldiçoado e transformado em um híbrido de homem com cabeça de porco. Com uma desenvoltura sem igual, ele é também hábil no gatilho como as palavras.\n[…]\nDonald Curtis: de nacionalidade americana, ele também é um piloto excepcionalmente talentoso. Ele é chamado como ajuda adicional por Mama Aiuto para neutralizar Porco Rosso. Mas ele se apaixona facilmente por mulheres que cruzam o seu caminho.\n[…]\nMama Aiuto: chefe dos piratas do ar.\n[…]\nGina: dona do \"Hotel Adriano\" que serve como ponto de encontro para vários pilotos de hidroaviões. Ela é amada e respeitada por todos. Várias vezes casadas com pilotos mas viúva, ela está secretamente apaixonada por Porco Rosso que conhece há muito tempo, mesmo antes de sua transformação.\n[…]\nKurenai no Buta no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Studio Ghibli",
+      "descricao": "Estúdio japonês de animação fundado em 1985 por Hayao Miyazaki, Isao Takahata e Toshio Suzuki."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que personagem de Hayao Miyazaki aparece no logotipo do Studio Ghibli?",
+    "resposta": "Totoro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Studio_Ghibli"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+        "situacao": "ok",
+        "texto": "Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi) is a Japanese animation studio based in Koganei, Tokyo. It was founded on June 15, 1985, by directors Hayao Miyazaki and Isao Takahata and producer Toshio Suzuki, after acquiring Topcraft's assets. It has a strong presence in the animation industry and has expanded its portfolio to include various media such as sh\n[…]\nIn October 2023, the studio became a subsidiary of Nippon Television Holdings, Inc. Studio Ghibli's leadership transitioned to Hiroyuki Fukuda, a senior executive at NTV. Toshio Suzuki became chairman and Hayao Miyazaki became Honorary Chairman. Nippon TV acquired a 42.3% stake in Studio Ghibli. The decision was driven by the advanced ages of Miyazaki and Suzuki, aged 82 and 75, respectively.\n[…]\nFilms banner, distributed the Totoro dub as a theatrical release, and the dub was later released on both VHS and DVD by 20th Century Fox Home Entertainment. In the early 1990s, an English dub of Porco Rosso was produced by Ward Sexton in Japan, again for international Japan Airlines flights. The original dubs can be seen on the 1996 Ghibli ga Ippai Laserdisc set, the initial copies for the Japanese DVD releases of Totoro, Laputa and Porco, and Fox's VHS and DVD releases of Totoro.\n[…]\nAlso, Disney enlarged the \"Studio Ghibli\" and \"Hayao Miyazaki\" labels on the poster, helping to bring greater awareness to the studio through the success of Spirited Away.\n[…]\nWalt Disney Studios Japan released the complete collector's edition DVD on August 6, 2008. Walt Disney Studios Japan released the film on Blu-ray twice on July 18, 2012: one as a single release, and one in a two-film set with My Neighbor Totoro. StudioCanal released a Blu-ray in the United Kingdom on July 1, 2013. Madman Entertainment released the film in Australia and New Zealand.\n[…]\nStudio Ghibli  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Studio_Ghibli",
+        "situacao": "ok",
+        "texto": "Studio Ghibli, Inc. (株式会社スタジオジブリ, Kabushiki gaisha Sutajio Jiburi) é um estúdio de animação japonês sediado em Koganei, Tóquio. Tem forte presença na indústria de animação e ampliou seu portfólio para incluir diversos formatos de mídia, como curtas-metragens, comerciais de televisão e dois filmes para televisão. Seu trabalho foi bem recebido pelo público e reconhecido com inúmeros prêmios.\n[…]\nSeu mascote e símbolo mais reconhecível, o personagem Totoro, é um espírito gigante inspirado em cães-guaxinim (tanuki) e gatos do filme de 1988 Tonari no Totoro. Entre os filmes de maior bilheteria do estúdio estão Sen to Chihiro no Kamikakushi (2001), Hauru no Ugoku Shiro (2004) e Gake no ue no Ponyo (2008). O Studio Ghibli foi fundado em 15 de junho de 1985, pelos diretores Hayao Miyazaki e Isao Takahata e pelo produtor Toshio Suzuki, após adquirir os ativos da Topcraft.\n[…]\nEm fevereiro de 2017, Toshio Suzuki anunciou que Hayao Miyazaki havia saído da aposentadoria para dirigir um novo longa-metragem com o Studio Ghibli.\n[…]\nPara o autor do cartaz japonês, há menos espíritos, uma vez que a religião xintoísta japonesa normaliza a existência de espíritos, pelo que é necessária menos ênfase para transmitir a importância dos espíritos não-humanos. Além disso, a Disney ampliou os rótulos “Studio Ghibli” e “Hayao Miyazaki” no pôster, ajudando a trazer maior conhecimento ao estúdio através do sucesso de Spirited Away.\n[…]\nHotaru no Haka foi lançado no Japão em VHS pela Buena Vista Home Entertainment sob a coleção Ghibli ga Ippai em 7 de agosto de 1998. Em 29 de julho de 2005, um lançamento em DVD foi distribuído pela Warner Home Video. Walt Disney Studios Japan lançou o DVD completo da edição de colecionador em 6 de agosto de 2008. WDSJ lançou o filme em Blu-ray duas vezes em 18 de julho de 2012: uma como lançamento único e outra em um set de dois filmes com Tonari no Totoro.\n[…]\nParque Ghibli",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Sailor Moon",
+      "descricao": "Mangá e anime de Naoko Takeuchi sobre um grupo de guerreiras mágicas."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na série de guerreiras mágicas de Naoko Takeuchi, como se chama a gata preta falante que orienta Serena em sua missão?",
+    "resposta": "Luna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sailor_Moon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sailor_Moon",
+        "situacao": "ok",
+        "texto": "Sailor Moon (Japanese: 美少女戦士セーラームーン, Hepburn: Bishōjo Senshi Sērā Mūn; originally translated as Pretty Soldier Sailor Moon, later Pretty Guardian Sailor Moon) is a Japanese manga series written and illustrated by Naoko Takeuchi. It was originally serialized in Kodansha's shōjo manga magazine Nakayoshi from 1991 to 1997; the 60 individual chapters (later reorganized into 52) and several side storie\n[…]\nThe series focuses on Usagi Tsukino, a young middle school student in the Azabu-Jūban district of Tokyo in the 1990s, who learns from the talking cat Luna that she is actually a reincarnation of a princess from the Moon Kingdom, Sailor Moon.\n[…]\nOn July 1, 2019, Kondasha Comics began releasing the Eternal Editions digitally, following an announcement the day before about the series being released digitally in ten different languages. In November 2020, Kodansha Comics announced plans to re-release the Sailor Moon manga again as part of their \"Naoko Takeuchi Collection\". The company described the new edition as a \"more affordable, portable\" version of the Eternal Edition.\n[…]\nPretty Guardian Sailor Moon featured Miyuu Sawai as Usagi Tsukino, Rika Izumi (credited as Chisaki Hama) as Ami Mizuno, Keiko Kitagawa as Rei Hino, Mew Azama as Makoto Kino, Ayaka Komatsu as Minako Aino, Jouji Shibue as Mamoru Chiba, Keiko Han reprising her voice role as Luna from the original anime, and Kappei Yamaguchi voicing Artemis.\n[…]\nThey were developed in association with DIC Entertainment, which held the rights to the game and the TV series. A video game called Sailor Moon: La Luna Splende (Sailor Moon: The Moon Shines) was released on March 16, 2011, for the Nintendo DS. A mobile game, titled Sailor Moon Drops, was available in Japan on September 3, 2015, and released world-wide on April 12, 2016, for iOS and Android. The mobile game was ultimately shut down on March 28, 2019.\n[…]\nBishōjo Senshi Sailor Moon at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sailor_Moon",
+        "situacao": "ok",
+        "texto": "Sailor Moon, ou A Navegante da Lua, conhecido no Japão pelo titulo em inglês Pretty Soldier Sailor Moon (美少女戦士セーラームーン, Bishōjo Senshi Sērā Mūn; lit. \"Graciosa Guerreira Sailor Moon\" ou \"Linda Guerreira Sailor Moon\", Sērā Mūn é a pronúncia japonesa da expressão\n[…]\nAntes de escrever Sailor Moon, Takeuchi tinha escrito Codename: Sailor V, que focava apenas em uma Sailor Senshi. Então, ela teve a ideia de criar uma série sobre garotas do espaço e seu editor sugeriu que elas vestissem sērā fuku. Quando Sailor V foi proposto para ser adaptado em um anime pela Toei Animation, o conceito da série foi mudado por Takeuchi e Sailor V se tornou apenas um membro de uma equipe composta por mais quatro guerreiras.\n[…]\nSailor Moon conta a história de Usagi Tsukino, uma garota normal e inocente de 14 anos — pelo menos, é isso que ela pensa — que um dia encontra Luna, uma gata falante que revela a identidade de Usagi como \"Sailor Moon\", uma guerreira mágica destinada a salvar a Terra das forças do mal.\n[…]\nAo decorrer da série, Usagi e suas amigas aprendem mais sobre seus poderes e das forças do mal que enfrentam. O passado dos personagens é um algo misterioso até mesmo para eles e grande parte da série inicial é dedicada a redescobrir suas verdadeiras identidades e origens. Luna, que orienta e aconselha as Sailor Senshi, não sabe tudo sobre suas histórias.\n[…]\nA última temporada, Sailor Stars, passou a utilizar \"Sailor Star Song\" como o tema de abertura, o qual foi escrito por  Shōki Araki e composto por Naoko Takeuchi. Ele é cantado por Kae Hanazawa. \"Moonlight Densetsu\" fez sua apariação final como música de encerramento no último episódio da série. No Brasil, na fase Gota Mágica, apenas a primeira abertura foi dublada e utilizada como abertura e encerramento.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Esferas do Dragão",
+      "descricao": "Esferas mágicas de Dragon Ball que, reunidas, invocam um dragão que realiza desejos."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em Dragon Ball, quantas esferas do dragão é preciso reunir para invocar o dragão Shenlong?",
+    "resposta": "Sete",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dragon_Ball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dragon_Ball",
+        "situacao": "ok",
+        "texto": "Dragon Ball (Japanese: ドラゴンボール, Hepburn: Doragon Bōru) is a Japanese media franchise created by Akira Toriyama. The original manga, written and illustrated by Toriyama, was serialized in Weekly Shōnen Jump from 1984 to 1995, with the 519 individual chapters collected in 42 tankōbon volumes by its publisher Shueisha. Dragon Ball was originally inspired by the classical 16th-century Chinese novel Jo\n[…]\nThe narrative of Dragon Ball predominantly follows the adventures of the Saiyan Son Goku; upon meeting Bulma at the beginning of the series, the two embark on an adventure to gather the seven Dragon Balls, a set of orbs that summon the wish-granting dragon Shenlong.[ch. 1] Goku later receives martial arts training from Kame-Sen'nin, meets his lifelong friend Kuririn, and enters the Tenkaichi Budōkai (天下一武道会; lit.\n[…]\nThe title Dragon Ball was inspired by Enter the Dragon and later Bruceploitation knockoff kung fu films, which frequently had the word \"Dragon\" in their titles, and the fighting scenes were influenced by Jackie Chan movies. Since it was serialized in a shōnen manga magazine, he conceived the Dragon Balls to give it a game-like activity of gathering something, without thinking of what the characters would wish for.\n[…]\nToriyama originally thought the manga would last about a year or end once the Dragon Balls were collected. He stated that although the stories are purposefully easy to understand, he specifically aimed Dragon Ball at readers older than those of Dr. Slump. He also wanted to break from the Western influences common in Dr. Slump, deliberately incorporating for Chinese influences and scenery and referencing Chinese buildings and photographs of China his wife had bought.\n[…]\nDragon Ball official website at Viz Media\n[…]\nDragon Ball official manga website at Manga Plus\n[…]\nDragon Ball (manga) at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dragon_Ball",
+        "situacao": "ok",
+        "texto": "Dragon Ball (ドラゴンボール, Doragon Bōru; pronúncia japonesa do inglês Dragon Ball, lit. Bola do Dragão, em referência aos objetos que tiveram seus nomes adaptados como Esferas do Dragão no Brasil e Bolas de Cristal em Portugal, a fim de se evitar cacofonia) é uma franquia de mídia japonesa criada por Akira Toriyama. Originalmente iniciada com uma série de mangá escrita e ilustrada por Toriyama, foi ser\n[…]\nA história de Dragon Ball começa com Son Goku, um garoto ingênuo e puro com cauda de macaco e uma força extraordinária. Ele mora sozinho após a morte de seu avô adotivo em uma montanha chamada Paozu. Um dia ele conhece Bulma, uma garota muito inteligente da cidade, que estava em busca das sete Esferas do Dragão. Persuadido, Goku concorda em ajudar Bulma a encontrar as Esferas. Os dois partem em uma longa jornada, durante a qual eles fazem muitos amigos.\n[…]\nOs principais objetos da série são as Esferas do Dragão (português brasileiro) ou Bolas de Cristal(português europeu), sete esferas de cor alaranjada com um número distinto de estrelas vermelhas cada uma em seu interior. Existem quatro tipos diferentes: as da terra, as do planeta Namekusei, as definitivas —estas últimas aparecem unicamente em Dragon Ball GT— e as Super Esferas do Dragão —que aparecem em Dragon Ball Super—.\n[…]\nDragon Ball, basicamente, é sobre a luta entre o bem e o mal. A princípio alguns dos personagens pretendem reunir as sete Esferas do Dragão para pedir algum desejo pessoal, mas eles aprendem que estes objetos também são procurados por outros para o mal, que os leva a enfrentá-los em mais de uma ocasião.\n[…]\nHouve numerosos Mangás para a franquia Dragon Ball. O principal deles é a série Daizenshuu (大 全集), composta por sete principais volumes de capa dura e três volumes de capa mole suplementares, cobrindo o mangá e as duas primeiras séries de anime e seus filmes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Roronoa Zoro",
+      "descricao": "Espadachim da tripulação de Luffy no mangá e anime One Piece."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Roronoa Zoro, espadachim de One Piece, luta com quantas espadas ao mesmo tempo?",
+    "resposta": "Três",
+    "distratores": [
+      "Duas",
+      "Quatro",
+      "Seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roronoa_Zoro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roronoa_Zoro",
+        "situacao": "ok",
+        "texto": "Roronoa Zoro (ロロノア・ゾロ, Roronoa Zoro; spelled as Zolo in some English adaptations), also known as \"Pirate Hunter\" Zoro (海賊狩りのゾロ, Kaizoku-Gari no Zoro), is a fictional character in the manga series and media franchise One Piece, created by Eiichiro Oda. The character made his first appearance in the third chapter of the series, which was first published in Japan in Shueisha's Weekly Shōnen Jump on A\n[…]\nIn the original Japanese version of the One Piece anime series, Zoro is voiced by Kazuya Nakai as an adult and by Megumi Urawa as a child. In the 1988 OVA Defeat Him! The Pirate Ganzack, Zoro is voiced by Wataru Takagi.\n[…]\nZoro is portrayed by Mackenyu in the live-action adaptation of One Piece, while Maximilian Lee Piazza portrays young Zoro.\n[…]\nRoronoa Zoro first appears in the manga chapter \"Enter Pirate Hunter Zoro\" (\"海賊狩りのゾロ\"登場, Kaizoku-gari no Zoro Tōjō), first published in Japan's Weekly Shōnen Jump magazine on August 4, 1997. He first appears as a captured criminal awaiting execution at the hands of the Marines after offending Helmeppo by killing his pet wolf.\n[…]\nIn One Piece volume 105, Oda revealed Zoro's family history. His father, Roronoa Arashi, was killed by pirates, and his mother, Tera, died of an illness when he was young. Zoro is a descendant of the Shimotsuki family of Wano Country through his grandmother Furiko, the older sister of Ushimaru, the daimyo of Ringo and Zoro's great-uncle. Zoro and Kuina are distant cousins, and he is a descendant of Shimotsuki Ryuma, the protagonist of the one-shot Monsters and posthumous One Piece character.\n[…]\nZoro has appeared in every One Piece licensed electronic video game to date, as well as crossover games such as Jump Super Stars, Jump Ultimate Stars, Battle Stadium D.O.N., and Jump Force.\n[…]\nList of One Piece characters\n[…]\nRoronoa Zoro's bio at One Piece's official website (in Japanese)\n[…]\n\"One Piece: Collection One\". DVDTalk."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Roronoa_Zoro",
+        "situacao": "ok",
+        "texto": "Roronoa Zoro (ロロノア・ゾロ, Roronoa Zoro; também conhecido como Zoro o Caçador de Piratas), é um personagem fictício da série One Piece criada por Eiichiro Oda. Na história, Zoro era um caçador de piratas que por fim se torna um quando é convencido pelo protagonista Monkey D. Luffy a ser o primeiro membro de sua tripulação, os Piratas do Chapéu de Palha. Dentro do grupo, Zoro tem a função de combatente\n[…]\nSua maior característica é lutar usando três katanas em um estilo de esgrima que ele mesmo inventou, o santoryu (三刀流, Santōryū). Enquanto Luffy almeja ser o Rei dos Piratas, Zoro busca se tornar o maior espadachim do mundo e para isso precisa derrotar o atual detentor do título, Dracule Mihawk.\n[…]\nApesar de seu jeito, Zoro tem plena fé nas capacidades de seu bando.\n[…]\nO estilo santoryu é capaz de atacar o mesmo oponente várias vezes ou golpear mais de um oponente ao mesmo tempo. Além de cortes e estocadas, Zoro consegue disparar ataques de ar comprimido. Sua técnica característica com as três espadas é o Oni Giri (鬼斬り) onde ele mantém as espadas inicialmente juntas para depois cortar o torso do inimigo. Se necessário ele também luta usando o estilo de duas espadas, nitoryu (二刀流, Nitōryū), ou o estilo de uma espada, ittoryu (一刀流, Ittōryū).\n[…]\nO clipe da música \"He Did It\" do rapper Lil Uzi Vert contém várias cenas retiradas de animes, incluindo momentos da luta entre Zoro e Ryuma.\n[…]\nNo episódio Treehouse of Horror XXV de Os Simpsons, a titular família aparece com roupas de personagens de anime. Nessa cena Homer Simpson está vestido como Zoro e empunha três katanas. No primeiro episódio do show japonês One Piece Variety: I Will be the Pirate King TV exibido pela Fuji TV, o apresentador Ryuichi Hamaya apareceu vestido de Zoro. No quinto episódio do anime de Tower of God é possível ver um lutador vestido como Zoro.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Hyoga",
+      "descricao": "Cavaleiro de bronze russo de Os Cavaleiros do Zodíaco, mestre dos golpes de gelo."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Em Os Cavaleiros do Zodíaco, o cavaleiro de bronze Hyoga veste a armadura de qual constelação?",
+    "resposta": "Cisne",
+    "distratores": [
+      "Pégaso",
+      "Dragão",
+      "Fênix"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_Saint_Seiya_characters"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Saint_Seiya_characters",
+        "situacao": "ok",
+        "texto": "This article comprises a list of characters that play a role in Saint Seiya (also known as Knights of the Zodiac) and its canonical sequel, Saint Seiya: Next Dimension, two manga series created, written and illustrated by Masami Kurumada.\n[…]\nCygnus Hyoga (白鳥星座（キグナス）の氷河, Kigunasu no Hyōga), also known as Swan Hyoga in several international adaptations, is the Bronze Saint of Cygnus. He was born in the fictional village of Kohoutek, in eastern Siberia, which, at the time when Kurumada wrote and drew his manga, was in the Soviet Union. His mastery over his Cosmo grants him the ability to create ice and snow at temperatures as low as absolute zero by stopping subatomic particles.\n[…]\nHyoga is often portrayed wearing a cross and rosary of the Northern Cross, another name for the Cygnus constellation. Calm by nature, he displays a seemingly emotionless exterior, but a more tender side of his character emerges on occasions, such as when he expresses his gratitude to Andromeda Shun for having saved his life and his undying devotion to his mentor Aquarius Camus.\n[…]\nA Saint without rank and constellation and one of Pope Arles's henchmen sent along Perseus Algol and Ophiuchus Shaina to assassinate the Bronze Saints. He failed on his mission. His main technique was called Psychokinesis (念力, Nenriki).\n[…]\nNote: unlike \"Pavo\" (or the Peacock), which is a constellation, the \"Lotus\" is merely a symbol which is frequently used in religions such as Hinduism and Buddhism.\n[…]\nShe was deeply saddened for the battle, as she did not want it to come to be between Merak Hägen and Cygnus Hyōga; who was her first friend (and possible love interest) among the Bronze Saints, and Hägen was her bodyguard and best friend since childhood."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_personagens_de_Saint_Seiya",
+        "situacao": "ok",
+        "texto": "Este artigo contém uma lista de personagens que desempenham um papel em Saint Seiya (também conhecido como Os Cavaleiros do Zodíaco) e sua continuação canônica, Saint Seiya: Next Dimension, duas séries de mangá criadas, escritas e ilustradas por Masami Kurumada.\n[…]\nEle recupera sua visão ao despertar seu sétimo sentido durante a luta contra Máscara da Morte de Câncer, mas depois a perde uma segunda vez enquanto enfrenta o General de Poseidon Krishna de Chrysaor. No Final da Saga de Poseidon, Shiryu veste a armadura de Libra e ajuda Hyoga de Cisne e Seiya de Pégaso a batalhar contra o Deus dos Mares, Poseidon. Na sequência oficial do mangá de Saint Seiya, Next Dimension, Shiryu e Shunrei adotaram um bebê a quem deram o nome de Shoryu.\n[…]\nHyoga de Cisne (白鳥星座（キグナス）の氷河（ヒョウガ）, Kigunasu no Hyōga) é o Cavaleiro de Bronze da constelação de Cygnus. Ele nasceu na vila fictícia de Kohoutek, no leste da Sibéria, que, na época em que Kurumada escreveu e desenhou seu mangá, estava na União Soviética. Tendo um excelente domínio do cosmo, na Batalha das 12 Casas, superou seu mestre Camus de Aquário e alcançou o Zero Absoluto, a temperatura mais baixa que pode ser alcançada, sendo capaz de congelar armaduras de Ouro.\n[…]\nYakov (Яков, variação russa do nome Jacob) é um menino do vilarejo Kohoutek, no leste da Sibéria. É um grande amigo e vizinho de Hyoga de Cisne e o ajuda em diversas tarefas domésticas, além de cuidar do sono eterno da mãe de Hyoga quando ele está ausente. Yakov assume um papel importante na história especial \"O Conto do Cisne - Natassia do País do Gelo\", e nos episódios fillers em que o Cavaleiro de Cristal é controlado pelo Mestre Arles.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Ryuk",
+      "descricao": "Deus da morte que deixa cair o caderno no mundo humano em Death Note."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Em Death Note, qual fruta o deus da morte Ryuk adora comer no mundo humano?",
+    "resposta": "Maçã",
+    "distratores": [
+      "Uva",
+      "Banana",
+      "Morango"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_Death_Note_characters"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_Death_Note_characters",
+        "situacao": "ok",
+        "texto": "The manga series Death Note features an extensive cast of fictional characters designed by Takeshi Obata with their storylines created by Tsugumi Ohba. The story follows the character named Light Yagami, who chances upon a supernatural notebook which grants him the ability to cause the death of anyone he writes in it. Light uses the notebook he finds in order to cleanse the world of humans he has \n[…]\nSidoh wears heavy clothing, obscuring most of his features, and his head is wrapped in bandages. He shares Mello's great liking for chocolate, similar to Ryuk's liking of apples. Sidoh is fairly timid; Mello frightens Sidoh, despite the fact that Mello is a human. Sidoh is shown to be unintelligent and forgetful, rarely remembering the names of other Shinigami.[11] After Light regains the Death Note from Mello, he returns it to Sidoh to keep him from interfering.\n[…]\nArmonia Justin Beyondormason (アラモニア = ジャスティン = ビヨンドルメーソン, Aramonia-Jasutin-Biyondorumēson), is a briefly featured Shinigami who informs Sidoh that his Death Note was stolen by the Shinigami Ryuk and gives him the rules for different situations. As his names suggests, Justin's appearance is that of a skeleton adorned with all manner of jewellery. Justin is the right-hand man of the Shinigami King and sits on a throne.\n[…]\nMidora uses this to bribe the Shinigami King into giving her a second Death Note, which she gives to a human in an attempt to replicate Ryuk's experience with Light. When this Kira is brushed off by Near as \"cheap\" and kills themselves as a result, Midora tells Ryuk about this, and he relates Light's claim that someone must have great spiritual strength and conviction to use the Death Note; Midora simply picked a \"weakling\".\n[…]\nShe admits that Ryuk is better at judging such things, then gives the extra Death Note to him. Midora also has a liking for bananas, similar to Ryuk's fondness for apples.[18]"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "A Viagem de Chihiro",
+      "descricao": "Filme de animação de 2001 de Hayao Miyazaki, produzido pelo Studio Ghibli."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual filme de Hayao Miyazaki ganhou o Oscar de melhor animação em 2003?",
+    "resposta": "A Viagem de Chihiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spirited_Away"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spirited_Away",
+        "situacao": "ok",
+        "texto": "Spirited Away is a 2001 Japanese animated fantasy film written and directed by Hayao Miyazaki. It was produced by Toshio Suzuki, animated by Studio Ghibli, and distributed by Toho. The film stars Rumi Hiiragi, alongside Miyu Irino, Mari Natsuki, Takashi Naito, Yasuko Sawaguchi, Tsunehiko Kamijō, Takehiko Ono, and Bunta Sugawara. It follows a young girl named  Chihiro \"Sen\" Ogino, who moves to a ne\n[…]\nYubaba agrees, but only if Chihiro can pass a final test.\n[…]\nBesides the original soundtrack, there is also an image album, titled Spirited Away Image Album (千と千尋の神隠し イメージアルバム, Sen to Chihiro no Kamikakushi Imēji Arubamu), that contains 10 tracks.\n[…]\nThe major themes of Spirited Away, heavily influenced by Japanese Shinto-Buddhist folklore, centre on the protagonist, Chihiro, and her liminal journey through the realm of spirits. The central location of the film is a Japanese bathhouse where a great variety of Japanese folklore creatures, including kami, come to bathe. Miyazaki cites the solstice rituals when villagers call forth their local kami and invite them into their baths. Chihiro also encounters kami of animals and plants.\n[…]\nCommentators have often referred to environmental themes in the films of Miyazaki. In Spirited Away, two major instances of allusions to environmental issues have been noted. Pam Coats, for example, a vice president of Walt Disney Feature Animation, describes Chihiro dealing with the \"stink spirit\", who, it turns out, is actually a river spirit but is so corrupted with filth that one cannot tell what it is at first glance.\n[…]\nKnox, Julian (22 June 2011), \"Hoffmann, Goethe, and Miyazaki's Spirited Away.(E.T.A. Hoffmann, Johann Wolfgang von Goethe, and Hayao Miyazaki)(Critical essay)\", Wordsworth Circle, 42 (3), Wordsworth Circle: 198(3), doi:10.1086/TWC24043148, ISSN 0043-8006, S2CID 169044013\n[…]\nSpirited Away at the Japanese Movie Database (in Japanese)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Viagem_de_Chihiro",
+        "situacao": "ok",
+        "texto": "A Viagem de Chihiro (千と千尋の神隠し, Sen to Chihiro no Kamikakushi; lit. O desaparecimento (escondida pelos espíritos) de Sen e Chihiro) é um filme japonês de animação, dos gêneros aventura e fantasia, lançado em 2001. O longa-metragem foi escrito e dirigido por Hayao Miyazaki, com as vozes de Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takeshi Naito, Yasuko Sawaguchi, Tsunehiko Kamijō, Takehiko Ono e Bunta\n[…]\nA música de A Viagem de Chihiro foi composta e dirigida por Joe Hisaishi, colaborador habitual de Miyazaki, e interpretada pela New Japan Phiharmonic. A trilha sonora recebeu uma condecoração de melhor música na  56.ª cerimônia de premiação de Mainichi Film Competetion Award, e também ganhou o Tokio Anime Award de melhor música no Tokyo International Anime Far de 2001. Por último, recebeu a 17.ª entrega do Japan Gold Disk Award na categoria álbum de animação do ano.\n[…]\nRoger Ebert, crítico de cinema do Chicago Sun-Times, deu quatro estrelas completas e louvou tanto o filme como a direção de Miyazaki. Ebert também qualificou A Viagem de Chihiro como um dos melhores filmes do ano. Kenneth Turan, do Los Angeles Times considerou boas as atuações de voz, e disse que o filme “é um produto de uma intrépida imaginação cujas criações são diferentes de qualquer coisa que havia visto antes”. Igual a Ebert, Turan elogiou a direção de Miyazaki.\n[…]\nA Viagem de Chihiro ganhou trinta e cinco prêmios, entre os quais incluem o Oscar de Melhor Filme de Animação em 2003. Assim, se tornou o segundo filme a receber esta condecoração, pois a categoria se iniciou em 2002, sendo o primeiro filme em língua não-inglesa a ganhar o prêmio, além de ter sido o único a atingir esse feito até 2024, onde o filme O Menino e a Garça, também dirigido por Hayao Miyazaki e produzido pelo Studio Ghibli, ganhou o Oscar de Melhor Animação de 2023.[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Turma da Mônica Jovem",
+      "descricao": "Revista em quadrinhos de Mauricio de Sousa lançada em 2008, com os personagens adolescentes em estilo mangá."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que revista de Mauricio de Sousa, lançada em 2008, mostra a turma do Limoeiro adolescente e desenhada em estilo mangá?",
+    "resposta": "Turma da Mônica Jovem",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Turma_da_M%C3%B4nica_Jovem"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Turma_da_M%C3%B4nica_Jovem",
+        "situacao": "ok",
+        "texto": "Turma da Mônica Jovem é uma publicação mensal dos Estúdios Mauricio de Sousa lançada em agosto de 2008. Trata-se de uma releitura dos personagens da Turma da Mônica em versões adolescentes, em traços e linguagem que remetem aos mangás japoneses e histórias que buscam dialogar com o público pré-adolescente. Com edições que já chegaram a atingir tiragens superiores a 500 mil exemplares, é uma das sé\n[…]\nA série começa sete anos à frente da Turma da Mônica original, servindo como uma concepção do futuro dos personagens, agora na faixa dos 15 anos.\n[…]\nA Turma da Mônica Jovem foi criada para atender uma demanda de mercado na faxa da adolescência. De acordo com Mauricio de Sousa, \"a infância começou a encolher. Nossos leitores, que antes nos largavam com 14 ou 15 anos e só voltavam bem depois quando tinham filhos, passaram a largar com 10 ou 11\".\n[…]\nApós seu lançamento, a revista foi criticada pelas diferenças com os gibis da Turma da Mônica, tanto as características dos personagens quanto o estilo de história. Porém, logo em seu primeiro ano, foi um sucesso de vendas. As quatro primeiras edições venderam 1,5 milhão de exemplares, superando super-heróis americanos como Batman e Superman. Em 2011, Turma da Mônica Jovem #34 vendeu 500 mil cópias, superando a Liga da Justiça, da DC Comics, que vendeu apenas 100 mil cópias.\n[…]\nNa contramão das demais publicações dos Estúdios Mauricio de Sousa, que não costumavam creditar de forma direta os profissionais responsáveis por cada história, Turma da Mônica Jovem sempre traz em seu expediente, a relação da equipe criativa de cada edição. A roteirista Petra Leão foi por um bom tempo responsável pelo texto da maioria das edições, ao lado de Marcelo Cassaro (responsável pelo layout de seus roteiros), elaborando tramas sob a aprovação prévia de Mauricio e sua equipe.\n[…]\nTurma da Mônica\n[…]\nLuluzinha Teen e sua Turma\n[…]\nEvento comemora sucesso da Turma da Mônica Jovem"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.34 — 2026-10-01**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas e obras de arte em domínio público (pinturas, gravuras). Obras com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com várias espécies. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É uso privado, num jogo entre amigos, e não licença livre.
+- **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras de um tema, **pelo menos três famílias** e **pelo menos três catálogos**;
+- nenhum catálogo passa de **40%** das perguntas com figura do seu tema;
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
