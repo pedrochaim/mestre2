@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome do frevo, ritmo do carnaval pernambucano, vem de uma pronúncia popular de qual verbo?",
+        "resposta": "Ferver"
+      },
+      "existentes": [
+        {
+          "id": "q00316",
+          "pergunta": "O nome do frevo, a dança das sombrinhas coloridas do carnaval pernambucano, vem de uma pronúncia popular de qual verbo?",
+          "resposta": "Ferver"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No forró pé de serra, a sanfona e o triângulo completam o trio clássico com qual tambor?",
+        "resposta": "Zabumba"
+      },
+      "existentes": [
+        {
+          "id": "q00754",
+          "pergunta": "Muita gente acha que forró vem do inglês for all, mas a palavra é a redução de qual termo que significava festança?",
+          "resposta": "Forrobodó"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00316",
+      "motivo": "Mesmo fato: o nome do frevo vem do verbo ferver; só muda a descrição do frevo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o terceiro instrumento do trio (zabumba), fato diferente da etimologia de forró."
+    }
+  ]
+}
