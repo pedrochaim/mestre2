@@ -21729,7 +21729,8 @@
     "nome": "Coringa",
     "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
     "variantes": [
-      "Joker"
+      "Joker",
+      "Curinga"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Joker_(character)"
@@ -22379,5 +22380,508 @@
       "pt": 1693,
       "en": 838
     }
+  },
+  {
+    "id": "bispo_xadrez",
+    "nome": "Bispo (xadrez)",
+    "descricao": "Peça do xadrez que se move na diagonal, chamada al-fil no xadrez árabe.",
+    "variantes": [
+      "Bishop",
+      "Alfil"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bishop_(chess)",
+      "https://pt.wikipedia.org/wiki/Bispo_(xadrez)"
+    ]
+  },
+  {
+    "id": "copas_naipe",
+    "nome": "Copas (naipe)",
+    "descricao": "Naipe vermelho do baralho representado por corações, cujo nome em português vem do naipe de taças do baralho latino.",
+    "variantes": [
+      "Hearts",
+      "Naipe de copas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Suit_(cards)",
+      "https://pt.wikipedia.org/wiki/Naipe"
+    ]
+  },
+  {
+    "id": "truco",
+    "nome": "Truco",
+    "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+    "variantes": [
+      "Truco mineiro",
+      "Truco paulista",
+      "Truque"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Truco"
+    ]
+  },
+  {
+    "id": "ludo",
+    "nome": "Ludo",
+    "descricao": "Jogo de tabuleiro de corrida com dados e peões coloridos, derivado do pachisi indiano.",
+    "variantes": [
+      "Ludo (jogo)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ludo"
+    ]
+  },
+  {
+    "id": "pega_varetas",
+    "nome": "Pega-varetas",
+    "descricao": "Jogo de habilidade em que se retiram varetas coloridas de um monte sem mexer nas outras, chamado Mikado na Europa.",
+    "variantes": [
+      "Mikado",
+      "Pick-up sticks"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pick-up_sticks"
+    ]
+  },
+  {
+    "id": "peteca",
+    "nome": "Peteca",
+    "descricao": "Brinquedo brasileiro de origem indígena, com base pesada e penas, golpeado com a palma da mão.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Peteca"
+    ]
+  },
+  {
+    "id": "cluedo",
+    "nome": "Cluedo",
+    "descricao": "Jogo de tabuleiro britânico de investigação de assassinato, lançado no Brasil como Detetive.",
+    "variantes": [
+      "Clue",
+      "Detetive"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cluedo",
+      "https://pt.wikipedia.org/wiki/Cluedo"
+    ]
+  },
+  {
+    "id": "gambito",
+    "nome": "Gambito",
+    "descricao": "Abertura de xadrez em que um jogador sacrifica material, geralmente um peão, em troca de vantagem.",
+    "variantes": [
+      "Gambit"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gambit"
+    ]
+  },
+  {
+    "id": "sistema_de_classificacao_elo",
+    "nome": "Sistema de classificação Elo",
+    "descricao": "Método estatístico de pontuação de jogadores de xadrez criado pelo físico húngaro-americano Arpad Elo.",
+    "variantes": [
+      "Rating Elo",
+      "Elo rating system"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elo_rating_system"
+    ]
+  },
+  {
+    "id": "jenga",
+    "nome": "Jenga",
+    "descricao": "Jogo de habilidade em que se retiram blocos de madeira de uma torre e se recolocam no topo sem derrubá-la.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jenga"
+    ]
+  },
+  {
+    "id": "pebolim",
+    "nome": "Pebolim",
+    "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+    "variantes": [
+      "Totó",
+      "Fla-flu",
+      "Futebol de mesa",
+      "Matraquilhos"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pebolim"
+    ]
+  },
+  {
+    "id": "rei_carta_de_baralho",
+    "nome": "Rei (carta de baralho)",
+    "descricao": "Carta de figura do baralho francês que, na tradição francesa, homenageia um rei histórico ou lendário em cada naipe.",
+    "variantes": [
+      "King (playing card)",
+      "Rei de espadas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/King_(playing_card)"
+    ]
+  },
+  {
+    "id": "atraves_do_espelho",
+    "nome": "Através do Espelho",
+    "descricao": "Livro de Lewis Carroll, de 1871, continuação de Alice no País das Maravilhas, estruturado como uma partida de xadrez.",
+    "variantes": [
+      "Through the Looking-Glass",
+      "Alice Através do Espelho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Through_the_Looking-Glass"
+    ]
+  },
+  {
+    "id": "o_setimo_selo",
+    "nome": "O Sétimo Selo",
+    "descricao": "Filme sueco de 1957 dirigido por Ingmar Bergman, sobre um cavaleiro medieval que enfrenta a Morte.",
+    "variantes": [
+      "Det sjunde inseglet",
+      "The Seventh Seal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Seventh_Seal"
+    ]
+  },
+  {
+    "id": "dungeons_dragons",
+    "nome": "Dungeons & Dragons",
+    "descricao": "Jogo de RPG de mesa de fantasia lançado nos Estados Unidos em 1974.",
+    "variantes": [
+      "D&D",
+      "Dungeons and Dragons"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dungeons_%26_Dragons"
+    ]
+  },
+  {
+    "id": "pachisi",
+    "nome": "Pachisi",
+    "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+    "variantes": [
+      "Parchís",
+      "Chaupar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pachisi"
+    ]
+  },
+  {
+    "id": "simon_jogo",
+    "nome": "Simon (jogo)",
+    "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+    "variantes": [
+      "Simon",
+      "Genius"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Simon_(game)"
+    ]
+  },
+  {
+    "id": "marcel_duchamp",
+    "nome": "Marcel Duchamp",
+    "descricao": "Artista francês do século vinte, ligado ao dadaísmo e criador dos ready-mades, que também foi enxadrista.",
+    "variantes": [
+      "Duchamp"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Marcel_Duchamp"
+    ]
+  },
+  {
+    "id": "chess_musical",
+    "nome": "Chess (musical)",
+    "descricao": "Musical de 1984 sobre um duelo de xadrez entre um americano e um soviético durante a Guerra Fria.",
+    "variantes": [
+      "Chess"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chess_(musical)"
+    ]
+  },
+  {
+    "id": "hanafuda",
+    "nome": "Hanafuda",
+    "descricao": "Baralho tradicional japonês com ilustrações de flores, plantas e animais dos doze meses do ano.",
+    "variantes": [
+      "Cartas de flores"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hanafuda"
+    ]
+  },
+  {
+    "id": "monopoly",
+    "nome": "Monopoly",
+    "descricao": "Jogo de tabuleiro americano de compra e venda de imóveis, lançado pela Parker Brothers em 1935.",
+    "variantes": [
+      "Monopólio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Monopoly_(game)"
+    ]
+  },
+  {
+    "id": "as_de_espadas",
+    "nome": "Ás de espadas",
+    "descricao": "Carta do baralho francês, o ás do naipe de espadas, muitas vezes impressa com desenho ornamentado.",
+    "variantes": [
+      "Ace of spades"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ace_of_spades"
+    ]
+  },
+  {
+    "id": "paciencia_do_windows",
+    "nome": "Paciência do Windows",
+    "descricao": "Versão digital do jogo de cartas Paciência incluída pela Microsoft no Windows a partir de 1990.",
+    "variantes": [
+      "Microsoft Solitaire",
+      "Solitaire"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Microsoft_Solitaire"
+    ]
+  },
+  {
+    "id": "scrabble",
+    "nome": "Scrabble",
+    "descricao": "Jogo de tabuleiro de formar palavras com peças de letras, criado pelo arquiteto americano Alfred Butts.",
+    "variantes": [
+      "Palavras Cruzadas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Scrabble"
+    ]
+  },
+  {
+    "id": "taro",
+    "nome": "Tarô",
+    "descricao": "Baralho com arcanos ilustrados surgido na Itália no século quinze, hoje associado à adivinhação.",
+    "variantes": [
+      "Tarot",
+      "Tarocchi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tarot",
+      "https://pt.wikipedia.org/wiki/Tarô"
+    ]
+  },
+  {
+    "id": "henrique_mecking",
+    "nome": "Henrique Mecking",
+    "descricao": "Enxadrista brasileiro nascido em Santa Cruz do Sul, conhecido como Mequinho, que esteve entre os melhores do mundo nos anos setenta.",
+    "variantes": [
+      "Mequinho"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Henrique_Mecking",
+      "https://en.wikipedia.org/wiki/Henrique_Mecking"
+    ]
+  },
+  {
+    "id": "jogo_do_bicho",
+    "nome": "Jogo do bicho",
+    "descricao": "Jogo de apostas brasileiro baseado numa tabela de animais, criado em 1892 no Rio de Janeiro.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Jogo_do_bicho"
+    ]
+  },
+  {
+    "id": "risk",
+    "nome": "Risk",
+    "descricao": "Jogo de tabuleiro de estratégia militar e conquista de territórios, criado na França em 1957, que inspirou o War brasileiro.",
+    "variantes": [
+      "La Conquête du Monde"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Risk_(game)"
+    ]
+  },
+  {
+    "id": "uno",
+    "nome": "Uno",
+    "descricao": "Jogo de cartas americano de descarte por cor e número, criado em 1971.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Uno_(card_game)"
+    ]
+  },
+  {
+    "id": "jogo_da_vida",
+    "nome": "Jogo da Vida",
+    "descricao": "Jogo de tabuleiro em que os jogadores percorrem etapas da vida, como carreira, casamento e aposentadoria.",
+    "variantes": [
+      "The Game of Life",
+      "The Checkered Game of Life"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Game_of_Life"
+    ]
+  },
+  {
+    "id": "magic_the_gathering",
+    "nome": "Magic: The Gathering",
+    "descricao": "Jogo de cartas colecionáveis de fantasia lançado em 1993 pela Wizards of the Coast.",
+    "variantes": [
+      "Magic"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Magic:_The_Gathering"
+    ]
+  },
+  {
+    "id": "campeonato_mundial_de_xadrez_de_1972",
+    "nome": "Campeonato Mundial de Xadrez de 1972",
+    "descricao": "Disputa pelo título mundial de xadrez entre o americano Bobby Fischer e o soviético Boris Spassky, conhecida como Match do Século.",
+    "variantes": [
+      "Match do Século",
+      "Fischer contra Spassky"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/World_Chess_Championship_1972"
+    ]
+  },
+  {
+    "id": "jogo_real_de_ur",
+    "nome": "Jogo Real de Ur",
+    "descricao": "Jogo de tabuleiro da antiga Mesopotâmia, com cerca de quatro mil e quinhentos anos, encontrado no cemitério real de Ur.",
+    "variantes": [
+      "Royal Game of Ur",
+      "Jogo dos Vinte Quadrados"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Royal_Game_of_Ur"
+    ]
+  },
+  {
+    "id": "canastra",
+    "nome": "Canastra",
+    "descricao": "Jogo de cartas da família do rummy, jogado com dois baralhos, criado em Montevidéu em 1939.",
+    "variantes": [
+      "Canasta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Canasta"
+    ]
+  },
+  {
+    "id": "catan",
+    "nome": "Catan",
+    "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+    "variantes": [
+      "Colonizadores de Catan",
+      "Die Siedler von Catan",
+      "Settlers of Catan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Catan"
+    ]
+  },
+  {
+    "id": "carta_de_baralho",
+    "nome": "Carta de baralho",
+    "descricao": "Cartão de papel ou plástico com figuras e números usado em jogos de cartas.",
+    "variantes": [
+      "Playing card",
+      "Baralho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Playing_card"
+    ]
+  },
+  {
+    "id": "banco_imobiliario",
+    "nome": "Banco Imobiliário",
+    "descricao": "Jogo de tabuleiro brasileiro de compra e venda de imóveis lançado pela Estrela, versão nacional do Monopoly.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Banco_Imobiliário"
+    ]
+  },
+  {
+    "id": "campeonato_mundial_de_xadrez_de_1886",
+    "nome": "Campeonato Mundial de Xadrez de 1886",
+    "descricao": "Primeira disputa oficial pelo título mundial de xadrez, entre Wilhelm Steinitz e Johannes Zukertort.",
+    "variantes": [
+      "World Chess Championship 1886"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/World_Chess_Championship_1886"
+    ]
+  },
+  {
+    "id": "domino",
+    "nome": "Dominó",
+    "descricao": "Jogo de peças retangulares divididas em duas metades marcadas com pontos de zero a seis.",
+    "variantes": [
+      "Dominós"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Dominó",
+      "https://en.wikipedia.org/wiki/Dominoes"
+    ]
+  },
+  {
+    "id": "dado",
+    "nome": "Dado",
+    "descricao": "Pequeno cubo com faces numeradas de um a seis, usado para sortear números em jogos.",
+    "variantes": [
+      "Dice"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dice"
+    ]
+  },
+  {
+    "id": "damas_brasileiras",
+    "nome": "Damas brasileiras",
+    "descricao": "Variante do jogo de damas jogada no Brasil num tabuleiro de oito por oito casas, com dama que anda várias casas.",
+    "variantes": [
+      "Brazilian draughts",
+      "Jogo de damas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Brazilian_draughts"
+    ]
+  },
+  {
+    "id": "pecas_de_xadrez_de_lewis",
+    "nome": "Peças de xadrez de Lewis",
+    "descricao": "Conjunto de peças de xadrez medievais do século doze encontrado na Ilha de Lewis, na Escócia.",
+    "variantes": [
+      "Lewis chessmen",
+      "Xadrez de Lewis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lewis_chessmen"
+    ]
+  },
+  {
+    "id": "bridge",
+    "nome": "Bridge",
+    "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+    "variantes": [
+      "Contract bridge",
+      "Bridge de contrato"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Contract_bridge"
+    ]
+  },
+  {
+    "id": "damas_inglesas",
+    "nome": "Damas inglesas",
+    "descricao": "Variante do jogo de damas jogada em tabuleiro de oito por oito, em que a dama anda uma casa por vez, resolvida por computador em 2007.",
+    "variantes": [
+      "Checkers",
+      "English draughts"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/English_draughts"
+    ]
   }
 ]

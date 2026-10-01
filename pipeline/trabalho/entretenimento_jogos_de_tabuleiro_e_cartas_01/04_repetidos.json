@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O curinga surgiu nos Estados Unidos, por volta de 1860, como carta extra para qual jogo?",
+        "resposta": "Euchre"
+      },
+      "existentes": [
+        {
+          "id": "q01447",
+          "pergunta": "O sorriso do Coringa foi inspirado no ator Conrad Veidt em qual filme mudo de 1928?",
+          "resposta": "O Homem que Ri"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta trata da origem da carta curinga no jogo Euchre; a existente trata da inspiração do sorriso do Coringa (personagem) no filme O Homem que Ri. São fatos diferentes."
+    }
+  ]
+}
