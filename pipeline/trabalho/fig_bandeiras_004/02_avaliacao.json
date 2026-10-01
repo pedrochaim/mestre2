@@ -1,0 +1,252 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira vermelha com cinco estrelas amarelas, nítida e sem texto; capital como segundo fato.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Xangai",
+        "Nanquim",
+        "Hanói"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "China",
+        "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+        "variantes": [
+          "República Popular da China",
+          "RPC"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cruz nórdica amarela sobre fundo azul, inequívoca; fronteira a oeste é Noruega, fato documentado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país faz fronteira, a oeste, com o país desta bandeira?",
+      "resposta": "Noruega",
+      "destino": 0,
+      "ancora": {
+        "nome": "Suécia",
+        "descricao": "País nórdico da Península Escandinava, cuja capital é Estocolmo.",
+        "variantes": [
+          "Reino da Suécia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira de leque colorido, distintiva mas de aficionado; melhor em múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Seicheles",
+      "distratores": [
+        "Maurício",
+        "Comores",
+        "Madagascar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Seicheles",
+        "descricao": "País arquipelágico de 115 ilhas no Oceano Índico, a leste da África continental, cuja capital é Victoria.",
+        "variantes": [
+          "Seychelles",
+          "República das Seicheles"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tricolor vertical com brasão de águia e serpente, nítido e único.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Cidade do México",
+      "distratores": [
+        "Guadalajara",
+        "Monterrei",
+        "Puebla"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "México",
+        "descricao": "País da América do Norte, o mais ao norte da América Latina, cuja capital é a Cidade do México.",
+        "variantes": [
+          "Estados Unidos Mexicanos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tricolor horizontal branco, azul e vermelho, simples e legível; reconhecimento direto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Rússia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rússia",
+        "descricao": "País da Europa Oriental e Ásia Setentrional, o maior do mundo em área, cuja capital é Moscou.",
+        "variantes": [
+          "Federação Russa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cedro verde central entre faixas vermelhas, inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Beirute",
+      "distratores": [
+        "Damasco",
+        "Amã",
+        "Bagdá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Líbano",
+        "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+        "variantes": [
+          "República Libanesa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira espanhola com brasão e colunas, nítida; o lema em latim não entrega o nome do país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país faz fronteira, a oeste, com o país desta bandeira?",
+      "resposta": "Portugal",
+      "destino": 0,
+      "ancora": {
+        "nome": "Espanha",
+        "descricao": "País do sul e oeste da Europa que ocupa a maior parte da Península Ibérica, cuja capital é Madri.",
+        "variantes": [
+          "Reino da Espanha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira com Y horizontal em seis cores, única e legível; Lesotho é totalmente cercado pelo país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país fica totalmente cercado pelo país desta bandeira?",
+      "resposta": "Lesoto",
+      "destino": 0,
+      "ancora": {
+        "nome": "África do Sul",
+        "descricao": "País no extremo sul da África, com três capitais: Pretória, Cidade do Cabo e Bloemfontein.",
+        "variantes": [
+          "República da África do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Faixas vermelha e preta com engrenagem, facão e estrela; parecida com a de Moçambique, então múltipla escolha.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Angola",
+      "distratores": [
+        "Moçambique",
+        "Zâmbia",
+        "Zimbábue"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Angola",
+        "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+        "variantes": [
+          "República de Angola"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Nove listras azuis e brancas com o Sol de Maio, distinta da argentina; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Montevidéu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Uruguai",
+        "descricao": "País do sudeste da América do Sul entre Argentina e Brasil, cuja capital é Montevidéu.",
+        "variantes": [
+          "República Oriental do Uruguai"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tricolor vermelho, branco e azul-escuro; o azul escuro a distingue da de Luxemburgo. Múltipla escolha por haver bandeiras parecidas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Países Baixos",
+      "distratores": [
+        "Luxemburgo",
+        "Paraguai",
+        "Rússia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Países Baixos",
+        "descricao": "País do noroeste da Europa, também chamado Holanda, cuja capital é Amsterdã.",
+        "variantes": [
+          "Holanda",
+          "Netherlands",
+          "Reino dos Países Baixos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cruz amarela em diagonal sobre verde e preto, única e sem texto; Cuba fica ao norte da ilha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país fica logo ao norte da ilha do país desta bandeira?",
+      "resposta": "Cuba",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jamaica",
+        "descricao": "País insular do Caribe, terceira maior ilha das Grandes Antilhas, cuja capital é Kingston.",
+        "variantes": []
+      }
+    }
+  ]
+}

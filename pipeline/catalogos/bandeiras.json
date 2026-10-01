@@ -75,28 +75,28 @@
       "titulo": "en:China",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "México",
       "titulo": "en:Mexico",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Espanha",
       "titulo": "en:Spain",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Uruguai",
       "titulo": "en:Uruguay",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Coreia do Sul",
@@ -166,28 +166,28 @@
       "titulo": "en:Sweden",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Rússia",
       "titulo": "en:Russia",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "África do Sul",
       "titulo": "en:South Africa",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Países Baixos",
       "titulo": "en:Netherlands",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Nepal",
@@ -257,25 +257,305 @@
       "titulo": "en:Seychelles",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Líbano",
       "titulo": "en:Lebanon",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Angola",
       "titulo": "en:Angola",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Jamaica",
       "titulo": "en:Jamaica",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Paraguai",
+      "titulo": "en:Paraguay",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Peru",
+      "titulo": "en:Peru",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Venezuela",
+      "titulo": "en:Venezuela",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bolívia",
+      "titulo": "en:Bolivia",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Equador",
+      "titulo": "en:Ecuador",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Irlanda",
+      "titulo": "en:Republic of Ireland",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bélgica",
+      "titulo": "en:Belgium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cuba",
+      "titulo": "en:Cuba",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ucrânia",
+      "titulo": "en:Ukraine",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arábia Saudita",
+      "titulo": "en:Saudi Arabia",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Egito",
+      "titulo": "en:Egypt",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coreia do Norte",
+      "titulo": "en:North Korea",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nigéria",
+      "titulo": "en:Nigeria",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Noruega",
+      "titulo": "en:Norway",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dinamarca",
+      "titulo": "en:Denmark",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Finlândia",
+      "titulo": "en:Finland",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Áustria",
+      "titulo": "en:Austria",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Polônia",
+      "titulo": "en:Poland",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nova Zelândia",
+      "titulo": "en:New Zealand",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vietnã",
+      "titulo": "en:Vietnam",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Irã",
+      "titulo": "en:Iran",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Marrocos",
+      "titulo": "en:Morocco",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Croácia",
+      "titulo": "en:Croatia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabo Verde",
+      "titulo": "en:Cape Verde",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tailândia",
+      "titulo": "en:Thailand",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Paquistão",
+      "titulo": "en:Pakistan",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mongólia",
+      "titulo": "en:Mongolia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Moldávia",
+      "titulo": "en:Moldova",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Essuatíni",
+      "titulo": "en:Eswatini",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Belize",
+      "titulo": "en:Belize",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guiné-Bissau",
+      "titulo": "en:Guinea-Bissau",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "São Tomé e Príncipe",
+      "titulo": "en:São Tomé and Príncipe",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Timor-Leste",
+      "titulo": "en:East Timor",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bósnia e Herzegovina",
+      "titulo": "en:Bosnia and Herzegovina",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macedônia do Norte",
+      "titulo": "en:North Macedonia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Laos",
+      "titulo": "en:Laos",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quirguistão",
+      "titulo": "en:Kyrgyzstan",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dominica",
+      "titulo": "en:Dominica",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Papua-Nova Guiné",
+      "titulo": "en:Papua New Guinea",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Albânia",
+      "titulo": "en:Albania",
       "camada": 3,
       "destino": 0,
       "status": "nova"
