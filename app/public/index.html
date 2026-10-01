@@ -758,10 +758,11 @@
                   `<path id="nome-${i}" d="M${guia.map(xy).join("L")}" fill="none"/>`,
                   `<text font-size="${tamNome}" fill="${ct}" font-weight="800" dominant-baseline="central">
                      <textPath href="#nome-${i}" startOffset="50%" text-anchor="middle">${esc(tema)}</textPath></text>`);
-      for (let k = 1; k < CASAS_E1; k++)
-        partes.push(`<path d="${faixa(i, fiCasa(k - 1), fiCasa(k))}" fill="${c}" stroke="#fff" stroke-width="1.5"><title>${esc(tema + nota)} · estágio 1, casa ${k + 1}</title></path>`);
-      // Passagem do fim do braço até o anel.
-      partes.push(`<path d="${faixa(i, fimBraco, fimBraco + W, 16)}" fill="${c}" opacity=".45"/>`);
+      // A última casa do estágio 1 se estende pela passagem até o anel, numa peça só, sem borda no meio.
+      for (let k = 1; k < CASAS_E1; k++) {
+        const fim = k === CASAS_E1 - 1 ? fimBraco + W : fiCasa(k);
+        partes.push(`<path d="${faixa(i, fiCasa(k - 1), fim, k === CASAS_E1 - 1 ? 22 : 6)}" fill="${c}" stroke="#fff" stroke-width="1.5"><title>${esc(tema + nota)} · estágio 1, casa ${k + 1}</title></path>`);
+      }
     });
 
     // Estágio 2: o anel central, uma casa por tema. Cada braço desemboca na casa por onde seu jogador entra

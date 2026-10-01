@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.25 — 2026-09-30**
+> **Versão preliminar 0.26 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -638,3 +638,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.23 | 2026-09-30 | App: a pergunta ocupa a tela ao sortear; barra fixa no rodapé com a ação do momento; Mostrar/Esconder resposta no mesmo botão; respondente escolhido uma vez só; figura com altura máxima (§16) |
 | 0.24 | 2026-09-30 | App: temas em grade, com os vazios numa linha de "Em breve"; botão Convidar; regras recolhíveis e modo Editar jogadores no tabuleiro; espiral do tabuleiro como marca na entrada (§16) |
 | 0.25 | 2026-09-30 | App: arrastar o peão no tabuleiro muda a casa do jogador (§16) |
+| 0.26 | 2026-09-30 | Tabuleiro: a última casa do estágio 1 se estende até o anel numa peça só, sem a faixa mais escura da passagem (só visual) |
