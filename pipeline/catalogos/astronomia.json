@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Lua",
+      "titulo": "en:Moon",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sol",
+      "titulo": "en:Sun",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Terra",
+      "titulo": "en:Earth",
+      "camada": 1,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Mercúrio",
+      "titulo": "en:Mercury (planet)",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Telescópio Espacial Hubble",
+      "titulo": "en:Hubble Space Telescope",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Telescópio Espacial James Webb",
+      "titulo": "en:James Webb Space Telescope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ônibus espacial",
+      "titulo": "en:Space Shuttle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Buraco negro",
+      "titulo": "en:Black hole",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Neil Armstrong",
+      "titulo": "en:Neil Armstrong",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Yuri Gagarin",
+      "titulo": "en:Yuri Gagarin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Marcos Pontes",
+      "titulo": "en:Marcos Pontes",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Saturno V",
+      "titulo": "en:Saturn V",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Bolinha Azul (Blue Marble)",
+      "titulo": "en:The Blue Marble",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pilares da Criação",
+      "titulo": "en:Pillars of Creation",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nebulosa de Órion",
+      "titulo": "en:Orion Nebula",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nebulosa do Caranguejo",
+      "titulo": "en:Crab Nebula",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Grande Mancha Vermelha",
+      "titulo": "en:Great Red Spot",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Europa (lua)",
+      "titulo": "en:Europa (moon)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Titã",
+      "titulo": "en:Titan (moon)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Curiosity",
+      "titulo": "en:Curiosity (rover)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Voyager 1",
+      "titulo": "en:Voyager 1",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa Cabeça de Cavalo",
+      "titulo": "en:Horsehead Nebula",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cometa Hale-Bopp",
+      "titulo": "en:Comet Hale–Bopp",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carl Sagan",
+      "titulo": "en:Carl Sagan",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estação Espacial Mir",
+      "titulo": "en:Mir",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grande Nuvem de Magalhães",
+      "titulo": "en:Large Magellanic Cloud",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa do Olho de Gato",
+      "titulo": "en:Cat's Eye Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Galáxia do Sombrero",
+      "titulo": "en:Sombrero Galaxy",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Galáxia do Rodamoinho",
+      "titulo": "en:Whirlpool Galaxy",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nebulosa da Hélice",
+      "titulo": "en:Helix Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Nebulosa do Anel",
+      "titulo": "en:Ring Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quinteto de Stephan",
+      "titulo": "en:Stephan's Quintet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arrokoth",
+      "titulo": "en:486958 Arrokoth",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cometa 67P/Churyumov-Gerasimenko",
+      "titulo": "en:67P/Churyumov–Gerasimenko",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Miranda",
+      "titulo": "en:Miranda (moon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mimas",
+      "titulo": "en:Mimas (moon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hipérion",
+      "titulo": "en:Hyperion (moon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Radiotelescópio de Arecibo",
+      "titulo": "en:Arecibo Telescope",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Very Large Telescope",
+      "titulo": "en:Very Large Telescope",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ingenuity",
+      "titulo": "en:Ingenuity (helicopter)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    }
+  ]
+}

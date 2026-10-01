@@ -20227,5 +20227,250 @@
       "https://pt.wikipedia.org/wiki/Cuíca",
       "https://en.wikipedia.org/wiki/Cuíca"
     ]
+  },
+  {
+    "id": "q01216",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "lua",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que astro é este, o único satélite natural da Terra?",
+    "resposta": "Lua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moon",
+      "https://pt.wikipedia.org/wiki/Lua"
+    ],
+    "imagem": {
+      "arquivo": "q01216.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+      "autor": "Gregory H. Revera",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01217",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "pilares_da_criacao",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Estas colunas de gás e poeira, onde nascem estrelas, fazem parte de que tipo de objeto celeste?",
+    "resposta": "Nebulosa",
+    "distratores": [
+      "Galáxia anã",
+      "Aglomerado globular",
+      "Buraco negro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pillars_of_Creation",
+      "https://pt.wikipedia.org/wiki/Pilares_da_Cria%C3%A7%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q01217.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sternentstehung_im_Adlernebel.jpg",
+      "autor": "Burkhard Mücke",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q01218",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nebulosa_do_olho_de_gato",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que astrônomo inglês foi o primeiro a analisar o espectro desta nebulosa, mostrando que ela era feita de gás?",
+    "resposta": "William Huggins",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cat%27s_Eye_Nebula",
+      "https://pt.wikipedia.org/wiki/Nebulosa_Olho_de_Gato"
+    ],
+    "imagem": {
+      "arquivo": "q01218.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Catseye-big.jpg",
+      "autor": "NASA, ESA, HEIC, and The Hubble Heritage Team (STScI/AURA)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01219",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "sol",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que astro é este, a estrela no centro do Sistema Solar?",
+    "resposta": "Sol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sun",
+      "https://pt.wikipedia.org/wiki/Sol"
+    ],
+    "imagem": {
+      "arquivo": "q01219.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Our_Sun_at_a_distance_of_150_Mio._km.jpg",
+      "autor": "Burkhard Mücke",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q01220",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nebulosa_de_orion",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de nebulosa é esta, sem forma definida e berçário de estrelas massivas?",
+    "resposta": "Nebulosa difusa",
+    "distratores": [
+      "Nebulosa planetária",
+      "Remanescente de supernova",
+      "Aglomerado globular"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Orion_Nebula",
+      "https://pt.wikipedia.org/wiki/Nebulosa_de_%C3%93rion"
+    ],
+    "imagem": {
+      "arquivo": "q01220.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg",
+      "autor": "NASA, ESA, M. Robberto (Space Telescope Science Institute/ESA) and the Hubble Space Telescope Orion Treasury Project Team",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01221",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "galaxia_do_sombrero",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que galáxia é esta, vista de lado, com um bojo brilhante e uma faixa escura de poeira?",
+    "resposta": "Galáxia do Sombreiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sombrero_Galaxy",
+      "https://pt.wikipedia.org/wiki/Gal%C3%A1xia_do_Sombreiro"
+    ],
+    "imagem": {
+      "arquivo": "q01221.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:M104_ngc4594_sombrero_galaxy_hi-res.jpg",
+      "autor": "NASA/ESA and The Hubble Heritage Team (STScI/AURA)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01222",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nebulosa_do_caranguejo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que nebulosa é esta, remanescente de uma supernova observada por astrônomos chineses e árabes no ano mil e cinquenta e quatro?",
+    "resposta": "Nebulosa do Caranguejo",
+    "distratores": [
+      "Nebulosa do Véu",
+      "Nebulosa da Tarântula",
+      "Cassiopeia A"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crab_Nebula",
+      "https://pt.wikipedia.org/wiki/Nebulosa_do_Caranguejo"
+    ],
+    "imagem": {
+      "arquivo": "q01222.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:25_Images_to_Celebrate_NASA’s_Chandra_25th_Anniversary-_Crab_Nebula_(53893798390).jpg",
+      "autor": "NASA's Marshall Space Flight Center",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01223",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "galaxia_do_rodamoinho",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Esta galáxia foi a primeira a ser classificada como de que tipo?",
+    "resposta": "Galáxia espiral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Whirlpool_Galaxy",
+      "https://pt.wikipedia.org/wiki/Gal%C3%A1xia_do_Rodamoinho"
+    ],
+    "imagem": {
+      "arquivo": "q01223.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:M51_Hubble_Remix.jpg",
+      "autor": "S. Beckwith (STScI), Hubble Heritage Team, (STScI/AURA), ESA, NASA, Additional Processing: Robert Gendler",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01224",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "grande_mancha_vermelha",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que formação atmosférica é esta, a maior tempestade do Sistema Solar?",
+    "resposta": "Grande Mancha Vermelha",
+    "distratores": [
+      "Grande Mancha Escura",
+      "Hexágono de Saturno",
+      "Tempestade Oval BA"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Red_Spot",
+      "https://pt.wikipedia.org/wiki/Grande_Mancha_Vermelha"
+    ],
+    "imagem": {
+      "arquivo": "q01224.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jupiter_-_Great_Red_Spot_-_PJ7-60_61_62_-_Balanced_(49803032983).png",
+      "autor": "Kevin Gill from Los Angeles, CA, United States",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q01225",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nebulosa_da_helice",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de nebulosa é esta, formada pelas camadas de gás expelidas por uma estrela moribunda?",
+    "resposta": "Nebulosa planetária",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Helix_Nebula",
+      "https://pt.wikipedia.org/wiki/Nebulosa_de_H%C3%A9lix"
+    ],
+    "imagem": {
+      "arquivo": "q01225.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NGC_7293.jpg",
+      "autor": "NASA, NOAO, ESA, the Hubble Helix Nebula Team, M. Meixner (STScI), and T.A. Rector (NRAO)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01226",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "telescopio_espacial_hubble",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que astrônomo dá nome a este telescópio espacial lançado em mil novecentos e noventa?",
+    "resposta": "Edwin Hubble",
+    "distratores": [
+      "Edmond Halley",
+      "William Herschel",
+      "Johannes Kepler"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hubble_Space_Telescope",
+      "https://pt.wikipedia.org/wiki/Telesc%C3%B3pio_espacial_Hubble"
+    ],
+    "imagem": {
+      "arquivo": "q01226.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hubble_2009_close-up.jpg",
+      "autor": "NASA",
+      "licenca": "Public domain"
+    }
   }
 ]
