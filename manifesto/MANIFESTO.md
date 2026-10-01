@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.28 — 2026-09-30**
+> **Versão preliminar 0.29 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -154,10 +154,10 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 
 > **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
 
-- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Que personagem do folclore é este?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
 - **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
-- **Âncora e ângulo:** a âncora é o que aparece na figura, e o ângulo é `identidade`. As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
-- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa e personagens de lendas.
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas e obras de arte em domínio público (pinturas, gravuras). Obras com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora.
 - **Um único assunto por imagem:** nada de montagens nem pranchas com várias espécies. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
 - **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
 - **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
@@ -651,3 +651,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.26 | 2026-09-30 | Tabuleiro: a última casa do estágio 1 se estende até o anel numa peça só, sem a faixa mais escura da passagem (só visual) |
 | 0.27 | 2026-09-30 | Figuras: plantas, objetos, festas com brincantes e personagens de lendas (ilustração ou escultura) permitidos; recorte de placas permitido; vinte perguntas de folclore com figura (§6, §13) |
 | 0.28 | 2026-09-30 | Perguntas com figura são de reconhecimento: a resposta sai da imagem ("Que animal é este?"); âncora é o que aparece e o ângulo é `identidade`; exceção para arte de Pokémon do Bulbagarden; as 37 primeiras perguntas com figura foram apagadas, e ids apagados não são reaproveitados (§6, §13) |
+| 0.29 | 2026-09-30 | Figuras: obras de arte em domínio público; o ângulo segue o que se pergunta depois de reconhecer a figura (pintor → `autoria`, museu → `lugar`); dez perguntas de Pintura com figura (§6) |

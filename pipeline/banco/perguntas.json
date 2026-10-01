@@ -5863,5 +5863,225 @@
       "autor": "© Nintendo / Creatures / GAME FREAK",
       "licenca": "Arte oficial; uso privado, sem licença livre"
     }
+  },
+  {
+    "id": "q00403",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_noite_estrelada",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Vincent van Gogh",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Starry_Night"
+    ],
+    "imagem": {
+      "arquivo": "q00403.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+      "autor": "Vincent van Gogh",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00404",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_grito",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é o nome deste quadro?",
+    "resposta": "O Grito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Scream"
+    ],
+    "imagem": {
+      "arquivo": "q00404.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Edvard_Munch,_1893,_The_Scream,_oil,_tempera_and_pastel_on_cardboard,_91_x_73_cm,_National_Gallery_of_Norway.jpg",
+      "autor": "Edvard Munch",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00405",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "moca_com_brinco_de_perola",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Johannes Vermeer",
+    "distratores": [
+      "Rembrandt",
+      "Rubens",
+      "Frans Hals"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring"
+    ],
+    "imagem": {
+      "arquivo": "q00405.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:1665_Girl_with_a_Pearl_Earring.jpg",
+      "autor": "Johannes Vermeer",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00406",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_nascimento_de_venus",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é o nome deste quadro?",
+    "resposta": "O Nascimento de Vênus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Birth_of_Venus"
+    ],
+    "imagem": {
+      "arquivo": "q00406.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+      "autor": "Sandro Botticelli",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00407",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_grande_onda_de_kanagawa",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que artista japonês criou esta gravura?",
+    "resposta": "Hokusai",
+    "distratores": [
+      "Hiroshige",
+      "Utamaro",
+      "Sharaku"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"
+    ],
+    "imagem": {
+      "arquivo": "q00407.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Katsushika_Hokusai_-_The_Great_Wave_off_the_Coast_of_Kanagawa_LCCN2008660568.jpg",
+      "autor": "Katsushika, Hokusai, 1760-1849, artist",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00408",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "independencia_ou_morte_pintura",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que acontecimento da história do Brasil este quadro retrata?",
+    "resposta": "A Independência (o Grito do Ipiranga, em 1822)",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Independência_ou_Morte_(pintura)"
+    ],
+    "imagem": {
+      "arquivo": "q00408.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pedro_Américo_-_Independência_ou_Morte_-_Google_Art_Project.jpg",
+      "autor": "Pedro Américo",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00409",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "caipira_picando_fumo",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Almeida Júnior",
+    "distratores": [
+      "Pedro Américo",
+      "Victor Meirelles",
+      "Eliseu Visconti"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Almeida_J%C3%BAnior"
+    ],
+    "imagem": {
+      "arquivo": "q00409.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Almeida_Júnior_-_Caipira_Cutting_Tobacco_-_Google_Art_Project.jpg",
+      "autor": "José Ferraz de Almeida Júnior",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00410",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_beijo_klimt",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Gustav Klimt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Kiss_(Klimt)"
+    ],
+    "imagem": {
+      "arquivo": "q00410.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg",
+      "autor": "Gustav Klimt",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00411",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_liberdade_guiando_o_povo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que revolução este quadro celebra?",
+    "resposta": "Revolução de Julho, de 1830",
+    "distratores": [
+      "Revolução de 1789",
+      "Revolução de 1848",
+      "Comuna de Paris"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Liberty_Leading_the_People"
+    ],
+    "imagem": {
+      "arquivo": "q00411.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:La_Liberté_guidant_le_peuple_-_Eugène_Delacroix_-_Musée_du_Louvre_Peintures_RF_129_-_après_restauration_2024.jpg",
+      "autor": "Eugène Delacroix",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00412",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "mona_lisa",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que museu fica este quadro?",
+    "resposta": "Museu do Louvre, em Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mona_Lisa"
+    ],
+    "imagem": {
+      "arquivo": "q00412.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+      "autor": "Leonardo da Vinci",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 2
   }
 ]
