@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O passarinho amarelo amigo do Snoopy recebeu o nome de qual evento de 1969?",
+        "resposta": "Festival de Woodstock"
+      },
+      "existentes": [
+        {
+          "id": "q01279",
+          "pergunta": "O festival de Woodstock aconteceu no mesmo verão de que feito histórico da corrida espacial?",
+          "resposta": "Chegada do homem à Lua"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O Zé Carioca nasceu da viagem de Walt Disney ao Brasil em 1941, parte de qual política diplomática dos Estados Unidos?",
+        "resposta": "Política da Boa Vizinhança"
+      },
+      "existentes": [
+        {
+          "id": "q00131",
+          "pergunta": "O papagaio Zé Carioca, da Disney, surgiu em 1942 como parte de qual política americana de aproximação com a América Latina durante a guerra?",
+          "resposta": "Política da Boa Vizinhança"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a origem do nome do Woodstock (passarinho do Snoopy). A existente é sobre qual feito da corrida espacial ocorreu no mesmo verão do festival. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "As duas perguntam qual política americana (Boa Vizinhança) originou o Zé Carioca, com a mesma resposta.",
+      "id_existente": "q00131"
+    }
+  ]
+}

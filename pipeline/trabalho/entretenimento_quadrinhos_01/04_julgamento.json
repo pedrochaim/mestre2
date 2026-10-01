@@ -1,0 +1,1549 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Clark Kent",
+        "descricao": "Identidade secreta do Superman, repórter do Planeta Diário",
+        "variantes": [
+          "Kal-El",
+          "Superman",
+          "Super-Homem"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "super_saiyajin",
+          "nome": "Super Saiyajin",
+          "descricao": "Transformação dos saiyajins em Dragon Ball, marcada pelo cabelo loiro e espetado.",
+          "variantes": [
+            "Super Saiyan",
+            "Super Sayajin"
+          ]
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        },
+        {
+          "id": "super_campeoes",
+          "nome": "Super Campeões",
+          "descricao": "Mangá e anime de futebol de Yoichi Takahashi, protagonizado por Tsubasa Ozora.",
+          "variantes": [
+            "Captain Tsubasa",
+            "Capitão Tsubasa"
+          ]
+        },
+        {
+          "id": "petra",
+          "nome": "Petra",
+          "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Gotham City",
+        "descricao": "Cidade fictícia onde se passam as histórias do Batman",
+        "variantes": [
+          "Gotham"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grand_theft_auto",
+          "nome": "Grand Theft Auto",
+          "descricao": "Série de jogos de mundo aberto da Rockstar Games, iniciada em 1997.",
+          "variantes": [
+            "GTA"
+          ]
+        },
+        {
+          "id": "grand_theft_auto_vice_city",
+          "nome": "Grand Theft Auto: Vice City",
+          "descricao": "Jogo da Rockstar Games de 2002, ambientado numa cidade fictícia nos anos oitenta.",
+          "variantes": [
+            "GTA Vice City"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Stan Lee",
+        "descricao": "Roteirista e editor americano da Marvel, cocriador do Homem-Aranha, do Hulk e do Quarteto Fantástico",
+        "variantes": [
+          "Stanley Lieber"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sableye",
+          "nome": "Sableye",
+          "descricao": "Pokémon dos tipos Sombrio e Fantasma, número 302 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "istambul",
+          "nome": "Istambul",
+          "descricao": "Maior cidade da Turquia, às margens do Bósforo.",
+          "variantes": [
+            "Istanbul",
+            "Constantinopla"
+          ]
+        },
+        {
+          "id": "copa_stanley",
+          "nome": "Copa Stanley",
+          "descricao": "Troféu da liga norte-americana de hóquei no gelo, a NHL.",
+          "variantes": []
+        },
+        {
+          "id": "sans_culottes",
+          "nome": "Sans-culottes",
+          "descricao": "Revolucionários das camadas populares de Paris durante a Revolução Francesa",
+          "variantes": [
+            "Sans-culotte"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Wolverine",
+        "descricao": "Mutante canadense dos X-Men, com garras retráteis de adamantium, criado pela Marvel em 1974",
+        "variantes": [
+          "Logan",
+          "James Howlett"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        },
+        {
+          "id": "belmopan",
+          "nome": "Belmopan",
+          "descricao": "Cidade planejada que é a capital de Belize desde 1970.",
+          "variantes": []
+        },
+        {
+          "id": "vodca",
+          "nome": "Vodca",
+          "descricao": "Bebida destilada incolor tradicional da Rússia, da Polônia e de outros países do Leste Europeu",
+          "variantes": [
+            "Vodka",
+            "Vodga"
+          ]
+        },
+        {
+          "id": "lugia",
+          "nome": "Lugia",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 249 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Watchmen",
+        "descricao": "Série em quadrinhos de Alan Moore e Dave Gibbons, publicada pela DC entre 1986 e 1987",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lamen",
+          "nome": "Lámen",
+          "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+          "variantes": [
+            "Ramen",
+            "Rámen"
+          ]
+        },
+        {
+          "id": "bolso_relojoeiro",
+          "nome": "Bolso relojoeiro",
+          "descricao": "Bolsinho costurado dentro do bolso dianteiro direito das calças jeans",
+          "variantes": [
+            "Watch pocket",
+            "Bolsinho do jeans"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Hergé",
+        "descricao": "Quadrinista belga, criador de Tintim",
+        "variantes": [
+          "Georges Remi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hermes",
+          "nome": "Hermès",
+          "descricao": "Grife francesa de artigos de luxo fundada em Paris em 1837 por Thierry Hermès",
+          "variantes": [
+            "Hermès International"
+          ]
+        },
+        {
+          "id": "george_weah",
+          "nome": "George Weah",
+          "descricao": "Atacante liberiano, Bola de Ouro de 1995, que depois foi presidente da Libéria.",
+          "variantes": [
+            "George Manneh Oppong Weah"
+          ]
+        },
+        {
+          "id": "george_lazenby",
+          "nome": "George Lazenby",
+          "descricao": "Ator australiano que estrelou o filme 007 a Serviço Secreto de Sua Majestade, de 1969.",
+          "variantes": []
+        },
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        },
+        {
+          "id": "gola_rufo",
+          "nome": "Gola rufo",
+          "descricao": "Gola franzida e engomada, redonda, usada na Europa entre meados do século XVI e meados do XVII.",
+          "variantes": [
+            "Rufo",
+            "Gorgeira",
+            "Ruff"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Asterix",
+        "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+        "variantes": [
+          "Astérix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atari",
+          "nome": "Atari",
+          "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney.",
+          "variantes": [
+            "Atari, Inc.",
+            "Atari Inc."
+          ]
+        },
+        {
+          "id": "bandeira_da_australia",
+          "nome": "Bandeira da Austrália",
+          "descricao": "Bandeira nacional da Austrália, azul com Union Jack no canto, estrela da Comunidade e cinco estrelas do Cruzeiro do Sul.",
+          "variantes": [
+            "Austrália"
+          ]
+        },
+        {
+          "id": "atletico_de_madrid",
+          "nome": "Atlético de Madrid",
+          "descricao": "Club Atlético de Madrid, clube de futebol da capital espanhola fundado em 1903.",
+          "variantes": [
+            "Club Atlético de Madrid",
+            "Atlético Madrid",
+            "Athletic Club de Madrid",
+            "Atleti"
+          ]
+        },
+        {
+          "id": "castor",
+          "nome": "Castor",
+          "descricao": "Roedor semiaquático do gênero Castor, conhecido por construir diques.",
+          "variantes": [
+            "Beaver"
+          ]
+        },
+        {
+          "id": "arroba_simbolo",
+          "nome": "Arroba (símbolo)",
+          "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
+          "variantes": [
+            "@",
+            "At sign",
+            "Hanami",
+            "Tetris"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Os Smurfs",
+        "descricao": "Criaturinhas azuis criadas pelo quadrinista belga Peyo em 1958",
+        "variantes": [
+          "Les Schtroumpfs",
+          "Smurfs"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mufasa",
+          "nome": "Mufasa",
+          "descricao": "Rei leão, pai de Simba, no filme de animação O Rei Leão, da Disney, de 1994.",
+          "variantes": []
+        },
+        {
+          "id": "os_simpsons",
+          "nome": "Os Simpsons",
+          "descricao": "Série animada americana criada por Matt Groening, sobre uma família da cidade fictícia de Springfield.",
+          "variantes": [
+            "The Simpsons"
+          ]
+        },
+        {
+          "id": "os_mutantes",
+          "nome": "Os Mutantes",
+          "descricao": "Banda de rock paulistana ligada à Tropicália, formada em 1966.",
+          "variantes": [
+            "Mutantes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Haroldo",
+        "descricao": "Tigre de pelúcia, amigo imaginário de Calvin na tira Calvin e Haroldo, de Bill Watterson",
+        "variantes": [
+          "Hobbes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fobos",
+          "nome": "Fobos",
+          "descricao": "A maior das duas luas do planeta Marte.",
+          "variantes": [
+            "Phobos"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light"
+          ]
+        },
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        },
+        {
+          "id": "obelisco",
+          "nome": "Obelisco",
+          "descricao": "Monumento egípcio de pedra, alto e de quatro faces, que termina em ponta piramidal",
+          "variantes": [
+            "Obelisk",
+            "Tekhenu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Magali",
+        "descricao": "Personagem comilona da Turma da Mônica, de Mauricio de Sousa",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "javali",
+          "nome": "Javali",
+          "descricao": "Suíno selvagem (Sus scrofa) nativo da Eurásia e do norte da África, ancestral do porco doméstico.",
+          "variantes": [
+            "Javali-europeu",
+            "Sus scrofa"
+          ]
+        },
+        {
+          "id": "mapinguari",
+          "nome": "Mapinguari",
+          "descricao": "Monstro peludo do folclore amazônico, descrito com um só olho e uma boca na barriga.",
+          "variantes": [
+            "Mapinguary"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Coringa",
+        "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
+        "variantes": [
+          "Joker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        },
+        {
+          "id": "curling",
+          "nome": "Curling",
+          "descricao": "Esporte de inverno em que se desliza uma pedra de granito no gelo até um alvo.",
+          "variantes": []
+        },
+        {
+          "id": "formiga",
+          "nome": "Formiga",
+          "descricao": "Miraildes Maciel Mota, volante da seleção brasileira feminina entre 1995 e 2021.",
+          "variantes": [
+            "Miraildes Maciel Mota"
+          ]
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "William Moulton Marston",
+        "descricao": "Psicólogo americano que criou a Mulher-Maravilha em 1941",
+        "variantes": [
+          "Charles Moulton"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "charles_miller",
+          "nome": "Charles Miller",
+          "descricao": "Charles William Miller, paulistano filho de britânicos, considerado o introdutor do futebol no Brasil.",
+          "variantes": [
+            "Charles William Miller"
+          ]
+        },
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        },
+        {
+          "id": "charles_darwin",
+          "nome": "Charles Darwin",
+          "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+          "variantes": [
+            "Charles Robert Darwin"
+          ]
+        },
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        },
+        {
+          "id": "tendao_de_aquiles",
+          "nome": "Tendão de Aquiles",
+          "descricao": "Tendão que liga os músculos da panturrilha ao osso do calcanhar.",
+          "variantes": [
+            "Tendão calcâneo",
+            "Achilles tendon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Chiquinho (O Tico-Tico)",
+        "descricao": "Personagem principal da revista infantil brasileira O Tico-Tico, lançada em 1905",
+        "variantes": [
+          "Chiquinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "biquini",
+          "nome": "Biquíni",
+          "descricao": "Traje de banho feminino de duas peças lançado pelo francês Louis Réard em 1946.",
+          "variantes": [
+            "Bikini"
+          ]
+        },
+        {
+          "id": "quimono",
+          "nome": "Quimono",
+          "descricao": "Vestimenta tradicional japonesa em forma de T, com mangas largas e presa por uma faixa chamada obi",
+          "variantes": [
+            "Kimono"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Homem-Aranha",
+        "descricao": "Super-herói da Marvel criado por Stan Lee e Steve Ditko em 1962, identidade de Peter Parker",
+        "variantes": [
+          "Spider-Man",
+          "Peter Parker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "nomes_akan",
+          "nome": "Nomes akan",
+          "descricao": "Sistema tradicional de nomes do povo akan, de Gana, em que o nome indica o dia da semana do nascimento.",
+          "variantes": [
+            "Akan names",
+            "Nomes do dia akan"
+          ]
+        },
+        {
+          "id": "super_saiyajin",
+          "nome": "Super Saiyajin",
+          "descricao": "Transformação dos saiyajins em Dragon Ball, marcada pelo cabelo loiro e espetado.",
+          "variantes": [
+            "Super Saiyan",
+            "Super Sayajin"
+          ]
+        },
+        {
+          "id": "pisadeira",
+          "nome": "Pisadeira",
+          "descricao": "Figura do folclore do Sudeste brasileiro, uma velha que pisa no peito de quem dorme de barriga cheia.",
+          "variantes": []
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Hulk",
+        "descricao": "Monstro da Marvel, alter ego do cientista Bruce Banner, criado por Stan Lee e Jack Kirby em 1962",
+        "variantes": [
+          "Incrível Hulk",
+          "Bruce Banner"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_incrivel_hulk_serie_de_1977",
+          "nome": "O Incrível Hulk (série de 1977)",
+          "descricao": "Série americana exibida de 1977 a 1982, com Bill Bixby como o cientista David Banner e Lou Ferrigno como o Hulk.",
+          "variantes": [
+            "The Incredible Hulk"
+          ]
+        },
+        {
+          "id": "roque_santeiro",
+          "nome": "Roque Santeiro",
+          "descricao": "Telenovela da Rede Globo escrita por Dias Gomes e Aguinaldo Silva, exibida em 1985.",
+          "variantes": []
+        },
+        {
+          "id": "arcanine",
+          "nome": "Arcanine",
+          "descricao": "Pokémon do tipo Fogo, número 59 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Obelix",
+        "descricao": "Gaulês gigante, carregador de menires e melhor amigo de Asterix",
+        "variantes": [
+          "Obélix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "obelisco",
+          "nome": "Obelisco",
+          "descricao": "Monumento egípcio de pedra, alto e de quatro faces, que termina em ponta piramidal",
+          "variantes": [
+            "Obelisk",
+            "Tekhenu"
+          ]
+        },
+        {
+          "id": "onix",
+          "nome": "Onix",
+          "descricao": "Pokémon dos tipos Pedra e Terra, número 95 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "joel",
+          "nome": "Joel",
+          "descricao": "Protagonista do jogo The Last of Us, da Naughty Dog, e da série de TV baseada nele.",
+          "variantes": [
+            "Joel Miller"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Mafalda",
+        "descricao": "Menina contestadora criada pelo cartunista argentino Quino",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "marmalade",
+          "nome": "Marmalade",
+          "descricao": "Geleia de frutas cítricas típica da Grã-Bretanha, cujo nome vem do português",
+          "variantes": [
+            "Marmelada"
+          ]
+        },
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "mayday",
+          "nome": "Mayday",
+          "descricao": "Palavra usada internacionalmente no rádio como pedido de socorro por aviões e navios.",
+          "variantes": [
+            "Mayday (sinal de socorro)"
+          ]
+        },
+        {
+          "id": "mufasa",
+          "nome": "Mufasa",
+          "descricao": "Rei leão, pai de Simba, no filme de animação O Rei Leão, da Disney, de 1994.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Comics Code Authority",
+        "descricao": "Órgão de autocensura criado pelas editoras americanas de quadrinhos em 1954",
+        "variantes": [
+          "Comics Code"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "codigo_konami",
+          "nome": "Código Konami",
+          "descricao": "Sequência de botões usada como truque em jogos da Konami, criada por Kazuhisa Hashimoto.",
+          "variantes": [
+            "Konami Code",
+            "Contra Code"
+          ]
+        },
+        {
+          "id": "concorde",
+          "nome": "Concorde",
+          "descricao": "Avião comercial supersônico franco-britânico que operou de 1976 a 2003.",
+          "variantes": [
+            "Aérospatiale-BAC Concorde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Dia do Quadrinho Nacional",
+        "descricao": "Data comemorativa brasileira celebrada em 30 de janeiro",
+        "variantes": [
+          "Dia Nacional dos Quadrinhos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro"
+          ]
+        },
+        {
+          "id": "bandeira_do_reino_unido",
+          "nome": "Bandeira do Reino Unido",
+          "descricao": "Bandeira nacional do Reino Unido, a Union Jack, que combina as cruzes de São Jorge, Santo André e São Patrício.",
+          "variantes": [
+            "Reino Unido",
+            "Union Jack",
+            "Union Flag"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Jason Todd",
+        "descricao": "Segundo jovem a usar o uniforme de Robin, parceiro do Batman",
+        "variantes": [
+          "Capuz Vermelho",
+          "Red Hood"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canguru_vermelho",
+          "nome": "Canguru-vermelho",
+          "descricao": "Maior dos cangurus e maior marsupial vivo, da Austrália continental (Osphranter rufus).",
+          "variantes": [
+            "Osphranter rufus",
+            "Macropus rufus",
+            "Red kangaroo"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "panda_vermelho",
+          "nome": "Panda-vermelho",
+          "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens.",
+          "variantes": [
+            "Red panda",
+            "Ailurus fulgens"
+          ]
+        },
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Calvin e Haroldo",
+        "descricao": "Tira de jornal do americano Bill Watterson sobre um menino e seu tigre",
+        "variantes": [
+          "Calvin and Hobbes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "as_viagens_de_marco_polo",
+          "nome": "As Viagens de Marco Polo",
+          "descricao": "Relato das viagens de Marco Polo pela Ásia, escrito por Rustichello de Pisa por volta de 1300.",
+          "variantes": [
+            "O Livro das Maravilhas",
+            "Il Milione",
+            "The Travels of Marco Polo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Tintim",
+        "descricao": "Jovem repórter belga criado por Hergé em 1929, protagonista de As Aventuras de Tintim",
+        "variantes": [
+          "Tintin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "albert_einstein",
+          "nome": "Albert Einstein",
+          "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+          "variantes": [
+            "Einstein"
+          ]
+        },
+        {
+          "id": "cintilacao_estelar",
+          "nome": "Cintilação estelar",
+          "descricao": "Variação rápida do brilho das estrelas vistas da superfície da Terra, o popular piscar das estrelas.",
+          "variantes": [
+            "Cintilação",
+            "Twinkling"
+          ]
+        },
+        {
+          "id": "inti_raymi",
+          "nome": "Inti Raymi",
+          "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+          "variantes": [
+            "Festa do Sol"
+          ]
+        },
+        {
+          "id": "quindim",
+          "nome": "Quindim",
+          "descricao": "Doce brasileiro assado, amarelo e brilhante, de herança portuguesa",
+          "variantes": []
+        },
+        {
+          "id": "rms_titanic",
+          "nome": "RMS Titanic",
+          "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+          "variantes": [
+            "Titanic"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Tex Willer",
+        "descricao": "Caubói ranger protagonista de uma longeva série de faroeste em quadrinhos, criada em 1948",
+        "variantes": [
+          "Tex"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "thriller",
+          "nome": "Thriller",
+          "descricao": "Álbum de Michael Jackson produzido por Quincy Jones",
+          "variantes": []
+        },
+        {
+          "id": "joel",
+          "nome": "Joel",
+          "descricao": "Protagonista do jogo The Last of Us, da Naughty Dog, e da série de TV baseada nele.",
+          "variantes": [
+            "Joel Miller"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Piratas do Tietê",
+        "descricao": "Série de quadrinhos de humor do cartunista Laerte sobre um bando de piratas em São Paulo",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "expresso_do_oriente",
+          "nome": "Expresso do Oriente",
+          "descricao": "Serviço ferroviário de luxo criado em 1883 entre Paris e Constantinopla.",
+          "variantes": [
+            "Orient Express",
+            "Orient-Express"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Batman",
+        "descricao": "Super-herói da DC, identidade de Bruce Wayne, estreou em 1939",
+        "variantes": [
+          "Homem-Morcego",
+          "Bruce Wayne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        },
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Tio Patinhas",
+        "descricao": "Pato bilionário e avarento da Disney, tio do Pato Donald",
+        "variantes": [
+          "Scrooge McDuck"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tomatina",
+          "nome": "Tomatina",
+          "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+          "variantes": [
+            "La Tomatina"
+          ]
+        },
+        {
+          "id": "forca_expedicionaria_brasileira",
+          "nome": "Força Expedicionária Brasileira",
+          "descricao": "Força militar brasileira que lutou ao lado dos Aliados na campanha da Itália, entre 1944 e 1945.",
+          "variantes": [
+            "FEB",
+            "Brazilian Expeditionary Force",
+            "Pracinhas"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos"
+          ]
+        },
+        {
+          "id": "tim_maia",
+          "nome": "Tim Maia",
+          "descricao": "Sebastião Rodrigues Maia, cantor e compositor carioca, nome central do soul brasileiro.",
+          "variantes": [
+            "Sebastião Rodrigues Maia"
+          ]
+        },
+        {
+          "id": "vinicius_de_moraes",
+          "nome": "Vinicius de Moraes",
+          "descricao": "Poeta, compositor e diplomata carioca, parceiro de Tom Jobim na bossa nova.",
+          "variantes": [
+            "Poetinha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Mandrake",
+        "descricao": "Mágico de cartola protagonista de tiras de jornal americanas lançadas em 1934",
+        "variantes": [
+          "Mandrake the Magician",
+          "Mandrake, o Mágico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura"
+          ]
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "mandioca",
+          "nome": "Mandioca",
+          "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+          "variantes": [
+            "Aipim",
+            "Macaxeira",
+            "Manihot esculenta"
+          ]
+        },
+        {
+          "id": "bolo_da_lua",
+          "nome": "Bolo da lua",
+          "descricao": "Bolo chinês redondo e recheado, tradicionalmente oferecido e comido numa festa do calendário lunar",
+          "variantes": [
+            "Mooncake",
+            "Yuebing"
+          ]
+        },
+        {
+          "id": "alexandre_o_grande",
+          "nome": "Alexandre, o Grande",
+          "descricao": "Rei da Macedônia que conquistou o Império Persa e chegou ao noroeste da Índia no século quatro a.C.",
+          "variantes": [
+            "Alexandre Magno",
+            "Alexandre III da Macedônia",
+            "Alexander the Great"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Persépolis",
+        "descricao": "Romance gráfico autobiográfico sobre uma infância no Irã, publicado na França a partir de 2000",
+        "variantes": [
+          "Persepolis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "O Menino Maluquinho",
+        "descricao": "Personagem de Ziraldo, criado em livro de 1980 e depois levado aos quadrinhos",
+        "variantes": [
+          "Menino Maluquinho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pupila",
+          "nome": "Pupila",
+          "descricao": "Abertura escura no centro da íris, por onde a luz entra no olho.",
+          "variantes": [
+            "Menina dos olhos",
+            "Pupil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Capitão América",
+        "descricao": "Super-herói patriótico criado por Joe Simon e Jack Kirby, estreou em 1941",
+        "variantes": [
+          "Captain America",
+          "Steve Rogers"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "super_campeoes",
+          "nome": "Super Campeões",
+          "descricao": "Mangá e anime de futebol de Yoichi Takahashi, protagonizado por Tsubasa Ozora.",
+          "variantes": [
+            "Captain Tsubasa",
+            "Capitão Tsubasa"
+          ]
+        },
+        {
+          "id": "copa_libertadores_da_america",
+          "nome": "Copa Libertadores da América",
+          "descricao": "Principal torneio de clubes da América do Sul, organizado pela Conmebol desde 1960.",
+          "variantes": [
+            "Libertadores",
+            "Copa Libertadores",
+            "Conmebol Libertadores"
+          ]
+        },
+        {
+          "id": "gotico_americano",
+          "nome": "Gótico Americano",
+          "descricao": "Quadro de Grant Wood de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "doze_uvas_da_sorte",
+          "nome": "Doze uvas da sorte",
+          "descricao": "Costume espanhol de comer uvas acompanhando as badaladas da meia-noite do Ano-Novo.",
+          "variantes": [
+            "Las doce uvas",
+            "Twelve Grapes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Maus",
+        "descricao": "Romance gráfico de Art Spiegelman sobre o Holocausto, vivido por seu pai",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "urano",
+          "nome": "Urano",
+          "descricao": "Sétimo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Uranus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Los Três Amigos",
+        "descricao": "Trio de cartunistas paulistas que publicou histórias em conjunto nos anos 1980",
+        "variantes": [
+          "Los 3 Amigos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "as_respigadoras",
+          "nome": "As Respigadoras",
+          "descricao": "Quadro de Jean-François Millet de 1857.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Clark Kent/Superman."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Gotham City não é nenhuma das candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Stan Lee não consta nas candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Wolverine personagem não é nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Watchmen não consta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Hergé não consta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Asterix não consta."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Os Smurfs não consta."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Haroldo/Hobbes não consta."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Magali não consta."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Coringa não consta."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Marston não consta."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Chiquinho não consta."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Homem-Aranha não consta."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "O personagem Hulk é distinto da série de 1977."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Obelix não é obelisco."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Mafalda não consta."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Comics Code Authority não consta."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Dia do Quadrinho Nacional não consta."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Jason Todd não consta."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Calvin e Haroldo não consta."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Tintim não consta."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Tex Willer não consta."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Piratas do Tietê não consta."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Batman não é morcego."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Tio Patinhas não consta."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Mandrake não consta."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Persépolis não é presépio."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Menino Maluquinho não consta."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Capitão América não consta."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Maus (HQ) não consta."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Los Três Amigos não consta."
+    }
+  ]
+}

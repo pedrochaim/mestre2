@@ -1,0 +1,376 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte baixada é a página da planta, não do personagem, e a resposta 'cinco fios' é praticamente entregue pelo 'Five' do enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shuster disse que o nome veio de Clark Gable e Kent Taylor; enunciado literalmente correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma Gotham como apelido de Nova York popularizado por Washington Irving.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Stan Lee afirmava usar iniciais repetidas para lembrar os nomes; fato conhecido e curioso, com ângulo nome adequado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O animal também é chamado glutão em português, então 'carcaju' sozinho não é resposta única.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Em português, qual animal dá nome ao herói Wolverine?",
+        "resposta": "Glutão (também chamado carcaju)",
+        "distratores": [
+          "Texugo",
+          "Lince",
+          "Coiote"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Carcaju",
+          "https://en.wikipedia.org/wiki/Wolverine_(character)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte atribui a frase ao satirista romano Juvenal; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hergé vem da pronúncia francesa das iniciais invertidas R.G.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português confirma que o nome vem de astérisque.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Peyo esqueceu a palavra 'sal' à mesa e disse 'schtroumpf'.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hobbes recebeu o nome do filósofo Thomas Hobbes, confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "DC é abreviação de Detective Comics, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte diz que Woodstock leva o nome do festival de 1969.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mauricio de Sousa criou Mônica e Magali inspirado em filhas homônimas.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "'Chiclete com Banana' é sucesso de Jackson do Pandeiro, paraibano, de 1959; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A letra cita o irmão do Henfil, Betinho; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte diz que foi infectado em transfusões por causa da hemofilia.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fontes confirmam Conrad Veidt em O Homem que Ri (1928) como inspiração.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marston ajudou a criar um protótipo do polígrafo; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A máscara de V é de Guy Fawkes, da Conspiração da Pólvora de 1605.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Snoopy duela com o Barão Vermelho, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chiquinho era cópia não autorizada de Buster Brown.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wade Wilson é piada interna com Slade Wilson, o Deathstroke/Exterminador.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morte do tio Ben é o motor da virada do herói; fontes coerentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Amazing Fantasy #15 foi a última edição da antologia e estreou o Homem-Aranha.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português atribui a troca de cinza para verde a problemas de impressão.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obelix caiu na poção quando bebê e tem força permanente; resposta sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mafalda nasceu para propaganda da Mansfield, de eletrodomésticos, que não saiu.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português diz que Mafalda odeia sopa.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zé Carioca surgiu da Política da Boa Vizinhança, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seduction of the Innocent, de Wertham (1954), motivou a criação do Comics Code.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A data lembra a publicação de As Aventuras de Nhô Quim em 30/01/1869.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A morte de Jason Todd foi decidida por votação telefônica dos leitores.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Watterson recusou licenciar os personagens; fontes confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Última tira em 31/12/1995, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Siegel e Shuster se conheceram na Glenville High School, em Cleveland.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que os US$130 pagaram a primeira história, e não os direitos; o enunciado afirma que foram pela venda dos direitos.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "aberta",
+        "pergunta": "Em 1938, quantos dólares a editora pagou a Siegel e Shuster pela primeira história do Superman?",
+        "resposta": "130 dólares",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Superman"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A primeira aventura, de 1929, leva Tintim à União Soviética.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tex foi criado na Itália, por Bonelli e Galleppini.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Piratas do Tietê navegam o rio Tietê, em São Paulo.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bill Finger recebeu o primeiro crédito formal como cocriador em outubro de 2015.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carl Barks criou o Tio Patinhas em história de Natal de 1947.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lee Falk criou Mandrake e o Fantasma.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Persépolis é de Marjane Satrapi e cobre a infância na Revolução Iraniana.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Menino Maluquinho usa uma panela na cabeça.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lucky Luke atira mais rápido que a própria sombra.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A capa da edição 1 mostra o Capitão América socando Hitler.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Johnny Storm, o Tocha Humana, é o irmão mais novo de Sue Storm; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Em Maus, alemães são gatos; resposta confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Los Três Amigos eram Angeli, Glauco e Laerte.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explorando a Lua foi serializado em 1952-53 e publicado em 1954.",
+      "reescrita": null
+    }
+  ]
+}

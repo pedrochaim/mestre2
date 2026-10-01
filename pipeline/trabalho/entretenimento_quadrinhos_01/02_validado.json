@@ -1,0 +1,1177 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Cebolinha",
+        "descricao": "Personagem da Turma da Mônica, criado por Mauricio de Sousa, que troca o R pelo L ao falar",
+        "variantes": [
+          "Jimmy Five"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cebolinha"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Nas versões em inglês da Turma da Mônica, o Cebolinha se chama Jimmy Five. A que se refere esse número?",
+      "resposta": "Aos cinco fios de cabelo dele",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cebolinha"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Clark Kent",
+        "descricao": "Identidade secreta do Superman, repórter do Planeta Diário",
+        "variantes": [
+          "Kal-El"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Clark_Kent"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome da identidade secreta do Superman foi tirado de dois atores de Hollywood. Um deles é qual galã de E o Vento Levou?",
+      "resposta": "Clark Gable",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Clark_Kent"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Gotham City",
+        "descricao": "Cidade fictícia onde se passam as histórias do Batman",
+        "variantes": [
+          "Gotham"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gotham_City"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Gotham, a cidade do Batman, também é um apelido antigo, popularizado pelo escritor Washington Irving, de qual metrópole real?",
+      "resposta": "Nova York",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gotham_City"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Stan Lee",
+        "descricao": "Roteirista e editor americano da Marvel, cocriador do Homem-Aranha, do Hulk e do Quarteto Fantástico",
+        "variantes": [
+          "Stanley Lieber"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stan_Lee"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Peter Parker, Bruce Banner, Reed Richards: por que Stan Lee gostava de dar aos heróis nomes com as mesmas iniciais?",
+      "resposta": "Para não esquecer os nomes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stan_Lee",
+        "https://en.wikipedia.org/wiki/Spider-Man"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Wolverine",
+        "descricao": "Mutante canadense dos X-Men, com garras retráteis de adamantium, criado pela Marvel em 1974",
+        "variantes": [
+          "Logan",
+          "James Howlett"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wolverine_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Em português, como se chama o animal que dá nome ao herói Wolverine?",
+      "resposta": "Carcaju",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wolverine_(character)",
+        "https://pt.wikipedia.org/wiki/Carcaju"
+      ],
+      "distratores": [
+        "Texugo",
+        "Lince",
+        "Coiote"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Watchmen",
+        "descricao": "Série em quadrinhos de Alan Moore e Dave Gibbons, publicada pela DC entre 1986 e 1987",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Watchmen"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O título Watchmen vem da pergunta quem vigia os vigilantes, escrita por qual poeta da Roma Antiga?",
+      "resposta": "Juvenal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Watchmen"
+      ],
+      "distratores": [
+        "Virgílio",
+        "Ovídio",
+        "Catulo"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Hergé",
+        "descricao": "Quadrinista belga, criador de Tintim",
+        "variantes": [
+          "Georges Remi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Herg%C3%A9"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O belga Georges Remi assinava Tintim como Hergé. De onde vem esse pseudônimo?",
+      "resposta": "Das iniciais invertidas, R G",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Herg%C3%A9",
+        "https://pt.wikipedia.org/wiki/Herg%C3%A9"
+      ]
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Asterix",
+        "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+        "variantes": [
+          "Astérix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Asterix"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do gaulês Asterix é uma brincadeira com qual sinal tipográfico?",
+      "resposta": "Asterisco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Asterix",
+        "https://en.wikipedia.org/wiki/Asterix_(character)"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Os Smurfs",
+        "descricao": "Criaturinhas azuis criadas pelo quadrinista belga Peyo em 1958",
+        "variantes": [
+          "Les Schtroumpfs",
+          "Smurfs"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Smurfs"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra que deu origem aos Smurfs surgiu quando o belga Peyo, num jantar, esqueceu o nome de que item da mesa?",
+      "resposta": "Sal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Smurfs"
+      ],
+      "distratores": [
+        "Pimenta",
+        "Garfo",
+        "Guardanapo"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Haroldo",
+        "descricao": "Tigre de pelúcia, amigo imaginário de Calvin na tira Calvin e Haroldo, de Bill Watterson",
+        "variantes": [
+          "Hobbes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Calvin_and_Hobbes"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No original em inglês, o tigre Haroldo, amigo de Calvin, leva o nome de qual filósofo inglês, autor do Leviatã?",
+      "resposta": "Thomas Hobbes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Calvin_and_Hobbes"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "DC Comics",
+        "descricao": "Editora americana de quadrinhos, casa do Superman e do Batman",
+        "variantes": [
+          "DC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/DC_Comics"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "As letras D e C, que dão nome à editora do Superman e do Batman, vêm do título de qual revista?",
+      "resposta": "Detective Comics",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/DC_Comics",
+        "https://en.wikipedia.org/wiki/Detective_Comics"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Woodstock (Peanuts)",
+        "descricao": "Passarinho amarelo, melhor amigo do Snoopy na tira Peanuts, de Charles Schulz",
+        "variantes": [
+          "Woodstock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Woodstock_(Peanuts)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O passarinho amarelo amigo do Snoopy recebeu o nome de qual evento de 1969?",
+      "resposta": "Festival de Woodstock",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Woodstock_(Peanuts)"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Magali",
+        "descricao": "Personagem comilona da Turma da Mônica, de Mauricio de Sousa",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Turma_da_M%C3%B4nica"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Além de amigas nos quadrinhos, o que Mônica e Magali têm em comum na vida real de Mauricio de Sousa?",
+      "resposta": "Foram inspiradas em filhas dele",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mauricio_de_Sousa",
+        "https://pt.wikipedia.org/wiki/Turma_da_M%C3%B4nica"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Chiclete com Banana (revista)",
+        "descricao": "Revista em quadrinhos de humor do cartunista Angeli, lançada em 1985",
+        "variantes": [
+          "Chiclete com Banana"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Angeli"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A revista Chiclete com Banana, de Angeli, divide o nome com um sucesso de 1959 na voz de qual cantor paraibano?",
+      "resposta": "Jackson do Pandeiro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Angeli",
+        "https://pt.wikipedia.org/wiki/Jackson_do_Pandeiro"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Henfil",
+        "descricao": "Cartunista mineiro, criador da Graúna e dos Fradinhos",
+        "variantes": [
+          "Henrique de Souza Filho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Henfil"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na canção O Bêbado e a Equilibrista, eternizada por Elis Regina, o Brasil sonha com a volta do irmão de qual cartunista?",
+      "resposta": "Henfil",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_B%C3%AAbado_e_a_Equilibrista",
+        "https://pt.wikipedia.org/wiki/Henfil"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Henfil",
+        "descricao": "Cartunista mineiro, criador da Graúna e dos Fradinhos",
+        "variantes": [
+          "Henrique de Souza Filho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Henfil"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O cartunista Henfil, criador da Graúna, era hemofílico. De que forma ele contraiu o vírus da aids?",
+      "resposta": "Numa transfusão de sangue",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Henfil"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Coringa",
+        "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
+        "variantes": [
+          "Joker"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Joker_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O sorriso do Coringa foi inspirado no ator Conrad Veidt em qual filme mudo de 1928?",
+      "resposta": "O Homem que Ri",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Joker_(character)",
+        "https://en.wikipedia.org/wiki/The_Man_Who_Laughs_(1928_film)"
+      ],
+      "distratores": [
+        "Nosferatu",
+        "Metrópolis",
+        "O Golem"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "William Moulton Marston",
+        "descricao": "Psicólogo americano que criou a Mulher-Maravilha em 1941",
+        "variantes": [
+          "Charles Moulton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/William_Moulton_Marston"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O psicólogo que criou a Mulher-Maravilha, dona do Laço da Verdade, ajudou a desenvolver qual aparelho da vida real?",
+      "resposta": "Detector de mentiras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/William_Moulton_Marston"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "V de Vingança",
+        "descricao": "Série em quadrinhos de Alan Moore e David Lloyd sobre um anarquista mascarado numa Inglaterra fascista",
+        "variantes": [
+          "V for Vendetta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/V_for_Vendetta"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A máscara usada pelo anarquista V, de Alan Moore, reproduz o rosto de qual conspirador inglês de 1605?",
+      "resposta": "Guy Fawkes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/V_for_Vendetta",
+        "https://en.wikipedia.org/wiki/Guy_Fawkes_mask"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Snoopy",
+        "descricao": "Cachorro beagle da tira Peanuts, de Charles Schulz",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Snoopy"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em suas fantasias de piloto, voando sobre a casinha, contra qual ás alemão da Primeira Guerra o Snoopy duela?",
+      "resposta": "Barão Vermelho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Snoopy"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Chiquinho (O Tico-Tico)",
+        "descricao": "Personagem principal da revista infantil brasileira O Tico-Tico, lançada em 1905",
+        "variantes": [
+          "Chiquinho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Tico-Tico"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Chiquinho, astro da revista infantil O Tico-Tico, lançada em 1905, era na verdade uma cópia de qual personagem americano?",
+      "resposta": "Buster Brown",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Tico-Tico",
+        "https://en.wikipedia.org/wiki/Buster_Brown"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Deadpool",
+        "descricao": "Mercenário tagarela da Marvel, criado por Rob Liefeld e Fabian Nicieza em 1991",
+        "variantes": [
+          "Wade Wilson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Deadpool"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O nome civil de Deadpool, Wade Wilson, é uma piada com o nome de qual mercenário da DC, chamado Slade Wilson?",
+      "resposta": "Exterminador (Deathstroke)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deadpool"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Homem-Aranha",
+        "descricao": "Super-herói da Marvel criado por Stan Lee e Steve Ditko em 1962, identidade de Peter Parker",
+        "variantes": [
+          "Spider-Man",
+          "Peter Parker"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spider-Man"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que tragédia familiar fez Peter Parker deixar o egoísmo de lado e usar seus poderes como herói?",
+      "resposta": "O assassinato do tio Ben",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spider-Man",
+        "https://en.wikipedia.org/wiki/Uncle_Ben"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Homem-Aranha",
+        "descricao": "Super-herói da Marvel criado por Stan Lee e Steve Ditko em 1962, identidade de Peter Parker",
+        "variantes": [
+          "Spider-Man",
+          "Peter Parker"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spider-Man"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1962, o Homem-Aranha estreou na última edição de qual revista de antologia da Marvel?",
+      "resposta": "Amazing Fantasy",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Amazing_Fantasy",
+        "https://en.wikipedia.org/wiki/Spider-Man"
+      ],
+      "distratores": [
+        "Tales of Suspense",
+        "Strange Tales",
+        "Journey into Mystery"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Hulk",
+        "descricao": "Monstro da Marvel, alter ego do cientista Bruce Banner, criado por Stan Lee e Jack Kirby em 1962",
+        "variantes": [
+          "Incrível Hulk",
+          "Bruce Banner"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hulk"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Hulk estreou cinza em 1962, mas logo na segunda edição ficou verde. Qual foi o motivo da troca?",
+      "resposta": "O cinza saía mal na impressão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hulk"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Obelix",
+        "descricao": "Gaulês gigante, carregador de menires e melhor amigo de Asterix",
+        "variantes": [
+          "Obélix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Obelix"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que Obelix é proibido pelo druida Panoramix de tomar a poção mágica?",
+      "resposta": "Caiu no caldeirão quando bebê",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Obelix"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Mafalda",
+        "descricao": "Menina contestadora criada pelo cartunista argentino Quino",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mafalda"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Mafalda foi criada por Quino para uma campanha publicitária que nunca saiu. Que tipo de produto ela anunciaria?",
+      "resposta": "Eletrodomésticos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mafalda"
+      ],
+      "distratores": [
+        "Chocolates",
+        "Sabão em pó",
+        "Cigarros"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Mafalda",
+        "descricao": "Menina contestadora criada pelo cartunista argentino Quino",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mafalda"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Que comida a Mafalda, a menina contestadora do argentino Quino, detesta acima de tudo?",
+      "resposta": "Sopa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mafalda"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Zé Carioca",
+        "descricao": "Papagaio malandro carioca criado pelos estúdios Disney em 1942",
+        "variantes": [
+          "José Carioca",
+          "Joe Carioca"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Z%C3%A9_Carioca"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Zé Carioca nasceu da viagem de Walt Disney ao Brasil em 1941, parte de qual política diplomática dos Estados Unidos?",
+      "resposta": "Política da Boa Vizinhança",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Z%C3%A9_Carioca",
+        "https://en.wikipedia.org/wiki/Jos%C3%A9_Carioca"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Comics Code Authority",
+        "descricao": "Órgão de autocensura criado pelas editoras americanas de quadrinhos em 1954",
+        "variantes": [
+          "Comics Code"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Comics_Code_Authority"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que livro de 1954, do psiquiatra Fredric Wertham, ajudou a provocar a censura dos quadrinhos americanos pelo Comics Code?",
+      "resposta": "A Sedução do Inocente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Comics_Code_Authority",
+        "https://en.wikipedia.org/wiki/Seduction_of_the_Innocent"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Dia do Quadrinho Nacional",
+        "descricao": "Data comemorativa brasileira celebrada em 30 de janeiro",
+        "variantes": [
+          "Dia Nacional dos Quadrinhos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dia_do_Quadrinho_Nacional"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "O Dia do Quadrinho Nacional, 30 de janeiro, lembra a estreia em 1869 de qual história de Angelo Agostini?",
+      "resposta": "As Aventuras de Nhô Quim",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dia_do_Quadrinho_Nacional",
+        "https://pt.wikipedia.org/wiki/Angelo_Agostini"
+      ],
+      "distratores": [
+        "Zé Caipora",
+        "Juca Pato",
+        "Chiquinho"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Jason Todd",
+        "descricao": "Segundo jovem a usar o uniforme de Robin, parceiro do Batman",
+        "variantes": [
+          "Capuz Vermelho",
+          "Red Hood"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jason_Todd"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1988, a morte do segundo Robin, Jason Todd, foi decidida de que forma inusitada?",
+      "resposta": "Votação dos leitores por telefone",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jason_Todd",
+        "https://en.wikipedia.org/wiki/Batman:_A_Death_in_the_Family"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Calvin e Haroldo",
+        "descricao": "Tira de jornal do americano Bill Watterson sobre um menino e seu tigre",
+        "variantes": [
+          "Calvin and Hobbes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Calvin_and_Hobbes"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Quase não existem bonecos, camisetas ou desenhos animados oficiais de Calvin e Haroldo. Por quê?",
+      "resposta": "O autor recusou licenciar os personagens",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Calvin_and_Hobbes",
+        "https://en.wikipedia.org/wiki/Bill_Watterson"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Calvin e Haroldo",
+        "descricao": "Tira de jornal do americano Bill Watterson sobre um menino e seu tigre",
+        "variantes": [
+          "Calvin and Hobbes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Calvin_and_Hobbes"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de dez anos nos jornais, em que ano Bill Watterson publicou a última tira de Calvin e Haroldo?",
+      "resposta": "1995",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Calvin_and_Hobbes"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Superman",
+        "descricao": "Super-herói da DC criado por Jerry Siegel e Joe Shuster, estreou em 1938",
+        "variantes": [
+          "Super-Homem",
+          "Kal-El"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Superman"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os criadores do Superman, Jerry Siegel e Joe Shuster, eram colegas de escola em qual cidade americana?",
+      "resposta": "Cleveland",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Superman",
+        "https://en.wikipedia.org/wiki/Jerry_Siegel"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Superman",
+        "descricao": "Super-herói da DC criado por Jerry Siegel e Joe Shuster, estreou em 1938",
+        "variantes": [
+          "Super-Homem",
+          "Kal-El"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Superman"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em 1938, por quantos dólares os jovens criadores do Superman venderam os direitos do personagem à editora?",
+      "resposta": "130 dólares",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Superman",
+        "https://en.wikipedia.org/wiki/Jerry_Siegel"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Tintim",
+        "descricao": "Jovem repórter belga criado por Hergé em 1929, protagonista de As Aventuras de Tintim",
+        "variantes": [
+          "Tintin"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tintin_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em sua primeira aventura, publicada em 1929, o repórter Tintim viaja para qual país?",
+      "resposta": "União Soviética",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tintin_in_the_Land_of_the_Soviets"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Tex Willer",
+        "descricao": "Caubói ranger protagonista de uma longeva série de faroeste em quadrinhos, criada em 1948",
+        "variantes": [
+          "Tex"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tex_Willer"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Tex, o faroeste em quadrinhos que faz enorme sucesso no Brasil há décadas, foi criado em que país?",
+      "resposta": "Itália",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tex_Willer",
+        "https://en.wikipedia.org/wiki/Tex_Willer"
+      ],
+      "distratores": [
+        "Estados Unidos",
+        "Argentina",
+        "Espanha"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Piratas do Tietê",
+        "descricao": "Série de quadrinhos de humor do cartunista Laerte sobre um bando de piratas em São Paulo",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Laerte_Coutinho"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Nas histórias de Laerte, um bando de piratas aterroriza São Paulo navegando por qual rio?",
+      "resposta": "Tietê",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Laerte_Coutinho"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Batman",
+        "descricao": "Super-herói da DC, identidade de Bruce Wayne, estreou em 1939",
+        "variantes": [
+          "Homem-Morcego",
+          "Bruce Wayne"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Batman"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Por décadas, só Bob Kane assinou o Batman. Que cocriador do herói passou a ser creditado oficialmente apenas em 2015?",
+      "resposta": "Bill Finger",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bill_Finger"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Tio Patinhas",
+        "descricao": "Pato bilionário e avarento da Disney, tio do Pato Donald",
+        "variantes": [
+          "Scrooge McDuck"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Scrooge_McDuck"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que desenhista da Disney criou o Tio Patinhas numa história de Natal publicada em 1947?",
+      "resposta": "Carl Barks",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scrooge_McDuck",
+        "https://en.wikipedia.org/wiki/Carl_Barks"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Mandrake",
+        "descricao": "Mágico de cartola protagonista de tiras de jornal americanas lançadas em 1934",
+        "variantes": [
+          "Mandrake the Magician",
+          "Mandrake, o Mágico"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mandrake_the_Magician"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que autor americano criou, nos anos 1930, tanto o mágico Mandrake quanto o herói mascarado Fantasma?",
+      "resposta": "Lee Falk",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lee_Falk",
+        "https://en.wikipedia.org/wiki/Mandrake_the_Magician"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Persépolis",
+        "descricao": "Romance gráfico autobiográfico sobre uma infância no Irã, publicado na França a partir de 2000",
+        "variantes": [
+          "Persepolis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Persepolis_(comics)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que autora iraniana narrou em quadrinhos sua infância durante a Revolução Islâmica, na obra Persépolis?",
+      "resposta": "Marjane Satrapi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Persepolis_(comics)",
+        "https://en.wikipedia.org/wiki/Marjane_Satrapi"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "O Menino Maluquinho",
+        "descricao": "Personagem de Ziraldo, criado em livro de 1980 e depois levado aos quadrinhos",
+        "variantes": [
+          "Menino Maluquinho"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Menino_Maluquinho"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Que utensílio de cozinha o Menino Maluquinho, de Ziraldo, usa na cabeça?",
+      "resposta": "Panela",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Menino_Maluquinho"
+      ],
+      "distratores": [
+        "Escorredor",
+        "Funil",
+        "Peneira"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Lucky Luke",
+        "descricao": "Caubói solitário dos quadrinhos franco-belgas, criado por Morris em 1946",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lucky_Luke"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "O caubói Lucky Luke, criado pelo belga Morris, é famoso por atirar mais rápido do que o quê?",
+      "resposta": "A própria sombra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lucky_Luke"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Capitão América",
+        "descricao": "Super-herói patriótico criado por Joe Simon e Jack Kirby, estreou em 1941",
+        "variantes": [
+          "Captain America",
+          "Steve Rogers"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Captain_America"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Na capa de sua primeira revista, de 1941, o Capitão América aparece dando um soco em qual líder?",
+      "resposta": "Adolf Hitler",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Captain_America_Comics"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Quarteto Fantástico",
+        "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1961",
+        "variantes": [
+          "Fantastic Four"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fantastic_Four"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Qual membro do Quarteto Fantástico é o irmão mais novo da Mulher Invisível?",
+      "resposta": "Tocha Humana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fantastic_Four",
+        "https://en.wikipedia.org/wiki/Invisible_Woman"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Maus",
+        "descricao": "Romance gráfico de Art Spiegelman sobre o Holocausto, vivido por seu pai",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maus"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em Maus, de Art Spiegelman, os judeus são desenhados como ratos. Que animais representam os nazistas?",
+      "resposta": "Gatos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maus"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Los Três Amigos",
+        "descricao": "Trio de cartunistas paulistas que publicou histórias em conjunto nos anos 1980",
+        "variantes": [
+          "Los 3 Amigos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Laerte_Coutinho"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Nos anos 1980, Angeli e Glauco formaram o trio Los Três Amigos com qual terceiro cartunista?",
+      "resposta": "Laerte",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Laerte_Coutinho",
+        "https://pt.wikipedia.org/wiki/Angeli"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Explorando a Lua",
+        "descricao": "Álbum de As Aventuras de Tintim em que o repórter chega à Lua, continuação de Rumo à Lua",
+        "variantes": [
+          "On a marché sur la Lune",
+          "Explorers on the Moon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Explorers_on_the_Moon"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Nos quadrinhos de Hergé, Tintim pisou na Lua muito antes de Neil Armstrong. Em que década isso foi publicado?",
+      "resposta": "Década de 1950",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Explorers_on_the_Moon"
+      ],
+      "distratores": [
+        "Década de 1930",
+        "Década de 1940",
+        "Década de 1960"
+      ]
+    }
+  ]
+}
