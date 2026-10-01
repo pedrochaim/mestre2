@@ -14427,5 +14427,643 @@
       "licenca": "Public domain"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q00871",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "bluetooth",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome Bluetooth homenageia um rei do século dez, apelidado de Dente Azul, que uniu as tribos de qual país?",
+    "resposta": "Dinamarca",
+    "distratores": [
+      "Suécia",
+      "Islândia",
+      "Finlândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bluetooth",
+      "https://en.wikipedia.org/wiki/Harald_Bluetooth"
+    ]
+  },
+  {
+    "id": "q00872",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "frisbee",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Frisbee vem de uma empresa de Connecticut cujas formas de metal os estudantes arremessavam por diversão. O que essa empresa fabricava?",
+    "resposta": "Tortas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Frisbee"
+    ]
+  },
+  {
+    "id": "q00873",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "biquini",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O biquíni recebeu o nome de um atol do Oceano Pacífico que tinha virado notícia em 1946. O que os Estados Unidos faziam lá?",
+    "resposta": "Testes nucleares",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bikini",
+      "https://pt.wikipedia.org/wiki/Biqu%C3%ADni"
+    ]
+  },
+  {
+    "id": "q00874",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "gravata",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra gravata vem do francês e lembra os lenços de pescoço usados, no século dezessete, por mercenários de qual povo?",
+    "resposta": "Croatas",
+    "distratores": [
+      "Suíços",
+      "Escoceses",
+      "Húngaros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Necktie"
+    ]
+  },
+  {
+    "id": "q00875",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "victorinox",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Victorinox, fabricante do famoso canivete suíço, junta a palavra inox ao nome de qual pessoa da família do fundador?",
+    "resposta": "A mãe dele, Victoria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Victorinox"
+    ]
+  },
+  {
+    "id": "q00876",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "lego",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da fabricante de blocos de montar Lego vem de uma expressão em dinamarquês. O que ela significa?",
+    "resposta": "Brinque bem",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lego"
+    ]
+  },
+  {
+    "id": "q00877",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "barbie",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Lançada em 1959 pela Mattel, a boneca Barbie ganhou esse nome em homenagem a quem?",
+    "resposta": "Barbara, filha da criadora Ruth Handler",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barbie"
+    ]
+  },
+  {
+    "id": "q00878",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "emoji",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Apesar da semelhança, a palavra emoji não tem relação com emoção. Ela junta duas palavras japonesas que significam o quê?",
+    "resposta": "Imagem e caractere",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emoji"
+    ]
+  },
+  {
+    "id": "q00879",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "rede_de_dormir",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "As palavras hammock, em inglês, e hamaca, em espanhol, que designam a rede de dormir, vieram da língua de qual povo indígena do Caribe?",
+    "resposta": "Taínos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hammock"
+    ]
+  },
+  {
+    "id": "q00880",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "ursinho_de_pelucia",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em inglês, o ursinho de pelúcia se chama teddy bear. Esse nome homenageia qual presidente dos Estados Unidos?",
+    "resposta": "Theodore Roosevelt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Teddy_bear"
+    ]
+  },
+  {
+    "id": "q00881",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "forno_de_micro_ondas",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos quarenta, o engenheiro Percy Spencer trabalhava perto de um equipamento de radar quando algo derreteu no seu bolso. O que era?",
+    "resposta": "Uma barra de chocolate",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Microwave_oven",
+      "https://en.wikipedia.org/wiki/Percy_Spencer"
+    ]
+  },
+  {
+    "id": "q00882",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "velcro",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+    "resposta": "Carrapichos de bardana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hook-and-loop_fastener",
+      "https://en.wikipedia.org/wiki/George_de_Mestral"
+    ]
+  },
+  {
+    "id": "q00883",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "post_it",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Art Fry, da empresa 3M, pensou no Post-it porque seus marcadores de página viviam caindo de um livro que ele usava no coral da igreja. Que livro?",
+    "resposta": "O hinário",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Post-it_note"
+    ]
+  },
+  {
+    "id": "q00884",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "maquina_de_lavar_louca",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A americana Josephine Cochrane decidiu inventar a máquina de lavar louça porque, ao lavar à mão, os empregados danificavam algo dela. O quê?",
+    "resposta": "A porcelana fina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Josephine_Cochrane"
+    ]
+  },
+  {
+    "id": "q00885",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "ar_condicionado",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Em 1902, Willis Carrier criou o ar-condicionado moderno para controlar a umidade que estragava o papel em que tipo de empresa?",
+    "resposta": "Uma gráfica",
+    "distratores": [
+      "Um hospital",
+      "Uma fábrica de chocolate",
+      "Um cinema"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Willis_Carrier"
+    ]
+  },
+  {
+    "id": "q00886",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "band_aid",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1920, Earle Dickson, funcionário da Johnson e Johnson, montou o primeiro Band-Aid para ajudar uma pessoa que vivia se cortando na cozinha. Quem?",
+    "resposta": "A esposa dele",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Band-Aid"
+    ]
+  },
+  {
+    "id": "q00887",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "alfinete_de_seguranca",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1849, o americano Walter Hunt criou o alfinete de segurança e logo vendeu a patente. Que problema pessoal ele queria resolver?",
+    "resposta": "Pagar uma dívida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Safety_pin",
+      "https://en.wikipedia.org/wiki/Walter_Hunt_(inventor)"
+    ]
+  },
+  {
+    "id": "q00888",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "bic_cristal",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A tampa da caneta BIC Cristal tem um pequeno furo na ponta. Para que serve esse furo?",
+    "resposta": "Evitar sufocamento se engolida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bic_Cristal"
+    ]
+  },
+  {
+    "id": "q00889",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "jacuzzi",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Candido Jacuzzi adaptou uma bomba de água para criar uma hidromassagem caseira e tratar o filho. De que doença?",
+    "resposta": "Artrite reumatoide",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jacuzzi"
+    ]
+  },
+  {
+    "id": "q00890",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "tampinha_de_garrafa",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "William Painter, inventor da tampinha metálica de garrafa, aconselhou um vendedor da empresa a criar algo descartável. Que vendedor era esse, que depois lançou a lâmina de barbear?",
+    "resposta": "King Camp Gillette",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/King_C._Gillette",
+      "https://en.wikipedia.org/wiki/Crown_cork"
+    ]
+  },
+  {
+    "id": "q00891",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "corretor_liquido",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Bette Nesmith Graham, inventora do corretor líquido, era mãe de um músico de qual banda dos anos sessenta?",
+    "resposta": "The Monkees",
+    "distratores": [
+      "The Byrds",
+      "The Turtles",
+      "The Kinks"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bette_Nesmith_Graham",
+      "https://en.wikipedia.org/wiki/Liquid_Paper"
+    ]
+  },
+  {
+    "id": "q00892",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "chiclete",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que general mexicano, que comandou o ataque ao Álamo, apresentou ao americano Thomas Adams o chicle que deu origem ao chiclete moderno?",
+    "resposta": "Antonio López de Santa Anna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chewing_gum",
+      "https://en.wikipedia.org/wiki/Thomas_Adams_(inventor)"
+    ]
+  },
+  {
+    "id": "q00893",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "codigo_de_barras",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Norman Woodland teve a ideia do código de barras na areia de uma praia de Miami, esticando para baixo os sinais de outro código. Qual?",
+    "resposta": "Código Morse",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barcode",
+      "https://en.wikipedia.org/wiki/Norman_Joseph_Woodland"
+    ]
+  },
+  {
+    "id": "q00894",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "wi_fi",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que atriz de Hollywood coinventou, durante a Segunda Guerra, uma técnica de salto de frequência que mais tarde inspirou o Wi-Fi e o Bluetooth?",
+    "resposta": "Hedy Lamarr",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hedy_Lamarr"
+    ]
+  },
+  {
+    "id": "q00895",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "cartier_santos",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1904, o joalheiro Louis Cartier criou um relógio de pulso para um amigo brasileiro ver as horas sem largar os comandos da aeronave. Quem era?",
+    "resposta": "Santos-Dumont",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont",
+      "https://pt.wikipedia.org/wiki/Santos_Dumont"
+    ]
+  },
+  {
+    "id": "q00896",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "havaianas",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "As sandálias Havaianas, lançadas no Brasil em 1962, foram inspiradas em qual calçado tradicional japonês?",
+    "resposta": "Zori",
+    "distratores": [
+      "Geta",
+      "Tabi",
+      "Waraji"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Havaianas"
+    ]
+  },
+  {
+    "id": "q00897",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "orelhao",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que arquiteta nascida em Xangai, na China, e radicada no Brasil projetou o orelhão no começo dos anos setenta?",
+    "resposta": "Chu Ming Silveira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Orelh%C3%A3o",
+      "https://pt.wikipedia.org/wiki/Chu_Ming_Silveira"
+    ]
+  },
+  {
+    "id": "q00898",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "cartao_de_natal",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1843, em Londres, que funcionário público inglês encomendou os primeiros cartões de Natal comerciais, ilustrados por um amigo pintor?",
+    "resposta": "Henry Cole",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christmas_card",
+      "https://en.wikipedia.org/wiki/Henry_Cole"
+    ]
+  },
+  {
+    "id": "q00899",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "caneta_esferografica",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que jornalista húngaro, que depois se mudou para a Argentina, patenteou em 1938 a caneta esferográfica moderna?",
+    "resposta": "László Bíró",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ballpoint_pen",
+      "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3"
+    ]
+  },
+  {
+    "id": "q00900",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "garrafa_termica",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cientista escocês criou, em 1892, o frasco de parede dupla com vácuo que deu origem à garrafa térmica?",
+    "resposta": "James Dewar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vacuum_flask"
+    ]
+  },
+  {
+    "id": "q00901",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "pilha_voltaica",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1800, que físico italiano empilhou discos de metal para criar a pilha elétrica e hoje dá nome à unidade de tensão?",
+    "resposta": "Alessandro Volta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Voltaic_pile"
+    ]
+  },
+  {
+    "id": "q00902",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "mouse",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que engenheiro americano apresentou o mouse ao público em 1968, numa demonstração que ficou conhecida como a mãe de todas as demos?",
+    "resposta": "Douglas Engelbart",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Computer_mouse",
+      "https://en.wikipedia.org/wiki/The_Mother_of_All_Demos"
+    ]
+  },
+  {
+    "id": "q00903",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "oculos",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Os óculos de correção surgiram no norte da Itália, provavelmente em Pisa. Em que século?",
+    "resposta": "Século treze",
+    "distratores": [
+      "Século dez",
+      "Século dezesseis",
+      "Século dezoito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Glasses"
+    ]
+  },
+  {
+    "id": "q00904",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "urna_eletronica_brasileira",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os brasileiros trocaram a cédula de papel pela urna eletrônica aos poucos. Em que ano ela estreou nas eleições do país?",
+    "resposta": "1996",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Electronic_voting_in_Brazil"
+    ]
+  },
+  {
+    "id": "q00905",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "cubo_magico",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O cubo mágico foi inventado pelo húngaro Ernő Rubik, professor de arquitetura. Em que ano ele criou o primeiro protótipo?",
+    "resposta": "1974",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rubik%27s_Cube"
+    ]
+  },
+  {
+    "id": "q00906",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "abridor_de_latas",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A lata de conserva foi patenteada em 1810, e por muito tempo foi aberta com martelo e talhadeira. Quanto tempo depois surgiu o abridor de latas?",
+    "resposta": "Cerca de 45 anos",
+    "distratores": [
+      "Cerca de 5 anos",
+      "Cerca de 15 anos",
+      "Cerca de 100 anos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Can_opener"
+    ]
+  },
+  {
+    "id": "q00907",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "escova_de_dentes",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Por volta de 1780, o inglês William Addis teve a ideia de fazer uma escova de dentes com osso e cerdas. Onde ele estava?",
+    "resposta": "Na prisão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toothbrush",
+      "https://en.wikipedia.org/wiki/William_Addis"
+    ]
+  },
+  {
+    "id": "q00908",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "chapeu_panama",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Apesar do nome, o chapéu-panamá é tradicionalmente fabricado em qual país?",
+    "resposta": "Equador",
+    "distratores": [
+      "Colômbia",
+      "Peru",
+      "Cuba"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Panama_hat"
+    ]
+  },
+  {
+    "id": "q00909",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "clipe_de_papel",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Durante a Segunda Guerra, usar um clipe de papel preso à roupa virou símbolo de resistência à ocupação nazista em qual país?",
+    "resposta": "Noruega",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paper_clip"
+    ]
+  },
+  {
+    "id": "q00910",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "relogio_cuco",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O relógio cuco, fabricado artesanalmente desde o século dezoito, é o símbolo de qual região montanhosa e arborizada da Alemanha?",
+    "resposta": "Floresta Negra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cuckoo_clock"
+    ]
+  },
+  {
+    "id": "q00911",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "lanterna_de_abobora",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Antes de usar abóboras, irlandeses e escoceses esculpiam as lanternas de Halloween em qual vegetal?",
+    "resposta": "Nabo",
+    "distratores": [
+      "Pepino",
+      "Cenoura",
+      "Repolho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jack-o%27-lantern"
+    ]
+  },
+  {
+    "id": "q00912",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "filtro_de_papel_para_cafe",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1908, a alemã Melitta Bentz furou uma panela de latão e criou o filtro de café com um papel absorvente. De onde ela tirou esse papel?",
+    "resposta": "Do caderno escolar do filho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Melitta_Bentz"
+    ]
+  },
+  {
+    "id": "q00913",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "calendario_gregoriano",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Ao adotar o calendário gregoriano em outubro de 1582, países como Espanha, Portugal e Itália pularam alguns dias para acertar com as estações. Quantos?",
+    "resposta": "Dez",
+    "distratores": [
+      "Sete",
+      "Doze",
+      "Treze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregorian_calendar"
+    ]
+  },
+  {
+    "id": "q00914",
+    "tema": "Cotidiano",
+    "subtema": "Objetos do Dia a Dia",
+    "ancora": "folha_a4",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A folha A4 é uma folha A0 cortada ao meio quatro vezes. Qual é a área exata da folha A0?",
+    "resposta": "Um metro quadrado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/ISO_216",
+      "https://en.wikipedia.org/wiki/Paper_size"
+    ]
   }
 ]

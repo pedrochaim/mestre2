@@ -1,0 +1,26 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1223, na aldeia italiana de Greccio, quem montou um presépio vivo, com boi e burro de verdade, que deu origem a essa tradição de Natal?",
+        "resposta": "São Francisco de Assis"
+      },
+      "existentes": [
+        {
+          "id": "q00111",
+          "pergunta": "Em 1223, na aldeia italiana de Greccio, que santo montou o que é considerado o primeiro presépio de Natal?",
+          "resposta": "São Francisco de Assis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00111",
+      "motivo": "Ambas perguntam quem montou o primeiro presépio em Greccio em 1223; a resposta é São Francisco de Assis."
+    }
+  ]
+}
