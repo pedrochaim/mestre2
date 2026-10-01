@@ -1,0 +1,376 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Medo é o significado do nome, sustentado pela Wikipédia; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português confirma Urano como único nome de origem grega.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas distratores implausíveis (Disney, papa); trocar por nomes críveis do episódio e encurtar a resposta.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Em 1930, quem sugeriu o nome Plutão para o astro recém-descoberto?",
+        "resposta": "Venetia Burney",
+        "distratores": [
+          "Clyde Tombaugh",
+          "Herbert Hall Turner",
+          "Vesto Slipher"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Venetia_Burney",
+          "https://en.wikipedia.org/wiki/Pluto"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mito da Hera e Héracles confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Planetes significa errante, confirmado na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Borealis vem de Boreas, deus do vento norte; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hoyle cunhou o termo em 1949 na BBC; era crítico da teoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sputnik significa companheiro de viagem; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Canicula era o nome romano de Sírius; fonte confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome da missão homenageia o centenário do voo do 14-Bis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vênus é mais quente que Mercúrio apesar da distância; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ganimedes é a maior lua e maior que Mercúrio.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Próxima Centauri é a estrela mais próxima depois do Sol.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sírius é a estrela mais brilhante do céu noturno; ângulo diferente da pergunta 9.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Saturno é o único planeta menos denso que a água.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rotação de Júpiter em menos de 10 horas, a mais rápida.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ventos de Netuno passam de 2000 km/h, os mais rápidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Io é o objeto geologicamente mais ativo do Sistema Solar.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crux é a menor das 88 constelações; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Andrômeda é a grande galáxia mais próxima; o 'grande' exclui as anãs.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espalhamento de Rayleigh explica o céu azul.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rotação síncrona confirmada na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inclinação do eixo é a causa principal das estações.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte liga auroras ao campo magnético terrestre e à região polar.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cor avermelhada vem da refração na atmosfera terrestre.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Óxido de ferro confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Turbulência atmosférica causa a cintilação das estrelas.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Imponderabilidade é queda livre orbital, confirmada na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Critério de dominar a vizinhança orbital da definição da UAI de 2006.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado entrega a resposta ao repetir 'quatrocentas vezes'; reformular sem vazar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Num eclipse solar total, a Lua consegue cobrir o Sol inteiro, apesar de ser muito menor. Por quê?",
+        "resposta": "Está quatrocentas vezes mais perto",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Solar_eclipse"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ártemis é irmã gêmea de Apolo, confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lunes vem de Lua e martes de Marte; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Twain nasceu e morreu em anos de passagem do Halley.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Espiga representa o Pará, conforme Wikipédia.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Subaru é o nome japonês das Plêiades, inspirando o logotipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gagarin na Vostok 1, 12 de abril de 1961.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tereshkova, Vostok 6, 1963; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galileu descobriu as luas galileanas em 1610.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marcos Pontes, Soyuz TMA-8, 2006.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apollo 11 em 1969.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sputnik 1 lançado em 1957.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Solstício de dezembro é o de verão no hemisfério sul.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Olympus Mons, em Marte, tem cerca de 2,5 vezes a altura do Everest.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alcântara fica no Maranhão.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estrelas refletem o céu do Rio de Janeiro em 15/11/1889.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Período de cerca de 76 anos confirmado; distratores claramente diferentes.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cerca de 8,3 minutos segundo a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Três Marias formam o cinturão de Órion.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anéis são quase totalmente de gelo de água.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Laika, Sputnik 2, 1957; distratores são cães espaciais críveis.",
+      "reescrita": null
+    }
+  ]
+}
