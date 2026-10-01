@@ -1,0 +1,65 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Abdicação em 1918 confirmada nos trechos; enunciado não vaza e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conferência de Yalta, fevereiro de 1945, com Roosevelt e Churchill, confirmada. Potsdam teve Truman, Teerã foi em 1943, Casablanca não teve Stálin.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a importância divina de Selassié no Rastafári, movimento religioso surgido na Jamaica. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Venezuela como distrator é defensável como correta: o país se chama oficialmente República Bolivariana da Venezuela e tem a moeda bolívar. Troquei por Equador.",
+      "reescrita": {
+        "pergunta": "Que país da América do Sul leva o nome deste libertador da América espanhola?",
+        "resposta": "Bolívia",
+        "distratores": [
+          "Colômbia",
+          "Peru",
+          "Equador"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O apelido Chanceler de Ferro entrega a resposta sem olhar a figura, que vira enfeite. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que estadista alemão do século dezenove é este?",
+        "resposta": "Otto von Bismarck"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Navegador genovês' que chegou às Américas já identifica Colombo sem a figura. Removi a pista, e a data 1492 segue confirmada nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que ano este navegador fez sua primeira travessia do Atlântico até as Américas?",
+        "resposta": "1492",
+        "distratores": [
+          "1488",
+          "1500",
+          "1519"
+        ]
+      }
+    }
+  ]
+}

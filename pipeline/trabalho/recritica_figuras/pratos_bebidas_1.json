@@ -1,0 +1,170 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'feijão' é a raiz de 'feijoada': palavra derivada da resposta vaza. Troca por acompanhamentos citados nos trechos.",
+      "reescrita": {
+        "pergunta": "Que prato emblemático do Brasil, servido geralmente com arroz, farofa e couve, é este?",
+        "resposta": "Feijoada",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição correta, sem vazamento e com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Forma de gota e recheio de frango confirmados; não nomeia a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Baklava usa massa filo, não massa folhada, e o recheio é de nozes ou pistache, não só pistache. Corrige a precisão.",
+      "reescrita": {
+        "pergunta": "Que doce de massa filo em camadas, com nozes e calda de mel ou xarope, é muito comum na Turquia e no Oriente Médio?",
+        "resposta": "Baklava",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os distratores (enroladinho e pão de queijo) costumam ser assados e se eliminam pelo 'frito'. Troca por salgados fritos parecidos e acrescenta a massa fina.",
+      "reescrita": {
+        "pergunta": "Que salgado frito, de massa fina e vendido em feiras livres no Brasil, é este?",
+        "resposta": "Pastel",
+        "distratores": [
+          "Risole",
+          "Quibe",
+          "Coxinha"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sopa de beterraba da Europa Oriental, confirmada pelos trechos; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arroz avinagrado com peixe, prato japonês; correto e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taco é típico do México, confirmado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Menemen e huevos rancheros também são ovos em molho de tomate, então podem ser defendidos no enunciado. Passa a 'magrebino' e troca os distratores.",
+      "reescrita": {
+        "pergunta": "Que prato magrebino de ovos escalfados em molho de tomate, pimentão, cebola e alho é este?",
+        "resposta": "Shakshuka",
+        "distratores": [
+          "Ful medames",
+          "Ratatouille",
+          "Huevos rancheros"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A origem em Yokohama é a teoria mais plausível segundo historiadores, não um fato incontestável. O enunciado precisa dizer isso.",
+      "reescrita": {
+        "pergunta": "Segundo a teoria mais aceita pelos historiadores, este prato chegou ao Japão pelo bairro chinês de qual cidade portuária?",
+        "resposta": "Yokohama",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Macarrão de arroz confirmado; distratores do mesmo tipo e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A afirmação 'comida de rua da classe trabalhadora' não está nos trechos e é imprecisa. Mantém só a associação ao beisebol, amplamente documentada.",
+      "reescrita": {
+        "pergunta": "Este lanche, muito associado ao beisebol, é considerado típico de qual país?",
+        "resposta": "Estados Unidos",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kimchi é tradicionalmente coreano; distratores asiáticos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cachaça é a base da caipirinha; as variações com outros destilados têm outros nomes.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que a União Suíça de Queijos promoveu a fondue como prato nacional nos anos 1930. Distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O gochujang aparece nos trechos como cobertura do bibimbap; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A lasanha em camadas é tradicionalmente da Itália, e o trecho confirma que se origina na culinária italiana.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "No Brasil o chocolate também é recheio tradicional, então 'o recheio tradicional' não tem resposta única. Reformula como 'um dos recheios', sem chocolate entre as opções.",
+      "reescrita": {
+        "pergunta": "Qual destes é um recheio tradicional deste doce frito no Brasil?",
+        "resposta": "Doce de leite",
+        "distratores": [
+          "Goiabada",
+          "Creme de baunilha",
+          "Geleia de frutas"
+        ]
+      }
+    }
+  ]
+}

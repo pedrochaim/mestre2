@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pista 'idealizador da máquina analítica' entrega a resposta sem olhar a figura. Também não há fundamento para 'gravura' no que a imagem mostra.",
+      "reescrita": {
+        "pergunta": "Quem é este matemático inglês do século dezenove?",
+        "resposta": "Charles Babbage"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Autodidata' e 'teoria dos números' entregam a resposta sem a figura. Os distratores são físicos e por isso são fáceis de excluir. Reescrita com matemáticos indianos como distratores.",
+      "reescrita": {
+        "pergunta": "Que matemático indiano do início do século vinte é este?",
+        "resposta": "Srinivasa Ramanujan",
+        "distratores": [
+          "Prasanta Mahalanobis",
+          "D. R. Kaprekar",
+          "Harish-Chandra"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta não nomeia o médico. A Fiocruz fica no Rio de Janeiro, tem o nome dele e é a resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Descobridor da indução eletromagnética' entrega a resposta. Joseph Henry também chegou à descoberta de forma independente, o que enfraquece a unicidade da pista.",
+      "reescrita": {
+        "pergunta": "Quem é este cientista inglês do século dezenove, retratado nesta pintura?",
+        "resposta": "Michael Faraday"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Primeira patente do telefone' entrega a resposta sem a figura. A pista foi trocada por um dado que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Quem é este inventor e cientista, nascido na Escócia?",
+        "resposta": "Alexander Graham Bell"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A afirmação é literalmente verdadeira e os trechos a sustentam. Os distratores são constantes de outras pessoas, curtos e nenhum está correto. O enunciado não nomeia o cientista.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos; distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Butantan, em São Paulo, fundado por Vital Brazil; o recorte 'São Paulo' exclui o instituto de Niterói.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Principia de 1687 estabeleceu a mecânica clássica, conforme os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento; distratores não são monges.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O gauss é a unidade CGS de campo magnético, fato amplamente documentado; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Polônio, nome em homenagem à Polônia, confirmado nos trechos; distratores também são elementos com nomes de lugares, mas não de Polônia.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma que ele nomeou o oxigênio em 1778; distratores são gases nobres.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Telescópio aperfeiçoado e as quatro maiores luas de Júpiter confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descoberta da penicilina em 1928 e 'primeira substância antibiótica descoberta' nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O gato de Schrödinger está nos trechos; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Psicanálise, método baseado no diálogo, fundado por Freud.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Charles Darwin é distrator pouco crível (outra área); troque por um físico da mesma época.",
+      "reescrita": {
+        "pergunta": "Quem é este cientista, que unificou eletricidade, magnetismo e luz numa só teoria?",
+        "resposta": "James Clerk Maxwell",
+        "distratores": [
+          "Lord Kelvin",
+          "Michael Faraday",
+          "Hermann von Helmholtz"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonógrafo inventado por Edison em 1877, conforme trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição confirmada pelos trechos; sem vazamento do nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nobel de 1905 pela tuberculose confirmado; distratores errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição confirmada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Máquina analítica confirmada; distratores não são máquinas de Babbage.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Penrose e Thorne também são famosos por estudos sobre buracos negros, então a pista os torna defensáveis; troque os distratores.",
+      "reescrita": {
+        "pergunta": "Que cientista é este, famoso por seus estudos sobre buracos negros?",
+        "resposta": "Stephen Hawking",
+        "distratores": [
+          "Carl Sagan",
+          "Richard Feynman",
+          "Michio Kaku"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mendelévio, sintético, nomeado em homenagem a Mendeleiev, nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Neozelandês e pioneiro da física nuclear confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vacinas contra raiva e antraz confirmadas; distratores não as desenvolveram.",
+      "reescrita": null
+    }
+  ]
+}

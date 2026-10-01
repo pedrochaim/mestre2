@@ -1,0 +1,197 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bico laranja enorme é literalmente verdadeiro e a imagem mostra a espécie.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que caça e nidifica no dossel e em árvores emergentes; os distratores não são defensáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Macho alaranjado com crista em meia-lua, conforme os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Maior papagaio do mundo' não é literalmente verdadeiro: o trecho diz maior papagaio voador (o kakapo é mais pesado).",
+      "reescrita": {
+        "pergunta": "Que ave é esta, o maior papagaio voador do mundo?",
+        "resposta": "Arara-azul-grande",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Face laranja e pernas amarelas confere; os distratores são aves de rapina distintas.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crista e olhos vermelhos, Amazônia e Orinoco: confere com os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A arara-de-garganta-azul também tem dorso azul e peito amarelo, então o distrator é correto também.",
+      "reescrita": {
+        "pergunta": "Que arara é esta, de dorso azul e peito amarelo?",
+        "resposta": "Arara-canindé",
+        "distratores": [
+          "Arara-azul-grande",
+          "Arara-azul-de-lear",
+          "Arara-vermelha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O uso da seriema como guarda de criações não está nos trechos nem é amplamente documentado; na dúvida, descartar.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O canto lembra ferro batendo em bigorna, conforme o trecho em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É o maior e mais pesado pinguim; os distratores são pinguins menores.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mais comum no Pantanal, segundo o trecho; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Endêmica da Mata Atlântica, segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O avestruz foi nativo da Arábia, na Ásia, então o distrator 'Ásia' é defensável.",
+      "reescrita": {
+        "pergunta": "Em que continente esta ave, a maior ave viva, é nativa?",
+        "resposta": "África",
+        "distratores": [
+          "Oceania",
+          "América do Sul",
+          "Europa"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho compara a cor derivada da dieta à do flamingo-americano.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "'Endêmica do Brasil' é contradito pelo trecho em português, que cita também Misiones, na Argentina.",
+      "reescrita": {
+        "pergunta": "Em que bioma vive principalmente esta ave vermelha, tida como símbolo dele?",
+        "resposta": "Mata Atlântica",
+        "distratores": [
+          "Floresta Amazônica",
+          "Cerrado",
+          "Caatinga"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pavoa é o feminino de pavão, amplamente conhecido; o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O guará é uma das duas aves nacionais de Trinidad e Tobago; os distratores não são corretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta traz parênteses sem necessidade; basta uma resposta curta.",
+      "reescrita": {
+        "pergunta": "Em que tipo de lugar esta coruja costuma fazer o ninho e descansar?",
+        "resposta": "Em tocas no chão",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Aparentada' é vago, pois todos são passeriformes. A resposta depende de uma relação de família que não está nos trechos de forma clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Habita principalmente florestas tropicais de baixada, segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Introduzido nas Bermudas em 1957, segundo os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O canário-da-terra foi introduzido no Havaí, fato amplamente documentado; o enunciado delimita bem a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O anu-branco é da família dos cuculídeos, a mesma do cuco, que dá nome ao relógio de cuco.",
+      "reescrita": null
+    }
+  ]
+}

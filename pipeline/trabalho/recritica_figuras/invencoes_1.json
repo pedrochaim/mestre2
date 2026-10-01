@@ -1,0 +1,68 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o princípio da lâmpada incandescente (filamento aquecido que brilha), o que praticamente entrega a resposta sem olhar a figura. Não há como corrigir sem perder a pista ou manter o vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "As fontes divergem sobre a época. A Wikipédia em inglês diz século II a.C. (final do II ou início do I). A em português diz século I a.C. A resposta única não é segura.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de nível 1 direta. A pista (agulha magnetizada) ajuda sem nomear a resposta, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Tesla projetou a bobina em 1891. O enunciado não vaza a resposta. Os distratores são inventores da mesma época, curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O parêntese \"(luneta)\" é desnecessário. A Wikipédia trata a luneta como um instrumento à parte. O resto da pergunta está correto.",
+      "reescrita": {
+        "pergunta": "Que instrumento óptico para observar objetos distantes é este?",
+        "resposta": "Telescópio",
+        "distratores": [
+          "Binóculo",
+          "Periscópio",
+          "Microscópio"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Léon Foucault, físico francês, concebeu o experimento em 1851 para demonstrar a rotação da Terra. O enunciado não nomeia o pêndulo nem o autor.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pascal inventou a máquina em 1642, no século dezessete. Os distratores são calculadoras de outra época ou de outro tipo, e a figura decide entre eles.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é correto e não vaza a resposta. Os distratores são outros instrumentos de observação ou medida, e a figura mostra um microscópio.",
+      "reescrita": null
+    }
+  ]
+}

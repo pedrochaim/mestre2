@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país faz fronteira, a oeste, com o país desta bandeira?",
+        "resposta": "Chile"
+      },
+      "existentes": [
+        {
+          "id": "q00001",
+          "pergunta": "O nome Argentina vem de uma palavra latina que designa qual metal?",
+          "resposta": "Prata"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é a capital do país desta bandeira?",
+        "resposta": "Ottawa"
+      },
+      "existentes": [
+        {
+          "id": "q00005",
+          "pergunta": "Registrado por Jacques Cartier no século dezesseis, o nome Canadá vem de uma palavra iroquesa que significa o quê?",
+          "resposta": "Aldeia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Mais da metade da população do país desta bandeira vive em um único atol. Que atol é esse?",
+        "resposta": "Tarawa"
+      },
+      "existentes": [
+        {
+          "id": "q00028",
+          "pergunta": "Qual país insular do Pacífico tem ilhas nos quatro hemisférios, cruzando a linha do equador e o meridiano cento e oitenta?",
+          "resposta": "Kiribati"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que país fica totalmente cercado pelo país desta bandeira?",
+        "resposta": "Lesoto"
+      },
+      "existentes": [
+        {
+          "id": "q00024",
+          "pergunta": "A África do Sul divide suas funções de capital entre três cidades: Pretória, Cidade do Cabo e qual outra?",
+          "resposta": "Bloemfontein"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "De que país é esta bandeira?",
+        "resposta": "Países Baixos"
+      },
+      "existentes": [
+        {
+          "id": "q00021",
+          "pergunta": "Amsterdã é a capital oficial dos Países Baixos, mas em qual cidade ficam o governo e o parlamento?",
+          "resposta": "Haia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Qual é a capital constitucional do país desta bandeira?",
+        "resposta": "Sucre"
+      },
+      "existentes": [
+        {
+          "id": "q00015",
+          "pergunta": "No fim do século dezenove, a Bolívia perdeu seu litoral para o Chile em qual conflito?",
+          "resposta": "Guerra do Pacífico"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que monarca aparece nesta fotografia?",
+        "resposta": "Dom Pedro II"
+      },
+      "existentes": [
+        {
+          "id": "q00170",
+          "pergunta": "Deposto pela República em 1889, Dom Pedro Segundo morreu no exílio dois anos depois. Em qual cidade?",
+          "resposta": "Paris"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fronteira oeste (Chile) é fato diferente da etimologia do nome."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Capital do Canadá difere da etimologia do nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Atol onde vive a maioria da população difere de ilhas nos quatro hemisférios."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "País enclave (Lesoto) difere das capitais da África do Sul."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Identificar a bandeira difere da sede do governo em Haia."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Capital constitucional difere da perda do litoral."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Identificar o monarca na foto difere do local da morte."
+    }
+  ]
+}

@@ -52,6 +52,8 @@ python pipeline/rodar.py validar                                    # confere o 
 python pipeline/rodar.py relatorio                                  # distribuição por subtema, ângulo e tipo
 python pipeline/rodar.py consolidar                                 # procura e funde âncoras duplicadas
 python pipeline/rodar.py dificuldade [--forcar]                     # popularidade na Wikipédia → dificuldade (1 a 5)
+python pipeline/recriticar_figuras.py --simular                     # crítica das figuras já no banco, sem gravar
+python pipeline/recriticar_figuras.py [--manter q01734,q01663]      # aplica (mantendo as perguntas indicadas)
 ```
 
 ## O que acontece em cada encomenda

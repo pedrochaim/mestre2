@@ -16001,7 +16001,7 @@
     "ancora": "feijoada",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que prato brasileiro, feito com feijão preto e carnes, é este?",
+    "pergunta": "Que prato emblemático do Brasil, servido geralmente com arroz, farofa e couve, é este?",
     "resposta": "Feijoada",
     "fonte": [
       "https://en.wikipedia.org/wiki/Feijoada",
@@ -16064,7 +16064,7 @@
     "ancora": "baklava",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que doce de massa folhada e pistache, comum no Oriente Médio e na Turquia, é este?",
+    "pergunta": "Que doce de massa filo em camadas, com nozes e calda de mel ou xarope, é muito comum na Turquia e no Oriente Médio?",
     "resposta": "Baklava",
     "fonte": [
       "https://en.wikipedia.org/wiki/Baklava",
@@ -16085,12 +16085,12 @@
     "ancora": "pastel",
     "angulo": "identidade",
     "tipo": "multipla",
-    "pergunta": "Que salgado frito, vendido em feiras no Brasil, é este?",
+    "pergunta": "Que salgado frito, de massa fina e vendido em feiras livres no Brasil, é este?",
     "resposta": "Pastel",
     "distratores": [
       "Risole",
-      "Enroladinho de queijo",
-      "Pão de queijo"
+      "Quibe",
+      "Coxinha"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Pastel_%28Brazilian_food%29",
@@ -16174,12 +16174,12 @@
     "ancora": "shakshuka",
     "angulo": "identidade",
     "tipo": "multipla",
-    "pergunta": "Que prato do Norte da África e do Oriente Médio, de ovos cozidos em molho de tomate, é este?",
+    "pergunta": "Que prato magrebino de ovos escalfados em molho de tomate, pimentão, cebola e alho é este?",
     "resposta": "Shakshuka",
     "distratores": [
-      "Menemen",
-      "Huevos rancheros",
-      "Ratatouille"
+      "Ful medames",
+      "Ratatouille",
+      "Huevos rancheros"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Shakshouka",
@@ -16973,7 +16973,7 @@
     "ancora": "arara_azul_grande",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que ave é esta, o maior papagaio do mundo?",
+    "pergunta": "Que ave é esta, o maior papagaio voador do mundo?",
     "resposta": "Arara-azul-grande",
     "fonte": [
       "https://en.wikipedia.org/wiki/Hyacinth_macaw",
@@ -17046,7 +17046,7 @@
     "distratores": [
       "Arara-azul-grande",
       "Arara-azul-de-lear",
-      "Arara-de-garganta-azul"
+      "Arara-vermelha"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Blue-and-yellow_macaw",
@@ -17059,27 +17059,6 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 3
-  },
-  {
-    "id": "q01028",
-    "tema": "Natureza",
-    "subtema": "Aves, Répteis e Anfíbios",
-    "ancora": "seriema",
-    "angulo": "conexao",
-    "tipo": "aberta",
-    "pergunta": "Esta ave caminhadora é usada por criadores como guarda, para proteger que animais de predadores?",
-    "resposta": "Galinhas",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Red-legged_seriema",
-      "https://pt.wikipedia.org/wiki/Seriema-de-perna-vermelha"
-    ],
-    "imagem": {
-      "arquivo": "q01028.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:174_Red-legged_seriema_in_Encontro_das_Águas_State_Park_Photo_by_Giles_Laurent.jpg",
-      "autor": "Giles Laurent",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 5
   },
   {
     "id": "q01029",
@@ -17270,7 +17249,7 @@
     "resposta": "James Clerk Maxwell",
     "distratores": [
       "Lord Kelvin",
-      "Charles Darwin",
+      "Michael Faraday",
       "Hermann von Helmholtz"
     ],
     "fonte": [
@@ -19261,12 +19240,12 @@
     "ancora": "sombrero",
     "angulo": "conexao",
     "tipo": "multipla",
-    "pergunta": "Este chapéu de aba larga é símbolo de qual país?",
+    "pergunta": "Este chapéu de aba larga e copa alta é típico de qual país?",
     "resposta": "México",
     "distratores": [
-      "Peru",
       "Cuba",
-      "Colômbia"
+      "Argentina",
+      "Chile"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Sombrero",
@@ -20301,7 +20280,7 @@
     "ancora": "lua",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que astro é este, o único satélite natural da Terra?",
+    "pergunta": "Que astro é este, que muda de fase ao longo do mês e provoca as marés na Terra?",
     "resposta": "Lua",
     "fonte": [
       "https://en.wikipedia.org/wiki/Moon",
@@ -20369,7 +20348,7 @@
     "ancora": "sol",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que astro é este, a estrela no centro do Sistema Solar?",
+    "pergunta": "Que astro é este, que ilumina e aquece a Terra durante o dia?",
     "resposta": "Sol",
     "fonte": [
       "https://en.wikipedia.org/wiki/Sun",
@@ -20437,7 +20416,7 @@
     "ancora": "nebulosa_do_caranguejo",
     "angulo": "identidade",
     "tipo": "multipla",
-    "pergunta": "Que nebulosa é esta, remanescente de uma supernova observada por astrônomos chineses e árabes no ano mil e cinquenta e quatro?",
+    "pergunta": "Que remanescente de supernova, na constelação de Touro, é este?",
     "resposta": "Nebulosa do Caranguejo",
     "distratores": [
       "Nebulosa do Véu",
@@ -20604,7 +20583,7 @@
     "ancora": "uacari_vermelho",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que macaco amazônico, de rosto vermelho e cauda curta, é este?",
+    "pergunta": "Que macaco amazônico é este?",
     "resposta": "Uacari",
     "fonte": [
       "https://en.wikipedia.org/wiki/Bald_uakari",
@@ -20625,8 +20604,8 @@
     "ancora": "urso_pardo",
     "angulo": "lugar",
     "tipo": "aberta",
-    "pergunta": "Em que continentes vive naturalmente este urso?",
-    "resposta": "Eurásia e América do Norte",
+    "pergunta": "Em que três continentes vive hoje, na natureza, este urso?",
+    "resposta": "Europa, Ásia e América do Norte",
     "fonte": [
       "https://en.wikipedia.org/wiki/Brown_bear",
       "https://pt.wikipedia.org/wiki/Urso-pardo"
@@ -20672,7 +20651,7 @@
     "distratores": [
       "Lobo-guará",
       "Graxaim-do-campo",
-      "Irara"
+      "Raposa-do-campo"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Bush_dog",
@@ -20740,8 +20719,8 @@
     "ancora": "tatu_canastra",
     "angulo": "conexao",
     "tipo": "aberta",
-    "pergunta": "Este é o maior tatu do mundo. De que ele se alimenta principalmente?",
-    "resposta": "Cupins",
+    "pergunta": "Que insetos formam a base da dieta deste animal?",
+    "resposta": "Cupins e formigas",
     "fonte": [
       "https://en.wikipedia.org/wiki/Giant_armadillo",
       "https://pt.wikipedia.org/wiki/Tatu-canastra"
@@ -22651,7 +22630,7 @@
     "ancora": "cartola_2",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que tipo de chapéu alto e de copa reta é este, associado à roupa formal?",
+    "pergunta": "Que chapéu de copa cilíndrica e aba curta, usado com fraque ou casaca em ocasiões solenes, é este?",
     "resposta": "Cartola",
     "fonte": [
       "https://en.wikipedia.org/wiki/Top_hat",
@@ -22698,8 +22677,8 @@
     "ancora": "ampulheta",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que objeto é este, em que a areia escorre de um bulbo de vidro para o outro, medindo o tempo?",
-    "resposta": "Ampulheta",
+    "pergunta": "Que instrumento antigo de medir o tempo é este?",
+    "resposta": "Ampulheta (relógio de areia)",
     "fonte": [
       "https://en.wikipedia.org/wiki/Hourglass",
       "https://pt.wikipedia.org/wiki/Ampulheta"
@@ -22892,7 +22871,7 @@
     "ancora": "alexandre_o_grande",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que conquistador é retratado neste detalhe de um mosaico romano de Pompeia?",
+    "pergunta": "Que rei conquistador da Antiguidade aparece nesta imagem?",
     "resposta": "Alexandre, o Grande",
     "fonte": [
       "https://en.wikipedia.org/wiki/Alexander_the_Great",
@@ -23694,7 +23673,7 @@
     "ancora": "lamen",
     "angulo": "lugar",
     "tipo": "aberta",
-    "pergunta": "Este prato japonês tem origem rastreada ao bairro chinês de qual cidade portuária do Japão?",
+    "pergunta": "Segundo a teoria mais aceita pelos historiadores, este prato chegou ao Japão pelo bairro chinês de qual cidade portuária?",
     "resposta": "Yokohama",
     "fonte": [
       "https://en.wikipedia.org/wiki/Ramen",
@@ -23741,7 +23720,7 @@
     "ancora": "cachorro_quente",
     "angulo": "lugar",
     "tipo": "aberta",
-    "pergunta": "Este lanche virou comida de rua da classe trabalhadora e símbolo do beisebol em qual país?",
+    "pergunta": "Este lanche, muito associado ao beisebol, é considerado típico de qual país?",
     "resposta": "Estados Unidos",
     "fonte": [
       "https://en.wikipedia.org/wiki/Hot_dog",
@@ -23877,7 +23856,7 @@
     "ancora": "churros",
     "angulo": "composicao",
     "tipo": "multipla",
-    "pergunta": "No Brasil, qual é o recheio tradicional deste doce frito?",
+    "pergunta": "Qual destes é um recheio tradicional deste doce frito no Brasil?",
     "resposta": "Doce de leite",
     "distratores": [
       "Goiabada",
@@ -23906,9 +23885,9 @@
     "pergunta": "Que cientista é este, famoso por seus estudos sobre buracos negros?",
     "resposta": "Stephen Hawking",
     "distratores": [
-      "Roger Penrose",
       "Carl Sagan",
-      "Kip Thorne"
+      "Richard Feynman",
+      "Michio Kaku"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Stephen_Hawking",
@@ -23997,7 +23976,7 @@
     "ancora": "charles_babbage",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que matemático inglês, idealizador da máquina analítica, é retratado nesta gravura?",
+    "pergunta": "Quem é este matemático inglês do século dezenove?",
     "resposta": "Charles Babbage",
     "fonte": [
       "https://en.wikipedia.org/wiki/Charles_Babbage",
@@ -24018,12 +23997,12 @@
     "ancora": "srinivasa_ramanujan",
     "angulo": "identidade",
     "tipo": "multipla",
-    "pergunta": "Que cientista indiano é este, autodidata e brilhante em teoria dos números?",
+    "pergunta": "Que matemático indiano do início do século vinte é este?",
     "resposta": "Srinivasa Ramanujan",
     "distratores": [
-      "C. V. Raman",
-      "Subrahmanyan Chandrasekhar",
-      "Homi Bhabha"
+      "Prasanta Mahalanobis",
+      "D. R. Kaprekar",
+      "Harish-Chandra"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan",
@@ -24065,7 +24044,7 @@
     "ancora": "michael_faraday",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que cientista inglês, descobridor da indução eletromagnética, aparece neste retrato pintado?",
+    "pergunta": "Quem é este cientista inglês do século dezenove, retratado nesta pintura?",
     "resposta": "Michael Faraday",
     "fonte": [
       "https://en.wikipedia.org/wiki/Michael_Faraday",
@@ -24086,7 +24065,7 @@
     "ancora": "alexander_graham_bell",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Quem é este inventor, a quem se atribui a primeira patente do telefone?",
+    "pergunta": "Quem é este inventor e cientista, nascido na Escócia?",
     "resposta": "Alexander Graham Bell",
     "fonte": [
       "https://en.wikipedia.org/wiki/Alexander_Graham_Bell",
@@ -24868,9 +24847,9 @@
     "pergunta": "Em que continente esta ave, a maior ave viva, é nativa?",
     "resposta": "África",
     "distratores": [
-      "Austrália",
+      "Oceania",
       "América do Sul",
-      "Ásia"
+      "Europa"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Common_ostrich",
@@ -24912,7 +24891,7 @@
     "ancora": "tie_sangue",
     "angulo": "lugar",
     "tipo": "multipla",
-    "pergunta": "Esta ave é endêmica do Brasil. Em que bioma ela vive?",
+    "pergunta": "Em que bioma vive principalmente esta ave vermelha, tida como símbolo dele?",
     "resposta": "Mata Atlântica",
     "distratores": [
       "Floresta Amazônica",
@@ -24986,7 +24965,7 @@
     "angulo": "lugar",
     "tipo": "aberta",
     "pergunta": "Em que tipo de lugar esta coruja costuma fazer o ninho e descansar?",
-    "resposta": "Em buracos no chão (tocas)",
+    "resposta": "Em tocas no chão",
     "fonte": [
       "https://en.wikipedia.org/wiki/Burrowing_owl",
       "https://pt.wikipedia.org/wiki/Coruja-buraqueira"
@@ -24998,32 +24977,6 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 4
-  },
-  {
-    "id": "q01485",
-    "tema": "Natureza",
-    "subtema": "Aves, Répteis e Anfíbios",
-    "ancora": "cardeal",
-    "angulo": "conexao",
-    "tipo": "multipla",
-    "pergunta": "Esta ave de topete vermelho é aparentada de qual destas?",
-    "resposta": "Tiê-sangue",
-    "distratores": [
-      "Cardeal-do-norte",
-      "Pica-pau-de-topete-vermelho",
-      "Tico-tico"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Red-crested_cardinal",
-      "https://pt.wikipedia.org/wiki/Cardeal-de-topete-vermelho"
-    ],
-    "imagem": {
-      "arquivo": "q01485.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Red-crested_cardinal_(Paroaria_coronata)_Costanera_Sur.jpg",
-      "autor": "Charles J. Sharp",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 5
   },
   {
     "id": "q01486",
@@ -26289,12 +26242,12 @@
     "ancora": "simon_bolivar",
     "angulo": "conexao",
     "tipo": "multipla",
-    "pergunta": "Que país leva o nome deste libertador da América espanhola?",
+    "pergunta": "Que país da América do Sul leva o nome deste libertador da América espanhola?",
     "resposta": "Bolívia",
     "distratores": [
       "Colômbia",
-      "Venezuela",
-      "Peru"
+      "Peru",
+      "Equador"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Sim%C3%B3n_Bol%C3%ADvar",
@@ -26315,7 +26268,7 @@
     "ancora": "otto_von_bismarck",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Que estadista alemão, chamado de Chanceler de Ferro, é este?",
+    "pergunta": "Que estadista alemão do século dezenove é este?",
     "resposta": "Otto von Bismarck",
     "fonte": [
       "https://en.wikipedia.org/wiki/Otto_von_Bismarck",
@@ -26336,7 +26289,7 @@
     "ancora": "cristovao_colombo",
     "angulo": "tempo",
     "tipo": "multipla",
-    "pergunta": "Em que ano este navegador genovês chegou pela primeira vez às Américas?",
+    "pergunta": "Em que ano este navegador fez sua primeira travessia do Atlântico até as Américas?",
     "resposta": "1492",
     "distratores": [
       "1488",
@@ -28030,12 +27983,12 @@
     "ancora": "giba",
     "angulo": "conexao",
     "tipo": "multipla",
-    "pergunta": "Este ex-jogador de vôlei foi campeão olímpico com a seleção brasileira em que ano?",
+    "pergunta": "Este ex-ponteiro de vôlei foi campeão olímpico com a seleção brasileira em que ano?",
     "resposta": "2004",
     "distratores": [
+      "1996",
       "2000",
-      "2008",
-      "2012"
+      "2016"
     ],
     "fonte": [
       "https://en.wikipedia.org/wiki/Giba",
@@ -28071,32 +28024,6 @@
     "dificuldade": 1
   },
   {
-    "id": "q01666",
-    "tema": "Esportes",
-    "subtema": "Basquete",
-    "ancora": "hortencia",
-    "angulo": "identidade",
-    "tipo": "multipla",
-    "pergunta": "Quem é esta ex-jogadora de basquete, apelidada de Rainha?",
-    "resposta": "Hortência",
-    "distratores": [
-      "Paula Silva",
-      "Janeth Arcain",
-      "Helen Luz"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Hort%C3%AAncia_Marcari",
-      "https://pt.wikipedia.org/wiki/Hort%C3%AAncia_Marcari"
-    ],
-    "imagem": {
-      "arquivo": "q01666.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Hortensiamarcari29122006.jpg",
-      "autor": "Ricardo Stuckert/PR",
-      "licenca": "CC BY 3.0 br"
-    },
-    "dificuldade": 4
-  },
-  {
     "id": "q01667",
     "tema": "Esportes",
     "subtema": "Tênis",
@@ -28118,39 +28045,13 @@
     "dificuldade": 4
   },
   {
-    "id": "q01668",
-    "tema": "Esportes",
-    "subtema": "Futebol",
-    "ancora": "romario",
-    "angulo": "identidade",
-    "tipo": "multipla",
-    "pergunta": "Quem é este ex-atacante, campeão mundial em 1994 e depois senador?",
-    "resposta": "Romário",
-    "distratores": [
-      "Bebeto",
-      "Edmundo",
-      "Túlio Maravilha"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Rom%C3%A1rio",
-      "https://pt.wikipedia.org/wiki/Rom%C3%A1rio"
-    ],
-    "imagem": {
-      "arquivo": "q01668.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Senadores_da_57ª_Legislatura_(52689451805).jpg",
-      "autor": "Agência Senado from Brasilia, Brazil",
-      "licenca": "CC BY 2.0"
-    },
-    "dificuldade": 2
-  },
-  {
     "id": "q01669",
     "tema": "Esportes",
     "subtema": "Tênis",
     "ancora": "novak_djokovic",
     "angulo": "conexao",
     "tipo": "aberta",
-    "pergunta": "Em que ano este tenista chegou pela primeira vez ao número um do ranking mundial?",
+    "pergunta": "Em que ano este tenista sérvio chegou pela primeira vez ao número um do ranking mundial da ATP?",
     "resposta": "2011",
     "fonte": [
       "https://en.wikipedia.org/wiki/Novak_Djokovic",
@@ -28238,48 +28139,6 @@
     "dificuldade": 1
   },
   {
-    "id": "q01673",
-    "tema": "Ciências",
-    "subtema": "Invenções e História da Ciência",
-    "ancora": "lampada_incandescente",
-    "angulo": "identidade",
-    "tipo": "aberta",
-    "pergunta": "Que objeto de iluminação elétrica, com um filamento que brilha ao ser aquecido, aparece nesta figura?",
-    "resposta": "Lâmpada incandescente",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Incandescent_light_bulb",
-      "https://pt.wikipedia.org/wiki/L%C3%A2mpada_incandescente"
-    ],
-    "imagem": {
-      "arquivo": "q01673.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Gluehlampe_01_KMJ.jpg",
-      "autor": "KMJ",
-      "licenca": "CC BY-SA 3.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q01675",
-    "tema": "Ciências",
-    "subtema": "Invenções e História da Ciência",
-    "ancora": "mecanismo_de_anticitera",
-    "angulo": "tempo",
-    "tipo": "aberta",
-    "pergunta": "Este fragmento corroído, de um aparelho grego considerado o computador analógico mais antigo conhecido, foi construído em que século antes de Cristo?",
-    "resposta": "Século dois antes de Cristo",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Antikythera_mechanism",
-      "https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Antic%C3%ADtera"
-    ],
-    "imagem": {
-      "arquivo": "q01675.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:NAMA_Machine_d'Anticythère_1.jpg",
-      "autor": "Marsyas (Wikimedia Commons)",
-      "licenca": "CC BY 2.5"
-    },
-    "dificuldade": 3
-  },
-  {
     "id": "q01676",
     "tema": "Ciências",
     "subtema": "Invenções e História da Ciência",
@@ -28334,7 +28193,7 @@
     "angulo": "identidade",
     "tipo": "multipla",
     "pergunta": "Que instrumento óptico para observar objetos distantes é este?",
-    "resposta": "Telescópio (luneta)",
+    "resposta": "Telescópio",
     "distratores": [
       "Binóculo",
       "Periscópio",
@@ -29290,32 +29149,6 @@
     "dificuldade": 3
   },
   {
-    "id": "q01736",
-    "tema": "Natureza",
-    "subtema": "Mamíferos",
-    "ancora": "tamandua_mirim",
-    "angulo": "identidade",
-    "tipo": "multipla",
-    "pergunta": "Que tamanduá é este?",
-    "resposta": "Tamanduá-mirim",
-    "distratores": [
-      "Tamanduá-bandeira",
-      "Tamanduaí",
-      "Tamanduá-mexicano"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Southern_tamandua",
-      "https://pt.wikipedia.org/wiki/Tamandu%C3%A1-mirim"
-    ],
-    "imagem": {
-      "arquivo": "q01736.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg",
-      "autor": "Sinara Conessa",
-      "licenca": "CC BY 2.0"
-    },
-    "dificuldade": 4
-  },
-  {
     "id": "q01737",
     "tema": "Natureza",
     "subtema": "Mamíferos",
@@ -29364,7 +29197,7 @@
     "ancora": "rato_toupeira_pelado",
     "angulo": "lugar",
     "tipo": "aberta",
-    "pergunta": "Em que continente vive este roedor que cava túneis e é quase sem pelos?",
+    "pergunta": "Em que continente vive este roedor?",
     "resposta": "África",
     "fonte": [
       "https://en.wikipedia.org/wiki/Naked_mole-rat",

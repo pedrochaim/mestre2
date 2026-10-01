@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que os órgãos de Eimer levam o nome do zoólogo alemão Theodor Eimer. O enunciado não vaza a resposta e só se responde reconhecendo o animal.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O quati é procionídeo, da mesma família do guaxinim. A máscara escura no rosto aponta só para o guaxinim e nada no enunciado vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não citam o rio. É amplamente documentado que a migração do gnu atravessa o rio Mara entre o Serengeti, na Tanzânia, e o Maasai Mara, no Quênia. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Lince-ibérico e lince-pardo também têm orelhas com tufos pretos, então dois distratores também descrevem o enunciado. A reescrita acrescenta a pelagem uniforme e a distribuição afro-asiática, que excluem os distratores.",
+      "reescrita": {
+        "pergunta": "Este felino de pelagem avermelhada uniforme e orelhas longas com tufos pretos vive em savanas e desertos da África e da Ásia. Qual é ele?",
+        "resposta": "Caracal",
+        "distratores": [
+          "Lince-ibérico",
+          "Serval",
+          "Lince-pardo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a raposa-vermelha é a maior das raposas verdadeiras. A pista ajuda sem entregar o nome e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "O distrator Tamanduá-mexicano é uma espécie do mesmo gênero e quase idêntica na foto, com o mesmo colete, e ocorre também no noroeste da América do Sul. Ele também descreve a imagem, e não há como corrigir sem inventar distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que a saiga ocorre em Betpak-Dala, no Cazaquistão central. A resposta é única e o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o leopardo como felino manchado da África e da Ásia. A figura resolve a ambiguidade com o guepardo, e o enunciado não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o animal é da África. Mas 'cava túneis e é quase sem pelos' entrega a espécie sem olhar a figura, que vira enfeite. O enunciado fica curto e pede reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Em que continente vive este roedor?",
+        "resposta": "África",
+        "distratores": []
+      }
+    }
+  ]
+}

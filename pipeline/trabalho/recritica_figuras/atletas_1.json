@@ -1,0 +1,88 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'camisa da seleção' serve a qualquer jogador, então a resposta não fica única. Troquei por pistas verdadeiras e específicas: revelado pelo Santos e nascido em 1992.",
+      "reescrita": {
+        "pergunta": "Quem é este atacante brasileiro, revelado pelo Santos e nascido em mil novecentos e noventa e dois?",
+        "resposta": "Neymar"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está correto (ouro em 2004). Os distratores 2008 e 2012 são anos em que Giba ganhou prata, o que confunde. Troquei por anos sem final dele.",
+      "reescrita": {
+        "pergunta": "Este ex-ponteiro de vôlei foi campeão olímpico com a seleção brasileira em que ano?",
+        "resposta": "2004",
+        "distratores": [
+          "1996",
+          "2000",
+          "2016"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam: melhor do mundo pela FIFA em 1996, aos 20 anos, jogando pelo Barcelona. Sem vazamento e com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O apelido 'Rainha' entrega a resposta sem olhar a figura. Não tem conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que ela é a única sul-americana campeã de simples em Wimbledon. Resposta única e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Os fatos são verdadeiros, mas a pista 'campeão mundial em 1994 e depois senador' entrega a resposta sem olhar a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está correto (julho de 2011). Ajuste só de precisão e redação: especificar o ranking da ATP.",
+      "reescrita": {
+        "pergunta": "Em que ano este tenista sérvio chegou pela primeira vez ao número um do ranking mundial da ATP?",
+        "resposta": "2011"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a estreia pela Toro Rosso em 2015, aos 17 anos. Distratores críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O ouro olímpico no Rio em 2016 está confirmado. Resposta única e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que o primeiro título da Serie A do Napoli veio em 1986-87 com Maradona. Distratores críveis e errados.",
+      "reescrita": null
+    }
+  ]
+}
