@@ -1653,7 +1653,7 @@
       "https://en.wikipedia.org/wiki/Bayeux_Tapestry",
       "https://en.wikipedia.org/wiki/Halley%27s_Comet"
     ],
-    "dificuldade": 4
+    "dificuldade": 3
   },
   {
     "id": "q00108",
@@ -3189,7 +3189,7 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Tempura"
     ],
-    "dificuldade": 3
+    "dificuldade": 4
   },
   {
     "id": "q00207",
@@ -5334,7 +5334,7 @@
       "autor": "Basem mosaa",
       "licenca": "CC BY-SA 4.0"
     },
-    "dificuldade": 4
+    "dificuldade": 5
   },
   {
     "id": "q00378",
@@ -6017,7 +6017,7 @@
       "autor": "José Ferraz de Almeida Júnior",
       "licenca": "Public domain"
     },
-    "dificuldade": 4
+    "dificuldade": 5
   },
   {
     "id": "q00410",
@@ -6083,5 +6083,1234 @@
       "licenca": "Public domain"
     },
     "dificuldade": 2
+  },
+  {
+    "id": "q00413",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_ultima_ceia",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é o nome desta pintura?",
+    "resposta": "A Última Ceia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_%C3%9Altima_Ceia_%28Leonardo_da_Vinci%29",
+      "https://en.wikipedia.org/wiki/The_Last_Supper_%28Leonardo%29"
+    ],
+    "imagem": {
+      "arquivo": "q00413.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Leonardo_da_Vinci_(1452-1519)_-_The_Last_Supper_(1495-1498).jpg",
+      "autor": "Leonardo da Vinci",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00414",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_criacao_de_adao",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem pintou esta cena?",
+    "resposta": "Michelangelo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_Cria%C3%A7%C3%A3o_de_Ad%C3%A3o",
+      "https://en.wikipedia.org/wiki/The_Creation_of_Adam"
+    ],
+    "imagem": {
+      "arquivo": "q00414.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:The_Creation_of_Adam_perspective_fix.jpg",
+      "autor": "Michelangelo",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00415",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "as_meninas",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Diego Velázquez",
+    "distratores": [
+      "El Greco",
+      "Francisco de Goya",
+      "Bartolomé Murillo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/As_Meninas_%28Vel%C3%A1zquez%29",
+      "https://en.wikipedia.org/wiki/Las_Meninas"
+    ],
+    "imagem": {
+      "arquivo": "q00415.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Las_Meninas,_by_Diego_Velázquez,_from_Prado_in_Google_Earth.jpg",
+      "autor": "Diego Velázquez",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00416",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_ronda_noturna",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Rembrandt",
+    "distratores": [
+      "Johannes Vermeer",
+      "Frans Hals",
+      "Peter Paul Rubens"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_Ronda_Noturna",
+      "https://en.wikipedia.org/wiki/The_Night_Watch"
+    ],
+    "imagem": {
+      "arquivo": "q00416.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg",
+      "autor": "Rembrandt",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00417",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_jardim_das_delicias_terrenas",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Hieronymus Bosch",
+    "distratores": [
+      "Pieter Bruegel",
+      "Jan van Eyck",
+      "Albrecht Dürer"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Jardim_das_Del%C3%ADcias_Terrenas",
+      "https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights"
+    ],
+    "imagem": {
+      "arquivo": "q00417.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:The_Garden_of_Earthly_Delights_by_Bosch_High_Resolution_2.jpg",
+      "autor": "Hieronymus Bosch",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00418",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "autorretrato_com_a_orelha_enfaixada",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é o pintor deste autorretrato?",
+    "resposta": "Vincent van Gogh",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Autorretrato_com_a_Orelha_Cortada",
+      "https://en.wikipedia.org/wiki/Self-Portrait_with_Bandaged_Ear"
+    ],
+    "imagem": {
+      "arquivo": "q00418.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Self-Portrait_with_a_Bandaged_Ear_-_Vincent_van_Gogh.jpg",
+      "autor": "Vincent van Gogh",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00419",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "impressao_nascer_do_sol",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Este quadro inspirou o nome de qual movimento artístico?",
+    "resposta": "Impressionismo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Impress%C3%A3o%2C_nascer_do_sol",
+      "https://en.wikipedia.org/wiki/Impression%2C_Sunrise"
+    ],
+    "imagem": {
+      "arquivo": "q00419.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Monet_-_Impression,_Sunrise.jpg",
+      "autor": "Claude Monet",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00420",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "ninfeias_monet",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Claude Monet",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Nen%C3%BAfares_%28s%C3%A9rie_de_Monet%29",
+      "https://en.wikipedia.org/wiki/Water_Lilies_%28Monet_series%29",
+      "https://en.wikipedia.org/wiki/Water_Lilies_(Monet_series)"
+    ],
+    "imagem": {
+      "arquivo": "q00420.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Claude_Monet_Seerosen_um_1915_Neue_Pinakothek-4.jpg",
+      "autor": "Rufus46",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00421",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_almoco_dos_barqueiros",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Pierre-Auguste Renoir",
+    "distratores": [
+      "Claude Monet",
+      "Édouard Manet",
+      "Edgar Degas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Almo%C3%A7o_dos_Barqueiros",
+      "https://en.wikipedia.org/wiki/Luncheon_of_the_Boating_Party"
+    ],
+    "imagem": {
+      "arquivo": "q00421.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg",
+      "autor": "Pierre-Auguste Renoir",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00422",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "tarde_de_domingo_na_ilha_de_grande_jatte",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que técnica de pintura, feita com pequenos pontos de cor, este quadro usa?",
+    "resposta": "Pontilhismo (ou divisionismo)",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Uma_Tarde_de_Domingo_na_Ilha_de_Grande_Jatte",
+      "https://en.wikipedia.org/wiki/A_Sunday_Afternoon_on_the_Island_of_La_Grande_Jatte"
+    ],
+    "imagem": {
+      "arquivo": "q00422.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:A_Sunday_on_La_Grande_Jatte,_Georges_Seurat,_1884.jpg",
+      "autor": "Georges Seurat",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00423",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_temerario",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "William Turner",
+    "distratores": [
+      "John Constable",
+      "Claude Monet",
+      "Caspar David Friedrich"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/The_Fighting_Temeraire",
+      "https://en.wikipedia.org/wiki/The_Fighting_Temeraire"
+    ],
+    "imagem": {
+      "arquivo": "q00423.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Turner,_J._M._W._-_The_Fighting_Téméraire_tugged_to_her_last_Berth_to_be_broken.jpg",
+      "autor": "J. M. W. Turner",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00424",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_caminhante_sobre_o_mar_de_nevoa",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Caspar David Friedrich",
+    "distratores": [
+      "William Turner",
+      "John Constable",
+      "Eugène Delacroix"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Caminhante_sobre_o_mar_de_n%C3%A9voa",
+      "https://en.wikipedia.org/wiki/Wanderer_Above_the_Sea_of_Fog"
+    ],
+    "imagem": {
+      "arquivo": "q00424.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Friedrich,_Caspar_David_-_Wanderer_über_dem_Nebelmeer.jpg",
+      "autor": "Caspar David Friedrich",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00425",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "tres_de_maio_de_1808",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Francisco de Goya",
+    "distratores": [
+      "Diego Velázquez",
+      "Eugène Delacroix",
+      "Édouard Manet"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tr%C3%AAs_de_Maio_de_1808_em_Madrid",
+      "https://en.wikipedia.org/wiki/The_Third_of_May_1808"
+    ],
+    "imagem": {
+      "arquivo": "q00425.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_in_Google_Earth.jpg",
+      "autor": "Francisco Goya",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00426",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_jangada_da_medusa",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Théodore Géricault",
+    "distratores": [
+      "Eugène Delacroix",
+      "Jacques-Louis David",
+      "William Turner"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_Balsa_da_Medusa",
+      "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa"
+    ],
+    "imagem": {
+      "arquivo": "q00426.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:JEAN_LOUIS_THÉODORE_GÉRICAULT_-_La_Balsa_de_la_Medusa_(Museo_del_Louvre,_1818-19).jpg",
+      "autor": "Théodore Géricault",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00427",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "almoco_na_relva",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Édouard Manet",
+    "distratores": [
+      "Claude Monet",
+      "Pierre-Auguste Renoir",
+      "Gustave Courbet"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Le_D%C3%A9jeuner_sur_l%27herbe",
+      "https://en.wikipedia.org/wiki/Le_D%C3%A9jeuner_sur_l%27herbe"
+    ],
+    "imagem": {
+      "arquivo": "q00427.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg",
+      "autor": "Édouard Manet",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00428",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "as_respigadoras",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Jean-François Millet",
+    "distratores": [
+      "Gustave Courbet",
+      "Camille Corot",
+      "Vincent van Gogh"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/As_Respigadoras_%28Millet%29",
+      "https://en.wikipedia.org/wiki/The_Gleaners"
+    ],
+    "imagem": {
+      "arquivo": "q00428.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jean-François_Millet_-_Des_glaneuses.jpg",
+      "autor": "Jean-François Millet",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00429",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_carroca_de_feno",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "John Constable",
+    "distratores": [
+      "William Turner",
+      "Thomas Gainsborough",
+      "Caspar David Friedrich"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_Carro%C3%A7a_de_Feno",
+      "https://en.wikipedia.org/wiki/The_Hay_Wain"
+    ],
+    "imagem": {
+      "arquivo": "q00429.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:John_Constable_-_The_Hay_Wain_(1821).jpg",
+      "autor": "John Constable",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00430",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_casal_arnolfini",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Jan van Eyck",
+    "distratores": [
+      "Hieronymus Bosch",
+      "Rogier van der Weyden",
+      "Hans Holbein"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Casal_Arnolfini",
+      "https://en.wikipedia.org/wiki/Arnolfini_Portrait"
+    ],
+    "imagem": {
+      "arquivo": "q00430.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Van_Eyck_-_Arnolfini_Portrait.jpg",
+      "autor": "Jan van Eyck",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00431",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "os_embaixadores",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Hans Holbein, o Jovem",
+    "distratores": [
+      "Albrecht Dürer",
+      "Jan van Eyck",
+      "Lucas Cranach"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Os_Embaixadores",
+      "https://en.wikipedia.org/wiki/The_Ambassadors_%28Holbein%29"
+    ],
+    "imagem": {
+      "arquivo": "q00431.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hans_Holbein_the_Younger_-_The_Ambassadors_-_Google_Art_Project.jpg",
+      "autor": "Hans Holbein the Younger",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00432",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_primavera_botticelli",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Sandro Botticelli",
+    "distratores": [
+      "Rafael",
+      "Leonardo da Vinci",
+      "Ticiano"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_Primavera_%28Botticelli%29",
+      "https://en.wikipedia.org/wiki/Primavera_%28Botticelli%29"
+    ],
+    "imagem": {
+      "arquivo": "q00432.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg",
+      "autor": "Sandro Botticelli",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00433",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_escola_de_atenas",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este afresco?",
+    "resposta": "Rafael",
+    "distratores": [
+      "Michelangelo",
+      "Leonardo da Vinci",
+      "Ticiano"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Escola_de_Atenas",
+      "https://en.wikipedia.org/wiki/The_School_of_Athens"
+    ],
+    "imagem": {
+      "arquivo": "q00433.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:\"The_School_of_Athens\"_by_Raffaello_Sanzio_da_Urbino.jpg",
+      "autor": "Raphael",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00434",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "os_jogadores_de_cartas",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Paul Cézanne",
+    "distratores": [
+      "Paul Gauguin",
+      "Vincent van Gogh",
+      "Edgar Degas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Os_Jogadores_de_Cartas",
+      "https://en.wikipedia.org/wiki/The_Card_Players"
+    ],
+    "imagem": {
+      "arquivo": "q00434.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Paul_Cézanne,_Les_joueurs_de_carte_(1892-95).jpg",
+      "autor": "Paul Cézanne",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00435",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "mulheres_taitianas_na_praia",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Paul Gauguin",
+    "distratores": [
+      "Paul Cézanne",
+      "Henri Matisse",
+      "Henri Rousseau"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tahitian_Women_on_the_Beach"
+    ],
+    "imagem": {
+      "arquivo": "q00435.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Paul_Gauguin_056.jpg",
+      "autor": "Paul Gauguin",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00436",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "cacadores_na_neve",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Pieter Bruegel, o Velho",
+    "distratores": [
+      "Hieronymus Bosch",
+      "Rembrandt",
+      "Jan van Eyck"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ca%C3%A7adores_na_Neve",
+      "https://en.wikipedia.org/wiki/The_Hunters_in_the_Snow"
+    ],
+    "imagem": {
+      "arquivo": "q00436.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pieter_Bruegel_the_Elder_-_Hunters_in_the_Snow_(Winter)_-_Google_Art_Project.jpg",
+      "autor": "Pieter Brueghel the Elder",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00437",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "napoleao_cruzando_os_alpes",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Jacques-Louis David",
+    "distratores": [
+      "Eugène Delacroix",
+      "Francisco de Goya",
+      "Jean-Auguste Ingres"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Napole%C3%A3o_cruzando_os_Alpes",
+      "https://en.wikipedia.org/wiki/Napoleon_Crossing_the_Alps"
+    ],
+    "imagem": {
+      "arquivo": "q00437.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jacques_Louis_David_-_Bonaparte_franchissant_le_Grand_Saint-Bernard,_20_mai_1800_-_Google_Art_Project.jpg",
+      "autor": "Jacques-Louis David / Formerly attributed to Jérôme-Martin Langlois",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00438",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_mae_de_whistler",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "James McNeill Whistler",
+    "distratores": [
+      "Édouard Manet",
+      "John Singer Sargent",
+      "Edgar Degas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arranjo_em_Cinza_e_Preto_n%C2%BA1",
+      "https://en.wikipedia.org/wiki/Whistler%27s_Mother"
+    ],
+    "imagem": {
+      "arquivo": "q00438.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Whistlers_Mother_high_res.jpg",
+      "autor": "James McNeill Whistler",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00439",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "gotico_americano",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Grant Wood",
+    "distratores": [
+      "Edward Hopper",
+      "Norman Rockwell",
+      "Andrew Wyeth"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/American_Gothic",
+      "https://en.wikipedia.org/wiki/American_Gothic"
+    ],
+    "imagem": {
+      "arquivo": "q00439.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Grant_Wood_-_American_Gothic_(1930).jpg",
+      "autor": "Grant Wood",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00440",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "chuva_subita_sobre_a_ponte_ohashi",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que artista japonês criou esta gravura?",
+    "resposta": "Hiroshige",
+    "distratores": [
+      "Hokusai",
+      "Utamaro",
+      "Sharaku"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sudden_Shower_over_Shin-%C5%8Chashi_Bridge_and_Atake"
+    ],
+    "imagem": {
+      "arquivo": "q00440.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Utagawa_Hiroshige_-_Evening_Shower_at_Atake_and_the_Great_Bridge.jpg",
+      "autor": "Utagawa Hiroshige",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00441",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_balanco_fragonard",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Jean-Honoré Fragonard",
+    "distratores": [
+      "Antoine Watteau",
+      "François Boucher",
+      "Jacques-Louis David"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Balan%C3%A7o",
+      "https://en.wikipedia.org/wiki/The_Swing_%28Fragonard%29"
+    ],
+    "imagem": {
+      "arquivo": "q00441.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fragonard,_The_Swing.jpg",
+      "autor": "Jean-Honoré Fragonard",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00442",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "vista_de_toledo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que cidade espanhola este quadro mostra?",
+    "resposta": "Toledo",
+    "distratores": [
+      "Granada",
+      "Segóvia",
+      "Sevilha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/View_of_Toledo"
+    ],
+    "imagem": {
+      "arquivo": "q00442.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:View_of_Toledo_MET_DP349564.jpg",
+      "autor": "El Greco",
+      "licenca": "CC0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00443",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_grande_canal_e_a_igreja_da_salute",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Que cidade este quadro mostra?",
+    "resposta": "Veneza",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Grand_Canal_and_the_Church_of_the_Salute"
+    ],
+    "imagem": {
+      "arquivo": "q00443.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Canaletto_-_Bührle_foundation_csm_Canal_S_Maria_cf2fa1ba03.jpg",
+      "autor": "Canaletto",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00444",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_aula_de_danca_degas",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Edgar Degas",
+    "distratores": [
+      "Pierre-Auguste Renoir",
+      "Édouard Manet",
+      "Henri de Toulouse-Lautrec"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Edgar_Degas",
+      "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg"
+    ],
+    "imagem": {
+      "arquivo": "q00444.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Edgar_Degas_-_The_Ballet_Class_-_Google_Art_Project.jpg",
+      "autor": "Edgar Degas",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00445",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "composicao_vii",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Wassily Kandinsky",
+    "distratores": [
+      "Joan Miró",
+      "Paul Klee",
+      "Piet Mondrian"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Composi%C3%A7%C3%A3o_VII_%28Kandinsky%29",
+      "https://en.wikipedia.org/wiki/Composition_VII"
+    ],
+    "imagem": {
+      "arquivo": "q00445.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Composition_VII_-_Wassily_Kandinsky,_GAC.jpg",
+      "autor": "Wassily Kandinsky",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00446",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "composicao_com_vermelho_azul_e_amarelo",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Piet Mondrian",
+    "distratores": [
+      "Kazimir Malevich",
+      "Wassily Kandinsky",
+      "Paul Klee"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Composi%C3%A7%C3%A3o_II_em_Vermelho%2C_Azul_e_Amarelo",
+      "https://en.wikipedia.org/wiki/Composition_with_Red%2C_Blue_and_Yellow"
+    ],
+    "imagem": {
+      "arquivo": "q00446.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Piet_Mondriaan,_1930_-_Mondrian_Composition_II_in_Red,_Blue,_and_Yellow.jpg",
+      "autor": "Piet Mondrian",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00447",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "quadrado_negro",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Kazimir Malevich",
+    "distratores": [
+      "Piet Mondrian",
+      "Wassily Kandinsky",
+      "Marcel Duchamp"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_Square"
+    ],
+    "imagem": {
+      "arquivo": "q00447.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Чёрный_супрематический_квадрат._1915._ГТГ.png",
+      "autor": "Kazimir Malevich",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00448",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "tigre_numa_tempestade_tropical",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Henri Rousseau",
+    "distratores": [
+      "Paul Gauguin",
+      "Henri Matisse",
+      "Paul Cézanne"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tiger_in_a_Tropical_Storm"
+    ],
+    "imagem": {
+      "arquivo": "q00448.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Surprised-Rousseau.jpg",
+      "autor": "Henri Rousseau",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00449",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "a_vocacao_de_sao_mateus",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Caravaggio",
+    "distratores": [
+      "Rembrandt",
+      "Ticiano",
+      "Rafael"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Voca%C3%A7%C3%A3o_de_S%C3%A3o_Mateus_%28Caravaggio%29",
+      "https://en.wikipedia.org/wiki/The_Calling_of_Saint_Matthew"
+    ],
+    "imagem": {
+      "arquivo": "q00449.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Caravaggio_—_The_Calling_of_Saint_Matthew.jpg",
+      "autor": "Gleb Simonov",
+      "licenca": "CC0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00450",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "venus_de_urbino",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Ticiano",
+    "distratores": [
+      "Giorgione",
+      "Rafael",
+      "Sandro Botticelli"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/V%C3%AAnus_de_Urbino",
+      "https://en.wikipedia.org/wiki/Venus_of_Urbino"
+    ],
+    "imagem": {
+      "arquivo": "q00450.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tiziano's_Venere_di_Urbino_(from_The_History_BLog).jpg",
+      "autor": "Titian",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00451",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "primeira_missa_no_brasil",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que acontecimento este quadro de Victor Meirelles retrata?",
+    "resposta": "A primeira missa no Brasil, em 1500",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Primeira_Missa_no_Brasil_%28Victor_Meirelles%29",
+      "https://en.wikipedia.org/wiki/The_First_Mass_in_Brazil_%28Victor_Meirelles%29"
+    ],
+    "imagem": {
+      "arquivo": "q00451.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Meirelles-primeiramissa2.jpg",
+      "autor": "Victor Meirelles",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00452",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "batalha_do_avai_pintura",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Este quadro de Pedro Américo retrata uma batalha de qual guerra?",
+    "resposta": "Guerra do Paraguai (da Tríplice Aliança)",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Batalha_de_Ava%C3%AD",
+      "https://en.wikipedia.org/wiki/Battle_of_Avay",
+      "https://pt.wikipedia.org/wiki/Pedro_Am%C3%A9rico"
+    ],
+    "imagem": {
+      "arquivo": "q00452.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Americo-avaí.jpg",
+      "autor": "Pedro Américo",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00453",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "fundacao_de_sao_paulo_pintura",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Este quadro retrata a fundação de qual cidade brasileira?",
+    "resposta": "São Paulo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Funda%C3%A7%C3%A3o_de_S%C3%A3o_Paulo"
+    ],
+    "imagem": {
+      "arquivo": "q00453.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oscar_Pereira_da_Silva_-_Fundação_da_Cidade_de_São_Paulo,_Acervo_do_Museu_Paulista_da_USP.jpg",
+      "autor": "Oscar Pereira da Silva",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00454",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "familia_brasileira_no_rio_de_janeiro",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem retratou esta cena do Rio de Janeiro do século dezenove?",
+    "resposta": "Jean-Baptiste Debret",
+    "distratores": [
+      "Johann Moritz Rugendas",
+      "Victor Meirelles",
+      "Frans Post"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jean-Baptiste_Debret",
+      "https://commons.wikimedia.org/wiki/File:A_Brazilian_family_in_Rio_de_Janeiro_by_Jean-Baptiste_Debret_1839.jpg"
+    ],
+    "imagem": {
+      "arquivo": "q00454.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:A_Brazilian_family_in_Rio_de_Janeiro_by_Jean-Baptiste_Debret_1839.jpg",
+      "autor": "Jean-Baptiste Debret",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00455",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "mulher_tapuia",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que pintor do Brasil holandês fez este retrato?",
+    "resposta": "Albert Eckhout",
+    "distratores": [
+      "Frans Post",
+      "Jean-Baptiste Debret",
+      "Johann Moritz Rugendas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Albert_Eckhout",
+      "https://commons.wikimedia.org/wiki/File:Albert_Eckhout_Tapuia_woman_1641_(cropped).jpg"
+    ],
+    "imagem": {
+      "arquivo": "q00455.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Albert_Eckhout_Tapuia_woman_1641_(cropped).jpg",
+      "autor": "Albert Eckhout",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00456",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "o_ultimo_tamoio",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Rodolfo Amoedo",
+    "distratores": [
+      "Pedro Américo",
+      "Victor Meirelles",
+      "Almeida Júnior"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_%C3%9Altimo_Tamoio"
+    ],
+    "imagem": {
+      "arquivo": "q00456.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ultimo_tamoio_1883.jpg",
+      "autor": "Rodolfo Amoedo",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00457",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "arrufos",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "Belmiro de Almeida",
+    "distratores": [
+      "Almeida Júnior",
+      "Eliseu Visconti",
+      "Pedro Américo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Belmiro_de_Almeida",
+      "https://commons.wikimedia.org/wiki/File:Belmiro_de_Almeida_-_Arrufos,_1887.jpg"
+    ],
+    "imagem": {
+      "arquivo": "q00457.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Belmiro_de_Almeida_-_Arrufos,_1887.jpg",
+      "autor": "Belmiro de Almeida",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00458",
+    "tema": "Artes e Pensamento",
+    "subtema": "Pintura",
+    "ancora": "ofelia_millais",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem pintou este quadro?",
+    "resposta": "John Everett Millais",
+    "distratores": [
+      "Dante Gabriel Rossetti",
+      "Thomas Gainsborough",
+      "William Turner"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_Everett_Millais",
+      "https://commons.wikimedia.org/wiki/File:John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg"
+    ],
+    "imagem": {
+      "arquivo": "q00458.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:John_Everett_Millais_-_Ophelia_-_Google_Art_Project.jpg",
+      "autor": "John Everett Millais",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00459",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "o_pensador",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem esculpiu esta estátua?",
+    "resposta": "Auguste Rodin",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Pensador",
+      "https://en.wikipedia.org/wiki/The_Thinker"
+    ],
+    "imagem": {
+      "arquivo": "q00459.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:The_Thinker,_Rodin.jpg",
+      "autor": "AndrewHorne (talk)",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00460",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "venus_de_milo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é o nome desta estátua?",
+    "resposta": "Vênus de Milo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/V%C3%AAnus_de_Milo",
+      "https://en.wikipedia.org/wiki/Venus_de_Milo"
+    ],
+    "imagem": {
+      "arquivo": "q00460.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vénus_de_Milo_-_Musée_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg",
+      "autor": "Shonagon",
+      "licenca": "CC0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00461",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "o_extase_de_santa_teresa",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem esculpiu esta obra?",
+    "resposta": "Gian Lorenzo Bernini",
+    "distratores": [
+      "Michelangelo",
+      "Antonio Canova",
+      "Donatello"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_%C3%8Axtase_de_Santa_Teresa",
+      "https://en.wikipedia.org/wiki/Ecstasy_of_Saint_Teresa"
+    ],
+    "imagem": {
+      "arquivo": "q00461.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ecstasy_of_Saint_Teresa_September_2015-2a.jpg",
+      "autor": "Gian Lorenzo Bernini",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00462",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "davi_michelangelo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é o nome desta estátua?",
+    "resposta": "Davi",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/David_%28Michelangelo%29",
+      "https://en.wikipedia.org/wiki/David_%28Michelangelo%29"
+    ],
+    "imagem": {
+      "arquivo": "q00462.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Michelangelo's_David_-_right_view_2.jpg",
+      "autor": "Commonists",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 3
   }
 ]
