@@ -1,0 +1,253 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome da prova de maratona vem de um lugar da Grécia onde, em 490 antes de Cristo, aconteceu o quê?",
+        "resposta": "Uma batalha entre gregos e persas"
+      },
+      "existentes": [
+        {
+          "id": "q00677",
+          "pergunta": "Segundo a explicação mais repetida, por que a maratona de Londres 1908 ganhou o percurso de quarenta e dois quilômetros e cento e noventa e cinco metros?",
+          "resposta": "Largar em Windsor e chegar ao camarote real"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O nome Frisbee vem de uma fábrica americana cujas formas de metal os universitários arremessavam por diversão. O que essa fábrica produzia?",
+        "resposta": "Tortas"
+      },
+      "existentes": [
+        {
+          "id": "q00872",
+          "pergunta": "O nome Frisbee vem de uma empresa de Connecticut cujas formas de metal os estudantes arremessavam por diversão. O que essa empresa fabricava?",
+          "resposta": "Tortas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A Copa Stanley, do hóquei no gelo, leva o nome de um lorde britânico. Que cargo ele ocupava no Canadá?",
+        "resposta": "Governador-geral"
+      },
+      "existentes": [
+        {
+          "id": "q00545",
+          "pergunta": "Que troféu é este?",
+          "resposta": "Copa Stanley"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome sepak takraw mistura malaio e tailandês. Takraw é a bola de vime. E sepak, em malaio, significa o quê?",
+        "resposta": "Chutar"
+      },
+      "existentes": [
+        {
+          "id": "q00515",
+          "pergunta": "Em que esporte do Sudeste Asiático se usa esta bola de vime?",
+          "resposta": "Sepak takraw"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Aos sete anos, a maranhense Rayssa Leal viralizou num vídeo em que andava de skate fantasiada. Que apelido ela ganhou?",
+        "resposta": "Fadinha"
+      },
+      "existentes": [
+        {
+          "id": "q00664",
+          "pergunta": "Aos sete anos, a skatista Rayssa Leal viralizou na internet andando de skate com que fantasia?",
+          "resposta": "De fada"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O primeiro troféu do Open Britânico de golfe era um cinturão. Por que ele precisou ser substituído pela Claret Jug?",
+        "resposta": "Young Tom Morris ficou com ele"
+      },
+      "existentes": [
+        {
+          "id": "q00546",
+          "pergunta": "Que troféu é este?",
+          "resposta": "Claret Jug (golfe)"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Antes das partidas de hóquei no gelo, os discos ficam guardados num congelador. Para que serve isso?",
+        "resposta": "Para quicarem menos"
+      },
+      "existentes": [
+        {
+          "id": "q00542",
+          "pergunta": "Em que esporte se usa este disco?",
+          "resposta": "Hóquei no gelo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Duke Kahanamoku, o havaiano considerado o pai do surfe moderno, ganhou medalhas olímpicas em que esporte?",
+        "resposta": "Natação"
+      },
+      "existentes": [
+        {
+          "id": "q00688",
+          "pergunta": "O havaiano Duke Kahanamoku, campeão olímpico de natação em 1912, ficou mundialmente famoso por difundir que outro esporte?",
+          "resposta": "Surfe"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O bicampeão olímpico do salto triplo Adhemar Ferreira da Silva interpretou a Morte em qual filme premiado com o Oscar?",
+        "resposta": "Orfeu Negro"
+      },
+      "existentes": [
+        {
+          "id": "q00681",
+          "pergunta": "O bicampeão olímpico do salto triplo Adhemar Ferreira da Silva também atuou num filme vencedor da Palma de Ouro e do Oscar. Qual?",
+          "resposta": "Orfeu Negro"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Segundo a lenda, que estudante da escola de Rugby, na Inglaterra, pegou a bola com as mãos numa partida de futebol em 1823?",
+        "resposta": "William Webb Ellis"
+      },
+      "existentes": [
+        {
+          "id": "q00518",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Rúgbi"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O duplo twist carpado, salto do solo da ginástica, leva no código de pontuação o nome de qual ginasta brasileira?",
+        "resposta": "Daiane dos Santos"
+      },
+      "existentes": [
+        {
+          "id": "q00665",
+          "pergunta": "No código de pontuação da ginástica, o duplo twist carpado leva o sobrenome de qual ginasta brasileira?",
+          "resposta": "Daiane dos Santos"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Nos Jogos do México, em 1968, que americano ganhou o ouro saltando de costas sobre o sarrafo e mudou o salto em altura?",
+        "resposta": "Dick Fosbury"
+      },
+      "existentes": [
+        {
+          "id": "q00661",
+          "pergunta": "No salto em altura, a técnica de passar de costas sobre o sarrafo leva o nome de qual campeão olímpico americano de 1968?",
+          "resposta": "Dick Fosbury"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O volante oficial de badminton feito de penas de ganso tem quantas penas?",
+        "resposta": "Dezesseis"
+      },
+      "existentes": [
+        {
+          "id": "q00540",
+          "pergunta": "Em que esporte se usa isto?",
+          "resposta": "Badminton"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Origem do nome (batalha de Maratona) é fato diferente da distância em Londres 1908."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: a fábrica fazia tortas; só muda o enunciado."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cargo do lorde difere da identificação do troféu."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado de sepak é outro fato que o nome do esporte."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Apelido 'Fadinha' difere da fantasia, embora relacionados; saber a fantasia não implica o apelido."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Motivo da substituição do cinturão é fato distinto da identificação do troféu."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Finalidade do congelamento dos discos é outro fato que o esporte."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Ambas ligam Duke Kahanamoku à natação e ao surfe; a resposta de uma está no enunciado da outra."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Adhemar atuou em Orfeu Negro."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Lenda de William Webb Ellis é diferente da identificação do esporte."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: duplo twist carpado leva o nome de Daiane dos Santos."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Dick Fosbury e a técnica de costas no salto em altura."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Número de penas é fato distinto da identificação do esporte."
+    }
+  ]
+}

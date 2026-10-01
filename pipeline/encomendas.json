@@ -379,6 +379,20 @@
       ],
       "observacoes": "Fórmula 1 e outras categorias, pilotos, circuitos e equipes, com o Brasil (Fittipaldi, Piquet, Senna) em destaque. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara.",
       "autopiloto": true
+    },
+    {
+      "id": "esportes_outras_modalidades_01",
+      "tema": "Esportes",
+      "subtema": "Outras Modalidades",
+      "quantidade": 50,
+      "multipla": 10,
+      "angulos_alvo": [
+        "nome",
+        "causa",
+        "conexao"
+      ],
+      "observacoes": "Natação, atletismo, ginástica, surfe, skate, ciclismo, golfe e demais esportes sem subtema próprio. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara.",
+      "autopiloto": true
     }
   ]
 }

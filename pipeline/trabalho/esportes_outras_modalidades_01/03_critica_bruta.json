@@ -1,0 +1,412 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Albatroz é três abaixo do par; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido de Gelfand deu nome à manobra, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frisbie Pie Company confirmada na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obituário do críquete inglês confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem na lanterna do último vagão confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lamar Hunt e a Super Ball confirmados, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Companheiro de farda' é impreciso: a fonte diz amigo do pai, coronel sul-vietnamita.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O golfista Eldrick Woods ganhou o apelido Tiger em homenagem a um amigo militar de seu pai. Em que guerra os dois serviram juntos?",
+        "resposta": "Guerra do Vietnã",
+        "distratores": [
+          "Guerra da Coreia",
+          "Segunda Guerra Mundial",
+          "Guerra do Golfo"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tiger_Woods"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vem do iate America, vencedor de 1851.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lord Stanley era governador-geral do Canadá.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sepak significa chutar em malaio; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Fadinha confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Young Tom Morris ganhou o cinturão em definitivo em 1870.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Discos congelados quicam menos; fato conhecido e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta traz 'atrás das linhas inimigas', não sustentado; fonte pt diz soldado de cavalaria.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Segundo a tradição, ao criar o pentatlo moderno, Pierre de Coubertin se inspirou nas provações de que tipo de soldado do século dezenove?",
+        "resposta": "Soldado de cavalaria",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Modern_pentathlon",
+          "https://pt.wikipedia.org/wiki/Pentatlo_moderno"
+        ]
+      }
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Surfe no asfalto, segundo a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Resposta vaga demais; a discussão era sobre nadadores, ciclistas ou corredores.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "O Ironman nasceu no Havaí, em 1978, para encerrar uma discussão entre atletas. O que eles discutiam?",
+        "resposta": "Se nadadores, ciclistas ou corredores eram mais preparados",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ironman_World_Championship",
+          "https://en.wikipedia.org/wiki/Ironman_Triathlon"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cânion de Nazaré confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Edito de 1457 e treino de arco e flecha confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "As estrelas são douradas, não vermelhas.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Por que o escudo do São Paulo Futebol Clube tem duas estrelas douradas?",
+        "resposta": "Recordes mundiais de Adhemar Ferreira da Silva",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_Futebol_Clube",
+          "https://pt.wikipedia.org/wiki/Adhemar_Ferreira_da_Silva"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Acidente foi em 1981, mas a amputação e o fim da carreira vieram em 1982; melhor perguntar o que perdeu.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Um acidente de carro no fim de 1981 acabou com a carreira de João do Pulo, recordista mundial do salto triplo. Que parte do corpo ele perdeu?",
+        "resposta": "A perna direita",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jo%C3%A3o_do_Pulo",
+          "https://en.wikipedia.org/wiki/Jo%C3%A3o_Carlos_de_Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Covinhas aumentam o alcance; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shepard bateu bolas de golfe na Lua.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Duke foi nadador olímpico, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Adhemar fez a Morte em Orfeu Negro, premiado com o Oscar.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cores vêm do papel dos jornais organizadores.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte e trechos não mostram a música; detalhe fraco e arriscado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Weissmuller ficou famoso como Tarzan.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Diplomacia do pingue-pongue confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Série de videogames de 1999 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taiti a cerca de 15 mil km de Paris.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem persa do polo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Snooker surgiu na Índia britânica.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regata disputada no Tâmisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ederle cruzou o Canal da Mancha em 1926.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda de Webb Ellis em 1823, enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Duplo twist carpado é o Dos Santos I.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cásper Líbero idealizou a corrida.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fosbury, ouro em 1968 com o salto de costas.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Medina, primeiro brasileiro campeão mundial, em 2014.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro Tour em 1903.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pedir a década é fraco; o ano exato, 1954, é mais preciso.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano o britânico Roger Bannister se tornou o primeiro a correr uma milha em menos de quatro minutos?",
+        "resposta": "1954",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Roger_Bannister",
+          "https://en.wikipedia.org/wiki/Four-minute_mile"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dia dos Patriotas confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O 900 de 1999 nos X Games confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Número 99 aposentado por toda a NHL.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Volante com dezesseis penas, conforme a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ironman termina com uma maratona.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1500 metros encerra o decatlo.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Borboleta abre o medley individual.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vencedor recebe um paralelepípedo desde 1977.",
+      "reescrita": null
+    }
+  ]
+}

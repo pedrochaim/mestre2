@@ -7148,7 +7148,10 @@
       "wikidata": "Q188818",
       "pt": 387,
       "en": 18109
-    }
+    },
+    "variantes": [
+      "Futevôlei asiático"
+    ]
   },
   {
     "id": "esgrima",
@@ -7190,7 +7193,10 @@
       "wikidata": "Q5849",
       "pt": 332,
       "en": 43662
-    }
+    },
+    "variantes": [
+      "Rugby"
+    ]
   },
   {
     "id": "salto_com_vara",
@@ -7497,7 +7503,11 @@
       "wikidata": "Q874669",
       "pt": 42,
       "en": 7995
-    }
+    },
+    "variantes": [
+      "Shuttlecock",
+      "Peteca de badminton"
+    ]
   },
   {
     "id": "luva_de_beisebol",
@@ -7525,7 +7535,10 @@
       "wikidata": "Q508918",
       "pt": 41,
       "en": 5110
-    }
+    },
+    "variantes": [
+      "Puck"
+    ]
   },
   {
     "id": "pino_de_boliche",
@@ -7553,7 +7566,10 @@
       "wikidata": "Q211872",
       "pt": 1636,
       "en": 67252
-    }
+    },
+    "variantes": [
+      "Stanley Cup"
+    ]
   },
   {
     "id": "claret_jug",
@@ -7567,7 +7583,10 @@
       "wikidata": "Q5126907",
       "pt": 0,
       "en": 2089
-    }
+    },
+    "variantes": [
+      "Golf Champion Trophy"
+    ]
   },
   {
     "id": "taca_davis",
@@ -9355,7 +9374,8 @@
     "nome": "Fosbury Flop",
     "descricao": "Técnica do salto em altura em que o atleta passa de costas sobre o sarrafo.",
     "variantes": [
-      "Salto Fosbury"
+      "Salto Fosbury",
+      "Flop"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Fosbury_flop"
@@ -9422,7 +9442,8 @@
     "descricao": "Movimento da ginástica artística de solo que entrou no código de pontuação com o nome da ginasta brasileira que o executou primeiro.",
     "variantes": [
       "Dos Santos",
-      "Duplo twist carpado (Dos Santos)"
+      "Duplo twist carpado (Dos Santos)",
+      "Double Arabian piked"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Daiane_dos_Santos"
@@ -9702,7 +9723,10 @@
       "wikidata": "Q123688",
       "pt": 149,
       "en": 9489
-    }
+    },
+    "variantes": [
+      "Duke Paoa Kahanamoku"
+    ]
   },
   {
     "id": "massacre_de_munique",
@@ -24451,5 +24475,375 @@
       "pt": 55,
       "en": 3180
     }
+  },
+  {
+    "id": "albatroz_golfe",
+    "nome": "Albatroz (golfe)",
+    "descricao": "Termo do golfe para terminar um buraco com três tacadas a menos que o par.",
+    "variantes": [
+      "Albatross",
+      "Double eagle"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Glossary_of_golf"
+    ]
+  },
+  {
+    "id": "ollie",
+    "nome": "Ollie",
+    "descricao": "Manobra básica do skate em que o skatista salta com a prancha sem usar as mãos.",
+    "variantes": [
+      "Ollie (skate)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ollie_(skateboarding)",
+      "https://en.wikipedia.org/wiki/Alan_Gelfand"
+    ]
+  },
+  {
+    "id": "as_cinzas_criquete",
+    "nome": "As Cinzas (críquete)",
+    "descricao": "Série de partidas de críquete disputada entre Inglaterra e Austrália desde 1882.",
+    "variantes": [
+      "The Ashes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Ashes"
+    ]
+  },
+  {
+    "id": "lanterna_vermelha",
+    "nome": "Lanterna vermelha",
+    "descricao": "Apelido dado ao último colocado na classificação geral do Tour de France.",
+    "variantes": [
+      "Lanterne rouge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lanterne_rouge"
+    ]
+  },
+  {
+    "id": "super_bowl",
+    "nome": "Super Bowl",
+    "descricao": "Partida final da liga de futebol americano dos Estados Unidos, a NFL.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Super_Bowl"
+    ]
+  },
+  {
+    "id": "tiger_woods",
+    "nome": "Tiger Woods",
+    "descricao": "Golfista americano, nascido Eldrick Tont Woods, um dos maiores vencedores de torneios principais.",
+    "variantes": [
+      "Eldrick Woods"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tiger_Woods"
+    ]
+  },
+  {
+    "id": "america_s_cup",
+    "nome": "America's Cup",
+    "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+    "variantes": [
+      "Copa América de vela",
+      "Taça América"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/America%27s_Cup"
+    ]
+  },
+  {
+    "id": "pentatlo_moderno",
+    "nome": "Pentatlo moderno",
+    "descricao": "Modalidade olímpica criada por Pierre de Coubertin, que combina esgrima, natação, hipismo, tiro e corrida.",
+    "variantes": [
+      "Modern pentathlon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Modern_pentathlon",
+      "https://pt.wikipedia.org/wiki/Pentatlo_moderno"
+    ]
+  },
+  {
+    "id": "skate",
+    "nome": "Skate",
+    "descricao": "Esporte praticado sobre uma prancha com quatro rodinhas, surgido na Califórnia.",
+    "variantes": [
+      "Skateboarding",
+      "Esqueite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Skateboarding",
+      "https://pt.wikipedia.org/wiki/Skate"
+    ]
+  },
+  {
+    "id": "ironman",
+    "nome": "Ironman",
+    "descricao": "Triatlo de longa distância criado no Havaí em 1978, com natação, ciclismo e corrida.",
+    "variantes": [
+      "Ironman Triathlon",
+      "Ironman World Championship"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ironman_Triathlon",
+      "https://en.wikipedia.org/wiki/Ironman_World_Championship"
+    ]
+  },
+  {
+    "id": "praia_do_norte_nazare",
+    "nome": "Praia do Norte (Nazaré)",
+    "descricao": "Praia da vila portuguesa de Nazaré, famosa pelas ondas gigantes surfadas no inverno.",
+    "variantes": [
+      "Nazaré"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nazar%C3%A9,_Portugal",
+      "https://en.wikipedia.org/wiki/Nazar%C3%A9_Canyon"
+    ]
+  },
+  {
+    "id": "proibicao_escocesa_do_golfe_de_1457",
+    "nome": "Proibição escocesa do golfe de 1457",
+    "descricao": "Lei do parlamento escocês, sob o rei Jaime Segundo, que proibiu o golfe e o futebol.",
+    "variantes": [
+      "Golf ban of 1457"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/History_of_golf"
+    ]
+  },
+  {
+    "id": "escudo_do_sao_paulo_futebol_clube",
+    "nome": "Escudo do São Paulo Futebol Clube",
+    "descricao": "Distintivo do clube paulista, com estrelas que homenageiam títulos e recordes.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_Futebol_Clube"
+    ]
+  },
+  {
+    "id": "joao_do_pulo",
+    "nome": "João do Pulo",
+    "descricao": "João Carlos de Oliveira, atleta brasileiro do salto triplo, recordista mundial em 1975.",
+    "variantes": [
+      "João Carlos de Oliveira"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Jo%C3%A3o_do_Pulo",
+      "https://en.wikipedia.org/wiki/Jo%C3%A3o_Carlos_de_Oliveira"
+    ]
+  },
+  {
+    "id": "bola_de_golfe",
+    "nome": "Bola de golfe",
+    "descricao": "Pequena bola com covinhas na superfície usada no golfe.",
+    "variantes": [
+      "Golf ball"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Golf_ball"
+    ]
+  },
+  {
+    "id": "alan_shepard",
+    "nome": "Alan Shepard",
+    "descricao": "Astronauta americano, primeiro dos Estados Unidos no espaço e comandante da Apollo 14.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alan_Shepard"
+    ]
+  },
+  {
+    "id": "camisa_rosa_do_giro_d_italia",
+    "nome": "Camisa rosa do Giro d'Italia",
+    "descricao": "Camisa do líder da classificação geral da volta ciclística da Itália.",
+    "variantes": [
+      "Maglia rosa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Maglia_rosa"
+    ]
+  },
+  {
+    "id": "johnny_weissmuller",
+    "nome": "Johnny Weissmuller",
+    "descricao": "Nadador americano cinco vezes campeão olímpico nos anos 1920, depois ator de cinema.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Johnny_Weissmuller"
+    ]
+  },
+  {
+    "id": "diplomacia_do_pingue_pongue",
+    "nome": "Diplomacia do pingue-pongue",
+    "descricao": "Troca de visitas de mesatenistas entre Estados Unidos e China, em 1971, que precedeu a reaproximação dos dois países.",
+    "variantes": [
+      "Ping-pong diplomacy"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ping-pong_diplomacy"
+    ]
+  },
+  {
+    "id": "tony_hawk",
+    "nome": "Tony Hawk",
+    "descricao": "Skatista profissional americano, um dos nomes mais famosos do skate vertical.",
+    "variantes": [
+      "Anthony Frank Hawk"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tony_Hawk"
+    ]
+  },
+  {
+    "id": "surfe_nos_jogos_olimpicos_de_2024",
+    "nome": "Surfe nos Jogos Olímpicos de 2024",
+    "descricao": "Competição de surfe dos Jogos de Paris, disputada na onda de Teahupo'o.",
+    "variantes": [
+      "Teahupo'o"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Surfing_at_the_2024_Summer_Olympics"
+    ]
+  },
+  {
+    "id": "polo",
+    "nome": "Polo",
+    "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+    "variantes": [
+      "Polo equestre"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Polo",
+      "https://pt.wikipedia.org/wiki/Polo_(desporto)"
+    ]
+  },
+  {
+    "id": "snooker",
+    "nome": "Snooker",
+    "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+    "variantes": [
+      "Sinuca inglesa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Snooker",
+      "https://pt.wikipedia.org/wiki/Snooker"
+    ]
+  },
+  {
+    "id": "the_boat_race",
+    "nome": "The Boat Race",
+    "descricao": "Regata anual de remo entre as universidades de Oxford e Cambridge.",
+    "variantes": [
+      "Regata Oxford-Cambridge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Boat_Race"
+    ]
+  },
+  {
+    "id": "gertrude_ederle",
+    "nome": "Gertrude Ederle",
+    "descricao": "Nadadora americana que, em 1926, foi a primeira mulher a atravessar o Canal da Mancha a nado.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gertrude_Ederle"
+    ]
+  },
+  {
+    "id": "corrida_de_sao_silvestre",
+    "nome": "Corrida de São Silvestre",
+    "descricao": "Corrida de rua disputada em São Paulo todo 31 de dezembro, desde 1925.",
+    "variantes": [
+      "Corrida Internacional de São Silvestre"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Corrida_Internacional_de_S%C3%A3o_Silvestre"
+    ]
+  },
+  {
+    "id": "circuito_mundial_de_surfe_de_2014",
+    "nome": "Circuito Mundial de Surfe de 2014",
+    "descricao": "Temporada de 2014 do campeonato mundial de surfe profissional.",
+    "variantes": [
+      "2014 ASP World Tour"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gabriel_Medina"
+    ]
+  },
+  {
+    "id": "tour_de_france",
+    "nome": "Tour de France",
+    "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+    "variantes": [
+      "Volta da França"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tour_de_France"
+    ]
+  },
+  {
+    "id": "roger_bannister",
+    "nome": "Roger Bannister",
+    "descricao": "Atleta e médico britânico que correu a primeira milha abaixo de quatro minutos.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Roger_Bannister"
+    ]
+  },
+  {
+    "id": "maratona_de_boston",
+    "nome": "Maratona de Boston",
+    "descricao": "Maratona anual disputada em Boston, nos Estados Unidos, desde 1897.",
+    "variantes": [
+      "Boston Marathon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Boston_Marathon"
+    ]
+  },
+  {
+    "id": "wayne_gretzky",
+    "nome": "Wayne Gretzky",
+    "descricao": "Jogador canadense de hóquei no gelo, apelidado de The Great One.",
+    "variantes": [
+      "The Great One"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wayne_Gretzky"
+    ]
+  },
+  {
+    "id": "decatlo",
+    "nome": "Decatlo",
+    "descricao": "Prova combinada do atletismo masculino, com dez provas disputadas em dois dias.",
+    "variantes": [
+      "Decathlon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Decathlon",
+      "https://pt.wikipedia.org/wiki/Decatlo"
+    ]
+  },
+  {
+    "id": "medley_individual",
+    "nome": "Medley individual",
+    "descricao": "Prova de natação em que um mesmo nadador percorre os quatro estilos em sequência.",
+    "variantes": [
+      "Individual medley",
+      "Quatro estilos"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Individual_medley"
+    ]
+  },
+  {
+    "id": "paris_roubaix",
+    "nome": "Paris-Roubaix",
+    "descricao": "Clássica de ciclismo de um dia no norte da França, famosa pelos trechos de calçamento de pedra.",
+    "variantes": [
+      "Inferno do Norte"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paris%E2%80%93Roubaix"
+    ]
   }
 ]

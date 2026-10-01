@@ -1,0 +1,1363 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Albatroz (golfe)",
+        "descricao": "Termo do golfe para terminar um buraco com três tacadas a menos que o par.",
+        "variantes": [
+          "Albatross",
+          "Double eagle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "hemofilia_na_realeza_europeia",
+          "nome": "Hemofilia na realeza europeia",
+          "descricao": "Disseminação da hemofilia entre famílias reais da Europa nos séculos dezenove e vinte.",
+          "variantes": [
+            "Doença real",
+            "Haemophilia in European royalty"
+          ]
+        },
+        {
+          "id": "ary_barroso",
+          "nome": "Ary Barroso",
+          "descricao": "Compositor mineiro de Aquarela do Brasil, também locutor esportivo de rádio.",
+          "variantes": [
+            "Ari Barroso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ollie",
+        "descricao": "Manobra básica do skate em que o skatista salta com a prancha sem usar as mãos.",
+        "variantes": [
+          "Ollie (skate)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo"
+          ]
+        },
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        },
+        {
+          "id": "solsticio",
+          "nome": "Solstício",
+          "descricao": "Momento do ano em que o Sol atinge sua maior declinação, marcando o dia mais longo ou o mais curto do ano.",
+          "variantes": [
+            "Solstício de verão",
+            "Solstício de inverno",
+            "Solstice"
+          ]
+        },
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "As Cinzas (críquete)",
+        "descricao": "Série de partidas de críquete disputada entre Inglaterra e Austrália desde 1882.",
+        "variantes": [
+          "The Ashes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_beijo_klimt",
+          "nome": "O Beijo (Klimt)",
+          "descricao": "Quadro de Gustav Klimt, de 1908, com folhas de ouro.",
+          "variantes": [
+            "The Kiss"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "criquete",
+          "nome": "Críquete",
+          "descricao": "Esporte de bastão e bola, muito popular na Inglaterra, na Índia e na Austrália.",
+          "variantes": []
+        },
+        {
+          "id": "os_jetsons",
+          "nome": "Os Jetsons",
+          "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+          "variantes": [
+            "The Jetsons"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lanterna vermelha",
+        "descricao": "Apelido dado ao último colocado na classificação geral do Tour de France.",
+        "variantes": [
+          "Lanterne rouge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "grande_mancha_vermelha",
+          "nome": "Grande Mancha Vermelha",
+          "descricao": "Tempestade anticiclônica gigante e persistente na atmosfera de Júpiter.",
+          "variantes": [
+            "Great Red Spot",
+            "Mancha Vermelha de Júpiter"
+          ]
+        },
+        {
+          "id": "panda_vermelho",
+          "nome": "Panda-vermelho",
+          "descricao": "Mamífero arborícola do Himalaia e da China, de pelagem avermelhada, espécie Ailurus fulgens.",
+          "variantes": [
+            "Red panda",
+            "Ailurus fulgens"
+          ]
+        },
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Super Bowl",
+        "descricao": "Partida final da liga de futebol americano dos Estados Unidos, a NFL.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "clark_kent",
+          "nome": "Clark Kent",
+          "descricao": "Identidade secreta do Superman, repórter do Planeta Diário",
+          "variantes": [
+            "Kal-El",
+            "Superman",
+            "Super-Homem"
+          ]
+        },
+        {
+          "id": "supercell",
+          "nome": "Supercell",
+          "descricao": "Estúdio de jogos para celular com sede em Helsinque, criador de Clash of Clans.",
+          "variantes": [
+            "Supercell Oy"
+          ]
+        },
+        {
+          "id": "super_mario_bros",
+          "nome": "Super Mario Bros.",
+          "descricao": "Jogo de plataforma da Nintendo lançado em 1985 para o NES, o Nintendinho.",
+          "variantes": [
+            "Super Mario Brothers"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "America's Cup",
+        "descricao": "Troféu e competição de regatas de vela disputados desde 1851.",
+        "variantes": [
+          "Copa América de vela",
+          "Taça América"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capitao_america",
+          "nome": "Capitão América",
+          "descricao": "Super-herói patriótico criado por Joe Simon e Jack Kirby, estreou em 1941",
+          "variantes": [
+            "Captain America",
+            "Steve Rogers"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "gotico_americano",
+          "nome": "Gótico Americano",
+          "descricao": "Quadro de Grant Wood de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "tacaca",
+          "nome": "Tacacá",
+          "descricao": "Caldo quente paraense servido em cuia, feito com tucupi, goma de mandioca, camarão seco e jambu",
+          "variantes": []
+        },
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pentatlo moderno",
+        "descricao": "Modalidade olímpica criada por Pierre de Coubertin, que combina esgrima, natação, hipismo, tiro e corrida.",
+        "variantes": [
+          "Modern pentathlon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nheengatu",
+          "nome": "Nheengatu",
+          "descricao": "Língua geral de base tupi, ainda falada na Amazônia brasileira",
+          "variantes": [
+            "Língua geral amazônica",
+            "Nhengatu",
+            "Tupi moderno"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Skate",
+        "descricao": "Esporte praticado sobre uma prancha com quatro rodinhas, surgido na Califórnia.",
+        "variantes": [
+          "Skateboarding",
+          "Esqueite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "gabardine",
+          "nome": "Gabardine",
+          "descricao": "Tecido resistente e impermeável de trama diagonal, usado em casacos e capas de chuva",
+          "variantes": [
+            "Gabardina"
+          ]
+        },
+        {
+          "id": "criquete",
+          "nome": "Críquete",
+          "descricao": "Esporte de bastão e bola, muito popular na Inglaterra, na Índia e na Austrália.",
+          "variantes": []
+        },
+        {
+          "id": "suricato",
+          "nome": "Suricato",
+          "descricao": "Pequeno mangusto social do sul da África, de rosto com manchas escuras ao redor dos olhos (Suricata suricatta).",
+          "variantes": [
+            "Suricata suricatta",
+            "Meerkat",
+            "Suricate"
+          ]
+        },
+        {
+          "id": "pequi",
+          "nome": "Pequi",
+          "descricao": "Fruto do cerrado de polpa amarela e aroma forte, típico da culinária de Goiás",
+          "variantes": [
+            "Caryocar brasiliense"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ironman",
+        "descricao": "Triatlo de longa distância criado no Havaí em 1978, com natação, ciclismo e corrida.",
+        "variantes": [
+          "Ironman Triathlon",
+          "Ironman World Championship"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "ronda",
+          "nome": "Ronda",
+          "descricao": "Samba-canção paulistano composto por Paulo Vanzolini, sobre uma mulher que procura o amado pela noite de São Paulo.",
+          "variantes": []
+        },
+        {
+          "id": "campeonato_mundial_de_xadrez_de_1886",
+          "nome": "Campeonato Mundial de Xadrez de 1886",
+          "descricao": "Primeira disputa oficial pelo título mundial de xadrez, entre Wilhelm Steinitz e Johannes Zukertort.",
+          "variantes": [
+            "World Chess Championship 1886"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Praia do Norte (Nazaré)",
+        "descricao": "Praia da vila portuguesa de Nazaré, famosa pelas ondas gigantes surfadas no inverno.",
+        "variantes": [
+          "Nazaré"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "nascar",
+          "nome": "NASCAR",
+          "descricao": "Principal entidade de corridas de stock car dos Estados Unidos, fundada em 1948.",
+          "variantes": [
+            "National Association for Stock Car Auto Racing"
+          ]
+        },
+        {
+          "id": "acaraje",
+          "nome": "Acarajé",
+          "descricao": "Bolinho baiano frito no azeite de dendê e recheado com vatapá e camarão, de origem africana",
+          "variantes": []
+        },
+        {
+          "id": "nauatle",
+          "nome": "Náuatle",
+          "descricao": "Língua indígena do México, falada pelos astecas",
+          "variantes": [
+            "Nahuatl",
+            "Náhuatl",
+            "Língua asteca"
+          ]
+        },
+        {
+          "id": "namaste",
+          "nome": "Namastê",
+          "descricao": "Saudação respeitosa indiana feita com as palmas das mãos unidas diante do peito.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "João do Pulo",
+        "descricao": "João Carlos de Oliveira, atleta brasileiro do salto triplo, recordista mundial em 1975.",
+        "variantes": [
+          "João Carlos de Oliveira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sudao_do_sul",
+          "nome": "Sudão do Sul",
+          "descricao": "País da África Oriental, separado do Sudão, cuja capital é Juba.",
+          "variantes": [
+            "South Sudan",
+            "República do Sudão do Sul"
+          ]
+        },
+        {
+          "id": "cartola",
+          "nome": "Cartola",
+          "descricao": "Angenor de Oliveira, sambista carioca, fundador da Estação Primeira de Mangueira.",
+          "variantes": [
+            "Angenor de Oliveira"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "jogo_do_bicho",
+          "nome": "Jogo do bicho",
+          "descricao": "Jogo de apostas brasileiro baseado numa tabela de animais, criado em 1892 no Rio de Janeiro.",
+          "variantes": []
+        },
+        {
+          "id": "rai",
+          "nome": "Raí",
+          "descricao": "Raí Souza Vieira de Oliveira, meia brasileiro ídolo do São Paulo e do Paris Saint-Germain, campeão mundial em 1994.",
+          "variantes": [
+            "Raí Souza Vieira de Oliveira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Bola de golfe",
+        "descricao": "Pequena bola com covinhas na superfície usada no golfe.",
+        "variantes": [
+          "Golf ball"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "goalball",
+          "nome": "Goalball",
+          "descricao": "Esporte paralímpico coletivo para atletas com deficiência visual, jogado com uma bola sonora.",
+          "variantes": []
+        },
+        {
+          "id": "bolo_de_rolo",
+          "nome": "Bolo de rolo",
+          "descricao": "Bolo de camadas finíssimas de massa enroladas com goiabada, típico do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "esferas_do_dragao",
+          "nome": "Esferas do Dragão",
+          "descricao": "Esferas mágicas de Dragon Ball que, reunidas, invocam um dragão que realiza desejos.",
+          "variantes": [
+            "Dragon Balls"
+          ]
+        },
+        {
+          "id": "joana_d_arc",
+          "nome": "Joana d'Arc",
+          "descricao": "Heroína e santa francesa que liderou tropas na Guerra dos Cem Anos e foi queimada em 1431.",
+          "variantes": [
+            "Jeanne d'Arc",
+            "Joan of Arc",
+            "Donzela de Orléans"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Alan Shepard",
+        "descricao": "Astronauta americano, primeiro dos Estados Unidos no espaço e comandante da Apollo 14.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "teatro_amazonas",
+          "nome": "Teatro Amazonas",
+          "descricao": "Casa de ópera de Manaus inaugurada em 1896.",
+          "variantes": [
+            "Amazon Theatre"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Camisa rosa do Giro d'Italia",
+        "descricao": "Camisa do líder da classificação geral da volta ciclística da Itália.",
+        "variantes": [
+          "Maglia rosa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "melindrosa",
+          "nome": "Melindrosa",
+          "descricao": "Jovem moderna de cabelo curto e vestido reto, símbolo da moda e dos costumes do pós-Primeira Guerra",
+          "variantes": [
+            "Flapper"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        },
+        {
+          "id": "magikarp",
+          "nome": "Magikarp",
+          "descricao": "Pokémon do tipo Água, número 129 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda"
+          ]
+        },
+        {
+          "id": "matrioska",
+          "nome": "Matrioska",
+          "descricao": "Conjunto russo de bonecas de madeira ocas que se encaixam umas dentro das outras.",
+          "variantes": [
+            "Matryoshka",
+            "Boneca russa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Diplomacia do pingue-pongue",
+        "descricao": "Troca de visitas de mesatenistas entre Estados Unidos e China, em 1971, que precedeu a reaproximação dos dois países.",
+        "variantes": [
+          "Ping-pong diplomacy"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dia_mundial_da_lingua_portuguesa",
+          "nome": "Dia Mundial da Língua Portuguesa",
+          "descricao": "Data comemorativa da língua portuguesa instituída pela Unesco em 2019",
+          "variantes": [
+            "Dia da Língua Portuguesa",
+            "World Portuguese Language Day"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Surfe nos Jogos Olímpicos de 2024",
+        "descricao": "Competição de surfe dos Jogos de Paris, disputada na onda de Teahupo'o.",
+        "variantes": [
+          "Teahupo'o"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jogos_olimpicos_de_verao_de_2024",
+          "nome": "Jogos Olímpicos de Verão de 2024",
+          "descricao": "Edição dos Jogos Olímpicos realizada em Paris, em 2024.",
+          "variantes": [
+            "Paris 2024"
+          ]
+        },
+        {
+          "id": "jogos_olimpicos_de_verao_de_2020",
+          "nome": "Jogos Olímpicos de Verão de 2020",
+          "descricao": "Edição dos Jogos Olímpicos realizada em Tóquio, adiada para 2021.",
+          "variantes": [
+            "Tóquio 2020"
+          ]
+        },
+        {
+          "id": "cabo_de_guerra_nos_jogos_olimpicos",
+          "nome": "Cabo de guerra nos Jogos Olímpicos",
+          "descricao": "Modalidade de força entre duas equipes que fez parte do programa olímpico de 1900 a 1920.",
+          "variantes": [
+            "Tug of war at the Summer Olympics"
+          ]
+        },
+        {
+          "id": "mario_sonic",
+          "nome": "Mario & Sonic",
+          "descricao": "Série de jogos esportivos que reúne os personagens da Nintendo e da Sega, iniciada em 2007.",
+          "variantes": [
+            "Mario & Sonic at the Olympic Games",
+            "Mario e Sonic nos Jogos Olímpicos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Polo",
+        "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+        "variantes": [
+          "Polo equestre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "porto",
+          "nome": "Porto",
+          "descricao": "Segunda maior cidade de Portugal, na foz do rio Douro.",
+          "variantes": []
+        },
+        {
+          "id": "apollo_11",
+          "nome": "Apollo 11",
+          "descricao": "Missão da Nasa que levou os primeiros seres humanos à superfície da Lua.",
+          "variantes": [
+            "Apolo 11"
+          ]
+        },
+        {
+          "id": "ovulo",
+          "nome": "Óvulo",
+          "descricao": "Célula reprodutiva feminina.",
+          "variantes": [
+            "Ovócito",
+            "Egg cell"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Snooker",
+        "descricao": "Modalidade de bilhar com vinte e duas bolas, que deu origem à sinuca brasileira.",
+        "variantes": [
+          "Sinuca inglesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coringa",
+          "nome": "Coringa",
+          "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
+          "variantes": [
+            "Joker",
+            "Curinga"
+          ]
+        },
+        {
+          "id": "damas_inglesas",
+          "nome": "Damas inglesas",
+          "descricao": "Variante do jogo de damas jogada em tabuleiro de oito por oito, em que a dama anda uma casa por vez, resolvida por computador em 2007.",
+          "variantes": [
+            "Checkers",
+            "English draughts"
+          ]
+        },
+        {
+          "id": "snoopy",
+          "nome": "Snoopy",
+          "descricao": "Cachorro beagle da tira Peanuts, de Charles Schulz",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "The Boat Race",
+        "descricao": "Regata anual de remo entre as universidades de Oxford e Cambridge.",
+        "variantes": [
+          "Regata Oxford-Cambridge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Corrida de São Silvestre",
+        "descricao": "Corrida de rua disputada em São Paulo todo 31 de dezembro, desde 1925.",
+        "variantes": [
+          "Corrida Internacional de São Silvestre"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "festival_de_veneza",
+          "nome": "Festival de Veneza",
+          "descricao": "Festival internacional de cinema realizado anualmente em Veneza, na Itália, desde 1932.",
+          "variantes": [
+            "Mostra de Veneza",
+            "Festival Internacional de Cinema de Veneza"
+          ]
+        },
+        {
+          "id": "fifa",
+          "nome": "FIFA",
+          "descricao": "Federação Internacional de Futebol, entidade que organiza a Copa do Mundo, fundada em 1904.",
+          "variantes": [
+            "Fédération Internationale de Football Association",
+            "Federação Internacional de Futebol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "Circuito Mundial de Surfe de 2014",
+        "descricao": "Temporada de 2014 do campeonato mundial de surfe profissional.",
+        "variantes": [
+          "2014 ASP World Tour"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "campeonato_mundial_de_xadrez_de_1972",
+          "nome": "Campeonato Mundial de Xadrez de 1972",
+          "descricao": "Disputa pelo título mundial de xadrez entre o americano Bobby Fischer e o soviético Boris Spassky, conhecida como Match do Século.",
+          "variantes": [
+            "Match do Século",
+            "Fischer contra Spassky"
+          ]
+        },
+        {
+          "id": "campeonato_mundial_de_xadrez_de_1886",
+          "nome": "Campeonato Mundial de Xadrez de 1886",
+          "descricao": "Primeira disputa oficial pelo título mundial de xadrez, entre Wilhelm Steinitz e Johannes Zukertort.",
+          "variantes": [
+            "World Chess Championship 1886"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_2002",
+          "nome": "Copa do Mundo FIFA de 2002",
+          "descricao": "Décima sétima Copa do Mundo, disputada no Japão e na Coreia do Sul e vencida pelo Brasil.",
+          "variantes": [
+            "Copa de 2002",
+            "2002 FIFA World Cup",
+            "Copa do Penta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Tour de France",
+        "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+        "variantes": [
+          "Volta da França"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "revolta_da_vacina",
+          "nome": "Revolta da Vacina",
+          "descricao": "Motim popular ocorrido no Rio de Janeiro em novembro de 1904 contra a vacinação obrigatória.",
+          "variantes": [
+            "Vaccine Revolt"
+          ]
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "conjuracao_baiana",
+          "nome": "Conjuração Baiana",
+          "descricao": "Movimento separatista e igualitário descoberto em Salvador, na Bahia, em 1798.",
+          "variantes": [
+            "Revolta dos Alfaiates",
+            "Revolta dos Búzios",
+            "Inconfidência Baiana"
+          ]
+        },
+        {
+          "id": "pilares_da_criacao",
+          "nome": "Pilares da Criação",
+          "descricao": "Colunas de gás e poeira interestelar na Nebulosa da Águia, fotografadas pelo telescópio Hubble.",
+          "variantes": [
+            "Pillars of Creation"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Roger Bannister",
+        "descricao": "Atleta e médico britânico que correu a primeira milha abaixo de quatro minutos.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "hulk",
+          "nome": "Hulk",
+          "descricao": "Monstro da Marvel, alter ego do cientista Bruce Banner, criado por Stan Lee e Jack Kirby em 1962",
+          "variantes": [
+            "Incrível Hulk",
+            "Bruce Banner"
+          ]
+        },
+        {
+          "id": "roque_santeiro",
+          "nome": "Roque Santeiro",
+          "descricao": "Telenovela da Rede Globo escrita por Dias Gomes e Aguinaldo Silva, exibida em 1985.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Maratona de Boston",
+        "descricao": "Maratona anual disputada em Boston, nos Estados Unidos, desde 1897.",
+        "variantes": [
+          "Boston Marathon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "maracatu_rural",
+          "nome": "Maracatu rural",
+          "descricao": "Folguedo carnavalesco da Zona da Mata de Pernambuco, também chamado maracatu de baque solto.",
+          "variantes": [
+            "Maracatu de baque solto",
+            "Maracatu de orquestra"
+          ]
+        },
+        {
+          "id": "r2_d2",
+          "nome": "R2-D2",
+          "descricao": "Robô astromecânico da franquia Star Wars, criada por George Lucas.",
+          "variantes": [
+            "R2D2",
+            "Artoo-Detoo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Wayne Gretzky",
+        "descricao": "Jogador canadense de hóquei no gelo, apelidado de The Great One.",
+        "variantes": [
+          "The Great One"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "os_jetsons",
+          "nome": "Os Jetsons",
+          "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+          "variantes": [
+            "The Jetsons"
+          ]
+        },
+        {
+          "id": "jogo_da_vida",
+          "nome": "Jogo da Vida",
+          "descricao": "Jogo de tabuleiro em que os jogadores percorrem etapas da vida, como carreira, casamento e aposentadoria.",
+          "variantes": [
+            "The Game of Life",
+            "The Checkered Game of Life"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "trem_das_onze",
+          "nome": "Trem das Onze",
+          "descricao": "Samba de Adoniran Barbosa lançado em 1964, popularizado pelos Demônios da Garoa.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "Decatlo",
+        "descricao": "Prova combinada do atletismo masculino, com dez provas disputadas em dois dias.",
+        "variantes": [
+          "Decathlon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aquenaton",
+          "nome": "Aquenáton",
+          "descricao": "Faraó da 18ª dinastia do Egito, antes chamado Amenhotep IV, que instituiu o culto de Áton.",
+          "variantes": [
+            "Akhenaten",
+            "Amenhotep IV",
+            "Echnaton"
+          ]
+        },
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        },
+        {
+          "id": "death_note",
+          "nome": "Death Note",
+          "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele.",
+          "variantes": [
+            "Caderno da Morte"
+          ]
+        },
+        {
+          "id": "lenda_do_boto",
+          "nome": "Lenda do boto",
+          "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+          "variantes": [
+            "Boto encantado",
+            "Encantado"
+          ]
+        },
+        {
+          "id": "castor",
+          "nome": "Castor",
+          "descricao": "Roedor semiaquático do gênero Castor, conhecido por construir diques.",
+          "variantes": [
+            "Beaver"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Medley individual",
+        "descricao": "Prova de natação em que um mesmo nadador percorre os quatro estilos em sequência.",
+        "variantes": [
+          "Individual medley",
+          "Quatro estilos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quarteto_fantastico",
+          "nome": "Quarteto Fantástico",
+          "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1961",
+          "variantes": [
+            "Fantastic Four"
+          ]
+        },
+        {
+          "id": "band_aid",
+          "nome": "Band-Aid",
+          "descricao": "Curativo adesivo lançado pela Johnson & Johnson a partir da ideia de Earle Dickson, em 1920.",
+          "variantes": [
+            "Curativo adesivo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "Paris-Roubaix",
+        "descricao": "Clássica de ciclismo de um dia no norte da França, famosa pelos trechos de calçamento de pedra.",
+        "variantes": [
+          "Inferno do Norte",
+          "Paris–Roubaix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        },
+        {
+          "id": "death_note",
+          "nome": "Death Note",
+          "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele.",
+          "variantes": [
+            "Caderno da Morte"
+          ]
+        },
+        {
+          "id": "imperio_bizantino",
+          "nome": "Império Bizantino",
+          "descricao": "Continuação oriental do Império Romano, com capital em Constantinopla, que durou até 1453.",
+          "variantes": [
+            "Império Romano do Oriente",
+            "Bizâncio",
+            "Byzantine Empire"
+          ]
+        },
+        {
+          "id": "expresso_do_oriente",
+          "nome": "Expresso do Oriente",
+          "descricao": "Serviço ferroviário de luxo criado em 1883 entre Paris e Constantinopla.",
+          "variantes": [
+            "Orient Express",
+            "Orient-Express"
+          ]
+        },
+        {
+          "id": "cheia_do_nilo",
+          "nome": "Cheia do Nilo",
+          "descricao": "Inundação anual do rio Nilo que depositava lodo fértil nas margens do Egito até a construção da represa de Assuã",
+          "variantes": [
+            "Flooding of the Nile",
+            "Inundação do Nilo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o termo do golfe."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Críquete é o esporte; As Cinzas é uma série específica."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente; maratona é outra entidade."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Praia portuguesa diferente do Círio de Nazaré."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Modalidade é parte dos Jogos, entidade distinta."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente; França é o país."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Maratona de Boston é evento específico, diferente da modalidade."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Sem candidata equivalente."
+    }
+  ]
+}
