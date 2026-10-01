@@ -8457,5 +8457,940 @@
       "autor": "© Nintendo / Creatures / GAME FREAK",
       "licenca": "Arte oficial; uso privado, sem licença livre"
     }
+  },
+  {
+    "id": "q00513",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "polo_aquatico",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Polo aquático",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Water_polo"
+    ],
+    "imagem": {
+      "arquivo": "q00513.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:DFC_Sete_v_FNC_Douai_Coupe_de_la_Ligue_2014_t144334.jpg",
+      "autor": "Marie-Lan Nguyen",
+      "licenca": "CC BY 3.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00514",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "criquete",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Críquete",
+    "distratores": [
+      "Beisebol",
+      "Softbol",
+      "Rounders"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cricket"
+    ],
+    "imagem": {
+      "arquivo": "q00514.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Muralitharan_bowling_to_Adam_Gilchrist.jpg",
+      "autor": "Rae Allen from Brisbane, Australia",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00515",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "sepak_takraw",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Em que esporte do Sudeste Asiático se usa esta bola de vime?",
+    "resposta": "Sepak takraw",
+    "distratores": [
+      "Kemari",
+      "Futevôlei",
+      "Peteca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sepak_takraw"
+    ],
+    "imagem": {
+      "arquivo": "q00515.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sepak_Takraw.jpg",
+      "autor": "Siren-Com",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00516",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "esgrima",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Esgrima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fencing"
+    ],
+    "imagem": {
+      "arquivo": "q00516.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Final_Trophee_Monal_2012_n08.jpg",
+      "autor": "Marie-Lan Nguyen",
+      "licenca": "CC BY 2.5"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00517",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "sumo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Sumô",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sumo"
+    ],
+    "imagem": {
+      "arquivo": "q00517.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Asashoryu_fight_Jan08.JPG",
+      "autor": "Eckhard Pecher User:Arcimboldo",
+      "licenca": "CC BY 3.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00518",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "rugbi",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Rúgbi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rugby_union"
+    ],
+    "imagem": {
+      "arquivo": "q00518.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dragons_vs_Leinster_welsh_try_Celtic_League_9_may_2008.jpg",
+      "autor": "https://www.flickr.com/photos/awv/ Rob Gale",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00519",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "salto_com_vara",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que prova do atletismo é esta?",
+    "resposta": "Salto com vara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pole_vault"
+    ],
+    "imagem": {
+      "arquivo": "q00519.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Men_decathlon_PV_French_Athletics_Championships_2013_t141911a.jpg",
+      "autor": "Marie-Lan Nguyen",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00520",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "bobsled",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que esporte de inverno é este?",
+    "resposta": "Bobsled",
+    "distratores": [
+      "Luge",
+      "Skeleton",
+      "Biatlo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bobsleigh"
+    ],
+    "imagem": {
+      "arquivo": "q00520.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:US_Navy_020219-N-3995K-304_Gold_Medal_Women_BobSledders_1.jpg",
+      "autor": "U.S. Navy photo by Journalist 1st Class Preston Keres.",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00521",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "lacrosse",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Lacrosse",
+    "distratores": [
+      "Hóquei sobre grama",
+      "Hurling",
+      "Críquete"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lacrosse"
+    ],
+    "imagem": {
+      "arquivo": "q00521.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hopkins_lax.jpg",
+      "autor": "Ravs62687 at the English Wikipedia",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00522",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "hoquei_sobre_grama",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Hóquei sobre grama",
+    "distratores": [
+      "Hóquei no gelo",
+      "Lacrosse",
+      "Hurling"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Field_hockey"
+    ],
+    "imagem": {
+      "arquivo": "q00522.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Great_Britain_v_Argentina_Match_2_(2491861962).jpg",
+      "autor": "fourthandfifteen",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00523",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "curling",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que esporte é este?",
+    "resposta": "Curling",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Curling"
+    ],
+    "imagem": {
+      "arquivo": "q00523.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:12-01-20-yog-674.jpg",
+      "autor": "Ralf Roletschek",
+      "licenca": "CC BY-SA 3.0 at"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00524",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_do_maracana",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estádio é este?",
+    "resposta": "Maracanã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maracan%C3%A3_Stadium"
+    ],
+    "imagem": {
+      "arquivo": "q00524.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Maracana_2022.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00525",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "mineirao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio brasileiro é este?",
+    "resposta": "Mineirão",
+    "distratores": [
+      "Morumbi",
+      "Arena Fonte Nova",
+      "Beira-Rio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mineir%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q00525.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estádio_Governador_Magalhães_Pinto_-_Belo_Horizonte_-_20250409150611.jpg",
+      "autor": "Donatas Dabravolskas",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00526",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "camp_nou",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio é este?",
+    "resposta": "Camp Nou",
+    "distratores": [
+      "Santiago Bernabéu",
+      "Old Trafford",
+      "Wanda Metropolitano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Camp_Nou"
+    ],
+    "imagem": {
+      "arquivo": "q00526.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Camp_Nou_aerial_(cropped).jpg",
+      "autor": "Oh-Barcelona.com from Barcelona, Spain",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00527",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "la_bombonera",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio é este?",
+    "resposta": "La Bombonera",
+    "distratores": [
+      "Monumental de Núñez",
+      "Estádio Centenário",
+      "Maracanã"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Bombonera"
+    ],
+    "imagem": {
+      "arquivo": "q00527.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:La_Bombonera_2.jpg",
+      "autor": "Matibro",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00528",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_de_wembley",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio é este?",
+    "resposta": "Wembley",
+    "distratores": [
+      "Old Trafford",
+      "Anfield",
+      "Emirates Stadium"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wembley_Stadium"
+    ],
+    "imagem": {
+      "arquivo": "q00528.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:London_Wembley.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00529",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "allianz_arena",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio é este?",
+    "resposta": "Allianz Arena",
+    "distratores": [
+      "Signal Iduna Park",
+      "Veltins-Arena",
+      "Olympiastadion"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Allianz_Arena"
+    ],
+    "imagem": {
+      "arquivo": "q00529.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:München_-_Allianz-Arena_(Luftbild).jpg",
+      "autor": "Maximilian Dörrbecker (Chumwa)",
+      "licenca": "CC BY-SA 2.5"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00530",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "san_siro",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio é este?",
+    "resposta": "San Siro",
+    "distratores": [
+      "Estádio Olímpico de Roma",
+      "Allianz Stadium",
+      "Estádio Diego Maradona"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/San_Siro"
+    ],
+    "imagem": {
+      "arquivo": "q00530.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stadio_Meazza_2021_3.jpg",
+      "autor": "Prelvini",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00531",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_nacional_de_pequim",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio olímpico é este?",
+    "resposta": "Ninho de Pássaro (Pequim)",
+    "distratores": [
+      "Estádio Olímpico de Londres",
+      "Estádio Olímpico de Atenas",
+      "Estádio de Tóquio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beijing_National_Stadium"
+    ],
+    "imagem": {
+      "arquivo": "q00531.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Beijing_National_Stadium_from_the_Central_Axis_(20220905140702).jpg",
+      "autor": "N509FZ",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00532",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "pele",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é este atleta?",
+    "resposta": "Pelé",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pel%C3%A9"
+    ],
+    "imagem": {
+      "arquivo": "q00532.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pele_con_brasil_(cropped).jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 1
+  },
+  {
+    "id": "q00533",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "ayrton_senna",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é este atleta?",
+    "resposta": "Ayrton Senna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ayrton_Senna"
+    ],
+    "imagem": {
+      "arquivo": "q00533.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ayrton_Senna_9_-_Cropped.jpg",
+      "autor": "Instituto Ayrton Senna",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00534",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "marta",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é esta atleta?",
+    "resposta": "Marta",
+    "distratores": [
+      "Formiga",
+      "Cristiane",
+      "Sissi"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marta_%28footballer%29"
+    ],
+    "imagem": {
+      "arquivo": "q00534.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NC_Courage_vs_Orlando_Pride_(Jun_2024)_073_(cropped).jpg",
+      "autor": "Hameltion",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00535",
+    "tema": "Esportes",
+    "subtema": "Basquete",
+    "ancora": "oscar_schmidt",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é este atleta?",
+    "resposta": "Oscar Schmidt",
+    "distratores": [
+      "Marcel de Souza",
+      "Anderson Varejão",
+      "Leandrinho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oscar_Schmidt"
+    ],
+    "imagem": {
+      "arquivo": "q00535.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oscar_Schmidt_(3x4).jpg",
+      "autor": "Sérgio Savarese",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00536",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "gustavo_kuerten",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é este atleta?",
+    "resposta": "Gustavo Kuerten (Guga)",
+    "distratores": [
+      "Fernando Meligeni",
+      "Thomaz Bellucci",
+      "Bruno Soares"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gustavo_Kuerten"
+    ],
+    "imagem": {
+      "arquivo": "q00536.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gustavo_Kuerten_(49199755226).jpg",
+      "autor": "Geraldo Magela/Agência Senado",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00537",
+    "tema": "Esportes",
+    "subtema": "Basquete",
+    "ancora": "michael_jordan",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é este atleta?",
+    "resposta": "Michael Jordan",
+    "distratores": [
+      "Magic Johnson",
+      "Kobe Bryant",
+      "Shaquille O'Neal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Michael_Jordan"
+    ],
+    "imagem": {
+      "arquivo": "q00537.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Michael_Jordan.jpg",
+      "autor": "Joshua Massel. Cropped by en:User:Quadzilla99",
+      "licenca": "CC BY-SA 2.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00538",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "usain_bolt",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é este atleta?",
+    "resposta": "Usain Bolt",
+    "distratores": [
+      "Asafa Powell",
+      "Yohan Blake",
+      "Justin Gatlin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Usain_Bolt"
+    ],
+    "imagem": {
+      "arquivo": "q00538.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_Olympics_Celebration.jpg",
+      "autor": "Richard Giles",
+      "licenca": "CC BY-SA 2.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00539",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "muhammad_ali",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é este atleta?",
+    "resposta": "Muhammad Ali",
+    "distratores": [
+      "Mike Tyson",
+      "George Foreman",
+      "Joe Frazier"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Muhammad_Ali"
+    ],
+    "imagem": {
+      "arquivo": "q00539.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Muhammad_Ali_NYWTS.jpg",
+      "autor": "Ira Rosenberg",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00540",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "volante_badminton",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em que esporte se usa isto?",
+    "resposta": "Badminton",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shuttlecock"
+    ],
+    "imagem": {
+      "arquivo": "q00540.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Volant_badminton.jpg",
+      "autor": "Badplayer (Wikimedia Commons)",
+      "licenca": "CC BY-SA 2.5"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00541",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "luva_de_beisebol",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em que esporte se usa esta luva?",
+    "resposta": "Beisebol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baseball_glove"
+    ],
+    "imagem": {
+      "arquivo": "q00541.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Baseball_glove_front_back_without_background.png",
+      "autor": "[1], modified by Kingofears",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00542",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "disco_de_hoquei",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em que esporte se usa este disco?",
+    "resposta": "Hóquei no gelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hockey_puck"
+    ],
+    "imagem": {
+      "arquivo": "q00542.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hockey_puck.JPG",
+      "autor": "Janothird (Wikimedia Commons)",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00543",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "pino_de_boliche",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em que esporte se usa este objeto?",
+    "resposta": "Boliche",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bowling_pin"
+    ],
+    "imagem": {
+      "arquivo": "q00543.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bowling_pin_used_in_the_White_House_during_Harry_Truman's_administration,_c._1951,_wood_-_National_Museum_of_American_History_-_DSC00151.jpg",
+      "autor": "Daderot",
+      "licenca": "CC0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00544",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "taca_jules_rimet",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que troféu é este?",
+    "resposta": "Taça Jules Rimet",
+    "distratores": [
+      "Taça Libertadores",
+      "Copa América",
+      "Taça Intercontinental"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jules_Rimet_Trophy"
+    ],
+    "imagem": {
+      "arquivo": "q00544.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jules_rimet_trophy_at_preston_museum.jpg",
+      "autor": "Abel Lafleur",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00545",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "copa_stanley",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que troféu é este?",
+    "resposta": "Copa Stanley",
+    "distratores": [
+      "Taça Davis",
+      "Copa Ryder",
+      "Troféu Larry O'Brien"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stanley_Cup"
+    ],
+    "imagem": {
+      "arquivo": "q00545.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stanley_Cup,_2015.jpg",
+      "autor": "Alex Goykhman",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00546",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "claret_jug",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que troféu é este?",
+    "resposta": "Claret Jug (golfe)",
+    "distratores": [
+      "Copa Ryder",
+      "Taça Davis",
+      "Copa Stanley"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Claret_Jug"
+    ],
+    "imagem": {
+      "arquivo": "q00546.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:ClaretJug.jpg",
+      "autor": "Dan Perry",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00547",
+    "tema": "Esportes",
+    "subtema": "Tênis",
+    "ancora": "taca_davis",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que troféu é este?",
+    "resposta": "Taça Davis",
+    "distratores": [
+      "Copa Stanley",
+      "Copa Ryder",
+      "Taça Jules Rimet"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Davis_Cup"
+    ],
+    "imagem": {
+      "arquivo": "q00547.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Davis_Cup_Praha_ČRo_2012-11-28_cropped_1.jpg",
+      "autor": "Draceane",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00548",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "interlagos",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que circuito de Fórmula 1 é este?",
+    "resposta": "Interlagos",
+    "distratores": [
+      "Hermanos Rodríguez",
+      "Montreal",
+      "Spa-Francorchamps"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Interlagos_Circuit"
+    ],
+    "imagem": {
+      "arquivo": "q00548.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:AutodromoJoseCarlosPace.svg",
+      "autor": "Júlio Reis (User:Tintazul), using file by en:User:Rdsmith4",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00549",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "circuito_de_spa_francorchamps",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que circuito de Fórmula 1 é este?",
+    "resposta": "Spa-Francorchamps",
+    "distratores": [
+      "Monza",
+      "Silverstone",
+      "Suzuka"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps"
+    ],
+    "imagem": {
+      "arquivo": "q00549.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Spa-Francorchamps-2007.png",
+      "autor": "Mateusz (Wikimedia Commons)",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00550",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "circuito_de_monaco",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que circuito de Fórmula 1 é este?",
+    "resposta": "Mônaco",
+    "distratores": [
+      "Singapura",
+      "Baku",
+      "Jeddah"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Circuit_de_Monaco"
+    ],
+    "imagem": {
+      "arquivo": "q00550.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:GrandPrix_Circuit_Monaco_2006.svg",
+      "autor": "Miljoshi (Wikimedia Commons)",
+      "licenca": "CC BY 2.5"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00551",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "autodromo_de_monza",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que circuito de Fórmula 1 é este?",
+    "resposta": "Monza",
+    "distratores": [
+      "Imola",
+      "Silverstone",
+      "Hockenheim"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monza_Circuit"
+    ],
+    "imagem": {
+      "arquivo": "q00551.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Monza_track_map.svg",
+      "autor": "Will Pittenger",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00552",
+    "tema": "Esportes",
+    "subtema": "Automobilismo",
+    "ancora": "suzuka",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que circuito de Fórmula 1 é este?",
+    "resposta": "Suzuka",
+    "distratores": [
+      "Fuji",
+      "Xangai",
+      "Sepang"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course"
+    ],
+    "imagem": {
+      "arquivo": "q00552.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Suzuka_circuit_map--2005.svg",
+      "autor": "Will Pittenger",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 4
   }
 ]
