@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Segundo a origem mais aceita, o nome tempurá vem de uma palavra latina usada pelos portugueses no Japão para certos dias de jejum. Que dias eram esses?",
+        "resposta": "Têmporas"
+      },
+      "existentes": [
+        {
+          "id": "q00206",
+          "pergunta": "No século dezesseis, que povo europeu levou ao Japão a técnica de fritura empanada que deu origem ao tempurá?",
+          "resposta": "Portugueses"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em tupi, o nome da pipoca descreve o que acontece com o grão de milho no fogo. Qual é o significado literal dessa palavra?",
+        "resposta": "Pele estourada"
+      },
+      "existentes": [
+        {
+          "id": "q00189",
+          "pergunta": "O nome pipoca vem do tupi e descreve o que acontece com o grão de milho no fogo. O que ele significa?",
+          "resposta": "Pele estourada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a origem etimológica do nome (Têmporas); a existente é sobre qual povo levou a técnica ao Japão (portugueses). Fatos diferentes, e a resposta de uma não leva à da outra."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q00189",
+      "motivo": "Mesmo fato: o significado do nome tupi de pipoca, com a mesma resposta (pele estourada)."
+    }
+  ]
+}
