@@ -12680,7 +12680,8 @@
     "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
     "variantes": [
       "Fecho de gancho e argola",
-      "Hook-and-loop fastener"
+      "Hook-and-loop fastener",
+      "Fecho de contato"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
@@ -12843,6 +12844,9 @@
     "descricao": "Marca brasileira de sandálias de borracha lançada em 1962 pela Alpargatas.",
     "fontes": [
       "https://en.wikipedia.org/wiki/Havaianas"
+    ],
+    "variantes": [
+      "Sandálias Havaianas"
     ]
   },
   {
@@ -13181,6 +13185,440 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Mozambique",
       "https://pt.wikipedia.org/wiki/Mo%C3%A7ambique"
+    ]
+  },
+  {
+    "id": "jeans",
+    "nome": "Jeans",
+    "descricao": "Calça de tecido de algodão resistente, geralmente azul, popularizada pela Levi Strauss & Co.",
+    "variantes": [
+      "Calça jeans",
+      "Blue jeans"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jeans"
+    ]
+  },
+  {
+    "id": "trench_coat",
+    "nome": "Trench coat",
+    "descricao": "Casaco impermeável longo, com abotoamento duplo e cinto, de origem militar britânica",
+    "variantes": [
+      "Gabardine (casaco)",
+      "Capa de chuva trench"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trench_coat"
+    ]
+  },
+  {
+    "id": "quimono",
+    "nome": "Quimono",
+    "descricao": "Vestimenta tradicional japonesa em forma de T, com mangas largas e presa por uma faixa chamada obi",
+    "variantes": [
+      "Kimono"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kimono"
+    ]
+  },
+  {
+    "id": "coco_chanel",
+    "nome": "Coco Chanel",
+    "descricao": "Estilista francesa Gabrielle Chanel, fundadora da grife Chanel",
+    "variantes": [
+      "Gabrielle Chanel",
+      "Gabrielle Bonheur Chanel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Coco_Chanel",
+      "https://pt.wikipedia.org/wiki/Coco_Chanel"
+    ]
+  },
+  {
+    "id": "ziper",
+    "nome": "Zíper",
+    "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados",
+    "variantes": [
+      "Zipper",
+      "Fecho éclair",
+      "Fecho de correr"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Zipper"
+    ]
+  },
+  {
+    "id": "musselina",
+    "nome": "Musselina",
+    "descricao": "Tecido de algodão leve e de trama fina, usado em vestidos, cortinas e fraldas",
+    "variantes": [
+      "Muslin",
+      "Mousseline"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Muslin"
+    ]
+  },
+  {
+    "id": "bolsa_kelly",
+    "nome": "Bolsa Kelly",
+    "descricao": "Bolsa de couro da grife Hermès rebatizada em homenagem à atriz e princesa Grace Kelly",
+    "variantes": [
+      "Kelly bag",
+      "Sac à dépêches"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kelly_bag"
+    ]
+  },
+  {
+    "id": "sans_culottes",
+    "nome": "Sans-culottes",
+    "descricao": "Revolucionários das camadas populares de Paris durante a Revolução Francesa",
+    "variantes": [
+      "Sans-culotte"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sans-culottes"
+    ]
+  },
+  {
+    "id": "christian_louboutin",
+    "nome": "Christian Louboutin",
+    "descricao": "Designer francês de sapatos conhecido pelas solas vermelhas",
+    "variantes": [
+      "Louboutin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Christian_Louboutin"
+    ]
+  },
+  {
+    "id": "zuzu_angel",
+    "nome": "Zuzu Angel",
+    "descricao": "Estilista brasileira nascida em Curvelo, Minas Gerais, que denunciou a ditadura militar por meio da moda",
+    "variantes": [
+      "Zuleika Angel Jones"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Zuzu_Angel",
+      "https://en.wikipedia.org/wiki/Zuzu_Angel"
+    ]
+  },
+  {
+    "id": "salto_alto",
+    "nome": "Salto alto",
+    "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+    "variantes": [
+      "Sapato de salto alto",
+      "High heels"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/High-heeled_shoe"
+    ]
+  },
+  {
+    "id": "peruca",
+    "nome": "Peruca",
+    "descricao": "Cabeleira postiça usada como adorno ou para cobrir a calvície, moda na corte europeia dos séculos dezessete e dezoito",
+    "variantes": [
+      "Wig",
+      "Cabeleira postiça"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wig"
+    ]
+  },
+  {
+    "id": "doenca_do_chapeleiro_louco",
+    "nome": "Doença do chapeleiro louco",
+    "descricao": "Intoxicação crônica por mercúrio que afetava fabricantes de chapéus de feltro, também chamada eretismo",
+    "variantes": [
+      "Eretismo",
+      "Mad hatter disease"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Erethism"
+    ]
+  },
+  {
+    "id": "bolso_relojoeiro",
+    "nome": "Bolso relojoeiro",
+    "descricao": "Bolsinho costurado dentro do bolso dianteiro direito das calças jeans",
+    "variantes": [
+      "Watch pocket",
+      "Bolsinho do jeans"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pocket",
+      "https://en.wikipedia.org/wiki/Jeans"
+    ]
+  },
+  {
+    "id": "pretinho_basico",
+    "nome": "Pretinho básico",
+    "descricao": "Vestido preto curto e simples popularizado por Coco Chanel nos anos 1920",
+    "variantes": [
+      "Little black dress",
+      "Vestido preto básico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Little_black_dress"
+    ]
+  },
+  {
+    "id": "balaclava",
+    "nome": "Balaclava",
+    "descricao": "Gorro de lã que cobre a cabeça e o pescoço, deixando só o rosto ou os olhos de fora",
+    "variantes": [
+      "Balaclava (gorro)",
+      "Touca ninja"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Balaclava_(clothing)"
+    ]
+  },
+  {
+    "id": "manga_raglan",
+    "nome": "Manga raglan",
+    "descricao": "Manga que se estende em peça única até a gola, batizada em homenagem a Lorde Raglan",
+    "variantes": [
+      "Raglan sleeve"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Raglan_sleeve"
+    ]
+  },
+  {
+    "id": "puma",
+    "nome": "Puma",
+    "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+    "variantes": [
+      "Puma SE"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Puma_(brand)"
+    ]
+  },
+  {
+    "id": "lycra",
+    "nome": "Lycra",
+    "descricao": "Fibra sintética elástica, também chamada elastano ou spandex",
+    "variantes": [
+      "Elastano",
+      "Spandex"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Spandex"
+    ]
+  },
+  {
+    "id": "carmen_miranda",
+    "nome": "Carmen Miranda",
+    "descricao": "Cantora e atriz luso-brasileira famosa pelos turbantes de frutas em Hollywood",
+    "variantes": [
+      "Maria do Carmo Miranda da Cunha",
+      "A Pequena Notável"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Carmen_Miranda",
+      "https://pt.wikipedia.org/wiki/Carmen_Miranda"
+    ]
+  },
+  {
+    "id": "vivienne_westwood",
+    "nome": "Vivienne Westwood",
+    "descricao": "Estilista britânica ligada à origem da moda punk",
+    "variantes": [
+      "Dame Vivienne Westwood"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vivienne_Westwood"
+    ]
+  },
+  {
+    "id": "elsa_schiaparelli",
+    "nome": "Elsa Schiaparelli",
+    "descricao": "Estilista italiana radicada em Paris, conhecida pelas parcerias com artistas surrealistas",
+    "variantes": [
+      "Schiaparelli"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elsa_Schiaparelli"
+    ]
+  },
+  {
+    "id": "smoking",
+    "nome": "Smoking",
+    "descricao": "Traje masculino de gala com lapelas de cetim, chamado tuxedo nos Estados Unidos",
+    "variantes": [
+      "Tuxedo",
+      "Dinner jacket"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tuxedo"
+    ]
+  },
+  {
+    "id": "guccio_gucci",
+    "nome": "Guccio Gucci",
+    "descricao": "Empresário italiano que fundou a grife Gucci em Florença, em 1921",
+    "variantes": [
+      "Gucci"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guccio_Gucci"
+    ]
+  },
+  {
+    "id": "bolsa_birkin",
+    "nome": "Bolsa Birkin",
+    "descricao": "Bolsa de couro da Hermès criada para a atriz e cantora Jane Birkin",
+    "variantes": [
+      "Birkin bag",
+      "Birkin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Birkin_bag"
+    ]
+  },
+  {
+    "id": "cetim",
+    "nome": "Cetim",
+    "descricao": "Tecido de trama que deixa uma face lisa e brilhante, feito originalmente de seda",
+    "variantes": [
+      "Satin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Satin"
+    ]
+  },
+  {
+    "id": "le_smoking",
+    "nome": "Le Smoking",
+    "descricao": "Smoking feminino lançado por Yves Saint Laurent em 1966",
+    "variantes": [
+      "Smoking feminino"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Le_Smoking"
+    ]
+  },
+  {
+    "id": "vestido_preto_de_bonequinha_de_luxo",
+    "nome": "Vestido preto de Bonequinha de Luxo",
+    "descricao": "Vestido preto longo usado por Audrey Hepburn na cena de abertura do filme Bonequinha de Luxo, de 1961",
+    "variantes": [
+      "Black Givenchy dress of Audrey Hepburn"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Black_Givenchy_dress_of_Audrey_Hepburn"
+    ]
+  },
+  {
+    "id": "gabardine",
+    "nome": "Gabardine",
+    "descricao": "Tecido resistente e impermeável de trama diagonal, usado em casacos e capas de chuva",
+    "variantes": [
+      "Gabardina"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gabardine"
+    ]
+  },
+  {
+    "id": "vestido_envelope",
+    "nome": "Vestido envelope",
+    "descricao": "Vestido que se fecha cruzando a frente e se amarra na cintura",
+    "variantes": [
+      "Wrap dress",
+      "Vestido transpassado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wrap_dress"
+    ]
+  },
+  {
+    "id": "colete",
+    "nome": "Colete",
+    "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+    "variantes": [
+      "Waistcoat",
+      "Vest"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Waistcoat"
+    ]
+  },
+  {
+    "id": "melindrosa",
+    "nome": "Melindrosa",
+    "descricao": "Jovem moderna de cabelo curto e vestido reto, símbolo da moda e dos costumes do pós-Primeira Guerra",
+    "variantes": [
+      "Flapper"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flapper"
+    ]
+  },
+  {
+    "id": "mary_phelps_jacob",
+    "nome": "Mary Phelps Jacob",
+    "descricao": "Americana que patenteou um modelo de sutiã em 1914, mais tarde conhecida como Caresse Crosby",
+    "variantes": [
+      "Caresse Crosby"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Caresse_Crosby"
+    ]
+  },
+  {
+    "id": "viscose",
+    "nome": "Viscose",
+    "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+    "variantes": [
+      "Raiom",
+      "Rayon",
+      "Seda artificial"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rayon"
+    ]
+  },
+  {
+    "id": "toga",
+    "nome": "Toga",
+    "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+    "variantes": [
+      "Toga romana"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Toga"
+    ]
+  },
+  {
+    "id": "hermes",
+    "nome": "Hermès",
+    "descricao": "Grife francesa de artigos de luxo fundada em Paris em 1837 por Thierry Hermès",
+    "variantes": [
+      "Hermès International"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Herm%C3%A8s"
+    ]
+  },
+  {
+    "id": "minissaia",
+    "nome": "Minissaia",
+    "descricao": "Saia muito curta, bem acima dos joelhos, popularizada na Londres dos anos 1960",
+    "variantes": [
+      "Miniskirt",
+      "Mini-saia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Miniskirt",
+      "https://en.wikipedia.org/wiki/Mary_Quant"
     ]
   }
 ]

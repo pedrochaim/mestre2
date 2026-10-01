@@ -1,0 +1,409 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato fraco: a resposta é óbvia pela data de 1946 e não ensina nada.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome em Gênes/Gênova sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patente de Davis e Strauss em 1873 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem croata de cravate confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pergunta só de data, resposta trivial a partir do enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome ligado às trincheiras da Primeira Guerra, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado literal confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido adquirido quando cantava em cabaré, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goodrich e galochas de borracha confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Portmanteau velours + crochet confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o enunciado tem erro gramatical (falta o verbo).",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "O engenheiro suíço George de Mestral teve a ideia do velcro depois de ver o que estava grudado no pelo do seu cachorro?",
+        "resposta": "Carrapichos de bardana",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/George_de_Mestral",
+          "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem em Mossul sustentada pela Wikipédia em português; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Ângulo errado: a resposta é a causa da fama da bolsa, não a origem do nome.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "A bolsa da Hermès rebatizada em homenagem a Grace Kelly ficou famosa porque a princesa a usava para esconder o quê dos fotógrafos?",
+        "resposta": "A gravidez",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Kelly_bag"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do apelido confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz 1992 ou 1993, então o ano afirmado é impreciso; remover.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Para criar a primeira sola vermelha, Christian Louboutin pintou a sola preta de um sapato com algo que pegou de uma assistente. O quê?",
+        "resposta": "Esmalte de unha",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Christian_Louboutin"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desaparecimento do filho Stuart confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte não cita paraquedas e há outros usos do náilon (cordas, pneus), sem resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte indica que é erro atribuir à Vitória a origem do costume do vestido branco.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado pela Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Luís XIII adotou perucas por calvície precoce; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Envenenamento por mercúrio entre chapeleiros confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bolso original para relógio de bolso confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte citada não sustenta o fato e a resposta é explicativa e longa.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vogue comparou ao Ford Modelo T, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos ligados à Guerra da Crimeia.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Raglan e Wellington em Waterloo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Irmãos Dassler confirmado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos da DuPont, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspiração no zori confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspiração na baiana confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sex Pistols vestidos por Westwood e McLaren, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte Lobster_Dress inexistente; manter só a fonte válida.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Em 1937, a estilista Elsa Schiaparelli criou um vestido estampado com uma lagosta em parceria com qual pintor?",
+        "resposta": "Salvador Dalí",
+        "distratores": [
+          "René Magritte",
+          "Joan Miró",
+          "Max Ernst"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Elsa_Schiaparelli"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem equatoriana confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tuxedo Park, em Nova York, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Trabalho no Savoy confirmado e a inspiração nas malas é história conhecida; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Encontro de Jane Birkin com Dumas num voo é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Zaitun/Quanzhou na China confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Le Smoking de YSL, 1966, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte New_Look inexistente; trocar por páginas de Dior.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1947, qual estilista lançou em Paris a coleção de cintura fina e saias amplas apelidada de New Look?",
+        "resposta": "Christian Dior",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Christian_Dior",
+          "https://pt.wikipedia.org/wiki/Christian_Dior"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Givenchy criou o vestido, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Burberry e 1879 confirmados; bons distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vestido envelope de DVF em 1974 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carlos II e o colete em 1666 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Melindrosas dos anos vinte, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato correto, mas a redação 'fita e com quais duas peças' é confusa em voz alta.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Em 1914, a americana Mary Phelps Jacob patenteou um sutiã improvisado com fita e com quê?",
+        "resposta": "Dois lenços de seda",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Caresse_Crosby"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Viscose feita de celulose de madeira, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Toga restrita aos cidadãos romanos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem em arreios confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quant nomeou a minissaia por seu carro Mini, conforme a fonte.",
+      "reescrita": null
+    }
+  ]
+}

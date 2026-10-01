@@ -1,0 +1,120 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O biquíni ganhou o nome de um atol do Pacífico que, na época do lançamento, era palco de quê?",
+        "resposta": "Testes de bombas atômicas"
+      },
+      "existentes": [
+        {
+          "id": "q00873",
+          "pergunta": "O biquíni recebeu o nome de um atol do Oceano Pacífico que tinha virado notícia em 1946. O que os Estados Unidos faziam lá?",
+          "resposta": "Testes nucleares"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A palavra gravata vem do francês cravate, termo ligado a mercenários de qual povo, que usavam lenços amarrados no pescoço?",
+        "resposta": "Croatas"
+      },
+      "existentes": [
+        {
+          "id": "q00874",
+          "pergunta": "A palavra gravata vem do francês e lembra os lenços de pescoço usados, no século dezessete, por mercenários de qual povo?",
+          "resposta": "Croatas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O nome velcro junta duas palavras francesas: velours, que significa veludo, e qual outra, que significa gancho?",
+        "resposta": "Crochet"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O engenheiro suíço George de Mestral teve a ideia do velcro depois de ver o que estava grudado no pelo do seu cachorro?",
+        "resposta": "Carrapichos de bardana"
+      },
+      "existentes": [
+        {
+          "id": "q00882",
+          "pergunta": "O suíço George de Mestral teve a ideia do velcro depois de um passeio, ao examinar o que tinha grudado no pelo do seu cachorro. O que era?",
+          "resposta": "Carrapichos de bardana"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "As sandálias Havaianas, lançadas em 1962, foram inspiradas em qual calçado tradicional japonês?",
+        "resposta": "Zori"
+      },
+      "existentes": [
+        {
+          "id": "q00896",
+          "pergunta": "As sandálias Havaianas, lançadas no Brasil em 1962, foram inspiradas em qual calçado tradicional japonês?",
+          "resposta": "Zori"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Apesar do nome, em qual país é tradicionalmente tecido o chapéu-panamá?",
+        "resposta": "Equador"
+      },
+      "existentes": [
+        {
+          "id": "q00908",
+          "pergunta": "Apesar do nome, o chapéu-panamá é tradicionalmente fabricado em qual país?",
+          "resposta": "Equador"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o que ocorria no atol de Bikini (testes nucleares)."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: povo croata origem de gravata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Etimologia de velcro (crochet) é fato diferente do que grudou no cachorro."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre o que grudou no pelo do cachorro, mesma resposta."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: inspiração no zori."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: chapéu-panamá é do Equador."
+    }
+  ]
+}
