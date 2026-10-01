@@ -1,0 +1,235 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que físico é este?",
+      "resposta": "Albert Einstein",
+      "destino": 0,
+      "ancora": {
+        "nome": "Albert Einstein",
+        "descricao": "Físico teórico alemão, criador da teoria da relatividade e Nobel de Física de 1921.",
+        "variantes": [
+          "Einstein"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de laboratório clara, sem nome visível; uso de múltipla pela fama intermediária.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que doença, descrita em 1909 por este médico brasileiro, leva o nome dele?",
+      "resposta": "Doença de Chagas",
+      "distratores": [
+        "Febre amarela",
+        "Doença do sono",
+        "Leishmaniose"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Carlos Chagas",
+        "descricao": "Médico sanitarista e microbiologista brasileiro que descobriu a doença de Chagas em 1909.",
+        "variantes": [
+          "Carlos Justiniano Ribeiro Chagas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato oval limpo, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que instituto de pesquisa de São Paulo, dedicado ao estudo de animais peçonhentos, foi fundado por este médico?",
+      "resposta": "Instituto Butantan",
+      "destino": 3,
+      "ancora": {
+        "nome": "Vital Brazil",
+        "descricao": "Médico e imunologista brasileiro, criador do soro antiofídico e fundador do Instituto Butantan.",
+        "variantes": [
+          "Vital Brazil Mineiro da Campanha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato a óleo claro e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual obra de 1687 deste cientista inglês estabeleceu a mecânica clássica?",
+      "resposta": "Principia Mathematica",
+      "destino": 0,
+      "ancora": {
+        "nome": "Isaac Newton",
+        "descricao": "Polímata inglês, autor dos Principia e formulador da gravitação universal e da mecânica clássica.",
+        "variantes": [
+          "Sir Isaac Newton"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida, sem texto; cruz e traje clerical ajudam a reconhecer.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que monge e cientista é este?",
+      "resposta": "Gregor Mendel",
+      "distratores": [
+        "Louis Pasteur",
+        "Alfred Wallace",
+        "Robert Koch"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Gregor Mendel",
+        "descricao": "Frade agostiniano austríaco, fundador da genética pelos experimentos com ervilhas.",
+        "variantes": [
+          "Gregor Johann Mendel"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato a óleo (recorte) sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que unidade de medida do campo magnético leva o nome deste matemático alemão?",
+      "resposta": "Gauss",
+      "destino": 2,
+      "ancora": {
+        "nome": "Carl Friedrich Gauss",
+        "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+        "variantes": [
+          "Johann Carl Friedrich Gauss",
+          "Gauß"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que naturalista é este?",
+      "resposta": "Charles Darwin",
+      "distratores": [
+        "Thomas Huxley",
+        "Alfred Wallace",
+        "Joseph Hooker"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Charles Darwin",
+        "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+        "variantes": [
+          "Charles Robert Darwin"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A pintura traz inscrição em latim com o nome (Ioannis Keppleri) e a data, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Pintura de retrato clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que matemático suíço é este?",
+      "resposta": "Leonhard Euler",
+      "destino": 2,
+      "ancora": {
+        "nome": "Leonhard Euler",
+        "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+        "variantes": [
+          "Euler"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que elemento químico, batizado em homenagem à terra natal desta cientista, ela descobriu?",
+      "resposta": "Polônio",
+      "distratores": [
+        "Escândio",
+        "Germânio",
+        "Rutênio"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Marie Curie",
+        "descricao": "Física e química polonesa naturalizada francesa, duas vezes Nobel, descobridora do rádio e do polônio.",
+        "variantes": [
+          "Maria Skłodowska Curie",
+          "Madame Curie"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura de retrato clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que astrônomo renascentista é este?",
+      "resposta": "Nicolau Copérnico",
+      "destino": 7,
+      "ancora": {
+        "nome": "Nicolau Copérnico",
+        "descricao": "Astrônomo polonês do Renascimento que propôs o modelo heliocêntrico.",
+        "variantes": [
+          "Nicolaus Copernicus",
+          "Mikołaj Kopernik"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Recorte do retrato de Lavoisier e sua esposa, com rosto nítido e sem texto; a mão e o cabelo da esposa na borda não atrapalham.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que elemento químico este cientista francês nomeou em 1778, ao entender seu papel na combustão?",
+      "resposta": "Oxigênio",
+      "distratores": [
+        "Hélio",
+        "Neônio",
+        "Argônio"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Antoine Lavoisier",
+        "descricao": "Químico francês do século dezoito, central na revolução química e na descoberta do papel do oxigênio na combustão.",
+        "variantes": [
+          "Antoine-Laurent de Lavoisier"
+        ]
+      }
+    }
+  ]
+}

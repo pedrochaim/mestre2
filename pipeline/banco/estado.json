@@ -19,9 +19,10 @@
     "esportes_futebol_02",
     "cotidiano_lingua_portuguesa_e_expressoes_01",
     "cotidiano_costumes_pelo_mundo_01",
-    "fig_mamiferos_001"
+    "fig_mamiferos_001",
+    "fig_cientistas_001"
   ],
-  "maior_id": 859,
+  "maior_id": 870,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -48,6 +49,18 @@
         "3": 2
       },
       "registradas": 12
+    },
+    "cientistas": {
+      "familias": {
+        "o_que_e": 5,
+        "com_o_que_se_liga": 6
+      },
+      "niveis": {
+        "1": 5,
+        "2": 5,
+        "3": 1
+      },
+      "registradas": 11
     }
   },
   "rendimento": {
