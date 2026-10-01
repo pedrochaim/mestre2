@@ -267,6 +267,20 @@
       ],
       "observacoes": "Filmes, diretores, atores, prêmios, animações e curiosidades de bastidores, incluindo o cinema brasileiro. Evite bilheterias e recordes recentes. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara.",
       "autopiloto": true
+    },
+    {
+      "id": "entretenimento_series_e_tv_01",
+      "tema": "Entretenimento",
+      "subtema": "Séries e TV",
+      "quantidade": 50,
+      "multipla": 10,
+      "angulos_alvo": [
+        "nome",
+        "causa",
+        "conexao"
+      ],
+      "observacoes": "Séries, novelas brasileiras, programas de TV, apresentadores e desenhos animados de TV, de várias épocas. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara.",
+      "autopiloto": true
     }
   ]
 }

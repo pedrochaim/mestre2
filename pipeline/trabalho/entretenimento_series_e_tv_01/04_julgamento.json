@@ -1,0 +1,1311 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bart Simpson",
+        "descricao": "Personagem de Os Simpsons, o filho mais velho e travesso de Homer e Marge.",
+        "variantes": [
+          "Bartholomew Simpson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arroba_simbolo",
+          "nome": "Arroba (símbolo)",
+          "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
+          "variantes": [
+            "@",
+            "At sign",
+            "Hanami"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Homer Simpson",
+        "descricao": "Personagem de Os Simpsons, o pai da família, funcionário da usina nuclear de Springfield.",
+        "variantes": [
+          "Homer Jay Simpson"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "thomas_edison",
+          "nome": "Thomas Edison",
+          "descricao": "Inventor e empresário americano (1847–1931), conhecido pela lâmpada incandescente e pelo fonógrafo.",
+          "variantes": [
+            "Thomas Alva Edison"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Scooby-Doo",
+        "descricao": "Cachorro dinamarquês medroso, personagem-título dos desenhos da Hanna-Barbera criados em 1969.",
+        "variantes": [
+          "Scooby Doo",
+          "Scoobert Doo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "robert_koch",
+          "nome": "Robert Koch",
+          "descricao": "Médico e microbiologista alemão (1843–1910), Nobel de Medicina de 1905 por seus estudos sobre a tuberculose.",
+          "variantes": [
+            "Heinrich Hermann Robert Koch"
+          ]
+        },
+        {
+          "id": "conde_dookan",
+          "nome": "Conde Dookan",
+          "descricao": "Lorde Sith da franquia Star Wars, vilão de O Ataque dos Clones e A Vingança dos Sith.",
+          "variantes": [
+            "Count Dooku",
+            "Darth Tyranus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Big Brother",
+        "descricao": "Franquia internacional de reality show criada na Holanda em 1999, em que participantes confinados numa casa são filmados o tempo todo.",
+        "variantes": [
+          "Big Brother (franquia)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "irmaos_wright",
+          "nome": "Irmãos Wright",
+          "descricao": "Orville e Wilbur Wright, americanos pioneiros da aviação com o Wright Flyer em 1903.",
+          "variantes": [
+            "Wright brothers",
+            "Orville e Wilbur Wright"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Stranger Things",
+        "descricao": "Série de ficção científica da Netflix, criada pelos irmãos Duffer, ambientada na cidade fictícia de Hawkins, Indiana.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rena",
+          "nome": "Rena",
+          "descricao": "Cervídeo das regiões árticas e subárticas, espécie Rangifer tarandus.",
+          "variantes": [
+            "Rangifer tarandus",
+            "Caribu",
+            "Reindeer"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Roberto Gómez Bolaños",
+        "descricao": "Humorista, roteirista e ator mexicano, criador e intérprete de Chaves e Chapolin.",
+        "variantes": [
+          "Chespirito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chikorita",
+          "nome": "Chikorita",
+          "descricao": "Pokémon do tipo Planta, número 152 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer"
+          ]
+        },
+        {
+          "id": "sprigatito",
+          "nome": "Sprigatito",
+          "descricao": "Pokémon do tipo Planta, número 906 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mussum",
+        "descricao": "Humorista e músico brasileiro Antônio Carlos Bernardes Gomes, integrante de Os Trapalhões.",
+        "variantes": [
+          "Antônio Carlos Bernardes Gomes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "musculo",
+          "nome": "Músculo",
+          "descricao": "Tecido do corpo capaz de se contrair e produzir movimento.",
+          "variantes": [
+            "Muscle",
+            "Musculus"
+          ]
+        },
+        {
+          "id": "sumo",
+          "nome": "Sumô",
+          "descricao": "Luta tradicional japonesa em que se tenta tirar o adversário do círculo.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Silvio Santos",
+        "descricao": "Apresentador e empresário brasileiro, fundador e dono do SBT.",
+        "variantes": [
+          "Senor Abravanel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cartier_santos",
+          "nome": "Cartier Santos",
+          "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont.",
+          "variantes": [
+            "Relógio Santos"
+          ]
+        },
+        {
+          "id": "duplo_twist_carpado",
+          "nome": "Duplo twist carpado",
+          "descricao": "Movimento da ginástica artística de solo que entrou no código de pontuação com o nome da ginasta brasileira que o executou primeiro.",
+          "variantes": [
+            "Dos Santos",
+            "Duplo twist carpado (Dos Santos)"
+          ]
+        },
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "La Casa de Papel",
+        "descricao": "Série espanhola sobre um bando que, liderado pelo Professor, assalta a Casa da Moeda da Espanha.",
+        "variantes": [
+          "Money Heist",
+          "A Casa de Papel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        },
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        },
+        {
+          "id": "a_criacao_de_adao",
+          "nome": "A Criação de Adão",
+          "descricao": "Afresco de Michelangelo no teto da Capela Sistina.",
+          "variantes": []
+        },
+        {
+          "id": "a_carroca_de_feno",
+          "nome": "A Carroça de Feno",
+          "descricao": "Quadro de John Constable de 1821.",
+          "variantes": []
+        },
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Roque Santeiro",
+        "descricao": "Telenovela da Rede Globo escrita por Dias Gomes e Aguinaldo Silva, exibida em 1985.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "TV Tupi",
+        "descricao": "Rede de televisão brasileira de Assis Chateaubriand, inaugurada em São Paulo em 1950 e extinta em 1980.",
+        "variantes": [
+          "Rede Tupi",
+          "Tupi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "pupila",
+          "nome": "Pupila",
+          "descricao": "Abertura escura no centro da íris, por onde a luz entra no olho.",
+          "variantes": [
+            "Menina dos olhos",
+            "Pupil"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer"
+          ]
+        },
+        {
+          "id": "togepi",
+          "nome": "Togepi",
+          "descricao": "Pokémon do tipo Fada, número 175 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tuiuiu",
+          "nome": "Tuiuiú",
+          "descricao": "Grande cegonha (Jabiru mycteria) de plumagem branca, cabeça e pescoço pretos com colar vermelho, ave-símbolo do Pantanal.",
+          "variantes": [
+            "Jaburu",
+            "Jabiru",
+            "Jabiru mycteria"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Breaking Bad",
+        "descricao": "Série americana criada por Vince Gilligan, sobre um professor de química que passa a produzir metanfetamina.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bolsa_birkin",
+          "nome": "Bolsa Birkin",
+          "descricao": "Bolsa de couro da Hermès criada para a atriz e cantora Jane Birkin",
+          "variantes": [
+            "Birkin bag",
+            "Birkin"
+          ]
+        },
+        {
+          "id": "quebra_do_copo_no_casamento_judaico",
+          "nome": "Quebra do copo no casamento judaico",
+          "descricao": "Rito do fim da cerimônia de casamento judaica em que o noivo pisa num copo e o quebra.",
+          "variantes": [
+            "Breaking the glass"
+          ]
+        },
+        {
+          "id": "big_bang",
+          "nome": "Big Bang",
+          "descricao": "Teoria cosmológica segundo a qual o universo se expande a partir de um estado inicial muito quente e denso.",
+          "variantes": [
+            "Teoria do Big Bang",
+            "Grande Explosão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "proposta": {
+        "nome": "Lost",
+        "descricao": "Série americana exibida de 2004 a 2010, sobre um grupo de pessoas presas numa ilha misteriosa do Pacífico.",
+        "variantes": [
+          "Lost (série)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bicho_preguica",
+          "nome": "Bicho-preguiça",
+          "descricao": "Mamífero arborícola lento das Américas Central e do Sul, da subordem Folivora.",
+          "variantes": [
+            "Preguiça",
+            "Sloth",
+            "Folivora"
+          ]
+        },
+        {
+          "id": "lesoto",
+          "nome": "Lesoto",
+          "descricao": "Reino do sul da África totalmente cercado pela África do Sul.",
+          "variantes": [
+            "Lesotho",
+            "Reino do Lesoto"
+          ]
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "musselina",
+          "nome": "Musselina",
+          "descricao": "Tecido de algodão leve e de trama fina, usado em vestidos, cortinas e fraldas",
+          "variantes": [
+            "Muslin",
+            "Mousseline"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "proposta": {
+        "nome": "Regeneração (Doctor Who)",
+        "descricao": "Recurso da série britânica Doctor Who pelo qual o Doutor ganha um novo corpo e rosto, permitindo a troca do ator principal.",
+        "variantes": [
+          "Regeneration"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argentina",
+          "nome": "Argentina",
+          "descricao": "País da América do Sul cuja capital é Buenos Aires.",
+          "variantes": [
+            "República Argentina"
+          ]
+        },
+        {
+          "id": "gim",
+          "nome": "Gim",
+          "descricao": "Bebida destilada aromatizada com botânicos, base de coquetéis como o gim-tônica",
+          "variantes": [
+            "Gin",
+            "Genebra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "proposta": {
+        "nome": "Os Simpsons",
+        "descricao": "Série animada americana criada por Matt Groening, sobre uma família da cidade fictícia de Springfield.",
+        "variantes": [
+          "The Simpsons"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_olimpo",
+          "nome": "Monte Olimpo",
+          "descricao": "Enorme vulcão-escudo marciano, um dos maiores vulcões conhecidos do Sistema Solar.",
+          "variantes": [
+            "Olympus Mons"
+          ]
+        },
+        {
+          "id": "o_beijo_klimt",
+          "nome": "O Beijo (Klimt)",
+          "descricao": "Quadro de Gustav Klimt, de 1908, com folhas de ouro.",
+          "variantes": [
+            "The Kiss"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "proposta": {
+        "nome": "Caverna do Dragão",
+        "descricao": "Desenho animado americano de 1983, baseado em Dungeons & Dragons, sobre jovens presos num mundo de fantasia.",
+        "variantes": [
+          "Dungeons & Dragons (série animada)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon"
+          ]
+        },
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "proposta": {
+        "nome": "Marcelo Gastaldi",
+        "descricao": "Dublador e diretor de dublagem brasileiro, voz clássica de Chaves e Chapolin.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "proposta": {
+        "nome": "Frasier",
+        "descricao": "Sitcom americana exibida de 1993 a 2004, sobre o psiquiatra Frasier Crane, que vive em Seattle.",
+        "variantes": [
+          "Frasier Crane"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "taxa_de_quadros",
+          "nome": "Taxa de quadros",
+          "descricao": "Número de imagens exibidas por segundo num filme ou vídeo.",
+          "variantes": [
+            "Frame rate",
+            "Quadros por segundo"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "brasil",
+          "nome": "Brasil",
+          "descricao": "País da América do Sul, o maior da região, de língua portuguesa e capital Brasília.",
+          "variantes": [
+            "República Federativa do Brasil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "proposta": {
+        "nome": "Os Jetsons",
+        "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+        "variantes": [
+          "The Jetsons"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_beijo_klimt",
+          "nome": "O Beijo (Klimt)",
+          "descricao": "Quadro de Gustav Klimt, de 1908, com folhas de ouro.",
+          "variantes": [
+            "The Kiss"
+          ]
+        },
+        {
+          "id": "estacoes_do_ano",
+          "nome": "Estações do ano",
+          "descricao": "As quatro divisões do ano, primavera, verão, outono e inverno, com mudanças de temperatura e duração do dia.",
+          "variantes": [
+            "Estação do ano",
+            "Season"
+          ]
+        },
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "id": "thomas_edison",
+          "nome": "Thomas Edison",
+          "descricao": "Inventor e empresário americano (1847–1931), conhecido pela lâmpada incandescente e pelo fonógrafo.",
+          "variantes": [
+            "Thomas Alva Edison"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "proposta": {
+        "nome": "Gregory House",
+        "descricao": "Médico protagonista da série americana House, interpretado por Hugh Laurie.",
+        "variantes": [
+          "Dr. House"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gregor_mendel",
+          "nome": "Gregor Mendel",
+          "descricao": "Frade agostiniano austríaco, fundador da genética pelos experimentos com ervilhas.",
+          "variantes": [
+            "Gregor Johann Mendel"
+          ]
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "proposta": {
+        "nome": "O Rei do Gado",
+        "descricao": "Telenovela da Rede Globo exibida em 1996 e 1997, sobre disputas entre famílias de fazendeiros.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "ponte_do_gard",
+          "nome": "Ponte do Gard",
+          "descricao": "Ponte-aqueduto romana de três andares de arcos, construída no século primeiro.",
+          "variantes": [
+            "Pont du Gard"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan"
+          ]
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon"
+          ]
+        },
+        {
+          "id": "independencia_ou_morte_pintura",
+          "nome": "Independência ou Morte (pintura)",
+          "descricao": "Quadro de Pedro Américo, de 1888, também chamado O Grito do Ipiranga.",
+          "variantes": [
+            "O Grito do Ipiranga (quadro)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "proposta": {
+        "nome": "Janete Clair",
+        "descricao": "Novelista brasileira, autora de sucessos da Globo como Selva de Pedra e Irmãos Coragem.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "antoine_lavoisier",
+          "nome": "Antoine Lavoisier",
+          "descricao": "Químico francês do século dezoito, central na revolução química e na descoberta do papel do oxigênio na combustão.",
+          "variantes": [
+            "Antoine-Laurent de Lavoisier"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "proposta": {
+        "nome": "Odete Roitman",
+        "descricao": "Vilã da telenovela Vale Tudo, de 1988, interpretada por Beatriz Segall.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 24,
+      "proposta": {
+        "nome": "Louro José",
+        "descricao": "Boneco de papagaio que acompanhou Ana Maria Braga em seus programas matinais na TV.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ouro_preto",
+          "nome": "Ouro Preto",
+          "descricao": "Cidade histórica de Minas Gerais, centro do ciclo do ouro e palco da Inconfidência Mineira.",
+          "variantes": [
+            "Vila Rica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 25,
+      "proposta": {
+        "nome": "Big Brother Brasil 1",
+        "descricao": "Primeira edição do reality show Big Brother Brasil, exibida pela Rede Globo em 2002.",
+        "variantes": [
+          "BBB1"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "irmaos_wright",
+          "nome": "Irmãos Wright",
+          "descricao": "Orville e Wilbur Wright, americanos pioneiros da aviação com o Wright Flyer em 1903.",
+          "variantes": [
+            "Wright brothers",
+            "Orville e Wilbur Wright"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 26,
+      "proposta": {
+        "nome": "I'll Be There for You",
+        "descricao": "Canção de 1995 usada como tema de abertura da série Friends.",
+        "variantes": [
+          "Tema de Friends"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tendao_de_aquiles",
+          "nome": "Tendão de Aquiles",
+          "descricao": "Tendão que liga os músculos da panturrilha ao osso do calcanhar.",
+          "variantes": [
+            "Tendão calcâneo",
+            "Achilles tendon"
+          ]
+        },
+        {
+          "id": "argentina_x_inglaterra_na_copa_de_1986",
+          "nome": "Argentina x Inglaterra na Copa de 1986",
+          "descricao": "Partida da Copa do Mundo de 1986 em que Maradona marcou o gol de mão e o chamado Gol do Século.",
+          "variantes": [
+            "Mão de Deus",
+            "La mano de Dios",
+            "Argentina 2 x 1 Inglaterra"
+          ]
+        },
+        {
+          "id": "14_bis",
+          "nome": "14-bis",
+          "descricao": "Avião de Alberto Santos-Dumont que voou em Paris em 1906.",
+          "variantes": [
+            "Quatorze Bis",
+            "Oiseau de proie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 27,
+      "proposta": {
+        "nome": "Game of Thrones",
+        "descricao": "Série de fantasia da HBO, exibida de 2011 a 2019, sobre a disputa pelo Trono de Ferro em Westeros.",
+        "variantes": [
+          "A Guerra dos Tronos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "guerra_dos_cem_anos",
+          "nome": "Guerra dos Cem Anos",
+          "descricao": "Série de conflitos entre os reinos da Inglaterra e da França, de 1337 a 1453.",
+          "variantes": [
+            "Hundred Years' War"
+          ]
+        },
+        {
+          "id": "revolucao_farroupilha",
+          "nome": "Revolução Farroupilha",
+          "descricao": "Guerra separatista travada no Rio Grande do Sul contra o Império do Brasil entre 1835 e 1845.",
+          "variantes": [
+            "Guerra dos Farrapos",
+            "Revolução dos Farrapos"
+          ]
+        },
+        {
+          "id": "guerra_do_futebol",
+          "nome": "Guerra do Futebol",
+          "descricao": "Conflito armado de 1969 entre El Salvador e Honduras, deflagrado em meio a jogos das Eliminatórias da Copa de 1970.",
+          "variantes": [
+            "Guerra das Cem Horas",
+            "Football War",
+            "Guerra del Fútbol"
+          ]
+        },
+        {
+          "id": "mestre_vitalino",
+          "nome": "Mestre Vitalino",
+          "descricao": "Vitalino Pereira dos Santos, artesão pernambucano famoso por seus bonecos de barro que retratam o cotidiano nordestino.",
+          "variantes": [
+            "Vitalino Pereira dos Santos"
+          ]
+        },
+        {
+          "id": "grande_incendio_de_roma",
+          "nome": "Grande Incêndio de Roma",
+          "descricao": "Incêndio que destruiu grande parte de Roma no ano 64, durante o governo de Nero.",
+          "variantes": [
+            "Incêndio de Roma",
+            "Great Fire of Rome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 28,
+      "proposta": {
+        "nome": "O Bem-Amado",
+        "descricao": "Telenovela da Rede Globo de 1973, escrita por Dias Gomes, sobre o prefeito Odorico Paraguaçu.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "os_embaixadores",
+          "nome": "Os Embaixadores",
+          "descricao": "Quadro de Hans Holbein, o Jovem, de 1533.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 29,
+      "proposta": {
+        "nome": "Fenda do Biquíni",
+        "descricao": "Cidade submarina fictícia onde vivem Bob Esponja e seus amigos.",
+        "variantes": [
+          "Bikini Bottom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "biquini",
+          "nome": "Biquíni",
+          "descricao": "Traje de banho feminino de duas peças lançado pelo francês Louis Réard em 1946.",
+          "variantes": [
+            "Bikini"
+          ]
+        },
+        {
+          "id": "lenda_do_boto",
+          "nome": "Lenda do boto",
+          "descricao": "Lenda amazônica do boto-cor-de-rosa que vira um rapaz elegante para seduzir moças nas festas.",
+          "variantes": [
+            "Boto encantado",
+            "Encantado"
+          ]
+        },
+        {
+          "id": "bolsa_birkin",
+          "nome": "Bolsa Birkin",
+          "descricao": "Bolsa de couro da Hermès criada para a atriz e cantora Jane Birkin",
+          "variantes": [
+            "Birkin bag",
+            "Birkin"
+          ]
+        },
+        {
+          "id": "tendao_de_aquiles",
+          "nome": "Tendão de Aquiles",
+          "descricao": "Tendão que liga os músculos da panturrilha ao osso do calcanhar.",
+          "variantes": [
+            "Tendão calcâneo",
+            "Achilles tendon"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 30,
+      "proposta": {
+        "nome": "Jornal Nacional",
+        "descricao": "Telejornal noturno da Rede Globo, transmitido em rede nacional.",
+        "variantes": [
+          "JN"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 31,
+      "proposta": {
+        "nome": "Friends",
+        "descricao": "Sitcom americana sobre seis amigos que vivem em Nova York, exibida de 1994 a 2004.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sigmund_freud",
+          "nome": "Sigmund Freud",
+          "descricao": "Neurologista austríaco (1856–1939), fundador da psicanálise.",
+          "variantes": [
+            "Freud"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 32,
+      "proposta": {
+        "nome": "Os Trapalhões",
+        "descricao": "Grupo humorístico brasileiro formado por Didi, Dedé, Mussum e Zacarias, com programa na TV e filmes.",
+        "variantes": [
+          "Trapalhões"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estribo",
+          "nome": "Estribo",
+          "descricao": "Ossículo do ouvido médio que transmite vibrações à orelha interna.",
+          "variantes": [
+            "Stapes"
+          ]
+        },
+        {
+          "id": "dois_papas",
+          "nome": "Dois Papas",
+          "descricao": "Filme de 2019 sobre os papas Bento dezesseis e Francisco, com Anthony Hopkins e Jonathan Pryce.",
+          "variantes": [
+            "The Two Popes"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 33,
+      "proposta": {
+        "nome": "Pantanal (telenovela de 1990)",
+        "descricao": "Telenovela de Benedito Ruy Barbosa exibida em 1990, ambientada no Pantanal mato-grossense.",
+        "variantes": [
+          "Pantanal"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "astana",
+          "nome": "Astana",
+          "descricao": "Capital do Cazaquistão desde 1997, chamada Nur-Sultan entre 2019 e 2022.",
+          "variantes": [
+            "Nur-Sultan",
+            "Akmola",
+            "Tselinogrado"
+          ]
+        },
+        {
+          "id": "eusebio",
+          "nome": "Eusébio",
+          "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+          "variantes": [
+            "Eusébio da Silva Ferreira",
+            "Pantera Negra",
+            "Pérola Negra"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Sem candidata correspondente."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Candidatas são entidades diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Franquia de TV diferente de irmãos aviadores."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Série diferente de animal."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Novela diferente de cidade."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 24,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 25,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 26,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 27,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 28,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 29,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 30,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 31,
+      "decisao": "nova",
+      "motivo": "Candidata não relacionada."
+    },
+    {
+      "caso": 32,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    },
+    {
+      "caso": 33,
+      "decisao": "nova",
+      "motivo": "Candidatas não relacionadas."
+    }
+  ]
+}
