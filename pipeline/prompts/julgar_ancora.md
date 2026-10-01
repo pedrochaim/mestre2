@@ -6,7 +6,8 @@ Para cada caso abaixo há uma **âncora proposta** e uma lista de **candidatas**
 - **nova:** a proposta é uma entidade diferente de todas as candidatas.
 
 Regras:
-- Compare as **descrições**, não só os nomes. "Mercúrio (planeta)" e "Mercúrio (elemento químico)" são entidades diferentes.
+- Compare as **descrições**, não só os nomes. **Nomes iguais não bastam**: "Mercúrio (planeta)" e "Mercúrio (elemento químico)", "Pelé (jogador)" e "pele (órgão)", "Cruzeiro (clube)" e "Cruzeiro do Sul (constelação)", "Washington, D.C." e "George Washington" são entidades diferentes.
+- Um país e a sua bandeira, seleção ou capital são entidades diferentes; um clube e a pessoa que lhe deu o nome também.
 - Uma entidade e uma parte dela são diferentes: "Copa do Mundo FIFA" e "Copa do Mundo FIFA de 1970" são âncoras distintas.
 - **Na dúvida, decida "nova".** Uma duplicata pode ser corrigida depois; uma fusão errada corrompe o banco.
 

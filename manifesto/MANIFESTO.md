@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.34 — 2026-10-01**
+> **Versão preliminar 0.35 — 2026-10-01**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -109,7 +109,11 @@ Cada âncora é registrada com:
 
 **Limites por âncora** (o pipeline descarta o que passar deles):
 - no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
-- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro.
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
 
 ---
 
@@ -158,7 +162,7 @@ O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação
 
 Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
 
-> **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
 
 - **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
 - **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
@@ -207,8 +211,8 @@ Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20%
 **5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
 
 **6. Regras de variedade das perguntas com figura**, além das de §9:
-- num lote de figuras de um tema, **pelo menos três famílias** e **pelo menos três catálogos**;
-- nenhum catálogo passa de **40%** das perguntas com figura do seu tema;
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
 - uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
 - no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
 
@@ -400,12 +404,14 @@ A etapa 6 também pode rodar sozinha, com `python pipeline/rodar.py dificuldade`
 
 ### Resolução de âncoras
 
-1. **Correspondência exata:** o nome ou uma variante da proposta, normalizados (minúsculas, sem acento), coincidem com uma âncora cadastrada? Então usa o `id` existente e acrescenta as variantes novas. Propostas do mesmo lote que coincidem entre si viram uma única âncora.
-2. **Candidatas:** se não há correspondência exata, um script seleciona as âncoras cadastradas com nomes parecidos.
+1. **Âncora indicada pelo gerador:** se o gerador apontou o `id` de uma âncora da lista do subtema, que ele recebe com as descrições, usa esse `id` e acrescenta as variantes novas. Propostas do mesmo lote com o mesmo nome principal viram uma única âncora.
+2. **Candidatas:** nos outros casos, um script seleciona as âncoras cadastradas com nomes iguais ou parecidos. **Nome igual não basta** para ligar a proposta a uma âncora (§4): até a v0.34 bastava, e isso juntou homônimos (§13). Nomes sem nenhuma letra latina nem algarismo, como "@" ou "花見", não entram na comparação.
 3. **Juiz (LLM, Sonnet):** compara a proposta com as candidatas, **incluindo as descrições**, e decide se é a **mesma entidade** ou uma **entidade nova**.
 4. **Fontes:** se nenhuma URL de uma âncora nova responder, ela é rejeitada, e as perguntas que dependem dela são descartadas.
 
-**Na dúvida, criar em vez de fundir.** Uma duplicata é inofensiva e corrigível depois. Uma fusão errada corrompe as contagens.
+**Na dúvida, criar em vez de fundir.** Uma duplicata é inofensiva e corrigível depois. Uma fusão errada corrompe as contagens, mostra a âncora errada na ficha do app e ainda acrescenta à âncora variantes que atraem novas fusões erradas.
+
+As perguntas com figura seguem o mesmo caminho: a âncora proposta pelo redator vai ao juiz sempre que há candidatas com nomes parecidos.
 
 ### Consolidação periódica
 
@@ -470,6 +476,9 @@ O esquema foi construído a partir do esquema do projeto anterior (`info/pergunt
 | Lotes de 50 perguntas (§11) | Cada chamada tem um custo fixo (manifesto, âncoras e perguntas já existentes, prompt de sistema) que se dilui num lote maior. Primeiro lote de 50 (*História do Brasil*): US$ 1,49 por 47 perguntas no banco, ou 3,2 centavos cada, contra 4,0 no lote de 20 da *Segunda Guerra*. A variedade e a taxa de aproveitamento se mantiveram |
 | Prompt de sistema mínimo em toda chamada (§11) | O prompt padrão do Claude Code custava cerca de 6 mil tokens por chamada; o mínimo, cerca de 900 |
 | Quatro subtemas acrescentados: Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia (§3) | Preenchem lacunas apontadas na revisão dos subtemas: o público é brasileiro, a África não tinha lugar, e Ciências tinha poucos subtemas. Renomear, dividir e fundir foi descartado, porque a lista só cresce por acréscimo |
+| Nome igual não liga uma proposta a uma âncora; vai ao juiz (§11) | A correspondência exata, sem acento, juntou homônimos: Pelé e pele, Cruzeiro e Cruzeiro do Sul, o navegador e o clube Vasco da Gama. Nomes só com caracteres não latinos ficavam vazios e casavam entre si (Hanami e Tetris foram parar em Arroba) |
+| Perguntas com figura passam por crítica e checagem de repetidos (§17) | O redator que escreve também aprovava, sem segunda leitura. Uma figura repetiu o fato de uma pergunta de texto (o inventor da pilha de Volta), com outra data |
+| Metas de catálogo de até 40% do tema, escolhidas pelo déficit relativo (§6, §17) | As metas antigas passavam do teto de 40% (pokémon 58%), e o déficit absoluto fazia os catálogos grandes monopolizarem as sessões |
 | Manifesto dividido em duas partes | O gerador e o crítico recebem só as regras de conteúdo (Parte I), sem o ruído de esquemas, processo e histórico |
 
 ---
@@ -536,6 +545,13 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 
 **Fontes em inglês (2026-09-30).** No lote *Natureza › Mamíferos*, 57 das 59 fontes eram da Wikipédia em inglês, e o crítico confirmou 27 de 50 fatos pelo próprio conhecimento, sem trecho. A causa: a escolha de passagens compara palavras da pergunta em português ("algas", "dentes") com um texto em inglês ("algae", "teeth"). Com o artigo equivalente em português, a resposta passou a aparecer nos trechos de 41 das 50 perguntas (antes, 19); em *Culinária e Bebidas*, de 49 (antes, 37). Os trechos do lote de Mamíferos cresceram de 108 mil para 192 mil caracteres, cerca de US$ 0,08 a mais na crítica.
 
+**Revisão do pipeline (2026-10-01, com 1 699 perguntas).** Uma leitura completa do código e do banco achou três falhas, já corrigidas:
+- **Homônimos fundidos:** 15 perguntas estavam ligadas à âncora errada, entre elas a pele (em Pelé), a constelação do Cruzeiro do Sul (no clube), o retrato de George Washington (na cidade), a bandeira da Itália (na seleção) e o Negrinho do Pastoreio (no brigadeiro, que no Sul também se chama negrinho). Cada fusão errada acrescentava variantes à âncora, que atraíam a fusão seguinte. Foram criadas 13 âncoras novas, as variantes erradas foram tiradas e a resolução mudou (§11).
+- **Figuras sem segunda leitura:** a figura `q01674` repetia o fato de `q00901` com outra data e foi apagada. As figuras agora passam por crítica e checagem de repetidos (§17).
+- **Falso alarme de cota:** o detector reconhecia "limit", "rate" e "exceed" em qualquer mensagem, inclusive "Tempo limite excedido" e "failed to gene*rate*". Um erro assim faria o autopiloto esperar e tentar de novo para sempre.
+
+Também: o custo das chamadas de figura era registrado em `consumo.jsonl` com o nome do lote de texto anterior, na etapa "registrar" (cerca de US$ 6). Agora cada chamada leva o id do lote de figuras e a sua etapa.
+
 ---
 
 ## 14. Pendências
@@ -552,6 +568,10 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 - [ ] **Tamanho do tabuleiro** (§15): 8 casas no estágio 1 (a casa grande do início e mais 7) e 8 no estágio 2 (uma por tema), ou seja, 16 acertos até a chegada. Ajustar depois de jogar, se preciso.
 - [ ] **Como a vez passa** (§15): quem é o próximo questionador e o próximo respondente. Hoje o grupo combina de viva voz.
 - [ ] **Acesso ao app** (§16): hoje não há login, e quem conhece o código de uma partida pode alterá-la. Rever se o app sair do círculo de amigos.
+- [ ] **Arte de Pokémon num site público** (§6): o manifesto trata a arte oficial como uso privado, mas o app fica num endereço aberto, sem login. Decidir entre pôr o app atrás de um login simples, tirar as imagens de Pokémon do banco público ou aceitar o risco.
+- [ ] **Repositório dentro do Dropbox:** o autopiloto faz um commit a cada lote, e o Dropbox sincroniza a pasta `.git` ao mesmo tempo. Se outra máquina abrir o projeto, há risco de conflito no repositório. Considerar mover o repositório para fora do Dropbox.
+- [ ] **Reescrita sem nova crítica:** a reescrita do crítico não volta para a crítica e não atualiza a âncora, mesmo que mude o assunto. Medir quantas reescritas mudam a resposta antes de decidir.
+- [ ] **Regra "`conexao` + `nome` ≥ 20% por subtema"** (§9): ainda não é medida pelo relatório.
 - [ ] **Limpeza de partidas antigas** (§16): as regras não permitem apagar partidas, que se acumulam no Firestore. Partidas de teste das v0.10 e v0.11 ainda têm o campo `tabuleiro`, sem uso.
 
 ---
@@ -716,21 +736,24 @@ O próximo lote é sempre do **subtema com o maior déficit em relação à meta
 Até hoje, as perguntas com figura foram feitas à mão, numa sessão de conversa. Esse ritmo não chega a 2 300, por isso a primeira sessão monta a **etapa de figuras do pipeline** (pendência do §14). Cada fonte de figura é uma lista de entidades, tirada do Wikidata, do Commons ou do PokéAPI, que o script percorre:
 1. Escolhe as entidades nos catálogos curados, em camadas (diretrizes do §6), e pula as âncoras saturadas.
 2. Baixa a imagem principal, registra autor e licença e põe fundo branco nas transparentes.
-3. Pede ao LLM (Sonnet), que **olha a imagem**, para confirmar três coisas: o assunto é único e reconhecível, não há texto que entregue a resposta e a resposta é única. Ele devolve aprovado ou reprovado, o tipo (aberta ou múltipla) e, se for múltipla, os distratores.
-4. Escreve a pergunta segundo as famílias e os níveis do §6 (nem todas são "que animal é este?") e a grava com a fonte (Wikipédia ou Bulbapedia).
+3. Pede ao LLM (Sonnet), que **olha a imagem**, para confirmar três coisas: o assunto é único e reconhecível, não há texto que entregue a resposta e a resposta é única. Se aprovar, ele escreve a pergunta segundo as famílias e os níveis do §6 (nem todas são "que animal é este?"), com o tipo e, se for múltipla, os distratores.
+4. **Crítica:** outro LLM (Sonnet, esforço médio, sem a imagem, mas sabendo o que ela mostra) confere o texto como na crítica das perguntas de texto: o fato nos trechos das fontes baixados pelo script, o vazamento, a resposta única e os distratores. Aprova, reescreve ou descarta.
+5. **Registro:** liga a pergunta à âncora (com o juiz, como no texto), respeita a saturação, descarta a que repete um fato já perguntado sobre a mesma âncora e a grava com a fonte (Wikipédia ou Bulbapedia).
 
 | Tema | Fontes de figura (quantidade aproximada) |
 |---|---|
-| Geografia | bandeiras de países (150), contornos de países e estados (60), cidades (60), paisagens e maravilhas naturais (50) |
+| Geografia | bandeiras de países (120), contornos de países e estados (70), cidades (70), paisagens e maravilhas naturais (60) |
 | Natureza | mamíferos (80), aves (70), vida marinha (50), répteis e anfíbios (40), insetos (30), plantas e frutas (30), dinossauros e fósseis (20) |
-| História | retratos de personagens históricos, em pinturas de domínio público (150), monumentos e sítios (100), mapas e bandeiras históricas (50) |
-| Artes e Pensamento | pinturas (150), retratos de escritores, compositores e filósofos (100), esculturas e arquitetura (70) |
-| Entretenimento | pokémon (180), músicos e atores em fotos livres (80), instrumentos musicais (30), jogos de tabuleiro e peças (20) |
-| Esportes | atletas (120), estádios (60), modalidades (50), objetos e equipamentos (30), circuitos (20), troféus (10), uniformes históricos sem escudo (20) |
+| História | retratos de personagens históricos, em pinturas de domínio público (120), monumentos e sítios (110), mapas e bandeiras históricas (70) |
+| Artes e Pensamento | pinturas (125), retratos de escritores, compositores e filósofos (115), esculturas e arquitetura (80) |
+| Entretenimento | pokémon (120), músicos e atores em fotos livres (110), instrumentos musicais e jogos de tabuleiro (80) |
+| Esportes | atletas (120), estádios e circuitos (85), modalidades, objetos e equipamentos (105) |
 | Ciências | retratos de cientistas (100), astronomia em imagens da NASA, de domínio público (80), invenções e objetos históricos (50), minerais e elementos (40), ilustrações anatômicas antigas (40) |
 | Cotidiano | pratos e bebidas (80), transportes (60), frutas e ingredientes (50), objetos do dia a dia (40), folclore (40), trajes e moda (40) |
 
-A checagem visual pelo LLM custa uns 2 centavos por pergunta, uns US$ 50 no total.
+A checagem visual pelo LLM custa uns 2 centavos por pergunta, uns US$ 50 no total, e a crítica do texto, mais uns 2 centavos.
+
+As quantidades seguem `pipeline/plano.json` e foram reduzidas na v0.35 para que nenhum catálogo passe de 40% das figuras do seu tema (§6). Antes, pokémon tinha 180 das 310 figuras de Entretenimento.
 
 ### Saturação por âncora
 
@@ -743,8 +766,8 @@ Um assunto está saturado quando já há perguntas demais apontando para a mesma
 
 A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/README.md`):
 - **`pipeline/plano.json`:** as metas desta seção, a orientação de cada subtema para as encomendas e os catálogos de figura.
-- **`pipeline/autopiloto.py`:** roda sozinho, fora de qualquer conversa. Escolhe o próximo trabalho pelo maior déficit (texto ou figura, subtema ou catálogo), cria a encomenda, executa, exporta e faz um commit local. **Quando a cota do plano acaba, espera e retoma da mesma etapa.** Pausa subtemas que rendem pouco e catálogos esgotados. Para parar, cria-se o arquivo `pipeline/PARAR`. Push e deploy, só com a opção `--publicar`.
-- **`pipeline/figuras.py`:** a etapa de figuras, com curadoria dos catálogos pelo LLM, imagem do Wikidata ou do PokéAPI e avaliação pelo Sonnet, que abre cada imagem. No primeiro teste (4 bandeiras), as 4 entraram, a cerca de 4 centavos por pergunta.
+- **`pipeline/autopiloto.py`:** roda sozinho, fora de qualquer conversa. Escolhe o próximo trabalho pelo maior déficit (texto ou figura; subtema pelo déficit absoluto, catálogo pelo déficit relativo à sua meta), cria a encomenda, executa, exporta e faz um commit local. **Quando a cota do plano acaba, espera até o horário de liberação informado na mensagem ("resets 6:10pm") e retoma da mesma etapa.** Só mensagens de cota ou sobrecarga contam como cota; um tempo limite ou outro erro conta como falha, e três falhas seguidas pausam o subtema ou catálogo. Pausa subtemas que rendem pouco e catálogos esgotados. Para parar, cria-se o arquivo `pipeline/PARAR`. Push e deploy, só com a opção `--publicar`.
+- **`pipeline/figuras.py`:** a etapa de figuras, com curadoria dos catálogos pelo LLM, imagem do Wikidata ou do PokéAPI, avaliação pelo Sonnet, que abre cada imagem, e crítica do texto. No primeiro teste (4 bandeiras), as 4 entraram, a cerca de 4 centavos por pergunta.
 - **Saturação:** no máximo 3 perguntas por âncora no banco inteiro e 2 com figura; o gerador recebe as âncoras já muito usadas do tema; uma pergunta nova sobre âncora que já tem perguntas é comparada com elas pelo LLM.
 
 ### Sessões
@@ -805,4 +828,5 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.35 | 2026-10-01 | Revisão do pipeline: nome igual não liga mais uma proposta a uma âncora (vai ao juiz), 15 perguntas de homônimos religadas; perguntas com figura passam por crítica e checagem de repetidos; detector de cota estreito, com espera até o horário de liberação; metas de catálogo de até 40% do tema, pelo déficit relativo; limites por âncora completos na Parte I; aviso desatualizado sobre figuras corrigido (§4, §6, §11, §13, §14, §17). App: aba Informações (§16) |
 | 0.34 | 2026-10-01 | Sessão 1 da programação: autopiloto, plano com metas e orientações por subtema, etapa de figuras com avaliação visual, saturação por âncora no banco inteiro e checagem de repetidos pela âncora (§11, §14, §17) |

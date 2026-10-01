@@ -66,7 +66,8 @@ class Banco:
         indice = {}
         for a in self.ancoras_ativas():
             for nome in [a["nome"], *a.get("variantes", [])]:
-                indice.setdefault(normalizar(nome), a["id"])
+                if normalizar(nome):  # "@", "花見" e "Тетрис" ficam vazios e não podem casar entre si
+                    indice.setdefault(normalizar(nome), a["id"])
         return indice
 
     def novo_id_ancora(self, nome, reservados=()):
@@ -189,12 +190,16 @@ def duplicata(enunciado, existentes):
 
 
 def candidatas(nomes, ancoras, excluir=()):
-    """Âncoras cujo nome ou variantes se parecem com algum dos `nomes`."""
+    """Âncoras cujo nome ou variantes se parecem com algum dos `nomes`. Nomes sem nenhuma letra latina nem
+    algarismo ("@", "花見") ficam vazios depois de normalizados e não entram na comparação."""
+    nomes = [x for x in nomes if normalizar(x)]
     pontuadas = []
     for a in ancoras:
         if a["id"] in excluir:
             continue
-        nomes_a = [a["nome"], *a.get("variantes", [])]
+        nomes_a = [y for y in [a["nome"], *a.get("variantes", [])] if normalizar(y)]
+        if not nomes or not nomes_a:
+            continue
         nota = max(semelhanca(x, y) for x in nomes for y in nomes_a)
         if nota >= LIMIAR_CANDIDATA:
             pontuadas.append((nota, a))

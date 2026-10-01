@@ -1,0 +1,1725 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Basquete** (tema **Esportes**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Los Angeles Lakers",
+      "descricao": "Franquia da NBA sediada em Los Angeles, fundada em Minneapolis em 1947."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Lakers lembra uma terra de muitos lagos. O time ganhou esse nome antes de se mudar para Los Angeles, em qual estado americano?",
+    "resposta": "Minnesota",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Los_Angeles_Lakers"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Los_Angeles_Lakers",
+        "situacao": "ok",
+        "texto": "The Los Angeles Lakers are an American professional basketball team based in Los Angeles. The Lakers compete in the National Basketball Association (NBA) as a member of the Pacific Division of the Western Conference. The Lakers play their home games at Crypto.com Arena, an arena they share with the Los Angeles Sparks of the Women's National Basketball Association (WNBA) and the Los Angeles Kings o\n[…]\nMinneapolis sportswriter Sid Hartman played a key, behind-the-scenes role in helping put together the deal and later the team. Inspired by Minnesota's nickname, \"Land of 10,000 Lakes\", the team rechristened themselves the Lakers. Hartman helped them hire John Kundla from College of St. Thomas to be their first head coach, meeting with him and selling him on the team.\n[…]\nOn June 27, 2024, the Lakers selected Bronny James, the son of LeBron, at 55th overall in the 2024 NBA draft, forming the first father-son duo in NBA history. On October 23, 2024, the team made NBA history as being the first one to have father and son (LeBron James & Bronny James) play together as they beat Minnesota Timberwolves on their season opening game.\n[…]\nUltimately, the Lakers were sold to a group of investors led by Bob Short, with the agreement that it would be kept in Minnesota. Short's ownership group consisted of 117 Minnesota businesses and private citizens, who amassed a total of $200,000 for the purchase: $150,000 to buy the team and $50,000 to run it. By 1958, Short had become 80% owner of the team by buying out his partners, but the team was floundering.\n[…]\nThe Laker nickname came from the state of Minnesota being the Land of 10,000 Lakes. The team's colors are purple, gold and white. The Lakers logo consists of the team name, \"Los Angeles Lakers\" written in purple on top of a gold basketball. The team usually wears white jerseys for Sunday and holiday home games."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Los_Angeles_Lakers",
+        "situacao": "ok",
+        "texto": "Los Angeles Lakers é uma equipa de basquetebol da National Basketball Association (NBA) com sede em Los Angeles, Califórnia. A equipe foi fundada em 1947, em Minneapolis, onde recebeu seu nome em alusão ao fato do estado de Minnesota ser conhecido como \"Terra dos Mil Lagos\", e venceu cinco títulos da liga antes de uma queda de público presente levar a uma relocação para Los Angeles em 1960.\n[…]\nBerger e Chalfen realocaram o time para Minneapolis, com jogos em casa sendo disputados no Minneapolis Auditorium e no Minneapolis Armory. O time que Berger e Chalfen compraram consistia apenas de equipamentos; já que o time parecia estar prestes a fechar, todos os seus jogadores já haviam sido designados para outras equipes da NBL. A franquia foi rebatizada como \"Lakers\" em referência ao apelido de Minnesota, \"A Terra dos 10.000 Lagos\".\n[…]\nMinneapolis, por sua vez, ficaria sem uma franquia da NBA até a estreia do Minnesota Timberwolves em 1989.\n[…]\nMarty Marion, um jogador e treinador de beisebol aposentado, e seu parceiro de negócios Milton Fischman tentaram comprar o time com a intenção de movê-lo para Kansas City, Missouri. Mikan ofereceu hipotecar sua casa na tentativa de comprar o time e mantê-lo em Minnesota. No entanto, os Lakers foram vendidos a um grupo de investidores liderado por Bob Short. O time foi vendido ao grupo de Short com o acordo de que não seria realocado para Kansas City, mas mantido em Minnesota.\n[…]\nO apelido \"Lakers\" vem do fato do estado de Minnesota ser \"o lar de dez mil lagos\". As cores do time são dourado, roxo e branco e o logo principal da equipe consiste no nome do time \"Los Angeles Lakers\" escrito em roxo em cima de uma bola de basquete dourada. O uniforme dourado é usado em jogos em casa e o uniforme roxo é utilizado em jogos fora. A equipe também utiliza um uniforme branco para os jogos de domingo e ocasiões especiais.\n[…]\nMinneapolis Armory (1959-60)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Toronto Raptors",
+      "descricao": "Franquia canadense da NBA, sediada em Toronto e fundada em 1995."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Fundado em 1995, o Toronto Raptors escolheu seu nome inspirado em qual filme de dinossauros de grande sucesso?",
+    "resposta": "Jurassic Park",
+    "distratores": [
+      "O Mundo Perdido",
+      "Godzilla",
+      "Em Busca do Vale Encantado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Toronto_Raptors"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Toronto_Raptors",
+        "situacao": "ok",
+        "texto": "The Toronto Raptors are a Canadian professional basketball team based in Toronto. The Raptors compete in the National Basketball Association (NBA) as a member of the Atlantic Division of the Eastern Conference. The team plays its home games at Scotiabank Arena, which it shares with the Toronto Maple Leafs of the National Hockey League (NHL). The team was founded in 1995 as part of the NBA's expans\n[…]\nThe Raptors, along with the Vancouver Grizzlies, played their first game on November 3, 1995.\n[…]\nThe final selection—Toronto Raptors—was unveiled on Canadian national television on May 15, 1994: the choice was influenced by the popularity of the 1993 film adaption of the 1990 science fiction novel Jurassic Park by Michael Crichton; The name \"Raptor\" is a common informal name for the Velociraptor, a species of dinosaur featured in the film. On May 24, 1994, the team's logo and first general manager, Isiah Thomas, were revealed at a press conference.\n[…]\nFueled by the success of the Jurassic Park film and the popularity of non-avian dinosaurs with younger audiences, who would grow up to be fans of the franchise, the team's first logo originally featured an aggressive-looking, featherless red Velociraptor wearing white sneakers with exposed toe-claws dribbling a silver-coloured basketball. The team's original colours were purple, bright red, black and \"Naismith silver\" (in honour of the Canadian inventor of basketball, James Naismith).\n[…]\nAnother successful run starting in 2013–14 led to a spike in the Raptors' support. For the 2014–15 season, the team sold out the 12,500 season tickets, the first time it occurred since 2011. Public watchings of the Raptors games, particularly during the playoffs, started being held in 2014 at Maple Leaf Square, which the fans nicknamed \"Jurassic Park\".\n[…]\nThe Toronto Raptors have a rivalry with both the New York Knicks and the Brooklyn Nets.\n[…]\nSports in Toronto"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Toronto_Raptors",
+        "situacao": "ok",
+        "texto": "O Toronto Raptors é um time de basquete profissional canadense sediado em Toronto, Ontário. Os Raptors competem na National Basketball Association (NBA) como um clube membro da Conferência Leste e Divisão do Atlântico. Eles jogam seus jogos em casa na Scotiabank Arena, que compartilham com o Toronto Maple Leafs da National Hockey League (NHL). A equipe foi fundada em 1995 como parte da expansão da\n[…]\nA seleção final - Toronto Raptors - foi revelada na televisão nacional canadense em 15 de maio de 1994: a escolha foi influenciada pelo filme Jurassic Park. O nome \"Raptor\" é um nome informal comum para o Velociraptor, um dinossauro de tamanho médio.\n[…]\nDepois do draft de expansão, os Raptors conseguiram a sétima escolha no Draft da NBA de 1995 e Thomas escolheu Damon Stoudamire, armador do Arizona. No entanto, a seleção de Stoudamire foi recebida com vaias dos fãs no SkyDome em Toronto, muitos dos quais queriam Ed O'Bannon, de UCLA, o MVP do Final Four da NCAA.\n[…]\nO elenco de Toronto passou por duas grandes mudanças durante a temporada de 2018-19. Primeiro, em 18 de julho, DeRozan foi negociado, junto com Jakob Pöltl e uma escolha de primeira rodada em 2019, para o San Antonio Spurs em troca de Kawhi Leonard e Danny Green. Depois, os Raptors trocaram Jonas Valančiūnas, Delon Wright, CJ Miles e uma escolha de segunda rodada no draft de 2024 para o Memphis Grizzlies por Marc Gasol.\n[…]\nImpulsionado pelo sucesso do filme Jurassic Park e a popularidade dos dinossauros com o público mais jovem, o primeiro logotipo da equipe originalmente apresentava um Velociraptor vermelho de aparência agressiva, usando tênis brancos com garras de pés expostos e uma bola de basquete.\n[…]\nAtravés de laços com a comunidade e com a ajuda de seus parceiros corporativos, doadores, jogadores e voluntários, a Fundação arrecadou com sucesso mais de US $ 14 milhões entre 1995 e 2007.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Magic Paula",
+      "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A armadora brasileira Maria Paula Gonçalves da Silva ficou famosa com um apelido inspirado em qual astro da NBA?",
+    "resposta": "Magic Johnson",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Magic_Paula",
+      "https://en.wikipedia.org/wiki/Magic_Paula"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Magic_Paula",
+        "situacao": "ok",
+        "texto": "Maria Paula Gonçalves da Silva (Osvaldo Cruz, 11 de março de 1962) é uma ex-jogadora de basquetebol brasileira, mais conhecida como Magic Paula. É considerada uma das melhores jogadoras que o basquete produziu. Paula é a atleta com mais jogos e a segunda maior pontuadora da história da Seleção Brasileira adulta, depois de sua contemporânea Hortência Marcari,  tendo marcado 2.537 pontos em 150 part\n[…]\nPaula foi então para Jundiaí, jogar na equipe do Colégio Divino Salvador. Passados três meses, com apenas catorze anos, foi convocada pela primeira vez para a Seleção Brasileira adulta, em 1976. A estreia de Magic Paula jogando com a camiseta verde e amarela aconteceu na final do Campeonato Sul-americano de 1977, no Peru, contra as donas da casa.\n[…]\nPaula recebeu o apelido de Magic Paula devido ao seu desempenho nas quadras, concedido pelo jornalista esportivo Juarez Araújo. Ele ficou impressionado com o estilo de Paula durante um jogo da Seleção Brasileira contra a Bulgária em 1983, no Ibirapuera, e a comparou com o craque da NBA Magic Johnson. Rapidamente, o apelido foi adotado por todo o país.\n[…]\nNos Jogos Pan-americanos de Havana, realizados em 1991, a Seleção Brasileira feminina disputou as finais do torneio com as próprias cubanas e Fidel Castro compareceu ao jogo. Nesse jogo, Magic Paula brilhou no segundo tempo: fez cinco arremessos de três pontos e acertou quatro, e as brasileiras venceram por 97 a 76 . Destaques  do time além de Paula eram : Hortência camisa 4, Vânia Hernandes camisa 7 , Marta e Ruth .\n[…]\nEm 8 março de 2021, Magic Paula foi eleita como vice-presidente da Confederação Brasileira de Basquete ao lado de também ex-jogador Guy Peixoto Jr. Com isso, ela se tornou a primeira vice-presidente mulher na história da entidade. Em dezembro de 2022, renunciou ao cargo.\n[…]\nTaça Brasil\n[…]\nHortência Marcari, atleta contemporânea de Magic Paula\n[…]\nGaleria dos Campeões do basquete – Paula"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Magic_Paula",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Kareem Abdul-Jabbar",
+      "descricao": "Pivô americano do Milwaukee Bucks e do Los Angeles Lakers, famoso pelo arremesso em gancho."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Kareem Abdul-Jabbar adotou esse nome ao se converter ao islamismo. Com que nome ele brilhou no basquete universitário?",
+    "resposta": "Lew Alcindor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kareem_Abdul-Jabbar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kareem_Abdul-Jabbar",
+        "situacao": "ok",
+        "texto": "Kareem Abdul-Jabbar (born Ferdinand Lewis Alcindor Jr., April 16, 1947) is an American former professional basketball player who was a center for 20 seasons in the National Basketball Association (NBA) with the Milwaukee Bucks and Los Angeles Lakers. He played college basketball for the UCLA Bruins. A member of the Naismith Memorial Basketball Hall of Fame, Abdul-Jabbar won a record six NBA Most V\n[…]\nAbdul-Jabbar was known as Lew Alcindor when he played at Power Memorial, a private Catholic high school in New York City, where he led their team to 71 consecutive wins. He played college basketball for the UCLA Bruins, winning three consecutive national championships. Abdul-Jabbar was a record three-time most outstanding player of the NCAA tournament. Drafted with the first overall pick by the one-season-old Milwaukee Bucks franchise in the 1969 NBA draft, he spent six seasons with the team.\n[…]\nKareem Abdul-Jabbar was born Ferdinand Lewis Alcindor Jr. in Harlem, New York City, the only child of Cora Lillian, a department store price checker, and Ferdinand Lewis Alcindor Sr., a transit police officer and jazz musician. Cora was born in North Carolina but came to Harlem as part of the Great Migration. Ferdinand Sr. was the child of immigrants from Trinidad; his uncle was the Black activist and medical pioneer Dr. John Alcindor.\n[…]\nAbdul-Jabbar has spoken about the thinking that was behind his name change when he converted to Islam. He stated that he was \"latching on to something that was part of my heritage, because many of the slaves who were brought here were Muslims. My family was brought to America by a French planter named Alcindor, who came here from Trinidad in the 18th century. My people were Yoruba, and their culture survived slavery ...\n[…]\nKareem Abdul-Jabbar at IMDb\n[…]\nKareem Abdul-Jabbar at the Muck Rack journalist directory\n[…]\nKareem Abdul-Jabbar on Substack"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kareem_Abdul-Jabbar",
+        "situacao": "ok",
+        "texto": "Kareem Abdul-Jabbar (em árabe: كريم عبد الجبار; romaniz.: Kareem Abdul-Jabbar; [kəˈriːm æbˈduːl dʒəˈbɑːr]; kə-REEM-_-ab-DOOL-_-jə-BAR; nascido Ferdinand Lewis Alcindor Jr. em Nova Iorque, 16 de abril de 1947) é um ex-basquetebolista norte-americano que atuava como pivô, amplamente considerado como um dos maiores jogadores da história do basquete. Também foi ator, treinador de basquete e autor de b\n[…]\nSelecionado pelo Milwaukee Bucks como a primeira escolha geral no Draft da NBA de 1969, Alcindor passou seis temporadas em Milwaukee. Depois de liderar os Bucks ao seu primeiro título da NBA aos 24 anos em 1971, ele adotou o nome muçulmano Kareem Abdul-Jabbar. Usando sua marca registrada \"skyhook\", se estabeleceu como um dos maiores cestinhas da liga. No ano de 1975 foi negociado com os Lakers, com quem jogou nas 14 últimas temporadas de sua carreira e venceu mais cinco títulos da NBA.\n[…]\nAlcindor tinha um relacionamento tenso com seu treinador. Em seu livro de 2017, Coach Wooden and Me, Abdul-Jabbar relata um incidente em que Donahue o chamou de negro.\n[…]\nDurante o verão de 1968, Alcindor pregou a shahada duas vezes e se converteu ao islamismo sunita. Ele adotou o nome árabe Kareem Abdul-Jabbar, embora não tenha começado a usá-lo publicamente até 1971. Ele boicotou os Jogos Olímpicos de Verão de 1968, decidindo não participar do time de basquete olímpico masculino dos Estados Unidos, que ganhou o ouro com facilidade.\n[…]\nAbdul-Jabbar falou sobre o pensamento que estava por trás de sua mudança de nome quando ele se converteu ao Islã. Ele afirmou que estava \"agarrando-se a algo que fazia parte da minha herança, porque muitos dos escravos que foram trazidos para cá eram muçulmanos. Minha família foi trazida para a América por um fazendeiro francês chamado Alcindor, que veio de Trinidad no dia 18. Meu povo era iorubá e sua cultura sobreviveu à escravidão.\n[…]\nKareem Abdul-Jabbar no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Kobe Bryant",
+      "descricao": "Ala-armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, de 1996 a 2016."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Kobe Bryant adotou o apelido Black Mamba depois de assistir a qual filme de Quentin Tarantino?",
+    "resposta": "Kill Bill",
+    "distratores": [
+      "Pulp Fiction",
+      "Cães de Aluguel",
+      "Jackie Brown"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kobe_Bryant"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kobe_Bryant",
+        "situacao": "ok",
+        "texto": "Kobe Bean Bryant (August 23, 1978 – January 26, 2020) was an American professional basketball player. Nicknamed \"the Black Mamba\", he played his entire 20-year career with the Los Angeles Lakers in the National Basketball Association (NBA). Bryant was a five-time NBA champion, two-time NBA Finals MVP, the 2008 NBA MVP, and two-time gold medal recipient on the 2008 and 2012 U.S. Olympic teams. He i\n[…]\nInspired by the codename for Uma Thurman's character in the Kill Bill films, Bryant assigned himself the nickname of \"Black Mamba\", citing a desire for his basketball skills to mimic the eponymous snake's ability to \"strike with 99% accuracy at maximum speed, in rapid succession\". His work ethic was called the \"Mamba mentality\". During the 2012–13 season, Bryant began referring to himself as \"vino\" to describe how his play had been aging like a fine wine.\n[…]\nHe was on numerous video game covers including Kobe Bryant in NBA Courtside, NBA Courtside 2: Featuring Kobe Bryant, NBA Courtside 2002, NBA 3 on 3 featuring Kobe Bryant, NBA '07: Featuring the Life Vol. 2, NBA 09: The Inside, NBA 2K10 NBA 2K17 (Legend Edition; Legend Edition Gold) NBA 2K21 (Mamba Forever Edition), and NBA 2K24 (Kobe Bryant Edition and Black Mamba Edition).\n[…]\nIn 2009, Bryant signed a deal with Nubeo to market the Black Mamba Collection, sports/luxury watches ranging from $25,000 to $285,000. On February 9, 2009, he was featured on the cover of ESPN The Magazine. CNN estimated Bryant's endorsement deals in 2007 to be worth $16 million a year.\n[…]\nBryant was the subject of Spike Lee's 2009 documentary film Kobe Doin' Work, which chronicled Bryant during the 2007–08 NBA season.\n[…]\nMcGrath, Ben (March 31, 2014). \"The fourth quarter : Kobe Bryant confronts a long—and possibly painful—goodbye\". The Sporting Scene. The New Yorker. Vol. 90, no. 6. pp. 38–49. Retrieved May 16, 2018.\n[…]\nKobe Bryant at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kobe_Bryant",
+        "situacao": "ok",
+        "texto": "Kobe Bean Bryant (Filadélfia, 23 de agosto de 1978 — Calabasas, 26 de janeiro de 2020) foi um jogador profissional de basquetebol estadunidense. Jogou toda sua carreira como ala-armador no Los Angeles Lakers da National Basketball Association (NBA). Filho de Joe Bryant, ex-jogador do Philadelphia 76ers e antigo técnico do time Los Angeles Sparks da WNBA, é considerado um dos maiores jogadores de t\n[…]\nO ex-jogador Jerry West era o General Manager do Los Angeles Lakers e, impressionado com a habilidade de Bryant, tratou logo de levá-lo ao time californiano. Kobe foi trocado pelo pivô Vlade Divac, ídolo do Lakers aquela época. Uma vez que Kobe ainda tinha 17 anos de idade, os pais tiveram que assinar com ele o contrato junto ao Los Angeles.\n[…]\nKobe teve na temporada 2002–03 um dos melhores anos de sua vida. Ele anotou em média trinta pontos por jogo, além de distribuir seis assistências e pegar sete rebotes. Além disso, em fevereiro de 2003, ele teve um mês arrasador. Em nove partidas consecutivas anotou mais de quarenta pontos. Assim, ele conduziu o Lakers a uma campanha de cinqüenta vitórias na temporada regular.\n[…]\nEm fevereiro de 2016, Kobe jogou o Jogo das Estrelas da NBA (seu primeiro desde 2013). Ele teve dez pontos, seis rebotes e sete assistências. Sua média de pontos na última temporada da carreira foi 28,62 pontos por jogo.\n[…]\nEm 13 de abril de 2016, jogou sua última partida na NBA contra o Utah Jazz, onde marcou 60 pontos (a melhor marca da temporada), na vitória dos Lakers por 101 a 96. Bryant ainda quebrou um recorde em sua despedida; tornou-se o jogador mais velho a anotar pelo menos 50 pontos num jogo na NBA. Após sua aposentadoria do basquete, Kobe continuou sua carreira como investidor e empresário, fundando sua própria marca de produtos esportivos, a Kobe Inc.\n[…]\nKobe Bryant no Instagram\n[…]\nKobe Bryant no Facebook\n[…]\nKobe Bryant no X",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Wlamir Marques",
+      "descricao": "Ala brasileiro de basquete, bicampeão mundial com a seleção em 1959 e 1963."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Bicampeão mundial pelo Brasil em 1959 e 1963, o ala Wlamir Marques ficou conhecido por qual apelido?",
+    "resposta": "Diabo Loiro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Wlamir_Marques"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wlamir_Marques",
+        "situacao": "ok",
+        "texto": "Wlamir Marques (São Vicente, 16 de julho de 1937 – São Paulo, 18 de março de 2025) foi um basquetebolista brasileiro que atuou como ala. Fez parte da geração de ouro do basquete nacional bicampeã mundial em 1959 em Santiago, no Chile, e em 1963 no Rio de Janeiro.\n[…]\nA edição brasileira da revista ESPN apontou Wlamir Marques como 9º maior atleta brasileiro de todos os tempos, em uma lista de 50 nomes publicada em novembro de 2010.\n[…]\nÉ considerado um dos maiores jogadores de basquete da história do Brasil. Juntamente com ídolos como Amaury Antônio Pasos, Algodão, Rosa Branca e Ubiratan, liderou a geração mais vitoriosa do basquete brasileiro durante as décadas de 1950 e 1960, quando a seleção foi bicampeã mundial. Ganhou dois apelidos logo no começo de sua carreira: Disco Voador e Diabo Loiro, o mais famoso.\n[…]\nEm âmbito continental, medalha de prata nos Jogos Pan-Americanos de 1963 e medalha de bronze nos Jogos Pan-Americanos de 1955 e Jogos Pan-Americanos de 1959.\n[…]\nEm 23 de agosto de 2023, em cerimônia nas Filipinas, Wlamir Marques entrou para o Hall da Fama da Federação Internacional de Basquetebol (FIBA). Por razões de saúde, não pode viajar para participar da cerimônia e foi representado pelo secretário-geral da Confederação Brasileira de Basketball (CBB), Carlos Fontenelle e o presidente da federação catarinense, Fábio Deschamps. Wlamir enviou um vídeo de agradecimento.\n[…]\nNo dia 9 de novembro de 2023, Wlamir Marques foi homenageado pelo Corinthians com a inauguração de seu busto no Parque São Jorge. Foi o primeiro jogador de basquete do clube a receber essa homenagem.\n[…]\nSeleção Brasileira\n[…]\nCampeonato Mundial: 1959 e 1963\n[…]\nPerfil de Wlamir Marques no sítio da CBB\n[…]\n«Página de Wlamir Marques no Hall da Fama da FIBA no site oficial da entidade» (em inglês)"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Jerry West",
+      "descricao": "Armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, nos anos 1960 e 1970."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por que o astro do Lakers Jerry West ganhou o apelido de The Logo?",
+    "resposta": "Sua silhueta inspirou o logotipo da NBA",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jerry_West"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jerry_West",
+        "situacao": "ok",
+        "texto": "Jerry Alan West (May 28, 1938 – June 12, 2024) was an American basketball player and executive. He played professionally for the Los Angeles Lakers of the National Basketball Association (NBA), and is universally regarded as one of the greatest players of all time. His nicknames included \"the Logo\", in reference to his silhouette being the basis for the NBA logo; \"Mr.\n[…]\nAfter Chamberlain scored 45 points and West 31 points plus 13 assists in a series-equalizing 135–113 Lakers win, the Lakers seemed favorites prior to game 7. West had also injured his right hand and taken several manual injections, and Reed hobbled up court before game 7 – the Knicks center scored the first four points, and inspired his team to one of the most famous playoff upsets of all time.\n[…]\nPrior to the Laker's 33 game team win streak, in which West started every game, the Lakers played 5 games in which West was injured and did not play. The Lakers lost 3 of the 5 games. Prior to that, West started 8 straight games in which the Lakers won each game. As a result, Jerry West had a personal win streak of 41 games in which he started. This is the longest such personal win streak in major American professional sports history.\n[…]\nA loss just ripped his guts out.\" Even before his sole championship in 1972, the Lakers held a \"Jerry West Night\", and eleven-time NBA champion and perennial rival Bill Russell appeared and said: \"Jerry, you are, in every sense of the word, truly a champion... If I could have one wish granted, it would be that you would always be happy.\"\n[…]\nWest, Jerry; Libby, Bill (1969). Mr. Clutch: The Jerry West Story. Prentice-Hall. ISBN 9780136047100.\n[…]\nWest, Jerry; Libby, Bill (1969). Mr. Clutch: The Jerry West Story. Englewood Cliffs, NJ: Associated Features; Prentice Hall. ISBN 0-13-604710-6. LCCN 73-82904.\n[…]\nJerry West at nba.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jerry_West",
+        "situacao": "ok",
+        "texto": "Jerome Alan \"Jerry\" West (Cheylan, 28 de maio de 1938 — Los Angeles, 12 de junho de 2024) foi um jogador, treinador e executivo de basquetebol norte-americano. West ganhou notoriedade por ter servido de inspiração para o desenho do logotipo da NBA, o qual é baseado na imagem de uma jogada sua.\n[…]\nWest teve destaque em sua carreira nas temporadas pelo Los Angeles Lakers da National Basketball Association (NBA). Sua alcunha é de \"Mr. Clutch\" pela sua habilidade de acertar arremessos difíceis com o tempo estourando. Jogando como ala-armador, West iniciou sua carreira na Universidade de West Virginia em 1959, antes de ir jogar durante 14 anos no Lakers. Foi também vice-capitão na conquista dos Estados Unidos da medalha de ouro nos Jogos Olímpicos de Verão de 1960.\n[…]\nA sua carreira na NBA foi um sucesso. Jogando de Armador e Ala Armador, West foi eleito 14 vezes para o NBA All-Star e ganhou o prêmio de NBA Finals Most Valuable Player Award (MVP das Finais) da competição em 1969, sendo o primeiro e único jogador da história da liga a conseguir tal feito sem ter sido campeão. É o segundo maior cestinha do Los Angeles Lakers, perdendo apenas para o Kobe Bryant e em 1980 entrou para o Basketball Hall of Fame.\n[…]\nApós encerrar a sua carreira como jogador, West foi treinar o Los Angeles Lakers, onde ficou por três temporadas e na última foi eleito General Manager. Em 2002, foi para o Memphis Grizzlies como General Manager (GM) e ajudou a equipe a ponto de conseguir o prêmio de Executivo do Ano da NBA. West também foi membro do conselho executivo do Golden State Warriors de 2011 até 2017, ajudando a franquia a montar a dinastia que seria campeã da NBA em 2015 e 2017.\n[…]\nWest morreu em 12 de junho de 2024, aos 86 anos.\n[…]\nJerry West no nba.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Garrafão",
+      "descricao": "Área pintada da quadra de basquete, em frente à cesta, chamada de key em inglês."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em inglês, o garrafão do basquete se chama key, que quer dizer chave. O antigo formato dessa área lembrava o quê?",
+    "resposta": "Um buraco de fechadura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Key_(basketball)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Key_(basketball)",
+        "situacao": "ok",
+        "texto": "The key is a marked area on a basketball court surrounding the basket, where much of the game's action takes place. The key is officially referred to as the free throw lane by the National Basketball Association (NBA), the EuroLeague, the National Collegiate Athletic Association (NCAA), the National Association of Intercollegiate Athletics (NAIA), and the National Federation of State High School A\n[…]\nIt is referred to as the restricted area by the International Basketball Federation (FIBA). The key is also simply called the lane.\n[…]\nThe lane is a restricted area in which players on offense (in possession of the ball) can stay for only three seconds. At all levels of play, after three seconds the player is assessed a three-second violation which results in a turnover.\n[…]\nThe restricted area arc rule first appeared at any level of competition in the NBA for the 1997–98 season. It was applied in NCAA men's basketball for the 2010–2011 season. The NCAA approved adding a visible restricted-area arc three feet from the center of the basket in Division I men’s and women’s games for the 2011–2012 season.\n[…]\nThe panel delayed implementation of the arc until the 2012–2013 season for Divisions II and III to allow those schools more time to plan and place the restricted-area arc in their home arenas. Starting with the 2015–2016 season, the NCAA moved the RA arc out to four feet from the center of the basket; the NAIA followed suit.\n[…]\nPoints made on the key are termed as points in the paint or inside points. Historically, the area of the key where offensive players are prohibited from remaining longer than three seconds has been painted to distinguish the area from the rest of the court; hence the phrase \"points in the paint.\"\n[…]\nThe lane lines have marks separating where players stand during a free throw attempt. The one nearest the basketball is marked wider than the others, and is known as the block."
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Converse All Star",
+      "descricao": "Modelo de tênis de lona da Converse, criado para o basquete no início do século vinte."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O tênis All Star, da Converse, traz no tornozelo a assinatura de qual jogador e vendedor da marca?",
+    "resposta": "Chuck Taylor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars",
+        "situacao": "ok",
+        "texto": "Chuck Taylor All-Stars or Converse All Stars (also referred to as  \"Converse\", \"Chuck Taylors\", \"Chucks\", \"Chuckys\", \"Cons\", \"All Stars\", and \"Chucky Ts\") are sneakers manufactured by American fashion brand Converse (a subsidiary of Nike, Inc. since 2003). Initially developed as a basketball shoe in the early 20th century, its design has remained largely unchanged since its introduction. The shoe \n[…]\ninto the high-top's ankle patch, resulting in the design that became known as the Chuck Taylor All Star.\n[…]\nIn 2013, Converse launched the Chuck Taylor All Star '70, which featured a build similar to the All Stars used for basketball games built in the late 1960s and early 1970s. This retro model differed from the then-current Chuck Taylor All Stars, as various changes happened to the All Star shoes over the intervening three decades.\n[…]\nOn July 28, 2015, Converse released the Chuck Taylor All Star II.\n[…]\nThe cast of several popular network television series such as Dennis the Menace (1959–64), M*A*S*H (1972–83), Happy Days (1974–84) and The A-Team (1983–87) have worn Converse All Star shoes. Wally and Beaver are seen wearing Converse as they climb a ladder in a 1958 episode (S1E18) of the MCA TV show Leave It to Beaver. Opie Taylor (Ron Howard) wore Chuck Taylor high tops in season 4 episode 9 of the Andy Griffith Show which first aired on 11/25/1963.\n[…]\nIn 2015, Converse released the Converse All-Star Andy Warhol collection, in partnership with the Andy Warhol Foundation. In honor of Warhol's contributions to visual art, Converse designed the All-Star shoe to commemorate Warhol's subcultural influence. Since 2018, sculptor Michael Leavitt has formatted long-running projects for art students and craftspeople to make a do-it-yourself Converse Chuck Taylor cardboard shoe.\n[…]\nThe low-top Chuck Taylors provide complete ankle mobility, as the canvas does not cover the ankles."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chuck_Taylor_All_Star",
+        "situacao": "ok",
+        "texto": "Chuck Taylor All Star ou Converse All Star (também chamado  \"Chuck Taylor All-Stars\", \"Chuck Taylors\", \"Chucks\", \"Cons\", \"All Stars\" e \"Chucky Ts\") são tênis fabricados pela marca de moda americana Converse (uma subsidiária da Nike, Inc. desde 2003). Inicialmente desenvolvido como um tênis de basquetebol no início do século XX, seu design permaneceu praticamente inalterado desde sua introdução. O \n[…]\nA Converse começou a fabricar um tênis de basquete antigo em 1917 e o redesenhou em 1922, quando Chuck Taylor pediu à empresa para criar um tênis melhor com mais suporte e flexibilidade. Depois que a Converse adicionou a assinatura de Taylor ao remendo do tornozelo, eles ficaram conhecidos como Chuck Taylor All Stars.\n[…]\nEmbora os Chuck Taylor All-Stars não sejam mais usados no basquete profissional, eles continuam populares como calçados casuais. A Converse lançou edições dos tênis em muitas cores e padrões, bem como modelos atualizados que mantêm a aparência original enquanto incorporam tecnologia mais nova.\n[…]\nInicialmente, foram produzidos em 1917 como uma tentativa da Converse padronizar os sapatos para o basquete. Eles não eram populares até o jogador Chuck Taylor adotá-los como seu sapato preferido para o esporte. Ele ficou impressionado com o design que, logo após, se tornou um dos sapatos mais vendidos. Depois de sugerir algumas alterações, o tênis ganhou o nome do jogador e sua assinatura na parte do tornozelo.\n[…]\nAlgumas versões eram compradas sem o cadarço; estes foram desenhados por Chuck antes de sua morte, em 1969. Quando a Nike comprou a Converse e as produções foram transferidas para os Estados Unidos e outros países, o design sofreu alterações.\n[…]\nEm 2015, foi lançada pela Converse uma nova versão do calçado, chamada de Chuck Taylor All Star II, que apresenta diversas mudanças, tanto no interior quanto no design em relação ao modelo original.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Logotipo do Twitter",
+      "descricao": "O passarinho azul que foi o símbolo da rede social Twitter até 2023."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O passarinho azul do antigo logotipo do Twitter tinha um nome em homenagem a qual astro do Boston Celtics?",
+    "resposta": "Larry Bird",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twitter",
+      "https://en.wikipedia.org/wiki/Larry_Bird"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Twitter",
+        "situacao": "ok",
+        "texto": "X, formerly known as Twitter, is an American microblogging and social networking service owned by SpaceX's artificial intelligence subsidiary SpaceXAI. It is one of the world's largest social media platforms and one of the most-visited websites. Users can share short text messages, images, and videos in short posts (commonly and unofficially known as \"tweets\", in reference to the site's former ter\n[…]\nOn March 21, 2012, Twitter celebrated its sixth birthday by announcing that it had 140 million users, a 40% rise from September 2011, who were sending 340 million tweets per day. On June 5, 2012, a modified logo was unveiled through the company blog, removing the text to showcase the slightly redesigned bird as the sole symbol of Twitter. On December 18, 2012, Twitter announced it had surpassed 200 million monthly active users.\n[…]\nBefore its rebranding to X, Twitter was internationally identifiable by its signature bird logo, or the Twitter Bird. The original logo, which was simply the word Twitter, was in use from its launch in March 2006. It was accompanied by an image of a bird which was later discovered to be a piece of clip art created by the British graphic designer Simon Oxley.\n[…]\nA new logo had to be redesigned by founder Biz Stone with help from designer Philip Pascuzzo, which resulted in a more cartoon-like bird in 2009. This version had been named \"Larry the Bird\" after Larry Bird of the NBA's Boston Celtics fame.\n[…]\nWithin a year, the Larry the Bird logo underwent a redesign by Stone and Pascuzzo to eliminate the cartoon features, leaving a solid silhouette of Larry the Bird that was used from 2010 through 2012. In 2012, Douglas Bowman created a further simplified version of Larry the Bird, keeping the solid silhouette but making it more similar to a mountain bluebird. This logo was simply called the \"Twitter Bird\" and was used until July 2023."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Larry_Bird",
+        "situacao": "ok",
+        "texto": "Larry Joe Bird (born December 7, 1956) is an American former professional basketball player, coach, and executive in the National Basketball Association (NBA). Nicknamed \"the Hick from French Lick\" and \"Larry Legend\", Bird is widely regarded as one of the greatest basketball players of all time. He is the only person in NBA history to be named Rookie of the Year, Most Valuable Player, Finals MVP, \n[…]\nOn August 18, 1992, Bird announced his retirement from the NBA. Following Bird's departure, the Celtics held a retirement party for him at the sold-out Boston Garden on February 4, 1993, dubbed \"Larry Bird Night\" where they retired his number 33. The Los Angles Times dubbed the event \"the basketball equivalent of a Kennedy wedding.\"\n[…]\nLarry Bird and Magic Johnson are known to be \"one of the greatest rivalries in sports.\" Their rivalry began in college, when Bird and Indiana State lost to Johnson and Michigan State in the NCAA Championship game. Their rivalry continued on in the revived Celtics–Lakers rivalry in the NBA. Either the Celtics, led by Bird, or the Lakers, led by Magic, were present in every NBA Finals series in the '80s, with Bird and Magic meeting thrice.\n[…]\nMichael Jordan himself considers the description 'God disguised as Michael Jordan' as his favorite compliment since it came from Bird (after Game 2 of the Celtics' first-round series against the Bulls during the 1986 playoffs when Jordan scored an NBA playoff-record 63 points in a 135-131 Celtics win). Jordan has since said \"Larry Bird's comments gave me credibility. Up to that point I was still perceived as a hotshot rookie, not a real player.\n[…]\nNo. 33 retired by Boston Celtics\n[…]\nUntil July 2023, Twitter's logo was named Larry in honor of Larry Bird.\n[…]\nBird, Larry; Bischoff, John (1986). Bird on Basketball: How-to Strategies from the Great Celtics Champion. Da Capo Press. ISBN 978-0201106671."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/X_%28rede_social%29",
+        "situacao": "ok",
+        "texto": "X, popularmente conhecido pelo seu nome anterior Twitter e inicialmente chamado de Twttr (\"gorjear\"), é uma rede social virtual e um serviço de microblog, que permite aos usuários enviar e receber atualizações pessoais de outros contatos em textos de até 280 caracteres (25 mil para assinantes do X Premium) conhecidos como posts (anteriormente tweets), por meio do website do serviço, por SMS e por \n[…]\nEm 24 de julho de 2023, o Twitter mudou o nome e logo do passarinho azul para a letra X, estilizada 𝕏. Em 30 de agosto de 2024, foi determinado o bloqueio da plataforma no Brasil por descumprimentos de ordens judiciais, que depois foi desbloqueado em 8 de outubro, após o X cumprir uma série de ordens judiciais.\n[…]\nPara que um perfil seja verificado com o selo azul, é necessário pagar o X Premium (anteriormente Twitter Blue), que custa entre R$ 440,00 e R$ 629,00 (por ano) ou R$ 42,00 e R$ 60,00 (por mês), e é o único método de consegui-lo. Qualquer perfil que obtenha os requisitos abaixo pode ter o selo azul:\n[…]\nÉ possível perder o selo azul se:\n[…]\nEm 11 de abril de 2023, Elon Musk, o então CEO do X, anunciou que os antigos verificados (chamados de legacy verified account), iriam perder o selo azul em 20 de abril de 2023, se não pagassem o Twitter Blue (atual X Premium). Com isso, vários usuários perderam o seu selo azul, agora, só sendo obtido através do X Premium.\n[…]\nEm janeiro de 2010 foi realizada a primeira conexão e acesso pessoal à Internet de origem espacial, utilizando o X. O astronauta Timothy Creamer, escreveu \"Hello Twitterverse\" no serviço de microblogging, diretamente da Estação Espacial Internacional (ISS).\n[…]\nEm maio de 2011, a jornalista brasileira Rosana Hermann lançou um livro pela editora Panda Books, intitulado Um passarinho me contou – Relatos de uma viciada em Twitter. O livro é baseado em histórias vividas por ela desde a sua entrada na rede social em abril de 2007.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "James Naismith",
+      "descricao": "Professor de educação física canadense que inventou o basquete em 1891."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1891, o professor James Naismith recebeu a tarefa de criar um novo esporte para seus alunos. Que problema ele precisava resolver?",
+    "resposta": "Manter os alunos ativos no inverno, em ambiente fechado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/James_Naismith"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/James_Naismith",
+        "situacao": "ok",
+        "texto": "James Naismith ( NAY-smith; November 6, 1861 – November 28, 1939) was a Canadian-American physical educator, physician, Christian chaplain, and sports coach, best known as the inventor of the game of basketball.\n[…]\nIn Lawrence, Naismith has a road named in his honor, Naismith Drive, which runs in front of Allen Fieldhouse. James Naismith Court in Allen Fieldhouse is named in his honor as well. Naismith Valley Park and the dormitory Naismith Hall are also named after him.\n[…]\nThe original rules of basketball written by Naismith in 1891, considered to be basketball's founding document, were auctioned at Sotheby's, New York, in December 2010. Josh Swade, a University of Kansas alumnus and basketball enthusiast, went on a crusade in 2010 to persuade moneyed alumni to consider bidding on and hopefully winning the document at auction to give it to the University of Kansas. Swade eventually persuaded David G.\n[…]\nIn July 2019, Naismith was inducted into Toronto's Walk of Fame.\n[…]\nOn January 15, 2021, Google placed a Google Doodle celebrating James Naismith on its home page in 18 countries, on five continents.\n[…]\nDuring his lifetime, Naismith held these educational and academic positions:\n[…]\nJames Naismith's Original Rules of Basketball\n[…]\nNaismith, James; Gulick, Luther Halsey (1894). Basket Ball. New York: American sports Publishing Company. OCLC 1041046804.\n[…]\nReprinted: Naismith, James (1996). Basketball : its origin and development. Lincoln: University of Nebraska Press. ISBN 9780803283701. OCLC 604260339.\n[…]\nRains, Rob; Carpenter, Hellen (2009). James Naismith : the man who invented basketball. Philadelphia: Temple University Press. ISBN 9781439901359. JSTOR j.ctt14btb6m. OCLC 489150081.\n[…]\nJames Naismith at Find a Grave"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/James_Naismith",
+        "situacao": "ok",
+        "texto": "James Naismith (Almonte, 6 de novembro de 1861 - Lawrence, 28 de novembro de 1940) foi um professor de educação física canadense e inventor do basquetebol.\n[…]\nNaismith nasceu em Almonte, a 46Km de Ottawa, em 1861. Iniciou seus estudos em teologia em 1887, na Escola Presbiteriana de Teologia, onde consegue o título de pastor em 1890. No outono de 1891, ele foi nomeado como instrutor por Luther Halsey Gulick Jr., chefe do Departamento de Educação Física da Associação Cristã de Moços (ACM), posteriormente chamada de Springfield College.\n[…]\nGulick pediu a Naismith e a outros instrutores que criassem jogos internos que poderiam substituir os exercícios utilizadas na escola durante o inverno rigoroso daquele ano, os exercícios que existiam até então eram considerados perigosos em alguns casos e mesmo entediantes. Naismith pensou num esporte com bola, que tivesse um alvo fixo, mas que fosse menos agressivo do que o futebol americano, para evitar atritos entre os estudantes.\n[…]\nÉ Naismith quem inicia o primeiro jogo de basquete nos Jogos Olímpicos de Verão de 1936, em Berlim, entre França e Estônia, além de entregar as primeiras medalhas olímpicas do desporto por ele criado.\n[…]\nPara as mulheres, o basquete veio um ano mais tarde, iniciou em 1892. Naquela época, a professora de educação física do Smith College, Senda Berenson, fez algumas adaptações às regras criadas por James Naismith. A primeira partida se deu em 1896.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "James Naismith",
+      "descricao": "Professor de educação física canadense que inventou o basquete em 1891."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em qual cidade de Massachusetts, numa escola da Associação Cristã de Moços, James Naismith inventou o basquete?",
+    "resposta": "Springfield",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/James_Naismith",
+      "https://pt.wikipedia.org/wiki/James_Naismith"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/James_Naismith",
+        "situacao": "ok",
+        "texto": "James Naismith ( NAY-smith; November 6, 1861 – November 28, 1939) was a Canadian-American physical educator, physician, Christian chaplain, and sports coach, best known as the inventor of the game of basketball.\n[…]\nNaismith studied and taught physical education at McGill University in Montreal until 1890, before moving later that year to Springfield, Massachusetts, where in 1891 he designed basketball while teaching at the International YMCA Training School. Seven years after inventing basketball, Naismith received his medical degree in Denver in 1898. He then arrived at the University of Kansas, later becoming the Kansas Jayhawks' athletic director and coach.\n[…]\nNaismith is credited with inventing basketball. Having been an outstanding football player at McGill University in Montreal, he later decided to become a physical education teacher at McGill University for his three postgraduate years and then went to Springfield, Massachusetts, to study at the YMCA International Training School in the 1890s. Whilst teaching there, Naismith realized he needed to invent an indoor game for the winter due to the weather conditions.\n[…]\nNaismith invented the game of basketball and wrote the original 13 rules of this sport; for comparison, the NBA rule book today features 66 pages. The Naismith Memorial Basketball Hall of Fame in Springfield, Massachusetts, is named in his honor, and he was an inaugural inductee in 1959.\n[…]\nOn June 20, 1894, Naismith married Maude Sherman in Springfield, Massachusetts. The couple had five children.\n[…]\nRains, Rob; Carpenter, Hellen (2009). James Naismith : the man who invented basketball. Philadelphia: Temple University Press. ISBN 9781439901359. JSTOR j.ctt14btb6m. OCLC 489150081."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/James_Naismith",
+        "situacao": "ok",
+        "texto": "James Naismith (Almonte, 6 de novembro de 1861 - Lawrence, 28 de novembro de 1940) foi um professor de educação física canadense e inventor do basquetebol.\n[…]\nNaismith nasceu em Almonte, a 46Km de Ottawa, em 1861. Iniciou seus estudos em teologia em 1887, na Escola Presbiteriana de Teologia, onde consegue o título de pastor em 1890. No outono de 1891, ele foi nomeado como instrutor por Luther Halsey Gulick Jr., chefe do Departamento de Educação Física da Associação Cristã de Moços (ACM), posteriormente chamada de Springfield College.\n[…]\nImaginou um alvo que não ficasse no chão, para diferenciar-se do hóquei e o futebol. Foi então que Naismith inventou o  basquetebol. Sua invenção foi aperfeiçoada em 15 de janeiro de 1892, quando publicou as 13 regras para jogar basquetebol. No início pendurou um cesto de pêssegos a uma altura que julgou adequada, a 3,05 metros, altura que se mantém até hoje; já a quadra possuía, aproximadamente, metade do tamanho da atual.\n[…]\nÉ Naismith quem inicia o primeiro jogo de basquete nos Jogos Olímpicos de Verão de 1936, em Berlim, entre França e Estônia, além de entregar as primeiras medalhas olímpicas do desporto por ele criado.\n[…]\nO primeiro jogo oficial de basquete foi disputado em 1892, com regras bem diferentes das praticadas atualmente.\n[…]\nPara as mulheres, o basquete veio um ano mais tarde, iniciou em 1892. Naquela época, a professora de educação física do Smith College, Senda Berenson, fez algumas adaptações às regras criadas por James Naismith. A primeira partida se deu em 1896.\n[…]\nBasquetebol"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Relógio de arremesso",
+      "descricao": "Cronômetro que limita o tempo de cada ataque, adotado pela NBA em 1954 com vinte e quatro segundos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1954, a NBA criou o limite de vinte e quatro segundos para cada ataque. Que problema a liga queria acabar?",
+    "resposta": "Times que seguravam a bola sem arremessar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shot_clock"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Shot_clock",
+        "situacao": "ok",
+        "texto": "A shot clock is a countdown timer used in a variety of games and sports, indicating a set amount of time that a team may possess the object of play before attempting to score a goal. Shot clocks are used in several sports including basketball, water polo, canoe polo, lacrosse, poker, ringette, korfball, tennis, ten-pin bowling, and various cue sports. It is analogous with the play clock used in Am\n[…]\nThe shot clock is a digital clock that displays a number of seconds or not. The shot clock is usually displayed above the backboard behind each goal, allowing offensive players to see precisely how much time they have to shoot and officials to easily determine whether buzzer beaters should be counted. The NBA specifies that a transparent shot clock and game clock that displays said times on both sides be part of the backboard assembly, and FIBA, EuroLeague, and many venues use this arrangement.\n[…]\nA value of 0.0 on the shot clock itself\n[…]\nIn 1954 in Syracuse, New York, Syracuse Nationals (now the Philadelphia 76ers) owner Danny Biasone and general manager Leo Ferris experimented with a 24-second shot clock during a scrimmage. Jack Andrews, longtime basketball writer for The Syracuse Post-Standard, often recalled how Ferris would sit at Danny Biasone's Eastwood bowling alley, scribbling potential shot clock formulas onto a napkin.\n[…]\nAccording to Biasone, \"I looked at the box scores from the games I enjoyed, games where they didn't screw around and stall. I noticed each team took about 60 shots. That meant 120 shots per game. So I took 2,880 seconds (48 minutes) and divided that by 120 shots. The result was 24 seconds per shot.\" Ferris was singled out by business manager Bob Sexton at the 1954 team banquet for pushing the shot clock rule.\n[…]\nAmerican collegiate basketball uses a 30-second shot clock, while Canadian university basketball uses a 24-second clock.\n[…]\n24 Seconds to Shoot snopes.com"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Dream Team",
+      "descricao": "Seleção masculina de basquete dos Estados Unidos nos Jogos Olímpicos de Barcelona, em 1992, a primeira com astros da NBA."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que astros como Michael Jordan e Magic Johnson só disputaram uma Olimpíada a partir de 1992?",
+    "resposta": "A FIBA passou a aceitar jogadores profissionais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team",
+        "situacao": "ok",
+        "texto": "The men's national basketball team of the United States competed at the 1992 Summer Olympics in Barcelona, Spain, and won the gold medal. Nicknamed the \"Dream Team\", it was the first American Olympic team to include active professional players from the National Basketball Association (NBA). Team USA defeated its opponents by an average of 44 points during the tournament. The team has often been de\n[…]\nBefore the 1992 Olympics, FIBA rules barred players from the United States' National Basketball Association from participating in Olympic tournaments, and only amateurs were eligible for the U.S. Olympic teams, which were composed of collegiate and, especially in the 1950s, AAU players. Other countries used their best players from their domestic professional leagues. In the 1988 Summer Olympics, the Americans lost to the USSR and settled for bronze, their worst finish in the history of the Games.\n[…]\nThe first ten players for the team were selected on September 21, 1991: Michael Jordan and Scottie Pippen of the Chicago Bulls, John Stockton and Karl Malone of the Utah Jazz, Magic Johnson of the Los Angeles Lakers, Larry Bird of the Boston Celtics, Patrick Ewing of the New York Knicks, Chris Mullin of the Golden State Warriors, David Robinson of the San Antonio Spurs, and Charles Barkley of the Philadelphia 76ers.\n[…]\nSports Illustrated later stated that the Dream Team was \"arguably the most dominant squad ever assembled in any sport\" and compared it to \"Johnny Cash at Folsom Prison, the Allman Brothers at the Fillmore East, Santana at Woodstock.\" In 2009, the team was elected to the U.S. Olympic & Paralympic Hall of Fame. The following year, the team was elected to the Naismith Memorial Basketball Hall of Fame. It was elected to the FIBA Hall of Fame in 2017.\n[…]\nOlympics statistics at FIBA.com\n[…]\n1992 Dream Team: Classic Photos Archived February 12, 2014, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dream_Team",
+        "situacao": "ok",
+        "texto": "O Dream Team foi a seleção de basquetebol dos Estados Unidos que foi campeã da Olimpíada de Barcelona em 1992. Esse time era formado por grandes astros da NBA e foi campeão invicto sem perder nenhum tempo. Durante todo o torneio, ganhou as partidas com uma diferença de, no mínimo, 32 pontos.\n[…]\nApesar de contar com nomes que despontaram na NBA e com David Robinson que fez parte do Dream Team, os Estados Unidos escalavam apenas jogadores amadores e universitários nas competições internacionais sendo que a FIBA que proibia a participação dos profissionais.\n[…]\nA imprensa rapidamente passou a chamar a equipe de Dream Team (português: Time dos Sonhos), o técnico Chuck Daly chegou a afirmar \"é como ter Elvis e Beatles juntos\".. De fato, a elenco de atletas convocados pra formar aquela equipe foi marcante para todos os espectadores do mundo, uma vez que nunca se vira uma Seleção de Basquete com tantos craques reunidos.\n[…]\nAlém disso, provavelmente nunca houve uma mesma geração composta por tantos craques de tão alto nível ao mesmo tempo, sendo aquela uma equipe que pode contar com Magic Johnson, Larry Bird, Scottie Pippen e, além de tudo, com o tido como melhor jogador de basquete de todos os tempos, Michael Jordan em pleno auge, algo que dificilmente poderá ser igualado um dia.\n[…]\nFontes: hoophall.com e halloffame.fiba.com respectivamente.\n[…]\nDuas seleções americanas cheias de astros da NBA foram batizadas \"Dream Team II\" (Mundial de Toronto 1994, campeã com uma equipe de jovem) e \"Dream Team III\" (Olimpíada de Atlanta 1996, ouro com uma equipe que incluía cinco membros do Dream Team original, Charles Barkley, Scottie Pippen, Karl Malone, John Stockton e David Robinson). No mundial de Atenas 1998, um lockout da NBA impediu a participação de profissionais na seleção americana.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Dream Team",
+      "descricao": "Seleção masculina de basquete dos Estados Unidos nos Jogos Olímpicos de Barcelona, em 1992, a primeira com astros da NBA."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Ao lado de onze astros da NBA, o Dream Team de 1992 tinha um único jogador universitário. Quem era ele?",
+    "resposta": "Christian Laettner",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team",
+      "https://en.wikipedia.org/wiki/Christian_Laettner"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team",
+        "situacao": "ok",
+        "texto": "The men's national basketball team of the United States competed at the 1992 Summer Olympics in Barcelona, Spain, and won the gold medal. Nicknamed the \"Dream Team\", it was the first American Olympic team to include active professional players from the National Basketball Association (NBA). Team USA defeated its opponents by an average of 44 points during the tournament. The team has often been de\n[…]\nOn the cover of its issue of February 18, 1991, Sports Illustrated labeled the forthcoming American roster as the \"Dream Team\".\n[…]\nOn May 12, 1992, Clyde Drexler of the Portland Trail Blazers was chosen over Isiah Thomas of the Detroit Pistons for the final professional roster spot. As an acknowledgment to the previous amateur system, the U.S. basketball committee decided to include one collegiate player on the team: Christian Laettner of Duke University was added on May 12, 1992, chosen over Louisiana State University's Shaquille O'Neal.\n[…]\nThe selection committee considered several college players, including Harold Miner, Jimmy Jackson, and Alonzo Mourning in addition to Shaquille O'Neal and Christian Laettner. O'Neal was the number-one pick in the 1992 NBA draft, but Laettner's Duke Blue Devils teams won consecutive National Championships in 1991 and 1992.\n[…]\nCoached by Mike Krzyzewski, who also was a first-time assistant coach for the Olympic program, Laettner was the Naismith College Player of the Year and scored the game-winning basket as time expired in the 1992 NCAA Eastern Regional final. Although O'Neal was a two-time Consensus NCAA First Team All-American in 1991 and 1992, his team lost in the second round of the 1992 NCAA men's tournament. Laettner's college success and coach's endorsement ultimately secured his position on the team.\n[…]\nGlobal interest in basketball soared due to the Dream Team.\n[…]\n1992 Dream Team: Classic Photos Archived February 12, 2014, at the Wayback Machine"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Christian_Laettner",
+        "situacao": "ok",
+        "texto": "Christian Donald Laettner (, LAYT-nər; born August 17, 1969) is an American former professional basketball player. His college career for the Duke Blue Devils is widely regarded as one of the best in National Collegiate Athletic Association (NCAA) history. He was the star player on back-to-back Duke National Championship teams of 1991 and 1992, and the NCAA player of the year in his senior year.\n[…]\nLaettner was widely reviled by opposing fans throughout his career, to the extent that more than 20 years after graduating from Duke, he was voted the most hated college basketball player in history in an ESPN online poll. This led to ESPN's creation of the 30 for 30 documentary I Hate Christian Laettner that explored five factors that the filmmakers believe explain this widespread and persistent hatred: race, privilege, bullying, greatness, and physical appearance.\n[…]\nAs the national player of the year, Laettner was the only collegian selected for the prestigious \"Dream Team\" that won the 1992 Olympic gold medal in a dominant fashion. He averaged 4.8 points per game. The team is considered one of the greatest in sports history and was inducted into the U.S. Olympic Hall of Fame, FIBA Hall of Fame, and the Naismith Memorial Basketball Hall of Fame.\n[…]\nLaettner maintains a close friendship with Duke teammate Brian Davis. They have pursued several business ventures together, including real-estate development in Durham, a Major League Soccer team, and an unsuccessful attempt to purchase the Memphis Grizzlies. Some legal problems, primarily regarding unpaid debts, have also occurred. In 2010, Laettner was enshrined in the Naismith Memorial Basketball Hall of Fame as a member of the 1992 Dream Team.\n[…]\nLaettner is the only player of the team who has not been inducted into the Hall of Fame individually.\n[…]\nLaettner has donated large sums to his alma maters.\n[…]\nConsensus first-team All-American (1992)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dream_Team",
+        "situacao": "ok",
+        "texto": "O Dream Team foi a seleção de basquetebol dos Estados Unidos que foi campeã da Olimpíada de Barcelona em 1992. Esse time era formado por grandes astros da NBA e foi campeão invicto sem perder nenhum tempo. Durante todo o torneio, ganhou as partidas com uma diferença de, no mínimo, 32 pontos.\n[…]\nA imprensa rapidamente passou a chamar a equipe de Dream Team (português: Time dos Sonhos), o técnico Chuck Daly chegou a afirmar \"é como ter Elvis e Beatles juntos\".. De fato, a elenco de atletas convocados pra formar aquela equipe foi marcante para todos os espectadores do mundo, uma vez que nunca se vira uma Seleção de Basquete com tantos craques reunidos.\n[…]\nO time poderia ter sido ainda mais forte, mas o armador Isiah Thomas do Detroit Pistons fora cortado por influência nos bastidores de Magic Johnson, o qual acabara de ter sérias desavenças com ele.\n[…]\nDuas seleções americanas cheias de astros da NBA foram batizadas \"Dream Team II\" (Mundial de Toronto 1994, campeã com uma equipe de jovem) e \"Dream Team III\" (Olimpíada de Atlanta 1996, ouro com uma equipe que incluía cinco membros do Dream Team original, Charles Barkley, Scottie Pippen, Karl Malone, John Stockton e David Robinson). No mundial de Atenas 1998, um lockout da NBA impediu a participação de profissionais na seleção americana.\n[…]\nOutro time de astros da NBA recebeu o ouro em Sydney 2000, mas em seguida a seleção americana afundou em casa no mundial de Indianápolis 2002, e uma seleção cheia de desfalques em Atenas 2004 sofreu duas derrotas na primeira fase (Porto Rico e Lituânia) antes de perder a semifinal para a Argentina e ficar apenas com o bronze. Como referência a tanto a campanha desastrosa de 2004 e a vitoriosa de 1992, a estrelada equipe campeã em Pequim 2008 foi apelidada \"Redeem Team\" (\"Time da Redenção\").",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Oscar Schmidt",
+      "descricao": "Jogador brasileiro de basquete, o Mão Santa."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Oscar Schmidt teve a chance de ir para a NBA nos anos oitenta, mas recusou. Por quê?",
+    "resposta": "Para continuar jogando pela seleção brasileira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oscar_Schmidt",
+      "https://pt.wikipedia.org/wiki/Oscar_Schmidt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oscar_Schmidt",
+        "situacao": "ok",
+        "texto": "Oscar Daniel Bezerra Schmidt (February 16, 1958 – April 17, 2026), nicknamed Mão Santa (Holy Hand), was a Brazilian professional basketball player. Schmidt primarily played the power forward and small forward position, was 2.06 m (6 ft 9 in) tall and weighed 109 kg (240 lbs). Along with his home country, Schmidt also played in Italy for JuveCaserta and Pavia, and Spain for Fórum Valladolid. He was\n[…]\nSchmidt was drafted by the New Jersey Nets in the sixth round of the 1984 NBA draft, and he played with them in their 1984 NBA training camp and preseason. However, he declined the team's offer of a fully guaranteed contract, because it was for considerably less money than he was making playing in Italy, and because he wanted to continue playing for the senior Brazilian national team (until 1989, NBA players were not allowed to play for national teams).\n[…]\nSchmidt married Maria Cristina Victorino in 1981, and had a son and a daughter. He and his son Felipe, then 16 years old, played together in the former's final season in Flamengo, before Felipe became a film director. Oscar Schmidt's brother Tadeu is a journalist, and his nephew, Bruno Oscar Schmidt, is a beach volleyballer.\n[…]\nIn 2016, Schmidt took part at the opening ceremony of the 2016 Rio Summer Olympics, as one of carriers of the Olympic flag.\n[…]\nSchmidt died on April 17, 2026, at the age of 68. According to press reports, Schmidt was at home when he began to feel unwell. A SAMU ambulance was called, and he was taken to the Santa Ana Municipal Hospital and Maternity (HMSA) in Santana de Parnaíba, where he was admitted. Hours later, his death was confirmed by his press office. He was cremated wearing the jersey of the Brazilian national basketball team.\n[…]\nBrasil Youth national team: 31 (569 pts) - PPG 18,3\n[…]\nBrasil national team: 326 (7.693 pts) - PPG 23,5\n[…]\nNúmeros - Oscar Schmidt\n[…]\nRecordes - Oscar Schmidt\n[…]\nOscar Schmidt at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oscar_Schmidt",
+        "situacao": "ok",
+        "texto": "Oscar Daniel Bezerra Schmidt (Natal, 16 de fevereiro de 1958 — Santana de Parnaíba, 17 de abril de 2026) foi um basquetebolista brasileiro que atuou como ala, amplamente reconhecido como um dos maiores jogadores da história do basquete. Conhecido pela sua habilidade como pontuador, destacou-se mesmo sem atuar na National Basketball Association (NBA).\n[…]\nOscar encerrou a carreira com 49 973 pontos, dos quais 42 044 foram marcados por clubes e 7 693 pela Seleção Brasileira. Seu rendimento em equipes como Sírio e Palmeiras foram calculados através de estudos do jogador com o seu biógrafo, o jornalista e escritor Odir Cunha, autor do livro Oscar Schmidt, a história do maior ídolo do basquete brasileiro, lançado em 1996.\n[…]\nA Seleção Brasileira não assustava muito o técnico Denny Crum. A única tática necessária para garantir o ouro, segundo ele, era uma defesa forte em cima de Oscar e Marcel que, segundo o técnico, tinham uma precisão muito grande nos arremessos. No fim do primeiro tempo, o Brasil perdia por 14 pontos, sendo que chegou a ficar em desvantagem de 20 pontos no decorrer do período.\n[…]\nA notícia de sua morte foi dada em primeira mão pela rede de rádios Transamérica Media Company (TMC) em suas redes sociais, seguida do portal esportivo Lance!. A assessoria e a família só informaram oficialmente o falecimento por volta das 16 horas através de uma nota oficial, confirmando também uma cerimônia restrita de velório e sepultamento sem divulgar o local. Oscar foi cremado no dia posterior à sua morte (18) em um local não divulgado usando a camisa da Seleção Brasileira de Basquetebol.\n[…]\nCampeonato Brasileiro: 1979\n[…]\nCampeonato Brasileiro: 1996\n[…]\nSegundo jogador que mais vezes vestiu a camisa da Seleção Brasileira em Campeonatos Mundiais - 33 (atrás apenas de Ubiratan, com 34)\n[…]\nMaior cestinha da história da Seleção Brasileira – 7 693 pontos"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Oscar Schmidt",
+      "descricao": "Jogador brasileiro de basquete, o Mão Santa."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 1984, qual time da NBA escolheu Oscar Schmidt no draft?",
+    "resposta": "New Jersey Nets",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oscar_Schmidt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oscar_Schmidt",
+        "situacao": "ok",
+        "texto": "Oscar Daniel Bezerra Schmidt (February 16, 1958 – April 17, 2026), nicknamed Mão Santa (Holy Hand), was a Brazilian professional basketball player. Schmidt primarily played the power forward and small forward position, was 2.06 m (6 ft 9 in) tall and weighed 109 kg (240 lbs). Along with his home country, Schmidt also played in Italy for JuveCaserta and Pavia, and Spain for Fórum Valladolid. He was\n[…]\nSchmidt led the Italian top division in scoring six times, while he was a member of JuveCaserta (1983–84, 1984–85, 1985-86, 1986–87, 1988–89, and 1989–90 seasons). JuveCaserta eventually retired Schmidt's #18 jersey.\n[…]\nAs a member of Pavia, Schmidt also had his highest scoring single game in the top division Italian League, as he scored 66 points in a 1991–92 season game versus Auxilium Torino, on 30 November 1991. Pavia eventually retired his #11 jersey.\n[…]\nSchmidt was drafted by the New Jersey Nets in the sixth round of the 1984 NBA draft, and he played with them in their 1984 NBA training camp and preseason. However, he declined the team's offer of a fully guaranteed contract, because it was for considerably less money than he was making playing in Italy, and because he wanted to continue playing for the senior Brazilian national team (until 1989, NBA players were not allowed to play for national teams).\n[…]\nSchmidt died on April 17, 2026, at the age of 68. According to press reports, Schmidt was at home when he began to feel unwell. A SAMU ambulance was called, and he was taken to the Santa Ana Municipal Hospital and Maternity (HMSA) in Santana de Parnaíba, where he was admitted. Hours later, his death was confirmed by his press office. He was cremated wearing the jersey of the Brazilian national basketball team.\n[…]\nRetired club jerseys: #18 JuveCaserta (1990), #11 Pavia (1993), #14 C.R. Flamengo (2003)\n[…]\nNúmeros - Oscar Schmidt\n[…]\nRecordes - Oscar Schmidt\n[…]\nOscar Schmidt at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oscar_Schmidt",
+        "situacao": "ok",
+        "texto": "Oscar Daniel Bezerra Schmidt (Natal, 16 de fevereiro de 1958 — Santana de Parnaíba, 17 de abril de 2026) foi um basquetebolista brasileiro que atuou como ala, amplamente reconhecido como um dos maiores jogadores da história do basquete. Conhecido pela sua habilidade como pontuador, destacou-se mesmo sem atuar na National Basketball Association (NBA).\n[…]\nAo longo da carreira, defendeu clubes como Palmeiras, Sírio, America-RJ e Juvecaserta, da Itália. Em 1984, foi selecionado pelo New Jersey Nets na sexta rodada do draft da NBA, mas optou por não ingressar na liga. A decisão esteve relacionada, entre outros fatores, às regras vigentes à época, que impediam jogadores da NBA de defender suas Seleções nacionais em competições internacionais.\n[…]\nApós se aposentar como jogador, Oscar Schmidt criou o Telemar/Rio de Janeiro. O clube teve curta duração, participando de torneios apenas entre 2004 e 2006.\n[…]\nEm 2 de novembro de 2023, durante participação no podcast Ticaracaticast, Schmidt referiu-se à cidade de Franca, no interior de São Paulo, como “puta lugar de merda”. A fala ocasionou imediato repúdio da população dessa cidade bem como de personalidades francanas como a empresária Luiza Trajano, o treinador de basquete Helinho e o cantor Solimões. Dois dias após a afirmação polêmica, Oscar se manifestou por meio de nota e vídeo, pedindo desculpas.\n[…]\nNa manhã do dia 17 de abril de 2026, Oscar passou mal em sua casa, em Santana de Parnaíba, e foi levado ao Hospital e Maternidade Municipal Santa Ana pelo serviço de resgate, já em parada cardiorrespiratória, chegando à unidade sem vida. Ele havia passado por uma cirurgia recentemente em decorrência do tratamento do câncer no cérebro.\n[…]\n«Página oficial de Oscar Schmidt»\n[…]\n«Números de Oscar Schmidt»\n[…]\nBiografia de Oscar Schmidt",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Magic Johnson",
+      "descricao": "Armador americano do Los Angeles Lakers, cinco vezes campeão da NBA nos anos 1980."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em novembro de 1991, Magic Johnson anunciou de surpresa que deixaria as quadras. Qual foi o motivo?",
+    "resposta": "Ele era portador do vírus HIV",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magic_Johnson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Magic_Johnson",
+        "situacao": "ok",
+        "texto": "Earvin \"Magic\" Johnson Jr. (born August 14, 1959) is an American businessman and former professional basketball player. He is widely regarded as the greatest point guard of all time and one of the greatest basketball players in history. Johnson spent his entire career with the Los Angeles Lakers in the National Basketball Association (NBA).\n[…]\nAfter announcing his infection in November 1991, Johnson created the Magic Johnson Foundation to help combat HIV, although he later diversified the foundation to include other charitable goals. In 1992, he joined the National Commission on AIDS, a committee appointed by members of Congress and the Bush Administration.\n[…]\nTo prevent his HIV infection from progressing to AIDS, Johnson takes a daily combination of antiretroviral drugs, blocking and containing the virus. He has advertised GlaxoSmithKline's drugs, and partnered with Abbott Laboratories to publicize the fight against AIDS in African American communities.\n[…]\nGutman, Bill (1991). Magic: More Than a Legend. New York: Harper Paperbacks. ISBN 0-06-100542-8.\n[…]\nMorgan, Bill (1991). The Magic: Earvin Johnson. Scholastic. ISBN 0-606-01895-6.\n[…]\nRosner, Mark (1999). Michael MacCambridge (ed.). Earvin \"Magic\" Johnson: The Star of Showtime. New York: Hyperion ESPN Books. pp. 251–52. (In ESPN SportsCentury)\n[…]\nGottfried, Ted (2001). Earvin Magic Johnson: Champion and Crusader. New York: F. Watts. ISBN 0-531-11675-1.\n[…]\nJohnson, Earvin \"Magic\" (1992). Magic's Touch: From Fundamentals to Fast Break With One of Basketball's All-Time Greats. Reading, Massachusetts: Addison-Wesley Pub. Co. ISBN 0-201-63222-5.\n[…]\nJohnson, Earvin \"Magic\" (1996). What You Can Do to Avoid AIDS. New York: Times Books. ISBN 0-8129-2844-X.\n[…]\nUpdated version of Johnson, Earvin \"Magic\" (1992). Unsafe Sex in the Age of AIDS. New York: Times Books. ISBN 0-8129-2063-5.\n[…]\nMagic Johnson on X"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Magic_Johnson",
+        "situacao": "ok",
+        "texto": "Earvin \"Magic\" Johnson Jr. (Lansing, 14 de agosto de 1959) é um empresário e comentarista esportivo norte-americano. É mais conhecido pela sua carreira como basquetebolista na National Basketball Association (NBA), na qual foi armador, técnico por um curto período em 1994 ficando de fora dos Playoffs daquela temporada e, posteriormente, presidente de operações desportivas do Los Angeles Lakers. É \n[…]\nApós sua aposentadoria, tornou-se um porta-voz do sexo seguro e da prevenção contra o HIV e a AIDS. Em 1991, ele criou a Fundação Magic Johnson, que busca auxiliar as pessoas no combate à doença.\n[…]\nJohnson afirmou que nem sua esposa Cookie nem o seu filho, que ainda não havia nascido, portavam o vírus, e que ele dedicaria a sua vida para \"combater essa doença mortal\". Inicialmente, Earvin afirmou que ele não sabia como contraiu a doença; posteriormente, ele viria a descobrir que foi através de ter tido múltiplas parceiras sexuais durante sua carreira.\n[…]\nÀ época, porém, apenas uma pequena porcentagem de portadores do vírus havia contraído o vírus através de sexo heterossexual, o que gerou especulações de que Johnson era homo ou bissexual, negadas por ele. Posteriormente, ele viria a acusar Isiah Thomas de espalhar os rumores, fato que Thomas negou. O anúncio de Johnson se tornou uma das principais notícias dos Estados Unidos e, em 2004, foi escolhida pela ESPN como o sétimo momento mais memorável dos 25 anos passados.\n[…]\nApós anunciar que havia contraído o vírus do HIV em novembro de 1991, Earvin criou as Fundações Magic Johnson, para auxiliar no combate ao vírus. Algum tempo depois, ele diversificou as atividades da fundação, incluindo objetivos de caridade e atuação junto a comunidades. Em 1992, ele se juntou à Comissão Nacional sobre AIDS, mas a deixou após oito meses, afirmando que a comissão não estava fazendo o suficiente para combater a doença.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Hack-a-Shaq",
+      "descricao": "Tática de basquete de cometer faltas propositais num jogador que erra muitos lances livres."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na tática apelidada de Hack-a-Shaq, os adversários faziam faltas de propósito em Shaquille O'Neal. Por quê?",
+    "resposta": "Ele errava muitos lances livres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hack-a-Shaq"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hack-a-Shaq",
+        "situacao": "ok",
+        "texto": "The Hack-a-Shaq is a basketball defensive strategy used in the National Basketball Association (NBA) that involves committing intentional fouls (originally a clock management strategy) for the purpose of lowering opponents' scoring. The strategy was originally adapted by Dallas Mavericks coach Don Nelson, who directed players to commit personal fouls throughout the game against selected opponents \n[…]\nHowever, once Nelson's off-the-ball fouling strategy became prevalent, the term Hack-a-Shaq was applied to this new tactic and the original usage was largely forgotten.\n[…]\nO'Neal's free throw percentage peaked at 62.2% in the 2002–03 season.\n[…]\nDuring the 2008–09 preseason, O'Neal expressed his disapproval of San Antonio Spurs coach Gregg Popovich and his team's use of the Hack-a-Shaq during the first round of the 2008 playoffs.\n[…]\nAs with Chamberlain decades earlier, intentional off-the-ball fouls against O'Neal became controversial. During the 2000 NBA playoffs, both the Portland Trail Blazers and Indiana Pacers relentlessly used the Hack-a-Shaq defense against the Lakers. The NBA discussed expanding the off-the-ball foul rule to cover more than just the final two minutes of the game, or adding another rule change that would discourage the use of Hack-a-Shaq.\n[…]\nGregg Popovich used the Hack-a-Shaq strategy successfully in Game 5 of the Spurs' 2008 first round series against O'Neal and the Phoenix Suns. O'Neal made only 9 of his 20 free throws, dropping the Suns to 20-of-37 total on free throws. The Suns were eliminated from the playoffs in a 92–87 Spurs win. In May 2008, ESPN columnist John Hollinger named the use of the Hack-a-Shaq by the Spurs as the \"best tactic\" of the first two rounds of the 2008 NBA playoffs.\n[…]\n— Pistons forward Tayshaun Prince after Los Angeles Clippers coach Mike Dunleavy used the Hack-a-Shaq strategy against Pistons center Ben Wallace in December 2005"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hack-a-Shaq",
+        "situacao": "ok",
+        "texto": "Hack-a-Shaq (algo como \"ataque ao Shaq\", em tradução livre) é uma terminologia usada no basquetebol, mais especificamente na NBA, para designar as faltas propositais que mandam jogadores com aproveitamentos pífios para a linha do lance livre.\n[…]\nEsse termo foi cunhado no início dos anos 2000, quando o técnico do San Antonio Spurs, Gregg Popovich, usou esta estratégia em Shaquille O'Neal, que tinha um pífio aproveitamento nos lances livres, por acreditar que desta forma seu time teria mais chances de vencer a partida. Ele se utilizou deste artifício pois precisava que sua equipe, que estava perdendo o jogo, recuperasse a bola rapidamente e, ao mesmo tempo, evitasse que o adversário marcasse pontos.\n[…]\nTendo isso em mente, o técnico Don Nelson, na época do Dallas Mavericks, se utilizou desta artimanha em Dennis Rodman. Essa foi a maneira que ele encontrou para parar o fantástico time do Bulls dos anos 90. A estratégia de Don Nelson consistia em visar um jogador com uma má porcentagem de lances livres desde o primeiro segundo do jogo, reduzindo o poderio ofensivo do adversário fazendo faltas neste jogador ao invés de permitir a construção de uma jogada de ataque.\n[…]\nNo dia 20 de janeiro de 2016, o pivô Andre Drummond (38,5% de acertos em lances livres) do Detroit Pistons estabeleceu um novo recorde de mais arremessos livres errados numa única partida da NBA: dos 36 arremessos que ele fez, ele acertou apenas 13, superando os 22 erros de Wilt Chamberlain em dezembro de 1967. Drummond sofreu 12 faltas seguidas no terceiro período, sendo cinco delas cometidas por K.J. McDaniels em apenas nove segundos.\n[…]\nOs que são contra esta tática do ‘Hack-a-Shaq’ dizem que se trata de uma artimanha suja e anti-desportiva.\n[…]\nShaquile O'Neal",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Tabela de basquete",
+      "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos primeiros anos do basquete, por que se colocou uma tabela atrás da cesta?",
+    "resposta": "Para impedir que torcedores atrapalhassem os arremessos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Backboard_(basketball)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Backboard_(basketball)",
+        "situacao": "ok",
+        "texto": "A backboard is a piece of basketball equipment. It is a raised vertical board with an attached basket consisting of a net suspended from a hoop. It is made of a flat, rigid piece of, often Plexiglas or tempered glass which also has the properties of safety glass when accidentally shattered. It is usually rectangular as used in NBA, NCAA and international basketball. In recreational environments, a\n[…]\nIn professional and most higher college settings, the backboard is part of a portable wheeled stanchion that can be moved out of the way and stored to allow the venue to host multiple other sports and events, though in most high schools and examples such as Stanford University's Maples Pavilion and Cameron Indoor Stadium at Duke University, backboards are mounted as part of a suspended system using the venue's ceiling joists to support the goal and allow them to be put out of the way in the ceiling support system via a system of pulleys when not in use, along with the more common wall-mounted system.\n[…]\nPractice or gym class-utilized sideline backboards are generally of the permanently wall-mounted variety, and usually have opaque fiberglass or thick metal boards instead, along with most outdoor municipal park boards.\n[…]\nIn intervening years, the portable stanchion containing the backboard has also taken on cabling and sensors within its core, along with the structure of a game clock and shot clock above it, which makes the setup of one as involved as an arena's basketball floor, to the point of requiring a replacement backboard being on standby if it and/or the rim is ever taken out of level or broken.\n[…]\nProfessional glass backboards used to break from 625 pounds (283 kg) of force or more. Modern professional and higher-level college play backboards do not have the glass absorbing any weight to avoid breaking the glass and backboard as a whole."
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Tim Duncan",
+      "descricao": "Ala-pivô nascido nas Ilhas Virgens Americanas, cinco vezes campeão da NBA pelo San Antonio Spurs."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na adolescência, Tim Duncan treinava para ser nadador nas Ilhas Virgens. Que acontecimento de 1989 o fez trocar a natação pelo basquete?",
+    "resposta": "O furacão Hugo, que destruiu a piscina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tim_Duncan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tim_Duncan",
+        "situacao": "ok",
+        "texto": "Timothy Theodore Duncan (born April 25, 1976) is an American former professional basketball player and coach who spent his entire 19-year career with the San Antonio Spurs in the National Basketball Association (NBA). Nicknamed \"the Big Fundamental\", he is widely considered the greatest power forward of all time and one of the greatest players in NBA history, and was a central contributor to the f\n[…]\nBorn and raised on Saint Croix in the U.S. Virgin Islands, Duncan initially aspired to be a competitive swimmer, but took up basketball at 14 after Hurricane Hugo destroyed the island's only Olympic-sized pool. In high school, he played basketball for St. Dunstan's Episcopal. In college, Duncan played for the Wake Forest Demon Deacons, and in his senior year, he received the John Wooden Award and was named the Naismith College Player of the Year and the USBWA College Player of the Year.\n[…]\nIn 1989, after Hurricane Hugo destroyed the island's only Olympic-sized swimming pool, Duncan was forced to swim in the ocean instead, and his fear of sharks ruined his enthusiasm for the sport. He was dealt another emotional blow when his mother died of breast cancer on April 24, 1990, the day before his 14th birthday. On her deathbed, she made Duncan and his sisters promise that they would graduate from college, which played a part in Duncan's later refusal to leave college early for the NBA.\n[…]\nTorres, John Albert (2002). Sports Great Tim Duncan. Enslow. ISBN 978-0-7660-1766-5.\n[…]\nRoselius, J Chris (2006). Tim Duncan: Champion on And Off the Court. Enslow Publishers. ISBN 978-0-7660-2821-0.\n[…]\nLeary, Mark R.; Bednarski, Mark; Hammon, Dudley; Duncan, Timothy (1997). \"Blowhards, Snobs, and Narcissists\". Aversive Interpersonal Behaviors. New York, NY: Springer. pp. 111–131. doi:10.1007/978-1-4757-9354-3. ISBN 978-0-306-45611-4. Retrieved April 2, 2025."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tim_Duncan",
+        "situacao": "ok",
+        "texto": "Timothy Theodore \"Tim\" Duncan (Christiansted, 25 de abril de 1976) é um ex-basquetebolista e treinador norte-americano que jogava como ala-pivô na National Basketball Association (NBA) pelo San Antonio Spurs.\n[…]\nReconhecido como um defensor de elite, Duncan foi escolhido 15 vezes para o Melhor Time de Defesa da NBA, três mais do que qualquer outro jogador na história da liga. Além de seu desempenho defensivo, foi aclamado pela sua execução \"quase infalível\" dos fundamentos do basquete, que lhe renderam o apelido de The Big Fundamental.\n[…]\nDuncan nasceu e cresceu nas Ilhas Virgens Americanas, sendo o caçula de duas irmãs mais velhas. Como a irmã do meio Tricia foi para os Jogos Olímpicos de Verão de 1988 praticando natação, Tim também se interessava por esse esporte. Porém após a destruição da única piscina olímpica das ilhas pelo Furacão Hugo em 1989, Tim foi forçado a nadar no mar e desanimou-se por ter medo dos tubarões. Inspirado por seu cunhado, decidiu jogar basquete.\n[…]\nTim Duncan estudou na Universidade de Wake Forest, na Carolina do Norte. Como sua mãe pediu no leito de morte que Duncan e as irmãs se formassem no ensino superior, Duncan ficou todos os quatro anos na faculdade, se formando em psicologia enquanto jogava no time de basquete. Foi escolhido por 3 vezes como o Melhor Jogador da Conferência ACC, e eleito o Melhor Jogador Universitário na temporada 1997.\n[…]\nEm Novembro de 2010, na metade do terceiro quarto de um jogo entre Spurs e Jazz, Duncan após dois lances-livre passou David Robinson como maior pontuador da franquia na NBA, pois George Gervin é o maior juntando os tempos da ABA e NBA com 23602 pontos.\n[…]\nPágina oficial de Tim Duncan na NBA.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Final olímpica de basquete de 1972",
+      "descricao": "Decisão do basquete masculino nos Jogos de Munique, vencida pela União Soviética sobre os Estados Unidos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em Munique, em 1972, qual seleção derrotou os Estados Unidos na final e acabou com a invencibilidade americana no basquete olímpico?",
+    "resposta": "União Soviética",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basketball_at_the_1972_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basketball_at_the_1972_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Basketball contests at the 1972 Summer Olympics was the eighth appearance of the sport of basketball as an official Olympic medal event. It took place at Rudi-Sedlmayer-Halle in Munich, Germany from 27 August to 9 September. The Soviet Union controversially won the gold medal game against the United States. This was the first time that the United States did not win a gold medal since the sport's i\n[…]\nFor the team rosters see: Basketball at the 1972 Summer Olympics – Men's team rosters.\n[…]\n\"1972 Olympic Games: Tournament for Men\". Results Archive. FIBA. 2009. Retrieved 12 June 2015.{{cite web}}:  CS1 maint: deprecated archival service (link)\n[…]\n\"1972 Pre-Olympic Basketball Tournament\". Results Archive. FIBA. 2009. Archived from the original on 14 June 2015. Retrieved 12 June 2015.\n[…]\n\"1972 European Olympic Qualifying Tournament\". Results Archive. FIBA. 2009. Archived from the original on 23 May 2024. Retrieved 12 June 2015."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1972",
+        "situacao": "ok",
+        "texto": "O basquetebol nos Jogos Olímpicos de Verão de 1972 foi realizado em Munique, na Alemanha Ocidental, com 16 equipes na disputa.\n[…]\nA fórmula de disputa do torneio olímpico foi o mesmo das duas últimas edições em Tóquio 1964 e Cidade do México 1968. As 16 equipes foram divididas em dois grupos de oito equipes cada. Os dois mais bem colocados avançavam as semi-finais.\n[…]\nOs Jogos de 1972 marcaram a primeira vez em que a equipe dos Estados Unidos não faturaram a medalha de ouro desde a introdução do basquete em 1936. Na final a equipe americana perdeu para a rival União Soviética por 51-50. Este foi um resultado controverso, e o time norte-americano jamais aceitou a medalha de prata.\n[…]\nEsta foi a primeira vez em que os norte-americanos não ganharam a medalha de ouro no basquete. A partida final, entre URSS e EUA foi controversa. Os EUA viraram a partida nos últimos segundos, ganhando de 50-49. Renato William Jones, figura proeminente da FIBA na época, ordenou que houvesse mais três segundos de partida, alegando um mau funcionamento dos relógios que cronometravam o tempo. Foi o suficiente para que os soviéticos virassem o jogo, vencendo de 51-50.\n[…]\nJones não tinha autoridade para fazer tal mudança no jogo, mas seu prestígio era tal que os árbitros acataram a ordem. Os jogadores norte-americanos jamais aceitaram a prata. Uma revisão da arbitragem e do resultado da partida não foi possível na época em virtude da bipolarização da Guerra Fria: os revisores eram, em sua maioria, pró-União Soviética.\n[…]\n(em inglês) Relatório oficial dos Jogos Olímpicos de Munique 1972",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Final olímpica de basquete de 1972",
+      "descricao": "Decisão do basquete masculino nos Jogos de Munique, vencida pela União Soviética sobre os Estados Unidos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Após a final olímpica de 1972, os jogadores americanos se recusaram a receber a medalha de prata. Por quê?",
+    "resposta": "Protesto contra a repetição dos segundos finais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basketball_at_the_1972_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basketball_at_the_1972_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Basketball contests at the 1972 Summer Olympics was the eighth appearance of the sport of basketball as an official Olympic medal event. It took place at Rudi-Sedlmayer-Halle in Munich, Germany from 27 August to 9 September. The Soviet Union controversially won the gold medal game against the United States. This was the first time that the United States did not win a gold medal since the sport's i\n[…]\nFor the team rosters see: Basketball at the 1972 Summer Olympics – Men's team rosters.\n[…]\n\"1972 Olympic Games: Tournament for Men\". Results Archive. FIBA. 2009. Retrieved 12 June 2015.{{cite web}}:  CS1 maint: deprecated archival service (link)\n[…]\n\"1972 Pre-Olympic Basketball Tournament\". Results Archive. FIBA. 2009. Archived from the original on 14 June 2015. Retrieved 12 June 2015.\n[…]\n\"1972 European Olympic Qualifying Tournament\". Results Archive. FIBA. 2009. Archived from the original on 23 May 2024. Retrieved 12 June 2015."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1972",
+        "situacao": "ok",
+        "texto": "O basquetebol nos Jogos Olímpicos de Verão de 1972 foi realizado em Munique, na Alemanha Ocidental, com 16 equipes na disputa.\n[…]\nA fórmula de disputa do torneio olímpico foi o mesmo das duas últimas edições em Tóquio 1964 e Cidade do México 1968. As 16 equipes foram divididas em dois grupos de oito equipes cada. Os dois mais bem colocados avançavam as semi-finais.\n[…]\nOs Jogos de 1972 marcaram a primeira vez em que a equipe dos Estados Unidos não faturaram a medalha de ouro desde a introdução do basquete em 1936. Na final a equipe americana perdeu para a rival União Soviética por 51-50. Este foi um resultado controverso, e o time norte-americano jamais aceitou a medalha de prata.\n[…]\nEsta foi a primeira vez em que os norte-americanos não ganharam a medalha de ouro no basquete. A partida final, entre URSS e EUA foi controversa. Os EUA viraram a partida nos últimos segundos, ganhando de 50-49. Renato William Jones, figura proeminente da FIBA na época, ordenou que houvesse mais três segundos de partida, alegando um mau funcionamento dos relógios que cronometravam o tempo. Foi o suficiente para que os soviéticos virassem o jogo, vencendo de 51-50.\n[…]\nJones não tinha autoridade para fazer tal mudança no jogo, mas seu prestígio era tal que os árbitros acataram a ordem. Os jogadores norte-americanos jamais aceitaram a prata. Uma revisão da arbitragem e do resultado da partida não foi possível na época em virtude da bipolarização da Guerra Fria: os revisores eram, em sua maioria, pró-União Soviética.\n[…]\n(em inglês) Relatório oficial dos Jogos Olímpicos de Munique 1972",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Stephen Curry",
+      "descricao": "Armador americano do Golden State Warriors, famoso pelos arremessos de três pontos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Stephen Curry e LeBron James nasceram na mesma cidade do estado de Ohio. Qual?",
+    "resposta": "Akron",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stephen_Curry",
+      "https://en.wikipedia.org/wiki/LeBron_James"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Stephen_Curry",
+        "situacao": "ok",
+        "texto": "Wardell Stephen Curry II ( STEF-ən; born March 14, 1988), also known as Steph Curry ( STEF), is an American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA), where he plays as a point guard. Nicknamed \"Chef Curry\", he is widely regarded as the greatest shooter in basketball history and one of the greatest players of all time. He is credited \n[…]\nCurry was born on March 14, 1988, at Summa Health Akron Campus in downtown Akron, Ohio. His father, Wardell Stephen \"Dell\" Curry Sr. was a professional basketball player, and his mother, Sonya Alicia Curry (née Adams), is an educator and author. He grew up in Charlotte, North Carolina, where his father spent most of his NBA career with the Charlotte Hornets.\n[…]\nHe joined LeBron James, Magic Johnson, and Michael Jordan as the only players in history to win at least two league MVP awards, two All-Star MVP awards, and a Finals MVP award in a career. On February 27, Curry put up 56 points on 16-of-25 shooting, including 12 made three-pointers, in a 121–115 road win over the Orlando Magic. He outscored the Magic 22–21 in the third quarter and notched his third 50-point game after turning 35 years old, the most in NBA history.\n[…]\nCurry is one of the most successful players in the NBA, and has also become an international celebrity, on par with four-time MVP LeBron James. Like James, he has been considered the face of the NBA, but has said that he is not motivated by that and is not looking \"to take LeBron's throne or whatever. You know, I'm trying to chase rings, and that's all I'm about.\n[…]\nIn May 2025, Curry and his wife were named in Time's inaugural list of the most influential people in philanthropy.\n[…]\nI-77 Exit 30 renamed \"The Stephen Curry Interchange\": 2023\n[…]\nStephen Curry at FIBA\n[…]\nStephen Curry at USA Basketball\n[…]\nStephen Curry at Team USA"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/LeBron_James",
+        "situacao": "ok",
+        "texto": "LeBron Raymone James (born December 30, 1984) is an American professional basketball player for the Philadelphia 76ers of the National Basketball Association (NBA). Nicknamed \"King James\", he is the NBA's all-time leading scorer and has won four NBA championships from 10 NBA Finals appearances, including eight consecutive appearances between 2011 and 2018. He has won three Olympic gold medals as a\n[…]\nLeBron Raymone James was born on December 30, 1984, at Summa Health Akron Campus in Akron, Ohio, to 16-year-old Gloria Marie James. His father, Anthony McClelland, who had an extensive criminal record including arson and theft, was not involved in James's life. During James's childhood, the family often struggled, moving between apartments in the more run‑down neighborhoods of Akron while Gloria sought steady employment.\n[…]\nDuring the same year, the LeBron James Family Foundation partnered with Crypto to educate underserved Akron communities about blockchains and Web3 tools.\n[…]\nJames has maintained close ties to his hometown of Akron, Ohio, which is also where his charity foundation, the LeBron James Family Foundation (LJFF), is based. Since 2005, the foundation has held an annual bike-a-thon to raise money for various causes. In 2015, James announced a partnership with the University of Akron to provide scholarships for up to 2,300 children beginning in 2021. In 2017, he received the J.\n[…]\nJames owns a 30,000 square foot (2,787 m2) mansion in Akron, Ohio, that he custom-built in 2003 at a cost of $2.1 million. During his stint with the Heat, James lived in Coconut Grove, where he bought a $9 million three-story mansion overlooking Biscayne Bay. In November 2015, he bought a 9,350 square-foot (869 m2) East Coast-style mansion in Brentwood, Los Angeles, for $21 million. He purchased another home in Brentwood in December 2017 for $23 million.\n[…]\nLeBron James Home Court Museum in Akron, Ohio"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Stephen_Curry",
+        "situacao": "ok",
+        "texto": "Wardell Stephen Curry II (Akron, 14 de março de 1988) é um basquetebolista norte-americano que atua como armador no Golden State Warriors, da National Basketball Association. Muitos jogadores e analistas o consideram como o melhor arremessador da história do esporte. Acredita-se que ele tenha revolucionado o jogo de basquete, inspirando as equipes a empregar a cesta de três pontos com mais frequên\n[…]\nWardell Stephen Curry II é filho de Sonya (nascida Adams) Curry e Dell Curry. Ele nasceu em Akron, Ohio, enquanto seu pai era um jogador do Cleveland Cavaliers. Ele cresceu em Charlotte, Carolina do Norte, onde seu pai passou a maior parte de sua carreira na NBA, defendendo as cores do Charlotte Hornets. Dell costumava levar Stephen e seu irmão mais novo Seth para seus jogos. A família mudou-se brevemente para Toronto, Canadá onde Dell terminou sua carreira como jogador do Toronto Raptors.\n[…]\nNo dia 15 de março de 2021, o camisa 30 se tornou o jogador que mais deu assistência na história do Golden State Warriors. Foi na derrota de 128 a 97 para o Los Angeles Lakers, de LeBron James. Curry deu apenas 2 assistências na partida, mas já foi o suficiente para bater a marca anterior de Guy Rodgers de 4.855 assistências. Com as duas daquela noite, Steph somou 4.856, uma a mais que Rodgers.\n[…]\nSteph foi eleito titular para seu oitavo NBA All-Star Game, realizado em 20 de fevereiro em Cleveland. Curry foi escolhido por LeBron James para o time dele, o Team LeBron derrotou o Team Durant por 163-160.\n[…]\nAlém disso, Ray Allen precisou de 7 429 tentativas para alcançar o recorde, enquanto Curry chutou 6 891 para igualar e duas a mais para passar a marca. São 538 arremessos a menos. Estes são números da temporada regular. Nos playoffs, Curry também é maior pontuador de perímetro da história, com 561 cestas em 1 400 arremessos (40,1%). Allen é o terceiro, com 385, atrás de LeBron James, com 432.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Larry Bird",
+      "descricao": "Ala americano do Boston Celtics, três vezes campeão da NBA nos anos 1980."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes da rivalidade entre Celtics e Lakers, Larry Bird e Magic Johnson já tinham se enfrentado em qual decisão de 1979?",
+    "resposta": "A final do campeonato universitário americano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Larry_Bird",
+      "https://en.wikipedia.org/wiki/Magic_Johnson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Larry_Bird",
+        "situacao": "ok",
+        "texto": "Larry Joe Bird (born December 7, 1956) is an American former professional basketball player, coach, and executive in the National Basketball Association (NBA). Nicknamed \"the Hick from French Lick\" and \"Larry Legend\", Bird is widely regarded as one of the greatest basketball players of all time. He is the only person in NBA history to be named Rookie of the Year, Most Valuable Player, Finals MVP, \n[…]\nAccording to Bird, he grew up as a huge fan of the Indiana Pacers in the American Basketball Association (ABA) and center Mel Daniels, who represented his first exposure to professional basketball. Daniels would coincidentally become an assistant coach to Bird at Indiana State University.\n[…]\nDuring Bird's final two seasons when he had serious back problems, the Celtics went 71–28 when he played. Without Bird, they had a 30–29 record, further demonstrating his importance and game-changing ability while on the court.\n[…]\nLarry Bird and Magic Johnson are known to be \"one of the greatest rivalries in sports.\" Their rivalry began in college, when Bird and Indiana State lost to Johnson and Michigan State in the NCAA Championship game. Their rivalry continued on in the revived Celtics–Lakers rivalry in the NBA. Either the Celtics, led by Bird, or the Lakers, led by Magic, were present in every NBA Finals series in the '80s, with Bird and Magic meeting thrice.\n[…]\nHe played both the small forward and power forward positions. Universally recognized as an all-time great player, Bird was placed at the power forward position on an NBA all-time starting five roster with fellow superstars Magic Johnson (point guard), Michael Jordan (shooting guard), LeBron James (small forward), and Kareem Abdul-Jabbar (center) in 2020.\n[…]\n2× AP first team All-American (1978, 1979)\n[…]\n2× NABC first team All-American (1978, 1979)\n[…]\n2× UPI first team All-American (1978, 1979)\n[…]\nUSBWA first team All-American (1979)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Magic_Johnson",
+        "situacao": "ok",
+        "texto": "Earvin \"Magic\" Johnson Jr. (born August 14, 1959) is an American businessman and former professional basketball player. He is widely regarded as the greatest point guard of all time and one of the greatest basketball players in history. Johnson spent his entire career with the Los Angeles Lakers in the National Basketball Association (NBA).\n[…]\nDuring the 1978–79 season, Michigan State again qualified for the NCAA tournament, where they advanced to the championship game and faced Indiana State, which was led by senior Larry Bird. In what was the most-watched college basketball game ever, Michigan State defeated Indiana State 75–64, and Johnson was voted Most Outstanding Player of the Final Four. He was selected to the 1978–79 All-American team for his performance that season.\n[…]\nIn the final minute of the game, Johnson had the ball stolen by Celtics center Robert Parish, and then missed two free throws that could have won the game. The Celtics won Game 4 in overtime, and the teams split the next two games. In the decisive Game 7 in Boston, as the Lakers trailed by three points in the final minute, opposing point guard Dennis Johnson stole the ball from Johnson, a play that effectively ended the series.\n[…]\nIn the final game of the CBA series, Johnson had 30 points, 17 rebounds, and 13 assists, leading the All-Stars to a 126–121 victory over the Oklahoma City Cavalry. By the time he returned to the Lakers in 1996, the Magic Johnson All-Stars had amassed a record of 55–0, and Johnson was earning as much as $365,000 per game. Johnson played with the team frequently over the next several years, with possibly the most memorable game occurring in November 2001.\n[…]\nAP first-team All-American (1979)\n[…]\nUSBWA first-team All-American (1979)\n[…]\nNABC first-team All-American (1979)\n[…]\nUPI first-team All-American (1979)\n[…]\nMcDonald's All-American (1977)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Larry_Bird",
+        "situacao": "ok",
+        "texto": "Larry Joe Bird (West Baden Springs, Indiana, 7 de dezembro de 1956) é um ex-jogador, treinador e executivo de basquetebol da National Basketball Association (NBA) norte-americano.\n[…]\nDisputou basquete universitário pela Indiana State University, onde foi eleito o melhor jogador universitário dos Estados Unidos em 1979. Na liga universitária, tornou-se amigo e rival do armador Earvin \"Magic\" Johnson. Os dois se enfrentaram na final da Primeira Divisão da NCAA em 1979 (vencida por Johnson) e viriam a se enfrentar em três finais de NBA durante os anos 80.\n[…]\nSuas memoráveis performances pelos Sycamores da Indiana State University o alçaram ao posto de melhor jogador de basquete universitário de 1979, juntamente com outra estrela em destaque pela Michigan State University - Earvin \"Magic\" Johnson. Apropriadamente, Michigan State University e Indiana State University decidiram o Final Four (finais do basquete universitário norte-americano) em Salt Lake City, Utah, com Magic Johnson liderando seu time à vitória.\n[…]\nMuitos creditam esta ressurgência da NBA graças a Magic Johnson e Larry Bird.\n[…]\nLos Angeles sentiu o baque da derrota com o título tão próximo e não teve forças para segurar a onda verde que os atropelava - os jogadores de Boston. O barulho ensurdecedor, o calor de 40 graus em quadra e Larry Bird, \"imarcável\" no decisivo jogo 7 bateram os Lakers e trouxeram a bandeira do 15º campeonato para a catedral do Basquete. Larry Bird se consagrava como um dos maiores jogadores de todos os tempos e devolvia a derrota sofrida no universitário.\n[…]\nFIBA Americas Championship:\n[…]\nUniversíada:\n[…]\n2x All-American Team:\n[…]\nRecordes em jogos de Temporada Regular e Playoffs de Larry Bird",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Muggsy Bogues",
+      "descricao": "Armador americano de um metro e sessenta, que jogou na NBA de 1987 a 2001."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em sua primeira temporada, no Washington Bullets, o baixinho Muggsy Bogues jogou ao lado de qual pivô gigante do Sudão?",
+    "resposta": "Manute Bol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Muggsy_Bogues",
+      "https://en.wikipedia.org/wiki/Manute_Bol"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Muggsy_Bogues",
+        "situacao": "ok",
+        "texto": "Tyrone Curtis \"Muggsy\" Bogues (born January 9, 1965) is an American former basketball player. The shortest player ever to play in the National Basketball Association (NBA), the 5 ft 3 in (1.60 m) Bogues played point guard for four teams during his 14-season career in the NBA. Best known for his 10 seasons with the Charlotte Hornets, he also played for the Washington Bullets, Golden State Warriors,\n[…]\nBogues was drafted twelfth overall in the 1987 NBA draft by the Washington Bullets, and was part of a talent-laden draft class that also included David Robinson, Reggie Miller, Scottie Pippen, and Kevin Johnson. Bogues made his NBA debut on November 6, 1987, against the Atlanta Hawks at Omni Coliseum; he started and led the team in assists. At the time of his debut, he was 16.5 inches (42 cm) shorter than the average NBA player.\n[…]\nIn his rookie year, Bogues was a teammate of Manute Bol who stood 7 ft 7 in (2.31 m) tall. They were the tallest and shortest players in NBA history at the time, with 28 inches (71 cm) difference between them. Bol and Bogues appeared on three magazine covers together. Bogues's playing time dropped dramatically when coach Kevin Loughery was fired and replaced with Wes Unseld. On March 4, 1988, Bogues recorded seven steals (and scored 10 points) during a 95–88 win over the Indiana Pacers.\n[…]\nDespite starting only fourteen games as a rookie, Bogues led the Bullets in both steals and assists.\n[…]\nThe following season, the Bullets left Bogues and Jay Murphy unprotected in the 1988 NBA expansion draft and he was selected by the Charlotte Hornets. Bogues told the Washington Post that he had \"no quarrel\" with the Bullets for leaving him unprotected and his agents reported that he was excited to start anew in Charlotte.\n[…]\nWNBA Press Release of Bogues becoming head coach of the Charlotte Sting\n[…]\nAudio: Catching Up With Muggsy Bogues\n[…]\nMuggsy Bogues at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Manute_Bol",
+        "situacao": "ok",
+        "texto": "Manute Bol ( mə-NOOT BOHL; died June 19, 2010) was a South Sudanese-American professional basketball player and political activist. Listed at 7 ft 6 in (2.29 m) or 7 ft 7 in (2.31 m) tall, Bol was one of the two tallest players in the history of the National Basketball Association (NBA).\n[…]\nDespite initially knowing little English or Western culture upon arriving in the United States, Bol adjusted and was widely regarded as well-rounded, inquisitive, and well-read. He developed a strong friendship with Charles Barkley, who remarked, \"If everyone in the world was a Manute Bol, it's a world I'd want to live in. He's smart. He reads The New York Times. He knows what's going on in a lot of subjects. He's not one of these just-basketball guys\".\n[…]\nBol's memorial service was held on June 29, 2010, at the Washington National Cathedral in Washington, DC. His body lay in an eight-foot-long, specially-built casket. At the funeral, U.S. Senator Sam Brownback said, \"I can't think of a person that I know of in the world [who] used [his] celebrity status for a greater good than what Manute Bol did. He did it for his people.\n[…]\nOn January 27, 2015, the Golden State Warriors honored Bol with a Manute Bol bobblehead giveaway. The team sponsored a giveaway of 10,000 of the tallest bobbleheads in franchise history, at 10 inches (25 cm).\n[…]\nThe \"Manute Bol Court\" was built and constructed in South Sudan by the Luol Deng Foundation in 2015.\n[…]\nThe Manute Bol Peace Builders Basketball Tournament is held annually throughout Sudan.\n[…]\n\"Manute Bol at NBA.com\". NBA.com. Archived from the original on April 9, 2010. Retrieved July 7, 2011.\n[…]\nManute Bol at IMDb\n[…]\nMontville, Leigh (1993). Manute: The Center of Two Worlds. New York: Simon & Schuster. ISBN 978-0671749286."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Muggsy_Bogues",
+        "situacao": "ok",
+        "texto": "Tyrone Curtis \"Muggsy\" Bogues (Maryland, 9 de janeiro de 1965) é um ex-jogador de basquete americano.\n[…]\nBogues jogou como Armador em quatro equipes durante sua carreira de 14 temporadas na NBA. Embora mais conhecido por suas dez temporadas com o Charlotte Hornets, ele também jogou no Washington Bullets, Golden State Warriors e no Toronto Raptors.\n[…]\nEm seu ano de estreia, Bogues era companheiro de equipe de Manute Bol que tinha 2, 31 m de altura. Eles são os jogadores mais altos e mais baixos da história da NBA com diferença de 71 cm entre eles.\n[…]\nO Miami Heat e o Charlotte Hornets ingressaram na NBA na temporada de 1988-89. Bogues ficou desprotegido pelos Bullets e em 22 de junho de 1988, os Hornets o selecionaram no Draft de Expansão. Quando Bogues se estabeleceu em Charlotte, ele ficou conhecido como um passador excepcional, um grande ladrão de bolas e um dos jogadores mais rápidos em quadra.\n[…]\nBogues jogou duas temporadas com os Warriors e depois assinou como um agente livre com o Toronto Raptors, onde acabaria por terminar sua carreira. Embora ele tenha sido negociado depois com o New York Knicks e o Dallas Mavericks, ele não jogou em nenhum dos times.\n[…]\nEle fez uma aparição em um episódio de Saturday Night Live com Charles Barkley como apresentando e com o Nirvana como convidado musical. Ele também apareceu em um episódio do Hang Time, onde ele falou contra os esteroides. Bogues também apareceu em \"Rebound\", o primeiro episódio da 7ª temporada de Royal Pains, no qual ele participou de uma festa de boas-vindas oferecida pela Sra. \"New Parts\" Newberg.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Phil Jackson",
+      "descricao": "Técnico americano campeão da NBA com o Chicago Bulls e com o Los Angeles Lakers."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que técnico, apelidado de Mestre Zen, foi campeão da NBA com Michael Jordan em Chicago e com Kobe Bryant em Los Angeles?",
+    "resposta": "Phil Jackson",
+    "distratores": [
+      "Pat Riley",
+      "Gregg Popovich",
+      "Red Auerbach"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phil_Jackson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Phil_Jackson",
+        "situacao": "ok",
+        "texto": "Philip Douglas Jackson (born September 17, 1945) is an American former professional basketball player, coach, and executive in the National Basketball Association (NBA). Jackson is a 13-time NBA champion, having won two as a player and eleven as a head coach. His eleven championships as a head coach are the most in NBA history. In 2007, Jackson was inducted into the Basketball Hall of Fame, and wa\n[…]\nOn June 9, 2014, the Knicks hired Derek Fisher as the head coach. Fisher had played under Phil Jackson as a Laker and won five championships together.\n[…]\nJackson, Phil; George Kalinsky (1970). Take It All!. New York: Macmillan. ISBN 0020291906.\n[…]\nJackson, Phil; Charley Rosen (1975). Maverick: More Than a Game. Chicago: Playboy Press. ISBN 0872234398.\n[…]\nJackson, Phil; Hugh Delehanty (1995). Sacred Hoops: Spiritual Lessons of a Hardwood Warrior. New York: Hyperion. ISBN 0786862068.\n[…]\nJackson, Phil; Rosen, Charley (2001). More Than a Game. New York: Seven Stories Press. ISBN 9781583220603.\n[…]\nJackson, Phil; Michael Arkush (2004). The Last Season: A Team in Search of Its Soul. New York: Penguin Press. ISBN 1594200351.\n[…]\nJackson, Phil (2009). The Los Angeles Lakers: 50 Amazing Years in the City of Angels. San Leandro: Time Capsule Press. ISBN 978-0982324202.\n[…]\nJackson, Phil (2010). Journey to the Ring: Behind the Scenes with the 2010 NBA Champion Lakers. San Leandro: Time Capsule Press. ISBN 978-0982324226.\n[…]\nJackson, Phil (2013). Eleven Rings: The Soul of Success. New York: Penguin Press. ISBN 9781594205118.\n[…]\nJackson, Phil; Smith, Sam (2025). Masters of the Game: A Conversational History of the NBA in 75 Legendary Players. New York: Penguin Press. ISBN 9798217060719.\n[…]\nPhil Jackson player file at the Wayback Machine (archived December 2, 2010) at NBA.com\n[…]\nPhil Jackson coach profile at the Wayback Machine (archived December 1, 2010) at NBA.com\n[…]\nPhil Jackson at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Phil_Jackson",
+        "situacao": "ok",
+        "texto": "Philip Douglas Jackson (Deer Lodge, 17 de setembro de 1945) é um executivo americano de basquete profissional, ex-treinador e ex-jogador, presidiu o New York Knicks de 2014 a 2017, time da National Basketball Association (NBA). Jackson foi treinador do Chicago Bulls de 1989 até 1998, período em que o Chicago ganhou seis campeonatos da NBA. Treinou também o Los Angeles Lakers, de 1999 até 2004 e de\n[…]\nNo total, Jackson ganhou 11 títulos da NBA como técnico, superando o recorde anterior de nove estabelecido por Red Auerbach. Jackson também ganhou dois campeonatos como jogador pelos New York Knicks em 1970 e 1973, e detém o recorde de títulos da NBA somados entre jogador e treinador, 13 títulos no total.\n[…]\nJackson, Phil; George Kalinsky (1970). Take It All!. [S.l.: s.n.] ISBN 0-02-029190-6\n[…]\nJackson, Phil; Charley Rosen (1975). Maverick. [S.l.: s.n.] ISBN 0-87223-439-8\n[…]\nJackson, Phil; Hugh Delehanty (1995). Sacred Hoops: Spiritual Lessons of a Hardwood Warrior. [S.l.: s.n.] ISBN 0-7868-6206-8\n[…]\nJackson, Phil; Charley Rosen (2001). More than a Game. [S.l.: s.n.] ISBN 1-58322-060-7\n[…]\nJackson, Phil; Michael Arkush (2004). The Last Season: A Team in Search of Its Soul. [S.l.: s.n.] ISBN 1-59420-035-1\n[…]\nJackson, Phil (2009). The Los Angeles Lakers: 50 Amazing Years in the City of Angels. [S.l.: s.n.] ISBN 0-9823242-0-0\n[…]\nJackson, Phil (2010). Journey to the Ring: Behind the Scenes with the 2010 NBA Champion Lakers. [S.l.: s.n.] ISBN 0-9823242-2-7\n[…]\nJackson, Phil (2013). Eleven Rings: The Soul of Success. [S.l.: s.n.] ISBN 9781594205118\n[…]\nPhil Jackson no The Naismith Memorial Basketball Hall of Fame\n[…]\n«Phil Jackson player file». Consultado em 16 de dezembro de 2016. Cópia arquivada em 2 de dezembro de 2010  no NBA.com\n[…]\n«Phil Jackson coach profile». Consultado em 16 de dezembro de 2016. Cópia arquivada em 1 de dezembro de 2010  no NBA.com\n[…]\nPhil Jackson no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Wilt Chamberlain",
+      "descricao": "Pivô americano que jogou na NBA de 1959 a 1973, famoso por marcar cem pontos num jogo."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de estrear na NBA, Wilt Chamberlain passou uma temporada em qual time, famoso por suas exibições cômicas?",
+    "resposta": "Harlem Globetrotters",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wilt_Chamberlain"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wilt_Chamberlain",
+        "situacao": "ok",
+        "texto": "Wilton Norman Chamberlain ( CHAYM-bər-lin; August 21, 1936 – October 12, 1999) was an American professional basketball player. Standing 7 feet 1 inch (2.16 m) tall, he played center in the National Basketball Association (NBA) for 14 seasons. He was enshrined in the Naismith Memorial Basketball Hall of Fame in 1978, and was elected to the NBA's 35th, 50th, and 75th anniversary teams. Chamberlain i\n[…]\nWhile in college, Chamberlain played for the Kansas Jayhawks, and lost the national championship game to the North Carolina Tar Heels in triple overtime his sophomore year. He also played for the Harlem Globetrotters before joining the NBA, where he played for the Philadelphia / San Francisco Warriors, Philadelphia 76ers, and Los Angeles Lakers.\n[…]\nAfter his frustrating junior year, Chamberlain wanted to become a professional player. At that time, the NBA did not accept players until after their college graduating class had been completed; Chamberlain decided to play for the Harlem Globetrotters in 1958 for $50,000. The team enjoyed a sold-out tour of the Soviet Union in 1959; they were greeted by General Secretary Nikita Khrushchev prior to the start of a game at Moscow's Lenin Central Stadium.\n[…]\nAfter his stint with the Conquistadors, Chamberlain went into business and entertainment, made money in stocks and real estate, bought a popular Harlem nightclub which he renamed Big Wilt's Smalls Paradise, and invested in broodmares. He appeared in advertisements for TWA, American Express, Volkswagen, Drexel Burnham, Le Tigre Clothing, Foot Locker, and Lite beer from Miller.\n[…]\nIn high school and college, Chamberlain was Mr. Basketball USA, NCAA Tournament Most Outstanding Player in 1957, and twice consensus first-team All-American in 1957 and 1958. His number 13 jersey was retired by the Kansas Jayhawks, Harlem Globetrotters, Golden State Warriors, Philadelphia 76ers, and Los Angeles Lakers."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wilt_Chamberlain",
+        "situacao": "ok",
+        "texto": "Wilton Norman Chamberlain (Filadélfia, 21 de agosto de 1936 - Los Angeles, 12 de outubro de 1999) foi um jogador de basquete norte-americano que jogou como pivô e é considerado um dos maiores jogadores da história.\n[…]\nJogou no Philadelphia/San Francisco Warriors, Philadelphia 76ers e o Los Angeles Lakers da National Basketball Association (NBA). Jogou pela Universidade do Kansas e pelo Harlem Globetrotters antes de jogar na NBA.\n[…]\nApós seu frustrante penúltimo ano, Chamberlain queria se tornar um jogador profissional antes de terminar seu último ano. No entanto, naquela época, a NBA não aceitava jogadores até que eles estivessem formados. Portanto, Chamberlain foi proibido de ingressar na NBA por um ano e decidiu jogar para o Harlem Globetrotters em 1958 por um montante de US$ 50 000 (equivalente a cerca de US$ 434 000 hoje).\n[…]\nNos últimos anos, Chamberlain frequentemente se juntava aos Globetrotters no período de entressafra e lembrava com carinho de seu tempo lá, porque ele não era mais ridicularizado mas apenas um dos vários artistas que amavam entreter a multidão. Em 9 de março de 2000, seu número 13 foi aposentado pelos Globetrotters.\n[…]\nApós sua carreira, Chamberlain entrou com sucesso no ramo de negócios e entretenimento, ganhou dinheiro em ações e imóveis, comprou uma boate no Harlem e investiu em reprodutores. Chamberlain também patrocinou equipes profissionais de voleibol e atletismo, também forneceu equipes de alto nível para meninas e mulheres no basquete, no atletismo, no vôlei e no softbol.\n[…]\nprimeiro time: 1972, 1973;\n[…]\nprimeiro time: 1957, 1958;\n[…]\nRecordes em jogos de Temporada Regular e Playoffs de Wilt Chamberlain\n[…]\nFicha de Wilt Chamberlain no site oficial da NBA (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Hakeem Olajuwon",
+      "descricao": "Pivô nigeriano bicampeão da NBA pelo Houston Rockets nos anos 1990."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na Nigéria, antes de conhecer o basquete, Hakeem Olajuwon jogava futebol em qual posição?",
+    "resposta": "Goleiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hakeem_Olajuwon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hakeem_Olajuwon",
+        "situacao": "ok",
+        "texto": "Hakeem Abdul Olajuwon (born January 21, 1963), nicknamed \"the Dream\", is a Nigerian and American former professional basketball player who played 18 seasons in the National Basketball Association (NBA), primarily with the Houston Rockets. He is a two-time NBA champion, two-time NBA Finals MVP, two-time NBA Defensive Player of the Year, and the 1994 NBA MVP. He is widely regarded as one of the grea\n[…]\nIn 1980, before arriving in the US, Olajuwon played for a Nigerian junior team in the All-Africa Games. This created some problems when he tried to play for the United States men's national basketball team initially. FIBA rules prohibit players from representing more than one country in international competition, and players must go through a three-year waiting period for any nationality change. Olajuwon was ineligible for selection to the \"Dream Team\" as he hadn't become a US citizen.\n[…]\nOlajuwon established himself as an unusually skilled offensive player for a big man, perfecting a set of fakes and spin moves that became known as his trademark Dream Shake. Executed with uncanny speed and power, they are still regarded as the pinnacle of \"big man\" footwork. Shaquille O'Neal stated: \"Hakeem has five moves, then four countermoves – that gives him 20 moves.\" Olajuwon himself traced the move back to the soccer-playing days of his youth.\n[…]\nIn Olajuwon's college career and early years in the NBA, he was often undisciplined, talking back to officials, getting into minor fights with other players, and amassing technical fouls. Later, Olajuwon took an active interest in spirituality, becoming a more devout Muslim. On March 9, 1991, he altered his name from Akeem to the more conventional spelling of Hakeem, saying, \"I'm not changing the spelling of my name, I'm correcting it\". He later recalled, \"I studied the Qur'an every day.\n[…]\nHakeem Olajuwon player profile at NBA.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hakeem_Olajuwon",
+        "situacao": "ok",
+        "texto": "Hakeem Abdul \"The Dream\" Olajuwon (Lagos, 21 de janeiro de 1963) é um ex-jogador nigeriano-americano de basquete que atuou pela National Basketball Association (NBA). Foi draftado na primeira posição pelo Houston Rockets no Draft da NBA de 1984, naquele que é considerado por muitos o melhor draft da história, e deixando na 3° posição ninguém menos que Michael Jordan. Durante 18 temporadas na liga \n[…]\nDurante sua juventude, Olajuwon era um goleiro de futebol, o que ajudou a dar a ele o trabalho de pernas e agilidade para equilibrar seu tamanho e força no basquete e também contribuiu para sua habilidade de fazer tocos. Olajuwon não jogou basquete até 17 anos, quando ele entrou em um torneio local.\n[…]\nEm 1980, antes de chegar aos EUA, Olajuwon jogou por um time júnior nigeriano nos Jogos Pan-Africanos. Isso criou alguns problemas quando ele tentou jogar pela seleção masculina de basquete dos Estados Unidos. As regras da FIBA proíbem os jogadores de representarem mais de um país e os jogadores devem passar por um período de espera de três anos para qualquer mudança de nacionalidade. Olajuwon era inelegível para o \"Dream Team\", pois ele não se tornara cidadão americano.\n[…]\nOlajuwon estabeleceu-se como um jogador ofensivo habilidoso, aperfeiçoando um conjunto de movimentos giratórios que ficaram conhecidos como a sua marca registrada Dream Shake. Shaquille O'Neal afirmou: \"Hakeem tem cinco movimentos, depois quatro contra-ataques - o que lhe dá 20 movimentos\". O próprio Olajuwon explicou como criou esses movimentos. \"O Dream Shake foi na verdade um dos meus movimentos de futebol que eu traduzi para o basquete.\n[…]\nAlém do inglês, Olajuwon é fluente em francês, árabe e nas línguas nigerianas de ioruba e ekiti. Ele escreveu sua autobiografia, Living the Dream, com o co-autor Peter Knobler em 1996. Durante sua carreira de 18 anos na NBA, Olajuwon ganhou mais de US $ 107.000.000 em salário.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Manu Ginóbili",
+      "descricao": "Ala-armador argentino, campeão olímpico em 2004 e quatro vezes campeão da NBA."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O argentino Manu Ginóbili e o francês Tony Parker foram campeões juntos em qual time da NBA?",
+    "resposta": "San Antonio Spurs",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili",
+      "https://en.wikipedia.org/wiki/Tony_Parker"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili",
+        "situacao": "ok",
+        "texto": "Emanuel David \"Manu\" Ginóbili Maccari (English:  MAN-oo jin-OH-blee, Spanish: [ˈmanu ʝiˈnoβili]; born 28 July 1977) is an Argentine former professional basketball player. During a 23-year professional career, Ginóbili played in Argentina, in Italy, and in the NBA; he also represented Argentina in international competition. A shooting guard, he is best known for playing for the San Antonio Spurs of\n[…]\nThe Spurs then entered the playoffs eager to upend the defending champions Los Angeles Lakers, at which point Ginóbili rose to prominence.\n[…]\nIn the playoffs, the Spurs defeated the Suns 4–1 in the first round, and Ginóbili was moved to the starting lineup in the second round against the New Orleans Hornets after the Spurs lost the first two road games. San Antonio eventually prevailed in seven games, the Argentine played another strong series, leading the Spurs in points and assists per game (21.3 and 6.0 respectively).\n[…]\nThe following season, Ginóbili was injured for most of the campaign, managing only 44 regular-season games and missing the 2009 NBA Playoffs entirely. San Antonio qualified for the playoffs as the third seed with a 54–28 record, but with an aging supporting cast (Bowen, Michael Finley and Kurt Thomas were all in their late 30s), the Spurs were only considered fringe contenders for the championship.\n[…]\nOn 24 September 2021, the San Antonio Spurs announced that they had appointed Ginóbili as special advisor to basketball operations.\n[…]\nOn 10 September 2022, Ginóbili became the 12th player to have played for the San Antonio Spurs franchise to be inducted into the Naismith Memorial Basketball Hall of Fame. He is one of only four Hall of Famers who played exclusively for San Antonio for their entire NBA careers (the others are George Karl, David Robinson and Tim Duncan). Former teammate Tim Duncan presented Ginóbili at the ceremony.\n[…]\nManu Ginóbili at Olympics.com"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tony_Parker",
+        "situacao": "ok",
+        "texto": "William Anthony Parker Jr. (born May 17, 1982) is a French-American professional basketball coach and former player who currently serves as the head coach of LDLC ASVEL of the French LNB Élite and the EuroLeague. The son of a basketball pro, Parker started his career at PSG-Racing Basket in the French basketball league before joining the San Antonio Spurs of the National Basketball Association (NB\n[…]\nBefore the 2001 NBA draft, Parker was invited to the San Antonio Spurs' summer camp. Coach Gregg Popovich had him play against Spurs scout and ex-NBA player Lance Blanks. Parker was overwhelmed by Blanks's tough and physical defense, and Popovich was ready to send him away after just 10 minutes. But after seeing a \"best of\" mix tape of Parker's best plays, Popovich decided to invite Parker a second time.\n[…]\nIn the 2007–08 regular season, Parker recorded similar averages as the previous two seasons for points and rebounds, and slightly increased his assists per game average. The Spurs finished third in the Western Conference and faced the Phoenix Suns in the first round of the 2008 NBA Playoffs. For the third time in four years, San Antonio prevailed over Phoenix; Parker had an outstanding first-round series, averaging nearly 30 points and 7 assists a game.\n[…]\nThe Spurs eventually lost the series in seven games.\n[…]\nThe record was previously held by the Los Angeles Lakers trio of Magic Johnson, Kareem Abdul-Jabbar and Michael Cooper at 110 wins. The Spurs went on to beat the Thunder in six games and advance to the finals, facing the Miami Heat for the second straight year. San Antonio won in five games, giving Parker his fourth championship.\n[…]\nGame 3 was San Antonio's first postseason game without Parker since 2001, ending his NBA record 221 straight playoff appearances with the Spurs. The injury required surgery, with some media speculating it could lead Parker to retire.\n[…]\nTony Parker at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manu_Gin%C3%B3bili",
+        "situacao": "ok",
+        "texto": "Emanuel David \"Manu\" Ginóbili (Bahía Blanca, 28 de julho de 1977) é um ex-basquetebolista argentino que atuava como ala-armador. Defendeu por dezesseis anos a equipe do San Antonio Spurs. É um dos dois únicos jogadores a possuírem títulos da NBA, da Euroliga e dos Jogos Olímpicos (o outro é Bill Bradley). É considerado por muitos um dos melhores estrangeiros da história da NBA e um dos maiores jog\n[…]\nApós o sucesso na Europa, Ginóbili assinou com o San Antonio Spurs, estreando na temporada 2002–03 e já conquistando o primeiro título. Foi escolhido para o segunda unidade do NBA All-Rookie Team, mesmo sendo reserva de Steve Smith (disputou apenas cinco partidas como titular). O título rendeu a Manu Ginóbili o prêmio Olimpia de Oro (concedido ao melhor atleta argentino do ano) pela primeira vez.\n[…]\nMesmo diante de especulações sobre uma possível aposentadoria, Manu renovou contrato com o San Antonio Spurs por mais dois anos.\n[…]\nEm 27 de agosto de 2018, Ginóbili anunciou que estava se aposentando do basquete. Foram 23 anos como profissional, sendo 16 nos Spurs da NBA.\n[…]\nCom 29 pontos de Ginóbili, os argentinos venceram os Estados Unidos na semifinal por 89 a 81 e impuseram a primeira derrota da história do basquete norte-americano em Olimpíadas desde o início da participação dos atletas profissionais da NBA. A seleção rival contava com nomes como Allen Iverson, LeBron James e Tim Duncan, seu companheiro de San Antonio Spurs.\n[…]\nAlém das Olimpíadas, Ginóbili disputou diversas outras competições com a Argentina no período de 1998, ano de sua primeira convocação, até 2016, na despedida. Foram dois títulos da Copa América (2001 e 2011) e um vice-campeonato do mundo em 2002. Disputou também o Campeonato Mundial de 2006, mas ficou ausente em 2010 por conta do veto por parte do San Antonio Spurs.\n[…]\nterceiro time: 2008 e 2011\n[…]\nsegundo time: 2003\n[…]\n2x All-Tournament Team do Campeonato Mundial: 2002, 2006",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Campeonato Mundial de Basquete Masculino de 1950",
+      "descricao": "Primeira edição do Mundial de basquete masculino da FIBA, disputada na Argentina."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Qual seleção, jogando em casa, venceu o primeiro Mundial de basquete masculino, em 1950?",
+    "resposta": "Argentina",
+    "distratores": [
+      "Estados Unidos",
+      "Brasil",
+      "Chile"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1950_FIBA_World_Championship"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1950_FIBA_World_Championship",
+        "situacao": "ok",
+        "texto": "The 1950 FIBA World Championship, also called the 1st World Basketball Championship – 1950, was the inaugural edition of the World Cup basketball tournament for men's national teams. It was held by the International Basketball Federation (FIBA), from 22 October to 3 November 1950. Argentina hosted the competition at Luna Park in Buenos Aires, where ten nations participated in the event.\n[…]\nArgentina claimed the gold medal, by beating the United States 64–50 in the decisive game of the final round. After winning the tournament, Argentinian fans celebrated by burning newspapers which became known as the \"Night of the Torches\".\n[…]\nIn the aftermath of World War II, Argentina was chosen as host of the inaugural World Cup partly because of its neutrality during the war.\n[…]\nFIBA determined the requirements to qualify for the World Championship to be as follows:\n[…]\nThe host country (Argentina).\n[…]\nPrior to the Championship, South Korea withdrew due to logistical and financial difficulties in travelling to Argentina, while Uruguay withdrew after Argentinian immigration officials refused the team visas to enter the country.\n[…]\nArgentina, Brazil, Egypt and USA advance to the final round.\n[…]\nArgentina won its first-ever World Cup, and Oscar Furlong was named the tournament's Most Valuable Player. Furlong averaged a team-high and 11.2 points during the tournament, fourth highest of all players.\n[…]\nOscar Furlong (Argentina)\n[…]\nRicardo González (Argentina)\n[…]\nSource: FIBA archive\n[…]\nArgentina: 8.Oscar Furlong, 11.Ricardo González, 3.Pedro Bustos, 5.Leopoldo Contarbio, 4.Hugo del Vecchio, 7.Vito Liva, 14.Alberto López, 10.Rubén Menini, 13.Omar Monza, 6.Raúl Pérez Varela, 12.Juan Carlos Uder, 9.Roberto Viau (Coach: Jorge Hugo Canavesi – Casimiro González Trilla])\n[…]\nOscar Furlong (Argentina) 11.2\n[…]\nRicardo González (Argentina) 10.7\n[…]\nFIBA official website\n[…]\nEuroBasket.com FIBA Basketball World Cup Page\n[…]\nWC 1950 on FIBA.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Campeonato_Mundial_de_Basquetebol_Masculino_de_1950",
+        "situacao": "ok",
+        "texto": "O Campeonato Mundial de Basquetebol Masculino de 1950 foi a 1ª edição do Campeonato Mundial de Basquetebol. Foi disputado na América do Sul por conta da situação caótica de destruição vivida pela Europa após a 2ª Guerra Mundial. O país escolhido foi a Argentina cuja sede foi Buenos Aires, de 22 de outubro a 3 de novembro de 1950, organizado pela Federação Internacional de Basquetebol (FIBA) e pela\n[…]\nOs Estados Unidos não se entusiasmaram com o torneio, ao qual sempre deram menos importância do que aos Jogos Olímpicos. Foram representados nesse campeonato pelo time de operários da fábrica da Chevrolet.\n[…]\nToda a competição foi disputada no Luna Park, em Buenos Aires, e a Argentina conquistou o ouro ao derrotar os Estados Unidos por 64-50.\n[…]\nA FIBA determinou os requerimentos de classificação para o Campeonato Mundial como os seguintes: os três melhores times dos últimos Jogos Olímpicos de Verão, os dois melhores times da América do Sul, Europa e Ásia, além do país-sede. França, Brasil e os Estados Unidos garantiram um lugar cada, por conta de sua performance nos Jogos Olímpicos de Verão de 1948, realizados em Londres.\n[…]\nUruguai e Chile classificaram-se como os dois melhores times do Campeonato Sul-Americano de Basquetebol de 1949, e o Egito, com o primeiro lugar no Eurobasket de 1949. Como nenhuma equipe asiática participou devido a dificuldades de viagem, convites foram estendidos a Equador, Iugoslávia e Espanha. O Uruguai também desistiu do torneio, por razões políticas. O Peru participou em seu lugar.\n[…]\nEquador e Iugoslávia disputaram a Primeira Fase da Repescagem.\n[…]\nArgentina, Brasil, Egito e EUA avançaram à Fase Final.\n[…]\nChile e França avançaram à Primeira Fase da Repescagem.\n[…]\nArgentina Oscar Furlong (Argentina)\n[…]\nArgentina Ricardo Gonzalez (Argentina)\n[…]\nArgentina Oscar Furlong (Argentina) 11.1\n[…]\nArgentina Ricardo Gonzalez (Argentina) 10.6\n[…]\nFIBA World Championships History",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Campeonato Mundial de Basquete Masculino de 2002",
+      "descricao": "Mundial de basquete masculino da FIBA disputado em Indianápolis, nos Estados Unidos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 2002, os Estados Unidos sediaram o Mundial de basquete e terminaram apenas em sexto lugar. Que seleção foi campeã?",
+    "resposta": "Iugoslávia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2002_FIBA_World_Championship"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2002_FIBA_World_Championship",
+        "situacao": "ok",
+        "texto": "The 2002 FIBA World Championship was the 14th edition of the FIBA World Championship, the international basketball world championship for men's national teams. The tournament was held by the International Basketball Federation in Indianapolis, Indiana, United States, from August 29 to September 8, 2002.\n[…]\nThere were 16 teams taking part in the 2002 World Cup of Basketball. Since the 2000 Olympic champions United States had direct access to the World Championship as the host nation, the Olympic berth was replaced by an extra qualifying spot assigned to FIBA Americas below.\n[…]\nFIBA Asia: 14 teams competing for 2 berths\n[…]\nFIBA Africa: 12 teams competing for 2 berths\n[…]\nFIBA Americas: 10 teams competing for 5 berths\n[…]\nFIBA Europe: 16 teams competing for 5 berths\n[…]\nFIBA Oceania: 2 teams competing for 1 berth\n[…]\nAugust 29, 2002\n[…]\nAugust 30, 2002\n[…]\nAugust 31, 2002\n[…]\nAugust 29, 2002\n[…]\nAugust 30, 2002\n[…]\nAugust 31, 2002\n[…]\nAugust 29, 2002\n[…]\nAugust 30, 2002\n[…]\nAugust 31, 2002\n[…]\nAugust 29, 2002\n[…]\nAugust 30, 2002\n[…]\nAugust 31, 2002\n[…]\nSeptember 2, 2002\n[…]\nSeptember 3, 2002\n[…]\nSeptember 4, 2002\n[…]\nSeptember 2, 2002\n[…]\nSeptember 3, 2002\n[…]\nSeptember 4, 2002\n[…]\nFIBA official website\n[…]\nEuroBasket.com FIBA Basketball World Cup Page\n[…]\nWC 2002 on FIBA.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Campeonato_Mundial_de_Basquetebol_Masculino_de_2002",
+        "situacao": "ok",
+        "texto": "O Campeonato Mundial de Basquetebol Masculino de 2002 foi a 14ª edição do Campeonato Mundial de Basquetebol. Foi disputado em Indianápolis, Indiana, Estados Unidos, de 29 de agosto a 8 de setembro de 2002, organizado pela Federação Internacional de Basquetebol (FIBA) e pela Federação Estadunidense de Basquetebol.\n[…]\nOs três primeiros de cada grupo avançam à Segunda Fase, formando o Grupo E e o Grupo F. O quarto colocado vai para a Disputa do 13º ao 16º lugar.\n[…]\n29 de agosto de 2002\n[…]\n30 de agosto de 2002\n[…]\n31 de agosto de 2002\n[…]\n29 de agosto de 2002\n[…]\n30 de agosto de 2002\n[…]\n31 de agosto de 2002\n[…]\n29 de agosto de 2002\n[…]\n30 de agosto de 2002\n[…]\n31 de agosto de 2002\n[…]\n29 de agosto de 2002\n[…]\n30 de agosto de 2002\n[…]\n31 de agosto de 2002\n[…]\nOs quatro primeiros de cada grupo avançaram à Fase Final, enquanto os dois últimos avançaram à Disputa do 9º ao 12º lugar.\n[…]\n2 de setembro de 2002\n[…]\n3 de setembro 2002\n[…]\n4 de setembro de 2002\n[…]\n2 de setembro de 2002\n[…]\n3 de setembro de 2002\n[…]\n4 de setembro de 2002\n[…]\nPredrag Stojaković (Iugoslávia) 18.7",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Air Jordan",
+      "descricao": "Linha de tênis e roupas esportivas criada para Michael Jordan, lançada em 1985."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que empresa de material esportivo criou a linha de tênis Air Jordan, lançada em 1985?",
+    "resposta": "Nike",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Air_Jordan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Air_Jordan",
+        "situacao": "ok",
+        "texto": "Air Jordan is a line of basketball and sportswear shoes produced by Nike, Inc. The shoes, related apparel and accessories are now marketed under Jordan Brand. The first Air Jordan shoe was produced for basketball player Michael Jordan during his time with the Chicago Bulls on November 17, 1984, and released to the public on April 1, 1985. The shoes were designed for Nike by Peter Moore, Tinker Hat\n[…]\nWhile other companies saw Jordan as a figure for promoting preexisting shoe lines, Nike took Jordan's criticism into account to make him \"a stand alone star and give him a signature shoe line.\"\n[…]\nIn 1997, Jordan and Nike introduced Jordan Brand (originally called \"Brand Jordan\"). The brand has built a sustainable business model by releasing Air Jordan shoes and apparel, and collaborating with popular artists. In 2022 alone, Jordan Brand brought in $5.1 billion to Nike. Of that, a reported $150–256 million went directly to Jordan under his royalties deal with Nike.\n[…]\nThey were also seen on many hip-hop album covers including Eazy-E wearing Air Jordan III on the Eazy-Duz-It album cover and music videos including \"Otis\" where Jay-Z and Kanye West are seen wearing the Air Jordan I and Air Jordans VI. The shoes were also worn by many artists and celebrities on a casual and everyday basis. Collaborations between hip-hop artists and the Jordan Brand also drove its popularity, including Travis Scott's \"Cactus Jack\" collaborations with the Jordan Brand and Nike.\n[…]\nAir Jordan has collaborated with many brands and artists, including celebrities Drake, Billie Eilish, J Balvin, DJ Khaled, Eminem, Nicki Minaj, Future and Mark Wahlberg. After a collaboration with Nike on its Air Force One in 2017, rapper Travis Scott partnered with Jordan Brand to design \"Cactus Jack\" iterations of the Air Jordan 1, Air Jordan 4 and Air Jordan 6.\n[…]\nNike Air Max\n[…]\nNike Blazers\n[…]\n\"Every Jordan Ever Made\" at Nike"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Air_Jordan",
+        "situacao": "ok",
+        "texto": "Air Jordan é uma linha de calçados de basquete produzida pela Nike, Inc. Vestuário e acessórios relacionados são comercializados sob a marca Jordan Brand. O primeiro tênis Air Jordan foi produzido para o ex-jogador de basquete do Hall of Fame Michael Jordan durante seu tempo com o Chicago Bulls no final de 1984 e lançado ao público em 1º de abril de 1985. Os sapatos foram desenhados para a Nike po\n[…]\nPor fim, em 26 de outubro de 1984, Michael Jordan assinou um contrato de cinco anos, US$2.5 milhões com a Nike, três vezes mais do que qualquer outro negócio na National Basketball Association (NBA) naquela época. A Nike lançou a linha de tênis Air Jordan em abril de 1985 com o objetivo de levantar US$3 milhões nos primeiros três anos. As vendas superaram em muito as expectativas, levantando US$126 milhões em um ano.\n[…]\nSomente em 2022, a marca Jordan arrecadou US$ 5,1 bilhões para a Nike. Desse total, US$ 150-256 milhões foram diretamente para Michael Jordan sob seu contrato com a Nike.\n[…]\nAir é um longa-metragem longa-metragem estadunidense biográfico esportivo e dramático lançado em 2023 dirigido por Ben Affleck e escrito por Alex Convery, baseado em fatos reais sobre a origem do Air Jordan, quando Sonny Vaccaro, funcionário da Nike, buscava fechar um negócio com o novato Michael Jordan. É estrelado por Matt Damon como Vaccaro.\n[…]\nMoore, responsável pela equipe de design, encontrou essa edição da revista Life e pediu a Jordan que replicasse a pose, desta vez em Chicago, vestindo seu uniforme do Bulls e tênis Nike Air Jordan. O logo \"Jumpman\" evoluiu e passou por diferentes mudanças, podendo ser visto em tênis, roupas, bonés, meias e outros itens de vestuário. Tornou-se um dos logos mais reconhecidos na indústria esportiva.\n[…]\n\"History of the Air Jordan franchise\" at SneakerNews.com.\n[…]\n\"Every Jordan Ever Made\" at Nike.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Final do basquete masculino no Pan-Americano de 1987",
+      "descricao": "Jogo em que o Brasil venceu os Estados Unidos por 120 a 115 e conquistou o ouro nos Jogos Pan-Americanos de 1987."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1987, a seleção de Oscar e Marcel derrotou os Estados Unidos na final do Pan-Americano, jogando em qual cidade americana?",
+    "resposta": "Indianápolis",
+    "distratores": [
+      "Los Angeles",
+      "Atlanta",
+      "Chicago"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basketball_at_the_1987_Pan_American_Games"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basketball_at_the_1987_Pan_American_Games",
+        "situacao": "ok",
+        "texto": "Basketball at the 1987 Pan American Games was held from August 9 to August 23, 1987, at the Market Square Arena in Indianapolis, United States. In men's basketball, Brazil defeated the U.S. 120–115 in the final to win the gold medal. The Brazilian team was led by their star player Oscar, who scored 46 points in the final.\n[…]\nLikewise, the women's basketball tournament was held from August 9 to August 23, 1987, at the same venue.\n[…]\nOscar Schmidt 246 pts\n[…]\n1987 results and scoresheets"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol_nos_Jogos_Pan-Americanos_de_1987",
+        "situacao": "ok",
+        "texto": "Torneio de basquetebol masculino nos Jogos Pan-Americanos de 1987 foi realizado entre 9 e 23 de agosto de 1987 no ginásio Market Square Arena em Indianápolis, Estados Unidos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Final do basquete masculino no Pan-Americano de 1987",
+      "descricao": "Jogo em que o Brasil venceu os Estados Unidos por 120 a 115 e conquistou o ouro nos Jogos Pan-Americanos de 1987."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na final do Pan-Americano de 1987, vencida pelo Brasil contra os Estados Unidos, quantos pontos Oscar Schmidt marcou?",
+    "resposta": "46",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basketball_at_the_1987_Pan_American_Games",
+      "https://en.wikipedia.org/wiki/Oscar_Schmidt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basketball_at_the_1987_Pan_American_Games",
+        "situacao": "ok",
+        "texto": "Basketball at the 1987 Pan American Games was held from August 9 to August 23, 1987, at the Market Square Arena in Indianapolis, United States. In men's basketball, Brazil defeated the U.S. 120–115 in the final to win the gold medal. The Brazilian team was led by their star player Oscar, who scored 46 points in the final.\n[…]\nLikewise, the women's basketball tournament was held from August 9 to August 23, 1987, at the same venue.\n[…]\nOscar Schmidt 246 pts\n[…]\n1987 results and scoresheets"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oscar_Schmidt",
+        "situacao": "ok",
+        "texto": "Oscar Daniel Bezerra Schmidt (February 16, 1958 – April 17, 2026), nicknamed Mão Santa (Holy Hand), was a Brazilian professional basketball player. Schmidt primarily played the power forward and small forward position, was 2.06 m (6 ft 9 in) tall and weighed 109 kg (240 lbs). Along with his home country, Schmidt also played in Italy for JuveCaserta and Pavia, and Spain for Fórum Valladolid. He was\n[…]\nHe played in the gold-medal match of the 1987 Pan American Games, which was held in Indianapolis. The US national team, which was composed of NCAA Division I college basketball players at those games, featured two All-Americans in David Robinson (Hall of Fame member) and Danny Manning, two NCAA Championship Final Four MVPs, in Pervis Ellison and Keith Smart (Manning would later also win that award), and other future NBA players, such as Rex Chapman, Pooh Richardson, and Willie Anderson.\n[…]\nBrazil faced a 68–54 halftime deficit. However, Schmidt finished the game with 46 points, in a 120–115 win for Brazil.\n[…]\nSchmidt married Maria Cristina Victorino in 1981, and had a son and a daughter. He and his son Felipe, then 16 years old, played together in the former's final season in Flamengo, before Felipe became a film director. Oscar Schmidt's brother Tadeu is a journalist, and his nephew, Bruno Oscar Schmidt, is a beach volleyballer.\n[…]\nULEB All-Star Game: 3 (46 pts) - PPG 15,3\n[…]\n236 points scored in 11 career All-Star Games played where scoring data is available (21.5 points per game). 186 points scored in 7 Italian League All-Star Games played, 46 points scored in 3 ULEB All-Star Games played, and 4 points scored in the NBA All-Star Game (as a celebrity). Schmidt also played in the FIBA All-Star Game in 1991, but no individual points scored total is available for that game.\n[…]\nMost points in a single game in the Liga Sudamericana de Baloncesto (46), playing for Flamengo against Ambassadors."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol_nos_Jogos_Pan-Americanos_de_1987",
+        "situacao": "ok",
+        "texto": "Torneio de basquetebol masculino nos Jogos Pan-Americanos de 1987 foi realizado entre 9 e 23 de agosto de 1987 no ginásio Market Square Arena em Indianápolis, Estados Unidos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Campeonato Mundial de Basquete Feminino de 1994",
+      "descricao": "Mundial feminino da FIBA disputado na Austrália e vencido pela seleção brasileira."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1994, a seleção feminina de Hortência e Paula conquistou o título mundial de basquete em qual país?",
+    "resposta": "Austrália",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1994_FIBA_World_Championship_for_Women"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1994_FIBA_World_Championship_for_Women",
+        "situacao": "ok",
+        "texto": "The 1994 FIBA Women's World Championship was the 12th edition of the FIBA Women's World Championship, an quadrennial international tournament played by women's basketball teams in FIBA. It was hosted in Australia from 2 to 12 June 1994 at five venues with the Sydney Entertainment Centre hosting the finals.\n[…]\nIn the semi-finals, Brazil and China made it through to the final defeating the United States and Australia respectively. In what was the first gold medal final appearance for both teams, Brazil took out the title defeating China 96–87. The United States claimed the bronze defeating Australia 100–95.\n[…]\nIn the preliminary round, each team played games against the other three teams in its group. The top two teams in each group were then placed into Groups A and B for the quarter-final Round, while the remaining teams were placed into Groups C and D for the quarter-final Round. Teams placed into Groups A and B for the quarter-final Round were eligible for the Championship bracket, while teams placed into Groups C and D finished no higher than 9th place.\n[…]\nIn the quarter-final Round, each team played games against the other three teams in its group. The top two teams in Groups A and B qualified for the Championship bracket, while the remaining teams from Groups A and B were placed in the bracket to determine places 5 through 9. The top two teams from Groups C and D were placed in the bracket to determine places 9 through 12, and the remaining teams were placed in the bracket to determine places 13 through 16.\n[…]\n1994 FIBA World Championship For Women"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Campeonato_Mundial_de_Basquetebol_Feminino_de_1994",
+        "situacao": "ok",
+        "texto": "O Campeonato Mundial de Basquetebol Feminino de 1994 aconteceu em junho na Austrália.\n[…]\nO Brasil conquistou pela primeira vez o título mundial da modalidade após derrotar a China na final por 96 a 87 (antes da final, Brasil e China já haviam se confrontado, com vitória das chinesas). Foi a primeira vez que uma equipe senão os EUA e a URSS sagraram-se campeã. Na disputa pela medalha de bronze, os Estados Unidos derrotaram a Austrália e ficaram com a medalha de bronze.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Harlem Globetrotters",
+      "descricao": "Time americano de exibição que mistura basquete, acrobacias e comédia, criado nos anos 1920."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Apesar do nome, os Harlem Globetrotters não surgiram em Nova York. Em qual cidade americana o time nasceu?",
+    "resposta": "Chicago",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harlem_Globetrotters"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Harlem_Globetrotters",
+        "situacao": "ok",
+        "texto": "The Harlem Globetrotters are an American exhibition basketball team. They combine athleticism, theater, and comedy in their entertaining style of play. Over the years, the Globetrotters have played more than 26,000 exhibition games in 124 countries and territories, mostly against deliberately ineffective opponents, such as the Washington Generals (1953–1995, 2007–2015, 2017–present) and the New Yo\n[…]\nThe Harlem Globetrotters originated in 1926 at the Giles American Legion Post #87, on the South Side of Chicago, where all the original players were raised and went to Wendell Phillips High school in the Bronzeville neighborhood.\n[…]\nTheir first season of existence saw them get a 101–16 record, with their first match where they first began their globetrotting ways start with a 48 mile long road trip from Chicago to Hinckley, Illinois on an uncomfortable Ford Model T with a tattered road map for a payment of $75.\n[…]\nBy 1928, Saperstein was touring Illinois and Iowa with his basketball team called the \"New York Harlem Globe Trotters\", although they later decided to shorten the name to the more well-known \"Harlem Globetrotters\" (sometimes spelled as \"Globe Trotters\" in their early history) by the following year in 1929. Saperstein selected the name Harlem because it was then considered the center of Black American culture and the contraction Globetrotter to mythologize the team's international venues.\n[…]\nDobrow, Larry (2017). Here Come the Harlem Globetrotters. New York: Simon Spotlight.\n[…]\nDobrow, Larry (2017). The Superstar Story of the Harlem Globetrotters. New York: Simon Spotlight.\n[…]\nDobrow, Larry (2018). The Harlem Globetrotters Present the Points Behind Basketball. New York: Simon Spotlight.\n[…]\n\"In Black America; The Harlem Globetrotters 1985\", 1985-03-06, KUT Radio, American Archive of Public Broadcasting (WGBH and the Library of Congress), Boston, MA and Washington, DC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Harlem_Globetrotters",
+        "situacao": "ok",
+        "texto": "Harlem Globetrotters é uma equipe de basquetebol americana que viaja o mundo fazendo apresentações performáticas. Ganhou a alcunha de \"time de basquete mais famoso do mundo\" por fazer de suas partidas uma mistura de entretenimento e habilidades performáticas. Em 2010, a equipe contabilizava mais de 25 mil apresentações em 118 países.\n[…]\nA origem da equipe é em um grupo de jogadores de basquete da Wendell Phillips High School, da cidade de Chicago, que formaram o \"Savoy Big Five\" com a intenção de entreter em jogos de exibição, já no início da década de 1920.\n[…]\nEm 1926, Abe Saperstein, tendo por base três jogadores da equipe do Savoy Big dissolvido nesse mesmo ano, formou o Harlem Globetrotters e a escolhe do ante-nome Harlem foi uma homenagem ao bairro novaiorquino do Harlem considerado centro da cultura afro-americana na época (mesmo os Globetrotters mudando-se para Nova York só no ano de 1968). Sua primeira partida ocorreu em 7 de janeiro de 1927, na cidade de Hinckley, Illinois.\n[…]\nEm 1940, a equipe conquistou o \"World Professional Basketball Tournament\" (Torneio Mundial de Basquete Profissional), uma competição de convidados realizado pelo jornal Chicago American.\n[…]\nEm 1966, com a morte de Abe Saperstein, a equipe foi vendida e em 1968, transferiu-se para a cidade de Nova York. Em 2013, o Harlem Globetrotters passou a ser de propriedade da empresa Herschend Family Entertainment, com escritório administrativo da \"Harlem Globetrotters International Inc.\" em Atlanta.\n[…]\nOs Globetrotters venceram o World Professional Basketball Tournament uma vez, em 1940, derrotando o Chicago Bruins na final por 31 a 29.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Augusto Shaw",
+      "descricao": "Professor americano que apresentou o basquete no Brasil em 1896, em São Paulo."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1896, o professor americano Augusto Shaw apresentou o basquete ao Brasil em qual escola de São Paulo?",
+    "resposta": "Mackenzie",
+    "distratores": [
+      "Colégio São Bento",
+      "Colégio Dante Alighieri",
+      "Colégio Rio Branco"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Basquetebol_no_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol_no_Brasil",
+        "situacao": "ok",
+        "texto": "O basquete do Brasil está entre os esportes mais populares. Tendo sido um dos primeiros países a conhecê-lo, após sua criação, o Brasil tem seu destaque no cenário internacional, com a seleção nacional masculina sendo campeã mundial por duas vezes (1959 e 1963), e vice por outras duas vezes (1954 e 1970), além de ser junto a Grã-Bretanha a única seleção que esteve presentes a todas as edições do t\n[…]\nA prática do basquete no Brasil começou quando o norte americano Augusto Louis introduziu o desporto na Associação Atlética Mackenzie College de São Paulo, em 1896.\n[…]\nEm 1922 foi convocada pela primeira vez a seleção brasileira, quando da comemoração do Centenário do Brasil nos Jogos Latino-Americanos, um torneio continental, em dois turnos, entre as seleções do Brasil, Argentina e Uruguai. O Brasil sagrou-se campeão, sob a direção de Fred Brown. Em 1930, com a participação do Brasil, foi realizado, em Montevidéu, o primeiro Campeonato Sul-Americano de Basquete.\n[…]\nA partir de 2009, o antigo Campeonato Nacional de Basquete foi substituído pelo Novo Basquete Brasil (NBB), que é organizado pela  Liga Nacional de Basquete, com a chancela da Confederação Brasileira de Basketball. Até 2021 haviam sido organizadas 13 edições do torneio, sendo o Flamengo o maior campeão, com 7 títulos.\n[…]\nA primeira competição nacional de basquete feminino foi a Taça Brasil que durou de 1984 a 1997 e era organizada pela CBB. Nesse período foram realizadas 13 edições do torneio e o maior campeão, com 3 títulos foi a Unimep.\n[…]\nA partir de 2010 foi criada a Liga de Basquete Feminino (LBF), que é organizada pelos próprios Clubes por meio da liga de mesmo nome e possui chancela da CBB. Até 2018 haviam sido organizados 8 edições, sendo o Americana o principal campeão, com 4 títulos.\n[…]\nComitê Olímpico Brasileiro"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Primeiro jogo oficial de basquete",
+      "descricao": "Partida disputada em janeiro de 1892, numa Associação Cristã de Moços dos Estados Unidos, com nove jogadores por lado."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No primeiro jogo oficial de basquete da história, em 1892, quantas cestas foram marcadas ao todo?",
+    "resposta": "Uma, placar de 1 a 0",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basketball"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basketball",
+        "situacao": "ok",
+        "texto": "Basketball is a team sport in which two teams of five players each (excluding substitutes) oppose one another on a rectangular court. Players compete with the primary objective of shooting a basketball through a hoop (a basket mounted to a backboard) at each end of the court. Teams alternate between offense (when they attempt to score), and defense (when they try to prevent the opposing side from \n[…]\nMahan then said, \"Why not call it basketball?\" Naismith replied, \"We have a basket and a ball, and it seems to me that would be a good name for it.\" The first official game was played in the YMCA gymnasium in Albany, New York, on January 20, 1892, with nine players. The game ended at 1–0; the shot was made from 25 feet (7.6 m), on a court just half the size of a present-day Streetball or National Basketball Association (NBA) court.\n[…]\nAccording to a survey given to all NBA teams, the average height of all NBA players with shoes on is around 6 feet 6 inches (1.98 m), although exaggeration of height is widespread. The average weight is close to 222 pounds (101 kg). The tallest players ever in the NBA were Manute Bol and Gheorghe Mureșan, who were both 7 feet 7 inches (2.31 m) tall. At 7 feet 2 inches (2.18 m), Margo Dydek was the tallest player in the history of the WNBA.\n[…]\nHalf-court basketball is usually played 1-on-1, 2-on-2, or 3-on-3. The last of these variations is gradually gaining official recognition as 3x3, originally known as FIBA 33. It was first tested at the 2007 Asian Indoor Games in Macau and the first official tournaments were held at the 2009 Asian Youth Games and the 2010 Youth Olympics, both in Singapore.\n[…]\nPoints League: Players earn points based on specific stats (e.g., 2 points per rebound, 1.5 points per assist).\n[…]\nOntario's Historical Plaques – Dr. James Naismith (1861–1939)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol",
+        "situacao": "ok",
+        "texto": "O basquetebol, popularmente conhecido como basquete (português brasileiro) ou básquete (português europeu), é um esporte coletivo inventado em 1891 pelo professor de educação física canadense James Naismith, na Associação Cristã de Moços de Springfield, em Massachusetts, nos Estados Unidos.\n[…]\nO primeiro jogo oficial de basquetebol foi disputado em 20 de janeiro de 1892, com nove jogadores em cada equipe e utilizando-se uma bola de futebol, sendo visto apenas por funcionários da Associação Cristã de Moços. Cerca de duzentas pessoas viram o jogo, que terminou com o placar de 1 a 0, sendo a cesta feita de uma distância de 7,6 metros. Equipes de cinco pessoas passaram a ser o padrão por volta de 1897 e 1898.\n[…]\nO basquete feminino iniciou em 1892, quando a professora de educação física do Smith College, Senda Berenson, adaptou as regras criadas por James Naismith. A primeira partida aconteceu em 4 de abril de 1896. A Universidade de Stanford venceu a Universidade da Califórnia.\n[…]\nOs intervalos entre cada período são de dois minutos, mas entre o 2º e 3º há um intervalo de 15 minutos. Não é permitido ficar dentro do garrafão por mais de três segundos com ou sem posse de bola. Não é permitido ficar (com a bola) mais de oito segundos na zona (lado da quadra) de defesa. Há 24 segundos para arremessar a bola (zona de ataque). Quando há um marcador a menos de 1 m de distância do atacante, o mesmo, não pode segurar a bola por mais de cinco segundos.\n[…]\nO passe tem como objetivo a colocação da bola num companheiro que se encontre em melhor posição, para a criação de situações de finalização ou para a progressão no terreno de jogo. Existem vários tipos de passe: peito, picado, por cima com 2 mãos, lateral com 1 mão, por trás das costas, etc.\n[…]\n«Federação Portuguesa de Basquetebol»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Michael Jordan",
+      "descricao": "Jogador americano de basquete, seis vezes campeão da NBA pelo Chicago Bulls."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Ao voltar do beisebol para a NBA, em 1995, Michael Jordan usou por alguns meses qual número de camisa antes de retomar o vinte e três?",
+    "resposta": "45",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Michael_Jordan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Michael_Jordan",
+        "situacao": "ok",
+        "texto": "Michael Jeffrey Jordan (born February 17, 1963), also known by his initials MJ, is an American businessman, former professional basketball player, and former baseball player. He played 15 seasons in the National Basketball Association (NBA) between 1984 and 2003, winning six NBA championships with the Chicago Bulls. Jordan is considered by many to be the greatest basketball player of all time, and\n[…]\nOn March 18, 1995, Jordan announced his comeback to the NBA in a two-word press release: \"I'm back.\" The next day, Jordan took to the court with the Bulls to face the Indiana Pacers in Indianapolis, scoring 19 points. The game had the highest Nielsen rating of any regular season NBA game since 1975. Although he could have worn his original number even though the Bulls retired it, Jordan wore No. 45, his baseball number.\n[…]\nAt the end of Game 1, Orlando's Nick Anderson stripped Jordan from behind, leading to the game-winning basket for the Magic; he later commented that Jordan \"didn't look like the old Michael Jordan\", and said, \"No. 45 doesn't explode like No. 23 used to\".\n[…]\nHis last seven appearances were in a reserve role, in which he averaged just over 20 minutes per game. The Wizards finished the season with a 37–45 record, an 18-game improvement.\n[…]\nIn 1992, Jordan, now an NBA player, was a member of the \"Dream Team\", which included Larry Bird and Magic Johnson. The team won gold in the 1992 Tournament of the Americas, and the 1992 Summer Olympics. Jordan was the only player to start all eight games in the Olympics. He averaged 14.9 ppg on 45% shooting from the field and 68% from the free-throw line, and was second on the team in scoring. He was undefeated in the four tournaments he played for the U.S.\n[…]\nMichael Jordan in Flight – 1993 sports video game\n[…]\nSmith, Johnny (2023). Jumpman: The Making and Meaning of Michael Jordan. Basic Books. ISBN 978-1-5416-7566-7.\n[…]\nMichael Jordan at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Michael_Jordan",
+        "situacao": "ok",
+        "texto": "Michael Jeffrey Jordan (Nova Iorque, 17 de fevereiro de 1963) é um empresário e ex-basquetebolista estadunidense que atuava como ala-armador. Considerado por muitos como o melhor jogador de basquete de todos os tempos, é considerado também como um dos mais importantes desportistas masculinos da história. Atualmente é proprietário da 23XI Racing, equipe da NASCAR, onde seus carros levam os números \n[…]\nNo dia seguinte, Jordan voltava às quadras contra o Indiana Pacers Indianápolis, vestindo a camisa número 45 (o seu número com os Barons), pois sua camisa 23 havia sido aposentada em sua homenagem. Jordan marcou 19 pontos, no que era o jogo da temporada regular com maior audiência televisiva desde 1975.[carece de fontes]?\n[…]\nMais uma vez, Jordan foi eleito o MVP das Finais, sendo o cestinha com médias de 33,5 pontos por jogo, incluindo 45 pontos no jogo 6. O sexto título de MVP é um recorde da NBA, o dobro dos segundos colocados Shaquille O'Neal, Magic Johnson e Tim Duncan (três cada um). As finais de 1998 detém a mais alta audiência da televisão em qualquer série final na história, e o Jogo 6 detém a mais alta audiência de televisão entre todos os jogos da NBA.\n[…]\nNo entanto, uma lesão na cartilagem do joelho direito colocou fim na temporada de Jordan depois de apenas 60 jogos, o menor número que tinha jogado em uma temporada regular desde os 17 jogos no primeiro retorno em 1995.\n[…]\nFaltando 01:45, Jordan foi intencionalmente derrubado por Eric Neve dos 76ers, e foi para a linha de lance livre para fazer os arremessos. Após o segundo arremesso, a bola foi passada para o calouro John Salmons, dos 76ers, que por sua vez foi intencionalmente derrubado por Bobby Simmons um segundo mais tarde, para que Jordan pudesse voltar para o banco. Jordan recebeu uma ovação de três minutos de seus companheiros de equipe, seus adversários, funcionários e uma multidão de 21 257 fãs.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Bill Russell",
+      "descricao": "Pivô americano do Boston Celtics, onze vezes campeão da NBA entre 1957 e 1969."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em 2022, a NBA aposentou em todos os seus times o número de camisa de Bill Russell. Que número é esse?",
+    "resposta": "6",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bill_Russell"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bill_Russell",
+        "situacao": "ok",
+        "texto": "William Felton Russell (February 12, 1934 – July 31, 2022) was an American professional basketball player who played center for the Boston Celtics of the National Basketball Association (NBA) from 1956 to 1969. He was the centerpiece of the Celtics dynasty that played for 12 NBA championships and won 11 during his 13-year career. Russell is widely considered one of the greatest basketball players \n[…]\nIn 2021, Russell was inducted into the Naismith Memorial Basketball Hall of Fame a second time in recognition of his coaching career. Shortly after his death in 2022, the NBA retired Russell's #6 jersey league-wide, making him the only player in NBA history to receive that honor, as well as the third person in North American major professional sports to have their jersey number retired league-wide, after Jackie Robinson and Wayne Gretzky.\n[…]\nHe ranks No. 1 in NBA history for defensive win shares at 133.6, with Tim Duncan in second at 106.3. While blocked shots were not a recorded basketball statistic during Russell's career, he averaged 8.1 blocks in 135 games, as Boston writers often attempted to tally his blocks. Bill Simmons has estimated that Russell had between 8 and 15 blocks per game in the playoffs.\n[…]\nOn August 11, 2022, it was announced that Russell's No. 6 jersey would be retired throughout the National Basketball Association, the first time a jersey had been retired league-wide in NBA history, and joining Jackie Robinson and Wayne Gretzky in the honor among the four major American sports leagues.\n[…]\nIn October 2024, Boston Mayor Michelle Wu and other officials announced that the city would rename the new North Washington Street Bridge (located near TD Garden) in honor of Russell. At the time of the renaming, the \"William Felton 'Bill' Russell Bridge\" was under construction as the replacement of a bridge known locally as the Charlestown Bridge.\n[…]\nNo. 6 retired by NBA leaguewide"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bill_Russell",
+        "situacao": "ok",
+        "texto": "William Felton \"Bill\" Russell (West Monroe, 12 de fevereiro de 1934 – Mercer Island, 31 de julho de 2022) foi um jogador e treinador profissional de basquete norte-americano, que atuou como pivô no Boston Celtics, usando a camisa Lendária de número 6. Russell é lembrado até hoje como um dos maiores e mais dominantes jogadores da história da NBA.\n[…]\nNa temporada de 1959-60, a NBA assistiu à estreia do lendário Wilt Chamberlain no Philadelphia Warriors, obtendo a média de 37,6 pontos por jogo em seu ano de estreia. Em 7 de novembro de 1959, os Celtics de Russell receberam os Warriors de Chamberlain no que os especialistas chamaram de \"The Big Collision\" e \"Battle of the Titans\".\n[…]\nO No. 6 de Russell foi aposentado pelos Celtics em 12 de março de 1972. Além dos Celtics, Russell também vestiu o número 6 na Universidade de São Francisco e na equipe olímpica dos EUA em 1956.\n[…]\nRussell se recusou a comparecer à cerimônia quando sua camisa 6 foi aposentada em 1972; ele também se recusou a participar de sua indução no Hall of Fame em 1975. Embora Russell ainda tenha sentimentos feridos em relação a Boston, houve uma espécie de reconciliação; ele visitou a cidade regularmente nos últimos anos, algo que nunca fez nos anos imediatamente após sua aposentadoria.\n[…]\nEm 6 de maio de 1999, o Celtics re-aposentou a camisa de Russell em uma cerimônia que contou com a participação de seu rival (e amigo) Chamberlain, juntamente com os lendários Larry Bird e Kareem Abdul-Jabbar. A multidão fez uma prolongada ovação a Russell, que se emocionou. Ele agradeceu a Chamberlain por levá-lo ao limite e \"torná-lo um jogador melhor\" e à multidão por \"permitir que [ele] fizesse parte de suas vidas\".\n[…]\nNúmero 6 aposentado pelos Boston Celtics\n[…]\nNúmero 6 retirado da NBA em sua homenagem a partir da temporada 2022/23",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Fusão entre ABA e NBA",
+      "descricao": "Acordo de 1976 em que quatro times da liga ABA foram incorporados à NBA."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em 1976, quatro times da ABA foram incorporados à NBA: Spurs, Pacers, Nets e qual time do Colorado?",
+    "resposta": "Denver Nuggets",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/ABA%E2%80%93NBA_merger"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ABA%E2%80%93NBA_merger",
+        "situacao": "ok",
+        "texto": "The ABA–NBA merger was a major pro sports business maneuver in 1976 when the American Basketball Association (ABA) combined with the National Basketball Association (NBA), after multiple attempts over several years. The NBA and ABA had entered merger talks as early as 1970, but an antitrust suit filed by the head of the NBA players union, Robertson v. National Basketball Ass'n, blocked the merger \n[…]\nAs part of the merger agreement, the NBA agreed to accept four of the remaining six ABA teams: the Denver Nuggets, Indiana Pacers, New York Nets, and San Antonio Spurs. The remaining two ABA teams, the Kentucky Colonels and the Spirits of St. Louis, folded, with their players entering a dispersal draft.\n[…]\nThe Kentucky Colonels, led by Artis Gilmore, defeated the Indiana Pacers in the first round of the 1976 ABA Playoffs. The Colonels, in turn, lost a seven-game semifinal series to the Denver Nuggets, led by Dan Issel and David Thompson. The Nuggets, in turn, lost the ABA Finals to the New York Nets with Julius Erving, who had defeated George Gervin and the San Antonio Spurs to get there. The Spirits of St.\n[…]\nIn the case of the teams that were in the ABA that survived into the NBA, all of them were already considered some of the best teams in terms of playing record, though the Indiana Pacers were the only team to be an early selection due to their 39–45 record in the ABA being something that would have mostly let them miss the playoffs entirely in the NBA that season, while the San Antonio Spurs, New York Nets, and Denver Nuggets would have picked at the equivalent of 17th, 19th, and 21st picks of that draft (with the ABA champion Nets being behind the NBA champion Boston Celtics and Denver being behind only the Golden State Warriors in terms of selections that year) had every team used their first-round selections there.\n[…]\nPattison, Dan, Count Dracula Has Struck, January 1976"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Houston Comets",
+      "descricao": "Time feminino de Houston que venceu as quatro primeiras temporadas da WNBA, de 1997 a 2000."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que ala brasileira, prata olímpica em 1996, foi tetracampeã da liga americana feminina pelo Houston Comets?",
+    "resposta": "Janeth Arcain",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Houston_Comets",
+      "https://en.wikipedia.org/wiki/Janeth_Arcain"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Houston_Comets",
+        "situacao": "ok",
+        "texto": "The Houston Comets are an American professional basketball team based in Houston. Formed in 1997, the team was one of the original teams of the Women's National Basketball Association (WNBA) and won the first four championships of the league's existence. They were undefeated in the WNBA Finals; the Seattle Storm are the only other team undefeated in the finals.\n[…]\nThe Comets suffered two blows before the 2001 season--Cooper retired and Swoopes tore her ACL. Despite playing without the two biggest stars from their title runs, Houston made the playoffs with a 19–13 record before falling in the first round to the eventual champion Los Angeles Sparks. In 2002, Swoopes won her second MVP and the Comets finished 24–8, but lost to the Utah Starzz in 3 games.\n[…]\nAfter the Comets' season ended in 2006, the team went through a major front-office changes during the off-season. In October 2006, team owner Leslie Alexander – who also owned the Houston Rockets -- announced he was selling the Comets, and longtime head coach Van Chancellor resigned in January 2007.\n[…]\nOn January 31, 2007, the WNBA Board of Governors approved the sale of the team to Hilton Koch, a Houston-based mattress and furniture businessman. Two weeks later, Comets assistant coach Karleen Thompson was named to become the team's new head coach and general manager for the 2007 season.\n[…]\nIn April 2024, the Houston Rockets, now owned by Tilman Fertitta, submitted to the WNBA to revive the Comets franchise and intends to retain the team's branding if successfully landing an expansion bid. On March 27, 2026, the Associated Press reported that Fertitta agreed to purchase the Connecticut Sun and relocate the franchise to Houston, where they would take on the Comets name upon approval from the WNBA Board of Governors.\n[…]\nJaneth Arcain\n[…]\nMedia related to Houston Comets at Wikimedia Commons"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Janeth_Arcain",
+        "situacao": "ok",
+        "texto": "Janeth dos Santos Arcain (Portuguese pronunciation: [ʒaˈnɛtʃi dus ˈsɐ̃tuz aʁˈkɐ̃j], born April 11, 1969) is a Brazilian former professional women's basketball player. She played in the United States for the Houston Comets in the Women's National Basketball Association (WNBA) from 1997 to 2005.\n[…]\nArcain was one of the original players selected from the WNBA's inaugural season in 1997. She was selected 13th overall in the second round of the Elite draft by the Houston Comets. She played every Comets game in the first seven seasons of the WNBA before skipping the 2004 season to prepare for the Olympics.\n[…]\nA key piece of the Comets dynasty that included four championships from 1997 to 2000, Arcain had her best season in 2001, averaging 18.5 points per game en route to Most Improved Player and First Team All-WNBA honors.\n[…]\nArcain's final WNBA game was played in Game 2 of the 2005 Western Conference Finals on September 10, 2005 against the Sacramento Monarchs. Arcain recorded 12 points, 2 rebounds, 2 assists and 4 steals but her team would lose the game 65 - 74 and be eliminated from the playoffs.\n[…]\nWith the Brazil national team, Arcain won the FIBA World Championship for Women in 1994 and two medals in the Olympic Games: silver in 1996, and bronze in 2000. Arcain also finished fourth in 2004, where she became the highest-scoring female player ever of the Olympics with 535 points, a record broken in  2012 by Lauren Jackson. She decided to retire after two big events to be hosted in Brazil, the 2006 FIBA World Championship for Women (fourth) and the 2007 Pan American Games (silver).\n[…]\nArcain was named mayor of the 2016 Summer Olympics Olympic Village.\n[…]\nJaneth Arcain at the FIBA Hall of Fame\n[…]\nJaneth Dos Santos Arcain at FIBA (archive)\n[…]\nJaneth Arcain at Olympedia\n[…]\nJaneth Arcain at Olympics.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Houston_Comets",
+        "situacao": "ok",
+        "texto": "O Houston Comets foi um time profissional de basquete norte-americano da Women's National Basketball Association (WNBA) sediado em Houston, Texas. Formado em 1997, o Comets foi uma das oito franquias originais da WNBA e venceu os quatro primeiros campeonatos da liga. É um dos dois times da WNBA que permanece invicto nas finais da WNBA; o outro é o Seattle Storm.\n[…]\nO Houston Comets foi um dos times fundadores da WNBA. Suas quatro primeiras temporadas foram marcadas por um sucesso dominante na liga, tornando-se a primeira dinastia da WNBA. O Comets encerrou a temporada inaugural da liga com uma vitória contra o New York Liberty na final do campeonato, conquistando o primeiro título da liga.\n[…]\nEm 31 de janeiro de 2007, o Conselho de Governadores da WNBA aprovou a venda do time para Hilton Koch, um empresário no ramo de colchões e móveis sediado em Houston. Duas semanas depois, a auxiliar técnica do Comets, Karleen Thompson, foi nomeada para assumir o cargo de treinadora principal e diretora geral do time para a temporada de 2007.\n[…]\nA presidente da liga, Donna Orender, disse que o colapso do Comets não era um sinal de que a WNBA estivesse em apuros. Cynthia Cooper disse que a perda do Comets era uma \"notícia pertubadora\" e que o time era fundamental para a WNBA.\n[…]\nEm abril de 2024, o Houston Rockets, agora propriedade de Tilman Fertitta, apresentou à WNBA um pedido para reativar a franquia do Comets, com a intenção de manter a identidade do time caso sua proposta de expansão fosse aprovada. Em 27 de março de 2026, a Associated Press informou que Fertitta concordou em comprar o Connecticut Sun e transferir a franquia para Houston, onde assumiria o nome de Comets após a aprovação do Conselho de Governadores da WNBA.\n[…]\n2000: Sheryl Swoopes, Janeth Arcain (BRA)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Space Jam",
+      "descricao": "Filme de 1996 que mistura animação e atores, estrelado por Michael Jordan e pelos personagens Looney Tunes."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No filme Space Jam, de 1996, como se chama o time de alienígenas gigantes que rouba o talento de astros da NBA?",
+    "resposta": "Monstars",
+    "distratores": [
+      "Tune Squad",
+      "Goon Squad",
+      "Moron Mountain"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Space_Jam"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Space_Jam",
+        "situacao": "ok",
+        "texto": "Space Jam is a 1996 American sports comedy film directed by Joe Pytka and written by Leo Benvenuti, Steve Rudnick, Timothy Harris, and Herschel Weingrod. The film, which combines live action and animation, stars basketball player Michael Jordan as himself; the live-action cast also includes Wayne Knight and Theresa Randle, while Billy West and Danny DeVito headline the voice cast.\n[…]\nDuring a time-out, Jordan raises the stakes with Swackhammer: if the Tune Squad wins, the Monstars must relinquish their stolen talent, and if the Monstars win, Jordan will spend the rest of his life being Moron Mountain's newest attraction. On Swackhammer's command, the Monstars play more aggressively, injuring most of the Tune Squad.\n[…]\nAfter Swackhammer scolds the Monstars for their failure, Jordan helps them realize that they only served him because they were once smaller. Having had enough of their boss's behavior towards them, the Monstars insert Swackhammer inside a missile that sends him to the moon. After relinquishing their stolen talent, the Nerdlucks decide to join the Tunes, while Jordan and Stan return to Earth and return the talent to the five players, whose remarks convince Jordan to return to the NBA.\n[…]\nTingblad storyboarded the scene in which Sniffles gets squashed by the Monstar Blanko, out of dislike for the character. Cervone stated, \"I remember people at that time going, 'No one even knows who Sniffles is.' [But] we remember Sniffles. We've been waiting to hit Sniffles with a basketball for many years… And I do think that might be one of the reasons we're still talking about it is the movie does seem like it has this raw energy to it, chaotic energy to it in an off-kilter structure.\"\n[…]\nBittner, Drew (December 1996). \"Space Jam\". Starlog. No. 233. pp. 52–57.\n[…]\nSpace Jam at Box Office Mojo\n[…]\nSpace Jam at Rotten Tomatoes\n[…]\nSpace Jam at the TCM Movie Database (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Space_Jam",
+        "situacao": "ok",
+        "texto": "Space Jam (bra: Space Jam: O Jogo do Século) é um filme estadunidense de 1996 dos gêneros comédia, aventura, fantasia e esportivo dirigido por Joe Pytka e escrito por Leo Benvenuti, Steve Rudnick, Timothy Harris e Herschel Weingrod.\n[…]\nApós algum tempo, o jogo entre o TuneSquad e os Monstars começa e, embora conte com a ajuda do talentoso Michael Jordan, os Looney Tunes são massacrados pela agressividade dos monstruosos adversários, e o time dos heróis termina o primeiro tempo da partida com uma grande desvantagem no placar.\n[…]\nDanny DeVito fornece a voz do Senhor Swackhammer, o proprietário e presidente do parque temático \"Montanha Moron\" (ou \"Montanha Bobolândia na dublagem brasileira), pelo qual ele busca novas atrações. Mais tarde, ele age como o treinador dos Monstars no jogo contra os Looneys.\n[…]\nAlém de Jordan, um número de jogadores e treinadores da NBA apareceram no filme. Larry Bird interpreta um amigo de Jordan, que se junta a ele  para um jogo de golfe. Quando os Monstars roubam o talento dos jogadores da NBA, eles invadem um jogo entre o Phoenix Suns e o New York Knicks, fazendo com que Patrick Ewing, que joga no Knicks, e Charles Barkley, que joga no Suns, cometam erros durante o jogo. Nessas cenas, os jogadores dos Knicks, Charles Oakley e Derek Harper e dos Suns A. C.\n[…]\nOutras faixas incluíam um cover de \"Fly Like an Eagle\" da banda Steve Miller Band (interpretada por Seal), \"Hit 'Em High (The Monstars' Anthem)\" (de B-Real, Busta Rhymes, Coolio, LL Cool J e Method Man), \"Basketball Jones (Barry White e Chris Rock), \"Pump Up the Jam\" (por Technotronic), \"I Turn to You\" (All-4-One) e \"For You I Will\" (Monica). A música-título do filme foi tocada pelos Quad City DJ's.\n[…]\nSpace Jam no AllMovie (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Basquete feminino nos Jogos Olímpicos",
+      "descricao": "Torneio olímpico de basquete para mulheres, disputado desde os Jogos de Montreal."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O basquete masculino estreou nas Olimpíadas em 1936. Em qual edição dos Jogos as mulheres finalmente ganharam seu torneio?",
+    "resposta": "Montreal 1976",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basketball_at_the_1976_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basketball_at_the_1976_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "Basketball events at the 1976 Summer Olympics was the ninth appearance of the sport of basketball as an official Olympic medal event. It took place from July 18 to July 27 at the Centre Étienne Desmarteau and the Montreal Forum in Montreal, Quebec, Canada. Women's basketball was introduced to the Olympic program for the first time at this Games.\n[…]\nBasketball at the 1976 Summer Olympics – Men's team rosters\n[…]\nBasketball at the 1976 Summer Olympics – Women's team rosters"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol_nos_Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1976",
+        "situacao": "ok",
+        "texto": "O basquetebol nos Jogos Olímpicos de Verão de 1976 foi realizado em Montreal, no Canadá.\n[…]\nPela primeira vez na história foi realizado um torneio feminino da modalidade além do masculino, presente nos Jogos desde Berlim 1936. A União Soviética foi a primeira equipe campeã do basquete feminino ao superar as estadunidenses em número de pontos - o torneio foi disputado em uma única chave, com a equipe que somasse mais pontos levando a medalha de ouro.\n[…]\nA equipe masculina da União Soviética que havia sido campeão nos Jogos de Montreal quatro anos antes, não repetiu o desempenho e caiu na semifinal contra a Iugoslávia. Os Estados Unidos aproveitaram-se para restabelecer a hegemonia no basquetebol olímpico (não foram campeões apenas em 1972) e conquistaram o título sobre os iugoslavos na final.\n[…]\nDevido ao boicote africano aos Jogos, a equipe de basquete masculino do Egito abandonou a competição após a realização da primeira partida (derrota por 103-64 para a Checoslováquia). O Egito perdeu as partidas restantes por w.o. (2-0) e o grupo B do torneio contou com apenas cinco equipes.\n[…]\n(em inglês) Relatório oficial dos Jogos Olímpicos de Montreal 1976",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Cesta de três pontos",
+      "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década a NBA adotou a cesta de três pontos?",
+    "resposta": "Década de 1970, na temporada 1979 e 1980",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Three-point_field_goal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Three-point_field_goal",
+        "situacao": "ok",
+        "texto": "A three-point field goal (also 3-pointer, three, trey, or triple) is a field goal in a basketball game made from beyond the three-point line, a designated arc surrounding the basket. A successful basket is worth three points, in contrast to the two points awarded for field goals made within the three-point line and the one point for each made free throw.\n[…]\nThree years later, in June 1979, the NBA adopted the three-point line (initially on a one-year trial) for the 1979–80 season, despite the view of many that it was a gimmick. Chris Ford of the Boston Celtics is credited with making the first three-point shot in NBA history on October 12, 1979. The season opener at Boston Garden was more remarkable for the debut of Larry Bird (and two new head coaches).\n[…]\nRick Barry of the Houston Rockets, in his final season, also made one in the same game, and Kevin Grevey of the Washington Bullets made one that Friday night as well. Barry would later set the original 3-point record at 8 in a single game on February 9, 1980 against the Utah Jazz. The three-point field goal was slow to be adopted by teams in the NBA.\n[…]\nIn the 1980 NBA Finals, Julius Erving made the only three of the series (and first in Finals history) in Game 3, and in Game 4, neither team attempted a single shot beyond the arc.\n[…]\nThe NCAA's Southern Conference became the first collegiate conference to use the three-point rule, adopting a 22-foot (6.71 m) line for the 1980–81 season. Ronnie Carr of Western Carolina was the first to score a three-point field goal in college basketball history on November 29, 1980. Over the following five years, NCAA conferences differed in their use of the rule and distance required for a three-pointer.\n[…]\nArticle on Columbia's experimentation with the three-point field goal decades before its official introduction"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Linha_dos_tr%C3%AAs_pontos",
+        "situacao": "ok",
+        "texto": "A Linha dos 3 Pontos é uma linha em formato de arco presente na quadra de basquetebol designada para um arremesso de três pontos. Para valer os 3 pontos, o arremessador tem que estar antes dessa linha. Caso um dos pés toque essa linha, o arremesso é considerado de 2 pontos;.\n[…]\nA distância da cesta até a linha de três pontos varia de acordo com o nível da competição: na NBA, o arco fica a 23 pés 9 polegadas (7,24 m) do centro da cesta; na FIBA, o jogo masculino da Divisão I da WNBA e da NCAA é de 6,75 m (22 pés 1,75 pol); e nas peças femininas nas três divisões da NCAA, além das peças masculinas nas divisões II e III da NCAA, o arco mede 6,32 m.\n[…]\nNa (W) NBA e FIBA, a linha de três pontos se torna paralela a cada linha lateral nos pontos em que o arco está a 3 pés (0,91 m) de cada linha lateral; Como resultado, a distância da cesta diminui gradualmente para um mínimo de 22 pés (6,71 m). Nas divisões II e III da NCAA, o arco é contínuo a 180 ° ao redor da cesta. Existem mais variações (consulte o artigo principal).\n[…]\nNo basqeuetbol 3x3, uma variante sancionada pela FIBA, a mesma linha existe, mas os chutes por trás dele valem apenas 2 pontos e os outros chutes valem 1 ponto.\n[…]\nEm 1961 a linha foi utilizada pela 1ª vez em uma liga profissional, a ABL, a adotasse, seguida pela Continental Basketball Association na temporada de 1963-64.\n[…]\nPara não perder prestígio, a NBA adotou a linha de 3 pontos na temporada 1979-80, com o jogador Chris Ford, do Boston Celtics, que marcou o primeiro triplo da história da liga em 12 de outubro de 1979.\n[…]\nNas regras da FIBA, a Linha dos 3 Pontos só foi introduzida, após o fim dos Jogos Olímpicos de Verão de 1984 em Los Angeles, nos Estados Unidos.\n[…]\nLinha dos 4 pontos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Cesta de pêssego",
+      "descricao": "O cesto de frutas usado como alvo nos primeiros jogos de basquete, em 1891."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Os primeiros cestos usados no basquete, pregados na sacada de um ginásio em 1891, eram feitos para a colheita de qual fruta?",
+    "resposta": "Pêssego",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Basketball",
+      "https://en.wikipedia.org/wiki/James_Naismith"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Basketball",
+        "situacao": "ok",
+        "texto": "Basketball is a team sport in which two teams of five players each (excluding substitutes) oppose one another on a rectangular court. Players compete with the primary objective of shooting a basketball through a hoop (a basket mounted to a backboard) at each end of the court. Teams alternate between offense (when they attempt to score), and defense (when they try to prevent the opposing side from \n[…]\nBasketball was originally played with a soccer ball. These round balls from \"association football\" were made, at the time, with a set of laces to close off the hole needed for inserting the inflatable bladder after the other sewn-together segments of the ball's cover had been flipped outside-in. These laces could cause bounce passes and dribbling to be unpredictable.\n[…]\nThe peach baskets were used until 1906 when they were finally replaced by metal hoops with backboards. A further change was soon made, so the ball merely passed through. Whenever a person got the ball in the basket, their team would gain a point. Whichever team got the most points won the game. The baskets were originally nailed to the mezzanine balcony of the playing court, but this proved impractical when spectators in the balcony began to interfere with shots.\n[…]\nHalf-court basketball is usually played 1-on-1, 2-on-2, or 3-on-3. The last of these variations is gradually gaining official recognition as 3x3, originally known as FIBA 33. It was first tested at the 2007 Asian Indoor Games in Macau and the first official tournaments were held at the 2009 Asian Youth Games and the 2010 Youth Olympics, both in Singapore.\n[…]\nDunk Hoops is a variation played on basketball hoops with lowered (under basketball regulation 10 feet) rims. It originated when the popularity of the slam dunk grew and was developed to create better chances for dunks with lowered rims and using altered goaltending rules.\n[…]\nNational Basketball Association"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/James_Naismith",
+        "situacao": "ok",
+        "texto": "James Naismith ( NAY-smith; November 6, 1861 – November 28, 1939) was a Canadian-American physical educator, physician, Christian chaplain, and sports coach, best known as the inventor of the game of basketball.\n[…]\nThe first game of \"Basket Ball\" was played in December 1891. In a handwritten report, Naismith described the circumstances of the inaugural match; in contrast to modern basketball, the players played nine versus nine, handled a soccer ball, and instead of shooting at two hoops, the goals were a pair of peach baskets: \"When Mr. Stubbins brot  [sic] up the peach baskets to the gym I secured them on the inside of the railing of the gallery.\n[…]\nThe original rules of basketball written by Naismith in 1891, considered to be basketball's founding document, were auctioned at Sotheby's, New York, in December 2010. Josh Swade, a University of Kansas alumnus and basketball enthusiast, went on a crusade in 2010 to persuade moneyed alumni to consider bidding on and hopefully winning the document at auction to give it to the University of Kansas. Swade eventually persuaded David G.\n[…]\nSwade's project and eventual success are chronicled in a 2012 ESPN 30 for 30 documentary \"There's No Place Like Home\" and in a corresponding book, The Holy Grail of Hoops: One Fan's Quest to Buy the Original Rules of Basketball. The University of Kansas constructed an $18 million building named the Debruce Center, which houses the rules and opened in March 2016.\n[…]\nJames Naismith's Original Rules of Basketball\n[…]\nBasketball scorekeeping\n[…]\nReprinted: Naismith, James (1996). Basketball : its origin and development. Lincoln: University of Nebraska Press. ISBN 9780803283701. OCLC 604260339.\n[…]\nBasketball Hall of Fame profile"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Basquetebol",
+        "situacao": "ok",
+        "texto": "O basquetebol, popularmente conhecido como basquete (português brasileiro) ou básquete (português europeu), é um esporte coletivo inventado em 1891 pelo professor de educação física canadense James Naismith, na Associação Cristã de Moços de Springfield, em Massachusetts, nos Estados Unidos.\n[…]\nNaismith logo descartou um jogo que utilizasse os pés ou com muito contato físico, pois poderiam se tornar muito violentos devido às características de um ginásio, local fechado e com piso de madeira. O professor escreveu as treze regras básicas do jogo e pendurou um cesto de pêssegos a uma altura que julgou adequada: 10 pés, equivalente a 3,05 metros, altura que se mantém até hoje; já a quadra possuía, aproximadamente, metade do tamanho da atual.\n[…]\nO primeiro jogo oficial de basquetebol foi disputado em 20 de janeiro de 1892, com nove jogadores em cada equipe e utilizando-se uma bola de futebol, sendo visto apenas por funcionários da Associação Cristã de Moços. Cerca de duzentas pessoas viram o jogo, que terminou com o placar de 1 a 0, sendo a cesta feita de uma distância de 7,6 metros. Equipes de cinco pessoas passaram a ser o padrão por volta de 1897 e 1898.\n[…]\nEm contraste com as redes de basquete moderno, a cesta de pêssegos manteve inicialmente a sua parte inferior, e as bolas tinham que ser retiradas manualmente após cada \"cesta\" ou ponto marcado, o que provou ser ineficaz. Dessa forma, um buraco foi perfurado no fundo da cesta, permitindo que as bolas fossem retiradas a cada vez com uma longa vara. Os cestos de pêssegos foram utilizados até 1906, quando foram finalmente substituídos por aros de metal com tabela.\n[…]\nNovo Basquete Brasil\n[…]\nBasquetebol 3x3\n[…]\n«Federação Internacional de Basquetebol» (em inglês)\n[…]\n«Confederação Brasileira de Basketball»\n[…]\n«Federação Portuguesa de Basquetebol»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "American Basketball Association",
+      "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A ABA, liga que rivalizou com a NBA entre 1967 e 1976, ficou famosa por usar uma bola de quais cores?",
+    "resposta": "Vermelha, branca e azul",
+    "distratores": [
+      "Laranja e preta",
+      "Verde e amarela",
+      "Preta e branca"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/American_Basketball_Association"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/American_Basketball_Association",
+        "situacao": "ok",
+        "texto": "The American Basketball Association (ABA) was a major professional basketball league that operated for nine seasons from 1967 to 1976. The upstart ABA operated in direct competition with the more established National Basketball Association throughout its existence. The second of two leagues established in the 1960s after the American Basketball League, the ABA was the more successful rival to the \n[…]\nBut John McShane, a public relations man of McShane Associates, found common ground with Seredin to serve as a go-between for Murphy to forge an actual meeting in organizational form in Beverly Hills under the prospective name of the \"United Basketball League\".\n[…]\nThe first meeting, at the Beverly Hills Hilton, was held on December 20, 1966 (with the organization going as the \"American Basketball Association\") that had seen McShane and Seredin leak the meeting to the press to attract attention while Murphy had a few of his associates pose as potential investors. The meeting resulted in a few legitimate investors and later scheduling.\n[…]\nIt was later that Gary Davidson (an attorney in Orange County) expressed interest in joining the league, while Mark Binstein served as acting president. Don Regan, a law school associate of Davidson, also joined in. On January 31, 1967, two days prior to a potential press conference, Mikan expressed interest in potentially being league commissioner if the terms were correct.\n[…]\nGeorge Mikan 1967–1969\n[…]\nNBA great Mikan was the first commissioner of the ABA, where he introduced both the 3-point line and the league's trademark red, white, and blue basketball. Mikan resigned in 1969. DeBusschere, one of the stars of the New York Knicks championship teams, moved from his job as vice president and GM of the ABA's New York Nets in 1975 to become the last commissioner of the ABA and facilitate the ABA–NBA merger in 1976.\n[…]\nAmerican Basketball Association (2000–present)"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Tiago Splitter",
+      "descricao": "Pivô brasileiro que jogou na NBA pelo San Antonio Spurs, campeão em 2014."
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Em 2014, com o San Antonio Spurs, qual pivô se tornou o primeiro brasileiro campeão da NBA?",
+    "resposta": "Tiago Splitter",
+    "distratores": [
+      "Leandro Barbosa",
+      "Nenê",
+      "Anderson Varejão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tiago_Splitter"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tiago_Splitter",
+        "situacao": "ok",
+        "texto": "Tiago Splitter Beims (Brazilian Portuguese pronunciation: [tʃiˈagu (i)ˈspliteʁ ˈbẽjs]; born January 1, 1985) is a Brazilian professional basketball coach and former player who is the head coach for the Chicago Bulls of the National Basketball Association (NBA). A three-time All-EuroLeague Team selection prior to his NBA career, he became the first Brazilian-born player to win an NBA championship, \n[…]\nOn May 28, 2008, ESPN Brasil reported that Splitter had re-signed with Saski Baskonia, on a two-year contract that would keep him in the Spanish ACB League through the 2009–10 NBA season. The contract allowed the Brazilian to make eight times more than the NBA rookie scale salary cap would have allowed him to make with the San Antonio Spurs at that time. On June 7, 2008, the San Antonio Express-News reported that Spurs General Manager R.C.\n[…]\nBuford, had stated that Splitter had informed the team that he would not be coming to San Antonio for the 2008–09 NBA season.\n[…]\nAfter missing 20 out of the first 21 games of the 2014–15 season with a back injury, Splitter played out the rest of the season, until missing the final six games of the regular season, with a calf injury. He returned for the playoffs, but the Spurs were knocked out in the first round by the Los Angeles Clippers, in seven games.\n[…]\nSplitter led Portland to a 42–40 record after he was involved with the regular season debut loss to the Timberwolves as an assistant coach earlier in the season and the franchise's first playoff appearance since 2021. The Trail Blazers clinched the seventh seed with a 114–110 win over the Phoenix Suns in the play-in tournament, before losing to the San Antonio Spurs in five games in the first round of the playoffs.\n[…]\nTiago Splitter at Euroleague.net\n[…]\nTiago Splitter at FIBA (archive)\n[…]\nTiago Splitter[link removed] at ACB.com (archive) (in Spanish)\n[…]\nTiago Splitter at Olympedia\n[…]\nTiago Splitter at Olympics.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tiago_Splitter",
+        "situacao": "ok",
+        "texto": "Tiago Splitter Beims (Joinville, 1 de janeiro de 1985) é um treinador de basquete e ex-basquetebolista brasileiro. Atualmente, comanda o Chicago Bulls, da National Basketball Association (NBA).\n[…]\nEsperava-se que Splitter se declarasse para o Draft da NBA de 2006, mas a multa alta em seu contrato desencorajou as equipes da NBA e ele permaneceu na Liga ACB naquela temporada. Splitter foi automaticamente elegível para o Draft da NBA de 2007, já que ele tinha pelo menos 22 anos de idade na época do draft. Ele foi selecionado pelo San Antonio Spurs, na primeira rodada do draft, como a 28ª escolha geral.\n[…]\nEm 28 de maio de 2008, a ESPN Brasil informou que Splitter havia renovado seu contrato com o Saski Baskonia em um contrato de dois anos. O contrato permitia ao brasileiro ganhar 8 vezes mais do que o teto salarial para novatos da NBA teria permitido. Em 7 de junho de 2008, o San Antonio Express-News informou que o gerente geral do Spurs, R.C. Buford, afirmou que Splitter informou a equipe que não viria a San Antonio para a temporada de 2008-09.\n[…]\nEm 13 de julho de 2013, ele renovou seu contrato com os Spurs. Em 15 de junho de 2014, Splitter venceu seu primeiro título da NBA, depois que os Spurs derrotaram o Miami Heat por 4-1 nas Finais da NBA de 2014.\n[…]\nDepois de perder 20 dos primeiros 21 jogos da temporada de 2014-15 com uma lesão nas costas, Splitter jogou o resto da temporada, até perder os últimos seis jogos da temporada regular com uma lesão na panturrilha. Ele voltou para os playoffs, mas os Spurs foram derrotados na primeira rodada pelo Los Angeles Clippers em sete jogos.\n[…]\nCampeão da NBA: 2014\n[…]\nPerfil de Tiago Splitter no sítio da Confederação Brasileira de Basketball",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Franca",
+      "descricao": "Município do interior de São Paulo, tradicional centro do basquete brasileiro."
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cidade do interior paulista, também famosa pelos calçados, é conhecida como a capital do basquete brasileiro?",
+    "resposta": "Franca",
+    "distratores": [
+      "Bauru",
+      "Limeira",
+      "Ribeirão Preto"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Franca"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Franca",
+        "situacao": "ok",
+        "texto": "Franca é um município brasileiro no interior do estado de São Paulo, Região Sudeste do país. Localiza-se no nordeste paulista, a cerca de 401 quilômetros da capital estadual e a 676 km de Brasília. Ocupa uma área de 605,7 km² dos quais aproximadamente 82 km² correspondem ao perímetro urbano, e sua população estimada segundo o Instituto Brasileiro de Geografia e Estatística (IBGE) em 2025, era de 3\n[…]\nFoi povoada por luso-brasileiros e afro-brasileiros no final do século XVIII, situando-se ao longo da rota que era utilizada pelos tropeiros que cruzavam o interior paulista, então conhecida como Caminho de Goiás. A emancipação política ocorreu em 1824, recebendo o nome de Freguesia de Franca do Imperador, em homenagem a Dom Pedro I.\n[…]\nA partir dessas incursões, surgiram os chamados \"pousos\" de tropeiros, onde viajantes e animais descansavam durante as jornadas em busca de ouro no interior do Brasil. O pouso que originou a cidade de Franca era conhecido pelos bandeirantes como \"Pouso dos Bagres\".\n[…]\nHistoricamente, a lapidação de diamantes também teve relevância em Franca.\n[…]\nFranca possui uma malha rodoviária que a liga a várias cidades do interior paulista e mineiro, até a capital, tendo acesso a rodovias de importância estadual e nacional através de rodovias estaduais pavimentadas, como a Rodovia Anhanguera (SP-330). As seguintes rodovias passam pelo município: Rodovia Engenheiro Ronan Rocha e Rodovia Prefeito Fábio Talarico (transversais, SP-345); Rodovia Cândido Portinari (SP-334); Rodovia Rio Negro e Solimões (SP-336) e Rodovia João Traficante (providencial).\n[…]\nO basquete é um dos principais esportes de destaque na cidade, sendo conhecida como a capital do basquete brasileiro, e casa do Franca Basquetebol Clube, fundado em 10 de maio de 1959. O clube foi vice-campeão mundial de basquete em 1975 sob o nome de Esporte Clube Amazonas Franca, e em 1980 como Associação Atlética Francana."
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.34 — 2026-10-01**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas e obras de arte em domínio público (pinturas, gravuras). Obras com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com várias espécies. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É uso privado, num jogo entre amigos, e não licença livre.
+- **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras de um tema, **pelo menos três famílias** e **pelo menos três catálogos**;
+- nenhum catálogo passa de **40%** das perguntas com figura do seu tema;
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

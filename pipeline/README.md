@@ -61,7 +61,7 @@ python pipeline/rodar.py dificuldade [--forcar]                     # popularida
 | 1. **gerar** | Claude (Opus, esforço alto), com a Parte I do manifesto (regras de conteúdo), as âncoras e as perguntas já existentes no subtema | `01_prompt.md`, `01_geracao.json` |
 | 2. **validar** | Python: esquema, lista canônica, distratores e duplicatas de perguntas já existentes | `02_validado.json` |
 | 3. **criticar** | O Python baixa das URLs de `fonte` a abertura e as passagens ligadas à pergunta (`fontes.py`). Claude (Sonnet, esforço médio), **sem web e numa chamada só**, também com a Parte I do manifesto: confere o fato nos trechos (campo `apoio`: trecho, conhecimento ou contradito), confere a precisão literal do enunciado, aplica os critérios de qualidade e aprova, reescreve ou descarta cada pergunta | `03_fontes.json`, `03_prompt.md`, `03_critica_bruta.json`, `03_criticado.json` |
-| 4. **ancoras** | Python compara as âncoras com o cadastro. O Claude (Sonnet) julga só os casos parecidos. Checa se as URLs respondem e aplica os limites por âncora | `04_julgamento.json`, `04_ancoras.json` |
+| 4. **ancoras** | Python procura no cadastro âncoras com nome igual ou parecido. Só a âncora que o gerador indicou pelo `id` passa direto; as outras com candidatas vão ao juiz (Claude, Sonnet), que compara as descrições, porque nome igual não basta (homônimos). Checa se as URLs respondem, aplica os limites por âncora e descarta o que repete um fato já perguntado sobre a mesma âncora | `04_julgamento.json`, `04_repetidos.json`, `04_ancoras.json` |
 | 5. **registrar** | Python: atribui os ids `q00001`… e grava no banco | — |
 
 **Retomada:** uma etapa cujo arquivo já existe é pulada. Para **refazer** uma etapa, apague o arquivo dela e os das etapas seguintes.
@@ -84,7 +84,8 @@ pipeline/
 ├── fontes.py              ← baixa as fontes e escolhe os trechos para o crítico
 ├── comparar_critico.py    ← refaz a crítica de um lote com outro modelo, sem gravar no banco
 ├── comum.py               ← caminhos, arquivos, normalização, log
-├── prompts/               ← gerar.md, criticar.md, reescrever.md, julgar_ancora.md
+├── prompts/               ← gerar.md, criticar.md, reescrever.md, julgar_ancora.md, repetidos.md,
+│                             curar_catalogo.md, figuras.md, criticar_figuras.md
 ├── esquemas/              ← formato obrigatório das respostas do Claude em cada etapa
 ├── banco/
 │   ├── perguntas.json     ← o banco de perguntas
@@ -122,8 +123,8 @@ python pipeline/autopiloto.py --publicar 5    # a cada 5 trabalhos, git push e d
 python pipeline/autopiloto.py --status        # mostra o progresso contra as metas e sai
 ```
 
-- **Escolha do trabalho:** compara o que falta de texto e de figura, em proporção à meta, e ataca o maior déficit. Texto: o subtema mais atrasado ganha uma encomenda nova, montada a partir do `plano.json` (orientação do subtema, orientação geral e rodízio de ângulos). Figura: o tema mais atrasado, e dentro dele o catálogo mais atrasado.
-- **Cota:** se o Claude responde que a cota ou o limite acabou, o autopiloto espera (15 minutos, ou até o horário de liberação informado) e retoma da mesma etapa. Outras falhas são tentadas 3 vezes; depois, o subtema ou o catálogo é pausado.
+- **Escolha do trabalho:** compara o que falta de texto e de figura, em proporção à meta, e ataca o maior déficit. Texto: o subtema mais atrasado ganha uma encomenda nova, montada a partir do `plano.json` (orientação do subtema, orientação geral e rodízio de ângulos). Figura: o tema mais atrasado, e dentro dele o catálogo com o maior déficit **relativo** à sua meta, para que os catálogos de um tema cresçam juntos (nenhum passa de 40% do tema).
+- **Cota:** se o Claude responde que a cota acabou ("You've hit your session limit · resets 6:10pm", "usage limit", "rate limit", "overloaded", 429 ou 529), o autopiloto espera até o horário de liberação informado, mais 2 minutos (ou 15 minutos, se a mensagem não tiver horário), e retoma da mesma etapa. Outras falhas, inclusive tempo limite, são tentadas 3 vezes; depois, o subtema ou o catálogo é pausado.
 - **Assunto esgotado:** dois lotes seguidos de um subtema com menos de 20 perguntas aproveitadas pausam o subtema. Um catálogo sem entidades aproveitáveis também é pausado. Os pausados ficam em `banco/estado.json`.
 - **Depois de cada trabalho:** exporta as perguntas para o app e faz um commit local. Push e deploy só com `--publicar`.
 - **Parar:** crie o arquivo `pipeline/PARAR`. O autopiloto termina o trabalho atual e sai. A trava `pipeline/autopiloto.lock` impede dois autopilotos ao mesmo tempo.
@@ -139,7 +140,8 @@ O `figuras.py` faz as perguntas com figura de reconhecimento (MANIFESTO §6), a 
 | 0. curadoria | Se o catálogo tem poucas entidades livres, o Claude (Opus) propõe mais 40, em três camadas, sem repetir as do catálogo nem as do banco | `catalogos/<catálogo>.json` |
 | 1. preparo | Escolhe entidades das três camadas e baixa a imagem principal: Wikidata/Commons (`P18`, bandeira `P41`, mapa `P242`) ou PokéAPI. Confere a licença, põe fundo branco, guarda um trecho da Wikipédia e sugere família e nível, puxando para as metas de variedade | `01_selecao.json`, `01.jpg`… |
 | 2. avaliação | O Claude (Sonnet) **abre cada imagem**, reprova as ruins (texto que entrega a resposta, montagem, assunto ambíguo) e escreve a pergunta | `02_avaliacao.json` |
-| 3. registro | Liga à âncora, respeitando a saturação (no máximo 3 perguntas por âncora e 2 com figura), copia a imagem e grava | — |
+| 3. crítica | O Python baixa os trechos das fontes (`fontes.py`). O Claude (Sonnet, esforço médio), sem a imagem, mas sabendo o que ela mostra, confere o fato, o vazamento, a resposta única e os distratores, e aprova, reescreve ou descarta | `03_fontes.json`, `03_critica.json` |
+| 4. registro | Liga à âncora (nomes iguais ou parecidos vão ao juiz, como no texto), respeita a saturação (no máximo 3 perguntas por âncora e 2 com figura), descarta o que repete um fato já perguntado sobre a mesma âncora, copia a imagem e grava | `04_julgamento.json`, `04_repetidos.json` |
 
 ## Saturação por âncora
 

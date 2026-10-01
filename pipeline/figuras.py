@@ -5,7 +5,9 @@ Um lote de figuras de um catálogo passa por:
   1. seleção e preparo: escolhe entidades das três camadas, baixa a imagem principal (Wikidata/Commons ou PokéAPI),
      confere a licença, põe fundo branco e guarda um trecho da Wikipédia;
   2. avaliação: o LLM abre cada imagem, reprova as ruins e escreve a pergunta (família e nível sugeridos);
-  3. registro: liga à âncora (respeitando a saturação), copia a imagem e grava no banco.
+  3. crítica: outro LLM, sem a imagem, confere o fato nos trechos das fontes, o vazamento e os distratores;
+  4. registro: liga à âncora (com o juiz para nomes parecidos), respeita a saturação, descarta o que repete uma
+     pergunta do banco sobre a mesma âncora, copia a imagem e grava no banco.
 Cada passo grava seu arquivo em trabalho/<lote>/ e é pulado se já existe, como nas encomendas de texto.
 """
 
@@ -20,6 +22,9 @@ from collections import Counter
 from PIL import Image
 
 import banco as bc
+import claude_cli
+import etapas
+import fontes
 from claude_cli import chamar
 from comum import (BANCO_DIR, ESQUEMAS_DIR, PIPELINE, PROMPTS_DIR, TRABALHO_DIR, gravar_json, ler_json, ler_texto,
                    manifesto_para_llm, normalizar, preencher, registrar_log)
@@ -110,6 +115,7 @@ def curar(cat, banco, config, quantidade=40):
                        destinos=json.dumps({i: f"{t} › {s}" for i, (t, s) in enumerate(cat["destinos"])}, ensure_ascii=False),
                        quantidade=quantidade, imagem=cat["imagem"], excluir=", ".join(sorted(excluir)) or "(nenhuma)")
     c = config["catalogo"]
+    claude_cli.contexto.update(encomenda=f"catalogo_{cat['id']}", etapa="curadoria")
     saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_catalogo.json"), c["modelo"], c["esforco"], tempo_limite=c["tempo_limite"])
     vistos = {normalizar(n) for n in excluir}
     novas = 0
@@ -283,84 +289,223 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
                            familias=", ".join(cat["familias"]), enunciado=enunciado,
                            itens=json.dumps(entrada, ensure_ascii=False, indent=2), manifesto=manifesto_para_llm())
         c = config["figuras"]
+        claude_cli.contexto.update(encomenda=lote_id, etapa="figuras")
         avaliacao = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_figuras.json"), c["modelo"], c["esforco"],
                            ferramentas=["Read"], tempo_limite=c["tempo_limite"], diretorios=[pasta])
         gravar_json(av_arq, avaliacao)
 
-    # 3. registro
-    print("  3. registro…", flush=True)
-    return _registrar(cat, itens, avaliacao, banco, canon, lote_id, est)
+    # 3. crítica do texto (fato, vazamento, distratores), sem a imagem
+    critica = _criticar(cat, itens, avaliacao, pasta, config, lote_id)
+
+    # 4. registro: âncora (com o juiz para nomes parecidos), saturação, repetidos e gravação
+    print("  4. registro…", flush=True)
+    return _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta, config)
 
 
-def _registrar(cat, itens, avaliacao, banco, canon, lote_id, est):
+def _completa(av, cat):
+    """Campos que faltam numa avaliação aprovada (lista vazia se está completa)."""
+    faltam = [k for k in ("familia", "nivel", "destino", "tipo", "pergunta", "resposta", "ancora") if k not in av]
+    if not faltam and not 0 <= av["destino"] < len(cat["destinos"]):
+        faltam = ["destino válido"]
+    if not faltam and av["familia"] not in FAMILIAS:
+        faltam = ["família válida"]
+    return faltam
+
+
+def _criticar(cat, itens, avaliacao, pasta, config, lote_id):
+    """Segunda leitura das perguntas aprovadas pelo redator: o crítico (sem ver a imagem, mas sabendo o que ela
+    mostra) confere o fato nos trechos das fontes, o vazamento e os distratores. Devolve {indice: avaliação}."""
+    arq = pasta / "03_critica.json"
+    feita = ler_json(arq)
+    if feita is not None:
+        return {a["indice"]: a for a in feita["avaliacoes"]}
     por_indice = {it["indice"]: it for it in itens}
-    idx = banco.indice_nomes()
-    por_ancora = {k: list(v) for k, v in banco.perguntas_por_ancora().items()}
+    aprovadas = [av for av in avaliacao["itens"]
+                 if av["aprovado"] and av["indice"] in por_indice and not _completa(av, cat)]
+    if not aprovadas:
+        gravar_json(arq, {"avaliacoes": []})
+        return {}
+    print("  3. crítica…", flush=True)
+    claude_cli.contexto.update(encomenda=lote_id, etapa="criticar_figuras")
+    # fontes.trechos_do_lote espera itens no formato das encomendas de texto.
+    para_trechos = [{"_indice": av["indice"], "fonte": por_indice[av["indice"]]["fonte"], "pergunta": av["pergunta"],
+                     "resposta": av["resposta"],
+                     "_ancora": {"nome": av["ancora"]["nome"], "variantes": av["ancora"].get("variantes", [])}}
+                    for av in aprovadas]
+    trechos = fontes.trechos_do_lote(para_trechos, pasta / "03_fontes.json")
+    lote = []
+    for av in aprovadas:
+        e = {"indice": av["indice"], "mostra": {"nome": av["ancora"]["nome"], "descricao": av["ancora"]["descricao"]},
+             "nivel": av["nivel"], "tipo": av["tipo"], "pergunta": av["pergunta"], "resposta": av["resposta"]}
+        if av["tipo"] == "multipla":
+            e["distratores"] = av.get("distratores", [])
+        e["trechos"] = trechos.get(str(av["indice"]), [])
+        lote.append(e)
+    prompt = preencher(ler_texto(PROMPTS_DIR / "criticar_figuras.md"), catalogo=cat["id"],
+                       lote=json.dumps(lote, ensure_ascii=False, indent=2), manifesto=manifesto_para_llm())
+    c = config["criticar"]
+    saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_critica_figuras.json"), c["modelo"], c["esforco"],
+                   tempo_limite=c["tempo_limite"])
+    gravar_json(arq, saida)
+    apoio = Counter(a.get("apoio", "?") for a in saida["avaliacoes"])
+    registrar_log(lote_id, "criticar", "apoio", ", ".join(f"{k}: {v}" for k, v in sorted(apoio.items())))
+    return {a["indice"]: a for a in saida["avaliacoes"]}
+
+
+def _resolver_ancoras(propostas, banco, pasta, config, lote_id):
+    """Liga cada proposta {indice: {nome, descricao, variantes}} a uma âncora. Nome igual ou parecido com uma âncora
+    cadastrada vai ao juiz, como no texto: homônimos (a bandeira da Itália e a seleção italiana, o retrato de George
+    Washington e a cidade) não podem cair na mesma âncora. Devolve {indice: id existente, ou None para âncora nova}."""
+    arq = pasta / "04_julgamento.json"
+    casos, indices_do_caso = [], {}
+    for indice, a in propostas.items():
+        cands = bc.candidatas([a["nome"], *a.get("variantes", [])], banco.ancoras_ativas())
+        if cands:
+            n = len(casos) + 1
+            indices_do_caso[n] = indice
+            casos.append({"caso": n, "proposta": {"nome": a["nome"], "descricao": a["descricao"],
+                                                  "variantes": a.get("variantes", [])},
+                          "candidatas": [etapas._ficha(c) for c in cands]})
+    feito = ler_json(arq)
+    if feito is not None and feito.get("casos") == casos:
+        decisoes = {d["caso"]: d for d in feito["decisoes"]}
+    else:
+        claude_cli.contexto.update(encomenda=lote_id, etapa="ancoras")
+        decisoes = etapas.julgar(casos, config)
+        gravar_json(arq, {"casos": casos, "decisoes": list(decisoes.values())})
+    resultado = {indice: None for indice in propostas}
+    for n, indice in indices_do_caso.items():
+        d = decisoes.get(n)
+        validos = {c["id"] for c in casos[n - 1]["candidatas"]}
+        if d and d["decisao"] == "mesma" and d.get("id_existente") in validos:
+            resultado[indice] = banco.resolver(d["id_existente"]) or d["id_existente"]
+            registrar_log(lote_id, "ancoras", "mesma", d["motivo"],
+                          {"proposta": propostas[indice]["nome"], "id": d["id_existente"]})
+        else:
+            registrar_log(lote_id, "ancoras", "nova", d["motivo"] if d else "juiz não decidiu; na dúvida, nova",
+                          {"proposta": propostas[indice]["nome"]})
+    return resultado
+
+
+def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta, config):
+    por_indice = {it["indice"]: it for it in itens}
     dados = carregar_catalogo(cat["id"])
     status = {normalizar(e["nome"]): e for e in dados["entidades"]}
-    numero = banco.proximo_numero()
-    registradas = []
+
+    # a) decisões do redator e do crítico
+    candidatos = []
     for av in avaliacao["itens"]:
         it = por_indice.get(av["indice"])
         if it is None:
             continue
         ent = status.get(normalizar(it["nome"]))
         resumo = {"entidade": it["nome"], "pergunta": av.get("pergunta")}
-        if not av["aprovado"]:
-            registrar_log(lote_id, "figuras", "reprovada", av["motivo"], resumo)
+
+        def recusar(decisao, motivo):
+            registrar_log(lote_id, "figuras", decisao, motivo, resumo)
             if ent:
                 ent["status"] = "reprovada"
+
+        if not av["aprovado"]:
+            recusar("reprovada", av["motivo"])
             continue
-        faltam = [k for k in ("familia", "nivel", "destino", "tipo", "pergunta", "resposta", "ancora") if k not in av]
-        if faltam or not 0 <= av["destino"] < len(cat["destinos"]) or av["familia"] not in FAMILIAS:
-            registrar_log(lote_id, "figuras", "descartada", f"avaliação incompleta: {faltam}", resumo)
+        faltam = _completa(av, cat)
+        if faltam:
+            recusar("descartada", f"avaliação incompleta: {faltam}")
             continue
-        tema, subtema = cat["destinos"][av["destino"]]
-        a = av["ancora"]
-        nomes = [a["nome"], it["nome"], *a.get("variantes", [])]
-        id_ancora = next((idx[normalizar(n)] for n in nomes if normalizar(n) in idx), None)
-        nova = None
-        if id_ancora is None:
-            nova = {"id": banco.novo_id_ancora(a["nome"]), "nome": a["nome"], "descricao": a["descricao"]}
-            variantes = [v for v in dict.fromkeys([it["nome"], *a.get("variantes", [])]) if normalizar(v) != normalizar(a["nome"])]
-            if variantes:
-                nova["variantes"] = variantes
-            nova["fontes"] = it["fonte"]
-            erros = bc.erros_ancora(nova)
-            if erros:
-                registrar_log(lote_id, "figuras", "descartada", "âncora inválida: " + "; ".join(erros), resumo)
+        c = critica.get(av["indice"])
+        if c is None:
+            recusar("descartada", "o crítico não avaliou esta pergunta")
+            continue
+        if c["decisao"] == "descartar":
+            recusar("descartada", f"crítico: {c['motivo']}")
+            continue
+        if c["decisao"] == "reescrever":
+            r = c.get("reescrita")
+            if not r:
+                recusar("descartada", "crítico: reescrita pedida mas não fornecida")
                 continue
-            id_ancora = nova["id"]
-        id_ancora = banco.resolver(id_ancora) or id_ancora
-        ps = por_ancora.get(id_ancora, [])
-        if len(ps) >= MAX_POR_ANCORA or sum(1 for p in ps if "imagem" in p) >= MAX_FIGURA_POR_ANCORA:
-            registrar_log(lote_id, "figuras", "descartada", f"âncora {id_ancora} saturada", resumo)
-            continue
-        qid = f"q{numero:05d}"
-        p = {"id": qid, "tema": tema, "subtema": subtema, "ancora": id_ancora, "angulo": FAMILIAS[av["familia"]],
+            registrar_log(lote_id, "figuras", "reescrita", c["motivo"],
+                          {"antes": dict(resumo), "depois": {"pergunta": r["pergunta"], "resposta": r["resposta"]}})
+            av = {**av, "pergunta": r["pergunta"], "resposta": r["resposta"]}
+            if av["tipo"] == "multipla" and r.get("distratores"):
+                av["distratores"] = r["distratores"]
+            resumo["pergunta"] = av["pergunta"]
+        tema, subtema = cat["destinos"][av["destino"]]
+        p = {"id": "q00000", "tema": tema, "subtema": subtema, "ancora": "a", "angulo": FAMILIAS[av["familia"]],
              "tipo": av["tipo"], "pergunta": av["pergunta"], "resposta": av["resposta"]}
         if av["tipo"] == "multipla":
             p["distratores"] = av.get("distratores", [])
         p["fonte"] = it["fonte"]
-        p["imagem"] = {"arquivo": qid + ".jpg", "origem": it["origem"], "autor": it["autor"], "licenca": it["licenca"]}
+        p["imagem"] = {"arquivo": "q00000.jpg", "origem": it["origem"], "autor": it["autor"], "licenca": it["licenca"]}
         erros = bc.erros_pergunta(p, canon)
         if erros:
-            registrar_log(lote_id, "figuras", "descartada", "; ".join(erros), resumo)
+            recusar("descartada", "; ".join(erros))
             continue
-        if nova:
-            banco.adicionar_ancora(nova)
-            idx[normalizar(nova["nome"])] = nova["id"]
-        (BANCO_DIR / "imagens" / (qid + ".jpg")).write_bytes(open(it["imagem"], "rb").read())
+        a = av["ancora"]
+        variantes = [v for v in dict.fromkeys([it["nome"], *a.get("variantes", [])])
+                     if normalizar(v) != normalizar(a["nome"])]
+        candidatos.append({"indice": av["indice"], "av": av, "it": it, "ent": ent, "resumo": resumo, "p": p,
+                           "proposta": {"nome": a["nome"], "descricao": a["descricao"], "variantes": variantes}})
+
+    # b) âncoras e saturação
+    ligacao = _resolver_ancoras({c["indice"]: c["proposta"] for c in candidatos}, banco, pasta, config, lote_id)
+    novas, reservados = {}, set()   # nome normalizado -> âncora nova deste lote
+    por_ancora = {k: list(v) for k, v in banco.perguntas_por_ancora().items()}
+    prontos = []
+    for c in candidatos:
+        id_ancora, nova = ligacao.get(c["indice"]), None
+        if id_ancora is None:
+            chave = normalizar(c["proposta"]["nome"])
+            nova = novas.get(chave)
+            if nova is None:
+                nova = {"id": banco.novo_id_ancora(c["proposta"]["nome"], reservados), "nome": c["proposta"]["nome"],
+                        "descricao": c["proposta"]["descricao"]}
+                if c["proposta"]["variantes"]:
+                    nova["variantes"] = c["proposta"]["variantes"]
+                nova["fontes"] = c["it"]["fonte"]
+                erros = bc.erros_ancora(nova)
+                if erros:
+                    registrar_log(lote_id, "figuras", "descartada", "âncora inválida: " + "; ".join(erros), c["resumo"])
+                    continue
+                reservados.add(nova["id"])
+                novas[chave] = nova
+            id_ancora = nova["id"]
+        ps = por_ancora.get(id_ancora, [])
+        if len(ps) >= MAX_POR_ANCORA or sum(1 for p in ps if "imagem" in p) >= MAX_FIGURA_POR_ANCORA:
+            registrar_log(lote_id, "figuras", "descartada", f"âncora {id_ancora} saturada", c["resumo"])
+            continue
+        por_ancora.setdefault(id_ancora, []).append(c["p"])
+        c["p"]["ancora"], c["nova"] = id_ancora, nova
+        prontos.append(c)
+
+    # c) repetidos: a pergunta nova não pode perguntar o mesmo fato que outra do banco sobre a mesma âncora
+    if prontos:
+        claude_cli.contexto.update(encomenda=lote_id, etapa="repetidos")
+        para_checar = [{"_indice": c["indice"], "ancora": c["p"]["ancora"], "pergunta": c["p"]["pergunta"],
+                        "resposta": c["p"]["resposta"]} for c in prontos]
+        ficam = {x["_indice"] for x in etapas.checar_repetidos({"id": lote_id}, banco, para_checar, pasta, config)}
+        prontos = [c for c in prontos if c["indice"] in ficam]
+
+    # d) gravação
+    numero = banco.proximo_numero()
+    registradas = []
+    for c in prontos:
+        qid = f"q{numero:05d}"
+        p = {**c["p"], "id": qid, "imagem": {**c["p"]["imagem"], "arquivo": qid + ".jpg"}}
+        if c["nova"] and c["nova"]["id"] not in banco.ancora_por_id:
+            banco.adicionar_ancora(c["nova"])
+        (BANCO_DIR / "imagens" / (qid + ".jpg")).write_bytes(open(c["it"]["imagem"], "rb").read())
         banco.perguntas.append(p)
-        por_ancora.setdefault(id_ancora, []).append(p)
+        av = c["av"]
         est["familias"][av["familia"]] = est["familias"].get(av["familia"], 0) + 1
         est["niveis"][str(av["nivel"])] = est["niveis"].get(str(av["nivel"]), 0) + 1
         est["registradas"] += 1
-        if ent:
-            ent["status"] = "usada"
+        if c["ent"]:
+            c["ent"]["status"] = "usada"
         registradas.append(p)
         numero += 1
-        registrar_log(lote_id, "figuras", "registrada", f"{av['familia']}, nível {av['nivel']}", {"id": qid, **resumo})
+        registrar_log(lote_id, "figuras", "registrada", f"{av['familia']}, nível {av['nivel']}", {"id": qid, **c["resumo"]})
     for e in dados["entidades"]:
         if e.get("status") == "em_uso":
             e["status"] = "reprovada"

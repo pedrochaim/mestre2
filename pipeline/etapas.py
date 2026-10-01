@@ -260,34 +260,32 @@ def _ficha(a):
 
 def resolver_ancoras(enc, banco, pasta, config):
     itens = ler_json(pasta / ARQUIVOS["criticar"])["itens"]
-    indice = banco.indice_nomes()
     novas = {}          # nome normalizado -> proposta de âncora nova
     indice_lote = {}    # nome ou variante normalizada -> chave em `novas`
     variantes = {}      # id existente -> nomes a acrescentar como variantes
 
-    # 4a. id informado pelo gerador, ou nome/variante idêntico a uma âncora cadastrada
+    # 4a. id informado pelo gerador, que viu a descrição da âncora na lista do subtema. Um nome igual ao de uma
+    # âncora cadastrada não basta: homônimos (Pelé e pele, Cruzeiro clube e constelação) vão ao juiz em 4b.
     for it in itens:
         p = it["_ancora"]
         nomes = [p["nome"], *p.get("variantes", [])]
         id_existente = banco.resolver(p["id_existente"]) if p.get("id_existente") else None
-        if id_existente is None:
-            id_existente = next((indice[normalizar(n)] for n in nomes if normalizar(n) in indice), None)
         if id_existente:
             it["ancora"] = id_existente
             variantes.setdefault(id_existente, []).extend(nomes)
             continue
-        # Outra pergunta do mesmo lote já propôs esta âncora (por nome ou variante)?
-        chave = next((indice_lote[normalizar(n)] for n in nomes if normalizar(n) in indice_lote), None)
-        if chave:
+        # Outra pergunta do mesmo lote já propôs esta âncora? Só pelo nome principal: uma variante em comum
+        # ("Negrinho" é o Negrinho do Pastoreio e também o brigadeiro, no Sul) não basta.
+        chave = normalizar(p["nome"]) or p["nome"]
+        if chave in indice_lote:
+            chave = indice_lote[chave]
             extras = [n for n in nomes if normalizar(n) != chave]
             novas[chave]["variantes"] = list(dict.fromkeys(novas[chave]["variantes"] + extras))
             novas[chave]["fontes"] = list(dict.fromkeys(novas[chave]["fontes"] + p.get("fontes", [])))
         else:
-            chave = normalizar(p["nome"])
+            indice_lote[chave] = chave
             novas[chave] = {"nome": p["nome"], "descricao": p["descricao"],
                             "variantes": list(p.get("variantes", [])), "fontes": list(p.get("fontes", []))}
-        for n in nomes:
-            indice_lote.setdefault(normalizar(n), chave)
         it["_nova"] = chave
 
     # 4b. juiz para propostas parecidas com âncoras cadastradas
@@ -401,11 +399,15 @@ def checar_repetidos(enc, banco, itens, pasta, config):
                                          for p in existentes]})
     if not casos:
         return itens
-    c = config.get("repetidos", config["julgar"])
-    prompt = preencher(ler_texto(PROMPTS_DIR / "repetidos.md"), casos=json.dumps(casos, ensure_ascii=False, indent=2))
-    saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_repetidos.json"), c["modelo"], c["esforco"],
-                   tempo_limite=c["tempo_limite"])
-    gravar_json(pasta / "04_repetidos.json", {"casos": casos, "decisoes": saida["decisoes"]})
+    feito = ler_json(pasta / "04_repetidos.json")
+    if feito is not None and feito.get("casos") == casos:
+        saida = feito   # retomada depois de uma interrupção: os mesmos casos já foram decididos
+    else:
+        c = config.get("repetidos", config["julgar"])
+        prompt = preencher(ler_texto(PROMPTS_DIR / "repetidos.md"), casos=json.dumps(casos, ensure_ascii=False, indent=2))
+        saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_repetidos.json"), c["modelo"], c["esforco"],
+                       tempo_limite=c["tempo_limite"])
+        gravar_json(pasta / "04_repetidos.json", {"casos": casos, "decisoes": saida["decisoes"]})
     fora = set()
     for d in saida["decisoes"]:
         it = item_do_caso.get(d["caso"])

@@ -43,7 +43,11 @@ DIARIO = LOG_DIR / "autopiloto.jsonl"
 ESPERA_COTA = 15 * 60          # segundos entre tentativas quando a cota acaba
 MAX_FALHAS = 3                 # falhas que não são de cota antes de pausar o subtema ou catálogo
 LIMIAR_PAUSA_TEXTO = 20        # dois lotes seguidos com menos que isto pausam o subtema (assunto esgotado)
-SINAIS_COTA = re.compile(r"limit|usage|quota|rate|overload|429|529|credit|exceed|reset", re.I)
+# Mensagens de cota ou sobrecarga do Claude ("You've hit your session limit · resets 6:10pm", "usage limit reached",
+# "rate limit", "overloaded", HTTP 429/529). Precisa ser estreito: um tempo limite ("Tempo limite excedido") ou um erro
+# qualquer não é cota, e tratá-lo como cota faria o autopiloto esperar e tentar de novo para sempre.
+SINAIS_COTA = re.compile(r"hit your [\w ]*limit|usage limit|rate[ _-]?limit|limit reached|overloaded|\b(429|529)\b|quota",
+                         re.I)
 
 
 def agora():
@@ -129,7 +133,9 @@ def escolher(banco, plano, canon, so=None):
             cats = [c for c in plano["catalogos"] if c["destinos"][0][0] == tema and f"figura:{c['id']}" not in pausados]
             cats = [c for c in cats if prog["catalogos"][c["id"]][1] - prog["catalogos"][c["id"]][0] > 0]
             if cats:
-                return ("figura", max(cats, key=lambda c: prog["catalogos"][c["id"]][1] - prog["catalogos"][c["id"]][0]))
+                # Déficit relativo (o que falta sobre a meta), e não absoluto: assim os catálogos de um tema crescem
+                # juntos, e nenhum passa de 40% das figuras do tema no caminho (MANIFESTO §6).
+                return ("figura", max(cats, key=lambda c: 1 - prog["catalogos"][c["id"]][0] / prog["catalogos"][c["id"]][1]))
         return None
 
     def trabalho_texto():
@@ -209,11 +215,20 @@ def pausar(banco, chave, motivo):
     print(f"  ⏸ {chave} pausado: {motivo}")
 
 
-def espera_da_cota(mensagem):
-    """Segundos até a cota voltar: usa o horário de liberação da mensagem, se houver; senão, ESPERA_COTA."""
+def espera_da_cota(mensagem, agora_=None):
+    """Segundos até a cota voltar, pelo horário de liberação da mensagem ("resets 6:10pm", no fuso local, ou um
+    instante Unix depois de "|"), com 2 minutos de folga; sem horário, ESPERA_COTA."""
     achado = re.search(r"\|(\d{10})", mensagem)
     if achado:
-        return max(60, int(achado.group(1)) - int(time.time()) + 60)
+        return max(60, int(achado.group(1)) - int(time.time()) + 120)
+    achado = re.search(r"resets\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)", mensagem, re.I)
+    if achado:
+        hora = int(achado.group(1)) % 12 + (12 if achado.group(3).lower() == "pm" else 0)
+        agora_ = agora_ or dt.datetime.now()
+        volta = agora_.replace(hour=hora, minute=int(achado.group(2) or 0), second=0, microsecond=0)
+        if volta <= agora_:
+            volta += dt.timedelta(days=1)
+        return int((volta - agora_).total_seconds()) + 120
     return ESPERA_COTA
 
 

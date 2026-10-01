@@ -698,9 +698,7 @@
     "descricao": "Cruzeiro Esporte Clube, clube de futebol de Belo Horizonte fundado em 1921 por imigrantes italianos.",
     "variantes": [
       "Cruzeiro Esporte Clube",
-      "Palestra Itália de Belo Horizonte",
-      "Cruzeiro do Sul",
-      "Crux"
+      "Palestra Itália de Belo Horizonte"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Cruzeiro_Esporte_Clube",
@@ -2607,9 +2605,7 @@
     "variantes": [
       "Pedro I do Brasil",
       "Pedro IV de Portugal",
-      "Pedro de Alcântara",
-      "Dom Pedro II",
-      "Pedro II do Brasil"
+      "Pedro de Alcântara"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Pedro_I_do_Brasil",
@@ -3187,8 +3183,7 @@
     "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
     "variantes": [
       "Brigadeiro (doce)",
-      "Negrinho",
-      "Negrinho do Pastoreio"
+      "Negrinho"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Brigadeiro_(doce)",
@@ -4086,8 +4081,7 @@
     "descricao": "Canídeo de pernas longas e pelagem alaranjada do Cerrado e de campos sul-americanos, espécie Chrysocyon brachyurus.",
     "variantes": [
       "Chrysocyon brachyurus",
-      "Maned wolf",
-      "Guará"
+      "Maned wolf"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Maned_wolf"
@@ -7381,11 +7375,7 @@
       "wikidata": "Q12897",
       "pt": 42274,
       "en": 262239
-    },
-    "variantes": [
-      "Skin",
-      "Cútis"
-    ]
+    }
   },
   {
     "id": "ayrton_senna",
@@ -10077,7 +10067,6 @@
     "nome": "Seleção Italiana de Futebol",
     "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
     "variantes": [
-      "Itália",
       "Azzurra",
       "Squadra Azzurra"
     ],
@@ -10753,9 +10742,7 @@
     "descricao": "O símbolo @, usado nos endereços de e-mail, chamado de arroba em português e espanhol",
     "variantes": [
       "@",
-      "At sign",
-      "Hanami",
-      "Tetris"
+      "At sign"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/At_sign"
@@ -19168,8 +19155,7 @@
     "nome": "Festival de Woodstock",
     "descricao": "Festival de música realizado em agosto de 1969 numa fazenda em Bethel, no estado de Nova York",
     "variantes": [
-      "Woodstock",
-      "Woodstock (Peanuts)"
+      "Woodstock"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Woodstock"
@@ -21768,8 +21754,7 @@
     "nome": "Coringa",
     "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
     "variantes": [
-      "Joker",
-      "Curinga"
+      "Joker"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Joker_(character)"
@@ -26237,6 +26222,236 @@
       "wikidata": "Q276290",
       "pt": 678,
       "en": 22942
+    }
+  },
+  {
+    "id": "dom_pedro_ii",
+    "nome": "Dom Pedro II",
+    "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+    "variantes": [
+      "Pedro II do Brasil",
+      "Pedro de Alcântara"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pedro_II_do_Brasil"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q156774",
+      "pt": 23892,
+      "en": 27244
+    }
+  },
+  {
+    "id": "negrinho_do_pastoreio",
+    "nome": "Negrinho do Pastoreio",
+    "descricao": "Lenda gaúcha de um menino escravizado castigado num formigueiro que reaparece milagrosamente.",
+    "variantes": [
+      "Negrinho"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Negrinho_do_Pastoreio"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q3892942",
+      "pt": 835,
+      "en": 76
+    }
+  },
+  {
+    "id": "cruzeiro_do_sul",
+    "nome": "Cruzeiro do Sul",
+    "descricao": "Constelação do céu austral, presente na bandeira do Brasil.",
+    "variantes": [
+      "Crux",
+      "Cruzeiro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Crux"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q10542",
+      "pt": 1744,
+      "en": 16324
+    }
+  },
+  {
+    "id": "pele_2",
+    "nome": "Pele",
+    "descricao": "Órgão que recobre todo o corpo humano e o protege do ambiente.",
+    "variantes": [
+      "Skin",
+      "Cútis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Human_skin",
+      "https://pt.wikipedia.org/wiki/Pele"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q1074",
+      "pt": 957,
+      "en": 10340
+    }
+  },
+  {
+    "id": "hanami",
+    "nome": "Hanami",
+    "descricao": "Costume japonês de reunir-se ao ar livre para contemplar as cerejeiras floridas na primavera.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hanami"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q210150",
+      "pt": 227,
+      "en": 6532
+    }
+  },
+  {
+    "id": "george_washington",
+    "nome": "George Washington",
+    "descricao": "Comandante do Exército Continental e primeiro presidente dos Estados Unidos, de 1789 a 1797.",
+    "variantes": [
+      "Washington"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/George_Washington",
+      "https://pt.wikipedia.org/wiki/George_Washington"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q23",
+      "pt": 9613,
+      "en": 376858
+    }
+  },
+  {
+    "id": "tetris",
+    "nome": "Tetris",
+    "descricao": "Jogo de quebra-cabeça com peças que caem, criado pelo russo Alexey Pajitnov em 1984.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tetris",
+      "https://pt.wikipedia.org/wiki/Tetris"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q71910",
+      "pt": 1820,
+      "en": 52840
+    }
+  },
+  {
+    "id": "cartola_2",
+    "nome": "Cartola",
+    "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+    "variantes": [
+      "Cartola (chapéu)",
+      "Top hat",
+      "Chapéu alto"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Top_hat",
+      "https://pt.wikipedia.org/wiki/Cartola"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q110304",
+      "pt": 493,
+      "en": 9605
+    }
+  },
+  {
+    "id": "vasco_da_gama_2",
+    "nome": "Vasco da Gama",
+    "descricao": "Navegador português que abriu a rota marítima da Europa à Índia contornando a África.",
+    "variantes": [
+      "Vasco de Gama"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vasco_da_Gama",
+      "https://pt.wikipedia.org/wiki/Vasco_da_Gama"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q7328",
+      "pt": 8882,
+      "en": 54887
+    }
+  },
+  {
+    "id": "woodstock_peanuts",
+    "nome": "Woodstock (Peanuts)",
+    "descricao": "Passarinho amarelo, melhor amigo do Snoopy na tira Peanuts, de Charles Schulz",
+    "variantes": [
+      "Woodstock"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Woodstock_(Peanuts)"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q246867",
+      "pt": 122,
+      "en": 12301
+    }
+  },
+  {
+    "id": "guara",
+    "nome": "Guará",
+    "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+    "variantes": [
+      "Íbis-escarlate",
+      "Eudocimus ruber"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Scarlet_ibis",
+      "https://pt.wikipedia.org/wiki/Guar%C3%A1"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q467996",
+      "pt": 2242,
+      "en": 5964
+    }
+  },
+  {
+    "id": "curinga",
+    "nome": "Curinga",
+    "descricao": "Carta extra do baralho, geralmente com a figura de um bobo da corte, que pode substituir outras cartas.",
+    "variantes": [
+      "Coringa",
+      "Joker"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Joker_(playing_card)"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q221783",
+      "pt": 580,
+      "en": 10334
+    }
+  },
+  {
+    "id": "bandeira_da_italia",
+    "nome": "Bandeira da Itália",
+    "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+    "variantes": [
+      "Il Tricolore",
+      "Tricolore italiano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Italy",
+      "https://pt.wikipedia.org/wiki/It%C3%A1lia"
+    ],
+    "popularidade": {
+      "periodo": "2025-10/2026-09",
+      "wikidata": "Q38",
+      "pt": 16598,
+      "en": 229645
     }
   }
 ]
