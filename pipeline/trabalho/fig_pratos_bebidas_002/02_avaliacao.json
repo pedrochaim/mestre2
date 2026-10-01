@@ -1,0 +1,207 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Embalagem com logotipos de rede de fast-food em primeiro plano, além de batatas e outro sanduíche ao fundo; imagem com marca e vários elementos."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Tigela de lámen clara, com narutomaki, chāshū e nori; sem texto que entregue a resposta.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Este prato japonês tem origem rastreada ao bairro chinês de qual cidade portuária do Japão?",
+      "resposta": "Yokohama",
+      "ancora": {
+        "nome": "Lámen",
+        "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+        "variantes": [
+          "Ramen",
+          "Rámen"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Tigela de phở com macarrão de arroz plano, carne em fatias e ervas; o único texto (molho de peixe) não entrega o prato.",
+      "tipo": "multipla",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Qual é a massa principal deste prato?",
+      "resposta": "Macarrão de arroz",
+      "distratores": [
+        "Macarrão de trigo",
+        "Macarrão de ovos",
+        "Macarrão de soja"
+      ],
+      "ancora": {
+        "nome": "Phở",
+        "descricao": "Sopa vietnamita de caldo, macarrão de arroz, ervas e carne, geralmente bovina.",
+        "variantes": [
+          "Pho",
+          "Phở bò"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cachorro-quente com ketchup, mostarda e picles em fundo branco, bem legível e sem texto.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Este lanche virou comida de rua da classe trabalhadora e símbolo do beisebol em qual país?",
+      "resposta": "Estados Unidos",
+      "ancora": {
+        "nome": "Cachorro-quente",
+        "descricao": "Lanche de salsicha grelhada, cozida ou fervida, servida num pão alongado aberto ao meio.",
+        "variantes": [
+          "Hot dog",
+          "Hotdog"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "O prato não é reconhecível como estrogonofe: tiras de carne com pedaços claros, sem cogumelos, arroz ou molho característico; poderia ser outro refogado."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Close claro de repolho chinês fermentado com pimenta, característico do kimchi; sem texto.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "De que país é tradicional este acompanhamento de legumes fermentados?",
+      "resposta": "Coreia",
+      "distratores": [
+        "Japão",
+        "China",
+        "Vietnã"
+      ],
+      "ancora": {
+        "nome": "Kimchi",
+        "descricao": "Acompanhamento coreano de legumes salgados e fermentados, geralmente repolho chinês com pimenta.",
+        "variantes": [
+          "Gimchi",
+          "Kimchee"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Copo com limão em pedaços e gelo, imagem típica da caipirinha; sem texto. A pergunta cita a bebida brasileira para fixar a resposta.",
+      "tipo": "aberta",
+      "familia": "que_parte",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Qual destilado é a base desta bebida brasileira?",
+      "resposta": "Cachaça",
+      "ancora": {
+        "nome": "Caipirinha",
+        "descricao": "Coquetel brasileiro feito com cachaça, açúcar, limão e gelo.",
+        "variantes": [
+          "Caipirinha de limão"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Fondue de queijo em panela com garfos e pão, claro e sem texto; só mãos aparecem, sem rostos.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que país promoveu este prato como símbolo nacional na década de mil novecentos e trinta?",
+      "resposta": "Suíça",
+      "distratores": [
+        "França",
+        "Itália",
+        "Áustria"
+      ],
+      "ancora": {
+        "nome": "Fondue",
+        "descricao": "Prato suíço de queijo e vinho derretidos numa panela comum, no qual se mergulham pão e outros alimentos.",
+        "variantes": [
+          "Fondue de queijo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tigela de pedra com vegetais, kimchi, ovo cru e carne sobre arroz, típica do bibimbap; sem texto.",
+      "tipo": "aberta",
+      "familia": "que_parte",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Que pasta de pimenta coreana se mistura ao arroz neste prato antes de comer?",
+      "resposta": "Gochujang",
+      "ancora": {
+        "nome": "Bibimbap",
+        "descricao": "Prato coreano de arroz coberto com legumes temperados, pasta de pimenta, ovo e carne, misturado antes de comer.",
+        "variantes": [
+          "Bibimbab",
+          "Bi bim bap"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Porção de lasanha em camadas com carne, molho e queijo gratinado; clara, sem texto.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "De que país é originário este prato de massa em camadas, assado no forno?",
+      "resposta": "Itália",
+      "ancora": {
+        "nome": "Lasanha",
+        "descricao": "Prato italiano de massa em folhas largas, montado em camadas com recheios e molho e assado.",
+        "variantes": [
+          "Lasagna",
+          "Lasagne"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Copos com churros polvilhados de açúcar, bem reconhecíveis; o texto dos copos não entrega a resposta.",
+      "tipo": "multipla",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "No Brasil, qual é o recheio tradicional deste doce frito?",
+      "resposta": "Doce de leite",
+      "distratores": [
+        "Goiabada",
+        "Creme de baunilha",
+        "Geleia de frutas"
+      ],
+      "ancora": {
+        "nome": "Churros",
+        "descricao": "Massa frita em formato de bastão sulcado, polvilhada de açúcar e canela, de origem ibérica.",
+        "variantes": [
+          "Churro"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Bolinhos de massa recheada em meia-lua podem ser também varenyky ucranianos ou pirohy eslovacos; a resposta não é única diante da imagem."
+    }
+  ]
+}

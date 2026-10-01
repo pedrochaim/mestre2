@@ -41,9 +41,10 @@
     "entretenimento_jogos_eletronicos_01",
     "fig_objetos_trajes_002",
     "fig_retratos_historicos_002",
-    "entretenimento_anime_e_manga_01"
+    "entretenimento_anime_e_manga_01",
+    "fig_pratos_bebidas_002"
   ],
-  "maior_id": 1412,
+  "maior_id": 1421,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -86,13 +87,15 @@
     "pratos_bebidas": {
       "familias": {
         "o_que_e": 8,
-        "onde": 1
+        "onde": 6,
+        "que_parte": 4
       },
       "niveis": {
-        "1": 7,
-        "2": 2
+        "1": 8,
+        "2": 6,
+        "3": 4
       },
-      "registradas": 9
+      "registradas": 18
     },
     "aves": {
       "familias": {

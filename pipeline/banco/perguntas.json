@@ -23638,5 +23638,205 @@
     "fonte": [
       "https://pt.wikipedia.org/wiki/Turma_da_M%C3%B4nica_Jovem"
     ]
+  },
+  {
+    "id": "q01413",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "lamen",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Este prato japonês tem origem rastreada ao bairro chinês de qual cidade portuária do Japão?",
+    "resposta": "Yokohama",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ramen",
+      "https://pt.wikipedia.org/wiki/Ramen"
+    ],
+    "imagem": {
+      "arquivo": "q01413.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ramen,_sopa_de_fideus.jpg",
+      "autor": "Mariaaa05",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q01414",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pho",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a massa principal deste prato?",
+    "resposta": "Macarrão de arroz",
+    "distratores": [
+      "Macarrão de trigo",
+      "Macarrão de ovos",
+      "Macarrão de soja"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pho",
+      "https://pt.wikipedia.org/wiki/Ph%E1%BB%9F"
+    ],
+    "imagem": {
+      "arquivo": "q01414.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Món_ăn_Đông_Hà,_Tết_2022_(phở_Lý_Quốc_sư_ở_công_viên_Cọ_Dầu)_(2).jpg",
+      "autor": "Phương Huy",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q01415",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cachorro_quente",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Este lanche virou comida de rua da classe trabalhadora e símbolo do beisebol em qual país?",
+    "resposta": "Estados Unidos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hot_dog",
+      "https://pt.wikipedia.org/wiki/Cachorro-quente"
+    ],
+    "imagem": {
+      "arquivo": "q01415.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hotdog_-_Evan_Swigart.jpg",
+      "autor": "Evan Swigart from Chicago, USA",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q01416",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "kimchi",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "De que país é tradicional este acompanhamento de legumes fermentados?",
+    "resposta": "Coreia",
+    "distratores": [
+      "Japão",
+      "China",
+      "Vietnã"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kimchi",
+      "https://pt.wikipedia.org/wiki/Kimchi"
+    ],
+    "imagem": {
+      "arquivo": "q01416.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Gimchi.jpg",
+      "autor": "Nagyman, a flickr user",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q01417",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "caipirinha",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Qual destilado é a base desta bebida brasileira?",
+    "resposta": "Cachaça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caipirinha",
+      "https://pt.wikipedia.org/wiki/Caipirinha"
+    ],
+    "imagem": {
+      "arquivo": "q01417.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:15-09-26-RalfR-WLC-0048.jpg",
+      "autor": "Ralf Roletschek",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01418",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "fondue",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Que país promoveu este prato como símbolo nacional na década de mil novecentos e trinta?",
+    "resposta": "Suíça",
+    "distratores": [
+      "França",
+      "Itália",
+      "Áustria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fondue",
+      "https://pt.wikipedia.org/wiki/Fondue"
+    ],
+    "imagem": {
+      "arquivo": "q01418.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fondue_dish.jpg",
+      "autor": "Juliano Mendes",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q01419",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "bibimbap",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que pasta de pimenta coreana se mistura ao arroz neste prato antes de comer?",
+    "resposta": "Gochujang",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bibimbap",
+      "https://pt.wikipedia.org/wiki/Bibimbap"
+    ],
+    "imagem": {
+      "arquivo": "q01419.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Korean.food-Bibimbap-02.jpg",
+      "autor": "abex (a flickr user)",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q01420",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "lasanha",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é originário este prato de massa em camadas, assado no forno?",
+    "resposta": "Itália",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lasagna",
+      "https://pt.wikipedia.org/wiki/Lasanha"
+    ],
+    "imagem": {
+      "arquivo": "q01420.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Meaty_Lasagna_8of8_(8736299782).jpg",
+      "autor": "Breville USA",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q01421",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "churros",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No Brasil, qual é o recheio tradicional deste doce frito?",
+    "resposta": "Doce de leite",
+    "distratores": [
+      "Goiabada",
+      "Creme de baunilha",
+      "Geleia de frutas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Churro",
+      "https://pt.wikipedia.org/wiki/Churro"
+    ],
+    "imagem": {
+      "arquivo": "q01421.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Churros_en_vasos_en_Londres_-_A_Taste_of_Spain.jpg",
+      "autor": "Garry Knight from London, England",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]
