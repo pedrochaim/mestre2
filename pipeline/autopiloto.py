@@ -338,6 +338,19 @@ def main():
                             banco.estado.pop("lote_figura_em_andamento", None)
                         banco.salvar()
                     time.sleep(60)
+            except Exception as ex:  # erro inesperado (arquivo travado, rede, dado ruim): registra e segue
+                falhas[chave] = falhas.get(chave, 0) + 1
+                diario("erro_trabalho", trabalho=rotulo, mensagem=str(ex)[:500], vezes=falhas[chave],
+                       rastro=traceback.format_exc()[-1500:])
+                print(f"  Erro inesperado ({falhas[chave]}/{MAX_FALHAS}): {ex}", flush=True)
+                if falhas[chave] >= MAX_FALHAS:
+                    banco = bc.Banco()
+                    pausar(banco, chave, f"{MAX_FALHAS} erros seguidos: {str(ex)[:120]}")
+                    if enc and enc["id"] not in banco.estado["concluidas"]:
+                        banco.estado["concluidas"].append(enc["id"])
+                    banco.estado.pop("lote_figura_em_andamento", None)
+                    banco.salvar()
+                time.sleep(60)
     except Exception as ex:
         diario("erro", mensagem=str(ex), rastro=traceback.format_exc()[-2000:])
         status(estado="parado por erro", erro=str(ex)[:300])

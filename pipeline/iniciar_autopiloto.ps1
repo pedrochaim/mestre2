@@ -9,7 +9,8 @@ $raiz = Split-Path -Parent $PSScriptRoot
 $log = Join-Path $raiz "pipeline\log"
 New-Item -ItemType Directory -Force $log | Out-Null
 $python = (Get-Command python).Source
-$argumentos = @("-u", "pipeline\autopiloto.py") + $Resto
+$argumentos = @("-u", "pipeline\autopiloto.py")
+if ($Resto) { $argumentos += $Resto }
 $p = Start-Process -FilePath $python -ArgumentList $argumentos -WorkingDirectory $raiz -WindowStyle Hidden `
     -RedirectStandardOutput (Join-Path $log "autopiloto_saida.txt") `
     -RedirectStandardError (Join-Path $log "autopiloto_erros.txt") -PassThru

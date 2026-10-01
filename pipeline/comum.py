@@ -4,6 +4,7 @@ import datetime as dt
 import json
 import os
 import re
+import time
 import unicodedata
 from pathlib import Path
 
@@ -40,7 +41,15 @@ def gravar_json(caminho, dados):
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(dados, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    os.replace(tmp, caminho)
+    # O Dropbox (ou um antivírus) às vezes trava o arquivo por um instante: tenta de novo antes de desistir.
+    for tentativa in range(10):
+        try:
+            os.replace(tmp, caminho)
+            return
+        except PermissionError:
+            if tentativa == 9:
+                raise
+            time.sleep(1 + tentativa)
 
 
 def ler_texto(caminho):

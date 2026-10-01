@@ -1,0 +1,101 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Por que Usain Bolt perdeu, anos depois, a medalha de ouro do revezamento quatro por cem de Pequim 2008?",
+        "resposta": "Doping do colega Nesta Carter"
+      },
+      "existentes": [
+        {
+          "id": "q00538",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Usain Bolt"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Entre 1928 e 1956, que país venceu seis vezes seguidas o torneio olímpico masculino de hóquei sobre grama?",
+        "resposta": "Índia"
+      },
+      "existentes": [
+        {
+          "id": "q00522",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Hóquei sobre grama"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que artista chinês foi consultor artístico no projeto do Ninho de Pássaro, estádio de Pequim 2008 desenhado por arquitetos suíços?",
+        "resposta": "Ai Weiwei"
+      },
+      "existentes": [
+        {
+          "id": "q00531",
+          "pergunta": "Que estádio olímpico é este?",
+          "resposta": "Ninho de Pássaro (Pequim)"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O curling, hoje esporte olímpico de inverno, surgiu no século dezesseis em lagos congelados de que país?",
+        "resposta": "Escócia"
+      },
+      "existentes": [
+        {
+          "id": "q00523",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Curling"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No polo aquático, quantos jogadores cada equipe mantém dentro da piscina, contando o goleiro?",
+        "resposta": "Sete"
+      },
+      "existentes": [
+        {
+          "id": "q00513",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Polo aquático"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a perda da medalha por doping, não a identificação do atleta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o país dominante no torneio olímpico, não a identificação do esporte."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o consultor artístico do projeto, não a identificação do estádio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a origem do curling, não a identificação do esporte."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o número de jogadores por equipe, não a identificação do esporte."
+    }
+  ]
+}
