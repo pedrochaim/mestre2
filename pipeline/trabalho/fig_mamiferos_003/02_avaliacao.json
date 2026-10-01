@@ -1,0 +1,215 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Duas orcas saltando, foto nítida, sem texto, mesma espécie.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este mamífero marinho é o maior representante de qual família de cetáceos?",
+      "resposta": "Golfinhos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Orca",
+        "descricao": "Cetáceo dentado preto e branco, o maior membro da família dos golfinhos oceânicos (Orcinus orca).",
+        "variantes": [
+          "Baleia-assassina",
+          "Orcinus orca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Felino manchado com olhos grandes e galhos à frente; pode ser confundido com o gato-maracajá, então a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Focinho em estrela bem visível, reconhecível apesar da baixa resolução.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Os órgãos sensoriais do focinho deste animal levam o nome de qual zoólogo alemão?",
+      "resposta": "Theodor Eimer",
+      "destino": 0,
+      "ancora": {
+        "nome": "Toupeira-nariz-de-estrela",
+        "descricao": "Pequena toupeira semiaquática norte-americana, com focinho de 22 tentáculos sensoriais (Condylura cristata).",
+        "variantes": [
+          "Condylura cristata",
+          "Toupeira-de-nariz-estrelado"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Quati nítido, focinho escuro e cauda anelada, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este onívoro sul-americano é da mesma família de qual mamífero norte-americano de máscara escura no rosto?",
+      "resposta": "Guaxinim",
+      "destino": 0,
+      "ancora": {
+        "nome": "Quati",
+        "descricao": "Mamífero procionídeo sul-americano de focinho comprido e cauda anelada (Nasua nasua).",
+        "variantes": [
+          "Quati-de-cauda-anelada",
+          "Nasua nasua"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gnu-azul de lado, com listras e barba, nítido e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este antílope participa de uma grande migração na África Oriental. Que rio ele atravessa, entre a Tanzânia e o Quênia?",
+      "resposta": "Rio Mara",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gnu",
+        "descricao": "Grande antílope africano de ombros largos, barba e listras no pescoço, o gnu-azul (Connochaetes taurinus).",
+        "variantes": [
+          "Gnu-azul",
+          "Gnu-de-cauda-preta",
+          "Connochaetes taurinus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido de caracal com tufos nas orelhas; 'onde' não rende resposta única (África e Ásia), então troquei para 'o que é' com múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que felino de orelhas com tufos pretos é este?",
+      "resposta": "Caracal",
+      "distratores": [
+        "Lince-ibérico",
+        "Serval",
+        "Lince-pardo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caracal",
+        "descricao": "Felino selvagem de pelagem castanho-avermelhada e longas orelhas com tufos pretos (Caracal caracal).",
+        "variantes": [
+          "Caracal caracal",
+          "Lince-do-deserto"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Raposa-vermelha sentada de frente, nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta é a maior das raposas verdadeiras. Que espécie é esta?",
+      "resposta": "Raposa-vermelha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Raposa-vermelha",
+        "descricao": "Canídeo de pelagem alaranjada e patas pretas, a maior das raposas verdadeiras (Vulpes vulpes).",
+        "variantes": [
+          "Vulpes vulpes",
+          "Raposa-comum"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tamanduá de pé com o colete escuro visível, bem enquadrado, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tamanduá é este?",
+      "resposta": "Tamanduá-mirim",
+      "distratores": [
+        "Tamanduá-bandeira",
+        "Tamanduaí",
+        "Tamanduá-mexicano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tamanduá-mirim",
+        "descricao": "Tamanduá sul-americano de porte médio, com uma mancha escura em forma de colete (Tamandua tetradactyla).",
+        "variantes": [
+          "Tamandua tetradactyla",
+          "Tamanduá-de-colete"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Saiga macho nítido, com focinho inflado inconfundível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este antílope ainda vive na região de Betpak-Dala. Em que país da Ásia Central fica essa região?",
+      "resposta": "Cazaquistão",
+      "destino": 0,
+      "ancora": {
+        "nome": "Saiga",
+        "descricao": "Antílope das estepes eurasiáticas com focinho inchado e flexível (Saiga tatarica).",
+        "variantes": [
+          "Antílope-saiga",
+          "Saiga tatarica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Leopardo com rosetas nítidas, de corpo inteiro, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que grande felino manchado é este, típico da África e da Ásia?",
+      "resposta": "Leopardo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Leopardo",
+        "descricao": "Grande felino do gênero Panthera, de pelagem dourada com rosetas escuras (Panthera pardus).",
+        "variantes": [
+          "Panthera pardus",
+          "Leopardo-africano"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A foto mostra vários animais, e os grandes e claros parecem leões-marinhos-de-Steller, não da Califórnia; a espécie não fica certa."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Um único animal, nítido e inconfundível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive este roedor que cava túneis e é quase sem pelos?",
+      "resposta": "África",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rato-toupeira-pelado",
+        "descricao": "Roedor africano subterrâneo, sem pelos e eussocial (Heterocephalus glaber).",
+        "variantes": [
+          "Heterocephalus glaber",
+          "Rato-toupeira-nu"
+        ]
+      }
+    }
+  ]
+}

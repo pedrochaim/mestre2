@@ -61,28 +61,28 @@
       "titulo": "en:Orca",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Quati",
       "titulo": "en:South American coati",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Raposa-vermelha",
       "titulo": "en:Red fox",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Leopardo",
       "titulo": "en:Leopard",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Sagui-de-tufos-brancos",
@@ -152,28 +152,28 @@
       "titulo": "en:Ocelot",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Gnu",
       "titulo": "en:Blue wildebeest",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tamanduá-mirim",
       "titulo": "en:Southern tamandua",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Leão-marinho-da-califórnia",
       "titulo": "en:California sea lion",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Ouriço-cacheiro",
@@ -257,25 +257,305 @@
       "titulo": "en:Star-nosed mole",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Caracal",
       "titulo": "en:Caracal",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Saiga",
       "titulo": "en:Saiga antelope",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Rato-toupeira-pelado",
       "titulo": "en:Naked mole-rat",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cavalo",
+      "titulo": "en:Horse",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Burro",
+      "titulo": "en:Donkey",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ovelha",
+      "titulo": "en:Sheep",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabra",
+      "titulo": "en:Goat",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Porco",
+      "titulo": "en:Domestic pig",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Coelho",
+      "titulo": "en:European rabbit",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gato",
+      "titulo": "en:Cat",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vaca",
+      "titulo": "en:Cattle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachorro",
+      "titulo": "en:Dog",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Porquinho-da-índia",
+      "titulo": "en:Guinea pig",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Búfalo",
+      "titulo": "en:Water buffalo",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hamster",
+      "titulo": "en:Golden hamster",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macaco-prego",
+      "titulo": "en:Tufted capuchin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Elefante-asiático",
+      "titulo": "en:Asian elephant",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Raposa-do-ártico",
+      "titulo": "en:Arctic fox",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Urso-negro-americano",
+      "titulo": "en:American black bear",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Puma",
+      "titulo": "en:Cougar",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lince-euroasiático",
+      "titulo": "en:Eurasian lynx",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Texugo-europeu",
+      "titulo": "en:European badger",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hipopótamo-pigmeu",
+      "titulo": "en:Pygmy hippopotamus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Babuíno-sagrado",
+      "titulo": "en:Hamadryas baboon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macaco-japonês",
+      "titulo": "en:Japanese macaque",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gibão-de-mãos-brancas",
+      "titulo": "en:Lar gibbon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Furão",
+      "titulo": "en:Ferret",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chinchila",
+      "titulo": "en:Chinchilla",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cachalote",
+      "titulo": "en:Sperm whale",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Elefante-marinho-do-sul",
+      "titulo": "en:Southern elephant seal",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Iaque",
+      "titulo": "en:Yak",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pudu",
+      "titulo": "en:Pudu",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dik-dik",
+      "titulo": "en:Kirk's dik-dik",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bongo",
+      "titulo": "en:Bongo (antelope)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Binturong",
+      "titulo": "en:Binturong",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jupará",
+      "titulo": "en:Kinkajou",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gato-de-pallas",
+      "titulo": "en:Pallas's cat",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Anta-malaia",
+      "titulo": "en:Malayan tapir",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Petauro-do-açúcar",
+      "titulo": "en:Sugar glider",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bilby",
+      "titulo": "en:Greater bilby",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cervo-do-pantanal",
+      "titulo": "en:Marsh deer",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mara",
+      "titulo": "en:Patagonian mara",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gelada",
+      "titulo": "en:Gelada",
       "camada": 3,
       "destino": 0,
       "status": "nova"
