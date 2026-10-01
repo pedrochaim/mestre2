@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.24 — 2026-09-30**
+> **Versão preliminar 0.25 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -563,7 +563,7 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
 5. Ele toca em **Mostrar resposta**. O mesmo botão vira **Esconder resposta**, para cobrir a tela se alguém espiar. Quem responde já aparece ("Responde: Ana"), com a opção de **trocar**. Ele marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
 6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, dificuldade estimada, tipo, fontes com link, crédito da figura, autor e id. Antes da resposta o botão não aparece, para não vazar nada.
 
-Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão, feitos na aba Tabuleiro depois de tocar em **Editar jogadores** (casa, tema do estágio 1 e remoção). As regras ficam recolhidas em **Como se joga**.
+Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão, feitos na aba Tabuleiro depois de tocar em **Editar jogadores** (casa, tema do estágio 1 e remoção), ou **arrastando o peão** no tabuleiro, inclusive no modo mesa: solto, ele vai para a casa mais próxima do caminho do jogador. As regras ficam recolhidas em **Como se joga**.
 
 ### Dados
 
@@ -637,3 +637,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.22 | 2026-09-30 | Figuras de animais permitidas; só fotos de um único assunto; cinco perguntas de Mamíferos com figura (§6, §13) |
 | 0.23 | 2026-09-30 | App: a pergunta ocupa a tela ao sortear; barra fixa no rodapé com a ação do momento; Mostrar/Esconder resposta no mesmo botão; respondente escolhido uma vez só; figura com altura máxima (§16) |
 | 0.24 | 2026-09-30 | App: temas em grade, com os vazios numa linha de "Em breve"; botão Convidar; regras recolhíveis e modo Editar jogadores no tabuleiro; espiral do tabuleiro como marca na entrada (§16) |
+| 0.25 | 2026-09-30 | App: arrastar o peão no tabuleiro muda a casa do jogador (§16) |

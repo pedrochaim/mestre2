@@ -82,6 +82,9 @@
     ul.placar .nome .ae { margin-left: .5rem; }
     ul.placar select { width: auto; padding: .1rem .4rem; font-size: .85rem; }
     .tabuleiro svg { display: block; width: 100%; height: auto; font-family: system-ui, sans-serif; }
+    /* Peões arrastáveis: soltar numa casa do caminho do jogador muda a posição dele. */
+    .tabuleiro .peao { cursor: grab; touch-action: none; }
+    .tabuleiro .peao.arrastando { cursor: grabbing; filter: drop-shadow(0 0 12px #fff); }
     #mesa { position: fixed; inset: 0; background: #000; z-index: 20; display: flex; align-items: center; justify-content: center; }
     #mesa .tabuleiro { width: min(100vw, 100vh); }
     #mesa-fechar { position: absolute; top: 10px; right: 10px; background: #000a; color: #fff; border-color: #555; }
@@ -691,6 +694,10 @@
   // mesmo tamanho, e a borda do tabuleiro é dentada, como um cata-vento. φ é o ângulo percorrido dentro do
   // braço. A casa grande do início (ENTRADA casas de comprimento) traz o nome do tema e é a casa 0, onde o
   // peão começa; depois vêm as outras CASAS_E1 − 1 casas do estágio 1. fiCasa(k) é o fim da casa k.
+  // Centro de cada casa do caminho de cada braço, em coordenadas do SVG: centrosTabuleiro[braço][casa],
+  // casa de 0 a CHEGADA. Preenchido por svgTabuleiro e usado para soltar um peão arrastado na casa mais próxima.
+  let centrosTabuleiro = [];
+
   function svgTabuleiro() {
     const bracos = temasDoJogo();
     const W = 2 * Math.PI / bracos.length;
@@ -780,13 +787,22 @@
                 `<text y="${(.6 * rCentro).toFixed(1)}" transform="rotate(180)" font-size="${(.19 * rCentro).toFixed(1)}" fill="#e8e8e4" font-weight="800" letter-spacing="2" text-anchor="middle" dominant-baseline="central">MESTRE2</text>`,
                 `<text font-size="${(.3 * rCentro).toFixed(1)}" text-anchor="middle" dominant-baseline="central">🏁</text>`);
 
+    centrosTabuleiro = bracos.map((_, i) => Array.from({ length: CHEGADA + 1 }, (_, casa) => {
+      if (casa >= CHEGADA) return [0, 0];
+      if (casa >= CASAS_E1) return polar(rMeioAnel, angAnel(casaDoAnel(i, casa - CASAS_E1, n)) + V / 2);
+      const [f1, f2] = casa === 0 ? [fiDe((ENTRADA - 1) * S), fiCasa(0)] : [fiCasa(casa - 1), fiCasa(casa)];
+      return pt(i, (f1 + f2) / 2, .5);
+    }));
+
     // Peões: no estágio 1, no braço do tema do jogador; no estágio 2, no anel; os que chegaram, no centro.
     // O peão tem a cor do tema designado ao jogador. Os anéis branco e preto o destacam de qualquer casa,
     // inclusive das casas do seu próprio braço, que têm a mesma cor.
     const peao = ([x, y], raio, a, j) => {
       const [c, ct] = CORES[j.tema] || ["#6b6b66", "#fff"];
       const [cx, cy] = [x.toFixed(1), y.toFixed(1)];
-      return `<g><title>${esc(j.nome)} · ${esc(j.tema || "sem tema")} · ${esc(situacao(j))}</title>
+      // O círculo transparente aumenta a área de toque para arrastar o peão.
+      return `<g class="peao" data-id="${esc(j.id)}"><title>${esc(j.nome)} · ${esc(j.tema || "sem tema")} · ${esc(situacao(j))} · arraste para mudar de casa</title>
+      <circle cx="${cx}" cy="${cy}" r="${Math.max(raio + 14, 34).toFixed(1)}" fill="transparent"/>
       <circle cx="${cx}" cy="${cy}" r="${(raio + 3).toFixed(1)}" fill="#000"/>
       <circle cx="${cx}" cy="${cy}" r="${raio.toFixed(1)}" fill="${c}" stroke="#fff" stroke-width="3"/>
       <text x="${cx}" y="${cy}" transform="rotate(${graus(a)} ${cx} ${cy})"
@@ -824,6 +840,51 @@
     return `<svg viewBox="-500 -500 1000 1000" role="img" aria-label="Tabuleiro">${partes.join("")}</svg>`;
   }
 
+  // Arrastar peões. Enquanto um peão é arrastado, o tabuleiro não é redesenhado, para não perder o arrasto.
+  let arrasto = null;  // {g, svg, id, x0, y0}
+  function desenharTabuleiros() {
+    if (!arrasto) $("tabuleiro").innerHTML = $("mesa-tab").innerHTML = svgTabuleiro();
+  }
+  const pontoSvg = (svg, e) => Object.assign(svg.createSVGPoint(), { x: e.clientX, y: e.clientY })
+    .matrixTransform(svg.getScreenCTM().inverse());
+
+  for (const caixa of [$("tabuleiro"), $("mesa-tab")]) {
+    // Um toque que começa num peão não rola a página.
+    caixa.addEventListener("touchstart", e => { if (e.target.closest(".peao")) e.preventDefault(); }, { passive: false });
+    caixa.addEventListener("pointerdown", e => {
+      const g = e.target.closest(".peao");
+      if (!g || !codigo) return;
+      e.preventDefault();
+      try { g.setPointerCapture(e.pointerId); } catch {}
+      const p = pontoSvg(g.ownerSVGElement, e);
+      arrasto = { g, svg: g.ownerSVGElement, id: g.dataset.id, x0: p.x, y0: p.y };
+      g.classList.add("arrastando");
+      g.parentNode.append(g);  // por cima dos outros peões
+    });
+    caixa.addEventListener("pointermove", e => {
+      if (!arrasto) return;
+      const p = pontoSvg(arrasto.svg, e);
+      arrasto.g.setAttribute("transform", `translate(${(p.x - arrasto.x0).toFixed(1)} ${(p.y - arrasto.y0).toFixed(1)})`);
+    });
+    // Ao soltar, o peão vai para a casa mais próxima do caminho do jogador (braço do seu tema, anel ou chegada).
+    caixa.addEventListener("pointerup", e => {
+      if (!arrasto) return;
+      const { svg, id } = arrasto;
+      arrasto = null;
+      const p = pontoSvg(svg, e);
+      const j = jogadores.find(x => x.id === id);
+      let casa = null, dist = Infinity;
+      (centrosTabuleiro[temasDoJogo().indexOf(j?.tema)] || []).forEach(([x, y], k) => {
+        const d = Math.hypot(p.x - x, p.y - y);
+        if (d < dist) [casa, dist] = [k, d];
+      });
+      if (casa !== null && dist < 90 && casa !== casaDe(j))
+        updateDoc(doc(db, "partidas", codigo, "jogadores", id), { pontos: casa });
+      desenharTabuleiros();
+    });
+    caixa.addEventListener("pointercancel", () => { arrasto = null; desenharTabuleiros(); });
+  }
+
   let mesaAcesa = null;  // trava que impede a tela de apagar no modo mesa
   $("modo-mesa").onclick = async () => {
     $("mesa").hidden = false;
@@ -857,7 +918,7 @@
       return b;
     }));
 
-    $("tabuleiro").innerHTML = $("mesa-tab").innerHTML = svgTabuleiro();
+    desenharTabuleiros();
 
     // Lista de jogadores, com ajuste manual da casa e do tema do estágio 1.
     $("placar-vazio").hidden = jogadores.length > 0;
