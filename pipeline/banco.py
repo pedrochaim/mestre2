@@ -41,6 +41,8 @@ class Banco:
         # Âncoras antes das perguntas: uma pergunta nunca aponta para âncora não gravada.
         gravar_json(ARQ_ANCORAS, self.ancoras)
         gravar_json(ARQ_PERGUNTAS, self.perguntas)
+        numeros = [int(p["id"][1:]) for p in self.perguntas]
+        self.estado["maior_id"] = max(max(numeros, default=0), self.estado.get("maior_id", 0))
         gravar_json(ARQ_ESTADO, self.estado)
 
     # --- âncoras
@@ -89,8 +91,9 @@ class Banco:
     # --- perguntas
 
     def proximo_numero(self):
+        # Ids de perguntas apagadas nunca são reaproveitados: partidas antigas guardam os ids já sorteados.
         numeros = [int(p["id"][1:]) for p in self.perguntas]
-        return max(numeros, default=0) + 1
+        return max(max(numeros, default=0), self.estado.get("maior_id", 0)) + 1
 
     def perguntas_do_subtema(self, tema, subtema):
         return [p for p in self.perguntas if p["tema"] == tema and p["subtema"] == subtema]

@@ -933,52 +933,6 @@
     "dificuldade": 3
   },
   {
-    "id": "q00060",
-    "tema": "Geografia",
-    "subtema": "Cidades e Monumentos",
-    "ancora": "ponte_luis_i",
-    "angulo": "lugar",
-    "tipo": "aberta",
-    "pergunta": "Que cidade aparece nesta foto, do outro lado da ponte?",
-    "resposta": "Porto",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge",
-      "https://commons.wikimedia.org/wiki/File:Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG"
-    ],
-    "imagem": {
-      "arquivo": "q00060.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG",
-      "autor": "Diego Delso",
-      "licenca": "CC BY-SA 3.0"
-    },
-    "dificuldade": 3
-  },
-  {
-    "id": "q00061",
-    "tema": "Geografia",
-    "subtema": "Cidades e Monumentos",
-    "ancora": "hallgrimskirkja",
-    "angulo": "lugar",
-    "tipo": "multipla",
-    "pergunta": "Esta igreja, cujo desenho lembra colunas de basalto, fica em qual capital?",
-    "resposta": "Reykjavík",
-    "distratores": [
-      "Oslo",
-      "Helsinque",
-      "Copenhague"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja"
-    ],
-    "imagem": {
-      "arquivo": "q00061.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Hallgrimskirkja_mai_2026.jpg",
-      "autor": "Steinninn",
-      "licenca": "CC BY 4.0"
-    },
-    "dificuldade": 5
-  },
-  {
     "id": "q00062",
     "tema": "História",
     "subtema": "Egito Antigo",
@@ -4410,328 +4364,6 @@
     "dificuldade": 3
   },
   {
-    "id": "q00285",
-    "tema": "Natureza",
-    "subtema": "Mamíferos",
-    "ancora": "ocapi",
-    "angulo": "conexao",
-    "tipo": "aberta",
-    "pergunta": "Apesar das listras que lembram uma zebra, este animal africano é parente mais próximo de qual outro animal?",
-    "resposta": "Girafa",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Okapi"
-    ],
-    "imagem": {
-      "arquivo": "q00285.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Okapia_johnstoni_-Marwell_Wildlife,_Hampshire,_England-8a.jpg",
-      "autor": "Charles Miller",
-      "licenca": "CC BY 2.0"
-    },
-    "dificuldade": 3
-  },
-  {
-    "id": "q00286",
-    "tema": "Natureza",
-    "subtema": "Mamíferos",
-    "ancora": "tarsio",
-    "angulo": "composicao",
-    "tipo": "aberta",
-    "pergunta": "Cada olho deste pequeno primata asiático tem mais ou menos o tamanho de qual órgão do próprio corpo?",
-    "resposta": "O cérebro",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Tarsier"
-    ],
-    "imagem": {
-      "arquivo": "q00286.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Tarsier_Hugs_Mossy_Branch.jpg",
-      "autor": "Kok Leng Yeo",
-      "licenca": "CC BY 2.0"
-    },
-    "dificuldade": 5
-  },
-  {
-    "id": "q00287",
-    "tema": "Natureza",
-    "subtema": "Mamíferos",
-    "ancora": "pangolim",
-    "angulo": "identidade",
-    "tipo": "aberta",
-    "pergunta": "Coberto de escamas, este animal é considerado o mamífero mais traficado do mundo. Como ele se chama?",
-    "resposta": "Pangolim",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Pangolin"
-    ],
-    "imagem": {
-      "arquivo": "q00287.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Manis_temminckii_(29645803646).jpg",
-      "autor": "U.S. Fish and Wildlife Service Headquarters",
-      "licenca": "CC BY 2.0"
-    },
-    "dificuldade": 3
-  },
-  {
-    "id": "q00288",
-    "tema": "Natureza",
-    "subtema": "Mamíferos",
-    "ancora": "damao",
-    "angulo": "conexao",
-    "tipo": "multipla",
-    "pergunta": "Apesar de lembrar um roedor, este pequeno animal da África e do Oriente Médio é muito mais aparentado a qual destes animais?",
-    "resposta": "Elefante",
-    "distratores": [
-      "Coelho",
-      "Castor",
-      "Porquinho-da-índia"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Hyrax"
-    ],
-    "imagem": {
-      "arquivo": "q00288.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:الوبر_الصخري_١.jpg",
-      "autor": "Basem mosaa",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q00289",
-    "tema": "Natureza",
-    "subtema": "Mamíferos",
-    "ancora": "panda_vermelho",
-    "angulo": "nome",
-    "tipo": "multipla",
-    "pergunta": "Um apelido deste animal asiático teria dado nome a qual navegador de internet?",
-    "resposta": "Firefox",
-    "distratores": [
-      "Chrome",
-      "Safari",
-      "Opera"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Red_panda",
-      "https://en.wikipedia.org/wiki/Firefox"
-    ],
-    "imagem": {
-      "arquivo": "q00289.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:RedPanda_SingalilaNationalPark_DFrame.jpg",
-      "autor": "Ajit Hota",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 3
-  },
-  {
-    "id": "q00290",
-    "tema": "História",
-    "subtema": "Pré-História e Idade do Bronze",
-    "ancora": "stonehenge",
-    "angulo": "tempo",
-    "tipo": "aberta",
-    "pergunta": "Este monumento pré-histórico inglês está alinhado com o nascer do sol em qual data do ano?",
-    "resposta": "Solstício de verão (em junho)",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Stonehenge"
-    ],
-    "imagem": {
-      "arquivo": "q00290.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Stonehenge_Total.jpg",
-      "autor": "Stefan Kühn",
-      "licenca": "CC BY-SA 3.0"
-    },
-    "dificuldade": 3
-  },
-  {
-    "id": "q00291",
-    "tema": "História",
-    "subtema": "Américas Pré-Colombianas",
-    "ancora": "machu_picchu",
-    "angulo": "autoria",
-    "tipo": "multipla",
-    "pergunta": "Esta cidadela inca nos Andes foi apresentada ao mundo em 1911 por qual explorador americano?",
-    "resposta": "Hiram Bingham",
-    "distratores": [
-      "Percy Fawcett",
-      "Howard Carter",
-      "John Lloyd Stephens"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Machu_Picchu"
-    ],
-    "imagem": {
-      "arquivo": "q00291.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg",
-      "autor": "Martin St-Amant (S23678)",
-      "licenca": "CC BY-SA 3.0"
-    },
-    "dificuldade": 2
-  },
-  {
-    "id": "q00292",
-    "tema": "História",
-    "subtema": "Américas Pré-Colombianas",
-    "ancora": "piramide_de_kukulcan",
-    "angulo": "atributo",
-    "tipo": "aberta",
-    "pergunta": "Nos equinócios, as sombras do fim da tarde nesta pirâmide maia criam a ilusão de qual animal descendo a escadaria?",
-    "resposta": "Uma serpente",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
-    ],
-    "imagem": {
-      "arquivo": "q00292.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
-      "autor": "Daniel Schwen",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q00293",
-    "tema": "História",
-    "subtema": "Roma Antiga",
-    "ancora": "coliseu",
-    "angulo": "autoria",
-    "tipo": "aberta",
-    "pergunta": "Começado pelo imperador Vespasiano, este anfiteatro foi concluído no ano 80 por qual imperador, filho dele?",
-    "resposta": "Tito",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Colosseum"
-    ],
-    "imagem": {
-      "arquivo": "q00293.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
-      "autor": "FeaturedPics",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 2
-  },
-  {
-    "id": "q00294",
-    "tema": "História",
-    "subtema": "Egito Antigo",
-    "ancora": "grande_esfinge_de_gize",
-    "angulo": "composicao",
-    "tipo": "aberta",
-    "pergunta": "Esta estátua gigante não foi montada com blocos. Ela foi esculpida diretamente em quê?",
-    "resposta": "Na rocha calcária do próprio planalto",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza"
-    ],
-    "imagem": {
-      "arquivo": "q00294.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_May_2015.JPG",
-      "autor": "MusikAnimal",
-      "licenca": "CC BY-SA 3.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q00295",
-    "tema": "História",
-    "subtema": "Antigas Civilizações do Oriente",
-    "ancora": "grande_muralha_da_china",
-    "angulo": "tempo",
-    "tipo": "aberta",
-    "pergunta": "Os trechos mais conhecidos desta muralha são da dinastia Ming, mas muralhas mais antigas foram unidas pela primeira vez sob qual dinastia?",
-    "resposta": "Qin",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Great_Wall_of_China"
-    ],
-    "imagem": {
-      "arquivo": "q00295.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-06.jpg",
-      "autor": "CEphoto, Uwe Aranas",
-      "licenca": "CC BY-SA 3.0"
-    },
-    "dificuldade": 2
-  },
-  {
-    "id": "q00296",
-    "tema": "História",
-    "subtema": "Idade Média",
-    "ancora": "alhambra",
-    "angulo": "lugar",
-    "tipo": "aberta",
-    "pergunta": "Este palácio-fortaleza foi sede do último reino muçulmano da Península Ibérica, conquistado pelos cristãos em 1492. Em que cidade espanhola ele fica?",
-    "resposta": "Granada",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Alhambra"
-    ],
-    "imagem": {
-      "arquivo": "q00296.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Alhambra_detail.jpg",
-      "autor": "Jebulon",
-      "licenca": "CC0"
-    },
-    "dificuldade": 3
-  },
-  {
-    "id": "q00297",
-    "tema": "História",
-    "subtema": "História do Brasil",
-    "ancora": "teatro_amazonas",
-    "angulo": "causa",
-    "tipo": "aberta",
-    "pergunta": "Inaugurado em 1896, este teatro de Manaus representa o apogeu da cidade durante qual ciclo econômico?",
-    "resposta": "Ciclo da borracha",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
-      "https://en.wikipedia.org/wiki/Amazon_Theatre"
-    ],
-    "imagem": {
-      "arquivo": "q00297.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Teatro_Amazonas_Atualmente_01.jpg",
-      "autor": "Karine Hermes",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q00298",
-    "tema": "História",
-    "subtema": "Segunda Guerra Mundial",
-    "ancora": "cupula_da_bomba_atomica",
-    "angulo": "lugar",
-    "tipo": "aberta",
-    "pergunta": "Este prédio foi a única construção que ficou de pé perto do ponto de explosão de uma bomba atômica. Em qual cidade ele fica?",
-    "resposta": "Hiroshima",
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial"
-    ],
-    "imagem": {
-      "arquivo": "q00298.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
-      "autor": "Oilstreet",
-      "licenca": "CC BY 2.5"
-    },
-    "dificuldade": 5
-  },
-  {
-    "id": "q00299",
-    "tema": "História",
-    "subtema": "Primeira Guerra Mundial",
-    "ancora": "galeria_dos_espelhos",
-    "angulo": "conexao",
-    "tipo": "multipla",
-    "pergunta": "Neste salão do Palácio de Versalhes foi assinado, em 1919, o tratado que encerrou a Primeira Guerra. Que império tinha sido proclamado neste mesmo salão, em 1871?",
-    "resposta": "Império Alemão",
-    "distratores": [
-      "Império Austro-Húngaro",
-      "Segundo Império Francês",
-      "Império Otomano"
-    ],
-    "fonte": [
-      "https://en.wikipedia.org/wiki/Hall_of_Mirrors"
-    ],
-    "imagem": {
-      "arquivo": "q00299.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Chateau_Versailles_Galerie_des_Glaces.jpg",
-      "autor": "Myrabella",
-      "licenca": "CC BY-SA 3.0"
-    },
-    "dificuldade": 5
-  },
-  {
     "id": "q00300",
     "tema": "Cotidiano",
     "subtema": "Folclore e Tradições Brasileiras",
@@ -5438,19 +5070,526 @@
     "dificuldade": 5
   },
   {
-    "id": "q00346",
+    "id": "q00366",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "cidade_do_cabo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que cidade é esta?",
+    "resposta": "Cidade do Cabo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Table_Mountain",
+      "https://en.wikipedia.org/wiki/Cape_Town"
+    ],
+    "imagem": {
+      "arquivo": "q00366.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cape_Town_City_Bowl_and_Table_Mountain_at_dawn.jpg",
+      "autor": "Daniel Case",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00367",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "hong_kong",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cidade é esta?",
+    "resposta": "Hong Kong",
+    "distratores": [
+      "Xangai",
+      "Singapura",
+      "Tóquio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Victoria_Harbour"
+    ],
+    "imagem": {
+      "arquivo": "q00367.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Victoria_Harbour_skyscrapers.jpg",
+      "autor": "Wilfredor",
+      "licenca": "CC0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00368",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "istambul",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que cidade é esta?",
+    "resposta": "Istambul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Istanbul"
+    ],
+    "imagem": {
+      "arquivo": "q00368.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Historical_peninsula_and_modern_skyline_of_Istanbul.jpg",
+      "autor": "Hunanuk",
+      "licenca": "CC0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00369",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ouro_preto",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Esta igreja barroca fica em qual cidade mineira?",
+    "resposta": "Ouro Preto",
+    "distratores": [
+      "Mariana",
+      "Tiradentes",
+      "Diamantina"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Igreja_de_São_Francisco_de_Assis_(Ouro_Preto)"
+    ],
+    "imagem": {
+      "arquivo": "q00369.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Igreja_de_São_Francisco_de_Assis_(Ouro_Preto,_MG)_por_Rodrigo_Tetsuo_Argenton.jpg",
+      "autor": "Rodrigo Tetsuo Argenton",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00370",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "porto",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cidade é esta?",
+    "resposta": "Porto",
+    "distratores": [
+      "Lisboa",
+      "Coimbra",
+      "Bilbau"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Porto",
+      "https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge"
+    ],
+    "imagem": {
+      "arquivo": "q00370.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ribeira_from_Dom_Luis_I_bridge_(3).jpg",
+      "autor": "Krzysztof Golik",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00371",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "praga",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que cidade é esta?",
+    "resposta": "Praga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Bridge"
+    ],
+    "imagem": {
+      "arquivo": "q00371.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Prague_Castle_and_Charles_Bridge,_Czech_Republic_-_Diliff.jpg",
+      "autor": "Diliff",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00372",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "salvador",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que cidade é esta?",
+    "resposta": "Salvador",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Elevador_Lacerda"
+    ],
+    "imagem": {
+      "arquivo": "q00372.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:MARCIO_FILHO_ELEVADOR_LACERDA_SALVADOR_BAHIA_(39270029680).jpg",
+      "autor": "MTur Destinos",
+      "licenca": "Public domain"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00373",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "ocapi",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal é este?",
+    "resposta": "Ocapi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Okapi"
+    ],
+    "imagem": {
+      "arquivo": "q00373.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Okapia_johnstoni_-Marwell_Wildlife,_Hampshire,_England-8a.jpg",
+      "autor": "Charles Miller",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00374",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "tarsio",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal é este?",
+    "resposta": "Társio",
+    "distratores": [
+      "Lóris",
+      "Gálago",
+      "Sagui"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Philippine_tarsier"
+    ],
+    "imagem": {
+      "arquivo": "q00374.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tarsier_Hugs_Mossy_Branch.jpg",
+      "autor": "Kok Leng Yeo",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00375",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "pangolim",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal é este?",
+    "resposta": "Pangolim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ground_pangolin"
+    ],
+    "imagem": {
+      "arquivo": "q00375.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Manis_temminckii_(29645803646).jpg",
+      "autor": "U.S. Fish and Wildlife Service Headquarters",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00376",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "panda_vermelho",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal é este?",
+    "resposta": "Panda-vermelho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_panda"
+    ],
+    "imagem": {
+      "arquivo": "q00376.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:RedPanda_SingalilaNationalPark_DFrame.jpg",
+      "autor": "Ajit Hota",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00377",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "damao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal é este?",
+    "resposta": "Damão",
+    "distratores": [
+      "Marmota",
+      "Cutia",
+      "Porquinho-da-índia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rock_hyrax"
+    ],
+    "imagem": {
+      "arquivo": "q00377.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:الوبر_الصخري_١.jpg",
+      "autor": "Basem mosaa",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00378",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "aye_aye",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal é este?",
+    "resposta": "Aye-aye",
+    "distratores": [
+      "Társio",
+      "Lóris",
+      "Gálago"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aye-aye"
+    ],
+    "imagem": {
+      "arquivo": "q00378.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aye-aye_(Daubentonia_madagascariensis),_Tsimbazaza_Zoo,_Madagascar_(3897947810).jpg",
+      "autor": "Frank Vassen from Brussels, Belgium",
+      "licenca": "CC BY 2.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00379",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "tatu_bola",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal é este?",
+    "resposta": "Tatu-bola",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Three-banded_armadillo"
+    ],
+    "imagem": {
+      "arquivo": "q00379.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:EdmontonZooArmadillo.JPG",
+      "autor": "ChrisStubbs",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00380",
+    "tema": "Natureza",
+    "subtema": "Mamíferos",
+    "ancora": "ariranha",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal é este?",
+    "resposta": "Ariranha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_otter"
+    ],
+    "imagem": {
+      "arquivo": "q00380.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Giant_otter_(Pteronura_brasiliensis)_juvenile.jpg",
+      "autor": "Charles J. Sharp",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00381",
+    "tema": "História",
+    "subtema": "Pré-História e Idade do Bronze",
+    "ancora": "stonehenge",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que monumento é este?",
+    "resposta": "Stonehenge",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stonehenge"
+    ],
+    "imagem": {
+      "arquivo": "q00381.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stonehenge_Total.jpg",
+      "autor": "Stefan Kühn",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00382",
+    "tema": "História",
+    "subtema": "Américas Pré-Colombianas",
+    "ancora": "machu_picchu",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que sítio arqueológico é este?",
+    "resposta": "Machu Picchu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Machu_Picchu"
+    ],
+    "imagem": {
+      "arquivo": "q00382.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg",
+      "autor": "Martin St-Amant (S23678)",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00383",
+    "tema": "História",
+    "subtema": "Américas Pré-Colombianas",
+    "ancora": "chichen_itza",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Em que sítio arqueológico fica esta pirâmide?",
+    "resposta": "Chichén Itzá",
+    "distratores": [
+      "Teotihuacán",
+      "Tikal",
+      "Palenque"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+    ],
+    "imagem": {
+      "arquivo": "q00383.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
+      "autor": "Daniel Schwen",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00384",
+    "tema": "História",
+    "subtema": "Antigas Civilizações do Oriente",
+    "ancora": "petra",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em que sítio arqueológico fica este templo esculpido na rocha?",
+    "resposta": "Petra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Al-Khazneh"
+    ],
+    "imagem": {
+      "arquivo": "q00384.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Al_Khazneh_Petra_edit_2.jpg",
+      "autor": "Al_Khazneh_Petra.jpg: Graham Racher from London, UK derivative work: MrPanyGoff",
+      "licenca": "CC BY-SA 2.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00385",
+    "tema": "História",
+    "subtema": "Antigas Civilizações do Oriente",
+    "ancora": "angkor_wat",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que templo é este?",
+    "resposta": "Angkor Wat",
+    "distratores": [
+      "Borobudur",
+      "Bagan",
+      "Ayutthaya"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angkor_Wat"
+    ],
+    "imagem": {
+      "arquivo": "q00385.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg",
+      "autor": "Bjørn Christian Tørrissen",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00386",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "alhambra",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que palácio é este?",
+    "resposta": "Alhambra",
+    "distratores": [
+      "Alcázar de Sevilha",
+      "Mesquita de Córdoba",
+      "Palácio da Pena"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alhambra"
+    ],
+    "imagem": {
+      "arquivo": "q00386.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Alhambra_detail.jpg",
+      "autor": "Jebulon",
+      "licenca": "CC0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00387",
+    "tema": "História",
+    "subtema": "Segunda Guerra Mundial",
+    "ancora": "cupula_da_bomba_atomica",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica este prédio em ruínas, preservado como memorial?",
+    "resposta": "Hiroshima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial"
+    ],
+    "imagem": {
+      "arquivo": "q00387.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
+      "autor": "Oilstreet",
+      "licenca": "CC BY 2.5"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00388",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "teatro_amazonas",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que teatro é este?",
+    "resposta": "Teatro Amazonas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teatro_Amazonas"
+    ],
+    "imagem": {
+      "arquivo": "q00388.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Teatro_Amazonas_Atualmente_01.jpg",
+      "autor": "Karine Hermes",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00389",
     "tema": "Cotidiano",
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "saci",
-    "angulo": "atributo",
+    "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Segundo a crença popular, este personagem pode ser carregado por qual fenômeno do vento?",
-    "resposta": "Redemoinhos",
+    "pergunta": "Que personagem do folclore brasileiro é este?",
+    "resposta": "Saci-pererê",
     "fonte": [
       "https://pt.wikipedia.org/wiki/Saci"
     ],
     "imagem": {
-      "arquivo": "q00346.jpg",
+      "arquivo": "q00389.jpg",
       "origem": "https://commons.wikimedia.org/wiki/File:Saci_pererê_por_Cozinhando_Fantasias.jpg",
       "autor": "Cozinhando Fantasias",
       "licenca": "CC BY-SA 2.0"
@@ -5458,19 +5597,19 @@
     "dificuldade": 4
   },
   {
-    "id": "q00347",
+    "id": "q00390",
     "tema": "Cotidiano",
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "mula_sem_cabeca",
-    "angulo": "lugar",
+    "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Segundo a maioria das versões da lenda, em que tipo de lugar a mulher amaldiçoada se transforma neste ser?",
-    "resposta": "Numa encruzilhada",
+    "pergunta": "Que personagem do folclore brasileiro é este?",
+    "resposta": "Mula sem cabeça",
     "fonte": [
-      "https://en.wikipedia.org/wiki/Headless_Mule"
+      "https://pt.wikipedia.org/wiki/Mula_sem_cabeça"
     ],
     "imagem": {
-      "arquivo": "q00347.jpg",
+      "arquivo": "q00390.jpg",
       "origem": "https://commons.wikimedia.org/wiki/File:Mulasemcabeca.JPG",
       "autor": "OrsettoGommoso2",
       "licenca": "Public domain"
@@ -5478,19 +5617,24 @@
     "dificuldade": 4
   },
   {
-    "id": "q00348",
+    "id": "q00391",
     "tema": "Cotidiano",
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "curupira",
-    "angulo": "nome",
-    "tipo": "aberta",
-    "pergunta": "O nome deste protetor das matas vem do tupi. Segundo os especialistas, ele descreve que parte do corpo do Curupira?",
-    "resposta": "A pele (áspera, com sarna ou verrugas)",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que personagem do folclore brasileiro esta estátua representa?",
+    "resposta": "Curupira",
+    "distratores": [
+      "Mapinguari",
+      "Saci-pererê",
+      "Boto"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Curupira"
     ],
     "imagem": {
-      "arquivo": "q00348.jpg",
+      "arquivo": "q00391.jpg",
       "origem": "https://commons.wikimedia.org/wiki/File:Jardim_Botânico_Plantarum_11.jpg",
       "autor": "Sturm",
       "licenca": "CC BY-SA 4.0"
@@ -5498,144 +5642,44 @@
     "dificuldade": 4
   },
   {
-    "id": "q00349",
+    "id": "q00392",
     "tema": "Cotidiano",
     "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "uirapuru",
-    "angulo": "atributo",
-    "tipo": "aberta",
-    "pergunta": "Na Amazônia, partes deste pássaro de canto famoso são usadas como talismã para trazer o quê?",
-    "resposta": "Sorte, sobretudo no amor",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Uirapuru-verdadeiro"
-    ],
-    "imagem": {
-      "arquivo": "q00349.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Cyphorhinus_arada_arada_-_Musician_wren,_Pte._Figueiredo,_Amazonas,_Brazil.jpg",
-      "autor": "Hector Bottai",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 5
-  },
-  {
-    "id": "q00350",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "saci_ave",
-    "angulo": "nome",
+    "ancora": "boitata",
+    "angulo": "identidade",
     "tipo": "multipla",
-    "pergunta": "Este pássaro brasileiro é conhecido popularmente pelo mesmo nome de qual personagem do folclore?",
-    "resposta": "Saci",
+    "pergunta": "Que personagem do folclore brasileiro é este?",
+    "resposta": "Boitatá",
     "distratores": [
       "Curupira",
-      "Boitatá",
-      "Caipora"
+      "Iara",
+      "Mapinguari"
     ],
     "fonte": [
-      "https://pt.wikipedia.org/wiki/Saci_(ave)"
+      "https://pt.wikipedia.org/wiki/Boitatá"
     ],
     "imagem": {
-      "arquivo": "q00350.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Saci_(Tapera_naevia).jpg",
-      "autor": "Luiz Fernando Matos",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 5
-  },
-  {
-    "id": "q00351",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "vitoria_regia",
-    "angulo": "nome",
-    "tipo": "aberta",
-    "pergunta": "Segundo a lenda indígena, a Lua transformou uma jovem nesta planta, que por isso é chamada de estrela de quê?",
-    "resposta": "Das águas",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Lenda_da_vitória-régia"
-    ],
-    "imagem": {
-      "arquivo": "q00351.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Victoria_amazonica_edit_1.jpg",
-      "autor": "Bilby",
-      "licenca": "CC BY 3.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q00352",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "fita_do_senhor_do_bonfim",
-    "angulo": "tempo",
-    "tipo": "aberta",
-    "pergunta": "Segundo a tradição, os pedidos feitos ao amarrar esta fita no pulso se realizam quando?",
-    "resposta": "Quando a fita se romper sozinha",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Fita_do_Senhor_do_Bonfim"
-    ],
-    "imagem": {
-      "arquivo": "q00352.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Fitinhas_de_Bonfim.JPG",
-      "autor": "André Urel",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 5
-  },
-  {
-    "id": "q00353",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "figa",
-    "angulo": "causa",
-    "tipo": "aberta",
-    "pergunta": "Usado também como amuleto, este gesto serve para proteger contra o quê?",
-    "resposta": "Mau-olhado (olho gordo)",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Figa"
-    ],
-    "imagem": {
-      "arquivo": "q00353.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Gesture_fist_with_thumb_through_fingers.jpg",
-      "autor": "User Jeremykemp on en.wikipedia",
+      "arquivo": "q00392.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Boitata.png",
+      "autor": "OrsettoGommoso2",
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 4
   },
   {
-    "id": "q00354",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "berimbau",
-    "angulo": "lugar",
-    "tipo": "aberta",
-    "pergunta": "Este instrumento, que acompanha a capoeira, chegou ao Brasil com escravizados vindos de qual atual país africano?",
-    "resposta": "Angola",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Berimbau"
-    ],
-    "imagem": {
-      "arquivo": "q00354.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Hn_3berimbau.jpg",
-      "autor": "Gbiten (Wikimedia Commons)",
-      "licenca": "CC BY-SA 3.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q00355",
+    "id": "q00393",
     "tema": "Cotidiano",
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "carranca",
-    "angulo": "atributo",
+    "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Segundo a crença dos barqueiros, de que forma uma escultura como esta avisa que o barco vai naufragar?",
-    "resposta": "Gemendo três vezes",
+    "pergunta": "Como se chama este tipo de escultura popular brasileira?",
+    "resposta": "Carranca",
     "fonte": [
       "https://pt.wikipedia.org/wiki/Carranca"
     ],
     "imagem": {
-      "arquivo": "q00355.jpg",
+      "arquivo": "q00393.jpg",
       "origem": "https://commons.wikimedia.org/wiki/File:Carranca_do_rio_são_Francisco,_o_velho_Chico_em_Minas_gerais._-_panoramio.jpg",
       "autor": "jose donizetti dias",
       "licenca": "CC BY-SA 3.0"
@@ -5643,39 +5687,44 @@
     "dificuldade": 5
   },
   {
-    "id": "q00356",
+    "id": "q00394",
     "tema": "Cotidiano",
     "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "renda_de_bilros",
-    "angulo": "nome",
+    "ancora": "bonecos_de_olinda",
+    "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Nesta renda tradicional, os fios são presos a pequenas peças de madeira que dão nome à técnica. Como se chamam essas peças?",
-    "resposta": "Bilros",
+    "pergunta": "Estes bonecos gigantes são símbolo do carnaval de qual cidade?",
+    "resposta": "Olinda",
     "fonte": [
-      "https://pt.wikipedia.org/wiki/Renda_de_bilros"
+      "https://pt.wikipedia.org/wiki/Boneco_de_Olinda"
     ],
     "imagem": {
-      "arquivo": "q00356.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Renda_de_bilro_-_almofada.jpg",
-      "autor": "Margareth Bruno",
-      "licenca": "CC0"
+      "arquivo": "q00394.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bonecos_Gigantes_de_Olinda_(3707791752).jpg",
+      "autor": "Prefeitura de Olinda from Brasil",
+      "licenca": "CC BY 2.0"
     },
-    "dificuldade": 5
+    "dificuldade": 4
   },
   {
-    "id": "q00357",
+    "id": "q00395",
     "tema": "Cotidiano",
     "subtema": "Folclore e Tradições Brasileiras",
     "ancora": "ceramica_marajoara",
-    "angulo": "lugar",
-    "tipo": "aberta",
-    "pergunta": "Esta cerâmica indígena, feita entre os anos 400 e 1400, leva o nome de qual ilha do Pará?",
-    "resposta": "Marajó",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que cerâmica indígena é esta?",
+    "resposta": "Marajoara",
+    "distratores": [
+      "Tapajônica",
+      "Kadiwéu",
+      "Waurá"
+    ],
     "fonte": [
       "https://pt.wikipedia.org/wiki/Arte_marajoara"
     ],
     "imagem": {
-      "arquivo": "q00357.jpg",
+      "arquivo": "q00395.jpg",
       "origem": "https://commons.wikimedia.org/wiki/File:Cultura_Marajoara_-_Cerâmica_MN_05.jpg",
       "autor": "Dornicke",
       "licenca": "CC BY-SA 4.0"
@@ -5683,169 +5732,136 @@
     "dificuldade": 4
   },
   {
-    "id": "q00358",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "mamulengo",
-    "angulo": "lugar",
-    "tipo": "aberta",
-    "pergunta": "Este tipo de fantoche popular é típico do Nordeste, especialmente de qual estado?",
-    "resposta": "Pernambuco",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Mamulengo"
-    ],
-    "imagem": {
-      "arquivo": "q00358.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Mamulengo_feito_com_papel_machê,_lã,_tecido_e_tinta_acrílica.jpg",
-      "autor": "Roberta.msa",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 5
-  },
-  {
-    "id": "q00359",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "boi_garantido",
-    "angulo": "atributo",
-    "tipo": "multipla",
-    "pergunta": "No Festival de Parintins, o boi Garantido traz na testa qual símbolo?",
-    "resposta": "Um coração",
-    "distratores": [
-      "Uma estrela",
-      "Uma lua",
-      "Uma cruz"
-    ],
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Boi_Garantido"
-    ],
-    "imagem": {
-      "arquivo": "q00359.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Boi_Garantido_2016.jpg",
-      "autor": "Bianca Paiva/Agência Brasil",
-      "licenca": "CC BY 3.0 br"
-    },
-    "dificuldade": 3
-  },
-  {
-    "id": "q00360",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "cavalhadas_de_pirenopolis",
-    "angulo": "conexao",
-    "tipo": "aberta",
-    "pergunta": "Festas como esta, em Pirenópolis, encenam batalhas com enredo inspirado nas histórias de qual imperador e seus doze pares?",
-    "resposta": "Carlos Magno",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Cavalhadas",
-      "https://pt.wikipedia.org/wiki/Cavalhadas_de_Pirenópolis"
-    ],
-    "imagem": {
-      "arquivo": "q00360.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Cavalhadas_de_Pirenópolis.jpg",
-      "autor": "LardeLara",
-      "licenca": "CC BY-SA 4.0"
-    },
-    "dificuldade": 5
-  },
-  {
-    "id": "q00361",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "bumba_meu_boi",
-    "angulo": "lugar",
-    "tipo": "aberta",
-    "pergunta": "O bumba meu boi de qual estado foi reconhecido pela UNESCO como patrimônio imaterial da humanidade?",
-    "resposta": "Maranhão",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Bumba_meu_boi"
-    ],
-    "imagem": {
-      "arquivo": "q00361.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Bumba_meu_boi_-_Maranhão,_Brasil.jpg",
-      "autor": "CDI Europe",
-      "licenca": "CC BY-SA 2.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q00362",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "cirio_de_nazare",
-    "angulo": "composicao",
-    "tipo": "aberta",
-    "pergunta": "Nesta procissão de Belém, os promesseiros disputam um lugar junto a que objeto, usado desde 1855 para puxar a berlinda da santa?",
-    "resposta": "A corda",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Círio_de_Nazaré"
-    ],
-    "imagem": {
-      "arquivo": "q00362.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Círio_de_Nazaré_2012_(8083762069).jpg",
-      "autor": "Fora do Eixo",
-      "licenca": "CC BY-SA 2.0"
-    },
-    "dificuldade": 4
-  },
-  {
-    "id": "q00363",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "guarana",
-    "angulo": "composicao",
-    "tipo": "aberta",
-    "pergunta": "Segundo uma lenda dos sateré-mawé, esta planta nasceu de que parte do corpo de um menino morto, plantada na terra?",
-    "resposta": "Os olhos",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Guaraná"
-    ],
-    "imagem": {
-      "arquivo": "q00363.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Flickr_-_ggallice_-_Guarana.jpg",
-      "autor": "Geoff Gallice from Gainesville, FL, USA",
-      "licenca": "CC BY 2.0"
-    },
-    "dificuldade": 3
-  },
-  {
-    "id": "q00364",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "frevo",
-    "angulo": "lugar",
-    "tipo": "aberta",
-    "pergunta": "Em 2012, a UNESCO declarou esta dança patrimônio da humanidade como arte do espetáculo do carnaval de qual cidade?",
-    "resposta": "Recife",
-    "fonte": [
-      "https://pt.wikipedia.org/wiki/Frevo"
-    ],
-    "imagem": {
-      "arquivo": "q00364.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Passistas_de_Frevo.jpg",
-      "autor": "Prefeitura de Olinda",
-      "licenca": "CC BY 2.0"
-    },
-    "dificuldade": 5
-  },
-  {
-    "id": "q00365",
-    "tema": "Cotidiano",
-    "subtema": "Folclore e Tradições Brasileiras",
-    "ancora": "bonecos_de_olinda",
+    "id": "q00396",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "bulbasaur",
     "angulo": "identidade",
     "tipo": "aberta",
-    "pergunta": "Bonecos gigantes como estes ganharam as ladeiras de Olinda em 1931, com a criação de qual boneco?",
-    "resposta": "O Homem da Meia-Noite",
+    "pergunta": "Qual é este pokémon?",
+    "resposta": "Bulbasaur",
     "fonte": [
-      "https://pt.wikipedia.org/wiki/Boneco_de_Olinda"
+      "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)"
     ],
     "imagem": {
-      "arquivo": "q00365.jpg",
-      "origem": "https://commons.wikimedia.org/wiki/File:Bonecos_Gigantes_de_Olinda_(3707791752).jpg",
-      "autor": "Prefeitura de Olinda from Brasil",
-      "licenca": "CC BY 2.0"
-    },
-    "dificuldade": 4
+      "arquivo": "q00396.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre"
+    }
+  },
+  {
+    "id": "q00397",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "gengar",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é este pokémon?",
+    "resposta": "Gengar",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Gengar_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q00397.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/94.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre"
+    }
+  },
+  {
+    "id": "q00398",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "snorlax",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é este pokémon?",
+    "resposta": "Snorlax",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Snorlax_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q00398.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/143.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre"
+    }
+  },
+  {
+    "id": "q00399",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "psyduck",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é este pokémon?",
+    "resposta": "Psyduck",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Psyduck_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q00399.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre"
+    }
+  },
+  {
+    "id": "q00400",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "lucario",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é este pokémon?",
+    "resposta": "Lucario",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q00400.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre"
+    }
+  },
+  {
+    "id": "q00401",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "magikarp",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é este pokémon?",
+    "resposta": "Magikarp",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Magikarp_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q00401.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre"
+    }
+  },
+  {
+    "id": "q00402",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "eevee",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Qual é este pokémon?",
+    "resposta": "Eevee",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Eevee_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q00402.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre"
+    }
   }
 ]

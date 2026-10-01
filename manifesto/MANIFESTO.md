@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.27 — 2026-09-30**
+> **Versão preliminar 0.28 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -154,13 +154,15 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 
 > **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
 
-- **O enunciado aponta para a figura e é curto:** "Que cidade aparece nesta foto?", "Esta igreja fica em qual capital?". Ele pode trazer um fato que ajude, desde que não entregue a resposta.
-- **O ângulo segue a regra de sempre (§5).** Foto de um monumento e pergunta pela cidade: a âncora é o monumento, e o ângulo é `lugar`.
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Que personagem do folclore é este?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
+- **Âncora e ângulo:** a âncora é o que aparece na figura, e o ângulo é `identidade`. As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
 - **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa e personagens de lendas.
 - **Um único assunto por imagem:** nada de montagens nem pranchas com várias espécies. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
 - **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
 - **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
 - **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É uso privado, num jogo entre amigos, e não licença livre.
 - **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
 
 **Critérios da figura**, além dos de §8:
@@ -168,7 +170,7 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 - [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
 - [ ] **Legível num celular** a um braço de distância.
 - [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
-- [ ] **Não é óbvia demais:** a Torre Eiffel de frente não ensina nada. Prefira um ângulo menos visto, um detalhe ou um fato no enunciado que torne a pergunta interessante (princípio 4).
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
 
 ---
 
@@ -267,7 +269,7 @@ Toda pergunta precisa passar em **todos** os critérios abaixo:
 | `distratores` | só em `multipla` | Exatamente 3. Proibido em `aberta` (§6) |
 | `autor` | — | Autor humano. Só é preenchido quando indicado |
 | `dificuldade` | — | 1 (fácil) a 5 (difícil), **calculada** pela popularidade da âncora (§4). Gravada pelo pipeline, nunca escrita pelo LLM. **Apenas ilustrativa**: não entra em nenhuma decisão |
-| `imagem` | — | Figura mostrada ao respondente (§6): `arquivo` (id da pergunta + extensão, em `pipeline/banco/imagens/`), `origem` (página no Commons), `autor` e `licenca` |
+| `imagem` | — | Figura mostrada ao respondente (§6): `arquivo` (id da pergunta + extensão, em `pipeline/banco/imagens/`), `origem` (página no Commons ou, para Pokémon, no Bulbagarden Archives), `autor` e `licenca` |
 
 ### Âncora ([`ancora.schema.json`](ancora.schema.json))
 
@@ -435,12 +437,13 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
   - uma resposta genérica passou ("Um pássaro", `q00031`), o que motivou a regra "resposta específica" (§7);
   - o juiz de âncoras foi chamado três vezes à toa, para pares como "River Plate" e "Ancara". O filtro de candidatas é frouxo demais para nomes curtos.
 
+**Primeiras figuras, depois apagadas (2026-09-30).** As 37 primeiras perguntas com figura (`q00060`, `q00061`, `q00285` a `q00299` e `q00346` a `q00365`) usavam a imagem só como contexto: "este animal é parente de qual outro?", "esta pirâmide cria a ilusão de qual animal?". Trocar "este animal" pelo nome dava no mesmo. Foram todas apagadas e refeitas como perguntas de reconhecimento (§6). Os ids apagados não voltam a ser usados, porque partidas antigas guardam os ids sorteados (`maior_id`, em `pipeline/banco/estado.json`). As lições abaixo, sobre imagens e fontes, continuam valendo.
+
 **Piloto de figuras (2026-09-30).** Duas perguntas feitas à mão, fora do pipeline, em *Geografia › Cidades e Monumentos*: `q00060` (Ponte Luís I → Porto, aberta) e `q00061` (Hallgrímskirkja → Reykjavík, múltipla). As imagens vieram da propriedade P18 do Wikidata, que aponta a imagem principal de cada entidade.
 - A imagem principal do Wikidata foi boa nos dois casos: sem texto, sem marca d'água e com licença livre.
 - **É preciso olhar a foto e ler a fonte antes de escrever o enunciado.** "Que cidade é esta?" teria duas respostas, porque a ponte liga duas cidades. A foto foi tirada de Gaia, e o enunciado passou a perguntar pela cidade "do outro lado da ponte".
 
 **Figuras de animais (2026-09-30).** Cinco perguntas feitas à mão em *Natureza › Mamíferos* (`q00285` a `q00289`: ocapi, társio, pangolim, damão e panda-vermelho), com a imagem principal do Wikidata.
-- A foto não deve ser a pergunta: "que animal é este?" só vale quando o fato do enunciado acrescenta algo (pangolim, o mamífero mais traficado). Nas outras, a foto identifica o bicho e o enunciado pergunta um fato sobre ele: o parente mais próximo do ocapi, o órgão do tamanho do olho do társio.
 - A imagem do Wikidata para "pangolim" era uma montagem de uma foto com duas ilustrações; foi trocada pela de uma espécie. Daí a regra de só usar fotos de um único assunto.
 - Duas afirmações foram ajustadas ao que a fonte diz: o damão não é "o parente mais próximo do elefante" (a fonte diz que isso é contestado), e sim "muito mais aparentado" a ele que a um roedor, numa múltipla escolha sem sirênios entre as opções; o nome Firefox "teria vindo" de um apelido do panda-vermelho, como a fonte registra.
 
@@ -647,3 +650,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.25 | 2026-09-30 | App: arrastar o peão no tabuleiro muda a casa do jogador (§16) |
 | 0.26 | 2026-09-30 | Tabuleiro: a última casa do estágio 1 se estende até o anel numa peça só, sem a faixa mais escura da passagem (só visual) |
 | 0.27 | 2026-09-30 | Figuras: plantas, objetos, festas com brincantes e personagens de lendas (ilustração ou escultura) permitidos; recorte de placas permitido; vinte perguntas de folclore com figura (§6, §13) |
+| 0.28 | 2026-09-30 | Perguntas com figura são de reconhecimento: a resposta sai da imagem ("Que animal é este?"); âncora é o que aparece e o ângulo é `identidade`; exceção para arte de Pokémon do Bulbagarden; as 37 primeiras perguntas com figura foram apagadas, e ids apagados não são reaproveitados (§6, §13) |

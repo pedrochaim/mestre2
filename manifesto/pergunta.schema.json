@@ -118,8 +118,8 @@
         },
         "origem": {
           "type": "string",
-          "pattern": "^https://commons\\.wikimedia\\.org/wiki/File:",
-          "description": "Página do arquivo no Wikimedia Commons."
+          "pattern": "^https://(commons\\.wikimedia\\.org/wiki/File:|archives\\.bulbagarden\\.net/wiki/File:|raw\\.githubusercontent\\.com/PokeAPI/sprites/)",
+          "description": "Página do arquivo no Wikimedia Commons ou, só para Pokémon, a arte oficial no Bulbagarden Archives ou no repositório do PokéAPI (MANIFESTO §6)."
         },
         "autor": {
           "type": "string",
