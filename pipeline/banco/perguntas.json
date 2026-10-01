@@ -4519,5 +4519,216 @@
       "licenca": "CC BY-SA 4.0"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q00290",
+    "tema": "História",
+    "subtema": "Pré-História e Idade do Bronze",
+    "ancora": "stonehenge",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Este monumento pré-histórico inglês está alinhado com o nascer do sol em qual data do ano?",
+    "resposta": "Solstício de verão (em junho)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stonehenge"
+    ],
+    "imagem": {
+      "arquivo": "q00290.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stonehenge_Total.jpg",
+      "autor": "Stefan Kühn",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00291",
+    "tema": "História",
+    "subtema": "Américas Pré-Colombianas",
+    "ancora": "machu_picchu",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Esta cidadela inca nos Andes foi apresentada ao mundo em 1911 por qual explorador americano?",
+    "resposta": "Hiram Bingham",
+    "distratores": [
+      "Percy Fawcett",
+      "Howard Carter",
+      "John Lloyd Stephens"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Machu_Picchu"
+    ],
+    "imagem": {
+      "arquivo": "q00291.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:80_-_Machu_Picchu_-_Juin_2009_-_edit.jpg",
+      "autor": "Martin St-Amant (S23678)",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00292",
+    "tema": "História",
+    "subtema": "Américas Pré-Colombianas",
+    "ancora": "piramide_de_kukulcan",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Nos equinócios, as sombras do fim da tarde nesta pirâmide maia criam a ilusão de qual animal descendo a escadaria?",
+    "resposta": "Uma serpente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+    ],
+    "imagem": {
+      "arquivo": "q00292.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
+      "autor": "Daniel Schwen",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00293",
+    "tema": "História",
+    "subtema": "Roma Antiga",
+    "ancora": "coliseu",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Começado pelo imperador Vespasiano, este anfiteatro foi concluído no ano 80 por qual imperador, filho dele?",
+    "resposta": "Tito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colosseum"
+    ],
+    "imagem": {
+      "arquivo": "q00293.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+      "autor": "FeaturedPics",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00294",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "grande_esfinge_de_gize",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Esta estátua gigante não foi montada com blocos. Ela foi esculpida diretamente em quê?",
+    "resposta": "Na rocha calcária do próprio planalto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Sphinx_of_Giza"
+    ],
+    "imagem": {
+      "arquivo": "q00294.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Great_Sphinx_of_Giza_May_2015.JPG",
+      "autor": "MusikAnimal",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00295",
+    "tema": "História",
+    "subtema": "Antigas Civilizações do Oriente",
+    "ancora": "grande_muralha_da_china",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os trechos mais conhecidos desta muralha são da dinastia Ming, mas muralhas mais antigas foram unidas pela primeira vez sob qual dinastia?",
+    "resposta": "Qin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+    ],
+    "imagem": {
+      "arquivo": "q00295.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Badaling_China_Great-Wall-of-China-06.jpg",
+      "autor": "CEphoto, Uwe Aranas",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 2
+  },
+  {
+    "id": "q00296",
+    "tema": "História",
+    "subtema": "Idade Média",
+    "ancora": "alhambra",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Este palácio-fortaleza foi sede do último reino muçulmano da Península Ibérica, conquistado pelos cristãos em 1492. Em que cidade espanhola ele fica?",
+    "resposta": "Granada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alhambra"
+    ],
+    "imagem": {
+      "arquivo": "q00296.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Alhambra_detail.jpg",
+      "autor": "Jebulon",
+      "licenca": "CC0"
+    },
+    "dificuldade": 3
+  },
+  {
+    "id": "q00297",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "teatro_amazonas",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Inaugurado em 1896, este teatro de Manaus representa o apogeu da cidade durante qual ciclo econômico?",
+    "resposta": "Ciclo da borracha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
+      "https://en.wikipedia.org/wiki/Amazon_Theatre"
+    ],
+    "imagem": {
+      "arquivo": "q00297.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Teatro_Amazonas_Atualmente_01.jpg",
+      "autor": "Karine Hermes",
+      "licenca": "CC BY-SA 4.0"
+    },
+    "dificuldade": 4
+  },
+  {
+    "id": "q00298",
+    "tema": "História",
+    "subtema": "Segunda Guerra Mundial",
+    "ancora": "cupula_da_bomba_atomica",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Este prédio foi a única construção que ficou de pé perto do ponto de explosão de uma bomba atômica. Em qual cidade ele fica?",
+    "resposta": "Hiroshima",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hiroshima_Peace_Memorial"
+    ],
+    "imagem": {
+      "arquivo": "q00298.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Genbaku_Dome04-r.JPG",
+      "autor": "Oilstreet",
+      "licenca": "CC BY 2.5"
+    },
+    "dificuldade": 5
+  },
+  {
+    "id": "q00299",
+    "tema": "História",
+    "subtema": "Primeira Guerra Mundial",
+    "ancora": "galeria_dos_espelhos",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Neste salão do Palácio de Versalhes foi assinado, em 1919, o tratado que encerrou a Primeira Guerra. Que império tinha sido proclamado neste mesmo salão, em 1871?",
+    "resposta": "Império Alemão",
+    "distratores": [
+      "Império Austro-Húngaro",
+      "Segundo Império Francês",
+      "Império Otomano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hall_of_Mirrors"
+    ],
+    "imagem": {
+      "arquivo": "q00299.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chateau_Versailles_Galerie_des_Glaces.jpg",
+      "autor": "Myrabella",
+      "licenca": "CC BY-SA 3.0"
+    },
+    "dificuldade": 5
   }
 ]
