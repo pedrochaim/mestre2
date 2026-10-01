@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, rosto reconhecível; nada na imagem diz o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este jogador de futebol, camisa da seleção brasileira?",
+      "resposta": "Neymar",
+      "destino": 0,
+      "ancora": {
+        "nome": "Neymar",
+        "descricao": "Atacante brasileiro nascido em 1992, maior artilheiro da seleção brasileira, revelado pelo Santos.",
+        "variantes": [
+          "Neymar Jr.",
+          "Neymar da Silva Santos Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que revele o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este ex-jogador de vôlei foi campeão olímpico com a seleção brasileira em que ano?",
+      "resposta": "2004",
+      "distratores": [
+        "2000",
+        "2008",
+        "2012"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Giba",
+        "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+        "variantes": [
+          "Gilberto Amauri de Godoy Filho"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto desfocada e cortada, com braço de outra pessoa; o jogador só seria identificado pela camisa, então não é reconhecível com segurança."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este ex-atacante foi eleito melhor jogador do mundo pela FIFA aos vinte anos, quando jogava por qual clube?",
+      "resposta": "Barcelona",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ronaldo Fenômeno",
+        "descricao": "Ex-atacante brasileiro, nascido em 1976, bicampeão mundial com a seleção e três vezes melhor jogador do mundo pela FIFA.",
+        "variantes": [
+          "Ronaldo Nazário",
+          "Ronaldo Luís Nazário de Lima",
+          "R9",
+          "O Fenômeno"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta ex-jogadora de basquete, apelidada de Rainha?",
+      "resposta": "Hortência",
+      "distratores": [
+        "Paula Silva",
+        "Janeth Arcain",
+        "Helen Luz"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Hortência",
+        "descricao": "Ex-jogadora brasileira de basquete, nascida em 1959, apelidada de Rainha e membro do Hall da Fama do basquete.",
+        "variantes": [
+          "Hortência Marcari",
+          "Hortência Maria de Fátima Marcari"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o fundo só traz logotipos e o texto Rio 2016, sem entregar o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta tenista brasileira é a única sul-americana a vencer o torneio de simples de qual Grand Slam?",
+      "resposta": "Wimbledon",
+      "destino": 3,
+      "ancora": {
+        "nome": "Maria Esther Bueno",
+        "descricao": "Tenista brasileira (1939-2018), sete vezes campeã de simples em Grand Slams e número um do mundo em 1959 e 1960.",
+        "variantes": [
+          "Maria Bueno"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Retrato oficial nítido; a bandeira mostra apenas o estado do Rio, sem entregar o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-atacante, campeão mundial em 1994 e depois senador?",
+      "resposta": "Romário",
+      "distratores": [
+        "Bebeto",
+        "Edmundo",
+        "Túlio Maravilha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Romário",
+        "descricao": "Ex-atacante brasileiro, nascido em 1966, campeão mundial em 1994 e depois político, senador pelo Rio de Janeiro.",
+        "variantes": [
+          "Romário de Souza Faria"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o texto visível (Paris 2024, patrocinadores) não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este tenista chegou pela primeira vez ao número um do ranking mundial?",
+      "resposta": "2011",
+      "destino": 3,
+      "ancora": {
+        "nome": "Novak Djokovic",
+        "descricao": "Tenista sérvio nascido em 1987, campeão de 24 Grand Slams e medalhista de ouro olímpico em 2024.",
+        "variantes": [
+          "Djokovic",
+          "Novak Đoković"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Foto de baixa resolução de jogadora com camisa de clube italiano e número 13; não é reconhecível com segurança e a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; nada na imagem diz o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este piloto holandês estreou na Fórmula 1 aos dezessete anos por qual equipe?",
+      "resposta": "Toro Rosso",
+      "distratores": [
+        "Minardi",
+        "Sauber",
+        "Williams"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Max Verstappen",
+        "descricao": "Piloto holandês de Fórmula 1 nascido em 1997, tetracampeão mundial de 2021 a 2024 pela Red Bull.",
+        "variantes": [
+          "Max Emilian Verstappen"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; o texto JUDO e Brasil não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta judoca brasileira, campeã olímpica no Rio de Janeiro em 2016?",
+      "resposta": "Rafaela Silva",
+      "destino": 6,
+      "ancora": {
+        "nome": "Rafaela Silva",
+        "descricao": "Judoca brasileira nascida em 1992, campeã mundial em 2013 e olímpica em 2016 na categoria até 57 kg.",
+        "variantes": [
+          "Rafaela Lopes Silva"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica com o craque em primeiro plano segurando a taça; sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este craque argentino levou qual clube italiano ao primeiro título de campeão nacional?",
+      "resposta": "Napoli",
+      "distratores": [
+        "Roma",
+        "Lazio",
+        "Fiorentina"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Diego Maradona",
+        "descricao": "Craque argentino (1960-2020), campeão mundial em 1986 e ídolo do Napoli, conhecido como El Pibe de Oro.",
+        "variantes": [
+          "Diego Armando Maradona",
+          "Maradona",
+          "El Pibe de Oro"
+        ]
+      }
+    }
+  ]
+}

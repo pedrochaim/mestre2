@@ -51,9 +51,10 @@
     "fig_retratos_historicos_003",
     "esportes_automobilismo_01",
     "fig_objetos_trajes_003",
-    "esportes_outras_modalidades_01"
+    "esportes_outras_modalidades_01",
+    "fig_atletas_001"
   ],
-  "maior_id": 1662,
+  "maior_id": 1672,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -157,6 +158,18 @@
         "3": 2
       },
       "registradas": 11
+    },
+    "atletas": {
+      "familias": {
+        "o_que_e": 4,
+        "com_o_que_se_liga": 6
+      },
+      "niveis": {
+        "1": 4,
+        "2": 5,
+        "3": 1
+      },
+      "registradas": 10
     }
   },
   "rendimento": {
