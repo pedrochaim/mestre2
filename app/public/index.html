@@ -99,7 +99,7 @@
     .regras p { margin: .3rem 0 .6rem; }
     .editar-linha { display: flex; justify-content: flex-end; margin: .4rem 0 .2rem; }
     .editar-linha button { padding: .3rem .8rem; font-size: .9rem; }
-    /* Ajustes manuais (casa, tema, remover) só aparecem no modo editar. */
+    /* − e + da casa ficam sempre à vista; trocar o tema e remover o jogador só no modo editar. */
     ul.placar:not(.editando) .ajuste { display: none; }
     ul.placar.editando li { flex-wrap: wrap; }
     ul.placar.editando .info { flex-basis: 100%; }
@@ -941,9 +941,9 @@
       }
       const info = el("div", { className: "info" });
       info.append(nome, detalhe);
-      const menos = el("button", { className: "ajuste", textContent: "−", title: "Voltar uma casa", disabled: p <= 0 });
+      const menos = el("button", { textContent: "−", title: "Voltar uma casa", disabled: p <= 0 });
       const casa = el("span", { className: "pontos", textContent: p, title: "Casa" });
-      const mais = el("button", { className: "ajuste", textContent: "+", title: "Avançar uma casa", disabled: p >= CHEGADA });
+      const mais = el("button", { textContent: "+", title: "Avançar uma casa", disabled: p >= CHEGADA });
       const tirar = el("button", { className: "ajuste", textContent: "×", title: "Remover jogador" });
       menos.onclick = () => updateDoc(ref, { pontos: increment(-1) });
       mais.onclick = () => updateDoc(ref, { pontos: increment(1) });
