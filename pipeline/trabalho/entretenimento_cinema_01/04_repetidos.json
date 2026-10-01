@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Carmen Miranda, a Pequena Notável dos turbantes de frutas, chegou ao Brasil ainda bebê. Em que país ela tinha nascido?",
+        "resposta": "Portugal"
+      },
+      "existentes": [
+        {
+          "id": "q00948",
+          "pergunta": "O figurino de turbante, saia rodada e balangandãs que consagrou Carmen Miranda foi inspirado nas roupas de quem?",
+          "resposta": "Das baianas quituteiras"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova é sobre o país de nascimento de Carmen Miranda. A existente é sobre a inspiração do figurino. São fatos diferentes."
+    }
+  ]
+}

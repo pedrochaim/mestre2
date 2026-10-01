@@ -1,0 +1,406 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Boa pergunta de causa, sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Curiosidade clara, sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome confirmada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kikito confirmado; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carlitos confirmado na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado vazava a resposta ao repetir 'Buzz'; reescrito sem o nome.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O patrulheiro espacial de Toy Story foi batizado em homenagem a qual astronauta da missão Apollo onze?",
+        "resposta": "Buzz Aldrin",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Buzz_Lightyear"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia confirmada pela Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lumière significa luz; enunciado literalmente verdadeiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Problemas com o tubarão mecânico são documentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ebsen foi escalado primeiro como Espantalho; 'escalado primeiro como Homem de Lata' é impreciso.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Por que o ator Buddy Ebsen, o primeiro intérprete do Homem de Lata em O Mágico de Oz, teve de deixar o papel?",
+        "resposta": "Reação ao pó de alumínio da maquiagem",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
+          "https://en.wikipedia.org/wiki/Buddy_Ebsen"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enredo confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Mickey foi criado por Disney e Iwerks; 'criou' sozinho é impreciso.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1928, Walt Disney e Ub Iwerks criaram o Mickey depois de perderem o controle de qual personagem animado anterior?",
+        "resposta": "Oswald, o Coelho Sortudo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mickey_Mouse",
+          "https://en.wikipedia.org/wiki/Oswald_the_Lucky_Rabbit"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais; reformulada para resposta curta e específica.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O leão dourado, prêmio máximo do Festival de Cinema de Veneza, representa o símbolo de qual santo, padroeiro da cidade?",
+        "resposta": "São Marcos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Golden_Lion"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Veneza (1932) é o mais antigo; Cannes 1946, Berlim 1951, Gramado 1973.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gein inspirou ambos, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos ganharam a Palma de Ouro.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambas indicadas ao Oscar de melhor atriz.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Uma única vez' é impreciso, pois Lazenby fez pontas como Bond depois; os distratores também eram fracos.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Em 1969, o australiano George Lazenby substituiu Sean Connery em qual papel de agente secreto?",
+        "resposta": "James Bond",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/George_Lazenby",
+          "https://en.wikipedia.org/wiki/On_Her_Majesty%27s_Secret_Service_(film)"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte da página de desambiguação trocada pela do filme.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que cineasta nascido na Argentina e radicado no Brasil dirigiu Pixote e O Beijo da Mulher Aranha?",
+        "resposta": "Hector Babenco",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Kiss_of_the_Spider_Woman_(1985_film)",
+          "https://en.wikipedia.org/wiki/Hector_Babenco"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Méliès também trabalhou na fábrica de sapatos da família, então a profissão anterior é ambígua, e o fato é fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ano confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos de 1939 e creditados a Fleming.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taperoá sustentada; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro Oscars confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Padrão de 24 quadros confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Calda de chocolate confirmada na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Totoro é o mascote e logotipo do estúdio.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada.",
+      "reescrita": null
+    }
+  ]
+}

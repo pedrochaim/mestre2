@@ -1,0 +1,1791 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Cinema** (tema **Entretenimento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Cidadão Kane",
+      "descricao": "Filme americano de 1941 dirigido e estrelado por Orson Welles, sobre a vida do magnata Charles Foster Kane."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em Cidadão Kane, de Orson Welles, a última palavra dita pelo magnata ao morrer é Rosebud. É o nome de quê?",
+    "resposta": "Um trenó de infância",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Citizen_Kane"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Citizen_Kane",
+        "situacao": "ok",
+        "texto": "Citizen Kane is a 1941 American drama film directed, produced by, and starring Orson Welles and co-written by Welles and Herman J. Mankiewicz, and was Welles's first feature film. The quasi-biographical film examines the life and legacy of Charles Foster Kane, played by Welles, a composite character based on American media barons William Randolph Hearst and Joseph Pulitzer, and Chicago tycoons Sam\n[…]\nThe beginning of the film's ending credits states that \"Most of the principal actors in Citizen Kane are new to motion pictures. The Mercury Theatre is proud to introduce them.\" The cast is then listed in the following order, with Orson Welles' credit for playing Charles Foster Kane appearing last:\n[…]\nModern critics have given Citizen Kane an even more positive response. Review aggregation website Rotten Tomatoes reports that 99% of 137 critics gave the film a positive review, with an average rating of 9.9/10. Rotten Tomatoes summarizes the critical consensus as, \"Orson Welles's epic tale of a publishing tycoon's rise and fall is entertaining, poignant, and inventive in its storytelling, earning its reputation as a landmark achievement in film\".\n[…]\nCitizen Kane knows that the sled is not the answer. It explains what Rosebud is, but not what Rosebud means. The film's construction shows how our lives, after we're gone, survive only in the memories of others, and those memories butt up against the walls we erect and the roles we play.\n[…]\nIn February 1989, Turner Entertainment President Roger Mayer announced that work to colorize the film had been stopped due to provisions in Welles's 1939 contract with RKO that \"could be read to prohibit colorization without permission of the Welles estate.\" Turner had only colorized the final reel of the film before abandoning the project. In 1991 one minute of the colorized test footage was included in the BBC Arena documentary The Complete Citizen Kane."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Citizen_Kane",
+        "situacao": "ok",
+        "texto": "Citizen Kane (prt: O Mundo a Seus Pés, ou Citizen Kane - O Mundo a Seus Pés; bra: Cidadão Kane) é um filme norte-americano de 1941, dirigido, escrito, produzido e estrelado por Orson Welles. O filme é considerado uma das obras-primas da história do cinema, sendo apontado por muitos críticos como o maior filme já produzido, e particularmente elogiado por sua inovação na música, fotografia e estrutu\n[…]\nNarrado principalmente através de flashbacks, a história é contada por meio da investigação de um jornalista que quer saber o significado da última palavra que o magnata disse antes de morrer: \"Rosebud\".\n[…]\nO filme inicia com a sua morte, momentos antes da qual pronuncia a palavra Rosebud (botão de rosa). Após dias de sensacionalismo em cima da notícia de sua morte, o jornalista Jerry Thompson (William Alland) recebe o encargo de investigar a vida de Kane, a fim de descobrir o significado de sua última palavra.\n[…]\nEle entrevista as pessoas mais próximas do protagonista, como o secretário Bernstein (Everett Sloane), o melhor amigo Leland (Joseph Cotten), a segunda esposa, Susan Alexander (Dorothy Comingore), e o mordomo da mansão, além de consultar o diário pessoal de Thatcher (George Coulouris), o falecido tutor e administrador dos bens de Kane. Com isso, ele mergulha na vida de um homem solitário, que desde a infância é obrigado a seguir a vontade alheia.\n[…]\nNo entanto, quando o filme termina, o público descobre o real significado de Rosebud: tratava-se do trenó da infância de Kane - uma alusão à única fase de sua vida em que ele realmente foi feliz. O trenó, considerado lixo, é queimado em um forno pelas pessoas que estavam partindo de Xanadu, a mansão de Kane na Flórida.\n[…]\nOrson Welles .... Charles Foster Kane\n[…]\nAgnes Moorehead .... srta. Mary Kane\n[…]\nRuth Warrick .... Emily Norton Kane\n[…]\nBeyond Citizen Kane, documentário televisivo britânico, produzido pelo Channel 4, inspirado em Citizen Kane.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Cidadão Kane",
+      "descricao": "Filme americano de 1941 dirigido e estrelado por Orson Welles, sobre a vida do magnata Charles Foster Kane."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o magnata da imprensa William Randolph Hearst tentou impedir o lançamento de Cidadão Kane?",
+    "resposta": "O protagonista era inspirado nele",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Citizen_Kane"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Citizen_Kane",
+        "situacao": "ok",
+        "texto": "Citizen Kane is a 1941 American drama film directed, produced by, and starring Orson Welles and co-written by Welles and Herman J. Mankiewicz, and was Welles's first feature film. The quasi-biographical film examines the life and legacy of Charles Foster Kane, played by Welles, a composite character based on American media barons William Randolph Hearst and Joseph Pulitzer, and Chicago tycoons Sam\n[…]\nOne of the long-standing controversies about Citizen Kane has been the authorship of the screenplay. Welles conceived the project with screenwriter Herman J. Mankiewicz, who was writing radio plays for Welles's CBS Radio series, The Campbell Playhouse. Mankiewicz based the original outline on the life of William Randolph Hearst, whom he knew socially and came to hate after being exiled from Hearst's circle.\n[…]\nTo ensure that Hearst's life's influence on Citizen Kane was a secret, Welles limited access to dailies and managed the film's publicity. A December 1940 feature story in Stage magazine compared the film's narrative to Faust and made no mention of Hearst.\n[…]\nDespite Hearst's attempts to destroy the film, since 1941 references to his life and career have usually included a reference to Citizen Kane, such as the headline \"Son of Citizen Kane Dies\" for the obituary of Hearst's son. In 2012, the Hearst estate agreed to screen the film at Hearst Castle in San Simeon, breaking Hearst's ban on the film.\n[…]\nIn 2011, it was released on Blu-ray and DVD in a 70th anniversary edition. It was called \"the Blu-ray release of the year\" by the San Francisco Chronicle, ironically owned by the Hearst family at this point. Supplements included everything available on the 2001 Warner Home Video release, including The Battle Over Citizen Kane DVD. A 70th Anniversary Ultimate Collector's Edition added a third DVD with RKO 281 (1999), an award-winning TV movie about the making of the film."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Citizen_Kane",
+        "situacao": "ok",
+        "texto": "Citizen Kane (prt: O Mundo a Seus Pés, ou Citizen Kane - O Mundo a Seus Pés; bra: Cidadão Kane) é um filme norte-americano de 1941, dirigido, escrito, produzido e estrelado por Orson Welles. O filme é considerado uma das obras-primas da história do cinema, sendo apontado por muitos críticos como o maior filme já produzido, e particularmente elogiado por sua inovação na música, fotografia e estrutu\n[…]\nA história examina a vida e legado de Charles Foster Kane, um personagem interpretado por Welles e com base no magnata da imprensa William Randolph Hearst e do próprio Orson Welles. Durante seu lançamento, Hearst proibiu de mencionar o filme em seus jornais. A carreira de Kane na indústria editorial nasceu do idealismo e do serviço social, mas gradualmente se transformou em uma perseguição implacável ao poder.\n[…]\nCitizen Kane é, supostamente, baseado na vida do magnata do jornalismo William Randolph Hearst (publicamente, Welles negava), e conta a história de Charles Foster Kane, um menino pobre que acaba se tornando um dos homens mais ricos do mundo.\n[…]\nEle entrevista as pessoas mais próximas do protagonista, como o secretário Bernstein (Everett Sloane), o melhor amigo Leland (Joseph Cotten), a segunda esposa, Susan Alexander (Dorothy Comingore), e o mordomo da mansão, além de consultar o diário pessoal de Thatcher (George Coulouris), o falecido tutor e administrador dos bens de Kane. Com isso, ele mergulha na vida de um homem solitário, que desde a infância é obrigado a seguir a vontade alheia.\n[…]\nAgnes Moorehead .... srta. Mary Kane\n[…]\nRuth Warrick .... Emily Norton Kane\n[…]\nWilliam Alland .... Jerry Thompson\n[…]\nBeyond Citizen Kane, documentário televisivo britânico, produzido pelo Channel 4, inspirado em Citizen Kane.\n[…]\nRKO 281, filme da HBO que retrata os bastidores e a história da produção do filme, e conflitos do estúdio e diretor com o empresário William Randolph Hearst.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "A113",
+      "descricao": "Código escondido como referência em diversos filmes da Pixar e de outros estúdios de animação."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em vários filmes da Pixar, como Toy Story, aparece escondido o código A113. A que ele se refere?",
+    "resposta": "Uma sala de aula da CalArts",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/A113"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/A113",
+        "situacao": "ok",
+        "texto": "A113 and its variants are an inside joke and Easter egg in media developed by alumni of California Institute of the Arts, referring to the classroom used by graphic design and character animation students.\n[…]\nStudents who have used the classroom include John Lasseter, Pete Docter, Chris Sanders, Tim Burton, Michael Peraza, and Brad Bird. It has appeared in several Disney films and almost every Pixar movie.\n[…]\nList of Pixar film references\n[…]\nPixar (September 29, 2017). \"Pixar Did You Know: A113 - Disney•Pixar\". YouTube.\n[…]\nMedia related to A113 at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/A113",
+        "situacao": "ok",
+        "texto": "A113 e suas variantes são uma piada interna e um easter egg em mídias desenvolvidas por ex-alunos do Instituto de Artes da Califórnia (CalArts), referindo-se à sala de aula usada por estudantes de design gráfico e animação de personagens.\n[…]\nEntre os alunos que utilizaram a sala de aula estão John Lasseter, Pete Docter, Chris Sanders, Tim Burton, Michael Peraza e Brad Bird. Ela apareceu em vários filmes da Disney e em quase todos os filmes da Pixar.\n[…]\nBrad Bird usou-o pela primeira vez para uma placa de carro no episódio \"Family Dog\" de Amazing Stories: \"Eu o coloquei em todos os meus filmes, incluindo meus episódios de Os Simpsons — é como se fosse minha versão da  Nina do caricaturista Al Hirschfeld.\" Ele também aparece em South Park, Aqua Teen Hunger Force, Family Guy, American Dad!, Doctor Who e no filme de animação Klaus (2019) da SPA Studios.\n[…]\nPixar (29 de setembro de 2017). «Pixar Did You Know: A113 - Disney•Pixar». YouTube. Cópia arquivada em 5 de fevereiro de 2026",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "R2-D2",
+      "descricao": "Robô astromecânico da franquia Star Wars, criada por George Lucas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do robô R2-D2 veio de uma abreviação técnica que George Lucas ouviu durante a edição de som de um filme. Abreviação de quê?",
+    "resposta": "Rolo dois, diálogo dois",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/R2-D2"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/R2-D2",
+        "situacao": "ok",
+        "texto": "R2-D2 () or Artoo-Detoo is a fictional robot character in the Star Wars franchise created by George Lucas. He has appeared in ten of the twelve theatrical Star Wars films to date, including every film in the \"Skywalker Saga.\" At various points throughout the course of the films, R2, an astromech droid, is a friend to C-3PO, Padmé Amidala, Anakin Skywalker, Leia Organa, Luke Skywalker, and Obi-Wan \n[…]\nGeorge Lucas's creation of R2-D2 was influenced by the peasant Matashichi from Akira Kurosawa's 1958 film The Hidden Fortress. Lucas and artist Ralph McQuarrie also drew inspiration from the robots Huey, Dewey, and Louie from Douglas Trumbull's 1972 film Silent Running.\n[…]\nSound editor Walter Murch claims to be responsible for the utterance which sparked the name for the droid. Murch asked for Reel 2, Dialog Track 2, in the abbreviated form \"R-2-D-2\". Lucas, who was in the room and had dozed off while working on the script for Star Wars, momentarily woke when he heard the request and, after asking for clarification, stated that it was a \"great name\" before going back to writing his script.\n[…]\nKenny Baker, who portrayed R2-D2 in costume, was not involved in the Star Wars Holiday Special. R2-D2 was portrayed entirely by a radio controlled unit, operated by Mick Garris (Lucas's receptionist at the time). In the credits, R2-D2 is credited as playing himself. Garris later went on to operate the radio controlled R2-D2 at various events, including the Oscars.\n[…]\nEwan McGregor, who portrayed Obi-Wan Kenobi in the Star Wars prequel trilogy, said in an interview, \"As soon as R2-D2 comes on the set, everyone goes a bit silly.\" He said \"there is something about him that makes you feel great affection for him\". In the DVD audio commentary for Revenge of the Sith, George Lucas says R2-D2 is his favorite character, and that it is intentional that R2-D2 saves the day at least once in every film."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/R2-D2",
+        "situacao": "ok",
+        "texto": "R2-D2 é um robô do tipo droide autoconsciente astromecânico/engenheiro, responsável por manutenção e navegação de astronaves, parceiro do droide antropomórfico C-3PO na saga Star Wars. Fala uma \"linguagem\" incompreensível, de bipes e sons eletrônicos. Considerado um dos principais personagens da saga  Assim como toda a saga, o personagem teve forte impacto cultural transformando-se em um ícone pop\n[…]\nR2-D2 e C-3PO são os únicos personagens da série a aparecerem nos 9 filmes e no spin-off Rogue One: Uma História Star Wars, interpretados pelos mesmos atores. Kenny Baker foi o ator anão que atuou dentro do droide em cinco dos seis filmes da série. Apesar de aparecer nos créditos do filme A Vingança dos Sith, Kenny não participou filmou das filmagens deste episódio.\n[…]\nDez anos depois, R2-D2 continua a serviço de Amidala, e depois que ela sofre dois atentados, vai com Anakin para Naboo, a fim de protegê-la.\n[…]\nAnunciada durante o The Walt Disney Company Investor Day, uma parceria entre a Lucasfilm Animation e a Industrial Light & Magic (equipe de efeitos visuais). Ainda sem data de lançamento.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "José Mojica Marins",
+      "descricao": "Cineasta e ator paulista, pioneiro do cinema de terror no Brasil."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por qual apelido, tirado de seu personagem mais famoso, ficou conhecido o cineasta José Mojica Marins, pioneiro do terror no Brasil?",
+    "resposta": "Zé do Caixão",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/José_Mojica_Marins",
+      "https://en.wikipedia.org/wiki/José_Mojica_Marins"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/José_Mojica_Marins",
+        "situacao": "ok",
+        "texto": "José Mojica Marins (São Paulo, 13 de março de 1936 – São Paulo, 19 de fevereiro de 2020) foi um cineasta, ator, apresentador e roteirista de cinema e televisão brasileiro. É considerado o \"pai\" do terror nacional, tendo sua obra grande importância para o gênero e influenciando várias gerações. Seu icônico personagem Zé do Caixão, interpretado pelo próprio Mojica, está presente em diversos de seus \n[…]\nA personagem Zé do Caixão\n[…]\nMojica Marins criou uma personagem popular sem se basear em nenhum mito do horror conhecido mundialmente. \"Zé do Caixão\", sua personagem mais conhecida, foi criado por ele em 11 de outubro de 1963, após ser atormentado por um pesadelo no qual um vulto o arrastava até seu próprio túmulo. Segundo o próprio José Mojica Marins, o nome Zé do Caixão veio de uma lenda de um ser que viveu há milhões de anos no planeta terra que se transformou em luz e depois de anos esta luz voltou a terra.\n[…]\nFuturamente, José Mojica Marins definiria melhor a origem de seu personagem:\n[…]\nO filme marca a maturidade de José Mojica Marins como diretor, que se relaciona perfeitamente com o domínio da linguagem cinematográfica. Em À meia-noite levarei sua alma há todo um requintado trabalho de construção de espaços diferenciados para Zé do Caixão, e esse é o modo como o filme logra distinguir este personagem dos outros.\n[…]\nJosé Mojica teve um programa de entrevistas chamado O Estranho Mundo de Zé do Caixão, no Canal Brasil. José Mojica também é pai de 7 filhos: Derian Mataran Marins, Crounel Marins, Mariliz Marins, Merisol Marins, Nilcemar Marins, Rosemar Marins e Denílson Porto; avô de 12 netos: Arinã, Miron ,Caio , Andrey, Gabriel, Pedro, Sara, Juan, Eduardo, Kaline, Felipe, e a pequena Carmem; e bisavô da pequena Catherine.\n[…]\nNo desenho Fudêncio e Seus Amigos, exibido pela MTV Brasil, de 2005 a 2011, os personagens frequentam a fictícia \"Escola Estadual José Mojica Marins\"."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/José_Mojica_Marins",
+        "situacao": "ok",
+        "texto": "José Mojica Marins (13 March 1936 – 19 February 2020) was a Brazilian filmmaker, actor, composer, screenwriter, and television horror host. Marins is also known for creating and playing the character Coffin Joe (loosely translated from Zé do Caixão) in a series of horror films; the character has since gone on to become his alter ego as well as a pop culture icon, a horror icon, and a cult figure.\n[…]\nMarins appears in The Universe of Mojica Marins (O Universo de Jose Mojica Marins, 1978), a 26-minute documentary film directed by Ivan Cardoso. Marins portrays himself in the film, which also features interviews with Marins' mother Carmen Marins, film editor Nilcemar Leyart, and Satã (Marins' assistant and bodyguard).\n[…]\nA 2001 documentary film, Damned – The Strange World of José Mojica Marins (Maldito - O Estranho Mundo de José Mojica Marins), directed by biographers André Barcinski and Ivan Finotti, examines Marins's life and works. It won the Special Jury Prize at the 2001 Sundance Film Festival.\n[…]\nMarins died of complications caused by bronchopneumonia on 19 February 2020, aged 83, in São Paulo. Prior to his death, Marins had been hospitalized for about 20 days.\n[…]\nDennison, Stephanie; Shaw, Lisa (2004). \"Mojica Marins: Coffin Joe and Brazilian Horror\". Popular Cinema in Brazil, 1930-2001. Manchester University Press. ISBN 978-0719064999.\n[…]\nRuétalo, Victoria; Tierney, Dolores, eds. (2009). \"José Mojica Marins and the Cultural Politics of Marginality in 'Third World' Film Criticism\". Latsploitation, Exploitation Cinemas, and Latin America. Routledge Advances in Film Studies. Routledge. ISBN 978-0415993869.\n[…]\nJosé Mojica Marins at IMDb\n[…]\n\"Brazilian Horror: Zé do Caixão in the multimedia work of José Mojica Marins\" (in English)\n[…]\nJosé Mojica Marins: 50 Year Retrospective on Portal Heco de Cinema (in Portuguese)"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Bollywood",
+      "descricao": "Apelido da indústria cinematográfica em língua hindi, sediada em Mumbai, na Índia."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O apelido Bollywood, do cinema indiano em língua hindi, junta a palavra Hollywood ao antigo nome de qual cidade?",
+    "resposta": "Bombaim",
+    "distratores": [
+      "Calcutá",
+      "Nova Délhi",
+      "Bangalore"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bollywood",
+      "https://en.wikipedia.org/wiki/Bollywood"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bollywood",
+        "situacao": "ok",
+        "texto": "Bollywood (em hindi: बॉलीवुड; em urdu:  بالی وڈ) é a indústria de cinema de língua hindi, a maior indústria de cinema indiana, em termos de lucros e popularidade a nível nacional e internacional. O nome Bollywood surge da fusão de Bombaim (antigo nome de Mumbai, cidade onde se concentra esta indústria), e de Hollywood (nome dado à indústria cinematográfica estadunidense). Contudo este nome é utili\n[…]\nAo mesmo tempo também existiam filmes indianos com objetivos mais artísticos e histórias mais sofisticadas, tanto dentro como fora da tradição de Bollywood, no entanto estes geralmente perdiam nas bilheteiras para filmes com um maior apelo de massas. No entanto atualmente as convenções de Bollywood têm mudado. A grande diáspora de indianos nos países de língua inglesa e a maior influência ocidental na própria Índia têm levado os filmes de Bollywood a se aproximarem dos modelos de Hollywood.\n[…]\nA maioria da população do Paquistão assiste aos filmes de Bollywood, devido à similaridade entre as línguas hindi e urdu. No entanto existe uma proibição oficial aos filmes indianos, por isso eles não são exibidos nos cinemas paquistaneses. Fora isso os filmes de Bollywood são assistidos através da TV a cabo e também existe um grande mercado para os filmes de Bollywood nas lojas de venda de filmes.\n[…]\nEm outras palavras os filmes indianos são os filmes estrangeiros mais lucrativos nos Estados Unidos. Ao longo da última década as películas de Bollywood têm sido filmadas várias vezes em cidades como New York, Los Angeles, Vancouver e Toronto.\n[…]\nJolly, Gurbir, Zenia Wadhwani, and Deborah Barretto, eds. Once Upon a Time in Bollywood: The Global Swing in Hindi Cinema, TSAR Publications. 2007. (ISBN 978-1-894770-40-8)\n[…]\nJoshi, Lalit Mohan. Bollywood: Popular Indian Cinema. (ISBN 0-9537032-2-3)\n[…]\nRaheja, Dinesh and Kothari, Jitendra. Indian Cinema: The Bollywood Saga. (ISBN 81-7436-285-1)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bollywood",
+        "situacao": "ok",
+        "texto": "Hindi cinema, popularly known as Bollywood, refers to India's Hindi-language film industry, based in Mumbai. The popular term Bollywood is a portmanteau of \"Bombay\" (another name for Mumbai) and \"Hollywood\". The industry, producing films in the Hindi language, is a part of the larger Indian cinema industry, which also includes South Indian cinema and other smaller film industries.\n[…]\nThe term 'Bollywood', often mistakenly used to refer to Indian cinema as a whole, only refers to Hindi-language films, with Indian cinema being an umbrella term that includes all the film industries in the country, each offering films in diverse languages and styles.\n[…]\nThe 2000s saw increased Bollywood recognition worldwide due to growing (and prospering) Indian diaspora overseas. Aditya Chopra and Karan Johar are considered to have started the \"NRI phase\" in Hindi cinema, which catered to the overseas population of Indians.\n[…]\nPerhaps Hindi cinema's greatest influence has been on India's national identity, where (with the rest of Indian cinema) it has become part of the \"Indian story\". In India, Bollywood is often associated with India's national identity.\n[…]\nParallel cinema films tended to be less popular at the box office. A large Indian diaspora in English-speaking countries and increased Western influence in India have nudged Bollywood films closer to Hollywood.\n[…]\nKhan has become a household name in China, with his success described as a form of Indian soft power improving China–India relations despite political tensions. With Bollywood competing with Hollywood in the Chinese market, the success of Khan's films has driven up the price for Chinese distributors of Indian film imports. Salman Khan's Bajrangi Bhaijaan and Irrfan Khan's Hindi Medium were also Chinese hits in early 2018.\n[…]\nSexism in Bollywood\n[…]\nHindutva boycott of Hindi cinema\n[…]\nNational Geographic Magazine: \"Welcome to Bollywood\""
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Letreiro de Hollywood",
+      "descricao": "Letreiro gigante instalado no Monte Lee, nas colinas de Los Angeles, símbolo da indústria do cinema americano."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1923, o famoso letreiro gigante nas colinas de Los Angeles foi erguido para anunciar um loteamento. Que palavra ele exibia?",
+    "resposta": "Hollywoodland",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hollywood_Sign"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hollywood_Sign",
+        "situacao": "ok",
+        "texto": "The Hollywood Sign is an American landmark and cultural icon overlooking Hollywood, Los Angeles. Originally the Hollywoodland Sign, it is on Mount Lee, above Beachwood Canyon in the Santa Monica Mountains. It was originally erected in 1923 as a temporary advertisement for a local real estate development, and spelled out \"HOLLYWOODLAND\" in 50-foot-tall (15.2 m) white uppercase letters in a word 450\n[…]\nThe original sign was erected in 1923 and originally read \"HOLLYWOODLAND\" to promote the name of a new housing development in the hills above the Hollywood district of Los Angeles.\n[…]\nThe sign was officially dedicated on 13 July 1923, intended to last only a year and a half. The rise of American cinema in Los Angeles during the Golden Age of Hollywood gave it widespread visibility, causing it to be left beyond that, for over a quarter of a century still spelling \"Hollywoodland\". In September 1932, 24-year-old actress Peg Entwistle died by suicide by climbing a workman's ladder up to the top of the 'H' and jumping to her death.\n[…]\nIn January 2026, a crew for the underwear brand Syrn, including actress and brand founder Sydney Sweeney, draped lingerie over the sign without a permit. The Hollywood Chamber of Commerce stated the stunt was unauthorized and investigated the incident.\n[…]\nIn 2023, the Hollywood Sign Trust was honored with the 2023 Preservation Award by the Los Angeles Conservancy, which recognized the Sign Trust’s exceptional achievements in the field of historic preservation in Los Angeles County.\n[…]\nThe Hollywood Sign Trust is made up of nine trustees nominated by the Hollywood Chamber of Commerce, the City of Los Angeles, and the Office of Los Angeles's 4th City Council district. As of 2024–2025, the board consists of Jeff Zarrinnam (Chair), Marty Shelton (Vice Chair), Brian Lane (Secretary), Andrea Conant, Jerry Neuman, Stefanie Smith, Darnell Tyler, Ed Tom, and Dana Pesce."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Letreiro_de_Hollywood",
+        "situacao": "ok",
+        "texto": "O letreiro de Hollywood (em inglês:  Hollywood Sign, anteriormente Letreiro de Hollywoodland) é um marco e ícone cultural americano com vista para Hollywood, Los Angeles, Califórnia. Ele está situado no Monte Lee, na área de Hollywood Hills nas montanhas de Santa Monica. Escrito em letras maiúsculas brancas de 45 pés (13,7 m) e 350 pés (106,7 m) de comprimento. O marco foi criado em 1921 e oficial\n[…]\nO letreiro foi erguido para vender casas de um condomínio. A ideia inicial, era que ele ficasse lá por um ano e meio, mas acabou se tornando um símbolo da cidade. Virado para o sul, ele se estende sobre uma cordilheira de quase 570 metros que separa Hollywood e boa parte de Los Angeles do Vale de San Fernando, ao norte. Em 2002, o terreno de 55 hectares localizado no Cahuenga Peak foi posto no mercado pelos administradores da herança de Howard Hughes, dono do local desde a década de 1940.\n[…]\nConstruído na década de 1920 por H. J. Whitley o letreiro exibia \"HOLLYWOODLAND\" originalmente, como uma propaganda para divulgar um novo loteamento residencial perto do distrito de Hollywood em Los Angeles. Cada uma das letras do letreito original tinha 9,1 m de largura e 14 m de altura, com cerca de 4 mil lâmpadas espalhadas entre elas. O letreiro foi oficialmente erguido em julho de 1923 e não era para ser permanente.\n[…]\nEm 2017, o letreiro foi vandalizado e foi substituído pela palavra em inglês Hollyweed, fazendo alusão à maconha.\n[…]\nEm Três Espiãs Demais, em vários episódios, o letreiro aparece no fundo, mas no episódio \"Astrologia Furada\", a vilã senta no Y do letreiro de Hollywood e espera o meteoro cair em Los Angeles.\n[…]\nEm duke nukem 3d o letreiro aparece no cenário do game da primeira fase: Hollywood Holocaust.\n[…]\nEm Skate 2 o letreiro de Hollywood aparece escrito New San Vanelona\n[…]\nEm L.A. Noire o letreiro aparece no seu formato original \"Hollywoodland\". O jogo se passa antes da modificação.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Festival de Cinema de Gramado",
+      "descricao": "Festival de cinema realizado anualmente desde 1973 na cidade de Gramado, no Rio Grande do Sul."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Como se chama o troféu entregue aos vencedores do Festival de Cinema de Gramado, na serra gaúcha?",
+    "resposta": "Kikito",
+    "distratores": [
+      "Candango",
+      "Redentor",
+      "Bandeira Paulista"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Festival_de_Cinema_de_Gramado"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Festival_de_Cinema_de_Gramado",
+        "situacao": "ok",
+        "texto": "Festival de Gramado é o festival de cinema mais importante do Brasil, realizado anualmente no Palácio dos Festivais, no município de Gramado, no estado do Rio Grande do Sul. Desde a sua 20ª edição, em 1992, inclui não apenas produções brasileiras, mas também filmes de origem latina - donde sua designação oficial, \"Festival de Cinema Brasileiro e Latino\". O troféu e simbolo máximo do festival e da \n[…]\nO Festival do Cinema Brasileiro de Gramado teve seu ponto inicial nas mostras promovidas durante a programação da VIII Festa das Hortênsias.\n[…]\nParalelamente, a disputa pelo Kikito - o Deus da Alegria - animava os debates, criava polêmicas e transformava a criação cinematográfica nacional no único assunto de artistas, realizadores, estudiosos de cinema, imprensa e público em geral. O festival firmou-se em tempos políticos duros - os anos 1970 - driblando a censura. Em 1977, foi exibido pela primeira vez um filme latino-americano, o drama argentino \"La tregua\", de Sérgio Renan.\n[…]\nAnexo ao palácio,  situado na Avenida Borges de Medeiros, existe o Museu do Festival de Cinema de Gramado.\n[…]\nDesde 2007, os expoentes do cinema latino-americano começaram a ser agraciados com o Kikito de Cristal, e a partir de 2012, o troféu Cidade de Gramado passou a ser concedido aos nomes que têm ligação com a história de Gramado e contribuíram para a divulgação do evento.\n[…]\nReunindo um grande número de filmes e de pessoas que querem falar de cinema, criação, sonhos e possibilidades de fazer sempre mais e com qualidade, o festival é, hoje, um espaço indispensável para a divulgação, discussão, crítica e incentivo à criação cinematográfica nacional. Em 6 de junho de 2006, o Festival de Cinema de Gramado, juntamente com o Kikito, foi consagrado como Patrimônio Histórico e Cultural do Estado do Rio Grande do Sul, oficializado pela Lei nº 12.529.\n[…]\nKikito de Cristal: destaca expoentes do cinema latino-americano."
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "O Vagabundo",
+      "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, o vagabundo de chapéu-coco, bengala e bigodinho criado por Charlie Chaplin ficou conhecido por qual apelido?",
+    "resposta": "Carlitos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Charlie_Chaplin",
+      "https://en.wikipedia.org/wiki/The_Tramp"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Charlie_Chaplin",
+        "situacao": "ok",
+        "texto": "Charles Spencer Chaplin, Jr. (Londres, 16 de abril de 1889 – Corsier-sur-Vevey, 25 de dezembro de 1977), mais conhecido como Charlie Chaplin, foi um ator, comediante, diretor, compositor, roteirista, produtor, editor e músico britânico.\n[…]\nÉ considerado um ícone do cinema mundial, sendo conhecido como um dos maiores nomes do cinema mudo e notabilizado pelo uso de mímica e da comédia pastelão, bem como por seu personagem mais famoso O Vagabundo (em inglês:  The Tramp), conhecido como Charlot na Europa e Carlitos no Brasil. Durante uma carreira que abrangeu 75 anos, Chaplin apareceu em mais de 80 filmes. Sua vida pública e privada, bem como suas posições políticas, também foram alvo de admiração e controvérsia ao longo das décadas.\n[…]\nFoi no estúdio Keystone onde Chaplin desenvolveu seu principal e mais conhecido personagem: O Vagabundo (conhecido como Charlot na França e no mundo francófono, na Itália, Espanha, Portugal, Grécia, Romênia e Turquia, Carlitos no Brasil e na Argentina, e Der Vagabund na Alemanha).\n[…]\nO Vagabundo é um andarilho pobretão que possui todas as maneiras refinadas e a dignidade de um cavalheiro; aparece sempre vestindo um paletó apertado, calças e sapatos desgastados e mais largos que o seu número, e um chapéu-coco; carrega uma bengala de bambu; e possui um pequeno bigode de broxa. O público viu o personagem pela primeira vez no segundo filme de Chaplin, Kid Auto Races at Venice, lançado em 7 de fevereiro de 1914.\n[…]\nChaplin ficou conhecido por sua versatilidade nas artes, sendo que em Luzes da Ribalta, foi diretor, produtor, financiador, roteirista, músico, cinematógrafo, regente de orquestra e ator.\n[…]\nCharlie Chaplin no IMDb\n[…]\n«Viva Carlitos»\n[…]\n«Download dos filmes de Charlie Chaplin em domínio público»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Tramp",
+        "situacao": "ok",
+        "texto": "The Tramp (Charlot in several languages), also known as the Little Tramp, was English actor  Charlie Chaplin's most memorable on-screen character and an icon in world cinema during the era of silent film. The Tramp is also the title of a silent film starring Chaplin, which Chaplin wrote and directed in 1915.\n[…]\nChaplin's films did not always portray the Tramp as a vagrant, however. The character (\"the little fellow\", as Chaplin called him) was rarely referred to by any names on-screen, although he was sometimes identified as \"Charlie\" and rarely, as in the original silent version of The Gold Rush, \"the little funny tramp\".\n[…]\nDreamy Dud Sees Charlie Chaplin (1915)\n[…]\nAt the peak of Chaplin's popularity, in 1915, a song was made about him, titled \"Those Charlie Chaplin Feet\", which describes his funny character, the Tramp.\n[…]\nNumerous works cite the Tramp as an icon of the Great Depression, of Charlie Chaplin himself, and of the downtrodden hero, from Chaplin's films with similar characters (such as The Great Dictator), to Playboy Penguin, the dapper, silent penguin rescued by Bugs Bunny.\n[…]\nIndian filmmaker-actor Raj Kapoor was inspired by Chaplin's \"tramp\" character, adopting a similar \"tramp\" persona in a number of his films, such as Awaara (1951) and Shree 420 (1955).\n[…]\nIn 2006, Premiere issued its list of \"The 100 Greatest Performances of all Time\", putting Chaplin's performance as the Tramp in City Lights at No. 44.\n[…]\nThe Tramp is the main character in the CGI TV series Chaplin & Co. The show places the character in the 21st century and features him meeting up with numerous characters (one of them being a modern version of the Kid) while retaining the humor from Chaplin's original films.\n[…]\nThe 1995 musical Little Tramp is based on the life of Chaplin and includes the creation of the Tramp."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Buzz Lightyear",
+      "descricao": "Patrulheiro espacial de brinquedo da franquia de animação Toy Story, da Pixar."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O primeiro nome do patrulheiro espacial de Toy Story, Buzz Lightyear, homenageia qual astronauta da missão Apollo onze?",
+    "resposta": "Buzz Aldrin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Buzz_Lightyear"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Buzz_Lightyear",
+        "situacao": "ok",
+        "texto": "Buzz Lightyear is a fictional character in the Disney–Pixar Toy Story franchise. He is a superhero action figure from an in-universe media franchise. Buzz is recognizable by his lime green, purple, and white space suit. Originally intended as a one-man band toy named Tinny, he evolved into a space ranger action figure during the development of Toy Story, a decision made by director John Lasseter. \n[…]\nBuzz Lightyear was named in honor of Apollo 11 astronaut Buzz Aldrin, the second person to walk on the Moon. The film producers thought that Aldrin had \"the coolest astronaut name\". Aldrin acknowledged the tribute when he pulled a Buzz Lightyear toy out during a speech at NASA. Aldrin did not receive any endorsement fees for the use of his nickname. In 2009, he admitted to being exasperated by Disney using his name for the character: \"You don't want to tangle with Disney, the friend of children.\n[…]\nBuzz, Jessie and the others take over the controls of the RV and force Bonnie's dad to drive it back to the carnival.\n[…]\nThe flight was arranged as part of NASA's Toys in Space program that began in 1985. The mission launched with Buzz Lightyear aboard on May 31, 2008, to celebrate the opening of Toy Story Midway Mania! at Disney's Hollywood Studios and Disney California Adventure Park theme parks. While on board the ISS, the action figure \"ate\" dinner with the ten astronauts and cosmonauts and was seen peering out of a window.\n[…]\nIt returned after 15 months on September 11, 2009, aboard mission STS-128, as it carried the Multi-Purpose Logistics Module Leonardo as its primary payload. Its return was celebrated in a parade led by Buzz Aldrin at Magic Kingdom in Walt Disney World. The Buzz Lightyear figure was named by NASA as the \"longest-serving astronaut in space\". In 2012, it was donated to the Smithsonian's National Air and Space Museum in Washington, D.C.\n[…]\nList of Toy Story characters"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Buzz_Lightyear",
+        "situacao": "ok",
+        "texto": "Esta é uma lista contendo todos os personagens dos filmes Toy Story, Toy Story 2, Toy Story 3, Toy Story 4 e Toy Story 5.\n[…]\nUm brinquedo moderno, com voz eletrônica, asas e laser (na verdade, um LED). Andy ganhou Buzz em sua festa de aniversário, causando ciúmes em Woody. Em Toy Story, Buzz acredita que seja um patrulheiro espacial, mas, ao longo do filme, percebe que é um brinquedo. É o melhor amigo de Woody. Em Toy Story 2, o quarto de Andy está decorado com coisas relacionadas ao Buzz. Buzz é inspirado no brinquedo espacial de John Lasseter e seus primeiros nomes foram Lunar Larry e Morph.\n[…]\nEle também apareceu no filme Buzz Lightyear de Star Command: The Adventure Begins e na série de TV spin-off Buzz Lightyear de Star Command, que mostram Buzz como um verdadeiro patrulheiro espacial. Buzz é um personagem jogável nos jogos Toy Story Racer, Toy Story 2: Buzz Lightyear to the Rescue e Toy Story 3: The Game.\n[…]\nÉ dublado por Andrew Stanton no filme e Wayne Knight na série Buzz Lightyear do Comando Estelar, e por Renato Rabello no Brasil.\n[…]\nÉ essencialmente outro boneco do Buzz Lightyear com um cinto que lhe concede as características extras. Quando o Buzz de Andy tenta pegar o cinto desse Buzz em Toy Story 2, o “outro” Buzz vem à vida e o prende em uma caixa de papelão vazia e toma o seu lugar. Ele, tal como o Buzz de Toy Story, acredita que é o verdadeiro Buzz Lightyear. \"Outro\" Buzz pensa que os brinquedos estão em uma missão para infiltrar a fortaleza do Imperador Zurg e consequentemente derrotá-lo.\n[…]\nToy Story 4\n[…]\nToy Story 5\n[…]\nToy Story Racer\n[…]\nToy Story 2: Buzz Lightyear to the Rescue\n[…]\nToy Story 3: The Game",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Godzilla",
+      "descricao": "Monstro gigante criado pelo estúdio japonês Toho, que estreou no filme de 1954."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome japonês Gojira, que no Ocidente virou Godzilla, combina a palavra gorila com o nome de qual animal?",
+    "resposta": "Baleia",
+    "distratores": [
+      "Tubarão",
+      "Dragão",
+      "Lagarto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Godzilla"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Godzilla",
+        "situacao": "ok",
+        "texto": "Godzilla ( ɡod-ZIL-ə) is a giant monster, or daikaijū, that first appeared in the 1954 film of the same name, directed by Ishirō Honda. The character has since become an international pop culture icon, appearing in various media: 33 Japanese films by Toho, five American films, and numerous video games, novels, comic books, and television shows. Godzilla has been dubbed the King of the Monsters, an\n[…]\nHowever, Honda's widow Kimi dismissed the story in a 1998 BBC documentary on Godzilla, believing that Honda, Tanaka, and Tsuburaya gave \"considerable thought\" to the name of the monster, stating, \"the backstage boys at Toho loved to joke around with tall stories, but I don't believe that one\". Honda's longtime assistant director Kōji Kajita added: \"Those of us who were closest to them don't even know how and why they came up with Gojira.\"\n[…]\nGodzilla's design in the reboot was intended to stay true to that of the original series, though the film's special effects team strove to make the monster \"more dynamic than a guy in a big rubber suit.\" To create a CG version of Godzilla, the Moving Picture Company (MPC) studied various animals such as bears, Komodo dragons, lizards, lions and wolves, which helped the visual effects artists visualize Godzilla's body structure, like that of its underlying bone, fat and muscle structure, as well as the thickness and texture of its scales.\n[…]\nGojira is the name of a French death metal band, formerly known as Godzilla; legal problems forced the band to change their name. In May 2015, Toho launched a lawsuit against Voltage Pictures over a planned picture starring Anne Hathaway. Promotional material released at the Cannes Film Festival used images of Godzilla.\n[…]\nReporters noted that Shinjuku's ward has been flattened by Godzilla in three Toho movies.\n[…]\nOfficial Godzilla website by Toho Co., Ltd"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Godzilla",
+        "situacao": "ok",
+        "texto": "Godzilla (ゴジラ, Gojira; nome original de Godzilla no Japão) ([ɡoꜜdʑiɽa] ()) é um monstro gigante fictício, ou kaiju, que se originou de uma série de filmes japoneses de ficção científica. Ele apareceu pela primeira vez no filme de mesmo nome de 1954, produzido pela Toho Co., Ltd. Apelidado de \"Rei dos Monstros\", um epíteto usado pela primeira vez em Godzilla, Rei dos Monstros! (1956), a versão amer\n[…]\nNos filmes japoneses, Godzilla é retratado como algum tipo de dinossauro gigante com escamas cinzas e ásperas, um poderoso rabo e várias placas ósseas dorsais. Sua origem varia de um filme para o outro, mas é quase sempre descrito como uma criatura pré-histórica e seus primeiros ataques ao Japão têm ligações com o início da Era Atômica.\n[…]\nGodzilla chegou aos EUA pela primeira vez em 1956 no filme \"Godzilla, o Rei dos Monstros\", uma americanização do original \"Gojira\" no qual novo roteiro e novas cenas, estreladas pelo ator canadense Raymond Burr como o repórter americano Steve Martin, foram acrescentados, criando-se um antecedente que seria feito anos mais tarde com duas produções da Saban Entertainment: Power Rangers e Masked Rider.\n[…]\nGojira (ゴジラ) é um amálgama das palavras japonesas \"gorila\" (ゴリラ, gorira), e \"baleia\" (鯨（クジラ）, kujira), que é adequado porque no estágio de planejamento, Godzilla foi descrito como \"um cruzamento entre um gorila e uma baleia\" em alusão a seu tamanho, força e origem aquática. O nome de Godzilla foi escrito em ateji como Gojira (呉 爾羅), onde os kanji são usados ​​para valor fonético e não para significado.\n[…]\n[ citação necessária ] Na forma inglesa a palavra \"god\" significa \"deus\" e o restante são abreviação da palavra inglesa Gorilla \"gorila\", formando a palavra Godzilla.\n[…]\nGodzilla: Minus One, de 2023, não ocorre no mesmo Universo que os filmes do MonsterVerse, sendo uma produção japonesa semelhante aos primórdios da criatura, surgida em 1954.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Irmãos Lumière",
+      "descricao": "Auguste e Louis Lumière, inventores franceses do cinematógrafo e pioneiros das exibições públicas de cinema em 1895."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os irmãos franceses que exibiram filmes a um público pagante em Paris, em 1895, tinham um sobrenome que significa o quê?",
+    "resposta": "Luz",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Irmãos_Lumière",
+      "https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumière"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Irmãos_Lumière",
+        "situacao": "ok",
+        "texto": "Os irmãos Lumière (em francês: [lymjɛːʁ]), Auguste Marie Louis Nicolas Lumière (19 de outubro de 1862 – 10 de abril de 1954) e Louis Jean Lumière (5 de outubro de 1864 – 6 de junho de 1948), foram fabricantes franceses de equipamentos de fotografia, mais conhecidos por seu sistema de imagens em movimento Cinématographe e pelos curtas-metragens que produziram entre 1895 e 1905, o que os coloca entr\n[…]\nEm 22 de março de 1895, em Paris, na Sociedade para o Desenvolvimento da Indústria Nacional, diante de uma pequena audiência, um dos quais teria sido Léon Gaumont, então diretor da empresa Comptoir Géneral de la Photographie, os Lumière exibiram privadamente um único filme, Operários Deixando a Fábrica Lumière. O foco principal da conferência de Louis foi sobre os desenvolvimentos recentes na indústria fotográfica, principalmente a pesquisa sobre policromia (fotografia colorida).\n[…]\nOs Lumière fizeram sua primeira exibição pública paga em 28 de dezembro de 1895, no Salon Indien du Grand Café em Paris. Esta apresentação consistiu dos seguintes 10 curtas-metragens:\n[…]\nO Eidoloscópio de Lauste e Latham foi demonstrado para membros da imprensa em 21 de abril de 1895, e aberto ao público pagante na Broadway em 20 de maio. Eles filmaram filmes de até vinte minutos de duração a velocidades acima de trinta quadros por segundo e os exibiram em muitas cidades dos EUA. A Empresa Eidoloscópio foi dissolvida em 1896 após várias disputas internas.\n[…]\nMax e Emil Skladanowsky, inventores do Bioscópio, ofereceram imagens em movimento projetadas a um público pagante em Berlim a partir de 1º de novembro de 1895, até o final do mês. Seu maquinário era relativamente pesado e seus filmes muito mais curtos do que os dos irmãos Lumière. As exibições reservadas dos Skladanowsky em Paris foram canceladas após a notícia do show Lumière. No entanto, eles levaram seus filmes em turnê para outros países."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Auguste_and_Louis_Lumière",
+        "situacao": "ok",
+        "texto": "The Lumière brothers (UK: , US: ; French: [lymjɛːʁ]), Auguste Marie Louis Nicolas Lumière (19 October 1862 – 10 April 1954) and Louis Jean Lumière (5 October 1864 – 6 June 1948), were French manufacturers of photography equipment, best known for their Cinématographe motion picture system and the short films they produced between 1895 and 1905, which places them among the earliest filmmakers.\n[…]\nThe date of the recording of their first film is in dispute. In an interview with Georges Sadoul given in 1948, Louis claimed that he shot the film in August 1894—before the arrival of the kinetoscope in France. This is questioned by historians, who consider that a functional Lumière camera did not exist before the beginning of 1895.\n[…]\nThe Lumières gave their first paid public screening on 28 December 1895, at Salon Indien du Grand Café in Paris. This presentation consisted of the following 10 short films:\n[…]\nMax and Emil Skladanowsky, inventors of the Bioscop, offered projected moving images to a paying public in Berlin from 1 November 1895 until the end of that month. Their machinery was relatively cumbersome and their films much shorter than those of the Lumière brothers. The Skladanowskys' screenings booked in Paris were cancelled after the news of the Lumière show. Nonetheless, they toured their films to other countries.\n[…]\nThis page lists the films produced by the Lumière company that were recorded in France between 1895 and 1905. During this period, the Lumière brothers and their camera operators created more than a thousand short actuality films documenting everyday life, industrial work, public events, and staged scenes. A substantial portion of this output was filmed in France, particularly in Lyon, Paris, and various regional locations.\n[…]\nLouis Lumière at IMDb\n[…]\nAuguste Lumière at IMDb\n[…]\nLouis Lumière at Who's Who of Victorian Cinema\n[…]\nAuguste Lumière at Who's Who of Victorian Cinema"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Tubarão",
+      "descricao": "Filme de suspense de 1975 dirigido por Steven Spielberg, sobre um tubarão-branco que ataca banhistas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No filme Tubarão, de 1975, por que Spielberg acabou mostrando tão pouco o animal na tela?",
+    "resposta": "O tubarão mecânico vivia quebrando",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jaws_(film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Jaws_(film)",
+        "situacao": "ok",
+        "texto": "Jaws is a 1975 American  thriller film directed by Steven Spielberg, based on the 1974 novel by Peter Benchley. It stars Roy Scheider as police chief Martin Brody, who with the help of a marine biologist (Richard Dreyfuss) and a professional shark hunter (Robert Shaw) hunts a man-eating great white shark that attacks beachgoers at a New England resort town. Murray Hamilton plays the town's mayor, \n[…]\nSpielberg later said that without Williams's score the film would have been only half as successful, and according to Williams it jumpstarted his career. He had previously scored Spielberg's debut feature, The Sugarland Express, and went on to collaborate with the director on almost all of his films. The original soundtrack for Jaws was released by MCA Records on LP in 1975, and as a CD in 1992, including roughly a half hour of music that Williams redid for the album.\n[…]\nA few months after the film's release in 1975, musician Dickie Goodman released \"Mr. Jaws\", a novelty song that parodied Jaws by featuring mock interviews with the film's characters, including the shark, the titular \"Mr. Jaws\". The break-in record was a minor hit that autumn, peaking at #4 on the Billboard Hot 100 in October 1975.\n[…]\nThe musical Bruce, based on Carl Gottlieb's book The Jaws Log, had its world premiere at the Seattle Rep theatre from May 27 to July 3, 2022. The musical covers the difficulties Spielberg encountered making the movie, including the ongoing issues with the titular mechanical shark.\n[…]\nJaws spawned three sequels to declining critical favor and commercial performance. Their combined domestic grosses amount to barely half of the first film's. In October 1975, Spielberg declared to a film festival audience that \"making a sequel to anything is just a cheap carny trick\". Nonetheless, he did consider taking on the first sequel when its original director, John D.\n[…]\nJaws at IMDb\n[…]\nJaws at Rotten Tomatoes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tubar%C3%A3o_%28filme%29",
+        "situacao": "ok",
+        "texto": "Tubarão (título original em inglês: Jaws) é um filme de suspense estadunidense de 1975 dirigido por Steven Spielberg, baseado no romance homônimo publicado no ano anterior por Peter Benchley. É estrelado por Roy Scheider como o chefe de polícia Martin Brody, que, com a ajuda de um biólogo marinho (Richard Dreyfuss) e um caçador profissional de tubarões (Robert Shaw), tenta capturar um grande tubar\n[…]\nA cena da abertura originalmente mostrava o tubarão devorando Chrissie, mas acabou sendo reescrita para que fosse rodada com Backlinie sendo arrastada e puxada por cabos para simular um ataque. Spielberg também incluiu várias tomadas apenas da barbatana dorsal. Acredita-se que essa contenção forçada tenha aumentado o suspense do filme.\n[…]\nO aspecto mais frequentemente criticado do filme foi a artificialidade de seu antagonista mecânico: Magill declarou que \"o tubarão programado tem um close-up verdadeiramente falso\"; em 2002, o crítico James Berardinelli declarou que se não fosse pela direção habilmente cheia de suspense de Spielberg \"nós estaríamos morrendo de rir com a breguice da criatura animatrônica\".\n[…]\nO filme deu início a uma onda de lançamentos de muitas outras produções envolvendo animais, geralmente aquáticos, devoradores de humanos nas décadas de 1970 e 1980 como Grizzly, Mako: The Jaws of Death, Eaten Alive (lançados em 1976), Tintorera, Day of the Animals, Orca (lançados em 1977), Barracuda (1978) e Alligator (1980). Spielberg declarou Piranha (1978), dirigido por Joe Dante e escrito por John Sayles, \"o melhor dos ripoffs de Tubarão\".\n[…]\nO tubarão do filme – #18 (na lista de Vilões)\n[…]\nO musical Bruce, baseado no livro The Jaws Log de Carl Gottlieb, teve sua estreia mundial no teatro Seattle Rep de 27 de maio a 3 de julho de 2022. O musical aborda as dificuldades que Spielberg encontrou ao fazer o filme, incluindo os problemas contínuos com os tubarões mecânicos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "O Mágico de Oz",
+      "descricao": "Filme musical americano de 1939, estrelado por Judy Garland, baseado no livro de L. Frank Baum."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o ator Buddy Ebsen, escalado primeiro como Homem de Lata em O Mágico de Oz, teve de deixar o papel?",
+    "resposta": "Intoxicação pela maquiagem de alumínio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
+      "https://en.wikipedia.org/wiki/Buddy_Ebsen"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
+        "situacao": "ok",
+        "texto": "The Wizard of Oz is a 1939 American musical fantasy film produced by Metro-Goldwyn-Mayer. Based on the 1900 novel The Wonderful Wizard of Oz by L. Frank Baum, it was primarily directed by Victor Fleming, who left production to take over the troubled Gone with the Wind. The screenplay is credited to Noel Langley, Florence Ryerson, and Edgar Allan Woolf, but includes contributions from other writers\n[…]\nThe production faced the challenge of creating the Tin Man's costume. Several tests were done to find the right makeup and clothes for Ebsen. Ten days into the shoot, Ebsen suffered a toxic reaction after repeatedly inhaling the aluminum dust (which his daughter, Kiki Ebsen, has said the studio misrepresented as an \"allergic reaction\") contained in the aluminum powder makeup he wore.\n[…]\nNo footage of Ebsen as the Tin Man has ever been released, only photos taken during filming and makeup tests. His replacement Jack Haley assumed Ebsen had been fired. The makeup used for Haley was quietly changed to an aluminum paste, with a layer of clown white greasepaint underneath, in order to protect his skin. Although it did not have the same dire effect on Haley, he did at one point suffer an eye infection from it.\n[…]\nThe songs were recorded on the studio's scoring stage before filming. Several of the recordings were completed while Ebsen was still with the cast. Although he had to be dropped from the cast because of a dangerous reaction to his aluminum powder makeup, Ebsen's singing voice remained on the soundtrack (as mentioned in the notes for the CD Deluxe Edition). He can be heard in the group vocals of \"We're Off to See the Wizard\".\n[…]\nThe Wizard of Oz at Rotten Tomatoes\n[…]\nThe Wizard of Oz at the AFI Catalog of Feature Films\n[…]\nThe Wizard of Oz on Lux Radio Theater: December 25, 1950\n[…]\nCharacter drawings for The Wizard of Oz, Margaret Herrick Library, Academy of Motion Picture Arts and Sciences"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Buddy_Ebsen",
+        "situacao": "ok",
+        "texto": "Buddy Ebsen (born Christian Ludolf Ebsen Jr.; April 2, 1908 – July 6, 2003),  was an American actor and dancer, widely known for his role as Jed Clampett in the CBS television sitcom The Beverly Hillbillies (1962–1971) as well as his title role in the television detective drama Barnaby Jones (1973–1980). Also known as Frank \"Buddy\" Ebsen.\n[…]\nOriginally a dancer, Ebsen began his film career in Broadway Melody of 1936. He also appeared as a dancer with child star Shirley Temple in Captain January (1936). He was cast to appear in The Wizard of Oz (1939), originally as the Scarecrow, but before filming began, his role was changed to the Tin Man. He fell seriously ill during filming due to the aluminum dust in his makeup and was forced to drop out.\n[…]\nHowever, he soon began experiencing body aches, muscle cramps, and shortness of breath, eventually leading to a lengthy hospitalization. Doctors determined that the aluminum dust used in the Tin Man makeup was coating his lungs and keeping his blood from being oxygenated, and he was forced to leave the production.\n[…]\nEbsen was replaced by Jack Haley, with the makeup quickly changed to a safer aluminum paste. MGM did not publicize the true reason for Ebsen's departure; even Haley was not told until much later. Haley re-recorded most of Ebsen's vocals, although Ebsen's Midwestern accent can still be heard on the soundtrack during several reprises of \"We're Off to See the Wizard\", with the enunciated \"r\" in the word \"wizard\", as opposed to Haley's Boston accent.\n[…]\nBuddy Ebsen Says Howdy (1965)\n[…]\nBuddy's Originals (2001)\n[…]\nBuddy Ebsen Papers at the American Heritage Center\n[…]\nBuddy Ebsen at IMDb\n[…]\nBuddy Ebsen at the TCM Movie Database (archived)\n[…]\nBuddy Ebsen at the Internet Broadway Database\n[…]\nBuddy Ebsen discography at Discogs\n[…]\nThe official Buddy Ebsen Virtual Museum\n[…]\nThe official Buddy Ebsen web site"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Wizard_of_Oz_%281939%29",
+        "situacao": "ok",
+        "texto": "The Wizard of Oz (em Portugal, O Feiticeiro de Oz; no Brasil, O Mágico de Oz) é um filme americano do gênero fantasia e musical familiar, lançado em 1939 pela Metro-Goldwyn-Mayer, baseado no livro The Wonderful Wizard of Oz de L. Frank Baum. O filme foi parcialmente dirigido por Victor Fleming (que deixou a produção para dirigir Gone with the Wind), com a produção de Mervyn LeRoy e o roteiro escri\n[…]\nThorpe inicialmente filmou por cerca de duas semanas, nove dias no total, incluindo o primeiro encontro de Dorothy com o Espantalho, além de uma série de sequências no castelo da Bruxa Má, como o resgate de Dorothy. Embora não tenha sido lançado, esse material inclui a única filmagem do Homem de Lata, interpretado por Buddy Ebsen.\n[…]\nA produção enfrentou o desafio de simular o figurino do Homem de Lata. Vários testes foram feitos para encontrar a maquiagem e as roupas adequadas para Ebsen. Dez dias após o início das filmagens, Ebsen sofreu uma reação à maquiagem à base de pó de alumínio que estava usando. Embora se lembrasse de ter respirado normalmente naquela noite, sem efeitos imediatos, ele foi hospitalizado em estado crítico e, posteriormente, foi forçado a deixar o projeto.\n[…]\nEm uma entrevista posterior (incluída no lançamento do DVD de 2005 de O Mágico de Oz), ele relembrou que os chefes do estúdio só entenderam a gravidade de sua doença depois de vê-lo no hospital. As filmagens foram interrompidas enquanto um substituto para ele era encontrado. Nenhuma filmagem completa dele como o Homem de Lata foi divulgada — apenas fotos tiradas durante as filmagens e fotos de teste de maquiagem. Seu substituto, Jack Haley, simplesmente presumiu que Ebsen havia sido demitido.\n[…]\nJack Haley como Hickory / Homem de Lata\n[…]\nFoi dirigido por Sam Raimi e estrelado por James Franco, Mila Kunis, Rachel Weisz e Michelle Williams. Foi um sucesso comercial, mas teve uma recepção mista da crítica.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Marlon Brando",
+      "descricao": "Ator americano, astro de Uma Rua Chamada Pecado e O Poderoso Chefão."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1973, ao recusar o Oscar de melhor ator por O Poderoso Chefão, Marlon Brando protestava contra o tratamento dado a quem?",
+    "resposta": "Aos indígenas norte-americanos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marlon_Brando",
+      "https://en.wikipedia.org/wiki/Sacheen_Littlefeather"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Marlon_Brando",
+        "situacao": "ok",
+        "texto": "Marlon Brando ( ; April 3, 1924 – July 1, 2004) was an American actor. Widely regarded as one of the greatest and most influential performers in the history of cinema, he received numerous accolades, including two Academy Awards, two Golden Globe Awards, three BAFTAs, a Cannes Film Festival Award, and a Primetime Emmy Award. Brando is credited with being one of the first actors to bring the Stanis\n[…]\nAfter refusing to touch the statue at the podium, she announced to the crowd that Brando was rejecting the award in protest of \"the treatment of American Indians today by the film industry ... and on television and movie reruns and also with recent happenings at Wounded Knee.\" The Wounded Knee Occupation of 1973 was occurring at the time of the ceremony. Brando had written a longer speech for her to read but, as she explained, this was not permitted due to time constraints.\n[…]\nThe protest won him respect from members of the Puyallup tribe, who reportedly dubbed the spot where he was arrested \"Brando's Landing.\" At the 1973 Academy Awards ceremony, he refused to accept the Oscar for his career-reviving performance in The Godfather. Sacheen Littlefeather represented him at the ceremony. She appeared in full Apache attire and stated that, owing to the \"poor treatment of Native Americans in the film industry\", Brando would not accept the award.\n[…]\nBrando was also considered a male sex symbol. Linda Williams writes: \"Marlon Brando [was] the quintessential American male sex symbol of the late fifties and early sixties\". Brando was an early lesbian icon who, along with James Dean, influenced the butch look and self-image in the 1950s and after.\n[…]\nBrando repeatedly credited Stella Adler and her understanding of the Stanislavski acting technique for bringing realism to American cinema, but also added:\n[…]\nMarlon Brando at Playbill Vault\n[…]\nMarlon Brando at the American Film Institute Catalog"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sacheen_Littlefeather",
+        "situacao": "ok",
+        "texto": "Maria Louise Cruz (November 14, 1946 – October 2, 2022), better known as Sacheen Littlefeather, was an American-born actress and activist for Native American civil rights. After her death, she was accused by family members and journalists of falsely claiming to have Native American ancestry.\n[…]\nLittlefeather represented Marlon Brando at the 45th Academy Awards (the Oscars) in 1973, where she — on Brando's behalf — declined the Best Actor award that he won for his performance in The Godfather. The favorite to win the award, Brando boycotted the ceremony as a protest against Hollywood's portrayal of Native Americans and to draw attention to the standoff at Wounded Knee. During her speech, the audience's response to Brando's boycott was divided between booing and applause.\n[…]\nAlthough some of Littlefeather's distant family may have been born in Pima/O’odham tribal territory in Sonora, Mexico, scholars have suggested that actual tribal members in these communities would have been a minority during the time. According to Liza Black, an associate professor of history and Native American and Indigenous studies at Indiana University, and a citizen of the Cherokee Nation, \"Keeler proves Littlefeather was a troubled woman who made the stories of others her own\".\n[…]\nBecause Littlefeather had been a prominent activist, these allegations caused mixed reactions. Academic and journalist Dina Gilio-Whitaker, who studies Native Americans in the U.S., wrote that the truth about community leaders is \"crucial\", even if it means losing a \"hero\", and that the work Littlefeather did is still valuable, but there is a need to be honest about the harm done by false claims of Indigenous identity. Gilio-Whitaker specified:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Marlon_Brando",
+        "situacao": "ok",
+        "texto": "Marlon Brando, Jr. (Omaha, 3 de abril de 1924 – Los Angeles, 1 de julho de 2004) foi um ator de cinema e teatro e diretor norte-americano. É saudado por trazer um estilo realista e emocionante na atuação em seus filmes, e é amplamente considerado um dos maiores e mais influentes atores de todos os tempos. Brando também foi um ativista por muitas causas, notadamente o movimento pelos direitos civis\n[…]\nO chefe de produção da Paramount, Robert Evans, que havia dado a Puzo um adiantamento para escrever O Poderoso Chefão para que a Paramount detivesse os direitos do filme, contratou Coppola depois que muitos diretores importantes recusaram o filme. Evans queria um diretor ítalo-americano que pudesse dar ao filme autenticidade cultural. Coppola também saiu barato.\n[…]\n\"Brando ganhou o Oscar de Melhor Ator por sua atuação, mas recusou, tornando-se o segundo ator a recusar o prêmio de Melhor Ator (depois de George C. Scott por Patton). Ele boicotou o prêmio cerimônia, em vez de enviar o ativista de direitos indígenas americano Sacheen Littlefeather, que apareceu em trajes Apache completos, para declarar as razões de Brando, que eram baseadas em sua objeção à representação de indígenas americanos por Hollywood e pela televisão.\n[…]\nBrando também apoiou o Movimento Indígena Americano. Na cerimônia do Oscar de 1973, Brando se recusou a aceitar o Oscar por sua atuação em O Poderoso Chefão. Sacheen Littlefeather o representou na cerimônia. Ela apareceu em trajes Apache completos e afirmou que, devido ao \"mau tratamento dispensado aos nativos americanos na indústria cinematográfica\", Brando não aceitaria o prêmio. Isso ocorreu durante o impasse em Wounded Knee. O evento chamou a atenção dos Estados Unidos e da mídia mundial.\n[…]\nDimare, Philip C. (2011). Movies in American History: An Encyclopedia. Santa Barbara, California: ABC-CLIO. ISBN 1-59884-296-X.\n[…]\n«Marlon Brando» (em inglês). no Rotten Tomatoes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Sapatinhos de rubi",
+      "descricao": "Sapatos mágicos vermelhos usados por Dorothy, personagem de Judy Garland, no filme O Mágico de Oz, de 1939."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No livro original, os sapatos mágicos de Dorothy são prateados. Por que viraram vermelhos no filme O Mágico de Oz, de 1939?",
+    "resposta": "Para aproveitar o Technicolor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ruby_slippers"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ruby_slippers",
+        "situacao": "ok",
+        "texto": "The ruby slippers are a pair of magical shoes worn by Dorothy Gale as played by Judy Garland in the 1939 Metro-Goldwyn-Mayer musical film The Wizard of Oz. Because of their iconic stature, they are as of December 2024 the most valuable items of film memorabilia in the world. Several pairs were made for the film, though the exact number is unknown. Five pairs are known to have survived; one pair wa\n[…]\nIn L. Frank Baum's original 1900 novel, The Wonderful Wizard of Oz, on which the film is based, Dorothy wears Silver Shoes. However, the color of the shoes was changed to red to take advantage of the three-strip Technicolor film process used in some big-budget prestigious Hollywood films of the era. Screenwriter Noel Langley is credited with the idea.\n[…]\nThe ruby slippers play an integral role in the 1985 Walt Disney Pictures film Return to Oz, for which Disney had to obtain rights from MGM to use reproductions in the film. Unlike the originals, the hand-made British French-heeled shoes for Return to Oz were covered in hundreds of dark red crystals. The stones were soaked in sulfuric acid to remove the silver backing, and two types of glue were used to affix them to the shoes (a spray glue and an optical glue).\n[…]\nIn \"At The Auction of the Ruby Slippers\", a short story in Salman Rushdie's 1994 anthology East, West, various members of a destitute world attend an auction to bid for the ruby slippers of Dorothy Gale in The Wizard of Oz, in the hope their transformative powers will help them achieve personal and political ends.\n[…]\nThe progressive band Electric Light Orchestra used a frame from the 1939 film on the cover of their fourth studio album, Eldorado, released in 1974. The cover, designed by John Kehe, is a mirrored still frame of Dorothy's ruby slippers. This still was also used for the picture sleeve of \"Can't Get It Out of My Head\", the single release from the Eldorado album."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Cantando na Chuva",
+      "descricao": "Musical americano de 1952 com Gene Kelly, ambientado em Hollywood na transição do cinema mudo para o falado."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No musical Cantando na Chuva, a carreira da estrela Lina Lamont entra em crise por causa de qual novidade do cinema?",
+    "resposta": "A chegada do cinema falado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Singin%27_in_the_Rain",
+        "situacao": "ok",
+        "texto": "Singin' in the Rain is a 1952 American musical romantic comedy film directed and choreographed by Gene Kelly and Stanley Donen, starring Kelly, Donald O'Connor and Debbie Reynolds, with Jean Hagen, Millard Mitchell, Douglas Fowley, Rita Moreno and Cyd Charisse in supporting roles. It offers a lighthearted depiction of Hollywood in the late 1920s, with the three stars portraying performers caught u\n[…]\nLater that night, Kathy and Cosmo suggest The Dueling Cavalier be turned into a musical (\"Good Morning\"), and Cosmo, inspired by the film's synchronization error, suggests that Kathy dub Lina's voice. Don happily agrees, then takes Kathy home and dances through her neighborhood in the rain (\"Singin' in the Rain\"). Don and Cosmo pitch their idea to R. F., changing the title of the film to The Dancing Cavalier and adding a modern framing device (\"Broadway Melody\"). R. F.\n[…]\nThe musical Singin' in the Rain was adapted from the motion picture, and the plot of the stage version closely adheres to the original. Directed and choreographed by post-modern choreographer Twyla Tharp, the opening night cast at the London Palladium in 1983 starred Don Correia as Don Lockwood, Mary D'Arcy as Kathy Selden, Richard Fancy as Roscoe Dexter, Faye Grant as Lina Lamont, and Peter Slutsker as Cosmo Brown.\n[…]\n\"The talkies: American cinema's transition to sound, 1926-1931\". Choice Reviews Online. 36 (1): 36–0220–36–0220. September 1, 1998. doi:10.5860/choice.36-0220 (inactive January 8, 2026). ISSN 0009-4978.{{cite journal}}:  CS1 maint: DOI inactive as of January 2026 (link)\n[…]\nTelek, Scott (November 11, 2007). \"Speaking vs. Dancing in the Rain\". Cinema de Merde. Archived from the original on July 22, 2012. Retrieved February 14, 2016.\n[…]\nSingin' in the Rain at the TCM Movie Database (archived)\n[…]\nSingin' in the Rain at Rotten Tomatoes\n[…]\n\"CINEMACLASSIC : SINGIN'IN THE RAIN\". cinemaclassic.free.fr. Retrieved May 30, 2026."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Singin%27_in_the_Rain",
+        "situacao": "ok",
+        "texto": "Singin' in the Rain (no Brasil, Cantando na Chuva e em Portugal, Serenata à Chuva) é um filme estadunidense do gênero comédia musical, estreado em 1952, dirigido e coreografado por Gene Kelly e Stanley Donen e estrelada por Kelly, Donald O'Connor e Debbie Reynolds. A história do filme retrata o ambiente dos anos 1920s em Hollywood na transição do cinema mudo para o cinema falado.\n[…]\nDon Lockwood é uma estrela do cinema mudo popular, mas com raízes como um cantor, dançarino e dublê. Don mal consegue tolerar sua insípida \"noiva\" Lina Lamont, apesar do estúdio, Pictures Monumental, vender um relacionamento entre eles para aumentar sua popularidade. Lina está convencida de que eles estão apaixonados, apesar do tratamento negativo que ela tem dele.\n[…]\nDepois de um estúdio rival (Warner Bros.) ter um enorme sucesso com seu primeiro filme falado de 1927, The Jazz Singer, RF decide que ele não tem escolha, e deve converter o próximo filme Lockwood e Lamont, O Cavaleiro Galante em um filme sonoro. A produção está com dificuldade em capturar  o som, mas, de longe, o pior problema é a voz irritante de Lina. Um fonoaudiólogo tenta ensiná-la a falar corretamente, mas sem sucesso. Don também tem aulas de dicção (embora com resultados muito melhores).\n[…]\nKathy, angustiada, tenta fugir também, mas não antes de Don orgulhosamente anunciar para o público que ela é \"a verdadeira estrela do filme\". A cena final mostra Kathy e Don beijando na frente de um cartaz de seu novo filme: Cantando na Chuva.\n[…]\nJean Hagen como Lina Lamont. Judy Holliday foi fortemente considerado para o papel de Lina, até que ela sugeriu Hagen, que tinha sido sua substituta na produção da Broadway de Born Yesterday [filme que deu um Oscar de Melhor Atriz para Hollyday]. Sua personagem foi baseada na estrela de filmes mudos Norma Talmadge que foi bombardeada durante a transição para o cinema falado.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Mickey Mouse",
+      "descricao": "Camundongo criado por Walt Disney e Ub Iwerks em 1928, mascote da Disney."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Walt Disney criou o Mickey em 1928, depois de perder os direitos sobre qual personagem animado anterior?",
+    "resposta": "Oswald, o Coelho Sortudo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mickey_Mouse",
+      "https://en.wikipedia.org/wiki/Oswald_the_Lucky_Rabbit"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mickey_Mouse",
+        "situacao": "ok",
+        "texto": "Mickey Mouse is a cartoon character co-created in 1928 by Walt Disney and Ub Iwerks. The longtime corporate icon and mascot of the Walt Disney Company and a figurehead of American animation, Mickey is an anthropomorphic mouse who typically wears red shorts, large shoes, and white gloves. He is often depicted with a cast of characters including his girlfriend Minnie Mouse, his pet dog Pluto, his be\n[…]\nMickey was created as a replacement for a prior character created by Disney, Oswald the Lucky Rabbit. The character was originally to be named \"Mortimer Mouse\", until Disney's wife, Lillian, suggested \"Mickey\". Mickey first appeared in two 1928 shorts Plane Crazy and The Gallopin' Gaucho (which were not picked up for distribution) before his public debut in Steamboat Willie (1928). The character went on to appear in over 130 films, mostly short films.\n[…]\nMickey Mouse was created as a replacement for Oswald the Lucky Rabbit, an earlier cartoon character that was created by Walt Disney and Ub Iwerks for Universal Pictures during their time at Winkler Pictures. In an unsuccessful February 1928 meeting with Winkler producer Charles Mintz to negotiate a higher budget, he left in disappointment, only to find that Mintz secretly convinced his staff to move to an in-house studio.\n[…]\nThe game is part of an effort by the Walt Disney Company to re-brand the Mickey Mouse character by moving away from his current squeaky clean image and reintroducing the mischievous side of his personality. Mickey Mouse is a playable character in the mobile game Disney Heroes: Battle Mode.\n[…]\nBetween 1991 and 1998, the Walt Disney Company filed a trademark infringement complaint against the Paraguayan Mickey brand whose logo shares similarities with Mickey Mouse. Ultimately, Disney lost the case as Mickey SRL had continuously used the trademark since 1956 without prior complaint.\n[…]\nDisney's Mickey Mouse character page"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oswald_the_Lucky_Rabbit",
+        "situacao": "ok",
+        "texto": "Oswald the Lucky Rabbit, also known as Oswald the Rabbit, Oswald Rabbit, and Ozzie, is an animated cartoon character created in 1927 by Walt Disney and Ub Iwerks for Universal Pictures. He starred in the titular series of short films released to theaters from 1927 to 1938. Twenty-seven animated Oswald shorts were animated at the Walt Disney Studio and produced by Winkler Pictures, while the rest w\n[…]\nAfter Universal took control of Oswald's character in 1928, Disney created Mickey Mouse as a replacement to Oswald, surpassing Lantz's Oswald in popularity as the series was eventually made redundant in favor of other Universal series. The films established both Walt Disney Studio and Walter Lantz Productions as major players in the American animation industry in the golden age of American animation.\n[…]\nAs Walt Disney popularized sound cartoons with Mickey Mouse, Lantz's cartoons began to feature actual dialogue for Oswald, although most of the cartoons were still silent to begin with. Animator Bill Nolan performed the voice of Oswald in Cold Turkey (1930), the first Lantz cartoon with dialogue, and the following year Pinto Colvig, who was working as an animator and gag man at the studio, started voicing Oswald.\n[…]\nHe implements his likeness into areas Mickey Mouse normally appears, such as the iconic Partners statue with Walt Disney and other imagery throughout the town. Oswald was the first cartoon character to be \"forgotten\" and eventually lose his relevance, now inhabiting Wasteland. Oswald also dislikes Mickey for stealing his popularity that he felt he deserved.\n[…]\nIn 2012, sketch animation from a lost 1928 cartoon, Harem Scarem, was compiled by archivists at Disney and released to help celebrate Oswald's 85th Anniversary. He made an appearance in a 2013 throwback-style Mickey Mouse cartoon, Get a Horse!\n[…]\nOf Rocks and Socks: The Winkler Oswalds (1928–29)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mickey_Mouse",
+        "situacao": "ok",
+        "texto": "Mickey Mouse (também conhecido como Rato Mickey ou apenas Mickey) é um personagem de desenho animado. Foi criado em 1928 por Walt Disney e o desenhista Ub Iwerks. Ícone e mascote de longa data da The Walt Disney Company, Mickey é um rato antropomórfico que normalmente usa shorts vermelhos, grandes sapatos amarelos e luvas brancas.\n[…]\nCriado como um substituto para um personagem anterior da Disney, Oswald, o Coelho Sortudo, Mickey apareceu pela primeira vez no curta Plane Crazy, de 1928, que não foi originalmente escolhido para distribuição; sua estreia pública foi em Steamboat Willie do mesmo ano. O personagem deveria se chamar originalmente \"Mortimer Mouse\", até que Lillian Disney sugeriu \"Mickey\" durante uma viagem de trem.\n[…]\nEm 1978, Mickey se tornou o primeiro personagem de desenho animado a ter uma estrela na Calçada da Fama de Hollywood, algo que ele compartilha com seu melhor amigo Pato Donald e sua namorada Minnie Mouse.\n[…]\n1928\n[…]\nGallopin' Gaucho (primeira aparição de João Bafo de Onça nos curtas de Mickey Mouse, porém o personagem já havia aparecido antes nas séries Alice Comedies e Oswald the Lucky Rabbit)\n[…]\nMickey suja a esponja com uma substância que apaga qualquer tinta que existe, nomeada de Thinner. E, então, ele apaga o monstro, mas não totalmente, pois ele ainda fica no jarro de tinta. Mickey tenta arrumar a maquete mas só piora o caso e derrama o Thinner na maquete. Depois de muitos meses, Blot pega o ratinho em sua casa e arrasta para o mundo em que o mago criou para os personagens esquecidos do cartoons de Walt Disney, chamada de Wasteland (em português, Refugolândia).\n[…]\nDepois de entrar no universo paralelo de Wasteland, Mickey conhece um cientista chamado Mad Doctor e reencontra, Osvaldo, o Coelho Sortudo. Assim, a vida do Mickey muda drasticamente.\n[…]\nMickey Mouse no Facebook\n[…]\nMickey Mouse no Instagram",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Nosferatu",
+      "descricao": "Filme expressionista alemão de terror de 1922, dirigido por F. W. Murnau, com o vampiro Conde Orlok."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a Justiça alemã mandou destruir as cópias do filme de vampiro Nosferatu, de 1922?",
+    "resposta": "Adaptou Drácula sem autorização",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nosferatu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nosferatu",
+        "situacao": "ok",
+        "texto": "Nosferatu: A Symphony of Horror (German: Nosferatu – Eine Symphonie des Grauens) is a 1922 silent German Expressionist vampire film directed by F. W. Murnau from a screenplay by Henrik Galeen. It stars Max Schreck as Count Orlok, a vampire who preys on the wife (Greta Schröder) of his estate agent (Gustav von Wangenheim) and brings the plague to their town.\n[…]\nNosferatu has been noted for its themes regarding fear of the Other, as well as for possible antisemitic undertones, both of which may have been partially derived from the Bram Stoker novel Dracula, upon which the film was based. The physical appearance of Count Orlok, with his hooked nose, long claw-like fingernails, and large bald head, has been compared to stereotypical caricatures of Jewish people from the time in which Nosferatu was produced.\n[…]\nNosferatu was also the first film to show a vampire dying from exposure to sunlight. Previous vampire novels such as Dracula had shown them being uncomfortable with sunlight, but not mortally susceptible.\n[…]\nHere is the story of Dracula before it was buried alive in clichés, jokes, TV skits, cartoons and more than 30 other films. The film is in awe of its material. It seems to really believe in vampires. ...Is Murnau's Nosferatu scary in the modern sense? Not for me. I admire it more for its artistry and ideas, its atmosphere and images, than for its ability to manipulate my emotions like a skillful modern horror film.\n[…]\n\"Observing the curious coincidence of the fiction that is related in the film with history\", Díaz Noriega adapted Nosferatu's plot to the years of the Spanish transition to democracy: Prime Minister Arias Navarro becomes Draculas Navarro and Juan Carlos de Borbón becomes Jonathan Carolus (prince of Franconia). The original Transylvania becomes Galitzia and the Pazo de Meirás becomes the vampire's castle.\n[…]\nNosferatu at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nosferatu%2C_Eine_Symphonie_des_Grauens",
+        "situacao": "ok",
+        "texto": "Nosferatu, Eine Symphonie des Grauens (prt: Nosferatu, o Vampiro) é um filme alemão de 1922, em cinco atos, dirigido por Friedrich Wilhelm Murnau.\n[…]\nO roteiro é uma adaptação do romance Drácula, de Bram Stoker, embora com nomes de personagens e lugares alterados, pois os herdeiros do escritor não concederam aos produtores autorização para adaptar a obra. Processado por violação de direitos autorais, a justiça ordenou a destruição das cópias do filme, mas algumas delas, entre as muitas já distribuídas, permaneceram guardadas até a morte da viúva de Bram Stoker e estão hoje em dia disponíveis em versões restauradas.[carece de fontes]?\n[…]\nO filme teve uma refilmagem em 1979, Nosferatu: Phantom der Nacht, dirigida por Werner Herzog.\n[…]\nNosferatu foi a única produção cinematográfica de 1921 da Prana-Film, fundada por Enrico Dieckmann e Albin Grau. Grau teve a ideia de rodar um filme de vampiros. A inspiração para isso veio de uma experiência de guerra dele: no inverno de 1916, um agricultor lhe disse que seu pai fora um vampiro, um morto-vivo. Henrik Galeen pediu a Diekmann e Grau que fizessem um roteiro baseado no romance Dracula, escrito por Bram Stoker em 1897, embora os direitos autorais não tivessem sido adquiridos.\n[…]\nApós a exibição de Nosferatu, uma dançarina da Ópera Estatal de Berlim apresentou a peça Die Serenade (\"A Serenata\"), escrita por Edmann. Em seguida, uma festa à fantasia atraiu diversos cineastas berlinenses, como Ernst Lubitsch, Richard Oswald, Hanns Kräly, Johannes Riemann, Heinz Schall, entre outros. Finalmente, a estreia oficial do filme ocorreu no Primus-Palast no dia 15 de março de 1922.\n[…]\n«Crítica sobre o filme»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "E.T. – O Extraterrestre",
+      "descricao": "Filme de ficção científica de 1982 dirigido por Steven Spielberg, sobre a amizade entre um menino e um alienígena."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No filme E.T., o alienígena é atraído com balas Reese's Pieces. Por que não foram usados os famosos M&M's?",
+    "resposta": "A fabricante recusou a proposta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/E.T._the_Extra-Terrestrial",
+        "situacao": "ok",
+        "texto": "E.T. the Extra-Terrestrial (or simply E.T.) is a 1982 American science fantasy film produced and directed by Steven Spielberg and written by Melissa Mathison. It tells the story of Elliott, a boy who befriends an extraterrestrial that he names E.T. who has been stranded on Earth. Along with his friends and family, Elliott must find a way to help E.T. find his way home. The film stars Dee Wallace, \n[…]\nMars, Incorporated refused to allow M&M's to be used in the film, believing that E.T. would frighten children. The Hershey Company was asked if Reese's Pieces could be used, and it agreed. This product placement resulted in a large increase in Reese's Pieces sales.\n[…]\nUpon release, E.T. the Extra-Terrestrial was universally praised by film critics. Roger Ebert gave the film four out of four stars and wrote, \"It works as science fiction, it's sometimes as scary as a monster movie, and at the end, when the lights go up, there's not a dry eye in the house.\" He later added it to his canon of \"Great Movies\", structuring the essay as a letter to his grandchildren about watching it with them.\n[…]\nBrode, Douglas (1995). \"E.T. the Extra-Terrestrial\". The Films of Steven Spielberg. Citadel. pp. 114–127. ISBN 0806515406.\n[…]\nE.T. the Extra-Terrestrial at IMDb\n[…]\nE.T. the Extra-Terrestrial at Box Office Mojo\n[…]\nE.T. the Extra-Terrestrial at Rotten Tomatoes\n[…]\nE.T. the Extra-Terrestrial at the TCM Movie Database (archived)\n[…]\nE.T. the Extra-Terrestrial at the AFI Catalog of Feature Films\n[…]\nE.T. The Extra-Terrestrial essay by Daniel Eagan in America's Film Legacy: The Authoritative Guide to the Landmark Movies in the National Film Registry, A&C Black, 2010 ISBN 0826429777, pages 774–775 America's Film Legacy: The Authoritative Guide to the Landmark Movies in the National Film Registry"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/E.T._O_Extraterrestre",
+        "situacao": "ok",
+        "texto": "E.T. the Extra-Terrestrial (bra/prt: E.T. O Extraterrestre) é um filme americano de ficção científica de 1982 produzido e dirigido por Steven Spielberg e escrito por Melissa Mathison. O filme apresenta efeitos especiais de Carlo Rambaldi e Dennis Muren e é estrelado por Henry Thomas, Dee Wallace, Peter Coyote, Robert MacNaughton, Drew Barrymore e Pat Welsh.\n[…]\nO boneco foi feito em três meses sob o custo de 1,5 milhão de dólares; ao comentar a aparência do ET, Spielberg disse que era \"algo que apenas uma mãe poderia amar\". A Mars, Incorporated se recusou a permitir que seus M&M's fossem usados no filme, acreditando que o ET assustaria as crianças.\n[…]\nDepois que a Mars negou a participação de seus produtos no filme, os produtores perguntaram à Hershey's se os \"Reese's Pieces\", fabricados por ela, poderiam aparecer e receberam uma resposta positiva; após o lançamento de ET, as vendas dos referidos doces da empresa cresceram consideravelmente. O educador de ciência e tecnologia Henry Feinberg criou o dispositivo de comunicação do ET.\n[…]\nET the Extra-Terrestrial foi indicado para nove estatuetas do Óscar durante a quinquagésima quinta cerimônia em 1983, incluindo melhor filme; apesar de ET ter perdido a estatueta de melhor filme para Gandhi, o diretor Richard Attenborough, declarou: \"Eu estava certo de que não apenas ET venceria o melhor filme, mas também todas as outras categorias a qual foi indicado... Foi inventivo, poderoso e maravilhoso\".\n[…]\nNas pesquisas do American Film Institute, ET the Extra-Terrestrial foi eleito o vigésimo quarto maior filme americano de todos os tempos, o quadragésimo quarto mais emocionante, e o sexto mais inspirador. Outras pesquisas da AFI o classificaram como tendo a décima quarta melhor trilha sonora e o terceiro melhor filme de ficção científica.\n[…]\nE.T. the Extra-Terrestrial no Rotten Tomatoes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Festival de Veneza",
+      "descricao": "Festival internacional de cinema realizado anualmente em Veneza, na Itália, desde 1932."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o prêmio máximo do Festival de Cinema de Veneza é a estatueta de um leão dourado?",
+    "resposta": "É o símbolo de São Marcos, padroeiro da cidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Golden_Lion"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Golden_Lion",
+        "situacao": "ok",
+        "texto": "The Golden Lion (Italian: Leone d'oro) is the highest prize given to a film at the Venice Film Festival. The prize was introduced in 1949 by the organizing committee, as the successor to the earlier Gran Premio Internazionale di Venezia (Grand International Prize of Venice), awarded in 1947 and 1948. The prize was introduced as the Golden Golden Lion of Saint Mark, which was one of the best known \n[…]\nAfter the end of the WWII during the reestablishment of the festival, The Southerner, directed by Jean Renoir, won the main prize at the 1946 edition. In 1947 and 1948, the equivalent prize for the Golden Lion was the Gran Premio Internazionale di Venezia (Grand International Prize of Venice), awarded to Karel Steklý's The Strike in 1947 and Laurence Olivier's Hamlet in 1948.\n[…]\nThe first Golden Lion was awarded in 1949. Previously, the equivalent prize was the Gran Premio Internazionale di Venezia (Grand International Prize of Venice), awarded in 1947 and 1948. The prize was introduced in 1949 as the Golden Golden Lion of Saint Mark, which was one of the best known symbols of the ancient Republic of Venice.No Golden Lions were awarded between 1969 and 1979.\n[…]\nThe prize is the highest prize given to a film at the Venice Film Festival, and is widely regarded as one of the film industry's most prestigious and distinguished prizes.\n[…]\nThese films received the Golden Lions or the major awards of the Venice Film Festival:\n[…]\nThe Golden Lion for Lifetime Achievement is awarded to directors, actors, and other personalities from the world of cinema who have distinguished themselves in the art. It joins the Golden Lion, the festival's highest prize, which is instead awarded to a film in competition.\n[…]\nPalme d'Or, the highest prize awarded at the Cannes Film Festival\n[…]\nGolden Bear, the highest prize awarded at the Berlin Film Festival\n[…]\nLa Biennale di Venezia official website / Cinema history"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Le%C3%A3o_de_Ouro",
+        "situacao": "ok",
+        "texto": "Leão de Ouro (em italiano: Leone d'Oro) é o galardão máximo concedido pelo júri do Festival Internacional de Cinema de Veneza (Mostra Internazionale d'Arte Cinematografica), um festival internacional de cinema que é realizado anualmente em Veneza, Itália, desde 1932. O prêmio foi introduzido em 1949 pelo comitê organizador e agora é considerado como um dos prêmios mais ilustres da indústria cinema\n[…]\nEm 1970, um segundo Leão de Ouro foi introduzido, este é um prêmio honorário para as pessoas que fizeram uma contribuição importante para o cinema.\n[…]\nO prêmio é uma representação do Leão de São Marcos — o leão alado que aparecia na bandeira da República de Veneza. Anteriormente, o prêmio equivalente foi o Grande Prêmio Internacional de Veneza, concedido entre 1946 e 1948. Antes disso, de 1934 a 1942, os prêmios mais importantes foram a Coppa Mussolini para Melhor Filme Italiano e Melhor Filme Estrangeiro.\n[…]\nNenhum Leão de Ouro foi concedido entre 1969 e 1979. De acordo com o site oficial da Bienal, este hiato foi um resultado do Leão de 1968 sendo concedido ao radicalmente experimental Die Artisten in der Zirkuskuppel: Ratlos. O site diz que os prêmios \"ainda tinha um estatuto que remonta à era fascista e não poderia escamotear o clima político geral. Sessenta e oito produziu uma fratura dramática com o passado.\"\n[…]\nEmbora antes de 1980, apenas 3 dos 21 vencedores fossem de origem não europeia, desde os anos 1980, o Leão de Ouro foi apresentado a um número de cineastas asiáticos, particularmente em comparação com o prêmio principal do Festival de Cinema de Cannes, a Palma de Ouro (Palme d'Or), que só foi concedido a cinco cineastas asiáticos desde 1980. O Leão de Ouro, em contrapartida, foi concedido a dez asiáticos durante o mesmo período de tempo, com dois destes cineastas ganhar duas vezes.\n[…]\nLeão de Prata\n[…]\nGrande Prêmio do Júri\n[…]\nLista de festivais de cinema",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Festival de Veneza",
+      "descricao": "Festival internacional de cinema realizado anualmente em Veneza, na Itália, desde 1932."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estes festivais de cinema, qual é o mais antigo?",
+    "resposta": "Festival de Veneza",
+    "distratores": [
+      "Festival de Cannes",
+      "Festival de Berlim",
+      "Festival de Gramado"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venice_Film_Festival",
+      "https://en.wikipedia.org/wiki/Cannes_Film_Festival",
+      "https://en.wikipedia.org/wiki/Berlin_International_Film_Festival"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Venice_Film_Festival",
+        "situacao": "ok",
+        "texto": "The Venice Film Festival or Venice International Film Festival (Italian: Mostra Internazionale d'Arte Cinematografica della Biennale di Venezia, lit. 'International Exhibition of Cinematographic Art of the Venice Biennale'; informally Mostra del Cinema di Venezia) is an annual film festival held in Venice, Italy.\n[…]\nFounded by Giuseppe Volpi, member of the National Fascist Party and grandfather of producer Marina Cicogna, in Venice in August 1932, the festival is part of the Venice Biennale, one of the world's oldest exhibitions of art, created by the Venice City Council on 19 April 1893. The range of work at the Venice Biennale now covers Italian and international art, architecture, dance, music, theatre, and cinema.\n[…]\nIn 2017 a new section for virtual reality films was introduced. Initially this section was called Venice Virtual Reality, but in 2022 the organisation announced the new name to be Venice Immersive. The Venice Film Festival was the first of the \"Big Five\" international film festivals worldwide to introduce virtual reality to the festival program. Therefore, Venice Immersive quickly became the most important podium for the emerging medium within film to date.\n[…]\nThe goal of the Venice Film Festival is to \"raise awareness and promote international cinema in all its forms, including art, entertainment and industry, in a spirit of freedom and dialogue.\" The Venice Film Festival is organized in various sections:\n[…]\nThis is the Extended Reality section of the Venice Film Festival and Venice Biennale, founded in 2017. This section is devoted entirely to immersive media and includes all Extended Reality means of creative and cinematographic expression.\n[…]\nBerlin International Film Festival\n[…]\nCairo International Film Festival\n[…]\nList of Big Three film festivals winners\n[…]\nVenice Film Festival at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Cannes_Film_Festival",
+        "situacao": "ok",
+        "texto": "The Cannes Film Festival is considered the most prestigious film festival in the world. Held in Cannes, France, it previews new films of all genres, including documentaries. Founded in 1946, the invitation-only festival is held annually (usually in May) at the Palais des Festivals et des Congrès. The festival was formally accredited by the FIAPF in 1951.\n[…]\nThe Cannes Film Festival has its origins in 1938 when Jean Zay, the French Minister of National Education, at the suggestion of high-ranking official and historian Philippe Erlanger and film journalist Robert Favre Le Bret, set up an international cinematographic festival. The Americans and the British supported it.\n[…]\nTributes – Honours internationally renowned artists with the presentation of the Festival Trophee following the screening of one of their films.\n[…]\nCaméra d'Or – It rewards the best first film of the Festival, choosing among the debutants' works among the Official Selection, the Directors' Fortnight and the International Critics' Week selections.\n[…]\nThe festival has become an important showcase for European films. Jill Forbes and Sarah Street argue in European Cinema: An Introduction (ISBN 0333752104), that Cannes \"became...extremely important for critical and commercial interests and for European attempts to sell films on the basis of their artistic quality\" (page 20).\n[…]\nForbes and Street also point out that, along with other festivals such as the Venice Film Festival and Berlin International Film Festival, Cannes offers an opportunity to determine a particular country's image of its cinema and generally foster the notion that European cinema is \"art\" cinema.\n[…]\nCraig, Benjamin (2018). Cannes: A Festival Virgin's Guide (7 ed.). Cinemagine Media Publishing. ISBN 978-1999996109.\n[…]\nRadio France Internationale coverage of the Cannes Film Festival 2017 (in English)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Berlin_International_Film_Festival",
+        "situacao": "ok",
+        "texto": "The Berlin International Film Festival (German: Internationale Filmfestspiele Berlin), usually called the Berlinale (German pronunciation: [bɛʁliˈnaːlə] ), is an annual film festival held in Berlin, Germany. Founded in 1951 and originally run in June, the festival has been held every February since 1978 and is one of Europe's \"Big Three\" film festivals alongside the Venice Film Festival held in It\n[…]\nThis scandal had such a big effect that it was unclear if the festival would continue to take place the next year. The following year, the festival was re-formed and a new International Forum for New Cinema was created.\n[…]\nKosslick started making some changes to the festival, moving the emphasis from Hollywood in order to focus more on German and international cinema. He introduced various events to assist the development of emerging talent in German cinema.\n[…]\nAbout 400 films are shown in several sections across cinematic genres, with around twenty films competing for the festival's top awards, the Golden Bear and Silver Bears.\n[…]\nGeneration: comprising Generation Kplus and Generation 14plus, two competition programmes screening international cinema exploring the worlds of children and teenagers; started in 1978 with a selection \"Cinema for People Six and up\"; then Kinderfilmfest (\"Children's Film Festival\"); expanded to include the 14plus competition in 2004; renamed Generation in 2007, with the two sections\n[…]\nCinema Fairbindet, an award given by Germany's Federal Ministry for Economic Cooperation and Development (BMZ) at the festival between 2011 and 2014\n[…]\nSince 1956, the jury of the Festival has been chaired by an internationally recognised personality of cinema, except in 2021, when the directors of six previous Golden-Bear-winning films determined the awards for the Competition of the 71st Berlinale.\n[…]\nWorld cinema\n[…]\nBerlin International Film Festival at the Internet Movie Database"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Festival_Internacional_de_Cinema_de_Veneza",
+        "situacao": "ok",
+        "texto": "O Festival de Cinema de Veneza ou Festival Internacional de Cinema de Veneza (em italiano: Mostra Internazionale d'Arte Cinematografica della Biennale di Venezia, \"Exposição Internacional de Arte Cinematográfica da Bienal de Veneza\") é um festival anual de cinema realizado em Veneza, na Itália. É o festival de cinema mais antigo do mundo e um dos \"Três Grandes\" festivais, ao lado do Festival de Ca\n[…]\nFundada por Giuseppe Volpi, membro do Partido Nacional Fascista e avô da famosa produtora Marina Cicogna, em Veneza em agosto de 1932, o festival faz parte da Bienal de Veneza, uma das exposições de arte mais antigas do mundo, criada pela Câmara Municipal de Veneza em 19 de abril de 1893. A gama de trabalhos na Bienal de Veneza agora abrange arte italiana e internacional, arquitetura, dança, música, teatro e cinema.\n[…]\nEssas obras são experimentadas em exposições separadas: a Exposição Internacional de Arte, o Festival Internacional de Música Contemporânea, o Festival Internacional de Teatro, a Exposição Internacional de Arquitetura, o Festival Internacional de Dança Contemporânea, o Carnaval Infantil Internacional e o Festival Anual de Cinema de Veneza, que é sem dúvida o mais conhecido de todos os eventos.\n[…]\nO festival é realizado no final de agosto ou início de setembro na ilha de Lido, na Lagoa de Veneza. As exibições acontecem no histórico Palazzo del Cinema no Lungomare Marconi. O festival continua sendo um dos mais populares e de mais rápido crescimento do mundo.\n[…]\nO 80º Festival Internacional de Cinema de Veneza foi realizado de 30 de agosto a 9 de setembro de 2023. Devido à greve dos escritores nos Estados Unidos, esta edição teve menos atores e escritores americanos e os holofotes enfatizaram os europeus. Nesta edição, a cineasta italiana Liliana Cavani se tornou a primeira mulher premiada com o Leão Dourado.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Mufasa",
+      "descricao": "Rei leão, pai de Simba, no filme de animação O Rei Leão, da Disney, de 1994."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na versão original em inglês, que ator emprestou a voz grave tanto a Darth Vader quanto a Mufasa, de O Rei Leão?",
+    "resposta": "James Earl Jones",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/James_Earl_Jones",
+      "https://en.wikipedia.org/wiki/Mufasa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/James_Earl_Jones",
+        "situacao": "ok",
+        "texto": "James Earl Jones (January 17, 1931 – September 9, 2024) was an American actor. A pioneer for Black actors in the entertainment industry, he was acclaimed for his performances on stage and screen. Jones is one of the few performers to achieve the EGOT (Emmy, Grammy, Oscar, and Tony).\n[…]\nHe voiced the CNN tagline, \"This is CNN\", as a part of the network's tenth anniversary in 1990. As of 2024, the tagline is still used by CNN. He lent his voice to the opening for NBC's coverage of the 2000 and 2004 Summer Olympics. Jones narrated all 27 books of the New Testament in the audiobook James Earl Jones Reads the New Testament. Although uncredited, Jones's voice is possibly heard as Darth Vader at the conclusion of Star Wars: Episode III – Revenge of the Sith (2005).\n[…]\nThe NAACP, SAG-AFTRA, The Public Theater, and MLB also paid tribute to Jones. The Empire State Building in New York City was lit up to resemble Darth Vader.\n[…]\nJones, James Earl; Niven, Penelope (1993). James Earl Jones: Voices and Silences. New York: Charles Scribner's Sons; Maxwell Macmillan International. ISBN 0-684-19513-5. OCLC 317228644.\n[…]\nHornaday, Ann (September 27, 2014). \"James Earl Jones: A Voice for the Ages, Aging Gracefully\". The Washington Post.\n[…]\nJames Earl Jones at the American Film Institute Catalog\n[…]\nJames Earl Jones at IMDb\n[…]\nJames Earl Jones at the Internet Broadway Database\n[…]\nJames Earl Jones at the Internet Off-Broadway Database (archived) (archive)\n[…]\nJames Earl Jones at the TCM Movie Database (archived)\n[…]\nJames Earl Jones at Rotten Tomatoes\n[…]\nJames Earl Jones at Emmys.com\n[…]\nRare & Outstanding Clip of James Earl Jones Ordering Hot Dogs, from Gabriel's Fire 1990 (two minutes)\n[…]\nSee James Earl Jones as \"Ebenezer Scrooge' in Bah Humbug! The Story of Charles Dickens' A Christmas Carol on the Internet Archive"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mufasa",
+        "situacao": "ok",
+        "texto": "Mufasa is a fictional character in Disney's The Lion King franchise. He first appears in the 1994 animated film as King of the Pride Lands and father to Simba, who he is raising to inherit the kingdom. Mufasa is killed by his younger brother, Scar, to usurp the throne. Mufasa's death forces Simba into exile, but his ghost later appears to an adult Simba, urging his son to return home and confront \n[…]\nSome writers suggested it should occur off-screen, but director Rob Minkoff insisted on depicting it explicitly, an unprecedented choice for an animated film. The character was voiced by James Earl Jones. Mufasa's animation, supervised by Tony Fucile, drew inspiration from Jones's mannerisms and smile.\n[…]\nActor Sean Connery was Disney's initial choice to voice Mufasa, and actor Liam Neeson was also considered. Mufasa was voiced by American actor James Earl Jones, who Woolverton admitted was the stronger candidate despite Connery being her first choice. Disney said it was difficult to envision anyone other than Jones voicing Mufasa once the character was fully realized.\n[…]\nIn 2011, Jones said he would often prove to younger children that he was the voice of Mufasa by saying, in his character's voice, \"Simba. You have deliberately disobeyed me\". Jones was the only original cast member to reprise their role in the 2019 remake of The Lion King. The remake's director, Jon Favreau, was surprised that he agreed to return.\n[…]\nOutside of The Lion King franchise, the character has appeared in the television series Disney's House of Mouse (2001) and the video game Kingdom Hearts II (2006). In The Simpsons episode '\"Round Springfield\" (1995), Mufasa appears in the clouds to Lisa Simpson, alongside Darth Vader and Jones. All three characters are voiced by Simpsons cast member Harry Shearer, despite Jones himself having guest starred on three earlier Simpsons episodes."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/James_Earl_Jones",
+        "situacao": "ok",
+        "texto": "James Earl Jones (Arkabutla, Mississippi, 17 de janeiro de 1931 – Condado de Dutchess, 9 de setembro de 2024) foi um ator e dublador norte-americano. Com mais de sete décadas de carreira e dono de uma voz profunda, foi \"um dos atores mais ilustres e versáteis da América\" e considerado \"um dos maiores atores da história americana\". Ao longo de sua carreira, ele recebeu três Tony Awards, dois Emmy A\n[…]\nEra também conhecido por seus trabalhos na dublagem, como a voz de Darth Vader na franquia Star Wars e pela voz de Mufasa, pai de Simba na animação O Rei Leão (1994). Jones também foi locutor da CNN durante as décadas de 80 e 90 (\"Esta é a CNN\").\n[…]\nJames Earl Jones nasceu em Arkabutla, Mississippi, filho do boxeador, motorista e ator Robert Earl Jones e de Ruth Williams, uma professora e doméstica. Seu pai abandonou a família após seu nascimento, e ambos só fizeram as pazes muitos anos depois, na década de 1980. Seus ancestrais foram africanos, irlandeses, choctaws e cherokees. Jones foi viver com os avós maternos em Jackson, no Michigan.\n[…]\nEm 1977, foi escolhido por George Lucas para emprestar sua voz a Darth Vader em Star Wars (depois de Lucas inicialmente pensar em Orson Welles), substituindo assim a de David Prowse cujo sotaque de West Country traía o personagem. Jones, no entanto, se recusa a ser creditado nos créditos, julgando sua participação no filme ser menor. Ele também é a voz de leão Mufasa da animação O O Rei Leão (1994).\n[…]\nApesar de ser considerado um destinatário do EGOT (Emmy, Grammy, Oscar, Tony), Jones não ganhou um Oscar competitivo. Em 2011, no entanto, Jones recebeu o Oscar honorário apresentado a ele por Ben Kingsley. Ele recebeu dois Primetime Emmy Awards, dois Tony Awards e um Grammy. Ele também recebeu um Globo de Ouro e o Screen Actors Guild Life Achievement Award.\n[…]\n«James Earl Jones» (em inglês)  no Internet Movie Database\n[…]\nJames Earl Jones no AdoroCinema",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Conde Dookan",
+      "descricao": "Lorde Sith da franquia Star Wars, vilão de O Ataque dos Clones e A Vingança dos Sith."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ator britânico interpretou o mago Saruman, em O Senhor dos Anéis, e o vilão Conde Dookan, em Star Wars?",
+    "resposta": "Christopher Lee",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christopher_Lee",
+      "https://en.wikipedia.org/wiki/Count_Dooku"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christopher_Lee",
+        "situacao": "ok",
+        "texto": "Sir Christopher Frank Carandini Lee (27 May 1922 – 7 June 2015) was an English actor and singer. In a career spanning over 60 years, he became known as an actor with tremendous screen presence and a deep and commanding voice, who often portrayed villains in horror and franchise films. Lee was knighted for services to drama and charity in June 2009, and received the BAFTA Fellowship in 2011 and the\n[…]\nLee received praise for his performances as Lord Summerisle in The Wicker Man (1973) and Francisco Scaramanga in the James Bond film The Man with the Golden Gun (1974). He returned to prominence with a new generation of audiences for his roles as Saruman in The Lord of the Rings film trilogy (2001–2003), which he reprised in The Hobbit film trilogy (2012–2014), and as Count Dooku in Star Wars: Episode II – Attack of the Clones (2002) and Star Wars: Episode III – Revenge of the Sith (2005).\n[…]\nThe Lord of the Rings marked the beginning of a major career revival that continued with the role of the villainous Count Dooku in the George Lucas-directed Star Wars: Episode II – Attack of the Clones (2002) and Star Wars: Episode III – Revenge of the Sith (2005). Lee acted opposite Hayden Christensen, Ewan McGregor, and Natalie Portman, and did most of the swordplay himself, though a stunt double was required for the long shots with more vigorous footwork.\n[…]\nIn 2005, he provided the voice of Pastor Galswells in The Corpse Bride, co-directed by Tim Burton and Mike Johnson. He served as the narrator on The Nightmare Before Christmas poem, also written by Tim Burton. Lee reprised his role as Count Dooku in the animated film Star Wars: The Clone Wars (2008).\n[…]\nChristopher Lee at IMDb\n[…]\nChristopher Lee at the TCM Movie Database (archived)\n[…]\nChristopher Lee at the BFI's Screenonline\n[…]\nPortraits of Christopher Lee at the National Portrait Gallery, London\n[…]\nChristopher Lee discography at Discogs"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Count_Dooku",
+        "situacao": "ok",
+        "texto": "Count Dooku, also known as Darth Tyranus ( tih-RA-nəs), is a character in the Star Wars franchise. He was introduced in the prequel film trilogy, appearing in Attack of the Clones (2002) and Revenge of the Sith (2005). He is portrayed by Christopher Lee in both films, while Corey Burton provided the character's voice in most of his video game and animated appearances.\n[…]\nIn his autobiography, Christopher Lee stated that the origin of Count Dooku's name was \"doku\", the Japanese word for \"poison\".\n[…]\nAn unfinished sixth season arc of The Clone Wars was adapted into the 2015 novel Dark Disciple by Christie Golden. In the story, Dooku commands a genocidal attack on the planet Mahranee, leading the Jedi Council to send Master Quinlan Vos on a mission to assassinate Dooku. Vos partners with Dooku's former apprentice Asajj Ventress for the mission.\n[…]\nThey are shot down and crash-land on Christophsis, where they seek refuge in a Separatist tower, which is soon under attack by Jedi and Republic forces. Dooku attempts to kill Vos with Force lightning, but Ventress sacrifices her life and saves Vos. After killing Ventress, Dooku escapes the planet.\n[…]\nIn the Star Wars: Republic series, set during the Clone Wars, Dooku trains multiple Dark Jedi apprentices, most of whom he uses as minions. His apprentices include Asajj Ventress, Tol Skorr, and renegade Jedi Quinlan Vos. Vos initially intended to infiltrate the Separatists as a spy for the Jedi Council but instead nearly falls to the dark side.\n[…]\nDuring the 2003 animated micro-series Star Wars: Clone Wars, Count Dooku leads the Separatists from behind the scenes, taking the dark assassin Asajj Ventress as his apprentice while training General Grievous in lightsaber combat. In the final episode, he plays a part in Grievous's attack on Coruscant and kidnapping Palpatine, setting the stage for Revenge of the Sith."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Christopher_Lee",
+        "situacao": "ok",
+        "texto": "Sir Christopher Frank Carandini Lee Kt., CBE, CStJ (Londres, 27 de maio de 1922 — Londres, 7 de junho de 2015) foi um ator, cantor e militar britânico. Em uma carreira de mais de sessenta anos, Lee ficou conhecido como um ator com uma voz profunda e dominante que muitas vezes interpretou vilões em filmes de terror e franquia.\n[…]\nLee ganhou notoriedade por interpretar o Conde Drácula em sete filmes de terror da Hammer. Seus outros papéis no cinema incluem Francisco Scaramanga no filme de James Bond The Man with the Golden Gun  (1974), Conde Dooku em três filmes de Star Wars (2002-2008), e Saruman em ambos os filmes trilogia O Senhor dos Anéis (2001-2003) e O Hobbit (2012-2014).\n[…]\nEra casado com a ex-atriz e modelo dinamarquesa Gitte Lee, com quem teve uma filha, chamada Christina Erika Lee.\n[…]\nStar Wars Episode III: Revenge of the Sith (2005)\n[…]\nStar Wars: The Clone Wars (voz) (2008)\n[…]\nChristopher Lee's X Certificate, Londres: Star Books, 1975. Reimpressão em capa dura, Christopher Lee's 'X' Certificate editado por Christopher Lee e Michel Parry, Londres: W. H. Allen, 1976. EUA renomeado reimpressão em brochura como From the Archives of Evil, New York: Warner Books, 1976.\n[…]\nTall, Dark and Gruesome. (autobiografia) Londres: W. H. Allen, 1977. Edição expandida renomeada como Lord of Misrule: The Autobiography of Christopher Lee. Londres: Orion Books, 2003, com introdução de Peter Jackson.\n[…]\nAgatha Christie: The Hound of Death and Other Stories (não resumido)\n[…]\nChristopher Lee Sings Devils, Rogues & Other Villains (1998)\n[…]\nA Heavy Metal Christmas (2012)\n[…]\nA Heavy Metal Christmas Too (2013)\n[…]\nHammer Presents \"Dracula\" With Christopher Lee (EMI NTS 186 UK/Capitol ST-11340 USA, 1974)\n[…]\nChristopher Lee no AdoroCinema\n[…]\nChristopher Lee no IMDb\n[…]\n«Christopher Lee em starwars.com» (em inglês). www.starwars.com\n[…]\n«Christopher Lee Community» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Leatherface",
+      "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Norman Bates, de Psicose, e Leatherface, de O Massacre da Serra Elétrica, foram inspirados em qual criminoso real americano?",
+    "resposta": "Ed Gein",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ed_Gein",
+      "https://en.wikipedia.org/wiki/Leatherface"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ed_Gein",
+        "situacao": "ok",
+        "texto": "Edward Theodore Gein ( GEEN; August 27, 1906 – July 26, 1984), also known as the Butcher of Plainfield and the Plainfield Ghoul, was an American murderer and body snatcher. His crimes, committed around his hometown of Plainfield, Wisconsin, gathered widespread notoriety in 1957 after authorities discovered that he stole corpses from local graveyards and fashioned keepsakes from their bones and ski\n[…]\nGein owned a black 1937 Ford.\n[…]\nGein served as the inspiration for myriad fictional serial killers, most notably Norman Bates (Psycho), Leatherface (The Texas Chain Saw Massacre), Buffalo Bill (The Silence of the Lambs), Garland Greene (Con Air), and the character of Dr. Oliver Thredson in the TV series American Horror Story: Asylum.\n[…]\nThe aborted project was described in a 1989 New Yorker profile of Morris. Gein's story inspired American grunge band Tad to write the song \"Nipple Belt\" for their 1989 album, God's Balls. Gein also inspired American thrash metal band Slayer to write the song \"Dead Skin Mask\" for their 1990 album, Seasons in the Abyss. Also, Blind Melon singer Shannon Hoon stated in interviews that the song \"Skinned\" on their 1995 album, Soup, was about Gein, and many of the crimes he committed.\n[…]\nAdditionally, Gein was the inspiration and namesake for the song \"Nothing to Gein\", by American heavy metal band Mudvayne; released in 2000 on their album, L.D. 50.\n[…]\nThe character Patrick Bateman, in the 1991 novel American Psycho and its 2000 film adaptation, mistakenly attributes a quote by Edmund Kemper to Gein saying, \"You know what Ed Gein said about women? ... He said, 'When I see a pretty girl walking down the street, I think two things. One part of me wants to take her out, talk to her, be real nice and sweet and treat her right ...\n[…]\nEd Gein at IMDb\n[…]\nAvinger, Charles. (2022). Ed Gein. Research Starters – History.\n[…]\n“Ed Gein | Story, Movie, Netflix, Crimes, & Facts.” (2025)."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Leatherface",
+        "situacao": "ok",
+        "texto": "Leatherface is a fictional character from The Texas Chainsaw Massacre franchise. He first appeared in The Texas Chain Saw Massacre (1974) as the mentally disabled member of a family of deranged cannibals, featuring his face masks and chainsaw. Created by Tobe Hooper and Kim Henkel, Leatherface was partially inspired by the crimes of Wisconsin murderer Ed Gein.\n[…]\nLeatherface was included as an unlockable skin in Fortnite during 2024's edition of their Fortnitemares event.\n[…]\nSome elements for Leatherface were inspired by the crimes of Wisconsin murderer and grave-robber Ed Gein whom Hooper claimed to have heard stories of from relatives who had lived near where his crimes had been committed, though Hooper admitted he did not know it was Gein until after the film's release.\n[…]\nOne of the defining characteristics of Leatherface, depicted throughout the entirety of the series, has been his face mask(s). As with the character's real-life inspiration, Ed Gein, Leatherface wears masks made from the faces of his victims. In the original film, Leatherface dons three different masks during certain parts of the film, each representing a different personality at a given point of time, as the character was never intended to have any personality beneath those masks.\n[…]\nLeatherface has been listed by critics and several media publications as one of the greatest horror film villains of all time. As online publication Comic Book Resources has argued, the character is made all the more effective by infusing the character with his real life counterpart, Gein, \"in a way that Jason or Freddy could never match\". Leatherface was placed at No.\n[…]\nActor Michael Cerveris compared his character, Professor Pyg, in Gotham, to Leatherface, particularly his mask, apron, and straps. In American Horror Story: Asylum, the character Bloody Face was partially inspired by Leatherface."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ed_Gein",
+        "situacao": "ok",
+        "texto": "Edward Theodore Gein, mais conhecido como Ed Gein o ‘O Açougueiro de Plainfield’ (Plainfield, Wisconsin, 27 de agosto de 1906 – Madison, Wisconsin, 26 de julho de 1984), foi um assassino e ladrão de cadáveres humanos americano, posteriormente condenado pelo homicídio de duas pessoas; sendo ainda um forte suspeito de ter matado outras sete pessoas, totalizando nove supostas vítimas. Cresceu em um a\n[…]\nGein passou o resto dos seus dias num hospital psiquiátrico; enquanto esteve detido, a sua casa foi incendiada e o carro que usava para transportar as vítimas foi vendido em 1958.\n[…]\nEd Gein morreu em 26 de julho de 1984, vítima insuficiência respiratória, devido a um câncer de pulmão, no hospital Mendota Mental Health Institute. Ele está enterrado próximo à família no Cemitério de Plainfield, a sua lápide foi vandalizada ao longo dos anos e algumas pessoas retiravam pedaços da lápide para recordação, até que ela foi roubada em 2000, mas foi recuperada em junho de 2001 e está no museu na cidade norte-americana de Wautoma, Wisconsin.[carece de fontes]?\n[…]\nOs crimes de Ed Gein foram motivados pelo ambiente opressivo, isolamento social, moralidade religiosa, psicose e pela obsessão por sua mãe. Sua história patológica foi a base para alguns vilões notórios e filmes de terror de Hollywood como ‘Psicose’ com Norman Bates; ‘O Massacre da Serra Elétrica’ com Leatherface, e ‘O Silêncio dos Inocentes’ com Buffalo Bill.\n[…]\nDramatizam a história de sua vida o filme Ed Gein: The Butcher of Plainfield (2007), de Michael Feifer e a série Monster: The Ed Gein Story (2025), da franquia Monstros de Ryan Murphy da plataforma Netflix.\n[…]\nO escritor Harold Schechter escreveu o livro Ed Gein: Silêncio Psicótico, que faz parte da coleção Arquivos Monstros Reais da editora Darkside Books.\n[…]\nCriminologia\n[…]\n«Murderpedia, a enciclopédia de assassinos.» (em inglês). - Ed Gein. Página visitada em 21 de março de 2016.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Orfeu Negro",
+      "descricao": "Filme de 1959 dirigido por Marcel Camus, filmado no Rio de Janeiro durante o Carnaval e baseado na peça Orfeu da Conceição, de Vinicius de Moraes."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que prêmio do Festival de Cannes foi conquistado tanto por Orfeu Negro, em 1959, quanto por O Pagador de Promessas, em 1962?",
+    "resposta": "Palma de Ouro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Black_Orpheus",
+      "https://en.wikipedia.org/wiki/Palme_d%27Or"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Black_Orpheus",
+        "situacao": "ok",
+        "texto": "Black Orpheus (Portuguese: Orfeu Negro [ɔhˈfew ˈnegɾu]) is a 1959 romantic tragedy film directed by French filmmaker Marcel Camus and starring Marpessa Dawn and Breno Mello. It is based on the play Orfeu da Conceição by Vinicius de Moraes, which set the Greek legend of Orpheus and Eurydice in a contemporary favela in Rio de Janeiro during Carnaval. The film was an international co-production among\n[…]\nBlack Orpheus won the Palme d'Or at the 1959 Cannes Film Festival, the Academy Award for Best Foreign Language Film, the Golden Globe Award for Best Foreign Language Film, and was nominated for the BAFTA Award for Best Film.\n[…]\nWhen Serafina's sailor boyfriend Chico shows up, Orfeu offers to let Eurydice sleep in his home, while he takes the hammock outside. Eurydice invites him to her bed, and they have sex.\n[…]\nBreno Mello as Orfeu\n[…]\nBlack Orpheus won the Palme d'Or at the 1959 Cannes Film Festival, the 1960 Academy Award for Best Foreign Language Film, and the 1960 Golden Globe Award for Best Foreign Film, and was nominated for the 1961 BAFTA Award for Best Film. In the last case, Brazil was credited together with France and Italy. In July 2021, the film was shown in the Cannes Classics section at the 2021 Cannes Film Festival.\n[…]\nBlack Orpheus was cited by artist Jean-Michel Basquiat as one of his early musical influences, while Barack Obama notes in his memoir Dreams from My Father (1995) that it was his mother's favorite film.\n[…]\nThe film's soundtrack also inspired Vince Guaraldi's 1962 album Jazz Impressions of Black Orpheus.\n[…]\nOrfeu, a 1999 film adapted from the same source material\n[…]\nBlack Orpheus at IMDb\n[…]\nBlack Orpheus at Rotten Tomatoes\n[…]\nBlack Orpheus at the TCM Movie Database (archived)\n[…]\nCulture Vulture review of Black Orpheus\n[…]\nBlack Orpheus an essay by David Ehrenstein at the Criterion Collection\n[…]\nBlack Orpheus: Dancing in the Streets an essay by Michael Atkinson at the Criterion Collection"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Palme_d%27Or",
+        "situacao": "ok",
+        "texto": "The Palme d'Or (French pronunciation: [palm(ə) dɔʁ]; English: Golden Palm) is the highest prize awarded to the director of the Best Feature Film of the Official Competition at the Cannes Film Festival. It was introduced in 1955 by the festival's organizing committee. Previously, from 1939 to 1954, the festival's highest prize was the Grand Prix du Festival International du Film. In 1964, the Palme\n[…]\nIn 1954, the festival decided to present an award annually, titled the Grand Prix of the International Film Festival, with a new design each year from a contemporary artist. The festival's board of directors invited several jewellers to submit designs for a palm, in tribute to the coat of arms of the city of Cannes, evoking the famous legend of Saint Honorat and the palm trees lining the famous Promenade de la Croisette.\n[…]\nThe 2020 Cannes Film Festival was cancelled due to the ongoing COVID-19 pandemic. 56 films were announced as official selections by the festival, but no awards were presented for the first time since 1968.\n[…]\nAt the 1997 edition by the festival's organizing committee, on the occasion of the 50th anniversary of the Festival as the \"Palme des Palmes\", a homage to Swedish filmmaker Ingmar Bergman who had never been awarded a competitive Palme.\n[…]\nSince 2002, the festival awards the prize regularly to individuals who have achieved a notable body of work but who had never won a competitive Palme d'Or. In 2024, Studio Ghibli became the first and only studio to date to win it.\n[…]\nGolden Bear, the highest prize awarded at the Berlin International Film Festival\n[…]\nGolden Lion, the highest prize awarded at the Venice Film Festival\n[…]\nFestival-cannes.com\n[…]\nCannes Film Festival IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Orfeu_Negro",
+        "situacao": "ok",
+        "texto": "Orfeu Negro ou Orfeu do Carnaval (na França, Orphée Noir; na Itália, Orfeo Negro) é um filme ítalo-franco-brasileiro de 1959, dirigido por Marcel Camus e com roteiro adaptado por Camus e Jacques Viot a partir da peça teatral Orfeu da Conceição, de Vinícius de Moraes.\n[…]\nEla apaixona-se perdidamente por Orfeu, que é noivo da bela e sedutora Mira. O tempo passa, Mira passa a perseguir Eurídice, com ciúmes. Serafina ajuda a prima a namorar Orfeu. Eurídice conhece o carnaval carioca ao lado de Orfeu, mas sempre se apavora e corre quando vê que o tal homem está perto.\n[…]\nUm dia, ela revela tudo a Orfeu. Ele a protege e diz que vai ficar ao seu lado. O namoro deles é puro e inocente, sem malícia. Passa o tempo. Um dia, se divertindo no último dia de carnaval, Eurídice teme que o homem apareça, e acha melhor voltar para a favela, que fica perto. Ela entra num beco escuro, para subir a favela, mas ela não conhece bem o local e fica assustada. O homem a encontra e a persegue. Ela sai correndo desesperada e entra num galpão velho e escuro.\n[…]\nBreno Mello .... Orfeu\n[…]\nFestival de Cannes 1959 (França)\n[…]\nRecebeu a Palma de Ouro.\n[…]\nGlobo de Ouro 1960 (EUA)\n[…]\nOrfeu Negro foi citado por Jean-Michel Basquiat como uma de suas primeiras influências musicais, enquanto Barack Obama observa em seu livro de memórias Dreams from My Father (1995) que era o filme favorito de sua mãe.\n[…]\nEm 1999, um novo filme, Orfeu, foi feita por Cacá Diegues, com uma trilha sonora que caracteriza o cantor e compositor brasileiro Caetano Veloso. O diretor disse que não era um remake de Orfeu Negro, mas um filme baseado na peça original de Vinicius de Moraes, de 1956.\n[…]\nEm julho de 2014, uma adaptação musical de Broadway Orfeu Negro foi anunciada, a ser escrita por Lynn Nottage e dirigido por George C. Wolfe.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Fernanda Torres",
+      "descricao": "Atriz e escritora brasileira, filha de Fernanda Montenegro, protagonista de Ainda Estou Aqui."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Além de serem mãe e filha, o que Fernanda Montenegro e Fernanda Torres têm em comum no Oscar?",
+    "resposta": "Foram indicadas a melhor atriz",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fernanda_Torres",
+      "https://en.wikipedia.org/wiki/Fernanda_Montenegro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fernanda_Torres",
+        "situacao": "ok",
+        "texto": "Fernanda Pinheiro Monteiro Torres (Rio de Janeiro, 15 de setembro de 1965) é uma atriz, escritora, cronista e roteirista brasileira. Filha dos atores Fernanda Montenegro e Fernando Torres, ela é reconhecida como uma das artistas mais influentes, versáteis e premiadas do Brasil, com uma sólida carreira que abrange o teatro, o cinema, a televisão e a literatura. Torres tornou-se uma figura central n\n[…]\nPelo mesmo papel, também ganhou o Prêmio Satellite, o Prêmio Platino e foi indicada ao Óscar de Melhor Atriz, tornando-se, junto com sua mãe, as únicas brasileiras indicadas ao prêmio e a primeira dupla mãe e filha a ser indicada para a categoria de Melhor Atriz desde Judy Garland e Liza Minnelli. Em 1986, também foi a primeira atriz brasileira a vencer o prêmio de Melhor Atriz no 39° Festival de Cannes, pelo seu trabalho no filme Eu Sei que Vou Te Amar.\n[…]\nEntre os 24 filmes em que trabalhou – incluindo um curta-metragem e a participação no roteiro de Redentor (2004), dirigido por seu irmão, Cláudio Torres – destacam-se Eu Sei Que Vou Te Amar (1986), de Arnaldo Jabor, com o qual foi eleita melhor atriz nos Festivais de Cinema de Cannes e de Cuba; Com Licença, Eu Vou à Luta (1986) – melhor atriz no Festival de Cinema de Nantes (França) e indicação especial no Festival de Locarno (Suíça); One Man's War (A Guerra de um Homem, 1991), de Sergio Toledo, com Anthony Hopkins e Norma Aleandro; Terra estrangeira (1996), de Walter Salles e Daniela Thomas; O que é isso, companheiro?\n[…]\nEm 2024, deu vida a Eunice Paiva no filme biográfico Ainda Estou Aqui, trabalhando novamente com o diretor Walter Salles. Por seu desempenho, Fernanda recebeu o Globo de Ouro de Melhor Atriz de Drama e foi indicada ao Óscar de Melhor Atriz.\n[…]\nLista de indicações brasileiras ao Oscar\n[…]\nFernanda Torres no Facebook\n[…]\nFernanda Torres no TikTok\n[…]\nFernanda Torres no X\n[…]\nFernanda Torres no IMDb\n[…]\nFernanda Torres em Memória Globo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fernanda_Montenegro",
+        "situacao": "ok",
+        "texto": "Arlette Pinheiro Monteiro Torres (née Esteves da Silva; born 16 October 1929), known by her stage name Fernanda Montenegro (Brazilian Portuguese: [feʁˈnɐ̃dɐ mõtʃiˈneɡɾu]), is a Brazilian actress. Considered by many as the greatest Brazilian actress of all time, she is often referred to as the grande dame of Brazilian theater, cinema, and performing arts.\n[…]\nMontenegro's follow-up to Central Station marked her return to the work of Nélson Rodrigues, as she took on a supporting role in 1999's \"Gêmeas\", directed by her own son-in-law, Andrucha Waddington, and starred by her own daughter, Fernanda Torres.\n[…]\n2005 saw Montenegro's return to lead, as she took on three different roles in the feminist epic saga Casa de Areia (internationally known as The House of Sand), opposite her own daughter, Fernanda Torres, with whom she alternated the same roles. The movie had a strong display domestically, earning rave reviews and special distinction to Montenegro's performance.\n[…]\nAlso in 2024, Montenegro and her daughter Fernanda Torres portrayed Eunice Paiva at different stages of her life in the acclaimed film I'm Still Here, directed by Walter Salles, who also directed Montenegro in Central Station. In 2025, this movie won the Academy award for Best International Feature Film, becoming the first-ever Brazilian produced film to win an Academy Award and also the first ever Brazilian nominee to win an Academy Award in any of the categories.\n[…]\nMontenegro was married to Fernando Torres from 1954 until his death in 2008. They had two children: Fernanda Torres (b. 1965), who won the Best Actress prize at the 1986 Cannes Film Festival and the Golden Globe Award for Best Actress in a Motion Picture – Drama in 2024, and film director Cláudio Torres (b. 1962).\n[…]\nFernanda Montenegro at IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Dois Papas",
+      "descricao": "Filme de 2019 sobre os papas Bento dezesseis e Francisco, com Anthony Hopkins e Jonathan Pryce."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que diretor brasileiro comandou Cidade de Deus e, anos depois, Dois Papas, com Anthony Hopkins?",
+    "resposta": "Fernando Meirelles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Two_Popes",
+      "https://pt.wikipedia.org/wiki/Fernando_Meirelles"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Two_Popes",
+        "situacao": "ok",
+        "texto": "The Two Popes is a 2019 biographical drama film directed by Fernando Meirelles and written by Anthony McCarten, adapted from McCarten's play The Pope which premiered at Royal & Derngate Theatre in 2019.\n[…]\nPredominantly set in Vatican City in the aftermath of the Vatican leaks scandal, the film follows Pope Benedict XVI, played by Anthony Hopkins, as he attempts to convince Cardinal Jorge Mario Bergoglio (who eventually becomes Pope Francis), played by Jonathan Pryce, to reconsider his decision to resign as an archbishop as he confides his own intentions to abdicate the papacy.\n[…]\nOn September 6, 2017, Netflix announced that it would produce the film, directed by Fernando Meirelles and written by Anthony McCarten. Jonathan Pryce and Anthony Hopkins would play Cardinal Bergoglio and Pope Benedict XVI, respectively. Filming was set to begin that November in Argentina. The film began production in Rome in April 2018.\n[…]\nFr. Hines writing for the Catholic Digest notes that the plot is a \"creative imagining\" of what might have happened if the two had met prior to the abdication. Hines goes on to say that the film exaggerates the differences between the two popes and, at points, the dialogue feels hokey. Overall though, Hines described the film as \"wonderful\" lauding the strong performances of Hopkins and Pryce, as well as the themes of forgiveness and mercy.\n[…]\nThe Two Popes on Netflix\n[…]\nThe Two Popes at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fernando_Meirelles",
+        "situacao": "ok",
+        "texto": "Fernando Ferreira Meirelles (São Paulo, 9 de novembro de 1955) é um cineasta, ativista, produtor e roteirista brasileiro. É conhecido principalmente pelo filme Cidade de Deus, lançado em 2002 pela Lumière no Brasil, e pelo qual foi indicado ao Oscar de melhor diretor.\n[…]\nEm 2019 dirigiu o filme Dois Papas para a Netflix e a série Pico da Neblina para a HBO.\n[…]\nÉ casado com a atriz Ciça Mereirelles e pai do cineasta Francisco Meirelles e da fotografa Carolina Meirelles.\n[…]\nEm 1997, pouco tempo depois do lançamento de Cidade de Deus de Paulo Lins nas livrarias, Fernando Meireles ganha de presente o livro de Heitor Dhalia — que na época era redator de agência de publicidade — e admirava Meireles por seus trabalhos no meio publicitário e cinematográfico. Dhalia sugeriu a adaptação cinematográfica a Meirelles. O filme foi gravado entre junho e agosto de 2001 e lançado em 30 de agosto de 2003.\n[…]\nCidade de Deus se tornou um dos filmes brasileiros mais importantes de todos os tempos, sendo enaltecido pela crítica especializada que em geral, enfatizou suas qualidades artísticas e estéticas. Meirelles foi indicado ao Oscar de melhor diretor pelo filme.\n[…]\nContinuando com a direção de drama internacionais, ele volta em agosto de 2012 com o lançamento do filme 360  estrelado por Anthony Hopkins e Ben Foster. Em 2013 ocorreu a estreia da série A Verdade de Cada Um no canal por assinatura National Geographic em que Fernando Meirelles atua com produtor.\n[…]\nMeirelles foi um dos diretores da Cerimônia de abertura dos Jogos Olímpicos de Verão de 2016 no Rio de Janeiro. Em 2019, Meirelles dirigiu Jonathan Pryce e Anthony Hopkins em Dois Papas para a Netflix, e produziu e dirigiu a série Pico da Neblina para a HBO, que mostra uma São Paulo onde a maconha foi legalizada."
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Diários de Motocicleta",
+      "descricao": "Filme de 2004 sobre a viagem do jovem Ernesto Che Guevara pela América do Sul."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que cineasta brasileiro dirigiu Central do Brasil e também Diários de Motocicleta, sobre a juventude de Che Guevara?",
+    "resposta": "Walter Salles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Motorcycle_Diaries_(film)",
+      "https://en.wikipedia.org/wiki/Walter_Salles"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Motorcycle_Diaries_(film)",
+        "situacao": "ok",
+        "texto": "The Motorcycle Diaries (Spanish: Diarios de motocicleta) is a 2004 biographical coming-of-age road film directed by Walter Salles from a screenplay by José Rivera, based on Che Guevara's 1995 memoir of the same name and Alberto Granado's memoir Che Guevara: The Making of a Revolutionary. The film recounts the 1952 expedition, initially by motorcycle, across South America by Guevara and Granado, ob\n[…]\nDespite being in his eighties, Granado was also taken on as an adviser by Salles, and enthusiastically followed the film crew as they retraced his former journey. Paul Webster, the film's executive producer, stated that \"The Che of The Motorcycle Diaries is more akin to Jack Kerouac or Neal Cassady than Marx or Lenin\", describing the film as giving the audience \"a glimpse of the young, idealistic Ernesto Guevara before he became Che, the legend.\"\n[…]\nCannes Film Festival: François Chalais Award, Walter Salles; Prize of the Ecumenical Jury, Walter Salles; Technical Grand Prize, Eric Gautier; 2004.\n[…]\nDonostia-San Sebastián International Film Festival: Audience Award Walter Salles; 2004.\n[…]\nBritish Academy of Film and Television Arts: Best Film Not in the English Language, Michael Nozik, Edgard Tenenbaum, Karen Tenkhoff, Walter Salles; Anthony Asquith Award for Film Music, Gustavo Santaolalla; 2005.\n[…]\nImagen Awards: Best Picture; Best Director, Walter Salles; Best Supporting Actor, Rodrigo de la Serna; 2005.\n[…]\nThe Motorcycle Diaries at IMDb\n[…]\nThe Motorcycle Diaries at Box Office Mojo\n[…]\nThe Motorcycle Diaries at Rotten Tomatoes\n[…]\nThe Motorcycle Diaries at Metacritic\n[…]\n\"On the Trail of the Young Che Guevara\". The New York Times, 19 December 2004\n[…]\n\"The Motorcycle Diaries: How Ernesto turned into Che Guevara\". Stephen Philip, Socialist Worker, August 2004\n[…]\n\"Motorcycle Diaries: Che Guevara and the Romance of Revolution\". Megan Cornish, Freedom Socialist, December 2004"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Walter_Salles",
+        "situacao": "ok",
+        "texto": "Walter Moreira Salles Júnior (; Brazilian Portuguese: [ˈvawteʁ ˈsalis]; born 12 April 1956) is a Brazilian filmmaker. A major figure of the Resumption Cinema in Brazil, Salles is widely regarded as one of the greatest filmmakers in Brazilian cinema. His accolades include an Academy Award accepted for Best International Film, three Cannes Film Festival prizes, three Venice Film Festival prizes, two\n[…]\nWalter Moreira Salles Júnior was born on 12 April 1956, in Rio de Janeiro. Salles resided in both France and the United States throughout his youth, following his diplomat father, Walter Moreira Salles. At the age of 15, Salles returned to Brazil, then under the dictatorship of Emílio Garrastazu Médici.\n[…]\nIn 2003, Salles was voted one of the 40 Best Directors in the World by The Guardian. His biggest international success has been  The Motorcycle Diaries, a 2004 film about the life of young Ernesto Guevara, who later became known as Che Guevara. It was Salles's first foray as director of a film in a language other than his native Portuguese (Spanish, in this case) and quickly became a box-office hit in Latin America and Europe.\n[…]\nIn February 2025, Salles stated during an interview to CNN that his movie I'm Still Here is a product of the Brazilian democracy, after the 2022 Brazilian general election and the 2023 Brasília attacks, and that he wouldn't have had the opportunity to film during the government of Jair Bolsonaro.\n[…]\nOn October 18, 2025, Salles received the Academy Museum of Motion Pictures Luminary Award “given to an artist whose singular contributions have expanded the creative possibilities of cinema.”\n[…]\nWalter Salles at IMDb\n[…]\nVideo interview with Walter Salles opening Cambridge Film Festival 2008 with \"Linha de Passe\" ITV Anglia\n[…]\nInterview with Walter Salles at Cannes 2008 on \"Linha de Passe\" at IFC.com\n[…]\nWalter Salles interviewed by Michael Ordoña for the San Francisco Chronicle"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Di%C3%A1rios_de_Motocicleta",
+        "situacao": "ok",
+        "texto": "Diarios de motocicleta (bra: Diários de Motocicleta; prt: Diários de Che Guevara) é um filme franco-germano-brasilo-chileno-peruano-argentino-estadunidense de 2004, dos gêneros drama biográfico e aventura, dirigido por Walter Salles, com roteiro de José Rivera e Alberto Granado baseado nos diários de viagem de Ernesto Che Guevara.\n[…]\nO filme narra a expedição de 1952, inicialmente por moto, em toda a América do Sul por Guevara e seu amigo Alberto Granado de 29 anos de idade. Como a aventura, inicialmente centrada em torno de hedonismo juvenil, se desenrola, Guevara se descobre transformado por suas observações sobre a vida do campesinato indígena empobrecido.\n[…]\nComo resultado, a viagem também planta a semente inicial de dissonância cognitiva e radicalização dentro de Guevara, que supostamente viria a ver a revolução armada como forma de combater as desigualdades econômicas endêmicas do continente.\n[…]\nDirigido pelo brasileiro Walter Salles e escrito pelo dramaturgo porto-riquenho José Rivera, o filme foi uma co-produção internacional entre as empresas de produção da Argentina, Estados Unidos, Alemanha, Reino Unido, Chile, Peru e França. Produtores executivos do filme foram Robert Redford, Paul Webster, e Rebecca Yeldham, os produtores foram Edgard Tenenbaum, Michael Nozik e Karen tenkoff, e os co-produtores foram Daniel Burman e Diego Dubcovsky.\n[…]\nGael García Bernal... Ernesto Guevara de la Serna\n[…]\nJean Pierre Noher... Ernesto Guevara Lynch\n[…]\nLucas Oro ... Roberto Guevara\n[…]\nMarina Glezer ... Celita Guevara\n[…]\nSofia Bertolotto ... Ana María Guevara\n[…]\nFranco Solazzi ... Juan Martín Guevara\n[…]\nThe Motorcycle Diaries teve recepção geralmente favorável por parte da crítica especializada. Em base de 37 avaliações profissionais, alcançou uma pontuação de 75% no Metacritic.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "A Noviça Rebelde",
+      "descricao": "Filme musical americano de 1965 sobre a família Von Trapp, na Áustria."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que atriz estrelou Mary Poppins e A Noviça Rebelde, dois musicais lançados com apenas um ano de diferença?",
+    "resposta": "Julie Andrews",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Julie_Andrews",
+      "https://en.wikipedia.org/wiki/The_Sound_of_Music_(film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Julie_Andrews",
+        "situacao": "ok",
+        "texto": "Dame Julie Andrews (born Julia Elizabeth Wells, 1 October 1935) is an English actress, singer, author and theater director. Her accolades include an Academy Award, a British Academy Film Award, two Grammy Awards, four Emmy Awards, seven Golden Globe Awards and nominations for three Tony Awards.\n[…]\nAfter completing The Sound of Music, Andrews appeared as a guest star on the NBC-TV variety series The Andy Williams Show. She followed this television appearance with an Emmy Award-winning special, The Julie Andrews Show, which featured Gene Kelly and the New Christy Minstrels as guests. It aired on NBC-TV in November 1965. In 1966, Andrews starred in Hawaii, the highest-grossing film of its year.\n[…]\nFrom July until early August 2008, Andrews hosted Julie Andrews' The Gift of Music, a short tour of the United States where she sang various Rodgers and Hammerstein songs and symphonised her recently published book, Simeon's Gift. Appearances included the Hollywood Bowl in Los Angeles, the Mann Center for the Performing Arts in Philadelphia, and a performance with the Atlanta Symphony Orchestra.\n[…]\nIn 2015, Andrews made a surprise appearance at the Oscars, greeting Lady Gaga who paid her homage by singing a medley from The Sound of Music. This became a social media sensation, trending all over the world. Lyndon Terracini announced in August 2015 that Andrews would direct My Fair Lady in 2016 for Opera Australia at the Sydney Opera House. In 2016, Andrews created the preschool television series Julie's Greenroom with her daughter, Emma, and Judy Rothman.\n[…]\nJulie Andrews at the Internet Broadway Database\n[…]\nJulie Andrews at IMDb\n[…]\nJulie Andrews at the TCM Movie Database (archived)\n[…]\nJulie Andrews at the BFI's Screenonline\n[…]\nJulie Andrews at Playbill Vault\n[…]\nJulie Andrews discography at Discogs"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Sound_of_Music_(film)",
+        "situacao": "ok",
+        "texto": "The Sound of Music  is a 1965 American musical drama film produced and directed by Robert Wise from a screenplay written by Ernest Lehman. It is based on the 1959 stage musical composed by Richard Rodgers, with lyrics by Oscar Hammerstein II and a book by Lindsay and Crouse, itself based on the 1949 memoir The Story of the Trapp Family Singers by Maria von Trapp. The film stars Julie Andrews and C\n[…]\nLehman's first and only choice for Maria was Julie Andrews. When Wise joined the project, he made a list of his choices for the role, which included Andrews as his first choice, Grace Kelly, and Shirley Jones. Wise and Lehman went to Disney Studios to view footage from Mary Poppins, which was not yet released.\n[…]\nOn April 9, 1995, Julie Andrews hosted a four-hour NBC special broadcast of The Sound of Music  uncut (minus the entr'acte) with the musical numbers shown in a letterboxed format.\n[…]\nFor the Blu-ray release, the original 70 mm negatives were rescanned at 8K resolution, then restored and remastered at 4K resolution for the transfer to Blu-ray, giving the most detailed copy of the film seen thus far. On March 10, 2015, 20th Century Fox Home Entertainment released The Sound of Music 50th Anniversary Ultimate Collector's Edition—a five-disc set featuring thirteen hours of bonus features, including a new documentary, The Sound of a City: Julie Andrews Returns to Salzburg.\n[…]\nThe 1965 film adaptation was influenced by other musicals of its era, such as Mary Poppins, the Rodgers and Hammerstein television production of Cinderella, and the stage production of Lerner and Loewe's Camelot (coincidentally all starring Julie Andrews). Screenwriter Ernest Lehman was inspired by the opening of West Side Story and saw the musical as \"a fairy tale that's almost real\".\n[…]\nThe Sound of Music at the AFI Catalog of Feature Films\n[…]\nThe Sound of Music at the TCM Movie Database (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Julie_Andrews",
+        "situacao": "ok",
+        "texto": "Dama Julie Elizabeth Andrews, DBE (nome alternativo: Julie Andrews-Edwards - nascida Julia Elizabeth Wells; Walton-on-Thames, Surrey, 1 de outubro de 1935), é uma atriz, cantora, dançarina, diretora teatral, escritora e dubladora britânica, célebre especialmente por suas performances nos mais variados musicais do teatro e do cinema. Também sempre dedicou-se ao trabalho na televisão.\n[…]\nJulie tornou-se a única atriz a ter vencido um Oscar pela atuação num filme de Walt Disney, tendo este sido o musical Mary Poppins (1964), que também marcou sua estreia no cinema. Quando estrelou The Sound of Music (1965), conseguiu superar a bilheteria de Gone with the Wind (1939).\n[…]\nCom sua belíssima voz de soprano, Julie conseguiu encantar as plateias, ganhando reconhecimento através de suas performances em sucessos da Broadway como My Fair Lady e Camelot. Sua vocação para a música e para o estrelato chamou a atenção de Walt Disney, que a convidou para interpretar o papel principal no filme Mary Poppins, musical com o qual levou um Oscar de melhor atriz logo em sua estreia no cinema.\n[…]\nA presença de Julie Andrews foi uma das grandes surpresas que a Academia de Artes e Ciências Cinematográficas preparou para o Oscar 2015. Na 87ª cerimônia de entrega do prêmio, ocorrida no dia 22 de fevereiro, um tributo em comemoração aos 50 anos de A noviça rebelde foi oferecido.\n[…]\nA atriz Scarlett Johansson apresentou a cantora Lady Gaga, que fora convidada a cantar algumas das mais memoráveis canções deste que é considerado um dos maiores clássicos dentre os filmes musicais que Hollywood já produziu. Após a apresentação de Lady Gaga, Julie Andrews apareceu no palco causando uma grande sensação, sendo longa e fortemente aplaudida, num dos mais belos momentos da noite. Lady Gaga aproveitou o ensejo expressando que Andrews é incomparável.\n[…]\nJulie Andrews no AdoroCinema\n[…]\nJulie Andrews Online",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "George Lazenby",
+      "descricao": "Ator australiano que estrelou o filme 007 a Serviço Secreto de Sua Majestade, de 1969."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em 1969, o australiano George Lazenby viveu, uma única vez, qual personagem também interpretado por Sean Connery?",
+    "resposta": "James Bond",
+    "distratores": [
+      "Tarzan",
+      "Super-Homem",
+      "Sherlock Holmes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_Lazenby",
+      "https://en.wikipedia.org/wiki/On_Her_Majesty%27s_Secret_Service_(film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/George_Lazenby",
+        "situacao": "ok",
+        "texto": "George Robert Lazenby (; born 5 September 1939) is an Australian retired actor. He began his professional career as a model and an actor in commercials. He had no film acting experience when he was cast as the fictional British spy James Bond for the film On Her Majesty's Secret Service (1969). Lazenby replaced the original Bond actor, Sean Connery, but declined to return for subsequent films in t\n[…]\nIn 1968, after Sean Connery had left the role of James Bond, producer Albert R. Broccoli met Lazenby for the first time while they were getting their hair cut at the same barbershop. Broccoli later saw him in the Big Fry commercial and felt he could possibly portray Bond, on which basis he invited him to do a screen test.\n[…]\nLazenby dressed for the part by sporting several sartorial Bond elements, such as a Rolex Submariner wristwatch and an Anthony Sinclair tailored suit (Sean Connery’s tailor as James Bond) which had been ordered, but not collected, by Connery.\n[…]\nLazenby was considered to reprise the role of James Bond in Never Say Never Again. Sean Connery was chosen for the role instead.\n[…]\nOn 5 November 2013, comedian Jim Jefferies stated in an interview that Lazenby would be playing Jefferies's father in the then upcoming second season of his FX network sitcom Legit. He appeared as himself in the 2017 docudrama Becoming Bond. In 2019, Lazenby starred as Dr. Jason Love in an audiobook version of James Leasor's spy novel Passport to Oblivion.\n[…]\nThe title of Matthew Bauer's 2022 documentary The Other Fellow, about the lives of real men named James Bond, is inspired by Lazenby's line in the beginning of On Her Majesty's Secret Service, \"This never happened to the other fellow\", a reference to Sean Connery. Bauer told FilmInk that he chose the title because \"these are the situations that our characters face – continuously being in the shadow of this movie icon.\"\n[…]\nGeorge Lazenby at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/On_Her_Majesty%27s_Secret_Service_(film)",
+        "situacao": "ok",
+        "texto": "On Her Majesty's Secret Service is a 1969 spy film and the sixth in the James Bond series produced by Eon Productions. It is based on the 1963 novel by Ian Fleming, whose title is a derivative of the term \"On Her Majesty's Service\". Following Sean Connery's decision to retire from the role after You Only Live Twice, Eon selected George Lazenby, a model with no prior acting credits, to play the par\n[…]\nConnery returned to portray Bond in 1971's Diamonds Are Forever.\n[…]\nGeorge Lazenby as James Bond, MI6 agent 007.\n[…]\nOne of the few supporters of Lazenby amongst the critics was Alexander Walker in the London Evening Standard who said that \"The truth is that George Lazenby is almost as good a James Bond as the man referred to in his film as 'the other fellow'. Lazenby's voice is more suave than sexy-sinister and he could pass for the other fellow's twin on the shady side of the casino.\n[…]\nI speak of the new and obsolete James Bond, played by a man named George Lazenby, who seems more comfortable in a wet tuxedo than a dry martini, more at ease as a donnish genealogist than reading (or playing) Playboy, and who actually dares to think that one woman who is his equal is better than a thousand part-time playmates.\" Haskell was also affected by the film's emotional ending: \"The love between Bond and his Tracy begins as a payment and ends as a sacrament.\n[…]\nThe website's critical consensus states, \"George Lazenby's only appearance as 007 is a fine entry in the series, featuring one of the most intriguing Bond girls in Tracy di Vincenzo (Diana Rigg), breathtaking visuals, and some great ski chases.\" IGN ranked On Her Majesty's Secret Service as the eighth-best Bond film, Entertainment Weekly as the sixth, and Norman Wilner of MSN ranked it fifth. Digital Spy listed the film as the best James Bond film to date.\n[…]\nOutline of James Bond\n[…]\n1968 James Bond – OHMSS: Photogallery at Walter Riml"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/George_Lazenby",
+        "situacao": "ok",
+        "texto": "George Robert Lazenby (Camberra, 5 de setembro de 1939) é um ator australiano, famoso por atuar como o agente James Bond nos cinemas apenas em On Her Majesty's Secret Service (A Serviço Secreto de Sua Majestade, no Brasil).\n[…]\nAntes de ser James Bond, Lazenby era um vendedor de carros, que fazia serviços ocasionais como modelo, tendo sido ainda conhecido como nadador profissional. Suas experiências como ator se resumiram a uma aparição num obscuro longa-metragem italiano desconhecido, além de algumas aparições rápidas em comerciais de televisão.\n[…]\nLazenby foi escolhido para ser 007 após um encontro ocasional na rua com o produtor Albert R. Broccoli, que o convidou para fazer um entrevista e testes de cena.\n[…]\nApesar de a crítica ter reprovado a atuação de Lazenby (que, segundo muitos fãs mais atentos, foi um dos melhores atores a assumir o papel), o filme também foi bastante elogiado pela crítica, que também destacou a atriz britânica Diana Rigg (a bond girl Tracy Bond, sua esposa na tela) e as cenas de luta, sem esquecer o roteiro e todo o resto.\n[…]\nApós sua única participação na série, Lazenby teve uma carreira razoavelmente bem-sucedida na televisão, embora tivesse perdido o status de astro famoso. Como curiosidade, Lazenby foi o primeiro ator a realmente dizer a frase \"Meu nome é Bond, James Bond\"; nos filmes anteriores de Sean Connery apenas havia sido dito \"Bond, James Bond\".\n[…]\nOn Her Majesty's Secret Service (BR: 007 A Serviço Secreto de Sua Majestade/PT: 007 - Ao Serviço de Sua Majestade) (1969)\n[…]\nThe Nude Bomb (1980) - aparição rápida como James Bond\n[…]\nThe Return of the Man from U.N.C.L.E. (BR: O Retorno do Espião da U.N.C.L.E./PT:???) (1983) (filme feito para a TV) - como a personagem de Bond \"JB\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "O Beijo da Mulher Aranha",
+      "descricao": "Filme de 1985 baseado no romance de Manuel Puig, que deu a William Hurt o Oscar de melhor ator."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que cineasta nascido na Argentina e radicado no Brasil dirigiu Pixote e O Beijo da Mulher Aranha?",
+    "resposta": "Hector Babenco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kiss_of_the_Spider_Woman_(film)",
+      "https://en.wikipedia.org/wiki/Hector_Babenco"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kiss_of_the_Spider_Woman_(film)",
+        "situacao": "desambiguacao",
+        "texto": "Kiss of the Spider Woman may refer to:\n\nKiss of the Spider Woman (novel), (Spanish: El beso de la mujer araña) the 1976 novel by the Argentine writer Manuel Puig\n Kiss of the Spider Woman (play), the 1983 stage play Puig adapted from his novel\nKiss of the Spider Woman (1985 film), (Portuguese: O beijo da mulher-aranha) the 1985 film adaptation of the novel directed by Héctor Babenco\nKiss of the Sp"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hector_Babenco",
+        "situacao": "ok",
+        "texto": "Héctor Eduardo Babenco (February 7, 1946 – July 13, 2016) was an Argentine-born Brazilian film director, screenwriter, producer and actor who worked in several countries including Brazil, Argentina, and the United States. He was one of the first Brazilian filmmakers to gain international critical acclaim, through his films which often dealt with social outcasts on the fringes of society.\n[…]\nHis best-known works include Pixote (1980), Kiss of the Spider Woman (1985), Ironweed (1987), At Play in the Fields of the Lord (1990) and Carandiru (2003).\n[…]\nBabenco's films brought him several accolades. He was nominated three times for the Palme d'Or of the Cannes Film Festival, and was nominated for an Academy Award for Best Director for Kiss of the Spider Woman. He won the Grande Prêmio do Cinema Brasileiro twice, and the Prêmio ACIE de Cinema once.\n[…]\nBabenco was born in Buenos Aires and raised in Mar del Plata. His mother, Janka Haberberg, was a Polish Jewish immigrant, and his father, Jaime Babenco, was an Argentine gaucho of Ukrainian Jewish origin. Babenco lived in Europe from 1964 to 1968. In 1969, he decided to stay in São Paulo, Brazil, permanently.\n[…]\nBabenco had an international success with Pixote – A lei do mais fraco (1981). It concerns Brazil's abandoned children. In the words of E. Ruby Rich while it concerns \"a pair of boys who form a symbiotic sexual union\", the film cannot \"be held up as an example of how gay desire can be depicted, given its sensationalistic and sordid treatment of gay sex as accommodation, substitution, and punishment\".\n[…]\nFor Kiss of the Spider Woman (1985), Babenco was nominated for the Academy Award for Best Director, the first Latin American to be nominated in this category.\n[…]\nBabenco is depicted in Bárbara Paz's 2019 documentary film Babenco: Tell Me When I Die.\n[…]\nHéctor Babenco at IMDb\n[…]\nHéctor Babenco at Cinenacional.com (in Spanish) (archive)"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Deus e o Diabo na Terra do Sol",
+      "descricao": "Filme brasileiro de 1964, ambientado no sertão nordestino, marco do Cinema Novo."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem dirigiu Deus e o Diabo na Terra do Sol, filme de 1964 que virou marco do Cinema Novo?",
+    "resposta": "Glauber Rocha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Deus_e_o_Diabo_na_Terra_do_Sol",
+      "https://en.wikipedia.org/wiki/Black_God,_White_Devil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deus_e_o_Diabo_na_Terra_do_Sol",
+        "situacao": "ok",
+        "texto": "Deus e o Diabo na Terra do Sol é um filme brasileiro de 1964 dos gêneros drama e nordestern, dirigido por Glauber Rocha, com roteiro escrito por Rocha ao lado de Walter Lima Jr.. No elenco principal, estavam Geraldo Del Rey, Yoná Magalhães, Othon Bastos, Sônia dos Humildes e Maurício do Valle. O filme foi produzido pela Copacabana Filmes, que também fez sua distribuição ao lado da Herbert Richers \n[…]\nGlauber Rocha dirigiu Deus e o Diabo na Terra do Sol com 24 anos, sendo este o seu segundo longa-metragem. Anteriormente, Rocha tinha realizado o longa Barravento (1962). O filme foi produzido após o golpe militar de 1964, época em que o Cinema Novo, movimento cinematográfico brasileiro influenciado pelo Neorrealismo italiano e pela Nouvelle vague, estava em seu auge, em um tempo que foi marcado pelo descontentamento de um grupo de cineastas com relação às questões políticas e sociais do país.\n[…]\nJunto com Vidas Secas (1963), de Nelson Pereira dos Santos, e Os Fuzis (1964), de Ruy Guerra, o filme completa o tríptico central da primeira fase do Cinema Novo.\n[…]\nDeus e o Diabo na Terra do Sol é, até os dias atuais, reverenciado como revolucionário e um dos melhores filmes brasileiros já produzidos na história. O filme de Glauber Rocha é admirado e elogiado por diversas personalidades, como o premiado cineasta estadunidense Martin Scorcese, que afirmou que a obra de Glauber e o movimento Cinema Novo no geral é inspirador para seu trabalho.\n[…]\nApós a morte do diretor Glauber Rocha em 1981, o Cine Guarani, considerado a casa do cinema da Bahia e onde Rocha estreou Deus e o Diabo na Terra do Sol, passou a se chamar Cine Glauber Rocha, em sua homenagem. A logo do cinema faz referência ao icônico cartaz do filme, idealizado por Rogério Duarte, sendo considerado um dos cartazes mais bonitos da história do cinema e um símbolo da cultura efervescente no Brasil da década de 60."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Black_God,_White_Devil",
+        "situacao": "ok",
+        "texto": "Black God, White Devil (Portuguese: Deus e o Diabo na Terra do Sol, \"God and the Devil in the Land of the Sun\") is a 1964 Brazilian Revisionist Western film directed and written by Glauber Rocha, and starring Othon Bastos, Maurício do Valle, Yoná Magalhães, and Geraldo Del Rey.\n[…]\nIn 2015, the Brazilian Film Critics Association aka Abraccine voted Black God, White Devil the 2nd greatest Brazilian film of all time, in its list of the 100 best Brazilian films.\n[…]\nGlauber Rocha was 25 years old when he wrote and began to direct the film. Its filming took place on Monte Santo and Canudos, Bahia lasting from June 18, 1963, to September 2, 1963.\n[…]\nIn the scene where we see \"Manoel\" (Geraldo Del Rey) carrying a huge stone over his head while climbing Monte Santo on his knees, Del Rey insisted on carrying a real stone that weighted over 20 kilos - something that worried Rocha. After the shooting, Del Rey had to take 2 days off, due to fatigue.\n[…]\nWeiler from The New York Times praised the film, calling it \"Simple, black-and-white, more arresting as a shocking polemic than as memorable drama.\" Ted Shen from The Chicago Reader wrote, \"The fusion of European and Afro-Brazilian elements--dialogue, exquisite black-and-white images, and music by Villa-Lobos--is startlingly original and poetical in conveying the hope and despair of the oppressed.\" Time Out Magazine praised the film's style as being \"somewhere between folk ballad and contemporary myth, since the references to Brazilian history and culture are pervasive and fairly opaque to the uninitiated\".\n[…]\nBlack God, White Devil at IMDb\n[…]\nBlack God, White Devil at Rotten Tomatoes"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "2001: Uma Odisseia no Espaço",
+      "descricao": "Filme de ficção científica de 1968 dirigido por Stanley Kubrick, com o computador HAL 9000."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Stanley Kubrick escreveu o roteiro de 2001: Uma Odisseia no Espaço em parceria com qual escritor de ficção científica?",
+    "resposta": "Arthur C. Clarke",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(film)",
+        "situacao": "ok",
+        "texto": "2001: A Space Odyssey is a 1968 epic science fiction film produced and directed by Stanley Kubrick, who co-wrote the screenplay with Arthur C. Clarke. Its plot was inspired by several short stories optioned from Clarke, primarily \"The Sentinel\" (1951) and \"Encounter in the Dawn\" (1953). The film stars Keir Dullea, Gary Lockwood, William Sylvester, and Douglas Rain, and follows a voyage by astronau\n[…]\nOriginally, Kubrick and Clarke had planned to develop a 2001 novel first, free of the constraints of film, and then write the screenplay. They planned the writing credits to be \"Screenplay by Stanley Kubrick and Arthur C. Clarke, based on a novel by Arthur C. Clarke and Stanley Kubrick\" to reflect their preeminence in their respective fields. In practice, the screenplay developed in parallel with the novel, with only some elements being common to both. In a 1970 interview, Kubrick said:\n[…]\nEarly reports about tensions involved in the writing of the film script appeared to reach a point where Kubrick was allegedly so dissatisfied with the collaboration that he approached other writers who could replace Clarke, including Michael Moorcock and J. G. Ballard; however, they felt it would be disloyal to accept Kubrick's offer. In Michael Benson's 2018 book Space Odyssey: Stanley Kubrick, Arthur C.\n[…]\nFour layers of paint indicate it was used in multiple scenes, including the Clavius Moon base sequence. The helmet had been painted green at one stage, leading to a belief that it may have been worn during the scene where Bowman disconnects HAL 9000. Stanley Kubrick introduced Arthur C. Clarke to Joseph Campbell's 1949 book The Hero with a Thousand Faces during the writing of 2001: A Space Odyssey. There are allegorical archetypal patterns of the \"hero's journey\" in this film.\n[…]\n2001: A Space Odyssey at IMDb\n[…]\n2001: A Space Odyssey Internet Resource Archive\n[…]\nKubrick 2001: The Space Odyssey Explained"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/2001%3A_A_Space_Odyssey",
+        "situacao": "ok",
+        "texto": "2001: A Space Odyssey (bra: 2001: Uma Odisseia no Espaço ou 2001 - Uma Odisseia no Espaço; prt: 2001: Odisseia no Espaço ou 2001 - Odisseia no Espaço) é um filme de ficção científica de 1968 produzido e dirigido por Stanley Kubrick, co-escrito por Kubrick e Arthur C. Clarke baseado parcialmente no conto \"The Sentinel\" do próprio Clarke. Um romance de mesmo nome, escrito concomitantemente com o rot\n[…]\nApesar de ter sido recebido inicialmente de forma mista, 2001: A Space Odyssey é atualmente considerado um dos melhores e mais influentes filmes já feitos. Foi indicado a quatro Oscars nas categorias de Melhor Diretor, Melhor Roteiro Original (o filme foi indicado na categoria de roteiro original, apesar de ser adaptado do conto de Arthur C. Clarke), Melhor Direção de Arte e Melhores Efeitos Visuais, ganhando nesta última.\n[…]\nApós finalizar Dr. Strangelove (1964), Stanley Kubrick ficou fascinado com a possibilidade de vida extraterrestre, e decidido a  fazer \"o proverbial bom filme de ficção científica\". Procurando por um colaborador adequado na comunidade de ficção científica, recebeu a indicação do famoso escritor Arthur C. Clarke por um conhecido em comum, o funcionário da Columbia Pictures Roger Caras.\n[…]\nOs colaboradores originalmente planejaram desenvolver o livro primeiro, livre de restrições de um roteiro normal, e depois escrever o roteiro; eles previram que os créditos seriam \"Roteiro de Stanley Kubrick e Arthur C. Clarke, baseado no livro de Arthur C. Clarke e Stanley Kubrick\" para refletir suas proeminências em seus respectivos campos. Na prática, todavia, as ideias cinemáticas requeriam que o roteiro fosse desenvolvido em paralelo com o livro, com uma fertilização cruzada entre os dois.\n[…]\nClarke, Arthur C. (1972). The Lost Worlds of 2001. Londres: Sidgwick and Jackson. ISBN 0-283-97903-8\n[…]\nKubrick 2001: a odisseia no espaço explicada",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "O Pagador de Promessas",
+      "descricao": "Filme brasileiro de 1962 dirigido por Anselmo Duarte, vencedor da Palma de Ouro em Cannes."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O filme O Pagador de Promessas, de Anselmo Duarte, foi adaptado da peça de qual dramaturgo baiano?",
+    "resposta": "Dias Gomes",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Pagador_de_Promessas",
+      "https://pt.wikipedia.org/wiki/Dias_Gomes"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Pagador_de_Promessas",
+        "situacao": "ok",
+        "texto": "O Pagador de Promessas é um filme brasileiro de 1962 do gênero drama, dirigido e escrito por Anselmo Duarte, baseado na peça teatral homônima do dramaturgo Dias Gomes. Em seu elenco principal, estão Leonardo Villar, Glória Menezes, Norma Bengell, Dionísio Azevedo e Geraldo Del Rey. A trama segue Zé do Burro que, após ter seu burro atingido por um raio, faz uma promessa em um terreiro de Candomblé.\n[…]\nEm 1999, em uma pesquisa do jornal Folha de S.Paulo realizada com 24 críticos e estudiosos do cinema brasileiro, indicou O Pagador de Promessas como um dos melhores filmes brasileiros de todos os tempos, ficando na décima posição na lista. Em novembro de 2015, ficou em nono lugar na lista dos cem melhores filmes brasileiros de todos os tempos, da Associação Brasileira de Críticos de Cinema (Abraccine).\n[…]\nZé insiste em entrar na Igreja e recebe apoio da população pobre, que acredita que ele tem o direito de pagar sua promessa, criando, assim, uma situação de conflito com o padre. A polícia é chamada para prevenir a entrada de Zé e ele acaba morto em um confronto violento entre policiais e manifestantes que lhe são favoráveis. Na última cena do filme, os manifestantes colocam o corpo morto de Zé em cima da cruz e entram à força na igreja.\n[…]\nO Pagador de Promessas foi rodado em Salvador, capital do estado da Bahia, entre agosto e setembro de 1961. Anselmo Duarte convidou Leonardo Villar para o papel principal, que protagonizou a encenação da peça de Dias Gomes em 1960. A direção de fotografia foi feita pelo inglês Chick Fowle, que trabalhou anteriormente na Companhia Cinematográfica Vera Cruz.\n[…]\nO filme inicialmente teria Glória Menezes interpretando Marli, enquanto Maria Helena Dias seria a co-protagonista, Rosa. Porém Maria Helena contraiu pneumonia e foi substituída por Glória, que deixou o papel de Marli para Norma Bengell.\n[…]\nO Pagador de Promessas no AdoroCinema"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dias_Gomes",
+        "situacao": "ok",
+        "texto": "Alfredo de Freitas Dias Gomes, mais conhecido pelo sobrenome Dias Gomes (Salvador, 19 de outubro de 1922 — São Paulo, 18 de maio de 1999), foi um romancista, dramaturgo, autor de telenovelas e membro da Academia Brasileira de Letras. Também conhecido pelo seu casamento com a também escritora Janete Stocco Emmer (Janete Clair).\n[…]\nDe 1944 a 1964 Dias Gomes adaptou cerca de 500 peças teatrais para o rádio, o que lhe proporcionou apurado conhecimento da literatura universal. Em 1960 Dias Gomes volta aos palcos com aquele que viria a ser um dos maiores êxitos de sua carreira, o maior no teatro: a peça teatral O Pagador de Promessas. Adaptada para o cinema por Anselmo Duarte, O Pagador seria o primeiro filme brasileiro a receber uma indicação ao Oscar e o único a ganhar a Palma de Ouro em Cannes.\n[…]\nDias Gomes foi eleito para a Academia Brasileira de Letras em 11 de abril de 1991, na sucessão de Adonias Filho, sendo recebido em 16 de julho de 1991 pelo acadêmico Jorge Amado. Ocupou a cadeira 21, cujo patrono é o maranhense Joaquim Serra e o atual ocupante é o escritor Paulo Coelho.\n[…]\nDias Gomes morreu aos 76 anos em um acidente de trânsito ocorrido na madrugada de 18 de maio de 1999 na região dos Jardins, na cidade de São Paulo. O dramaturgo voltava de táxi de um jantar com sua mulher Bernadeth depois de assistirem à encenação de Madame Butterfly, ópera dirigida pela atriz Carla Camurati. O taxista fez uma conversão proibida na avenida 9 de Julho, e o carro foi atingido por um ônibus que seguia na mesma direção.\n[…]\nDias Gomes escreveu diversas obras para o teatro, literatura, cinema e televisão. Entre suas peças teatrais, a mais célebre é O Pagador de Promessas (1959). Adaptada para o cinema em 1962, por Anselmo Duarte, conquistou vários prêmios internacionais, com destaque para a Palma de Ouro no Festival de Cannes."
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Jeca Tatu",
+      "descricao": "Personagem caipira da literatura brasileira, levado ao cinema por Amácio Mazzaropi."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O caipira Jeca Tatu, que Mazzaropi levou às telas de cinema, foi criado por qual escritor brasileiro?",
+    "resposta": "Monteiro Lobato",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jeca_Tatu"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jeca_Tatu",
+        "situacao": "ok",
+        "texto": "Jeca Tatu é uma personagem criada por Monteiro Lobato em sua obra Urupês, que contém 14 histórias baseadas no trabalhador rural paulista. Simboliza a situação do caipira, abandonado pelos poderes públicos brasileiros, às doenças, ao atraso econômico, educacional e à indigência política.\n[…]\nO personagem Jeca Tatu e a análise dele feita por Monteiro Lobato no conto Urupês e no artigo \"Velha Praga\" de Monteiro Lobato é assim explicado pelo folclorista Cornélio Pires, quando analisa o caipira caboclo:\n[…]\nNum primeiro momento, em artigos publicados no jornal O Estado de S. Paulo, (1914), Lobato pensa o caboclo como uma praga nacional: funesto parasita da terra (…) homem baldio, inadaptável à civilização (…), responsabilizando-o pelos problemas da agricultura.\n[…]\nEm 1912, os cientistas Belisário Pena e Artur Neiva investigam a fauna e a flora de regiões brasileiras e investigam, além da flora e da fauna, a condição sanitária da população rural do Brasil. As informações, publicadas em Relatório Médico-Científico (1916) pelo Instituto Oswaldo Cruz, promove campanhas em favor do saneamento, estimula a criação da Liga Pró-Saneamento do Brasil\" (1918). Monteiro Lobato aderiu à campanha com o seu personagem Jeca Tatu.\n[…]\nNo bojo das campanhas sanitaristas, Monteiro Lobato modifica sua análise do problema: Pobre Jeca. Como és bonito no romance e feio na realidade., transformando-o num novo símbolo de brasilidade. Não por acaso, em 1924, foi criado o personagem radiofônico Jeca Tatuzinho, que ensinava noções de higiene e saneamento às crianças.\n[…]\n\"O 'Jeca Tatu' de Monteiro Lobato: Identidade do Brasileiro e Visão do Brasil\", por Roberto B. da Silva (In: DezenoveVinte - Arte brasileira do século XIX e início do XX)\n[…]\nCaipira"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Viagem à Lua",
+      "descricao": "Filme mudo francês de 1902, famoso pela imagem de um foguete cravado no olho da Lua."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem dirigiu Viagem à Lua, filme francês de 1902 em que um foguete se crava no olho da Lua?",
+    "resposta": "Georges Méliès",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/A_Trip_to_the_Moon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/A_Trip_to_the_Moon",
+        "situacao": "ok",
+        "texto": "A Trip to the Moon (French: Le Voyage dans la Lune [lə vwajaʒ dɑ̃ la lyn], transl. \"The Journey into the Moon\") is a 1902 French science-fiction adventure trick film written, directed and produced by Georges Méliès.\n[…]\nGeorges Méliès as Professor Barbenfouillis and The Moon. Méliès, a pioneering French film-maker and magician now generally regarded as one of the first people to recognise the potential of narrative film, had already achieved considerable success with his film versions of Cinderella (1899) and Joan of Arc (1900). His extensive involvement in all of his films as director, producer, writer, designer, technician, publicist, editor, and often actor makes him one of the first cinematic auteurs.\n[…]\nWhen asked in 1930 what inspired him for A Trip to the Moon, Méliès credited Jules Verne's novels From the Earth to the Moon (1865) and Around the Moon (1870). Cinema historians, the mid-20th-century French writer Georges Sadoul first among them, have frequently suggested H. G. Wells's The First Men in the Moon (1901), a French translation of which was published a few months before Méliès made the film, as another likely influence.\n[…]\nIn addition to these literary sources, various film scholars have suggested that Méliès was heavily influenced by other works, especially Jacques Offenbach's opera-féerie Le voyage dans la lune (an unauthorised parody of Verne's novels) and the A Trip to the Moon attraction at the 1901 Pan-American Exposition in Buffalo, New York.\n[…]\nA Trip to the Moon at IMDb\n[…]\nWas the NASA splashdown inspired by Georges Méliès? – A letter to NASA at the Wayback Machine (archived July 28, 2020)\n[…]\nLe Voyage dans la lune is available for free viewing and download at the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Viagem_%C3%A0_Lua",
+        "situacao": "ok",
+        "texto": "Le Voyage dans la lune (bra/prt: Viagem à Lua) é um filme mudo francês lançado no ano de 1902. Foi baseado em dois romances populares de seu tempo: De la Terre à la Lune, de Julio Verne, e The First Men in the Moon, de H. G. Wells. Tinha em seu elenco Victor André, Bleuette Bernon, Brunnet, Jeanne d'Alcy e Henri Delannoy.\n[…]\nO filme teve roteiro e direção de Georges Méliès, com assistência de seu irmão Gaston Méliès. Foi extremamente popular em sua época e o mais conhecido das centenas de produções de Méliès. É considerado o primeiro filme de ficção científica e o primeiro a tratar de seres alienígenas, usando recursos inovadores de animação e efeitos especiais, incluindo a famosa cena da nave pousando no \"Olho da Lua\". O filme A invenção de Hugo Cabret, do diretor Martin Scorsese, faz menção a este.\n[…]\nA Lua vai se aproximando, ficando cada vez maior, até que o foguete bate em seu olho.\n[…]\nPorter, lançado aproximadamente um ano depois de Le Voyage dans la lune.\n[…]\nAlguns reivindicam que Le Voyage dans la lune seria o primeiro exemplo de filme patafísico, embora afirmando que o filme visa a \"mostrar a falta de lógica do raciocínio lógico\". Outros ainda comentaram que o director, George Méliès, quis \"inverter os valores hierárquicos da sociedade moderna  francesa e mantê-los ao ridículo num motim carnavalesco\".\n[…]\nMéliès tinha a intenção de lançar seu filme nos Estados Unidos com a ideia de lucrar com isso. Entretanto, técnicos dos filmes de Thomas Edison secretamente fizeram cópias e o distribuíram por todo o país. Enquanto o filme era muito bem-sucedido, Méliès não recebeu nada por sua exibição na América do Norte.\n[…]\nGaston Méliès\n[…]\nGeorges Méliès\n[…]\n«Viagem à Lua» (em inglês)  no Rotten Tomatoes\n[…]\nWas the NASA splashdown inspired by Georges Méliès? – A letter to NASA no Wayback Machine (arquivado em julho 28, 2020)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Georges Méliès",
+      "descricao": "Cineasta francês pioneiro dos efeitos especiais no cinema, no fim do século dezenove e início do vinte."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar cineasta e pioneiro dos efeitos especiais, o francês Georges Méliès ganhava a vida em qual profissão?",
+    "resposta": "Mágico ilusionista",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Georges_M%C3%A9li%C3%A8s"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Georges_M%C3%A9li%C3%A8s",
+        "situacao": "ok",
+        "texto": "Marie-Georges-Jean Méliès ( mayl-YES, French: [maʁi ʒɔʁʒ ʒɑ̃ meljɛs]; 8 December 1861 – 21 January 1938) was a French filmmaker, actor, magician, and toymaker. He led many technical and narrative developments in the early days of cinema, primarily in the fantasy and science fiction genres.\n[…]\nMarie-Georges-Jean Méliès was born 8 December 1861 in Paris, France, son of Jean-Louis Méliès and his Dutch wife Johannah-Catherine Schuering. His father had moved to Paris in 1843 as a shoemaker and began working at a boot factory, where he met Méliès's mother. Johannah-Catherine's father had been the official bootmaker of the Dutch court before a fire ruined his business.\n[…]\nGeorges Méliès attended the Lycée Michelet from age seven until it was bombed during the Franco-Prussian War; he was then sent to the prestigious Lycée Louis-le-Grand.\n[…]\nLaugh with me, laugh for me, because I dream for you.\" Georges Méliès died on 21 January 1938 of cancer, just hours after the death of Émile Cohl, another great French film pioneer. He was buried in the Père Lachaise Cemetery.\n[…]\nThe music video for Queen's 1995 single \"Heaven for Everyone\" incorporated portions of Méliès's A Trip to the Moon (1902). Music videos for The Smashing Pumpkins 1996 single \"Tonight, Tonight\" and Carly Rae Jepsen's 2022 single \"The Loneliest Time\" were highly inspired by Georges Méliès's films A Trip to the Moon and The Impossible Voyage (1904).\n[…]\nGeorges Méliès bibliography\n[…]\nWorks by or about Georges Méliès at the Internet Archive\n[…]\nGeorges Méliès at Who's Who of Victorian Cinema\n[…]\nGeorges Méliès at IMDb\n[…]\nIndex des Films avec Georges Méliès\n[…]\nCinémathèque Méliès (Les Amis de Georges Méliès)\n[…]\nGeorges Méliès daily in-depth reviews of individual Méliès films\n[…]\nGeorges Méliès at the Library of Congress, with 21 library catalogue records"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Georges_M%C3%A9li%C3%A8s",
+        "situacao": "ok",
+        "texto": "Georges Méliès (nome de registro: Marie-Georges-Jean Méliès; Paris, 8 de dezembro de 1861 – Paris, 21 de janeiro de 1938) foi um ilusionista, cineasta, ator e fabricante de brinquedos francês, famoso por liderar muitos desenvolvimentos técnicos e narrativos no alvorecer do cinema.\n[…]\nApós cumprir o serviço militar obrigatório em 1881, em Blois — a terra natal do ilusionista Jean Eugène Robert-Houdin, onde alguns autores relatam visitas de Méliès à propriedade Le Prieuré do mágico, embora não documentadas —, a família o enviou a Londres em 1883 para aprender inglês, trabalhando como vendedor no setor de corsetes numa loja de confecções.\n[…]\nDesconfortável no novo ambiente, frequentou o Egyptian Hall, teatro de variedades dirigido pelo famoso mágico John Nevil Maskelyne, onde foi iniciado na arte ilusionista pelo próprio David Devant, um dos maiores mágicos britânicos da época — Méliès lhe fazia decorações em troca das lições.\n[…]\nEm 1891, fundou a Académie de Prestidigitation, que evoluiu para o Syndicat des Illusionnistes de France (1893) e depois para a Chambre syndicale de la prestidigitation (1904), da qual foi presidente por cerca de trinta anos. Essa iniciativa contribuiu para dar um estatuto profissional aos mágicos itinerantes, que a polícia assimilava a ciganos.\n[…]\nTerry Gilliam o chamou de \"o primeiro grande mágico do cinema\", acrescentando: \"Seu sentido alegre de diversão e sua capacidade de espantar foram uma grande influência nas minhas primeiras animações e depois nos meus filmes de ficção... Méliès ainda exerce sobre mim um forte domínio criativo.\" Os pintores do movimento surrealista citaram Méliès como influência. O cineasta canadense Guy Maddin é apontado como herdeiro direto de seu estilo.\n[…]\n«Site Oficial de Pauline D-L Méliès»  (em francês e inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "O Cantor de Jazz",
+      "descricao": "Filme americano de 1927, estrelado por Al Jolson, que popularizou o cinema falado."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano estreou O Cantor de Jazz, o filme com Al Jolson que popularizou o cinema falado?",
+    "resposta": "1927",
+    "distratores": [
+      "1915",
+      "1921",
+      "1933"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Jazz_Singer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Jazz_Singer",
+        "situacao": "ok",
+        "texto": "The Jazz Singer is a 1927 American part-talkie musical drama film directed by Alan Crosland and produced by Warner Bros. Pictures. It is the first feature-length motion picture with both synchronized recorded music and lip-synchronous singing and speech (in several isolated sequences). Its release heralded the commercial ascendance of sound films and effectively marked the end of the silent film e\n[…]\nhistory, and would remain so until it was surpassed a year later by The Singing Fool, another Jolson feature. In the larger scope of Hollywood, among films originally released in 1927, available evidence suggests that The Jazz Singer was among the three biggest box office hits, trailing only Wings and, perhaps, The King of Kings.\n[…]\nBefore the 1st Academy Awards ceremony was held in May 1929, honoring films released between August 1927 and July 1928, The Jazz Singer was ruled ineligible for the two top prizes—the Outstanding Picture, Production and the Unique and Artistic Production—on the basis that it would have been unfair competition for the silent pictures under consideration.\n[…]\nOf the more than seventy examples of blackface in early sound film 1927–53 that I have viewed (including the nine blackface appearances Jolson subsequently made), The Jazz Singer is unique in that it is the only film where blackface is central to the narrative development and thematic expression.\n[…]\nIf this argument means that sometime after 1959 the narrative must belong to pop rockers, it only proves the power of the original 1927 film to determine how Hollywood tells the stories of popular musicians.\" More broadly, he also suggests that this \"seemingly unique film\" has \"become a paradigm for American success stories.\" More specifically, he examines a cycle of biopics of white jazz musicians stretching from Birth of the Blues (1941) to The Five Pennies (1959) that trace their roots to The Jazz Singer."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Jazz_Singer",
+        "situacao": "ok",
+        "texto": "The Jazz Singer (bra: O Cantor de Jazz) é um filme musical estadunidense de 1927, do gênero drama romântico, dirigido por Alan Crosland, estrelado por Al Jolson, e coestrelado por May McAvoy e Warner Oland. O roteiro de Alfred A. Cohn foi baseado na peça teatral homônima de 1925, de Samson Raphaelson, que teve o enredo adaptado do conto \"The Day of Atonement\" (1922), também de Raphaelson.\n[…]\nO cantor Jakie Rabinowitz (Al Jolson), desafiando as tradições de sua família judia tradicional, apresenta canções populares numa casa de diversões estadunidense. Depois de ser punido por seu pai, um cantor litúrgico de uma sinagoga que queria ver seu filho seguir seus passos, Jakie foge de casa. Anos depois, se torna um cantor de jazz de sucesso, mas sempre em conflito com suas relações familiares e herança cultural.\n[…]\nSegundo o historiador de cinema Donald Crafton, Al Jolson \"cantou canções de menestréis em um blackface, alcançando o ápice de sua popularidade. Antecipando o sucesso de inúmeros cantores e estrelas do rock, Jolson eletrificou plateias, com a vitalidade e a sensualidade de suas canções, e sua gestualidade, que deveu muito a influência africana nos Estados Unidos\".\n[…]\nEm \"The Jazz Singer\", Al Jolson canta duas canções populares como seu personagem. Neste filme, outro famoso cantor, Joseff Rosenblatt, que interpreta a si mesmo, canta outra canção litúrgica. Como o adulto Jack Robin, Jolson canta outras seis canções, cinco canções de jazz, e recita o Kol Nidrei.\n[…]\nDos mais de setenta exemplos de rosto pintado nos primeiros filmes sonoros de 1927 a 1953 que eu vi (incluindo as nove aparições com blackface que Jolson fez posteriormente), The Jazz Singer é único e o único onde a face pintada de preto é central ao desenvolvimento narrativo e temático\".\n[…]\nLux Radio Theater/The Jazz Singer versão de rádio originalmente transmitida em 10 de agosto de 1936; no Internet Archive",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Oscar",
+      "descricao": "Prêmio anual da Academia de Artes e Ciências Cinematográficas dos Estados Unidos."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Num hotel de Hollywood, a primeira cerimônia de entrega do Oscar foi realizada em que ano?",
+    "resposta": "1929",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1st_Academy_Awards"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1st_Academy_Awards",
+        "situacao": "ok",
+        "texto": "The 1st Academy Awards ceremony, presented by the Academy of Motion Picture Arts and Sciences (AMPAS) and hosted by AMPAS president Douglas Fairbanks, honored the best films from August 1, 1927, to July 31, 1928, and took place on May 16, 1929, at a private dinner held at the Hollywood Roosevelt Hotel in Los Angeles, California. Tickets cost $5 ($94 in 2025, considering inflation); 270 people atte\n[…]\nIt is the only Academy Awards ceremony not broadcast on either radio or television; a radio broadcast was introduced for the 2nd Academy Awards.\n[…]\nIf I got them cups and awards, they'd kill themselves to produce what I wanted. That's why the Academy Award was created.\" Mayer asked Cedric Gibbons, art director of MGM, to design an Academy Award trophy. Nominees were notified through a telegram in February 1928. In August 1928, Mayer contacted the first Academy Central Board of Judges to decide the winners.\n[…]\nThe ceremony was held on May 16, 1929, at the Hollywood Roosevelt Hotel, located in Los Angeles. It consisted of a private dinner with 36 banquet tables, where 270 people attended, and tickets cost $5 (equivalent to $94 in 2025). Actors and actresses arrived at the hotel in luxury vehicles, and gathered outside to cheer the attendees. The ceremony was not broadcast on radio, and was hosted by AMPAS president Fairbanks during a 15-minute event.\n[…]\nAt the 1st Academy Awards (1927–1928), the nomination process allowed candidates to be nominated and awarded for a single film, multiple films, or without reference to any specific film.\n[…]\nNominees were announced on February 2, 1929. Winners are listed first, in boldface.\n[…]\nAfter the 1st Academy Awards (1927–1928), the following changes were made by the AMPAS:\n[…]\nThe awards for Best Writing (Adaptation) and Best Writing (Original Story) were merged into a single Best Writing award. These categories would be separated again for the 4th Academy Awards."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oscar_1929",
+        "situacao": "ok",
+        "texto": "A primeira cerimônia do Oscar (no original: First Academy Awards), apresentada pela Academia de Artes e Ciências Cinematográficas (AMPAS), homenageou os melhores filmes de 1927 e 1928. Aconteceu em 16 de maio de 1929 em um jantar privado realizado no Hollywood Roosevelt Hotel, em Los Angeles, Califórnia. O presidente da AMPAS, Douglas Fairbanks, apresentou o show. Com os ingressos custando cinco d\n[…]\nA cerimônia foi realizada em 16 de maio de 1929, no Hollywood Roosevelt Hotel, localizado em Los Angeles, Califórnia. Ela consistiu de um jantar privado com 36 mesas de banquete, onde 270 pessoas participaram; os ingressos custavam cinco dólares (equivalente a US$ 68,91 em 2016). Atores e atrizes chegaram no hotel em veículos de luxo, onde muitos fãs compareceram para incentivar as celebridades.\n[…]\nOs vencedores foram anunciados três meses antes da cerimônia. Os vencedores incluíam: Emil Jannings, o primeiro ganhador do prêmio de melhor ator (The Way of All Flesh e The Last Command); Janet Gaynor para melhor atriz (7th Heaven, Street Angel e Sunrise: A Song of Two Humans); Frank Borzage para melhor diretor, drama (7th Heaven); Lewis Milestone para melhor diretor, comédia (Two Arabian Knights); e Wings para melhor filme (o mais caro de seu tempo).\n[…]\nTambém foram entregues dois prêmios especiais: um a Charlie Chaplin, candidato múltiplo para um filme (melhor ator, melhor roteirista e melhor diretor, comédia em The Circus), que foi removido das listas, de forma a reconhecer a sua contribuição total para a indústria;  e outro para a Warner Brothers, pelo pioneirismo em filmes sonoros (The Jazz Singer). Três categorias foram eliminadas de cerimônias subsequentes: engenharia de efeitos, melhor título e de melhor qualidade artística de produção.\n[…]\n«Página sobre a edição de 1929 no website oficial do Oscar» (em inglês)\n[…]\n«Oscar de 1929»  no Internet Movie Database",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "E o Vento Levou",
+      "descricao": "Épico americano ambientado na Guerra Civil, baseado no romance de Margaret Mitchell, estrelado por Vivien Leigh e Clark Gable."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "E o Vento Levou estreou no mesmo ano que O Mágico de Oz, e os dois têm o mesmo diretor creditado. Que ano foi esse?",
+    "resposta": "1939",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
+      "https://en.wikipedia.org/wiki/Victor_Fleming"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gone_with_the_Wind_(film)",
+        "situacao": "ok",
+        "texto": "Gone with the Wind is a 1939 American epic historical romance film adapted from the 1936 novel by Margaret Mitchell. It was produced by David O. Selznick of Selznick International Pictures and directed by Victor Fleming.\n[…]\nGone With the Wind received generally positive reviews upon its release on December 15, 1939. While the casting was widely praised, the long running time received criticism.\n[…]\n\"By the time of the film's release in 1939, there was some question as to who should receive screen credit\", writes Yeck. \"But despite the number of writers and changes, the final script was remarkably close to Howard's version.\n[…]\nAccording to Hecht's biographer William MacAdams, At dawn on Sunday, February 20, 1939, David Selznick ... and director Victor Fleming shook Hecht awake to inform him he was on loan from MGM and must come with them immediately and go to work on Gone with the Wind, which Selznick had begun shooting five weeks before. It was costing Selznick $50,000 each day the film was on hold, waiting for a final screenplay rewrite, and time was of the essence.\n[…]\nPrincipal photography began on January 26, 1939, and ended on July 1, with post-production work continuing until November 11, 1939. Director George Cukor, with whom Selznick had a long working relationship and who had spent almost two years in pre-production on Gone with the Wind, was replaced after less than three weeks of shooting.\n[…]\nGone with the Wind and its production have been explicitly referenced, satirized, dramatized, and analyzed on numerous occasions across a range of media, from contemporaneous works such as Second Fiddle—a 1939 film spoofing the \"search for Scarlett\"—to current television shows, such as The Simpsons."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Victor_Fleming",
+        "situacao": "ok",
+        "texto": "Victor Lonzo Fleming (February 23, 1889 – January 6, 1949) was an American film director, cinematographer, and producer. His most popular films were the historical drama Gone with the Wind, for which he won an Academy Award for Best Director, and the fantasy film The Wizard of Oz (both 1939). Fleming has those same two films listed in the top 10 of the American Film Institute's 2007 AFI's 100 Year\n[…]\nIn 1932, Fleming joined MGM and directed some of the studio's most prestigious films. Red Dust (1932), Bombshell (1933), and Reckless (1935) showcasing Jean Harlow, while Treasure Island (1934) starring Wallace Beery and Captains Courageous (1937) with Spencer Tracy brought a touch of literary distinction to boy's-own adventure stories. His two most famous films came in 1939, when The Wizard of Oz was closely followed by Gone with the Wind.\n[…]\nHe directed Clark Gable in a total of five films – Red Dust, The White Sister, Test Pilot, Gone with the Wind, and Adventure.\n[…]\nIn addition, Judy Garland received an Academy Juvenile Award for, along with Babes in Arms, her performance in Fleming's The Wizard of Oz (both 1939)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gone_with_the_Wind",
+        "situacao": "ok",
+        "texto": "Gone with the Wind (prt: E Tudo o Vento Levou; bra: ... E o Vento Levou) é um filme americano de 1939, do gênero drama histórico-romântico, dirigido por Victor Fleming, George Cukor e Sam Wood para a Selznick International Pictures, com roteiro baseado no romance Gone with the Wind, de Margaret Mitchell.\n[…]\nLançado em 15 de dezembro de 1939 nos Estados Unidos, Gone with the Wind foi recebido de forma predominantemente positiva por críticos de cinema, que elogiaram sua produção e seu roteiro, embora alguns tivessem analisado que não possuía drama o suficiente e que era comprido. O elenco foi altamente elogiado, com diversos resenhistas prezando a atuação de Leigh como Scarlett.\n[…]\nEm 9 de setembro de 1939, Selznick, juntamente com sua esposa Irene, o investidor John \"Jock\" Whitney e o editor cinematográfico Hal Kern dirigiram-se para Riverside, Califórnia, para conceder uma prévia de Gone with the Wind no Fox Theatre. O filme ainda não estava pronto nessa fase, pois faltavam títulos completados e efeitos especiais óticos.\n[…]\nEntre dezembro de 1939 e julho de 1940, Gone with the Wind foi exibido apenas com antecedência — ingressos foram vendidos a preços acima de um dólar em um número limitado de cinemas —, mais do que o dobro do preço normal de um longa exibido pela primeira vez, com a MGM coletando 70% das receitas de bilheteria — ao contrário dos típicos 30-35% do período, um feito sem precedentes.\n[…]\nGreg Giese, nascido em 1939, que aparecera no filme quando recém-nascido, como o bebê de Melanie (Olivia de Havilland), tendo sido reaproveitado para aparecer como o bebê de Scarlett (Vivien Leigh), não teve o seu nome creditado no longa; contudo Giese é um dos integrantes do filme a estarem vivos nos dias de hoje, e sempre participa de eventos relacionados a …E o vento levou.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Carmen Miranda",
+      "descricao": "Cantora e atriz, a Pequena Notável, estrela do rádio brasileiro e de musicais de Hollywood."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Carmen Miranda, a Pequena Notável dos turbantes de frutas, chegou ao Brasil ainda bebê. Em que país ela tinha nascido?",
+    "resposta": "Portugal",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carmen_Miranda",
+      "https://en.wikipedia.org/wiki/Carmen_Miranda"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carmen_Miranda",
+        "situacao": "ok",
+        "texto": "Maria do Carmo Miranda da Cunha (Marco de Canaveses, 9 de fevereiro de 1909 – Beverly Hills, 5 de agosto de 1955), mais conhecida como Carmen Miranda, foi uma cantora, dançarina, e atriz luso-brasileira. Sua carreira artística transcorreu no Brasil e nos Estados Unidos entre as décadas de 1930 e 1950. Trabalhou no rádio, no teatro de revista, no cinema e na televisão.\n[…]\nSeu papel de Chita Chula era anunciado no filme como \"a pequena dama do Brasil\" e não passava de um personagem cômico, infinitamente alegre, confidente da personagem principal, Doll Face, interpretada por Vivian Blaine. A crítica do New York Herald Tribune dizia: \"Carmen Miranda faz o que sempre fez, só que não tão bem\"; de acordo com o The Sydney Morning Herald, \"Carmen Miranda aparece em apenas um número musical. O resultado não é um sucesso, mas a culpa é do diretor, não de Carmen\".\n[…]\nNo Brasil, Carmen Miranda namorou o jovem Mário Cunha, remador do Flamengo, e o bon vivant Carlos Alberto da Rocha Faria, filho de uma tradicional família carioca. Na década de 1930, manteve um relacionamento amoroso com o músico Aloysio de Oliveira, integrante do Bando da Lua, de quem chegou a engravidar, mas fez um aborto, pois estava no auge de sua carreira e não queria ter filhos no momento.\n[…]\n1999 - \"Carmen Miranda - A Pequena Notável\"\n[…]\nEm 2015, o grupo português Real Combo Lisbonense lançou o álbum Saudade De Você, pela Pataca Discos, que apresenta interpretações de algumas das canções mais conhecidas de Carmen Miranda, celebrando sua música e legado.\n[…]\nOs brasileiros \"tendem a esquecer\", disse Castro a Mac Margolis da Newsweek, que \"nenhuma brasileira jamais foi tão popular quanto Carmen Miranda – no Brasil ou em qualquer lugar\".\n[…]\nEm 1° de janeiro de 2026, a obra de Carmen Miranda entrou em domínio público no Brasil.\n[…]\nCarmen Miranda no Dicionário Cravo Albin da Música Popular Brasileira"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Carmen_Miranda",
+        "situacao": "ok",
+        "texto": "Maria do Carmo Miranda da Cunha (9 February 1909 – 5 August 1955), known professionally as Carmen Miranda (Portuguese pronunciation: [ˈkaʁmẽj miˈɾɐ̃dɐ]), was a Portuguese-born Brazilian singer, dancer, and actress. Nicknamed \"the Brazilian Bombshell,\" she was known for her signature fruit hat outfits that she wore in her American films.\n[…]\nThe family's emigration to Brazil was already scheduled; however, upon finding herself pregnant, Carmen Miranda's mother preferred to wait for her daughter's birth. In 1909, her father emigrated to Brazil and settled in Rio de Janeiro, where he opened a barber shop. Her mother followed in 1910 with their daughters, Olinda (1907–1931) and Carmen, who was less than a year old. Although Carmen never returned to Portugal, she retained her Portuguese nationality.\n[…]\nMiranda's older sister, Olinda, developed tuberculosis and was sent to Portugal for treatment; the singer worked in a tie shop at age 14 to help pay her sister's medical bills. She then worked in a boutique (where she learned to make hats) and opened a successful hat business.\n[…]\nWeeks later, Miranda responded to the criticism with the Portuguese song \"Disseram que Voltei Americanizada\" (\"They Say I've Come Back Americanized\"). Another song, \"Bananas Is My Business\", was based on a line from one of her films and directly addressed her image. Upset by the criticism, Miranda did not return to Brazil for 14 years.\n[…]\nMiranda's Hollywood image was that of a generic Latina, blurring distinctions between Brazil, Portugal, Argentina, and Mexico and samba, tango and habanera music. It was stylized and flamboyant; she often wore platform sandals and towering headdresses made of fruit, becoming known as \"the lady in the tutti-frutti hat\".\n[…]\nCardoso, Abel. Carmen Miranda, a Cantora do Brasil. Sorocaba. 1978. (Portuguese)\n[…]\nCarmen Miranda at IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Oscarito",
+      "descricao": "Comediante e ator, astro das chanchadas da Atlântida Cinematográfica nas décadas de 1940 e 1950."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país europeu nasceu o comediante Oscarito, grande astro das chanchadas brasileiras?",
+    "resposta": "Espanha",
+    "distratores": [
+      "Portugal",
+      "Itália",
+      "França"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Oscarito",
+      "https://en.wikipedia.org/wiki/Oscarito"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oscarito",
+        "situacao": "ok",
+        "texto": "Oscarito, nome artístico de Oscar Lorenzo Jacinto de la Inmaculada Concepción Teresa Díaz (Málaga, 16 de agosto de 1906 – Rio de Janeiro, 4 de agosto de 1970), foi um ator espanhol, naturalizado brasileiro. É considerado um dos mais populares humoristas do Brasil, ficando famoso pela dupla que fez com Grande Otelo, em comédias dirigidas por Carlos Manga e Watson Macedo.\n[…]\nOscarito nasceu na Espanha, numa família circense. A família imigrou para o Brasil quando Oscarito tinha um ano de idade. O artista se naturalizou brasileiro em 1949.\n[…]\nEstreou no teatro de revista em 1932, na peça Calma, Gegê, que satirizava o presidente Getúlio Vargas, de quem se tornaria amigo. No cinema, estreou em Noites Cariocas, de 1935, embora tenha figurado num filme anterior, e foi nessa arte que ganhou enorme popularidade no país. Fez parceria com Grande Otelo em diversos filmes de chanchada.\n[…]\nSeu nome, no Brasil, era paralelo para os maiores humoristas do cinema, como Charles Chaplin ou Cantinflas.\n[…]\nOscarito atuou em diversas produções brasileiras.[carece de fontes]?\n[…]\nOscarito em Cinema Brasileiro\n[…]\nOscarito Enciclopédia Latinoamericana"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oscarito",
+        "situacao": "ok",
+        "texto": "Oscarito, stage name of Oscar Lorenzo Jacinto de la Inmaculada Concepción Teresa Diaz (August 16, 1906 – August 4, 1970) was a Spanish-born Brazilian actor, considered to be one of the most popular comedians of Brazil.\n[…]\nBorn in a family of circus comedians, came to Brazil when he was one year old, but only became a naturalized citizen in 1949.\n[…]\nMade his debut in the cinema in Noites Cariocas (1935), although he had been an extra in a previous film (A Voz do Carnaval, 1933). He reached utmost fame with the comic duo he formed with Grande Otelo, in comedies directed by Carlos Manga and Watson Macedo.\n[…]\n1947 – Asas do Brasil\n[…]\nOscarito at IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "O Auto da Compadecida (filme)",
+      "descricao": "Filme brasileiro de 2000 dirigido por Guel Arraes, baseado na peça de Ariano Suassuna, com João Grilo e Chicó."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Auto da Compadecida acompanha as trapaças de João Grilo e Chicó em qual cidade do sertão da Paraíba?",
+    "resposta": "Taperoá",
+    "distratores": [
+      "Campina Grande",
+      "Patos",
+      "Sousa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Auto_da_Compadecida_(filme)",
+      "https://pt.wikipedia.org/wiki/Auto_da_Compadecida"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Auto_da_Compadecida_(filme)",
+        "situacao": "ok",
+        "texto": "O Auto da Compadecida é um filme brasileiro de comédia dramática, lançado em 2000, dirigido por Guel Arraes, com roteiro de Adriana Falcão, João Falcão e do próprio Arraes, e baseado na peça teatral Auto da Compadecida de 1955 de Ariano Suassuna, com elementos de O Santo e a Porca, Torturas de um Coração e A Pena e a Lei, ambas do mesmo autor, além de influências de Decamerão, de Giovanni Boccacci\n[…]\nNo início dos anos 1930, Chicó e João Grilo, dois pobres homens que vivem próximos da cidade de Taperoá, no Sertão da Paraíba, conseguem um emprego na padaria da cidade, onde moram o padeiro Eurico e sua esposa Dora, que vive sempre o traindo. Os patrões cuidam melhor de sua cachorra de estimação do que dos seus empregados, oferecendo comida estragada para Chicó e João Grilo e bife passado na manteiga para sua cachorra, causando constantes reclamações por parte de João.\n[…]\nMarco Nanini como o \"Capitão\" Severino de Aracaju: líder sanguinário, amargurado e caolho de um bando de cangaceiros que percorre às cidades se passando por pedinte para testar o coração e as atitudes dos moradores. Por não encontrar uma alma caridosa em Taperoá, promove um ataque à cidade como vingança pessoal. No segundo filme sua lápide revela seu verdadeiro sobrenome: \"Batista\".\n[…]\nRogério Cardoso como Padre João: pároco local da igreja de Taperoá, que é avarento, ganancioso e mesquinho.\n[…]\nDiogo Vilela como Eurico: proprietário da padaria Miramar e patrão de João Grilo e Chicó.\n[…]\nPaulo Goulart como Major Antônio Noronha de Brito Morais: coronel poderoso e cidadão mais rico e influente de Taperoá.\n[…]\nEntre as passagens omitidas no filme estão o gato que \"discome\", na qual João Grilo e Chicó tentam enganar Dora apresentando-lhe um gato que evacuava moedas de prata; e a primeira invasão dos cangaceiros à cidade de Taperoá.\n[…]\nO Auto da Compadecida (minissérie que deu origem ao filme)\n[…]\nO Auto da Compadecida 2 (filme de 2024)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auto_da_Compadecida",
+        "situacao": "ok",
+        "texto": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita pelo autor brasileiro Ariano Suassuna em 1955. Sua primeira encenação aconteceu em 1956, no Recife, em Pernambuco. A peça também foi encenada em 1974, com direção de João Cândido. Em 2 de outubro de 1957 a peça foi publicada em forma de livro pela editora Agir no Rio de Janeiro.\n[…]\nDa literatura de cordel, Suassuna pegou emprestado o personagem João Grilo, personagem folclórico presente tanto no Brasil, quanto em Portugal. Também buscou inspiração em dois folhetos de Leandro Gomes de Barros (1865-1918), O Dinheiro, também chamado de O testamento do cachorro e O cavalo que defecava dinheiro.\n[…]\nO Auto da Compadecida projetou Suassuna em todo o país e foi considerada por Sábato Magaldi, em 1962, \"o texto mais popular do moderno teatro brasileiro\".\n[…]\nA peça foi adaptada para o cinema pela primeira vez em 1969, com o filme A Compadecida. A segunda adaptação veio em 1987, com o filme Os Trapalhões no Auto da Compadecida.\n[…]\nAuto da Compadecida foi encenada pela primeira vez no dia 11 de setembro de 1956, no Teatro de Santa Isabel, pelo Teatro Adolescente do Recife, sob direção de Clênio Wanderley, figurino de Victor Moreira e cenários de Aloísio Magalhães, tendo como elenco os seguintes atores:\n[…]\nJoão Grilo: Agildo Ribeiro\n[…]\nChicó:\n[…]\nPadre João: Sandoval Cavalcanti\n[…]\nA Compadecida: Maria do Socorro Raposa Meira\n[…]\nJoão Grilo: Armando Bógus\n[…]\nChicó: Nelson Duarte\n[…]\nPadre João: Felipe Carone\n[…]\nA Compadecida: Córdula Reis\n[…]\nA Compadecida (filme de 1969)\n[…]\nOs Trapalhões no Auto da Compadecida (filme de 1987)\n[…]\nO Auto da Compadecida (minissérie de 1999)\n[…]\nO Auto da Compadecida (filme de 2000)\n[…]\nO Auto da Compadecida (teatro de 2017)\n[…]\nO Auto da Compadecida 2 (filme de 2024)\n[…]\nO Auto da Compadecida, montagem do Grupo Maria Cutia (2025)"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "O Voo do Dragão",
+      "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No filme O Voo do Dragão, de 1972, Bruce Lee trava a luta final contra Chuck Norris dentro de qual monumento de Roma?",
+    "resposta": "Coliseu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Way_of_the_Dragon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Way_of_the_Dragon",
+        "situacao": "ok",
+        "texto": "The Way of the Dragon (originally released in the United States as Return of the Dragon) is a 1972 Hong Kong martial arts comedy film co-produced and directed by Bruce Lee, who also stars in the lead role. This is Lee's only complete directorial film and the last one to be released during his lifetime, as he died seven months after its release. The film co-stars Nora Miao, Robert Wall, Wei Ping-ou\n[…]\nBruce Lee formed his own production company, Concord Production Inc., with Golden Harvest founder Raymond Chow, and The Way of the Dragon was the company's first film. As well as acting as its producer, Lee also wrote the script, directed the film and played percussion on the soundtrack.\n[…]\nUpon release, Roger Ebert initially gave a mixed review in the Chicago Sun-Times, saying he found the plot simplistic and its conventions unbelievable but commented that \"this sort of stuff is magnificently silly, and Lee, to give him credit, never tried to rise above it.\" Retrospective reviews have since been positive, with the film's comedy elements compared favourably to Charlie Chaplin and Jackie Chan, while the final fight between Bruce Lee and Chuck Norris is considered one of the greatest fight scenes of all time.\n[…]\nDuring the fight scene between Bruce Lee and Chuck Norris, Lee demonstrated and popularized a technique that would later be called the oblique kick. This technique is frequently used by several modern mixed martial arts (MMA) fighters, most notably the UFC pound-for-pound champion Jon Jones, who cited Lee as an inspiration.\n[…]\nIn 1978, following Lee's death, an exploitation sequel was released titled Way of the Dragon 2, starring Bruce Le and Bolo Yeung.\n[…]\nBruce Lee filmography\n[…]\nChuck Norris filmography\n[…]\nList of Hong Kong films of 1972\n[…]\nThe Way of the Dragon at IMDb\n[…]\nThe Way of the Dragon at Rotten Tomatoes\n[…]\nBruce Lee: Way of the Dragon – slideshow by Life magazine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Way_of_the_Dragon",
+        "situacao": "ok",
+        "texto": "The Way of the Dragon (猛龍過江 em chinês, O Voo do Dragão em br; e A Fúria do Dragão em pt)  é um filme de arte marciais estrelado, escrito e dirigido por Bruce Lee, lançado e produzido no ano de 1972, na cidade chinesa de Hong Kong. Além de lutas de artes marciais memoráveis, o filme traz algumas cenas de comédia, com o protagonista chinês passando por algumas dificuldades ao não entender a língua i\n[…]\nBruce Lee como Tang Lung (a.k.a. Dragon)\n[…]\nChuck Norris como Colt\n[…]\nTang Lung viaja de Hong Kong até Roma para ajudar sua amiga Chen Ching Hua e família, que estão sob ameaça e intimidações da Máfia local que quer tomar o restaurante deles. Tang expulsa alguns mafiosos do restaurante, causando admiração entre os seus amigos e passa a lhes ensinar Kung Fu. A Máfia manda assassinos darem cabo de Tang, que mais uma vez os vence, dessa vez manuseando com maestria um Nunchaku.\n[…]\nCom o chefão agora considerando o caso como pessoal, assassinos estrangeiros são contratados para matar Tang. Dentre eles está o americano Colt, campeão mundial de Karatê. E que desafia Tang para um combate mortal na arena histórica do Coliseu.\n[…]\n(em inglês) Lista completa dos filmes de Bruce Lee",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Katharine Hepburn",
+      "descricao": "Atriz americana de Hollywood, estrela de filmes como Adivinhe Quem Vem para Jantar e Num Lago Dourado."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantas vezes a americana Katharine Hepburn ganhou o Oscar de melhor atriz?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Duas",
+      "Três",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Katharine_Hepburn"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Katharine_Hepburn",
+        "situacao": "ok",
+        "texto": "Katharine Houghton Hepburn (May 12, 1907 – June 29, 2003) was an American actress whose career as a leading lady on stage and screen spanned six decades. Known for her headstrong independence, spirited personality, and outspokenness, she cultivated a screen persona that matched this public image, and regularly played strong-willed, sophisticated women. She worked in a varied range of genres, from \n[…]\nOff screen, Hepburn's lifestyle was ahead of her time, coming to symbolize the \"modern woman\" and playing a part in changing gender attitudes. Horton and Simmons write, \"Confident, intelligent and witty, four-time Oscar winner Katharine Hepburn defied convention throughout her professional and personal life ...\n[…]\nShe was beautiful, but she did not rely on that.\" Mary McNamara, an entertainment journalist and reviewer for the Los Angeles Times wrote, \"More than a movie star, Katharine Hepburn was the patron saint of the independent American female.\" She was not universally revered by feminists, however, who were angered by her public declarations that women \"cannot have it all\", meaning a family and a career.\n[…]\nIt is dedicated to both the actress and her mother and encourages women to address important issues affecting their gender. The center awards the annual Katharine Hepburn Medal, which \"recognizes women whose lives, work and contributions embody the intelligence, drive and independence of the four-time-Oscar-winning actress\" and whose award recipients \"are chosen on the basis of their commitment and contributions to the Hepburn women's greatest passions—civic engagement and the arts\".\n[…]\nKatharine Hepburn at IMDb\n[…]\nKatharine Hepburn at Playbill Vault\n[…]\nKatharine Hepburn collected news and commentary at The Guardian\n[…]\nKatharine Hepburn papers at the Margaret Herrick Library\n[…]\nKatharine Hepburn papers held by the Billy Rose Theatre Division, New York Public Library for the Performing Arts"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Katharine_Hepburn",
+        "situacao": "ok",
+        "texto": "Katharine Houghton Hepburn (Hartford, 12 de maio de 1907 — Fenwick, 29 de junho de 2003) foi uma atriz estadunidense. A carreira de Hepburn em Hollywood durou mais de 60 anos. Ela era conhecida por sua independência obstinada, personalidade espirituosa e franqueza, cultivando uma personalidade de tela que combinava com essa imagem pública, o que a fez interpretar regularmente mulheres sofisticadas\n[…]\nHepburn foi indicada para seu terceiro Oscar de melhor atriz, e ganhou o prêmio da Associação de Críticos de Nova Iorque de melhor atriz, enquanto Stewart ganhou seu único Oscar de melhor ator por sua atuação.\n[…]\nFora da tela, o estilo de vida de Hepburn estava à frente de seu tempo, vindo a simbolizar a \"mulher moderna\" e desempenhando um papel na mudança de atitudes de gênero. Horton e Simmons escrevem: \"Confiante, inteligente, espirituosa e quatro vezes vencedora do Oscar, Katharine Hepburn desafiou as convenções ao longo de sua vida profissional e pessoal ... Hepburn forneceu uma imagem de uma mulher assertiva que [as mulheres] podiam assistir e aprender\".\n[…]\nÉ dedicado tanto à atriz quanto à sua mãe, e incentiva as mulheres a abordar questões importantes que afetam seu gênero. O centro concede a Medalha Katharine Hepburn anual, que \"reconhece as mulheres cujas vidas, trabalhos e contribuições incorporam a inteligência, o impulso e a independência da atriz quatro vezes vencedora do Oscar\" e cujas premiadas \"são escolhidas com base em seu compromisso e contribuições para as maiores paixões das mulheres e de Hepburn – engajamento cívico e artes\".\n[…]\nHepburn ganhou quatro Oscars, o número recorde para um artista, e recebeu um total de 12 indicações de Melhor Atriz — um número superado apenas por Meryl Streep . Hepburn também detém o recorde de maior intervalo de tempo entre a primeira e a última indicação ao Oscar, com 48 anos.\n[…]\nKatharine Hepburn no IMDb\n[…]\nKatharine Hepburn no AdoroCinema",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Taxa de quadros",
+      "descricao": "Número de imagens exibidas por segundo num filme ou vídeo."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No cinema sonoro tradicional, em película, quantos quadros são projetados a cada segundo?",
+    "resposta": "24",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Frame_rate",
+      "https://en.wikipedia.org/wiki/24p"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Frame_rate",
+        "situacao": "ok",
+        "texto": "Frame rate, commonly expressed in frames per second (frame/s or FPS), is the frequency (rate) at which consecutive images (frames) are captured or displayed. This definition applies to film and video cameras, computer animation, and motion capture systems. In these contexts, frame rate may be used interchangeably with frame frequency and refresh rate, which are expressed in hertz (Hz).\n[…]\nEarly silent films had stated frame rates anywhere from 16 to 24 frames per second (FPS), but since the cameras were hand-cranked, the rate often changed during the scene to fit the mood. Projectionists could also change the frame rate in the theater by adjusting a rheostat controlling the voltage powering the film-carrying mechanism in the projector. Film companies often intended for theaters to show their silent films at a higher frame rate than that at which they were filmed.\n[…]\nAt 24 FPS, the film travels through the projector at a rate of 456 millimetres (18.0 in) per second. This allowed simple two-blade shutters to give a projected series of images at 48 per second, satisfying Edison's recommendation. Many modern 35 mm film projectors use three-blade shutters to give 72 images per second—each frame is flashed on screen three times.\n[…]\nAt its native 24 FPS rate, film could not be displayed on 60 FPS video without the necessary pulldown process, often leading to judder: to convert 24 frames per second into 60 frames per second, every odd frame is repeated, playing twice, while every even frame is tripled. This creates uneven motion, appearing stroboscopic. Other conversions have similar uneven frame doubling.\n[…]\nNewer video standards support 120, 240, or 300 frames per second, so frames can be evenly sampled for standard frame rates such as 24, 48 and 60 FPS film or 25, 30, 50 or 60 FPS video. Of course these higher frame rates may also be displayed at their native rates."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/24p",
+        "situacao": "ok",
+        "texto": "In video technology, 24p refers to a video format that operates at a 24 frames per second frame rate with progressive scanning (not interlaced). Originally, 24p was used in the non-linear editing of film-originated material. Today, 24p formats are being increasingly used for aesthetic reasons in digital image acquisition, delivering film-like motion characteristics. Some vendors advertise 24p prod\n[…]\nWhat is seen onscreen is two of these fields, interlaced together, to produce a single full frame. This comes from the proper longhand designation being vertical resolution, followed by the interlaced/progressive notation, and then the frame rate. So typical DV video is correctly listed as 480i/30. The longhand for 24p is 480p/24. Often the resolution is dropped, and the i/p designation moved after the frame rate for shorthand.\n[…]\nAs Charles Poynton explains, the 24 frame/s rate is not just a cinema standard, it is also \"uniquely suited to conversion to both 50 Hz systems (through 2:2 pulldown, 4% fast) and 59.94 Hz systems (through 2:3 pulldown, 0.1% slow). Choosing a rate other than 24 frame/s would compromise this widely accepted method of conversion, and make it difficult for film producers to access international markets\".\n[…]\nNevertheless, even in NTSC regions, film productions are often shot at exactly 24 frame/s (this is called integer frame rate), especially for DCI. This can be a source of confusion and technical difficulties. 4K Blu-rays for Europe also often use 24.000 frame rate.\n[…]\nBoth HD DVD and Blu-ray Disc support the 24p frame rate, but technical implementations of this mode are different among the two formats. Blu-ray Disc supports both 24.000p or 23.976p with its native timing, while HD DVD uses 60i timing for 24p (replacing \"missing\" frames with \"repeat field flags\", the same as in DVD-Video).\n[…]\nDigital Cinema Initiatives\n[…]\n24 Questions about DV 24 Frame Progressive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quadros_por_segundo",
+        "situacao": "ok",
+        "texto": "Quadros por segundo (qps) também conhecido como fotogramas por segundo ou ainda frames por segundo (abreviado como fps) (em inglês frames per second, abreviado como fps) é a unidade de medida da cadência de um dispositivo audiovisual qualquer, como uma câmera de vídeo, uma webcam, um projetor cinematográfico ou de vídeo, etc. Significa o número de imagens que tal dispositivo registra, processa ou \n[…]\nCadência audiovisual (português brasileiro) ou taxa de fotograma (português europeu) (frame rate, em inglês) é a frequência a que um dispositivo de processamento de imagens, faz a produção consecutiva das imagens chamadas de quadros de vídeo (frames em inglês). O termo se aplica igualmente para gráficos de computador, câmaras de vídeo e sistemas de captura de movimento.\n[…]\nA taxa de quadros por segundo é considerada importante no nicho de videojogos. A taxa de quadros pode fazer a diferença entre um jogo ser jogável ou não. Nos jogos de ação modernos, em que os jogadores devem ver as animações e reagir rapidamente, a taxa de quadros 30 fps é considerado o mínimo aceitável por alguns, e 60 fps para pessoas mais exigentes com performance, ainda que o valor possa variar consideravelmente de jogo para jogo, mesmo no mesmo sistema.\n[…]\nMas hoje em dia a tecnologia V-sync traz o melhor dos dois mundos, novas versões e tecnologias V-sync são ativadas e desativadas automaticamente de acordo com a necessidade, a taxa de fps.\n[…]\nÉ o nome de uma nova técnica de filmagem e projeção, no cinema, introduzido pelo diretor Peter Jackson em 2012 com a trilogia O Hobbit. Ele abandonou o padrão do clássico 24 fps e introduziu uma nova velocidade de 48 fps, o dobro da velocidade normal, resultando em imagens mais suaves e quase sem artefatos visuais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Psicose",
+      "descricao": "Filme de suspense de 1960 dirigido por Alfred Hitchcock, famoso pela cena do assassinato no chuveiro."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na famosa cena do chuveiro de Psicose, filmada em preto e branco, o que Hitchcock usou como sangue?",
+    "resposta": "Calda de chocolate",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Psycho_(1960_film)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Psycho_(1960_film)",
+        "situacao": "ok",
+        "texto": "Psycho is a 1960 American horror and thriller film produced and directed by Alfred Hitchcock. The screenplay, written by Joseph Stefano, is based on the 1959 novel by Robert Bloch. The film stars Anthony Perkins, Janet Leigh, Vera Miles, John Gavin, and Martin Balsam. The plot centers on an encounter between on-the-run embezzler Marion Crane (Leigh), shy motel proprietor Norman Bates (Perkins), an\n[…]\nPsycho has become one of the most recognizable films in cinema history, and is arguably Hitchcock's best known film. In his novel, Bloch used an uncommon plot structure: he repeatedly introduced sympathetic protagonists, then killed them off. This played on his reader's expectations of traditional plots, leaving them uncertain and anxious.\n[…]\nAnobile, Richard J.; editor. Alfred Hitchcock's Psycho (The Film Classics Library). Avon Books, 1974. This volume, published before the proliferation of home video, is entirely composed of photo reproductions of film frames along with dialogue captions, creating a fumetti of the entire motion picture.\n[…]\nKolker, Robert; editor. Alfred Hitchcock's Psycho: A Casebook. Oxford University Press, 2005.\n[…]\nRebello, Stephen. Alfred Hitchcock and the Making of Psycho. Dembner Books, 1990. A definitive \"making of\" account tracing every stage of the production of the film as well as its aftermath.\n[…]\nRebello, Stephen. \"Psycho: The Making of Alfred Hitchcock's Masterpiece\". \"Cinefantastique\", April 1986 (Volume 16, Number 4/5). Comprehensive 22-page article.\n[…]\nSkerry, Philip J. The Shower Scene in Hitchcock's Psycho: Creating Cinematic Suspense and Terror. Lewiston, New York: Edwin Mellen Press, 2005.\n[…]\nSmith, Joseph W., III. The Psycho File: A Comprehensive Guide to Hitchcock's Classic Shocker. McFarland, 2009.\n[…]\nPsycho and Bernard Herrmann film score\n[…]\n\"Psycho at 50: What We've Learned from Alfred Hitchcock's Horror Classic\" by Gary Susman – Moviefone – June 15, 2010"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Psycho",
+        "situacao": "ok",
+        "texto": "Psycho (bra: Psicose; prt: Psico) é um filme de suspense e terror psicológico estadunidense de 1960 produzido e dirigido por Alfred Hitchcock. Seu roteiro, escrito por Joseph Stefano, foi baseado no romance homônimo de 1959 de Robert Bloch. O filme é estrelado por Anthony Perkins, Janet Leigh, Vera Miles, John Gavin e Martin Balsam.\n[…]\nComo resultado do corte de custos, Hitchcock optou por filmar Psycho em preto e branco, mantendo o orçamento abaixo de US$ 1 milhão; outras razões para rodar a película em preto e branco foram seus desejos de evitar que a cena do chuveiro fosse muito sangrenta.\n[…]\nFoi utilizado um xarope de chocolate da marca Hershey's para retratação do sangue na cena, uma vez que esse condimento é mais fácil de ser visto em filmes em preto e branco e possui uma densidade mais realista do que sangue de palco. O som das facadas no corpo de Marion foi criado mergulhando uma faca em um melão.\n[…]\nHerrmann usou o orçamento musical reduzido a seu favor, escrevendo para uma orquestra de cordas em vez de um conjunto sinfônico completo, contrariando um pedido de Hitchcock de uma partitura de jazz. Herrmann procurou compor a trilha de maneira que a mesma lembrasse o \"tom de cor único\" que o filme teria por conta de sua realização em preto e branco. As cordas tocam con sordini (mudo) para todas as músicas, exceto a cena do chuveiro, criando um efeito mais escuro e intenso.\n[…]\nEm 2000, o jornal The Guardian classificou a cena do chuveiro em segundo lugar em sua lista dos \"10 melhores momentos do cinema\". A cena tem sido frequentemente parodiada e referenciada na cultura popular, completa com os efeitos sonoros do violino estridente (como em Charlie and the Chocolate Factory, entre muitos outros). Em 2017 foi lançado o documentário 78/52: Hitchcock's Shower Scene, produzido por Alexandre O.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Studio Ghibli",
+      "descricao": "Estúdio japonês de animação fundado por Hayao Miyazaki, Isao Takahata e Toshio Suzuki em 1985."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que personagem, uma enorme criatura peluda da floresta, aparece no logotipo do estúdio japonês Ghibli?",
+    "resposta": "Totoro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Studio_Ghibli",
+      "https://en.wikipedia.org/wiki/My_Neighbor_Totoro"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Studio_Ghibli",
+        "situacao": "ok",
+        "texto": "Studio Ghibli Inc. (Japanese: 株式会社スタジオジブリ, Hepburn: Kabushiki-gaisha Sutajio Jiburi) is a Japanese animation studio based in Koganei, Tokyo. It was founded on June 15, 1985, by directors Hayao Miyazaki and Isao Takahata and producer Toshio Suzuki, after acquiring Topcraft's assets. It has a strong presence in the animation industry and has expanded its portfolio to include various media such as sh\n[…]\nThe studio's work is highly acclaimed by both critics and audiences and has been recognized with numerous awards. Their mascot and most recognizable character is Totoro from the 1988 film My Neighbor Totoro, a giant spirit inspired by raccoon dogs (tanuki) and cats (neko). Among the studio's highest-grossing films are Princess Mononoke (1997), Spirited Away (2001), Howl's Moving Castle (2004), Ponyo (2008), and The Boy and the Heron (2023).\n[…]\nFilms banner, distributed the Totoro dub as a theatrical release, and the dub was later released on both VHS and DVD by 20th Century Fox Home Entertainment. In the early 1990s, an English dub of Porco Rosso was produced by Ward Sexton in Japan, again for international Japan Airlines flights. The original dubs can be seen on the 1996 Ghibli ga Ippai Laserdisc set, the initial copies for the Japanese DVD releases of Totoro, Laputa and Porco, and Fox's VHS and DVD releases of Totoro.\n[…]\nWalt Disney Studios Japan released the complete collector's edition DVD on August 6, 2008. Walt Disney Studios Japan released the film on Blu-ray twice on July 18, 2012: one as a single release, and one in a two-film set with My Neighbor Totoro. StudioCanal released a Blu-ray in the United Kingdom on July 1, 2013. Madman Entertainment released the film in Australia and New Zealand.\n[…]\nStudio Kajino, a subsidiary of Studio Ghibli\n[…]\nStudio Ponoc, founded by former members of Studio Ghibli\n[…]\nList of Japanese animation studios\n[…]\nStudio Ghibli  at Anime News Network's encyclopedia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/My_Neighbor_Totoro",
+        "situacao": "ok",
+        "texto": "My Neighbor Totoro is a 1988 Japanese animated fantasy film written and directed by Hayao Miyazaki and animated by Studio Ghibli for Tokuma Shoten. It stars the voices of Noriko Hidaka, Chika Sakamoto and Hitoshi Takagi, and focuses on two young sisters who, after moving with their father to the countryside, experience interactions with friendly wood spirits in postwar Japan.\n[…]\nOga's work on My Neighbor Totoro led to his continued involvement with Studio Ghibli, which assigned him jobs that would play to his strengths, and Oga's style became a trademark style of Studio Ghibli.\n[…]\nAfter writing and filming Nausicaä of the Valley of the Wind (1984) and Castle in the Sky (1986), Hayao Miyazaki began directing My Neighbor Totoro for Studio Ghibli. Miyazaki's production paralleled his colleague Isao Takahata's production of Grave of the Fireflies. Miyazaki's film was financed by executive producer Yasuyoshi Tokuma, and both My Neighbor Totoro and Grave of the Fireflies were released on the same bill in 1988.\n[…]\nThe company reissued My Neighbor Totoro, as well as Castle in the Sky, and Kiki's Delivery Service, with updated cover art highlighting its Studio Ghibli origins, on March 2, 2010, coinciding with the US DVD and Blu-ray debut of Ponyo. My Neighbor Totoro was re-released by Disney on Blu-Ray on May 21, 2013. GKIDS re-issued the film on Blu-ray and DVD on October 17, 2017.\n[…]\nThe Financial Times recognized the character's appeal, commenting Totoro \"is more genuinely loved than Mickey Mouse could hope to be in his wildest—not nearly so beautifully illustrated—fantasies\". Empire also commented on Totoro's appeal, ranking him at number 18 on a list of the greatest animated characters of all time. The character of Totoro later became a mascot and official logo for Studio Ghibli.\n[…]\nMy Neighbor Totoro (film) at Anime News Network's encyclopedia\n[…]\nMy Neighbor Totoro at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Studio_Ghibli",
+        "situacao": "ok",
+        "texto": "Studio Ghibli, Inc. (株式会社スタジオジブリ, Kabushiki gaisha Sutajio Jiburi) é um estúdio de animação japonês sediado em Koganei, Tóquio. Tem forte presença na indústria de animação e ampliou seu portfólio para incluir diversos formatos de mídia, como curtas-metragens, comerciais de televisão e dois filmes para televisão. Seu trabalho foi bem recebido pelo público e reconhecido com inúmeros prêmios.\n[…]\nSeu mascote e símbolo mais reconhecível, o personagem Totoro, é um espírito gigante inspirado em cães-guaxinim (tanuki) e gatos do filme de 1988 Tonari no Totoro. Entre os filmes de maior bilheteria do estúdio estão Sen to Chihiro no Kamikakushi (2001), Hauru no Ugoku Shiro (2004) e Gake no ue no Ponyo (2008). O Studio Ghibli foi fundado em 15 de junho de 1985, pelos diretores Hayao Miyazaki e Isao Takahata e pelo produtor Toshio Suzuki, após adquirir os ativos da Topcraft.\n[…]\nAs dublagens originais podem ser vistas no conjunto Ghibli ga Ippai Laserdisc de 1996 e nas cópias iniciais dos lançamentos em DVD japoneses de Totoro, Laputa e Kurenai no Buta.\n[…]\nHotaru no Haka foi lançado no Japão em VHS pela Buena Vista Home Entertainment sob a coleção Ghibli ga Ippai em 7 de agosto de 1998. Em 29 de julho de 2005, um lançamento em DVD foi distribuído pela Warner Home Video. Walt Disney Studios Japan lançou o DVD completo da edição de colecionador em 6 de agosto de 2008. WDSJ lançou o filme em Blu-ray duas vezes em 18 de julho de 2012: uma como lançamento único e outra em um set de dois filmes com Tonari no Totoro.\n[…]\nPara efeitos da lista abaixo, são listados os filmes que aparecem na filmografia oficial do Studio Ghibli em português.\n[…]\nKazuo Oga (Taneyamagahara no Yoru, Tonari no Totoro)\n[…]\nParque Ghibli\n[…]\nStudio Kajino, uma subsidiária do Estúdio Ghibli\n[…]\nStudio Ponoc, fundado por ex-membros do Studio Ghibli\n[…]\n«Página oficial» (em japonês)\n[…]\nStudio Ghibli  na enciclopédia do Anime News Network (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Sabre de luz",
+      "descricao": "Arma de lâmina de energia usada pelos Jedi e Sith na franquia Star Wars."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O zumbido dos sabres de luz de Star Wars foi criado misturando a interferência de uma televisão com o motor de qual aparelho?",
+    "resposta": "Projetor de cinema",
+    "distratores": [
+      "Geladeira",
+      "Aspirador de pó",
+      "Ventilador"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lightsaber"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lightsaber",
+        "situacao": "ok",
+        "texto": "A lightsaber is a fictional energy sword featured in the Star Wars franchise. A typical lightsaber is shown as a luminous laser sword about 3 feet (0.91 m) in length emitted from a metal hilt around 10.5 inches (27 cm) in length. Introduced in the original Star Wars film, it has since appeared in 12 of the 13 theatrical Star Wars films, with at least one lightsaber duel occurring in each installme\n[…]\nThe lightsaber sound effect was developed by sound designer Ben Burtt as a combination of the hum of idling interlock motors in aged movie projectors and interference caused by a television set on a shieldless microphone. Burtt discovered the latter accidentally as he was looking for a buzzing, sparking sound to add to the projector-motor hum.\n[…]\nIn Jim Butcher's Dresden Files novel series, medical examiner and Star Wars fan Waldo Butters wields one of the three holy Swords of the Cross, which re-fashions itself into a lightsaber upon accepting him as its owner.\n[…]\nIn the seventh generation of video game consoles, there were several Star Wars video games available on the Wii (Lego Star Wars: The Complete Saga, Star Wars: The Force Unleashed, Star Wars: The Clone Wars – Lightsaber Duels, Star Wars: The Clone Wars – Republic Heroes and Lego Star Wars III: The Clone Wars) and one on the Xbox 360 (Kinect Star Wars) that utilized motion controls to wield a lightsaber through arm gestures.\n[…]\nAnother is in Star Wars: Jedi Challenges, which works with a Lenovo Mirage AR headset, a tracking sensor and a dedicated lightsaber controller that launched in December 2017. One of the multiple game modes available in Challenges, which was jointly developed by Disney and Lenovo, enables players to confront Star Wars villains in lightsaber duels, such as Darth Maul and Kylo Ren.\n[…]\nPhysics and Star Wars\n[…]\nStar Wars: Evolution of the Lightsaber Duel\n[…]\nLightsaber on Wookieepedia, a Star Wars wiki"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sabre_de_luz",
+        "situacao": "ok",
+        "texto": "O sabre de luz é um objeto semelhante a uma espada, porém sua lâmina é de energia ficcional destacada no universo de Star Wars. Ele consiste em uma empunhadura de metal polido, que projeta uma lâmina de energia iluminada, geralmente com cerca de 1,22 metros de comprimento, embora alguns sabres de luz tenham um comprimento diferente.\n[…]\nO sabre de luz é a arma de assinatura da ordem Jedi e os seus homólogos Sith, tanto de quem pode usá-los para o combate próximo, ou para desviar os disparos da Blaster. Sua aparência distinta, foi criada usando uma técnica nomeada de rotoscópio para os filmes originais e digitalmente para a trilogia. O sabre de luz apareceu pela primeira vez no filme original de Star Wars (1977) e todos os filmes de Star Wars já contaram com pelo menos um duelo de sabres de luz.\n[…]\nEm 2008, uma pesquisa com cerca de 2.000 fãs de cinema, classificaram-na a arma mais popular da história nos cinemas.\n[…]\nPara o filme original de Star Wars, os suportes do filme foram construídos por John Stears a partir de antigas câmeras fotográfica de flash da Graflex e outras peças de hardware. Os adereços de espada de tamanho completo foram projetados para aparecer acesos na tela, criando mais tarde um efeito brilhante \"na câmera\" na pós-produção. A lâmina é uma haste de três lados revestida com uma matriz de retrorrefletor Scotchlite, o mesmo tipo usado para sinalização de estradas.\n[…]\nO efeito sonoro do sabre de luz foi desenvolvido pelo designer de som Ben Burtt como uma combinação do zumbido dos motores de intertravamento inativos em projetores de filmes antigos e da interferência causada por uma televisão em um microfone sem proteção. Burtt descobriu o último acidentalmente, enquanto procurava um zumbido e faísca para adicionar ao zumbido do motor do projetor.\n[…]\n«Sabre de Luz no Star Wars Databank»  (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.34 — 2026-10-01**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Por enquanto, o gerador automático não cria perguntas com figura.** Elas só são escritas por quem tem a imagem em mãos e a examinou. Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas e obras de arte em domínio público (pinturas, gravuras). Obras com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com várias espécies. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É uso privado, num jogo entre amigos, e não licença livre.
+- **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras de um tema, **pelo menos três famílias** e **pelo menos três catálogos**;
+- nenhum catálogo passa de **40%** das perguntas com figura do seu tema;
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
