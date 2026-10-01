@@ -40,7 +40,19 @@ com_imagem = [p for p in saida if "imagem" in p]
 for p in com_imagem:
     shutil.copy2(BANCO / "imagens" / p["imagem"]["arquivo"], img / p["imagem"]["arquivo"])
 
+# Temas e subtemas na ordem canônica, com as descrições para os jogadores (aba Informações).
+canonicos = json.loads((AQUI.parent / "manifesto" / "temas_subtemas.json").read_text(encoding="utf-8"))
+descricoes = json.loads((AQUI / "descricoes.json").read_text(encoding="utf-8"))
+temas = [{"tema": t["tema"], "descricao": descricoes["temas"].get(t["tema"], ""),
+          "subtemas": [{"subtema": s, "descricao": descricoes["subtemas"].get(s, "")} for s in t["subtemas"]]}
+         for t in canonicos]
+(PUBLICO / "temas.json").write_text(json.dumps(temas, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+sem_descricao = [t["tema"] for t in temas if not t["descricao"]] + \
+                [s["subtema"] for t in temas for s in t["subtemas"] if not s["descricao"]]
+
 sem_ancora = [p["id"] for p in saida if "ancora" not in p]
 print(f"{len(saida)} perguntas exportadas ({len(com_imagem)} com figura)")
 if sem_ancora:
     print("Aviso: âncora não encontrada no cadastro:", ", ".join(sem_ancora))
+if sem_descricao:
+    print("Aviso: sem descrição em descricoes.json:", ", ".join(sem_descricao))

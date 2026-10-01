@@ -114,6 +114,29 @@
     .barra .duas button { flex: 1; }
     .quem { display: flex; align-items: center; gap: .5rem; margin: .6rem 0 .2rem; }
     .quem button { padding: .2rem .7rem; font-size: .85rem; color: var(--suave); }
+    /* Informações: totais do banco e, por tema, a descrição e as contagens de cada subtema. */
+    .totais { display: grid; grid-template-columns: repeat(2, 1fr); gap: .5rem; }
+    .totais div { border: 1px solid var(--linha); border-radius: 10px; padding: .5rem .7rem; }
+    .totais strong { display: block; font-size: 1.5rem; line-height: 1.2; font-variant-numeric: tabular-nums; }
+    .totais span { color: var(--suave); font-size: .82rem; }
+    details.tema-info { background: var(--cartao); border: 1px solid var(--linha); border-left: 8px solid var(--c);
+                        border-radius: 14px; margin: .6rem 0; }
+    details.tema-info > summary { display: flex; align-items: baseline; gap: .5rem; padding: .8rem 1rem; cursor: pointer; list-style: none; }
+    details.tema-info > summary::-webkit-details-marker { display: none; }
+    details.tema-info > summary::after { content: "▸"; color: var(--suave); }
+    details.tema-info[open] > summary::after { content: "▾"; }
+    details.tema-info .nome-tema { flex: 1; font-weight: 700; }
+    details.tema-info .num { font-weight: 700; font-variant-numeric: tabular-nums; }
+    .corpo-tema { padding: 0 1rem .8rem; }
+    .corpo-tema > p { margin: 0 0 .5rem; font-size: .95rem; }
+    .contagem { color: var(--suave); font-size: .85rem; }
+    ul.subtemas { list-style: none; padding: 0; margin: .4rem 0 0; }
+    ul.subtemas li { padding: .55rem 0; border-top: 1px solid var(--linha); }
+    ul.subtemas .sub-topo { display: flex; align-items: baseline; gap: .5rem; }
+    ul.subtemas .sub-topo strong { flex: 1; }
+    ul.subtemas .desc { font-size: .92rem; margin: .15rem 0; }
+    ul.subtemas li.vazio .sub-topo strong { color: var(--suave); }
+    #info-entrada-botao { width: 100%; }
     [hidden] { display: none !important; }
   </style>
 </head>
@@ -135,6 +158,8 @@
       </form>
     </div>
     <p id="erro-entrada" class="erro"></p>
+    <button id="info-entrada-botao" aria-expanded="false">Informações sobre as perguntas</button>
+    <div id="info-entrada" hidden></div>
   </section>
 
   <!-- Partida -->
@@ -150,6 +175,7 @@
     <div class="abas" role="tablist">
       <button role="tab" data-aba="sorteio" aria-selected="true">Sorteio</button>
       <button role="tab" data-aba="placar" aria-selected="false">Tabuleiro</button>
+      <button role="tab" data-aba="info" aria-selected="false">Informações</button>
     </div>
 
     <!-- Sorteio -->
@@ -219,6 +245,9 @@
         </form>
       </div>
     </div>
+
+    <!-- Informações: o que há no banco de perguntas -->
+    <div id="aba-info" hidden></div>
 
     <div id="barra" class="barra">
       <button id="sortear" class="principal">Sortear</button>
@@ -426,11 +455,89 @@
   document.querySelectorAll("[data-aba]").forEach(botao => {
     botao.onclick = () => {
       document.querySelectorAll("[data-aba]").forEach(b => b.setAttribute("aria-selected", b === botao));
-      $("aba-sorteio").hidden = botao.dataset.aba !== "sorteio";
-      $("aba-placar").hidden = botao.dataset.aba !== "placar";
+      for (const aba of ["sorteio", "placar", "info"]) $("aba-" + aba).hidden = botao.dataset.aba !== aba;
       $("barra").hidden = botao.dataset.aba !== "sorteio";
     };
   });
+
+  // ---------------------------------------------------------------- informações
+
+  // Temas e subtemas na ordem canônica, com as descrições (gerado pelo exportar_perguntas.py).
+  const carregandoTemas = fetch("temas.json", { cache: "no-cache" }).then(r => r.json()).catch(() => []);
+
+  function contar(lista) {
+    const multipla = lista.filter(p => p.tipo === "multipla").length;
+    return { total: lista.length, multipla, aberta: lista.length - multipla, figura: lista.filter(p => p.imagem).length };
+  }
+  const pct = (n, total) => total ? ` (${Math.round(100 * n / total)}%)` : "";
+  const numero = n => n.toLocaleString("pt-BR");
+  const resumo = c => `${numero(c.multipla)} múltipla escolha · ${numero(c.aberta)} ${c.aberta === 1 ? "aberta" : "abertas"} · ${numero(c.figura)} com figura`;
+
+  // Monta a página de informações dentro da caixa: totais do banco e um bloco por tema, que abre com a
+  // descrição e os subtemas. Temas e subtemas ainda sem perguntas também aparecem, como "em breve".
+  async function desenharInfo(caixa) {
+    await carregando;
+    const canonicos = await carregandoTemas;
+    const ordem = temasDoJogo();
+    const lista = [...canonicos].sort((a, b) => ordem.indexOf(a.tema) - ordem.indexOf(b.tema));
+    // Temas e subtemas do banco que não estão na lista canônica entram no fim, sem descrição.
+    for (const t of ordem) if (!lista.some(x => x.tema === t)) lista.push({ tema: t, descricao: "", subtemas: [] });
+    for (const t of lista) {
+      const extras = [...new Set(perguntas.filter(p => p.tema === t.tema).map(p => p.subtema))]
+        .filter(s => !t.subtemas.some(x => x.subtema === s));
+      t.subtemas = [...t.subtemas, ...extras.map(s => ({ subtema: s, descricao: "" }))];
+    }
+
+    const geral = contar(perguntas);
+    const totais = el("div", { className: "totais" });
+    for (const [n, rotulo] of [[geral.total, "perguntas"], [geral.multipla, `múltipla escolha${pct(geral.multipla, geral.total)}`],
+                               [geral.aberta, `abertas${pct(geral.aberta, geral.total)}`], [geral.figura, `com figura${pct(geral.figura, geral.total)}`]]) {
+      const d = el("div");
+      d.append(el("strong", { textContent: numero(n) }), el("span", { textContent: rotulo }));
+      totais.append(d);
+    }
+    const topo = el("div", { className: "cartao" });
+    topo.append(totais, el("p", { className: "suave", style: "margin:.7rem 0 0",
+      textContent: `${lista.length} temas e ${lista.reduce((s, t) => s + t.subtemas.length, 0)} subtemas. Toque num tema para ver a descrição e os subtemas.` }));
+
+    const blocos = lista.map(t => {
+      const doTema = perguntas.filter(p => p.tema === t.tema);
+      const c = contar(doTema);
+      const bloco = el("details", { className: "tema-info" });
+      pintar(bloco, t.tema);
+      const resumoTema = el("summary");
+      resumoTema.append(el("span", { className: "nome-tema", textContent: t.tema }),
+                        el("span", { className: "num", textContent: c.total ? numero(c.total) : "em breve" }));
+      const corpo = el("div", { className: "corpo-tema" });
+      if (t.descricao) corpo.append(el("p", { textContent: t.descricao }));
+      if (c.total) corpo.append(el("div", { className: "contagem", textContent: resumo(c) }));
+      const ul = el("ul", { className: "subtemas" });
+      ul.append(...t.subtemas.map(s => {
+        const cs = contar(doTema.filter(p => p.subtema === s.subtema));
+        const li = el("li", { className: cs.total ? "" : "vazio" });
+        const linha = el("div", { className: "sub-topo" });
+        linha.append(el("strong", { textContent: s.subtema }),
+                     el("span", { className: cs.total ? "num" : "suave", textContent: cs.total ? numero(cs.total) : "em breve" }));
+        li.append(linha);
+        if (s.descricao) li.append(el("div", { className: "desc", textContent: s.descricao }));
+        if (cs.total) li.append(el("div", { className: "contagem", textContent: resumo(cs) }));
+        return li;
+      }));
+      corpo.append(ul);
+      bloco.append(resumoTema, corpo);
+      return bloco;
+    });
+    caixa.replaceChildren(topo, ...blocos);
+  }
+
+  desenharInfo($("aba-info"));
+  $("info-entrada-botao").onclick = () => {
+    const abrir = $("info-entrada").hidden;
+    $("info-entrada").hidden = !abrir;
+    $("info-entrada-botao").setAttribute("aria-expanded", String(abrir));
+    $("info-entrada-botao").textContent = abrir ? "Fechar informações" : "Informações sobre as perguntas";
+    if (abrir && !$("info-entrada").childElementCount) desenharInfo($("info-entrada"));
+  };
 
   // ---------------------------------------------------------------- sorteio
 
