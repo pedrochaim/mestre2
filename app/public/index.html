@@ -57,8 +57,6 @@
     ul.placar button { padding: .3rem .8rem; }
     .figura { margin: .3rem 0 .8rem; }
     .figura img { width: 100%; max-height: 42vh; object-fit: contain; background: #000; border-radius: 10px; display: block; cursor: zoom-in; }
-    .figura .credito { font-size: .75rem; color: var(--suave); margin-top: .2rem; }
-    .figura .credito a { color: inherit; }
     /* Temas numa grade uniforme de 2 colunas; "Qualquer tema" ocupa a linha toda, com as cores na borda. */
     .temas { display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; margin: 0 0 .6rem; }
     .temas button { background: var(--c); color: var(--ct); border: none; font-weight: 600; padding: .6rem .5rem; }
@@ -182,7 +180,6 @@
         <span id="atual-repetida" class="repetida" hidden></span>
         <div id="atual-figura" class="figura" hidden>
           <img id="atual-img" alt="Figura da pergunta" title="Toque para mostrar em tela cheia">
-          <div class="credito">Foto: <a id="atual-credito" target="_blank" rel="noopener"></a></div>
         </div>
         <div id="atual-pergunta" class="pergunta"></div>
         <ol id="atual-opcoes" class="opcoes" type="A" hidden></ol>
@@ -520,8 +517,6 @@
     $("atual-figura").hidden = !p.imagem;
     if (p.imagem) {
       $("atual-img").src = $("tela-cheia-img").src = "img/" + p.imagem.arquivo;
-      $("atual-credito").textContent = `${p.imagem.autor}, ${p.imagem.licenca}`;
-      $("atual-credito").href = p.imagem.origem;
     }
     $("atual-pergunta").textContent = p.pergunta;
     $("atual-opcoes").hidden = !atual.opcoes;
@@ -591,7 +586,7 @@
     }
     if (p.imagem) {
       const credito = el("span", { textContent: `${p.imagem.autor}, ${p.imagem.licenca} · ` });
-      item("Figura", credito, /^https?:\/\//.test(p.imagem.origem) ? link(p.imagem.origem) : "");
+      item("Fonte da figura", credito, /^https?:\/\//.test(p.imagem.origem) ? link(p.imagem.origem) : "");
     }
     if (p.autor) item("Autor", p.autor);
     item("Id", el("span", { className: "id", textContent: p.id }));
