@@ -25,9 +25,10 @@
     "fig_bandeiras_002",
     "cotidiano_moda_e_vestuario_01",
     "fig_pratos_bebidas_001",
-    "cotidiano_transportes_01"
+    "cotidiano_transportes_01",
+    "fig_aves_001"
   ],
-  "maior_id": 1020,
+  "maior_id": 1032,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -77,6 +78,19 @@
         "2": 2
       },
       "registradas": 9
+    },
+    "aves": {
+      "familias": {
+        "o_que_e": 8,
+        "onde": 3,
+        "com_o_que_se_liga": 1
+      },
+      "niveis": {
+        "1": 6,
+        "2": 5,
+        "3": 1
+      },
+      "registradas": 12
     }
   },
   "rendimento": {

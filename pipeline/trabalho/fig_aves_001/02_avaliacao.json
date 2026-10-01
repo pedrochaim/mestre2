@@ -1,0 +1,270 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira, sem texto; emblemática.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ave é esta, de bico enorme e laranja?",
+      "resposta": "Tucano-toco",
+      "ancora": {
+        "nome": "Tucano-toco",
+        "descricao": "Maior espécie de tucano (Ramphastos toco), de corpo preto, papo branco e bico laranja com mancha preta na ponta, da América do Sul.",
+        "variantes": [
+          "Tucanuçu",
+          "Toco toucan",
+          "Ramphastos toco"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de frente, em voo, com disco facial e penas típicas; reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Esta enorme ave de rapina vive em florestas tropicais. Em que parte da floresta ela costuma ficar?",
+      "resposta": "Copas mais altas",
+      "distratores": [
+        "Solo da floresta",
+        "Sub-bosque",
+        "Beira dos rios"
+      ],
+      "ancora": {
+        "nome": "Gavião-real",
+        "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+        "variantes": [
+          "Harpia",
+          "Harpy eagle",
+          "Harpia harpyja"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, macho laranja com crista em meia-lua, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ave é esta, toda laranja e com crista em forma de meia-lua?",
+      "resposta": "Galo-da-serra",
+      "ancora": {
+        "nome": "Galo-da-serra",
+        "descricao": "Cotinga macho de plumagem laranja viva e crista em meia-lua (Rupicola rupicola), das florestas do nordeste da América do Sul.",
+        "variantes": [
+          "Galo-da-serra-guianense",
+          "Guianan cock-of-the-rock",
+          "Rupicola rupicola"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira, azul com anel e mancha amarelos; emblemática.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ave é esta, o maior papagaio do mundo?",
+      "resposta": "Arara-azul-grande",
+      "ancora": {
+        "nome": "Arara-azul-grande",
+        "descricao": "Maior arara e maior papagaio voador (Anodorhynchus hyacinthinus), de plumagem azul-cobalto com detalhes amarelos no rosto.",
+        "variantes": [
+          "Arara-azul",
+          "Hyacinth macaw",
+          "Anodorhynchus hyacinthinus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira em fundo limpo; troquei para distinguir de aves de rapina parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que ave de rapina é esta, de rosto laranja e pernas amarelas?",
+      "resposta": "Carcará",
+      "distratores": [
+        "Chimango",
+        "Gavião-carijó",
+        "Quiriquiri"
+      ],
+      "ancora": {
+        "nome": "Carcará",
+        "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+        "variantes": [
+          "Caracará",
+          "Crested caracara",
+          "Caracara plancus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira com crista e olho vermelho inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ave amazônica é esta, de crista espetada e olho vermelho?",
+      "resposta": "Cigana",
+      "ancora": {
+        "nome": "Cigana",
+        "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+        "variantes": [
+          "Jacu-cigano",
+          "Hoatzin",
+          "Opisthocomus hoazin"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida; garganta preta e face branca permitem distinguir de araras azuis e amarelas parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que arara é esta, de dorso azul e peito amarelo?",
+      "resposta": "Arara-canindé",
+      "distratores": [
+        "Arara-azul-grande",
+        "Arara-azul-de-lear",
+        "Arara-de-garganta-azul"
+      ],
+      "ancora": {
+        "nome": "Arara-canindé",
+        "descricao": "Grande arara (Ara ararauna) de dorso azul, barriga amarelo-alaranjada, garganta preta e face branca listrada.",
+        "variantes": [
+          "Arara-azul-e-amarela",
+          "Arara-de-barriga-amarela",
+          "Blue-and-yellow macaw",
+          "Ara ararauna"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, perfil completo com pernas e bico vermelhos e topete.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Esta ave caminhadora é usada por criadores como guarda, para proteger que animais de predadores?",
+      "resposta": "Galinhas",
+      "ancora": {
+        "nome": "Seriema",
+        "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+        "variantes": [
+          "Seriema-de-perna-vermelha",
+          "Siriema",
+          "Red-legged seriema",
+          "Cariama cristata"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida o bastante, macho branco com garganta nua esverdeada cantando; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ave é esta, de canto metálico que lembra uma marreta batendo numa bigorna?",
+      "resposta": "Araponga",
+      "ancora": {
+        "nome": "Araponga",
+        "descricao": "Cotinga macho de plumagem branca e garganta nua esverdeada (Procnias nudicollis), da Mata Atlântica, de canto metálico muito forte.",
+        "variantes": [
+          "Araponga-comum",
+          "Ferreiro",
+          "Bare-throated bellbird",
+          "Procnias nudicollis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de dois adultos e um filhote da mesma espécie; manchas amarelas e filhote cinza permitem distinguir do pinguim-rei.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que pinguim é este, o maior de todos?",
+      "resposta": "Pinguim-imperador",
+      "distratores": [
+        "Pinguim-rei",
+        "Pinguim-de-adélia",
+        "Pinguim-de-magalhães"
+      ],
+      "ancora": {
+        "nome": "Pinguim-imperador",
+        "descricao": "Maior e mais pesado dos pinguins (Aptenodytes forsteri), endêmico da Antártida, com manchas amarelas nos lados da cabeça.",
+        "variantes": [
+          "Emperor penguin",
+          "Aptenodytes forsteri"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira com pescoço preto e colar vermelho inconfundíveis.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que grande planície alagável do Brasil esta ave é mais comum?",
+      "resposta": "Pantanal",
+      "ancora": {
+        "nome": "Tuiuiú",
+        "descricao": "Grande cegonha (Jabiru mycteria) de plumagem branca, cabeça e pescoço pretos com colar vermelho, ave-símbolo do Pantanal.",
+        "variantes": [
+          "Jaburu",
+          "Jabiru",
+          "Jabiru mycteria"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida, ave inteira e colorida, sem texto; plumagem característica da espécie.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que bioma brasileiro vive esta pequena e colorida ave?",
+      "resposta": "Mata Atlântica",
+      "distratores": [
+        "Cerrado",
+        "Caatinga",
+        "Pantanal"
+      ],
+      "ancora": {
+        "nome": "Saíra-sete-cores",
+        "descricao": "Pequeno traupídeo colorido (Tangara seledon), de cabeça verde-azulada, dorso preto e garupa amarelo-alaranjada, da Mata Atlântica.",
+        "variantes": [
+          "Green-headed tanager",
+          "Tangara seledon"
+        ]
+      }
+    }
+  ]
+}
