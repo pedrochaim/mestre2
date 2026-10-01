@@ -1,0 +1,218 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tricolor vertical verde, branco e vermelho, nítido e sem texto; resposta única entre as bandeiras atuais.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Itália",
+      "distratores": [
+        "Irlanda",
+        "México",
+        "Costa do Marfim"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Itália",
+        "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+        "variantes": [
+          "Il Tricolore",
+          "Tricolore italiano"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra uma cruz azul-clara sobre fundo branco, que não é a bandeira nacional atual da Grécia (listras azuis e brancas com cruz no canto); não corresponde à entidade."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta da ilha em cobre sobre ramos de oliveira, clara e única; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Chipre",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira do Chipre",
+        "descricao": "Bandeira nacional do Chipre, com a silhueta da ilha em cobre sobre dois ramos de oliveira em fundo branco.",
+        "variantes": [
+          "Bandeira de Chipre"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mostra flores-de-lis douradas sobre fundo azul (antigo estandarte real francês), não a bandeira atual da França, que é o tricolor azul, branco e vermelho."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, com estrela branca em quadrado azul e faixa vermelha; sem texto.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país sul-americano é esta bandeira?",
+      "resposta": "Chile",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira do Chile",
+        "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+        "variantes": [
+          "La Estrella Solitaria"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira turquesa com sol, águia e ornamento lateral, inconfundível e sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Astana",
+      "distratores": [
+        "Almaty",
+        "Bishkek",
+        "Tashkent"
+      ],
+      "ancora": {
+        "nome": "Bandeira do Cazaquistão",
+        "descricao": "Bandeira nacional do Cazaquistão, azul-turquesa com sol dourado, águia e ornamento vertical na lateral.",
+        "variantes": [
+          "Bandeira do Kazakhstan"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Tricolor horizontal preto, vermelho e dourado, nítido e sem texto; troquei para a família 'com o que se liga' porque 'onde' não rende bom nível 3.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Berlim",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira da Alemanha",
+        "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+        "variantes": [
+          "Schwarz-Rot-Gold"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tricolor horizontal amarelo (faixa dupla), azul e vermelho, nítido e sem texto; nível 1 pede reconhecimento direto, então usei 'onde'.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país sul-americano é esta bandeira?",
+      "resposta": "Colômbia",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira da Colômbia",
+        "descricao": "Bandeira nacional da Colômbia, tricolor horizontal com faixa amarela dupla, azul e vermelha.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Listras diagonais em amarelo, branco e preto com emblema vermelho, bem característica; a inscrição em árabe não é legível para o respondente.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Brunei",
+      "distratores": [
+        "Butão",
+        "Malásia",
+        "Camboja"
+      ],
+      "ancora": {
+        "nome": "Bandeira de Brunei",
+        "descricao": "Bandeira nacional de Brunei, amarela com faixas diagonais branca e preta e emblema vermelho com crescente e mãos.",
+        "variantes": [
+          "Bandeira de Brunei Darussalam"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Union Jack nítida e emblemática; sem texto.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Londres",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira do Reino Unido",
+        "descricao": "Bandeira nacional do Reino Unido, a Union Jack, que combina as cruzes de São Jorge, Santo André e São Patrício.",
+        "variantes": [
+          "Union Jack",
+          "Union Flag"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira azul com Union Jack, estrela de sete pontas e Cruzeiro do Sul; distinguível de parecidas como a da Nova Zelândia.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Austrália",
+      "distratores": [
+        "Nova Zelândia",
+        "Fiji",
+        "Tuvalu"
+      ],
+      "ancora": {
+        "nome": "Bandeira da Austrália",
+        "descricao": "Bandeira nacional da Austrália, azul com Union Jack no canto, estrela da Comunidade e cinco estrelas do Cruzeiro do Sul.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira com fragata sobre sol nascente e ondas, nítida e sem texto; pergunta de nível 3 sustentada pelo trecho (mais da metade da população vive em Tarawa).",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Mais da metade da população do país desta bandeira vive em um único atol. Que atol é esse?",
+      "resposta": "Tarawa",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira de Kiribati",
+        "descricao": "Bandeira nacional de Kiribati, com fragata dourada sobre sol nascente e ondas azuis e brancas em fundo vermelho.",
+        "variantes": [
+          "Bandeira de Quiribati"
+        ]
+      }
+    }
+  ]
+}
