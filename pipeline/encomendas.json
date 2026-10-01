@@ -295,6 +295,20 @@
       ],
       "observacoes": "Artistas, canções, gêneros (samba, MPB, bossa nova, sertanejo, rock, funk) e histórias da música brasileira de várias épocas. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara.",
       "autopiloto": true
+    },
+    {
+      "id": "entretenimento_musica_internacional_01",
+      "tema": "Entretenimento",
+      "subtema": "Música Internacional",
+      "quantidade": 50,
+      "multipla": 10,
+      "angulos_alvo": [
+        "nome",
+        "causa",
+        "conexao"
+      ],
+      "observacoes": "Artistas, bandas, canções e gêneros da música estrangeira de várias épocas e países. Público brasileiro, informado mas leigo. Prefira fatos surpreendentes sobre o que todo mundo conhece a detalhes obscuros. Varie épocas, regiões e tipos de âncora (pessoas, lugares, obras, eventos, objetos, conceitos). Evite números que mudam com o tempo, recordes que ainda podem ser batidos, temas ainda em disputa e afirmações de 'único', 'primeiro' ou 'maior' sem fonte clara.",
+      "autopiloto": true
     }
   ]
 }

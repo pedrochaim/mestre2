@@ -1,0 +1,391 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado pela Wikipédia em português (iniciais dos primeiros nomes); pergunta clara e específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O 'balão de chumbo' (lead balloon) de Moon e Entwistle está no trecho; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pink Anderson e Floyd Council eram músicos de blues; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "É amplamente documentado que o apelido veio da loja de aparelhos auditivos Bonavox, em Dublin; os trechos não mostram isso diretamente.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Radio Ga Ga é do Queen; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz vespa (wasp), não abelha; como abelha também seria defensável, passa a múltipla escolha para ter resposta única.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Gordon Sumner ganhou o apelido Sting por usar uma blusa listrada de preto e amarelo. Ela lembrava que inseto?",
+        "resposta": "Vespa",
+        "distratores": [
+          "Besouro",
+          "Libélula",
+          "Formiga"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sting_(musician)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Escoteiros à prova de balas' confirmado nas duas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português confirma o título provisório 'Scrambled Eggs'.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teen Spirit era marca de desodorante, conforme a Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma a inspiração no pseudônimo Paul Ramon de McCartney.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Pulga saltitante' é a tradução usual segundo a Wikipédia em português; o enunciado diz 'costuma', o que é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dr. Durand Durand é o vilão de Barbarella (1968); distratores são ficção científica dos anos 60.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Acidente de carro, amputação do braço esquerdo e bateria eletrônica adaptada confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Acidente na fábrica que decepou as pontas dos dedos, confirmado em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pirotecnia incendiou o cabelo durante o comercial da Pepsi em 1984.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A polêmica da guitarra elétrica em Newport 1965 é amplamente documentada; o trecho trata do mesmo episódio.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Live Aid foi para aliviar a fome na Etiópia.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a resposta é longa demais para a regra de cerca de 5 palavras.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "A canção Smoke on the Water, do Deep Purple, descreve a fumaça de que acontecimento em Montreux, na Suíça, em 1971?",
+        "resposta": "Incêndio no cassino",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Smoke_on_the_Water"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Música escrita após a morte do filho Conor, de quatro anos, em 1991.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hendrix era canhoto, confirmado pela Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A cláusula dos M&Ms marrons servia para testar se o contrato foi lido com atenção.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morte por complicações da AIDS em 1991 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasceu em Stone Town, Zanzibar, hoje parte da Tanzânia.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Holly e Valens morreram no mesmo acidente aéreo em 3 de fevereiro de 1959.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Todos os citados morreram aos 27 anos; não há vazamento no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Antes de fazerem sucesso solo' é impreciso: Collins estourou em carreira solo ainda no Genesis.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Peter Gabriel e Phil Collins foram, em épocas diferentes, vocalistas de que banda britânica?",
+        "resposta": "Genesis",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Genesis_(band)"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dave Grohl, baterista do Nirvana e fundador do Foo Fighters.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Waterloo: batalha de Napoleão e canção vencedora do Eurovision 1974.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casamento de 1994 com a filha única de Elvis, o que faz de Michael Jackson genro dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os três estiveram no Mickey Mouse Club da Disney; a versão brasileira é O Clube do Mickey.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wayne's World (1992) levou a música ao número dois nos EUA.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Galileo é repetido na seção operística.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A canção ganhou fama com o filme Shrek (2001).",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A letra em inglês é de Paul Anka, canadense.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dolly Parton escreveu e gravou a canção original.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Otis Redding escreveu e lançou Respect em 1965; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bob Dylan ganhou o Nobel de Literatura de 2016.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prince compôs a canção; O'Connor a regravou em 1990.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O bandoneón, de origem alemã, é central no tango.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stevie Nicks e Buckingham entraram juntos no Fleetwood Mac.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apollo 11 (julho de 1969) e Woodstock (agosto de 1969) no mesmo verão.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Thriller foi lançado em 1982; distratores razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Never Mind the Bollocks é o único álbum de estúdio dos Sex Pistols.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marley morreu aos 36 anos, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Brian May concluiu o doutorado em astrofísica em 2007.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro clipe exibido pela MTV, em 1º de agosto de 1981.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Céline Dion venceu em 1988 representando a Suíça; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Álbum gravado na Folsom State Prison, Califórnia, em 1968.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a resposta tem palavras demais; deve ser curta.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em janeiro de 1969, onde os Beatles fizeram seu último show público, que terminou com a chegada da polícia?",
+        "resposta": "No telhado da Apple",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Beatles%27_rooftop_concert"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cajón é originário do Peru; distratores sul-americanos.",
+      "reescrita": null
+    }
+  ]
+}
