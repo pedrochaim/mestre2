@@ -1,0 +1,275 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida de um tigre, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal é este?",
+      "resposta": "Tigre",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tigre",
+        "descricao": "Grande felino asiático do gênero Panthera, de pelagem laranja com listras pretas (Panthera tigris).",
+        "variantes": [
+          "Panthera tigris"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Alce macho com chifres espalmados em veludo, claro e reconhecível. Troquei a família para o_que_e porque 'onde' renderia pergunta fraca.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este grande cervídeo de chifres espalmados é de que espécie?",
+      "resposta": "Alce",
+      "distratores": [
+        "Rena",
+        "Cervo-vermelho",
+        "Gamo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alce",
+        "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+        "variantes": [
+          "Alces alces",
+          "Moose",
+          "Elk"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Fossa nítida, de corpo e cauda visíveis, sem texto. Resposta única.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este carnívoro lembra um pequeno felino, mas pertence a uma família mais próxima de qual outro grupo de carnívoros?",
+      "resposta": "Mangustos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Fossa",
+        "descricao": "Carnívoro esguio e de cauda longa, parecido com um felino, endêmico de Madagascar (Cryptoprocta ferox).",
+        "variantes": [
+          "Cryptoprocta ferox",
+          "Fossa-de-madagascar"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Zebra em primeiro plano, nítida; outras zebras ao fundo são da mesma espécie, sem ambiguidade. Troquei a família para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que animal é este?",
+      "resposta": "Zebra",
+      "destino": 0,
+      "ancora": {
+        "nome": "Zebra",
+        "descricao": "Equídeo africano de pelagem listrada em preto e branco; na foto, a zebra-da-planície (Equus quagga).",
+        "variantes": [
+          "Zebra-da-planície",
+          "Equus quagga",
+          "Plains zebra"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bisão-americano de frente, nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Bisão-americano",
+      "distratores": [
+        "Búfalo-africano",
+        "Iaque",
+        "Boi-almiscarado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bisão-americano",
+        "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+        "variantes": [
+          "Bison bison",
+          "Búfalo-americano",
+          "American bison"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Numbat nítido, com listras no dorso, reconhecível. Mudei para nível 2 e múltipla escolha, pois é um animal menos conhecido.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este pequeno marsupial listrado é o emblema faunístico de qual estado australiano?",
+      "resposta": "Austrália Ocidental",
+      "distratores": [
+        "Tasmânia",
+        "Queensland",
+        "Victoria"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Numbat",
+        "descricao": "Pequeno marsupial diurno, listrado, que se alimenta de cupins, do sudoeste da Austrália (Myrmecobius fasciatus).",
+        "variantes": [
+          "Myrmecobius fasciatus",
+          "Mirmecóbio",
+          "Noombat"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Canguru-vermelho macho em foto nítida, sem texto. Troquei para o_que_e, com pergunta sobre a espécie.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que espécie de canguru é este animal?",
+      "resposta": "Canguru-vermelho",
+      "distratores": [
+        "Canguru-cinzento-oriental",
+        "Wallaroo",
+        "Wallaby-de-pescoço-vermelho"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Canguru-vermelho",
+        "descricao": "Maior dos cangurus e maior marsupial vivo, da Austrália continental (Osphranter rufus).",
+        "variantes": [
+          "Osphranter rufus",
+          "Macropus rufus",
+          "Red kangaroo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Hiena-malhada nítida, com manchas visíveis, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que apelido, ligado ao som que emite, é dado a este animal?",
+      "resposta": "Hiena-risonha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hiena-malhada",
+        "descricao": "Maior hiena atual, de pelagem manchada, da África subsaariana (Crocuta crocuta).",
+        "variantes": [
+          "Crocuta crocuta",
+          "Hiena-pintada",
+          "Hiena-risonha",
+          "Spotted hyena"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Quokka nítido, de perfil, reconhecível sem texto. Mudei para múltipla com distratores parecidos, por ser menos famoso.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal australiano é este?",
+      "resposta": "Quokka",
+      "distratores": [
+        "Pademelon",
+        "Potoroo",
+        "Bettong"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quokka",
+        "descricao": "Pequeno marsupial macropodídeo do sudoeste da Austrália, do tamanho de um gato (Setonix brachyurus).",
+        "variantes": [
+          "Setonix brachyurus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Gorila macho de frente, nítido, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que continente vive na natureza este primata?",
+      "resposta": "África",
+      "distratores": [
+        "Ásia",
+        "América do Sul",
+        "Oceania"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gorila",
+        "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+        "variantes": [
+          "Gorila-ocidental",
+          "Gorilla gorilla",
+          "Western gorilla"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Suricato nítido, de rosto com manchas escuras, reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este animal, que vive em grupos no sul da África, é um tipo de qual carnívoro?",
+      "resposta": "Mangusto",
+      "destino": 0,
+      "ancora": {
+        "nome": "Suricato",
+        "descricao": "Pequeno mangusto social do sul da África, de rosto com manchas escuras ao redor dos olhos (Suricata suricatta).",
+        "variantes": [
+          "Suricata suricatta",
+          "Meerkat",
+          "Suricate"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gerenuk nítido, de pescoço longo e chifres de macho, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que apelido recebe este antílope de pescoço longo?",
+      "resposta": "Gazela-girafa",
+      "distratores": [
+        "Gazela-de-Grant",
+        "Gazela-de-Thomson",
+        "Gazela-dorcas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gerenuk",
+        "descricao": "Antílope de pescoço e pernas longos, do Chifre da África (Litocranius walleri).",
+        "variantes": [
+          "Litocranius walleri",
+          "Gazela-girafa",
+          "Giraffe gazelle"
+        ]
+      }
+    }
+  ]
+}

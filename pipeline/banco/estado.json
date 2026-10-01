@@ -18,9 +18,10 @@
     "esportes_olimpiadas_01",
     "esportes_futebol_02",
     "cotidiano_lingua_portuguesa_e_expressoes_01",
-    "cotidiano_costumes_pelo_mundo_01"
+    "cotidiano_costumes_pelo_mundo_01",
+    "fig_mamiferos_001"
   ],
-  "maior_id": 847,
+  "maior_id": 859,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -33,6 +34,20 @@
         "3": 1
       },
       "registradas": 4
+    },
+    "mamiferos": {
+      "familias": {
+        "o_que_e": 6,
+        "que_tipo": 2,
+        "onde": 2,
+        "com_o_que_se_liga": 2
+      },
+      "niveis": {
+        "1": 3,
+        "2": 7,
+        "3": 2
+      },
+      "registradas": 12
     }
   },
   "rendimento": {
