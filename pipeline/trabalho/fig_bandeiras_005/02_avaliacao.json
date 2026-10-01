@@ -1,0 +1,230 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem mostra a bandeira da Holanda (listras vermelha, branca e azul), e não a do Paraguai, que leva brasão central. A imagem não corresponde à entidade."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira da Noruega, nítida e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Noruega",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Noruega",
+        "descricao": "Bandeira nacional atual do Reino da Noruega, vermelha com cruz nórdica azul bordada de branco.",
+        "variantes": [
+          "Norges flagg"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Bandeira da Mongólia, com o soyombo amarelo, inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Mongólia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Mongólia",
+        "descricao": "Bandeira nacional atual da Mongólia, com três faixas verticais vermelha, azul e vermelha e o símbolo soyombo amarelo.",
+        "variantes": [
+          "Bandeira mongol"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira civil do Peru, vermelha, branca e vermelha na vertical, sem texto. Pergunta sobre a capital.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Lima",
+      "distratores": [
+        "Quito",
+        "Bogotá",
+        "La Paz"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira do Peru",
+        "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+        "variantes": [
+          "Bandeira peruana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira da Dinamarca, nítida e sem texto. Nível 3 apoiado na lenda amplamente documentada.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda, esta bandeira caiu do céu durante uma batalha na Estônia, em mil duzentos e dezenove. De que país é?",
+      "resposta": "Dinamarca",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Dinamarca",
+        "descricao": "Bandeira nacional atual da Dinamarca, vermelha com cruz escandinava branca, chamada Dannebrog.",
+        "variantes": [
+          "Dannebrog",
+          "Bandeira dinamarquesa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Bandeira da Moldávia com brasão, reconhecível. Pergunta sobre a fronteira a oeste, cuja resposta é única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país faz fronteira, a oeste, com o país desta bandeira?",
+      "resposta": "Romênia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Moldávia",
+        "descricao": "Bandeira nacional atual da Moldávia, com três faixas verticais azul, amarela e vermelha e o brasão com a cabeça de auroque.",
+        "variantes": [
+          "Bandeira da Moldova"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Bandeira da Venezuela, com oito estrelas, sem texto. Distratores parecidos de outros países.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Venezuela",
+      "distratores": [
+        "Colômbia",
+        "Equador",
+        "Armênia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Venezuela",
+        "descricao": "Bandeira nacional atual da Venezuela, tricolor amarela, azul e vermelha com um arco de oito estrelas brancas.",
+        "variantes": [
+          "Bandeira venezuelana"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Bandeira da Finlândia, nítida e sem texto. Pergunta sobre a capital.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Helsinque",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Finlândia",
+        "descricao": "Bandeira nacional atual da Finlândia, branca com cruz nórdica azul.",
+        "variantes": [
+          "Siniristilippu",
+          "Bandeira finlandesa"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira de Essuatíni, com escudo e lanças, única e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Essuatíni",
+      "distratores": [
+        "Lesoto",
+        "Botsuana",
+        "Zimbábue"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira de Essuatíni",
+        "descricao": "Bandeira nacional atual de Essuatíni, antiga Suazilândia, com faixas azul, amarela e vermelha e um escudo nguni com lanças.",
+        "variantes": [
+          "Bandeira da Suazilândia",
+          "Bandeira de Eswatini"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Bandeira da Bolívia com brasão. A inscrição no brasão é minúscula e ilegível no celular. Nível 3: capital constitucional.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital constitucional do país desta bandeira?",
+      "resposta": "Sucre",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Bolívia",
+        "descricao": "Bandeira nacional atual da Bolívia, tricolor vermelha, amarela e verde, com o brasão no centro na versão de Estado.",
+        "variantes": [
+          "Bandeira boliviana"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira da Áustria, vermelha, branca e vermelha na horizontal, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Áustria",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira da Áustria",
+        "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+        "variantes": [
+          "Bandeira austríaca"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira de Belize com brasão. O lema em latim não revela a resposta. Pergunta sobre a fronteira ao norte.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país faz fronteira, ao norte, com o país desta bandeira?",
+      "resposta": "México",
+      "distratores": [
+        "Guatemala",
+        "Honduras",
+        "Cuba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bandeira de Belize",
+        "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+        "variantes": [
+          "Bandeira belizenha"
+        ]
+      }
+    }
+  ]
+}
