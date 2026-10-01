@@ -1,0 +1,247 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de um macho, sem texto. A espécie pode ser a comum ou a da Somália, mas a resposta vale para as duas.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que continente esta ave, a maior ave viva, é nativa?",
+      "resposta": "África",
+      "distratores": [
+        "Austrália",
+        "América do Sul",
+        "Ásia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Avestruz",
+        "descricao": "Ave não voadora africana do gênero Struthio, a maior ave viva.",
+        "variantes": [
+          "Avestruz-comum",
+          "Struthio camelus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de colhereiro-rosado, sem texto. A pergunta usa o pigmento vindo da dieta, que o trecho sustenta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A cor rosa desta ave vem da alimentação. Que outra ave de pernas longas, também rosa, ganha a cor do mesmo modo?",
+      "resposta": "Flamingo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Colhereiro",
+        "descricao": "Ave pernalta rosada, de bico em forma de colher, da família dos íbis, nas Américas.",
+        "variantes": [
+          "Colhereiro-americano",
+          "Platalea ajaja",
+          "Roseate spoonbill"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Macho de tiê-sangue bem fotografado, sem texto. A pergunta sobre o bioma é plausível e documentada.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave é endêmica do Brasil. Em que bioma ela vive?",
+      "resposta": "Mata Atlântica",
+      "distratores": [
+        "Floresta Amazônica",
+        "Cerrado",
+        "Caatinga"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tiê-sangue",
+        "descricao": "Ave vermelha da família dos traupídeos, endêmica da Mata Atlântica brasileira.",
+        "variantes": [
+          "Ramphocelus bresilia",
+          "Brazilian tanager"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de pavão macho de perfil, sem texto. Pescoço azul indica o pavão-azul.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta ave é o macho da espécie. Como se chama a fêmea?",
+      "resposta": "Pavoa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pavão",
+        "descricao": "Pavão-azul, ave originária do subcontinente indiano, cujo macho tem longa cauda com ocelos.",
+        "variantes": [
+          "Pavão-azul",
+          "Pavão-indiano",
+          "Pavo cristatus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Guará vermelho nítido e inconfundível, sem texto. A ligação com Trinidad e Tobago está no trecho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave é uma das duas aves nacionais de qual país do Caribe?",
+      "resposta": "Trinidad e Tobago",
+      "distratores": [
+        "Jamaica",
+        "Cuba",
+        "Barbados"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Guará",
+        "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+        "variantes": [
+          "Íbis-escarlate",
+          "Eudocimus ruber"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "É uma litografia antiga com a legenda 'ARA SPIXI' visível, o que entrega a resposta. Também é ilustração de uma ave que poderia ser fotografada."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto clara de coruja-buraqueira num mourão, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que tipo de lugar esta coruja costuma fazer o ninho e descansar?",
+      "resposta": "Em buracos no chão (tocas)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Coruja-buraqueira",
+        "descricao": "Pequena coruja de pernas longas, ativa de dia e de hábitos terrestres, que vive em campos abertos das Américas.",
+        "variantes": [
+          "Athene cunicularia",
+          "Burrowing owl"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de cardeal-de-topete-vermelho, sem texto. Ele é um traupídeo, não parente dos verdadeiros cardeais.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ave de topete vermelho é aparentada de qual destas?",
+      "resposta": "Tiê-sangue",
+      "distratores": [
+        "Cardeal-do-norte",
+        "Pica-pau-de-topete-vermelho",
+        "Tico-tico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cardeal",
+        "descricao": "Cardeal-de-topete-vermelho, ave sul-americana de cabeça vermelha com topete, dorso cinza e peito branco, da família dos traupídeos.",
+        "variantes": [
+          "Cardeal-de-topete-vermelho",
+          "Paroaria coronata",
+          "Red-crested cardinal"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto clara do urubu-rei, inconfundível pela cabeça colorida e pelo corpo branco e preto, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que tipo de floresta vive principalmente esta ave?",
+      "resposta": "Florestas tropicais de baixada",
+      "destino": 0,
+      "ancora": {
+        "nome": "Urubu-rei",
+        "descricao": "Grande urubu das Américas, de plumagem branca e preta e cabeça nua colorida.",
+        "variantes": [
+          "Sarcoramphus papa",
+          "King vulture"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de bem-te-vi, sem texto. A introdução em 1957 está no trecho.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em 1957, esta ave foi introduzida em qual destas ilhas do Atlântico?",
+      "resposta": "Bermudas",
+      "distratores": [
+        "Madeira",
+        "Açores",
+        "Santa Helena"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bem-te-vi",
+        "descricao": "Ave tiranídea de peito amarelo e faixa branca na cabeça, comum no Brasil, cujo canto lembra uma frase.",
+        "variantes": [
+          "Pitangus sulphuratus",
+          "Great kiskadee"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto clara de canário-da-terra macho, sem texto. A introdução no Havaí está no trecho.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta ave sul-americana foi introduzida em qual arquipélago do Pacífico, hoje um estado americano?",
+      "resposta": "Havaí",
+      "destino": 0,
+      "ancora": {
+        "nome": "Canário-da-terra",
+        "descricao": "Pequena ave amarela com o alto da cabeça alaranjado, comum em áreas abertas da América do Sul e não aparentada ao canário.",
+        "variantes": [
+          "Canário-da-terra-verdadeiro",
+          "Sicalis flaveola",
+          "Saffron finch"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto clara de anu-branco com topete, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Esta ave é da mesma família de outra ave que dá nome a um tipo de relógio. Que ave é essa?",
+      "resposta": "Cuco",
+      "destino": 0,
+      "ancora": {
+        "nome": "Anu-branco",
+        "descricao": "Ave gregária da família dos cuculídeos, de topete e cauda longa, de campos abertos da América do Sul.",
+        "variantes": [
+          "Guira guira",
+          "Guira cuckoo"
+        ]
+      }
+    }
+  ]
+}
