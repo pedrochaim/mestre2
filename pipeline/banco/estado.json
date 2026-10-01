@@ -30,9 +30,10 @@
     "fig_cientistas_002",
     "entretenimento_cinema_01",
     "fig_bandeiras_003",
-    "entretenimento_series_e_tv_01"
+    "entretenimento_series_e_tv_01",
+    "fig_objetos_trajes_001"
   ],
-  "maior_id": 1149,
+  "maior_id": 1156,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -95,6 +96,18 @@
         "3": 1
       },
       "registradas": 12
+    },
+    "objetos_trajes": {
+      "familias": {
+        "o_que_e": 3,
+        "com_o_que_se_liga": 4
+      },
+      "niveis": {
+        "1": 3,
+        "3": 1,
+        "2": 3
+      },
+      "registradas": 7
     }
   },
   "rendimento": {

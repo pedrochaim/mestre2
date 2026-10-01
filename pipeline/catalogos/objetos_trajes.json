@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Guarda-chuva",
+      "titulo": "en:Umbrella",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tesoura",
+      "titulo": "en:Scissors",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ferro de passar",
+      "titulo": "en:Clothes iron",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Boné",
+      "titulo": "en:Baseball cap",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Sombrero",
+      "titulo": "en:Sombrero",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Kilt",
+      "titulo": "en:Kilt",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cartola",
+      "titulo": "en:Top hat",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ampulheta",
+      "titulo": "en:Hourglass",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gravata-borboleta",
+      "titulo": "en:Bow tie",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pente",
+      "titulo": "en:Comb",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Liquidificador",
+      "titulo": "en:Blender",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Poncho",
+      "titulo": "en:Poncho",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Fita cassete",
+      "titulo": "en:Cassette tape",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sári",
+      "titulo": "en:Sari",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Fez",
+      "titulo": "en:Fez",
+      "camada": 2,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Boina",
+      "titulo": "en:Beret",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Turbante",
+      "titulo": "en:Turban",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lederhosen",
+      "titulo": "en:Lederhosen",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Hanbok",
+      "titulo": "en:Hanbok",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Burca",
+      "titulo": "en:Burqa",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bombacha",
+      "titulo": "pt:Bombacha",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina de escrever",
+      "titulo": "en:Typewriter",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Disquete",
+      "titulo": "en:Floppy disk",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ábaco",
+      "titulo": "en:Abacus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chapéu-coco",
+      "titulo": "en:Bowler hat",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Suspensório",
+      "titulo": "en:Suspenders",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Monóculo",
+      "titulo": "en:Monocle",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gola rufo",
+      "titulo": "en:Ruff (clothing)",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Espartilho",
+      "titulo": "en:Corset",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Crinolina",
+      "titulo": "en:Crinoline",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Áo dài",
+      "titulo": "en:Áo dài",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Dashiki",
+      "titulo": "en:Dashiki",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Keffiyeh",
+      "titulo": "en:Keffiyeh",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Tricórnio",
+      "titulo": "en:Tricorne",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Deerstalker",
+      "titulo": "en:Deerstalker",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pince-nez",
+      "titulo": "en:Pince-nez",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Geta",
+      "titulo": "en:Geta (footwear)",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Sporran",
+      "titulo": "en:Sporran",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Ushanka",
+      "titulo": "en:Ushanka",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Polaina",
+      "titulo": "en:Spats (footwear)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}

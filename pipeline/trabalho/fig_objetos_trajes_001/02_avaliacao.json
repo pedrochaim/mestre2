@@ -1,0 +1,181 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Guarda-chuva preto isolado, nítido e inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Guarda-chuva",
+      "destino": 0,
+      "ancora": {
+        "nome": "Guarda-chuva",
+        "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+        "variantes": [
+          "Sombrinha",
+          "Umbrella",
+          "Parasol"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto antiga de duas pessoas comuns em primeiro plano, sem figuras públicas identificadas."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Gola rufo isolada, bem visível e sem texto. Pergunta de nível 3 sobre quem ainda a usa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta peça foi moda na Europa do século dezesseis. Que religiosos ainda a usam em países como Dinamarca e Alemanha?",
+      "resposta": "Clero luterano",
+      "destino": 1,
+      "ancora": {
+        "nome": "Gola rufo",
+        "descricao": "Gola franzida e engomada, redonda, usada na Europa entre meados do século XVI e meados do XVII.",
+        "variantes": [
+          "Rufo",
+          "Gorgeira",
+          "Ruff"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Mostra uma dúzia de tesouras de tipos diferentes, e há marcas legíveis (Fiskars, Gingher). Não é um único assunto."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Espartilho de brocado isolado num manequim, nítido e sem texto. Os distratores são peças de época parecidas, mas diferentes.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça da moda feminina do século dezenove é esta?",
+      "resposta": "Espartilho",
+      "distratores": [
+        "Crinolina",
+        "Anquinha",
+        "Gibão"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Espartilho",
+        "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+        "variantes": [
+          "Corset",
+          "Corselet"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ferro de passar a vapor, nítido. A marca visível não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tarefa doméstica se faz com este aparelho?",
+      "resposta": "Passar roupa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ferro de passar",
+        "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+        "variantes": [
+          "Ferro elétrico",
+          "Ferro a vapor",
+          "Ferro de engomar"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Boina preta de lã, isolada e nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça de cabeça é esta?",
+      "resposta": "Boina",
+      "distratores": [
+        "Barrete",
+        "Quepe",
+        "Quipá"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Boina",
+        "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+        "variantes": [
+          "Beret",
+          "Béret",
+          "Txapela"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É um desenho à mão. A crinolina pode ser fotografada, e o manifesto só aceita ilustração para o que não pode ser fotografado."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Boné de beisebol liso, isolado e nítido, sem texto ou logotipo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta peça de cabeça faz parte do uniforme tradicional de qual esporte?",
+      "resposta": "Beisebol",
+      "destino": 1,
+      "ancora": {
+        "nome": "Boné",
+        "descricao": "Chapéu mole de copa arredondada e aba rígida na frente, originário do uniforme de beisebol.",
+        "variantes": [
+          "Boné de beisebol",
+          "Baseball cap"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É um desenho em preto e branco de um homem, em estilo de retrato. Não é foto, e a ilustração não se justifica para um turbante, que pode ser fotografado."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mulher comum posando num parque, em primeiro plano. Pessoa comum não é permitida."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Sombrero de palha com aba preta e um cacto bordado, isolado e nítido. O cacto não entrega o país.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este chapéu de aba larga é símbolo de qual país?",
+      "resposta": "México",
+      "distratores": [
+        "Peru",
+        "Cuba",
+        "Colômbia"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Sombrero",
+        "descricao": "Chapéu de aba larga e copa alta, tradicional do México, usado para proteger do sol.",
+        "variantes": [
+          "Sombrero de charro",
+          "Sombrero jarano"
+        ]
+      }
+    }
+  ]
+}
