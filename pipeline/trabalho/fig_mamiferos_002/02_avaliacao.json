@@ -1,0 +1,256 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Chimpanzé bem visível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive este primata na natureza?",
+      "resposta": "África",
+      "destino": 0,
+      "ancora": {
+        "nome": "Chimpanzé",
+        "descricao": "Grande símio de pelagem negra, do gênero Pan, nativo das florestas e savanas da África equatorial.",
+        "variantes": [
+          "Chimpanzé-comum",
+          "Pan troglodytes"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Lhama de frente, nítida; distratores são camelídeos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal andino é este?",
+      "resposta": "Lhama",
+      "distratores": [
+        "Alpaca",
+        "Guanaco",
+        "Vicunha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lhama",
+        "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+        "variantes": [
+          "Llama",
+          "Lama glama"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rosto vermelho e pelagem alaranjada inconfundíveis; resposta no nível do gênero para evitar confusão entre espécies.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que macaco amazônico, de rosto vermelho e cauda curta, é este?",
+      "resposta": "Uacari",
+      "destino": 0,
+      "ancora": {
+        "nome": "Uacari-vermelho",
+        "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+        "variantes": [
+          "Uacari",
+          "Uacari-careca",
+          "Cacajao"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Urso-pardo nítido em rio, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que continentes vive naturalmente este urso?",
+      "resposta": "Eurásia e América do Norte",
+      "destino": 0,
+      "ancora": {
+        "nome": "Urso-pardo",
+        "descricao": "Grande urso (Ursus arctos) de pelagem marrom, nativo da Eurásia e da América do Norte.",
+        "variantes": [
+          "Urso-marrom",
+          "Grizzly",
+          "Ursus arctos"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Javali nítido; troquei para a família com_o_que_se_liga, que rende pergunta melhor.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este animal selvagem é o ancestral de qual animal doméstico?",
+      "resposta": "Porco",
+      "destino": 0,
+      "ancora": {
+        "nome": "Javali",
+        "descricao": "Suíno selvagem (Sus scrofa) nativo da Eurásia e do norte da África, ancestral do porco doméstico.",
+        "variantes": [
+          "Javali-europeu",
+          "Sus scrofa"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cachorro-vinagre reconhecível (pelagem ruiva, focinho curto, patas curtas); o trecho não sustenta um nível 3 sem ambiguidade, então virou nível 2.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que canídeo brasileiro, de patas curtas, é este?",
+      "resposta": "Cachorro-vinagre",
+      "distratores": [
+        "Lobo-guará",
+        "Graxaim-do-campo",
+        "Irara"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cachorro-vinagre",
+        "descricao": "Canídeo sul-americano de corpo alongado, patas curtas e pelagem ruiva (Speothos venaticus).",
+        "variantes": [
+          "Cachorro-do-mato-vinagre",
+          "Speothos venaticus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Lobo-cinzento claro, na neve, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continentes vive naturalmente este canídeo selvagem?",
+      "resposta": "Europa, Ásia e América do Norte",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lobo-cinzento",
+        "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+        "variantes": [
+          "Lobo",
+          "Lobo-comum",
+          "Canis lupus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Leopardo-das-neves nítido; distratores são felinos manchados.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que felino de montanha é este?",
+      "resposta": "Leopardo-das-neves",
+      "distratores": [
+        "Leopardo",
+        "Leopardo-nebuloso",
+        "Lince-eurasiático"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Leopardo-das-neves",
+        "descricao": "Felino de pelagem cinza clara com rosetas escuras (Panthera uncia), das montanhas da Ásia central.",
+        "variantes": [
+          "Irbis",
+          "Panthera uncia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tatu de carapaça grande e bandas largas, sem texto; a pista \"maior do mundo\" garante resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este é o maior tatu do mundo. De que ele se alimenta principalmente?",
+      "resposta": "Cupins",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tatu-canastra",
+        "descricao": "Maior espécie viva de tatu (Priodontes maximus), sul-americano, que se alimenta sobretudo de cupins.",
+        "variantes": [
+          "Tatu-gigante",
+          "Tatu-carreta",
+          "Priodontes maximus"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Guepardo com manchas sólidas e marcas lacrimais visíveis; troquei para o_que_e com distratores felinos manchados.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que felino de manchas é este?",
+      "resposta": "Guepardo",
+      "distratores": [
+        "Leopardo",
+        "Onça-pintada",
+        "Serval"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Guepardo",
+        "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+        "variantes": [
+          "Chita",
+          "Acinonyx jubatus"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Diabo-da-tasmânia nítido e inconfundível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este mamífero carnívoro pertence a que grupo, o mesmo dos cangurus?",
+      "resposta": "Marsupiais",
+      "destino": 0,
+      "ancora": {
+        "nome": "Diabo-da-tasmânia",
+        "descricao": "Marsupial carnívoro de pelo preto (Sarcophilus harrisii), hoje restrito à ilha da Tasmânia.",
+        "variantes": [
+          "Demônio-da-tasmânia",
+          "Sarcophilus harrisii"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Macaco-narigudo macho com nariz grande, inconfundível; troquei para onde, pois com_o_que_se_liga forçaria nomear outro animal.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ilha asiática vive este macaco?",
+      "resposta": "Bornéu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Macaco-narigudo",
+        "descricao": "Macaco arborícola de nariz enorme (Nasalis larvatus), endêmico da ilha de Bornéu.",
+        "variantes": [
+          "Narigudo",
+          "Nasalis larvatus"
+        ]
+      }
+    }
+  ]
+}
