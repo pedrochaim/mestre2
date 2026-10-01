@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.23 — 2026-09-30**
+> **Versão preliminar 0.24 — 2026-09-30**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -550,12 +550,12 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
 
 ### Como se joga
 
-1. Um aparelho toca em **Nova partida** e recebe um **código de 4 letras**, sem I e O para não confundir com 1 e 0. Os outros entram digitando o código ou abrindo o link `https://mestre2-626dd.web.app/#CODIGO`.
+1. Um aparelho toca em **Nova partida** e recebe um **código de 4 letras**, sem I e O para não confundir com 1 e 0. Os outros entram digitando o código ou abrindo o link `https://mestre2-626dd.web.app/#CODIGO`, que o botão **Convidar** compartilha (pelo menu do celular ou copiando o link).
 2. Na aba **Tabuleiro**, alguém adiciona os jogadores, e o app sorteia o tema designado de cada um. Todos os aparelhos veem o tabuleiro ao vivo.
    - O tabuleiro em espiral (§15) mostra os peões. O botão **Modo mesa** o põe em tela cheia.
    - Abaixo fica a lista de jogadores: tema atual, posição, acertos (✓) e erros (✗), os botões − e + e, no estágio 1, a troca de tema.
 3. Na aba **Sorteio**, o questionador escolhe quem responde e sorteia a pergunta.
-   - O alto da tela mostra os jogadores, com o tema atual e a posição de cada um. Tocar num jogador o escolhe como respondente e seleciona o tema dele. Ainda dá para escolher outro tema à mão.
+   - O alto da tela mostra os jogadores, com o tema atual e a posição de cada um. Tocar num jogador o escolhe como respondente e seleciona o tema dele. Ainda dá para escolher outro tema à mão, numa grade com os temas que têm perguntas; os outros aparecem numa linha de "Em breve".
    - Os botões de tema têm a cor do tema, herdada do app antigo, e mostram quantas perguntas ainda não saíram na partida. "Qualquer tema" tem faixas com todas as cores.
    - Um segundo filtro escolhe **com ou sem figura**, **só com figura** ou **só sem figura**.
    - Depois ele toca em **Sortear**, na barra fixa do rodapé. A barra sempre mostra a ação do momento: **Sortear**, **Mostrar resposta** ou **Acertou** e **Errou**.
@@ -563,7 +563,7 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
 5. Ele toca em **Mostrar resposta**. O mesmo botão vira **Esconder resposta**, para cobrir a tela se alguém espiar. Quem responde já aparece ("Responde: Ana"), com a opção de **trocar**. Ele marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
 6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, dificuldade estimada, tipo, fontes com link, crédito da figura, autor e id. Antes da resposta o botão não aparece, para não vazar nada.
 
-Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão.
+Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão, feitos na aba Tabuleiro depois de tocar em **Editar jogadores** (casa, tema do estágio 1 e remoção). As regras ficam recolhidas em **Como se joga**.
 
 ### Dados
 
@@ -636,3 +636,4 @@ Todos os comandos rodam na pasta `app/`. O CLI do Firebase é usado via `npx`, s
 | 0.21 | 2026-09-30 | Trechos das fontes: artigo equivalente em português quando as fontes são só da Wikipédia em inglês (§11, §13) |
 | 0.22 | 2026-09-30 | Figuras de animais permitidas; só fotos de um único assunto; cinco perguntas de Mamíferos com figura (§6, §13) |
 | 0.23 | 2026-09-30 | App: a pergunta ocupa a tela ao sortear; barra fixa no rodapé com a ação do momento; Mostrar/Esconder resposta no mesmo botão; respondente escolhido uma vez só; figura com altura máxima (§16) |
+| 0.24 | 2026-09-30 | App: temas em grade, com os vazios numa linha de "Em breve"; botão Convidar; regras recolhíveis e modo Editar jogadores no tabuleiro; espiral do tabuleiro como marca na entrada (§16) |

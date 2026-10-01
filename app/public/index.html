@@ -59,13 +59,14 @@
     .figura img { width: 100%; max-height: 42vh; object-fit: contain; background: #000; border-radius: 10px; display: block; cursor: zoom-in; }
     .figura .credito { font-size: .75rem; color: var(--suave); margin-top: .2rem; }
     .figura .credito a { color: inherit; }
-    .temas { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0 0 .6rem; }
-    .temas button { background: var(--c); color: var(--ct); border: none; font-weight: 600; padding: .5rem .8rem; }
-    .temas button.qualquer { text-shadow: 0 0 3px #000, 0 0 2px #000; }
+    /* Temas numa grade uniforme de 2 colunas; "Qualquer tema" ocupa a linha toda, com as cores na borda. */
+    .temas { display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; margin: 0 0 .6rem; }
+    .temas button { background: var(--c); color: var(--ct); border: none; font-weight: 600; padding: .6rem .5rem; }
+    .temas button.qualquer { grid-column: 1 / -1; background: linear-gradient(var(--cartao), var(--cartao)) padding-box, var(--c) border-box;
+                             border: 3px solid transparent; color: var(--texto); }
+    .em-breve { margin: -.1rem 0 .7rem; }
     .temas button[aria-pressed="true"] { box-shadow: 0 0 0 3px var(--fundo), 0 0 0 5px var(--texto); }
     .temas button[aria-pressed="false"] { opacity: .7; }
-    .temas button.vazio { font-weight: 400; font-style: italic; }
-    .temas button.vazio[aria-pressed="false"] { opacity: .4; }
     #atual { border-top: 6px solid var(--c, var(--linha)); }
     .etiqueta { display: inline-block; background: var(--c); color: var(--ct); border-radius: 999px;
                 padding: .1rem .65rem; font-size: .85rem; font-weight: 600; }
@@ -89,6 +90,20 @@
     #tela-cheia img { max-width: 100%; max-height: 100%; object-fit: contain; }
     /* Barra fixa no rodapé com a ação do momento (Sortear, Mostrar resposta, Acertou/Errou), ao alcance do polegar. */
     #jogo { padding-bottom: 5.5rem; }
+    .convite { display: flex; align-items: center; gap: .6rem; margin: .2rem 0 .8rem; }
+    .convite .suave { flex: 1; }
+    .regras summary { cursor: pointer; color: var(--suave); margin: .7rem 0 .3rem; }
+    .regras p { margin: .3rem 0 .6rem; }
+    .editar-linha { display: flex; justify-content: flex-end; margin: .4rem 0 .2rem; }
+    .editar-linha button { padding: .3rem .8rem; font-size: .9rem; }
+    /* Ajustes manuais (casa, tema, remover) só aparecem no modo editar. */
+    ul.placar:not(.editando) .ajuste { display: none; }
+    ul.placar.editando li { flex-wrap: wrap; }
+    ul.placar.editando .info { flex-basis: 100%; }
+    ul.placar.editando li > :nth-child(2) { margin-left: auto; }
+    .marca { width: min(78vw, 300px); margin: .5rem auto 1rem; }
+    .marca svg { display: block; width: 100%; height: auto; }
+    .lema { text-align: center; color: var(--suave); margin: 0 0 1rem; }
     .barra { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5;
              padding: 1.2rem 16px calc(.8rem + env(safe-area-inset-bottom));
              background: linear-gradient(to bottom, transparent, var(--fundo) 40%); }
@@ -106,6 +121,8 @@
   <!-- Entrada -->
   <section id="entrada">
     <h1>Mestre2</h1>
+    <div id="marca" class="marca" aria-hidden="true"></div>
+    <p class="lema">Quiz de conhecimentos gerais para jogar em grupo, com as perguntas lidas em voz alta.</p>
     <div class="cartao">
       <button id="criar" class="principal" style="width:100%">Nova partida</button>
     </div>
@@ -125,7 +142,10 @@
       <div>Partida <span id="codigo" class="codigo"></span></div>
       <button id="sair">Sair</button>
     </div>
-    <p class="suave">Os outros entram com este código ou pelo link desta página.</p>
+    <div class="convite">
+      <span id="convite-msg" class="suave">Os outros entram com este código.</span>
+      <button id="convidar">Convidar</button>
+    </div>
     <div class="abas" role="tablist">
       <button role="tab" data-aba="sorteio" aria-selected="true">Sorteio</button>
       <button role="tab" data-aba="placar" aria-selected="false">Tabuleiro</button>
@@ -144,6 +164,7 @@
 
       <div class="cartao">
         <div id="temas" class="temas"></div>
+        <p id="em-breve" class="suave em-breve" hidden></p>
         <select id="figura">
           <option value="todas">Com ou sem figura</option>
           <option value="com">Só com figura</option>
@@ -182,10 +203,14 @@
         <p id="vencedor-tab" class="vencedor" hidden></p>
         <div id="tabuleiro" class="tabuleiro"></div>
         <button id="modo-mesa" style="width:100%;margin-top:.6rem">Modo mesa: tabuleiro em tela cheia</button>
-        <p class="suave">Cada jogador começa na casa grande com o nome do seu tema e percorre o braço dessa cor
-          (estágio 1: a casa grande e mais 7). Depois vem o anel central (estágio 2), onde a cor da casa do peão é o
-          tema da próxima pergunta; a volta termina no tema do próprio jogador. O centro é a chegada.
-          Cada acerto avança uma casa; errar não move o peão.</p>
+        <details class="regras">
+          <summary>Como se joga</summary>
+          <p class="suave">Cada jogador começa na casa grande com o nome do seu tema e percorre o braço dessa cor
+            (estágio 1: a casa grande e mais 7). Depois vem o anel central (estágio 2), onde a cor da casa do peão é o
+            tema da próxima pergunta; a volta termina no tema do próprio jogador. O centro é a chegada.
+            Cada acerto avança uma casa; errar não move o peão.</p>
+        </details>
+        <div class="editar-linha"><button id="editar" aria-pressed="false">Editar jogadores</button></div>
         <ul id="placar" class="placar"></ul>
         <p id="placar-vazio" class="suave">Nenhum jogador ainda.</p>
         <form id="form-jogador" class="linha" style="margin-top:.8rem">
@@ -422,13 +447,15 @@
   function desenharTemas() {
     const temas = temasDoJogo();
     if (!temas.includes(temaEscolhido)) temaEscolhido = "*";
-    $("temas").replaceChildren(...["*", ...temas].map(t => {
+    // Só os temas com perguntas viram botões; os outros ficam listados numa linha de "em breve".
+    const vazios = temas.filter(t => !temPerguntas(t));
+    $("em-breve").hidden = !vazios.length;
+    $("em-breve").textContent = `Em breve: ${vazios.join(", ")}.`;
+    $("temas").replaceChildren(...["*", ...temas.filter(temPerguntas)].map(t => {
       const b = document.createElement("button");
-      const vazio = t !== "*" && !temPerguntas(t);
       const novas = restantes(t).length;
-      b.textContent = `${t === "*" ? "Qualquer tema" : t} ${vazio ? "· em breve" : novas || !doFiltro(t).length ? `(${novas})` : "(só repetidas)"}`;
+      b.textContent = `${t === "*" ? "Qualquer tema" : t} ${novas || !doFiltro(t).length ? `(${novas})` : "(só repetidas)"}`;
       b.classList.toggle("qualquer", t === "*");
-      b.classList.toggle("vazio", vazio);
       b.setAttribute("aria-pressed", t === temaEscolhido);
       pintar(b, t);
       b.onclick = () => { temaEscolhido = t; $("msg-sorteio").textContent = ""; desenharTemas(); };
@@ -847,14 +874,15 @@
         if (!opcoes.includes(j.tema)) opcoes.unshift(j.tema || "");
         troca.replaceChildren(...opcoes.map(t => new Option(t || "—", t, false, t === (j.tema || ""))));
         troca.onchange = () => troca.value && updateDoc(ref, { tema: troca.value });
+        troca.classList.add("ajuste");
         detalhe.append(troca);
       }
       const info = el("div", { className: "info" });
       info.append(nome, detalhe);
-      const menos = el("button", { textContent: "−", title: "Voltar uma casa", disabled: p <= 0 });
+      const menos = el("button", { className: "ajuste", textContent: "−", title: "Voltar uma casa", disabled: p <= 0 });
       const casa = el("span", { className: "pontos", textContent: p, title: "Casa" });
-      const mais = el("button", { textContent: "+", title: "Avançar uma casa", disabled: p >= CHEGADA });
-      const tirar = el("button", { textContent: "×", title: "Remover jogador" });
+      const mais = el("button", { className: "ajuste", textContent: "+", title: "Avançar uma casa", disabled: p >= CHEGADA });
+      const tirar = el("button", { className: "ajuste", textContent: "×", title: "Remover jogador" });
       menos.onclick = () => updateDoc(ref, { pontos: increment(-1) });
       mais.onclick = () => updateDoc(ref, { pontos: increment(1) });
       tirar.onclick = () => confirm(`Remover ${j.nome} da partida?`) && deleteDoc(ref);
@@ -865,6 +893,25 @@
     }));
   }
 
+  $("editar").onclick = () => {
+    const ligar = !$("placar").classList.contains("editando");
+    $("placar").classList.toggle("editando", ligar);
+    $("editar").setAttribute("aria-pressed", ligar);
+    $("editar").textContent = ligar ? "Concluir" : "Editar jogadores";
+  };
+
+  // Convite: o menu de compartilhar do celular (WhatsApp etc.) ou, sem ele, o link copiado.
+  $("convidar").onclick = async () => {
+    const url = `${location.origin}${location.pathname}#${codigo}`;
+    try {
+      if (navigator.share) return await navigator.share({ title: "Mestre2", text: `Entre na partida ${codigo} do Mestre2:`, url });
+      await navigator.clipboard.writeText(url);
+      $("convite-msg").textContent = "Link copiado. Cole no grupo.";
+    } catch (e) {
+      if (e.name !== "AbortError") $("convite-msg").textContent = `Link: ${url}`;
+    }
+  };
+
   $("form-jogador").onsubmit = async e => {
     e.preventDefault();
     const nome = $("campo-nome").value.trim();
@@ -874,6 +921,9 @@
   };
 
   // ---------------------------------------------------------------- início
+
+  // A espiral do tabuleiro, sem peões, como marca da tela inicial.
+  carregando.then(() => { $("marca").innerHTML = svgTabuleiro(); });
 
   const doLink = location.hash.slice(1).toUpperCase();
   if (/^[A-Z]{4}$/.test(doLink)) {
