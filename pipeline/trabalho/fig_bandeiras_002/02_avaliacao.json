@@ -1,0 +1,253 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira nítida e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Japão",
+      "distratores": [
+        "Bangladesh",
+        "Palau",
+        "Laos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Japão",
+        "descricao": "País insular do Leste Asiático, cuja capital é Tóquio.",
+        "variantes": [
+          "Nippon",
+          "Nihon"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Bandeira quadrada com cruz branca, inconfundível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a cidade-sede do governo federal do país desta bandeira?",
+      "resposta": "Berna",
+      "destino": 0,
+      "ancora": {
+        "nome": "Suíça",
+        "descricao": "País sem litoral da Europa Central, confederação de 26 cantões.",
+        "variantes": [
+          "Confederação Suíça",
+          "Switzerland"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Dragão sobre fundo bicolor, único e legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Butão",
+      "distratores": [
+        "Nepal",
+        "Sri Lanka",
+        "Mongólia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Butão",
+        "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+        "variantes": [
+          "Reino do Butão",
+          "Bhutan"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira com Sol de Maio, reconhecível e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que país faz fronteira, a oeste, com o país desta bandeira?",
+      "resposta": "Chile",
+      "destino": 0,
+      "ancora": {
+        "nome": "Argentina",
+        "descricao": "País do sul da América do Sul, de capital Buenos Aires.",
+        "variantes": [
+          "República Argentina"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Estrela de Davi azul entre listras, nítida e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Israel",
+      "destino": 0,
+      "ancora": {
+        "nome": "Israel",
+        "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+        "variantes": [
+          "Estado de Israel"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Escudo e lanças sobre listras, distintiva e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Nairóbi",
+      "distratores": [
+        "Mombasa",
+        "Kampala",
+        "Adis Abeba"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quênia",
+        "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+        "variantes": [
+          "República do Quênia",
+          "Kenya"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Verde e vermelho com esfera armilar, nítida e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Portugal",
+      "destino": 0,
+      "ancora": {
+        "nome": "Portugal",
+        "descricao": "País do sudoeste da Europa, na Península Ibérica, de capital Lisboa.",
+        "variantes": [
+          "República Portuguesa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tricolor com roda de Ashoka, nítida e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Nova Délhi",
+      "distratores": [
+        "Mumbai",
+        "Calcutá",
+        "Daca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Índia",
+        "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+        "variantes": [
+          "República da Índia",
+          "India"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Leão com espada, única e legível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que oceano fica o país desta bandeira?",
+      "resposta": "Oceano Índico",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sri Lanka",
+        "descricao": "País insular do sul da Ásia, antigo Ceilão, ao sul da Índia.",
+        "variantes": [
+          "Ceilão",
+          "República Socialista Democrática do Sri Lanka"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Folha de bordo vermelha, nítida e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Ottawa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Canadá",
+        "descricao": "País da América do Norte, de bandeira com folha de bordo.",
+        "variantes": [
+          "Canada"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Crescente e estrela sobre vermelho, legível e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é esta bandeira?",
+      "resposta": "Turquia",
+      "distratores": [
+        "Tunísia",
+        "Argélia",
+        "Paquistão"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Turquia",
+        "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+        "variantes": [
+          "Türkiye",
+          "República da Turquia"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira distintiva com fuzil e livro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país desta bandeira?",
+      "resposta": "Maputo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Moçambique",
+        "descricao": "País lusófono do sudeste da África, banhado pelo Índico.",
+        "variantes": [
+          "República de Moçambique",
+          "Mozambique"
+        ]
+      }
+    }
+  ]
+}
