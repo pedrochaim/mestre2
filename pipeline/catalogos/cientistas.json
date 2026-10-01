@@ -61,28 +61,28 @@
       "titulo": "en:Stephen Hawking",
       "camada": 1,
       "destino": 7,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Louis Pasteur",
       "titulo": "en:Louis Pasteur",
       "camada": 1,
       "destino": 3,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Oswaldo Cruz",
       "titulo": "en:Oswaldo Cruz",
       "camada": 1,
       "destino": 3,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Alexander Graham Bell",
       "titulo": "en:Alexander Graham Bell",
       "camada": 1,
       "destino": 5,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Leonardo da Vinci",
@@ -152,28 +152,28 @@
       "titulo": "en:Dmitri Mendeleev",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Charles Babbage",
       "titulo": "en:Charles Babbage",
       "camada": 2,
       "destino": 4,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Michael Faraday",
       "titulo": "en:Michael Faraday",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Max Planck",
       "titulo": "en:Max Planck",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Niels Bohr",
@@ -250,32 +250,312 @@
       "titulo": "en:Ernest Rutherford",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Srinivasa Ramanujan",
       "titulo": "en:Srinivasa Ramanujan",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Tycho Brahe",
       "titulo": "en:Tycho Brahe",
       "camada": 3,
       "destino": 7,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Grace Hopper",
       "titulo": "en:Grace Hopper",
       "camada": 3,
       "destino": 4,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Emmy Noether",
       "titulo": "en:Emmy Noether",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Aristóteles",
+      "titulo": "en:Aristotle",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Arquimedes",
+      "titulo": "en:Archimedes",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Pitágoras",
+      "titulo": "en:Pythagoras",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Hipócrates",
+      "titulo": "en:Hippocrates",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Benjamin Franklin",
+      "titulo": "en:Benjamin Franklin",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Carl Sagan",
+      "titulo": "en:Carl Sagan",
+      "camada": 1,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Steve Jobs",
+      "titulo": "en:Steve Jobs",
+      "camada": 1,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Bill Gates",
+      "titulo": "en:Bill Gates",
+      "camada": 1,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Irmãos Wright",
+      "titulo": "en:Wright brothers",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "J. Robert Oppenheimer",
+      "titulo": "en:J. Robert Oppenheimer",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Johannes Gutenberg",
+      "titulo": "en:Johannes Gutenberg",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Alfred Nobel",
+      "titulo": "en:Alfred Nobel",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Euclides",
+      "titulo": "en:Euclid",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "René Descartes",
+      "titulo": "en:René Descartes",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Blaise Pascal",
+      "titulo": "en:Blaise Pascal",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Werner Heisenberg",
+      "titulo": "en:Werner Heisenberg",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Richard Feynman",
+      "titulo": "en:Richard Feynman",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Enrico Fermi",
+      "titulo": "en:Enrico Fermi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rosalind Franklin",
+      "titulo": "en:Rosalind Franklin",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Guglielmo Marconi",
+      "titulo": "en:Guglielmo Marconi",
+      "camada": 2,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "James Watt",
+      "titulo": "en:James Watt",
+      "camada": 2,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Alessandro Volta",
+      "titulo": "en:Alessandro Volta",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tim Berners-Lee",
+      "titulo": "en:Tim Berners-Lee",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Pierre Curie",
+      "titulo": "en:Pierre Curie",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Neil deGrasse Tyson",
+      "titulo": "en:Neil deGrasse Tyson",
+      "camada": 2,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Alexander von Humboldt",
+      "titulo": "en:Alexander von Humboldt",
+      "camada": 2,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "César Lattes",
+      "titulo": "en:César Lattes",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mário Schenberg",
+      "titulo": "en:Mário Schenberg",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Paul Dirac",
+      "titulo": "en:Paul Dirac",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Wolfgang Pauli",
+      "titulo": "en:Wolfgang Pauli",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lise Meitner",
+      "titulo": "en:Lise Meitner",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Barbara McClintock",
+      "titulo": "en:Barbara McClintock",
+      "camada": 3,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Andreas Vesalius",
+      "titulo": "en:Andreas Vesalius",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "William Harvey",
+      "titulo": "en:William Harvey",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Santiago Ramón y Cajal",
+      "titulo": "en:Santiago Ramón y Cajal",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Antonie van Leeuwenhoek",
+      "titulo": "en:Antonie van Leeuwenhoek",
+      "camada": 3,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Henrietta Leavitt",
+      "titulo": "en:Henrietta Swan Leavitt",
+      "camada": 3,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Vera Rubin",
+      "titulo": "en:Vera Rubin",
+      "camada": 3,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Kurt Gödel",
+      "titulo": "en:Kurt Gödel",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Bernhard Riemann",
+      "titulo": "en:Bernhard Riemann",
       "camada": 3,
       "destino": 2,
       "status": "nova"

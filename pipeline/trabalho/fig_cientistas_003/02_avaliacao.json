@@ -1,0 +1,209 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara de Stephen Hawking, figura pública, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista é este, famoso por seus estudos sobre buracos negros?",
+      "resposta": "Stephen Hawking",
+      "distratores": [
+        "Roger Penrose",
+        "Carl Sagan",
+        "Kip Thorne"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Stephen Hawking",
+        "descricao": "Físico teórico e cosmólogo inglês, professor lucasiano em Cambridge, conhecido por estudos sobre buracos negros.",
+        "variantes": [
+          "Stephen William Hawking"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida de Mendeleev, sem texto. Pergunta de nível 3 pelo elemento sintético que leva seu nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que elemento químico sintético leva o nome do cientista desta foto?",
+      "resposta": "Mendelévio",
+      "destino": 1,
+      "ancora": {
+        "nome": "Dmitri Mendeleev",
+        "descricao": "Químico russo que formulou a lei periódica e criou uma versão da tabela periódica dos elementos.",
+        "variantes": [
+          "Dmitri Mendeleiev",
+          "Dmitri Ivanovich Mendeleev"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico nítido de Rutherford, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que físico neozelandês, pioneiro da física nuclear, é este?",
+      "resposta": "Ernest Rutherford",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ernest Rutherford",
+        "descricao": "Físico e químico neozelandês, pioneiro da física atômica e nuclear, Nobel de Química em 1908.",
+        "variantes": [
+          "Lorde Rutherford"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro de Louis Pasteur, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista é este, que desenvolveu as vacinas contra a raiva e o carbúnculo?",
+      "resposta": "Louis Pasteur",
+      "distratores": [
+        "Robert Koch",
+        "Joseph Lister",
+        "Claude Bernard"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Louis Pasteur",
+        "descricao": "Químico e microbiologista francês, criador das vacinas contra a raiva e o carbúnculo e da pasteurização.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Gravura nítida de Charles Babbage, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que matemático inglês, idealizador da máquina analítica, é retratado nesta gravura?",
+      "resposta": "Charles Babbage",
+      "destino": 4,
+      "ancora": {
+        "nome": "Charles Babbage",
+        "descricao": "Matemático e engenheiro inglês que concebeu a máquina diferencial e a máquina analítica, precursoras do computador.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida de Ramanujan, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cientista indiano é este, autodidata e brilhante em teoria dos números?",
+      "resposta": "Srinivasa Ramanujan",
+      "distratores": [
+        "C. V. Raman",
+        "Subrahmanyan Chandrasekhar",
+        "Homi Bhabha"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Srinivasa Ramanujan",
+        "descricao": "Matemático indiano do início do século vinte, autodidata, com contribuições à teoria dos números e às séries infinitas.",
+        "variantes": [
+          "Srinivasa Ramanujan Iyengar"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de Oswaldo Cruz, figura pública, sem texto. Pergunta de nível 3 sobre a instituição que leva seu nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que fundação de pesquisa em saúde, com sede no Rio de Janeiro, leva o nome do médico desta foto?",
+      "resposta": "Fiocruz (Fundação Oswaldo Cruz)",
+      "destino": 3,
+      "ancora": {
+        "nome": "Oswaldo Cruz",
+        "descricao": "Médico sanitarista e bacteriologista brasileiro, fundador do Instituto Oswaldo Cruz.",
+        "variantes": [
+          "Oswaldo Gonçalves Cruz"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato pintado nítido de Faraday, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cientista inglês, descobridor da indução eletromagnética, aparece neste retrato pintado?",
+      "resposta": "Michael Faraday",
+      "destino": 0,
+      "ancora": {
+        "nome": "Michael Faraday",
+        "descricao": "Químico e físico inglês que descobriu a indução eletromagnética e as leis da eletrólise.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O quadro traz inscrição em latim com o nome 'Tychonis Brahe', que entrega a resposta."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico claro de Alexander Graham Bell, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este inventor, a quem se atribui a primeira patente do telefone?",
+      "resposta": "Alexander Graham Bell",
+      "destino": 5,
+      "ancora": {
+        "nome": "Alexander Graham Bell",
+        "descricao": "Inventor e cientista nascido na Escócia, a quem se atribui a primeira patente prática do telefone.",
+        "variantes": [
+          "Graham Bell"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato fotográfico legível de Max Planck, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que constante fundamental da física leva o nome do cientista desta foto?",
+      "resposta": "Constante de Planck",
+      "distratores": [
+        "Constante de Boltzmann",
+        "Constante de Avogadro",
+        "Constante de Faraday"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Max Planck",
+        "descricao": "Físico teórico alemão, originador da teoria quântica e Nobel de Física de 1918.",
+        "variantes": [
+          "Max Karl Ernst Ludwig Planck"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A plaqueta no uniforme mostra 'COMO HOPPER', que entrega a resposta; além disso há uma bandeira dos EUA ao fundo."
+    }
+  ]
+}
