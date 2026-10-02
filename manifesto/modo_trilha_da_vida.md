@@ -22,8 +22,9 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 **Tamanho do tabuleiro:** quem responde **cerca de 20 perguntas certas**, contando só o movimento de acertar (sem cartas nem outras mecânicas), chega ao fim. Com o dado de 1 a 3 (média 2), a trilha tem **~40 casas**. As encruzilhadas também são medidas em acertos.
 
 **Começo do jogo**
-- Cada jogador **escolhe uma profissão** e **compra uma carta**.
-- A profissão é uma **combinação de 2 temas** mais um **perk**, uma habilidade que modifica o jogo para quem a tem.
+- Cada jogador **escolhe uma profissão**, **uma personalidade** e **compra uma carta**.
+- **Profissões:** são **todas as combinações de 2 temas**, 28 ao todo.
+- **Personalidades:** separadas das profissões, são habilidades que modificam o jogo para quem as tem (os antigos perks).
 
 **Casas**
 - **Casas de Ação:** temáticas, com um texto de "vida". Exemplo: "Vá ao Cinema", que dá uma pergunta de Cinema.
@@ -40,20 +41,32 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 ## Propostas (aguardando aprovação)
 
-**Perks das profissões** (exemplos):
+**Nomes das 28 profissões** (proposta):
 
-| Profissão | Temas | Perk |
-|---|---|---|
-| Cientista | Ciências + Natureza | **Método científico:** uma vez por fase, se errar, responde outra pergunta do mesmo tema |
-| Jornalista | Cotidiano + História | **Fontes:** vê o tema da próxima casa antes de decidir usar uma carta |
-| Explorador | Geografia + Natureza | **Atalho:** nas encruzilhadas, pega um caminho sem o custo dele |
-| Artista | Artes e Pensamento + Entretenimento | **Inspiração:** na Casa em Branco, compra 2 cartas e fica com 1 |
-| Atleta | Esportes + Cotidiano | **Fôlego:** acerto no próprio tema anda 1 casa a mais |
-| Cineasta | Entretenimento + Geografia | **Olhar treinado:** perguntas com figura valem o dobro |
-| Historiador | História + Artes e Pensamento | **Memória:** guarda uma carta a mais na mão |
-| Engenheiro | Ciências + Esportes | **Precisão:** pode trocar uma múltipla escolha por aberta, para andar mais |
+| | História | Natureza | Ciências | Artes e Pens. | Entretenimento | Esportes | Cotidiano |
+|---|---|---|---|---|---|---|---|
+| **Geografia** | Diplomata | Explorador | Meteorologista | Arquiteto | Blogueiro de viagens | Alpinista | Guia de turismo |
+| **História** | | Paleontólogo | Arqueólogo | Curador de museu | Roteirista | Cronista esportivo | Antropólogo |
+| **Natureza** | | | Biólogo | Paisagista | Documentarista | Instrutor de mergulho | Agrônomo |
+| **Ciências** | | | | Inventor | Desenvolvedor de games | Médico do esporte | Engenheiro |
+| **Artes e Pens.** | | | | | Ator | Ginasta | Escritor |
+| **Entretenimento** | | | | | | Locutor esportivo | Publicitário |
+| **Esportes** | | | | | | | Personal trainer |
 
-O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser que só o perk dependa deles, ou que acertar nesses temas dê alguma vantagem.
+**Personalidades** (proposta):
+
+| Personalidade | Efeito |
+|---|---|
+| **Metódico** | Uma vez por fase, se errar, responde outra pergunta do mesmo tema |
+| **Curioso** | Vê o tema da próxima casa antes de decidir usar uma carta |
+| **Aventureiro** | Nas encruzilhadas, pega um caminho sem o custo dele |
+| **Criativo** | Na Casa em Branco, compra 2 cartas e fica com 1 |
+| **Competitivo** | Acerto num tema da sua profissão anda 1 casa a mais |
+| **Observador** | Pergunta com figura certa anda o dado duas vezes |
+| **Colecionador** | Guarda uma carta a mais na mão |
+| **Sortudo** | Uma vez por fase, rola o dado duas vezes e fica com o maior |
+
+**Escolha no começo** (proposta): cada jogador recebe 3 profissões e escolhe 1, sem repetir temas de outro jogador; depois recebe 2 personalidades e escolhe 1. Com 3 ou 4 jogadores há variedade de sobra.
 
 **Casas de Ação ligadas a subtemas** (exemplos): "Vá ao Cinema" → Cinema; "Visite um museu" → Pintura ou Escultura e Arquitetura; "Viaje para a Ásia" → Antigas Civilizações do Oriente ou Países e Capitais; "Assista ao jogo" → Futebol; "Faça um churrasco" → Culinária e Bebidas; "Leia um livro" → Literatura Brasileira ou Mundial. Se o subtema tiver poucas perguntas, a casa usa o tema inteiro.
 
@@ -94,7 +107,7 @@ Um primeiro desenho está em [`../prototipos/trilha_da_vida/`](../prototipos/tri
 
 ## O que o modo exige do app
 
-- Estado novo da partida: profissão, perk e mão de cartas de cada jogador.
+- Estado novo da partida: profissão, personalidade e mão de cartas de cada jogador.
 - Tabuleiro novo: uma trilha com bifurcações, com casas de Ação, de tema amplo e em Branco.
 - Sorteio por **subtema**, além de por tema, para as casas de Ação. O app hoje só sorteia por tema.
 - Turno guiado: dado, pergunta definida pela casa ou pela carta, resultado.
