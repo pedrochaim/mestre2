@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.35 — 2026-10-01**
+> **Versão preliminar 0.36 — 2026-10-01**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -173,6 +173,7 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 - **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
 - **Só imagens do Wikimedia Commons**, com licença livre (CC BY, CC BY-SA ou domínio público). Autor e licença são sempre registrados.
 - **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É uso privado, num jogo entre amigos, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
 - **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa.
 
 ### Diretrizes de criação das perguntas com figura
@@ -324,7 +325,7 @@ Toda pergunta precisa passar em **todos** os critérios abaixo:
 | `distratores` | só em `multipla` | Exatamente 3. Proibido em `aberta` (§6) |
 | `autor` | — | Autor humano. Só é preenchido quando indicado |
 | `dificuldade` | — | 1 (fácil) a 5 (difícil), **calculada** pela popularidade da âncora (§4). Gravada pelo pipeline, nunca escrita pelo LLM. **Apenas ilustrativa**: não entra em nenhuma decisão |
-| `imagem` | — | Figura mostrada ao respondente (§6): `arquivo` (id da pergunta + extensão, em `pipeline/banco/imagens/`), `origem` (página no Commons ou, para Pokémon, no Bulbagarden Archives), `autor` e `licenca` |
+| `imagem` | — | Figura mostrada ao respondente (§6): `arquivo` (id da pergunta + extensão, em `pipeline/banco/imagens/`), `origem` (página no Commons ou, para Pokémon, no Bulbagarden Archives), `autor` e `licenca`. Opcional: `revelacao`, a imagem mostrada só depois da resposta (id + `_revelacao` + extensão), usada nas silhuetas de Pokémon |
 
 ### Âncora ([`ancora.schema.json`](ancora.schema.json))
 
@@ -552,6 +553,8 @@ Dois lotes piloto de 30 perguntas foram rodados em 2026-09-29: *Geografia › Pa
 
 **Pokémon com figura removidas (2026-10-01).** As 57 perguntas "Qual é este pokémon?" foram apagadas, com as imagens, para que o estilo delas seja refeito. O catálogo `pokemon` fica pausado no autopiloto (`pausados` em `pipeline/banco/estado.json`) até o novo estilo ser definido. As âncoras continuam no cadastro. O exportador do app passou a apagar de `app/public/img/` as imagens que nenhuma pergunta usa.
 
+**Pokémon em silhueta (2026-10-01).** O novo estilo, aprovado a partir de uma amostra, é a silhueta preta sobre raios azuis e amarelos, com a arte colorida na resposta (§6). O primeiro lote (`fig_pokemon_001`) curou o catálogo do zero e aproveitou 12 de 12. Oito perguntas são de nome ("Quem é esse pokémon?"), e as outras quatro vão um passo além: de quem o Mimikyu se disfarça, quem evolui para Charizard, Gyarados e Scizor. O catálogo saiu da pausa.
+
 **Recrítica das figuras (2026-10-01).** As 237 perguntas com figura feitas pelo pipeline antes da crítica passaram por ela (`pipeline/recriticar_figuras.py`): 192 aprovadas, 36 reescritas, 7 apagadas e 2 mantidas por revisão humana, contra o crítico. Nenhuma repetia uma pergunta da mesma âncora. O defeito mais comum era a **pista que entrega a resposta sem olhar a figura**: "Chanceler de Ferro" (Bismarck), "único satélite natural da Terra" (Lua), "feijão preto e carnes" (feijoada), "apelidada de Rainha" (Hortência). Vieram depois distratores que também estavam certos (a arara-de-garganta-azul também tem dorso azul e peito amarelo) e imprecisões (o maior papagaio *voador*). As duas reescritas recusadas trocavam uma pista por outra que entregava ainda mais. As 185 perguntas com figura feitas à mão não passaram pela recrítica. O custo foi de cerca de US$ 5, ou 2 centavos por pergunta.
 
 Também: o custo das chamadas de figura era registrado em `consumo.jsonl` com o nome do lote de texto anterior, na etapa "registrar" (cerca de US$ 6). Agora cada chamada leva o id do lote de figuras e a sua etapa.
@@ -572,7 +575,6 @@ Também: o custo das chamadas de figura era registrado em `consumo.jsonl` com o 
 - [ ] **Tamanho do tabuleiro** (§15): 8 casas no estágio 1 (a casa grande do início e mais 7) e 8 no estágio 2 (uma por tema), ou seja, 16 acertos até a chegada. Ajustar depois de jogar, se preciso.
 - [ ] **Como a vez passa** (§15): quem é o próximo questionador e o próximo respondente. Hoje o grupo combina de viva voz.
 - [ ] **Acesso ao app** (§16): hoje não há login, e quem conhece o código de uma partida pode alterá-la. Rever se o app sair do círculo de amigos.
-- [ ] **Novo estilo das perguntas de Pokémon com figura** (§13): as antigas foram removidas, e o catálogo `pokemon` está pausado. Definir o estilo e tirar `figura:pokemon` de `pausados`.
 - [ ] **Arte de Pokémon num site público** (§6): o manifesto trata a arte oficial como uso privado, mas o app fica num endereço aberto, sem login. Decidir entre pôr o app atrás de um login simples, tirar as imagens de Pokémon do banco público ou aceitar o risco.
 - [ ] **Repositório dentro do Dropbox:** o autopiloto faz um commit a cada lote, e o Dropbox sincroniza a pasta `.git` ao mesmo tempo. Se outra máquina abrir o projeto, há risco de conflito no repositório. Considerar mover o repositório para fora do Dropbox.
 - [ ] **Pista que entrega a resposta nas perguntas com figura** (§13): foi o defeito mais comum na recrítica. Reforçar no `prompts/figuras.md` que a pista do enunciado ajuda a distinguir, mas não identifica sozinha. Avaliar a recrítica das 185 figuras feitas à mão.
@@ -651,7 +653,7 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
    - Um segundo filtro escolhe **com ou sem figura**, **só com figura** ou **só sem figura**.
    - Depois ele toca em **Sortear**, na barra fixa do rodapé. A barra sempre mostra a ação do momento: **Sortear**, **Mostrar resposta** ou **Acertou** e **Errou**.
 4. A pergunta ocupa a tela, e a escolha de jogador e de tema some até a rodada acabar. Ele lê a pergunta em voz alta. Se houver figura, toca nela para abri-la em **tela cheia**, só a imagem, e mostra o aparelho ao respondente. Outro toque fecha a tela cheia.
-5. Ele toca em **Mostrar resposta**. O mesmo botão vira **Esconder resposta**, para cobrir a tela se alguém espiar. Quem responde já aparece ("Responde: Ana"), com a opção de **trocar**. Ele marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
+5. Ele toca em **Mostrar resposta**. Se a figura tiver revelação, como as silhuetas de Pokémon, ela troca para a arte colorida, e volta à silhueta ao esconder. O mesmo botão vira **Esconder resposta**, para cobrir a tela se alguém espiar. Quem responde já aparece ("Responde: Ana"), com a opção de **trocar**. Ele marca **Acertou (+1)**, **Errou** ou **Pular sem pontuar**. Um acerto avança o peão uma casa.
 6. Depois da resposta, o botão **Sobre a pergunta** abre a ficha dela: tema e subtema, âncora com descrição, ângulo, dificuldade estimada, tipo, fontes com link, fonte da figura (autor, licença e link), autor e id. Antes da resposta o botão não aparece, para não vazar nada. O crédito da figura só aparece nessa ficha, e nunca junto da foto: numa pergunta de pintura, o autor da imagem é a própria resposta.
 
 7. A aba **Informações** mostra o que há no banco: o total de perguntas, quantas são de múltipla escolha, quantas são abertas e quantas têm figura. Abaixo vem um bloco por tema, na cor dele, com o total. Tocar no bloco abre a descrição do tema e a lista de subtemas, cada um com descrição e contagens. Subtemas ainda sem perguntas aparecem como "em breve". A mesma página abre na tela inicial, pelo botão **Informações sobre as perguntas**, para consulta fora de uma partida.
@@ -834,5 +836,6 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.36 | 2026-10-01 | Perguntas de Pokémon com figura em silhueta, no estilo "Quem é esse pokémon?" do desenho, com a arte colorida revelada na resposta: campo opcional `revelacao` da imagem; as 57 perguntas antigas foram removidas e o primeiro lote novo entrou (§6, §10, §13, §16) |
 | 0.35 | 2026-10-01 | Revisão do pipeline: nome igual não liga mais uma proposta a uma âncora (vai ao juiz), 15 perguntas de homônimos religadas; perguntas com figura passam por crítica e checagem de repetidos; detector de cota estreito, com espera até o horário de liberação; metas de catálogo de até 40% do tema, pelo déficit relativo; limites por âncora completos na Parte I; aviso desatualizado sobre figuras corrigido (§4, §6, §11, §13, §14, §17). App: aba Informações (§16) |
 | 0.34 | 2026-10-01 | Sessão 1 da programação: autopiloto, plano com metas e orientações por subtema, etapa de figuras com avaliação visual, saturação por âncora no banco inteiro e checagem de repetidos pela âncora (§11, §14, §17) |

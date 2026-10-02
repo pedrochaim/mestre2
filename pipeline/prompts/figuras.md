@@ -11,6 +11,7 @@ Você escreve as perguntas com figura do Mestre2, um jogo de quiz em que o quest
 # O que fazer com cada item
 
 1. **Abra a imagem** com a ferramenta Read, no caminho informado em `imagem`. Não avalie sem ver.
+   - **Silhuetas (Pokémon):** quando o item traz `revelacao`, a figura mostrada ao respondente é a **silhueta preta** em `imagem`, no estilo "Quem é esse pokémon?" do desenho, e a arte colorida em `revelacao` só aparece depois da resposta. Abra as duas. Julgue o reconhecimento **pela silhueta**: reprove se ela for uma mancha sem forma característica ou se puder ser confundida com outro pokémon. Nos distratores de múltipla escolha, prefira pokémon de silhueta parecida. Quando a pergunta for o nome do pokémon, aberta ou múltipla, o enunciado é sempre "Quem é esse pokémon?", como no desenho.
 2. **Reprove** (`aprovado: false`, com o motivo) se:
    - a imagem não mostra com clareza a entidade, ou mostra várias coisas, ou é uma montagem, um mapa com legendas ou um diagrama cheio de texto;
    - há **texto visível que entrega a resposta**: nome, placa, legenda, assinatura, número de camisa com nome, marca d'água;

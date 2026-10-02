@@ -1,0 +1,223 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta nítida e icônica (orelhas pontudas, cauda em raio).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Pikachu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pikachu",
+        "descricao": "Pokémon do tipo elétrico, número 25 da Pokédex Nacional, mascote da franquia.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta característica (cauda longa enrolada, cabeça com orelhas), reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é este pokémon?",
+      "resposta": "Mew",
+      "distratores": [
+        "Mewtwo",
+        "Celebi",
+        "Jirachi"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mew",
+        "descricao": "Pokémon psíquico lendário, número 151 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta distintiva do disfarce torto com a cauda aparecendo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon se disfarça de qual outro pokémon?",
+      "resposta": "Pikachu",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mimikyu",
+        "descricao": "Pokémon fantasma e fada, número 778 da Pokédex Nacional, que se disfarça com um pano.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta clara com asas abertas e chama na cauda.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que pokémon evolui diretamente para este?",
+      "resposta": "Charmeleon",
+      "destino": 0,
+      "ancora": {
+        "nome": "Charizard",
+        "descricao": "Pokémon de fogo e voador, número 6 da Pokédex Nacional, evolução final de Charmander.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Silhueta bípede com espinhos nas patas e orelhas, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é este pokémon?",
+      "resposta": "Lucario",
+      "distratores": [
+        "Riolu",
+        "Zoroark",
+        "Weavile"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lucario",
+        "descricao": "Pokémon lutador e aço, número 448 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Silhueta distinta com asas-braço grandes e pescoço longo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Lugia",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lugia",
+        "descricao": "Pokémon lendário psíquico e voador, número 249 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta robusta com bulbo nas costas e orelhas; um tanto compacta, mas distinguível, em múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é este pokémon?",
+      "resposta": "Bulbasaur",
+      "distratores": [
+        "Ivysaur",
+        "Venusaur",
+        "Squirtle"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bulbasaur",
+        "descricao": "Pokémon de planta e veneno, número 1 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Silhueta serpentina com bigodes e nadadeira reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que pokémon evolui para este?",
+      "resposta": "Magikarp",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gyarados",
+        "descricao": "Pokémon de água e voador, número 130 da Pokédex Nacional, evolução de Magikarp.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Silhueta de ave com asas abertas e cauda de penas, característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Ho-Oh",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ho-Oh",
+        "descricao": "Pokémon lendário de fogo e voador, número 250 da Pokédex Nacional.",
+        "variantes": [
+          "Houou"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta clara com chama na ponta da cauda.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é este pokémon?",
+      "resposta": "Charmander",
+      "distratores": [
+        "Charmeleon",
+        "Cyndaquil",
+        "Torchic"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Charmander",
+        "descricao": "Pokémon inicial de fogo, número 4 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta com antenas, asa pequena e cauda grossa, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dragonite",
+      "destino": 0,
+      "ancora": {
+        "nome": "Dragonite",
+        "descricao": "Pokémon dragão e voador, número 149 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Silhueta com garras grandes e asas, característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pokémon evolui para este?",
+      "resposta": "Scyther",
+      "distratores": [
+        "Pinsir",
+        "Heracross",
+        "Kabutops"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Scizor",
+        "descricao": "Pokémon inseto e aço, número 212 da Pokédex Nacional, evolução de Scyther.",
+        "variantes": []
+      }
+    }
+  ]
+}

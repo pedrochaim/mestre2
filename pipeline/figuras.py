@@ -11,7 +11,9 @@ Um lote de figuras de um catálogo passa por:
 Cada passo grava seu arquivo em trabalho/<lote>/ e é pulado se já existe, como nas encomendas de texto.
 """
 
+import io
 import json
+import math
 import re
 import time
 import urllib.error
@@ -19,7 +21,7 @@ import urllib.parse
 import urllib.request
 from collections import Counter
 
-from PIL import Image
+from PIL import Image, ImageDraw
 
 import banco as bc
 import claude_cli
@@ -71,7 +73,6 @@ def _limpar_autor(texto):
 
 
 def _salvar_jpeg(dados, destino, lado=1280):
-    import io
     im = Image.open(io.BytesIO(dados))
     if im.mode in ("RGBA", "LA", "P"):
         im = im.convert("RGBA")
@@ -81,6 +82,32 @@ def _salvar_jpeg(dados, destino, lado=1280):
     im = im.convert("RGB")
     im.thumbnail((lado, lado))
     im.save(destino, "JPEG", quality=88)
+
+
+def _silhueta(arte):
+    """Tudo que não é transparente vira preto, preservando a borda suave do canal alfa."""
+    preto = Image.new("RGBA", arte.size, (0, 0, 0, 255))
+    preto.putalpha(arte.split()[3])
+    return preto
+
+
+def _sobre_raios(figura, lado=700):
+    """A figura centralizada sobre raios azuis e uma explosão amarela, como na vinheta do desenho."""
+    fundo = Image.new("RGB", (lado, lado), (40, 110, 200))
+    d = ImageDraw.Draw(fundo)
+    c = lado / 2
+    for i in range(0, 24, 2):
+        a1, a2 = 2 * math.pi * i / 24, 2 * math.pi * (i + 1) / 24
+        d.polygon([(c, c), (c + lado * math.cos(a1), c + lado * math.sin(a1)),
+                   (c + lado * math.cos(a2), c + lado * math.sin(a2))], fill=(70, 150, 230))
+    d.polygon([(c + lado * (.42 if i % 2 == 0 else .33) * math.cos(2 * math.pi * i / 32),
+                c + lado * (.42 if i % 2 == 0 else .33) * math.sin(2 * math.pi * i / 32)) for i in range(32)],
+              fill=(255, 214, 0))
+    figura = figura.copy()
+    figura.thumbnail((int(lado * .82), int(lado * .82)))
+    base = fundo.convert("RGBA")
+    base.alpha_composite(figura, ((lado - figura.width) // 2, (lado - figura.height) // 2))
+    return base.convert("RGB")
 
 
 def _wiki_url(lingua, titulo):
@@ -142,9 +169,14 @@ def _preparar_pokemon(ent, pasta, indice):
     dados = _get(ARTE_POKEMON.format(num), json_=False)
     if not dados:
         return None, "sem arte oficial"
-    arquivo = pasta / f"{indice:02d}.jpg"
-    _salvar_jpeg(dados, arquivo, 700)
-    return {"imagem": str(arquivo), "origem": ARTE_POKEMON.format(num), "autor": "© Nintendo / Creatures / GAME FREAK",
+    # Estilo "Quem é esse pokémon?" do desenho: a pergunta mostra a silhueta preta sobre raios azuis e amarelos;
+    # a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta".
+    arte = Image.open(io.BytesIO(dados)).convert("RGBA")
+    arquivo, revelacao = pasta / f"{indice:02d}.jpg", pasta / f"{indice:02d}_revelacao.jpg"
+    _sobre_raios(_silhueta(arte)).save(arquivo, "JPEG", quality=88)
+    _sobre_raios(arte).save(revelacao, "JPEG", quality=88)
+    return {"imagem": str(arquivo), "revelacao": str(revelacao), "origem": ARTE_POKEMON.format(num),
+            "autor": "© Nintendo / Creatures / GAME FREAK",
             "licenca": "Arte oficial; uso privado, sem licença livre", "nome": nome_en,
             "fonte": [BULBAPEDIA.format(urllib.parse.quote(nome_en.replace(" ", "_")))],
             "trecho": f"{nome_en}, número {num} da Pokédex Nacional."}, None
@@ -283,7 +315,7 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
         print("  2. avaliação das imagens…", flush=True)
         enunciado = f"- **Enunciado padrão do nível 1:** \"{cat['enunciado']}\"" if cat.get("enunciado") else ""
         entrada = [{k: it[k] for k in ("indice", "nome", "camada", "destino_sugerido", "familia_sugerida", "nivel_sugerido",
-                                        "imagem", "trecho", "fonte")} for it in itens]
+                                        "imagem", "revelacao", "trecho", "fonte") if k in it} for it in itens]
         prompt = preencher(ler_texto(PROMPTS_DIR / "figuras.md"), id=cat["id"], descricao=cat["descricao"],
                            destinos=json.dumps({i: f"{t} › {s}" for i, (t, s) in enumerate(cat["destinos"])}, ensure_ascii=False),
                            familias=", ".join(cat["familias"]), enunciado=enunciado,
@@ -496,6 +528,9 @@ def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta
         if c["nova"] and c["nova"]["id"] not in banco.ancora_por_id:
             banco.adicionar_ancora(c["nova"])
         (BANCO_DIR / "imagens" / (qid + ".jpg")).write_bytes(open(c["it"]["imagem"], "rb").read())
+        if c["it"].get("revelacao"):
+            p["imagem"]["revelacao"] = qid + "_revelacao.jpg"
+            (BANCO_DIR / "imagens" / p["imagem"]["revelacao"]).write_bytes(open(c["it"]["revelacao"], "rb").read())
         banco.perguntas.append(p)
         av = c["av"]
         est["familias"][av["familia"]] = est["familias"].get(av["familia"], 0) + 1

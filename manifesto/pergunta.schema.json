@@ -130,6 +130,11 @@
           "type": "string",
           "minLength": 1,
           "description": "Licença livre, ex.: 'CC BY-SA 4.0', 'Domínio público'."
+        },
+        "revelacao": {
+          "type": "string",
+          "pattern": "^q[0-9]{5}_revelacao\\.(jpg|png|webp)$",
+          "description": "Opcional. Imagem mostrada só depois da resposta, também em pipeline/banco/imagens/ (MANIFESTO §6). Usada nas silhuetas de Pokémon: a figura da pergunta é a silhueta preta, e a revelação é a arte colorida."
         }
       }
     }

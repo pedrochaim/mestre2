@@ -1,0 +1,551 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pikachu",
+        "descricao": "Pokémon do tipo elétrico, número 25 da Pokédex Nacional, mascote da franquia.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pikachu",
+          "nome": "Pikachu",
+          "descricao": "Pokémon do tipo Elétrico, número 25 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pichu",
+          "nome": "Pichu",
+          "descricao": "Pokémon do tipo Elétrico, número 172 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mew",
+        "descricao": "Pokémon psíquico lendário, número 151 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mew",
+          "nome": "Mew",
+          "descricao": "Pokémon do tipo Psíquico, número 151 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "meowth",
+          "nome": "Meowth",
+          "descricao": "Pokémon do tipo Normal, número 52 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mewtwo",
+          "nome": "Mewtwo",
+          "descricao": "Pokémon do tipo Psíquico, número 150 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Mimikyu",
+        "descricao": "Pokémon fantasma e fada, número 778 da Pokédex Nacional, que se disfarça com um pano.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "mimikyu",
+          "nome": "Mimikyu",
+          "descricao": "Pokémon dos tipos Fantasma e Fada, número 778 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mickey_mouse",
+          "nome": "Mickey Mouse",
+          "descricao": "Camundongo criado por Walt Disney e Ub Iwerks em 1928, mascote da Disney.",
+          "variantes": [
+            "Mickey",
+            "Rato Mickey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Charizard",
+        "descricao": "Pokémon de fogo e voador, número 6 da Pokédex Nacional, evolução final de Charmander.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "charizard",
+          "nome": "Charizard",
+          "descricao": "Pokémon dos tipos Fogo e Voador, número 6 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "charmander",
+          "nome": "Charmander",
+          "descricao": "Pokémon do tipo Fogo, número 4 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Lucario",
+        "descricao": "Pokémon lutador e aço, número 448 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lucario",
+          "nome": "Lucario",
+          "descricao": "Pokémon dos tipos Lutador e Aço, número 448 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "carimbo",
+          "nome": "Carimbó",
+          "descricao": "Ritmo e dança de roda de origem indígena e africana típicos do Pará.",
+          "variantes": []
+        },
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        },
+        {
+          "id": "oscarito",
+          "nome": "Oscarito",
+          "descricao": "Comediante e ator, astro das chanchadas da Atlântida Cinematográfica nas décadas de 1940 e 1950.",
+          "variantes": [
+            "Oscar Lorenzo Jacinto de la Imaculada Concepción Teresa Dias"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Lugia",
+        "descricao": "Pokémon lendário psíquico e voador, número 249 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lugia",
+          "nome": "Lugia",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 249 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "luigi",
+          "nome": "Luigi",
+          "descricao": "Irmão gêmeo de Mario nos jogos da Nintendo, de roupa verde.",
+          "variantes": []
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "giba",
+          "nome": "Giba",
+          "descricao": "Ex-ponteiro brasileiro de vôlei, campeão olímpico em 2004 e capitão da seleção.",
+          "variantes": [
+            "Gilberto Amauri de Godoy Filho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Bulbasaur",
+        "descricao": "Pokémon de planta e veneno, número 1 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "bulbasaur",
+          "nome": "Bulbasaur",
+          "descricao": "Pokémon dos tipos Planta e Veneno, número 1 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Gyarados",
+        "descricao": "Pokémon de água e voador, número 130 da Pokédex Nacional, evolução de Magikarp.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "gyarados",
+          "nome": "Gyarados",
+          "descricao": "Pokémon dos tipos Água e Voador, número 130 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "barreado",
+          "nome": "Barreado",
+          "descricao": "Prato de carne cozida por muitas horas em panela de barro vedada com massa de farinha, típico do litoral sul do Brasil",
+          "variantes": []
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ho-Oh",
+        "descricao": "Pokémon lendário de fogo e voador, número 250 da Pokédex Nacional.",
+        "variantes": [
+          "Houou"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ho_oh",
+          "nome": "Ho-Oh",
+          "descricao": "Pokémon dos tipos Fogo e Voador, número 250 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pho",
+          "nome": "Phở",
+          "descricao": "Sopa vietnamita de caldo, macarrão de arroz, ervas e carne, geralmente bovina.",
+          "variantes": [
+            "Phở bò"
+          ]
+        },
+        {
+          "id": "cachorro_quente",
+          "nome": "Cachorro-quente",
+          "descricao": "Lanche de salsicha grelhada, cozida ou fervida, servida num pão alongado aberto ao meio.",
+          "variantes": [
+            "Hot dog",
+            "Hotdog"
+          ]
+        },
+        {
+          "id": "ovulo",
+          "nome": "Óvulo",
+          "descricao": "Célula reprodutiva feminina.",
+          "variantes": [
+            "Ovócito",
+            "Egg cell"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Charmander",
+        "descricao": "Pokémon inicial de fogo, número 4 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "charmander",
+          "nome": "Charmander",
+          "descricao": "Pokémon do tipo Fogo, número 4 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        },
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        },
+        {
+          "id": "charizard",
+          "nome": "Charizard",
+          "descricao": "Pokémon dos tipos Fogo e Voador, número 6 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "marmalade",
+          "nome": "Marmalade",
+          "descricao": "Geleia de frutas cítricas típica da Grã-Bretanha, cujo nome vem do português",
+          "variantes": [
+            "Marmelada"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Dragonite",
+        "descricao": "Pokémon dragão e voador, número 149 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "dragonite",
+          "nome": "Dragonite",
+          "descricao": "Pokémon dos tipos Dragão e Voador, número 149 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Scizor",
+        "descricao": "Pokémon inseto e aço, número 212 da Pokédex Nacional, evolução de Scyther.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "czar",
+          "nome": "Czar",
+          "descricao": "Título dos monarcas da Rússia e de outros Estados eslavos.",
+          "variantes": [
+            "Tsar",
+            "Tzar"
+          ]
+        },
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "roronoa_zoro",
+          "nome": "Roronoa Zoro",
+          "descricao": "Espadachim da tripulação de Luffy no mangá e anime One Piece.",
+          "variantes": [
+            "Zoro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "pikachu",
+      "motivo": "Mesmo Pokémon, nº 25."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "mew",
+      "motivo": "Mesmo Pokémon, nº 151."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "mimikyu",
+      "motivo": "Mesmo Pokémon, nº 778."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "charizard",
+      "motivo": "Mesmo Pokémon, nº 6."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "lucario",
+      "motivo": "Mesmo Pokémon, nº 448."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "lugia",
+      "motivo": "Mesmo Pokémon, nº 249."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "bulbasaur",
+      "motivo": "Mesmo Pokémon, nº 1."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "gyarados",
+      "motivo": "Mesmo Pokémon, nº 130."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "ho_oh",
+      "motivo": "Mesmo Pokémon, nº 250."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "charmander",
+      "motivo": "Mesmo Pokémon, nº 4."
+    },
+    {
+      "caso": 11,
+      "decisao": "mesma",
+      "id_existente": "dragonite",
+      "motivo": "Mesmo Pokémon, nº 149."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Scizor não consta entre as candidatas, que são entidades não relacionadas."
+    }
+  ]
+}

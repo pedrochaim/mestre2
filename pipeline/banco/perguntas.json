@@ -27932,5 +27932,270 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 4
+  },
+  {
+    "id": "q01740",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "pikachu",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é esse pokémon?",
+    "resposta": "Pikachu",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Pikachu_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01740.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01740_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01741",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "mew",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é esse pokémon?",
+    "resposta": "Mew",
+    "distratores": [
+      "Mewtwo",
+      "Celebi",
+      "Jirachi"
+    ],
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01741.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01741_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01742",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "mimikyu",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Este pokémon se disfarça de qual outro pokémon?",
+    "resposta": "Pikachu",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Mimikyu_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01742.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/778.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01742_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01743",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "charizard",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que pokémon evolui diretamente para este?",
+    "resposta": "Charmeleon",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Charizard_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01743.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01743_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01744",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "lucario",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é esse pokémon?",
+    "resposta": "Lucario",
+    "distratores": [
+      "Riolu",
+      "Zoroark",
+      "Weavile"
+    ],
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Lucario_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01744.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/448.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01744_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01745",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "lugia",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é esse pokémon?",
+    "resposta": "Lugia",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Lugia_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01745.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/249.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01745_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01746",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "bulbasaur",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é esse pokémon?",
+    "resposta": "Bulbasaur",
+    "distratores": [
+      "Ivysaur",
+      "Venusaur",
+      "Squirtle"
+    ],
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01746.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01746_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01747",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "gyarados",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que pokémon evolui para este?",
+    "resposta": "Magikarp",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Gyarados_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01747.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/130.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01747_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01748",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "ho_oh",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é esse pokémon?",
+    "resposta": "Ho-Oh",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Ho-Oh_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01748.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/250.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01748_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01749",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "charmander",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é esse pokémon?",
+    "resposta": "Charmander",
+    "distratores": [
+      "Charmeleon",
+      "Cyndaquil",
+      "Torchic"
+    ],
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01749.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01749_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01750",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "dragonite",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Quem é esse pokémon?",
+    "resposta": "Dragonite",
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Dragonite_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01750.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/149.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01750_revelacao.jpg"
+    }
+  },
+  {
+    "id": "q01751",
+    "tema": "Entretenimento",
+    "subtema": "Jogos Eletrônicos",
+    "ancora": "scizor",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que pokémon evolui para este?",
+    "resposta": "Scyther",
+    "distratores": [
+      "Pinsir",
+      "Heracross",
+      "Kabutops"
+    ],
+    "fonte": [
+      "https://bulbapedia.bulbagarden.net/wiki/Scizor_(Pok%C3%A9mon)"
+    ],
+    "imagem": {
+      "arquivo": "q01751.jpg",
+      "origem": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/212.png",
+      "autor": "© Nintendo / Creatures / GAME FREAK",
+      "licenca": "Arte oficial; uso privado, sem licença livre",
+      "revelacao": "q01751_revelacao.jpg"
+    }
   }
 ]

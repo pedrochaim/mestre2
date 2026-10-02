@@ -37,10 +37,11 @@ for p in perguntas:
 img = PUBLICO / "img"
 img.mkdir(exist_ok=True)
 com_imagem = [p for p in saida if "imagem" in p]
-for p in com_imagem:
-    shutil.copy2(BANCO / "imagens" / p["imagem"]["arquivo"], img / p["imagem"]["arquivo"])
+# A figura da pergunta e, se houver, a revelação mostrada depois da resposta (silhuetas de Pokémon).
+em_uso = {p["imagem"][k] for p in com_imagem for k in ("arquivo", "revelacao") if k in p["imagem"]}
+for arquivo in em_uso:
+    shutil.copy2(BANCO / "imagens" / arquivo, img / arquivo)
 # Imagens de perguntas apagadas saem do site: senão continuariam publicadas, ainda que sem pergunta.
-em_uso = {p["imagem"]["arquivo"] for p in com_imagem}
 orfas = [f for f in img.iterdir() if f.is_file() and f.name not in em_uso]
 for f in orfas:
     f.unlink()

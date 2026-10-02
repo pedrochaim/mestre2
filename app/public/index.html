@@ -624,6 +624,8 @@
     $("atual-figura").hidden = !p.imagem;
     if (p.imagem) {
       $("atual-img").src = $("tela-cheia-img").src = "img/" + p.imagem.arquivo;
+      // Silhuetas de Pokémon: a arte colorida já é baixada agora, para aparecer na hora em "Mostrar resposta".
+      if (p.imagem.revelacao) new Image().src = "img/" + p.imagem.revelacao;
     }
     $("atual-pergunta").textContent = p.pergunta;
     $("atual-opcoes").hidden = !atual.opcoes;
@@ -651,6 +653,9 @@
     $("revelado").hidden = !mostrar;
     atualizarBarra();
     [...$("atual-opcoes").children].forEach(li => li.classList.toggle("correta", mostrar && li.textContent === atual.resposta));
+    // A figura com revelação (silhueta → arte colorida) troca junto com a resposta, e volta ao esconder.
+    if (atual.imagem?.revelacao)
+      $("atual-img").src = $("tela-cheia-img").src = "img/" + (mostrar ? atual.imagem.revelacao : atual.imagem.arquivo);
   };
 
   // ---------------------------------------------------------------- sobre a pergunta

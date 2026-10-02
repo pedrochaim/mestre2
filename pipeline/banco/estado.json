@@ -55,9 +55,10 @@
     "fig_atletas_001",
     "fig_invencoes_001",
     "esportes_volei_01",
-    "fig_mamiferos_003"
+    "fig_mamiferos_003",
+    "fig_pokemon_001"
   ],
-  "maior_id": 1739,
+  "maior_id": 1751,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -186,6 +187,18 @@
         "3": 2
       },
       "registradas": 9
+    },
+    "pokemon": {
+      "familias": {
+        "o_que_e": 8,
+        "com_o_que_se_liga": 4
+      },
+      "niveis": {
+        "1": 4,
+        "2": 5,
+        "3": 3
+      },
+      "registradas": 12
     }
   },
   "rendimento": {
@@ -241,7 +254,5 @@
       48
     ]
   },
-  "pausados": [
-    "figura:pokemon"
-  ]
+  "pausados": []
 }
