@@ -303,9 +303,13 @@ def _fonte_tmdb(spec):
     if ano:
         busca["year" if filme else "first_air_date_year"] = ano
     resultados = _tmdb("search/" + ("movie" if filme else "tv"), **busca).get("results", [])
+    # A busca pode trazer antes um curta obscuro de mesmo nome: vale a obra do ano pedido com mais votos.
+    data_de = lambda o: o.get("release_date") or o.get("first_air_date") or ""  # noqa: E731
+    if ano:
+        resultados = [o for o in resultados if data_de(o).startswith(ano)]
     if not resultados:
         return None
-    obra = resultados[0]
+    obra = max(resultados, key=lambda o: (o.get("vote_count", 0), o.get("popularity", 0)))
     caminho = ("movie/" if filme else "tv/") + str(obra["id"])
     # include_image_language=null: só as imagens sem idioma, ou seja, sem texto (título, legenda)
     cenas = _tmdb(caminho + "/images", include_image_language="null").get("backdrops", [])
