@@ -1,0 +1,442 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A etimologia é disputada (francês brésil/toscano verzino ou brasa); o enunciado afirma só uma versão como fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado vago e resposta em frase; melhor perguntar qual parte dos instrumentos usa a madeira.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "A madeira do pau-brasil, chamada de pau-pernambuco entre músicos, é usada para fazer qual peça dos violinos e violoncelos?",
+        "resposta": "Os arcos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Paubrasilia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte, curioso e bem formulado.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Etimologia é hipótese na fonte e o distrator Chapéu é próximo demais de turbante.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "Segundo a explicação mais aceita, o nome tulipa chegou ao Ocidente pelo turco e vem de uma palavra persa para que peça usada na cabeça?",
+        "resposta": "Turbante",
+        "distratores": [
+          "Véu",
+          "Coroa",
+          "Capuz"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Tulip"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e interessante; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e curioso, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte fala de tubérculos de algumas espécies, e não de raízes em geral.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome orquídea vem de uma palavra grega ligada ao formato dos dois tubérculos de algumas orquídeas. O que ela significa?",
+        "resposta": "Testículo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Orchid"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cravo vem do latim clavus (prego), amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Penicillium vem do latim penicillus, pincel; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Theobroma significa alimento dos deuses; fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ricinus é carrapato em latim, pela semelhança da semente; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ricina é sustentada pelas fontes e a pergunta não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Mate/mati designava a cuia; fonte confirma origem quíchua e o uso do termo para a cuia.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cianeto/ácido cianídrico sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Potássio-40 sustentado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etileno sustentado e pergunta cotidiana e interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nitrogênio sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dois toques em cerca de vinte segundos é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Defesa contra insetos sustentada pela fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A lenda de Kaldi é etíope, amplamente documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chá sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado: 1989, Bahia, cacau.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa e 'antigamente' impreciso (uso tradicional); melhor perguntar o animal do feromônio.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Tradicionalmente, porcas farejam trufas debaixo da terra. As trufas têm um composto parecido com o feromônio sexual de qual animal?",
+        "resposta": "Javali",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Trufa"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Sementes das fêmeas fedem a vômito (ácido butírico); fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palácio de Cristal sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "LSD sintetizado em 1938 por Hofmann, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que o gorgonzola costuma usar P. glaucum; trocar por Stilton, claramente sustentado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Além do roquefort francês, que famoso queijo azul inglês também é feito com o fungo Penicillium roqueforti?",
+        "resposta": "Stilton",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Penicillium_roqueforti"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Hera venenosa não é a única planta com urushiol; melhor perguntar a substância.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "A casca da manga pode causar alergia de pele porque contém uma substância também presente na hera venenosa. Que substância é essa?",
+        "resposta": "Urushiol",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Urushiol",
+          "https://en.wikipedia.org/wiki/Mango"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cena famosa de O Pequeno Príncipe, bem documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sócrates e a cicuta, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Henry Ford, 1928, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ásia sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "The Last of Us sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vagens subterrâneas, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caulifloria sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oregon e 9,1 km² sustentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Castanha como verdadeiro fruto, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aquênios sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oxalato de cálcio sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pinhão como semente, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1634–1637, século XVII, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A menção à chegada da corte em 1808 entrega a resposta.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano o príncipe regente Dom João criou o Jardim Botânico do Rio de Janeiro?",
+        "resposta": "1808",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jardim_Bot%C3%A2nico_do_Rio_de_Janeiro"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Século XVI sustentado (1565 nas Canárias).",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A fonte é página de desambiguação; fato (cerca de 4.850 anos) é bem documentado, trocar a fonte.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "O pinheiro apelidado de Matusalém, nas montanhas da Califórnia, tem idade estimada em aproximadamente quantos anos?",
+        "resposta": "Cerca de cinco mil anos",
+        "distratores": [
+          "Cerca de mil anos",
+          "Cerca de dois mil anos",
+          "Cerca de dez mil anos"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Pinus_longaeva"
+        ]
+      }
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Leste sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado confuso ('palmeiras e árvores') e o peso citado não está nas fontes.",
+      "reescrita": {
+        "angulo": "comparacao",
+        "tipo": "multipla",
+        "pergunta": "Qual destas plantas produz a maior semente de todo o reino vegetal?",
+        "resposta": "Coco-do-mar",
+        "distratores": [
+          "Coqueiro",
+          "Castanheira-do-pará",
+          "Jaqueira"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lodoicea"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentado pelas fontes.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A madeira do pau-brasil, chamada de pau-pernambuco entre músicos, é usada para fazer qual peça dos violinos e violoncelos?",
+        "resposta": "Os arcos"
+      },
+      "existentes": [
+        {
+          "id": "q00142",
+          "pergunta": "Uma das explicações para o nome da árvore pau-brasil diz que sua madeira tinha a cor de quê?",
+          "resposta": "Brasa"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O que torna a mandioca-brava perigosa quando comida crua?",
+        "resposta": "Ela libera cianeto"
+      },
+      "existentes": [
+        {
+          "id": "q00190",
+          "pergunta": "No Rio de Janeiro ela é chamada de aipim. Que outro nome a mandioca recebe na maior parte do Nordeste?",
+          "resposta": "Macaxeira"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A casca da manga pode causar alergia de pele porque contém uma substância também presente na hera venenosa. Que substância é essa?",
+        "resposta": "Urushiol"
+      },
+      "existentes": [
+        {
+          "id": "q01850",
+          "pergunta": "Que fruta tropical é esta, vendida nestas bacias?",
+          "resposta": "Manga"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O cupuaçu, fruta da Amazônia, é parente tão próximo de qual planta que pertence ao mesmo gênero dela?",
+        "resposta": "Cacau"
+      },
+      "existentes": [
+        {
+          "id": "q00227",
+          "pergunta": "Com as sementes do cupuaçu se faz um produto muito parecido com chocolate. Isso porque ele é parente próximo de qual planta?",
+          "resposta": "Cacau"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Ao contrário da maioria das árvores frutíferas, em que parte da jabuticabeira nascem os frutos?",
+        "resposta": "No tronco"
+      },
+      "existentes": [
+        {
+          "id": "q00231",
+          "pergunta": "Que fruta brasileira, pequena e de casca preta brilhante, nasce grudada diretamente no tronco da árvore?",
+          "resposta": "Jabuticaba"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "No caju, a parte suculenta é um pseudofruto. Qual parte é o verdadeiro fruto da planta?",
+        "resposta": "A castanha"
+      },
+      "existentes": [
+        {
+          "id": "q01854",
+          "pergunta": "A árvore que dá esta fruta é originária de qual região do Brasil?",
+          "resposta": "Nordeste"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uso da madeira para arcos de instrumentos é fato diferente da origem do nome pela cor de brasa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Toxicidade da mandioca-brava difere de seus nomes regionais."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Substância alergênica da casca é fato distinto da identificação da fruta pela imagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que o cupuaçu é parente próximo do cacau."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Ambas tratam do fato de a jabuticaba nascer no tronco; saber uma leva à outra."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Verdadeiro fruto do caju é fato diferente da região de origem da árvore."
+    }
+  ]
+}
