@@ -1,0 +1,432 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pandeiro",
+        "descricao": "Instrumento de percussão de mão, com pele esticada em aro e platinelas, usado no samba, no choro e na capoeira.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pisadeira",
+          "nome": "Pisadeira",
+          "descricao": "Figura do folclore do Sudeste brasileiro, uma velha que pisa no peito de quem dorme de barriga cheia.",
+          "variantes": []
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro",
+          "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+          "variantes": [
+            "Brigadeiro (doce)",
+            "Negrinho"
+          ]
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "lycra",
+          "nome": "Lycra",
+          "descricao": "Fibra sintética elástica, também chamada elastano ou spandex",
+          "variantes": [
+            "Elastano",
+            "Spandex"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Viola caipira",
+        "descricao": "Instrumento brasileiro de dez cordas em cinco pares, base da música caipira.",
+        "variantes": [
+          "Viola",
+          "Viola de dez cordas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "viola_caipira",
+          "nome": "Viola caipira",
+          "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+          "variantes": [
+            "Viola brasileira",
+            "Viola de dez cordas"
+          ]
+        },
+        {
+          "id": "variola",
+          "nome": "Varíola",
+          "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação.",
+          "variantes": [
+            "Smallpox",
+            "Bexiga"
+          ]
+        },
+        {
+          "id": "rio_volga",
+          "nome": "Rio Volga",
+          "descricao": "Rio da Rússia europeia, o mais longo da Europa.",
+          "variantes": [
+            "Volga"
+          ]
+        },
+        {
+          "id": "quadrilha_junina",
+          "nome": "Quadrilha junina",
+          "descricao": "Dança coletiva típica das festas juninas, derivada de uma dança de salão europeia.",
+          "variantes": [
+            "Quadrilha",
+            "Quadrilha caipira"
+          ]
+        },
+        {
+          "id": "io",
+          "nome": "Io",
+          "descricao": "Lua de Júpiter, a mais interna das quatro descobertas por Galileu.",
+          "variantes": [
+            "Io (lua)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pau de sebo",
+        "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+        "variantes": [
+          "Mastro de cocanha",
+          "Cocanha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coxinha",
+          "nome": "Coxinha",
+          "descricao": "Salgado brasileiro frito, em forma de gota, recheado com frango desfiado.",
+          "variantes": [
+            "Coxinha de frango"
+          ]
+        },
+        {
+          "id": "ocarina",
+          "nome": "Ocarina",
+          "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+          "variantes": [
+            "Okarina"
+          ]
+        },
+        {
+          "id": "copacabana",
+          "nome": "Copacabana",
+          "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+          "variantes": [
+            "Copacabana (Rio de Janeiro)"
+          ]
+        },
+        {
+          "id": "celacanto",
+          "nome": "Celacanto",
+          "descricao": "Peixe de nadadeiras lobadas do gênero Latimeria, conhecido antes só por fósseis.",
+          "variantes": [
+            "Latimeria",
+            "Coelacanth"
+          ]
+        },
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Agogô",
+        "descricao": "Instrumento de percussão de metal formado por dois sinos cônicos de alturas diferentes, de origem iorubá.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "speed_racer",
+          "nome": "Speed Racer",
+          "descricao": "Anime japonês de corridas de 1967, chamado Mach GoGoGo no original.",
+          "variantes": [
+            "Mach GoGoGo"
+          ]
+        },
+        {
+          "id": "tango",
+          "nome": "Tango",
+          "descricao": "Gênero musical e dança surgidos na região do Rio da Prata, entre Buenos Aires e Montevidéu",
+          "variantes": [
+            "Tango argentino"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Caxixi",
+        "descricao": "Pequeno chocalho de cesta de palha com fundo de cabaça, que acompanha o berimbau na capoeira.",
+        "variantes": [
+          "Caxixi de palha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_palhaco",
+          "nome": "Peixe-palhaço",
+          "descricao": "Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar.",
+          "variantes": [
+            "Peixe-palhaço-laranja",
+            "Clownfish",
+            "Amphiprion"
+          ]
+        },
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        },
+        {
+          "id": "cirio_de_nazare",
+          "nome": "Círio de Nazaré",
+          "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+          "variantes": [
+            "Círio de Nossa Senhora de Nazaré"
+          ]
+        },
+        {
+          "id": "la_casa_de_papel",
+          "nome": "La Casa de Papel",
+          "descricao": "Série espanhola sobre um bando que, liderado pelo Professor, assalta a Casa da Moeda da Espanha.",
+          "variantes": [
+            "Money Heist",
+            "A Casa de Papel"
+          ]
+        },
+        {
+          "id": "canal_do_panama",
+          "nome": "Canal do Panamá",
+          "descricao": "Canal artificial que atravessa o istmo do Panamá e liga o oceano Atlântico ao Pacífico.",
+          "variantes": [
+            "Panama Canal",
+            "Canal de Panamá"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Carnaval",
+        "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+        "variantes": [
+          "Carnaval do Brasil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        },
+        {
+          "id": "caracal",
+          "nome": "Caracal",
+          "descricao": "Felino selvagem de pelagem castanho-avermelhada e longas orelhas com tufos pretos (Caracal caracal).",
+          "variantes": [
+            "Caracal caracal",
+            "Lince-do-deserto"
+          ]
+        },
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional",
+            "Auriverde"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Figa",
+        "descricao": "Gesto ou amuleto com o polegar entre dois dedos, usado na crença popular contra o mau-olhado.",
+        "variantes": [
+          "Figa de mão",
+          "Gesto da figa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        },
+        {
+          "id": "fifa",
+          "nome": "FIFA",
+          "descricao": "Federação Internacional de Futebol, entidade que organiza a Copa do Mundo, fundada em 1904.",
+          "variantes": [
+            "Fédération Internationale de Football Association",
+            "Federação Internacional de Futebol"
+          ]
+        },
+        {
+          "id": "formiga",
+          "nome": "Formiga",
+          "descricao": "Miraildes Maciel Mota, volante da seleção brasileira feminina entre 1995 e 2021.",
+          "variantes": [
+            "Miraildes Maciel Mota"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        },
+        {
+          "id": "formiga_lava_pes",
+          "nome": "Formiga-lava-pés",
+          "descricao": "Formiga-de-fogo (Solenopsis invicta) de picada ardida, nativa da América do Sul e invasora em outros continentes.",
+          "variantes": [
+            "Solenopsis invicta",
+            "formiga-de-fogo",
+            "red imported fire ant"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o pandeiro."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "viola_caipira",
+      "motivo": "Mesmo instrumento, com nome e variante 'Viola de dez cordas' coincidentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a brincadeira do pau de sebo."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o agogô."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o caxixi."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a festa do Carnaval."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a figa; os nomes são apenas parecidos."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento de cordas brasileiro é este?",
+        "resposta": "Viola caipira"
+      },
+      "existentes": [
+        {
+          "id": "q01212",
+          "pergunta": "Na formação mais comum, quantas cordas tem a viola caipira, instrumento da música sertaneja de raiz?",
+          "resposta": "Dez"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identificação do instrumento (viola caipira); a existente pergunta quantas cordas ele tem. Fatos diferentes, e saber o número de cordas não leva a identificar o instrumento."
+    }
+  ]
+}

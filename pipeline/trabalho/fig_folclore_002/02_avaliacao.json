@@ -1,0 +1,172 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Boneco de mão artesanal genérico; não se reconhece como mamulengo pela imagem, e a resposta não seria única."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Roda de dança em praça com saias floridas e muito público ao fundo; não dá para reconhecer como jongo (poderia ser samba de roda, maculelê etc.) e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Pandeiro de couro com platinelas, bem visível; apenas mãos aparecem.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão, tocado com a mão, é este?",
+      "resposta": "Pandeiro",
+      "ancora": {
+        "nome": "Pandeiro",
+        "descricao": "Instrumento de percussão de mão, com pele esticada em aro e platinelas, usado no samba, no choro e na capoeira.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Instrumento de cordas duplas, caixa em forma de oito, reconhecível como viola; distratores plausíveis.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que instrumento de cordas brasileiro é este?",
+      "resposta": "Viola caipira",
+      "distratores": [
+        "Cavaquinho",
+        "Bandolim",
+        "Charango"
+      ],
+      "ancora": {
+        "nome": "Viola caipira",
+        "descricao": "Instrumento brasileiro de dez cordas em cinco pares, base da música caipira.",
+        "variantes": [
+          "Viola",
+          "Viola de dez cordas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pintura de Goya em domínio público mostrando claramente crianças subindo um mastro; sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que brincadeira típica das festas juninas aparece neste quadro?",
+      "resposta": "Pau de sebo",
+      "ancora": {
+        "nome": "Pau de sebo",
+        "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+        "variantes": [
+          "Pau-de-sebo",
+          "Mastro de cocanha",
+          "Cocanha"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Dois cones de metal ligados por haste em U sobre fundo liso; agogô claro.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Agogô",
+      "distratores": [
+        "Triângulo",
+        "Reco-reco",
+        "Ganzá"
+      ],
+      "ancora": {
+        "nome": "Agogô",
+        "descricao": "Instrumento de percussão de metal formado por dois sinos cônicos de alturas diferentes, de origem iorubá.",
+        "variantes": [
+          "Agogo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Dançarinas girando com saias floridas, vista de cima e borrada; lembra tambor de crioula ou samba de roda, não é reconhecível como maracatu."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Close da pele de um tambor com mão e baqueta; não se distingue como zabumba (parece caixa ou surdo)."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cesta de palha com fundo de cabaça, fundo liso, inconfundível; distratores visualmente parecidos (chocalhos).",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão, sacudido com a mão, é este?",
+      "resposta": "Caxixi",
+      "distratores": [
+        "Maracas",
+        "Ganzá",
+        "Afoxé"
+      ],
+      "ancora": {
+        "nome": "Caxixi",
+        "descricao": "Pequeno chocalho de cesta de palha com fundo de cabaça, que acompanha o berimbau na capoeira.",
+        "variantes": [
+          "Caxixi de palha"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Montagem de várias pinturas votivas e texto visível 'Ex Voto' nas obras, que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Carro alegórico em desfile na avenida com foliões; nenhuma legenda cita a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que grande festa popular brasileira é esta?",
+      "resposta": "Carnaval",
+      "ancora": {
+        "nome": "Carnaval",
+        "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+        "variantes": [
+          "Carnaval do Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mão em figa, fundo neutro, só a mão aparece; gesto claro.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Na crença popular brasileira, este gesto de mão serve de amuleto para afastar o quê?",
+      "resposta": "Mau-olhado",
+      "ancora": {
+        "nome": "Figa",
+        "descricao": "Gesto ou amuleto com o polegar entre dois dedos, usado na crença popular contra o mau-olhado.",
+        "variantes": [
+          "Figa de mão",
+          "Gesto da figa"
+        ]
+      }
+    }
+  ]
+}
