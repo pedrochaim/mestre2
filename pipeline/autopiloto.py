@@ -125,32 +125,43 @@ def escolher(banco, plano, canon, so=None):
     prog = progresso(banco, plano, canon)
     pausados = set(banco.estado.get("pausados", []))
     def_texto = {k: m - n for k, (n, m) in prog["texto"].items() if m - n > 0 and f"texto:{k[1]}" not in pausados}
-    def_fig_tema = {t: m - n for t, (n, m) in prog["figura_tema"].items() if m - n > 0}
-    falta_texto = sum(def_texto.values()) / max(1, sum(m for _, m in prog["texto"].values()))
-    falta_fig = sum(def_fig_tema.values()) / max(1, sum(m for _, m in prog["figura_tema"].values()))
 
-    def trabalho_figura():
-        for tema in sorted(def_fig_tema, key=def_fig_tema.get, reverse=True):
-            cats = [c for c in plano["catalogos"] if c["destinos"][0][0] == tema and f"figura:{c['id']}" not in pausados]
-            cats = [c for c in cats if prog["catalogos"][c["id"]][1] - prog["catalogos"][c["id"]][0] > 0]
-            if cats:
-                # Déficit relativo (o que falta sobre a meta), e não absoluto: assim os catálogos de um tema crescem
-                # juntos, e nenhum passa de 40% das figuras do tema no caminho (MANIFESTO §6).
-                return ("figura", max(cats, key=lambda c: 1 - prog["catalogos"][c["id"]][0] / prog["catalogos"][c["id"]][1]))
-        return None
-
-    def trabalho_texto():
-        if not def_texto:
+    def trabalho_figura(tema):
+        cats = [c for c in plano["catalogos"] if c["destinos"][0][0] == tema and f"figura:{c['id']}" not in pausados]
+        cats = [c for c in cats if prog["catalogos"][c["id"]][1] - prog["catalogos"][c["id"]][0] > 0]
+        if not cats:
             return None
-        tema, sub = max(def_texto, key=def_texto.get)
-        return ("texto", (tema, sub))
+        # Déficit relativo (o que falta sobre a meta), e não absoluto: assim os catálogos de um tema crescem
+        # juntos, e nenhum passa de 40% das figuras do tema no caminho (MANIFESTO §6).
+        return ("figura", max(cats, key=lambda c: 1 - prog["catalogos"][c["id"]][0] / prog["catalogos"][c["id"]][1]))
 
-    if so == "texto":
-        return trabalho_texto()
-    if so == "figuras":
-        return trabalho_figura()
-    primeiro, segundo = (trabalho_figura, trabalho_texto) if falta_fig > falta_texto else (trabalho_texto, trabalho_figura)
-    return primeiro() or segundo()
+    def trabalho_texto(tema):
+        subs = {k: d for k, d in def_texto.items() if k[0] == tema}
+        return ("texto", max(subs, key=subs.get)) if subs else None
+
+    # Prioridade (2026-10-02): primeiro o tema com menos perguntas no banco, somando texto e figura; dentro dele,
+    # texto ou figura pelo que falta mais em relação à meta do tema, e o subtema ou catálogo de maior déficit.
+    # Assim os temas atrasados, como Artes e Pensamento, alcançam os outros antes de o banco crescer por igual.
+    texto_tema = {}
+    for (t, _), (n, m) in prog["texto"].items():
+        a = texto_tema.setdefault(t, [0, 0])
+        a[0] += n
+        a[1] += m
+    total_tema = {t: texto_tema.get(t, [0, 0])[0] + prog["figura_tema"][t][0] for t in plano["temas"]}
+    for tema in sorted(total_tema, key=total_tema.get):
+        nt, mt = texto_tema.get(tema, [0, 0])
+        nf, mf = prog["figura_tema"][tema]
+        falta_t, falta_f = (mt - nt) / max(1, mt), (mf - nf) / max(1, mf)
+        opcoes = [trabalho_texto, trabalho_figura] if falta_t >= falta_f else [trabalho_figura, trabalho_texto]
+        if so == "texto":
+            opcoes = [trabalho_texto]
+        elif so == "figuras":
+            opcoes = [trabalho_figura]
+        for opcao in opcoes:
+            trabalho = opcao(tema)
+            if trabalho:
+                return trabalho
+    return None
 
 
 def encomenda_pendente(banco):
