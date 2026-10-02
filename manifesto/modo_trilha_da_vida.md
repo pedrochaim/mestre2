@@ -70,7 +70,41 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Escolha no começo** (proposta): cada jogador recebe 3 profissões e escolhe 1, sem repetir temas de outro jogador; depois recebe 2 personalidades e escolhe 1. Com 3 ou 4 jogadores há variedade de sobra.
 
-**Casas de Ação ligadas a subtemas** (exemplos): "Vá ao Cinema" → Cinema; "Visite um museu" → Pintura ou Escultura e Arquitetura; "Viaje para a Ásia" → Antigas Civilizações do Oriente ou Países e Capitais; "Assista ao jogo" → Futebol; "Faça um churrasco" → Culinária e Bebidas; "Leia um livro" → Literatura Brasileira ou Mundial. Se o subtema tiver poucas perguntas, a casa usa o tema inteiro.
+**Casas de Ação** (o modelo é decisão do autor; a lista é proposta): um **baralho de 31 casas de Ação**, cada uma com 2 ou 3 subtemas parecidos, que juntas cobrem os **73 subtemas uma vez cada**. Algumas misturam temas quando o "programa de vida" pede (Grécia e Roma com Mitologia, festa junina com Culinária). Cada pergunta sorteia um dos subtemas da casa. A cada partida, o app sorteia as ~12 casas de Ação da trilha a partir do baralho, de modo que as partidas variam e todos os subtemas aparecem ao longo de várias partidas. Além delas, há as casas de Ação sem subtema, como "Tire férias".
+
+| # | Casa de Ação | Subtemas |
+|---|---|---|
+| 1 | Vá ao cinema | Cinema · Séries e TV |
+| 2 | Vá a um show | Música Brasileira · Música Internacional |
+| 3 | Vá ao teatro | Teatro e Ópera · Música Clássica |
+| 4 | Visite um museu de arte | Pintura · Escultura e Arquitetura |
+| 5 | Leia um livro | Literatura Brasileira · Literatura Mundial · Língua Portuguesa e Expressões |
+| 6 | Noite de jogos | Jogos Eletrônicos · Jogos de Tabuleiro e Cartas |
+| 7 | Passe na banca de gibis | Anime e Mangá · Quadrinhos |
+| 8 | Vá ao estádio | Futebol · Vôlei · Basquete |
+| 9 | Domingo de esportes na TV | Tênis · Automobilismo · Outras Modalidades |
+| 10 | Assista às Olimpíadas | Olimpíadas · Lutas e Artes Marciais |
+| 11 | Vá ao médico | Corpo Humano e Medicina · Biologia e Genética |
+| 12 | Olhe as estrelas | Astronomia e Espaço · Física |
+| 13 | Ajude na lição de casa | Matemática · Química |
+| 14 | Visite uma feira de tecnologia | Tecnologia e Computação · Invenções e História da Ciência |
+| 15 | Plante uma árvore | Plantas e Fungos · Meio Ambiente e Energia |
+| 16 | Vá ao zoológico | Mamíferos · Aves, Répteis e Anfíbios |
+| 17 | Visite o aquário | Vida Marinha · Oceanos, Mares e Ilhas |
+| 18 | Acampe na mata | Insetos e Invertebrados · Ecossistemas e Ambientes Extremos |
+| 19 | Visite o museu de história natural | Dinossauros e Fósseis · Evolução Humana · Geologia e História da Terra |
+| 20 | Viaje para o exterior | Países e Capitais · Cidades e Monumentos · Bandeiras e Símbolos |
+| 21 | Faça uma expedição | Relevo e Maravilhas Naturais · Rios e Lagos · Clima e Biomas |
+| 22 | Pegue a estrada pelo Brasil | Geografia do Brasil · Transportes |
+| 23 | Faça intercâmbio | Povos e Idiomas · Costumes pelo Mundo |
+| 24 | Vá ao shopping | Marcas e Produtos · Moda e Vestuário · Objetos do Dia a Dia |
+| 25 | Vá à festa junina | Folclore e Tradições Brasileiras · Culinária e Bebidas |
+| 26 | Visite ruínas antigas | Pré-História e Idade do Bronze · Egito Antigo · Américas Pré-Colombianas |
+| 27 | Viaje à Grécia e a Roma | Grécia Antiga · Roma Antiga · Mitologia |
+| 28 | Visite um castelo | Idade Média · Idade Moderna |
+| 29 | Assista a um documentário histórico | Primeira Guerra Mundial · Segunda Guerra Mundial · Idade Contemporânea |
+| 30 | Visite um museu de história | História do Brasil · História da África · Antigas Civilizações do Oriente |
+| 31 | Participe de um debate | Filosofia · Religiões |
 
 **Limite de cartas:** no máximo 3 na mão.
 
