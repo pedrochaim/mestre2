@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Veículo de três rodas, comum na Índia\" é quase uma definição de autorriquixá: com a imagem coberta já se responde. Troquei por uma pista mais ampla.",
+      "reescrita": {
+        "pergunta": "Que veículo motorizado, muito usado como táxi em cidades do sul da Ásia, é este?",
+        "resposta": "Tuk-tuk (autorriquixá)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato (Transrapid, joint venture ThyssenKrupp e Siemens) é verdadeiro, mas vale para qualquer Transrapid e é respondível por conhecimento do sistema, sem olhar a figura. A figura vira enfeite e não há conserto simples.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho diz que a produção no Brasil foi até 2021, com a segunda geração. \"Até dois mil e quatorze\" é falso para o modelo. Além disso, o ano funciona como pista que entrega. Reescrito sem o ano.",
+      "reescrita": {
+        "pergunta": "Que carro compacto da Fiat, muito popular no Brasil nos anos oitenta, é este?",
+        "resposta": "Fiat Uno",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Microcarro em formato de ovo\" descreve a Isetta, então dá para responder sem a figura. Removi a descrição e deixei a pista de país e época.",
+      "reescrita": {
+        "pergunta": "Este microcarro foi projetado na Itália em mil novecentos e cinquenta e três e depois produzido sob licença em vários países. Que empresa italiana o criou?",
+        "resposta": "Iso",
+        "distratores": [
+          "Innocenti",
+          "Lancia",
+          "Piaggio"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Vespa foi lançada em 1946 pela Piaggio, conforme os trechos. O enunciado não entrega a marca e exige reconhecer a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro, mas \"em 1829, esta locomotiva venceu que competição a vapor\" é respondível sem a imagem (só uma locomotiva venceu o Rainhill). Alternativas, como o projetista, têm ambiguidade entre Robert e George Stephenson.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Brasília foi fabricada de 1973 a 1982. O enunciado não vaza a resposta, e os distratores são carros nacionais da época, distinguíveis pela figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram a produção iniciada em 1941 (Willys em junho de 1941) e encerrada em 1945. O enunciado não entrega o veículo, e os distratores são anos plausíveis e incorretos.",
+      "reescrita": null
+    }
+  ]
+}

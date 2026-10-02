@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Autorriquixá claro e reconhecível; o motorista aparece de costas, sem rosto identificável, e o texto no toldo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que veículo de três rodas, comum em países como a Índia, é este?",
+      "resposta": "Tuk-tuk (autorriquixá)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tuk-tuk",
+        "descricao": "Veículo motorizado de três rodas, em geral semiaberto, usado como táxi em países tropicais, sobretudo no sul da Ásia.",
+        "variantes": [
+          "Autorriquixá",
+          "Auto rickshaw",
+          "Tuk tuk"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Trem Transrapid branco de nariz característico, junto ao aeroporto, sem texto legível que entregue a resposta.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este trem de levitação magnética usa tecnologia desenvolvida pela ThyssenKrupp e por qual outra empresa alemã?",
+      "resposta": "Siemens",
+      "distratores": [
+        "Bosch",
+        "Daimler-Benz",
+        "Linde"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Maglev de Xangai",
+        "descricao": "Trem de levitação magnética Transrapid que liga o aeroporto de Pudong ao centro de Xangai, na China.",
+        "variantes": [
+          "Transrapid de Xangai",
+          "Shanghai Maglev",
+          "Shanghai Transrapid"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Logotipo Ford bem visível ao fundo entrega a marca, e há pessoas comuns em primeiro plano; além disso pode ser réplica de exposição."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fiat Uno reconhecível pela carroceria e pela grade; sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que carro compacto italiano, fabricado no Brasil até dois mil e quatorze, é este?",
+      "resposta": "Fiat Uno",
+      "destino": 0,
+      "ancora": {
+        "nome": "Fiat Uno",
+        "descricao": "Carro compacto hatchback da Fiat, lançado em 1983 e produzido no Brasil até 2014.",
+        "variantes": [
+          "Uno"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "A foto mostra um Isetta italiano original, bem reconhecível pelo formato de ovo; a placa não entrega a fabricante. A pergunta é sobre o Isetta original.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresa italiana fabricou originalmente este microcarro em formato de ovo, a partir de mil novecentos e cinquenta e três?",
+      "resposta": "Iso",
+      "distratores": [
+        "Innocenti",
+        "Lancia",
+        "Piaggio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Isetta",
+        "descricao": "Microcarro em formato de ovo com porta frontal, projetado na Itália pela Iso e produzido sob licença em vários países.",
+        "variantes": [
+          "Iso Isetta",
+          "Romi-Isetta",
+          "BMW Isetta"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vespa vermelha de perfil, inconfundível, sem texto nem pessoas.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano a Piaggio lançou o primeiro scooter desta marca?",
+      "resposta": "1946",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vespa",
+        "descricao": "Marca italiana de scooters fabricados pela Piaggio, criada em 1946.",
+        "variantes": [
+          "Vespa Piaggio"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O nome Queen Mary 2 e Cunard estão escritos no casco e na chaminé, entregando a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Gravura histórica da locomotiva Rocket, sem texto; os homens são figuras da época, não pessoas comuns atuais.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em mil oitocentos e vinte e nove, esta locomotiva venceu que competição, que testava máquinas a vapor?",
+      "resposta": "Rainhill Trials (Concurso de Rainhill)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Locomotiva Rocket, de Stephenson",
+        "descricao": "Locomotiva a vapor construída por Robert Stephenson em 1829, vencedora do concurso de Rainhill.",
+        "variantes": [
+          "Rocket",
+          "Stephenson's Rocket"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Gondoleiros e turistas, pessoas comuns, aparecem em primeiro plano."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Brasília de quatro portas laterais, sem texto nem pessoas, reconhecível pelo desenho; múltipla com carros nacionais parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que carro nacional dos anos setenta é este?",
+      "resposta": "Volkswagen Brasília",
+      "distratores": [
+        "Ford Corcel",
+        "Fiat 147",
+        "Chevrolet Chevette"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Volkswagen Brasília",
+        "descricao": "Carro familiar compacto com motor traseiro da Volkswagen do Brasil, fabricado de 1973 a 1982.",
+        "variantes": [
+          "Brasília",
+          "VW Brasília"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O nome Flying Scotsman e o número 4472 estão escritos na locomotiva, entregando a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Jipe militar da Segunda Guerra reconhecível; os textos visíveis (placas, Bedford) não entregam o ano de início da produção.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano começou a produção em série deste veículo militar americano?",
+      "resposta": "1941",
+      "distratores": [
+        "1939",
+        "1943",
+        "1945"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jeep Willys",
+        "descricao": "Veículo utilitário militar 4x4 leve americano (Willys MB), produzido em massa na Segunda Guerra Mundial.",
+        "variantes": [
+          "Willys MB",
+          "Jeep",
+          "Willys Jeep"
+        ]
+      }
+    }
+  ]
+}
