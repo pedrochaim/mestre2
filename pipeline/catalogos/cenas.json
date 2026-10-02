@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Cidade de Deus",
+      "titulo": "tmdb:filme:Cidade de Deus (2002) | pt:Cidade de Deus (filme)",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Tropa de Elite",
+      "titulo": "tmdb:filme:Tropa de Elite (2007) | pt:Tropa de Elite (filme)",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Central do Brasil",
+      "titulo": "tmdb:filme:Central do Brasil (1998) | pt:Central do Brasil",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Sítio do Picapau Amarelo (2001)",
+      "titulo": "tmdb:serie:Sítio do Picapau Amarelo (2001) | pt:Sítio do Picapau Amarelo (2001)",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Avenida Brasil",
+      "titulo": "tmdb:serie:Avenida Brasil (2012) | pt:Avenida Brasil (telenovela)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chaves",
+      "titulo": "tmdb:serie:El Chavo del Ocho (1973) | pt:Chaves",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "O Poderoso Chefão",
+      "titulo": "tmdb:filme:The Godfather (1972) | pt:The Godfather",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Titanic",
+      "titulo": "tmdb:filme:Titanic (1997) | pt:Titanic (filme de 1997)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "De Volta para o Futuro",
+      "titulo": "tmdb:filme:Back to the Future (1985) | pt:Back to the Future",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Matrix",
+      "titulo": "tmdb:filme:The Matrix (1999) | pt:The Matrix",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jurassic Park",
+      "titulo": "tmdb:filme:Jurassic Park (1993) | pt:Jurassic Park (filme)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Harry Potter e a Pedra Filosofal",
+      "titulo": "tmdb:filme:Harry Potter and the Philosopher's Stone (2001) | pt:Harry Potter e a Pedra Filosofal (filme)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rocky, um Lutador",
+      "titulo": "tmdb:filme:Rocky (1976) | en:Rocky",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bacurau",
+      "titulo": "tmdb:filme:Bacurau (2019) | pt:Bacurau (filme)",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Que Horas Ela Volta?",
+      "titulo": "tmdb:filme:Que Horas Ela Volta? (2015) | pt:Que Horas Ela Volta?",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ainda Estou Aqui",
+      "titulo": "tmdb:filme:Ainda Estou Aqui (2024) | pt:Ainda Estou Aqui (filme)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lisbela e o Prisioneiro",
+      "titulo": "tmdb:filme:Lisbela e o Prisioneiro (2003) | pt:Lisbela e o Prisioneiro (filme)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Escolinha do Professor Raimundo",
+      "titulo": "tmdb:serie:Escolinha do Professor Raimundo (1990) | pt:Escolinha do Professor Raimundo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pulp Fiction",
+      "titulo": "tmdb:filme:Pulp Fiction (1994) | pt:Pulp Fiction",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "O Iluminado",
+      "titulo": "tmdb:filme:The Shining (1980) | en:The Shining (film)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Casablanca",
+      "titulo": "tmdb:filme:Casablanca (1942) | pt:Casablanca (filme)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Parasita",
+      "titulo": "tmdb:filme:Gisaengchung (2019) | en:Parasite (2019 film)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Viagem de Chihiro",
+      "titulo": "tmdb:filme:Sen to Chihiro no Kamikakushi (2001) | pt:Sen to Chihiro no Kamikakushi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Família Soprano",
+      "titulo": "tmdb:serie:The Sopranos (1999) | pt:The Sopranos",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Seinfeld",
+      "titulo": "tmdb:serie:Seinfeld (1989) | pt:Seinfeld",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Taxi Driver",
+      "titulo": "tmdb:filme:Taxi Driver (1976) | pt:Taxi Driver",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vidas Secas (filme)",
+      "titulo": "tmdb:filme:Vidas Secas (1963) | pt:Vidas Secas (filme)",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "O Cangaceiro",
+      "titulo": "tmdb:filme:O Cangaceiro (1953) | pt:O Cangaceiro (1953)",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Macunaíma (filme)",
+      "titulo": "tmdb:filme:Macunaíma (1969) | pt:Macunaíma (filme)",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Hoje É Dia de Maria",
+      "titulo": "tmdb:serie:Hoje É Dia de Maria (2005) | pt:Hoje É Dia de Maria",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pixote, a Lei do Mais Fraco",
+      "titulo": "tmdb:filme:Pixote: A Lei do Mais Fraco (1980) | pt:Pixote, a Lei do Mais Fraco",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Twin Peaks",
+      "titulo": "tmdb:serie:Twin Peaks (1990) | pt:Twin Peaks",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "O Sétimo Selo",
+      "titulo": "tmdb:filme:Det sjunde inseglet (1957) | pt:Det sjunde inseglet",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ladrões de Bicicleta",
+      "titulo": "tmdb:filme:Ladri di biciclette (1948) | pt:Ladri di biciclette",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Amor à Flor da Pele",
+      "titulo": "tmdb:filme:In the Mood for Love (2000) | en:In the Mood for Love",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rashomon",
+      "titulo": "tmdb:filme:Rashōmon (1950) | pt:Rashomon (filme)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Doce Vida",
+      "titulo": "tmdb:filme:La dolce vita (1960) | pt:La dolce vita",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Metrópolis",
+      "titulo": "tmdb:filme:Metropolis (1927) | pt:Metropolis (filme)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "A Escuta (The Wire)",
+      "titulo": "tmdb:serie:The Wire (2002) | pt:The Wire",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fleabag",
+      "titulo": "tmdb:serie:Fleabag (2016) | pt:Fleabag",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}

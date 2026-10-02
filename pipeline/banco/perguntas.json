@@ -28197,5 +28197,180 @@
       "licenca": "Arte oficial; uso privado, sem licença livre",
       "revelacao": "q01751_revelacao.jpg"
     }
+  },
+  {
+    "id": "q01752",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "cidade_de_deus",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "De que filme é esta cena?",
+    "resposta": "Cidade de Deus",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cidade_de_Deus_%28filme%29",
+      "https://www.themoviedb.org/movie/598"
+    ],
+    "imagem": {
+      "arquivo": "q01752.jpg",
+      "origem": "https://www.themoviedb.org/movie/598",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01753",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "que_horas_ela_volta",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que filme brasileiro é esta cena?",
+    "resposta": "Que Horas Ela Volta?",
+    "distratores": [
+      "Aquarius",
+      "O Som ao Redor",
+      "Bacurau"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Que_Horas_Ela_Volta%3F",
+      "https://www.themoviedb.org/movie/310569"
+    ],
+    "imagem": {
+      "arquivo": "q01753.jpg",
+      "origem": "https://www.themoviedb.org/movie/310569",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01754",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "o_cangaceiro",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem dirigiu este clássico brasileiro dos anos cinquenta, de onde vem esta cena?",
+    "resposta": "Lima Barreto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Cangaceiro_%281953%29",
+      "https://www.themoviedb.org/movie/67615"
+    ],
+    "imagem": {
+      "arquivo": "q01754.jpg",
+      "origem": "https://www.themoviedb.org/movie/67615",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01755",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "central_do_brasil",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que década foi lançado o filme desta cena?",
+    "resposta": "Anos 1990",
+    "distratores": [
+      "Anos 1970",
+      "Anos 1980",
+      "Anos 2000"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Central_do_Brasil",
+      "https://www.themoviedb.org/movie/666"
+    ],
+    "imagem": {
+      "arquivo": "q01755.jpg",
+      "origem": "https://www.themoviedb.org/movie/666",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01756",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "ainda_estou_aqui",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que atriz ganhou o Globo de Ouro de melhor atriz em filme dramático por este filme?",
+    "resposta": "Fernanda Torres",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ainda_Estou_Aqui_%28filme%29",
+      "https://www.themoviedb.org/movie/1000837"
+    ],
+    "imagem": {
+      "arquivo": "q01756.jpg",
+      "origem": "https://www.themoviedb.org/movie/1000837",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01757",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "macunaima_filme",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "De que filme brasileiro é esta cena?",
+    "resposta": "Macunaíma",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Macuna%C3%ADma_%28filme%29",
+      "https://www.themoviedb.org/movie/68173"
+    ],
+    "imagem": {
+      "arquivo": "q01757.jpg",
+      "origem": "https://www.themoviedb.org/movie/68173",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01758",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "sitio_do_picapau_amarelo_2001",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que escritor criou as histórias e os livros que inspiraram esta série infantil?",
+    "resposta": "Monteiro Lobato",
+    "distratores": [
+      "Ruth Rocha",
+      "Ziraldo",
+      "Maurício de Sousa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/S%C3%ADtio_do_Picapau_Amarelo_%282001%29",
+      "https://www.themoviedb.org/tv/42680"
+    ],
+    "imagem": {
+      "arquivo": "q01758.jpg",
+      "origem": "https://www.themoviedb.org/tv/42680",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01759",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "lisbela_e_o_prisioneiro",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década foi lançado o filme desta cena?",
+    "resposta": "Anos 2000",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lisbela_e_o_Prisioneiro_%28filme%29",
+      "https://www.themoviedb.org/movie/52345"
+    ],
+    "imagem": {
+      "arquivo": "q01759.jpg",
+      "origem": "https://www.themoviedb.org/movie/52345",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
   }
 ]

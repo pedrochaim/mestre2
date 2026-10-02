@@ -14,6 +14,7 @@ Cada passo grava seu arquivo em trabalho/<lote>/ e é pulado se já existe, como
 import io
 import json
 import math
+import random
 import re
 import subprocess
 import time
@@ -551,6 +552,10 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
         idx = banco.indice_nomes()
         fila = sorted(livres(dados), key=lambda e: (e["camada"], ))
         camadas = {k: [e for e in fila if e["camada"] == k] for k in (1, 2, 3)}
+        # Embaralha cada camada (de forma reproduzível, pelo id do lote): a curadoria lista as entidades em blocos
+        # (os brasileiros primeiro, por exemplo), e a ordem original faria um lote inteiro de um bloco só.
+        for k in camadas:
+            random.Random(f"{lote_id}:{k}").shuffle(camadas[k])
         ordem = []
         while any(camadas.values()):
             for k in (1, 2, 3):

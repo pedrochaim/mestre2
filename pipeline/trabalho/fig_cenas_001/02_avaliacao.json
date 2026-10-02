@@ -1,0 +1,202 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Grupo de jovens armados em tom alaranjado, sem texto; cena marcante do filme.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "Cidade de Deus",
+      "distratores": [],
+      "ancora": {
+        "nome": "Cidade de Deus",
+        "descricao": "Filme brasileiro de 2002 dirigido por Fernando Meirelles, sobre jovens numa favela do Rio de Janeiro.",
+        "variantes": [
+          "City of God"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Montagem tipo pôster com vários rostos sobre fundo de papel; não é uma cena única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto sépia genérica de sertão, sem elementos que permitam reconhecer o filme com resposta única (confundível com outros filmes do Cinema Novo)."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato de um militar com boina e fuzil, sem texto; reconhecível pelo personagem e pelo ator.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que ator interpreta o militar que aparece nesta cena?",
+      "resposta": "Wagner Moura",
+      "distratores": [],
+      "ancora": {
+        "nome": "Tropa de Elite",
+        "descricao": "Filme brasileiro de 2007 dirigido por José Padilha, sobre o capitão Nascimento do BOPE.",
+        "variantes": [
+          "Elite Squad"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Mulher diante de roupas no varal, sem texto; cena reconhecível pela atriz e pelo contexto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "De que filme brasileiro é esta cena de uma empregada doméstica?",
+      "resposta": "Que Horas Ela Volta?",
+      "distratores": [
+        "Aquarius",
+        "O Som ao Redor",
+        "Domésticas"
+      ],
+      "ancora": {
+        "nome": "Que Horas Ela Volta?",
+        "descricao": "Filme brasileiro de 2015 dirigido por Anna Muylaert, com Regina Casé como a babá Val.",
+        "variantes": [
+          "The Second Mother"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cena em preto e branco com chapéu de cangaceiro de estrelas, sem texto; o filme de 1953 é clássico, e a pista da época reduz a ambiguidade.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Quem dirigiu este clássico brasileiro dos anos cinquenta, de onde vem esta cena?",
+      "resposta": "Lima Barreto",
+      "distratores": [],
+      "ancora": {
+        "nome": "O Cangaceiro",
+        "descricao": "Filme brasileiro de 1953 dirigido por Lima Barreto, sobre um bando de cangaceiros no sertão nordestino.",
+        "variantes": [
+          "The Bandit"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Menino e mulher de mãos dadas numa rua de casas azuis, sem texto; cena reconhecível do filme.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que década foi lançado o filme desta cena?",
+      "resposta": "Anos 1990",
+      "distratores": [
+        "Anos 1970",
+        "Anos 1980",
+        "Anos 2000"
+      ],
+      "ancora": {
+        "nome": "Central do Brasil",
+        "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+        "variantes": [
+          "Central Station"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Família reunida na praia, sem texto; elenco do filme recente e famoso.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que atriz ganhou o Globo de Ouro de melhor atriz em filme dramático por este filme?",
+      "resposta": "Fernanda Torres",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ainda Estou Aqui",
+        "descricao": "Filme brasileiro de 2024 dirigido por Walter Salles, sobre a família Paiva durante a ditadura militar.",
+        "variantes": [
+          "I'm Still Here"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena de três personagens na mata, sem texto; visual característico do filme de 1969.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que filme brasileiro é esta cena?",
+      "resposta": "Macunaíma",
+      "distratores": [],
+      "ancora": {
+        "nome": "Macunaíma (filme)",
+        "descricao": "Filme brasileiro de 1969 dirigido por Joaquim Pedro de Andrade, baseado no livro de Mário de Andrade.",
+        "variantes": [
+          "Macunaima"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Elenco em fantasia, com Emília e o porco Rabicó, sem texto; reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem criou os personagens desta série infantil?",
+      "resposta": "Monteiro Lobato",
+      "distratores": [
+        "Ruth Rocha",
+        "Ziraldo",
+        "Maurício de Sousa"
+      ],
+      "ancora": {
+        "nome": "Sítio do Picapau Amarelo (2001)",
+        "descricao": "Série infantil da TV Globo, exibida a partir de 2001, baseada na obra de Monteiro Lobato.",
+        "variantes": [
+          "Sítio do Picapau Amarelo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto de divulgação com os quatro personagens, sem texto legível; elenco e visual reconhecíveis.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que década foi lançado o filme desta cena?",
+      "resposta": "Anos 2000",
+      "distratores": [],
+      "ancora": {
+        "nome": "Lisbela e o Prisioneiro",
+        "descricao": "Filme brasileiro de 2003 dirigido por Guel Arraes, com Selton Mello e Débora Falabella.",
+        "variantes": [
+          "Lisbela and the Prisoner"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Close de uma menina rezando, sem elemento que permita reconhecer a obra; resposta não única."
+    }
+  ]
+}

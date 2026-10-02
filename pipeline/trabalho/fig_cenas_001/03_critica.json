@@ -1,0 +1,83 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento, resposta única, confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'mostra' só indica o filme, não qual militar aparece na cena: Nascimento, Neto e Matias são militares com atores diferentes, então a resposta não é única. Qualquer correção que nomeie o personagem entregaria o filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'empregada doméstica' quase entrega a resposta sem olhar a figura. Além disso, 'Domésticas' (filme brasileiro sobre empregadas) também seria defensável. Reescrita sem pista e com distratores de época próxima.",
+      "reescrita": {
+        "pergunta": "De que filme brasileiro é esta cena?",
+        "resposta": "Que Horas Ela Volta?",
+        "distratores": [
+          "Aquarius",
+          "O Som ao Redor",
+          "Bacurau"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lima Barreto dirigiu O Cangaceiro (1953), fato amplamente documentado. A Wikipédia estava indisponível e o TMDB não cita o diretor, mas o fato é conhecido. A pista de década é verdadeira e não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filme de 1998, confirmado pelos trechos. Distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fernanda Torres ganhou o Globo de Ouro de melhor atriz em filme dramático por este filme, fato amplamente documentado. O enunciado não nomeia o filme e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto da obra, confirmado pelos trechos, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A série teve histórias criadas só para a TV, então 'criou os personagens' não é literalmente preciso. Reescrita aponta para os livros que inspiraram a série.",
+      "reescrita": {
+        "pergunta": "Que escritor criou as histórias e os livros que inspiraram esta série infantil?",
+        "resposta": "Monteiro Lobato",
+        "distratores": [
+          "Ruth Rocha",
+          "Ziraldo",
+          "Maurício de Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Filme de 2003, confirmado pelo TMDB. Resposta única e sem vazamento.",
+      "reescrita": null
+    }
+  ]
+}
