@@ -785,7 +785,7 @@
     },
     {
       "id": "pokemon",
-      "meta": 120,
+      "meta": 100,
       "imagem": "pokeapi",
       "descricao": "Pokémon de todas as gerações (nome em inglês, como no Brasil). A figura é a silhueta preta da arte oficial, e a arte colorida aparece só na resposta. Não fique nos muito conhecidos: no máximo 1 em cada 5 entidades pode ser um emblemático (Pikachu, iniciais, lendários famosos). Distribua por todas as gerações, inclua formas básicas e intermediárias (Charmeleon, Ivysaur, Pupitar, Grovyle), e não só a evolução final, e pokémon menos conhecidos que um fã daquela geração reconhece. Camada 3 é de aficionado de verdade, e não um lendário famoso.",
       "destinos": [
@@ -801,8 +801,36 @@
       "enunciado": "Quem é esse pokémon?"
     },
     {
+      "id": "personagens",
+      "meta": 100,
+      "imagem": "personagens",
+      "descricao": "Personagens de anime, mangá, quadrinhos (americanos, europeus e brasileiros) e desenhos animados de TV. A figura é a arte oficial do personagem; com fundo transparente e contorno marcante, vira silhueta, como nos pokémon. Não fique nos muito conhecidos: no máximo 1 em cada 5 entidades pode ser um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Inclua coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, e mais ou menos um quarto de quadrinhos brasileiros.",
+      "destinos": [
+        [
+          "Entretenimento",
+          "Anime e Mangá"
+        ],
+        [
+          "Entretenimento",
+          "Quadrinhos"
+        ],
+        [
+          "Entretenimento",
+          "Séries e TV"
+        ]
+      ],
+      "familias": [
+        "o_que_e",
+        "quem_fez",
+        "com_o_que_se_liga"
+      ],
+      "enunciado": "Quem é esse personagem?",
+      "regra_titulo": "as fontes da imagem do personagem, em ordem de preferência e separadas por \" | \". Formatos: `fandom:<wiki>:<Página>` (wiki de fãs do Fandom; para wikis em português, `fandom:<wiki>/pt-br:<Página>`, como `fandom:turmadamonica/pt-br:Cebolinha`), `anilist:<nome>` (anime e mangá), `heroi:<nome em inglês>` (heróis e vilões da Marvel e da DC) e `en:<Título>` ou `pt:<Título>` (artigo da Wikipédia). Dê sempre pelo menos duas fontes, e inclua o artigo da Wikipédia quando ele existir, porque ele vira a fonte da pergunta. Exemplo: `fandom:onepiece:Tony Tony Chopper | anilist:Tony Tony Chopper | en:Tony Tony Chopper`;",
+      "regra_imagem": "A imagem é a arte oficial do personagem (o jogo não tem fins comerciais). Só personagens com aparência marcante, reconhecível pela imagem, e com um nome único. Nada de personagens genéricos ou figurantes."
+    },
+    {
       "id": "musicos_atores",
-      "meta": 110,
+      "meta": 60,
       "imagem": "P18",
       "descricao": "Músicos, cantores, atores e apresentadores, em fotos livres.",
       "destinos": [
@@ -830,7 +858,7 @@
     },
     {
       "id": "instrumentos_jogos",
-      "meta": 80,
+      "meta": 50,
       "imagem": "P18",
       "descricao": "Instrumentos musicais, consoles antigos, peças e jogos de tabuleiro.",
       "destinos": [

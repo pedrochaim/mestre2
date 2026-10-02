@@ -118,8 +118,8 @@
         },
         "origem": {
           "type": "string",
-          "pattern": "^https://(commons\\.wikimedia\\.org/wiki/File:|archives\\.bulbagarden\\.net/wiki/File:|raw\\.githubusercontent\\.com/PokeAPI/sprites/)",
-          "description": "Página do arquivo no Wikimedia Commons ou, só para Pokémon, a arte oficial no Bulbagarden Archives ou no repositório do PokéAPI (MANIFESTO §6)."
+          "pattern": "^https://(commons\\.wikimedia\\.org/wiki/File:|archives\\.bulbagarden\\.net/wiki/File:|raw\\.githubusercontent\\.com/PokeAPI/sprites/|[a-z0-9-]+\\.fandom\\.com/|anilist\\.co/character/|cdn\\.jsdelivr\\.net/gh/akabab/superhero-api|[a-z]+\\.wikipedia\\.org/wiki/)",
+          "description": "Página do arquivo no Wikimedia Commons ou, para arte oficial (MANIFESTO §6): Pokémon no Bulbagarden Archives ou no PokéAPI; personagens de anime, mangá e quadrinhos no Fandom, no AniList, no superhero-api ou na Wikipédia."
         },
         "autor": {
           "type": "string",

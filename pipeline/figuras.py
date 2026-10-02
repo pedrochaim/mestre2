@@ -15,6 +15,7 @@ import io
 import json
 import math
 import re
+import subprocess
 import time
 import urllib.error
 import urllib.parse
@@ -33,6 +34,14 @@ from comum import (BANCO_DIR, ESQUEMAS_DIR, PIPELINE, PROMPTS_DIR, TRABALHO_DIR,
 from etapas import MAX_POR_ANCORA
 
 CATALOGOS_DIR = PIPELINE / "catalogos"
+# Regras padrão da curadoria (prompts/curar_catalogo.md); um catálogo pode trocá-las por `regra_titulo` e
+# `regra_imagem` no plano.json.
+REGRA_TITULO = ("o artigo da Wikipédia que a descreve, no formato `língua:Título exato`, por exemplo `en:Okapi` ou "
+                "`pt:Saci`. Prefira o artigo em inglês quando ele existir; use o em português para assuntos só "
+                "brasileiros. Pokémon: só o nome em inglês, sem língua;")
+REGRA_IMAGEM = ("Só entidades com **imagem boa e de licença livre** na Wikipédia (o pipeline usa a imagem principal do "
+                "Wikidata, {imagem}). Nada de obras de arte com direitos autorais (artistas mortos há menos de 70 anos), "
+                "logotipos, capas, pôsteres ou personagens de desenhos e filmes. Pessoas: só figuras públicas.")
 FAMILIAS = {"o_que_e": "identidade", "quem_fez": "autoria", "onde": "lugar", "quando": "tempo",
             "que_parte": "composicao", "que_tipo": "atributo", "com_o_que_se_liga": "conexao"}
 ALVO_NIVEIS = {1: .4, 2: .4, 3: .2}
@@ -103,8 +112,7 @@ def _sobre_raios(figura, lado=700):
     d.polygon([(c + lado * (.42 if i % 2 == 0 else .33) * math.cos(2 * math.pi * i / 32),
                 c + lado * (.42 if i % 2 == 0 else .33) * math.sin(2 * math.pi * i / 32)) for i in range(32)],
               fill=(255, 214, 0))
-    figura = figura.copy()
-    figura.thumbnail((int(lado * .82), int(lado * .82)))
+    figura = _ampliar(figura, int(lado * .82))
     base = fundo.convert("RGBA")
     base.alpha_composite(figura, ((lado - figura.width) // 2, (lado - figura.height) // 2))
     return base.convert("RGB")
@@ -140,7 +148,9 @@ def curar(cat, banco, config, quantidade=40):
                 excluir.add(a["nome"])
     prompt = preencher(ler_texto(PROMPTS_DIR / "curar_catalogo.md"), id=cat["id"], descricao=cat["descricao"],
                        destinos=json.dumps({i: f"{t} › {s}" for i, (t, s) in enumerate(cat["destinos"])}, ensure_ascii=False),
-                       quantidade=quantidade, imagem=cat["imagem"], excluir=", ".join(sorted(excluir)) or "(nenhuma)")
+                       quantidade=quantidade, excluir=", ".join(sorted(excluir)) or "(nenhuma)",
+                       regra_titulo=cat.get("regra_titulo", REGRA_TITULO),
+                       regra_imagem=cat.get("regra_imagem", REGRA_IMAGEM.format(imagem=cat["imagem"])))
     c = config["catalogo"]
     claude_cli.contexto.update(encomenda=f"catalogo_{cat['id']}", etapa="curadoria")
     saida = chamar(prompt, ler_json(ESQUEMAS_DIR / "saida_catalogo.json"), c["modelo"], c["esforco"], tempo_limite=c["tempo_limite"])
@@ -158,6 +168,154 @@ def curar(cat, banco, config, quantidade=40):
 
 
 # ---------------------------------------------------------------- preparo das imagens
+
+# Personagens de anime, mangá e quadrinhos (MANIFESTO §6): arte oficial, aceita enquanto o jogo não tiver fins
+# comerciais. O `titulo` da entidade lista uma ou mais fontes, separadas por " | ", tentadas em ordem:
+#   fandom:<wiki>[/<língua>]:<Página>   wiki de fãs do Fandom (ex.: fandom:naruto:Naruto Uzumaki,
+#                                       fandom:turmadamonica/pt-br:Cebolinha)
+#   anilist:<nome>                      AniList, para anime e mangá
+#   heroi:<nome>                        superhero-api (heróis e vilões da Marvel e da DC)
+#   en:<Título> ou pt:<Título>          imagem do quadro de informações da Wikipédia
+# O Fandom bloqueia o cliente HTTP do Python; o curl com cabeçalhos de navegador passa.
+NAVEGADOR = ["-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 "
+             "Safari/537.36", "-H", "Accept: image/avif,image/webp,image/png,*/*"]
+HEROIS = "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/"
+_herois = None
+
+
+def _curl(url, *extra):
+    r = subprocess.run(["curl", "-s", "-L", "--max-time", "60", *NAVEGADOR, *extra, url], capture_output=True)
+    return r.stdout if r.returncode == 0 and r.stdout else None
+
+
+def _curl_json(url, *extra):
+    dados = _curl(url, *extra)
+    try:
+        return json.loads(dados) if dados else None
+    except json.JSONDecodeError:
+        return None
+
+
+def _texto_html(html_):
+    texto = re.sub(r"(?is)<(script|style|table|aside)\b.*?</\1>", " ", html_ or "")
+    texto = re.sub(r"<[^>]+>", " ", texto)
+    return re.sub(r"\s+", " ", __import__("html").unescape(texto)).strip()
+
+
+def _fonte_fandom(spec):
+    wiki_lang, _, pagina = spec.partition(":")
+    wiki, _, lang = wiki_lang.partition("/")
+    base = f"https://{wiki}.fandom.com/{lang + '/' if lang else ''}"
+    d = _curl_json(base + "api.php?" + urllib.parse.urlencode(
+        {"action": "query", "titles": pagina, "prop": "pageimages", "piprop": "original", "redirects": 1, "format": "json"}))
+    p = next(iter((d or {}).get("query", {}).get("pages", {}).values()), {})
+    if "original" not in p:
+        return None
+    dados = _curl(p["original"]["source"], "-H", f"Referer: {base}")
+    pagina_url = base + "wiki/" + urllib.parse.quote(p["title"].replace(" ", "_"))
+    t = _curl_json(base + "api.php?" + urllib.parse.urlencode(
+        {"action": "parse", "page": p["title"], "prop": "text", "section": 0, "format": "json"}))
+    trecho = _texto_html((t or {}).get("parse", {}).get("text", {}).get("*"))[:900]
+    return dados, pagina_url, [pagina_url], trecho, f"Fandom ({wiki}.fandom.com)"
+
+
+def _fonte_anilist(nome):
+    q = "query($s:String){Character(search:$s){siteUrl description image{large}}}"
+    d = _curl_json("https://graphql.anilist.co", "-X", "POST", "-H", "Content-Type: application/json",
+                   "-d", json.dumps({"query": q, "variables": {"s": nome}}))
+    c = ((d or {}).get("data") or {}).get("Character")
+    if not c or not c["image"]["large"]:
+        return None
+    descricao = re.sub(r"~!.*?!~", " ", c.get("description") or "", flags=re.S)  # tira os spoilers
+    return _curl(c["image"]["large"]), c["siteUrl"], [c["siteUrl"]], _texto_html(descricao)[:900], "AniList"
+
+
+def _fonte_heroi(nome):
+    global _herois
+    if _herois is None:
+        _herois = _curl_json(HEROIS + "all.json") or []
+    alvo = normalizar(nome)
+    achados = [h for h in _herois if normalizar(h["name"]) == alvo or normalizar(h["biography"]["fullName"]) == alvo]
+    if not achados:
+        return None
+    h = next((h for h in achados if h["biography"]["publisher"] in ("Marvel Comics", "DC Comics")), achados[0])
+    url = h["images"]["lg"]
+    trecho = f"{h['name']} ({h['biography']['fullName']}), {h['biography']['publisher']}; primeira aparição: " \
+             f"{h['biography']['firstAppearance']}."
+    return _curl(url), url, [], trecho, "superhero-api"
+
+
+def _fonte_wikipedia(lingua, titulo):
+    w = _get(f"https://{lingua}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
+        {"action": "parse", "page": titulo, "prop": "wikitext", "section": 0, "redirects": 1, "format": "json"}))
+    texto = ((w or {}).get("parse") or {}).get("wikitext", {}).get("*", "")
+    achado = re.search(r"\|\s*(?:image|imagem)\s*=\s*(?:\[\[(?:File|Image|Ficheiro|Imagem|Arquivo):)?([^|\]\n<]+)", texto)
+    if not achado:
+        return None
+    arquivo = achado.group(1).strip()
+    d = _get(f"https://{lingua}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(
+        {"action": "query", "titles": "File:" + arquivo, "prop": "imageinfo", "iiprop": "url", "format": "json"}))
+    info = next(iter((d or {}).get("query", {}).get("pages", {}).values()), {}).get("imageinfo", [None])[0]
+    if not info:
+        return None
+    pagina = _wiki_url(lingua, (w["parse"].get("title") or titulo))
+    return _get(info["url"], json_=False), info["descriptionurl"], [pagina], "", f"Wikipédia ({lingua})"
+
+
+def _ampliar(im, lado):
+    """Ajusta a figura ao lado pedido, ampliando também: a arte não livre da Wikipédia e do AniList vem pequena."""
+    k = lado / max(im.size)
+    return im.resize((max(1, round(im.width * k)), max(1, round(im.height * k))), Image.LANCZOS)
+
+
+def _preparar_personagem(ent, pasta, indice):
+    fontes_extra, falhas = [], []
+    escolhido = None
+    for spec in [s.strip() for s in ent["titulo"].split("|") if s.strip()]:
+        tipo, _, resto = spec.partition(":")
+        if tipo in ("en", "pt"):
+            fontes_extra.append(_wiki_url(tipo, resto))
+        if escolhido:
+            continue
+        try:
+            r = (_fonte_fandom(resto) if tipo == "fandom" else _fonte_anilist(resto) if tipo == "anilist"
+                 else _fonte_heroi(resto) if tipo == "heroi" else _fonte_wikipedia(tipo, resto) if tipo in ("en", "pt")
+                 else None)
+        except Exception as ex:  # uma fonte fora do ar não derruba o lote: tenta a próxima
+            r = None
+            falhas.append(f"{spec}: {type(ex).__name__}")
+        if r and r[0]:
+            try:
+                arte = Image.open(io.BytesIO(r[0])).convert("RGBA")
+            except Exception:
+                falhas.append(f"{spec}: imagem ilegível")
+                continue
+            escolhido = (arte, *r[1:])
+        elif not falhas or not falhas[-1].startswith(spec):
+            falhas.append(f"{spec}: sem imagem")
+    if not escolhido:
+        return None, "nenhuma fonte de imagem: " + "; ".join(falhas)
+    arte, origem, fontes_, trecho, credito = escolhido
+    fontes_ = list(dict.fromkeys(fontes_ + fontes_extra))
+    if not fontes_:
+        return None, "sem página de fonte para a pergunta (inclua a Wikipédia no titulo)"
+    # A imagem colorida, sobre fundo branco, sempre existe. Com fundo transparente, também a silhueta e a revelação
+    # sobre os raios, como nos pokémon; o redator decide se a silhueta é reconhecível (`usar_silhueta`).
+    arquivo = pasta / f"{indice:02d}.jpg"
+    base = Image.new("RGBA", (700, 700), (255, 255, 255, 255))
+    figura = _ampliar(arte, 660)
+    base.alpha_composite(figura, ((700 - figura.width) // 2, (700 - figura.height) // 2))
+    base.convert("RGB").save(arquivo, "JPEG", quality=88)
+    item = {"imagem": str(arquivo), "origem": origem, "autor": f"Arte oficial dos detentores dos direitos, via {credito}",
+            "licenca": "Arte oficial; uso não comercial, sem licença livre", "nome": ent["nome"], "fonte": fontes_,
+            "trecho": trecho}
+    if arte.split()[3].getextrema()[0] < 250:
+        item["silhueta"] = str(pasta / f"{indice:02d}_silhueta.jpg")
+        item["revelacao"] = str(pasta / f"{indice:02d}_revelacao.jpg")
+        _sobre_raios(_silhueta(arte)).save(item["silhueta"], "JPEG", quality=88)
+        _sobre_raios(arte).save(item["revelacao"], "JPEG", quality=88)
+    return item, None
+
 
 def _preparar_pokemon(ent, pasta, indice):
     nome = ent["titulo"].split(":", 1)[-1].strip().lower().replace(". ", "-").replace(" ", "-").replace("'", "").replace(".", "")
@@ -290,6 +448,7 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
                 ent["status"] = "saturada"
                 continue
             prep, motivo = (_preparar_pokemon(ent, pasta, len(itens) + 1) if cat["imagem"] == "pokeapi"
+                            else _preparar_personagem(ent, pasta, len(itens) + 1) if cat["imagem"] == "personagens"
                             else _preparar_wikidata(ent, cat, pasta, len(itens) + 1))
             if prep is None:
                 ent["status"] = "sem_imagem"
@@ -315,7 +474,7 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
         print("  2. avaliação das imagens…", flush=True)
         enunciado = f"- **Enunciado padrão do nível 1:** \"{cat['enunciado']}\"" if cat.get("enunciado") else ""
         entrada = [{k: it[k] for k in ("indice", "nome", "camada", "destino_sugerido", "familia_sugerida", "nivel_sugerido",
-                                        "imagem", "revelacao", "trecho", "fonte") if k in it} for it in itens]
+                                        "imagem", "silhueta", "revelacao", "trecho", "fonte") if k in it} for it in itens]
         prompt = preencher(ler_texto(PROMPTS_DIR / "figuras.md"), id=cat["id"], descricao=cat["descricao"],
                            destinos=json.dumps({i: f"{t} › {s}" for i, (t, s) in enumerate(cat["destinos"])}, ensure_ascii=False),
                            familias=", ".join(cat["familias"]), enunciado=enunciado,
@@ -527,10 +686,15 @@ def _registrar(cat, itens, avaliacao, critica, banco, canon, lote_id, est, pasta
         p = {**c["p"], "id": qid, "imagem": {**c["p"]["imagem"], "arquivo": qid + ".jpg"}}
         if c["nova"] and c["nova"]["id"] not in banco.ancora_por_id:
             banco.adicionar_ancora(c["nova"])
-        (BANCO_DIR / "imagens" / (qid + ".jpg")).write_bytes(open(c["it"]["imagem"], "rb").read())
-        if c["it"].get("revelacao"):
+        it = c["it"]
+        if "silhueta" in it:   # personagens: silhueta com revelação só quando o redator a escolheu
+            principal, revelacao = (it["silhueta"], it["revelacao"]) if c["av"].get("usar_silhueta") else (it["imagem"], None)
+        else:                  # pokémon: sempre silhueta (imagem) e revelação; os outros catálogos, só a imagem
+            principal, revelacao = it["imagem"], it.get("revelacao")
+        (BANCO_DIR / "imagens" / (qid + ".jpg")).write_bytes(open(principal, "rb").read())
+        if revelacao:
             p["imagem"]["revelacao"] = qid + "_revelacao.jpg"
-            (BANCO_DIR / "imagens" / p["imagem"]["revelacao"]).write_bytes(open(c["it"]["revelacao"], "rb").read())
+            (BANCO_DIR / "imagens" / p["imagem"]["revelacao"]).write_bytes(open(revelacao, "rb").read())
         banco.perguntas.append(p)
         av = c["av"]
         est["familias"][av["familia"]] = est["familias"].get(av["familia"], 0) + 1

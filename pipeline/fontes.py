@@ -15,6 +15,7 @@ ficam em trabalho/<encomenda>/03_fontes.json, para não baixar de novo se a etap
 import html
 import json
 import re
+import subprocess
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -94,12 +95,60 @@ def _pagina(url):
     return "ok", "\n".join(l for l in linhas if len(l) > 40)
 
 
+def _curl_json(url, *extra):
+    """O Fandom bloqueia o cliente HTTP do Python; o curl com cabeçalho de navegador passa."""
+    r = subprocess.run(["curl", "-s", "-L", "--max-time", "60", "-A", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                        "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36", *extra, url],
+                       capture_output=True)
+    try:
+        return json.loads(r.stdout) if r.returncode == 0 and r.stdout else None
+    except json.JSONDecodeError:
+        return None
+
+
+def _sem_html(texto):
+    texto = re.sub(r"(?is)<(script|style|table|aside)\b.*?</\1>", " ", texto or "")
+    texto = re.sub(r"(?i)<(br|/p|/div|/li|/h\d)\b[^>]*>", "\n", texto)
+    return html.unescape(re.sub(r"<[^>]+>", " ", texto))
+
+
+def _fandom(url):
+    """Página de um wiki do Fandom (personagens de anime, mangá e quadrinhos), pela API do MediaWiki."""
+    partes = urllib.parse.urlsplit(url)
+    antes, _, titulo = partes.path.partition("/wiki/")
+    d = _curl_json(f"https://{partes.netloc}{antes}/api.php?" + urllib.parse.urlencode(
+        {"action": "parse", "page": urllib.parse.unquote(titulo), "prop": "text", "redirects": 1, "format": "json"}))
+    if not d:
+        return "inacessivel", ""
+    if "error" in d:
+        return "inexistente", ""
+    return "ok", _sem_html(d["parse"]["text"]["*"])
+
+
+def _anilist(url):
+    """Personagem do AniList, pela API: a página do site é montada em JavaScript."""
+    achado = re.search(r"/character/(\d+)", url)
+    if not achado:
+        return "inacessivel", ""
+    q = "query($id:Int){Character(id:$id){name{full} description}}"
+    d = _curl_json("https://graphql.anilist.co", "-X", "POST", "-H", "Content-Type: application/json",
+                   "-d", json.dumps({"query": q, "variables": {"id": int(achado.group(1))}}))
+    c = ((d or {}).get("data") or {}).get("Character")
+    if not c:
+        return "inexistente", ""
+    return "ok", c["name"]["full"] + ". " + _sem_html(re.sub(r"~!.*?!~", " ", c.get("description") or "", flags=re.S))
+
+
 def baixar_fonte(url):
     """(situação, texto). situação: ok, inexistente, desambiguacao ou inacessivel."""
     try:
         partes = urllib.parse.urlsplit(url)
         if partes.netloc.endswith("wikipedia.org") and partes.path.startswith("/wiki/"):
             return _wikipedia(url)
+        if partes.netloc.endswith(".fandom.com") and "/wiki/" in partes.path:
+            return _fandom(url)
+        if partes.netloc == "anilist.co":
+            return _anilist(url)
         return _pagina(url)
     except urllib.error.HTTPError as e:
         return ("inexistente" if e.code in (404, 410) else "inacessivel"), ""

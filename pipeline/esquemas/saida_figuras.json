@@ -1,34 +1,98 @@
 {
   "type": "object",
   "additionalProperties": false,
-  "required": ["itens"],
+  "required": [
+    "itens"
+  ],
   "properties": {
     "itens": {
       "type": "array",
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["indice", "aprovado", "motivo"],
+        "required": [
+          "indice",
+          "aprovado",
+          "motivo"
+        ],
         "properties": {
-          "indice": { "type": "integer" },
-          "aprovado": { "type": "boolean" },
-          "motivo": { "type": "string" },
-          "familia": { "type": "string", "enum": ["o_que_e", "quem_fez", "onde", "quando", "que_parte", "que_tipo", "com_o_que_se_liga"] },
-          "nivel": { "type": "integer", "enum": [1, 2, 3] },
-          "destino": { "type": "integer" },
-          "tipo": { "type": "string", "enum": ["aberta", "multipla"] },
-          "pergunta": { "type": "string" },
-          "resposta": { "type": "string" },
-          "distratores": { "type": "array", "items": { "type": "string" } },
+          "indice": {
+            "type": "integer"
+          },
+          "aprovado": {
+            "type": "boolean"
+          },
+          "motivo": {
+            "type": "string"
+          },
+          "familia": {
+            "type": "string",
+            "enum": [
+              "o_que_e",
+              "quem_fez",
+              "onde",
+              "quando",
+              "que_parte",
+              "que_tipo",
+              "com_o_que_se_liga"
+            ]
+          },
+          "nivel": {
+            "type": "integer",
+            "enum": [
+              1,
+              2,
+              3
+            ]
+          },
+          "destino": {
+            "type": "integer"
+          },
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "aberta",
+              "multipla"
+            ]
+          },
+          "pergunta": {
+            "type": "string"
+          },
+          "resposta": {
+            "type": "string"
+          },
+          "distratores": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
           "ancora": {
             "type": "object",
             "additionalProperties": false,
-            "required": ["nome", "descricao", "variantes"],
+            "required": [
+              "nome",
+              "descricao",
+              "variantes"
+            ],
             "properties": {
-              "nome": { "type": "string" },
-              "descricao": { "type": "string" },
-              "variantes": { "type": "array", "items": { "type": "string" } }
+              "nome": {
+                "type": "string"
+              },
+              "descricao": {
+                "type": "string"
+              },
+              "variantes": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
             }
+          },
+          "usar_silhueta": {
+            "type": "boolean",
+            "description": "Só quando o item traz `silhueta`: true se a silhueta for reconhecível pela forma."
           }
         }
       }

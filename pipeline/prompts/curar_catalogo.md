@@ -15,11 +15,11 @@ Liste **{{quantidade}} entidades novas** para este catálogo, distribuídas mais
 
 Para cada entidade, dê:
 - `nome`: o nome usual em português do Brasil (pokémon: o nome em inglês, como no Brasil);
-- `titulo`: o artigo da Wikipédia que a descreve, no formato `língua:Título exato`, por exemplo `en:Okapi` ou `pt:Saci`. Prefira o artigo em inglês quando ele existir; use o em português para assuntos só brasileiros. Pokémon: só o nome em inglês, sem língua;
+- `titulo`: {{regra_titulo}}
 - `camada`: 1, 2 ou 3;
 - `destino`: o índice do subtema de destino mais adequado.
 
 Regras:
-- Só entidades com **imagem boa e de licença livre** na Wikipédia (o pipeline usa a imagem principal do Wikidata, {{imagem}}). Nada de obras de arte com direitos autorais (artistas mortos há menos de 70 anos), logotipos, capas, pôsteres ou personagens de desenhos e filmes. Pessoas: só figuras públicas.
+- {{regra_imagem}}
 - Cada entidade deve ser **reconhecível pela imagem** e ter **um nome único**: nada de espécies que só um especialista distingue de outras dez.
 - **Não repita** nenhuma destas, que já estão no catálogo ou no banco: {{excluir}}
