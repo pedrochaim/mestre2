@@ -99,7 +99,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
    - ela é **cooperativa** de propósito.
 
    Com 3 jogadores, a versão cooperativa é a mais arriscada: quem joga a carta e quem acerta andam juntos, e o terceiro fica para trás. As versões de ataque ou de destravar não dependem do número de jogadores.
-2. **Os 2 temas da profissão:** que efeito têm no jogo, além do perk?
+2. **Os 2 temas da profissão:** que efeito têm no jogo? Hoje só a personalidade Competitivo depende deles.
 
 ## Prova de conceito do tabuleiro
 
