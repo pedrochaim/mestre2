@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1910, aos oitenta e dois anos, Tolstói morreu de pneumonia numa pequena estação de trem. O que ele estava fazendo ao adoecer?",
+        "resposta": "Fugindo de casa"
+      },
+      "existentes": [
+        {
+          "id": "q02244",
+          "pergunta": "Que escritor russo é este?",
+          "resposta": "Liev Tolstói"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Por que Victor Hugo passou quase vinte anos exilado nas ilhas do Canal da Mancha, onde terminou Os Miseráveis?",
+        "resposta": "Oposição a Napoleão Terceiro"
+      },
+      "existentes": [
+        {
+          "id": "q02239",
+          "pergunta": "Que escritor francês do século dezenove é este?",
+          "resposta": "Victor Hugo"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Fernando Pessoa passou boa parte da infância numa cidade da África do Sul, onde estudou em inglês. Que cidade é essa?",
+        "resposta": "Durban"
+      },
+      "existentes": [
+        {
+          "id": "q02241",
+          "pergunta": "Que poeta português do início do século vinte é este?",
+          "resposta": "Fernando Pessoa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a identidade do escritor; a nova pergunta o que Tolstói fazia ao adoecer, um fato distinto."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente pede a identidade de Victor Hugo; a nova pergunta o motivo do exílio, outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A existente pede a identidade do poeta; a nova pergunta a cidade sul-africana da infância, outro fato."
+    }
+  ]
+}
