@@ -165,6 +165,8 @@
     #mesa.trilha { overflow: auto; align-items: flex-start; }
     #mesa.trilha .tabuleiro { width: auto; height: 100vh; }
     #mesa.trilha .tabuleiro svg { height: 100vh; width: auto; }
+    /* Modo Linear: o tabuleiro é deitado (1600 × 880). */
+    #mesa.linear .tabuleiro { width: min(100vw, calc(100vh * 1600 / 880)); }
     [hidden] { display: none !important; }
   </style>
 </head>
@@ -178,6 +180,7 @@
     <div class="cartao">
       <button id="criar" class="principal" style="width:100%">Nova partida · Master</button>
       <button id="criar-trilha" style="width:100%;margin-top:.5rem">Nova partida · Trilha da Vida</button>
+      <button id="criar-linear" style="width:100%;margin-top:.5rem">Nova partida · Linear (protótipo)</button>
     </div>
     <div class="cartao">
       <form id="form-entrar" class="linha">
@@ -269,6 +272,13 @@
             próximo acerto anda 2 casas a mais. As cartas da mão mudam a próxima pergunta; o Desafio manda uma pergunta
             a um oponente (menos o líder), e, se ele acertar, os dois ganham um avanço livre.</p>
         </details>
+        <details id="regras-linear" class="regras" hidden>
+          <summary>Como se joga</summary>
+          <p class="suave">Protótipo. Todos começam no Início e seguem a mesma trilha de 60 casas até a chegada
+            xadrez. A cor da casa do peão é o tema da próxima pergunta; no Início e nas casas ★ a pergunta é de
+            qualquer tema. Cada acerto avança uma casa; errar não move o peão. As ações das casas ★ ainda serão
+            definidas: por enquanto, o grupo as aplica à mão, com − e + ou arrastando o peão.</p>
+        </details>
         <details id="regras-master" class="regras">
           <summary>Como se joga</summary>
           <p class="suave">Cada jogador começa na casa grande com o nome do seu tema e percorre o braço dessa cor
@@ -316,6 +326,7 @@
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
 
   import * as T from "./trilha.js";
+  import * as L from "./linear.js";
 
   const db = getFirestore(initializeApp({
     apiKey: "AIzaSyDOxFK6-2MaySIpb5oDeLQJha3V1_6Aw7I",
@@ -378,7 +389,9 @@
 
   const temPerguntas = tema => perguntas.some(p => p.tema === tema);
 
-  const casaDe = j => Math.max(0, Math.min(j.pontos, CHEGADA));
+  // Última casa do modo: no Linear, a trilha de linear.js; no Master, o centro.
+  const chegadaDoModo = () => ehLinear() ? L.CHEGADA : CHEGADA;
+  const casaDe = j => Math.max(0, Math.min(j.pontos, chegadaDoModo()));
 
   // Estágio 2: o anel central tem uma casa por tema, na ordem de temasDoJogo(). Cada jogador entra no anel
   // num ponto diferente e anda no sentido horário, de modo que a última casa (a última pergunta) é a do
@@ -388,6 +401,7 @@
   // Tema da próxima pergunta do jogador; null se ele já chegou.
   function temaAtual(j) {
     const p = casaDe(j);
+    if (ehLinear()) return L.temaDaCasa(p);
     if (p >= CHEGADA) return null;
     if (p < CASAS_E1) return j.tema;
     const temas = temasDoJogo(), i = temas.indexOf(j.tema);
@@ -396,6 +410,7 @@
 
   function situacao(j) {
     const p = casaDe(j);
+    if (ehLinear()) return p >= L.CHEGADA ? "chegou 🏁" : `casa ${p}/${L.CHEGADA}${L.TIPOS[p] === "especial" ? " · ★ especial" : ""}`;
     if (p >= CHEGADA) return "chegou 🏁";
     return p < CASAS_E1 ? `estágio 1 · ${p}/${CASAS_E1}` : `casa ${p - CASAS_E1 + 1}/${CASAS_E2}`;
   }
@@ -411,7 +426,7 @@
 
   function etiqueta(tema) {
     const s = Object.assign(document.createElement("span"), { className: "etiqueta" });
-    s.textContent = tema === null ? "🏁 chegada" : tema || "sem tema";
+    s.textContent = tema === null ? "🏁 chegada" : tema === "*" ? "Qualquer tema" : tema || "sem tema";
     pintar(s, tema);
     return s;
   }
@@ -431,6 +446,7 @@
       const c = novoCodigo();
       const dados = { criada_em: serverTimestamp() };
       if (modo === "trilha") Object.assign(dados, { modo, semente: Math.floor(Math.random() * 2e9) });
+      if (modo === "linear") dados.modo = modo;
       try {
         // Se o código já existir, a regra recusa (seria uma atualização), e tentamos outro.
         await setDoc(doc(db, "partidas", c), dados);
@@ -443,6 +459,7 @@
   }
   $("criar").onclick = () => criar("master");
   $("criar-trilha").onclick = () => criar("trilha");
+  $("criar-linear").onclick = () => criar("linear");
 
   $("form-entrar").onsubmit = async e => {
     e.preventDefault();
@@ -1014,10 +1031,21 @@
 
   // Arrastar peões. Enquanto um peão é arrastado, o tabuleiro não é redesenhado, para não perder o arrasto.
   let arrasto = null;  // {g, svg, id, x0, y0}
+  function peaoLinear(x, y, raio, j) {
+    const [c, ct] = CORES[j.tema] || ["#6b6b66", "#fff"];
+    const [cx, cy] = [x.toFixed(1), y.toFixed(1)];
+    return `<g class="peao" data-id="${esc(j.id)}"><title>${esc(j.nome)} · ${esc(situacao(j))} · arraste para mudar de casa</title>
+      <circle cx="${cx}" cy="${cy}" r="${Math.max(raio + 14, 34)}" fill="transparent"/>
+      <circle cx="${cx}" cy="${cy}" r="${raio + 3}" fill="#000"/>
+      <circle cx="${cx}" cy="${cy}" r="${raio}" fill="${c}" stroke="#fff" stroke-width="3"/>
+      <text x="${cx}" y="${cy}" font-size="${(raio * .95).toFixed(1)}" fill="${ct}" font-weight="800" text-anchor="middle" dominant-baseline="central">${esc(iniciais(j.nome))}</text></g>`;
+  }
+
   function desenharTabuleiros() {
     if (arrasto) return;
     $("tabuleiro").innerHTML = $("mesa-tab").innerHTML =
-      ehTrilha() && mapa ? T.svgMapa(mapa, jogadores, CORES, opcoesDaVez().map(n => n.id), { vez: vezAtual()?.id }) : svgTabuleiro();
+      ehTrilha() && mapa ? T.svgMapa(mapa, jogadores, CORES, opcoesDaVez().map(n => n.id), { vez: vezAtual()?.id }) :
+      ehLinear() ? L.svgLinear(jogadores, casaDe, CORES, abrev, esc, peaoLinear) : svgTabuleiro();
   }
   const pontoSvg = (svg, e) => Object.assign(svg.createSVGPoint(), { x: e.clientX, y: e.clientY })
     .matrixTransform(svg.getScreenCTM().inverse());
@@ -1052,6 +1080,11 @@
         if (casaT && j?.trilha && casaT !== j.trilha.pos) updateDoc(refJ(id), { trilha: { ...j.trilha, pos: casaT } });
         return desenharTabuleiros();
       }
+      if (ehLinear()) {  // Linear: a casa mais próxima da trilha
+        const casaL = L.casaMaisProxima(p.x, p.y);
+        if (j && casaL !== null && casaL !== casaDe(j)) updateDoc(doc(db, "partidas", codigo, "jogadores", id), { pontos: casaL });
+        return desenharTabuleiros();
+      }
       let casa = null, dist = Infinity;
       (centrosTabuleiro[temasDoJogo().indexOf(j?.tema)] || []).forEach(([x, y], k) => {
         const d = Math.hypot(p.x - x, p.y - y);
@@ -1079,7 +1112,7 @@
 
   function desenharPlacar() {
     if (ehTrilha()) return desenharPlacarTrilha();
-    const chegaram = jogadores.filter(j => casaDe(j) >= CHEGADA).map(j => j.nome);
+    const chegaram = jogadores.filter(j => casaDe(j) >= chegadaDoModo()).map(j => j.nome);
     for (const id of ["vencedor-mini", "vencedor-tab"]) {
       $(id).hidden = !chegaram.length;
       $(id).textContent = `🏆 ${chegaram.join(", ")} ${chegaram.length > 1 ? "chegaram" : "chegou"} ao fim!`;
@@ -1109,8 +1142,8 @@
       nome.append(marcas(j.id));
       const detalhe = el("span", { className: "suave" });
       detalhe.append(etiqueta(temaAtual(j)), " " + situacao(j) + " ");
-      if (p < CASAS_E1) {
-        const troca = el("select", { title: "Trocar o tema do estágio 1" });
+      if (p < CASAS_E1 || ehLinear()) {
+        const troca = el("select", { title: ehLinear() ? "Trocar a cor do peão" : "Trocar o tema do estágio 1" });
         const opcoes = temasDoJogo();
         if (!opcoes.includes(j.tema)) opcoes.unshift(j.tema || "");
         troca.replaceChildren(...opcoes.map(t => new Option(t || "—", t, false, t === (j.tema || ""))));
@@ -1122,7 +1155,7 @@
       info.append(nome, detalhe);
       const menos = el("button", { className: "ajuste", textContent: "−", title: "Voltar uma casa", disabled: p <= 0 });
       const casa = el("span", { className: "pontos", textContent: p, title: "Casa" });
-      const mais = el("button", { className: "ajuste", textContent: "+", title: "Avançar uma casa", disabled: p >= CHEGADA });
+      const mais = el("button", { className: "ajuste", textContent: "+", title: "Avançar uma casa", disabled: p >= chegadaDoModo() });
       const tirar = el("button", { className: "ajuste", textContent: "×", title: "Remover jogador" });
       menos.onclick = () => updateDoc(ref, { pontos: increment(-1) });
       mais.onclick = () => updateDoc(ref, { pontos: increment(1) });
@@ -1175,6 +1208,7 @@
   const limparTurno = () => { turno = { destino: null, carta: null, temaLivre: "*", desafio: null, mapaInteiro: turno?.mapaInteiro || false }; };
   limparTurno();
   const ehTrilha = () => partida.modo === "trilha";
+  const ehLinear = () => partida.modo === "linear";
   const refJ = id => doc(db, "partidas", codigo, "jogadores", id);
   const subtemaParaTema = {};
   carregandoTemas.then(ts => { for (const t of ts) for (const s of t.subtemas) subtemaParaTema[s.subtema] = t.tema; });
@@ -1201,8 +1235,10 @@
     $("turno").hidden = !tr;
     $("cartao-temas").hidden = tr;
     $("regras-trilha").hidden = !tr;
-    $("regras-master").hidden = tr;
+    $("regras-master").hidden = tr || ehLinear();
+    $("regras-linear").hidden = !ehLinear();
     $("mesa").classList.toggle("trilha", tr);
+    $("mesa").classList.toggle("linear", ehLinear());
     document.querySelector('[data-aba="sorteio"]').textContent = tr ? "Turno" : "Sorteio";
     if (!tr) { $("sortear").textContent = "Sortear"; $("sortear").disabled = false; }
   }

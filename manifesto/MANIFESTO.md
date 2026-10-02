@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.42 — 2026-10-02**
+> **Versão preliminar 0.43 — 2026-10-02**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -614,6 +614,7 @@ O Mestre2 terá mais de um modo de jogo, todos sobre o mesmo banco de perguntas.
 | Modo | Situação | Onde está descrito |
 |---|---|---|
 | **Master** | Em uso e em desenvolvimento. É o modo do app hoje | Esta seção (Papéis, Regras do tabuleiro, Desenho do tabuleiro, Definições) e §16 |
+| **Linear** | Protótipo no app (2026-10-02). Uma trilha única de 60 casas em faixa ondulada, com casas de tema e casas especiais | Esta seção (Modo Linear) e §16 |
 | **Trilha da Vida** | Primeira versão no app (2026-10-02), a refinar. Corrida num mapa vertical no estilo *Slay the Spire*: profissão com dois temas, personalidade, casas "Vá trabalhar", de Ação, de tema, em Branco e de Destino, e uma mão de cartas | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) e §16 |
 
 O que esta seção diz sobre papéis, repetição e sorteio vale para todos os modos, salvo quando o modo disser outra coisa. O que diz sobre o tabuleiro vale para o Modo Master.
@@ -650,6 +651,18 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
 - **Peões:** cada peão tem a **cor do tema designado**, as iniciais do jogador e anéis branco e preto que o destacam de qualquer casa, inclusive das casas do seu próprio braço. A mesma cor aparece como borda no cartão do jogador, na aba Sorteio e na lista do Tabuleiro.
 - **Leitura de qualquer lado:** os textos giram para a borda mais próxima, e "MESTRE2" aparece duas vezes no centro, uma de cabeça para baixo.
 - **Modo mesa:** o tabuleiro pode ocupar a tela inteira de um aparelho deixado no meio da mesa, visível para todos. A tela não apaga enquanto o modo estiver ligado.
+
+### Modo Linear
+
+Protótipo, decidido em 2026-10-02 a partir de um esboço do usuário. O que não está aqui ainda não foi decidido.
+
+- **Tabuleiro:** uma **trilha única**, a mesma para todos, com **60 casas** numa faixa ondulada de **4 fileiras**. A faixa vai e volta, e as curvas nas pontas alternam entre a direita e a esquerda. Todas as casas têm o mesmo comprimento, inclusive nas curvas. A primeira casa é o **Início**, branca, no alto à esquerda; a última é a **Chegada**, xadrez, embaixo à esquerda.
+- **Casas de tema:** 50 casas coloridas, com a sigla do tema, na ordem das cores (G › N › AP › CO › CI › EN › E › H), em ciclo. Cada tema aparece 6 ou 7 vezes, e duas casas vizinhas nunca têm o mesmo tema. **A cor da casa do peão é o tema da próxima pergunta.**
+- **Casas especiais (★):** 8, cerca de uma a cada 7 casas (casas 6, 13, 20, 27, 34, 41, 48 e 54). **As ações delas ainda não foram definidas.** Por enquanto, a pergunta nelas, como no Início, é de qualquer tema, e o grupo aplica o efeito à mão.
+- **Movimento:** cada acerto avança **uma casa**; errar não move o peão. Haverá também ações específicas das casas especiais.
+- **Fim:** vence quem chegar primeiro à Chegada (59 acertos, sem contar as ações das casas).
+- **Peões:** cada jogador recebe um tema só para a **cor do peão**, sorteado como no Master e trocável à mão; no Linear esse tema não muda as perguntas.
+- **Em aberto:** as ações das casas especiais; temas em ciclo fixo ou embaralhados; o nome definitivo do modo.
 
 ### Definições
 
@@ -690,6 +703,10 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
 
 Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão, feitos na aba Tabuleiro depois de tocar em **Editar jogadores** (casa, tema do estágio 1 e remoção), ou **arrastando o peão** no tabuleiro, inclusive no modo mesa: solto, ele vai para a casa mais próxima do caminho do jogador. As regras ficam recolhidas em **Como se joga**.
 
+### Modo Linear
+
+Ao criar a partida, há também **Nova partida · Linear (protótipo)**, que grava `modo: "linear"`. O desenho e as casas ficam em `app/public/linear.js`; o resto é o do Master: a aba Sorteio, a posição em `pontos`, os botões − e +, o arrasto do peão (que vai para a casa mais próxima da trilha) e o modo mesa, que mostra o tabuleiro deitado na largura da tela. No Sorteio, tocar num jogador seleciona o tema da casa dele, ou "Qualquer tema" no Início e nas casas ★.
+
 ### Modo Trilha da Vida
 
 Ao criar a partida, escolhe-se **Nova partida · Master** ou **Nova partida · Trilha da Vida**. Partidas sem modo, como as antigas, são Master. As regras estão em [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md); o código fica em `app/public/trilha.js` (dados, mapa e desenho) e numa seção do `index.html` (telas e Firestore).
@@ -705,7 +722,7 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
 
 | Caminho | Campos | Função |
 |---|---|---|
-| `partidas/{codigo}` | `criada_em`; na Trilha da Vida, também `modo`, `semente` e `vez` | A partida. O código é o id do documento. `modo` é `master` ou `trilha` (sem ele, Master); `semente` gera o mapa; `vez` é o id do jogador da vez. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
+| `partidas/{codigo}` | `criada_em`; na Trilha da Vida, também `modo`, `semente` e `vez` | A partida. O código é o id do documento. `modo` é `master`, `trilha` ou `linear` (sem ele, Master); `semente` gera o mapa; `vez` é o id do jogador da vez. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
 | `partidas/{codigo}/jogadores/{id}` | `nome`, `pontos`, `tema`, `criado_em`; na Trilha, `trilha` | Um documento por jogador. Master: `pontos` é a casa do peão; `tema` é o tema do estágio 1. Trilha: o mapa `trilha` guarda posição, opções sorteadas, profissão, personalidade, mão, avanços livres, férias, descartes pendentes e o último evento |
 | `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `respondente`, `acertou` | Um registro por sorteio. A mesma pergunta pode ter vários |
 | `partidas/{codigo}/usadas/{id da pergunta}` | `em`, `respondente`, `acertou` | Formato antigo, até a v0.16: uma entrada por pergunta. O app ainda lê essas entradas, e elas contam junto com `sorteios` |
@@ -876,6 +893,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.43 | 2026-10-02 | Terceiro modo de jogo, **Linear** (protótipo): trilha única de 60 casas em faixa ondulada de 4 fileiras, 50 casas de tema em ciclo e 8 casas especiais com ações a definir; no app, como terceira opção de nova partida |
 | 0.42 | 2026-10-02 | Perguntas com figura: a pista do enunciado ajuda a distinguir, mas não identifica sozinha; teste "cubra a imagem", com exemplos da recrítica (§6) |
 | 0.41 | 2026-10-02 | Modo Trilha da Vida no app: escolha do modo na criação, mapa no estilo Slay the Spire, profissões, personalidades, cartas e turno guiado; regras do Firestore ampliadas (§15, §16) |
 | 0.40 | 2026-10-01 | Modos de jogo: o tabuleiro atual passa a ser o Modo Master, que continua em desenvolvimento; o Modo Trilha da Vida, inspirado no *Jogo da Vida*, entra em concepção num documento próprio (§15) |

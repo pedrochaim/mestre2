@@ -5,11 +5,11 @@ service cloud.firestore {
     // As regras só limitam o formato dos dados.
     match /partidas/{codigo} {
       allow read: if true;
-      // "modo" e "semente" são do modo Trilha da Vida (a semente gera o mapa); partidas sem "modo" são Master.
+      // "modo": master, trilha (Trilha da Vida, com a "semente" que gera o mapa) ou linear; partidas sem "modo" são Master.
       allow create: if codigo.matches('^[A-Z]{4}$')
                     && request.resource.data.keys().hasOnly(['criada_em', 'modo', 'semente'])
                     && request.resource.data.criada_em == request.time
-                    && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'trilha'])
+                    && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'trilha', 'linear'])
                     && (!('semente' in request.resource.data) || request.resource.data.semente is int);
       // Na Trilha da Vida, "vez" é o id do jogador da vez.
       allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez'])
