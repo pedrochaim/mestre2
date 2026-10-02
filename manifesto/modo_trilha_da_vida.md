@@ -19,7 +19,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Objetivo:** **vence quem chega primeiro** ao fim da trilha. É uma corrida.
 
-**Tamanho do tabuleiro:** quem responde **cerca de 20 perguntas certas**, contando só o movimento de acertar (sem cartas nem outras mecânicas), chega ao fim. Com o dado de 1 a 3 (média 2), a trilha tem **~40 casas**. As encruzilhadas também são medidas em acertos.
+**Tamanho do tabuleiro:** quem responde **cerca de 20 perguntas certas**, contando só o movimento de acertar (sem cartas nem outras mecânicas), chega ao fim. **Sem dado**, cada acerto anda 1 casa, e a trilha tem **~20 casas** em qualquer rota.
 
 **Começo do jogo**
 - Cada jogador **escolhe uma profissão**, **uma personalidade** e **compra uma carta**.
@@ -29,7 +29,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 **Casas**
 - **"Vá trabalhar":** **1/4 das casas**. Sorteia uma pergunta aleatória de um dos **dois temas da profissão** de quem cai nela; a mesma casa dá perguntas diferentes para cada jogador. É o que dá peso à escolha da profissão.
 - **Casas de Ação:** temáticas, com um texto de "vida". Exemplo: "Vá ao Cinema", que dá uma pergunta de Cinema.
-  - **"Tire férias":** o jogador **não responde nesta rodada**; se **acertar na próxima**, anda **2 casas além do dado** (de 3 a 5 casas). Com ~65% de acerto, a casa sai mais ou menos neutra: a vez perdida vale cerca de 1,3 casa, e o bônus devolve cerca de 1,3.
+  - **"Tire férias":** o jogador **não responde nesta rodada**; se **acertar na próxima**, anda **2 casas a mais**, ou seja, 3 casas. Com ~65% de acerto, a casa sai mais ou menos neutra: a vez perdida vale cerca de 1,3 casa, e o bônus devolve cerca de 1,3.
 - **Casas de tema amplo:** a pergunta é de um tema inteiro, como no Master.
 - **Casas em Branco:** o jogador pode usar uma carta ou comprar uma carta. **Comprar é de graça.**
 
@@ -66,9 +66,9 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 | **Aventureiro** | Nas encruzilhadas, pega um caminho sem o custo dele |
 | **Criativo** | Na Casa em Branco, compra 2 cartas e fica com 1 |
 | **Competitivo** | Acerto num tema da sua profissão anda 1 casa a mais |
-| **Observador** | Pergunta com figura certa anda o dado duas vezes |
+| **Observador** | Pergunta com figura certa anda 2 casas |
 | **Colecionador** | Guarda uma carta a mais na mão |
-| **Sortudo** | Uma vez por fase, rola o dado duas vezes e fica com o maior |
+| **Persistente** | Uma vez por fase, se errar, anda 1 casa mesmo assim (substitui "Sortudo", que dependia do dado) |
 
 **Escolha no começo** (proposta): cada jogador recebe 3 profissões e escolhe 1, sem repetir temas de outro jogador; depois recebe 2 personalidades e escolhe 1. Com 3 ou 4 jogadores há variedade de sobra.
 
@@ -112,9 +112,8 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Turno** (a partir do rascunho anterior, sem dinheiro):
 1. O app indica quem joga e quem lê (o jogador seguinte na roda), o que resolve, neste modo, a pendência de como a vez passa (MANIFESTO §14).
-2. O jogador rola o dado no app.
-3. A casa onde o peão está, ou uma carta, define a pergunta.
-4. **Acertou:** anda o valor do dado. **Errou:** não anda (ver Movimento).
+2. A casa onde o peão está, ou uma carta, define a pergunta.
+3. **Acertou:** anda 1 casa. **Errou:** não anda (ver Movimento).
 
 **Fases da vida e encruzilhadas** (do rascunho anterior, a rever sem dinheiro): Juventude, Vida adulta, Maturidade e Aposentadoria. Duas encruzilhadas: a Formatura (Faculdade, caminho longo, ou Trabalho, atalho) e a Aposentadoria (Vila Tranquila, garantida, ou Mansão dos Sábios, que exige 3 perguntas abertas seguidas, de 3 temas diferentes). Sem salário, cada caminho precisa de outra vantagem; uma ideia é a Faculdade dar cartas. Com o objetivo de chegar primeiro, as encruzilhadas viram escolhas de velocidade e risco (ver Consequências de ser uma corrida).
 
@@ -125,11 +124,11 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 - **Recuperação:** para o líder não disparar, o que pesa mais com 3 jogadores: quem está em último compra uma carta extra por rodada, e a carta de Desafio, que é cooperativa, **não pode mirar o líder** (se quem joga é o líder, pode mirar qualquer um). Assim a cooperação ajuda quem está atrás a alcançar a frente; com 3 jogadores, os dois de trás se ajudam contra o líder.
 - **Aposentadoria como escolha de velocidade:** a Mansão dos Sábios vira um atalho que exige 3 perguntas abertas seguidas; quem erra volta para o caminho da Vila Tranquila, mais longo e sem exigências.
 
-**Movimento** (decidido pelo autor): **dado de 1 a 3** por acerto, trilha de ~40 casas. Dá a sensação de andar no tabuleiro sem que o dado decida a partida: 20 acertos andam algo entre 32 e 48 casas. **Errar não move o peão** (proposta): se errar andasse, os erros também levariam ao fim, e a meta deixaria de ser "20 acertos". A estimativa de duração, com 65% de acerto e ~40 segundos por pergunta, é de uma hora com 3 jogadores e 1h20 com 4.
+**Movimento** (decidido pelo autor): **não há dado**. Cada acerto anda **1 casa**; errar não move o peão. A versão com dado de 1 a 3 foi descartada em 2026-10-01.
 
-**Encruzilhadas em acertos** (proposta): a Faculdade exige uns 3 acertos a mais que o Trabalho, mas dá cartas; a Mansão dos Sábios economiza uns 3 acertos, mas exige 3 perguntas abertas seguidas.
+**Encruzilhadas em acertos** (proposta): a Faculdade exige uns 3 acertos a mais que o Trabalho, mas dá cartas; a Mansão dos Sábios economiza uns 3 acertos, mas exige 3 perguntas abertas seguidas. Num mapa em que todas as rotas têm o mesmo tamanho, os atalhos viram ligações especiais que pulam casas.
 
-**Distribuição das casas** (proposta), na trilha de ~40 casas: 10 "Vá trabalhar", 12 de Ação, 8 de tema amplo, 6 em Branco e 4 especiais (encruzilhadas e Destino). As casas "Vá trabalhar" ficam espaçadas regularmente, mais ou menos a cada 4 casas: com o dado de 1 a 3, todos caem nelas com frequência parecida, e ninguém passa uma fase inteira sem trabalhar.
+**Distribuição das casas** (proposta), em cada rota de ~20 casas: 5 "Vá trabalhar", 6 de Ação, 4 de tema amplo, 3 em Branco e 2 de Destino. As casas "Vá trabalhar" ficam a cada 4 casas, para todos caírem nelas com a mesma frequência.
 
 **Personalidade Competitivo** (a rever): "+1 casa ao acertar um tema da profissão" fica forte com 1/4 das casas de trabalho. Proposta: valer só nas casas "Vá trabalhar", ou trocar o efeito.
 
@@ -141,7 +140,7 @@ Nenhuma decisão de regra em aberto no momento. As propostas foram aceitas para 
 
 Os protótipos ficam em [`../prototipos/trilha_da_vida/`](../prototipos/trilha_da_vida/) e abrem no navegador. São **provas de conceito**: não estão no app e vão mudar.
 
-- **`tabuleiro_v2.html` e `.png` (2026-10-01):** o tabuleiro com as regras atuais. Trilha em zigue-zague de baixo para cima, pelas fases da vida, com 44 casas pelo caminho mais curto até a Vila (Trabalho e Vila). Tipos de casa:
+- **`tabuleiro_v2.html` e `.png` (2026-10-01):** o tabuleiro com as regras de então, ainda com dado (44 casas). Trilha em zigue-zague de baixo para cima, pelas fases da vida, com 44 casas pelo caminho mais curto até a Vila (Trabalho e Vila). Tipos de casa:
   - 💼 "Vá trabalhar", a cada ~4 casas;
   - casas de Ação com o ícone da carta sorteada do baralho de 31, incluindo ⛱️ "Tire férias";
   - casas de tema amplo, na cor do tema;
@@ -157,7 +156,7 @@ Os protótipos ficam em [`../prototipos/trilha_da_vida/`](../prototipos/trilha_d
   - a profissão, com os dois temas, e a personalidade, que indica se já foi usada na fase;
   - a posição e os acertos;
   - as cartas da mão (3 de 3), cada uma com efeito e botão "Usar";
-  - o aviso da Casa em Branco e os botões "Comprar carta" e "Rolar o dado".
+  - o aviso da Casa em Branco e os botões "Comprar carta" e "Rolar o dado" (anterior à decisão de tirar o dado).
 - **`tabuleiro.html` e `.png`:** a primeira prova de conceito, anterior às regras atuais, mantida como histórico.
 
 ## O que o modo exige do app
@@ -165,5 +164,5 @@ Os protótipos ficam em [`../prototipos/trilha_da_vida/`](../prototipos/trilha_d
 - Estado novo da partida: profissão, personalidade e mão de cartas de cada jogador.
 - Tabuleiro novo: uma trilha com bifurcações, com casas "Vá trabalhar", de Ação, de tema amplo e em Branco.
 - Sorteio por **subtema**, além de por tema, para as casas de Ação. O app hoje só sorteia por tema.
-- Turno guiado: dado, pergunta definida pela casa ou pela carta, resultado.
+- Turno guiado: pergunta definida pela casa ou pela carta, resultado e, nas bifurcações, a escolha do caminho.
 - Escolha do modo ao criar a partida. O Modo Master continua existindo, com as suas regras.
