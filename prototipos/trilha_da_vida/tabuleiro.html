@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Trilha da Vida</title>
+<style>
+  html, body { margin: 0; background: #000; }
+  svg { display: block; width: 1000px; height: 1000px; font-family: system-ui, "Segoe UI", sans-serif; }
+</style>
+</head>
+<body>
+<div id="tabuleiro"></div>
+<script>
+// Cores dos temas, as mesmas do Modo Master.
+const CORES = {
+  "Geografia": ["#006400", "#fff"], "Natureza": ["#90EE90", "#1d1d1b"], "Artes e Pensamento": ["#FFA500", "#1d1d1b"],
+  "Cotidiano": ["#FF4500", "#fff"], "Ciências": ["#C71585", "#fff"], "Entretenimento": ["#9370DB", "#fff"],
+  "Esportes": ["#87CEEB", "#1d1d1b"], "História": ["#00008B", "#fff"],
+};
+const TEMAS = Object.keys(CORES);
+
+// Casas especiais (rascunho de modo_trilha_da_vida.md)
+const ESPECIAIS = {
+  pagamento:   { icone: "💰", nome: "Pagamento" },
+  destino:     { icone: "🃏", nome: "Destino" },
+  casa:        { icone: "🏠", nome: "Casa própria" },
+  parceria:    { icone: "🤝", nome: "Parceria" },
+  aprendiz:    { icone: "🧑‍🎓", nome: "Aprendiz" },
+  viagem:      { icone: "✈️", nome: "Viagem" },
+  investimento:{ icone: "📈", nome: "Investimento" },
+  desafio:     { icone: "⚔️", nome: "Desafio" },
+};
+
+// A trilha é feita de trechos: cada um é uma curva (pontos de passagem) com um número de casas e a lista das
+// casas especiais, pela posição no trecho. As outras casas são de pergunta, com temas em rodízio.
+// Coordenadas num quadro de 1000 × 1000, de baixo (início) para cima (aposentadoria).
+const TRECHOS = [
+  { id: "juventude", fase: "Juventude", n: 12, pts: [[70, 930], [260, 950], [470, 915], [660, 945], [850, 905]],
+    esp: { 4: "pagamento", 8: "destino" } },
+  { id: "trabalho", fase: "Trabalho direto", n: 4, pts: [[905, 845], [800, 790], [640, 775], [430, 740]],
+    esp: { 2: "pagamento" }, rotulo: [700, 740] },
+  { id: "faculdade", fase: "Faculdade", n: 10, pts: [[935, 810], [960, 690], [860, 640], [700, 680], [560, 650], [430, 720]],
+    esp: { 3: "destino", 7: "pagamento" }, rotulo: [845, 585] },
+  { id: "adulta", fase: "Vida adulta", n: 15, pts: [[370, 735], [200, 760], [80, 690], [100, 560], [260, 530], [440, 570], [620, 540], [800, 560], [920, 480]],
+    esp: { 1: "casa", 4: "pagamento", 7: "parceria", 10: "destino", 13: "aprendiz" } },
+  { id: "maturidade", fase: "Maturidade", n: 14, pts: [[930, 400], [880, 300], [720, 330], [560, 290], [400, 340], [240, 300], [110, 330], [90, 230]],
+    esp: { 1: "viagem", 3: "investimento", 5: "pagamento", 7: "desafio", 9: "destino", 11: "viagem", 12: "investimento" } },
+];
+const JUNCOES = {
+  formatura:     { x: 905, y: 880, r: 46, icone: "🎓", nome: "FORMATURA", sub: "escolha o caminho" },
+  reencontro:    { x: 405, y: 730, r: 26, icone: "🔀", nome: "", sub: "" },
+  aposentadoria: { x: 170, y: 150, r: 50, icone: "⚖️", nome: "APOSENTADORIA", sub: "escolha o destino" },
+};
+const FINAIS = [
+  { id: "vila", nome: "Vila Tranquila", sub: "garantida", icone: "🏖️", pts: [[225, 115], [320, 80], [420, 82]], n: 2, x: 520, y: 82, cor: "#4cc485" },
+  { id: "mansao", nome: "Mansão dos Sábios", sub: "3 abertas seguidas", icone: "🏛️", pts: [[230, 175], [420, 190], [600, 160], [720, 190]], n: 3, x: 840, y: 200, cor: "#f0b429", aberta: true },
+];
+
+// Curva suave pelos pontos (Catmull-Rom), amostrada para medir o comprimento.
+function curva(pts, passos = 40) {
+  const p = [pts[0], ...pts, pts[pts.length - 1]];
+  const saida = [];
+  for (let i = 1; i < p.length - 2; i++) {
+    for (let t = 0; t < 1; t += 1 / passos) {
+      const [p0, p1, p2, p3] = [p[i - 1], p[i], p[i + 1], p[i + 2]];
+      const f = (a, b, c, d) => .5 * (2 * b + (-a + c) * t + (2 * a - 5 * b + 4 * c - d) * t * t + (-a + 3 * b - 3 * c + d) * t * t * t);
+      saida.push([f(p0[0], p1[0], p2[0], p3[0]), f(p0[1], p1[1], p2[1], p3[1])]);
+    }
+  }
+  saida.push(pts[pts.length - 1]);
+  return saida;
+}
+// n posições igualmente espaçadas ao longo da curva, sem as pontas.
+function distribuir(amostras, n) {
+  const acum = [0];
+  for (let i = 1; i < amostras.length; i++)
+    acum.push(acum[i - 1] + Math.hypot(amostras[i][0] - amostras[i - 1][0], amostras[i][1] - amostras[i - 1][1]));
+  const total = acum.at(-1);
+  return Array.from({ length: n }, (_, k) => {
+    const alvo = total * (k + .5) / n;
+    const i = acum.findIndex(a => a >= alvo);
+    return amostras[Math.max(0, i)];
+  });
+}
+const caminho = a => "M" + a.map(([x, y]) => `${x.toFixed(1)} ${y.toFixed(1)}`).join("L");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+
+function svgTrilha() {
+  const partes = [`<rect width="1000" height="1000" rx="26" fill="#161615"/>`];
+  const casas = [];
+  let rodizio = 0;
+  const estrada = [];
+  for (const t of TRECHOS) {
+    const a = curva(t.pts);
+    estrada.push(`<path d="${caminho(a)}" fill="none" stroke="#3a3a36" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>`);
+    distribuir(a, t.n).forEach(([x, y], k) => {
+      const esp = t.esp[k];
+      const tema = esp ? null : TEMAS[(rodizio++ * 3) % TEMAS.length];  // passo 3: vizinhas de cores diferentes
+      casas.push({ x, y, esp, tema, trecho: t.id });
+    });
+  }
+  for (const f of FINAIS) {
+    const a = curva(f.pts);
+    estrada.push(`<path d="${caminho(a)}" fill="none" stroke="#3a3a36" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>`);
+    distribuir(a, f.n).forEach(([x, y]) => casas.push({ x, y, final: f }));
+  }
+  partes.push(...estrada);
+
+  // Rótulos das fases
+  const rotulos = [["JUVENTUDE", 300, 985], ["TRABALHO", 640, 812], ["FACULDADE", 790, 600], ["VIDA ADULTA", 470, 620],
+                   ["MATURIDADE", 500, 400]];
+  for (const [r, x, y] of rotulos)
+    partes.push(`<text x="${x}" y="${y}" font-size="17" font-weight="800" letter-spacing="3" fill="#8f8e88" text-anchor="middle">${r}</text>`);
+
+  // Casas
+  for (const c of casas) {
+    if (c.final) {
+      partes.push(`<circle cx="${c.x}" cy="${c.y}" r="22" fill="#000" stroke="${c.final.cor}" stroke-width="4"/>`,
+                  `<text x="${c.x}" y="${c.y + 1}" font-size="17" fill="${c.final.cor}" font-weight="800" text-anchor="middle" dominant-baseline="central">${c.final.aberta ? "?" : "·"}</text>`);
+    } else if (c.esp) {
+      const e = ESPECIAIS[c.esp];
+      partes.push(`<circle cx="${c.x}" cy="${c.y}" r="24" fill="#f4f1e8" stroke="#fff" stroke-width="2"><title>${esc(e.nome)}</title></circle>`,
+                  `<text x="${c.x}" y="${c.y + 2}" font-size="24" text-anchor="middle" dominant-baseline="central">${e.icone}</text>`);
+    } else {
+      const [cor] = CORES[c.tema];
+      partes.push(`<circle cx="${c.x}" cy="${c.y}" r="22" fill="${cor}" stroke="#fff" stroke-width="2"><title>${esc(c.tema)}</title></circle>`);
+    }
+  }
+
+  // Início, junções e finais
+  partes.push(`<circle cx="70" cy="930" r="40" fill="#fff"/>`,
+              `<text x="70" y="925" font-size="30" text-anchor="middle" dominant-baseline="central">👶</text>`,
+              `<text x="70" y="955" font-size="12" font-weight="800" fill="#161615" text-anchor="middle">INÍCIO</text>`);
+  for (const j of Object.values(JUNCOES)) {
+    if (!j.r) continue;
+    partes.push(`<circle cx="${j.x}" cy="${j.y}" r="${j.r}" fill="#ecebe6" stroke="#7c9cf5" stroke-width="5"/>`,
+                `<text x="${j.x}" y="${j.y - 8}" font-size="30" text-anchor="middle" dominant-baseline="central">${j.icone}</text>`,
+                `<text x="${j.x}" y="${j.y + 22}" font-size="10.5" font-weight="800" fill="#161615" text-anchor="middle">${j.nome}</text>`);
+  }
+  for (const f of FINAIS) {
+    partes.push(`<rect x="${f.x - 78}" y="${f.y - 52}" width="156" height="104" rx="16" fill="#000" stroke="${f.cor}" stroke-width="5"/>`,
+                `<text x="${f.x}" y="${f.y - 20}" font-size="32" text-anchor="middle" dominant-baseline="central">${f.icone}</text>`,
+                `<text x="${f.x}" y="${f.y + 16}" font-size="15" font-weight="800" fill="${f.cor}" text-anchor="middle">${esc(f.nome)}</text>`,
+                `<text x="${f.x}" y="${f.y + 35}" font-size="12" fill="#bdbcb5" text-anchor="middle">${esc(f.sub)}</text>`);
+  }
+
+  // Peões de amostra
+  const peoes = [[casas[5], "Ciências", "AN"], [casas[20], "Esportes", "BR"], [casas[33], "História", "CA"], [casas[47], "Entretenimento", "DI"]];
+  for (const [c, tema, ini] of peoes) {
+    const [cor, ct] = CORES[tema];
+    partes.push(`<circle cx="${c.x}" cy="${c.y - 30}" r="17" fill="#000"/>`,
+                `<circle cx="${c.x}" cy="${c.y - 30}" r="14" fill="${cor}" stroke="#fff" stroke-width="3"/>`,
+                `<text x="${c.x}" y="${c.y - 30}" font-size="11" font-weight="800" fill="${ct}" text-anchor="middle" dominant-baseline="central">${ini}</text>`);
+  }
+
+  partes.push(`<text x="30" y="40" font-size="22" font-weight="900" fill="#ecebe6" letter-spacing="1">TRILHA DA VIDA</text>`);
+
+  return `<svg viewBox="0 0 1000 1000" role="img" aria-label="Trilha da Vida">${partes.join("")}</svg>`;
+}
+document.getElementById("tabuleiro").innerHTML = svgTrilha();
+const contagem = TRECHOS.map(t => `${t.id}: ${t.n}`).join(", ");
+document.title = "Trilha da Vida — " + contagem;
+</script>
+</body>
+</html>

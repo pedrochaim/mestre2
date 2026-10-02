@@ -69,6 +69,10 @@ Casas próprias, para humor e virada. Exemplos:
 
 O jogo acaba quando todos se aposentam, ou duas rodadas depois que o primeiro se aposenta. Patrimônio = dinheiro + imóveis + nível de carreira + bônus da aposentadoria.
 
+## Prova de conceito do tabuleiro
+
+Um primeiro desenho do tabuleiro está em [`../prototipos/trilha_da_vida/`](../prototipos/trilha_da_vida/): `tabuleiro.html` (abre no navegador) e `tabuleiro.png`. É só uma **prova de conceito** (2026-10-01): uma trilha em zigue-zague de baixo para cima, pelas quatro fases, com as encruzilhadas da Formatura (Faculdade, 10 casas, ou Trabalho, 4) e da Aposentadoria (Vila Tranquila ou Mansão dos Sábios), casas de pergunta na cor do tema e casas especiais com ícone, num total de cerca de 55 casas. **O desenho vai mudar completamente**; não está no app e não deve ser tomado como decisão.
+
 ## O que o modo exige do app
 
 - Estado novo da partida: dinheiro, carreira, nível, imóveis e cartas de cada jogador.
