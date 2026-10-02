@@ -47165,5 +47165,165 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Peter_Wilhelm_Lund"
     ]
+  },
+  {
+    "id": "q02830",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "arena_pantanal",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+    "resposta": "Cuiabá",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arena_Pantanal",
+      "https://pt.wikipedia.org/wiki/Arena_Pantanal"
+    ],
+    "imagem": {
+      "arquivo": "q02830.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Arena_Pantanal.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q02831",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_couto_pereira",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+    "resposta": "Coritiba",
+    "distratores": [
+      "Palmeiras",
+      "Goiás",
+      "Juventude"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Est%C3%A1dio_Couto_Pereira",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Major_Ant%C3%B4nio_Couto_Pereira"
+    ],
+    "imagem": {
+      "arquivo": "q02831.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estádio_Major_Antônio_Couto_Pereira,_2007-2.jpg",
+      "autor": "Original uploader was Kevinklop at nl.wikipedia (Original text : Kevin Klop)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02832",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_olimpico_de_estocolmo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio, construído para uma edição dos Jogos Olímpicos?",
+    "resposta": "Estocolmo",
+    "distratores": [
+      "Helsinque",
+      "Copenhague",
+      "Oslo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stockholm_Olympic_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_de_Estocolmo"
+    ],
+    "imagem": {
+      "arquivo": "q02832.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stockholms_Olympiastadion,_070310.JPG",
+      "autor": "Johannes Scherman",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q02833",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "arena_castelao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Dois clubes da mesma cidade mandam seus jogos neste estádio. Quais são?",
+    "resposta": "Ceará e Fortaleza",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Castel%C3%A3o_%28Fortaleza%29",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Governador_Pl%C3%A1cido_Castelo"
+    ],
+    "imagem": {
+      "arquivo": "q02833.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Fortaleza_Arena.jpg",
+      "autor": "Fábio Lima/Portal da Copa/Março de 2013",
+      "licenca": "CC BY 3.0 br"
+    }
+  },
+  {
+    "id": "q02834",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "estadio_de_twickenham",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio de rúgbi?",
+    "resposta": "Londres",
+    "distratores": [
+      "Cardiff",
+      "Edimburgo",
+      "Dublin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twickenham_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_de_Twickenham"
+    ],
+    "imagem": {
+      "arquivo": "q02834.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Twickenham_Stadium_aerial_view_2014.jpg",
+      "autor": "brewbooks from near Seattle, USA; cropped by Blackcat",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q02835",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "arena_da_amazonia",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade brasileira fica este estádio?",
+    "resposta": "Manaus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arena_da_Amaz%C3%B4nia",
+      "https://pt.wikipedia.org/wiki/Arena_da_Amaz%C3%B4nia"
+    ],
+    "imagem": {
+      "arquivo": "q02835.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Arena_Amazônia_Manaus.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q02836",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_olimpico_de_roma",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio é este?",
+    "resposta": "Estádio Olímpico de Roma",
+    "distratores": [
+      "San Siro",
+      "Estádio Olímpico de Berlim",
+      "Estádio de Wembley"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stadio_Olimpico",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_de_Roma"
+    ],
+    "imagem": {
+      "arquivo": "q02836.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stadio_Olimpico_(Roma,_ITA).jpg",
+      "autor": "ildirettore",
+      "licenca": "CC BY 3.0"
+    }
   }
 ]

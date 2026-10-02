@@ -1,0 +1,186 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O letreiro 'Arena do Grêmio' aparece na fachada e entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida e característica, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+      "resposta": "Cuiabá",
+      "distratores": [],
+      "ancora": {
+        "nome": "Arena Pantanal",
+        "descricao": "Estádio de futebol em Cuiabá, Mato Grosso, sede de jogos da Copa do Mundo de 2014 e casa do Cuiabá Esporte Clube.",
+        "variantes": [
+          "Estádio José Fragelli",
+          "Arena Pantanal (Cuiabá)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arquibancadas verdes e brancas características, sem nome do estádio visível; múltipla escolha com clubes de estádios verdes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+      "resposta": "Coritiba",
+      "distratores": [
+        "Palmeiras",
+        "Goiás",
+        "Juventude"
+      ],
+      "ancora": {
+        "nome": "Estádio Couto Pereira",
+        "descricao": "Estádio de futebol de Curitiba, Paraná, casa do Coritiba Foot Ball Club.",
+        "variantes": [
+          "Estádio Major Antônio Couto Pereira",
+          "Couto Pereira"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "As arquibancadas trazem escrito 'Atlético de Madrid 1903', o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Há torcedores comuns em primeiro plano e faixas e texto da torcida que apontam para o clube. A imagem não é segura nem única para o estádio."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "As torres de tijolo e a pista vermelha são característicos; não há texto. Múltipla com estádios olímpicos parecidos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que cidade fica este estádio, construído para uma edição dos Jogos Olímpicos?",
+      "resposta": "Estocolmo",
+      "distratores": [
+        "Helsinque",
+        "Copenhague",
+        "Oslo"
+      ],
+      "ancora": {
+        "nome": "Estádio Olímpico de Estocolmo",
+        "descricao": "Estádio de Estocolmo, na Suécia, inaugurado em 1912 para os Jogos Olímpicos daquele ano.",
+        "variantes": [
+          "Stockholms Olympiastadion",
+          "Stockholms stadion"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea característica, com a estrutura de estais brancos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Dois clubes da mesma cidade mandam seus jogos neste estádio. Quais são?",
+      "resposta": "Ceará e Fortaleza",
+      "distratores": [],
+      "ancora": {
+        "nome": "Arena Castelão",
+        "descricao": "Estádio de futebol de Fortaleza, Ceará, inaugurado em 1973 e casa do Ceará e do Fortaleza.",
+        "variantes": [
+          "Estádio Governador Plácido Castelo",
+          "Castelão",
+          "Gigante da Boa Vista"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A quadra de saibro não basta para identificar o complexo, porque há outros torneios em saibro. Há patrocinadores em texto e jogadores em primeiro plano, e a resposta não é única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea reconhecível do estádio de rúgbi, sem texto que entregue a resposta.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que cidade fica este estádio de rúgbi?",
+      "resposta": "Londres",
+      "distratores": [
+        "Cardiff",
+        "Edimburgo",
+        "Dublin"
+      ],
+      "ancora": {
+        "nome": "Estádio de Twickenham",
+        "descricao": "Estádio nacional de rúgbi da Inglaterra, em Twickenham, Londres, pertencente à Rugby Football Union.",
+        "variantes": [
+          "Twickenham Stadium",
+          "Twickenham"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea com o teto branco em forma de cesta, muito característico, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que cidade brasileira fica este estádio?",
+      "resposta": "Manaus",
+      "distratores": [],
+      "ancora": {
+        "nome": "Arena da Amazônia",
+        "descricao": "Estádio de futebol de Manaus, Amazonas, construído para a Copa do Mundo de 2014 no local do antigo Vivaldão.",
+        "variantes": [
+          "Estádio Vivaldo Lima",
+          "Arena Amazônia"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Interior com o teto e as cadeiras azuis, sem texto legível; múltipla escolha com grandes estádios parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que estádio é este?",
+      "resposta": "Estádio Olímpico de Roma",
+      "distratores": [
+        "San Siro",
+        "Estádio Olímpico de Berlim",
+        "Estádio de Wembley"
+      ],
+      "ancora": {
+        "nome": "Estádio Olímpico de Roma",
+        "descricao": "Estádio multiuso de Roma, no complexo Foro Italico, casa de Lazio e Roma.",
+        "variantes": [
+          "Stadio Olimpico",
+          "Olimpico de Roma"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O nome 'West Ham United' está escrito na lateral do estádio e entrega a resposta."
+    }
+  ]
+}
