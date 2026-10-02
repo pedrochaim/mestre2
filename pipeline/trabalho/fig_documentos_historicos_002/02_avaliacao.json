@@ -1,0 +1,175 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Selo nítido e reconhecível; o texto 'Postage' e 'One Penny' não entrega o ano.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi emitido este selo britânico?",
+      "resposta": "1840",
+      "destino": 1,
+      "ancora": {
+        "nome": "Penny Black",
+        "descricao": "Primeiro selo postal adesivo do mundo, emitido no Reino Unido em 1840 com o perfil da rainha Vitória.",
+        "variantes": [
+          "One Penny Black",
+          "Selo Penny Black"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cruz denteada vermelha sobre fundo branco, clara e legível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que dinastia de duques usou esta cruz como estandarte pela primeira vez, no século quinze?",
+      "resposta": "Casa de Valois",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cruz de Borgonha",
+        "descricao": "Bandeira em forma de cruz de Santo André denteada, estandarte histórico dos duques de Borgonha e depois dos Habsburgos.",
+        "variantes": [
+          "Aspa de Borgonha",
+          "Cruz de Santo André de Borgonha",
+          "Cruz de Borgoña"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Livro aberto numa vitrine; as páginas de texto gótico lembram outros incunábulos e manuscritos, então a entidade não é reconhecível só pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Bandeira de raios vermelhos nítida, sem texto; reconhecível.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Antes de virar bandeira militar, esta bandeira japonesa era usada por senhores feudais de que período da história do Japão?",
+      "resposta": "Período Edo",
+      "distratores": [
+        "Período Heian",
+        "Período Kamakura",
+        "Período Taisho"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira do Sol Nascente",
+        "descricao": "Bandeira japonesa com disco vermelho e dezesseis raios, usada pela Marinha e pelo Exército imperiais do Japão.",
+        "variantes": [
+          "Rising Sun Flag",
+          "Kyokujitsu-ki",
+          "Bandeira do Sol Nascente do Japão"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Mapa com legendas e textos pequenos, ilegível no celular, montagem de várias folhas."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto do muro com a faixa da morte, ouriços antitanque e neve. Os grafites em alemão não dizem a cidade nem o nome do muro.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que construção da Guerra Fria é esta?",
+      "resposta": "Muro de Berlim",
+      "destino": 1,
+      "ancora": {
+        "nome": "Muro de Berlim",
+        "descricao": "Barreira de concreto que cercou Berlim Ocidental entre 1961 e 1989, separando-a de Berlim Oriental e da Alemanha Oriental.",
+        "variantes": [
+          "Berliner Mauer",
+          "Berlin Wall"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Documento famoso e legível como imagem. O texto visível não traz o ano perguntado.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi concluída a redação deste documento fundador de um país?",
+      "resposta": "1787",
+      "distratores": [
+        "1776",
+        "1783",
+        "1791"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Constituição dos Estados Unidos",
+        "descricao": "Lei suprema dos Estados Unidos, redigida na Convenção de Filadélfia em 1787 e em vigor desde 1789.",
+        "variantes": [
+          "Constituição americana",
+          "Constitution of the United States"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Capacete nítido, em fundo branco, sem texto, bem característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este capacete foi achado num sepultamento em navio que se associa a qual rei anglo-saxão?",
+      "resposta": "Rædwald, rei da Ânglia Oriental",
+      "destino": 3,
+      "ancora": {
+        "nome": "Capacete de Sutton Hoo",
+        "descricao": "Capacete anglo-saxão decorado, achado em 1939 no sepultamento em navio de Sutton Hoo, na Inglaterra, do início do século sete.",
+        "variantes": [
+          "Sutton Hoo helmet",
+          "Elmo de Sutton Hoo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Bandeira vermelha com foice, martelo e estrela, nítida e sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano deixou de existir o país que usava esta bandeira?",
+      "resposta": "1991",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira da União Soviética",
+        "descricao": "Bandeira vermelha com foice e martelo dourados e uma estrela, símbolo da URSS e do comunismo.",
+        "variantes": [
+          "Bandeira da URSS",
+          "Bandeira Vermelha soviética",
+          "Flag of the Soviet Union"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A capa traz o título em alemão ('Manifest der Kommunistischen Partei') e o ano, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "O texto visível 'Instrument of Surrender' e as legendas entregam a resposta, e é um documento cheio de texto."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O documento é minúsculo dentro de uma vitrine e não é reconhecível. A cena traz soldados em primeiro plano e outros objetos, e a resposta não é única diante da imagem."
+    }
+  ]
+}
