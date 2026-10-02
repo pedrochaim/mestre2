@@ -1,0 +1,155 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "As estrelas da bandeira brasileira reproduzem o céu do Rio de Janeiro na manhã de qual data histórica?",
+        "resposta": "15 de novembro de 1889"
+      },
+      "existentes": [
+        {
+          "id": "q00597",
+          "pergunta": "As estrelas da bandeira brasileira reproduzem o céu visto de qual cidade na manhã de 15 de novembro de 1889?",
+          "resposta": "Rio de Janeiro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na bandeira do Brasil, a estrela Espiga brilha sozinha acima da faixa branca. Que estado ela representa?",
+        "resposta": "Pará"
+      },
+      "existentes": [
+        {
+          "id": "q00586",
+          "pergunta": "Na bandeira do Brasil, a estrela Espiga aparece sozinha acima da faixa branca. Que estado ela representa?",
+          "resposta": "Pará"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que compositor carioca do século dezenove criou a melodia do Hino Nacional Brasileiro?",
+        "resposta": "Francisco Manuel da Silva"
+      },
+      "existentes": [
+        {
+          "id": "q00764",
+          "pergunta": "No Hino Nacional brasileiro, no verso sobre o lábaro que ostentas estrelado, a palavra lábaro significa o quê?",
+          "resposta": "Bandeira"
+        },
+        {
+          "id": "q00793",
+          "pergunta": "Na frase que abre o Hino Nacional brasileiro, quem ouviu o brado retumbante de um povo heroico?",
+          "resposta": "As margens plácidas do Ipiranga"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome local do Butão, Druk Yul, significa terra de qual criatura, que também aparece na bandeira do país?",
+        "resposta": "Dragão do trovão"
+      },
+      "existentes": [
+        {
+          "id": "q00917",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Butão"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Por que o País de Gales não tem nenhum símbolo próprio na bandeira do Reino Unido?",
+        "resposta": "Era considerado parte da Inglaterra"
+      },
+      "existentes": [
+        {
+          "id": "q01099",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Londres"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "As seleções dos Países Baixos jogam de laranja, cor ausente da bandeira nacional. Essa cor homenageia qual família?",
+        "resposta": "Casa de Orange-Nassau"
+      },
+      "existentes": [
+        {
+          "id": "q00021",
+          "pergunta": "Amsterdã é a capital oficial dos Países Baixos, mas em qual cidade ficam o governo e o parlamento?",
+          "resposta": "Haia"
+        },
+        {
+          "id": "q01299",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Países Baixos"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Por que Pierre de Coubertin escolheu as cinco cores dos anéis olímpicos, sobre o fundo branco?",
+        "resposta": "Toda bandeira nacional tinha alguma delas"
+      },
+      "existentes": [
+        {
+          "id": "q00667",
+          "pergunta": "Segundo o criador dos anéis olímpicos, por que foram escolhidas aquelas cores, somadas ao fundo branco da bandeira?",
+          "resposta": "Juntas formam as cores de todas as bandeiras"
+        },
+        {
+          "id": "q00668",
+          "pergunta": "Quem criou o símbolo dos cinco anéis olímpicos entrelaçados, apresentado em 1913?",
+          "resposta": "Pierre de Coubertin"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: céu do Rio em 15/11/1889, só muda a direção da pergunta."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Praticamente idêntica: estrela Espiga representa o Pará."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Autor da melodia é fato diferente dos versos sobre lábaro e Ipiranga."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado de Druk Yul é diferente de identificar o país da bandeira."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Motivo da ausência de Gales é fato distinto da capital."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Origem da cor laranja é diferente da capital/sede do governo e da bandeira."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: razão da escolha das cores dos anéis, já coberto por q00667.",
+      "id_existente": "q00667"
+    }
+  ]
+}

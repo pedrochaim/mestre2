@@ -8221,7 +8221,9 @@
     "variantes": [
       "Spica",
       "Alfa da Virgem",
-      "Alpha Virginis"
+      "Alpha Virginis",
+      "Espiga (estrela)",
+      "Alfa Virginis"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Spica"
@@ -8376,7 +8378,8 @@
     "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
     "variantes": [
       "Bandeira brasileira",
-      "Pavilhão Nacional"
+      "Pavilhão Nacional",
+      "Auriverde"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil"
@@ -9491,7 +9494,8 @@
     "descricao": "Símbolo dos Jogos Olímpicos, formado por cinco anéis entrelaçados sobre fundo branco.",
     "variantes": [
       "Cinco anéis",
-      "Olympic rings"
+      "Olympic rings",
+      "Bandeira olímpica"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Olympic_symbols"
@@ -10855,7 +10859,8 @@
     "nome": "Hino Nacional Brasileiro",
     "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
     "variantes": [
-      "Ouviram do Ipiranga"
+      "Ouviram do Ipiranga",
+      "Hino do Brasil"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro"
@@ -13422,7 +13427,8 @@
     "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
     "variantes": [
       "Reino do Butão",
-      "Bhutan"
+      "Bhutan",
+      "Druk Yul"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Bhutan",
@@ -35865,6 +35871,463 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Volkswagen_Gol",
       "https://pt.wikipedia.org/wiki/Volkswagen_Gol"
+    ]
+  },
+  {
+    "id": "ordem_e_progresso",
+    "nome": "Ordem e Progresso",
+    "descricao": "Lema inscrito na faixa branca da bandeira nacional do Brasil, de inspiração positivista.",
+    "variantes": [
+      "Lema da bandeira do Brasil"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ordem_e_Progresso",
+      "https://pt.wikipedia.org/wiki/Ordem_e_Progresso"
+    ]
+  },
+  {
+    "id": "hino_da_independencia_do_brasil",
+    "nome": "Hino da Independência do Brasil",
+    "descricao": "Hino patriótico brasileiro com letra de Evaristo da Veiga, celebrando a independência de 1822.",
+    "variantes": [
+      "Hino da Independência"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Hino_da_Independência_do_Brasil",
+      "https://en.wikipedia.org/wiki/Brazilian_Independence_Anthem"
+    ]
+  },
+  {
+    "id": "bandeira_de_minas_gerais",
+    "nome": "Bandeira de Minas Gerais",
+    "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+    "variantes": [
+      "Bandeira mineira"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bandeira_de_Minas_Gerais",
+      "https://en.wikipedia.org/wiki/Flag_of_Minas_Gerais"
+    ]
+  },
+  {
+    "id": "hino_da_alemanha",
+    "nome": "Hino da Alemanha",
+    "descricao": "Hino nacional alemão, a terceira estrofe da Canção dos Alemães, com melodia de Joseph Haydn.",
+    "variantes": [
+      "Deutschlandlied",
+      "Das Lied der Deutschen",
+      "Canção dos Alemães"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Deutschlandlied"
+    ]
+  },
+  {
+    "id": "bandeira_do_rio_grande_do_sul",
+    "nome": "Bandeira do Rio Grande do Sul",
+    "descricao": "Bandeira do estado do Rio Grande do Sul, com faixas diagonais verde, vermelha e amarela e o brasão estadual.",
+    "variantes": [
+      "Bandeira gaúcha"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bandeira_do_Rio_Grande_do_Sul",
+      "https://en.wikipedia.org/wiki/Flag_of_Rio_Grande_do_Sul"
+    ]
+  },
+  {
+    "id": "dia_da_bandeira",
+    "nome": "Dia da Bandeira",
+    "descricao": "Data comemorativa brasileira dedicada à bandeira nacional, celebrada em 19 de novembro.",
+    "variantes": [
+      "Dia da Bandeira Nacional"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Dia_da_Bandeira"
+    ]
+  },
+  {
+    "id": "cruzeiro_moeda",
+    "nome": "Cruzeiro (moeda)",
+    "descricao": "Moeda brasileira criada em 1942 em substituição ao mil-réis.",
+    "variantes": [
+      "Cruzeiro brasileiro"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Cruzeiro_(moeda)",
+      "https://en.wikipedia.org/wiki/Brazilian_cruzeiro"
+    ]
+  },
+  {
+    "id": "dolar",
+    "nome": "Dólar",
+    "descricao": "Nome de diversas moedas, como a dos Estados Unidos, derivado de uma antiga moeda de prata europeia.",
+    "variantes": [
+      "Dollar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dollar"
+    ]
+  },
+  {
+    "id": "iene",
+    "nome": "Iene",
+    "descricao": "Moeda oficial do Japão.",
+    "variantes": [
+      "Yen",
+      "Iene japonês"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Japanese_yen"
+    ]
+  },
+  {
+    "id": "bandeira_do_japao",
+    "nome": "Bandeira do Japão",
+    "descricao": "Bandeira nacional do Japão, branca com um disco vermelho no centro.",
+    "variantes": [
+      "Hinomaru",
+      "Nisshōki"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Japan"
+    ]
+  },
+  {
+    "id": "a_marselhesa",
+    "nome": "A Marselhesa",
+    "descricao": "Hino nacional da França, composto por Rouget de Lisle em 1792.",
+    "variantes": [
+      "La Marseillaise"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/La_Marseillaise"
+    ]
+  },
+  {
+    "id": "galo_gaules",
+    "nome": "Galo gaulês",
+    "descricao": "Galo usado como símbolo nacional da França.",
+    "variantes": [
+      "Coq gaulois",
+      "Galo francês"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gallic_rooster",
+      "https://fr.wikipedia.org/wiki/Coq_gaulois"
+    ]
+  },
+  {
+    "id": "nova_zelandia",
+    "nome": "Nova Zelândia",
+    "descricao": "País insular da Oceania, no sudoeste do Pacífico, cuja capital é Wellington.",
+    "variantes": [
+      "New Zealand",
+      "Aotearoa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/New_Zealand"
+    ]
+  },
+  {
+    "id": "simbolo_do_euro",
+    "nome": "Símbolo do euro",
+    "descricao": "Sinal gráfico da moeda única europeia, um C cortado por duas linhas horizontais.",
+    "variantes": [
+      "Euro sign"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Euro_sign"
+    ]
+  },
+  {
+    "id": "bandeira_dos_estados_unidos",
+    "nome": "Bandeira dos Estados Unidos",
+    "descricao": "Bandeira nacional dos Estados Unidos, com listras vermelhas e brancas e um retângulo azul com estrelas.",
+    "variantes": [
+      "Stars and Stripes",
+      "Old Glory"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_the_United_States"
+    ]
+  },
+  {
+    "id": "bandeira_de_barbados",
+    "nome": "Bandeira de Barbados",
+    "descricao": "Bandeira nacional de Barbados, com faixas azul, amarela e azul e um tridente preto no centro.",
+    "variantes": [
+      "Flag of Barbados"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Barbados"
+    ]
+  },
+  {
+    "id": "brasao_do_mexico",
+    "nome": "Brasão do México",
+    "descricao": "Brasão de armas nacional do México, com uma águia sobre um cacto devorando uma serpente.",
+    "variantes": [
+      "Escudo nacional do México",
+      "Coat of arms of Mexico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Coat_of_arms_of_Mexico"
+    ]
+  },
+  {
+    "id": "bandeira_da_arabia_saudita",
+    "nome": "Bandeira da Arábia Saudita",
+    "descricao": "Bandeira nacional da Arábia Saudita, verde com uma inscrição árabe e uma espada brancas.",
+    "variantes": [
+      "Flag of Saudi Arabia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Saudi_Arabia"
+    ]
+  },
+  {
+    "id": "a_portuguesa",
+    "nome": "A Portuguesa",
+    "descricao": "Hino nacional de Portugal, composto em 1890 por Alfredo Keil, com letra de Henrique Lopes de Mendonça.",
+    "variantes": [
+      "Hino de Portugal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/A_Portuguesa"
+    ]
+  },
+  {
+    "id": "cruz_nordica",
+    "nome": "Cruz nórdica",
+    "descricao": "Cruz com o braço vertical deslocado para o lado da haste, usada nas bandeiras dos países nórdicos.",
+    "variantes": [
+      "Cruz escandinava",
+      "Nordic cross"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nordic_cross_flag"
+    ]
+  },
+  {
+    "id": "emblema_da_cruz_vermelha",
+    "nome": "Emblema da Cruz Vermelha",
+    "descricao": "Emblema humanitário formado por uma cruz vermelha sobre fundo branco, usado pelo movimento da Cruz Vermelha.",
+    "variantes": [
+      "Cruz Vermelha",
+      "Red Cross emblem"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Emblems_of_the_International_Red_Cross_and_Red_Crescent_Movement"
+    ]
+  },
+  {
+    "id": "bandeira_de_angola",
+    "nome": "Bandeira de Angola",
+    "descricao": "Bandeira nacional de Angola, vermelha e preta com meia roda dentada, catana e estrela amarelas.",
+    "variantes": [
+      "Flag of Angola"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Angola"
+    ]
+  },
+  {
+    "id": "bandeira_de_israel",
+    "nome": "Bandeira de Israel",
+    "descricao": "Bandeira nacional de Israel, branca com duas faixas azuis horizontais e a Estrela de Davi.",
+    "variantes": [
+      "Flag of Israel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Israel"
+    ]
+  },
+  {
+    "id": "sol_de_maio",
+    "nome": "Sol de Maio",
+    "descricao": "Sol dourado com rosto humano, emblema nacional que aparece nas bandeiras da Argentina e do Uruguai.",
+    "variantes": [
+      "Sol de Mayo",
+      "Sun of May"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sun_of_May"
+    ]
+  },
+  {
+    "id": "bandeira_de_monaco",
+    "nome": "Bandeira de Mônaco",
+    "descricao": "Bandeira nacional do Principado de Mônaco, com duas faixas horizontais, vermelha e branca.",
+    "variantes": [
+      "Flag of Monaco"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Monaco"
+    ]
+  },
+  {
+    "id": "cores_pan_africanas",
+    "nome": "Cores pan-africanas",
+    "descricao": "Conjunto de cores verde, amarelo e vermelho usado em muitas bandeiras africanas como símbolo de unidade e independência.",
+    "variantes": [
+      "Pan-African colours"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pan-African_colours"
+    ]
+  },
+  {
+    "id": "hino_da_russia",
+    "nome": "Hino da Rússia",
+    "descricao": "Hino nacional da Federação Russa, com melodia de Aleksandr Aleksandrov.",
+    "variantes": [
+      "Hino Nacional da Federação Russa",
+      "State Anthem of the Russian Federation"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/State_Anthem_of_the_Russian_Federation"
+    ]
+  },
+  {
+    "id": "hino_de_liechtenstein",
+    "nome": "Hino de Liechtenstein",
+    "descricao": "Hino nacional do Principado de Liechtenstein, intitulado Oben am jungen Rhein.",
+    "variantes": [
+      "Oben am jungen Rhein"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Oben_am_jungen_Rhein"
+    ]
+  },
+  {
+    "id": "amar_shonar_bangla",
+    "nome": "Amar Shonar Bangla",
+    "descricao": "Hino nacional de Bangladesh, escrito por Rabindranath Tagore.",
+    "variantes": [
+      "Hino de Bangladesh",
+      "Meu Bengala dourado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amar_Shonar_Bangla"
+    ]
+  },
+  {
+    "id": "cedula_de_duzentos_reais",
+    "nome": "Cédula de duzentos reais",
+    "descricao": "Nota de 200 reais, lançada pelo Banco Central do Brasil em 2020.",
+    "variantes": [
+      "Nota de duzentos reais",
+      "Nota de R$ 200"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Real_(moeda)",
+      "https://en.wikipedia.org/wiki/Brazilian_real"
+    ]
+  },
+  {
+    "id": "bandeira_de_mocambique",
+    "nome": "Bandeira de Moçambique",
+    "descricao": "Bandeira nacional de Moçambique, com faixas verde, preta e amarela e um emblema com livro, enxada e fuzil.",
+    "variantes": [
+      "Flag of Mozambique"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Mozambique"
+    ]
+  },
+  {
+    "id": "bandeira_de_portugal",
+    "nome": "Bandeira de Portugal",
+    "descricao": "Bandeira nacional de Portugal, verde e vermelha com a esfera armilar e o escudo português.",
+    "variantes": [
+      "Bandeira portuguesa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Portugal",
+      "https://pt.wikipedia.org/wiki/Bandeira_de_Portugal"
+    ]
+  },
+  {
+    "id": "armas_nacionais_do_brasil",
+    "nome": "Armas Nacionais do Brasil",
+    "descricao": "Brasão de armas oficial da República Federativa do Brasil, um dos quatro símbolos nacionais.",
+    "variantes": [
+      "Brasão de armas do Brasil",
+      "Brasão da República"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Brasão_de_armas_do_Brasil",
+      "https://en.wikipedia.org/wiki/Coat_of_arms_of_Brazil"
+    ]
+  },
+  {
+    "id": "bandeira_do_paraguai",
+    "nome": "Bandeira do Paraguai",
+    "descricao": "Bandeira nacional do Paraguai, tricolor horizontal vermelha, branca e azul com emblemas diferentes em cada lado.",
+    "variantes": [
+      "Flag of Paraguay"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_Paraguay"
+    ]
+  },
+  {
+    "id": "escocia",
+    "nome": "Escócia",
+    "descricao": "País constituinte do Reino Unido, no norte da ilha da Grã-Bretanha, cuja capital é Edimburgo.",
+    "variantes": [
+      "Scotland"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Scotland"
+    ]
+  },
+  {
+    "id": "marcha_real",
+    "nome": "Marcha Real",
+    "descricao": "Hino nacional da Espanha, uma das mais antigas marchas usadas como hino na Europa.",
+    "variantes": [
+      "Marcha Granadera",
+      "Hino da Espanha"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Marcha_Real"
+    ]
+  },
+  {
+    "id": "the_star_spangled_banner",
+    "nome": "The Star-Spangled Banner",
+    "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+    "variantes": [
+      "Hino dos Estados Unidos",
+      "A Bandeira Estrelada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Star-Spangled_Banner"
+    ]
+  },
+  {
+    "id": "bandeira_das_nacoes_unidas",
+    "nome": "Bandeira das Nações Unidas",
+    "descricao": "Bandeira oficial da ONU, azul-clara com um mapa-múndi branco entre ramos de oliveira.",
+    "variantes": [
+      "Bandeira da ONU",
+      "Flag of the United Nations"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_the_United_Nations"
+    ]
+  },
+  {
+    "id": "bandeira_da_india",
+    "nome": "Bandeira da Índia",
+    "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+    "variantes": [
+      "Tiranga",
+      "Flag of India"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flag_of_India"
     ]
   }
 ]

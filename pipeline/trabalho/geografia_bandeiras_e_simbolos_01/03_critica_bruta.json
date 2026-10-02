@@ -1,0 +1,438 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nas fontes, enunciado preciso e resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Data confirmada pelas fontes; enunciado literalmente correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas o ângulo 'nome' não serve: a resposta é o estado que a estrela representa, ou seja, um atributo dela.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Na bandeira do Brasil, a estrela Espiga brilha sozinha acima da faixa branca. Que estado ela representa?",
+        "resposta": "Pará",
+        "distratores": [
+          "Amazonas",
+          "Maranhão",
+          "Bahia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Flag_of_Brazil",
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas uma fonte é inexistente; troco por fontes que sustentam o fato.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Segundo a tradição, o amarelo da bandeira do Império do Brasil homenageava a família da imperatriz Leopoldina. Que família era essa?",
+        "resposta": "Casa de Habsburgo",
+        "distratores": [
+          "Casa de Bragança",
+          "Casa de Bourbon",
+          "Casa de Orléans"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Flag_of_Brazil",
+          "https://pt.wikipedia.org/wiki/Bandeira_do_Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Compositor carioca nascido em 1795, confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oficialização em 1922 ligada ao centenário da Independência, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Música de Pedro I e letra de Evaristo da Veiga, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lema adaptado de Virgílio, confirmado; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tradução corrente do lema confirmada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Haydn, 1797, para Francisco II; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem na Guerra dos Farrapos confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "19 de novembro confirmado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome inspirado na constelação do Cruzeiro do Sul, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Táler da Boêmia (1520) confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caractere que significa 'redondo', confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hinomaru, 'círculo do sol', confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido vindo dos federados de Marselha, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Druk Yul, 'Terra do Dragão do Trovão', confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trocadilho gallus confirmado; boa curiosidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kiwi como apelido dos neozelandeses, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A parte 'lembrando o berço da civilização europeia' não consta nas fontes; retiro para manter a precisão.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "O desenho do símbolo do euro foi inspirado em qual letra grega?",
+        "resposta": "Épsilon",
+        "distratores": [
+          "Sigma",
+          "Ômega",
+          "Teta"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Euro_sign"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Treze listras pelas colônias originais, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gales considerado parte da Inglaterra, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tridente quebrado simboliza o fim do domínio colonial, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda da fundação de Tenochtitlán, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A bandeira traz a shahada e por isso não é baixada a meio mastro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Laranja em homenagem à Casa de Orange-Nassau, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cores representavam as de todas as bandeiras da época, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ultimato britânico de 1890, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dinamarca foi a primeira bandeira com a cruz nórdica, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Cruz Vermelha inverte as cores da bandeira suíça, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A semelhança do emblema angolano com a foice e o martelo é amplamente apontada.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Faixas imitam o talit, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que a ligação com Inti é interpretação difundida, sem comprovação documental; o enunciado afirmava como fato.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Segundo a explicação mais difundida, o Sol de Maio, de rosto humano, na bandeira argentina representa qual deus inca?",
+        "resposta": "Inti",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sun_of_May"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Semelhança com a bandeira da Indonésia confirmada; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cores emprestadas da bandeira da Etiópia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: a resposta Grã-Colômbia contém 'Colômbia', que está no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mesma melodia do hino soviético, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, mas o título do hino britânico muda com o monarca; a resposta precisa ser atemporal.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "O hino do pequeno principado de Liechtenstein usa a mesma melodia de qual outro hino?",
+        "resposta": "God Save the King (ou Queen)",
+        "distratores": [
+          "A Marselhesa",
+          "Canção dos Alemães",
+          "Salmo Suíço"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Oben_am_jungen_Rhein"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tagore escreveu os dois hinos, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Lobo-guará na nota de 200 reais é fato certo, mas uma fonte é desambiguação e a outra não menciona o animal; ajusto a fonte.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Que animal brasileiro estampa a nota de duzentos reais, lançada em 2020?",
+        "resposta": "Lobo-guará",
+        "distratores": [
+          "Onça-pintada",
+          "Tamanduá-bandeira",
+          "Mico-leão-dourado"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Brazilian_real"
+        ]
+      }
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "AK-47 cruzado com enxada sobre livro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Esfera armilar, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os ramos de café e tabaco cercam o emblema central, não a estrela; corrijo a precisão.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "No brasão de armas do Brasil, os ramos que ladeiam o emblema central são de café e de qual outra planta?",
+        "resposta": "Tabaco (fumo)",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Brasão_de_armas_do_Brasil",
+          "https://en.wikipedia.org/wiki/Coat_of_arms_of_Brazil"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Leão com barrete frígio no reverso, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Unicórnio como animal nacional da Escócia, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marcha Real sem letra oficial, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Forte McHenry confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mapa centrado no Polo Norte, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "24 raios, confirmado; distratores plausíveis.",
+      "reescrita": null
+    }
+  ]
+}
