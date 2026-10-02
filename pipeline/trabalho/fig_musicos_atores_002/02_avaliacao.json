@@ -1,0 +1,237 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto que entregue a resposta; figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ator americano?",
+      "resposta": "Tom Hanks",
+      "destino": 2,
+      "ancora": {
+        "nome": "Tom Hanks",
+        "descricao": "Ator e cineasta americano, vencedor de dois Oscars de melhor ator.",
+        "variantes": [
+          "Thomas Jeffrey Hanks"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido; a marca na jaqueta não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ator brasileiro?",
+      "resposta": "Wagner Moura",
+      "destino": 2,
+      "ancora": {
+        "nome": "Wagner Moura",
+        "descricao": "Ator e cineasta brasileiro, protagonista de Tropa de Elite.",
+        "variantes": [
+          "Wagner Maniçoba de Moura"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem pequena, mas legível e sem texto; figura pública com violão. Múltipla escolha com sambistas parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este sambista e compositor?",
+      "resposta": "Paulinho da Viola",
+      "distratores": [
+        "Martinho da Vila",
+        "Zeca Pagodinho",
+        "Nei Lopes"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Paulinho da Viola",
+        "descricao": "Sambista, cantor e compositor carioca, ligado à Portela, nascido Paulo César Batista de Faria.",
+        "variantes": [
+          "Paulo César Batista de Faria"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o broche 'Brasil' não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este cantor e compositor baiano foi figura central de qual movimento musical do fim dos anos sessenta?",
+      "resposta": "Tropicália",
+      "destino": 0,
+      "ancora": {
+        "nome": "Gilberto Gil",
+        "descricao": "Cantor, compositor e político baiano, ministro da Cultura de 2003 a 2008.",
+        "variantes": [
+          "Gilberto Passos Gil Moreira"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução com letras de programa visíveis no fundo, perto da caneca, que podem entregar a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido e sem texto; rosto e visual característicos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta atriz escocesa?",
+      "resposta": "Tilda Swinton",
+      "destino": 2,
+      "ancora": {
+        "nome": "Tilda Swinton",
+        "descricao": "Atriz escocesa vencedora do Oscar de atriz coadjuvante por Michael Clayton.",
+        "variantes": [
+          "Katherine Matilda Swinton"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de show nítida; a marca no braço do baixo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este músico inglês, de baixo na mão?",
+      "resposta": "Paul McCartney",
+      "distratores": [
+        "Ringo Starr",
+        "Mick Jagger",
+        "Elton John"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Paul McCartney",
+        "descricao": "Músico e compositor inglês, baixista e vocalista dos Beatles.",
+        "variantes": [
+          "James Paul McCartney"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido; o texto de patrocinador no fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ator?",
+      "resposta": "Keanu Reeves",
+      "distratores": [
+        "Johnny Depp",
+        "Jared Leto",
+        "Nicolas Cage"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Keanu Reeves",
+        "descricao": "Ator e músico canadense, conhecido por Matrix e John Wick.",
+        "variantes": [
+          "Keanu Charles Reeves"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato claro da atriz em primeiro plano, sem texto; a pessoa ao fundo está desfocada e cortada.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta atriz brasileira?",
+      "resposta": "Marília Pêra",
+      "distratores": [
+        "Regina Duarte",
+        "Glória Pires",
+        "Nathalia Timberg"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Marília Pêra",
+        "descricao": "Atriz, cantora e diretora de teatro brasileira (1943–2015).",
+        "variantes": [
+          "Marília Soares Pêra"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Quadro de vídeo nítido, sem texto; figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta cantora baiana foi vocalista de qual banda de axé antes da carreira solo?",
+      "resposta": "Banda Eva",
+      "distratores": [
+        "Chiclete com Banana",
+        "Asa de Águia",
+        "Olodum"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ivete Sangalo",
+        "descricao": "Cantora, atriz e apresentadora baiana, ex-vocalista da Banda Eva.",
+        "variantes": [
+          "Ivete Maria Dias de Sangalo Cady"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto; figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esta atriz brasileira?",
+      "resposta": "Fernanda Montenegro",
+      "destino": 2,
+      "ancora": {
+        "nome": "Fernanda Montenegro",
+        "descricao": "Atriz brasileira indicada ao Oscar por Central do Brasil.",
+        "variantes": [
+          "Arlette Pinheiro Monteiro Torres"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, com visual marcante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual foi o álbum de estreia, de 1975, desta cantora americana?",
+      "resposta": "Horses",
+      "distratores": [
+        "Born to Run",
+        "Marquee Moon",
+        "Ramones"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Patti Smith",
+        "descricao": "Cantora, compositora e poeta americana, chamada de madrinha do punk.",
+        "variantes": [
+          "Patricia Lee Smith"
+        ]
+      }
+    }
+  ]
+}

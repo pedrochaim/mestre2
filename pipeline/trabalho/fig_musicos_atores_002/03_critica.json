@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de figura emblemática; enunciado sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta simples de reconhecimento, correta e sem pista que entregue o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem vazamento. Os distratores são sambistas críveis, curtos e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A resposta, Tropicália, sai só do enunciado: baiano, fim dos anos sessenta, figura central. A figura vira enfeite. Também é nível 3 marcado como nível 1. As alternativas de reescrita (cargo de ministro) entregam por um feito único e são ambíguas.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. A en.wikipedia chama Tilda Swinton de escocesa e ela vive na Escócia. A pista de nacionalidade ajuda sem entregar.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'De baixo na mão' afirma algo sobre a foto que não consta em `mostra` e pode ser falso. Também denuncia a resposta, porque os distratores não são baixistas. A reescrita tira a pista e usa distratores do mesmo grupo.",
+      "reescrita": {
+        "pergunta": "Quem é este músico inglês?",
+        "resposta": "Paul McCartney",
+        "distratores": [
+          "John Lennon",
+          "George Harrison",
+          "Ringo Starr"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado sem pista. Os distratores são atores críveis do mesmo tipo e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com a pista de nacionalidade. Os distratores são atrizes brasileiras críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que ela foi vocalista da Banda Eva até 1999. O enunciado não permite identificá-la sem a figura, e os distratores são grupos baianos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Horses (1975) é o álbum de estreia, confirmado nos trechos. O enunciado não identifica a cantora sozinho. Os distratores são álbuns do punk e do rock americano, nenhum deles a estreia dela.",
+      "reescrita": null
+    }
+  ]
+}
