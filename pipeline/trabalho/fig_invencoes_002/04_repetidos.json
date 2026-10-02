@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década foram lançadas as primeiras máquinas comerciais deste tipo?",
+        "resposta": "Década de 1870"
+      },
+      "existentes": [
+        {
+          "id": "q01611",
+          "pergunta": "Que máquina antiga de escritório é esta?",
+          "resposta": "Máquina de escrever"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que antigo instrumento de cálculo é este?",
+        "resposta": "Ábaco"
+      },
+      "existentes": [
+        {
+          "id": "q01613",
+          "pergunta": "Que instrumento de cálculo, com contas deslizantes em hastes, é este?",
+          "resposta": "Ábaco"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta qual é a máquina (identificação); a nova pergunta a década de lançamento comercial, um fato diferente."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q01613",
+      "motivo": "Ambas pedem a identificação do ábaco como instrumento de cálculo, com a mesma resposta."
+    }
+  ]
+}

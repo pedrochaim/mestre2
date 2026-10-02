@@ -1,0 +1,100 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista que entregue; resposta única e confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento simples, sem vazamento; resposta sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'parece beber' é palavra da mesma família de 'bebedor' e entrega a resposta. Troquei por pista neutra.",
+      "reescrita": {
+        "pergunta": "Que brinquedo movido a calor e evaporação é este, que balança sozinho sobre um copo de água?",
+        "resposta": "Pássaro bebedor",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A primeira máquina comercial (Hansen, 1870) cabe na década de 1870, mas o '1874' entre parênteses se refere à Sholes & Glidden e confunde. Resposta simplificada.",
+      "reescrita": {
+        "pergunta": "Em que década foram lançadas as primeiras máquinas comerciais deste tipo?",
+        "resposta": "Década de 1870",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Moinho vertical apareceu no noroeste da Europa no século doze, conforme o trecho; enunciado não nomeia a entidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pista (volante, chama externa) ajuda sem entregar; distratores plausíveis e do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Torricelli é creditado como inventor do barômetro em 1643, século dezessete; distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam o físico inglês William Crookes e o período 1869–1875; o enunciado não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'contas deslizantes' descreve a resposta e dispensa a figura. Retirei a descrição.",
+      "reescrita": {
+        "pergunta": "Que antigo instrumento de cálculo é este?",
+        "resposta": "Ábaco",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Scherbius, engenheiro alemão, patenteou a Enigma em 1918; distratores críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho confirma a patente de Jacquard em 1804; o enunciado não nomeia a entidade.",
+      "reescrita": null
+    }
+  ]
+}

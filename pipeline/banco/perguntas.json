@@ -34695,5 +34695,238 @@
       "autor": "Airwolfhound from Hertfordshire, UK",
       "licenca": "CC BY-SA 2.0"
     }
+  },
+  {
+    "id": "q02112",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "turbina_eolica",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que equipamento é este, em primeiro plano na foto?",
+    "resposta": "Turbina eólica (aerogerador)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wind_turbine",
+      "https://pt.wikipedia.org/wiki/Aerogerador"
+    ],
+    "imagem": {
+      "arquivo": "q02112.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2019_07_26_Trampe_Windkraftanlagen_DJI_0041.jpg",
+      "autor": "Daniela Kloth",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q02113",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "transistor",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que componente eletrônico aparece nesta foto, em vários formatos?",
+    "resposta": "Transistor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Transistor",
+      "https://pt.wikipedia.org/wiki/Trans%C3%ADstor"
+    ],
+    "imagem": {
+      "arquivo": "q02113.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Transistors.agr.jpg",
+      "autor": "ArnoldReinhold",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02114",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "passaro_bebedor",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que brinquedo movido a calor e evaporação é este, que balança sozinho sobre um copo de água?",
+    "resposta": "Pássaro bebedor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Drinking_bird"
+    ],
+    "imagem": {
+      "arquivo": "q02114.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Water_toy_dsc04492.jpg",
+      "autor": "David Monniaux",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02115",
+    "tema": "Ciências",
+    "subtema": "Invenções e História da Ciência",
+    "ancora": "maquina_de_escrever",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década foram lançadas as primeiras máquinas comerciais deste tipo?",
+    "resposta": "Década de 1870",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Typewriter",
+      "https://pt.wikipedia.org/wiki/M%C3%A1quina_de_escrever"
+    ],
+    "imagem": {
+      "arquivo": "q02115.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Olivetti_Lettera_22_by_LjL.jpeg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02116",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "moinho_de_vento",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século apareceu, no noroeste da Europa, este tipo de máquina de pás?",
+    "resposta": "Século doze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Windmill",
+      "https://pt.wikipedia.org/wiki/Moinho_de_vento"
+    ],
+    "imagem": {
+      "arquivo": "q02116.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Moulin_de_la_Solitude_(8061957726).jpg",
+      "autor": "Peter Broster",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q02117",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "motor_stirling",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de motor é este, com volante e uma chama sob o cilindro?",
+    "resposta": "Motor Stirling",
+    "distratores": [
+      "Motor Wankel",
+      "Motor a vapor",
+      "Motor Diesel"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stirling_engine",
+      "https://pt.wikipedia.org/wiki/Motor_Stirling"
+    ],
+    "imagem": {
+      "arquivo": "q02117.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stirlingmotor_3.jpg",
+      "autor": "Claudio Minonzio",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02118",
+    "tema": "Ciências",
+    "subtema": "Meio Ambiente e Energia",
+    "ancora": "painel_solar",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que equipamento é este, instalado sobre pedras?",
+    "resposta": "Painel solar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Solar_panel",
+      "https://pt.wikipedia.org/wiki/Painel_solar_fotovoltaico"
+    ],
+    "imagem": {
+      "arquivo": "q02118.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Energy_assurance_only_a_microgrid_away_140113-M-OB827-007.jpg",
+      "autor": "Lance Cpl. Christopher Johns",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02119",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "barometro",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem inventou este instrumento, no século dezessete?",
+    "resposta": "Evangelista Torricelli",
+    "distratores": [
+      "Robert Hooke",
+      "Christiaan Huygens",
+      "Robert Boyle"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Barometer",
+      "https://pt.wikipedia.org/wiki/Bar%C3%B3metro"
+    ],
+    "imagem": {
+      "arquivo": "q02119.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dosen-barometer.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02120",
+    "tema": "Ciências",
+    "subtema": "Física",
+    "ancora": "tubo_de_crookes",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que físico inglês inventou este aparelho de vidro, por volta de 1870?",
+    "resposta": "William Crookes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crookes_tube",
+      "https://pt.wikipedia.org/wiki/Tubo_de_Crookes"
+    ],
+    "imagem": {
+      "arquivo": "q02120.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Crookes_tube-not_in_use-lateral_view_prPNr°02.jpg",
+      "autor": "D-Kuru",
+      "licenca": "CC BY-SA 3.0 at"
+    }
+  },
+  {
+    "id": "q02121",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "maquina_enigma",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que engenheiro alemão inventou esta máquina, no início do século vinte?",
+    "resposta": "Arthur Scherbius",
+    "distratores": [
+      "Konrad Zuse",
+      "Alan Turing",
+      "Charles Babbage"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Enigma_machine",
+      "https://pt.wikipedia.org/wiki/Enigma_%28m%C3%A1quina%29"
+    ],
+    "imagem": {
+      "arquivo": "q02121.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Enigma_(crittografia)_-_Museo_scienza_e_tecnologia_Milano.jpg",
+      "autor": "Alessandro Nassiri",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02122",
+    "tema": "Ciências",
+    "subtema": "Tecnologia e Computação",
+    "ancora": "tear_de_jacquard",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano foi patenteado o mecanismo instalado no alto deste tear?",
+    "resposta": "1804",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jacquard_machine"
+    ],
+    "imagem": {
+      "arquivo": "q02122.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sjöllingstad_IMG_3286_Jacquard_german_1939_Sachsische_Webstuhlfabrik_(Louis_Schönherr)_Chemnitz.JPG",
+      "autor": "Bjoertvedt",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

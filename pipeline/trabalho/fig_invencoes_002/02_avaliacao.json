@@ -1,0 +1,245 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Turbinas eólicas claras, sem texto; um único assunto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que equipamento é este, em primeiro plano na foto?",
+      "resposta": "Turbina eólica (aerogerador)",
+      "destino": 3,
+      "ancora": {
+        "nome": "Turbina eólica",
+        "descricao": "Máquina de eixo horizontal com três pás que converte a energia cinética do vento em energia elétrica.",
+        "variantes": [
+          "Aerogerador",
+          "Gerador eólico"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vários transistores de encapsulamentos diferentes, mas um só tipo de objeto; as marcações não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que componente eletrônico aparece nesta foto, em vários formatos?",
+      "resposta": "Transistor",
+      "destino": 1,
+      "ancora": {
+        "nome": "Transistor",
+        "descricao": "Dispositivo semicondutor usado para amplificar ou chavear sinais elétricos, bloco básico da eletrônica moderna.",
+        "variantes": [
+          "Transístor"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Brinquedo inconfundível, foto nítida, sem texto. Autoria incerta, então troquei para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que brinquedo é este, que parece beber de um copo?",
+      "resposta": "Pássaro bebedor",
+      "destino": 2,
+      "ancora": {
+        "nome": "Pássaro bebedor",
+        "descricao": "Brinquedo que é um motor térmico e imita um pássaro mergulhando o bico em um copo de água.",
+        "variantes": [
+          "Pássaro mergulhador",
+          "Drinking bird",
+          "Dunking bird"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Máquina de escrever portátil clara; a marca Olivetti não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que década foram lançadas as primeiras máquinas comerciais deste tipo?",
+      "resposta": "Década de 1870 (1874)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Máquina de escrever",
+        "descricao": "Máquina mecânica de teclas que imprime caracteres no papel por meio de uma fita entintada.",
+        "variantes": [
+          "Typewriter"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Moinho de vento vertical de torre, claro, sem texto. Troquei para quando.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que século apareceu, no noroeste da Europa, este tipo de máquina de pás?",
+      "resposta": "Século doze",
+      "destino": 3,
+      "ancora": {
+        "nome": "Moinho de vento",
+        "descricao": "Máquina de torre movida pela força do vento sobre pás ou velas, usada para moer grãos.",
+        "variantes": [
+          "Moinho de vento vertical",
+          "Windmill"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Motor Stirling de brinquedo claro; a inscrição HOG MOTOR não entrega a resposta. Múltipla com motores parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de motor é este, com volante e uma chama sob o cilindro?",
+      "resposta": "Motor Stirling",
+      "distratores": [
+        "Motor Wankel",
+        "Motor a vapor",
+        "Motor Diesel"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Motor Stirling",
+        "descricao": "Motor térmico de ciclo fechado que opera pela expansão e contração cíclica de um gás aquecido externamente.",
+        "variantes": [
+          "Stirling engine",
+          "Motor a ar quente"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Painel fotovoltaico nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que equipamento é este, instalado sobre pedras?",
+      "resposta": "Painel solar",
+      "destino": 3,
+      "ancora": {
+        "nome": "Painel solar",
+        "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
+        "variantes": [
+          "Painel fotovoltaico",
+          "Placa solar"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mostrador de barômetro legível; as palavras do mostrador não dizem o nome do instrumento.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem inventou este instrumento, no século dezessete?",
+      "resposta": "Evangelista Torricelli",
+      "distratores": [
+        "Robert Hooke",
+        "Christiaan Huygens",
+        "Robert Boyle"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Barômetro",
+        "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+        "variantes": [
+          "Barometer"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tubo de vidro com eletrodos, aparentemente um tubo de Crookes; sem texto que entregue a resposta. Algum risco de confusão com outros tubos de descarga, mas aceitável.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que físico inglês inventou este aparelho de vidro, por volta de 1870?",
+      "resposta": "William Crookes",
+      "destino": 2,
+      "ancora": {
+        "nome": "Tubo de Crookes",
+        "descricao": "Tubo de descarga com vácuo parcial e dois eletrodos, em que foram descobertos os raios catódicos.",
+        "variantes": [
+          "Crookes tube",
+          "Tubo de Crookes-Hittorf"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Ábaco de madeira nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento antigo, de contas deslizantes, é este?",
+      "resposta": "Ábaco",
+      "destino": 1,
+      "ancora": {
+        "nome": "Ábaco",
+        "descricao": "Instrumento manual de cálculo com contas que deslizam em hastes dentro de uma moldura.",
+        "variantes": [
+          "Abacus",
+          "Soroban",
+          "Schoty"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Enigma de três rotores nítida; os textos em alemão não dizem o nome Enigma.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que engenheiro alemão inventou esta máquina, no início do século vinte?",
+      "resposta": "Arthur Scherbius",
+      "distratores": [
+        "Konrad Zuse",
+        "Alan Turing",
+        "Charles Babbage"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Máquina Enigma",
+        "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial.",
+        "variantes": [
+          "Enigma"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tear Jacquard com cartões perfurados visíveis no alto; sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi patenteado o mecanismo instalado no alto deste tear?",
+      "resposta": "1804",
+      "destino": 1,
+      "ancora": {
+        "nome": "Tear de Jacquard",
+        "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+        "variantes": [
+          "Máquina de Jacquard",
+          "Jacquard loom"
+        ]
+      }
+    }
+  ]
+}

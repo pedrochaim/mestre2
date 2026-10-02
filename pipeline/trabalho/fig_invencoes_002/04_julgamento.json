@@ -1,0 +1,726 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Turbina eólica",
+        "descricao": "Máquina de eixo horizontal com três pás que converte a energia cinética do vento em energia elétrica.",
+        "variantes": [
+          "Aerogerador",
+          "Gerador eólico"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "urna_eletronica_brasileira",
+          "nome": "Urna eletrônica brasileira",
+          "descricao": "Equipamento eletrônico de votação usado nas eleições do Brasil.",
+          "variantes": [
+            "Urna eletrônica"
+          ]
+        },
+        {
+          "id": "guerra_do_futebol",
+          "nome": "Guerra do Futebol",
+          "descricao": "Conflito armado de 1969 entre El Salvador e Honduras, deflagrado em meio a jogos das Eliminatórias da Copa de 1970.",
+          "variantes": [
+            "Guerra das Cem Horas",
+            "Football War",
+            "Guerra del Fútbol"
+          ]
+        },
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        },
+        {
+          "id": "caixa_preta",
+          "nome": "Caixa-preta",
+          "descricao": "Gravador de dados e de voz da cabine instalado em aviões para investigar acidentes.",
+          "variantes": [
+            "Registrador de voo",
+            "Flight recorder",
+            "Black box"
+          ]
+        },
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Transistor",
+        "descricao": "Dispositivo semicondutor usado para amplificar ou chavear sinais elétricos, bloco básico da eletrônica moderna.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tyranitar",
+          "nome": "Tyranitar",
+          "descricao": "Pokémon dos tipos Pedra e Sombrio, número 248 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "kombi",
+          "nome": "Kombi",
+          "descricao": "Furgão da Volkswagen, também chamado Volkswagen Type 2, fabricado no Brasil de 1957 a 2013.",
+          "variantes": [
+            "Volkswagen Kombi",
+            "Volkswagen Type 2",
+            "Transporter"
+          ]
+        },
+        {
+          "id": "castor",
+          "nome": "Castor",
+          "descricao": "Roedor semiaquático do gênero Castor, conhecido por construir diques.",
+          "variantes": [
+            "Beaver"
+          ]
+        },
+        {
+          "id": "tarsio",
+          "nome": "Társio",
+          "descricao": "Pequeno primata noturno do Sudeste Asiático, de olhos enormes, família Tarsiidae.",
+          "variantes": [
+            "Tarsier"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Pássaro bebedor",
+        "descricao": "Brinquedo que é um motor térmico e imita um pássaro mergulhando o bico em um copo de água.",
+        "variantes": [
+          "Pássaro mergulhador",
+          "Drinking bird",
+          "Dunking bird"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "king_richard_criando_campeas",
+          "nome": "King Richard: Criando Campeãs",
+          "descricao": "Filme americano de 2021 sobre Richard Williams, estrelado por Will Smith.",
+          "variantes": [
+            "King Richard"
+          ]
+        },
+        {
+          "id": "breaking_bad",
+          "nome": "Breaking Bad",
+          "descricao": "Série americana criada por Vince Gilligan, sobre um professor de química que passa a produzir metanfetamina.",
+          "variantes": []
+        },
+        {
+          "id": "logotipo_do_twitter",
+          "nome": "Logotipo do Twitter",
+          "descricao": "O passarinho azul que foi o símbolo da rede social Twitter até 2023.",
+          "variantes": [
+            "Larry the Bird",
+            "Passarinho do Twitter"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Máquina de escrever",
+        "descricao": "Máquina mecânica de teclas que imprime caracteres no papel por meio de uma fita entintada.",
+        "variantes": [
+          "Typewriter"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_de_escrever",
+          "nome": "Máquina de escrever",
+          "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+          "variantes": [
+            "Typewriter"
+          ]
+        },
+        {
+          "id": "pascalina",
+          "nome": "Pascalina",
+          "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+          "variantes": [
+            "Máquina de Pascal",
+            "Calculadora de Pascal",
+            "Pascaline"
+          ]
+        },
+        {
+          "id": "mecanismo_de_anticitera",
+          "nome": "Mecanismo de Anticítera",
+          "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+          "variantes": [
+            "Máquina de Anticítera",
+            "Antikythera mechanism"
+          ]
+        },
+        {
+          "id": "tyranitar",
+          "nome": "Tyranitar",
+          "descricao": "Pokémon dos tipos Pedra e Sombrio, número 248 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mayday",
+          "nome": "Mayday",
+          "descricao": "Palavra usada internacionalmente no rádio como pedido de socorro por aviões e navios.",
+          "variantes": [
+            "Mayday (sinal de socorro)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Moinho de vento",
+        "descricao": "Máquina de torre movida pela força do vento sobre pás ou velas, usada para moer grãos.",
+        "variantes": [
+          "Moinho de vento vertical",
+          "Windmill"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "solsticio",
+          "nome": "Solstício",
+          "descricao": "Momento do ano em que o Sol atinge sua maior declinação, marcando o dia mais longo ou o mais curto do ano.",
+          "variantes": [
+            "Solstício de verão",
+            "Solstício de inverno",
+            "Solstice"
+          ]
+        },
+        {
+          "id": "cinto_de_seguranca_de_tres_pontos",
+          "nome": "Cinto de segurança de três pontos",
+          "descricao": "Cinto de segurança que prende o tronco e o quadril, introduzido pela Volvo em 1959.",
+          "variantes": [
+            "Cinto de três pontos",
+            "Three-point seatbelt"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três"
+          ]
+        },
+        {
+          "id": "coxinha",
+          "nome": "Coxinha",
+          "descricao": "Salgado brasileiro frito, em forma de gota, recheado com frango desfiado.",
+          "variantes": [
+            "Coxinha de frango"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Motor Stirling",
+        "descricao": "Motor térmico de ciclo fechado que opera pela expansão e contração cíclica de um gás aquecido externamente.",
+        "variantes": [
+          "Stirling engine",
+          "Motor a ar quente"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "motor_a_diesel",
+          "nome": "Motor a diesel",
+          "descricao": "Motor de combustão interna em que o combustível se inflama pela compressão do ar, sem vela de ignição.",
+          "variantes": [
+            "Motor diesel",
+            "Diesel engine"
+          ]
+        },
+        {
+          "id": "cachorro_quente",
+          "nome": "Cachorro-quente",
+          "descricao": "Lanche de salsicha grelhada, cozida ou fervida, servida num pão alongado aberto ao meio.",
+          "variantes": [
+            "Hot dog",
+            "Hotdog"
+          ]
+        },
+        {
+          "id": "pedras_deslizantes_do_vale_da_morte",
+          "nome": "Pedras deslizantes do Vale da Morte",
+          "descricao": "Rochas que se deslocam sozinhas e deixam rastros no leito seco de Racetrack Playa, no Vale da Morte, na Califórnia.",
+          "variantes": [
+            "Sailing stones",
+            "Pedras velejadoras",
+            "Pedras de Racetrack Playa"
+          ]
+        },
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "festival_de_veneza",
+          "nome": "Festival de Veneza",
+          "descricao": "Festival internacional de cinema realizado anualmente em Veneza, na Itália, desde 1932.",
+          "variantes": [
+            "Mostra de Veneza",
+            "Festival Internacional de Cinema de Veneza"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Painel solar",
+        "descricao": "Equipamento com células fotovoltaicas que converte luz solar em eletricidade.",
+        "variantes": [
+          "Painel fotovoltaico",
+          "Placa solar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luz_solar",
+          "nome": "Luz solar",
+          "descricao": "Radiação emitida pelo Sol que chega à Terra.",
+          "variantes": [
+            "Luz do Sol",
+            "Sunlight"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "guarda_chuva",
+          "nome": "Guarda-chuva",
+          "descricao": "Cobertura dobrável sustentada por varetas e um cabo, usada para proteger da chuva ou do sol.",
+          "variantes": [
+            "Sombrinha",
+            "Umbrella",
+            "Parasol"
+          ]
+        },
+        {
+          "id": "eclipse_solar",
+          "nome": "Eclipse solar",
+          "descricao": "Fenômeno em que a Lua passa entre a Terra e o Sol e encobre o Sol total ou parcialmente.",
+          "variantes": [
+            "Eclipse do Sol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Barômetro",
+        "descricao": "Instrumento científico que mede a pressão atmosférica, usado na previsão do tempo.",
+        "variantes": [
+          "Barometer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome"
+          ]
+        },
+        {
+          "id": "baleia_jubarte",
+          "nome": "Baleia-jubarte",
+          "descricao": "Grande baleia migratória da espécie Megaptera novaeangliae.",
+          "variantes": [
+            "Jubarte",
+            "Megaptera novaeangliae",
+            "Humpback whale"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode"
+          ]
+        },
+        {
+          "id": "romario",
+          "nome": "Romário",
+          "descricao": "Ex-atacante brasileiro, nascido em 1966, campeão mundial em 1994 e depois político, senador pelo Rio de Janeiro.",
+          "variantes": [
+            "Romário de Souza Faria"
+          ]
+        },
+        {
+          "id": "bateria",
+          "nome": "Bateria",
+          "descricao": "Instrumento musical de percussão formado por tambores e pratos tocados por um único músico.",
+          "variantes": [
+            "Bateria acústica",
+            "Drum kit"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Tubo de Crookes",
+        "descricao": "Tubo de descarga com vácuo parcial e dois eletrodos, em que foram descobertos os raios catódicos.",
+        "variantes": [
+          "Crookes tube",
+          "Tubo de Crookes-Hittorf"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bolo_de_rolo",
+          "nome": "Bolo de rolo",
+          "descricao": "Bolo de camadas finíssimas de massa enroladas com goiabada, típico do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três"
+          ]
+        },
+        {
+          "id": "cubo_magico",
+          "nome": "Cubo mágico",
+          "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+          "variantes": [
+            "Cubo de Rubik",
+            "Rubik's Cube"
+          ]
+        },
+        {
+          "id": "metro_de_londres",
+          "nome": "Metrô de Londres",
+          "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+          "variantes": [
+            "London Underground",
+            "The Tube"
+          ]
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ábaco",
+        "descricao": "Instrumento manual de cálculo com contas que deslizam em hastes dentro de uma moldura.",
+        "variantes": [
+          "Abacus",
+          "Soroban",
+          "Schoty"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "abaco",
+          "nome": "Ábaco",
+          "descricao": "Instrumento manual de cálculo formado por uma moldura com hastes e contas deslizantes.",
+          "variantes": [
+            "Abacus",
+            "Soroban",
+            "Schoty"
+          ]
+        },
+        {
+          "id": "american_basketball_association",
+          "nome": "American Basketball Association",
+          "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976.",
+          "variantes": [
+            "ABA"
+          ]
+        },
+        {
+          "id": "sporran",
+          "nome": "Sporran",
+          "descricao": "Bolsa tradicional escocesa de couro ou pele, usada pendurada na frente da cintura, que serve de bolso para o kilt.",
+          "variantes": [
+            "Sporrão"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Máquina Enigma",
+        "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial.",
+        "variantes": [
+          "Enigma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jenga",
+          "nome": "Jenga",
+          "descricao": "Jogo de habilidade em que se retiram blocos de madeira de uma torre e se recolocam no topo sem derrubá-la.",
+          "variantes": []
+        },
+        {
+          "id": "macunaima_filme",
+          "nome": "Macunaíma (filme)",
+          "descricao": "Filme brasileiro de 1969 dirigido por Joaquim Pedro de Andrade, baseado no livro de Mário de Andrade.",
+          "variantes": [
+            "Macunaima"
+          ]
+        },
+        {
+          "id": "mauna_kea",
+          "nome": "Mauna Kea",
+          "descricao": "Vulcão adormecido na ilha do Havaí, nos Estados Unidos, cuja base fica no fundo do Oceano Pacífico.",
+          "variantes": []
+        },
+        {
+          "id": "mecanismo_de_anticitera",
+          "nome": "Mecanismo de Anticítera",
+          "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+          "variantes": [
+            "Máquina de Anticítera",
+            "Antikythera mechanism"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Tear de Jacquard",
+        "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+        "variantes": [
+          "Máquina de Jacquard",
+          "Jacquard loom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pascalina",
+          "nome": "Pascalina",
+          "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+          "variantes": [
+            "Máquina de Pascal",
+            "Calculadora de Pascal",
+            "Pascaline"
+          ]
+        },
+        {
+          "id": "mecanismo_de_anticitera",
+          "nome": "Mecanismo de Anticítera",
+          "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+          "variantes": [
+            "Máquina de Anticítera",
+            "Antikythera mechanism"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "maquina_de_escrever",
+          "nome": "Máquina de escrever",
+          "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+          "variantes": [
+            "Typewriter"
+          ]
+        },
+        {
+          "id": "maquina_de_lavar_louca",
+          "nome": "Máquina de lavar louça",
+          "descricao": "Eletrodoméstico que lava pratos e utensílios, patenteado pela americana Josephine Cochrane em 1886.",
+          "variantes": [
+            "Lava-louças",
+            "Dishwasher"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é turbina eólica."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é transistor."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Brinquedo térmico diferente do logotipo do Twitter."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "maquina_de_escrever",
+      "motivo": "Mesma máquina, descrições equivalentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é moinho de vento."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Motor Stirling difere do motor a diesel."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Painel solar difere de luz solar e eclipse solar."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é barômetro."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é tubo de Crookes."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "abaco",
+      "motivo": "Mesmo instrumento, mesmas variantes."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Enigma é distinta do Mecanismo de Anticítera."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Tear de Jacquard não está entre as candidatas."
+    }
+  ]
+}
