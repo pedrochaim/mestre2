@@ -1,0 +1,183 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bulbos e dentes de alho, claros e inconfundíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tempero é este?",
+      "resposta": "Alho",
+      "destino": 0,
+      "ancora": {
+        "nome": "Alho",
+        "descricao": "Planta bulbosa Allium sativum, cujos bulbos de dentes são usados como tempero.",
+        "variantes": [
+          "Allium sativum"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Kiwis inteiros e cortados, bem nítidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Kiwi",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kiwi",
+        "descricao": "Fruta peluda de polpa verde com sementes pretas, do gênero Actinidia.",
+        "variantes": [
+          "Quivi",
+          "Actinidia deliciosa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Só uma flor peluda; não é reconhecível pela imagem e a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Inflorescência esférica branca que pode ser confundida com alho, alho-poró ou cebolinha; não reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Flor de maracujá nítida e característica; marca d'água pequena não revela a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que fruta nasce desta flor?",
+      "resposta": "Maracujá",
+      "destino": 0,
+      "ancora": {
+        "nome": "Maracujá",
+        "descricao": "Fruta da trepadeira Passiflora edulis, nativa do sul do Brasil, cuja flor é muito característica.",
+        "variantes": [
+          "Passiflora edulis",
+          "Maracujá-azedo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fruto de escamas arredondadas na árvore, reconhecível; múltipla escolha para ser justo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta, pendurada na árvore?",
+      "resposta": "Fruta-do-conde",
+      "distratores": [
+        "Graviola",
+        "Jaca",
+        "Lichia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Fruta-do-conde",
+        "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+        "variantes": [
+          "Pinha",
+          "Ata",
+          "Annona squamosa"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano num mercado, inclusive um bebê."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Abacates escuros pendurados na árvore, nítidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Abacate",
+      "destino": 0,
+      "ancora": {
+        "nome": "Abacate",
+        "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+        "variantes": [
+          "Persea americana"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fruto espinhoso verde na árvore, característico da graviola.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Graviola",
+      "distratores": [
+        "Fruta-do-conde",
+        "Jaca",
+        "Durião"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Graviola",
+        "descricao": "Fruto da Annona muricata, verde, com espinhos moles e polpa branca cremosa.",
+        "variantes": [
+          "Annona muricata"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Laranja inteira, cortada e gomo, nítida.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta fruta é um híbrido entre o pomelo e qual outra fruta?",
+      "resposta": "Tangerina",
+      "destino": 0,
+      "ancora": {
+        "nome": "Laranja",
+        "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+        "variantes": [
+          "Laranja-doce",
+          "Citrus sinensis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Jaca grande pendurada no tronco, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Jaca",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jaca",
+        "descricao": "Enorme fruto da Artocarpus heterophyllus, nativa da Índia, que cresce no tronco da árvore.",
+        "variantes": [
+          "Artocarpus heterophyllus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A legenda impressa com o nome científico e 'Mangies' aparece na gravura e entrega a resposta."
+    }
+  ]
+}

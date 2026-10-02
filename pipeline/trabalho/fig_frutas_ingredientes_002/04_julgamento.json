@@ -1,0 +1,512 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Alho",
+        "descricao": "Planta bulbosa Allium sativum, cujos bulbos de dentes são usados como tempero.",
+        "variantes": [
+          "Allium sativum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carta_de_baralho",
+          "nome": "Carta de baralho",
+          "descricao": "Cartão de papel ou plástico com figuras e números usado em jogos de cartas.",
+          "variantes": [
+            "Playing card",
+            "Baralho"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "palio",
+          "nome": "Palio",
+          "descricao": "Corrida de cavalos montados em pelo, disputada entre os bairros de uma cidade da Toscana na praça central.",
+          "variantes": [
+            "Palio di Siena"
+          ]
+        },
+        {
+          "id": "jotalhao",
+          "nome": "Jotalhão",
+          "descricao": "Elefante verde da Turma da Mata, nos quadrinhos de Mauricio de Sousa.",
+          "variantes": []
+        },
+        {
+          "id": "arquipelago_de_abrolhos",
+          "nome": "Arquipélago de Abrolhos",
+          "descricao": "Arquipélago no litoral sul da Bahia, sede do primeiro parque nacional marinho do Brasil.",
+          "variantes": [
+            "Abrolhos",
+            "Abrolhos Archipelago",
+            "Arquipélago dos Abrolhos",
+            "Parque Nacional Marinho dos Abrolhos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kiwi",
+        "descricao": "Fruta peluda de polpa verde com sementes pretas, do gênero Actinidia.",
+        "variantes": [
+          "Quivi",
+          "Actinidia deliciosa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kiwi",
+          "nome": "Kiwi",
+          "descricao": "Ave não voadora e noturna da Nova Zelândia, do gênero Apteryx, de bico longo e fino.",
+          "variantes": [
+            "Apteryx",
+            "Quivi"
+          ]
+        },
+        {
+          "id": "kiwi_2",
+          "nome": "Kiwi",
+          "descricao": "Fruto comestível de trepadeiras do gênero Actinidia, nativo da China",
+          "variantes": [
+            "Kiwifruit",
+            "Actinidia deliciosa",
+            "groselha-chinesa"
+          ]
+        },
+        {
+          "id": "quindim",
+          "nome": "Quindim",
+          "descricao": "Doce brasileiro assado, amarelo e brilhante, de herança portuguesa",
+          "variantes": []
+        },
+        {
+          "id": "biquini",
+          "nome": "Biquíni",
+          "descricao": "Traje de banho feminino de duas peças lançado pelo francês Louis Réard em 1946.",
+          "variantes": [
+            "Bikini"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Maracujá",
+        "descricao": "Fruta da trepadeira Passiflora edulis, nativa do sul do Brasil, cuja flor é muito característica.",
+        "variantes": [
+          "Passiflora edulis",
+          "Maracujá-azedo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maracuja",
+          "nome": "Maracujá",
+          "descricao": "Fruto das trepadeiras do gênero Passiflora, cujas flores são chamadas de flor-da-paixão",
+          "variantes": [
+            "Passiflora",
+            "flor-da-paixão",
+            "passion fruit",
+            "maracujazeiro"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "maracanazo",
+          "nome": "Maracanazo",
+          "descricao": "Vitória do Uruguai sobre o Brasil por 2 a 1 no Maracanã, em 16 de julho de 1950, que decidiu a Copa do Mundo daquele ano.",
+          "variantes": [
+            "Maracanaço",
+            "Uruguai 2 x 1 Brasil"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        },
+        {
+          "id": "maracanazinho",
+          "nome": "Maracanãzinho",
+          "descricao": "Ginásio poliesportivo vizinho ao estádio do Maracanã, no Rio de Janeiro, palco tradicional do vôlei.",
+          "variantes": [
+            "Ginásio Gilberto Cardoso"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Fruta-do-conde",
+        "descricao": "Fruto da Annona squamosa, de casca com saliências arredondadas e polpa doce.",
+        "variantes": [
+          "Pinha",
+          "Ata",
+          "Annona squamosa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "sauva",
+          "nome": "Saúva",
+          "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro.",
+          "variantes": [
+            "Atta",
+            "formiga-cortadeira",
+            "leafcutter ant"
+          ]
+        },
+        {
+          "id": "pinata",
+          "nome": "Piñata",
+          "descricao": "Recipiente enfeitado e cheio de doces que as crianças quebram de olhos vendados em festas mexicanas e latino-americanas.",
+          "variantes": [
+            "Pinhata",
+            "Pignatta"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "vinicius_de_moraes",
+          "nome": "Vinicius de Moraes",
+          "descricao": "Poeta, compositor e diplomata carioca, parceiro de Tom Jobim na bossa nova.",
+          "variantes": [
+            "Poetinha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Abacate",
+        "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+        "variantes": [
+          "Persea americana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "colhereiro",
+          "nome": "Colhereiro",
+          "descricao": "Ave pernalta rosada, de bico em forma de colher, da família dos íbis, nas Américas.",
+          "variantes": [
+            "Colhereiro-americano",
+            "Platalea ajaja",
+            "Roseate spoonbill"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Graviola",
+        "descricao": "Fruto da Annona muricata, verde, com espinhos moles e polpa branca cremosa.",
+        "variantes": [
+          "Annona muricata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gorila",
+          "nome": "Gorila",
+          "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+          "variantes": [
+            "Gorila-ocidental",
+            "Gorilla gorilla",
+            "Western gorilla"
+          ]
+        },
+        {
+          "id": "variola",
+          "nome": "Varíola",
+          "descricao": "Doença infecciosa causada pelo vírus variola, erradicada após campanha mundial de vacinação.",
+          "variantes": [
+            "Smallpox",
+            "Bexiga"
+          ]
+        },
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate"
+          ]
+        },
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "brasilia",
+          "nome": "Brasília",
+          "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+          "variantes": [
+            "Plano Piloto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Laranja",
+        "descricao": "Fruta cítrica Citrus × sinensis, híbrido de pomelo e tangerina, de casca e polpa alaranjadas.",
+        "variantes": [
+          "Laranja-doce",
+          "Citrus sinensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        },
+        {
+          "id": "lasanha",
+          "nome": "Lasanha",
+          "descricao": "Prato italiano de massa em folhas largas, montado em camadas com recheios e molho e assado.",
+          "variantes": [
+            "Lasagna",
+            "Lasagne"
+          ]
+        },
+        {
+          "id": "lacraia",
+          "nome": "Lacraia",
+          "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+          "variantes": [
+            "Centopeia",
+            "Quilópode",
+            "Chilopoda"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Jaca",
+        "descricao": "Enorme fruto da Artocarpus heterophyllus, nativa da Índia, que cresce no tronco da árvore.",
+        "variantes": [
+          "Artocarpus heterophyllus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jeca_tatu",
+          "nome": "Jeca Tatu",
+          "descricao": "Personagem caipira da literatura brasileira, levado ao cinema por Amácio Mazzaropi.",
+          "variantes": [
+            "Jeca"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "java",
+          "nome": "Java",
+          "descricao": "Ilha da Indonésia onde fica a capital Jacarta, tradicional produtora de café.",
+          "variantes": [
+            "Jawa",
+            "Ilha de Java"
+          ]
+        },
+        {
+          "id": "jamaica",
+          "nome": "Jamaica",
+          "descricao": "País insular do Caribe, terceira maior ilha das Grandes Antilhas, cuja capital é Kingston.",
+          "variantes": []
+        },
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é alho."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "kiwi_2",
+      "motivo": "Mesma fruta Actinidia; a candidata 'kiwi' é a ave."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "maracuja",
+      "motivo": "Fruto de Passiflora, mesma entidade (maracujá)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fruta-do-conde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Abacate não consta; abacaxi é outra fruta."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é graviola."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é laranja."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é jaca."
+    }
+  ]
+}

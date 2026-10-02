@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Kiwi"
+      },
+      "existentes": [
+        {
+          "id": "q02655",
+          "pergunta": "Antes de receber o nome de uma ave da Nova Zelândia, a fruta kiwi era vendida como groselha de qual país?",
+          "resposta": "China"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que fruta nasce desta flor?",
+        "resposta": "Maracujá"
+      },
+      "existentes": [
+        {
+          "id": "q02654",
+          "pergunta": "Missionários espanhóis chamaram a flor do maracujá de flor-da-paixão porque viram nela símbolos de qual episódio cristão?",
+          "resposta": "A crucificação de Jesus"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede para identificar a fruta pela imagem (kiwi); a existente pergunta o antigo nome de venda (groselha chinesa). Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a fruta que nasce da flor (maracujá); a existente pergunta o simbolismo religioso da flor. Fatos diferentes."
+    }
+  ]
+}
