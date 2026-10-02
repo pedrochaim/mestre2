@@ -954,6 +954,12 @@ status: "ativo"
 3. “Qual destas organizações é a mais diretamente associada a **caçar e capturar os bijū**?\nA) Akatsuki\nB) ANBU\nC) Polícia Militar Uchiha\nD) Sete Espadachins da Névoa”
 4. “Qual destes é um **jutsu de alto nível** ligado ao Rinnegan?\nA) Chibaku Tensei\nB) Rasengan\nC) Chidori\nD) Kage Bunshin no Jutsu”
 
+**C) Verdadeiro/Falso (4)**
+
+1. “O mangá *Naruto* foi serializado na *Weekly Shōnen Jump* por cerca de 15 anos.” (V/F) ([Wikipedia][3])
+2. “Akatsuki tem como objetivo capturar os bijū.” (V/F)
+3. “Neste microsubtema, revelar a identidade de Tobi é permitido.” (V/F)
+4. “Perguntas devem evitar depender de opinião (‘melhor luta’).” (V/F)
 
 ### Checklist
 
@@ -1029,6 +1035,13 @@ status: "ativo"
 2. “Qual é o nome civil do almirante conhecido como **Akainu**?\nA) Sakazuki\nB) Borsalino\nC) Kuzan\nD) Issho”
 3. “Qual é a **verdadeira natureza** da fruta do Luffy revelada mais tarde (spoiler)?\nA) Hito Hito no Mi, Modelo: Nika\nB) Gomu Gomu no Mi\nC) Yami Yami no Mi\nD) Uo Uo no Mi, Modelo: Seiryu”
 4. “Qual destes itens está ligado à **localização de Laugh Tale** (spoiler estrutural)?\nA) Road Poneglyphs\nB) Vivre Card\nC) Den Den Mushi\nD) Dials”
+
+**C) Verdadeiro/Falso (4)**
+
+1. “*One Piece* é serializado na *Weekly Shōnen Jump* desde 1997.” (V/F) ([Wikipedia][5])
+2. “Haki possui três tipos clássicos: observação, armamento e ‘do rei’.” (V/F)
+3. “Neste microsubtema, spoilers de arcos concluídos são permitidos.” (V/F)
+4. “Perguntas devem evitar atualidades semanais e hype passageiro.” (V/F)
 
 ### Checklist
 

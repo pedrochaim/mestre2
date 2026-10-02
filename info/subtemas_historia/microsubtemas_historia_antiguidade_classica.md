@@ -1,8 +1,10 @@
-Feito: **removi todas as seções de Verdadeiro/Falso** e **excluí os microsubtemas 7, 8 e 10**. Abaixo ficam apenas **1–6 e 9** (mantive os `*_clean` originais).
+Vou desenvolver os **10 microsubtemas de Antiguidade Clássica** no mesmo padrão que usei antes.
 
 ---
 
-## 1) Formação do mundo mediterrânico clássico: gregos, fenícios e itálicos — `formacao_do_mundo_mediterranico_classico`
+## 1) Formação do mundo mediterrânico clássico: gregos, fenícios e itálicos
+
+`formacao_do_mundo_mediterranico_classico`
 
 ```yaml
 ---
@@ -27,76 +29,82 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Formação de **redes mediterrânicas** (IX–V a.C., em linhas gerais): colonizações, entrepostos, rotas, difusão de técnicas e alfabetos, e contatos entre gregos, fenícios/cartagineses, etruscos e outros itálicos. O foco é o **mundo de conexões**, não a narrativa total de um povo.
+Foca a formação do “mundo mediterrânico clássico” antes da hegemonia romana, com ênfase nas interações entre gregos, fenícios, etruscos e outros povos itálicos. Trata de colonização, redes comerciais, circulação de técnicas, alfabetos e formas políticas que criam um espaço mediterrânico integrado.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Colonização grega: Magna Grécia/Sicília; Ásia Menor; Mar Negro; redes entre metrópoles e colônias.
-* Expansão fenícia: cidades do Levante; Cartago; entrepostos no Mediterrâneo ocidental.
-* Etruscos e itálicos: cidades etruscas e sua influência na Itália central; contatos com gregos e fenícios.
-* Trocas: cerâmica, metais, vinho/azeite, itens de prestígio e escravizados como componente histórico.
-* Escritas/alfabetos: fenício → adaptações gregas → etrusco (efeitos culturais amplos).
-* Urbanização e organização cívica: consolidação de centros urbanos e identidades locais.
+* Colonização grega (póleis e colônias na Magna Grécia, Ásia Menor, Mar Negro etc.).
+* Expansão fenícia (Tiro, Sidon, Cartago, entrepostos no Mediterrâneo ocidental).
+* Povos itálicos e etruscos (cidades etruscas, influência sobre Roma arcaica).
+* Circulação de bens (metais, vinho, azeite, cerâmica, escravos).
+* Difusão de alfabetos (fenício, adaptações gregas, etrusca).
+* Primeiras formas de organização urbana e política no Mediterrâneo.
 
 **Exclusões**
 
-* História completa de Atenas/Esparta na fase clássica madura.
-* Guerras Púnicas e Roma imperial (no máximo como limite contextual).
-* Alexandre e helenismo (microsubtema próprio).
-* Cronologia minuciosa ano a ano.
+* História “completa” de Roma ou Grécia já em sua fase clássica madura (isso é recorte de outros subtemas).
+* Guerras Púnicas e fase imperial romana (tratadas noutros recortes).
+* Detalhes da conquista de Alexandre (entrará no microsubtema helenístico).
 
-### Matriz de variação
+**Referências (exemplos)**
 
-* **Atores**: gregos | fenícios/cartagineses | etruscos | outros itálicos.
-* **Processos**: fundação | entreposto/rota | difusão de escrita | circulação técnica/artística | urbanização.
-* **Espaço**: Mediterrâneo oriental | central | ocidental | Mar Negro.
-* **Objetos**: cerâmica | metais | vinho/azeite | itens de prestígio | alfabetos.
-* **Tempo (macro)**: IX–VIII | VII–VI | V a.C.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Como se chama a região do sul da Itália e Sicília com forte presença de colônias gregas, conhecida como “Grande Grécia”?
-2. Qual cidade fenícia do norte da África tornou-se potência marítima no Mediterrâneo ocidental antes do domínio romano?
-3. Qual povo da Itália central é frequentemente associado a influências sobre a Roma arcaica?
-4. Qual tradição de escrita do Levante é frequentemente indicada como base para adaptações que influenciaram o alfabeto grego?
-
-**Múltipla escolha (4)**
-
-1. Os fenícios são particularmente conhecidos por:
-   (a) evitar o mar e o comércio
-   (b) intensa atividade marítima e difusão de um alfabeto consonantal
-   (c) conquistar a Índia e a China
-   (d) fundar o Império Inca
-2. “Magna Graecia” refere-se principalmente a:
-   (a) colônias gregas no sul da Itália e na Sicília
-   (b) colônias romanas na Germânia
-   (c) cidades persas no planalto iraniano
-   (d) portos egípcios no Mar Vermelho
-3. Um **entreposto** antigo é melhor descrito como:
-   (a) uma capital imperial tardia
-   (b) ponto costeiro de comércio e circulação de mercadorias e pessoas
-   (c) uma mina no interior sem ligação marítima
-   (d) um quartel militar sem civis nem trocas
-4. Um efeito cultural típico de redes de contato no Mediterrâneo arcaico foi:
-   (a) proibição universal de navegação
-   (b) circulação de técnicas e adaptações de alfabetos
-   (c) desaparecimento total das cidades
-   (d) adoção imediata do cristianismo
-
-### Checklist
-
-* [ ] Foco em **interações** (não “história total” de um povo).
-* [ ] Evita avançar para Guerras Púnicas/Roma imperial como assunto central.
-* [ ] Diversidade real de atores e regiões.
-* [ ] Escrita/alfabetos como **difusão e adaptação** (sem tecnicismo excessivo).
+* “Greek colonisation”, “Phoenicians”, “Etruscan civilization”, “Magna Graecia”.
 
 ---
 
-## 2) Mundo helenístico: reinos sucessores de Alexandre e circulação cultural — `mundo_helenistico_reinos_sucessores_e_circulacao_cultural`
+### Matriz de variação
+
+* **Povo / tradição**: gregos, fenícios, etruscos, outros itálicos.
+* **Espaço**: Mediterrâneo oriental, central, ocidental; Magna Grécia; costa norte da África.
+* **Tema**: colonização, comércio, cidade, escrita, religião e arte compartilhadas.
+* **Tempo**: séculos IX–V a.C. (em linhas gerais).
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Como se chama a região da península Itálica onde se concentraram muitas colônias gregas, conhecida como “Grande Grécia”?
+2. Qual cidade fenícia do norte da África se tornou grande potência marítima e comercial no Mediterrâneo ocidental, antes do domínio romano?
+
+**Múltipla escolha**
+
+1. Os fenícios são particularmente conhecidos por:
+   (a) terem inventado o papel-moeda
+   (b) intensa atividade marítima e comercial e difusão de um alfabeto consonantal
+   (c) terem conquistado o Império Persa
+   (d) fundarem o Império Inca
+
+2. Os etruscos influenciaram especialmente:
+   (a) a formação inicial de Roma em aspectos religiosos, arquitetônicos e políticos
+   (b) apenas cidades gregas da Ásia Menor
+   (c) o Egito faraônico
+   (d) os reinos da Índia antiga
+
+**Verdadeiro/Falso**
+
+1. ( ) A colonização grega criou uma rede de cidades ao longo do Mediterrâneo e do Mar Negro, ligadas por cultura e comércio.
+2. ( ) O Mediterrâneo clássico era formado por sociedades isoladas, sem trocas significativas entre si.
+
+---
+
+### Checklist
+
+* Destacar o **caráter relacional**: não é “história de um povo só”.
+* Evitar entrar em detalhes de guerras clássicas (Guerras Púnicas, Médicas).
+* Incluir temas de **colonização, comércio, escrita e urbanização**.
+* Manter foco em fase **pré-hegemonia romana plena**.
+
+---
+
+## 2) Mundo helenístico: reinos sucessores de Alexandre e circulação cultural
+
+`mundo_helenistico_reinos_sucessores_e_circulacao_cultural`
 
 ```yaml
 ---
@@ -121,74 +129,81 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Período após Alexandre: divisão do império, reinos sucessores, cidades cosmopolitas e circulação de pessoas, bens e ideias, com contatos entre cultura grega e tradições locais até a progressiva interferência/absorção por Roma.
+Aborda o mundo helenístico após a morte de Alexandre: divisão do império entre sucessores, formação de grandes reinos, cidades cosmopolitas e circulação de pessoas, bens e ideias entre Mediterrâneo, Oriente Próximo e partes da Ásia.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Diádocos e reinos: ptolomaico, selêucida, antigônida (e outros estados helenísticos relevantes).
-* Cidades-chave: Alexandria, Antioquia, Pérgamo (e afins).
-* Urbanização/fundações de cidades e póleis helenísticas em regiões não gregas.
-* Centros de saber: bibliotecas, museus, escolas e patronagem.
-* Contatos culturais e sincretismos (Egito, Levante, Mesopotâmia, Judeia etc.).
-* Relação com Roma como contexto gradual.
+* Guerras dos sucessores e formação dos principais reinos (ptolomaico, selêucida, antigônida, entre outros).
+* Papel de cidades como Alexandria, Antioquia, Pérgamo.
+* Urbanização, fundação de póleis helenísticas em regiões não gregas.
+* Circulação de cultura grega e interações com tradições locais (Egito, Pérsia, Judeia etc.).
+* Desenvolvimento de centros de saber (bibliotecas, museus, escolas filosóficas).
+* Relação gradativa com a expansão romana.
 
 **Exclusões**
 
-* Campanhas de Alexandre em detalhe.
-* Narrativa longa de Roma republicana/imperial.
-* Teologia cristã.
+* Conquista de Alexandre em si (tratada em outros recortes).
+* Longa narrativa da República/Império romano – aqui só como contexto.
+* História religiosa cristã detalhada (fica mais para Antiguidade Tardia).
 
-### Matriz de variação
+**Referências (exemplos)**
 
-* **Reino**: ptolomaico | selêucida | antigônida | outros.
-* **Cidade**: Alexandria | Antioquia | Pérgamo | portos e capitais.
-* **Tema**: legitimação dinástica | urbanização | cultura/idioma | ciência | economia | diplomacia.
-* **Interação**: grego + egípcio | grego + mesopotâmico | grego + judaico etc.
-* **Tempo (macro)**: IV–I a.C.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual cidade fundada por Alexandre no Egito se tornou um grande centro cultural do mundo helenístico?
-2. Como se chamava o reino helenístico governado pela dinastia de Ptolomeu no Egito?
-3. Qual grande reino helenístico associado à dinastia selêucida dominou regiões como Síria e Mesopotâmia em boa parte de sua história?
-4. Como é chamado, de modo geral, o período marcado por reinos gregos fora da Grécia e intensos contatos culturais após Alexandre?
-
-**Múltipla escolha (4)**
-
-1. Uma característica recorrente do mundo helenístico é:
-   (a) isolamento total entre gregos e povos locais
-   (b) circulação e contato entre tradições gregas e locais em diversas regiões
-   (c) desaparecimento das cidades
-   (d) fim completo da escrita
-2. A dinastia ptolomaica governou principalmente:
-   (a) a Britânia
-   (b) o Egito
-   (c) a Itália
-   (d) a Germânia
-3. A “Biblioteca de Alexandria” é mais associada a:
-   (a) um centro de erudição e coleção de textos no helenismo
-   (b) um anfiteatro romano
-   (c) um palácio persa em Persépolis
-   (d) um templo medieval
-4. Entre cidades helenísticas importantes no Mediterrâneo oriental, podemos citar:
-   (a) Antioquia
-   (b) Tenochtitlán
-   (c) Machu Picchu
-   (d) Kyoto
-
-### Checklist
-
-* [ ] Reinos sucessores + cidades + circulação cultural como núcleo.
-* [ ] Roma aparece como **pressão gradual**, não protagonista.
-* [ ] Interações com tradições locais aparecem de forma concreta.
+* “Hellenistic period”, “Ptolemaic Kingdom”, “Seleucid Empire”, “Alexandria”.
 
 ---
 
-## 3) Cidades, cidadania e instituições políticas na Antiguidade Clássica — `cidades_cidadania_e_instituicoes_politicas_na_antiguidade_classica`
+### Matriz de variação
+
+* **Reino**: ptolomaico, selêucida, macedônico/antigônida, outros.
+* **Espaço**: Egito, Mesopotâmia/Síria, Ásia Menor, Mediterrâneo oriental.
+* **Tema**: cidades, cultura, política, exército, economia, ciência.
+* **Tempo**: de cerca da morte de Alexandre ao domínio romano (séculos IV–I a.C.).
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Qual cidade, fundada por Alexandre no Egito, se tornou um dos principais centros culturais e urbanos do mundo helenístico?
+2. Como se chamava o reino helenístico fundado por Ptolomeu e seus sucessores no Egito?
+
+**Múltipla escolha**
+
+1. O mundo helenístico caracteriza-se, entre outras coisas, por:
+   (a) isolamento total das culturas gregas em relação ao Oriente
+   (b) fusão e contato entre tradições gregas e locais em vastas regiões do Mediterrâneo e do Oriente Próximo
+   (c) reconstrução do Império Romano
+   (d) desaparecimento das cidades
+
+2. O Império Selêucida dominava, em boa parte de sua história:
+   (a) regiões da Síria e Mesopotâmia
+   (b) apenas a Itália peninsular
+   (c) a Bretanha e a Germânia
+   (d) o Japão e a China
+
+**Verdadeiro/Falso**
+
+1. ( ) No período helenístico, cidades como Alexandria abrigavam bibliotecas e instituições dedicadas ao estudo.
+2. ( ) As culturas locais permaneceram totalmente intocadas pela presença grega durante o período helenístico.
+
+---
+
+### Checklist
+
+* Garantir foco em **reinos sucessores e circulação cultural**, não em Roma imperial.
+* Incluir aspectos políticos, culturais e urbanos.
+* Evitar reduzir o helenismo a “Grécia fora da Grécia” sem mencionar as interações com populações locais.
+
+---
+
+## 3) Cidades, cidadania e instituições políticas na Antiguidade Clássica
+
+`cidades_cidadania_e_instituicoes_politicas_na_antiguidade_classica`
 
 ```yaml
 ---
@@ -213,72 +228,79 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Cidade como núcleo político: instituições e cidadania em pólis gregas e em Roma (República e Império), destacando participação, exclusões, estatutos jurídicos e integração de cidades no domínio romano.
+Analisa a cidade como núcleo político na Antiguidade Clássica e as diferentes formas de cidadania e instituições políticas em contextos gregos e romanos. Compara assembleias, conselhos, magistraturas, Senado, formas de participação e exclusão.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Pólis: assembleias, conselhos, magistraturas; variações (Atenas/Esparta como referência).
-* Cidadania grega: critérios e exclusões (mulheres, escravizados, metecos).
-* República romana: comícios, Senado, magistraturas; tribunos da plebe.
-* Cidadania romana: direitos/deveres; concessões e expansão do status.
-* Cidades no Império: colônia, município, autonomia local e integração imperial.
+* Pólis grega: assembleias de cidadãos, bulé, magistrados, variações entre Atenas, Esparta etc.
+* Cidadania grega: quem participa, quem é excluído (mulheres, escravos, metecos).
+* República romana: comícios, Senado, magistraturas (cônsules, pretores, tribunos etc.).
+* Cidades do Império romano: estatutos diferentes (municipium, colônia), concessão de cidadania.
+* Relações entre cidade e campo; autonomia local vs. impérios.
 
 **Exclusões**
 
-* Filosofia política abstrata em profundidade.
-* História militar detalhada.
+* Filosofia política abstrata (Platão, Aristóteles) em profundidade – entra em outro subtema.
+* História militar detalhada de guerras específicas.
 
-### Matriz de variação
+**Referências (exemplos)**
 
-* **Modelo**: pólis | República romana | cidade provincial.
-* **Instituição**: assembleia | conselho | magistraturas | Senado | comícios | tribunato.
-* **Status**: cidadão | mulher | escravizado | estrangeiro residente | liberto | elite.
-* **Direitos/deveres**: voto | magistraturas | serviço militar | impostos | patronagem.
-* **Tempo (macro)**: clássico grego → Roma republicana/alto império.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Como se chama a assembleia de cidadãos em Atenas que deliberava sobre leis e decisões políticas?
-2. Qual instituição romana reunia membros da elite e exercia grande influência política durante a República?
-3. Como eram chamados os estrangeiros residentes em Atenas sem cidadania plena?
-4. Que magistratura romana era conhecida pelo poder de veto em defesa da plebe?
-
-**Múltipla escolha (4)**
-
-1. Em muitas pólis, “cidadania” costumava estar ligada a:
-   (a) qualquer residente, inclusive escravizados
-   (b) homens livres com critérios cívicos, excluindo mulheres, escravizados e estrangeiros
-   (c) apenas mercadores estrangeiros
-   (d) apenas sacerdotes
-2. O Senado romano, na República, era:
-   (a) um conselho de elite com grande peso político
-   (b) uma assembleia aberta a todos
-   (c) um tribunal medieval
-   (d) uma guilda comercial moderna
-3. Os tribunos da plebe:
-   (a) representavam apenas escravizados
-   (b) eram magistrados com poder de veto para proteger plebeus
-   (c) comandavam frotas no Mar Negro
-   (d) eram reis hereditários
-4. “Colônia” no mundo romano costuma indicar:
-   (a) fundação urbana com estatuto ligado a Roma e seus colonos
-   (b) cidade sem vínculo jurídico com Roma
-   (c) aldeia nômade sem administração
-   (d) ilha artificial moderna
-
-### Checklist
-
-* [ ] Instituições concretas (não “ideias abstratas”).
-* [ ] Exclusões internas à cidadania bem marcadas.
-* [ ] Evita equivalência automática com democracia moderna.
+* “Polis”, “Athenian democracy”, “Roman Republic”, “Roman citizenship”.
 
 ---
 
-## 4) Religião e cultos no Mediterrâneo clássico: deuses, ritos e cultos mistéricos — `religiao_e_cultos_no_mediterraneo_classico`
+### Matriz de variação
+
+* **Modelo**: pólis, república romana, cidades imperiais.
+* **Papel**: cidadão, escravo, mulher, estrangeiro, liberto.
+* **Tema**: assembleias, conselhos, magistraturas, direitos e deveres.
+* **Tempo**: do período clássico grego à Roma republicana/alto império.
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Como se chama a assembleia de cidadãos que, em Atenas, deliberava sobre leis e decisões políticas?
+2. Qual instituição romana reunia membros da elite e tinha papel central na política da República, exercendo grande influência sobre decisões públicas?
+
+**Múltipla escolha**
+
+1. Em muitas pólis gregas, “cidadania” estava ligada a:
+   (a) qualquer pessoa que residisse na cidade, inclusive escravos
+   (b) homens livres, descendentes de cidadãos, com exclusão de mulheres, escravos e estrangeiros
+   (c) apenas comerciantes estrangeiros
+   (d) apenas soldados mercenários
+
+2. Os **tribunos da plebe** em Roma:
+   (a) representavam interesses de escravos
+   (b) eram magistrados com poder de veto para proteger plebeus de abusos de magistrados patricianos
+   (c) comandavam legiões longe da cidade
+   (d) lideravam cultos religiosos orientais
+
+**Verdadeiro/Falso**
+
+1. ( ) Em Atenas, as mulheres não tinham participação direta nas assembleias políticas.
+2. ( ) A cidadania romana nunca foi estendida além da cidade de Roma.
+
+---
+
+### Checklist
+
+* Tratar **instituições concretas**, não apenas ideias abstratas.
+* Mostrar exclusões internas ao conceito de cidadania (gênero, status, origem).
+* Evitar reducionismos como “democracia igual à moderna”.
+
+---
+
+## 4) Religião e cultos no Mediterrâneo clássico: deuses, ritos e cultos mistéricos
+
+`religiao_e_cultos_no_mediterraneo_classico`
 
 ```yaml
 ---
@@ -303,74 +325,80 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Religião como prática social e política: cultos cívicos, oráculos, ritos públicos, cultos mistéricos/iniciáticos e sincretismos no Mediterrâneo greco-romano, incluindo o culto imperial.
+Explora práticas religiosas no Mediterrâneo clássico: panteões greco-romanos, religiões cívicas, oráculos, sacrifícios, festas públicas e cultos mistéricos (Elêusis, Dioniso, Ísis, Mitra) e sincretismos entre deuses de diferentes regiões.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Panteões e equivalências greco-romanas (como repertório cultural).
-* Cultos cívicos: festas, sacrifícios, procissões, templos e sacerdócios.
-* Oráculos (ex.: Delfos).
-* Mistérios: Elêusis; dionisíacos; Ísis; Mitra (nível histórico geral).
-* Sincretismo e adoção de cultos em contextos helenísticos/romanos.
-* Religião e poder: legitimidade, identidade cívica, culto imperial.
+* Deuses olímpicos e seus equivalentes romanos.
+* Cultos cívicos (festivais, sacrifícios, procissões).
+* Oráculos (por exemplo, Delfos).
+* Cultos mistéricos e de iniciação (Elêusis, Dioniso, Ísis, Mitra etc.).
+* Sincretismo religioso em contextos helenísticos e romanos.
+* Relação entre religião e legitimidade política.
 
 **Exclusões**
 
-* Teologia cristã/judaica em profundidade.
-* Debates confessionais; foco histórico-descritivo.
-* Mitologia como “enredo puro” sem conexão com prática ritual.
+* Teologia cristã, judaica ou islâmica em profundidade (mais ligada a Antiguidade Tardia e pós-clássica).
+* Discussões confessionais; o foco é descritivo e histórico.
 
-### Matriz de variação
+**Referências (exemplos)**
 
-* **Tipo**: cívico | doméstico | mistérico | imperial | sincrético.
-* **Divindade/culto**: Zeus/Júpiter | Atena/Minerva | Apolo | Deméter/Perséfone | Dioniso/Baco | Ísis | Mitra.
-* **Espaço**: pólis | Roma | províncias | cidades helenísticas.
-* **Função**: identidade | proteção | cura | legitimidade | promessa pós-morte | coesão.
-* **Tempo (macro)**: clássico | helenístico | romano.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual oráculo grego, associado à sacerdotisa Pítia, era consultado por cidades e indivíduos?
-2. Como se chamam os ritos de iniciação ligados a Deméter e Perséfone realizados em Elêusis?
-3. Qual é o equivalente romano de Zeus?
-4. Como se chama a prática de honras religiosas e políticas ao imperador no contexto do Império Romano?
-
-**Múltipla escolha (4)**
-
-1. O culto imperial romano pode ser entendido como:
-   (a) inexistente
-   (b) prática que reforçava lealdade e integração política por ritos e honras
-   (c) religião monoteísta que aboliu todos os cultos imediatamente
-   (d) rito secreto exclusivo de escravizados
-2. Um culto mistérico é melhor descrito como:
-   (a) culto apenas com leitura de textos sagrados
-   (b) culto com iniciação e elementos reservados, frequentemente com promessas simbólicas/espirituais
-   (c) culto exclusivamente militar estatal
-   (d) culto inventado na era moderna
-3. O oráculo de Delfos está associado principalmente a:
-   (a) Apolo
-   (b) Marte
-   (c) Odin
-   (d) Quetzalcóatl
-4. “Sincretismo” religioso refere-se a:
-   (a) proibição de qualquer culto estrangeiro
-   (b) mistura/identificação e adaptação de divindades e ritos entre tradições
-   (c) fim total dos templos
-   (d) substituição imediata por uma religião única
-
-### Checklist
-
-* [ ] Religião tratada como **prática social** (ritos, instituições, festivais).
-* [ ] Inclui cultos cívicos + mistéricos + sincretismo + culto imperial.
-* [ ] Evita anacronismos (religião “de livro” como regra).
+* “Ancient Greek religion”, “Roman religion”, “Mystery religions”, “Eleusinian Mysteries”.
 
 ---
 
-## 5) Economia, comércio e rotas marítimas no Mediterrâneo antigo — `economia_comercio_e_rotas_maritimas_no_mediterraneo_antigo`
+### Matriz de variação
+
+* **Tipo de culto**: cívico, doméstico, mistérico, imperial.
+* **Deus/entidade**: Zeus/Júpiter, Atena/Minerva, Ísis, Dioniso, Mitra etc.
+* **Espaço**: cidades gregas, Roma, províncias do império.
+* **Tema**: rituais, sacrifícios, festivais, sincretismos, religião e poder.
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Qual oráculo grego, localizado na Fócida, era consultado por cidades e indivíduos e respondia por meio de uma sacerdotisa chamada Pítia?
+2. Como se chamam os rituais de iniciação ligados a Deméter e Perséfone realizados em Elêusis, perto de Atenas?
+
+**Múltipla escolha**
+
+1. Na religião romana, o culto ao imperador (culto imperial):
+   (a) não existiu
+   (b) era uma forma de reforçar a lealdade política e religiosa ao imperador
+   (c) era restrito apenas a Roma e proibido nas províncias
+   (d) substituiu todos os outros cultos imediatamente
+
+2. Um **culto mistérico** na Antiguidade Clássica pode ser descrito como:
+   (a) culto com rituais secretos de iniciação, prometendo benefícios espirituais ou pós-morte
+   (b) culto cívico aberto a todos, sem segredo
+   (c) culto exclusivamente militar
+   (d) forma de culto proibida por lei em todo o Mediterrâneo
+
+**Verdadeiro/Falso**
+
+1. ( ) Religiões greco-romanas incluíam rituais públicos que reforçavam a identidade da cidade.
+2. ( ) Os deuses gregos e romanos nunca foram identificados uns com os outros (por exemplo, Zeus e Júpiter).
+
+---
+
+### Checklist
+
+* Tratar religião como **prática social e política**, não só mitologia de “histórias de deuses”.
+* Incluir tanto cultos oficiais quanto cultos mistéricos.
+* Evitar leituras anacrônicas (por exemplo, “religião de livro” ou “religião exclusivamente privada”).
+
+---
+
+## 5) Economia, comércio e rotas marítimas no Mediterrâneo antigo
+
+`economia_comercio_e_rotas_maritimas_no_mediterraneo_antigo`
 
 ```yaml
 ---
@@ -395,74 +423,80 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Mediterrâneo como rede econômica conectada: produção e especializações regionais, portos, rotas, moedas, impostos/tributos e papel do Estado (especialmente em Roma), sem tecnicismo naval pesado.
+Aborda a economia, o comércio e as principais rotas marítimas no Mediterrâneo antigo, considerando o papel de portos, mercadores, produtos-chave (grão, vinho, azeite, escravos, metais), moedas e mecanismos de controle estatal.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Produtos básicos (grãos, azeite, vinho) e bens de valor (metais, cerâmica, têxteis).
-* Portos/entrepostos: Pireu, Ostia, Alexandria, Cartago, Massalia (como repertório).
-* Rotas e circulação: leste–oeste; abastecimento urbano; zonas produtoras.
-* Fiscalidade e moeda: impostos, tributos e controle/gestão (visão geral).
-* Estado e abastecimento (Roma como caso clássico).
-* Riscos e logística (sazonalidade, pirataria como tema histórico em nível geral).
+* Produção agrícola de base (grãos, azeite, vinho) e especializações regionais.
+* Portos e entrepostos (Pireu, Cartago, Ostia, Alexandria, Massalia etc.).
+* Rotas marítimas entre Oriente, centro e ocidente do Mediterrâneo.
+* Mercadores, navegação, instrumentos e riscos de viagem.
+* Moedas, impostos, tributos e intervenção estatal (Roma, cidades gregas).
+* Comércio de escravos como parte da economia.
 
 **Exclusões**
 
-* Economia moderna e métricas atuais.
-* Engenharia naval detalhada.
-* Rankings e estatísticas anuais.
+* Economia moderna; comparações só muito pontuais.
+* Detalhe técnico de navios fora do necessário para perguntas factuais.
 
-### Matriz de variação
+**Referências (exemplos)**
 
-* **Produto**: grão | azeite | vinho | metais | cerâmica | têxteis | escravizados (como categoria histórica).
-* **Região**: Egito | Sicília | Norte da África | Itália | Grécia | Hispânia | Gália | Levante.
-* **Infraestrutura**: porto | entreposto | armazém | rota costeira | rota de mar aberto.
-* **Agente**: Estado | mercadores | elites urbanas | autoridades locais.
-* **Tempo (macro)**: clássico | helenístico | romano.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual porto ligado a Atenas era um centro comercial importante da Grécia clássica?
-2. Como se chama o porto de Roma associado ao abastecimento e ao comércio marítimo na época imperial?
-3. Qual cidade do Egito helenístico-romano é lembrada como grande centro portuário e de circulação de grãos?
-4. Que termo é frequentemente usado para o sistema romano de abastecimento de grãos e sua administração/distribuição?
-
-**Múltipla escolha (4)**
-
-1. O abastecimento de grãos para Roma dependia muito de:
-   (a) regiões produtoras do Mediterrâneo, incluindo o Egito em diferentes períodos
-   (b) plantações na América
-   (c) importação da Austrália
-   (d) rotas exclusivamente terrestres pela Sibéria
-2. O Mediterrâneo antigo é frequentemente descrito como:
-   (a) barreira que isolava sociedades
-   (b) via marítima que conectava regiões e economias
-   (c) mar sem navegação possível
-   (d) espaço irrelevante para abastecimento urbano
-3. Um porto como Ostia foi importante porque:
-   (a) conectava Roma às rotas de abastecimento e comércio marítimo
-   (b) foi capital do Império Selêucida
-   (c) era um oráculo grego
-   (d) era uma fortaleza medieval
-4. Entre produtos comuns no comércio mediterrânico antigo, é correto citar:
-   (a) grãos, vinho e azeite
-   (b) plástico e alumínio industrial
-   (c) automóveis
-   (d) eletricidade em cabos submarinos
-
-### Checklist
-
-* [ ] Mediterrâneo como **rede econômica**, não só cenário de guerras.
-* [ ] Diversidade de produtos, regiões e agentes.
-* [ ] Papel do Estado aparece sem anacronismo de “mercado moderno”.
+* “Ancient Mediterranean trade”, “Ostia Antica”, “Piraeus (port)”, “Roman economy”.
 
 ---
 
-## 6) Exércitos, guerra e diplomacia no mundo clássico — `exercitos_guerra_e_diplomacia_no_mundo_classico`
+### Matriz de variação
+
+* **Produto**: grãos, azeite, vinho, metais, escravos, têxteis.
+* **Porto/região**: Egito, Sicília, norte da África, Itália, Grécia, Espanha, Gália.
+* **Tema**: rotas, impostos, moedas, papel do Estado, crises de abastecimento.
+* **Tempo**: da fase clássica grega à era romana.
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Qual porto, ligado a Atenas, era um dos principais centros comerciais da Grécia clássica?
+2. Qual cidade portuária do Egito, fundada na época helenística, funcionava como grande elo entre o Mediterrâneo e o interior do país, exportando grãos para outras regiões?
+
+**Múltipla escolha**
+
+1. O abastecimento de **grãos** para Roma imperial dependia muito:
+   (a) do Egito e de outras regiões produtoras do Mediterrâneo
+   (b) apenas de plantações no norte da Europa
+   (c) de navios vindos da América
+   (d) de caravanas do Saara sem uso de portos
+
+2. O Mediterrâneo na Antiguidade é frequentemente descrito como:
+   (a) uma barreira intransponível que isolava as sociedades
+   (b) uma “autopista” marítima conectando várias regiões e economias
+   (c) um lago sem importância econômica
+   (d) um mar sem navegação devido à tecnologia limitada
+
+**Verdadeiro/Falso**
+
+1. ( ) O comércio de longa distância incluía produtos de luxo, mas também itens básicos como grãos.
+2. ( ) Apenas gregos navegavam no Mediterrâneo; romanos, fenícios e outros povos não atuavam no comércio marítimo.
+
+---
+
+### Checklist
+
+* Mostrar o Mediterrâneo como **rede econômica integrada**, não apenas cenário de guerras.
+* Incluir diversidade de produtos, regiões e atores.
+* Destacar o papel do Estado (tributos, controle de grãos) sem reduzir tudo ao “mercado livre”.
+
+---
+
+## 6) Exércitos, guerra e diplomacia no mundo clássico
+
+`exercitos_guerra_e_diplomacia_no_mundo_classico`
 
 ```yaml
 ---
@@ -487,74 +521,275 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Organização militar e práticas de guerra conectadas à diplomacia: hoplitas/falange, falange macedônica, legiões romanas, guerra naval e formas de aliança/tratado. Evita virar catálogo de batalhas.
+Analisa exércitos, táticas, práticas de guerra e diplomacia na Antiguidade Clássica: hoplitas, falange macedônica, legiões romanas, marinhas de guerra, alianças, tratados e exemplos emblemáticos de conflitos e acordos.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Hoplitas e falange (equipamento/organização em nível introdutório).
-* Macedônia: sarissa e reformas militares.
-* Legião romana: organização e disciplina (visão geral).
-* Guerra naval: trirremes e táticas gerais.
-* Ligas/alianças: Delos, Peloponeso; embaixadas e tratados.
-* Conflitos emblemáticos como referência (Médicas/Peloponeso/Púnicas) sem detalhamento.
+* Hoplitas gregos e falange (equipamento, formação).
+* Falange macedônica e inovações de Filipe II e Alexandre.
+* Legiões romanas, recrutamento, treinamento, organização.
+* Marinhas de guerra (trirremes, batalhas navais).
+* Alianças, ligas (Liga de Delos, Liga do Peloponeso) e diplomacia entre pólis.
+* Tratados, embaixadas, guerra e paz no contexto romano.
 
 **Exclusões**
 
-* Narrativas batalha-a-batalha extensas.
-* Períodos pós-antigos.
-* Tom glorificador.
+* Narrativas hiper detalhadas de cada batalha específica.
+* Guerras pós-clássicas (cruzadas, medievais).
 
-### Matriz de variação
+**Referências (exemplos)**
 
-* **Força**: infantaria | cavalaria | marinha | aliados | mercenários.
-* **Forma**: falange | legião | frota | liga/coalizão.
-* **Diplomacia**: tratado | aliança | tributo | embaixada | ruptura.
-* **Região**: Egeu | Grécia | Itália | Norte da África | Mediterrâneo ocidental.
-* **Tempo (macro)**: clássico | macedônico/helenístico | romano.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual é o nome da formação de infantaria pesada típica das pólis gregas, com soldados lutando lado a lado com escudos e lanças?
-2. Qual nome se dá, de modo geral, à unidade militar romana associada à organização em coortes e centúrias?
-3. Como se chama a lança muito longa associada à falange macedônica?
-4. Qual liga liderada por Atenas é frequentemente citada como aliança naval e política no mundo grego clássico?
-
-**Múltipla escolha (4)**
-
-1. A falange macedônica se distingue pelo uso de:
-   (a) lanças muito longas em formação cerrada
-   (b) apenas arqueiros montados
-   (c) canhões
-   (d) tanques
-2. “Trirreme” refere-se a:
-   (a) navio de guerra a remo usado no Mediterrâneo antigo
-   (b) magistratura romana
-   (c) moeda persa
-   (d) templo egípcio
-3. As Guerras Púnicas envolveram principalmente:
-   (a) Roma e Cartago
-   (b) Atenas e Esparta
-   (c) Roma e os hunos
-   (d) gregos e chineses
-4. A diplomacia entre Estados antigos podia incluir:
-   (a) embaixadas e tratados
-   (b) apenas batalhas sem negociação
-   (c) eleições presidenciais televisivas
-   (d) tratados da ONU
-
-### Checklist
-
-* [ ] Guerra + diplomacia + alianças integradas.
-* [ ] Cobertura equilibrada: grego + macedônico + romano (+ Cartago como contexto).
-* [ ] Evita tecnicismo e cronologia minuciosa.
+* “Hoplite”, “Phalanx”, “Roman legion”, “Peloponnesian War”, “Punic Wars”.
 
 ---
 
-## 9) Ciência, matemática e medicina no mundo greco-romano — `ciencia_matematica_e_medicina_no_mundo_greco_romano`
+### Matriz de variação
+
+* **Exército/tropa**: hoplita, falange macedônica, legião, marinha de guerra.
+* **Espaço**: Grécia, Macedônia, Roma, Cartago, Mediterrâneo.
+* **Tema**: organização, tecnologia, tática, diplomacia, alianças.
+* **Tempo**: das Guerras Médicas às Guerras Púnicas e além.
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Como se chama a unidade militar romana básica, formada por cidadãos-soldados organizados em coortes e centúrias?
+2. Qual nome se dá à formação de infantaria pesada típica das cidades gregas, em que soldados lutavam lado a lado com grandes escudos e lanças?
+
+**Múltipla escolha**
+
+1. A **falange macedônica** se distinguia pela utilização de:
+   (a) espadas curtas como arma principal
+   (b) lanças muito longas (sarissas) em formação cerrada
+   (c) carros de guerra em círculo
+   (d) cavaleiros blindados sem infantaria
+
+2. As **Guerras Púnicas** envolveram principalmente:
+   (a) Roma e Cartago
+   (b) Atenas e Esparta
+   (c) Roma e os hunos
+   (d) gregos e persas
+
+**Verdadeiro/Falso**
+
+1. ( ) Na Antiguidade Clássica, eram comuns alianças temporárias entre cidades ou Estados que podiam mudar conforme o conflito.
+2. ( ) A diplomacia não existia; conflitos eram resolvidos apenas por batalhas sem negociações.
+
+---
+
+### Checklist
+
+* Tratar guerra em conjunto com **diplomacia e alianças**, não só batalhas isoladas.
+* Cobrir diferentes tradições militares (grega, macedônica, romana, cartaginesa).
+* Evitar glorificação acrítica da guerra; foco é analítico e descritivo.
+
+---
+
+## 7) Vida urbana e cotidiano nas cidades do Mediterrâneo clássico
+
+`vida_urbana_e_cotidiano_no_mediterraneo_classico`
+
+```yaml
+---
+tema: "História"
+tema_clean: "historia"
+subtema: "Antiguidade Clássica"
+subtema_clean: "antiguidade_classica"
+
+microsubtema: "Vida urbana e cotidiano nas cidades do Mediterrâneo clássico"
+microsubtema_clean: "vida_urbana_e_cotidiano_no_mediterraneo_classico"
+
+natureza: "tematico"
+localizacao: "irrestrita"
+
+status: "ativo"
+autor: "Mestre2"
+data_criacao: "2025-12-09"
+---
+```
+
+**Natureza.** Temático
+**Localização.** Irrestrita
+
+**Descrição.**
+Descreve a vida cotidiana e o ambiente urbano nas cidades do Mediterrâneo clássico, incluindo planejamento urbano, habitação, alimentação, sociabilidade, lazer e diferenças entre grupos sociais.
+
+---
+
+### Escopo
+
+**Inclusões**
+
+* Traçado urbano: ágora, fórum, termas, teatros, templos, mercados.
+* Tipos de habitação (domus, insulae, casas gregas).
+* Alimentação básica, água, higiene.
+* Trabalho urbano: artesãos, vendedores, escribas, burocracia.
+* Lazer e entretenimento: teatro, jogos, anfiteatros, banhos públicos.
+* Diferenças entre ricos e pobres no espaço urbano.
+
+**Exclusões**
+
+* Apenas vida rural (embora comparações sejam possíveis).
+* Biografias políticas de grandes figuras – foco é cotidiano.
+
+**Referências (exemplos)**
+
+* “Daily life in ancient Rome”, “Daily life in classical Athens”, “Roman baths”.
+
+---
+
+### Matriz de variação
+
+* **Cidade/região**: Atenas, Roma, cidades provinciais, Pompeia etc.
+* **Espaço urbano**: bairros residenciais, centros cívicos, áreas comerciais.
+* **Tema**: moradia, alimentação, trabalho, lazer, higiene.
+* **Grupo social**: elite, plebe urbana, escravos, estrangeiros.
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Como se chamava o espaço central das cidades gregas onde se reuniam mercados, edifícios públicos e atividades políticas e sociais?
+2. Que tipo de estabelecimento romano combinava banho, sociabilidade e às vezes exercícios físicos, sendo frequentado por diferentes camadas sociais?
+
+**Múltipla escolha**
+
+1. Em muitos contextos urbanos romanos, as **insulae** eram:
+   (a) casas rurais de camponeses
+   (b) prédios de vários andares onde viviam principalmente pessoas de menor renda
+   (c) palácios imperiais
+   (d) templos dedicados a deuses específicos
+
+2. As **termas** romanas funcionavam como:
+   (a) prisões de guerra
+   (b) conjuntos de banhos públicos e espaços de convivência
+   (c) arenas de gladiadores
+   (d) quartéis militares
+
+**Verdadeiro/Falso**
+
+1. ( ) Em cidades como Roma, havia forte contraste entre moradias luxuosas da elite e habitações modestas em prédios coletivos.
+2. ( ) O teatro e os espetáculos públicos eram reservados exclusivamente à elite, sendo proibidos para a população comum.
+
+---
+
+### Checklist
+
+* Foco em **cotidiano urbano** (trabalho, lazer, habitação), não só em instituições políticas.
+* Mostrar diferenças de classe e de espaço.
+* Evitar anacronismos (shopping center, metrô etc.) a não ser comparações explicadas.
+
+---
+
+## 8) Escravidão, trabalho e estratificação social na Antiguidade Clássica
+
+`escravidao_trabalho_e_estratificacao_social_na_antiguidade_classica`
+
+```yaml
+---
+tema: "História"
+tema_clean: "historia"
+subtema: "Antiguidade Clássica"
+subtema_clean: "antiguidade_classica"
+
+microsubtema: "Escravidão, trabalho e estratificação social na Antiguidade Clássica"
+microsubtema_clean: "escravidao_trabalho_e_estratificacao_social_na_antiguidade_classica"
+
+natureza: "tematico"
+localizacao: "irrestrita"
+
+status: "ativo"
+autor: "Mestre2"
+data_criacao: "2025-12-09"
+---
+```
+
+**Natureza.** Temático
+**Localização.** Irrestrita
+
+**Descrição.**
+Analisa formas de trabalho e estratificação social em sociedades clássicas, com ênfase na escravidão, na condição de libertos, na plebe e nas elites. Considera fontes de escravos, tipos de trabalho, status jurídico e mobilidade limitada.
+
+---
+
+### Escopo
+
+**Inclusões**
+
+* Escravidão em contextos gregos e romanos (origem, comércio, tipos de trabalho urbano e rural).
+* Condição de libertos e diferenças em relação a cidadãos livres de nascimento.
+* Plebe urbana, camponeses, elites proprietárias.
+* Revoltas e resistências (como revoltas escravas em Roma).
+* Trabalho em minas, latifúndios, oficinas, casas urbanas.
+
+**Exclusões**
+
+* Escravidão moderna atlântica (outras escalas e contextos).
+* Discussão moral contemporânea como foco central (embora seja legítimo assinalar a gravidade da instituição).
+
+**Referências (exemplos)**
+
+* “Slavery in ancient Greece”, “Slavery in ancient Rome”, “Freedman”.
+
+---
+
+### Matriz de variação
+
+* **Condição jurídica**: escravo, liberto, cidadão, estrangeiro livre.
+* **Tipo de trabalho**: agrícola, doméstico, minas, oficinas, serviços urbanos.
+* **Espaço**: cidade x campo; Grécia x Roma.
+* **Tema**: mobilidade social, violência, legislação, revoltas.
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Como se chama a condição de ex-escravo que obtinha liberdade legal, mas mantinha algumas obrigações em relação ao antigo senhor, especialmente no contexto romano?
+2. De que forma os escravos eram frequentemente obtidos na Antiguidade Clássica, além de nascimentos em cativeiro?
+
+**Múltipla escolha**
+
+1. Em muitas sociedades clássicas, o trabalho de escravos podia incluir:
+   (a) apenas serviço militar de elite
+   (b) trabalhos agrícolas, domésticos, em oficinas e até tarefas especializadas
+   (c) apenas cargos políticos
+   (d) apenas atividades religiosas
+
+2. Na Roma antiga, os **libertos**:
+   (a) nunca podiam enriquecer
+   (b) podiam exercer atividades econômicas e às vezes prosperar, mas não eram cidadãos de origem livre e mantinham certos vínculos com o antigo senhor
+   (c) eram automaticamente integrados à elite senatorial
+   (d) eram expulsos do império
+
+**Verdadeiro/Falso**
+
+1. ( ) A escravidão era considerada uma instituição normal por muitos autores da Antiguidade Clássica.
+2. ( ) Na Atenas clássica, a cidadania era aberta de forma irrestrita a todos os escravos libertos, sem distinções.
+
+---
+
+### Checklist
+
+* Tratar escravidão de forma **crítica e descritiva**, sem naturalizar nem minimizar.
+* Diferenciar bem condições de escravos, libertos e cidadãos.
+* Mostrar que o trabalho livre também existia, não apenas trabalho escravo.
+
+---
+
+## 9) Ciência, matemática e medicina no mundo greco-romano
+
+`ciencia_matematica_e_medicina_no_mundo_greco_romano`
 
 ```yaml
 ---
@@ -579,70 +814,170 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Conhecimentos greco-romanos em matemática, astronomia, geografia e medicina com foco em figuras/obras e aplicações (medição, observação, calendários, navegação, prática clínica), evitando tecnicismos e “presentismo”.
+Aborda formas de conhecimento “científico” na Antiguidade Clássica: matemática, astronomia, geografia, medicina e suas aplicações. Inclui figuras e escolas greco-romanas, práticas médicas e observação da natureza, sem focar em filosofia abstrata.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Matemática: Euclides/“Elementos”, Arquimedes (nível introdutório).
-* Astronomia: Hiparco e tradição observacional (conceitual).
-* Geografia: Eratóstenes (medição), Ptolomeu (sínteses).
-* Medicina: Hipócrates (tradição hipocrática), Galeno; humores e prática clínica (contextual).
-* Centros e circulação: Alexandria e transmissão de textos.
+* Matemáticos e astrônomos (Tales, Pitágoras, Euclides, Arquimedes, Hiparco etc.).
+* Geografia e cartografia (Eratóstenes, Ptolomeu).
+* Medicina hipocrática e galênica: teorias dos humores, prática clínica, escolas médicas.
+* Observação astronômica para calendários, navegação.
+* Relação entre saberes e instituições (bibliotecas, escolas, patronagem).
 
 **Exclusões**
 
-* Demonstrações matemáticas complexas.
-* História da ciência moderna como eixo.
-* Exageros (“já era igual ao método moderno”).
+* Detalhe técnico pesado de demonstrações matemáticas.
+* História da ciência moderna; comparações apenas ilustrativas.
 
-### Matriz de variação
+**Referências (exemplos)**
 
-* **Área**: matemática | astronomia | geografia | medicina.
-* **Figura/obra**: Euclides | Arquimedes | Eratóstenes | Hiparco | Ptolomeu | Hipócrates | Galeno.
-* **Aplicação**: medição | observação | sistematização | calendário/navegação | clínica.
-* **Espaço**: Alexandria | cidades gregas | Roma.
-* **Tempo (macro)**: clássico | helenístico | romano.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual matemático grego é associado à obra “Elementos”, frequentemente ligada à sistematização da geometria?
-2. Qual estudioso é famoso por estimar a circunferência da Terra usando observações e geometria?
-3. Como se chama a tradição médica associada a Hipócrates, ligada à observação clínica e à teoria dos humores (no contexto antigo)?
-4. Qual médico do mundo romano é conhecido por uma síntese influente da medicina antiga?
-
-**Múltipla escolha (4)**
-
-1. Eratóstenes é frequentemente lembrado por:
-   (a) liderar legiões nas Guerras Púnicas
-   (b) estimar a circunferência da Terra por observações e geometria
-   (c) inventar o telescópio moderno
-   (d) fundar Constantinopla
-2. A obra “Elementos” é associada principalmente a:
-   (a) Euclides
-   (b) Júlio César
-   (c) Heródoto
-   (d) Diocleciano
-3. A medicina hipocrática enfatizava:
-   (a) apenas punições divinas como causa exclusiva
-   (b) observação de sintomas e equilíbrio de humores corporais (no contexto antigo)
-   (c) antibióticos modernos
-   (d) ausência total de diagnóstico
-4. Ptolomeu é frequentemente citado em relação a:
-   (a) geografia e sínteses sobre o mundo conhecido (além de modelos astronômicos)
-   (b) construção de anfiteatros em Roma
-   (c) criação da tetrarquia
-   (d) fundação de Cartago
-
-### Checklist
-
-* [ ] Foco em figuras/obras/aplicações, sem tecnicismo pesado.
-* [ ] Evita “equivalência direta” com ciência moderna.
-* [ ] Cobre pelo menos 3 áreas (mat/astro/geo/med).
+* “Ancient Greek science”, “Euclid”, “Archimedes”, “Hippocrates”, “Galen”.
 
 ---
 
-Se você quiser, eu também posso **renumerar oficialmente** os microsubtemas remanescentes (1–7) para evitar lacunas, sem alterar os `microsubtema_clean`.
+### Matriz de variação
+
+* **Área**: matemática, astronomia, geografia, medicina.
+* **Figura**: Euclides, Arquimedes, Hipócrates, Galeno etc.
+* **Tema**: método, aplicações práticas, circulação de saber.
+* **Espaço**: cidades gregas, Alexandria, Roma.
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Qual matemático grego, autor de uma obra conhecida como “Elementos”, é associado à sistematização da geometria?
+2. Qual médico ligado ao mundo romano desenvolveu uma síntese da medicina antiga que permaneceu influente por muitos séculos, conhecido pelo estudo da anatomia e dos humores?
+
+**Múltipla escolha**
+
+1. **Eratóstenes** é famoso por:
+   (a) ter sido general romano nas Guerras Púnicas
+   (b) estimar a circunferência da Terra com base na observação da sombra do Sol em diferentes cidades
+   (c) inventar o telescópio
+   (d) escrever tragédias gregas
+
+2. A medicina **hipocrática** enfatizava:
+   (a) explicações sobrenaturais e punições divinas exclusivas
+   (b) observação dos sintomas e a ideia de equilíbrio de humores corporais
+   (c) cirurgia apenas mágica
+   (d) uso de antibióticos modernos
+
+**Verdadeiro/Falso**
+
+1. ( ) Autores da Antiguidade Clássica realizaram medições e cálculos que buscaram descrever a forma e dimensões da Terra.
+2. ( ) O mundo greco-romano desconhecia qualquer prática de observação sistemática do corpo humano em medicina.
+
+---
+
+### Checklist
+
+* Foco em **história da ciência** no contexto greco-romano, não em filosofia geral.
+* Destacar aplicações práticas (calendários, navegação, medicina).
+* Evitar exageros do tipo “já sabiam tudo como hoje”; marcar limites e contexto.
+
+---
+
+## 10) Crise do mundo clássico e Antiguidade Tardia (séculos III–VI d.C.)
+
+`crise_do_mundo_classico_e_antiguidade_tardia`
+
+```yaml
+---
+tema: "História"
+tema_clean: "historia"
+subtema: "Antiguidade Clássica"
+subtema_clean: "antiguidade_classica"
+
+microsubtema: "Crise do mundo clássico e Antiguidade Tardia (séculos III–VI d.C.)"
+microsubtema_clean: "crise_do_mundo_classico_e_antiguidade_tardia"
+
+natureza: "tematico"
+localizacao: "irrestrita"
+
+status: "ativo"
+autor: "Mestre2"
+data_criacao: "2025-12-09"
+---
+```
+
+**Natureza.** Temático
+**Localização.** Irrestrita
+
+**Descrição.**
+Trata das transformações do Império Romano e do Mediterrâneo entre os séculos III e VI d.C., período muitas vezes chamado de Antiguidade Tardia. Enfatiza reformas administrativas, crise política e militar, cristianização, mudanças urbanas e elementos de continuidade e ruptura entre mundo clássico e medieval.
+
+---
+
+### Escopo
+
+**Inclusões**
+
+* Crise do século III: instabilidade política, pressões externas, reformas.
+* Reformas de Diocleciano e Constantino (tetrarquia, nova capital em Constantinopla, reorganizações).
+* Cristianização do império e papel crescente da Igreja.
+* Divisão entre Império Romano do Ocidente e do Oriente; queda do Ocidente em 476.
+* Transformações urbanas, econômicas e militares (ruralização parcial, fortificações etc.).
+* Interação com povos chamados “bárbaros” (germânicos, hunos etc.) de maneira histórica, sem estereótipos.
+
+**Exclusões**
+
+* História interna detalhada dos reinos medievais posteriores.
+* Discussões puramente teológicas; foco é histórico.
+
+**Referências (exemplos)**
+
+* “Crisis of the Third Century”, “Late Antiquity”, “Diocletian”, “Constantine the Great”.
+
+---
+
+### Matriz de variação
+
+* **Tempo**: crise do século III, reformas de Diocleciano, Constantino, queda do Ocidente, Justiniano.
+* **Espaço**: Roma, Constantinopla, províncias ocidentais e orientais.
+* **Tema**: política, exército, economia, religião, cidades.
+* **Atores**: imperadores, generais, bispos, elites locais, povos germânicos.
+
+---
+
+### Exemplos de enunciados
+
+**Abertas**
+
+1. Qual imperador fundou uma “Nova Roma” no oriente, em uma cidade que levaria seu nome e se tornaria capital imperial?
+2. Em que ano se costuma situar, de forma convencional, a deposição de Rômulo Augústulo e a “queda” do Império Romano do Ocidente?
+
+**Múltipla escolha**
+
+1. O termo **Antiguidade Tardia** é usado para designar:
+   (a) apenas o século I a.C.
+   (b) o período de transição entre a Antiguidade Clássica e a Idade Média, aproximadamente entre os séculos III e VI d.C.
+   (c) o auge da Grécia clássica
+   (d) apenas o período das Cruzadas
+
+2. Entre as reformas de **Diocleciano** e **Constantino** podemos citar:
+   (a) fim do exército romano
+   (b) reorganização administrativa, militar e, no caso de Constantino, o reconhecimento do cristianismo e a fundação de Constantinopla
+   (c) restauração da República e abolição do título de imperador
+   (d) transferência da capital para Cartago
+
+**Verdadeiro/Falso**
+
+1. ( ) A Antiguidade Tardia combina elementos de continuidade com o mundo clássico e transformações que apontam para a Idade Média.
+2. ( ) Após 476 d.C., deixou de existir qualquer forma de Império Romano em qualquer parte do Mediterrâneo.
+
+---
+
+### Checklist
+
+* Marcar o recorte de **transição** (não é nem “só Roma clássica”, nem “só Idade Média”).
+* Tratar de política, religião, economia e cidades de forma integrada.
+* Evitar narrativa simplista de “queda repentina”; enfatizar processos.
+
+---

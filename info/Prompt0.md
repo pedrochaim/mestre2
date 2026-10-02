@@ -2,8 +2,6 @@ Tarefa: Gere 50 perguntas no nível do microsubtema abaixo.
 
 Saída: retorne somente o arquivo .JSON válido (como código, sem formatação) conforme o `pergunta.schema.json`, respeitando proporções de tipos e diversidade.
 
-Instruções adicionais (aos critérios `intrucoes_geracao_perguntas.md`)
-
 * Não use " " no texto do campo <pergunta>. Exemplo: "pergunta": "Quem foi Pelé?" (CORRETO) vs "pergunta": "Quem foi "Pelé"?" (INCORRETO)
 * Pode utilizar acentuação (ex: não, está, próximo, vêm, etc) no campo <pergunta>.
 * No campo "fonte", forneça apenas array com as urls, sem formatação de link clicavel markdown. 
@@ -13,104 +11,86 @@ Instruções adicionais (aos critérios `intrucoes_geracao_perguntas.md`)
 * Revise os enunciados para **evitar** enunciados que contém a resposta. 
   - Exemplo 1: pergunta: "Qual meia brasileiro é conhecido como Ronaldinho Gaúcho e brilhou principalmente pelo Barcelona e pela seleção brasileira?" resposta: "Ronaldinho Gaúcho"
   - Exemplo 2: Associe o personagem à peça:  Dom Juan — ( ) “Dom Juan” / “Dom Giovanni”  ( ) “As Fenícias” 
+* Ao elaborar questões do tipo Verdadeiro-Falso, equilibre as respostas.
 * Respostas para perguntas abertas devem ser diretas: uma palavra (ou termo), ou no máximo uma frase curta.
-* Distratores em perguntas de múltipla escolha (em microsubtemas de obra fictícia específica) devem incluir (pelo menos 1) termos/personagens/coisas da mesma franquia.
-* Em geral, em perguntas de múltipla escolha, crie distratores críveis, de modo a gerar alguma dúvida sobre a respsota correta.
-* Não inclua perguntas de Verdadeiro-Falso.
-* Em perguntas de multipla escolha, equilibre a alternativa certa entre A, B, C, e D.
+* Distratores em perguntas de múltipla escolha devem incluir (pelo menos 1) termos/personagens/coisas da mesma franquia.
 
 
 ```yaml
 ---
-tema: "História"
-tema_clean: "historia"
-subtema: "Idade Média"
-subtema_clean: "idade_media"
+tema: "Entretenimento"
+tema_clean: "entretenimento"
+subtema: "Anime e Mangá"
+subtema_clean: "anime_e_manga"
 
-microsubtema: "Monarquias e instituições políticas no Ocidente medieval"
-microsubtema_clean: "monarquias_ocidente"
+microsubtema: "Naruto"
+microsubtema_clean: "naruto"
 
 natureza: "tematico"
 localizacao: "irrestrita"
-
-status: "rascunho"
-data_criacao: "2025-12-09"
+status: "ativo"
 ---
 ```
 
-## Monarquias e instituições políticas no Ocidente medieval (`monarquias_ocidente`)
+## Naruto — `naruto`
 
-**Natureza.** Temático
-**Descrição.** Formação, transformação e fortalecimento de reinos e monarquias na Europa Ocidental medieval (França, Inglaterra, Portugal, Castela, Aragão e Sacro Império), incluindo dinastias, disputas sucessórias, mecanismos de governo e assembleias políticas (cortes, parlamentos, estados gerais) em perspectiva histórica.
-**Localização.** Irrestrita
+**Natureza.** Temático (franquia/obra).
+**Descrição.** Mangá de Masashi Kishimoto serializado na *Weekly Shōnen Jump*; foco aqui é gerar perguntas sobre **mundo ninja (chakra/jutsu), vilas e cargos, clãs/dōjutsu, bijū/jinchūriki, organizações e grandes arcos** (spoilers ok). ([Wikipedia][3])
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* Reinos francos, Império Carolíngio e suas transformações.
-* Dinastias e trajetórias gerais: capetíngios, plantagenetas, casas ibéricas (em linhas gerais).
-* Península Ibérica: reinos cristãos e **Reconquista** como contexto político.
-* Sacro Império Romano-Germânico: peculiaridades (eleição, fragmentação, autonomia de príncipes).
-* Instituições: conselhos, chancelarias, cortes/parlamentos/estados gerais (funções históricas gerais).
-* Disputas dinásticas e centralização (processos, sem “listas de batalhas”).
+* Parte I e Parte II (Shippuden), com eventos canônicos (mortes, identidades, finais). ([Wikipedia][3])
+* Sistema: chakra; ninjutsu/genjutsu/taijutsu; kekkei genkai; dōjutsu; selamentos.
+* Geopolítica: vilas, Kages, guerras, ANBU.
+* Organizações: Akatsuki etc.
 
 **Exclusões**
 
-* Campanhas militares em detalhe.
-* Igreja como instituição autônoma (vai em `igreja_saber`).
-* Bizâncio e Islã como eixo (vai em `med_oriente`).
+* “Quem é mais forte”, power scaling e listas subjetivas.
+* Conteúdo de spin-off/sequência só entra se o enunciado marcar explicitamente (para evitar ambiguidade).
 
 **Referências (exemplos)**
 
-* Wikipedia (PT): *Carlos Magno*, *Capetíngios*, *Plantagenetas*, *Sacro Império Romano-Germânico*, *Reconquista*.
+* Wikipedia (EN) de *Naruto* + páginas específicas de dōjutsu, organizações e arcos. ([Wikipedia][3])
+* Fontes oficiais (galerias/arquivos) e enciclopédias de mídia, quando necessário. ([naruto-official.com][4])
 
-### Matriz de variação (eixos)
+### Matriz de variação
 
-* **Reino**: França, Inglaterra, Castela, Aragão, Portugal, Sacro Império.
-* **Instituição**: cortes, parlamento, estados gerais, conselhos.
-* **Conflito**: sucessão, guerra civil, rivalidades nobiliárquicas (visão geral).
-* **Centralização**: poder fragmentado vs. fortalecimento régio.
+* Vila/cargo (Hokage/Kage) ↔ personagem.
+* Clã ↔ dōjutsu ↔ técnica.
+* Bijū ↔ jinchūriki.
+* Organização ↔ objetivo ↔ membros.
+* Spoilers: identidades mascaradas, reviravoltas, destino de personagens.
 
 ### Exemplos de enunciados
 
-**Aberta**
+**A) Aberta (4)**
 
-* Qual foi a importância da coroação de Carlos Magno (800)?
-* O que eram “cortes” ou “parlamentos” medievais?
-* O que se entende por “Reconquista” na Península Ibérica?
+1. “Qual é o nome da raposa de nove caudas selada dentro de Naruto?”
+2. “Quem é o **Quarto Hokage** de Konoha?”
+3. “Qual organização criminosa reúne ninjas renegados e caça os bijū?”
+4. “Tobi é revelado como qual personagem (spoiler) na linha principal?”
 
-**Múltipla escolha**
+**B) Múltipla escolha (4) — distratores da franquia**
 
-* A instituição conhecida como **Parlamento**, com papel relevante a partir do século XIII, está mais associada ao caso de:
-  (a) França
-  (b) Inglaterra
-  (c) Castela
-  (d) Portugal
+1. “Qual destes **NÃO** é um dos ‘Três Grandes Dōjutsu’?\nA) Sharingan\nB) Byakugan\nC) Rinnegan\nD) Tenseigan”
+2. “Qual time é formado por **Naruto, Sasuke e Sakura**, sob liderança de Kakashi?\nA) Time 7\nB) Time 8\nC) Time 10\nD) Time Guy”
+3. “Qual destas organizações é a mais diretamente associada a **caçar e capturar os bijū**?\nA) Akatsuki\nB) ANBU\nC) Polícia Militar Uchiha\nD) Sete Espadachins da Névoa”
+4. “Qual destes é um **jutsu de alto nível** ligado ao Rinnegan?\nA) Chibaku Tensei\nB) Rasengan\nC) Chidori\nD) Kage Bunshin no Jutsu”
 
-* A dinastia **capetíngia** está ligada principalmente ao reino da:
-  (a) França
-  (b) Inglaterra
-  (c) Aragão
-  (d) Sacro Império Romano-Germânico
+**C) Verdadeiro/Falso (4)**
 
-* A expressão **“Reconquista”** refere-se, em linhas gerais, ao processo de:
-  (a) expansão de reinos cristãos sobre territórios sob domínio islâmico na Península Ibérica
-  (b) unificação política do Sacro Império sob monarquia hereditária estável
-  (c) retomada permanente de Jerusalém por reinos latinos no século XIII
-  (d) reunificação das cidades italianas sob um rei único no final da Idade Média
-
-**Verdadeiro/Falso**
-
-* O Sacro Império tendeu a manter maior fragmentação política do que reinos como França e Inglaterra.
-* Disputas sucessórias podiam gerar longos períodos de conflito e barganha política.
-* Assembleias medievais funcionavam como parlamentos democráticos modernos, com sufrágio amplo.
-* Monarquias ibéricas se fortaleceram em parte em contextos de expansão territorial e reorganização institucional.
+1. “O mangá *Naruto* foi serializado na *Weekly Shōnen Jump* por cerca de 15 anos.” (V/F) ([Wikipedia][3])
+2. “Akatsuki tem como objetivo capturar os bijū.” (V/F)
+3. “Neste microsubtema, revelar a identidade de Tobi é permitido.” (V/F)
+4. “Perguntas devem evitar depender de opinião (‘melhor luta’).” (V/F)
 
 ### Checklist
 
-* Foco em **processos e instituições**, não em anedotas.
-* Evitar comparações diretas com instituições democráticas atuais.
-* Variar reinos e períodos.
-
----
+* [ ] MC com 4 alternativas e distratores plausíveis do universo.
+* [ ] Não criar perguntas cuja resposta seja “Naruto”.
+* [ ] Máx. 5 por entidade no conjunto do microsubtema.
+* [ ] Distinguir cânone vs material adicional quando afetar a resposta.
+* [ ] Evitar power scaling e rankings subjetivos.

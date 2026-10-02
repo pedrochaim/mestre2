@@ -1,8 +1,10 @@
-Abaixo estão os **8 microsubtemas de Egito Antigo reorganizados** no **padrão do projeto** (ordem fixa: **Natureza → Descrição → Localização → Escopo → Matriz de variação → Exemplos (Abertas + Múltipla escolha, sem V/F) → Checklist**). Mantive seus `microsubtema_clean` e o YAML.
+Vou desenvolver os **8 microsubtemas de Egito Antigo** no mesmo formato que usei para a civilização chinesa.
 
 ---
 
-## 1) Formação do Estado egípcio: Período Pré-dinástico e Dinástico Inicial — `formacao_do_estado_egipcio_pre_dinastico_e_dinastico_inicial`
+## 1) Formação do Estado egípcio: Período Pré-dinástico e Dinástico Inicial
+
+`formacao_do_estado_egipcio_pre_dinastico_e_dinastico_inicial`
 
 ```yaml
 ---
@@ -27,81 +29,128 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Origens do Estado egípcio: culturas pré-dinásticas, consolidação de chefias regionais, **unificação do Alto e Baixo Egito**, surgimento do faraó, **Mênfis** como centro político e bases administrativas e religiosas do Estado faraônico inicial.
+Trata das origens do Estado egípcio, desde as culturas pré-dinásticas até o Período Dinástico Inicial. Engloba a formação de chefias regionais, a unificação do Alto e Baixo Egito, o surgimento da figura do faraó, a escolha de Mênfis como capital e a consolidação das bases administrativas e religiosas do Estado faraônico.
+
+---
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* Culturas e centros pré-dinásticos (ex.: Naqada/Nacada, Hieracômpolis).
-* Alto vs. Baixo Egito (identidade regional e simbologia).
-* Unificação e sua iconografia (ex.: Paleta de Narmer).
-* I e II Dinastias: primeiros faraós (Narmer, Aha, Djer etc.).
-* Mênfis e a lógica estratégica de capital/centro administrativo.
-* Necrópoles/tumbas reais iniciais (Abidos, Saqqara) e evidências arqueológicas básicas.
-* Primeiros elementos de administração: arrecadação, registros, controle de recursos.
+* **Período Pré-dinástico**
+
+  * Principais culturas regionais (Nacada, Hieracômpolis, etc.).
+  * Diferenciação entre Alto e Baixo Egito.
+  * Primeiras formas de hierarquização social e poder centralizado.
+
+* **Unificação do Egito**
+
+  * Iconografia da unificação (p.ex., Paleta de Narmer).
+  * Construção do mito da unificação sob um único governante.
+
+* **Período Dinástico Inicial (I e II Dinastias)**
+
+  * Primeiros faraós (Narmer, Aha, Djer, etc.).
+  * Mênfis como capital política.
+  * Primeiras tumbas reais em Abidos e Saqqara.
+
+* **Instituições**
+
+  * Surgimento da figura do faraó como mediador entre deuses e homens.
+  * Construção das bases da administração central: arrecadação, censos, controle de recursos.
 
 **Exclusões**
 
-* Antigo Império “construtor” (pirâmides monumentais) como foco central.
-* Médio/Novo Império (apenas comparações pontuais).
-* Egito ptolomaico/romano.
-* Especulações arqueológicas marginais sem respaldo em sínteses amplamente aceitas.
+* Desenvolvimento posterior de práticas funerárias monumentais (pirâmides do Antigo Império).
+* Períodos Médio e Novo Império, exceto menções de comparação.
+* Egito ptolomaico ou romano.
+* Especulações arqueológicas muito marginais sem respaldo em sínteses amplamente aceitas.
 
 **Referências (exemplos)**
 
-* “Predynastic Egypt”, “Early Dynastic Period (Egypt)”, “Narmer”, “Memphis (Egypt)”, “Abydos”, “Saqqara”.
-
-### Matriz de variação (eixos)
-
-* **Tempo/fase:** pré-dinástico inicial vs. avançado; I vs. II dinastia.
-* **Espaço:** Alto Egito vs. Baixo Egito; Hieracômpolis; Mênfis; Abidos; Saqqara.
-* **Atores:** chefias locais; primeiros faraós; elites emergentes; populações camponesas e artesãos.
-* **Instituições/ideologia:** realeza e símbolos (coroas); centralização; administração nascente; religião e legitimidade.
-* **Evidência:** artefatos/inscrições; tumbas; tradições posteriores sobre “primeiros reis”.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Como se chama o rio em torno do qual se desenvolveram as comunidades que deram origem ao Estado egípcio?
-2. Qual cidade se tornou um centro político associado ao Egito unificado no Dinástico Inicial, próxima ao limite entre Alto e Baixo Egito?
-3. Qual é o nome do artefato célebre que representa simbolicamente a unificação do Egito sob um único governante?
-4. Como se chamam, respectivamente, as duas grandes regiões históricas do Egito associadas ao vale (sul) e ao delta (norte)?
-
-**Múltipla escolha (4)**
-
-1. O termo “Alto Egito” refere-se principalmente:
-   (a) ao Delta próximo ao Mediterrâneo
-   (b) ao curso superior do Nilo, ao sul
-   (c) a uma região montanhosa distante do Nilo
-   (d) a uma ilha no Mar Egeu
-2. A Paleta de Narmer é importante porque:
-   (a) mostra as primeiras pirâmides em construção
-   (b) descreve a conquista romana do Egito
-   (c) apresenta uma representação simbólica da unificação do Alto e Baixo Egito
-   (d) relata a fundação de Alexandria
-3. Abidos e Saqqara são frequentemente lembrados, nesse recorte, por:
-   (a) abrigarem tumbas reais e complexos funerários iniciais
-   (b) serem portos fenícios no Mediterrâneo
-   (c) terem sido capitais ptolomaicas
-   (d) serem fortalezas medievais
-4. No Dinástico Inicial, o faraó era concebido principalmente como:
-   (a) chefe eleito anualmente pela população
-   (b) mediador entre deuses e homens e centro da ordem política
-   (c) líder sem papel religioso
-   (d) funcionário subordinado a um parlamento
-
-### Checklist
-
-* [ ] Passagem de sociedades regionais → **Estado centralizado**.
-* [ ] Iconografia/evidência (Paleta, tumbas, centros) com base em sínteses confiáveis.
-* [ ] Diferencia **Pré-dinástico** vs. **Dinástico Inicial** sem “pular” para pirâmides.
-* [ ] Evita especulação marginal e anacronismos.
+* Sínteses sobre pré-história e formação do Estado no Egito.
+* Enciclopédias: “Predynastic Egypt”, “Early Dynastic Period (Egypt)”, “Narmer”.
 
 ---
 
-## 2) Antigo Império: faraós construtores e pirâmides — `antigo_imperio_faraos_construtores_e_piramides`
+### Matriz de variação (eixos)
+
+* **Tempo / fase**
+
+  * Pré-dinástico inicial vs. avançado.
+  * Primeira vs. segunda dinastia.
+
+* **Espaço / região**
+
+  * Alto Egito vs. Baixo Egito.
+  * Centros como Hieracômpolis, Mênfis, Abidos, Saqqara.
+
+* **Papel / ator**
+
+  * Chefes locais e primeiros faraós.
+  * Elites emergentes.
+  * Populações camponesas e artesãos.
+
+* **Tema / instituição**
+
+  * Poder real e ideologia de realeza.
+  * Organização administrativa inicial.
+  * Simbolismo da unificação (coroas, iconografia).
+
+* **Tipo de evidência**
+
+  * Achados arqueológicos (tumbas, artefatos, inscrições).
+  * Tradições posteriores sobre os “primeiros reis”.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Como se chama o rio em torno do qual se desenvolveram as primeiras comunidades que deram origem ao Estado egípcio?
+2. Qual cidade se tornou a capital política do Egito durante o Período Dinástico Inicial, próxima ao limite entre Alto e Baixo Egito?
+3. Qual é o nome do artefato célebre que representa, de forma simbólica, a unificação do Egito sob um único governante?
+
+**Múltipla escolha**
+
+1. O termo **“Alto Egito”** refere-se, principalmente:
+   (a) à região deltaica, mais próxima do Mediterrâneo
+   (b) à região do curso superior do Nilo, ao sul
+   (c) a uma área montanhosa distante do Nilo
+   (d) a um deserto longe de qualquer rio
+
+2. A Paleta de Narmer é importante porque:
+   (a) mostra as primeiras pirâmides em construção
+   (b) é uma prova do domínio romano sobre o Egito
+   (c) apresenta uma representação simbólica da unificação do Alto e Baixo Egito
+   (d) descreve a chegada de Alexandre, o Grande
+
+3. No Período Dinástico Inicial, o faraó era concebido como:
+   (a) um chefe militar eleito anualmente
+   (b) um intermediário entre deuses e homens e centro da ordem política
+   (c) um líder sem papel religioso
+   (d) um estrangeiro visitante sem poder político real
+
+**Verdadeiro/Falso**
+
+1. ( ) A formação do Estado egípcio envolveu a unificação de regiões antes distintas, conhecidas como Alto e Baixo Egito.
+2. ( ) Mênfis foi uma das primeiras capitais do Egito unificado, localizada em área estratégica próxima ao Delta.
+
+---
+
+### Checklist
+
+* Foco na passagem de sociedades regionais para um **Estado centralizado**.
+* Uso de exemplos arqueológicos bem documentados (sem exagerar na especulação).
+* Diferenciar claramente Pré-dinástico de Dinástico Inicial.
+* Evitar misturar este recorte com períodos muito posteriores (Novo Império, Ptolemaico, etc.).
+
+---
+
+## 2) Antigo Império: faraós construtores e pirâmides
+
+`antigo_imperio_faraos_construtores_e_piramides`
 
 ```yaml
 ---
@@ -126,79 +175,125 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Antigo Império (III–VI dinastias): consolidação do poder faraônico, administração e **monumentalidade** (Saqqara, Dahshur, Gizé). Inclui organização do trabalho/recursos e fatores gerais do declínio rumo ao Primeiro Período Intermediário.
+Aborda o Antigo Império egípcio, com foco na consolidação do poder faraônico, no papel da administração e nas grandes construções monumentais, especialmente as pirâmides. Explora faraós célebres, complexos funerários de Gizé, organização do trabalho e fatores que levaram ao declínio e ao Primeiro Período Intermediário.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Djoser e a pirâmide em degraus (Saqqara).
-* Snefru e experimentações (Dahshur).
-* Quéops/Quéfren/Miquerinos e o complexo de Gizé.
-* Administração centralizada; nomarcas; logística de obras.
-* Pirâmides como tumbas e centros de culto funerário; ideologia real (inclui vínculo com cultos/legitimidade).
-* Declínio: pressões e fragmentação do poder central (visão geral).
+* **Cronologia e contexto**
+
+  * Dinastias III a VI (Antigo Império).
+  * Continuidade em relação ao Período Dinástico Inicial.
+
+* **Grandes faraós e obras**
+
+  * Djoser e a pirâmide em degraus de Saqqara.
+  * Snefru e experimentações piramidais.
+  * Quéops, Quéfren e Miquerinos e o complexo de Gizé.
+
+* **Organização do Estado**
+
+  * Administração centralizada e nomarcas.
+  * Organização de recursos e mão de obra para obras monumentais.
+
+* **Aspectos religiosos e políticos**
+
+  * Ligação entre culto solar, faraó e pirâmides.
+  * Pirâmides como centros de culto funerário e afirmação de poder.
+
+* **Declínio do Antigo Império**
+
+  * Pressões econômicas e políticas.
+  * Ascensão de nobres regionais e fragmentação de poder.
 
 **Exclusões**
 
-* Médio/Novo Império como foco.
-* Engenharia hiper técnica (medidas, cálculos estruturais detalhados).
-* Teorias conspiratórias/pseudociência sobre pirâmides.
+* Períodos Médio e Novo Império, salvo referências comparativas rápidas.
+* Detalhes exaustivos de engenharia não essenciais para perguntas factuais.
+* Teorias marginais e conspiratórias sobre pirâmides.
 
 **Referências (exemplos)**
 
-* “Old Kingdom of Egypt”, “Djoser”, “Step Pyramid”, “Sneferu”, “Pyramids of Giza”, “Dahshur”, “Saqqara”.
-
-### Matriz de variação (eixos)
-
-* **Fase:** início (Djoser) | experimentação (Snefru) | apogeu (Gizé) | tardio/declínio (V–VI).
-* **Lugar:** Saqqara | Dahshur | Gizé.
-* **Atores:** faraó | corte | escribas/administradores | trabalhadores/artesãos.
-* **Instituições:** realeza divina | culto funerário | arrecadação e mobilização de recursos | nomarcas.
-* **Tema:** monumentalidade | administração | trabalho/organização | crise/fragmentação.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual é o nome da planície/necrópole onde se localizam as pirâmides de Quéops, Quéfren e Miquerinos?
-2. Que faraó está associado à pirâmide em degraus de Saqqara?
-3. Qual faraó do Antigo Império é conhecido por “experimentações” com pirâmides, associadas a Dahshur?
-4. Em termos gerais, qual era a função principal das pirâmides do Antigo Império na ideologia e prática funerária?
-
-**Múltipla escolha (4)**
-
-1. O Antigo Império é frequentemente chamado de:
-   (a) Período Romano
-   (b) Era dos Faraós Construtores
-   (c) Idade das Cruzadas
-   (d) Era Industrial
-2. A pirâmide em degraus de Saqqara está mais associada a:
-   (a) Djoser
-   (b) Ramsés II
-   (c) Cleópatra VII
-   (d) Constantino
-3. As grandes pirâmides do Antigo Império funcionavam principalmente como:
-   (a) fortalezas militares de fronteira
-   (b) mercados e armazéns urbanos
-   (c) tumbas reais e centros de culto funerário ligados ao faraó
-   (d) observatórios modernos de rádio
-4. Um fator frequentemente relacionado ao declínio do Antigo Império é:
-   (a) conquista mongol do Egito
-   (b) enfraquecimento do poder central e fortalecimento de elites regionais (nomarcas)
-   (c) invenção da imprensa
-   (d) descoberta de petróleo no deserto
-
-### Checklist
-
-* [ ] Equilíbrio entre **monumentos** e **estrutura estatal**.
-* [ ] Evita tecnicismo de engenharia e teorias conspiratórias.
-* [ ] Distingue fases (Djoser/Snefru/Gizé/declínio).
-* [ ] Não “vaza” para Novo Império como foco.
+* Enciclopédias: “Old Kingdom of Egypt”, “Pyramids of Giza”, “Djoser”.
+* Sínteses de história do Egito faraônico.
 
 ---
 
-## 3) Médio e Novo Império: expansão, império e contatos exteriores — `medio_e_novo_imperio_expansao_e_contatos_exteriores`
+### Matriz de variação (eixos)
+
+* **Tempo / fase**
+
+  * Início do Antigo Império (Djoser).
+  * Apogeu (Gizé).
+  * Fase tardia e declínio (V e VI dinastias).
+
+* **Espaço / região**
+
+  * Saqqara, Dahshur, Gizé.
+
+* **Papel / ator**
+
+  * Faraó e corte.
+  * Administradores e escribas.
+  * Trabalhadores envolvidos nas construções.
+
+* **Tema / instituição**
+
+  * Realeza divina e culto solar.
+  * Organização de grandes obras públicas.
+  * Estrutura administrativa e nomarcas.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Qual é o nome da planície onde se localizam as famosas pirâmides de Quéops, Quéfren e Miquerinos?
+2. Que faraó do Antigo Império está associado à pirâmide em degraus de Saqqara, considerada um dos primeiros grandes experimentos monumentais?
+
+**Múltipla escolha**
+
+1. O Antigo Império egípcio é frequentemente chamado de:
+   (a) “Idade do Bronze”
+   (b) “Era dos Faraós Construtores”
+   (c) “Idade Escura”
+   (d) “Período Romano”
+
+2. A principal função das grandes pirâmides do Antigo Império era:
+   (a) servir como fortalezas militares
+   (b) abrigar mercados e armazéns
+   (c) servir como tumbas e centros de culto funerário ligados ao faraó
+   (d) funcionar como observatórios de rádio modernos
+
+3. O declínio do Antigo Império está relacionado, entre outros fatores, a:
+   (a) invasão maciça de exércitos romanos
+   (b) enfraquecimento do poder central e fortalecimento de nobres regionais
+   (c) descoberta de petróleo no deserto
+   (d) abolição de qualquer forma de tributação
+
+**Verdadeiro/Falso**
+
+1. ( ) A pirâmide de Djoser, em Saqqara, é um exemplo importante de pirâmide em degraus do início do Antigo Império.
+2. ( ) As pirâmides de Gizé datam do período conhecido como Antigo Império egípcio.
+
+---
+
+### Checklist
+
+* Dar destaque ao Antigo Império, sem misturar demais com outras fases.
+* Cobrir tanto aspectos **políticos e administrativos** quanto **monumentais**.
+* Evitar teorias conspiratórias ou especulativas sobre pirâmides.
+* Manter equilíbrio entre faraós individuais e processos estruturais (centralização, declínio).
+
+---
+
+## 3) Médio e Novo Império: expansão, império e contatos exteriores
+
+`medio_e_novo_imperio_expansao_e_contatos_exteriores`
 
 ```yaml
 ---
@@ -223,77 +318,124 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Do Médio ao Novo Império: reunificação pós-crise, fortalecimento administrativo, **expansão para Núbia e Levante**, relações diplomáticas (tratados, casamentos, presentes) e tensões que levam ao declínio da hegemonia egípcia.
+Abrange o Médio e o Novo Império egípcios, enfocando a reunificação após períodos de crise, a formação de um império territorial, as campanhas militares, as relações diplomáticas com reinos vizinhos, o enriquecimento do Estado e as tensões que conduzem ao declínio da hegemonia egípcia.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Médio Império: dinastias XI–XII; Tebas/Itjtawy; reorganização e Núbia.
-* Novo Império: expulsão dos hicsos; império territorial; faraós exemplares (Hatshepsut, Tutmés III, Amenófis III, Akhenaton, Tutancâmon, Ramsés II).
-* Contatos e conflitos: hititas, mitânios (como potências regionais); Levante (Síria-Palestina).
-* Diplomacia: tratados (ex.: paz com hititas), casamentos diplomáticos, embaixadas e trocas.
-* Crise e declínio rumo ao Terceiro Período Intermediário (visão geral).
+* **Médio Império**
+
+  * Reunificação após o Primeiro Período Intermediário.
+  * Dinastias XI e XII, com centros em Tebas e Itjtawy.
+  * Administração e exploração da Núbia.
+
+* **Novo Império**
+
+  * Expulsão dos hicsos e formação de um império militarizado.
+  * Faraós como Tutmés III, Hatshepsut, Amenófis III, Akhenaton, Tutancâmon, Ramsés II (como exemplos).
+  * Expansão para a Núbia e Levante.
+  * Contatos e conflitos com potências como hititas e mitânios.
+
+* **Diplomacia e império**
+
+  * Tratados diplomáticos (por exemplo, tratados com os hititas).
+  * Casamentos diplomáticos.
+  * Trocas de presentes e embaixadas.
+
+* **Crise e declínio**
+
+  * Pressões internas e externas que levam ao Terceiro Período Intermediário.
 
 **Exclusões**
 
-* Catálogo exaustivo de faraós e batalhas.
-* Biografia de um único faraó como eixo exclusivo.
-* Época tardia/ptolomaica/romana.
+* Narrativa exaustiva de todos os faraós e batalhas.
+* Foco exclusivo em um único faraó (por exemplo, apenas Akhenaton ou Ramsés II).
+* Época tardia, ptolomaica e romana (tratadas em outros microsubtemas).
 
 **Referências (exemplos)**
 
-* “Middle Kingdom of Egypt”, “New Kingdom of Egypt”, “Hyksos”, “Thebes”, “Karnak”, “Battle of Kadesh”, “Hittites”.
-
-### Matriz de variação (eixos)
-
-* **Fase:** Médio Império | Novo Império (início/apogeu/crise).
-* **Espaço:** Vale do Nilo | Núbia | Levante | centros (Tebas).
-* **Atores:** faraós | militares | diplomatas | reinos vizinhos | vassalos/aliados.
-* **Tema:** expansão | tributos/recursos | tratados | casamentos | crise/pressões.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual cidade (antiga Tebas) se destacou como grande centro religioso do Novo Império, ligada ao culto de Amon?
-2. Qual faraó é frequentemente associado à batalha de Cades e a um tratado de paz com os hititas?
-3. Como são chamados os grupos de origem asiática que dominaram parte do Delta no Segundo Período Intermediário, antes do Novo Império?
-4. Qual região ao sul do Egito foi alvo recorrente de campanhas e administração (fortes/tributos) em diferentes períodos?
-
-**Múltipla escolha (4)**
-
-1. O Médio Império é marcado, entre outros aspectos, por:
-   (a) ausência completa de poder central
-   (b) reunificação e consolidação administrativa após crise anterior
-   (c) conquista romana do Egito
-   (d) domínio ptolomaico desde o início
-2. O Novo Império é frequentemente descrito como:
-   (a) fase de isolamento total e retração militar
-   (b) período de expansão e formação de um império no Levante e na Núbia
-   (c) época da construção das pirâmides de Gizé
-   (d) período da dominação mongol do Egito
-3. Os hicsos são geralmente descritos como:
-   (a) faraós nativos da Núbia
-   (b) grupos de origem asiática que controlaram parte do Delta por um período
-   (c) sacerdotes de Amon que governaram Roma
-   (d) conquistadores romanos da época de Augusto
-4. Um “casamento diplomático”, no contexto do Novo Império, era frequentemente usado para:
-   (a) abolir o comércio mediterrânico
-   (b) fortalecer alianças e relações políticas entre casas reais
-   (c) substituir a administração por eleições anuais
-   (d) transferir a capital para Alexandria
-
-### Checklist
-
-* [ ] Balanceia Médio + Novo (não vira “só Ramsés II”).
-* [ ] Contatos exteriores aparecem como **processo** (guerra + diplomacia).
-* [ ] Mantém foco em fatos estáveis e bem sintetizados.
-* [ ] Declínio tratado como **tensões e processos**, não “queda súbita”.
+* Enciclopédias: “Middle Kingdom of Egypt”, “New Kingdom of Egypt”.
+* Sínteses sobre império egípcio e relações internacionais no Oriente Próximo antigo.
 
 ---
 
-## 4) Religião, mitologia e culto aos mortos no Egito Antigo — `religiao_mitologia_e_culto_aos_mortos_no_egito_antigo`
+### Matriz de variação (eixos)
+
+* **Tempo / fase**
+
+  * Médio Império.
+  * Novo Império (inicial, apogeu, crise).
+
+* **Espaço / região**
+
+  * Vale do Nilo.
+  * Núbia.
+  * Levante (Síria-Palestina).
+
+* **Papel / ator**
+
+  * Faraós guerreiros.
+  * Militares.
+  * Diplomatas e emissários.
+  * Povos vassalos e aliados.
+
+* **Tema**
+
+  * Expansão territorial.
+  * Diplomacia e tratados.
+  * Exploração de recursos e tributos.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Em qual cidade se localizam muitos templos e túmulos do Novo Império, sendo um importante centro religioso dedicado a Amon?
+2. Qual faraó é frequentemente associado à batalha de Cades contra os hititas e a um famoso tratado de paz?
+
+**Múltipla escolha**
+
+1. O **Médio Império** é marcado, entre outros aspectos, por:
+   (a) completa ausência de poder central
+   (b) reunificação política e consolidação administrativa após o Primeiro Período Intermediário
+   (c) conquista romana do Egito
+   (d) domínio ptolomaico
+
+2. O **Novo Império** é frequentemente descrito como:
+   (a) um período de retração e isolamento total
+   (b) uma fase de expansão militar e formação de um império no Levante e na Núbia
+   (c) o período da construção das pirâmides de Gizé
+   (d) a época da dominação mongol sobre o Egito
+
+3. Os hicsos são geralmente descritos como:
+   (a) faraós nativos da Núbia
+   (b) grupos de origem asiática que dominaram parte do Delta durante o Segundo Período Intermediário
+   (c) sacerdotes de Amon em Tebas
+   (d) conquistadores romanos
+
+**Verdadeiro/Falso**
+
+1. ( ) No Novo Império, faraós egípcios comandaram campanhas militares até regiões da Síria e da Palestina.
+2. ( ) O Médio Império veio antes do Antigo Império.
+
+---
+
+### Checklist
+
+* Balancear **Médio** e **Novo Império**, evitando focar só em um.
+* Evitar transformar o microsubtema em biografia de um único faraó.
+* Foco em processos: expansão, império, contatos exteriores, tratados, crises.
+* Ater-se a fatos bem estabelecidos em sínteses de história do Egito.
+
+---
+
+## 4) Religião, mitologia e culto aos mortos no Egito Antigo
+
+`religiao_mitologia_e_culto_aos_mortos_no_egito_antigo`
 
 ```yaml
 ---
@@ -318,78 +460,123 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Universo religioso egípcio: deuses e mitos (incluindo Osíris), cosmologias (Heliópolis/Hermópolis/Mênfis), práticas de culto, e a centralidade do **mundo dos mortos** (ka/ba, julgamento, textos funerários). Relaciona templos, sacerdócio e poder.
+Enfoca o universo religioso do Egito Antigo: deuses principais, mitos de criação, o ciclo de Osíris, práticas de culto e a forte ênfase no mundo dos mortos. Inclui conceitos de alma (ka, ba), julgamento no além, livros funerários como o “Livro dos Mortos” e a relação entre templos, sacerdotes e poder político.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Deuses principais: Rá, Osíris, Ísis, Hórus, Seth, Anúbis etc.
-* Mitos de criação (tradições de centros específicos).
-* Mito de Osíris, julgamento e “pesagem do coração” (Maat).
-* Conceitos de pessoa/alma: ka, ba (e afins em nível introdutório).
-* Textos funerários: Textos das Pirâmides, Textos dos Sarcófagos, “Livro dos Mortos” (como conjunto/coleção).
-* Templos e sacerdócio: funções no culto e na vida política.
+* **Deuses e mitos principais**
+
+  * Rá, Osíris, Ísis, Hórus, Seth, Anúbis, entre outros.
+  * Mitologia de Osíris e o julgamento dos mortos.
+  * Mitos de criação (Heliópolis, Hermópolis, Mênfis).
+
+* **Culto aos mortos**
+
+  * Conceitos de ka, ba e outras dimensões da pessoa.
+  * Julgamento diante de Osíris e a pesagem do coração.
+  * Tumbas, oferendas e rituais funerários.
+
+* **Textos religiosos e funerários**
+
+  * Textos das Pirâmides.
+  * Textos dos Sarcófagos.
+  * “Livro dos Mortos” (em sentido amplo, coleção de feitiços).
+
+* **Templos e sacerdócio**
+
+  * Funções dos templos no culto aos deuses.
+  * Papel dos sacerdotes.
 
 **Exclusões**
 
-* Esoterismo contemporâneo/pseudociência (“maldições”, extraterrestres etc.).
-* Discussão técnica de “magia” baseada em fontes duvidosas.
-* Teologia comparada moderna como foco.
+* Interpretações esotéricas contemporâneas sem base em egiptologia acadêmica.
+* Discussões detalhadas de magia ou rituais secretos baseadas em fontes duvidosas.
 
 **Referências (exemplos)**
 
-* “Ancient Egyptian religion”, “Osiris”, “Maat”, “Book of the Dead”, “Pyramid Texts”, “Coffin Texts”.
-
-### Matriz de variação (eixos)
-
-* **Entidade/tema:** deuses solares | funerários | protetores | mito de Osíris | cosmologias | culto aos mortos.
-* **Tempo:** Antigo Império (Textos das Pirâmides) | Médio (Sarcófagos) | Novo (Livro dos Mortos e além).
-* **Atores:** faraó | sacerdotes | famílias | pessoas comuns (em práticas funerárias).
-* **Espaço:** templos | necrópoles | centros teológicos (Heliópolis/Hermópolis/Mênfis).
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual deus egípcio é central no mito de morte e ressurreição e no julgamento dos mortos no além?
-2. Como é conhecido, em português, o conjunto de textos funerários usado para orientar o falecido no além, frequentemente colocado em tumbas?
-3. Qual princípio/ordem cósmica e moral, associado à “pena” no julgamento, é ligado à deusa Maat?
-4. Qual deus é frequentemente associado à mumificação e à proteção dos mortos?
-
-**Múltipla escolha (4)**
-
-1. No julgamento dos mortos, o coração era:
-   (a) pesado em comparação com a pena de Maat
-   (b) queimado sem cerimônia
-   (c) jogado no Nilo sem ritual
-   (d) enviado a Roma para registro
-2. Rá está principalmente associado:
-   (a) à guerra marítima
-   (b) ao sol e à criação
-   (c) à agricultura do arroz
-   (d) ao panteão romano cristão
-3. “Ka” e “ba” são melhor entendidos como:
-   (a) nomes de pirâmides em Gizé
-   (b) conceitos ligados a dimensões da pessoa/identidade no pensamento religioso egípcio
-   (c) armas usadas pelo exército hitita
-   (d) moedas do Egito ptolomaico
-4. A sequência “Textos das Pirâmides → Textos dos Sarcófagos → Livro dos Mortos” indica principalmente:
-   (a) mudança total e imediata de religião no século XX
-   (b) tradições funerárias que variam por período e por suportes/textos
-   (c) tradução grega completa feita por Aristóteles
-   (d) documentos romanos sobre impostos
-
-### Checklist
-
-* [ ] Religião tratada como prática e instituição (templos/sacerdócio), não “curiosidade mística”.
-* [ ] Distingue conjuntos textuais (Pirâmides/Sarcófagos/Livro dos Mortos).
-* [ ] Evita sensacionalismo e pseudociência.
-* [ ] Conecta culto aos mortos a crenças e ritos (oferendas, julgamento, proteção).
+* Enciclopédias: “Ancient Egyptian religion”, “Osiris”, “Book of the Dead”.
+* Sínteses sobre mitologia egípcia e culto funerário.
 
 ---
 
-## 5) Sociedade, cotidiano e economia no Egito faraônico — `sociedade_cotidiano_e_economia_no_egito_faraonico`
+### Matriz de variação (eixos)
+
+* **Entidade / tema religioso**
+
+  * Deuses (solares, funerários, protetores).
+  * Mitologia de Osíris.
+  * Culto aos mortos.
+  * Criação e cosmologia.
+
+* **Tempo / fase**
+
+  * Textos das Pirâmides (Antigo Império).
+  * Textos dos Sarcófagos (Médio Império).
+  * “Livro dos Mortos” (Novo Império e além).
+
+* **Papel / ator**
+
+  * Faraó.
+  * Sacerdotes.
+  * Pessoas comuns e famílias.
+
+* **Espaço / local**
+
+  * Templos.
+  * Necrópoles.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Qual deus egípcio está fortemente associado ao julgamento dos mortos e ao mito de morte e ressurreição que envolve um trono no além?
+2. Como é conhecido, em português, o conjunto de textos funerários usados para guiar o falecido no além, frequentemente escritos em papiro e colocados em tumbas?
+
+**Múltipla escolha**
+
+1. No julgamento dos mortos, o coração do falecido era:
+   (a) pesado em balança em comparação com a pena da deusa Maat
+   (b) queimado imediatamente ao fim da cerimônia
+   (c) colocado em um vaso canópico separado
+   (d) arremessado no Nilo sem ritual
+
+2. Rá, na religião egípcia, está principalmente associado:
+   (a) à guerra marítima
+   (b) ao sol e à criação
+   (c) à agricultura do arroz
+   (d) ao submundo romano
+
+3. O culto a Osíris enfatiza:
+   (a) apenas vitória militar
+   (b) princípios de comércio marítimo
+   (c) morte, ressurreição e julgamento dos mortos
+   (d) rejeição de qualquer forma de vida após a morte
+
+**Verdadeiro/Falso**
+
+1. ( ) A crença em uma vida após a morte é central na religião egípcia antiga.
+2. ( ) O chamado “Livro dos Mortos” é uma coleção de textos e fórmulas funerárias que variava entre indivíduos e períodos.
+
+---
+
+### Checklist
+
+* Cobrir **religião oficial**, mitologia e práticas funerárias, sem misturar com crenças modernas.
+* Evitar sensacionalismo ligado a “maldições” e temas de cultura pop.
+* Manter distinção entre diferentes conjuntos de textos (Pirâmides, Sarcófagos, “Livro dos Mortos”).
+* Dar atenção à conexão entre religião e **organização política** (faraó, templos, sacerdotes).
+
+---
+
+## 5) Sociedade, cotidiano e economia no Egito faraônico
+
+`sociedade_cotidiano_e_economia_no_egito_faraonico`
 
 ```yaml
 ---
@@ -414,77 +601,123 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Vida social e econômica: estratos (camponeses, artesãos, escribas, sacerdotes, elites), família e gênero em linhas gerais, agricultura ligada às cheias do Nilo, tributos em espécie/trabalho, alimentação, moradia, vestuário e festividades.
+Analisa a organização social e o dia a dia no Egito faraônico: camponeses, artesãos, escribas e elites; estruturas familiares e de gênero; a importância do Nilo na economia agrícola; tributos, trabalho e formas de subsistência; vestimentas, alimentação e festividades.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Estrutura social: faraó/elites; sacerdotes; escribas; artesãos; camponeses.
-* Economia do Nilo: cheias, irrigação, cereais (trigo/cevada), linho, armazenamento.
-* Tributação e trabalho: tributos em espécie; corvéia/trabalho obrigatório (em nível geral).
-* Cotidiano: dieta (pão/cerveja etc.), moradia (adobe), higiene/cosméticos, calendário agrícola e festas.
-* Comparações cuidadosas entre Antigo/Médio/Novo Império (sem “virar cronologia política”).
+* **Estrutura social**
+
+  * Faraó e elite cortesã.
+  * Sacerdotes e escribas.
+  * Artesãos e trabalhadores especializados.
+  * Camponeses, base da economia agrícola.
+
+* **Economia e Nilo**
+
+  * Agricultura de enchente (cheias do Nilo).
+  * Cultivo de cereais (trigo, cevada), linho e outros produtos.
+  * Arrecadação de tributos em espécie e em trabalho.
+
+* **Família e gênero**
+
+  * Organização familiar.
+  * Papéis sociais de homens, mulheres e crianças em linhas gerais.
+
+* **Cotidiano**
+
+  * Alimentação básica.
+  * Habitação (casas de adobe, vilas).
+  * Vestimentas, higiene, cosméticos.
+  * Festas ligadas ao calendário e ao ciclo do Nilo.
 
 **Exclusões**
 
-* Biografias de faraós como foco.
-* Períodos ptolomaico/romano como centro.
-* Sensacionalismo (ex.: “segredos” sem lastro).
+* Biografias detalhadas de faraós, salvo quando ilustram aspectos sociais.
+* Questões sobre períodos pós-faraônicos (ptolomaico, romano) como foco principal.
+* Detalhes de práticas extremas ou sensacionalistas não essenciais.
 
 **Referências (exemplos)**
 
-* “Ancient Egyptian society”, “Daily life in ancient Egypt”, “Nile flood”, “Egyptian scribes”.
-
-### Matriz de variação (eixos)
-
-* **Tempo:** Antigo vs. Médio vs. Novo Império (comparações de vida material).
-* **Espaço:** campo vs. cidade; Alto vs. Baixo Egito (em nível geral).
-* **Grupo social:** camponeses | artesãos | escribas | sacerdotes | elite.
-* **Tema:** trabalho | tributos | família/gênero | alimentação | moradia | festas/calendário.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual rio era fundamental para a agricultura e a vida cotidiana no Egito faraônico, com cheias anuais que fertilizavam as margens?
-2. Qual grupo social, treinado em leitura e escrita, desempenhava funções administrativas e de registro?
-3. Cite dois itens frequentemente descritos como base alimentar no Egito antigo (em termos gerais).
-4. Que material de construção (barro misturado e seco) foi amplamente usado em casas e vilas no Egito antigo?
-
-**Múltipla escolha (4)**
-
-1. A base da economia do Egito faraônico era principalmente:
-   (a) mineração exclusiva de prata
-   (b) agricultura ligada às cheias do Nilo e à irrigação
-   (c) comércio de petróleo
-   (d) indústria automobilística
-2. Os escribas eram importantes porque:
-   (a) substituíam o faraó em batalhas
-   (b) registravam tributos, estoques e documentos administrativos
-   (c) eram trabalhadores sem instrução proibidos de escrever
-   (d) controlavam apenas templos e nunca a administração
-3. A maior parte da população do Egito faraônico era composta por:
-   (a) camponeses ligados à agricultura
-   (b) nobres proprietários exclusivamente urbanos
-   (c) mercadores marítimos vindos do Atlântico
-   (d) soldados profissionais permanentes (maioria absoluta)
-4. Tributos “em espécie” significam:
-   (a) pagamento apenas com moedas modernas
-   (b) entrega de produtos (como grãos) em vez de dinheiro
-   (c) pagamento com eletricidade
-   (d) pagamento com títulos de ações
-
-### Checklist
-
-* [ ] Mostra sociedade além das elites (camponeses/artesãos/escribas).
-* [ ] Nilo como eixo econômico e de calendário.
-* [ ] Evita anacronismos (produtos/tecnologias modernas).
-* [ ] Mantém foco em temas estáveis e bem documentados.
+* Enciclopédias: “Ancient Egyptian society”, “Daily life in ancient Egypt”.
+* Sínteses de história social e econômica do Egito Antigo.
 
 ---
 
-## 6) Escrita, conhecimento e administração: hieróglifos, papiro e burocracia — `escrita_conhecimento_e_administracao_no_egito_antigo`
+### Matriz de variação (eixos)
+
+* **Tempo / fase**
+
+  * Antigo, Médio e Novo Império (cotidiano comparado).
+
+* **Espaço / região**
+
+  * Campo vs. cidade.
+  * Alto vs. Baixo Egito.
+
+* **Papel / ator**
+
+  * Camponeses, artesãos, escribas, sacerdotes, nobres.
+  * Homens, mulheres, crianças.
+
+* **Tema**
+
+  * Trabalho e economia.
+  * Família e gênero.
+  * Alimentação, vestuário, moradia.
+  * Festas e rituais cotidianos.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Qual rio era fundamental para a agricultura e a vida cotidiana no Egito faraônico, com cheias anuais que fertilizavam as margens?
+2. Qual grupo social, treinado em leitura e escrita, desempenhava funções administrativas e de registro no Egito Antigo?
+
+**Múltipla escolha**
+
+1. A base da economia do Egito faraônico era:
+   (a) mineração exclusiva de prata
+   (b) agricultura irrigada pelas cheias do Nilo
+   (c) comércio de petróleo
+   (d) indústria automobilística
+
+2. Um alimento básico na dieta dos egípcios antigos era:
+   (a) pão e cerveja de cereais
+   (b) apenas carne de boi, sem vegetais
+   (c) batata frita industrializada
+   (d) chocolate em pó
+
+3. Os escribas no Egito eram:
+   (a) guerreiros encarregados de proteger as fronteiras
+   (b) especialistas em escrita, responsáveis por registros administrativos e documentos
+   (c) apenas sacerdotes do deus Rá
+   (d) trabalhadores escravizados sem instrução
+
+**Verdadeiro/Falso**
+
+1. ( ) A maior parte da população do Egito faraônico vivia em áreas rurais, dependendo da agricultura.
+2. ( ) A estrutura social egípcia era totalmente igualitária, sem distinções de status.
+
+---
+
+### Checklist
+
+* Dar visibilidade a diferentes grupos sociais, não apenas às elites.
+* Destacar o papel central do **Nilo** na economia e no cotidiano.
+* Evitar anacronismos (como mencionar produtos modernos).
+* Manter o foco em temas estáveis e bem documentados (habitação, dieta, trabalho, família).
+
+---
+
+## 6) Escrita, conhecimento e administração: hieróglifos, papiro e burocracia
+
+`escrita_conhecimento_e_administracao_no_egito_antigo`
 
 ```yaml
 ---
@@ -509,75 +742,118 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Escrita como tecnologia de Estado: hieróglifos e formas cursivas (hierática/demótica), papiro e outros suportes, formação e papel dos escribas, registros fiscais/administrativos e conhecimento aplicado (medição, calendário, observação astronômica).
+Explora a relação entre escrita, produção de conhecimento e administração no Egito Antigo. Inclui o sistema de hieróglifos e outras formas de escrita (hierática, demótica), o uso do papiro, o papel dos escribas, o registro de impostos e censos, bem como aplicações de matemática e astronomia na gestão do Estado e do calendário.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Sistemas: hieroglífica (monumental/religiosa), hierática (administrativa/cotidiana), demótica (períodos mais tardios).
-* Suportes: papiro, estelas, paredes, ostraca.
-* Escribas e burocracia: impostos, censos, estoques, cartas, decretos.
-* Conhecimento aplicado: medição de terras; matemática prática; calendário e observação astronômica ligados ao ciclo do Nilo.
+* **Sistemas de escrita**
+
+  * Escrita hieroglífica: funções monumental e religiosa.
+  * Escrita hierática (uso cotidiano, administrativo e literário).
+  * Escrita demótica (períodos posteriores).
+
+* **Suportes e materiais**
+
+  * Papiro e outros suportes (paredes, estelas, ostraca).
+
+* **Escribas e burocracia**
+
+  * Formação de escribas.
+  * Funções administrativas: impostos, estoque, cartas, registros.
+
+* **Conhecimento aplicado**
+
+  * Matemática para medição de terras e construção.
+  * Astronomia e calendário (ciclo das cheias, festas religiosas).
 
 **Exclusões**
 
-* Gramática/vocabulário técnico e exercícios de tradução.
-* Decifração moderna como foco principal (entra melhor em “redescoberta”, se usado).
+* Detalhamento técnico exaustivo de gramática ou vocabulário.
+* Foco principal em decifração moderna (isso entra mais no microsubtema de redescoberta, se necessário).
 
 **Referências (exemplos)**
 
-* “Egyptian hieroglyphs”, “Hieratic script”, “Demotic script”, “Papyrus”, “Scribes in ancient Egypt”.
-
-### Matriz de variação (eixos)
-
-* **Tipo de escrita:** hieróglifos | hierática | demótica.
-* **Função:** monumental/religiosa | administrativa | escolar/literária.
-* **Atores:** escribas | administradores | sacerdotes | oficiais locais.
-* **Tema:** impostos/estoques | correspondência | decretos | medição | calendário/festas.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Como se chama o sistema de escrita egípcio baseado em sinais figurativos, muito usado em monumentos e textos religiosos?
-2. Qual material, produzido a partir de uma planta associada ao Nilo, foi amplamente usado para registros escritos no Egito antigo?
-3. Como se chama a forma cursiva dos hieróglifos, muito usada em papiros e documentos do dia a dia?
-4. Como se chama a escrita usada em períodos mais tardios do Egito, frequentemente associada a usos administrativos, conhecida como “demótica”?
-
-**Múltipla escolha (4)**
-
-1. A escrita hierática é:
-   (a) forma cursiva dos hieróglifos, usada em documentos e papiros
-   (b) escrita inventada na Mesopotâmia
-   (c) alfabeto latino adaptado ao Egito
-   (d) escrita chinesa usada em Alexandria
-2. Os escribas eram essenciais porque:
-   (a) construíam pirâmides sem qualquer função administrativa
-   (b) mantinham registros de tributos, estoques e decisões do Estado
-   (c) não sabiam ler e atuavam apenas como soldados
-   (d) eram sempre estrangeiros proibidos de registrar impostos
-3. Ostraca são melhor descritos como:
-   (a) satélites artificiais do deserto
-   (b) fragmentos (geralmente de cerâmica/pedra) usados como suporte de escrita
-   (c) moedas de ouro ptolomaicas
-   (d) nomes de faraós do Antigo Império
-4. Observação astronômica e calendário se ligavam, entre outras coisas, à necessidade de:
-   (a) organizar festas e prever épocas ligadas ao ciclo anual do Nilo
-   (b) calcular órbitas de satélites modernos
-   (c) construir relógios atômicos
-   (d) prever terremotos com precisão contemporânea
-
-### Checklist
-
-* [ ] Escrita como **ferramenta de poder e gestão**, não só estética.
-* [ ] Diferencia hieróglifos/hierática/demótica com funções típicas.
-* [ ] Conecta conhecimento aplicado a usos concretos (medição/calendário/tributos).
-* [ ] Evita virar aula técnica de linguística.
+* Enciclopédias: “Egyptian hieroglyphs”, “Hieratic script”, “Papyrus”.
+* Sínteses de história da alfabetização e burocracia no Egito Antigo.
 
 ---
 
-## 7) Monumentos, arqueologia e redescoberta do Egito Antigo — `monumentos_arqueologia_e_redescoberta_do_egito_antigo`
+### Matriz de variação (eixos)
+
+* **Tipo de escrita**
+
+  * Hieróglifos, hierática, demótica.
+
+* **Função**
+
+  * Monumental/religiosa.
+  * Administrativa.
+  * Literária/escolar.
+
+* **Papel / ator**
+
+  * Escribas.
+  * Administradores.
+  * Sacerdotes.
+
+* **Tema**
+
+  * Registro de impostos e estoques.
+  * Calendário e astronomia.
+  * Produção de textos religiosos, literários e jurídicos.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Como se chama o sistema de escrita egípcio baseado em sinais figurativos, usado em monumentos e textos religiosos?
+2. Qual material de escrita, produzido a partir de uma planta do Nilo, era amplamente utilizado para registros no Egito Antigo?
+
+**Múltipla escolha**
+
+1. A escrita **hierática** é:
+   (a) uma forma cursiva dos hieróglifos, usada em papiros e documentos do dia a dia
+   (b) um tipo de escrita inventado na Mesopotâmia
+   (c) uma forma de escrita grega usada em Alexandria
+   (d) o nome egípcio para o alfabeto latino
+
+2. Os escribas eram importantes porque:
+   (a) eram responsáveis apenas pela construção de pirâmides
+   (b) controlavam, por meio da escrita, registros de tributos, estoques e decretos
+   (c) substituíam o faraó em batalhas
+   (d) exerciam funções militares sem saber ler
+
+3. A observação astronômica e o calendário estavam ligados à necessidade de:
+   (a) planejar as cheias do Nilo e as épocas de plantio
+   (b) calcular órbitas de satélites artificiais
+   (c) construir relógios atômicos
+   (d) prever terremotos com precisão moderna
+
+**Verdadeiro/Falso**
+
+1. ( ) A escrita hieroglífica combinava sinais que podiam representar sons, ideias e palavras.
+2. ( ) A burocracia egípcia utilizava registros escritos para controlar recursos e impostos do Estado.
+
+---
+
+### Checklist
+
+* Destacar a escrita como **ferramenta de poder e administração**, não só como curiosidade estética.
+* Diferenciar claramente hieróglifos, hierática e demótica.
+* Relacionar conhecimento (matemática, astronomia) a usos concretos no Estado.
+* Evitar transformar o microsubtema em estudo linguístico técnico demais.
+
+---
+
+## 7) Monumentos, arqueologia e redescoberta do Egito Antigo
+
+`monumentos_arqueologia_e_redescoberta_do_egito_antigo`
 
 ```yaml
 ---
@@ -598,80 +874,120 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-**Natureza.** Temático
+**Natureza.** Temático (com eixo transversal de patrimônio)
 **Localização.** Irrestrita
 
 **Descrição.**
-Monumentos e patrimônio + história da arqueologia/egiptologia: grandes sítios (templos, tumbas, pirâmides), achados marcantes (Tutancâmon), Pedra de Roseta e decifração dos hieróglifos, e “redescoberta” moderna (séculos XVIII–XX), com ênfase em fatos bem estabelecidos.
+Reúne temas ligados aos grandes monumentos do Egito faraônico, à história da arqueologia na região e à redescoberta moderna do Egito Antigo. Inclui templos e túmulos famosos, achados arqueológicos marcantes, a Pedra de Roseta e a decifração dos hieróglifos, e o desenvolvimento da egiptologia como campo de estudo.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Monumentos: Gizé, Saqqara, Dahshur; Karnak/Luxor; Abu Simbel; Vale dos Reis/Rainhas.
-* Arqueologia: descoberta da tumba de Tutancâmon; necrópoles e escavações notáveis.
-* Decifração: Pedra de Roseta; Champollion e o processo de leitura dos hieróglifos.
-* Egiptologia como campo: consolidação entre explorações, coleções, publicações e métodos.
-* Preservação/patrimônio: menções gerais a campanhas de salvamento (ex.: Abu Simbel no séc. XX), sem política turística detalhada.
+* **Monumentos principais**
+
+  * Pirâmides de Gizé, Saqqara, Dahshur.
+  * Templos de Karnak, Luxor, Abusimbel.
+  * Vales dos Reis e das Rainhas.
+
+* **Achados arqueológicos**
+
+  * Descoberta da tumba de Tutancâmon.
+  * Outros achados importantes em necrópoles reais e privadas.
+
+* **Decifração e egiptologia**
+
+  * Pedra de Roseta.
+  * Trabalho de Champollion e outros.
+  * Consolidação da egiptologia como disciplina.
+
+* **Preservação e patrimônio**
+
+  * Campanhas de resgate de monumentos (como em Abusimbel, no século XX) – em menções gerais.
 
 **Exclusões**
 
-* Pseudociência/sensacionalismo (extraterrestres, “maldições” como tese).
-* Políticas contemporâneas detalhadas de turismo e disputa de acervos (pode aparecer só como nota, se necessário).
+* Políticas contemporâneas detalhadas de turismo e preservação.
+* Especulações sensacionalistas e pseudocientíficas (extraterrestres, maldições etc.).
 
 **Referências (exemplos)**
 
-* “Egyptology”, “Rosetta Stone”, “Jean-François Champollion”, “Tutankhamun”, “Howard Carter”, “Valley of the Kings”, “Abu Simbel”.
-
-### Matriz de variação (eixos)
-
-* **Tipo:** pirâmides | templos | tumbas rupestres | artefatos (Pedra de Roseta).
-* **Lugar:** Gizé | Saqqara | Luxor/Tebas | Vale dos Reis | Abu Simbel.
-* **Tempo:** época faraônica (construção) | moderna (descoberta/decifração) | preservação (séc. XX).
-* **Tema:** arqueologia | egiptologia | decifração | patrimônio e salvamento.
-
-### Exemplos de enunciados
-
-**Abertas (4)**
-
-1. Qual é o nome da estela trilingue descoberta no fim do século XVIII que foi fundamental para a decifração dos hieróglifos?
-2. Qual vale, próximo à antiga Tebas, abriga numerosas tumbas de faraós do Novo Império escavadas na rocha?
-3. Quem é o estudioso frequentemente associado à decifração dos hieróglifos no século XIX?
-4. Quem liderou a descoberta da tumba de Tutancâmon no início do século XX?
-
-**Múltipla escolha (4)**
-
-1. A tumba de Tutancâmon foi descoberta por:
-   (a) Jean-François Champollion
-   (b) Howard Carter
-   (c) Napoleão Bonaparte
-   (d) Djoser
-2. A Pedra de Roseta contém inscrições em:
-   (a) hieróglifos, demótico e grego
-   (b) hieróglifos, grego e latim
-   (c) cuneiforme, fenício e latim
-   (d) apenas hieróglifos
-3. O Vale dos Reis é especialmente importante por:
-   (a) ser um porto comercial do Delta
-   (b) abrigar tumbas reais do Novo Império
-   (c) concentrar pirâmides do Antigo Império
-   (d) ser uma cidade fundada por Alexandre
-4. Os templos de Abu Simbel são conhecidos, entre outros motivos, por:
-   (a) terem sido deslocados para evitar submersão por um lago artificial
-   (b) terem sido construídos na Roma antiga
-   (c) serem tumbas cristãs medievais
-   (d) ficarem localizados em Gizé
-
-### Checklist
-
-* [ ] Diferencia “época faraônica” vs. “redescoberta moderna”.
-* [ ] Evita pseudociência e cultura pop como explicação.
-* [ ] Equilíbrio entre monumentos, arqueologia e decifração.
-* [ ] Fatos estáveis, bem documentados em sínteses de egiptologia.
+* Enciclopédias: “Egyptology”, “Valley of the Kings”, “Rosetta Stone”, “Tutankhamun”.
+* Obras de síntese sobre arqueologia egípcia.
 
 ---
 
-## 8) Egito Ptolemaico: dinastia lágida e mundo helenístico — `egito_ptolomaico_dinastia_lagida_e_mundo_helenistico`
+### Matriz de variação (eixos)
+
+* **Tipo de monumento**
+
+  * Pirâmides, templos, tumbas escavadas na rocha.
+
+* **Localização**
+
+  * Gizé, Saqqara, Luxor, Abusimbel, Vale dos Reis, etc.
+
+* **Tempo / fase**
+
+  * Construção faraônica.
+  * “Redescoberta” moderna e escavações (séculos XVIII–XX).
+
+* **Tema**
+
+  * Arquitetura e arte.
+  * Descobertas arqueológicas.
+  * Decifração da escrita.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Qual é o nome da estela trilingue descoberta no final do século XVIII que foi fundamental para a decifração dos hieróglifos egípcios?
+2. Qual vale, próximo à antiga Tebas, abriga numerosas tumbas de faraós do Novo Império escavadas na rocha?
+
+**Múltipla escolha**
+
+1. A tumba de Tutancâmon foi descoberta no início do século XX por:
+   (a) Jean-François Champollion
+   (b) Howard Carter
+   (c) Napoleão Bonaparte
+   (d) Ramsés II
+
+2. A Pedra de Roseta contém inscrições em:
+   (a) hieróglifos, grego e latim
+   (b) cuneiforme, fenício e latim
+   (c) hieróglifos, demótico e grego
+   (d) apenas hieróglifos
+
+3. Os templos de Abusimbel são conhecidos, entre outros motivos, por:
+   (a) terem sido desmontados e deslocados para evitar que fossem submersos por um lago artificial
+   (b) terem sido construídos na Roma antiga
+   (c) serem tumbas romanas cristãs
+   (d) ficarem localizados em Gizé
+
+**Verdadeiro/Falso**
+
+1. ( ) A egiptologia se consolidou como campo de estudo a partir das explorações e decifração da escrita egípcia nos séculos XVIII e XIX.
+2. ( ) O Vale dos Reis é um importante sítio funerário de faraós do Novo Império.
+
+---
+
+### Checklist
+
+* Equilibrar foco entre **monumentos**, **descobertas arqueológicas** e **processo de redescoberta** moderna.
+* Evitar teorias pseudocientíficas e sensacionalismo.
+* Marcar claramente a diferença entre época faraônica e pesquisas modernas.
+* Trabalhar com fatos aceitos em sínteses de arqueologia e história da egiptologia.
+
+---
+
+## 8) Egito Ptolemaico: dinastia lágida e mundo helenístico
+
+`egito_ptolomaico_dinastia_lagida_e_mundo_helenistico`
 
 ```yaml
 ---
@@ -696,71 +1012,118 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Egito sob os ptolomeus (dinastia lágida): reino helenístico com elite greco-macedônica, **Alexandria** como centro urbano e intelectual, administração e economia, fusões culturais e religiosas (ex.: Serápis) e o caminho até a incorporação romana (Cleópatra VII como marco final).
+Trata do Egito sob a dinastia ptolemaica (lágida), desde a conquista de Alexandre, o Grande, até a incorporação do território ao Império Romano. Enfoca a fusão cultural greco-egípcia, o papel de Alexandria como centro urbano e intelectual, a administração dinástica e as relações com o Mediterrâneo, culminando em figuras como Cleópatra VII.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Formação do reino: Alexandre e Alexandria; Ptolomeu I e sucessores (visão geral).
-* Sociedade/administração: elite grega, população egípcia, fiscalidade e economia agrícola/comercial.
-* Cultura: Alexandria (biblioteca/museu); produção intelectual e identidades.
-* Religião/cultos sincréticos (ex.: Serápis) e continuidade/adaptação de tradições egípcias.
-* Relações externas: mundo helenístico e pressão romana; fim dinástico (Cleópatra VII) e província romana.
+* **Transição e formação do reino ptolomaico**
+
+  * Conquista de Alexandre e fundação de Alexandria.
+  * Estabelecimento da dinastia ptolemaica (Ptolomeu I e sucessores).
+
+* **Administração e sociedade**
+
+  * Realeza de origem macedônica/greco-macedônica.
+  * Interação entre população grega e egípcia.
+  * Estrutura econômica: agricultura, impostos, comércio mediterrânico.
+
+* **Cultura e identidade**
+
+  * Alexandria como centro cultural e científico (biblioteca, museu).
+  * Cultos sincréticos (por exemplo, Serápis).
+  * Manutenção e adaptação de tradições egípcias sob domínio helenístico.
+
+* **Relações externas e fim do reino**
+
+  * Relações com outras potências helenísticas.
+  * Crescente influência e intervenção romana.
+  * Cleópatra VII e o fim da dinastia ptolemaica, com o Egito tornando-se província romana.
 
 **Exclusões**
 
-* História romana posterior como foco central.
-* Egito faraônico anterior como assunto principal (aqui é contexto/contraste).
+* Detalhes exaustivos da história romana posterior.
+* História egípcia anterior ao período ptolomaico como foco central (está em outros microsubtemas).
 
 **Referências (exemplos)**
 
-* “Ptolemaic Kingdom”, “Ptolemy I Soter”, “Alexandria”, “Library of Alexandria”, “Serapis”, “Cleopatra VII”.
+* Enciclopédias: “Ptolemaic Kingdom”, “Cleopatra VII”, “Alexandria”.
+* Sínteses sobre mundo helenístico e Egito ptolomaico.
+
+---
 
 ### Matriz de variação (eixos)
 
-* **Fase:** início (Ptolomeu I–II) | meio | crise/fim (Cleópatra VII).
-* **Espaço:** Alexandria | Vale do Nilo | relações mediterrânicas (Grécia/Roma).
-* **Atores:** reis ptolomaicos | elites helênicas | população egípcia | Roma (potência externa).
-* **Tema:** administração | fiscalidade/economia | cultura | sincretismo | diplomacia/guerra.
+* **Tempo / fase**
+
+  * Fase inicial (Ptolomeu I–II).
+  * Período intermediário.
+  * Crise e fim (Cleópatra VII).
+
+* **Espaço / região**
+
+  * Alexandria.
+  * Vale do Nilo (interior).
+  * Relações com o Mediterrâneo (Grécia, Roma, Ásia Menor).
+
+* **Papel / ator**
+
+  * Reis ptolomaicos.
+  * Elite grega/helênica.
+  * População egípcia.
+  * Roma como potência externa.
+
+* **Tema**
+
+  * Poder político e administração.
+  * Fusão cultural.
+  * Economia e comércio.
+  * Relações internacionais e guerras.
+
+---
 
 ### Exemplos de enunciados
 
-**Abertas (4)**
+**Aberta**
 
-1. Qual cidade, fundada na época de Alexandre, tornou-se centro urbano e intelectual do Egito ptolomaico?
-2. Como se chama a última rainha da dinastia ptolomaica, associada ao fim do reino diante da expansão romana?
-3. Qual dinastia (nome) governou o Egito no período ptolomaico, também conhecida como “lágida”?
-4. Cite um exemplo de culto/divindade sincrética frequentemente associado ao Egito ptolomaico (como caso clássico).
+1. Qual cidade, fundada na época de Alexandre, o Grande, tornou-se um importante centro urbano e intelectual do Egito ptolomaico?
+2. Como se chama a última rainha da dinastia ptolomaica, associada à resistência frente à expansão romana e a figuras como Júlio César e Marco Antônio?
 
-**Múltipla escolha (4)**
+**Múltipla escolha**
 
-1. A dinastia ptolomaica tinha origem principalmente:
+1. A dinastia ptolomaica tinha origem:
    (a) núbia
    (b) greco-macedônica
    (c) romana republicana
-   (d) sassânida
+   (d) persa sassânida
+
 2. A famosa biblioteca da Antiguidade frequentemente associada ao Egito ptolomaico ficava em:
    (a) Tebas
    (b) Gizé
    (c) Alexandria
    (d) Mênfis
-3. O Egito tornou-se província romana após:
-   (a) a derrota final de Cleópatra VII e Marco Antônio
-   (b) a expulsão dos hicsos
-   (c) a construção da pirâmide de Djoser
-   (d) a reunificação do Médio Império
-4. Serápis é geralmente entendido como:
-   (a) um deus sincrético promovido no Egito helenístico
-   (b) um general romano do século III d.C.
-   (c) o nome de uma pirâmide em Gizé
-   (d) uma escrita cursiva egípcia
+
+3. O Egito tornou-se província do Império Romano após:
+   (a) a derrota de Cleópatra VII e Marco Antônio
+   (b) a derrota de Ramsés II em Cades
+   (c) a expulsão dos hicsos
+   (d) a chegada de Alexandre, o Grande
+
+**Verdadeiro/Falso**
+
+1. ( ) No período ptolomaico, havia uma elite de origem grega convivendo com uma população majoritariamente egípcia.
+2. ( ) O Egito ptolomaico manteve-se sempre isolado, sem relação com o mundo mediterrânico.
+
+---
 
 ### Checklist
 
-* [ ] Enfatiza caráter **helenístico** (não “continuação igual” do Egito faraônico).
-* [ ] Equilibra interno (administração/sociedade) + externo (Mediterrâneo/Roma).
-* [ ] Não vira “biografia da Cleópatra”, embora ela apareça como marco final.
-* [ ] Mantém fatos amplamente aceitos e estáveis.
+* Destacar o **caráter helenístico** do período, sem tratá-lo como mera continuação “igual” ao Egito faraônico anterior.
+* Abordar tanto a dimensão interna (administração, sociedade, fusão cultural) quanto externa (relações mediterrânicas, Roma).
+* Evitar transformar o microsubtema em uma biografia exclusiva de Cleópatra VII.
+* Manter foco em fatos amplamente aceitos na historiografia sobre o mundo helenístico.
 
 ---

@@ -1,10 +1,6 @@
-Abaixo está o **texto completo revisado**, com **distratores mais plausíveis** nas questões de múltipla escolha (para “haver dúvida”), mantendo o restante igual.
+## 1) Primeiros estados e cidades da Idade do Bronze no Crescente Fértil
 
----
-
-## 1) Oriente Próximo na Idade do Bronze: cidades, escrita e grandes potências
-
-`bronze_oriente`
+`primeiros_estados_e_cidades_do_crescente_fertil`
 
 ```yaml
 ---
@@ -13,8 +9,8 @@ tema_clean: "historia"
 subtema: "Idade do Bronze"
 subtema_clean: "idade_do_bronze"
 
-microsubtema: "Oriente Próximo na Idade do Bronze: cidades, escrita e grandes potências"
-microsubtema_clean: "bronze_oriente"
+microsubtema: "Primeiros estados e cidades da Idade do Bronze no Crescente Fértil"
+microsubtema_clean: "primeiros_estados_e_cidades_do_crescente_fertil"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -29,69 +25,108 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Abrange a formação de **cidades e Estados** no Crescente Fértil e a evolução para **reinos e impérios**, chegando ao “sistema internacional” do **Bronze tardio** no Oriente Próximo. Inclui urbanização mesopotâmica, **escrita cuneiforme**, templos e palácios, Império de Acad, Babilônia antiga, centros siro-levantinos com arquivos, e as grandes potências do Bronze tardio (Egito do Novo Império na dimensão externa, Hatti/hititas, Mitani, Assíria do período, Babilônia cassita), com destaque para diplomacia (por exemplo, **Cartas de Amarna**) e vassalagem no Levante.
+Foca a formação e consolidação de estados e cidades na Idade do Bronze no Crescente Fértil (Mesopotâmia e Levante), destacando processos de urbanização, burocracia, escrita cuneiforme e o papel de templos e palácios na organização política e econômica.
+
+---
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* **Mesopotâmia (Bronze antigo e médio)**: cidades sumérias (Uruk, Ur, Lagash etc. em linhas gerais); burocracia e arquivos; escrita cuneiforme em usos administrativos e legais.
-* **Impérios e reinos**: Acad (Sargão e sucessores, visão geral); Babilônia antiga (Hammurabi como referência de tradição legal/administrativa, em síntese).
-* **Síria e Levante**: cidades-Estado e reinos com palácios e arquivos (Ebla, Mari, Ugarit etc.); redes políticas locais e vassalagem.
-* **Bronze tardio (grandes potências e diplomacia)**: Egito (foco externo), Hatti, Mitani, Assíria do período, Babilônia cassita; tratados, casamentos diplomáticos, presentes, “grandes reis”; **Cartas de Amarna** como fonte-chave.
-* **Temas institucionais**: templo e palácio como centros de poder, armazenamento e trabalho especializado; administração, tributação e mobilização de mão de obra (em linhas gerais).
+* **Mesopotâmia**
+
+  * Cidades sumérias (Uruk, Ur, Lagash etc.) em fases iniciais da Idade do Bronze.
+  * Império de Sargão de Acad e sucessores.
+  * Reino da Babilônia antiga (por exemplo, Hammurabi).
+
+* **Levante e Síria**
+
+  * Cidades-Estado cananeias e sírias (p.ex., Ebla, Mari, Ugarit).
+  * Relações com grandes potências vizinhas (Egito, Hatti etc., quando ainda na Idade do Bronze).
+
+* **Instituições e urbanização**
+
+  * Papel dos templos como centros econômicos e religiosos.
+  * Palácios, realeza e administração centralizada.
+  * Escrita cuneiforme para registros administrativos, jurídicos e diplomáticos.
 
 **Exclusões**
 
-* Neoassírio e neobabilônico (Idade do Ferro).
-* História interna do Egito como eixo principal (entra apenas na rede do Oriente Próximo).
-* Períodos clássicos/helênicos/romanos.
+* Impérios assírios e babilônicos da Idade do Ferro (Neoassírio, Neo-babilônico).
+* História detalhada do Egito fora da conexão com o Crescente Fértil.
+* Períodos claramente pós-Bronze (clássico, helenístico etc.).
 
 **Referências (exemplos)**
 
-* “Early Dynastic Period (Mesopotamia)”, “Akkadian Empire”, “Old Babylonian period”, “Ebla”, “Mari”, “Ugarit”, “Amarna letters”, “Hittite Empire”, “Mitanni”, “Kassite dynasty”.
+* Entradas gerais: “Early Dynastic Period (Mesopotamia)”, “Akkadian Empire”, “Old Babylonian period”, “Ebla”, “Mari (Syria)”.
+
+---
 
 ### Matriz de variação (eixos)
 
-* **Tempo**: Bronze antigo/médio (urbanização e primeiros impérios) vs. Bronze tardio (potências e diplomacia).
-* **Espaço**: sul/norte mesopotâmico; Síria/Levante; Anatólia; Egito (conexões).
-* **Entidade política**: cidade-Estado, reino, império; vassalos no Levante.
-* **Fonte/evidência**: tabuletas/arquivos; tratados e cartas; arqueologia urbana/palacial.
-* **Instituição**: templo, palácio, burocracia, tributação, diplomacia.
+* **Espaço / região**
+
+  * Sul mesopotâmico (Suméria).
+  * Norte mesopotâmico e Acad.
+  * Cidades sírias e cananeias.
+
+* **Tipo de entidade política**
+
+  * Cidades-Estado.
+  * Reinos e impérios territoriais.
+
+* **Instituição / tema**
+
+  * Templos.
+  * Palácios.
+  * Escrita e burocracia.
+
+* **Tempo / fase**
+
+  * Idade do Bronze antiga e média (aprox.).
+  * Passagens para a Idade do Bronze tardia na região.
+
+---
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-1. Qual sistema de escrita em tabuletas de argila foi amplamente usado na Mesopotâmia na Idade do Bronze?
-2. Como se chamam as cartas diplomáticas encontradas em Tell el-Amarna, importantes para entender a política do Bronze tardio?
-3. Cite um centro siro-levantino famoso por arquivos de tabuletas associados a palácios (ex.: Mari, Ebla, Ugarit).
+1. Qual forma de escrita, registrada em tabuletas de argila, foi amplamente usada na Mesopotâmia para fins administrativos, jurídicos e literários durante a Idade do Bronze?
+2. Como se chama o império fundado por Sargão, considerado um dos primeiros grandes impérios territoriais da Mesopotâmia?
 
-**Múltipla escolha (distratores revisados)**
+**Múltipla escolha**
 
-1. No Bronze tardio, a região do Levante/Síria foi frequentemente:
-   (a) um corredor de **cidades-Estado e reinos locais** que, em muitos momentos, negociavam autonomia entre vizinhos maiores
-   (b) uma zona **disputada por grandes potências**, com cidades vassalas, alianças e mudanças de hegemonia
-   (c) uma área sob **domínio estável e contínuo de uma única potência** por séculos, sem alternância de influência
-   (d) um espaço de **povos majoritariamente nômades**, com poucas cidades e mínima diplomacia registrada
+1. As cidades sumérias, como Uruk e Ur, são frequentemente descritas como:
+   (a) aldeias rurais sem especialização
+   (b) centros urbanos com templos e palácios, especializados em atividades administrativas e religiosas
+   (c) colônias gregas
+   (d) postos militares romanos
 
-2. Em muitas cidades do Bronze no Oriente Próximo, templos e palácios também atuavam como:
-   (a) centros principalmente rituais, com **papel econômico limitado** em comparação a famílias e clãs locais
-   (b) centros de **administração, armazenamento e redistribuição** de bens, conectados à burocracia
-   (c) instituições voltadas sobretudo a **treinamento militar e defesa**, funcionando como quartéis e arsenais
-   (d) espaços dedicados quase exclusivamente a **formação de escribas e produção de textos**, sem ligação com gestão de recursos
+2. Os templos mesopotâmicos, na Idade do Bronze, funcionavam também como:
+   (a) simples locais de culto sem papel econômico
+   (b) centros econômicos, com terras, oficinas e armazenamento de produtos
+   (c) fortalezas militares exclusivas
+   (d) escolas de filosofia grega
 
-### Checklist
+**Verdadeiro/Falso**
 
-* Priorizar **processos e instituições** (urbano, escrita, palácio/templo, diplomacia), não listas de reis.
-* Diferenciar Bronze tardio de impérios do Ferro (neoassírio etc.).
-* Tratar o Egito **no recorte das relações externas** com o Oriente Próximo.
+1. ( ) Cidades como Mari e Ebla, no Levante, tinham palácios e arquivos de tabuletas, mostrando administração complexa na Idade do Bronze.
+2. ( ) A escrita cuneiforme era usada apenas para escrever poemas, não tendo qualquer relação com a administração do Estado.
 
 ---
 
-## 2) Egeu na Idade do Bronze: minoicos e micênicos
+### Checklist
 
-`bronze_egeu`
+* Destacar o **Crescente Fértil**, evitando misturar com Europa ou Egeu.
+* Dar ênfase à **urbanização, escrita e instituições**.
+* Evitar cronologias hiper técnicas, usando recortes “Bronze antigo/médio” de forma geral.
+
+---
+
+## 2) Civilizações palaciais do Egeu: minoicos e micênicos
+
+`civilizacoes_palaciais_do_egeu_minoicos_e_micenicos`
 
 ```yaml
 ---
@@ -100,8 +135,8 @@ tema_clean: "historia"
 subtema: "Idade do Bronze"
 subtema_clean: "idade_do_bronze"
 
-microsubtema: "Egeu na Idade do Bronze: minoicos e micênicos"
-microsubtema_clean: "bronze_egeu"
+microsubtema: "Civilizações palaciais do Egeu: minoicos e micênicos"
+microsubtema_clean: "civilizacoes_palaciais_do_egeu_minoicos_e_micenicos"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -116,64 +151,94 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Foca as civilizações palaciais do Egeu, comparando **Creta minoica** e a **Grécia micênica**. Destaca palácios, economia redistributiva, redes marítimas e cultura material, além das escritas **Linear A** (não decifrada) e **Linear B** (decifrada e ligada ao grego micênico), e as reconfigurações no final do Bronze.
+Trata das civilizações palaciais da Idade do Bronze no Egeu, com foco em Creta minoica e na Grécia micênica. Analisa centros palaciais, escrita (Linear A e Linear B), economia redistributiva, redes marítimas, cultura material e o colapso no final da Idade do Bronze.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Minoicos: palácios (Cnossos, Festo, Mália, Zakros), armazenamento/administração, arte mural (visão geral), Linear A (caracterização).
-* Micênicos: centros (Micenas, Tirinto, Pilos, Tebas), fortificações, túmulos (tholos em linhas gerais), Linear B e registros administrativos.
-* Contatos e trocas no Mediterrâneo oriental (em síntese).
-* Fim do sistema palacial (destruições/abandono e mudanças, em visão geral).
+* **Minoicos (Creta)**
+
+  * Palácios de Cnossos, Festo, Mália, Zakros.
+  * Pinturas murais, arte e possíveis práticas religiosas.
+  * Escrita Linear A (não decifrada) em linhas gerais.
+
+* **Micênicos (Grécia continental)**
+
+  * Centros como Micenas, Tirinto, Pilos, Tebas.
+  * Fortificações, túmulos de câmara e “tholos”.
+  * Escrita Linear B (proto-grego, decifrada).
+
+* **Economia e redes**
+
+  * Palácios como centros de redistribuição e armazenamento.
+  * Comércio marítimo, contatos com Egito, Levante e outras regiões.
+
+* **Colapso**
+
+  * Destruição de palácios no fim da Idade do Bronze (contexto geral).
 
 **Exclusões**
 
-* Pólis clássica e história grega posterior como foco.
-* Mitos como “prova histórica” (podem aparecer apenas como tradição posterior contextualizada).
+* Época homérica e polis clássica, salvo menções comparativas cuidadosas.
+* Narrativas mitológicas vistas como “fato literal” (labirinto, Minotauro etc.).
 
 **Referências (exemplos)**
 
 * “Minoan civilization”, “Mycenaean Greece”, “Linear A”, “Linear B”.
 
-### Matriz de variação (eixos)
+---
+
+### Matriz de variação
 
 * **Civilização**: minoica vs. micênica.
-* **Tema**: palácio, escrita, economia, comércio, guerra/fortificação, crise final.
-* **Fonte**: arqueologia vs. tabuletas/inscrições.
+* **Espaço**: Creta vs. Grécia continental e ilhas.
+* **Tema**: palácios, escrita, comércio, arte, colapso.
+* **Tipo de fonte**: arqueologia, inscrições, referências posteriores (Homero).
+
+---
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-1. Qual sistema de escrita egeu permanece não decifrado e é associado a contextos minoicos?
-2. Qual escrita usada pelos micênicos foi decifrada e está ligada ao grego micênico?
+1. Qual é o nome do principal complexo palaciano da civilização minoica, situado na ilha de Creta, associado na tradição posterior ao mito do labirinto?
+2. Como se chama o sistema de escrita utilizado pelos micênicos, considerado uma forma inicial de grego e decifrado no século XX?
 
-**Múltipla escolha (distratores revisados)**
+**Múltipla escolha**
 
-1. Em muitos sítios micênicos, as tabuletas em Linear B serviam principalmente para:
-   (a) registrar **genealogias reais e narrativas históricas** destinadas a legitimar a dinastia
-   (b) fazer **registros administrativos** (pessoal, estoques, produção e redistribuição)
-   (c) compor **textos rituais padronizados** para festivais, com pouca informação econômica
-   (d) registrar **tratados e cartas diplomáticas** com outros reinos do Mediterrâneo oriental
+1. Os **palácios minoicos** são conhecidos por:
+   (a) muralhas defensivas massivas em todas as direções
+   (b) plantações de insulae romanas
+   (c) estruturas complexas com pátios, armazenagem e decoração mural, nem sempre fortificadas
+   (d) serem templos egípcios reutilizados
 
-2. Em comparação geral, centros micênicos são mais associados a:
-   (a) palácios com **administração central**, mas pouca ênfase em fortificações e sepultamentos monumentais
-   (b) **fortificações, palácios e elites guerreiras**, com túmulos monumentais em alguns centros
-   (c) assentamentos predominantemente **pastoris e móveis**, com organização palacial rara
-   (d) organização dominada por **santuários independentes**, com o palácio tendo papel secundário
+2. A civilização **micênica** se caracterizava, entre outros aspectos, por:
+   (a) cidades sem fortificações ou túmulos
+   (b) centros fortificados, realeza guerreira e túmulos monumentais
+   (c) ausência de qualquer contato com o mar
+   (d) uso de escrita alfabética latina
 
-### Checklist
+**Verdadeiro/Falso**
 
-* Manter o recorte no **Bronze egeu**, evitando “pular” para a Grécia clássica.
-* Equilibrar minoicos e micênicos (palácio + escrita + redes).
-* Tratar tradições míticas com cuidado.
+1. ( ) A escrita Linear B foi usada para registros administrativos em alguns palácios micênicos.
+2. ( ) A escrita Linear A, associada à Creta minoica, permanece não totalmente decifrada.
 
 ---
 
-## 3) Europa atlântica e central na Idade do Bronze
+### Checklist
 
-`bronze_europa`
+* Deixar claro que minoicos e micênicos pertencem à **Idade do Bronze** e antecedem a pólis clássica.
+* Tratar mitos como tradição literária, não como descrição histórica direta.
+* Destacar fontes arqueológicas e epigráficas (Linear A/B).
+
+---
+
+## 3) Impérios e grandes potências da Idade do Bronze tardia no Oriente Próximo
+
+`imperios_e_grandes_potencias_da_idade_do_bronze_tardia`
 
 ```yaml
 ---
@@ -182,8 +247,8 @@ tema_clean: "historia"
 subtema: "Idade do Bronze"
 subtema_clean: "idade_do_bronze"
 
-microsubtema: "Europa atlântica e central na Idade do Bronze"
-microsubtema_clean: "bronze_europa"
+microsubtema: "Impérios e grandes potências da Idade do Bronze tardia no Oriente Próximo"
+microsubtema_clean: "imperios_e_grandes_potencias_da_idade_do_bronze_tardia"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -198,65 +263,90 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Panorama da Idade do Bronze na Europa atlântica e central, com ênfase em metalurgia, circulação de objetos, práticas funerárias (túmulos e montes), depósitos de bronze (hoards) e paisagens monumentais. O foco é reconhecer diversidade regional sem exigir microcronologias.
+Analisa o “sistema internacional” do Oriente Próximo na Idade do Bronze tardia, marcado por grandes potências (Egito do Novo Império, Hatti, Mitani, Assíria antiga, Babilônia cassita, entre outras) e por intensas relações diplomáticas, militares e comerciais.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Tradições e contextos amplos (ex.: Únětice; Campos de Urnas; tradições de túmulos/montes, em linhas gerais).
-* Armas e ornamentos de bronze (espadas, machados, torques etc.) e sua circulação.
-* Depósitos/hoards: interpretações (reserva de metal, ocultamento, oferta ritual conforme contexto).
-* Práticas funerárias e paisagem (montículos, cemitérios, monumentos e reutilizações).
-* Contatos regionais (Atlântico ↔ Europa central ↔ Mediterrâneo, quando pertinente).
+* **Grandes potências**
+
+  * Egito do Novo Império (foco nas relações externas).
+  * Império hitita (Hatti).
+  * Mitani, Assíria antiga, Babilônia cassita.
+
+* **Diplomacia e política**
+
+  * Cartas de Amarna e outras correspondências.
+  * Casamentos diplomáticos, troca de presentes, tratados.
+  * Reconhecimento mútuo entre “grandes reis”.
+
+* **Guerra e vassalagem**
+
+  * Conflitos por áreas de influência (Síria, Levante, etc.).
+  * Cidades-Estado vassalas e intermediação local.
 
 **Exclusões**
 
-* Idade do Ferro céltica como foco principal.
-* Listas hiper locais pouco verificáveis em sínteses gerais.
+* Detalhamento exaustivo de cada batalha.
+* História posterior da Assíria e Babilônia na Idade do Ferro.
 
 **Referências (exemplos)**
 
-* “Bronze Age Europe”, “Urnfield culture”, “Unetice culture”.
+* “Amarna letters”, “Hittite Empire”, “Mitanni”, “Kassite dynasty”, “New Kingdom of Egypt”.
 
-### Matriz de variação (eixos)
+---
 
-* **Região**: Atlântico (Ilhas Britânicas/Ibéria/França atlântica) vs. Europa central.
-* **Tema**: metalurgia, funerário, depósitos, redes de troca.
-* **Função social**: prestígio, ritual, economia do metal, identidade regional.
+### Matriz de variação
+
+* **Potência**: Egito, Hatti, Mitani, Assíria, Babilônia cassita.
+* **Espaço**: Egito, Anatólia, Mesopotâmia, Levante.
+* **Tema**: diplomacia, vassalagem, guerra, tratados.
+* **Fonte**: cartas, tratados, inscrições.
+
+---
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-1. Que tipo de estrutura (frequentemente de terra) é comum como marcador funerário em várias regiões europeias do Bronze?
-2. O que um “depósito” (hoard) de objetos de bronze pode indicar, em termos gerais?
+1. Como é conhecido o conjunto de cartas diplomáticas, em escrita cuneiforme, trocadas entre o Egito e outros reinos do Oriente Próximo na Idade do Bronze tardia, encontradas em Tell el-Amarna?
+2. Qual império da Anatólia, com capital em Hattusa, foi uma das grandes potências da Idade do Bronze tardia e rival do Egito em regiões da Síria?
 
-**Múltipla escolha (distratores revisados)**
+**Múltipla escolha**
 
-1. Depósitos de objetos de bronze (hoards) podem ser interpretados como:
-   (a) restos de **banquetes funerários**, deixados de forma dispersa junto a sepultamentos
-   (b) **reserva de metal**, ocultamento de bens ou **oferta ritual** (dependendo do contexto)
-   (c) “cargas” de comércio **perdidas durante transporte**, sem intenção de enterramento
-   (d) conjuntos depositados **apenas para marcar fronteiras territoriais**, sem relação com metal ou ritual
+1. Nas cartas de Amarna, os reis de grandes potências se tratavam como:
+   (a) “pai” e “filho”, sempre assimétricos
+   (b) “irmãos”, sugerindo uma certa igualdade de status entre grandes reis
+   (c) “senhor” e “servo” em todos os casos
+   (d) “deus” e “adorador” em relação direta
 
-2. Um elemento recorrente em muitos contextos europeus do Bronze é:
-   (a) economia baseada principalmente em **moeda cunhada**, com mercados urbanos padronizados
-   (b) uso amplo de **ligas de cobre** e circulação de objetos de metal associados a prestígio e troca
-   (c) predominância de ferramentas em **ferro** desde fases iniciais, com bronze apenas decorativo
-   (d) ausência de hierarquias sociais identificáveis, com sepultamentos sempre uniformes
+2. A região da **Síria/Levante** na Idade do Bronze tardia era frequentemente:
+   (a) completamente desabitada
+   (b) espaço disputado por Egito, hititas e outros, com várias cidades-Estado vassalas
+   (c) núcleo do Império Romano
+   (d) área exclusivista de apenas um reino local
 
-### Checklist
+**Verdadeiro/Falso**
 
-* Não tratar a Europa do Bronze como “apêndice” do Mediterrâneo; destacar dinâmicas locais.
-* Evitar cronologia hiper fina; preferir **processos** (metal, funerário, redes).
-* Manter o recorte no Bronze (sem escorregar para o Ferro).
+1. ( ) A Idade do Bronze tardia no Oriente Próximo apresenta um sistema de grandes potências que trocam cartas, presentes e princesas em casamento.
+2. ( ) Não existiam tratados formais de paz entre reinos na Idade do Bronze.
 
 ---
 
-## 4) Redes, metais e vida material na Idade do Bronze
+### Checklist
 
-`bronze_redes`
+* Tratar o sistema internacional como **rede de relações**, não apenas como lista de reinos isolados.
+* Destacar fontes textuais como as cartas de Amarna.
+* Evitar confundir com impérios da Idade do Ferro (Neoassírio etc.).
+
+---
+
+## 4) Redes de comércio, metais e trânsito de bens na Idade do Bronze
+
+`redes_de_comercio_e_metais_na_idade_do_bronze`
 
 ```yaml
 ---
@@ -265,8 +355,8 @@ tema_clean: "historia"
 subtema: "Idade do Bronze"
 subtema_clean: "idade_do_bronze"
 
-microsubtema: "Redes, metais e vida material na Idade do Bronze"
-microsubtema_clean: "bronze_redes"
+microsubtema: "Redes de comércio, metais e trânsito de bens na Idade do Bronze"
+microsubtema_clean: "redes_de_comercio_e_metais_na_idade_do_bronze"
 
 natureza: "tematico_transversal"
 localizacao: "irrestrita"
@@ -281,67 +371,93 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Examina as redes de circulação da Idade do Bronze e como elas sustentam economia e poder: **cobre/estanho** e produção de bronze, rotas terrestres e marítimas, portos e entrepostos, bens de prestígio (vidro, marfim, têxteis), além de trabalho especializado e tecnologias de produção (metalurgia, tecelagem, cerâmica, armazenamento e infraestrutura). Inclui evidências como listas de carga e naufrágios (ex.: **Uluburun**) em nível introdutório.
+Examina as redes de comércio da Idade do Bronze, com foco na circulação de metais (cobre, estanho) e produtos acabados de bronze, bem como de bens de luxo (marfim, vidro, tecidos finos, metais preciosos). Considera rotas terrestres e marítimas ligando Mediterrâneo, Anatólia, Levante, Mesopotâmia e regiões mais distantes.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Metais estratégicos: cobre e estanho (visão geral) e fabricação/circulação de bronze.
-* Rotas: marítimas (cabotagem e longas distâncias) e terrestres (corredores por montanhas/desertos).
-* Bens de prestígio: vidro, marfim, cerâmica fina, têxteis, metais preciosos (como exemplos).
-* Atores: mercadores, intermediários, palácios/templos como demandantes e organizadores.
-* Produção e tecnologia: oficinas, tecelagem, cerâmica, metalurgia (fornos/moldes em linhas gerais), armazenagem e logística.
+* **Metais e bronze**
+
+  * Fontes de cobre e estanho (em termos gerais).
+  * Produção e circulação de ligas de bronze.
+
+* **Comércio marítimo e terrestre**
+
+  * Rotas costeiras no Mediterrâneo oriental e central.
+  * Rotas pelas montanhas e desertos ligando Mesopotâmia, Anatólia, Irã, Levante.
+
+* **Bens de luxo e naufrágios famosos**
+
+  * Carregamentos com marfim, vidro, cerâmica de luxo, objetos de metal.
+  * Naufrágios como Uluburun (sem entrar em detalhes técnicos excessivos).
+
+* **Atores e intermediários**
+
+  * Mercadores, cidades portuárias e entrepostos.
+  * Papel de pequenos reinos como intermediários em redes maiores.
 
 **Exclusões**
 
-* Determinar “origem exata” de todo metal como certeza (há debates).
-* Comércio fenício/greco-romano posterior como tema principal.
-* Detalhes técnico-químicos avançados.
+* Detalhar minério específico de cada montanha; foco em redes amplas.
+* Comércio da Idade do Ferro (fenício clássico, grego e romano) como tema principal.
 
 **Referências (exemplos)**
 
-* “Bronze Age trade”, “Uluburun shipwreck”, sínteses sobre estanho/cobre e redes do Bronze.
+* “Bronze Age trade”, “Uluburun shipwreck”, “Tin sources in the Bronze Age”.
 
-### Matriz de variação (eixos)
+---
 
-* **Produto**: cobre/estanho/bronze; vidro/marfim/têxteis etc.
-* **Meio**: terrestre vs. marítimo.
-* **Espaço**: Mediterrâneo oriental/central; Anatólia/Levante/Mesopotâmia; conexões europeias.
-* **Função**: matéria-prima estratégica vs. bem de prestígio; uso administrativo/militar/cotidiano.
+### Matriz de variação
+
+* **Produto**: cobre, estanho, bronze, marfim, vidro, têxteis, metais preciosos.
+* **Espaço**: Mediterrâneo oriental, central, Mesopotâmia, Anatólia, Europa.
+* **Meio**: rotas marítimas, rotas terrestres.
+* **Tema**: especialização regional, intermediação, dependência de metais importados.
+
+---
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-1. Qual liga metálica (principalmente cobre + estanho) dá nome à Idade do Bronze?
-2. Qual naufrágio do Bronze tardio, perto da costa da atual Turquia, é famoso por cargas com metais e bens de prestígio?
+1. Qual liga metálica, resultante da combinação de cobre com estanho (ou outros elementos), dá nome à Idade do Bronze?
+2. Como é chamado o naufrágio de um navio da Idade do Bronze tardia, encontrado perto da costa da atual Turquia, que transportava uma carga diversificada de metais e bens de luxo?
 
-**Múltipla escolha (distratores revisados)**
+**Múltipla escolha**
 
-1. Em muitas regiões do Bronze, o estanho:
-   (a) era obtido sobretudo por **exploração local próxima a grandes centros**, com pouca necessidade de rotas longas
-   (b) frequentemente dependia de **comércio de longa distância** e de redes de intermediários
-   (c) era substituído, em geral, por **arsênico** como padrão, tornando o estanho raro e pouco importante
-   (d) vinha quase sempre de **uma única região do Mediterrâneo**, controlada por um só reino
+1. Em muitas regiões do Mediterrâneo na Idade do Bronze, o estanho:
+   (a) era facilmente encontrado em qualquer lugar
+   (b) precisava ser obtido por meio de comércio de longa distância
+   (c) não era necessário para fazer bronze
+   (d) era substituído por sal marinho nas ligas
 
-2. Uma característica típica de redes do Bronze é:
-   (a) trocas principalmente **intra-regionais**, com pouca circulação de matérias-primas entre áreas distantes
-   (b) interdependência entre regiões para obter **metais e bens de prestígio**, conectando rotas terrestres e marítimas
-   (c) comércio concentrado só em **presentes diplomáticos**, sem impacto na produção artesanal e na logística
-   (d) economia baseada em **moeda cunhada padronizada** e mercados anônimos semelhantes aos de épocas posteriores
+2. O comércio na Idade do Bronze incluía:
+   (a) apenas bens de luxo, nunca metais
+   (b) circulação de metais, matérias-primas e produtos de valor simbólico e econômico
+   (c) apenas alimentos perecíveis
+   (d) exclusivamente escravos, sem nenhum outro produto
 
-### Checklist
+**Verdadeiro/Falso**
 
-* Enfatizar **interdependência** e **logística** (não “uma rota única”).
-* Ser cauteloso com afirmações absolutas sobre proveniência de metais.
-* Conectar redes de troca a **produção** e **instituições** (palácio/templo/oficinas).
+1. ( ) A necessidade de metais estimulou a formação de rotas de comércio conectando regiões distantes na Idade do Bronze.
+2. ( ) Não há evidências arqueológicas de navios de carga da Idade do Bronze.
 
 ---
 
-## 5) Religião, poder e colapso do Bronze tardio
+### Checklist
 
-`bronze_crise`
+* Enfatizar a **dimensão de rede** (conexões entre regiões).
+* Não exagerar certezas sobre a origem exata de cada metal quando há debates.
+* Evitar confundir redes do Bronze com comércio fenício/greco-romano posterior.
+
+---
+
+## 5) Sociedade, trabalho e tecnologia na Idade do Bronze
+
+`sociedade_trabalho_e_tecnologia_na_idade_do_bronze`
 
 ```yaml
 ---
@@ -350,8 +466,8 @@ tema_clean: "historia"
 subtema: "Idade do Bronze"
 subtema_clean: "idade_do_bronze"
 
-microsubtema: "Religião, poder e colapso do Bronze tardio"
-microsubtema_clean: "bronze_crise"
+microsubtema: "Sociedade, trabalho e tecnologia na Idade do Bronze"
+microsubtema_clean: "sociedade_trabalho_e_tecnologia_na_idade_do_bronze"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -366,59 +482,408 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Integra dois eixos: (1) como religião e rituais se ligam a instituições e legitimidade política (templos, festivais, oferendas, adivinhação/oráculos e papel ritual da realeza) e (2) as crises do fim do Bronze tardio (destruições/abandono de centros, ruptura de redes e reconfigurações políticas), conectando-as à transição para a Idade do Ferro. O enfoque é **multicausal** e comparativo entre regiões (Egeu, Levante, Anatólia, Chipre, Egito em conexões).
+Aborda estruturas sociais, formas de trabalho e tecnologias utilizadas na Idade do Bronze em diferentes regiões (Crescente Fértil, Egeu, Egito, Europa). Contempla metalurgia, cerâmica, tecelagem, construção, irrigação e a organização do trabalho em palácios, templos e comunidades rurais.
+
+---
 
 ### Escopo
 
 **Inclusões**
 
-* Religião como **instituição e prática**: templos, sacerdócio, festivais e calendários rituais (em linhas gerais).
-* Relação religião–poder: realeza e rituais públicos; templos como polos econômicos em certos contextos.
-* Práticas: oferendas, sacrifícios animais (tratamento factual), adivinhação/oráculos onde pertinente.
-* Colapso do Bronze tardio: destruições/abandono, crise de sistemas palaciais e redes; reordenação regional.
-* “Povos do Mar”: referências textuais e debate histórico com linguagem cautelosa.
-* Transição ao Ferro: maior uso do ferro em vários contextos (sem “ruptura instantânea”).
+* **Estrutura social**
+
+  * Elites palaciais e templárias.
+  * Camponeses, artesãos, trabalhadores dependentes e escravos.
+
+* **Tecnologias**
+
+  * Metalurgia do bronze (fornos, moldes em linhas gerais).
+  * Ferramentas agrícolas, armas, utensílios domésticos.
+  * Cerâmica, tecelagem, construção (adobe, pedra, madeira).
+  * Sistemas de irrigação e canais.
+
+* **Organização do trabalho**
+
+  * Trabalho em oficinas palacianas.
+  * Trabalho agrícola sazonal.
+  * Obras públicas e corveias.
 
 **Exclusões**
 
-* Explicações monocausais do colapso (“foi só X”).
-* Sensacionalismo sobre rituais.
-* História do Ferro como tema principal (entra só como transição).
+* Tecnologias típicas da Idade do Ferro (ferro em larga escala).
+* Foco em um único reino; o recorte é comparativo e geral.
 
 **Referências (exemplos)**
 
-* “Late Bronze Age collapse”, “Sea Peoples”, sínteses sobre religião do Bronze no Oriente Próximo/Mediterrâneo.
+* “Bronze Age technology”, “Bronze Age society”, sínteses de arqueologia da Idade do Bronze.
 
-### Matriz de variação (eixos)
+---
 
-* **Região**: Egeu/Levante/Anatólia/Chipre/Egito (conexões).
-* **Tema**: templo, ritual, legitimação; colapso palacial; redes e crise; transição tecnológica.
-* **Causalidade**: conflitos, instabilidade interna, choques econômicos, fatores ambientais (combinação).
-* **Resultado**: reconfigurações políticas e novas formas de organização no início do Ferro.
+### Matriz de variação
+
+* **Região**: Mesopotâmia, Egito, Egeu, Europa central etc.
+* **Tipo de trabalho**: agrícola, artesanal, construção, administração.
+* **Tecnologia**: metalurgia, cerâmica, tecelagem, irrigação.
+* **Status social**: elites, camponeses, artesãos, escravos/trabalhadores dependentes.
+
+---
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-1. Por que templos podiam ser, além de espaços religiosos, instituições relevantes para economia e administração em alguns contextos do Bronze?
-2. Como é chamado, em muitos estudos, o conjunto de crises que afetou várias sociedades do Mediterrâneo oriental no fim do Bronze tardio?
+1. Qual liga metálica foi amplamente usada para fabricar ferramentas e armas na Idade do Bronze, antes da popularização do ferro?
+2. Que tipo de atividade econômica ocupava grande parte da população na maioria das sociedades da Idade do Bronze, garantindo a base alimentar dos estados e palácios?
 
-**Múltipla escolha (distratores revisados)**
+**Múltipla escolha**
 
-1. Em muitas sociedades do Bronze, festivais e rituais estavam frequentemente ligados a:
-   (a) ciclos agrícolas, renovação sazonal e **manutenção da ordem** entre comunidade e divindades
-   (b) ritos voltados principalmente à **padronização de pesos e medidas** e auditorias administrativas anuais
-   (c) comemorações estabelecidas sobretudo para **celebrar tratados diplomáticos** entre grandes reinos
-   (d) calendários criados principalmente para **regular o comércio internacional**, com pouca dimensão religiosa
+1. Oficinas ligadas a palácios e templos na Idade do Bronze muitas vezes produziam:
+   (a) apenas textos literários
+   (b) cerâmica, têxteis, objetos de metal e outros bens artesanais
+   (c) navios a vapor
+   (d) armas de fogo
 
-2. Em sínteses atuais, o colapso do Bronze tardio é geralmente explicado como:
-   (a) consequência direta e suficiente de **uma única invasão coordenada**, aceita como causa principal
-   (b) resultado provável de **combinação de fatores** (conflitos, crises internas, redes, ambiente e choques econômicos)
-   (c) consequência primária de uma **mudança religiosa generalizada**, com pouca evidência de tensões políticas
-   (d) um fenômeno restrito ao **Egeu**, sem efeitos relevantes no Levante e na Anatólia
+2. A metalurgia do bronze exigia:
+   (a) apenas madeira e pedra
+   (b) combinação de cobre com estanho ou outros elementos e conhecimento de fornos de alta temperatura
+   (c) campos magnéticos e eletricidade
+   (d) ausência total de conhecimento técnico
+
+**Verdadeiro/Falso**
+
+1. ( ) A maior parte da população da Idade do Bronze estava ligada direta ou indiretamente à agricultura.
+2. ( ) As sociedades da Idade do Bronze não conheciam técnicas de construção de canais ou irrigação.
+
+---
 
 ### Checklist
 
-* Religião como **prática + instituição + política**, evitando “lista de deuses” sem contexto.
-* Colapso como **processo complexo**, sem certezas absolutas onde há debate.
-* Manter o recorte no Bronze e na **transição** (não virar História do Ferro).
+* Fazer perguntas que possam ser respondidas com base em **sínteses arqueológicas**, não em detalhes de laboratório.
+* Garantir que o recorte é de **trabalho e tecnologia**, não de alta política.
+* Diferenciar claramente tecnologias do Bronze das do Ferro.
+
+---
+
+## 6) Religiões, mitos e práticas rituais na Idade do Bronze
+
+`religioes_mitos_e_praticas_rituais_na_idade_do_bronze`
+
+```yaml
+---
+tema: "História"
+tema_clean: "historia"
+subtema: "Idade do Bronze"
+subtema_clean: "idade_do_bronze"
+
+microsubtema: "Religiões, mitos e práticas rituais na Idade do Bronze"
+microsubtema_clean: "religioes_mitos_e_praticas_rituais_na_idade_do_bronze"
+
+natureza: "tematico_transversal"
+localizacao: "irrestrita"
+
+status: "ativo"
+autor: "Mestre2"
+data_criacao: "2025-12-09"
+---
+```
+
+**Natureza.** Temático transversal
+**Localização.** Irrestrita
+
+**Descrição.**
+Estuda panteões, mitos e práticas rituais de sociedades da Idade do Bronze (Mesopotâmia, Levante, Egito, Egeu, Anatólia, Europa) e a relação entre religião, poder político e cotidiano. Examina templos, sacrifícios, festivais, oráculos e sincretismos religiosos.
+
+---
+
+### Escopo
+
+**Inclusões**
+
+* **Panteões e mitos**
+
+  * Deuses mesopotâmicos (Enlil, Ishtar, Marduk etc.).
+  * Deuses cananeus, hititas, egípcios do período, divindades egeias em geral.
+
+* **Práticas rituais**
+
+  * Sacrifícios animais, oferendas, festivais agrícolas.
+  * Papel da realeza como mediadora entre deuses e humanos.
+  * Oráculos e adivinhação em contextos da Idade do Bronze.
+
+* **Sincretismos e circulação**
+
+  * Adaptação e identificação de deuses entre regiões.
+  * Influências recíprocas entre panteões.
+
+**Exclusões**
+
+* Religiões monoteístas clássicas como foco central (hebraica pós-Bronze, cristianismo etc.).
+* Interpretações esotéricas modernas sem base acadêmica.
+
+**Referências (exemplos)**
+
+* “Ancient Mesopotamian religion”, “Hittite religion”, “Bronze Age religion”.
+
+---
+
+### Matriz de variação
+
+* **Região**: Mesopotâmia, Levante, Egito, Egeu, Anatólia, Europa.
+* **Tema**: deuses, templos, rituais, festivais, adivinhação.
+* **Atores**: reis, sacerdotes, população comum.
+* **Função**: legitimação política, fertilidade, proteção, guerra.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Em muitas sociedades da Idade do Bronze, qual figura política era vista como mediadora privilegiada entre deuses e humanos, realizando rituais em nome da comunidade?
+2. Que tipo de construção, frequentemente monumental, servia como casa de deuses e centro de rituais e administração econômica em cidades mesopotâmicas e de outras regiões?
+
+**Múltipla escolha**
+
+1. Um **panteão** pode ser descrito como:
+   (a) um livro sagrado único
+   (b) o conjunto de deuses reconhecidos por determinada religião
+   (c) um tributo em moeda de prata
+   (d) um prédio de habitação coletiva
+
+2. Em muitas regiões da Idade do Bronze, festivais religiosos estavam ligados:
+   (a) a ciclos agrícolas, colheitas e estações do ano
+   (b) apenas a datas fixadas pela ONU
+   (c) a decisões de parlamentos modernos
+   (d) exclusivamente a guerras navais
+
+**Verdadeiro/Falso**
+
+1. ( ) Em diversos contextos da Idade do Bronze, templos também funcionavam como centros econômicos importantes.
+2. ( ) As religiões da Idade do Bronze eram geralmente monoteístas, com um único deus e nenhuma outra divindade.
+
+---
+
+### Checklist
+
+* Tratar religião como **conjunto de práticas, instituições e crenças**, não só “lista de deuses”.
+* Evitar misturar práticas de Idade do Ferro e períodos posteriores como se fossem idênticas.
+* Evitar sensacionalismo com sacrifícios e rituais; o tom deve ser descritivo.
+
+---
+
+## 7) Idade do Bronze na Europa atlântica e central
+
+`idade_do_bronze_na_europa_atlantica_e_central`
+
+```yaml
+---
+tema: "História"
+tema_clean: "historia"
+subtema: "Idade do Bronze"
+subtema_clean: "idade_do_bronze"
+
+microsubtema: "Idade do Bronze na Europa atlântica e central"
+microsubtema_clean: "idade_do_bronze_na_europa_atlantica_e_central"
+
+natureza: "tematico"
+localizacao: "irrestrita"
+
+status: "ativo"
+autor: "Mestre2"
+data_criacao: "2025-12-09"
+---
+```
+
+**Natureza.** Temático
+**Localização.** Irrestrita
+
+**Descrição.**
+Analisa culturas da Idade do Bronze na Europa atlântica e central, incluindo tradições associadas a túmulos e montes, metalurgia e circulação de objetos de bronze, depósitos e tesouros, além de paisagens monumentais e contatos com outras regiões.
+
+---
+
+### Escopo
+
+**Inclusões**
+
+* **Culturas e tradições**
+
+  * Ex.: Únětice, culturas de túmulos e montes, cultura dos Campos de Urnas (em linhas gerais), contextos atlânticos.
+
+* **Metalurgia e objetos**
+
+  * Espadas, adagas, machados de bronze, ornamentos.
+  * Depósitos de objetos (hoards) e sua interpretação.
+
+* **Paisagem e monumentos**
+
+  * Montículos funerários, círculos de pedra em uso prolongado, outros marcos.
+
+* **Contatos e redes**
+
+  * Trocas com regiões mediterrânicas e outras áreas europeias.
+
+**Exclusões**
+
+* Idade do Ferro céltica como foco principal.
+* Detalhamento de cada cultura local pouco conhecida e difícil de verificar.
+
+**Referências (exemplos)**
+
+* “Bronze Age Europe”, “Urnfield culture”, “Unetice culture”.
+
+---
+
+### Matriz de variação
+
+* **Região**: Atlântico (Ilhas Britânicas, Península Ibérica), Europa central etc.
+* **Tema**: túmulos, metalurgia, depósitos, contatos regionais.
+* **Função**: funerária, ritual, econômica.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Em muitas regiões da Europa da Idade do Bronze, que tipo de estrutura elevada de terra era construída para marcar locais de sepultamento?
+2. Que tipo de objeto metálico, como espadas e adagas de bronze, é frequentemente encontrado em depósitos (hoards) enterrados na Europa da Idade do Bronze?
+
+**Múltipla escolha**
+
+1. A metalurgia da Idade do Bronze na Europa central e atlântica produzia, entre outros itens:
+   (a) motores a combustão
+   (b) armas e ornamentos de bronze, como espadas, machados e torques
+   (c) armas de fogo
+   (d) trilhos ferroviários
+
+2. Os **depósitos de objetos de bronze** (hoards) podem ser interpretados como:
+   (a) simplesmente lixões sem valor
+   (b) possíveis reservas de metal, ofertas rituais ou bens escondidos
+   (c) bibliotecas de livros
+   (d) falhas naturais no solo
+
+**Verdadeiro/Falso**
+
+1. ( ) A Idade do Bronze europeia apresenta grande variedade de culturas, mas com elementos comuns como o uso de ligas de cobre e estanho.
+2. ( ) Não há evidência de qualquer objeto de metal na Europa da Idade do Bronze.
+
+---
+
+### Checklist
+
+* Evitar tratar a Europa da Idade do Bronze como mero “apêndice” do Mediterrâneo; dar valor às tradições locais.
+* Usar terminologia clara, sem exigir especialização fina em arqueologia europeia.
+* Manter foco na **Idade do Bronze**, não escorregar para a Idade do Ferro.
+
+---
+
+## 8) Colapso da Idade do Bronze e transição para a Idade do Ferro
+
+`colapso_da_idade_do_bronze_e_transicao_para_a_idade_do_ferro`
+
+```yaml
+---
+tema: "História"
+tema_clean: "historia"
+subtema: "Idade do Bronze"
+subtema_clean: "idade_do_bronze"
+
+microsubtema: "Colapso da Idade do Bronze e transição para a Idade do Ferro"
+microsubtema_clean: "colapso_da_idade_do_bronze_e_transicao_para_a_idade_do_ferro"
+
+natureza: "tematico"
+localizacao: "irrestrita"
+
+status: "ativo"
+autor: "Mestre2"
+data_criacao: "2025-12-09"
+---
+```
+
+**Natureza.** Temático
+**Localização.** Irrestrita
+
+**Descrição.**
+Explora as crises do final da Idade do Bronze, especialmente entre os séculos XIII e XII a.C., marcadas pela destruição de centros palaciais, interrupção de rotas comerciais, movimentos populacionais e transformações políticas e tecnológicas que culminam na transição para a Idade do Ferro em várias regiões do Mediterrâneo e do Oriente Próximo.
+
+---
+
+### Escopo
+
+**Inclusões**
+
+* **Crises e destruições**
+
+  * Quebra de redes entre grandes potências da Idade do Bronze tardia.
+  * Destruição de centros no Egeu e no Levante.
+
+* **Povos e migrações**
+
+  * Referências textuais a “Povos do Mar” (em termos cautelosos).
+  * Movimentos populacionais e conflitos.
+
+* **Transformações**
+
+  * Reestruturação política em várias regiões (novos reinos e cidades na Idade do Ferro).
+  * Introdução e disseminação mais ampla do ferro como metal para armas e ferramentas.
+
+* **Debate historiográfico**
+
+  * Ideia de causas múltiplas (clima, conflitos, crises internas, mudança tecnológica etc.).
+
+**Exclusões**
+
+* Explicações monocausais simplistas (“foi só X”).
+* Especulações sem apoio em sínteses recentes de pesquisa.
+
+**Referências (exemplos)**
+
+* “Late Bronze Age collapse”, “Sea Peoples”, “Transition from Bronze to Iron Age”.
+
+---
+
+### Matriz de variação
+
+* **Espaço**: Egeu, Levante, Anatólia, Egito, Chipre, etc.
+* **Tema**: destruições, mudanças políticas, tecnologia, comércio.
+* **Tipo de causa (em debate)**: conflitos, clima, crises internas, mudanças tecnológicas.
+* **Resultado**: novas configurações da Idade do Ferro.
+
+---
+
+### Exemplos de enunciados
+
+**Aberta**
+
+1. Como é chamado, em muitos estudos, o conjunto de crises e colapsos que afetaram diversas sociedades do Mediterrâneo oriental por volta do século XII a.C., marcando o fim da Idade do Bronze tardia?
+2. Que metal passou a ganhar importância crescente para a fabricação de armas e ferramentas em muitas regiões após o colapso da Idade do Bronze?
+
+**Múltipla escolha**
+
+1. O chamado **“colapso da Idade do Bronze”** é caracterizado por:
+   (a) estabilidade total e continuidade sem mudanças
+   (b) destruição ou abandono de vários centros palaciais, interrupção de rotas comerciais e reconfiguração política
+   (c) conquista europeia das Américas
+   (d) invenção da pólvora
+
+2. As causas do colapso da Idade do Bronze são vistas hoje, em geral, como:
+   (a) totalmente conhecidas, com uma única explicação aceita
+   (b) multifatoriais, envolvendo combinação de conflitos, crises econômicas, possíveis mudanças ambientais e outros fatores
+   (c) resultado exclusivo de um único terremoto
+   (d) irrelevantes para a história
+
+**Verdadeiro/Falso**
+
+1. ( ) Após as crises do fim da Idade do Bronze, surgiram novos reinos e cidades na Idade do Ferro, muitas vezes em contextos políticos diferentes.
+2. ( ) O ferro nunca teve importância significativa após o colapso da Idade do Bronze.
+
+---
+
+### Checklist
+
+* Apresentar o colapso como **processo complexo**, não um evento único simples.
+* Evitar conclusões categóricas em temas ainda debatidos.
+* Conectar o colapso à **transição tecnológica e política** para a Idade do Ferro.
+
+---

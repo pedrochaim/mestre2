@@ -6,7 +6,7 @@
 
 ## 1) O que é um *microsubtema*
 
-Um **microsubtema** é um recorte **operacional** dentro de um **subtema** que permite produzir **≥ 80 perguntas** (ideal: ~100) com **baixa sobreposição** com outros recortes, mantendo **fatos estáveis**, clareza de **escopo** e diversidade de itens (aberta, múltipla escolha).
+Um **microsubtema** é um recorte **operacional** dentro de um **subtema** que permite produzir **≥ 80 perguntas** (ideal: ~100) com **baixa sobreposição** com outros recortes, mantendo **fatos estáveis**, clareza de **escopo** e diversidade de itens (aberta, múltipla escolha, verdadeiro/falso, ordenação, associação).
 
 * **Não é** uma lista fechada de tópicos: o escopo define **fronteiras e exemplos**, mas **é não exaustivo**. É permitido usar **personagens/assuntos não listados explicitamente**, desde que **coerentes com o escopo** e **sustentados por fontes confiáveis**.
 * O microsubtema deve ser **reutilizável** e **longevo** (evitar fatos efêmeros, atualidades voláteis, placares de temporada, preços, etc.).
@@ -108,8 +108,9 @@ Depois do YAML, o corpo do microsubtema segue, na ordem:
 
      * **Aberta**
      * **Múltipla escolha**
+     * **Verdadeiro/Falso**
    * Os exemplos **não vinculam** o banco aos nomes usados; servem apenas como **demonstração de formato, nível de detalhe e tom**.
-   * Pelo menos **4 exemplos** por modelo de item (Aberta, Múltipla escolha)
+   * Pelo menos **4 exemplos** por modelo de item (Aberta, Múltipla escolha, Verdadeiro/Falso)
 
 8. **Checklist**: validações antes de gerar perguntas, por exemplo:
 
@@ -178,7 +179,18 @@ data_criacao: "2025-12-06"
   * Qual destes serial killers atuou principalmente em Milwaukee, nos Estados Unidos?
     (a) Ted Bundy (b) Jeffrey Dahmer (c) Andrei Chikatilo (d) Harold Shipman
 
+* **Verdadeiro/Falso**
 
+  * Harold Shipman foi um médico britânico condenado por assassinar pacientes sob seus cuidados.
+
+* **Ordenação**
+
+  * Ordene cronologicamente, do mais antigo para o mais recente, os seguintes casos seriais: Jack the Ripper, Andrei Chikatilo, Jeffrey Dahmer.
+
+* **Associação**
+
+  * Associe o serial killer ao país em que atuou:
+    (1) Andrei Chikatilo – ( ) Estados Unidos ( ) Reino Unido ( ) Rússia
 
 **Checklist**
 

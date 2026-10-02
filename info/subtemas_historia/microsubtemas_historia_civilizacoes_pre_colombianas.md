@@ -1,10 +1,9 @@
-A seguir está o **texto completo** dos microsubtemas de **Civilizações Pré-colombianas**, com **slugs mais curtos** e **sem Verdadeiro/Falso** (mantendo o mesmo padrão de estrutura).
 
 ---
 
 ## 1) Mesoamérica tardia: maias e mexicas (astecas)
 
-`meso_maia_mexica`
+`mesoamerica_tardia_maias_e_mexicas_astecas`
 
 ```yaml
 ---
@@ -14,7 +13,7 @@ subtema: "Civilizações Pré-colombianas"
 subtema_clean: "civilizacoes_pre_colombianas"
 
 microsubtema: "Mesoamérica tardia: maias e mexicas (astecas)"
-microsubtema_clean: "meso_maia_mexica"
+microsubtema_clean: "mesoamerica_tardia_maias_e_mexicas_astecas"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -29,76 +28,136 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Aborda a Mesoamérica na fase tardia, com foco nos **maias** (Clássico Tardio e Pós-clássico) e nos **mexicas (astecas)**. Enfatiza urbanismo, organização política, escrita e calendários, tributação, guerra, práticas religiosas e o quadro imediatamente anterior ao contato europeu (sem virar narrativa da conquista).
+Este microsubtema aborda a Mesoamérica na fase tardia, focando especialmente os maias do Período Clássico Tardio e Pós-clássico e o Império Mexica (asteca). Enfatiza cidades, organização política, sistemas de escrita e calendários, práticas religiosas e estruturas econômicas, com atenção ao cenário imediatamente anterior ao contato europeu.
+
+---
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* **Maia (Clássico Tardio e Pós-clássico):** centros como Tikal, Calakmul, Palenque, Copán, Chichén Itzá, Mayapán; cidades-Estado e alianças; escrita hieroglífica; estelas e códices; calendários (Tzolk’in, Haab’ e noções básicas de Contagem Longa).
-* **Mexica (asteca):** formação e funcionamento da **Tríplice Aliança** (Tenochtitlán, Texcoco, Tlacopan); urbanismo de Tenochtitlán; tributação e dominação; mercados (Tlatelolco); guerra e captura ritual (incluindo “guerras floridas”, em termos gerais).
-* **Religião e cosmologia (recorte maia/mexica):** deuses e cultos principais; relação entre calendário, poder e ritual; oferendas e sacrifícios tratados de modo **factual e não sensacionalista**.
-* **“Contato iminente”:** quadro político e geográfico imediatamente anterior à chegada espanhola (menções breves).
+* **Maia – Clássico Tardio e Pós-clássico**
+
+  * Grandes centros: Tikal, Calakmul, Palenque, Copán, Chichén Itzá, Mayapán.
+  * Organização em cidades-Estado e redes de alianças/conflitos.
+  * Escrita hieroglífica maia, estelas e códices.
+  * Sistemas calendáricos (Tzolk’in, Haab’, Contagem Longa em termos básicos).
+
+* **Mexica (asteca) e Tríplice Aliança**
+
+  * Formação da Tríplice Aliança: Tenochtitlán, Texcoco, Tlacopan.
+  * Estrutura urbana e simbólica de Tenochtitlán.
+  * Sistema de tributos e dominação sobre outros povos nahuas e não-nahuas.
+  * Mercados e comércio (por exemplo, Tlatelolco).
+  * Práticas de guerra (incluindo “guerras floridas”) e captura ritual.
+
+* **Religião e cosmologia mesoamericanas (recorte maia/mexica)**
+
+  * Deuses principais (p.ex., Kukulcán/Quetzalcóatl em certas tradições, Huitzilopochtli, Tlaloc, etc.).
+  * Sacrifícios humanos e outras formas de oferenda (tratados de forma factual, sem sensacionalismo).
+  * Relação entre religião, calendário e poder político.
+
+* **Contato iminente com europeus**
+
+  * Situação política e geográfica de maias tardios e mexicas pouco antes da chegada espanhola (sem transformar o microsubtema em narrativa da conquista).
 
 **Exclusões**
 
-* Olmecas e origens formativas da Mesoamérica (outro recorte).
-* Conquista espanhola em detalhe.
-* Civilizações andinas (Incas e pré-Incas).
-* Pseudoarqueologia e leituras esotéricas.
+* Culturas formativas (Olmeca, primeira Teotihuacan etc.), que cabem em outro recorte (“origens da Mesoamérica”).
+* Narrativa detalhada da conquista espanhola – só menções breves para situar o “momento final” pré-colombiano.
+* Civilizações andinas (Incas, Moche, etc.) – tratadas em outros microsubtemas.
+* Especulações esotéricas ou pseudoarqueológicas sobre maias e astecas.
 
-**Referências (exemplos)**
+**Referências (exemplos) – para quem for escrever perguntas**
 
-* Sínteses de história mesoamericana; verbetes: “Maya civilization”, “Aztec”, “Tenochtitlan”, “Maya script”, “Mesoamerican calendars”.
+* Sínteses de história da Mesoamérica (em PT/EN/ES).
+* Entradas de referência: “Maya civilization”, “Aztec”, “Tenochtitlan”, “Maya script”, “Mesoamerican calendars”.
+
+---
 
 ### Matriz de variação (eixos)
 
-* **Tempo:** Maia Clássico Tardio vs. Pós-clássico; formação/apogeu/crise mexica.
-* **Espaço:** planalto central mexicano vs. área maia (terras baixas/altas; Yucatán).
-* **Atores:** governantes (ajaw/tlatoani), sacerdotes, comerciantes, artesãos, camponeses.
-* **Tema:** cidades-Estado vs. império tributário; escrita/calendário; guerra/tributo; religião/ritual.
-* **Evidência:** arqueologia; inscrições/códices; relatos coloniais iniciais (com cautela).
+* **Tempo / fase**
+
+  * Maia Clássico Tardio vs. Maia Pós-clássico.
+  * Período de formação, apogeu e crise do Império Mexica.
+
+* **Espaço / região**
+
+  * Planalto central mexicano (Tenochtitlán, Texcoco).
+  * Península de Yucatán e área maia das terras baixas e altas.
+
+* **Papel / ator**
+
+  * Governantes (tlatoani, ajaw).
+  * Sacerdotes e sábios.
+  * Comerciantes (pochteca, etc.).
+  * Camponeses e artesãos.
+
+* **Tema / instituição**
+
+  * Organização política (cidades-Estado maias, Tríplice Aliança mexica).
+  * Sistemas de tributos e guerra.
+  * Escrita e calendário.
+  * Religião e rituais.
+
+* **Tipo de evidência**
+
+  * Arqueologia (templos, palácios, campos de jogo de bola).
+  * Códices e inscrições.
+  * Relatos coloniais iniciais (usados com cuidado).
+
+---
 
 ### Exemplos de enunciados
 
+*(somente ilustrações de estilo; não são ainda no formato do schema de perguntas)*
+
 **Aberta**
 
-1. Qual cidade, construída em ilhas e aterros no lago Texcoco, foi o principal centro do poder mexica?
-2. Como se chama a aliança político-militar entre Tenochtitlán, Texcoco e Tlacopan?
-3. Qual civilização mesoamericana desenvolveu um sistema de escrita hieroglífica complexo registrado em estelas e códices?
+1. Qual cidade, construída em ilhas e aterros no lago Texcoco, foi o principal centro do Império Mexica (asteca)?
+2. Como é chamada a aliança político-militar formada por Tenochtitlán, Texcoco e Tlacopan na Mesoamérica tardia?
+3. Qual povo mesoamericano desenvolveu um sistema de escrita hieroglífica complexo e calendários precisos usados em estelas e códices?
 
 **Múltipla escolha**
 
 1. As cidades maias do Período Clássico eram, em geral:
-   (a) parte de um único império centralizado
-   (b) cidades-Estado independentes em redes de alianças e rivalidades
+   (a) parte de um único império centralizado, governado por Tenochtitlán
+   (b) cidades-Estado independentes, ligadas por redes de alianças e rivalidades
    (c) colônias diretas do Império Inca
    (d) centros coloniais espanhóis
 
-2. A Tríplice Aliança mexica foi central para:
-   (a) resistir à expansão inca
+2. A Tríplice Aliança mexica tinha como função principal:
+   (a) unir três reinos para resistir à expansão inca
    (b) organizar comércio marítimo com a Europa
-   (c) expandir dominação por guerra e tributos na Mesoamérica central
+   (c) garantir a dominação de Tenochtitlán sobre outros povos por meio de tributos e da guerra
    (d) administrar missões cristãs
 
 3. A escrita maia era usada, entre outras coisas, para:
-   (a) registrar calendários, genealogias e eventos políticos
-   (b) registrar leis romanas
-   (c) escrever apenas números, sem palavras
-   (d) substituir totalmente a tradição oral em todas as regiões
+   (a) registrar calendários, genealogias e eventos políticos em estelas e códices
+   (b) escrever romances de ficção científica
+   (c) registrar leis romanas
+   (d) registrar apenas números, sem palavras ou frases
 
-### Checklist
+**Verdadeiro/Falso**
 
-* Foco real em **maias tardios** e **mexicas**, sem “pular” para Olmecas/Teotihuacan ou para a conquista.
-* Variedade: política, escrita/calendário, economia/mercado, religião/ritual, urbanismo.
-* Evitar tratar “maias” e “astecas” como blocos homogêneos; reconhecer diversidade.
-* Zero espaço para pseudo-história (“profecias”, “ETs”, etc.).
+1. ( ) A civilização maia desenvolveu um sistema de escrita próprio e calendários complexos, antes da chegada dos europeus.
+2. ( ) Tenochtitlán era uma cidade interior, distante de qualquer corpo d’água significativo.
 
 ---
 
-## 2) Império Inca: Estado, economia e estradas
+### Checklist
 
-`inca_estado`
+* O recorte está claramente focado em **maias tardios** e **mexicas**, sem misturar com origens muito antigas nem com a conquista em si.
+* Há espaço para perguntas sobre **política, escrita, calendários, religião, economia e urbanismo**, não só sobre sacrifício humano.
+* Evita generalizar “maias” e “astecas” como um bloco único; reconhece diversidade interna.
+* Evita especulações pseudo-históricas (profecias, civilizações “perdidas” fantásticas).
+
+---
+
+## 2) Império Inca: organização estatal, economia e rede de estradas
+
+`imperio_inca_organizacao_estatal_economia_e_rede_de_estradas`
 
 ```yaml
 ---
@@ -107,8 +166,8 @@ tema_clean: "historia"
 subtema: "Civilizações Pré-colombianas"
 subtema_clean: "civilizacoes_pre_colombianas"
 
-microsubtema: "Império Inca: Estado, economia e estradas"
-microsubtema_clean: "inca_estado"
+microsubtema: "Império Inca: organização estatal, economia e rede de estradas"
+microsubtema_clean: "imperio_inca_organizacao_estatal_economia_e_rede_de_estradas"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -123,75 +182,134 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Microsubtema sobre o **Tahuantinsuyo (Império Inca)** em fase pré-colombiana, com foco em organização estatal, economia agrária e redistributiva e a integração territorial pelo **Qhapaq Ñan** (rede de estradas). Inclui Sapa Inca, panacas, ayllu, mit’a, depósitos e mensageria.
+Microsubtema dedicado ao Tahuantinsuyo (Império Inca) em sua fase pré-colombiana, com foco na organização do Estado, na economia agrária e de redistribuição e na rede de estradas que integrava regiões diversas. Aborda o papel do Sapa Inca, das panacas, dos ayllu, do sistema de mit’a, dos depósitos estatais e do Qhapaq Ñan na gestão de um império multiétnico.
+
+---
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* **Formação e expansão:** Cusco como centro; expansão e incorporação de povos (visão geral).
-* **Política e sociedade:** Sapa Inca; panacas; ayllu; administração provincial e mecanismos de controle.
-* **Economia e trabalho:** mit’a; agricultura por pisos ecológicos; andenes (terraços); qollqas (depósitos) e redistribuição; lhamas/alpacas como suporte logístico.
-* **Infraestrutura:** Qhapaq Ñan; tambos; chasquis; integração costa–serra–altiplano.
-* **Centros e paisagens:** Cusco, Machu Picchu, Ollantaytambo (como exemplos), com ênfase na relação entre arquitetura e topografia.
+* **Formação e expansão do Tahuantinsuyo**
+
+  * Cusco como centro político e simbólico.
+  * Principais fases de expansão territorial.
+
+* **Organização política e social**
+
+  * Figura do Sapa Inca e da realeza incaica.
+  * Panacas (linhagens reais) e sua importância.
+  * Estrutura comunitária dos ayllu.
+  * Administração provincial, governadores e sistema de controle.
+
+* **Economia e trabalho**
+
+  * Sistema de mit’a (trabalho obrigatório ao Estado).
+  * Agricultura em diferentes pisos ecológicos; andenes (terraços).
+  * Depósitos estatais (qollqas) e redistribuição de bens.
+  * Uso de animais como lhamas e alpacas.
+
+* **Rede de estradas (Qhapaq Ñan)**
+
+  * Extensão geral e importância.
+  * Tambos (postos de parada) e chasquis (mensageiros).
+  * Integração de regiões costeiras, serranas e de altiplano.
+
+* **Centros e paisagens**
+
+  * Cusco, Machu Picchu, Ollantaytambo, entre outros.
+  * Relação entre arquitetura, topografia e simbolismo.
 
 **Exclusões**
 
-* Conquista espanhola em detalhe e guerras civis imediatas (apenas referências mínimas).
-* Culturas andinas pré-incas em profundidade (microsubtema próprio).
-* Cronologias ultra finas por governante.
+* História detalhada da conquista espanhola e de guerras civis imediatas, salvo pequenas referências para situar o “momento final”.
+* Culturas andinas pré-incas em detalhe (tratadas em outro microsubtema).
+* Debates muito técnicos sobre cronologia fina de cada governante.
 
 **Referências (exemplos)**
 
-* Sínteses andinas; verbetes: “Inca Empire”, “Cusco”, “Qhapaq Ñan”, “Mit’a”.
+* Sínteses sobre história andina e Império Inca.
+* Entradas de referência: “Inca Empire”, “Cusco”, “Qhapaq Ñan”, “Mit’a”.
+
+---
 
 ### Matriz de variação (eixos)
 
-* **Tempo:** formação → expansão → fase final pré-contato.
-* **Espaço:** serra/altiplano vs. costa; corredores e rotas.
-* **Atores:** elite imperial; chefias locais integradas; comunidades (ayllu); chasquis.
-* **Tema:** administração; trabalho/tributo; armazenagem/redistribuição; infraestrutura.
+* **Tempo / fase**
+
+  * Fase inicial de formação em torno de Cusco.
+  * Expansão máxima.
+  * Período imediatamente anterior ao contato com espanhóis.
+
+* **Espaço / região**
+
+  * Serra/altiplano.
+  * Costa do Pacífico.
+  * Regiões de floresta andina.
+
+* **Papel / ator**
+
+  * Sapa Inca e elite imperial.
+  * Chefes locais integrados ao império.
+  * Camponeses dos ayllu.
+  * Chasquis e outros servidores do Estado.
+
+* **Tema / instituição**
+
+  * Estrutura administrativa.
+  * Sistema de trabalho e tributos.
+  * Armazenamento e redistribuição.
+  * Infraestrutura viária.
+
+---
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-1. Qual era a capital do Império Inca e centro político do Tahuantinsuyo?
-2. Como se chama a rede de estradas que integrava extensas áreas do império?
-3. Qual o nome do sistema de trabalho obrigatório prestado ao Estado incaico?
+1. Qual era a capital do Império Inca, considerada o “umbigo do mundo” na visão andina?
+2. Como se chama a extensa rede de estradas que conectava diferentes regiões do Império Inca?
+3. Qual é o nome dado ao sistema de trabalho obrigatório prestado ao Estado incaico, usado em obras públicas e na agricultura estatal?
 
 **Múltipla escolha**
 
 1. O Tahuantinsuyo pode ser descrito como:
-   (a) uma cidade-Estado isolada
-   (b) um império multiétnico andino com grande integração territorial
-   (c) uma colônia europeia
-   (d) um reino insular
+   (a) uma cidade-Estado única sem territórios periféricos
+   (b) um império multiétnico que se estendia por várias regiões andinas
+   (c) uma colônia europeia na América do Sul
+   (d) um reino isolado em uma ilha
 
 2. Os **ayllu** eram:
-   (a) unidades comunitárias de parentesco e trabalho
-   (b) fortalezas costeiras
-   (c) moedas metálicas
-   (d) templos exclusivamente militares
+   (a) navios de guerra incas
+   (b) unidades de comunidade de parentesco e de trabalho na sociedade andina
+   (c) templos dedicados ao deus sol
+   (d) cidades costeiras dominadas pelos espanhóis
 
-3. Os **chasquis** tinham a função principal de:
-   (a) atuar como mensageiros ao longo das estradas
-   (b) administrar mercados privados com moeda
-   (c) comandar navios oceânicos
-   (d) escrever códices hieroglíficos
+3. Os **chasquis** eram responsáveis por:
+   (a) conduzir caravanas de camelos no Saara
+   (b) servir como mensageiros rápidos que percorriam as estradas incas
+   (c) comandar guarnições romanas
+   (d) organizar rituais religiosos em Roma
 
-### Checklist
+**Verdadeiro/Falso**
 
-* Priorizar Estado, economia e infraestrutura (não só “monumentos”).
-* Diferenciar claramente Incas de tradições pré-incas.
-* Tratar a integração como processo (controle, logística, redistribuição).
-* Manter o recorte pré-colombiano; conquista só como contexto mínimo.
+1. ( ) O Império Inca utilizava depósitos estatais para armazenar alimentos e outros bens, que podiam ser redistribuídos em momentos de necessidade.
+2. ( ) A economia inca dependia exclusivamente do uso de moeda metálica e mercados privados, sem qualquer controle estatal.
 
 ---
 
-## 3) Andes pré-incas: Chavín, Moche, Nazca, Tiwanaku, Wari
+### Checklist
 
-`andes_preinca`
+* O foco está na **estrutura do Estado, da economia e da infraestrutura**, não apenas em curiosidades.
+* Há equilíbrio entre temas: política, economia, sociedade e espaço (estradas, centros).
+* Evita confundir Império Inca com civilizações andinas anteriores (Moche, Tiwanaku etc.).
+* Situa o império em contexto pré-colombiano, com apenas menções mínimas à conquista.
+
+---
+
+## 3) Outras civilizações sul-americanas pré-colombianas (Chavín, Moche, Nazca, Tiwanaku, Wari)
+
+`outras_civilizacoes_sul_americanas_chavin_moche_nazca_tiwanaku_wari`
 
 ```yaml
 ---
@@ -200,8 +318,8 @@ tema_clean: "historia"
 subtema: "Civilizações Pré-colombianas"
 subtema_clean: "civilizacoes_pre_colombianas"
 
-microsubtema: "Andes pré-incas: Chavín, Moche, Nazca, Tiwanaku, Wari"
-microsubtema_clean: "andes_preinca"
+microsubtema: "Outras civilizações sul-americanas pré-colombianas (Chavín, Moche, Nazca, Tiwanaku, Wari)"
+microsubtema_clean: "outras_civilizacoes_sul_americanas_chavin_moche_nazca_tiwanaku_wari"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -216,76 +334,131 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Panorama de civilizações sul-americanas pré-incas, sobretudo andinas e costeiras, destacando centros cerimoniais e urbanos, arte e iconografia, agricultura intensiva e manejo de água. Inclui **Chavín, Moche, Nazca, Tiwanaku e Wari**, em recorte comparativo e introdutório.
+Microsubtema voltado a civilizações sul-americanas pré-incas, sobretudo das áreas andinas e costeiras: Chavín, Moche, Nazca, Tiwanaku, Wari e culturas relacionadas. Destaca centros cerimoniais e urbanos, arte e iconografia, agricultura intensiva, manejo de água e redes de poder e influência que antecederam o Império Inca.
+
+---
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* **Chavín:** Chavín de Huántar; estilo artístico e influência religiosa/cultural.
-* **Moche:** costa norte do Peru; huacas; iconografia; irrigação e organização regional.
-* **Nazca:** geoglifos (Linhas de Nazca) e interpretações principais; manejo de água (ex.: puquios, em termos gerais).
-* **Tiwanaku:** altiplano; arquitetura em pedra; influência regional ligada ao Titicaca (em síntese).
-* **Wari:** urbanismo e redes de assentamentos; possíveis antecedentes de integração territorial (sem “determinismo inca”).
-* **Transversal:** adaptação ambiental (costa árida vs. serra/altiplano), agricultura/irrigação, arte e religião.
+* **Chavín**
+
+  * Centro cerimonial de Chavín de Huántar.
+  * Estilo artístico e influência religiosa sobre outras regiões andinas.
+
+* **Moche**
+
+  * Vales costeiros do norte do atual Peru.
+  * Pirâmides de adobe (huacas), iconografia rica e cenas de ritual e guerra.
+  * Sistemas de irrigação em áreas áridas.
+
+* **Nazca**
+
+  * Linhas e geoglifos de Nazca (interpretações principais).
+  * Agricultura e manejo de água (aquedutos subterrâneos/puquios).
+
+* **Tiwanaku**
+
+  * Centro altiplânico próximo ao lago Titicaca.
+  * Arquitetura em pedra e possível rede de influência regional.
+
+* **Wari (Huari)**
+
+  * Centro no altiplano/serra, com cidades planificadas.
+  * Redes de assentamentos e estradas precursoras de algumas práticas incas.
+
+* **Temas transversais**
+
+  * Adaptação a ambientes diversos (costa desértica, serra, altiplano).
+  * Agricultura em terraços, irrigação, pastoreio.
+  * Arte, cerâmica, têxteis e ícones religiosos.
 
 **Exclusões**
 
-* Detalhamento do Império Inca (microsubtema próprio).
-* Teorias extravagantes sobre Nazca e “civilizações perdidas”.
-* História moderna de países andinos.
+* Detalhamento fino do Império Inca (tratado em microsubtema próprio).
+* Sociedades da Amazônia ou do Cone Sul que não se encaixem nas tradições andinas/costeiras acima (essas poderiam demandar outro microsubtema específico se o projeto quiser).
+* Histórias nacionais modernas (Peru, Bolívia, Chile etc.) – foco é pré-colombiano.
 
 **Referências (exemplos)**
 
-* Sínteses do mundo andino; verbetes: “Chavín culture”, “Moche culture”, “Nazca culture”, “Tiwanaku”, “Wari culture”.
+* Obras de síntese sobre “mundo andino” pré-inca.
+* Entradas: “Chavín culture”, “Moche culture”, “Nazca culture”, “Tiwanaku”, “Wari culture”.
+
+---
 
 ### Matriz de variação (eixos)
 
-* **Tradição:** Chavín/Moche/Nazca/Tiwanaku/Wari.
-* **Ambiente:** costa desértica, vales irrigados, serra/altiplano.
-* **Tema:** centros cerimoniais, manejo de água, iconografia, redes de influência, urbanismo.
-* **Tempo:** surgimento/auge/declínio em linhas gerais (sem exigir cronologia hiper precisa).
+* **Civilização / tradição**
+
+  * Chavín, Moche, Nazca, Tiwanaku, Wari.
+
+* **Espaço / ambiente**
+
+  * Costa árida.
+  * Serra/altiplano.
+  * Vales interandinos.
+
+* **Tempo / fase**
+
+  * Fases de surgimento, auge e declínio em diferentes séculos (sem precisar de datas milimétricas).
+
+* **Tema / instituição**
+
+  * Centros cerimoniais e urbanos.
+  * Agricultura e manejo de água.
+  * Arte e iconografia religiosa.
+  * Redes de troca e influência regional.
+
+---
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-1. Qual tradição andina é associada ao centro cerimonial de Chavín de Huántar?
-2. Como são conhecidos os grandes geoglifos do deserto associados à cultura Nazca?
-3. Qual centro altiplânico próximo ao lago Titicaca é ligado à tradição Tiwanaku?
+1. Qual civilização pré-inca é associada a um centro cerimonial importante em Chavín de Huántar, nos Andes peruanos?
+2. Como são conhecidas as figuras gigantes traçadas no solo do deserto do sul do atual Peru, associadas a uma cultura pré-colombiana costeira?
+3. Qual centro arqueológico, localizado próximo ao lago Titicaca, é ligado a uma importante tradição altiplânica pré-inca?
 
 **Múltipla escolha**
 
-1. As Linhas de Nazca são:
-   (a) estradas incas pavimentadas
-   (b) geoglifos desenhados no solo, visíveis do alto
-   (c) muralhas defensivas europeias
-   (d) pirâmides de pedra
+1. As **Linhas de Nazca** são:
+   (a) canais subterrâneos para irrigação
+   (b) geoglifos desenhados no solo, formando figuras visíveis do alto
+   (c) estradas incas pavimentadas
+   (d) muralhas defensivas de pedra
 
-2. A cultura Moche se desenvolveu principalmente:
-   (a) na Amazônia
-   (b) em vales costeiros áridos do norte do atual Peru
-   (c) no México central
-   (d) nas ilhas do Caribe
+2. A cultura **Moche** se desenvolveu principalmente:
+   (a) na região amazônica
+   (b) em vales costeiros áridos no norte do atual Peru
+   (c) no centro do atual México
+   (d) em ilhas do Caribe
 
-3. A cultura Wari é frequentemente associada a:
-   (a) ausência de urbanismo
-   (b) assentamentos e centros com planejamento, com redes regionais de controle
-   (c) colonização europeia
-   (d) escrita alfabética latina
+3. A cultura **Wari** é conhecida por:
+   (a) cidades planejadas e possíveis redes de estradas que influenciaram práticas incas posteriores
+   (b) ter sido uma colônia fenícia
+   (c) ter inventado o alfabeto latino
+   (d) se limitar a pequenos vilarejos sem organização urbana
 
-### Checklist
+**Verdadeiro/Falso**
 
-* Evitar “tudo leva aos Incas”: cada tradição tem lógica própria.
-* Variar costa/serra/altiplano e arte/economia/urbanismo.
-* Tratar Nazca com foco arqueológico, sem sensacionalismo.
-* Manter nível introdutório e verificável.
+1. ( ) Tiwanaku foi um importante centro altiplânico pré-inca, situado próximo ao lago Titicaca.
+2. ( ) As civilizações Moche e Nazca são associadas a regiões costeiras áridas onde foram desenvolvidos sistemas de irrigação e manejo de água.
 
 ---
 
-## 4) América do Norte pré-colombiana: diversidade regional e sociedades complexas
+### Checklist
 
-`norte_precolomb`
+* O microsubtema não “some” dentro dos Incas: deixa claro que são **tradições próprias**, anteriores ou paralelas.
+* Há variedade de recortes: costa, serra, altiplano; arte, agricultura, urbanismo, religião.
+* Evita teorias absurdas sobre “ETs” nas Linhas de Nazca, pirâmides secretas etc.
+* Usa datas e fases de forma geral, sem exigir conhecimento cronológico hiper preciso em todas as perguntas.
+
+---
+
+## 4) Sociedades indígenas da América do Norte pré-colombiana
+
+`sociedades_indigenas_da_america_do_norte_pre_colombiana`
 
 ```yaml
 ---
@@ -294,8 +467,8 @@ tema_clean: "historia"
 subtema: "Civilizações Pré-colombianas"
 subtema_clean: "civilizacoes_pre_colombianas"
 
-microsubtema: "América do Norte pré-colombiana: diversidade regional e sociedades complexas"
-microsubtema_clean: "norte_precolomb"
+microsubtema: "Sociedades indígenas da América do Norte pré-colombiana"
+microsubtema_clean: "sociedades_indigenas_da_america_do_norte_pre_colombiana"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -310,68 +483,123 @@ data_criacao: "2025-12-09"
 **Localização.** Irrestrita
 
 **Descrição.**
-Sociedades indígenas da América do Norte antes do contato europeu, enfatizando diversidade ecológica e formas complexas de organização: culturas construtoras de montes (Mississipiana/Cahokia), povos do Sudoeste (ancestrais Pueblo) e sociedades do Nordeste/Grandes Lagos (incluindo confederações iroquesas), além de outros ambientes em visão geral.
+Microsubtema centrado nas sociedades indígenas da América do Norte antes do contato europeu, com foco em grupos de maior complexidade política, urbana ou cerimonial. Inclui culturas construtoras de montes (como Mississipiana/Cahokia), povos do Sudoeste (ancestrais Pueblo), das florestas do Nordeste (por exemplo, confederações iroquesas) e outras regiões, destacando modos de vida, agricultura, redes de troca e diversidade ambiental.
+
+---
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* **Mississipiana e “mound builders”:** Cahokia; montes cerimoniais/urbanos; agricultura e hierarquias (síntese).
-* **Sudoeste:** ancestrais Pueblo; pueblos e moradias em penhascos; irrigação e agricultura em ambientes áridos.
-* **Nordeste/Grandes Lagos:** horticultura (milho, feijão, abóbora); longhouses; ligas/confederações (em visão geral).
-* **Outros ambientes (visão geral):** planícies e costa noroeste como exemplos de adaptações distintas (sem misturar recortes tardios).
-* **Temas transversais:** redes de troca, adaptação ao ambiente, combinações entre agricultura/caça/pesca/coleta.
+* **Construtores de montes (mound builders)**
+
+  * Cultura Mississipiana e centro de Cahokia.
+  * Outros sítios de montes cerimoniais e funerários.
+
+* **Povos do Sudoeste**
+
+  * Ancestrais Pueblo (Anasazi), construções em penhascos e pueblos.
+  * Sistemas de irrigação e agricultura em ambientes áridos.
+
+* **Florestas do Nordeste e Grandes Lagos**
+
+  * Povos iroqueses (Haudenosaunee) e outras confederações/ligas.
+  * Longhouses, horticultura de “milho, feijão e abóbora”.
+
+* **Planícies, costa noroeste e outras regiões (em linhas gerais)**
+
+  * Povos das planícies (combinação de caça e agricultura; uso posterior do cavalo – com cuidado para não misturar períodos muito tardios).
+  * Povos da costa noroeste (complexidade cerimonial, potlatch, totem poles – em traços gerais).
+
+* **Temas transversais**
+
+  * Adaptação a ambientes diversos: florestas temperadas, desertos, planícies, costas oceânicas.
+  * Agricultura, caça, coleta e pesca em diferentes combinações.
+  * Redes regionais de troca.
 
 **Exclusões**
 
-* Colonização europeia e guerras coloniais em detalhe (só menções mínimas).
-* Excesso de micro-etnografias muito específicas e difíceis de verificar em sínteses gerais.
-* Mesoamérica e Andes (tratados em outros microsubtemas).
+* Narrativa centrada na colonização europeia, guerras coloniais e políticas dos séculos XVIII–XIX (só referências muito gerais, se necessário).
+* Detalhes de grupos extremamente pequenos e localizados que não aparecem em sínteses gerais (para evitar perguntas inverificáveis ou ultra-específicas).
+* Culturas mesoamericanas (maias, mexicas) – tratadas no microsubtema de Mesoamérica.
 
 **Referências (exemplos)**
 
-* Sínteses de história indígena norte-americana; verbetes: “Mississippian culture”, “Cahokia”, “Ancestral Puebloans”, “Iroquois”, “Mound Builders”.
+* Sínteses de história indígena da América do Norte.
+* Entradas: “Mississippian culture”, “Cahokia”, “Ancestral Puebloans”, “Iroquois”, “Mound Builders”.
+
+---
 
 ### Matriz de variação (eixos)
 
-* **Região:** Mississippi/sudeste; sudoeste árido; nordeste/florestas; costa/planícies (em linhas gerais).
-* **Tipo social:** centros cerimoniais/urbanos; aldeias agrícolas; sociedades com mobilidade sazonal.
-* **Tema:** agricultura, arquitetura, organização política, redes de troca, ambiente.
-* **Atores:** lideranças, conselhos, agricultores, caçadores/pescadores, artesãos.
+* **Região / ambiente**
+
+  * Vale do Mississippi e sudeste.
+  * Sudoeste árido.
+  * Nordeste/florestas temperadas.
+  * Planícies e costa noroeste.
+
+* **Tipo de sociedade**
+
+  * Centros urbanos/cerimoniais.
+  * Aldeias agrícolas.
+  * Grupos de caçadores-colectores com redes de troca importantes.
+
+* **Tema / modo de vida**
+
+  * Agricultura (milho, feijão, abóbora, etc.).
+  * Caça e pesca.
+  * Arquitetura (pueblos, longhouses, montes de terra, casas de madeira).
+  * Organização política (confederações, chefias, conselhos).
+
+* **Papel / ator**
+
+  * Líderes políticos/espirituais.
+  * Agricultores e caçadores.
+  * Mulheres em sociedades horticultoras (onde a horticultura é central).
+
+---
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-1. Qual é o nome do grande centro urbano-cerimonial associado à cultura Mississipiana?
-2. Como se chamam as habitações comunais alongadas associadas a povos do Nordeste, como os iroqueses?
-3. Como são conhecidos os povos do Sudoeste que construíram pueblos e moradias em penhascos?
+1. Como se chama o grande centro urbano e cerimonial pré-colombiano localizado próximo ao atual rio Mississippi, associado à cultura Mississipiana?
+2. Que nome se dá às estruturas de habitação comunal alongadas, típicas de povos iroqueses e de outras sociedades do nordeste da América do Norte?
+3. Como são conhecidos os povos do Sudoeste norte-americano que construíram moradias em penhascos e pueblos de alvenaria em regiões áridas?
 
 **Múltipla escolha**
 
-1. A cultura Mississipiana é especialmente conhecida por:
-   (a) pirâmides de pedra no estilo egípcio
-   (b) montes de terra (mounds) com funções cerimoniais e urbanas
+1. A cultura **Mississipiana** é especialmente conhecida por:
+   (a) pirâmides de pedra semelhantes às egípcias
+   (b) montes de terra (mounds) com funções cerimoniais e urbanas, como em Cahokia
    (c) templos budistas de madeira
-   (d) cidades romanas fortificadas
+   (d) cidades fortificadas romanas
 
-2. A combinação agrícola “milho, feijão e abóbora” foi importante:
+2. A “trindade” agrícola formada por milho, feijão e abóbora foi importante:
    (a) apenas na Europa medieval
-   (b) para várias sociedades indígenas norte-americanas horticultoras
-   (c) somente para os incas
+   (b) em várias sociedades indígenas norte-americanas horticultoras
+   (c) somente entre os incas
    (d) apenas na Mesopotâmia antiga
 
-3. Longhouses se associam principalmente a:
-   (a) povos do Nordeste/Grandes Lagos
-   (b) povos andinos
+3. As **longhouses** são associadas principalmente a:
+   (a) povos do Nordeste, como os iroqueses
+   (b) povos da Amazônia
    (c) civilizações maias
-   (d) reinos do Mediterrâneo antigo
+   (d) reinos africanos do Sahel
+
+**Verdadeiro/Falso**
+
+1. ( ) Antes do contato com os europeus, existiam na América do Norte centros urbanos e cerimoniais complexos, como Cahokia.
+2. ( ) Todas as sociedades indígenas norte-americanas viviam exclusivamente de caça, sem qualquer prática agrícola.
+
+---
 
 ### Checklist
 
-* Evidenciar **diversidade regional** (não “um indígena genérico”).
-* Incluir sociedades agrícolas e centros complexos (ex.: Cahokia), não só caça/coleta.
-* Evitar anacronismos (ex.: generalizar o cavalo como central antes do contato).
-* Manter recorte em processos verificáveis: ambiente, agricultura, arquitetura, política.
+* Reconhece a **diversidade regional** da América do Norte pré-colombiana, evitando a ideia de um único “povo indígena genérico”.
+* Inclui exemplos de sociedades **agricultoras, urbanas/cerimoniais e semi-sedentárias**, não apenas caçadores-colectores.
+* Evita misturar demais períodos muito tardios (como o uso intensivo do cavalo nas planícies já após o contato) com o recorte estritamente pré-colombiano.
+* Mantém foco em dados bem atestados em sínteses de história indígena norte-americana.
 
 ---

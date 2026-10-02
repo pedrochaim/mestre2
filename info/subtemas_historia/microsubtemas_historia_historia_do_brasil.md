@@ -1,9 +1,3 @@
-A seguir, os microsubtemas **reorganizados no padrão** (ordem fixa: **Natureza → Localização → Descrição → Escopo (Inclusões/Exclusões/Referências) → Matriz de variação → Exemplos (Abertas + Múltipla escolha; sem V/F) → Checklist**). Mantive seus YAML e `microsubtema_clean`.
-
----
-
-## 1) Povos indígenas e sociedades pré-coloniais no território brasileiro — `povos_indigenas_sociedades_pre_coloniais_brasil`
-
 ```yaml
 ---
 tema: "História"
@@ -22,82 +16,91 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-**Natureza.** Temático
-**Localização.** Nacional (Brasil)
+## Povos indígenas e sociedades pré-coloniais no território brasileiro (`povos_indigenas_sociedades_pre_coloniais_brasil`)
 
-**Descrição.**
-Diversidade de povos indígenas e formas de organização social, econômica e cultural no território que hoje é o Brasil **antes** e nos **primeiros contatos** com europeus. Ênfase em línguas, modos de vida, relações com o ambiente, redes de troca, conflitos/alianças e impactos iniciais da colonização (doenças, missões, aldeamentos e resistências).
+**Natureza.** Temático
+**Descrição.** Diversidade de povos indígenas e formas de organização social, econômica e cultural no território que hoje é o Brasil antes e nos primeiros contatos com europeus, incluindo línguas, modos de vida, relações com o ambiente e impactos iniciais da colonização.
+
+**Localização.** Nacional (Brasil)
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* Diversidade cultural e linguística: troncos e famílias (ex.: tupi-guarani, macro-jê, aruak, karib).
-* Modos de subsistência: agricultura (mandioca e outras), caça, pesca, coleta; sazonalidade e mobilidade.
-* Organização social e política: aldeias, chefias/lideranças, alianças, guerra e diplomacia intergrupos.
-* Cosmologias e rituais em linhas gerais (sem etnografia hiper específica).
-* Primeiros contatos: alianças, conflitos, escravização/expedições, missões e aldeamentos; epidemias e deslocamentos.
+* Principais troncos linguísticos (tupi, macro-jê, etc.) e grandes famílias/culturas.
+* Modos de subsistência (agricultura, coleta, caça, pesca), aldeamentos, mobilidade.
+* Organização social, liderança política, guerra, redes de troca.
+* Crenças, rituais, visões de mundo em linhas gerais.
+* Primeiros contatos com portugueses, missões religiosas e impactos iniciais (doenças, aldeamentos, resistência).
 
 **Exclusões**
 
-* Questões jurídico-políticas contemporâneas (Constituição de 1988, demarcação atual etc.).
-* Detalhes etnográficos recentes (século XX–XXI) como foco central.
-* Narrativas que tratem povos indígenas apenas como “pano de fundo” passivo da colonização.
+* Detalhes etnográficos muito específicos ou recentes (pós-século XX).
+* Conflitos de terras contemporâneos (atualidade).
+* Tratamento jurídico moderno dos povos indígenas (Constituição de 1988 em detalhe).
 
 **Referências (exemplos)**
 
-* Sínteses de história indígena e arqueologia do Brasil; verbetes gerais sobre povos indígenas do Brasil e troncos linguísticos; história do contato no século XVI.
+* Verbete *Povos indígenas do Brasil* e seções de *História do Brasil* (PT).
+* Obras de síntese em história indígena e arqueologia do Brasil.
 
 ### Matriz de variação (eixos)
 
-* **Região:** Amazônia | Nordeste litoral | sertões | Sudeste | Sul | Centro-Oeste.
-* **Família linguística:** tupi-guarani | macro-jê | aruak | karib | outras.
-* **Tema:** subsistência | aldeamento/mobilidade | organização social | guerra/alianças | rituais | contato inicial.
-* **Temporalidade:** antes de 1500 | primeiras décadas/séculos de colonização.
+* **Região**: Amazônia, Nordeste litoral, interior nordestino, Sudeste, Sul, Centro-Oeste.
+* **Tronco/ família linguística**: tupi-guarani, jê, aruak, karib etc.
+* **Tema**: subsistência, organização social, guerra, religião, contato com europeus.
+* **Temporalidade**: antes de 1500, primeiros séculos de colonização.
 
-### Exemplos de enunciados
+### Exemplos de enunciados (ilustrativos)
 
-**Abertas (4)**
+**Aberta**
 
-1. Em História do Brasil, a que se refere a expressão “povos indígenas” no período anterior à colonização portuguesa?
-2. Cite uma família/tronco linguístico relevante entre povos indígenas no território brasileiro (ex.: tupi-guarani, macro-jê).
-3. Que mudanças costumavam ocorrer quando grupos indígenas eram aldeados por missões religiosas no período colonial inicial?
-4. Cite um impacto importante dos primeiros contatos europeus sobre populações indígenas, além de conflitos armados.
+* Quem são chamados de “povos indígenas” no contexto da História do Brasil?
+* Cite um tronco ou família linguística importante entre os povos indígenas brasileiros.
+* Que tipo de atividade econômica era praticada por muitas sociedades indígenas agrícolas antes da chegada dos portugueses?
+* O que mudava para um povo indígena quando era aldeado por missionários?
 
-**Múltipla escolha (4)**
+**Múltipla escolha**
 
-1. Antes da colonização, muitos grupos do litoral praticavam principalmente:
-   (a) pastoril bovino em grandes fazendas
-   (b) agricultura, pesca e coleta
-   (c) mineração industrial em larga escala
-   (d) indústria têxtil mecanizada
-2. O termo “tupi-guarani” se refere, em geral, a:
-   (a) um único povo homogêneo
-   (b) um conjunto de povos com línguas aparentadas
-   (c) uma confederação política do século XIX
-   (d) um grupo de colonos portugueses
-3. Um efeito recorrente do contato inicial foi:
-   (a) ausência total de epidemias
-   (b) disseminação de doenças para as quais não havia imunidade prévia
-   (c) incorporação imediata como cidadãos com direitos plenos
-   (d) fim completo das alianças e trocas
-4. Em muitos contextos, aldeias indígenas podiam:
-   (a) permanecer fixas e imutáveis, sem deslocamentos
-   (b) ser reconfiguradas conforme ciclos, pressões e estratégias locais
-   (c) existir sem relação com ambiente e recursos
-   (d) ser proibidas por lei desde 1500
+* Antes da colonização, muitos grupos indígenas do litoral praticavam principalmente:
+  (a) Pastoril de grandes rebanhos bovinos
+  (b) Agricultura, pesca e coleta
+  (c) Mineração em larga escala
+  (d) Indústria têxtil mecanizada
 
-### Checklist
+* O termo “tupi-guarani” refere-se a:
+  (a) Um único povo homogêneo
+  (b) Um conjunto de povos que falavam línguas aparentadas
+  (c) Uma confederação política criada no século XIX
+  (d) Um grupo de colonos portugueses
 
-* [ ] Evita estereótipos (“indígena genérico”); destaca **diversidade**.
-* [ ] Povos indígenas como **sujeitos históricos** (alianças, decisões, estratégias).
-* [ ] Foco em processos estáveis (língua, subsistência, contato inicial), sem debate contemporâneo.
-* [ ] Variedade regional e de formas de organização.
-* [ ] **No máximo 5 perguntas** por povo específico/episódio muito particular.
+* Entre os impactos iniciais da colonização portuguesa sobre os povos indígenas está:
+  (a) Aumento da autonomia política indígena
+  (b) A introdução de doenças desconhecidas pelos nativos
+  (c) A ausência total de conflitos
+  (d) A rápida incorporação de todos como cidadãos plenos do reino
+
+* Em muitos povos indígenas, as aldeias:
+  (a) Não tinham qualquer relação com o ambiente natural
+  (b) Eram deslocadas ou reconfiguradas conforme ciclos agrícolas e de guerra
+  (c) Eram fixas e imutáveis, sem mobilidade
+  (d) Eram proibidas pela coroa portuguesa
+
+**Verdadeiro/Falso**
+
+* A diversidade cultural e linguística indígena no território brasileiro era muito grande antes da chegada dos europeus.
+* Todos os povos indígenas brasileiros viviam em grandes cidades de pedra antes de 1500.
+* Os primeiros contatos com colonizadores implicaram alianças, conflitos e trocas, não apenas violência direta.
+* A história indígena continua depois do início da colonização, não se limita ao período “pré-1500”.
+
+**Checklist**
+
+* Evitar estereótipos e generalizações (“índio genérico”); destacar diversidade.
+* Não tratar povos indígenas apenas como “contexto” da colonização, mas como sujeitos históricos.
+* Fugir de debates políticos muito recentes; focar processos históricos consolidados.
+* Garantir variedade regional e de tipos de organização social.
 
 ---
-
-## 2) Colonização portuguesa do Brasil: açúcar, escravidão e sociedade colonial (séculos XVI–XVII) — `colonizacao_portuguesa_brasil_acucar_escravidao_seculos_16_17`
 
 ```yaml
 ---
@@ -117,79 +120,91 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-**Natureza.** Temático
-**Localização.** Nacional (Brasil)
+## Colonização portuguesa do Brasil: açúcar, escravidão e sociedade colonial (séculos XVI–XVII) (`colonizacao_portuguesa_brasil_acucar_escravidao_seculos_16_17`)
 
-**Descrição.**
-Estruturação inicial da colonização portuguesa: capitanias e governo-geral, formação de núcleos urbanos e câmaras, economia açucareira no Nordeste e sua ligação com o mercado externo, uso de trabalho compulsório (indígena e africano escravizado) e configuração da sociedade colonial dos séculos XVI–XVII, incluindo invasões/concorrência europeia em visão geral.
+**Natureza.** Temático
+**Descrição.** Estruturação inicial da colonização portuguesa no Brasil, com destaque para capitanias hereditárias, governo-geral, plantation açucareira no Nordeste, uso de trabalho escravizado indígena e africano e formação da sociedade colonial dos séculos XVI e XVII.
+
+**Localização.** Nacional (Brasil)
 
 ### Escopo
 
-**Inclusões (não exaustivo)**
+**Inclusões**
 
-* Capitanias hereditárias, donatários, governo-geral, câmaras municipais e primeiros centros coloniais.
-* Plantation açucareira: engenhos, monocultura, exportação; atores (senhor de engenho, lavradores, técnicos/artesãos).
-* Escravização indígena e africana: captura, tráfico atlântico (em linhas gerais), cotidiano do trabalho e formas de resistência (fugas, quilombos, negociações).
-* Papel da Coroa, Igreja e ordens religiosas (missões, educação, disciplina social).
-* Invasões/ocupações estrangeiras ligadas ao açúcar (especialmente holandeses) em síntese.
+* Capitanias hereditárias, governo-geral, câmaras municipais, primeiros núcleos urbanos.
+* Plantation açucareira: engenhos, senhor de engenho, lavoura de cana, exportação.
+* Trabalho compulsório indígena e africano escravizado, formas de resistência.
+* Relações entre colonos, coroa, Igreja, ordens religiosas.
+* Invasões estrangeiras ligadas ao açúcar (holandeses etc.) em visão geral.
 
 **Exclusões**
 
-* Mineração do século XVIII (outro microsubtema).
-* Independência/Império (cronologias posteriores).
-* Tecnicalidades mecânicas de engenho sem conexão histórica.
+* Ciclo do ouro (século XVIII) e interiorização posterior.
+* Independência e império (períodos cronológicos posteriores).
+* Detalhamento técnico de equipamentos de engenho sem conexão histórica.
 
 **Referências (exemplos)**
 
-* Sínteses de Brasil Colônia; verbetes sobre capitanias, governo-geral, economia açucareira, escravidão no período colonial e invasões holandesas.
+* Verbete *Colonização do Brasil*, *Capitanias hereditárias*, *Açúcar no Brasil colonial* (PT).
+* Manuais de História do Brasil Colônia.
 
 ### Matriz de variação (eixos)
 
-* **Espaço:** litoral nordestino (Bahia/Pernambuco) | outros núcleos iniciais.
-* **Instituições:** capitania | governo-geral | câmara | engenho | missões/ordens.
-* **Atores:** senhores/lavradores | religiosos | autoridades coloniais | indígenas | africanos escravizados | homens livres pobres.
-* **Tema:** economia açucareira | trabalho compulsório | poder local | metrópole | invasões e concorrência.
+* **Espaço**: litoral nordestino (Pernambuco, Bahia), Sudeste inicial.
+* **Instituição**: capitania, governo-geral, engenho, câmara municipal.
+* **Ator social**: senhor de engenho, pequeno proprietário, escravizado africano, indígena, missionário.
+* **Tema**: economia, trabalho, poder local, relações com a metrópole, invasões.
 
 ### Exemplos de enunciados
 
-**Abertas (4)**
+**Aberta**
 
-1. O que eram as capitanias hereditárias no início da colonização portuguesa?
-2. Qual produto esteve no centro da economia colonial brasileira nos séculos XVI e XVII?
-3. Quem era o “senhor de engenho” na sociedade colonial?
-4. Por que a escravidão foi central para o funcionamento da plantation açucareira?
+* O que era uma capitania hereditária?
+* Qual produto esteve no centro da economia colonial brasileira nos séculos XVI e XVII?
+* Quem era o “senhor de engenho” na sociedade colonial?
+* Que papel a escravidão teve na produção açucareira colonial?
 
-**Múltipla escolha (4)**
+**Múltipla escolha**
 
-1. As capitanias hereditárias foram criadas para:
-   (a) concentrar toda a administração diretamente em Lisboa, sem delegação
-   (b) delegar a particulares parte da colonização, exploração e defesa do território
-   (c) impedir qualquer ocupação do território colonial
-   (d) dividir o Brasil entre várias metrópoles europeias
-2. O principal item de exportação no Brasil colonial dos séculos XVI–XVII foi:
-   (a) café (b) ouro (c) açúcar (d) borracha
-3. A plantation açucareira combinava, em geral:
-   (a) pequenas propriedades familiares autossuficientes
-   (b) grandes propriedades monocultoras voltadas à exportação e trabalho escravizado
-   (c) ausência de ligação com comércio externo
-   (d) produção apenas para consumo interno
-4. Entre grupos submetidos à escravização na colônia, estavam:
-   (a) apenas colonos portugueses
-   (b) povos indígenas e africanos (em diferentes contextos)
-   (c) exclusivamente camponeses europeus
-   (d) apenas populações asiáticas
+* As capitanias hereditárias foram criadas com o objetivo de:
+  (a) Concentrar toda a administração na metrópole
+  (b) Delegar a particulares a exploração e defesa do território colonial
+  (c) Impedir qualquer tipo de colonização do Brasil
+  (d) Dividir o Brasil entre várias metrópoles europeias
 
-### Checklist
+* O principal item de exportação do Brasil colonial nos séculos XVI e XVII foi:
+  (a) Café
+  (b) Ouro
+  (c) Açúcar
+  (d) Borracha
 
-* [ ] Conecta **açúcar + escravidão + administração colonial** (sem “ilhas” de assunto).
-* [ ] Escravidão tratada com clareza e respeito, sem romantização.
-* [ ] Inclui múltiplos atores sociais (não só elite).
-* [ ] Recorte temporal consistente (XVI–XVII).
-* [ ] **No máximo 5 perguntas** por invasão/episódio específico (ex.: um único ano/cidade).
+* A plantation açucareira combinava:
+  (a) Pequenas propriedades familiares autossuficientes
+  (b) Grandes propriedades monocultoras e trabalho escravizado
+  (c) Ausência de qualquer ligação com o comércio externo
+  (d) Produção apenas para consumo interno
+
+* Entre os grupos que sofreram escravização na colônia brasileira estavam:
+  (a) Apenas colonos portugueses
+  (b) Povos indígenas e africanos
+  (c) Exclusivamente camponeses europeus
+  (d) Apenas populações asiáticas
+
+**Verdadeiro/Falso**
+
+* A produção de açúcar no Brasil colonial estava voltada principalmente ao mercado externo.
+* As capitanias hereditárias foram um modelo de administração colonial sem qualquer problema.
+* A escravidão foi elemento central da organização econômica e social na colônia açucareira.
+* A coroa portuguesa teve que rever formas de administração colonial ao longo do tempo.
+
+**Checklist**
+
+* Destacar interligação entre **produção açucareira**, **escravidão** e **estrutura política colonial**.
+* Evitar romantizar a vida colonial; tratar a escravidão com clareza e respeito.
+* Incluir diferentes atores sociais (não só a elite dos engenhos).
+* Manter recorte temporal claro (séculos XVI–XVII).
 
 ---
-
-## 3) Mineração, interiorização e transformações no Brasil colonial (século XVIII) — `mineracao_interiorizacao_brasil_colonial_seculo_18`
 
 ```yaml
 ---
@@ -209,76 +224,91 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-**Natureza.** Temático
-**Localização.** Nacional (Brasil)
+## Mineração, interiorização e transformações no Brasil colonial (século XVIII) (`mineracao_interiorizacao_brasil_colonial_seculo_18`)
 
-**Descrição.**
-Expansão da mineração de ouro e diamantes no século XVIII, interiorização do povoamento, formação de vilas e rotas, reorganização fiscal e administrativa, papel do trabalho escravizado, contrabando e tensões políticas com a metrópole (incluindo movimentos de contestação em visão geral).
+**Natureza.** Temático
+**Descrição.** Expansão da mineração de ouro e diamantes no século XVIII, interiorização da colonização, reorganização administrativa e fiscal, mudanças na sociedade colonial e tensões com a metrópole.
+
+**Localização.** Nacional (Brasil)
 
 ### Escopo
 
-**Inclusões (não exaustivo)**
+**Inclusões**
 
-* Descobertas e áreas mineradoras (Minas Gerais; expansão para Goiás e Mato Grosso; diamantes em certas regiões).
-* Arraiais/vilas, urbanização relativa, mobilidade populacional, comércio e abastecimento.
-* Fiscalidade: quinto (20%), casas de fundição, metas de arrecadação; derrama como mecanismo de cobrança (em linhas gerais).
-* Trabalho escravizado e dinâmicas sociais (alforrias, controle, resistências).
-* Contrabando e conflitos; movimentos coloniais associados a tensões fiscais (ex.: Inconfidência em síntese).
+* Descoberta de ouro em Minas Gerais e outras áreas; corrida do ouro.
+* Arraiais e vilas mineradoras, demografia e urbanização relativa.
+* Sistema de cobrança de tributos (quinto, finta, derrama) e fiscalização.
+* Trabalho escravizado na mineração, mobilidade de pessoas, contrabando.
+* Conflitos e movimentos coloniais ligados às tensões fiscais e políticas (ex.: Inconfidência em nível geral).
 
 **Exclusões**
 
-* Café e economia do século XIX.
-* Independência/Império como foco.
-* Narrativas hiper detalhadas de conjurações específicas.
+* Ciclo do café do século XIX.
+* Independência e período imperial, exceto como consequência de longo prazo.
+* Narrativas muito pormenorizadas de conjurações específicas.
 
 **Referências (exemplos)**
 
-* Sínteses de Brasil Colônia no século XVIII; verbetes sobre ciclo do ouro, quinto, casas de fundição e mineração colonial.
+* Verbete *Ciclo do ouro*, *Mineração no Brasil colonial*, *Minas Gerais colonial*.
+* Manuais de História do Brasil colonial, século XVIII.
 
 ### Matriz de variação (eixos)
 
-* **Região:** Minas Gerais | Goiás | Mato Grosso | conexões com Bahia/Rio e rotas internas.
-* **Tema:** mineração | urbanização | tributos/fiscalização | mobilidade | contrabando | contestação.
-* **Grupo social:** escravizados | comerciantes | autoridades fiscais | pequenos proprietários | elites locais.
-* **Dimensão política:** centralização metropolitana | conflitos | movimentos de contestação.
+* **Região**: Minas Gerais, Goiás, Mato Grosso, Bahia.
+* **Tema**: economia mineradora, tributos, mobilidade, urbanização, contrabando.
+* **Grupo social**: escravizados, pequenos proprietários, autoridades fiscais, comerciantes.
+* **Dimensão política**: controle metropolitano, conflitos, movimentos de contestação.
 
 ### Exemplos de enunciados
 
-**Abertas (4)**
+**Aberta**
 
-1. O que foi o “ciclo do ouro” na História do Brasil colonial?
-2. Qual foi um efeito importante da mineração sobre o povoamento do interior do Brasil?
-3. O que era o “quinto” na tributação da mineração colonial?
-4. Por que a fiscalização e a cobrança de tributos geraram tensões entre colônia e metrópole?
+* O que foi o chamado “ciclo do ouro” na História do Brasil?
+* Qual foi o principal efeito da mineração sobre o povoamento do interior do Brasil?
+* O que era o “quinto” na tributação da mineração colonial?
+* Como o trabalho escravizado esteve presente na atividade mineradora?
 
-**Múltipla escolha (4)**
+**Múltipla escolha**
 
-1. A descoberta de grandes jazidas de ouro ocorreu principalmente em:
-   (a) Minas Gerais e áreas próximas (b) apenas no litoral nordestino (c) somente na Amazônia (d) exclusivamente no Rio Grande do Sul
-2. O “quinto” correspondia, em linhas gerais, a:
-   (a) 5% do ouro extraído (b) 20% do ouro extraído (c) imposto sobre exportação de café (d) taxa cobrada apenas sobre libertos
-3. A interiorização da colonização no século XVIII implicou:
-   (a) proibição de migração interna
-   (b) formação de novas vilas e rotas de circulação para o interior
-   (c) abandono completo das atividades no litoral
-   (d) fim do comércio interno
-4. Um fator de tensão no contexto minerador foi:
-   (a) ausência total de fiscalização
-   (b) cobrança considerada pesada e mecanismos de controle sobre o ouro
-   (c) liberdade irrestrita de comércio com qualquer potência
-   (d) inexistência de trabalho escravizado
+* A descoberta de grandes jazidas de ouro ocorreu principalmente em:
+  (a) Minas Gerais e regiões próximas
+  (b) Apenas no litoral nordestino
+  (c) Somente na Amazônia
+  (d) Exclusivamente no Rio Grande do Sul
 
-### Checklist
+* O “quinto” correspondia, em linhas gerais, a:
+  (a) Um imposto de 5% sobre a produção de ouro
+  (b) Um tributo de 20% sobre o ouro extraído
+  (c) Um imposto sobre exportações de café
+  (d) Uma taxa cobrada apenas sobre escravizados libertos
 
-* [ ] Conecta economia mineradora, fiscalidade e tensões políticas.
-* [ ] Evita “lista de datas”; prioriza processos (rotas, vilas, tributos).
-* [ ] Variedade regional e de grupos sociais.
-* [ ] Movimentos coloniais tratados com linguagem neutra e sintética.
-* [ ] **No máximo 5 perguntas** por movimento específico (ex.: Inconfidência).
+* A interiorização da colonização implicou:
+  (a) Estagnação do litoral
+  (b) Formação de novas vilas e rotas de comunicação internas
+  (c) Abandono completo das atividades econômicas do Nordeste
+  (d) Proibição de migração interna
+
+* Um fator de tensão entre colônia e metrópole na mineração foi:
+  (a) A ausência de qualquer tipo de fiscalização
+  (b) A cobrança de tributos considerados pesados pelos colonos
+  (c) A total liberdade de comércio com outras potências
+  (d) A inexistência de trabalho escravizado
+
+**Verdadeiro/Falso**
+
+* A mineração contribuiu para um crescimento relativo das áreas de interior na colônia.
+* O ciclo do ouro não teve impacto nas finanças da coroa portuguesa.
+* A fiscalização e a cobrança de tributos sobre o ouro geraram conflitos na colônia.
+* O trabalho escravizado foi largamente utilizado nas atividades mineradoras.
+
+**Checklist**
+
+* Destacar conexões entre **economia**, **fiscalidade** e **tensões políticas**.
+* Evitar apenas listar datas e cifras; focar processos estruturais.
+* Variar regiões e grupos sociais (não só elites mineradoras).
+* Manter linguagem neutra ao tratar de movimentos coloniais.
 
 ---
-
-## 4) Independência do Brasil e Primeiro Reinado (1808–1831) — `independencia_brasil_primeiro_reinado_1808_1831`
 
 ```yaml
 ---
@@ -298,79 +328,91 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-**Natureza.** Temático
-**Localização.** Nacional (Brasil)
+## Independência do Brasil e Primeiro Reinado (1808–1831) (`independencia_brasil_primeiro_reinado_1808_1831`)
 
-**Descrição.**
-Do deslocamento da corte em 1808 à abdicação de 1831: mudanças institucionais e econômicas do período joanino, processo de ruptura de 1822, construção do Estado imperial, Constituição de 1824, conflitos e disputas políticas em linhas gerais e crise do Primeiro Reinado.
+**Natureza.** Temático
+**Descrição.** Processo de ruptura política entre Brasil e Portugal e organização do Estado imperial sob D. Pedro I, abarcando a vinda da corte em 1808, o contexto de independência em 1822 e o Primeiro Reinado até 1831.
+
+**Localização.** Nacional (Brasil)
 
 ### Escopo
 
-**Inclusões (não exaustivo)**
+**Inclusões**
 
-* 1808: vinda da corte ao Rio; razões e consequências.
-* Abertura dos portos; reformas administrativas; elevação do Brasil a Reino Unido (visão geral).
-* 1822: independência como processo (negociações, disputas, símbolos).
-* Constituição de 1824 (outorgada) e organização do Império (centralização, poderes).
-* Conflitos e instabilidades do Primeiro Reinado em linhas gerais; abdicação em 1831.
+* Transferência da corte portuguesa para o Rio de Janeiro em 1808.
+* Abertura dos portos, elevação a Reino Unido, mudanças administrativas.
+* Movimentos e negociações que levaram à independência de 1822.
+* Constituição de 1824, centralização política, conflitos internos (em linhas gerais).
+* Abdicação de D. Pedro I e balanço do Primeiro Reinado.
 
 **Exclusões**
 
-* Regências e Segundo Reinado (outros recortes).
-* Detalhamento aprofundado de revoltas regionais específicas.
+* Regência e Segundo Reinado (tratados em outro microsubtema, se houver).
+* Detalhes muito específicos de revoltas regionais individuais.
 * Política externa detalhada após 1831.
 
 **Referências (exemplos)**
 
-* Sínteses de Brasil Império; verbetes sobre 1808, Independência, Constituição de 1824 e Primeiro Reinado.
+* Verbete *Independência do Brasil*, *Primeiro Reinado*, *Reino Unido de Portugal, Brasil e Algarves*.
+* Manuais de história do Brasil no século XIX.
 
 ### Matriz de variação (eixos)
 
-* **Momento:** 1808–1815 | 1815–1822 | 1822–1824 | 1824–1831.
-* **Atores:** D. João VI | D. Pedro I | elites provinciais | grupos populares | portugueses no Brasil.
-* **Tema:** reformas econômicas | centralização | Constituição | crise política | legitimidade do novo Estado.
-* **Espaço:** Rio de Janeiro | províncias | Portugal (Cortes e relações luso-brasileiras).
+* **Momento**: chegada da corte, independência, consolidação do império, crise do Primeiro Reinado.
+* **Ator**: D. João VI, D. Pedro I, elites brasileiras, grupos populares, portugueses.
+* **Tema**: reformas econômicas, centralização política, Constituição, conflitos.
+* **Espaço**: Rio de Janeiro, outras províncias brasileiras, Portugal.
 
 ### Exemplos de enunciados
 
-**Abertas (4)**
+**Aberta**
 
-1. Por que a corte portuguesa se transferiu para o Brasil em 1808?
-2. O que ocorreu em 7 de setembro de 1822 como marco simbólico da independência?
-3. Qual foi a importância da Constituição de 1824 para a organização do Estado imperial?
-4. O que significa dizer que o Brasil tornou-se um império independente após 1822?
+* Por que a corte portuguesa se transferiu para o Brasil em 1808?
+* O que ocorreu em 7 de setembro de 1822, em termos simbólicos, na história do Brasil?
+* Qual foi a importância da Constituição de 1824 para o Império?
+* O que significa dizer que o Brasil tornou-se um império independente sob D. Pedro I?
 
-**Múltipla escolha (4)**
+**Múltipla escolha**
 
-1. A abertura dos portos às “nações amigas” (1808) significou:
-   (a) fechamento do comércio externo
-   (b) fim do monopólio comercial português sobre o Brasil
-   (c) proibição de produtos ingleses
-   (d) independência imediata do Brasil
-2. A independência (1822) resultou na:
-   (a) criação imediata de uma república federativa
-   (b) formação de um império governado por D. Pedro I
-   (c) reintegração do Brasil como colônia
-   (d) divisão do território em vários países
-3. A Constituição de 1824 foi:
-   (a) outorgada por D. Pedro I após dissolução da Assembleia Constituinte
-   (b) resultado de plebiscito nacional direto
-   (c) uma constituição que aboliu a monarquia
-   (d) um decreto que criou a República
-4. A abdicação de D. Pedro I ocorreu em:
-   (a) 1808 (b) 1822 (c) 1831 (d) 1889
+* A abertura dos portos às “nações amigas”, em 1808, significou:
+  (a) Fechamento do comércio externo brasileiro
+  (b) Fim do monopólio comercial português sobre o Brasil
+  (c) Proibição da entrada de produtos ingleses
+  (d) Adoção imediata de tarifas iguais para todos os países
 
-### Checklist
+* A independência do Brasil, em 1822, resultou na:
+  (a) Criação de uma república federativa
+  (b) Formação de um império governado por D. Pedro I
+  (c) Reintegração do Brasil à condição de colônia
+  (d) Divisão do território em vários países independentes
 
-* [ ] Encadeamento claro: 1808 → 1822 → 1824 → 1831.
-* [ ] Equilíbrio entre processo de independência e estrutura do Primeiro Reinado.
-* [ ] Evitar personalismo: foco em processos e coalizões.
-* [ ] Conflitos citados apenas em nível geral (sem hiper detalhamento).
-* [ ] **No máximo 5 perguntas** por evento pontual (ex.: um único dia/episódio).
+* A Constituição de 1824:
+  (a) Foi outorgada por D. Pedro I após dissolver a Assembleia Constituinte
+  (b) Foi resultado de plebiscito popular em todo o país
+  (c) Não estabelecia nenhuma forma de divisão de poderes
+  (d) Transformou o Brasil em república
+
+* A abdicação de D. Pedro I ocorreu em:
+  (a) 1808
+  (b) 1822
+  (c) 1831
+  (d) 1889
+
+**Verdadeiro/Falso**
+
+* A vinda da corte portuguesa ao Brasil alterou a posição política do Rio de Janeiro no império luso-brasileiro.
+* O Brasil tornou-se independente como uma república desde 1822.
+* O Primeiro Reinado foi marcado por debates sobre centralização e representatividade política.
+* A abdicação de D. Pedro I encerrou um período de tensões entre o imperador e diversos grupos sociais.
+
+**Checklist**
+
+* Deixar claro o **encadeamento cronológico** 1808–1822–1831.
+* Equilibrar atenção entre contexto da independência e estrutura do Primeiro Reinado.
+* Evitar foco exclusivo em personagens, privilegiando processos.
+* Manter tom informativo sobre conflitos políticos, sem julgamento partidário.
 
 ---
-
-## 5) Segundo Reinado, café, escravidão e abolição (1840–1889) — `segundo_reinado_cafe_escravidao_abolicao_1840_1889`
 
 ```yaml
 ---
@@ -390,76 +432,91 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-**Natureza.** Temático
-**Localização.** Nacional (Brasil)
+## Segundo Reinado, café, escravidão e abolição (1840–1889) (`segundo_reinado_cafe_escravidao_abolicao_1840_1889`)
 
-**Descrição.**
-Brasil sob D. Pedro II: arranjo político do Segundo Reinado, expansão do café e integração ao mercado externo, permanência e crise da escravidão, leis abolicionistas e movimento abolicionista, e fatores que culminam na queda do Império em 1889.
+**Natureza.** Temático
+**Descrição.** Estrutura política, econômica e social do Brasil sob D. Pedro II, com destaque para a economia cafeeira, o uso e crise da escravidão, o movimento abolicionista e o fim do Império em 1889.
+
+**Localização.** Nacional (Brasil)
 
 ### Escopo
 
-**Inclusões (não exaustivo)**
+**Inclusões**
 
-* Estrutura política: centralização/alternância de gabinetes e “parlamentarismo às avessas” em linhas gerais.
-* Economia cafeeira: Vale do Paraíba e Oeste paulista; trabalho, infraestrutura e exportação.
-* Escravidão no século XIX: tráfico e seu fim legal (em síntese) e transformações do regime escravista.
-* Leis abolicionistas em panorama (1850, 1871, 1885, 1888) e movimento abolicionista (imprensa, associações, ação de pessoas negras e aliados).
-* Crise final do Império e proclamação da República (visão geral).
+* Consolidação do Segundo Reinado, papel de D. Pedro II, Parlamentarismo “às avessas”.
+* Expansão do café, especialmente Sudeste, e suas ligações com o mercado externo.
+* Escravidão no século XIX, tráfico, leis abolicionistas (Eusébio de Queirós, Ventre Livre, Sexagenários, Lei Áurea em síntese).
+* Movimento abolicionista, participação de diferentes grupos (elite, imprensa, negros, setores populares).
+* Queda da monarquia e proclamação da República em linhas gerais.
 
 **Exclusões**
 
-* Guerras externas em detalhe (apenas contexto).
-* República pós-1889.
-* Discussão jurídica avançada de cada lei.
+* Detalhamento minucioso de guerras externas (tratadas apenas como contexto).
+* História política da República pós-1889.
+* Discussões jurídicas avançadas de cada lei.
 
 **Referências (exemplos)**
 
-* Sínteses de Brasil Império; verbetes sobre Segundo Reinado, café no Brasil, escravidão e abolição.
+* Verbete *Segundo Reinado*, *Escravidão no Brasil*, *Café no Brasil*, *Movimento abolicionista*.
+* Manuais de História do Brasil Império.
 
 ### Matriz de variação (eixos)
 
-* **Tema:** política imperial | café | escravidão | abolicionismo | crise do Império.
-* **Região:** Vale do Paraíba | Oeste paulista | outras áreas escravistas/urbanas.
-* **Grupos sociais:** fazendeiros | políticos | escravizados | libertos | abolicionistas | militares (em linhas gerais).
-* **Temporalidade:** 1840s–1860s | leis e debates | década de 1880 | 1888–1889.
+* **Tema**: política imperial, economia cafeeira, escravidão, abolição, fim da monarquia.
+* **Região**: Vale do Paraíba, Oeste paulista, outras áreas de café, regiões escravistas antigas.
+* **Grupo social**: fazendeiros de café, políticos, escravizados, libertos, abolicionistas diversos.
+* **Temporalidade**: meados do século XIX, leis abolicionistas, década de 1880.
 
 ### Exemplos de enunciados
 
-**Abertas (4)**
+**Aberta**
 
-1. O que foi o Segundo Reinado na História do Brasil?
-2. Qual produto assumiu papel central na economia brasileira durante boa parte do século XIX?
-3. Cite uma lei que antecedeu a abolição de 1888 (em panorama).
-4. Por que se fala em “crise do Império” nas décadas finais do século XIX?
+* O que foi o Segundo Reinado na História do Brasil?
+* Qual produto assumiu papel central na economia brasileira durante boa parte do século XIX?
+* Cite uma das leis que antecederam a abolição da escravidão em 1888.
+* Por que se fala em “crise do Império” nas décadas finais do século XIX?
 
-**Múltipla escolha (4)**
+**Múltipla escolha**
 
-1. O “parlamentarismo às avessas” indica que:
-   (a) o imperador não tinha influência na troca de gabinetes
-   (b) o imperador tinha papel ativo na nomeação e queda de gabinetes
-   (c) ministros eram eleitos por voto direto nacional
-   (d) não existia Parlamento no período
-2. A Lei Áurea (1888) determinou:
-   (a) criação da República (b) abolição legal da escravidão (c) proibição do café (d) expulsão imediata da família imperial
-3. Vale do Paraíba e Oeste paulista se relacionam principalmente à:
-   (a) borracha (b) café para exportação (c) ouro colonial (d) pecuária exclusivamente interna
-4. Entre fatores de desgaste da monarquia, costuma-se apontar:
-   (a) ausência de conflitos políticos
-   (b) tensões com setores militares e elites, além da crise da escravidão (visão geral)
-   (c) fortalecimento ilimitado do regime escravista até 1895
-   (d) unanimidade política em torno do imperador
+* O chamado “Parlamentarismo às avessas” no Brasil imperial indica que:
+  (a) O imperador não tinha qualquer influência na escolha de ministros
+  (b) O imperador interferia diretamente na nomeação e queda de gabinetes
+  (c) Os ministros eram eleitos por voto direto do povo
+  (d) O parlamento era soberano sem figura imperial
 
-### Checklist
+* A Lei Áurea, de 1888, determinou:
+  (a) A criação da República
+  (b) A abolição legal da escravidão no Brasil
+  (c) A proibição do cultivo de café
+  (d) A expulsão da família imperial
 
-* [ ] Escravidão/abolição tratadas com cuidado e clareza (sem romantização).
-* [ ] Equilibra política, economia e movimentos sociais.
-* [ ] Evita reduzir o período a um “perfil” de D. Pedro II.
-* [ ] Leis abolicionistas em nível de síntese, com cronologia básica coerente.
-* [ ] **No máximo 5 perguntas** por lei específica ou personagem.
+* O Vale do Paraíba e, posteriormente, o Oeste paulista relacionam-se à:
+  (a) Produção de borracha
+  (b) Produção de café voltada à exportação
+  (c) Mineração de ouro
+  (d) Criação de gado para mercado interno exclusivamente
+
+* Entre os fatores que desgastaram a monarquia brasileira estão:
+  (a) Fortalecimento ilimitado da escravidão
+  (b) Conflitos com parte das elites militares e agrárias
+  (c) Ausência de debates políticos
+  (d) Aliança permanente e sem tensões com todos os grupos sociais
+
+**Verdadeiro/Falso**
+
+* O café tornou-se o principal produto de exportação brasileira no século XIX.
+* A escravidão foi abolida no Brasil sem qualquer pressão social ou internacional.
+* O movimento abolicionista envolveu diferentes setores, inclusive pessoas negras e ex-escravizadas.
+* A Proclamação da República encerra o período imperial e abre um novo conjunto de problemas políticos.
+
+**Checklist**
+
+* Tratar escravidão e abolição com cuidado, sem romantização.
+* Equilibrar questões sobre economia, política e movimentos sociais.
+* Evitar reduzir o período a uma única personagem (D. Pedro II).
+* Deixar clara a articulação entre crise da escravidão e crise da monarquia.
 
 ---
-
-## 6) República Velha: café, política dos estados e movimentos sociais (1889–1930) — `republica_velha_cafe_politica_estados_movimentos_sociais_1889_1930`
 
 ```yaml
 ---
@@ -479,72 +536,91 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-**Natureza.** Temático
-**Localização.** Nacional (Brasil)
+## República Velha: café, política dos estados e movimentos sociais (1889–1930) (`republica_velha_cafe_politica_estados_movimentos_sociais_1889_1930`)
 
-**Descrição.**
-Período de 1889 a 1930: estrutura republicana inicial, federalismo e predominância de oligarquias estaduais, arranjos políticos (política dos governadores e “café com leite”), coronelismo e voto controlado, economia cafeeira (valorização e crises) e movimentos sociais urbanos e rurais em síntese.
+**Natureza.** Temático
+**Descrição.** Organização política e social do Brasil entre a Proclamação da República e 1930, com destaque para a política dos estados, a hegemonia de oligarquias regionais, a economia cafeeira e os movimentos sociais urbanos e rurais.
+
+**Localização.** Nacional (Brasil)
 
 ### Escopo
 
-**Inclusões (não exaustivo)**
+**Inclusões**
 
-* Proclamação da República e Constituição de 1891 (visão geral).
-* Federalismo, política dos governadores, “café com leite” (como rótulo interpretativo), coronelismo e voto de cabresto.
-* Café: hegemonia econômica, políticas de valorização, crises (inclui contexto de 1929 em nível geral).
-* Movimentos sociais e conflitos: Canudos, Contestado, greves operárias, tenentismo (em síntese, sem virar microsubtema exclusivo).
+* Proclamação da República, Constituição de 1891 em linhas gerais.
+* Federalismo, “política dos governadores” e “política do café com leite”.
+* Papel do café, valorização e crises.
+* Coronelismo, voto de cabresto, violência política local.
+* Movimentos sociais e conflitos (Canudos, Contestado, greves operárias) em síntese.
 
 **Exclusões**
 
-* Era Vargas (pós-1930) como foco.
-* Estudo aprofundado de cada conflito isoladamente.
-* Debates políticos do século XX posterior.
+* Detalhamento completo da Era Vargas e períodos posteriores.
+* Análise aprofundada de cada conflito isoladamente.
+* Discussões sobre regimes posteriores do século XX.
 
 **Referências (exemplos)**
 
-* Sínteses de República Velha; verbetes sobre coronelismo, política dos governadores, Canudos/Contestado e economia cafeeira.
+* Verbete *República Velha*, *Política do café com leite*, *Coronelismo*, *Guerra de Canudos*.
+* Manuais de História do Brasil República.
 
 ### Matriz de variação (eixos)
 
-* **Tema:** estrutura política | coronelismo | café | movimentos sociais | crise de 1930 (prelúdio).
-* **Espaço:** Sudeste cafeeiro | sertões nordestinos | Sul | centros urbanos (SP/RJ etc.).
-* **Grupos sociais:** oligarquias | coronéis | camponeses | trabalhadores urbanos | militares reformistas (síntese).
-* **Temporalidade:** anos 1890 | início do séc. XX | década de 1920.
+* **Tema**: estrutura política, economia cafeeira, coronelismo, movimentos sociais.
+* **Espaço**: Sudeste cafeeiro, Nordeste sertanejo, Sul, centros urbanos.
+* **Grupo social**: oligarquias estaduais, coronéis, camponeses, trabalhadores urbanos.
+* **Temporalidade**: anos 1890, início do século XX, década de 1920.
 
 ### Exemplos de enunciados
 
-**Abertas (4)**
+**Aberta**
 
-1. O que foi a República Velha na História do Brasil?
-2. O que se entende por “política do café com leite”?
-3. Como o coronelismo influenciava eleições e poder local no período?
-4. Cite um movimento social relevante ocorrido na República Velha.
+* O que foi a “República Velha” na História do Brasil?
+* O que se entende por “política do café com leite”?
+* Como o coronelismo influenciava as eleições nesse período?
+* Cite um movimento social relevante ocorrido na República Velha.
 
-**Múltipla escolha (4)**
+**Múltipla escolha**
 
-1. A expressão “café com leite” costuma referir-se à:
-   (a) aliança entre elites de São Paulo e Minas Gerais (b) política de consumo interno de café (c) acordo militar Brasil–Argentina (d) união de partidos trabalhistas urbanos
-2. O coronelismo era caracterizado por:
-   (a) liderança sindical operária como centro do poder local
-   (b) poder de grandes proprietários influenciando votos e autoridades locais
-   (c) eleições totalmente secretas e universais desde 1891
-   (d) controle exclusivo de empresas estrangeiras sobre a política
-3. Um exemplo de conflito social de grande impacto no período foi:
-   (a) Canudos (b) Independência da Bahia (c) Revolta dos Malês (d) Revolução de 1932
-4. A economia brasileira na República Velha foi fortemente sustentada por:
-   (a) exportação de café (b) exportação de petróleo (c) tecnologia da informação (d) mineração de urânio
+* A expressão “café com leite” refere-se à:
+  (a) Aliança política entre elites de São Paulo e Minas Gerais
+  (b) Política de incentivo ao consumo interno de café
+  (c) Acordo militar entre Brasil e Argentina
+  (d) União de partidos trabalhistas urbanos
 
-### Checklist
+* O coronelismo era caracterizado por:
+  (a) Liderança centralizada em sindicatos operários
+  (b) Poder local de grandes proprietários rurais, influenciando votos e autoridades
+  (c) Exército controlando diretamente todas as eleições
+  (d) Controle exclusivo de empresas estrangeiras sobre a política
 
-* [ ] Evita anacronismos eleitorais (não projetar voto secreto/universal moderno).
-* [ ] Inclui elites e grupos subalternos (rural e urbano).
-* [ ] Conecta economia cafeeira a arranjos políticos e conflitos sociais.
-* [ ] Mantém conflitos (Canudos/Contestado/greves) em síntese.
-* [ ] **No máximo 5 perguntas** por conflito específico.
+* Um exemplo de movimento social de grande impacto na República Velha foi:
+  (a) Guerra de Canudos
+  (b) Independência da Bahia
+  (c) Revolta dos Malês
+  (d) Revolução de 1932
+
+* A economia brasileira nesse período era fortemente sustentada por:
+  (a) Exportação de café
+  (b) Exportação de petróleo
+  (c) Tecnologia da informação
+  (d) Mineração de urânio
+
+**Verdadeiro/Falso**
+
+* A República Velha combinou federalismo formal com forte influência de oligarquias estaduais.
+* O voto era secreto e amplamente acessível a toda a população adulta.
+* Movimentos sociais rurais e urbanos desafiaram, em diferentes momentos, a ordem oligárquica.
+* As tensões do período ajudaram a preparar o terreno para a crise política de 1930.
+
+**Checklist**
+
+* Evitar anacronismos (por exemplo, projetar sistemas eleitorais atuais sobre o período).
+* Incluir tanto o ponto de vista das elites políticas quanto de grupos subalternos.
+* Manter linguagem descritiva ao tratar de conflitos violentos.
+* Reforçar a articulação entre economia cafeeira e estrutura política.
 
 ---
-
-## 7) Ditadura civil-militar no Brasil (1964–1985): regime, sociedade e resistência — `ditadura_civil_militar_brasil_1964_1985_regime_sociedade_resistencia`
 
 ```yaml
 ---
@@ -564,65 +640,88 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-**Natureza.** Temático
-**Localização.** Nacional (Brasil)
+## Ditadura civil-militar no Brasil (1964–1985): regime, sociedade e resistência (`ditadura_civil_militar_brasil_1964_1985_regime_sociedade_resistencia`)
 
-**Descrição.**
-Regime autoritário instaurado após 1964: estrutura institucional (Atos Institucionais, especialmente AI-5), reorganização política, censura e repressão, impactos sociais e econômicos (incluindo “milagre econômico” e desigualdades), formas diversas de oposição e resistência, e processo de abertura e transição até 1985.
+**Natureza.** Temático
+**Descrição.** Período de regime autoritário instaurado após o golpe de 1964, sua estrutura política, formas de repressão e controle, impactos na sociedade e na economia, bem como diferentes formas de oposição, resistência e abertura até a redemocratização.
+
+**Localização.** Nacional (Brasil)
 
 ### Escopo
 
-**Inclusões (não exaustivo)**
+**Inclusões**
 
-* 1964: ruptura institucional e instalação do regime; objetivos declarados e consequências imediatas (síntese).
-* Instituições e mecanismos: Atos Institucionais, bipartidarismo, censura, repressão a opositores e vigilância estatal (visão geral, sem casos judiciais recentes).
-* Economia e sociedade: “milagre econômico”, infraestrutura, concentração de renda e contradições sociais (panorama).
-* Resistência/oposição: movimentos estudantis, operários, culturais, setores religiosos, imprensa, organizações políticas; repertórios de ação (síntese).
-* Abertura e transição: anistia, mobilizações por eleições, Diretas Já em linhas gerais; 1985 como marco de transição.
+* Golpe de 1964 e instalação do regime, Atos Institucionais (em especial AI-5).
+* Estrutura política: presidentes-generais, bipartidarismo, censura, repressão a opositores.
+* “Milagre econômico” e contradições sociais.
+* Diversas formas de resistência e oposição: movimentos estudantis, operários, culturais, setores religiosos, entre outros.
+* Processo de abertura gradual e transição para a democracia (anistia, Diretas Já em linhas gerais).
 
 **Exclusões**
 
-* Debate político-partidário contemporâneo sobre o período.
-* Casos individuais recentes em disputa judicial/administrativa.
-* Análise detalhada do pós-1988.
+* Debates político-partidários atuais sobre o período.
+* Detalhamento de casos individuais recentes discutidos na esfera judicial contemporânea.
+* Análise de conjunturas pós-1988.
 
 **Referências (exemplos)**
 
-* Sínteses de História do Brasil contemporâneo; verbetes gerais sobre AI-5, censura, milagre econômico, anistia e Diretas Já.
+* Verbete *Ditadura militar no Brasil*, *AI-5*, *Diretas Já* (PT).
+* Obras de síntese em História do Brasil contemporâneo.
 
 ### Matriz de variação (eixos)
 
-* **Temporalidade:** 1964–1968 (implantação) | 1968–1974 (endurecimento/milagre) | 1974–1979 (distensão) | 1979–1985 (abertura/transição).
-* **Tema:** instituições | repressão/censura | economia | cultura | movimentos sociais | transição.
-* **Atores:** governo e forças de segurança | oposição política | estudantes | trabalhadores | artistas | setores religiosos.
-* **Instrumentos:** AI-5 | censura | propaganda | anistia | mobilizações de massa.
+* **Temporalidade**: anos 1960 (implantação), 1970 (repressão e milagre econômico), 1980 (abertura).
+* **Tema**: estrutura política, repressão, economia, cultura, movimentos sociais.
+* **Atores**: autoridades do regime, opositores, movimentos de base, artistas, estudantes.
+* **Instrumento**: AI-5, censura, órgãos de repressão, anistia, mobilizações de massa.
 
 ### Exemplos de enunciados
 
-**Abertas (4)**
+**Aberta**
 
-1. O que foi a ruptura institucional de 1964 e qual mudança política ela produziu no Brasil?
-2. O que se entende por “AI-5” no contexto da ditadura brasileira?
-3. Cite uma forma de resistência ou oposição ao regime entre as décadas de 1960 e 1980.
-4. O que significou o processo de “abertura” na fase final do regime?
+* O que foi o golpe de 1964 no Brasil?
+* O que se entende por “AI-5” no contexto da ditadura brasileira?
+* Cite uma forma de resistência ao regime autoritário entre as décadas de 1960 e 1980.
+* O que significou o processo de abertura política na fase final da ditadura?
 
-**Múltipla escolha (4)**
+**Múltipla escolha**
 
-1. O regime instaurado após 1964 pode ser caracterizado como:
-   (a) parlamentarismo totalmente democrático (b) regime autoritário com forte presença militar no comando (c) democracia direta por assembleias populares (d) monarquia constitucional
-2. O AI-5 (1968):
-   (a) ampliou liberdades civis (b) endureceu o regime e restringiu direitos (c) instituiu eleições diretas para presidente (d) aboliu a censura
-3. “Milagre econômico” refere-se a:
-   (a) crescimento acelerado com concentração de renda e desigualdades (b) recessão profunda sem desemprego (c) integração do Brasil à economia socialista (d) fim de investimentos em infraestrutura
-4. “Diretas Já” tinha como reivindicação principal:
-   (a) retorno ao voto censitário (b) eleições diretas para presidente (c) instalação de monarquia (d) extinção de todos os partidos
+* A ditadura instaurada em 1964 pode ser caracterizada como:
+  (a) Regime parlamentarista totalmente democrático
+  (b) Regime autoritário com forte participação de militares em cargos de comando
+  (c) Governo de assembleias populares diretas em todo o país
+  (d) Experiência de democracia direta
 
-### Checklist
+* O AI-5, de 1968:
+  (a) Ampliou liberdades civis e políticas
+  (b) Endureceu o regime, fechando o Congresso e restringindo direitos
+  (c) Instituiu eleições diretas para presidente
+  (d) Aboliu a censura à imprensa
 
-* [ ] Tema tratado como **objeto histórico**, com linguagem neutra.
-* [ ] Evita casos recentes e disputas atuais; usa sínteses consolidadas.
-* [ ] Mostra pluralidade de atores (Estado, sociedade, cultura, trabalho).
-* [ ] Cuidado ao abordar violência e violações (tom informativo, não sensacionalista).
-* [ ] **No máximo 5 perguntas** por evento muito específico (ex.: um ato, uma passeata, um episódio).
+* A expressão “milagre econômico” refere-se a:
+  (a) Crescimento acelerado da economia brasileira, acompanhado de concentração de renda
+  (b) Período de recessão profunda sem desemprego
+  (c) Integração plena do Brasil à economia socialista
+  (d) Fim dos investimentos em infraestrutura
+
+* O movimento conhecido como “Diretas Já” tinha como principal reivindicação:
+  (a) Instalação de uma monarquia parlamentar
+  (b) Eleições diretas para presidente da República
+  (c) Retorno ao voto censitário
+  (d) Extinção de todos os partidos políticos
+
+**Verdadeiro/Falso**
+
+* A ditadura brasileira combinou crescimento econômico em certos períodos com repressão política.
+* Durante o regime não houve qualquer tipo de oposição ou resistência organizada.
+* A censura atingiu meios de comunicação, artes e produções culturais.
+* A redemocratização foi resultado de pressões e negociações envolvendo diferentes setores da sociedade.
+
+**Checklist**
+
+* Tratar o tema como **objeto histórico**, não como debate político-partidário atual.
+* Evitar detalhes muito recentes ou casos específicos em disputa; focar sínteses consolidadas.
+* Incluir múltiplos atores (Estado, sociedade civil, movimentos diversos).
+* Manter linguagem cuidadosa ao abordar repressão e violações de direitos.
 
 ---
