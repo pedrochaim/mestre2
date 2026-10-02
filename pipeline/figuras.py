@@ -331,7 +331,7 @@ def _fonte_commons(arquivo):
     pagina = "https://commons.wikimedia.org/wiki/" + arquivo.replace(" ", "_")
     autor = _limpar_autor(info.get("extmetadata", {}).get("Artist", {}).get("value"))
     licenca = info.get("extmetadata", {}).get("LicenseShortName", {}).get("value", "")
-    return _get(info.get("thumburl") or info["url"], json_=False), pagina, [], "", f"Commons ({autor}, {licenca})"
+    return _get(info.get("thumburl") or info["url"], json_=False), pagina, [], "", ("Commons", autor, licenca)
 
 
 def _preparar_cena(ent, pasta, indice):
@@ -366,10 +366,11 @@ def _preparar_cena(ent, pasta, indice):
         _salvar_jpeg(dados, arquivo)
     except Exception as ex:
         return None, f"imagem ilegível: {type(ex).__name__}"
-    oficial = credito == "TMDB"
-    return {"imagem": str(arquivo), "origem": origem,
-            "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB" if oficial else credito,
-            "licenca": "Imagem de divulgação; uso não comercial, sem licença livre" if oficial else "Commons",
+    if credito == "TMDB":
+        autor, licenca = "Imagem de divulgação dos detentores dos direitos, via TMDB",             "Imagem de divulgação; uso não comercial, sem licença livre"
+    else:
+        _, autor, licenca = credito
+    return {"imagem": str(arquivo), "origem": origem, "autor": autor, "licenca": licenca,
             "nome": ent["nome"], "fonte": fontes_, "trecho": trecho}, None
 
 

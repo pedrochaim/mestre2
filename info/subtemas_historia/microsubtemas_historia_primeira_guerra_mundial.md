@@ -1,3 +1,7 @@
+A seguir está o conteúdo **no padrão** (YAML + título + Natureza/Descrição/Localização + Escopo + Matriz + Exemplos (Aberta e Múltipla escolha) + Checklist), **sem Verdadeiro/Falso**.
+
+---
+
 ```yaml
 ---
 tema: "História"
@@ -6,7 +10,7 @@ subtema: "Primeira Guerra Mundial"
 subtema_clean: "primeira_guerra_mundial"
 
 microsubtema: "Origens, alianças e estopim da Primeira Guerra Mundial (até 1914)"
-microsubtema_clean: "origens_aliancas_estopim_primeira_guerra_mundial"
+microsubtema_clean: "origens_1914"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -16,80 +20,79 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-## Origens, alianças e estopim da Primeira Guerra Mundial (até 1914) (`origens_aliancas_estopim_primeira_guerra_mundial`)
+## Origens, alianças e estopim da Primeira Guerra Mundial (até 1914) (`origens_1914`)
 
 **Natureza.** Temático
-**Descrição.** Conjunto de fatores que levaram ao conflito de 1914–1918, incluindo rivalidades imperialistas, nacionalismos, corrida armamentista, sistema de alianças europeias e crises diplomáticas que culminaram no atentado de Sarajevo e na eclosão da guerra.
-
+**Descrição.** Fatores de longo e curto prazo que levaram ao conflito de 1914–1918: rivalidades imperialistas, nacionalismos, corrida armamentista, sistema de alianças europeias e crises diplomáticas que culminaram no atentado de Sarajevo e na crise de julho de 1914.
 **Localização.** Irrestrita
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* Sistema de alianças: Tríplice Aliança e Tríplice Entente.
-* Nacionalismos e tensões nos Bálcãs, questão servo-austríaca.
-* Rivalidades coloniais e econômicas entre potências europeias.
-* Corrida armamentista, planos militares (como o Plano Schlieffen, em linhas gerais).
-* Atentado de Sarajevo, ultimato austríaco à Sérvia, mobilizações e declarações de guerra em 1914.
+* Sistema de alianças: **Tríplice Aliança** e **Tríplice Entente** (características gerais).
+* Nacionalismos e tensões nos Bálcãs (questão sérvia, austro-húngara e dinâmica regional).
+* Rivalidades coloniais e econômicas entre potências europeias (visão geral).
+* Corrida armamentista e planos militares (ex.: **Plano Schlieffen**, em linhas gerais).
+* Atentado de Sarajevo, ultimato austro-húngaro à Sérvia, mobilizações e declarações de guerra em 1914.
 
 **Exclusões**
 
-* Causas diretas da Segunda Guerra Mundial (tratadas em outro subtema).
-* Detalhes de batalhas após 1914 (vão para microsubtemas de frentes e grandes batalhas).
-* História interna muito específica de um único país fora da relação com a eclosão da guerra.
+* Causas diretas da Segunda Guerra Mundial.
+* Batalhas e campanhas após 1914 (isso vai para frentes/batalhas).
+* História interna minuciosa de um país sem conexão com a eclosão da guerra.
 
 **Referências (exemplos)**
 
-* Verbete *Causas da Primeira Guerra Mundial*, *Crise de julho de 1914*, *Tríplice Entente*, *Tríplice Aliança*.
-* Manuais de História Contemporânea (capítulos sobre a “crise do sistema europeu” e 1914).
+* Verbetes/temas: *Causas da Primeira Guerra Mundial*, *Crise de julho de 1914*, *Tríplice Entente*, *Tríplice Aliança*, *Plano Schlieffen*.
+* Manuais de História Contemporânea (crise do sistema europeu e 1914).
 
 ### Matriz de variação (eixos)
 
-* **Tema**: alianças, nacionalismos, imperialismo, corrida armamentista, crise balcânica.
-* **Espaço**: Europa central, balcânica, colonial (África, Ásia).
-* **Atores**: Impérios centrais, potências da Entente, pequenos Estados balcânicos.
-* **Temporalidade**: finais do século XIX, início do século XX, crise de julho de 1914.
+* **Tema**: alianças; nacionalismos; imperialismo; corrida armamentista; crises diplomáticas.
+* **Espaço**: Europa central; Bálcãs; competição colonial (África/Ásia, em visão geral).
+* **Atores**: Impérios centrais; potências da Entente; Estados balcânicos.
+* **Temporalidade**: finais do XIX; início do XX; crise de julho (1914).
 
 ### Exemplos de enunciados
 
 **Aberta**
 
 * O que foi a Tríplice Entente no contexto pré-1914?
-* Por que os Bálcãs eram considerados uma região de tensão antes da Primeira Guerra Mundial?
-* Qual foi o acontecimento em Sarajevo, em 1914, que serviu de estopim imediato para a guerra?
+* Por que os Bálcãs eram vistos como área de tensão antes de 1914?
+* Qual foi o acontecimento de Sarajevo, em 1914, que funcionou como estopim imediato?
 
-**Múltipla escolha**
+**Múltipla escolha (distratores plausíveis)**
 
-* A Tríplice Aliança, antes de 1914, era formada principalmente por:
-  (a) França, Rússia e Reino Unido
-  (b) Alemanha, Áustria-Hungria e Itália
-  (c) Alemanha, Rússia e Estados Unidos
-  (d) Itália, França e Rússia
+* A **Tríplice Aliança**, antes de 1914, era formada principalmente por:
+  (a) Alemanha, Áustria-Hungria e Itália
+  (b) Alemanha, Áustria-Hungria e Império Otomano
+  (c) Alemanha, Rússia e Itália
+  (d) França, Rússia e Reino Unido
 
-* Um dos fatores de longo prazo que contribuíram para a eclosão da Primeira Guerra Mundial foi:
-  (a) A completa ausência de rivalidades coloniais
-  (b) A corrida armamentista e a formação de blocos de alianças
-  (c) A desmilitarização geral da Europa
-  (d) O isolamento total entre as potências
+* Um fator de longo prazo frequentemente associado à eclosão da guerra foi:
+  (a) corrida armamentista e endurecimento do sistema de alianças
+  (b) desarmamento gradual europeu após 1871 e queda de gastos militares
+  (c) neutralidade permanente e coordenada das grandes potências europeias
+  (d) fim das disputas coloniais por acordos amplos ainda no século XIX
 
 * O atentado de Sarajevo envolveu o assassinato de:
-  (a) Um presidente norte-americano
-  (b) Um herdeiro do trono austro-húngaro
-  (c) Um rei britânico
-  (d) Um líder revolucionário russo
+  (a) um herdeiro do trono austro-húngaro
+  (b) o chanceler alemão responsável pela política externa em 1914
+  (c) o rei sérvio durante visita oficial a território austro-húngaro
+  (d) o imperador russo em uma cerimônia diplomática nos Bálcãs
 
-**Verdadeiro/Falso**
+* O **Plano Schlieffen** (em linhas gerais) é mais associado à ideia de:
+  (a) atacar rapidamente a França no oeste para evitar guerra prolongada em duas frentes
+  (b) concentrar forças contra a Rússia primeiro, deixando o oeste apenas defensivo
+  (c) manter neutralidade alemã e agir apenas como mediadora diplomática
+  (d) lançar uma ofensiva naval decisiva contra o Reino Unido no Mar do Norte
 
-* O sistema de alianças fez com que um conflito regional nos Bálcãs se transformasse em guerra europeia e mundial.
-* As potências europeias viviam relações totalmente pacíficas e cooperativas na virada do século XIX para o XX.
-* Rivalidades coloniais e econômicas entre impérios europeus estão entre as causas de longo prazo da guerra.
+### Checklist
 
-**Checklist**
-
-* Garantir que as questões diferenciem **causas estruturais** de **fatores imediatos**.
-* Evitar explicações simplistas do tipo “a guerra começou apenas por causa do atentado”.
-* Incluir diferentes países e dimensões (política, econômica, nacionalista).
+* Diferenciar **causas estruturais** (longo prazo) de **fatores imediatos** (1914).
+* Evitar explicação monocausal (“foi só o atentado”).
+* Variar países e dimensões (política, econômica, nacionalista, militar).
 
 ---
 
@@ -101,7 +104,7 @@ subtema: "Primeira Guerra Mundial"
 subtema_clean: "primeira_guerra_mundial"
 
 microsubtema: "Países, impérios e alianças na Primeira Guerra Mundial"
-microsubtema_clean: "paises_imperios_aliancas_primeira_guerra_mundial"
+microsubtema_clean: "participantes"
 
 natureza: "transversal"
 localizacao: "irrestrita"
@@ -111,80 +114,79 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-## Países, impérios e alianças na Primeira Guerra Mundial (`paises_imperios_aliancas_primeira_guerra_mundial`)
+## Países, impérios e alianças na Primeira Guerra Mundial (`participantes`)
 
 **Natureza.** Transversal
-**Descrição.** Participação de diferentes países e impérios na Primeira Guerra Mundial, composição e evolução dos blocos de alianças, entrada e saída de Estados no conflito e papel de impérios coloniais e domínios ultramarinos.
-
+**Descrição.** Participação de países e impérios na guerra, composição e mudanças dos blocos, entrada/saída de Estados e papel de colônias, domínios e protetorados no esforço de guerra.
 **Localização.** Irrestrita
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* Impérios Centrais (Alemanha, Áustria-Hungria, Império Otomano, Bulgária).
-* Potências da Entente (França, Reino Unido, Rússia, Itália, Estados Unidos, entre outros).
-* Países neutros e sua posição (Suíça, Espanha, etc.).
-* Participação de colônias e domínios (Índia britânica, tropas coloniais francesas, domínios britânicos).
-* Mudança de posição de alguns países (por exemplo, entrada da Itália na guerra ao lado da Entente).
+* **Impérios Centrais**: Alemanha, Áustria-Hungria, Império Otomano, Bulgária.
+* **Entente/Aliados**: França, Reino Unido, Rússia, Itália, Estados Unidos (e outros participantes relevantes, em visão geral).
+* Países neutros e sua posição (ex.: Suíça, Espanha, Países Baixos, países nórdicos — conforme recorte).
+* Participação de colônias e domínios (Índia britânica, tropas coloniais francesas, domínios britânicos, etc.).
+* Mudanças de alinhamento (ex.: Itália mudando de lado; entradas em 1917 etc.).
 
 **Exclusões**
 
 * Alianças da Segunda Guerra Mundial.
-* Política interna detalhada de cada país fora do contexto de participação na guerra.
-* Conflitos totalmente alheios ao período 1914–1918.
+* Política interna detalhada de cada país fora do contexto de participação.
+* Conflitos alheios ao período 1914–1918.
 
 **Referências (exemplos)**
 
-* Verbete *Participantes da Primeira Guerra Mundial*, *Poderes Centrais*, *Aliados da Primeira Guerra Mundial*.
-* Atlas históricos e manuais sobre a guerra.
+* Verbetes/temas: *Participantes da Primeira Guerra Mundial*, *Poderes Centrais*, *Aliados na Primeira Guerra Mundial*.
+* Atlas históricos e sínteses do conflito.
 
 ### Matriz de variação (eixos)
 
-* **Bloco**: Impérios Centrais, Aliados/Entente, neutros.
-* **Tipo de entidade**: metrópole, colônia, domínio, protetorado.
-* **Região**: Europa ocidental, central, oriental, África, Ásia, Oceânia.
-* **Temporalidade**: início da guerra, mudanças de alinhamento, entrada de novos participantes.
+* **Bloco**: Centrais; Entente/Aliados; neutros.
+* **Tipo de entidade**: metrópole; colônia; domínio; protetorado.
+* **Região**: Europa; Oriente Médio; África; Ásia; Oceânia.
+* **Tempo**: 1914; entradas posteriores; mudanças de posição; 1917–1918.
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-* Quais eram os principais países que compunham os Impérios Centrais na Primeira Guerra Mundial?
-* Cite um país que entrou no conflito ao lado da Entente após 1914.
-* De que maneira colônias e domínios de impérios europeus participaram do esforço de guerra?
+* Quais eram os principais integrantes dos Impérios Centrais?
+* Cite um país que entrou na guerra ao lado dos Aliados após 1914.
+* Como colônias e domínios foram mobilizados no esforço de guerra?
 
-**Múltipla escolha**
+**Múltipla escolha (distratores plausíveis)**
 
-* Entre os países abaixo, qual se manteve neutro durante a Primeira Guerra Mundial?
+* Qual país se manteve **neutro** durante a Primeira Guerra Mundial?
   (a) Suíça
-  (b) França
-  (c) Alemanha
-  (d) Rússia
+  (b) Itália
+  (c) Rússia
+  (d) Áustria-Hungria
 
-* A entrada dos Estados Unidos na guerra, em 1917, ocorreu:
-  (a) Ao lado dos Impérios Centrais
-  (b) Ao lado da Entente/aliados
-  (c) Como país neutro armado
-  (d) Como mediador sem participação militar
+* A entrada dos **Estados Unidos** na guerra (1917) ocorreu:
+  (a) ao lado da Entente/Aliados
+  (b) ao lado dos Impérios Centrais
+  (c) apenas como mediador diplomático, sem mobilização militar
+  (d) como integrante de uma “liga de neutros armados” reconhecida por todos
 
-* O Império Otomano participou da guerra:
-  (a) Como parte dos Impérios Centrais
-  (b) Como parte da Tríplice Entente
-  (c) Mantendo neutralidade total
-  (d) Apenas após o armistício
+* O **Império Otomano** participou do conflito principalmente:
+  (a) como parte dos Impérios Centrais
+  (b) como parte da Entente desde 1914
+  (c) mantendo neutralidade até o fim de 1918
+  (d) somente após o Tratado de Versalhes, em 1919
 
-**Verdadeiro/Falso**
+* Sobre a **Itália**, é correto afirmar que:
+  (a) entrou na guerra em 1915 ao lado da Entente, após ter integrado a Tríplice Aliança no período pré-guerra
+  (b) permaneceu neutra durante todo o conflito, por decisão constitucional
+  (c) entrou desde 1914 ao lado da Alemanha por obrigação automática de tratado
+  (d) participou apenas em frentes coloniais africanas, sem combate na Europa
 
-* Diversas tropas coloniais lutaram na guerra sob bandeiras europeias.
-* A composição dos blocos de alianças permaneceu absolutamente estável de 1914 a 1918.
-* Alguns países declararam neutralidade, mesmo em meio a um conflito de escala global.
+### Checklist
 
-**Checklist**
-
-* Usar o microsubtema para **associar países/blocos/posições**, sem cair em listas aleatórias demais.
-* Variar continentes e tipos de entidade (metrópole, colônia, domínio).
-* Deixar clara a diferença entre blocos, sem misturar Segunda com Primeira Guerra.
+* Associar países ↔ blocos ↔ período de entrada, sem virar “lista aleatória”.
+* Variar continentes e tipos de entidade (metrópole/colônia/domínio).
+* Não misturar com a Segunda Guerra.
 
 ---
 
@@ -196,7 +198,7 @@ subtema: "Primeira Guerra Mundial"
 subtema_clean: "primeira_guerra_mundial"
 
 microsubtema: "Frentes de combate e grandes batalhas da Primeira Guerra Mundial"
-microsubtema_clean: "frentes_combate_grandes_batalhas_primeira_guerra_mundial"
+microsubtema_clean: "frentes_batalhas"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -206,80 +208,79 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-## Frentes de combate e grandes batalhas da Primeira Guerra Mundial (`frentes_combate_grandes_batalhas_primeira_guerra_mundial`)
+## Frentes de combate e grandes batalhas da Primeira Guerra Mundial (`frentes_batalhas`)
 
 **Natureza.** Temático
-**Descrição.** Principais frentes de combate e grandes batalhas do conflito, destacando características gerais da Frente Ocidental, Oriental, balcânica, italiana e do Oriente Médio, bem como operações navais e pontos de virada.
-
+**Descrição.** Principais frentes de combate e batalhas, destacando características gerais das frentes Ocidental, Oriental, balcânica, italiana, Oriente Médio e guerra naval, com atenção a objetivos, impasses e momentos de virada.
 **Localização.** Irrestrita
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* Frente Ocidental (Marne, Verdun, Somme etc.).
-* Frente Oriental e colapso de impérios na Europa central/oriental.
-* Campanhas nos Bálcãs, frente italiana, batalha de Gallipoli, Oriente Médio.
-* Guerra naval (Jutlândia, bloqueios, submarinos) em visão geral.
-* Ofensivas, contra-ofensivas e impasses militares.
+* Frente Ocidental (Marne, Verdun, Somme e dinâmicas gerais).
+* Frente Oriental (principais atores e características em linhas gerais).
+* Bálcãs; frente italiana (ex.: Isonzo/Caporetto em visão geral); Gallipoli; Oriente Médio.
+* Guerra naval (bloqueios, submarinos, grandes batalhas navais).
+* Ofensivas/contra-ofensivas e guerras de desgaste (sem tática fina).
 
 **Exclusões**
 
-* Detalhamento técnico de táticas e armamentos (tratados em microsubtema de tecnologia).
+* Detalhamento técnico de táticas/armamentos (vai em tecnologia).
 * Batalhas da Segunda Guerra Mundial.
-* Foco em detalhes táticos muito específicos sem relevância para compreensão geral.
+* Microcronologias de cada ofensiva sem ganho didático.
 
 **Referências (exemplos)**
 
-* Verbete *Frente Ocidental (Primeira Guerra Mundial)*, *Batalha de Verdun*, *Batalha do Somme*, *Campanha dos Dardanelos*.
-* Mapas e cronologias de campanhas da Primeira Guerra Mundial.
+* Verbetes/temas: *Frente Ocidental*, *Verdun*, *Somme*, *Gallipoli/Dardanelos*, *Frente Oriental*, *Batalha da Jutlândia*.
+* Mapas e cronologias gerais do conflito.
 
 ### Matriz de variação (eixos)
 
-* **Frente**: Ocidental, Oriental, balcânica, italiana, Oriente Médio, naval.
-* **Temporalidade**: 1914, 1915–1916, 1917–1918.
-* **Tipo de operação**: ofensiva, contra-ofensiva, cerco, batalha naval.
-* **Resultado**: avanço, recuo, impasse, desgaste.
+* **Frente**: Ocidental; Oriental; Itália; Bálcãs; Oriente Médio; naval.
+* **Tempo**: 1914; 1915–1916; 1917–1918.
+* **Operação**: ofensiva; contra-ofensiva; campanha anfíbia; batalha naval; guerra de desgaste.
+* **Resultado**: avanço/recuo; impasse; desgaste; colapso local.
 
 ### Exemplos de enunciados
 
 **Aberta**
 
-* O que caracterizava, de forma geral, a Frente Ocidental na Primeira Guerra Mundial?
-* Cite uma batalha importante travada na Frente Ocidental.
-* Qual o objetivo da campanha de Gallipoli/Dardanelos?
+* Quais características gerais marcaram a Frente Ocidental?
+* Cite uma batalha importante na Frente Ocidental e seu contexto geral.
+* Qual era o objetivo estratégico da campanha de Gallipoli/Dardanelos?
 
-**Múltipla escolha**
+**Múltipla escolha (distratores plausíveis)**
 
-* As batalhas de Verdun e do Somme estiveram associadas principalmente à:
-  (a) Frente Oriental
-  (b) Frente Ocidental
-  (c) Campanha do Oriente Médio
-  (d) Guerra naval no Pacífico
+* **Verdun** e **Somme** ficaram principalmente associadas à:
+  (a) Frente Ocidental
+  (b) Frente Oriental
+  (c) Frente italiana
+  (d) Campanhas do Oriente Médio
 
-* A Frente Oriental envolveu, de maneira geral, combates entre:
-  (a) Alemanha e Reino Unido
-  (b) Rússia e potências dos Impérios Centrais
-  (c) França e Itália
-  (d) Turquia e Estados Unidos
+* A **Frente Oriental** envolveu de modo geral combates entre:
+  (a) Rússia e potências dos Impérios Centrais (com variações ao longo da guerra)
+  (b) França e Império Otomano, com foco no Mediterrâneo
+  (c) Reino Unido e Bulgária, quase exclusivamente no mar
+  (d) Estados Unidos e Alemanha, sobretudo após 1918
 
-* A grande batalha naval travada entre frotas alemã e britânica em 1916 foi:
-  (a) Trafalgar
-  (b) Jutlândia
-  (c) Midway
-  (d) Lepanto
+* A campanha de **Gallipoli/Dardanelos** (1915) teve como um dos objetivos:
+  (a) controlar os estreitos e abrir rota de abastecimento, pressionando o Império Otomano
+  (b) conquistar a Alsácia-Lorena por meio de desembarque anfíbio
+  (c) ocupar a Dinamarca para romper bloqueios navais no Báltico
+  (d) derrubar o governo espanhol para encerrar a neutralidade
 
-**Verdadeiro/Falso**
+* Uma grande batalha naval entre frotas britânica e alemã em 1916 foi:
+  (a) Jutlândia
+  (b) Dogger Bank
+  (c) Heligolândia
+  (d) Coronel
 
-* Muitas batalhas da Primeira Guerra Mundial resultaram em grandes perdas humanas com poucos ganhos territoriais.
-* A guerra se limitou apenas à Europa Ocidental, sem outros teatros de operações.
-* Campanhas em regiões como os Bálcãs e o Oriente Médio também fizeram parte do conflito.
+### Checklist
 
-**Checklist**
-
-* Combinar perguntas sobre **frentes**, **batalhas específicas** e **resultados gerais**.
-* Evitar transformar o microsubtema em mera lista de nomes; privilegiar relações (onde, entre quem, por quê).
-* Usar datas apenas quando forem marcos amplamente conhecidos e estáveis.
+* Misturar frentes, batalhas e efeitos (onde/entre quem/por quê).
+* Evitar “só lista de nomes”: sempre amarrar a frente e ao objetivo geral.
+* Usar datas apenas como marcos amplamente conhecidos.
 
 ---
 
@@ -290,8 +291,8 @@ tema_clean: "historia"
 subtema: "Primeira Guerra Mundial"
 subtema_clean: "primeira_guerra_mundial"
 
-microsubtema: "Tecnologia militar, guerra de trincheiras e novas formas de combate (1914–1918)"
-microsubtema_clean: "tecnologia_militar_guerra_trincheiras_primeira_guerra_mundial"
+microsubtema: "Tecnologia militar e guerra de trincheiras (1914–1918)"
+microsubtema_clean: "tecnologia_trincheiras"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -301,80 +302,78 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-## Tecnologia militar, guerra de trincheiras e novas formas de combate (1914–1918) (`tecnologia_militar_guerra_trincheiras_primeira_guerra_mundial`)
+## Tecnologia militar e guerra de trincheiras (1914–1918) (`tecnologia_trincheiras`)
 
 **Natureza.** Temático
-**Descrição.** Transformações na forma de fazer guerra durante a Primeira Guerra Mundial, incluindo o uso massivo de artilharia, metralhadoras, gases tóxicos, tanques, aviões, submarinos e a experiência da guerra de trincheiras.
-
+**Descrição.** Transformações na guerra durante 1914–1918: artilharia e metralhadoras em massa, trincheiras e guerra de posição, armas químicas (tratamento geral e não gráfico), tanques, aviação e submarinos.
 **Localização.** Irrestrita
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* Sistema de trincheiras na Frente Ocidental: posições, “terra de ninguém”, vida cotidiana dos soldados.
-* Artilharia pesada, metralhadoras e seu impacto na letalidade.
-* Uso de armas químicas (gás) em linhas gerais, sem detalhes gráficos.
-* Introdução de tanques de guerra e desenvolvimento da aviação militar.
-* Emprego de submarinos (U-boots) e guerra submarina.
+* Trincheiras: posições, “terra de ninguém”, rotina e condições gerais dos soldados.
+* Artilharia pesada e metralhadoras e seu impacto (guerra de desgaste).
+* Armas químicas em linhas gerais (sem descrições gráficas).
+* Introdução/uso inicial de tanques e aviação militar.
+* Guerra submarina e impacto sobre rotas marítimas.
 
 **Exclusões**
 
-* Tecnologias decisivas da Segunda Guerra Mundial (bombas atômicas, radares, etc.).
-* Descrições gráficas de ferimentos ou violência.
-* Debates técnicos avançados sobre armamentos.
+* Tecnologia decisiva típica da Segunda Guerra (radar, bomba atômica etc.).
+* Detalhes gráficos de ferimentos/violência.
+* Discussões técnicas avançadas de engenharia bélica.
 
 **Referências (exemplos)**
 
-* Verbete *Guerra de trincheiras*, *Tecnologia da Primeira Guerra Mundial*, *Guerra química na Primeira Guerra*.
-* Histórias militares da guerra com foco em tecnologia.
+* Verbetes/temas: *Guerra de trincheiras*, *Tecnologia da Primeira Guerra Mundial*, *Guerra submarina*, *Armas químicas na Primeira Guerra*.
 
 ### Matriz de variação (eixos)
 
-* **Tipo de arma**: artilharia, metralhadora, gás, tanque, avião, submarino.
-* **Espaço**: trincheiras da Frente Ocidental, guerra naval, fronte oriental/Itália, etc.
-* **Dimensão humana**: condições de vida dos soldados, moral, saúde.
-* **Temporalidade**: fases iniciais da guerra, adaptações ao longo do conflito.
+* **Meio/arma**: artilharia; metralhadora; gás; tanque; avião; submarino.
+* **Espaço**: Frente Ocidental (trincheiras); guerra naval; outros teatros.
+* **Dimensão humana**: logística; moral; rotina; saúde (nível geral).
+* **Tempo**: 1914 (início); adaptação 1915–1916; mudanças 1917–1918.
 
 ### Exemplos de enunciados
 
 **Aberta**
 
 * O que se entende por “guerra de trincheiras” na Primeira Guerra Mundial?
-* Cite uma inovação tecnológica importante introduzida ou ampliada durante a Primeira Guerra Mundial.
-* Como as metralhadoras e artilharia pesada influenciaram o tipo de combate?
+* Cite uma inovação tecnológica importante difundida durante o conflito.
+* Como metralhadoras e artilharia influenciaram as ofensivas?
 
-**Múltipla escolha**
+**Múltipla escolha (distratores plausíveis)**
 
-* A expressão “terra de ninguém” designava:
-  (a) Áreas urbanas devastadas pelas revoluções
-  (b) Faixa entre as linhas de trincheiras opostas
-  (c) Regiões coloniais sem dono reconhecido
-  (d) Zonas neutras entre países não beligerantes
+* A expressão **“terra de ninguém”** designava:
+  (a) a faixa entre linhas de trincheiras opostas, exposta ao fogo inimigo
+  (b) uma zona neutra internacional reconhecida por tratado para troca de prisioneiros
+  (c) regiões coloniais sem soberania definida após 1919
+  (d) áreas urbanas evacuadas por decisão humanitária da Liga das Nações
 
-* Qual destas armas foi usada de maneira inédita em larga escala durante a Primeira Guerra Mundial?
-  (a) Tanques de guerra
-  (b) Bombas nucleares
-  (c) Mísseis balísticos intercontinentais
-  (d) Arcos e flechas
+* Qual inovação é frequentemente associada ao esforço de romper o impasse das trincheiras?
+  (a) uso inicial de tanques em operações terrestres
+  (b) mísseis balísticos de longo alcance
+  (c) aeronaves a jato em esquadrilhas estratégicas
+  (d) bombas nucleares táticas
 
-* A guerra submarina irrestrita, praticada por U-boots, afetou especialmente:
-  (a) Comunicação por telégrafo
-  (b) Navegação comercial e militar no Atlântico
-  (c) Tráfego ferroviário terrestre
-  (d) Comunicações aéreas
+* A **guerra submarina** afetou especialmente:
+  (a) navegação comercial e militar, sobretudo em rotas atlânticas
+  (b) comunicações por rádio em capitais europeias, sem impacto no mar
+  (c) tráfego ferroviário continental, substituindo trens por navios
+  (d) apenas rotas fluviais internas (Reno e Danúbio), sem efeito oceânico
 
-**Verdadeiro/Falso**
+* O uso de **armas químicas** na Primeira Guerra Mundial pode ser descrito, em geral, como:
+  (a) emprego importante e controverso, que levou a respostas defensivas e condenações posteriores
+  (b) fenômeno inexistente no conflito, surgindo apenas após 1939
+  (c) uso exclusivo em batalhas navais, sem aplicação em terra
+  (d) prática limitada apenas a conflitos coloniais fora da Europa
 
-* A combinação de trincheiras e novas armas de fogo potentes favoreceu guerras de movimento rápido.
-* A Primeira Guerra Mundial é frequentemente associada a uma guerra de desgaste e posições.
-* Tanques e aviões estavam em estágios relativamente iniciais de desenvolvimento, mas já tiveram impacto nas operações militares.
+### Checklist
 
-**Checklist**
-
-* Manter foco em **consequências históricas** das tecnologias, não em detalhes técnicos.
-* Tratar armas químicas e novos meios de combate com linguagem neutra e não sensacionalista.
-* Incluir a dimensão da experiência dos soldados na linha de frente.
+* Foco em consequências históricas e mudanças no combate, não em “catálogo técnico”.
+* Linguagem neutra e não sensacionalista ao tratar armas químicas.
+* Incluir dimensão humana (vida em trincheiras) sem apelo gráfico.
 
 ---
 
@@ -385,8 +384,8 @@ tema_clean: "historia"
 subtema: "Primeira Guerra Mundial"
 subtema_clean: "primeira_guerra_mundial"
 
-microsubtema: "Fim da guerra, tratados de paz e consequências da Primeira Guerra Mundial"
-microsubtema_clean: "fim_guerra_tratados_paz_consequencias_primeira_guerra"
+microsubtema: "Fim da guerra, tratados e consequências da Primeira Guerra Mundial"
+microsubtema_clean: "posguerra"
 
 natureza: "tematico"
 localizacao: "irrestrita"
@@ -396,79 +395,78 @@ data_criacao: "2025-12-09"
 ---
 ```
 
-## Fim da guerra, tratados de paz e consequências da Primeira Guerra Mundial (`fim_guerra_tratados_paz_consequencias_primeira_guerra`)
+## Fim da guerra, tratados e consequências da Primeira Guerra Mundial (`posguerra`)
 
 **Natureza.** Temático
-**Descrição.** Fase final do conflito, armistício de 1918, principais tratados de paz (especialmente Versalhes) e consequências políticas, territoriais, econômicas e sociais da Primeira Guerra Mundial no sistema internacional e dentro dos Estados.
-
+**Descrição.** Encerramento do conflito, armistícios de 1918, tratados de paz (especialmente Versalhes) e consequências políticas, territoriais, econômicas e institucionais (ex.: Liga das Nações), com foco no redesenho do sistema internacional do pós-guerra.
 **Localização.** Irrestrita
 
 ### Escopo
 
 **Inclusões (não exaustivo)**
 
-* Ofensivas finais de 1918, armistícios e rendição dos Impérios Centrais.
-* Tratado de Versalhes e tratados correlatos (Saint-Germain, Trianon, Sèvres/Lausanne) em linhas gerais.
-* Queda de impérios (alemão, austro-húngaro, russo czarista, otomano) e surgimento de novos Estados.
-* Questão das reparações e das cláusulas impostas à Alemanha.
-* Impactos sociais e econômicos (destruição, endividamento, sentimento de frustração, Liga das Nações).
+* Ofensivas finais e armistícios de 1918 (visão geral).
+* Tratado de Versalhes e tratados correlatos (Saint-Germain, Trianon, Sèvres/Lausanne em linhas gerais).
+* Queda/transformação de impérios e surgimento de novos Estados (Europa e Oriente Médio em linhas gerais).
+* Reparações, limitações militares e efeitos políticos (sem “teleologia” obrigatória até 1939).
+* Liga das Nações: objetivo e limites em perspectiva introdutória.
 
 **Exclusões**
 
-* Desenvolvimento completo da Segunda Guerra Mundial (apenas consequências de longo prazo, em linhas amplas).
-* Detalhes da Revolução Russa além do necessário para entender a saída da guerra.
-* Cronologia interna minuciosa de cada país pós-1918.
+* Segunda Guerra Mundial como narrativa principal (apenas efeitos de longo prazo em linhas gerais).
+* Revolução Russa em profundidade (só o necessário para situar a saída da guerra).
+* Histórias nacionais minuciosas pós-1918 sem conexão com o arranjo internacional.
 
 **Referências (exemplos)**
 
-* Verbete *Tratado de Versalhes*, *Consequências da Primeira Guerra Mundial*, *Liga das Nações*.
-* Manuais de história do entre-guerras.
+* Verbetes/temas: *Tratado de Versalhes*, *Liga das Nações*, *Tratados pós-Primeira Guerra*, *Entre-guerras (introdução)*.
+* Manuais sobre 1918–1919 e o pós-guerra.
 
 ### Matriz de variação (eixos)
 
-* **Documento**: diferentes tratados de paz e suas cláusulas principais.
-* **Espaço**: Europa central e oriental, Oriente Médio, colônias.
-* **Tema**: reconfiguração territorial, reparações, instituições internacionais, mudanças políticas.
-* **Temporalidade**: fim da guerra (1918–1919), primeira década do entre-guerras.
+* **Documento**: Versalhes; tratados correlatos; armistícios.
+* **Espaço**: Europa central/oriental; Oriente Médio; rearranjos coloniais (visão geral).
+* **Tema**: fronteiras; reparações; desmilitarização; instituições; instabilidade.
+* **Tempo**: 1918–1919; primeiros anos do entre-guerras.
 
 ### Exemplos de enunciados
 
 **Aberta**
 
 * O que foi o Tratado de Versalhes?
-* Cite uma consequência política direta da Primeira Guerra Mundial na Europa.
-* Qual foi o objetivo declarado da criação da Liga das Nações após a guerra?
+* Cite uma consequência política/territorial imediata da guerra na Europa.
+* Qual era o objetivo geral da Liga das Nações?
 
-**Múltipla escolha**
+**Múltipla escolha (distratores plausíveis)**
 
 * O armistício que encerrou os combates na Frente Ocidental foi assinado em:
-  (a) 1914
-  (b) 1916
+  (a) 1916
+  (b) 1917
   (c) 1918
-  (d) 1925
+  (d) 1920
 
-* Entre as cláusulas do Tratado de Versalhes em relação à Alemanha estava:
-  (a) Expansão de seu território para o leste
-  (b) Imposição de reparações e limitações militares
-  (c) Criação de um império colonial na África
-  (d) Entrada automática na Liga das Nações como potência privilegiada
+* Entre medidas associadas ao Tratado de Versalhes em relação à Alemanha esteve:
+  (a) imposição de reparações e restrições militares, além de perdas territoriais
+  (b) anexação de vastas áreas da Rússia e ampliação do império colonial alemão
+  (c) criação de uma união política imediata entre Alemanha e Áustria-Hungria
+  (d) reconhecimento da Alemanha como “árbitra” do sistema internacional com veto na Liga
 
-* Um efeito da guerra e dos tratados de paz sobre o mapa político europeu foi:
-  (a) Reforço dos impérios multinacionais tradicionais
-  (b) Desaparecimento de antigos impérios e criação de novos Estados
-  (c) Retorno ao mapa político do século XVIII
-  (d) Unificação de toda a Europa em um único Estado
+* Um efeito amplo do pós-guerra foi:
+  (a) fortalecimento e continuidade de todos os impérios multinacionais europeus sem mudanças
+  (b) desaparecimento/transformação de impérios e criação de novos Estados em várias regiões
+  (c) retorno completo ao mapa político europeu de 1815, sem alterações
+  (d) unificação política europeia sob uma única monarquia continental
 
-**Verdadeiro/Falso**
+* A **Liga das Nações** foi criada principalmente para:
+  (a) promover mecanismos diplomáticos de segurança coletiva e evitar novos conflitos de grande escala
+  (b) organizar imediatamente a reconstrução econômica mundial com um banco central único
+  (c) substituir tratados bilaterais por anexações territoriais automáticas
+  (d) coordenar campanhas militares permanentes contra países neutros
 
-* A Primeira Guerra Mundial contribuiu para o colapso de vários impérios europeus.
-* Os tratados de paz não provocaram nenhuma insatisfação ou sentimento de injustiça em países derrotados.
-* A criação da Liga das Nações buscou, entre outros objetivos, evitar novos conflitos de grande escala.
+### Checklist
 
-**Checklist**
-
-* Relacionar **fim da guerra** e **reorganização internacional**, não apenas decorar nomes de tratados.
-* Manter clareza ao conectar a guerra ao período entre-guerras, sem “adiantar” toda a Segunda Guerra.
-* Variar o foco entre diferentes regiões (Europa central, Oriente Médio, colônias).
+* Relacionar fim da guerra ↔ tratados ↔ rearranjos internacionais (sem virar “decoreba de nomes”).
+* Evitar “adiantar” toda a Segunda Guerra; manter consequências em linhas gerais.
+* Variar regiões (Europa central/oriental, Oriente Médio e dimensões institucionais).
 
 ---

@@ -1,125 +1,415 @@
-# Microsubtemas — Geografia → Países, Capitais e Cidades Notáveis
-
-## 1) Capitais Planejadas do Mundo — `capitais_planejadas`
-
-**Natureza.** Temático  
-**Descrição.** Capitais concebidas e construídas com plano urbano deliberado, destacando motivações políticas, localização, cronologia de transferência da capital, arquitetura cívica e eixos monumentais.
-
-**Escopo**  
-**Inclusões (não exaustivo):** Brasília (Eixo Monumental, Lúcio Costa/Oscar Niemeyer), Canberra (Walter Burley Griffin), Abuja (transferência de Lagos), Islamabad (Constantinos Doxiadis), Naypyidaw, Astana/Nur-Sultan (mudança de nome → Astana), Putrajaya (administração federal), Dodoma (Tanzânia), Lilongwe, Chandigarh (capitais estaduais/regionais, como referência metodológica), Nova Delhi (Rajpath/Kartavya Path).  
-**Exclusões:** debates estéticos; promessas de projetos ainda não iniciados.  
-**Referências (exemplos):** Wikipedia EN: List of planned capitals; Brasília; Canberra; Abuja; Islamabad; Putrajaya.
-
-**Matriz de variação (eixos):** motivação (centralidade/segurança/neutralidade) | período de construção | autores do plano | transferência (data/ato) | sítio (altitude/bioma) | conjunto cívico (praças/edifícios-sede).
+Abaixo estão os **5 microsubtemas expandidos no padrão completo** (YAML + corpo em Markdown, com Escopo, Matriz de variação, Exemplos e Checklist).
 
 ---
 
-## 2) Megacidades da Ásia — `megacidades_da_asia`
+## 1) País ↔ Capital: mapeamento, desambiguação e exceções — `pais_capital_mapeamento`
 
-**Natureza.** Temático  
-**Descrição.** Grandes metrópoles asiáticas, com foco em localização, papel econômico, rede de transportes e marcos históricos urbanos (formação, expansão, anexações).
+```yaml
+---
+tema: "Geografia"
+tema_clean: "geografia"
+subtema: "Países, Capitais e Cidades Notáveis"
+subtema_clean: "paises_capitais_e_cidades_notaveis"
 
-**Escopo**  
-**Inclusões (não exaustivo):** Tóquio, Xangai, Pequim, Guangzhou–Shenzhen–Hong Kong (região), Seul, Bangkok, Jacarta, Manila, Daca, Karachi, Mumbai, Delhi, Kolkata, Teerã, Ho Chi Minh City. **Pessoas/planejamento (exemplos):** Haussmann como contraste histórico europeu; Kenzo Tange (Tóquio pós-guerra, como referência).  
-**Exclusões:** contagens populacionais do ano; previsões demográficas.  
-**Referências (exemplos):** Wikipedia EN: Megacity; artigos de cada cidade; Greater Bay Area; Tokyo Metropolitan Area.
+microsubtema: "País ↔ Capital: mapeamento, desambiguação e exceções"
+microsubtema_clean: "pais_capital_mapeamento"
 
-**Matriz de variação (eixos):** posição costeira/interior | função (financeira/industrial/política) | rede (portos, hubs aéreos, ferrovias) | morfologia (conurbação/região metropolitana) | marcos de expansão.
+natureza: "transversal"
+localizacao: "irrestrita"
+
+status: "ativo"
+data_criacao: "2025-12-23"
+---
+```
+
+**Natureza:** Transversal
+**Descrição:** Associação direta **País→Capital** e **Capital→País**, com um conjunto controlado de **exceções canônicas** (capital constitucional vs sede de governo; mais de uma capital; capital vs “cidade mais conhecida”).
+**Localização:** Irrestrita
+
+### Escopo
+
+**Inclusões (não exaustivo)**
+
+* Pares país–capital amplamente aceitos (preferência por fontes tipo atlas/enciclopédia e listas oficiais).
+* Perguntas invertidas (capital→país) e de desambiguação simples (ex.: “X é capital de qual país?”).
+* **Exceções estáveis**, quando bem documentadas:
+
+  * **Capital constitucional ≠ sede do governo** (ex.: capital formal vs capital administrativa).
+  * **Múltiplas capitais por função** (executiva/legislativa/judicial), quando oficial.
+  * Países em que a “cidade mais famosa/maior” **não é** a capital (sem entrar em estatísticas anuais).
+
+**Exclusões**
+
+* Territórios disputados / reconhecimento parcial (a não ser que exista um microsubtema específico para isso).
+* Propostas recentes de mudança de capital; “capitais futuras” em planejamento.
+* Rankings (qual é “mais cara”, “mais populosa”, “melhor para viver”) e dados voláteis.
+
+**Referências (exemplos)**
+
+* Enciclopédias/atlas (ex.: Britannica; atlas escolares).
+* CIA World Factbook (para “Capital”/“Government”).
+* Wikipedia (EN/PT) como apoio de verificação cruzada (página do país + página da capital).
+
+### Matriz de variação (eixos)
+
+* **Direção**: País→Capital vs Capital→País.
+* **Tipo de caso**: padrão vs exceção (múltiplas capitais; sede do governo).
+* **Região/continente**: cobertura equilibrada global.
+* **Toponímia**: endônimos/exônimos e grafias usuais (sem politizar).
+
+### Exemplos de enunciados (modelos)
+
+**Aberta (4+)**
+
+1. “Qual é a capital do Canadá?”
+2. “Berna é a capital de qual país?”
+3. “Qual país tem **Sucre** como capital constitucional (e **La Paz** como sede do governo)?”
+4. “Qual país possui **Pretória**, **Cidade do Cabo** e **Bloemfontein** como capitais em funções distintas?”
+
+**Múltipla escolha (4+)**
+
+1. “Qual é a capital do Vietnã?
+   A) Hanói  B) Ho Chi Minh City  C) Da Nang  D) Hue”
+2. “Lisboa é capital de:
+   A) Espanha  B) Portugal  C) Itália  D) Grécia”
+3. “Em qual país **Amsterdã** é a capital constitucional, mas **Haia** concentra sedes do governo?
+   A) Bélgica  B) Países Baixos  C) Dinamarca  D) Suécia”
+4. “Qual par país–capital está correto?
+   A) Austrália—Sydney  B) Turquia—Ancara  C) Marrocos—Casablanca  D) Brasil—São Paulo”
+
+### Checklist
+
+* Pares conferidos em **pelo menos 2 fontes** (atlas/enciclopédia + fonte de apoio).
+* Exceções tratadas só quando **oficiais e estáveis**.
+* Evitar territórios contestados (a não ser que seja escopo explícito).
+* Distribuição global (não concentrar em Europa/Américas).
 
 ---
 
-## 3) Cidades Históricas do Mediterrâneo — `cidades_historicas_do_mediterraneo`
+## 2) Microestados e países muito pequenos: capitais e cidades-chave — `microestados_e_pequenos_paises`
 
-**Natureza.** Temático  
-**Descrição.** Centros urbanos no entorno do Mediterrâneo com relevância histórica contínua (clássica–medieval–moderna), destacando fundações, portos, sítios arqueológicos e continuidade urbana.
+```yaml
+---
+tema: "Geografia"
+tema_clean: "geografia"
+subtema: "Países, Capitais e Cidades Notáveis"
+subtema_clean: "paises_capitais_e_cidades_notaveis"
 
-**Escopo**  
-**Inclusões (não exaustivo):** Atenas, Roma, Nápoles, Palermo, Istambul/Constantinopla, Alexandria, Túnis, Cartago (sítio), Argel, Barcelona, Valência, Marselha, Nice, Dubrovnik, Split, Kotor, Valeta. **Figuras associadas (exemplos):** Herodes Ático (Atenas), Justiniano (Constantinopla), Euclides (Alexandria como sítio).  
-**Exclusões:** listagens turísticas subjetivas; eventos recentes sem balanço histórico.  
-**Referências (exemplos):** Wikipedia EN: History of the Mediterranean region; páginas de cada cidade; UNESCO World Heritage listings pertinentes.
+microsubtema: "Microestados e países muito pequenos: capitais e cidades-chave"
+microsubtema_clean: "microestados_e_pequenos_paises"
 
-**Matriz de variação (eixos):** origem (colônia grega/romana/fenícia) | porto natural/abrigado | camadas históricas | monumentalidade (anfiteatros, muralhas) | papel regional (capital/província).
+natureza: "tematico"
+localizacao: "irrestrita"
+
+status: "ativo"
+data_criacao: "2025-12-23"
+---
+```
+
+**Natureza:** Temático
+**Descrição:** Países de pequena escala territorial/demográfica (microestados e “pequenos países”), enfatizando **capital**, **localização regional** e 1–3 **cidades/centros urbanos** de referência quando aplicável.
+**Localização:** Irrestrita
+
+### Escopo
+
+**Inclusões (não exaustivo)**
+
+* Microestados clássicos: Vaticano, Mônaco, San Marino, Liechtenstein, Andorra, Malta.
+* Pequenos insulares: Caribe e Pacífico (ex.: Barbados, Santa Lúcia, São Cristóvão e Nevis, Tuvalu, Nauru, Palau etc.).
+* Itens estáveis por país:
+
+  * capital; região (Caribe, Oceania, Mediterrâneo etc.);
+  * quando a capital coincide com a maior/mais conhecida (sem exigir números);
+  * casos “cidade-estado” (quando o país e a cidade se confundem).
+
+**Exclusões**
+
+* Indicadores voláteis (PIB/IDH recentes), rankings turísticos, preços.
+* Questões de política atual e eleições.
+* Dependências/territórios ultramarinos (a menos que você queira outro microsubtema).
+
+**Referências (exemplos)**
+
+* Atlas/enciclopédias; CIA World Factbook.
+* Wikipedia (EN/PT) como apoio (país + capital).
+
+### Matriz de variação (eixos)
+
+* **Região**: Europa / Caribe / Pacífico / Índico / Mediterrâneo.
+* **Tipo**: cidade-estado, principado, república, estados insulares.
+* **Capital**: capital = principal centro urbano vs capital “administrativa” menos conhecida.
+* **Toponímia**: nomes curtos, compostos, com diacríticos.
+
+### Exemplos de enunciados (modelos)
+
+**Aberta (4+)**
+
+1. “Qual é a capital de Malta?”
+2. “Vaduz é a capital de qual país?”
+3. “Qual microestado europeu tem **o Vaticano** como capital?”
+4. “Qual é a capital de Tuvalu?”
+
+**Múltipla escolha (4+)**
+
+1. “Andorra la Vella é a capital de:
+   A) Andorra  B) San Marino  C) Mônaco  D) Malta”
+2. “Qual é a capital de Barbados?
+   A) Nassau  B) Bridgetown  C) Castries  D) Kingstown”
+3. “Qual país tem **São Marino (City of San Marino)** como capital?
+   A) San Marino  B) Liechtenstein  C) Mônaco  D) Chipre”
+4. “Qual é a capital de Liechtenstein?
+   A) Vaduz  B) Bern  C) Luzern  D) Basel”
+
+### Checklist
+
+* Definir lista-alvo (microestados + pequenos países) para evitar “entra/sai” arbitrário.
+* Evitar perguntas que dependam de números (população, densidade).
+* Garantir cobertura fora da Europa (Caribe/Pacífico).
+* Não misturar com “capitais insulares” em excesso (se repetir, limitar por país).
 
 ---
 
-## 4) Cidades dos Andes — `cidades_dos_andes`
+## 3) Mudanças oficiais de nome: países e capitais que foram renomeados — `mudancas_oficiais_de_nome`
 
-**Natureza.** Temático  
-**Descrição.** Cidades de altitude ao longo dos Andes, com atenção a sítio urbano (altiplano, vale interandino), adaptação climática, proximidade de vulcões e rotas transandinas.
+```yaml
+---
+tema: "Geografia"
+tema_clean: "geografia"
+subtema: "Países, Capitais e Cidades Notáveis"
+subtema_clean: "paises_capitais_e_cidades_notaveis"
 
-**Escopo**  
-**Inclusões (não exaustivo):** La Paz/El Alto, Sucre, Potosí, Quito, Cuenca, Arequipa, Cusco, Huaraz, Bogotá, Mérida (Venezuela), Pasto, Juliaca, Salta, San Pedro de Atacama (como núcleo urbano em deserto de altitude). **Figuras associadas (exemplos):** arquitetos de catedrais andinas; exploradores (Alexander von Humboldt, como referência histórica de observação).  
-**Exclusões:** dados de poluição/qualidade do ar em tempo real; avisos de risco atuais.  
-**Referências (exemplos):** Wikipedia EN: Andes; Andean cities; páginas de cada cidade; listas de altitudes urbanas.
+microsubtema: "Mudanças oficiais de nome: países e capitais que foram renomeados"
+microsubtema_clean: "mudancas_oficiais_de_nome"
 
-**Matriz de variação (eixos):** altitude | bacia hidrográfica | risco vulcânico/sísmico | patrimônio colonial/indígena | conexões (passos andinos/ferrovias).
+natureza: "transversal"
+localizacao: "irrestrita"
+
+status: "ativo"
+data_criacao: "2025-12-23"
+---
+```
+
+**Natureza:** Transversal
+**Descrição:** Topônimos com **renomeação oficial** (país e/ou capital/cidade notável), cobrindo relação **nome antigo ↔ nome atual** e, quando for bem consolidado, **ano** e motivação geral (descolonização, padronização linguística, homenagem).
+**Localização:** Irrestrita
+
+### Escopo
+
+**Inclusões (não exaustivo)**
+
+* Cidades renomeadas com uso amplamente consolidado (ex.: Bombay→Mumbai; Madras→Chennai; Calcutta→Kolkata).
+* Países renomeados oficialmente com ampla adoção internacional (ex.: Ceilão→Sri Lanka; Alto Volta→Burkina Faso; Zaire→República Democrática do Congo).
+* Perguntas de equivalência: “qual é o nome atual/antigo de X?”; “X foi renomeada para Y”.
+
+**Exclusões**
+
+* Apelidos e nomes informais.
+* Mudanças propostas, grafias “preferidas” sem consenso amplo.
+* Casos altamente disputados/variáveis por idioma (a não ser que o microsubtema trate disso explicitamente).
+
+**Referências (exemplos)**
+
+* Enciclopédias/atlas; cronologias oficiais quando existirem.
+* Wikipedia (EN/PT) para checagem cruzada (página do país/cidade + seção de história/nome).
+
+### Matriz de variação (eixos)
+
+* **Entidade**: país vs capital/cidade.
+* **Motivo**: descolonização, política linguística, homenagem, mudança de regime.
+* **Região/continente**: variedade global.
+* **Formato do nome**: simples vs composto; com diacríticos; mudança parcial vs total.
+
+### Exemplos de enunciados (modelos)
+
+**Aberta (4+)**
+
+1. “Qual é o nome atual da cidade anteriormente conhecida como **Bombay**?”
+2. “**Zaire** é um nome antigo de qual país atual?”
+3. “Qual país era conhecido como **Alto Volta**?”
+4. “Qual é o nome atual da cidade anteriormente conhecida como **Madras**?”
+
+**Múltipla escolha (4+)**
+
+1. “Bombay foi renomeada oficialmente como:
+   A) Mumbai  B) Pune  C) Jaipur  D) Goa”
+2. “Alto Volta corresponde hoje a:
+   A) Níger  B) Burkina Faso  C) Mali  D) Chade”
+3. “Ceilão é o nome histórico de:
+   A) Sri Lanka  B) Mianmar  C) Laos  D) Nepal”
+4. “Calcutta foi renomeada como:
+   A) Kolkata  B) Kochi  C) Kolkata City  D) Calicut”
+
+### Checklist
+
+* Usar apenas renomeações **oficiais** com adoção estável.
+* Se incluir ano, checar em **2 fontes**.
+* Evitar itens que dependam de disputa linguística/atualidade.
+* Garantir equilíbrio entre países e cidades.
 
 ---
 
-## 5) Capitais da África Subsaariana — `capitais_da_africa_subsaariana`
+## 4) Capitais insulares e de arquipélagos: localização e centros urbanos — `capitais_insulares_e_arquipelagicas`
 
-**Natureza.** Temático  
-**Descrição.** Capitais políticas na África ao sul do Saara, com foco em localização (litoral/interior), legado colonial, transferências e dupla capital (exec./judic./econ.).
+```yaml
+---
+tema: "Geografia"
+tema_clean: "geografia"
+subtema: "Países, Capitais e Cidades Notáveis"
+subtema_clean: "paises_capitais_e_cidades_notaveis"
 
-**Escopo**  
-**Inclusões (não exaustivo):** Abuja (Nigéria), Dodoma (Tanzânia), Yamoussoukro/Abidjan (Costa do Marfim), Pretória/Cidade do Cabo/Bloemfontein (África do Sul), Gaborone, Windhoek, Kigali, Addis Abeba (UA), N’Djamena, Bamako, Ouagadougou, Luanda, Maputo, Harare, Kampala.  
-**Exclusões:** indicadores anuais voláteis (PIB do ano, IDH mais recente).  
-**Referências (exemplos):** Wikipedia EN: List of national capitals; páginas das capitais; African Union (Addis Ababa).
+microsubtema: "Capitais insulares e de arquipélagos: localização e centros urbanos"
+microsubtema_clean: "capitais_insulares_e_arquipelagicas"
 
-**Matriz de variação (eixos):** litoral/interior | capital única/múltipla | transferência histórica | altitude/clima | função regional (sede de organização).
+natureza: "tematico"
+localizacao: "irrestrita"
+
+status: "ativo"
+data_criacao: "2025-12-23"
+---
+```
+
+**Natureza:** Temático
+**Descrição:** Capitais de **países-ilha** e **arquipélagos**, enfatizando localização (mar/oceano/região), ilha principal quando aplicável, e distinções simples (capital vs principal centro urbano).
+**Localização:** Irrestrita
+
+### Escopo
+
+**Inclusões (não exaustivo)**
+
+* Países insulares da Oceania, Caribe, Mediterrâneo e Índico (ex.: Fiji, Samoa, Tonga; Jamaica, Bahamas; Malta, Chipre; Seychelles, Maldivas).
+* Associação capital ↔ país e capital ↔ região oceânica (Atlântico/Caribe/Pacífico/Índico/Mediterrâneo).
+* Quando fizer sentido: capital localizada em uma ilha específica (ex.: “em qual ilha fica a capital?”), sem entrar em detalhes administrativos finos.
+
+**Exclusões**
+
+* Territórios dependentes/ultramarinos (se não forem parte do escopo).
+* Turismo, economia do turismo, rankings, dados anuais.
+* Temas de clima/risco atual (isso viraria outro microsubtema).
+
+**Referências (exemplos)**
+
+* Atlas/enciclopédias; CIA World Factbook.
+* Wikipedia (EN/PT): páginas dos países e capitais + geografia.
+
+### Matriz de variação (eixos)
+
+* **Oceano/região**: Caribe vs Pacífico vs Índico vs Mediterrâneo.
+* **Tipo**: ilha única vs arquipélago.
+* **Papel urbano**: capital = maior cidade vs capital menor.
+* **Toponímia**: nomes coloniais vs endônimos.
+
+### Exemplos de enunciados (modelos)
+
+**Aberta (4+)**
+
+1. “Qual é a capital da Islândia?”
+2. “Nassau é a capital de qual país?”
+3. “Qual é a capital das Maldivas?”
+4. “Qual país tem **Suva** como capital?”
+
+**Múltipla escolha (4+)**
+
+1. “Qual é a capital de Fiji?
+   A) Suva  B) Apia  C) Nukuʻalofa  D) Port Vila”
+2. “Reykjavík é capital de:
+   A) Noruega  B) Islândia  C) Irlanda  D) Finlândia”
+3. “Qual é a capital das Bahamas?
+   A) Nassau  B) Kingston  C) Bridgetown  D) Port of Spain”
+4. “Malé é a capital de:
+   A) Seychelles  B) Maldivas  C) Maurício  D) Timor-Leste”
+
+### Checklist
+
+* Manter foco em **capitais de estados soberanos** (salvo regra explícita).
+* Checar “capital vs maior cidade” sem depender de números.
+* Distribuir por oceanos/regiões (não só Caribe).
+* Evitar sobreposição excessiva com o microsubtema País↔Capital (limitar repetição).
 
 ---
 
-## 6) Países Sem Litoral e Suas Capitais — `paises_sem_litoral_e_capitais`
+## 5) Topônimos repetidos e homônimos: cidades com o mesmo nome — `toponimos_repetidos_e_homonimos`
 
-**Natureza.** Transversal  
-**Descrição.** Estados sem acesso direto ao mar e suas capitais, com ênfase em localização, conectividade (corredores, portos secos), rios navegáveis e vizinhanças regionais.
+```yaml
+---
+tema: "Geografia"
+tema_clean: "geografia"
+subtema: "Países, Capitais e Cidades Notáveis"
+subtema_clean: "paises_capitais_e_cidades_notaveis"
 
-**Escopo**  
-**Inclusões (não exaustivo):** Bolívia (La Paz/Sucre), Paraguai (Assunção), Etiópia (Addis Abeba), Níger (Niamey), Chade (N’Djamena), Mali (Bamako), Uzbequistão (Tashkent), Cazaquistão (Astana), Laos (Vientiane), Nepal (Catmandu), Butão (Thimphu), Sérvia (Belgrado).  
-**Exclusões:** estatísticas de comércio anual; sanções e medidas conjunturais.  
-**Referências (exemplos):** Wikipedia EN: Landlocked country; listas de capitais; mapas hidrográficos regionais.
+microsubtema: "Topônimos repetidos e homônimos: cidades com o mesmo nome"
+microsubtema_clean: "toponimos_repetidos_e_homonimos"
 
-**Matriz de variação (eixos):** região/continente | conexão fluvial/ferroviária | proximidade de portos terceiros | múltiplas capitais | altitude/terreno.
+natureza: "transversal"
+localizacao: "irrestrita"
+
+status: "ativo"
+data_criacao: "2025-12-23"
+---
+```
+
+**Natureza:** Transversal
+**Descrição:** Desambiguação de **nomes de cidades repetidos** no mundo (homônimos), incluindo casos em que uma é capital e outra não, e perguntas do tipo “qual país/estado?” sem exigir detalhes administrativos complexos.
+**Localização:** Irrestrita
+
+### Escopo
+
+**Inclusões (não exaustivo)**
+
+* Conjuntos de homônimos internacionais:
+
+  * **San José** (capital da Costa Rica vs outras “San Jose/San José”).
+  * **Victoria** (capital de Seychelles vs outras Victorias).
+  * **Georgetown**, **Kingston**, **Portland**, **Santiago**, **Tripoli/Trípoli** (quando houver homônimo forte e verificável).
+* Perguntas de distinção:
+
+  * “X é capital de qual país?” (quando X também existe em outros lugares).
+  * “Qual destas ‘X’ é capital?” (com alternativas bem escolhidas).
+
+**Exclusões**
+
+* Variações “quase iguais” que não são homônimos reais (isso é outro recorte: falsos cognatos/topônimos parecidos).
+* Distritos/bairros (granularidade urbana muito fina).
+* Casos que dependem de conhecimento hiperlocal (condados, municípios pequenos).
+
+**Referências (exemplos)**
+
+* Atlas/enciclopédias; gazetteers (listas geográficas).
+* Wikipedia (EN/PT): páginas de desambiguação + páginas da cidade/país.
+
+### Matriz de variação (eixos)
+
+* **Idioma de origem**: espanhol/português/inglês/francês/árabe.
+* **Status**: capital vs não-capital; nacional vs regional.
+* **Região**: distribuir continentes e não “cair” só em EUA/Europa.
+* **Estratégia de desambiguação**: país, continente, rio/baía, “capital de”.
+
+### Exemplos de enunciados (modelos)
+
+**Aberta (4+)**
+
+1. “**San José** é a capital de qual país?”
+2. “**Georgetown** é a capital de qual país?”
+3. “**Kingston** é a capital de qual país?”
+4. “**Trípoli** (Tripoli) é capital de qual país?”
+
+**Múltipla escolha (4+)**
+
+1. “San José é capital de:
+   A) Panamá  B) Costa Rica  C) Nicarágua  D) Honduras”
+2. “Georgetown é capital de:
+   A) Suriname  B) Guiana  C) Belize  D) Haiti”
+3. “Kingston é capital de:
+   A) Jamaica  B) Canadá  C) Barbados  D) Bahamas”
+4. “Trípoli é capital de:
+   A) Tunísia  B) Líbia  C) Egito  D) Argélia”
+
+### Checklist
+
+* Selecionar homônimos com **alto “retorno”** (não obscuros demais).
+* Garantir que as alternativas da múltipla escolha sejam **plausíveis** sem serem “pegadinha”.
+* Checar a grafia e diacríticos (ex.: Trípoli/Tripoli) e manter padrão.
+* Balancear globalmente (não concentrar em um único país).
 
 ---
 
-## 7) Cidades Fronteiriças e Bifronteiras — `cidades_fronteiricas`
-
-**Natureza.** Transversal  
-**Descrição.** Cidades assentadas em fronteiras internacionais (ou conurbações transfronteiriças), explorando pontes, zonas de livre comércio, e dupla administração urbana.
-
-**Escopo**  
-**Inclusões (não exaustivo):** Aachen/Vaals, Cidades gêmeas do Rio Paraná (Foz do Iguaçu–Ciudad del Este–Puerto Iguazú), Tijuana–San Diego (conurbação transfronteiriça), Cúcuta–San Antonio, El Paso–Ciudad Juárez, Baarle-Hertog/Baarle-Nassau, Goma–Gisenyi, Basel (trinacional), Naco–Naco, Laredo–Nuevo Laredo.  
-**Exclusões:** operações policiais em curso; fluxos migratórios semanais.  
-**Referências (exemplos):** Wikipedia EN: Border town; Cross-border agglomerations; páginas das cidades; tratados de fronteira pertinentes.
-
-**Matriz de variação (eixos):** tipo (gêmeas/separadas por rio/ponte) | regime aduaneiro | ponte/passagem | conurbação/integração | multilateralidade (binacional/trinacional).
-
----
-
-## 8) Capitais em Estuários e Confluências — `capitais_em_estuarios_e_confluencias`
-
-**Natureza.** Transversal  
-**Descrição.** Capitais situadas em estuários, deltas ou confluências fluviais, destacando vantagens geográficas, risco de inundação e papel portuário histórico.
-
-**Escopo**  
-**Inclusões (não exaustivo):** Lisboa (estuário do Tejo), Buenos Aires (estuário do Prata), Daca (delta do Ganges-Brahmaputra), Lagos (laguna/estuário), Maputo (Baía de Maputo), Khartoum (confluência Nilo Azul/Branco), Montreal (São Lourenço/Ilha), Ottawa (Rio Ottawa), Brasília (exceção planejada — não estuário, usada como contraste), Jacarta (delta Ci Liwung).  
-**Exclusões:** eventos climáticos recentes ainda sem síntese oficial; projeções especulativas de nível do mar.  
-**Referências (exemplos):** Wikipedia EN: Estuary; River confluence; páginas das capitais; Port city.
-
-**Matriz de variação (eixos):** tipo (estuário/delta/confluência) | bacia hidrográfica | porto natural vs. lagunar | risco hidrológico | papel histórico no comércio.
-
----
-
-## 9) País–Capital e Transferências Históricas — `pais_capital_e_transferencias`
-
-**Natureza.** Transversal  
-**Descrição.** Correspondências país–capital com ênfase em pares oficiais e **transferências históricas** de capital, casos de **capitais múltiplas** (constitucional/administrativa/legislativa/judicial), capitais provisórias e **mudanças de nome**. Foco em fatos estáveis e marcos oficiais.
-
-**Escopo**  
-**Inclusões (não exaustivo):** pares atuais canônicos (França–Paris, Japão–Tóquio, Egito–Cairo etc.); **transferências** — Brasil (Rio de Janeiro → Brasília, 1960), Nigéria (Lagos → Abuja, 1991), Cazaquistão (Almaty → Astana 1997/1998; Astana → Nur-Sultan 2019; retorno a Astana 2022), Mianmar (Yangon → Naypyidaw, 2005), Tanzânia (Dar es Salaam → Dodoma, processo de transferência), Costa do Marfim (Abidjan → Yamoussoukro, 1983), Malawi (Zomba → Lilongwe, 1975), Belize (Belize City → Belmopan, 1970), Alemanha (Bonn → Berlim, 1990), Paquistão (Karachi → Rawalpindi (interina) → Islamabad, 1967); **capitais múltiplas** — África do Sul (Pretória exec., Cidade do Cabo legis., Bloemfontein jud.), Sri Lanka (Sri Jayawardenepura Kotte adm.; Colombo comercial), Bolívia (Sucre constitucional; La Paz sede de governo), Países Baixos (Amsterdã capital constitucional; Haia sede), Benim (Porto-Novo capital; Cotonou sede), Eswatini (Mbabane exec.; Lobamba legisl./real), Malásia (Kuala Lumpur capital; Putrajaya administrativa), Nauru (Yaren distrito de facto).  
-**Exclusões:** disputas de reconhecimento **em aberto** (casos sem consenso internacional consolidado), projeções e análises conjunturais.  
-**Referências (exemplos):** Wikipedia EN: *List of national capitals*; *Capital (political)*; *Capital relocation*; *Seat of government*; páginas específicas de países/capitais.
-
-**Matriz de variação (eixos):** **status** (constitucional/administrativa/de facto) | **data/ato** de transferência | **múltiplas capitais** (exec./legis./judic.) | **continente/região** | **etimologia/mudança de nome** | **cidade anterior vs. nova capital**.
+Se quiser, eu também já monto um **“pacote do subtema”** com **10–15 microsubtemas** (incluindo os 3 anteriores: capitais planejadas, mudanças de capital, cidades em rios) e marco quais são mais “rentáveis” para gerar 100+ perguntas com baixa repetição.
