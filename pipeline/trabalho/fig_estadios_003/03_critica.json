@@ -1,0 +1,45 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado vaza a resposta: 'sediou os primeiros Jogos Olímpicos da era moderna' identifica o estádio sem olhar a figura. Reescrita com país como pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que estádio histórico da Grécia é este?",
+        "resposta": "Estádio Panatenaico (Calimármaro)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Palco da final do futebol australiano' é um feito único que permite responder sem a imagem. Troquei a pista pelo país, que ajuda sem entregar. Distratores são estádios australianos críveis e nenhum descreve a imagem.",
+      "reescrita": {
+        "pergunta": "Que estádio australiano é este?",
+        "resposta": "Melbourne Cricket Ground",
+        "distratores": [
+          "Sydney Cricket Ground",
+          "Adelaide Oval",
+          "Optus Stadium"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Palco das provas de natação de 2008' entrega Pequim sem a imagem. Trocada pela pista do continente, que ajuda sem entregar. O fato (Pequim) está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que cidade da Ásia fica este centro aquático?",
+        "resposta": "Pequim",
+        "distratores": [
+          "Xangai",
+          "Tóquio",
+          "Seul"
+        ]
+      }
+    }
+  ]
+}

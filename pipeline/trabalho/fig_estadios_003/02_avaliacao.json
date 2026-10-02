@@ -1,0 +1,117 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Faixas na fachada trazem 'Emirates Stadium' e o escudo do Arsenal; texto visível entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Letreiro 'Itaipava Arena Fonte Nova' visível na fachada entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Panorama do estádio de mármore em ferradura, inconfundível, sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estádio é este, que sediou os primeiros Jogos Olímpicos da era moderna?",
+      "resposta": "Estádio Panatenaico (Kallimarmaro)",
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio Panatenaico",
+        "descricao": "Estádio de mármore em Atenas, Grécia, sede dos Jogos Olímpicos de 1896.",
+        "variantes": [
+          "Panathenaic Stadium",
+          "Kallimarmaro",
+          "Estádio Panathinaiko"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Interior lotado, com pessoas comuns em primeiro plano, e sem traço que permita reconhecer o estádio com resposta única."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Placar 'Dodgers Welcome', logotipo 'LA' no gramado e 'Think Blue' entregam a resposta; há também pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Vista aérea com obras, com escudo do clube visível e pouco reconhecível; resposta não é clara diante da imagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Público comum em primeiro plano e texto 'Emirates Airline' nos telões."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista do gramado oval com traves de futebol australiano, sem texto; distintivo do MCG. O público ao fundo é de evento público.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estádio é este, palco da final do futebol australiano?",
+      "resposta": "Melbourne Cricket Ground",
+      "distratores": [
+        "Sydney Cricket Ground",
+        "Adelaide Oval",
+        "Optus Stadium"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Melbourne Cricket Ground",
+        "descricao": "Estádio multiuso em Melbourne, Austrália, sede da final da AFL e do Boxing Day Test.",
+        "variantes": [
+          "MCG",
+          "Estádio Melbourne Cricket Ground"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada iluminada de bolhas azuis, inconfundível e sem texto; pessoas pequenas ao fundo.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este centro aquático, palco das provas de natação de 2008?",
+      "resposta": "Pequim",
+      "distratores": [
+        "Xangai",
+        "Tóquio",
+        "Seul"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cubo d'Água",
+        "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+        "variantes": [
+          "Water Cube",
+          "Centro Aquático Nacional de Pequim"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Letreiro 'crypto.com Arena' em destaque entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Letreiro 'Orange Vélodrome' na fachada entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Letras 'CHELSEA' nas arquibancadas e 'Chelsea Football Club' na fachada entregam a resposta."
+    }
+  ]
+}

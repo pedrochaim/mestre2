@@ -1,0 +1,188 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estádio Panatenaico",
+        "descricao": "Estádio de mármore em Atenas, Grécia, sede dos Jogos Olímpicos de 1896.",
+        "variantes": [
+          "Estádio Panathinaiko",
+          "Panathenaic Stadium",
+          "Kallimarmaro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_centenario",
+          "nome": "Estádio Centenário",
+          "descricao": "Estádio de futebol em Montevidéu, Uruguai, construído para a Copa do Mundo de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "estadio_azteca",
+          "nome": "Estádio Azteca",
+          "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986.",
+          "variantes": [
+            "Estádio Asteca"
+          ]
+        },
+        {
+          "id": "monte_kilimanjaro",
+          "nome": "Monte Kilimanjaro",
+          "descricao": "Montanha isolada no nordeste da Tanzânia, o ponto mais alto da África.",
+          "variantes": [
+            "Kilimanjaro",
+            "Kilimandjaro",
+            "Quilimanjaro"
+          ]
+        },
+        {
+          "id": "estadio_mane_garrincha",
+          "nome": "Estádio Mané Garrincha",
+          "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+          "variantes": [
+            "Arena BRB Mané Garrincha",
+            "Estádio Nacional de Brasília"
+          ]
+        },
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Melbourne Cricket Ground",
+        "descricao": "Estádio multiuso em Melbourne, Austrália, sede da final da AFL e do Boxing Day Test.",
+        "variantes": [
+          "MCG",
+          "Estádio Melbourne Cricket Ground"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_clube_do_mickey",
+          "nome": "O Clube do Mickey",
+          "descricao": "Programa infantil de variedades da Disney exibido de 1989 a 1994 com o título The All-New Mickey Mouse Club",
+          "variantes": [
+            "The All-New Mickey Mouse Club",
+            "MMC"
+          ]
+        },
+        {
+          "id": "grande_nuvem_de_magalhaes",
+          "nome": "Grande Nuvem de Magalhães",
+          "descricao": "Galáxia anã satélite da Via Láctea, visível do Hemisfério Sul, a cerca de 163 mil anos-luz.",
+          "variantes": [
+            "LMC",
+            "Large Magellanic Cloud",
+            "Nuvem Maior de Magalhães"
+          ]
+        },
+        {
+          "id": "paquinha",
+          "nome": "Paquinha",
+          "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+          "variantes": [
+            "Grilo-toupeira",
+            "Gryllotalpidae",
+            "mole cricket"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cubo d'Água",
+        "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+        "variantes": [
+          "Water Cube",
+          "Centro Aquático Nacional de Pequim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro"
+          ]
+        },
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "cubo_magico",
+          "nome": "Cubo mágico",
+          "descricao": "Quebra-cabeça tridimensional de faces coloridas giratórias criado pelo húngaro Ernő Rubik.",
+          "variantes": [
+            "Cubo de Rubik",
+            "Rubik's Cube"
+          ]
+        },
+        {
+          "id": "metro_de_londres",
+          "nome": "Metrô de Londres",
+          "descricao": "Sistema de metrô de Londres, aberto em 1863 com a Metropolitan Railway.",
+          "variantes": [
+            "London Underground",
+            "The Tube"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estádio Panatenaico de Atenas não consta entre as candidatas, que são outros estádios ou uma montanha."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Melbourne Cricket Ground. As candidatas só se parecem pelas siglas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O Cubo d'Água é o centro de natação de Pequim. O Estádio Nacional de Pequim é outro local, e as demais candidatas não têm relação."
+    }
+  ]
+}

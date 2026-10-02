@@ -19,7 +19,7 @@
       "titulo": "en:Anfield",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estádio do Morumbi",
@@ -89,14 +89,14 @@
       "titulo": "en:Panathenaic Stadium",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Arena Fonte Nova",
       "titulo": "en:Arena Fonte Nova",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estádio Mané Garrincha",
@@ -159,7 +159,7 @@
       "titulo": "en:Arthur Ashe Stadium",
       "camada": 2,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estádio Centenário",
@@ -264,7 +264,7 @@
       "titulo": "en:Melbourne Cricket Ground",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Lord's",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 0,
       "status": "reprovada"
+    },
+    {
+      "nome": "Arena do Grêmio",
+      "titulo": "en:Arena do Grêmio",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Castelão",
+      "titulo": "en:Arena Castelão",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena da Baixada",
+      "titulo": "en:Arena da Baixada",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena da Amazônia",
+      "titulo": "en:Arena da Amazônia",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Stamford Bridge",
+      "titulo": "en:Stamford Bridge (stadium)",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Emirates Stadium",
+      "titulo": "en:Emirates Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Metropolitano (Madri)",
+      "titulo": "en:Metropolitano Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio do Dragão",
+      "titulo": "en:Estádio do Dragão",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Munique",
+      "titulo": "en:Olympiastadion (Munich)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cubo d'Água",
+      "titulo": "en:Beijing National Aquatics Center",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Estádio Olímpico de Londres",
+      "titulo": "en:London Stadium",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Nacional do Japão",
+      "titulo": "en:Japan National Stadium",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Pernambuco",
+      "titulo": "en:Arena de Pernambuco",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena das Dunas",
+      "titulo": "en:Arena das Dunas",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Pantanal",
+      "titulo": "en:Arena Pantanal",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Johan Cruyff Arena",
+      "titulo": "en:Johan Cruyff Arena",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Soccer City (FNB Stadium)",
+      "titulo": "en:FNB Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rose Bowl",
+      "titulo": "en:Rose Bowl (stadium)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Roma",
+      "titulo": "en:Stadio Olimpico",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Atenas",
+      "titulo": "en:Olympic Stadium (Athens)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Sydney",
+      "titulo": "en:Stadium Australia",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Montjuïc",
+      "titulo": "en:Estadi Olímpic Lluís Companys",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Centro Aquático de Londres",
+      "titulo": "en:London Aquatics Centre",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Crypto.com Arena (Staples Center)",
+      "titulo": "en:Crypto.com Arena",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Rod Laver Arena",
+      "titulo": "en:Rod Laver Arena",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Superdome de Nova Orleans",
+      "titulo": "en:Caesars Superdome",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Mestalla",
+      "titulo": "en:Mestalla Stadium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio José Alvalade",
+      "titulo": "en:Estádio José Alvalade",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Stade Vélodrome",
+      "titulo": "en:Stade Vélodrome",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Nacional do Chile",
+      "titulo": "en:Estadio Nacional Julio Martínez Prádanos",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Couto Pereira",
+      "titulo": "en:Estádio Couto Pereira",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico de Seul",
+      "titulo": "en:Seoul Olympic Stadium",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Estádio Olímpico de Estocolmo",
+      "titulo": "en:Stockholm Olympic Stadium",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Olímpico Universitário (Cidade do México)",
+      "titulo": "en:Estadio Olímpico Universitario",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Holmenkollbakken",
+      "titulo": "en:Holmenkollbakken",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ryōgoku Kokugikan",
+      "titulo": "en:Ryōgoku Kokugikan",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio de Twickenham",
+      "titulo": "en:Twickenham Stadium",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Daytona International Speedway",
+      "titulo": "en:Daytona International Speedway",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Dodger Stadium",
+      "titulo": "en:Dodger Stadium",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lambeau Field",
+      "titulo": "en:Lambeau Field",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
     }
   ]
 }

@@ -45020,5 +45020,75 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Rafflesia_arnoldii"
     ]
+  },
+  {
+    "id": "q02698",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_panatenaico",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estádio histórico da Grécia é este?",
+    "resposta": "Estádio Panatenaico (Calimármaro)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Panathenaic_Stadium",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Panatenaico"
+    ],
+    "imagem": {
+      "arquivo": "q02698.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:GR-athen-panathinaiko-stadion.jpg",
+      "autor": "Bgabel",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02699",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "melbourne_cricket_ground",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que estádio australiano é este?",
+    "resposta": "Melbourne Cricket Ground",
+    "distratores": [
+      "Sydney Cricket Ground",
+      "Adelaide Oval",
+      "Optus Stadium"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Melbourne_Cricket_Ground",
+      "https://pt.wikipedia.org/wiki/Melbourne_Cricket_Ground"
+    ],
+    "imagem": {
+      "arquivo": "q02699.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2017_AFL_Grand_Final_panorama_during_national_anthem.jpg",
+      "autor": "Flickerd",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02700",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "cubo_d_agua",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade da Ásia fica este centro aquático?",
+    "resposta": "Pequim",
+    "distratores": [
+      "Xangai",
+      "Tóquio",
+      "Seul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Water_Cube",
+      "https://pt.wikipedia.org/wiki/Centro_Aqu%C3%A1tico_Nacional_de_Pequim"
+    ],
+    "imagem": {
+      "arquivo": "q02700.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Watercube_night.jpg",
+      "autor": "Jmex60",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]
