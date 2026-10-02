@@ -1,0 +1,242 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jubarte nítida, com nadadeira peitoral longa e tubérculos na cabeça.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que baleia é esta?",
+      "resposta": "Baleia-jubarte",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baleia-jubarte",
+        "descricao": "Baleia de barbatanas da família dos rorquais (Megaptera novaeangliae), de nadadeiras peitorais muito longas.",
+        "variantes": [
+          "Jubarte",
+          "Megaptera novaeangliae",
+          "Baleia corcunda"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dois cachalotes com a cabeça quadrada característica, bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que baleia é esta?",
+      "resposta": "Cachalote",
+      "distratores": [
+        "Baleia-franca",
+        "Baleia-azul",
+        "Baleia-cinzenta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cachalote",
+        "descricao": "Maior baleia de dentes (Physeter macrocephalus), de cabeça grande e quadrada.",
+        "variantes": [
+          "Physeter macrocephalus",
+          "Baleia-cachalote"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Caravela-portuguesa nítida em fundo branco, flutuador e tentáculos visíveis.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este animal parece uma água-viva, mas não é. Que tipo de organismo ele é?",
+      "resposta": "Sifonóforo (uma colônia de zoóides)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caravela-portuguesa",
+        "descricao": "Sifonóforo colonial (Physalia physalis) de flutuador azulado, com tentáculos urticantes.",
+        "variantes": [
+          "Physalia physalis",
+          "Fragata-portuguesa",
+          "Man o' war"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tartaruga-verde vista de cima, carapaça e cabeça bem visíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que espécie de tartaruga-marinha é esta?",
+      "resposta": "Tartaruga-verde",
+      "distratores": [
+        "Tartaruga-de-pente",
+        "Tartaruga-cabeçuda",
+        "Tartaruga-oliva"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tartaruga-verde",
+        "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+        "variantes": [
+          "Chelonia mydas",
+          "Tartaruga-aruanã"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Baiacu de padrão colorido, nítido e legível; sem espinhos, típico da família Tetraodontidae.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe é este?",
+      "resposta": "Baiacu",
+      "distratores": [
+        "Peixe-cofre",
+        "Peixe-papagaio",
+        "Peixe-cirurgião"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Baiacu",
+        "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+        "variantes": [
+          "Peixe-balão",
+          "Tetraodontidae",
+          "Fugu"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Tubarão-cobra de corpo alongado e guelras franjadas, claramente visível sobre fundo preto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão de águas profundas é este?",
+      "resposta": "Tubarão-cobra",
+      "distratores": [
+        "Tubarão-duende",
+        "Tubarão-charuto",
+        "Tubarão-de-seis-guelras"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-cobra",
+        "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+        "variantes": [
+          "Chlamydoselachus anguineus",
+          "Tubarão-de-gola"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vista aérea distante, sem características distintivas; poderia ser outro rorqual (baleia-fin, sei), resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Náutilo nítido, com concha espiralada listrada e o corpo visível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A que classe de moluscos pertence este animal?",
+      "resposta": "Cefalópodes",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Náutilo",
+        "descricao": "Cefalópode de concha externa espiralada e dividida em câmaras (Nautilus pompilius).",
+        "variantes": [
+          "Nautilus pompilius",
+          "Nautilus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ídolo-mourisco nítido, com faixas e barbatana dorsal alongada característica.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de recife é este?",
+      "resposta": "Ídolo-mourisco",
+      "distratores": [
+        "Peixe-bandeira",
+        "Peixe-borboleta",
+        "Peixe-anjo-imperador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ídolo-mourisco",
+        "descricao": "Peixe de recife indo-pacífico (Zanclus cornutus) de faixas pretas e amarelas e barbatana dorsal em filamento.",
+        "variantes": [
+          "Zanclus cornutus",
+          "Peixe-ídolo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Tubarão-branco de perto, com focinho, dentes serrilhados e dorso/ventre característicos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tubarão é este?",
+      "resposta": "Tubarão-branco",
+      "distratores": [
+        "Tubarão-mako",
+        "Tubarão-tigre",
+        "Tubarão-azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-branco",
+        "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+        "variantes": [
+          "Carcharodon carcharias",
+          "Tubarão-branco-grande"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Peixe-boi adulto com filhote, cabeça e nadadeiras bem visíveis.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mamífero aquático é este?",
+      "resposta": "Peixe-boi-marinho",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-boi-marinho",
+        "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+        "variantes": [
+          "Peixe-boi",
+          "Trichechus manatus",
+          "Manati"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem pequena e de baixa resolução, vista ventral nas mãos de uma pessoa, difícil de reconhecer e de distinguir de outras espécies de Bathynomus."
+    }
+  ]
+}

@@ -33618,5 +33618,235 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q02048",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "baleia_jubarte",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que baleia é esta?",
+    "resposta": "Baleia-jubarte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Humpback_whale",
+      "https://pt.wikipedia.org/wiki/Baleia-jubarte"
+    ],
+    "imagem": {
+      "arquivo": "q02048.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Humpback_whales_in_singing_position.jpg",
+      "autor": "Dr. Louis M. Herman.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02049",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "cachalote",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que baleia é esta?",
+    "resposta": "Cachalote",
+    "distratores": [
+      "Baleia-franca",
+      "Baleia-azul",
+      "Baleia-cinzenta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sperm_whale",
+      "https://pt.wikipedia.org/wiki/Cachalote"
+    ],
+    "imagem": {
+      "arquivo": "q02049.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mother_and_baby_sperm_whale.jpg",
+      "autor": "Gabriel Barathieu",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q02050",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "caravela_portuguesa",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Este animal parece uma água-viva, mas não é. Que tipo de hidrozoário colonial ele é?",
+    "resposta": "Sifonóforo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Portuguese_man_o%27_war",
+      "https://pt.wikipedia.org/wiki/Caravela-portuguesa"
+    ],
+    "imagem": {
+      "arquivo": "q02050.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Portuguese_Man-O-War_(Physalia_physalis).jpg",
+      "autor": "Image courtesy of Islands in the Sea 2002, NOAA/OER.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02051",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tartaruga_verde",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que espécie de tartaruga-marinha é esta?",
+    "resposta": "Tartaruga-verde",
+    "distratores": [
+      "Tartaruga-de-pente",
+      "Tartaruga-cabeçuda",
+      "Tartaruga-oliva"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Green_sea_turtle",
+      "https://pt.wikipedia.org/wiki/Tartaruga-verde"
+    ],
+    "imagem": {
+      "arquivo": "q02051.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Green_sea_turtle_(Chelonia_mydas)_Moorea.jpg",
+      "autor": "Charles J. Sharp",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02052",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "baiacu",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peixe é este?",
+    "resposta": "Baiacu",
+    "distratores": [
+      "Peixe-cofre",
+      "Peixe-papagaio",
+      "Peixe-cirurgião"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tetraodontidae",
+      "https://pt.wikipedia.org/wiki/Tetraodontidae"
+    ],
+    "imagem": {
+      "arquivo": "q02052.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Canthigaster_callisterna_(Clown_toado).jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02053",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_cobra",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tubarão de águas profundas é este?",
+    "resposta": "Tubarão-cobra",
+    "distratores": [
+      "Tubarão-duende",
+      "Tubarão-charuto",
+      "Tubarão-de-seis-guelras"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Frilled_shark",
+      "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-cobra"
+    ],
+    "imagem": {
+      "arquivo": "q02053.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Chlamydoselachus_anguineus2.jpg",
+      "autor": "This illustration was made by Citron You must credit this : Citron / CC-BY-SA-3.0",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02054",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "nautilo",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A que classe de moluscos pertence este animal?",
+    "resposta": "Cefalópodes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chambered_nautilus",
+      "https://pt.wikipedia.org/wiki/Nautilus_pompilius"
+    ],
+    "imagem": {
+      "arquivo": "q02054.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Nautilus-JB-01.jpg",
+      "autor": "J. Baecker",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02055",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "idolo_mourisco",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que peixe de recife é este?",
+    "resposta": "Ídolo-mourisco",
+    "distratores": [
+      "Peixe-bandeira",
+      "Peixe-borboleta",
+      "Peixe-anjo-imperador"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moorish_idol",
+      "https://pt.wikipedia.org/wiki/Zanclus_cornutus"
+    ],
+    "imagem": {
+      "arquivo": "q02055.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ídolo_moro_(Zanclus_cornutus),_Los_Cabos,_Baja_California,_México,_2024-12-17,_DD_54.jpg",
+      "autor": "Diego Delso",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02056",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_branco",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tubarão é este?",
+    "resposta": "Tubarão-branco",
+    "distratores": [
+      "Tubarão-mako",
+      "Tubarão-tigre",
+      "Tubarão-azul"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_white_shark",
+      "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-branco"
+    ],
+    "imagem": {
+      "arquivo": "q02056.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Carcharodon_carcharias.jpg",
+      "autor": "Sharkdiver.com",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02057",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_boi_marinho",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que mamífero aquático é este?",
+    "resposta": "Peixe-boi-marinho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/West_Indian_manatee",
+      "https://pt.wikipedia.org/wiki/Peixe-boi-marinho"
+    ],
+    "imagem": {
+      "arquivo": "q02057.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Manatee_with_calf.PD_-_colour_corrected.jpg",
+      "autor": "Galen Rathbun",
+      "licenca": "Public domain"
+    }
   }
 ]

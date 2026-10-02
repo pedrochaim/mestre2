@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que baleia é esta?",
+        "resposta": "Baleia-jubarte"
+      },
+      "existentes": [
+        {
+          "id": "q00268",
+          "pergunta": "Qual arquipélago do sul da Bahia é um dos principais berçários das baleias-jubarte no Brasil?",
+          "resposta": "Abrolhos"
+        },
+        {
+          "id": "q00269",
+          "pergunta": "Entre as baleias-jubarte, quem produz os longos e complexos cantos que tornaram a espécie famosa?",
+          "resposta": "Os machos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identificação da espécie (baleia-jubarte) a partir de uma imagem; as existentes tratam de Abrolhos como berçário e de quem canta. São fatos diferentes."
+    }
+  ]
+}
