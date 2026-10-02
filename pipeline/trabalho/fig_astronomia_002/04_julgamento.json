@@ -1,0 +1,741 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "The Blue Marble",
+        "descricao": "Fotografia da Terra tirada em 7 de dezembro de 1972 pela tripulação da Apollo 17.",
+        "variantes": [
+          "A Bolinha Azul (Blue Marble)",
+          "Bolinha Azul",
+          "Blue Marble",
+          "AS17-148-22727"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "bob_marley",
+          "nome": "Bob Marley",
+          "descricao": "Cantor e compositor jamaicano de reggae, líder dos Wailers",
+          "variantes": [
+            "Robert Nesta Marley"
+          ]
+        },
+        {
+          "id": "cebolinha",
+          "nome": "Cebolinha",
+          "descricao": "Menino de cinco fios de cabelo que troca o R pelo L, rival da Mônica na Turma da Mônica.",
+          "variantes": [
+            "Cebola",
+            "Cebolácio Júnior Menezes da Silva"
+          ]
+        },
+        {
+          "id": "arara_caninde",
+          "nome": "Arara-canindé",
+          "descricao": "Grande arara (Ara ararauna) de dorso azul, barriga amarelo-alaranjada, garganta preta e face branca listrada.",
+          "variantes": [
+            "Arara-azul-e-amarela",
+            "Arara-de-barriga-amarela",
+            "Blue-and-yellow macaw",
+            "Ara ararauna"
+          ]
+        },
+        {
+          "id": "buenos_aires",
+          "nome": "Buenos Aires",
+          "descricao": "Capital da Argentina, às margens do Rio da Prata.",
+          "variantes": [
+            "Santa María del Buen Ayre"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Nebulosa Cabeça de Cavalo",
+        "descricao": "Nebulosa escura na constelação de Órion, também chamada Barnard 33, com formato de cabeça de cavalo.",
+        "variantes": [
+          "Barnard 33",
+          "B33",
+          "Horsehead Nebula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bernard_rajzman",
+          "nome": "Bernard Rajzman",
+          "descricao": "Ex-jogador brasileiro de vôlei, medalha de prata nos Jogos de Los Angeles em 1984.",
+          "variantes": [
+            "Bernard"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "nebulosa_do_olho_de_gato",
+          "nome": "Nebulosa do Olho de Gato",
+          "descricao": "Nebulosa planetária NGC 6543, na constelação do Dragão.",
+          "variantes": [
+            "NGC 6543",
+            "Cat's Eye Nebula",
+            "Caldwell 6"
+          ]
+        },
+        {
+          "id": "a_criacao_de_adao",
+          "nome": "A Criação de Adão",
+          "descricao": "Afresco de Michelangelo no teto da Capela Sistina.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nebulosa do Anel",
+        "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+        "variantes": [
+          "Messier 57",
+          "M57",
+          "NGC 6720",
+          "Ring Nebula"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "galaxia_do_rodamoinho",
+          "nome": "Galáxia do Rodamoinho",
+          "descricao": "Galáxia espiral Messier 51, em Cães de Caça, que interage com a companheira NGC 5195.",
+          "variantes": [
+            "Galáxia do Redemoinho",
+            "Messier 51",
+            "M51",
+            "NGC 5194",
+            "Whirlpool Galaxy"
+          ]
+        },
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "galaxia_do_sombrero",
+          "nome": "Galáxia do Sombrero",
+          "descricao": "Galáxia Messier 104, nas fronteiras de Virgem e Corvo, vista quase de perfil.",
+          "variantes": [
+            "Galáxia do Sombreiro",
+            "Messier 104",
+            "M104",
+            "NGC 4594",
+            "Sombrero Galaxy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "M87*",
+        "descricao": "Buraco negro supermassivo no centro da galáxia Messier 87, fotografado pelo Event Horizon Telescope e divulgado em 2019.",
+        "variantes": [
+          "Buraco negro",
+          "Messier 87*",
+          "Buraco negro de M87",
+          "Primeira imagem de um buraco negro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_do_caranguejo",
+          "nome": "Nebulosa do Caranguejo",
+          "descricao": "Remanescente da supernova de 1054, na constelação de Touro, também chamada Messier 1.",
+          "variantes": [
+            "Messier 1",
+            "M1",
+            "NGC 1952",
+            "Crab Nebula"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "galaxia_do_rodamoinho",
+          "nome": "Galáxia do Rodamoinho",
+          "descricao": "Galáxia espiral Messier 51, em Cães de Caça, que interage com a companheira NGC 5195.",
+          "variantes": [
+            "Galáxia do Redemoinho",
+            "Messier 51",
+            "M51",
+            "NGC 5194",
+            "Whirlpool Galaxy"
+          ]
+        },
+        {
+          "id": "quadrado_negro",
+          "nome": "Quadrado Negro",
+          "descricao": "Quadro suprematista de Kazimir Malevich de 1915.",
+          "variantes": []
+        },
+        {
+          "id": "galaxia_do_sombrero",
+          "nome": "Galáxia do Sombrero",
+          "descricao": "Galáxia Messier 104, nas fronteiras de Virgem e Corvo, vista quase de perfil.",
+          "variantes": [
+            "Galáxia do Sombreiro",
+            "Messier 104",
+            "M104",
+            "NGC 4594",
+            "Sombrero Galaxy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Voyager 1",
+        "descricao": "Sonda espacial da NASA lançada em 1977, objeto humano mais distante da Terra; gêmea da Voyager 2.",
+        "variantes": [
+          "Voyager",
+          "Sonda Voyager",
+          "Voyager 2"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volkswagen_sp2",
+          "nome": "Volkswagen SP2",
+          "descricao": "Esportivo fabricado pela Volkswagen do Brasil de 1972 a 1975, baseado no chassi do Volkswagen Tipo 3.",
+          "variantes": [
+            "SP2",
+            "VW SP2"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Very Large Telescope",
+        "descricao": "Observatório do ESO em Cerro Paranal, no deserto do Atacama, com quatro telescópios de 8,2 metros.",
+        "variantes": [
+          "VLT",
+          "Telescópio Muito Grande"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        },
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "constantino",
+          "nome": "Constantino",
+          "descricao": "Imperador romano de 306 a 337, o primeiro a se converter ao cristianismo.",
+          "variantes": [
+            "Constantino I",
+            "Constantino, o Grande",
+            "Constantine the Great"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Marcos Pontes",
+        "descricao": "Astronauta, engenheiro e piloto brasileiro, primeiro brasileiro a ir ao espaço, em 2006.",
+        "variantes": [
+          "Marcos Cesar Pontes",
+          "Tenente-coronel Pontes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "marco_polo",
+          "nome": "Marco Polo",
+          "descricao": "Mercador e viajante veneziano do século treze que viveu anos na China mongol.",
+          "variantes": []
+        },
+        {
+          "id": "carlos_gomes",
+          "nome": "Carlos Gomes",
+          "descricao": "Compositor brasileiro de óperas (1836–1896), autor de O Guarani.",
+          "variantes": [
+            "Antônio Carlos Gomes"
+          ]
+        },
+        {
+          "id": "raio_x",
+          "nome": "Raio X",
+          "descricao": "Radiação eletromagnética de alta energia usada em radiografias.",
+          "variantes": [
+            "Raios X",
+            "Raios Röntgen",
+            "X-ray"
+          ]
+        },
+        {
+          "id": "rinoceronte",
+          "nome": "Rinoceronte",
+          "descricao": "Grandes mamíferos herbívoros com chifre no focinho, da família Rhinocerotidae.",
+          "variantes": [
+            "Rhinoceros",
+            "Rhinocerotidae"
+          ]
+        },
+        {
+          "id": "galego_portugues",
+          "nome": "Galego-português",
+          "descricao": "Língua românica medieval falada no noroeste da Península Ibérica, origem do português e do galego",
+          "variantes": [
+            "Galaico-português",
+            "Português arcaico"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Europa (lua)",
+        "descricao": "Lua gelada de Júpiter, a menor das quatro luas galileanas, com superfície lisa e fissurada.",
+        "variantes": [
+          "Europa",
+          "Júpiter II"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jupiter",
+          "nome": "Júpiter",
+          "descricao": "Quinto planeta a partir do Sol, o maior do Sistema Solar.",
+          "variantes": []
+        },
+        {
+          "id": "aurora_polar",
+          "nome": "Aurora polar",
+          "descricao": "Fenômeno luminoso no céu das regiões polares, chamado de aurora boreal no norte e de aurora austral no sul.",
+          "variantes": [
+            "Aurora boreal",
+            "Aurora austral",
+            "Aurora"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "utopia",
+          "nome": "Utopia",
+          "descricao": "Ilha imaginária com uma sociedade ideal, descrita no livro de mesmo nome publicado em 1516.",
+          "variantes": [
+            "Utopia (livro)",
+            "Ilha de Utopia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Ingenuity",
+        "descricao": "Helicóptero autônomo da NASA que voou em Marte entre 2021 e 2024, levado pelo rover Perseverance.",
+        "variantes": [
+          "Ginny",
+          "Mars Helicopter Ingenuity"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gim",
+          "nome": "Gim",
+          "descricao": "Bebida destilada aromatizada com botânicos, base de coquetéis como o gim-tônica",
+          "variantes": [
+            "Gin",
+            "Genebra"
+          ]
+        },
+        {
+          "id": "pinguim",
+          "nome": "Pinguim",
+          "descricao": "Oswald Cobblepot, vilão da DC Comics e inimigo do Batman.",
+          "variantes": [
+            "Penguin",
+            "Oswald Cobblepot"
+          ]
+        },
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        },
+        {
+          "id": "kenny_mccormick",
+          "nome": "Kenny McCormick",
+          "descricao": "Menino de capuz laranja de South Park, famoso por morrer em quase todo episódio das primeiras temporadas.",
+          "variantes": [
+            "Kenny",
+            "Mysterion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Ônibus espacial",
+        "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+        "variantes": [
+          "Space Shuttle",
+          "Space Transportation System",
+          "STS",
+          "Shuttle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volante_badminton",
+          "nome": "Volante (badminton)",
+          "descricao": "Peteca de penas usada no badminton.",
+          "variantes": [
+            "Shuttlecock",
+            "Peteca de badminton"
+          ]
+        },
+        {
+          "id": "squirtle",
+          "nome": "Squirtle",
+          "descricao": "Pokémon do tipo Água, número 7 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "estacao_espacial_internacional",
+          "nome": "Estação Espacial Internacional",
+          "descricao": "Laboratório espacial habitado em órbita baixa da Terra, construído por várias agências espaciais.",
+          "variantes": [
+            "ISS",
+            "EEI",
+            "International Space Station"
+          ]
+        },
+        {
+          "id": "estribo",
+          "nome": "Estribo",
+          "descricao": "Ossículo do ouvido médio que transmite vibrações à orelha interna.",
+          "variantes": [
+            "Stapes"
+          ]
+        },
+        {
+          "id": "telescopio_espacial_hubble",
+          "nome": "Telescópio Espacial Hubble",
+          "descricao": "Telescópio espacial da NASA e da ESA em órbita baixa da Terra, lançado em 1990.",
+          "variantes": [
+            "Hubble",
+            "HST",
+            "Hubble Space Telescope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Grande Nuvem de Magalhães",
+        "descricao": "Galáxia anã satélite da Via Láctea, visível do Hemisfério Sul, a cerca de 163 mil anos-luz.",
+        "variantes": [
+          "LMC",
+          "Large Magellanic Cloud",
+          "Nuvem Maior de Magalhães"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_clube_do_mickey",
+          "nome": "O Clube do Mickey",
+          "descricao": "Programa infantil de variedades da Disney exibido de 1989 a 1994 com o título The All-New Mickey Mouse Club",
+          "variantes": [
+            "The All-New Mickey Mouse Club",
+            "MMC"
+          ]
+        },
+        {
+          "id": "a_grande_onda_de_kanagawa",
+          "nome": "A Grande Onda de Kanagawa",
+          "descricao": "Xilogravura de Katsushika Hokusai, de cerca de 1831.",
+          "variantes": [
+            "The Great Wave off Kanagawa"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "grande_mancha_vermelha",
+          "nome": "Grande Mancha Vermelha",
+          "descricao": "Tempestade anticiclônica gigante e persistente na atmosfera de Júpiter.",
+          "variantes": [
+            "Great Red Spot",
+            "Mancha Vermelha de Júpiter"
+          ]
+        },
+        {
+          "id": "grande_incendio_de_roma",
+          "nome": "Grande Incêndio de Roma",
+          "descricao": "Incêndio que destruiu grande parte de Roma no ano 64, durante o governo de Nero.",
+          "variantes": [
+            "Incêndio de Roma",
+            "Great Fire of Rome"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Hipérion",
+        "descricao": "Lua de Saturno de forma irregular, rotação caótica e aparência de esponja.",
+        "variantes": [
+          "Hyperion",
+          "Saturno VII"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "saturno",
+          "nome": "Saturno",
+          "descricao": "Sexto planeta a partir do Sol, gigante gasoso famoso pelos anéis.",
+          "variantes": [
+            "Saturn"
+          ]
+        },
+        {
+          "id": "kenny_mccormick",
+          "nome": "Kenny McCormick",
+          "descricao": "Menino de capuz laranja de South Park, famoso por morrer em quase todo episódio das primeiras temporadas.",
+          "variantes": [
+            "Kenny",
+            "Mysterion"
+          ]
+        },
+        {
+          "id": "hiena_malhada",
+          "nome": "Hiena-malhada",
+          "descricao": "Maior hiena atual, de pelagem manchada, da África subsaariana (Crocuta crocuta).",
+          "variantes": [
+            "Crocuta crocuta",
+            "Hiena-pintada",
+            "Hiena-risonha",
+            "Spotted hyena"
+          ]
+        },
+        {
+          "id": "lago_superior",
+          "nome": "Lago Superior",
+          "descricao": "Um dos cinco Grandes Lagos da América do Norte, na fronteira entre os Estados Unidos e o Canadá.",
+          "variantes": [
+            "Lake Superior",
+            "Superior"
+          ]
+        },
+        {
+          "id": "ziper",
+          "nome": "Zíper",
+          "descricao": "Fecho deslizante de dentes intercalados usado em roupas, bolsas e calçados",
+          "variantes": [
+            "Zipper",
+            "Fecho éclair",
+            "Fecho de correr"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Fotografia da Terra; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nebulosa escura distinta das outras nebulosas candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "M57 não está entre as candidatas; são objetos diferentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Buraco negro de M87 é distinto das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Sonda espacial; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "VLT é um observatório distinto do Hubble e do conceito genérico de telescópio."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Astronauta brasileiro; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Lua Europa é distinta de Júpiter e da Lua."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Helicóptero em Marte; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Ônibus espacial é distinto da ISS e do Hubble."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Galáxia anã; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Lua Hipérion é distinta de Saturno."
+    }
+  ]
+}

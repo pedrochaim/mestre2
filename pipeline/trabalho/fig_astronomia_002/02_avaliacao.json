@@ -1,0 +1,271 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto icônica, sem texto, Terra reconhecível. Pergunta sobre a missão que a tirou.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Esta famosa fotografia foi tirada pela tripulação de qual missão espacial, a caminho da Lua?",
+      "resposta": "Apollo 17",
+      "ancora": {
+        "nome": "The Blue Marble",
+        "descricao": "Fotografia da Terra tirada em 7 de dezembro de 1972 pela tripulação da Apollo 17.",
+        "variantes": [
+          "Bolinha Azul",
+          "Blue Marble",
+          "AS17-148-22727"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Nebulosa escura inconfundível, sem texto. Pergunta de nível 3 sobre a estrela vizinha.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Logo ao sul de uma estrela do Cinturão de Órion fica esta nebulosa. Que estrela é essa?",
+      "resposta": "Alnitak",
+      "ancora": {
+        "nome": "Nebulosa Cabeça de Cavalo",
+        "descricao": "Nebulosa escura na constelação de Órion, também chamada Barnard 33, com formato de cabeça de cavalo.",
+        "variantes": [
+          "Barnard 33",
+          "B33",
+          "Horsehead Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Nebulosa do Anel nítida e sem texto. Múltipla escolha deixa a categoria justa.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que tipo de nebulosa é esta?",
+      "resposta": "Planetária",
+      "distratores": [
+        "De reflexão",
+        "Escura",
+        "Remanescente de supernova"
+      ],
+      "ancora": {
+        "nome": "Nebulosa do Anel",
+        "descricao": "Nebulosa planetária na constelação de Lira, catalogada como Messier 57.",
+        "variantes": [
+          "Messier 57",
+          "M57",
+          "NGC 6720",
+          "Ring Nebula"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem do Event Horizon Telescope (M87*), famosa e sem texto. Evitei a pergunta pela galáxia, pois a imagem de Sagitário A* é parecida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que objeto astronômico é este, registrado pela primeira vez numa imagem em 2019?",
+      "resposta": "Buraco negro",
+      "ancora": {
+        "nome": "M87*",
+        "descricao": "Buraco negro supermassivo no centro da galáxia Messier 87, fotografado pelo Event Horizon Telescope e divulgado em 2019.",
+        "variantes": [
+          "Messier 87*",
+          "Buraco negro de M87",
+          "Primeira imagem de um buraco negro"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ilustração oficial da NASA, sem texto, sonda reconhecível. Voyager 1 e 2 são idênticas na figura, então a resposta é o nome da sonda.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que sonda espacial da NASA é esta?",
+      "resposta": "Voyager",
+      "ancora": {
+        "nome": "Voyager 1",
+        "descricao": "Sonda espacial da NASA lançada em 1977, objeto humano mais distante da Terra; gêmea da Voyager 2.",
+        "variantes": [
+          "Voyager",
+          "Sonda Voyager",
+          "Voyager 2"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto aérea nítida dos quatro telescópios principais e um auxiliar, sem texto. Múltipla com observatórios de aspecto parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que observatório astronômico é este?",
+      "resposta": "Very Large Telescope",
+      "distratores": [
+        "Observatório Keck",
+        "Observatório Gemini",
+        "Telescópio Subaru"
+      ],
+      "ancora": {
+        "nome": "Very Large Telescope",
+        "descricao": "Observatório do ESO em Cerro Paranal, no deserto do Atacama, com quatro telescópios de 8,2 metros.",
+        "variantes": [
+          "VLT",
+          "Telescópio Muito Grande"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Figura pública, retrato nítido; o patch Expedition 13 não entrega a resposta. A pergunta depende de reconhecê-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que nave espacial este astronauta chegou à Estação Espacial Internacional?",
+      "resposta": "Soyuz TMA-8",
+      "ancora": {
+        "nome": "Marcos Pontes",
+        "descricao": "Astronauta, engenheiro e piloto brasileiro, primeiro brasileiro a ir ao espaço, em 2006.",
+        "variantes": [
+          "Marcos Cesar Pontes",
+          "Tenente-coronel Pontes"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clássica da Galileo, sem texto, com a rede de fissuras característica. Múltipla entre as luas galileanas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que lua de Júpiter é esta?",
+      "resposta": "Europa",
+      "distratores": [
+        "Io",
+        "Ganimedes",
+        "Calisto"
+      ],
+      "ancora": {
+        "nome": "Europa (lua)",
+        "descricao": "Lua gelada de Júpiter, a menor das quatro luas galileanas, com superfície lisa e fissurada.",
+        "variantes": [
+          "Europa",
+          "Júpiter II"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida, fundo branco, sem texto, forma única de helicóptero com rotores duplos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que veículo da NASA é este?",
+      "resposta": "Ingenuity",
+      "distratores": [
+        "Perseverance",
+        "Curiosity",
+        "Sojourner"
+      ],
+      "ancora": {
+        "nome": "Ingenuity",
+        "descricao": "Helicóptero autônomo da NASA que voou em Marte entre 2021 e 2024, levado pelo rover Perseverance.",
+        "variantes": [
+          "Ginny",
+          "Mars Helicopter Ingenuity"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Lançamento reconhecível. O texto visível é o nome do orbitador, não a resposta, pois a pergunta é pelo tipo de nave.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que tipo de nave da NASA é esta?",
+      "resposta": "Ônibus espacial",
+      "ancora": {
+        "nome": "Ônibus espacial",
+        "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+        "variantes": [
+          "Space Shuttle",
+          "Space Transportation System",
+          "STS",
+          "Shuttle"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto com barra e região de formação estelar visíveis, sem texto. Múltipla com a galáxia vizinha mais parecida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que galáxia é esta?",
+      "resposta": "Grande Nuvem de Magalhães",
+      "distratores": [
+        "Pequena Nuvem de Magalhães",
+        "Galáxia de Andrômeda",
+        "Galáxia do Triângulo"
+      ],
+      "ancora": {
+        "nome": "Grande Nuvem de Magalhães",
+        "descricao": "Galáxia anã satélite da Via Láctea, visível do Hemisfério Sul, a cerca de 163 mil anos-luz.",
+        "variantes": [
+          "LMC",
+          "Large Magellanic Cloud",
+          "Nuvem Maior de Magalhães"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem da Cassini sem texto, aspecto de esponja inconfundível. Múltipla entre outras luas de Saturno.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que lua de Saturno é esta?",
+      "resposta": "Hipérion",
+      "distratores": [
+        "Febe",
+        "Mimas",
+        "Prometeu"
+      ],
+      "ancora": {
+        "nome": "Hipérion",
+        "descricao": "Lua de Saturno de forma irregular, rotação caótica e aparência de esponja.",
+        "variantes": [
+          "Hyperion",
+          "Saturno VII"
+        ]
+      }
+    }
+  ]
+}
