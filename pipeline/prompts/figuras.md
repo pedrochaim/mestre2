@@ -22,6 +22,7 @@ Você escreve as perguntas com figura do Mestre2, um jogo de quiz em que o quest
 3. Se aprovar, escreva **uma** pergunta:
    - siga a **família** e o **nível** sugeridos (`familia_sugerida`, `nivel_sugerido`); troque por outra família permitida só se a sugerida não render uma boa pergunta para esta imagem;
    - o enunciado é **curto**, aponta para a figura ("esta", "este") e **nunca nomeia o que aparece nela**;
+   - **teste da imagem coberta:** leia o enunciado sem a imagem. Se dá para responder, a pista entrega a resposta: tire-a. Apelidos famosos ("Chanceler de Ferro", "Rainha"), definições ("o único satélite natural da Terra"), ingredientes ou funções que descrevem a resposta ("feijão preto e carnes", "para observar objetos minúsculos") e feitos únicos ("primeira patente do telefone") entregam. A época, o país ou o grupo ("pintor holandês do século dezessete", "felino africano") ajudam sem entregar. Na dúvida, sem pista;
    - nível 1 (reconhecer): pergunta direta, em geral `aberta`; nível 2 (distinguir): em geral `multipla`, com distratores do mesmo tipo e **visualmente parecidos**; nível 3 (ir além): um passo de conhecimento depois de reconhecer, sustentado pelo `trecho` ou amplamente documentado;
    - a resposta é **específica** e no português do Brasil (pokémon: o nome em inglês);
    - em `multipla`, exatamente **3 distratores**, de no máximo 4 palavras, nenhum deles também correto para a imagem;

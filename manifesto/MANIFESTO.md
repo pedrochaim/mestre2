@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.41 — 2026-10-02**
+> **Versão preliminar 0.42 — 2026-10-02**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -166,7 +166,7 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 > **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
 
 - **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
-- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que ajude, desde que não entregue a resposta.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
 - **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
 - **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
 - **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
@@ -595,7 +595,8 @@ Também: o custo das chamadas de figura era registrado em `consumo.jsonl` com o 
 - [ ] **Acesso ao app** (§16): hoje não há login, e quem conhece o código de uma partida pode alterá-la. Rever se o app sair do círculo de amigos.
 - [x] **Arte oficial num site público** (§6): decidido em 2026-10-01 que a arte oficial é aceita enquanto o jogo não tiver fins comerciais. Rever se isso mudar.
 - [ ] **Repositório dentro do Dropbox:** o autopiloto faz um commit a cada lote, e o Dropbox sincroniza a pasta `.git` ao mesmo tempo. Se outra máquina abrir o projeto, há risco de conflito no repositório. Considerar mover o repositório para fora do Dropbox.
-- [ ] **Pista que entrega a resposta nas perguntas com figura** (§13): foi o defeito mais comum na recrítica. Reforçar no `prompts/figuras.md` que a pista do enunciado ajuda a distinguir, mas não identifica sozinha. Avaliar a recrítica das 185 figuras feitas à mão.
+- [x] **Pista que entrega a resposta nas perguntas com figura** (§13): reforçado em 2026-10-02 no §6 ("cubra a imagem"), no `prompts/figuras.md` e no `prompts/criticar_figuras.md`.
+- [ ] **Recrítica das 185 figuras feitas à mão**, que nunca passaram pela crítica.
 - [ ] **Reescrita sem nova crítica:** a reescrita do crítico não volta para a crítica e não atualiza a âncora, mesmo que mude o assunto. Medir quantas reescritas mudam a resposta antes de decidir.
 - [ ] **Regra "`conexao` + `nome` ≥ 20% por subtema"** (§9): ainda não é medida pelo relatório.
 - [ ] **Limpeza de partidas antigas** (§16): as regras não permitem apagar partidas, que se acumulam no Firestore. Partidas de teste das v0.10 e v0.11 ainda têm o campo `tabuleiro`, sem uso.
@@ -875,6 +876,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.42 | 2026-10-02 | Perguntas com figura: a pista do enunciado ajuda a distinguir, mas não identifica sozinha; teste "cubra a imagem", com exemplos da recrítica (§6) |
 | 0.41 | 2026-10-02 | Modo Trilha da Vida no app: escolha do modo na criação, mapa no estilo Slay the Spire, profissões, personalidades, cartas e turno guiado; regras do Firestore ampliadas (§15, §16) |
 | 0.40 | 2026-10-01 | Modos de jogo: o tabuleiro atual passa a ser o Modo Master, que continua em desenvolvimento; o Modo Trilha da Vida, inspirado no *Jogo da Vida*, entra em concepção num documento próprio (§15) |
 | 0.39 | 2026-10-01 | Montagem de uma única obra (cenas ou elenco, sem texto) é aceita; primeiro lote de cenas de filmes e séries (§6) |
