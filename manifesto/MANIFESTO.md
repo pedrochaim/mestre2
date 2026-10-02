@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.43 — 2026-10-02**
+> **Versão preliminar 0.44 — 2026-10-02**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -831,7 +831,7 @@ Um assunto está saturado quando já há perguntas demais apontando para a mesma
 
 A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/README.md`):
 - **`pipeline/plano.json`:** as metas desta seção, a orientação de cada subtema para as encomendas e os catálogos de figura.
-- **`pipeline/autopiloto.py`:** roda sozinho, fora de qualquer conversa. Escolhe o próximo trabalho pelo maior déficit (texto ou figura; subtema pelo déficit absoluto, catálogo pelo déficit relativo à sua meta), cria a encomenda, executa, exporta e faz um commit local. **Quando a cota do plano acaba, espera até o horário de liberação informado na mensagem ("resets 6:10pm") e retoma da mesma etapa.** Só mensagens de cota ou sobrecarga contam como cota; um tempo limite ou outro erro conta como falha, e três falhas seguidas pausam o subtema ou catálogo. Pausa subtemas que rendem pouco e catálogos esgotados. Para parar, cria-se o arquivo `pipeline/PARAR`. Push e deploy, só com a opção `--publicar`.
+- **`pipeline/autopiloto.py`:** roda sozinho, fora de qualquer conversa. Escolhe o próximo trabalho pelo maior déficit (texto ou figura; subtema pelo déficit absoluto, catálogo pelo déficit relativo à sua meta), cria a encomenda, executa, exporta e faz um commit local. **Quando a cota do plano acaba, espera até o horário de liberação informado na mensagem ("resets 6:10pm") e retoma da mesma etapa.** **Ele usa no máximo 95% da sessão de 5 horas** (desde 2026-10-02): ao chegar a esse uso, informado pelo próprio Claude Code a cada chamada, espera a sessão renovar, para deixar uma folga para o uso interativo. Só mensagens de cota ou sobrecarga contam como cota; um tempo limite ou outro erro conta como falha, e três falhas seguidas pausam o subtema ou catálogo. Pausa subtemas que rendem pouco e catálogos esgotados. Para parar, cria-se o arquivo `pipeline/PARAR`. Push e deploy, só com a opção `--publicar`.
 - **`pipeline/figuras.py`:** a etapa de figuras, com curadoria dos catálogos pelo LLM, imagem do Wikidata ou do PokéAPI, avaliação pelo Sonnet, que abre cada imagem, e crítica do texto. No primeiro teste (4 bandeiras), as 4 entraram, a cerca de 4 centavos por pergunta.
 - **Saturação:** no máximo 3 perguntas por âncora no banco inteiro e 2 com figura; o gerador recebe as âncoras já muito usadas do tema; uma pergunta nova sobre âncora que já tem perguntas é comparada com elas pelo LLM.
 
@@ -893,6 +893,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.44 | 2026-10-02 | Autopiloto usa no máximo 95% da sessão de 5 horas e espera a renovação (§17) |
 | 0.43 | 2026-10-02 | Terceiro modo de jogo, **Linear** (protótipo): trilha única de 60 casas em faixa ondulada de 4 fileiras, 50 casas de tema em ciclo e 8 casas especiais com ações a definir; no app, como terceira opção de nova partida |
 | 0.42 | 2026-10-02 | Perguntas com figura: a pista do enunciado ajuda a distinguir, mas não identifica sozinha; teste "cubra a imagem", com exemplos da recrítica (§6) |
 | 0.41 | 2026-10-02 | Modo Trilha da Vida no app: escolha do modo na criação, mapa no estilo Slay the Spire, profissões, personalidades, cartas e turno guiado; regras do Firestore ampliadas (§15, §16) |

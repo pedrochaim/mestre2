@@ -29,6 +29,7 @@ sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
 sys.stderr.reconfigure(encoding="utf-8")
 
 import banco as bc  # noqa: E402
+import claude_cli  # noqa: E402
 import figuras  # noqa: E402
 import popularidade  # noqa: E402
 import rodar  # noqa: E402
@@ -258,7 +259,10 @@ def main():
     ap.add_argument("--so-figuras", action="store_true")
     ap.add_argument("--publicar", type=int, default=0, help="push e deploy a cada N trabalhos (0 = nunca)")
     ap.add_argument("--status", action="store_true")
+    ap.add_argument("--limite-sessao", type=float, default=95,
+                    help="uso máximo da sessão de 5 horas, em %%, antes de esperar a renovação (100 = até a cota acabar)")
     args = ap.parse_args()
+    claude_cli.LIMITE_SESSAO = None if args.limite_sessao >= 100 else args.limite_sessao / 100
     so = "texto" if args.so_texto else "figuras" if args.so_figuras else None
 
     canon = carregar_canon()
@@ -270,11 +274,14 @@ def main():
         st = ler_json(STATUS)
         if st:
             print("Autopiloto:", json.dumps(st, ensure_ascii=False))
+        uso = claude_cli.uso_da_sessao()
+        if uso:
+            print(f"Sessão de 5 horas: {uso[0]:.0%} usados; renova às {dt.datetime.fromtimestamp(uso[1]):%H:%M}")
         return
 
     trava()
     feitos, falhas = 0, {}
-    diario("inicio", pid=os.getpid(), max=args.max, so=so)
+    diario("inicio", pid=os.getpid(), max=args.max, so=so, limite_sessao=claude_cli.LIMITE_SESSAO)
     try:
         while True:
             if PARAR.exists():
