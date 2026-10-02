@@ -1,0 +1,93 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. Machado viveu de 1839 a 1908 e produziu a obra principal no século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As Quatro Estações é de Vivaldi, como confirmam os trechos. Os distratores são obras de Handel e Bach, do mesmo período e do mesmo tipo, e nenhum é de Vivaldi. O enunciado não entrega o autor.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Com 'norueguês' no enunciado e distratores de autores russo e italiano, dá para responder por eliminação sem olhar a figura. Basta tirar a nacionalidade. Casa de Bonecas está nos trechos como obra de Ibsen.",
+      "reescrita": {
+        "pergunta": "Qual destas peças de teatro foi escrita por este dramaturgo?",
+        "resposta": "Casa de Bonecas",
+        "distratores": [
+          "A Gaivota",
+          "Tio Vânia",
+          "Seis Personagens"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o filósofo. O marxismo é a corrente que leva o nome de Marx, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são escritores franceses do século dezenove e nenhum descreve a imagem. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Festival anual dedicado às óperas deste compositor' em cidade alemã leva a Bayreuth sem ver a figura, então a figura vira enfeite. A pergunta passa a pedir o reconhecimento do retratado.",
+      "reescrita": {
+        "pergunta": "Que compositor alemão do século dezenove é este?",
+        "resposta": "Richard Wagner"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores de poetas portugueses. Nenhum é Pessoa, e o enunciado não entrega o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Carlos Gomes nasceu em 1836 e morreu em 1896, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Discípulo que imortalizou suas conversas em diálogos' leva a Platão sem ver o busto. Xenofonte também escreveu diálogos socráticos. A reescrita pede o discípulo do retratado entre filósofos que não foram discípulos de Sócrates.",
+      "reescrita": {
+        "pergunta": "Qual destes filósofos gregos foi discípulo do filósofo retratado neste busto?",
+        "resposta": "Platão",
+        "distratores": [
+          "Aristóteles",
+          "Epicuro",
+          "Heráclito"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de nível um, sem vazamento. Tolstói é um escritor russo.",
+      "reescrita": null
+    }
+  ]
+}

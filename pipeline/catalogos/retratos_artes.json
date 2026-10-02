@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Machado de Assis",
+      "titulo": "en:Machado de Assis",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Monteiro Lobato",
+      "titulo": "en:Monteiro Lobato",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Clarice Lispector",
+      "titulo": "en:Clarice Lispector",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carlos Drummond de Andrade",
+      "titulo": "en:Carlos Drummond de Andrade",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "William Shakespeare",
+      "titulo": "en:William Shakespeare",
+      "camada": 1,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Luís de Camões",
+      "titulo": "en:Luís de Camões",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fernando Pessoa",
+      "titulo": "en:Fernando Pessoa",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Ludwig van Beethoven",
+      "titulo": "en:Ludwig van Beethoven",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Wolfgang Amadeus Mozart",
+      "titulo": "en:Wolfgang Amadeus Mozart",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Johann Sebastian Bach",
+      "titulo": "en:Johann Sebastian Bach",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Friedrich Nietzsche",
+      "titulo": "en:Friedrich Nietzsche",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Karl Marx",
+      "titulo": "en:Karl Marx",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Sócrates",
+      "titulo": "en:Socrates",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Castro Alves",
+      "titulo": "en:Castro Alves",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "José de Alencar",
+      "titulo": "en:José de Alencar",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Olavo Bilac",
+      "titulo": "en:Olavo Bilac",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Jorge Amado",
+      "titulo": "en:Jorge Amado",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Victor Hugo",
+      "titulo": "en:Victor Hugo",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Franz Kafka",
+      "titulo": "en:Franz Kafka",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Liev Tolstói",
+      "titulo": "en:Leo Tolstoy",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Edgar Allan Poe",
+      "titulo": "en:Edgar Allan Poe",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Frédéric Chopin",
+      "titulo": "en:Frédéric Chopin",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Antonio Vivaldi",
+      "titulo": "en:Antonio Vivaldi",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Piotr Ilitch Tchaikovsky",
+      "titulo": "en:Pyotr Ilyich Tchaikovsky",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Heitor Villa-Lobos",
+      "titulo": "en:Heitor Villa-Lobos",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "René Descartes",
+      "titulo": "en:René Descartes",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Giuseppe Verdi",
+      "titulo": "en:Giuseppe Verdi",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Lima Barreto",
+      "titulo": "en:Lima Barreto",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Euclides da Cunha",
+      "titulo": "en:Euclides da Cunha",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gonçalves Dias",
+      "titulo": "en:Gonçalves Dias",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cruz e Sousa",
+      "titulo": "en:João da Cruz e Sousa",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fiódor Dostoiévski",
+      "titulo": "en:Fyodor Dostoevsky",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Oscar Wilde",
+      "titulo": "en:Oscar Wilde",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arthur Schopenhauer",
+      "titulo": "en:Arthur Schopenhauer",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Søren Kierkegaard",
+      "titulo": "en:Søren Kierkegaard",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Immanuel Kant",
+      "titulo": "en:Immanuel Kant",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Richard Wagner",
+      "titulo": "en:Richard Wagner",
+      "camada": 3,
+      "destino": 4,
+      "status": "usada"
+    },
+    {
+      "nome": "Giacomo Puccini",
+      "titulo": "en:Giacomo Puccini",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Henrik Ibsen",
+      "titulo": "en:Henrik Ibsen",
+      "camada": 3,
+      "destino": 4,
+      "status": "usada"
+    },
+    {
+      "nome": "Carlos Gomes",
+      "titulo": "en:Antônio Carlos Gomes",
+      "camada": 3,
+      "destino": 4,
+      "status": "usada"
+    }
+  ]
+}

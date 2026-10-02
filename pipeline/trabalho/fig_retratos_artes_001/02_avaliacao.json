@@ -1,0 +1,228 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto clara, sem texto, retrato muito conhecido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escritor brasileiro do século dezenove é este?",
+      "resposta": "Machado de Assis",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Machado de Assis",
+        "descricao": "Escritor brasileiro (1839–1908), fundador da Academia Brasileira de Letras, autor de Dom Casmurro.",
+        "variantes": [
+          "Joaquim Maria Machado de Assis",
+          "Bruxo do Cosme Velho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato a óleo com violino e partitura, sem texto legível; pista visual coerente com a pergunta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi composta por este músico barroco?",
+      "resposta": "As Quatro Estações",
+      "distratores": [
+        "Música Aquática",
+        "Concertos de Brandemburgo",
+        "Cantata do Café"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Antonio Vivaldi",
+        "descricao": "Compositor e violinista barroco italiano de Veneza (1678–1741), autor de As Quatro Estações.",
+        "variantes": [
+          "Vivaldi",
+          "Antonio Lucio Vivaldi"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato a óleo sem texto identificável (assinatura do pintor ilegível, não entrega o nome). Rosto reconhecível para aficionados.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destas peças de teatro foi escrita por este dramaturgo norueguês?",
+      "resposta": "Casa de Bonecas",
+      "distratores": [
+        "A Gaivota",
+        "Tio Vânia",
+        "Seis Personagens"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Henrik Ibsen",
+        "descricao": "Dramaturgo norueguês (1828–1906), chamado de pai do drama moderno, autor de Casa de Bonecas e Peer Gynt.",
+        "variantes": [
+          "Henrik Johan Ibsen"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto clássica, sem texto, muito reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que corrente de pensamento recebeu o nome deste filósofo alemão?",
+      "resposta": "Marxismo",
+      "distratores": [],
+      "destino": 3,
+      "ancora": {
+        "nome": "Karl Marx",
+        "descricao": "Filósofo, economista e teórico político alemão (1818–1883), autor de O Capital e co-autor do Manifesto Comunista.",
+        "variantes": [
+          "Karl Heinrich Marx"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de Carjat, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor francês do século dezenove é este?",
+      "resposta": "Victor Hugo",
+      "distratores": [
+        "Alexandre Dumas",
+        "Émile Zola",
+        "Honoré de Balzac"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Victor Hugo",
+        "descricao": "Escritor romântico francês (1802–1885), autor de Os Miseráveis e O Corcunda de Notre-Dame.",
+        "variantes": [
+          "Victor-Marie Hugo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco, nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade alemã sedia o festival anual dedicado às óperas deste compositor?",
+      "resposta": "Bayreuth",
+      "distratores": [],
+      "destino": 4,
+      "ancora": {
+        "nome": "Richard Wagner",
+        "descricao": "Compositor alemão romântico (1813–1883), autor de dramas musicais como O Anel do Nibelungo.",
+        "variantes": [
+          "Wilhelm Richard Wagner"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto famosa de chapéu e pincenê, sem texto; baixa resolução mas legível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que poeta português do início do século vinte é este?",
+      "resposta": "Fernando Pessoa",
+      "distratores": [
+        "Mário de Sá-Carneiro",
+        "Camilo Pessanha",
+        "Antero de Quental"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Fernando Pessoa",
+        "descricao": "Poeta português (1888–1935), criador de heterônimos como Alberto Caeiro, Álvaro de Campos e Ricardo Reis.",
+        "variantes": [
+          "Fernando António Nogueira Pessoa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução, com aparência de desenho, pouco legível no celular e de reconhecimento duvidoso."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto sépia sem texto, retrato conhecido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositor brasileiro do século dezenove é este?",
+      "resposta": "Carlos Gomes",
+      "distratores": [],
+      "destino": 4,
+      "ancora": {
+        "nome": "Carlos Gomes",
+        "descricao": "Compositor brasileiro de óperas (1836–1896), autor de O Guarani.",
+        "variantes": [
+          "Antônio Carlos Gomes"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Busto do Louvre, sem texto, iconografia clássica do filósofo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que discípulo deste filósofo grego imortalizou suas conversas em diálogos escritos?",
+      "resposta": "Platão",
+      "distratores": [
+        "Aristóteles",
+        "Epicuro",
+        "Heráclito"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Sócrates",
+        "descricao": "Filósofo grego de Atenas (c. 470–399 a.C.), mestre de Platão, retratado aqui em busto de mármore.",
+        "variantes": [
+          "Socrates"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto colorida histórica, nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que escritor russo é este?",
+      "resposta": "Liev Tolstói",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Liev Tolstói",
+        "descricao": "Escritor russo (1828–1910), autor de Guerra e Paz e Anna Kariênina.",
+        "variantes": [
+          "Leo Tolstoy",
+          "Lev Tolstói",
+          "Leon Tolstói"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A assinatura 'Immanuel Kant' aparece escrita na parte inferior da imagem e entrega a resposta; seria preciso recortá-la."
+    }
+  ]
+}

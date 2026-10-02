@@ -1,0 +1,474 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Machado de Assis",
+        "descricao": "Escritor brasileiro (1839–1908), fundador da Academia Brasileira de Letras, autor de Dom Casmurro.",
+        "variantes": [
+          "Joaquim Maria Machado de Assis",
+          "Bruxo do Cosme Velho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "madona_sistina",
+          "nome": "Madona Sistina",
+          "descricao": "Pintura a óleo de Rafael, de cerca de 1513, que mostra a Virgem com o Menino entre São Sisto e Santa Bárbara; está em Dresden.",
+          "variantes": [
+            "Madonna di San Sisto",
+            "Sistine Madonna",
+            "Madona de São Sisto"
+          ]
+        },
+        {
+          "id": "malhacao_de_judas",
+          "nome": "Malhação de Judas",
+          "descricao": "Costume popular de surrar e queimar um boneco que representa Judas Iscariotes durante a Semana Santa.",
+          "variantes": [
+            "Queima do Judas",
+            "Malhar o Judas"
+          ]
+        },
+        {
+          "id": "caju",
+          "nome": "Caju",
+          "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+          "variantes": [
+            "Maçã-de-caju",
+            "Cashew apple"
+          ]
+        },
+        {
+          "id": "taca_davis",
+          "nome": "Taça Davis",
+          "descricao": "Troféu da principal competição de seleções do tênis masculino.",
+          "variantes": []
+        },
+        {
+          "id": "rio_roosevelt",
+          "nome": "Rio Roosevelt",
+          "descricao": "Afluente do rio Aripuanã, na Amazônia brasileira, antes chamado rio da Dúvida.",
+          "variantes": [
+            "Rio da Dúvida",
+            "Roosevelt River"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Antonio Vivaldi",
+        "descricao": "Compositor e violinista barroco italiano de Veneza (1678–1741), autor de As Quatro Estações.",
+        "variantes": [
+          "Vivaldi",
+          "Antonio Lucio Vivaldi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diwali",
+          "nome": "Diwali",
+          "descricao": "Grande festa hindu das luzes, celebrada no outono com lamparinas, velas e fogos.",
+          "variantes": [
+            "Deepavali",
+            "Dipavali"
+          ]
+        },
+        {
+          "id": "vinland",
+          "nome": "Vinland",
+          "descricao": "Região da América do Norte alcançada por navegadores nórdicos por volta do ano mil, segundo as sagas islandesas.",
+          "variantes": [
+            "Vinlândia"
+          ]
+        },
+        {
+          "id": "javali",
+          "nome": "Javali",
+          "descricao": "Suíno selvagem (Sus scrofa) nativo da Eurásia e do norte da África, ancestral do porco doméstico.",
+          "variantes": [
+            "Javali-europeu",
+            "Sus scrofa"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Henrik Ibsen",
+        "descricao": "Dramaturgo norueguês (1828–1906), chamado de pai do drama moderno, autor de Casa de Bonecas e Peer Gynt.",
+        "variantes": [
+          "Henrik Johan Ibsen"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Karl Marx",
+        "descricao": "Filósofo, economista e teórico político alemão (1818–1883), autor de O Capital e co-autor do Manifesto Comunista.",
+        "variantes": [
+          "Karl Heinrich Marx"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "real_madrid",
+          "nome": "Real Madrid",
+          "descricao": "Real Madrid Club de Fútbol, clube de futebol da capital espanhola fundado em 1902.",
+          "variantes": [
+            "Real Madrid Club de Fútbol",
+            "Real Madrid CF",
+            "Madrid Football Club"
+          ]
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "king_richard_criando_campeas",
+          "nome": "King Richard: Criando Campeãs",
+          "descricao": "Filme americano de 2021 sobre Richard Williams, estrelado por Will Smith.",
+          "variantes": [
+            "King Richard"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Victor Hugo",
+        "descricao": "Escritor romântico francês (1802–1885), autor de Os Miseráveis e O Corcunda de Notre-Dame.",
+        "variantes": [
+          "Victor-Marie Hugo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "victorinox",
+          "nome": "Victorinox",
+          "descricao": "Empresa suíça fabricante do canivete suíço, fundada por Karl Elsener em 1884.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Richard Wagner",
+        "descricao": "Compositor alemão romântico (1813–1883), autor de dramas musicais como O Anel do Nibelungo.",
+        "variantes": [
+          "Wilhelm Richard Wagner"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ritchie_valens",
+          "nome": "Ritchie Valens",
+          "descricao": "Cantor americano de rock, intérprete de La Bamba, morto em 1959",
+          "variantes": [
+            "Richard Valenzuela"
+          ]
+        },
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        },
+        {
+          "id": "kaka",
+          "nome": "Kaká",
+          "descricao": "Ricardo Izecson dos Santos Leite, meia brasileiro do São Paulo, do Milan e do Real Madrid, campeão mundial em 2002.",
+          "variantes": [
+            "Ricardo Kaká",
+            "Ricardo Izecson dos Santos Leite"
+          ]
+        },
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Fernando Pessoa",
+        "descricao": "Poeta português (1888–1935), criador de heterônimos como Alberto Caeiro, Álvaro de Campos e Ricardo Reis.",
+        "variantes": [
+          "Fernando António Nogueira Pessoa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fernando_de_noronha",
+          "nome": "Fernando de Noronha",
+          "descricao": "Arquipélago brasileiro no oceano Atlântico, pertencente ao estado de Pernambuco.",
+          "variantes": [
+            "Arquipélago de Fernando de Noronha",
+            "Noronha"
+          ]
+        },
+        {
+          "id": "fernanda_torres",
+          "nome": "Fernanda Torres",
+          "descricao": "Atriz e escritora brasileira, filha de Fernanda Montenegro, protagonista de Ainda Estou Aqui.",
+          "variantes": []
+        },
+        {
+          "id": "fernando_meligeni",
+          "nome": "Fernando Meligeni",
+          "descricao": "Tenista brasileiro nascido em 1971, o Fininho, semifinalista de Roland Garros em 1999.",
+          "variantes": [
+            "Fininho"
+          ]
+        },
+        {
+          "id": "ferro_de_passar",
+          "nome": "Ferro de passar",
+          "descricao": "Aparelho doméstico aquecido, usado para alisar roupas e tirar amassados.",
+          "variantes": [
+            "Ferro elétrico",
+            "Ferro a vapor",
+            "Ferro de engomar"
+          ]
+        },
+        {
+          "id": "russia",
+          "nome": "Rússia",
+          "descricao": "País da Europa Oriental e Ásia Setentrional, o maior do mundo em área, cuja capital é Moscou.",
+          "variantes": [
+            "Federação Russa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Carlos Gomes",
+        "descricao": "Compositor brasileiro de óperas (1836–1896), autor de O Guarani.",
+        "variantes": [
+          "Antônio Carlos Gomes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mussum",
+          "nome": "Mussum",
+          "descricao": "Humorista e músico brasileiro Antônio Carlos Bernardes Gomes, integrante de Os Trapalhões.",
+          "variantes": [
+            "Antônio Carlos Bernardes Gomes"
+          ]
+        },
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        },
+        {
+          "id": "carlos_chagas",
+          "nome": "Carlos Chagas",
+          "descricao": "Médico sanitarista e microbiologista brasileiro que descobriu a doença de Chagas em 1909.",
+          "variantes": [
+            "Carlos Justiniano Ribeiro Chagas"
+          ]
+        },
+        {
+          "id": "charles_miller",
+          "nome": "Charles Miller",
+          "descricao": "Charles William Miller, paulistano filho de britânicos, considerado o introdutor do futebol no Brasil.",
+          "variantes": [
+            "Charles William Miller"
+          ]
+        },
+        {
+          "id": "futebol_total",
+          "nome": "Futebol total",
+          "descricao": "Estilo tático de rodízio constante de posições associado ao Ajax e à seleção da Holanda do início dos anos 1970.",
+          "variantes": [
+            "Total Football",
+            "Totaalvoetbal",
+            "Carrossel Holandês",
+            "Laranja Mecânica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Sócrates",
+        "descricao": "Filósofo grego de Atenas (c. 470–399 a.C.), mestre de Platão, retratado aqui em busto de mármore.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "carate",
+          "nome": "Caratê",
+          "descricao": "Arte marcial de golpes de mãos e pés surgida em Okinawa, hoje parte do Japão.",
+          "variantes": [
+            "Karatê",
+            "Karate"
+          ]
+        },
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate"
+          ]
+        },
+        {
+          "id": "nocaute",
+          "nome": "Nocaute",
+          "descricao": "Fim de uma luta quando um lutador derrubado não se levanta antes do fim da contagem do árbitro.",
+          "variantes": [
+            "Knockout",
+            "KO"
+          ]
+        },
+        {
+          "id": "suricato",
+          "nome": "Suricato",
+          "descricao": "Pequeno mangusto social do sul da África, de rosto com manchas escuras ao redor dos olhos (Suricata suricatta).",
+          "variantes": [
+            "Suricata suricatta",
+            "Meerkat",
+            "Suricate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Liev Tolstói",
+        "descricao": "Escritor russo (1828–1910), autor de Guerra e Paz e Anna Kariênina.",
+        "variantes": [
+          "Leo Tolstoy",
+          "Lev Tolstói",
+          "Leon Tolstói"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "totoro",
+          "nome": "Totoro",
+          "descricao": "Criatura da floresta que dá nome ao filme Meu Amigo Totoro, de Hayao Miyazaki.",
+          "variantes": [
+            "O Totoro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Machado de Assis."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Itália é país, não o compositor; demais sem relação."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Rio Sena é outra entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Karl Marx."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Victorinox é empresa, não o escritor."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o compositor Wagner."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o poeta Fernando Pessoa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o compositor Carlos Gomes; Mussum é outra pessoa."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Sócrates filósofo difere do jogador Sócrates."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Totoro não tem relação com Tolstói."
+    }
+  ]
+}
