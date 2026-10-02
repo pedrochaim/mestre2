@@ -1,0 +1,206 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em janeiro de 1502, navegadores portugueses chamaram de rio algo que, na verdade, era o quê?",
+        "resposta": "A Baía de Guanabara"
+      },
+      "existentes": [
+        {
+          "id": "q00178",
+          "pergunta": "Em 1565, durante a luta contra os franceses na Baía de Guanabara, quem fundou a cidade do Rio de Janeiro?",
+          "resposta": "Estácio de Sá"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Segundo a explicação mais aceita, o nome Coliseu vem de uma estátua gigante, ao lado do anfiteatro, que representava qual imperador?",
+        "resposta": "Nero"
+      },
+      "existentes": [
+        {
+          "id": "q00079",
+          "pergunta": "O nome Coliseu provavelmente vem de algo gigantesco que ficava ao lado do anfiteatro. O que era?",
+          "resposta": "Uma estátua colossal de Nero"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Oficialmente, o Maracanã homenageia qual jornalista esportivo, irmão do dramaturgo Nelson Rodrigues?",
+        "resposta": "Mário Filho"
+      },
+      "existentes": [
+        {
+          "id": "q00030",
+          "pergunta": "O Maracanã, no Rio de Janeiro, tem um nome oficial que homenageia qual jornalista esportivo?",
+          "resposta": "Mário Filho"
+        },
+        {
+          "id": "q00524",
+          "pergunta": "Que estádio é este?",
+          "resposta": "Maracanã"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Antes de se chamar Istambul, a cidade teve por muitos séculos um nome que homenageava um imperador romano. Qual era?",
+        "resposta": "Constantinopla"
+      },
+      "existentes": [
+        {
+          "id": "q00368",
+          "pergunta": "Que cidade é esta?",
+          "resposta": "Istambul"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Traduzido do cantonês, o que significa o nome Hong Kong?",
+        "resposta": "Porto perfumado"
+      },
+      "existentes": [
+        {
+          "id": "q00367",
+          "pergunta": "Que cidade é esta?",
+          "resposta": "Hong Kong"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Canberra foi criada do zero para ser a capital da Austrália por causa da rivalidade entre quais duas cidades?",
+        "resposta": "Sydney e Melbourne"
+      },
+      "existentes": [
+        {
+          "id": "q00013",
+          "pergunta": "No início do século vinte, Canberra foi criada como capital da Austrália para encerrar a rivalidade entre quais duas cidades?",
+          "resposta": "Sydney e Melbourne"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Desde 2007, o que une a cidade de pedra de Petra, na Jordânia, ao Cristo Redentor e ao Coliseu?",
+        "resposta": "Novas Sete Maravilhas do Mundo"
+      },
+      "existentes": [
+        {
+          "id": "q00384",
+          "pergunta": "Em que sítio arqueológico fica este templo esculpido na rocha?",
+          "resposta": "Petra"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em 1957, qual urbanista venceu o concurso para o Plano Piloto de Brasília?",
+        "resposta": "Lúcio Costa"
+      },
+      "existentes": [
+        {
+          "id": "q00166",
+          "pergunta": "Brasília foi inaugurada em vinte e um de abril de 1960, data escolhida para homenagear qual personagem da história do Brasil?",
+          "resposta": "Tiradentes"
+        },
+        {
+          "id": "q00179",
+          "pergunta": "Oscar Niemeyer desenhou os prédios, mas quem projetou o traçado urbano de Brasília, conhecido como Plano Piloto?",
+          "resposta": "Lúcio Costa"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O conjunto de palácios mouros da Alhambra, último grande reduto muçulmano da Espanha, fica em qual cidade?",
+        "resposta": "Granada"
+      },
+      "existentes": [
+        {
+          "id": "q00386",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Alhambra"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O templo de Angkor Wat, que aparece estampado na bandeira nacional, fica em qual país asiático?",
+        "resposta": "Camboja"
+      },
+      "existentes": [
+        {
+          "id": "q00385",
+          "pergunta": "Que templo é este?",
+          "resposta": "Angkor Wat"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o que os portugueses chamaram de rio em 1502, não sobre o fundador do Rio em 1565."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o nome Coliseu vem da estátua colossal de Nero."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Mário Filho é o homenageado pelo nome oficial do Maracanã (q00030)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A existente é de identificação por imagem (Istambul); a nova pergunta o nome antigo, Constantinopla."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O significado do nome é fato diferente da identificação da cidade por imagem."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Canberra foi criada pela rivalidade entre Sydney e Melbourne."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O fato é Petra ser uma das Novas Sete Maravilhas, não a identificação por imagem."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Lúcio Costa projetou o Plano Piloto de Brasília (q00179)."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Localização da Alhambra é fato diferente da identificação por imagem."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "País onde fica Angkor Wat é fato diferente da identificação por imagem."
+    }
+  ]
+}

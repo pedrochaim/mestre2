@@ -32714,5 +32714,655 @@
       "autor": "Rembrandt",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q01997",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "big_ben",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em Londres, o apelido Big Ben se refere originalmente a qual parte da famosa torre do relógio?",
+    "resposta": "O grande sino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Big_Ben"
+    ]
+  },
+  {
+    "id": "q01998",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "times_square",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1904, a Longacre Square, em Manhattan, ganhou outro nome quando qual jornal mudou sua sede para lá?",
+    "resposta": "The New York Times",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Times_Square"
+    ]
+  },
+  {
+    "id": "q01999",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "copacabana",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O bairro carioca de Copacabana herdou o nome de uma santa venerada às margens de qual lago sul-americano?",
+    "resposta": "Lago Titicaca",
+    "distratores": [
+      "Lago de Maracaibo",
+      "Lago Nahuel Huapi",
+      "Lago Poopó"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
+    ]
+  },
+  {
+    "id": "q02000",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "buenos_aires",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome Buenos Aires vem de Nossa Senhora do Bom Ar, padroeira dos navegantes venerada em qual ilha do Mediterrâneo?",
+    "resposta": "Sardenha",
+    "distratores": [
+      "Sicília",
+      "Córsega",
+      "Creta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Buenos_Aires"
+    ]
+  },
+  {
+    "id": "q02001",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "kremlin_de_moscou",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em russo, o que significa a palavra kremlin, que batiza a sede do governo em Moscou?",
+    "resposta": "Fortaleza",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moscow_Kremlin"
+    ]
+  },
+  {
+    "id": "q02002",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "rio_de_janeiro",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em janeiro de 1502, navegadores portugueses chamaram de rio algo que, na verdade, era o quê?",
+    "resposta": "A Baía de Guanabara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_de_Janeiro",
+      "https://en.wikipedia.org/wiki/Guanabara_Bay"
+    ]
+  },
+  {
+    "id": "q02003",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "piccadilly",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A rua Piccadilly, em Londres, deve o nome a um alfaiate do século dezessete que enriqueceu vendendo qual peça de roupa?",
+    "resposta": "Golas rígidas",
+    "distratores": [
+      "Chapéus de feltro",
+      "Luvas de couro",
+      "Botas de montaria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piccadilly"
+    ]
+  },
+  {
+    "id": "q02004",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_dos_suspiros",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição, de quem eram os suspiros que deram nome à famosa ponte coberta de Veneza?",
+    "resposta": "Dos prisioneiros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bridge_of_Sighs"
+    ]
+  },
+  {
+    "id": "q02005",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "istambul",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Antes de se chamar Istambul, a cidade teve por muitos séculos um nome que homenageava um imperador romano. Qual era?",
+    "resposta": "Constantinopla",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Istanbul",
+      "https://en.wikipedia.org/wiki/Constantinople"
+    ]
+  },
+  {
+    "id": "q02006",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "hong_kong",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Traduzido do cantonês, o que significa o nome Hong Kong?",
+    "resposta": "Porto perfumado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hong_Kong"
+    ]
+  },
+  {
+    "id": "q02007",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "torre_de_pisa",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a Torre de Pisa começou a se inclinar ainda durante a obra, no século doze?",
+    "resposta": "Solo mole e fundação rasa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+    ]
+  },
+  {
+    "id": "q02008",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "estatua_da_liberdade",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+    "resposta": "Oxidação do cobre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1tua_da_Liberdade"
+    ]
+  },
+  {
+    "id": "q02009",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "veneza",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Veneza se apoia em estacas de madeira cravadas há séculos. Por que essas estacas não apodreceram?",
+    "resposta": "Ficam submersas, sem oxigênio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venice"
+    ]
+  },
+  {
+    "id": "q02010",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "torre_eiffel",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1889, ano do centenário da Revolução Francesa, a Torre Eiffel foi erguida para servir de entrada a qual evento?",
+    "resposta": "A Exposição Universal de Paris",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "https://en.wikipedia.org/wiki/Exposition_Universelle_(1889)"
+    ]
+  },
+  {
+    "id": "q02011",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "monumento_ao_grande_incendio_de_londres",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No centro de Londres, uma alta coluna de pedra chamada apenas de Monumento foi erguida para lembrar qual tragédia de 1666?",
+    "resposta": "O Grande Incêndio de Londres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monument_to_the_Great_Fire_of_London"
+    ]
+  },
+  {
+    "id": "q02012",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "baixa_pombalina",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O centro de Lisboa ganhou ruas retas e quarteirões em grade, a chamada Baixa Pombalina, depois de qual desastre?",
+    "resposta": "O terremoto de 1755",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pombaline_Lower_Town",
+      "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+    ]
+  },
+  {
+    "id": "q02013",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "cidade_do_mexico",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Erguida sobre o leito argiloso de um antigo lago, a Cidade do México afunda lentamente porque se retira o quê do subsolo?",
+    "resposta": "Água subterrânea",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mexico_City",
+      "https://en.wikipedia.org/wiki/Lake_Texcoco"
+    ]
+  },
+  {
+    "id": "q02014",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "taj_mahal",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O imperador mogol Shah Jahan mandou construir o Taj Mahal para abrigar o túmulo de quem?",
+    "resposta": "Sua esposa Mumtaz Mahal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taj_Mahal"
+    ]
+  },
+  {
+    "id": "q02015",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "pompeia",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O que conservou por séculos as ruas, casas e pinturas da cidade romana de Pompeia?",
+    "resposta": "As cinzas do Vesúvio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pompeii"
+    ]
+  },
+  {
+    "id": "q02016",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "bangkok",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O nome tailandês da capital da Tailândia, Krung Thep, tem o mesmo significado do nome de qual metrópole americana?",
+    "resposta": "Los Angeles",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bangkok",
+      "https://en.wikipedia.org/wiki/Los_Angeles"
+    ]
+  },
+  {
+    "id": "q02017",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "harlem",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Harlem e Brooklyn, em Nova York, têm nomes herdados de cidades de qual país europeu?",
+    "resposta": "Países Baixos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harlem",
+      "https://en.wikipedia.org/wiki/Brooklyn"
+    ]
+  },
+  {
+    "id": "q02018",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "estatua_da_liberdade",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+    "resposta": "Torre Eiffel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1tua_da_Liberdade"
+    ]
+  },
+  {
+    "id": "q02019",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "santuario_de_cristo_rei",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em Almada, de frente para Lisboa, a grande estátua do Cristo Rei foi inspirada em qual monumento brasileiro?",
+    "resposta": "Cristo Redentor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sanctuary_of_Christ_the_King"
+    ]
+  },
+  {
+    "id": "q02020",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_25_de_abril",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A Ponte 25 de Abril, sobre o Tejo, é pintada da mesma cor laranja de qual famosa ponte americana?",
+    "resposta": "Golden Gate",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/25_de_Abril_Bridge"
+    ]
+  },
+  {
+    "id": "q02021",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "petra",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Desde 2007, o que une a cidade de pedra de Petra, na Jordânia, ao Cristo Redentor e ao Coliseu?",
+    "resposta": "Novas Sete Maravilhas do Mundo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/New7Wonders_of_the_World",
+      "https://en.wikipedia.org/wiki/Petra"
+    ]
+  },
+  {
+    "id": "q02022",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "torre_de_belem",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A Torre de Belém e o vizinho Mosteiro dos Jerônimos, em Lisboa, compartilham qual estilo arquitetônico, batizado em homenagem a um rei?",
+    "resposta": "Manuelino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower",
+      "https://en.wikipedia.org/wiki/Manueline"
+    ]
+  },
+  {
+    "id": "q02023",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "portao_de_brandemburgo",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Portão de Brandemburgo, em Berlim, foi inspirado em qual portal monumental da Acrópole de Atenas?",
+    "resposta": "Os Propileus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+      "https://pt.wikipedia.org/wiki/Port%C3%A3o_de_Brandemburgo"
+    ]
+  },
+  {
+    "id": "q02024",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "arco_do_triunfo_de_paris",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No Fórum Romano há um arco antigo que serviu de modelo ao Arco do Triunfo de Paris. Ele leva o nome de qual imperador?",
+    "resposta": "Tito",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arc_de_Triomphe"
+    ]
+  },
+  {
+    "id": "q02025",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "cristo_redentor",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Qual escultor francês criou a estátua do Cristo Redentor, no alto do Corcovado?",
+    "resposta": "Paul Landowski",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+    ]
+  },
+  {
+    "id": "q02026",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "cristo_redentor",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O concreto do Cristo Redentor é revestido por milhares de pequenos triângulos de qual pedra?",
+    "resposta": "Pedra-sabão",
+    "distratores": [
+      "Mármore",
+      "Granito",
+      "Ardósia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+    ]
+  },
+  {
+    "id": "q02027",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "sambodromo_do_rio_de_janeiro",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Inaugurado em 1984 na avenida Marquês de Sapucaí, o Sambódromo do Rio foi projetado por qual arquiteto?",
+    "resposta": "Oscar Niemeyer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sambadrome_Marqu%C3%AAs_de_Sapuca%C3%AD"
+    ]
+  },
+  {
+    "id": "q02028",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "opera_de_sydney",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+    "resposta": "Jørn Utzon",
+    "distratores": [
+      "Arne Jacobsen",
+      "Henning Larsen",
+      "Bjarke Ingels"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+    ]
+  },
+  {
+    "id": "q02029",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "piramide_do_louvre",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Qual arquiteto sino-americano projetou a pirâmide de vidro que serve de entrada ao Museu do Louvre?",
+    "resposta": "I. M. Pei",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+    ]
+  },
+  {
+    "id": "q02030",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "museu_de_arte_de_sao_paulo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na Avenida Paulista, o prédio do Museu de Arte de São Paulo, suspenso sobre um vão livre, foi projetado por qual arquiteta?",
+    "resposta": "Lina Bo Bardi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Museum_of_Art"
+    ]
+  },
+  {
+    "id": "q02031",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "a_pequena_sereia",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica a estátua da Pequena Sereia, inspirada no conto de Hans Christian Andersen?",
+    "resposta": "Copenhague",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)"
+    ]
+  },
+  {
+    "id": "q02032",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "manneken_pis",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A pequena estátua de bronze de um menino fazendo xixi numa fonte, o Manneken Pis, é símbolo de qual cidade europeia?",
+    "resposta": "Bruxelas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Manneken_Pis"
+    ]
+  },
+  {
+    "id": "q02033",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "alhambra",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O conjunto de palácios mouros da Alhambra, último grande reduto muçulmano da Espanha, fica em qual cidade?",
+    "resposta": "Granada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alhambra"
+    ]
+  },
+  {
+    "id": "q02034",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "angkor_wat",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O templo de Angkor Wat, que aparece estampado na bandeira nacional, fica em qual país asiático?",
+    "resposta": "Camboja",
+    "distratores": [
+      "Tailândia",
+      "Laos",
+      "Vietnã"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angkor_Wat",
+      "https://en.wikipedia.org/wiki/Flag_of_Cambodia"
+    ]
+  },
+  {
+    "id": "q02035",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "opera_de_arame",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em qual capital brasileira fica a Ópera de Arame, teatro de tubos de aço erguido numa antiga pedreira?",
+    "resposta": "Curitiba",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/%C3%93pera_de_Arame",
+      "https://en.wikipedia.org/wiki/Wire_Opera_House"
+    ]
+  },
+  {
+    "id": "q02036",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_hercilio_luz",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em Florianópolis, a Ponte Hercílio Luz, que liga a ilha ao continente, foi inaugurada em qual década?",
+    "resposta": "Anos 1920",
+    "distratores": [
+      "Anos 1890",
+      "Anos 1950",
+      "Anos 1970"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ponte_Herc%C3%ADlio_Luz",
+      "https://en.wikipedia.org/wiki/Herc%C3%ADlio_Luz_Bridge"
+    ]
+  },
+  {
+    "id": "q02037",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "sagrada_familia",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em Barcelona, as obras da basílica da Sagrada Família começaram em qual século?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+    ]
+  },
+  {
+    "id": "q02038",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "relogio_astronomico_de_praga",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No relógio astronômico medieval de Praga, qual figura puxa a corda do sino quando as horas batem?",
+    "resposta": "Um esqueleto",
+    "distratores": [
+      "Um soldado",
+      "Um rei",
+      "Um bispo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Prague_astronomical_clock"
+    ]
+  },
+  {
+    "id": "q02039",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "ponte_golden_gate",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Apesar do nome dourado, a ponte Golden Gate, em São Francisco, é pintada numa cor de nome oficial próprio. Qual?",
+    "resposta": "Laranja internacional",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+    ]
+  },
+  {
+    "id": "q02040",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "atomium",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "As nove esferas do Atomium, em Bruxelas, representam a estrutura ampliada de um cristal de qual metal?",
+    "resposta": "Ferro",
+    "distratores": [
+      "Cobre",
+      "Alumínio",
+      "Ouro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atomium"
+    ]
+  },
+  {
+    "id": "q02041",
+    "tema": "Geografia",
+    "subtema": "Cidades e Monumentos",
+    "ancora": "taj_mahal",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Ao redor do mausoléu de mármore do Taj Mahal, quantos minaretes se erguem?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Dois",
+      "Seis",
+      "Oito"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taj_Mahal"
+    ]
   }
 ]

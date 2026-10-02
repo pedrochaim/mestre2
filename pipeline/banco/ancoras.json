@@ -1351,7 +1351,9 @@
     "variantes": [
       "Anfiteatro Flávio",
       "Colosseum",
-      "Colosseo"
+      "Colosseo",
+      "Coliseu de Roma",
+      "Anfiteatro Flaviano"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Colosseum",
@@ -2904,7 +2906,10 @@
       "wikidata": "Q2844",
       "pt": 15242,
       "en": 39012
-    }
+    },
+    "variantes": [
+      "Plano Piloto"
+    ]
   },
   {
     "id": "batalha_dos_guararapes",
@@ -3047,7 +3052,8 @@
     "nome": "Rio de Janeiro",
     "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
     "variantes": [
-      "São Sebastião do Rio de Janeiro"
+      "São Sebastião do Rio de Janeiro",
+      "Rio"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Rio_de_Janeiro"
@@ -5640,7 +5646,10 @@
       "wikidata": "Q43473",
       "pt": 1271,
       "en": 71041
-    }
+    },
+    "variantes": [
+      "Angkor Vat"
+    ]
   },
   {
     "id": "alhambra",
@@ -5655,7 +5664,10 @@
       "wikidata": "Q47476",
       "pt": 1826,
       "en": 46806
-    }
+    },
+    "variantes": [
+      "Alhambra de Granada"
+    ]
   },
   {
     "id": "cupula_da_bomba_atomica",
@@ -30048,6 +30060,413 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/The_Anatomy_Lesson_of_Dr._Nicolaes_Tulp",
       "https://pt.wikipedia.org/wiki/A_Li%C3%A7%C3%A3o_de_Anatomia_do_Dr._Tulp"
+    ]
+  },
+  {
+    "id": "big_ben",
+    "nome": "Big Ben",
+    "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+    "variantes": [
+      "Elizabeth Tower",
+      "Torre Elizabeth"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Big_Ben"
+    ]
+  },
+  {
+    "id": "times_square",
+    "nome": "Times Square",
+    "descricao": "Praça e cruzamento comercial de Manhattan, em Nova York, famosa pelos painéis luminosos.",
+    "variantes": [
+      "Praça Times"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Times_Square"
+    ]
+  },
+  {
+    "id": "copacabana",
+    "nome": "Copacabana",
+    "descricao": "Bairro da zona sul do Rio de Janeiro, famoso pela praia e pela Avenida Atlântica.",
+    "variantes": [
+      "Copacabana (Rio de Janeiro)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro"
+    ]
+  },
+  {
+    "id": "buenos_aires",
+    "nome": "Buenos Aires",
+    "descricao": "Capital da Argentina, às margens do Rio da Prata.",
+    "variantes": [
+      "Santa María del Buen Ayre"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Buenos_Aires"
+    ]
+  },
+  {
+    "id": "kremlin_de_moscou",
+    "nome": "Kremlin de Moscou",
+    "descricao": "Complexo fortificado no centro de Moscou, sede do governo da Rússia.",
+    "variantes": [
+      "Kremlin",
+      "Moscow Kremlin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Moscow_Kremlin"
+    ]
+  },
+  {
+    "id": "piccadilly",
+    "nome": "Piccadilly",
+    "descricao": "Rua do centro de Londres que dá nome à praça Piccadilly Circus.",
+    "variantes": [
+      "Piccadilly Circus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Piccadilly"
+    ]
+  },
+  {
+    "id": "ponte_dos_suspiros",
+    "nome": "Ponte dos Suspiros",
+    "descricao": "Ponte de pedra coberta em Veneza que liga o Palácio Ducal às antigas prisões.",
+    "variantes": [
+      "Ponte dei Sospiri",
+      "Bridge of Sighs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bridge_of_Sighs"
+    ]
+  },
+  {
+    "id": "torre_de_pisa",
+    "nome": "Torre de Pisa",
+    "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+    "variantes": [
+      "Torre Inclinada de Pisa",
+      "Leaning Tower of Pisa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa"
+    ]
+  },
+  {
+    "id": "estatua_da_liberdade",
+    "nome": "Estátua da Liberdade",
+    "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York.",
+    "variantes": [
+      "Statue of Liberty",
+      "A Liberdade Iluminando o Mundo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Statue_of_Liberty"
+    ]
+  },
+  {
+    "id": "veneza",
+    "nome": "Veneza",
+    "descricao": "Cidade do nordeste da Itália construída sobre ilhas de uma laguna, cortada por canais.",
+    "variantes": [
+      "Venice",
+      "Venezia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Venice"
+    ]
+  },
+  {
+    "id": "torre_eiffel",
+    "nome": "Torre Eiffel",
+    "descricao": "Torre de ferro forjado no Campo de Marte, em Paris, inaugurada em 1889.",
+    "variantes": [
+      "Tour Eiffel",
+      "Eiffel Tower"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eiffel_Tower"
+    ]
+  },
+  {
+    "id": "monumento_ao_grande_incendio_de_londres",
+    "nome": "Monumento ao Grande Incêndio de Londres",
+    "descricao": "Coluna dórica no centro de Londres, conhecida simplesmente como The Monument.",
+    "variantes": [
+      "The Monument",
+      "Monument to the Great Fire of London"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Monument_to_the_Great_Fire_of_London"
+    ]
+  },
+  {
+    "id": "baixa_pombalina",
+    "nome": "Baixa Pombalina",
+    "descricao": "Centro histórico de Lisboa, reconstruído em traçado regular sob o Marquês de Pombal.",
+    "variantes": [
+      "Pombaline Lower Town",
+      "Baixa de Lisboa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pombaline_Lower_Town"
+    ]
+  },
+  {
+    "id": "cidade_do_mexico",
+    "nome": "Cidade do México",
+    "descricao": "Capital do México, erguida sobre o antigo leito do lago Texcoco.",
+    "variantes": [
+      "Ciudad de México",
+      "Mexico City"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mexico_City"
+    ]
+  },
+  {
+    "id": "taj_mahal",
+    "nome": "Taj Mahal",
+    "descricao": "Mausoléu de mármore branco em Agra, na Índia, construído no século dezessete.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Taj_Mahal"
+    ]
+  },
+  {
+    "id": "pompeia",
+    "nome": "Pompeia",
+    "descricao": "Antiga cidade romana perto de Nápoles, soterrada pela erupção do Vesúvio em 79 depois de Cristo.",
+    "variantes": [
+      "Pompeii",
+      "Pompei"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pompeii"
+    ]
+  },
+  {
+    "id": "bangkok",
+    "nome": "Bangkok",
+    "descricao": "Capital da Tailândia, chamada pelos tailandeses de Krung Thep.",
+    "variantes": [
+      "Banguecoque",
+      "Krung Thep"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bangkok"
+    ]
+  },
+  {
+    "id": "harlem",
+    "nome": "Harlem",
+    "descricao": "Bairro do norte de Manhattan, em Nova York, berço da Renascença do Harlem.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Harlem"
+    ]
+  },
+  {
+    "id": "santuario_de_cristo_rei",
+    "nome": "Santuário de Cristo Rei",
+    "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+    "variantes": [
+      "Cristo Rei",
+      "Sanctuary of Christ the King"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sanctuary_of_Christ_the_King"
+    ]
+  },
+  {
+    "id": "ponte_25_de_abril",
+    "nome": "Ponte 25 de Abril",
+    "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+    "variantes": [
+      "Ponte Salazar",
+      "25 de Abril Bridge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/25_de_Abril_Bridge"
+    ]
+  },
+  {
+    "id": "torre_de_belem",
+    "nome": "Torre de Belém",
+    "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+    "variantes": [
+      "Torre de São Vicente",
+      "Belém Tower"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower"
+    ]
+  },
+  {
+    "id": "portao_de_brandemburgo",
+    "nome": "Portão de Brandemburgo",
+    "descricao": "Portal neoclássico do século dezoito no centro de Berlim, símbolo da reunificação alemã.",
+    "variantes": [
+      "Brandenburger Tor",
+      "Brandenburg Gate"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Brandenburg_Gate"
+    ]
+  },
+  {
+    "id": "arco_do_triunfo_de_paris",
+    "nome": "Arco do Triunfo de Paris",
+    "descricao": "Arco monumental na Praça Charles de Gaulle, no alto da Champs-Élysées, encomendado por Napoleão.",
+    "variantes": [
+      "Arc de Triomphe",
+      "Arco do Triunfo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Arc_de_Triomphe"
+    ]
+  },
+  {
+    "id": "cristo_redentor",
+    "nome": "Cristo Redentor",
+    "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+    "variantes": [
+      "Christ the Redeemer",
+      "Cristo do Corcovado"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)"
+    ]
+  },
+  {
+    "id": "sambodromo_do_rio_de_janeiro",
+    "nome": "Sambódromo do Rio de Janeiro",
+    "descricao": "Passarela do desfile das escolas de samba no Rio de Janeiro, inaugurada em 1984.",
+    "variantes": [
+      "Sambódromo da Marquês de Sapucaí",
+      "Passarela Professor Darcy Ribeiro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sambadrome_Marqu%C3%AAs_de_Sapuca%C3%AD"
+    ]
+  },
+  {
+    "id": "opera_de_sydney",
+    "nome": "Ópera de Sydney",
+    "descricao": "Casa de espetáculos com cobertura em forma de velas no porto de Sydney, na Austrália.",
+    "variantes": [
+      "Sydney Opera House"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+    ]
+  },
+  {
+    "id": "piramide_do_louvre",
+    "nome": "Pirâmide do Louvre",
+    "descricao": "Pirâmide de vidro e metal no pátio do Museu do Louvre, em Paris, inaugurada em 1989.",
+    "variantes": [
+      "Louvre Pyramid",
+      "Pyramide du Louvre"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Louvre_Pyramid"
+    ]
+  },
+  {
+    "id": "museu_de_arte_de_sao_paulo",
+    "nome": "Museu de Arte de São Paulo",
+    "descricao": "Museu na Avenida Paulista, em São Paulo, cujo prédio é suspenso sobre um grande vão livre.",
+    "variantes": [
+      "MASP",
+      "Museu de Arte de São Paulo Assis Chateaubriand"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Museum_of_Art"
+    ]
+  },
+  {
+    "id": "a_pequena_sereia",
+    "nome": "A Pequena Sereia",
+    "descricao": "Estátua de bronze inspirada no conto de Hans Christian Andersen, à beira-mar na capital dinamarquesa.",
+    "variantes": [
+      "Den lille Havfrue",
+      "The Little Mermaid"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)"
+    ]
+  },
+  {
+    "id": "manneken_pis",
+    "nome": "Manneken Pis",
+    "descricao": "Pequena estátua de bronze de um menino urinando numa fonte, símbolo da capital belga.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Manneken_Pis"
+    ]
+  },
+  {
+    "id": "opera_de_arame",
+    "nome": "Ópera de Arame",
+    "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+    "variantes": [
+      "Wire Opera House"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/%C3%93pera_de_Arame"
+    ]
+  },
+  {
+    "id": "ponte_hercilio_luz",
+    "nome": "Ponte Hercílio Luz",
+    "descricao": "Ponte pênsil que liga a Ilha de Santa Catarina ao continente, em Florianópolis.",
+    "variantes": [
+      "Hercílio Luz Bridge"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ponte_Herc%C3%ADlio_Luz"
+    ]
+  },
+  {
+    "id": "sagrada_familia",
+    "nome": "Sagrada Família",
+    "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
+    "variantes": [
+      "Templo Expiatório da Sagrada Família"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia"
+    ]
+  },
+  {
+    "id": "relogio_astronomico_de_praga",
+    "nome": "Relógio Astronômico de Praga",
+    "descricao": "Relógio medieval na antiga prefeitura da Cidade Velha de Praga, com figuras animadas.",
+    "variantes": [
+      "Orloj",
+      "Prague Astronomical Clock"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Prague_astronomical_clock"
+    ]
+  },
+  {
+    "id": "ponte_golden_gate",
+    "nome": "Ponte Golden Gate",
+    "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937.",
+    "variantes": [
+      "Golden Gate Bridge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
+    ]
+  },
+  {
+    "id": "atomium",
+    "nome": "Atomium",
+    "descricao": "Monumento de aço com nove esferas, construído em Bruxelas para a Exposição Universal de 1958.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Atomium"
     ]
   }
 ]

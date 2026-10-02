@@ -1,0 +1,427 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal e sustentado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'Times Square' e a resposta contém 'Times': vazamento; é preciso ocultar o nome novo.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Em 1904, a Longacre Square, em Manhattan, ganhou outro nome quando qual jornal mudou sua sede para lá?",
+        "resposta": "The New York Times",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Times_Square"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome bem documentada; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nossa Senhora de Bonaria, padroeira da Sardenha, confirmada; distratores da mesma categoria.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado de kreml' confirmado; resposta direta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Baía de Guanabara chamada de rio em 1502, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Robert Baker enriqueceu vendendo piccadills, golas rígidas; fato bem documentado e curioso.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome pela estátua de Nero, com ressalva 'mais aceita' correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado ressalva 'segundo a tradição', coerente com a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome oficial em homenagem a Mário Filho, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Constantinopla, nome em homenagem a Constantino, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Porto perfumado' confirmado na versão em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação mal construída em solo fraco, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'cobre' é ecoada no enunciado; reformular sem a palavra.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+        "resposta": "Oxidação do cobre",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+          "https://pt.wikipedia.org/wiki/Est%C3%A1tua_da_Liberdade"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Estacas submersas, sem oxigênio, não apodrecem; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A torre foi o arco de entrada da Exposição Universal de 1889; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Monumento ao Grande Incêndio de 1666, confirmado e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconstrução após o terremoto de 1755, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Extração excessiva de água subterrânea, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Taj Mahal construído para o túmulo de Mumtaz Mahal, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Compromisso entre Sydney e Melbourne, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cinzas do Vesúvio soterraram e preservaram a cidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Krung Thep e Los Angeles significam 'cidade dos anjos'; fato conhecido e curioso.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Brooklyn é um borough, não bairro; corrigir o enunciado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Harlem e Brooklyn, em Nova York, têm nomes herdados de cidades de qual país europeu?",
+        "resposta": "Países Baixos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Harlem",
+          "https://en.wikipedia.org/wiki/Brooklyn"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte atribui a estrutura a Giæver a partir de esboços de Eiffel; precisar 'engenheiro francês' e a empresa para evitar ambiguidade.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+        "resposta": "Torre Eiffel",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+          "https://pt.wikipedia.org/wiki/Est%C3%A1tua_da_Liberdade"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspirado no Cristo Redentor, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte só confirma a mesma cor da Golden Gate; o formato lembra a Bay Bridge.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "A Ponte 25 de Abril, sobre o Tejo, é pintada da mesma cor laranja de qual famosa ponte americana?",
+        "resposta": "Golden Gate",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/25_de_Abril_Bridge"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Petra, Cristo Redentor e Coliseu entre as Novas Sete Maravilhas de 2007.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estilo manuelino, de Manuel I, confirmado para a torre; Jerônimos é o exemplo clássico.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Copia o modelo' é forte demais; a fonte diz 'baseia-se' nos Propileus.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O Portão de Brandemburgo, em Berlim, foi inspirado em qual portal monumental da Acrópole de Atenas?",
+        "resposta": "Os Propileus",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+          "https://pt.wikipedia.org/wiki/Port%C3%A3o_de_Brandemburgo"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arco de Tito como inspiração, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paul Landowski, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Revestimento de pedra-sabão em ladrilhos triangulares, fato conhecido e confirmado em parte.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Marquês de Sapucaí é avenida, não rua.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Inaugurado em 1984 na avenida Marquês de Sapucaí, o Sambódromo do Rio foi projetado por qual arquiteto?",
+        "resposta": "Oscar Niemeyer",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sambadrome_Marqu%C3%AAs_de_Sapuca%C3%AD"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lúcio Costa venceu o concurso de 1957, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inauguração em 21 de abril de 1960, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Alvar Aalto é finlandês, e o enunciado diz dinamarquês; trocar o distrator.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "multipla",
+        "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+        "resposta": "Jørn Utzon",
+        "distratores": [
+          "Arne Jacobsen",
+          "Henning Larsen",
+          "Bjarke Ingels"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "I. M. Pei, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lina Bo Bardi, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Copenhague, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bruxelas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alhambra em Granada, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Angkor Wat na bandeira do Camboja, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Curitiba, tubos de aço e antiga pedreira, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurada em 1926, anos 1920.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obras iniciadas em 1882, século dezenove.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Morte, figura de esqueleto, puxa a corda do sino; fato conhecido e atrativo.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cor oficial International Orange, amplamente documentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nove átomos de ferro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro minaretes, confirmado.",
+      "reescrita": null
+    }
+  ]
+}
