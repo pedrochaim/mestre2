@@ -19,6 +19,8 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Objetivo:** **vence quem chega primeiro** ao fim da trilha. É uma corrida.
 
+**Tamanho do tabuleiro:** quem responde **cerca de 20 perguntas certas**, contando só o movimento de acertar (sem cartas nem outras mecânicas), chega ao fim. O comprimento da trilha sai daí: ~20 casas se cada acerto anda 1 casa, ~40 com um dado de 1 a 3, ~70 com um dado de 1 a 6. As encruzilhadas também são medidas em acertos.
+
 **Começo do jogo**
 - Cada jogador **escolhe uma profissão** e **compra uma carta**.
 - A profissão é uma **combinação de 2 temas** mais um **perk**, uma habilidade que modifica o jogo para quem a tem.
@@ -61,7 +63,7 @@ O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser
 1. O app indica quem joga e quem lê (o jogador seguinte na roda), o que resolve, neste modo, a pendência de como a vez passa (MANIFESTO §14).
 2. O jogador rola o dado no app.
 3. A casa onde o peão está, ou uma carta, define a pergunta.
-4. **Acertou:** anda o valor do dado. **Errou:** anda 1 casa, porque a vida segue e a partida tem fim previsível.
+4. **Acertou:** anda o valor do dado. **Errou:** não anda (ver Movimento).
 
 **Fases da vida e encruzilhadas** (do rascunho anterior, a rever sem dinheiro): Juventude, Vida adulta, Maturidade e Aposentadoria. Duas encruzilhadas: a Formatura (Faculdade, caminho longo, ou Trabalho, atalho) e a Aposentadoria (Vila Tranquila, garantida, ou Mansão dos Sábios, que exige 3 perguntas abertas seguidas, de 3 temas diferentes). Sem salário, cada caminho precisa de outra vantagem; uma ideia é a Faculdade dar cartas. Com o objetivo de chegar primeiro, as encruzilhadas viram escolhas de velocidade e risco (ver Consequências de ser uma corrida).
 
@@ -72,6 +74,10 @@ O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser
 - **Recuperação:** para o líder não disparar, o que pesa mais com 3 jogadores: quem está em último compra uma carta extra por rodada, e as cartas que miram oponentes só miram quem está à frente na trilha.
 - **Aposentadoria como escolha de velocidade:** a Mansão dos Sábios vira um atalho que exige 3 perguntas abertas seguidas; quem erra volta para o caminho da Vila Tranquila, mais longo e sem exigências.
 
+**Movimento** (proposta): **dado de 1 a 3** por acerto, trilha de ~40 casas. Dá a sensação de andar no tabuleiro sem que o dado decida a partida: 20 acertos andam algo entre 32 e 48 casas. **Errar não move o peão**: se errar andasse, os erros também levariam ao fim, e a meta deixaria de ser "20 acertos". A estimativa de duração, com 65% de acerto e ~40 segundos por pergunta, é de uma hora com 3 jogadores e 1h20 com 4.
+
+**Encruzilhadas em acertos** (proposta): a Faculdade exige uns 3 acertos a mais que o Trabalho, mas dá cartas; a Mansão dos Sábios economiza uns 3 acertos, mas exige 3 perguntas abertas seguidas.
+
 ## Em aberto
 
 1. **Carta de Desafio:** do jeito que está, ela só ajuda o oponente. Se ele acertar, os dois andam; se errar, nada acontece. Por que alguém a usaria? Opções:
@@ -81,9 +87,7 @@ O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser
 
    Com 3 jogadores, a versão cooperativa é a mais arriscada: quem joga a carta e quem acerta andam juntos, e o terceiro fica para trás. As versões de ataque ou de destravar não dependem do número de jogadores.
 2. **Os 2 temas da profissão:** que efeito têm no jogo, além do perk?
-3. **Duração:** uma trilha de ~60 casas dá cerca de 1 hora com 4 jogadores.
-4. **Sorte:** dado, cartas e Destino. Quanto de sorte é bom?
-5. **Peso do erro:** andar 1 casa é brando. Algo mais duro?
+3. **Movimento:** 1 casa por acerto, dado de 1 a 3 ou dado de 1 a 6 (ver Movimento).
 
 ## Prova de conceito do tabuleiro
 
