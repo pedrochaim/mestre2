@@ -1,0 +1,177 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O gavião-real também é conhecido por um nome tirado de monstros alados da mitologia grega, metade mulher e metade ave. Que nome é esse?",
+        "resposta": "Harpia"
+      },
+      "existentes": [
+        {
+          "id": "q01022",
+          "pergunta": "Esta enorme ave de rapina vive em florestas tropicais. Em que parte da floresta ela costuma ficar?",
+          "resposta": "Copas mais altas"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No Brasil, araponga, o nome de uma ave de canto metálico, virou gíria para que tipo de pessoa?",
+        "resposta": "Espião"
+      },
+      "existentes": [
+        {
+          "id": "q01029",
+          "pergunta": "Que ave é esta, de canto metálico que lembra uma marreta batendo numa bigorna?",
+          "resposta": "Araponga"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O galo virou símbolo da França por um trocadilho latino: a palavra gallus queria dizer galo e também o habitante de que região?",
+        "resposta": "Gália"
+      },
+      "existentes": [
+        {
+          "id": "q02363",
+          "pergunta": "O galo virou símbolo da França graças a um trocadilho. Que palavra latina significa ao mesmo tempo galo e gaulês?",
+          "resposta": "Gallus"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Estudos com câmeras térmicas mostraram que o bico enorme do tucano-toco serve, entre outras coisas, para ajudar a ave em quê?",
+        "resposta": "A controlar a temperatura do corpo"
+      },
+      "existentes": [
+        {
+          "id": "q01021",
+          "pergunta": "Que ave é esta, de bico enorme e laranja?",
+          "resposta": "Tucano-toco"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Para Charles Darwin, a cauda exuberante do pavão não evoluiu pela sobrevivência, mas por outro tipo de seleção. Qual?",
+        "resposta": "Seleção sexual"
+      },
+      "existentes": [
+        {
+          "id": "q01482",
+          "pergunta": "Esta ave é o macho da espécie. Como se chama a fêmea?",
+          "resposta": "Pavoa"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na Idade Média, acreditava-se que a salamandra nascia do fogo. Que hábito do animal provavelmente deu origem a essa crença?",
+        "resposta": "Esconder-se em troncos de lenha"
+      },
+      "existentes": [
+        {
+          "id": "q02316",
+          "pergunta": "Que anfíbio europeu é este?",
+          "resposta": "Salamandra-de-fogo"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em 1965, que cantora baiana ficou famosa no show Opinião ao interpretar Carcará, música de João do Vale?",
+        "resposta": "Maria Bethânia"
+      },
+      "existentes": [
+        {
+          "id": "q01025",
+          "pergunta": "Que ave de rapina é esta, de rosto laranja e pernas amarelas?",
+          "resposta": "Carcará"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "A maioria das aves tem quatro dedos em cada pé. Quantos dedos tem cada pé do avestruz?",
+        "resposta": "Dois"
+      },
+      "existentes": [
+        {
+          "id": "q01479",
+          "pergunta": "Em que continente esta ave, a maior ave viva, é nativa?",
+          "resposta": "África"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Os filhotes da cigana, ave da Amazônia, têm garras numa parte inesperada do corpo, que usam para escalar os galhos. Em qual?",
+        "resposta": "Nas asas"
+      },
+      "existentes": [
+        {
+          "id": "q01026",
+          "pergunta": "Que ave amazônica é esta, de crista espetada e olho vermelho?",
+          "resposta": "Cigana"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o nome alternativo (harpia), não o habitat."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Gíria para espião é fato distinto da identificação da ave pelo canto."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Embora o mesmo trocadilho, a nova pergunta pede a região (Gália) e a existente pede a palavra latina; porém saber um não implica o outro diretamente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Função do bico, não identificação da ave."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Seleção sexual versus nome da fêmea: fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Origem da lenda do fogo, não identificação do anfíbio."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cantora de Carcará é fato distinto da identificação da ave."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Número de dedos, não continente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Garras nas asas dos filhotes, fato distinto da aparência da ave."
+    }
+  ]
+}
