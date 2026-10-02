@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Trilha da Vida — tabuleiro v2</title>
+<style>
+  html, body { margin: 0; background: #000; color: #ecebe6; font-family: system-ui, "Segoe UI", sans-serif; }
+  svg { display: block; width: 1000px; height: 1000px; }
+</style>
+</head>
+<body>
+<div id="tabuleiro"></div>
+<script>
+// Prova de conceito v2 (2026-10-01), com as regras de manifesto/modo_trilha_da_vida.md.
+// Tipos de casa: W = "Vá trabalhar" (temas da profissão), A = Ação (sorteada do baralho), M = tema amplo,
+// B = em Branco (cartas), D = Destino.
+const CORES = {
+  "Geografia": "#006400", "Natureza": "#90EE90", "Artes e Pensamento": "#FFA500", "Cotidiano": "#FF4500",
+  "Ciências": "#C71585", "Entretenimento": "#9370DB", "Esportes": "#87CEEB", "História": "#00008B",
+};
+const TEMAS = Object.keys(CORES);
+// O baralho de casas de Ação (31, cobrindo os 73 subtemas) e as sem subtema, como "Tire férias".
+const ACOES = [
+  ["🎬", "Vá ao cinema"], ["🎤", "Vá a um show"], ["🎭", "Vá ao teatro"], ["🖼️", "Visite um museu de arte"],
+  ["📚", "Leia um livro"], ["🎮", "Noite de jogos"], ["📰", "Passe na banca de gibis"], ["🏟️", "Vá ao estádio"],
+  ["📺", "Domingo de esportes na TV"], ["🏅", "Assista às Olimpíadas"], ["🩺", "Vá ao médico"], ["🔭", "Olhe as estrelas"],
+  ["📐", "Ajude na lição de casa"], ["💻", "Visite uma feira de tecnologia"], ["🌳", "Plante uma árvore"],
+  ["🦁", "Vá ao zoológico"], ["🐠", "Visite o aquário"], ["⛺", "Acampe na mata"], ["🦕", "Visite o museu de história natural"],
+  ["✈️", "Viaje para o exterior"], ["🧭", "Faça uma expedição"], ["🚗", "Pegue a estrada pelo Brasil"],
+  ["🌍", "Faça intercâmbio"], ["🛍️", "Vá ao shopping"], ["🎉", "Vá à festa junina"], ["🗿", "Visite ruínas antigas"],
+  ["🏺", "Viaje à Grécia e a Roma"], ["🏰", "Visite um castelo"], ["🎞️", "Assista a um documentário histórico"],
+  ["📜", "Visite um museu de história"], ["💭", "Participe de um debate"],
+];
+const FERIAS = ["⛱️", "Tire férias"];
+
+// Sorteio reproduzível (cada partida teria a sua semente)
+function aleatorio(semente) { let s = semente; return () => (s = (s * 16807) % 2147483647) / 2147483647; }
+const rnd = aleatorio(20261001);
+const baralho = [...ACOES].sort(() => rnd() - .5);
+
+// Trechos: pontos de passagem (quadro 1000 × 1000, de baixo para cima) e a sequência de casas.
+const TRECHOS = [
+  { id: "juventude", rotulo: ["JUVENTUDE", 330, 990], seq: "MABWMAMWAB",
+    pts: [[135, 945], [300, 950], [490, 915], [670, 945], [850, 905]] },
+  { id: "trabalho", rotulo: ["TRABALHO · atalho", 650, 815], seq: "MWA",
+    pts: [[905, 845], [800, 795], [640, 778], [430, 742]] },
+  { id: "faculdade", rotulo: ["FACULDADE · +3 acertos, mais cartas", 735, 612], seq: "BAMWBMAWB",
+    pts: [[935, 810], [960, 690], [860, 640], [700, 680], [560, 650], [430, 720]] },
+  { id: "adulta", rotulo: ["VIDA ADULTA", 300, 490], seq: "AMWBADMWAMBW",
+    pts: [[370, 735], [200, 760], [80, 690], [100, 560], [260, 530], [440, 570], [620, 540], [800, 560], [920, 480]] },
+  { id: "maturidade", rotulo: ["MATURIDADE", 500, 402], seq: "AMWABMDWAM",
+    pts: [[930, 400], [880, 300], [720, 330], [560, 290], [400, 340], [240, 300], [110, 330], [90, 230]] },
+  { id: "vila", rotulo: ["CAMINHO DA VILA", 560, 132], seq: "WAMBWAMAW",
+    pts: [[215, 115], [370, 70], [540, 85], [700, 70], [830, 95], [900, 150]] },
+  { id: "mansao", rotulo: ["MANSÃO · 3 abertas seguidas", 430, 238], seq: "???",
+    pts: [[225, 185], [360, 205], [500, 190]] },
+];
+const MARCOS = [
+  { x: 70, y: 930, r: 40, icone: "👶", nome: "INÍCIO", fundo: "#fff" },
+  { x: 905, y: 880, r: 46, icone: "🎓", nome: "FORMATURA", fundo: "#ecebe6", borda: "#7c9cf5" },
+  { x: 405, y: 730, r: 24, icone: "🔀", nome: "", fundo: "#ecebe6", borda: "#7c9cf5" },
+  { x: 160, y: 155, r: 50, icone: "⚖️", nome: "APOSENTADORIA", fundo: "#ecebe6", borda: "#7c9cf5" },
+];
+const CHEGADAS = [
+  { x: 915, y: 218, icone: "🏡", nome: "Vila Tranquila", sub: "chegada", cor: "#4cc485" },
+  { x: 640, y: 205, icone: "🏛️", nome: "Mansão dos Sábios", sub: "chegada", cor: "#f0b429" },
+];
+
+function curva(pts, passos = 40) {
+  const p = [pts[0], ...pts, pts[pts.length - 1]], saida = [];
+  for (let i = 1; i < p.length - 2; i++)
+    for (let t = 0; t < 1; t += 1 / passos) {
+      const [a, b, c, d] = [p[i - 1], p[i], p[i + 1], p[i + 2]];
+      const f = (a, b, c, d) => .5 * (2 * b + (-a + c) * t + (2 * a - 5 * b + 4 * c - d) * t * t + (-a + 3 * b - 3 * c + d) * t * t * t);
+      saida.push([f(a[0], b[0], c[0], d[0]), f(a[1], b[1], c[1], d[1])]);
+    }
+  saida.push(pts[pts.length - 1]);
+  return saida;
+}
+function distribuir(am, n) {
+  const ac = [0];
+  for (let i = 1; i < am.length; i++) ac.push(ac[i - 1] + Math.hypot(am[i][0] - am[i - 1][0], am[i][1] - am[i - 1][1]));
+  return Array.from({ length: n }, (_, k) => am[Math.max(0, ac.findIndex(a => a >= ac.at(-1) * (k + .5) / n))]);
+}
+const caminho = a => "M" + a.map(([x, y]) => `${x.toFixed(1)} ${y.toFixed(1)}`).join("L");
+
+function svg() {
+  const estrada = [], casas = [], textos = [];
+  let tema = 0, acao = 0, ferias = false;
+  for (const t of TRECHOS) {
+    const a = curva(t.pts);
+    estrada.push(`<path d="${caminho(a)}" fill="none" stroke="${t.id === "mansao" ? "#4a3d1a" : "#3a3a36"}" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"/>`);
+    distribuir(a, t.seq.length).forEach(([x, y], k) => {
+      const tipo = t.seq[k];
+      if (tipo === "W") casas.push(`<circle cx="${x}" cy="${y}" r="23" fill="#2b2b28" stroke="#ecebe6" stroke-width="3"/><text x="${x}" y="${y + 1}" font-size="22" text-anchor="middle" dominant-baseline="central">💼</text>`);
+      else if (tipo === "M") { const c = CORES[TEMAS[(tema++ * 3) % 8]]; casas.push(`<circle cx="${x}" cy="${y}" r="22" fill="${c}" stroke="#fff" stroke-width="2"/>`); }
+      else if (tipo === "B") casas.push(`<circle cx="${x}" cy="${y}" r="22" fill="#fff" stroke="#fff" stroke-width="2"/><text x="${x}" y="${y + 1}" font-size="18" fill="#888" text-anchor="middle" dominant-baseline="central">🂠</text>`);
+      else if (tipo === "D") casas.push(`<circle cx="${x}" cy="${y}" r="23" fill="#3b2a52" stroke="#c9a7ff" stroke-width="3"/><text x="${x}" y="${y + 1}" font-size="22" text-anchor="middle" dominant-baseline="central">🔮</text>`);
+      else if (tipo === "?") casas.push(`<circle cx="${x}" cy="${y}" r="22" fill="#000" stroke="#f0b429" stroke-width="4"/><text x="${x}" y="${y + 1}" font-size="18" font-weight="800" fill="#f0b429" text-anchor="middle" dominant-baseline="central">?</text>`);
+      else {
+        const [ic] = (!ferias && acao === 6) ? (ferias = true, FERIAS) : baralho[acao++ % baralho.length];
+        casas.push(`<circle cx="${x}" cy="${y}" r="24" fill="#f4f1e8" stroke="#e0c96b" stroke-width="3"/><text x="${x}" y="${y + 2}" font-size="23" text-anchor="middle" dominant-baseline="central">${ic}</text>`);
+      }
+    });
+    textos.push(`<text x="${t.rotulo[1]}" y="${t.rotulo[2]}" font-size="15" font-weight="800" letter-spacing="2" fill="#8f8e88" text-anchor="middle">${t.rotulo[0]}</text>`);
+  }
+  const marcos = MARCOS.map(m => `<circle cx="${m.x}" cy="${m.y}" r="${m.r}" fill="${m.fundo}" ${m.borda ? `stroke="${m.borda}" stroke-width="5"` : ""}/>` +
+    `<text x="${m.x}" y="${m.y - (m.nome ? 8 : 0)}" font-size="${m.r * .62}" text-anchor="middle" dominant-baseline="central">${m.icone}</text>` +
+    (m.nome ? `<text x="${m.x}" y="${m.y + m.r * .45}" font-size="10.5" font-weight="800" fill="#161615" text-anchor="middle">${m.nome}</text>` : ""));
+  const chegadas = CHEGADAS.map(c => `<rect x="${c.x - 70}" y="${c.y - 48}" width="140" height="96" rx="16" fill="#000" stroke="${c.cor}" stroke-width="5"/>` +
+    `<text x="${c.x}" y="${c.y - 18}" font-size="30" text-anchor="middle" dominant-baseline="central">${c.icone}</text>` +
+    `<text x="${c.x}" y="${c.y + 14}" font-size="13.5" font-weight="800" fill="${c.cor}" text-anchor="middle">${c.nome}</text>` +
+    `<text x="${c.x}" y="${c.y + 32}" font-size="11" fill="#bdbcb5" text-anchor="middle">${c.sub}</text>`);
+  // Peões de exemplo
+  const peoes = [[160, 935, "#C71585", "AN"], [545, 548, "#87CEEB", "BR"], [720, 320, "#00008B", "CA"]].map(([x, y, c, i]) =>
+    `<circle cx="${x}" cy="${y - 32}" r="17" fill="#000"/><circle cx="${x}" cy="${y - 32}" r="14" fill="${c}" stroke="#fff" stroke-width="3"/>` +
+    `<text x="${x}" y="${y - 32}" font-size="11" font-weight="800" fill="#fff" text-anchor="middle" dominant-baseline="central">${i}</text>`);
+  return `<svg viewBox="0 0 1000 1000"><rect width="1000" height="1000" rx="26" fill="#161615"/>${estrada.join("")}${casas.join("")}${textos.join("")}${marcos.join("")}${chegadas.join("")}${peoes.join("")}</svg>`;
+}
+document.getElementById("tabuleiro").innerHTML = svg();
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trilha da Vida — Mão</title>
+<style>
+  /* Prova de conceito (2026-10-01): a Mão de um jogador, no aparelho dele. Mesmo visual do app (fundo preto). */
+  :root { --fundo: #000; --texto: #ecebe6; --suave: #9b9a94; --linha: #2c2c29; --cartao: #111110; --acento: #7c9cf5; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--texto); font: 16px/1.4 system-ui, "Segoe UI", sans-serif; }
+  main { width: 390px; padding: 16px; }
+  .perfil { border: 1px solid var(--linha); background: var(--cartao); border-radius: 14px; padding: .8rem 1rem; }
+  .perfil .nome { font-size: 1.25rem; font-weight: 800; }
+  .temas { display: flex; gap: .35rem; margin: .45rem 0; }
+  .temas span { border-radius: 999px; padding: .1rem .6rem; font-size: .82rem; font-weight: 700; }
+  .linha { display: flex; justify-content: space-between; color: var(--suave); font-size: .88rem; margin-top: .2rem; }
+  h2 { font-size: .85rem; letter-spacing: .08em; text-transform: uppercase; color: var(--suave); margin: 1.2rem 0 .6rem; }
+  .mao { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .45rem; }
+  .carta { position: relative; min-height: 215px; border-radius: 12px; padding: .55rem .5rem; display: flex; flex-direction: column;
+           background: linear-gradient(160deg, #23232a, #141418); border: 2px solid var(--c); box-shadow: 0 4px 14px #0008; }
+  .carta .icone { font-size: 2rem; text-align: center; margin: .3rem 0 .2rem; }
+  .carta .titulo { font-weight: 800; font-size: .82rem; text-align: center; color: var(--c); line-height: 1.15; }
+  .carta .efeito { font-size: .7rem; color: #c9c8c1; margin-top: .35rem; text-align: center; flex: 1; }
+  .carta button { margin-top: auto; border: none; border-radius: 8px; padding: .35rem; font-weight: 700; background: var(--c); color: #000; }
+  .vazia { border: 2px dashed var(--linha); border-radius: 12px; aspect-ratio: 5 / 7.2; display: flex; align-items: center;
+           justify-content: center; color: var(--suave); font-size: .8rem; text-align: center; padding: .5rem; }
+  .personalidade { margin-top: .6rem; border-left: 4px solid #c9a7ff; padding: .4rem .7rem; background: var(--cartao); border-radius: 8px; font-size: .88rem; }
+  .personalidade b { color: #c9a7ff; }
+  .aviso { margin-top: 1rem; border: 1px solid var(--linha); border-radius: 12px; padding: .7rem .9rem; font-size: .9rem; }
+  .aviso b { color: var(--acento); }
+  .barra { margin-top: 1rem; display: flex; gap: .5rem; }
+  .barra button { flex: 1; border-radius: 10px; padding: .75rem; font-weight: 700; border: 1px solid var(--linha); background: var(--cartao); color: var(--texto); }
+  .barra .principal { background: var(--acento); color: #000; border-color: var(--acento); }
+</style>
+</head>
+<body>
+<main>
+  <div class="perfil">
+    <div class="nome">Ana</div>
+    <div>🦕 Paleontóloga</div>
+    <div class="temas">
+      <span style="background:#00008B;color:#fff">História</span>
+      <span style="background:#90EE90;color:#1d1d1b">Natureza</span>
+    </div>
+    <div class="linha"><span>Vida adulta · casa 18 de 44</span><span>✓ 9 acertos</span></div>
+    <div class="personalidade"><b>Metódica:</b> uma vez por fase, se errar, responde outra pergunta do mesmo tema. <i>Disponível</i></div>
+  </div>
+
+  <h2>Sua mão · 3 de 3 cartas</h2>
+  <div class="mao">
+    <div class="carta" style="--c:#7c9cf5">
+      <div class="icone">🎯</div>
+      <div class="titulo">Escolha o tema</div>
+      <div class="efeito">A sua próxima pergunta é do tema que você escolher.</div>
+      <button>Usar</button>
+    </div>
+    <div class="carta" style="--c:#4cc485">
+      <div class="icone">🤝</div>
+      <div class="titulo">Desafio</div>
+      <div class="efeito">Mande uma pergunta a um oponente (menos o líder). Se ele acertar, os dois andam.</div>
+      <button>Usar</button>
+    </div>
+    <div class="carta" style="--c:#87CEEB">
+      <div class="icone">⚽</div>
+      <div class="titulo">Tema: Esportes</div>
+      <div class="efeito">A sua próxima pergunta é de Esportes.</div>
+      <button>Usar</button>
+    </div>
+  </div>
+
+  <div class="aviso">🂠 Você está numa <b>Casa em Branco</b>: pode usar uma carta ou comprar uma, de graça. Com a mão cheia, para comprar é preciso descartar uma.</div>
+
+  <div class="barra">
+    <button>Comprar carta</button>
+    <button class="principal">Rolar o dado (1 a 3)</button>
+  </div>
+</main>
+</body>
+</html>

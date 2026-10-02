@@ -137,9 +137,28 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 Nenhuma decisão de regra em aberto no momento. As propostas foram aceitas para refinar depois.
 
-## Prova de conceito do tabuleiro
+## Prova de conceito do tabuleiro e da Mão
 
-Um primeiro desenho está em [`../prototipos/trilha_da_vida/`](../prototipos/trilha_da_vida/): `tabuleiro.html`, que abre no navegador, e `tabuleiro.png`. É só uma **prova de conceito** (2026-10-01) e foi feito antes destas decisões: ainda tem casas de dinheiro. É uma trilha em zigue-zague de baixo para cima, com as encruzilhadas da Formatura e da Aposentadoria e cerca de 55 casas. **O desenho vai mudar completamente**; não está no app e não deve ser tomado como decisão.
+Os protótipos ficam em [`../prototipos/trilha_da_vida/`](../prototipos/trilha_da_vida/) e abrem no navegador. São **provas de conceito**: não estão no app e vão mudar.
+
+- **`tabuleiro_v2.html` e `.png` (2026-10-01):** o tabuleiro com as regras atuais. Trilha em zigue-zague de baixo para cima, pelas fases da vida, com 44 casas pelo caminho mais curto até a Vila (Trabalho e Vila). Tipos de casa:
+  - 💼 "Vá trabalhar", a cada ~4 casas;
+  - casas de Ação com o ícone da carta sorteada do baralho de 31, incluindo ⛱️ "Tire férias";
+  - casas de tema amplo, na cor do tema;
+  - 🂠 em Branco;
+  - 🔮 Destino.
+
+  Encruzilhadas:
+  - **Formatura:** Faculdade, +6 casas (~3 acertos) e com mais casas em Branco, ou Trabalho, o atalho;
+  - **Aposentadoria:** o caminho da Vila Tranquila (9 casas) ou o atalho da Mansão dos Sábios (3 perguntas abertas seguidas).
+
+  As duas chegadas valem como fim da corrida.
+- **`mao.html` e `.png` (2026-10-01):** a **Mão** de um jogador, no aparelho dele, mostrando:
+  - a profissão, com os dois temas, e a personalidade, que indica se já foi usada na fase;
+  - a posição e os acertos;
+  - as cartas da mão (3 de 3), cada uma com efeito e botão "Usar";
+  - o aviso da Casa em Branco e os botões "Comprar carta" e "Rolar o dado".
+- **`tabuleiro.html` e `.png`:** a primeira prova de conceito, anterior às regras atuais, mantida como histórico.
 
 ## O que o modo exige do app
 
