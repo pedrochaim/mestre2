@@ -1,0 +1,472 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Manga",
+        "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+        "variantes": [
+          "Mango"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tango",
+          "nome": "Tango",
+          "descricao": "Gênero musical e dança surgidos na região do Rio da Prata, entre Buenos Aires e Montevidéu",
+          "variantes": [
+            "Tango argentino"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Maçã",
+        "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+        "variantes": [
+          "Apple"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "macau",
+          "nome": "Macau",
+          "descricao": "Região administrativa especial da China, antiga possessão portuguesa",
+          "variantes": [
+            "Macao"
+          ]
+        },
+        {
+          "id": "rede_de_dormir",
+          "nome": "Rede de dormir",
+          "descricao": "Leito de tecido ou fibras suspenso entre dois pontos, de origem indígena americana.",
+          "variantes": [
+            "Hammock",
+            "Hamaca"
+          ]
+        },
+        {
+          "id": "machamp",
+          "nome": "Machamp",
+          "descricao": "Pokémon do tipo Lutador, número 68 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "jamaica",
+          "nome": "Jamaica",
+          "descricao": "País insular do Caribe, terceira maior ilha das Grandes Antilhas, cuja capital é Kingston.",
+          "variantes": []
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Romã",
+        "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+        "variantes": [
+          "Granada",
+          "Pomegranate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "canada",
+          "nome": "Canadá",
+          "descricao": "País da América do Norte cuja capital é Ottawa.",
+          "variantes": []
+        },
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "ironman",
+          "nome": "Ironman",
+          "descricao": "Triatlo de longa distância criado no Havaí em 1978, com natação, ciclismo e corrida.",
+          "variantes": [
+            "Ironman Triathlon",
+            "Ironman World Championship"
+          ]
+        },
+        {
+          "id": "romario",
+          "nome": "Romário",
+          "descricao": "Ex-atacante brasileiro, nascido em 1966, campeão mundial em 1994 e depois político, senador pelo Rio de Janeiro.",
+          "variantes": [
+            "Romário de Souza Faria"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tomate",
+        "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+        "variantes": [
+          "Tomate-cereja",
+          "Tomato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "vombate",
+          "nome": "Vombate",
+          "descricao": "Marsupial escavador australiano da família Vombatidae.",
+          "variantes": [
+            "Wombat",
+            "Vombatidae"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Caju",
+        "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+        "variantes": [
+          "Maçã-de-caju",
+          "Cashew apple"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cafu",
+          "nome": "Cafu",
+          "descricao": "Marcos Evangelista de Morais, lateral-direito brasileiro, capitão da seleção campeã mundial em 2002.",
+          "variantes": [
+            "Marcos Evangelista de Morais"
+          ]
+        },
+        {
+          "id": "cajuina",
+          "nome": "Cajuína",
+          "descricao": "Bebida sem álcool feita de suco de caju clarificado e cozido, típica do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "malhacao_de_judas",
+          "nome": "Malhação de Judas",
+          "descricao": "Costume popular de surrar e queimar um boneco que representa Judas Iscariotes durante a Semana Santa.",
+          "variantes": [
+            "Queima do Judas",
+            "Malhar o Judas"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Noz-moscada",
+        "descricao": "Semente da árvore Myristica fragrans, usada como tempero, ilustrada com ramo, flores e frutos.",
+        "variantes": [
+          "Nutmeg"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nauatle",
+          "nome": "Náuatle",
+          "descricao": "Língua indígena do México, falada pelos astecas",
+          "variantes": [
+            "Nahuatl",
+            "Náhuatl",
+            "Língua asteca"
+          ]
+        },
+        {
+          "id": "bandeira_da_noruega",
+          "nome": "Bandeira da Noruega",
+          "descricao": "Bandeira nacional atual do Reino da Noruega, vermelha com cruz nórdica azul bordada de branco.",
+          "variantes": [
+            "Noruega",
+            "Norges flagg"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Uva",
+        "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+        "variantes": [
+          "Grape"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gripe",
+          "nome": "Gripe",
+          "descricao": "Doença respiratória contagiosa causada pelos vírus influenza.",
+          "variantes": [
+            "Influenza",
+            "Flu"
+          ]
+        },
+        {
+          "id": "admiral_graf_spee",
+          "nome": "Admiral Graf Spee",
+          "descricao": "Navio de guerra alemão da classe Deutschland, afundado pela própria tripulação no Rio da Prata em dezembro de 1939.",
+          "variantes": [
+            "Graf Spee",
+            "Encouraçado de bolso Graf Spee"
+          ]
+        },
+        {
+          "id": "emirados_arabes_unidos",
+          "nome": "Emirados Árabes Unidos",
+          "descricao": "Federação de emirados na Península Arábica cuja capital é Abu Dhabi.",
+          "variantes": [
+            "EAU",
+            "United Arab Emirates",
+            "UAE"
+          ]
+        },
+        {
+          "id": "girafa",
+          "nome": "Girafa",
+          "descricao": "Mamífero africano de pescoço longo do gênero Giraffa.",
+          "variantes": [
+            "Giraffa",
+            "Giraffe"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Rambutã",
+        "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+        "variantes": [
+          "Rambutão",
+          "Rambutan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan"
+          ]
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "gambito",
+          "nome": "Gambito",
+          "descricao": "Abertura de xadrez em que um jogador sacrifica material, geralmente um peão, em troca de vantagem.",
+          "variantes": [
+            "Gambit"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Manga (fruta) não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Maçã (fruta) não consta entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Romã (fruta) é diferente de todas as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Tomate não consta entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Caju (pseudofruto) é diferente da cajuína, que é uma bebida."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Noz-moscada não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Uva não consta entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Rambutã é uma fruta, diferente de todas as candidatas."
+    }
+  ]
+}

@@ -30095,5 +30095,189 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q01850",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "manga",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fruta tropical é esta, vendida nestas bacias?",
+    "resposta": "Manga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mango",
+      "https://pt.wikipedia.org/wiki/Manga_%28fruta%29"
+    ],
+    "imagem": {
+      "arquivo": "q01850.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mangga_aneka_071019-0835_tmo.jpg",
+      "autor": "W.A. Djatmiko (Wie146)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01851",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "maca",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que fruta é esta?",
+    "resposta": "Maçã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apple",
+      "https://pt.wikipedia.org/wiki/Ma%C3%A7%C3%A3"
+    ],
+    "imagem": {
+      "arquivo": "q01851.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Honeycrisp.jpg",
+      "autor": "Jonathunder",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01852",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "roma",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fruta é esta, ainda pendurada na árvore?",
+    "resposta": "Romã",
+    "distratores": [
+      "Caqui",
+      "Marmelo",
+      "Pitanga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pomegranate",
+      "https://pt.wikipedia.org/wiki/Rom%C3%A3"
+    ],
+    "imagem": {
+      "arquivo": "q01852.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Punica_granatum_004.JPG",
+      "autor": "H. Zell",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01853",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "tomate",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fruta é esta, ainda presa ao pé?",
+    "resposta": "Tomate",
+    "distratores": [
+      "Pitanga",
+      "Acerola",
+      "Cereja"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tomato",
+      "https://pt.wikipedia.org/wiki/Tomate"
+    ],
+    "imagem": {
+      "arquivo": "q01853.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pomodorini_sulla_pianta.jpg",
+      "autor": "User:Luigi Chiesa",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01854",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "caju",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A árvore que dá esta fruta é originária de qual região do Brasil?",
+    "resposta": "Nordeste",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cashew",
+      "https://pt.wikipedia.org/wiki/Cajueiro"
+    ],
+    "imagem": {
+      "arquivo": "q01854.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cashew_apples.jpg",
+      "autor": "Abhishek Jacob",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01855",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "noz_moscada",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que tempero vem da semente desta planta?",
+    "resposta": "Noz-moscada",
+    "distratores": [
+      "Cardamomo",
+      "Cravo-da-índia",
+      "Pimenta-do-reino"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nutmeg"
+    ],
+    "imagem": {
+      "arquivo": "q01855.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Myristica_fragrans_-_Köhler–s_Medizinal-Pflanzen-097.jpg",
+      "autor": "Franz Eugen Köhler, Köhler's Medizinal-Pflanzen",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01856",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "uva",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que bebida fermentada é feita com esta fruta?",
+    "resposta": "Vinho",
+    "distratores": [
+      "Cerveja",
+      "Sidra",
+      "Hidromel"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grape",
+      "https://pt.wikipedia.org/wiki/Uva"
+    ],
+    "imagem": {
+      "arquivo": "q01856.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Wine_grapes03.jpg",
+      "autor": "Fir0002",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q01857",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "rambuta",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fruta asiática de casca peluda é esta?",
+    "resposta": "Rambutã",
+    "distratores": [
+      "Lichia",
+      "Pitaia",
+      "Mangostão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rambutan",
+      "https://pt.wikipedia.org/wiki/Rambut%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q01857.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Rambutan_masak_didahan.JPG",
+      "autor": "Tu7uh",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

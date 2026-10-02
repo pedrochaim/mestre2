@@ -1,0 +1,197 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mangas em bacias num mercado, bem reconhecíveis; pessoas só ao fundo.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta tropical é esta, vendida nestas bacias?",
+      "resposta": "Manga",
+      "ancora": {
+        "nome": "Manga",
+        "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+        "variantes": [
+          "Mango"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra um broto verde de planta parecida com gengibre/costus, sem rizoma; não é reconhecível com segurança como gengibre."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Flor e botões do urucuzeiro: pouco reconhecíveis e sem o fruto ou as sementes; resposta não é clara pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Maçã vermelha em primeiro plano, nítida e inequívoca.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Maçã",
+      "ancora": {
+        "nome": "Maçã",
+        "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+        "variantes": [
+          "Apple"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Romãs na árvore, formato com coroa característico; boa para múltipla com frutas redondas avermelhadas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta, ainda pendurada na árvore?",
+      "resposta": "Romã",
+      "distratores": [
+        "Caqui",
+        "Marmelo",
+        "Pitanga"
+      ],
+      "ancora": {
+        "nome": "Romã",
+        "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+        "variantes": [
+          "Granada",
+          "Pomegranate"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Só folhas verdes do anis-estrelado; sem o fruto em forma de estrela, não é reconhecível e pode ser confundido com outras plantas."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cachos de tomates-cereja maduros e verdes na planta, claros; múltipla com frutas pequenas e vermelhas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta é esta, ainda presa ao pé?",
+      "resposta": "Tomate",
+      "distratores": [
+        "Pitanga",
+        "Acerola",
+        "Cereja"
+      ],
+      "ancora": {
+        "nome": "Tomate",
+        "descricao": "Fruto do tomateiro (Solanum lycopersicum), consumido como hortaliça.",
+        "variantes": [
+          "Tomate-cereja",
+          "Tomato"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Dois cajus com a castanha pendurada na ponta, bem visível; permite pergunta de nível 3 sobre a castanha.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que castanha, comida torrada, cresce pendurada na ponta desta fruta?",
+      "resposta": "Castanha-de-caju",
+      "ancora": {
+        "nome": "Caju",
+        "descricao": "Pseudofruto amarelo ou avermelhado do cajueiro (Anacardium occidentale), com a castanha presa na ponta.",
+        "variantes": [
+          "Maçã-de-caju",
+          "Cashew apple"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ilustração botânica de Köhler (domínio público), sem texto, com ramo, semente e macis vermelho; reconhecível para múltipla.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tempero vem da semente desta planta?",
+      "resposta": "Noz-moscada",
+      "distratores": [
+        "Cardamomo",
+        "Cravo-da-índia",
+        "Pimenta-do-reino"
+      ],
+      "ancora": {
+        "nome": "Noz-moscada",
+        "descricao": "Semente da árvore Myristica fragrans, usada como tempero, ilustrada com ramo, flores e frutos.",
+        "variantes": [
+          "Nutmeg"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cacho de uvas escuras bem nítido; permite ligação com o vinho.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que bebida fermentada é feita com esta fruta?",
+      "resposta": "Vinho",
+      "distratores": [
+        "Cerveja",
+        "Sidra",
+        "Hidromel"
+      ],
+      "ancora": {
+        "nome": "Uva",
+        "descricao": "Fruto em cachos da videira (gênero Vitis), consumido fresco, seco ou usado na vinificação.",
+        "variantes": [
+          "Grape"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mostra flores e botões da árvore do cravo, não o cravo seco; pouco reconhecível e pode ser confundida com outras mirtáceas."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Rambutãs na árvore, casca vermelha peluda inconfundível; múltipla com frutas asiáticas parecidas.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fruta asiática de casca peluda é esta?",
+      "resposta": "Rambutã",
+      "distratores": [
+        "Lichia",
+        "Pitaia",
+        "Mangostão"
+      ],
+      "ancora": {
+        "nome": "Rambutã",
+        "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+        "variantes": [
+          "Rambutão",
+          "Rambutan"
+        ]
+      }
+    }
+  ]
+}
