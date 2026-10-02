@@ -1,0 +1,82 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que apelido Machado de Assis recebeu, a partir do nome da rua carioca onde morou até morrer?",
+        "resposta": "Bruxo do Cosme Velho"
+      },
+      "existentes": [
+        {
+          "id": "q02235",
+          "pergunta": "Que escritor brasileiro do século dezenove é este?",
+          "resposta": "Machado de Assis"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Ao ajudar a fundar a Academia Brasileira de Letras, Machado de Assis escolheu que romancista romântico como patrono da sua cadeira?",
+        "resposta": "José de Alencar"
+      },
+      "existentes": [
+        {
+          "id": "q02235",
+          "pergunta": "Que escritor brasileiro do século dezenove é este?",
+          "resposta": "Machado de Assis"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A Semana de Arte Moderna, em fevereiro de 1922, foi realizada no ano do centenário de que acontecimento?",
+        "resposta": "Independência do Brasil"
+      },
+      "existentes": [
+        {
+          "id": "q00158",
+          "pergunta": "A Semana de Arte Moderna foi realizada em 1922, ano escolhido por coincidir com qual comemoração nacional?",
+          "resposta": "Centenário da Independência"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O caipira Jeca Tatu, retratado como símbolo do atraso rural no livro Urupês, foi criado por que escritor?",
+        "resposta": "Monteiro Lobato"
+      },
+      "existentes": [
+        {
+          "id": "q01078",
+          "pergunta": "O caipira Jeca Tatu, que Mazzaropi levou às telas de cinema, foi criado por qual escritor brasileiro?",
+          "resposta": "Monteiro Lobato"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o apelido 'Bruxo do Cosme Velho'; a existente apenas pede identificar o escritor."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o patrono da cadeira na ABL, fato distinto da identificação do escritor."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que comemoração (centenário da Independência) coincide com 1922."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem criou Jeca Tatu, com a mesma resposta (Monteiro Lobato)."
+    }
+  ]
+}

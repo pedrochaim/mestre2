@@ -1,0 +1,993 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Gregório de Matos",
+        "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+        "variantes": [
+          "Gregório de Matos e Guerra",
+          "Boca do Inferno"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gregório_de_Matos"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por suas sátiras ferinas contra os poderosos da Bahia, o poeta barroco Gregório de Matos ganhou que apelido?",
+      "resposta": "Boca do Inferno",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gregório_de_Matos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gregório de Matos",
+        "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica.",
+        "variantes": [
+          "Gregório de Matos e Guerra",
+          "Boca do Inferno"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gregório_de_Matos"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "No fim da vida, o poeta Gregório de Matos foi degredado de Salvador para que colônia portuguesa na África?",
+      "resposta": "Angola",
+      "distratores": [
+        "Moçambique",
+        "Cabo Verde",
+        "Guiné"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gregório_de_Matos"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "machado_de_assis",
+        "nome": "Machado de Assis",
+        "descricao": "Escritor brasileiro (1839–1908), fundador da Academia Brasileira de Letras, autor de Dom Casmurro.",
+        "variantes": [
+          "Joaquim Maria Machado de Assis"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Machado_de_Assis"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que apelido ligado à feitiçaria Machado de Assis recebeu, em referência ao bairro carioca onde morou por décadas?",
+      "resposta": "Bruxo do Cosme Velho",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Machado_de_Assis"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "machado_de_assis",
+        "nome": "Machado de Assis",
+        "descricao": "Escritor brasileiro (1839–1908), fundador da Academia Brasileira de Letras, autor de Dom Casmurro.",
+        "variantes": [
+          "Joaquim Maria Machado de Assis"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Machado_de_Assis"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Ao ajudar a fundar a Academia Brasileira de Letras, Machado de Assis escolheu que romancista romântico como patrono da sua cadeira?",
+      "resposta": "José de Alencar",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Machado_de_Assis",
+        "https://pt.wikipedia.org/wiki/José_de_Alencar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dom Casmurro",
+        "descricao": "Romance de Machado de Assis publicado em 1899, narrado por Bento Santiago.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dom_Casmurro"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em Dom Casmurro, Bento Santiago ganha esse apelido de um jovem poeta, ofendido porque Bento fez o quê enquanto ouvia seus versos no trem?",
+      "resposta": "Cochilou",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dom_Casmurro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Iracema",
+        "descricao": "Romance indianista de José de Alencar publicado em 1865.",
+        "variantes": [
+          "Iracema, Lenda do Ceará"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Iracema"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Iracema, a virgem dos lábios de mel de José de Alencar, tem exatamente as mesmas letras de que palavra?",
+      "resposta": "América",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Iracema"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Vou-me Embora pra Pasárgada",
+        "descricao": "Poema de Manuel Bandeira, do livro Libertinagem, de 1930.",
+        "variantes": [
+          "Pasárgada"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Manuel_Bandeira"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Pasárgada, o paraíso onde Manuel Bandeira é amigo do rei, tem o nome de uma antiga capital de que império?",
+      "resposta": "Império Persa",
+      "distratores": [
+        "Império Romano",
+        "Império Bizantino",
+        "Império Otomano"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pasárgada",
+        "https://pt.wikipedia.org/wiki/Manuel_Bandeira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sagarana",
+        "descricao": "Livro de contos de estreia de Guimarães Rosa, publicado em 1946.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Sagarana"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O título Sagarana, de Guimarães Rosa, junta a palavra saga a um sufixo tupi que significa o quê?",
+      "resposta": "Semelhante a",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Sagarana"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "O Quinze",
+        "descricao": "Romance de estreia de Rachel de Queiroz, publicado em 1930.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Quinze"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O título do romance O Quinze, de Rachel de Queiroz, faz referência a quê?",
+      "resposta": "À grande seca de 1915",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Quinze"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Movimento Armorial",
+        "descricao": "Movimento artístico criado por Ariano Suassuna no Recife em 1970, baseado na cultura popular nordestina.",
+        "variantes": [
+          "Armorial"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Movimento_Armorial"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Ariano Suassuna batizou seu movimento artístico de Armorial, palavra que designa uma coleção de quê?",
+      "resposta": "Brasões",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Movimento_Armorial"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Patrícia Galvão",
+        "descricao": "Escritora, jornalista e militante modernista brasileira (1910–1962).",
+        "variantes": [
+          "Pagu"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Patrícia_Galvão"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Juntando as primeiras sílabas de um nome que achava ser o dela, como o poeta Raul Bopp apelidou a escritora Patrícia Galvão?",
+      "resposta": "Pagu",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Patrícia_Galvão"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cora Coralina",
+        "descricao": "Poeta e doceira goiana (1889–1985), da Cidade de Goiás.",
+        "variantes": [
+          "Ana Lins dos Guimarães Peixoto Bretas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cora_Coralina"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A poeta e doceira goiana Ana Lins dos Guimarães Peixoto Bretas ficou famosa sob que pseudônimo?",
+      "resposta": "Cora Coralina",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cora_Coralina"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tomás Antônio Gonzaga",
+        "descricao": "Poeta árcade luso-brasileiro (1744–1810), autor de Marília de Dirceu e participante da Inconfidência Mineira.",
+        "variantes": [
+          "Tomás Antônio Gonzaga"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tomás_Antônio_Gonzaga"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Nas liras que dedicou à amada Marília, o poeta árcade Tomás Antônio Gonzaga se apresenta com que nome de pastor?",
+      "resposta": "Dirceu",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tomás_Antônio_Gonzaga",
+        "https://pt.wikipedia.org/wiki/Marília_de_Dirceu"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Memórias Póstumas de Brás Cubas",
+        "descricao": "Romance de Machado de Assis narrado por um defunto, lançado em livro em 1881.",
+        "variantes": [
+          "Memórias Póstumas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Memórias Póstumas, o defunto narrador conta que pegou a pneumonia que o matou por andar obcecado com a invenção de que remédio?",
+      "resposta": "Um emplasto anti-hipocondríaco",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Memórias Póstumas de Brás Cubas",
+        "descricao": "Romance de Machado de Assis narrado por um defunto, lançado em livro em 1881.",
+        "variantes": [
+          "Memórias Póstumas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O romance de Machado de Assis narrado por um defunto, considerado marco inicial do Realismo no Brasil, foi lançado em livro em que ano?",
+      "resposta": "1881",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Triste Fim de Policarpo Quaresma",
+        "descricao": "Romance de Lima Barreto publicado em livro em 1915, sobre um major ultranacionalista.",
+        "variantes": [
+          "Policarpo Quaresma"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Triste_Fim_de_Policarpo_Quaresma"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Num romance de Lima Barreto, o patriótico major Policarpo Quaresma vira motivo de chacota ao pedir que o Brasil adote qual língua oficial?",
+      "resposta": "Tupi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Triste_Fim_de_Policarpo_Quaresma"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Euclides da Cunha",
+        "descricao": "Escritor e engenheiro brasileiro (1866–1909), autor de Os Sertões.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Euclides_da_Cunha"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1909, Euclides da Cunha morreu num tiroteio depois de ir armado à casa do jovem militar Dilermando de Assis. Qual era o motivo?",
+      "resposta": "Dilermando era amante de sua esposa",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Euclides_da_Cunha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manuel Bandeira",
+        "descricao": "Poeta modernista pernambucano (1886–1968), autor de Libertinagem.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Manuel_Bandeira"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que doença, descoberta na juventude, fez Manuel Bandeira abandonar o curso de arquitetura e marcou toda a sua poesia?",
+      "resposta": "Tuberculose",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Manuel_Bandeira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guimarães Rosa",
+        "descricao": "Escritor, médico e diplomata mineiro (1908–1967), autor de Grande Sertão: Veredas.",
+        "variantes": [
+          "João Guimarães Rosa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/João_Guimarães_Rosa"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Guimarães Rosa adiou por quatro anos sua posse na Academia Brasileira de Letras. Que medo ele alegava?",
+      "resposta": "De morrer de emoção",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/João_Guimarães_Rosa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Clarice Lispector",
+        "descricao": "Escritora brasileira nascida na Ucrânia (1920–1977), autora de A Hora da Estrela.",
+        "variantes": [
+          "Chaya Pinkhasivna Lispector"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Clarice_Lispector"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1966, Clarice Lispector sofreu queimaduras graves, sobretudo na mão direita, num incêndio em seu quarto. O que o provocou?",
+      "resposta": "Dormiu com um cigarro aceso",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Clarice_Lispector"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Clarice Lispector",
+        "descricao": "Escritora brasileira nascida na Ucrânia (1920–1977), autora de A Hora da Estrela.",
+        "variantes": [
+          "Chaya Pinkhasivna Lispector"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Clarice_Lispector"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Clarice Lispector chegou ao Brasil ainda bebê, com a família fugindo de perseguições. Em que país ela nasceu?",
+      "resposta": "Ucrânia",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Clarice_Lispector"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Incidente em Antares",
+        "descricao": "Romance de Erico Verissimo publicado em 1971, ambientado numa cidade fictícia do Rio Grande do Sul.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Incidente_em_Antares"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Incidente em Antares, de Erico Verissimo, por que sete mortos ficam sem enterro e se levantam dos caixões?",
+      "resposta": "Greve geral, incluindo os coveiros",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Incidente_em_Antares"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Macunaíma",
+        "descricao": "Romance modernista de Mário de Andrade publicado em 1928, sobre o herói sem nenhum caráter.",
+        "variantes": [
+          "Macunaíma, o herói sem nenhum caráter"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Macunaíma_(livro)",
+          "https://en.wikipedia.org/wiki/Macunaíma_(novel)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em Macunaíma, de Mário de Andrade, o herói viaja até São Paulo para recuperar que amuleto, presente de sua amada Ci?",
+      "resposta": "Muiraquitã",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Macunaíma_(livro)",
+        "https://en.wikipedia.org/wiki/Macunaíma_(novel)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manifesto Antropófago",
+        "descricao": "Manifesto de Oswald de Andrade publicado em 1928, base do Movimento Antropofágico.",
+        "variantes": [
+          "Manifesto Antropofágico"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Manifesto_Antropófago"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que quadro de Tarsila do Amaral, dado de presente a Oswald de Andrade, inspirou o Manifesto Antropófago?",
+      "resposta": "Abaporu",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Abaporu",
+        "https://pt.wikipedia.org/wiki/Manifesto_Antropófago"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manifesto Antropófago",
+        "descricao": "Manifesto de Oswald de Andrade publicado em 1928, base do Movimento Antropofágico.",
+        "variantes": [
+          "Manifesto Antropofágico"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Manifesto_Antropófago"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que frase em inglês do Manifesto Antropófago, de Oswald de Andrade, parodia o famoso dilema de Hamlet?",
+      "resposta": "Tupi or not tupi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Manifesto_Antropófago"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gonçalves Dias",
+        "descricao": "Poeta romântico maranhense (1823–1864), autor da Canção do Exílio.",
+        "variantes": [
+          "Antônio Gonçalves Dias"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gonçalves_Dias"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1864, voltando doente da Europa, Gonçalves Dias morreu perto da costa do Maranhão. Qual foi a causa?",
+      "resposta": "O naufrágio do seu navio",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gonçalves_Dias"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Castro Alves",
+        "descricao": "Poeta romântico baiano (1847–1871), autor de O Navio Negreiro.",
+        "variantes": [
+          "Antônio Frederico de Castro Alves",
+          "Poeta dos Escravos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Castro_Alves"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1868, um tiro acidental de espingarda durante uma caçada levou à amputação de que parte do corpo do poeta Castro Alves?",
+      "resposta": "O pé esquerdo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Castro_Alves"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Canção do Exílio",
+        "descricao": "Poema romântico de Gonçalves Dias escrito em 1843, que começa com Minha terra tem palmeiras.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Canção_do_Exílio"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A letra do Hino Nacional Brasileiro aproveita versos sobre bosques com mais vida e vida com mais amores. Eles vêm de que poema romântico?",
+      "resposta": "Canção do Exílio",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Canção_do_Exílio",
+        "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Canção do Exílio",
+        "descricao": "Poema romântico de Gonçalves Dias escrito em 1843, que começa com Minha terra tem palmeiras.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Canção_do_Exílio"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O poema em que Gonçalves Dias sente saudade das palmeiras e dos sabiás foi escrito em que cidade portuguesa?",
+      "resposta": "Coimbra",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Canção_do_Exílio"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "O Guarani",
+        "descricao": "Romance indianista de José de Alencar publicado em 1857, com o herói Peri.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Guarani"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O romance O Guarani, de José de Alencar, virou uma ópera estreada no Teatro alla Scala, em Milão. Quem a compôs?",
+      "resposta": "Carlos Gomes",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Il_Guarany",
+        "https://pt.wikipedia.org/wiki/O_Guarani"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Semana de Arte Moderna",
+        "descricao": "Festival de artes realizado no Theatro Municipal de São Paulo em fevereiro de 1922, marco do Modernismo brasileiro.",
+        "variantes": [
+          "Semana de 22"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A Semana de Arte Moderna, em fevereiro de 1922, foi realizada no ano do centenário de que acontecimento?",
+      "resposta": "Independência do Brasil",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cecília Meireles",
+        "descricao": "Poeta carioca (1901–1964), autora do Romanceiro da Inconfidência.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cecília_Meireles"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na história do dinheiro brasileiro, o que Cecília Meireles tem em comum com Machado de Assis e Carlos Drummond de Andrade?",
+      "resposta": "Estamparam cédulas brasileiras",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cruzado_novo",
+        "https://pt.wikipedia.org/wiki/Cecília_Meireles"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Orfeu da Conceição",
+        "descricao": "Peça de Vinicius de Moraes, de 1956, que leva o mito de Orfeu a um morro carioca.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Orfeu_da_Conceição"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que filme, vencedor da Palma de Ouro em 1959, adaptou uma peça de Vinicius de Moraes que leva um mito grego a um morro carioca?",
+      "resposta": "Orfeu Negro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Orfeu_Negro",
+        "https://pt.wikipedia.org/wiki/Orfeu_da_Conceição"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Morte e Vida Severina",
+        "descricao": "Auto de Natal em versos de João Cabral de Melo Neto, sobre a jornada do retirante Severino.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Morte_e_Vida_Severina"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1965, a montagem de Morte e Vida Severina pelo teatro da PUC de São Paulo ganhou música de que jovem compositor?",
+      "resposta": "Chico Buarque",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Morte_e_Vida_Severina"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Aracy de Carvalho",
+        "descricao": "Funcionária do consulado brasileiro em Hamburgo que ajudou judeus a fugir do nazismo, reconhecida como Justa entre as Nações.",
+        "variantes": [
+          "Aracy de Carvalho Guimarães Rosa",
+          "Anjo de Hamburgo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Aracy_de_Carvalho"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Aracy de Carvalho, que ajudou judeus a fugir da Alemanha nazista pelo consulado de Hamburgo, foi esposa de que escritor brasileiro?",
+      "resposta": "Guimarães Rosa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Aracy_de_Carvalho",
+        "https://pt.wikipedia.org/wiki/João_Guimarães_Rosa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Luis Fernando Verissimo",
+        "descricao": "Cronista e humorista gaúcho, criador do Analista de Bagé.",
+        "variantes": [
+          "Luís Fernando Veríssimo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Luis_Fernando_Verissimo"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O cronista criador do Analista de Bagé e da Velhinha de Taubaté é filho de que romancista gaúcho?",
+      "resposta": "Erico Verissimo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Luis_Fernando_Verissimo",
+        "https://pt.wikipedia.org/wiki/Erico_Verissimo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monteiro Lobato",
+        "descricao": "Escritor paulista (1882–1948), criador do Sítio do Picapau Amarelo.",
+        "variantes": [
+          "José Bento Renato Monteiro Lobato"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Monteiro_Lobato"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1917, a crítica de Monteiro Lobato que ficou conhecida como Paranoia ou Mistificação atacou a exposição de que pintora?",
+      "resposta": "Anita Malfatti",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Anita_Malfatti",
+        "https://pt.wikipedia.org/wiki/Monteiro_Lobato"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Olavo Bilac",
+        "descricao": "Poeta parnasiano carioca (1865–1918), autor da letra do Hino à Bandeira.",
+        "variantes": [
+          "Olavo Brás Martins dos Guimarães Bilac"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Olavo_Bilac"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Dia do Reservista, comemorado em dezesseis de dezembro, homenageia o nascimento de que poeta parnasiano, defensor do serviço militar obrigatório?",
+      "resposta": "Olavo Bilac",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Olavo_Bilac"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Graciliano Ramos",
+        "descricao": "Romancista alagoano (1892–1953), autor de Vidas Secas e São Bernardo.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Graciliano_Ramos"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Antes da fama, Graciliano Ramos foi prefeito de que cidade alagoana, onde seus relatórios oficiais chamaram atenção pelo estilo?",
+      "resposta": "Palmeira dos Índios",
+      "distratores": [
+        "Maceió",
+        "Penedo",
+        "Quebrangulo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Graciliano_Ramos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quarto de Despejo",
+        "descricao": "Diário de Carolina Maria de Jesus publicado em 1960, sobre a vida numa favela de São Paulo.",
+        "variantes": [
+          "Quarto de Despejo: Diário de uma Favelada"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Quarto_de_Despejo",
+          "https://pt.wikipedia.org/wiki/Carolina_Maria_de_Jesus"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Quarto de Despejo, de Carolina Maria de Jesus, é o diário da vida dela em que favela paulistana?",
+      "resposta": "Canindé",
+      "distratores": [
+        "Heliópolis",
+        "Paraisópolis",
+        "Brasilândia"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Carolina_Maria_de_Jesus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Auto da Compadecida",
+        "descricao": "Peça teatral de Ariano Suassuna, de 1955, protagonizada por João Grilo e Chicó.",
+        "variantes": [
+          "O Auto da Compadecida"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Auto_da_Compadecida"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em que pequena cidade do sertão paraibano se passa o Auto da Compadecida, de Ariano Suassuna?",
+      "resposta": "Taperoá",
+      "distratores": [
+        "Campina Grande",
+        "Patos",
+        "Sousa"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Auto_da_Compadecida"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Sertão: Veredas",
+        "descricao": "Romance de Guimarães Rosa publicado em 1956, narrado pelo jagunço Riobaldo.",
+        "variantes": [
+          "Grande Sertão Veredas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Grande_Sertão:_Veredas"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que palavra antiga, que significa coisa sem importância, abre o romance Grande Sertão Veredas, de Guimarães Rosa?",
+      "resposta": "Nonada",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Grande_Sertão:_Veredas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Visconde de Sabugosa",
+        "descricao": "Personagem sábio do Sítio do Picapau Amarelo, de Monteiro Lobato.",
+        "variantes": [
+          "Visconde"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Visconde_de_Sabugosa"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O sábio Visconde de Sabugosa, do Sítio do Picapau Amarelo, foi feito por Tia Nastácia com um pedaço de que planta?",
+      "resposta": "Milho",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Visconde_de_Sabugosa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Jeca Tatu",
+        "descricao": "Personagem caipira criado por Monteiro Lobato nos textos reunidos em Urupês.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jeca_Tatu"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "O caipira Jeca Tatu, retratado como símbolo do atraso rural no livro Urupês, foi criado por que escritor?",
+      "resposta": "Monteiro Lobato",
+      "distratores": [
+        "Mário de Andrade",
+        "Lima Barreto",
+        "Graciliano Ramos"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Jeca_Tatu"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "A Moreninha",
+        "descricao": "Romance romântico publicado em 1844, ambientado na ilha de Paquetá.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/A_Moreninha"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que médico e escritor publicou em 1844 A Moreninha, romance romântico ambientado numa ilha da baía de Guanabara?",
+      "resposta": "Joaquim Manuel de Macedo",
+      "distratores": [
+        "José de Alencar",
+        "Bernardo Guimarães",
+        "Manuel Antônio de Almeida"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/A_Moreninha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rachel de Queiroz",
+        "descricao": "Escritora cearense (1910–2003), autora de O Quinze.",
+        "variantes": [
+          "Raquel de Queirós"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rachel_de_Queiroz"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Rachel de Queiroz se tornou a primeira mulher eleita para a Academia Brasileira de Letras em que década?",
+      "resposta": "Anos 1970",
+      "distratores": [
+        "Anos 1950",
+        "Anos 1960",
+        "Anos 1980"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rachel_de_Queiroz"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mário de Andrade",
+        "descricao": "Escritor e musicólogo paulista (1893–1945), líder do Modernismo e autor de Macunaíma.",
+        "variantes": [
+          "Mário Raul de Morais Andrade"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mário_de_Andrade"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Mário de Andrade contou ter escrito a primeira versão de Macunaíma, numa chácara em Araraquara, em quantos dias de rede, cigarros e cigarras?",
+      "resposta": "Seis dias",
+      "distratores": [
+        "Três dias",
+        "Quinze dias",
+        "Quarenta dias"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Macunaíma_(livro)",
+        "https://en.wikipedia.org/wiki/Macunaíma_(novel)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Álvares de Azevedo",
+        "descricao": "Poeta ultrarromântico paulista (1831–1852), autor de Lira dos Vinte Anos e Noite na Taverna.",
+        "variantes": [
+          "Manuel Antônio Álvares de Azevedo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Álvares_de_Azevedo"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "O poeta ultrarromântico Álvares de Azevedo, autor de Noite na Taverna, morreu com quantos anos?",
+      "resposta": "Vinte anos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Álvares_de_Azevedo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Paulo Leminski",
+        "descricao": "Poeta curitibano (1944–1989), conhecido por seus haicais e poemas curtos.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Paulo_Leminski"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "O poeta curitibano Paulo Leminski, mestre dos poemas curtos inspirados no haicai, era faixa preta de que arte marcial?",
+      "resposta": "Judô",
+      "distratores": [
+        "Caratê",
+        "Jiu-jítsu",
+        "Taekwondo"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Paulo_Leminski"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eu",
+        "descricao": "Único livro de poemas publicado em vida por Augusto dos Anjos, em 1912.",
+        "variantes": [
+          "Eu e Outras Poesias"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Augusto_dos_Anjos"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "O poeta paraibano Augusto dos Anjos publicou em vida um só livro de poemas, cujo título tem uma única palavra. Qual é ele?",
+      "resposta": "Eu",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Augusto_dos_Anjos"
+      ]
+    }
+  ]
+}

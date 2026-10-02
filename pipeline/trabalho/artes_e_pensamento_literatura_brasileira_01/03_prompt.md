@@ -1,0 +1,1514 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Literatura Brasileira** (tema **Artes e Pensamento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Gregório de Matos",
+      "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por suas sátiras ferinas contra os poderosos da Bahia, o poeta barroco Gregório de Matos ganhou que apelido?",
+    "resposta": "Boca do Inferno",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gregório_de_Matos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gregório_de_Matos",
+        "situacao": "ok",
+        "texto": "Gregório de Matos e Guerra (Salvador, 23 de dezembro de 1636 – Recife, 26 de novembro de 1696), alcunhado de Boca do Inferno ou Boca de Brasa, foi um advogado e poeta do Brasil Colônia. É considerado um dos maiores poetas do barroco em Portugal e no Brasil e o mais importante poeta satírico da literatura em língua portuguesa no período colonial.\n[…]\nVoltou ao Brasil em 1679, nomeado pelo arcebispo Gaspar Barata de Mendonça, desembargador da Relação Eclesiástica da Bahia. Em 1682, D. Pedro II, rei de Portugal, nomeou Gregório de Matos como tesoureiro-mor da Sé, um ano depois de ter tomado ordens menores. Em Portugal já ganhara a reputação de poeta satírico e improvisador.\n[…]\nComeçou então a satirizar os costumes do povo de todas as classes sociais baianas (a que chamará \"canalha infernal\") ou aos nobres (apelidados de \"caramurus\"). Desenvolve uma poesia corrosiva, erótica (quase ou mesmo pornográfica), apesar de também ter andado por caminhos mais líricos e mesmo sagrados.\n[…]\nA alcunha boca do inferno foi dada a Gregório por sua ousadia em criticar a Igreja Católica, muitas vezes atacando padres e freiras. Criticava também a \"cidade da Bahia\", ou seja, Salvador, como neste soneto:\n[…]\nSegundo Clóvis Monteiro, que reuniu as informações mencionadas nesse parágrafo, \"Tudo faz crer, pois, que não é Gregório de Matos o autor desse soneto\".\n[…]\nSegundo Valentin (2013), as primeiras representações da homossexualidade na literatura brasileira das quais se tem conhecimento estão em alguns poemas satíricos de Gregório de Matos.\n[…]\nSenhora Dona Bahia\n[…]\nImpaciência do poeta\n[…]\nTriste Bahia\n[…]\nFundação Gregório de Matos\n[…]\nBiografia e obras de Gregório de Matos no Núcleo de Pesquisas em Informática, Literatura e Linguística\n[…]\nObras Poéticas de Gregório de Matos\n[…]\nMemória Viva de Gregório de Matos\n[…]\nJornal da Poesia - Gregório de Matos\n[…]\nA Música no Tempo de Gregório de Matos"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Gregório de Matos",
+      "descricao": "Poeta barroco baiano do século dezessete, famoso por sua poesia satírica."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "No fim da vida, o poeta Gregório de Matos foi degredado de Salvador para que colônia portuguesa na África?",
+    "resposta": "Angola",
+    "distratores": [
+      "Moçambique",
+      "Cabo Verde",
+      "Guiné"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gregório_de_Matos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gregório_de_Matos",
+        "situacao": "ok",
+        "texto": "Gregório de Matos e Guerra (Salvador, 23 de dezembro de 1636 – Recife, 26 de novembro de 1696), alcunhado de Boca do Inferno ou Boca de Brasa, foi um advogado e poeta do Brasil Colônia. É considerado um dos maiores poetas do barroco em Portugal e no Brasil e o mais importante poeta satírico da literatura em língua portuguesa no período colonial.\n[…]\nVoltou ao Brasil em 1679, nomeado pelo arcebispo Gaspar Barata de Mendonça, desembargador da Relação Eclesiástica da Bahia. Em 1682, D. Pedro II, rei de Portugal, nomeou Gregório de Matos como tesoureiro-mor da Sé, um ano depois de ter tomado ordens menores. Em Portugal já ganhara a reputação de poeta satírico e improvisador.\n[…]\nEntretanto, as inimizades cresceram em relação direta com os poemas que vai criando. Em 1694, acusado por vários lados (principalmente por parte do governador Antônio Luís Gonçalves da Câmara Coutinho) e correndo o risco de ser assassinado, é deportado para Angola. A condenação tida como mais leve é atribuída ao amigo e protetor D. João de Lencastre, então governador da Bahia. Dizem que Lencastre mantinha livro público no qual eram copiadas as poesias de Gregório.\n[…]\nComo recompensa por ter ajudado o governo local a combater uma conspiração militar, recebeu a permissão de voltar ao Brasil, ainda que sem permissão de voltar à Bahia. Morreu em Recife, vitimado por uma febre contraída em Angola.\n[…]\nA alcunha boca do inferno foi dada a Gregório por sua ousadia em criticar a Igreja Católica, muitas vezes atacando padres e freiras. Criticava também a \"cidade da Bahia\", ou seja, Salvador, como neste soneto:\n[…]\nImpaciência do poeta\n[…]\nBiografia e obras de Gregório de Matos no Núcleo de Pesquisas em Informática, Literatura e Linguística\n[…]\nObras Poéticas de Gregório de Matos\n[…]\nMemória Viva de Gregório de Matos\n[…]\nJornal da Poesia - Gregório de Matos\n[…]\nA Música no Tempo de Gregório de Matos"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Machado de Assis",
+      "descricao": "Escritor brasileiro (1839–1908), fundador da Academia Brasileira de Letras, autor de Dom Casmurro."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que apelido ligado à feitiçaria Machado de Assis recebeu, em referência ao bairro carioca onde morou por décadas?",
+    "resposta": "Bruxo do Cosme Velho",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Machado_de_Assis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Machado_de_Assis",
+        "situacao": "ok",
+        "texto": "Joaquim Maria Machado de Assis (Rio de Janeiro, 21 de junho de 1839 – Rio de Janeiro, 29 de setembro de 1908) foi um escritor brasileiro, amplamente reconhecido por críticos, estudiosos, escritores e leitores como o maior expoente da literatura brasileira. Sua produção literária abrangeu praticamente todos os gêneros, incluindo poesia, romance, crônica, dramaturgia, conto, folhetim, jornalismo e c\n[…]\nDepois do Catete, foram morar na casa n.º 18 da Rua Cosme Velho (a residência mais famosa do casal), onde ficariam até a morte. Do nome da rua surgira o apelido Bruxo do Cosme Velho, dado por conta de um episódio onde Machado queimava suas cartas em um caldeirão, no sobrado da casa, quando a vizinhança certa vez o viu e gritou: \"Olha o Bruxo do Cosme Velho!\". Essa história acrescida à da cachorra, para alguns biógrafos, não passa de lenda.\n[…]\nÀs 3h20m de 29 de setembro de 1908 na casa de Cosme Velho, Machado de Assis morre aos sessenta e nove anos de idade com uma úlcera cancerosa na boca; sua certidão de óbito relata que morrera de arteriosclerose generalizada, incluindo esclerose cerebral, o que, para alguns, figura questionável pelo motivo de mostrar-se lúcido nas últimas cartas já relatadas.\n[…]\nAlencar, Mário de. \"Advertência da edição de 1910\". In: ASSIS, Joaquim Maria Machado de. Crítica Literária. Organizado por Mário de Alencar. Rio de Janeiro: W. M. Jackson,1959, pp. 7–10. (Obras completas de Machado de Assis)\n[…]\nAssis, Joaquim Maria Machado de. Crítica Literária. Organizado por Mário de Alencar. Rio de Janeiro: W. M. Jackson, 1959.\n[…]\nScarano, Júlia Maria Leonor (1969). Grandes Personagens Da Nossa História (Machado de Assis). Brasil: Abril Cultural\n[…]\nTrotto, Maria Regina H. Newlands (1991). «A antipsiquiatria e Machado de Assis: O Alienista». Jornal Brasileiro de Psiquiatria. 40 (8): 413–417. Cópia arquivada em 17 de maio de 2026  – via Pergamum\n[…]\n«Machado de Assis real»"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Machado de Assis",
+      "descricao": "Escritor brasileiro (1839–1908), fundador da Academia Brasileira de Letras, autor de Dom Casmurro."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Ao ajudar a fundar a Academia Brasileira de Letras, Machado de Assis escolheu que romancista romântico como patrono da sua cadeira?",
+    "resposta": "José de Alencar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Machado_de_Assis",
+      "https://pt.wikipedia.org/wiki/José_de_Alencar"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Machado_de_Assis",
+        "situacao": "ok",
+        "texto": "Joaquim Maria Machado de Assis (Rio de Janeiro, 21 de junho de 1839 – Rio de Janeiro, 29 de setembro de 1908) foi um escritor brasileiro, amplamente reconhecido por críticos, estudiosos, escritores e leitores como o maior expoente da literatura brasileira. Sua produção literária abrangeu praticamente todos os gêneros, incluindo poesia, romance, crônica, dramaturgia, conto, folhetim, jornalismo e c\n[…]\nEm suas últimas semanas, Machado de Assis escreveu cartas a Salvador de Mendonça (7 de setembro de 1908), a José Veríssimo (1 de setembro de 1908), a Mário de Alencar (6 de agosto de 1908), a Joaquim Nabuco (1 de agosto de 1908), a Oliveira Lima (1 de agosto de 1908), entre outros, demonstrando ainda estar lúcido.\n[…]\nJosé de Alencar chamou Machado de Assis \"o primeiro crítico brasileiro\". De fato, o escritor foi um prolífico analisador da literatura de sua época antes mesmo de Sílvio Romero. Além de percorrer e analisar as obras publicadas em sua época, ele escrevia sobre a literatura vigente. Mário de Alencar escreve que Machado começou como crítico antes mesmo de ser romancista: pretérito a Ressurreição (1872), suas críticas iniciaram-se em 1858.\n[…]\nFigura popular na cultura brasileira, Machado de Assis foi homenageado pelas escolas de samba Mocidade Independente de Padre Miguel, no carnaval de 2009, e Beija-Flor de Nilópolis, no carnaval de 2022. Já em 1868, José de Alencar chamaria Machado de \"o primeiro crítico brasileiro\".\n[…]\nRomances\n[…]\nJobim, José Luís (org). A biblioteca de Machado de Assis. Rio de Janeiro: Topbooks/Academia Brasileira de Letras, 2001.\n[…]\nNeto, Lira (2006). O inimigo do rei: uma biografia de José de Alencar, ou, a mirabolante aventura de um romancista que colecionava desafetos, azucrinava d. Pedro II e acabou inventando o Brasil. Brasil: Editora GLOBO. ISBN 978-85-250-4116-6\n[…]\n«Machado de Assis (Academia Brasileira de Letras)»\n[…]\n«Mário de Alencar, filho de Machado de Assis?»"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/José_de_Alencar",
+        "situacao": "ok",
+        "texto": "José Martiniano de Alencar (Fortaleza, 1.º de maio de 1829 — Rio de Janeiro, 12 de dezembro de 1877) foi um jornalista, advogado, político, ensaísta e escritor brasileiro. É considerado o principal e o mais importante escritor do romantismo no Brasil, sendo identificado com a primeira geração do movimento e popularmente alcunhado como \"pai da literatura brasileira\".\n[…]\nDescendia dos Alencar, família prestigiada e participativa no contexto revolucionário pernambucano, de 1817. Tornou-se notável como jurista, parlamentar imperial, escritor e polemista ativo nos periódicos do Império Brasileiro. A notabilidade rendeu-lhe homenagens, correspondências e reconhecimento de contemporâneos como Machado de Assis, que lhe tornou patrono na Academia Brasileira de Letras. Na mesma medida em que lhe rendeu críticas imediatas e posteriores.\n[…]\nNeste colégio José de Alencar completou a educação primária. E a este colégio, com todas as suas experiências, dedica o segundo capítulo do opúsculo Como e porque sou Romancista, rendendo gratas palavras ao antigo professor e à instituição.\n[…]\nNo velório, Machado de Assis esteve presente e descreveu a morte de seu companheiro das letras em sua coluna “História de Quinze dias”, da revista Illustração Brasileira: “Toda a história destes quinze dias está resumida em um só instante, e num acontecimento único: a morte de José de Alencar. Ao pé desse fúnebre sucesso, tudo o mais empalidece”.\n[…]\n\"Novidade de nossa Academia foi, em falta de antecedentes, criarem-nos, espiritualmente, nos patronos. Machado de Assis, o primeiro da companhia, por vários títulos, quis dar a José de Alencar a primazia que tem, e deve ter, na literatura nacional. A justiça não guiou a vários dos seus companheiros. Luís Murat, por sentimento exclusivamente, entendeu honrar um amigo morto, infeliz poeta, menos poeta que infeliz, Adelino Fontoura.\""
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Dom Casmurro",
+      "descricao": "Romance de Machado de Assis publicado em 1899, narrado por Bento Santiago."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em Dom Casmurro, Bento Santiago ganha esse apelido de um jovem poeta, ofendido porque Bento fez o quê enquanto ouvia seus versos no trem?",
+    "resposta": "Cochilou",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Dom_Casmurro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dom_Casmurro",
+        "situacao": "ok",
+        "texto": "Dom Casmurro é um romance escrito por Machado de Assis, publicado em 1899 pela Livraria Garnier. Escrito para publicação em livro, o que ocorreu em 1900 – embora com data do ano anterior, ao contrário de Memórias Póstumas de Brás Cubas (1881) e Quincas Borba (1891), escritos antes em folhetins –, é considerado pela crítica o terceiro romance da \"Trilogia Realista\" de Machado de Assis, ao lado dess\n[…]\nNo primeiro capítulo, o autor justifica o título: é uma homenagem a um \"poeta do trem\" que certa vez o importunou com seus versos e que lhe chamou de \"Dom Casmurro\" por ter, segundo Bento, \"fechado os olhos três ou quatro vezes\" durante a recitação. Seus vizinhos, que lhe estranhavam os \"hábitos reclusos e calados\", e também seus amigos próximos, popularizaram a alcunha.\n[…]\nVisando o enjoo que o debate crítico da temática do ciúme desencadeou a partir de então, autores como, por exemplo, José Aderaldo Castello, afirmavam que Dom Casmurro não é o romance do ciúme, mas da dúvida: \"é por excelência o romance que exprime o conflito atroz e insolúvel entre a verdade subjetiva e as insinuações de alto poder de infiltração, geradas por coincidências, aparências e equívocos, imediata ou tardiamente alimentados por intuições.\" Não se desconsidera, portanto, as já citadas hipótese de que Bento Santiago esteja realmente falando a verdade e Capitu o traiu e a de que Machado quis deixar a verdade nas mãos do leitor.\n[…]\nArtur de Azevedo elogiou a obra duas vezes e numa delas escreveu: \"Dom Casmurro é um desses livros impossíveis de resumir, porque é na vida interior de Bento Santiago que reside todo o seu encanto, toda a sua força\", e concluiu que \"O que é tudo, porém, neste livro sombrio e triste, onde há páginas escritas com lágrimas e sangue, é a fina psicologia das duas figuras capitais e o nobre e soberbo estilo da narrativa.\"\n[…]\nDom Casmurro (em PDF, ePub e Mobi) no site Bíblioteca Mundial"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Iracema",
+      "descricao": "Romance indianista de José de Alencar publicado em 1865."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Iracema, a virgem dos lábios de mel de José de Alencar, tem exatamente as mesmas letras de que palavra?",
+    "resposta": "América",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Iracema"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Iracema",
+        "situacao": "ok",
+        "texto": "Iracema (originalmente, Iracema: Lenda do Ceará) é um romance brasileiro publicado em 1865 e escrito por José de Alencar que faz parte da trilogia indianista do autor. Os outros dois romances pertencentes à trilogia são O Guarani e Ubirajara.\n[…]\nEm Iracema, Alencar criou uma lenda mitológica e poética para as origens de sua terra natal, o Ceará, conhecida como \"a terra onde canta a jandaia\". Por este mesmo motivo, a o título completo da obra é \"Iracema: Lenda do Ceará\". A história se inicia com o encontro entre a indígena Iracema, do povo tabajara, e um homem branco de olhos azuis chamado Martim.Iracema, a virgem dos lábios de mel, que tinha os cabelos mais negros que a asa da graúna, e mais longos que seu talhe de palmeira.\n[…]\nA \"virgem dos lábios de mel\" tornou-se símbolo do Ceará, e seu filho, Moacir, nascido de seus amores com o colonizador português Martim, representa o primeiro cearense, fruto da união das duas raças. A história é uma representação do que aconteceu com a América na época de colonização europeia.\n[…]\nHá uma falsa etimologia popular que atribui o nome \"Iracema\" como sendo um anagrama da palavra \"América\", mas o próprio autor, José de Alencar, desmentiu o boato e explicou a real inspiração por trás do nome. Em uma nota de rodapé na primeira edição do romance, o autor afirma que o nome tem origem na língua tupi e significa \"lábios de mel\", pois \"Iracema\" seria a junção das palavras \"ira\" (mel) e \"tembé\" (lábios).\n[…]\nEm 1951, pela Editora Brasil-América Limitada, André Le Blanc ilustrou uma adaptação de Iracema. Em 1957, Gedeone Malagola adaptou o romance para a revista Vida Juvenil da editora Vida Doméstica, para a mesma revista também adaptou O Guarani e Ubirajara."
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Vou-me Embora pra Pasárgada",
+      "descricao": "Poema de Manuel Bandeira, do livro Libertinagem, de 1930."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Pasárgada, o paraíso onde Manuel Bandeira é amigo do rei, tem o nome de uma antiga capital de que império?",
+    "resposta": "Império Persa",
+    "distratores": [
+      "Império Romano",
+      "Império Bizantino",
+      "Império Otomano"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pasárgada",
+      "https://pt.wikipedia.org/wiki/Manuel_Bandeira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pasárgada",
+        "situacao": "ok",
+        "texto": "Pasárgada ou Pasárgadas (em persa: پاسارگاد‎, transl. Pāsārgād; em grego: Πασαργάδες; em latim: Pasargadae) era uma cidade da antiga Pérsia, atualmente um sítio arqueológico na província de Fars, no Irã, situado 87 quilómetros a nordeste de Persépolis. Foi a primeira capital do Império Aquemênida, no tempo de Ciro II, e coexistiu com as demais, dado que era costume persa manter várias capitais em \n[…]\nA construção de Pasárgada foi iniciada por Ciro II, e foi mantida inacabada devido à morte de Ciro em batalha. Pasárgada manteve-se como capital até que Dario III iniciou a mudança para Persépolis. O nome moderno vem do grego, mas pode ter derivado de um outro usado no Império Aquemênida, Pasragada.\n[…]\nForasteiro, sou Ciro, que deu aos Persas um Império, e fui Rei da Ásia\n[…]\nÓ forasteiro, quem quer que sejas, de onde quer que venhas, porque sei que virás, sou Ciro, que fundou o Império dos Persas\n[…]\nNa literatura brasileira, Manuel Bandeira, consagrou o nome da cidade como um lugar ironicamente ideal, em Vou-me embora pra Pasárgada.\n[…]\nBandeira explica:\n[…]\nMais de vinte anos depois, quando eu morava só na minha casa da Rua do Curvelo, num momento de fundo desânimo, da mais aguda doença, saltou-me de súbito do subconsciente esse grito estapafúrdio: “Vou-me embora pra Pasárgada!”. Senti na redondilha a primeira célula de um poema [...]\"\n[…]\nEm 2009 a Litteris Editora do Rio de Janeiro, abriu um concurso de Antologia sobre a obra de Manuel Bandeira. Com a participação de 1307 poemas, dos quais foram selecionados 119, foi publicado o livro intitulado Uma Viagem para Pasárgada.\n[…]\nOs Grandes Impérios do Mundo, \"Os Persas\", Resomnia Editores, 1972."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manuel_Bandeira",
+        "situacao": "ok",
+        "texto": "Manuel Carneiro de Sousa Bandeira Filho (Recife, 19 de abril de 1886 – Rio de Janeiro, 13 de outubro de 1968) foi um poeta, crítico literário e de arte, professor e tradutor brasileiro, considerado um dos maiores expoentes da poesia brasileira e uma figura-chave do modernismo no Brasil.\n[…]\nSe em Libertinagem, seu quarto livro, a felicidade aparece em poemas como \"Vou-me embora pra Pasárgada\", onde é questão a evocação sonhadora de um país imaginário, o pays de cocagne, onde todo desejo, principalmente erótico, é satisfeito, não se trata senão de um alhures intangível, de um locus amenus espiritual. Em Bandeira, o objeto de anseio estará sempre envolto em névoas e fora do alcance.\n[…]\nLançando mão do tropo português da \"saudade\", poemas como Vou-me embora pra Pasárgada e tantos outros encontram um símile na nostálgica rememoração bandeiriana da infância, da vida de rua, do mundo cotidiano das provincianas cidades brasileiras do início do século. O inapreensível é também o feminino e o erótico. Dividido entre uma idealidade simpática às uniões diáfanas e platônicas e uma carnalidade voluptuosa, Manuel Bandeira é, em muitos de seus poemas, um poeta da culpa.\n[…]\nHomenagem a Manuel Bandeira (sessenta autores)\n[…]\nManuel Bandeira: Libertinagem/Estrela da Manhã. Giulia Lanciani. São Paulo: ALLCA XX, 1998.\n[…]\nCD Manuel Bandeira: O Poeta de Botafogo - Gravações inéditas feitas pelo poeta e por Lauro Moreira, tendo como fundo musical peças de Camargo Guarnieri, interpretadas pela pianista Belkiss Carneiro Mendonça, 2005.\n[…]\nMedia relacionados com Manuel Bandeira no Wikimedia Commons\n[…]\n«Poemas de Manuel Bandeira»\n[…]\n«Academia Brasileira de Letras - Biografia de Manuel Bandeira»\n[…]\n«Enciclopédia Itaú Cultural - Biografia de Manuel Bandeira»\n[…]\n«Artigo sobre a história de vida de Manuel Bandeira»"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Sagarana",
+      "descricao": "Livro de contos de estreia de Guimarães Rosa, publicado em 1946."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O título Sagarana, de Guimarães Rosa, junta a palavra saga a um sufixo tupi que significa o quê?",
+    "resposta": "Semelhante a",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Sagarana"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sagarana",
+        "situacao": "ok",
+        "texto": "Sagarana é um livro de contos publicado por João Guimarães Rosa em 1946 e cuja primeira versão foi por ele inscrita no Concurso Humberto de Campos, da livraria José Olympio, sob o título de Contos, em 1938, e que assinou sob o pseudônimo de Viator. Essa publicação foi premiada com o segundo lugar no concurso, perdendo para Maria Perigosa, de Luís Jardim.\n[…]\nO título da obra é um hibridismo: \"saga\", radical de origem germânica que significa \"canto heroico\", \"lenda\"; e \"rana\", palavra de origem tupi que significa \"que exprime semelhança \". Assim Sagarana significa algo como \"próximo a uma saga\".\n[…]\nGuimarães Rosa cria neologismos em Sagarana, utilizando-se de palavras formadas por derivações sufixal, prefixal, parassintética e também por abreviação, composição aglutinada e composição justaposta. A obra é repleta de neologismos que se sobressaem em composições e derivações novas, além “de novos tipos de construção frasal”, ditos \"neologismos sintáticos”, segundo Mattoso Câmara.\n[…]\nAlgumas figuras de linguagem tais como: metáforas, anacoluto e silepse têm também grande destaque. Além disso, o autor faz uso de recursos melopeicos, que são únicos em sua obra. Como disse Guimarães Rosa, “as palavras têm canto e plumagem” (Borba, 1946), e, por isso mesmo, cada uma delas leva a significados diversos, ainda que essa diversidade possa ser muito sutil e só apreendida em um exercício de interpretação.\n[…]\nCom efeito, Guimarães apela para os aspectos auditivos (“canto”) e visuais (“plumagem”), fazendo um verdadeiro arranjo sonoro com as palavras. Isso se sobressai principalmente em O Burrinho Pedrês e São Marcos.\n[…]\nEm carta a João Condé, Guimarães Rosa (2001, p. 25) revela que Sagarana se passaria no interior de Minas Gerais, na paisagem das fazendas e vaqueiros — mundo da infância e juventude do autor.\n[…]\nJoão Guimarães Rosa"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "O Quinze",
+      "descricao": "Romance de estreia de Rachel de Queiroz, publicado em 1930."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O título do romance O Quinze, de Rachel de Queiroz, faz referência a quê?",
+    "resposta": "À grande seca de 1915",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Quinze"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Quinze",
+        "situacao": "ok",
+        "texto": "O Quinze é o primeiro e mais popular romance de Rachel de Queiroz, publicado em 1930. O título se refere à grande seca de 1915, vivida pela escritora em sua infância. O livro tem 26 capítulos e foi escrito durante um período de enfermidade da escritora, aos 19 anos de idade. É amplamente considerado a obra-prima de Rachel de Queiroz.\n[…]\nUma frase que ilustra bem o quê Chico Bento passou, durante a seca devastadora no Nordeste.\n[…]\nPublicado em 1930, numa edição de mil exemplares, teve inesperada repercussão no Rio e em São Paulo. Aos vinte anos, Rachel de Queiroz já se projetava na vida literária do País, com o romance realista sobre o drama da miséria e a seca.\n[…]\nPara o poeta Augusto Frederico Schmidt, ela escreveu o romance da seca de 1915 com imenso fervor: “O livro surpreende pela experiência, pelo repouso, pelo domínio da emoção e isto a tal ponto que estive inclinado a supor que D. Rachel de Queiroz fosse apenas um nome escondendo outro nome. Tudo o que se passa em “O Quinze”, dentro de um ambiente de absoluta realidade, tudo acontece com a mais perfeita naturalidade, que é mantida em todo o livro, sem nenhuma queda.”\n[…]\n\"O Quinze\" teve grande impacto sobre a literatura brasileira desde o seu lançamento e atraiu desconfiança por parte de alguns, como testemunha o escritor alagoano Graciliano Ramos em crítica de 1937: \"O quinze caiu de repente ali por meados de 30 e fez nos espíritos estragos maiores que o romance de José Américo, por ser livro de mulher e, o que realmente causava assombro, de mulher nova. Seria realmente de mulher? Não acreditei.\n[…]\nCom o titulo L'année de la grande sécheresse , O Quinze foi traduzido em francês por Jane Lessa e Didier Voïta (Bibliothèque Cosmopolite Stock, 1986, ISBN 2-234-01933-8."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Movimento Armorial",
+      "descricao": "Movimento artístico criado por Ariano Suassuna no Recife em 1970, baseado na cultura popular nordestina."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Ariano Suassuna batizou seu movimento artístico de Armorial, palavra que designa uma coleção de quê?",
+    "resposta": "Brasões",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Movimento_Armorial"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Movimento_Armorial",
+        "situacao": "ok",
+        "texto": "O Movimento Armorial foi uma iniciativa artística cujo objetivo seria criar uma arte erudita a partir de elementos da cultura popular do Nordeste brasileiro. Para tanto, buscava convergir e orientar todas as formas de expressões artísticas: música, dança, literatura, artes plásticas, teatro, cinema, arquitetura, etc. Um dos idealizadores e principal nome do movimento foi o escritor Ariano Suassuna\n[…]\nO escritor Raimundo Carrero, que participou da fundação do Movimento junto a Ariano, entende que o momento fundador do Movimento Armorial foi a publicação do Romance da Pedra do Reino, de Ariano Suassuna, em 1971. Houve uma grande repercussão no meio literário brasileiro com a publicação do romance, e isso teria servido para popularizar todo o restante do trabalho coordenado por Ariano.\n[…]\nO Movimento Armorial surgiu, portanto, sob a inspiração e direção de Ariano Suassuna, com a colaboração de diversos artistas e escritores da Região Nordeste do Brasil e o apoio do Departamento de Extensão Cultural da Pró-Reitoria para Assuntos Comunitários da Universidade Federal de Pernambuco.\n[…]\nO Instituto Brincante, espaço cultural criado pelo artista Antônio Nóbrega na capital paulista, era chamado por Ariano de \"consulado do Movimento Armorial\". O Brincante buscava difundir uma espécie de corpo popular brasileiro, forjado nas andanças de Nóbrega pelo Nordeste.\n[…]\nO Movimento Armorial tinha a pretensão de realizar uma arte nacional erudita baseada nas raízes populares da cultura nordestina e, assim sendo, convergir diversas artes para este fim. Segundo Suassuna, sendo \"armorial\" o conjunto de insígnias, brasões, estandartes e bandeiras de um povo, a heráldica é uma arte muito mais popular do que qualquer coisa. Desse modo o nome adotado significou o desejo de ligação com essas heráldicas raízes culturais brasileiras."
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Patrícia Galvão",
+      "descricao": "Escritora, jornalista e militante modernista brasileira (1910–1962)."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Juntando as primeiras sílabas de um nome que achava ser o dela, como o poeta Raul Bopp apelidou a escritora Patrícia Galvão?",
+    "resposta": "Pagu",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Patrícia_Galvão"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Patrícia_Galvão",
+        "situacao": "ok",
+        "texto": "Patrícia Rehder Galvão, conhecida como Pagu, (São João da Boa Vista, 9 de junho de 1910 – Santos, 12 de dezembro de 1962) foi uma escritora, poetisa, encenadora, tradutora, desenhista, cartunista, jornalista e militante comunista brasileira. Teve expressivo destaque no movimento modernista iniciado em 1922, embora não tivesse participado da Semana de Arte Moderna, tendo na época apenas doze anos d\n[…]\nBem antes de se tornar Pagu, apelido que lhe foi dado pelo poeta Raul Bopp, Zazá, como era conhecida em família, já era uma mulher avançada para os padrões da época, com seu comportamento considerado extravagante, defendendo as causas feministas. Fumava e bebia em público, usava roupas colantes e transparentes, usava cabelos curtos, manteve diversos relacionamentos amorosos, e costumava falar palavrões.\n[…]\nEmbora tenha se tornado a musa dos modernistas, Pagu não participou da Semana de Arte Moderna. Tinha apenas doze anos em 1922, quando a Semana se realizou. Entretanto, aos dezoito anos, pouco depois de completar o curso na Escola Normal da capital paulista, integra-se ao movimento antropofágico, sob a influência de Oswald de Andrade e Tarsila do Amaral. O apelido Pagu surgiu de um erro do poeta modernista Raul Bopp, ao dedicar a ela, em 1928, o poema \"Coco de Pagu\":\n[…]\nBopp inventara o apelido, imaginando que seu nome fosse \"Patrícia Goulart\" e pretendendo fazer uma brincadeira com as primeiras sílabas do nome. O poema de Raul Bopp foi também responsável por tornar célebre a jovem Pagu. Foi publicado em vários jornais da época e interpretado por sua musa no palco do Teatro Municipal de São Paulo, em 1929.\n[…]\nLúcia Teixeira (org.). Os Cadernos de Pagu: manuscritos de Patrícia Galvão. São Paulo: Nocelli e Unisanta, 2023. 328p.\n[…]\nSilvana Jeha (org.); Patrícia Galvão (Pagú): Até onde chega a sonda, escritos prisionais. São Paulo: Fósforo, 2023. p.144p.\n[…]\nMemória de Pagu é resgatada do lixo"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Cora Coralina",
+      "descricao": "Poeta e doceira goiana (1889–1985), da Cidade de Goiás."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A poeta e doceira goiana Ana Lins dos Guimarães Peixoto Bretas ficou famosa sob que pseudônimo?",
+    "resposta": "Cora Coralina",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cora_Coralina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cora_Coralina",
+        "situacao": "ok",
+        "texto": "Cora Coralina, pseudônimo de Anna Lins dos Guimarães Peixoto Bretas (Cidade de Goiás, 20 de agosto de 1889 — Goiânia, 10 de abril de 1985), foi uma poetisa e contista brasileira. Considerada uma das mais importantes escritoras brasileiras, teve seu primeiro livro, Poemas dos Becos de Goiás e Estórias Mais, publicado em junho de 1965, quando já tinha quase 76 anos de idade, apesar de escrever seus \n[…]\nAnna Lins dos Guimarães Peixoto Bretas, que adotou o pseudônimo de Cora Coralina, era filha de Francisco de Paula Lins dos Guimarães Peixoto, desembargador nomeado por D. Pedro II, e de dona Jacyntha Luiza do Couto Brandão.\n[…]\nEla nasceu e foi criada às margens do Rio Vermelho. Estima-se que essa casa foi construída em meados do Século XVIII, tendo sido uma das primeiras edificações da antiga Vila Boa (Goiás), tendo vários moradores, dentre eles o Capitão-Mor da Coroa Portuguesa. Em 1825 a casa foi posta em hasta pública pela fazenda Real e adquirida pelo Sargento-Mor João José do Couto Guimarães, trisavô de Cora Coralina.\n[…]\nCORALINA, Cora. Villa Boa de Goyaz. Global Editora, 2001.\n[…]\nDENÓFRIO, Darcy França; CAMARGO, Goiandira Ortiz de. Cora Coralina: Celebração da Volta. Cânone Editorial, 2006. Darcy Franca Denofrio.\n[…]\nBRITTO, Clóvis Carvalho; SEDA, Rita Elisa. Cora Coralina - Raízes de Aninha. Editora Ideias & Letras, 2011, 2a. edição.\n[…]\nMuseu Casa de Cora Coralina na Cidade de Goiás\n[…]\nPoemas de Cora Coralina\n[…]\nBiografia de Cora Coralina da Enciclopédia Itaú Cultural\n[…]\nArtigo intitulado 'A estética dos becos em Cora Coralina ou \"Um modo diferente de contar velhas estórias\"'\n[…]\nArtigo intitulado \"A economia simbólica dos acervos literários: itinerários de produção da crença em Cora Coralina\"\n[…]\nDoodle de comemoração do 128º aniversário de Cora Coralina\n[…]\nCasa de Cora Coralina, juntamente com o busto e o poema que se encontra do lado direito da porta principal.\n[…]\nCora Coralina - História de vida"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Tomás Antônio Gonzaga",
+      "descricao": "Poeta árcade luso-brasileiro (1744–1810), autor de Marília de Dirceu e participante da Inconfidência Mineira."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Nas liras que dedicou à amada Marília, o poeta árcade Tomás Antônio Gonzaga se apresenta com que nome de pastor?",
+    "resposta": "Dirceu",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tomás_Antônio_Gonzaga",
+      "https://pt.wikipedia.org/wiki/Marília_de_Dirceu"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tomás_Antônio_Gonzaga",
+        "situacao": "ok",
+        "texto": "Tomás António Gonzaga (Miragaia, Porto, 11 de agosto de 1744 — Ilha de Moçambique, 1810), cujo nome arcádico é Dirceu, foi um jurista, poeta e ativista político participante da Inconfidência Mineira, movimento pela independência de Minas Gerais, precursor do processo que conduziu à separação do Brasil de Portugal. Considerado o mais proeminente dos poetas árcades, é ainda hoje estudado em escolas \n[…]\nA poesia de Tomás António Gonzaga apresenta as típicas características árcades e neoclássicas: o pastoril, o bucólico, a Natureza amena, o equilíbrio etc. Paralelamente, possui características pré-românticas (principalmente na segunda parte de Marília de Dirceu, escrita na prisão): confissões de sentimento pessoal, ênfase emotiva estranha aos padrões do neoclassicismo, descrição de paisagens brasileiras, etc.\n[…]\nTomás António Gonzaga escreveu versos marcados por expressão própria, pela harmonização dos elementos racionais e afetivos e por um leve toque de sensualidade. Segundo Alfredo Bosi, Gonzaga está acima de tudo preocupado em \"achar a versão literária mais justa dos seus cuidados\". Assim, \"a figura de Marília, os amores ainda não realizados e a mágoa da separação entram apenas como 'ocasiões' no cancioneiro de Dirceu\", o que diferencia o autor dos seus futuros colegas românticos.\n[…]\nÉ interessante atentar para alguns aspectos dessa obra de Gonzaga. Cada lira é um dialogo de Dirceu com sua pastora Marília, mas, embora a obra tenha a estrutura de um diálogo, só Dirceu fala (trata-se de um monólogo), chamando Marília em geral com vocativos. Para o crítico Antonio Candido, o melhor título para a obra seria Dirceu de Marília, mas o patriarcalismo de Gonzaga nunca lhe permitiria pôr-se como a coisa possuída. Sem esquecer que Tomás António Gonzaga morreu de paixão.\n[…]\n«Tomás António Gonzaga - Biografia»\n[…]\nTexto Marília de Dirceu no Projeto Gutenberg"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Marília_de_Dirceu",
+        "situacao": "ok",
+        "texto": "Marília de Dirceu é o título da obra poética máxima de Tomás Antônio Gonzaga, integrante do Arcadismo. Publicada originalmente em 1792, a obra reúne liras amorosas em que o eu lírico, sob o pseudônimo árcade Dirceu, expressa seu amor idealizado por Marília, nome poético atribuído a Maria Doroteia Joaquina de Seixas Brandão.\n[…]\nConsiderada uma das obras mais representativas da poesia lírica no Brasil colonial, Marília de Dirceu exerceu ampla influência na literatura brasileira, consolidando Tomás Antônio Gonzaga como um dos principais nomes do Arcadismo luso-brasileiro e contribuindo para a formação de um público leitor no final do século XVIII.\n[…]\n\"O Uraguai, de Basílio da Gama, o Caramuru, de Durão, os sonetos e outras obras de Cláudio da Costa, a Marília de Dirceu, de Gonzaga, os poemas de Alvarenga Peixoto e de Silva Alvarenga são, sem dúvida, os primores da nossa literatura colonial e contam-se ainda entre as obras-primas da nossa poesia. Estes poetas estabelecem a transição desta literatura ainda em suma portuguesa para aquela a que já podemos sem impropriedade chamar de brasileira.\"\n[…]\nMarília não foi só uma personagem do clássico da literatura; ela foi real. Conheceu Dirceu (Tomás Antônio Gonzaga) em Ouro Preto com 16 anos, enquanto ele tinha 40. Seu romance permaneceu em segredo pois seus pais não aceitavam por ele ser mais velho. Quando completou 18 anos, ficaria noiva de Tomás e, no dia marcado, ele foi preso por ser um dos membros da inconfidência mineira, delatado por Joaquim Silvério dos Reis.[carece de fontes]?\n[…]\nTomás Antônio Gonzaga foi preso e levado para o Rio de Janeiro, e se correspondia com ela pelos pseudônimos de Dirceu e Marília; seu nome era Maria Doroteia Joaquina de Seixas Brandão, nascida aos 8 dias do mês de novembro de 1767.\n[…]\nMúsica da lira I de Marília de Dirceu no YouTube"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Memórias Póstumas de Brás Cubas",
+      "descricao": "Romance de Machado de Assis narrado por um defunto, lançado em livro em 1881."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Memórias Póstumas, o defunto narrador conta que pegou a pneumonia que o matou por andar obcecado com a invenção de que remédio?",
+    "resposta": "Um emplasto anti-hipocondríaco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas",
+        "situacao": "ok",
+        "texto": "Memórias Póstumas de Brás Cubas é um romance escrito por Machado de Assis, desenvolvido em princípio como folhetim, de março a dezembro de 1880, na Revista Brasileira, para, no ano seguinte, ser publicado como livro, pela então Tipografia Nacional como Memorias Posthumas de Braz Cubas.\n[…]\nNarrado em primeira pessoa, seu autor é Brás Cubas, um \"defunto-autor\", isto é, um homem que já morreu e que deseja escrever a sua autobiografia. Nascido numa típica família da elite carioca do século XIX, do túmulo o morto escreve suas memórias póstumas começando com uma \"Dedicatória\": Ao verme que primeiro roeu as frias carnes do meu cadáver dedico como saudosa lembrança estas memórias póstumas.\n[…]\nSeguido da dedicatória, no outro capítulo, \"Ao Leitor\", o próprio narrador explica o estilo de seu livro, enquanto o próximo, \"Óbito do Autor\", começa realmente com a narrativa, explicando seus funerais e em seguida a causa mortis, uma pneumonia contraída enquanto inventava o \"emplastro Brás Cubas\", panaceia medicamentosa que foi sua última obsessão e que lhe \"garantiria a glória entre os homens\". No Capítulo VII, \"O Delírio\", narra o que antecedeu ao óbito.\n[…]\nA última tentativa de glória, portanto, é o \"emplasto Brás Cubas\", remédio que curaria todas as doenças; ironicamente, numa de suas saídas à rua para cuidar de seu projeto, molha-se na chuva e apanha uma pneumonia, da qual vem a falecer, aos 64 anos. Virgília, acompanhada do filho, vai visitá-lo na cama e, após longo delírio, morre assistido por alguns familiares.\n[…]\n— Memórias Póstumas de Brás Cubas, Capítulo CLX\n[…]\nO livro também recebeu uma versão em paródia, Memórias Desmortas de Brás Cubas, de Pedro Vieira, no qual o emplastro transforma Brás Cubas em um zumbi.\n[…]\n«Memórias Póstumas de Brás Cubas». Consultado em 2 de junho de 2020"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Memórias Póstumas de Brás Cubas",
+      "descricao": "Romance de Machado de Assis narrado por um defunto, lançado em livro em 1881."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O romance de Machado de Assis narrado por um defunto, considerado marco inicial do Realismo no Brasil, foi lançado em livro em que ano?",
+    "resposta": "1881",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Memórias_Póstumas_de_Brás_Cubas",
+        "situacao": "ok",
+        "texto": "Memórias Póstumas de Brás Cubas é um romance escrito por Machado de Assis, desenvolvido em princípio como folhetim, de março a dezembro de 1880, na Revista Brasileira, para, no ano seguinte, ser publicado como livro, pela então Tipografia Nacional como Memorias Posthumas de Braz Cubas.\n[…]\n— Memórias Póstumas de Brás Cubas, Capítulo CLX\n[…]\nA crítica considera Memórias Póstumas de Brás Cubas o romance que introduziu o Realismo na literatura brasileira. De fato, ao lado de outras obras como Ocidentais (1882), Histórias sem Data (1884), Várias Histórias (1896) e Páginas Recolhidas (1899), este livro foi também um divisor de águas na própria obra de Machado de Assis, aquele que iniciou a sua carreira madura, como o próprio autor reconhece na citação ao lado numa reedição tardia de Helena.\n[…]\nArtur Azevedo, sob o pseudônimo de Elói-o-herói, comentou o livro de Romero na A Estação de 15 de dezembro de 1897, não concordando com a visão que o autor transmitia de Machado: \"Façam as comparações que quiserem: o glorioso autor das Memórias Póstumas de Brás Cubas é, por enquanto, o primeiro homem de letras que o Brasil tem produzido.\" Outro resenhista, mais cedo, à época do lançamento do livro, provavelmente o contista e jornalista Artur Barreiros sob o pseudônimo de Abdiel, em 28 de fevereiro de 1881 escrevia posicionamento que já prefigurava toda a concordância geral posterior sobre Machado de Assis e sua obra:\n[…]\nPara a crítica moderna especializada, Memórias Póstumas de Brás Cubas é um dos livros mais inovadores de toda a literatura brasileira. De certa forma, constitui um marco decisivo no desenvolvimento da obra de Machado de Assis e na evolução da literatura nacional e, ao mesmo tempo, é considerado o primeiro romance realista e a primeira narrativa fantástica do Brasil."
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Triste Fim de Policarpo Quaresma",
+      "descricao": "Romance de Lima Barreto publicado em livro em 1915, sobre um major ultranacionalista."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Num romance de Lima Barreto, o patriótico major Policarpo Quaresma vira motivo de chacota ao pedir que o Brasil adote qual língua oficial?",
+    "resposta": "Tupi",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Triste_Fim_de_Policarpo_Quaresma"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Triste_Fim_de_Policarpo_Quaresma",
+        "situacao": "ok",
+        "texto": "Triste Fim de Policarpo Quaresma é um romance do pré-modernismo brasileiro e considerado por alguns o principal representante desse movimento. Escrito por Lima Barreto, foi levado a público pela primeira vez em folhetins, publicados, entre agosto e outubro de 1911, na edição da tarde do Jornal do Commercio do Rio de Janeiro. Em 1915, também no Rio de Janeiro, a obra foi pela primeira vez impressa \n[…]\nUm dos grandes herdeiros do Naturalismo, o romance de Lima Barreto disseca o sonho de um patriota exaltado ao mesmo tempo em que apresenta uma sátira impiedosa e bem-humorada do Brasil oficial.\n[…]\nTriste Fim de Policarpo Quaresma é um romance em terceira pessoa em que se nota maior esforço de construção e acabamento formal. Lima Barreto nele conseguiu criar uma personagem que não fosse mera projeção de amarguras pessoais como o amanuense Isaías Caminha, nem um tipo pré-formado, nos moldes de figuras secundárias que pululam em todas as suas obras.\n[…]\nTal aprendizado leva a alguns momentos cômicos – como quando Policarpo recebe a afilhada e o compadre aos prantos – e à tragédia da loucura: após ter sugerido à assembleia legislativa republicana a adoção do tupi como língua oficial – e ser motivo de chacota de toda a imprensa e dos colegas de repartição –, Policarpo redige, distraído, um documento oficial naquela língua e termina, após uma elipse temporal, internado num manicômio, sendo diagnosticado com \"patriotismo exagerado\".\n[…]\nEmbora respeitando em linhas gerais o enredo de Lima Barreto, esta adaptação toma algumas liberdades (como criar uma relação amorosa entre Policarpo e Olga e mostrar o fuzilamento final do protagonista, que não é descrito no livro) e satiriza aspectos da política brasileira atual, como quando um grupo de sem-terras invade o sítio do Major Quaresma, \"Sossego\" na cidade de Curuzu.\n[…]\nPOLICARPO QUARESMA, ANTI-HERÓI QUIXOTESCO"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Euclides da Cunha",
+      "descricao": "Escritor e engenheiro brasileiro (1866–1909), autor de Os Sertões."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1909, Euclides da Cunha morreu num tiroteio depois de ir armado à casa do jovem militar Dilermando de Assis. Qual era o motivo?",
+    "resposta": "Dilermando era amante de sua esposa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Euclides_da_Cunha"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Euclides_da_Cunha",
+        "situacao": "ok",
+        "texto": "Euclides Rodrigues Pimenta da Cunha (Cantagalo, 20 de janeiro de 1866 – Rio de Janeiro, 15 de agosto de 1909) foi um escritor, jornalista, engenheiro e ensaísta brasileiro, identificado com o pré-modernismo, conhecido por seu romance Os Sertões e por sua atividade intelectual nos primeiros anos da República Brasileira.\n[…]\nAo saber do caso, Euclides tentou assassinar o amante de sua esposa, contudo foi morto por este em 15 de agosto de 1909, no que ficou conhecido como \"Tragédia da Piedade\".\n[…]\nA esposa de Euclides da Cunha, Anna de Assis, tornou-se amante de um jovem cadete, Dilermando de Assis, 17 anos mais novo do que ela. Ainda casada com Euclides, com quem teve três filhos, teve dois filhos de Dilermando, um dos quais morreu ainda bebê. Euclides descreveu o outro filho como \"a espiga de milho no meio do cafezal\" por ser o único louro numa família de morenos. Aparentemente, Euclides aceitou-o como seu esse menino.\n[…]\nA traição de Anna desencadeou uma tragédia em 1909, quando Euclides entrou armado na casa de Dilermando declarando estar disposto a matar ou morrer. Dilermando reagiu e matou Euclides, mas foi absolvido pela justiça militar. Mais tarde Anna e Dilermando casaram-se e o casamento durou 15 anos.\n[…]\nnasce Mauro, filho de sua mulher com o tenente Dilermando de Assis. O menino vem a falecer uma semana depois;\n[…]\ntenta matar, no dia 15 de agosto, o jovem amante de sua esposa, Dilermando de Assis, mas este reage matando-o a tiros, no bairro da Piedade, na Zona Norte do Rio de Janeiro. Até hoje o episódio, conhecido como Tragédia da Piedade, é alvo de controvérsias. Euclides é sepultado no Cemitério de São João Batista. Seus restos mortais hoje encontram-se em São José do Rio Pardo. Seu encéfalo encontra-se desde 1983 em Cantagalo, no museu Casa Euclides da Cunha.\n[…]\n1909"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Manuel Bandeira",
+      "descricao": "Poeta modernista pernambucano (1886–1968), autor de Libertinagem."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que doença, descoberta na juventude, fez Manuel Bandeira abandonar o curso de arquitetura e marcou toda a sua poesia?",
+    "resposta": "Tuberculose",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Manuel_Bandeira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manuel_Bandeira",
+        "situacao": "ok",
+        "texto": "Manuel Carneiro de Sousa Bandeira Filho (Recife, 19 de abril de 1886 – Rio de Janeiro, 13 de outubro de 1968) foi um poeta, crítico literário e de arte, professor e tradutor brasileiro, considerado um dos maiores expoentes da poesia brasileira e uma figura-chave do modernismo no Brasil.\n[…]\nSua obra poética, marcada pelo seu sofrimento decorrente da tuberculose, notabilizou-se pelo emprego do verso livre, pela oralidade e pela coloquialidade, e frequentemente abordava o erotismo, o pessimismo, a liberdade e a morte.\n[…]\nEm 1903, terminou o curso de Humanidades, a família se muda para São Paulo, onde iniciou o curso de arquitetura na Escola Politécnica de São Paulo, que interrompeu por causa da tuberculose (1904). Para se tratar, buscou repouso em Campanha, Teresópolis e Petrópolis. Com a ajuda do pai que reuniu todas as economias da família, foi para a Suíça, onde esteve no Sanatório de Clavadel, permanecendo de junho de 1913 a outubro de 1914, e teve como colega o poeta Paul Éluard.\n[…]\nUma certa melancolia, associada a um sentimento de angústia, permeia sua obra, em que procura uma forma de sentir a alegria de viver. Doente dos pulmões, Bandeira sofria de tuberculose e sabia dos riscos que corria diariamente, e a perspectiva de deixar de existir a qualquer momento é uma constante na sua obra.\n[…]\nManuel Bandeira - Poesia Completa e Prosa, Ed. Nova Aguilar, Rio de Janeiro, 2009\n[…]\nManuel Bandeira: Uma Poesia da Ausência. De Yudith Rosebaum. São Paulo: Edusp/Imago, 1993.\n[…]\nHumildade, paixão e morte. A poesia de Manuel Bandeira. De Davi Arrigucci Jr. São Paulo: Cia. das Letras, 2003.\n[…]\n«Poemas de Manuel Bandeira»\n[…]\n«Academia Brasileira de Letras - Biografia de Manuel Bandeira»\n[…]\n«Enciclopédia Itaú Cultural - Biografia de Manuel Bandeira»\n[…]\n«Artigo sobre a história de vida de Manuel Bandeira»"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Guimarães Rosa",
+      "descricao": "Escritor, médico e diplomata mineiro (1908–1967), autor de Grande Sertão: Veredas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Guimarães Rosa adiou por quatro anos sua posse na Academia Brasileira de Letras. Que medo ele alegava?",
+    "resposta": "De morrer de emoção",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/João_Guimarães_Rosa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/João_Guimarães_Rosa",
+        "situacao": "ok",
+        "texto": "João Guimarães Rosa (Cordisburgo, 27 de junho de 1908 – Rio de Janeiro, 19 de novembro de 1967) foi um médico, diplomata, escritor e poeta brasileiro, identificado com a terceira geração do modernismo no Brasil e reconhecido por muitos como o maior escritor brasileiro do século XX. Seu estilo é marcado por neologismos, coloquialidade e fluxo de consciência e sua ficção ambienta-se no sertão mineir\n[…]\nEm 1963, foi eleito para a Cadeira 2 da Academia Brasileira de Letras (ABL) mas adiou sua posse até 1967, crendo que morreria assim que assumisse, o que realmente aconteceu, três dias depois.\n[…]\nDepois de servir em Hamburgo, Guimarães Rosa atuou, ainda, como diplomata, nas Embaixadas do Brasil em Bogotá e em Paris.\n[…]\nNo Brasil, Guimarães Rosa, na segunda vez em que se candidatou para a Academia Brasileira de Letras (ABL), foi eleito por unanimidade, em 1963. Temendo ser tomado por uma forte emoção, adiou a cerimônia de posse por quatro anos.\n[…]\nDiadorim-Mediador, a alma que se perde na consumação do pacto com a linguagem e a poesia. Riobaldo (Rosa-IO-bardo), o poeta-guerreiro que, em estado de transe, dá à luz obras-primas da literatura universal. Biografia e ficção fundem-se e confundem-se nas páginas enigmáticas de João Guimarães Rosa, morto prematuramente aos 59 anos de idade, no ápice de sua carreira literária e diplomática.\n[…]\nImortal, foi sepultado no Mausoléu da Academia Brasileira de Letras no Cemitério de São João Batista na cidade do Rio de Janeiro.\n[…]\nCentenário de Guimarães Rosa, especial na FolhaOnline.\n[…]\nJoão Guimarães Rosa / Centro da Memória da Medicina em Minas Gerais\n[…]\nMorte prematura de Guimarães Rosa: enigma ou enredo?\n[…]\nGuimarães Rosa, Getúlio Vargas: \"Serenamente dou o primeiro passo no caminho da eternidade e saio da vida para entrar na História\"\n[…]\n24 Cartas de João Guimarães Rosa a Antonio Azeredo da Silveira"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Clarice Lispector",
+      "descricao": "Escritora brasileira nascida na Ucrânia (1920–1977), autora de A Hora da Estrela."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1966, Clarice Lispector sofreu queimaduras graves, sobretudo na mão direita, num incêndio em seu quarto. O que o provocou?",
+    "resposta": "Dormiu com um cigarro aceso",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Clarice_Lispector"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Clarice_Lispector",
+        "situacao": "ok",
+        "texto": "Clarice Lispector, nascida Chaya Pinkhasivna Lispector (Chechelnyk, 10 de dezembro de 1920 – Rio de Janeiro, 9 de dezembro de 1977), foi uma escritora e jornalista de origem ucraniana-judaica (asquenazita). Radicada no Brasil desde a primeira infância, naturalizou-se brasileira em 1943. Autora de romances, contos e ensaios, é considerada uma das escritoras brasileiras mais importantes do século XX\n[…]\nRegistrada como Chaya Pinkhasivna Lispector (em ucraniano: Хая Пінкасiвна Ліспектор; romaniz.: Chaya Pinkhasivna Lispector) Clarice Lispector nasceu em 10 de dezembro de 1920 na aldeia de Chechelnyk, região da Podólia, então parte da República Popular da Ucrânia e hoje parte da moderna Ucrânia.\n[…]\nNo Brasil, os nomes russos foram substituídos por nomes onomásticos da língua portuguesa, com exceção de Tania — Pinkhas passou a ser Pedro; Mania transformou-se em Marieta; Leah virou Elisa; Chaya virou Clarice.\n[…]\nEm 14 de setembro de 1966, Lispector sofreu um grave acidente em seu apartamento. Após tomar um comprimido para dormir, adormeceu na cama com um cigarro aceso. Ficou gravemente ferida, e sua mão direita quase teve de ser amputada.\n[…]\nSabe-se que Clarice Lispector dominava pelo menos sete idiomas: português, inglês, francês e espanhol, fluentemente; hebraico e iídiche, com alguma fluência; e alguma fluência em russo, vindo da infância. Como tradutora para o português, entretanto, utilizou somente o inglês, o francês e o espanhol.\n[…]\nCasa de Clarice Lispector\n[…]\n«JBlog Hoje na História: 9 de dezembro de 1977 – Morre Clarice Lispector. Chega A Hora da Estrela». www.jblog.com.br. Consultado em 9 de dezembro de 2010. Arquivado do original em 18 de dezembro de 2011\n[…]\n«Conto: \"Mineirinho\"». www.ip.usp.br. Consultado em 29 de setembro de 2015. Arquivado do original em 18 de novembro de 2017 . Por Clarice Lispector.\n[…]\n«A arte de Clarice Lispector»  (entrevista de Hélène Cixous a Betty Milan)"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Clarice Lispector",
+      "descricao": "Escritora brasileira nascida na Ucrânia (1920–1977), autora de A Hora da Estrela."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Clarice Lispector chegou ao Brasil ainda bebê, com a família fugindo de perseguições. Em que país ela nasceu?",
+    "resposta": "Ucrânia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Clarice_Lispector"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Clarice_Lispector",
+        "situacao": "ok",
+        "texto": "Clarice Lispector, nascida Chaya Pinkhasivna Lispector (Chechelnyk, 10 de dezembro de 1920 – Rio de Janeiro, 9 de dezembro de 1977), foi uma escritora e jornalista de origem ucraniana-judaica (asquenazita). Radicada no Brasil desde a primeira infância, naturalizou-se brasileira em 1943. Autora de romances, contos e ensaios, é considerada uma das escritoras brasileiras mais importantes do século XX\n[…]\nNasceu na vila ucraniana de Chechelnyk, numa família judaica-ucraniana que perdeu suas rendas com a Guerra Civil Russa e se viu obrigada a emigrar em decorrência da perseguição a judeus, que, à época, resultou em diversos extermínios em massa. A futura escritora chegou ao Brasil, ainda pequena, em 1922, com seus pais e suas duas irmãs.\n[…]\nClarice dizia não ter nenhuma ligação com a Ucrânia — \"Naquela terra eu literalmente nunca pisei: fui carregada de colo\" — e que sua verdadeira pátria era o Brasil. Inicialmente, a família passou um breve período em Maceió, até se mudar para o Recife, onde Clarice cresceu e onde, aos oito anos, perdeu a mãe.\n[…]\nRegistrada como Chaya Pinkhasivna Lispector (em ucraniano: Хая Пінкасiвна Ліспектор; romaniz.: Chaya Pinkhasivna Lispector) Clarice Lispector nasceu em 10 de dezembro de 1920 na aldeia de Chechelnyk, região da Podólia, então parte da República Popular da Ucrânia e hoje parte da moderna Ucrânia.\n[…]\nO último romance de Lispector, A Hora da Estrela (1977), também foi escrito de forma fragmentária recompondo a história, com a ajuda de Olga Borelli, a partir de notas rabiscadas em pedaços soltos de papel. A Hora da Estrela conta a história de Macabéa, uma das personagens icônicas da literatura brasileira — uma datilógrafa faminta e pobre, vinda de Alagoas, o estado onde a família de Lispector chegou pela primeira vez, e que se perde na metrópole do Rio de Janeiro.\n[…]\nElisa Lispector\n[…]\n«A arte de Clarice Lispector»  (entrevista de Hélène Cixous a Betty Milan)"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Incidente em Antares",
+      "descricao": "Romance de Erico Verissimo publicado em 1971, ambientado numa cidade fictícia do Rio Grande do Sul."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Incidente em Antares, de Erico Verissimo, por que sete mortos ficam sem enterro e se levantam dos caixões?",
+    "resposta": "Greve geral, incluindo os coveiros",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Incidente_em_Antares"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Incidente_em_Antares",
+        "situacao": "ok",
+        "texto": "Incidente em Antares foi o último romance escrito por Érico Veríssimo. Escrito em 1971, faz uso do fantástico e do sobrenatural para abordar temas reais (o chamado Realismo Fantástico). As principais temáticas sobre as quais Veríssimo escreve nessa obra são a violência do regime militar e a chegada de indústrias estrangeiras ao Brasil.\n[…]\nNo ano de 1963, em 11 de dezembro, morrem sete pessoas em Antares, uma cidade fictícia governada por políticos corruptos. Como os coveiros estão em greve, os defuntos passam a vagar pela cidade, vasculhando a intimidade de parentes e amigos. Devido à sua condição de defuntos, podem fazer isto sem temer represálias.\n[…]\nNa segunda parte, acontece o \"incidente\" do título, com a greve geral em Antares e a morte inesperada de sete pessoas, incluindo a matriarca dos Campolargo, Quitéria. Durante o cortejo de Dona Quitéria, os Campolargo são impedidos de sepultá-la, pois os coveiros, em greve, cercam o cemitério, impedindo o enterro, e desta forma, aumentam a pressão sobre os patrões.\n[…]\nAinda em 1963, houve uma greve geral em Antares: uma série de trabalhadores recusou-se a trabalhar e reivindicou direitos. Assim, o fornecimento de luz foi interrompido, as grandes empresas estrangeiras da cidade ficaram sem funcionários e os coveiros não estavam mais enterrando os finados.\n[…]\nAssim, no dia treze de dezembro desse ano (uma sexta-feira 13), sete defuntos insepultos levantaram de seus caixões na cidade, a saber:\n[…]\nAo contrário do padre Gerôncio, que fechou as portas da igreja aos mortos.\n[…]\nEm 1994, a Rede Globo apresentou a minissérie Incidente em Antares, adaptada por Charles Peixoto e Nelson Nadotti, e baseada no romance de Érico Veríssimo. A minissérie teve a direção de José Roberto Sanseveriano e contou com os atores Regina Duarte, Fernanda Montenegro e Paulo Betti no elenco, entre outros."
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Macunaíma",
+      "descricao": "Romance modernista de Mário de Andrade publicado em 1928, sobre o herói sem nenhum caráter."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em Macunaíma, de Mário de Andrade, o herói viaja até São Paulo para recuperar que amuleto, presente de sua amada Ci?",
+    "resposta": "Muiraquitã",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Macunaíma_(livro)",
+      "https://en.wikipedia.org/wiki/Macunaíma_(novel)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Macunaíma_(livro)",
+        "situacao": "ok",
+        "texto": "Macunaíma, o herói sem nenhum caráter é um livro publicado em 1928 pelo polímata brasileiro Mário de Andrade, considerado a sua obra-prima.\n[…]\nEscrito em pouco tempo, mas fruto de pesquisas anteriores que o autor fazia sobre as origens e as especificidades da cultura e do povo brasileiro, narra a história do herói índio Macunaíma, desde seu nascimento na selva até sua morte e transfiguração, uma trajetória movimentada e aventuresca, em que é ajudado por seus irmãos e outros personagens, em busca de uma pedra mágica, o muiraquitã, que havia recebido de seu grande amor, Ci, a Mãe do Mato, mas que fora perdida e acabara em posse de Piaimã, um gigante comedor de gente que vivia como abastado burguês em São Paulo.\n[…]\nAo longo do texto seu amadurecimento é irregular e incompleto, mas apesar de tudo ele mantém uma ligação permanente com o seu \"verdadeiro\" amor, Ci, a Mãe do Mato, a quem nunca esqueceu e com quem havia sido feliz, e que se reflete na sua busca pelo muiraquitã, lembrança preciosa da amada. Quando ele perde o amuleto pela segunda vez, agora irremediavelmente, seu impulso vital também desaparece.\n[…]\nEm 2008 a cantora Iara Rennó gravou o CD Macunaó.peraí.matupi ou Macunaíma Ópera Tupi, com 13 canções inspiradas pelo livro. Em 2017 foi lançado o livro Mário, o Modernista a Caráter, biografia satírica escrita por Valquíria Maroti Carozze. Na obra, Macunaíma, criação de Mário de Andrade, personifica a função literária de seu criador e escreve a biografia do modernista paulistano. A metamorfose do herói em escritor e biógrafo de seu \"pai\" resulta em passagens descritas com humor e ironia.\n[…]\nMacunaíma, 1ª edição, em pdf."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Macunaíma_(novel)",
+        "situacao": "ok",
+        "texto": "Macunaíma (Portuguese pronunciation: [makũna'ĩmɐ]) is a 1928 novel by Brazilian writer Mário de Andrade. It is one of the founding texts of Brazilian modernism. Macunaíma was published six years after the \"Semana de Arte Moderna\", which marked the beginning of the Brazilian modernism movement.\n[…]\nThis novel follows an unconventional hero, Macunaíma, who was born in the Amazon Rainforest and is called \"the hero with no character\" in the novel's subtitle. He is of indigenous origin and possesses magical powers which help guide him on his journey from the Amazon to the city of São Paulo and back. He encounters various different creatures from Brazilian mythology along the way, taking him on a quest to retrieve his stolen amulet, a muiraquitã, who was given to him from his love interest, Ci.\n[…]\nSex-crazed as he is, Macunaíma can't help but try to make out with that woman, only to have his amulet stolen and be torn apart by the river monster, while the parrot is powerless to do anything but witness the brutality.\n[…]\nAdditionally, and equally central to the provocative tone and intent of the book, \"character\" (in Portuguese \"caráter\") usually means \"integrity\", not \"personality\"/\"identity\", so the \"o heroi sem nenhum caráter\" of the title could better be translated as \"the totally unprincipled heroe\" – which is the unyielding theme throughout all the episodes in the story.\n[…]\nAndrade, Mário de. Macunaíma: The Hero Without Any Character. Translated by Carl L. Engel, King Tide Press, Philadelphia, Pennsylvania (2023)\n[…]\nSilva, Daniel F. (2018). \"Mário de Andrade's Antropofagia and Macunaíma as Anti-Imperial Scene of Writing\". In Anti-Empire: Decolonial Interventions in Lusophone Literatures (pp. 69–105). Liverpool University Press."
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Manifesto Antropófago",
+      "descricao": "Manifesto de Oswald de Andrade publicado em 1928, base do Movimento Antropofágico."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que quadro de Tarsila do Amaral, dado de presente a Oswald de Andrade, inspirou o Manifesto Antropófago?",
+    "resposta": "Abaporu",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Abaporu",
+      "https://pt.wikipedia.org/wiki/Manifesto_Antropófago"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abaporu",
+        "situacao": "ok",
+        "texto": "Abaporu é uma pintura a óleo da artista brasileira Tarsila do Amaral. É uma das principais obras do período antropofágico do movimento modernista no Brasil. Foi pintada por Tarsila para presentear seu então marido, Oswald de Andrade, em seu aniversário, em janeiro de 1928.\n[…]\nFoi pintada em óleo sobre tela, em janeiro de 1928, por Tarsila do Amaral (1886-1973) como presente de aniversário ao escritor Oswald de Andrade, seu marido na época. O nome da obra foi conferido por ele e pelo poeta Raul Bopp, que indagou a Oswald ao ver o quadro: \"Vamos fazer um movimento em torno desse quadro?\". E também é uma referência para a criação da Antropofagia modernista brasileira, ou Movimento Antropofágico, que se propunha a deglutir a cultura estrangeira e adaptá-la ao Brasil.\n[…]\nPintado como presente de aniversário para o então marido Oswald de Andrade, quando Tarsila e ele se separaram, o escritor aceitou trocar o quadro por um mais valorizado à época, O Enigma de Um Dia, de Giorgio de Chirico. O Abaporu permaneceu com a autora.\n[…]\nGonzalo Aguillar em seu artigo “O Abaporu, de Tarsila do Amaral: saberes do pé” mencionado em Antropofagia hoje? Oswald de Andrade em Cena, livro de Jorge Ruffinelli e João Cezar de Castro Rocha, pensa o Abaporu na qualidade do gênero de retrato anti-humano, pois o rosto é apagado, o corpo é animalesco, porém os pés são bastante humanos e detalhados. Para Aguillar, a gestualidade humana do quadro é parodiada. O homem do quadro é desprovido de identidade, quase desumanizado.\n[…]\nA partir do século XXI, o Abaporu consolidou-se como um \"metasímbolo\" da identidade visual brasileira, sendo objeto de constantes releituras que tensionam o legado modernista sob novas perspectivas políticas, sociais e tecnológicas."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manifesto_Antropófago",
+        "situacao": "ok",
+        "texto": "O movimento antropofágico foi uma manifestação artística brasileira da década de 1920, fundada e teorizada pelo poeta Oswald de Andrade e pela pintora Tarsila do Amaral, ambos do estado de São Paulo. Foi enunciado no Manifesto Antropófago e divulgado através da Revista de Antropofagia.\n[…]\nO Manifesto Antropófago (ou Manifesto Antropofágico) foi um manifesto publicado em 1928 pelo poeta e polemista brasileiro Oswald de Andrade, figura-chave do movimento cultural do modernismo brasileiro e colaborador da publicação Revista de Antropofagia. Foi inspirado em \"Abaporu\", pintura de Tarsila do Amaral, artista modernista e esposa de Oswald de Andrade.\n[…]\nO manifesto fundamentou o movimento antropofágico. Lido em 1928 para seus amigos na casa de Mário de Andrade, foi publicado na Revista de Antropofagia, a qual Oswald ajudou a fundar com Raul Bopp e Antônio de Alcântara Machado, com a datação de \"ano 374 da deglutição do Bispo Sardinha\".\n[…]\nA Revista de Antropofagia foi uma publicação parte do movimento antropofágico surgida como consequência do Manifesto Antropófago escrito por Oswald de Andrade.\n[…]\nNa década de 1960, apresentados à obra de Oswald de Andrade pelo poeta concreto Augusto de Campos, o artista plástico Hélio Oiticica e o músico Caetano Veloso viram no Manifesto uma grande influência artística no movimento Tropicália. Veloso afirmou: \"a ideia de canibalismo cultural caiu como uma luva em nós, os tropicalistas.\n[…]\nEm 1990, o artista plástico brasileiro Antonio Peticov criou um mural em homenagem ao que teria sido o centenário de Andrade. A obra O Momento Antropofágico com Oswald de Andrade foi instalada na estação Republica do Metrô de São Paulo e foi inspirada em três obras de Andrade: O Perfeito Cozinheiro das Almas deste Mundo, Manifesto Antropofágico e O Homem do Povo."
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Manifesto Antropófago",
+      "descricao": "Manifesto de Oswald de Andrade publicado em 1928, base do Movimento Antropofágico."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que frase em inglês do Manifesto Antropófago, de Oswald de Andrade, parodia o famoso dilema de Hamlet?",
+    "resposta": "Tupi or not tupi",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Manifesto_Antropófago"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manifesto_Antropófago",
+        "situacao": "ok",
+        "texto": "O movimento antropofágico foi uma manifestação artística brasileira da década de 1920, fundada e teorizada pelo poeta Oswald de Andrade e pela pintora Tarsila do Amaral, ambos do estado de São Paulo. Foi enunciado no Manifesto Antropófago e divulgado através da Revista de Antropofagia.\n[…]\nO manifesto fundamentou o movimento antropofágico. Lido em 1928 para seus amigos na casa de Mário de Andrade, foi publicado na Revista de Antropofagia, a qual Oswald ajudou a fundar com Raul Bopp e Antônio de Alcântara Machado, com a datação de \"ano 374 da deglutição do Bispo Sardinha\".\n[…]\nUm dos versos icônicos do Manifesto, escrito em inglês no original, é \"Tupi or not Tupi: eis a questão\". A linha é simultaneamente uma celebração dos tupis, que praticavam certas formas de canibalismo ritual (como detalhado nos escritos do século XVI de André Thévet, Hans Staden e Jean de Léry) e uma instância metafórica de canibalismo: come Shakespeare.\n[…]\nA Revista de Antropofagia foi uma publicação parte do movimento antropofágico surgida como consequência do Manifesto Antropófago escrito por Oswald de Andrade.\n[…]\nNa década de 1960, apresentados à obra de Oswald de Andrade pelo poeta concreto Augusto de Campos, o artista plástico Hélio Oiticica e o músico Caetano Veloso viram no Manifesto uma grande influência artística no movimento Tropicália. Veloso afirmou: \"a ideia de canibalismo cultural caiu como uma luva em nós, os tropicalistas.\n[…]\nEm 1990, o artista plástico brasileiro Antonio Peticov criou um mural em homenagem ao que teria sido o centenário de Andrade. A obra O Momento Antropofágico com Oswald de Andrade foi instalada na estação Republica do Metrô de São Paulo e foi inspirada em três obras de Andrade: O Perfeito Cozinheiro das Almas deste Mundo, Manifesto Antropofágico e O Homem do Povo."
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Gonçalves Dias",
+      "descricao": "Poeta romântico maranhense (1823–1864), autor da Canção do Exílio."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1864, voltando doente da Europa, Gonçalves Dias morreu perto da costa do Maranhão. Qual foi a causa?",
+    "resposta": "O naufrágio do seu navio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gonçalves_Dias"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gonçalves_Dias",
+        "situacao": "ok",
+        "texto": "Antônio Gonçalves Dias (Aldeias Altas, 10 de agosto de 1823 – Guimarães, 3 de novembro de 1864) foi um poeta, dramaturgo e etnólogo brasileiro, considerado o poeta nacional do Brasil. Sua obra, identificada com a primeira geração do romantismo brasileiro, contribuiu significativamente para a construção da literatura e da identidade cultural do Brasil.\n[…]\nAntônio Gonçalves Dias nasceu em 10 de agosto de 1823, no sítio Boa Vista, em terras de Jatobá (a 14 léguas de Caxias, hoje pertencente à cidade emancipada com nome de Aldeias Altas). Morreu aos 41 anos em um naufrágio do navio Ville de Boulogne, próximo à região do baixio dos Atins, na baía de Cumã, município de Guimarães. Advogado de formação, é mais conhecido como poeta e etnógrafo, sendo relevante também para o teatro brasileiro, tendo escrito quatro peças.\n[…]\nVoltou à Europa em 1862, para um tratamento de saúde. Não obtendo resultados retornou ao Brasil em 1864 no navio Ville de Boulogne, que naufragou na costa brasileira; salvaram-se todos, exceto o poeta, que foi esquecido, agonizando em seu leito, e se afogou. O acidente ocorreu nos Baixio dos Atins, na costa de Guimarães, no Maranhão.\n[…]\nEm 2023, o quadrinista e historiador André Toral publicou O Filho do Norte: Gonçalves Dias, o poeta do Brasil, biografia em quadrinhos que recria episódios da vida do escritor e se inicia com o naufrágio do Ville de Boulogne, no qual Gonçalves Dias morreu. A obra foi uma das cinco finalistas do Prêmio Jabuti de 2024 na categoria Histórias em Quadrinhos.\n[…]\nGonçalves Dias (Maranhão).\n[…]\nPraça Gonçalves Dias — Caxias, Maranhão.\n[…]\nPraça Gonçalves Dias, em São Luís, Maranhão.\n[…]\nEscola Municipal Antônio Gonçalves Dias em Foz do Iguaçu, PR.\n[…]\nObra completa de Gonçalves Dias na Brasiliana Digital\n[…]\n«Artigo sobre o Instituto Histórico e Geográfico Brasileiro (1840-1860), com destaque para a produção de Gonçalves Dias»"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Castro Alves",
+      "descricao": "Poeta romântico baiano (1847–1871), autor de O Navio Negreiro."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1868, um tiro acidental de espingarda durante uma caçada levou à amputação de que parte do corpo do poeta Castro Alves?",
+    "resposta": "O pé esquerdo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Castro_Alves"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Castro_Alves",
+        "situacao": "ok",
+        "texto": "Antônio Frederico de Castro Alves (Vila de Nossa Senhora do Rosário do Porto da Cachoeira, 14 de março de 1847 – Salvador, 6 de julho de 1871) foi um poeta, dramaturgo e advogado brasileiro, considerado o principal representante da terceira geração do romantismo no Brasil. Ficou conhecido por seus poemas abolicionistas, que renderam-lhe a alcunha de \"poeta dos escravos\".\n[…]\nNo dia primeiro de novembro de 1868, segundo relata Peixoto, lembrando ainda a piora de sua tuberculose: \"fora passar um dia no arrabalde do Brás, e à tarde desse dia tomara a espingarda e saíra para o campo. Ao transpor uma vala, com o salto, a arma voltada para baixo dispara e a carga de chumbo emprega-se no pé esquerdo. Pôde arrastar-se até a casa de seu amigo e correspondente, o médico baiano, Dr.\n[…]\nA 6 de julho de 1881, dez anos após a morte do poeta, o então chamado \"Largo do Teatro\", uma das principais praças da capital baiana, foi renomeado em sua homenagem; em 1919 foi encomendada ao escultor italiano Pasquale de Chirico uma estátua representando-o; o monumento foi instalado no lugar em que havia o \"Chafariz de Colombo\" e inaugurado a 6 de julho de 1923; a estátua, medindo 2,9 metros, está posicionada sobre um pedestal (que lhe dá a altura total de 11 metros) em cuja parte frontal se acha a escultura de um casal de escravos, simbolizando sua luta abolicionista: a Praça Castro Alves é um dos símbolos de Salvador.\n[…]\nCastro Alves foi retratado como personagem no cinema, interpretado por Paulo Maurício no filme de ficção luso-brasileiro de 1949 Vendaval Maravilhoso (aka \"Castro Alves — Um Vendaval Maravilhoso\"), tendo a cantora Amália Rodrigues a interpretar a atriz Eugênia Câmara; a obra foi restaurada em 2003 pela Cinemateca Portuguesa; segundo informado no próprio filme a obra foi inspirada \"na vida de Castro Alves — O Poeta dos Escravos."
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Canção do Exílio",
+      "descricao": "Poema romântico de Gonçalves Dias escrito em 1843, que começa com Minha terra tem palmeiras."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A letra do Hino Nacional Brasileiro aproveita versos sobre bosques com mais vida e vida com mais amores. Eles vêm de que poema romântico?",
+    "resposta": "Canção do Exílio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Canção_do_Exílio",
+      "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Canção_do_Exílio",
+        "situacao": "ok",
+        "texto": "\"Canção do Exílio\" é um poema romântico do escritor brasileiro Gonçalves Dias (1823–1864). A composição foi criada em julho de 1843, quando o autor se encontrava estudando direito na Universidade de Coimbra, em Portugal, ressaltando no poema o patriotismo e o saudosismo em relação à sua terra natal, o Brasil.\n[…]\nIntroduzida na obra lírica Primeiros cantos, de 1846, foi produzida no primeiro momento do Romantismo no Brasil, época na qual se vivia uma forte onda de nacionalismo, que se devia ao recente rompimento do Brasil colônia com Portugal. O poeta trata, neste sentido, de demonstrar aversão aos valores portugueses e ressaltar os valores naturais do Brasil.\n[…]\nApesar de ser um texto de profunda glorificação à pátria, o poema possui total ausência de adjetivos qualificativos. São os advérbios \"lá\", \"cá\", \"aqui\" que localizam o Brasil geograficamente no poema. Formalmente, o poema apresenta redondilhas maiores (sete sílabas em cada verso) e rimas oxítonas (lá, cá sabiá), com a exceção da segunda estrofe.\n[…]\nO poema foi reciclado no Hino Nacional Brasileiro (no trecho \"Nossos bosques têm mais vida; Nossa vida (em teu seio) mais amores\", do segundo parágrafo da segunda parte) e na Canção do Expedicionário (no trecho \"Por mais terras que eu percorra, não permita Deus que eu morra; Sem que volte para lá\", da segunda estrofe).\n[…]\nNosso céu tem mais estrelas,\n[…]\nNossas várzeas têm mais flores,\n[…]\nNossos bosques têm mais vida,\n[…]\nNossa vida mais amores.\n[…]\nMais prazer encontro eu lá;\n[…]\nMais prazer encontro eu lá;\n[…]\nCanção do Exílio"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hino_Nacional_Brasileiro",
+        "situacao": "ok",
+        "texto": "O Hino Nacional Brasileiro é um dos quatro símbolos oficiais da República Federativa do Brasil, conforme estabelece o art. 13, § 1.º, da Constituição do Brasil. Os outros símbolos da República são a Bandeira Nacional, as Armas Nacionais e o Selo Nacional. Tem letra de Joaquim Osório Duque-Estrada (1870–1927) e música de Francisco Manuel da Silva (1795–1865).\n[…]\nRecentemente tornou-se não pouco divulgado em sítios da internet o curioso fato de que o Hino Nacional Brasileiro possuía oficialmente uma letra em sua introdução orquestrada que supostamente era conhecida e entoada, de composição atribuída a Américo Moura. Este poema originalmente é mais extenso do que se tem notícia, e pode demonstrar não ter sido adaptado apenas para a introdução.\n[…]\nSempre Brilhar.”O fato é que até antes de 6 de setembro de 1922, data em que o poema de Joaquim Osório Duque Estrada foi oficializado, o Hino de Francisco Manuel da Silva permanecia sem um poema oficial, era entoado com as mais diferentes adaptações de uma localidade para outra, e não raro refletia um regionalismo contrário ao ideal de federalismo e unidade nacional.\n[…]\nEm 1917 o cantor Vicente Celestino foi o primeiro brasileiro a gravar o Hino Nacional, tendo por acompanhamento a Banda do Batalhão Naval e, nas passagens de refrão, também por um coro; esta versão, em si bemol, deu um tom de difícil interpretação pelas pessoas; a Banda deu andamento mais lento e solene nas passagens do cantor, enquanto mantinha o estilo tradicional (mais rápido e vibrante) apenas durante os refrões - o que veio a motivar apreciação oficial por uma comissão de reavaliação do Hino em 1936 e, durante algum tempo, insatisfação por parte das bandas militares da época; a despeito disso essa versão foi oficializada em 1922.\n[…]\nSímbolos do Brasil\n[…]\nHino Nacional do BrasilArquivo em mp3.\n[…]\nHino Nacional BrasileiroArquivo *.wav."
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Canção do Exílio",
+      "descricao": "Poema romântico de Gonçalves Dias escrito em 1843, que começa com Minha terra tem palmeiras."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O poema em que Gonçalves Dias sente saudade das palmeiras e dos sabiás foi escrito em que cidade portuguesa?",
+    "resposta": "Coimbra",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Canção_do_Exílio"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Canção_do_Exílio",
+        "situacao": "ok",
+        "texto": "\"Canção do Exílio\" é um poema romântico do escritor brasileiro Gonçalves Dias (1823–1864). A composição foi criada em julho de 1843, quando o autor se encontrava estudando direito na Universidade de Coimbra, em Portugal, ressaltando no poema o patriotismo e o saudosismo em relação à sua terra natal, o Brasil.\n[…]\nHá uma presença de dêixis espacial, quanto aos dêiticos com referência aos elementos lugares citados no texto: ''aqui'' (Portugal) e ''minha terra''  ou ''lá'' (Brasil, mais especificamente sua terra natal: o Maranhão, cuja ave-símbolo é o Sabiá-da-praia — Mimus gilvus —  e onde se encontra a Mata dos Cocais — vegetação transicional entre o Cerrado, a Floresta Amazônica e a Caatinga, rica em espécies de palmeiras).\n[…]\nApesar de ser um texto de profunda glorificação à pátria, o poema possui total ausência de adjetivos qualificativos. São os advérbios \"lá\", \"cá\", \"aqui\" que localizam o Brasil geograficamente no poema. Formalmente, o poema apresenta redondilhas maiores (sete sílabas em cada verso) e rimas oxítonas (lá, cá sabiá), com a exceção da segunda estrofe.\n[…]\nO poema foi reciclado no Hino Nacional Brasileiro (no trecho \"Nossos bosques têm mais vida; Nossa vida (em teu seio) mais amores\", do segundo parágrafo da segunda parte) e na Canção do Expedicionário (no trecho \"Por mais terras que eu percorra, não permita Deus que eu morra; Sem que volte para lá\", da segunda estrofe).\n[…]\nMinha terra tem palmeiras,\n[…]\nMinha terra tem palmeiras;\n[…]\nMinha terra tem palmeiras,\n[…]\nSem qu'inda aviste as palmeiras,\n[…]\nCanção do Exílio"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "O Guarani",
+      "descricao": "Romance indianista de José de Alencar publicado em 1857, com o herói Peri."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O romance O Guarani, de José de Alencar, virou uma ópera estreada no Teatro alla Scala, em Milão. Quem a compôs?",
+    "resposta": "Carlos Gomes",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Il_Guarany",
+      "https://pt.wikipedia.org/wiki/O_Guarani"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Il_Guarany",
+        "situacao": "ok",
+        "texto": "Il Guarany (em português, O Guarani) é uma ópera ballo em quatro atos composta pelo maestro paulista Carlos Gomes, baseada no romance de José de Alencar, O Guarani. Seu libreto, em italiano em vez do português nativo de Carlos Gomes, foi escrito por Antonio Scalvini e Carlo D'Ormeville. A obra se destaca como a primeira ópera brasileira a ser aclamada fora do Brasil.\n[…]\nIl Guarany é celebrada por sua rica orquestração, melodias inspiradas e a integração de elementos da música indígena brasileira, contribuindo para sua reputação como uma obra única no repertório operístico. A ópera é lembrada pela sua abertura, conhecida por ser o tema do programa de rádio A Voz do Brasil.\n[…]\nA história se passa no Brasil do século XVII e narra o amor impossível entre Peri, um indígena guarani, e Ceci, uma jovem branca. O enredo se desenvolve em meio a conflitos entre indígenas e colonizadores portugueses, destacando temas como honra, coragem e o choque entre diferentes culturas.\n[…]\nA estreia mundial teve lugar no Teatro Alla Scala, em Milão, Itália, em 19 de março de 1870. A ópera recebeu produções europeias adicionais. A primeira apresentação brasileira foi no Rio de Janeiro em 2 de dezembro de 1870, no Theatro D. Pedro II.\n[…]\nEm 1980 O Guarani foi encenada no Theatro Municipal do Rio de Janeiro dirigida por Sérgio Britto e regência de Mário Tavares, com a Orquestra Sinfônica, Coro e Corpo de Ballet do Theatro Municipal, além dos intérpretes dos papéis principais e de atores interpretando os indígenas aimorés. Mais recentemente, em 1996, Il Guarany foi remontada pela Ópera Nacional de Washington, com Plácido Domingo no papel de Peri.\n[…]\n«ES&DF, Die aufgeführten Komponisten, Antônio Carlos Gomes» (em alemão)\n[…]\nGuarany, Il;  matéria de: Gerard Béhague, em: \"The New Grove Dictionary of Opera\", ed. Stanley Sadie (Londres, 1992) ISBN 0-333-73432-7"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Guarani",
+        "situacao": "ok",
+        "texto": "O Guarani (originalmente O Guarany: Romance Brasileiro) é um romance histórico escrito por José de Alencar, desenvolvido em princípio em folhetim. No dia 1º de janeiro de 1857 é publicado o capítulo inicial do romance no Diário do Rio de Janeiro, para no fim desse ano, ser publicado como livro, com alterações mínimas em relação ao que fora publicado em folhetim.\n[…]\nO Guarani foi adaptado à ópera por Carlos Gomes em 1870.\n[…]\nEm 1916, Vittorio Capellaro dirigiu uma nova adaptação muda, distribuída pela Companhia Cinematográfica Brasileira, com música de Carlos Gomes, é considerado perdido.\n[…]\nNo ano anterior, Acquarone havia adaptado outro romance de Alencar nas páginas de O Globo Juvenil do jornal O Globo: As Minas de Prata. Em 1948, foi o ilustrador português Jayme Cortez, para o formato de tiras diárias, publicada no jornal Diário da Noite Em 1950, o haitiano André LeBlanc, fez uma adaptação para a vigésima quarta edição da revista Edição Maravilhosa, da EBAL.\n[…]\nEm 2012, a Editora Scipione (que, assim como a Editora Ática, faz parte do Grupo Abril), lançou uma nova versão em quadrinhos, roteirizada por Rosana Rios, com desenhos de Juliano Oliveira, arte-final de Sam Hart, cores de Tarsis Cruz e letras ficaram por conta de Cadú Simões. A diferença desta para as demais adaptações, é que os autores se basearam na ópera de Carlos Gomes.\n[…]\nEm 2012, os escritores brasileiros Carlos Orsi Martinho e Octavio Aragão são convidados para publicar o conto de ficção científica \"The Last of The Guaranys\" na antologia \"The Worlds of Philip José Farmer: Portraits of a Trickster\" da editora americana Meteor House. A antologia dá sequência à série literária Wold Newton universe, criada pelo escritor americano Philip José Farmer, que conecta personagens da cultura pop como Tarzan e Sherlock Holmes.\n[…]\nO guarani, disponível para download no Google Books"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Semana de Arte Moderna",
+      "descricao": "Festival de artes realizado no Theatro Municipal de São Paulo em fevereiro de 1922, marco do Modernismo brasileiro."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A Semana de Arte Moderna, em fevereiro de 1922, foi realizada no ano do centenário de que acontecimento?",
+    "resposta": "Independência do Brasil",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna",
+        "situacao": "ok",
+        "texto": "Semana de Arte Moderna, também chamada de Semana de 22, foi um evento cultural que ocorreu no Theatro Municipal de São Paulo de 13 a 17 de fevereiro de 1922. Contou com exposição de pinturas, esculturas e maquetes arquitetônicas, além de conferências e concertos nas noites dos dias 13, 15 e 17. Foi financiada principalmente por membros da elite paulista que haviam enriquecido com a produção cafeei\n[…]\nA escolha do ano de 1922 para a realização do evento foi uma tentativa de tornar a comemoração do Centenário da Independência do Brasil em manifesto de emancipação artística. Assim sendo, em 1921, O grupo estabeleceu contato com empresários com prestígio na sociedade para patrocinar o evento, tais como Antônio Prado Júnior, Armando Penteado, José Carlos de Macedo Soares, Olívia Guedes Penteado e Oscar Rodrigues Alves.\n[…]\nPara o pesquisador Tarcízio Macedo, \"gradativamente, as revisões da historiografia sobre os modernismos brasileiros mostram que a Semana de 1922 não ilustra nem o princípio muito menos o apogeu de uma renovação que cruzou décadas e até hoje suscita ecos. Cada lugar tem o seu quadro e o importante é observar justamente a riqueza e a diversidade dos modernismos no Brasil\".\n[…]\nNas comemorações do centenário da Semana em 2022, vários eventos, mostras, publicações e seminários foram organizados, tentando formar uma visão mais exata sobre como se formou e o que representou o movimento no contexto histórico e identificar as distorções da historiografia tradicional. É um exemplo a exposição Raio-que-o-parta: ficções do moderno no Brasil, inaugurada no dia 16 de fevereiro no SESC 24 de Maio, em São Paulo.\n[…]\nArte moderna\n[…]\nModernismo\n[…]\nModernismo no Brasil\n[…]\nBopp, Raul (2012). Movimentos modernistas no Brasil. 1922-1928. Rio de Janeiro: José Olympio\n[…]\nBrito, Mário da Silva (1997). História do Modernismo Brasileiro. Rio de Janeiro: Civilização Brasileira"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Cecília Meireles",
+      "descricao": "Poeta carioca (1901–1964), autora do Romanceiro da Inconfidência."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na história do dinheiro brasileiro, o que Cecília Meireles tem em comum com Machado de Assis e Carlos Drummond de Andrade?",
+    "resposta": "Estamparam cédulas brasileiras",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cruzado_novo",
+      "https://pt.wikipedia.org/wiki/Cecília_Meireles"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cruzado_novo",
+        "situacao": "ok",
+        "texto": "O cruzado novo (NCz$) foi a moeda brasileira de 16 de janeiro de 1989 a 16 de março de 1990. Foi consequência da reforma monetária promovida pelo Plano Verão, instituído pelo ministro Maílson da Nóbrega, em 1989. O cruzado novo correspondia a mil cruzados, ou seja houve um corte de três zeros na data de 16 de janeiro de 1989.\n[…]\nInicialmente foram reaproveitadas as três últimas cédulas do padrão Cruzado, nas quais foi aposto um carimbo com os valores respectivos de 1, 5 e 10 cruzados novos respectivamente.\n[…]\nDepois disso, foram emitidas cédulas próprias do padrão, com o tamanho de 140 x 65 mm, que a partir de então viria a ser o tamanho padrão das cédulas brasileiras, se seguindo até a emissão das cédulas do padrão Real.\n[…]\nAs cédulas próprias do padrão são nos valores a seguir:\n[…]\nAs cédulas deste padrão foram reaproveitadas no padrão seguinte, emitido a partir do Plano Collor e no qual se retomava a nomenclatura Cruzeiro para a moeda em circulação no Brasil.\n[…]\nA Efígie da República representada na cédula de NCz$200 seria reaproveitada nas cédulas do Real."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cecília_Meireles",
+        "situacao": "ok",
+        "texto": "Cecília Benevides de Carvalho Meireles (Rio de Janeiro, 7 de novembro de 1901 – Rio de Janeiro, 9 de novembro de 1964) foi uma jornalista, pintora, poeta, escritora e professora brasileira. É um nome canônico do modernismo brasileiro, uma das grandes poetas da língua portuguesa e é amplamente considerada a melhor poeta do Brasil (pois que tenha combatido a palavra poetisa por causa da discriminaçã\n[…]\nCecília Benevides de Carvalho Meireles nasceu no bairro Rio Comprido, na cidade do Rio de Janeiro. Seus pais eram Carlos Alberto de Carvalho Meireles, funcionário do Banco do Brasil, e Mathilde Benevides Meireles, professora da rede pública de ensino fundamental (na época, ensino primário). Antes de Cecília nascer, sua mãe havia perdido seus outros filhos: Carlos, Vítor e Carmem. Seu pai Carlos morreu três meses antes do nascimento de Cecília.\n[…]\nSeguiu-se um período difícil de perseguição mais ou menos velada, em que durante quatro anos, por ironia e desagravo de sua capacidade pedagógica, Cecília Meireles manteve uma página diária sobre educação no Diário de Notícias. Também se encontra colaboração da sua autoria na revista luso-brasileira Atlântico.\n[…]\nOs poemas escritos entre fevereiro e março de 1922 foram publicados em Baladas para El-Rei, lançado em 1925, pela Editora Brasileira Lux, também com ilustrações de Correia Dias, seguindo a mesma linha dos últimos dois volumes já publicados, o que acabou fazendo com que estudiosos caracterizem essa parte da vida de Cecília como um \"simbolismo-tardio\", movimento literário encabeçado por Tasso da Silveira.\n[…]\nApós sua morte, recebeu como homenagem a impressão de uma cédula de cem cruzados novos. Esta cédula com a efígie de Cecília Meireles, lançada pelo Banco Central do Brasil, no Rio de Janeiro, em 1989, seria mudada para cem cruzeiros, quando houve a troca da moeda pelo governo de Fernando Collor.\n[…]\nPoemas de Cecília Meireles"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Orfeu da Conceição",
+      "descricao": "Peça de Vinicius de Moraes, de 1956, que leva o mito de Orfeu a um morro carioca."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que filme, vencedor da Palma de Ouro em 1959, adaptou uma peça de Vinicius de Moraes que leva um mito grego a um morro carioca?",
+    "resposta": "Orfeu Negro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Orfeu_Negro",
+      "https://pt.wikipedia.org/wiki/Orfeu_da_Conceição"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Orfeu_Negro",
+        "situacao": "ok",
+        "texto": "Orfeu Negro ou Orfeu do Carnaval (na França, Orphée Noir; na Itália, Orfeo Negro) é um filme ítalo-franco-brasileiro de 1959, dirigido por Marcel Camus e com roteiro adaptado por Camus e Jacques Viot a partir da peça teatral Orfeu da Conceição, de Vinícius de Moraes.\n[…]\nA trilha sonora é de Tom Jobim e Luís Bonfá. Vinícius e Antônio Maria também tiveram músicas incluídas, mas, assim como Agostinho dos Santos, que interpretou a música-tema de Orfeu, \"Manhã de Carnaval\", não receberam os créditos. O filme teve outra versão em 1999, sob o nome Orfeu, dirigida por Cacá Diegues.\n[…]\nA ambulância chega e leva o corpo ao Instituto Médico Legal. Ele não pode ir junto. Quarta-feira de cinzas e Orfeu só sabe chorar. Ele vai atrás do corpo, faz uma sessão espírita na qual Eurídice baixa no corpo de uma senhora, mas, enfim, Orfeu acha seu corpo. Ele sequestra-o e leva à favela. Mira vê, e enfurecida,  joga uma pedra na cabeça de Orfeu. Com a pancada ele cai de uma ribanceira com o corpo morto de Eurídice nos braços e morre também.\n[…]\nBreno Mello .... Orfeu\n[…]\nVencedor na categoria de melhor filme em língua estrangeira (português/diretor).\n[…]\nOrfeu Negro foi citado por Jean-Michel Basquiat como uma de suas primeiras influências musicais, enquanto Barack Obama observa em seu livro de memórias Dreams from My Father (1995) que era o filme favorito de sua mãe.\n[…]\nEm 1999, um novo filme, Orfeu, foi feita por Cacá Diegues, com uma trilha sonora que caracteriza o cantor e compositor brasileiro Caetano Veloso. O diretor disse que não era um remake de Orfeu Negro, mas um filme baseado na peça original de Vinicius de Moraes, de 1956.\n[…]\nEm julho de 2014, uma adaptação musical de Broadway Orfeu Negro foi anunciada, a ser escrita por Lynn Nottage e dirigido por George C. Wolfe."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Orfeu_da_Conceição",
+        "situacao": "ok",
+        "texto": "Orfeu da Conceição é uma peça teatral escrita por Vinicius de Moraes em 1954, baseada no drama da mitologia grega de Orfeu e Eurídice. A trilha sonora da peça foi lançada em vinil no ano de 1956, pela Odeon, com música escrita por Antônio Carlos Jobim e letra de Vinicius.\n[…]\nEm 1959, baseado na peça, foi lançado o filme Orfeu Negro, premiado com a Palma de Ouro, o Oscar e o Globo de Ouro. Em 1999 foi lançado o segundo filme baseado na peça, chamado de Orfeu e dirigido por Cacá Diegues com música de Caetano Veloso.\n[…]\nOrfeu da Conceição é uma adaptação em forma de peça musical do mito grego de Orfeu transposto à realidade das favelas cariocas. A obra marca o encontro artístico do autor Vinicius de Moraes com Antonio Carlos Jobim que musicou todo espetáculo. O espetáculo estreou no Teatro Municipal do Rio de Janeiro em 25 de setembro de 1956, com cenários de Oscar Niemeyer.\n[…]\nORFEU DA CONCEIÇÃO, o músico\n[…]\nO diretor de cinema e escritor francês Marcel Camus filmou no Rio de Janeiro Orfeu Negro (1959), uma adaptação da peça de Vinícius. O filme foi escrito por Marcel Camus, Vinicius de Moraes e Jacques Viot e dirigido por Marcel Camus, que foi premiado com a Palma de Ouro no Festival de cinema de Cannes, na França.[carece de fontes]? Marcel Camus também recebeu o Oscar de melhor filme de 1959 em língua estrangeira com Black Orpheus (título do Orfeu Negro pelo qual foi premiado nos EUA.\n[…]\nLuís Bonfá, que toca violão em \"Orfeu da Conceição\", comporia \"Manhã de Carnaval\", usada no filme de Camus junto a outras canções, e que nos anos que seguem é lançada em várias compilações diferentes para discos, ainda pelo mesmo título de Orfeu Negro; compilações em discos que não foram necessariamente a trilha sonora do filme oficial, nem da peça teatral de Vinicius."
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Morte e Vida Severina",
+      "descricao": "Auto de Natal em versos de João Cabral de Melo Neto, sobre a jornada do retirante Severino."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1965, a montagem de Morte e Vida Severina pelo teatro da PUC de São Paulo ganhou música de que jovem compositor?",
+    "resposta": "Chico Buarque",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Morte_e_Vida_Severina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Morte_e_Vida_Severina",
+        "situacao": "ok",
+        "texto": "Morte e Vida Severina é um livro de poema regionalista e modernista do escritor brasileiro João Cabral de Melo Neto, escrito entre 1954 e 1955 e publicado em 1955.\n[…]\nEm 1965, Roberto Freire, diretor do teatro TUCA da PUC de São Paulo, pediu ao então muito jovem Chico Buarque que musicasse a obra, encenada no palco com trinta estudantes e centenas de outros na retaguarda.\n[…]\nMorte e Vida Severina em Desenho Animado é uma versão audiovisual da obra prima de João Cabral de Melo Neto, adaptada para os quadrinhos pelo cartunista Miguel Falcão. Preservando o texto original, a animação é 3D.\n[…]\nA primeira representação de Morte e Vida Severina se deu com um grupo de teatro do Pará em 1957. A peça foi ensaiada e montada pela primeira vez em Belém pelo grupo Norte Teatro Escola, e depois foi levada para o I Festival Nacional de Teatro de Estudantes, em Recife (1957), sendo promovido por Paschoal Carlos Magno. A montagem foi premiada, tendo o ator Carlos Miranda, intérprete de Severino, obtido o primeiro prêmio como revelação de ator.\n[…]\nO espaço possui um movimento de deslocamento: o retirante faz a travessia da Caatinga, passando pelo Agreste, para a Zona da Mata, até chegar ao Recife, ou seja, sai da serra, mais especificamente da Serra da Costela, e vai para o litoral (mangue). Durante esse deslocamento em buscas da vida, depara-se com tantas mortes e miséria que pensa em se atirar no rio onde ele se encontrava e apressar a própria morte.\n[…]\nA história é narrada em primeira pessoa pelo personagem Severino, e é composta de monólogos e diálogos com outros personagens."
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Aracy de Carvalho",
+      "descricao": "Funcionária do consulado brasileiro em Hamburgo que ajudou judeus a fugir do nazismo, reconhecida como Justa entre as Nações."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Aracy de Carvalho, que ajudou judeus a fugir da Alemanha nazista pelo consulado de Hamburgo, foi esposa de que escritor brasileiro?",
+    "resposta": "Guimarães Rosa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aracy_de_Carvalho",
+      "https://pt.wikipedia.org/wiki/João_Guimarães_Rosa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aracy_de_Carvalho",
+        "situacao": "ok",
+        "texto": "Aracy de Carvalho Guimarães Rosa (née Aracy Moebius de Carvalho) (5 December 1908 – 28 February 2011) was a Brazilian diplomatic clerk who has been recognized with the title of Righteous Among the Nations.\n[…]\nIn 1938 she met fellow diplomat and assistant-Consul João Guimarães Rosa, who would later become her second husband, and one of the most important Brazilian writers. His magnum opus, Grande Sertão: Veredas, was dedicated to her. With his help, she intensified her humanitarian activity, saving a great number of Jews from imprisonment and death. She remained in Germany until 1942, when Brazil broke relations with Germany and joined the Allied Forces.\n[…]\nOn 8 July 1982, Aracy de Carvalho became one of the two Brazilians honoured by the Yad Vashem with the Righteous Among the Nations award, together with Ambassador Luiz Martins de Souza Dantas.\n[…]\nShe is depicted in the 2021 biographical TV miniseries Passport to Freedom. Brazilian actress Sophie Charlotte portrays Aracy de Carvalho.\n[…]\nIn her late days Aracy de Carvalho suffered from Alzheimer's disease. She died peacefully at the age of 102, in her home in São Paulo, on 28 February 2011, due to natural causes.\n[…]\nSchpun, Mônica Raïsa. Justa. Aracy de Carvalho e o resgate de judeus: trocando a Alemanha nazista pelo Brasil. Rio de Janeiro, Brazil: Civilização Brasileira, 2011, 526 p. ISBN 978-8-52000-991-8.\n[…]\nAracy de Carvalho Guimarães Rosa – her activity to save Jews' lives during the Holocaust, at Yad Vashem website"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/João_Guimarães_Rosa",
+        "situacao": "ok",
+        "texto": "João Guimarães Rosa (Cordisburgo, 27 de junho de 1908 – Rio de Janeiro, 19 de novembro de 1967) foi um médico, diplomata, escritor e poeta brasileiro, identificado com a terceira geração do modernismo no Brasil e reconhecido por muitos como o maior escritor brasileiro do século XX. Seu estilo é marcado por neologismos, coloquialidade e fluxo de consciência e sua ficção ambienta-se no sertão mineir\n[…]\nGuimarães Rosa nasceu na cidade de Cordisburgo, no estado de Minas Gerais, e ao longo da vida exerceu as profissões de médico e diplomata. Enquanto servia como cônsul-adjunto em Hamburgo, entre 1938 e 1942, ele e sua segunda esposa Aracy de Carvalho ajudaram muitos judeus que fugiam do nazismo a entrarem ilegalmente no Brasil.\n[…]\nPor esta razão, a sua ação humanitária e de extrema coragem, Aracy de Carvalho Guimarães Rosa (nome de casada) foi agraciada, no pós-guerra, por Israel. É a única mulher brasileira homenageada no Jardim dos Justos entre as Nações, no Yad Vashem, que é o Memorial Oficial de Israel, situado em Jerusalém, para relembrar a todas as pessoas que sofreram no Holocausto.\n[…]\nDepois de servir em Hamburgo, Guimarães Rosa atuou, ainda, como diplomata, nas Embaixadas do Brasil em Bogotá e em Paris.\n[…]\nRealismo mágico, regionalismo, liberdade de invenções linguísticas e neologismos são algumas das características fundamentais da literatura de Guimarães Rosa, mas não as suficientes para explicar seu sucesso. Guimarães Rosa prova o quão importante é ter a linguagem a serviço da temática e vice-versa, uma potencializando a outra. Nesse sentido, o escritor mineiro inaugura uma metamorfose no regionalismo brasileiro que o traria de novo ao centro da ficção brasileira.[carece de fontes]?\n[…]\nGuimarães Rosa, Getúlio Vargas: \"Serenamente dou o primeiro passo no caminho da eternidade e saio da vida para entrar na História\"\n[…]\n24 Cartas de João Guimarães Rosa a Antonio Azeredo da Silveira"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Luis Fernando Verissimo",
+      "descricao": "Cronista e humorista gaúcho, criador do Analista de Bagé."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O cronista criador do Analista de Bagé e da Velhinha de Taubaté é filho de que romancista gaúcho?",
+    "resposta": "Erico Verissimo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Luis_Fernando_Verissimo",
+      "https://pt.wikipedia.org/wiki/Erico_Verissimo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Luis_Fernando_Verissimo",
+        "situacao": "ok",
+        "texto": "Luís Fernando Veríssimo (Porto Alegre, 26 de setembro de 1936 – Porto Alegre, 30 de agosto de 2025) foi um escritor, humorista, cartunista, tradutor, roteirista, dramaturgo e romancista brasileiro. O artista também foi publicitário e revisor de jornal. Veríssimo exerceu ainda a ocupação de músico, tendo tocado saxofone em alguns conjuntos. Com mais de 80 títulos publicados, foi um dos mais popular\n[…]\nMas, anos depois, em plena democracia, Veríssimo faria reviver a Velhinha de Taubaté, ironizando a credibilidade dos presidentes civis, especialmente Fernando Collor e Fernando Henrique Cardoso.\n[…]\nEm 1995, intelectuais brasileiros convidados pelo caderno \"Ideias\" do Jornal do Brasil elegeram Luís Fernando Veríssimo o Homem de Ideias do ano.\n[…]\nAinda em 1995, por iniciativa do contrabaixista Jorge Gerhardt, foi criado o grupo Jazz 6, este certamente \"o menor sexteto do mundo\", com apenas 5 integrantes: além de Veríssimo no saxofone e Gerhardt no contrabaixo, fazem parte do grupo Luiz Fernando Rocha (trompete e flugelhorn), Adão Pinheiro (piano) e Gilberto Lima (bateria).\n[…]\nEm 2014 foi homenageado pela escola de samba de Porto Alegre Imperadores do Samba com o enredo A Imperadores do Samba faz a justa homenagem aos personagens de Luís Fernando Veríssimo.\n[…]\nLuís Fernando Veríssimo morreu em 30 de agosto de 2025, aos 88 anos, em Porto Alegre, Rio Grande do Sul. Ele estava internado havia cerca de três semanas na UTI do Hospital Moinhos de Vento com pneumonia. O escritor sofria com a doença de Parkinson e problemas cardíacos — em 2016 recebeu um marca-passo — e, em 2021, sofreu um acidente vascular cerebral (AVC) que lhe deixou sequelas motoras e de comunicação.\n[…]\nAnalista de Bagé\n[…]\nAmor Verissimo (2013, Editora Objetiva)\n[…]\nVerissimo antológico: Meio século de crônicas, ou coisa parecida (2020, Editora Objetiva)\n[…]\nAs Cobras do Verissimo (1978, ed. Codecri)\n[…]\nPágina de Luís Fernando Veríssimo no Extra Classe"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Erico_Verissimo",
+        "situacao": "ok",
+        "texto": "Érico Lopes Veríssimo (Cruz Alta, 17 de dezembro de 1905 – Porto Alegre, 28 de novembro de 1975) foi um escritor brasileiro.[carece de fontes]? Com uma prosa simples e de fácil leitura, tornou-se um dos escritores mais populares da literatura brasileira.\n[…]\nEm 1961, Érico sofreu seu primeiro infarto do miocárdio. Após um repouso absoluto, volta a trabalhar na obra O Arquipélago. Quando decide viajar à Grécia com a esposa em 1962, Érico entrega O Arquipélago pronto para ser publicado. No dia 12 de outubro de 1963, vítima de câncer de pulmão, faleceu a mãe de Érico, aos setenta e oito anos. No ano seguinte, Luis Fernando Verissimo, inesperadamente, casa-se com Lúcia Helena Massa, e eles também deram três netos a Veríssimo.[carece de fontes]?\n[…]\nEmbora o autor seja enquadrado na segunda geração dos modernistas, marcada pelos romances regionalistas, a obra de Érico Veríssimo não se restringe ao Rio Grande do Sul. De fato, a principal obra que tem essa característica regionalista é O Tempo e o Vento. As outras têm caráter mais universal, pois poderiam ter transcorrido em qualquer estado do Brasil, ou mesmo fora dele. Todavia, com a obra Incidente em Antares (1971), há um retorno temático ao Rio Grande do Sul.p. 23\n[…]\nOutros romancistas de 30 focaram suas narrativas ou nas elites decadentes ou nas camadas pobres da sociedade, tanto do campo como da cidade. Já Érico Veríssimo deu foco à pequena burguesia urbana e seus dilemas. Ademais, enquanto a maioria dos outros escritores do mesmo período tinham um foco mais social, Érico soube equilibrar o foco no social e no psicológico, a crítica social e o intimismo.p. 7\n[…]\nUm dos maiores críticos de sua obra talvez seja o próprio Érico. Conforme explica em sua autobiografia:"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Monteiro Lobato",
+      "descricao": "Escritor paulista (1882–1948), criador do Sítio do Picapau Amarelo."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1917, a crítica de Monteiro Lobato que ficou conhecida como Paranoia ou Mistificação atacou a exposição de que pintora?",
+    "resposta": "Anita Malfatti",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Anita_Malfatti",
+      "https://pt.wikipedia.org/wiki/Monteiro_Lobato"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Anita_Malfatti",
+        "situacao": "ok",
+        "texto": "Anita Catarina Malfatti (São Paulo, 2 de dezembro de 1889 — São Paulo, 6 de novembro de 1964) foi uma pintora, desenhista, gravadora, ilustradora e professora ítalo-brasileira. Anita Malfatti era uma pessoa com deficiência física. É considerada pioneira da Arte Moderna no Brasil.\n[…]\nFilha do engenheiro italiano Samuele Malfatti e da pintora e poliglota norte-americana de origem alemã Eleonora Elizabeth \"Betty\" Krug, Anita Malfatti nasceu na cidade de São Paulo, em 2 de dezembro de 1889, sendo a segunda filha do casal. Nasceu com deficiência congênita no braço direito e, por esse motivo, aos três anos de idade, foi submetida a uma cirurgia na cidade de Lucca, na Itália, na esperança de corrigir a atrofia. Entretanto, não houve recuperação total dos movimentos.\n[…]\nA mais dura crítica veio do escritor e crítico Monteiro Lobato que, em 20 de dezembro de 1917, dedicou um artigo ao assunto no jornal O Estado de S.Paulo, intitulado A propósito da exposição Malfatti. Lobato considerou as obras das artistas distorções de mau gosto, porém, reconheceu o talento da pintora.\n[…]\nMuitas de suas obras foram devolvidas, outras quase destruídas. Anita mergulhou em profunda tristeza e isolou-se de todos. Suprimiu sua inquietação artística, retomando, em 1919 os estudos acadêmicos.As críticas severas e reações conservadoras, todavia, provocaram reação de jovens literatos e artistas visuais, como Oswald de Andrade, Menotti del Picchia e Emiliano Di Cavalcanti em defesa de Malfatti.\n[…]\nAnita Malfatti faleceu no dia 6 de novembro de 1964. Foi sepultada no Cemitério dos Protestantes.\n[…]\nDocumentário Anita Malfatti de Luzia Portinari Greggio. Recebeu o Prêmio Estímulo de Curta-metragem da Secretaria de Cultura do Estado de São Paulo em 2001.\n[…]\nInstituto Anita Malfatti"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monteiro_Lobato",
+        "situacao": "ok",
+        "texto": "José Bento Renato Monteiro Lobato (Taubaté, 18 de abril de 1882 – São Paulo, 4 de julho de 1948) foi um escritor, intelectual e editor literário brasileiro. Participou ativamente do pré-modernismo e modernismo brasileiro e da vida política do Brasil, sendo popularmente lembrado por sua série de livros infantis Sítio do Pica Pau Amarelo.\n[…]\nConsiderado um precursor da literatura infantil brasileira, Lobato ficou popularmente conhecido pelo conjunto educativo de sua obra de livros infantis, que constitui aproximadamente metade da sua produção literária. A outra metade, consistindo de contos (geralmente sobre temas brasileiros), artigos, críticas, crônicas, prefácios, cartas, livros sobre a importância do ferro (Ferro, 1931) e do petróleo (O Escândalo do Petróleo, 1936).\n[…]\nAos onze anos, em 1893, foi transferido para o Colégio São João Evangelista. Ao receber como herança antecipada uma bengala do pai, que trazia gravada no castão as iniciais J.B.M.L., de José Bento Marcondes Lobato, mudou seu nome de José Renato para José Bento, a fim de utilizá-la. Aos 13 anos foi reprovado em português, quando já escrevia para três jornais, aos 14 já dominava o inglês e francês e nessa idade fez o texto Rabiscando, que é a sua redação mais antiga conhecida.\n[…]\nEm 20 de dezembro de 1917, publicou \"Paranoia ou Mistificação?\", a famosa crítica desfavorável à exposição de pintura de Anita Malfatti, que culminaria como o estopim para a criação da Semana de Arte Moderna de 1922.\n[…]\nLobato era a favor de uma arte devidamente brasileira, autóctone, criada aqui. Por isso criticou Anita Malfatti, embora admitisse que ela fosse talentosa. Isso tudo gerou o estranhamento entre ele e os modernistas mas, no fundo, todos eles tinham razão, apenas viam as coisas de ângulos diferentes.\n[…]\n«Monteiro Lobato: rasgado, queimado, cancelado e imprescindível»"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Olavo Bilac",
+      "descricao": "Poeta parnasiano carioca (1865–1918), autor da letra do Hino à Bandeira."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Dia do Reservista, comemorado em dezesseis de dezembro, homenageia o nascimento de que poeta parnasiano, defensor do serviço militar obrigatório?",
+    "resposta": "Olavo Bilac",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Olavo_Bilac"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Olavo_Bilac",
+        "situacao": "ok",
+        "texto": "Olavo Brás Martins dos Guimarães Bilac (Rio de Janeiro, 16 de dezembro de 1865 – Rio de Janeiro, 28 de dezembro de 1918), mais conhecido como Olavo Bilac, foi um poeta, jornalista, cronista e contista brasileiro. Alcunhado \"príncipe dos poetas brasileiros\", é considerado o principal autor do parnasianismo no país. Junto com Alberto de Oliveira e Raimundo Correia, integrou a chamada \"tríade parnasi\n[…]\nEm 1888, Olavo Bilac estreou como poeta e lançou a sua obra intitulada Poesias, que obteve ampla aceitação do público.\n[…]\nJá no fim de sua vida, em 1917, Bilac recebe o título de professor honorário da Universidade de São Paulo.\n[…]\nA lista a seguir apresenta os principais livros publicados por Olavo Bilac. Para uma descrição detalhada da organização de sua poesia, das séries editoriais e dos livros exclusivamente poéticos, ver Obra poética de Olavo Bilac.\n[…]\nDentre os escritos de Olavo Bilac, destacam-se os seguintes:\n[…]\n\"No poema Língua Portuguesa, o autor parnasiano Olavo Bilac faz uma abordagem sobre o histórico da língua portuguesa, tema já tratado por Camões. Este poema inspirou outras abordagens, como o poema 'Língua', de Gilberto Mendonça Teles e 'Língua', de Caetano Veloso.\n[…]\nAinda expressando o seu amor pelo idioma, agora por meio de um vocativo, 'Amo-te, ó rude e doloroso idioma', Olavo Bilac alude ao fato de que o idioma ainda precisava ser moldado e, impor essa língua a outros povos não era uma tarefa fácil, pois implicou destruir a cultura de outros povos.\n[…]\nOlavo Bilac traduziu as famosas travessuras de Max und Moritz, por Wilhelm Busch, do alemão para o português, aportuguesando os nomes das personagens para Juca e Chico.\n[…]\nJardim Olavo Bilac\n[…]\nPerfil de Olavo Bilac no sítio oficial da Biblioteca Nacional\n[…]\n«Poemas de Olavo Bilac»\n[…]\n«Artigo sobre os usos políticos da memória de Olavo Bilac no século XX»"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Graciliano Ramos",
+      "descricao": "Romancista alagoano (1892–1953), autor de Vidas Secas e São Bernardo."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Antes da fama, Graciliano Ramos foi prefeito de que cidade alagoana, onde seus relatórios oficiais chamaram atenção pelo estilo?",
+    "resposta": "Palmeira dos Índios",
+    "distratores": [
+      "Maceió",
+      "Penedo",
+      "Quebrangulo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Graciliano_Ramos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Graciliano_Ramos",
+        "situacao": "ok",
+        "texto": "Graciliano Ramos de Oliveira (Quebrangulo, 27 de outubro de 1892 – Rio de Janeiro, 20 de março de 1953) foi um romancista, cronista, contista, jornalista, político e memorialista brasileiro, considerado um dos maiores nomes da literatura brasileira. Ele é mais conhecido por sua obra Vidas Secas (1938). Foi membro integrante do Partido Comunista Brasileiro (PCB).\n[…]\nNascido numa grande família de classe média, viveu os primeiros anos de sua infância migrando para diversas cidades da Região Nordeste do Brasil. Trabalhou como jornalista na cidade do Rio de Janeiro, onde escreveu para O Malho e Correio da Manhã, até regressar para o Nordeste em 1915, devido a tragédia familiar em que perdeu quatro irmãos, vítimas de peste bubônica. Fixou-se na cidade de Palmeira dos Índios, onde casou-se, e em 1927, foi eleito prefeito, cargo que exerceu por dois anos.\n[…]\nGraciliano Ramos nasceu em Quebrangulo, em 27 de outubro de 1892. Primeiro de dezesseis irmãos de uma família de classe média do sertão nordestino, ele viveu os primeiros anos em diversas cidades do Nordeste brasileiro, como Buíque, Pernambuco, Viçosa, Maceió e Palmeira dos Índios, Alagoas. Terminando o segundo grau em Maceió, seguiu para o Rio de Janeiro, onde passou um tempo trabalhando como jornalista.\n[…]\nFoi eleito prefeito de Palmeira dos Índios em 1927, tomando posse no ano seguinte. Apoiado pelo governador do estado e impulsionado por ser um nome de fora da política, foi eleito em um pleito de uma candidatura só. Ficou no cargo por dois anos, renunciando a 10 de abril de 1930. Segundo uma das autodescrições, \"Quando prefeito de uma cidade do interior, soltava os presos para construírem estradas\".\n[…]\nOs relatórios da prefeitura que escreveu nesse período chamaram a atenção de Augusto Frederico Schmidt, editor carioca que o animou a publicar Caetés (1933).\n[…]\nPrêmios concedidos a Graciliano Ramos:"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Quarto de Despejo",
+      "descricao": "Diário de Carolina Maria de Jesus publicado em 1960, sobre a vida numa favela de São Paulo."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Quarto de Despejo, de Carolina Maria de Jesus, é o diário da vida dela em que favela paulistana?",
+    "resposta": "Canindé",
+    "distratores": [
+      "Heliópolis",
+      "Paraisópolis",
+      "Brasilândia"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carolina_Maria_de_Jesus"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carolina_Maria_de_Jesus",
+        "situacao": "ok",
+        "texto": "Carolina Maria de Jesus (Sacramento, 14 de março de 1914 – São Paulo, 13 de fevereiro de 1977) foi uma escritora, cantora, compositora e poetisa brasileira. Uma das primeiras escritoras negras do Brasil, De Jesus é considerada uma das mais importantes escritoras do país, de tal modo que sua obra e vida permanecem objetos de diversos estudos, tanto no Brasil quanto no exterior.\n[…]\nDe Jesus viveu boa parte de sua vida na favela do Canindé, atualmente um bairro da Zona Central de São Paulo, sustentando a si mesma e seus três filhos trabalhando como catadora de papéis.\n[…]\nLogo depois de se mudar para Parelheiros, De Jesus parou de receber os pagamentos de direitos autorais. Tinha tão pouco dinheiro que, assim fizera na favela do Canindé, ela e seus filhos passavam certos dias catando papéis e garrafas para vender: agora, contudo, usava o dinheiro de catadora para comprar refrigerantes e bilhetes de cinema. De tempos em tempos, entregava a uma vendedora local os abacates, bananas e mandiocas que produzia para serem vendidos num mercado local.\n[…]\n\"Quarto de Despejo: Carolina Maria de Jesus Cantando Suas Composições\", 1961, São Paulo, RCA Victor.\n[…]\nEm 1961, com o sucesso da publicação do livro Quarto de Despejo; Carolina Maria de Jesus grava suas composições em um disco lançado pela gravadora RCA Victor. O álbum contém 12 faixas autorais de samba, marcha e baião, com o acompanhamento do maestro Chiquinho de Moraes nos arranjos e direção artística de Julio Nagib.\n[…]\nBARCELLOS, Sergio da Silva, ed. (2015). Vida por Escrito: Guia do acervo de Carolina Maria de Jesus (Guia). Sacramento: Bertolucci Editora. 357 páginas. ISBN 9788599840078\n[…]\nPERPÉTUA, Elzira Divina (2014). A Vida Escrita de Carolina Maria de Jesus (Biografia). Belo Horizonte: Nandyala. 344 páginas. ISBN 9788583580027\n[…]\nCarolina Maria de Jesus no Google Scholar\n[…]\n«Portal Biobibliográfico de Carolina Maria de Jesus»"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Auto da Compadecida",
+      "descricao": "Peça teatral de Ariano Suassuna, de 1955, protagonizada por João Grilo e Chicó."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que pequena cidade do sertão paraibano se passa o Auto da Compadecida, de Ariano Suassuna?",
+    "resposta": "Taperoá",
+    "distratores": [
+      "Campina Grande",
+      "Patos",
+      "Sousa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Auto_da_Compadecida"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auto_da_Compadecida",
+        "situacao": "ok",
+        "texto": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita pelo autor brasileiro Ariano Suassuna em 1955. Sua primeira encenação aconteceu em 1956, no Recife, em Pernambuco. A peça também foi encenada em 1974, com direção de João Cândido. Em 2 de outubro de 1957 a peça foi publicada em forma de livro pela editora Agir no Rio de Janeiro.\n[…]\nO Auto da Compadecida projetou Suassuna em todo o país e foi considerada por Sábato Magaldi, em 1962, \"o texto mais popular do moderno teatro brasileiro\".\n[…]\nA peça foi adaptada para o cinema pela primeira vez em 1969, com o filme A Compadecida. A segunda adaptação veio em 1987, com o filme Os Trapalhões no Auto da Compadecida.\n[…]\nEm 1999, foi apresentada como uma minissérie pela Rede Globo de Televisão, que inclusive foi a responsável pela inclusão do artigo \"O\" antes do nome original. A adaptação de maior sucesso, foi editada em 2000 para exibição nos cinemas, contando com alguns personagens, como o Cabo Setenta, Rosinha e Vicentão, que não fazem parte da peça original. Esses personagens adicionais fazem parte da obra Torturas de um Coração, além de elementos de O Santo e a Porca, ambas de autoria de Ariano Suassuna.\n[…]\nAuto da Compadecida foi encenada pela primeira vez no dia 11 de setembro de 1956, no Teatro de Santa Isabel, pelo Teatro Adolescente do Recife, sob direção de Clênio Wanderley, figurino de Victor Moreira e cenários de Aloísio Magalhães, tendo como elenco os seguintes atores:\n[…]\nA Compadecida: Maria do Socorro Raposa Meira\n[…]\nA Compadecida: Córdula Reis\n[…]\nA Compadecida (filme de 1969)\n[…]\nOs Trapalhões no Auto da Compadecida (filme de 1987)\n[…]\nO Auto da Compadecida (minissérie de 1999)\n[…]\nO Auto da Compadecida (filme de 2000)\n[…]\nO Auto da Compadecida (teatro de 2017)\n[…]\nO Auto da Compadecida 2 (filme de 2024)\n[…]\nO Auto da Compadecida, montagem do Grupo Maria Cutia (2025)"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Grande Sertão: Veredas",
+      "descricao": "Romance de Guimarães Rosa publicado em 1956, narrado pelo jagunço Riobaldo."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que palavra antiga, que significa coisa sem importância, abre o romance Grande Sertão Veredas, de Guimarães Rosa?",
+    "resposta": "Nonada",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Grande_Sertão:_Veredas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Sertão:_Veredas",
+        "situacao": "ok",
+        "texto": "Grande Sertão: Veredas é um romance experimental modernista escrito pelo autor brasileiro João Guimarães Rosa e publicado pela Livraria José Olympio Editora, em 1956. Tanto a arte da capa como as ilustrações da primeira edição de Grande sertão: veredas são de autoria de Poty Lazzarotto.\n[…]\nJosué Montello, em aula inaugural do Curso de Literatura proferida em 28 de março de 1957 na Faculdade de Letras de Lisboa, considerou Grande Sertão: Veredas \"a mais arrojada aventura da nova ficção brasileira. Guimarães Rosa é um renovador da língua como Aquilino Ribeiro.\"\n[…]\nLonge de ser apenas um \"transculturador\", facilitando a tradução do local para o global, Guimarães Rosa desafia a legibilidade universal, intencionalmente resistindo à tornar Grande Sertão: Veredas um texto de fácil compreensão, retendo especificidades locais e provocando um alto grau de intraduzibilidade. O leitor então estabelece uma relação dialética e pedagógica com uma alteridade que não se rende à universalização.\n[…]\nApesar da grande quantidade de traduções para outros idiomas que Grande Sertão: Veredas possui, a obra é considerada de difícil tradução por vários autores, devido ao grande conhecimento da língua portuguesa que se faz necessário, graças à rica combinação existente no texto de Guimarães Rosa, que reúne poesia, fala arcaica, linguagem coloquial e regionalismos mineiros. Assim como James Joyce fez com o inglês, o romancista brasileiro transformou o português em sua própria língua literária.\n[…]\nDRUMOND, Josina Nunes. As dobras do sertão: palavra e imagem : o neobarroco em Grande Sertão-Veredas, de Guimarães Rosa, e em Imagens do Grande Sertão, de Arlindo Daibert. São Paulo:Annablume, 2008, ISBN 978-85-7419-791-3.\n[…]\nLIPPOLIS, Enrico. Grande sertão: veredas: o sertão como símbolo do inconsciente"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Visconde de Sabugosa",
+      "descricao": "Personagem sábio do Sítio do Picapau Amarelo, de Monteiro Lobato."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O sábio Visconde de Sabugosa, do Sítio do Picapau Amarelo, foi feito por Tia Nastácia com um pedaço de que planta?",
+    "resposta": "Milho",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Visconde_de_Sabugosa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Visconde_de_Sabugosa",
+        "situacao": "ok",
+        "texto": "Visconde de Sabugosa é um personagem do Sítio do Pica-pau Amarelo, criado por Monteiro Lobato.\n[…]\nVisconde é um boneco feito de sabugo de milho, cuja sabedoria obteve através dos livros da estante de Dona Benta. Apesar de ser um Visconde, seu único pertence é a sua cartola. Nas aventuras é sempre escolhido por Pedrinho para fazer as coisas mais perigosas, pelo fato de ele ser \"consertável\", se estragasse ou se machucasse ou até morresse, Tia Nastácia fazia outro.\n[…]\nUm fato curioso é que Aramis criou uma característica para o Visconde, que mais tarde foi aderida na série animada do Sítio de 2012, que é um forte sotaque paulista, com bastante ênfase nas letras \"R\" e em \"L\" finais. Já em 2007, Kiko Mascarenhas deu uma personalidade mais descontraída, mas ao mesmo tempo sábia, e em um episódio romântica, quando o Visconde se apaixona por uma cientista chamada Minerva.\n[…]\nEm 1998 o dublador Eleu Salvador fez a voz do Visconde em um CD da \"Canto e Encanto\", que narrava as histórias \"Os 12 Trabalhos de Hércules\" e \"História das Invenções\".\n[…]\nEm 2012, a Rede Globo lançou a série animada do Sítio, e a voz do Visconde foi feita pelo dublador César Marchetti. Curiosamente, como citado acima, o desenho animado do Sítio aderiu a uma característica criada nas temporadas do Sítio de 2005 e 2006 pelo ator Aramis Trindade, que é o sotaque paulista do Visconde de Sabugosa. César quando faz a voz do personagem dá bastante ênfase nos \"L\" finais e nas letras \"R\".\n[…]\nVisconde de Sabugosa por André LeBlanc\n[…]\nVisconde por Manoel Victor Filho"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Jeca Tatu",
+      "descricao": "Personagem caipira criado por Monteiro Lobato nos textos reunidos em Urupês."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "O caipira Jeca Tatu, retratado como símbolo do atraso rural no livro Urupês, foi criado por que escritor?",
+    "resposta": "Monteiro Lobato",
+    "distratores": [
+      "Mário de Andrade",
+      "Lima Barreto",
+      "Graciliano Ramos"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jeca_Tatu"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jeca_Tatu",
+        "situacao": "ok",
+        "texto": "Jeca Tatu é uma personagem criada por Monteiro Lobato em sua obra Urupês, que contém 14 histórias baseadas no trabalhador rural paulista. Simboliza a situação do caipira, abandonado pelos poderes públicos brasileiros, às doenças, ao atraso econômico, educacional e à indigência política.\n[…]\n\"O Jeca Tatu não é assim, ele está assim\". A frase de Monteiro Lobato, sobre um dos seus mais populares personagens, refere sua obra para além das histórias infantis e incomoda a elite intelectual da época, acostumada a uma visão romântica do homem do campo. Jeca Tatu, um caipira de barba rala e calcanhares rachados – porque não gostava de usar sapatos, era pobre, ignorante e avesso aos hábitos de higiene urbanos. Morava na região do Vale do Paraíba Paulista, distinta por seu atraso.\n[…]\nO personagem Jeca Tatu e a análise dele feita por Monteiro Lobato no conto Urupês e no artigo \"Velha Praga\" de Monteiro Lobato é assim explicado pelo folclorista Cornélio Pires, quando analisa o caipira caboclo:\n[…]\nEm 1912, os cientistas Belisário Pena e Artur Neiva investigam a fauna e a flora de regiões brasileiras e investigam, além da flora e da fauna, a condição sanitária da população rural do Brasil. As informações, publicadas em Relatório Médico-Científico (1916) pelo Instituto Oswaldo Cruz, promove campanhas em favor do saneamento, estimula a criação da Liga Pró-Saneamento do Brasil\" (1918). Monteiro Lobato aderiu à campanha com o seu personagem Jeca Tatu.\n[…]\nNo bojo das campanhas sanitaristas, Monteiro Lobato modifica sua análise do problema: Pobre Jeca. Como és bonito no romance e feio na realidade., transformando-o num novo símbolo de brasilidade. Não por acaso, em 1924, foi criado o personagem radiofônico Jeca Tatuzinho, que ensinava noções de higiene e saneamento às crianças.\n[…]\nCaipira"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "A Moreninha",
+      "descricao": "Romance romântico publicado em 1844, ambientado na ilha de Paquetá."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que médico e escritor publicou em 1844 A Moreninha, romance romântico ambientado numa ilha da baía de Guanabara?",
+    "resposta": "Joaquim Manuel de Macedo",
+    "distratores": [
+      "José de Alencar",
+      "Bernardo Guimarães",
+      "Manuel Antônio de Almeida"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/A_Moreninha"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/A_Moreninha",
+        "situacao": "ok",
+        "texto": "A Moreninha é um romance de autoria do escritor brasileiro Joaquim Manuel de Macedo (1820-1882), publicado em 1844. A obra marca o início da ficção do romantismo brasileiro e tem grande sucesso ainda nos dias de hoje. É considerado o primeiro romance tipicamente nacional, pois retrata hábitos da juventude burguesa carioca do século XIX, contemporânea à época de sua publicação.\n[…]\nEscrita no mesmo ano em que o autor se forma em medicina, a obra rende-lhe fama de forma tão intensa que o leva a abrir mão da carreira médica para dedicar-se exclusivamente à literatura e ao jornalismo.\n[…]\nFilipe, Leopoldo, Augusto e Fabrício, estudantes de medicina, passam o feriado na casa da avó de Filipe, na Ilha de Paquetá, no Rio de Janeiro.Um deles apostou que se ficasse apaixonado por uma mulher por mais de quinze dias, escreveria um romance contando a história desta paixão. A partir daí, Augusto conhece Carolina (a Moreninha) por quem se apaixona.\n[…]\nConsiderado o primeiro romance romântico brasileiro propriamente dito, A Moreninha segue a tendência do romance-folhetim, alcançando grande repercussão por apresentar os quesitos necessários para satisfazer o gosto do leitor da época: o namoro difícil ou impossível, a comicidade, a dúvida entre o desejo e o dever, a revelação surpreendente de uma identidade, as brincadeiras de estudantes e uma linguagem mais inclinada para o tom coloquial.Sua narração é em terceira pessoa, com narrador onisciente.\n[…]\nAssim, o final do romance é considerado perfeitamente de acordo com o ideal amoroso romântico e as normas sociais, em virtude de não ter havido adultério ou traição em relação à “primeira esposa”. Resta apenas a Augusto pagar a aposta: que, considerando-se paga, temos o romance “A Moreninha”.\n[…]\nAlgumas edições (editora e ano de publicação) de A Moreninha são:\n[…]\nA Moreninha, livro em domínio público."
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Rachel de Queiroz",
+      "descricao": "Escritora cearense (1910–2003), autora de O Quinze."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Rachel de Queiroz se tornou a primeira mulher eleita para a Academia Brasileira de Letras em que década?",
+    "resposta": "Anos 1970",
+    "distratores": [
+      "Anos 1950",
+      "Anos 1960",
+      "Anos 1980"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rachel_de_Queiroz"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rachel_de_Queiroz",
+        "situacao": "ok",
+        "texto": "Rachel de Queiroz GOMM • GOIH (Fortaleza, 17 de novembro de 1910 – Rio de Janeiro, 4 de novembro de 2003) foi uma escritora, jornalista, tradutora, cronista e dramaturga brasileira. É considerada uma das maiores escritoras brasileiras do século XX, tendo sido uma figura pioneira no cenário literário nacional, sobretudo, na produção intelectual e criativa feminina. A escritora foi uma das primeiras\n[…]\nAutora de destaque na ficção social nordestina, foi a primeira mulher a ingressar na Academia Brasileira de Letras em 1977, também a primeira mulher galardoada com o Prêmio Camões. Ingressou na Academia Cearense de Letras no dia 15 de agosto de 1994, na ocasião do centenário da instituição.\n[…]\nO critico literário brasileiro Tristão de Athayde considerava João Miguel o melhor dos quatro romances da primeira fase de Rachel de Queiroz.\n[…]\nConcorreu contra o jurista Pontes de Miranda para a vaga de Cândido Mota Filho da cadeira 5 da Academia Brasileira de Letras. Venceu o pleito ocorrido em 4 de agosto de 1977 por 23 votos, contra 15 dados ao opositor e um em branco. Foi empossada em 4 de novembro de 1977. Recebida por Adonias Filho, foi a quinta ocupante da cadeira 5, que tem como patrono Bernardo Guimarães. Foi a primeira mulher a ingressar na ABL.\n[…]\nPrêmio Machado de Assis, da Academia Brasileira de Letras, pelo conjunto de obra, 1957;\n[…]\nO Brasileiro Perplexo (1964)\n[…]\nNo dia 4 de dezembro de 2003, um mês depois de sua morte, foi lançado na Academia Brasileira de Letras o livro Rachel de Queiroz, um perfil biográfico da escritora, fruto de uma longa pesquisa realizada pela jornalista Socorro Acioli, publicado pelas Edições Demócrito Rocha.\n[…]\nSua biografia foi narrada no livro No Alpendre com Rachel, de autoria de José Luís Lira, lançado na Academia Brasileira de Letras em 10 de julho de 2003, poucos meses antes do falecimento da escritora.\n[…]\nPágina da Academia Brasileira de Letras"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Mário de Andrade",
+      "descricao": "Escritor e musicólogo paulista (1893–1945), líder do Modernismo e autor de Macunaíma."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Mário de Andrade contou ter escrito a primeira versão de Macunaíma, numa chácara em Araraquara, em quantos dias de rede, cigarros e cigarras?",
+    "resposta": "Seis dias",
+    "distratores": [
+      "Três dias",
+      "Quinze dias",
+      "Quarenta dias"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Macunaíma_(livro)",
+      "https://en.wikipedia.org/wiki/Macunaíma_(novel)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Macunaíma_(livro)",
+        "situacao": "ok",
+        "texto": "Macunaíma, o herói sem nenhum caráter é um livro publicado em 1928 pelo polímata brasileiro Mário de Andrade, considerado a sua obra-prima.\n[…]\nLogo fazia contatos com outros intelectuais e pesquisadores obtendo novos subsídios, lançava-se entusiasmado em pesquisas próprias para levantamento dos espaços e composição dos personagens, fazendo muitas anotações, e nas férias de fim de ano, passadas na chácara de seu primo Pio Lourenço Correa em Araraquara, escreveu em poucos dias a primeira versão manuscrita em sete cadernos, logo seguida de mais duas, que condensaram drasticamente o que havia escrito no início, resultando em dois cadernos.\n[…]\nFoi adaptado para o cinema por Joaquim Pedro de Andrade em 1969 no filme Macunaíma. Também foi montada uma premiada peça de teatro por Antunes Filho, encenada pela primeira vez na década de 1970 e que chegou a ser apresentada em vários países. Em 2008, a Ática publicou uma quadrinização, escrita e desenhada por Rodrigo Rosa, e em 2016 a Editora Peirópolis publicou uma quadrinização produzida pelos ilustradores Angelo Abu e Dan X.\n[…]\nEm 2008 a cantora Iara Rennó gravou o CD Macunaó.peraí.matupi ou Macunaíma Ópera Tupi, com 13 canções inspiradas pelo livro. Em 2017 foi lançado o livro Mário, o Modernista a Caráter, biografia satírica escrita por Valquíria Maroti Carozze. Na obra, Macunaíma, criação de Mário de Andrade, personifica a função literária de seu criador e escreve a biografia do modernista paulistano. A metamorfose do herói em escritor e biógrafo de seu \"pai\" resulta em passagens descritas com humor e ironia.\n[…]\nMacunaíma (2ª edição), na Livraria da Camara do Congresso"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Macunaíma_(novel)",
+        "situacao": "ok",
+        "texto": "Macunaíma (Portuguese pronunciation: [makũna'ĩmɐ]) is a 1928 novel by Brazilian writer Mário de Andrade. It is one of the founding texts of Brazilian modernism. Macunaíma was published six years after the \"Semana de Arte Moderna\", which marked the beginning of the Brazilian modernism movement.\n[…]\nThis is an example of Andrade using a fused language to write this text, which begins with a simple description: \"In the depths of the virgin jungle was born Macunaíma, hero of our people. He was jet black and son of the fear of the night.\"\n[…]\nConsidered a \"rhapsody\" by Andrade himself, Macunaíma is a melding of the cultures of Brazil. Most of the folklore contained within the text is taken directly from native stories; Lucia Sá has shown that Andrade's novel draws heavily on the narratives of the Pemon people that were collected and recorded by Theodor Koch-Grünberg.\n[…]\nAndrade wrote the character Macunaíma to represent the idea that Brazil had no national character. Macunaíma became a symbol of Brazil's national identity. In order to make Macunaíma this symbol, Andrade strategically created the character as a conglomeration of various cultures. Additionally, within the story there is references to a variety of myths and cultures. The tale was heavily based on the Taulipang myth, Makunaima, which gave the tale its mythical structure.\n[…]\nAndrade, Mário de. Macunaíma: The Hero Without Any Character. Translated by Carl L. Engel, King Tide Press, Philadelphia, Pennsylvania (2023)\n[…]\nSilva, Daniel F. (2018). \"Mário de Andrade's Antropofagia and Macunaíma as Anti-Imperial Scene of Writing\". In Anti-Empire: Decolonial Interventions in Lusophone Literatures (pp. 69–105). Liverpool University Press."
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Álvares de Azevedo",
+      "descricao": "Poeta ultrarromântico paulista (1831–1852), autor de Lira dos Vinte Anos e Noite na Taverna."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "O poeta ultrarromântico Álvares de Azevedo, autor de Noite na Taverna, morreu com quantos anos?",
+    "resposta": "Vinte anos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Álvares_de_Azevedo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Álvares_de_Azevedo",
+        "situacao": "ok",
+        "texto": "Manoel Antônio Álvares de Azevedo (São Paulo, 12 de setembro de 1831 — Rio de Janeiro, 25 de abril de 1852) foi um poeta, contista, dramaturgo e ensaísta brasileiro. É um dos mais populares e importantes poetas do Brasil, sendo o principal representante da segunda geração do romantismo no país. Sua obra, fortemente influenciada por Byron e Musset, enquadra-se na estética do mal do século e abrange\n[…]\nA Lira dos vinte anos, sua principal obra, é a única coletânea de poemas feita diretamente por Álvares de Azevedo. O seu conteúdo é dividido em duas partes: a primeira representada por Ariel (personagem de A tempestade, de Shakespeare, símbolo do sublime) e a segunda, por Calibã (outro personagem de A tempestade, símbolo do grotesco).\n[…]\nMachado de Assis publicou na coluna “Semana Literária” do jornal Diário do Rio de Janeiro de 26 de junho de 1866 uma análise da Lira dos vinte anos. Ali escreveu: “Álvares de Azevedo era realmente um grande talento; só lhe faltou o tempo, como disse um dos seus necrólogos. [...] Era daqueles que o berço vota à imortalidade.\n[…]\nCompare-se a idade com que morreu aos trabalhos que deixou, e ver-se-á que seiva poderosa não existia naquela organização rara.” “Em tão curta idade, o poeta da Lira dos vinte anos deixou documentos valiosíssimos de um talento robusto e de uma imaginação vigorosa. Avalie-se por aí o que viria a ser quando tivesse desenvolvido todos os seus recursos”.\n[…]\nAZEVEDO, Álvares de. Lira dos vinte anos. 4. ed. São Paulo, Martin Claret, 2012. ISBN 9788572323420.\n[…]\nPORINI, Cristina Garófalo. Apresentação. In: AZEVEDO, Álvares de. Lira dos vinte anos. 4. ed. São Paulo, Martin Claret, 2012, p. 9-20. ISBN 9788572323420\n[…]\n«Análise de Lira dos vinte anos por Machado de Assis»\n[…]\nDelírio, Poesia e Morte, a Solidão de Álvares de Azevedo. Biografia romanceada por Luciana Fátima. Ed. Estronho, 2015."
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Paulo Leminski",
+      "descricao": "Poeta curitibano (1944–1989), conhecido por seus haicais e poemas curtos."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O poeta curitibano Paulo Leminski, mestre dos poemas curtos inspirados no haicai, era faixa preta de que arte marcial?",
+    "resposta": "Judô",
+    "distratores": [
+      "Caratê",
+      "Jiu-jítsu",
+      "Taekwondo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Paulo_Leminski"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paulo_Leminski",
+        "situacao": "ok",
+        "texto": "Paulo Leminski Filho (Curitiba, 24 de agosto de 1944 — Curitiba, 7 de junho de 1989) foi um escritor, poeta, músico, crítico literário, jornalista, publicitário, tradutor e professor brasileiro. Tinha uma poesia marcante, pois inventou um jeito próprio de escrever, com trocadilhos, brincadeiras com ditados populares e influência do haicai, além de usar gírias e palavrões.\n[…]\nFoi influenciado pela cultura japonesa, principalmente pela poesia curta e objetiva dos haicais de Matsuo Bashō, autor sobre o qual Leminski escreveu uma biografia. Além da influência japonesa em sua poesia, Leminski também era faixa preta de judô.\n[…]\nEm 1966, ficou em primeiro lugar no II Concurso Popular de Poesia Moderna promovido pelo jornal O Estado do Paraná, desembolsando a quantia de 80 mil cruzeiros. Durante essa época começou a praticar judô, conseguindo a faixa preta 4 anos depois. Além de praticante, Leminski também foi professor de judô. Em 1967, fundou o Grupo Áporo, que em seu manifesto propunha-se a combater o \"provincianismo cultural de Curitiba\". No mesmo ano, começa a escrever o que se tornaria Catatau.\n[…]\nPor isso, atravessa diversas gerações e seduz os mais diversos gostos no que tange à poesia.\" Para o professor universitário, poeta e tradutor Ivan Justen Santana, o forte de Leminski foram \"os poemas curtos, que nunca ultrapassavam uma página\", e que estes \"caíram como uma luva no universo virtual\", referindo-se à Internet e às redes sociais.\n[…]\nEm Curitiba, seu nome está presente na famosa Pedreira Paulo Leminski, um dos principais espaços para eventos no Brasil. Localizada no bairro Abranches, tem 100 mil metros quadrados e capacidade para mais de 30 mil pessoas. Alguns dos grandes artistas que se apresentaram na Pedreira: Bon Jovi, David Bowie, Paul McCartney, The Killers, Pearl Jam, AC/DC, Iron Maiden, Ramones, Roberto Carlos, entre outros."
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Eu",
+      "descricao": "Único livro de poemas publicado em vida por Augusto dos Anjos, em 1912."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "O poeta paraibano Augusto dos Anjos publicou em vida um só livro de poemas, cujo título tem uma única palavra. Qual é ele?",
+    "resposta": "Eu",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Augusto_dos_Anjos"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Augusto_dos_Anjos",
+        "situacao": "ok",
+        "texto": "Augusto de Carvalho Rodrigues dos Anjos (Sapé, 20 de abril de 1884 – Leopoldina, 12 de novembro de 1914) foi um poeta e professor brasileiro reconhecido como um dos principais expoentes do simbolismo e do pré-modernismo brasileiro. Sua obra é marcada pela versificação considerada imprópria para a época, pela crítica à hipocrisia social e à ética cristã e pelo pessimismo cientificista e existencial\n[…]\nEm vida, publicou apenas o livro Eu em 1912, mas não alcançou reconhecimento, morrendo dois anos mais tarde por pneumonia. Na década seguinte, com a reedição de sua obra pelo seu amigo Órris Soares sob o título de Eu e outras poesias, consagrou-se como um poeta inventivo e singular e influenciou o modernismo brasileiro.\n[…]\nDurante sua vida, publicou vários poemas em periódicos, o primeiro, Saudade, em 1900. Em 1912, publicou seu livro único de poesia, Eu, contendo 56 poemas, com a ajuda do seu irmão Odilon. Após sua morte, seu amigo Órris Soares organizaria uma edição chamada Eu (poesias completas), incluindo ao núcleo original mais 46 poemas que o poeta deixara manuscritos ou que foram publicados apenas em periódicos.\n[…]\nNem é à toa que no livro A poética carnavalizada de augusto dos anjos o crítico constate como em todo o EU e no soneto “Vencedor” há um poeta atormentado em instaurar uma nova civilização brasileira, quem assombrará ao mundo por meio de o seu novo estatuto dado à palavra feia e fedorenta como a cloaca que alimenta à hiena, animal desvairado que ainda assim sorrir.\n[…]\nSua linguagem orgânica, muitas vezes cientificista e agressivamente crua, mas sempre com ritmados jogos de palavras, ideias, e rimas geniais, causava repulsa na crítica e no grande público da época. Ele somente apresentou grande vendagem anos após a sua morte. Muitas divergências há entre os críticos de Augusto dos Anjos quanto à apreciação de sua obra e suas posições são geralmente extremas."
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
