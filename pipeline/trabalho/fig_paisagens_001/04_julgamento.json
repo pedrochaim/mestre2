@@ -1,0 +1,519 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Chapada Diamantina",
+        "descricao": "Região montanhosa do estado da Bahia, na porção norte da Serra do Espinhaço.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente"
+          ]
+        },
+        {
+          "id": "calcada_dos_gigantes",
+          "nome": "Calçada dos Gigantes",
+          "descricao": "Formação de milhares de colunas de basalto no litoral do condado de Antrim, na Irlanda do Norte.",
+          "variantes": [
+            "Giant's Causeway",
+            "Calçada do Gigante"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lagos de Plitvice",
+        "descricao": "Série de lagos de travertino interligados por cachoeiras, em parque nacional da Croácia central.",
+        "variantes": [
+          "Parque Nacional dos Lagos de Plitvice",
+          "Plitvice Lakes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lencois_maranhenses",
+          "nome": "Lençóis Maranhenses",
+          "descricao": "Parque nacional no litoral do Maranhão, formado por dunas brancas intercaladas por lagoas.",
+          "variantes": [
+            "Parque Nacional dos Lençóis Maranhenses"
+          ]
+        },
+        {
+          "id": "pequena_era_do_gelo",
+          "nome": "Pequena Era do Gelo",
+          "descricao": "Período de resfriamento do clima no hemisfério norte entre os séculos quatorze e dezenove",
+          "variantes": [
+            "Little Ice Age"
+          ]
+        },
+        {
+          "id": "pretinho_basico",
+          "nome": "Pretinho básico",
+          "descricao": "Vestido preto curto e simples popularizado por Coco Chanel nos anos 1920",
+          "variantes": [
+            "Little black dress",
+            "Vestido preto básico"
+          ]
+        },
+        {
+          "id": "gol_de_placa",
+          "nome": "Gol de placa",
+          "descricao": "Expressão brasileira para um gol muito bonito, nascida de uma placa colocada no Maracanã em 1961.",
+          "variantes": []
+        },
+        {
+          "id": "floresta_da_tijuca",
+          "nome": "Floresta da Tijuca",
+          "descricao": "Floresta urbana replantada no século dezenove, no maciço da Tijuca, no Rio de Janeiro",
+          "variantes": [
+            "Parque Nacional da Tijuca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lago Moraine",
+        "descricao": "Lago glacial alpino no Vale dos Dez Picos, no Parque Nacional de Banff, em Alberta, Canadá.",
+        "variantes": [
+          "Moraine Lake"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        },
+        {
+          "id": "canal_da_mancha",
+          "nome": "Canal da Mancha",
+          "descricao": "Braço do oceano Atlântico que separa a Inglaterra do norte da França.",
+          "variantes": [
+            "English Channel",
+            "La Manche"
+          ]
+        },
+        {
+          "id": "william_g_morgan",
+          "nome": "William G. Morgan",
+          "descricao": "Professor de educação física americano que criou o vôlei em 1895.",
+          "variantes": [
+            "William George Morgan",
+            "William Morgan"
+          ]
+        },
+        {
+          "id": "usina_de_belo_monte",
+          "nome": "Usina de Belo Monte",
+          "descricao": "Usina hidrelétrica no município de Altamira, no Pará, construída na década de 2010.",
+          "variantes": [
+            "Belo Monte",
+            "Belo Monte Dam",
+            "Usina Hidrelétrica de Belo Monte"
+          ]
+        },
+        {
+          "id": "teiu",
+          "nome": "Teiú",
+          "descricao": "Grande lagarto preto e branco (Salvator merianae) do leste e centro da América do Sul.",
+          "variantes": [
+            "Teiú-comum",
+            "Tegu",
+            "Salvator merianae",
+            "Teju"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Glaciar Perito Moreno",
+        "descricao": "Geleira do Parque Nacional Los Glaciares, na província de Santa Cruz, Argentina, perto de El Calafate.",
+        "variantes": [
+          "Geleira Perito Moreno",
+          "Perito Moreno Glacier"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "daltonismo",
+          "nome": "Daltonismo",
+          "descricao": "Deficiência na percepção de cores, em geral hereditária.",
+          "variantes": [
+            "Discromatopsia",
+            "Color blindness",
+            "Cegueira para cores"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Doze Apóstolos",
+        "descricao": "Conjunto de pilares de calcário no mar, no Parque Nacional de Port Campbell, em Victoria, Austrália.",
+        "variantes": [
+          "Twelve Apostles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lei_das_doze_tabuas",
+          "nome": "Lei das Doze Tábuas",
+          "descricao": "Primeiro código de leis escrito de Roma, elaborado por volta de 450 antes de Cristo.",
+          "variantes": [
+            "Doze Tábuas",
+            "Twelve Tables",
+            "Lex Duodecim Tabularum"
+          ]
+        },
+        {
+          "id": "doze_uvas_da_sorte",
+          "nome": "Doze uvas da sorte",
+          "descricao": "Costume espanhol de comer uvas acompanhando as badaladas da meia-noite do Ano-Novo.",
+          "variantes": [
+            "Las doce uvas",
+            "Twelve Grapes"
+          ]
+        },
+        {
+          "id": "sex_pistols",
+          "nome": "Sex Pistols",
+          "descricao": "Banda punk britânica formada em Londres em 1975",
+          "variantes": []
+        },
+        {
+          "id": "deadpool",
+          "nome": "Deadpool",
+          "descricao": "Mercenário tagarela da Marvel, criado por Rob Liefeld e Fabian Nicieza em 1991",
+          "variantes": [
+            "Wade Wilson"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Morro do Pai Inácio",
+        "descricao": "Elevação de topo plano no município de Palmeiras, na Chapada Diamantina, Bahia.",
+        "variantes": [
+          "Pai Inácio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "bandeira_do_brasil",
+          "nome": "Bandeira do Brasil",
+          "descricao": "Bandeira nacional brasileira, adotada em 1889, com um céu estrelado no círculo azul.",
+          "variantes": [
+            "Bandeira brasileira",
+            "Pavilhão Nacional"
+          ]
+        },
+        {
+          "id": "alberto_santos_dumont",
+          "nome": "Alberto Santos-Dumont",
+          "descricao": "Aviador e inventor brasileiro, pioneiro dos dirigíveis e do 14-bis.",
+          "variantes": [
+            "Santos Dumont",
+            "Pai da Aviação"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Santorini",
+        "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+        "variantes": [
+          "Thira",
+          "Thera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        },
+        {
+          "id": "copa_do_mundo_fifa_de_1994",
+          "nome": "Copa do Mundo FIFA de 1994",
+          "descricao": "Copa do Mundo de futebol disputada nos Estados Unidos e vencida pelo Brasil, seu quarto título.",
+          "variantes": [
+            "Copa de 1994",
+            "Tetra"
+          ]
+        },
+        {
+          "id": "primeira_demonstracao_publica_de_anestesia",
+          "nome": "Primeira demonstração pública de anestesia",
+          "descricao": "Cirurgia realizada em 1846 no Hospital Geral de Massachusetts, em Boston, com o paciente anestesiado por William Morton.",
+          "variantes": [
+            "Ether Day",
+            "Ether Dome"
+          ]
+        },
+        {
+          "id": "cetim",
+          "nome": "Cetim",
+          "descricao": "Tecido de trama que deixa uma face lisa e brilhante, feito originalmente de seda",
+          "variantes": [
+            "Satin"
+          ]
+        },
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Torres del Paine",
+        "descricao": "Parque nacional da Patagônia chilena, com o maciço de picos de granito Cordillera del Paine.",
+        "variantes": [
+          "Parque Nacional Torres del Paine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "selecao_cubana_de_voleibol_feminino",
+          "nome": "Seleção Cubana de Voleibol Feminino",
+          "descricao": "Seleção feminina de vôlei de Cuba, tricampeã olímpica em 1992, 1996 e 2000.",
+          "variantes": [
+            "Cuba women's national volleyball team",
+            "Morenas del Caribe"
+          ]
+        },
+        {
+          "id": "tour_de_france",
+          "nome": "Tour de France",
+          "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+          "variantes": [
+            "Volta da França"
+          ]
+        },
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Monte Kailash",
+        "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+        "variantes": [
+          "Kailash",
+          "Monte Kailasa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monte_kilimanjaro",
+          "nome": "Monte Kilimanjaro",
+          "descricao": "Montanha isolada no nordeste da Tanzânia, o ponto mais alto da África.",
+          "variantes": [
+            "Kilimanjaro",
+            "Kilimandjaro",
+            "Quilimanjaro"
+          ]
+        },
+        {
+          "id": "monte_ararat",
+          "nome": "Monte Ararat",
+          "descricao": "Vulcão adormecido no leste da Turquia, perto das fronteiras com a Armênia e o Irã.",
+          "variantes": [
+            "Ararat",
+            "Ağrı Dağı",
+            "Mount Ararat"
+          ]
+        },
+        {
+          "id": "ponte_25_de_abril",
+          "nome": "Ponte 25 de Abril",
+          "descricao": "Ponte pênsil sobre o rio Tejo que liga Lisboa a Almada, inaugurada em 1966.",
+          "variantes": [
+            "Ponte Salazar",
+            "25 de Abril Bridge"
+          ]
+        },
+        {
+          "id": "monte_roraima",
+          "nome": "Monte Roraima",
+          "descricao": "Tepui de topo plano na tríplice fronteira entre Brasil, Venezuela e Guiana.",
+          "variantes": [
+            "Roraima",
+            "Mount Roraima",
+            "Tepui Roraima"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Old Faithful",
+        "descricao": "Gêiser cônico do Parque Nacional de Yellowstone, em Wyoming, conhecido pelas erupções regulares.",
+        "variantes": [
+          "Velho Fiel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_sao_francisco",
+          "nome": "Rio São Francisco",
+          "descricao": "Rio brasileiro que nasce na Serra da Canastra e deságua no Atlântico entre Alagoas e Sergipe.",
+          "variantes": [
+            "Velho Chico",
+            "São Francisco River"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Chapada Diamantina."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde aos Lagos de Plitvice, na Croácia."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde ao Lago Moraine, no Canadá."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A única candidata é o daltonismo, que não tem relação com a geleira."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde aos pilares de calcário na Austrália."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Morro do Pai Inácio."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Santorini."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o parque Torres del Paine."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Monte Kailash. As outras montanhas são entidades diferentes."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o gêiser Old Faithful. O Rio São Francisco só aparece por causa de \"Velho\" no apelido."
+    }
+  ]
+}

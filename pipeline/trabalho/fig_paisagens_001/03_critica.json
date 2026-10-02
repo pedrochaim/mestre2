@@ -1,0 +1,106 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado traz 'chapada', palavra que faz parte da resposta (vazamento parcial). Trocar por 'região montanhosa'.",
+      "reescrita": {
+        "pergunta": "Que região montanhosa brasileira é esta?",
+        "resposta": "Chapada Diamantina",
+        "distratores": [
+          "Chapada dos Veadeiros",
+          "Chapada dos Guimarães",
+          "Chapada do Araripe"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos, sem vazamento, distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Banff confirmado nos trechos. O enunciado não nomeia o lago e os distratores são parques canadenses plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista só de região (Patagônia), sem entregar o nome. Fato sustentado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz que as formações ficam na Austrália, e os distratores (Escócia, França, Vietnã) ficam fora dela, então são eliminados pelo texto. Distratores precisam ser críveis dentro da pista.",
+      "reescrita": {
+        "pergunta": "Que formações rochosas no mar, na costa da Austrália, são estas?",
+        "resposta": "Doze Apóstolos",
+        "distratores": [
+          "Pináculos",
+          "Bungle Bungles",
+          "Wave Rock"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Palmeiras, na Chapada Diamantina, fica na Bahia. Distratores são estados plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Arquipélago em forma de anel' descreve Santorini e permite responder sem a figura. Trocar por pista mais fraca.",
+      "reescrita": {
+        "pergunta": "Em que mar fica esta ilha grega?",
+        "resposta": "Mar Egeu",
+        "distratores": [
+          "Mar Jônico",
+          "Mar Adriático",
+          "Mar Tirreno"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento. O país é só uma pista de ajuda.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Região da Ásia' é ambíguo (Tibete, Himalaia, Planalto Tibetano), e os distratores são países enquanto a resposta é uma região. Perguntar pelo país dá resposta única.",
+      "reescrita": {
+        "pergunta": "Em que país fica esta montanha, sagrada para hindus e budistas?",
+        "resposta": "China",
+        "distratores": [
+          "Índia",
+          "Nepal",
+          "Butão"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Yellowstone confirmado nos trechos. O enunciado não nomeia o gêiser e os distratores são parques americanos plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Paredões de arenito característicos, vista típica da Chapada Diamantina; múltipla com outras chapadas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que chapada brasileira é esta?",
+      "resposta": "Chapada Diamantina",
+      "distratores": [
+        "Chapada dos Veadeiros",
+        "Chapada dos Guimarães",
+        "Chapada do Araripe"
+      ],
+      "ancora": {
+        "nome": "Chapada Diamantina",
+        "descricao": "Região montanhosa do estado da Bahia, na porção norte da Serra do Espinhaço.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Lagos turquesa em degraus com cachoeira, muito característicos de Plitvice.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que país ficam estes lagos?",
+      "resposta": "Croácia",
+      "distratores": [
+        "Eslovênia",
+        "Montenegro",
+        "Áustria"
+      ],
+      "ancora": {
+        "nome": "Lagos de Plitvice",
+        "descricao": "Série de lagos de travertino interligados por cachoeiras, em parque nacional da Croácia central.",
+        "variantes": [
+          "Parque Nacional dos Lagos de Plitvice",
+          "Plitvice Lakes"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Lago azul-turquesa diante do Vale dos Dez Picos, reconhecível.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Em que parque nacional fica este lago glacial?",
+      "resposta": "Banff",
+      "distratores": [
+        "Jasper",
+        "Yoho",
+        "Waterton Lakes"
+      ],
+      "ancora": {
+        "nome": "Lago Moraine",
+        "descricao": "Lago glacial alpino no Vale dos Dez Picos, no Parque Nacional de Banff, em Alberta, Canadá.",
+        "variantes": [
+          "Moraine Lake"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Frente de gelo imponente, imagem clássica do Perito Moreno.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que famosa geleira da Patagônia é esta?",
+      "resposta": "Perito Moreno",
+      "distratores": [],
+      "ancora": {
+        "nome": "Glaciar Perito Moreno",
+        "descricao": "Geleira do Parque Nacional Los Glaciares, na província de Santa Cruz, Argentina, perto de El Calafate.",
+        "variantes": [
+          "Geleira Perito Moreno",
+          "Perito Moreno Glacier"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pilhas de calcário no mar, na Great Ocean Road, reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Que formações rochosas litorâneas da Austrália são estas?",
+      "resposta": "Doze Apóstolos",
+      "distratores": [
+        "Old Man of Hoy",
+        "Falésias de Étretat",
+        "Baía de Ha Long"
+      ],
+      "ancora": {
+        "nome": "Doze Apóstolos",
+        "descricao": "Conjunto de pilares de calcário no mar, no Parque Nacional de Port Campbell, em Victoria, Austrália.",
+        "variantes": [
+          "Twelve Apostles"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Morro de paredão duplo visto da rodovia, perfil do Pai Inácio; múltipla por ser menos conhecido.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Em que estado brasileiro fica este morro?",
+      "resposta": "Bahia",
+      "distratores": [
+        "Minas Gerais",
+        "Goiás",
+        "Piauí"
+      ],
+      "ancora": {
+        "nome": "Morro do Pai Inácio",
+        "descricao": "Elevação de topo plano no município de Palmeiras, na Chapada Diamantina, Bahia.",
+        "variantes": [
+          "Pai Inácio"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Vale florestado genérico, sem elemento que permita reconhecer a Chapada dos Veadeiros; resposta não única."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista aérea da caldeira em anel, forma característica de Santorini.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que mar fica este arquipélago em forma de anel?",
+      "resposta": "Mar Egeu",
+      "distratores": [
+        "Mar Jônico",
+        "Mar Adriático",
+        "Mar Tirreno"
+      ],
+      "ancora": {
+        "nome": "Santorini",
+        "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+        "variantes": [
+          "Thira",
+          "Thera"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Torres de granito icônicas sobre lago, bem reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que parque nacional chileno é este?",
+      "resposta": "Torres del Paine",
+      "distratores": [],
+      "ancora": {
+        "nome": "Torres del Paine",
+        "descricao": "Parque nacional da Patagônia chilena, com o maciço de picos de granito Cordillera del Paine.",
+        "variantes": [
+          "Parque Nacional Torres del Paine"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Face sul piramidal e estratificada, característica do Kailash.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que região da Ásia fica esta montanha sagrada?",
+      "resposta": "Tibete",
+      "distratores": [
+        "Nepal",
+        "Butão",
+        "Mongólia"
+      ],
+      "ancora": {
+        "nome": "Monte Kailash",
+        "descricao": "Montanha sagrada de 6.638 metros no oeste do Planalto Tibetano, na China.",
+        "variantes": [
+          "Kailash",
+          "Monte Kailasa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mostra um prédio com bandeiras e vegetação; nada reconhecível de Bora Bora, e as bandeiras entregam pista."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Erupção de gêiser sobre montículo, com paisagem de Yellowstone.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que parque nacional fica este famoso gêiser?",
+      "resposta": "Yellowstone",
+      "distratores": [
+        "Yosemite",
+        "Grand Teton",
+        "Glacier"
+      ],
+      "ancora": {
+        "nome": "Old Faithful",
+        "descricao": "Gêiser cônico do Parque Nacional de Yellowstone, em Wyoming, conhecido pelas erupções regulares.",
+        "variantes": [
+          "Velho Fiel"
+        ]
+      }
+    }
+  ]
+}
