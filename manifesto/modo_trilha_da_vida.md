@@ -17,6 +17,8 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 - uma carta ou casa que mira um oponente não pode favorecer dois jogadores contra o terceiro; com 3, o mesmo jogador vira alvo com frequência, e convém um limite (por exemplo, não mirar o mesmo jogador duas vezes seguidas);
 - trilha e fim de jogo medidos em **rodadas**, para a partida durar parecido com 3 ou 4.
 
+**Objetivo:** **vence quem chega primeiro** ao fim da trilha. É uma corrida.
+
 **Começo do jogo**
 - Cada jogador **escolhe uma profissão** e **compra uma carta**.
 - A profissão é uma **combinação de 2 temas** mais um **perk**, uma habilidade que modifica o jogo para quem a tem.
@@ -61,9 +63,14 @@ O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser
 3. A casa onde o peão está, ou uma carta, define a pergunta.
 4. **Acertou:** anda o valor do dado. **Errou:** anda 1 casa, porque a vida segue e a partida tem fim previsível.
 
-**Fases da vida e encruzilhadas** (do rascunho anterior, a rever sem dinheiro): Juventude, Vida adulta, Maturidade e Aposentadoria. Duas encruzilhadas: a Formatura (Faculdade, caminho longo, ou Trabalho, atalho) e a Aposentadoria (Vila Tranquila, garantida, ou Mansão dos Sábios, que exige 3 perguntas abertas seguidas, de 3 temas diferentes). Sem salário, cada caminho precisa de outra vantagem; uma ideia é a Faculdade dar cartas.
+**Fases da vida e encruzilhadas** (do rascunho anterior, a rever sem dinheiro): Juventude, Vida adulta, Maturidade e Aposentadoria. Duas encruzilhadas: a Formatura (Faculdade, caminho longo, ou Trabalho, atalho) e a Aposentadoria (Vila Tranquila, garantida, ou Mansão dos Sábios, que exige 3 perguntas abertas seguidas, de 3 temas diferentes). Sem salário, cada caminho precisa de outra vantagem; uma ideia é a Faculdade dar cartas. Com o objetivo de chegar primeiro, as encruzilhadas viram escolhas de velocidade e risco (ver Consequências de ser uma corrida).
 
 **Cartas de Destino** (do rascunho anterior, sem as de dinheiro): eventos de humor e virada, como "Mudança de carreira: troque um tema da profissão" ou "Ano sabático: fique uma rodada parado e compre 2 cartas".
+
+**Consequências de ser uma corrida** (propostas):
+- **Mesmo número de turnos:** quando alguém chega, a rodada termina, para todos terem jogado o mesmo número de vezes. Se mais de um chegar na mesma rodada, vence quem foi mais longe além da chegada, ou há uma pergunta de desempate.
+- **Recuperação:** para o líder não disparar, o que pesa mais com 3 jogadores: quem está em último compra uma carta extra por rodada, e as cartas que miram oponentes só miram quem está à frente na trilha.
+- **Aposentadoria como escolha de velocidade:** a Mansão dos Sábios vira um atalho que exige 3 perguntas abertas seguidas; quem erra volta para o caminho da Vila Tranquila, mais longo e sem exigências.
 
 ## Em aberto
 
@@ -73,11 +80,10 @@ O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser
    - ela é **cooperativa** de propósito.
 
    Com 3 jogadores, a versão cooperativa é a mais arriscada: quem joga a carta e quem acerta andam juntos, e o terceiro fica para trás. As versões de ataque ou de destravar não dependem do número de jogadores.
-2. **Objetivo e fim:** sem patrimônio, vence quem chega primeiro? Ou há pontos de outra coisa, como cartas, casas especiais ou conquistas por fase?
-3. **Os 2 temas da profissão:** que efeito têm no jogo, além do perk?
-4. **Duração:** uma trilha de ~60 casas dá cerca de 1 hora com 4 jogadores.
-5. **Sorte:** dado, cartas e Destino. Quanto de sorte é bom?
-6. **Peso do erro:** andar 1 casa é brando. Algo mais duro?
+2. **Os 2 temas da profissão:** que efeito têm no jogo, além do perk?
+3. **Duração:** uma trilha de ~60 casas dá cerca de 1 hora com 4 jogadores.
+4. **Sorte:** dado, cartas e Destino. Quanto de sorte é bom?
+5. **Peso do erro:** andar 1 casa é brando. Algo mais duro?
 
 ## Prova de conceito do tabuleiro
 
