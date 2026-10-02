@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Flores brancas de miolo amarelo, nítidas e reconhecíveis.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que flor é esta, de pétalas brancas e miolo amarelo?",
+      "resposta": "Margarida",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Margarida",
+        "descricao": "Leucanthemum vulgare, planta herbácea de flores brancas com miolo amarelo.",
+        "variantes": [
+          "Margarida-silvestre",
+          "Leucanthemum vulgare",
+          "Ox-eye daisy"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Frutos pretos brilhantes presos direto ao tronco e galhos, bem visíveis.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Estes frutos têm uma peculiaridade: nascem diretamente de que parte da árvore?",
+      "resposta": "Tronco",
+      "distratores": [
+        "Folhas",
+        "Raízes",
+        "Pontas dos ramos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jabuticaba",
+        "descricao": "Fruto roxo-escuro da jabuticabeira (Plinia cauliflora), que nasce no tronco.",
+        "variantes": [
+          "Jaboticaba",
+          "Jabuticabeira",
+          "Plinia cauliflora"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem pequena e estreita, palmeira distante num pântano; ilegível no celular e não identificável com segurança."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Frutos de casca rugosa escura pendurados, folhas típicas; clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta é esta?",
+      "resposta": "Abacate",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Abacate",
+        "descricao": "Fruto do abacateiro (Persea americana), de casca rugosa e um caroço grande.",
+        "variantes": [
+          "Abacateiro",
+          "Persea americana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Flores brancas em forma de funil, inconfundíveis, bem fotografadas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que flor é esta?",
+      "resposta": "Copo-de-leite",
+      "distratores": [
+        "Antúrio",
+        "Tulipa",
+        "Narciso"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Copo-de-leite",
+        "descricao": "Zantedeschia aethiopica, planta de origem sul-africana com espata branca em forma de funil.",
+        "variantes": [
+          "Zantedeschia aethiopica",
+          "Lírio-de-calla",
+          "Calla"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Árvore isolada na neblina, sem detalhes de folha, casca ou flor que permitam reconhecer a espécie; resposta não única."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Colmos amarelados com nós evidentes, claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que planta é esta?",
+      "resposta": "Bambu",
+      "distratores": [
+        "Cana-de-açúcar",
+        "Papiro",
+        "Capim-elefante"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Bambu",
+        "descricao": "Planta da subfamília Bambusoideae, gramínea de colmos lenhosos e articulados.",
+        "variantes": [
+          "Bambusoideae",
+          "Bambuzal"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Capítulo amarelo em close, típico do dente-de-leão.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que flor é esta?",
+      "resposta": "Dente-de-leão",
+      "distratores": [
+        "Calêndula",
+        "Cravo-de-defunto",
+        "Girassol"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dente-de-leão",
+        "descricao": "Planta do gênero Taraxacum, de capítulo amarelo que depois vira bola de sementes.",
+        "variantes": [
+          "Taraxaco",
+          "Taraxacum",
+          "Dandelion"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Frutos em forma de dedos, inconfundíveis e nítidos.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que fruta cítrica de formato curioso é esta?",
+      "resposta": "Mão-de-buda",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mão-de-buda",
+        "descricao": "Variedade de cidra (Citrus medica var. sarcodactylis) cujo fruto se divide em partes como dedos.",
+        "variantes": [
+          "Cidra-digitada",
+          "Buddha's hand",
+          "Citrus medica var. sarcodactylis"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Cena urbana confusa, com pedestre em primeiro plano e anúncios com texto; árvore pouco destacada."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Cacto colunar que pode ser confundido com outros Cereus; resposta não única diante da imagem."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Chapéu alveolado em favo, característico e nítido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fungo comestível é este, de chapéu em forma de favo?",
+      "resposta": "Morchella",
+      "distratores": [
+        "Trufa-negra",
+        "Orelha-de-pau",
+        "Shimeji"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Morchella",
+        "descricao": "Gênero de fungos comestíveis de chapéu alveolado, as morquelas.",
+        "variantes": [
+          "Morquela",
+          "Morel",
+          "Morchella esculenta"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A descrição de pétalas brancas e miolo amarelo é a imagem clássica da margarida e permite responder sem olhar a figura. Remover a pista.",
+      "reescrita": {
+        "pergunta": "Que flor de campo é esta?",
+        "resposta": "Margarida"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o fruto nasce diretamente do tronco (caulifloria). O enunciado não nomeia a fruta e a figura é necessária para saber de qual fruto se fala. Os distratores são curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista nem vazamento. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são flores críveis e nenhum descreve a imagem. O antúrio é da mesma família, mas visualmente diferente.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são gramíneas ou plantas altas parecidas e nenhum é também correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento. Os distratores são flores amarelas de aparência próxima e nenhum é também correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz apenas que é uma fruta cítrica de formato curioso, o que não entrega o nome. Os trechos confirmam que é uma variedade de cidra, com fruto em forma de dedos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Chapéu em forma de favo' mais 'fungo comestível' descreve a morquela e entrega a resposta sem a figura. Remover a pista de forma.",
+      "reescrita": {
+        "pergunta": "Que fungo comestível é este?",
+        "resposta": "Morchella",
+        "distratores": [
+          "Trufa-negra",
+          "Orelha-de-pau",
+          "Shimeji"
+        ]
+      }
+    }
+  ]
+}

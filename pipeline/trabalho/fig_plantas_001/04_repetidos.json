@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Estes frutos têm uma peculiaridade: nascem diretamente de que parte da árvore?",
+        "resposta": "Tronco"
+      },
+      "existentes": [
+        {
+          "id": "q00231",
+          "pergunta": "Que fruta brasileira, pequena e de casca preta brilhante, nasce grudada diretamente no tronco da árvore?",
+          "resposta": "Jabuticaba"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que fruta é esta?",
+        "resposta": "Abacate"
+      },
+      "existentes": [
+        {
+          "id": "q02767",
+          "pergunta": "Que fruta é esta?",
+          "resposta": "Abacate"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que os frutos (jabuticaba) nascem diretamente do tronco; quem sabe uma sabe a outra.",
+      "id_existente": "q00231"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Pergunta idêntica com a mesma resposta (Abacate).",
+      "id_existente": "q02767"
+    }
+  ]
+}
