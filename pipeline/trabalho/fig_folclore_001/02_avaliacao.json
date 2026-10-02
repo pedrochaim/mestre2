@@ -1,0 +1,151 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto histórica de um gaúcho com poncho, chapéu e botas, de corpo inteiro, sem texto. Reconhecível pelo traje.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que figura tradicional das planícies do sul da América do Sul aparece nesta foto antiga?",
+      "resposta": "Gaúcho",
+      "ancora": {
+        "nome": "Gaúcho",
+        "descricao": "Cavaleiro e peão de gado tradicional dos pampas do Brasil, da Argentina e do Uruguai, símbolo folclórico regional.",
+        "variantes": [
+          "Gaucho"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Galo gigante do Recife, inconfundível, sem texto legível que entregue a resposta.",
+      "tipo": "multipla",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Em que cidade brasileira desfila o bloco de carnaval que tem esta figura gigante como símbolo?",
+      "resposta": "Recife",
+      "distratores": [
+        "Olinda",
+        "Salvador",
+        "Fortaleza"
+      ],
+      "ancora": {
+        "nome": "Galo da Madrugada",
+        "descricao": "Bloco de carnaval do Recife, fundado em 1978, cujo símbolo é um galo gigante.",
+        "variantes": [
+          "Galo da Madrugada do Recife"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Jangadas com velas triangulares numa praia, claras e legíveis. Pessoas pequenas ao fundo, sem destaque.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Estas embarcações do litoral nordestino usam que tipo de vela triangular, que permite navegar contra o vento?",
+      "resposta": "Vela latina",
+      "ancora": {
+        "nome": "Jangada",
+        "descricao": "Embarcação de pesca de madeira, com vela triangular, típica do litoral do Nordeste do Brasil.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Tamborim com baquetas, objeto isolado, sem texto, claro. Logotipo vermelho não entrega a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que instrumento de percussão brasileiro, pequeno e tocado com baqueta, é este?",
+      "resposta": "Tamborim",
+      "ancora": {
+        "nome": "Tamborim",
+        "descricao": "Pequeno tambor de aro brasileiro, de som agudo, usado no samba e no carnaval.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Penca de balangandãs em prata, bem nítida, fundo escuro, sem texto. Objeto característico.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que joia crioula dos séculos dezoito e dezenove, ligada à cultura afro-baiana, é esta?",
+      "resposta": "Balangandã",
+      "ancora": {
+        "nome": "Balangandã",
+        "descricao": "Joia crioula de prata, com vários pingentes e amuletos, patrimônio da cultura afro-brasileira da Bahia.",
+        "variantes": [
+          "Penca de balangandãs",
+          "Balangandãs"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A foto mostra um carro de boi na Índia (placa de Karnataka, caminhão ao fundo, pneus de borracha), com uma pessoa comum em primeiro plano. Não representa o folclore brasileiro."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A foto mostra uma corrida de cavalos numa pista de terra, com pessoas comuns. Não há boi nem a dupla de vaqueiros, então a vaquejada não é reconhecível e a resposta não é única."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "É uma gravura francesa com a legenda 'Le Fandango', que entrega a resposta. Mostra o fandango espanhol, não o caiçara."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "O objeto é um corno entalhado de museu, do tipo olifante medieval, e não um berrante de boiadeiro brasileiro. A imagem não corresponde ao assunto."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A foto mostra uma procissão de clérigos numa rua de Manchester, com pessoas comuns e letreiros. Não é reconhecível como Festa do Divino."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Brincantes de festa pública, com palhaço mascarado, bandeira de fitas e sanfoneiro, característicos da Folia de Reis. Os letreiros ao fundo não entregam a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que manifestação folclórica do ciclo natalino, com palhaço mascarado e bandeira de fitas, é esta?",
+      "resposta": "Folia de Reis",
+      "distratores": [
+        "Bumba meu boi",
+        "Congada",
+        "Pastoril"
+      ],
+      "ancora": {
+        "nome": "Folia de Reis",
+        "descricao": "Manifestação folclórica e católica brasileira do ciclo natalino, com cortejo de cantores, palhaços mascarados e bandeira, que celebra os Reis Magos.",
+        "variantes": [
+          "Reisado",
+          "Companhia de Reis",
+          "Festa de Santos Reis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A imagem tem resolução minúscula (cerca de 143 pixels de largura), sem legibilidade num celular. O detalhe da fantasia não se distingue."
+    }
+  ]
+}

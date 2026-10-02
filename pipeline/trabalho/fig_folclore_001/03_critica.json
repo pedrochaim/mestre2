@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado define o gaúcho (figura tradicional das planícies do sul) e entrega a resposta com a imagem coberta; 'foto antiga' também não é verificável.",
+      "reescrita": {
+        "pergunta": "Que figura folclórica sul-americana aparece nesta foto?",
+        "resposta": "Gaúcho"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia o galo nem a cidade. A figura gigante é o símbolo do bloco e a resposta, Recife, está nos trechos. Os distratores são cidades carnavalescas e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve a vela (triangular, navega contra o vento) e entrega a resposta 'vela latina' sem a imagem; a figura vira enfeite. A nova pergunta exige reconhecer a embarcação.",
+      "reescrita": {
+        "pergunta": "Como se chamam os pescadores artesanais que navegam nestas embarcações de madeira do litoral nordestino?",
+        "resposta": "Jangadeiros"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento. 'Pequeno, brasileiro, com baqueta' ajuda sem entregar, e a imagem decide. Os trechos confirmam o instrumento e a baqueta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Joia crioula dos séculos dezoito e dezenove, afro-baiana' reproduz a definição da Wikipédia e permite responder sem a figura.",
+      "reescrita": {
+        "pergunta": "Como se chama esta joia tradicional de prata, com vários pingentes?",
+        "resposta": "Balangandã"
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ciclo natalino, palhaço mascarado e bandeira descrevem a Folia de Reis e entregam a resposta sem a imagem. 'Bandeira de fitas' não está literalmente nos trechos.",
+      "reescrita": {
+        "pergunta": "Que manifestação folclórica brasileira do ciclo natalino é esta?",
+        "resposta": "Folia de Reis",
+        "distratores": [
+          "Bumba meu boi",
+          "Congada",
+          "Cavalhadas"
+        ]
+      }
+    }
+  ]
+}

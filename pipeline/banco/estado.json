@@ -84,9 +84,10 @@
     "geografia_oceanos_mares_e_ilhas_01",
     "fig_retratos_artes_001",
     "fig_personagens_002",
-    "geografia_clima_e_biomas_01"
+    "geografia_clima_e_biomas_01",
+    "fig_folclore_001"
   ],
-  "maior_id": 2302,
+  "maior_id": 2308,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -426,6 +427,19 @@
         "3": 1
       },
       "registradas": 10
+    },
+    "folclore": {
+      "familias": {
+        "o_que_e": 4,
+        "onde": 1,
+        "com_o_que_se_liga": 1
+      },
+      "niveis": {
+        "1": 3,
+        "2": 2,
+        "3": 1
+      },
+      "registradas": 6
     }
   },
   "rendimento": {

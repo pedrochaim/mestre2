@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que manifestação folclórica brasileira do ciclo natalino é esta?",
+        "resposta": "Folia de Reis"
+      },
+      "existentes": [
+        {
+          "id": "q00338",
+          "pergunta": "Os grupos da folia de reis começam a visitar as casas no Natal. Em que dia do ano eles encerram a jornada?",
+          "resposta": "6 de janeiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da manifestação (Folia de Reis); a existente pede a data de encerramento (6 de janeiro) e já cita o nome no enunciado. São fatos diferentes."
+    }
+  ]
+}
