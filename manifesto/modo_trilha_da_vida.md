@@ -35,7 +35,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Cartas**
 - **Escolha o tema:** o jogador escolhe o tema da pergunta. Os temas amplos também aparecem nas cartas.
-- **Desafio:** uma pergunta, de tema aleatório ou específico, direcionada a um oponente. Se ele acertar, quem jogou a carta anda também.
+- **Desafio:** uma pergunta, de tema aleatório ou específico, direcionada a um oponente. Se ele acertar, quem jogou a carta anda também. **É cooperativa de propósito:** os dois ganham juntos.
 - **Múltipla escolha:** a pergunta passa a ser de múltipla escolha.
 - **Figura:** a pergunta passa a ser com figura.
 
@@ -120,7 +120,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Consequências de ser uma corrida** (propostas):
 - **Mesmo número de turnos:** quando alguém chega, a rodada termina, para todos terem jogado o mesmo número de vezes. Se mais de um chegar na mesma rodada, vence quem foi mais longe além da chegada, ou há uma pergunta de desempate.
-- **Recuperação:** para o líder não disparar, o que pesa mais com 3 jogadores: quem está em último compra uma carta extra por rodada, e as cartas que miram oponentes só miram quem está à frente na trilha.
+- **Recuperação:** para o líder não disparar, o que pesa mais com 3 jogadores: quem está em último compra uma carta extra por rodada, e a carta de Desafio, que é cooperativa, **não pode mirar o líder** (se quem joga é o líder, pode mirar qualquer um). Assim a cooperação ajuda quem está atrás a alcançar a frente; com 3 jogadores, os dois de trás se ajudam contra o líder.
 - **Aposentadoria como escolha de velocidade:** a Mansão dos Sábios vira um atalho que exige 3 perguntas abertas seguidas; quem erra volta para o caminho da Vila Tranquila, mais longo e sem exigências.
 
 **Movimento** (decidido pelo autor): **dado de 1 a 3** por acerto, trilha de ~40 casas. Dá a sensação de andar no tabuleiro sem que o dado decida a partida: 20 acertos andam algo entre 32 e 48 casas. **Errar não move o peão** (proposta): se errar andasse, os erros também levariam ao fim, e a meta deixaria de ser "20 acertos". A estimativa de duração, com 65% de acerto e ~40 segundos por pergunta, é de uma hora com 3 jogadores e 1h20 com 4.
@@ -133,12 +133,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 ## Em aberto
 
-1. **Carta de Desafio:** do jeito que está, ela só ajuda o oponente. Se ele acertar, os dois andam; se errar, nada acontece. Por que alguém a usaria? Opções:
-   - **errar faz o oponente voltar** casas, e a carta vira ataque;
-   - usar quando você está **parado** e precisa que alguém acerte para você andar;
-   - ela é **cooperativa** de propósito.
-
-   Com 3 jogadores, a versão cooperativa é a mais arriscada: quem joga a carta e quem acerta andam juntos, e o terceiro fica para trás. As versões de ataque ou de destravar não dependem do número de jogadores.
+Nenhuma decisão de regra em aberto no momento. As propostas acima aguardam aprovação.
 
 ## Prova de conceito do tabuleiro
 
