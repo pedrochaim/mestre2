@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Coração",
+      "titulo": "en:Heart",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cérebro humano",
+      "titulo": "en:Human brain",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Pulmão",
+      "titulo": "en:Lung",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rim",
+      "titulo": "en:Kidney",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ouro",
+      "titulo": "en:Gold",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Diamante",
+      "titulo": "en:Diamond",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quartzo",
+      "titulo": "en:Quartz",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Hemácia",
+      "titulo": "en:Red blood cell",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Espermatozoide",
+      "titulo": "en:Spermatozoon",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Olho humano",
+      "titulo": "en:Human eye",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Crânio",
+      "titulo": "en:Skull",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Mercúrio",
+      "titulo": "en:Mercury (element)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estômago",
+      "titulo": "en:Stomach",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Neurônio",
+      "titulo": "en:Neuron",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Pirita",
+      "titulo": "en:Pyrite",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ametista",
+      "titulo": "en:Amethyst",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esmeralda",
+      "titulo": "en:Emerald",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Enxofre",
+      "titulo": "en:Sulfur",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cobre",
+      "titulo": "en:Copper",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mitocôndria",
+      "titulo": "en:Mitochondrion",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Coluna vertebral",
+      "titulo": "en:Vertebral column",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Leucócito",
+      "titulo": "en:White blood cell",
+      "camada": 2,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Pâncreas",
+      "titulo": "en:Pancreas",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mitose",
+      "titulo": "en:Mitosis",
+      "camada": 2,
+      "destino": 2,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Iodo",
+      "titulo": "en:Iodine",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Escherichia coli",
+      "titulo": "en:Escherichia coli",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Bismuto",
+      "titulo": "en:Bismuth",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Malaquita",
+      "titulo": "en:Malachite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fluorita",
+      "titulo": "en:Fluorite",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Galena",
+      "titulo": "en:Galena",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cinábrio",
+      "titulo": "en:Cinnabar",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Gálio",
+      "titulo": "en:Gallium",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cloroplasto",
+      "titulo": "en:Chloroplast",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estômato",
+      "titulo": "en:Stoma",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Paramécio",
+      "titulo": "en:Paramecium",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Tardígrado",
+      "titulo": "en:Tardigrade",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cóclea",
+      "titulo": "en:Cochlea",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bacteriófago",
+      "titulo": "en:Bacteriophage",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Néfron",
+      "titulo": "en:Nephron",
+      "camada": 3,
+      "destino": 1,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Anemia falciforme",
+      "titulo": "en:Sickle cell disease",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}

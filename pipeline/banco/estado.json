@@ -63,9 +63,10 @@
     "fig_musicos_atores_001",
     "fig_instrumentos_jogos_001",
     "fig_mapas_localizacao_001",
-    "fig_frutas_ingredientes_001"
+    "fig_frutas_ingredientes_001",
+    "fig_ciencia_natural_001"
   ],
-  "maior_id": 1857,
+  "maior_id": 1866,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -282,6 +283,19 @@
         "3": 1
       },
       "registradas": 8
+    },
+    "ciencia_natural": {
+      "familias": {
+        "o_que_e": 5,
+        "que_tipo": 3,
+        "que_parte": 1
+      },
+      "niveis": {
+        "1": 5,
+        "2": 3,
+        "3": 1
+      },
+      "registradas": 9
     }
   },
   "rendimento": {

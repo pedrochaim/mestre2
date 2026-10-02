@@ -1,0 +1,75 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento; distratores do mesmo tipo (células), curtos e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trecho diz que a fluorita pertence aos minerais haletos; distratores são grupos de minerais incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples, sem pista; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Em degraus' é pista que descreve o aspecto característico do bismuto e o trecho não a sustenta; tirar a pista para a figura ser necessária.",
+      "reescrita": {
+        "pergunta": "Que elemento químico forma estes cristais?",
+        "resposta": "Bismuto",
+        "distratores": [
+          "Antimônio",
+          "Estanho",
+          "Chumbo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta; o parêntese com o sinônimo evita injustiça.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Trechos confirmam a forma de bacilo; distratores são outros formatos bacterianos, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; resposta única.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Aglomerado de cristais incolores de quartzo, nítido, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Quartzo",
+      "ancora": {
+        "nome": "Quartzo",
+        "descricao": "Mineral de dióxido de silício (SiO2), o segundo mais comum da litosfera terrestre.",
+        "variantes": [
+          "Cristal de rocha"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem de microscopia com neurônio piramidal em verde bem visível; apenas barra de escala, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de célula é esta, vista ao microscópio?",
+      "resposta": "Neurônio",
+      "distratores": [
+        "Hemácia",
+        "Fibra muscular",
+        "Célula epitelial"
+      ],
+      "ancora": {
+        "nome": "Neurônio",
+        "descricao": "Célula excitável do sistema nervoso que conduz impulsos elétricos.",
+        "variantes": [
+          "Célula nervosa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cristais cúbicos azul-esverdeados de fluorita sobre cristais brancos; boa imagem. Pergunta sobre o grupo mineral exige reconhecer.",
+      "destino": 0,
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que grupo de minerais pertence este?",
+      "resposta": "Haletos",
+      "distratores": [
+        "Silicatos",
+        "Sulfetos",
+        "Carbonatos"
+      ],
+      "ancora": {
+        "nome": "Fluorita",
+        "descricao": "Mineral de fluoreto de cálcio (CaF2), de dureza 4 na escala de Mohs, que forma cristais cúbicos coloridos.",
+        "variantes": [
+          "Fluorspar",
+          "Espatoflúor"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cérebro humano com giros bem visíveis, fundo branco, sem texto; imagem pequena mas legível.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que órgão é este?",
+      "resposta": "Cérebro",
+      "ancora": {
+        "nome": "Cérebro humano",
+        "descricao": "Órgão central do sistema nervoso, dentro do crânio, formado por cérebro, tronco encefálico e cerebelo.",
+        "variantes": [
+          "Encéfalo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cristais escalonados característicos de bismuto e um cubo do metal; reconhecível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que elemento químico forma estes cristais em degraus?",
+      "resposta": "Bismuto",
+      "distratores": [
+        "Antimônio",
+        "Estanho",
+        "Chumbo"
+      ],
+      "ancora": {
+        "nome": "Bismuto",
+        "descricao": "Elemento químico de símbolo Bi e número atômico 83, metal que forma cristais escalonados iridescentes.",
+        "variantes": [
+          "Bi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Renderização 3D clara de hemácias dentro de um vaso sanguíneo, sem texto.",
+      "destino": 1,
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de célula é esta?",
+      "resposta": "Hemácia (glóbulo vermelho)",
+      "ancora": {
+        "nome": "Hemácia",
+        "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+        "variantes": [
+          "Glóbulo vermelho",
+          "Eritrócito"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Microscopia eletrônica de bacilos; a espécie não é reconhecível pela imagem, então a pergunta é sobre o formato, que a imagem mostra com clareza. Só dados técnicos no rodapé, que não entregam a resposta.",
+      "destino": 2,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formato têm estas bactérias?",
+      "resposta": "Bacilos (em bastão)",
+      "distratores": [
+        "Cocos",
+        "Espirilos",
+        "Vibriões"
+      ],
+      "ancora": {
+        "nome": "Escherichia coli",
+        "descricao": "Bactéria gram-negativa em forma de bastonete, comum no intestino de animais de sangue quente.",
+        "variantes": [
+          "E. coli"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Close macro de um olho, sem identificar pessoa; órgão reconhecível, sem texto.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que órgão do corpo humano é este?",
+      "resposta": "Olho",
+      "ancora": {
+        "nome": "Olho humano",
+        "descricao": "Órgão sensorial da visão que reage à luz visível.",
+        "variantes": [
+          "Globo ocular"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Fragmentos cinza metálicos sem forma característica; não é reconhecível como iodo e poderia ser outro material (grafite, metais). Resposta não única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A imagem mostra dois minerais (galena cinza e pirita dourada); a resposta não é única diante da figura."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Crânio de mamífero em fundo liso, sem texto; a pergunta pelo tipo de estrutura óssea tem resposta única.",
+      "destino": 2,
+      "familia": "que_parte",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que parte do esqueleto é esta?",
+      "resposta": "Crânio",
+      "ancora": {
+        "nome": "Crânio",
+        "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+        "variantes": [
+          "Caveira",
+          "Cabeça óssea"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Metal prateado brilhante sem traços que permitam reconhecer o gálio; poderia ser zinco, estanho ou alumínio. Resposta não única."
+    }
+  ]
+}
