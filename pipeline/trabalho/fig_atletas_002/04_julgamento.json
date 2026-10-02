@@ -1,0 +1,391 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Michael Phelps",
+        "descricao": "Nadador americano, maior medalhista da história dos Jogos Olímpicos.",
+        "variantes": [
+          "Michael Fred Phelps II"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "michael_schumacher",
+          "nome": "Michael Schumacher",
+          "descricao": "Piloto alemão heptacampeão mundial de Fórmula 1.",
+          "variantes": [
+            "Schumi"
+          ]
+        },
+        {
+          "id": "michael_jackson",
+          "nome": "Michael Jackson",
+          "descricao": "Cantor e dançarino americano conhecido como Rei do Pop",
+          "variantes": []
+        },
+        {
+          "id": "monica_seles",
+          "nome": "Monica Seles",
+          "descricao": "Tenista iugoslava naturalizada americana, nascida em 1973, campeã de nove Grand Slams em simples.",
+          "variantes": [
+            "Monika Seleš"
+          ]
+        },
+        {
+          "id": "seicheles",
+          "nome": "Seicheles",
+          "descricao": "País arquipelágico de 115 ilhas no Oceano Índico, a leste da África continental, cuja capital é Victoria.",
+          "variantes": [
+            "Seychelles",
+            "República das Seicheles"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Mike Tyson",
+        "descricao": "Ex-boxeador americano dos pesos-pesados, campeão mundial indiscutível de 1987 a 1990.",
+        "variantes": [
+          "Michael Gerard Tyson",
+          "Iron Mike"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mickey_mouse",
+          "nome": "Mickey Mouse",
+          "descricao": "Camundongo criado por Walt Disney e Ub Iwerks em 1928, mascote da Disney.",
+          "variantes": [
+            "Mickey",
+            "Rato Mickey"
+          ]
+        },
+        {
+          "id": "michael_jackson",
+          "nome": "Michael Jackson",
+          "descricao": "Cantor e dançarino americano conhecido como Rei do Pop",
+          "variantes": []
+        },
+        {
+          "id": "michael_faraday",
+          "nome": "Michael Faraday",
+          "descricao": "Químico e físico inglês que descobriu a indução eletromagnética e as leis da eletrólise.",
+          "variantes": []
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome"
+          ]
+        },
+        {
+          "id": "michael_jordan",
+          "nome": "Michael Jordan",
+          "descricao": "Jogador americano de basquete, seis vezes campeão da NBA pelo Chicago Bulls.",
+          "variantes": [
+            "MJ",
+            "Air Jordan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Anderson Silva",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+        "variantes": [
+          "Anderson da Silva",
+          "Spider"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "adhemar_ferreira_da_silva",
+          "nome": "Adhemar Ferreira da Silva",
+          "descricao": "Atleta brasileiro, bicampeão olímpico do salto triplo em 1952 e 1956.",
+          "variantes": [
+            "Adhemar da Silva"
+          ]
+        },
+        {
+          "id": "homem_aranha",
+          "nome": "Homem-Aranha",
+          "descricao": "Super-herói da Marvel criado por Stan Lee e Steve Ditko em 1962, identidade de Peter Parker",
+          "variantes": [
+            "Spider-Man",
+            "Peter Parker"
+          ]
+        },
+        {
+          "id": "leonidas_da_silva",
+          "nome": "Leônidas da Silva",
+          "descricao": "Atacante brasileiro dos anos 1930 e 1940, artilheiro da Copa do Mundo de 1938.",
+          "variantes": [
+            "Leônidas",
+            "Diamante Negro"
+          ]
+        },
+        {
+          "id": "faustao",
+          "nome": "Faustão",
+          "descricao": "Fausto Silva, apresentador brasileiro do Domingão do Faustão na Globo.",
+          "variantes": [
+            "Fausto Silva",
+            "Fausto Corrêa Silva"
+          ]
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Alain Prost",
+        "descricao": "Ex-piloto francês de Fórmula 1, tetracampeão mundial.",
+        "variantes": [
+          "Alain Marie Pascal Prost",
+          "O Professor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_pensador",
+          "nome": "O Pensador",
+          "descricao": "Escultura de bronze de Auguste Rodin.",
+          "variantes": []
+        },
+        {
+          "id": "ordem_e_progresso",
+          "nome": "Ordem e Progresso",
+          "descricao": "Lema inscrito na faixa branca da bandeira nacional do Brasil, de inspiração positivista.",
+          "variantes": [
+            "Lema da bandeira do Brasil"
+          ]
+        },
+        {
+          "id": "porco_rosso",
+          "nome": "Porco Rosso",
+          "descricao": "Filme de animação de 1992 de Hayao Miyazaki sobre um piloto de hidroavião amaldiçoado com cara de porco.",
+          "variantes": [
+            "Porco Rosso: O Último Herói Romântico",
+            "Kurenai no Buta"
+          ]
+        },
+        {
+          "id": "camisa_rosa_do_giro_d_italia",
+          "nome": "Camisa rosa do Giro d'Italia",
+          "descricao": "Camisa do líder da classificação geral da volta ciclística da Itália.",
+          "variantes": [
+            "Maglia rosa"
+          ]
+        },
+        {
+          "id": "joao_pessoa",
+          "nome": "João Pessoa",
+          "descricao": "Capital do estado da Paraíba, antes chamada Parahyba.",
+          "variantes": [
+            "Parahyba",
+            "Cidade da Parahyba"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hugo Calderano",
+        "descricao": "Mesa-tenista brasileiro, campeão da Copa do Mundo de 2025 e quarto colocado nos Jogos Olímpicos.",
+        "variantes": [
+          "Hugo Marinho Borges Calderano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gotico_americano",
+          "nome": "Gótico Americano",
+          "descricao": "Quadro de Grant Wood de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Valentino Rossi",
+        "descricao": "Piloto italiano de motovelocidade, nove vezes campeão mundial de Grand Prix.",
+        "variantes": [
+          "O Doutor",
+          "The Doctor"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "totoro",
+          "nome": "Totoro",
+          "descricao": "Criatura da floresta que dá nome ao filme Meu Amigo Totoro, de Hayao Miyazaki.",
+          "variantes": [
+            "O Totoro"
+          ]
+        },
+        {
+          "id": "jerry_west",
+          "nome": "Jerry West",
+          "descricao": "Armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, nos anos 1960 e 1970.",
+          "variantes": [
+            "The Logo",
+            "Mr. Clutch"
+          ]
+        },
+        {
+          "id": "butao",
+          "nome": "Butão",
+          "descricao": "Reino do Himalaia Oriental, sem litoral, entre a China e a Índia.",
+          "variantes": [
+            "Reino do Butão",
+            "Bhutan",
+            "Druk Yul"
+          ]
+        },
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        },
+        {
+          "id": "hakeem_olajuwon",
+          "nome": "Hakeem Olajuwon",
+          "descricao": "Pivô nigeriano bicampeão da NBA pelo Houston Rockets nos anos 1990.",
+          "variantes": [
+            "Akeem Olajuwon",
+            "The Dream"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Daiane dos Santos",
+        "descricao": "Ginasta artística brasileira, campeã mundial no solo em 2003.",
+        "variantes": [
+          "Daiane Garcia dos Santos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baia_de_todos_os_santos",
+          "nome": "Baía de Todos-os-Santos",
+          "descricao": "Grande baía do litoral da Bahia, às margens da qual fica Salvador.",
+          "variantes": [
+            "All Saints Bay"
+          ]
+        },
+        {
+          "id": "duplo_twist_carpado",
+          "nome": "Duplo twist carpado",
+          "descricao": "Movimento da ginástica artística de solo que entrou no código de pontuação com o nome da ginasta brasileira que o executou primeiro.",
+          "variantes": [
+            "Dos Santos",
+            "Duplo twist carpado (Dos Santos)",
+            "Double Arabian piked"
+          ]
+        },
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        },
+        {
+          "id": "garrincha",
+          "nome": "Garrincha",
+          "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Mané Garrincha",
+            "Manuel Francisco dos Santos",
+            "Manoel Francisco dos Santos"
+          ]
+        },
+        {
+          "id": "mestre_vitalino",
+          "nome": "Mestre Vitalino",
+          "descricao": "Vitalino Pereira dos Santos, artesão pernambucano famoso por seus bonecos de barro que retratam o cotidiano nordestino.",
+          "variantes": [
+            "Vitalino Pereira dos Santos"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nadador Michael Phelps não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Boxeador Mike Tyson não está entre as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Lutador Anderson Silva é distinto das candidatas, que são outras pessoas ou coisas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Piloto Alain Prost não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Mesa-tenista Hugo Calderano não aparece entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Piloto Valentino Rossi não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Daiane dos Santos é a ginasta. O movimento 'Duplo twist carpado' leva o nome dela, mas é outra entidade. As demais candidatas não correspondem."
+    }
+  ]
+}

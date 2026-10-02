@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto que entregue o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quantas medalhas olímpicas, no total, este atleta americano conquistou na carreira?",
+      "resposta": "28",
+      "destino": 5,
+      "ancora": {
+        "nome": "Michael Phelps",
+        "descricao": "Nadador americano, maior medalhista da história dos Jogos Olímpicos.",
+        "variantes": [
+          "Michael Fred Phelps II"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro, com tatuagem facial característica; sem texto relevante.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este ex-lutador de boxe?",
+      "resposta": "Mike Tyson",
+      "destino": 6,
+      "ancora": {
+        "nome": "Mike Tyson",
+        "descricao": "Ex-boxeador americano dos pesos-pesados, campeão mundial indiscutível de 1987 a 1990.",
+        "variantes": [
+          "Michael Gerard Tyson",
+          "Iron Mike"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; sem nome visível, apenas 'Brasil' na jaqueta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que aparelho este ginasta brasileiro foi campeão olímpico em Londres, em 2012?",
+      "resposta": "Argolas",
+      "destino": 5,
+      "ancora": {
+        "nome": "Arthur Zanetti",
+        "descricao": "Ginasta artístico brasileiro, campeão olímpico nas argolas em 2012.",
+        "variantes": [
+          "Arthur Nabarrete Zanetti"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Rosto claro apesar da baixa resolução; cenário de octógono e sem nome legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lutador brasileiro de MMA é este?",
+      "resposta": "Anderson Silva",
+      "destino": 6,
+      "ancora": {
+        "nome": "Anderson Silva",
+        "descricao": "Lutador brasileiro de MMA, ex-campeão peso-médio do UFC com o reinado mais longo da história da categoria.",
+        "variantes": [
+          "Anderson da Silva",
+          "Spider"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Retrato nítido; texto parcial 'OSS' ao fundo não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ex-piloto francês de Fórmula 1 é este?",
+      "resposta": "Alain Prost",
+      "distratores": [
+        "Jean Alesi",
+        "René Arnoux",
+        "Olivier Panis"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Alain Prost",
+        "descricao": "Ex-piloto francês de Fórmula 1, tetracampeão mundial.",
+        "variantes": [
+          "Alain Marie Pascal Prost",
+          "O Professor"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato legível, com camisa do Brasil e rede de tênis de mesa; sem nome visível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mesa-tenista brasileiro é este?",
+      "resposta": "Hugo Calderano",
+      "distratores": [
+        "Gustavo Tsuboi",
+        "Hugo Hoyama",
+        "Vitor Ishiy"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Hugo Calderano",
+        "descricao": "Mesa-tenista brasileiro, campeão da Copa do Mundo de 2025 e quarto colocado nos Jogos Olímpicos.",
+        "variantes": [
+          "Hugo Marinho Borges Calderano"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "O macacão traz o sobrenome 'Barrichello' escrito, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido, fundo neutro, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que esporte este brasileiro foi tricampeão mundial, em 2014, 2018 e 2021?",
+      "resposta": "Surfe",
+      "destino": 7,
+      "ancora": {
+        "nome": "Gabriel Medina",
+        "descricao": "Surfista brasileiro, tricampeão mundial e medalhista de bronze olímpico em 2024.",
+        "variantes": [
+          "Gabriel Medina Pinto Ferreira",
+          "Medina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; patrocinadores visíveis, mas sem o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este piloto de motovelocidade?",
+      "resposta": "Valentino Rossi",
+      "destino": 4,
+      "ancora": {
+        "nome": "Valentino Rossi",
+        "descricao": "Piloto italiano de motovelocidade, nove vezes campeão mundial de Grand Prix.",
+        "variantes": [
+          "O Doutor",
+          "The Doctor"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública; jaqueta 'USA' não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta ginasta liderou o time americano campeão olímpico em 2016. Que apelido tinha esse time?",
+      "resposta": "Final Five",
+      "distratores": [
+        "Fierce Five",
+        "Magnificent Seven",
+        "Dream Team"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Simone Biles",
+        "descricao": "Ginasta artística americana, a mais premiada da história do esporte.",
+        "variantes": [
+          "Simone Arianne Biles"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato claro de figura pública; textos de credencial e patrocinador não citam o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ginasta brasileira é esta?",
+      "resposta": "Daiane dos Santos",
+      "destino": 5,
+      "ancora": {
+        "nome": "Daiane dos Santos",
+        "descricao": "Ginasta artística brasileira, campeã mundial no solo em 2003.",
+        "variantes": [
+          "Daiane Garcia dos Santos"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida; boné e jaqueta com patrocinador, sem nome do piloto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este piloto austríaco foi campeão mundial de Fórmula 1 em 1975. Por qual equipe?",
+      "resposta": "Ferrari",
+      "distratores": [
+        "McLaren",
+        "Lotus",
+        "Williams"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Niki Lauda",
+        "descricao": "Piloto austríaco de Fórmula 1, tricampeão mundial.",
+        "variantes": [
+          "Andreas Nikolaus Lauda"
+        ]
+      }
+    }
+  ]
+}
