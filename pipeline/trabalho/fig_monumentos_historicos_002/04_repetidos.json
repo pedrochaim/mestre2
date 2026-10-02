@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que região da Itália fica este campanário de catedral?",
+        "resposta": "Toscana"
+      },
+      "existentes": [
+        {
+          "id": "q02007",
+          "pergunta": "Por que a Torre de Pisa começou a se inclinar ainda durante a obra, no século doze?",
+          "resposta": "Solo mole e fundação rasa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a região da Itália onde fica o campanário (Toscana). A existente é sobre a causa da inclinação da torre. Os fatos são diferentes."
+    }
+  ]
+}

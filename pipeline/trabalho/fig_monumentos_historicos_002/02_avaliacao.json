@@ -1,0 +1,216 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do palácio e dos jardins, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 7,
+      "pergunta": "Em que país fica este palácio, residência de reis por mais de um século?",
+      "resposta": "França",
+      "ancora": {
+        "nome": "Palácio de Versalhes",
+        "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+        "variantes": [
+          "Château de Versailles",
+          "Versalhes"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto clara e inconfundível do monte com a abadia.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 6,
+      "pergunta": "Em que região da França fica este monte fortificado, cercado pelas marés?",
+      "resposta": "Normandia",
+      "ancora": {
+        "nome": "Mont-Saint-Michel",
+        "descricao": "Ilha de maré com abadia medieval fortificada, na costa da Normandia, França.",
+        "variantes": [
+          "Monte Saint-Michel",
+          "Mont Saint-Michel"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem de baixíssima resolução, com rochas e muros pouco legíveis num celular; sem elementos que permitam reconhecer o sítio com segurança."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida da pirâmide sem casca de revestimento, reconhecível; turistas pequenos ao fundo.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que faraó mandou construir esta pirâmide de Gizé para ser seu túmulo?",
+      "resposta": "Quéops (Khufu)",
+      "ancora": {
+        "nome": "Grande Pirâmide de Gizé",
+        "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+        "variantes": [
+          "Pirâmide de Quéops",
+          "Pirâmide de Khufu"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Visitantes comuns aparecem em primeiro plano; além disso é a reconstrução exposta em Berlim, o que torna a pergunta de lugar ambígua."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida com as cariátides, que tornam o templo reconhecível.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Em que século antes de Cristo foi construído este templo grego?",
+      "resposta": "Quinto século a.C.",
+      "distratores": [
+        "Sétimo século a.C.",
+        "Sexto século a.C.",
+        "Quarto século a.C."
+      ],
+      "ancora": {
+        "nome": "Erecteion",
+        "descricao": "Templo jônico da Acrópole de Atenas, famoso pelo pórtico das cariátides.",
+        "variantes": [
+          "Erechtheion",
+          "Erecteu"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida da torre inclinada; pessoas pequenas e incidentais na base.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 6,
+      "pergunta": "Em que cidade italiana fica esta torre inclinada?",
+      "resposta": "Pisa",
+      "ancora": {
+        "nome": "Torre de Pisa",
+        "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+        "variantes": [
+          "Torre Inclinada de Pisa"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida, com cúpula e minaretes reconhecíveis; distratores visualmente parecidos disponíveis.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 6,
+      "pergunta": "Que edifício de Istambul é este, antes catedral bizantina?",
+      "resposta": "Santa Sofia",
+      "distratores": [
+        "Mesquita Azul",
+        "Mesquita de Süleymaniye",
+        "Palácio de Topkapi"
+      ],
+      "ancora": {
+        "nome": "Hagia Sophia",
+        "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+        "variantes": [
+          "Santa Sofia",
+          "Aya Sofya"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida do teatro; pessoas distantes e incidentais.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Este teatro grego, famoso pela acústica, fazia parte de um santuário dedicado a que deus?",
+      "resposta": "Asclépio",
+      "ancora": {
+        "nome": "Teatro de Epidauro",
+        "descricao": "Teatro grego antigo do século IV a.C. no santuário de Asclépio, em Epidauro, na Grécia.",
+        "variantes": [
+          "Teatro de Epidaurus",
+          "Epidauro"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto clássica e nítida do templo, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Em que século antes de Cristo foi construído este templo de Atenas?",
+      "resposta": "Quinto século a.C.",
+      "ancora": {
+        "nome": "Partenon",
+        "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+        "variantes": [
+          "Parthenon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto frontal nítida; a inscrição latina é ilegível no celular; distratores visualmente parecidos (outros arcos de Roma).",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 3,
+      "pergunta": "Que imperador romano é homenageado por este arco do triunfo, perto do Coliseu?",
+      "resposta": "Constantino",
+      "distratores": [
+        "Septímio Severo",
+        "Tito",
+        "Trajano"
+      ],
+      "ancora": {
+        "nome": "Arco de Constantino",
+        "descricao": "Arco do triunfo de Roma, entre o Coliseu e o monte Palatino, dedicado em 315.",
+        "variantes": [
+          "Arco di Costantino"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida da igreja em forma de cruz escavada na rocha; pessoa minúscula e incidental.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 9,
+      "pergunta": "Que igreja escavada numa única rocha, na Etiópia, é esta?",
+      "resposta": "Igreja de São Jorge",
+      "ancora": {
+        "nome": "Igreja de São Jorge de Lalibela",
+        "descricao": "Igreja monolítica cruciforme escavada na rocha em Lalibela, Etiópia, do tempo da dinastia Zagwe.",
+        "variantes": [
+          "Bete Giyorgis",
+          "Bet Giyorgis"
+        ]
+      }
+    }
+  ]
+}

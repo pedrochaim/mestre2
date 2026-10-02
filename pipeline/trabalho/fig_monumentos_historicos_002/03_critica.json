@@ -1,0 +1,98 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Precisa (1682–1789, mais de um século) e a pista não entrega o país sem a figura. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Normandia está nos trechos. O enunciado não nomeia o monte e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quéops como autor do túmulo está nos trechos. O enunciado não nomeia o monumento, e a figura mostra a Grande Pirâmide.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Construído entre 421 e 406 a.C., ou seja, no século quinto. Os distratores são plausíveis, curtos e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Torre inclinada' mais 'cidade italiana' entrega Pisa sem olhar a figura, que vira enfeite. Passa a pedir a região, que depende de reconhecer o campanário.",
+      "reescrita": {
+        "pergunta": "Em que região da Itália fica este campanário de catedral?",
+        "resposta": "Toscana",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Antes catedral bizantina' entrega a resposta, porque nenhum distrator foi catedral. Tirando a pista, a figura é quem distingue as opções.",
+      "reescrita": {
+        "pergunta": "Que monumento de Istambul é este?",
+        "resposta": "Santa Sofia",
+        "distratores": [
+          "Mesquita Azul",
+          "Mesquita de Süleymaniye",
+          "Palácio de Topkapi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Famoso pela acústica' identifica o teatro de Epidauro por conhecimento geral, e a figura vira enfeite. Troca a pista por uma época, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Este teatro grego, construído no século quarto antes de Cristo, fazia parte de um santuário dedicado a que deus?",
+        "resposta": "Asclépio",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Século quinto a.C. confirmado nos trechos. O enunciado não nomeia o templo.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Perto do Coliseu' mais 'arco do triunfo' entrega Constantino por conhecimento, e o arco de Tito também fica perto. Tirando a pista, a figura decide entre os arcos dos distratores.",
+      "reescrita": {
+        "pergunta": "Que imperador romano é homenageado por este arco do triunfo?",
+        "resposta": "Constantino",
+        "distratores": [
+          "Septímio Severo",
+          "Tito",
+          "Trajano"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Igreja monolítica escavada na rocha, nos trechos. O enunciado não a nomeia, e só a figura distingue esta das outras igrejas de Lalibela.",
+      "reescrita": null
+    }
+  ]
+}

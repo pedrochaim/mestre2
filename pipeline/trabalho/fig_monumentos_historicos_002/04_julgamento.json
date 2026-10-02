@@ -1,0 +1,509 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Palácio de Versalhes",
+        "descricao": "Palácio e residência real barroco-clássico em Versalhes, perto de Paris, construído por Luís XIV.",
+        "variantes": [
+          "Château de Versailles",
+          "Versalhes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "jerusalem",
+          "nome": "Jerusalém",
+          "descricao": "Cidade sagrada para judeus, cristãos e muçulmanos, no Levante, com a Cúpula da Rocha.",
+          "variantes": []
+        },
+        {
+          "id": "deerstalker",
+          "nome": "Deerstalker",
+          "descricao": "Boné inglês de caça, em geral de tecido xadrez, com duas abas à frente e atrás e protetores de orelha, associado a Sherlock Holmes.",
+          "variantes": [
+            "Chapéu de caçador de veados",
+            "Chapéu de Sherlock Holmes",
+            "Chapéu de detetive"
+          ]
+        },
+        {
+          "id": "ushanka",
+          "nome": "Ushanka",
+          "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+          "variantes": [
+            "Chapéu de pele russo",
+            "Shapka-ushanka"
+          ]
+        },
+        {
+          "id": "solsticio",
+          "nome": "Solstício",
+          "descricao": "Momento do ano em que o Sol atinge sua maior declinação, marcando o dia mais longo ou o mais curto do ano.",
+          "variantes": [
+            "Solstício de verão",
+            "Solstício de inverno",
+            "Solstice"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Grande Pirâmide de Gizé",
+        "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+        "variantes": [
+          "Pirâmide de Quéops",
+          "Pirâmide de Khufu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        },
+        {
+          "id": "bandeira_de_belize",
+          "nome": "Bandeira de Belize",
+          "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+          "variantes": [
+            "Belize",
+            "Bandeira belizenha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Erecteion",
+        "descricao": "Templo jônico da Acrópole de Atenas, famoso pelo pórtico das cariátides.",
+        "variantes": [
+          "Erechtheion",
+          "Erecteu"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "doenca_do_chapeleiro_louco",
+          "nome": "Doença do chapeleiro louco",
+          "descricao": "Intoxicação crônica por mercúrio que afetava fabricantes de chapéus de feltro, também chamada eretismo",
+          "variantes": [
+            "Eretismo",
+            "Mad hatter disease"
+          ]
+        },
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "aquenaton",
+          "nome": "Aquenáton",
+          "descricao": "Faraó da 18ª dinastia do Egito, antes chamado Amenhotep IV, que instituiu o culto de Áton.",
+          "variantes": [
+            "Akhenaten",
+            "Amenhotep IV",
+            "Echnaton"
+          ]
+        },
+        {
+          "id": "terere",
+          "nome": "Tereré",
+          "descricao": "Infusão de erva-mate preparada com água gelada, tradicional no Paraguai e no Centro-Oeste brasileiro",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Torre de Pisa",
+        "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+        "variantes": [
+          "Torre Inclinada de Pisa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        },
+        {
+          "id": "torres_del_paine",
+          "nome": "Torres del Paine",
+          "descricao": "Parque nacional da Patagônia chilena, com o maciço de picos de granito Cordillera del Paine.",
+          "variantes": [
+            "Parque Nacional Torres del Paine"
+          ]
+        },
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó",
+            "Forró pé de serra"
+          ]
+        },
+        {
+          "id": "volei_de_praia",
+          "nome": "Vôlei de praia",
+          "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+          "variantes": [
+            "Voleibol de praia",
+            "Beach volleyball"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Hagia Sophia",
+        "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+        "variantes": [
+          "Santa Sofia",
+          "Aya Sofya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "os_cavaleiros_do_zodiaco",
+          "nome": "Os Cavaleiros do Zodíaco",
+          "descricao": "Mangá e anime de Masami Kurumada sobre guerreiros que protegem a deusa Atena, chamado Saint Seiya no Japão.",
+          "variantes": [
+            "Saint Seiya",
+            "Les Chevaliers du Zodiaque"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome"
+          ]
+        },
+        {
+          "id": "santa_catarina",
+          "nome": "Santa Catarina",
+          "descricao": "Estado da Região Sul do Brasil, entre o Paraná e o Rio Grande do Sul, com capital em Florianópolis.",
+          "variantes": [
+            "SC"
+          ]
+        },
+        {
+          "id": "san_siro",
+          "nome": "San Siro",
+          "descricao": "Estádio Giuseppe Meazza, de Milan e Inter, em Milão.",
+          "variantes": []
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Teatro de Epidauro",
+        "descricao": "Teatro grego antigo do século IV a.C. no santuário de Asclépio, em Epidauro, na Grécia.",
+        "variantes": [
+          "Teatro de Epidaurus",
+          "Epidauro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "metro_de_sao_paulo",
+          "nome": "Metrô de São Paulo",
+          "descricao": "Sistema de metrô da cidade de São Paulo, o primeiro do Brasil.",
+          "variantes": [
+            "Companhia do Metropolitano de São Paulo"
+          ]
+        },
+        {
+          "id": "arbitro_assistente_de_video",
+          "nome": "Árbitro assistente de vídeo",
+          "descricao": "Sistema de revisão de lances por vídeo usado pela arbitragem no futebol, conhecido como VAR.",
+          "variantes": [
+            "VAR",
+            "Video assistant referee",
+            "Árbitro de vídeo"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "as_de_espadas",
+          "nome": "Ás de espadas",
+          "descricao": "Carta do baralho francês, o ás do naipe de espadas, muitas vezes impressa com desenho ornamentado.",
+          "variantes": [
+            "Ace of spades"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Partenon",
+        "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+        "variantes": [
+          "Parthenon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Arco de Constantino",
+        "descricao": "Arco do triunfo de Roma, entre o Coliseu e o monte Palatino, dedicado em 315.",
+        "variantes": [
+          "Arco di Costantino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "queda_de_constantinopla",
+          "nome": "Queda de Constantinopla",
+          "descricao": "Conquista da capital bizantina pelo Império Otomano do sultão Maomé Segundo, em 1453.",
+          "variantes": [
+            "Tomada de Constantinopla",
+            "Fall of Constantinople"
+          ]
+        },
+        {
+          "id": "velcro",
+          "nome": "Velcro",
+          "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
+          "variantes": [
+            "Fecho de gancho e argola",
+            "Hook-and-loop fastener",
+            "Fecho de contato"
+          ]
+        },
+        {
+          "id": "constantino",
+          "nome": "Constantino",
+          "descricao": "Imperador romano de 306 a 337, o primeiro a se converter ao cristianismo.",
+          "variantes": [
+            "Constantino I",
+            "Constantino, o Grande",
+            "Constantine the Great"
+          ]
+        },
+        {
+          "id": "istambul",
+          "nome": "Istambul",
+          "descricao": "Maior cidade da Turquia, às margens do Bósforo.",
+          "variantes": [
+            "Istanbul",
+            "Constantinopla"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Palácio de Versalhes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A Grande Pirâmide de Quéops não está entre as candidatas; Djoser e a Esfinge são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Erecteion não consta nas candidatas; nenhuma tem a mesma descrição."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "torre_de_pisa",
+      "motivo": "Mesmo campanário inclinado de Pisa, com descrição e variantes idênticas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Hagia Sophia não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Teatro de Epidauro."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Partenon não consta nas candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O Arco de Constantino é um monumento distinto do imperador Constantino, de Istambul e de outras candidatas."
+    }
+  ]
+}
