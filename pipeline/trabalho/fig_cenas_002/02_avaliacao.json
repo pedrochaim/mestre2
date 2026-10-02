@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Arte de divulgação sem texto, com o boxeador sozinho e legível; a pergunta sobre o ator vai além do reconhecimento.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que ator interpreta o boxeador desta imagem?",
+      "resposta": "Sylvester Stallone",
+      "distratores": [],
+      "ancora": {
+        "nome": "Rocky, um Lutador",
+        "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+        "variantes": [
+          "Rocky",
+          "Rocky Balboa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Cena nítida, sem texto, de filme emblemático e bem reconhecível; a direção rende boa pergunta de múltipla escolha.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Quentin Tarantino",
+      "distratores": [
+        "Guy Ritchie",
+        "Martin Scorsese",
+        "Robert Rodriguez"
+      ],
+      "ancora": {
+        "nome": "Pulp Fiction",
+        "descricao": "Filme de 1994 dirigido por Quentin Tarantino, sobre assassinos de aluguel e gângsteres em Los Angeles.",
+        "variantes": [
+          "Pulp Fiction: Tempo de Violência"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Cena sem texto, com personagens e ambiente da série; pergunta direta sobre a década de estreia.",
+      "destino": 1,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que década estreou a série desta cena?",
+      "resposta": "Anos 1990 (estreou em 1990)",
+      "distratores": [],
+      "ancora": {
+        "nome": "Twin Peaks",
+        "descricao": "Série de TV de mistério criada por David Lynch e Mark Frost, estreada em 1990.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cena nítida, sem texto, com os três protagonistas; a pergunta sobre o ator exige reconhecer o personagem.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpreta o garoto de óculos e suéter vermelho desta cena?",
+      "resposta": "Daniel Radcliffe",
+      "distratores": [
+        "Rupert Grint",
+        "Tom Felton",
+        "Elijah Wood"
+      ],
+      "ancora": {
+        "nome": "Harry Potter e a Pedra Filosofal",
+        "descricao": "Filme de 2001, primeiro da série de Harry Potter, ambientado na escola de magia Hogwarts.",
+        "variantes": [
+          "Harry Potter and the Philosopher's Stone",
+          "Harry Potter e a Pedra Filosofal (filme)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cena sem texto, com o personagem de peruca grisalha e bigode, característico do programa; a múltipla com humorísticos brasileiros é justa.",
+      "destino": 1,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que programa de humor brasileiro é esta cena?",
+      "resposta": "Escolinha do Professor Raimundo",
+      "distratores": [
+        "A Praça é Nossa",
+        "Os Trapalhões",
+        "Chico City"
+      ],
+      "ancora": {
+        "nome": "Escolinha do Professor Raimundo",
+        "descricao": "Programa humorístico brasileiro, criado e estrelado por Chico Anysio, em que alunos são sabatinados em sala de aula.",
+        "variantes": [
+          "Escolinha do Professor Raimundo (1990)"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cena em preto e branco, nítida; a única marca é um pequeno logotipo de streaming (KION) que não entrega a resposta.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Akira Kurosawa",
+      "distratores": [],
+      "ancora": {
+        "nome": "Rashomon",
+        "descricao": "Filme japonês de 1950 em que quatro testemunhos contraditórios narram um crime na floresta.",
+        "variantes": [
+          "Rashômon",
+          "Rashomon (1950)"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem de uma única obra, sem texto, com a proa do navio como pista visual; a época da história rende pergunta de tempo.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano se passa a história do filme desta imagem?",
+      "resposta": "1912",
+      "distratores": [
+        "1898",
+        "1923",
+        "1931"
+      ],
+      "ancora": {
+        "nome": "Titanic",
+        "descricao": "Filme de 1997 dirigido por James Cameron, sobre um romance a bordo do transatlântico que naufragou em 1912.",
+        "variantes": [
+          "Titanic (1997)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena sem texto, com o protagonista no cinema e a jaqueta militar característica; a pergunta sobre o ator vai além do filme.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ator interpreta o personagem desta cena?",
+      "resposta": "Robert De Niro",
+      "distratores": [],
+      "ancora": {
+        "nome": "Taxi Driver",
+        "descricao": "Filme de 1976 dirigido por Martin Scorsese, sobre um taxista veterano de guerra em Nova York.",
+        "variantes": [
+          "Taxi Driver: Motorista de Táxi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Cena em preto e branco, sem texto, de pai e filho na rua; reconhecível pelo neorrealismo, e a múltipla com filmes parecidos é justa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que filme italiano é esta cena?",
+      "resposta": "Ladrões de Bicicleta",
+      "distratores": [
+        "Roma, Cidade Aberta",
+        "A Estrada da Vida",
+        "Umberto D."
+      ],
+      "ancora": {
+        "nome": "Ladrões de Bicicleta",
+        "descricao": "Filme neorrealista italiano de 1948, dirigido por Vittorio De Sica, sobre um operário cuja bicicleta é roubada.",
+        "variantes": [
+          "Ladri di biciclette",
+          "Ladrão de Bicicletas"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Quadro de animação nítido, com a protagonista; o texto japonês das placas não revela a resposta.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem dirigiu o filme desta cena?",
+      "resposta": "Hayao Miyazaki",
+      "distratores": [],
+      "ancora": {
+        "nome": "A Viagem de Chihiro",
+        "descricao": "Filme de animação japonês de 2001, do Studio Ghibli, sobre a menina Chihiro num mundo de espíritos.",
+        "variantes": [
+          "Spirited Away",
+          "Sen to Chihiro no Kamikakushi"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena sem texto que entregue o título (só cartazes em chinês ao fundo); figurino e ambiente permitem a pergunta sobre a época.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que década se passa a história do filme desta cena?",
+      "resposta": "Anos 1960",
+      "distratores": [],
+      "ancora": {
+        "nome": "Amor à Flor da Pele",
+        "descricao": "Filme de Hong Kong de 2000, dirigido por Wong Kar-wai, sobre dois vizinhos que suspeitam da traição de seus cônjuges.",
+        "variantes": [
+          "In the Mood for Love",
+          "Fa yeung nin wah"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte de divulgação sem texto, do elenco principal de uma única obra; a pergunta sobre o ator em primeiro plano é clara.",
+      "destino": 0,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ator interpreta o personagem em primeiro plano nesta imagem?",
+      "resposta": "Keanu Reeves",
+      "distratores": [
+        "Hugo Weaving",
+        "Nicolas Cage",
+        "Brad Pitt"
+      ],
+      "ancora": {
+        "nome": "Matrix",
+        "descricao": "Filme de ficção científica de 1999, das irmãs Wachowski, sobre um programador que descobre viver numa realidade simulada.",
+        "variantes": [
+          "The Matrix"
+        ]
+      }
+    }
+  ]
+}

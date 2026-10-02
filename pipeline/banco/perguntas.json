@@ -31510,5 +31510,275 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 2
+  },
+  {
+    "id": "q01927",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "rocky_um_lutador",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ator interpreta o boxeador desta imagem?",
+    "resposta": "Sylvester Stallone",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rocky",
+      "https://www.themoviedb.org/movie/1366"
+    ],
+    "imagem": {
+      "arquivo": "q01927.jpg",
+      "origem": "https://www.themoviedb.org/movie/1366",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01928",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "pulp_fiction",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem dirigiu o filme desta cena?",
+    "resposta": "Quentin Tarantino",
+    "distratores": [
+      "Guy Ritchie",
+      "Martin Scorsese",
+      "Robert Rodriguez"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pulp_Fiction",
+      "https://www.themoviedb.org/movie/680"
+    ],
+    "imagem": {
+      "arquivo": "q01928.jpg",
+      "origem": "https://www.themoviedb.org/movie/680",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01929",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "twin_peaks",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década estreou a série desta cena?",
+    "resposta": "Anos 1990",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Twin_Peaks",
+      "https://www.themoviedb.org/tv/1920"
+    ],
+    "imagem": {
+      "arquivo": "q01929.jpg",
+      "origem": "https://www.themoviedb.org/tv/1920",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01930",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "harry_potter_e_a_pedra_filosofal",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que ator interpreta o garoto de óculos e suéter vermelho desta cena?",
+    "resposta": "Daniel Radcliffe",
+    "distratores": [
+      "Rupert Grint",
+      "Tom Felton",
+      "Elijah Wood"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Harry_Potter_e_a_Pedra_Filosofal_%28filme%29",
+      "https://www.themoviedb.org/movie/671"
+    ],
+    "imagem": {
+      "arquivo": "q01930.jpg",
+      "origem": "https://www.themoviedb.org/movie/671",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01931",
+    "tema": "Entretenimento",
+    "subtema": "Séries e TV",
+    "ancora": "escolinha_do_professor_raimundo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que programa de humor brasileiro é esta cena?",
+    "resposta": "Escolinha do Professor Raimundo",
+    "distratores": [
+      "A Praça é Nossa",
+      "Os Trapalhões",
+      "Zorra Total"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Escolinha_do_Professor_Raimundo",
+      "https://www.themoviedb.org/tv/100819"
+    ],
+    "imagem": {
+      "arquivo": "q01931.jpg",
+      "origem": "https://www.themoviedb.org/tv/100819",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01932",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "rashomon",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem dirigiu o filme desta cena?",
+    "resposta": "Akira Kurosawa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rashomon_%28filme%29",
+      "https://www.themoviedb.org/movie/548"
+    ],
+    "imagem": {
+      "arquivo": "q01932.jpg",
+      "origem": "https://www.themoviedb.org/movie/548",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01933",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "titanic",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano se passa a história do filme desta imagem?",
+    "resposta": "1912",
+    "distratores": [
+      "1898",
+      "1923",
+      "1931"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Titanic_%28filme_de_1997%29",
+      "https://www.themoviedb.org/movie/597"
+    ],
+    "imagem": {
+      "arquivo": "q01933.jpg",
+      "origem": "https://www.themoviedb.org/movie/597",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01934",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "taxi_driver",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ator interpreta o protagonista do filme desta cena?",
+    "resposta": "Robert De Niro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Taxi_Driver",
+      "https://www.themoviedb.org/movie/103"
+    ],
+    "imagem": {
+      "arquivo": "q01934.jpg",
+      "origem": "https://www.themoviedb.org/movie/103",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01935",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "ladroes_de_bicicleta",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "De que filme italiano é esta cena?",
+    "resposta": "Ladrões de Bicicleta",
+    "distratores": [
+      "Roma, Cidade Aberta",
+      "A Estrada da Vida",
+      "Umberto D."
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ladri_di_biciclette",
+      "https://www.themoviedb.org/movie/5156"
+    ],
+    "imagem": {
+      "arquivo": "q01935.jpg",
+      "origem": "https://www.themoviedb.org/movie/5156",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01936",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "a_viagem_de_chihiro",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem dirigiu o filme desta cena?",
+    "resposta": "Hayao Miyazaki",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Sen_to_Chihiro_no_Kamikakushi",
+      "https://www.themoviedb.org/movie/129"
+    ],
+    "imagem": {
+      "arquivo": "q01936.jpg",
+      "origem": "https://www.themoviedb.org/movie/129",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01937",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "amor_a_flor_da_pele",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década se passa a história do filme desta cena?",
+    "resposta": "Anos 1960",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/In_the_Mood_for_Love",
+      "https://www.themoviedb.org/movie/843"
+    ],
+    "imagem": {
+      "arquivo": "q01937.jpg",
+      "origem": "https://www.themoviedb.org/movie/843",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
+  },
+  {
+    "id": "q01938",
+    "tema": "Entretenimento",
+    "subtema": "Cinema",
+    "ancora": "matrix",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que ator interpreta o personagem em primeiro plano nesta imagem?",
+    "resposta": "Keanu Reeves",
+    "distratores": [
+      "Hugo Weaving",
+      "Nicolas Cage",
+      "Brad Pitt"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/The_Matrix",
+      "https://www.themoviedb.org/movie/603"
+    ],
+    "imagem": {
+      "arquivo": "q01938.jpg",
+      "origem": "https://www.themoviedb.org/movie/603",
+      "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
+      "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
+    }
   }
 ]

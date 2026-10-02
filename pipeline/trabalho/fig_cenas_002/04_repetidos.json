@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem dirigiu o filme desta cena?",
+        "resposta": "Hayao Miyazaki"
+      },
+      "existentes": [
+        {
+          "id": "q01391",
+          "pergunta": "Em A Viagem de Chihiro, por que os pais da menina são transformados em porcos?",
+          "resposta": "Comeram a comida dos espíritos"
+        },
+        {
+          "id": "q01411",
+          "pergunta": "Qual filme de Hayao Miyazaki ganhou o Oscar de melhor animação em 2003?",
+          "resposta": "A Viagem de Chihiro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o diretor do filme (Miyazaki). As existentes perguntam o motivo da transformação dos pais e qual filme ganhou o Oscar. Miyazaki só aparece como parte do enunciado de q01411, e não como fato a ser respondido. Saber uma dessas respostas não leva à resposta da nova."
+    }
+  ]
+}

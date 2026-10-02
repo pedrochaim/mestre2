@@ -1,0 +1,104 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stallone interpreta Rocky Balboa, confirmado nos trechos. O enunciado não nomeia o filme nem o ator, e é preciso ver a figura para saber de que boxeador se trata.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tarantino dirigiu o filme, conforme o trecho. Os distratores são diretores plausíveis, e nenhum dirigiu Pulp Fiction. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A estreia foi em 1990, então a década é a de 1990 (trecho). O parêntese na resposta é desnecessário e foge do §7. A resposta deve ser direta.",
+      "reescrita": {
+        "pergunta": "Em que década estreou a série desta cena?",
+        "resposta": "Anos 1990",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Daniel Radcliffe interpreta Harry Potter, conforme o trecho. Os distratores são plausíveis: dois da franquia e um de outra franquia de fantasia. O enunciado não nomeia o filme.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Chico City também foi programa de Chico Anysio, e a Escolinha passou por vários programas dele. O distrator pode ser defendido como correto, então troco por um programa sem relação.",
+      "reescrita": {
+        "pergunta": "De que programa de humor brasileiro é esta cena?",
+        "resposta": "Escolinha do Professor Raimundo",
+        "distratores": [
+          "A Praça é Nossa",
+          "Os Trapalhões",
+          "Zorra Total"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Kurosawa dirigiu Rashomon, fato amplamente documentado. O TMDB o cita como diretor. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A história se passa em 1912, conforme os trechos. Os distratores são anos plausíveis e errados. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A frase 'o personagem desta cena' é ambígua, porque a cena pode ter outros personagens além de Travis Bickle. Peço o protagonista do filme, que tem resposta única e não vaza.",
+      "reescrita": {
+        "pergunta": "Que ator interpreta o protagonista do filme desta cena?",
+        "resposta": "Robert De Niro",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A resposta está nos trechos. Os distratores são outros filmes do neorrealismo italiano, plausíveis e errados. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Miyazaki escreveu e dirigiu o filme, conforme o trecho. O enunciado não vaza e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A história se passa em 1962, nos anos 1960, conforme os trechos. A pergunta é precisa e não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Keanu Reeves interpreta Neo, conforme o trecho. Os distratores são atores plausíveis, e Hugo Weaving também está no filme, mas não interpreta o protagonista. O enunciado não vaza.",
+      "reescrita": null
+    }
+  ]
+}

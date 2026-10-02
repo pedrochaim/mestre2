@@ -1,0 +1,425 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Rocky, um Lutador",
+        "descricao": "Filme de boxe de 1976 sobre o pugilista Rocky Balboa, da Filadélfia.",
+        "variantes": [
+          "Rocky",
+          "Rocky Balboa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        },
+        {
+          "id": "grookey",
+          "nome": "Grookey",
+          "descricao": "Pokémon do tipo Planta, número 810 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mickey_mouse",
+          "nome": "Mickey Mouse",
+          "descricao": "Camundongo criado por Walt Disney e Ub Iwerks em 1928, mascote da Disney.",
+          "variantes": [
+            "Mickey",
+            "Rato Mickey"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pulp Fiction",
+        "descricao": "Filme de 1994 dirigido por Quentin Tarantino, sobre assassinos de aluguel e gângsteres em Los Angeles.",
+        "variantes": [
+          "Pulp Fiction: Tempo de Violência"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Twin Peaks",
+        "descricao": "Série de TV de mistério criada por David Lynch e Mark Frost, estreada em 1990.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tie_break",
+          "nome": "Tie-break",
+          "descricao": "Game de desempate usado no tênis para decidir um set empatado em seis games a seis.",
+          "variantes": [
+            "Tiebreak",
+            "Tie-breaker"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Rashomon",
+        "descricao": "Filme japonês de 1950 em que quatro testemunhos contraditórios narram um crime na floresta.",
+        "variantes": [
+          "Rashomon (1950)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "doraemon",
+          "nome": "Doraemon",
+          "descricao": "Gato-robô vindo do futuro, protagonista do mangá e anime de Fujiko F. Fujio.",
+          "variantes": [
+            "Doraemon (personagem)"
+          ]
+        },
+        {
+          "id": "viscose",
+          "nome": "Viscose",
+          "descricao": "Fibra têxtil artificial produzida a partir de celulose, também chamada raiom",
+          "variantes": [
+            "Raiom",
+            "Rayon",
+            "Seda artificial"
+          ]
+        },
+        {
+          "id": "lamen",
+          "nome": "Lámen",
+          "descricao": "Prato japonês de macarrão de trigo em caldo quente, com coberturas como chāshū, nori e narutomaki.",
+          "variantes": [
+            "Ramen",
+            "Rámen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Titanic",
+        "descricao": "Filme de 1997 dirigido por James Cameron, sobre um romance a bordo do transatlântico que naufragou em 1912.",
+        "variantes": [
+          "Titanic (1997)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rms_titanic",
+          "nome": "RMS Titanic",
+          "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+          "variantes": [
+            "Titanic"
+          ]
+        },
+        {
+          "id": "tintim",
+          "nome": "Tintim",
+          "descricao": "Jovem repórter belga criado por Hergé em 1929, protagonista de As Aventuras de Tintim",
+          "variantes": [
+            "Tintin"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Taxi Driver",
+        "descricao": "Filme de 1976 dirigido por Martin Scorsese, sobre um taxista veterano de guerra em Nova York.",
+        "variantes": [
+          "Taxi Driver: Motorista de Táxi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "ano_novo_chines",
+          "nome": "Ano-Novo Chinês",
+          "descricao": "Festa da virada do ano no calendário lunissolar chinês, também chamada Festa da Primavera.",
+          "variantes": [
+            "Festa da Primavera",
+            "Ano-Novo Lunar",
+            "Chinese New Year"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ladrões de Bicicleta",
+        "descricao": "Filme neorrealista italiano de 1948, dirigido por Vittorio De Sica, sobre um operário cuja bicicleta é roubada.",
+        "variantes": [
+          "Ladri di biciclette",
+          "Ladrão de Bicicletas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "diarios_de_motocicleta",
+          "nome": "Diários de Motocicleta",
+          "descricao": "Filme de 2004 sobre a viagem do jovem Ernesto Che Guevara pela América do Sul.",
+          "variantes": [
+            "The Motorcycle Diaries"
+          ]
+        },
+        {
+          "id": "duque_de_caxias",
+          "nome": "Duque de Caxias",
+          "descricao": "Luís Alves de Lima e Silva, militar do Império do Brasil, o Pacificador, patrono do Exército.",
+          "variantes": [
+            "Luís Alves de Lima e Silva",
+            "Barão de Caxias",
+            "Marquês de Caxias"
+          ]
+        },
+        {
+          "id": "catan",
+          "nome": "Catan",
+          "descricao": "Jogo de tabuleiro moderno de colonização de uma ilha com troca de recursos, criado por Klaus Teuber em 1995.",
+          "variantes": [
+            "Colonizadores de Catan",
+            "Die Siedler von Catan",
+            "Settlers of Catan"
+          ]
+        },
+        {
+          "id": "abridor_de_latas",
+          "nome": "Abridor de latas",
+          "descricao": "Utensílio de cozinha usado para abrir latas de conserva.",
+          "variantes": [
+            "Can opener"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "A Viagem de Chihiro",
+        "descricao": "Filme de animação japonês de 2001, do Studio Ghibli, sobre a menina Chihiro num mundo de espíritos.",
+        "variantes": [
+          "Spirited Away",
+          "Sen to Chihiro no Kamikakushi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_viagem_de_chihiro",
+          "nome": "A Viagem de Chihiro",
+          "descricao": "Filme de animação de 2001 de Hayao Miyazaki, produzido pelo Studio Ghibli.",
+          "variantes": [
+            "Spirited Away",
+            "Sen to Chihiro no Kamikakushi"
+          ]
+        },
+        {
+          "id": "a_mae_de_whistler",
+          "nome": "A Mãe de Whistler",
+          "descricao": "Quadro de James McNeill Whistler de 1871.",
+          "variantes": []
+        },
+        {
+          "id": "as_viagens_de_marco_polo",
+          "nome": "As Viagens de Marco Polo",
+          "descricao": "Relato das viagens de Marco Polo pela Ásia, escrito por Rustichello de Pisa por volta de 1300.",
+          "variantes": [
+            "O Livro das Maravilhas",
+            "Il Milione",
+            "The Travels of Marco Polo"
+          ]
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Matrix",
+        "descricao": "Filme de ficção científica de 1999, das irmãs Wachowski, sobre um programador que descobre viver numa realidade simulada.",
+        "variantes": [
+          "The Matrix"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "asterix",
+          "nome": "Asterix",
+          "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+          "variantes": []
+        },
+        {
+          "id": "mario",
+          "nome": "Mario",
+          "descricao": "Personagem encanador da Nintendo, mascote da empresa, criado por Shigeru Miyamoto.",
+          "variantes": [
+            "Super Mario",
+            "Mario Mario",
+            "Jumpman"
+          ]
+        },
+        {
+          "id": "atari",
+          "nome": "Atari",
+          "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney.",
+          "variantes": [
+            "Atari, Inc.",
+            "Atari Inc."
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "matrioska",
+          "nome": "Matrioska",
+          "descricao": "Conjunto russo de bonecas de madeira ocas que se encaixam umas dentro das outras.",
+          "variantes": [
+            "Matryoshka",
+            "Boneca russa"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Filme Rocky não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Filme distinto de pole position."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Série de TV sem candidata equivalente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Filme Rashomon não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Filme de 1997 é diferente do navio RMS Titanic."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Filme sem candidata equivalente."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Filme sem candidata equivalente."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "a_viagem_de_chihiro",
+      "motivo": "Mesmo filme de 2001 do Studio Ghibli, mesmas variantes."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Filme Matrix sem candidata equivalente."
+    }
+  ]
+}
