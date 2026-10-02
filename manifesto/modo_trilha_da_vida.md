@@ -29,6 +29,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 **Casas**
 - **"Vá trabalhar":** **1/4 das casas**. Sorteia uma pergunta aleatória de um dos **dois temas da profissão** de quem cai nela; a mesma casa dá perguntas diferentes para cada jogador. É o que dá peso à escolha da profissão.
 - **Casas de Ação:** temáticas, com um texto de "vida". Exemplo: "Vá ao Cinema", que dá uma pergunta de Cinema.
+  - **"Tire férias":** o jogador **não responde nesta rodada**; se **acertar na próxima**, anda 2 a mais. Leitura provisória: +2 casas além do dado (a confirmar; poderia ser o dobro do dado, ou exatamente 2 casas). Com ~65% de acerto, a casa sai mais ou menos neutra: a vez perdida vale cerca de 1,3 casa, e o bônus devolve cerca de 1,3.
 - **Casas de tema amplo:** a pergunta é de um tema inteiro, como no Master.
 - **Casas em Branco:** o jogador pode usar uma carta ou comprar uma carta. **Comprar é de graça.**
 
