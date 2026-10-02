@@ -39,6 +39,11 @@ img.mkdir(exist_ok=True)
 com_imagem = [p for p in saida if "imagem" in p]
 for p in com_imagem:
     shutil.copy2(BANCO / "imagens" / p["imagem"]["arquivo"], img / p["imagem"]["arquivo"])
+# Imagens de perguntas apagadas saem do site: senão continuariam publicadas, ainda que sem pergunta.
+em_uso = {p["imagem"]["arquivo"] for p in com_imagem}
+orfas = [f for f in img.iterdir() if f.is_file() and f.name not in em_uso]
+for f in orfas:
+    f.unlink()
 
 # Temas e subtemas na ordem canônica, com as descrições para os jogadores (aba Informações).
 canonicos = json.loads((AQUI.parent / "manifesto" / "temas_subtemas.json").read_text(encoding="utf-8"))
