@@ -31780,5 +31780,679 @@
       "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
       "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q01939",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "judo",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O que significa, ao pé da letra, o nome japonês da arte marcial judô?",
+    "resposta": "Caminho suave",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Jud%C3%B4",
+      "https://en.wikipedia.org/wiki/Judo"
+    ]
+  },
+  {
+    "id": "q01940",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "judo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1882, ao abrir o Instituto Kodokan em Tóquio, que educador japonês fundou o judô?",
+    "resposta": "Jigoro Kano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kan%C5%8D_Jigor%C5%8D",
+      "https://pt.wikipedia.org/wiki/Jud%C3%B4"
+    ]
+  },
+  {
+    "id": "q01941",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "carate",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Traduzido do japonês, o nome da arte marcial caratê quer dizer o quê?",
+    "resposta": "Mão vazia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carat%C3%AA",
+      "https://en.wikipedia.org/wiki/Karate"
+    ]
+  },
+  {
+    "id": "q01942",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "carate",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O caratê nasceu em que ilha, sede do antigo Reino de Ryukyu e hoje parte do Japão?",
+    "resposta": "Okinawa",
+    "distratores": [
+      "Hokkaido",
+      "Kyushu",
+      "Shikoku"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Karate",
+      "https://pt.wikipedia.org/wiki/Carat%C3%AA"
+    ]
+  },
+  {
+    "id": "q01943",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "kung_fu",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em chinês, a expressão kung fu não se refere só a lutas. O que ela significa originalmente?",
+    "resposta": "Habilidade adquirida com esforço",
+    "distratores": [
+      "Punho de ferro",
+      "Caminho do guerreiro",
+      "Força do tigre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kung_fu_(term)"
+    ]
+  },
+  {
+    "id": "q01944",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "muay_thai",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por permitir golpes com punhos, cotovelos, joelhos e canelas, o muay thai ganhou que apelido?",
+    "resposta": "Arte das oito armas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Muay_thai",
+      "https://en.wikipedia.org/wiki/Muay_Thai"
+    ]
+  },
+  {
+    "id": "q01945",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "yokozuna",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O título de yokozuna, o mais alto do sumô, deve o nome a que objeto amarrado à cintura do campeão?",
+    "resposta": "Uma corda",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yokozuna"
+    ]
+  },
+  {
+    "id": "q01946",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "eder_jofre",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Campeão mundial dos pesos-galo e dos pesos-pena, o paulistano Éder Jofre ficou eternizado por que apelido?",
+    "resposta": "Galo de Ouro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/%C3%89der_Jofre"
+    ]
+  },
+  {
+    "id": "q01947",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "mitsuyo_maeda",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O judoca japonês Mitsuyo Maeda, que viveu no Brasil, ficou famoso usando que título de nobreza?",
+    "resposta": "Conde Koma",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mitsuyo_Maeda",
+      "https://en.wikipedia.org/wiki/Mitsuyo_Maeda"
+    ]
+  },
+  {
+    "id": "q01948",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "mitsuyo_maeda",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1917, em que capital brasileira o jovem Carlos Gracie assistiu a uma demonstração de Mitsuyo Maeda e decidiu aprender judô?",
+    "resposta": "Belém",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mitsuyo_Maeda"
+    ]
+  },
+  {
+    "id": "q01949",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "krav_maga",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Adotado pelas forças armadas de Israel, o krav maga tem um nome hebraico que significa o quê?",
+    "resposta": "Combate de contato",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Krav_Maga"
+    ]
+  },
+  {
+    "id": "q01950",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "krav_maga",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na Bratislava dos anos 1930, o futuro criador do krav maga, Imi Lichtenfeld, usava seu treino de boxe e luta nas ruas com que objetivo?",
+    "resposta": "Defender judeus de grupos fascistas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Imi_Lichtenfeld",
+      "https://en.wikipedia.org/wiki/Krav_Maga"
+    ]
+  },
+  {
+    "id": "q01951",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "sensei",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Ao pé da letra, a palavra japonesa sensei, usada para tratar os mestres de artes marciais, significa o quê?",
+    "resposta": "Aquele que nasceu antes",
+    "distratores": [
+      "Mão que guia",
+      "Espírito do guerreiro",
+      "Coração sereno"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sensei"
+    ]
+  },
+  {
+    "id": "q01952",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "regras_do_marques_de_queensberry",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "As regras do boxe moderno, publicadas em Londres em 1867, levam o nome de que nobre britânico?",
+    "resposta": "Marquês de Queensberry",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marquess_of_Queensberry_Rules"
+    ]
+  },
+  {
+    "id": "q01953",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "ringue_de_boxe",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por que o espaço quadrado das lutas de boxe se chama ringue, palavra inglesa para anel?",
+    "resposta": "As lutas antigas eram num círculo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boxing_ring"
+    ]
+  },
+  {
+    "id": "q01954",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "sumo",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Antes de cada combate de sumô, por que os lutadores atiram sal sobre a arena?",
+    "resposta": "Para purificá-la",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sumo"
+    ]
+  },
+  {
+    "id": "q01955",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "muhammad_ali",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Aos doze anos, em Louisville, o futuro Muhammad Ali foi parar numa academia de boxe depois de que incidente?",
+    "resposta": "O roubo de sua bicicleta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Muhammad_Ali"
+    ]
+  },
+  {
+    "id": "q01956",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "holyfield_contra_tyson_ii",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1997, por que Mike Tyson foi desclassificado na revanche contra Evander Holyfield?",
+    "resposta": "Mordeu as orelhas do adversário",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Evander_Holyfield_vs._Mike_Tyson_II"
+    ]
+  },
+  {
+    "id": "q01957",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "helio_gracie",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a história da família, por que Hélio Gracie adaptou o jiu-jítsu para depender mais de alavancas que de força?",
+    "resposta": "Era franzino e fisicamente frágil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/H%C3%A9lio_Gracie",
+      "https://pt.wikipedia.org/wiki/H%C3%A9lio_Gracie"
+    ]
+  },
+  {
+    "id": "q01958",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "luta_da_longa_contagem",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na revanche de 1927 entre Gene Tunney e Jack Dempsey, por que o juiz demorou a contar quando Tunney caiu?",
+    "resposta": "Dempsey não foi ao canto neutro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Long_Count_Fight"
+    ]
+  },
+  {
+    "id": "q01959",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "ufc_1",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O primeiro evento do UFC, em 1993, foi organizado para tirar que dúvida entre praticantes de lutas?",
+    "resposta": "Qual arte marcial era a mais eficaz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/UFC_1"
+    ]
+  },
+  {
+    "id": "q01960",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "ufc_1",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Finalizando adversários bem mais pesados, que brasileiro foi o campeão do primeiro UFC, em 1993?",
+    "resposta": "Royce Gracie",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/UFC_1",
+      "https://en.wikipedia.org/wiki/Royce_Gracie"
+    ]
+  },
+  {
+    "id": "q01961",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "joe_louis_contra_max_schmeling",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Por que a revanche entre Joe Louis e Max Schmeling, em 1938, virou um símbolo político?",
+    "resposta": "EUA contra Alemanha nazista",
+    "distratores": [
+      "Disputa por vaga olímpica",
+      "Arrecadação para veteranos",
+      "Pedido de paz europeu"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joe_Louis_vs._Max_Schmeling"
+    ]
+  },
+  {
+    "id": "q01962",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "rocky_um_lutador",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Sylvester Stallone escreveu o roteiro de Rocky em poucos dias, logo depois de assistir a que luta de 1975 pelo título dos pesos-pesados?",
+    "resposta": "Muhammad Ali contra Chuck Wepner",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rocky",
+      "https://en.wikipedia.org/wiki/Chuck_Wepner"
+    ]
+  },
+  {
+    "id": "q01963",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "masahiko_kimura",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A chave de braço chamada kimura homenageia um judoca japonês que, em 1951, no Maracanã, derrotou que lutador brasileiro?",
+    "resposta": "Hélio Gracie",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Masahiko_Kimura"
+    ]
+  },
+  {
+    "id": "q01964",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "jiu_jitsu_brasileiro",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Apesar do nome, o jiu-jítsu brasileiro deriva diretamente de que outra arte marcial japonesa, trazida ao país no começo do século vinte?",
+    "resposta": "Judô",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazilian_jiu-jitsu"
+    ]
+  },
+  {
+    "id": "q01965",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "ip_man",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que estilo de kung fu liga o mestre chinês Ip Man ao seu aluno mais famoso, Bruce Lee?",
+    "resposta": "Wing Chun",
+    "distratores": [
+      "Tai chi chuan",
+      "Garra de Águia",
+      "Louva-a-deus"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ip_Man",
+      "https://en.wikipedia.org/wiki/Bruce_Lee"
+    ]
+  },
+  {
+    "id": "q01966",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "grill_george_foreman",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Duas vezes campeão dos pesos-pesados, George Foreman emprestou o nome a que eletrodoméstico, lançado em 1994 e vendido aos milhões?",
+    "resposta": "Grelha elétrica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_Foreman_Grill"
+    ]
+  },
+  {
+    "id": "q01967",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "george_foreman",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O boxeador George Foreman deu o próprio nome, George, a quantos de seus filhos homens?",
+    "resposta": "Cinco",
+    "distratores": [
+      "Dois",
+      "Três",
+      "Quatro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_Foreman"
+    ]
+  },
+  {
+    "id": "q01968",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "kill_bill_volume_1",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O macacão amarelo com faixas pretas usado por Uma Thurman em Kill Bill homenageia que astro das artes marciais?",
+    "resposta": "Bruce Lee",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kill_Bill:_Volume_1"
+    ]
+  },
+  {
+    "id": "q01969",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "mike_tyson_s_punch_out",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "No videogame de oito bits da Nintendo, o jogo de boxe Punch-Out trazia como último adversário que campeão real?",
+    "resposta": "Mike Tyson",
+    "distratores": [
+      "Evander Holyfield",
+      "George Foreman",
+      "Larry Holmes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Punch-Out!!_(NES)"
+    ]
+  },
+  {
+    "id": "q01970",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "ronda_rousey",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar estrela do UFC, a americana Ronda Rousey ganhou medalha olímpica em que esporte?",
+    "resposta": "Judô",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ronda_Rousey"
+    ]
+  },
+  {
+    "id": "q01971",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "jackie_chan",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Na infância, Jackie Chan estudou por anos numa escola de que arte cênica chinesa, onde aprendeu acrobacias e luta?",
+    "resposta": "Ópera de Pequim",
+    "distratores": [
+      "Teatro de sombras",
+      "Dança do leão",
+      "Teatro de marionetes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jackie_Chan"
+    ]
+  },
+  {
+    "id": "q01972",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "jake_lamotta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que boxeador americano, apelidado de Touro do Bronx, foi interpretado por Robert De Niro em Touro Indomável?",
+    "resposta": "Jake LaMotta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jake_LaMotta",
+      "https://en.wikipedia.org/wiki/Raging_Bull"
+    ]
+  },
+  {
+    "id": "q01973",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "karate_kid",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No filme Karatê Kid, de 1984, o Sr. Miyagi treina Daniel mandando-o fazer que tarefa repetitiva nos carros?",
+    "resposta": "Passar e tirar cera",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Karate_Kid"
+    ]
+  },
+  {
+    "id": "q01974",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "capoeira",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A capoeira virou crime no Código Penal criado logo após a Proclamação da República. De que ano é esse código?",
+    "resposta": "1890",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Capoeira",
+      "https://en.wikipedia.org/wiki/Capoeira"
+    ]
+  },
+  {
+    "id": "q01975",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "roda_de_capoeira",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na roda de capoeira, que instrumento de arco e cabaça comanda o ritmo e o tipo de jogo?",
+    "resposta": "Berimbau",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Berimbau",
+      "https://en.wikipedia.org/wiki/Capoeira"
+    ]
+  },
+  {
+    "id": "q01976",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "judo_nos_jogos_olimpicos_de_1964",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na estreia do judô olímpico, em Tóquio, em 1964, que holandês venceu a categoria livre e silenciou a torcida japonesa?",
+    "resposta": "Anton Geesink",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Judo_at_the_1964_Summer_Olympics",
+      "https://en.wikipedia.org/wiki/Anton_Geesink"
+    ]
+  },
+  {
+    "id": "q01977",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "aurelio_miguel",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1988, Aurélio Miguel conquistou o primeiro ouro olímpico do judô brasileiro em que cidade?",
+    "resposta": "Seul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Aur%C3%A9lio_Miguel",
+      "https://en.wikipedia.org/wiki/Aur%C3%A9lio_Miguel"
+    ]
+  },
+  {
+    "id": "q01978",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "rafaela_silva",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A judoca Rafaela Silva cresceu e começou a treinar em que comunidade carioca, que também dá nome a um filme famoso?",
+    "resposta": "Cidade de Deus",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rafaela_Silva",
+      "https://en.wikipedia.org/wiki/Rafaela_Silva"
+    ]
+  },
+  {
+    "id": "q01979",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "rumble_in_the_jungle",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1974, Muhammad Ali recuperou o cinturão dos pesos-pesados nocauteando George Foreman em que cidade africana?",
+    "resposta": "Kinshasa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Rumble_in_the_Jungle"
+    ]
+  },
+  {
+    "id": "q01980",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "bruce_lee",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Astro do cinema de Hong Kong, Bruce Lee nasceu em 1940 em que cidade americana?",
+    "resposta": "São Francisco",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bruce_Lee"
+    ]
+  },
+  {
+    "id": "q01981",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "robson_conceicao",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O baiano Robson Conceição deu ao Brasil o primeiro ouro olímpico do boxe em que ano?",
+    "resposta": "2016",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Robson_Concei%C3%A7%C3%A3o",
+      "https://en.wikipedia.org/wiki/Robson_Concei%C3%A7%C3%A3o"
+    ]
+  },
+  {
+    "id": "q01982",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "boxe_nos_jogos_olimpicos_de_2012",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Depois de mais de um século de boxe só masculino, em que edição dos Jogos Olímpicos as mulheres estrearam no ringue?",
+    "resposta": "Londres 2012",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Boxing_at_the_2012_Summer_Olympics"
+    ]
+  },
+  {
+    "id": "q01983",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "pancracio",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O pancrácio, luta dos Jogos Olímpicos da Grécia Antiga, combinava técnicas de que duas modalidades?",
+    "resposta": "Boxe e luta livre",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pankration"
+    ]
+  },
+  {
+    "id": "q01984",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "shinai",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No kendô, a esgrima japonesa, a espada usada em treinos e combates, chamada shinai, é feita tradicionalmente de quê?",
+    "resposta": "Bambu",
+    "distratores": [
+      "Carvalho",
+      "Aço",
+      "Cerâmica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shinai"
+    ]
+  },
+  {
+    "id": "q01985",
+    "tema": "Esportes",
+    "subtema": "Lutas e Artes Marciais",
+    "ancora": "nocaute",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "No boxe, até quanto o árbitro conta antes de declarar nocauteado um lutador que caiu?",
+    "resposta": "Dez",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Knockout"
+    ]
   }
 ]

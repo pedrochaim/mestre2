@@ -1,0 +1,101 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Antes de cada combate de sumô, por que os lutadores atiram sal sobre a arena?",
+        "resposta": "Para purificá-la"
+      },
+      "existentes": [
+        {
+          "id": "q00517",
+          "pergunta": "Que esporte é este?",
+          "resposta": "Sumô"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Aos doze anos, em Louisville, o futuro Muhammad Ali foi parar numa academia de boxe depois de que incidente?",
+        "resposta": "O roubo de sua bicicleta"
+      },
+      "existentes": [
+        {
+          "id": "q00539",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Muhammad Ali"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Sylvester Stallone escreveu o roteiro de Rocky em poucos dias, logo depois de assistir a que luta de 1975 pelo título dos pesos-pesados?",
+        "resposta": "Muhammad Ali contra Chuck Wepner"
+      },
+      "existentes": [
+        {
+          "id": "q01927",
+          "pergunta": "Que ator interpreta o boxeador desta imagem?",
+          "resposta": "Sylvester Stallone"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em Salvador, na primeira metade do século vinte, que mestre baiano criou o estilo conhecido como capoeira regional?",
+        "resposta": "Mestre Bimba"
+      },
+      "existentes": [
+        {
+          "id": "q00336",
+          "pergunta": "Nos anos de 1930, em Salvador, que mestre criou a capoeira regional, de método de ensino próprio?",
+          "resposta": "Mestre Bimba"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A judoca Rafaela Silva cresceu e começou a treinar em que comunidade carioca, que também dá nome a um filme famoso?",
+        "resposta": "Cidade de Deus"
+      },
+      "existentes": [
+        {
+          "id": "q01671",
+          "pergunta": "Quem é esta judoca brasileira, campeã olímpica no Rio de Janeiro em 2016?",
+          "resposta": "Rafaela Silva"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente pergunta o nome do esporte; a nova pergunta o motivo do sal."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Existente identifica o atleta; a nova trata de como ele começou no boxe."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Existente identifica o ator; a nova trata da luta que inspirou o roteiro."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem criou a capoeira regional, com resposta Mestre Bimba."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Existente identifica a judoca; a nova pergunta a comunidade onde ela cresceu."
+    }
+  ]
+}
