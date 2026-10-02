@@ -1,0 +1,179 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de corpo inteiro com chifre da cabeça e cauda em chama, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui em qual?",
+      "resposta": "Charizard",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Charmeleon",
+        "descricao": "Pokémon de fogo, forma intermediária de Charmander, número 5 da Pokédex Nacional.",
+        "variantes": [
+          "Charmeleon (Pokémon)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Corpo serpentiforme de pedras com chifre, silhueta característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui em qual?",
+      "resposta": "Steelix",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Onix",
+        "descricao": "Pokémon serpente de pedra da primeira geração, número 95 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Silhueta com corpo em gota, asinhas e cauda pontuda; distinta o bastante, e múltipla escolha ajuda por ser menos conhecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dunsparce",
+      "distratores": [
+        "Wooper",
+        "Gulpin",
+        "Barboach"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Dunsparce",
+        "descricao": "Pokémon da segunda geração com corpo de serpente alada e cauda em broca, número 206 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta de morcego sem olhos, com asas e orelhas, clara.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui em qual?",
+      "resposta": "Golbat",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Zubat",
+        "descricao": "Pokémon morcego de veneno e voador da primeira geração, número 41 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Silhueta é uma massa arredondada sem traços característicos, confundível com outros pokémon robustos."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cabeça com antena curva e braço com martelo, silhueta distintiva.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui em qual?",
+      "resposta": "Tinkatuff",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Tinkatink",
+        "descricao": "Pokémon de fada e aço da nona geração que carrega um martelo, número 957 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Raposa de caudas em leque, forma reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Vulpix",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Vulpix",
+        "descricao": "Pokémon raposa de fogo da primeira geração, número 37 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Silhueta é um círculo com dois pés, sem forma característica; confundível com outros pokémon redondos."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Orelhas redondas, bigodes e cauda em estrela, silhueta bem característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Dedenne",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Dedenne",
+        "descricao": "Pokémon rato elétrico e de fada da sexta geração, número 702 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Silhueta é uma mancha amorfa, sem forma característica; poderia ser outros pokémon gelatinosos."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cabeça com crina em chama e cauda, silhueta aceitável de raposa de corpo felpudo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este pokémon evolui em qual?",
+      "resposta": "Zoroark",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Zorua",
+        "descricao": "Pokémon raposa de trevas da quinta geração, número 570 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Camaleão com crista e cauda em espiral, silhueta marcante. Kecleon não evolui, então a pergunta é o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Kecleon",
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Kecleon",
+        "descricao": "Pokémon camaleão que muda de cor, da terceira geração, número 352 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}
