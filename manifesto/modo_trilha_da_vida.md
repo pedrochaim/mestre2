@@ -12,6 +12,11 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 ## Decidido pelo autor
 
+**Número de jogadores:** o jogo precisa funcionar **sem prejuízo com 3 ou 4 jogadores**. Toda regra é conferida contra esse requisito:
+- nada de duplas ou pares fixos, porque com 3 alguém sempre sobraria;
+- uma carta ou casa que mira um oponente não pode favorecer dois jogadores contra o terceiro; com 3, o mesmo jogador vira alvo com frequência, e convém um limite (por exemplo, não mirar o mesmo jogador duas vezes seguidas);
+- trilha e fim de jogo medidos em **rodadas**, para a partida durar parecido com 3 ou 4.
+
 **Começo do jogo**
 - Cada jogador **escolhe uma profissão** e **compra uma carta**.
 - A profissão é uma **combinação de 2 temas** mais um **perk**, uma habilidade que modifica o jogo para quem a tem.
@@ -66,6 +71,8 @@ O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser
    - **errar faz o oponente voltar** casas, e a carta vira ataque;
    - usar quando você está **parado** e precisa que alguém acerte para você andar;
    - ela é **cooperativa** de propósito.
+
+   Com 3 jogadores, a versão cooperativa é a mais arriscada: quem joga a carta e quem acerta andam juntos, e o terceiro fica para trás. As versões de ataque ou de destravar não dependem do número de jogadores.
 2. **Objetivo e fim:** sem patrimônio, vence quem chega primeiro? Ou há pontos de outra coisa, como cartas, casas especiais ou conquistas por fase?
 3. **Os 2 temas da profissão:** que efeito têm no jogo, além do perk?
 4. **Duração:** uma trilha de ~60 casas dá cerca de 1 hora com 4 jogadores.
