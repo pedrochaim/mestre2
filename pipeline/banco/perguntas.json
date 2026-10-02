@@ -40930,5 +40930,260 @@
       "autor": "Sailko",
       "licenca": "CC BY 3.0"
     }
+  },
+  {
+    "id": "q02457",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "carrapato",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A que grupo de animais pertence este bicho?",
+    "resposta": "Aracnídeos",
+    "distratores": [
+      "Insetos",
+      "Crustáceos",
+      "Miriápodes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tick",
+      "https://pt.wikipedia.org/wiki/Carrapato"
+    ],
+    "imagem": {
+      "arquivo": "q02457.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Adult_deer_tick.jpg",
+      "autor": "Photo by Scott Bauer.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02458",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "borboleta_asa_de_vidro",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Esta borboleta consegue carregar cerca de quantas vezes o próprio peso?",
+    "resposta": "Quarenta vezes",
+    "distratores": [
+      "Cinco vezes",
+      "Vinte vezes",
+      "Cem vezes"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greta_oto",
+      "https://pt.wikipedia.org/wiki/Borboleta-asa-de-vidro"
+    ],
+    "imagem": {
+      "arquivo": "q02458.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Greta_oto.jpg",
+      "autor": "David Tiller",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02459",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "abelha",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que inseto é este?",
+    "resposta": "Abelha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "https://pt.wikipedia.org/wiki/Abelha-europeia"
+    ],
+    "imagem": {
+      "arquivo": "q02459.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:(MHNT)_Apis_mellifera_(female)_-_on_viburnum_tinus_flowers.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02460",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "lacraia",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "A que grupo de animais pertence este bicho?",
+    "resposta": "Miriápodes (quilópodes)",
+    "distratores": [
+      "Insetos",
+      "Aracnídeos",
+      "Crustáceos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Centipede",
+      "https://pt.wikipedia.org/wiki/Quil%C3%B3pode"
+    ],
+    "imagem": {
+      "arquivo": "q02460.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lithobius_forficatus.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02461",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "besouro_arlequim",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que besouro é este?",
+    "resposta": "Besouro-arlequim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harlequin_beetle",
+      "https://pt.wikipedia.org/wiki/Acrocinus_longimanus"
+    ],
+    "imagem": {
+      "arquivo": "q02461.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Acrocinus_longimanus_MHNT_femelle.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02462",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "borboleta_monarca",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que borboleta é esta?",
+    "resposta": "Borboleta-monarca",
+    "distratores": [
+      "Borboleta-vice-rei",
+      "Borboleta-rainha",
+      "Borboleta-julia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monarch_butterfly",
+      "https://pt.wikipedia.org/wiki/Borboleta-monarca"
+    ],
+    "imagem": {
+      "arquivo": "q02462.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Danaus_plexippus_MHNT_femelle.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02463",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "cupim",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Estes insetos evoluíram a partir de qual outro grupo de insetos?",
+    "resposta": "Baratas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Termite",
+      "https://pt.wikipedia.org/wiki/Is%C3%B3pteros"
+    ],
+    "imagem": {
+      "arquivo": "q02463.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Coptotermes_formosanus_shiraki_USGov_k8204-7.jpg",
+      "autor": "Photo by Scott Bauer.",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02464",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "besouro_tita",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que besouro é este?",
+    "resposta": "Besouro-titã",
+    "distratores": [
+      "Besouro-arlequim",
+      "Besouro-hércules",
+      "Besouro-golias"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Titan_beetle",
+      "https://pt.wikipedia.org/wiki/Titanus_giganteus"
+    ],
+    "imagem": {
+      "arquivo": "q02464.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Titanus_giganteus_MHNT.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02465",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "louva_a_deus",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que inseto é este?",
+    "resposta": "Louva-a-deus",
+    "distratores": [
+      "Bicho-pau",
+      "Esperança",
+      "Gafanhoto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mantis",
+      "https://pt.wikipedia.org/wiki/Louva-a-deus"
+    ],
+    "imagem": {
+      "arquivo": "q02465.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mantis_religiosa_MHNT_entière.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02466",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "grilo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que inseto é este?",
+    "resposta": "Grilo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cricket_%28insect%29",
+      "https://pt.wikipedia.org/wiki/Grilo"
+    ],
+    "imagem": {
+      "arquivo": "q02466.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Crickets_feeding_on_carrot.jpg",
+      "autor": "Sean Wallace",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02467",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "paquinha",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este inseto escavador é parente próximo de qual destes?",
+    "resposta": "Grilo",
+    "distratores": [
+      "Formiga",
+      "Besouro",
+      "Libélula"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mole_cricket",
+      "https://pt.wikipedia.org/wiki/Grilotalp%C3%ADdeos"
+    ],
+    "imagem": {
+      "arquivo": "q02467.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mole_cricket02.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "GFDL 1.2"
+    }
   }
 ]

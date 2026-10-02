@@ -1,0 +1,634 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Carrapato",
+        "descricao": "Aracnídeo parasita da ordem Ixodida, que se alimenta de sangue de mamíferos, aves e outros vertebrados.",
+        "variantes": [
+          "Ixodida",
+          "Ixodes"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "krakatoa",
+          "nome": "Krakatoa",
+          "descricao": "Ilha vulcânica no estreito de Sunda, na Indonésia, cuja erupção de 1883 foi uma das mais violentas da história.",
+          "variantes": [
+            "Krakatau",
+            "Cracatoa"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "carate",
+          "nome": "Caratê",
+          "descricao": "Arte marcial de golpes de mãos e pés surgida em Okinawa, hoje parte do Japão.",
+          "variantes": [
+            "Karatê",
+            "Karate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Borboleta-asa-de-vidro",
+        "descricao": "Borboleta da América Central e do Norte da América do Sul (Greta oto), de asas transparentes.",
+        "variantes": [
+          "Greta oto",
+          "glasswing"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_otelo",
+          "nome": "Grande Otelo",
+          "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia, parceiro de Oscarito no cinema.",
+          "variantes": [
+            "Sebastião Bernardes de Souza Prata",
+            "Othelo"
+          ]
+        },
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Abelha",
+        "descricao": "Abelha-europeia (Apis mellifera), inseto social produtor de mel e polinizador.",
+        "variantes": [
+          "Abelha-europeia",
+          "Apis mellifera",
+          "abelha-melífera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        },
+        {
+          "id": "utopia",
+          "nome": "Utopia",
+          "descricao": "Ilha imaginária com uma sociedade ideal, descrita no livro de mesmo nome publicado em 1516.",
+          "variantes": [
+            "Utopia (livro)",
+            "Ilha de Utopia"
+          ]
+        },
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        },
+        {
+          "id": "american_basketball_association",
+          "nome": "American Basketball Association",
+          "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976.",
+          "variantes": [
+            "ABA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lacraia",
+        "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+        "variantes": [
+          "Centopeia",
+          "Quilópode",
+          "Chilopoda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "lycra",
+          "nome": "Lycra",
+          "descricao": "Fibra sintética elástica, também chamada elastano ou spandex",
+          "variantes": [
+            "Elastano",
+            "Spandex"
+          ]
+        },
+        {
+          "id": "utopia",
+          "nome": "Utopia",
+          "descricao": "Ilha imaginária com uma sociedade ideal, descrita no livro de mesmo nome publicado em 1516.",
+          "variantes": [
+            "Utopia (livro)",
+            "Ilha de Utopia"
+          ]
+        },
+        {
+          "id": "maria_leopoldina_da_austria",
+          "nome": "Maria Leopoldina da Áustria",
+          "descricao": "Arquiduquesa austríaca, primeira esposa de Dom Pedro I e primeira imperatriz do Brasil.",
+          "variantes": [
+            "Imperatriz Leopoldina",
+            "Leopoldina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Borboleta-monarca",
+        "descricao": "Borboleta norte-americana (Danaus plexippus) de asas laranja, pretas e brancas, famosa pela migração anual.",
+        "variantes": [
+          "Monarca",
+          "Danaus plexippus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moncao",
+          "nome": "Monção",
+          "descricao": "Regime sazonal de ventos que inverte de direção e traz chuvas fortes ao sul da Ásia",
+          "variantes": [
+            "Monções",
+            "Monsoon"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "orca",
+          "nome": "Orca",
+          "descricao": "Cetáceo dentado preto e branco, o maior membro da família dos golfinhos oceânicos (Orcinus orca).",
+          "variantes": [
+            "Baleia-assassina",
+            "Orcinus orca"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "bolo_da_lua",
+          "nome": "Bolo da lua",
+          "descricao": "Bolo chinês redondo e recheado, tradicionalmente oferecido e comido numa festa do calendário lunar",
+          "variantes": [
+            "Mooncake",
+            "Yuebing"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Cupim",
+        "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+        "variantes": [
+          "Térmita",
+          "Isoptera",
+          "formiga-branca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "bateria",
+          "nome": "Bateria",
+          "descricao": "Instrumento musical de percussão formado por tambores e pratos tocados por um único músico.",
+          "variantes": [
+            "Bateria acústica",
+            "Drum kit"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "formiga",
+          "nome": "Formiga",
+          "descricao": "Miraildes Maciel Mota, volante da seleção brasileira feminina entre 1995 e 2021.",
+          "variantes": [
+            "Miraildes Maciel Mota"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Besouro-titã",
+        "descricao": "Besouro cerambicídeo neotropical (Titanus giganteus), um dos maiores insetos conhecidos.",
+        "variantes": [
+          "Titanus giganteus",
+          "titan beetle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tatu_canastra",
+          "nome": "Tatu-canastra",
+          "descricao": "Maior espécie viva de tatu (Priodontes maximus), sul-americano, que se alimenta sobretudo de cupins.",
+          "variantes": [
+            "Tatu-gigante",
+            "Tatu-carreta",
+            "Priodontes maximus"
+          ]
+        },
+        {
+          "id": "panda_gigante",
+          "nome": "Panda-gigante",
+          "descricao": "Urso preto e branco da China, espécie Ailuropoda melanoleuca.",
+          "variantes": [
+            "Ailuropoda melanoleuca",
+            "Giant panda",
+            "Panda"
+          ]
+        },
+        {
+          "id": "ariranha",
+          "nome": "Ariranha",
+          "descricao": "Lontra gigante dos rios da América do Sul, espécie Pteronura brasiliensis.",
+          "variantes": [
+            "Pteronura brasiliensis",
+            "Giant otter",
+            "Lontra-gigante"
+          ]
+        },
+        {
+          "id": "istambul",
+          "nome": "Istambul",
+          "descricao": "Maior cidade da Turquia, às margens do Bósforo.",
+          "variantes": [
+            "Istanbul",
+            "Constantinopla"
+          ]
+        },
+        {
+          "id": "stan_lee",
+          "nome": "Stan Lee",
+          "descricao": "Roteirista e editor americano da Marvel, cocriador do Homem-Aranha, do Hulk e do Quarteto Fantástico",
+          "variantes": [
+            "Stanley Lieber"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Louva-a-deus",
+        "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+        "variantes": [
+          "Mantodea",
+          "Mantis",
+          "Mantídeo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_boi_marinho",
+          "nome": "Peixe-boi-marinho",
+          "descricao": "Grande mamífero aquático herbívoro (Trichechus manatus) das costas quentes das Américas.",
+          "variantes": [
+            "Peixe-boi",
+            "Trichechus manatus",
+            "Manati"
+          ]
+        },
+        {
+          "id": "os_mutantes",
+          "nome": "Os Mutantes",
+          "descricao": "Banda de rock paulistana ligada à Tropicália, formada em 1966.",
+          "variantes": [
+            "Mutantes"
+          ]
+        },
+        {
+          "id": "atlantida",
+          "nome": "Atlântida",
+          "descricao": "Ilha lendária que, segundo um relato da Grécia Antiga, teria sido engolida pelo mar.",
+          "variantes": [
+            "Atlantis"
+          ]
+        },
+        {
+          "id": "soro_antiofidico",
+          "nome": "Soro antiofídico",
+          "descricao": "Soro usado para neutralizar o veneno de picadas de cobra.",
+          "variantes": [
+            "Antiveneno",
+            "Soro antiveneno",
+            "Antivenom"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Grilo",
+        "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+        "variantes": [
+          "Gryllidae",
+          "Grylloidea",
+          "cricket"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        },
+        {
+          "id": "gringo",
+          "nome": "Gringo",
+          "descricao": "Palavra usada no Brasil e na América Latina para designar estrangeiros",
+          "variantes": []
+        },
+        {
+          "id": "gorila",
+          "nome": "Gorila",
+          "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+          "variantes": [
+            "Gorila-ocidental",
+            "Gorilla gorilla",
+            "Western gorilla"
+          ]
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream"
+          ]
+        },
+        {
+          "id": "criquete",
+          "nome": "Críquete",
+          "descricao": "Esporte de bastão e bola, muito popular na Inglaterra, na Índia e na Austrália.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Paquinha",
+        "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+        "variantes": [
+          "Grilo-toupeira",
+          "Gryllotalpidae",
+          "mole cricket"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pao_frances",
+          "nome": "Pão francês",
+          "descricao": "Pão de sal de casca crocante e miolo macio, o mais consumido no café da manhã brasileiro",
+          "variantes": [
+            "Cacetinho",
+            "Pão de sal",
+            "Carioquinha"
+          ]
+        },
+        {
+          "id": "rato_toupeira_pelado",
+          "nome": "Rato-toupeira-pelado",
+          "descricao": "Roedor africano subterrâneo, sem pelos e eussocial (Heterocephalus glaber).",
+          "variantes": [
+            "Heterocephalus glaber",
+            "Rato-toupeira-nu"
+          ]
+        },
+        {
+          "id": "forca_expedicionaria_brasileira",
+          "nome": "Força Expedicionária Brasileira",
+          "descricao": "Força militar brasileira que lutou ao lado dos Aliados na campanha da Itália, entre 1944 e 1945.",
+          "variantes": [
+            "FEB",
+            "Brazilian Expeditionary Force",
+            "Pracinhas"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos"
+          ]
+        },
+        {
+          "id": "cajuina",
+          "nome": "Cajuína",
+          "descricao": "Bebida sem álcool feita de suco de caju clarificado e cozido, típica do Nordeste brasileiro",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o carrapato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a borboleta Greta oto."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a abelha-europeia."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a lacraia/centopeia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a borboleta-monarca."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cupim; 'Formiga' é uma jogadora."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o besouro-titã."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o louva-a-deus."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Críquete é o esporte, não o inseto grilo."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o grilo-toupeira."
+    }
+  ]
+}

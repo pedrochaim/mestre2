@@ -1,0 +1,259 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Imagem de um adulto recém-emerge ao lado da exúvia, com asa ainda murcha; difícil distinguir libélula de donzelinha (Zygoptera), então a resposta não é única nem reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de carrapato (Ixodes), fundo de folha sem texto.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "A que grupo de animais pertence este bicho?",
+      "resposta": "Aracnídeos",
+      "distratores": [
+        "Insetos",
+        "Crustáceos",
+        "Miriápodes"
+      ],
+      "ancora": {
+        "nome": "Carrapato",
+        "descricao": "Aracnídeo parasita da ordem Ixodida, que se alimenta de sangue de mamíferos, aves e outros vertebrados.",
+        "variantes": [
+          "Ixodida",
+          "Ixodes"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara da borboleta de asas transparentes, sem texto; o fato do peso é sustentado pelo trecho.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Esta borboleta consegue carregar cerca de quantas vezes o próprio peso?",
+      "resposta": "Quarenta vezes",
+      "distratores": [
+        "Cinco vezes",
+        "Vinte vezes",
+        "Cem vezes"
+      ],
+      "ancora": {
+        "nome": "Borboleta-asa-de-vidro",
+        "descricao": "Borboleta da América Central e do Norte da América do Sul (Greta oto), de asas transparentes.",
+        "variantes": [
+          "Greta oto",
+          "glasswing"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Abelha melífera nítida em flores, com pólen na pata; reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que inseto é este?",
+      "resposta": "Abelha",
+      "ancora": {
+        "nome": "Abelha",
+        "descricao": "Abelha-europeia (Apis mellifera), inseto social produtor de mel e polinizador.",
+        "variantes": [
+          "Abelha-europeia",
+          "Apis mellifera",
+          "abelha-melífera"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de centopeia sobre fundo claro, sem texto.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "A que grupo de animais pertence este bicho?",
+      "resposta": "Miriápodes (quilópodes)",
+      "distratores": [
+        "Insetos",
+        "Aracnídeos",
+        "Crustáceos"
+      ],
+      "ancora": {
+        "nome": "Lacraia",
+        "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+        "variantes": [
+          "Centopeia",
+          "Quilópode",
+          "Chilopoda"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Espécime de museu em vista dorsal, padrão inconfundível; só aparece uma escala de 1 cm, que não entrega a resposta.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que besouro é este?",
+      "resposta": "Besouro-arlequim",
+      "ancora": {
+        "nome": "Besouro-arlequim",
+        "descricao": "Grande besouro cerambicídeo neotropical (Acrocinus longimanus), de padrão preto, laranja e amarelo-esverdeado e patas dianteiras muito longas.",
+        "variantes": [
+          "Acrocinus longimanus",
+          "harlequin beetle"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Espécime em vistas dorsal e ventral, mesma espécie, padrão reconhecível; só escala de 1 cm.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que borboleta é esta?",
+      "resposta": "Borboleta-monarca",
+      "distratores": [
+        "Borboleta-vice-rei",
+        "Borboleta-rainha",
+        "Borboleta-tigre"
+      ],
+      "ancora": {
+        "nome": "Borboleta-monarca",
+        "descricao": "Borboleta norte-americana (Danaus plexippus) de asas laranja, pretas e brancas, famosa pela migração anual.",
+        "variantes": [
+          "Monarca",
+          "Danaus plexippus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Muitos cupins de uma mesma espécie, nítidos, sem texto.",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "destino": 0,
+      "pergunta": "Estes insetos evoluíram a partir de qual outro grupo de insetos?",
+      "resposta": "Baratas",
+      "ancora": {
+        "nome": "Cupim",
+        "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+        "variantes": [
+          "Térmita",
+          "Isoptera",
+          "formiga-branca"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Três espécimes da mesma espécie sobre fundo branco, com escala de 1 cm apenas; forma reconhecível mas pouco conhecida, então múltipla escolha.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que besouro é este?",
+      "resposta": "Besouro-titã",
+      "distratores": [
+        "Besouro-arlequim",
+        "Besouro-hércules",
+        "Besouro-golias"
+      ],
+      "ancora": {
+        "nome": "Besouro-titã",
+        "descricao": "Besouro cerambicídeo neotropical (Titanus giganteus), um dos maiores insetos conhecidos.",
+        "variantes": [
+          "Titanus giganteus",
+          "titan beetle"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Louva-a-deus verde nítido, de perfil, sem texto.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Que inseto é este?",
+      "resposta": "Louva-a-deus",
+      "distratores": [
+        "Bicho-pau",
+        "Esperança",
+        "Gafanhoto"
+      ],
+      "ancora": {
+        "nome": "Louva-a-deus",
+        "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+        "variantes": [
+          "Mantodea",
+          "Mantis",
+          "Mantídeo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Dois grilos da mesma espécie, de frente, reconhecíveis; sem texto.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "pergunta": "Que inseto é este?",
+      "resposta": "Grilo",
+      "ancora": {
+        "nome": "Grilo",
+        "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+        "variantes": [
+          "Gryllidae",
+          "Grylloidea",
+          "cricket"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto lateral nítida sobre fundo branco, com as patas dianteiras em pá bem visíveis.",
+      "tipo": "multipla",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "destino": 0,
+      "pergunta": "Este inseto escavador é parente próximo de qual destes?",
+      "resposta": "Grilo",
+      "distratores": [
+        "Formiga",
+        "Besouro",
+        "Libélula"
+      ],
+      "ancora": {
+        "nome": "Paquinha",
+        "descricao": "Inseto escavador da família Gryllotalpidae, ortóptero de patas dianteiras em forma de pá.",
+        "variantes": [
+          "Grilo-toupeira",
+          "Gryllotalpidae",
+          "mole cricket"
+        ]
+      }
+    }
+  ]
+}

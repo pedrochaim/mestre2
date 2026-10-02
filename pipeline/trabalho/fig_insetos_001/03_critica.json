@@ -1,0 +1,89 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que carrapatos são aracnídeos. O enunciado não vaza a resposta e os distratores são críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português diz que ela carrega até 40 vezes o próprio peso, e o enunciado diz 'cerca de'. Sem a figura não dá para responder, e os distratores são numéricos e distintos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento direto, no nível 1. Não há vazamento e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam a lacraia (quilópode) entre os miriápodes. Os distratores são grupos de artrópodes críveis e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um besouro emblemático, com padrão inconfundível. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Borboleta-tigre' é distrator arriscado. O trecho em inglês registra 'common tiger' como nome comum da monarca, e esse nome também é usado para outra espécie de Danaus. Troquei por uma borboleta laranja parecida.",
+      "reescrita": {
+        "pergunta": "Que borboleta é esta?",
+        "resposta": "Borboleta-monarca",
+        "distratores": [
+          "Borboleta-vice-rei",
+          "Borboleta-rainha",
+          "Borboleta-julia"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que os cupins são baratas altamente derivadas. O enunciado não dá a resposta e depende da figura para saber de quem se fala.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento do besouro-titã. Os distratores são besouros grandes, mas visualmente bem distintos, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento do louva-a-deus. Os distratores são ortopteroides ou fasmatódeos parecidos e nenhum deles está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um grilo, no nível 1, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos mostram que a paquinha (grilo-toupeira) pertence aos grilos e gafanhotos. Os distratores são de outras ordens e 'escavador' não entrega a resposta.",
+      "reescrita": null
+    }
+  ]
+}
