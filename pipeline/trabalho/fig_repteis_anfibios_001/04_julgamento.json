@@ -1,0 +1,515 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jabuti-piranga",
+        "descricao": "Espécie de jabuti (Chelonoidis carbonarius) do norte da América do Sul, com patas de escamas vermelhas ou alaranjadas.",
+        "variantes": [
+          "Jabuti",
+          "Red-footed tortoise",
+          "Chelonoidis carbonarius"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "jabuticaba",
+          "nome": "Jabuticaba",
+          "descricao": "Fruta nativa do Brasil, pequena, redonda e de casca escura, da árvore jabuticabeira",
+          "variantes": [
+            "Jaboticaba",
+            "Plinia cauliflora"
+          ]
+        },
+        {
+          "id": "riacho_do_ipiranga",
+          "nome": "Riacho do Ipiranga",
+          "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+          "variantes": [
+            "Ribeirão do Ipiranga",
+            "Rio Ipiranga",
+            "Ipiranga"
+          ]
+        },
+        {
+          "id": "cutia",
+          "nome": "Cutia",
+          "descricao": "Roedor do gênero Dasyprocta, comum nas florestas das Américas Central e do Sul.",
+          "variantes": [
+            "Dasyprocta",
+            "Agouti"
+          ]
+        },
+        {
+          "id": "tuiuiu",
+          "nome": "Tuiuiú",
+          "descricao": "Grande cegonha (Jabiru mycteria) de plumagem branca, cabeça e pescoço pretos com colar vermelho, ave-símbolo do Pantanal.",
+          "variantes": [
+            "Jaburu",
+            "Jabiru",
+            "Jabiru mycteria"
+          ]
+        },
+        {
+          "id": "jacuzzi",
+          "nome": "Jacuzzi",
+          "descricao": "Empresa fundada por irmãos imigrantes italianos nos Estados Unidos, cujo nome virou sinônimo de banheira de hidromassagem.",
+          "variantes": [
+            "Banheira de hidromassagem"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Monstro-de-gila",
+        "descricao": "Lagarto venenoso (Heloderma suspectum) do sudoeste dos Estados Unidos e noroeste do México.",
+        "variantes": [
+          "Gila monster",
+          "Heloderma suspectum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ariranha",
+          "nome": "Ariranha",
+          "descricao": "Lontra gigante dos rios da América do Sul, espécie Pteronura brasiliensis.",
+          "variantes": [
+            "Pteronura brasiliensis",
+            "Giant otter",
+            "Lontra-gigante"
+          ]
+        },
+        {
+          "id": "luas_galileanas",
+          "nome": "Luas galileanas",
+          "descricao": "As quatro maiores luas de Júpiter: Io, Europa, Ganimedes e Calisto.",
+          "variantes": [
+            "Satélites galileanos",
+            "Galilean moons"
+          ]
+        },
+        {
+          "id": "la_bombonera",
+          "nome": "La Bombonera",
+          "descricao": "Estádio do Boca Juniors, em Buenos Aires.",
+          "variantes": []
+        },
+        {
+          "id": "ana_moser",
+          "nome": "Ana Moser",
+          "descricao": "Ex-jogadora brasileira de vôlei, medalha de bronze olímpica em Atlanta 1996.",
+          "variantes": [
+            "Ana Beatriz Moser"
+          ]
+        },
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Iguana",
+        "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+        "variantes": [
+          "Iguana-verde",
+          "Green iguana",
+          "Iguana iguana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cigana",
+          "nome": "Cigana",
+          "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+          "variantes": [
+            "Jacu-cigano",
+            "Hoatzin",
+            "Opisthocomus hoazin"
+          ]
+        },
+        {
+          "id": "guarana",
+          "nome": "Guaraná",
+          "descricao": "Planta trepadeira amazônica cujas sementes são usadas em refrigerantes, pós e xaropes",
+          "variantes": [
+            "Paullinia cupana"
+          ]
+        },
+        {
+          "id": "guara",
+          "nome": "Guará",
+          "descricao": "Ave pernalta de plumagem vermelho-escarlate, da família dos íbis, da América do Sul tropical.",
+          "variantes": [
+            "Íbis-escarlate",
+            "Eudocimus ruber"
+          ]
+        },
+        {
+          "id": "rio_ganges",
+          "nome": "Rio Ganges",
+          "descricao": "Rio sagrado do hinduísmo, que nasce no Himalaia e atravessa o norte da Índia até Bangladesh.",
+          "variantes": [
+            "Ganges",
+            "Ganga"
+          ]
+        },
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Tartaruga-de-galápagos",
+        "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+        "variantes": [
+          "Tartaruga-gigante-de-galápagos",
+          "Galápagos tortoise",
+          "Chelonoidis niger"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_galapagos",
+          "nome": "Ilhas Galápagos",
+          "descricao": "Arquipélago vulcânico do Equador, no oceano Pacífico, famoso por sua fauna única.",
+          "variantes": [
+            "Galápagos",
+            "Arquipélago de Colón",
+            "Galapagos Islands"
+          ]
+        },
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã"
+          ]
+        },
+        {
+          "id": "erwin_schrodinger",
+          "nome": "Erwin Schrödinger",
+          "descricao": "Físico teórico austríaco (1887–1961), autor da equação de Schrödinger e Nobel de Física de 1933.",
+          "variantes": [
+            "Schroedinger"
+          ]
+        },
+        {
+          "id": "lago_vitoria",
+          "nome": "Lago Vitória",
+          "descricao": "Maior lago da África, dividido entre Uganda, Quênia e Tanzânia.",
+          "variantes": [
+            "Lake Victoria",
+            "Lago Victoria",
+            "Nyanza"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Jararaca-ilhoa",
+        "descricao": "Serpente peçonhenta (Bothrops insularis) que vive só na Ilha da Queimada Grande, no litoral de São Paulo.",
+        "variantes": [
+          "Golden lancehead",
+          "Bothrops insularis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gol_de_placa",
+          "nome": "Gol de placa",
+          "descricao": "Expressão brasileira para um gol muito bonito, nascida de uma placa colocada no Maracanã em 1961.",
+          "variantes": []
+        },
+        {
+          "id": "golden_slam",
+          "nome": "Golden Slam",
+          "descricao": "Feito de vencer os quatro torneios de Grand Slam e a medalha de ouro olímpica de simples.",
+          "variantes": [
+            "Golden Grand Slam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tartaruga-de-pente",
+        "descricao": "Tartaruga marinha tropical (Eretmochelys imbricata) com bico afilado e casco de bordas serrilhadas.",
+        "variantes": [
+          "Hawksbill sea turtle",
+          "Eretmochelys imbricata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã"
+          ]
+        },
+        {
+          "id": "tamandua_mirim",
+          "nome": "Tamanduá-mirim",
+          "descricao": "Tamanduá sul-americano de porte médio, com uma mancha escura em forma de colete (Tamandua tetradactyla).",
+          "variantes": [
+            "Tamandua tetradactyla",
+            "Tamanduá-de-colete"
+          ]
+        },
+        {
+          "id": "cartao_de_natal",
+          "nome": "Cartão de Natal",
+          "descricao": "Cartão ilustrado enviado com votos de boas festas, cuja versão comercial surgiu na Inglaterra vitoriana.",
+          "variantes": [
+            "Christmas card"
+          ]
+        },
+        {
+          "id": "tatu_canastra",
+          "nome": "Tatu-canastra",
+          "descricao": "Maior espécie viva de tatu (Priodontes maximus), sul-americano, que se alimenta sobretudo de cupins.",
+          "variantes": [
+            "Tatu-gigante",
+            "Tatu-carreta",
+            "Priodontes maximus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Teiú",
+        "descricao": "Grande lagarto preto e branco (Salvator merianae) do leste e centro da América do Sul.",
+        "variantes": [
+          "Teiú-comum",
+          "Tegu",
+          "Salvator merianae",
+          "Teju"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tejo",
+          "nome": "Rio Tejo",
+          "descricao": "Maior rio da Península Ibérica, que nasce na Espanha e deságua no Atlântico em Lisboa.",
+          "variantes": [
+            "Tejo",
+            "Tajo",
+            "Tagus"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "avestruz",
+          "nome": "Avestruz",
+          "descricao": "Ave não voadora africana do gênero Struthio, a maior ave viva.",
+          "variantes": [
+            "Avestruz-comum",
+            "Struthio camelus"
+          ]
+        },
+        {
+          "id": "salto_angel",
+          "nome": "Salto Ángel",
+          "descricao": "Queda d'água que despenca de um tepui no Parque Nacional Canaima, na Venezuela.",
+          "variantes": [
+            "Angel Falls",
+            "Kerepakupai Merú"
+          ]
+        },
+        {
+          "id": "osamu_tezuka",
+          "nome": "Osamu Tezuka",
+          "descricao": "Mangaká japonês, criador de Astro Boy, Kimba e Black Jack.",
+          "variantes": [
+            "Tezuka Osamu"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Salamandra-de-fogo",
+        "descricao": "Anfíbio (Salamandra salamandra) preto com manchas ou listras amarelas, comum na Europa.",
+        "variantes": [
+          "Fire salamander",
+          "Salamandra salamandra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circulo_de_fogo_do_pacifico",
+          "nome": "Círculo de Fogo do Pacífico",
+          "descricao": "Faixa de intensa atividade vulcânica e sísmica que contorna as bordas de um oceano.",
+          "variantes": [
+            "Anel de Fogo",
+            "Cinturão de Fogo",
+            "Ring of Fire"
+          ]
+        },
+        {
+          "id": "tamandua_bandeira",
+          "nome": "Tamanduá-bandeira",
+          "descricao": "Grande mamífero comedor de formigas e cupins da América do Sul e Central, espécie Myrmecophaga tridactyla.",
+          "variantes": [
+            "Myrmecophaga tridactyla",
+            "Giant anteater"
+          ]
+        },
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente"
+          ]
+        },
+        {
+          "id": "mandrake",
+          "nome": "Mandrake",
+          "descricao": "Mágico de cartola protagonista de tiras de jornal americanas lançadas em 1934",
+          "variantes": [
+            "Mandrake the Magician",
+            "Mandrake, o Mágico"
+          ]
+        },
+        {
+          "id": "real_madrid",
+          "nome": "Real Madrid",
+          "descricao": "Real Madrid Club de Fútbol, clube de futebol da capital espanhola fundado em 1902.",
+          "variantes": [
+            "Real Madrid Club de Fútbol",
+            "Real Madrid CF",
+            "Madrid Football Club"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Diabo-espinhoso",
+        "descricao": "Lagarto australiano coberto de espinhos (Moloch horridus), do deserto da Austrália.",
+        "variantes": [
+          "Moloch",
+          "Thorny devil",
+          "Moloch horridus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_eiffel",
+          "nome": "Torre Eiffel",
+          "descricao": "Torre de ferro forjado no Campo de Marte, em Paris, inaugurada em 1889.",
+          "variantes": [
+            "Tour Eiffel",
+            "Eiffel Tower"
+          ]
+        },
+        {
+          "id": "lua",
+          "nome": "Lua",
+          "descricao": "Único satélite natural da Terra.",
+          "variantes": [
+            "A Lua",
+            "Moon"
+          ]
+        },
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Jabuti-piranga é uma espécie de jabuti; nenhuma candidata é a mesma entidade."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Monstro-de-gila é um lagarto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Iguana é um lagarto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A tartaruga-gigante é uma espécie distinta das Ilhas Galápagos e da tartaruga-verde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Jararaca-ilhoa é uma serpente; as candidatas não têm relação."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tartaruga-de-pente (Eretmochelys imbricata) é diferente da tartaruga-verde (Chelonia mydas)."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Teiú é um lagarto; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Salamandra-de-fogo é um anfíbio; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Diabo-espinhoso é um lagarto australiano; nenhuma candidata corresponde."
+    }
+  ]
+}

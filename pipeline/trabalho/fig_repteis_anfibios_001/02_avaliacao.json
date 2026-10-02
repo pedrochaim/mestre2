@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Jabuti-piranga bem visível, com manchas claras no casco e patas pontilhadas de laranja.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que réptil sul-americano é este?",
+      "resposta": "Jabuti-piranga",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jabuti-piranga",
+        "descricao": "Espécie de jabuti (Chelonoidis carbonarius) do norte da América do Sul, com patas de escamas vermelhas ou alaranjadas.",
+        "variantes": [
+          "Jabuti",
+          "Red-footed tortoise",
+          "Chelonoidis carbonarius"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Só a cabeça de um crocodiliano na água; não dá para separar com segurança o jacaré-açu de outros jacarés ou aligátores."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Monstro-de-gila nítido, com o padrão preto e laranja característico. Pergunta de múltipla escolha com lagartos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lagarto é este?",
+      "resposta": "Monstro-de-gila",
+      "distratores": [
+        "Lagarto-de-contas-mexicano",
+        "Lagarto-de-chifres",
+        "Teiú"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monstro-de-gila",
+        "descricao": "Lagarto venenoso (Heloderma suspectum) do sudoeste dos Estados Unidos e noroeste do México.",
+        "variantes": [
+          "Gila monster",
+          "Heloderma suspectum"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Iguana-verde nítida, de perfil, com crista dorsal e papada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que lagarto é este?",
+      "resposta": "Iguana",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Iguana",
+        "descricao": "Lagarto arborícola e herbívoro (Iguana iguana), comum da América tropical, também chamado iguana-verde.",
+        "variantes": [
+          "Iguana-verde",
+          "Green iguana",
+          "Iguana iguana"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Tartaruga gigante de casco abaulado e pescoço alongado, compatível com a tartaruga-de-galápagos. Pergunta pelo local onde vive em estado natural.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que arquipélago vive em estado natural esta tartaruga gigante?",
+      "resposta": "Galápagos",
+      "distratores": [
+        "Açores",
+        "Ilhas Canárias",
+        "Ilhas Fiji"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tartaruga-de-galápagos",
+        "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+        "variantes": [
+          "Tartaruga-gigante-de-galápagos",
+          "Galápagos tortoise",
+          "Chelonoidis niger"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Serpente de tom amarelado-dourado enrolada num galho, com cabeça de víbora, compatível com a jararaca-ilhoa. Múltipla com outras serpentes brasileiras do mesmo gênero.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que serpente brasileira é esta?",
+      "resposta": "Jararaca-ilhoa",
+      "distratores": [
+        "Jararaca",
+        "Jararacuçu",
+        "Urutu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jararaca-ilhoa",
+        "descricao": "Serpente peçonhenta (Bothrops insularis) que vive só na Ilha da Queimada Grande, no litoral de São Paulo.",
+        "variantes": [
+          "Golden lancehead",
+          "Bothrops insularis"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Cabeça escura e borrada de uma serpente na água; sem traços claros para garantir que seja uma sucuri."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tartaruga marinha nadando sobre recife, com bico afilado em forma de gavião. Múltipla com outras tartarugas marinhas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tartaruga marinha é esta?",
+      "resposta": "Tartaruga-de-pente",
+      "distratores": [
+        "Tartaruga-verde",
+        "Tartaruga-cabeçuda",
+        "Tartaruga-de-couro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tartaruga-de-pente",
+        "descricao": "Tartaruga marinha tropical (Eretmochelys imbricata) com bico afilado e casco de bordas serrilhadas.",
+        "variantes": [
+          "Hawksbill sea turtle",
+          "Eretmochelys imbricata"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Jararaca de padrão manchado que pode ser confundida com a jararaca comum e outras Bothrops; a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Teiú inteiro, de corpo escuro com pintas claras, em boa foto. Múltipla com lagartos grandes de aparência semelhante.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lagarto é este?",
+      "resposta": "Teiú",
+      "distratores": [
+        "Iguana-verde",
+        "Lagarto-monitor",
+        "Jacuraru"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Teiú",
+        "descricao": "Grande lagarto preto e branco (Salvator merianae) do leste e centro da América do Sul.",
+        "variantes": [
+          "Teiú-comum",
+          "Tegu",
+          "Salvator merianae",
+          "Teju"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Salamandra preta com manchas amarelas, inconfundível. Pergunta pelo continente onde vive.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente vive em estado natural este anfíbio?",
+      "resposta": "Europa",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Salamandra-de-fogo",
+        "descricao": "Anfíbio (Salamandra salamandra) preto com manchas ou listras amarelas, comum na Europa.",
+        "variantes": [
+          "Fire salamander",
+          "Salamandra salamandra"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Diabo-espinhoso nítido, com espinhos pelo corpo, sobre solo vermelho. Múltipla com lagartos espinhosos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que lagarto é este?",
+      "resposta": "Diabo-espinhoso",
+      "distratores": [
+        "Dragão-barbudo",
+        "Lagarto-de-chifres",
+        "Lagarto-de-gola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Diabo-espinhoso",
+        "descricao": "Lagarto australiano coberto de espinhos (Moloch horridus), do deserto da Austrália.",
+        "variantes": [
+          "Moloch",
+          "Thorny devil",
+          "Moloch horridus"
+        ]
+      }
+    }
+  ]
+}
