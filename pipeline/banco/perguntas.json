@@ -45215,5 +45215,135 @@
       "autor": "Lopo Pizarro",
       "licenca": "CC BY 2.5"
     }
+  },
+  {
+    "id": "q02707",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "mitocondria",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que organela da célula é esta, vista ao microscópio eletrônico?",
+    "resposta": "Mitocôndria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mitochondria",
+      "https://pt.wikipedia.org/wiki/Mitoc%C3%B4ndria"
+    ],
+    "imagem": {
+      "arquivo": "q02707.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mitochondria,_mammalian_lung_-_TEM.jpg",
+      "autor": "Louisa Howard",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02708",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "malaquita",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que mineral de faixas verdes é este?",
+    "resposta": "Malaquita",
+    "distratores": [
+      "Turquesa",
+      "Jade",
+      "Crisocola"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Malachite",
+      "https://pt.wikipedia.org/wiki/Malaquita"
+    ],
+    "imagem": {
+      "arquivo": "q02708.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Malachit,_Kupferspat.jpg",
+      "autor": "Burkhard Mücke",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02709",
+    "tema": "Ciências",
+    "subtema": "Química",
+    "ancora": "ametista",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que variedade de quartzo é esta?",
+    "resposta": "Ametista",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Amethyst",
+      "https://pt.wikipedia.org/wiki/Ametista"
+    ],
+    "imagem": {
+      "arquivo": "q02709.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Amethyst._Magaliesburg,_South_Africa.jpg",
+      "autor": "JJ Harrison (https://jjharrison.com.au/)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02710",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "bacteriofago",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de vírus é este?",
+    "resposta": "Bacteriófago",
+    "distratores": [
+      "Adenovírus",
+      "Retrovírus",
+      "Vírus da gripe"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bacteriophage",
+      "https://pt.wikipedia.org/wiki/Bacteri%C3%B3fago"
+    ],
+    "imagem": {
+      "arquivo": "q02710.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:PhageExterior.svg",
+      "autor": "Adenosine",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02711",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "espermatozoide",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que células são estas, vistas ao microscópio?",
+    "resposta": "Espermatozoides",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sperm",
+      "https://pt.wikipedia.org/wiki/Esperma"
+    ],
+    "imagem": {
+      "arquivo": "q02711.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sperm_stained.JPG",
+      "autor": "Bobjgalindo",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02712",
+    "tema": "Ciências",
+    "subtema": "Biologia e Genética",
+    "ancora": "cloroplasto",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que organelas aparecem dentro destas células, vistas ao microscópio?",
+    "resposta": "Cloroplastos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chloroplast",
+      "https://pt.wikipedia.org/wiki/Cloroplasto"
+    ],
+    "imagem": {
+      "arquivo": "q02712.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Plagiomnium_affine_laminazellen.jpeg",
+      "autor": "Kristian Peters -- Fabelfroh",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

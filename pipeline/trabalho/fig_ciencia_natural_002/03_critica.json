@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega a resposta; só a imagem permite reconhecer a organela. Fato sustentado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos descrevem a malaquita como mineral verde bandado. 'Faixas verdes' ajuda sem entregar, e os distratores são minerais verdes ou azul-esverdeados plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'pedra semipreciosa roxa' já leva à ametista sem olhar a figura. Basta perguntar a variedade de quartzo, o que obriga a reconhecer a imagem.",
+      "reescrita": {
+        "pergunta": "Que variedade de quartzo é esta?",
+        "resposta": "Ametista",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A figura (cabeça icosaédrica e cauda) distingue o bacteriófago dos distratores. A pergunta não vaza a resposta e é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem pista que entregue a resposta. Fato sustentado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Organelas verdes' entrega a resposta pela cor da clorofila, que é o que o trecho diz. Tirando a cor, a figura passa a ser necessária.",
+      "reescrita": {
+        "pergunta": "Que organelas aparecem dentro destas células, vistas ao microscópio?",
+        "resposta": "Cloroplastos",
+        "distratores": []
+      }
+    }
+  ]
+}

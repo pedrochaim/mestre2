@@ -1,0 +1,160 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Cristal bruto rosado e translúcido, sem aspecto reconhecível de diamante; poderia ser quartzo, topázio ou outro mineral."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Micrografia eletrônica com duas mitocôndrias e cristas nítidas; o texto visível (50 nm, código) não entrega a resposta.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que organela da célula é esta, vista ao microscópio eletrônico?",
+      "resposta": "Mitocôndria",
+      "distratores": [],
+      "ancora": {
+        "nome": "Mitocôndria",
+        "descricao": "Organela de células eucariotas com dupla membrana, responsável pela respiração aérea e produção de ATP.",
+        "variantes": [
+          "Mitocôndrias"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Placa polida de mineral verde com bandas concêntricas típicas da malaquita, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mineral de faixas verdes é este?",
+      "resposta": "Malaquita",
+      "distratores": [
+        "Turquesa",
+        "Jade",
+        "Crisocola"
+      ],
+      "ancora": {
+        "nome": "Malaquita",
+        "descricao": "Mineral de carbonato hidróxido de cobre, verde e bandado, de fórmula Cu2CO3(OH)2.",
+        "variantes": [
+          "Malachite"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas em texto, incluindo o nome Stomach no título, que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Aglomerado de cristais violeta, inconfundível, sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pedra semipreciosa roxa é esta?",
+      "resposta": "Ametista",
+      "distratores": [],
+      "ancora": {
+        "nome": "Ametista",
+        "descricao": "Variedade violeta de quartzo, usada como pedra semipreciosa.",
+        "variantes": [
+          "Amethyst"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração clara e sem texto de um vírus com cabeça icosaédrica, cauda e fibras, forma típica do bacteriófago.",
+      "destino": 2,
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de vírus é este?",
+      "resposta": "Bacteriófago",
+      "distratores": [
+        "Adenovírus",
+        "Retrovírus",
+        "Vírus da gripe"
+      ],
+      "ancora": {
+        "nome": "Bacteriófago",
+        "descricao": "Vírus que infecta e se replica dentro de bactérias, com cabeça icosaédrica e cauda.",
+        "variantes": [
+          "Fago",
+          "Phage",
+          "Bacteriophage"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Gravura anatômica cheia de legendas em inglês (renal, suprarenal, aorta), diagrama com texto."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Diagrama com título e legendas em texto, incluindo Pancreas, que entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Rocha cinza com manchas vermelhas; o cinábrio não é reconhecível por esta foto e poderia ser confundido com outros minérios."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Micrografia corada com três espermatozoides de cabeça e cauda bem visíveis, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que células são estas, vistas ao microscópio?",
+      "resposta": "Espermatozoides",
+      "distratores": [],
+      "ancora": {
+        "nome": "Espermatozoide",
+        "descricao": "Célula reprodutiva masculina móvel, com cabeça e flagelo.",
+        "variantes": [
+          "Espermatozoides",
+          "Esperma",
+          "Célula espermática"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Desenho esquemático de uma pedra verde lapidada; qualquer gema verde teria esse aspecto, não identifica a esmeralda."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Micrografia de células vegetais com numerosos cloroplastos verdes bem visíveis, sem texto.",
+      "destino": 2,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que organelas verdes aparecem dentro destas células?",
+      "resposta": "Cloroplastos",
+      "distratores": [],
+      "ancora": {
+        "nome": "Cloroplasto",
+        "descricao": "Organela de células vegetais e de algas que realiza a fotossíntese, rica em clorofila.",
+        "variantes": [
+          "Cloroplastos"
+        ]
+      }
+    }
+  ]
+}
