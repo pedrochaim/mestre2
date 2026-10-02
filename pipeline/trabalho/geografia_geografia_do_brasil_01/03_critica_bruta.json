@@ -1,0 +1,412 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A data 25 de dezembro entrega Natal, e 'esse nome' não tem referente; vazamento sem conserto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal e sustentado, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Curral del-Rei é sustentado e curioso.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ouro Preto como capital substituída está sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Portugal não é país vizinho do Brasil, então o distrator é fraco; trocar.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "O bairro carioca de Copacabana herdou o nome de uma capela dedicada a uma santa padroeira de qual país vizinho?",
+        "resposta": "Bolívia",
+        "distratores": [
+          "Paraguai",
+          "Argentina",
+          "Colômbia"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
+          "https://pt.wikipedia.org/wiki/Copacabana"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado define o nome pelo açúcar e vaza a resposta Pão de Açúcar.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Explicar o significado de 'lençóis' entrega o nome do parque; vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teresa Cristina sustentada; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido Veneza brasileira sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dia 1º de novembro de 1501 sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem 'abre olhos' sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Renomeação em 1930 sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Serra do Mar sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Cor por matéria orgânica em decomposição é fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Encontro de rio com águas oceânicas/maré sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jararaca-ilhoa endêmica sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ouro e garimpeiros sustentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete Quedas encobertas em 1982 sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Itaipu binacional, dividida igualmente com o Paraguai, é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ciclo da borracha sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Contaminou' é contestado pela fonte; usar o percurso da lama.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 2015, a lama da barragem que se rompeu em Mariana, Minas Gerais, desceu por qual rio até chegar à foz, no Espírito Santo?",
+        "resposta": "Rio Doce",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mariana_dam_disaster",
+          "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Mariana"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conexão memorável com Belém e Natal, sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As três ilhas-capitais são sustentadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Compromisso de construir a Madeira-Mamoré sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte do Zerão inexistente e o meio de campo não é sustentado; focar em Macapá.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "aberta",
+        "pergunta": "Macapá é a única capital estadual brasileira cortada por qual linha imaginária?",
+        "resposta": "Linha do Equador",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Macapá"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte fala em rua, não praça; reformular sem o detalhe impreciso.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que cidade uruguaia forma com a gaúcha Santana do Livramento uma só área urbana, sem barreira física entre as duas?",
+        "resposta": "Rivera",
+        "distratores": [
+          "Chuy",
+          "Artigas",
+          "Bella Unión"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Santana_do_Livramento",
+          "https://pt.wikipedia.org/wiki/Sant'Ana_do_Livramento"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guiana Francesa pertence à França; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desmembramento de Goiás sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pernambuco e proximidade do RN sustentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado omite os rochedos; a contagem de 21 os inclui.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Quantas ilhas, ilhotas e rochedos formam o arquipélago de Fernando de Noronha?",
+        "resposta": "Vinte e uma",
+        "distratores": [
+          "Sete",
+          "Doze",
+          "Trinta e quatro"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Fernando_de_Noronha"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ponta do Seixas em João Pessoa sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Araguaia sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Piauí sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Considerado o mais alto até 1965, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Monte Caburaí sustentado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bahia limita-se com oito estados, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chile e Equador sustentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nordeste com nove estados sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Equador corta AM, RR, PA e AP; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dezessete estados costeiros, contagem confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lei sancionada em 1977 sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Perdeu em 1763, século dezoito.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "25 de janeiro de 1554 sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inaugurada em 1972, década de 1970.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Solimões sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Algas calcárias como construtoras sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lúcio Costa venceu o concurso de 1957.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundada por franceses em 1612, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Búfalos em Marajó sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Monte Pascoal sustentado.",
+      "reescrita": null
+    }
+  ]
+}

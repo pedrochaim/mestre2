@@ -1,0 +1,1658 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Geografia do Brasil** (tema **Geografia**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Natal",
+      "descricao": "Capital do estado do Rio Grande do Norte, no Nordeste do Brasil."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que capital nordestina tem esse nome porque foi fundada num dia vinte e cinco de dezembro, em 1599?",
+    "resposta": "Natal",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Natal_(Rio_Grande_do_Norte)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Natal_(Rio_Grande_do_Norte)",
+        "situacao": "ok",
+        "texto": "Natal é a capital do estado brasileiro do Rio Grande do Norte, na Região Nordeste do país. Com aproximadamente 167 km², é a segunda menor capital brasileira em área territorial e dista 2 227 quilômetros de Brasília, capital federal. Com pouco mais de 750 mil habitantes em 2022, é o município mais populoso de seu estado, o oitavo do Nordeste e o 24° do Brasil.\n[…]\nFundado em um dia de Natal, em 25 de dezembro de 1599, o nome do município tem origem no latim natale (algo como \"local de nascimento\"). Algumas vezes, o nome do município dentro de frases é antecedido de artigo masculino, como acontece em \"do Crato\", \"do Recife\", \"do Rio de Janeiro\", entre outros. Em alguns sites e documentos oficiais, bem como no artigo 11 da constituição do Rio Grande do Norte, a cidade é referida com o artigo masculino: \"A cidade do Natal é a Capital do Estado\".\n[…]\nPor ser a capital do estado do Rio Grande do Norte, Natal sedia os poderes executivo (Centro Administrativo do Estado, sede do governo estadual), legislativo (Assembleia Legislativa do Rio Grande do Norte) e judiciário (Tribunal de Justiça do Rio Grande do Norte) estaduais. De acordo com o Tribunal Superior Eleitoral, a capital potiguar encerrou 2024 com 575 688 eleitores aptos a votar (21,75% do eleitorado do Rio Grande do Norte), distribuídos em cinco zonas eleitorais (1ª, 2ª, 3ª, 4ª e 69ª).\n[…]\nEm 2023, foram registrados 202 homicídios em Natal, uma queda em relação aos 241 em 2022. O pior ano de 2000 a 2023 foi 2017, com 575 ocorrências. A taxa de crimes violentos letais e intencionais para cada 100 mil habitantes, considerando casos de homicídio doloso, feminicídio, latrocínio e lesão corporal seguida de morte, era de 20,8 em 2023, posicionando-se como a 13ª menor das capitais das unidades federativas do Brasil e a segunda menor do Nordeste (atrás de Aracaju).\n[…]\nComarca de Natal\n[…]\n«Natal no WikiMapia»"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Florianópolis",
+      "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1894, a cidade de Desterro, capital catarinense, mudou de nome para homenagear qual presidente da República?",
+    "resposta": "Floriano Peixoto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Florianópolis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Florianópolis",
+        "situacao": "ok",
+        "texto": "Florianópolis, conhecido coloquialmente como Floripa, é a capital do estado brasileiro de Santa Catarina, na região Sul do país. Florianópolis é também apelidado de \"Ilha da Magia\", decorrente de seus folclóricos contos e histórias de bruxas e criaturas mágicas que habitam na ilha, popularizados pelo escritor Franklin Cascaes.\n[…]\nCom o fim da Revolução Federalista, em 1894, em homenagem ao então presidente da República Floriano Peixoto, o governador do estado, Hercílio Luz, mudou o nome para Florianópolis. A escolha do nome foi, contudo, uma afronta à própria população desterrense, pois Floriano Peixoto não era uma autoridade com popularidade na cidade e enfrentou grande resistência de seu governo em Desterro.\n[…]\nEm 1893, chegou a Desterro, com o apoio da população local, a Revolução Federalista, contra o governo do presidente da República Floriano Peixoto, liderada na cidade por Elesbão Pinto da Luz. A revolta foi reprimida e seus participantes, fuzilados, junto com civis, por ordem do presidente brasileiro na Fortaleza de Santa Cruz de Anhatomirim em abril de 1894, no episódio conhecido como massacre do Anhatomirim.\n[…]\nDevido à vitória das forças federais, em 1º de outubro de 1894, o então governador de Santa Catarina, Hercílio Luz, sancionou a Lei Estadual nº 111, que alterou o nome de Desterro para Florianópolis, em homenagem a Floriano Peixoto. Em 1898, foi fundado um importante colégio pela Congregação das Irmãs da Divina Providência, o Colégio Coração de Jesus.\n[…]\nDe acordo com estimativa do IBGE de 2025, havia 587 486 pessoas na cidade, e a densidade de população era de 870,5 habitantes por quilômetro quadrado. Florianópolis e Vitória no Espírito Santo, são as únicas capitais no Brasil que não são as cidades mais populosas de seus respectivos estados.\n[…]\nAs Cidades irmãs de Florianópolis são:"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Belo Horizonte",
+      "descricao": "Capital do estado de Minas Gerais, cidade planejada inaugurada em 1897."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Antes de ser escolhido para abrigar a nova capital mineira, o arraial onde hoje fica Belo Horizonte tinha que nome curioso?",
+    "resposta": "Curral del-Rei",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Belo_Horizonte"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Belo_Horizonte",
+        "situacao": "ok",
+        "texto": "Belo Horizonte é a capital do estado brasileiro de Minas Gerais. Sua população é de 2 315 560 habitantes, segundo o censo de 2022, sendo o sexto município mais populoso do país, o terceiro da Região Sudeste e o primeiro de seu estado. Com uma área de aproximadamente 331 km², possui uma geografia diversificada, com morros e baixadas. Dista cerca de 716 km de Brasília, é a segunda capital estadual m\n[…]\nLogo após a proclamação da república, em 1889, os republicanos de Curral del-Rei decidiram mudar o nome da vila. Em reunião numa casa próxima de onde fica a Igreja de Boa Viagem, sugeriram o nome Novo Horizonte. Por sugestão de Luiz Daniel Cornélio da Cerqueira, professor de português e responsável pela alfabetização de crianças da vila, foi considerado também o nome Belo Horizonte. Descartado pela maioria, o nome só foi adotado após escolha pessoal do então governador, João Pinheiro.\n[…]\nTrecho do relatório escrito por Aarão Reis, engenheiro-chefe da Comissão Construtora da Nova Capital, sobre a planta definitiva de Belo Horizonte, aprovada pelo Decreto nº 817 de 15 de abril de 1895:\n[…]\nNo pé da Serra do Curral está localizada a maior área verde remanescente de Belo Horizonte, o Parque das Mangabeiras, um dos maiores parques urbanos da América Latina, possuindo 2,3 milhões de metros quadrados (m²).\n[…]\nO efeito da urbanização tem provocado o surgimento de ilhas de calor e alterações na circulação das massas de ar frio, que, durante o inverno, têm sido fortemente bloqueadas pela alta pressão da massa de ar seco, predominante nessa época do ano. A Serra do Curral protege Belo Horizonte dos ventos mais fortes, mesmo assim podem ocorrer episódios de forte ventania, com rajadas próximas aos 100 km/h.\n[…]\nAinda antes da fundação de Belo Horizonte, o Arraial do Curral del-Rei produzia gêneros para o abastecimento da região mineradora, especialmente gado e produtos agrícolas."
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Belo Horizonte",
+      "descricao": "Capital do estado de Minas Gerais, cidade planejada inaugurada em 1897."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Belo Horizonte foi planejada no fim do século dezenove para substituir qual cidade histórica como capital de Minas Gerais?",
+    "resposta": "Ouro Preto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Belo_Horizonte"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Belo_Horizonte",
+        "situacao": "ok",
+        "texto": "Belo Horizonte é a capital do estado brasileiro de Minas Gerais. Sua população é de 2 315 560 habitantes, segundo o censo de 2022, sendo o sexto município mais populoso do país, o terceiro da Região Sudeste e o primeiro de seu estado. Com uma área de aproximadamente 331 km², possui uma geografia diversificada, com morros e baixadas. Dista cerca de 716 km de Brasília, é a segunda capital estadual m\n[…]\nApós a transferência da capital, Belo Horizonte passa a se chamar Cidade de Minas, até que o nome sugerido por Luiz Daniel voltou a ser oficial em 1901.\n[…]\nA então capital de Minas Gerais, a cidade de Ouro Preto, não apresentava alternativas viáveis ao desenvolvimento físico urbano, o que gerou a necessidade da transferência da capital para outra localidade. Com a República e a descentralização federal, as capitais tiveram maior relevo: ganhava vigor a ideia de mudança da sede do governo mineiro, pois a antiga Ouro Preto era travada pela topografia.\n[…]\nContando com uma desenvolvida rede de hotéis, Belo Horizonte é um dos principais polos de turismo de negócios do país, sediando importantes eventos nacionais e internacionais como o III Encontro das Américas em 1997, o 26° Encontro Econômico Brasil-Alemanha em 1999, a 47ª Reunião Anual do BID em 2006 e a Ecolatina em 2007. É também o portão de entrada para cidades históricas mineiras como Ouro Preto, Mariana, Sabará, Caeté, Santa Luzia, Congonhas, Diamantina, São João del-Rei e Tiradentes.\n[…]\nBelo Horizonte foi uma das primeiras cidades planejadas do Brasil. A cidade começou a se desenhar a partir do século XX com um projeto mais modernizado para a nova capital de Minas. O objetivo inicial era fazer um modelo contemporâneo e eclético que, ao mesmo tempo, tivesse toques dos estilos neoclássicos, neorromânicos e neogóticos. O período de instalação e consolidação da Cidade de Belo Horizonte ocorreu entre 1894 e 1930."
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Copacabana",
+      "descricao": "Bairro da Zona Sul da cidade do Rio de Janeiro, famoso por sua praia."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O bairro carioca de Copacabana herdou o nome de uma capela dedicada a uma santa padroeira de qual país vizinho?",
+    "resposta": "Bolívia",
+    "distratores": [
+      "Peru",
+      "Paraguai",
+      "Portugal"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
+      "https://pt.wikipedia.org/wiki/Copacabana"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
+        "situacao": "ok",
+        "texto": "Copacabana ( KOH-pə-kə-BAN-ə, US also  -⁠BAH-nə; Brazilian Portuguese: [ˌkɔpakaˈbɐnɐ]) is a Brazilian bairro (neighbourhood) located in the South Zone of the city of Rio de Janeiro, Brazil. It is most prominently known for its 4 km (2.5 mile) balneario beach, which is one of the most famous in the world.\n[…]\nThe district was originally called Sacopenapã (translated from the Tupi language, meaning \"the way of the socós\", the socós being a kind of heron) until the mid-18th century. It was renamed after the construction of a chapel holding a replica of the statue of Our Lady of Copacabana, the patron saint of Bolivia.\n[…]\nAccording to Riotur, the Tourism Secretariat of Rio de Janeiro, as of 2007 there were 63 hotels and 10 hostels in Copacabana.\n[…]\nThe fireworks display in Rio de Janeiro to celebrate New Year's Eve is one of the largest in the world, lasting 15 to 20 minutes. It is estimated that 2 million people go to Copacabana Beach to see the spectacle. The festival also includes a concert that extends throughout the night.\n[…]\nAn assessment made during New Year's Eve 1992 highlighted the risks associated with increasing crowd numbers on Copacabana beach after the fireworks display. Since the 1993-94 event, concerts have been held on the beach to retain the public. The result was a success, with egress spaced out over a period of 2 hours without the previous turmoil, although critics claimed that it denied the spirit of the New Year's tradition of a religious festival with fireworks by the sea.\n[…]\nThe following year Rod Stewart beat attendance records. Finally, the Tribute to Tom Jobim - with Gal Costa, Gilberto Gil, Caetano Veloso, Chico Buarque, and Paulinho da Viola - consolidated the shows at the Copacabana Réveillon."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Copacabana",
+        "situacao": "ok",
+        "texto": "Copacabana é um bairro nobre situado na Zona Sul do município do Rio de Janeiro, no Brasil. É considerado um dos bairros mais famosos e prestigiados do Brasil e um dos mais conhecidos do mundo. Tem o apelido de Princesinha do Mar e Coração da Zona Sul. Faz limites com os bairros da Lagoa, Ipanema, Botafogo, Leme e Humaitá.\n[…]\nSegundo a lenda, após a chegada dos espanhóis à região da Copacabana boliviana, Nossa Senhora teria aparecido no local para Francisco Tito Yupanqui, um jovem pescador, que, em sua homenagem, teria esculpido uma imagem da santa que ficou conhecida como Nossa Senhora de Copacabana: a Virgem vestida de dourado pousada sobre uma meia-lua.\n[…]\nNo século XVII, comerciantes peruanos de prata (chamados na época de \"peruleiros\") trouxeram uma réplica dessa imagem para a praia do Rio de Janeiro então chamada de Sacopenapã (nome tupi que significa \"caminho de socós\"). Sobre um rochedo dessa praia, construíram uma capela em homenagem à santa. Tal capela, com o tempo, passou a designar a praia e o bairro e demolida em 1918, para ser erguido, em seu lugar, o atual Forte de Copacabana.\n[…]\nOutra vertente da história é confirmada por historiadores que relatam que a Igrejinha de Copacabana, que batizou o bairro e a praia (que na época se chamava \"Sacopenapã\"), foi construída por pescadores no início do século XVIII em homenagem a Nossa Senhora de Copacabana. A imagem de Nuestra Señora de Copacabana, que ficava na igreja, foi trazida da Bolívia no final do século XVIII.\n[…]\nAtualmente, o bairro tem a maior concentração populacional da Zona Sul carioca, tendo em torno de 150 000 habitantes em 2013. Também abriga a maior quantidade de idosos do município e um dos maiores do país (proporcionalmente falando), com 16,7% da população acima de sessenta anos.[carece de fontes]?\n[…]\nMapa do bairro no OpenStreetMap"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Pão de Açúcar",
+      "descricao": "Morro à entrada da Baía de Guanabara, na cidade do Rio de Janeiro, com acesso por bondinho."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que morro carioca deve o nome aos blocos cônicos de açúcar que eram moldados em fôrmas de barro nos engenhos coloniais?",
+    "resposta": "Pão de Açúcar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sugarloaf_Mountain"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sugarloaf_Mountain",
+        "situacao": "ok",
+        "texto": "Sugarloaf Mountain (Portuguese: Pão de Açúcar, pronounced [ˈpɐ̃w d(ʒi) aˈsukaʁ]) is a peak situated in Rio de Janeiro, Brazil, on a peninsula at the mouth of Guanabara Bay. Rising 396 m (1,299 ft) above the harbor, the peak is named for its resemblance to the traditional shape of concentrated refined sugarloaf. It is known worldwide for its  cable car and panoramic views of the city and beyond.\n[…]\nThe mountain is protected by the Sugarloaf Mountain and Urca Hill Natural Monument, created in 2006.\n[…]\nA glass-walled cable car (bondinho or, more formally, teleférico), capable of holding 65 people, runs along a 1,400 m (4,600 ft) route between the peaks of Sugarloaf and Morro da Urca every 20 minutes. The original cable car line was built in 1912, rebuilt around 1972–73, and rebuilt again in 2008. The cable car goes from a ground station, at the base of Morro da Babilônia, to Morro da Urca and thence to Sugarloaf's summit.\n[…]\nTo reach the summit, passengers take two cable cars. The first ascends to the shorter Morro da Urca, 220 m (722 ft) high. The second car ascends to Pão de Açúcar. The Swiss-made bubble-shaped cars offer passengers 360° views of the surrounding city. The ascent takes three minutes.\n[…]\n1910 – The same engineer founded the Society of Sugar Loaf, and in the same year, the works were started. The project was commissioned in Germany and built by Brazilian workers. All parts were taken by climbing mountains or lifted by steel cables.\n[…]\nThere are rock climbing routes on Sugarloaf that are mostly multipitch and are a mixture of sport and trad. There are also two other mountains in the area with technical rock climbing, Morro da Babilônia and Morro da Urca. Together, they form one of the largest urban climbing areas in the world, with more than 270 routes, between 1 and 10 pitches long.\n[…]\nMedia related to Sugarloaf Mountain at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monumento_Natural_dos_Morros_do_P%C3%A3o_de_A%C3%A7%C3%BAcar_e_da_Urca",
+        "situacao": "ok",
+        "texto": "Monumento Natural dos Morros do Pão de Açúcar e da Urca é um complexo de morros localizado no bairro da Urca, na cidade do Rio de Janeiro, no Brasil. É composto pelo Morro do Pão de Açúcar (que dá nome ao complexo) e pelo Morro da Urca. Junto com a estátua do Cristo Redentor, é o maior cartão-postal da cidade do Rio de Janeiro e um dos mais famosos do Brasil.\n[…]\nHá várias versões sobre a origem do nome. Uma das mais conhecidas indica os portugueses como responsáveis. Durante o apogeu do cultivo da cana-de-açúcar no Brasil (séculos XVI e XVII), após a cana ser espremida e o caldo fervido e apurado, os blocos de açúcar eram colocados em uma forma de barro cônica (para transportá-los para a Europa), denominada \"pão de açúcar\". A semelhança do penhasco carioca com aquela forma de barro teria originado o nome.\n[…]\nO Monumento Natural Pão de Açúcar e Morro da Urca foi criado pelo município do Rio de Janeiro por decreto municipal 26.578, de 1 de junho de 2006. Os objetivos são garantir espaços verdes para lazer em uma área natural e conservar, proteger e recuperar a Mata Atlântica existente e a paisagem. O conselho consultivo é presidido pela Secretaria Municipal de Meio Ambiente, que administra o monumento. O monumento natural faz parte do Mosaico Carioca, criado em 2011.\n[…]\nA face sul é especialmente rica, praticamente toda tomada por um \"tapete vegetal\", contrastando enormemente com a face norte, que apresenta pouca vegetação em suas vertentes. É circundado por um resquício de Mata Atlântica. O seu nome é explicado por alguns autores pela semelhança aos blocos cônicos formados pelo açúcar na fase da purga em sua fabricação, à época colonial.\n[…]\nEm 1977, o equilibrista americano Steven McPeak caminhou sobre o cabo do teleférico, entre o Morro da Urca e o Morro do Pão de Açúcar, segurando uma vara metálica como contrapeso.\n[…]\n«As mulheres no Pão de Açúcar»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Lençóis Maranhenses",
+      "descricao": "Parque nacional no litoral do Maranhão, formado por dunas de areia branca e lagoas de água da chuva."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que parque nacional nordestino deve o nome a suas dunas brancas, que vistas do alto lembram roupa de cama estendida?",
+    "resposta": "Lençóis Maranhenses",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_dos_Lençóis_Maranhenses",
+      "https://en.wikipedia.org/wiki/Lençóis_Maranhenses_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_dos_Lençóis_Maranhenses",
+        "situacao": "ok",
+        "texto": "O Parque Nacional dos Lençóis Maranhenses é uma unidade de conservação brasileira de proteção integral à natureza localizada na região nordeste do estado do Maranhão. O território do parque, com uma área de 156 584 ha, está distribuído pelos municípios de Barreirinhas, Primeira Cruz e Santo Amaro do Maranhão. O parque foi criado com a finalidade precípua de \"proteger a flora, a fauna e as belezas \n[…]\nO parque nacional dos Lençóis Maranhenses foi criado em terras devolutas pertencentes à União através do Decreto Nº 86.060, emitido em 2 de junho de 1981 pela Presidência da República. A área do parque, conforme o decreto de criação, era de 155 000 ha.\n[…]\nO parque localiza-se na Microrregião dos Lençóis Maranhenses, ao norte do Brasil, no litoral nordeste do estado do Maranhão. Com um perímetro de 270 km e 156 584 ha de área, o parque está inserido no bioma costeiro marinho, com ecossistemas de mangue, restinga e dunas. Lençóis Maranhenses abriga em seu interior aproximadamente 90 000 ha de dunas livres e lagoas interdunares de água doce, além de grandes áreas de restinga e de costa oceânica.\n[…]\nNa área do Parque Nacional e na APA dos Pequenos Lençóis Maranhenses abriga espécie endêmica a tartaruga-pininga (Trachemys adiutrix).\n[…]\nO Parque Nacional dos Lençóis Maranhenses recebe mais de cem mil visitantes por ano, tendo alcançado o número de 280 878 visitas em 2021, e cerac de 408 mil turistas em 2023, segundo o Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio). Atividades comuns dentro do parque incluem surfe, canoagem e passeios a cavalo.\n[…]\nEm julho de 2024, a Prefeitura de Santo Amaro anunciou que iria retomar a cobrança de 10 reais para turistas que visitassem os Lençóis Maranhenses por meio do município.\n[…]\nParques nacionais do Brasil\n[…]\nParque dos Lençóis, Secretaria de Turismo do Maranhão.\n[…]\nParque Nacional dos Lençóis Maranhenses na UNESCO"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lençóis_Maranhenses_National_Park",
+        "situacao": "ok",
+        "texto": "Lençóis Maranhenses National Park (, Parque Nacional dos Lençóis Maranhenses) is a national park in Maranhão state in northeastern Brazil, just east of the Baía de São José. Protected on June 2, 1981, the 155,000 ha (380,000-acre) park includes 70 km (43 mi) of coastline, and an interior composed of rolling sand dunes. During the rainy season, the valleys among the dunes fill with freshwater lagoo\n[…]\nThe park is located on the northeastern coast of Brazil in the state of Maranhão along the eastern coast, bordered by 70 kilometres (43 mi) of beaches along the Atlantic Ocean. Inland, it is bordered by the Parnaíba River, the São José Basin, and the rivers of Itapecuru, Munim, and Periá. The park encompasses an area of 155,000 hectares (380,000 acres), composed mainly of expansive coastal dune fields (composed of barchanoid dunes), which formed during the late Quaternary period.\n[…]\nLençóis Maranhenses National Park receives as many as 60,000 visitors a year. Common activities within the park include surfing, canoeing and horse riding.\n[…]\nFormer Lençóis Maranhenses National Park's Official site"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Teresina",
+      "descricao": "Capital do estado do Piauí, cidade planejada fundada em 1852."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A capital do Piauí recebeu seu nome em homenagem a qual imperatriz do Brasil?",
+    "resposta": "Teresa Cristina",
+    "distratores": [
+      "Leopoldina",
+      "Amélia",
+      "Carlota Joaquina"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teresina"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teresina",
+        "situacao": "ok",
+        "texto": "Teresina é um município brasileiro e capital do estado do Piauí, sendo a única capital da Região Nordeste que não se localiza no litoral, distando 343 km do Oceano Atlântico. Sua população, segundo o Censo 2022, do IBGE, era de 866 300 habitantes, o que a faz a cidade mais populosa do Piauí.\n[…]\nHistoricamente, Teresina desenvolveu-se por meio do Rio Parnaíba, através da navegação fluvial. Sendo a primeira capital planejada do Brasil, surgiu para substituir a então capital Oeiras, que isolada na região central do Piauí, não conseguia deter a influência comercial e industrial da cidade de Caxias, no estado vizinho do Maranhão, sob boa parte do oeste do estado.\n[…]\nA transferência efetiva da capital da Província do Piauí de Oeiras para Teresina foi efetivada em 16 de agosto de 1852, dirigindo circular a todos os presidentes de províncias do Brasil comunicando o fato, instituindo-a assim, como nova capital da província. Teresina integraria o estado por meio do Rio Parnaíba com a navegabilidade, facilitando o comércio de produtos pelo porto de Parnaíba, no litoral, além do restante do estado.\n[…]\nO nome da cidade-sede da nova capital piauiense remonta a imperatriz consorte do Brasil, Dona Teresa Cristina de Bourbon-Duas Sicílias, mãe da Princesa Imperial do Brasil, Dona Isabel de Bragança.\n[…]\nA imperatriz teria intermediado, junto ao imperador Dom Pedro II do Brasil, a mudança da capital da província, e em sua homenagem os piauienses puseram o novo nome da cidade, sendo a contração de seus dois primeiros nomes próprios pelos quais ela era conhecida, ou seja, a junção dos nomes Teresa e Cristina, formando Teresina. Tornada nova capital, Teresina passou por um crescimento populacional bastante acentuado, aumentando de 49 para cerca de 8 mil habitantes em duas décadas.\n[…]\nTeresina de Goiás"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Recife",
+      "descricao": "Capital do estado de Pernambuco, cortada pelos rios Capibaribe e Beberibe."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa de seus rios, pontes e canais, que capital nordestina ganhou o apelido de Veneza brasileira?",
+    "resposta": "Recife",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Recife"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Recife",
+        "situacao": "ok",
+        "texto": "Recife é a capital do estado brasileiro de Pernambuco, na Região Nordeste do país. Com área territorial de aproximadamente 218 km², é formado por uma planície aluvial, tendo as ilhas, penínsulas e manguezais como suas principais características geográficas.\n[…]\nO Recife é conhecido como \"Veneza Brasileira\" graças à semelhança fluvial de sua área mais central com a cidade europeia de Veneza. Cercado por rios e cortado por pontes, é cheio de ilhas e mangues. Na cidade acontece o encontro dos rios Beberibe e Capibaribe que deságuam no Oceano Atlântico. O município conta com dezenas de pontes, entre elas a mais antiga da América Latina, a Ponte Maurício de Nassau.\n[…]\nO Recife desempenha um forte papel centralizador em sua região: é a quarta capital brasileira na hierarquia da gestão federal, atrás somente de Brasília, Rio de Janeiro e São Paulo, abrigando grande número de sedes regionais e nacionais de instituições públicas da União, como a Sudene, o Comando Militar do Nordeste, o Cindacta III, o II COMAR, a Eletrobras Chesf, o TRF da 5ª Região, a Procuradoria-Regional da Fazenda Nacional na 5.ª região, a SRNE da Infraero, a SRNE do INSS, entre outras.\n[…]\nO RioMar Shopping, localizado na Zona Sul do Recife, é o maior centro de compras do Norte-Nordeste e o terceiro maior do Brasil. Pertence ao Grupo JCPM, conglomerado sediado no Recife, que é proprietário, dentre outros centros comerciais, do Shopping Recife (também localizado na capital pernambucana e sétimo maior do Brasil).\n[…]\nO Recife é conhecido como a \"Capital Brasileira dos Naufrágios\", e atrai mergulhadores de todo o mundo por sua rica vida marinha e suas águas calmas e cristalinas com temperaturas próximas dos 30 graus.\n[…]\nBairros do Recife\n[…]\nPernambucanos naturais do Recife\n[…]\nRecife no TripAdvisor"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Baía de Todos-os-Santos",
+      "descricao": "Grande baía do litoral da Bahia, às margens da qual fica Salvador."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A Baía de Todos os Santos ganhou esse nome por ter sido alcançada por navegadores portugueses em que dia de 1501?",
+    "resposta": "Primeiro de novembro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Baía_de_Todos-os-Santos",
+      "https://en.wikipedia.org/wiki/All_Saints_Bay"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Baía_de_Todos-os-Santos",
+        "situacao": "ok",
+        "texto": "A Baía de Todos-os-Santos (BTS) é uma reentrância da costa litorânea brasileira localizada no estado da Bahia. Estende-se por 1 233 quilômetros quadrados, com profundidade média de 9,8 metros, chegando até 70 metros, com visibilidade de mergulho entre 10 e 20 metros. Ela é a terceira maior baía do Brasil, após a Baía de São Marcos (2 568 quilômetros quadrados) e São José (1 309 quilômetros quadrad\n[…]\nFoi nominada em 1501 quando uma expedição portuguesa comandada por Gaspar de Lemos e acompanhada por Américo Vespúcio, cartógrafo e escritor italiano, que daria nome a todo o continente americano, foi enviada para mapear as novas terras, descobertas um ano antes por Pedro Álvares Cabral. Era o dia 1º de novembro, Dia de Todos os Santos na tradição da religião católica.\n[…]\nA relevância estratégica do local, associada à existência de colinas e acidentes geográficos a leste (relevo que permitiria o costume medieval de fortificação das cidades), foram decisivas para que Tomé de Sousa mais tarde escolhesse a região para fundar, por ordens do rei de Portugal, a cidade que seria a sede da primeira capital da colônia portuguesa — Salvador.\n[…]\nA região é bastante procurada para a prática de esportes náuticos, como vela, remo, regata e canoagem, sendo por isso realizada muitas competições do tipo em suas águas calmas também propícias para o mergulho e stand up paddle. Também ocorre por lá a tradicional procissão marítima do Bom Jesus dos Navegantes, no primeiro dia do Ano Novo. A região possui uma grande diversidade natural, formada por mata Atlântica, bananais, manguezais, coqueirais e recifes de corais.\n[…]\nHatje, Vanessa; de Andrade, Jailson B (2009). Baía de Todos os Santos: aspectos oceanográficos (PDF). Salvador: EDUFBA. pp. 306 p. ISBN 9788523205973. Consultado em 12 de Setembro de 2015\n[…]\nBaia de Todos os Santos é declarada pela Associação Comercial da Bahia como Sede Natural da Amazônia Azul"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/All_Saints_Bay",
+        "situacao": "ok",
+        "texto": "The Bay of All Saints (Portuguese: Baía de Todos os Santos), also known as All Saints' Bay and Todos os Santos Bay, is the principal bay of the Brazilian state of Bahia, to which it gave its name. It sits on the eastern coast of Brazil, surrounding part of Bahia's capital Salvador and opening to the Atlantic Ocean. It covers 1,223 square kilometers (472 mi2), making it the largest bay in Brazil.\n[…]\nThe Italian explorer Amerigo Vespucci was the first European to visit the bay, during his second expedition to the Americas. He entered the bay on All Saints' Day (November 1), 1501. He named the Bay of the Holy Savior of All the Saints after the date and his parish church in Florence, San Salvatore di Ognissanti.\n[…]\nInitially, the bay, its principal settlement, and the captaincy around it all shared the same name, but they were eventually distinguished, the state becoming simply Bahia, the bay becoming the Bay of All Saints, and the city becoming first Bahia and now (usually) Salvador.\n[…]\nIn 1501, one year after the arrival of Pedro Álvares Cabral's fleet in Porto Seguro, Gaspar de Lemos arrived at the Bay of All Saints and sailed most of the Bahia coast. The first European to disembark in Morro de São Paulo was Martim Afonso de Sousa in 1531, while he was leading an expedition charged with exploring the coast of the new continent.\n[…]\nThe northeast shore of the Bay of All Saints is home to Brazil's first active oil fields. The municipality of São Francisco do Conde, at the north of the bay, remains a port that serves the oil refineries at Mataripe. The bay is dredged from the port to the Atlantic Ocean to remain open to shipping.\n[…]\n\"Plano de la Bahia de todos Santos situada en la costa meridional del Brasil\", a 19th-century Spanish map of the Bay of All Saints"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Arquipélago dos Abrolhos",
+      "descricao": "Arquipélago e parque nacional marinho no sul do litoral da Bahia, cercado de recifes."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Segundo a explicação mais difundida, o nome do arquipélago baiano de Abrolhos vem de que alerta aos navegantes sobre os recifes?",
+    "resposta": "Abra os olhos",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Arquipélago_dos_Abrolhos",
+      "https://en.wikipedia.org/wiki/Abrolhos_Archipelago"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arquipélago_dos_Abrolhos",
+        "situacao": "ok",
+        "texto": "Abrolhos é um arquipélago costeiro localizado no Oceano Atlântico, a cerca de 65 quilômetros do litoral sul do estado brasileiro da Bahia. É constituído por cinco ilhas, estando a trinta e seis milhas náuticas da costa de Caravelas. As cinco ilhas do arquipélago são: Ilha de Santa Bárbara (sob controle da Marinha do Brasil, onde está o farol e também a única habitada), Ilha Siriba, Ilha Redonda, I\n[…]\nAs ilhas estão dispersas numa área total de 913 quilômetros quadrados, área que pertence ao Parque Nacional Marinho dos Abrolhos, controlado pelo Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio) com apoio da Marinha do Brasil. O arquipélago foi a primeira área do Brasil que recebeu o título de \"Parque Nacional Marinho\", pelo decreto n.° 88.218, de 6 de abril de 1983.\n[…]\nA origem do seu nome vem da língua portuguesa, tendo primeiramente sido registrado em diversos mapas como um aviso aos navegadores por frequentes acidentes e naufrágios causados pela formação de corais e que dificultavam a navegação: \"Abre Olhos\".\n[…]\nEntretanto, no mês seguinte as ilhas do arquipélago começaram a receber pequenas manchas de óleo provenientes do vazamento misterioso que atingiu toda a costa Nordeste do Brasil. O evento atingiu seis aves marinhas, que foram resgatadas e transportadas até o Espírito Santo para remoção da substância. Felizmente, o evento não chegou ao Parque Nacional Marinho dos Abrolhos com magnitude suficiente a ponto de causar danos em grande escala.\n[…]\nParque Nacional Marinho dos Abrolhos\n[…]\nRegião dos Abrolhos\n[…]\nAbrolho (geografia)\n[…]\nAbrolhos (Oceania)\n[…]\n«Parque Nacional Marinho dos Abrolhos»\n[…]\n«Grupo reconfigura mapa subaquático de Abrolhos» , Folha de S.Paulo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Abrolhos_Archipelago",
+        "situacao": "ok",
+        "texto": "The Abrolhos Archipelago (Portuguese: Arquipélago de Abrolhos) are a group of 5 small islands with coral reefs off the southern coast of Bahia state in the northeast of Brazil, between 17º25’—18º09’ S and 38º33’—39º05’ W. Caravelas is the nearest town. Their name comes from the Portuguese: abrolho (\"Abre Olhos\" meaning: Open your eyes), a rock awash or submerged sandbank that is a danger to ships.\n[…]\nThese islets were surveyed by  Baron Roussin. As part of the instructions for the second survey voyage of HMS Beagle, the Admiralty noted \"the great importance of knowing the true position of the Abrolhos Banks, and the certainty that they extend much further out than the limits assigned to them by Baron Roussin\", and asked Captain Robert FitzRoy to take soundings and establish the position of the reefs.\n[…]\nKnown to the Royal Navy in the First World War as the Abrolhos Rocks, the area was used as a refuelling point (coal) during Doveton Sturdee's operations against the German cruisers of Admiral Von Spee in late 1914. This operation ended with the Battle of the Falklands and the subsequent sinking of the only survivor, SMS Dresden.\n[…]\nParcel dos Abrolhos, a large submerged reef extending from north to south east of the archipelago. Located 5 kilometres (3.1 miles) to the east of Santa Barbara Island, its limits are not well defined.\n[…]\nParcel das Paredes, located to the northwest of the archipelago and the largest feature of the wider Abrolhos.\n[…]\nThe Abrolhos Marine National Park (Portuguese: Parque Nacional Marinho dos Abrolhos) is a Marine Park located in the Abrolhos Archipelago since 1983. It is strictly forbidden to disembark on Ilha Guarita and Ilha Suest.\n[…]\nAbrolhos Isle Portal\n[…]\nAbrolhos - The South Atlantic Largest Coral Reef Complex\n[…]\nABROLHOS (en espanhol)"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "João Pessoa",
+      "descricao": "Capital do estado da Paraíba, antes chamada Parahyba."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1930, a capital da Paraíba trocou de nome para homenagear um político paraibano assassinado naquele ano. Que nome passou a ter?",
+    "resposta": "João Pessoa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/João_Pessoa",
+      "https://en.wikipedia.org/wiki/João_Pessoa,_Paraíba"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/João_Pessoa",
+        "situacao": "ok",
+        "texto": "João Pessoa é um município brasileiro, capital do estado da Paraíba. Com população de mais de 830 mil habitantes no censo de 2022, a capital paraibana é o município mais populoso de seu estado, o sétimo da Região Nordeste e o 20º do Brasil. A Região Metropolitana de João Pessoa, formada pela capital e mais onze municípios, tinha uma população de aproximadamente 1,4 milhão de pessoas.\n[…]\nSua denominação atual, \"João Pessoa\", é uma homenagem ao político paraibano João Pessoa Cavalcanti de Albuquerque, assassinado em 1930 na cidade do Recife, quando era presidente do estado (na época, denominação para o cargo de governador) e concorria, como candidato a vice-presidente da República, na chapa de Getúlio Vargas.\n[…]\nEm 26 de julho de 1930, João Pessoa fora assassinado na Confeitaria Glória na Rua Nova, em Recife, por João Duarte Dantas, seu adversário e desafeto político. O episódio gerou grande repercussão nacional e se tornou um dos estopins da Revolução de 1930, no qual a Paraíba liderou com Minas Gerais e Rio Grande do Sul. Seu corpo foi embalsamado ainda em Recife e transportado por via férrea para a capital paraibana, onde chegou no dia 27 e seguiu para a Catedral de Nossa Senhora das Neves.\n[…]\nEm 1º de setembro de 1930, durante sessão ordinária da Assembleia Legislativa da Paraíba no Teatro Santa Rosa, foi apresentado um projeto de lei que alterava o nome da capital de Parahyba do Norte para João Pessoa. Tal projeto, votado e aprovado em dois turnos, foi sancionado no dia 4 de setembro seguinte pelo presidente da Paraíba, Álvaro Pereira de Carvalho, tornando-se a lei estadual nº 700.\n[…]\nA Fundação Cultural de João Pessoa (FUNJOPE), vinculada à SEEC, é o órgão da prefeitura de João Pessoa responsável por promover, incentivar e coordenar políticas públicas de cultura e artes na capital paraibana.\n[…]\nParaibanos naturais de João Pessoa\n[…]\n«Câmara Municipal de João Pessoa»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/João_Pessoa,_Paraíba",
+        "situacao": "ok",
+        "texto": "João Pessoa ( ZHWOWN pə-SOH-ə; Portuguese: [ʒuˈɐ̃w peˈsoɐ]) is a port city in northeastern Brazil. It is the largest city and capital of the state of Paraíba, with an estimated population of 888,679 (as of 2024). It is located on the right bank of the Paraíba do Norte river.\n[…]\nThe capital of Paraíba received the title of Creative City by UNESCO in 2017, appointing João Pessoa as \"Brazilian city of handicrafts\".\n[…]\nOn July 26, 1930, João Pessoa was assassinated at Glória Confectionery, on Rua Nova (New Street), in Recife, by his political opponent and personal enemy João Duarte Dantas. The event caused great national repercussion and became one of the triggers of the 1930 Revolution, which was led by Paraíba, Minas Gerais, and Rio Grande do Sul.\n[…]\nOn September 1, 1930, during an ordinary session of the Legislative Assembly of Paraíba at the Santa Roza Theatre, a bill was introduced to change the capital's name from Parahyba do Norte to João Pessoa. The bill, voted on and approved in two rounds, was sanctioned on September 4 by the state president Álvaro Pereira de Carvalho, becoming State Law No. 700.\n[…]\nIn 1940, the Aeroclube da Paraíba was founded, beginning operations on November 10 in what is now the Tambauzinho neighborhood, on the former site of the Imbiribeira Field. Starting in 1941, the state government opened the João Pessoa–Cabedelo highway to connect the capital's urban area to the Port of Cabedelo, which had been operating since 1935 at the mouth of the Paraíba River.\n[…]\nFinally, on December 17, 2024, the Legislative Assembly of Paraíba approved a constitutional amendment removing the provision for a plebiscite on the city's name, officially confirming João Pessoa as the capital's name.\n[…]\nOfficial Promotional video of João Pessoa | English"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Rio Tietê",
+      "descricao": "Rio do estado de São Paulo que nasce perto do litoral e corre para o interior até o rio Paraná."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O rio Tietê nasce a poucos quilômetros do litoral paulista, mas corre para o interior. Que formação de relevo o impede de chegar ao mar?",
+    "resposta": "Serra do Mar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rio_Tietê",
+      "https://en.wikipedia.org/wiki/Tietê_River"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rio_Tietê",
+        "situacao": "ok",
+        "texto": "Rio Tietê é um curso de água do estado brasileiro de São Paulo, sendo um afluente do rio Paraná. É conhecido nacionalmente por atravessar, ao longo de seus 1 100 quilômetros de extensão, praticamente todo o estado de São Paulo, de leste a oeste, além de marcar a geografia urbana da maior cidade do país, São Paulo. O Tietê nasce no município de Salesópolis, a 22 km do oceano Atlântico, e corre para\n[…]\nA sua nascente fica a 1 120 metros de altitude, na Serra do Mar, mas apesar de estar a apenas 22 quilômetros do litoral, as escarpas da serra obrigam-no a fluir em sentido inverso, atravessando o estado de sudeste a noroeste até desaguar no lago formado pela barragem de Jupiá, no rio Paraná, na divisa com o estado de Mato Grosso do Sul, entre os municípios de Itapura e Castilho, cerca de 50 km a jusante da cidade de Pereira Barreto.\n[…]\nAlto Tietê - começa nas nascentes do rio, em Salesópolis, e vai até a cidade de Pirapora de Bom Jesus. Tem aproximadamente 250 km de extensão e 350 metros de desnível. O Alto Tietê percorre uma região de grande aglomeração populacional, tem boa parte de suas condições naturais modificadas intensamente pela ação humana, mas ainda corre em corrente livre.\n[…]\nA Barragem Laras, próxima a Laranjal Paulista\n[…]\nParque Ecológico do Tietê\n[…]\nEm 22 de setembro é celebrado o Dia do Rio Tietê, considerado o rio mais significativo do Centro-Oeste Paulista e, inclusive, também é chamado de \"o rio dos paulistas\", já que suas águas permeiam quase todo o estado. Barra Bonita (SP) é uma das várias cidades banhadas pelo rio e que devem a ele lazer e diversão, além de turismo e comércio, que geram uma grande movimentação econômica na cidade de pouco mais de 36 mil habitantes.\n[…]\nPágina do Departamento de Águas e Energia Elétrica do Estado de São Paulo - departamento do governo estadual paulista responsável pelo combate às enchentes no rio Tietê"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tietê_River",
+        "situacao": "ok",
+        "texto": "The  Tietê River (Portuguese: Rio Tietê [tʃi.eˈte]) is a Brazilian river in the state of São Paulo.\n[…]\nThe headwaters are in the Serra do Mar, to the east of São Paulo.\n[…]\nThe pollution of the Tietê River did not start long ago. Even in the 1960s, the river still had fish in the stretch within the capital. However, the environmental degradation of the Tietê River started subtly in the 1920s with the construction of the Guarapiranga Reservoir, by the Canadian firm  São Paulo Tramway, Light and Power Company, for the later generation of electrical energy in the hydroelectric power stations Edgar de Souza and Rasgão, situated in Santana de Parnaíba.\n[…]\nEven in the 1920s and 1930s, the river was utilised for fishing and sports activities were famous as were the nautical races on the river. During this period boat race clubs were created along the length of the river, such as the Club of the Tietê races and the Espéria, clubs that exist till now.\n[…]\nSeveral species from the Tietê River are considered threatened and one of these, the catfish Heptapterus multiradiatus, is possibly already extinct.\n[…]\nAfter more than 16 years, the cleaning up of the River Tietê is still far short of desired levels, but encouraging progress has been made. At the end of the 1990s, the capacity of sewage treatment has been expanded: Sabesp has expanded the treatment capacity of the Wastewater Treatment Plant in Barueri, and the Seasons of the Sewage Treatment at San Miguel, to treat the rest of the sewage of the city of São Paulo.\n[…]\nMedia related to Rio Tietê at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Rio Negro",
+      "descricao": "Rio de águas escuras da Amazônia, principal afluente da margem esquerda do Amazonas, que passa por Manaus."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que as águas do rio Negro, na Amazônia, têm a cor escura de chá que dá nome ao rio?",
+    "resposta": "Matéria orgânica em decomposição",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)",
+      "https://pt.wikipedia.org/wiki/Rio_Negro_(Amazonas)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)",
+        "situacao": "ok",
+        "texto": "The Rio Negro (Spanish: Río Negro [ˈri.o ˈneɣɾo], Portuguese: Rio Negro [ˈʁi.u ˈneɡɾu], \"Black River\"), or Guainía as it is known in its upper part, is the largest left tributary of the Amazon River (accounting for about 14% of the water in the Amazon basin), the largest blackwater river in the world, and one of the world's ten largest rivers by average discharge. It originates in the tepuis of th\n[…]\nDuring 1852–1854 Richard Spruce and Alfred Russel Wallace made numerous observations and botanical collections. During a 1924–25 expedition, Alexander H. Rice of Harvard University traveled up the Orinoco, traversed the Casiquiare canal, and descended the Rio Negro to the Amazon at Manaus. It was the first expedition to use aerial photography and shortwave radio for mapping of the region. In 1968, the Rio Negro was navigated by an SRN6 hovercraft during a National Geographic expedition.\n[…]\nThis area was the filming location for Survivor: The Amazon in 2003.\n[…]\nThe sixth season of Survivor, Survivor: The Amazon was filmed in Rio Negro in 2003. Also Meeting of the Waters by Animal Collective was recorded in Rio Negro in 2016.\n[…]\nGoulding, M., Carvalho, M. L., & Ferreira, E. J. G. (1988). Rio Negro, Rich Life in Poor Water : Amazonian Diversity and Foodchain Ecology as seen through Fish Communities. The Hague: SPB Academic Publishing. ISBN 90-5103-016-9\n[…]\nSioli, H. (1955). \"Beiträge zur regionalen Limnologie des Amazonasgebietes. III. Über einige Gewässer des oberen Rio Negro-Gebietes.\" Arch. Hydrobiol., 50(1), 1-32.\n[…]\nWallace, A. R. (1853). A narrative of travels on the Amazon and Rio Negro, with an account of the native tribes, and observations on the climate, geology, and natural history of the Amazon Valley. London: Reeve.\n[…]\nWright, R. (2005). História indígena e do indigenismo no Alto Rio Negro. São Paulo, Brazil: UNICAMP & Instituto Socioambiental. ISBN 85-7591-042-6."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rio_Negro_(Amazonas)",
+        "situacao": "ok",
+        "texto": "O rio Negro é o maior afluente da margem esquerda do rio Amazonas, na Amazônia, na América do Sul. É o sétimo maior rio do mundo em volume de água. Tem a sua origem entre os tepuis da Reserva Nacional Natural Puinawai, no departamento colombiano de Guainía, na fronteira entre este país e o Brasil. Conecta-se com o Orinoco através do canal do Cassiquiare. Na Colômbia, onde tem a sua nascente, també\n[…]\nO rio Negro era chamado pelos indígenas de rio Quiary, Guriguacurú ou Ueneyá.\n[…]\nO rio Negro nasce na Colômbia, onde é conhecido como rio Guainía, que flui na direção leste-nordeste. Após cerca de 400 km, o rio vira para o sudeste e passa a formar a fronteira entre o departamento de Guainía da Colômbia e o estado do Amazonas, na Venezuela, e chega à Piedra del Cocuí, uma formação rochosa ígnea da era pré-cambriana, parte do Escudo das Guianas, que serve de triple fronteira.\n[…]\nDesde ai, entra no Brasil pela localidade de Cucuí, um distrito de São Gabriel da Cachoeira, no Amazonas.\n[…]\nPróximo ao Carvoeiro, o último grande afluente do rio Negro, o rio Branco se junta ao Negro, que toma um curso mais sudeste, tornando-se muito largo em muitos trechos antes de atingir a cidade de Manaus. Abaixo do Parque Nacional de Anavilhanas encontra o rio Solimões para formar o rio Amazonas, criando o fenômeno conhecido como Encontro das águas.\n[…]\nO encontro das águas é um fenômeno que acontece na confluência entre o rio Negro, de água preta, e o rio Solimões, de água barrenta, onde as águas dos dois rios correm lado a lado sem se misturar por uma extensão de mais de 6 km. É uma das principais atrações turísticas da cidade de Manaus.\n[…]\nEsse fenômeno acontece em decorrência da diferença entre a temperatura e densidade das águas e, ainda, à velocidade de suas correntezas: o rio Negro corre cerca de 2 km/h a uma temperatura de 28°C, enquanto que o Rio Solimões corre de 4 a 6 km/h a uma temperatura de 22°C."
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Pororoca",
+      "descricao": "Fenômeno de grandes ondas que sobem a foz de rios amazônicos, como o Amazonas e o Araguari."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A pororoca, onda estrondosa que sobe certos rios amazônicos, nasce do encontro das águas do rio com o quê?",
+    "resposta": "A maré do oceano",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pororoca",
+      "https://en.wikipedia.org/wiki/Pororoca"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pororoca",
+        "situacao": "ok",
+        "texto": "Pororoca ou mupororoca é a forma como são denominados os macaréus que ocorrem na Amazônia. Trata-se de um fenômeno natural produzido pelo encontro das correntes fluviais com as águas oceânicas.\n[…]\nO termo \"pororoca\" origina-se do tupi pororoka, palavra composta pelo verbo pororok (explodir, rebentar, estrondar) e o sufixo substantivador -a. Deste modo, a palavra significa estrondo, explosão, ato de rebentar.\n[…]\nO fenômeno manifesta-se, no Brasil, na foz do rio Amazonas e afluentes do litoral paraense e amapaense (rio Araguari, rio Maiacaré, rio Guamá, Rio Capim, Rio Moju) e na foz do rio Mearim, no Maranhão. Esse choque das águas derruba árvores de grande porte e modifica o leito dos rios.\n[…]\nRecentemente, o fenômeno tem atraído praticantes de surfe, transformando-se numa atração turística regional amazônica.\n[…]\nEm julho de 2015, foi declarado oficialmente que o fenômeno já não ocorre no rio Araguari. A ocupação irregular de áreas nativas para a criação de búfalos foi um dos principais fatores que provocaram o fim do fenômeno da pororoca na bacia desse rio do extremo leste do Amapá.\n[…]\nFestival da Pororoca"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pororoca",
+        "situacao": "ok",
+        "texto": "The Pororoca (Portuguese pronunciation: [pɔɾɔˈɾɔkɐ], [poɾoˈɾɔkɐ]) is a tidal bore, with waves up to 4 m (13 ft) high that travel as much as 800 km (500 mi) inland upstream on the Amazon River and adjacent rivers. It occurs at the mouth of the river where its waters meet the Atlantic Ocean. It can be observed from the islands Marajó and Caviana, and in various rivers of the state Pará.\n[…]\nThe underwater bathymetry in the Amazon Delta contributes to the development of the Pororoca, which can become up to 50 kilometres (31 mi) wide. Its shape and appearance changes as a function of the complex topography of the river channels in the Delta. The Pororoca causes erosion, landslides and sedimentation, contributing to a certain mobility of the islands in the delta. It mixes sediments and organic matter, creating a fertile feeding ground for piranhas.\n[…]\nBetween  1845 and 1850, a particularly strong Pororoca separated the island Caviana into two parts, afterwards named Inner and Outer Caviana.\n[…]\nOutside the state Pará, the Pororoca can be observed in the Mearim River in the state Maranhão, 690 kilometres (430 mi) south-east of the mouth of the Amazon.\n[…]\nJules Verne gave a rather accurate description of the Pororoca between the islands Caviana and Mexiana in his novel The Giant Raft, although he had never visited the area.\n[…]\nThe wave has become popular with surfers. Since 1999, an annual championship has been held in São Domingos do Capim (on the adjacent Guamá River). However, surfing the Pororoca is especially dangerous, as the water contains a significant amount of debris from the shores of the river (often entire trees), in addition to dangerous fauna. In 2003 the Brazilian Picuruta Salazar won the event with a record ride of 12.5 km (7.8 mi) lasting 37 minutes.\n[…]\nCorran Addison about the Pororoca Wave - Playak.com"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Ilha da Queimada Grande",
+      "descricao": "Ilha do litoral sul do estado de São Paulo, conhecida como Ilha das Cobras."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A visita à Ilha da Queimada Grande, no litoral paulista, é proibida ao público por causa de qual animal que só existe lá?",
+    "resposta": "Jararaca-ilhoa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_da_Queimada_Grande",
+      "https://en.wikipedia.org/wiki/Ilha_da_Queimada_Grande"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_da_Queimada_Grande",
+        "situacao": "ok",
+        "texto": "A Ilha da Queimada Grande está localizada entre Itanhaém e Peruíbe a cerca de 35 km do litoral do estado de São Paulo, a ilha pertence ao município de Itanhaém. É desabitada e tem acesso proibido e restrito a analistas ambientais do Instituto Chico Mendes de Conservação da Biodiversidade, órgão federal que administra as unidades de conservação do Brasil, bem como a cientistas autorizados por essa \n[…]\nA ilha está a 18 milhas náuticas (aproximadamente 35 km) da costa de Itanhaém e Peruibe, e apresenta difíceis condições de desembarque e difíceis condições para fundeio de embarcações. O desembarque não é aconselhado e até mesmo foi proibido pela Marinha do Brasil devido à grande quantidade de cobras, especialmente a jararaca-ilhoa, espécie endêmica da ilha. Outro motivo para a inibição do desembarque é a preservação da fauna e flora da ilha.\n[…]\nA Queimada Grande é também conhecida como \"Ilha das Cobras\", não sendo aconselhado o desembarque devido ao elevado número de serpentes da espécie jararaca-ilhoa (Bothrops insularis).\n[…]\nO desenvolvimento dessa espécie endêmica da ilha foi devido ao isolamento geográfico submetido após a última glaciação no final do Pleistoceno. Isolada numa ilha rochosa com cadeia alimentar baseada em aves, a jararaca passou a subir em árvores, o que não é natural nas espécies do continente.\n[…]\nEntretanto, estudos relacionando filogenia e hábitos alimentares demonstram que a jararaca-ilhoa possui uma mudança em sua dieta, com os indivíduos jovens alimentando-se de anfíbios e lagartos e os adultos apenas de aves migratórias. Seu veneno tornou-se mais potente para garantir a morte imediata da presa que, se demorasse para morrer, poderia acabar por se afastar em voo.\n[…]\nNas águas da face oeste da ilha existem dois navios naufragados, próximo ao Saco das Bananas:"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ilha_da_Queimada_Grande",
+        "situacao": "ok",
+        "texto": "Ilha da Queimada Grande, more commonly referred to as Snake Island, is an island off the coast of Brazil in the Atlantic Ocean. It has become famous for its abundance of snakes, hence its common name. The island, which has a land area of 43 hectares (106 acres), is administered as part of the municipality of Itanhaém in the State of São Paulo. It has a temperate climate, and its terrain varies fro\n[…]\nQueimada Grande is closed to the public for the protection of both people and snakes; access is available only to the Brazilian Navy and selected researchers vetted by the Chico Mendes Institute for Biodiversity Conservation, the Brazilian federal conservation unit.\n[…]\nIlha da Queimada Grande partly consists of barren rock, a result of deforestation, which is the origin of the island's name: the term queimada is Portuguese for \"forest fire\", due to historical attempts by locals to clear land for a banana plantation by burning. A lighthouse was constructed in 1909 to steer ships away from the island, and the last human inhabitants left when the lighthouse was automated in the 1920s.\n[…]\nThe island and the Ilha Queimada Pequena to the west are protected by the 33 hectares (82 acres) Ilhas Queimada Pequena e Queimada Grande Area of Relevant Ecological Interest, created in 1985. The Brazilian Navy has closed the island to the public to protect human and snake life. The only people allowed on the island are research teams who receive waivers to collect data.\n[…]\nDespite a population of 41 recorded bird species on Queimada Grande, the golden lancehead preys on only two: the southern house wren (Troglodytes musculus) and the Chilean elaenia (Elaenia chilensis). The golden lancehead is categorized as critically endangered on the IUCN Red List of Threatened Species. The island is also home to a smaller population of Dipsas albifrons, a non-venomous snake species."
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Serra Pelada",
+      "descricao": "Local de garimpo no sudeste do Pará, palco de uma grande corrida de garimpeiros nos anos 1980."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1980, que metal atraiu dezenas de milhares de garimpeiros para a Serra Pelada, no Pará?",
+    "resposta": "Ouro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Serra_Pelada",
+      "https://en.wikipedia.org/wiki/Serra_Pelada"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Serra_Pelada",
+        "situacao": "ok",
+        "texto": "A Serra Pelada é uma localidade brasileira, vila e distrito do município de Curionópolis, no sudeste do Pará.\n[…]\nEm janeiro de 1980 um comprador de ouro espalhou a notícia da área de lavra em Marabá, de onde a até então Grota Rica era jurisdicionada. Rapidamente chegaram ao local cerca de mil garimpeiros. Essa chegada repentina de tantas pessoas tornou difícil para alocar todos nos barrancos do rio, muitos sendo obrigados a garimpar numa colina sem vegetação nas proximidades, apelidada de \"Serra Pelada\".\n[…]\nA quantidade de ouro encontrado na colina foi ainda maior, fazendo com que, em março de 1980, o número de pessoas no local saltasse para cinco mil. O acampamento havia se tornado uma vila, recebendo, finalmente, o nome de Serra Pelada.\n[…]\nA década de 1990 inicia com a euforia do decreto n° 167, de 12 de junho de 1991, do presidente Fernando Collor, que prorroga a atividade mineral na Serra Pelada; no entanto dura pouco, pois em 1992, cedendo à pressão de multinacionais de mineração, o presidente fecha o garimpo de ouro da vila. O buraco da cava enche-se de água, com profundidade de 200 metros e forte contaminação por mercúrio.\n[…]\nO principal acidente geográfico do distrito, a colina de Serra Pelada, foi totalmente decomposta pelo processo de garimpo ali desenvolvido. Esta era uma extensão da Serra dos Carajás um extensa formação geológica rica em recursos minerais. Os detritos da decomposição da Serra Pelada formaram uma colina artificial ao lado de onde ficava a original, com aproximadamente 100 metros de altitude. Há a suspeita que essa colina seja rica fragmentos de ouro de rejeito."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Serra_Pelada",
+        "situacao": "ok",
+        "texto": "Serra Pelada (English: \"Bald Ridge\") is a Brazilian village and district of the Municipality of Curionópolis, in the southeast of Pará State. A former boomtown, it is best known for its open-pit mine, which operated from 1980 until the early 90s and is now a polluted lake.\n[…]\nPrior to settlement in the late 70s, the area was covered in rainforest. The history of Serra Pelada is defined by artisanal mining. Rural settlement started in 1978, shortly prior to the discovery of gold. While the first settlers were not miners by trade, their settlement was sponsored by a scheme of the Ministry of Mines and Energy, the \"Garimpo Project\", which aimed to expand Brazil's production of gemstones and precious metals.\n[…]\nAccording to legend, the first alluvial gold at the Serra Pelada site was found in December 1979 by a vaqueiro in the Grota Rica stream, on the Três Barras Farm owned by Genésio Ferreira da Silva. In January 1980, Silva hired a geologist to investigate whether gold he found on his property was part of a larger deposit. A local child swimming on the banks of a local river found a 6-gram (0.21 oz) nugget of gold.\n[…]\nBy March, the prospectors (garimpeiros) had formed a village, named Serra Pelada after the \"bald mountain\" where gold was mined after the Grota Rica stream was exhausted.\n[…]\nIn 1984, the area of Serra Pelada reached its peak population of 80,000 (the municipality of Marabá, by comparison, had a total population of 60,000 in 1980). However, in the same year, production plummeted to 3.9 tons, and the pit reached a depth of 200 meters, making the sort of manual mining practiced at Serra Pelada increasingly difficult. Miners at the site were becoming restless, causing worries of unrest should the mine close.\n[…]\nSerra Pelada, 2013 Brazilian action film"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Usina Hidrelétrica de Itaipu",
+      "descricao": "Usina hidrelétrica binacional no rio Paraná, na fronteira entre Brasil e Paraguai."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que famoso conjunto de cachoeiras do rio Paraná desapareceu em 1982, coberto pelas águas do lago da usina de Itaipu?",
+    "resposta": "Salto de Sete Quedas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Salto_de_Sete_Quedas",
+      "https://en.wikipedia.org/wiki/Guaíra_Falls"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Salto_de_Sete_Quedas",
+        "situacao": "ok",
+        "texto": "O Salto de Sete Quedas, também chamado Sete Quedas do Rio Paraná (em castelhano:  Saltos del Guairá), foram as maiores cachoeiras do mundo em volume de água com 13,3 mil m³/segundo, sendo o dobro de volume d'água das Cataratas do Niágara, na divisa EUA/Canadá, e treze vezes mais caudalosas que as Victoria Falls na Zâmbia. Seu som poderia ser ouvido a 30 km de distância, seu canal principal possuía\n[…]\nEm 1966 foi decretada a submersão do Salto das Sete Quedas através da Ata do Iguaçu, onde ocorreria o seu desaparecimento com a formação do lago da Usina hidrelétrica de Itaipu. O governo havia decretado que a construção da Usina de Itaipu iria alagar as Setes Quedas, uma área em litígio entre Brasil e Paraguai devido a uma demarcação territorial sob a serra de Maracaju.\n[…]\nEm 13 de outubro de 1982, o fechamento das comportas do Canal de Desvio de Itaipu começou a sepultar, com as águas barrentas do lago artificial, um dos maiores espetáculos da face da Terra: as Sete Quedas do Rio Paraná ou \"Saltos del Guaíra\". Durante a inundação, os moradores de Guaíra iam até a beira do rio para se despedirem das Sete Quedas.\n[…]\nA inundação das Sete Quedas durou apenas 14 dias, pois ocorreu em uma época de cheia do rio Paraná, e todas as usinas hidrelétricas acima de Itaipu abriram suas comportas, contribuindo com o rápido enchimento do lago. O alagamento das Sete Quedas ocorreu somente nos dois últimos dias do alagamento total, ou seja, no décimo segundo dia de alagamento.\n[…]\nEm 1982, às vésperas dos 80 anos, o poeta Carlos Drummond de Andrade expressou sua inconformidade com a destruição do Salto de Sete Quedas, um patrimônio natural do Brasil e da humanidade.\n[…]\n1982 - Em 27 de outubro as Sete Quedas de Guaíra já não estavam mais expostas.\n[…]\n1984 - Em 5 de maio iniciaram as operações de Itaipu.\n[…]\nSete Quedas (Mato Grosso do Sul)\n[…]\nÁlbum de fotos Salto de Sete Quedas\n[…]\nSalto de Sete Quedas\n[…]\nÁlbum de 7 Quedas"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Guaíra_Falls",
+        "situacao": "ok",
+        "texto": "The Guairá Falls (Spanish: Saltos del Guairá) or Guaíra Falls (Portuguese: Salto das Sete Quedas do Guaíra) were a series of immense waterfalls on the Paraná River along the border between Paraguay and Brazil. The falls ceased to exist in 1982 when they were inundated by the impoundment of the Itaipu Dam reservoir.\n[…]\nThe falls comprised 18 cataracts clustered in seven groups—hence their Portuguese name, Sete Quedas (Seven Falls)—near the Brazilian municipality of Guaíra, Paraná and Salto del Guairá, the easternmost city in Paraguay. The falls were located at a point where the Paraná River was forced through a narrow gorge. At the head of the falls, the river narrowed sharply from a width of about 380 m (1,250 ft) to 60 m (200 ft).\n[…]\nAs construction of the Itaipu Dam progressed, thousands of visitors flocked to the area to see the falls before they disappeared forever. Disaster struck on January 17, 1982, when a suspended footbridge affording access to a particularly spectacular view of the falls collapsed, killing dozens of tourists.\n[…]\nEarlier, as the waters began to rise, a demonstration took place, as hundreds of people gathered to participate in a quarup, an indigenous ritual of remembrance for the dead, in memory of the falls. The inundation took only 14 days, occurring during the rainy season when the level of the Paraná River was high. On October 27, 1982, the falls had vanished as the reservoir was fully formed and with only part of the rock face visible during years of drought.\n[…]\nItaipu Lake\n[…]\nSalto de Sete Quedas photoset\n[…]\nSalto de Sete Quedas - Brasil, December 1978 by Mario Cesar Mendonça Gomes\n[…]\nSalto de Sete Quedas - Brasil, December 1978 by Mario Cesar Mendonça Gomes"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Usina Hidrelétrica de Itaipu",
+      "descricao": "Usina hidrelétrica binacional no rio Paraná, na fronteira entre Brasil e Paraguai."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A usina hidrelétrica de Itaipu, no rio Paraná, é dividida meio a meio entre o Brasil e qual país vizinho?",
+    "resposta": "Paraguai",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Usina_Hidrelétrica_de_Itaipu",
+      "https://en.wikipedia.org/wiki/Itaipu_Dam"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Usina_Hidrelétrica_de_Itaipu",
+        "situacao": "ok",
+        "texto": "Usina Hidrelétrica de Itaipu (em castelhano:  Itaipú, em guarani:  Itaipu) é uma hidrelétrica binacional localizada no Rio Paraná, na fronteira entre o Brasil e o Paraguai. A barragem foi construída pelos dois países entre 1975 e 1982. O nome Itaipu foi tirado de uma ilha que existia perto do local de construção. Na língua tupi, o termo significa \"pedra na qual a água faz barulho\", através da junç\n[…]\nA usina hidrelétrica de Itaipu começou a ser pensada ainda na década de 1960, quando foram assinados os primeiros acordos de cooperação entre Brasil e Paraguai.\n[…]\nEm 1970, o consórcio formado pelas empresas PNC e ELC Electroconsult (da Itália) venceu a concorrência internacional para a realização dos estudos de viabilidade e para a elaboração do projeto da obra. O início do trabalho se deu em fevereiro de 1971. Em 26 de abril de 1973, Brasil e Paraguai assinaram o Tratado de Itaipu, instrumento legal para o aproveitamento hidrelétrico do Rio Paraná pelos dois países.\n[…]\nA Itaipu Binacional é uma entidade binacional pertencente à República Federativa do Brasil e à República do Paraguai. Foi constituída pelo Tratado de Itaipu para a operação da usina hidrelétrica. Seu aspecto de empresa jurídica de direito privado binacional deve-se às ordens jurídicas de ambos os países às quais está submetida.\n[…]\nO escoamento da energia de Itaipu para o Paraguai é feito nas tensões de 500 kV e 220 kV a partir da subestação da Margem Direita para as subestações de Acaray, Carayao e Villa Hayes.\n[…]\nO espelho d'água da usina alagou diversas propriedades de moradores do extremo oeste do Estado do Paraná. As indenizações foram suficientes para que os agricultores comprassem novas terras no Brasil. Sendo as terras no Paraguai mais baratas, milhares emigraram para esse país, criando o fenômeno social dos brasiguaios - brasileiros e seus familiares que residem em terras paraguaias na fronteira com o Brasil."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Itaipu_Dam",
+        "situacao": "ok",
+        "texto": "The Itaipu Dam (Guarani: Yjoko Itaipu [itajˈpu]; Portuguese: Barragem de Itaipu [itajˈpu]; Spanish: Represa de Itaipú [itajˈpu]) is a hydroelectric dam on the Paraná River located on the border between Brazil and Paraguay. It is the third-largest hydroelectric dam in the world in terms of produced energy.\n[…]\nThe concept behind the Itaipu Power Plant was the result of serious negotiations between the two countries during the 1960s. The \"Ata do Iguaçu\" (Iguaçu Act) was signed on July 22, 1966, by the Brazilian and Paraguayan Ministers of Foreign Affairs, Juracy Magalhães and Raúl Sapena Pastor.\n[…]\nIn 1970, the consortium formed by the companies ELC Electroconsult S.p.A. (from Italy) and IECO (from the United States)  won the international competition for the realization of the viability studies and for the elaboration of the construction project. Design studies began in February 1971. On April 26, 1973, Brazil and Paraguay signed the Itaipu Treaty, the legal instrument for the hydroelectric exploitation of the Paraná River by the two countries.\n[…]\nDue to a clause in the treaty signed between Brazil, Paraguay, and Argentina, the maximum number of generating units allowed to operate simultaneously cannot exceed 18 (see the agreement section for more information).\n[…]\nOn November 10, 2009, transmission from the plant was completely disrupted, possibly due to a storm damaging up to three high-voltage transmission lines. Itaipu itself was not damaged. This caused massive power outages in Brazil and Paraguay, blacking out the entire country of Paraguay for 15 minutes, and plunging Rio de Janeiro and São Paulo into darkness for more than 2 hours. 50 million people were reportedly affected. The blackout occurred at 22:13 local time.\n[…]\nThe Itaipu Transmission System[link removed]"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Teatro Amazonas",
+      "descricao": "Teatro de ópera em Manaus, inaugurado em 1896, no auge do ciclo da borracha."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+    "resposta": "Borracha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
+      "https://en.wikipedia.org/wiki/Amazon_Theatre"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
+        "situacao": "ok",
+        "texto": "Teatro Amazonas é uma casa de ópera localizada em Manaus, no estado do Amazonas, sendo o principal cartão-postal da cidade. Situado no Largo de São Sebastião, no Centro Histórico, foi inaugurado em 1896 para atender ao desejo da elite amazonense da época, que idealizava a cidade à altura dos grandes centros culturais. É amplamente considerado como um dos mais belos teatros do mundo.\n[…]\nPor ser uma obra singular no Brasil e representar o apogeu de Manaus durante o ciclo da borracha, foi reconhecido como Patrimônio Mundial pela UNESCO em 2026.\n[…]\nA construção de um teatro na cidade de Manaus foi uma exigência daquela região que passou a conhecer um progresso econômico e cultural sem precedentes a partir do interesse mundial na seiva das seringueiras da floresta amazônica. Era um teatro de elite para aquela sociedade enriquecida.\n[…]\nManaus estava no auge do ciclo da borracha e era embalada pela riqueza provida da extração do látex amazônico, altamente valorizado pelas indústrias europeias e americanas. O projeto arquitetônico foi escolhido pelo Gabinete Português de Engenharia e Arquitetura de Lisboa em 1883. No entanto, devido as discussões sobre o terreno para a construção e os custos do trabalho, foi iniciado em 1884 com a pedra fundamental.\n[…]\nNesse salão, que tem características barrocas, o piso de madeira brasileira e européia exige cuidados para que sua beleza se perpetue. Nele, os barões da borracha se encontravam quando do intervalo das representações teatrais e dele se utilizavam para realizar os seus bailes. A pintura do teto, obra-prima de autoria de Domenico, é denominada A Glorificação das Bellas Artes na Amazônia.\n[…]\nNa minissérie da teledramaturgia brasileira “Amazônia, de Galvez a Chico Mendes” de 2007, o teatro serviu como plano de fundo na primeira parte da minissérie para o cenário de Manaus do século XIX.\n[…]\n«Teatro Amazonas no Youtube»\n[…]\n«Viva Manaus»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Amazon_Theatre",
+        "situacao": "ok",
+        "texto": "The Amazon Theatre (Portuguese: Teatro Amazonas) is an opera house located in Manaus, Brazil, in the heart of the Amazon rainforest. It is the location of the annual Festival Amazonas de Ópera (Amazonas Opera Festival) and the home of the Amazonas Philharmonic Orchestra which regularly rehearses and performs at the Amazon Theatre along with choirs, musical concerts and other performances.\n[…]\nThe Amazonas Theatre was built during the Belle Époque at a time when fortunes were made in the rubber boom. Construction of the Amazon Theatre was first proposed in 1881 by a member of the local House of Representatives, Antonio Jose Fernandes Júnior, who envisioned a \"jewel\" in the heart of the Amazon rainforest.\n[…]\nIt is featured twice in novels by Eva Ibbotson: Journey to the River Sea and A Company of Swans. Both are adventure stories set principally in the city of Manaus (where the theatre is situated) and surroundings in 1912. In the former (children's) book a visiting acting group performs the play, Little Lord Fauntleroy at the theatre, which is briefly described.\n[…]\nThe film Pavarotti opens with Luciano Pavarotti traveling to the theatre in 1995 to replicate Caruso's performance there.\n[…]\nThe theatre is mentioned in Daniel Catán's 1996 opera \"Florencia en el Amazonas\" as the location where the titular opera singer Florencia Grimaldi is traveling to give a concert.\n[…]\nBrazilian Belle Époque, the broader cultural and economic period in which the theatre was built\n[…]\nHistory of Manaus, for the development of the city during the Amazon rubber boom\n[…]\nTeatro da Paz, another major 19th-century opera house in the Brazilian Amazon\n[…]\nAuthor and naturalist Sy Montgomery gives a historical account of the building of the theatre in her 2001 book, \"Journey of the Pink Dolphins\".\n[…]\nAmazon Theatre YouTube\n[…]\nAmazon Theatre Gallery of 19 photos of the Amazon Theatre by Jorge Vismara"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Desastre de Mariana",
+      "descricao": "Rompimento da barragem de rejeitos de Fundão, em Mariana, Minas Gerais, em novembro de 2015."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2015, a lama da barragem que se rompeu em Mariana, Minas Gerais, contaminou qual rio até a foz, no Espírito Santo?",
+    "resposta": "Rio Doce",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mariana_dam_disaster",
+      "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Mariana"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mariana_dam_disaster",
+        "situacao": "ok",
+        "texto": "The Mariana dam disaster was an environmental disaster near Mariana, Minas Gerais, Brazil. On 5 November 2015, the Fundão tailings dam at the Germano iron ore mine of the Samarco Mariana Mining Complex near Mariana, suffered a catastrophic failure, resulting in flooding that devastated the downstream villages of Bento Rodrigues and Paracatu de Baixo (40 km (25 mi) from Bento Rodrigues), killing 19\n[…]\nAt around 6:30 pm on 5 November, the tailings of iron ore reached the Doce River. The river basin has a drainage area of about 86,700 km2 (33,500 sq mi), with 86% in Minas Gerais and Espírito Santo. In total, the river covers 230 municipalities that use its bed for subsistence. The waste also reached the hydroelectric power plant of Risoleta Neves in Santa Cruz do Escalvado within 100 kilometres of Mariana. According to the company that runs the power plant, its functioning was not affected.\n[…]\nThere are concerns about contamination of the nearby Rio Gualaxo do Norte, a tributary of the Doce River, due to the toxic substances stored at the facility.\n[…]\nOn the first quarter of November 2015, the Brazilian Chamber of Deputies and the state chambers of Minas Gerais and Espírito Santo each created a special commission to investigate the collapse. According to the media reports, many of the deputies that composed such commissions had received donations from Vale to finance their campaigns. Such donations, up to R$2.6 million are legal, and were reported by the then-candidates to the Brazilian Election Justice.\n[…]\nThe Minas Gerais government suspended Samarco's activities immediately after the disaster.\n[…]\nOn 6 November 2024, the Supreme Federal Court (STF) unanimously validated the agreement reached by the federal government, the states of Minas Gerais, Espírito Santo and mining companies to repair the damage caused by the Mariana dam collapse."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Mariana",
+        "situacao": "ok",
+        "texto": "Rompimento da barragem em Mariana ocorreu na tarde de 5 de novembro de 2015 no subdistrito de Bento Rodrigues, a 35 km do centro do município brasileiro de Mariana, Minas Gerais. Rompeu-se uma barragem de rejeitos de mineração denominada \"Fundão\", controlada pela Samarco Mineração S.A., um empreendimento conjunto das maiores empresas de mineração do mundo, a brasileira Vale S.A. e a anglo-australi\n[…]\nO rompimento da barragem de Fundão é considerado o desastre industrial que causou o maior impacto ambiental da história brasileira e o maior do mundo envolvendo barragens de rejeitos, com um volume total despejado de 62 milhões de metros cúbicos. A lama chegou ao rio Doce, cuja bacia hidrográfica abrange 230 municípios dos estados de Minas Gerais e Espírito Santo, muitos dos quais abastecem sua população com a água do rio.\n[…]\nNo dia 16 de novembro, a onda de lama e rejeitos de minério chegou ao município de Baixo Guandu, no noroeste do Espírito Santo. A prefeitura suspendeu o abastecimento pelo Rio Doce.\n[…]\nDe acordo com as análises realizadas, a água do rio Doce não está contaminada por metais tóxicos. \"As amostras de água coletadas ao longo do rio Doce não evidenciaram a presença de metais dissolvidos em quantidades que possam ser consideradas como contaminadas\", conforme comunicado distribuído pelas duas entidades. Foram analisadas amostras de água e sedimentos de 25 pontos, desde o epicentro do desastre, em Mariana, até a foz do rio Doce, em Linhares (Espírito Santo).\n[…]\nApós a assinatura de um Termo de Transação de Ajustamento de Conduta (TTAC) entre a Samarco e suas controladoras, Vale e BHP Billiton, com os governos federal e dos Estados de Minas Gerais e Espírito Santo, foi criada a Fundação Renova, instituição responsável por conduzir os programas de reparação, restauração e recuperação socioeconômica e socioambiental nas áreas impactadas pelo rompimento da barragem de Fundão."
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Belém",
+      "descricao": "Capital do estado do Pará, fundada em 1616 às margens da baía do Guajará."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que os nomes das capitais Belém e Natal têm em comum?",
+    "resposta": "Remetem ao nascimento de Jesus",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Belém_(Pará)",
+      "https://pt.wikipedia.org/wiki/Natal_(Rio_Grande_do_Norte)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Belém_(Pará)",
+        "situacao": "ok",
+        "texto": "Belém, também chamada de Belém do Pará, é um município brasileiro e capital do estado do Pará. Localizada na Região Norte do país, às margens da baía do Guajará e a cerca de 2 120 quilômetros de Brasília, sua população é de 1 303 403 habitantes, segundo o Censo 2022, sendo o município mais populoso do estado, o segundo da Região Norte e o décimo segundo do país.\n[…]\nO topônimo Belém tem origem no hebraico Beit Lehem, que significa \"Casa do Pão\". Inicialmente, a cidade foi denominada \"Santa Maria de Belém do Pará\" ou \"Nossa Senhora de Belém do Grão-Pará\" (posteriormente abreviado para Belém do Pará), por ordem do rei Filipe III de Espanha, em referência ao Natal — período em que Francisco Caldeira Castelo Branco, então capitão-mor da Capitania do Rio Grande, partiu de São Luís, em 1615, com suas tropas, para conquistar as terras do Pará.\n[…]\nEsse feito resultou na elevação da região à condição de Capitania do Grão-Pará e na criação do estado do Maranhão, com sede estabelecida em São Luís. O povoado foi elevado à categoria de município com a denominação de \"Santa Maria de Belém do Pará\" ou \"Nossa Senhora de Belém do Grão Pará\" (posteriormente \"Santa Maria de Belém do Grão Pará\", até chegar à forma atual, Belém).\n[…]\nEsse crescimento levou, em 1654, à mudança de nome do Estado do Maranhão para Estado do Maranhão e Grão-Pará.\n[…]\nNesse contexto, o Estado foi renomeado como \"Estado do Grão Pará e Maranhão\", e a sede foi transferida para Belém, que se tornou a primeira capital da Amazônia.\n[…]\nEm 2017, o município apresentou uma taxa média de mortalidade infantil, entre menores de cinco anos de idade, de 13,55 óbitos para cada mil nascimentos, sendo registrados 19 409 nascidos vivos.\n[…]\nEntre as capitais estaduais, Belém ocupa a 23.ª posição, com um índice de educação de 0,369, ficando à frente apenas de Macapá, Porto Velho e Maceió.\n[…]\nRevolta de Belém (1823)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Natal_(Rio_Grande_do_Norte)",
+        "situacao": "ok",
+        "texto": "Natal é a capital do estado brasileiro do Rio Grande do Norte, na Região Nordeste do país. Com aproximadamente 167 km², é a segunda menor capital brasileira em área territorial e dista 2 227 quilômetros de Brasília, capital federal. Com pouco mais de 750 mil habitantes em 2022, é o município mais populoso de seu estado, o oitavo do Nordeste e o 24° do Brasil.\n[…]\nFundado em um dia de Natal, em 25 de dezembro de 1599, o nome do município tem origem no latim natale (algo como \"local de nascimento\"). Algumas vezes, o nome do município dentro de frases é antecedido de artigo masculino, como acontece em \"do Crato\", \"do Recife\", \"do Rio de Janeiro\", entre outros. Em alguns sites e documentos oficiais, bem como no artigo 11 da constituição do Rio Grande do Norte, a cidade é referida com o artigo masculino: \"A cidade do Natal é a Capital do Estado\".\n[…]\nNo bairro de Mãe Luíza, ocorreu um grande desabamento de encosta que se estendeu desde a Rua Guanabara até a praia de Areia Preta, comprometendo várias residências. Nesta área, a prefeitura construiu a escadaria de Mãe Luíza, oficialmente Portal do Sol Klebson Nascimento, inaugurado em dezembro do ano seguinte.\n[…]\nEm 2025, o município de Natal apresentou taxa de mortalidade infantil de 12,06 óbitos por mil nascidos vivos, enquanto a taxa de natalidade registrada foi de 6,87 nascimentos por mil habitantes. Além disso, 85,2% da população do município possuía cobertura por planos de saúde, valor 2,5 vezes acima do percentual do estado do Rio Grande do Norte (35,8%).\n[…]\nA responsável pelo setor cultural de Natal é a Fundação Cultural Capitania das Artes (FUNCARTE), que tem como objetivo acompanhar, planejar e executar a política cultural do município por meio da elaboração de atividades e projetos que visem ao desenvolvimento cultural.\n[…]\nPotiguares naturais de Natal\n[…]\n«Página da câmara do Natal»\n[…]\n«Natal no WikiMapia»"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Vitória",
+      "descricao": "Capital do estado do Espírito Santo, situada principalmente numa ilha."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que característica geográfica une Vitória, São Luís e Florianópolis e as diferencia das demais capitais estaduais?",
+    "resposta": "Ficam em ilhas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vitória_(Espírito_Santo)",
+      "https://pt.wikipedia.org/wiki/São_Luís_(Maranhão)",
+      "https://pt.wikipedia.org/wiki/Florianópolis"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vitória_(Espírito_Santo)",
+        "situacao": "ok",
+        "texto": "Vitória é a capital do estado brasileiro do Espírito Santo, na Região Sudeste do país. Situada a 20º19'09' de latitude sul e 40°20'50' de longitude oeste, Vitória se limita ao norte com o município da Serra, ao sul com Vila Velha, a leste com o oceano Atlântico e a oeste com Cariacica.\n[…]\nÉ uma das três ilhas-capitais do Brasil, cujas respectivas regiões metropolitanas abrangem inteiramente ilhas localizadas no litoral brasileiro ao longo do Oceano Atlântico, sendo que a maior parte do município está localizada na Ilha de Vitória.\n[…]\nNo século XVI, quando os primeiros exploradores portugueses chegaram à região da atual Vitória, a mesma era disputada por três grupos indígenas diferentes: os goitacás (procedentes do sul), os aimorés (procedentes do interior) e os tupiniquins (procedentes do norte). O donatário português da capitania do Espírito Santo, Vasco Fernandes Coutinho, fundou, em 1535, a atual cidade de Vila Velha, cujo nome na época era Vila do Espírito Santo, que passou a ser a capital da capitania.\n[…]\nO clima vitoriense é caracterizado, segundo o IBGE, como tropical quente super-úmido (tipo Aw segundo Köppen), com invernos amenos e chuvas concentradas entre a primavera e o verão, quando as temperaturas ficam elevadas. A temperatura média anual é de 25 °C, porém as temperaturas podem variar muito no inverno, podendo chegar aos 30 °C em épocas de grande seca, e 20 °C quando ocorrem tempestades.\n[…]\nExistem atualmente quatro times profissionais na cidade. Os dois principais clubes são o Vitória Futebol Clube e o Rio Branco Atlético Clube. Juntos contabilizam 46 títulos estaduais e protagonizam o maior e mais antigo clássico do Estado, o Vi-Rio. Os outros dois clubes são: Espírito Santo Futebol Clube e o Doze Futebol Clube.\n[…]\nHistória do Espírito Santo"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/São_Luís_(Maranhão)",
+        "situacao": "ok",
+        "texto": "São Luís, também chamada de São Luís do Maranhão, é a capital do estado brasileiro do Maranhão. É a única capital brasileira fundada por franceses, no dia 8 de setembro de 1612, posteriormente invadida por holandeses e, por fim, colonizada pelos portugueses. Localiza-se na ilha de Upaon-Açu no Atlântico Sul, entre as baías de São Marcos e São José de Ribamar, no Golfão Maranhense.\n[…]\nHá outras ilhas localizadas no município de São Luís. São elas: Tauá-Mirim, localizada entre os estreito dos Coqueiros e a Baía de São Marcos; Tauá-Redondo, localizada ao sul da ilha de Tauá-Mirim; Ilha do Medo, localizada a noroeste de São Luís, próxima à Praia do Amor; Duas irmãs, duas ilhas localizadas ao sul da ilha do Medo; Ilha das Pombinhas, localizada a leste da ilha do Medo; e Guarapirá, localizada em frente ao Porto do Itaqui, servindo de referência de acesso ao porto.\n[…]\nO município de São Luís conta com três estabelecimentos de saúde federais, 23 estaduais, 70 municipais e 212 privados (2011). Dentre os hospitais da cidade, merecem destaque (além das UPAs, UBS, e outros tipos de unidades de saúde):\n[…]\nA capital maranhense possui uma grande quantidade de escolas públicas e particulares, universidades e faculdades, além de institutos federais. Dados de 2023 do Instituto Brasileiro  de Geografia e Estatística mostram que a cidade de São Luís possui 470 escolas de ensino fundamental e 156 instituições de ensino médio.\n[…]\nA cultura ludovicense tem como matriz e base a cultura ibérica. Características de origem lusitana também estão presentes, dando à capital maranhense o título de capital mais portuguesa do Brasil Manifestações portuguesas populares têm, como exemplo, a Festa do Divino Espírito Santo, trazida pelos açorianos, cuja imigração começou a povoação do Maranhão e foi pioneira na imigração portuguesa organizada no Brasil, e a dança portuguesa.\n[…]\nMaranhenses de São Luís"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Florianópolis",
+        "situacao": "ok",
+        "texto": "Florianópolis, conhecido coloquialmente como Floripa, é a capital do estado brasileiro de Santa Catarina, na região Sul do país. Florianópolis é também apelidado de \"Ilha da Magia\", decorrente de seus folclóricos contos e histórias de bruxas e criaturas mágicas que habitam na ilha, popularizados pelo escritor Franklin Cascaes.\n[…]\nÉ uma das três ilhas-capitais do Brasil, cujas respectivas regiões metropolitanas abrangem inteiramente ilhas localizadas no litoral brasileiro ao longo do Oceano Atlântico, sendo que a maior parte do município está localizada na Ilha de Santa Catarina.\n[…]\nDe acordo com estimativa do IBGE de 2025, havia 587 486 pessoas na cidade, e a densidade de população era de 870,5 habitantes por quilômetro quadrado. Florianópolis e Vitória no Espírito Santo, são as únicas capitais no Brasil que não são as cidades mais populosas de seus respectivos estados.\n[…]\nAs Cidades irmãs de Florianópolis são:\n[…]\nComo a cidade é principalmente localizada em uma ilha cercada de outras pequenas ilhas, é uma de suas atrações como atividades esportivas o mergulho livre e autônomo. As localidades mais frequentadas para este esporte são a Reserva Biológica Marinha do Arvoredo e a ilha do Campeche. Outros esportes relacionados a água são populares, como o remo, cujo auge foi no período anterior ao aterro da Baía Sul.\n[…]\nEstas equipes formaram atletas brasileiros que disputaram os Jogos Olímpicos e Paralímpicos, como Gibran Vieira da Cunha, Fabiana Beltrame, que em 2004 foi a primeira remadora brasileira a participar das Olímpiadas, e Josiane Lima, que com o bronze nos Jogos Paralimpícos de 2008 conquistou a primeira medalha olímpica do Brasil no esporte. Os três ficam sediados no Parque Náutico Walter Lang, no Centro, em frente ao estreito entre as baías.\n[…]\n«Florianópolis no WikiMapia»\n[…]\n«Biblioteca IBGE: Florianópolis» (PDF)"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Acre",
+      "descricao": "Estado da Região Norte do Brasil, incorporado ao país pelo Tratado de Petrópolis, em 1903."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Pelo tratado de 1903 que deu o Acre ao Brasil, o país se comprometeu a construir qual ferrovia na Amazônia?",
+    "resposta": "Madeira-Mamoré",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tratado_de_Petrópolis",
+      "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamoré"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tratado_de_Petrópolis",
+        "situacao": "ok",
+        "texto": "O Tratado de Petrópolis, firmado em 17 de novembro de 1903 em Petrópolis, pôs fim à disputa territorial entre Brasil e Bolívia pelo território do Acre. Nele foi estipulado a venda do território do Acre da Bolívia para o Brasil. Em compensação, o Brasil cedeu para a Bolívia territórios na bacia do rio Paraguai, dentre eles a Bahia Negra, além do Triângulo do Abunã.\n[…]\nAdemais, o governo brasileiro também se comprometeu a construir a Estrada de Ferro Madeira-Mamoré para dar trânsito às trocas comerciais bolivianas pelo rio Amazonas, além de pagar à Bolívia a quantia de 2 milhões de libras esterlinas (cerca de 2,3 bilhões de reais a preços atuais) para indenizar o Bolivian Syndicate, um consórcio de investidores estadunidenses, pela rescisão do contrato de arrendamento, firmado em 1901 com o governo boliviano.\n[…]\nO Brasil assumiu também a obrigação de construir uma ferrovia \"desde o porto de Santo Antônio, no Rio Madeira, até Guajará-Mirim, no Mamoré\", com um ramal que atingisse o território boliviano. Era a Estrada de Ferro Madeira-Mamoré: sua licitação se deu em 1905, a construção da ferrovia foi iniciada em 1907 sendo concluída em 1912, a um custo estimado em 25 milhões de dólares (623 milhões a preços atuais ou cerca de dois bilhões de reais).\n[…]\nO território do Acre também era disputado pelo Peru, e o final da contenda só ocorreu com a celebração do Tratado do Rio de Janeiro de 1909, depois que o Brasil abriu mão de cerca de 40 000 km² do território acreano.\n[…]\nPor fim, mais de 80 ilhas dos trechos limítrofes nos rios Mamoré e Guaporé, entre elas a Ilha de Guajará-Mirim ainda estão sem a soberania definida; além de que, no rio Paraguai, nove ilhas ainda não foram adjudicadas a um ou outro país. As ilhas, algumas delas com até 300 hectares, são cobertas de vegetação nativa e algumas são habitadas por indígenas.\n[…]\nEstrada de Ferro Madeira-Mamoré"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamoré",
+        "situacao": "ok",
+        "texto": "Estrada de Ferro Madeira-Mamoré (EFMM) é uma ferrovia no atual estado de Rondônia, no Brasil, considerada um ícone ferroviário mundial.\n[…]\nOs únicos que ganharam com a ferrovia foram os tomadores dos títulos da Madeira-Mamoré, que ganharam dinheiro na especulação financeira, visto que a justiça inglesa lhes deu ganho de causa; Church abandonou definitivamente seus planos de construir a E.F. Madeira-Mamoré e o Governo Imperial brasileiro declarou a concessão caduca por meio do decreto nº8.255, do dia 10 de setembro de 1881.\n[…]\nPosteriormente, por efeito da assinatura do Tratado de Petrópolis (1903), no contexto do ciclo da borracha e da Questão do Acre com a Bolívia que conferiu ao Brasil a posse deste estado, iniciou-se a implantação da Madeira-Mamoré Railway.\n[…]\nno dia 15 de maio de 1882, enquanto a Guerra do Pacífico seguia em curso entre o Chile e Peru, a Bolívia realizava um acordo com o Brasil referente a navegação no rio Amazonas, e no qual o Governo Imperial comprometia-se a construir a E.F. Madeira-Mamoré por iniciativa pública ou privada.\n[…]\nOs conflitos limítrofes entre o Brasil, Bolívia e Peru foram finalmente resolvidos com a assinatura do Tratado de Petrópolis em 17 de novembro de 1903, por meio do qual o Brasil adquiria a região do Acre pelo valor de £2.000.000 (Rs36:268$870 em moeda brasileira ao câmbio da época) e comprometia-se a construir a E.F. Madeira-Mamoré dentro de um prazo de quatro anos.\n[…]\n1851 - O governo estadunidense comissiona o tenente Gibbon para explorar os rios Madeira, Mamoré, Beni e Amazonas.\n[…]\n«Estrada de Ferro Madeira-Mamoré.»\n[…]\nFotografias da construção da Estrada de Ferro Madeira-Mamoré"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Macapá",
+      "descricao": "Capital do estado do Amapá, às margens do rio Amazonas."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que linha imaginária atravessa Macapá e coincide com a linha do meio de campo do estádio Zerão?",
+    "resposta": "Linha do Equador",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Macapá",
+      "https://en.wikipedia.org/wiki/Estádio_Zerão"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Macapá",
+        "situacao": "ok",
+        "texto": "Macapá (AFI: /makaˈpa/) é um município brasileiro, capital do estado do Amapá, Região Norte do país. Sua população em 2022 é de 442 933 habitantes, sendo o 52.° município mais populoso do Brasil e o quinto mais populoso da Região Norte. Situa-se no sudeste do estado e é a única capital estadual brasileira que não possui interligação direta por rodovias a outras capitais.\n[…]\nAlém disso, é a única cortada pela linha do Equador e que se localiza no delta do rio Amazonas, distando 1 791 quilômetros de Brasília.\n[…]\nNaquele momento, imaginou-se como capital do território o município de Amapá, porém, o isolamento geográfico fez com que Janary Nunes decidisse pela instalação da capital em Macapá, mais acessível por via fluvial e com estruturas urbanas mais promissoras. Desse modo, Janary Nunes instalou o primeiro governo territorial na cidade de Macapá em 25 de janeiro de 1944.\n[…]\nDe acordo com a divisão regional vigente desde 2017, instituída pelo IBGE, o município pertence às Regiões Geográficas Intermediária e Imediata de Macapá. Até então, com a vigência das divisões em microrregiões e mesorregiões, fazia parte da microrregião de Macapá, que por sua vez estava incluída na mesorregião do Sul do Amapá. A maior parte de seu território encontra-se acima da linha do Equador.\n[…]\nA Associação dos Músicos e Compositores do Amapá, fundada em 12 de junho de 1996 é considerada Entidade de Utilidade Pública pela Prefeitura Municipal de Macapá e Governo do Estado do Amapá, ela mantém os projetos Canto de Casa, Festival da Canção no Meio do Mundo e Amapá Jazz Festival, este último tendo sido criado pelo músico e instrumentista Fineias Nelluty em 2007, atualmente sendo este um dos maiores festivais do gênero na Amazônia.\n[…]\nRegião Metropolitana de Macapá\n[…]\nMacapá no Facebook\n[…]\nMacapá no X\n[…]\nMacapá no YouTube\n[…]\nPágina da Câmara Municipal de Macapá\n[…]\nMacapá no WikiMapia\n[…]\nDados de Macapá no IBGE"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Estádio_Zerão",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Santana do Livramento",
+      "descricao": "Município do Rio Grande do Sul na fronteira com o Uruguai, vizinho da cidade de Rivera."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que cidade uruguaia forma com a gaúcha Santana do Livramento uma única área urbana, separada apenas por uma praça?",
+    "resposta": "Rivera",
+    "distratores": [
+      "Chuy",
+      "Artigas",
+      "Bella Unión"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santana_do_Livramento",
+      "https://pt.wikipedia.org/wiki/Sant'Ana_do_Livramento"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Santana_do_Livramento",
+        "situacao": "ok",
+        "texto": "Santana do Livramento, also spelled Sant'Ana do Livramento, is a city in the state of Rio Grande do Sul, Brazil. It is located along the border with the city of Rivera, Uruguay, forming together an international city of almost 170,000 inhabitants. Santana do Livramento was founded on 30 July 1823, and in 1857 was emancipated from Alegrete as a city. In 2009, the city was officially declared by the\n[…]\nIn 1912, the city started the first train station in Brazil with international traffic, between Santana do Livramento and Rivera, Uruguay, with trains connecting Rio de Janeiro and São Paulo to Montevideo and Buenos Aires. Currently, the international train route is disabled.\n[…]\nSantana do Livramento is 208 meters above sea level, and is 498 km (309 mi) from its capital city (Porto Alegre). Livramento shares more than Uruguay. Santana do Livramento is located on the Brazilian border with Uruguay, where they share around 100 km of border. On the other side of the land divide (an urban street), is the Uruguayan city of Rivera. It is one of the oldest municipalities, and the second largest in the territorial extension of the state of Rio Grande do Sul.\n[…]\nThe border community is unusual in that the two cities maintain an open border without any physical border barriers. Inhabitants from both Livramento (Brazil) and Rivera (Uruguay) are free to move anywhere throughout the twin city community. It is easy for one to get lost in the suburbs and not know whether they are in Brazil or Uruguay.\n[…]\nEven though Santana do Livramento has an aerodrome, since 14 August 2023, scheduled flights to Santana do Livramento operate at Pres. Gral. Óscar D. Gestido International Airport in neighboring Rivera, Uruguay. This airport is a binational facility, serving both Brazil and Uruguay. Even though it is located in Uruguayan territory, flights originated in Brazil are considered to be domestic."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sant'Ana_do_Livramento",
+        "situacao": "ok",
+        "texto": "Sant'Ana do Livramento é um município brasileiro do oeste do estado do Rio Grande do Sul, na região Sul. Está localizado na fronteira com o Uruguai e é vizinho de Rivera, cidade uruguaia.\n[…]\nA origem do nome do município de Sant'Ana do Livramento remonta a 1834, quando Ana Ilha de Vargas, uma fazendeira rica, doou à igreja uma imagem de Nossa Senhora de Santa Ana. Como condição, solicitou que o curato adotasse o nome da santa, o que foi atendido. A partir de então, o local passou a ser conhecido como Santana do Livramento. Em 1876, a localidade foi elevada à categoria de cidade com esse nome, por meio da Lei Provincial nº 1.013, de 6 de abril de 1876.\n[…]\nEm 1912, Sant'Ana do Livramento recebeu a primeira estação de trem do Brasil com tráfego internacional, entre Sant'Ana do Livramento e Rivera (Uruguai), fazendo com que as composições pudessem ligar Rio de Janeiro e São Paulo a Montevidéu e Buenos Aires. O Trem Internacional encontra-se desativado.\n[…]\nA economia é baseada no comércio, na agricultura, na pecuária e na viticultura. Constitui com a cidade vizinha Rivera, no Uruguai, uma conurbação binacional.\n[…]\nA cidade possui o mais antigo campo de golfe do Rio Grande do Sul, fundando em 4 de julho de 1915 com o nome de \"Armour Golfe Clube\", passando a se chamar posteriormente de \"Clube Campestre de Livramento\" em 1959. É o terceiro clube de golfe mais antigo do país, sendo mais novo apenas que o São Paulo Golf Club (1901) e o Santos São Vicente Golf Club (1915).\n[…]\nVer Biografias de santanenses notórios\n[…]\nFortificações de Sant'Ana do Livramento"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Oiapoque",
+      "descricao": "Município do Amapá no extremo norte do litoral brasileiro, na fronteira com a Guiana Francesa."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Do outro lado do rio, a cidade de Oiapoque, no Amapá, faz fronteira com território de qual país europeu?",
+    "resposta": "França",
+    "distratores": [
+      "Holanda",
+      "Reino Unido",
+      "Espanha"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Oiapoque",
+      "https://en.wikipedia.org/wiki/Oiapoque"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oiapoque",
+        "situacao": "ok",
+        "texto": "Oiapoque é um município brasileiro do estado do Amapá, Região Norte do país, na fronteira com a Guiana Francesa. Por ser a principal cidade do norte amapaense, recebeu a alcunha de Capital do Norte do Amapá.\n[…]\nO município de Oiapoque está localizado na parte mais setentrional do estado do Amapá. Limita-se ao norte com a Guiana Francesa, ao sul com os municípios de Calçoene, Serra do Navio e Pedra Branca do Amapari. Ao leste é banhado pelo Oceano Atlântico e a oeste faz fronteira com o município de Laranjal do Jari. O município é conhecido por abrigar o ponto mais ao norte do litoral brasileiro.\n[…]\nOs habitantes originários da região são antepassados dos povos Waiãpi, que ocupavam a extensão territorial do rio Oiapoque; dos Galibi e Palikur, concentrados no vale do rio Uaçá e seus afluentes.\n[…]\nDurante o período colonial, Oiapoque era parte da Capitania do Cabo Norte. Nos primórdios do século XVI, os portugueses da América travaram lutas com outros europeus, para estabelecer domínio territorial ao sul do rio Oiapoque, na época conhecido como rio de Vicente Pinzón, e ao norte do rio Amazonas, para expandir os impérios colonizadores que cada grupo representava.\n[…]\nNeste ano, Oiapoque foi uma das 244 cidades brasileiras onde o Protestantismo era a maior religião.\n[…]\nUm passo neste sentido é a exportação do cacau beneficiado, através da Associação Agro-extrativista do Cassiporé para a França.\n[…]\nCom 7,511 km² de área urbana, a quarta maior do estado do Amapá, Oiapoque vem crescendo sua demanda urbana e de serviços.\n[…]\nPonte Binacional Franco-Brasileira - Liga o Oiapoque com a Guiana Francesa, território pertencente à França. Funciona durante todos os dias da semana, das 7 as 19 horas."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Oiapoque",
+        "situacao": "ok",
+        "texto": "Oiapoque (Brazilian Portuguese pronunciation: [ojaˈpɔki]) is a municipality in the north of the state of Amapá, Brazil. Its population is 27,906 and its area is 22,625 square kilometres (8,736 mi2). Oiapoque is also a major river in the same state, forming the international border with French Guiana. The Oyapock River Bridge, connecting the village with Saint-Georges in French Guiana, was complete\n[…]\nLying on the northern coast of Brazil, Oiapoque is popularly considered the northernmost point of Brazil. The phrase do Oiapoque ao Chuí (\"from Oiapoque to Chuí\") means \"all of Brazil.\" However, there are more northerly points in Roraima state such as the municipality of Uiramutã. Oiapoque remains the northernmost coastal city of Brazil, and the northernmost city of Amapá. It occupies more than half of the north border of the state.\n[…]\nThe Oiapoque River was visited by Europeans  in the first years of the 16th century. The first European was the pirate Vicente Yáñez Pinzón. It has been called Japoc, Yapoc, Iapoco, and even Vicente Pinzón River. The name Oiapoque was officially used from 1900, when a territorial dispute between Brazil and France was resolved through Swiss diplomatic arbitration.\n[…]\nThe Kuahí Museum was opened in 2007 by the four indigenous groups living the municipality: the Palikur, the Galibi Marworno, the Galibi do Oiapoque, and the Karipuna do Amapá. The museum contains more than 400 objects used by the Amerindians. The project was conceived in the 1990s to promote and transmit the knowledge of the indigenous community. The museum is a public not-for-profit entity linked to the Amapá State Secretariat of Culture.\n[…]\nThere are four indigenous tribes in the municipality located in indigenous territories:\n[…]\nOiapoque City Hall official website Archived 2020-12-04 at the Wayback Machine\n[…]\nMedia related to Oiapoque at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Tocantins",
+      "descricao": "Estado da Região Norte do Brasil, criado pela Constituição de 1988, com capital em Palmas."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Tocantins, criado pela Constituição de 1988, foi desmembrado do norte de qual estado?",
+    "resposta": "Goiás",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tocantins"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tocantins",
+        "situacao": "ok",
+        "texto": "Tocantins é uma das 27 unidades federativas do Brasil, sendo o seu mais novo estado. Está localizado a sudeste da Região Norte e tem como limites Goiás a sul, Mato Grosso a oeste e sudoeste, Pará a oeste e noroeste, Maranhão a norte, nordeste e leste, Piauí a leste e Bahia a leste e sudeste. Sua capital é a cidade planejada de Palmas que, dentre as capitais estaduais brasileiras, é a menos populos\n[…]\nSevero Gomes, com a adesão das entidades como a ATI (Associação Tocantinense de Imprensa), CENOG (Casa do Estudante do Norte Goiano) e UAO (União Artística e Operária), lançou o \"Movimento Pró-Criação do Estado do Tocantins\", como uma expressão do desejo emancipacionista do norte de Goiás. Formaram-se comissões para estudar as formas de implantação do novo estado, sendo criados, então uma bandeira e um hino.\n[…]\nDessa forma, em 5 de outubro de 1988, o norte do estado de Goiás foi emancipado, passando a se chamar Tocantins, com sua capital provisória em Miracema do Tocantins e instalado definitivamente em 1° de janeiro de 1989, sendo inserido na Região Norte do Brasil, uma vez que, enquanto pertencente a Goiás, era parte da Região Centro-Oeste brasileira. Em 1° de janeiro de 1990, a capital foi transferida para Palmas, uma cidade planejada.\n[…]\nAs principais regiões geográficas do estado são a Chapada da Bahia do Meio-Norte, com altitudes variadas de 300 a 600 m e representadas pela Serra da Cangalha e Mangabeira no Município de Itacajá; Chapada da Bacia de São Francisco, um divisor das águas das Bacias São Francisco/Tocantins, com altitude média de 900 m e representada pela Serra Geral de Goiás; Planalto do Tocantins, com altitude médias de 700 m; e a Peneplanície do Araguaia, constituída por um peneplano de colinas suaves com altitudes de 300 a 400 m, ao longo dos vales dos rios Araguaia e das Mortes.\n[…]\n«Governo do Estado do Tocantins»\n[…]\n«Tribunal de Justiça do Estado do Tocantins»"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Fernando de Noronha",
+      "descricao": "Arquipélago vulcânico no oceano Atlântico, distrito estadual de Pernambuco."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O arquipélago de Fernando de Noronha fica mais perto de Natal, mas pertence a qual estado brasileiro?",
+    "resposta": "Pernambuco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fernando_de_Noronha",
+      "https://en.wikipedia.org/wiki/Fernando_de_Noronha"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fernando_de_Noronha",
+        "situacao": "ok",
+        "texto": "Fernando de Noronha é um arquipélago brasileiro do estado de Pernambuco. Formado por 21 ilhas, ilhotas e rochedos de origem vulcânica, ocupa uma área total de 26 km² — dos quais 17 km² são da ilha principal — e se situa no Oceano Atlântico a nordeste do Brasil continental, distando 350 km do Rio Grande do Norte e 545 km da capital pernambucana, Recife. O centro comercial da ilha é o núcleo urbano \n[…]\nEm 1891 o arquipélago foi integrado ao Estado de Pernambuco, mantendo um presídio administrado pela Secretaria de Estado da Justiça, que funcionou até 1910.\n[…]\nEm 1972 abriu a primeira pousada para turistas. Fernando de Noronha foi incorporada ao Estado de Pernambuco em 1988, como um dos seus Distritos Estaduais, e no mesmo momento foi criado o Parque Nacional Marítimo de Fernando de Noronha, englobando 70% da área do arquipélago composto por 21 ilhas, ilhotas e rochedos, o que ajudou a preservar boa parte do seu patrimônio natural primitivo, enquanto se transformava em uma concorrida atração turística, reconhecida internacionalmente.\n[…]\nAté 2025, a produção de energia no arquipélago de Fernando de Noronha é realizada na usina de Tubarão, que utiliza biodiesel. Em novembro de 2025, é inaugurada a primeira usina solar flutuante do arquipélago, construída pela Neoenergia (subsidiária da Iberdrola no Brasil) e pela Companhia Pernambucana de Saneamento (Compesa). Essa usina está localizada na superfície do reservatório de Xaréu. Possui uma potência de 622 kWp e uma geração anual estimada de 1.083 MWh.\n[…]\nO Campeonato Noronhense de Futebol, mais conhecido como Campeonato Noronhense ou ainda Noronhão, é a competição amadora desse esporte no arquipélago de Fernando de Noronha, no estado de Pernambuco. Organizada pela CSANF e pela Federação Pernambucana de Futebol, para suporte técnico e desenvolvimento do futebol na ilha, é a principal e tradicional competição na região."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fernando_de_Noronha",
+        "situacao": "ok",
+        "texto": "Fernando de Noronha (Brazilian Portuguese pronunciation: [feʁˈnɐ̃du dʒi noˈɾoɲɐ]), officially the State District of Fernando de Noronha (Portuguese: Distrito Estadual de Fernando de Noronha) and formerly known as the Federal Territory of Fernando de Noronha (Território Federal de Fernando de Noronha) until 1988, is an archipelago in the Atlantic Ocean, part of the state of Pernambuco, Brazil, and \n[…]\nThe islands are administratively unique in Brazil. They form a \"state district\" (distrito estadual) that is administered directly by the government of the state of Pernambuco (despite being geographically closer to the state of Rio Grande do Norte). The state district's jurisdiction also includes the very remote Saint Peter and Saint Paul Archipelago, located 337 nautical miles (624 km; 388 mi) northeast of Fernando de Noronha.\n[…]\nIn the late 18th century, the first prisoners were sent to Fernando de Noronha. A prison was built. In 1897 the government of the state of Pernambuco took possession of the prison. Between 1938 and 1945, Fernando de Noronha was a political prison. In 1957 the prison was closed and the archipelago was visited by President Juscelino Kubitschek. However, in 1964 after a military coup, Miguel Arraes was incarcerated there for his refusal to resign as governor of Pernambuco.\n[…]\nThe archipelago of Fernando de Noronha in 2005 had a gross domestic product (GDP) of R$22,802,000 and a per capita income of R$10,001. In 2000, the United Nations Development Programme estimated the Fernando de Noronha state district's Human Development Index (HDI) at 0.862. The only two banking centers in the archipelago are a branch of Banco Santander Brasil and a branch of Banco Bradesco. There are one or two additional automated teller machines (ATMs) around the main island.\n[…]\nPolitics of Pernambuco\n[…]\n(in Portuguese) Fernando de Noronha Official website\n[…]\nFernando de Noronha National Park"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Fernando de Noronha",
+      "descricao": "Arquipélago vulcânico no oceano Atlântico, distrito estadual de Pernambuco."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantas ilhas e ilhotas formam o arquipélago de Fernando de Noronha?",
+    "resposta": "Vinte e uma",
+    "distratores": [
+      "Sete",
+      "Doze",
+      "Trinta e quatro"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fernando_de_Noronha"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fernando_de_Noronha",
+        "situacao": "ok",
+        "texto": "Fernando de Noronha é um arquipélago brasileiro do estado de Pernambuco. Formado por 21 ilhas, ilhotas e rochedos de origem vulcânica, ocupa uma área total de 26 km² — dos quais 17 km² são da ilha principal — e se situa no Oceano Atlântico a nordeste do Brasil continental, distando 350 km do Rio Grande do Norte e 545 km da capital pernambucana, Recife. O centro comercial da ilha é o núcleo urbano \n[…]\nEm 1972 abriu a primeira pousada para turistas. Fernando de Noronha foi incorporada ao Estado de Pernambuco em 1988, como um dos seus Distritos Estaduais, e no mesmo momento foi criado o Parque Nacional Marítimo de Fernando de Noronha, englobando 70% da área do arquipélago composto por 21 ilhas, ilhotas e rochedos, o que ajudou a preservar boa parte do seu patrimônio natural primitivo, enquanto se transformava em uma concorrida atração turística, reconhecida internacionalmente.\n[…]\nO Parque Nacional Marinho de Fernando de Noronha é uma unidade de conservação de proteção integral administrada pelo Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio). Criado em 1988, ocupa a maior parte do arquipélago e possui uma variedade de fauna e flora únicas. Ótimo local para turismo, porém, devido à fiscalização do ICMBio, algumas das ilhas têm a visitação controlada. Boldró é onde está localizado o centro de convenções do Projeto TAMAR/ICMBio.\n[…]\nO Campeonato Noronhense de Futebol, mais conhecido como Campeonato Noronhense ou ainda Noronhão, é a competição amadora desse esporte no arquipélago de Fernando de Noronha, no estado de Pernambuco. Organizada pela CSANF e pela Federação Pernambucana de Futebol, para suporte técnico e desenvolvimento do futebol na ilha, é a principal e tradicional competição na região.\n[…]\nFernando de Noronha no Instagram\n[…]\nFernando de Noronha no Facebook\n[…]\nFernando de Noronha no YouTube\n[…]\nFernando de Noronha no TripAdvisor\n[…]\nFernando de Noronha no IBGE"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Ponta do Seixas",
+      "descricao": "Cabo no litoral de João Pessoa, na Paraíba, ponto mais oriental das Américas continentais."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Ponta do Seixas, ponto mais a leste do continente americano, fica em qual capital nordestina?",
+    "resposta": "João Pessoa",
+    "distratores": [
+      "Natal",
+      "Recife",
+      "Fortaleza"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ponta_do_Seixas",
+      "https://en.wikipedia.org/wiki/Ponta_do_Seixas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ponta_do_Seixas",
+        "situacao": "ok",
+        "texto": "A ponta do Seixas é o ponto mais oriental do continente americano e consequentemente da parte continental do Brasil. Localiza-se a leste da cidade de João Pessoa, capital do estado da Paraíba, a quatorze quilômetros do centro da cidade e a três quilômetros ao sul do bairro de Cabo Branco.\n[…]\nO sobrenome Seixas é uma variação galego-portuguesa do sobrenome Sachs, que se originou no noroeste da atual Alemanha e que significa \"pessoa da Saxônia\".[carece de fontes]?\n[…]\nNo período colonial, o cabo de Santo Agostinho em Pernambuco era considerado o extremo leste do Brasil e das Américas. Mas, com a evolução da cartografia por meio do uso de novas tecnologias, a ponta do Seixas na Paraíba e a ponta de Pedras em Pernambuco passaram a disputar a categoria de ponto mais oriental do continente americano. A questão só foi resolvida quando uma comissão do Ministério da Marinha julgou oportuno que de uma vez por todas esse diferendo fosse dirimido.\n[…]\n«(...) No dia 5 de setembro [de 1941] foi observada em ponta de Pedras e no dia 12 no Cabo Branco. A sorte sorriu à Paraíba, pois que a ponta do Seixas, no Cabo Branco, é o ponto mais oriental do território nacional, sendo portanto o mais oriental das duas Américas. Aquela ponta paraibana avança gaihardamente cerca de 1683 metros para leste a mais que a ponta de Pedras.»\n[…]\nÉ comum confundir-se a ponta do Seixas com a falésia do Cabo Branco, que são formações geológicas distintas. A ponta, que é uma estreita faixa de praia de areia branca mais ao sul da barreira, é de fato o local situado mais a leste da América, e não a falésia do Cabo Branco em si, que é o local mais alto da região, sendo portanto, do ponto de vista da navegação marítima, o ideal para um farol.\n[…]\nPraia do Seixas\n[…]\nPonta de Pedras (Goiana)\n[…]\nSaliente nordestino"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ponta_do_Seixas",
+        "situacao": "ok",
+        "texto": "Ponta do Seixas (Portuguese pronunciation: [ˈpõtɐ du ˈsejʃɐs]), is a beach on the Atlantic coast of Paraíba state, northeastern Brazil, that forms the easternmost point of the American double-continent, roughly 8 km (5 mi) southeast of João Pessoa, the state capital.\n[…]\nThe name Ponta do Seixas simply means Point of Seixas or Tip of Seixas, Seixas being the  surname of the landowner.\n[…]\nIt is surrounded by white sand beaches bordered by flat-topped forms of sedimentary strata called \"tabuleiros\", which rise sharply above the beaches to heights between 150 and 500 ft, and enjoys abundant rainfall. It lies on the coastal highway connecting João Pessoa and the port of Cabedelo farther north. Pontas dos Seixas is often confused with Cabo Branco, especially by foreigners, but these two are different official neighborhoods and separate beaches.\n[…]\nOpened in 1972, the Cabo Branco Lighthouse is one of the most visited postcards of the city. It is very close to Cabo Branco Station. The Cabo Branco Lighthouse has a unique triangular shape. From the Lighthouse, visitors can view a large part of the coastline of João Pessoa."
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Ilha do Bananal",
+      "descricao": "Grande ilha fluvial no estado do Tocantins, formada pela bifurcação do rio Araguaia com o braço do Javaés."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A Ilha do Bananal, enorme ilha fluvial do Tocantins, fica no meio de qual grande rio?",
+    "resposta": "Araguaia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_do_Bananal",
+      "https://en.wikipedia.org/wiki/Bananal_Island"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_do_Bananal",
+        "situacao": "ok",
+        "texto": "A Ilha do Bananal é a maior ilha genuinamente fluvial do mundo, com cerca de vinte mil quilômetros quadrados de área (1 916 225 hectares), cercada pelos rios Araguaia e Javaés. Reserva ambiental brasileira desde 1959, é considerada Reserva da Biosfera pela UNESCO desde 1993, sendo também uma das zonas úmidas de importância internacional, classificadas pela Convenção de Ramsar.\n[…]\nA ilha localiza-se no estado brasileiro do Tocantins, estando subdividida entre os municípios de Formoso do Araguaia, Lagoa da Confusão e Pium. Bananal está na divisa de Tocantins com os estados do Mato Grosso (no rio Araguaia) e de Goiás (na porção sul do rio Javaés). Na foz do rio Javaés, localizada no extremo norte da ilha, está a tríplice divisa entre os estados de Tocantins, Mato Grosso e Pará.\n[…]\nAs estradas que dão acesso ao interior da Ilha do Bananal são a rodovia BR-242 (mais conhecida neste trecho como Transbananal), a Transaraguaia (extensão não oficial da TO-255), além de uma estrada sem nome que liga a Aldeia Santa Isabel do Morro ao extremo sul da ilha, margeando o rio Araguaia e o rio Caracol.\n[…]\nDesde antes da descoberta do Brasil, Bananal é habitada por nativos. No presente, existem alguns grupos indígenas presentes nas aldeias da ilha, especialmente das etnias Karajá-Javaé, Avá-Canoeiro e Tapirapé, que ocupam a Terra Indígena Parque do Araguaia e a Terra Indígena Inãwébohona.\n[…]\nNa Ilha do Bananal, a BR-242 faz a ligação entre a Aldeia Txuiri (no rio Javaés), a Aldeia Imotxi (no rio Riozinho) e as aldeias Watau e JK (no rio Araguaia), havendo ainda uma pequena extensão não oficial que segue até a Aldeia Santa Isabel do Morro. Nos últimos anos, a Transbananal vem se tornando alvo de uma grande polêmica, já que há um projeto orçado em 650 milhões de reais para pavimentar este trecho da BR-242 que passa por dentro da Terra Indígena Parque do Araguaia.\n[…]\nRio Araguaia"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bananal_Island",
+        "situacao": "ok",
+        "texto": "Bananal Island (Portuguese: Ilha do Bananal, IPA: [banaˈnaw]) is a large river island formed from the bisection of the Araguaia River, in southwestern Tocantins, Brazil. The island is formed by a fork in a very flat section of the Araguaia; the western stream of the fork retains the name Araguaia and the eastern one is called the Javaés River.\n[…]\nBy reuniting later, both streams form Bananal Island, which is the second largest river island in the world and the largest without an ocean coastline, at 320 kilometres (200 mi) long and 55 kilometres (34 mi) wide. Its total area is 19,162.25 square kilometres (7,398.59 mi2). The Jaburu do Bananal is the largest of several rivers flowing within the island, parallel to the Araguaia.\n[…]\nBananal Island is a nature and culture preserve. In accordance with Article 28 of the Statute of Indian Law (Artigo 28 do Estatuto do Indío-lei) No. 6001 laid out on 19 December 1973, an area of 5,577.26 square kilometres (2,153.39 mi2) is preserved as Araguaia National Park and further 13,584.99 square kilometres (5,245.19 mi2) as cultural preserve for Brazilian Indigenous. The northern third of the island, which is designated as a national park, is a popular destination for ecotourism.\n[…]\nThere are no bridges to the island from the states of Tocantins to the east nor from Mato Grosso to the west. For the greater majority of the year, the only transport to the island is by boat. However, for a few weeks during the dry season (June – August) the river is low enough that it can be forded and the island can be reached by car. The villages have roads wide enough for cars and tractors, but most travellers walk or ride horses or bicycles.\n[…]\nFrom north to south, the island forms the western portions of the municipalities of Pium, Lagoa da Confusão, and Formoso do Araguaia, in southwestern Tocantins."
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Parque Nacional da Serra da Capivara",
+      "descricao": "Parque nacional no sudeste do Piauí, com milhares de pinturas rupestres pré-históricas."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+    "resposta": "Piauí",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Capivara",
+      "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Capivara",
+        "situacao": "ok",
+        "texto": "O Parque Nacional Serra da Capivara é uma unidade de conservação brasileira de proteção integral à natureza que ocupa parte dos municípios de São Raimundo Nonato, João Costa, Brejo do Piauí e Coronel José Dias, todos localizados no estado do Piauí. Esta área tem a maior e mais antiga concentração de sítios pré-históricos da América. Estudos científicos confirmam que a cadeia montanhosa de Capivara\n[…]\nO Parque Nacional Serra da Capivara se localiza no Estado do Piauí, ao Sudeste do Estado. Existem atualmente cerca de 400 sítios arqueológicos catalogados onde foram encontrados artefatos líticos, esqueletos humanos e  pinturas rupestres. No sítio Toca do Boqueirão da Pedra Furada, 63 datações por carbono-14 (C-14) permitiram o estabelecimento de uma coluna cronoestratigráfica que vai de 59 000 até 5 000 anos AP. Numerosas pinturas rupestres se encontram na área.\n[…]\nAs pinturas rupestres são a manifestação mais abundante, notável e espetacular deixada pelas populações pré-históricas que viveram na área do Parque Nacional, desde épocas muito recuadas.\n[…]\nNo parque destaca-se o Mocó, único mamífero endêmico da Caatinga. O maior predador de toda a região do parque é a onça-pintada, que pode ultrapassar 50 kg e se alimenta de outros vertebrados que pode capturar.\n[…]\nNo início de 2017 o Museu do Homem Americano passou a ser de responsabilidade do comitê permanente de acompanhamento e gestão do Parque Nacional da Serra da Capivara, um modelo de gerenciamento compartilhado instituído pelo governo do estado do Piauí e pelo Ministério da Cultura.\n[…]\nSerra da Capivara (Território do Piauí)\n[…]\nParque Nacional Serra da Capivara - Fundação Museu do Homem Americano\n[…]\nParque Nacional Serra da Capivara - PI - Portal Brasil\n[…]\nParque Nacional Serra da Capivara - Instituto do Patrimônio Artístico e Histórico Nacional\n[…]\nParque Nacional da Serra da Capivara - Fotorreportagem Olhar sobre o Mundo"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park",
+        "situacao": "ok",
+        "texto": "Serra da Capivara National Park (Portuguese: Parque Nacional Serra da Capivara, IPA: [ˈpaʁki nasi.oˈnaw ˈsɛʁɐ da kapiˈvaɾɐ, - nasjoˈnaw -]) is a national park in the Northeastern region of Brazil. The area has many prehistoric paintings.\n[…]\nThe name of the mountain range that defines the park, Serra da Capivara, literally means \"Capybara Hills\" in Portuguese. This area has the largest and the oldest concentration of prehistoric sites in the Americas. Scientific studies confirm that the Capivara mountain range was densely populated in the pre-Cabraline Era.\n[…]\nIt is located in northeast state of Piauí, between latitudes 8° 26' 50\" and 8° 54' 23\" south and longitudes 42° 19' 47\" and 42° 45' 51\" west. It falls within the municipal areas of São Raimundo Nonato, São João do Piauí, Coronel José Dias and Canto do Buriti. It has an area of 1291.4 square kilometres (319,000 acres).\n[…]\nThe Capivara-Confusões Ecological Corridor, created in 2006, links the park to the Serra das Confusões National Park.\n[…]\nScientific studies confirm that the Capivara mountain range was densely populated in the pre-Columbian Era.\n[…]\nEric Boëda, et al. (2014), Les Industries pléistocènes du Piaui. Nouvelles données academia.edu\n[…]\nExplore Serra da Capivara National Park in the UNESCO collection on Google Arts and Culture\n[…]\nThe Rock Art of Serra da Capivara\n[…]\nPhotos of Serra da Capivara by Maria-Brazil\n[…]\nFUMDHAM - South-American Pre-Historic Men Foundation"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Pico da Bandeira",
+      "descricao": "Pico da Serra do Caparaó, na divisa entre Minas Gerais e Espírito Santo."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Até a década de 1960, que pico na divisa de Minas Gerais com o Espírito Santo era considerado o ponto mais alto do Brasil?",
+    "resposta": "Pico da Bandeira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pico_da_Bandeira",
+      "https://en.wikipedia.org/wiki/Pico_da_Bandeira"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pico_da_Bandeira",
+        "situacao": "ok",
+        "texto": "O pico da Bandeira é o ponto mais alto dos estados do Espírito Santo e de Minas Gerais, e também de toda a Região Sudeste do Brasil. É também o terceiro ponto mais alto do país, com 2891,32 metros de altitude (medição feita por GPS pelo Projeto Pontos Culminantes do Brasil, do IBGE e do Instituto Militar de Engenharia, em 2004, e revista pelo IBGE em 2016 após novo mapeamento do geoide no territór\n[…]\nO pico está localizado no Parque Nacional do Caparaó, na serra do Caparaó, na divisa entre os municípios de Ibitirama (Espírito Santo) e Alto Caparaó (Minas Gerais). A carta topográfica do IBGE para a região, publicada em 1977, mostra o cume propriamente dito inteiramente dentro do Espírito Santo, a poucos metros da divisa mineira.\n[…]\nO pico da Bandeira é notável por seu extenso isolamento topográfico: 2344 km. Isto significa que não há nenhum outro ponto na superfície da Terra com a mesma ou maior altitude que o seu cume a menos que essa distância, medida em círculo máximo. No caso, o ponto mais próximo de maior altitude que o pico da Bandeira é o chamado \"Pico 2960\", que tem essa altitude aproximada em metros e se localiza na região pré-andina do departamento de Tarija, na Bolívia.\n[…]\nO pico possui esse nome porque, por volta de 1859, o imperador Pedro II determinou que fosse colocada uma bandeira do Império naquele que, na época, era tido como o ponto mais alto e imponente do Brasil.\n[…]\nMesmo sendo o terceiro ponto mais alto do Brasil, o pico da Bandeira é o mais acessível dos picos mais altos do país pois existem trilhas muito bem sinalizadas pelo lado do Espírito Santo (portaria capixaba na comunidade de Pedra Menina, em Dores do Rio Preto) e também pelo lado de Minas Gerais (portaria mineira em Alto Caparaó). Porém, à noite há que se ter muita atenção para não se perder.\n[…]\nPico do Calçado\n[…]\nPico do Cristal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pico_da_Bandeira",
+        "situacao": "ok",
+        "texto": "Pico da Bandeira, or Bandeira Peak (Portuguese for Flag Peak, pronounced [ˈpiku dɐ bɐ̃ˈdejɾɐ]), is the highest mountain in Brazil outside of the Amazon, the third overall, situated on the border of Espírito Santo and Minas Gerais states. It is the highest point in both states. It was considered the highest mountain in Brazil until 1965, when Pico da Neblina and Pico 31 de Março, next to the Venezu\n[…]\nThe peak is said to have been so named after Pedro II, Emperor of Brazil, ordered a flag to be flown on top of it. Pico da Bandeira is ranked 21st by topographic isolation.\n[…]\nPico da Bandeira is remarkable for being the Brazilian mountain with the greatest topographic isolation: 2,344 kilometres (1,456 mi). This means that at less than that distance, there is no other point on the surface of the Earth at equal or greater elevation. In the Americas, only Aconcagua, Denali, Pico de Orizaba, and Mount Whitney are more topographically isolated than Pico da Bandeira, and in the entire world, there are only 20 more-isolated mountains.\n[…]\nIt is one of the major attractions of Caparaó National Park (Portuguese: Parque Nacional do Caparaó), accessible from the nearby town of Alto Caparaó. That town and the entrance to the park lie in Minas Gerais, but the summit of Pico da Bandeira lies in Espírito Santo."
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Monte Caburaí",
+      "descricao": "Monte em Roraima, na fronteira com a Guiana, ponto extremo norte do Brasil."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Apesar da expressão do Oiapoque ao Chuí, o ponto mais ao norte do Brasil fica em Roraima. Que monte é esse?",
+    "resposta": "Monte Caburaí",
+    "distratores": [
+      "Monte Roraima",
+      "Serra Parima",
+      "Serra do Tepequém"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monte_Caburaí"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Caburaí",
+        "situacao": "ok",
+        "texto": "O monte Caburaí, com 1 465 metros de altitude, localiza-se na serra do Caburaí, que consiste na borda de um imenso planalto com mais de mil metros de altitude, que delimita a fronteira norte do Brasil com a Guiana, situando-se no município roraimense de Uiramutã.\n[…]\nA disputa em torno da condição de extremo setentrional do Brasil deve-se à antiga tradição brasileira de se considerar, como extremo norte do país, o cabo Orange, no rio Oiapoque, no estado do Amapá, popularizada pelo uso da expressão do Oiapoque ao Chuí para se designar os extremos norte e sul do Brasil. No entanto, o cabo Orange, cuja latitude é 4º 30' 30\" norte, situa-se 84,5km mais ao sul que o monte Caburaí.\n[…]\nJá em 1931, a serra do Caburaí apareceria como ponto extremo do norte brasileiro nas anotações do capitão de mar e guerra Brás de Aguiar, chefe da Comissão Brasileira Demarcadora de Limites. Aguiar, então, concluiu que o ponto extremo norte do Brasil era a serra do Caburaí em detrimento do monte Roraima, no mesmo estado. De fato, uma simples visualização cartográfica da região evidencia a localização mais setentrional do monte Caburaí em relação ao Oiapoque.\n[…]\nCom base em dados oficiais, é correto afirmar que os pontos extremos norte e sul do Brasil são o monte Caburaí, em Roraima, e o arroio Chuí (que encontra-se no município de Santa Vitória do Palmar e não no município do Chuí), no Rio Grande do Sul, corrigindo portanto a conhecida expressão \"do Oiapoque ao Chuí\", que foi provavelmente criada para se referir aos corpos d'água mais ao norte e mais ao sul do Brasil, levando-se em conta o ponto de vista costeiro.\n[…]\nArroio Chuí"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Bahia",
+      "descricao": "Estado da Região Nordeste do Brasil, com capital em Salvador."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Que estado brasileiro faz divisa com o maior número de outros estados, oito ao todo?",
+    "resposta": "Bahia",
+    "distratores": [
+      "Minas Gerais",
+      "Goiás",
+      "Tocantins"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bahia"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bahia",
+        "situacao": "ok",
+        "texto": "Bahia é uma das 27 unidades federativas do Brasil. Banhada pelo Oceano Atlântico na costa mais extensa do país, está situada na Região Nordeste, onde representa a maior extensão territorial, a maior população, o maior produto interno bruto e o maior número de municípios. A capital estadual é Salvador.\n[…]\nSituada no sul da Região Nordeste, a Bahia limita-se com outros oito estados brasileiros — é o estado brasileiro que mais faz divisas: com Minas Gerais a sul, sudoeste e sudeste; com o Espírito Santo a sul; com Goiás a oeste e sudoeste; com Tocantins a oeste e noroeste; com o Piauí a norte e noroeste; com Pernambuco a norte; e com Alagoas e Sergipe a nordeste. A leste, é banhada pelo Oceano Atlântico por 1 183 quilômetros, o que torna seu litoral o mais extenso de todos os estados do Brasil.\n[…]\nO estado da Bahia é o quarto do Brasil em quantidade de dispositivos móveis ativos (17 033 298), após São Paulo, Minas Gerais e Rio de Janeiro. A cidade de Salvador tem a maior teledensidade (número de acessos por 100 habitantes), com 198,44 acessos para cada 100 pessoas. Os códigos de discagem direta a distância, DDD, para realizações para números do estado são 71, 73, 74, 75 e 77.\n[…]\nA culinária da Bahia é uma das mais diversificadas do Brasil, com muitas variações, desde a culinária sertaneja, até a mais conhecida, que é aquela produzida no Recôncavo e em todo o litoral da Bahia — praticamente composta de pratos de origem africana, diferenciados pelo tempero mais forte, à base de azeite de dendê, leite de coco, gengibre, frutos do mar, pimenta de várias qualidades e muitos outros que não são utilizados em outros estados do Brasil.\n[…]\nCapitania da Bahia\n[…]\nPágina do Governo do Estado da Bahia\n[…]\nPágina da Assembleia Legislativa do Estado da Bahia\n[…]\nBahia nas estatísticas oficiais do IBGE"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Fronteiras do Brasil",
+      "descricao": "Conjunto das fronteiras terrestres do Brasil com os países vizinhos da América do Sul."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Quais são os dois países sul-americanos que não têm nenhuma fronteira com o Brasil?",
+    "resposta": "Chile e Equador",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fronteiras_do_Brasil",
+      "https://en.wikipedia.org/wiki/Borders_of_Brazil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fronteiras_do_Brasil",
+        "situacao": "ok",
+        "texto": "As fronteiras do Brasil são as fronteiras internacionais que o Brasil compartilha com os países vizinhos. O Brasil tem fronteiras com dez países, todos os países da América do Sul, com exceção do Chile e do Equador, totalizando 16 885 quilômetros. O Brasil tem a terceira maior fronteira terrestre do mundo, atrás da China e da Rússia. A Bolívia é o país que partilha a maior fronteira com o territór\n[…]\nDentro do território nacional, o Amazonas é o único dos 11 estados fronteiriços a ter 3 fronteiras: com Peru, Colômbia e Venezuela – enquanto Santa Catarina, Mato Grosso e Rondônia são os 3 únicos estados fronteiriços a ter fronteira exclusiva com um único país: Santa Catarina com a Argentina; Mato Grosso e Rondônia (ambos) com a Bolívia. Os outros 7 estados fronteiriços restantes têm exatamente 2 países como limites externos (fronteiras).\n[…]\nBoa parte desses estados não têm litoral (interioranos– sem acesso ao Oceano Atlântico), exceto os estados sulistas (Rio Grande do Sul, Santa Catarina e Paraná) e os estados do Pará e Amapá. Os estados fronteiriços restantes são: Acre, Roraima e Mato Grosso do Sul.\n[…]\nOs comprimentos das fronteiras que o Brasil compartilha com diferentes países, em sentido anti-horário em todo o Brasil, desde a Guiana Francesa até o Uruguai, estão listados abaixo:\n[…]\nIlha de Guajará-mirim (nome brasileiro), ou Isla Suárez (nome boliviano), uma ilha fluvial no rio Mamoré é reivindicada tanto pela Bolívia quanto pelo Brasil.\n[…]\nUma região triangular, chamada Rincão de Artigas em português, é reivindicada tanto pelo Uruguai quanto pelo Brasil. A disputa é devido a um desacordo sobre qual fluxo deve ser chamado de Arroyo de la Invernada e formar a fronteira oficial entre os dois países.\n[…]\nIlha Brasileira, uma ilha fluvial na junção do rio Quaraí e o rio Uruguai, na fronteira entre Argentina, Brasil e Uruguai é reivindicada por ambos Uruguai e Brasil.\n[…]\nProteção das Fronteiras"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Borders_of_Brazil",
+        "situacao": "ok",
+        "texto": "The borders of Brazil are the international borders that Brazil shares with neighbouring countries. Brazil has terrestrial boundaries with nine countries of South America, and with the French Department of Guiana. Brazil has borders with every country in South America with the exception of Chile and Ecuador, totalling 16,885 kilometres (10,492 mi). Brazil has the world's third longest land border,\n[…]\nThe lengths of the borders Brazil shares with different countries, running counter-clockwise around Brazil from French Guiana to Uruguay, are listed below:\n[…]\nBrazil's coastline with the Atlantic Ocean is 7,491 km, which is more than twice the length of its border with Bolivia, the longest land border.\n[…]\nBrazilian Island, a river island at the junction of the Quaraí River and the Uruguay River on the border between Argentina, Brazil, and Uruguay is claimed by both Uruguay and Brazil. Brazil has de facto control of it.\n[…]\nWith many of Brazil's borders defined by rivers, there are several water falls along the border. The most notable border water falls include the Iguazu Falls on the border with Argentina and Orinduik Falls on the border with Guyana.\n[…]\nWith 10 bordering countries forming a single incomplete ring around Brazil, the borders of Brazil include 9 triple points (also called tripoints) in which the borders of three countries join at a single point. A few of the triple points are notable:\n[…]\nSan José Island: The tripoint of Brazil, Venezuela, and Colombia\n[…]\nTres Fronteras: The tripoint of Brazil, Peru, and Colombia.\n[…]\nAssis Brasil, Bolpebra, Iñapari: The tripoint of Brazil, Bolivia, and Peru.\n[…]\nTriple Frontier: The tripoint of Brazil, Argentina, and Paraguay.\n[…]\nBrazilian Island: The tripoint of Brazil, Argentina, and Uruguay. Due to a border dispute between Brazil and Uruguay over the river island, the exact position of the tripoint is in dispute."
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Região Nordeste do Brasil",
+      "descricao": "Uma das cinco grandes regiões do Brasil definidas pelo IBGE, formada por nove estados."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A Região Nordeste é a que reúne mais estados entre as regiões brasileiras. Quantos são eles?",
+    "resposta": "Nove",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Região_Nordeste_do_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Região_Nordeste_do_Brasil",
+        "situacao": "ok",
+        "texto": "A Região Nordeste do Brasil é a terceira maior região em extensão territorial do país. Compreende 1 554 291,744 km², aproximadamente um quinto da área do Brasil. Grande parte de seu território integra a Região geoeconômica Nordeste. Ao passo disso, o oeste do Maranhão está subordinado à Região geoeconômica Amazônica. Apresenta nove unidades federativas, a saber: Bahia, Sergipe, Alagoas, Pernambuco\n[…]\nO poder executivo nordestino geopolítico é desempenhado pelos governadores dos nove estados da região Nordeste do Brasil, escolhidos pelo eleitorado do Nordeste geopolítico, sucedidos pelos vice-governadores dos nove estados da região Nordeste do Brasil, e assessorados por uma série de secretários estaduais.\n[…]\nO poder legislativo nordestino geopolítico é desempenhado pelas Assembleias Legislativas dos nove estados da região Nordeste do Brasil, constituída por vários deputados estaduais, escolhidos pelo eleitorado do Nordeste geopolítico e liderados por seu presidente, sendo este um dos parlamentares. Todos os nove estados da região Nordeste do Brasil têm como representantes três senadores e diversos deputados federais.\n[…]\nA mais altas instâncias do poder judiciário nordestino geopolítico são os tribunais de justiça dos nove estados da região Nordeste do Brasil, que são desempenhados pelos juízes, promotores, advogados e desembargadores.\n[…]\nEm termos eleitorais, o Nordeste possui uma população de eleitores significativa. Em 2024, o Brasil registrou mais de 155 milhões de eleitores aptos a votar, com o Nordeste representando cerca de 27,7% desse total. O Tribunal Superior Eleitoral (TSE) é responsável pela organização das eleições na Região Nordeste do Brasil, que é dividida em zonas eleitorais específicas para cada um dos nove estados nordestinos.\n[…]\nBlecaute no Nordeste do Brasil em 2011\n[…]\nCultura da região Nordeste do Brasil\n[…]\nSeca na Região Nordeste do Brasil\n[…]\nGovernos dos estados"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Linha do Equador",
+      "descricao": "Paralelo de latitude zero, que divide a Terra nos hemisférios Norte e Sul e atravessa o norte do Brasil."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A Linha do Equador corta o território de quantos estados brasileiros?",
+    "resposta": "Quatro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equator",
+      "https://pt.wikipedia.org/wiki/Linha_do_Equador"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Equator",
+        "situacao": "ok",
+        "texto": "The equator is the circle of latitude that divides Earth into the Northern and Southern Hemispheres. It is an imaginary line located at 0 degrees latitude, about 21,639 nautical miles (40,075 kilometres; 24,902 miles) in circumference, located halfway between the North and South Poles. The term can also be used for any other celestial body that is roughly spherical.\n[…]\nThe equator also passes through the territorial seas of three countries: Maldives (south of Gaafu Dhaalu Atoll), Kiribati (south of Buariki Island), and the United States (south of Baker Island).\n[…]\nFrance (Mayotte, Réunion), Norway (Bouvet Island), and the United Kingdom (British Antarctic Territory, British Indian Ocean Territory, Falkland Islands, Pitcairn Islands, Saint Helena, Ascension and Tristan da Cunha, South Georgia and the South Sandwich Islands) are the other three Northern Hemisphere-based countries which have territories in the Southern Hemisphere."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Linha_do_Equador",
+        "situacao": "ok",
+        "texto": "Equador é a linha imaginária definida pelo círculo máximo perpendicular ao eixo de rotação de um orbi celeste em consideração. Está a meio caminho entre o Polo Norte e o Polo Sul, a 0 graus de latitude ao se definirem as coordenadas gráficas.\n[…]\nO peso aparente de um objeto na Terra é ligeiramente menor no equador devido a sua protuberância equatorial e à rotação do planeta. Devido à velocidade de rotação tangencial no equador ser de cerca de 1670 Km/h ao passo que nos polos é nula, o equador é ideal para lançamentos espaciais, pois os foguetes precisam fornecer menos energia durante os lançados (pois não precisam imprimir a velocidade equatorial já existente).\n[…]\nDuas vezes ao ano, nos equinócios da primavera e do outono, o Sol tem seu zênite sobre o equador, uma hora transitando de norte para sul em direção ao Trópico de Capricórnio e outra transitando do sul para o norte em direção ao Trópico de Câncer.\n[…]\nEm determinadas regiões do globo o equador passa por regiões com um clima árido, em particular na África oriental, em regiões como o monte Quilimanjaro na Tanzânia..\n[…]\nA insolação no equador é notoriamente maior que nos polos, atingindo o valor de 1,37 Kw/\n[…]\nAs maiores temperaturas globais são observadas contudo nas regiões desérticas, a maioria em latitudes tropicais. Essas discrepâncias ocorrem sobretudo por questões como correntes marítimas e atmosféricas, oriundas nos casos continentais da diferença de temperaturas entre os polos e o equador, e por influência de relevos acidentados.\n[…]\nA linha do equador cruza os oceanos Atlântico, Índico e Pacífico, bem como 14 Estados de África, Ásia e América do Sul (de oeste para leste, a partir do meridiano de Greenwich):\n[…]\nRito de passagem da linha do Equador"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Litoral do Brasil",
+      "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantos estados brasileiros são banhados pelo oceano Atlântico?",
+    "resposta": "Dezessete",
+    "distratores": [
+      "Doze",
+      "Quinze",
+      "Dezenove"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Litoral_do_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Litoral_do_Brasil",
+        "situacao": "ok",
+        "texto": "O litoral do Brasil tem 10 959,52 quilômetros de extensão, o que o torna o 13.º maior litoral nacional do mundo. Toda a costa encontra-se ao lado do Oceano Atlântico. Um número considerável de características geográficas podem ser encontradas nas áreas costeiras brasileiras, como ilhas, arrecifes e baías. As praias do Brasil (2 095 no total) são famosas no mundo todo e recebem um grande número de \n[…]\nAs regiões Nordeste e Sul são as únicas das 5 regiões do Brasil a compor e abrigarem estados cujo todos sejam litorâneos (acesso ao Oceano Atlântico) – já que as outras 3 regiões brasileiras abrigam ao menos 1 unidade federativa sem litoral – que é o caso de Minas Gerais, na região Sudeste; Amazonas, Acre, Roraima, Tocantins e Rondônia, na região Norte; e todas as unidades federativas da região Centro-oeste (Goiás, Mato Grosso, Mato Grosso do Sul e Distrito Federal) – sendo a única região totalmente encravada (sem saída ao mar).\n[…]\nÉ importante destacar que, em determinadas porções desse litoral — sobretudo na região nordeste, notadamente nos estados do Rio Grande do Norte e do Ceará, bem como em áreas do estado do Rio de Janeiro —, existem salinas cuja existência assegura a autossuficiência do país quanto à produção de sal. Por sua vez, a costa de Santa Catarina apresenta uma conformação geográfica caracterizada pela presença de enseadas e baías protegidas.\n[…]\nA região Nordeste é, consequente e geograficamente, a região com o maior número de estados costeiros (nove ao total), também sendo a região brasileira com maior extensão litorânea; apenas os estados da Bahia e Maranhão atribuem juntos mais de 2.500 km de faixa litorânea. Já a região Norte é a região que possui a menos extensa costa litorânea do país, já que compreende apenas o litoral dos estados do Pará e Amapá (sendo a menor também em quantidade de estados costeiros).\n[…]\nInterior do Brasil\n[…]\nLista de municípios litorâneos do Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Mato Grosso do Sul",
+      "descricao": "Estado da Região Centro-Oeste do Brasil, desmembrado de Mato Grosso, com capital em Campo Grande."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano foi assinada a lei que dividiu Mato Grosso em dois, criando o Mato Grosso do Sul?",
+    "resposta": "1977",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul",
+        "situacao": "ok",
+        "texto": "Mato Grosso do Sul é uma das 27 unidades federativas do Brasil. Localiza-se no sul da Região Centro-Oeste. É dividido em 79 municípios e ocupa uma área de 357 142,082 km², com tamanho comparável à Alemanha. Com uma população de 2 757 013 habitantes em 2022, Mato Grosso do Sul é o 21º estado mais populoso do Brasil. Sua capital e município mais populoso é Campo Grande. Outros municípios com populaç\n[…]\nNo dia 11 de outubro de 1977, finalmente concretizou-se o desmembramento de Mato Grosso do Sul, quando o presidente Ernesto Geisel sancionou a lei complementar que elevou a área à categoria de estado em 1º de janeiro de 1979, sendo Harry Amorim Costa o primeiro governador empossado, além da Assembleia Constituinte. O acontecimento das primeiras eleições deu-se apenas em 1982.\n[…]\nA ideia de desmembrar o antigo sul de Mato Grosso contornou definitivamente o atual estado em 1975, com a tese Divisão político-administrativa de Mato Grosso, que a Associação dos Diplomados da Escola Superior de Guerra (ADESG) publicou, cujos dados basearam a campanha intensificada pelo desmembramento. O presidente Ernesto Geisel comunicou que o governo federal decidiu sobre o assunto durante uma reunião com o então governador de Mato Grosso, José Garcia Neto, em 4 de maio de 1977.\n[…]\nA navegação fluvial, que já teve importância decisiva, vem perdendo a preeminência. Dois eixos fluviais compõem o estado, ambos pertencentes à Bacia do Rio da Prata. O Rio Paraguai integra o estado com os países vizinhos Paraguai e Argentina, e com Mato Grosso pelo porto de Cáceres. Os principais produtos transportados no rio são: minérios de ferro e de manganês, cimento, madeira, derivados de petróleo e gado em pé.\n[…]\n«Assembleia Legislativa do Estado de Mato Grosso do Sul»\n[…]\n«Portal MS - Guia Online do Estado de Mato Grosso do Sul»\n[…]\n«Portal dos municípios de Mato Grosso do Sul»\n[…]\n«Mapeamento cultural de Mato Grosso do Sul»"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Salvador",
+      "descricao": "Capital do estado da Bahia e primeira capital do Brasil colonial, fundada em 1549."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Salvador foi a primeira capital do Brasil. Em que século ela perdeu esse posto para o Rio de Janeiro?",
+    "resposta": "Século dezoito",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Salvador_(Bahia)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Salvador_(Bahia)",
+        "situacao": "ok",
+        "texto": "Salvador é um município brasileiro, capital do estado da Bahia. Fundada em 29 de março de 1549 por Tomé de Sousa, por conta da implantação do Governo-Geral do Brasil pelo Império Português, foi a primeira capital do Brasil Colonial e está entre as cidades mais antigas continuadamente habitadas do continente americano e uma das primeiras cidades do Brasil, sendo estabelecida como uma cidade planeja\n[…]\nSalvador foi nomeada em homenagem a Jesus Cristo, o Salvador, conforme o cristianismo seguido pelos colonizadores católicos do Império Português. Portanto, trata-se de um hierotopônimo na toponímia do Brasil, mas também é uma redução da primeira designação, São Salvador da Bahia de Todos os Santos.\n[…]\nA Cidade do São Salvador da Baía de Todos os Santos foi a capital e sede da administração colonial do Brasil até 1763, até ser substituída pela cidade do Rio de Janeiro. Em 1798, ocorreu a Revolta dos Alfaiates, também conhecida como Conjuração Baiana, na qual estavam envolvidos homens do povo como Lucas Dantas e João de Deus, e intelectuais da elite, como Cipriano Barata e outros profissionais liberais.\n[…]\nA região noroeste da cidade, ao longo da Baía de Todos os Santos, contém os bairros do subúrbio soteropolitano, como Periperi, Paripe, Lobato, Liberdade, Nova Esperança e Calçada. O bairro da Liberdade tinha a maior proporção de afro-brasileiros de Salvador quando o perdeu o título para Pernambués.\n[…]\nA cultura desenvolvida em Salvador, uma das primeiras cidades fundadas e capital do Brasil por mais de dois séculos, e no Recôncavo da Bahia, exerceu forte influência em outras regiões do país, e na própria imagem que se tem do Brasil no exterior. Desde o século XVII observa-se no estado uma dualidade religiosa: de um lado, a religião católica (de origem europeia); do outro, o candomblé (de origem africana).\n[…]\nHino de Salvador\n[…]\nLista de municípios do Brasil acima de cem mil habitantes"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "São Paulo",
+      "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que dia e mês se comemora o aniversário da cidade de São Paulo, data da fundação do colégio jesuíta?",
+    "resposta": "25 de janeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/São_Paulo"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/São_Paulo",
+        "situacao": "ok",
+        "texto": "São Paulo (; Portuguese: [sɐ̃w ˈpawlu] ; Portuguese for 'Saint Paul') is the capital and largest city of the state of São Paulo. The largest city in Brazil, it is also the most populous city in South America, the Americas, and in both the Western and Southern Hemispheres.\n[…]\nThe Portuguese village of São Paulo dos Campos de Piratininga was marked by the founding of the Colégio de São Paulo de Piratininga on 25 January 1554 founded to catechise the indigenous peoples. The Jesuit college of twelve priests included Manuel da Nóbrega and Spanish priest José de Anchieta. They built a mission on top of a steep hill between the Anhangabaú and Tamanduateí rivers.\n[…]\nAccording to data from the Brazilian Institute of Geography and Statistics (IBGE), in 2010 the population of São Paulo was 6,549,775 Roman Catholics (58.2%), 2,887,810 Protestants (22.1%), 531,822 Spiritists (4.7%), 101,493 Jehovah's Witnesses (0.9%), 75,075 Buddhists (0.7%), 50,794 Umbandists (0.5%), 43,610 Jews (0.4%), 28,673 Catholic Apostolic Brazilians (0.3%), 25,583 eastern religious (0.2%), 18,058 Candomblecists (0.2%), 17,321 Mormons (0.2%), 14,894 Eastern Orthodox (0.1%), 9,119 spiritualists (0.1%), 8,277 Muslims (0.1%), 7,139 esoteric (0.1%), 1,829 practiced Indian traditions (<0.1%) and 1,008 were Hindu (<0.1%).\n[…]\nSão Paulo has been named the 18th best city in the world by the 2026 World's Best Cities Report, standing out among 270 global destinations evaluated by Resonance. The city leads all of Latin America, ahead of Mexico City, Buenos Aires, Rio de Janeiro, Bogotá and Lima.\n[…]\nSão Paulo and Rio de Janeiro are considered the centre of the urban music movement in Brazil.\n[…]\nGeographic data related to São Paulo at OpenStreetMap\n[…]\nNational Geographic, \"A writer's perfect day in São Paulo\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo",
+        "situacao": "ok",
+        "texto": "São Paulo é a capital do estado brasileiro de São Paulo. Classificada pela Globalization and World Cities Research Network (GaWC) como uma cidade global alfa, é a área urbana mais populosa do mundo fora da Ásia e exerce significativa influência internacional no comércio, finanças, cultura, gastronomia, artes, moda, tecnologia, entretenimento e mídia, o que lhe garantiu a integração à Rede de Cidad\n[…]\nA povoação de São Paulo dos Campos de Piratininga (topônimo indígena que significa \"peixe seco\" ou \"peixe a secar\", após a cheia do rio), por sua vez, surgiu em 25 de janeiro de 1554 com a construção de um colégio jesuíta (atual Pátio do Colégio) por doze padres, entre eles Manuel da Nóbrega e José de Anchieta, no alto de uma colina escarpada, entre os rios Anhangabaú e Tamanduateí.\n[…]\nO nome São Paulo foi escolhido porque o dia da fundação do colégio foi 25 de janeiro, mesmo dia no qual a Igreja Católica celebra a conversão do apóstolo Paulo de Tarso, conforme disse o padre José de Anchieta em carta à Companhia de Jesus: \"A 25 de Janeiro do Ano do Senhor de 1554 celebramos, em paupérrima e estreitíssima casinha, a primeira missa, no dia da conversão do Apóstolo São Paulo e, por isso, a ele dedicamos nossa casa!\".\n[…]\nEm 27 de novembro de 1983, São Paulo foi palco pela primeira vez das Diretas Já, um movimento que reuniu milhares de pessoas em frente ao estádio do Pacaembu e que reivindicava a volta das eleições diretas para Presidente da República. A cidade voltaria a ser palco do movimento outras duas vezes em 1984, a primeira no dia 25 de janeiro e a segunda em 16 de abril, em um ato que reuniu cerca de 1,5 milhão de pessoas.\n[…]\nA rua 25 de Março foi criada pelos árabes, que eram em sua maioria comerciantes.\n[…]\nNa cidade de São Paulo, a diversidade gastronômica concentra-se em bairros e espaços urbanos que se tornaram referências históricas e culturais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Rodovia Transamazônica",
+      "descricao": "Rodovia federal BR-230, que atravessa a Amazônia no sentido leste-oeste."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Rodovia Transamazônica, aberta durante o regime militar, foi inaugurada em que década?",
+    "resposta": "Década de 1970",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rodovia_Transamazônica",
+      "https://en.wikipedia.org/wiki/Trans-Amazonian_Highway"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rodovia_Transamazônica",
+        "situacao": "ok",
+        "texto": "A Rodovia Transamazônica, também denominada como BR-230, é uma rodovia federal transversal do Brasil, com extensão implantada de 4 260 km (5 662,60 quilômetros incluindo os trechos não construídos). Inspirada em uma proposta de Euclides da Cunha, foi criada durante o Governo Emílio Médici, sendo uma das obras inacabadas devido às suas proporções enormes, realizadas durante o período da ditadura mi\n[…]\nA BR-230 ou Transamazônica é uma rodovia transversal, considerada a terceira mais longa rodovia do Brasil, com 4 260 km de extensão, ligando cidade portuária de Cabedelo na Paraíba ao município de Lábrea, no Amazonas cortando algumas das principais cidades do estado do Pará: Marabá, Altamira e Itaituba.\n[…]\nPróximo à cidade de Altamira, no Pará, localiza-se o monumento Pau do Presidente, inaugurado em 27 de setembro de 1972. O monumento tanto o início da construção da Rodovia Transamazônica, celebrada em 9 de outubro de 1970, quanto a entrega do primeiro trecho construído.\n[…]\nA construção de vias e rodovias é apontado como uma das grandes causas diretas do desmatamento no Brasil, assim como facilitam o transporte de madeira ilegal, grilagem e garimpagem. Imagens de satélite mostram como ruas aumentam o desmatamento. Vias de acesso perpendiculares à BR-230 permitem penetração profunda às matas locais.\n[…]\nOriginalmente, as rodovias foram abertas para abrir acesso à agricultores pelos colonos da região, o governo cunhou o lema \"terra sem homens para homens sem terras\" para descrever o desenvolvimento da região amazônica. No entanto, madeireiros usaram as rodovias para desmatar mais áreas das redondezas.\n[…]\nBrejo Grande do Araguaia (a 2 km da rodovia)\n[…]\nSão Domingos do Araguaia (a 4 km da rodovia)\n[…]\nAcesso a Belterra e a Santarém pela BR-163 (Rodovia Cuiabá-Santarém)\n[…]\nJacareacanga (a 7 km da rodovia)\n[…]\nRodovia Cuiabá-Santarém\n[…]\nhttp://www.amazonialegal.com.br/textos/Transamazonica.htm"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Trans-Amazonian_Highway",
+        "situacao": "ok",
+        "texto": "The Trans-Amazonian Highway (official designation BR-230, official name Rodovia Transamazônica Portuguese pronunciation: [ho.doˈvi.ɐ tɾɐ̃.za.maˈzõ.ni.kɐ]) was introduced on September 27, 1972. It is 4,000 km long, making it the third longest highway in Brazil. It runs through the Amazon forest and the Brazilian states of Paraíba, Ceará, Piauí, Maranhão, Tocantins, Pará, and Amazonas, from the prox\n[…]\nIn 2019 the Brazilian government announced that it was seeking to privatize major sections of BR-230 in an attempt to pave more sections of the road.\n[…]\nIn September 2022, the Brazilian government finished restoration on a paved 33.3-kilometer section of BR-230 located in the arid northern Tocantins between Aguiarnópolis and Trevo de Nazaré. There are still many sections of the road in the Amazon that remain unpaved entirely.\n[…]\nThe BR-230 or Transamazônica is a transversal highway, considered the third longest highway in Brazil, with 4260 km in length, that connects the port city of Cabedelo in Paraíba with the municipality of Lábrea, in Amazonas, cutting through some of bá, Altamira and Itaituba. It also connects with ports on the Northeast coast, like Suape Port.\n[…]\nDesigned to better integrate the north of Brazil with the rest of the country, it was inaugurated on August 27, 1972, still unfinished and there are several sections to be paved. Initially designed to be an 8,000-kilometer-long paved highway, connecting the north and northeast regions of Brazil with Peru and Ecuador, it has not undergone major changes since its inauguration.\n[…]\nBR-230 has a leading role in the development of the economy of several Brazilian states."
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Encontro das Águas",
+      "descricao": "Confluência perto de Manaus em que as águas escuras do rio Negro e as barrentas do Solimões correm lado a lado sem se misturar."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Perto de Manaus, no Encontro das Águas, o escuro rio Negro corre lado a lado com qual rio de águas barrentas?",
+    "resposta": "Solimões",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Encontro_das_Águas",
+      "https://en.wikipedia.org/wiki/Meeting_of_Waters"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Encontro_das_Águas",
+        "situacao": "ok",
+        "texto": "O encontro das águas é um fenômeno natural facilmente visto em muitos rios da Amazônia. Os fatores para isso ocorrer na região variam desde questões geológicas, climáticas, termais ou até mesmo o tamanho ou a acidez dos rios. O mais famoso encontro das águas está localizado na frente da cidade de Manaus, entre os rios Negro e Solimões, sendo uma das principais atrações turísticas da capital amazon\n[…]\nO fenômeno também ocorre em outras cidades do Brasil, como em Santarém, no Pará, com o encontro das águas dos rios Tapajós e Amazonas, em Tefé no estado do Amazonas, entre os rios Tefé e Solimões e em Tapauá, Amazonas, o fenômeno também é visto na frente da cidade com o encontro dos rios amazônicos do Purus e Ipixuna, além de muitos outros municípios do interior da Amazônia brasileira e da Amazônia internacional como em Iquitos, Peru, e em outras localidades da Amazônia hispânica.\n[…]\nEm homenagem a esse fenômeno, o arquiteto Oscar Niemeyer elaborou um projeto de monumento ao encontro das águas, ainda em projeto em Manaus, foi um de seus últimos trabalhos antes de seu falecimento.\n[…]\nRio Negro\n[…]\nTurismo em Manaus\n[…]\nPasseio Fluvial ao Encontro das Águas"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Meeting_of_Waters",
+        "situacao": "ok",
+        "texto": "The Meeting of Waters (Portuguese: Encontro das Águas) is the confluence between the dark (blackwater) Rio Negro and the pale sandy-colored (whitewater) Amazon River, referred to as the Solimões River in Brazil upriver of this confluence. For 6 km (3.7 mi) the waters of the two rivers run side by side without mixing. This phenomenon is one of the main tourist attractions of Manaus.\n[…]\nThis phenomenon is due to the vast differences in temperature, speed, and amount of dissolved sediments in the waters of the two rivers. The Rio Negro flows at near 2 km/h (1.2 mph) at a temperature of 28 °C (82 °F), while the Rio Solimões flows between 4 and 6 km/h (2.5–3.7 mph) at a temperature of 22 °C (72 °F).\n[…]\nSmaller-scale meeting of waters of the Amazon river also occurs in the locations of Santarém (Brazil), Iquitos (Peru), Puerto Maldonado (Peru) and Coari (Brazil).\n[…]\nMedia related to Negro-Amazon confluence at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Atol das Rocas",
+      "descricao": "Atol no oceano Atlântico, a nordeste de Natal, pertencente ao Rio Grande do Norte e protegido como reserva biológica."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Ao contrário da maioria dos atóis, o Atol das Rocas, no Rio Grande do Norte, foi construído principalmente por quê?",
+    "resposta": "Algas calcárias",
+    "distratores": [
+      "Corais",
+      "Rochas vulcânicas",
+      "Esponjas marinhas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Atol_das_Rocas",
+      "https://en.wikipedia.org/wiki/Atol_das_Rocas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Atol_das_Rocas",
+        "situacao": "ok",
+        "texto": "A Reserva Biológica Atol das Rocas é uma unidade de conservação de proteção integral brasileira situada a 144 mn (267 km) a lés-nordeste da cidade de Natal (RN) e a 80 mn (148 km)  a oeste do arquipélago de Fernando de Noronha (PE), na zona econômica exclusiva do Brasil.\n[…]\nA Reserva Biológica Marinha do Atol das Rocas está inserida em uma área de 37,820 ha, delimitada pela isóbata de 1,000 m de um monte submarino pertencente à Cadeia Fernando de Noronha, a partir da Ilha do Farol. O atol tem uma área de aproximadamente 755,1 ha e abriga, além da Ilha do Farol, a Ilha do Cemitério, ambas de origem biogênica.\n[…]\nO Atol das Rocas é o único atol do oceano atlântico sul e tem importância ecológica fundamental por sua alta produtividade biológica e por ser uma importante zona de abrigo, alimentação e reprodução de diversas espécies animais.\n[…]\nAs areias de Rocas têm origem biológica, sendo compostas principalmente por estruturas calcárias fósseis de algas coralináceas da sub-família Melobesioideae e da família Corallinaceae, além de algas verdes do gênero Halimeda e de foraminíferos bentônicos, principalmente Amphistegina radiata e Archaias sp (Coutinho e Morais, 1970 citado por KIKUCHI, 1999).\n[…]\nO atol é também o paraíso de muitas espécies aquáticas. Por se tratar de uma montanha isolada, próxima de mares profundos e afastados da costa, ele é ideal para peixes de todos os tamanhos, moluscos, algas, crustáceos e tartarugas. Quase cem espécies de algas, 44 de moluscos, 34 de esponjas, sete espécies de coral e duas espécies de tartarugas já foram ali identificadas. Entre os 24 crustáceos, destacam-se o caranguejo terrestre e o aratu, que somente habitam ilhas oceânicas.\n[…]\nFarol das Rocas\n[…]\n«A vida fervilha no Atol das Rocas». Revista Galileu. 2002"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Atol_das_Rocas",
+        "situacao": "ok",
+        "texto": "The Rocas Atoll (Portuguese: Atol das Rocas [aˈtɔw dɐz ˈʁɔkɐs]) is the only atoll in the South Atlantic Ocean. It belongs to the Brazilian State of Rio Grande do Norte. It is located approximately 260 km (160 mi) northeast of Natal and 145 km (90 mi) west of the Fernando de Noronha archipelago. The atoll is of volcanic origin and coralline formation.\n[…]\nThe atoll and surrounding waters are contained in the Atol das Rocas Biological Reserve. The reserve is currently used solely for scientific research. Due to their remote location, the islands remain largely undisturbed by human activities. On the other hand, the remoteness also limits researchers' access to the islands and few studies have been developed on this atoll. The entomological fauna from Atol das Rocas have been recorded.\n[…]\nAtol das Rocas on Globo.com (in Portuguese)"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Brasília",
+      "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem venceu, em 1957, o concurso para o plano urbanístico de Brasília, o chamado Plano Piloto?",
+    "resposta": "Lúcio Costa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Lúcio_Costa",
+      "https://en.wikipedia.org/wiki/Lúcio_Costa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lúcio_Costa",
+        "situacao": "ok",
+        "texto": "Lúcio Marçal Ferreira Ribeiro de Lima Costa OMC (Toulon, 27 de fevereiro de 1902 – Rio de Janeiro, 13 de junho de 1998) foi um arquiteto, urbanista e professor brasileiro nascido na França. Pioneiro da arquitetura modernista no Brasil, ficou conhecido mundialmente pelo projeto do Plano Piloto de Brasília.\n[…]\nEm 1939, Lucio Costa venceu o concurso nacional para o Pavilhão do Brasil na Feira Mundial de Nova Iorque, enquanto que Oscar Niemeyer ficou com o segundo lugar. Costa convidou Niemeyer para que projetassem juntos uma nova versão do Pavilhão, combinando elementos de ambos os projetos originais.\n[…]\nO projeto de Lúcio Costa venceu por quase unanimidade (apenas um jurado não votou nele), sofrendo diversas acusações dos concorrentes. Desenvolveu o Plano Piloto de Brasília e, como Niemeyer, passou a ser conhecido em todo o mundo como autor de grande parte dos prédios públicos.\n[…]\nVeja o relatório encaminhado por Lucio Costa à Companhia Urbanizadora da Nova Capital (Novacap).\n[…]\nEm 1969, Lúcio Costa foi convidado pelo governador do Estado da Guanabara, Negrão de Lima, para desenhar o Plano urbanístico da Baixada de Jacarepaguá, região que na época englobava a Barra da Tijuca e parte de Jacarepaguá. Embora tenha sido originalmente projetado para essa região, o plano piloto era visto por Lucio Costa como a solução urbanística para toda a Guanabara.\n[…]\nDevido a essa visão, arraigada também em preservacionistas mais jovens devido à influência de Lúcio Costa nas escolas de arquitetura do Brasil, muito da arquitetura dos séculos XIX e começo XX, incluindo a alemã, japonesa, italiana, francesa, holandesa e grega, se perdeu para a renovação urbana dos anos 1960 e 1970 de Lúcio Costa.\n[…]\nO Risco: Lúcio Costa e a Utopia Moderna, documentário brasileiro de 2003 sobre Lúcio Costa.\n[…]\n«Casa de Lucio Costa»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lúcio_Costa",
+        "situacao": "ok",
+        "texto": "Lúcio Marçal Ferreira Ribeiro Lima Costa ( KOST-ə, Brazilian Portuguese: [ˈlusi.u ˈkɔstɐ]; 27 February 1902 – 13 June 1998) was a Brazilian architect and urban planner, best known for his plan for Brasília.\n[…]\nCosta is best known for his urban plan for the city of Brasília, located in Brazil's hinterland. Costa won the job in a 1957 public competition in order to replace Rio de Janeiro as the capital of Brazil. His Plano Piloto (Pilot Plan) for Brasília is in the shape of an irregular cross, suggesting an aeroplane or dragonfly.\n[…]\nWhile the majority of the project's architecture was designed by Oscar Niemeyer, Costa's own Parque Guinle project was the model for Brasília's many residential tower-in-a-park superblocks. The new city was inaugurated on 21 April 1960 and represents one of the largest adoptions of Modernism in a singular project to the present day.\n[…]\nThe design of Lucio Costa was selected for Brasília. Although the design had not been as detailed as some of the other plans submitted, the jurors found it favourable due to its features that would complement future population growth. The plan, called Costa's Plano Piloto, conceptually demanded four components: (1) the government buildings, (2) the residential zones or superblocks, (3) the vehicular circulation and transportation infrastructure, and (4) the city centre.\n[…]\nGradually, over the decades to come, the satellite communities continued to form on the outskirts of Brasília, serving a valuable function towards battling low-cost housing issues that arose in the city. While alterations have been made to the design since the city's construction, the original plan by Costa prominently survives.\n[…]\n1957 – Master plan for Brasília"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "São Luís",
+      "descricao": "Capital do estado do Maranhão, situada na ilha de Upaon-Açu e fundada em 1612."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que país europeu fundou, em 1612, a cidade que hoje é a capital do Maranhão, São Luís?",
+    "resposta": "França",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/São_Luís_(Maranhão)",
+      "https://en.wikipedia.org/wiki/São_Luís,_Maranhão"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/São_Luís_(Maranhão)",
+        "situacao": "ok",
+        "texto": "São Luís, também chamada de São Luís do Maranhão, é a capital do estado brasileiro do Maranhão. É a única capital brasileira fundada por franceses, no dia 8 de setembro de 1612, posteriormente invadida por holandeses e, por fim, colonizada pelos portugueses. Localiza-se na ilha de Upaon-Açu no Atlântico Sul, entre as baías de São Marcos e São José de Ribamar, no Golfão Maranhense.\n[…]\nO nome da cidade é uma homenagem dada pelos franceses ao rei da França, Luís XIII, conforme registrou o cronista da França Equinocial, o Capuchinho Claude D'Abbeville. Posteriormente, o nome passou a referenciar Luís IX, chamado de \"São Luís Rei de França\". O rei Luís IX ficou popular, pois morreu numa Cruzada na Idade Média, sendo posteriormente canonizado pela Igreja Católica.\n[…]\nDaniel de La Touche, conhecido como Senhor de La Ravardière, acompanhado de cerca de 500 homens vindos das cidades francesas de Cancale, Granville e Saint-Malo, chegou à região em 1612 para fundar a França Equinocial e realizar o sonho francês de se instalar na região dos trópicos.\n[…]\nUma missa rezada por capuchinhos e a construção de um forte nomeado de Saint-Louis (\"São Luís\"), em homenagem prestada a Luís IX patrono da França, e ao rei francês da época Luís XIII, marcaram a data de fundação da nova cidade: 8 de setembro. Logo se aliaram aos indígenas, que foram fiéis companheiros na batalha contra portugueses vindos de Pernambuco decididos a reconquistar o território, o que acabou por acontecer alguns anos depois.\n[…]\nNesse período, a fase de ouro da economia maranhense, São Luís passou a viver uma efervescência cultural. A cidade, que se  relacionava mais com as capitais europeias que as outras cidades brasileiras, foi a primeira a receber uma companhia italiana de ópera. Possuía calçamento e iluminação como poucas do país. Recebia semanalmente as últimas novidades da literatura francesa."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/São_Luís,_Maranhão",
+        "situacao": "ok",
+        "texto": "São Luís (; Brazilian Portuguese: [ˌsɐ̃w̃ luˈis]; \"Saint Louis\") is the capital and largest city of the Brazilian state of Maranhão. The city is located on São Luís Island, in the Baía de São Marcos (Saint Mark's Bay), an extension of the Atlantic Ocean which forms the estuary of Pindaré, Mearim, Itapecuru and other rivers. Its coordinates are 2.53° south, 44.30° west. São Luís has the second larg\n[…]\nIn 1677, the city was made the seat of the new Roman Catholic Diocese of São Luís do Maranhão.\n[…]\nDuring this golden period of the Maranhão economy São Luís had a lively cultural effervescence. The city had more in common with the European capitals than the other Brazilian cities. It was the first to receive an Italian opera and received the latest news about French literature every week. The rich cotton producers and local businessmen sent their children to study in Recife, Salvador, Rio de Janeiro and as far as Europe.\n[…]\nThe São Luís economy is based on aluminum processing (ALUMAR), pelleting industry (VALE), food production and tourism. São Luís has the largest GDP in the state, hosting two public universities (and UFMA UEMA) and various educational institutions and private colleges. According to the latest data from the IBGE survey, São Luís has a GDP of R$9,340,944,000.00, occupying 14th position amongst state capitals.\n[…]\nSão Luís is known as the Brazilian capital of reggae, a very popular rhythm in the city. In 2018, the Reggae Museum of Maranhão was founded, the first museum dedicated to reggae outside of Jamaica and the second in the world.\n[…]\nFootball is the most popular sport in São Luís, though its clubs aren't much well known in the rest of Brazil. The professional clubs in São Luís are: Sampaio Corrêa who currently play in Brazil's second division, Moto Club who play in the fourth division and Maranhão Atlético Clube who take part in the regional Campeonato Maranhense."
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Ilha de Marajó",
+      "descricao": "Grande ilha na foz do rio Amazonas, no estado do Pará."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que animal de origem asiática, criado em grandes rebanhos, virou símbolo da Ilha de Marajó, onde é usado até como montaria?",
+    "resposta": "Búfalo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_de_Marajó",
+      "https://en.wikipedia.org/wiki/Marajó"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ilha_de_Marajó",
+        "situacao": "ok",
+        "texto": "A Ilha do Marajó (inicialmente chamada de Marinatambal) é uma ilha costeira do tipo fluviomarítima situada na Área de Proteção Ambiental do arquipélago do Marajó, no estado do Pará, na região norte do Brasil. Considerada, segundo algumas fontes, a maior ilha fluviomarítima do planeta.\n[…]\nEm 23 de dezembro de 1665, o rei Dom Afonso VI de Portugal outorga a António de Sousa Macedo, seu secretário de Estado, a donataria da Capitania da Ilha Grande de Joanes, constituída pelo território da atual Ilha de Marajó. Em 1754, a coroa portuguesa compra as terras da capitania e reverte sua administração ao Estado do Grão-Pará e Maranhão.\n[…]\nAinda no setor primário, uma das atividades de maior importância para a Ilha do Marajó é a pecuária extensiva de búfalos, chamada de bubalinocultura. O leite e seus derivados estão entre os principais produtos dessa atividade, seguidos da carne.[carece de fontes]?\n[…]\nAlém disso, a Ilha de Marajó atrai turistas interessados em explorar suas belas paisagens naturais, fazer passeios de barco pelos rios e desfrutar das praias de água doce. Também é possível visitar fazendas de búfalos, experimentar a culinária local, que inclui pratos à base de peixe e búfalo, e participar de festivais culturais, como o Búfalo-Bumbá Junino de Mestre Damasceno, que tem 51 anos de tradição, o Festival de Boi-Bumbá de Mestre Damasceno, o MarajóFest e o Festival do Carimbó .\n[…]\nA luta marajoara é uma prática corporal tradicional, com origem nos povos indígenas da ilha, especialmente os Aruás, influenciada também pela presença africana e pela convivência com búfalos. Era historicamente praticada em festas religiosas e eventos sociais como demonstração de força e destreza física. Foi reconhecida como patrimônio cultural imaterial do Pará em 2022.\n[…]\nIlha de Marajó, PA"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Marajó",
+        "situacao": "ok",
+        "texto": "Marajó ( MARR-ə-ZHOH; Brazilian Portuguese: [maɾaˈʒɔ]) is a large coastal island in Pará, Brazil. It is the main and largest of the islands in the Marajó Archipelago. Marajó Island is separated from the mainland by Marajó Bay, Pará River, smaller rivers (especially Macacos and Tajapuru), Companhia River, Jacaré Grande River, Vieira Grande Bay and the Atlantic Ocean.\n[…]\nNorth: Vieira Grande Bay, the South Canal of the Amazon Delta (which separates Marajó from the island Mexiana) and the Atlantic Ocean\n[…]\nEast: Marajó Bay\n[…]\nMarajó is almost entirely flat. The island can be divided into the eastern side with savanna plains at a slightly higher elevation of around 6 metres (20 ft), and the western side with rainforest situated around sea level. On the savannas, there are large fazendas with animal husbandry. There are large herds of domesticated water buffalo, which are technically invasive to the island; they now number about 450,000, higher than the island's human population.\n[…]\nBecause of the changing water levels and regular seasonal flooding, many settlements on Marajó are built on stilts (palafitas). This is especially visible in the town of Afuá, where the stilt houses and the reliance on boat transport gave rise to the epithet \"The Venice of Marajó\".\n[…]\nRoosevelt estimated that Marajó may have had a population of more than 100,000 people at its peak. The population lived in homes with tamped earth floors, organized themselves into matrilineal clans, and divided tasks by sex, age, and skill level.\n[…]\nIn contrast, however, during the 1918–1919 pandemic worldwide of  Spanish influenza, Marajó was the only major populated area not to have any documented cases of the illness.\n[…]\nThe island is also the location of the Roman Catholic Territorial Prelature of Marajó.\n[…]\nMarajó Island and Pará state at V-Brazil.com"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Monte Pascoal",
+      "descricao": "Monte no sul da Bahia, primeira terra avistada pela esquadra de Pedro Álvares Cabral em 1500."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que monte do sul da Bahia foi a primeira terra avistada pela esquadra de Pedro Álvares Cabral, em abril de 1500?",
+    "resposta": "Monte Pascoal",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monte_Pascoal",
+      "https://en.wikipedia.org/wiki/Monte_Pascoal"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Monte_Pascoal",
+        "situacao": "ok",
+        "texto": "O Monte Pascoal é uma elevação de 586 metros situada no extremo sul da Bahia, reconhecida pela historiografia como um dos principais marcos associados à chegada da armada de Pedro Álvares Cabral ao litoral brasileiro em 22 de abril de 1500, segundo o calendário juliano.\n[…]\nDe acordo com a carta de Pero Vaz de Caminha, Pedro Álvares Cabral, o capitão da esquadra, nomeou a montanha avistada como \"Monte Pascoal\" como consequência da proximidade da data do avistamento a data da Páscoa daquele ano.\n[…]\nNeste mesmo dia, a horas de véspera, houvemos vista de terra! A saber, primeiramente de um grande monte, muito alto e redondo; e de outras serras mais baixas ao sul dele; e de terra chã, com grandes arvoredos; ao qual monte alto o capitão pôs o nome de O Monte Pascoal (monte da Páscoa) e à terra A Terra de Vera Cruz!\n[…]\nEsse debate não invalida o peso simbólico do Monte Pascoal na formação de narrativas sobre o descobrimento, mas insere o episódio em contexto mais amplo das navegações atlânticas.\n[…]\nO Monte Pascoal destaca-se como elevação isolada no litoral sul baiano, com ampla visibilidade a partir do mar e recobrimento de floresta ombrófila densa. A formação situa-se a cerca de 62 km de Porto Seguro, compondo a transição entre ambientes costeiros, tabuleiros arenosos, restingas e remanescentes da Mata Atlântica.\n[…]\nNa cartografia e iconografia colonial, o Monte Pascoal aparece com frequência como símbolo do início da presença portuguesa no território brasileiro.\n[…]\nO Parque Nacional e Histórico do Monte Pascoal foi criado pelo Decreto nº 242, de 29 de novembro de 1961, abrangendo cerca de 22 500 hectares.\n[…]\nParque Nacional e Histórico do Monte Pascoal\n[…]\nMatéria da WWF sobre o Parque Nacional do Monte Pascoal"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Monte_Pascoal",
+        "situacao": "ok",
+        "texto": "Monte Pascoal is a 586-meter mountain to the south of the city of Porto Seguro, in the state of Bahia, Brazil. According to historians, it was the first part of land viewed by Portuguese explorer Pedro Álvares Cabral, allegedly the first European to arrive in Brazil, on April 22, 1500.\n[…]\nAccording to the letter of Pero Vaz de Caminha, the captain of the fleet, Pedro Álvares Cabral, named the mountain Monte Pascoal (The Mount of Easter) as a consequence of the nearby date of Easter of that year in relation to the mountain's sighting.\n[…]\nPortuguese: Neste mesmo dia, a horas de véspera, houvemos vista de terra! A saber, primeiramente de um grande monte, muito alto e redondo; e de outras serras mais baixas ao sul dele; e de terra chã, com grandes arvoredos; ao qual monte alto o capitão pôs o nome de O Monte Pascoal (monte da Páscoa) e à terra A Terra de Vera Cruz!\n[…]\nLong before the arrival of the Europeans, the region of today's Monte Pascoal was inhabited by members of the Tupi people and later by the Pataxó. The Pataxó still inhabit the regions of Monte Pascoal, possessing spiritual and cultural links with the area.\n[…]\nMonte Pascoal is highlighted as an isolated elevated region at Bahia's coastline, easily visible from the sea and covered by a thick rainforest. The mountain is located approximately 62 km south of Porto Seguro, being part of a transition between the coastline environments, sandbank vegetation (restingas), sandy plateaus and areas of Atlantic Forest.\n[…]\nIn colonial Brazil cartography and iconography, Monte Pascoal was frequently present as a symbol of the start of the portuguese presence in Brazilian territory.\n[…]\nMonte Pascoal National Park\n[…]\nMedia related to Monte Pascoal at Wikimedia Commons\n[…]\nWWF on the Monte Pascoal National Park (in Portuguese)"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.42 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

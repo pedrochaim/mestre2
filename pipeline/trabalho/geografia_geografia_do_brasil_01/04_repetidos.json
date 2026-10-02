@@ -1,0 +1,272 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O bairro carioca de Copacabana herdou o nome de uma capela dedicada a uma santa padroeira de qual país vizinho?",
+        "resposta": "Bolívia"
+      },
+      "existentes": [
+        {
+          "id": "q01999",
+          "pergunta": "O bairro carioca de Copacabana herdou o nome de uma santa venerada às margens de qual lago sul-americano?",
+          "resposta": "Lago Titicaca"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Segundo a explicação mais difundida, o nome do arquipélago baiano de Abrolhos vem de que alerta aos navegantes sobre os recifes?",
+        "resposta": "Abra os olhos"
+      },
+      "existentes": [
+        {
+          "id": "q02195",
+          "pergunta": "Segundo a explicação tradicional, o nome do arquipélago baiano de Abrolhos vem de qual alerta dado aos navegantes por causa dos recifes?",
+          "resposta": "Abre os olhos"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O rio Tietê nasce a poucos quilômetros do litoral paulista, mas corre para o interior. Que formação de relevo o impede de chegar ao mar?",
+        "resposta": "Serra do Mar"
+      },
+      "existentes": [
+        {
+          "id": "q02148",
+          "pergunta": "O rio Tietê nasce a cerca de vinte quilômetros do litoral paulista, mas corre para o interior. Que barreira natural explica isso?",
+          "resposta": "Serra do Mar"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A pororoca, onda estrondosa que sobe certos rios amazônicos, nasce do encontro das águas do rio com o quê?",
+        "resposta": "A maré do oceano"
+      },
+      "existentes": [
+        {
+          "id": "q02141",
+          "pergunta": "Que encontro de forças provoca a pororoca, a onda que avança rio acima na foz do Amazonas?",
+          "resposta": "Maré oceânica contra a correnteza"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "A visita à Ilha da Queimada Grande, no litoral paulista, é proibida ao público por causa de qual animal que só existe lá?",
+        "resposta": "Jararaca-ilhoa"
+      },
+      "existentes": [
+        {
+          "id": "q02206",
+          "pergunta": "Por que a visitação à ilha da Queimada Grande, no litoral paulista, é proibida ao público?",
+          "resposta": "Excesso de cobras venenosas"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que famoso conjunto de cachoeiras do rio Paraná desapareceu em 1982, coberto pelas águas do lago da usina de Itaipu?",
+        "resposta": "Salto de Sete Quedas"
+      },
+      "existentes": [
+        {
+          "id": "q02166",
+          "pergunta": "A usina de Itaipu, no rio Paraná, começou a gerar energia em que década do século vinte?",
+          "resposta": "Anos 1980"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A usina hidrelétrica de Itaipu, no rio Paraná, é dividida meio a meio entre o Brasil e qual país vizinho?",
+        "resposta": "Paraguai"
+      },
+      "existentes": [
+        {
+          "id": "q02166",
+          "pergunta": "A usina de Itaipu, no rio Paraná, começou a gerar energia em que década do século vinte?",
+          "resposta": "Anos 1980"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+        "resposta": "Borracha"
+      },
+      "existentes": [
+        {
+          "id": "q00388",
+          "pergunta": "Que teatro é este?",
+          "resposta": "Teatro Amazonas"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O arquipélago de Fernando de Noronha fica mais perto de Natal, mas pertence a qual estado brasileiro?",
+        "resposta": "Pernambuco"
+      },
+      "existentes": [
+        {
+          "id": "q02190",
+          "pergunta": "O arquipélago de Fernando de Noronha leva o nome de um comerciante de Lisboa que, no início do século dezesseis, arrendou da Coroa o comércio de qual madeira?",
+          "resposta": "Pau-brasil"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Quantas ilhas, ilhotas e rochedos formam o arquipélago de Fernando de Noronha?",
+        "resposta": "Vinte e uma"
+      },
+      "existentes": [
+        {
+          "id": "q02190",
+          "pergunta": "O arquipélago de Fernando de Noronha leva o nome de um comerciante de Lisboa que, no início do século dezesseis, arrendou da Coroa o comércio de qual madeira?",
+          "resposta": "Pau-brasil"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Salvador foi a primeira capital do Brasil. Em que século ela perdeu esse posto para o Rio de Janeiro?",
+        "resposta": "Século dezoito"
+      },
+      "existentes": [
+        {
+          "id": "q00372",
+          "pergunta": "Que cidade é esta?",
+          "resposta": "Salvador"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Perto de Manaus, no Encontro das Águas, o escuro rio Negro corre lado a lado com qual rio de águas barrentas?",
+        "resposta": "Solimões"
+      },
+      "existentes": [
+        {
+          "id": "q02137",
+          "pergunta": "Perto de Manaus, as águas do rio Negro e do Solimões correm lado a lado por quilômetros sem se misturar. O que explica isso?",
+          "resposta": "Temperatura, velocidade e sedimentos"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Ao contrário da maioria dos atóis, o Atol das Rocas, no Rio Grande do Norte, foi construído principalmente por quê?",
+        "resposta": "Algas calcárias"
+      },
+      "existentes": [
+        {
+          "id": "q02220",
+          "pergunta": "O Atol das Rocas, reserva biológica no Atlântico, pertence a qual estado brasileiro?",
+          "resposta": "Rio Grande do Norte"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Que animal de origem asiática, criado em grandes rebanhos, virou símbolo da Ilha de Marajó, onde é usado até como montaria?",
+        "resposta": "Búfalo"
+      },
+      "existentes": [
+        {
+          "id": "q02231",
+          "pergunta": "Que ilha paraense, na foz do rio Amazonas, é considerada a maior ilha fluviomarinha do mundo?",
+          "resposta": "Ilha de Marajó"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o país da santa (Bolívia), não o lago; fatos distintos, embora relacionados."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: etimologia de Abrolhos, 'abre os olhos'."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma resposta: Serra do Mar como barreira ao Tietê."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: pororoca resulta do encontro da maré com a correnteza."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: visitação proibida por causa das cobras venenosas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Sete Quedas submersa é fato diferente da década de início da geração."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Parceria com o Paraguai é fato diferente da década de início."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pergunta existente é de identificação visual; a nova trata da borracha."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Estado de pertencimento difere da origem do nome."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Número de ilhas difere da origem do nome."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Século da perda da capitalidade é fato distinto da identificação visual."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nova pergunta o nome do rio; a existente pergunta por que as águas não se misturam."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Construção por algas difere do estado onde fica."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Búfalo em Marajó é fato diferente de ser a maior ilha fluviomarinha."
+    }
+  ]
+}

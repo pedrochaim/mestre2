@@ -40092,5 +40092,629 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q02405",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "florianopolis",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1894, a cidade de Desterro, capital catarinense, mudou de nome para homenagear qual presidente da República?",
+    "resposta": "Floriano Peixoto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Florianópolis"
+    ]
+  },
+  {
+    "id": "q02406",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "belo_horizonte",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Antes de ser escolhido para abrigar a nova capital mineira, o arraial onde hoje fica Belo Horizonte tinha que nome curioso?",
+    "resposta": "Curral del-Rei",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Belo_Horizonte"
+    ]
+  },
+  {
+    "id": "q02407",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "belo_horizonte",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Belo Horizonte foi planejada no fim do século dezenove para substituir qual cidade histórica como capital de Minas Gerais?",
+    "resposta": "Ouro Preto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Belo_Horizonte"
+    ]
+  },
+  {
+    "id": "q02408",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "copacabana",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O bairro carioca de Copacabana herdou o nome de uma capela dedicada a uma santa padroeira de qual país vizinho?",
+    "resposta": "Bolívia",
+    "distratores": [
+      "Paraguai",
+      "Argentina",
+      "Colômbia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Copacabana,_Rio_de_Janeiro",
+      "https://pt.wikipedia.org/wiki/Copacabana"
+    ]
+  },
+  {
+    "id": "q02409",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "teresina",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A capital do Piauí recebeu seu nome em homenagem a qual imperatriz do Brasil?",
+    "resposta": "Teresa Cristina",
+    "distratores": [
+      "Leopoldina",
+      "Amélia",
+      "Carlota Joaquina"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teresina"
+    ]
+  },
+  {
+    "id": "q02410",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "recife",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa de seus rios, pontes e canais, que capital nordestina ganhou o apelido de Veneza brasileira?",
+    "resposta": "Recife",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Recife"
+    ]
+  },
+  {
+    "id": "q02411",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "baia_de_todos_os_santos",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A Baía de Todos os Santos ganhou esse nome por ter sido alcançada por navegadores portugueses em que dia de 1501?",
+    "resposta": "Primeiro de novembro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Baía_de_Todos-os-Santos",
+      "https://en.wikipedia.org/wiki/All_Saints_Bay"
+    ]
+  },
+  {
+    "id": "q02412",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "joao_pessoa",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1930, a capital da Paraíba trocou de nome para homenagear um político paraibano assassinado naquele ano. Que nome passou a ter?",
+    "resposta": "João Pessoa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/João_Pessoa",
+      "https://en.wikipedia.org/wiki/João_Pessoa,_Paraíba"
+    ]
+  },
+  {
+    "id": "q02413",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "rio_negro",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que as águas do rio Negro, na Amazônia, têm a cor escura de chá que dá nome ao rio?",
+    "resposta": "Matéria orgânica em decomposição",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rio_Negro_(Amazon)",
+      "https://pt.wikipedia.org/wiki/Rio_Negro_(Amazonas)"
+    ]
+  },
+  {
+    "id": "q02414",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "serra_pelada",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1980, que metal atraiu dezenas de milhares de garimpeiros para a Serra Pelada, no Pará?",
+    "resposta": "Ouro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Serra_Pelada",
+      "https://en.wikipedia.org/wiki/Serra_Pelada"
+    ]
+  },
+  {
+    "id": "q02415",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "usina_de_itaipu",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que famoso conjunto de cachoeiras do rio Paraná desapareceu em 1982, coberto pelas águas do lago da usina de Itaipu?",
+    "resposta": "Salto de Sete Quedas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Salto_de_Sete_Quedas",
+      "https://en.wikipedia.org/wiki/Guaíra_Falls"
+    ]
+  },
+  {
+    "id": "q02416",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "usina_de_itaipu",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A usina hidrelétrica de Itaipu, no rio Paraná, é dividida meio a meio entre o Brasil e qual país vizinho?",
+    "resposta": "Paraguai",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Usina_Hidrelétrica_de_Itaipu",
+      "https://en.wikipedia.org/wiki/Itaipu_Dam"
+    ]
+  },
+  {
+    "id": "q02417",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "teatro_amazonas",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+    "resposta": "Borracha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
+      "https://en.wikipedia.org/wiki/Amazon_Theatre"
+    ]
+  },
+  {
+    "id": "q02418",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "desastre_de_mariana",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2015, a lama da barragem que se rompeu em Mariana, Minas Gerais, desceu por qual rio até chegar à foz, no Espírito Santo?",
+    "resposta": "Rio Doce",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mariana_dam_disaster",
+      "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Mariana"
+    ]
+  },
+  {
+    "id": "q02419",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "belem",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que os nomes das capitais Belém e Natal têm em comum?",
+    "resposta": "Remetem ao nascimento de Jesus",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Belém_(Pará)",
+      "https://pt.wikipedia.org/wiki/Natal_(Rio_Grande_do_Norte)"
+    ]
+  },
+  {
+    "id": "q02420",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "vitoria",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que característica geográfica une Vitória, São Luís e Florianópolis e as diferencia das demais capitais estaduais?",
+    "resposta": "Ficam em ilhas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vitória_(Espírito_Santo)",
+      "https://pt.wikipedia.org/wiki/São_Luís_(Maranhão)",
+      "https://pt.wikipedia.org/wiki/Florianópolis"
+    ]
+  },
+  {
+    "id": "q02421",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "acre",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Pelo tratado de 1903 que deu o Acre ao Brasil, o país se comprometeu a construir qual ferrovia na Amazônia?",
+    "resposta": "Madeira-Mamoré",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tratado_de_Petrópolis",
+      "https://pt.wikipedia.org/wiki/Estrada_de_Ferro_Madeira-Mamoré"
+    ]
+  },
+  {
+    "id": "q02422",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "macapa",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Macapá é a única capital estadual brasileira cortada por qual linha imaginária?",
+    "resposta": "Linha do Equador",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Macapá"
+    ]
+  },
+  {
+    "id": "q02423",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "santana_do_livramento",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que cidade uruguaia forma com a gaúcha Santana do Livramento uma só área urbana, sem barreira física entre as duas?",
+    "resposta": "Rivera",
+    "distratores": [
+      "Chuy",
+      "Artigas",
+      "Bella Unión"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Santana_do_Livramento",
+      "https://pt.wikipedia.org/wiki/Sant'Ana_do_Livramento"
+    ]
+  },
+  {
+    "id": "q02424",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "oiapoque",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Do outro lado do rio, a cidade de Oiapoque, no Amapá, faz fronteira com território de qual país europeu?",
+    "resposta": "França",
+    "distratores": [
+      "Holanda",
+      "Reino Unido",
+      "Espanha"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Oiapoque",
+      "https://en.wikipedia.org/wiki/Oiapoque"
+    ]
+  },
+  {
+    "id": "q02425",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "tocantins",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Tocantins, criado pela Constituição de 1988, foi desmembrado do norte de qual estado?",
+    "resposta": "Goiás",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tocantins"
+    ]
+  },
+  {
+    "id": "q02426",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "fernando_de_noronha",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O arquipélago de Fernando de Noronha fica mais perto de Natal, mas pertence a qual estado brasileiro?",
+    "resposta": "Pernambuco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fernando_de_Noronha",
+      "https://en.wikipedia.org/wiki/Fernando_de_Noronha"
+    ]
+  },
+  {
+    "id": "q02427",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "fernando_de_noronha",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantas ilhas, ilhotas e rochedos formam o arquipélago de Fernando de Noronha?",
+    "resposta": "Vinte e uma",
+    "distratores": [
+      "Sete",
+      "Doze",
+      "Trinta e quatro"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fernando_de_Noronha"
+    ]
+  },
+  {
+    "id": "q02428",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ponta_do_seixas",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Ponta do Seixas, ponto mais a leste do continente americano, fica em qual capital nordestina?",
+    "resposta": "João Pessoa",
+    "distratores": [
+      "Natal",
+      "Recife",
+      "Fortaleza"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ponta_do_Seixas",
+      "https://en.wikipedia.org/wiki/Ponta_do_Seixas"
+    ]
+  },
+  {
+    "id": "q02429",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ilha_do_bananal",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A Ilha do Bananal, enorme ilha fluvial do Tocantins, fica no meio de qual grande rio?",
+    "resposta": "Araguaia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_do_Bananal",
+      "https://en.wikipedia.org/wiki/Bananal_Island"
+    ]
+  },
+  {
+    "id": "q02430",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "parque_nacional_da_serra_da_capivara",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+    "resposta": "Piauí",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_da_Capivara",
+      "https://en.wikipedia.org/wiki/Serra_da_Capivara_National_Park"
+    ]
+  },
+  {
+    "id": "q02431",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "pico_da_bandeira",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Até a década de 1960, que pico na divisa de Minas Gerais com o Espírito Santo era considerado o ponto mais alto do Brasil?",
+    "resposta": "Pico da Bandeira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pico_da_Bandeira",
+      "https://en.wikipedia.org/wiki/Pico_da_Bandeira"
+    ]
+  },
+  {
+    "id": "q02432",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "monte_caburai",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Apesar da expressão do Oiapoque ao Chuí, o ponto mais ao norte do Brasil fica em Roraima. Que monte é esse?",
+    "resposta": "Monte Caburaí",
+    "distratores": [
+      "Monte Roraima",
+      "Serra Parima",
+      "Serra do Tepequém"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monte_Caburaí"
+    ]
+  },
+  {
+    "id": "q02433",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "bahia",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Que estado brasileiro faz divisa com o maior número de outros estados, oito ao todo?",
+    "resposta": "Bahia",
+    "distratores": [
+      "Minas Gerais",
+      "Goiás",
+      "Tocantins"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bahia"
+    ]
+  },
+  {
+    "id": "q02434",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "fronteiras_do_brasil",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Quais são os dois países sul-americanos que não têm nenhuma fronteira com o Brasil?",
+    "resposta": "Chile e Equador",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fronteiras_do_Brasil",
+      "https://en.wikipedia.org/wiki/Borders_of_Brazil"
+    ]
+  },
+  {
+    "id": "q02435",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "regiao_nordeste_do_brasil",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A Região Nordeste é a que reúne mais estados entre as regiões brasileiras. Quantos são eles?",
+    "resposta": "Nove",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Região_Nordeste_do_Brasil"
+    ]
+  },
+  {
+    "id": "q02436",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "linha_do_equador",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A Linha do Equador corta o território de quantos estados brasileiros?",
+    "resposta": "Quatro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Equator",
+      "https://pt.wikipedia.org/wiki/Linha_do_Equador"
+    ]
+  },
+  {
+    "id": "q02437",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "litoral_do_brasil",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantos estados brasileiros são banhados pelo oceano Atlântico?",
+    "resposta": "Dezessete",
+    "distratores": [
+      "Doze",
+      "Quinze",
+      "Dezenove"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Litoral_do_Brasil"
+    ]
+  },
+  {
+    "id": "q02438",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "mato_grosso_do_sul",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano foi assinada a lei que dividiu Mato Grosso em dois, criando o Mato Grosso do Sul?",
+    "resposta": "1977",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mato_Grosso_do_Sul"
+    ]
+  },
+  {
+    "id": "q02439",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "salvador",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Salvador foi a primeira capital do Brasil. Em que século ela perdeu esse posto para o Rio de Janeiro?",
+    "resposta": "Século dezoito",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Salvador_(Bahia)"
+    ]
+  },
+  {
+    "id": "q02440",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "sao_paulo",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que dia e mês se comemora o aniversário da cidade de São Paulo, data da fundação do colégio jesuíta?",
+    "resposta": "25 de janeiro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/São_Paulo"
+    ]
+  },
+  {
+    "id": "q02441",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "rodovia_transamazonica",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Rodovia Transamazônica, aberta durante o regime militar, foi inaugurada em que década?",
+    "resposta": "Década de 1970",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rodovia_Transamazônica",
+      "https://en.wikipedia.org/wiki/Trans-Amazonian_Highway"
+    ]
+  },
+  {
+    "id": "q02442",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "encontro_das_aguas",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Perto de Manaus, no Encontro das Águas, o escuro rio Negro corre lado a lado com qual rio de águas barrentas?",
+    "resposta": "Solimões",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Encontro_das_Águas",
+      "https://en.wikipedia.org/wiki/Meeting_of_Waters"
+    ]
+  },
+  {
+    "id": "q02443",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "atol_das_rocas",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Ao contrário da maioria dos atóis, o Atol das Rocas, no Rio Grande do Norte, foi construído principalmente por quê?",
+    "resposta": "Algas calcárias",
+    "distratores": [
+      "Corais",
+      "Rochas vulcânicas",
+      "Esponjas marinhas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Atol_das_Rocas",
+      "https://en.wikipedia.org/wiki/Atol_das_Rocas"
+    ]
+  },
+  {
+    "id": "q02444",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "sao_luis",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que país europeu fundou, em 1612, a cidade que hoje é a capital do Maranhão, São Luís?",
+    "resposta": "França",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/São_Luís_(Maranhão)",
+      "https://en.wikipedia.org/wiki/São_Luís,_Maranhão"
+    ]
+  },
+  {
+    "id": "q02445",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "ilha_de_marajo",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que animal de origem asiática, criado em grandes rebanhos, virou símbolo da Ilha de Marajó, onde é usado até como montaria?",
+    "resposta": "Búfalo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_de_Marajó",
+      "https://en.wikipedia.org/wiki/Marajó"
+    ]
+  },
+  {
+    "id": "q02446",
+    "tema": "Geografia",
+    "subtema": "Geografia do Brasil",
+    "ancora": "monte_pascoal",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que monte do sul da Bahia foi a primeira terra avistada pela esquadra de Pedro Álvares Cabral, em abril de 1500?",
+    "resposta": "Monte Pascoal",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Monte_Pascoal",
+      "https://en.wikipedia.org/wiki/Monte_Pascoal"
+    ]
   }
 ]
