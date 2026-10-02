@@ -1,0 +1,541 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Londres",
+        "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+        "variantes": [
+          "London"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elefante_africano",
+          "nome": "Elefante-africano",
+          "descricao": "Elefantes do gênero Loxodonta, nativos da África.",
+          "variantes": [
+            "Loxodonta",
+            "African elephant"
+          ]
+        },
+        {
+          "id": "leonidas_da_silva",
+          "nome": "Leônidas da Silva",
+          "descricao": "Atacante brasileiro dos anos 1930 e 1940, artilheiro da Copa do Mundo de 1938.",
+          "variantes": [
+            "Leônidas",
+            "Diamante Negro"
+          ]
+        },
+        {
+          "id": "cordilheira_dos_andes",
+          "nome": "Cordilheira dos Andes",
+          "descricao": "Cadeia de montanhas que percorre todo o oeste da América do Sul, da Venezuela à Patagônia.",
+          "variantes": [
+            "Andes",
+            "Cordillera de los Andes"
+          ]
+        },
+        {
+          "id": "luta_da_longa_contagem",
+          "nome": "Luta da Longa Contagem",
+          "descricao": "Revanche de 1927 entre Gene Tunney e Jack Dempsey pelo título dos pesos-pesados, em Chicago.",
+          "variantes": [
+            "The Long Count Fight",
+            "Long Count"
+          ]
+        },
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tiradentes",
+        "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+        "variantes": [
+          "São José del Rei"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tiradentes",
+          "nome": "Tiradentes",
+          "descricao": "Joaquim José da Silva Xavier, alferes e principal mártir da Inconfidência Mineira, executado em 1792.",
+          "variantes": [
+            "Joaquim José da Silva Xavier"
+          ]
+        },
+        {
+          "id": "os_mutantes",
+          "nome": "Os Mutantes",
+          "descricao": "Banda de rock paulistana ligada à Tropicália, formada em 1966.",
+          "variantes": [
+            "Mutantes"
+          ]
+        },
+        {
+          "id": "rio_tiete",
+          "nome": "Rio Tietê",
+          "descricao": "Rio do estado de São Paulo que nasce em Salesópolis, atravessa a capital paulista e deságua no rio Paraná.",
+          "variantes": [
+            "Tietê",
+            "Tietê River"
+          ]
+        },
+        {
+          "id": "ventos_alisios",
+          "nome": "Ventos alísios",
+          "descricao": "Ventos constantes que sopram dos trópicos em direção ao equador",
+          "variantes": [
+            "Alísios",
+            "Trade winds"
+          ]
+        },
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Roma",
+        "descricao": "Capital da Itália, às margens do rio Tibre.",
+        "variantes": [
+          "Rome"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "erwin_rommel",
+          "nome": "Erwin Rommel",
+          "descricao": "Marechal de campo alemão que comandou as forças do Eixo no norte da África na Segunda Guerra Mundial.",
+          "variantes": [
+            "Rommel"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda"
+          ]
+        },
+        {
+          "id": "mega_man",
+          "nome": "Mega Man",
+          "descricao": "Robô protagonista da série de jogos da Capcom iniciada em 1987, chamado Rockman no Japão.",
+          "variantes": [
+            "Rockman",
+            "Rock"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Oia",
+        "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+        "variantes": [
+          "Ia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "trio_eletrico",
+          "nome": "Trio elétrico",
+          "descricao": "Caminhão com equipamento de som e músicos que arrasta foliões no carnaval, criado em Salvador.",
+          "variantes": [
+            "Fobica"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "fifa",
+          "nome": "FIFA",
+          "descricao": "Federação Internacional de Futebol, entidade que organiza a Copa do Mundo, fundada em 1904.",
+          "variantes": [
+            "Fédération Internationale de Football Association",
+            "Federação Internacional de Futebol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Dubai",
+        "descricao": "Cidade mais populosa dos Emirados Árabes Unidos, onde fica o Burj Khalifa.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "rio_danubio",
+          "nome": "Rio Danúbio",
+          "descricao": "Rio da Europa Central e Oriental que nasce na Alemanha e deságua no mar Negro.",
+          "variantes": [
+            "Danúbio",
+            "Danube",
+            "Donau"
+          ]
+        },
+        {
+          "id": "zumbi_dos_palmares",
+          "nome": "Zumbi dos Palmares",
+          "descricao": "Último líder do Quilombo dos Palmares, morto em 1695.",
+          "variantes": [
+            "Zumbi"
+          ]
+        },
+        {
+          "id": "rugbi",
+          "nome": "Rúgbi",
+          "descricao": "Esporte coletivo com bola oval, de origem inglesa.",
+          "variantes": [
+            "Rugby"
+          ]
+        },
+        {
+          "id": "umami",
+          "nome": "Umami",
+          "descricao": "Quinto gosto básico, associado ao glutamato, identificado por Kikunae Ikeda em 1908.",
+          "variantes": [
+            "Gosto umami"
+          ]
+        },
+        {
+          "id": "quati",
+          "nome": "Quati",
+          "descricao": "Mamífero procionídeo sul-americano de focinho comprido e cauda anelada (Nasua nasua).",
+          "variantes": [
+            "Quati-de-cauda-anelada",
+            "Nasua nasua"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Bruges",
+        "descricao": "Cidade medieval de canais na Flandres Ocidental, Bélgica, com centro histórico Patrimônio da UNESCO.",
+        "variantes": [
+          "Brugge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lingua_portuguesa",
+          "nome": "Língua portuguesa",
+          "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes",
+          "variantes": [
+            "Português"
+          ]
+        },
+        {
+          "id": "bandeira_de_brunei",
+          "nome": "Bandeira de Brunei",
+          "descricao": "Bandeira nacional de Brunei, amarela com faixas diagonais branca e preta e emblema vermelho com crescente e mãos.",
+          "variantes": [
+            "Brunei",
+            "Bandeira de Brunei Darussalam"
+          ]
+        },
+        {
+          "id": "bridge",
+          "nome": "Bridge",
+          "descricao": "Jogo de cartas de vazas jogado em duplas, com uma fase de leilão para definir o contrato.",
+          "variantes": [
+            "Contract bridge",
+            "Bridge de contrato"
+          ]
+        },
+        {
+          "id": "rush",
+          "nome": "Rush",
+          "descricao": "Filme de 2013 sobre a rivalidade entre Niki Lauda e James Hunt na temporada de 1976 da Fórmula 1.",
+          "variantes": [
+            "Rush: No Limite da Emoção"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lisboa",
+        "descricao": "Capital de Portugal, às margens do rio Tejo.",
+        "variantes": [
+          "Lisbon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alison_cerutti",
+          "nome": "Alison Cerutti",
+          "descricao": "Jogador brasileiro de vôlei de praia, campeão olímpico com Bruno Schmidt em 2016.",
+          "variantes": [
+            "Alison Conte Cerutti",
+            "Alison"
+          ]
+        },
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "m_bison",
+          "nome": "M. Bison",
+          "descricao": "Vilão da série Street Fighter, da Capcom, líder da organização Shadaloo.",
+          "variantes": [
+            "Vega (Japão)",
+            "Bison"
+          ]
+        },
+        {
+          "id": "libano",
+          "nome": "Líbano",
+          "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+          "variantes": [
+            "República Libanesa"
+          ]
+        },
+        {
+          "id": "libero",
+          "nome": "Líbero",
+          "descricao": "Jogador especialista em defesa no vôlei, que usa camisa de cor diferente da dos companheiros.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Florença",
+        "descricao": "Capital da Toscana, Itália, berço do Renascimento, cortada pelo rio Arno.",
+        "variantes": [
+          "Firenze",
+          "Florence"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iene",
+          "nome": "Iene",
+          "descricao": "Moeda oficial do Japão.",
+          "variantes": [
+            "Yen",
+            "Iene japonês"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "franca_2",
+          "nome": "Franca",
+          "descricao": "Município do interior de São Paulo, tradicional centro do basquete brasileiro.",
+          "variantes": [
+            "Franca SP"
+          ]
+        },
+        {
+          "id": "hortencia",
+          "nome": "Hortência",
+          "descricao": "Ex-jogadora brasileira de basquete, nascida em 1959, apelidada de Rainha e membro do Hall da Fama do basquete.",
+          "variantes": [
+            "Hortência Marcari",
+            "Hortência Maria de Fátima Marcari"
+          ]
+        },
+        {
+          "id": "agua_viva",
+          "nome": "Água-viva",
+          "descricao": "Forma nadadora, em geral gelatinosa e em forma de sino, de diversos cnidários marinhos.",
+          "variantes": [
+            "Medusa",
+            "Alforreca",
+            "Jellyfish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Český Krumlov",
+        "descricao": "Cidade da Boêmia do Sul, na República Tcheca, com castelo e centro histórico Patrimônio da UNESCO.",
+        "variantes": [
+          "Krumau"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "daruma",
+          "nome": "Daruma",
+          "descricao": "Boneco japonês redondo e sem braços, usado como amuleto para fazer pedidos.",
+          "variantes": [
+            "Boneco Daruma",
+            "Daruma doll"
+          ]
+        },
+        {
+          "id": "kurama",
+          "nome": "Kurama",
+          "descricao": "A Raposa de Nove Caudas selada dentro de Naruto Uzumaki no mangá Naruto.",
+          "variantes": [
+            "Raposa de Nove Caudas",
+            "Kyuubi",
+            "Nine-Tailed Fox"
+          ]
+        },
+        {
+          "id": "puma",
+          "nome": "Puma",
+          "descricao": "Marca alemã de calçados e roupas esportivas fundada por Rudolf Dassler",
+          "variantes": [
+            "Puma SE"
+          ]
+        },
+        {
+          "id": "maus",
+          "nome": "Maus",
+          "descricao": "Romance gráfico de Art Spiegelman sobre o Holocausto, vivido por seu pai",
+          "variantes": []
+        },
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Londres."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A candidata 'tiradentes' é a pessoa (Joaquim José); a proposta é o município."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O id 'roma' é a romã (fruta), não a cidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a vila de Oia."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Dubai."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Bruges."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Lisboa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Florença."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Český Krumlov."
+    }
+  ]
+}

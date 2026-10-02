@@ -1,0 +1,196 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea com Tower Bridge, Shard e Torre de Londres; sem texto; resposta única.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que rio corta a cidade desta vista?",
+      "resposta": "Tâmisa",
+      "ancora": {
+        "nome": "Londres",
+        "descricao": "Capital da Inglaterra e do Reino Unido, às margens do rio Tâmisa.",
+        "variantes": [
+          "London"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Montagem de cinco cenas com letreiros em chinês, incluindo o nome da cidade; não fica legível como uma única vista."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Rua de pedras e casario colonial com a Matriz de Santo Antônio ao fundo; sem texto; distintiva, mas há cidades históricas parecidas, então múltipla.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Que cidade histórica mineira é esta?",
+      "resposta": "Tiradentes",
+      "distratores": [
+        "Ouro Preto",
+        "Diamantina",
+        "Congonhas"
+      ],
+      "ancora": {
+        "nome": "Tiradentes",
+        "descricao": "Município histórico de Minas Gerais, antiga São José del Rei, com a Matriz de Santo Antônio.",
+        "variantes": [
+          "São José del Rei"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Panorama com o Altare della Patria e cúpulas barrocas; reconhecível, sem texto relevante.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Roma",
+      "ancora": {
+        "nome": "Roma",
+        "descricao": "Capital da Itália, às margens do rio Tibre.",
+        "variantes": [
+          "Rome"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Rua de arranha-céus sem marco reconhecível, com pessoas comuns em primeiro plano e textos visíveis; não identifica a cidade com segurança."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Casario branco e cúpulas azuis sobre a caldeira, típico de Oia; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Em que ilha grega fica esta vila?",
+      "resposta": "Santorini",
+      "ancora": {
+        "nome": "Oia",
+        "descricao": "Vila na ilha de Santorini, nas Cíclades, Grécia, famosa pelo casario branco sobre a caldeira.",
+        "variantes": [
+          "Ia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea com o Burj Khalifa dominando o horizonte; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Dubai",
+      "ancora": {
+        "nome": "Dubai",
+        "descricao": "Cidade mais populosa dos Emirados Árabes Unidos, onde fica o Burj Khalifa.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Avenida beira-mar genérica, sem marco reconhecível; poderia ser qualquer cidade litorânea brasileira."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Canais e o campanário (Belfort) de Bruges; sem texto; pessoas pequenas em barco.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que cidade belga é esta?",
+      "resposta": "Bruges",
+      "ancora": {
+        "nome": "Bruges",
+        "descricao": "Cidade medieval de canais na Flandres Ocidental, Bélgica, com centro histórico Patrimônio da UNESCO.",
+        "variantes": [
+          "Brugge"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista do Tejo com Panteão Nacional, Praça do Comércio e Alfama; sem texto; múltipla com cidades de perfil parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cidade, vista do outro lado do rio, é esta?",
+      "resposta": "Lisboa",
+      "distratores": [
+        "Porto",
+        "Sevilha",
+        "Nápoles"
+      ],
+      "ancora": {
+        "nome": "Lisboa",
+        "descricao": "Capital de Portugal, às margens do rio Tejo.",
+        "variantes": [
+          "Lisbon"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Panorama com a cúpula do Duomo, Palazzo Vecchio e Ponte Vecchio sobre o Arno; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "Que rio corta esta cidade italiana?",
+      "resposta": "Arno",
+      "ancora": {
+        "nome": "Florença",
+        "descricao": "Capital da Toscana, Itália, berço do Renascimento, cortada pelo rio Arno.",
+        "variantes": [
+          "Firenze",
+          "Florence"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Torre do castelo e centro histórico de Český Krumlov; sem texto; pouco óbvia, então múltipla.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Que cidade tcheca é esta?",
+      "resposta": "Český Krumlov",
+      "distratores": [
+        "Telč",
+        "Kutná Hora",
+        "Olomouc"
+      ],
+      "ancora": {
+        "nome": "Český Krumlov",
+        "descricao": "Cidade da Boêmia do Sul, na República Tcheca, com castelo e centro histórico Patrimônio da UNESCO.",
+        "variantes": [
+          "Krumau",
+          "Cesky Krumlov"
+        ]
+      }
+    }
+  ]
+}
