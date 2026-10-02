@@ -213,8 +213,16 @@ export function posicao(id) {
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
-// SVG do mapa com os peões. `cores`: {tema: [fundo, texto]}; `destaque`: ids de casas a destacar (as opções da vez).
-export function svgMapa(mapa, jogadores, cores, destaque = []) {
+// Recorte do mapa em volta de uma linha (da linha de baixo até `depois` linhas acima), para a aba Turno.
+export function viewBoxRecorte(r, antes = 1, depois = 5) {
+  const { L, A } = tamanhoMapa();
+  const topo = Math.max(0, A - TOPO - (r + depois + .7) * ESP_Y), base = Math.min(A, A - TOPO - (r - antes - .7) * ESP_Y);
+  return `0 ${topo.toFixed(0)} ${L} ${(base - topo).toFixed(0)}`;
+}
+
+// SVG do mapa com os peões. `cores`: {tema: [fundo, texto]}; `destaque`: ids das casas possíveis da vez;
+// opcoes.escolhido: a casa escolhida; opcoes.viewBox: um recorte (viewBoxRecorte).
+export function svgMapa(mapa, jogadores, cores, destaque = [], opcoes = {}) {
   const { L, A } = tamanhoMapa();
   const p = [`<rect width="${L}" height="${A}" rx="22" fill="#161615"/>`];
   FASES.forEach(([r0, nome], i) => {
@@ -230,7 +238,9 @@ export function svgMapa(mapa, jogadores, cores, destaque = []) {
   for (const no of mapa.nos.values()) {
     const [x, y] = posicao(no.id);
     const titulo = `<title>${esc(descreverCasa(no).nome)}</title>`;
-    if (destaque.includes(no.id))
+    if (no.id === opcoes.escolhido)
+      p.push(`<circle cx="${x}" cy="${y}" r="33" fill="none" stroke="#f0b429" stroke-width="7"/>`);
+    else if (destaque.includes(no.id))
       p.push(`<circle cx="${x}" cy="${y}" r="31" fill="none" stroke="#7c9cf5" stroke-width="5" opacity=".9"/>`);
     if (no.tipo === "inicio") p.push(`<g>${titulo}<circle cx="${x}" cy="${y}" r="32" fill="#fff"/><text x="${x}" y="${y - 4}" font-size="26" text-anchor="middle" dominant-baseline="central">👶</text><text x="${x}" y="${y + 21}" font-size="9.5" font-weight="800" fill="#161615" text-anchor="middle">INÍCIO</text></g>`);
     else if (no.tipo === "chegada") p.push(`<g>${titulo}<circle cx="${x}" cy="${y}" r="42" fill="#000" stroke="#f0b429" stroke-width="5"/><text x="${x}" y="${y - 7}" font-size="30" text-anchor="middle" dominant-baseline="central">🏡</text><text x="${x}" y="${y + 24}" font-size="10" font-weight="800" fill="#f0b429" text-anchor="middle">CHEGADA</text></g>`);
@@ -258,7 +268,7 @@ export function svgMapa(mapa, jogadores, cores, destaque = []) {
         <text x="${px.toFixed(1)}" y="${py.toFixed(1)}" font-size="10.5" font-weight="800" fill="${ct}" text-anchor="middle" dominant-baseline="central">${esc(ini)}</text></g>`);
     });
   }
-  return `<svg viewBox="0 0 ${L} ${A}" role="img" aria-label="Mapa da Trilha da Vida">${p.join("")}</svg>`;
+  return `<svg viewBox="${opcoes.viewBox || `0 0 ${L} ${A}`}" role="img" aria-label="Mapa da Trilha da Vida">${p.join("")}</svg>`;
 }
 
 // Casa mais próxima de um ponto do SVG (para soltar um peão arrastado).
