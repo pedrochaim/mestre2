@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Trilha da Vida — mapa estilo Slay the Spire</title>
+<style>
+  html, body { margin: 0; background: #000; }
+  svg { display: block; font-family: system-ui, "Segoe UI", sans-serif; }
+</style>
+</head>
+<body>
+<div id="mapa"></div>
+<script>
+// Prova de conceito (2026-10-01): mapa vertical no estilo Slay the Spire, sem dado. Começa num nó, abre no meio e
+// afunila na chegada. Cada acerto sobe uma linha, escolhendo a ligação nas bifurcações; toda ligação sobe exatamente
+// uma linha, então qualquer rota tem o mesmo comprimento (~20 acertos). A escolha é por quais casas passar.
+const LINHAS = 21;            // linha 0 = início, linha 20 = chegada
+const COLUNAS = 7;            // largura máxima no meio
+const CAMINHOS = 6;           // caminhos aleatórios que formam o mapa
+const SEMENTE = 20261001;
+
+const CORES = {
+  "Geografia": "#006400", "Natureza": "#90EE90", "Artes e Pensamento": "#FFA500", "Cotidiano": "#FF4500",
+  "Ciências": "#C71585", "Entretenimento": "#9370DB", "Esportes": "#87CEEB", "História": "#00008B",
+};
+const TEMAS = Object.keys(CORES);
+const ACOES = ["🎬", "🎤", "🎭", "🖼️", "📚", "🎮", "📰", "🏟️", "📺", "🏅", "🩺", "🔭", "📐", "💻", "🌳", "🦁", "🐠", "⛺",
+               "🦕", "✈️", "🧭", "🚗", "🌍", "🛍️", "🎉", "🗿", "🏺", "🏰", "🎞️", "📜", "💭", "⛱️"];
+const FASES = [[0, "JUVENTUDE"], [5, "VIDA ADULTA"], [11, "MATURIDADE"], [16, "APOSENTADORIA"]];
+
+let s = SEMENTE;
+const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
+const escolha = a => a[Math.floor(rnd() * a.length)];
+
+// Contorno de losango: meia-largura permitida em cada linha (0 nas pontas, máxima no meio).
+const centro = (COLUNAS - 1) / 2;
+const meia = r => Math.round(centro * Math.sin(Math.PI * r / (LINHAS - 1)) ** .7);
+const permitida = (r, c) => Math.abs(c - centro) <= meia(r);
+
+// Cada caminho sobe uma linha por vez, para a coluna c-1, c ou c+1, sem cruzar ligações já feitas.
+const ligacoes = new Set();
+const nos = new Set([`0:${centro}`]);
+const cruza = (r, a, b) => [...ligacoes].some(l => {
+  const [rr, resto] = l.split(":"); const [x, y] = resto.split("→").map(Number);
+  return +rr === r && ((x < a && y > b) || (x > a && y < b));
+});
+for (let k = 0; k < CAMINHOS; k++) {
+  let c = centro;
+  for (let r = 0; r < LINHAS - 1; r++) {
+    const opcoes = [c - 1, c, c + 1].filter(n => n >= 0 && n < COLUNAS && permitida(r + 1, n) && !cruza(r, c, n));
+    // No começo, metade dos caminhos puxa para cada lado, para o mapa se abrir.
+    const lado = k % 2 ? 1 : -1;
+    const preferidas = r < 5 ? opcoes.filter(n => Math.sign(n - c) === lado) : opcoes;
+    const n = opcoes.length ? escolha(preferidas.length ? preferidas : opcoes) : centro;
+    ligacoes.add(`${r}:${c}→${n}`);
+    nos.add(`${r + 1}:${n}`);
+    c = n;
+  }
+}
+
+// Tipo de cada nó. A cada 4 linhas, todos os nós são "Vá trabalhar": qualquer rota passa pela mesma proporção.
+const tipo = {};
+for (const no of nos) {
+  const [r] = no.split(":").map(Number);
+  if (r === 0) tipo[no] = { t: "inicio" };
+  else if (r === LINHAS - 1) tipo[no] = { t: "chegada" };
+  else if (r % 4 === 0) tipo[no] = { t: "W" };
+  else {
+    const x = rnd();
+    tipo[no] = x < .42 ? { t: "A", ic: escolha(ACOES) } : x < .70 ? { t: "M", cor: CORES[escolha(TEMAS)] }
+             : x < .88 ? { t: "B" } : { t: "D" };
+  }
+}
+
+// Desenho
+const ESP_Y = 74, ESP_X = 88, MARGEM_X = 110, TOPO = 80;
+const L = MARGEM_X * 2 + ESP_X * (COLUNAS - 1), A = TOPO * 2 + ESP_Y * (LINHAS - 1);
+const pos = no => {
+  const [r, c] = no.split(":").map(Number);
+  const j = ((Math.sin(r * 12.9898 + c * 78.233) * 43758.5453) % 1 + 1) % 1 - .5;  // leve desalinhamento, como no original
+  return [MARGEM_X + c * ESP_X + (r && r < LINHAS - 1 ? j * 22 : 0), A - TOPO - r * ESP_Y];
+};
+
+const p = [`<rect width="${L}" height="${A}" fill="#161615"/>`];
+FASES.forEach(([r0, nome], i) => {
+  const r1 = i + 1 < FASES.length ? FASES[i + 1][0] : LINHAS;
+  const y1 = A - TOPO - (r0 - .5) * ESP_Y, y2 = A - TOPO - (r1 - .5) * ESP_Y;
+  p.push(`<rect x="0" y="${Math.max(0, y2)}" width="${L}" height="${Math.min(A, y1) - Math.max(0, y2)}" fill="${i % 2 ? "#1c1c1a" : "#161615"}"/>`,
+         `<text transform="translate(28 ${(Math.min(A, y1) + Math.max(0, y2)) / 2}) rotate(-90)" font-size="15" font-weight="800" letter-spacing="3" fill="#6f6e69" text-anchor="middle">${nome}</text>`);
+});
+for (const l of ligacoes) {
+  const [r, resto] = l.split(":"); const [a, b] = resto.split("→");
+  const [x1, y1] = pos(`${r}:${a}`), [x2, y2] = pos(`${+r + 1}:${b}`);
+  p.push(`<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#6a6963" stroke-width="3.5" stroke-dasharray="2 7" stroke-linecap="round"/>`);
+}
+for (const no of nos) {
+  const [x, y] = pos(no), t = tipo[no];
+  if (t.t === "inicio") p.push(`<circle cx="${x}" cy="${y}" r="32" fill="#fff"/><text x="${x}" y="${y - 4}" font-size="26" text-anchor="middle" dominant-baseline="central">👶</text><text x="${x}" y="${y + 21}" font-size="9.5" font-weight="800" fill="#161615" text-anchor="middle">INÍCIO</text>`);
+  else if (t.t === "chegada") p.push(`<circle cx="${x}" cy="${y}" r="42" fill="#000" stroke="#f0b429" stroke-width="5"/><text x="${x}" y="${y - 7}" font-size="30" text-anchor="middle" dominant-baseline="central">🏡</text><text x="${x}" y="${y + 24}" font-size="10" font-weight="800" fill="#f0b429" text-anchor="middle">CHEGADA</text>`);
+  else if (t.t === "W") p.push(`<circle cx="${x}" cy="${y}" r="22" fill="#2b2b28" stroke="#ecebe6" stroke-width="3"/><text x="${x}" y="${y + 1}" font-size="20" text-anchor="middle" dominant-baseline="central">💼</text>`);
+  else if (t.t === "A") p.push(`<circle cx="${x}" cy="${y}" r="23" fill="#f4f1e8" stroke="#e0c96b" stroke-width="3"/><text x="${x}" y="${y + 1}" font-size="22" text-anchor="middle" dominant-baseline="central">${t.ic}</text>`);
+  else if (t.t === "M") p.push(`<circle cx="${x}" cy="${y}" r="19" fill="${t.cor}" stroke="#fff" stroke-width="2.5"/>`);
+  else if (t.t === "B") p.push(`<circle cx="${x}" cy="${y}" r="19" fill="#fff"/><text x="${x}" y="${y + 1}" font-size="16" fill="#888" text-anchor="middle" dominant-baseline="central">🂠</text>`);
+  else p.push(`<circle cx="${x}" cy="${y}" r="22" fill="#3b2a52" stroke="#c9a7ff" stroke-width="3"/><text x="${x}" y="${y + 1}" font-size="20" text-anchor="middle" dominant-baseline="central">🔮</text>`);
+}
+// Peões de exemplo, nos primeiros nós existentes de algumas linhas
+[[4, "#C71585", "AN"], [8, "#87CEEB", "BR"], [11, "#00008B", "CA"], [11, "#FFA500", "DI"]].forEach(([r, cor, ini], k) => {
+  const daLinha = [...nos].filter(n => +n.split(":")[0] === r).sort();
+  const no = daLinha[k === 3 ? daLinha.length - 1 : 0];
+  const [x, y] = pos(no);
+  p.push(`<circle cx="${x + 22}" cy="${y - 22}" r="14" fill="#000"/><circle cx="${x + 22}" cy="${y - 22}" r="12" fill="${cor}" stroke="#fff" stroke-width="2.5"/><text x="${x + 22}" y="${y - 22}" font-size="9.5" font-weight="800" fill="#fff" text-anchor="middle" dominant-baseline="central">${ini}</text>`);
+});
+document.getElementById("mapa").innerHTML = `<svg width="${L}" height="${A}" viewBox="0 0 ${L} ${A}">${p.join("")}</svg>`;
+document.title = `${nos.size} nós, ${ligacoes.size} ligações, ${L}x${A}`;
+</script>
+</body>
+</html>

@@ -140,6 +140,7 @@ Nenhuma decisão de regra em aberto no momento. As propostas foram aceitas para 
 
 Os protótipos ficam em [`../prototipos/trilha_da_vida/`](../prototipos/trilha_da_vida/) e abrem no navegador. São **provas de conceito**: não estão no app e vão mudar.
 
+- **`tabuleiro_spire.html` e `.png` (2026-10-01), o mais recente:** mapa vertical no estilo *Slay the Spire*, sem dado. Começa num nó, abre no meio (até 7 colunas) e afunila numa chegada única. Cada acerto sobe uma linha, e nas bifurcações o jogador escolhe a ligação. Toda ligação sobe exatamente uma linha, então **qualquer rota tem 20 casas**. A escolha da rota é estratégica: por quais casas passar (mais Branco para juntar cartas, as casas de Ação que interessam). A cada 4 linhas, todos os nós são "Vá trabalhar", para que qualquer rota tenha a mesma proporção. O mapa é gerado como no original: 6 caminhos aleatórios de baixo para cima, sem ligações cruzadas, dentro de um contorno de losango; cada partida pode ter um mapa diferente.
 - **`tabuleiro_v2.html` e `.png` (2026-10-01):** o tabuleiro com as regras de então, ainda com dado (44 casas). Trilha em zigue-zague de baixo para cima, pelas fases da vida, com 44 casas pelo caminho mais curto até a Vila (Trabalho e Vila). Tipos de casa:
   - 💼 "Vá trabalhar", a cada ~4 casas;
   - casas de Ação com o ícone da carta sorteada do baralho de 31, incluindo ⛱️ "Tire férias";
