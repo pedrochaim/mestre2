@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Oscar Schmidt recusou a NBA em 1984 para seguir na seleção brasileira. Até 1989, o que a liga proibia seus jogadores de fazer?",
+        "resposta": "Defender suas seleções nacionais"
+      },
+      "existentes": [
+        {
+          "id": "q00535",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Oscar Schmidt"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1984, qual time da NBA escolheu Oscar Schmidt no draft?",
+        "resposta": "New Jersey Nets"
+      },
+      "existentes": [
+        {
+          "id": "q00535",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Oscar Schmidt"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Ao voltar do beisebol para a NBA, em 1995, Michael Jordan usou por alguns meses qual número de camisa antes de retomar o vinte e três?",
+        "resposta": "45"
+      },
+      "existentes": [
+        {
+          "id": "q00537",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Michael Jordan"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a regra da NBA, não sobre a identidade do atleta numa imagem."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o time do draft, fato diferente da identificação do atleta."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o número da camisa em 1995, fato diferente da identificação do atleta."
+    }
+  ]
+}

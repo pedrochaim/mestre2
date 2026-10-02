@@ -1,0 +1,450 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome Lakers vem do apelido de Minnesota; fato literal e sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome influenciado por Jurassic Park, com distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a fonte em inglês é inexistente; mantém só a fonte em português.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "A armadora brasileira Maria Paula Gonçalves da Silva ficou famosa com um apelido inspirado em qual astro da NBA?",
+        "resposta": "Magic Johnson",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Magic_Paula"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato preciso e sustentado; pergunta memorável.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Black Mamba inspirado em Kill Bill, sustentado pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Ele teve dois apelidos (Disco Voador e Diabo Loiro); falta indicar o mais famoso para resposta única.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Bicampeão mundial pelo Brasil em 1959 e 1963, o ala Wlamir Marques teve qual apelido mais famoso?",
+        "resposta": "Diabo Loiro",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Wlamir_Marques"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais para voz; encurtar.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Por que o astro do Lakers Jerry West ganhou o apelido de The Logo?",
+        "resposta": "Inspirou o logotipo da NBA",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Jerry_West"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado entrega a resposta (chave leva a fechadura) e as fontes não mostram o fato.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Assinatura de Chuck Taylor no tornozelo, sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Larry the Bird em homenagem a Larry Bird, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta longa demais; encurtar.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1891, o professor James Naismith recebeu a tarefa de criar um novo esporte para seus alunos. Que problema ele precisava resolver?",
+        "resposta": "Um jogo interno para o inverno",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/James_Naismith",
+          "https://pt.wikipedia.org/wiki/James_Naismith"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Springfield, Massachusetts, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Motivação do relógio de 24 segundos sustentada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Jordan disputou a Olimpíada de 1984 como amador, então o enunciado é falso; corrigir.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Por que astros da NBA só puderam disputar as Olimpíadas a partir de 1992?",
+        "resposta": "A FIBA passou a aceitar profissionais",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team"
+        ]
+      }
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Laettner foi o único universitário, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Houve dois motivos (dinheiro e seleção); resposta não era única. Perguntar a regra da época.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Oscar Schmidt recusou a NBA em 1984 para seguir na seleção brasileira. Até 1989, o que a liga proibia seus jogadores de fazer?",
+        "resposta": "Defender suas seleções nacionais",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Oscar_Schmidt",
+          "https://pt.wikipedia.org/wiki/Oscar_Schmidt"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nets escolheram Oscar no draft de 1984, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anúncio do HIV em novembro de 1991, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Motivo do Hack-a-Shaq sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato conhecido, mas a fonte citada não o mostra; trocar pela página Basketball.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Nos primeiros anos do basquete, por que se colocou uma tabela atrás da cesta?",
+        "resposta": "Para impedir que torcedores atrapalhassem os arremessos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Basketball"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Furacão Hugo e a piscina, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "URSS venceu a final de 1972, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Recusa da prata pela final controversa, sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos nasceram em Akron, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Final da NCAA de 1979, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Bol nasceu no atual Sudão do Sul; 'do Sudão' é impreciso hoje. Usar a altura.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Em sua temporada de estreia, no Washington Bullets, o baixinho Muggsy Bogues foi companheiro de qual pivô de dois metros e trinta e um?",
+        "resposta": "Manute Bol",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Muggsy_Bogues",
+          "https://en.wikipedia.org/wiki/Manute_Bol"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Phil Jackson, o Mestre Zen, campeão com Jordan e Kobe; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chamberlain jogou nos Globetrotters antes da NBA, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Olajuwon era goleiro, sustentado pela Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ginóbili e Parker, Spurs, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Argentina venceu o Mundial de 1950 em casa.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Iugoslávia campeã em 2002 e EUA em sexto, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nike criou a linha Air Jordan, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pan de 1987 em Indianápolis, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oscar fez 46 pontos na final, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mundial de 1994 na Austrália, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Globetrotters nasceram em Chicago, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Basquete chegou ao Mackenzie em 1896; fonte cita o Mackenzie College.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiro jogo terminou 1 a 0, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jordan usou o 45 ao voltar em 1995, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Número 6 aposentado em toda a NBA, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Denver Nuggets entrou na fusão de 1976, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Janeth Arcain, tetracampeã pelo Comets e prata em 1996, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Moron Mountain é um lugar, não um time; distrator fora da categoria.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "No filme Space Jam, de 1996, como se chama o time de alienígenas gigantes que rouba o talento de astros da NBA?",
+        "resposta": "Monstars",
+        "distratores": [
+          "Tune Squad",
+          "Goon Squad",
+          "Looney Tunes"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Space_Jam"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ganharam seu torneio' é ambíguo (estrear ou vencer); reformular.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "O basquete masculino estreou nas Olimpíadas em 1936. Em qual edição dos Jogos estreou o torneio feminino?",
+        "resposta": "Montreal 1976",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Basketball_at_the_1976_Summer_Olympics"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pergunta por década gera resposta imprecisa; perguntar a temporada exata.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em qual temporada a NBA passou a usar a cesta de três pontos?",
+        "resposta": "Temporada 1979–80",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Three-point_field_goal"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cestos de pêssego, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bola vermelha, branca e azul da ABA, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Splitter foi o primeiro brasileiro campeão da NBA em 2014.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franca é a capital do basquete brasileiro, sustentado.",
+      "reescrita": null
+    }
+  ]
+}

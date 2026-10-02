@@ -1,0 +1,1190 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Los Angeles Lakers",
+        "descricao": "Franquia da NBA sediada em Los Angeles, fundada em Minneapolis em 1947.",
+        "variantes": [
+          "Lakers",
+          "Minneapolis Lakers"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Los_Angeles_Lakers",
+          "https://pt.wikipedia.org/wiki/Los_Angeles_Lakers"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Lakers lembra uma terra de muitos lagos. O time ganhou esse nome antes de se mudar para Los Angeles, em qual estado americano?",
+      "resposta": "Minnesota",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Los_Angeles_Lakers"
+      ]
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Toronto Raptors",
+        "descricao": "Franquia canadense da NBA, sediada em Toronto e fundada em 1995.",
+        "variantes": [
+          "Raptors"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Toronto_Raptors"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Fundado em 1995, o Toronto Raptors escolheu seu nome inspirado em qual filme de dinossauros de grande sucesso?",
+      "resposta": "Jurassic Park",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Toronto_Raptors"
+      ],
+      "distratores": [
+        "O Mundo Perdido",
+        "Godzilla",
+        "Em Busca do Vale Encantado"
+      ]
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "nome": "Magic Paula",
+        "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+        "variantes": [
+          "Paula",
+          "Maria Paula Gonçalves da Silva"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Magic_Paula",
+          "https://en.wikipedia.org/wiki/Magic_Paula"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A armadora brasileira Maria Paula Gonçalves da Silva ficou famosa com um apelido inspirado em qual astro da NBA?",
+      "resposta": "Magic Johnson",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Magic_Paula"
+      ]
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Kareem Abdul-Jabbar",
+        "descricao": "Pivô americano do Milwaukee Bucks e do Los Angeles Lakers, famoso pelo arremesso em gancho.",
+        "variantes": [
+          "Lew Alcindor",
+          "Ferdinand Lewis Alcindor Jr."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kareem_Abdul-Jabbar"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Kareem Abdul-Jabbar adotou esse nome ao se converter ao islamismo. Com que nome ele brilhou no basquete universitário?",
+      "resposta": "Lew Alcindor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kareem_Abdul-Jabbar"
+      ]
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Kobe Bryant",
+        "descricao": "Ala-armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, de 1996 a 2016.",
+        "variantes": [
+          "Kobe Bean Bryant",
+          "Black Mamba"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kobe_Bryant",
+          "https://pt.wikipedia.org/wiki/Kobe_Bryant"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Kobe Bryant adotou o apelido Black Mamba depois de assistir a qual filme de Quentin Tarantino?",
+      "resposta": "Kill Bill",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kobe_Bryant"
+      ],
+      "distratores": [
+        "Pulp Fiction",
+        "Cães de Aluguel",
+        "Jackie Brown"
+      ]
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Wlamir Marques",
+        "descricao": "Ala brasileiro de basquete, bicampeão mundial com a seleção em 1959 e 1963.",
+        "variantes": [
+          "Wlamir"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Wlamir_Marques"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Bicampeão mundial pelo Brasil em 1959 e 1963, o ala Wlamir Marques teve qual apelido mais famoso?",
+      "resposta": "Diabo Loiro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Wlamir_Marques"
+      ]
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Jerry West",
+        "descricao": "Armador americano que jogou toda a carreira na NBA pelo Los Angeles Lakers, nos anos 1960 e 1970.",
+        "variantes": [
+          "The Logo",
+          "Mr. Clutch"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jerry_West"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por que o astro do Lakers Jerry West ganhou o apelido de The Logo?",
+      "resposta": "Inspirou o logotipo da NBA",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jerry_West"
+      ]
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Converse All Star",
+        "descricao": "Modelo de tênis de lona da Converse, criado para o basquete no início do século vinte.",
+        "variantes": [
+          "Chuck Taylor All-Star",
+          "Chuck Taylor All Star",
+          "All Star"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O tênis All Star, da Converse, traz no tornozelo a assinatura de qual jogador e vendedor da marca?",
+      "resposta": "Chuck Taylor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chuck_Taylor_All-Stars"
+      ]
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Logotipo do Twitter",
+        "descricao": "O passarinho azul que foi o símbolo da rede social Twitter até 2023.",
+        "variantes": [
+          "Larry the Bird",
+          "Passarinho do Twitter"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Twitter"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O passarinho azul do antigo logotipo do Twitter tinha um nome em homenagem a qual astro do Boston Celtics?",
+      "resposta": "Larry Bird",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Twitter",
+        "https://en.wikipedia.org/wiki/Larry_Bird"
+      ]
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "James Naismith",
+        "descricao": "Professor de educação física canadense que inventou o basquete em 1891.",
+        "variantes": [
+          "Dr. James Naismith"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/James_Naismith",
+          "https://pt.wikipedia.org/wiki/James_Naismith"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1891, o professor James Naismith recebeu a tarefa de criar um novo esporte para seus alunos. Que problema ele precisava resolver?",
+      "resposta": "Um jogo interno para o inverno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/James_Naismith",
+        "https://pt.wikipedia.org/wiki/James_Naismith"
+      ]
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "James Naismith",
+        "descricao": "Professor de educação física canadense que inventou o basquete em 1891.",
+        "variantes": [
+          "Dr. James Naismith"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/James_Naismith",
+          "https://pt.wikipedia.org/wiki/James_Naismith"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em qual cidade de Massachusetts, numa escola da Associação Cristã de Moços, James Naismith inventou o basquete?",
+      "resposta": "Springfield",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/James_Naismith",
+        "https://pt.wikipedia.org/wiki/James_Naismith"
+      ]
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Relógio de arremesso",
+        "descricao": "Cronômetro que limita o tempo de cada ataque, adotado pela NBA em 1954 com vinte e quatro segundos.",
+        "variantes": [
+          "Shot clock",
+          "Relógio de 24 segundos",
+          "Regra dos 24 segundos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shot_clock"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1954, a NBA criou o limite de vinte e quatro segundos para cada ataque. Que problema a liga queria acabar?",
+      "resposta": "Times que seguravam a bola sem arremessar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Shot_clock"
+      ]
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Dream Team",
+        "descricao": "Seleção masculina de basquete dos Estados Unidos nos Jogos Olímpicos de Barcelona, em 1992, a primeira com astros da NBA.",
+        "variantes": [
+          "Time dos Sonhos",
+          "Seleção americana de 1992"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que astros da NBA só puderam disputar as Olimpíadas a partir de 1992?",
+      "resposta": "A FIBA passou a aceitar profissionais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team"
+      ]
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Dream Team",
+        "descricao": "Seleção masculina de basquete dos Estados Unidos nos Jogos Olímpicos de Barcelona, em 1992, a primeira com astros da NBA.",
+        "variantes": [
+          "Time dos Sonhos",
+          "Seleção americana de 1992"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Ao lado de onze astros da NBA, o Dream Team de 1992 tinha um único jogador universitário. Quem era ele?",
+      "resposta": "Christian Laettner",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1992_United_States_men%27s_Olympic_basketball_team",
+        "https://en.wikipedia.org/wiki/Christian_Laettner"
+      ]
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "id_existente": "oscar_schmidt",
+        "nome": "Oscar Schmidt",
+        "descricao": "Jogador brasileiro de basquete, o Mão Santa.",
+        "variantes": [
+          "Mão Santa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oscar_Schmidt",
+          "https://pt.wikipedia.org/wiki/Oscar_Schmidt"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Oscar Schmidt recusou a NBA em 1984 para seguir na seleção brasileira. Até 1989, o que a liga proibia seus jogadores de fazer?",
+      "resposta": "Defender suas seleções nacionais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oscar_Schmidt",
+        "https://pt.wikipedia.org/wiki/Oscar_Schmidt"
+      ]
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "id_existente": "oscar_schmidt",
+        "nome": "Oscar Schmidt",
+        "descricao": "Jogador brasileiro de basquete, o Mão Santa.",
+        "variantes": [
+          "Mão Santa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oscar_Schmidt",
+          "https://pt.wikipedia.org/wiki/Oscar_Schmidt"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em 1984, qual time da NBA escolheu Oscar Schmidt no draft?",
+      "resposta": "New Jersey Nets",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oscar_Schmidt"
+      ]
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Magic Johnson",
+        "descricao": "Armador americano do Los Angeles Lakers, cinco vezes campeão da NBA nos anos 1980.",
+        "variantes": [
+          "Earvin Johnson",
+          "Earvin Magic Johnson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Magic_Johnson",
+          "https://pt.wikipedia.org/wiki/Magic_Johnson"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em novembro de 1991, Magic Johnson anunciou de surpresa que deixaria as quadras. Qual foi o motivo?",
+      "resposta": "Ele era portador do vírus HIV",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Magic_Johnson"
+      ]
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Hack-a-Shaq",
+        "descricao": "Tática de basquete de cometer faltas propositais num jogador que erra muitos lances livres.",
+        "variantes": [
+          "Hack-a-Shaq"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hack-a-Shaq"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na tática apelidada de Hack-a-Shaq, os adversários faziam faltas de propósito em Shaquille O'Neal. Por quê?",
+      "resposta": "Ele errava muitos lances livres",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hack-a-Shaq"
+      ]
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Tabela de basquete",
+        "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+        "variantes": [
+          "Backboard",
+          "Tabela"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Backboard_(basketball)"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos primeiros anos do basquete, por que se colocou uma tabela atrás da cesta?",
+      "resposta": "Para impedir que torcedores atrapalhassem os arremessos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball"
+      ]
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Tim Duncan",
+        "descricao": "Ala-pivô nascido nas Ilhas Virgens Americanas, cinco vezes campeão da NBA pelo San Antonio Spurs.",
+        "variantes": [
+          "Timothy Theodore Duncan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tim_Duncan"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na adolescência, Tim Duncan treinava para ser nadador nas Ilhas Virgens. Que acontecimento de 1989 o fez trocar a natação pelo basquete?",
+      "resposta": "O furacão Hugo, que destruiu a piscina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tim_Duncan"
+      ]
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Final olímpica de basquete de 1972",
+        "descricao": "Decisão do basquete masculino nos Jogos de Munique, vencida pela União Soviética sobre os Estados Unidos.",
+        "variantes": [
+          "Final de Munique 1972",
+          "Estados Unidos x União Soviética 1972"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Basketball_at_the_1972_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Munique, em 1972, qual seleção derrotou os Estados Unidos na final e acabou com a invencibilidade americana no basquete olímpico?",
+      "resposta": "União Soviética",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball_at_the_1972_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Final olímpica de basquete de 1972",
+        "descricao": "Decisão do basquete masculino nos Jogos de Munique, vencida pela União Soviética sobre os Estados Unidos.",
+        "variantes": [
+          "Final de Munique 1972",
+          "Estados Unidos x União Soviética 1972"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Basketball_at_the_1972_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Após a final olímpica de 1972, os jogadores americanos se recusaram a receber a medalha de prata. Por quê?",
+      "resposta": "Protesto contra a repetição dos segundos finais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball_at_the_1972_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Stephen Curry",
+        "descricao": "Armador americano do Golden State Warriors, famoso pelos arremessos de três pontos.",
+        "variantes": [
+          "Steph Curry",
+          "Wardell Stephen Curry II"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Stephen_Curry"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Stephen Curry e LeBron James nasceram na mesma cidade do estado de Ohio. Qual?",
+      "resposta": "Akron",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stephen_Curry",
+        "https://en.wikipedia.org/wiki/LeBron_James"
+      ]
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Larry Bird",
+        "descricao": "Ala americano do Boston Celtics, três vezes campeão da NBA nos anos 1980.",
+        "variantes": [
+          "Larry Legend",
+          "Larry Joe Bird"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Larry_Bird"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes da rivalidade entre Celtics e Lakers, Larry Bird e Magic Johnson já tinham se enfrentado em qual decisão de 1979?",
+      "resposta": "A final do campeonato universitário americano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Larry_Bird",
+        "https://en.wikipedia.org/wiki/Magic_Johnson"
+      ]
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Muggsy Bogues",
+        "descricao": "Armador americano de um metro e sessenta, que jogou na NBA de 1987 a 2001.",
+        "variantes": [
+          "Tyrone Bogues"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Muggsy_Bogues"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em sua temporada de estreia, no Washington Bullets, o baixinho Muggsy Bogues foi companheiro de qual pivô de dois metros e trinta e um?",
+      "resposta": "Manute Bol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muggsy_Bogues",
+        "https://en.wikipedia.org/wiki/Manute_Bol"
+      ]
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Phil Jackson",
+        "descricao": "Técnico americano campeão da NBA com o Chicago Bulls e com o Los Angeles Lakers.",
+        "variantes": [
+          "Mestre Zen",
+          "Zen Master"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Phil_Jackson"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Que técnico, apelidado de Mestre Zen, foi campeão da NBA com Michael Jordan em Chicago e com Kobe Bryant em Los Angeles?",
+      "resposta": "Phil Jackson",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Phil_Jackson"
+      ],
+      "distratores": [
+        "Pat Riley",
+        "Gregg Popovich",
+        "Red Auerbach"
+      ]
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Wilt Chamberlain",
+        "descricao": "Pivô americano que jogou na NBA de 1959 a 1973, famoso por marcar cem pontos num jogo.",
+        "variantes": [
+          "Wilt the Stilt",
+          "The Big Dipper"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wilt_Chamberlain"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes de estrear na NBA, Wilt Chamberlain passou uma temporada em qual time, famoso por suas exibições cômicas?",
+      "resposta": "Harlem Globetrotters",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wilt_Chamberlain"
+      ]
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Hakeem Olajuwon",
+        "descricao": "Pivô nigeriano bicampeão da NBA pelo Houston Rockets nos anos 1990.",
+        "variantes": [
+          "Akeem Olajuwon",
+          "The Dream"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hakeem_Olajuwon"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na Nigéria, antes de conhecer o basquete, Hakeem Olajuwon jogava futebol em qual posição?",
+      "resposta": "Goleiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hakeem_Olajuwon"
+      ]
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Manu Ginóbili",
+        "descricao": "Ala-armador argentino, campeão olímpico em 2004 e quatro vezes campeão da NBA.",
+        "variantes": [
+          "Emanuel Ginóbili",
+          "Manu Ginobili"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O argentino Manu Ginóbili e o francês Tony Parker foram campeões juntos em qual time da NBA?",
+      "resposta": "San Antonio Spurs",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Manu_Gin%C3%B3bili",
+        "https://en.wikipedia.org/wiki/Tony_Parker"
+      ]
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Campeonato Mundial de Basquete Masculino de 1950",
+        "descricao": "Primeira edição do Mundial de basquete masculino da FIBA, disputada na Argentina.",
+        "variantes": [
+          "Mundial de 1950",
+          "1950 FIBA World Championship"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1950_FIBA_World_Championship"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Qual seleção, jogando em casa, venceu o primeiro Mundial de basquete masculino, em 1950?",
+      "resposta": "Argentina",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1950_FIBA_World_Championship"
+      ],
+      "distratores": [
+        "Estados Unidos",
+        "Brasil",
+        "Chile"
+      ]
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Campeonato Mundial de Basquete Masculino de 2002",
+        "descricao": "Mundial de basquete masculino da FIBA disputado em Indianápolis, nos Estados Unidos.",
+        "variantes": [
+          "Mundial de 2002",
+          "2002 FIBA World Championship"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2002_FIBA_World_Championship"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 2002, os Estados Unidos sediaram o Mundial de basquete e terminaram apenas em sexto lugar. Que seleção foi campeã?",
+      "resposta": "Iugoslávia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2002_FIBA_World_Championship"
+      ]
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Air Jordan",
+        "descricao": "Linha de tênis e roupas esportivas criada para Michael Jordan, lançada em 1985.",
+        "variantes": [
+          "Jordan Brand",
+          "Air Jordan 1"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Air_Jordan"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que empresa de material esportivo criou a linha de tênis Air Jordan, lançada em 1985?",
+      "resposta": "Nike",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Air_Jordan"
+      ]
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Final do basquete masculino no Pan-Americano de 1987",
+        "descricao": "Jogo em que o Brasil venceu os Estados Unidos por 120 a 115 e conquistou o ouro nos Jogos Pan-Americanos de 1987.",
+        "variantes": [
+          "Final do Pan de 1987",
+          "Brasil x Estados Unidos 1987"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Basketball_at_the_1987_Pan_American_Games"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1987, a seleção de Oscar e Marcel derrotou os Estados Unidos na final do Pan-Americano, jogando em qual cidade americana?",
+      "resposta": "Indianápolis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball_at_the_1987_Pan_American_Games"
+      ],
+      "distratores": [
+        "Los Angeles",
+        "Atlanta",
+        "Chicago"
+      ]
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Final do basquete masculino no Pan-Americano de 1987",
+        "descricao": "Jogo em que o Brasil venceu os Estados Unidos por 120 a 115 e conquistou o ouro nos Jogos Pan-Americanos de 1987.",
+        "variantes": [
+          "Final do Pan de 1987",
+          "Brasil x Estados Unidos 1987"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Basketball_at_the_1987_Pan_American_Games"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Na final do Pan-Americano de 1987, vencida pelo Brasil contra os Estados Unidos, quantos pontos Oscar Schmidt marcou?",
+      "resposta": "46",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball_at_the_1987_Pan_American_Games",
+        "https://en.wikipedia.org/wiki/Oscar_Schmidt"
+      ]
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "Campeonato Mundial de Basquete Feminino de 1994",
+        "descricao": "Mundial feminino da FIBA disputado na Austrália e vencido pela seleção brasileira.",
+        "variantes": [
+          "Mundial feminino de 1994",
+          "1994 FIBA World Championship for Women"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1994_FIBA_World_Championship_for_Women"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1994, a seleção feminina de Hortência e Paula conquistou o título mundial de basquete em qual país?",
+      "resposta": "Austrália",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1994_FIBA_World_Championship_for_Women"
+      ]
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Harlem Globetrotters",
+        "descricao": "Time americano de exibição que mistura basquete, acrobacias e comédia, criado nos anos 1920.",
+        "variantes": [
+          "Globetrotters"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Harlem_Globetrotters"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Apesar do nome, os Harlem Globetrotters não surgiram em Nova York. Em qual cidade americana o time nasceu?",
+      "resposta": "Chicago",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Harlem_Globetrotters"
+      ]
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Augusto Shaw",
+        "descricao": "Professor americano que apresentou o basquete no Brasil em 1896, em São Paulo.",
+        "variantes": [
+          "Augustus Shaw",
+          "Augusto Frederico Shaw"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Basquetebol_no_Brasil"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1896, o professor americano Augusto Shaw apresentou o basquete ao Brasil em qual escola de São Paulo?",
+      "resposta": "Mackenzie",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Basquetebol_no_Brasil"
+      ],
+      "distratores": [
+        "Colégio São Bento",
+        "Colégio Dante Alighieri",
+        "Colégio Rio Branco"
+      ]
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Primeiro jogo oficial de basquete",
+        "descricao": "Partida disputada em janeiro de 1892, numa Associação Cristã de Moços dos Estados Unidos, com nove jogadores por lado.",
+        "variantes": [
+          "Primeira partida de basquete"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Basketball"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "No primeiro jogo oficial de basquete da história, em 1892, quantas cestas foram marcadas ao todo?",
+      "resposta": "Uma, placar de 1 a 0",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball"
+      ]
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "michael_jordan",
+        "nome": "Michael Jordan",
+        "descricao": "Jogador americano de basquete, seis vezes campeão da NBA pelo Chicago Bulls.",
+        "variantes": [
+          "MJ",
+          "Air Jordan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Michael_Jordan"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Ao voltar do beisebol para a NBA, em 1995, Michael Jordan usou por alguns meses qual número de camisa antes de retomar o vinte e três?",
+      "resposta": "45",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Michael_Jordan"
+      ]
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "Bill Russell",
+        "descricao": "Pivô americano do Boston Celtics, onze vezes campeão da NBA entre 1957 e 1969.",
+        "variantes": [
+          "William Felton Russell"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bill_Russell"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Em 2022, a NBA aposentou em todos os seus times o número de camisa de Bill Russell. Que número é esse?",
+      "resposta": "6",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bill_Russell"
+      ]
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Fusão entre ABA e NBA",
+        "descricao": "Acordo de 1976 em que quatro times da liga ABA foram incorporados à NBA.",
+        "variantes": [
+          "ABA–NBA merger",
+          "Fusão ABA-NBA"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ABA%E2%80%93NBA_merger"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Em 1976, quatro times da ABA foram incorporados à NBA: Spurs, Pacers, Nets e qual time do Colorado?",
+      "resposta": "Denver Nuggets",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ABA%E2%80%93NBA_merger"
+      ]
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Houston Comets",
+        "descricao": "Time feminino de Houston que venceu as quatro primeiras temporadas da WNBA, de 1997 a 2000.",
+        "variantes": [
+          "Comets"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Houston_Comets"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que ala brasileira, prata olímpica em 1996, foi tetracampeã da liga americana feminina pelo Houston Comets?",
+      "resposta": "Janeth Arcain",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Houston_Comets",
+        "https://en.wikipedia.org/wiki/Janeth_Arcain"
+      ]
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Space Jam",
+        "descricao": "Filme de 1996 que mistura animação e atores, estrelado por Michael Jordan e pelos personagens Looney Tunes.",
+        "variantes": [
+          "Space Jam: O Jogo do Século"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Space_Jam"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No filme Space Jam, de 1996, como se chama o time de alienígenas gigantes que rouba o talento de astros da NBA?",
+      "resposta": "Monstars",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Space_Jam"
+      ],
+      "distratores": [
+        "Tune Squad",
+        "Goon Squad",
+        "Looney Tunes"
+      ]
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Basquete feminino nos Jogos Olímpicos",
+        "descricao": "Torneio olímpico de basquete para mulheres, disputado desde os Jogos de Montreal.",
+        "variantes": [
+          "Torneio olímpico feminino de basquete"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Basketball_at_the_1976_Summer_Olympics"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O basquete masculino estreou nas Olimpíadas em 1936. Em qual edição dos Jogos estreou o torneio feminino?",
+      "resposta": "Montreal 1976",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball_at_the_1976_Summer_Olympics"
+      ]
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Cesta de três pontos",
+        "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+        "variantes": [
+          "Linha de três pontos",
+          "Three-point field goal",
+          "Bola de três"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Three-point_field_goal"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em qual temporada a NBA passou a usar a cesta de três pontos?",
+      "resposta": "Temporada 1979–80",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Three-point_field_goal"
+      ]
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Cesta de pêssego",
+        "descricao": "O cesto de frutas usado como alvo nos primeiros jogos de basquete, em 1891.",
+        "variantes": [
+          "Peach basket",
+          "Cesto original do basquete"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Basketball",
+          "https://en.wikipedia.org/wiki/James_Naismith"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Os primeiros cestos usados no basquete, pregados na sacada de um ginásio em 1891, eram feitos para a colheita de qual fruta?",
+      "resposta": "Pêssego",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Basketball",
+        "https://en.wikipedia.org/wiki/James_Naismith"
+      ]
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "American Basketball Association",
+        "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976.",
+        "variantes": [
+          "ABA"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/American_Basketball_Association"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "A ABA, liga que rivalizou com a NBA entre 1967 e 1976, ficou famosa por usar uma bola de quais cores?",
+      "resposta": "Vermelha, branca e azul",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/American_Basketball_Association"
+      ],
+      "distratores": [
+        "Laranja e preta",
+        "Verde e amarela",
+        "Preta e branca"
+      ]
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "nome": "Tiago Splitter",
+        "descricao": "Pivô brasileiro que jogou na NBA pelo San Antonio Spurs, campeão em 2014.",
+        "variantes": [
+          "Tiago Splitter Beims"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tiago_Splitter"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Em 2014, com o San Antonio Spurs, qual pivô se tornou o primeiro brasileiro campeão da NBA?",
+      "resposta": "Tiago Splitter",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tiago_Splitter"
+      ],
+      "distratores": [
+        "Leandro Barbosa",
+        "Nenê",
+        "Anderson Varejão"
+      ]
+    },
+    {
+      "_indice": 50,
+      "_ancora": {
+        "nome": "Franca",
+        "descricao": "Município do interior de São Paulo, tradicional centro do basquete brasileiro.",
+        "variantes": [
+          "Franca SP"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Franca"
+        ]
+      },
+      "tema": "Esportes",
+      "subtema": "Basquete",
+      "angulo": "identidade",
+      "tipo": "multipla",
+      "pergunta": "Que cidade do interior paulista, também famosa pelos calçados, é conhecida como a capital do basquete brasileiro?",
+      "resposta": "Franca",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Franca"
+      ],
+      "distratores": [
+        "Bauru",
+        "Limeira",
+        "Ribeirão Preto"
+      ]
+    }
+  ]
+}
