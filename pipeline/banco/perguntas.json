@@ -35741,5 +35741,120 @@
       "https://en.wikipedia.org/wiki/Congo_River"
     ],
     "dificuldade": 4
+  },
+  {
+    "id": "q02171",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_centenario",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que Copa do Mundo teve sua final disputada neste estádio?",
+    "resposta": "Copa do Mundo de 1930",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Estadio_Centenario",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Centenario"
+    ],
+    "imagem": {
+      "arquivo": "q02171.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estadio_Centenario_(vista_aérea).jpg",
+      "autor": "Marcelo Campi from Costa de Oro, Uruguay",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q02172",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_olimpico_de_montreal",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio?",
+    "resposta": "Montreal",
+    "distratores": [
+      "Toronto",
+      "Ottawa",
+      "Vancouver"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympic_Stadium_%28Montreal%29",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_de_Montreal"
+    ],
+    "imagem": {
+      "arquivo": "q02172.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Olympic_Stadium_of_Montreal.jpg",
+      "autor": "Wilfredor",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q02173",
+    "tema": "Esportes",
+    "subtema": "Outras Modalidades",
+    "ancora": "indianapolis_motor_speedway",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que estado dos Estados Unidos fica este circuito?",
+    "resposta": "Indiana",
+    "distratores": [
+      "Ohio",
+      "Illinois",
+      "Michigan"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Indianapolis_Motor_Speedway",
+      "https://pt.wikipedia.org/wiki/Indianapolis_Motor_Speedway"
+    ],
+    "imagem": {
+      "arquivo": "q02173.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2007_Indianapolis_500_-_Starting_field_formation_before_start.jpg",
+      "autor": "The359",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02174",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "sao_januario",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+    "resposta": "Vasco da Gama",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Vasco_da_Gama",
+      "https://en.wikipedia.org/wiki/S%C3%A3o_Janu%C3%A1rio"
+    ],
+    "imagem": {
+      "arquivo": "q02174.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estádio_de_São_Januário_by_Diego_Baravelli.jpg",
+      "autor": "Diego Baravelli",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02175",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "estadio_mane_garrincha",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade fica este estádio?",
+    "resposta": "Brasília",
+    "distratores": [
+      "Cuiabá",
+      "Manaus",
+      "Fortaleza"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Est%C3%A1dio_Nacional_Man%C3%A9_Garrincha",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Nacional_de_Bras%C3%ADlia_Man%C3%A9_Garrincha"
+    ],
+    "imagem": {
+      "arquivo": "q02175.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Estádio_Nacional_de_Brasília_2022.jpg",
+      "autor": "Arne Müseler",
+      "licenca": "CC BY-SA 3.0 de"
+    }
   }
 ]

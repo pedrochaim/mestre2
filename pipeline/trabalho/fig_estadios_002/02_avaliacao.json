@@ -1,0 +1,148 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea sem texto, oval com obelisco; reconhecível para quem conhece o estádio.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que Copa do Mundo teve sua final disputada neste estádio?",
+      "resposta": "Copa do Mundo de 1930",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Centenário",
+        "descricao": "Estádio de futebol em Montevidéu, Uruguai, construído para a Copa do Mundo de 1930.",
+        "variantes": [
+          "Estadio Centenario"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Torre inclinada e cúpula inconfundíveis, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este estádio?",
+      "resposta": "Montreal",
+      "distratores": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Estádio Olímpico de Montreal",
+        "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+        "variantes": [
+          "Olympic Stadium",
+          "Big O",
+          "Stade olympique"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A fachada mostra o nome 'Estádio Municipal Paulo Machado de Carvalho', que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Há texto visível nas arquibancadas (mosaico de Benfica, 'meo', 'Sagres'), que entrega o clube e o estádio."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Largada de carros de Indy numa curva do oval, sem texto legível; reconhecível por aficionados, múltipla ajuda.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que estado dos Estados Unidos fica este circuito?",
+      "resposta": "Indiana",
+      "distratores": [
+        "Ohio",
+        "Illinois",
+        "Michigan"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Indianapolis Motor Speedway",
+        "descricao": "Circuito oval de corridas em Speedway, Indiana, sede das 500 Milhas de Indianápolis.",
+        "variantes": [
+          "Indy",
+          "Brickyard"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea sem texto legível; estádio característico com mosaico de cruzes na arquibancada.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que clube de futebol manda seus jogos neste estádio?",
+      "resposta": "Vasco da Gama",
+      "destino": 0,
+      "ancora": {
+        "nome": "São Januário",
+        "descricao": "Estádio do Club de Regatas Vasco da Gama, no bairro de São Cristóvão, Rio de Janeiro.",
+        "variantes": [
+          "Estádio Vasco da Gama"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Faixas com 'Botafogo' legíveis no estádio entregam a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Placas com 'Fenway Park' visíveis (placar e bancada) entregam a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Público comum em primeiro plano, texto 'Champions du Monde' no gramado e interior pouco distintivo."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Faixas com 'Paris Saint-Germain' visíveis entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Torcedores comuns em primeiro plano, marcas e texto visíveis, e o interior não é bem distintivo."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Vista aérea clara, sem texto, com colunas e teto característicos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade fica este estádio?",
+      "resposta": "Brasília",
+      "distratores": [
+        "Cuiabá",
+        "Manaus",
+        "Fortaleza"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estádio Mané Garrincha",
+        "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+        "variantes": [
+          "Arena BRB Mané Garrincha",
+          "Estádio Nacional de Brasília"
+        ]
+      }
+    }
+  ]
+}

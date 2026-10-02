@@ -1,0 +1,311 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estádio Centenário",
+        "descricao": "Estádio de futebol em Montevidéu, Uruguai, construído para a Copa do Mundo de 1930.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "missao_centenario",
+          "nome": "Missão Centenário",
+          "descricao": "Missão de 2006 que levou o primeiro astronauta brasileiro à Estação Espacial Internacional.",
+          "variantes": [
+            "Missão Centenária"
+          ]
+        },
+        {
+          "id": "estadio_azteca",
+          "nome": "Estádio Azteca",
+          "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986.",
+          "variantes": [
+            "Estádio Asteca"
+          ]
+        },
+        {
+          "id": "esmalte_dentario",
+          "nome": "Esmalte dentário",
+          "descricao": "Camada externa que reveste a coroa dos dentes.",
+          "variantes": [
+            "Esmalte dos dentes",
+            "Tooth enamel"
+          ]
+        },
+        {
+          "id": "sergipe",
+          "nome": "Sergipe",
+          "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju.",
+          "variantes": [
+            "Estado de Sergipe",
+            "SE"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Estádio Olímpico de Montreal",
+        "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+        "variantes": [
+          "Olympic Stadium",
+          "Big O",
+          "Stade olympique"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_berlim",
+          "nome": "Estádio Olímpico de Berlim",
+          "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+          "variantes": [
+            "Olympiastadion Berlin",
+            "Olympiastadion"
+          ]
+        },
+        {
+          "id": "olimpiada_periodo",
+          "nome": "Olimpíada (período)",
+          "descricao": "Período de quatro anos usado pelos gregos antigos para contar o tempo entre os Jogos Olímpicos.",
+          "variantes": [
+            "Olympiad"
+          ]
+        },
+        {
+          "id": "gol_olimpico",
+          "nome": "Gol olímpico",
+          "descricao": "Gol marcado diretamente de cobrança de escanteio, sem que outro jogador toque na bola.",
+          "variantes": [
+            "Olympic goal"
+          ]
+        },
+        {
+          "id": "george_foreman",
+          "nome": "George Foreman",
+          "descricao": "Boxeador americano, campeão olímpico em 1968 e duas vezes campeão mundial dos pesos-pesados.",
+          "variantes": [
+            "Big George"
+          ]
+        },
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Indianapolis Motor Speedway",
+        "descricao": "Circuito oval de corridas em Speedway, Indiana, sede das 500 Milhas de Indianápolis.",
+        "variantes": [
+          "Indy",
+          "Brickyard"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "indianapolis_motor_speedway",
+          "nome": "Indianapolis Motor Speedway",
+          "descricao": "Autódromo oval de Indianápolis, nos Estados Unidos, sede das 500 Milhas de Indianápolis.",
+          "variantes": [
+            "Brickyard",
+            "Autódromo de Indianápolis"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "500_milhas_de_indianapolis",
+          "nome": "500 Milhas de Indianápolis",
+          "descricao": "Corrida anual disputada no oval de Indianápolis, nos Estados Unidos, desde 1911.",
+          "variantes": [
+            "Indy 500",
+            "Indianapolis 500"
+          ]
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        },
+        {
+          "id": "bernard_rajzman",
+          "nome": "Bernard Rajzman",
+          "descricao": "Ex-jogador brasileiro de vôlei, medalha de prata nos Jogos de Los Angeles em 1984.",
+          "variantes": [
+            "Bernard"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "São Januário",
+        "descricao": "Estádio do Club de Regatas Vasco da Gama, no bairro de São Cristóvão, Rio de Janeiro.",
+        "variantes": [
+          "Estádio Vasco da Gama"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vasco_da_gama",
+          "nome": "Vasco da Gama",
+          "descricao": "Club de Regatas Vasco da Gama, clube carioca fundado em 1898 por remadores.",
+          "variantes": [
+            "Club de Regatas Vasco da Gama",
+            "Vasco",
+            "CR Vasco da Gama"
+          ]
+        },
+        {
+          "id": "vasco_da_gama_2",
+          "nome": "Vasco da Gama",
+          "descricao": "Navegador português que abriu a rota marítima da Europa à Índia contornando a África.",
+          "variantes": [
+            "Vasco de Gama"
+          ]
+        },
+        {
+          "id": "festa_junina",
+          "nome": "Festa junina",
+          "descricao": "Conjunto de festas populares de junho no Brasil em homenagem a Santo Antônio, São João e São Pedro.",
+          "variantes": [
+            "Festas juninas",
+            "São João",
+            "Festa joanina"
+          ]
+        },
+        {
+          "id": "estadio_azteca",
+          "nome": "Estádio Azteca",
+          "descricao": "Estádio da Cidade do México, palco das finais das Copas do Mundo de 1970 e 1986.",
+          "variantes": [
+            "Estádio Asteca"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Estádio Mané Garrincha",
+        "descricao": "Estádio nacional de futebol de Brasília, com fileira de colunas ao redor, reformado para a Copa de 2014.",
+        "variantes": [
+          "Arena BRB Mané Garrincha",
+          "Estádio Nacional de Brasília"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "garrincha",
+          "nome": "Garrincha",
+          "descricao": "Manuel Francisco dos Santos, ponta-direita do Botafogo e da seleção brasileira, bicampeão mundial em 1958 e 1962.",
+          "variantes": [
+            "Mané Garrincha",
+            "Manuel Francisco dos Santos",
+            "Manoel Francisco dos Santos"
+          ]
+        },
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro"
+          ]
+        },
+        {
+          "id": "bolivia",
+          "nome": "Bolívia",
+          "descricao": "País sem litoral da América do Sul, com capital constitucional em Sucre e sede de governo em La Paz.",
+          "variantes": [
+            "Estado Plurinacional da Bolívia"
+          ]
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga"
+          ]
+        },
+        {
+          "id": "estadio_roland_garros",
+          "nome": "Estádio Roland Garros",
+          "descricao": "Complexo de tênis em Paris onde se disputa o Aberto da França, batizado em homenagem ao aviador Roland Garros.",
+          "variantes": [
+            "Stade Roland Garros",
+            "Stade Roland-Garros"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o estádio de Montevidéu; Azteca é outro estádio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estádio de Montreal difere do de Berlim e das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "indianapolis_motor_speedway",
+      "motivo": "Mesmo autódromo oval de Indianápolis, sede das 500 Milhas, com variante Brickyard em comum."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "São Januário é o estádio; Vasco da Gama é o clube, entidade diferente."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O estádio é distinto do jogador Garrincha e das demais candidatas."
+    }
+  ]
+}

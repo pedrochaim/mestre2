@@ -26,14 +26,14 @@
       "titulo": "pt:Estádio do Morumbi",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Estádio do Pacaembu",
       "titulo": "en:Pacaembu Stadium",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Neo Química Arena",
@@ -47,7 +47,7 @@
       "titulo": "en:Allianz Parque",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Madison Square Garden",
@@ -68,7 +68,7 @@
       "titulo": "en:Interlagos Circuit",
       "camada": 1,
       "destino": 2,
-      "status": "nova"
+      "status": "saturada"
     },
     {
       "nome": "Vila Belmiro",
@@ -82,7 +82,7 @@
       "titulo": "pt:Estádio São Januário",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estádio Panathinaiko",
@@ -103,7 +103,7 @@
       "titulo": "en:Estádio Nacional Mané Garrincha",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Signal Iduna Park",
@@ -131,14 +131,14 @@
       "titulo": "en:Stade de France",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Estádio da Luz",
       "titulo": "en:Estádio da Luz",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Yankee Stadium",
@@ -166,7 +166,7 @@
       "titulo": "en:Estadio Centenario",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estádio de Lusail",
@@ -180,7 +180,7 @@
       "titulo": "pt:Estádio Olímpico Nilton Santos",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Arena MRV",
@@ -201,14 +201,14 @@
       "titulo": "en:Fenway Park",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Indianapolis Motor Speedway",
       "titulo": "en:Indianapolis Motor Speedway",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Autódromo de Monza",
@@ -236,7 +236,7 @@
       "titulo": "en:Olympic Stadium (Montreal)",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Ginásio do Ibirapuera",
@@ -278,7 +278,7 @@
       "titulo": "en:Parc des Princes",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     }
   ]
 }

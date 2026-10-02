@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado dos Estados Unidos fica este circuito?",
+        "resposta": "Indiana"
+      },
+      "existentes": [
+        {
+          "id": "q01570",
+          "pergunta": "O oval de Indianápolis é chamado de Brickyard pelos americanos. De onde vem esse apelido?",
+          "resposta": "Da pista pavimentada com tijolos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova é sobre o estado em que o circuito fica (Indiana). A existente é sobre a origem do apelido Brickyard. São fatos diferentes, e saber um não leva a saber o outro."
+    }
+  ]
+}
