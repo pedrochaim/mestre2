@@ -4312,7 +4312,8 @@
     "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
     "variantes": [
       "Delphinidae",
-      "Dolphin"
+      "Dolphin",
+      "Golfinhos"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Dolphin"
@@ -4699,7 +4700,8 @@
     "descricao": "Cetáceo do Ártico com uma longa presa em espiral, espécie Monodon monoceros.",
     "variantes": [
       "Monodon monoceros",
-      "Narwhal"
+      "Narwhal",
+      "Unicórnio-do-mar"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Narwhal"
@@ -31168,7 +31170,8 @@
     "descricao": "Maior baleia de dentes (Physeter macrocephalus), de cabeça grande e quadrada.",
     "variantes": [
       "Physeter macrocephalus",
-      "Baleia-cachalote"
+      "Baleia-cachalote",
+      "Sperm whale"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sperm_whale",
@@ -31207,7 +31210,9 @@
     "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
     "variantes": [
       "Chelonia mydas",
-      "Tartaruga-aruanã"
+      "Tartaruga-aruanã",
+      "Aruanã",
+      "Green sea turtle"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Green_sea_turtle",
@@ -33564,7 +33569,8 @@
     "nome": "Branqueamento de corais",
     "descricao": "Fenômeno em que os corais perdem a cor ao expulsar as algas que vivem em seus tecidos.",
     "variantes": [
-      "Coral bleaching"
+      "Coral bleaching",
+      "Branqueamento dos corais"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Coral_bleaching"
@@ -33581,7 +33587,8 @@
     "nome": "Atol",
     "descricao": "Recife de coral em forma de anel que cerca uma lagoa, típico de mares tropicais.",
     "variantes": [
-      "Atoll"
+      "Atoll",
+      "Atóis"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Atoll",
@@ -37668,7 +37675,8 @@
     "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
     "variantes": [
       "Tartaruga-gigante",
-      "Dermochelys coriacea"
+      "Dermochelys coriacea",
+      "Leatherback"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Leatherback_sea_turtle"
@@ -38050,6 +38058,333 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Apollo_and_Daphne_%28Bernini%29",
       "https://pt.wikipedia.org/wiki/Apollo_e_Dafne_%28escultura%29"
+    ]
+  },
+  {
+    "id": "agua_viva",
+    "nome": "Água-viva",
+    "descricao": "Forma nadadora, em geral gelatinosa e em forma de sino, de diversos cnidários marinhos.",
+    "variantes": [
+      "Medusa",
+      "Alforreca",
+      "Jellyfish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jellyfish"
+    ]
+  },
+  {
+    "id": "polvo",
+    "nome": "Polvo",
+    "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+    "variantes": [
+      "Octopus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Octopus",
+      "https://pt.wikipedia.org/wiki/Polvo"
+    ]
+  },
+  {
+    "id": "hemocianina",
+    "nome": "Hemocianina",
+    "descricao": "Proteína que transporta oxigênio no sangue de moluscos e artrópodes, dando-lhe cor azulada.",
+    "variantes": [
+      "Hemocyanin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hemocyanin"
+    ]
+  },
+  {
+    "id": "peixe_lua",
+    "nome": "Peixe-lua",
+    "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+    "variantes": [
+      "Mola mola",
+      "Ocean sunfish",
+      "Peixe-sol"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ocean_sunfish"
+    ]
+  },
+  {
+    "id": "ourico_do_mar",
+    "nome": "Ouriço-do-mar",
+    "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+    "variantes": [
+      "Ouriço",
+      "Sea urchin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sea_urchin",
+      "https://en.wikipedia.org/wiki/Aristotle%27s_lantern"
+    ]
+  },
+  {
+    "id": "peixe_palhaco",
+    "nome": "Peixe-palhaço",
+    "descricao": "Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar.",
+    "variantes": [
+      "Peixe-palhaço-laranja",
+      "Clownfish",
+      "Amphiprion"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Amphiprioninae"
+    ]
+  },
+  {
+    "id": "tubarao_2",
+    "nome": "Tubarão",
+    "descricao": "Peixe cartilaginoso predador da superordem Selachimorpha.",
+    "variantes": [
+      "Tubarões",
+      "Selachimorpha",
+      "Shark"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shark"
+    ]
+  },
+  {
+    "id": "salmao",
+    "nome": "Salmão",
+    "descricao": "Peixe migratório da família Salmonidae que vive no mar e sobe os rios para desovar.",
+    "variantes": [
+      "Salmon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Salmon"
+    ]
+  },
+  {
+    "id": "turritopsis_dohrnii",
+    "nome": "Turritopsis dohrnii",
+    "descricao": "Pequeno hidrozoário marinho conhecido como água-viva imortal por conseguir rejuvenescer.",
+    "variantes": [
+      "Água-viva imortal",
+      "Immortal jellyfish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Turritopsis_dohrnii"
+    ]
+  },
+  {
+    "id": "tartaruga_cabecuda",
+    "nome": "Tartaruga-cabeçuda",
+    "descricao": "Tartaruga-marinha (Caretta caretta) de cabeça grande, comum no litoral brasileiro.",
+    "variantes": [
+      "Caretta caretta",
+      "Loggerhead"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Loggerhead_sea_turtle"
+    ]
+  },
+  {
+    "id": "cavalo_marinho",
+    "nome": "Cavalo-marinho",
+    "descricao": "Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo.",
+    "variantes": [
+      "Hippocampus",
+      "Seahorse"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Seahorse"
+    ]
+  },
+  {
+    "id": "lula_gigante",
+    "nome": "Lula-gigante",
+    "descricao": "Grande cefalópode de águas profundas do gênero Architeuthis.",
+    "variantes": [
+      "Architeuthis",
+      "Giant squid"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Giant_squid"
+    ]
+  },
+  {
+    "id": "raia_eletrica",
+    "nome": "Raia-elétrica",
+    "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+    "variantes": [
+      "Torpedo",
+      "Tremelga",
+      "Electric ray"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Electric_ray"
+    ]
+  },
+  {
+    "id": "choco",
+    "nome": "Choco",
+    "descricao": "Molusco cefalópode do gênero Sepia, de concha interna e bolsa de tinta escura.",
+    "variantes": [
+      "Siba",
+      "Sépia",
+      "Cuttlefish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cuttlefish"
+    ]
+  },
+  {
+    "id": "peixe_voador",
+    "nome": "Peixe-voador",
+    "descricao": "Peixe marinho da família Exocoetidae, que plana sobre a água com nadadeiras peitorais alongadas.",
+    "variantes": [
+      "Exocoetidae",
+      "Flying fish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Flying_fish"
+    ]
+  },
+  {
+    "id": "coral",
+    "nome": "Coral",
+    "descricao": "Animal marinho colonial da classe Anthozoa, cujos esqueletos formam os recifes.",
+    "variantes": [
+      "Corais"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Coral"
+    ]
+  },
+  {
+    "id": "cetaceos",
+    "nome": "Cetáceos",
+    "descricao": "Infraordem de mamíferos marinhos que reúne baleias, golfinhos e botos.",
+    "variantes": [
+      "Cetacea",
+      "Cetáceo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cetacea"
+    ]
+  },
+  {
+    "id": "golfinho_rotador",
+    "nome": "Golfinho-rotador",
+    "descricao": "Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar.",
+    "variantes": [
+      "Stenella longirostris",
+      "Spinner dolphin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Spinner_dolphin"
+    ]
+  },
+  {
+    "id": "ambar_gris",
+    "nome": "Âmbar-gris",
+    "descricao": "Substância cerosa e rara, usada na perfumaria, formada no sistema digestivo do cachalote.",
+    "variantes": [
+      "Âmbar cinzento",
+      "Ambergris"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ambergris"
+    ]
+  },
+  {
+    "id": "celacanto",
+    "nome": "Celacanto",
+    "descricao": "Peixe de nadadeiras lobadas do gênero Latimeria, conhecido antes só por fósseis.",
+    "variantes": [
+      "Latimeria",
+      "Coelacanth"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Coelacanth"
+    ]
+  },
+  {
+    "id": "enguia_europeia",
+    "nome": "Enguia-europeia",
+    "descricao": "Peixe serpentiforme (Anguilla anguilla) que vive em rios europeus e migra ao oceano para desovar.",
+    "variantes": [
+      "Anguilla anguilla",
+      "European eel",
+      "Enguia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/European_eel"
+    ]
+  },
+  {
+    "id": "perola",
+    "nome": "Pérola",
+    "descricao": "Gema orgânica formada dentro de ostras e outros moluscos.",
+    "variantes": [
+      "Pearl"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pearl"
+    ]
+  },
+  {
+    "id": "lula",
+    "nome": "Lula",
+    "descricao": "Molusco cefalópode marinho de corpo alongado, com oito braços e dois tentáculos.",
+    "variantes": [
+      "Squid",
+      "Calamar"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Squid"
+    ]
+  },
+  {
+    "id": "ampolas_de_lorenzini",
+    "nome": "Ampolas de Lorenzini",
+    "descricao": "Órgãos sensoriais de tubarões e raias que detectam campos elétricos.",
+    "variantes": [
+      "Ampullae of Lorenzini"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ampullae_of_Lorenzini"
+    ]
+  },
+  {
+    "id": "deepsea_challenger",
+    "nome": "Deepsea Challenger",
+    "descricao": "Submersível que levou um único tripulante ao fundo da Fossa das Marianas em 2012.",
+    "variantes": [
+      "DCV 1"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Deepsea_Challenger"
+    ]
+  },
+  {
+    "id": "tubarao_baleia",
+    "nome": "Tubarão-baleia",
+    "descricao": "Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton.",
+    "variantes": [
+      "Rhincodon typus",
+      "Whale shark"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Whale_shark"
+    ]
+  },
+  {
+    "id": "peixe_pescador_abissal",
+    "nome": "Peixe-pescador abissal",
+    "descricao": "Peixe das profundezas da subordem Ceratioidei, cuja fêmea tem uma isca luminosa na cabeça.",
+    "variantes": [
+      "Peixe-diabo",
+      "Ceratioidei",
+      "Deep-sea anglerfish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Anglerfish"
     ]
   }
 ]
