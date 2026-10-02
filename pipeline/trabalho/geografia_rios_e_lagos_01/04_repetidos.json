@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome do Salto Ángel, na Venezuela, não vem de anjos. Ele homenageia um americano de qual profissão?",
+        "resposta": "Aviador"
+      },
+      "existentes": [
+        {
+          "id": "q02070",
+          "pergunta": "O nome do Salto Ángel, na Venezuela, não tem nada de religioso. Ele homenageia quem?",
+          "resposta": "Jimmie Angel, aviador americano"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que riacho paulista, cenário do grito da Independência, aparece logo no primeiro verso do Hino Nacional Brasileiro?",
+        "resposta": "Ipiranga"
+      },
+      "existentes": [
+        {
+          "id": "q00146",
+          "pergunta": "O riacho às margens do qual Dom Pedro proclamou a Independência tem um nome tupi que significa rio de qual cor?",
+          "resposta": "Vermelho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem é homenageado no nome do Salto Ángel (Jimmie Angel, aviador); saber um dá o outro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta o nome do riacho (Ipiranga); a outra o significado do nome em tupi (rio vermelho). Fatos diferentes."
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado preciso e sustentado pela Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Orellana chegou à foz em 1542; fato literal e fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Misi-ziibi significa grande rio; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Twain explica a origem do pseudônimo no Mississippi; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Bravo é o nome mexicano, confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mar da Palha confirmado como bacia larga do estuário do Tejo.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Speke nomeou o lago em homenagem à rainha Vitória em 1858.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "'Principal fonte' é ambíguo (Kagera, Nilo, Nilo Branco) e a resposta repete parte do nome do Nilo; resposta única fraca.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tocantins vem do tupi, 'bico de tucano'; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte em português traduz como 'rio grande' e a inglesa como 'água grande'; a resposta precisa aceitar ambas.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome guarani do rio Iguaçu junta duas palavras. Traduzido para o português, o que ele quer dizer?",
+        "resposta": "Água grande (ou rio grande)",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Rio_Igua%C3%A7u",
+          "https://en.wikipedia.org/wiki/Iguazu_River"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Foz no Paraná na Tríplice Fronteira, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Em Oxford o Tâmisa é chamado Isis; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido 'China's Sorrow' confirmado; enunciado coerente.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome homenageia o aviador americano Jimmie Angel; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio da Dúvida rebatizado Roosevelt; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte não atribui o nome especificamente aos portugueses; remover essa afirmação não verificada.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O rio Madeira, que banha Porto Velho, recebeu esse nome por causa de quê, na época das cheias?",
+        "resposta": "Troncos arrastados pela correnteza",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Rio_Madeira"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte cita temperatura, velocidade e sedimentos dissolvidos, não densidade.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "multipla",
+        "pergunta": "Perto de Manaus, as águas do rio Negro e do Solimões correm lado a lado por quilômetros sem se misturar. O que explica isso?",
+        "resposta": "Temperatura, velocidade e sedimentos",
+        "distratores": [
+          "Rochas submersas entre eles",
+          "Diferença de salinidade",
+          "Ventos em sentidos opostos"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Meeting_of_Waters",
+          "https://pt.wikipedia.org/wiki/Encontro_das_%C3%81guas"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Salinidade altíssima explica a quase ausência de vida; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Desvio dos rios para irrigar algodão confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Encolher de forma acelerada' é impreciso; a fonte diz que começou a encolher nos anos 1960.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que década do século vinte o mar de Aral, na Ásia Central, começou a encolher?",
+        "resposta": "Anos 1960",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Aral_Sea"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pororoca é o encontro da maré com a correnteza fluvial.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Fenda entre placas tectônicas' é impreciso; o Baikal é um rifte continental, onde a crosta se afasta.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "O lago Baikal, na Sibéria, é o mais profundo do mundo. Que fenômeno geológico explica tamanha profundidade?",
+        "resposta": "Rifte (afastamento da crosta)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lake_Baikal"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Baikal guarda cerca de 20% da água doce superficial do mundo; fato bem documentado, embora os trechos não mostrem.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dióxido de carbono, 1.746 mortos; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Incêndio de 1969 no Cuyahoga confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta 'mineração' é óbvia pelo contexto de barragem; perguntar o minério dá fato mais específico.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 2015, a lama de uma barragem rompida em Mariana chegou ao rio Doce. Que minério a mineradora dona da barragem extraía?",
+        "resposta": "Minério de ferro",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mariana_dam_disaster",
+          "https://pt.wikipedia.org/wiki/Rompimento_de_barragem_em_Mariana"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Templos realocados por causa do reservatório da represa de Assuã.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escarpas da Serra do Mar fazem o Tietê correr para o interior.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Valsa 'O Danúbio Azul' de Strauss Filho; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Viena, Bratislava, Budapeste e Belgrado: quatro capitais.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ipiranga no primeiro verso do Hino; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Niágara liga o Erie ao Ontário.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Paraguai é o principal do Pantanal; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jordão: batismo de Jesus, do mar da Galileia ao Mar Morto.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Casiquiare liga Orinoco e Amazonas; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Petrolina e Juazeiro ficam às margens do São Francisco.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nasce na Serra da Canastra, em Minas Gerais.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Titicaca na fronteira Peru-Bolívia; fato simples, mas correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ilhas flutuantes dos Uros feitas de totora.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rochedo Lorelei fica no Reno; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Gates' está errado (são ghats) e há outras cidades com cremação; ancorar no ghat de Manikarnika, em Varanasi.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em que cidade sagrada indiana, à beira do Ganges, fica o famoso ghat de Manikarnika, onde hindus cremam seus mortos?",
+        "resposta": "Varanasi (Benares)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Varanasi"
+        ]
+      }
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Volga desagua no Cáspio, o maior lago do mundo.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Belo Monte fica no rio Xingu.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A frase 'dádiva do Nilo' é atribuída a Heródoto; amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "César cruzou o Rubicão em 49 a.C.; fonte confere.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itaipu começou a gerar em 1984 (20 anos em 2004), anos 1980.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prata formado por Paraná e Uruguai; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Notre-Dame fica na Île de la Cité.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Superior é o maior dos Grandes Lagos em área.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Congo cruza duas vezes o Equador; fonte em português confirma.",
+      "reescrita": null
+    }
+  ]
+}
