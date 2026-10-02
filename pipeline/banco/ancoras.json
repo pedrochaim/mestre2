@@ -4670,7 +4670,9 @@
     "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
     "variantes": [
       "Camelus",
-      "Camel"
+      "Camel",
+      "Dromedário",
+      "Camelo-bactriano"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Camel"
@@ -34519,7 +34521,10 @@
       "wikidata": "Q375816",
       "pt": 3061,
       "en": 2994
-    }
+    },
+    "variantes": [
+      "Catinga"
+    ]
   },
   {
     "id": "pampa",
@@ -39521,7 +39526,8 @@
     "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
     "variantes": [
       "Tardigrada",
-      "water bear"
+      "water bear",
+      "Urso-d'água"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Tardigrade"
@@ -43153,5 +43159,416 @@
       "pt": 236,
       "en": 13550
     }
+  },
+  {
+    "id": "ecologia",
+    "nome": "Ecologia",
+    "descricao": "Ciência que estuda as relações dos seres vivos entre si e com o ambiente.",
+    "variantes": [
+      "Ecology",
+      "Oekologie"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Ecologia",
+      "https://en.wikipedia.org/wiki/Ecology"
+    ]
+  },
+  {
+    "id": "zona_hadal",
+    "nome": "Zona hadal",
+    "descricao": "Faixa mais profunda do oceano, correspondente às fossas oceânicas abaixo de cerca de seis mil metros.",
+    "variantes": [
+      "Zona hadopelágica",
+      "Hadal zone"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hadal_zone"
+    ]
+  },
+  {
+    "id": "halicephalobus_mephisto",
+    "nome": "Halicephalobus mephisto",
+    "descricao": "Espécie de nematoide encontrada a mais de um quilômetro de profundidade em minas de ouro da África do Sul.",
+    "variantes": [
+      "Verme-do-diabo",
+      "Devil's worm"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Halicephalobus_mephisto"
+    ]
+  },
+  {
+    "id": "geysir",
+    "nome": "Geysir",
+    "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+    "variantes": [
+      "Grande Geysir",
+      "Gêiser"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Geysir",
+      "https://pt.wikipedia.org/wiki/Gêiser"
+    ]
+  },
+  {
+    "id": "parque_dos_macacos_de_jigokudani",
+    "nome": "Parque dos Macacos de Jigokudani",
+    "descricao": "Parque em Nagano, no Japão, famoso pelos macacos-japoneses que se banham em fontes termais no inverno.",
+    "variantes": [
+      "Jigokudani Monkey Park",
+      "Jigokudani Yaen-koen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jigokudani_Monkey_Park"
+    ]
+  },
+  {
+    "id": "surtsey",
+    "nome": "Surtsey",
+    "descricao": "Ilha vulcânica ao sul da Islândia, surgida de uma erupção submarina iniciada em 1963.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Surtsey",
+      "https://pt.wikipedia.org/wiki/Surtsey"
+    ]
+  },
+  {
+    "id": "remora",
+    "nome": "Rêmora",
+    "descricao": "Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça.",
+    "variantes": [
+      "Peixe-piolho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Remora",
+      "https://pt.wikipedia.org/wiki/Rêmora"
+    ]
+  },
+  {
+    "id": "umbuzeiro",
+    "nome": "Umbuzeiro",
+    "descricao": "Árvore da caatinga, Spondias tuberosa, que produz o umbu e armazena água nas raízes.",
+    "variantes": [
+      "Spondias tuberosa",
+      "Imbuzeiro",
+      "Pé de umbu"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Umbuzeiro",
+      "https://en.wikipedia.org/wiki/Spondias_tuberosa"
+    ]
+  },
+  {
+    "id": "deinococcus_radiodurans",
+    "nome": "Deinococcus radiodurans",
+    "descricao": "Bactéria extremófila famosa pela enorme resistência à radiação ionizante.",
+    "variantes": [
+      "Conan, a Bactéria"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Deinococcus_radiodurans"
+    ]
+  },
+  {
+    "id": "grande_fonte_prismatica",
+    "nome": "Grande Fonte Prismática",
+    "descricao": "Maior fonte termal do Parque Nacional de Yellowstone, nos Estados Unidos, famosa por suas cores.",
+    "variantes": [
+      "Grand Prismatic Spring"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Grand_Prismatic_Spring"
+    ]
+  },
+  {
+    "id": "cachoeira_de_sangue",
+    "nome": "Cachoeira de Sangue",
+    "descricao": "Afloramento de água salgada avermelhada na geleira Taylor, nos Vales Secos de McMurdo, na Antártida.",
+    "variantes": [
+      "Blood Falls"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blood_Falls"
+    ]
+  },
+  {
+    "id": "peixe_gelo",
+    "nome": "Peixe-gelo",
+    "descricao": "Família de peixes antárticos, Channichthyidae, de sangue quase transparente.",
+    "variantes": [
+      "Channichthyidae",
+      "Peixe-crocodilo-do-gelo",
+      "Icefish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Channichthyidae"
+    ]
+  },
+  {
+    "id": "peixe_bolha",
+    "nome": "Peixe-bolha",
+    "descricao": "Peixe de águas profundas, Psychrolutes marcidus, que vive na costa da Austrália e da Nova Zelândia.",
+    "variantes": [
+      "Psychrolutes marcidus",
+      "Blobfish"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blobfish"
+    ]
+  },
+  {
+    "id": "lemingue",
+    "nome": "Lemingue",
+    "descricao": "Pequeno roedor da tundra ártica, alvo do mito do suicídio coletivo.",
+    "variantes": [
+      "Lemming"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lemming"
+    ]
+  },
+  {
+    "id": "feneco",
+    "nome": "Feneco",
+    "descricao": "Pequena raposa do deserto do Saara, Vulpes zerda, de orelhas enormes.",
+    "variantes": [
+      "Raposa-do-deserto",
+      "Vulpes zerda",
+      "Fennec"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fennec_fox",
+      "https://pt.wikipedia.org/wiki/Feneco"
+    ]
+  },
+  {
+    "id": "thermus_aquaticus",
+    "nome": "Thermus aquaticus",
+    "descricao": "Bactéria termófila descoberta nas fontes termais de Yellowstone, origem da enzima Taq polimerase.",
+    "variantes": [
+      "T. aquaticus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Thermus_aquaticus"
+    ]
+  },
+  {
+    "id": "lago_natron",
+    "nome": "Lago Natron",
+    "descricao": "Lago salgado e muito alcalino no norte da Tanzânia, local de reprodução de flamingos-pequenos.",
+    "variantes": [
+      "Lake Natron"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lake_Natron"
+    ]
+  },
+  {
+    "id": "lago_vostok",
+    "nome": "Lago Vostok",
+    "descricao": "Lago subglacial sob o manto de gelo da Antártida Oriental, abaixo da estação russa Vostok.",
+    "variantes": [
+      "Lake Vostok"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lake_Vostok"
+    ]
+  },
+  {
+    "id": "vespa_do_figo",
+    "nome": "Vespa-do-figo",
+    "descricao": "Grupo de vespas minúsculas que polinizam as figueiras numa relação de mutualismo obrigatório.",
+    "variantes": [
+      "Fig wasp",
+      "Agaonidae"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fig_wasp"
+    ]
+  },
+  {
+    "id": "rio_tinto",
+    "nome": "Rio Tinto",
+    "descricao": "Rio do sudoeste da Espanha, na Andaluzia, de águas ácidas e avermelhadas.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rio_Tinto_(river)"
+    ]
+  },
+  {
+    "id": "euforbia",
+    "nome": "Eufórbia",
+    "descricao": "Gênero de plantas Euphorbia, com muitas espécies suculentas africanas parecidas com cactos.",
+    "variantes": [
+      "Euphorbia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Euphorbia"
+    ]
+  },
+  {
+    "id": "esfagno",
+    "nome": "Esfagno",
+    "descricao": "Gênero de musgos Sphagnum que formam as turfeiras.",
+    "variantes": [
+      "Sphagnum",
+      "Musgo-de-turfa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sphagnum"
+    ]
+  },
+  {
+    "id": "caverna_son_doong",
+    "nome": "Caverna Son Doong",
+    "descricao": "Enorme caverna no Parque Nacional Phong Nha-Ke Bang, com floresta e clima próprios.",
+    "variantes": [
+      "Hang Sơn Đoòng",
+      "Son Doong"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hang_S%C6%A1n_%C4%90o%C3%B2ng"
+    ]
+  },
+  {
+    "id": "grutas_de_waitomo",
+    "nome": "Grutas de Waitomo",
+    "descricao": "Grutas calcárias famosas pelas larvas luminosas de Arachnocampa luminosa no teto.",
+    "variantes": [
+      "Waitomo Glowworm Caves"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Waitomo_Glowworm_Caves"
+    ]
+  },
+  {
+    "id": "fungo_radiotrofico",
+    "nome": "Fungo radiotrófico",
+    "descricao": "Fungo rico em melanina que parece usar a radiação ionizante para crescer.",
+    "variantes": [
+      "Radiotrophic fungus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Radiotrophic_fungus"
+    ]
+  },
+  {
+    "id": "caverna_de_movile",
+    "nome": "Caverna de Movile",
+    "descricao": "Caverna isolada da superfície, com um ecossistema baseado em quimiossíntese.",
+    "variantes": [
+      "Peștera Movile",
+      "Movile Cave"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Movile_Cave"
+    ]
+  },
+  {
+    "id": "fumarola_negra",
+    "nome": "Fumarola negra",
+    "descricao": "Tipo de fonte hidrotermal do fundo do mar que expele água muito quente carregada de minerais escuros.",
+    "variantes": [
+      "Black smoker",
+      "Chaminé hidrotermal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hydrothermal_vent"
+    ]
+  },
+  {
+    "id": "verme_tubular_gigante",
+    "nome": "Verme-tubular-gigante",
+    "descricao": "Verme marinho Riftia pachyptila, que vive junto às fontes hidrotermais do Pacífico.",
+    "variantes": [
+      "Riftia pachyptila",
+      "Giant tube worm"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Riftia_pachyptila"
+    ]
+  },
+  {
+    "id": "liquen",
+    "nome": "Líquen",
+    "descricao": "Organismo composto formado pela associação simbiótica entre um fungo e um parceiro fotossintetizante.",
+    "variantes": [
+      "Líquenes",
+      "Lichen"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Líquen",
+      "https://en.wikipedia.org/wiki/Lichen"
+    ]
+  },
+  {
+    "id": "ra_da_madeira",
+    "nome": "Rã-da-madeira",
+    "descricao": "Rã norte-americana, Lithobates sylvaticus, capaz de sobreviver congelada no inverno.",
+    "variantes": [
+      "Lithobates sylvaticus",
+      "Rana sylvatica",
+      "Wood frog"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wood_frog"
+    ]
+  },
+  {
+    "id": "foca_de_weddell",
+    "nome": "Foca-de-weddell",
+    "descricao": "Foca antártica, Leptonychotes weddellii, que vive no gelo ao redor da Antártida.",
+    "variantes": [
+      "Leptonychotes weddellii",
+      "Weddell seal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Weddell_seal"
+    ]
+  },
+  {
+    "id": "ecossistema",
+    "nome": "Ecossistema",
+    "descricao": "Conceito ecológico que reúne os seres vivos de um lugar e o ambiente físico com que interagem.",
+    "variantes": [
+      "Ecosystem"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ecosystem",
+      "https://pt.wikipedia.org/wiki/Ecossistema"
+    ]
+  },
+  {
+    "id": "abismo_challenger",
+    "nome": "Abismo Challenger",
+    "descricao": "Ponto mais profundo conhecido do oceano, no extremo sul da Fossa das Marianas.",
+    "variantes": [
+      "Challenger Deep",
+      "Depressão Challenger"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Challenger_Deep"
+    ]
+  },
+  {
+    "id": "fonte_hidrotermal",
+    "nome": "Fonte hidrotermal",
+    "descricao": "Fissura no fundo do mar por onde sai água aquecida pela atividade vulcânica, base de ecossistemas sem luz solar.",
+    "variantes": [
+      "Hydrothermal vent",
+      "Fonte hidrotermal submarina"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hydrothermal_vent"
+    ]
+  },
+  {
+    "id": "lobos_de_yellowstone",
+    "nome": "Lobos de Yellowstone",
+    "descricao": "Lobos-cinzentos reintroduzidos no Parque Nacional de Yellowstone após décadas de extinção local.",
+    "variantes": [
+      "Reintrodução dos lobos em Yellowstone"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/History_of_wolves_in_Yellowstone"
+    ]
   }
 ]
