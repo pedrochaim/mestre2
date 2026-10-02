@@ -1,0 +1,360 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Jolly Roger",
+        "descricao": "Bandeira negra com caveira e ossos cruzados, hasteada por navios piratas no início do século dezoito.",
+        "variantes": [
+          "Jolly Roger (bandeira pirata)",
+          "Bandeira pirata"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "bandeira_de_minas_gerais",
+          "nome": "Bandeira de Minas Gerais",
+          "descricao": "Bandeira do estado de Minas Gerais, branca com triângulo vermelho e o lema Libertas quae sera tamen.",
+          "variantes": [
+            "Bandeira mineira"
+          ]
+        },
+        {
+          "id": "aneis_olimpicos",
+          "nome": "Anéis olímpicos",
+          "descricao": "Símbolo dos Jogos Olímpicos, formado por cinco anéis entrelaçados sobre fundo branco.",
+          "variantes": [
+            "Cinco anéis",
+            "Olympic rings",
+            "Bandeira olímpica"
+          ]
+        },
+        {
+          "id": "bandeira_do_paraguai",
+          "nome": "Bandeira do Paraguai",
+          "descricao": "Bandeira nacional do Paraguai, tricolor horizontal vermelha, branca e azul com emblemas diferentes em cada lado.",
+          "variantes": [
+            "Flag of Paraguay"
+          ]
+        },
+        {
+          "id": "bandeira_do_rio_grande_do_sul",
+          "nome": "Bandeira do Rio Grande do Sul",
+          "descricao": "Bandeira do estado do Rio Grande do Sul, com faixas diagonais verde, vermelha e amarela e o brasão estadual.",
+          "variantes": [
+            "Bandeira gaúcha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "14-Bis",
+        "descricao": "Avião canard de Alberto Santos-Dumont, que voou em público perto de Paris em 1906.",
+        "variantes": [
+          "Quatorze-bis",
+          "Oiseau de proie"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "14_bis",
+          "nome": "14-bis",
+          "descricao": "Avião de Alberto Santos-Dumont que voou em Paris em 1906.",
+          "variantes": [
+            "Quatorze Bis",
+            "Oiseau de proie"
+          ]
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis"
+          ]
+        },
+        {
+          "id": "volei_de_praia",
+          "nome": "Vôlei de praia",
+          "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+          "variantes": [
+            "Voleibol de praia",
+            "Beach volleyball"
+          ]
+        },
+        {
+          "id": "opera_de_arame",
+          "nome": "Ópera de Arame",
+          "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, numa antiga pedreira.",
+          "variantes": [
+            "Wire Opera House"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Bandeira de Betsy Ross",
+        "descricao": "Antiga bandeira dos Estados Unidos com treze listras e treze estrelas dispostas em círculo.",
+        "variantes": [
+          "Betsy Ross flag"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_de_barbados",
+          "nome": "Bandeira de Barbados",
+          "descricao": "Bandeira nacional de Barbados, com faixas azul, amarela e azul e um tridente preto no centro.",
+          "variantes": [
+            "Flag of Barbados"
+          ]
+        },
+        {
+          "id": "bandeira_da_uniao_sovietica",
+          "nome": "Bandeira da União Soviética",
+          "descricao": "Bandeira vermelha com foice e martelo dourados e uma estrela, símbolo da URSS e do comunismo.",
+          "variantes": [
+            "Bandeira da URSS",
+            "Bandeira Vermelha soviética",
+            "Flag of the Soviet Union"
+          ]
+        },
+        {
+          "id": "bandeira_de_brunei",
+          "nome": "Bandeira de Brunei",
+          "descricao": "Bandeira nacional de Brunei, amarela com faixas diagonais branca e preta e emblema vermelho com crescente e mãos.",
+          "variantes": [
+            "Brunei",
+            "Bandeira de Brunei Darussalam"
+          ]
+        },
+        {
+          "id": "bandeira_de_belize",
+          "nome": "Bandeira de Belize",
+          "descricao": "Bandeira nacional atual de Belize, azul com faixas vermelhas no alto e embaixo e o brasão num disco branco central.",
+          "variantes": [
+            "Belize",
+            "Bandeira belizenha"
+          ]
+        },
+        {
+          "id": "bandeira_de_essuatini",
+          "nome": "Bandeira de Essuatíni",
+          "descricao": "Bandeira nacional atual de Essuatíni, antiga Suazilândia, com faixas azul, amarela e vermelha e um escudo nguni com lanças.",
+          "variantes": [
+            "Essuatíni",
+            "Bandeira da Suazilândia",
+            "Bandeira de Eswatini"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Guilhotina",
+        "descricao": "Aparelho de execução por decapitação, com lâmina suspensa numa estrutura vertical, famoso pelo uso na Revolução Francesa.",
+        "variantes": [
+          "Guillotine"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "as_viagens_de_marco_polo",
+          "nome": "As Viagens de Marco Polo",
+          "descricao": "Relato das viagens de Marco Polo pela Ásia, escrito por Rustichello de Pisa por volta de 1300.",
+          "variantes": [
+            "O Livro das Maravilhas",
+            "Il Milione",
+            "The Travels of Marco Polo"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Coroa Imperial do Brasil",
+        "descricao": "Coroa de ouro, diamantes e pérolas feita para Dom Pedro II, segundo imperador do Brasil.",
+        "variantes": [
+          "Coroa de Dom Pedro II",
+          "Coroa Diamantina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapada_diamantina",
+          "nome": "Chapada Diamantina",
+          "descricao": "Região montanhosa do estado da Bahia, na porção norte da Serra do Espinhaço.",
+          "variantes": []
+        },
+        {
+          "id": "dom_pedro_ii",
+          "nome": "Dom Pedro II",
+          "descricao": "Segundo e último imperador do Brasil, que reinou de 1831 a 1889.",
+          "variantes": [
+            "Pedro II do Brasil",
+            "Pedro de Alcântara"
+          ]
+        },
+        {
+          "id": "carnaval",
+          "nome": "Carnaval",
+          "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+          "variantes": [
+            "Carnaval do Brasil"
+          ]
+        },
+        {
+          "id": "dom_pedro_i",
+          "nome": "Dom Pedro I",
+          "descricao": "Primeiro imperador do Brasil, que proclamou a Independência em 1822 e depois foi rei de Portugal.",
+          "variantes": [
+            "Pedro I do Brasil",
+            "Pedro IV de Portugal",
+            "Pedro de Alcântara"
+          ]
+        },
+        {
+          "id": "coroa_de_ferro_da_lombardia",
+          "nome": "Coroa de Ferro da Lombardia",
+          "descricao": "Coroa-relicário medieval de ouro e gemas, guardada na catedral de Monza, usada na coroação de reis da Itália.",
+          "variantes": [
+            "Coroa de Ferro",
+            "Corona Ferrea",
+            "Iron Crown of Lombardy"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Caravela",
+        "descricao": "Pequeno navio à vela de velas latinas, usado por portugueses e espanhóis nas grandes navegações.",
+        "variantes": [
+          "Caravel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caravela",
+          "nome": "Caravela",
+          "descricao": "Embarcação a vela leve usada por portugueses e espanhóis nas Grandes Navegações dos séculos quinze e dezesseis.",
+          "variantes": [
+            "Caravel"
+          ]
+        },
+        {
+          "id": "cascavel",
+          "nome": "Cascavel",
+          "descricao": "Serpente peçonhenta das Américas, do gênero Crotalus, com um chocalho na ponta da cauda.",
+          "variantes": [
+            "Crotalus",
+            "Cascavel-sul-americana"
+          ]
+        },
+        {
+          "id": "carnaval",
+          "nome": "Carnaval",
+          "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+          "variantes": [
+            "Carnaval do Brasil"
+          ]
+        },
+        {
+          "id": "escaravelho_sagrado",
+          "nome": "Escaravelho sagrado",
+          "descricao": "Besouro rola-bosta venerado no Egito Antigo como símbolo do deus Quépri e usado em amuletos",
+          "variantes": [
+            "Scarab",
+            "Quépri",
+            "Khepri",
+            "Scarabaeus sacer",
+            "escaravelho"
+          ]
+        },
+        {
+          "id": "rola_bosta",
+          "nome": "Rola-bosta",
+          "descricao": "Besouros escarabeídeos que se alimentam de fezes e as moldam em bolas para rolar e enterrar.",
+          "variantes": [
+            "besouro-rola-bosta",
+            "dung beetle",
+            "escaravelho"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Jolly Roger é a bandeira pirata; nenhuma candidata corresponde a ela."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "14_bis",
+      "motivo": "É o mesmo avião de Santos-Dumont, com as mesmas variantes e o mesmo voo de 1906."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A bandeira de Betsy Ross é uma bandeira histórica dos EUA e nenhuma candidata corresponde a ela."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Guilhotina é um aparelho de execução e nenhuma candidata corresponde a ele."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A coroa é um objeto distinto de Dom Pedro II e das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "caravela",
+      "motivo": "É o mesmo tipo de navio, com a mesma descrição e as mesmas variantes."
+    }
+  ]
+}

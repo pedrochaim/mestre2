@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a bandeira nem entrega a resposta; época correta segundo o trecho. A pista em inglês e a data não bastam sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Voos públicos em Bagatelle em 1906 confirmados pelos trechos. Distratores são anos plausíveis e errados, e o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'lenda da Filadélfia' mais 'antiga bandeira dos Estados Unidos' entrega Betsy Ross sem olhar a figura. A pista deve ser removida.",
+      "reescrita": {
+        "pergunta": "Esta antiga bandeira dos Estados Unidos leva o nome de qual mulher?",
+        "resposta": "Betsy Ross",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Período de 1793 e 1794 na França' mais 'uso em massa' responde Reino do Terror sem a figura. A reescrita pede um fato que depende de reconhecer o aparelho: o médico que deu nome a ele, amplamente documentado.",
+      "reescrita": {
+        "pergunta": "Que médico francês deu nome a este aparelho?",
+        "resposta": "Joseph-Ignace Guillotin",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A coroa foi feita para Pedro II e concluída dias antes da coroação dele, em 1841. A figura é necessária para distingui-la da coroa de Pedro I, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caravela, séculos quinze e dezesseis, ligada aos portugueses segundo os trechos. O enunciado não nomeia o tipo de embarcação e a figura é necessária.",
+      "reescrita": null
+    }
+  ]
+}

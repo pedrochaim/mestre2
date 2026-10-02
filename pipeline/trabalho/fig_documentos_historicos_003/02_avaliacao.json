@@ -1,0 +1,151 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bandeira negra com caveira e ossos cruzados, nítida e legível. A pergunta pede o nome em inglês sem pista que o entregue.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome em inglês tem esta bandeira, hasteada por navios no início do século dezoito?",
+      "resposta": "Jolly Roger",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jolly Roger",
+        "descricao": "Bandeira negra com caveira e ossos cruzados, hasteada por navios piratas no início do século dezoito.",
+        "variantes": [
+          "Bandeira pirata",
+          "Jolly Roger (bandeira pirata)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Foto borrada de uma multidão. Lincoln mal se distingue, então a cena não é reconhecível e não há resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Capa de livro com as armas imperiais, sem texto. Não dá para saber que é a Constituição de 1824, e outros documentos do Império poderiam ter encadernação parecida."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica do avião canard de células em caixa, com o número 14 visível. É reconhecível e não traz texto que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este avião realizou voos públicos nos arredores de Paris?",
+      "resposta": "1906",
+      "distratores": [
+        "1901",
+        "1903",
+        "1909"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "14-Bis",
+        "descricao": "Avião canard de Alberto Santos-Dumont, que voou em público perto de Paris em 1906.",
+        "variantes": [
+          "Quatorze-bis",
+          "14 Bis",
+          "Oiseau de proie"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bandeira com treze estrelas em círculo e treze listras, nítida. A pergunta pede o nome ligado à lenda e a imagem é necessária.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que nome, tirado de uma lenda da Filadélfia, tem esta antiga bandeira dos Estados Unidos?",
+      "resposta": "Betsy Ross",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira de Betsy Ross",
+        "descricao": "Antiga bandeira dos Estados Unidos com treze listras e treze estrelas dispostas em círculo.",
+        "variantes": [
+          "Betsy Ross flag"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Mapa cheio de legendas e texto em latim. O título traz o ano 1539 e o nome Carta Marina, o que entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma guilhotina, reconhecível pela forma. A imagem é pequena, mas legível. A pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que período de 1793 e 1794 na França ficou associado ao uso em massa deste aparelho?",
+      "resposta": "Reino do Terror",
+      "destino": 1,
+      "ancora": {
+        "nome": "Guilhotina",
+        "descricao": "Aparelho de execução por decapitação, com lâmina suspensa numa estrutura vertical, famoso pelo uso na Revolução Francesa.",
+        "variantes": [
+          "Guillotine"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto limpa de coroa de ouro com diamantes e pérolas, sem texto. Distingue-se da coroa de Pedro I por ser a coroa de diamantes.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que imperador brasileiro usou esta coroa em sua coroação?",
+      "resposta": "Dom Pedro II",
+      "destino": 2,
+      "ancora": {
+        "nome": "Coroa Imperial do Brasil",
+        "descricao": "Coroa de ouro, diamantes e pérolas feita para Dom Pedro II, segundo imperador do Brasil.",
+        "variantes": [
+          "Coroa de Dom Pedro II",
+          "Coroa Diamantina"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Manuscrito de letra ilegível, sem nada que identifique o documento. Não é reconhecível pela imagem e não fica legível num celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de réplica de caravela com velas latinas e cruz vermelha. A inscrição do casco é pequena e não entrega o tipo de navio.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de embarcação portuguesa dos séculos quinze e dezesseis é esta?",
+      "resposta": "Caravela",
+      "destino": 0,
+      "ancora": {
+        "nome": "Caravela",
+        "descricao": "Pequeno navio à vela de velas latinas, usado por portugueses e espanhóis nas grandes navegações.",
+        "variantes": [
+          "Caravel"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Pergaminho manuscrito com muito texto e letra ilegível no celular. Só se reconhece pela leitura, e a resposta única é duvidosa, pois a versão de doze artigos pode ser confundida com outros documentos da época."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O cartaz mostra o título 'The Universal Declaration of Human Rights' legível, o que entrega a resposta. Há também uma pessoa em primeiro plano e muito texto."
+    }
+  ]
+}

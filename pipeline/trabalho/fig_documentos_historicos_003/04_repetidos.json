@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano este avião realizou voos públicos nos arredores de Paris?",
+        "resposta": "1906"
+      },
+      "existentes": [
+        {
+          "id": "q00979",
+          "pergunta": "O avião com que Santos Dumont voou em Paris, em 1906, se chamava Quatorze Bis. De onde veio esse nome?",
+          "resposta": "Foi testado preso ao dirigível número quatorze"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que tipo de embarcação portuguesa dos séculos quinze e dezesseis é esta?",
+        "resposta": "Caravela"
+      },
+      "existentes": [
+        {
+          "id": "q01019",
+          "pergunta": "Que tipo de vela triangular permitia às caravelas portuguesas avançar quase contra o vento?",
+          "resposta": "Vela latina"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre o ano dos voos públicos; a existente é sobre a origem do nome Quatorze Bis. São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o tipo de embarcação (caravela); a existente pede o tipo de vela (latina). São fatos diferentes."
+    }
+  ]
+}

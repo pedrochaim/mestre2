@@ -61,14 +61,14 @@
       "titulo": "en:Caravel",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Guilhotina",
       "titulo": "en:Guillotine",
       "camada": 1,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Declaração dos Direitos do Homem e do Cidadão",
@@ -110,7 +110,7 @@
       "titulo": "en:Betsy Ross flag",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Bandeira do Sol Nascente",
@@ -180,7 +180,7 @@
       "titulo": "en:Gettysburg Address",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Penny Black",
@@ -271,11 +271,291 @@
       "titulo": "en:Bull's Eye (stamp)",
       "camada": 3,
       "destino": 2,
-      "status": "nova"
+      "status": "sem_imagem"
     },
     {
       "nome": "Cruz da Ordem de Cristo",
       "titulo": "en:Cross of the Order of Christ",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jolly Roger (bandeira pirata)",
+      "titulo": "en:Jolly Roger",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Bandeira da Alemanha Nazista",
+      "titulo": "en:Flag of Nazi Germany",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Diário de Anne Frank",
+      "titulo": "en:The Diary of a Young Girl",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Declaração Universal dos Direitos Humanos",
+      "titulo": "en:Universal Declaration of Human Rights",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Titanic",
+      "titulo": "en:Titanic",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Desastre do Hindenburg",
+      "titulo": "en:Hindenburg disaster",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "14-Bis",
+      "titulo": "en:14-bis",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Sputnik 1",
+      "titulo": "en:Sputnik 1",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Sudário de Turim",
+      "titulo": "en:Shroud of Turin",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Little Boy (bomba de Hiroshima)",
+      "titulo": "en:Little Boy",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Proclamação de Emancipação",
+      "titulo": "en:Emancipation Proclamation",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Coroa Imperial do Brasil",
+      "titulo": "en:Imperial Crown of Brazil",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Cruz de Ferro",
+      "titulo": "en:Iron Cross",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ovo Fabergé",
+      "titulo": "en:Fabergé egg",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Mapa de Waldseemüller",
+      "titulo": "en:Waldseemüller map",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Carta-testamento de Getúlio Vargas",
+      "titulo": "pt:Carta-testamento de Getúlio Vargas",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Coroa Imperial do Estado (britânica)",
+      "titulo": "en:Imperial State Crown",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pedra do Sol asteca",
+      "titulo": "en:Aztec sun stone",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bandeira do Império Otomano",
+      "titulo": "en:Flag of the Ottoman Empire",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bill of Rights dos Estados Unidos",
+      "titulo": "en:United States Bill of Rights",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bandeira da Alemanha Oriental",
+      "titulo": "en:Flag of East Germany",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Código Napoleônico",
+      "titulo": "en:Napoleonic Code",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Navio Vasa",
+      "titulo": "en:Vasa (ship)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bandeira de Gadsden",
+      "titulo": "en:Gadsden flag",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mapa-múndi de Hereford",
+      "titulo": "en:Hereford Mappa Mundi",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Mapa T-O",
+      "titulo": "en:T and O map",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Mapa de Fra Mauro",
+      "titulo": "en:Fra Mauro map",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Carta Marina",
+      "titulo": "en:Carta marina",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mapa de Juan de la Cosa",
+      "titulo": "en:Juan de la Cosa map",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Globo de Behaim (Erdapfel)",
+      "titulo": "en:Erdapfel",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Édito de Nantes",
+      "titulo": "en:Edict of Nantes",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bill of Rights inglesa de 1689",
+      "titulo": "en:Bill of Rights 1689",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Domesday Book",
+      "titulo": "en:Domesday Book",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Bula Dourada de 1356",
+      "titulo": "en:Golden Bull of 1356",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Códice Leicester",
+      "titulo": "en:Codex Leicester",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Constituição brasileira de 1824",
+      "titulo": "pt:Constituição brasileira de 1824",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tratado de Madri (1750)",
+      "titulo": "en:Treaty of Madrid (1750)",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Coroa Imperial do Sacro Império Romano-Germânico",
+      "titulo": "en:Imperial Crown of the Holy Roman Empire",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Peças de xadrez de Lewis",
+      "titulo": "en:Lewis chessmen",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Códice Mendoza",
+      "titulo": "en:Codex Mendoza",
       "camada": 3,
       "destino": 0,
       "status": "nova"
