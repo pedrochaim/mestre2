@@ -1,0 +1,263 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Afresco inteiro da parede do altar, claro e sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem pintou este afresco, que cobre a parede do altar de uma famosa capela no Vaticano?",
+      "resposta": "Michelangelo",
+      "ancora": {
+        "nome": "O Juízo Final (Michelangelo)",
+        "descricao": "Afresco de Michelangelo na parede do altar da Capela Sistina, no Vaticano, pintado entre 1536 e 1541.",
+        "variantes": [
+          "Il Giudizio Universale",
+          "Juízo Final"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, reconhecível pelos cabelos de serpentes.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que personagem da mitologia grega este escudo pintado representa?",
+      "resposta": "Medusa",
+      "distratores": [
+        "Hidra de Lerna",
+        "Harpia",
+        "Esfinge"
+      ],
+      "ancora": {
+        "nome": "Medusa (Caravaggio)",
+        "descricao": "Pintura de Caravaggio, feita em um escudo, que mostra a cabeça decepada da Medusa; está na Galeria Uffizi, em Florença.",
+        "variantes": [
+          "Medusa de Caravaggio",
+          "Escudo com a cabeça da Medusa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Imagem nítida e sem texto; obra reconhecível. Troquei para quem_fez em múltipla escolha, pois que_tipo geraria resposta ambígua.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor holandês do século dezessete pintou esta cena doméstica?",
+      "resposta": "Johannes Vermeer",
+      "distratores": [
+        "Pieter de Hooch",
+        "Jan Steen",
+        "Gabriël Metsu"
+      ],
+      "ancora": {
+        "nome": "A Leiteira (Vermeer)",
+        "descricao": "Pintura a óleo de Johannes Vermeer, por volta de 1658, de uma criada despejando leite; está no Rijksmuseum, em Amsterdã.",
+        "variantes": [
+          "De melkmeid",
+          "The Milkmaid",
+          "A Criada de Cozinha"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara; assinatura quase ilegível e a pergunta é sobre o museu.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Paris fica este quadro?",
+      "resposta": "Museu d'Orsay",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu da Orangerie",
+        "Petit Palais"
+      ],
+      "ancora": {
+        "nome": "Olympia (Manet)",
+        "descricao": "Pintura de Édouard Manet, de 1863, de uma mulher nua reclinada numa cama, com uma criada; está no Museu d'Orsay.",
+        "variantes": [
+          "Olympia",
+          "Olímpia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara e sem texto, no estilo inconfundível de Turner. Troquei para quem_fez, pois a pergunta de época renderia resposta pouco interessante.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor britânico do século dezenove fez este quadro de um trem a vapor?",
+      "resposta": "J. M. W. Turner",
+      "distratores": [
+        "John Constable",
+        "Thomas Gainsborough",
+        "William Blake"
+      ],
+      "ancora": {
+        "nome": "Chuva, Vapor e Velocidade",
+        "descricao": "Pintura a óleo de J. M. W. Turner, exibida em 1844, que mostra um trem da Great Western Railway sobre uma ponte; está na National Gallery, em Londres.",
+        "variantes": [
+          "Rain, Steam and Speed",
+          "Chuva, Vapor e Velocidade – The Great Western Railway"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Imagem clara e sem texto, obra muito conhecida.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor espanhol pintou este quadro na parede da sua casa?",
+      "resposta": "Francisco Goya",
+      "ancora": {
+        "nome": "Saturno Devorando um Filho",
+        "descricao": "Pintura negra de Francisco Goya, feita entre 1820 e 1823, do titã Saturno devorando um de seus filhos; está no Museu do Prado.",
+        "variantes": [
+          "Saturno devorando a su hijo",
+          "Saturn Devouring His Son",
+          "Saturno devorando um filho"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem clara e sem texto que entregue o título.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que obra de Manet é esta?",
+      "resposta": "Um Bar no Folies-Bergère",
+      "distratores": [
+        "Almoço na Relva",
+        "O Pífaro",
+        "A Ferrovia"
+      ],
+      "ancora": {
+        "nome": "Um Bar no Folies-Bergère",
+        "descricao": "Última grande pintura de Édouard Manet, de 1882, que mostra uma garçonete diante de um espelho num cabaré de Paris; está na Courtauld Gallery, em Londres.",
+        "variantes": [
+          "A Bar at the Folies-Bergère",
+          "Un bar aux Folies Bergère",
+          "O Bar do Folies-Bergère"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara. Há assinatura pequena no canto, então evitei perguntar o autor e perguntei pelo museu.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Nova York fica este quadro?",
+      "resposta": "Museu de Arte Moderna (MoMA)",
+      "distratores": [
+        "Museu Metropolitano de Arte",
+        "Museu Guggenheim",
+        "Coleção Frick"
+      ],
+      "ancora": {
+        "nome": "A Cigana Adormecida",
+        "descricao": "Pintura naïf de Henri Rousseau, de 1897, de um leão diante de uma mulher adormecida numa noite de luar; está no MoMA, em Nova York.",
+        "variantes": [
+          "The Sleeping Gypsy",
+          "La Bohémienne endormie"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, obra emblemática.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade alemã fica este quadro de Rafael, famoso pelos dois anjinhos na parte de baixo?",
+      "resposta": "Dresden",
+      "ancora": {
+        "nome": "Madona Sistina",
+        "descricao": "Pintura a óleo de Rafael, de cerca de 1513, que mostra a Virgem com o Menino entre São Sisto e Santa Bárbara; está em Dresden.",
+        "variantes": [
+          "Madonna di San Sisto",
+          "Sistine Madonna",
+          "Madona de São Sisto"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto relevante (só número de catálogo minúsculo). Troquei para quem_fez, pois a época tem fronteira de século ambígua.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor fez este nu reclinado sobre almofadas verdes, no fim do século dezoito?",
+      "resposta": "Francisco Goya",
+      "distratores": [
+        "Diego Velázquez",
+        "Ticiano",
+        "Jean-Auguste-Dominique Ingres"
+      ],
+      "ancora": {
+        "nome": "A Maja Desnuda",
+        "descricao": "Pintura a óleo de Francisco Goya, de cerca de 1797–1800, de uma mulher nua reclinada; está no Museu do Prado, em Madri.",
+        "variantes": [
+          "La maja desnuda",
+          "A Maja Nua",
+          "The Naked Maja"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A imagem traz texto visível no canto superior esquerdo ('La Belle Féronnière / Léonard d'Avinci'), que entrega o autor e ainda confunde com outro quadro."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara; a assinatura 'Rembrandt f. 1632' é discreta e o título não aparece.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que quadro de Rembrandt é este?",
+      "resposta": "A Lição de Anatomia do Dr. Tulp",
+      "distratores": [
+        "A Ronda Noturna",
+        "A Noiva Judia",
+        "Os Síndicos dos Tecelões"
+      ],
+      "ancora": {
+        "nome": "A Lição de Anatomia do Dr. Tulp",
+        "descricao": "Pintura a óleo de Rembrandt, de 1632, que mostra o médico Nicolaes Tulp dissecando um braço diante de colegas; está no Mauritshuis, em Haia.",
+        "variantes": [
+          "The Anatomy Lesson of Dr. Nicolaes Tulp",
+          "A Lição de Anatomia do Dr. Nicolaes Tulp"
+        ]
+      }
+    }
+  ]
+}

@@ -69,9 +69,10 @@
     "esportes_tenis_01",
     "fig_monumentos_historicos_001",
     "fig_cenas_002",
-    "esportes_lutas_e_artes_marciais_01"
+    "esportes_lutas_e_artes_marciais_01",
+    "fig_pinturas_001"
   ],
-  "maior_id": 1985,
+  "maior_id": 1996,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -326,6 +327,18 @@
         "2": 4
       },
       "registradas": 9
+    },
+    "pinturas": {
+      "familias": {
+        "quem_fez": 5,
+        "o_que_e": 3,
+        "onde": 3
+      },
+      "niveis": {
+        "1": 3,
+        "2": 8
+      },
+      "registradas": 11
     }
   },
   "rendimento": {
