@@ -36131,5 +36131,671 @@
       "autor": "Autor desconhecido",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q02188",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "oceano_pacifico",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1520, Fernão de Magalhães chamou de Pacífico o oceano que atravessava. Por que escolheu esse nome?",
+    "resposta": "Pelas águas calmas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pacific_Ocean"
+    ]
+  },
+  {
+    "id": "q02189",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "mar_mediterraneo",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Vindo do latim, o que significa literalmente o nome do mar Mediterrâneo?",
+    "resposta": "No meio das terras",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mediterranean_Sea"
+    ]
+  },
+  {
+    "id": "q02190",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "fernando_de_noronha",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O arquipélago de Fernando de Noronha leva o nome de um comerciante de Lisboa que, no início do século dezesseis, arrendou da Coroa o comércio de qual madeira?",
+    "resposta": "Pau-brasil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fernando_de_Noronha",
+      "https://pt.wikipedia.org/wiki/Fernando_de_Noronha"
+    ]
+  },
+  {
+    "id": "q02191",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_de_pascoa",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome em português da ilha de Rapa Nui, no Pacífico, vem do dia em que o holandês Jacob Roggeveen chegou lá, em 1722. Que dia foi?",
+    "resposta": "Domingo de Páscoa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Easter_Island"
+    ]
+  },
+  {
+    "id": "q02192",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "groenlandia",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Segundo as sagas islandesas, por que Érico, o Vermelho, chamou de Terra Verde uma ilha quase toda coberta de gelo?",
+    "resposta": "Para atrair colonos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Greenland"
+    ]
+  },
+  {
+    "id": "q02193",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilhas_galapagos",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em espanhol antigo, a palavra que deu nome às ilhas Galápagos designava qual animal?",
+    "resposta": "Tartaruga",
+    "distratores": [
+      "Iguana",
+      "Lobo-marinho",
+      "Tentilhão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands"
+    ]
+  },
+  {
+    "id": "q02194",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilhas_malvinas",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome Malvinas deriva do francês e lembra marinheiros vindos de qual cidade portuária da França?",
+    "resposta": "Saint-Malo",
+    "distratores": [
+      "Marselha",
+      "Brest",
+      "Le Havre"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Falkland_Islands"
+    ]
+  },
+  {
+    "id": "q02195",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "arquipelago_de_abrolhos",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Segundo a explicação tradicional, o nome do arquipélago baiano de Abrolhos vem de qual alerta dado aos navegantes por causa dos recifes?",
+    "resposta": "Abre os olhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Abrolhos_Archipelago"
+    ]
+  },
+  {
+    "id": "q02196",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "canal_da_mancha",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Os franceses chamam o canal da Mancha de La Manche. O que significa essa palavra em francês?",
+    "resposta": "Manga",
+    "distratores": [
+      "Mancha",
+      "Braço",
+      "Passagem"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/English_Channel"
+    ]
+  },
+  {
+    "id": "q02197",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ponto_nemo",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O Ponto Nemo, o lugar do oceano mais distante de qualquer terra, homenageia um capitão de submarino criado por qual escritor?",
+    "resposta": "Júlio Verne",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Point_Nemo"
+    ]
+  },
+  {
+    "id": "q02198",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "mar_morto",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que uma pessoa consegue boiar quase sem esforço nas águas do mar Morto?",
+    "resposta": "Altíssima salinidade da água",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dead_Sea"
+    ]
+  },
+  {
+    "id": "q02199",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "krakatoa",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Depois da erupção do vulcão Krakatoa, em 1883, que fenômeno no céu chamou a atenção de pessoas em várias partes do mundo?",
+    "resposta": "Pores do sol muito vermelhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1883_eruption_of_Krakatoa"
+    ]
+  },
+  {
+    "id": "q02200",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "corrente_do_golfo",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A Corrente do Golfo leva águas quentes pelo Atlântico Norte. Ela ajuda a deixar mais amenos os invernos de qual região do mundo?",
+    "resposta": "Noroeste da Europa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gulf_Stream"
+    ]
+  },
+  {
+    "id": "q02201",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "branqueamento_de_corais",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No branqueamento, a água aquecida faz o coral expulsar quais algas microscópicas, que vivem nele e lhe dão cor e alimento?",
+    "resposta": "Zooxantelas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Branqueamento_do_coral",
+      "https://en.wikipedia.org/wiki/Coral_bleaching"
+    ]
+  },
+  {
+    "id": "q02202",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "atol",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a teoria proposta por Charles Darwin, um atol se forma quando o recife de coral continua crescendo ao redor de algo que afunda. O quê?",
+    "resposta": "Uma ilha vulcânica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atoll"
+    ]
+  },
+  {
+    "id": "q02203",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "islandia",
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "A Islândia tem tantos vulcões porque fica sobre qual estrutura geológica, onde duas placas tectônicas se afastam?",
+    "resposta": "Dorsal Mesoatlântica",
+    "distratores": [
+      "Círculo de Fogo",
+      "Falha de San Andreas",
+      "Fossa das Marianas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mid-Atlantic_Ridge",
+      "https://en.wikipedia.org/wiki/Iceland"
+    ]
+  },
+  {
+    "id": "q02204",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "arquipelago_do_havai",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "As ilhas do Havaí se formaram, uma após a outra, enquanto a placa do Pacífico se deslocava sobre o quê?",
+    "resposta": "Um ponto quente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hawaii_hotspot"
+    ]
+  },
+  {
+    "id": "q02205",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "canal_do_panama",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que os navios precisam subir por eclusas para atravessar o canal do Panamá?",
+    "resposta": "Para cruzar um lago elevado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Panama_Canal",
+      "https://en.wikipedia.org/wiki/Gatun_Lake"
+    ]
+  },
+  {
+    "id": "q02206",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_da_queimada_grande",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a visitação à ilha da Queimada Grande, no litoral paulista, é proibida ao público?",
+    "resposta": "Excesso de cobras venenosas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ilha_da_Queimada_Grande"
+    ]
+  },
+  {
+    "id": "q02207",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_grande",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Durante boa parte do século vinte, a Ilha Grande, no litoral fluminense, ficou longe do turismo porque abrigava o quê?",
+    "resposta": "Um presídio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ilha_Grande"
+    ]
+  },
+  {
+    "id": "q02208",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "elba",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a ilha italiana de Elba e a ilha de Santa Helena, no Atlântico Sul, têm em comum na história europeia?",
+    "resposta": "Foram exílios de Napoleão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elba",
+      "https://en.wikipedia.org/wiki/Saint_Helena"
+    ]
+  },
+  {
+    "id": "q02209",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "atol_de_bikini",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que um traje de banho de duas peças e um atol das ilhas Marshall usado em testes nucleares têm em comum?",
+    "resposta": "O nome biquíni",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bikini",
+      "https://en.wikipedia.org/wiki/Bikini_Atoll"
+    ]
+  },
+  {
+    "id": "q02210",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "java",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ligação existe entre a ilha indonésia de Java e uma famosa linguagem de programação?",
+    "resposta": "O nome, inspirado no café da ilha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Java_(programming_language)"
+    ]
+  },
+  {
+    "id": "q02211",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_robben",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que liga a ilha Robben, diante da Cidade do Cabo, ao líder sul-africano Nelson Mandela?",
+    "resposta": "Ele ficou preso lá",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Robben_Island"
+    ]
+  },
+  {
+    "id": "q02212",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_de_alcatraz",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que famoso gângster de Chicago, condenado por sonegação de impostos, cumpriu parte da pena na prisão da ilha de Alcatraz?",
+    "resposta": "Al Capone",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Al_Capone",
+      "https://en.wikipedia.org/wiki/Alcatraz_Island"
+    ]
+  },
+  {
+    "id": "q02213",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilhas_galapagos",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que naturalista inglês visitou as ilhas Galápagos em 1835, a bordo do navio Beagle?",
+    "resposta": "Charles Darwin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Second_voyage_of_HMS_Beagle",
+      "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Islands"
+    ]
+  },
+  {
+    "id": "q02214",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "lesbos",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Que poeta da Grécia Antiga, famosa por seus versos de amor, nasceu na ilha de Lesbos?",
+    "resposta": "Safo",
+    "distratores": [
+      "Hipátia",
+      "Aspásia",
+      "Corina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sappho"
+    ]
+  },
+  {
+    "id": "q02215",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "patmos",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Segundo a tradição cristã, qual livro da Bíblia foi escrito na ilha grega de Patmos?",
+    "resposta": "Apocalipse",
+    "distratores": [
+      "Gênesis",
+      "Atos dos Apóstolos",
+      "Evangelho de Mateus"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Patmos",
+      "https://en.wikipedia.org/wiki/Book_of_Revelation"
+    ]
+  },
+  {
+    "id": "q02216",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "taiti",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que pintor francês do fim do século dezenove se mudou para o Taiti e pintou muitas cenas das mulheres da ilha?",
+    "resposta": "Paul Gauguin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paul_Gauguin"
+    ]
+  },
+  {
+    "id": "q02217",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "creta",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Segundo a mitologia grega, em que ilha ficava o labirinto onde vivia o Minotauro?",
+    "resposta": "Creta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Minotaur"
+    ]
+  },
+  {
+    "id": "q02218",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "itaca",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na Odisseia de Homero, Ulisses passa dez anos tentando voltar para casa, onde reinava. Em que ilha?",
+    "resposta": "Ítaca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Odyssey"
+    ]
+  },
+  {
+    "id": "q02219",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "monte_etna",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Etna, um dos vulcões mais ativos da Europa, fica em qual ilha do Mediterrâneo?",
+    "resposta": "Sicília",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mount_Etna"
+    ]
+  },
+  {
+    "id": "q02220",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "atol_das_rocas",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Atol das Rocas, reserva biológica no Atlântico, pertence a qual estado brasileiro?",
+    "resposta": "Rio Grande do Norte",
+    "distratores": [
+      "Pernambuco",
+      "Ceará",
+      "Paraíba"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atol_das_Rocas"
+    ]
+  },
+  {
+    "id": "q02221",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "estreito_de_bering",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O estreito de Bering separa quais dois países, um na Ásia e o outro na América?",
+    "resposta": "Rússia e Estados Unidos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bering_Strait"
+    ]
+  },
+  {
+    "id": "q02222",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "canal_de_suez",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi inaugurado o canal de Suez, que liga o Mediterrâneo ao mar Vermelho?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Suez_Canal"
+    ]
+  },
+  {
+    "id": "q02223",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "canal_do_panama",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O canal do Panamá foi inaugurado no mesmo ano em que começou qual grande conflito mundial?",
+    "resposta": "Primeira Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Panama_Canal"
+    ]
+  },
+  {
+    "id": "q02224",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_fiscal",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O Baile da Ilha Fiscal, na baía de Guanabara, foi a última grande festa do Império. Ele aconteceu poucos dias antes de qual acontecimento?",
+    "resposta": "Proclamação da República",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Baile_da_Ilha_Fiscal"
+    ]
+  },
+  {
+    "id": "q02225",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "fossa_das_marianas",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 2012, que cineasta, diretor de Titanic, desceu sozinho num submersível até o fundo da Fossa das Marianas?",
+    "resposta": "James Cameron",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deepsea_Challenger"
+    ]
+  },
+  {
+    "id": "q02226",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "atlantida",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que filósofo grego narrou, nos diálogos Timeu e Crítias, a história da ilha de Atlântida, engolida pelo mar?",
+    "resposta": "Platão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atlantis"
+    ]
+  },
+  {
+    "id": "q02227",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "utopia",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que escritor inglês do século dezesseis imaginou uma ilha com uma sociedade perfeita e a chamou de Utopia?",
+    "resposta": "Thomas More",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Utopia_(book)"
+    ]
+  },
+  {
+    "id": "q02228",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "borneu",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "A ilha de Bornéu, no Sudeste Asiático, é dividida entre quantos países?",
+    "resposta": "Três",
+    "distratores": [
+      "Dois",
+      "Quatro",
+      "Cinco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Borneo"
+    ]
+  },
+  {
+    "id": "q02229",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "cabo_verde",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O arquipélago de Cabo Verde, país africano de língua portuguesa, é formado por quantas ilhas?",
+    "resposta": "Dez",
+    "distratores": [
+      "Sete",
+      "Nove",
+      "Doze"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cape_Verde"
+    ]
+  },
+  {
+    "id": "q02230",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "mar_caspio",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Apesar de ser chamado de mar, qual corpo de água entre a Europa e a Ásia é considerado o maior lago do mundo?",
+    "resposta": "Mar Cáspio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Caspian_Sea"
+    ]
+  },
+  {
+    "id": "q02231",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "ilha_de_marajo",
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Que ilha paraense, na foz do rio Amazonas, é considerada a maior ilha fluviomarinha do mundo?",
+    "resposta": "Ilha de Marajó",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ilha_de_Maraj%C3%B3",
+      "https://en.wikipedia.org/wiki/Maraj%C3%B3"
+    ]
+  },
+  {
+    "id": "q02232",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "hispaniola",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Quais dois países dividem a ilha de Hispaniola, no mar do Caribe?",
+    "resposta": "Haiti e República Dominicana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hispaniola"
+    ]
+  },
+  {
+    "id": "q02233",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "gra_bretanha",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A ilha da Grã-Bretanha abriga quais três nações que fazem parte do Reino Unido?",
+    "resposta": "Inglaterra, Escócia e País de Gales",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Britain"
+    ]
+  },
+  {
+    "id": "q02234",
+    "tema": "Geografia",
+    "subtema": "Oceanos, Mares e Ilhas",
+    "ancora": "mar_dos_sargacos",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O mar dos Sargaços, no Atlântico Norte, não banha nenhuma costa. O que define os seus limites?",
+    "resposta": "Correntes oceânicas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sargasso_Sea"
+    ]
   }
 ]

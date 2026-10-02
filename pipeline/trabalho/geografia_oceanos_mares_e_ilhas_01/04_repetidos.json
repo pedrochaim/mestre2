@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Por que uma pessoa consegue boiar quase sem esforço nas águas do mar Morto?",
+        "resposta": "Altíssima salinidade da água"
+      },
+      "existentes": [
+        {
+          "id": "q02138",
+          "pergunta": "Por que praticamente nenhum peixe consegue viver nas águas do Mar Morto, entre Israel e Jordânia?",
+          "resposta": "Altíssima concentração de sal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Depois da erupção do vulcão Krakatoa, em 1883, que fenômeno no céu chamou a atenção de pessoas em várias partes do mundo?",
+        "resposta": "Pores do sol muito vermelhos"
+      },
+      "existentes": [
+        {
+          "id": "q02078",
+          "pergunta": "Na erupção do Krakatoa, em 1883, a maior parte das dezenas de milhares de mortes foi causada por quê?",
+          "resposta": "Tsunamis"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre a flutuação das pessoas e a outra sobre a ausência de peixes. A causa é a mesma, a salinidade, mas os fatos perguntados são diferentes. Saber um não garante saber o outro."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Uma pergunta é sobre os pores do sol avermelhados e a outra sobre a causa das mortes. São fatos diferentes."
+    }
+  ]
+}
