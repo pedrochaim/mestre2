@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O que o naturalista Charles Darwin e o presidente americano Abraham Lincoln têm em comum?",
+        "resposta": "Nasceram no mesmo dia"
+      },
+      "existentes": [
+        {
+          "id": "q00866",
+          "pergunta": "Que naturalista é este?",
+          "resposta": "Charles Darwin"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta existente pede apenas a identificação de Darwin; a nova pergunta sobre o que Darwin e Lincoln têm em comum (nasceram no mesmo dia) é outro fato."
+    }
+  ]
+}
