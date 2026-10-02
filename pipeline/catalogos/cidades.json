@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Paris",
+      "titulo": "en:Paris",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nova York",
+      "titulo": "en:New York City",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Londres",
+      "titulo": "en:London",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Roma",
+      "titulo": "en:Rome",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dubai",
+      "titulo": "en:Dubai",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brasília",
+      "titulo": "en:Brasília",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "São Paulo",
+      "titulo": "en:São Paulo",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Las Vegas",
+      "titulo": "en:Las Vegas",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Jerusalém",
+      "titulo": "en:Jerusalem",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Barcelona",
+      "titulo": "en:Barcelona",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lisboa",
+      "titulo": "en:Lisbon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Moscou",
+      "titulo": "en:Moscow",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gramado",
+      "titulo": "pt:Gramado",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Amsterdã",
+      "titulo": "en:Amsterdam",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Singapura",
+      "titulo": "en:Singapore",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Xangai",
+      "titulo": "en:Shanghai",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Florença",
+      "titulo": "en:Florence",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chicago",
+      "titulo": "en:Chicago",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "São Francisco",
+      "titulo": "en:San Francisco",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Viena",
+      "titulo": "en:Vienna",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Budapeste",
+      "titulo": "en:Budapest",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Edimburgo",
+      "titulo": "en:Edinburgh",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Paraty",
+      "titulo": "en:Paraty",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Olinda",
+      "titulo": "en:Olinda",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dubrovnik",
+      "titulo": "en:Dubrovnik",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quioto",
+      "titulo": "en:Kyoto",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Florianópolis",
+      "titulo": "en:Florianópolis",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Hallstatt",
+      "titulo": "en:Hallstatt",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chefchaouen",
+      "titulo": "en:Chefchaouen",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Oia",
+      "titulo": "en:Oia, Greece",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rothenburg ob der Tauber",
+      "titulo": "en:Rothenburg ob der Tauber",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Colmar",
+      "titulo": "en:Colmar",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bruges",
+      "titulo": "en:Bruges",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Český Krumlov",
+      "titulo": "en:Český Krumlov",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tiradentes",
+      "titulo": "pt:Tiradentes (Minas Gerais)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirenópolis",
+      "titulo": "en:Pirenópolis",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "São Luís",
+      "titulo": "en:São Luís, Maranhão",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Valparaíso",
+      "titulo": "en:Valparaíso",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Positano",
+      "titulo": "en:Positano",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Guatapé",
+      "titulo": "en:Guatapé",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    }
+  ]
+}

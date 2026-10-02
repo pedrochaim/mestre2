@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arquiteto brasileiro foi o responsável pela maioria dos edifícios públicos desta cidade?",
+        "resposta": "Oscar Niemeyer"
+      },
+      "existentes": [
+        {
+          "id": "q00166",
+          "pergunta": "Brasília foi inaugurada em vinte e um de abril de 1960, data escolhida para homenagear qual personagem da história do Brasil?",
+          "resposta": "Tiradentes"
+        },
+        {
+          "id": "q00179",
+          "pergunta": "Oscar Niemeyer desenhou os prédios, mas quem projetou o traçado urbano de Brasília, conhecido como Plano Piloto?",
+          "resposta": "Lúcio Costa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova tem como resposta Oscar Niemeyer, o arquiteto dos edifícios de Brasília. A q00179 pergunta quem fez o Plano Piloto e a resposta é Lúcio Costa, então o fato é outro. A q00179 menciona Niemeyer no enunciado, mas isso só entrega a resposta da nova, não faz as duas perguntarem o mesmo fato. A q00166 trata da data da inauguração."
+    }
+  ]
+}

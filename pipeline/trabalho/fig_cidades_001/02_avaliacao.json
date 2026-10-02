@@ -1,0 +1,168 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Montagem de vistas de uma única cidade, sem texto; igreja de São Pedro e arquitetura de inspiração alemã reconhecíveis.",
+      "familia": "onde",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cidade da Serra Gaúcha é esta?",
+      "resposta": "Gramado",
+      "ancora": {
+        "nome": "Gramado",
+        "descricao": "Município turístico da Serra Gaúcha, no Rio Grande do Sul, conhecido pela arquitetura de influência alemã e italiana.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Ponte das Correntes e Basílica de Santo Estêvão, vista clara e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que cidade europeia é esta?",
+      "resposta": "Budapeste",
+      "distratores": [
+        "Viena",
+        "Praga",
+        "Bratislava"
+      ],
+      "ancora": {
+        "nome": "Budapeste",
+        "descricao": "Capital da Hungria, atravessada pelo rio Danúbio.",
+        "variantes": [
+          "Budapest"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Rua com igreja e jipes, sem o Peñón nem os zócalos; a cidade não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Vista aérea do centro, sem a Strip nem marcos; poderia ser qualquer cidade americana do deserto."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Igreja colonial caiada sem traço único; parecida com outras igrejas coloniais, resposta não única pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea do Eixo Monumental com fonte e plano urbano característico, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Que presidente inaugurou em 1960 esta cidade?",
+      "resposta": "Juscelino Kubitschek",
+      "ancora": {
+        "nome": "Brasília",
+        "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Horizonte genérico com prédios modernos; sem marco inconfundível, não reconhecível como Viena."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Encosta com casas sem marco claro; parecida com outras cidades de morros, não reconhecível."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Torre Spasskaya, Catedral de São Basílio e torre Ostankino, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Esta cidade é a capital de que país?",
+      "resposta": "Rússia",
+      "ancora": {
+        "nome": "Moscou",
+        "descricao": "Capital da Rússia, com o Kremlin e a Praça Vermelha.",
+        "variantes": [
+          "Moscow",
+          "Moscovo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista aérea com o castelo sobre a rocha, Princes Street e Arthur's Seat; reconhecível.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta cidade?",
+      "resposta": "Escócia",
+      "distratores": [
+        "Inglaterra",
+        "Irlanda",
+        "País de Gales"
+      ],
+      "ancora": {
+        "nome": "Edimburgo",
+        "descricao": "Capital da Escócia, com castelo sobre uma rocha vulcânica.",
+        "variantes": [
+          "Edinburgh"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Casa brancas e azuis em encosta de montanha, característica da cidade; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que cidade marroquina é esta?",
+      "resposta": "Chefchaouen",
+      "ancora": {
+        "nome": "Chefchaouen",
+        "descricao": "Cidade do noroeste do Marrocos, conhecida como Cidade Azul.",
+        "variantes": [
+          "Xexuão",
+          "Chaouen"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cúpula da Rocha e Mesquita de Al-Aqsa com muralha da Cidade Velha, inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Jerusalém",
+      "distratores": [
+        "Istambul",
+        "Damasco",
+        "Cairo"
+      ],
+      "ancora": {
+        "nome": "Jerusalém",
+        "descricao": "Cidade sagrada para judeus, cristãos e muçulmanos, no Levante, com a Cúpula da Rocha.",
+        "variantes": [
+          "Jerusalem"
+        ]
+      }
+    }
+  ]
+}
