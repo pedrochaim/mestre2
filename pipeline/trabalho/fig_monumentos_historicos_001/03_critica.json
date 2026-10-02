@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia a entidade; a resposta vem do reconhecimento da imagem e é sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O apogeu no período Clássico vale para a maioria das cidades maias (Palenque, Copán, Calakmul), então a figura é enfeite e a resposta não é específica de Tikal. Troquei por uma pergunta de lugar que só se responde reconhecendo a cidade.",
+      "reescrita": {
+        "pergunta": "Esta antiga cidade maia, em ruínas no meio da floresta, fica em que país?",
+        "resposta": "Guatemala",
+        "distratores": [
+          "México",
+          "Belize",
+          "Honduras"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1. 'Gótica' não entrega o nome e os trechos confirmam o estilo.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O distrator 'El Castillo, em Chichén Itzá' tem 5 palavras, acima do limite de 4. O resto está correto.",
+      "reescrita": {
+        "pergunta": "Que pirâmide mesoamericana é esta?",
+        "resposta": "Pirâmide do Sol",
+        "distratores": [
+          "Pirâmide de Cholula",
+          "El Castillo",
+          "Templo das Inscrições"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Persépolis foi construída pelo Império Aquemênida. Os distratores são impérios iranianos ou mesopotâmicos críveis, com até 4 palavras, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A fonte foi concluída em 1762, no século dezoito, e é barroca. Os distratores são plausíveis e incorretos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bezzi foi contratado em 1884. A obra começou em 1885 e o museu abriu em 1895, o que confirma 'fim do século dezenove'. O enunciado não nomeia o edifício nem entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Deir el-Bahari' entrega o templo sem olhar a figura. 'Escavado' também é impreciso, porque o templo foi construído (os terraços sobem até os penhascos). A resposta com 'mortuário' repete uma palavra que o enunciado poderia conter. Tirei a pista de lugar e simplifiquei a resposta.",
+      "reescrita": {
+        "pergunta": "Que templo egípcio do Novo Reino, em três terraços, é este?",
+        "resposta": "Templo de Hatshepsut"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a Muralha fica na China. A pergunta é simples, mas correta, com resposta única e distratores plausíveis e curtos.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Moais em fileira sobre um ahu, imagem clara, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estátuas de pedra são estas?",
+      "resposta": "Moais",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Moais da Ilha de Páscoa",
+        "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+        "variantes": [
+          "Moai",
+          "Estátuas da Ilha de Páscoa"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra a inscrição legível 'Entry to the Traitors Gate', que denuncia o monumento; texto visível na imagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Templo I de Tikal e a Grande Praça, reconhecível e sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Esta cidade maia atingiu seu apogeu em qual período?",
+      "resposta": "Período Clássico",
+      "distratores": [
+        "Período Pré-Clássico",
+        "Período Pós-Clássico",
+        "Período Colonial"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Tikal",
+        "descricao": "Antiga cidade maia em ruínas na floresta do Petén, na Guatemala.",
+        "variantes": [
+          "Yax Mutal",
+          "Tik'al"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada frontal inconfundível, sem texto; pessoas pequenas e distantes.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que catedral gótica é esta?",
+      "resposta": "Notre-Dame de Paris",
+      "distratores": [],
+      "destino": 6,
+      "ancora": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+        "variantes": [
+          "Notre-Dame",
+          "Notre Dame de Paris"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Pirâmide do Sol vista de Teotihuacan, reconhecível; turistas pequenos e distantes.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pirâmide mesoamericana é esta?",
+      "resposta": "Pirâmide do Sol",
+      "distratores": [
+        "Pirâmide de Cholula",
+        "El Castillo, em Chichén Itzá",
+        "Templo das Inscrições"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Pirâmide do Sol (Teotihuacan)",
+        "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+        "variantes": [
+          "Pirâmide do Sol",
+          "Pyramid of the Sun"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Portão de Todas as Nações e colunas de Persépolis, claros e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que império construiu este complexo de ruínas?",
+      "resposta": "Império Aquemênida",
+      "distratores": [
+        "Império Sassânida",
+        "Império Neoassírio",
+        "Império Neobabilônico"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Persépolis",
+        "descricao": "Capital cerimonial em ruínas do Império Aquemênida, na província de Fars, no Irã.",
+        "variantes": [
+          "Takht-e Jamshid",
+          "Parseh"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fachada frontal da Fontana di Trevi, nítida; inscrição em latim não entrega a resposta.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi concluída esta fonte barroca?",
+      "resposta": "Século dezoito",
+      "distratores": [
+        "Século dezessete",
+        "Século dezesseis",
+        "Século dezenove"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Fontana di Trevi",
+        "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+        "variantes": [
+          "Fonte de Trevi",
+          "Trevi Fountain"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vista frontal do Museu do Ipiranga, nítida e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto italiano projetou este edifício, construído no fim do século dezenove?",
+      "resposta": "Tommaso Gaudenzio Bezzi",
+      "distratores": [],
+      "destino": 8,
+      "ancora": {
+        "nome": "Museu do Ipiranga",
+        "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+        "variantes": [
+          "Museu Paulista",
+          "Museu Paulista da USP"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vista aérea clara dos terraços do templo de Deir el-Bahari, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que templo egípcio é este, escavado junto aos penhascos de Deir el-Bahari?",
+      "resposta": "Templo mortuário de Hatshepsut",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Templo de Hatshepsut",
+        "descricao": "Templo mortuário em três terraços da faraó Hatshepsut, em Deir el-Bahari, perto de Luxor.",
+        "variantes": [
+          "Templo mortuário de Hatshepsut",
+          "Deir el-Bahari"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Trecho da Grande Muralha com torre de vigia, claro e sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta construção?",
+      "resposta": "China",
+      "distratores": [
+        "Mongólia",
+        "Japão",
+        "Coreia do Sul"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Muralha da China",
+        "descricao": "Série de fortificações construídas ao longo da fronteira norte da China antiga e imperial.",
+        "variantes": [
+          "Grande Muralha da China",
+          "Great Wall of China"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Interior de colunas e paredes com hieróglifos, sem visão geral; pode ser confundido com outros templos egípcios como Luxor ou Ramesseu, resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Escavação desorganizada, com pouca estrutura reconhecível; sem os pilares em T característicos em destaque, não é reconhecível pela imagem."
+    }
+  ]
+}

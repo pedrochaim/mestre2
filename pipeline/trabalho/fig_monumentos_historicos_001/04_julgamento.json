@@ -1,0 +1,544 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Moais da Ilha de Páscoa",
+        "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+        "variantes": [
+          "Moai",
+          "Estátuas da Ilha de Páscoa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "ocapi",
+          "nome": "Ocapi",
+          "descricao": "Mamífero das florestas do Congo com listras nas pernas, espécie Okapia johnstoni.",
+          "variantes": [
+            "Okapi",
+            "Okapia johnstoni"
+          ]
+        },
+        {
+          "id": "umami",
+          "nome": "Umami",
+          "descricao": "Quinto gosto básico, associado ao glutamato, identificado por Kikunae Ikeda em 1908.",
+          "variantes": [
+            "Gosto umami"
+          ]
+        },
+        {
+          "id": "emoji",
+          "nome": "Emoji",
+          "descricao": "Pictogramas usados em mensagens digitais, surgidos nos celulares japoneses no fim dos anos noventa.",
+          "variantes": [
+            "Emojis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tikal",
+        "descricao": "Antiga cidade maia em ruínas na floresta do Petén, na Guatemala.",
+        "variantes": [
+          "Yax Mutal",
+          "Tik'al"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rick_allen",
+          "nome": "Rick Allen",
+          "descricao": "Baterista britânico da banda de hard rock Def Leppard",
+          "variantes": []
+        },
+        {
+          "id": "rambuta",
+          "nome": "Rambutã",
+          "descricao": "Fruto tropical do Sudeste Asiático (Nephelium lappaceum), de casca vermelha coberta de espinhos moles.",
+          "variantes": [
+            "Rambutão",
+            "Rambutan"
+          ]
+        },
+        {
+          "id": "jeu_de_paume",
+          "nome": "Jeu de paume",
+          "descricao": "Jogo de bola francês, ancestral do tênis, jogado originalmente com a mão e depois com raquete em quadras fechadas.",
+          "variantes": [
+            "Jogo da pela",
+            "Real tennis",
+            "Tênis real"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "natal",
+          "nome": "Natal",
+          "descricao": "Capital do Rio Grande do Norte, que abrigou uma grande base aérea aliada na Segunda Guerra Mundial.",
+          "variantes": [
+            "Natal (Rio Grande do Norte)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Catedral de Notre-Dame de Paris",
+        "descricao": "Catedral gótica medieval na Île de la Cité, em Paris.",
+        "variantes": [
+          "Notre-Dame",
+          "Notre Dame de Paris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hakeem_olajuwon",
+          "nome": "Hakeem Olajuwon",
+          "descricao": "Pivô nigeriano bicampeão da NBA pelo Houston Rockets nos anos 1990.",
+          "variantes": [
+            "Akeem Olajuwon",
+            "The Dream"
+          ]
+        },
+        {
+          "id": "trem_das_onze",
+          "nome": "Trem das Onze",
+          "descricao": "Samba de Adoniran Barbosa lançado em 1964, popularizado pelos Demônios da Garoa.",
+          "variantes": []
+        },
+        {
+          "id": "rede_de_dormir",
+          "nome": "Rede de dormir",
+          "descricao": "Leito de tecido ou fibras suspenso entre dois pontos, de origem indígena americana.",
+          "variantes": [
+            "Hammock",
+            "Hamaca"
+          ]
+        },
+        {
+          "id": "copas_naipe",
+          "nome": "Copas (naipe)",
+          "descricao": "Naipe vermelho do baralho representado por corações, cujo nome em português vem do naipe de taças do baralho latino.",
+          "variantes": [
+            "Hearts",
+            "Naipe de copas"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pirâmide do Sol (Teotihuacan)",
+        "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+        "variantes": [
+          "Pirâmide do Sol",
+          "Pyramid of the Sun"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        },
+        {
+          "id": "cidade_do_cabo",
+          "nome": "Cidade do Cabo",
+          "descricao": "Cidade portuária da África do Sul, ao pé da Montanha da Mesa.",
+          "variantes": [
+            "Cape Town"
+          ]
+        },
+        {
+          "id": "eclipse_solar",
+          "nome": "Eclipse solar",
+          "descricao": "Fenômeno em que a Lua passa entre a Terra e o Sol e encobre o Sol total ou parcialmente.",
+          "variantes": [
+            "Eclipse do Sol"
+          ]
+        },
+        {
+          "id": "game_of_thrones",
+          "nome": "Game of Thrones",
+          "descricao": "Série de fantasia da HBO, exibida de 2011 a 2019, sobre a disputa pelo Trono de Ferro em Westeros.",
+          "variantes": [
+            "A Guerra dos Tronos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Persépolis",
+        "descricao": "Capital cerimonial em ruínas do Império Aquemênida, na província de Fars, no Irã.",
+        "variantes": [
+          "Takht-e Jamshid",
+          "Parseh"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "persepolis",
+          "nome": "Persépolis",
+          "descricao": "Romance gráfico autobiográfico sobre uma infância no Irã, publicado na França a partir de 2000",
+          "variantes": []
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura"
+          ]
+        },
+        {
+          "id": "paella",
+          "nome": "Paella",
+          "descricao": "Prato espanhol de arroz com açafrão, originário da região de Valência",
+          "variantes": [
+            "Paelha"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Fontana di Trevi",
+        "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+        "variantes": [
+          "Fonte de Trevi",
+          "Trevi Fountain"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "just_fontaine",
+          "nome": "Just Fontaine",
+          "descricao": "Atacante francês nascido no Marrocos, artilheiro da Copa do Mundo de 1958.",
+          "variantes": [
+            "Justo Fontaine"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis"
+          ]
+        },
+        {
+          "id": "fondue",
+          "nome": "Fondue",
+          "descricao": "Prato suíço de queijo e vinho derretidos numa panela comum, no qual se mergulham pão e outros alimentos.",
+          "variantes": [
+            "Fondue de queijo"
+          ]
+        },
+        {
+          "id": "mestre_vitalino",
+          "nome": "Mestre Vitalino",
+          "descricao": "Vitalino Pereira dos Santos, artesão pernambucano famoso por seus bonecos de barro que retratam o cotidiano nordestino.",
+          "variantes": [
+            "Vitalino Pereira dos Santos"
+          ]
+        },
+        {
+          "id": "cesta_de_tres_pontos",
+          "nome": "Cesta de três pontos",
+          "descricao": "Arremesso feito de trás de uma linha distante do aro, que vale três pontos.",
+          "variantes": [
+            "Linha de três pontos",
+            "Three-point field goal",
+            "Bola de três"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Museu do Ipiranga",
+        "descricao": "Museu Paulista da USP, edifício monumental em São Paulo próximo ao local do grito da Independência.",
+        "variantes": [
+          "Museu Paulista",
+          "Museu Paulista da USP"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "hino_nacional_brasileiro",
+          "nome": "Hino Nacional Brasileiro",
+          "descricao": "Hino oficial do Brasil, com música de Francisco Manuel da Silva e letra de Joaquim Osório Duque-Estrada",
+          "variantes": [
+            "Ouviram do Ipiranga"
+          ]
+        },
+        {
+          "id": "truco",
+          "nome": "Truco",
+          "descricao": "Jogo de cartas de blefe, muito popular no Brasil, jogado com baralho sem oitos, noves e dez.",
+          "variantes": [
+            "Truco mineiro",
+            "Truco paulista",
+            "Truque"
+          ]
+        },
+        {
+          "id": "riacho_do_ipiranga",
+          "nome": "Riacho do Ipiranga",
+          "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+          "variantes": [
+            "Ribeirão do Ipiranga",
+            "Rio Ipiranga"
+          ]
+        },
+        {
+          "id": "uzbequistao",
+          "nome": "Uzbequistão",
+          "descricao": "País da Ásia Central cuja capital é Tashkent.",
+          "variantes": [
+            "Uzbekistan",
+            "Usbequistão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Templo de Hatshepsut",
+        "descricao": "Templo mortuário em três terraços da faraó Hatshepsut, em Deir el-Bahari, perto de Luxor.",
+        "variantes": [
+          "Templo mortuário de Hatshepsut",
+          "Deir el-Bahari"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hatshepsut",
+          "nome": "Hatshepsut",
+          "descricao": "Rainha da décima oitava dinastia que governou o Egito como faraó no século quinze antes de Cristo",
+          "variantes": [
+            "Hatchepsut",
+            "Hatshepsowe"
+          ]
+        },
+        {
+          "id": "abu_simbel",
+          "nome": "Abu Simbel",
+          "descricao": "Par de templos escavados na rocha por ordem de Ramsés II, no sul do Egito, junto ao Lago Nasser",
+          "variantes": [
+            "Templos de Abu Simbel",
+            "Abu Simbel temples"
+          ]
+        },
+        {
+          "id": "bandeira_de_brunei",
+          "nome": "Bandeira de Brunei",
+          "descricao": "Bandeira nacional de Brunei, amarela com faixas diagonais branca e preta e emblema vermelho com crescente e mãos.",
+          "variantes": [
+            "Brunei",
+            "Bandeira de Brunei Darussalam"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Muralha da China",
+        "descricao": "Série de fortificações construídas ao longo da fronteira norte da China antiga e imperial.",
+        "variantes": [
+          "Grande Muralha da China",
+          "Great Wall of China"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "revolta_da_vacina",
+          "nome": "Revolta da Vacina",
+          "descricao": "Motim popular ocorrido no Rio de Janeiro em novembro de 1904 contra a vacinação obrigatória.",
+          "variantes": [
+            "Vaccine Revolt"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "pau_brasil",
+          "nome": "Pau-brasil",
+          "descricao": "Árvore nativa da Mata Atlântica, cuja madeira avermelhada foi o primeiro produto explorado pelos portugueses no Brasil.",
+          "variantes": [
+            "Paubrasilia echinata",
+            "Caesalpinia echinata",
+            "ibirapitanga"
+          ]
+        },
+        {
+          "id": "a_grande_onda_de_kanagawa",
+          "nome": "A Grande Onda de Kanagawa",
+          "descricao": "Xilogravura de Katsushika Hokusai, de cerca de 1831.",
+          "variantes": [
+            "The Great Wave off Kanagawa"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é os moais."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tikal."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a catedral."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Chichén Itzá é outro sítio; nenhuma candidata é a Pirâmide do Sol."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A candidata persepolis é o romance gráfico, não a cidade antiga."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Fontana di Trevi."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O riacho é diferente do museu; nenhuma candidata é o museu."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Hatshepsut é a pessoa; o templo é entidade diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Muralha da China."
+    }
+  ]
+}
