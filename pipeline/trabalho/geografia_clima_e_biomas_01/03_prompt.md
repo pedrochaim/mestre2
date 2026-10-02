@@ -1,0 +1,1754 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Clima e Biomas** (tema **Geografia**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Caatinga",
+      "descricao": "Bioma semiárido do sertão nordestino brasileiro"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Caatinga, nome do bioma do sertão nordestino, vem do tupi e descreve a paisagem na seca. O que esse nome significa?",
+    "resposta": "Mata branca",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Caatinga"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caatinga",
+        "situacao": "ok",
+        "texto": "Caatinga (do tupi: ka'a [mata] + ting [branco] + -a [sufixo substantivador] = mata branca) é o único bioma brasileiro exclusivamente dentro do território nacional, o que significa que grande parte do seu patrimônio biológico não pode ser encontrado em nenhum outro país do planeta. Seu nome decorre da alusão à paisagem esbranquiçada apresentada pela vegetação durante o período seco. A maioria das p\n[…]\nDeste modo, ka'a + ting pode ser traduzido como mata branca, ou, mais precisamente, como mata clara. A tradução mata branca, contudo, não está errada, pois em português brasileiro a palavra \"branco\" nem sempre tem sentido literal (fala-se em vinho branco, ou pessoa branca).\n[…]\nCaatinga alta\n[…]\nMata seca (= Floresta Estacional Decídua Montana, ou Floresta Tropical Caducifólia)\n[…]\nA caatinga apresenta vegetação típica de regiões semiáridas com perda de folhagem pela vegetação durante a estação seca. Anteriormente acreditava-se que a caatinga seria o resultado da degradação de formações vegetais mais exuberantes, como a Mata Atlântica ou a Floresta Amazônica.\n[…]\nAtualmente, a Caatinga ainda conta com vários povos indígenas, sendo o maior deles, os Potyguaras, de origem Tupi e também nativos da Mata Atlântica, somando mais de 20 mil indígenas. No interior, os maiores grupos são os Xukurus e Pankarus, da caatinga pernambucana, totalizando 12 mil e 7 mil indígenas respectivamente, provavelmente são de origem Macro-Jê.\n[…]\nA principal causa apontada é o uso da mata para abastecer siderúrgicas de Minas Gerais e Espírito Santo e indústrias de gesso e cerâmica do semiárido. Os dois estados com maior incidência de desmatamento deste tipo de bioma são Bahia e Ceará. A caatinga perdeu 45% da área original. Estes números conferem à caatinga a condição de ecossistema menos preservado e um dos mais degradados conforme o biólogo Guilherme Fister explicou em um recente estudo realizado na Universidade de Oxford."
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Caatinga",
+      "descricao": "Bioma semiárido do sertão nordestino brasileiro"
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual bioma brasileiro existe apenas dentro do território do Brasil?",
+    "resposta": "Caatinga",
+    "distratores": [
+      "Pantanal",
+      "Cerrado",
+      "Pampa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Caatinga"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Caatinga",
+        "situacao": "ok",
+        "texto": "Caatinga (do tupi: ka'a [mata] + ting [branco] + -a [sufixo substantivador] = mata branca) é o único bioma brasileiro exclusivamente dentro do território nacional, o que significa que grande parte do seu patrimônio biológico não pode ser encontrado em nenhum outro país do planeta. Seu nome decorre da alusão à paisagem esbranquiçada apresentada pela vegetação durante o período seco. A maioria das p\n[…]\nCaatinga alta\n[…]\nRaso da Catarina: localiza-se no centro-leste do bioma. Caracteriza-se pela caatinga arbustiva de areia muito densa.\n[…]\nO bioma, foi ocupado por dois grandes grupos indígenas: Os Macro-Jês e os Kariris, estes grupos estão na Caatinga a pelo menos dois mil anos. Existem poucos registros coloniais e estudos que expliquem a relação ou origem dos primeiros indígenas que habitaram a Caatinga. Além desses, outro grupo de origem misteriosa são os povos Tremembés, do litoral. Após o século XI, os povos tupis, originários da Amazônia Central, chegaram na região, vieram do sudeste brasileiro, subindo pelo litoral.\n[…]\nAlguns povos extintos que habitaram a Caatinga são os tokarijús, karatiús, panatis, icós, icózinhos, guanacés, aconguaçús e outros. Na defesa de seus territórios, os indígenas protagonizaram grandes conflitos na história brasileira como a Confederação dos Cariris, resistindo aos avanços lusitanos.\n[…]\nEm 2010, no primeiro monitoramento já realizado sobre o bioma, constatou-se que a caatinga perde por ano e de forma pulverizada uma área de sua vegetação nativa equivalente a duas vezes a cidade de São Paulo. A área desmatada equivale aos territórios dos estados do Maranhão e do Rio de Janeiro somados. O desmatamento da caatinga é equivalente ao da Amazônia, bioma cinco vezes maior. De acordo com o Ministério do Meio Ambiente, resta 53,62% da cobertura vegetal original.\n[…]\nCaatinga fluminense\n[…]\nAs aves da Caatinga - Associação Mãe-da-lua\n[…]\nONG Associação Caatinga\n[…]\nCaatinga - WWF Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Pampa",
+      "descricao": "Bioma de campos e planícies do sul do Brasil, do Uruguai e do nordeste da Argentina"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Pampa, nome do bioma de campos do Rio Grande do Sul, vem do quíchua, uma língua indígena dos Andes. O que a palavra significa?",
+    "resposta": "Planície",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pampas",
+      "https://pt.wikipedia.org/wiki/Pampa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pampas",
+        "situacao": "ok",
+        "texto": "The Pampas (; from Quechua pampa 'plain'), also known as the Pampas Plains, are fertile low grasslands in southern  South America that cover more than 1,200,000 km2 (460,000 sq mi) and include the Argentine provinces of Buenos Aires, La Pampa, Santa Fe, Entre Ríos, and Córdoba; all of Uruguay; and Brazil's southernmost state, Rio Grande do Sul.\n[…]\nWhy the pristine pampas were treeless regions has been much debated. Perhaps the most commonly cited explanation is seasonal drought. A related hypothesis is that grass roots compete for water and exclude tree seedlings. The effect might be increased by heavy, clayed soils which limit tap root penetration. Other causes that have been proposed are fires set by indigenous peoples for land clearance; the existence of heavy-bodied herbivores; and that the pampas are relicts of drier past climates.\n[…]\nThe World Wildlife Fund divides the Pampas into three distinct ecoregions. The Uruguayan Savanna lies east of the Paraná River, and includes all of Uruguay, most of Entre Ríos and Corrientes provinces in Argentina, and the southern portion of Brazil's state of Rio Grande do Sul. The Humid Pampas include eastern Buenos Aires Province, and southern Entre Ríos Province. The Semiarid Pampas includes western Buenos Aires Province and adjacent portions of Santa Fe, Córdoba, and La Pampa provinces.\n[…]\nThe lonco Calfucurá crossed the Andes from Chile to the Pampas around 1830. In 1859, Calfucurá attacked Bahía Blanca in Argentina with 3,000 warriors. In 1872, Calfucurá and his 6,000 warriors went across the Pampas to attack the cities of General Alvear, Veinticinco de Mayo and Nueve de Julio. After this, Argentina organized its forces to launch what it called the Conquest of the Desert.\n[…]\nDry Pampa\n[…]\nHumid Pampas\n[…]\nLuis Ángel Firpo – the \"Wild Bull of Las Pampas\"\n[…]\n\"The Pampas\" in the Encyclopædia Britannica"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pampa",
+        "situacao": "ok",
+        "texto": "O Pampa é uma região natural e pastoril de planícies com coxilhas cobertas por campos localizada no sul da América do Sul. Geograficamente abrange a metade meridional do estado brasileiro do Rio Grande do Sul (ocupando cerca de 69% do território do estado), o Uruguai e as províncias argentinas de Buenos Aires, La Pampa, Santa Fé, Córdoba, Entre Ríos e Corrientes.\n[…]\nNo âmbito brasileiro, os pampas podem ser designados com o termo regionalista campanha gaúcha. Quando em conjunto com os campos do planalto meridional (abrangendo regiões do norte do Rio Grande do Sul, Santa Catarina e Paraná, incluindo os Campos de Cima da Serra e os Campos Gerais do Paraná), são chamados campos do sul ou campos sulinos.\n[…]\n\"Pampa\" originou-se do vocábulo pampa, de origem aimará e quéchua, que significa \"planície\". \"Campos\" é oriundo do termo latino campv, campus. \"Campanha\" é oriundo do termo latino tardio campania, que possui também o significado de planície.\n[…]\nPor conta do Pampa ser composto principalmente por planícies, isso torna muito conveniente a utilização delas para a pecuária extensiva, que é uma das principais atividades econômicas hoje em dia no Pampa, em que se cria especialmente ovelhas e bois.\n[…]\nII. Os campos do Rio Grande, ou região campestre (e mattinha)\n[…]\nLindman descreve também algumas formações que ocorrem nas orlas do Rio Grande do Sul: ao norte, campos cerrados (hadrodryades pyknophyllae); a oeste, esteros (pantanaes), palmares (parques de Copernicia) e espinales; ao sul e sudoeste: pampas de diversos tipos).\n[…]\nCampos do Rio Grande do Sul, segundo Boldrini et al. (2010):\n[…]\nCampos do bioma Pampa (“campos do Uruguai e sul do Brasil”)\n[…]\nClassificação dos Campos Sulinos do Brasil, com base em dados quantitativos da vegetação coletados em amostras padronizadas, segundo Andrade et al. (2018):\n[…]\nCampos mésicos dos Pampas (Tipo B)\n[…]\nCampos úmidos dos Pampas (Tipo C)"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Pampa",
+      "descricao": "Bioma de campos e planícies do sul do Brasil, do Uruguai e do nordeste da Argentina"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Além do Brasil e da Argentina, em que país o bioma Pampa cobre quase todo o território?",
+    "resposta": "Uruguai",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pampas",
+      "https://pt.wikipedia.org/wiki/Pampa"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pampas",
+        "situacao": "ok",
+        "texto": "The Pampas (; from Quechua pampa 'plain'), also known as the Pampas Plains, are fertile low grasslands in southern  South America that cover more than 1,200,000 km2 (460,000 sq mi) and include the Argentine provinces of Buenos Aires, La Pampa, Santa Fe, Entre Ríos, and Córdoba; all of Uruguay; and Brazil's southernmost state, Rio Grande do Sul.\n[…]\nThis region has generally low elevations, whose highest levels generally do not exceed 600 metres (2,000 ft) in altitude. The coastal areas and most of the Buenos Aires Province are predominantly plain (with some wetlands) and the interior areas (mainly in the southern part of the Brazilian state of Rio Grande do Sul and Uruguay) have low ranges of hills (like Serras de Sudeste in Brazil and Cuchilla Grande in Uruguay).\n[…]\nWinters are generally mild, but cold waves often occur. Typical temperatures range from 12 to 19 °C (54 to 66 °F) during the day, and from 1 to 6 °C (34 to 43 °F) at night. With strong northerly winds, days of over 25 °C (77 °F) can be recorded almost everywhere, and during cold waves, high temperatures can be only 6 °C (43 °F). Frost occurs everywhere in the Pampas, but it is much more frequent in the southwest than around the Parana and Uruguay Rivers.\n[…]\nThe World Wildlife Fund divides the Pampas into three distinct ecoregions. The Uruguayan Savanna lies east of the Paraná River, and includes all of Uruguay, most of Entre Ríos and Corrientes provinces in Argentina, and the southern portion of Brazil's state of Rio Grande do Sul. The Humid Pampas include eastern Buenos Aires Province, and southern Entre Ríos Province. The Semiarid Pampas includes western Buenos Aires Province and adjacent portions of Santa Fe, Córdoba, and La Pampa provinces.\n[…]\nHumid Pampas\n[…]\nLuis Ángel Firpo – the \"Wild Bull of Las Pampas\"\n[…]\nUruguayan savanna\n[…]\n\"The Pampas\" in the Encyclopædia Britannica"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pampa",
+        "situacao": "ok",
+        "texto": "O Pampa é uma região natural e pastoril de planícies com coxilhas cobertas por campos localizada no sul da América do Sul. Geograficamente abrange a metade meridional do estado brasileiro do Rio Grande do Sul (ocupando cerca de 69% do território do estado), o Uruguai e as províncias argentinas de Buenos Aires, La Pampa, Santa Fé, Córdoba, Entre Ríos e Corrientes.\n[…]\nNo âmbito brasileiro, os pampas podem ser designados com o termo regionalista campanha gaúcha. Quando em conjunto com os campos do planalto meridional (abrangendo regiões do norte do Rio Grande do Sul, Santa Catarina e Paraná, incluindo os Campos de Cima da Serra e os Campos Gerais do Paraná), são chamados campos do sul ou campos sulinos.\n[…]\nA respeito dos obstáculos, há primeiramente o desmatamento, em que as monoculturas de soja e arroz tem um importante papel nisso. O Pampa é o segundo bioma com maior índice de desmatamento no país, tendo percentual entre 43,7% e 54%. Em que aqui ao lado pode-se observar um gráfico do Instituto Nacional de Pesquisas Espaciais, mostrando na coloração amarela a área de desmatamento do bioma no Brasil.\n[…]\nCampos do curso médio do rio Uruguay\n[…]\nDistrito Uruguaiense\n[…]\nCampos do bioma Mata Atlântica (“campos do Brasil Central”, situados no norte do Estado e que tem continuidade em Santa Catarina e Paraná)\n[…]\nCampos do bioma Pampa (“campos do Uruguai e sul do Brasil”)\n[…]\n2.Campos de solos rasos, na região sudoeste do estado (Campanha Sudoeste), fronteira com o Uruguai e Argentina, sobre Neossolos Litólicos\n[…]\n3.Campos de solos profundos, no sudoeste do estado (região da Campanha Meridional) na fronteira com o Uruguai, sobre solos diversos, especialmente Chernossolos, Vertissolos e Planossolos\n[…]\nClassificação dos Campos Sulinos do Brasil, com base em dados quantitativos da vegetação coletados em amostras padronizadas, segundo Andrade et al. (2018):\n[…]\nGeografia do Uruguai"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Monção",
+      "descricao": "Regime sazonal de ventos que inverte de direção e traz chuvas fortes ao sul da Ásia"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A monção, regime de ventos que traz chuvas torrenciais à Índia, tem nome de origem árabe. O que essa palavra árabe significa?",
+    "resposta": "Estação do ano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monsoon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monsoon",
+        "situacao": "ok",
+        "texto": "A monsoon () is traditionally a seasonal reversing wind accompanied by corresponding changes in precipitation, but now used to describe seasonal changes in atmospheric circulation and precipitation associated with annual latitudinal oscillation of the Intertropical Convergence Zone, specifically between its limits to the north and south of the equator.\n[…]\nAround September, with the sun retreating south, the northern landmass of the Indian subcontinent begins to cool off rapidly, and air pressure begins to build over northern India. The Indian Ocean and its surrounding atmosphere still hold their heat, causing cold wind to sweep down from the Himalayas and Indo-Gangetic Plain towards the vast spans of the Indian Ocean south of the Deccan peninsula. This is known as the Northeast Monsoon or Retreating Monsoon.\n[…]\nWhile travelling towards the Indian Ocean, the cold dry wind picks up some moisture from the Bay of Bengal and pours it over peninsular India and parts of Sri Lanka. Cities like Chennai, which get less rain from the Southwest Monsoon, receive rain from this Monsoon. About 50% to 60% of the rain received by the state of Tamil Nadu is from the Northeast Monsoon. In Southern Asia, the northeastern monsoons take place from October to December when the surface high-pressure system is strongest.\n[…]\nThe jet stream in this region splits into the southern subtropical jet and the polar jet. The subtropical flow directs northeasterly winds to blow across southern Asia, creating dry air streams which produce clear skies over India. Meanwhile, a low pressure system known as a monsoon trough develops over South-East Asia and Australasia and winds are directed toward Australia. In the Philippines, northeast monsoon is called Amihan.\n[…]\nTropical monsoon climate\n[…]\nNorth American monsoon\n[…]\n\"Arizona Monsoon Basics Page\". Pepper Ridge North Valley's."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mon%C3%A7%C3%A3o",
+        "situacao": "ok",
+        "texto": "Monção (do árabe: موسم [mausim], estação) é a designação dada aos ventos sazonais, em geral associados à alternância entre a estação das chuvas e a estação seca, que ocorrem em grandes áreas das regiões costeiras tropicais e subtropicais. A palavra tem a sua origem na monção do oceano Índico e sudeste da Ásia, onde o fenómeno é particularmente intenso.\n[…]\nA palavra também é usada como nome da estação climática na qual os ventos sopram de sudoeste na Índia e países próximos e que é caracterizada por chuva intensa.\n[…]\nA palavra monção teve a sua origem na designação dada pelos antigos marinheiros árabes do noroeste do oceano Índico e do mar Arábico às periódicas mudanças de direcção do vento que ocorrem ao largo das costas do subcontinente indiano e da Península Arábica, especialmente no mar Arábico, no golfo Pérsico e no noroeste do Índico, onde o vento sopra desde o sudoeste uma metade do ano e desde o nordeste durante a outra metade.\n[…]\nNa realidade, os materiais geológicos que constituem os solos têm uma capacidade térmica relativamente baixa quando comparada com a da água, a que acresce o facto da variação de temperatura em geral não se propagar em cada estação do ano para além do 1 a 1,5 m abaixo da superfície.\n[…]\nLogo, a quantidade de calor que em cada estação quente é absorvida e acumulada nas águas do mar e é incomparavelmente maior do que a que acumulada em terra. Como consequência, as zonas terrestres aquecem com muito maior rapidez durante a estação quente, mas também arrefecem com ainda maior rapidez durante a estação fria.\n[…]\nNo subcontinente indiano, onde a presença da cordilheira dos Himalaia cria condições excelentes para a formação da monção, esta começa pelo sudoeste, na costa de Kerala, na Índia, geralmente na primeira quinzena de Junho. A monção de noroeste em Tamil Nadu começa habitualmente em Outubro.\n[…]\nClima da Índia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "El Niño",
+      "descricao": "Fenômeno de aquecimento anormal das águas do Oceano Pacífico equatorial"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O aquecimento do Pacífico chamado El Niño ganhou esse nome de pescadores peruanos por aparecer perto do Natal. A quem o nome se refere?",
+    "resposta": "Menino Jesus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/El_Niño"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/El_Niño",
+        "situacao": "ok",
+        "texto": "El Niño–Southern Oscillation (ENSO) is a global climate phenomenon that emerges from variation in winds and sea surface temperatures over the tropical Pacific Ocean. Those variations have an irregular pattern but do have some appearance of cycles. The occurrence of ENSO is not easily predictable. It affects the climate of much of the tropics and subtropics, and has links (teleconnections) to highe\n[…]\nThe Pacific Marine Environmental Laboratory attributes the first large-scale coral bleaching event in 1997–1998 to the warming waters of the concurrent El Niño event with possible contribution from anthropogenic climate change.\n[…]\nENSO is linked to rainfall over Puerto Rico. During an El Niño, snowfall is greater than average across the southern Rockies and Sierra Nevada mountain range, and is well-below normal across the Upper Midwest and Great Lakes states. During a La Niña, snowfall is above normal across the Pacific Northwest and western Great Lakes.\n[…]\nTo the north across Alaska, La Niña events lead to drier than normal conditions, while El Niño events do not have a correlation towards dry or wet conditions. During El Niño events, increased precipitation is expected in California due to a more southerly, zonal, storm track. During La Niña, increased precipitation is diverted into the Pacific Northwest due to a more northerly storm track.\n[…]\nBecause El Niño's warm pool feeds thunderstorms above, it creates increased rainfall across the east-central and eastern Pacific Ocean, including several portions of the South American west coast. The effects of El Niño in South America are direct and stronger than in North America. An El Niño is associated with warm and very wet weather months in April–October along the coasts of northern Peru and Ecuador, causing major flooding whenever the event is strong or extreme.\n[…]\n2015 Pacific hurricane season\n[…]\n2023–2024 El Niño event\n[…]\n2026–2027 El Niño event"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/El_Ni%C3%B1o-Oscila%C3%A7%C3%A3o_do_Sul",
+        "situacao": "ok",
+        "texto": "O El Niño-Oscilação do Sul, ENOS ou ENSO (inglês), é um padrão climático que consiste na oscilação dos parâmetros meteorológicos do Pacífico equatorial a cada certo número de anos. Apresenta duas fases opostas, uma de aquecimento e chuvas no Pacífico oriental conhecido como o fenómeno de el Niño e a outra fase de arrefecimento chamado La Nina.\n[…]\nJacob Bjerknes postulou em 1969 que o El Niño está normalmente relacionado com a Oscilação do Sul, já que está presente uma relação física entre a fase de alta pressão anómala no Pacífico ocidental, com a fase de aquecimento pouco frequente do Pacífico oriental, o que vai acompanhado com um debilitamento dos ventos alísios do leste; pelo que a baixa pressão do Pacífico ocidental se vincula com um arrefecimento do Pacífico oriental (fenómeno do El Niña), com o fortalecimento dos ventos do leste.\n[…]\nNiño 1+2: É o somatório das regiões Niño 1 e Niño 2.\n[…]\nO padrão ENOS, ao tratar de uma oscilação entre a pressão atmosférica entre o Pacífico oriental e o ocidental, manifesta-se principalmente em variações importantes da temperatura nas diferentes regiões Niño; podendo produzir-se alguns dos seguintes eventos:\n[…]\nEventos globais: O padrão ENOS global, também chamado ENOS tradicional ou canónico, implica que um evento ocorre em todas as regiões Niño (1, 2, 3 e 4) pelo que afecta a temperatura do Pacífico equatorial central, mas em especial o oriental, pelo que também se lhe chama ENOS do Pacífico oriental (EP-ENSO em inglês).\n[…]\nEstes eventos costeiros não estariam directamente relacionados com a Oscilação do Sul, no entanto, um evento costeiro costuma apresentar ao início ou ao final de um evento global; por exemplo, el niño costeiro de 1925 precedeu ao el niño global de 1925-26, enquanto o Niño costeiro de 2017 sucedeu ao el niño global de 2014-16.\n[…]\nEvento El Niño de 1997–98",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Ártico",
+      "descricao": "Região polar ao redor do Polo Norte"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra Ártico vem do grego e faz referência a um animal que aparece numa constelação do céu do norte. Que animal?",
+    "resposta": "Urso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arctic"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Arctic",
+        "situacao": "ok",
+        "texto": "The Arctic (; from Ancient Greek  ἄρκτος (árktos) 'bear') is the polar region of Earth that surrounds the North Pole, lying north of the Arctic Circle.\n[…]\nHerbivores on the tundra include the Arctic hare, lemming, muskox, and reindeer (caribou). They are preyed on by the snowy owl, Arctic fox, grizzly bear, and Arctic wolf. The polar bear is also a predator, though it prefers to hunt for marine life from the ice. There are also many birds (some 200 species breed in the Arctic) and marine species endemic to the colder regions. Other terrestrial animals include wolverines, moose, Dall sheep, ermines, and Arctic ground squirrels.\n[…]\nThe Arctic contains some of the last and most extensive continuous wilderness areas in the world, and its significance in preserving biodiversity and genotypes is considerable. The increasing presence of humans fragments vital habitats. The Arctic is particularly susceptible to the abrasion of groundcover and to the disturbance of the rare breeding grounds of the animals that are characteristic of the region. The Arctic also holds 1/5 of the Earth's water supply.\n[…]\nDuring the Cretaceous period, the Arctic still had seasonal snows, though only a light dusting and not enough to permanently hinder plant growth. Animals such as the Chasmosaurus, Hypacrosaurus, Troodon, and Edmontosaurus may have all migrated north to take advantage of the summer growing season, and migrated south to warmer climes when winter came. A similar situation may also have been found amongst dinosaurs that lived in Antarctic regions, such as the Muttaburrasaurus of Australia.\n[…]\nBlossoming Arctic\n[…]\nInternational Arctic Research Center"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%81rtico",
+        "situacao": "ok",
+        "texto": "O Ártico (AO 1945: Árctico), ou Região Ártica (AO 1945: Região Árctica), é geralmente definido como a região do Hemisfério Norte circunscrita pela linha onde a temperatura média do mês mais quente é inferior a 10 ℃. A linha isotérmica delimitando esta região coincide aproximadamente com a linha das árvores ártica. A outra definição aponta o Ártico como sendo aquela zona circunscrita pelo Círculo P\n[…]\nDurante o inverno a área toda é coberta pelo gelo e a temperatura média pode atingir -40 ℃. A temperatura mais elevada alguma vez registada durante o verão foi de 38 ℃, em junho de 2020. A tundra é a vegetação principal, mas nas áreas mais aquecidas pode se encontrar salgueiros e bétulas. A vida animal é pobre no tocante ao número de espécies, existindo, por exemplo, ursos-polares, focas árcticas, raposas-do-Ártico e bois-almiscarados. Os países da zona têm disputado os recursos da região.\n[…]\nO adjetivo ártico tem origem no termo grego ἀρκτικός (árktikós), \"relativo a urso, árctico\" e este da palavra ἄρκτος (arktos), que significa urso. O nome refere-se ou à constelação da Ursa Maior, a \"Grande Ursa\", que é proeminente na porção setentrional da esfera celeste, ou à constelação da Ursa Menor, a \"Pequena Ursa\", que contém Polaris, a Estrela Polar.\n[…]\nOs insetos estão entre os grupos animais cuja vida é mais difícil no Ártico, seus corpos diminutos perdem calor rapidamente, e são encontradas poucas centenas de espécies. O Ártico tem um significativo número de espécies endêmicas. São típicas do Ártico espécies como o urso-polar, a raposa-do-ártico, várias espécies de foca, o boi-almiscarado, o elefante-marinho, a rena e baleias.\n[…]\nAo longo de todo o ano o Ártico irradia mais calor do que recebe, e a maior parte do seu calor vem dos trópicos através da circulação atmosférica e marítima. A Escandinávia é a região ártica mais quente devido à influência da Corrente do Golfo.\n[…]\nOceano Ártico",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Mistral",
+      "descricao": "Vento frio e forte que sopra do norte pelo vale do Ródano até o Mediterrâneo, no sul da França"
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O mistral, vento frio e forte do sul da França, tem um nome occitano. O que ele significa?",
+    "resposta": "Magistral",
+    "distratores": [
+      "Gelado",
+      "Assobiador",
+      "Vindo do norte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mistral_(wind)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mistral_(wind)",
+        "situacao": "ok",
+        "texto": "The mistral (French: [mistʁal]; Catalan: mestral; Corsican: maestrale; Croatian: maestral; Greek: μαΐστρος; Italian: maestrale; Maltese: majjistral) is a strong, cold, northwesterly wind that blows from southern France into the Gulf of Lion in the northern Mediterranean. It produces sustained winds averaging 50 km/h (30 mph), sometimes reaching 100 km/h (60 mph). It can last for several days.\n[…]\nThe name mistral comes from the Languedoc dialect of the Occitan and means 'masterly'. The same wind is called mistrau in the Provençal variant of Occitan, mestral in Catalan, maestrale in Italian and Corsican, maistràle or bentu maestru in Sardinian, and majjistral in Maltese.\n[…]\nThis is similar to a foehn wind, but unlike a foehn wind the descent in altitude does not significantly warm the mistral. The causes and characteristics of the mistral are very similar to those of the Tramontane, another wind of the French Mediterranean region.\n[…]\nFrequently, the mistral will affect only one part of the region.\n[…]\nThe mas (farmhouse) traditionally faces south, with its back to the mistral. The bell towers of villages in Provence are often open iron frameworks, which allow the wind to pass through. The traditional Provençal Nativity scene usually includes a figure of a shepherd holding his hat, with his cloak blowing in the mistral.\n[…]\nIn his letters to his brother Theo and others, Van Gogh frequently mentioned the Mistral and its effects on both his artistic process and mental state. He described it as both artistically inspiring and physically exhausting, writing:\n[…]\n\"The wind in this country—especially the Mistral—is something one has to wrestle with, but it does create the most beautiful effects in the wheatfields, with the movement and changing light.\"\n[…]\nBugatti Mistral - open-top supercar named after the wind\n[…]\nUS Navy Marine Meteorology - Mediterranean Mistral Tutorial"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mistral",
+        "situacao": "ok",
+        "texto": "O Mistral é um vento catabático (da palavra grega katabatikos que significa \"descendo colinas\") é o nome técnico de \"drainage wind\", um vento que transporta ar de alta densidade de uma elevação descendo a encosta devido à ação da gravidade.\n[…]\nEstes ventos são por vezes chamados \"ventos de Outono\". O Mistral se caracteriza por ser um vento seco e frio dos quadrantes do norte que sopra no sul da França. Faz-se sentir entre esta região, as Baleares e a Córsega.\n[…]\nO nome Mistral é utilizado em diversas marcas em todo o mundo. A origem do nome, contudo, é Francesa, ou mais precisamente provençal.\n[…]\nNo sul da França, o nome vem do dialeto Languedoc dos Occitanos e significa \"magistral\". O mesmo vento é chamado \"Mistrau\" na variante Provença da língua occitana, \"mestral\", em Catalão, \"maestrale\" em Italiano e Corso, \"maistràle\" ou \"maestru\" na Sardenha e \"majjistral\" em Maltês.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Chinook",
+      "descricao": "Vento quente e seco que desce as encostas leste das Montanhas Rochosas, na América do Norte"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O chinook, vento quente e seco das Montanhas Rochosas, pode acabar com o inverno em poucas horas. Que apelido ele recebeu?",
+    "resposta": "Comedor de neve",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chinook_wind"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chinook_wind",
+        "situacao": "ok",
+        "texto": "Chinook winds, or simply chinooks, are two types of prevailing warm, generally westerly winds in western North America: Coastal Chinooks and interior Chinooks. The coastal Chinooks are persistent seasonal, wet, southwesterly winds blowing in from the ocean. The interior Chinooks are occasional warm, dry föhn winds blowing down the eastern sides of interior mountain ranges.\n[…]\nThe reference to  \"a Chinook\" wind or weather system originally meant, to euro-American settlers along the Pacific Northwest coast, a warming wind from the ocean blowing into the interior regions of the Pacific Northwest of the North America.\n[…]\nThe interior Chinook is a föhn wind, a rain shadow wind which results from the subsequent adiabatic warming of air which has dropped most of its moisture on windward slopes (orographic lift). As a consequence of the different adiabatic rates of moist and dry air, the air on the leeward slopes becomes warmer than equivalent elevations on the windward slopes.\n[…]\nQuite often, when the Pacific Northwest coast is being drenched by rain, the windward (western) side of the Rockies is being hammered by snow (robbing the air of its moisture), and the leeward (eastern) side of the Rockies in Alberta is basking in a föhn Chinook. The three different weather conditions are all caused by the same flow of air, hence the confusion over the use of the name \"Chinook wind\".\n[…]\nThe resulting outflow wind is more or less the opposite of British Columbia / Pacific Northwest coastal Chinook. These are called a squamish in certain areas, rooted in the direction of such winds coming down out of Howe Sound, home to the Squamish people, and in Alaska are called a williwaw. They consist of cold airstreams from the continental air mass pouring out of the interior plateau via certain river valleys and canyons penetrating the Coast Mountains towards the coast."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chinook_%28vento%29",
+        "situacao": "ok",
+        "texto": "Os ventos Chinook, ou simplesmente os Chinooks, são os ventos föhn no interior do oeste da América do Norte, onde as pradarias canadenses e as Grandes Planícies encontram várias cordilheiras, embora o uso original seja em referência aos ventos litorais úmidos e quentes do Noroeste Pacífico.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Sahel",
+      "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara"
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Para os árabes, que viam o Saara como um mar de areia, o nome Sahel, dado à faixa ao sul do deserto, significava o quê?",
+    "resposta": "Litoral",
+    "distratores": [
+      "Capim seco",
+      "Terra do sol",
+      "Areia vermelha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sahel"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sahel",
+        "situacao": "ok",
+        "texto": "The Sahel region (; from Arabic  ساحل sāḥil [ˈsaːħil], \"coast, shore\"), or Sahelian acacia savanna, is a biogeographical region in Africa. It is the transition zone between the more humid Sudanian savannas to its south and the drier Sahara to the north. The Sahel has a hot semi-arid climate and stretches across the southernmost latitudes of North Africa between the Atlantic Ocean and the Red Sea. \n[…]\nThe Sahel has a hot semi-arid climate (Köppen climate classification BSh). The climate is typically hot, sunny, dry and somewhat windy all year long. The climate is similar to, but less extreme than, the climate of the Sahara desert located just to the north.\n[…]\nA major initiative to combat desertification in the Sahel region via reforestation and other interventions is the Great Green Wall.Major dust storms are a frequent occurrence. During November 2004 several such storms hit Chad, originating in the Bodélé Depression. This is a common area for dust storms, occurring on average on 100 days every year. On 23 March 2010, a major sandstorm hit Mauritania, Senegal, The Gambia, Guinea-Bissau, Guinea, and inland Sierra Leone.\n[…]\nAccording to Kubik, \"the vocal style of many blues singers using melisma, wavy intonation, and so forth is a heritage of that large region of The Western Sahel that had been in contact with the Islamic world via the Maghreb since the seventh and eighth centuries.\" There was particularly a significant trans-Saharan cross-fertilization between the musical traditions of the Maghreb and the Sahel.\n[…]\nAround 4000 BC, the climate of the Sahara and the Sahel started to become drier at an exceedingly fast pace. This climate change caused lakes and rivers to shrink significantly and caused increasing desertification. This in turn decreased the amount of land conducive to settlements and caused migrations of farming communities to the more humid climate of West Africa."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sahel",
+        "situacao": "ok",
+        "texto": "O Sahel ou Sael (do árabe ساحل, translit. sahil: 'borda' ou 'margem') é uma faixa de 500 a 700 km de largura, em média, e 5 400 km de extensão, entre o deserto do Saara, ao norte, e a savana do Sudão, ao sul; e entre o oceano Atlântico, a oeste, e ao mar Vermelho, a leste.\n[…]\nTrata-se de uma região fitogeográfica dominada por vegetação de estepes, que recebe uma precipitação entre 150 e 300 mm por ano. Pode-se, portanto pensar que a agricultura no Sahel está condenada ao fracasso. No entanto, a região é protegida por um cinturão verde constituído por uma flora altamente diversificada, que a protege dos ventos do Saara. Por outro lado, o Sahel tem sido atingido por longos períodos de seca.\n[…]\nAo longo da história da África, o Sahel assistiu à sucessão de alguns dos mais avançados reinos africanos, que beneficiaram do comércio através do deserto, conhecidos como reinos sahelianos.\n[…]\nGuerra do Sahel\n[…]\nDai, A.; Lamb, P.J.; Trenberth, K.E.; Hulme, M.; Jones, P.D.; Xie, P. (2004). «The recent Sahel drought is real» (PDF). International Journal of Climatology. 24 (11): 1323–1331. Bibcode:2004IJCli..24.1323D. doi:10.1002/joc.1083 .\n[…]\nThe Growing Crisis in Africa's Sahel Region: Joint Hearing before the Subcommittee on Africa, Global Health, Global Human Rights, and International Organizations and the Subcommittee on the Middle East and North Africa and the Subcommittee on Terrorism, Nonproliferation and Trade of the Committee in Foreign Affairs, House of Representatives, One Hundred Thirteenth Congress, First Session, May 21, 2013\n[…]\nSimon, L., A. Mattelaer and A. Hadfield (2012) \"A Coherent EU Strategy for the Sahel\". Brussels: European Parliament (DG for External Policies).\n[…]\n«Sahel rainfall index, 1898 – 2002»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Chuvas de manga",
+      "descricao": "Chuvas que antecedem a monção no sul da Índia e ajudam a amadurecer as mangas"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Índia, as chuvas que chegam antes das monções e ajudam a amadurecer uma fruta recebem o nome dessa fruta. Que fruta?",
+    "resposta": "Manga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mango_showers"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mango_showers",
+        "situacao": "ok",
+        "texto": "Mango showers is  a colloquial term to describe the occurrence of pre-monsoon rainfall in March-May. Sometimes, these rains are referred to generically as ‘April rains’ or ‘Summer showers’. They are notable across much of South and Southeast Asia, including India, and Cambodia. In southern Asia, these rains greatly influence human activities because of the control the rains have on crops that are \n[…]\nThese rains normally occur from March to April, although their arrival is often difficult to predict. Their intensity can range from light showers to heavy and persistent thunderstorms. In India, the mango showers occur as the result of thunderstorm development over the Bay of Bengal. They are also known as 'Kaal Baisakhi' in Bengal, as Bordoisila in Assam and as Cherry Blossom showers or Coffee Showers in Karnataka.\n[…]\nTowards the close of summer, pre-monsoon showers are common, especially in Kerala, Karnataka and parts of Tamil Nadu in India. They help in the early ripening of mangoes and are hence often referred to as \"Mango showers.\""
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Taiga",
+      "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A taiga também é chamada de floresta boreal. Esse adjetivo vem do nome de que deus grego dos ventos?",
+    "resposta": "Bóreas",
+    "fonte": [
+      "https://en.wiktionary.org/wiki/boreal",
+      "https://pt.wikipedia.org/wiki/Bóreas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wiktionary.org/wiki/boreal",
+        "situacao": "ok",
+        "texto": "Borrowed from Latin boreālis ( “ northern ” ) , from Boreās , from Ancient Greek Βορέᾱς ( Boréās , “ personification of the north wind ” ) .\n[…]\n“ boreal ”, in Gran Diccionari de la Llengua Catalana , Grup Enciclopèdia Catalana , 2026\n[…]\n“boreal” in Diccionari normatiu valencià , Acadèmia Valenciana de la Llengua .\n[…]\nAlcover, Antoni Maria ; Moll, Francesc de Borja ( 1963 ), “ boreal ”, in Diccionari català-valencià-balear (in Catalan)\n[…]\nboreal ( strong nominative masculine singular borealer , not comparable )\n[…]\nPositive forms of boreal ( uncomparable )\n[…]\nBorrowed from Latin boreālis ( “ northern ” ) , from Boreās , from Ancient Greek Βορέᾱς ( Boréās , “ personification of the north wind ” ) .\n[…]\n“ boreal ”, in Dicionário Aulete Digital (in Portuguese), Rio de Janeiro: Lexikon Editora Digital, 2008– 2026\n[…]\n“ boreal ”, in Dicionário Priberam da Língua Portuguesa (in Portuguese), Lisbon: Priberam, 2008– 2026\n[…]\nBorrowed from French boréal , Latin boreālis ( “ northern ” ) , from Boreās , from Ancient Greek Βορέᾱς ( Boréās , “ personification of the north wind ” ) .\n[…]\nboreal   m or n ( feminine singular boreală , masculine plural boreali , feminine/neuter plural boreale )\n[…]\nBorrowed from Latin boreālis ( “ northern ” ) , from Boreās , from Ancient Greek Βορέᾱς ( Boréās , “ personification of the north wind ” ) .\n[…]\nboreal   m or f ( masculine and feminine plural boreales )\n[…]\n“ boreal ”, in Diccionario de la lengua española [ Dictionary of the Spanish Language ] (in Spanish), online version 23.8.1, Royal Spanish Academy [Spanish: Real Academia Española ], 15 December 2025\n[…]\nRetrieved from \" https://en.wiktionary.org/w/index.php?title=boreal&oldid=93124490 \""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bóreas",
+        "situacao": "ok",
+        "texto": "Bóreas ou Boreas (em grego: Βορέας), na mitologia grega, é o vento do norte que trazia o inverno ou devorador, e, de acordo com Hesíodo, filho de Astreu e Eos, e irmão de Héspero, Euro, Zéfiro e Noto. Ele mora em uma caverna no Monte Haemon, na Trácia. Nas lendas da Ática, ele raptou Orítia, filha de Erecteu, com quem teve vários filhos, dentre os quais os Boréades, Zetes e Calais, Quione a deusa \n[…]\nBóreas era muito forte e tinha um violento caráter. Com frequência era representado como um idoso alado com cabelo e barbas longas vestindo uma túnica de nuvens. Para os romanos era o deus Aquilo. Os gregos achavam que seu lar estava em Trácia e descrevem uma terra ao norte chamada Hiperbórea que significa \"para além de Bóreas\". Nessa terra, as pessoas viviam em completa felicidade até idades extraordinariamente longas.\n[…]\nQuando Atenas foi ameaçada pelos persas, os atenienses clamaram por Bóreas que lançou ventos fortes fazendo afundar 400 barcos persas. Por isso, os atenienses construiram um altar dedicado a Boreas junto ao Rio Iliso.\n[…]\nQuando viu sua amante perto do estranho deus, Bóreas foi acometido de um acesso furioso de ciúme. Não se contendo, soprou com tal impetuosidade que a ninfa Pítis caiu no precipício despedaçando-se sobre as pedras. Consternado, Pã transformou o corpo de Pítis em um pinheiro. Pítis significa em grego, pinheiro. A árvore foi consagrada a Pã, que passou a andar com a cabeça coroada de pinheiros e Bóreas perdeu para sempre seu grande amor.\n[…]\nO mito de Bóreas está relacionado aos temperamentos fortes. O temperamento forte pode ser um ponto positivo, como os dos grandes aventureiros, artistas, empreendedores, revolucionários que mudaram o mundo com suas excepcionais descobertas. Também pode ser um ponto negativo, como os dos boêmios, malandros, abusadores de drogas, jogadores e viciados em adrenalina."
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Taiga",
+      "descricao": "Floresta boreal de coníferas que cobre o norte da Eurásia e da América do Norte"
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que grupo de árvores domina a paisagem da taiga, a vasta floresta do norte da Rússia e do Canadá?",
+    "resposta": "Coníferas",
+    "distratores": [
+      "Palmeiras",
+      "Eucaliptos",
+      "Carvalhos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taiga"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taiga",
+        "situacao": "ok",
+        "texto": "Taiga or tayga (, TY-gə; Russian: тайга́, IPA: [tɐjˈɡa]), also known as boreal forest or snow forest, is a biome characterized by coniferous forests consisting mostly of pines, spruces, and larches.\n[…]\nIn Canada, Scandinavia and Finland, the boreal forest is usually divided into three subzones: The high boreal (northern boreal/taiga zone), the middle boreal (closed forest), and the southern boreal, a closed-canopy, boreal forest with some scattered temperate, deciduous trees among the conifers. Commonly seen are species such as maple, elm and oak. This southern boreal forest experiences the longest and warmest growing season of the biome.\n[…]\nThe forests of the taiga are largely coniferous, dominated by larch, spruce, fir and pine.\n[…]\nConiferous trees are the dominant plants of the taiga biome. Very few species, in four main genera, are found: the evergreen spruce, fir and pine, and the deciduous larch. In North America, one or two species of fir, and one or two species of spruce, are dominant. Across Scandinavia and western Russia, the Scots pine is a common component of the taiga, while taiga of the Russian Far East and Mongolia is dominated by larch.\n[…]\nWhile the majority of studies on boreal forest transitions have been done in Canada, similar trends have been detected in the other countries. Summer warming has been shown to increase water stress and reduce tree growth in dry areas of the southern boreal forest in central Alaska and portions of far eastern Russia. In Siberia, the taiga is converting from predominantly needle-shedding larch trees to evergreen conifers in response to a warming climate.\n[…]\nIndex of Boreal Forests/Taiga ecoregions at bioimages.Vanderbilt.edu"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Taiga",
+        "situacao": "ok",
+        "texto": "A taiga (do russo тайга́), também conhecida por floresta de coníferas, ou ainda floresta boreal, é um bioma predominante das regiões localizadas em elevadas latitudes cujo clima típico é o continental frio e polar, comumente encontrado no norte do Alasca, Canadá, sul da Groenlândia, parte da Noruega, Suécia, Finlândia, Sibéria e Japão.\n[…]\nNo Canadá, usa-se o termo floresta boreal para designar a parte meridional desse bioma, e o termo taiga é usado para designar as áreas menos arborizadas ao sul da linha de vegetação arbórea do Ártico.\n[…]\nNa taiga, diferente da tundra, o solo descongela por completo no verão permitindo a formação de florestas aciculifoliadas e há migração de animais de grande e médio portes. É uma região biogeográfica subártica setentrional e seca, na qual as formas de vida vegetal principais são larícios, abetos, pinheiros e espruces, que estão adaptadas ao clima frio. Também ocorrem algumas árvores de folha larga, nomeadamente vidoeiros, faias, salgueiros e sorveiras.\n[…]\nOs pauis e as plantas a eles associadas também são comuns nesta zona, que ocupa a maior parte do interior do Canadá e do norte da Rússia.\n[…]\nA vegetação é pouco diversificada devido às baixas temperaturas registradas (a água do solo encontra-se congelada), sendo constituída sobretudo por coníferas - abetos (como o Abeto do Norte) e pinheiros (como o Pinheiro silvestre), cujas folhas aciculares e cobertas por uma película cerosa as ajudam a conservar a humidade e o calor durante a estação fria. Outra conífera que também pode aparecer é o Larício europeu de folha caduca - Lárice.\n[…]\nLocalização da taiga: zona temperada do norte e zona Antártida, com altas latitudes (60 a 80 graus);\n[…]\nOcorrência da floresta: Alasca, Canadá, sul da Groenlândia, parte da Noruega, Suécia, Finlândia, Sibéria e Japão.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Quarenta rugidores",
+      "descricao": "Faixa de fortes ventos de oeste do hemisfério sul, conhecida dos navegadores"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os navegadores chamam de quarenta rugidores os ventos fortíssimos do hemisfério sul. A que se refere o número quarenta?",
+    "resposta": "À latitude",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roaring_Forties"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Roaring_Forties",
+        "situacao": "ok",
+        "texto": "The Roaring Forties are strong westerly winds that occur in the Southern Hemisphere, generally between the latitudes of 40° and 50° south. The strong eastward air currents are caused by the combination of warm air being displaced upward from the Equator towards the South Pole, Earth's rotation, and the scarcity of landmasses to serve as windbreaks at those latitudes. On average, winds speeds in th\n[…]\nSimilar winds that occur at more southerly latitudes are called the Furious Fifties and the Shrieking or Screaming Sixties, with the greatest winds near the former. These prevailing winds have been moving farther south over time due to climate change.\n[…]\nThe latitude ranges for the Roaring Forties and similar winds are not consistent: all shift towards the South Pole in the southern summer, and towards the Equator in the southern winter. Wellington, the capital of New Zealand, is known as \"Windy Welly\" because it is one of the few cities situated in these gusty latitudes.\n[…]\nModern round-the-world sailors also take advantage of the Roaring Forties to speed travel times, in particular those involved in record attempts or races. An old sailor's expression goes, \"below 40 degrees south, there is no law; below 50 degrees, there is no God.\"\n[…]\nThe story Easting Down by Shalimar describes the events that befall a steamship unwisely venturing into the Roaring Forties to achieve a faster passage.\n[…]\nIn 1982, French filmmaker Christian de Chalonge directed The Roaring Forties, a drama movie inspired by the death of Donald Crowhurst, a British sailor who perished in the 1969 Sunday Times Golden Globe Race."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quarentas_Rangentes",
+        "situacao": "ok",
+        "texto": "As Quarentas Rangentes ou Vendavais da Latitude 40, referindo-se à latitude 40 S (em inglês: Roaring Forties), são uma zona de fortes ventos existente entre os paralelos 40º S e 50ª S dos oceanos austrais, cuja orientação oeste-leste e força estão relacionadas com o efeito Coriolis.\n[…]\nEsta corrente de ar foi descoberta pelo navegante neerlandês Hendrik Brouwer em 1610, que a converteu numa via rápida para navegar entre o sul de África e a colónia das Índias Orientais Neerlandesas (hoje Indonésia), na Insulíndia, pois precisava de atravessar o oceano Índico para chegar a Batávia ao serviço da Companhia Holandesa das Índias Orientais. Esta rota foi também conhecida como rota de Brouwer. Pelos fortes ventos dominantes é habitual ser considerada perigosa pelos navegantes.\n[…]\nA sua existência foi importante na chamada rota dos clippers que ligava a Europa à Austrália, Nova Zelândia e Extremo Oriente, muito usada na Era da Navegação.\n[…]\nEm mares mais austrais encontram-se outros ventos de circulação ao longo de paralelos, que foram chamadas pelos marinheiros com nomes análogos aos \"Roaring Forties\", usando a latitude a que se situam: é o caso dos Howling Fifties ou Furious Fifties (50º S) e os Shrieking Sixties ou Screaming Sixties (60º S).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Ciclone tropical",
+      "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Atlântico, ele se chama furacão. Como se chama o mesmo tipo de tempestade quando se forma no oeste do Pacífico, perto do Japão?",
+    "resposta": "Tufão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Typhoon",
+      "https://en.wikipedia.org/wiki/Tropical_cyclone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Typhoon",
+        "situacao": "ok",
+        "texto": "A typhoon is a tropical cyclone that develops between 180° and 100°E in the Northern Hemisphere and which produces sustained hurricane-force winds of at least 119 km/h (74 mph). This region is referred to as the Northwestern Pacific Basin, accounting for almost one third of the world's tropical cyclones. For organizational purposes, the northern Pacific Ocean is divided into three regions: the eas\n[…]\nAlternatively, some dictionaries propose that typhoon derived from (طوفان) tūfān, meaning storm in Persian and Hindustani. The root of (طوفان) tūfān possibly traces to the Ancient Greek mythological creature Typhôn. In French typhon was attested as storm in 1504. Portuguese traveler Fernão Mendes Pinto referred to a tufão in his memoir published in 1614. The earliest form in English was \"touffon\" (1588), later as touffon, tuffon, tufon, tuffin, tuffoon, tayfun, tiffoon, typhawn.\n[…]\nOn average, twice per year twin tropical cyclones will form in the western Pacific Ocean, near the 5th parallel north and the 5th parallel south, along the same meridian, or line of longitude. There is an inverse relationship between tropical cyclone activity in the western Pacific basin and the North Atlantic basin, however. When one basin is active, the other is normally quiet, and vice versa.\n[…]\nNearly one-third of the world's tropical cyclones form within the western Pacific. This makes this basin the most active on Earth. Pacific typhoons have formed year-round, with peak months from August to October. The peak months correspond to that of the Atlantic hurricane seasons. Along with a high storm frequency, this basin also features the most globally intense storms on record. One of the most recent busy seasons was 2013.\n[…]\nEffects of tropical cyclones\n[…]\nChina tropical cyclone rainfall climatology\n[…]\nTropical cyclones in Malaysia\n[…]\nTropical cyclones in Vietnam\n[…]\nMultilingual Tropical Cyclone Information"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tropical_cyclone",
+        "situacao": "ok",
+        "texto": "A tropical cyclone is a rapidly rotating storm system with a low-pressure area, a closed low-level atmospheric circulation, strong winds, and a spiral arrangement of thunderstorms that produce heavy rain and squalls. Depending on its location and strength, a tropical cyclone is called a hurricane (), typhoon (), tropical storm, cyclonic storm, tropical depression, or simply cyclone. A hurricane is\n[…]\nClimatologically, tropical cyclones are steered primarily westward by the east-to-west trade winds on the equatorial side of the subtropical ridge—a persistent high-pressure area over the world's subtropical oceans. In the tropical North Atlantic and Northeast Pacific oceans, the trade winds steer tropical easterly waves westward from the African coast toward the Caribbean Sea, North America, and ultimately into the central Pacific Ocean before the waves dampen out.\n[…]\nTropical cyclones regularly affect the coastlines of most of Earth's major bodies of water along the Atlantic, Pacific, and Indian oceans. Tropical cyclones have caused significant destruction and loss of human life, resulting in about 2 million deaths since the 19th century. Large areas of standing water caused by flooding lead to infection, as well as contributing to mosquito-borne illnesses. Crowded evacuees in shelters increase the risk of disease propagation.\n[…]\nProxy records based on paleotempestological research have revealed that major hurricane activity along the Gulf of Mexico coast varies on timescales of centuries to millennia. In the year 957, a powerful typhoon struck southern China, killing around 10,000 people due to flooding. The Spanish colonization of Mexico described \"tempestades\" in 1730, although the official record for Pacific hurricanes only dates to 1949. In the south-west Indian Ocean, the tropical cyclone record goes back to 1848.\n[…]\nJapan Meteorological Agency – Western Pacific"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tuf%C3%A3o",
+        "situacao": "ok",
+        "texto": "Um tufão é um ciclone tropical maduro que se desenvolve entre 180 ° e 100 ° L no hemisfério norte. Essa região é conhecida como Bacia do Noroeste do Pacífico, e é a bacia de ciclones tropicais mais ativa da Terra, respondendo por quase um terço dos ciclones tropicais anuais do mundo. Para fins organizacionais, o norte do Oceano Pacífico é dividido em três regiões: a oriental (América do Norte a 14\n[…]\n[2] Um furacão é uma tempestade que ocorre no Oceano Atlântico ou no nordeste do Oceano Pacífico, um tufão ocorre no noroeste do Oceano Pacífico e um ciclone tropical ocorre no Pacífico Sul ou no Oceano Índico.\n[…]\nAs Filipinas recebem o peso das terras, com a China e o Japão sendo impactados um pouco menos. Alguns dos tufões mais mortíferos da história atingiram a China. O sul da China tem o maior registro de impactos de tufões na região, com uma amostra de mil anos via documentos dentro de seus arquivos. Taiwan recebeu o mais chuvoso tufão já registrado das bacias de ciclones tropicais no noroeste do Pacífico.\n[…]\nO termo tufão é o nome regional no noroeste do Pacífico para um ciclone tropical grave (ou maduro), [3] ao passo que o furacão é o termo regional no nordeste do Pacífico e no norte do Atlântico. [4] Em outros lugares, isso é chamado de ciclone tropical, ciclone tropical grave ou tempestade ciclônica severa.\n[…]\nO \"tufão\" de datação moderna data de 1820, precedido por \"tay-fun\" em 1771 e \"ty-foong\", todos derivados do tai fung chinês.\n[…]\nNo entanto, Filipinas (PAGASA) mantém sua própria lista de nomes, que consiste em nomes humanos. As tempestades que cruzam a linha de data do Pacífico central mantêm seu nome original, mas a designação de furacão se torna tufão. No Japão, as pessoas usam a designação numérica de tufões de acordo com a seqüência de sua ocorrência no ano civil.[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Ciclone tropical",
+      "descricao": "Tempestade giratória que se forma sobre oceanos quentes, chamada de furacão ou tufão conforme a região"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que efeito, ligado à rotação da Terra, faz os furacões girarem em sentidos opostos nos hemisférios norte e sul?",
+    "resposta": "Efeito Coriolis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coriolis_force",
+      "https://en.wikipedia.org/wiki/Tropical_cyclone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coriolis_force",
+        "situacao": "ok",
+        "texto": "In physics, the Coriolis force is a pseudo-force that acts on objects in motion within a frame of reference that rotates with respect to an inertial frame. In a reference frame with clockwise rotation, the force acts to the left of the motion of the object. In one with anticlockwise (or counterclockwise) rotation, the force acts to the right. Deflection of an object due to the Coriolis force is ca\n[…]\nThe Coriolis effect caused by the rotation of the Earth can be seen indirectly through the motion of a Foucault pendulum.\n[…]\nThe definition of the Coriolis effect from the Glossary of Meteorology\n[…]\nThe coriolis effect in meteorology PDF-file. 5 pages. A detailed explanation by Mats Rosengren of how the gravitational force and the rotation of the Earth affect the atmospheric motion over the Earth surface. 2 figures\n[…]\n10 Coriolis Effect Videos and Games- from the About.com Weather Page\n[…]\nCoriolis Force – from ScienceWorld\n[…]\nCoriolis Effect and Drains An article from the NEWTON web site hosted by the Argonne National Laboratory.\n[…]\nCatalog of Coriolis videos\n[…]\nCoriolis Effect: A graphical animation, a visual Earth animation with precise explanation\n[…]\nAn introduction to fluid dynamics SPINLab Educational Film explains the Coriolis effect with the aid of lab experiments\n[…]\nBad Coriolis. An article uncovering misinformation about the Coriolis effect. By Alistair B. Fraser, emeritus professor of meteorology at Pennsylvania State University\n[…]\nThe Coriolis Effect: A (Fairly) Simple Explanation, an explanation for the layperson\n[…]\nObserve an animation of the Coriolis effect over Earth's surface\n[…]\nAnimation clip showing scenes as viewed from both an inertial frame and a rotating frame of reference, visualizing the Coriolis and centrifugal forces.\n[…]\nVincent Mallette The Coriolis Force @ INWIT\n[…]\nInteractive Coriolis Fountain lets you control rotation speed, droplet speed and frame of reference to explore the Coriolis effect."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tropical_cyclone",
+        "situacao": "ok",
+        "texto": "A tropical cyclone is a rapidly rotating storm system with a low-pressure area, a closed low-level atmospheric circulation, strong winds, and a spiral arrangement of thunderstorms that produce heavy rain and squalls. Depending on its location and strength, a tropical cyclone is called a hurricane (), typhoon (), tropical storm, cyclonic storm, tropical depression, or simply cyclone. A hurricane is\n[…]\nTropical refers to the geographical origin of these systems, which form almost exclusively over tropical seas. Cyclone refers to their winds moving in a circle, whirling round their central clear eye, with their surface winds blowing counterclockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere. The opposite direction of circulation is due to the Coriolis effect.\n[…]\nIn addition to environmental steering, a tropical cyclone will tend to drift poleward and westward, a motion known as \"beta drift\". This motion is due to the superposition of a vortex, such as a tropical cyclone, onto an environment in which the Coriolis force varies with latitude, such as on a sphere or beta plane.\n[…]\nA 2013 study determined that Titan's tropics are not favorable for tropical cyclogenesis, as its equatorial regions only host isolated lakes and is subject to high wind shear. The Coriolis force is also much weaker on Titan due to its long rotation period (nearly 16 days). However, the study found that hydrocarbon polar seas may contain enough thermal energy to power tropical cyclones.\n[…]\nGenesis could be aided by waves generated in the Seasonal Convergence Zone (SCZ), Titan's counterpart to the ITCZ; unlike the ITCZ, the SCZ swings from polar region to polar region as seasons progress. Wind shear in the polar regions is more favorable for tropical cyclogenesis, and the high latitudes in which the polar seas are located could help counter the low Coriolis force to an extent."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/For%C3%A7a_inercial_de_Coriolis",
+        "situacao": "ok",
+        "texto": "redireciona\n[…]\nNo uso popular e não técnico da expressão \"efeito de Coriolis\", o referencial em rotação implícito quase sempre é a Terra. Como o planeta gira, observadores presos à sua superfície precisam considerar a força de Coriolis para analisar corretamente determinados movimentos. A Terra completa uma rotação a cada dia sideral, de modo que, para os movimentos de objetos comuns, a força de Coriolis costuma ser imperceptível.\n[…]\nEsse efeito aumenta com o módulo do seno da latitude, atinge o máximo nos polos e se anula na linha do equador. Em escalas atmosféricas e oceânicas, a força de Coriolis participa do equilíbrio dinâmico que governa ventos, correntes e a circulação de ciclones. Ela ajuda a determinar o sentido da circulação, mas não fornece a energia de um ciclone tropical.\n[…]\nse se move para leste, no sentido da rotação terrestre, a componente de Coriolis aponta para cima. Quando o movimento está restrito à superfície, isso participa da redução do peso aparente chamada efeito de Eötvös. O fenômeno foi discutido por Galileu Galilei em 1632 e por Riccioli em 1651.\n[…]\nEm banheiras, pias e vasos sanitários comuns, a força de Coriolis é pequena demais para determinar de forma confiável o sentido do escoamento. A geometria do recipiente, o modo como ele foi enchido, pequenas correntes de convecção e a rotação residual da água costumam produzir efeitos muito maiores.\n[…]\nEfeito de Eötvös, variação do peso aparente associada ao movimento sobre a Terra em rotação\n[…]\nBad Coriolis FAQ, por Alistair B. Fraser.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Deserto da Patagônia",
+      "descricao": "Deserto frio do sul da Argentina, a leste da Cordilheira dos Andes"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que cadeia de montanhas barra as nuvens vindas do Pacífico e explica a secura do Deserto da Patagônia?",
+    "resposta": "Cordilheira dos Andes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Patagonian_Desert"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Patagonian_Desert",
+        "situacao": "ok",
+        "texto": "The Patagonian Desert, also known as the Patagonian Steppe, is the largest desert in Argentina and is the eighth-largest desert in the world by area, occupying approx. 673,000 square kilometres (260,000 mi2). It is located primarily in Argentina and is bounded by the Andes, to its west, and the Atlantic Ocean to its east, in the region of Patagonia, southern Argentina and areas of Chile. To the no\n[…]\nThe Andes, to the desert's west, are the primary reason for the Patagonian desert status as they inhibit the westerly flow of moisture from the southern Pacific from reaching inland. This creates a rain shadow that accounts for the formation of the desert and is why, despite approximately half of the desert being only about 200 miles from the ocean, such a large desert is found in the region. The cold Falkland Current off the Atlantic coast of South America also contributes to the area's aridity.\n[…]\nBefore the Andes were formed, the region was likely covered by temperate forests. However, after the formation of the Andes, ash from nearby volcanoes covered the forests and mineral-saturated waters seeped into the logs, thus fossilizing the trees and creating one of the world's best preserved petrified forests in the desert's center. The Patagonian is mainly composed of gravel plains and plateaus with sandstone canyons and clay shapes dotting the landscape, sculpted by the desert wind.\n[…]\nThe region encompassing the desert, however, has many diverse features. Ephemeral rivers, lakes, and drainage deposits from the Andes' spring melt form annually, hosting a variety of waterfowl and aquatic grasses. A variety of glacial, fluvial, and volcanic deposits are also found in the region and have significantly affected the desert's climate over time, especially contributing to the gravel sediments covering parts of the Patagonian.\n[…]\n\"Patagonian Steppe\". Terrestrial Ecoregions. World Wildlife Fund."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deserto_da_Patag%C3%B4nia",
+        "situacao": "ok",
+        "texto": "O Patagônia é o maior deserto da América e está localizado ao sul da Argentina, para a qual passou a ter importância econômica no século XIX, quando houve a descoberta da abundância mineral. Sua maior riqueza é o petróleo, enquanto seu subsolo é rico em ferro. De população reduzida, tem como atividades ainda a agricultura de cereais e a pecuária como pontos tradicionais. Extenso, é limitado pelo o\n[…]\nÉ o sétimo maior deserto do mundo por área, ocupando uma área de aproximadamente 673.000 km2. O Deserto Patagônico, também conhecido como Estepe Patagônico, é o maior deserto da Argentina e é o 8º maior deserto do mundo em área, ocupando 673.000 quilômetros quadrados. Localiza-se principalmente na Argentina e é limitado pela Cordilheira dos Andes, a oeste, e pelo Oceano Atlântico a leste, na região da Patagônia, sul da Argentina. Ao norte, o deserto desemboca na região de Cuyo e no Monte.\n[…]\nA Patagônia extra-andina ou Patagônia oriental é a parte oriental da Patagônia, localizada no sudeste da América do Sul. Encontra-se principalmente na Argentina , embora também ocorra em alguns setores chilenos ao leste da Cordilheira dos Andes. É delimitado pelas florestas úmidas da Cordilheira dos Andes a oeste e pelo Oceano Atlântico a leste.\n[…]\nOs Andes, a oeste do deserto, são a principal razão para o status de deserto da Patagônia, pois inibem o fluxo de umidade do oeste do Pacífico sul de chegar ao interior. Isso cria uma zona de ausência de chuva que explica a formação do deserto e é por isso que, apesar de aproximadamente metade do deserto estar a apenas cerca de 200 milhas do oceano, um deserto tão grande é encontrado na região.\n[…]\nGramíneas aquáticas e flora maior existem nos arredores do deserto e ao redor dos lagos efêmeros que se formam a partir do escoamento dos Andes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Friagem",
+      "descricao": "Queda brusca de temperatura que atinge partes da Amazônia e do Centro-Oeste brasileiro no inverno"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em alguns invernos, a temperatura despenca de repente em Rondônia e no Acre, fenômeno chamado friagem. O que o provoca?",
+    "resposta": "Massas de ar polar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Friagem"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Friagem",
+        "situacao": "ok",
+        "texto": "Friagem é a queda brusca de temperatura, com ventos razoavelmente frios. Pode acontecer mais de uma vez na Amazônia Ocidental, de maio a agosto. O fenômeno climático é uma consequência da entrada das massas de ar polar atlântica, por meio das bacias hidrográficas do Prata e do Paraguai, quando recebe o ar frio das regiões de clima temperado da América do Sul. Dura entre três e quatro dias.\n[…]\nEm novembro de 2022, uma friagem de forte intensidade, seguida por uma massa de ar de origem polar, teve deslocamento passando por Mato Grosso, Goiás, o centro-sul do Mato Grosso do Sul, Amazonas e Acre, vinda do sul e do sudeste do Brasil. Algo muito raro, já que normalmente essa mudança ocorre em setembro. Porém, este ano, a chegada do inverno amazônico atrasou e o verão foi muito longo (maio até setembro).\n[…]\nNova Cultural (1998). «Friagem». Grande Enciclopédia Larousse Cultural. 11. São Paulo: Folha de S.Paulo"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Cerrado",
+      "descricao": "Bioma de savana do Brasil central"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A casca grossa, parecida com cortiça, de muitas árvores do Cerrado é uma adaptação que as protege contra o quê?",
+    "resposta": "O fogo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cerrado",
+      "https://pt.wikipedia.org/wiki/Cerrado"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cerrado",
+        "situacao": "ok",
+        "texto": "The Cerrado (Portuguese pronunciation: [seˈʁadu]) is a vast ecoregion of tropical savanna in central Brazil, being present in the states of Goiás, Mato Grosso do Sul, Mato Grosso, Tocantins, Maranhão, Piauí, Bahia, Minas Gerais, São Paulo, Paraná and the Federal District. The core areas of the Cerrado biome are the Brazilian Highlands – the Planalto. The main habitat types of the Cerrado consist o\n[…]\nCerrado vegetation is believed to be ancient, stretching back perhaps as far in a prototypic form as the Cretaceous, before Africa and South America separated. A dynamic expansion and contraction between cerrado and Amazonian rainforest has probably occurred historically, with expansion of the Cerrado during glacial periods like the Pleistocene.\n[…]\nThe transfer of the country's capital to Brasília has been another focus of attraction of population to the central region: From 1975 until the beginning of the 1980s, many governmental subsidy programs were launched to promote agriculture, with the intent of stimulating the development of the Cerrado region. As a result, there has been a significant increase in agricultural and cattle production.\n[…]\nOne of the key challenges in establishing effective nature reserves in the Cerrado lies in its floristic heterogeneity and complex mosaic of vegetation types, which complicates the selection of representative conservation areas. To address this, collaborative efforts have been underway involving the University of Brasília, Embrapa's Cerrado Research Center (CPAC), and the Royal Botanic Garden Edinburgh, supported by Brazilian, European, and British funding.\n[…]\n\"Cerrado\". Terrestrial Ecoregions. World Wildlife Fund.\n[…]\nCaton, Peter (1 June 2011). Guardians of the Cerrado. petercaton.co.uk (photo story). Aoki, Chris (contrib.); do Vale, João (music). Archived from the original on 2 September 2011 – via foto8.com."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cerrado",
+        "situacao": "ok",
+        "texto": "Cerrado é bioma brasileiro de savanas, sendo o segundo maior em extensão territorial depois da Amazônia, ocupando uma área de mais de dois milhões de quilômetros quadrados. O termo \"cerrado\" pode ser utilizado em três sentidos O primeiro, a \"fisionomia do cerrado sensu stricto\" é uma das fisionomias do bioma savana e parte da província florística cerrado sensu lato.\n[…]\nsavana\n[…]\nFormação: Savana Florestada (Cerradão)\n[…]\nAssim como em outros campos e savanas, o fogo é importante para a manutenção e a formação da paisagem do Cerrado; muitas plantas do Cerrado são adaptadas ao fogo, exibindo características como casca grossa e suberosa para suportar o calor.\n[…]\nAproveitando o brotamento da vegetação herbácea que se segue a uma queimada no Cerrado, os habitantes indígenas dessas regiões aprenderam a usar o fogo como ferramenta para aumentar o alimento disponível para seus animais domésticos.\n[…]\nEmbora quase sempre apresentado como danoso aos ambientes naturais, o fogo é, no entanto, indispensável para a preservação das formações abertas (campestres e savânicas) do Cerrado. As espécies e vegetações do Cerrado não são exatamente adaptadas ao fogo, mas sim a diferentes regimes de fogo.\n[…]\nLogo, alterações no regime natural de fogo (sejam pela sua indução em frequência e intensidade muito altas, ou pela sua supressão completa), podem ter efeitos negativos para a biodiversidade no Cerrado.\n[…]\nNo caso da gestão de áreas naturais adaptadas ao fogo, alguns autores defendem a promoção de uma \"pirodiversidade\", isto é, o manejo de áreas em mosaico com diferentes regimes de fogo controlado (mas não muito frequentes, nem ausentes), de modo a favorecer a ocorrência e a preservação de espécies e vegetações adaptadas a diferentes regimes. Além disso, a queima controlada e regular elimina o acúmulo de material inflamável, e assim, evita incêndios catastróficos, muito intensos."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Nomes retirados de furacões do Atlântico",
+      "descricao": "Nomes de furacões do Atlântico que a Organização Meteorológica Mundial deixou de usar"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que nomes como Katrina e Andrew foram aposentados e nunca mais serão dados a furacões do Atlântico?",
+    "resposta": "Pela destruição que causaram",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_retired_Atlantic_hurricane_names"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_retired_Atlantic_hurricane_names",
+        "situacao": "ok",
+        "texto": "This is a cumulative list of previously used tropical cyclone (tropical storm and hurricane) names that have been permanently removed from reuse in the North Atlantic basin. As of 2026, 100 storm names have been retired.\n[…]\nIt was also decided that the name of any significant hurricane in the future would be permanently retired. Ahead of the 1971 Atlantic hurricane season, 10 lists of hurricane names were inaugurated, by the National Oceanic and Atmospheric Administration.\n[…]\nDuring the 1990s, the Atlantic Ocean moved into its active era, which led to more tropical cyclones forming during the hurricane seasons. The decade featured Hurricane Andrew, which at the time was the costliest hurricane on record, and also Hurricane Mitch, which is considered to be the deadliest tropical cyclone to have its name retired, killing over 11,000 people in Central America. A total of 15 names were retired in this decade, seven during the 1995 and 1996 seasons.\n[…]\nAfter the Atlantic basin had moved into the warm phase of the Atlantic multidecadal oscillation during the mid-1990s, the 2000s marked the most prolific decade in terms of the number of retired storms, with 24 names warranting removal. The decade featured one of the costliest tropical cyclones on record, Hurricane Katrina, which inflicted roughly US$125 billion in damage across the Gulf Coast of the United States.\n[…]\nHurricane Melissa became the strongest Atlantic hurricane on record by wind speed tied with Allen of 1980, before making a catastrophic landfall in Jamaica as one of the most intense landfalls in the Atlantic. There were no names retired for the 2023 season.\n[…]\nList of retired Pacific hurricane names\n[…]\nList of retired South Pacific cyclone names"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_nomes_de_furac%C3%B5es_retirados_no_Atl%C3%A2ntico",
+        "situacao": "ok",
+        "texto": "Isto é uma lista de nomes de furacões no Atlântico retirados. Nomes são gerenciados pela Organização Meteorológica Mundial (OMM), que mantém seis listas alfabéticas de 21 nomes, com uma lista usada por ano. Isso normalmente resulta em um nome sendo reutilizado a cada 6 anos. Entretanto, furacões particularmente destrutivos nas regiões que afectam podem ter seus nomes permanentemente retirados do u\n[…]\nOs nomes são retirados em função de uma petição formulada por um ou mais dos países afectados por um furacão, em março, abril ou maio na reunião da OMM. Conquanto nenhuma solicitação tem sido recusada. Tempestades, como o furacão Gordon de 1994 e o furacão Hanna de 2008 causaram uma grande quantidade de mortes e de destruição, no entanto, não se retiraram porque o principal país afectado (Haiti) não o solicitou.\n[…]\nIsto é ao menos em parte devido ao facto de que as tempestades mais débil tendem a causar menos danos, e as poucas tempestades fracas que têm retirado os seus nomes causaram a maior parte da sua destruição por fortes chuvas em lugar dos ventos.\n[…]\nLista com todos o nome de furacões retirados pelo número de mortes que causaram.\n[…]\nOs nomes pelo geral são retirados por duas razões, já seja porque foram particularmente prejudiciais ou particularmente mortais. Enquanto muitas tempestades causaram danos, poucas causaram perdas de vidas, as tempestades mais mortais também causaram graves danos.\n[…]\nMuitas tempestades causaram vítimas mortais não pelos seus fortes ventos, mas mais através das inundações - marejadas ou inundações terra adentro devido às chuvas. A marejada tem o maior potencial de mortes, mas com as previsões de advertências modernas, o risco pode ser quase eliminado, mas o potencial é ainda muito alto para uma catástrofe nos lugares onde os sistemas de alerta não estão em seu lugar ou são ignorados.\n[…]\nUnisys Weather archives for the Atlantic\n[…]\nHistory of Atlantic Hurricane Names",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Deserto do Namibe",
+      "descricao": "Deserto costeiro do sudoeste da África, ao longo da Namíbia e do sul de Angola"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que corrente marítima fria, que corre junto à costa sudoeste da África, ajuda a manter o Deserto do Namibe tão seco?",
+    "resposta": "Corrente de Benguela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Namib",
+      "https://en.wikipedia.org/wiki/Benguela_Current"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Namib",
+        "situacao": "ok",
+        "texto": "The Namib (, NAH-mib; Portuguese: Namibe) is a coastal desert in Southern Africa. According to the broadest definition, the Namib stretches for more than 2,000 kilometres (1,200 mi) along the Atlantic coasts of Angola, Namibia, and northwest South Africa, extending southward from the Carunjamba River in Angola, through Namibia and to the Olifants River in Western Cape, South Africa.\n[…]\nTemperatures along the coast are stable and generally range between 9–20 °C (48–68 °F) annually, while temperatures further inland are variable—summer daytime temperatures can exceed 45 °C (113 °F) while nights can be freezing. Fogs that originate offshore from the collision of the cold Benguela Current and warm air from the Hadley cell create a fog belt that frequently envelops parts of the desert. Coastal regions can experience more than 180 days of thick fog a year.\n[…]\nThe Namib desert is an important location for the mining of tungsten, salt, and diamonds.\n[…]\nThe Namib's aridity is caused by the descent of dry air of the Hadley cell, cooled by the cold Benguela Current along the coast. It has less than 10 mm (0.39 in) of rain annually and is almost completely barren. Besides rain being scarce, it is also unpredictable. Western Namib gets less rain (5 mm) than eastern Namib (85 mm). This is due to several factors.\n[…]\nThe Namib-Naukluft National Park, which extends over a large part of the Namib Desert, is the largest game reserve in Africa and one of the largest in the world at 49,768 sq km (19,215 sq mi). While most of the park is hardly accessible, several well-known visitor attractions are found in the desert. The prominent attraction is the Sossusvlei area, where high orange sand dunes surround vivid white salt pans, creating a fascinating landscape.\n[…]\nKinahan, John (2022). Namib: The Archaeology of an African Desert. Boydell & Brewer. ISBN 9781847012883.\n[…]\nNamib Desert photo gallery"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Benguela_Current",
+        "situacao": "ok",
+        "texto": "The Benguela Current  is the broad, northward flowing ocean current that forms the eastern portion of the South Atlantic Ocean gyre. The current extends from roughly Cape Point in the south, to the position of the Angola-Benguela Front in the north, at around 16°S. The current is driven by the prevailing south easterly trade winds. Inshore of the Benguela Current proper, the south easterly winds d\n[…]\nThe icy Benguela and the warm, south-flowing Agulhas current do not meet off the Cape of Good Hope (see diagram on the right, above), but there is a body of water off the South African south coast, east and particularly west of Cape Agulhas that consists of eddies from both currents, so that offshore water temperatures along the south coast of Africa vary chaotically.\n[…]\nThe most abundant fish in the Benguela system are Sardinops and Engraulis. The Southern African pilchard (S. s. ocellatus), was intensely fished in the 1950s and peaked in 1968 with landings over 1.3 million tons. Since then, fishery of the Sardinops has declined and fishery of the Southern African anchovy (Engraulis capensis) has taken over.\n[…]\nHeavy rains, changes in fish abundance, and temporal proximity to the Pacific El Niño have been observed; however, the causes and effects of the Benguela Niño are not well understood. One research team has shown that the Benguela Niño is caused by winds in the west-central equatorial Atlantic Ocean that propagate as subsurface sea temperature anomalies to the African coast.\n[…]\nA recent study has demonstrated the importance of local winds in the development of the Benguela Niño off the coast of Namibia and Angola. This local process together with the remote signal from the equatorial regions form the basis of the formation mechanism in which both processes sometimes reinforce each other.\n[…]\nHumboldt Current, the Benguela's analogue in the South Pacific Ocean\n[…]\nBenguela current"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deserto_do_Namibe",
+        "situacao": "ok",
+        "texto": "O deserto do Namibe é um vasto deserto da África Meridional. Estende-se do sul de Angola ao norte da África do Sul, seguindo o traçado da costa marítima em paralelo ao Oceano Atlântico, junto ao deserto de Caoco. A palavra namib vem da língua nama, uma das línguas coissãs, e significa «lugar vasto e desolado».\n[…]\nO Namibe tem mais de 55 milhões de anos, sendo o deserto mais antigo do mundo.\n[…]\nO deserto do Namibe é considerado ideal para praticar desportos radicais.\n[…]\nMuito quente com altas temperaturas, durante o dia chega a uma temperatura de 60 graus celsius, e à noite varia entre 10 a 15 abaixo de zero. Formado por inúmeras dunas, encostas e planícies, permeada de lagos intermitentes e vales, que pela ação do vento está em constante transformação e mudança. Sua área ultrapassa 30 mil km² e integralmente faz parte do Parque Nacional Namib–Naukluft, na Namíbia, e se constitui na maior reserva de caça em África.\n[…]\nEntre as plantas existentes no sítio sobressai a Welwitschia mirabilis, que pode viver mais de cem anos, e cujas folhas absorvem a umidade do ar, bem como o aloé-aljava, que pode chegar a quatrocentos anos. Já entre os animais, destacam-se a víbora-do-deserto, o elefante-africano, o inseparável-de-faces-rosadas, o órix, bem como algumas espécies de lagartos, entre outros animais que conseguem sobreviver no clima inóspito da região.\n[…]\nEm 2013, o Comitê do Património Mundial em sua trigésima sétima sessão homologou a inscrição, declarando e incluindo o «Mar de Areia da Namíbia» na Lista do Património Mundial na Namíbia – região África.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Murmansk",
+      "descricao": "Cidade portuária do noroeste da Rússia, acima do Círculo Polar Ártico"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Murmansk, na Rússia, fica acima do Círculo Polar Ártico. Graças a águas aquecidas pela Corrente do Golfo, que vantagem seu porto tem no inverno?",
+    "resposta": "Fica livre de gelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Murmansk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Murmansk",
+        "situacao": "ok",
+        "texto": "Murmansk (Russian: Мурманск) is the administrative center and largest city of Murmansk Oblast in the far northwest part of Russia. It is a major port city that is the world's largest and most populous city north of the Arctic Circle and sits on both slopes and banks of Kola Bay, with its bulk on the east bank of the inlet. The bay, a modest fjord, is an estuarine inlet of the Barents Sea.\n[…]\nThe city's association football teams are FC Sever Murmansk, which played in the Russian Second Division until 2014 when it folded due to financial difficulties, and FC Murmansk, a football team founded in 2022.\n[…]\nThe Port of Murmansk remains ice-free year round due to the warm North Atlantic Current and is an important fishing and shipping destination. The Port is also the headquarters of Sevmorput (Northern Sea Route) and the administration of Russian Arctic maritime transport. In 2018, the Russian government transferred the main responsibility for the Northern Sea Route to Rosatom which manages the Russian nuclear-powered icebreaker fleet based in Murmansk through its Atomflot subsidiary.\n[…]\nMurmansk is linked by the Kirov Railway to St. Petersburg and is linked to the rest of Russia by the M18 Kola Motorway. Murmansk Airport provides air links to Moscow and St. Petersburg.\n[…]\nMurmansk is set to be the Russian terminus of the Arctic Bridge, a sea route linking it to the Canadian port of Churchill, Manitoba. Even though the passage has not been fully tested for commercial shipping yet, Russian interest in this project (along with the Northwest Passage) is substantial, as the bridge will serve as a major trade route between North America, Europe and Asia.\n[…]\nThere is also a branch of the Naval Academy in Murmansk, where cadets study to become officers of the Russian Navy.\n[…]\nOfficial website of Murmansk (in Russian)\n[…]\nBritish North Russian Expeditionary Force 1918–1919 (based at Murmansk)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Murmansque",
+        "situacao": "ok",
+        "texto": "Murmansque ou Murmansk (em russo: Му́рманск; romaniz.: Murmansk) é a capital do Oblast de Murmansque, localizada 200 km a norte do Círculo Polar Ártico.\n[…]\nDe Dezembro a Maio, nos meses mais frios, o porto de Murmansque substitui o porto de São Petersburgo, que fica localizado cerca de 1450 km a sul e que constitui o maior porto do noroeste da Rússia. Curiosamente, o porto de Murmansque não fica gelado em nenhuma época do ano, devido à passagem da corrente quente do golfo, que aquece as águas e as impede de congelarem.\n[…]\nA cidade está localizada na zona Atlântico-Ártico de clima temperado. O clima de Murmansque é influenciado pela proximidade do mar de Barents, que aumenta o efeito do aquecimento do Atlântico Norte atual. Este fator contribui para uma forte diferença de clima em Murmansque sobre o clima da maioria das cidades localizadas acima do Círculo Ártico, ao contrário de muitas cidades do norte de Murmansque que possuem temperaturas bem mais baixas no inverno.\n[…]\nTambém há vários pontos comerciais e cadeias de varejo de grande porte. A base da economia da cidade é o porto marítimo de Murmansque - um dos maiores portos livres de gelo na Rússia. O Porto de Murmansque consiste em três partes: um porto de pesca, porto comercial e de passageiros. Nos últimos anos houve um aumento das exportações de carvão e outros recursos minerais. Também está em estudo a abertura da Ponte Ártica, que ligaria a Rússia ao Canadá pela Passagem do Nordeste.\n[…]\nHare Críxena em Murmansque.\n[…]\nMurmansque é irmanada com as seguintes cidades:\n[…]\nRússia\n[…]\nLista de localidades do Oblast de Murmansque\n[…]\nMurmansque (oblast)\n[…]\nGubernia de Murmansque\n[…]\nDistrito de Murmansque",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Lençóis Maranhenses",
+      "descricao": "Parque nacional de dunas e lagoas no litoral do Maranhão"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Os Lençóis Maranhenses parecem um deserto, mas entre suas dunas surgem lagoas de água doce. De onde vem essa água?",
+    "resposta": "Da chuva",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lençóis_Maranhenses_National_Park"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lençóis_Maranhenses_National_Park",
+        "situacao": "ok",
+        "texto": "Lençóis Maranhenses National Park (, Parque Nacional dos Lençóis Maranhenses) is a national park in Maranhão state in northeastern Brazil, just east of the Baía de São José. Protected on June 2, 1981, the 155,000 ha (380,000-acre) park includes 70 km (43 mi) of coastline, and an interior composed of rolling sand dunes. During the rainy season, the valleys among the dunes fill with freshwater lagoo\n[…]\nThe park is located on the northeastern coast of Brazil in the state of Maranhão along the eastern coast, bordered by 70 kilometres (43 mi) of beaches along the Atlantic Ocean. Inland, it is bordered by the Parnaíba River, the São José Basin, and the rivers of Itapecuru, Munim, and Periá. The park encompasses an area of 155,000 hectares (380,000 acres), composed mainly of expansive coastal dune fields (composed of barchanoid dunes), which formed during the late Quaternary period.\n[…]\nWhile much of the park has the appearance of a desert, the area receives about 1,200 millimetres (47 in) of rain per year, while deserts, by definition, receive less than 250 millimetres (10 in) annually. About 70% of this rainfall occurs between the months of January and May.\n[…]\nLençóis Maranhenses National Park receives as many as 60,000 visitors a year. Common activities within the park include surfing, canoeing and horse riding.\n[…]\nCarcross Desert\n[…]\nFormer Lençóis Maranhenses National Park's Official site"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_dos_Len%C3%A7%C3%B3is_Maranhenses",
+        "situacao": "ok",
+        "texto": "O Parque Nacional dos Lençóis Maranhenses é uma unidade de conservação brasileira de proteção integral à natureza localizada na região nordeste do estado do Maranhão. O território do parque, com uma área de 156 584 ha, está distribuído pelos municípios de Barreirinhas, Primeira Cruz e Santo Amaro do Maranhão. O parque foi criado com a finalidade precípua de \"proteger a flora, a fauna e as belezas \n[…]\nO parque localiza-se na Microrregião dos Lençóis Maranhenses, ao norte do Brasil, no litoral nordeste do estado do Maranhão. Com um perímetro de 270 km e 156 584 ha de área, o parque está inserido no bioma costeiro marinho, com ecossistemas de mangue, restinga e dunas. Lençóis Maranhenses abriga em seu interior aproximadamente 90 000 ha de dunas livres e lagoas interdunares de água doce, além de grandes áreas de restinga e de costa oceânica.\n[…]\nNa área do Parque Nacional e na APA dos Pequenos Lençóis Maranhenses abriga espécie endêmica a tartaruga-pininga (Trachemys adiutrix).\n[…]\nEsse meio de acesso e excelente pra quem quer conhecer os Lençóis Maranhenses pelo Delta do Parnaíba. E quem optar por esse acesso vai passar por Parnaíba (litoral do Piauí/Maranhão), Araioses, Agua Doce, Tutoia e Paulino Neves. Muitos visitantes entram por São Luís e acabam conhecendo todo litoral leste do Maranhão saindo por Parnaíba (PI/ MA), ou vice e versa.\n[…]\nO Parque Nacional dos Lençóis Maranhenses recebe mais de cem mil visitantes por ano, tendo alcançado o número de 280 878 visitas em 2021, e cerac de 408 mil turistas em 2023, segundo o Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio). Atividades comuns dentro do parque incluem surfe, canoagem e passeios a cavalo.\n[…]\nParques nacionais do Brasil\n[…]\nParque dos Lençóis, Secretaria de Turismo do Maranhão.\n[…]\nParque Nacional dos Lençóis Maranhenses na UNESCO",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Manguezal",
+      "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que algumas árvores do mangue têm raízes que brotam da lama apontando para cima?",
+    "resposta": "Para respirar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pneumatophore",
+      "https://en.wikipedia.org/wiki/Mangrove"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Pneumatophore",
+        "situacao": "ok",
+        "texto": "Aerial roots are roots growing above the ground. They are often adventitious, i.e. formed from nonroot tissue. They are found in diverse plant species, including epiphytes such as orchids (Orchidaceae), tropical coastal swamp trees such as mangroves, banyan figs (Ficus subg. Urostigma), the warm-temperate rainforest rata (Metrosideros robusta), and pōhutukawa trees of New Zealand (Metrosideros exc\n[…]\nPneumatophores differentiate the black mangrove and grey mangrove from other mangrove species.\n[…]\nFishers in some areas of Southeast Asia make corks for fishing nets by shaping the pneumatophores of mangrove apples (Sonneratia caseolaris) into small floats.\n[…]\nAerial roots may receive water and nutrient intake from the air. There are many types of aerial roots; some, such as mangrove, are used for aeration and not for water absorption. In other cases, they are used mainly for structure, and in order to reach the surface. Many plants rely on the leaf system for gathering the water into pockets, or onto scales. These roots function as terrestrial roots do."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mangrove",
+        "situacao": "ok",
+        "texto": "A mangrove is a shrub or tree that grows mainly in coastal saline or brackish water. Mangroves grow in an equatorial climate, typically along coastlines and tidal rivers. They have particular adaptations to take in extra oxygen and remove salt, allowing them to tolerate conditions that kill most plants. The term is also used for tropical coastal vegetation consisting of such species. Mangroves are\n[…]\nMangrove swamp\n[…]\nTeas, H. J. (1983). Biology and Ecology of Mangroves. W. Junk Publishers, The Hague. ISBN 90-6193-948-8.\n[…]\nMassó; Alemán, S.; Bourgeois, C.; Appeltans, W.; Vanhoorne, B.; De Hauwere, N.; Stoffelen, P.; Heaghebaert, A.; Dahdouh-Guebas, F. (2010). \"The 'Mangrove Reference Database and Herbarium'\" (PDF). Plant Ecology and Evolution. 143 (2): 225–232. Bibcode:2010PlEcE.143..225M. doi:10.5091/plecevo.2010.439.\n[…]\nVo Quoc, T.; Oppelt, N.; Leinenkugel, P. & Kuenzer, C. (2013). \"Remote Sensing in Mapping Mangrove Ecosystems – An Object-Based Approach\". Remote Sensing. 5 (1): 183–201. Bibcode:2013RemS....5..183V. doi:10.3390/rs5010183.\n[…]\n\"Mangrove Factsheet\". Waitt Institute. Archived from the original on 4 September 2015. Retrieved 8 June 2015.\n[…]\n\"Mangroves\". Smithsonian Ocean Portal. 30 April 2018.\n[…]\nTop 10 Mangrove Forest In The World – Travel Mate\n[…]\n\"Mangroves Fact Sheet\" (PDF). Fisheries Western Australia. 2013. Archived from the original (PDF) on 23 April 2013.* In May 2011, the VOA Special English service of the Voice of America broadcast a 15-minute program on mangrove forests. A transcript and MP3 of the program, intended for English learners, can be found at Mangrove Forests Could Be a Big Player in Carbon Trading\n[…]\nQueensland's coastal kidneys: mangroves. Stacey Larner, John Oxley Library Blog. State Library of Queensland.\n[…]\n\"Take Shelter - Mangroves work together to protect the Earth and its waters. What can they teach us about community and sacrifice?\". Atmos. 16 February 2024."
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Manguezal",
+      "descricao": "Ecossistema costeiro de árvores adaptadas à água salobra, na foz de rios em regiões tropicais"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que movimento musical de Recife, liderado por Chico Science nos anos noventa, tirou seu nome de um ecossistema costeiro?",
+    "resposta": "Manguebeat",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Manguebeat"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manguebeat",
+        "situacao": "ok",
+        "texto": "Manguebeat (também grafado como manguebit ou mangue beat) é um movimento de contracultura brasileiro. Surgiu a partir de 1991, na cidade de Recife, e se destaca pela combinação original de diversos gêneros musicais, unindo ritmos regionais, como o maracatu, o rock, o hip hop, o funk e a música eletrônica.\n[…]\nO mangue pernambucano já havia sido abordado na literatura por João Cabral de Melo Neto em Morte e Vida Severina, de 1955, e por Josué de Castro em Homens e Caranguejos, de 1967. Entretanto, nos contextos destas obras, o ecossistema era descrito principalmente pela pobreza e pela fome. Chico Science, por outro lado, buscou associar a complexidade orgânica dos manguezais à diversidade da cena musical local.\n[…]\nAo ouvir Chico Science pela primeira vez em uma performance mashup de Loustal e Lamento Negro, Fred 04 pensou que a combinação da justaposição local/global, bem como a localização geográfica, poderia lançar o que viria a ser o movimento Mangue em algo que destacaria a diversidade do Recife.\n[…]\nPor outro lado, o rótulo \"manguebeat\" passou a ser evitado por músicos recifenses, uma vez que várias bandas e projetos musicais de Recife, como Maquinado e 3namassa, estariam sendo erroneamente associadas ao movimento. O termo muitas vezes é utilizado para referir-se a um gênero musical caracterizado pela mescla de música pop com música regional pernambucana.\n[…]\nO mangue beat, movimento musical e estético que nasceu em Pernambuco nos anos 1990, mudou a visibilidade das periferias e das manifestações culturais da Região Metropolitana do Recife e colocou o estado na rota do mercado musical mundial, após o lançamento de bandas como Chico Science e Nação Zumbi e Mundo Livre S.A.\n[…]\nNotáveis artistas e bandas que fazem ou fizeram parte do movimento Manguebeat incluem:\n[…]\n«Mangue, Site Trama»"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Floresta da Tijuca",
+      "descricao": "Floresta urbana replantada no século dezenove, no maciço da Tijuca, no Rio de Janeiro"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, Dom Pedro Segundo mandou replantar a Floresta da Tijuca, devastada por cafezais. Que problema da cidade ele queria resolver?",
+    "resposta": "Falta de água",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Floresta_da_Tijuca"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Floresta_da_Tijuca",
+        "situacao": "ok",
+        "texto": "Parque Nacional da Tijuca é uma unidade de conservação brasileira de proteção integral da natureza localizada integralmente na cidade do Rio de Janeiro.\n[…]\nNo início do século XIX, após longo período de devastação para uso da madeira e lavouras de cana-de-açúcar e café, a cidade começou a sofrer com a falta de água potável, pois, sem a proteção da vegetação, os mananciais começaram a secar. Por isso, a partir de 1862, Dom Pedro II ordenou o reflorestamento do local. A missão foi confiada ao major da polícia militar Archer, que iniciou o trabalho com seis escravos.\n[…]\nMagnanini foi uma das principais forças por trás da realização do sonho de Castro Maya de transformar a Floresta da Tijuca em Parque Nacional.\n[…]\nCom isso a cidade começou a sofrer com a falta de água potável, pois, sem a proteção da vegetação, os mananciais começaram a secar. A partir de 1862, por ordem do imperador dom Pedro II, a área começou a ser reflorestada com mudas de árvores nativas. Juntamente com a regeneração natural, a área foi recuperada, formando a floresta que vemos hoje, com uma rica e diversificada flora e tornando-se uma das maiores florestas artificiais urbanas do mundo.\n[…]\nComo consequência da alteração florística pela qual passou nos últimos 400 anos, e a falta de conexão com outras florestas, o parque não apresenta todos os animais que caracterizam sítios similares da encosta atlântica da Serra do Mar. A maior parte da fauna esconde-se do visitante ou tem hábitos noturnos. Ocorrem:\n[…]\nTrilha do Tijuca\n[…]\nParque Nacional do Itatiaia\n[…]\nParque Nacional da Tijuca construções e ruínas históricas\n[…]\n«IcmBio - Parque Nacional da Tijuca»\n[…]\nParque Nacional da Tijuca no Facebook"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Savana",
+      "descricao": "Bioma de vegetação rasteira com árvores esparsas, típico de regiões tropicais com estação seca"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "As palavras furacão e savana chegaram ao português pelo espanhol, mas vêm da mesma língua indígena do Caribe. Qual?",
+    "resposta": "Taíno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taíno_language",
+      "https://en.wikipedia.org/wiki/Savanna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taíno_language",
+        "situacao": "ok",
+        "texto": "Taíno is an extinct Arawakan language spoken by the Taíno people of the Caribbean. At the time of Spanish contact it was the most common language spoken throughout the Caribbean. Classic Taíno, or Taíno proper, was the Indigenous language of the peoples living in most of the Leeward Islands of the Lesser Antilles, Puerto Rico (known as Boriquen), most of Hispaniola (known as Ayiti), and easternmos\n[…]\nBy the late 15th century, Taíno had displaced earlier languages of the Greater Antilles, except in westernmost Cuba and in pockets in Hispaniola. (See Indigenous languages of the Caribbean § Unclassified languages.) As the Taíno culture declined during Spanish colonization, the language was replaced by Spanish, English and French. Although the language declined drastically due to colonization, some Taíno words were absorbed into those languages.\n[…]\nClassic Taíno was the lingua franca of the Indies. The five principal chiefdoms on Hispaniola seem to have spoken slightly different dialects of Classic Taíno in addition to the two non-Arawakan languages. The prestige dialect was that of Xaraguá, which had expanded to westernmost Cuba shortly before European contact.\n[…]\nAccording to Daniel Garrison Brinton, the lingua franca spoken in Hispaniola had been the subject of \"strange and wild theorizing among would-be philologists\" and that it was the 19th-century anthropologist Constantine Samuel Rafinesque who \"christened it the \"Taino\" language\".\n[…]\nDue to limited historical documentation, Taino language revival projects may differ from Indigenous languages historically spoken in the Greater Antilles.\n[…]\nModern-day Neo-Taíno constructs follow slightly different grammar and word order from each other.\n[…]\nEnglish words derived from Taíno include: barbecue, caiman, canoe, cassava, cay, guava, hammock, hurricane, hutia, iguana, macana, maize, manatee, mangrove, maroon, potato, savanna, and tobacco."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Savanna",
+        "situacao": "ok",
+        "texto": "A savanna or savannah is a mixed woodland-grassland (i.e. grassy woodland) biome and ecosystem characterised by the trees being sufficiently widely spaced so that the canopy does not close. The open canopy allows sufficient light to reach the ground to support an unbroken herbaceous layer consisting primarily of grasses.\n[…]\nThe word derives from the Spanish sabana, which is itself a loanword from Taíno, which means \"treeless grassland\" in the West Indies.\n[…]\nSavannas may at times be classified as forests.\n[…]\nFlooded savannas are savannas that are flooded seasonally or year-round. They are classified with flooded savannas as the flooded grasslands and savannas biome, which occurs mostly in the tropics and subtropics. Examples include the Everglades, Mesopotamian Marshes, Pantanal, Nile Delta flooded savanna, Lake Chad flooded savanna, Zambezian flooded grasslands, and the Sudd.\n[…]\nMontane savannas are mid- to high-altitude savannas, located in a few spots around the world's high mountain regions, part of the montane grasslands and shrublands biome. The Bogotá savanna, located at an average altitude of 2,550 metres (8,370 ft) on the Altiplano Cundiboyacense, Eastern Ranges of the Andes, is an example of a montane savanna. The savannas of the Angolan Scarp savanna and woodlands ecoregion are a lower altitude example, up to 1,000 metres (3,300 ft).\n[…]\nAnderson, Roger C.; Fralish, James S.; Baskin, Jerry M., eds. (1999). Savannas, Barrens, and Rock Outcrop Plant Communities of North America. doi:10.1017/CBO9780511574627. ISBN 978-0-521-57322-1.\n[…]\nThe Savanna Archived 17 May 2007 at the Wayback Machine at barrameda.com.ar (in Spanish and Brazilian Portuguese)\n[…]\n\"Savanna\" . Encyclopædia Britannica (11th ed.). 1911.\n[…]\n\"Savannas\" . New International Encyclopedia. 1905."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/L%C3%ADngua_ta%C3%ADno",
+        "situacao": "ok",
+        "texto": "Língua taíno, também grafada taino, é uma língua extinta e escassamente atestada da família arawak, falada pelos taínos das Antilhas. Na época do primeiro contato com os espanhóis, era a língua mais difundida do Caribe.\n[…]\nNo final do século XV, o taíno já havia suplantado as línguas faladas anteriormente nas Grandes Antilhas, exceto no extremo oeste de Cuba e em alguns redutos de Hispaniola. Entretanto, com o declínio da cultura taíno devido à colonização europeia, a língua foi substituída pelo espanhol, pelo inglês e pelo francês. Estima-se que ela tenha deixado de ser falada cerca de cem anos após o contato, embora bolsões isolados no Caribe possam ter sobrevivido até as últimas décadas do século XIX.\n[…]\nLinguisticamente, sabe-se muito pouco sobre o taíno; era uma língua ágrafa e as únicas informações sobreviventes são de relatos e transcrições espanholas.\n[…]\nO taíno foi a primeira língua indígena que os europeus ouviram e registraram nas Américas, por conta disso, o taíno legou ao espanhol numerosos termos relativos a plantas, animais e práticas culturais americanas até então desconhecidas dos europeus. Do espanhol, muitos desses vocábulos passaram a outras línguas, entre as quais o português, o inglês e o francês. O taíno deixou marcas ainda no espanhol de Porto Rico e teria contribuído para a formação do crioulo haitiano.\n[…]\nO taíno também tomou palavras ao espanhol, como Dios \"Deus\", presente em um dos enunciados preservados. Nas línguas arawak vizinhas, esses empréstimos eram adaptados à fonologia da língua receptora, com o desfazimento dos grupos consonantais estranhos à sílaba arawak: o inheri formou isúbara \"espada\" e isíbuse \"espelho\" a partir do espanhol espada e espejo.\n[…]\nLíngua lokono",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Ano Sem Verão",
+      "descricao": "O ano de 1816, marcado por frio anormal no hemisfério norte após a erupção do Monte Tambora"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Presa numa casa na Suíça pelo frio e pelas chuvas do Ano Sem Verão, em 1816, que escritora começou a criar Frankenstein?",
+    "resposta": "Mary Shelley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Year_Without_a_Summer",
+        "situacao": "ok",
+        "texto": "The year 1816 is known as the Year Without a Summer because of severe climate abnormalities that caused average global temperatures to decrease by 0.4–0.7 °C (0.7–1 °F). Summer temperatures in Europe that year were the coldest of any on record between 1766 and 2000, resulting in crop failures and major food shortages across the Northern Hemisphere.\n[…]\nIn June 1816, \"incessant rainfall\" during the \"wet, ungenial summer\" forced Mary Shelley, Percy Bysshe Shelley, Lord Byron, John William Polidori, and their friends to stay indoors at Villa Diodati for much of their Swiss holiday.\n[…]\nInspired by a collection of German ghost stories that they had read, Lord Byron proposed a contest to see who could write the scariest story, leading Shelley to write Frankenstein and Lord Byron to write \"A Fragment\", which Polidori later used as inspiration for The Vampyre – a precursor to Dracula. Those days inside Villa Diodati, remembered fondly by Mary Shelley, were occupied by wine and laudanum use, a tincture of opium, and intellectual conversations.\n[…]\nAfter listening intently to one of these conversations, she awoke with the image of Victor Frankenstein kneeling over his monstrous creation, and thus was inspired to write Frankenstein. Lord Byron was inspired to write the poem \"Darkness\" by a single day when \"the fowls all went to roost at noon and candles had to be lit as at midnight\". The imagery in the poem is starkly similar to the conditions of the Year Without a Summer:\n[…]\nThis may also have contributed to the historic \"Storm of the Century\" on the Atlantic Coast in March that same year.\n[…]\nKlingaman, William; Klingaman, Nicholas (2013). The Year Without Summer: 1816 and the Volcano that Darkened the World and Changed History. New York: St. Martin's Press. p. 338. ISBN 978-0312676452.\n[…]\n1816, the Year Without a Summer on In Our Time at the BBC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ano_sem_Ver%C3%A3o",
+        "situacao": "ok",
+        "texto": "O denominado Ano sem Verão, Ano sem um Verão, Ano da Pobreza ou Ano em Que não Houve Verão, foi o ano de 1816, devido a graves anomalias climáticas que fizeram com que as temperaturas médias globais diminuíssem em 0,4-0,7 ºC. Neste ano, anormalidades climáticas severas do verão destruíram plantações na Europa Setentrional, no nordeste dos Estados Unidos e leste do Canadá.\n[…]\nEm junho de 1816, as \"chuvas incessantes\" durante o \"verão muito desagradável\" forçaram Mary Shelley, Percy Bysshe Shelley, Lorde Byron, John William Polidori e seus amigos a permanecerem em casa na Villa Diodati [en] durante boa parte de suas férias na Suíça.\n[…]\nInspirados por uma coletânea de histórias de fantasmas alemãs que haviam lido, Lorde Byron propôs um concurso para ver quem escreveria a história mais assustadora, levando Shelley a escrever Frankenstein e Lorde Byron a escrever \"A Fragment\", que Polidori posteriormente usou como inspiração para O Vampiro, um precursor de Drácula. Aqueles dias dentro da Villa Diodati, lembrados com carinho por Mary Shelley, foram ocupados por vinho e uso de láudano, uma tintura de ópio, e conversas intelectuais.\n[…]\nBBC Timewatch: Year Without Summer no YouTube (em inglês)\n[…]\nKlingaman, William; Klingaman, Nicholas (2013). The Year Without Summer: 1816 and the Volcano that Darkened the World and Changed History (em inglês). Nova York: St. Martin's Press. p. 338. ISBN 978-0312676452\n[…]\nSoon, Willie; Yaskell, Steven (junho de 2003). «Year Without a Summer». Mercury (em inglês). Consultado em 5 de janeiro de 2015. Arquivado do original em 2 de abril de 2015\n[…]\nStommel, Henry M.; Stommel, Elizabeth (1983). Volcano Weather: The Story of 1816, the Year Without a Summer (em inglês). [S.l.]: Seven Seas Press. ISBN 978-0-915160-71-6. Consultado em 7 de julho de 2026\n[…]\n1816, the Year Without a Summer, In Our Time, BBC Radio 4 (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Volkswagen Passat",
+      "descricao": "Modelo de automóvel da Volkswagen lançado em 1973"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que os nomes dos carros Passat, Jetta e Scirocco, da Volkswagen, têm em comum?",
+    "resposta": "São nomes de ventos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volkswagen_Passat",
+      "https://en.wikipedia.org/wiki/Volkswagen_Jetta",
+      "https://en.wikipedia.org/wiki/Volkswagen_Scirocco"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Passat",
+        "situacao": "ok",
+        "texto": "The Volkswagen Passat is a nameplate of large family cars (D-segment) manufactured and marketed by the German automobile manufacturer Volkswagen since 1973 and also marketed variously as the Dasher, Santana, Quantum, Magotan, Corsar and Carat — in saloon, estate, and hatchback body styles. With sales of 34 million units worldwide, the Passat is the fourth best-selling automobile of all time.\n[…]\nThe B3 Passat was heavily facelifted in 1993, and despite being designated B4, it was not an all-new model. The facelift revised external body panels except for the roof and glasshouse, with the most obvious exterior change seeing the reintroduction of a grille to match the style of the other same-generation Volkswagen models of the era, such as the Mk3 Golf and Jetta.\n[…]\nVolkswagen built 20 examples of a fuel-cell Passat Lingyu in mid-2008 to be presented at the 2008 Beijing Olympics.\n[…]\nFollowing the 2022 model year, Volkswagen discontinued the Passat in North America due to slow sales.\n[…]\nThe Passat nameplate was first used in China in 2011, when SAIC Volkswagen began selling the North American Passat NMS.\n[…]\nIn October 2018, the Chinese market 2019 Passat was unveiled, using the same Volkswagen Group MQB platform as the European Passat and VW Magotan, but it is not directly based on them. As a result, despite the high physical resemblance between the Chinese and North American Passats (and both being called Passat NMS), they have now diverged and are no longer using the same platform.\n[…]\nThe Volkswagen Magotan (China) produced by FAW-VW and Volkswagen Passat NMS (China) produced by SAIC-VW are considered to be near-equivalents, using the same MQB platform and an identical wheelbase of 2871mm, but with slightly different dimensions and different styling. The latest generation based on the B9 version of the European Passat will be launched in 2024."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Jetta",
+        "situacao": "ok",
+        "texto": "The Volkswagen Jetta () is a compact car/small family car manufactured and marketed by Volkswagen since 1979. Positioned to fill a sedan niche slightly above the Golf hatchback, it has been marketed over seven generations, variously as the Atlantic, Vento, Bora, City Jetta, Jetta City, GLI, Jetta, Clasico, and Sagitar (in China).\n[…]\nNumerous sources note that the Jetta nameplate derives from the Atlantic \"jet stream\" during a period when Volkswagen named its vehicles after prominent winds and currents (e.g. the Passat after the German word for trade wind, the Bora after bora, and the Scirocco after sirocco).\n[…]\nThe Volkswagen Lavida has been produced by SAIC-VW since 2008. It was based on a heavily modified FAW-VW first generation Bora (which itself was a rebadged Mk4 Jetta). In 2018, it also switched to the MQB A1 platform, similar to the 2018 Bora and global Mk7 Jetta.\n[…]\nAccording to Carsalesbase.com, FAW-Volkswagen's Jetta A2 model has sold over 2.4 million cars.\n[…]\nThe third known Jetta in China is known as the Sagitar, and has been produced since April 2006. The Sagitar name was used for the fifth, sixth, and seventh generation Jetta in China, as FAW-Volkswagen already used the Jetta name on one of its models.\n[…]\nThe Volkswagen New Jetta was introduced in March 2013, replacing the Chinese-built A2 model, and is a China-built exclusive. The New Jetta was paired with two new Volkswagen engines under the codename EA211, with displacements of 1.4 and 1.6 litres, respectively. The EA211 firstly made its debut in the fifth-generation Volkswagen Santana in 2012. For horsepower ratings, the 1.4-litre unit produced 66 kilowatts (88 horsepower), while the latter produced 81 kilowatts (108 horsepower).\n[…]\nVolkswagen Jetta (China)\n[…]\nTest Drive: VOLKSWAGEN Jetta 1.4 TSI (122 HP) - 2009 by Autoevolution.com\n[…]\nVW JETTA (USA)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Volkswagen_Scirocco",
+        "situacao": "ok",
+        "texto": "The Volkswagen Scirocco is a sport compact car manufactured and marketed by Volkswagen in two generations from 1974 to 1992 and a third generation from 2008 until 2018. Production of the third generation ended without a successor. It is a three-door hatchback with a front-engine, front-wheel-drive layout. The Scirocco derives its name from the Mediterranean wind.\n[…]\nIn April 2007, Volkswagen America vice president Adrian Hallmark claimed that Volkswagen preferred not to bring the Scirocco to North America since it could negatively affect Golf GTI sales. It was later stated that the final decision would be made in 2008 by Martin Winterkorn (Volkswagen's CEO), not Volkswagen of America.\n[…]\nIn early March 2008, MotorAuthority reported that, due to the increasing gap between the United States dollar and the euro, the Scirocco would not be made available for American consumers. \"This car would fit the US market but at the current exchange rate we wouldn't make any money,\" Volkswagen sales and marketing chief Detlef Wittig told Bloomberg reporters.\n[…]\nThe Studie R is a concept car based on the Scirocco GT24, after Volkswagen had cancelled the production of the Scirocco R32. It has a 2.0 L TSI engine rated at 270 PS (199 kW; 266 hp), six-speed dual clutch transmission, four-piston brake calipers and a sound-optimized exhaust system with oval tailpipes.\n[…]\nIn 2017, Volkswagen's Chief Development Officer Dr. Frank Welsch stated that Volkswagen was contemplating options for a new small coupé, and was not clear on how they would approach a new Scirocco, and the possibility of a MEB-based concept. Welsch said that if the Scirocco name was to be used again, it would only be for a sporty 2-door coupé, and would not have a drastically different design from previous Sciroccos.\n[…]\nNew Scirocco – official Volkswagen international portal\n[…]\nScirocco Register forum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Volkswagen_Passat",
+        "situacao": "ok",
+        "texto": "O Passat é um automóvel de segmento D fabricado pela Volkswagen AG. Produzido em várias gerações desde 1973, ele se situa entre o Volkswagen Golf/Jetta e o Phaeton na atual linha de produção da VW. Atualmente produzido na fábrica da VW em Emden, Alemanha, é normalmente chamado de Passat nos mercados europeus, mas recebeu vários outros nomes tais como Dasher, Santana e Quantum, particularmente em m\n[…]\nEsta geração marcou a ida da Volkswagen para o segmento de carros mais sofisticados (deixando o segmento de baixo custo para suas marcas SEAT ou Skoda), e pondo o Passat novamente entre os antigos rivais como o Ford Mondeo e o Opel Vectra, e até mesmo carros mais luxuosos como os BMW Série 3 e os Mercedes Classe C. Na verdade ele indubitavelmente tomou parte do mercado de seu \"irmão\" Audi A4.\n[…]\nEm 2001, surgiu uma versão da Volkswagen Passat com oito cilindros em W que seria o único carro de produção com este tipo de motor.\n[…]\nA 7.ª geração do Volkswagen Passat sofreu poucas alterações em relação à 6.ª. As principais alterações foram a nível estético. A gama Passat da 7.ª geração em Portugal é composta pelas seguintes motorizações (todas a diesel):\n[…]\nO modelo de oitava geração foi introduzido em novembro de 2014 na Europa Continental como um sedan de quatro portas e uma perua. Seguindo outros veículos de passageiros do Grupo Volkswagen, como o Volkswagen Golf Mk7, ele é baseado em uma variante estendida da plataforma MQB, uma plataforma modular de construção de automóveis projetada para carros transversais com motor dianteiro. Para reduzir o peso, foram utilizados materiais leves, como alumínio e aço formado a vácuo.\n[…]\nVolkswagen Passat 3.2 V6 FSI\n[…]\nVolkswagen Passat Peru\n[…]\nAutocar Road Test July 2005: Volkswagen Passat Saloon 2.0TDI SE 4dr (Mk 6)\n[…]\nVW Germany: Passat\n[…]\nAutocar Road Test July 2005: Volkswagen Passat Saloon 2.0TDI SE 4dr (Mk 6)\n[…]\nQuatro Rodas. Grandes Brasileiros: Volkswagen Passat LSE",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Corredor dos Tornados",
+      "descricao": "Região das Grandes Planícies dos Estados Unidos com alta frequência de tornados"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Kansas fica no chamado Corredor dos Tornados, nos Estados Unidos. Que menina de um clássico infantil é levada de lá por um tornado?",
+    "resposta": "Dorothy",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tornado_Alley",
+      "https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tornado_Alley",
+        "situacao": "ok",
+        "texto": "Tornado Alley, also known as Tornado Valley, is a loosely defined location of the central United States where tornadoes are most frequent. The term was first used in 1952 as the title of a research project to study severe weather in portions of Texas, Louisiana, Oklahoma, Kansas, South Dakota, Iowa and Nebraska. Tornado climatologists distinguish peaks in activity in certain areas, and storm chase\n[…]\nThe term is colloquial; there are no definitively set boundaries of Tornado Alley. The area common to most definitions extends from Arkansas, Illinois, Indiana, Iowa, Kansas, Minnesota, Missouri, Montana, Nebraska, North Dakota, Ohio, Oklahoma, South Dakota, Texas, Wisconsin, and eastern portions of Colorado, New Mexico and Wyoming. Research suggests that the main alley may be shifting eastward away from the Great Plains.\n[…]\nTornado Alley can also be defined as an area reaching from central Texas to the Canadian Prairies and from eastern Colorado to western Ohio.\n[…]\nSome researchers argue that there are several Tornado Alleys. In addition to the Texas/Oklahoma/Kansas core, such other areas include the Upper Midwest, the lower Ohio Valley, the Tennessee Valley, and the lower Mississippi valley, which may have respective distinguishing characteristics. A coherent conception considers that there is a single Tornado Alley in the United States and Canada, and that this can simply be subdivided into smaller areas based on regional attributes.\n[…]\nEach year on average, about 43 tornadoes occur across the Canadian Prairies. The peak of the season is June through August. Together, this region makes up the northernmost border of the U.S. Tornado Alley. Tornadoes up to EF5 in strength, such as 2007 Elie tornado have been documented in this region. In some summer months, Saskatchewan has recorded more tornadoes than the entire USA, such as in July 2012.\n[…]\nDixie Alley\n[…]\nTornado hazards in the United States"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz",
+        "situacao": "ok",
+        "texto": "The Wonderful Wizard of Oz is a 1900 children's fantasy novel written by the American author L. Frank Baum and illustrated by W. W. Denslow. It is the first novel in the Oz series of books. A Kansas farm girl named Dorothy ends up in the magical Land of Oz after she and her pet dog Toto are swept away from their home by a cyclone. Upon her arrival in the magical world of Oz, she learns she cannot \n[…]\nDorothy Gale is a young girl who lives with her Aunt Em, Uncle Henry, and dog, Toto, on a farm on the Kansas prairie. One day, Dorothy and Toto are caught up in a \"cyclone\" (more accurately a tornado) that deposits them and the farmhouse into Munchkin Country in the magical Land of Oz. The falling house has killed the Wicked Witch of the East, the evil ruler of the Munchkins.\n[…]\nThey ask him to become their king, which he agrees to do after helping Dorothy return to Kansas. Dorothy summons the Winged Monkeys a third time to fly them over a hill to Glinda's castle.\n[…]\nBaum's wife Maud Gage frequently visited their newborn niece, Dorothy Louise Gage, whom she adored as the daughter she never had. The infant became gravely sick and died at the age of five months in Bloomington, Illinois, on November 11, 1898, from \"congestion of the brain\". Maud was devastated. To assuage her distress, Baum made his protagonist of The Wonderful Wizard of Oz a girl named Dorothy, and he dedicated the book to his wife.\n[…]\n\"To see The Wonderful Wizard of Oz simply as Dorothy's quest for a way to return to Kansas is to miss many of the sources of the books' strength, for like most quest heroes, Dorothy achieves far more than simply finding her way home.\" \"The Wizard of Oz follows the course of the hero's journey in the structure of 'Departure', 'Initiation', and 'Return' which Campbell describes in The Hero with a Thousand Faces\".\n[…]\nDorothy and the Wizard of Oz"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tornado_Alley",
+        "situacao": "ok",
+        "texto": "A Tornado Alley (em português, \"Alameda dos Tornados\") é um termo comum para designar a região central dos Estados Unidos cobrindo muitos estados ou parte de estados onde ocorrem  frequentemente tornados. Inclui as terras baixas que circundam o rio Mississippi, o rio Ohio e os vales do rio Missouri, bem com o sudeste dos Estados Unidos.\n[…]\nOs estados de Oklahoma, Kansas, Arkansas, Iowa e Missouri estão totalmente incluídos na Tornado Alley, bem como o nordeste do Texas, leste do Colorado, norte da Luisiana, centro e sul do Minnesota e Dacota do Sul, noroeste do Mississippi, centro e sul do Illinois, sudoeste do Indiana, e partes do centro, sudeste e sudoeste do Nebraska, pequenas áreas no extremo oeste do Tennessee e Kentucky e algumas zonas do Wisconsin.\n[…]\nNo entanto, tecnicamente, as grandes planícies centrais podem ser consideradas como estando na tornado alley praticamente todo o ano, pois é lá que os «temperature swings », variações brutais de temperatura entre ar quente e ar frio são mais comuns. Pelo contrário, o nordeste e o oeste são as regiões menos afectadas por tornados.\n[…]\nO Canadá registra a segunda maior frequência de tornados no mundo após os Estados Unidos. O número médio de tornados por área igual de terra é mais alta nas partes sul das províncias de Alberta, Saskatchewan, Manitoba e Ontário.\n[…]\nOutro terço dos tornados canadenses atingem o sul das províncias de Ontário e Quebec, especialmente na região entre o Great Lakes e a capital do país, Ottawa. Tornados não costumam atingir regiões de Lake Shadow, embora eles não sejam desconhecidos, e alguns, como o tornado de Goderich/2011, foram violentos. No entanto, a maioria dos tornados de Ontário está concentrada em um corredor estreito de Windsor a Ottawa, bem como através de partes do centro da província de Quebec.\n[…]\nTornado\n[…]\nClimatologia de tornados",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Mata de Araucárias",
+      "descricao": "Floresta do planalto do Sul do Brasil dominada pelo pinheiro-do-paraná"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O nome de que capital do Sul do Brasil vem do tupi e remete aos pinheiros da Mata de Araucárias?",
+    "resposta": "Curitiba",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Curitiba"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Curitiba",
+        "situacao": "ok",
+        "texto": "Curitiba é a capital do estado brasileiro do Paraná. Localiza-se no Primeiro Planalto Paranaense, a 934 metros de altitude, a mais de 110 quilômetros do Oceano Atlântico e a 1 386 km ao sul de Brasília, capital federal. Com 1 773 718 habitantes, é o município mais populoso do Paraná e da Região Sul e o oitavo mais populoso do país, segundo o censo demográfico de 2022 realizado pelo IBGE.\n[…]\nNa época, a colonização, por intermédio da imigração europeia, especialmente italiana e polonesa, foi estimulada pelo governo da província. Foram criados, desde 1867, 35 núcleos coloniais nas terras de floresta ombrófila mista na periferia dos campos de Curitiba. A cidade experimentou um novo surto progressista. Expandiu-se a agricultura e começou a industrialização.\n[…]\nCuritiba tem como vegetação a floresta ombrófila mista, um ecossistema da Mata Atlântica formado por campos e árvores que se entremeiam de capões de florestas com araucária, além de demais formações, como várzeas e matas ciliares. Na vegetação original ainda existem remanescentes da Araucaria angustifolia, as quais sobreviveram à civilização atual. As araucárias estão em bosques particulares e públicos, agora protegidas pela legislação ambiental que impede a sua derrubada.\n[…]\nNo parque linear que está sendo construído ao longo da Linha Verde estão sendo plantadas árvores nativas de Curitiba como o pinheiro-bravo e o dedaleiro.\n[…]\nOs quatro Matsuri que acontecem em Curitiba são: Imin Matsuri (移民祭り, “Festival de Imigração”), que celebra a chegada dos imigrantes japoneses ao Brasil; Haru Matsuri (春祭り, “Festa de primavera”), que comemora o final do inverno e o início da estação primaveril; Hana Matsuri (花祭り, “Festividade das Flores”), que homenageia o nascimento de Xaquiamuni; e Seto Matsuri (“Espetáculo de Seto”), em memória de Cláudio Seto, idealizador do primeiro Matsuri de Curitiba.\n[…]\n«Curitiba no WikiMapia»"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Floresta Amazônica",
+      "descricao": "Floresta tropical úmida da bacia amazônica, na América do Sul"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Ventos atravessam o Atlântico levando uma poeira que ajuda a fertilizar o solo da Floresta Amazônica. De que deserto vem essa poeira?",
+    "resposta": "Saara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bodélé_Depression"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bodélé_Depression",
+        "situacao": "ok",
+        "texto": "The Bodélé Depression (pronounced [bɔ.de.le]), located at the southern edge of the Sahara Desert in north central Africa, is the lowest point in Chad. It is 500 km long, 150 km wide and around 160 m deep. Its bottom lies about 155 meters above sea level. The dry endorheic basin is a major source of fertile dust essential for the Amazon rainforest, with some studies suggesting that it supplies over\n[…]\nDiatoms from these fresh water lakes, once part of the prehistoric Mega-Lake Chad, now make up the surface of the depression and are the source material for the dust, which, carried across the Atlantic Ocean, is an important source of nutrient minerals for the Amazon rainforest.\n[…]\nThis jet maximum coincides with the exit gap of the North-easterlies between the Tibesti mountains and the Ennedi massif, which lie 2600 m and 1000 m above the flat terrain in the Djourab Desert of Chad, respectively. The effect of the Tibesti massif is clearly evident in creating a split in the low-level easterly flow north and south of these mountains. While the jet feature is pronounced over the Bodélé, it is absent from other longitudes over west Africa along 18 N.\n[…]\nThe same researchers who in 2004 more accurately determined the speed of wind through the depression also published in 2006 work showing that more than half of the dust needed for fertilizing the Amazon rainforest is provided by the Bodélé depression, which deposits up to 50 million tonnes in South America per year."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Depress%C3%A3o_de_Bod%C3%A9l%C3%A8",
+        "situacao": "ok",
+        "texto": "A depressão Bodélé é uma depressão africana localizada no Chade que teria se formado quando o maior lago da África, o mega-lago Chade, secou há cerca de mil anos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Ventos alísios",
+      "descricao": "Ventos constantes que sopram dos trópicos em direção ao equador"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1492, que navegador aproveitou os ventos alísios para atravessar o Atlântico rumo à América?",
+    "resposta": "Cristóvão Colombo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trade_winds",
+      "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trade_winds",
+        "situacao": "ok",
+        "texto": "The trade winds,  or easterlies,  are east-to-west prevailing winds that flow in Earth's equatorial region. The trade winds blow mainly from the northeast in the Northern Hemisphere and from the southeast in the Southern Hemisphere, strengthening during the winter and when the Arctic oscillation is in its warm phase. Trade winds have been used by captains of sailing ships to cross the world's ocea\n[…]\nThey enabled European colonization of the Americas, and trade routes to become established across the Atlantic Ocean and the Pacific Ocean.\n[…]\nThe weaker the trade winds become, the more rainfall can be expected in the neighboring landmasses.\n[…]\nBy the 18th century, the importance of the trade winds to England's merchant fleet for crossing the Atlantic Ocean had led both the general public and etymologists to identify the name with a later meaning of \"trade\": \"(foreign) commerce\". Between 1847 and 1849, Matthew Fontaine Maury collected enough information to create wind and current charts for the world's oceans.\n[…]\nAs an example, the windy season in the Guianas, which lie at low latitudes in South America, occurs between January and April. When the phase of the Arctic oscillation (AO) is warm, trade winds are stronger within the tropics. The cold phase of the AO leads to weaker trade winds. When the trade winds are weaker, more extensive areas of rain fall upon landmasses within the tropics, such as Central America.\n[…]\nDuring mid-summer in the Northern Hemisphere (July), the westward-moving trade winds south of the northward-moving subtropical ridge expand northwestward from the Caribbean Sea into southeastern North America (Florida and Gulf Coast). When dust from the Sahara moving around the southern periphery of the ridge travels over land, rainfall is suppressed and the sky changes from a blue to a white appearance which leads to an increase in red sunsets.\n[…]\nWinds in the Age of Sail"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus",
+        "situacao": "ok",
+        "texto": "Between 1492 and 1504, the Italian explorer and navigator Christopher Columbus\n[…]\nExploration of North America\n[…]\nLugares colombinos\n[…]\nKnights of Colombus\n[…]\nDiario de Colón (1892). Relaciones y cartas de Cristóbal Colón (in Spanish). Madrid: Librería de la Viuda de Hernando y Compañía.{{cite book}}:  CS1 maint: ref duplicates default (link)\n[…]\nDíaz-Trechuelo Spínola, María Lourdes (2006). Cristóbal Colón, su tiempo y sus reflejos (in Spanish). Sevilla: Centro de Estudios Andaluces.{{cite book}}:  CS1 maint: ref duplicates default (link)\n[…]\nMuro Orejón, Antonio (1964). Pleitos colombinos (in Spanish). Vol. 8. Sevilla: Escuela de Estudios Hispano-Americanos.{{cite book}}:  CS1 maint: ref duplicates default (link)\n[…]\nMuro Orejón, Antonio (1989). Pleitos colombinos (in Spanish). Vol. 4. Sevilla: Escuela de Estudios Hispano-Americanos.{{cite book}}:  CS1 maint: ref duplicates default (link)\n[…]\nVarela, Consuelo (2010). Cristóbal Colón: Textos y documentos completos (in Spanish). Madrid: Alianza Editorial.{{cite book}}:  CS1 maint: ref duplicates default (link)\n[…]\nVarela Marcos, Jesús (2005). Cristóbal Colón y el descubrimiento de América (in Spanish). Madrid: Rialp.{{cite book}}:  CS1 maint: ref duplicates default (link)\n[…]\nVerlinden, Charles; Pérez-Embid, Florentino (1967). Cristóbal Colón y el descubrimiento de América (in Spanish). Madrid: Rialp.{{cite book}}:  CS1 maint: ref duplicates default (link)\n[…]\nLandstrom, Bjorn, 1966. Columbus: The story of Don Cristobal Colon Admiral of the Ocean. Macmillan."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Al%C3%ADsios",
+        "situacao": "ok",
+        "texto": "Os alísios, também chamados alíseos, aliseus ou  alisados,  são ventos regulares quanto à direção e constantes em intensidade e que sopram todo o ano, de leste para oeste, das altas pressões subtropicais para as baixas pressões equatoriais da Terra. Fazem parte da célula de Hadley, que é uma das três células de macrocirculação atmosférica e que está situada na faixa intertropical.\n[…]\nOs ventos alísios sopram principalmente de nordeste no Hemisfério Norte e de sudeste, no Hemisfério Sul, fortalecendo-se durante o inverno no respectivo hemisfério, quando a oscilação Ártica está na sua fase quente. Desde a era dos descobrimentos, os ventos alísios têm sido usados pelos navios à vela para cruzar os oceanos, e o seu uso permitiu a expansão colonial europeia nas Américas e as rotas comerciais que se estabeleceram através do Oceano Atlântico e do Oceano Pacífico.\n[…]\nPor essa razão, os alísios são chamados, em inglês, trade winds.\n[…]\nEm meteorologia, os ventos alísios atuam como os fluxo de direção na determinação do percurso das tempestades tropicais que se formam sobre os oceanos Atlântico, Pacífico e sul do Índico e atingem terra na América do Norte, Sudeste Asiático e Madagáscar e África Oriental.\n[…]\nOs ventos alísios também transportam poeira do Sahara, rica em nitratos e fosfatos, para as América Central, nordeste da América do Sul, o Mar das Caraíbas e para partes do sudeste e sudoeste da América do Norte.\n[…]\nOs contra-alísios sopram do Equador para os trópicos, em altitudes elevadas. Os contra-alísios são ventos secos e os responsáveis pelas calmarias tropicais secas que geralmente ocorrem ao longo dos trópicos. Os maiores desertos da Terra encontram-se junto a essas zonas atravessadas pelos trópicos. Os ventos contra-alísios ocorrem em duas faixas do globo divididas pela linha do Equador, e se formam pelo aquecimento do ar junto à região equatorial.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Deserto do Kalahari",
+      "descricao": "Grande região semiárida arenosa do sul da África, em Botsuana, Namíbia e África do Sul"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que filme de 1980 um homem do povo san, no Deserto do Kalahari, encontra uma garrafa de Coca-Cola caída de um avião?",
+    "resposta": "Os Deuses Devem Estar Loucos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Gods_Must_Be_Crazy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Gods_Must_Be_Crazy",
+        "situacao": "ok",
+        "texto": "The Gods Must Be Crazy is a 1980 comedy film written, produced, edited and directed by Jamie Uys. An international co-production of South Africa and Botswana, it is the first film in The Gods Must Be Crazy series. Set in Southern Africa, the film stars South West African San farmer Nǃxau ǂToma as Xi, a hunter-gatherer of the Kalahari Desert whose tribe discovers a glass Coca-Cola bottle dropped fr\n[…]\nXi and his San tribe live happily in the Kalahari Desert, away from industrial civilisation. One day, a glass Coca-Cola bottle, thrown out of an airplane by a pilot, falls to the soft ground unbroken. Xi's people assume the bottle to be a gift from the gods, just like plants and animals, finding countless new uses for it, such as curing animal hides, carrying water, grinding roots, rolling dough, and tracing decorative circular shapes.\n[…]\nAfter writing the script for The Gods Must Be Crazy, Uys reportedly spent three months traversing the Kalahari Desert with an interpreter, searching for a San person to play the role of Xi in the film. Visiting areas of the desert inhabited by the San, Uys took photographs of individuals he felt he might cast, and then \"marked the longitude and latitude, so we could find them again\".\n[…]\nAccording to Uys, N!xau would be flown back to his home in the Kalahari Desert every three or four weeks to prevent him from suffering from culture shock. During his time in urban areas, N!xau learned to smoke and acquired an affinity for liquor and sake. Uys said that he paid N!xau $300 for his first 10 days of work, but that the money was reportedly blown away by wind. N!xau was then compensated with 12 head of cattle."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Os_Deuses_Devem_Estar_Loucos",
+        "situacao": "ok",
+        "texto": "Os Deuses Devem Estar Loucos (em inglês:  The Gods Must Be Crazy) é um filme de comédia sul-africano-botsuano de 1980 escrito, produzido, editado e dirigido pelo cineasta Jamie Uys.\n[…]\nO cineasta Jamie Uys concebeu a premissa de Os Deuses Devem Estar Loucos enquanto fazia o documentário de 1974 Animals Are Beautiful People. Tal produção foi filmada parcialmente no deserto do Kalahari, onde Uys encontrou pela primeira vez o povo San e \"se apaixonou por eles\".\n[…]\nNo documentário de 1980 Nǃai, the Story of a ǃKung Woman, dirigido por John Marshall, são usadas imagens das filmagens de Os Deuses Devem Estar Loucos. O documentário mostra um povo San isolado vivendo em uma reserva estabelecida pelas autoridades sul-africanas em Tsumkwe, Namíbia. Os San retratados nessa produção não são mostrados como caçadores-coletores: eles dependem do governo para alimentação e outras ajudas, com alguns sofrendo de tuberculose.\n[…]\nOs Deuses Devem Estar Loucos teve sua estreia nacional na África do Sul em 10 de setembro de 1980, sendo distribuído no país pela Ster-Kinekor Pictures. Nos primeiros quatro dias de seu lançamento, o filme quebrou recordes de bilheteria em várias cidades da África do Sul. Tornou-se o filme de maior bilheteria de 1982 no Japão, onde foi lançado sob o título \"Bushman\". O produtor executivo Boet Troskie vendeu os direitos de distribuição do filme para 45 países.\n[…]\nEm sua crítica do filme para o The New York Times, o crítico Vincent Canby escreveu que \"assistindo a Os Deuses Devem Estar Loucos, de Jamie Uys, [...] alguém poderia suspeitar que não existissem coisas como apartheid, a Lei da Imoralidade ou mesmo a África do Sul\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Corrente de Humboldt",
+      "descricao": "Corrente marítima fria que corre para o norte ao longo da costa oeste da América do Sul"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que naturalista alemão dá nome a uma corrente marítima fria do Pacífico e a uma espécie de pinguim que vive junto a ela?",
+    "resposta": "Alexander von Humboldt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Humboldt_Current",
+      "https://en.wikipedia.org/wiki/Humboldt_penguin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Humboldt_Current",
+        "situacao": "ok",
+        "texto": "The Humboldt Current, also called the Peru Current, is a cold, low-salinity ocean current that flows north along the western coast of South America. It is an eastern boundary current flowing in the direction of the equator, and extends 500–1,000 km (310–620 mi) offshore. The Humboldt Current is named after the German naturalist Alexander von Humboldt even though it was discovered by José de Acosta\n[…]\nIn 1846, von Humboldt reported measurements of the cold-water current in his book Cosmos.\n[…]\nThe limb of the Humboldt Current System that veers off the coast of Peru creates a decrease in ventilation within the system. This lack of ventilation is the primary driver of an intense oxygen minimum zone (OMZ) which is formed in the sub-surface to intermediate depths. In the north, the EUC ventilates the OMZ, and in the south the PCU advects low oxygen waters southward towards northern Chile. This OMZ is the fourth largest permanent hypoxic zone in the world's oceans.\n[…]\nThe Humboldt current produces some of the most successful commercial fisheries in the world. The major catches include: sardines, anchovies, mackerel, hake, and squid. Three major stocks of anchoveta are distributed between 4°S and 42°S within the Humboldt Current System. North-central Peru's fishery is primarily composed of one stock of anchoveta. Sardines, chub mackerel, and bonito are also common catches, but not as prominent, in Peru.\n[…]\nJack mackerel (jurel) is the second largest fishery in the Humboldt Current System. As with the anchoveta in Peru, this species is believed to be composed of a single stock. Jurel are a straddling species. This means the species is found both within and outside of the 200-mile economic exclusive zone. Jurel became an important fishery in the 1970s to alleviate the pressure put on the anchoveta stock.\n[…]\nThis article incorporates public domain material from Humboldt current. NOAA."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Humboldt_penguin",
+        "situacao": "ok",
+        "texto": "The Humboldt penguin (Spheniscus humboldti)  is a medium-sized penguin. It resides in South America, along the Pacific coast of Peru and Chile. Its nearest relatives are the African penguin, the Magellanic penguin and the Galápagos penguin. The Humboldt penguin and the cold water current it swims in are both named after the explorer Alexander von Humboldt. The species is listed as vulnerable by th\n[…]\nBoth the Humboldt penguin and the Humboldt current were named after Alexander von Humboldt. It is known in Peru as the pajaro-niño, which translates to \"baby-bird\", due to their waddling gait and flightless wings held out suggesting the image of an infant toddling on the beach.\n[…]\nThe Humboldt penguin's breeding distribution ranges from southern Chile along the dry and arid coastal regions of the Atacama Desert to subtropical Isla Foca in north Peru. Its range is restricted to the coast and offshore islands affected by the Humboldt current, which provides a continuous supply of nutrients and food, thus supporting huge populations of seabird. In Chile, the most important breeding colony is at Isla Chañaral.\n[…]\nThe ecosystem of the Humboldt current is affected by the El Niño phenomenon. During the El Niño, upwelling of nutrient-rich bottom water in the south-eastern Pacific Ocean is depressed, as well as sea surface temperature anomaly (SSTA) value increases. Massive mortality, especially of juveniles, nest desertion and lack of reproduction occurs. Humboldt penguins migrate south as marine productivity decreases, following the anchovy stocks.\n[…]\nHumboldt penguins expend more time and energy foraging as SSTA increases.\n[…]\nIn August 2010 the Humboldt penguin of Chile and Peru, was granted protection under the U.S. Endangered Species Act. Most penguins breed within protected areas.\n[…]\nHumboldt penguin on PenguinWorld\n[…]\nHumboldt penguins at Marwell"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Corrente_de_Humboldt",
+        "situacao": "ok",
+        "texto": "A corrente de Humboldt ou corrente do Peru é uma corrente oceânica de superfície que percorre o oceano Pacífico. Foi assim denominada em homenagem ao geógrafo prussiano Alexander von Humboldt. Foi descoberta pelo cientista espanhol José de Acosta (1540-1600) em sua Historia Natural y Moral de las Indias (1590), e descrita pelo naturalista alemão Alexander von Humboldt em sua obra Viagem às Regiões\n[…]\nNascendo perto da Antártida, ela é a corrente mais fria do mundo, com uma temperatura aproximadamente 7 ou 8 °C inferior à temperatura média do oceano na mesma latitude. A corrente de Humboldt acompanha as costas do Chile e do Peru, na América do Sul. Ricas em plâncton, as suas águas atraem muitos peixes, fato que faz do Peru um dos principais produtores de pescado em escala mundial.\n[…]\nJá durante o fenômeno do El Niño, a corrente de Humboldt desaparece e deixa em seu lugar uma corrente quente, diminuindo o plâncton e aumentando as precipitações pluviométricas na costa sul-americana do Pacífico. Suas águas têm características diferentes das águas oceânicas. Por terem outra temperatura, salinidade, coloração e densidade, elas não se misturam facilmente com as águas do mar por onde passam.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Rios voadores",
+      "descricao": "Correntes de vapor de água que levam a umidade da Amazônia para o centro-sul do Brasil"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os chamados rios voadores, correntes de umidade que levam chuva ao Sudeste do Brasil, se formam sobre qual floresta?",
+    "resposta": "Floresta Amazônica",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rios_voadores"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rios_voadores",
+        "situacao": "ok",
+        "texto": "Os rios atmosféricos,  também conhecidos como rios voadores ou rios aéreos, consistem em fluxos concentrados de vapor de água em médios e altos níveis da atmosfera. Embora se use a terminologia \"rio\" para o fenômeno, trata-se apenas de uma analogia; os rios atmosféricos são invisíveis e não tem margens claramente definidas, ao contrário do que é observado nos rios terrestres.\n[…]\nNa América do Sul, o fenômeno dos rios atmosféricos tem início a partir de certas regiões da Amazônia. Estes fluxos de ar saturado com vapor d'água são alimentados pela umidade fornecida pela floresta, transportando umidade e vapor de água advindos da evapotranspiração das árvores para outras regiões. No Brasil, normalmente estão relacionados ao registro de chuvas intensas e duradouras nas regiões sudeste, sul e centro-oeste.\n[…]\nA umidade evaporada a partir do Oceano Atlântico próximo à linha do equador é transportada pelos ventos alísios, formando nuvens capazes de causar muita precipitação. Quando chegam sobre a floresta amazônica, essas nuvens geram chuvas. Posteriormente, as árvores que absorveram essa água sofrem evapotranspiração, devolvendo para a atmosfera a umidade absorvida, na forma de vapor de água.\n[…]\nAo longo desse processo, essas massas de ar também causam precipitações significativas em trechos da porção oriental dos Andes centrais, dando origem a diversos rios da bacia amazônica.\n[…]\nA vazão dos rios flutuantes é equivalente a vazão dos rios amazônicos, lançando cerca de 200 000 m3/s. Isso acontece porque uma árvore bombeia para a atmosfera mais de 300 litros de água, em um dia, sendo que uma árvore maior, pode evapotranspirar mais de 1 000 litros por dia. Imagina-se que haja 600 bilhões de árvores na Amazônia."
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Pequena Era do Gelo",
+      "descricao": "Período de resfriamento do clima no hemisfério norte entre os séculos quatorze e dezenove"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Durante a Pequena Era do Gelo, que rio congelava a ponto de os londrinos montarem feiras sobre o gelo?",
+    "resposta": "Tâmisa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/River_Thames_frost_fairs",
+      "https://en.wikipedia.org/wiki/Little_Ice_Age"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/River_Thames_frost_fairs",
+        "situacao": "ok",
+        "texto": "The River Thames frost fairs were held on the tideway of the River Thames in London, England in some winters, starting at least as early as the late 7th century until the early 19th century. Most were held between the early 17th and early 19th centuries during the period known as the Little Ice Age, when the river froze over most often, though still infrequently.\n[…]\nFrost fairs were a rare event even in the coldest parts of the Little Ice Age. Some of the recorded frost fairs were in 695, 1608, 1683–84, 1716, 1739–40, 1789, and 1814. Recreational cold weather winter events were far more common elsewhere in Europe, for example in the Netherlands, where at least many canals often froze over. These events in other countries as well as the winter festivals and carnivals around the world in present times can also be considered frost fairs.\n[…]\nThe period from the mid-14th century to the 19th century in Europe is called the Little Ice Age because of the severity of the climate, especially the winters. In England, when the ice was thick enough and lasted long enough, Londoners would take to the river for travel, trade, and entertainment, the latter eventually taking the form of public festivals and fairs.\n[…]\nSchneer, Jonathan (2005). The Thames: England's River. London: Little, Brown. ISBN 978-0-316-86139-7."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Little_Ice_Age",
+        "situacao": "ok",
+        "texto": "The Little Ice Age (LIA) was a period of regional cooling, particularly pronounced in the North Atlantic region. It was not a true ice age of global extent. The term was introduced into scientific literature by François E. Matthes in 1939. The period has been conventionally defined as extending from the 16th to the 19th centuries, but some experts prefer an alternative time-span from about 1300 to\n[…]\nThe Little Ice Age ended in the latter half of the 19th century or in the early 20th century.\n[…]\nFagan, Brian M. (2001). The Little Ice Age: How Climate Made History, 1300–1850. Basic Books. ISBN 978-0-465-02272-4.\n[…]\nWaldinger, Maria (2022). \"The Economic Effects of Long-Term Climate Change: Evidence from the Little Ice Age\". Journal of Political Economy.\n[…]\nWhite, Sam (2017). A Cold Welcome: The Little Ice Age and Europe's Encounter with North America. Cambridge, Massachusetts: Harvard University Press. ISBN 978-0-674-97192-9.\n[…]\nDansgaard cycles and the Little Ice Age (LIA)Archived 17 April 2007 at the Wayback Machine (It is not easy to see an LIA in the graphs.)\n[…]\nTyson, P. D.; Karlen, W.; Holmgren, K.; Heiss, G. A. (2000). \"The Little Ice Age and Medieval Warming in South Africa\" (PDF). South African Journal of Science. 96 (3): 121–126. Archived (PDF) from the original on 9 October 2022.\n[…]\nWas El Niño unaffected by the Little Ice Age? Archived 30 January 2008 at the Wayback Machine(2002)\n[…]\nEvidence for the Little Ice Age in Spain Archived 22 February 2007 at the Wayback Machine, c. 2003\n[…]\nThe Little Ice Age in Europe, updated 2009\n[…]\n\"The Little Ice Age, Ca. 1300–1870\". Timeline of European Environmental History. undated review article\n[…]\nHistoricalClimatology.com, links, resources, and feature articles on the Little Ice Age and its present-day relevance\n[…]\nClimate History Network, association of historical climatologists and climate historians, many of whom study the Little Ice Age and its social consequences"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Feiras_de_gelo_do_Rio_T%C3%A2misa",
+        "situacao": "ok",
+        "texto": "As Feiras de gelo do Rio Tâmisa eram realizadas no tideway, parte do Rio Tâmisa na Inglaterra que está sujeita às marés, em Londres, em alguns invernos, ocorrendo pelo menos desde o final do século VII até o início do século XIX. A maioria aconteceu entre o começo do século XVII e o início do século XIX, durante o período conhecido como a Pequena Idade do Gelo, quando o rio congelava com mais freq\n[…]\nMesmo em seu auge, em meados do século XVII, o Tâmisa em Londres congelava com menos frequência do que a lenda moderna às vezes sugere, nunca excedendo cerca de um ano em dez, exceto em quatro invernos entre 1649 e 1666. De 1400 até a remoção da ponte medieval de Londres em 1831, foram registrados 24 invernos em que o Tâmisa congelou em Londres.\n[…]\nO Tâmisa congela com mais frequência rio acima, além do alcance da maré, especialmente acima das comportas (weirs), das quais a Teddington Lock é a mais baixa. A última grande congelação do trecho superior do Tâmisa ocorreu em 1962–63.\n[…]\nAs feiras de gelo eram um evento raro mesmo nos períodos mais frios da Pequena Idade do Gelo. Algumas das feiras de gelo registradas ocorreram em 695, 1608, 1683–84, 1716, 1739–40, 1789 e 1814. Eventos de inverno em clima frio para fins recreativos eram muito mais comuns em outras partes da Europa, por exemplo, nos Países Baixos, onde muitos canais frequentemente congelavam.\n[…]\nDurante a Grande Geada de 1683–84, a congelação mais severa já registrada na Inglaterra, o Tâmisa permaneceu completamente congelado por dois meses, com o gelo atingindo cerca de 11 polegadas (28 cm) de espessura em Londres. Foi relatado gelo sólido estendendo-se por muitas milhas ao longo das costas do sul do Mar do Norte (Inglaterra, França e os Países Baixos), causando sérios problemas à navegação e impedindo o uso de muitos portos.\n[…]\nSchneer, Jonathan (2005). The Thames: England's River. London: Little, Brown. ISBN 978-0-316-86139-7",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Deserto de Gobi",
+      "descricao": "Grande deserto frio da Ásia Central"
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Deserto de Gobi se estende pela Mongólia e por que outro país?",
+    "resposta": "China",
+    "distratores": [
+      "Rússia",
+      "Cazaquistão",
+      "Afeganistão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gobi_Desert"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gobi_Desert",
+        "situacao": "ok",
+        "texto": "The Gobi Desert is a large, cold desert and grassland region in southern Mongolia and North China. It is the sixth-largest desert in the world.\n[…]\nThe Gobi Desert is expanding through desertification, most rapidly on the southern edge into China, which is seeing 3,600 km2 (1,390 sq mi) of grassland overtaken every year. Dust storms increased in frequency between 1996 and 2016, causing further damage to China's agriculture economy. However, in some areas desertification has been slowed or reversed.\n[…]\nEastern Gobi desert steppe, the easternmost of the Gobi ecoregions, covering an area of 281,800 km2 (108,804 sq mi). It extends from the Inner Mongolian Plateau in China northward into Mongolia. It includes the Yin Mountains and many low-lying areas with salt pans and small ponds. It is bounded by the Mongolian-Manchurian grassland to the north, the Yellow River Plain to the southeast, and the Alashan Plateau semi-desert to the southwest and west.\n[…]\nDzungarian Basin semi-desert, includes the desert basin lying between the Altai mountains on the north and the Tian Shan range on the south. It includes the northern portion of China's Xinjiang province and extends into the southeastern corner of Mongolia. The Alashan Plateau semi-desert lies to the east, and the Emin Valley steppe to the west, on the China-Kazakhstan border.\n[…]\nGeography of China\n[…]\nGreen Wall of China\n[…]\nMongolian death worm (olgoi khorkhoi), said to inhabit the Gobi in Mongolia\n[…]\nLattimore, Owen (June 1973). \"Return to China's Northern Frontier\". The Geographical Journal. 139 (2): 233–242. doi:10.2307/1796091. JSTOR 1796091.\n[…]\nMap, from \"China the Beautiful\" (archived 13 May 2008)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deserto_de_Gobi",
+        "situacao": "ok",
+        "texto": "O Deserto de Gobi é um extenso deserto situado na região norte da República Popular da China e região sul da Mongólia. A palavra Gobi significa deserto, em mongol. Está entre os 5 maiores desertos do mundo, sendo o deserto de Gobi o 5º.\n[…]\nAs tempestades de areia oriundas dos desertos são não apenas um fenômeno meteorológico, que afeta o clima tanto pela absorção quanto pela refração da radiação solar pelas partículas em suspensão — também afetam a vida, muitas vezes associadas as doenças que afetam desde seres marinhos quanto a animais terrestres e pessoas. As tempestades de Gobi são especialmente afetadas por agregar elementos poluentes das áreas industrializadas e populosas que atravessam.\n[…]\nEsta tempestade, em abril de 2001, teve sua origem identificada na Sibéria, os ventos carregaram partículas dos desertos de Gobi, na Mongólia, e de Taklamakan, na China, formando uma nuvem com mais de 2000 km de extensão. Esta nuvem tomou a cidade de Baicheng, e depois cobriu o Japão e Coreia do Norte, chegando enfim à América, indo do Alasca até a Flórida, trazendo areia e contaminantes.\n[…]\nNum estudo científico de 2004 realizado por universidades da China e de Hong Kong constatou-se que amostras de partículas de três tempestades distintas continham, além dos elementos típicos do solo, elementos orgânicos como fenantreno, fluoranteno, pireno, benzopireno, benzofluoranteno, perileno, antraceno e outros — derivados tanto da emissão de derivados do petróleo quanto de elementos vegetais cerosos, provavelmente decorrente do atrito das partículas com a vegetação.\n[…]\nNa parte chinesa do deserto esta localizado o Parque eólico de Gansu, inaugurado em 2009, o maior parque eólico do mundo.\n[…]\nGeografia da China",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Sundarbans",
+      "descricao": "Grande floresta de manguezal no delta dos rios Ganges e Bramaputra"
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Os Sundarbans, imenso manguezal onde vive o tigre-de-bengala, ficam na Índia e em que outro país?",
+    "resposta": "Bangladesh",
+    "distratores": [
+      "Myanmar",
+      "Sri Lanka",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sundarbans"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sundarbans",
+        "situacao": "ok",
+        "texto": "Sundarbans is a mangrove forest area in the Ganges Delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. It spans the area from the Hooghly River in India's state of West Bengal to the Baleswar River in Bangladesh's Khulna Division. It comprises closed and open mangrove forests, land used for agricultural purpose, mudflats and barren land, and is interse\n[…]\nIn many of the Bangladesh's mangrove wetlands, freshwater reaching the mangroves was considerably reduced from the 1970s because of diversion of freshwater in the upstream area by neighbouring India through the use of the Farakka Barrage bordering Rajshahi, Bangladesh. Also, the Bengal Basin is slowly tilting towards the east because of neo-tectonic movement, forcing greater freshwater input to the Bangladesh Sundarbans.\n[…]\nProtected areas cover 15% of the Sundarbans mangroves including Sundarbans National Park and Sajnakhali Wildlife Sanctuary, in West Bengal, Sundarbans East, Sundarbans South and Sundarbans West Wildlife Sanctuaries in Bangladesh.\n[…]\nThe Sundarban National Park is a National Park, Tiger Reserve, and a Biosphere Reserve in West Bengal, India. It is part of the Sundarbans on the Ganges Delta, and adjacent to the Sundarbans Reserve Forest in Bangladesh. The delta is densely covered by mangrove forests, and is one of the largest reserves for the Bengal tiger. It is also home to a variety of bird, reptile and invertebrate species, including the salt-water crocodile.\n[…]\nThe greatest of these being the Bengal tiger of which an estimated 350 remain in the Bangladesh Sundarbans. Other large mammals are wild boar, chital horin (spotted deer), Indian otter and macaque monkey. Five species of marine turtles frequent the coastal zone and two endangered reptiles are present – the estuarine crocodile and the Indian python.\n[…]\nWorld Heritage Site: The Sundarbans\n[…]\nFinfishes of Sundarbans"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sundarbans",
+        "situacao": "ok",
+        "texto": "O mangue arbóreo de Sundarbans, uma das maiores florestas desse tipo do mundo, é formado no delta dos rios Ganges, Bramaputra e Meghna na Baía de Bengala. O local é composto por três santuários (Oeste de Sundarbans, Sul e Leste), com uma área total de 140.000 hectares. Fica situado adjacente ao Sundarbans de Bangladesh, local do Patrimônio Mundial, inscrito em 1997.\n[…]\nOs três santuários são cruzados por uma rede complexa de vias fluviais dependentes da maré e possuem pequenas ilhas de florestas de mangue tolerantes ao sal e apresentam um excelente exemplo de processos ecológicos, exibindo os efeitos de chuvas de monção, formação de delta, influência relativa à maré e colonização de plantas.\n[…]\nA área é conhecida por sua gama extensa de fauna que inclui 260 espécies de pássaros, o tigre-de-bengala e outras espécies ameaçadas, como o crocodilo-marinho e a píton-indiana.\n[…]\nParque Nacional dos Sundarbans - na Índia, junto ao parque do Bangladesh",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Tundra",
+      "descricao": "Bioma sem árvores das regiões polares e de altas montanhas, de verão curto e frio"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Como se chama a camada de solo que fica congelada o ano inteiro sob a tundra?",
+    "resposta": "Permafrost",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tundra",
+      "https://en.wikipedia.org/wiki/Permafrost"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tundra",
+        "situacao": "ok",
+        "texto": "In physical geography, a tundra () is a type of biome where tree growth is hindered by frigid temperatures and short growing seasons. There are three regions and associated types of tundra: Arctic, Alpine, and Antarctic.\n[…]\nTundra vegetation is composed of dwarf shrubs, sedges, grasses, mosses, and lichens. Scattered trees grow in some tundra regions. The ecotone (or ecological boundary region) between the tundra and the forest is known as the tree line or timberline. The tundra soil is rich in nitrogen and phosphorus. The soil also contains large amounts of biomass and decomposed biomass that has been stored as methane and carbon dioxide in the permafrost, making the tundra soil a carbon sink.\n[…]\nArctic tundra occurs in the far Northern Hemisphere (Arctic), north of the taiga belt. The word \"tundra\" usually refers only to the areas where the subsoil is permafrost, or permanently frozen soil. (It may also refer to the treeless plain in general so that northern Sápmi would be included.) Permafrost tundra includes vast areas of northern Russia and Canada.\n[…]\nThe polar tundra is home to several peoples who are mostly nomadic reindeer herders, such as the Nganasan and Nenets in the permafrost area (and the Sámi in Sápmi).\n[…]\nA severe threat to tundra is climate change, which causes permafrost to thaw. The thawing of the permafrost in a given area on human time scales (decades or centuries) could radically change which species can survive there. It also represents a significant risk to infrastructure built on top of permafrost, such as roads and pipelines.\n[…]\nTundra of North America\n[…]\nInternational Tundra Experiment\n[…]\nArctic Feedbacks to Global Warming: Tundra Degradation in the Russian Arctic\n[…]\nWorld Map of Tundra"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Permafrost",
+        "situacao": "ok",
+        "texto": "Permafrost (from  perma- 'permanent' and  frost) is soil or underwater sediment which continuously remains below 0 °C (32 °F) for two years or more; the oldest permafrost has been continuously frozen for around 700,000 years. Whilst the shallowest permafrost has a vertical extent of below a meter (3 ft), the deepest is greater than 1,500 m (4,900 ft). Similarly, the area of individual permafrost z\n[…]\nPermafrost contains large amounts of dead biomass that has accumulated throughout millennia without having had the chance to fully decompose and release its carbon, making tundra soil a carbon sink. As global warming heats the ecosystem, frozen soil thaws and becomes warm enough for decomposition to start anew, accelerating the permafrost carbon cycle.\n[…]\nIn North America, only an extremely narrow belt of permafrost existed south of the ice sheet at about the latitude of New Jersey through southern Iowa and northern Missouri, but permafrost was more extensive in the drier western regions where it extended to the southern border of Idaho and Oregon. In the Southern Hemisphere, there is some evidence for former permafrost from this period in central Otago and Argentine Patagonia, but was probably discontinuous, and is related to the tundra.\n[…]\nAnother factor which complicates projections of permafrost carbon emissions is the ongoing \"greening\" of the Arctic. As climate change warms the air and the soil, the region becomes more hospitable to plants, including larger shrubs and trees which could not survive there before. Thus, the Arctic is losing more and more of its tundra biomes, yet it gains more plants, which proceed to absorb more carbon.\n[…]\nPermafrost Museum\n[…]\nInternational Permafrost Association (IPA)\n[…]\nMap of permafrost in Antarctica.\n[…]\nPermafrost – what is it? – Alfred Wegener Institute YouTube video"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tundra",
+        "situacao": "ok",
+        "texto": "Tundra é um bioma no qual a baixa temperatura e estações de crescimento curtas impedem o desenvolvimento de árvores altas. Existem três tipos de tundra: tundra ártica, tundra alpina e tundra antártica. Numa tundra, a vegetação é composta por arbustos, ciperáceas, gramíneas, musgos e líquenes. Nalgumas tundras existem árvores dispersas, geralmente baixas. O ecótono entre a tundra e a floresta é den\n[…]\nA tundra ártica ocorre no extremo Hemisfério Norte (Ártico), ao norte do cinturão da taiga. A palavra \"tundra\" geralmente se refere apenas às áreas onde o subsolo é permafrost, ou seja, solo permanentemente congelado. (Também pode se referir à planície sem árvores em geral, de modo que o norte da Lapónia estaria incluído). A tundra com permafrost abrange vastas áreas do norte da Rússia e do Canadá.\n[…]\nA tundra polar é o lar de vários povos que são, em sua maioria, pastores nômades de renas, como os Nganasan e os Nenets na área de permafrost (e os Sámi na Lapónia).\n[…]\nExistem duas estações principais nas áreas de tundra polar: o inverno e o verão.\n[…]\nVerão: As temperaturas sobem um pouco e a camada superior do solo sazonalmente congelado derrete, deixando o chão muito encharcado. A tundra fica coberta de pântanos, lagos, turfeiras e riachos durante os meses quentes. Geralmente, as temperaturas diurnas no verão sobem para cerca de 12 °C, mas frequentemente podem cair para 3 °C ou até mesmo abaixo de zero.\n[…]\nDurante o verão, o permafrost descongela apenas o suficiente para permitir que as plantas cresçam e se reproduzam, mas como o solo abaixo está congelado, a água não consegue infiltrar-se mais profundamente, formando os lagos e pântanos característicos. Existe um padrão natural de acúmulo de material combustível e incêndios florestais que varia dependendo da natureza da vegetação e do terreno.\n[…]\nA tundra é amplamente desprovida de animais pecilotérmicos (de sangue frio), como rãs ou lagartos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Pantanal",
+      "descricao": "Bioma de planície alagável no Mato Grosso, no Mato Grosso do Sul, na Bolívia e no Paraguai"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que grande ave branca, de pescoço preto e vermelho, é considerada o símbolo do Pantanal?",
+    "resposta": "Tuiuiú",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tuiuiú"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tuiuiú",
+        "situacao": "ok",
+        "texto": "O tuiuiú ou jaburu (Jabiru mycteria), também conhecido como tuiuguaçu, tuiú-quarteleiro, tuiupara, rei-dos-tuinins, tuim-de-papo-vermelho (no Mato Grosso e Mato Grosso do Sul), cauauá (no Amazonas), jabiru (na região Sul do Brasil) e jabiru-americano, é uma ave ciconiforme da família Ciconiidae. É considerado a ave-símbolo do Pantanal e pode ser encontrado desde o México até o Uruguai, sendo que a\n[…]\nOs termos \"jaburu\" e \"tuiuiú\" provêm do tupi îabyru e tuîuîu, respectivamente. \"Tuiuguaçu\" formou-se a partir da junção de \"tuiuiú\" e do sufixo de origem tupi -gûasu, \"grande\". \"Tuiupara\" é de origem desconhecida.\n[…]\nO nome tuiuiú foi o selecionado como nome vernáculo técnico para a espécie Jabiru mycteria em 2021 pelo Comitê Brasileiro de Registros Ornitológicos (CBRO).\n[…]\nHinrich Lichtenstein descreveu o jaburu em 1819. O nome jabiru é também usado para se referir a cegonha-de-pescoço-preto (Ephippiornynchus asiaticus), também referido como jabiru-asiático e também a cegonha-de-lombo-preto, de mesmo gênero chamado de jabiru-asiático. As duas espécies são aceitas como os parentes vivos mais próximos do tuiuiú.\n[…]\nO tuiuiú ou jaburu é uma ave pernalta, tem pescoço nu e preto e, na parte inferior, o papo também nu mas vermelho. A plumagem do corpo é branca e a das pernas é preta e a ave chega a ter 1,4 metro de comprimento e pesar oito quilogramas. A envergadura (a distância entre as pontas das asas abertas) pode chegar a quase três metros. O bico tem trinta centímetros, é preto e muito forte.\n[…]\nFlavismo é a ausência parcial de melanina, seja a feomelanina (pigmento vermelho ou alaranjado) ou a eumelanina (pigmento preto ou castanho). O indivíduo que apresenta flavismo tem coloração diluída, como é o caso de alguns jaburus."
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Pantanal",
+      "descricao": "Bioma de planície alagável no Mato Grosso, no Mato Grosso do Sul, na Bolívia e no Paraguai"
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual é o menor dos biomas brasileiros em área?",
+    "resposta": "Pantanal",
+    "distratores": [
+      "Pampa",
+      "Caatinga",
+      "Mata Atlântica"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pantanal",
+      "https://pt.wikipedia.org/wiki/Biomas_do_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Pantanal",
+        "situacao": "ok",
+        "texto": "Complexo do Pantanal, ou simplesmente Pantanal, é um bioma constituído principalmente por uma savana estépica, alagada em sua maior parte, com 250 000 quilômetros quadrados de extensão e uma altitude média de 100 m. Devido às dificuldades de mensurar o tamanho do Pantanal, é possível encontrar referências de sua área em 210 000 km².\n[…]\nMuitos animais ameaçados de extinção em outras partes do Brasil ainda possuem populações vigorosas na região pantaneira, como o cervo-do-pantanal, a capivara, o tuiuiú e o jacaré.\n[…]\nA vegetação do Pantanal conta com um mosaico de matas, cerradões e savanas, isto por que, tem influência direta de outros três importantes biomas brasileiros: Amazônia, Cerrado e Mata Atlântica — com espécies como cambará-lixeira, canjiqueira e carandá, que são plantas que se estabelecem em campos inundáveis de diversos tipos.[carece de fontes]?\n[…]\nA Planície do Pantanal possui aproximadamente, no Brasil, 150 000 km², medida estimada pelos estudiosos que explicam que dificilmente pode ser estabelecido um cálculo exato de suas dimensões, pois a cada fechamento de ciclo de estações de seca e de águas o Pantanal se modifica. Sua área total é de 210 000 km², esta área inclui partes do Brasil, Bolívia e Paraguai, com a maior parte situada no Brasil. Na Bolívia é conhecido também como Pantanal Boliviano ou ainda Gran Pantanal.\n[…]\nEm altitudes maiores, o clima árido e seco torna a paisagem parecida com a da caatinga, apresentando espécies típicas como o mandacaru, plantas aquáticas, piúvas (da família dos ipês com flores róseas e amarelas), palmeiras, orquídeas, figueiras e aroeiras. O pantanal possui uma vegetação rica e variada, que inclui a fauna típica de outros biomas brasileiros, como o cerrado, a caatinga e a região amazônica.\n[…]\n«Área de conservação do Pantanal (UNESCO)»\n[…]\n«Previsão de Níveis d'Água no Pantanal»"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Biomas_do_Brasil",
+        "situacao": "ok",
+        "texto": "Na esquematização do IBGE (2004), o Brasil tem seu território ocupado por seis biomas (ou áreas biogeográficas) terrestres e um ecossistema marinho.\n[…]\nO Pantanal ocupa uma área de 150.355 km² e 1,76% do território nacional e é constituído principalmente por savana estépica alagada em sua maior parte. O Pantanal está presente em apenas dois estados brasileiros, Mato Grosso e Mato Grosso do Sul, ocupando 7% do território do Mato Grosso e 25% do estado do Mato Grosso do Sul. A região é uma planície aluvial influenciada por rios que drenam a bacia do Alto Paraguai, onde se desenvolve uma fauna e flora de rara beleza e abundância.\n[…]\nO Pantanal mato-grossense é a maior planície de inundação contínua do planeta, coberta por vegetação predominantemente aberta. Este ecossistema é formado por terrenos em grande parte arenosos, cobertos de diferentes fisionomias devido a variedade de microrrelevos e regimes de inundação. Como área transicional entre Cerrado e Amazônia, o Pantanal ostenta um mosaico de ecossistemas terrestres com afinidades sobretudo com o Cerrado.\n[…]\nA Zona Costeira Brasileira tem como aspectos distintivos em sua longa extensão através de diferentes biomas que chegam até o litoral, o bioma da Amazônia, o bioma da Caatinga e bioma da Mata Atlântica. Esses biomas com grande variedade de espécies e de ecossistemas, abrangem mais de 8.500 km de costa litorânea.\n[…]\nGeografia do Brasil\n[…]\nPlanalto brasileiro\n[…]\nImpactos do aquecimento global no Brasil\n[…]\nProblemas ambientais do Brasil\n[…]\nGoverno Federal MMA PORTALBio » Biodiversidade brasileira » Biomas brasileiros\n[…]\nIBGE Biomas Brasileiros"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Atmosfera terrestre",
+      "descricao": "Camada de gases que envolve a Terra"
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Em que camada da atmosfera acontecem quase todos os fenômenos do tempo, como nuvens e chuvas?",
+    "resposta": "Troposfera",
+    "distratores": [
+      "Estratosfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Troposphere"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Troposphere",
+        "situacao": "ok",
+        "texto": "The troposphere is the lowest layer of the atmosphere of Earth. Pronounced , the name comes from Ancient Greek  τρόπος (trópos) 'turning, change' and  -sphere. It contains 80% of the total mass of the planetary atmosphere and 99% of the total mass of water vapor and aerosols, and is where most weather phenomena occur.\n[…]\nThe thick troposphere makes the difference in temperature between the day and night side small, even though the slow retrograde rotation of the planet causes a single solar day to last 116.5 Earth days. On the night side of Venus clouds can still be found at 80 km (50 mi) above the surface.\n[…]\nThe troposphere of Mars contains most of the planet's weather phenomena, including convection and dust storms. Its dynamics are heavily driven by the daytime surface heating and the amount of suspended dust. Mars has a higher scale height of 11.1 km than Earth because of its weaker gravity. The theoretical dry adiabatic lapse rate of Mars is 4.3 °C km−1, but the measured average lapse rate is about 2.5 °C km−1 because the suspended dust particles absorb solar radiation and heat the air.\n[…]\nTitan is the only planetary satellite with a substantial atmosphere, and it is the only atmosphere besides Earth's composed primarily of nitrogen. Titan's lower surface gravity creates a more extended atmosphere than Earth, with scale heights of 15–50 km (9.3–31.1 mi). The troposphere of Titan is well defined, extending to a tropopause at an altitude of around 40 km, where the temperature is 70 K.\n[…]\nMethane condenses out of Titan's atmosphere at high altitudes, with its abundance increasing below the tropopause, leveling off at a value of 4.9% between 8 km (5.0 mi) and the surface. Methane rain, haze rainout, and varying cloud layers are found in the troposphere."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Troposfera",
+        "situacao": "ok",
+        "texto": "A troposfera é a camada mais baixa da atmosfera terrestre. Contém aproximadamente 75% da massa atmosférica e 99% do seu vapor de água e aerossóis. A espessura média da troposfera é de 12 km nas latitudes médias. É mais espessa nas regiões tropicais, podendo alcançar até 17 km de altura, e menos espessa nos polos, podendo alcançar 7 km durante o verão e tornando-se indistinta durante o inverno.\n[…]\nA composição química da troposfera é essencialmente uniforme, praticamente idêntica à composição da atmosfera terrestre como um todo (78% de nitrogênio e 21% de oxigênio, além de outros gases em pequenas proporções), com a exceção notável do vapor de água. A fonte de vapor de água provém da superfície, por meio de processos de evaporação e transpiração. Além do mais, a temperatura da troposfera diminui com a altitude, e a pressão de vapor cai intensamente assim que a temperatura diminui.\n[…]\nA temperatura da troposfera diminui com a altitude. A taxa pelo qual a temperatura cai,\n[…]\n, é chamada de gradiente adiabático ambiental. O gradiente adiabático é nada mais do que a diferença de temperatura entre a superfície e a tropopausa dividida pela altitude. A razão para esta diferença de temperatura é que a absorção de radiação solar ocorre na superfície, aquecendo as porções mais baixas da troposfera, mas a perda de radiação pela Terra ocorre no topo da atmosfera terrestre. Este processo mantém o balanço geral térmico da Terra.\n[…]\nEntão a troposfera é definida pela região fronteiriça entre regiões onde o gradiente adiabático é positivo (troposfera) e o gradiente adiabático é negativo (estratosfera). Assim sendo, a tropopausa é uma região de inversão térmica, e praticamente não há mistura entre estas duas camadas da atmosfera terrestre.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Antártida",
+      "descricao": "Continente gelado ao redor do Polo Sul"
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Se deserto é definido pela pouca chuva, e não pelo calor, qual é o maior deserto do mundo?",
+    "resposta": "Antártida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/List_of_deserts_by_area",
+      "https://en.wikipedia.org/wiki/Antarctica"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/List_of_deserts_by_area",
+        "situacao": "ok",
+        "texto": "This article provides a list of deserts ranked by the total area that they cover on Earth. Only deserts greater than 50,000 km2 (19,300 sq mi) are included in this ranking.\n[…]\nList of deserts (all deserts and pseudo-deserts by continent)\n[…]\nDesertification\n[…]\nPolar desert\n[…]\nUnited Nations Convention to Combat Desertification\n[…]\nDesert greening"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Antarctica",
+        "situacao": "ok",
+        "texto": "Antarctica ( ) is Earth's southernmost and least-populated continent. Situated almost entirely south of the Antarctic Circle and surrounded by the Southern Ocean (also known as the Antarctic Ocean), it contains the geographic South Pole. Antarctica is the fifth-largest continent, being about 40% larger than Europe, and has an area of 14,200,000 km2 (5,500,000 sq mi). Most of Antarctica is covered \n[…]\nThe name given to the continent originates from the word antarctic, which comes from Middle French antartique or antarctique ('opposite to the Arctic') and the Latin antarcticus ('opposite to the north'). Antarcticus is derived from the Greek ἀντι- ('anti-') and ἀρκτικός (arktikos, 'of the Bear [Ursa Major], northern'). The Greek philosopher Aristotle wrote in Meteorology about an \"Antarctic region\" in c. 350 BC.\n[…]\nThe Greek geographer Marinus of Tyre reportedly used the name in his world map in the second century AD. The Roman authors Gaius Julius Hyginus and Apuleius used for the South Pole the romanised Greek name polus antarcticus, from which derived the Old French pole antartike (modern pôle antarctique) attested in 1270, and from there the Middle English pol antartik, found first in a treatise written by the English author Geoffrey Chaucer.\n[…]\nAntarctica provides a unique environment for the study of meteorites: the dry polar desert preserves them well, and meteorites older than a million years have been found. They are relatively easy to find, as the dark stone meteorites stand out in a landscape of ice and snow, and the flow of ice accumulates them in certain areas. The Adelie Land meteorite, discovered in 1912, was the first to be found. Meteorites contain clues about the composition of the Solar System and its early development.\n[…]\nIndex of Antarctica-related articles\n[…]\nAntarctica. on In Our Time at the BBC\n[…]\nBritish Antarctic Survey (BAS)\n[…]\nU.S. Antarctic Program Portal"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lista_de_desertos_por_%C3%A1rea",
+        "situacao": "ok",
+        "texto": "Segue-se abaixo a Lista de desertos por área.\n[…]\nLista de Desertos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Furacão Catarina",
+      "descricao": "Raro furacão do Atlântico Sul que atingiu o litoral de Santa Catarina e do Rio Grande do Sul"
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano o Catarina, um raro furacão no Atlântico Sul, atingiu o litoral de Santa Catarina e do Rio Grande do Sul?",
+    "resposta": "2004",
+    "distratores": [
+      "1998",
+      "2008",
+      "2012"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hurricane_Catarina"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hurricane_Catarina",
+        "situacao": "ok",
+        "texto": "Hurricane Catarina, or Cyclone Catarina (Portuguese pronunciation: [kataˈɾinɐ]) was the only recorded hurricane-strength South Atlantic tropical cyclone. Catarina made landfall in the South Region of Brazil at peak intensity as a Category 2-equivalent tropical cyclone on 28 March 2004.\n[…]\nThe storm attained wind speeds of 121 km/h (75 mph)—equivalent to a low-end Category 1 hurricane on the Saffir–Simpson Hurricane wind scale (SSHWS)—on 26 March, making the cyclone the first hurricane-strength tropical cyclone ever recorded in the Southern Atlantic Ocean. Around this time, a Brazilian newspaper had a headline \"Furacão Catarina\" (i.e. \"hurricane [threatening the state of Santa] Catarina\"). Partially because of this headline, the storm was unofficially named Catarina.\n[…]\nWind gusts peaked at around 190 km/h (120 mph). Soon afterward, the hurricane made landfall on the southern coast of Santa Catarina and northeastern Rio Grande do Sul, with winds up to 195 km/h (121 mph) overnight. After making landfall, Catarina rapidly weakened over land, in the normal manner of a tropical cyclone, dissipating later that day.\n[…]\nTypically, tropical cyclones do not form in the South Atlantic Ocean, due to strong upper-level shear, cool water temperatures, and the lack of a convergence zone of convection. Occasionally though, as seen in 1991 and early 2004, conditions can become slightly more favorable. For Catarina, it was a combination of climatic and atmospheric anomalies.\n[…]\nVianna, M. L.; Menezes, V. V.; Pezza, A. B.; Simmonds, I. (2010). \"Interactions between Hurricane Catarina (2004) and warm core rings in the South Atlantic Ocean\". Journal of Geophysical Research. 115 (C7): C07002. Bibcode:2010JGRC..115.7002V. doi:10.1029/2009JC005974.\n[…]\nRare South Atlantic Tropical Cyclone (NASA)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ciclone_Catarina",
+        "situacao": "ok",
+        "texto": "Ciclone Catarina, também chamado de furacão Catarina, foi um ciclone tropical do Atlântico Sul extremamente raro, sendo a única tempestade já registrada com força de furacão nessa região do Oceano Atlântico. Catarina atingiu a região Sul do Brasil com intensidade máxima, com o equivalente a ventos sustentados com a força de um furacão de Categoria 2, em 28 de março de 2004.\n[…]\nA tempestade continuou a obter características tropicais e se tornou um ciclone tropical no dia seguinte, enquanto os ventos se intensificavam gradativamente. Em 26 de março de 2004, a tempestade alcançou ventos máximos sustentados com velocidades de até 180 quilômetros por hora, definida como de categoria 2 na escala de furacões de Saffir-Simpson. Neste dia o ciclone ganhou informalmente o nome \"Catarina\" e também passou a ser o primeiro registro oficial de um ciclone tropical no Atlântico Sul.\n[…]\nOs meteorologistas brasileiros chamaram a tempestade de \"Catarina\" por sua proximidade com a costa do estado de Santa Catarina, embora os meteorologistas do governo inicialmente tenham negado que a tempestade, que claramente tinha um olho aberto e várias outras morfologias de tormentas tropicais, fosse um furacão. Mais de um ano após a tempestade ter atingido o litoral do país, os meteorologistas brasileiros finalmente classificaram a tempestade como um ciclone tropical.\n[…]\nNormalmente, os ciclones tropicais não se formam no sul do Oceano Atlântico, devido ao forte cisalhamento de nível superior, águas de temperaturas frias e pela falta de uma zona de convergência de convecção. Ocasionalmente, porém, como visto em 1991 e no início de 2004, as condições podem tornar-se ligeiramente mais favoráveis para a formação deste tipo de fenômeno. Para o Catarina, houve uma combinação de anomalias climáticas e atmosféricas.\n[…]\nGoverno libera recursos para vítimas do ciclone Catarina, O Estado de S. Paulo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Dust Bowl",
+      "descricao": "Período de secas e tempestades de poeira que devastou as Grandes Planícies dos Estados Unidos"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década as tempestades de poeira conhecidas como Dust Bowl arrasaram as fazendas das Grandes Planícies dos Estados Unidos?",
+    "resposta": "Anos 1930",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dust_Bowl"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dust_Bowl",
+        "situacao": "ok",
+        "texto": "The Dust Bowl was a period of severe dust storms that greatly damaged the ecology and agriculture across the American and Canadian prairies during the 1930s. The phenomenon was caused by a combination of natural factors (severe drought) and human-made factors: a failure to apply dryland farming methods to prevent wind erosion, most notably the destruction of the natural topsoil by settlers in the \n[…]\nAfter fairly favorable climatic conditions in the 1920s with good rainfall and relatively moderate winters, which permitted increased settlement and cultivation in the Great Plains, the region entered an unusually dry era in the summer of 1930. During the next decade, the northern plains suffered four of their seven driest calendar years since 1895, Kansas four of its 12 driest, and the entire region south to West Texas lacked any period of above-normal rainfall until record rains hit in 1941.\n[…]\nThe first recorded dust storm occurred on September 14, 1930. It was seen more as a meteorological anomaly at the time as it was unlike anything else ever recorded. Unlike a sand storm, the cloud was black or gray (not beige or red) and rolled across the ground. Inside, visibility dropped to the point where people couldn't see their hands in front of their faces.\n[…]\nMany Americans migrated west, looking for work. Parents packed up \"jalopies\" with their families and a few personal belongings and headed west. Between 1930 and 1940, about 3.5 million people moved out of the Plains states. In just over a year, over 86,000 people migrated to California. This number is more than the number of migrants to that area during the 1849 gold rush.\n[…]\nThe Dust Bowl (EH.Net Encyclopedia)\n[…]\nEncyclopedia of Oklahoma History and Culture – Dust Bowl\n[…]\nDust, Drought, and Dreams Gone Dry: Oklahoma Women in the Dust Bowl Oral History Project, Oklahoma Oral History Research Program\n[…]\nDust Bowl – Ken Burns playlist on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dust_Bowl",
+        "situacao": "ok",
+        "texto": "Designa-se por Dust Bowl um fenómeno climático de tempestade de areia que ocorreu nos Estados Unidos na década de 1930 e que durou quase dez anos.\n[…]\nO Dust Bowl se deveu a uma seca severa e uma falha na aplicação de métodos de cultivo de sequeiro para prevenir os processos eólicos (erosão eólica) causaram o fenômeno. Foi um desastre económico e ambiental que afetou severamente boa parte dos Estados Unidos da América naquela altura.\n[…]\nOs prejuízos agrícolas e económicos devastaram as Grandes Planícies (Great Plains). A seca Dust Bowl piorou as já graves crises económicas que muitos dos agricultores enfrentavam durante a Grande Depressão. No início da década de 1930, muitos deles procuravam recuperar das perdas económicas. Para compensar começaram a incrementar as colheitas. A grande produção baixou os preços, forçando os agricultores a incrementar ainda mais as colheitas para pagar as suas terras e as suas dívidas.\n[…]\nNo final da década de 1930, um grande projeto recuperou boa parte da vegetação natural, e a condição voltou ao normal tempos depois.\n[…]\nUma vez passado o Dust Bowl, observava-se claramente que muitos fatores contribuíram para o severo impacto da seca. Era preciso desenvolver uma melhor compreensão das interações entre elementos naturais (clima, plantas e solo) e as atividades humanas (prática agrícola, economia e condições sociais) das Grandes Planícies. As lições foram aprendidas, e os agricultores adotaram novos métodos para ajudar a controlar a erosão do solo nos ecossistemas de terras secas.\n[…]\nThe Dust Bowl (EH.Net Encyclopedia)\n[…]\nPlaylist Dust Bowl – Ken Burns no YouTube\n[…]\nPlaylist Dust Bowl – Ken Burns no YouTube",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Classificação climática de Köppen",
+      "descricao": "Sistema de classificação dos climas do mundo baseado em temperatura, chuva e vegetação"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que climatologista nascido na Rússia e radicado na Alemanha criou uma das classificações de climas mais usadas no mundo?",
+    "resposta": "Wladimir Köppen",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Köppen_climate_classification",
+      "https://en.wikipedia.org/wiki/Wladimir_Köppen"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Köppen_climate_classification",
+        "situacao": "ok",
+        "texto": "The Köppen climate classification divides Earth's climates into five main climate groups, with each group being divided based on patterns of seasonal precipitation and temperature. The five main groups are A (tropical), B (arid), C (temperate), D (continental), and E (polar). Each group and subgroup is represented by a letter. All climates are assigned a main group (the first letter). All climates\n[…]\nThe Köppen climate classification is the most widely used climate classification scheme. It was first published by German-Russian climatologist Wladimir Köppen (1846–1940) in 1884, with several later modifications by Köppen, notably in 1918 and 1936. Later, German climatologist Rudolf Geiger (1894–1981) introduced some changes to the classification system in 1954 and 1961, which is thus sometimes called the Köppen–Geiger climate classification.\n[…]\nAccording to the modified Köppen classification system used by modern climatologists, total precipitation in the warmest six months of the year is taken as a reference instead of the total precipitation in the high-sun half of the year.\n[…]\nOver recent years, there has been an increasing interest in using the classification to identify changes in climate and potential changes in vegetation over time. The most important ecological significance of the Köppen climate classification is that it helps to predict the dominant vegetation type based on the climatic data and vice versa.\n[…]\nA 2018 study provides detailed maps for present and future Köppen-Geiger climate classification maps at 1-km resolution.\n[…]\nList of cities by Köppen climate classification\n[…]\nWorld maps and graphs plus a video about the Köppen climate classification\n[…]\nWorld Map of the Köppen–Geiger climate classification for the period 1951–2000 (archived 6 September 2010)\n[…]\nNew gridded maps of Koeppen's climate classification (July 2006) at the Wayback Machine (archived 10 January 2021)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wladimir_Köppen",
+        "situacao": "ok",
+        "texto": "Wladimir Petrovich Köppen ( KUR-pən; German: [ˈkœpn̩]; Russian: Влади́мир Петро́вич Кёппен, romanized: Vladímir Petróvich Kyoppen, IPA: [vlɐˈdʲimʲɪr pʲɪˈtrovʲɪtɕ ˈkʲɵp(ː)ʲɪn]; 25 September 1846 – 22 June 1940) was a Russian–German geographer, meteorologist, climatologist and botanist. After studies in St. Petersburg, he spent the bulk of his life and professional career in Germany and Austria.\n[…]\nWladimir Köppen was born in St. Petersburg, Russia. He lived there until he was 20 years old. Köppen's grandfather, Johann Friedrich von  Köppen, was one of several German doctors invited to Russia by Empress Catherine II to improve sanitation and was later personal physician to the tsar.\n[…]\nJohann's son (Wladimir's father), Peter von Köppen (Pyotr Ivanovich Köppen in Russian) (1793–1864), was a noted geographer, historian and ethnographer of ancient Russian cultures and an important contributor to intellectual exchanges between western European slavists and Russian scientists. Wladimir attended secondary school in Simferopol, Crimea, and began his studies of botany in 1864 at the University of St. Petersburg.\n[…]\nDry climate\n[…]\nPolar climate\n[…]\nKöppen, Wladimir and Wegener, Alfred (1924): The Climates of the Geological Past Facsimile of the German original and English translation of Die Klimate der Geologischen Vorzeit. Berlin; Stuttgart: Gebr. Borntraeger. ISBN 978-3-443-01088-1.\n[…]\nList of Russian meteorologists\n[…]\nAllaby, Michael (2000). Encyclopedia of Weather and Climate. New York: Facts On File, Inc. ISBN 0-8160-4071-0.\n[…]\nWille, Robert-Jan Wille (2017): Colonizing the Free Atmosphere:  Wladimir Köppen’s ‘Aerology’, the German Maritime Observatory, and the Emergence of a Trans-Imperial Network of Weather Balloons and Kites, 1873–1906 Archived 2021-01-18 at the Wayback Machine, History of Meteorology 8 (2017).\n[…]\nNewspaper clippings about Wladimir Köppen in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Classifica%C3%A7%C3%A3o_clim%C3%A1tica_de_K%C3%B6ppen-Geiger",
+        "situacao": "ok",
+        "texto": "A classificação climática de Köppen-Geiger, mais conhecida por classificação climática de Köppen, é o sistema de classificação global dos tipos climáticos mais utilizado em geografia, climatologia e ecologia. A classificação foi proposta em 1900 pelo climatologista teuto-russo Wladimir Köppen, tendo sido por ele aperfeiçoada em 1918, 1927 e 1936 com a publicação de novas versões, preparadas em col\n[…]\nNa determinação dos tipos climáticos de Köppen-Geiger são considerados a sazonalidade e os valores médios anuais e mensais da temperatura do ar e da precipitação. Cada grande tipo climático é denotado por um código, constituído por letras maiúsculas e minúsculas, cuja combinação denota os tipos e subtipos considerados.\n[…]\nContudo, a classificação de Köppen-Geiger, em certos casos não distingue tipos climáticos entre regiões com biomas muito distintos, pelo que têm surgido classificações dela derivadas, a mais conhecida das quais é a classificação climática de Trewartha.\n[…]\nNo esquema da classificação climática de Köppen, a primeira letra divide os climas em cinco grupos climáticos principais: A (tropical), B (seco), C (temperado), D (continental) e E (polar). A segunda letra indica o tipo de precipitação sazonal, enquanto a terceira letra indica o nível de calor.\n[…]\nNos últimos anos, tem havido um interesse crescente em usar a classificação para identificar mudanças climáticas e mudanças potenciais na vegetação ao longo do tempo. A importância ecológica mais considerável da classificação de Köppen é que ela ajuda a prever o tipo de vegetação dominante com base nos dados climáticos e vice-versa.\n[…]\nClassificação climática de Alisov\n[…]\nClassificação climática de Strahler\n[…]\nClassificação climática de Trewartha\n[…]\nWorld Map of the Köppen–Geiger climate classification for the period 1951–2000\n[…]\nGlobal climate maps, using Köppen classification (FAO, 1999)\n[…]\nDados climáticos e meteorológicos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Escala de Beaufort",
+      "descricao": "Escala que classifica a força do vento a partir de seus efeitos observados no mar e em terra"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que oficial da Marinha britânica criou, no começo do século dezenove, a escala que classifica a força dos ventos de zero a doze?",
+    "resposta": "Francis Beaufort",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beaufort_scale"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beaufort_scale",
+        "situacao": "ok",
+        "texto": "The Beaufort scale ( BOH-fərt) is an empirical measure that relates wind speed to observed conditions at sea or on land. Its full name is the Beaufort wind force scale. It was devised in 1805 by Francis Beaufort, a hydrographer in the British Royal Navy. It was officially adopted by the Royal Navy and later spread internationally.\n[…]\nThe scale was devised in 1805 by Francis Beaufort (later Rear Admiral), a hydrographer and a Royal Navy officer, while serving on HMS Woolwich, and refined until he was Hydrographer of the Navy in the 1830s, when it was adopted officially. It was first used during the 1831–1836 \"Darwin voyage\" of HMS Beagle under Captain Robert FitzRoy, who was later to set up the first Meteorological Office in Britain giving regular weather forecasts.\n[…]\nInternationally, the World Meteorological Organization Manual on Marine Meteorological Services (2012 edition) defined the Beaufort Scale only up to force 12 and there was no recommendation on the use of the extended scale.\n[…]\nBeaufort's name was also attached to the Beaufort scale for weather reporting:\n[…]\nDouglas sea scale\n[…]\nHuler, Scott (2004). Defining the Wind: The Beaufort Scale, and How a 19th-Century Admiral Turned Science into Poetry. Crown. ISBN 1-4000-4884-2.\n[…]\nNational Meteorological Library and Archive Archived 13 November 2017 at the Wayback Machine fact sheet on the history of the Beaufort Scale, including various scales and photographic depictions of the sea state.\n[…]\nFilm of Wind Scale\n[…]\nHistorical Wind Speed Equivalents Of The Beaufort Scale\n[…]\nBeaufort scale, cites the original definition formula\n[…]\nThe Beaufort Scale and Weather Diaries of Rear Admiral Sir Francis Beaufort—The history of the Beaufort Scale Met Office\n[…]\nBeaufort wind force scale. Met Office\n[…]\nFrancis Beaufort's Diary: Woolwich 1805 - 1807 (F_B_8_1805-1807)  Image 21. Met Office archive."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escala_de_Beaufort",
+        "situacao": "ok",
+        "texto": "A Escala de Beaufort é uma escala empírica que classifica a intensidade dos ventos, tendo em conta a sua velocidade e os efeitos resultantes das ventanias no mar e em terra. A escala está diretamente relacionada com a dificuldade de realização de manobras nas embarcações em alto-mar, quanto menor o grau mais fácil é, quanto maior o grau mais complicado fica. Foi concebida pelo meteorologista anglo\n[…]\nNa década de 1830, a escala de Beaufort já era amplamente utilizada pela Marinha Real Britânica.\n[…]\nA escala das forças do vento é descrita para fins práticos pela designação do vento, da faixa de velocidade do vento (em uma ou mais unidades), aspecto do mar, e classificação da força (ou grau) que varia de grau 0 a grau 12, podendo ir além, como por exemplo, até o grau 17.\n[…]\nA escala Beaufort foi ampliada em 1946, quando as forças 13 a 17 foram adicionadas. No entanto, as forças 13 a 17 destinavam-se a ser aplicadas apenas em casos especiais, como ciclones tropicais. Hoje em dia, a escala estendida só é utilizada em Taiwan e na China continental, que são frequentemente afetadas por tufões.\n[…]\nInternacionalmente, o Manual de Serviços Meteorológicos Marinhos da Organização Meteorológica Mundial (OMM) (edição de 2012) definiu a Escala Beaufort apenas até a força 12 e não houve recomendação sobre o uso da escala estendida.\n[…]\nA escala Beaufort está para os ventos, assim como a escala de Mercalli está para as atividades sísmicas, estabelecendo características aos ventos de acordo com a velocidade e o poder de destruição.\n[…]\nEscala de furacões de Saffir-Simpson\n[…]\nEscala Fujita",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Corrente do Golfo",
+      "descricao": "Corrente oceânica quente que sai do Golfo do México e cruza o Atlântico Norte"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que pai fundador dos Estados Unidos, também cientista, publicou no século dezoito um dos primeiros mapas da Corrente do Golfo?",
+    "resposta": "Benjamin Franklin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gulf_Stream"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gulf_Stream",
+        "situacao": "ok",
+        "texto": "The Gulf Stream is a warm and swift Atlantic ocean current that originates in the Gulf of Mexico and flows through the Straits of Florida and up the eastern coastline of the United States, then veers east near 36°N latitude (North Carolina) and moves toward Northwest Europe as the North Atlantic Current. The process of western intensification causes the Gulf Stream to be a northward-accelerating c\n[…]\nBenjamin Franklin became interested in the North Atlantic Ocean circulation patterns.\n[…]\nFranklin asked his cousin Timothy Folger, a Nantucket Island whaling captain, for an answer. Folger explained that merchant ships routinely crossed the current—which was identified by whale behaviour, measurement of the water's temperature, and changes in the water's colour—while the mail packet captains ran against it. Franklin had Folger sketch the path of the current on a chart of the Atlantic and add notes on how to avoid the current when sailing from England to America.\n[…]\nFranklin then forwarded the chart to Anthony Todd, secretary of the British Post Office. Franklin's Gulf Stream chart was printed in 1769 in London, but it was mostly ignored by British sea captains. A copy of the chart was printed in Paris circa 1770–1773, and a third version was published by Franklin in Philadelphia in 1786.\n[…]\nThe possibility of a Gulf Stream collapse has been covered by some news publications. The IPCC Sixth Assessment Report addressed this issue specifically, and found that based on model projections and theoretical understanding, the Gulf Stream will not shut down in a warming climate. While the Gulf Stream is expected to slow down as the Atlantic meridional overturning circulation (AMOC) weakens, it will not collapse, even if the AMOC were to collapse.\n[…]\nCurrent map of the Gulf Stream"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Corrente_do_Golfo",
+        "situacao": "ok",
+        "texto": "A corrente do Golfo (em inglês: Gulf Stream) é uma corrente marítima potente, rápida e quente do oceano Atlântico que tem origem no Golfo do México, escapa pelo estreito da Flórida e segue a costa leste dos Estados Unidos e a sua extensão até a Europa torna os países do oeste deste continente mais quentes do que eles seriam sem essa corrente.\n[…]\nMas devido à sua morte prematura, foi somente em 1777 que Benjamin Franklin realiza um primeiro estudo sobre a corrente do Golfo.\n[…]\nO efeito estufa faz com que as geleiras do Ártico derretam, mas também faz aumentar a pluviometria do Atlântico Norte. Esses dois fenômenos reunidos constituem no aumento da água doce nessa região. Se esse fenômeno for muito grande, como foi o caso no início da última Era Glacial (as geleiras derretem na América do Norte, liberando água doce que resfria as correntes marítimas e produzem um resfriamento geral do clima terrestre), então a corrente do Golfo poderia sofrer um resfriamento.\n[…]\nNa verdade, uma grande quantidade de água doce aumentaria a diferença de salinidade da água entre o Equador e o Mar da Noruega. O local de mergulho das águas quentes e salgadas se localizaria na altura dos Açores e a corrente do Golfo se contraria sobre si mesma, não indo além dos Açores.\n[…]\nSegundo climatologistas da ciência e do meio ambiente, em 2040, devido ao excesso de água doce que estará dissolvendo o Oceano Atlântico na altura do Canadá (região Subpolar), a corrente do Golfo se \"desligará\" e criando um desastre climático.\n[…]\nAlém disso cientistas chineses nos Estados Unidos concluíram que esse mecanismo extremamente importante no planeta vai deixar de existir com o aumento da temperatura média do planeta, porém não de forma tão rápida como pensavam, já que essa desaceleração levaria séculos e não anos ou décadas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Biomas do Brasil",
+      "descricao": "Classificação oficial do IBGE dos grandes biomas continentais brasileiros"
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Segundo a classificação oficial do IBGE, quantos biomas continentais existem no Brasil?",
+    "resposta": "Seis",
+    "distratores": [
+      "Quatro",
+      "Cinco",
+      "Oito"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Biomas_do_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Biomas_do_Brasil",
+        "situacao": "ok",
+        "texto": "Na esquematização do IBGE (2004), o Brasil tem seu território ocupado por seis biomas (ou áreas biogeográficas) terrestres e um ecossistema marinho.\n[…]\nO bioma marinho do Brasil situa-se sobre a \"Zona Marinha do Brasil\" e apresenta diversos ecossistemas.\n[…]\nA \"Zona Marinha do Brasil\" é o biótopo da Plataforma continental que apresenta largura variável, com cerca de 80 milhas náuticas, no Amapá, e 160 milhas náuticas, na foz do rio Amazonas, reduzindo-se para 20 a 30 milhas náuticas, na região Nordeste, onde é constituída, basicamente, por fundos irregulares, com formações de algas calcárias. A partir do Rio de Janeiro, na direção sul, a plataforma volta a se alargar, formando extensos fundos cobertos de areia e lama.\n[…]\nA Zona Costeira Brasileira é uma unidade territorial, definida em legislação para efeitos de gestão ambiental, que se estende por 17 estados e acomoda mais de 400 municípios distribuídos do norte equatorial ao sul temperado do País. É um conceito geopolítico que não tem nenhuma relação com a classificação feita pela ecologia.\n[…]\nA Zona Costeira Brasileira tem como aspectos distintivos em sua longa extensão através de diferentes biomas que chegam até o litoral, o bioma da Amazônia, o bioma da Caatinga e bioma da Mata Atlântica. Esses biomas com grande variedade de espécies e de ecossistemas, abrangem mais de 8.500 km de costa litorânea.\n[…]\nGeografia do Brasil\n[…]\nPlanalto brasileiro\n[…]\nImpactos do aquecimento global no Brasil\n[…]\nProblemas ambientais do Brasil\n[…]\nGoverno Federal MMA PORTALBio » Biodiversidade brasileira » Biomas brasileiros\n[…]\nIBGE Biomas Brasileiros"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.42 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

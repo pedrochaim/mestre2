@@ -1,0 +1,65 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Os Lençóis Maranhenses parecem um deserto, mas entre suas dunas surgem lagoas de água doce. De onde vem essa água?",
+        "resposta": "Da chuva"
+      },
+      "existentes": [
+        {
+          "id": "q02075",
+          "pergunta": "Em parte do ano, surgem lagoas azuis entre as dunas dos Lençóis Maranhenses. De onde vem essa água?",
+          "resposta": "Da chuva"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Se deserto é definido pela pouca chuva, e não pelo calor, qual é o maior deserto do mundo?",
+        "resposta": "Antártida"
+      },
+      "existentes": [
+        {
+          "id": "q02097",
+          "pergunta": "Considerando deserto toda região onde quase não chove nem neva, qual é o maior deserto do mundo?",
+          "resposta": "Antártida"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que pai fundador dos Estados Unidos, também cientista, publicou no século dezoito um dos primeiros mapas da Corrente do Golfo?",
+        "resposta": "Benjamin Franklin"
+      },
+      "existentes": [
+        {
+          "id": "q02200",
+          "pergunta": "A Corrente do Golfo leva águas quentes pelo Atlântico Norte. Ela ajuda a deixar mais amenos os invernos de qual região do mundo?",
+          "resposta": "Noroeste da Europa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a origem da água das lagoas entre as dunas dos Lençóis Maranhenses; resposta: chuva.",
+      "id_existente": "q02075"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: maior deserto do mundo (Antártida) com definição por pouca precipitação.",
+      "id_existente": "q02097"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre quem mapeou a Corrente do Golfo, fato diferente da região que ela aquece."
+    }
+  ]
+}

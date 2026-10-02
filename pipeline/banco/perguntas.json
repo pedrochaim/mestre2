@@ -37331,5 +37331,684 @@
       "autor": "Arte oficial dos detentores dos direitos, via Fandom (turmadamonica.fandom.com)",
       "licenca": "Arte oficial; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q02256",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "caatinga",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Caatinga, nome do bioma do sertão nordestino, vem do tupi e descreve a paisagem na seca. O que esse nome significa?",
+    "resposta": "Mata branca",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Caatinga"
+    ]
+  },
+  {
+    "id": "q02257",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "caatinga",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual bioma brasileiro existe apenas dentro do território do Brasil?",
+    "resposta": "Caatinga",
+    "distratores": [
+      "Pantanal",
+      "Cerrado",
+      "Pampa"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Caatinga"
+    ]
+  },
+  {
+    "id": "q02258",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "pampa",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Pampa, nome do bioma de campos do Rio Grande do Sul, vem do quíchua, uma língua indígena dos Andes. O que a palavra significa?",
+    "resposta": "Planície",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pampas",
+      "https://pt.wikipedia.org/wiki/Pampa"
+    ]
+  },
+  {
+    "id": "q02259",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "pampa",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Além do Brasil e da Argentina, em que país o bioma Pampa cobre quase todo o território?",
+    "resposta": "Uruguai",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pampas",
+      "https://pt.wikipedia.org/wiki/Pampa"
+    ]
+  },
+  {
+    "id": "q02260",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "moncao",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A monção, regime de ventos que traz chuvas torrenciais à Índia, tem nome de origem árabe. O que essa palavra árabe significa?",
+    "resposta": "Estação do ano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monsoon"
+    ]
+  },
+  {
+    "id": "q02261",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "el_nino",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O aquecimento do Pacífico chamado El Niño ganhou esse nome de pescadores peruanos por aparecer perto do Natal. A quem o nome se refere?",
+    "resposta": "Menino Jesus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/El_Niño"
+    ]
+  },
+  {
+    "id": "q02262",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "artico",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra Ártico vem do grego e faz referência a um animal que aparece numa constelação do céu do norte. Que animal?",
+    "resposta": "Urso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arctic"
+    ]
+  },
+  {
+    "id": "q02263",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "mistral",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O mistral, vento frio e forte do sul da França, tem um nome occitano. O que ele significa?",
+    "resposta": "Magistral",
+    "distratores": [
+      "Gelado",
+      "Assobiador",
+      "Vindo do norte"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mistral_(wind)"
+    ]
+  },
+  {
+    "id": "q02264",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "chinook",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O chinook, vento quente e seco das Montanhas Rochosas, pode acabar com o inverno em poucas horas. Que apelido ele recebeu?",
+    "resposta": "Comedor de neve",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chinook_wind"
+    ]
+  },
+  {
+    "id": "q02265",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "sahel",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Para os árabes, que viam o Saara como um mar de areia, o nome Sahel, dado à faixa ao sul do deserto, significava o quê?",
+    "resposta": "Litoral",
+    "distratores": [
+      "Capim seco",
+      "Terra do sol",
+      "Areia vermelha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sahel"
+    ]
+  },
+  {
+    "id": "q02266",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "chuvas_de_manga",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Índia, as chuvas que chegam antes das monções e ajudam a amadurecer uma fruta recebem o nome dessa fruta. Que fruta?",
+    "resposta": "Manga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mango_showers"
+    ]
+  },
+  {
+    "id": "q02267",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "taiga",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A taiga também é chamada de floresta boreal. Esse adjetivo vem do nome de que deus grego dos ventos?",
+    "resposta": "Bóreas",
+    "fonte": [
+      "https://en.wiktionary.org/wiki/boreal",
+      "https://pt.wikipedia.org/wiki/Bóreas"
+    ]
+  },
+  {
+    "id": "q02268",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "taiga",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Que grupo de árvores domina a paisagem da taiga, a vasta floresta do norte da Rússia e do Canadá?",
+    "resposta": "Coníferas",
+    "distratores": [
+      "Palmeiras",
+      "Eucaliptos",
+      "Carvalhos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taiga"
+    ]
+  },
+  {
+    "id": "q02269",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "quarenta_rugidores",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os navegadores chamam de quarenta rugidores os ventos fortíssimos do hemisfério sul. A que se refere o número quarenta?",
+    "resposta": "À latitude",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Roaring_Forties"
+    ]
+  },
+  {
+    "id": "q02270",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "ciclone_tropical",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Atlântico, ele se chama furacão. Como se chama o mesmo tipo de tempestade quando se forma no oeste do Pacífico, perto do Japão?",
+    "resposta": "Tufão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Typhoon",
+      "https://en.wikipedia.org/wiki/Tropical_cyclone"
+    ]
+  },
+  {
+    "id": "q02271",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "ciclone_tropical",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que efeito, ligado à rotação da Terra, faz os furacões girarem em sentidos opostos nos hemisférios norte e sul?",
+    "resposta": "Efeito Coriolis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coriolis_force",
+      "https://en.wikipedia.org/wiki/Tropical_cyclone"
+    ]
+  },
+  {
+    "id": "q02272",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "deserto_da_patagonia",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que cadeia de montanhas barra as nuvens vindas do Pacífico e explica a secura do Deserto da Patagônia?",
+    "resposta": "Cordilheira dos Andes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Patagonian_Desert"
+    ]
+  },
+  {
+    "id": "q02273",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "friagem",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em alguns invernos, a temperatura despenca de repente em Rondônia e no Acre, fenômeno chamado friagem. O que o provoca?",
+    "resposta": "Massas de ar polar",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Friagem"
+    ]
+  },
+  {
+    "id": "q02274",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "cerrado",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A casca grossa, parecida com cortiça, de muitas árvores do Cerrado é uma adaptação que as protege contra o quê?",
+    "resposta": "O fogo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cerrado",
+      "https://pt.wikipedia.org/wiki/Cerrado"
+    ]
+  },
+  {
+    "id": "q02275",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "deserto_do_namibe",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que corrente marítima fria, que corre junto à costa sudoeste da África, ajuda a manter o Deserto do Namibe tão seco?",
+    "resposta": "Corrente de Benguela",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Namib",
+      "https://en.wikipedia.org/wiki/Benguela_Current"
+    ]
+  },
+  {
+    "id": "q02276",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "murmansk",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Murmansk, na Rússia, fica acima do Círculo Polar Ártico. Graças a águas aquecidas pela Corrente do Golfo, que vantagem seu porto tem no inverno?",
+    "resposta": "Fica livre de gelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Murmansk"
+    ]
+  },
+  {
+    "id": "q02277",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "manguezal",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que algumas árvores do mangue têm raízes que brotam da lama apontando para cima?",
+    "resposta": "Para respirar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pneumatophore",
+      "https://en.wikipedia.org/wiki/Mangrove"
+    ]
+  },
+  {
+    "id": "q02278",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "manguezal",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que movimento musical de Recife, liderado por Chico Science nos anos noventa, tirou seu nome de um ecossistema costeiro?",
+    "resposta": "Manguebeat",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Manguebeat"
+    ]
+  },
+  {
+    "id": "q02279",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "floresta_da_tijuca",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, Dom Pedro Segundo mandou replantar a Floresta da Tijuca, devastada por cafezais. Que problema da cidade ele queria resolver?",
+    "resposta": "Falta de água",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Floresta_da_Tijuca"
+    ]
+  },
+  {
+    "id": "q02280",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "savana",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "As palavras furacão e savana chegaram ao português pelo espanhol, mas vêm da mesma língua indígena do Caribe. Qual?",
+    "resposta": "Taíno",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taíno_language",
+      "https://en.wikipedia.org/wiki/Savanna"
+    ]
+  },
+  {
+    "id": "q02281",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "ano_sem_verao",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Presa numa casa na Suíça pelo frio e pelas chuvas do Ano Sem Verão, em 1816, que escritora começou a criar Frankenstein?",
+    "resposta": "Mary Shelley",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Year_Without_a_Summer"
+    ]
+  },
+  {
+    "id": "q02282",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "volkswagen_passat",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que os nomes dos carros Passat, Jetta e Scirocco, da Volkswagen, têm em comum?",
+    "resposta": "São nomes de ventos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Volkswagen_Passat",
+      "https://en.wikipedia.org/wiki/Volkswagen_Jetta",
+      "https://en.wikipedia.org/wiki/Volkswagen_Scirocco"
+    ]
+  },
+  {
+    "id": "q02283",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "corredor_dos_tornados",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Kansas fica no chamado Corredor dos Tornados, nos Estados Unidos. Que menina de um clássico infantil é levada de lá por um tornado?",
+    "resposta": "Dorothy",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tornado_Alley",
+      "https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz"
+    ]
+  },
+  {
+    "id": "q02284",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "mata_de_araucarias",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O nome de que capital do Sul do Brasil vem do tupi e remete aos pinheiros da Mata de Araucárias?",
+    "resposta": "Curitiba",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Curitiba"
+    ]
+  },
+  {
+    "id": "q02285",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "floresta_amazonica",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Ventos atravessam o Atlântico levando uma poeira que ajuda a fertilizar o solo da Floresta Amazônica. De que deserto vem essa poeira?",
+    "resposta": "Saara",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bodélé_Depression"
+    ]
+  },
+  {
+    "id": "q02286",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "ventos_alisios",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1492, que navegador aproveitou os ventos alísios para atravessar o Atlântico rumo à América?",
+    "resposta": "Cristóvão Colombo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trade_winds",
+      "https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus"
+    ]
+  },
+  {
+    "id": "q02287",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "deserto_do_kalahari",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que filme de 1980 um homem do povo san, no Deserto do Kalahari, encontra uma garrafa de Coca-Cola caída de um avião?",
+    "resposta": "Os Deuses Devem Estar Loucos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Gods_Must_Be_Crazy"
+    ]
+  },
+  {
+    "id": "q02288",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "corrente_de_humboldt",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que naturalista alemão dá nome a uma corrente marítima fria do Pacífico e a uma espécie de pinguim que vive junto a ela?",
+    "resposta": "Alexander von Humboldt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Humboldt_Current",
+      "https://en.wikipedia.org/wiki/Humboldt_penguin"
+    ]
+  },
+  {
+    "id": "q02289",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "rios_voadores",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os chamados rios voadores, correntes de umidade que levam chuva ao Sudeste do Brasil, se formam sobre qual floresta?",
+    "resposta": "Floresta Amazônica",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rios_voadores"
+    ]
+  },
+  {
+    "id": "q02290",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "pequena_era_do_gelo",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Durante a Pequena Era do Gelo, que rio congelava a ponto de os londrinos montarem feiras sobre o gelo?",
+    "resposta": "Tâmisa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/River_Thames_frost_fairs",
+      "https://en.wikipedia.org/wiki/Little_Ice_Age"
+    ]
+  },
+  {
+    "id": "q02291",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "deserto_de_gobi",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Deserto de Gobi se estende pela Mongólia e por que outro país?",
+    "resposta": "China",
+    "distratores": [
+      "Rússia",
+      "Cazaquistão",
+      "Afeganistão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gobi_Desert"
+    ]
+  },
+  {
+    "id": "q02292",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "sundarbans",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Os Sundarbans, imenso manguezal onde vive o tigre-de-bengala, ficam na Índia e em que outro país?",
+    "resposta": "Bangladesh",
+    "distratores": [
+      "Myanmar",
+      "Sri Lanka",
+      "Tailândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sundarbans"
+    ]
+  },
+  {
+    "id": "q02293",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "tundra",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Como se chama a camada de solo que fica congelada o ano inteiro sob a tundra?",
+    "resposta": "Permafrost",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tundra",
+      "https://en.wikipedia.org/wiki/Permafrost"
+    ]
+  },
+  {
+    "id": "q02294",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "pantanal",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que grande ave branca, de pescoço preto e vermelho, é considerada o símbolo do Pantanal?",
+    "resposta": "Tuiuiú",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tuiuiú"
+    ]
+  },
+  {
+    "id": "q02295",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "pantanal",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual é o menor dos biomas brasileiros em área?",
+    "resposta": "Pantanal",
+    "distratores": [
+      "Pampa",
+      "Caatinga",
+      "Mata Atlântica"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Pantanal",
+      "https://pt.wikipedia.org/wiki/Biomas_do_Brasil"
+    ]
+  },
+  {
+    "id": "q02296",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "atmosfera_terrestre",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Em que camada da atmosfera acontecem quase todos os fenômenos do tempo, como nuvens e chuvas?",
+    "resposta": "Troposfera",
+    "distratores": [
+      "Estratosfera",
+      "Mesosfera",
+      "Termosfera"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Troposphere"
+    ]
+  },
+  {
+    "id": "q02297",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "furacao_catarina",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano o Catarina, um raro furacão no Atlântico Sul, atingiu o litoral de Santa Catarina e do Rio Grande do Sul?",
+    "resposta": "2004",
+    "distratores": [
+      "1998",
+      "2008",
+      "2012"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hurricane_Catarina"
+    ]
+  },
+  {
+    "id": "q02298",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "dust_bowl",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década as tempestades de poeira conhecidas como Dust Bowl arrasaram as fazendas das Grandes Planícies dos Estados Unidos?",
+    "resposta": "Anos 1930",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dust_Bowl"
+    ]
+  },
+  {
+    "id": "q02299",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "classificacao_climatica_de_koppen",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que climatologista nascido na Rússia e radicado na Alemanha criou uma das classificações de climas mais usadas no mundo?",
+    "resposta": "Wladimir Köppen",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Köppen_climate_classification",
+      "https://en.wikipedia.org/wiki/Wladimir_Köppen"
+    ]
+  },
+  {
+    "id": "q02300",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "escala_de_beaufort",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que oficial da Marinha britânica criou, no começo do século dezenove, a escala que classifica a força dos ventos de zero a doze?",
+    "resposta": "Francis Beaufort",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beaufort_scale"
+    ]
+  },
+  {
+    "id": "q02301",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "corrente_do_golfo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que pai fundador dos Estados Unidos, também cientista, publicou no século dezoito um dos primeiros mapas da Corrente do Golfo?",
+    "resposta": "Benjamin Franklin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gulf_Stream"
+    ]
+  },
+  {
+    "id": "q02302",
+    "tema": "Geografia",
+    "subtema": "Clima e Biomas",
+    "ancora": "biomas_do_brasil",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Segundo a classificação oficial do IBGE, quantos biomas continentais existem no Brasil?",
+    "resposta": "Seis",
+    "distratores": [
+      "Quatro",
+      "Cinco",
+      "Oito"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Biomas_do_Brasil"
+    ]
   }
 ]
