@@ -30479,5 +30479,70 @@
       "autor": "Sklmsta",
       "licenca": "CC0"
     }
+  },
+  {
+    "id": "q01867",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "neo_quimica_arena",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estádio paulistano é este?",
+    "resposta": "Neo Química Arena",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Arena_Corinthians",
+      "https://pt.wikipedia.org/wiki/Neo_Qu%C3%ADmica_Arena"
+    ],
+    "imagem": {
+      "arquivo": "q01867.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:ARENA_CORINTHIANS.jpg",
+      "autor": "Alexandre Breveglieri",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q01868",
+    "tema": "Esportes",
+    "subtema": "Futebol",
+    "ancora": "signal_iduna_park",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade alemã fica este estádio?",
+    "resposta": "Dortmund",
+    "distratores": [
+      "Gelsenkirchen",
+      "Leverkusen",
+      "Colônia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Westfalenstadion",
+      "https://pt.wikipedia.org/wiki/Signal_Iduna_Park"
+    ],
+    "imagem": {
+      "arquivo": "q01868.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Signal_iduna_park_stadium_dortmund_6.jpg",
+      "autor": "Arne Müseler / www.arne-mueseler.com",
+      "licenca": "CC BY-SA 3.0 de"
+    }
+  },
+  {
+    "id": "q01869",
+    "tema": "Esportes",
+    "subtema": "Olimpíadas",
+    "ancora": "estadio_olimpico_de_berlim",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que estádio alemão é este?",
+    "resposta": "Estádio Olímpico de Berlim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Olympiastadion_%28Berlin%29",
+      "https://pt.wikipedia.org/wiki/Est%C3%A1dio_Ol%C3%ADmpico_de_Berlim"
+    ],
+    "imagem": {
+      "arquivo": "q01869.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin_2015.jpg",
+      "autor": "Thomas Wolf, www.foto-tw.de",
+      "licenca": "CC BY-SA 3.0 de"
+    }
   }
 ]

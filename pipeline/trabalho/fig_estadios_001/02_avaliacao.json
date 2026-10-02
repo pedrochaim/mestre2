@@ -1,0 +1,111 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida do estádio, sem texto que entregue a resposta (apenas marca d'água discreta de agência). Formato característico do teto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que estádio paulistano é este?",
+      "resposta": "Neo Química Arena",
+      "ancora": {
+        "nome": "Neo Química Arena",
+        "descricao": "Estádio de futebol do Corinthians, no bairro de Itaquera, em São Paulo, também chamado Arena Corinthians.",
+        "variantes": [
+          "Arena Corinthians",
+          "Itaquerão"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea com os pilares amarelos inconfundíveis; o texto nas fachadas é minúsculo e ilegível no celular. A pergunta de cidade não é entregue por nenhum texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade alemã fica este estádio?",
+      "resposta": "Dortmund",
+      "distratores": [
+        "Gelsenkirchen",
+        "Leverkusen",
+        "Colônia"
+      ],
+      "ancora": {
+        "nome": "Signal Iduna Park",
+        "descricao": "Estádio de futebol do Borussia Dortmund, em Dortmund, na Alemanha, também chamado Westfalenstadion.",
+        "variantes": [
+          "Westfalenstadion",
+          "BVB Stadion Dortmund"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: 'Celtic Football Club 1888' no teto e 'CELTIC' escrito nas arquibancadas."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Placa 'East Stand' e letreiro visíveis, torcedores comuns em primeiro plano e fachada pouco reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Pessoas comuns em primeiro plano e o ginásio aparece parcialmente atrás de uma grade, pouco reconhecível."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fachada icônica com as duas torres e os anéis olímpicos, sem texto que dê o nome. Reconhecível e sem pessoas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estádio alemão, construído para uma edição dos Jogos Olímpicos, é este?",
+      "resposta": "Estádio Olímpico de Berlim",
+      "ancora": {
+        "nome": "Estádio Olímpico de Berlim",
+        "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+        "variantes": [
+          "Olympiastadion Berlin",
+          "Olympiastadion"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Textos visíveis entregam a resposta (telões com Real Madrid e Bayern München, faixa 'El Real Madrid nunca se...') e multidão em primeiro plano."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Torcedores comuns em primeiro plano, patrocínios visíveis e interior de estádio genérico, sem elemento que permita reconhecê-lo com unicidade."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Mostra a largada de uma corrida com carros e público, com letreiros (Gulf, Motul); o autódromo em si não é reconhecível pela imagem e a resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome 'Madison Square Garden' aparece escrito em telões e letreiros, e há pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Interior genérico lotado, sem elemento distintivo que permita reconhecer o Lusail; bandeiras de países visíveis e resposta não única."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Texto 'USC' e 'United Airlines Field' visíveis no campo e na arquibancada, que apontam para a resposta, e multidão em primeiro plano."
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Neo Química Arena",
+        "descricao": "Estádio de futebol do Corinthians, no bairro de Itaquera, em São Paulo, também chamado Arena Corinthians.",
+        "variantes": [
+          "Arena Corinthians",
+          "Itaquerão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "amarna",
+          "nome": "Amarna",
+          "descricao": "Cidade fundada pelo faraó Aquenáton no século quatorze antes de Cristo como nova capital do Egito",
+          "variantes": [
+            "Tell el-Amarna",
+            "Aquetáton",
+            "Akhetaten"
+          ]
+        },
+        {
+          "id": "democracia_corinthiana",
+          "nome": "Democracia Corinthiana",
+          "descricao": "Movimento do Corinthians no início dos anos 1980 em que jogadores e funcionários votavam as decisões do clube, liderado por Sócrates.",
+          "variantes": [
+            "Corinthians Democracy"
+          ]
+        },
+        {
+          "id": "aquenaton",
+          "nome": "Aquenáton",
+          "descricao": "Faraó da 18ª dinastia do Egito, antes chamado Amenhotep IV, que instituiu o culto de Áton.",
+          "variantes": [
+            "Akhenaten",
+            "Amenhotep IV",
+            "Echnaton"
+          ]
+        },
+        {
+          "id": "citara_indiana",
+          "nome": "Cítara indiana",
+          "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+          "variantes": [
+            "Sitar",
+            "Cítara"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Signal Iduna Park",
+        "descricao": "Estádio de futebol do Borussia Dortmund, em Dortmund, na Alemanha, também chamado Westfalenstadion.",
+        "variantes": [
+          "Westfalenstadion",
+          "BVB Stadion Dortmund"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "esmalte_dentario",
+          "nome": "Esmalte dentário",
+          "descricao": "Camada externa que reveste a coroa dos dentes.",
+          "variantes": [
+            "Esmalte dos dentes",
+            "Tooth enamel"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Estádio Olímpico de Berlim",
+        "descricao": "Estádio construído para os Jogos Olímpicos de 1936, em Berlim, hoje casa do Hertha BSC.",
+        "variantes": [
+          "Olympiastadion Berlin",
+          "Olympiastadion"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "olimpiada_periodo",
+          "nome": "Olimpíada (período)",
+          "descricao": "Período de quatro anos usado pelos gregos antigos para contar o tempo entre os Jogos Olímpicos.",
+          "variantes": [
+            "Olympiad"
+          ]
+        },
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro"
+          ]
+        },
+        {
+          "id": "playstation",
+          "nome": "PlayStation",
+          "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+          "variantes": [
+            "PS1",
+            "PSX",
+            "PSone"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro_estado",
+          "nome": "Rio de Janeiro (estado)",
+          "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+          "variantes": [
+            "Rio de Janeiro",
+            "Estado do Rio de Janeiro",
+            "RJ"
+          ]
+        },
+        {
+          "id": "monte_olimpo",
+          "nome": "Monte Olimpo",
+          "descricao": "Enorme vulcão-escudo marciano, um dos maiores vulcões conhecidos do Sistema Solar.",
+          "variantes": [
+            "Olympus Mons"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A Neo Química Arena é um estádio. O Corinthians, a candidata mais próxima, é o clube, que é outra entidade. As demais candidatas não têm relação com o estádio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um estádio de futebol. Elas são um filme e um tecido dental."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O Estádio Olímpico de Berlim é diferente do Estádio Nacional de Pequim, que é outro estádio. As outras candidatas não têm relação com ele."
+    }
+  ]
+}

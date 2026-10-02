@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Santiago Bernabéu",
+      "titulo": "en:Santiago Bernabéu Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Old Trafford",
+      "titulo": "en:Old Trafford",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Anfield",
+      "titulo": "en:Anfield",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio do Morumbi",
+      "titulo": "pt:Estádio do Morumbi",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio do Pacaembu",
+      "titulo": "en:Pacaembu Stadium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Neo Química Arena",
+      "titulo": "en:Neo Química Arena",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Allianz Parque",
+      "titulo": "en:Allianz Parque",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Madison Square Garden",
+      "titulo": "en:Madison Square Garden",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Beira-Rio",
+      "titulo": "en:Estádio Beira-Rio",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Autódromo de Interlagos",
+      "titulo": "en:Interlagos Circuit",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Vila Belmiro",
+      "titulo": "pt:Estádio Urbano Caldeira",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "São Januário",
+      "titulo": "pt:Estádio São Januário",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Panathinaiko",
+      "titulo": "en:Panathenaic Stadium",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena Fonte Nova",
+      "titulo": "en:Arena Fonte Nova",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Mané Garrincha",
+      "titulo": "en:Estádio Nacional Mané Garrincha",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Signal Iduna Park",
+      "titulo": "en:Westfalenstadion",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Quadra Central de Wimbledon",
+      "titulo": "en:Centre Court",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Stade Roland Garros",
+      "titulo": "en:Stade Roland Garros",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Stade de France",
+      "titulo": "en:Stade de France",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio da Luz",
+      "titulo": "en:Estádio da Luz",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Yankee Stadium",
+      "titulo": "en:Yankee Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Maracanãzinho",
+      "titulo": "en:Maracanãzinho",
+      "camada": 2,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Arthur Ashe Stadium",
+      "titulo": "en:Arthur Ashe Stadium",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio Centenário",
+      "titulo": "en:Estadio Centenario",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estádio de Lusail",
+      "titulo": "en:Lusail Stadium",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Engenhão (Estádio Nilton Santos)",
+      "titulo": "pt:Estádio Olímpico Nilton Santos",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arena MRV",
+      "titulo": "pt:Arena MRV",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Wrigley Field",
+      "titulo": "en:Wrigley Field",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Fenway Park",
+      "titulo": "en:Fenway Park",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Indianapolis Motor Speedway",
+      "titulo": "en:Indianapolis Motor Speedway",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Autódromo de Monza",
+      "titulo": "en:Monza Circuit",
+      "camada": 3,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Los Angeles Memorial Coliseum",
+      "titulo": "en:Los Angeles Memorial Coliseum",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estádio Olímpico de Berlim",
+      "titulo": "en:Olympiastadion (Berlin)",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Estádio Olímpico de Montreal",
+      "titulo": "en:Olympic Stadium (Montreal)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ginásio do Ibirapuera",
+      "titulo": "pt:Ginásio do Ibirapuera",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Celtic Park",
+      "titulo": "en:Celtic Park",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Croke Park",
+      "titulo": "en:Croke Park",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Melbourne Cricket Ground",
+      "titulo": "en:Melbourne Cricket Ground",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Lord's",
+      "titulo": "en:Lord's",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Parc des Princes",
+      "titulo": "en:Parc des Princes",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    }
+  ]
+}

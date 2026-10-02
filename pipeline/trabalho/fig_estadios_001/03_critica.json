@@ -1,0 +1,29 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado curto, sem vazamento; os trechos confirmam o estádio em Itaquera, São Paulo, e o nome oficial.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O estádio fica em Dortmund, como confirmam os trechos. O enunciado não vaza a resposta e os distratores são cidades alemãs críveis, nenhuma delas correta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'construído para uma edição dos Jogos Olímpicos' quase entrega a resposta, 'Estádio Olímpico', que tem palavra derivada. Cobrindo a imagem, dá para responder só com o enunciado. Removi a pista e deixei só o país.",
+      "reescrita": {
+        "pergunta": "Que estádio alemão é este?",
+        "resposta": "Estádio Olímpico de Berlim",
+        "distratores": []
+      }
+    }
+  ]
+}
