@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de personagem emblemático, sem pista no enunciado. Nome confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kenny é um dos quatro protagonistas de South Park, conforme os trechos. O enunciado não entrega a série sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que Akira Toriyama criou Piccolo. Os distratores são mangakás críveis e nenhum é autor de Dragon Ball.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hugo Pratt criou Corto Maltese em 1967, segundo os trechos. Os distratores são quadrinistas europeus, críveis e com até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Identificação direta de Vegeta. Os distratores são da mesma franquia e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Dick Vigarista como vilão da Hanna-Barbera. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"elefante\" com \"Mauricio de Sousa\" e \"protagonista\" permite responder Turma da Mata sem ver a figura, pois Jotalhão é o elefante famoso. É preciso tirar a pista.",
+      "reescrita": {
+        "pergunta": "Este personagem é o protagonista de qual turma dos quadrinhos de Mauricio de Sousa?",
+        "resposta": "Turma da Mata",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Fandom confirma Cebolinha. Os distratores são da Turma da Mônica e nenhum descreve a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Stan Lee e Jack Kirby como criadores. Mas os distratores têm 5 palavras, acima do limite de 4. A pergunta passa a pedir só o cocriador.",
+      "reescrita": {
+        "pergunta": "Que desenhista criou este personagem junto com o roteirista Stan Lee?",
+        "resposta": "Jack Kirby",
+        "distratores": [
+          "Steve Ditko",
+          "Bill Everett",
+          "John Romita"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Fandom e a Wikipédia confirmam que Naruto é afilhado e último aluno de Jiraiya. O enunciado não entrega o personagem sem a figura e os distratores são críveis.",
+      "reescrita": null
+    }
+  ]
+}

@@ -58,9 +58,10 @@
     "fig_mamiferos_003",
     "fig_pokemon_001",
     "fig_cenas_001",
-    "esportes_basquete_01"
+    "esportes_basquete_01",
+    "fig_personagens_001"
   ],
-  "maior_id": 1808,
+  "maior_id": 1818,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -215,6 +216,19 @@
         "3": 1
       },
       "registradas": 8
+    },
+    "personagens": {
+      "familias": {
+        "o_que_e": 3,
+        "com_o_que_se_liga": 3,
+        "quem_fez": 4
+      },
+      "niveis": {
+        "1": 1,
+        "3": 3,
+        "2": 6
+      },
+      "registradas": 10
     }
   },
   "rendimento": {

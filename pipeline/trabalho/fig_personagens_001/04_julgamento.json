@@ -1,0 +1,556 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Patrick Estrela",
+        "descricao": "Estrela-do-mar rosa, melhor amigo de Bob Esponja na série animada Bob Esponja Calça Quadrada.",
+        "variantes": [
+          "Patrick Star",
+          "Patrick"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hat_trick",
+          "nome": "Hat-trick",
+          "descricao": "Expressão para três gols marcados por um mesmo jogador numa única partida.",
+          "variantes": [
+            "Tripleta"
+          ]
+        },
+        {
+          "id": "dia_de_sao_patricio",
+          "nome": "Dia de São Patrício",
+          "descricao": "Festa irlandesa de 17 de março em honra do padroeiro da Irlanda, celebrada com desfiles e a cor verde.",
+          "variantes": [
+            "Saint Patrick's Day",
+            "St. Patrick's Day"
+          ]
+        },
+        {
+          "id": "atari",
+          "nome": "Atari",
+          "descricao": "Empresa americana pioneira dos videogames, fundada em 1972 por Nolan Bushnell e Ted Dabney.",
+          "variantes": [
+            "Atari, Inc.",
+            "Atari Inc."
+          ]
+        },
+        {
+          "id": "a_noite_estrelada",
+          "nome": "A Noite Estrelada",
+          "descricao": "Quadro de Vincent van Gogh, de 1889, com um céu noturno em espirais.",
+          "variantes": [
+            "The Starry Night"
+          ]
+        },
+        {
+          "id": "matrioska",
+          "nome": "Matrioska",
+          "descricao": "Conjunto russo de bonecas de madeira ocas que se encaixam umas dentro das outras.",
+          "variantes": [
+            "Matryoshka",
+            "Boneca russa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kenny McCormick",
+        "descricao": "Menino de capuz laranja de South Park, famoso por morrer em quase todo episódio das primeiras temporadas.",
+        "variantes": [
+          "Kenny",
+          "Mysterion"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "estribo",
+          "nome": "Estribo",
+          "descricao": "Ossículo do ouvido médio que transmite vibrações à orelha interna.",
+          "variantes": [
+            "Stapes"
+          ]
+        },
+        {
+          "id": "asterix",
+          "nome": "Asterix",
+          "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+          "variantes": []
+        },
+        {
+          "id": "pasteurizacao",
+          "nome": "Pasteurização",
+          "descricao": "Processo de aquecimento de alimentos, como o leite, para eliminar micro-organismos.",
+          "variantes": [
+            "Pasteurization"
+          ]
+        },
+        {
+          "id": "playstation",
+          "nome": "PlayStation",
+          "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+          "variantes": [
+            "PS1",
+            "PSX",
+            "PSone"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Piccolo",
+        "descricao": "Namekuseijin verde de capa branca e turbante, personagem de Dragon Ball.",
+        "variantes": [
+          "Piccolo Jr.",
+          "Piccolo Júnior",
+          "Kamiccolo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "polo",
+          "nome": "Polo",
+          "descricao": "Esporte coletivo jogado a cavalo, em que os jogadores conduzem a bola com tacos.",
+          "variantes": [
+            "Polo equestre"
+          ]
+        },
+        {
+          "id": "penny_farthing",
+          "nome": "Penny-farthing",
+          "descricao": "Biciclo do século dezenove com roda dianteira enorme e roda traseira pequena.",
+          "variantes": [
+            "Biciclo",
+            "High wheeler",
+            "Grand-bi"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        },
+        {
+          "id": "codigo_konami",
+          "nome": "Código Konami",
+          "descricao": "Sequência de botões usada como truque em jogos da Konami, criada por Kazuhisa Hashimoto.",
+          "variantes": [
+            "Konami Code",
+            "Contra Code"
+          ]
+        },
+        {
+          "id": "microscopio",
+          "nome": "Microscópio",
+          "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+          "variantes": [
+            "Microscópio óptico",
+            "Microscope"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Corto Maltese",
+        "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+        "variantes": [
+          "Corto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porto",
+          "nome": "Porto",
+          "descricao": "Segunda maior cidade de Portugal, na foz do rio Douro.",
+          "variantes": []
+        },
+        {
+          "id": "espartilho",
+          "nome": "Espartilho",
+          "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
+          "variantes": [
+            "Corset",
+            "Corselet"
+          ]
+        },
+        {
+          "id": "escorbuto",
+          "nome": "Escorbuto",
+          "descricao": "Doença causada pela deficiência de vitamina C, comum entre marinheiros em longas viagens.",
+          "variantes": [
+            "Scurvy"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Vegeta",
+        "descricao": "Príncipe dos saiyajins de cabelo preto espetado e armadura azul, rival de Goku em Dragon Ball.",
+        "variantes": [
+          "Príncipe Vegeta",
+          "Vegeta IV"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grand_theft_auto",
+          "nome": "Grand Theft Auto",
+          "descricao": "Série de jogos de mundo aberto da Rockstar Games, iniciada em 1997.",
+          "variantes": [
+            "GTA"
+          ]
+        },
+        {
+          "id": "princesa_zelda",
+          "nome": "Princesa Zelda",
+          "descricao": "Princesa do reino de Hyrule na série The Legend of Zelda, da Nintendo.",
+          "variantes": [
+            "Princess Zelda",
+            "Zelda"
+          ]
+        },
+        {
+          "id": "peugeot",
+          "nome": "Peugeot",
+          "descricao": "Fabricante francesa de automóveis, originada de uma empresa familiar de produtos de aço do século dezenove.",
+          "variantes": []
+        },
+        {
+          "id": "colete",
+          "nome": "Colete",
+          "descricao": "Peça sem mangas usada sobre a camisa e sob o paletó, parte do terno de três peças",
+          "variantes": [
+            "Waistcoat",
+            "Vest"
+          ]
+        },
+        {
+          "id": "sega",
+          "nome": "Sega",
+          "descricao": "Empresa japonesa de videogames, criadora do Mega Drive e do Sonic.",
+          "variantes": [
+            "Sega Corporation"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Dick Vigarista",
+        "descricao": "Vilão de bigode e casaco azul das corridas de Corrida Maluca, personagem da Hanna-Barbera.",
+        "variantes": [
+          "Dick Dastardly"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bic_cristal",
+          "nome": "BIC Cristal",
+          "descricao": "Caneta esferográfica descartável de corpo transparente lançada pela empresa francesa BIC em 1950.",
+          "variantes": [
+            "Caneta BIC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Jotalhão",
+        "descricao": "Elefante verde da Turma da Mata, nos quadrinhos de Mauricio de Sousa.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "orelhao",
+          "nome": "Orelhão",
+          "descricao": "Cabine de telefone público em forma de concha, símbolo das ruas brasileiras desde os anos setenta.",
+          "variantes": [
+            "Chu I",
+            "Chu II"
+          ]
+        },
+        {
+          "id": "ottawa",
+          "nome": "Ottawa",
+          "descricao": "Capital do Canadá, na província de Ontário.",
+          "variantes": [
+            "Otava"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "oxala_interjeicao",
+          "nome": "Oxalá (interjeição)",
+          "descricao": "Interjeição portuguesa que exprime desejo, de origem árabe",
+          "variantes": [
+            "Ojalá",
+            "Inshallah"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cebolinha",
+        "descricao": "Menino de cinco fios de cabelo que troca o R pelo L, rival da Mônica na Turma da Mônica.",
+        "variantes": [
+          "Cebola",
+          "Cebolácio Júnior Menezes da Silva"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coxinha",
+          "nome": "Coxinha",
+          "descricao": "Salgado brasileiro frito, em forma de gota, recheado com frango desfiado.",
+          "variantes": [
+            "Coxinha de frango"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        },
+        {
+          "id": "boina",
+          "nome": "Boina",
+          "descricao": "Chapéu macio, redondo e de copa plana, em lã ou feltro, associado ao País Basco e à França.",
+          "variantes": [
+            "Beret",
+            "Béret",
+            "Txapela"
+          ]
+        },
+        {
+          "id": "centro_de_lancamento_de_alcantara",
+          "nome": "Centro de Lançamento de Alcântara",
+          "descricao": "Base brasileira de lançamento de foguetes, próxima à linha do Equador.",
+          "variantes": [
+            "CLA",
+            "Base de Alcântara"
+          ]
+        },
+        {
+          "id": "sri_lanka",
+          "nome": "Sri Lanka",
+          "descricao": "País insular do sul da Ásia, antigo Ceilão, ao sul da Índia.",
+          "variantes": [
+            "Ceilão",
+            "República Socialista Democrática do Sri Lanka"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Magneto",
+        "descricao": "Vilão mutante da Marvel, de capacete vermelho e roxo, que controla o magnetismo.",
+        "variantes": [
+          "Erik Lehnsherr",
+          "Erik Magnus Lensherr"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "champanhe",
+          "nome": "Champanhe",
+          "descricao": "Vinho espumante produzido na região de Champagne, na França",
+          "variantes": [
+            "Champagne",
+            "Champanha"
+          ]
+        },
+        {
+          "id": "erik_o_vermelho",
+          "nome": "Erik, o Vermelho",
+          "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+          "variantes": [
+            "Érico, o Vermelho",
+            "Erik the Red",
+            "Eiríkr rauði"
+          ]
+        },
+        {
+          "id": "mewtwo",
+          "nome": "Mewtwo",
+          "descricao": "Pokémon do tipo Psíquico, número 150 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        },
+        {
+          "id": "netuno",
+          "nome": "Netuno",
+          "descricao": "Oitavo planeta a partir do Sol, um gigante gelado.",
+          "variantes": [
+            "Neptune"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Jiraiya",
+        "descricao": "Ninja eremita de cabelo branco, um dos Sannin de Konoha, no mangá e anime Naruto.",
+        "variantes": [
+          "Jiraiya, o Sannin Sapo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "girafa",
+          "nome": "Girafa",
+          "descricao": "Mamífero africano de pescoço longo do gênero Giraffa.",
+          "variantes": [
+            "Giraffa",
+            "Giraffe"
+          ]
+        },
+        {
+          "id": "godzilla",
+          "nome": "Godzilla",
+          "descricao": "Monstro gigante criado pelo estúdio japonês Toho, que estreou no filme de 1954.",
+          "variantes": [
+            "Gojira"
+          ]
+        },
+        {
+          "id": "rai",
+          "nome": "Raí",
+          "descricao": "Raí Souza Vieira de Oliveira, meia brasileiro ídolo do São Paulo e do Paris Saint-Germain, campeão mundial em 1994.",
+          "variantes": [
+            "Raí Souza Vieira de Oliveira"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Personagem de Bob Esponja; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Personagem de South Park; candidatas são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Personagem de Dragon Ball; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Personagem de quadrinhos; candidatas não correspondem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Personagem de Dragon Ball; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Personagem da Hanna-Barbera; a única candidata é uma caneta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Personagem da Turma da Mata; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Personagem da Turma da Mônica; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Vilão da Marvel; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Personagem de Naruto; nenhuma candidata corresponde."
+    }
+  ]
+}

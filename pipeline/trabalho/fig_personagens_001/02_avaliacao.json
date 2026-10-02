@@ -1,0 +1,239 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro, silhueta de estrela-do-mar reconhecível pela forma.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Patrick Estrela",
+      "destino": 2,
+      "ancora": {
+        "nome": "Patrick Estrela",
+        "descricao": "Estrela-do-mar rosa, melhor amigo de Bob Esponja na série animada Bob Esponja Calça Quadrada.",
+        "variantes": [
+          "Patrick Star",
+          "Patrick"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem é a tela de título da novela com o texto 'Senhora do Destino' visível, que entrega a resposta, e não mostra a personagem."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Kenny é claro na imagem colorida; a silhueta é uma massa redonda que lembra outros meninos encapuzados, então usa a colorida e vai além do nome.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este personagem é um dos quatro meninos principais de qual série animada?",
+      "resposta": "South Park",
+      "destino": 2,
+      "ancora": {
+        "nome": "Kenny McCormick",
+        "descricao": "Menino de capuz laranja de South Park, famoso por morrer em quase todo episódio das primeiras temporadas.",
+        "variantes": [
+          "Kenny",
+          "Mysterion"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem é uma foto de divulgação do ator com Anakin Skywalker sem máscara, não Darth Vader, e mostra uma pessoa real; a resposta não é única diante dela."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Arte de corpo inteiro nítida e inconfundível; sem texto. Pergunta sobre o criador, em múltipla escolha.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que mangaká criou este personagem?",
+      "resposta": "Akira Toriyama",
+      "distratores": [
+        "Eiichiro Oda",
+        "Masashi Kishimoto",
+        "Tite Kubo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Piccolo",
+        "descricao": "Namekuseijin verde de capa branca e turbante, personagem de Dragon Ball.",
+        "variantes": [
+          "Piccolo Jr.",
+          "Piccolo Júnior",
+          "Kamiccolo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Personagem sozinho e nítido, mas a silhueta é um vulto fino pouco característico; usa a imagem colorida com pergunta sobre o criador.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que quadrinista criou este personagem?",
+      "resposta": "Hugo Pratt",
+      "distratores": [
+        "Hergé",
+        "Moebius",
+        "Milo Manara"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Corto Maltese",
+        "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+        "variantes": [
+          "Corto"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vegeta nítido na imagem colorida; a silhueta de cabelo espetado e pose de luta pode ser confundida com Goku ou Trunks, então usa múltipla com distratores parecidos.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Vegeta",
+      "distratores": [
+        "Goku",
+        "Trunks",
+        "Broly"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Vegeta",
+        "descricao": "Príncipe dos saiyajins de cabelo preto espetado e armadura azul, rival de Goku em Dragon Ball.",
+        "variantes": [
+          "Príncipe Vegeta",
+          "Vegeta IV"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Vilão sozinho, de corpo inteiro; boné, nariz e casaco longo dão silhueta reconhecível. Pergunta vai além do nome.",
+      "usar_silhueta": true,
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estúdio de animação criou este vilão?",
+      "resposta": "Hanna-Barbera",
+      "destino": 2,
+      "ancora": {
+        "nome": "Dick Vigarista",
+        "descricao": "Vilão de bigode e casaco azul das corridas de Corrida Maluca, personagem da Hanna-Barbera.",
+        "variantes": [
+          "Dick Dastardly"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Elefante verde nítido na imagem colorida; a silhueta é uma massa sem tromba visível, então usa a colorida e pergunta pela turma.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este elefante é o protagonista de qual turma dos quadrinhos de Mauricio de Sousa?",
+      "resposta": "Turma da Mata",
+      "destino": 1,
+      "ancora": {
+        "nome": "Jotalhão",
+        "descricao": "Elefante verde da Turma da Mata, nos quadrinhos de Mauricio de Sousa.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cebolinha claro na imagem colorida; a silhueta é uma massa com fios, pouco nítida, então usa múltipla com distratores da mesma turma.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Cebolinha",
+      "distratores": [
+        "Cascão",
+        "Chico Bento",
+        "Xaveco"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cebolinha",
+        "descricao": "Menino de cinco fios de cabelo que troca o R pelo L, rival da Mônica na Turma da Mônica.",
+        "variantes": [
+          "Cebola",
+          "Cebolácio Júnior Menezes da Silva"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Close do capacete inconfundível, sem texto; vale pela imagem. Pergunta sobre os criadores, sem nomear o personagem.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que dupla de quadrinistas criou este personagem?",
+      "resposta": "Stan Lee e Jack Kirby",
+      "distratores": [
+        "Stan Lee e Steve Ditko",
+        "Bob Kane e Bill Finger",
+        "Chris Claremont e John Byrne"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Magneto",
+        "descricao": "Vilão mutante da Marvel, de capacete vermelho e roxo, que controla o magnetismo.",
+        "variantes": [
+          "Erik Lehnsherr",
+          "Erik Magnus Lensherr"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Jiraiya claro na imagem colorida; a silhueta de cabelo espetado pode lembrar outros ninjas, então usa a colorida e pergunta pelo aluno.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jovem ninja foi afilhado e último aluno deste personagem?",
+      "resposta": "Naruto Uzumaki",
+      "distratores": [
+        "Sasuke Uchiha",
+        "Rock Lee",
+        "Kakashi Hatake"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jiraiya",
+        "descricao": "Ninja eremita de cabelo branco, um dos Sannin de Konoha, no mangá e anime Naruto.",
+        "variantes": [
+          "Jiraiya, o Sannin Sapo"
+        ]
+      }
+    }
+  ]
+}
