@@ -41870,5 +41870,255 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Kiwi_(bird)"
     ]
+  },
+  {
+    "id": "q02516",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "torre_eiffel",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que monumento francês é este?",
+    "resposta": "Torre Eiffel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eiffel_Tower",
+      "https://pt.wikipedia.org/wiki/Torre_Eiffel"
+    ],
+    "imagem": {
+      "arquivo": "q02516.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+      "autor": "Benh LIEU SONG",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q02517",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "angkor_wat",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que rei khmer mandou construir este templo, no século doze?",
+    "resposta": "Suryavarman II",
+    "distratores": [
+      "Jayavarman VII",
+      "Indravarman I",
+      "Yasovarman I"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angkor_Wat",
+      "https://pt.wikipedia.org/wiki/Angkor_Wat"
+    ],
+    "imagem": {
+      "arquivo": "q02517.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg",
+      "autor": "Bjørn Christian Tørrissen",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02518",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "moises_michelangelo",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em que basílica de Roma fica esta escultura de Michelangelo?",
+    "resposta": "San Pietro in Vincoli",
+    "distratores": [
+      "São João de Latrão",
+      "Santa Maria Maior",
+      "São Paulo Fora dos Muros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moses_%28Michelangelo%29",
+      "https://pt.wikipedia.org/wiki/Mois%C3%A9s_%28Michelangelo%29"
+    ],
+    "imagem": {
+      "arquivo": "q02518.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Michelangelo's_Moses_(Rome).jpg",
+      "autor": "Livioandronico2013",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02519",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "sagrada_familia",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade fica esta basílica?",
+    "resposta": "Barcelona",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sagrada_Fam%C3%ADlia",
+      "https://pt.wikipedia.org/wiki/Templo_Expiat%C3%B3rio_da_Sagrada_Fam%C3%ADlia"
+    ],
+    "imagem": {
+      "arquivo": "q02519.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:SF_maig_2026.jpg",
+      "autor": "Canaan",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02520",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "panteao_de_roma",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que edifício da Roma antiga é este?",
+    "resposta": "Panteão",
+    "distratores": [
+      "Templo de Saturno",
+      "Templo de Adriano",
+      "Templo de Vesta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pantheon%2C_Rome",
+      "https://pt.wikipedia.org/wiki/Pante%C3%A3o_%28Roma%29"
+    ],
+    "imagem": {
+      "arquivo": "q02520.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pantheon_(Rome)_-_Right_side_and_front.jpg",
+      "autor": "NikonZ7II",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02521",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "leao_de_lucerna",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que país fica este monumento esculpido na rocha?",
+    "resposta": "Suíça",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lion_Monument",
+      "https://pt.wikipedia.org/wiki/L%C3%B6wendenkmal"
+    ],
+    "imagem": {
+      "arquivo": "q02521.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Loewe3.JPG",
+      "autor": "Lukas Ahorn / Bertel Thorvaldsen",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02522",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "moais_da_ilha_de_pascoa",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que país ficam estas estátuas de pedra?",
+    "resposta": "Chile",
+    "distratores": [
+      "Peru",
+      "Nova Zelândia",
+      "México"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moai",
+      "https://pt.wikipedia.org/wiki/Moai"
+    ],
+    "imagem": {
+      "arquivo": "q02522.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ahu_Tongariki.jpg",
+      "autor": "Rivi",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q02523",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "pieta_michelangelo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que basílica fica esta escultura de mármore?",
+    "resposta": "Basílica de São Pedro",
+    "distratores": [
+      "São João de Latrão",
+      "Santa Maria Maior",
+      "São Paulo Fora dos Muros"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piet%C3%A0_%28Michelangelo%29",
+      "https://pt.wikipedia.org/wiki/Piet%C3%A0_%28Michelangelo%29"
+    ],
+    "imagem": {
+      "arquivo": "q02523.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Michelangelo's_Pieta_5450_cropncleaned_edit.jpg",
+      "autor": "Stanislav Traykov",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q02524",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "apolo_de_belvedere",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que célebre escultura de mármore, cópia romana de um original grego, é esta?",
+    "resposta": "Apolo de Belvedere",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apollo_Belvedere",
+      "https://pt.wikipedia.org/wiki/Apolo_Belvedere"
+    ],
+    "imagem": {
+      "arquivo": "q02524.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Apollo_of_the_Belvedere.jpg",
+      "autor": "Livioandronico2013",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02525",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "discobolo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que famosa escultura da Grécia antiga, conhecida por cópias romanas, é esta?",
+    "resposta": "Discóbolo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Discobolus",
+      "https://pt.wikipedia.org/wiki/Disc%C3%B3bolo"
+    ],
+    "imagem": {
+      "arquivo": "q02525.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG",
+      "autor": "Livioandronico2013",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q02526",
+    "tema": "Artes e Pensamento",
+    "subtema": "Escultura e Arquitetura",
+    "ancora": "apolo_e_dafne",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que museu de Roma fica esta escultura barroca?",
+    "resposta": "Galleria Borghese",
+    "distratores": [
+      "Museus Capitolinos",
+      "Museu Nacional Romano",
+      "Museus Vaticanos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Apollo_and_Daphne_%28Bernini%29",
+      "https://pt.wikipedia.org/wiki/Apollo_e_Dafne_%28escultura%29"
+    ],
+    "imagem": {
+      "arquivo": "q02526.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Apollo_and_Daphne_(Bernini)_(cropped).jpg",
+      "autor": "Architas",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

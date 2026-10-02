@@ -97,9 +97,10 @@
     "geografia_geografia_do_brasil_01",
     "fig_monumentos_historicos_002",
     "fig_insetos_001",
-    "natureza_aves_repteis_e_anfibios_01"
+    "natureza_aves_repteis_e_anfibios_01",
+    "fig_esculturas_arquitetura_001"
   ],
-  "maior_id": 2515,
+  "maior_id": 2526,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -490,6 +491,19 @@
         "2": 6,
         "3": 2,
         "1": 3
+      },
+      "registradas": 11
+    },
+    "esculturas_arquitetura": {
+      "familias": {
+        "o_que_e": 4,
+        "quem_fez": 2,
+        "onde": 5
+      },
+      "niveis": {
+        "1": 5,
+        "2": 4,
+        "3": 2
       },
       "registradas": 11
     }

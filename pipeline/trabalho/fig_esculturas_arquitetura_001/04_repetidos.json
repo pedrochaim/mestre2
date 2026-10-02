@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que monumento francês é este?",
+        "resposta": "Torre Eiffel"
+      },
+      "existentes": [
+        {
+          "id": "q02010",
+          "pergunta": "Em 1889, ano do centenário da Revolução Francesa, a Torre Eiffel foi erguida para servir de entrada a qual evento?",
+          "resposta": "A Exposição Universal de Paris"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que rei khmer mandou construir este templo, no século doze?",
+        "resposta": "Suryavarman II"
+      },
+      "existentes": [
+        {
+          "id": "q00385",
+          "pergunta": "Que templo é este?",
+          "resposta": "Angkor Wat"
+        },
+        {
+          "id": "q02034",
+          "pergunta": "O templo de Angkor Wat, que aparece estampado na bandeira nacional, fica em qual país asiático?",
+          "resposta": "Camboja"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em que cidade fica esta basílica?",
+        "resposta": "Barcelona"
+      },
+      "existentes": [
+        {
+          "id": "q02037",
+          "pergunta": "Em Barcelona, as obras da basílica da Sagrada Família começaram em qual século?",
+          "resposta": "Século dezenove"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em que país ficam estas estátuas de pedra?",
+        "resposta": "Chile"
+      },
+      "existentes": [
+        {
+          "id": "q01918",
+          "pergunta": "Que estátuas de pedra são estas?",
+          "resposta": "Moais"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o monumento é um fato diferente de saber o evento para o qual foi erguido."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o rei construtor, fato diferente do nome do templo ou do país."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cidade da basílica é um fato diferente do século em que as obras começaram. Embora a existente cite Barcelona no enunciado, a resposta é outra."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "País onde ficam as estátuas é um fato diferente do nome delas (Moais)."
+    }
+  ]
+}

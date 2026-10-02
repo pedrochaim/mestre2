@@ -1,0 +1,654 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Torre Eiffel",
+        "descricao": "Torre de treliça de ferro no Champ de Mars, em Paris, construída para a Exposição Universal de 1889.",
+        "variantes": [
+          "Tour Eiffel",
+          "Eiffel Tower"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_eiffel",
+          "nome": "Torre Eiffel",
+          "descricao": "Torre de ferro forjado no Campo de Marte, em Paris, inaugurada em 1889.",
+          "variantes": [
+            "Tour Eiffel",
+            "Eiffel Tower"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth"
+          ]
+        },
+        {
+          "id": "tour_de_france",
+          "nome": "Tour de France",
+          "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+          "variantes": [
+            "Volta da França"
+          ]
+        },
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Angkor Wat",
+        "descricao": "Complexo de templos em Siem Reap, no Camboja, construído no século doze como templo hindu dedicado a Vishnu.",
+        "variantes": [
+          "Angkor Vat"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "angkor_wat",
+          "nome": "Angkor Wat",
+          "descricao": "Templo do Império Khmer do século doze, no Camboja.",
+          "variantes": [
+            "Angkor Vat"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "caravela_portuguesa",
+          "nome": "Caravela-portuguesa",
+          "descricao": "Sifonóforo colonial (Physalia physalis) de flutuador azulado, com tentáculos urticantes.",
+          "variantes": [
+            "Physalia physalis",
+            "Fragata-portuguesa",
+            "Man o' war"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "pancracio",
+          "nome": "Pancrácio",
+          "descricao": "Esporte de combate dos Jogos Olímpicos da Grécia Antiga, quase sem restrições de golpes.",
+          "variantes": [
+            "Pankration",
+            "Pancrátio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Moisés (Michelangelo)",
+        "descricao": "Escultura de mármore de Michelangelo, na Basílica de San Pietro in Vincoli, em Roma, feita para o túmulo do papa Júlio II.",
+        "variantes": [
+          "Moisés de Michelangelo",
+          "Moses"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        },
+        {
+          "id": "davi_michelangelo",
+          "nome": "Davi (Michelangelo)",
+          "descricao": "Estátua de mármore de Michelangelo, de 1504.",
+          "variantes": []
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "o_juizo_final_michelangelo",
+          "nome": "O Juízo Final (Michelangelo)",
+          "descricao": "Afresco de Michelangelo na parede do altar da Capela Sistina, no Vaticano, pintado entre 1536 e 1541.",
+          "variantes": [
+            "Il Giudizio Universale",
+            "Juízo Final"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sagrada Família",
+        "descricao": "Basílica católica projetada por Antoni Gaudí, em construção no bairro de Eixample, em Barcelona.",
+        "variantes": [
+          "Templo Expiatório da Sagrada Família",
+          "Basílica da Sagrada Família"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sagrada_familia",
+          "nome": "Sagrada Família",
+          "descricao": "Basílica projetada por Antoni Gaudí em Barcelona, ainda em construção por mais de um século.",
+          "variantes": [
+            "Templo Expiatório da Sagrada Família"
+          ]
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        },
+        {
+          "id": "maria_ii_de_portugal",
+          "nome": "Maria II de Portugal",
+          "descricao": "Rainha de Portugal no século dezenove, filha mais velha de Dom Pedro I e da imperatriz Leopoldina.",
+          "variantes": [
+            "Maria da Glória",
+            "Dona Maria II"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+        "variantes": [
+          "Panteão",
+          "Pantheon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "partenon",
+          "nome": "Partenon",
+          "descricao": "Templo dórico dedicado a Atena, na Acrópole de Atenas, construído no século V a.C.",
+          "variantes": [
+            "Parthenon"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "eusebio",
+          "nome": "Eusébio",
+          "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+          "variantes": [
+            "Eusébio da Silva Ferreira",
+            "Pantera Negra",
+            "Pérola Negra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Leão de Lucerna",
+        "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+        "variantes": [
+          "Löwendenkmal",
+          "Monumento do Leão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monument_valley",
+          "nome": "Monument Valley",
+          "descricao": "Vale com grandes formações de arenito na fronteira entre Arizona e Utah, nos Estados Unidos, em território navajo.",
+          "variantes": [
+            "Vale dos Monumentos",
+            "Tsé Biiʼ Ndzisgaii"
+          ]
+        },
+        {
+          "id": "ilha_de_alcatraz",
+          "nome": "Ilha de Alcatraz",
+          "descricao": "Ilha na baía de São Francisco, na Califórnia, que abrigou uma prisão federal de segurança máxima.",
+          "variantes": [
+            "Alcatraz",
+            "Alcatraz Island"
+          ]
+        },
+        {
+          "id": "lenda_da_vitoria_regia",
+          "nome": "Lenda da vitória-régia",
+          "descricao": "Lenda indígena amazônica sobre a jovem Naiá, transformada em planta aquática pela Lua.",
+          "variantes": [
+            "Lenda de Naiá"
+          ]
+        },
+        {
+          "id": "pao_de_acucar",
+          "nome": "Pão de Açúcar",
+          "descricao": "Morro de granito na entrada da Baía de Guanabara, no Rio de Janeiro, ligado ao Morro da Urca por um teleférico.",
+          "variantes": [
+            "Morro do Pão de Açúcar",
+            "Sugarloaf Mountain"
+          ]
+        },
+        {
+          "id": "mitsuyo_maeda",
+          "nome": "Mitsuyo Maeda",
+          "descricao": "Judoca japonês que se fixou em Belém do Pará e ensinou sua luta à família Gracie.",
+          "variantes": [
+            "Conde Koma",
+            "Count Koma"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Moais da Ilha de Páscoa",
+        "descricao": "Estátuas monolíticas de pedra esculpidas pelo povo Rapa Nui na Ilha de Páscoa, no Chile.",
+        "variantes": [
+          "Moai",
+          "Moais"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "moais_da_ilha_de_pascoa",
+          "nome": "Moais da Ilha de Páscoa",
+          "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+          "variantes": [
+            "Moai",
+            "Estátuas da Ilha de Páscoa"
+          ]
+        },
+        {
+          "id": "ilha_de_pascoa",
+          "nome": "Ilha de Páscoa",
+          "descricao": "Ilha chilena isolada no Pacífico Sul, famosa pelas estátuas moai.",
+          "variantes": [
+            "Rapa Nui",
+            "Easter Island",
+            "Isla de Pascua"
+          ]
+        },
+        {
+          "id": "emoji",
+          "nome": "Emoji",
+          "descricao": "Pictogramas usados em mensagens digitais, surgidos nos celulares japoneses no fim dos anos noventa.",
+          "variantes": [
+            "Emojis"
+          ]
+        },
+        {
+          "id": "louva_a_deus",
+          "nome": "Louva-a-deus",
+          "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+          "variantes": [
+            "Mantodea",
+            "Mantis",
+            "Mantídeo"
+          ]
+        },
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pietà (Michelangelo)",
+        "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+        "variantes": [
+          "Pietà do Vaticano",
+          "La Pietà"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "davi_michelangelo",
+          "nome": "Davi (Michelangelo)",
+          "descricao": "Estátua de mármore de Michelangelo, de 1504.",
+          "variantes": []
+        },
+        {
+          "id": "o_juizo_final_michelangelo",
+          "nome": "O Juízo Final (Michelangelo)",
+          "descricao": "Afresco de Michelangelo na parede do altar da Capela Sistina, no Vaticano, pintado entre 1536 e 1541.",
+          "variantes": [
+            "Il Giudizio Universale",
+            "Juízo Final"
+          ]
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "pimenta",
+          "nome": "Pimenta",
+          "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+          "variantes": [
+            "Capsicum",
+            "Pimenta-malagueta"
+          ]
+        },
+        {
+          "id": "planeta",
+          "nome": "Planeta",
+          "descricao": "Corpo celeste que orbita uma estrela, tem massa para ser quase esférico e domina a vizinhança da sua órbita.",
+          "variantes": [
+            "Planet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Apolo de Belvedere",
+        "descricao": "Escultura de mármore, cópia romana de um bronze grego, que representa Apolo e está nos Museus do Vaticano.",
+        "variantes": [
+          "Apollo Belvedere",
+          "Apolo Pítio"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pole_position",
+          "nome": "Pole position",
+          "descricao": "Primeira posição no grid de largada de uma corrida, conquistada em geral pelo mais rápido no treino classificatório.",
+          "variantes": [
+            "Pole"
+          ]
+        },
+        {
+          "id": "polo_aquatico",
+          "nome": "Polo aquático",
+          "descricao": "Esporte coletivo disputado na piscina, com gols nas extremidades.",
+          "variantes": []
+        },
+        {
+          "id": "napoleao_bonaparte",
+          "nome": "Napoleão Bonaparte",
+          "descricao": "General e imperador dos franceses de 1804 a 1814, com breve retorno em 1815.",
+          "variantes": [
+            "Napoleão I",
+            "Napoleon Bonaparte"
+          ]
+        },
+        {
+          "id": "dolomitas",
+          "nome": "Dolomitas",
+          "descricao": "Cadeia de montanhas dos Alpes no nordeste da Itália, famosa por seus picos rochosos claros.",
+          "variantes": [
+            "Dolomites",
+            "Dolomiti",
+            "Alpes Dolomíticos"
+          ]
+        },
+        {
+          "id": "apollo_11",
+          "nome": "Apollo 11",
+          "descricao": "Missão da Nasa que levou os primeiros seres humanos à superfície da Lua.",
+          "variantes": [
+            "Apolo 11"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Discóbolo",
+        "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+        "variantes": [
+          "Discóbolo de Míron",
+          "Discobolus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sol_de_maio",
+          "nome": "Sol de Maio",
+          "descricao": "Sol dourado com rosto humano, emblema nacional que aparece nas bandeiras da Argentina e do Uruguai.",
+          "variantes": [
+            "Sol de Mayo",
+            "Sun of May"
+          ]
+        },
+        {
+          "id": "bolo_de_rolo",
+          "nome": "Bolo de rolo",
+          "descricao": "Bolo de camadas finíssimas de massa enroladas com goiabada, típico do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "frisbee",
+          "nome": "Frisbee",
+          "descricao": "Disco voador de plástico usado em brincadeiras de arremesso, popularizado pela empresa Wham-O.",
+          "variantes": [
+            "Disco voador"
+          ]
+        },
+        {
+          "id": "scooby_doo",
+          "nome": "Scooby-Doo",
+          "descricao": "Cachorro dinamarquês medroso, personagem-título dos desenhos da Hanna-Barbera criados em 1969.",
+          "variantes": [
+            "Scoobert Doo"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Apolo e Dafne",
+        "descricao": "Escultura barroca de Bernini, de 1622-1625, que mostra Dafne se transformando em loureiro ao ser alcançada por Apolo.",
+        "variantes": [
+          "Apollo e Dafne",
+          "Apollo and Daphne"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_da_helice",
+          "nome": "Nebulosa da Hélice",
+          "descricao": "Nebulosa planetária NGC 7293, em Aquário, uma das mais próximas da Terra.",
+          "variantes": [
+            "Nebulosa de Hélix",
+            "NGC 7293",
+            "Caldwell 63",
+            "Helix Nebula",
+            "Olho de Deus"
+          ]
+        },
+        {
+          "id": "willem_dafoe",
+          "nome": "Willem Dafoe",
+          "descricao": "Ator americano indicado quatro vezes ao Oscar, nascido em Appleton, Wisconsin.",
+          "variantes": [
+            "William James Dafoe"
+          ]
+        },
+        {
+          "id": "apollo_11",
+          "nome": "Apollo 11",
+          "descricao": "Missão da Nasa que levou os primeiros seres humanos à superfície da Lua.",
+          "variantes": [
+            "Apolo 11"
+          ]
+        },
+        {
+          "id": "napoleao_cruzando_os_alpes",
+          "nome": "Napoleão Cruzando os Alpes",
+          "descricao": "Retrato equestre pintado por Jacques-Louis David a partir de 1801.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "torre_eiffel",
+      "motivo": "Mesma torre de Paris, 1889."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "angkor_wat",
+      "motivo": "Mesmo templo khmer do Camboja, século doze."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Moisés de Michelangelo é uma escultura distinta; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "sagrada_familia",
+      "motivo": "Mesma basílica de Gaudí em Barcelona."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Panteão de Roma não consta; Partenon é outro templo, em Atenas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Monumento do Leão de Lucerna não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "moais_da_ilha_de_pascoa",
+      "motivo": "Mesmas estátuas moai; a Ilha de Páscoa é outra entidade."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "A Pietà é obra distinta das outras obras de Michelangelo cadastradas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Apolo de Belvedere é uma escultura; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Discóbolo de Míron não consta; o Frisbee é um objeto diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Escultura de Bernini; nenhuma candidata corresponde."
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Torre Eiffel nítida, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que monumento de ferro é este?",
+      "resposta": "Torre Eiffel",
+      "destino": 0,
+      "ancora": {
+        "nome": "Torre Eiffel",
+        "descricao": "Torre de treliça de ferro no Champ de Mars, em Paris, construída para a Exposição Universal de 1889.",
+        "variantes": [
+          "Tour Eiffel",
+          "Eiffel Tower"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Angkor Wat reconhecível, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que rei khmer mandou construir este templo, no século doze?",
+      "resposta": "Suryavarman II",
+      "distratores": [
+        "Jayavarman VII",
+        "Indravarman I",
+        "Yasovarman I"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Angkor Wat",
+        "descricao": "Complexo de templos em Siem Reap, no Camboja, construído no século doze como templo hindu dedicado a Vishnu.",
+        "variantes": [
+          "Angkor Vat"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura nítida, sem texto, reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que papa encomendou esta escultura para o seu túmulo?",
+      "resposta": "Júlio II",
+      "distratores": [
+        "Leão X",
+        "Paulo III",
+        "Clemente VII"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moisés (Michelangelo)",
+        "descricao": "Escultura de mármore de Michelangelo, na Basílica de San Pietro in Vincoli, em Roma, feita para o túmulo do papa Júlio II.",
+        "variantes": [
+          "Moisés de Michelangelo",
+          "Moses"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Sagrada Família reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica esta basílica?",
+      "resposta": "Barcelona",
+      "destino": 0,
+      "ancora": {
+        "nome": "Sagrada Família",
+        "descricao": "Basílica católica projetada por Antoni Gaudí, em construção no bairro de Eixample, em Barcelona.",
+        "variantes": [
+          "Templo Expiatório da Sagrada Família",
+          "Basílica da Sagrada Família"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Panteão reconhecível; inscrição latina não nomeia o edifício; pessoas pequenas e incidentais.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que edifício da Roma antiga é este?",
+      "resposta": "Panteão",
+      "distratores": [
+        "Templo de Saturno",
+        "Templo de Adriano",
+        "Templo de Vesta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Panteão de Roma",
+        "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+        "variantes": [
+          "Panteão",
+          "Pantheon"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Relevo nítido; inscrições latinas ilegíveis no celular e sem o nome do local.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica este monumento esculpido na rocha?",
+      "resposta": "Suíça",
+      "destino": 0,
+      "ancora": {
+        "nome": "Leão de Lucerna",
+        "descricao": "Relevo de um leão moribundo esculpido na rocha em Lucerna, na Suíça, em memória dos guardas suíços mortos em 1792.",
+        "variantes": [
+          "Löwendenkmal",
+          "Monumento do Leão"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Moais nítidos, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ilha ficam estas estátuas de pedra?",
+      "resposta": "Ilha de Páscoa",
+      "distratores": [
+        "Ilha de Pitcairn",
+        "Taiti",
+        "Ilhas Galápagos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moais da Ilha de Páscoa",
+        "descricao": "Estátuas monolíticas de pedra esculpidas pelo povo Rapa Nui na Ilha de Páscoa, no Chile.",
+        "variantes": [
+          "Moai",
+          "Moais"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pietà nítida, sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Em que basílica fica esta escultura de mármore?",
+      "resposta": "Basílica de São Pedro",
+      "distratores": [
+        "São João de Latrão",
+        "Santa Maria Maior",
+        "São Paulo Fora dos Muros"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pietà (Michelangelo)",
+        "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+        "variantes": [
+          "Pietà do Vaticano",
+          "La Pietà"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Estátua de corpo inteiro, nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que célebre escultura romana em mármore, cópia de um bronze grego, é esta?",
+      "resposta": "Apolo de Belvedere",
+      "destino": 0,
+      "ancora": {
+        "nome": "Apolo de Belvedere",
+        "descricao": "Escultura de mármore, cópia romana de um bronze grego, que representa Apolo e está nos Museus do Vaticano.",
+        "variantes": [
+          "Apollo Belvedere",
+          "Apolo Pítio"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Placa legível na base da imagem diz 'Intercession Cathedral (St. Basil's)', entregando a resposta; precisaria de recorte."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Escultura nítida, sem texto, pose inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famosa escultura da Grécia antiga, conhecida por cópias romanas, é esta?",
+      "resposta": "Discóbolo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Discóbolo",
+        "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+        "variantes": [
+          "Discóbolo de Míron",
+          "Discobolus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Grupo escultórico nítido, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que museu de Roma fica esta escultura barroca?",
+      "resposta": "Galleria Borghese",
+      "distratores": [
+        "Museus Capitolinos",
+        "Museu Nacional Romano",
+        "Museus Vaticanos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Apolo e Dafne",
+        "descricao": "Escultura barroca de Bernini, de 1622-1625, que mostra Dafne se transformando em loureiro ao ser alcançada por Apolo.",
+        "variantes": [
+          "Apollo e Dafne",
+          "Apollo and Daphne"
+        ]
+      }
+    }
+  ]
+}

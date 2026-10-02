@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Torre Eiffel",
+      "titulo": "en:Eiffel Tower",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Coliseu",
+      "titulo": "en:Colosseum",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Grande Pirâmide de Gizé",
+      "titulo": "en:Great Pyramid of Giza",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Taj Mahal",
+      "titulo": "en:Taj Mahal",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estátua da Liberdade",
+      "titulo": "en:Statue of Liberty",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Torre de Pisa",
+      "titulo": "en:Leaning Tower of Pisa",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Muralha da China",
+      "titulo": "en:Great Wall of China",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Machu Picchu",
+      "titulo": "en:Machu Picchu",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esfinge de Gizé",
+      "titulo": "en:Great Sphinx of Giza",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Partenon",
+      "titulo": "en:Parthenon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Big Ben",
+      "titulo": "en:Big Ben",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sagrada Família",
+      "titulo": "en:Sagrada Família",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Catedral de São Basílio",
+      "titulo": "en:Saint Basil's Cathedral",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Moais da Ilha de Páscoa",
+      "titulo": "en:Moai",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pietà (Michelangelo)",
+      "titulo": "en:Pietà (Michelangelo)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Vitória de Samotrácia",
+      "titulo": "en:Winged Victory of Samothrace",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Laocoonte e seus filhos",
+      "titulo": "en:Laocoön and His Sons",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Discóbolo",
+      "titulo": "en:Discobolus",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Angkor Wat",
+      "titulo": "en:Angkor Wat",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Hagia Sophia",
+      "titulo": "en:Hagia Sophia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Stonehenge",
+      "titulo": "en:Stonehenge",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Panteão de Roma",
+      "titulo": "en:Pantheon, Rome",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Arco do Triunfo",
+      "titulo": "en:Arc de Triomphe",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Portão de Brandemburgo",
+      "titulo": "en:Brandenburg Gate",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chichén Itzá (El Castillo)",
+      "titulo": "en:El Castillo, Chichen Itza",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Exército de Terracota",
+      "titulo": "en:Terracotta Army",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Busto de Nefertiti",
+      "titulo": "en:Nefertiti Bust",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Moisés (Michelangelo)",
+      "titulo": "en:Moses (Michelangelo)",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "O Rapto de Proserpina",
+      "titulo": "en:The Rape of Proserpina",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Apolo e Dafne",
+      "titulo": "en:Apollo and Daphne (Bernini)",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Perseu com a Cabeça de Medusa",
+      "titulo": "en:Perseus with the Head of Medusa",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Augusto de Prima Porta",
+      "titulo": "en:Augustus of Prima Porta",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Apolo de Belvedere",
+      "titulo": "en:Apollo Belvedere",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Leão de Lucerna",
+      "titulo": "en:Lion Monument",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Borobudur",
+      "titulo": "en:Borobudur",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cúpula da Rocha",
+      "titulo": "en:Dome of the Rock",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Porta de Ishtar",
+      "titulo": "en:Ishtar Gate",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "O Beijo (Rodin)",
+      "titulo": "en:The Kiss (Rodin sculpture)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Os Doze Profetas de Aleijadinho",
+      "titulo": "pt:Os Doze Profetas",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mesquita-Catedral de Córdoba",
+      "titulo": "en:Mosque–Cathedral of Córdoba",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}
