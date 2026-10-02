@@ -29527,5 +29527,210 @@
       "autor": "Raph_PH",
       "licenca": "CC BY 2.0"
     }
+  },
+  {
+    "id": "q01829",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "bateria",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento musical é este?",
+    "resposta": "Bateria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Drum_kit",
+      "https://pt.wikipedia.org/wiki/Bateria_%28instrumento_musical%29"
+    ],
+    "imagem": {
+      "arquivo": "q01829.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bateria.jpg",
+      "autor": "Danel Solabarrieta",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q01830",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "violino",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento musical é este?",
+    "resposta": "Violino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Violin",
+      "https://pt.wikipedia.org/wiki/Violino"
+    ],
+    "imagem": {
+      "arquivo": "q01830.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Violin_VL100.png",
+      "autor": "Just plain Bill",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q01831",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "ocarina",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento musical é este?",
+    "resposta": "Ocarina",
+    "distratores": [
+      "Flauta doce",
+      "Pífano",
+      "Berrante"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ocarina",
+      "https://pt.wikipedia.org/wiki/Ocarina"
+    ],
+    "imagem": {
+      "arquivo": "q01831.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2016-01_Ocarina_front-back.jpg",
+      "autor": "0x010C",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q01832",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "citara_indiana",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na canção Norwegian Wood, dos Beatles, qual integrante da banda tocou este instrumento?",
+    "resposta": "George Harrison",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sitar",
+      "https://pt.wikipedia.org/wiki/Sitar"
+    ],
+    "imagem": {
+      "arquivo": "q01832.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Sitar3.jpg",
+      "autor": "Sathyadeep",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q01833",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "piano_de_cauda",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de piano é este?",
+    "resposta": "Piano de cauda",
+    "distratores": [
+      "Piano vertical",
+      "Piano elétrico",
+      "Pianola"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Piano",
+      "https://pt.wikipedia.org/wiki/Piano"
+    ],
+    "imagem": {
+      "arquivo": "q01833.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Steinway_&_Sons_concert_grand_piano,_model_D-274,_manufactured_at_Steinway's_factory_in_Hamburg,_Germany.png",
+      "autor": "Steinway &amp; Sons, 10 Rondenbarg, Hamburg D-22525, Germany, eu.steinway.com.Steinway &amp; Sons, 1 Steinway Place, Long Island City, New York 11105, The United States, www.steinway.com.",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01834",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "go",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que jogo de tabuleiro é este?",
+    "resposta": "Go",
+    "distratores": [
+      "Damas",
+      "Reversi",
+      "Gamão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Go_%28game%29",
+      "https://pt.wikipedia.org/wiki/Go"
+    ],
+    "imagem": {
+      "arquivo": "q01834.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Go_board.jpg",
+      "autor": "Donarreiskoffer",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01835",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "shogi",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que jogo de tabuleiro é este?",
+    "resposta": "Shogi",
+    "distratores": [
+      "Xadrez chinês",
+      "Go",
+      "Damas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shogi",
+      "https://pt.wikipedia.org/wiki/Shogi"
+    ],
+    "imagem": {
+      "arquivo": "q01835.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Shogi.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY 1.0"
+    }
+  },
+  {
+    "id": "q01836",
+    "tema": "Entretenimento",
+    "subtema": "Música Brasileira",
+    "ancora": "sanfona",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento musical é este?",
+    "resposta": "Sanfona (acordeão)",
+    "distratores": [
+      "Bandoneon",
+      "Concertina",
+      "Harmônio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Accordion",
+      "https://pt.wikipedia.org/wiki/Acorde%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q01836.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg",
+      "autor": "Necz0r",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q01837",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "gaita_de_fole",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento musical é este?",
+    "resposta": "Gaita de fole",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bagpipes",
+      "https://pt.wikipedia.org/wiki/Gaita_de_fole"
+    ],
+    "imagem": {
+      "arquivo": "q01837.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Scotland_Independence_March,_28_March_2026_(32).jpg",
+      "autor": "Lucas Kendall",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

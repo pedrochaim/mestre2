@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Violão",
+      "titulo": "en:Acoustic guitar",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pandeiro",
+      "titulo": "en:Pandeiro",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Berimbau",
+      "titulo": "en:Berimbau",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Piano",
+      "titulo": "en:Piano",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Guitarra elétrica",
+      "titulo": "en:Electric guitar",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Bateria",
+      "titulo": "en:Drum kit",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Sanfona",
+      "titulo": "en:Accordion",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cavaquinho",
+      "titulo": "en:Cavaquinho",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Saxofone",
+      "titulo": "en:Saxophone",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Violino",
+      "titulo": "en:Violin",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Triângulo",
+      "titulo": "en:Triangle (musical instrument)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Super Nintendo",
+      "titulo": "en:Super Nintendo Entertainment System",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Cubo mágico",
+      "titulo": "en:Rubik's Cube",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavalo (xadrez)",
+      "titulo": "en:Knight (chess)",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Zabumba",
+      "titulo": "en:Zabumba",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Agogô",
+      "titulo": "en:Agogô",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Surdo",
+      "titulo": "en:Surdo",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tamborim",
+      "titulo": "en:Tamborim",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Harpa",
+      "titulo": "en:Harp",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Gaita de fole",
+      "titulo": "en:Bagpipes",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Banjo",
+      "titulo": "en:Banjo",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Ocarina",
+      "titulo": "en:Ocarina",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Nintendo 64",
+      "titulo": "en:Nintendo 64",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Mega Drive",
+      "titulo": "en:Sega Genesis",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Master System",
+      "titulo": "en:Master System",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Gamão",
+      "titulo": "en:Backgammon",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Go",
+      "titulo": "en:Go (game)",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Rabeca",
+      "titulo": "pt:Rabeca",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Atabaque",
+      "titulo": "en:Atabaque",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Teremim",
+      "titulo": "en:Theremin",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cítara indiana",
+      "titulo": "en:Sitar",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Didgeridoo",
+      "titulo": "en:Didgeridoo",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Virtual Boy",
+      "titulo": "en:Virtual Boy",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Neo Geo",
+      "titulo": "en:Neo Geo (system)",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Magnavox Odyssey",
+      "titulo": "en:Magnavox Odyssey",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "ColecoVision",
+      "titulo": "en:ColecoVision",
+      "camada": 3,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mancala",
+      "titulo": "en:Mancala",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Xadrez chinês",
+      "titulo": "en:Xiangqi",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Shogi",
+      "titulo": "en:Shogi",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Mahjong",
+      "titulo": "en:Mahjong",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Bateria completa, bem visível; marcas dos fabricantes não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Bateria",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bateria",
+        "descricao": "Instrumento musical de percussão formado por tambores e pratos tocados por um único músico.",
+        "variantes": [
+          "Bateria acústica",
+          "Drum kit"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A imagem mostra só o couro de um tambor com mãos de pessoa comum em primeiro plano; o instrumento não é reconhecível com segurança (poderia ser surdo, caixa ou outro tambor) e a zabumba não aparece com clareza."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O nome 'ColecoVision' está escrito no console, o que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Violino em vista frontal e lateral, sem texto, claro e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Violino",
+      "destino": 1,
+      "ancora": {
+        "nome": "Violino",
+        "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+        "variantes": [
+          "Rabeca"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Ocarina turquesa em duas vistas do mesmo objeto, forma característica; assinatura pequena não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Ocarina",
+      "distratores": [
+        "Flauta doce",
+        "Pífano",
+        "Berrante"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Ocarina",
+        "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+        "variantes": [
+          "Okarina"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cítara indiana em fundo branco, ornamentos e trastes característicos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que músico indiano levou este instrumento à fama no Ocidente, a partir do fim dos anos cinquenta?",
+      "resposta": "Ravi Shankar",
+      "destino": 1,
+      "ancora": {
+        "nome": "Cítara indiana",
+        "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+        "variantes": [
+          "Sitar",
+          "Cítara"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Piano de cauda de concerto, bem visível; a marca no corpo não entrega a resposta.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de piano é este?",
+      "resposta": "Piano de cauda",
+      "distratores": [
+        "Piano vertical",
+        "Piano elétrico",
+        "Cravo"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Piano de cauda",
+        "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+        "variantes": [
+          "Grand piano",
+          "Piano de concerto"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Tabuleiro de Go com pedras pretas e brancas, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogo de tabuleiro é este?",
+      "resposta": "Go",
+      "distratores": [
+        "Damas",
+        "Reversi",
+        "Gamão"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Go",
+        "descricao": "Jogo de tabuleiro de estratégia para dois, em que pedras pretas e brancas são postas nas interseções para cercar território.",
+        "variantes": [
+          "Weiqi",
+          "Baduk"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Tabuleiro de shogi com peças pentagonais características; sem texto latino que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogo de tabuleiro é este?",
+      "resposta": "Shogi",
+      "distratores": [
+        "Xadrez chinês",
+        "Go",
+        "Damas"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Shogi",
+        "descricao": "Jogo de tabuleiro japonês de estratégia, parente do xadrez, com peças pentagonais que podem ser recolocadas após a captura.",
+        "variantes": [
+          "Xadrez japonês"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Dois acordeões (de teclas e de botões) na mesma imagem, mesmo instrumento; marca Victoria não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Sanfona (acordeão)",
+      "distratores": [
+        "Bandoneon",
+        "Concertina",
+        "Harmônio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sanfona",
+        "descricao": "Instrumento de fole com palhetas livres, com teclado ou botões na mão direita e baixos na esquerda.",
+        "variantes": [
+          "Acordeão",
+          "Acordeom"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gaitas de fole bem visíveis, tocadas em desfile público; textos de fundo não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento musical estas pessoas estão tocando?",
+      "resposta": "Gaita de fole",
+      "destino": 1,
+      "ancora": {
+        "nome": "Gaita de fole",
+        "descricao": "Instrumento de sopro com palhetas alimentadas por uma bolsa de ar, típico da Escócia.",
+        "variantes": [
+          "Gaita escocesa",
+          "Bagpipe"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O nome 'Virtual Boy' aparece escrito no aparelho e no controle, o que entrega a resposta."
+    }
+  ]
+}

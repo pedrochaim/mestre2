@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento; a bateria é descrita nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples do violino, sem pista no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ocarina com distratores do mesmo tipo (flautas e sopros), nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem a imagem, 'músico indiano que levou o instrumento à fama no Ocidente' já entrega Ravi Shankar, e a figura vira enfeite. Troquei por um fato que exige reconhecer o instrumento (sitar em Norwegian Wood, que está nos trechos).",
+      "reescrita": {
+        "pergunta": "Na canção Norwegian Wood, dos Beatles, qual integrante da banda tocou este instrumento?",
+        "resposta": "George Harrison"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cravo não é um tipo de piano, o que destoa de 'Que tipo de piano'. Troquei por pianola, citada nos trechos como outro tipo de piano.",
+      "reescrita": {
+        "pergunta": "Que tipo de piano é este?",
+        "resposta": "Piano de cauda",
+        "distratores": [
+          "Piano vertical",
+          "Piano elétrico",
+          "Pianola"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento do Go com distratores de jogos de tabuleiro críveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Shogi com distratores de jogos de tabuleiro parecidos, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sanfona/acordeão confirmada nos trechos. Os distratores são outros instrumentos de fole, não são a resposta, e têm até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estas pessoas estão tocando' afirma algo sobre a foto que `mostra` não confirma. Pessoas comuns em fotos também são vedadas. Voltei para o enunciado neutro.",
+      "reescrita": {
+        "pergunta": "Que instrumento musical é este?",
+        "resposta": "Gaita de fole"
+      }
+    }
+  ]
+}

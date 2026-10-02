@@ -1,0 +1,544 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Bateria",
+        "descricao": "Instrumento musical de percussão formado por tambores e pratos tocados por um único músico.",
+        "variantes": [
+          "Bateria acústica",
+          "Drum kit"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "asterix",
+          "nome": "Asterix",
+          "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Violino",
+        "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+        "variantes": [
+          "Rabeca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "victorinox",
+          "nome": "Victorinox",
+          "descricao": "Empresa suíça fabricante do canivete suíço, fundada por Karl Elsener em 1884.",
+          "variantes": []
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "golfinho",
+          "nome": "Golfinho",
+          "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
+          "variantes": [
+            "Delphinidae",
+            "Dolphin"
+          ]
+        },
+        {
+          "id": "volvo",
+          "nome": "Volvo",
+          "descricao": "Fabricante sueca de automóveis fundada em 1927 em Gotemburgo.",
+          "variantes": [
+            "Volvo Cars"
+          ]
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ocarina",
+        "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+        "variantes": [
+          "Okarina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "cajuina",
+          "nome": "Cajuína",
+          "descricao": "Bebida sem álcool feita de suco de caju clarificado e cozido, típica do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "coringa",
+          "nome": "Coringa",
+          "descricao": "Vilão palhaço e principal inimigo do Batman, criado em 1940",
+          "variantes": [
+            "Joker"
+          ]
+        },
+        {
+          "id": "curinga",
+          "nome": "Curinga",
+          "descricao": "Carta extra do baralho, geralmente com a figura de um bobo da corte, que pode substituir outras cartas.",
+          "variantes": [
+            "Coringa",
+            "Joker"
+          ]
+        },
+        {
+          "id": "caipirinha",
+          "nome": "Caipirinha",
+          "descricao": "Coquetel brasileiro feito com cachaça, açúcar, limão e gelo.",
+          "variantes": [
+            "Caipirinha de limão"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cítara indiana",
+        "descricao": "Instrumento de cordas dedilhadas da música clássica hindustani, com pontes e trastes móveis.",
+        "variantes": [
+          "Sitar",
+          "Cítara"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "sesta",
+          "nome": "Sesta",
+          "descricao": "Cochilo tradicional depois do almoço, típico da Espanha e de outros países de clima quente.",
+          "variantes": [
+            "Siesta"
+          ]
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        },
+        {
+          "id": "capivara",
+          "nome": "Capivara",
+          "descricao": "Roedor semiaquático sul-americano, espécie Hydrochoerus hydrochaeris.",
+          "variantes": [
+            "Hydrochoerus hydrochaeris",
+            "Capybara"
+          ]
+        },
+        {
+          "id": "paciencia_do_windows",
+          "nome": "Paciência do Windows",
+          "descricao": "Versão digital do jogo de cartas Paciência incluída pela Microsoft no Windows a partir de 1990.",
+          "variantes": [
+            "Microsoft Solitaire",
+            "Solitaire"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Piano de cauda",
+        "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+        "variantes": [
+          "Piano",
+          "Grand piano",
+          "Piano de concerto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "penny_farthing",
+          "nome": "Penny-farthing",
+          "descricao": "Biciclo do século dezenove com roda dianteira enorme e roda traseira pequena.",
+          "variantes": [
+            "Biciclo",
+            "High wheeler",
+            "Grand-bi"
+          ]
+        },
+        {
+          "id": "libano",
+          "nome": "Líbano",
+          "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+          "variantes": [
+            "República Libanesa"
+          ]
+        },
+        {
+          "id": "big_bang",
+          "nome": "Big Bang",
+          "descricao": "Teoria cosmológica segundo a qual o universo se expande a partir de um estado inicial muito quente e denso.",
+          "variantes": [
+            "Teoria do Big Bang",
+            "Grande Explosão"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Go",
+        "descricao": "Jogo de tabuleiro de estratégia para dois, em que pedras pretas e brancas são postas nas interseções para cercar território.",
+        "variantes": [
+          "Weiqi",
+          "Baduk"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lego",
+          "nome": "Lego",
+          "descricao": "Brinquedo de blocos de plástico encaixáveis criado pela empresa dinamarquesa de mesmo nome.",
+          "variantes": []
+        },
+        {
+          "id": "wi_fi",
+          "nome": "Wi-Fi",
+          "descricao": "Família de padrões de rede local sem fio usada para conectar aparelhos à internet.",
+          "variantes": [
+            "Wifi",
+            "Wireless"
+          ]
+        },
+        {
+          "id": "goku",
+          "nome": "Goku",
+          "descricao": "Protagonista de Dragon Ball, criado por Akira Toriyama.",
+          "variantes": [
+            "Son Goku",
+            "Kakarotto"
+          ]
+        },
+        {
+          "id": "bauru",
+          "nome": "Bauru",
+          "descricao": "Sanduíche brasileiro de rosbife, queijo derretido, tomate e picles no pão francês, criado no bar Ponto Chic",
+          "variantes": [
+            "Bauru (sanduíche)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Shogi",
+        "descricao": "Jogo de tabuleiro japonês de estratégia, parente do xadrez, com peças pentagonais que podem ser recolocadas após a captura.",
+        "variantes": [
+          "Xadrez japonês"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shinkansen",
+          "nome": "Shinkansen",
+          "descricao": "Rede japonesa de trens de alta velocidade, inaugurada em 1964 e conhecida como trem-bala.",
+          "variantes": [
+            "Trem-bala japonês",
+            "Bullet train"
+          ]
+        },
+        {
+          "id": "pecas_de_xadrez_de_lewis",
+          "nome": "Peças de xadrez de Lewis",
+          "descricao": "Conjunto de peças de xadrez medievais do século doze encontrado na Ilha de Lewis, na Escócia.",
+          "variantes": [
+            "Lewis chessmen",
+            "Xadrez de Lewis"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos"
+          ]
+        },
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        },
+        {
+          "id": "hyoga",
+          "nome": "Hyoga",
+          "descricao": "Cavaleiro de bronze russo de Os Cavaleiros do Zodíaco, mestre dos golpes de gelo.",
+          "variantes": [
+            "Cygnus Hyoga",
+            "Hyoga de Cisne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Sanfona",
+        "descricao": "Instrumento de fole com palhetas livres, com teclado ou botões na mão direita e baixos na esquerda.",
+        "variantes": [
+          "Acordeão",
+          "Acordeom"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acafrao",
+          "nome": "Açafrão",
+          "descricao": "Especiaria feita dos estigmas secos da flor Crocus sativus, usada em pratos como a paella e o risoto",
+          "variantes": [
+            "Saffron",
+            "Açafrão-verdadeiro",
+            "Crocus sativus"
+          ]
+        },
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Gaita de fole",
+        "descricao": "Instrumento de sopro com palhetas alimentadas por uma bolsa de ar, típico da Escócia.",
+        "variantes": [
+          "Gaita escocesa",
+          "Bagpipe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kilt",
+          "nome": "Kilt",
+          "descricao": "Peça de vestuário tradicional escocesa, semelhante a uma saia até o joelho, de lã em padrão tartan e com pregas.",
+          "variantes": [
+            "Kilt escocês",
+            "Saiote escocês"
+          ]
+        },
+        {
+          "id": "vista_de_toledo",
+          "nome": "Vista de Toledo",
+          "descricao": "Paisagem de El Greco de cerca de 1600.",
+          "variantes": []
+        },
+        {
+          "id": "hanafuda",
+          "nome": "Hanafuda",
+          "descricao": "Baralho tradicional japonês com ilustrações de flores, plantas e animais dos doze meses do ano.",
+          "variantes": [
+            "Cartas de flores"
+          ]
+        },
+        {
+          "id": "gripe",
+          "nome": "Gripe",
+          "descricao": "Doença respiratória contagiosa causada pelos vírus influenza.",
+          "variantes": [
+            "Influenza",
+            "Flu"
+          ]
+        },
+        {
+          "id": "dia_do_folclore",
+          "nome": "Dia do Folclore",
+          "descricao": "Data comemorativa brasileira dedicada às tradições populares, instituída por decreto em 1965.",
+          "variantes": [
+            "Dia do Folclore Brasileiro"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é instrumento musical."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o violino."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a ocarina."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cítara/sitar."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é piano."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o jogo Go."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Shogi não está entre as candidatas; peças de Lewis são outra coisa."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a sanfona."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Kilt é vestuário, não a gaita de fole."
+    }
+  ]
+}

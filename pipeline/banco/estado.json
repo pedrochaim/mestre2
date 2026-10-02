@@ -60,9 +60,10 @@
     "fig_cenas_001",
     "esportes_basquete_01",
     "fig_personagens_001",
-    "fig_musicos_atores_001"
+    "fig_musicos_atores_001",
+    "fig_instrumentos_jogos_001"
   ],
-  "maior_id": 1828,
+  "maior_id": 1837,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -242,6 +243,19 @@
         "3": 2
       },
       "registradas": 10
+    },
+    "instrumentos_jogos": {
+      "familias": {
+        "o_que_e": 7,
+        "com_o_que_se_liga": 1,
+        "que_tipo": 1
+      },
+      "niveis": {
+        "1": 3,
+        "2": 5,
+        "3": 1
+      },
+      "registradas": 9
     }
   },
   "rendimento": {
