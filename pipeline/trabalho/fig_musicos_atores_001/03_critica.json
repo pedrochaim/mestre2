@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto; o enunciado só diz cantor e compositor, sem pista que entregue o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Wagner Moura também dirige (Marighella), então é um distrator defensável para 'ator e diretor'. Troquei por um ator que não é conhecido como diretor.",
+      "reescrita": {
+        "pergunta": "Quem é este ator e diretor brasileiro?",
+        "resposta": "Selton Mello",
+        "distratores": [
+          "Rodrigo Santoro",
+          "Marcos Palmeira",
+          "Murilo Benício"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Famosa dupla' é ambíguo: Otelo também formou duplas com Ankito e Vera Regina. A reescrita aponta para a dupla mais emblemática e para um filme da época dela.",
+      "reescrita": {
+        "pergunta": "Em filmes como Carnaval no Fogo, de mil novecentos e quarenta e nove, este ator formou uma das duplas cômicas mais emblemáticas do cinema brasileiro. Quem era o parceiro?",
+        "resposta": "Oscarito",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Começou a carreira em 1954' é impreciso: Elvis gravou na Sun já em 1953, e o primeiro single saiu em 1954. A reescrita fala do primeiro disco lançado.",
+      "reescrita": {
+        "pergunta": "Em 1954, este cantor lançou seu primeiro disco por uma pequena gravadora de Memphis. Qual?",
+        "resposta": "Sun Records",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento em múltipla escolha; os distratores são atores brasileiros que não estão em 'mostra' e têm até 4 palavras.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira indicação ao Oscar por Platoon (1986), confirmada nos trechos. O enunciado não entrega o ator.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento simples; distratores do mesmo tipo (apresentadores brasileiros) e nenhum deles é Faustão.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com distratores críveis do mesmo tipo (cantoras brasileiras).",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em inglês confirma o casamento com Joel Coen em 1984. A em português diz 1994, mas é erro dela: o casamento é de 1984, amplamente documentado. A pergunta exige reconhecer a atriz.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O álbum de estreia, de 1983, tem o mesmo nome da cantora (trechos). É preciso reconhecê-la pela figura, e os distratores são outros álbuns dela.",
+      "reescrita": null
+    }
+  ]
+}

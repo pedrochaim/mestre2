@@ -1,0 +1,222 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este cantor e compositor?",
+      "resposta": "Caetano Veloso",
+      "destino": 0,
+      "ancora": {
+        "nome": "Caetano Veloso",
+        "descricao": "Cantor e compositor baiano, um dos criadores do movimento Tropicália.",
+        "variantes": [
+          "Caetano Emanuel Viana Teles Veloso"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido em evento, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ator e diretor brasileiro?",
+      "resposta": "Selton Mello",
+      "distratores": [
+        "Wagner Moura",
+        "Rodrigo Santoro",
+        "Marcos Palmeira"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Selton Mello",
+        "descricao": "Ator e cineasta brasileiro, diretor de O Palhaço e intérprete de Rubens Paiva em Ainda Estou Aqui.",
+        "variantes": [
+          "Selton Figueiredo Mello"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto; rosto marcante.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este ator formou uma famosa dupla cômica no cinema brasileiro com qual outro ator?",
+      "resposta": "Oscarito",
+      "destino": 2,
+      "ancora": {
+        "nome": "Grande Otelo",
+        "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia, parceiro de Oscarito no cinema.",
+        "variantes": [
+          "Sebastião Bernardes de Souza Prata",
+          "Othelo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto de palco em preto e branco, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que gravadora de Memphis este cantor começou a carreira, em 1954?",
+      "resposta": "Sun Records",
+      "destino": 1,
+      "ancora": {
+        "nome": "Elvis Presley",
+        "descricao": "Cantor e ator americano conhecido como o Rei do Rock and Roll.",
+        "variantes": [
+          "Elvis Aaron Presley",
+          "Elvis"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Rosto claro; texto de fundo parcial não revela a resposta; pessoas ao fundo, não em primeiro plano.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ator brasileiro?",
+      "resposta": "Lázaro Ramos",
+      "distratores": [
+        "Seu Jorge",
+        "Babu Santana",
+        "Aílton Graça"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Lázaro Ramos",
+        "descricao": "Ator, diretor e escritor brasileiro, protagonista de Madame Satã.",
+        "variantes": [
+          "Luís Lázaro Sacramento de Araújo Ramos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido e sem texto; rosto característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Por qual filme de guerra de 1986 este ator recebeu sua primeira indicação ao Oscar?",
+      "resposta": "Platoon",
+      "destino": 2,
+      "ancora": {
+        "nome": "Willem Dafoe",
+        "descricao": "Ator americano indicado quatro vezes ao Oscar, nascido em Appleton, Wisconsin.",
+        "variantes": [
+          "William James Dafoe"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Rosto nítido; logo de emissora nos microfones não entrega o nome; pessoas ao fundo desfocadas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este apresentador de televisão brasileiro?",
+      "resposta": "Faustão",
+      "distratores": [
+        "Gugu Liberato",
+        "Sílvio Santos",
+        "Datena"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Faustão",
+        "descricao": "Fausto Silva, apresentador brasileiro do Domingão do Faustão na Globo.",
+        "variantes": [
+          "Fausto Silva",
+          "Fausto Corrêa Silva"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta cantora brasileira?",
+      "resposta": "Gal Costa",
+      "distratores": [
+        "Maria Bethânia",
+        "Elis Regina",
+        "Rita Lee"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gal Costa",
+        "descricao": "Cantora brasileira, figura central da Tropicália.",
+        "variantes": [
+          "Maria da Graça Costa Penna Burgos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido; texto de fundo (TNT, AG) não revela a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Com qual diretor de cinema esta atriz é casada desde 1984?",
+      "resposta": "Joel Coen",
+      "destino": 2,
+      "ancora": {
+        "nome": "Frances McDormand",
+        "descricao": "Atriz americana vencedora de quatro Oscars, casada com Joel Coen.",
+        "variantes": [
+          "Frances Louise McDormand"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de palco nítida, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama o álbum de estreia, de 1983, desta cantora?",
+      "resposta": "Madonna",
+      "distratores": [
+        "Like a Virgin",
+        "True Blue",
+        "Ray of Light"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Madonna",
+        "descricao": "Cantora, compositora e atriz americana conhecida como a Rainha do Pop.",
+        "variantes": [
+          "Madonna Louise Ciccone"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Foto antiga de jovem, com marcas de lápis vermelho de diagramação; difícil de reconhecer, não fica boa no celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Foto jovem e informal, com cigarro e pouco reconhecível; texto parcial de jornal no canto; resposta não é segura pela imagem."
+    }
+  ]
+}
