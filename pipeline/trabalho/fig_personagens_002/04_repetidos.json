@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que pokémon este evolui?",
+        "resposta": "Raichu"
+      },
+      "existentes": [
+        {
+          "id": "q01740",
+          "pergunta": "Quem é esse pokémon?",
+          "resposta": "Pikachu"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a identidade do pokémon (Pikachu); a nova pergunta a evolução (Raichu). São fatos diferentes."
+    }
+  ]
+}

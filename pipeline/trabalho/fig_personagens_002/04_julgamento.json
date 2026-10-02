@@ -1,0 +1,544 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Shrek",
+        "descricao": "Ogro verde protagonista da série de filmes de animação Shrek, da DreamWorks.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "herge",
+          "nome": "Hergé",
+          "descricao": "Quadrinista belga, criador de Tintim",
+          "variantes": [
+            "Georges Remi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ikki de Fênix",
+        "descricao": "Cavaleiro de Bronze da constelação de Fênix na obra Saint Seiya (Os Cavaleiros do Zodíaco).",
+        "variantes": [
+          "Phoenix Ikki"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "expedicao_kon_tiki",
+          "nome": "Expedição Kon-Tiki",
+          "descricao": "Travessia do Oceano Pacífico numa jangada de troncos de balsa, do Peru à Polinésia, em 1947.",
+          "variantes": [
+            "Kon-Tiki"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Senninha",
+        "descricao": "Personagem infantil de quadrinhos inspirado no piloto Ayrton Senna.",
+        "variantes": [
+          "Senna Júnior"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sandy_junior",
+          "nome": "Sandy & Junior",
+          "descricao": "Dupla pop formada pelos irmãos Sandy e Junior Lima.",
+          "variantes": [
+            "Sandy e Junior"
+          ]
+        },
+        {
+          "id": "boca_juniors",
+          "nome": "Boca Juniors",
+          "descricao": "Club Atlético Boca Juniors, clube de futebol de Buenos Aires fundado em 1905 no bairro de La Boca.",
+          "variantes": [
+            "Club Atlético Boca Juniors",
+            "Boca",
+            "Xeneizes"
+          ]
+        },
+        {
+          "id": "sirenios",
+          "nome": "Sirênios",
+          "descricao": "Ordem de mamíferos aquáticos herbívoros que inclui peixes-bois e dugongos.",
+          "variantes": [
+            "Sirenia",
+            "Sirênia"
+          ]
+        },
+        {
+          "id": "as_meninas",
+          "nome": "As Meninas",
+          "descricao": "Quadro de Diego Velázquez no Museu do Prado.",
+          "variantes": []
+        },
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Chico Bento",
+        "descricao": "Menino caipira de chapéu de palha da Turma da Mônica, morador da Vila Abobrinha.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "chico_buarque",
+          "nome": "Chico Buarque",
+          "descricao": "Francisco Buarque de Hollanda, cantor, compositor e escritor carioca.",
+          "variantes": [
+            "Francisco Buarque de Hollanda"
+          ]
+        },
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum"
+          ]
+        },
+        {
+          "id": "cristo_redentor",
+          "nome": "Cristo Redentor",
+          "descricao": "Estátua art déco de Jesus Cristo no alto do morro do Corcovado, no Rio de Janeiro, inaugurada em 1931.",
+          "variantes": [
+            "Christ the Redeemer",
+            "Cristo do Corcovado"
+          ]
+        },
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Pinguim",
+        "descricao": "Oswald Cobblepot, vilão da DC Comics e inimigo do Batman.",
+        "variantes": [
+          "Penguin",
+          "Oswald Cobblepot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mapinguari",
+          "nome": "Mapinguari",
+          "descricao": "Monstro peludo do folclore amazônico, descrito com um só olho e uma boca na barriga.",
+          "variantes": [
+            "Mapinguary"
+          ]
+        },
+        {
+          "id": "pequi",
+          "nome": "Pequi",
+          "descricao": "Fruto do cerrado de polpa amarela e aroma forte, típico da culinária de Goiás",
+          "variantes": [
+            "Caryocar brasiliense"
+          ]
+        },
+        {
+          "id": "cachaca",
+          "nome": "Cachaça",
+          "descricao": "Aguardente brasileira destilada do caldo de cana-de-açúcar fermentado",
+          "variantes": [
+            "Pinga",
+            "Aguardente de cana"
+          ]
+        },
+        {
+          "id": "bicho_preguica",
+          "nome": "Bicho-preguiça",
+          "descricao": "Mamífero arborícola lento das Américas Central e do Sul, da subordem Folivora.",
+          "variantes": [
+            "Preguiça",
+            "Sloth",
+            "Folivora"
+          ]
+        },
+        {
+          "id": "pangolim",
+          "nome": "Pangolim",
+          "descricao": "Mamífero da África e da Ásia coberto de escamas, ordem Pholidota.",
+          "variantes": [
+            "Pangolin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Pikachu",
+        "descricao": "Pokémon do tipo Elétrico, mascote da franquia Pokémon.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "pikachu",
+          "nome": "Pikachu",
+          "descricao": "Pokémon do tipo Elétrico, número 25 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "pichu",
+          "nome": "Pichu",
+          "descricao": "Pokémon do tipo Elétrico, número 172 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "piaui",
+          "nome": "Piauí",
+          "descricao": "Estado da Região Nordeste do Brasil, com o menor litoral do país e capital em Teresina.",
+          "variantes": [
+            "Estado do Piauí",
+            "PI"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "cataratas_do_iguacu",
+          "nome": "Cataratas do Iguaçu",
+          "descricao": "Conjunto de quedas d'água do rio Iguaçu, na fronteira entre o Paraná, no Brasil, e a província argentina de Misiones.",
+          "variantes": [
+            "Iguaçu",
+            "Cataratas del Iguazú",
+            "Iguazu Falls"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Seu Barriga",
+        "descricao": "Proprietário da vila no seriado Chaves, cobrador de aluguéis, interpretado por Edgar Vivar.",
+        "variantes": [
+          "Senhor Barriga",
+          "Sr. Barriga",
+          "Don Barriga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maria_ii_de_portugal",
+          "nome": "Maria II de Portugal",
+          "descricao": "Rainha de Portugal no século dezenove, filha mais velha de Dom Pedro I e da imperatriz Leopoldina.",
+          "variantes": [
+            "Maria da Glória",
+            "Dona Maria II"
+          ]
+        },
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga"
+          ]
+        },
+        {
+          "id": "saiga",
+          "nome": "Saiga",
+          "descricao": "Antílope das estepes eurasiáticas com focinho inchado e flexível (Saiga tatarica).",
+          "variantes": [
+            "Antílope-saiga",
+            "Saiga tatarica"
+          ]
+        },
+        {
+          "id": "silvio_santos",
+          "nome": "Silvio Santos",
+          "descricao": "Apresentador e empresário brasileiro, fundador e dono do SBT.",
+          "variantes": [
+            "Senor Abravanel"
+          ]
+        },
+        {
+          "id": "africa_do_sul",
+          "nome": "África do Sul",
+          "descricao": "País do extremo sul da África com três capitais: Pretória, Cidade do Cabo e Bloemfontein.",
+          "variantes": [
+            "South Africa",
+            "República da África do Sul"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pernalonga",
+        "descricao": "Coelho cinza dos desenhos animados Looney Tunes e Merrie Melodies, da Warner Bros.",
+        "variantes": [
+          "Bugs Bunny"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "riacho_do_ipiranga",
+          "nome": "Riacho do Ipiranga",
+          "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+          "variantes": [
+            "Ribeirão do Ipiranga",
+            "Rio Ipiranga",
+            "Ipiranga"
+          ]
+        },
+        {
+          "id": "praga",
+          "nome": "Praga",
+          "descricao": "Capital da República Tcheca, às margens do rio Moldava.",
+          "variantes": [
+            "Prague"
+          ]
+        },
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        },
+        {
+          "id": "baia_de_ha_long",
+          "nome": "Baía de Ha Long",
+          "descricao": "Baía do norte do Vietnã com milhares de ilhotas e torres de calcário que saem do mar.",
+          "variantes": [
+            "Ha Long Bay",
+            "Hạ Long",
+            "Halong"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Rubeus Hagrid",
+        "descricao": "Meio-gigante guarda-caça de Hogwarts nas obras de Harry Potter, vivido por Robbie Coltrane nos filmes.",
+        "variantes": [
+          "Hagrid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "charizard",
+          "nome": "Charizard",
+          "descricao": "Pokémon dos tipos Fogo e Voador, número 6 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "gaviao_real",
+          "nome": "Gavião-real",
+          "descricao": "Grande águia neotropical (Harpia harpyja), a maior ave de rapina de sua área de distribuição, das florestas tropicais de baixada.",
+          "variantes": [
+            "Harpia",
+            "Harpy eagle",
+            "Harpia harpyja"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "glandula_tireoide",
+          "nome": "Glândula tireoide",
+          "descricao": "Glândula endócrina localizada na parte da frente do pescoço.",
+          "variantes": [
+            "Tireoide",
+            "Tiroide",
+            "Thyroid"
+          ]
+        },
+        {
+          "id": "haroldo",
+          "nome": "Haroldo",
+          "descricao": "Tigre de pelúcia, amigo imaginário de Calvin na tira Calvin e Haroldo, de Bill Watterson",
+          "variantes": [
+            "Hobbes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Capitão Feio",
+        "descricao": "Principal vilão da Turma da Mônica, tio do Cascão, que vive nos esgotos.",
+        "variantes": [
+          "Feitoso Araújo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "capitao_america",
+          "nome": "Capitão América",
+          "descricao": "Super-herói patriótico criado por Joe Simon e Jack Kirby, estreou em 1941",
+          "variantes": [
+            "Captain America",
+            "Steve Rogers"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King"
+          ]
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        },
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Shrek."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Senninha é personagem de quadrinhos; candidatas são outras entidades."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Chico Bento é personagem; Chico Buarque é outra pessoa."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Vilão da DC não é animal nem outra candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "pikachu",
+      "motivo": "Mesmo Pokémon Pikachu."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Personagem de Chaves; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pernalonga não consta nas candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Hagrid não consta nas candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Capitão Feio é distinto do Capitão América e demais."
+    }
+  ]
+}

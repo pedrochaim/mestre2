@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento; sem pista, resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Não nomeia o personagem nem a obra; resposta única e sustentada pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'piloto de corrida' em quadrinhos entrega Senninha sem olhar a figura (teste da imagem coberta). Troquei por uma pista de país/gênero que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Quem é este personagem infantil dos quadrinhos brasileiros?",
+        "resposta": "Senninha",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criador é Mauricio de Sousa; enunciado não nomeia o personagem, e a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Seriado mexicano Chaves confirmado pelos trechos; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vilão do Batman; o enunciado não entrega o nome sem a figura. Resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pikachu evolui para Raichu; Pichu é pré-evolução, então é distrator válido. Os outros são elétricos parecidos, mas não são evolução.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Édgar Vivar, ator mexicano, interpreta Seu Barriga; o enunciado não nomeia o personagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mel Blanc foi o dublador original do Pernalonga. Os distratores são dubladores americanos de animação e nenhum deles é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hagrid aparece na série de filmes Harry Potter. Resposta única e sem vazamento no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capitão Feio é o principal vilão da Turma da Mônica. Os distratores são personagens da mesma turma e nenhum é o da figura.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Shrek sozinho, corpo inteiro, silhueta com orelhas e corpo inconfundíveis.",
+      "usar_silhueta": true,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Shrek",
+      "ancora": {
+        "nome": "Shrek",
+        "descricao": "Ogro verde protagonista da série de filmes de animação Shrek, da DreamWorks.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Ikki de Fênix de corpo inteiro, sem texto; pergunta pela obra.",
+      "usar_silhueta": false,
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 0,
+      "pergunta": "De que anime é este cavaleiro?",
+      "resposta": "Os Cavaleiros do Zodíaco",
+      "ancora": {
+        "nome": "Ikki de Fênix",
+        "descricao": "Cavaleiro de Bronze da constelação de Fênix na obra Saint Seiya (Os Cavaleiros do Zodíaco).",
+        "variantes": [
+          "Phoenix Ikki",
+          "Ikki de Fênix"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Arte oficial nítida do personagem em quadrinhos, capacete reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem é esse personagem dos quadrinhos, piloto de corrida?",
+      "resposta": "Senninha",
+      "ancora": {
+        "nome": "Senninha",
+        "descricao": "Personagem infantil de quadrinhos inspirado no piloto Ayrton Senna.",
+        "variantes": [
+          "Senna Júnior"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Chico Bento claro e reconhecível; a silhueta é parcialmente uma mancha, então usa a imagem colorida e pergunta pelo criador.",
+      "usar_silhueta": false,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Quem criou este personagem?",
+      "resposta": "Mauricio de Sousa",
+      "ancora": {
+        "nome": "Chico Bento",
+        "descricao": "Menino caipira de chapéu de palha da Turma da Mônica, morador da Vila Abobrinha.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Quadro de TV nítido do personagem, sem texto; figura reconhecível pelo bigode e terno.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "De que seriado mexicano é este personagem?",
+      "resposta": "Chaves",
+      "ancora": {
+        "nome": "Professor Girafales",
+        "descricao": "Personagem do seriado Chaves, professor da escola da vila, interpretado por Ruben Aguirre.",
+        "variantes": [
+          "Inocêncio Girafales",
+          "Profesor Jirafales"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Arte de quadrinhos clara do Pinguim, com cartola, monóculo e cigarreira; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 1,
+      "pergunta": "Que vilão do Batman é este?",
+      "resposta": "Pinguim",
+      "ancora": {
+        "nome": "Pinguim",
+        "descricao": "Oswald Cobblepot, vilão da DC Comics e inimigo do Batman.",
+        "variantes": [
+          "Penguin",
+          "Oswald Cobblepot"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta do Pikachu reconhecível (orelhas e cauda em raio); pergunta de evolução em múltipla escolha.",
+      "usar_silhueta": true,
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 0,
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Raichu",
+      "distratores": [
+        "Pichu",
+        "Pachirisu",
+        "Dedenne"
+      ],
+      "ancora": {
+        "nome": "Pikachu",
+        "descricao": "Pokémon do tipo Elétrico, mascote da franquia Pokémon.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Quadro de TV claro do personagem, com óculos e charuto, sem texto; pergunta pelo ator.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "destino": 2,
+      "pergunta": "Que ator mexicano interpretou este personagem do seriado?",
+      "resposta": "Edgar Vivar",
+      "ancora": {
+        "nome": "Seu Barriga",
+        "descricao": "Proprietário da vila no seriado Chaves, cobrador de aluguéis, interpretado por Edgar Vivar.",
+        "variantes": [
+          "Senhor Barriga",
+          "Sr. Barriga",
+          "Don Barriga"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Quadrinho de cena com revistas, texto visível, nudez e personagem pouco legível; inadequado e confuso para reconhecimento."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Silhueta do Pernalonga reconhecível (orelhas, cenoura); pergunta pelo dublador original em múltipla escolha.",
+      "usar_silhueta": true,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 2,
+      "pergunta": "Quem foi o dublador original deste personagem nos Estados Unidos?",
+      "resposta": "Mel Blanc",
+      "distratores": [
+        "Daws Butler",
+        "Paul Frees",
+        "Don Messick"
+      ],
+      "ancora": {
+        "nome": "Pernalonga",
+        "descricao": "Coelho cinza dos desenhos animados Looney Tunes e Merrie Melodies, da Warner Bros.",
+        "variantes": [
+          "Bugs Bunny"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto nítida de Robbie Coltrane como Hagrid, figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "destino": 3,
+      "pergunta": "Em que série de filmes aparece este personagem?",
+      "resposta": "Harry Potter",
+      "ancora": {
+        "nome": "Rubeus Hagrid",
+        "descricao": "Meio-gigante guarda-caça de Hogwarts nas obras de Harry Potter, vivido por Robbie Coltrane nos filmes.",
+        "variantes": [
+          "Hagrid"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte oficial clara do Capitão Feio; a silhueta é uma mancha com capa rasgada, então usa a imagem colorida em múltipla escolha.",
+      "usar_silhueta": false,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "destino": 1,
+      "pergunta": "Quem é esse vilão da Turma da Mônica?",
+      "resposta": "Capitão Feio",
+      "distratores": [
+        "Louco",
+        "Zé Vampir",
+        "Do Contra"
+      ],
+      "ancora": {
+        "nome": "Capitão Feio",
+        "descricao": "Principal vilão da Turma da Mônica, tio do Cascão, que vive nos esgotos.",
+        "variantes": [
+          "Feitoso Araújo"
+        ]
+      }
+    }
+  ]
+}
