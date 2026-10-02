@@ -27,6 +27,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 - **Personalidades:** separadas das profissões, são habilidades que modificam o jogo para quem as tem (os antigos perks).
 
 **Casas**
+- **"Vá trabalhar":** **1/4 das casas**. Sorteia uma pergunta aleatória de um dos **dois temas da profissão** de quem cai nela; a mesma casa dá perguntas diferentes para cada jogador. É o que dá peso à escolha da profissão.
 - **Casas de Ação:** temáticas, com um texto de "vida". Exemplo: "Vá ao Cinema", que dá uma pergunta de Cinema.
 - **Casas de tema amplo:** a pergunta é de um tema inteiro, como no Master.
 - **Casas em Branco:** o jogador pode usar uma carta ou comprar uma carta. **Comprar é de graça.**
@@ -91,6 +92,10 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Encruzilhadas em acertos** (proposta): a Faculdade exige uns 3 acertos a mais que o Trabalho, mas dá cartas; a Mansão dos Sábios economiza uns 3 acertos, mas exige 3 perguntas abertas seguidas.
 
+**Distribuição das casas** (proposta), na trilha de ~40 casas: 10 "Vá trabalhar", 12 de Ação, 8 de tema amplo, 6 em Branco e 4 especiais (encruzilhadas e Destino). As casas "Vá trabalhar" ficam espaçadas regularmente, mais ou menos a cada 4 casas: com o dado de 1 a 3, todos caem nelas com frequência parecida, e ninguém passa uma fase inteira sem trabalhar.
+
+**Personalidade Competitivo** (a rever): "+1 casa ao acertar um tema da profissão" fica forte com 1/4 das casas de trabalho. Proposta: valer só nas casas "Vá trabalhar", ou trocar o efeito.
+
 ## Em aberto
 
 1. **Carta de Desafio:** do jeito que está, ela só ajuda o oponente. Se ele acertar, os dois andam; se errar, nada acontece. Por que alguém a usaria? Opções:
@@ -99,7 +104,6 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
    - ela é **cooperativa** de propósito.
 
    Com 3 jogadores, a versão cooperativa é a mais arriscada: quem joga a carta e quem acerta andam juntos, e o terceiro fica para trás. As versões de ataque ou de destravar não dependem do número de jogadores.
-2. **Os 2 temas da profissão:** que efeito têm no jogo? Hoje só a personalidade Competitivo depende deles.
 
 ## Prova de conceito do tabuleiro
 
@@ -108,7 +112,7 @@ Um primeiro desenho está em [`../prototipos/trilha_da_vida/`](../prototipos/tri
 ## O que o modo exige do app
 
 - Estado novo da partida: profissão, personalidade e mão de cartas de cada jogador.
-- Tabuleiro novo: uma trilha com bifurcações, com casas de Ação, de tema amplo e em Branco.
+- Tabuleiro novo: uma trilha com bifurcações, com casas "Vá trabalhar", de Ação, de tema amplo e em Branco.
 - Sorteio por **subtema**, além de por tema, para as casas de Ação. O app hoje só sorteia por tema.
 - Turno guiado: dado, pergunta definida pela casa ou pela carta, resultado.
 - Escolha do modo ao criar a partida. O Modo Master continua existindo, com as suas regras.
