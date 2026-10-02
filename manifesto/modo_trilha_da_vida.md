@@ -19,7 +19,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Objetivo:** **vence quem chega primeiro** ao fim da trilha. É uma corrida.
 
-**Tamanho do tabuleiro:** quem responde **cerca de 20 perguntas certas**, contando só o movimento de acertar (sem cartas nem outras mecânicas), chega ao fim. O comprimento da trilha sai daí: ~20 casas se cada acerto anda 1 casa, ~40 com um dado de 1 a 3, ~70 com um dado de 1 a 6. As encruzilhadas também são medidas em acertos.
+**Tamanho do tabuleiro:** quem responde **cerca de 20 perguntas certas**, contando só o movimento de acertar (sem cartas nem outras mecânicas), chega ao fim. Com o dado de 1 a 3 (média 2), a trilha tem **~40 casas**. As encruzilhadas também são medidas em acertos.
 
 **Começo do jogo**
 - Cada jogador **escolhe uma profissão** e **compra uma carta**.
@@ -74,7 +74,7 @@ O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser
 - **Recuperação:** para o líder não disparar, o que pesa mais com 3 jogadores: quem está em último compra uma carta extra por rodada, e as cartas que miram oponentes só miram quem está à frente na trilha.
 - **Aposentadoria como escolha de velocidade:** a Mansão dos Sábios vira um atalho que exige 3 perguntas abertas seguidas; quem erra volta para o caminho da Vila Tranquila, mais longo e sem exigências.
 
-**Movimento** (proposta): **dado de 1 a 3** por acerto, trilha de ~40 casas. Dá a sensação de andar no tabuleiro sem que o dado decida a partida: 20 acertos andam algo entre 32 e 48 casas. **Errar não move o peão**: se errar andasse, os erros também levariam ao fim, e a meta deixaria de ser "20 acertos". A estimativa de duração, com 65% de acerto e ~40 segundos por pergunta, é de uma hora com 3 jogadores e 1h20 com 4.
+**Movimento** (decidido pelo autor): **dado de 1 a 3** por acerto, trilha de ~40 casas. Dá a sensação de andar no tabuleiro sem que o dado decida a partida: 20 acertos andam algo entre 32 e 48 casas. **Errar não move o peão** (proposta): se errar andasse, os erros também levariam ao fim, e a meta deixaria de ser "20 acertos". A estimativa de duração, com 65% de acerto e ~40 segundos por pergunta, é de uma hora com 3 jogadores e 1h20 com 4.
 
 **Encruzilhadas em acertos** (proposta): a Faculdade exige uns 3 acertos a mais que o Trabalho, mas dá cartas; a Mansão dos Sábios economiza uns 3 acertos, mas exige 3 perguntas abertas seguidas.
 
@@ -87,7 +87,6 @@ O que os 2 temas da profissão fazem no jogo ainda não está definido. Pode ser
 
    Com 3 jogadores, a versão cooperativa é a mais arriscada: quem joga a carta e quem acerta andam juntos, e o terceiro fica para trás. As versões de ataque ou de destravar não dependem do número de jogadores.
 2. **Os 2 temas da profissão:** que efeito têm no jogo, além do perk?
-3. **Movimento:** 1 casa por acerto, dado de 1 a 3 ou dado de 1 a 6 (ver Movimento).
 
 ## Prova de conceito do tabuleiro
 
