@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.40 — 2026-10-01**
+> **Versão preliminar 0.41 — 2026-10-02**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -613,7 +613,7 @@ O Mestre2 terá mais de um modo de jogo, todos sobre o mesmo banco de perguntas.
 | Modo | Situação | Onde está descrito |
 |---|---|---|
 | **Master** | Em uso e em desenvolvimento. É o modo do app hoje | Esta seção (Papéis, Regras do tabuleiro, Desenho do tabuleiro, Definições) e §16 |
-| **Trilha da Vida** | Em concepção, sem implementação. Inspirado no *Jogo da Vida*: carreira com dois temas de especialidade, fases da vida, encruzilhadas, dinheiro e patrimônio | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) |
+| **Trilha da Vida** | Primeira versão no app (2026-10-02), a refinar. Corrida num mapa vertical no estilo *Slay the Spire*: profissão com dois temas, personalidade, casas "Vá trabalhar", de Ação, de tema, em Branco e de Destino, e uma mão de cartas | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) e §16 |
 
 O que esta seção diz sobre papéis, repetição e sorteio vale para todos os modos, salvo quando o modo disser outra coisa. O que diz sobre o tabuleiro vale para o Modo Master.
 
@@ -689,14 +689,23 @@ A partida usa **várias pessoas com seus próprios aparelhos**, e o app tem duas
 
 Acertos e erros contam só o que foi marcado pelo sorteio. A posição do peão inclui também os ajustes à mão, feitos na aba Tabuleiro depois de tocar em **Editar jogadores** (casa, tema do estágio 1 e remoção), ou **arrastando o peão** no tabuleiro, inclusive no modo mesa: solto, ele vai para a casa mais próxima do caminho do jogador. As regras ficam recolhidas em **Como se joga**.
 
+### Modo Trilha da Vida
+
+Ao criar a partida, escolhe-se **Nova partida · Master** ou **Nova partida · Trilha da Vida**. Partidas sem modo, como as antigas, são Master. As regras estão em [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md); o código fica em `app/public/trilha.js` (dados, mapa e desenho) e numa seção do `index.html` (telas e Firestore).
+
+- **Mapa:** gerado da `semente` gravada na partida, o mesmo em todos os aparelhos. Aparece na aba Tabuleiro e no modo mesa, que mostra o mapa vertical em altura cheia. Os peões podem ser arrastados para corrigir a posição.
+- **Começo:** na aba Tabuleiro, cada jogador escolhe entre 3 profissões e 2 personalidades sorteadas. As profissões que repetem tema de quem já escolheu somem das opções; com 4 jogadores, o último fica com a profissão dos 2 temas que sobraram. Cada um começa com 1 carta.
+- **Turno** (a aba Sorteio vira **Turno**): o app mostra de quem é a vez e quem lê. O jogador escolhe a próxima casa entre as ligadas e, se quiser, usa uma carta. A pergunta sai do tipo da casa e da carta. Acertou, o peão sobe; errou, fica; a vez passa. Antes de jogar, o app pede para resolver o que estiver pendente: descartar cartas acima do limite ou usar avanços livres.
+- **Automático:** casas em Branco (compra), Destino (6 eventos), Férias, o Desafio cooperativo (os dois ganham um avanço livre se o alvo acertar; o líder não pode ser alvo) e as personalidades Criativo, Competitivo, Observador e Colecionador. **De viva voz:** Metódico, Curioso, Aventureiro e Persistente, e o fim da rodada depois da chegada.
+
 ### Dados
 
 As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` copia `pipeline/banco/perguntas.json` para `app/public/perguntas.json`, só com os campos que o app usa: `id`, `tema`, `subtema`, `tipo`, `pergunta`, `resposta`, `distratores`, `imagem`, `angulo`, `fonte`, `autor` e `dificuldade`. A `ancora` sai já resolvida no cadastro, como nome e descrição. Se a âncora tiver sido fundida em outra, vale a entrada que a absorveu. Ele também copia as figuras de `pipeline/banco/imagens/` para `app/public/img/` e grava `app/public/temas.json`, que junta a lista canônica de temas e subtemas (§3) às descrições para os jogadores, escritas à mão em `app/descricoes.json`. Um subtema novo precisa de descrição nesse arquivo; sem ela, o script avisa. O Firestore guarda apenas o estado das partidas:
 
 | Caminho | Campos | Função |
 |---|---|---|
-| `partidas/{codigo}` | `criada_em` | A partida. O código é o id do documento. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
-| `partidas/{codigo}/jogadores/{id}` | `nome`, `pontos`, `tema`, `criado_em` | Um documento por jogador. `pontos` é a casa do peão; `tema` é o tema do estágio 1 |
+| `partidas/{codigo}` | `criada_em`; na Trilha da Vida, também `modo`, `semente` e `vez` | A partida. O código é o id do documento. `modo` é `master` ou `trilha` (sem ele, Master); `semente` gera o mapa; `vez` é o id do jogador da vez. Partidas criadas na v0.10 e na v0.11 têm também `tabuleiro`, que não é mais usado |
+| `partidas/{codigo}/jogadores/{id}` | `nome`, `pontos`, `tema`, `criado_em`; na Trilha, `trilha` | Um documento por jogador. Master: `pontos` é a casa do peão; `tema` é o tema do estágio 1. Trilha: o mapa `trilha` guarda posição, opções sorteadas, profissão, personalidade, mão, avanços livres, férias, descartes pendentes e o último evento |
 | `partidas/{codigo}/sorteios/{id}` | `pergunta`, `em`, `respondente`, `acertou` | Um registro por sorteio. A mesma pergunta pode ter vários |
 | `partidas/{codigo}/usadas/{id da pergunta}` | `em`, `respondente`, `acertou` | Formato antigo, até a v0.16: uma entrada por pergunta. O app ainda lê essas entradas, e elas contam junto com `sorteios` |
 
@@ -711,7 +720,8 @@ As perguntas **não ficam no Firestore**. O script `app/exportar_perguntas.py` c
   - uma partida não pode ser recriada nem apagada;
   - o nome do jogador tem até 30 caracteres, e o jogador começa com 0 ponto;
   - o tema do jogador tem até 40 caracteres;
-  - num jogador, só a casa (`pontos`) e o tema podem mudar;
+  - num jogador, só a casa (`pontos`), o tema e o estado da Trilha (`trilha`, um mapa de no máximo 12 campos) podem mudar;
+  - a partida pode ter `modo` (`master` ou `trilha`) e `semente` (inteiro) na criação, e só `vez` muda depois;
   - um sorteio é criado só com `pergunta` e `em`, e depois só o resultado (`respondente` e `acertou`) pode ser acrescentado. `usadas` segue a mesma regra, para não quebrar um aparelho que ainda esteja com a versão antiga aberta.
 - Qualquer outra coleção é negada.
 
@@ -865,6 +875,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.41 | 2026-10-02 | Modo Trilha da Vida no app: escolha do modo na criação, mapa no estilo Slay the Spire, profissões, personalidades, cartas e turno guiado; regras do Firestore ampliadas (§15, §16) |
 | 0.40 | 2026-10-01 | Modos de jogo: o tabuleiro atual passa a ser o Modo Master, que continua em desenvolvimento; o Modo Trilha da Vida, inspirado no *Jogo da Vida*, entra em concepção num documento próprio (§15) |
 | 0.39 | 2026-10-01 | Montagem de uma única obra (cenas ou elenco, sem texto) é aceita; primeiro lote de cenas de filmes e séries (§6) |
 | 0.38 | 2026-10-01 | Cinema e TV com figura: cenas de filmes e séries pelo TMDB (sem texto), personagens de filmes e séries no catálogo de personagens, atores com perguntas além do nome; um terço brasileiro; sem spoilers; crédito do TMDB no app (§6, §12, §17) |

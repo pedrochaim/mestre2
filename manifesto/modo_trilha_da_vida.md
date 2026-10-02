@@ -1,6 +1,6 @@
 # Modo Trilha da Vida — rascunho
 
-> **Em concepção.** Segundo modo de jogo do Mestre2, separado do **Modo Master** (o tabuleiro em espiral do MANIFESTO §15), que continua em desenvolvimento como está. Nada deste documento está implementado. Nome provisório.
+> **Primeira versão no app (2026-10-02)**, a refinar; ver MANIFESTO §16. Segundo modo de jogo do Mestre2, separado do **Modo Master** (o tabuleiro em espiral do MANIFESTO §15), que continua em desenvolvimento como está. Nada deste documento está implementado. Nome provisório.
 >
 > As regras de conteúdo (MANIFESTO, Parte I) valem igualmente: o modo muda como as perguntas são usadas, e não as perguntas (princípio 1).
 >
@@ -159,6 +159,17 @@ Os protótipos ficam em [`../prototipos/trilha_da_vida/`](../prototipos/trilha_d
   - as cartas da mão (3 de 3), cada uma com efeito e botão "Usar";
   - o aviso da Casa em Branco e os botões "Comprar carta" e "Rolar o dado" (anterior à decisão de tirar o dado).
 - **`tabuleiro.html` e `.png`:** a primeira prova de conceito, anterior às regras atuais, mantida como histórico.
+
+## Primeira versão no app (2026-10-02)
+
+Implementada em `app/public/trilha.js` e numa seção do `index.html` (MANIFESTO §16), com o mapa no estilo Slay the Spire. Escolhas de implementação que estas regras ainda não fixavam, a confirmar:
+- **A pergunta é da casa para onde se vai:** o jogador escolhe a próxima casa entre as ligadas e responde a pergunta dela; acertou, sobe.
+- **Casa em Branco e Destino exigem pergunta**, de qualquer tema; a compra da carta ou o evento acontecem ao chegar. **Férias** não tem pergunta.
+- **Avanços livres** (Desafio, Destino, Férias, Competitivo, Observador) são gastos escolhendo casas, sem pergunta: os ganhos no próprio acerto, na mesma vez; os outros, no começo da vez seguinte.
+- **Carta usada e errada é gasta.** Se a carta não tiver efeito possível na casa (por exemplo, Figura numa casa sem perguntas com figura), não é gasta.
+- **Baralho:** 40% Tema de um dos 8 temas, 15% Escolha o tema, 15% Desafio, 15% Múltipla escolha, 15% Figura.
+- **Destino:** 6 eventos automáticos (comprar 2 cartas, 1 avanço livre, perder uma carta, ganhar Escolha o tema, ganhar Figura, férias).
+- Faculdade, Mansão dos Sábios e as personalidades Aventureiro e Curioso, que dependiam do traçado antigo, ficam para depois.
 
 ## O que o modo exige do app
 

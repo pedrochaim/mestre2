@@ -5,23 +5,33 @@ service cloud.firestore {
     // As regras só limitam o formato dos dados.
     match /partidas/{codigo} {
       allow read: if true;
+      // "modo" e "semente" são do modo Trilha da Vida (a semente gera o mapa); partidas sem "modo" são Master.
       allow create: if codigo.matches('^[A-Z]{4}$')
-                    && request.resource.data.keys().hasOnly(['criada_em'])
-                    && request.resource.data.criada_em == request.time;
+                    && request.resource.data.keys().hasOnly(['criada_em', 'modo', 'semente'])
+                    && request.resource.data.criada_em == request.time
+                    && (!('modo' in request.resource.data) || request.resource.data.modo in ['master', 'trilha'])
+                    && (!('semente' in request.resource.data) || request.resource.data.semente is int);
+      // Na Trilha da Vida, "vez" é o id do jogador da vez.
+      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['vez'])
+                    && request.resource.data.vez is string
+                    && request.resource.data.vez.size() <= 40;
 
-      // "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1.
+      // Master: "pontos" é a casa do peão; "tema" é o tema do jogador no estágio 1.
+      // Trilha da Vida: o estado do jogador fica no mapa "trilha" (posição, profissão, personalidade, mão…).
       match /jogadores/{id} {
         allow read: if true;
-        allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em'])
+        allow create: if request.resource.data.keys().hasOnly(['nome', 'pontos', 'tema', 'criado_em', 'trilha'])
                       && request.resource.data.nome is string
                       && request.resource.data.nome.size() > 0
                       && request.resource.data.nome.size() <= 30
                       && request.resource.data.pontos == 0
                       && temaValido(request.resource.data)
+                      && trilhaValida(request.resource.data)
                       && request.resource.data.criado_em == request.time;
-        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos', 'tema'])
+        allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['pontos', 'tema', 'trilha'])
                       && request.resource.data.pontos is int
-                      && temaValido(request.resource.data);
+                      && temaValido(request.resource.data)
+                      && trilhaValida(request.resource.data);
         allow delete: if true;
       }
 
@@ -51,6 +61,10 @@ service cloud.firestore {
 
     function temaValido(dados) {
       return !('tema' in dados) || (dados.tema is string && dados.tema.size() > 0 && dados.tema.size() <= 40);
+    }
+
+    function trilhaValida(dados) {
+      return !('trilha' in dados) || (dados.trilha is map && dados.trilha.size() <= 12);
     }
   }
 }

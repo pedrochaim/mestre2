@@ -137,6 +137,30 @@
     ul.subtemas .desc { font-size: .92rem; margin: .15rem 0; }
     ul.subtemas li.vazio .sub-topo strong { color: var(--suave); }
     #info-entrada-botao { width: 100%; }
+    /* Trilha da Vida: turno, casas, mão e modo mesa com o mapa vertical. */
+    .vez { border-left: 8px solid var(--c, var(--linha)); }
+    .vez .quem-joga { font-size: 1.2rem; }
+    .chip { display: inline-block; border-radius: 999px; padding: .05rem .6rem; font-size: .8rem; font-weight: 700;
+            background: var(--c); color: var(--ct); margin: .15rem .3rem .15rem 0; }
+    .evento { border: 1px solid #c9a7ff; border-radius: 10px; padding: .5rem .7rem; margin-top: .6rem; font-size: .92rem; }
+    .casas { display: flex; flex-direction: column; gap: .45rem; }
+    .casas button { display: flex; align-items: center; gap: .7rem; text-align: left; }
+    .casas button[aria-pressed="true"] { border-color: var(--acento); box-shadow: 0 0 0 2px var(--acento); }
+    .casas .ic { font-size: 1.6rem; width: 2.2rem; text-align: center; flex: none; }
+    .casas .det { display: block; color: var(--suave); font-size: .84rem; }
+    .cartas { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: .5rem; }
+    .carta { border: 2px solid var(--c); border-radius: 12px; padding: .6rem; display: flex; flex-direction: column; gap: .35rem;
+             background: linear-gradient(160deg, #23232a, #141418); }
+    .carta .t { font-weight: 800; color: var(--c); }
+    .carta .e { font-size: .82rem; color: #c9c8c1; flex: 1; }
+    .carta button { padding: .35rem .6rem; }
+    .carta button[aria-pressed="true"] { background: var(--c); border-color: var(--c); color: #000; font-weight: 700; }
+    .carta select { padding: .3rem .4rem; font-size: .85rem; }
+    .escolha-inicial { display: flex; flex-direction: column; gap: .4rem; flex-basis: 100%; margin-top: .4rem; }
+    ul.placar li.escolhendo { flex-wrap: wrap; }
+    #mesa.trilha { overflow: auto; align-items: flex-start; }
+    #mesa.trilha .tabuleiro { width: auto; height: 100vh; }
+    #mesa.trilha .tabuleiro svg { height: 100vh; width: auto; }
     [hidden] { display: none !important; }
   </style>
 </head>
@@ -148,7 +172,8 @@
     <div id="marca" class="marca" aria-hidden="true"></div>
     <p class="lema">Quiz de conhecimentos gerais para jogar em grupo, com as perguntas lidas em voz alta.</p>
     <div class="cartao">
-      <button id="criar" class="principal" style="width:100%">Nova partida</button>
+      <button id="criar" class="principal" style="width:100%">Nova partida · Master</button>
+      <button id="criar-trilha" style="width:100%;margin-top:.5rem">Nova partida · Trilha da Vida</button>
     </div>
     <div class="cartao">
       <form id="form-entrar" class="linha">
@@ -182,6 +207,8 @@
     <div id="aba-sorteio">
       <!-- Preparação do sorteio; some enquanto há uma pergunta na tela -->
       <div id="preparo">
+      <!-- Trilha da Vida: de quem é a vez, para onde ir, a mão de cartas -->
+      <div id="turno" hidden></div>
       <!-- Jogadores: tema, posição, acertos e erros; tocar escolhe quem responde -->
       <div id="mini" class="cartao" hidden>
         <p id="vencedor-mini" class="vencedor" hidden></p>
@@ -189,7 +216,7 @@
         <div id="mini-placar" class="mini"></div>
       </div>
 
-      <div class="cartao">
+      <div id="cartao-temas" class="cartao">
         <div id="temas" class="temas"></div>
         <p id="em-breve" class="suave em-breve" hidden></p>
         <select id="figura">
@@ -229,7 +256,16 @@
         <p id="vencedor-tab" class="vencedor" hidden></p>
         <div id="tabuleiro" class="tabuleiro"></div>
         <button id="modo-mesa" style="width:100%;margin-top:.6rem">Modo mesa: tabuleiro em tela cheia</button>
-        <details class="regras">
+        <details id="regras-trilha" class="regras" hidden>
+          <summary>Como se joga</summary>
+          <p class="suave">Vence quem chega primeiro ao topo do mapa. Na sua vez, escolha a próxima casa entre as ligadas
+            à sua; a pergunta depende da casa: 💼 dos temas da sua profissão, as de Ação dos subtemas delas, as coloridas
+            do tema, as em Branco e de Destino de qualquer tema. Acertou, sobe para a casa; errou, fica. A cada 4 linhas
+            todas as casas são 💼. Casa em Branco: compra uma carta. Destino: um evento. ⛱️ Férias: sem pergunta, e o
+            próximo acerto anda 2 casas a mais. As cartas da mão mudam a próxima pergunta; o Desafio manda uma pergunta
+            a um oponente (menos o líder), e, se ele acertar, os dois ganham um avanço livre.</p>
+        </details>
+        <details id="regras-master" class="regras">
           <summary>Como se joga</summary>
           <p class="suave">Cada jogador começa na casa grande com o nome do seu tema e percorre o braço dessa cor
             (estágio 1: a casa grande e mais 7). Depois vem o anel central (estágio 2), onde a cor da casa do peão é o
@@ -274,6 +310,8 @@
   import { getFirestore, collection, doc, getDoc, setDoc, addDoc, updateDoc, deleteDoc, onSnapshot,
            query, orderBy, writeBatch, serverTimestamp, increment }
     from "https://www.gstatic.com/firebasejs/11.10.0/firebase-firestore.js";
+
+  import * as T from "./trilha.js";
 
   const db = getFirestore(initializeApp({
     apiKey: "AIzaSyDOxFK6-2MaySIpb5oDeLQJha3V1_6Aw7I",
@@ -382,20 +420,25 @@
     return Array.from({ length: 4 }, () => LETRAS[Math.floor(Math.random() * LETRAS.length)]).join("");
   }
 
-  $("criar").onclick = async () => {
+  // Partidas sem "modo" são Master, como as antigas. A Trilha da Vida leva a semente que gera o mapa.
+  async function criar(modo) {
     $("erro-entrada").textContent = "";
     for (let tentativa = 0; tentativa < 5; tentativa++) {
       const c = novoCodigo();
+      const dados = { criada_em: serverTimestamp() };
+      if (modo === "trilha") Object.assign(dados, { modo, semente: Math.floor(Math.random() * 2e9) });
       try {
         // Se o código já existir, a regra recusa (seria uma atualização), e tentamos outro.
-        await setDoc(doc(db, "partidas", c), { criada_em: serverTimestamp() });
+        await setDoc(doc(db, "partidas", c), dados);
         return entrar(c);
       } catch (e) {
         if (e.code !== "permission-denied") return ($("erro-entrada").textContent = "Erro: " + e.message);
       }
     }
     $("erro-entrada").textContent = "Não consegui criar a partida. Tente de novo.";
-  };
+  }
+  $("criar").onclick = () => criar("master");
+  $("criar-trilha").onclick = () => criar("trilha");
 
   $("form-entrar").onsubmit = async e => {
     e.preventDefault();
@@ -414,10 +457,18 @@
     await carregando;
 
     const base = doc(db, "partidas", c);
+    desligar.push(onSnapshot(base, snap => {
+      partida = snap.data() || {};
+      if (ehTrilha() && (!mapa || mapa.semente !== partida.semente)) mapa = { ...T.gerarMapa(partida.semente), semente: partida.semente };
+      aplicarModo();
+      desenharPlacar();
+      desenharTurno();
+    }));
     desligar.push(onSnapshot(query(collection(base, "jogadores"), orderBy("criado_em")), snap => {
       jogadores = snap.docs.map(d => ({ id: d.id, ...d.data() }));
       desenharPlacar();
       desenharRespondentes();
+      desenharTurno();
     }));
     desligar.push(onSnapshot(collection(base, "sorteios"), snap => {
       sorteios = snap.docs.map(d => d.data());
@@ -442,6 +493,7 @@
     desligar.forEach(f => f());
     desligar = [];
     codigo = null; atual = null; respondente = null; jogadores = []; sorteios = []; legado = []; vezes = new Map(); resultados = [];
+    partida = {}; mapa = null; limparTurno(); aplicarModo();
     history.replaceState(null, "", location.pathname);
     $("atual").hidden = true;
     $("revelado").hidden = true;
@@ -588,6 +640,7 @@
   // que saíram menos vezes, e a pergunta aparece marcada como repetida.
   $("sortear").onclick = async () => {
     $("msg-sorteio").textContent = "";
+    if (ehTrilha()) return sortearTrilha();
     if (temaEscolhido !== "*" && !temPerguntas(temaEscolhido))
       return ($("msg-sorteio").textContent = `Ainda não há perguntas de ${temaEscolhido}. Escolha outro tema ou "Qualquer tema".`);
     const todas = doFiltro(temaEscolhido);
@@ -728,7 +781,8 @@
     if (quem) {
       const trocar = el("button", { textContent: "trocar" });
       trocar.onclick = () => { trocando = true; desenharRespondentes(); };
-      $("quem").replaceChildren("Responde: ", el("strong", { textContent: quem.nome }), trocar);
+      // Na Trilha, quem responde é o jogador da vez (ou o alvo do Desafio): não se troca.
+      $("quem").replaceChildren("Responde: ", el("strong", { textContent: quem.nome }), ...(ehTrilha() ? [] : [trocar]));
     }
     $("quem-rotulo").hidden = $("respondentes").hidden = !lista;
     $("respondentes").replaceChildren(...jogadores.map(j => {
@@ -754,6 +808,7 @@
   }
 
   async function registrar(acertou) {
+    if (ehTrilha()) return registrarTrilha(acertou);
     const batch = writeBatch(db);
     batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { respondente, acertou });
     if (acertou) batch.update(doc(db, "partidas", codigo, "jogadores", respondente), { pontos: increment(1) });
@@ -956,7 +1011,9 @@
   // Arrastar peões. Enquanto um peão é arrastado, o tabuleiro não é redesenhado, para não perder o arrasto.
   let arrasto = null;  // {g, svg, id, x0, y0}
   function desenharTabuleiros() {
-    if (!arrasto) $("tabuleiro").innerHTML = $("mesa-tab").innerHTML = svgTabuleiro();
+    if (arrasto) return;
+    $("tabuleiro").innerHTML = $("mesa-tab").innerHTML =
+      ehTrilha() && mapa ? T.svgMapa(mapa, jogadores, CORES, opcoesDaVez().map(n => n.id)) : svgTabuleiro();
   }
   const pontoSvg = (svg, e) => Object.assign(svg.createSVGPoint(), { x: e.clientX, y: e.clientY })
     .matrixTransform(svg.getScreenCTM().inverse());
@@ -986,6 +1043,11 @@
       arrasto = null;
       const p = pontoSvg(svg, e);
       const j = jogadores.find(x => x.id === id);
+      if (ehTrilha()) {  // Trilha: o peão vai para a casa mais próxima do mapa
+        const casaT = T.casaMaisProxima(mapa, p.x, p.y);
+        if (casaT && j?.trilha && casaT !== j.trilha.pos) updateDoc(refJ(id), { trilha: { ...j.trilha, pos: casaT } });
+        return desenharTabuleiros();
+      }
       let casa = null, dist = Infinity;
       (centrosTabuleiro[temasDoJogo().indexOf(j?.tema)] || []).forEach(([x, y], k) => {
         const d = Math.hypot(p.x - x, p.y - y);
@@ -1012,6 +1074,7 @@
   };
 
   function desenharPlacar() {
+    if (ehTrilha()) return desenharPlacarTrilha();
     const chegaram = jogadores.filter(j => casaDe(j) >= CHEGADA).map(j => j.nome);
     for (const id of ["vencedor-mini", "vencedor-tab"]) {
       $(id).hidden = !chegaram.length;
@@ -1091,8 +1154,444 @@
     const nome = $("campo-nome").value.trim();
     if (!nome) return;
     $("campo-nome").value = "";
+    if (ehTrilha()) return novoJogadorTrilha(nome);
     await addDoc(collection(db, "partidas", codigo, "jogadores"), { nome, pontos: 0, tema: temaInicial(), criado_em: serverTimestamp() });
   };
+
+  // ---------------------------------------------------------------- trilha da vida
+
+  // Segundo modo de jogo (manifesto/modo_trilha_da_vida.md). Dados, mapa e desenho ficam em trilha.js; aqui, a
+  // ligação com as telas e o Firestore. O Master não muda: as funções dele desviam para cá só quando ehTrilha().
+  // O estado de cada jogador fica no campo "trilha" do documento dele: pos (casa "linha:coluna"), opcoes (profissões e
+  // personalidades sorteadas), profissao, personalidade, mao (cartas), extra (avanços livres), ferias, descartar
+  // (cartas a descartar), passarApos (a vez passa quando os avanços acabarem) e evento (o último acontecimento).
+  let partida = {};   // documento da partida: modo, semente, vez
+  let mapa = null;    // gerado da semente: o mesmo em todos os aparelhos
+  let turno = {};     // escolhas da vez, neste aparelho: destino, carta (índice na mão), temaLivre, desafio
+  const limparTurno = () => { turno = { destino: null, carta: null, temaLivre: "*", desafio: null }; };
+  limparTurno();
+  const ehTrilha = () => partida.modo === "trilha";
+  const refJ = id => doc(db, "partidas", codigo, "jogadores", id);
+  const subtemaParaTema = {};
+  carregandoTemas.then(ts => { for (const t of ts) for (const s of t.subtemas) subtemaParaTema[s.subtema] = t.tema; });
+
+  // Jogadores que já escolheram a profissão, na ordem de entrada; a vez gira entre eles, pulando quem já chegou.
+  const ordem = () => jogadores.filter(j => j.trilha && j.trilha.profissao !== null && j.trilha.profissao !== undefined);
+  const chegou = j => mapa && j.trilha?.pos === mapa.chegada;
+  function vezAtual() {
+    const o = ordem();
+    return o.find(j => j.id === partida.vez) || o.find(j => !chegou(j)) || o[0] || null;
+  }
+  function proximo(j) {
+    const o = ordem(), i = o.findIndex(x => x.id === j.id);
+    for (let k = 1; k <= o.length; k++) { const x = o[(i + k) % o.length]; if (!chegou(x)) return x; }
+    return j;
+  }
+  const opcoesDaVez = () => {
+    const jv = ehTrilha() && mapa ? vezAtual() : null;
+    return jv && !chegou(jv) && !jv.trilha.descartar ? mapa.acima(jv.trilha.pos) : [];
+  };
+
+  function aplicarModo() {
+    const tr = ehTrilha();
+    $("turno").hidden = !tr;
+    $("cartao-temas").hidden = tr;
+    $("regras-trilha").hidden = !tr;
+    $("regras-master").hidden = tr;
+    $("mesa").classList.toggle("trilha", tr);
+    document.querySelector('[data-aba="sorteio"]').textContent = tr ? "Turno" : "Sorteio";
+    if (!tr) { $("sortear").textContent = "Sortear"; $("sortear").disabled = false; }
+  }
+
+  // --- efeitos
+
+  function comprar(t, n) { for (let k = 0; k < n; k++) t.mao.push(T.sortearCarta()); }
+  const excesso = t => Math.max(0, t.mao.length - T.limiteMao({ trilha: t }));
+
+  // Chegar numa casa, com ou sem pergunta: muda a posição e aplica o efeito da casa.
+  function chegarEm(t, no) {
+    t.pos = no.id;
+    t.evento = "";
+    if (no.tipo === "B") {
+      const criativo = t.personalidade === "criativo";
+      comprar(t, criativo ? 2 : 1);
+      t.descartar = Math.max(criativo ? 1 : 0, excesso(t));
+      t.evento = criativo ? "🂠 Casa em Branco: comprou 2 cartas; fique com uma." : "🂠 Casa em Branco: comprou 1 carta.";
+    } else if (no.tipo === "D") {
+      const d = T.DESTINOS[Math.floor(Math.random() * T.DESTINOS.length)];
+      if (d.cartas) comprar(t, d.cartas);
+      if (d.carta) t.mao.push(d.carta);
+      if (d.extra) t.extra = (t.extra || 0) + d.extra;
+      if (d.perde && t.mao.length) t.mao.splice(Math.floor(Math.random() * t.mao.length), 1);
+      if (d.ferias) t.ferias = true;
+      t.descartar = excesso(t);
+      t.evento = "🔮 " + d.texto;
+    } else if (no.tipo === "A" && no.acao.ferias) {
+      t.ferias = true;
+      t.evento = "⛱️ Férias: no próximo acerto, anda 2 casas a mais.";
+    } else if (no.tipo === "chegada") t.evento = "🏡 Chegou!";
+  }
+
+  // --- turno
+
+  async function sortearTrilha() {
+    const jv = vezAtual();
+    if (!jv) return;
+    const carta = turno.carta !== null ? jv.trilha.mao[turno.carta] : null;
+    let pool, quem = jv.id, info, aviso = "";
+    const filtrar = f => perguntas.filter(p => (!f.temas || f.temas.includes(p.tema)) && (!f.subtemas || f.subtemas.includes(p.subtema))
+      && (!f.multipla || p.tipo === "multipla") && (!f.figura || p.imagem));
+    if (turno.desafio) {
+      const tema = turno.desafio.tema;
+      pool = filtrar({ temas: tema === "*" ? null : [tema] });
+      quem = turno.desafio.alvo;
+      info = { tipo: "desafio", jogador: jv.id, alvo: quem, carta: turno.carta };
+    } else {
+      const no = mapa.nos.get(turno.destino);
+      if (!no) return;
+      if (no.tipo === "A" && no.acao.ferias) return tirarFerias(jv, no);
+      const f = T.filtroDaCasa(no, jv, carta, turno.temaLivre, subtemaParaTema);
+      pool = filtrar(f);
+      if (!pool.length && f.subtemas) pool = filtrar({ ...f, subtemas: null, temas: f.temasReserva?.length ? f.temasReserva : null });
+      let gasta = turno.carta;
+      if (!pool.length && (f.multipla || f.figura)) {
+        pool = filtrar({ ...f, multipla: false, figura: false });
+        aviso = "Não há pergunta com o efeito da carta nesta casa; a carta não foi gasta.";
+        gasta = null;
+      }
+      if (!pool.length) pool = perguntas;
+      info = { tipo: "casa", jogador: jv.id, destino: no.id, carta: gasta };
+    }
+    const menos = Math.min(...pool.map(p => vezes.get(p.id) || 0));
+    const candidatas = pool.filter(p => (vezes.get(p.id) || 0) === menos);
+    const p = candidatas[Math.floor(Math.random() * candidatas.length)];
+    $("sortear").disabled = true;
+    try {
+      const ref = await addDoc(collection(db, "partidas", codigo, "sorteios"), { pergunta: p.id, em: serverTimestamp() });
+      mostrar(p, ref.id, menos);
+      atual.trilha = info;
+      respondente = quem;
+      desenharRespondentes();
+      if (aviso) $("msg-sorteio").textContent = aviso;
+    } catch (e) {
+      $("msg-sorteio").textContent = "Erro: " + e.message;
+    } finally {
+      $("sortear").disabled = false;
+    }
+  }
+
+  async function registrarTrilha(acertou) {
+    const info = atual.trilha;
+    const batch = writeBatch(db);
+    batch.update(doc(db, "partidas", codigo, "sorteios", atual.sorteio), { respondente, acertou });
+    const jv = jogadores.find(j => j.id === info.jogador);
+    const t = structuredClone(jv.trilha);
+    if (info.carta !== null && info.carta !== undefined) t.mao.splice(info.carta, 1);
+    let passa = true;
+    if (info.tipo === "desafio") {
+      const alvo = jogadores.find(j => j.id === info.alvo);
+      if (acertou && alvo) {
+        const ta = structuredClone(alvo.trilha);
+        ta.extra = (ta.extra || 0) + 1;
+        ta.evento = `🤝 Acertou o desafio de ${jv.nome}: 1 avanço livre.`;
+        batch.update(refJ(alvo.id), { trilha: ta });
+        t.extra = (t.extra || 0) + 1;
+        t.evento = `🤝 ${alvo.nome} acertou o seu desafio: 1 avanço livre.`;
+      } else t.evento = `🤝 ${alvo?.nome || "O oponente"} errou o desafio.`;
+    } else if (acertou) {
+      const no = mapa.nos.get(info.destino);
+      let bonus = 0;
+      if (t.ferias) { bonus += 2; t.ferias = false; }                                    // depois das férias
+      chegarEm(t, no);
+      if (t.personalidade === "competitivo" && no.tipo === "W") bonus += 1;
+      if (t.personalidade === "observador" && atual.imagem) bonus += 1;
+      if (bonus) {
+        t.extra = (t.extra || 0) + bonus;
+        t.passarApos = true;
+        passa = false;
+        t.evento = `${t.evento ? t.evento + " " : ""}+${bonus} ${bonus > 1 ? "avanços livres" : "avanço livre"}.`;
+      }
+    } else t.evento = "";
+    t.descartar = Math.max(t.descartar || 0, excesso(t));
+    batch.update(refJ(jv.id), { trilha: t });
+    if (passa) batch.update(doc(db, "partidas", codigo), { vez: proximo({ ...jv, trilha: t }).id });
+    try {
+      await batch.commit();
+      limparTurno();
+      fecharPergunta();
+    } catch (e) {
+      $("msg-sorteio").textContent = "Erro ao registrar: " + e.message;
+    }
+  }
+
+  async function tirarFerias(jv, no) {
+    const t = structuredClone(jv.trilha);
+    if (turno.carta !== null) turno.carta = null;   // carta nenhuma é gasta nas férias
+    chegarEm(t, no);
+    const batch = writeBatch(db);
+    batch.update(refJ(jv.id), { trilha: t });
+    batch.update(doc(db, "partidas", codigo), { vez: proximo(jv).id });
+    await batch.commit();
+    limparTurno();
+  }
+
+  async function avancoLivre(jv, no) {
+    const t = structuredClone(jv.trilha);
+    chegarEm(t, no);
+    t.extra = Math.max(0, (t.extra || 0) - 1);
+    const batch = writeBatch(db);
+    if (!t.extra && t.passarApos) {
+      t.passarApos = false;
+      batch.update(doc(db, "partidas", codigo), { vez: proximo({ ...jv, trilha: t }).id });
+    }
+    batch.update(refJ(jv.id), { trilha: t });
+    await batch.commit();
+    limparTurno();
+  }
+
+  async function descartar(jv, indice) {
+    const t = structuredClone(jv.trilha);
+    t.mao.splice(indice, 1);
+    t.descartar = Math.max(0, (t.descartar || 0) - 1, excesso(t));
+    await updateDoc(refJ(jv.id), { trilha: t });
+  }
+
+  async function passarVez(jv) {
+    limparTurno();
+    await updateDoc(doc(db, "partidas", codigo), { vez: proximo(jv).id });
+  }
+
+  // --- telas
+
+  const chipTema = tema => { const c = el("span", { className: "chip", textContent: tema }); pintar(c, tema); return c; };
+
+  function cartaVisual(c, acoes = []) {
+    const d = el("div", { className: "carta" });
+    d.style.setProperty("--c", c.t === "tema" ? (CORES[c.tema] || ["#87CEEB"])[0] : T.CARTAS[c.t].cor);
+    d.append(el("div", { className: "t", textContent: `${T.CARTAS[c.t].icone} ${T.nomeCarta(c)}` }),
+             el("div", { className: "e", textContent: T.efeitoCarta(c) }), ...acoes);
+    return d;
+  }
+
+  function botaoCasa(no, jv, aoTocar) {
+    const info = T.descreverCasa(no, jv);
+    const b = el("button");
+    const ic = el("span", { className: "ic", textContent: info.icone });
+    if (no.tipo === "M") { ic.textContent = "⬤"; ic.style.color = (CORES[no.tema] || ["#888"])[0]; }
+    const texto = el("span");
+    texto.append(el("strong", { textContent: info.nome }), el("span", { className: "det", textContent: info.detalhe }));
+    b.append(ic, texto);
+    b.setAttribute("aria-pressed", turno.destino === no.id);
+    b.onclick = aoTocar;
+    return b;
+  }
+
+  function desenharTurno() {
+    if (!ehTrilha() || !mapa) return;
+    const caixa = $("turno");
+    const o = ordem();
+    const bloco = [];
+    if (!o.length) {
+      caixa.replaceChildren(el("div", { className: "cartao suave", textContent: jogadores.length
+        ? "Cada jogador escolhe a profissão e a personalidade na aba Tabuleiro; depois, o jogo começa aqui."
+        : "Adicione os jogadores na aba Tabuleiro." }));
+      $("sortear").disabled = true;
+      $("sortear").textContent = "Sortear pergunta";
+      return;
+    }
+    const jv = vezAtual(), t = jv.trilha;
+    // A escolha local (destino, carta) vale só para esta vez e esta casa: outro jogador ou outra casa, recomeça.
+    // (Uma escolha vazia, recém-limpa depois de registrar, não conta como "outro": não apaga o primeiro toque.)
+    if ((turno.jogador && turno.jogador !== jv.id) || (turno.pos && turno.pos !== t.pos)) limparTurno();
+    turno.jogador = jv.id;
+    turno.pos = t.pos;
+    const prof = T.PROFISSOES[t.profissao], pers = T.PERSONALIDADES[t.personalidade] || {};
+    const chegaram = o.filter(chegou);
+    if (chegaram.length)
+      bloco.push(el("p", { className: "vencedor", textContent: `🏆 ${chegaram.map(j => j.nome).join(", ")} ${chegaram.length > 1 ? "chegaram" : "chegou"}! A rodada termina quando a vez voltar a ${o[0].nome}.` }));
+
+    // Quem joga, quem lê, profissão, personalidade, posição
+    const cab = el("div", { className: "cartao vez" });
+    pintar(cab, prof.temas[0]);
+    const linha1 = el("div", { className: "quem-joga" });
+    linha1.append("Vez de ", el("strong", { textContent: jv.nome }));
+    if (o.length > 1) linha1.append(el("span", { className: "suave", textContent: ` · lê ${proximo(jv).nome}` }));
+    const linha2 = el("div");
+    linha2.append(`${prof.nome} `, ...prof.temas.map(chipTema));
+    const linha3 = el("div", { className: "suave", textContent:
+      `${pers.nome}: ${pers.efeito}${pers.auto ? "" : " (aplique de viva voz)"} · casa ${T.linhaDe(t.pos)} de ${mapa.linhas - 1}` });
+    cab.append(linha1, linha2, linha3);
+    if (t.evento) cab.append(el("div", { className: "evento", textContent: t.evento }));
+    bloco.push(cab);
+
+    const mao = t.mao || [];
+    let pode = false, rotulo = "Sortear pergunta";
+
+    if (chegou(jv)) {
+      rotulo = "Passe a vez";
+      const c = el("div", { className: "cartao" });
+      const b = el("button", { textContent: "Passar a vez" });
+      b.onclick = () => passarVez(jv);
+      c.append(el("p", { textContent: `${jv.nome} já chegou. ` }), b);
+      bloco.push(c);
+    } else if (t.descartar > 0) {
+      rotulo = "Descarte uma carta para continuar";
+      const c = el("div", { className: "cartao" });
+      c.append(el("strong", { textContent: `Descarte ${t.descartar} ${t.descartar > 1 ? "cartas" : "carta"} (limite de ${T.limiteMao(jv)} na mão)` }));
+      const grade = el("div", { className: "cartas" });
+      mao.forEach((carta, i) => {
+        const b = el("button", { textContent: "Descartar" });
+        b.onclick = () => descartar(jv, i);
+        grade.append(cartaVisual(carta, [b]));
+      });
+      c.append(grade);
+      bloco.push(c);
+    } else if (t.extra > 0) {
+      rotulo = "Escolha a casa do avanço livre";
+      const c = el("div", { className: "cartao" });
+      c.append(el("strong", { textContent: `Avanço livre (${t.extra}): escolha a próxima casa, sem pergunta` }));
+      const lista = el("div", { className: "casas" });
+      lista.append(...mapa.acima(t.pos).map(no => botaoCasa(no, jv, () => avancoLivre(jv, no))));
+      c.append(lista);
+      bloco.push(c);
+    } else {
+      // Para onde ir
+      const c = el("div", { className: "cartao" });
+      c.append(el("strong", { textContent: turno.desafio ? "Desafio no lugar da sua pergunta" : "Para onde?" }));
+      if (!turno.desafio) {
+        const lista = el("div", { className: "casas" });
+        lista.append(...mapa.acima(t.pos).map(no => botaoCasa(no, jv, () => {
+          turno.destino = turno.destino === no.id ? null : no.id;
+          desenharTurno(); desenharTabuleiros();
+        })));
+        c.append(lista);
+      }
+      bloco.push(c);
+
+      // Mão
+      const m = el("div", { className: "cartao" });
+      m.append(el("strong", { textContent: `Mão · ${mao.length} de ${T.limiteMao(jv)} cartas` }));
+      const grade = el("div", { className: "cartas" });
+      mao.forEach((carta, i) => {
+        const usando = turno.carta === i;
+        const b = el("button", { textContent: usando ? "Usando" : "Usar" });
+        b.setAttribute("aria-pressed", usando);
+        b.onclick = () => {
+          turno.carta = usando ? null : i;
+          turno.desafio = !usando && carta.t === "desafio" ? { alvo: null, tema: "*" } : null;
+          desenharTurno();
+        };
+        const extras = [b];
+        if (usando && carta.t === "tema_livre") {
+          const sel = el("select");
+          sel.replaceChildren(new Option("Qualquer tema", "*"), ...T.TEMAS_LISTA.map(x => new Option(x, x, false, x === turno.temaLivre)));
+          sel.value = turno.temaLivre;
+          sel.onchange = () => { turno.temaLivre = sel.value; };
+          extras.push(sel);
+        }
+        if (usando && carta.t === "desafio") {
+          const linhas = o.map(j => T.linhaDe(j.trilha.pos)), max = Math.max(...linhas);
+          const souLider = T.linhaDe(t.pos) === max;
+          const alvos = o.filter(j => j.id !== jv.id && !chegou(j) && (souLider || T.linhaDe(j.trilha.pos) < max));
+          const selA = el("select");
+          selA.replaceChildren(new Option(alvos.length ? "Quem responde?" : "Ninguém pode ser desafiado", ""),
+                               ...alvos.map(j => new Option(j.nome, j.id, false, j.id === turno.desafio.alvo)));
+          selA.onchange = () => { turno.desafio.alvo = selA.value || null; desenharTurno(); };
+          const selT = el("select");
+          selT.replaceChildren(new Option("Qualquer tema", "*"), ...T.TEMAS_LISTA.map(x => new Option(x, x, false, x === turno.desafio.tema)));
+          selT.onchange = () => { turno.desafio.tema = selT.value; };
+          extras.push(selA, selT);
+        }
+        grade.append(cartaVisual(carta, extras));
+      });
+      if (!mao.length) grade.append(el("span", { className: "suave", textContent: "Nenhuma carta. Compre nas Casas em Branco." }));
+      m.append(grade);
+      bloco.push(m);
+
+      const destino = turno.destino && mapa.nos.get(turno.destino);
+      if (turno.desafio) { pode = Boolean(turno.desafio.alvo); rotulo = "Sortear a pergunta do desafio"; }
+      else if (destino?.tipo === "A" && destino.acao.ferias) { pode = true; rotulo = "Tirar férias"; }
+      else pode = Boolean(destino);
+    }
+    caixa.replaceChildren(...bloco);
+    $("sortear").disabled = !pode;
+    $("sortear").textContent = rotulo;
+  }
+
+  // Tabuleiro: mapa, lista de jogadores e a escolha de profissão e personalidade de quem acabou de entrar.
+  function desenharPlacarTrilha() {
+    $("mini").hidden = true;
+    const o = ordem();
+    const chegaram = o.filter(chegou).map(j => j.nome);
+    $("vencedor-tab").hidden = !chegaram.length;
+    $("vencedor-tab").textContent = `🏆 ${chegaram.join(", ")} ${chegaram.length > 1 ? "chegaram" : "chegou"} ao fim!`;
+    desenharTabuleiros();
+    $("placar-vazio").hidden = jogadores.length > 0;
+    $("placar").replaceChildren(...jogadores.map(j => {
+      const t = j.trilha || {};
+      const li = el("li");
+      const info = el("div", { className: "info" });
+      const nome = el("span", { className: "nome", textContent: j.nome });
+      nome.append(marcas(j.id));
+      info.append(nome);
+      const tirar = el("button", { className: "ajuste", textContent: "×", title: "Remover jogador" });
+      tirar.onclick = () => confirm(`Remover ${j.nome} da partida?`) && deleteDoc(refJ(j.id));
+      if (t.profissao === null || t.profissao === undefined) {
+        li.classList.add("escolhendo");
+        const escolha = el("div", { className: "escolha-inicial" });
+        // Sem repetir temas de quem já escolheu: as opções sorteadas na entrada são filtradas agora, e, se nenhuma
+        // sobrar, o app sorteia outras.
+        const usados = new Set(o.flatMap(x => T.PROFISSOES[x.trilha.profissao].temas));
+        const conflita = i => T.PROFISSOES[i].temas.some(tema => usados.has(tema));
+        let validas = (t.opcoes?.profissoes || []).filter(i => !conflita(i));
+        if (!validas.length && t.opcoes) {
+          const novas = T.sortearOpcoes(o);
+          if (novas.profissoes.some(i => !conflita(i))) updateDoc(refJ(j.id), { trilha: { ...t, opcoes: { ...t.opcoes, profissoes: novas.profissoes } } });
+          validas = novas.profissoes.filter(i => !conflita(i));
+          if (!validas.length) validas = t.opcoes.profissoes;  // com 4 jogadores e 8 temas pode não haver saída: aceita repetir
+        }
+        const selP = el("select");
+        selP.replaceChildren(new Option("Escolha a profissão", ""), ...validas.map(i =>
+          new Option(`${T.PROFISSOES[i].nome} (${T.PROFISSOES[i].temas.join(" + ")})`, i)));
+        const selQ = el("select");
+        selQ.replaceChildren(new Option("Escolha a personalidade", ""), ...(t.opcoes?.personalidades || []).map(k =>
+          new Option(`${T.PERSONALIDADES[k].nome}: ${T.PERSONALIDADES[k].efeito}`, k)));
+        const guardado = escolhasIniciais[j.id] ||= { p: "", q: "" };
+        selP.value = guardado.p;
+        selQ.value = guardado.q;
+        selP.onchange = () => { guardado.p = selP.value; };
+        selQ.onchange = () => { guardado.q = selQ.value; };
+        const ok = el("button", { className: "principal", textContent: "Confirmar" });
+        ok.onclick = () => {
+          if (selP.value === "" || selQ.value === "") return alert("Escolha a profissão e a personalidade.");
+          updateDoc(refJ(j.id), { trilha: { ...t, profissao: Number(selP.value), personalidade: selQ.value,
+            mao: [T.sortearCarta()], pos: mapa.inicio, extra: 0, ferias: false, descartar: 0, passarApos: false, evento: "" } });
+        };
+        escolha.append(selP, selQ, ok);
+        info.append(escolha);
+        li.append(info, tirar);
+        return li;
+      }
+      const prof = T.PROFISSOES[t.profissao];
+      pintar(li, prof.temas[0]);
+      const det = el("span", { className: "suave" });
+      det.append(`${prof.nome} `, ...prof.temas.map(chipTema),
+                 ` · ${T.PERSONALIDADES[t.personalidade]?.nome || ""} · casa ${T.linhaDe(t.pos)}/${mapa.linhas - 1} · 🂠 ${(t.mao || []).length}`);
+      info.append(det);
+      li.append(info, tirar);
+      return li;
+    }));
+  }
+
+  const escolhasIniciais = {};   // {id do jogador: {p, q}}: seleções em andamento, que um redesenho não apaga
+
+  async function novoJogadorTrilha(nome) {
+    await addDoc(collection(db, "partidas", codigo, "jogadores"), {
+      nome, pontos: 0, criado_em: serverTimestamp(),
+      trilha: { opcoes: T.sortearOpcoes(ordem()), profissao: null, personalidade: null, pos: mapa.inicio, mao: [],
+                extra: 0, ferias: false, descartar: 0, passarApos: false, evento: "" },
+    });
+  }
 
   // ---------------------------------------------------------------- início
 
