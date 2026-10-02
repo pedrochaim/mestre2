@@ -1,0 +1,1772 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Insetos e Invertebrados** (tema **Natureza**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Joaninha",
+      "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em inglês, a joaninha é chamada de ladybird. A senhora homenageada nesse nome é qual figura religiosa?",
+    "resposta": "Virgem Maria",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coccinellidae"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coccinellidae",
+        "situacao": "ok",
+        "texto": "Coccinellidae ( ) is a widespread family of small beetles. They are commonly known as ladybugs in North America and ladybirds in the United Kingdom, Australia, New Zealand, Ireland, and other English speaking territories; \"lady\" refers to Mary, the mother of Jesus. Entomologists use the names ladybird beetles or lady beetles to avoid confusion with true bugs. The more than 6,000 described species \n[…]\nIn the United States, the name was popularly adapted to ladybug. Entomologists prefer the names ladybird beetles or lady beetles to avoid confusion with true bugs. Names in some other countries may be similar; for example, in Germany they are known as Marienkäfer meaning 'Marybeetle' or 'ladybeetle'.\n[…]\nH. axyridis, C. septempunctata and Hippodamia convergens are the most common causes of ladybird taint in wine. As few as 1.3 to 1.5 coccinellids per 1 kilogram (2.2 lb) of grapes can affect wine quality when they are present during the wine-making process. The Mexican bean beetle is an agricultural pest as it primarily feeds on plants, especially legumes, instead of insects.\n[…]\nCoccinellids have had important roles in culture and religion, being associated with luck, love, fertility and prophecy. \"Ladybird\" is an affectionate term for someone, such as a loved one. In European folklore, an insect acts as a matchmaker, crawling on a woman and then flying to their true love. Coccinellids have been said to predict the future, particularly weather conditions and how well the crops will grow.\n[…]\nCoccinellids have been popularly featured in poems and nursery rhymes, the most famous being Ladybird! Ladybird!. This has come in several forms, including:\n[…]\nHodek, I; Honěk, A; Van Emden, H. F., eds. (2012). Ecology and Behaviour of the Ladybird Beetles (Coccinellidae). John Wiley & Sons. ISBN 978-1-118-22321-5. OCLC 792685088.\n[…]\nData related to Coccinellidae at Wikispecies"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Joaninha",
+        "situacao": "ok",
+        "texto": "Coccinellidae (Coccinelídeos) é uma família de de insetos coleópteros, cujas espécies são comummente conhecidas como joaninhas ou coccinelas.\n[…]\nOs coccinelídeos possuem um corpo geralmente arredondado ou semiesférico, cabeça pequena e antenas curtas, 6 patas e asas membranosas bem desenvolvidas e protegidas por uma carapaça quitinosa (chamada élitro), que geralmente apresenta cores vistosas (vermelho, verde, amarelo, entre outras cores). Podem medir de 0,8 milímetros (como as espécies muito pequenas de Carinodulinka) até  1,8 centímetros de comprimento (como as espécies Megalocaria).\n[…]\nAssim que sai da pupa, o exoesqueleto do inseto é mole e vulnerável, por isso, a joaninha adulta permanece imóvel durante alguns minutos, até que ele endureça e ela possa voar. No estado adulto, as joaninhas estão prontas para a reprodução.\n[…]\nRodolia cardinalis, originária da Austrália, que apresenta élitros de coloração vermelho-sanguínea decorados com manchas pretas. Foi introduzida em várias partes do mundo para combater cochonilhas que atacam os pomares. Também é conhecida pelo nome de joaninha-australiana.\n[…]\nCycloneda sanguinea, de ampla distribuição nas Américas, que apresenta corpo quase redondo, coloração geral vermelha clara, com a cabeça e o protórax pretos. Também é conhecida pelo nome de joaninha-vermelha.\n[…]\nCoccinella septempunctata, da Europa, que apresenta geralmente de uma a sete manchas pretas sob fundo vermelho em cada élitro. Sua larva é azul com pintas amarelas. Também é conhecida pelo nome de joaninha-de-sete-pontos. Existem também joaninhas de cor amarela e verde.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Viúva-negra",
+      "descricao": "Aranhas venenosas do gênero Latrodectus, de corpo negro e brilhante, muitas com uma mancha vermelha no abdômen."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Às vezes, logo depois do acasalamento, a fêmea da viúva-negra faz algo com o parceiro que explica o nome da aranha. O quê?",
+    "resposta": "Devora o macho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Latrodectus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Latrodectus",
+        "situacao": "ok",
+        "texto": "Latrodectus is a broadly distributed genus of spiders informally called the widow spiders, with several species that are commonly known as the true widows. This group is composed of those often called black widow spiders, brown widow spiders, and similar spiders.\n[…]\nContrary to popular assumptions, most people who are bitten suffer no serious damage, let alone death. Fatal bites were reported in the early 20th century mostly with Latrodectus tredecimguttatus, the Mediterranean black widow.\n[…]\nThe ultimate tensile strength and other physical properties of Latrodectus hesperus (western black widow) silk are similar to the properties of silk from orb-weaving spiders that had been tested in other studies. The tensile strength for the three kinds of silk measured in the Blackledge study was about 1,000 MPa. The ultimate strength reported in a previous study for Trichonephila edulis was 1,290 ± 160 MPa.\n[…]\nIn North America, the black widows commonly known as southern (Latrodectus mactans), western (Latrodectus hesperus), and northern (Latrodectus variolus) are found in the United States, equally in western Mexico (Latrodectus occidentalis), as well as parts of southern Canada – particularly in the Okanagan Valley of British Columbia, as are the \"grey\" or \"brown widow spiders\" (Latrodectus geometricus) and the \"red widow spiders\" (Latrodectus bishopi).\n[…]\nAbalos, J. W. (1962). \"The egg-sac in the Identification of Species of Latrodectus (Black-Widow Spiders)\" (PDF). Psyche: A Journal of Entomology. 69 (4): 268–270. doi:10.1155/1962/36967. Retrieved 26 September 2013.\n[…]\nLevi, H. W.; McCrone, J. D. (1964). \"North American Widow Spiders of the Latrodectus curacaviensis Group\". Psyche: A Journal of Entomology. 71 (1): 12–27. doi:10.1155/1964/86469."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Latrodectus",
+        "situacao": "ok",
+        "texto": "Latrodectus, conhecido pelo nome comum de aranhas-pretas ou viúvas-negras, é um género de aranhas pertencente à família Theridiidae, que inclui 32 espécies confirmadas. O nome comum viúva negra deriva da maioria das espécies deste género praticar o canibalismo sexual, sendo que a fêmea devora o macho após a cópula.\n[…]\nAs aranhas do gênero Latrodectus possuem uma expectativa de vida de 2 anos e meio a 3 anos.\n[…]\nPodem se alimentar de animais maiores que elas mesmas, sua teia é bastante resistente, sendo mais forte que a maioria das teias de aranhas comuns.\n[…]\nOutro comportamento interessante que não é exclusivo do gênero Latrodectus é o ato de quando recém nascidas, soltar um fio de teia no ar, como seus corpos ainda são pequenos e leves esse fio consegue ser arrastado pelo vento, levando assim o pequeno animal para longe. Assim as aranhas conseguem se espalhar.\n[…]\nMartin, Louise (1988). Black Widow Spiders. [S.l.]: Rourke Enterprises, Inc. pp. 18–20\n[…]\nAbalos, J.W. (1962). «The egg-sac in the Identification of Species of Latrodectus (Black-Widow Spiders)» (PDF). Consultado em 15 de dezembro de 2012. Arquivado do original (PDF) em 27 de setembro de 2007\n[…]\nLevi, H.W. & McCrone, J.D (1964). «North American Widow Spiders of the Latrodectus curacaviensis Group» (PDF). Consultado em 15 de dezembro de 2012. Arquivado do original (PDF) em 25 de julho de 2008  !CS1 manut: Nomes múltiplos: lista de autores (link)\n[…]\nTree of Life: Latrodectus\n[…]\nBlack Widow Spider: Large format photographs and information\n[…]\nDescription of crossing experiments between various Latrodectus species\n[…]\nwidow spider parasitoids on the UF / IFAS Featured Creatures Web site",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Aedes aegypti",
+      "descricao": "Mosquito de origem africana, transmissor da dengue, da zika, da chikungunya e da febre amarela urbana."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O mosquito da dengue se chama cientificamente Aedes aegypti. A palavra grega Aedes, que dá nome ao gênero, significa o quê?",
+    "resposta": "Desagradável ou odioso",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aedes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aedes",
+        "situacao": "ok",
+        "texto": "Aedes (also known as the tiger mosquito or colloquially \"dengue mosquito\") is a genus of mosquitoes originally found in tropical and subtropical zones, but now found on all continents except Antarctica. Some species have been spread by human activity: Aedes albopictus, a particularly invasive species native to Southeast Asia, was spread to the Americas, including the United States, in the 1980s, b\n[…]\nAedes mosquitoes are visually distinctive because they have noticeable black and white banding and/or patches on their bodies and legs. Unlike most other mosquitoes, they are active and bite only during the daytime. The peak biting periods are early in the morning and in the evening before dusk.\n[…]\nMembers of the genus Aedes are known vectors for numerous viral infections, including dengue fever, yellow fever, the Zika virus, and chikungunya, which are transmitted by species in the subgenus Stegomyia such as A. aegypti and A. albopictus. Infections with these viruses are typically accompanied by a fever, and in some cases, encephalitis, which can lead to death.\n[…]\nA vaccine to provide protection from yellow fever exists, and measures to prevent mosquito bites include insecticides such as DDT, mosquito traps, insect repellents, mosquito nets, and pest control using genetically modified insects. In Polynesia, the species Aedes polynesiensis is responsible for the transmission of human lymphatic filariasis.\n[…]\nThe genome of the yellow fever mosquito (Aedes aegypti) was sequenced by the Broad Institute and the Institute for Genomic Research. The initial assembly was released in August 2005; a draft sequence of the genome and preliminary analysis was published in June 2007. The annotated genome is available at VectorBase. An updated and improved version of the Aedes aegypti genome was released in 2018.\n[…]\nList of Aedes species\n[…]\nSingapore Government dengue site that describes the mosquito"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aedes",
+        "situacao": "ok",
+        "texto": "Aedes é um género de mosquito com listras pretas e brancas em seu corpo, originário de zonas tropicais e subtropicais e transmissor de diferentes doenças ao ser humano. O nome do gênero provém do grego ἀηδής (aēdēs), que significa \"desagradável\" . Na Polinésia, a espécie Aedes polynesiensis é responsável pela transmissão da filariose humana. O gênero Aedes foi descrito por Johann Wilhelm Meigen em\n[…]\nHá, atualmente, alguns movimentos controversos na direção de abolir Aedes como um nome genérico e para substituí-lo por Stegomyia, que, atualmente, é o nome de seu subgênero. O Aedes é marcado com listras pretas e brancas em seu corpo e pernas. Atualmente, o genoma do Aedes aegypti está sendo sequenciado pelo Broad Institute e o Institute for Genomic Research (TIGR). O conjunto inicial foi liberado em agosto de 2005. A anotação da sequência está sendo empreendida pelo VectorBase e TIGR.\n[…]\nConsoli RAGB, Lourenço-de-Oliveira R. (1994). \"Principais mosquitos de importância sanitária no Brasil\" (PDF)  . Editora Fundação Instituto Oswaldo Cruz, Rio de Janeiro, Brasil.\n[…]\nCatalogo de Mosquito",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Entomologia",
+      "descricao": "Ramo da zoologia que estuda os insetos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra entomologia, o estudo dos insetos, vem de um termo grego que descreve o corpo desses animais. O que esse termo significa?",
+    "resposta": "Cortado em partes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Insect",
+      "https://en.wikipedia.org/wiki/Entomology"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Insect",
+        "situacao": "ok",
+        "texto": "Insects (from Latin insectum) are invertebrates of the class Insecta. They are the largest group within the arthropod phylum. Insects have an exoskeleton, a three-part body (head, thorax and abdomen), three pairs of jointed legs, compound eyes, and a pair of antennae. Insects are the most diverse group of animals, with more than a million described species; they represent more than half of all ani\n[…]\nIn most first-world countries, however, entomophagy (the eating of insects), is taboo. They are also recommended by armed forces as a survival food for troops in adversity. Because of the abundance of insects and a worldwide concern of food shortages, the Food and Agriculture Organization of the United Nations considers that people throughout the world may have to eat insects as a food staple.\n[…]\nScarab beetles held religious and cultural symbolism in ancient Egypt, Greece and some shamanistic Old World cultures. The ancient Chinese regarded cicadas as symbols of rebirth or immortality. In Mesopotamian literature, the epic poem of Gilgamesh has allusions to Odonata that signify the impossibility of immortality. In the case of the 'San' bush-men of the Kalahari, it is the praying mantis that holds much cultural significance including creation and zen-like patience in waiting.\n[…]\nEntomology\n[…]\nGullan, P. J.; Cranston, P. S. (2005). The Insects: An Outline of Entomology (3rd ed.). Oxford: Blackwell Publishing. ISBN 978-1-4051-1113-3.\n[…]\nGullan, P. J.; Cranston, P. S. (2014). The Insects: An Outline of Entomology (5th ed.). Oxford: Wiley Blackwell. ISBN 978-1-118-84616-2.\n[…]\nThe Insects — an Outline of Entomology (in both English and Russian)\n[…]\nA Safrinet Manual for Entomology and Arachnology SPC"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Entomology",
+        "situacao": "ok",
+        "texto": "Entomology, from Ancient Greek ἔντομον (éntomon), meaning \"insect\", and λόγος (lógos), meaning \"study\", is the branch of zoology that focuses on insects. Those who study entomology are known as entomologists. In the past, the term insect was less specific, and historically the definition of entomology would also include the study of animals in other arthropod groups, such as arachnids, myriapods, \n[…]\nOver 5.5 million insect species have been described by entomology.\n[…]\nAmateur Entomologists' Society\n[…]\nBritish Entomological and Natural History Society\n[…]\nEntomological Society of America\n[…]\nEntomological Society of Canada\n[…]\nEntomological Society of Japan\n[…]\nEntomologischer Verein Krefeld\n[…]\nRoyal Entomological Society\n[…]\nAustralian Entomological Society\n[…]\nEntomological Society of New Zealand\n[…]\nLincoln University Entomology Research Collection, Lincoln, New Zealand\n[…]\nSenckenberg German Entomological Institute, Müncheberg, Germany\n[…]\nBohart Museum of Entomology, Davis, California\n[…]\nDepartment of Entomology, National Museum of Natural History, Washington, D.C.\n[…]\nEntomology Research Museum, Riverside, California\n[…]\nEssig Museum of Entomology, Berkeley, California\n[…]\nFrost Entomological Museum, University Park, Pennsylvania\n[…]\nLyman Entomological Museum, Montréal, Quebec\n[…]\nJ.B. Wallis/R.E. Roughley Museum of Entomology, Winnipeg, Manitoba\n[…]\nCapinera, JL (editor). 2008. Encyclopedia of Entomology, 2nd Edition. Springer. ISBN 1-4020-6242-7\n[…]\nChiang, H.C. and G. C. Jahn 1996. Entomology in the Cambodia-IRRI-Australia Project. (in Chinese) Chinese Entomol. Soc. Newsltr. (Taiwan) 3: 9–11.\n[…]\nGillot, Cedric. Entomology. Second Edition, Plenum Press, New York, NY / London 1995, ISBN 0-306-44967-6.\n[…]\nWale, Matthew. Making Entomologists: How Periodicals Shaped    Scientific Communities in Nineteenth-Century Britain (U of Pittsburgh Press, 2022) online book review"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Insetos",
+        "situacao": "ok",
+        "texto": "Insetos (do latim insectum) são invertebrados hexápodes da classe Insecta. Eles constituem o maior grupo dentro do filo dos artrópodes. Os insetos possuem um exoesqueleto quitinoso, um corpo dividido em três partes (cabeça, tórax e abdômen), três pares de patas articuladas, olhos compostos e um par de antenas. São o grupo animal mais diverso, com mais de um milhão de espécies descritas; eles repre\n[…]\nA visão dos insetos é feita principalmente por meio de seus olhos compostos, com ocelos adicionais. Muitos insetos conseguem ouvir, utilizando órgãos timpânicos, que podem estar localizados nas patas ou em outras partes do corpo. Seu olfato é percebido por meio de receptores, geralmente nas antenas e nas peças bucais.\n[…]\nA palavra inseto vem do latim insectum de in + sĕco, \"cortado em pedaços\", pois os insetos parecem ser cortados em três partes. A palavra latina foi introduzida por Plínio, o Velho, que decalcou a palavra grega antiga ἔντομον éntomon \"inseto\" (como em entomologia) de éntomos ou \"cortado em pedaços\"; este era o termo de Aristóteles para esta classe de vida em sua biologia, também em referência aos seus corpos entalhados.\n[…]\nO abdômen é a maior parte do inseto, tipicamente com 11 a 12 segmentos, e é menos fortemente esclerotizado do que a cabeça ou o tórax. Cada segmento do abdômen possui placas superior e inferior esclerotizadas (o tergito e o esterno), conectadas às partes esclerotizadas adjacentes por membranas. Cada segmento apresenta um par de espiráculos.\n[…]\nO sistema reprodutivo das fêmeas dos insetos consiste em um par de ovários, glândulas acessórias, uma ou mais espermatecas para armazenar espermatozoides e ductos que conectam essas partes. Os ovários são compostos por um número variável de tubos ovígeros, os ovaríolos . As fêmeas dos insetos produzem ovos, recebem e armazenam espermatozoides, manipulam os espermatozoides de diferentes machos e põem ovos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Esperança",
+      "descricao": "Nome popular no Brasil dos insetos ortópteros da família Tettigoniidae, geralmente verdes e parecidos com gafanhotos de antenas longas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No Brasil, um inseto verde, parente dos grilos, ganhou um nome popular porque traria boa sorte a quem o encontra em casa. Que nome?",
+    "resposta": "Esperança",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Tettigoniidae"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tettigoniidae",
+        "situacao": "ok",
+        "texto": "Tetigoniídeos (Tettigoniidae) é uma família de insetos altamente diversificada, que ocorre em praticamente todos os continentes do globo, à exceção da Antártida e outras regiões nos polos; conta atualmente com 22 subfamílias, 1318 gêneros e cerca de 7886 espécies.\n[…]\nEm Português, são popularmente  conhecidos como \"esperanças\"  (ou esperanzas, em espanhol), pois na cultura destes países está arraigada a crença  de que este inseto simboliza boa sorte (principalmente quando pousa em uma pessoa),  enquanto que encontrá-lo morto é considerado um presságio de mau-agouro.\n[…]\nAdemais, as esperanças produzem sons dotados de um espectro de frequência mais amplo, atingindo desde 2 kHz (sons mais graves) até  a faixa ultrassônica (> 100 kHz) (sons mais agudos).\n[…]\nO nome da família originou-se a partir do gênero Tettigonia , proposto por Carl Linnaeus no século XVIII. Em latim o termo \"tettigonia\" significa \"pequena cigarra\" e no grego \" τεττιγόνιον\" ou \"tettigonion\" representa o diminutivo de  \"τέττιξ\" ou \"tettix\" , que também é equivalente ao nome daquele inseto; ambas as  palavras apresentam valor onomatopeico, buscando representar o som produzido pelas esperanças durante a estridulação.\n[…]\nOs representantes da família Tettigoniidae são insetos grandes (1-6 cm), dotados um plano corporal básico hexápode (seis pares de pernas), e de características morfológicas comuns à outros ortópteros, como a presença de aparelho bucal mastigador hipognato (peças bucais direcionadas ventralmente, em um ângulo de 90º com a cabeça), presença de olhos compostos, ocelos, e  antenas filiformes e longas (no caso das esperanças, com mais de 30 artículos).\n[…]\n†Tettigoidinae (Australia)"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Aranha-armadeira",
+      "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por que a aranha Phoneutria é conhecida no Brasil como armadeira?",
+    "resposta": "Ergue as patas dianteiras, armando o bote",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Phoneutria",
+      "https://en.wikipedia.org/wiki/Phoneutria"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Phoneutria",
+        "situacao": "ok",
+        "texto": "Phoneutria (do grego φονεύτρια, latinizado: phoneútria, \"assassina\") é um gênero de aranhas conhecidas pelos nomes comuns de armadeira, aranha-macaco ou aranha-de-bananeira, pertencentes à família dos ctenídeos. O nome comum armadeira vem da sua atitude invariável de ataque, com as patas dianteiras erguidas. São encontradas no Brasil, Paraguai, norte da Argentina e Uruguai, onde teria sido introdu\n[…]\nApresenta patas grandes, com 13 a 15 cm de comprimento, com um tamanho corporal de 1,7 a 4,8 cm. A espécie tem a reputação de se esconder nos cachos de bananas, o que deu origem ao nome comum de aranha-bananeira (em inglês: banana spider).\n[…]\nEsse comportamento, aliado ao seu tamanho (ocupa toda a palma de uma mão), grandes quelíceras, autênticos colmilhos, de coloração avermelhado-pardo, dois grandes olhos frontais e dois olhos menores de cada lado, a que se juntam patas grossas e peludas, fazem com que esta aranha, que é muito veloz, seja muito temida nos navios de transporte de bananas, nas plantações de bananas, nos portos tropicais.\n[…]\nÉ considerada a espécie de aranha mais peçonhenta e uma das mais agressivas do mundo\n[…]\nPhoneutria bahiensis Simó & Brescovit, 2001 — Mata atlântica do Brasil.\n[…]\nPhoneutria boliviensis (F. O. Pickard-Cambridge, 1897) — América Central e do Sul (listada na Costa Rica, Panamá, Colômbia, Peru, Equador e Bolívia)\n[…]\nPhoneutria eickstedtae Martins & Bertani, 2007 — Brasil\n[…]\nPhoneutria fera Perty, 1833 — Equador, Peru, Brasil, Suriname, Guiana e Colômbia.\n[…]\nPhoneutria keyserlingi (F. O. Pickard-Cambridge], 1897) — Mata atlântica do Brasil.\n[…]\nPhoneutria nigriventer (Keyserling, 1891) — Brasil, norte da Argentina; introduzida no Uruguai.\n[…]\nPhoneutria pertyi (F. O. Pickard-Cambridge, 1897) — Mata atlântica do Brasil.\n[…]\nPhoneutria reidyi (F. O. Pickard-Cambridge, 1897) — Venezuela, Peru, Brasil, Guiana."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Phoneutria",
+        "situacao": "ok",
+        "texto": "Phoneutria is a genus of spiders in the family Ctenidae. They are mainly found in northern South America, with one species in Central America. Members of the genus are commonly referred to as Brazilian wandering spiders. Other English names include armed spiders (armadeiras in Brazilian Portuguese) and banana spiders (a name shared with several others).\n[…]\nPhoneutria pertyi (F. O. Pickard-Cambridge, 1897) – Brazil\n[…]\nPhoneutria has been introduced to Chile and Uruguay.\n[…]\nA 45-year-old man, with no nervous background, employed in the agricultural section of the Butantan Institute, working barefoot, was bitten at 10:40 AM on the small toe of his left foot by a medium-sized Phoneutria. Immediately he felt intense pain that radiated to his foot and leg. He also reported visual disturbances, and when he tried to enter the building, he fell. Without strength, he was supported by two men to the laboratory, where he was examined.\n[…]\nIn 2005, an English man was bitten twice by a spider identified as a Phoneutria, which was hidden in a box of bananas. It was reported that his hand became swollen, he felt dizzy, and when he got home he collapsed. He was taken to the hospital and received treatment, but his condition continued to deteriorate. He reported chest tightness, and difficulty breathing, and both his blood pressure and heart rate were high.\n[…]\nAnother case occurred in Minas Gerais, Brazil, where a man bitten by a Phoneutria developed numbness in his legs, redness, headache, and loss of sense of time and space.\n[…]\nIn São Sebastião, São Paulo, two brothers, 6 months and 18 months old, the children woke up during the night crying and screaming, dying soon after (time of death is not described). The father removed the sheets and found the spider, which was referred to the Butantan Institute, identified as a large female Phoneutria nigriventer."
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Tamarutaca",
+      "descricao": "Crustáceos marinhos da ordem Stomatopoda, com patas raptoriais que golpeiam a presa com enorme velocidade."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por causa das patas dobradas de caça, o crustáceo tamarutaca é chamado em inglês e em outros idiomas pelo nome de qual inseto?",
+    "resposta": "Louva-a-deus",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mantis_shrimp"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mantis_shrimp",
+        "situacao": "ok",
+        "texto": "Mantis shrimp are carnivorous marine crustaceans of the order Stomatopoda (from Ancient Greek  στόμα (stóma) 'mouth' and  πούς (poús) 'foot'). Stomatopods branched off from other members of the class Malacostraca around 400 million years ago, with more than 520 extant species of mantis shrimp known. All living species are in the suborder Unipeltata, which arose around 250 million years ago. They a\n[…]\nThe midband covers only about 5 to 10° of the visual field at any given instant, but like most crustaceans, mantis shrimps' eyes are mounted on stalks. In mantis shrimp, the movement of the stalked eye is unusually free, and can be driven up to 70° in all possible axes of movement by eight eyecup muscles divided into six functional groups.\n[…]\nMantis shrimp can be diurnal, nocturnal, or crepuscular (active at twilight), depending on the species. Unlike most crustaceans, they sometimes hunt, chase, and kill prey. Although some live in temperate seas, most species live in tropical and subtropical waters in the Indian and Pacific Oceans, encompassing the seas between eastern Africa and Hawaii.\n[…]\nAlthough the Devonian Eopteridae have been suggested to be early stomatopods, their fragmentary known remains make the referral uncertain. The oldest unambiguous stem-group mantis shrimp date to the Carboniferous (359–300 million years ago). Stem-group mantis shrimp are assigned to two major groups the Palaeostomatopodea and the Archaeostomatopodea, the latter of which are more closely related to modern mantis shrimp, which are assigned to the clade Unipeltata.\n[…]\nA large number of mantis shrimp species were first scientifically described by one carcinologist, Raymond B. Manning; the collection of stomatopods he amassed is the largest in the world, covering 90% of the known species whilst 10% are still unknown.\n[…]\nThe Lurker's Guide to Stomatopods—mantis shrimp\n[…]\nMantis shrimp—colourful and aggressive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Stomatopoda",
+        "situacao": "ok",
+        "texto": "Stomatopoda (ou estomatópode), chamados popularmente de tamarutacas ou de lacraias-do-mar no Brasil, é uma ordem de crustáceos marinhos da subclasse Hoplocarida, que agrupa cerca de 400 espécies, caracterizadas principalmente pela morfologia da segunda pata torácica, que é modificada em apêndice subquelado, lembrando uma pata de louva-a-deus.\n[…]\nOs estomatópodes são predadores ativos que caçam presas com o auxílio de um sentido de visão muito apurado e capaz de interpretar polarização no espectro ultravioleta e infravermelho). Apresentam uma grande variação de tamanho, que pode ir de poucos milímetros até aproximadamente 40 cm nas espécies maiores. Eles vivem em fundo consolidado, lodoso ou ainda arenoso, onde cavam seus buracos ou aproveitam-se dos orifícios deixados por outros animais para neles se instalar.\n[…]\nSão animais exclusivamente carnívoros, alimentando-se de camarões, caranguejos, moluscos, peixes e até mesmo outros da mesma ordem. O segundo par de patas, muito desenvolvido, é usado tanto para atacar a presa como para se defender. O urópodo, quando aberto, também funciona para defesa, como um escudo, fechando a galeria em que o animal esteja instalado.\n[…]\nEstomatópodes podem ser encontrados em quase todo o litoral brasileiro, mas não são animais fáceis de se observar pelos seus hábitos mais furtivos. Devem ser manuseados com muita cautela pois são animais preparados para se defender com força, caso sejam incomodados.\n[…]\nAlgumas espécies específicas de borboletas e possivelmente pombos possuem cinco cones de percepção de cor, o que aumenta ainda mais a quantidade de pigmentos que eles são capazes de perceber. O sistema de visão dos estomatópodes possui doze cones sensíveis à luz e outros quatro que filtram a luz (16 cones no total), o que lhes permite ver cores polarizadas e imagens multiespectrais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Mariposa-caveira",
+      "descricao": "Mariposas do gênero Acherontia, como a Acherontia atropos, que têm no tórax um desenho parecido com uma caveira."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome científico da mariposa-caveira homenageia Átropos, uma das Moiras da mitologia grega. O que Átropos cortava?",
+    "resposta": "O fio da vida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Acherontia_atropos",
+      "https://en.wikipedia.org/wiki/Atropos"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Acherontia_atropos",
+        "situacao": "ok",
+        "texto": "Acherontia atropos, the African death's-head hawkmoth, is the most widely recognized of three species within the genus Acherontia (the other two being Acherontia lachesis and Acherontia styx). It is most commonly identified by the vaguely skull-shaped pattern adorning the thorax, the characteristic from which its common and scientific names are derived. The species was first given its scientific n\n[…]\nThe African death's-head hawkmoth (Acherontia atropos) is a large hawk moth, the largest moth in the British Isles and several other regions it inhabits, with a wingspan of 5 in (13 cm) (or 80–120 mm); it is a powerful flier, having sometimes been found on ships far from land. The forewings are a mottled dark brown and pale brown, and the hind wings are orangey-buff with two narrow dark bands parallel with the hind margin. The abdomen is a similar orangey-brown, with a broad, dark dorsal stripe.\n[…]\nAcherontia atropos receives both its species and genus names from bodies relating to death or dark subjects.\n[…]\nIn spite of the fact that Acherontia atropos is perfectly harmless except as a minor pest to crops and to beehives, the fancied skull pattern has burdened the moth with a negative reputation, such as associations with the supernatural and evil. There are numerous superstitions to the effect that the moth brings bad luck to the house into which it flies, and that death or misfortune may be expected to follow.\n[…]\nThe death's-head moth is mentioned in Susan Hill's Gothic horror novel I'm the King of the Castle, as it is used to instill fear in one of the young protagonists.\n[…]\nIn José Saramago's novel Death with Interruptions, Acherontia atropos appears on the American edition's cover, and is a topic that two characters mull over.\n[…]\n\"69.005 BF1973 Death's-head Hawk-moth Acherontia atropos (Linnaeus, 1758)\". UKMoths.\n[…]\nSound recording of Acherontia atropos at BioAcoustica"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Atropos",
+        "situacao": "ok",
+        "texto": "Atropos (; Ancient Greek: Ἄτροπος \"without turn\"), in Greek mythology, was the third of the Three Fates or Moirai, goddesses of fate and destiny. Her Roman equivalent was Morta.\n[…]\nAtropos was one of the Three Fates and was known as \"the Inflexible One.\" It was Atropos who chose the manner of death and ended the life of mortals by cutting their threads. She worked along with her two sisters, Clotho, who spun the thread, and Lachesis, who measured the length. Atropos has been featured in several stories, such as those of Atalanta  and Achilles.\n[…]\nThe inconsistent nature of these accounts make it difficult to know for sure whether or not Aesa or Atropos is the best name to use when talking about the third fate, but evidence seems to point to Aesa being the more commonly used name earlier on, with Atropos gaining popularity later.\n[…]\nCarolus Linnaeus coined the solanaceous genus name Atropa from the name Atropos in his creation of the binomial Atropa bella-donna for the plant commonly known, in English, as deadly nightshade - in reference to the plant's death-dealing (i.e. intensely poisonous) properties.\n[…]\nThe specific name of the venomous snake, Bitis atropos, refers to Atropos.\n[…]\nThe African Death's-head hawkmoth, Acherontia atropos, also bears the specific  name Atropos, here applied in reference - not to its toxicity - but to the macabre similarity of the white mark on its thorax to a deaths head or human skull.\n[…]\n273 Atropos, a main-belt asteroid.\n[…]\nMedia related to Atropos (mythology) at Wikimedia Commons\n[…]\nThe dictionary definition of Atropos at Wiktionary\n[…]\nThe dictionary definition of Atropos at Wiktionary"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Acherontia_atropos",
+        "situacao": "ok",
+        "texto": "Acherontia atropos (Borboleta-caveira ou Esfinge caveira) é uma grande mariposa com uma envergadura 90–130 mm. Distingue-se pela forma vaga de caveira que se encontra no seu dorso.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Bicho-pau",
+      "descricao": "Insetos da ordem Phasmatodea, de corpo alongado e camuflado, que imitam galhos e folhas."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Os bichos-pau formam a ordem dos fasmídeos, nome que vem do grego. O que essa palavra grega significa?",
+    "resposta": "Fantasma",
+    "distratores": [
+      "Graveto",
+      "Sombra",
+      "Disfarce"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phasmatodea"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Phasmatodea",
+        "situacao": "ok",
+        "texto": "The Phasmatodea (also known as Phasmida or Phasmatoptera) are an order of insects whose members are variously known as stick insects, stick bugs, walkingsticks, stick animals, or bug sticks. They are also occasionally referred to as Devil's darning needles, although this name is shared by both dragonflies and crane flies.\n[…]\nPhasmids are herbivorous, feeding mostly on the leaves of trees and shrubs, and a conspicuous component of many Neotropical systems. Phasmatodea has been postulated as dominant light-gap herbivores there. Their role in the forest ecosystem is considered important by many scientists, who stress the significance of light gaps in maintaining succession and resilience in climax forests.\n[…]\nLengthy pairings have also been described in terms of a defensive alliance. When cleaved together, the pair is more unwieldy for predators to handle. Also, the chemical defenses (secretions, reflex bleeding, regurgitation) of the individual stick insect are enhanced when two are paired. Females survive attacks by predators significantly better when pairing, largely because the dorsal position of the male functions well as a shield.\n[…]\nSexual dimorphism in the species, where females are usually significantly larger than the males, may have evolved due to the fitness advantage accrued to males that can remain attached to the female, thereby blocking competitors, without severely impeding her movement.\n[…]\nCertain Phasmatodea, such as Anisomorpha buprestoides, sometimes form aggregations. These insects have been observed to congregate during the day in a concealed location, going their separate ways at nightfall to forage, and returning to their refuge before dawn. Such behavior has been little studied, and how the insects find their way back is unknown.\n[…]\nPhasmatodea.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bicho-pau",
+        "situacao": "ok",
+        "texto": "Bicho-pau é o nome comum dado aos insetos da ordem Phasmatodea, também denominada Phasmida, Phasmatoptera ou Phasmodea, que mimetizam pedaços de madeira ou gravetos. Existem 14 famílias, 547 gêneros e 3 598 espécies válidas de bichos-pau, sendo por volta de 600 encontradas na América do Sul.\n[…]\nOutro mecanismo de defesa encontrado em muitas espécies da ordem, é a autotomia. Na qual, alguns indivíduos perdem as pernas quando tocados ou perturbados. As ninfas podem regenerar as pernas nas mudas subsequentes, as quais são reconhecidas por possuírem somente quatro tarsômeros.\n[…]\nA filogenia de Phasmatodea é complexa e a relação entre os seus membros ainda não foi completamente elucidada. Tradicionalmente estava dividida em duas subordens: Areolatae, com área apical nas tíbias, e \"Anareolatae\", sem a área apical, sendo este último, polifilético. Porém, algumas análises demonstram que a morfologia dos ovos dão um melhor suporte para o estudo taxonômico da Ordem (biologia), e com base nisso, a divisão em duas subordens perdeu força.\n[…]\nFilogenias moleculares recentes indicam uma relação diferente, com a divisão entre Timematidae e todos os outros bichos-pau, os Euphasmatodea, por sua vez divididos em Aschiphasmatidae e Neophasmatodea. Este último grupo contém a grande maioria das espécies conhecidas de bichos-pau e é dividido em Occidophasmata e Oriophasmata. A relação encontrada pelas pesquisas recentes  é ilustrada através da filogenia ao lado.\n[…]\nAs propostas mais antigas dividiam Phasmatodea em três subordens: Agathemerodea (1 gênero e 8 espécies), Timematoidea (1 gênero e 21 espécies) e Verophasmatodea (o que incluí Areolatae (com 2 famílias) e Anareolatae (com 4 superfamílias) como infraordens), sendo esse táxon o com a maior diversidade dentro de Phasmatodea.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Barbeiro",
+      "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que parte do corpo o inseto barbeiro costuma picar enquanto a pessoa dorme, o que explica seu apelido?",
+    "resposta": "O rosto",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Triatominae",
+      "https://en.wikipedia.org/wiki/Triatominae"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Triatominae",
+        "situacao": "ok",
+        "texto": "Triatomíneos (Triatominae) é uma subfamília de insetos da família Reduviidae. Várias espécies desta subfamília atuam como vetores na transmissão da doença de Chagas.\n[…]\nOs triatomíneos são chamados popularmente, no Brasil, de barbeiro, chupão, chupança, fincão, furão, bicudo, percevejão, bicho-de-parede, bicho-de-parede-preto, percevejo-do-sertão, percevejo-francês, percevejo-gaudério, percevejo-grande, procotó, porocotó, baratão, bruxa, cafote, cascudo, piolho-de-piaçava, quiche-do-sertão, rondão e vum-vum.\n[…]\nA subfamília Triatominae está dividida em seis tribos:\n[…]\nTribo Triatomini Jeannel, 1909\n[…]\nTriatoma Laporte, 1832"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Triatominae",
+        "situacao": "ok",
+        "texto": "The members of the Triatominae , a subfamily of the Reduviidae, are also known as conenose bugs,  kissing bugs (so-called from their habit of feeding from around the mouths of people), or vampire bugs. Other local names for them, used in Latin America and by Latinos generally, include barbeiros, vinchucas, pitos, chipos and chinches. Most of the 130 or more species of this subfamily feed on verteb\n[…]\nTriatomines undergo incomplete metamorphosis. A wingless first-instar nymph hatches from an egg, and may be small as 2 mm. It passes successively through second, third, fourth, and fifth instars. Finally, the fifth instar turns into an adult, acquiring two pairs of wings.\n[…]\nSynthetic pyrethroids are the main class of insecticides used to control triatominae infestations. Insecticide treatment is more effective on nonporous surfaces, such as hardwood timber, fired bricks, and plastered walls, than on porous surfaces such as mud. A single treatment with insecticide  typically protects against triatomine infestation for a year or more on timber walls vs. 2–3 months on adobe walls.\n[…]\nRates of insecticide resistance among triatomines are fairly low due to their long life cycle and low genetic variability, but some instances of resistance have been reported, particularly among Triatoma infestans populations in Bolivia and Argentina.\n[…]\nThe monophyly of Triatominae is strongly supported by molecular data, indicating that hematophagy has evolved only once within the Reduviidae.\n[…]\n†Triatoma dominicana, Dominican amber, Dominican Republic. The amber pieces were found in Late Eocene to Early Miocene deposits.\n[…]\nAll 138 triatomine species are potentially able to transmit T. cruzi to humans, but these five species are the most epidemiologically important vectors of Chagas disease:\n[…]\nTriatoma infestans\n[…]\nTriatoma dimidiata\n[…]\nTriatoma brasiliensis\n[…]\nMedia related to Triatominae at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Louva-a-deus",
+      "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O louva-a-deus deve seu nome ao jeito como mantém as patas dianteiras dobradas. Com o que essa posição se parece?",
+    "resposta": "Mãos em oração",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mantis"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mantis",
+        "situacao": "ok",
+        "texto": "Mantises are an order (Mantodea) of insects that contains over 2,400 species in about 460 genera in 33 families. The largest family is the Mantidae (\"mantids\"). Mantises are distributed worldwide in temperate and tropical habitats. They have triangular heads with bulging eyes supported on flexible necks.\n[…]\nTheir elongated bodies may or may not have wings, but all mantodeans have forelegs that are greatly enlarged and adapted for catching and gripping prey; their upright posture, while remaining stationary with forearms folded, resembling a praying posture, has led to the common name praying mantis.\n[…]\nThe name mantodea is formed from the Ancient Greek words μάντις (mántis) meaning \"prophet\", and εἶδος (eîdos) meaning \"form\" or \"type\". It was coined in 1838 by the German entomologist Hermann Burmeister. The name \"mantid\" properly refers only to members of the family Mantidae, which was, historically, the only family in the order.\n[…]\nOver 2,400 species of mantises in about 430 genera are recognized. They are predominantly found in tropical regions, but some live in temperate areas. The systematics of mantises have long been disputed. Mantises, along with stick insects (Phasmatodea), were once placed in the order Orthoptera with the cockroaches (now Blattodea) and ice crawlers (now Grylloblattodea). Kristensen (1991) combined the Mantodea with the cockroaches and termites into the order Dictyoptera, suborder Mantodea.\n[…]\nTwo species, the Chinese mantis and the European mantis, were deliberately introduced to North America in the hope that they would serve as pest controls for agriculture; they have spread widely in both the United States and Canada.\n[…]\nMantis Study Group – Information on mantises, phylogenetics and evolution.\n[…]\nMantodea Species File"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Louva-a-deus",
+        "situacao": "ok",
+        "texto": "Os louva-a-deus, louva-deus ou cavalinho-de-deus são insetos pertencentes à Ordem Mantodea (do grego mantis = profeta; eidos = aparência). Possuem corpo geralmente alongado e estreito (baciliforme) que varia de 0,8 a 17 cm. Há grande variedade de formas e cores dentro do grupo, geralmente associados à estratégias de camuflagem e mimetismo. Existem cerca de 2 400 espécies, 430 gêneros e 15 famílias\n[…]\nSeu nome popular decorre do fato de que, quando está pousado, as pernas anteriores remetem à posição das mãos em oração. São animais venerados na China, existindo, inclusive, estilos de Kung-Fu inspirados em seus movimentos. Há também registros de civilizações antigas, como a Grécia, o Egito e a Assíria, que consideravam o louva-a-deus um animal com poderes proféticos e sobrenaturais, capaz de identificar a localização de objetos, animais ou pessoas perdidas em florestas.\n[…]\nNa China, a observação do comportamento dos louva-a-deus levou ao surgimento de dois tipos de estilos de Kung Fu baseados em seus movimentos, o Louva-a-Deus do Norte e o Louva-a-Deus do Sul. Embora não tenham relação entre si nas suas origens, ambos são caracterizados por movimentos rápidos com os punhos e mãos, com ações tanto ofensivas quanto defensivas, além de intensos movimentos das pernas.\n[…]\nSão muitas as representações e simbolismos atribuídos aos louva-a-deus no folclore em várias regiões do mundo. Devido à sua postura semelhante a uma oração, acreditava-se que esses animais tinham algum tipo de ligação com o sobrenatural e divindades. Árabes e Turcos acreditam que o louva-a-deus “reza” sempre com a face apontando para Meca.\n[…]\nArquivo de Espécies, Louva-a-deus\n[…]\nGrupo de Estudo do Louva-a-deus – Informações sobre mantises, filogenética e evolução.\n[…]\nQue espécie é esta: Ooteca de um louva-a-deus-comum, por Helena Geraldes, Wilder, 29.01.2020",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Tardígrado",
+      "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Os tardígrados, animais microscópicos quase indestrutíveis, são conhecidos por um apelido que lembra um mamífero. Qual?",
+    "resposta": "Ursos-d'água",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tardigrade"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tardigrade",
+        "situacao": "ok",
+        "texto": "Tardigrades ( ), also known as water bears or moss piglets, are a phylum of eight-legged segmented micro-animals. They were first described by the German zoologist Johann August Ephraim Goeze in 1773, who called them Kleiner Wasserbär 'little water bear'. In 1776, the Italian biologist Lazzaro Spallanzani named them Tardigrada, which means \"slow walkers\".\n[…]\nIn 1773, Johann August Ephraim Goeze named the tardigrade Kleiner Wasserbär, meaning 'little water-bear' in German (today, Germans often call them Bärtierchen 'little bear-animal'). The name water bear comes from the way they walk, reminiscent of a bear's gait. The name Tardigradum means 'slow walker' and was given by Lazzaro Spallanzani in 1776. In 1834, C.A.S.\n[…]\nThe team watches a giant tardigrade fighting a similarly enormous rotifer; another giant water bear bites a man's toe, rendering him comatose for half an hour with its anaesthetic bite. Finally, a four-foot-long tardigrade, waking from hibernation, scares the narrator from his sleep, and he realizes it was all a dream.\n[…]\nTardigrades are common in mosses and lichens on walls and roofs, and can readily be collected and viewed under a low-power microscope. If they are dry, they can be reanimated on a microscope slide by adding a little water, making them accessible to beginning students and amateur scientists. Current Biology attributed their popularity to \"their clumsy crawling [which] is about as adorable as can be.\" The zoologists James F. Fleming and Kazuhuru Arakawa called them \"a charismatic phylum\".\n[…]\nThey are popular enough to appear on merchandise like clothes, earrings, soft toys, and keychains, with crochet patterns for people to make their own tardigrades. The Dutch artist Arno Coenen created statues for St Eusebius' Church, Arnhem of microscopic organisms including a tardigrade and a coronavirus."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tardigrada",
+        "situacao": "ok",
+        "texto": "Tardigrada (do latim: tardus, lento + gradus, passo) é um filo de animais microscópicos segmentados, relacionados com os artrópodes. Popularmente são conhecidos como ursos-d'água ou como tardígrados, aportuguesamento derivado do nome do filo. Foram descritos pela primeira vez por J.A.E. Goeze em 1773. O nome Tardigrada foi dado por Spallanzani em 1777. São em maioria fitófagos, mas alguns são pred\n[…]\nTardígrados são um dos poucos grupos de espécies capazes de suspender seu metabolismo de maneira reversível e entrar em um estado de criptobiose. Várias espécies sobrevivem regularmente em um estado desidratado por quase 10 anos. Dependendo do ambiente, eles podem entrar nesse estado através de anidrobiose, criobiose, osmobiose ou anoxibiose. Enquanto estão neste estado, seu metabolismo é reduzido a menos que 0,01% do normal, e a quantidade de água em seus corpos pode cair a até 1% do normal.\n[…]\nPressão – podem suportar exposição ao vácuo e também pressões altíssimas, na ordem de mais de 1200 atmosferas. Tardígrados podem sobreviver ao vácuo do espaço e radiação solar, combinados, por pelo menos 10 dias. Algumas espécies podem suportar uma pressão de até 6000 atmosferas, o que equivale a aproximadamente seis vezes a pressão da água na mais profunda fenda oceânica, a Fossa das Marianas.\n[…]\nDesidratação – tardígrados podem sobreviver quase por uma década quando em estado dessecado. Quando expostos a temperaturas extremamente baixas, a quantidade de água em seus organismos vai de 85% a apenas 3%. Como a água expande ao ser congelada, a desidratação assegura que os tardígrados não se fragmentem pela água em congelamento.\n[…]\nDesde que os tardígrados permaneçam na lua, suas chances de despertar espontaneamente são baixas. Sem água líquida, as criaturas permanecerão em um estado dormente e, embora haja evidências de gelo na Lua, não há água líquida em lugar algum.\n[…]\nTardigrada - filmes e retratos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Saúva",
+      "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "As saúvas carregam pedaços de folhas para dentro do formigueiro, mas não os comem. Para que servem essas folhas?",
+    "resposta": "Para cultivar o fungo que as alimenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leafcutter_ant"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Leafcutter_ant",
+        "situacao": "ok",
+        "texto": "Leafcutter ants are several species of fungus-growing ants that share the behaviour of cutting leaves which they carry back to their nests to farm fungus. Next to humans, leafcutter ants form some of the largest and most complex animal societies on Earth.\n[…]\nThese species of tropical, fungus-growing ants are all endemic to South and Central America, Mexico, and parts of the southern United States. Leafcutter ants can carry up to 50 times their body weight and cut and process fresh vegetation (leaves, flowers, and grasses) to serve as the nutritional substrate for their fungal cultivates. The leaf cutter ant species has a bite force of 800 mN, which is 2600 times their body weight, which allows them to cut leaves as well as defend the nest.\n[…]\nTheir societies are based on an ant–fungus mutualism. The only two other groups of insects to use fungus-based agriculture are ambrosia beetles and termites. Different species of ants use different species of fungus, but all of the fungi the ants use are members of the family Lepiotaceae. The ants actively cultivate their fungus, feeding it with freshly cut plant material and keeping it free from pests and molds.\n[…]\nThe fungus cultivated by the adults is used to feed the ant larvae, and the adult ants feed on leaf sap. The fungus needs the ants and the larvae need the fungus; mutualism is obligatory.\n[…]\nAlso, the wrong type of fungus can grow during cultivation. Escovopsis, a highly virulent fungus, has the potential to devastate an ant garden, as it is horizontally transmitted. Escovopsis was cultured, during colony foundation, in 6.6% of colonies. However, in one- to two-year-old colonies, almost 60% had Escovopsis growing in the fungal garden.\n[…]\nAtta sexdens\n[…]\nThe Lurker's Guide to Leafcutter Ants"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Formiga-cortadeira",
+        "situacao": "ok",
+        "texto": "A formiga-cortadeira pode corresponder a qualquer uma de 47 espécies de insetos eusociais diferentes, formigas mastigadoras pertencentes aos dois gêneros Atta e Acromyrmex, no Brasil, as do gênero Atta são conhecidas popularmente como saúvas e as Acromyrmex como quenquéns. Essas espécies de formigas tropicais e fúngicas são endêmicas na América do Sul e Central, no México e em partes do sul dos Es\n[…]\nSuas sociedades são baseadas em um mutualismo antifúngico, e diferentes espécies de formigas usam diferentes espécies de fungos, mas todos os fungos que as formigas usam são membros da família Lepiotaceae. Tais insetos cultivam ativamente seu fungo, alimentando-o com material vegetal recém-cortado e mantendo-o livre de pragas e outras ameaças.\n[…]\nOs únicos dois outros grupos de insetos que usam a agricultura baseada em fungos são os besouros-da-ambrósia e os cupins. O fungo cultivado pelos adultos é usado para alimentar as larvas de formigas, e as formigas adultas se alimentam de seiva foliar. O fungo precisa que as formigas permaneçam vivas, e as larvas precisam que o fungo permaneça vivo, então o mutualismo é obrigatório.\n[…]\nAs formigas-cortadeiras têm papéis muito específicos em cuidar do jardim de fungos e despejar o lixo, que são produzidos em grande quantidade. A gestão de resíduos é um papel fundamental para a longevidade do grupo. O fungo parasitário necrotrófico Escovopsis ameaça a fonte de alimento das formigas e, portanto, é um perigo constante para a colônia.\n[…]\nAlém disso, o tipo errado de fungo pode crescer durante o cultivo. Escovopsis, um fungo altamente virulento, tem o potencial de devastar um jardim inteiro de formigas, uma vez que é transmitido horizontalmente. Pesquisas observaram que o fungo foi cultivado, durante a fundações de colônias, em 6,6% dos casos. No entanto, em colônias de um a dois anos, quase 60% tinham Escovopsis crescendo no jardim de fungos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Cigarra",
+      "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Diz a crença popular que a cigarra canta até estourar. Na verdade, a casca vazia que fica presa no tronco é o quê?",
+    "resposta": "A pele velha deixada na muda",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cicada",
+      "https://en.wikipedia.org/wiki/Exuviae"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cicada",
+        "situacao": "ok",
+        "texto": "The cicadas () are a superfamily, the Cicadoidea, of insects in the order Hemiptera (true bugs). They are in the suborder Auchenorrhyncha, along with smaller jumping bugs such as leafhoppers and froghoppers. The superfamily is divided into two families, the Tettigarctidae, with two species in Australia, and the Cicadidae, with more than 3,000 species described from around the world; many species r\n[…]\nMore than 40 species from five genera populate New Zealand, ranging from sea level to mountain tops, and all are endemic to New Zealand and its surrounding islands (Kermadec Islands, Chatham Islands). One species is found on Norfolk Island, which technically is part of Australia. The closest relatives of the NZ cicadas live in New Caledonia and Australia.\n[…]\nA specialist predator with a shorter life cycle of at least two years could not reliably prey upon the cicadas; for example, a 17-year cicada with a predator with a five-year life cycle will only be threatened by a peak predator population every 85 (5 × 17) years, while a non-prime cycle such as 15 would be endangered at every year of emergence.\n[…]\nCicadas are featured in the protest song \"Como La Cigarra\" (\"Like the Cicada\") written by Argentinian poet and composer María Elena Walsh. In the song, the cicada is a symbol of survival and defiance against death. The song was recorded by Mercedes Sosa, among other Latin American musicians.\n[…]\nIn North America and Mexico, there is a well-known song, \"La Cigarra\" (\"The Cicada\"), written by Raymundo Perez Soto, which is a song in the Mariachi tradition, that romanticises the insect as a creature that sings until it dies.\n[…]\n\"Greater Cincinnati Cicada Information & Teaching Resources\". College of Mt Saint Joseph Cicada Information Site. Archived from the original on 16 April 2013. Retrieved 4 July 2026.\n[…]\nDrMetcalf: a resource on cicadas, leafhoppers, planthoppers, spittlebugs, and treehoppers"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Exuviae",
+        "situacao": "ok",
+        "texto": "In biology, exuviae are the remains of an exoskeleton and related structures that are left after ecdysozoans (including insects, crustaceans and arachnids) have molted. The exuviae of an animal can be important to biologists as they can often be used to identify the species of the animal and even its sex.\n[…]\nFor instance, when monitoring dragonfly populations, the presence of exuviae of a species demonstrates that the species has completed its full life cycle from egg to adult in a habitat. However, it has also been suggested that the fact that exuviae can be hard to find could lead to an underestimation of insect species compared to, for example, counting adult insects."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cigarra",
+        "situacao": "ok",
+        "texto": "Cicadidae é uma família da ordem Hemiptera, subordem Homoptera, que agrupa os insetos conhecidos pelos nomes comuns de  cigarra e cega-rega. Existem mais de 1 500 espécies conhecidas deste insetos (sendo que a Carineta fasciculata pode ser considerada como a espécie-tipo brasileira). São notáveis devido à cantoria entoada pelos machos, diferente em cada espécie e que é ouvida no período quente do \n[…]\nNo compartimento interno da barriga do macho, desenvolvem-se os músculos e os elementos que soltam o som do canto da cigarra, que serve para atrair a fêmea. Além disso, ele também canta quando é atacado ou capturado por inimigos naturais.\n[…]\nApós o acasalamento, a fêmea faz cortes na casca de um galho para depositar os seus ovos. Ela pode fazer isso repetidamente, até que ela coloque várias centenas de ovos. Quando os ovos eclodem, as ninfas recém-nascidas caem no chão. A maioria das cigarras passa por um ciclo de vida que dura de dois a cinco anos.\n[…]\nEntão, após um período de aproximadamente duas horas, ocorre o rompimento do tegumento ao longo da linha da ecdise, por onde emerge o inseto adulto mudando (trocando de pele), em uma árvore por perto. Os exoesqueletos permanecem abandonados, agarrados à casca das árvores.\n[…]\nAs tettigarctídeas, cicadas peludas primitivas, têm tímbalos rudimentares em ambos os sexos e produzem vibrações no tronco em vez de sons aéreos, representando o estado ancestral da comunicação nas cigarras.\n[…]\nNa Austrália, a vespa-cicada australiana (Exeirus lateritius) atordoa cigarras no alto das árvores, faz-as cair e as arrasta até seu ninho, às vezes percorrendo 100 m, onde colocam-nas em “catacumbas” como estoque alimentar para as larvas. Um gafanhoto australásio (Tettigoniidae) imita cliques de fêmeas de várias espécies para atrair machos, capturando-os em seguida. Seus ciclos primos dificultam a sincronização de predadores de vida mais curta.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Photuris",
+      "descricao": "Gênero de vaga-lumes norte-americanos cujas fêmeas imitam os sinais luminosos de outras espécies para caçar."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Fêmeas do vaga-lume Photuris imitam as piscadas de fêmeas de outras espécies de vaga-lume. Com que objetivo?",
+    "resposta": "Atrair e devorar os machos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Photuris"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Photuris",
+        "situacao": "ok",
+        "texto": "Photuris is a genus of fireflies (beetles of the family Lampyridae). The adult females of this genus are notable for preying on other fireflies. They engage in aggressive mimicry, imitating the light signals that other firefly species' females use to attract mates – but Photuris use it to attract, kill and eat the unsuspecting males of those other species.\n[…]\nPhoturis aureolucens – Barber, 1951\n[…]\nPhoturis bethaniensis – McDermott, 1953 (Bethany Beach firefly)\n[…]\nPhoturis caerulucens – Barber, 1951 (slow blues)\n[…]\nPhoturis cinctipennis – Barber, 1951\n[…]\nPhoturis congener – LeConte, 1852 (Florida single snappy)\n[…]\nPhoturis divisa – LeConte, 1852\n[…]\nPhoturis fairchildi – Barber, 1951\n[…]\nPhoturis flavicollis – Fall, 1927\n[…]\nPhoturis floridana – Fall, 1927\n[…]\nPhoturis frontalis – LeConte, 1852 (snappy single sync)\n[…]\nPhoturis hebes – Barber, 1951 (heebie-jeebies)\n[…]\nPhoturis lineaticollis  –  Motschulsky, 1854\n[…]\nPhoturis lloydi  – McDermott, 1966 (Lloyd's predator)\n[…]\nPhoturis lucicrescens – Barber, 1951 (July comet, big scary)\n[…]\nPhoturis missouriensis – McDermott, 1962\n[…]\nPhoturis mysticalampas –  Heckscher, 2013 (mystic lanterns, mysterious lantern firefly)\n[…]\nPhoturis pensylvanica – De Geer, 1774 (Pennsylvania firefly)\n[…]\nPhoturis potomaca – Barber, 1951\n[…]\nPhoturis pyralomina – Barber, 1951\n[…]\nPhoturis quadrifulgens – Barber, 1951 (spring 4-flasher)\n[…]\nPhoturis salina – Barber, 1951\n[…]\nPhoturis tremulans – Barber, 1951 (Christmas lights)\n[…]\nPhoturis versicolor – Fabricius, 1798\n[…]\nPhoturis walldoxeyi –  Faust and Davis, 2019 (cypress firefly)"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Abelha",
+      "descricao": "Abelha-europeia (Apis mellifera), inseto social produtor de mel e polinizador."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que a abelha operária costuma morrer depois de ferroar uma pessoa?",
+    "resposta": "O ferrão farpado fica preso e arranca parte do abdômen",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Western_honey_bee",
+      "https://en.wikipedia.org/wiki/Stinger"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Western_honey_bee",
+        "situacao": "ok",
+        "texto": "The western honey bee (Apis mellifera) is the most common of the 7–12 species of honey bees worldwide. The genus name Apis is Latin for 'bee', and mellifera is the Latin for 'honey-bearing' or 'honey-carrying', referring to the species' production of honey.\n[…]\nThe queen bee is a fertile female, who, unlike workers (which are also female), has a fully developed reproductive system. She is larger than her workers, and has a characteristic rounder, longer abdomen. A female egg can become either a queen or a worker bee. Workers and queen larvae are both fed royal jelly, which is high in protein and low in flavonoids, during the first three days.\n[…]\nMature worker bees secrete beeswax from glands on their abdomen, using it to form the walls and caps of the comb. When honey is harvested, the wax can be collected for use in products like candles and seals.\n[…]\nThe behavior of bees using their legs and mandibles to remove parasites like mites and dust-like materials from their bodies is referred to as grooming. Grooming includes self-grooming (auto-grooming) and inter-grooming (allo-grooming) between nest mates. Self-grooming involves pulling on antennae, rubbing the head with the forelegs, and rubbing the thorax or abdomen with the middle or hind legs.\n[…]\nApart from Apis mellifera, there are six other species in the genus Apis. These are Apis andreniformis, Apis cerana, Apis dorsata, Apis florea, Apis koschevnikovi, and Apis nigrocincta. These species all originated in southern and southeastern Asia. Only Apis mellifera is thought to have originated in Europe, Asia, and Africa.\n[…]\nIFAS: Apis mellifera\n[…]\nSound recordings of Apis mellifera at BioAcoustica"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Stinger",
+        "situacao": "ok",
+        "texto": "A stinger (or sting) is a sharp organ found in various animals (typically insects and other arthropods) capable of injecting venom, usually by piercing the epidermis of another animal.\n[…]\nWhile the overwhelming majority of insects withdraw their stingers from their victims, a few insects leave them in the wounds. For example, of the 20,000 species of bees worldwide, only the half-dozen species of honeybees (Apis) are reported to have a barbed stinger that cannot be withdrawn; of wasps, nearly all are reported to have smooth stingers with the exception of two species, Polybia rejecta and Synoeca surinama. A few non-insect arthropods, such as scorpions, also sting."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abelha-europeia",
+        "situacao": "ok",
+        "texto": "A abelha-europeia (Apis mellifera) é uma abelha social, de origem europeia, cujas obreiras medem de 12 mm a 13 mm de comprimento e apresentam pelos do tórax mais escuros. Também é chamada abelha-alemã, abelha-comum, abelha-da-Europa, abelha-de-mel, abelha-doméstica, abelha-do-reino, abelha-escura, abelha-Europa, abelha-preta e oropa. A abelha comum ocidental é originária da Ásia e da Europa e foi \n[…]\nVive em colónias permanentes, formadas por uma «rainha» ou «abelha-mestra» (no máximo, e excepcionalmente, duas), obreiras (entre 10 mil e 15 mil) e entre 500 e 1 500 zangões, que são os machos. As fêmeas diferenciam-se dos zangões (machos) por possuírem ferrão.\n[…]\nA abelha Apis mellifera Linnaeus, 1758 distribui-se naturalmente na África, Médio Oriente e Europa e artificialmente por outros continentes. Essa espécies divide-se em mais de 24 subespécies que estudos moleculares e morfológicos possibilitaram agrupar em 4 linhagens evolutivas (A, M, C, O). As linhagens A incluem as subespécies que ocorrem em África e O no Médio Oriente, as linhagens C e M incluem as subespécies europeias.\n[…]\nApis mellifera caucasia (Abelha-caucasiana)\n[…]\nApis mellifera ligustica (Abelha-italiana)\n[…]\nApis mellifera mellifera (Abelha-alemã)\n[…]\nApis mellifera remipes\n[…]\nApis mellifera iberiensis ou Apis mellifera iberica\n[…]\nApis mellifera cecropia\n[…]\nApis mellifera cypria\n[…]\nApis mellifera ruttneri\n[…]\nApis mellifera sicula\n[…]\nAbelha-africana (Apis m. scuttelata)\n[…]\nApis mellifera capensis\n[…]\nApis mellifera monticola\n[…]\nApis mellifera sahariensis\n[…]\nApis mellifera intermissa\n[…]\nApis mellifera major\n[…]\nApis mellifera adansonii\n[…]\nApis mellifera unicolor\n[…]\nApis mellifera lamarckii\n[…]\nApis mellifera litorea\n[…]\nApis mellifera nubica\n[…]\nApis mellifera jemenitica\n[…]\nApis mellifera macedonica\n[…]\nApis mellifera meda\n[…]\nApis mellifera adamii\n[…]\nApis mellifera armeniaca\n[…]\nApis mellifera anatolica\n[…]\nApis mellifera syriaca\n[…]\nApis mellifera pomonella\n[…]\nApis mellifera, Animal Diversity Web. Acedido em 16 de Janeiro de 2013.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Aranha-armadeira",
+      "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "A picada da aranha armadeira pode provocar nos homens uma ereção dolorosa. Por isso, seu veneno é estudado para tratar qual problema?",
+    "resposta": "Disfunção erétil",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phoneutria"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Phoneutria",
+        "situacao": "ok",
+        "texto": "Phoneutria is a genus of spiders in the family Ctenidae. They are mainly found in northern South America, with one species in Central America. Members of the genus are commonly referred to as Brazilian wandering spiders. Other English names include armed spiders (armadeiras in Brazilian Portuguese) and banana spiders (a name shared with several others).\n[…]\nPhoneutria pertyi (F. O. Pickard-Cambridge, 1897) – Brazil\n[…]\nPhoneutria has been introduced to Chile and Uruguay.\n[…]\nA 45-year-old man, with no nervous background, employed in the agricultural section of the Butantan Institute, working barefoot, was bitten at 10:40 AM on the small toe of his left foot by a medium-sized Phoneutria. Immediately he felt intense pain that radiated to his foot and leg. He also reported visual disturbances, and when he tried to enter the building, he fell. Without strength, he was supported by two men to the laboratory, where he was examined.\n[…]\nIn 2005, an English man was bitten twice by a spider identified as a Phoneutria, which was hidden in a box of bananas. It was reported that his hand became swollen, he felt dizzy, and when he got home he collapsed. He was taken to the hospital and received treatment, but his condition continued to deteriorate. He reported chest tightness, and difficulty breathing, and both his blood pressure and heart rate were high.\n[…]\nAnother case occurred in Minas Gerais, Brazil, where a man bitten by a Phoneutria developed numbness in his legs, redness, headache, and loss of sense of time and space.\n[…]\nIn São Sebastião, São Paulo, two brothers, 6 months and 18 months old, the children woke up during the night crying and screaming, dying soon after (time of death is not described). The father removed the sheets and found the spider, which was referred to the Butantan Institute, identified as a large female Phoneutria nigriventer."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Armadeira",
+        "situacao": "ok",
+        "texto": "Phoneutria (do grego φονεύτρια, latinizado: phoneútria, \"assassina\") é um gênero de aranhas conhecidas pelos nomes comuns de armadeira, aranha-macaco ou aranha-de-bananeira, pertencentes à família dos ctenídeos. O nome comum armadeira vem da sua atitude invariável de ataque, com as patas dianteiras erguidas. São encontradas no Brasil, Paraguai, norte da Argentina e Uruguai, onde teria sido introdu\n[…]\nForam atribuídos durante o período estudado, 66 óbitos por envenenamentos por aranhas e, destes, apenas 24 tiveram o gênero de aranha causador do acidente identificado. A maioria dos óbitos (18) foi atribuída ao gênero Loxosceles (Letalidade de 0,04%), seguido por Phoneutria com 5 óbitos (0,02%) e Latrodectus com 1 óbito (0,17%).\n[…]\nA peçonha da Phoneutria é composta por polipeptídeos, além de histamina e serotonina. Sua ação é neurotóxica e cardiotóxica. A ação neurotóxica ocorre no SNC, mais precisamente nos canais de sódio, provocando despolarizações nas terminações nervosas, (sinapses) sensitivas e motoras, fibras musculares e no sistema nervoso autônomo, induzindo a liberação de neurotransmissores (principalmente a acetilcolina e catecolaminas.).\n[…]\nA ação cardiotóxica interfere na atividade contrátil do músculo estriado cardíaco, ativação do sistema de calicreína tissular, ativação de fibras sensoriais e esvaziamento gástrico. A picada da Phoneutria é relativamente letal para ratos.\n[…]\nAlém de causar dor intensa, o veneno da aranha pode também causar priapismo em humanos. Ereções resultantes da picada são incômodas, podem durar várias horas e causar impotência. O componente do veneno (Tx2-6) está sendo estudado para uso em tratamentos de disfunção erétil.\n[…]\nPhoneutria eickstedtae Martins & Bertani, 2007 — Brasil\n[…]\nPhoneutria pertyi (F. O. Pickard-Cambridge, 1897) — Mata atlântica do Brasil.\n[…]\nPhoneutria reidyi (F. O. Pickard-Cambridge, 1897) — Venezuela, Peru, Brasil, Guiana.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Escorpião-amarelo",
+      "descricao": "Escorpião brasileiro (Tityus serrulatus), de veneno perigoso e comum em áreas urbanas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O escorpião-amarelo se espalha depressa pelas cidades brasileiras porque as fêmeas conseguem fazer algo sem precisar de machos. O quê?",
+    "resposta": "Reproduzir-se por partenogênese",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tityus_serrulatus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tityus_serrulatus",
+        "situacao": "ok",
+        "texto": "Tityus serrulatus, the Brazilian yellow scorpion, is a species of scorpion of the family Buthidae. It is native to Brazil, and its venom is extremely toxic. It is the most dangerous scorpion in South America and is responsible for the most fatal cases.\n[…]\nIn Brazil, scorpions are credited with causing the highest incidence of human envenomations of all venomous animals. They cause more than all other venomous animals, including snakes and spiders, combined. With mortality rates ranging from 1.0 to 2.0% among children and elderly persons, T. serrulatus is responsible for more medically significant accidents than any other scorpion in the country.\n[…]\nIn mild cases, localized pain is the primary symptom. Tityus serrulatus venom contains TsIV, which slows the inactivation of sodium channels in muscles and nerve cells.\n[…]\nTityus serrulatus has an excitatory neurotoxin that attacks the autonomic nervous system, causing the release of adrenaline, noradrenaline and acetylcholine, causing an immense variety of symptoms in the victims; clinical effects may include hyperglycemia, fever, priapism, agitation, hypersalivation, tachycardia, hypertension, mydriasis, sweating, hyperthermia, tremors, gastrointestinal complications (diarrhea, abdominal pain, nausea, vomiting) and pancreatitis.\n[…]\nAccording to a nationwide epidemiological study of scorpion accidents that was conducted from 2000 to 2012, there were 482,616 accidents and 728 deaths reported in Brazil during that period. All of the fatal cases were attributed to the genus Tityus, and T. serrulatus, in particular, was believed to be responsible for the vast majority of scorpion-related deaths considered by the study."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escorpi%C3%A3o-amarelo",
+        "situacao": "ok",
+        "texto": "O Tityus serrulatus, conhecido popularmente como escorpião-amarelo, é um escorpião típico do Sudeste, Centro-Oeste e Nordeste do Brasil. É a principal espécie causadora de acidentes graves, com registro de óbitos, e é considerada a mais venenosa da América do Sul.\n[…]\nPossui as patas e a cauda amarelo-claro e o tronco escuro. A denominação da especie é devida à presença de uma serrilha nos 3° e 4° anéis da cauda. Mede até 7 cm de comprimento. A reprodução é partenogenética, na qual cada mãe tem aproximadamente dois partos com, em média, 20 filhotes cada, por ano, chegando a 160 filhotes durante a vida.\n[…]\nA espécie T. serrulatus possui uma característica peculiar entre os escorpiões que é a partenogênese, ou seja, a capacidade de se reproduzir sem que haja fecundação, não havendo necessidade de um casal. Tal fato possibilita que um único espécime transportado para um novo local possa se reproduzir e desenvolver uma colônia. Este fenômeno, aliado à adaptação a qualquer ambiente, facilita sua dispersão. Além disso, a introdução de T.\n[…]\nPor muito tempo julgou-se que a espécie era exclusivamente partenogênica, mas foi descoberta uma população com a divisão de gêneros e reprodução sexuada no norte do estado de Minas Gerais e na Bahia.\n[…]\nContatos entre seres humanos e T. serrulatus são muito frequentes. Mas esse escorpião, por natureza, ataca as pessoas ao se sentir ameaçado. Em casos de acidente recomenda-se não \"sugar\" o veneno do local acidentado, não fazer torniquete, incisões ou cutucar o local, para não agravar a situação. Deve-se procurar um médico, e sempre que possível levar o escorpião junto para identificação da espécie.[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Caramujo-gigante-africano",
+      "descricao": "Molusco terrestre (Achatina fulica) nativo da África Oriental, espécie invasora no Brasil."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos oitenta, o caramujo-gigante-africano foi trazido ao Brasil para ser criado como substituto barato de qual iguaria francesa?",
+    "resposta": "Escargot",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Achatina_fulica",
+      "https://pt.wikipedia.org/wiki/Achatina_fulica"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Achatina_fulica",
+        "situacao": "ok",
+        "texto": "Lissachatina fulica is a species of large land snail that belongs in the subfamily Achatininae of the family Achatinidae. It is also known as the giant African land snail. It shares the common name \"giant African snail\" with other species of snails such as Achatina achatina and Archachatina marginata. This snail species has been considered a significant cause of pest issues around the world. It is\n[…]\nThe eggs of Lissachatina fulica are pure white and opaque but may be slightly yellowish or even somewhat transparent. The eggs have a thin, calcareous shell, and are about 5 mm long and 4 mm wide.\n[…]\nSeveral different species and types of parasites have been known to infect Lissachatina fulica, including more than 12 nematodes.\n[…]\nThese snails are used by some practitioners of Candomblé for religious purposes in Brazil as an offering to the deity Oxalá. The snails substitute for a closely related species, the West African giant snail (Archachatina marginata), normally offered in Nigeria. The two species are similar enough in appearance to satisfy religious authorities. They are also edible if cooked properly.\n[…]\nFontanilla I.K.C. (2010). Achatina (Lissachatina) fulica Bowdich: its molecular phylogeny, genetic variation in global populations, and its possible role in the spread of the rat lungworm Angiostrongylus cantonensis (Chen). PhD thesis, University of Nottingham. 634 pp\n[…]\nNew Pest Response Guidelines for Achatina fulica, United States Department of Agriculture\n[…]\nAchatina fulica references from the Hawaiian Ecosystems at Risk project (HEAR)\n[…]\nSpecies Profile- Giant African Snail (Achatina fulica), National Invasive Species Information Center, United States National Agricultural Library. Lists general information and resources for Giant African Snail.\n[…]\nMead, Albert R. 1961. The Giant African Snail: A Problem in Economic Malacology. Univ. Chicago Press, 257 pp."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Achatina_fulica",
+        "situacao": "ok",
+        "texto": "O caramujo-gigante-africano ou caracol-gigante-africano (nome científico: Lissachatina fulica) é um molusco da classe dos gastrópodes (Gastropoda). Pertence à subfamília dos acatiníneos (Achatininae) da família dos acatinídeos (Achatinidae). Possui concha cônica marrom ou mosqueada de tons claros. Nativo no leste-nordeste da África, foi introduzido no Brasil em 1983 visando ao cultivo e comerciali\n[…]\nO fracasso das tentativas de comercialização, devido a sua carne ser mais dura do que a do escargô e por não ser um prato apreciado no País, levou os criadores, por desinformação, a soltar os caracóis nas matas. Como se reproduz rapidamente e possui poucos predadores naturais em áreas antropizadas e urbanas no Brasil, tornou-se uma praga agrícola e pode ser encontrado em praticamente todo o país, inclusive nas regiões litorâneas.\n[…]\nFasciola gigantica é um verme chato que foi detectado nas fezes e intestinos do caramujo;\n[…]\nO caramujo-gigante-africano é responsável indireto pela potencial transmissão da febre amarela e da dengue. Foi constatado inicialmente na Tanzânia que as conchas de caramujos-gigantes-africanos mortos podiam encher-se d'água e tornar-se um potencial ponto à proliferação do Aedes aegypti, mosquito transmissor dessas doenças. Em 2001, esse mosquito também foi encontrado em conchas de Lissachatina fulica no estado de São Paulo.\n[…]\nMartinez Escarbassiere, Rafael; Martinez Moreno, Enrique (1997). «Nota acerca de la Achatina (Lissachatina) fulica (Bowdich, 1111), peligroso caracol africano (Pulmonata Achatinidae) introducido en Venezuela». Acta Biologica Venezuelica. 17 (1): 37-40\n[…]\nSantana Teles, Horácio Manuel; Faria Vaz, Jorge; Roberto Fontes, Luiz; Domingos, Maria de Fátima (junho de 1997). «Registro de Lissachatina fulica Bowdich, 1822 (Mollusca, Gastropoda) no Brasil: caramujo hospedeiro intermediário da angiostrongilíase». São Paulo. Rev. Saúde Pública. 31 (3)"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Límulo",
+      "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O sangue azul do caranguejo-ferradura é coletado pela indústria farmacêutica. Para que ele é usado?",
+    "resposta": "Detectar contaminação bacteriana em remédios e vacinas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Limulus_amebocyte_lysate",
+      "https://en.wikipedia.org/wiki/Horseshoe_crab"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Limulus_amebocyte_lysate",
+        "situacao": "ok",
+        "texto": "Limulus amebocyte lysate (LAL) is an aqueous extract of motile blood cells (amebocytes) from the Atlantic horseshoe crab Limulus polyphemus. LAL reacts with bacterial endotoxins such as lipopolysaccharides (LPS), which are components of the bacterial capsule, the outermost membrane of cell envelope of gram-negative bacteria. This reaction is the basis of the LAL test, which is widely used for the \n[…]\nThe American medical researcher Fred Bang reported in 1956 that gram-negative bacteria, even if killed, will cause the blood of the horseshoe crab to turn into a gel, a type of semi-solid mass. It was later recognized that the animal's blood cells, mobile cells called amebocytes, contain granules with a clotting factor known as coagulogen; this is released outside the cell when bacterial endotoxins are encountered.\n[…]\nAfter coagulation and subsequent gelling, the resulting gel is thought to provide containment of bacterial infections in the animal's semi-closed circulatory system. Modern analysis of the lysate has led to understanding of this system of cascade, with multiple enzymes working in sequence to produce the gel. The entry point of endotoxin-induced clotting is Limulus clotting factor C.\n[…]\nIn response, USP subsequently developed General Chapter <86>, Bacterial Endotoxins Test Using Recombinant Reagents, which provides compendial requirements for endotoxin testing using non-animal-derived reagents such as recombinant factor C (rFC). Chapter <86> became official in USP–NF in May 2025, establishing rFC as a pharmacopeially recognized alternative to the Limulus amebocyte lysate test.\n[…]\nA recent study employing genetically engineered monocytes was able to significantly enhance the sensitivity of monocyte-based detection assays by bringing down the assay-completion time from more than 20 hours to 2–3 hours.\n[…]\nEndotoxin Detection Product Archived 14 July 2010 at the Wayback Machine"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Horseshoe_crab",
+        "situacao": "ok",
+        "texto": "Horseshoe crabs are arthropods of the family Limulidae and the only surviving xiphosurans. Despite their name, they are not crabs or even crustaceans; they are chelicerates, more closely related to arachnids like spiders, ticks, and scorpions. The body of a horseshoe crab is divided into three main parts: the cephalothorax, abdomen, and telson. The largest of these, the cephalothorax, houses most \n[…]\nOnly four species of horseshoe crab are extant today, the Atlantic horseshoe crab (Limulus polyphemus), native to the eastern coasts of Mexico and the United States, as well as the mangrove horseshoe crab (Carcinoscorpius rotundicauda), tri-spine horseshoe crab (Tachypleus tridentatus) and Indo-Pacific horseshoe crab (Tachypleus gigas), which are native to South, South East, and East Asia.\n[…]\nHorseshoe crabs are often caught for their blood, which contains Limulus amebocyte lysate, a chemical used to detect bacterial endotoxins. Additionally, they are used as fishing bait in the United States and eaten as a delicacy in some parts of Asia. In recent years, horseshoe crabs have experienced a population decline. This is mainly due to coastal habitat destruction and overharvesting.\n[…]\nLimulus polyphemus, the Atlantic or American horseshoe crab, found along the Atlantic coast of the United States and the Southeast Gulf of Mexico\n[…]\nThe blood of a horseshoe crab contains cells known as amebocytes. These play a similar role to the white blood cells of vertebrates in defending the organism against pathogens. Amebocytes from the blood of Limulus polyphemus are used to make Limulus amebocyte lysate (LAL), which is used for the detection of bacterial endotoxins in medical applications. There is a high demand for blood, the harvest of which involves collecting the animals, bleeding them, and then releasing them back into the sea.\n[…]\nHorseshoe crab at the Smithsonian Ocean Portal"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Gafanhoto-do-deserto",
+      "descricao": "Gafanhoto africano e asiático (Schistocerca gregaria) que forma nuvens migratórias devastadoras."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Quando gafanhotos-do-deserto ficam apinhados, mudam de cor e formam nuvens devastadoras. Que substância do sistema nervoso dispara essa transformação?",
+    "resposta": "Serotonina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Locust",
+      "https://en.wikipedia.org/wiki/Desert_locust"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Locust",
+        "situacao": "ok",
+        "texto": "Locusts (derived from the Latin locusta, locust or lobster) are various species of short-horned grasshoppers in the family Acrididae that have a swarming phase. These insects are usually solitary, but under certain circumstances they become more abundant and change their behaviour and habits, becoming gregarious. No taxonomic distinction is made between locust and grasshopper species; the basis fo\n[…]\nSwarming behaviour is a response to overcrowding. Increased tactile stimulation of the hind legs causes an increase in levels of serotonin. This causes the locust to change colour, eat much more, and breed much more easily. The transformation of the locust to the swarming form is induced by several contacts per minute over a four-hour period.\n[…]\nA large swarm can consist of billions of locusts spread out over an area of thousands of square kilometres, with a population of up to 80 million per square kilometre (200 million per square mile). When desert locusts meet, their nervous systems release serotonin, which causes them to become mutually attracted, a prerequisite for swarming.\n[…]\nThe desert locust (Schistocerca gregaria) is probably the best known species owing to its wide distribution (North Africa, Middle East, and Indian subcontinent) and its ability to migrate over long distances. A major infestation covered much of western Africa from 2003 to 2005, after unusually heavy rain set up favourable ecological conditions for swarming. The first outbreaks occurred in Mauritania, Mali, Niger, and Sudan in 2003.\n[…]\nAristotle studied locusts and their breeding habits and Livy recorded a devastating plague in Capua in 203 BC. He mentioned human epidemics following locust plagues which he associated with the stench from the putrifying corpses; the linking of human disease outbreaks to locust plagues was widespread.\n[…]\nDesert Locust Meteorological Monitoring at Sahel Resources\n[…]\nLocust Video"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Desert_locust",
+        "situacao": "ok",
+        "texto": "The desert locust (Schistocerca gregaria) is a species of locust in the grasshopper family, Acrididae. A periodically swarming, short-horned bird grasshopper, it is found primarily in the deserts and dry areas of northern and eastern Africa, Arabia, and southwest Asia. During population surge years, its range may extend north into parts of Southern Europe, Eastern Africa, and Northern India.\n[…]\nThe desert locust is a species of orthopteran in the family Acrididae, subfamily Cyrtacanthacridinae. There are two subspecies, one called Schistocerca gregaria gregaria, the better known and of huge economic importance, located north of the equator, and the other, Schistocerca gregaria flaviventris, which has a smaller range in south-west Africa and is of less economic importance, although outbreaks have been observed in the past.\n[…]\nThe desert locust is probably the oldest and most dangerous migratory pest in the world. The scale of the invasions and destruction they cause is due to their exceptional gregarious nature, their mobility, the voracity and size of their hopper bands and swarms. Desert locust invasions can be absolutely devastating and have serious repercussions on national and regional food security and on the livelihoods of affected rural communities, particularly the poorest.\n[…]\nThe swarming pheromone guaiacol is produced in the gut of desert locusts by the breakdown of plant material. This process is undertaken by the gut bacterium Pantoea (Enterobacter) agglomerans. Guaiacol is one of the main components of the pheromones that cause locust swarming. Pheromones also accelerate S. gregaria development.\n[…]\nDesert Locust crisis in the Horn of Africa - FAO Website Archived 2021-08-18 at the Wayback Machine\n[…]\nFAO Locust Watch site\n[…]\nColumbia University IRI Climate and Desert Locust Archived 2012-12-21 at the Wayback Machine\n[…]\nDesert Locust Meteorological Monitoring, at Sahel Resources"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gafanhotos_greg%C3%A1rios",
+        "situacao": "ok",
+        "texto": "Gafanhotos gregários, conhecidos no inglês como \"locusts\" (do latim locusta, que significa \"gafanhoto\" ou \"lagosta\") são várias espécies de gafanhotos de \"antenas curtas\" da família Acrididae que apresentam uma fase de gregarismo/enxameação. Esses insetos são geralmente solitários, mas em certas circunstâncias tornam-se mais abundantes e mudam seu comportamento e hábitos, tornando-se gregários.\n[…]\nNormalmente, esses gafanhotos são inofensivos, seus números são baixos e não representam uma grande ameaça econômica para a agricultura. No entanto, em condições favoráveis de seca seguida por crescimento rápido de vegetação, a serotonina em seus cérebros desencadeia mudanças drásticas: eles começam a se reproduzir abundantemente, tornando-se gregários e nômades (descritos vagamente como migratórios) quando suas populações se tornam densas o suficiente.\n[…]\nO comportamento de enxameação é uma resposta à superpopulação. O aumento da estimulação tátil das patas traseiras causa um aumento nos níveis de serotonina. Isso faz com que o gafanhoto mude de cor, coma muito mais e se reproduza com maior facilidade. A transformação para a forma gregária é induzida por vários contatos por minuto durante um período de quatro horas.\n[…]\nUm grande enxame pode consistir de bilhões de gafanhotos espalhados por uma área de milhares de quilômetros quadrados, com uma população de até 80 milhões por quilômetro quadrado. Quando gafanhotos-do-deserto se encontram, seus sistemas nervosos liberam serotonina, o que os torna mutuamente atraídos, um pré-requisito para a enxameação.\n[…]\nAristóteles estudou gafanhotos gregários e seus hábitos de reprodução, e Lívio registrou uma praga devastadora em Cápua em 203 a.C. Ele mencionou epidemias humanas após pragas de gafanhotos, que associou ao mau cheiro dos corpos em putrefação; a ligação de surtos de doenças humanas a pragas de gafanhotos era comum.\n[…]\nGafanhotos",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Piolho-de-cobra",
+      "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Macacos-prego já foram vistos esfregando piolhos-de-cobra no próprio pelo. O que eles ganham com isso?",
+    "resposta": "Proteção contra mosquitos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Self-anointing_in_animals",
+      "https://en.wikipedia.org/wiki/Millipede"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Self-anointing_in_animals",
+        "situacao": "ok",
+        "texto": "Self-anointing in animals, sometimes called anointing or anting, is a behaviour whereby a non-human animal smears odoriferous substances over itself. These substances are often the secretions, parts, or entire bodies of other animals or plants. The animal may chew these substances and then spread the resulting saliva mixture over their body, or they may apply the source of the odour directly with \n[…]\nWild wedge-capped capuchin monkeys (Cebus olivaceus) self-anoint with millipedes (Orthoporus dorsovittatus). Chemical analysis revealed these millipedes secrete two benzoquinones, compounds known to be potently repellent to insects and the secretions are thought to provide protection against insects, particularly mosquitoes (and the bot flies they transmit) during the rainy season. Millipede secretion is so avidly sought by the monkeys that up to four of them will share a single millipede.\n[…]\nHowever, contrary data from captive animals there no difference in the range of sociality for anointing between Cebus and Sapajus in the wild.\n[…]\nVarious hypotheses have been proposed to explain the function of self-anointing in hedgehogs. It may function as a form of scent camouflage, to mask their own scent with the new scent in the environment. Hedgehogs are resistant to many toxins and one theory is that hedgehogs spread toxins on their quills as added protection. Hedgehogs will sometimes kill toads (Bufo), bite into the toads' poison glands and smear the toxic mixture on their spines.\n[…]\nAlthough it has been suggested that anting acts as a way of reducing feather parasites such as mites or in controlling fungi or bacteria, there has been little convincing support for any of the theories. Some cases of anting involved the use of millipedes or puss moth caterpillars, and these too are known to release powerful defensive chemicals."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Millipede",
+        "situacao": "ok",
+        "texto": "Millipedes (originating from the Latin mille, \"thousand\", and pes, \"foot\") are a group of arthropods that are characterised by having two pairs of jointed legs on most body segments; they are known scientifically as the class Diplopoda, the name derived from this feature. Each double-legged segment is a result of two single segments fused together.\n[…]\nMost millipedes defend themselves with a variety of chemicals secreted from pores along the body, although the tiny bristle millipedes are covered with tufts of detachable bristles. Its primary defence mechanism is to curl into a tight coil, thereby protecting its legs and other vital delicate areas on the body behind a hard exoskeleton. Reproduction in most species is carried out by modified male legs called gonopods, which transfer packets of sperm to females.\n[…]\nMillipedes in several orders have keel-like extensions of the body-wall known as paranota, which can vary widely in shape, size, and texture; modifications include lobes, papillae, ridges, crests, spines and notches. Paranota may allow millipedes to wedge more securely into crevices, protect the legs, or make the millipede more difficult for predators to swallow.\n[…]\nDue to their lack of speed and their inability to bite or sting, millipedes' primary defence mechanism is to curl into a tight coil – protecting their delicate legs inside an armoured exoskeleton.\n[…]\nSome of these substances are caustic and can burn the exoskeleton of ants and other insect predators, and the skin and eyes of larger predators. Primates such as capuchin monkeys and lemurs have been observed intentionally irritating millipedes in order to rub the chemicals on themselves to repel mosquitoes. Some of these defensive compounds also show antifungal activity.\n[…]\nDiplopoda: Guide to New Zealand Soil Invertebrates – Massey University"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Borboleta-monarca",
+      "descricao": "Borboleta norte-americana (Danaus plexippus) de asas laranja, pretas e brancas, famosa pela migração anual."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "As aves evitam comer a borboleta-monarca porque ela é tóxica. De onde vem esse veneno?",
+    "resposta": "Das asclépias que ela come quando lagarta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monarch_butterfly"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monarch_butterfly",
+        "situacao": "ok",
+        "texto": "The monarch butterfly or simply monarch (Danaus plexippus) is a milkweed butterfly (subfamily Danainae) in the family Nymphalidae. Other common names, depending on region, include milkweed, common tiger, wanderer, and black-veined brown. It is among the most familiar of North American butterflies and an iconic pollinator, although it is not an especially effective pollinator of milkweeds.\n[…]\nLarvae feed exclusively on milkweed and consume protective cardiac glycosides. Toxin levels in the Asclepias species vary. Not all monarchs are unpalatable, but exhibit Batesian or automimics. Cardiac glycoside levels are higher in the abdomen and wings. Some predators can differentiate between these parts and consume the most palatable ones.\n[…]\nDifferent milkweed species have variable effects on parasite growth, virulence, and transmission. One species, Asclepias curassavica, appears to reduce the symptoms of Ophryocystis elektroscirrha (OE) infection. The two possible explanations for this include that it promotes overall monarch health to boost the monarch's immune system or that chemicals from the plant have a direct negative effect on the OE parasites. A.\n[…]\nWhen discussing milkweeds, the Guide states that although more than 100 species of such plants are considered native to North America, Asclepias syriaca, or common milkweed, stands out and \"is clearly an important species that is critical to the survival of monarch butterflies\".\n[…]\nFor example, in the Washington, D.C., area and elsewhere in the northeastern and midwestern United States, common milkweed (Asclepias syriaca) is among the most important food plants for monarch caterpillars. Within its range it can be found in a broad array of habitats from croplands to pastures, roadsides, ditches and old fields. The plant typically grows to a height of 3-5 feet (0.9-1.5 m), but can reach 8 feet (2.4 m) in ditches and gardens."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Borboleta-monarca",
+        "situacao": "ok",
+        "texto": "A borboleta-monarca (Danaus plexippus) é uma borboleta da família dos ninfalídeos, da subfamília dos danaíneos. Têm cerca de setenta milímetros de envergadura, asas laranjas com listras pretas e marcas brancas.\n[…]\nCom grande potencial de voo e de dispersão, as monarcas também colonizaram nos últimos 200 anos a Europa, Norte de África e a Austrália.\n[…]\nTal como nos restantes locais colonizados recentemente as populações portuguesas de monarca não são migradoras.\n[…]\nA borboleta monarca começa a sua vida como um ovo posto por uma fêmea adulta numa folha de planta de serralha. É do tamanho da cabeça de um alfinete e quando choca, três a doze dias depois, nasce a pequena lagarta com riscas brancas, amarelas e pretas, com oito pares de pernas curtas para trepar e partes da boca desenhada para mastigar folhas.\n[…]\nMas somente folhas das plantas de serralha tem uma seiva branca e pegajosa que é altamente tóxica para os outros animais, mas não afetam em nada a lagarta, apenas tornando seu corpo altamente tóxico para os predadores, como pássaros. Três mutações genéticas são a chave para esse inseto se tornar imune à sua dieta venenosa.\n[…]\nReserva da Biosfera Borboleta-Monarca\n[…]\nBorboleta vice-rei",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Cupim",
+      "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Os cupins comem madeira, mas não conseguem digerir a celulose sozinhos. Quem faz esse trabalho por eles?",
+    "resposta": "Microrganismos do intestino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Termite"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Termite",
+        "situacao": "ok",
+        "texto": "Termites are a group of eusocial insects which consume a variety of decaying plant material, generally in the form of wood, leaf litter, and soil humus. They are distinguished by their beaded (moniliform) antennae and the soft-bodied, unpigmented worker caste for which they have been commonly termed \"white ants\"; however, they are not ants but highly derived cockroaches; they are genetically close\n[…]\nMicrorder Icoisoptera Engel, 2013\n[…]\nSome species of termite practice fungiculture. They maintain a \"garden\" of specialised fungi of genus Termitomyces, which are nourished by the excrement of the insects. When the fungi are eaten, their spores pass undamaged through the intestines of the termites to complete the cycle by germinating in the fresh faecal pellets. Molecular evidence suggests that the family Macrotermitinae developed agriculture about 31 million years ago.\n[…]\nTermites can distinguish nestmates and non-nestmates through chemical communication and gut symbionts: chemicals consisting of hydrocarbons released from the cuticle allow the recognition of alien termite species. Each colony has its own distinct odour. This odour is a result of genetic and environmental factors such as the termites' diet and the composition of the bacteria within the termites' intestines.\n[…]\nTermite shield\n[…]\nKrishna, Kumar; Grimaldi, David A.; Krishna, Valerie; Engel, Michael S. (25 April 2013). \"Treatise on the Isoptera of the World: VOLUME 5 TERMITIDAE (PART TWO)\". Bulletin of the American Museum of Natural History. 377 (7): 1495–1989. doi:10.1206/377.5.\n[…]\nKrishna, Kumar; Grimaldi, David A.; Krishna, Valerie; Engel, Michael S. (25 April 2013). \"Treatise on the Isoptera of the World: VOLUME 6 TERMITIDAE (PART THREE), INCERTAE SEDIS, TAXA EXCLUDED FROM ISOPTERA\". Bulletin of the American Museum of Natural History. 377 (7): 1989–2433. doi:10.1206/377.6.\n[…]\nIsoptera: termites at CSIRO Australia Entomology"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Is%C3%B3pteros",
+        "situacao": "ok",
+        "texto": "Isópteros (Isoptera) é uma subordem a qual engloba os cupins, que são insetos eussociais (baratas sociais). São denominados termites ou cupins (no Brasil), térmite, térmita ou formiga-branca (em Portugal), salalé (em Angola) e muchém (em Moçambique).\n[…]\nCom cerca de 2 800 espécies catalogadas no mundo, esses insetos são notórios pelos prejuízos econômicos que causam como pragas de madeira e de outros materiais celulósicos, ou ainda como pragas agrícolas, apesar de apenas cerca de 10% das espécies conhecidas de cupim possuir estas características.\n[…]\nOs cupins são insetos hemimetábolos, com metamorfose gradual, aparelho bucal mastigador e ortopteroides. Muito vinha sendo discutido a respeito das relações internas dentro de Dictyoptera, inclusive se a ordem Isoptera deveria ou não continuar sendo utilizada, já que um gênero de baratas que vivem em madeira (Cryptocercus) é filogeneticamente mais próximo dos cupins do que das demais baratas.\n[…]\nDentre os Termitidae, alguns são comedores de madeira, de folhas, de húmus, e também cultivadores de fungo (e que não ocorrem no Brasil); muitos constroem ninhos grandes e complexos.\n[…]\nAlém das Blattabacterium, os cupins (com a única exceção dos Termitidae) possuem simbiose com flagelados do Filo Metamonada, mais especificamente dos clados Oxymonadida, Cristamonadea e Trichonymphea. Pesquisadores sugerem que essa relação simbiótica foi a origem da eussociabilidade dos cupins; uma vez que eles perdem os flagelados quando realizam ecdise, apenas por realizarem trofalaxia é que os recuperam, sendo assim necessário que o obtivessem de terceiros.\n[…]\nIntrodução ao estudo dos cupins. UnB.IB - Depto de Zoologia. Laboratório de Termitologia.\n[…]\n«Como Matar Cupins». Dicas de como matar e combater os cupins.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Cigarra-periódica",
+      "descricao": "Cigarras norte-americanas do gênero Magicicada, cujas ninfas emergem em massa em ciclos de treze ou dezessete anos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Certas cigarras norte-americanas saem da terra em massa a cada treze ou dezessete anos. Que propriedade matemática esses dois números têm em comum?",
+    "resposta": "São números primos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Periodical_cicadas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Periodical_cicadas",
+        "situacao": "ok",
+        "texto": "A periodical cicada is any of the seven species of the genus Magicicada of eastern North America, the 13- and 17-year cicadas. They are called \"periodical\" because nearly all individuals in a local population are developmentally synchronized and emerge in the same year. Although they are sometimes called \"locusts\", this is a misnomer, as cicadas belong to the taxonomic order Hemiptera (true bugs),\n[…]\nIn April 1800, Benjamin Banneker, who lived near Ellicott's Mills, Maryland, wrote in his record book that he recalled a \"great locust year\" in 1749, a second in 1766 during which the insects appeared to be \"full as numerous as the first\", and a third in 1783. He predicted that the insects (Brood X) \"may be expected again in they year 1800 which is Seventeen Since their third appearance to me\".\n[…]\nTen years afterwards, Benjamin Dann Walsh and Charles Valentine Riley authored a paper that the American Entomologist published in December 1868 which also reported the 13-year periodicity of the southern cicada broods. Walsh and Riley \"for convenience sake\", named the 13-year brood Cicada tredecim, in contradistinction to Cicada septemdecim, the 17-year brood.\n[…]\nWalsh's and Riley's paper, which Scientific American reprinted with some revisions in January 1869, illustrated the interior and exterior characteristics of the nymphs' emergence holes and raised turrets. Their articles, which did not cite Pharas' reports, were the first to describe the southern cicadas' 13-year periodicity that received widespread attention. Riley later acknowledged Pharas' work in an 1885 publication on periodical cicadas that he authored.\n[…]\nWikipedia Cicada page.\n[…]\nThe Periodical Cicada Page Informational page about periodical cicadas that supersedes www.magicicada.org. Has maps and 3-D models.\n[…]\nCicada Mania\n[…]\nInsectSingers.com Recordings of species-specific songs of many North American cicada species."
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Tatuzinho-de-jardim",
+      "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Apesar de viver na terra úmida dos jardins, o tatuzinho-de-jardim é parente mais próximo de qual destes animais?",
+    "resposta": "Camarão",
+    "distratores": [
+      "Besouro",
+      "Aranha",
+      "Lacraia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Woodlouse"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Woodlouse",
+        "situacao": "ok",
+        "texto": "Woodlice are terrestrial isopods in the suborder Oniscidea. Their name is derived from being often found in old wood, and from louse, a parasitic insect, although woodlice are neither parasitic nor insects. Other common names include slater, sow bug, and wood pig, common names varying widely by region.\n[…]\nPill bugs (woodlice of the families Armadillidiidae and Armadillidae) can be confused with Pill millipedes of the order Glomerida. Both of these groups of terrestrial segmented arthropods are about the same size. They live in very similar habitats, share a similar diet, and conglobate as a defence mechanism. Pill millipedes and pillbugs appear superficially similar to the naked eye. This is an example of convergent evolution.\n[…]\nWhile the uropods of pillbugs are relatively quite small, flipping a pill bug over will reveal the small uropod overlapping the pleotelson. Some woodlouse species, like the harmless zebra isopod Armadillidium maculatum, seem to display Batesian mimicry to certain pill millipedes like Glomeris marginata which secrete chemicals noxious to predators.\n[…]\nWoodlice have become a popular household pet for children as well as a hobby for invertebrate and insect enthusiasts or collectors. Porcellionidae (sowbugs) and Armadillidiidae (pillbugs) are seen often as they are the most common terrestrial isopods in Europe and North America.\n[…]\nSome isopod morphs are characterized by polygenic traits, such as 'Orange Vigor' (Armadillidium vulgare) and 'Pink Rubber Ducky' (Cubaris sp. \"Rubber Ducky\"), the result of selectively breeding isopods that best match the desired appearance. These genes can vary in their expression greatly, as they are not the result of a specific genetic mutation.\n[…]\nOniscidBase – a global, open database for terrestrial isopod (Oniscidea) research"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Oniscidea",
+        "situacao": "ok",
+        "texto": "Oniscidea é uma subordem da ordem Isopoda que agrupa as espécies de isópodes terrestres conhecidos pelos nomes comuns de bichos-de-conta,tatus-bolinhas, porquinhos-de-santo-antão, tatuzinhos, tatus-bolas, tatuzinhos-de-jardim, camarões-terrestres ou porcas-saras, os membros da subordem Oniscidea da ordem Isopoda.\n[…]\nA fauna de isópodos terrestres é ainda pouco conhecida na América do Sul. Há um número considerável de trabalho acerca destes organismos no Rio Grande do Sul.\n[…]\nProduzem feromônios de agregação nas células intestinais, expulsando-os juntamente com as fezes, de forma que podem ser percebidos por estruturais sensoriais das antenas. Estes feromônios, produzidos com maior intensidade em condições mais secas, levam os isópodes a aglomerarem-se em grupo, permanecendo nele, o que reduz a perda de água para o ambiente. Em ambientes úmidos e quentes, os isópodes terrestres aproveitam a evaporação para manter a temperatura corporal, refrigerando-se.\n[…]\nEm geral, alimentam-se no período noturno, preferencialmente de plantas novas. Somente quatro espécies podem danificar a agricultura: Armadillidium vulgare, Porcellio laevis, Porcellionides pruinosus e Benthana picta. Podem causar perdas de até 40% em pimentões, de até 70% em tomates e até 80% em feijoeiros. Também podem atacar ervilhas e outras hortaliças.\n[…]\nA taxa de crescimento é elevada durante os estágios iniciais dos isópodes terrestres, como forma de reduzir a taxa de mortalidade, que é muito alta nos primeiros dias de vida, mas que tende a reduzir-se conforme o tamanho corpóreo aumenta. O período de vida é de pouco mais de dois anos, apesar de que apenas 0,1% dos machos são mais velhos que um ano e apenas 1% das fêmeas atinge o segundo.\n[…]\nArmadillidiidae\n[…]\n«Site de divulgação da biologia e ecologia dos isópodos terrestres neotropicais»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Límulo",
+      "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Embora pareça um crustáceo, o caranguejo-ferradura pertence ao mesmo grande grupo de artrópodes de qual destes animais?",
+    "resposta": "Escorpião",
+    "distratores": [
+      "Lagosta",
+      "Siri",
+      "Camarão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Horseshoe_crab"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Horseshoe_crab",
+        "situacao": "ok",
+        "texto": "Horseshoe crabs are arthropods of the family Limulidae and the only surviving xiphosurans. Despite their name, they are not crabs or even crustaceans; they are chelicerates, more closely related to arachnids like spiders, ticks, and scorpions. The body of a horseshoe crab is divided into three main parts: the cephalothorax, abdomen, and telson. The largest of these, the cephalothorax, houses most \n[…]\nOnly four species of horseshoe crab are extant today, the Atlantic horseshoe crab (Limulus polyphemus), native to the eastern coasts of Mexico and the United States, as well as the mangrove horseshoe crab (Carcinoscorpius rotundicauda), tri-spine horseshoe crab (Tachypleus tridentatus) and Indo-Pacific horseshoe crab (Tachypleus gigas), which are native to South, South East, and East Asia.\n[…]\nLimulus polyphemus, the Atlantic or American horseshoe crab, found along the Atlantic coast of the United States and the Southeast Gulf of Mexico\n[…]\nThe blood of a horseshoe crab contains cells known as amebocytes. These play a similar role to the white blood cells of vertebrates in defending the organism against pathogens. Amebocytes from the blood of Limulus polyphemus are used to make Limulus amebocyte lysate (LAL), which is used for the detection of bacterial endotoxins in medical applications. There is a high demand for blood, the harvest of which involves collecting the animals, bleeding them, and then releasing them back into the sea.\n[…]\nAmgen and Abbott Laboratories announced in February 2026 that they were transitioning away from horseshoe crab blood for biomedical testing.\n[…]\nThe Horseshoe Crab - Detailed information about horseshoe crabs\n[…]\nScience Friday Video: horseshoe crab season\n[…]\nHorseshoe crab at the Smithsonian Ocean Portal\n[…]\nThe Horseshoe Crab – Medical Uses; The Ecological Research & Development Group (ERDG)\n[…]\nCrab Bleeders Article about the men who bleed horseshoe crabs for science."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Limul%C3%ADdeos",
+        "situacao": "ok",
+        "texto": "Limulídeos (Limulidae) são uma família de artrópodes da ordem Xiphosura, classe Merostomata, que inclui quatro espécies de caranguejos-ferradura, entre as quais Limulus polyphemus.\n[…]\nA família Limulidae inclui animais semelhantes a caranguejos, conhecidos pelo nome comum de \"caranguejos-ferradura\" por apresentarem carapaças cujo contorno se assemelha à ferradura de um cavalo e que recobrem todo o corpo, exceto a cauda.\n[…]\nLimulus (Otto Friedrich Müller, 1785)\n[…]\nLimulus polyphemus (nas águas da costa leste da América do Norte e da América Central)\n[…]\nOs límulos assemelham-se às espécies do género Triops, que são igualmente consideradas formas pancrónicas datando de mais de 200 milhões de anos atrás, porém menores e habitando águas doces.\n[…]\n\"The Horseshoe Crab\". Ecological Research & Development Group (ERDG)\n[…]\nHorseshoe crab history, biology, research and conservation of the species\n[…]\nScience Friday Video: horseshoe crab season\n[…]\nHorseshoe crab at the Smithsonian Ocean Portal\n[…]\nThe Horseshoe Crab – Medical Uses; The Ecological Research & Development Group (ERDG)\n[…]\nRedKnot.org links to shorebird recovery sites, movies, events & other info on Red Knot rufa & horseshoe crabs.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Tocandira",
+      "descricao": "Grande formiga amazônica (Paraponera clavata), conhecida como formiga-bala pela picada extremamente dolorosa."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que povo indígena da Amazônia usa luvas cheias de formigas-tocandira num ritual de passagem dos meninos para a vida adulta?",
+    "resposta": "Sateré-Mawé",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paraponera_clavata",
+      "https://en.wikipedia.org/wiki/Sater%C3%A9-Maw%C3%A9"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paraponera_clavata",
+        "situacao": "ok",
+        "texto": "Paraponera clavata, commonly known as the bullet ant, is a species of ant known for its extremely painful sting. It inhabits humid lowland rainforests in Central and South America.\n[…]\nIn Brazil, the Portuguese names given by locals include formiga cabo verde, formigão, or formigão-preto (big black ant); Native American–derived names include tocandira, and tocanquibira, from the Tupi–Guarani tuca-ndy, which translates to \"the one wounding deeply\". Other names by which it is called include chacha, cumanagata, munuri, siámña, and yolosa. In Costa Rica, P. clavata is known as bala, meaning \"bullet\". P.\n[…]\nThe Sateré-Mawé people of Brazil use intentional bullet ant stings as part of their initiation rites to become warriors or leaders. The ants are first rendered unconscious by submersion in a natural sedative, and then 80 of them are woven into gloves (which resemble large oven mitts) made of vines or leaves, stingers facing inward. When the ants regain consciousness, an initiator repeatedly blows smoke at the ants, with the objective of making them agitated and aggressive.\n[…]\nJandt, Jennifer; Larson, Hannah; Tellez, Peter; McGlynn, Terrence (December 2013). \"To drink or grasp? How bullet ants (Paraponera clavata) differentiate between sugars and proteins in liquids\". Naturwissenschaften. 100 (12): 1109–14. Bibcode:2013NW....100.1109J. doi:10.1007/s00114-013-1109-3. PMID 24193251. S2CID 18198729.\n[…]\nBrief article about Paraponera clavata Archived 2016-02-01 at the Wayback Machine\n[…]\nGiant tropical bullet ant, Paraponera clavata, natural history and captive management, article with images\n[…]\nParaponera clavata at AntWeb\n[…]\nPeterson STUNG by a BULLET ANT! on YouTube"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sater%C3%A9-Maw%C3%A9",
+        "situacao": "ok",
+        "texto": "The Mawé, also known as the Sateré or Sateré-Mawé, are an Indigenous people of Brazil living in the state of Amazonas. They have an estimated population of about 16,312 (Siasi/Sesai, 2020). The Sateré-Mawé were the first to domesticate and cultivate guaraná, a popular stimulant.\n[…]\nThe name \"Sateré-Mawé\" comes from Sateré, meaning \"caterpillar of fire\", and Mawé, meaning \"intelligent and curious Parrot\".\n[…]\nThe Sateré-Mawé people intentionally use bullet ant stings as part of their initiation rites to become a warrior. The ants are gathered from their homes by the men of the community, while the women and children gather cashew leaves. The ants are first rendered unconscious by submerging them in a natural sedative and then hundreds of them are woven into a glove made out of the cashew leaves (which resembles a large oven mitt), stinger facing inward.\n[…]\nAlvarez, Gabriel O. Pós-dradiviano: parentesco e ritual. : sistem de parentesco e rituais de afinabilidade os sateré-mawé. Série Antropologia (Brasília, Brazil), no.403. Brasília: Departamento de Antropologia, Universidade de Brasília, 2006.\n[…]\nGordon, Nick, Hildy Rubin, and Jessica Siegel. Gremlins Faces in the Forest. Nature video library. South Burlington, VT: WNET/Thirteen, 1998. (video - Satere Mawe customs involving marmosets)\n[…]\nLorenz, Sônia da Silva. Sateré-Mawé: os filhos do guaraná. Coleção Projetos, 1. São Paulo, SP, Brasil: Centro de Trabalho Indigenista, 1992.\n[…]\nSalzano F. M., T.A. Weimer, M.H.L.P. Franco, and M.H. Hutz. \"Demography and Genetics of the Sateré-Mawé and their Bearing on the Differentiation of the Tupi Tribes of South America.\" Journal of Human Evolution 14.7 (1985): 647-655. doi:10.1016/S0047-2484(85)80073-7\n[…]\nSateré-Mawé artwork, National Museum of the American Indian\n[…]\nSateré-Mawé Population, [1]"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Formiga-cabo-verde",
+        "situacao": "ok",
+        "texto": "A formiga Paraponera clavata é muito conhecida por seu tamanho gigante e sua picada severa. As operárias apresentam entre 18 a 25 mm, coloração avermelhada-escura, guardando diversas semelhanças com as vespas. Apresenta os mais variados nomes vernaculares, de acordo com a região: tocandira, tocanera, tocantera, tocainará, tocanguira, tocanquibira, saracutinga, tracutinga, tracuxinga, formigão, for\n[…]\nEm inglês, é conhecida como Bullet Ant (\"Formiga Bala\").\n[…]\n\"Tocandira\", \"tocanera\", \"tocantera\", \"tocanguira\" e \"tocanquibira\" vêm do tupi tukã'di, que significa \"fere muito\". \"Tracutinga\" e \"saracutinga\" vêm do tupi taraku'ting.\n[…]\nO gênero Paraponera F. Smith pertecence à recente subfamília Paraponerinae (antigamente pertencia à subfamília Ponerinae (Bolton 1994)), que contém uma única espécie: P. clavata. Já foi denominada Formica clavata Fabricius, 1775.\n[…]\nA ocorrência de P. clavata é Neotropical, ou seja, endêmica na costa do Atlântico, desde as florestas tropicais do sul da Nicarágua até a Amazônia; na Costa Rica, é encontrada em áreas elevadas com mais de 500 metros de altitude.\n[…]\nParaponera é eussocial, embora relativamente primitiva. A rainha é ligeiramente mais larga que as operárias (modificação para produção de ovos). As colônias maduras são pequenas e contém alguns milhares de formigas. As operárias apresentam tamanhos baseados na divisão de trabalho: as menores cuidam dos ovos e larvas e as maiores atuam como soldados protegendo o ninho, ou fazem os forrageios.\n[…]\nA picada da Formiga-cabo-verde é extremamente severa, tendo sido classificada por Justin Schmidt, um renomado entomologista americano, com um \"4.0\" em sua tabela de classificação de dor causada por insetos, que vai de 1.0 a 4.0. A dor sentida é descrita como \"estar andando sobre carvão em chamas com um prego enferrujado de 3 polegadas fincado no seu calcanhar\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Mariposa-caveira",
+      "descricao": "Mariposas do gênero Acherontia, como a Acherontia atropos, que têm no tórax um desenho parecido com uma caveira."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Num filme de suspense de 1991, um assassino deixa pupas da mariposa-caveira na garganta das vítimas. Que filme é esse?",
+    "resposta": "O Silêncio dos Inocentes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Acherontia_styx",
+      "https://en.wikipedia.org/wiki/Acherontia_atropos"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Acherontia_styx",
+        "situacao": "ok",
+        "texto": "Acherontia styx, the lesser death's head hawkmoth or bee robber, is a sphingid moth found in Asia, one of the three species of death's-head hawkmoth. It is very fond of honey, and beekeepers have reported finding dead moths in their hives as a result of bee stings. They can mimic the scent of bees so that they can enter a hive unharmed to get honey. Their tongue, which is stout and very strong, en\n[…]\nThis species is similar to the European A. atropos but differs in having two medial bands on the underside of the forewing, instead of one, and usually no dark bands across the ventral surface of the abdomen. The skull-like marking is darker and there is a faint blue tornal dot enclosed by a black submarginal band on the hindwing upperside. The forewing discal spot (stigma) is orange; in A. atropos it is usually white.\n[…]\nHead brown; thorax dark blue-grey, with black lateral lines which meet behind; the center of the thorax occupied by a fulvous skull-mark with two black eyes; abdomen yellow, with blackish segmental bands and a blue-grey stripe down the vertex. Fore wing mottled with various shades of brown, fulvous and grey; three indistinct antemedial lines; a pale spot in the end of cell; two lunulate curved postmedial lines.\n[…]\nHind wing yellow with a postmedial black band not reaching the costa or anal angle; a similar submarginal maculate band. Differes from A. atropos in having two medial bands on the underside of the fore wing instead of one, and no bands on the underside of abdomen. Larva green, with oblique lateral yellow streaks on somites 4-10.\n[…]\natropos except that the dark blue dorsal speckling is more pronounced on the anterior half of each abdominal segment, and the tail horn is less curved and lacks a reflexed tip. Pupation occurs in an underground chamber, excavated less than 10 cm below the surface of the soil.\n[…]\nSound recording of Acherontia styx at BioAcoustica"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Acherontia_atropos",
+        "situacao": "ok",
+        "texto": "Acherontia atropos, the African death's-head hawkmoth, is the most widely recognized of three species within the genus Acherontia (the other two being Acherontia lachesis and Acherontia styx). It is most commonly identified by the vaguely skull-shaped pattern adorning the thorax, the characteristic from which its common and scientific names are derived. The species was first given its scientific n\n[…]\nA. atropos appears in popular fiction and media, including The Silence of the Lambs (1991), Dracula (1958), and The Blood Beast Terror (1967).\n[…]\nThe African death's-head hawkmoth (Acherontia atropos) is a large hawk moth, the largest moth in the British Isles and several other regions it inhabits, with a wingspan of 5 in (13 cm) (or 80–120 mm); it is a powerful flier, having sometimes been found on ships far from land. The forewings are a mottled dark brown and pale brown, and the hind wings are orangey-buff with two narrow dark bands parallel with the hind margin. The abdomen is a similar orangey-brown, with a broad, dark dorsal stripe.\n[…]\nAcherontia atropos receives both its species and genus names from bodies relating to death or dark subjects.\n[…]\nIt appeared in The Hireling Shepherd, in Bram Stoker's Dracula and in films such as Un Chien Andalou and the promotional marquee posters for The Silence of the Lambs. In the latter film, the moth is used as a calling card by the serial killer Buffalo Bill, and though the movie script refers to Acherontia styx, the moths that appear in the film are Acherontia atropos. This moth is referred to in The Mothman Prophecies.\n[…]\nIn José Saramago's novel Death with Interruptions, Acherontia atropos appears on the American edition's cover, and is a topic that two characters mull over.\n[…]\n\"69.005 BF1973 Death's-head Hawk-moth Acherontia atropos (Linnaeus, 1758)\". UKMoths.\n[…]\nSound recording of Acherontia atropos at BioAcoustica"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Fungo-zumbi",
+      "descricao": "Fungo parasita (Ophiocordyceps unilateralis) que controla o comportamento de formigas antes de matá-las."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que franquia de jogos eletrônicos, depois adaptada para série de TV, se inspirou no fungo que transforma formigas em zumbis?",
+    "resposta": "The Last of Us",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis",
+      "https://en.wikipedia.org/wiki/The_Last_of_Us"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis",
+        "situacao": "ok",
+        "texto": "Ophiocordyceps unilateralis, commonly known as zombie-ant fungus, is an insect-pathogenic fungus, discovered by the British naturalist Alfred Russel Wallace in 1859. Zombie ants, infected by the Ophiocordyceps unilateralis fungus, are predominantly found in tropical rainforests.\n[…]\nAfter years of research, the taxonomy of Ophiocordyceps unilateralis is becoming increasingly clear.\n[…]\nThe genus Cordyceps comprises over 400 species, historically classified in the family Clavicipitaceae within the order Hypocreales. The classification was based on different morphological characteristics such as filiform ascospores and cylindrical asci. sister group with Tolypocladium, into Ophiocordycipitaceae. Fungi able to parasitize ants were also included in the transfer, such as Cordyceps unilateralis which was later renamed Ophiocordyceps unilateralis.\n[…]\nIn the video game series The Last of Us, Ophiocordyceps unilateralis has evolved to infect humans, thus creating  zombie-like enemies in the game. Also, in episode two of the 2023 television series The Last of Us on HBO Max, Ophiocordyceps unilateralis is revealed to be the primary cause of the infected outbreak and subsequent collapse of human civilization.\n[…]\nIn the 2014 novel The Girl with All the Gifts, its 2016 film adaptation and its prequel novel entitled The Boy on the Bridge, all written by M. R. Carey, a strain of Ophiocordyceps unilateralis is similarly able to infect the human population through exchange of bodily fluids, leading to an apocalyptic world inhabited by zombie-like \"hungries\" who attack non-infected.\n[…]\nThe creatures in the 2021 South African horror film Gaia are also inspired by Ophiocordyceps unilateralis.\n[…]\nOphiocordyceps unilateralis at UniProt.org. Accessed on 2010-08-22."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Last_of_Us",
+        "situacao": "ok",
+        "texto": "The Last of Us is an action-adventure video game series and media franchise created by Naughty Dog and published by Sony Interactive Entertainment. The series is set in a post-apocalyptic United States ravaged by cannibalistic humans infected by a mutated fungus in the genus Cordyceps.\n[…]\nOn March 6, 2014, Sony announced Screen Gems would distribute a film adaptation of The Last of Us, written by Druckmann and produced by Sam Raimi. By January 2015, Druckmann had written the script's second draft, and performed a read-through with some actors. In April 2016, Druckmann stated the film had entered development hell; in November, Raimi said the film was at a standstill after Sony had a disagreement with Druckmann. The rights had relinquished by 2019.\n[…]\nIn January 2020, images surfaced of an animated short film adaptation of The Last of Us by production agency Oddfellows. The 20-minute film was intended to \"serve as a strong bridge\" between the game and its sequel and would \"reinterpret each of the chapters of the game with a unique visual treatment\" but was canceled by Sony.\n[…]\nThe cast's performances received widespread acclaim, with critics singling out Pascal and Ramsey's chemistry. Critics felt the second season reinforced The Last of Us as the best video game adaptation; The deeper themes and more complex characters were praised, though some reviewers found the quicker pace detrimental and the narrative unsatisfyingly incomplete.\n[…]\nThe Last of Us is the first live-action video game adaptation to receive major awards consideration. The first season received 24 nominations at the 75th Primetime Emmy Awards, with a leading eight wins at the Creative Arts Emmy Awards, while the second season earned 17 nominations at the 77th Primetime Emmy Awards."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ophiocordyceps_unilateralis",
+        "situacao": "ok",
+        "texto": "Ophiocordyceps unilateralis, comumente conhecido como fungo zumbi de formiga, é um fungo patogênico de insetos, descoberto pelo naturalista britânico Alfred Russel Wallace em 1859. Formigas infectadas pelo fungo Ophiocordyceps unilateralis, conhecidas como \"formigas zumbis\", são encontradas predominantemente em florestas tropicais.\n[…]\nMuitos estudos descrevem a distribuição de Ophiocordyceps unilateralis como pantropical, uma vez que ocorre principalmente em ecossistemas de florestas tropicais. No entanto, existem alguns relatos do fungo formiga zumbi em ecossistemas temperados quentes.\n[…]\nNa série de videogames The Last of Us, Ophiocordyceps unilateralis evoluiu para infectar humanos, criando inimigos semelhantes a zumbis no jogo. Além disso, no episódio dois da série de televisão de 2023 The Last of Us na HBO Max, Ophiocordyceps unilateralis é revelado como a causa primária do surto de infecção e do subsequente colapso da civilização humana.\n[…]\nNo romance de 2014 The Girl with All the Gifts, sua adaptação cinematográfica de 2016 e seu romance prequela intitulado The Boy on the Bridge, todos escritos por MR Carey, uma cepa de Ophiocordyceps unilateralis é similarmente capaz de infectar a população humana por meio da troca de fluidos corporais, levando a um mundo apocalíptico habitado por \"famintos\" semelhantes a zumbis que atacam os não infectados.\n[…]\nO videogame Cult of the Lamb apresenta um personagem formiga chamado Sozo, que supostamente está sob a influência de um fungo parasita de natureza semelhante ao Ophiocordyceps unilateralis. Um cogumelo cresce em sua cabeça, fazendo com que ele aja de forma errática e fique obcecado por cogumelos alucinógenos. Ao retornar ao seu covil após completar sua missão, o jogador o encontra morto no chão, com o fungo em sua cabeça dividido em dois para espalhar seus esporos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Escaravelho-sagrado",
+      "descricao": "Besouro rola-bosta (Scarabaeus sacer) venerado no Antigo Egito."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Os antigos egípcios viam o escaravelho empurrando sua bola de esterco como símbolo de qual astro?",
+    "resposta": "Sol",
+    "distratores": [
+      "Lua",
+      "Vênus",
+      "Sírius"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Khepri",
+      "https://en.wikipedia.org/wiki/Scarabaeus_sacer"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Khepri",
+        "situacao": "ok",
+        "texto": "Khepri (Egyptian: ḫprj, also transliterated Khepera, Kheper, Khepra, Chepri) is a scarab-faced god in ancient Egyptian religion who represents the rising or morning sun. By extension, he can also represent creation and the renewal of life.\n[…]\nThese scarab idols, whether they were made of faience, an amalgamated material composed of common minerals like quartz and alkaline salts that was cheap to produce, or turquoise, a rare and highly sought after stone, were often colored blue, which signifies that the color might have been significant in its relation to the gods.\n[…]\nWhile it is impossible to assume that the blue scarabs depicted in Egyptian art were meant to represent both Khepri and the traits of the color, the correlation between the divine symbolism of the beetle and meaning of the color blue is unlikely to be a mere coincidence.\n[…]\nKhepri was a solar deity and thus connected to the rising sun and the mythical creation of the world. The god and the scarab beetle represented creation and rebirth. There was no cult devoted to Khepri, as he was seen as a manifestation of the more prominent solar deity Ra. The scarab god was however included in the creationist theory of Heliopolis and later Thebes.\n[…]\nMummified scarab beetles and scarab amulets have been found in pre-dynastic graves, suggesting that Khepri was revered early on in the history of Ancient Egypt.\n[…]\nKhepri was depicted as either a scarab holding aloft the sun disk or as a human male with a scarab for a head. The scarab amulets that the Egyptians used as jewelry and as seals allude to Khepri and the newborn sun. The beetle carvings became so common that excavators have found them throughout the Mediterranean."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Scarabaeus_sacer",
+        "situacao": "ok",
+        "texto": "Scarabaeus sacer, common name sacred scarab, is the type species of the genus Scarabaeus and the family Scarabaeidae. This dung beetle is native to southern Europe, North Africa, West Asia, and was venerated in ancient Egypt.\n[…]\nScarabaeus sacer is a robust, all-black beetle where adults are 1.9–4.0 cm (0.7–1.6 in) long. The head has a distinctive array of six projections, resembling rays. The projections are uniform with four more projections on each of the tibiae of the front legs, creating an arc of 14 \"rays\" (see illustration). Functionally, the projections are adaptations for digging and for shaping the ball of dung.\n[…]\nLike the front legs of other beetles of its genus, but unlike those of dung beetles in most other genera, the front legs of S. sacer are unusual; they do not end in any recognisable tarsi, the foot that bears the claws. There is only a vestigial claw-like structure that might be of some assistance in digging. The mid- and hindlegs of Scarabaeus have normal, well-developed, five-segmented tarsi, but the front legs are specialised for excavation and for forming balls of dung.\n[…]\nScarabaeus sacer serves as the host for the phoretic mite Macrocheles saceri.\n[…]\nScarabaeus sacer is the most famous of the scarab beetles. To the Ancient Egyptians, S. sacer was a symbol of Khepri, the early morning manifestation of the sun god Ra, from an analogy between the beetle's behaviour of rolling a ball of dung across the ground and Khepri's task of rolling the sun across the sky. They accordingly held the species to be sacred.\n[…]\nScarabaeus sacer was the species which first piqued the interest of William Sharp Macleay and drew him into a career in entomology.\n[…]\nMedia related to Scarabaeus sacer at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quepri",
+        "situacao": "ok",
+        "texto": "Na mitologia egípcia, Quepri (também Kheper, Khepera, Khepra, Khepre, Khepere) é uma divindade principal. Quepri é associado com a imagem do escaravelho, cujo comportamento de ficar carregando bolas de estrume é comparado às forças que fazem mover o Sol.\n[…]\nQuepri gradualmente veio a ser considerado como uma encarnação do próprio Sol, e por isso tornou-se uma das formas do Deus do Sol. Segundo a Religião Egípcia, ele era responsável por \"rolar\" o sol para fora do Duat no final da sua jornada, também representava o renascimento diário de Rá.\n[…]\nComo o escaravelho rola-bosta deixa os ovos nos corpos mortos de vários animais, incluindo outros escaravelhos, e no esterco, daí emergindo para o nascimento, os antigos egípcios acreditavam que os escaravelhos estavam carregados da substância da morte. Por isso, associavam ainda Quepri ao renascimento (ou reencarnação), renovação e ressurreição. De facto, o símbolo do escaravelho Quepri em egípcio antigo significa tornar-se.\n[…]\nQuepri foi principalmente esculpido e pintado como um escaravelho, não obstante em alguns papiros funerários ser representado como um homem com a cabeça de escaravelho. Ele também foi representado como um escaravelho numa barca solar segurada por Num. Quando representado como um escaravelho, ele era normalmente posto a empurrar o sol através do céu durante o dia, bem como a empurrá-lo em segurança durante a noite, na passagem do Sol pelo submundo.\n[…]\nEm Trono de Fogo, o segundo livro da série As Crônicas dos Kane, de Rick Riordan, Quepri, na forma de um escaravelho, é uma das três formas em que Rá se dividiu, quando se retirou para dormir.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Vespa-de-papel",
+      "descricao": "Vespas sociais, como as do gênero Polistes, que constroem ninhos de material parecido com papel."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o ninho das vespas-de-papel tem em comum com o papel que usamos para escrever?",
+    "resposta": "Ambos são feitos de fibras de madeira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paper_wasp"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paper_wasp",
+        "situacao": "ok",
+        "texto": "Paper wasps are a type of social vespid wasps. The term is typically used to refer to members of the vespid subfamily Polistinae, though it often colloquially includes members of the subfamilies Vespinae (hornets and yellowjackets) and Stenogastrinae, which also make nests out of paper.\n[…]\nApproximately 300 species of Polistes paper wasps have been identified worldwide. The most common paper wasp in Europe is Polistes dominula. The Old World tribe Ropalidiini contains another 300 species, and the Neotropical tribes Epiponini and Mischocyttarini each contain over 250 more, so the total number of true paper wasps worldwide is about 1100 species, almost half of which can be found in the neotropics.\n[…]\nThree species of Polistes are obligate social parasites, and have lost the ability to build their own nests, and are sometimes referred to as \"cuckoo paper wasps\". They rely on the nests of their hosts to raise their brood. A few hornets and yellowjackets are also brood parasites (e.g., Vespula austriaca).\n[…]\nUnlike yellowjackets and hornets, which can be very aggressive, polistine paper wasps will generally only attack if they themselves or their nest are threatened. Their territoriality can lead to attacks on people, and their stings are quite painful and – like all venomous animals – can produce a potentially fatal anaphylactic reaction in some individuals.\n[…]\nA study conducted on European paper wasps (Polistes dominula) concluded that wasps with brighter aposematic colors are more venomous, because they have larger venom glands, and offer a stronger warning signal to organisms threatening the nest.\n[…]\nPolistes\n[…]\nPolistinae"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Cigarra",
+      "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O canto da cigarra macho não vem das asas nem da boca. Que estruturas do abdômen ele faz vibrar para cantar?",
+    "resposta": "Tímbalos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cicada"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cicada",
+        "situacao": "ok",
+        "texto": "The cicadas () are a superfamily, the Cicadoidea, of insects in the order Hemiptera (true bugs). They are in the suborder Auchenorrhyncha, along with smaller jumping bugs such as leafhoppers and froghoppers. The superfamily is divided into two families, the Tettigarctidae, with two species in Australia, and the Cicadidae, with more than 3,000 species described from around the world; many species r\n[…]\nThe superfamily Cicadoidea is a sister of the Cercopoidea (the froghoppers). Cicadas are arranged into two families: the Tettigarctidae and Cicadidae. The two extant species of the Tettigarctidae include one in southern Australia and the other in Tasmania. The family Cicadidae is subdivided into the subfamilies Cicadettinae, Cicadinae, Derotettiginae, Tibicininae (or Tettigadinae), and Tettigomyiinae, and they are found on all continents except Antarctica.\n[…]\nThe male abdomen in some species is largely hollow, and acts as a sound box. By rapidly vibrating these membranes, a cicada combines the clicks into apparently continuous notes, and enlarged chambers derived from the tracheae serve as resonating chambers with which it amplifies the sound. The cicada also modulates the song by positioning its abdomen toward or away from the substrate (their perch).\n[…]\nCicadas are featured in the protest song \"Como La Cigarra\" (\"Like the Cicada\") written by Argentinian poet and composer María Elena Walsh. In the song, the cicada is a symbol of survival and defiance against death. The song was recorded by Mercedes Sosa, among other Latin American musicians.\n[…]\nIn North America and Mexico, there is a well-known song, \"La Cigarra\" (\"The Cicada\"), written by Raymundo Perez Soto, which is a song in the Mariachi tradition, that romanticises the insect as a creature that sings until it dies.\n[…]\nDrMetcalf: a resource on cicadas, leafhoppers, planthoppers, spittlebugs, and treehoppers"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cigarra",
+        "situacao": "ok",
+        "texto": "Cicadidae é uma família da ordem Hemiptera, subordem Homoptera, que agrupa os insetos conhecidos pelos nomes comuns de  cigarra e cega-rega. Existem mais de 1 500 espécies conhecidas deste insetos (sendo que a Carineta fasciculata pode ser considerada como a espécie-tipo brasileira). São notáveis devido à cantoria entoada pelos machos, diferente em cada espécie e que é ouvida no período quente do \n[…]\nA superfície da asa anterior é superhidrofóbica, coberta por minúsculos cones cerosos que repelem a água e prendem partículas de sujeira, removidas quando a chuva escorre. Na ausência de chuva, o orvalho condensa-se nessas estruturas; ao coalescerem, gotículas impulsionam a cigarra a saltar alguns milímetros, ajudando também na limpeza das asas.\n[…]\nO “canto” dos machos é produzido principalmente pelos tímbalos, um par de estruturas em cada lado da região anterior do abdome. Esses tímbalos se contorcem por ação muscular e, feitos de resilina, desabam rapidamente ao relaxar, gerando o som característico. Algumas espécies também estridulam — esfregam as asas contra cristas no tórax — às vezes em conjunto com os tímbalos. Em Subpsaltria yangi, tanto machos quanto fêmeas estridulam.\n[…]\nEm algumas espécies, o abdome oco atua como caixa de ressonância. Ao vibrar rapidamente as membranas, a cigarra funde os estalos em notas contínuas e amplia o som nas câmaras derivadas das traqueias. O macho também direciona o abdome em relação ao substrato para modular o volume. Cada espécie tem padrão próprio de combinação de cliques, garantindo atração apenas de parceiros adequados.\n[…]\nAs tettigarctídeas, cicadas peludas primitivas, têm tímbalos rudimentares em ambos os sexos e produzem vibrações no tronco em vez de sons aéreos, representando o estado ancestral da comunicação nas cigarras.\n[…]\nCigarrinha-verde (Empoasca kraemeri)\n[…]\nCigarrinhas-das-pastagens (Deois schach)\n[…]\nCigarrinhas-das-pastagens (Tomaspia sp.)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Hemocianina",
+      "descricao": "Proteína que transporta oxigênio no sangue de muitos moluscos e artrópodes, como lagostas, caranguejos e aranhas."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O sangue de lagostas e caranguejos fica azulado porque a molécula que transporta oxigênio contém qual metal?",
+    "resposta": "Cobre",
+    "distratores": [
+      "Ferro",
+      "Zinco",
+      "Magnésio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hemocyanin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hemocyanin",
+        "situacao": "ok",
+        "texto": "Hemocyanins (also spelled haemocyanins and abbreviated Hc) are  proteins that transport oxygen throughout the bodies of some invertebrate animals. These metalloproteins contain two copper atoms that reversibly bind a single oxygen molecule (O2). They are second only to hemoglobin in frequency of use as an oxygen transport molecule. Unlike the hemoglobin in red blood cells found in vertebrates, hem\n[…]\nIt has been noted that species using hemocyanin for oxygen transportation include crustaceans living in cold environments with low oxygen pressure. Under these circumstances hemoglobin oxygen transportation is less efficient than hemocyanin oxygen transportation. Nevertheless, there are also terrestrial arthropods using hemocyanin, notably spiders and scorpions, that live in warm climates. The molecule is conformationally stable and fully functioning at temperatures up to 90 degrees C.\n[…]\nMost hemocyanins bind with oxygen non-cooperatively and are roughly one-fourth as efficient as hemoglobin at transporting oxygen per amount of blood. Hemoglobin binds oxygen cooperatively due to steric conformation changes in the protein complex, which increases hemoglobin's affinity for oxygen when partially oxygenated. In some hemocyanins of horseshoe crabs and some other species of arthropods, cooperative binding is observed, with Hill coefficients of 1.6–3.0.\n[…]\nHemocyanin is made of many individual subunit proteins, each of which contains two copper atoms and can bind one oxygen molecule (O2). Each subunit weighs about 75 kilodaltons (kDa). Subunits may be arranged in dimers or hexamers depending on species; the dimer or hexamer complex is likewise arranged in chains or clusters with weights exceeding 1500 kDa. The subunits are usually homogeneous, or heterogeneous with two variant subunit types.\n[…]\n3D hemocyanin structures in the EM Data Bank (EMDB)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hemocianina",
+        "situacao": "ok",
+        "texto": "Em zoologia, chama-se hemocianina as proteínas do sangue de muitos artrópodes (aracnídeos), (crustáceos), e Moluscos que servem para as trocas gasosas na respiração. O sangue com este pigmento é normalmente denominado hemolinfa. Uma das diferenças da hemoglobina dos vertebrados para a hemocianina é o fato de esta ser um pigmento azulado, pois em vez de ferro, possui cobre em seu princípio ativo, e\n[…]\nA presença de cobre em moluscos foi descoberta em 1833 por Bartolomeu Bizio, um químico de Veneza, que ficou surpreso ao encontrar cobre no lugar de ferro no sangue de gastrópodes marinhos da família Muricidae enquanto estudava um pigmento roxo Púrpura tíria que havia isolado desses animais, apesar de muitos terem ficado céticos dessa afirmação, já que o cobre era conhecido por ser tóxico à vários seres vivos.\n[…]\nQuando em 1847 Emil Harless testou e verificou a presença de cobre e nenhum ferro nos sangues e figados de diversos moluscos.\n[…]\nEm 1867 Paul Bert, percebeu que o sangue do choco (Cefalópode) ficava azul quando oxigenado e incolor quando não, posteriormente em 1878 Léon Fredericq ao isolar o pigmento azulado do sangue do polvo-comum identificou que se tratava de uma proteína que leva o oxygênio para os tecidos.\n[…]\nApesar da semelhança de sua função com a hemoglobina, existem várias distinções a entre a hemocianina e a hemoglobina e ainda entre a hemocianina de artópodes e a hemocianina de [molusco]]s, enquanto as hemoglobinas carregam átomos de ferro nos seus anéis proteicos (hemo) a hemocianina carrega átomos de cobre em cofatores coordenados por residuos de histidina.\n[…]\nHá muito tempo se sabe que a hemocianina produzida por artrópodes é estruturalmente muito distinta daquela produzida por moluscos, sugerindo se tratar de um caso de evolução convergente.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Caracol-de-jardim",
+      "descricao": "Caracol terrestre europeu (Cornu aspersum), comum em jardins e usado como escargot."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Antes de acasalar, muitos caracóis de jardim espetam no parceiro uma pequena lança de calcário. Que nome romântico ela recebe?",
+    "resposta": "Dardo do amor",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Love_dart"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Love_dart",
+        "situacao": "ok",
+        "texto": "A love dart (also known as a gypsobelum, shooting darts, or just as darts) is a sharp, calcareous or chitinous dart which some hermaphroditic land snails and slugs create. Love darts are both formed and stored internally in a dart sac. These darts are made in sexually mature animals only, and are used as part of the sequence of events during courtship, before actual mating takes place.\n[…]\nMating begins with a courting ritual. For example, in land snails of the genus Helix, including the escargot Helix pomatia, and the common garden snail Helix aspersa (also known as Cornu aspersum and Cantareus aspersus), copulation is preceded by an elaborate tactile courtship.\n[…]\nThe dart is shot with some variation in force, and with considerable inaccuracy, such that one-third of the darts that are fired in Cornu aspersum either fail to penetrate the skin, or miss the target altogether. Snails have only very simple visual systems and cannot see well enough to use vision to help aim the darts.\n[…]\nA close look into the behavior of Cornu aspersum shows that this is achieved not by the mechanical action of the dart as it penetrates the recipient's skin, but by the mucus that coats the dart: The mucus carries an allohormone that is transferred into the recipient's hemolymph when the dart is inserted, which reconfigures the recipient's reproductive system: the bursa copulatrix (sperm digestion organ) becomes closed off, and the copulatory canal (leading to the sperm storage) is opened.\n[…]\nMalacologist (mollusk expert) Ronald Chase of McGill University said about the garden snail Cornu aspersum, \"I believe the myth of Cupid and his arrows has its basis in this snail species, which is native to Greece\". He added, \"The Greeks probably knew about this behavior because they were pretty good naturalists and observers.\""
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Dardo_%28malacologia%29",
+        "situacao": "ok",
+        "texto": "Dardo, dardo de amor ou gipsóbelo (em latim telum amoris ou gypsobelum) é a designação dada em malacologia a um pequeno estilete em forma de dardo, constituído por carbonato de cálcio ou quitina, que é produzido por algumas espécies de gastrópodes terrestres hermafroditas como parte do seu aparelho reprodutor.\n[…]\nImediatamente antes da cópula o dardo é inserido, por contacto e pressão, na carne do parceiro, contribuindo para o tornar mais receptivo ao esperma, pois o doador usa o dardo para injectar no receptor uma mucusidade contendo hormonas que estimulam os órgãos genitais femininos.\n[…]\nJosé L Díaz; Julio C Aguirre; Gregory Mejía S,; Eduardo Martínez G, \"Reproducción y genética del Caracol Terrestre Helix aspersa\"[ligação inativa]",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Carmim",
+      "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O corante vermelho carmim, usado em iogurtes, doces e batons, é extraído de qual inseto que vive em cactos?",
+    "resposta": "Cochonilha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carmine",
+      "https://en.wikipedia.org/wiki/Cochineal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Carmine",
+        "situacao": "ok",
+        "texto": "Carmine () – also called cochineal (when it is extracted from the cochineal insect), cochineal extract, crimson lake, or carmine lake –  is a pigment of a bright-red color obtained from the aluminium complex derived from carminic acid. Specific code names for the pigment include natural red 4, C.I. 75470, or E120. Carmine is also a general term for a particularly deep-red color.\n[…]\nCochineal, the insect used to make carmine, also has medical properties that were exploited by the Aztecs. It is said to help cure wounds when mixed with vinegar and applied to lesions. Aztecs used it to clean teeth.\n[…]\nThe EU-Directive 2000/13/EC on food labeling mandates that carmines (like all food additives) must be included in the list of ingredients of a food product with its additive category and listed name or additive number, that is either as Food colour carmines or as Food colour E 120 in the local language(s) of the market(s) the product is sold in.\n[…]\nAs of January 2012, the European Food Safety Authority (EFSA) has changed the way they allow use of Carmine E120 for pharmaceutical products. EFSA had raised concerns over the increasing number of allergic reactions to carmine derived from insects (E120.360), when used within the British Pharmacopoeia. Pharmaceutical products which had previously contained insect-derived carmine, have been replaced with a synthesized version of the food colorant.\n[…]\nSchweppe, Helmut; Roosen-Runge, Heinz (1986). \"Carmine—Cochineal Carmine and Kermes Carmine\". In Feller, Robert L. (ed.). Artists' Pigments: A Handbook of Their History and Characteristics (PDF). Vol. 1. National Gallery of Art. pp. 255–283. ISBN 978-0-521-30374-3.\n[…]\nThis article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). \"Carmine\". Encyclopædia Britannica (11th ed.). Cambridge University Press."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Cochineal",
+        "situacao": "ok",
+        "texto": "The cochineal ( KOTCH-in-EEL, -⁠eel, US also  KOH-chin-EEL, -⁠eel; Dactylopius coccus) is a scale insect in the suborder Sternorrhyncha, from which the natural dye carmine is derived. A primarily sessile parasite native to tropical and subtropical South America through North America (Mexico and the Southwest United States), this insect lives on cacti in the genus Opuntia, feeding on plant moisture\n[…]\nThe insect produces carminic acid that deters predation by other insects. Carminic acid, typically 17–24% of dried insects' weight, can be extracted from the body and eggs, then mixed with aluminium or calcium salts to make carmine dye, also known as cochineal. Today, carmine is primarily used as a colorant in food and in lipstick (E120 or Natural Red 4).\n[…]\nAs a result, carmine's use as a pigment was discouraged: its primary use was as a dye rather than in paints.\n[…]\nIn spite of the widespread use of carmine-based dyes in food and cosmetic products, a small number of people have been found to experience occupational asthma, food allergy and cosmetic allergies (such as allergic rhinitis and cheilitis), IgE-mediated respiratory hypersensitivity, and in rare cases anaphylactic shock.\n[…]\nIn 2009, the FDA ruled that labels of cosmetics and food that include cochineal extract must include that information on their labels (under the name \"cochineal extract\" or \"carmine\"). In 2006, the FDA stated it found no evidence of a \"significant hazard\" to the general population. In the EU, authorities list carmine as additive E 120 in the list of EU-approved food additives. An artificial, non-allergenic cochineal dye is labeled E 124.\n[…]\nGreig, J. B. \"Cochineal extract, carmine, and carminic acid\". WHO food additive series 46. Retrieved June 2, 2007."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carmim",
+        "situacao": "ok",
+        "texto": "Carmim é uma substância corante, vermelho vivo, extraída da cochonilha-do-carmim (Dactylopius coccus, parente do pulgão). Por extensão, carmim é também considerada uma cor, muito próxima ao magenta.\n[…]\nEm química, o termo se refere à substância C14H7NaO7S, utilizada como indicador ácido-base, como corante em alimentos, em fármacos, cosméticos etc.\n[…]\nOrganizações de defesa dos direitos animais têm criticado a prática de obtenção do corante a partir do inseto cochonilha. Tais grupos alegam que é antiética e cruel a morte de milhões de seres vivos para uma finalidade fútil, segundo eles, já que para se conseguir cerca de meio quilo do corante são necessários cerca de setenta mil insetos. Os veganos frequentemente realizam campanhas para divulgar o processo de fabricação do corante carmim, além de promover o boicote aos produtos que o contêm.\n[…]\nO cantor Wando menciona carmim na música Fogo e paixão; provavelmente se referindo a menstruação: «Me suja de carmim, me põe na boca o mel, louca de amor me chama de seu» (ou: «de céu»).[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Grilo",
+      "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O grilo não tem ouvidos na cabeça. Em que parte do corpo ficam seus órgãos de audição?",
+    "resposta": "Nas patas dianteiras",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cricket_(insect)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cricket_(insect)",
+        "situacao": "ok",
+        "texto": "Crickets are orthopteran insects which are related to bush crickets and, more distantly, to grasshoppers. In older literature, such as Imms, \"crickets\" were placed at the family level (i.e. Gryllidae), but contemporary authorities including Otte now place them in the superfamily Grylloidea. The word has been used in combination to describe more distantly related taxa in the suborder Ensifera, such\n[…]\nThe largest members of the family are the 5 cm (2 in)-long bull crickets (Brachytrupes) which excavate burrows a metre or more deep. The tree crickets (Oecanthinae) are delicate white or pale green insects with transparent fore wings, while the field crickets (Gryllinae) are robust brown or black insects.\n[…]\nThe phylogenetic relationships of the Gryllidae, summarized by Darryl Gwynne in 1995 from his own work (using mainly anatomical characteristics) and that of earlier authors, are shown in the following cladogram, with the Orthoptera divided into two main groups, Ensifera (crickets sensu lato) and Caelifera (grasshoppers). Fossil Ensifera are found from the late Carboniferous period (300 Mya) onwards, and the true crickets, Gryllidae, from the Triassic period (250 to 200 Mya).\n[…]\nThe authors stated that \"a high degree of conflict exists between the molecular and morphological data, possibly indicating that much homoplasy is present in Ensifera, particularly in acoustic structures.\" They considered that tegmen stridulation and tibial tympanae are ancestral to Ensifera and have been lost on multiple occasions, especially within the Gryllidae.\n[…]\nGryllidae – \"true crickets\";\n[…]\nother families in the infraorder Gryllidea previously have been included:\n[…]\nMedia related to Gryllidae at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grilo",
+        "situacao": "ok",
+        "texto": "Grilo (do latim grillus) são insetos relacionados aos gafanhotos, e mais intimamente relacionados com gafanhotos verdes e grilos do mato (família Tettigoniidae) e wetas (famílias Anostostomatidae e Rhaphidophoridae). Eles têm seu corpo um pouco achatado e longas antenas. Existem cerca de 900 espécies de grilos. Eles tendem a ser noturnos e são frequentemente confundidos com gafanhotos porque possu\n[…]\npara o grilo, também são um ótimo alimento.\n[…]\nEm algumas culturas os grilos são tomados como animais de estimação. Na China, o pouso de um grilo em uma pessoa significa muita sorte, e em várias partes do mundo eles são consumidos como alimento.\n[…]\nSubfamílias da família Gryllidae:\n[…]\nGryllinae — grilo comum ou do campo; castanho ou preto; alguns deles, apesar do nome, frequentam casas, como por exemplo o grilo-doméstico (Acheta domesticus)\n[…]\nGorochov, A.V. & Mostovski, M.B. 2008. Apterous crickets of the tribe Gryllini from South Africa and Namibia (Orthoptera: Gryllidae). African Invertebrates 49 (1): 109-121.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Bicho-da-seda",
+      "descricao": "Lagarta da mariposa domesticada Bombyx mori, que tece casulos de seda."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Há milhares de anos, em que país a mariposa do bicho-da-seda foi domesticada para a produção de tecidos?",
+    "resposta": "China",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bombyx_mori",
+      "https://en.wikipedia.org/wiki/Sericulture"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bombyx_mori",
+        "situacao": "ok",
+        "texto": "Bombyx mori, commonly known as the domestic silk moth, is a domesticated moth species belonging to the family Bombycidae. It is the closest relative of Bombyx mandarina, the wild silk moth. Silkworms are the larvae of silk moths. The silkworm is of particular economic value, being a primary producer of silk. The silkworm's preferred food are the leaves of white mulberry, though they may eat other \n[…]\nSericulture, the practice of breeding silk moths for the production of raw silk, has existed for at least 5,000 years in China, whence it spread to India, Korea, Nepal, Japan, and then the West. The conventional process of sericulture kills the silkworm in the pupal stage. The domestic silk moth was domesticated from the wild silk moth Bombyx mandarina, which has a range from northern India to northern China, Korea, Japan, and the far eastern regions of Russia.\n[…]\nThese enzymes are destructive to the silk and can cause the silk fibers to break down from over a mile in length to segments of random length, which reduces the value of the silk threads, although these damaged silk cocoons are still used as \"stuffing\" available in China and elsewhere in the production of duvets, jackets, and other purposes. To prevent this, silkworm cocoons are boiled in water. The heat kills the silkworms, and the water makes the cocoons easier to unravel.\n[…]\nSilk is a valuable product, representing under 0.2% of the world's production of fibre but with a market value predicted to be $18.1 billion in 2027. Production is labour-intensive as it takes over 100 kg of mulberry leaves to produce 1 kg of raw silk. 70% of the world's silk is produced in China.\n[…]\nIn China, street vendors sell roasted silk moth pupae. The silkworm droppings are secretions used in traditional Chinese medicine.\n[…]\nIn China, silkworms have also been proposed for cultivation as space food on long-term missions.\n[…]\nStudent page on silkworm"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Sericulture",
+        "situacao": "ok",
+        "texto": "Sericulture, or silk farming, is the cultivation of silkworms to produce silk. Although there are several commercial species of silkworms, the caterpillar of the domestic silkmoth is the most widely used and intensively studied silkworm. This species of silkmoth is no longer found in the wild as they have been modified through selective breeding, rendering most flightless and without defense again\n[…]\nToday, China and India are the two main producers, with more than 60% of the world's annual production.\n[…]\nThe most popular substitute for traditional silk is peace silk, also known as ahimsa silk. This substitute's primary ethical appeal is that moths are permitted to emerge from their cocoons and fly away prior to boiling. Thus, the pupae are not cooked alive during manufacture. However, because of centuries of selective breeding, domesticated silkworms lack the adaptations to survive after emerging from their cocoons.\n[…]\nThe cocoons of Tussar silkworms, which are found in open woodlands, are used to produce wild silk, also known as Tussar silk. Compared to conventional silk, their cocoons are typically picked after the moths have emerged, making it a more ethical option. Because wild silkworms consume a variety of plants, their fabric is less uniform but more robust.\n[…]\nThe stages of production are as follows:\n[…]\nThe silkworm spins approximately one mile of filament and completely encloses itself in a cocoon in about two or three days. The amount of usable quality silk in each cocoon is small. As a result, about 2,500 silkworms are required to produce a pound of raw silk.\n[…]\nThe intact cocoons are boiled, killing the silkworm pupa.\n[…]\nThe conventional method of silk production results in ~8 kg of wet silkworm pupae and ~2 kg of dry pupae per kilogram of raw silk. This byproduct has historically been consumed by people in silk-producing areas.\n[…]\nSilk industry in China\n[…]\nSilk Production Process"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bicho-da-seda",
+        "situacao": "ok",
+        "texto": "O bicho-da-seda, como conhecido, é a larva ou lagarta da mariposa doméstica Bombyx mori (latim: \"bicho-da-seda da amoreira\"). É um inseto economicamente importante, sendo um produtor primário da seda. A comida preferida do bicho-da-seda é a amoreira branca, embora comam outras espécies de amoreira e até mesmo laranja osage. Mariposas domésticas são intimamente dependentes de seres humanos para a r\n[…]\nA sericultura, a prática de criação de bichos-da-seda para a produção da seda crua, está em curso há pelo menos 5 000 anos na China, de onde se espalhou para a Índia, Coreia, Japão e Ocidente. O bicho-da-seda foi domesticado a partir da mariposa selvagem Bombyx mandarina, que tem um alcance desde o norte da Índia até o norte da China, Coreia, Japão e as regiões do extremo leste da Rússia. O bicho-da-seda domesticado é derivado do chinês, e não do japonês ou do coreano.\n[…]\nO seu nome científico é derivado da palavra latina bombyx, que significa \"seda\" e vem do grego antigo βόμβυξ. Mori significa \"da amoreira\" e vem de morus, o nome científico da amoreira. O cultivo do bicho-da-seda é chamado de sericultura ou sericicultura, que é originária da China, onde na antiguidade descobriram como cultivá-lo. Esse cultivo é conhecido desde 3500 a.C. Os bichos-da-seda foram mantidos em segredo por milhares de anos.\n[…]\nNos Estados Unidos, os professores podem, às vezes, apresentar o ciclo de vida dos insetos aos seus alunos, utilizando os bichos-da-seda na sala de aula como um projeto de ciências. Os alunos têm a chance de observar ciclos completos de vida, desde o estágio do ovo até a larva, a pupa e a mariposa. O bicho-da-seda foi criado como passatempo em países como a China, África do Sul, Zimbábue e Irã. A experiência proporciona às crianças a oportunidade de testemunhar o ciclo de vida dos bichos-da-seda.\n[…]\nO Wikispecies possui informações sobre: Bicho-da-seda",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Borboleta-monarca",
+      "descricao": "Borboleta norte-americana (Danaus plexippus) de asas laranja, pretas e brancas, famosa pela migração anual."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "No outono, as monarcas do leste da América do Norte voam milhares de quilômetros para passar o inverno nas florestas de montanha de qual país?",
+    "resposta": "México",
+    "distratores": [
+      "Cuba",
+      "Guatemala",
+      "Colômbia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Monarch_butterfly"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Monarch_butterfly",
+        "situacao": "ok",
+        "texto": "The monarch butterfly or simply monarch (Danaus plexippus) is a milkweed butterfly (subfamily Danainae) in the family Nymphalidae. Other common names, depending on region, include milkweed, common tiger, wanderer, and black-veined brown. It is among the most familiar of North American butterflies and an iconic pollinator, although it is not an especially effective pollinator of milkweeds.\n[…]\nThe eastern North American monarch population is notable for its annual southward late-summer/autumn instinctive migration from the northern and central United States and southern Canada to Florida and Mexico. During the fall migration, monarchs cover thousands of miles, with a corresponding multigenerational return north in spring.\n[…]\nIn Ontario, Canada, the monarch butterfly is listed as a species of special concern. In Nova Scotia, the monarch is listed as endangered at the provincial level, as of 2017. This decision (as well as the Ontario decision) is based on a presumption that the overwintering colony declines in Mexico create declines in the breeding range in Canada.\n[…]\nMonarch Butterflies: Increase the Eastern population of the monarch butterfly to 225 million butterflies occupying an area of approximately 15 acres (6.1 hectares) in the overwintering grounds in Mexico, through domestic/international actions and public-private partnerships, by 2020.\n[…]\nAs of June 2025, at least 14 states (California, Connecticut, Illinois, Kentucky, Maryland, Massachusetts, Minnesota, Missouri, New Jersey, New Mexico, New York, North Carolina, Ohio, Vermont and Washington) had enacted legislation to protect, develop and restore habitat suitable for pollinators. For example, the New Jersey General Assembly considered legislation in 2014 that was intended to increase the monarch butterfly's migrating population within the state.\n[…]\nMonarch Watch\n[…]\nMonarch butterfly data at NatureServe Explorer"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Borboleta-monarca",
+        "situacao": "ok",
+        "texto": "A borboleta-monarca (Danaus plexippus) é uma borboleta da família dos ninfalídeos, da subfamília dos danaíneos. Têm cerca de setenta milímetros de envergadura, asas laranjas com listras pretas e marcas brancas.\n[…]\nAs suas populações são naturais da América do Norte e são conhecidas por realizarem a mais longa migração realizada por um invertebrado numa única geração, a quarta geração.\n[…]\nOs indivíduos desta geração eclodem dos seus ovos no Canadá e atingem o estado adulto em Setembro, altura em que voam em grandes grupos, num espetáculo ímpar, cerca de 4000 km até chegarem ao México onde passam o Inverno em grandes aglomerações.\n[…]\nCom grande potencial de voo e de dispersão, as monarcas também colonizaram nos últimos 200 anos a Europa, Norte de África e a Austrália.\n[…]\nTal como nos restantes locais colonizados recentemente as populações portuguesas de monarca não são migradoras.\n[…]\nA borboleta monarca começa a sua vida como um ovo posto por uma fêmea adulta numa folha de planta de serralha. É do tamanho da cabeça de um alfinete e quando choca, três a doze dias depois, nasce a pequena lagarta com riscas brancas, amarelas e pretas, com oito pares de pernas curtas para trepar e partes da boca desenhada para mastigar folhas.\n[…]\nMas somente folhas das plantas de serralha tem uma seiva branca e pegajosa que é altamente tóxica para os outros animais, mas não afetam em nada a lagarta, apenas tornando seu corpo altamente tóxico para os predadores, como pássaros. Três mutações genéticas são a chave para esse inseto se tornar imune à sua dieta venenosa.\n[…]\nReserva da Biosfera Borboleta-Monarca\n[…]\nBorboleta vice-rei",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Formiga-lava-pés",
+      "descricao": "Formiga-de-fogo (Solenopsis invicta) de picada ardida, nativa da América do Sul e invasora em outros continentes."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A formiga-lava-pés, que virou uma praga cara nos Estados Unidos, é originária de qual continente?",
+    "resposta": "América do Sul",
+    "distratores": [
+      "África",
+      "Ásia",
+      "Oceania"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_imported_fire_ant"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Red_imported_fire_ant",
+        "situacao": "ok",
+        "texto": "Solenopsis invicta, the fire ant, or red imported fire ant (RIFA), is a species of ant native to South America. A member of the genus Solenopsis in the subfamily Myrmicinae, it was described by Swiss entomologist Felix Santschi as a variant of S. saevissima in 1916. Its current specific name invicta was given to the ant in 1972 as a separate species. However, the variant and species were the same \n[…]\nThough South American in origin, the red imported fire ant has been accidentally introduced in Australia, New Zealand, several Asian and Caribbean countries, Europe and the United States. The red imported fire ant is polymorphic, as workers appear in different shapes and sizes. The ant's colours are red and somewhat yellowish with a brown or black gaster, but males are completely black. Red imported fire ants are dominant in altered areas and live in a wide variety of habitats.\n[…]\nIn a 1991 review of the species complex, American entomologist James Trager synonymised S. saevissima electra wagneri and S. wagneri together. Trager incorrectly cites Solenopsis saevissima electra wagneri as the original name, erroneously believing that the name S. wagneri was unavailable and used Buren's name S. invicta. Trager previously believed that S. invicta was conspecific with S. saevissima until comparing the material with S. wagneri. Trager notes that though S.\n[…]\nPopulations found outside North America originate from the United States. In 2011, the DNA of specimens from Australia, China, and Taiwan was analysed with results showing that they are related to those in the United States. Despite the spread of the red imported fire ant (S. invicta), S. geminata has a greater geographical range, but it can be easily displaced by S. invicta. Because of this, almost all of S.\n[…]\nSolenopsis daguerrei is a reproductive parasite to red imported fire ant colonies."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Formiga-de-fogo-vermelha",
+        "situacao": "ok",
+        "texto": "A formiga-de-fogo ou formiga-de-fogo-vermelha (nome científico: Solenopsis invicta) é uma espécie de formiga do gênero Solenopsis e subfamília dos mirmicíneos (Myrmicinae) nativa da América do Sul (Brasil, Argentina, Uruguai e Paraguai). Foi descrita pelo entomologista suíço Felix Santschi como uma variante de Solenopsis saevissima em 1916. Seu nome específico atual invicta foi dado à formiga em 1\n[…]\nNo entanto, a variante e a espécie eram a mesma formiga, e o nome foi preservado devido ao seu amplo uso. Embora de origem sul-americana, a formiga-de-fogo-vermelha foi acidentalmente introduzida na Austrália, Nova Zelândia, vários países asiáticos e caribenhos e nos Estados Unidos. É polimórfica, pois as operárias aparecem em diferentes formas e tamanhos. As cores da formiga são vermelhas e um pouco amareladas com um gáster marrom ou preto, mas os machos são totalmente pretos.\n[…]\nFormigas-de-fogo-vermelhas foram descobertas pela primeira vez em Queenslândia, Austrália, em 2001. Acredita-se que as formigas estavam presentes em contêineres que chegavam ao porto de Brisbane, provavelmente da América do Norte. Evidências anedóticas sugerem que as formigas podem ter estado presentes na Austrália por seis a oito anos antes da identificação formal. O dano potencial da formiga-de-fogo-vermelha levou o governo australiano a responder rapidamente.\n[…]\nAs populações encontradas fora da América do Norte são originárias dos Estados Unidos. Em 2011, o DNA de espécimes da Austrália, China e Taiuã foi analisado com resultados mostrando que estão relacionados aos dos Estados Unidos. Apesar de sua disseminação, S. geminata tem distribuição geográfica maior do que a formiga-de-fogo-vermelha, mas pode ser facilmente deslocada por ela. Por causa disso, quase todo o seu alcance exótico na América do Norte foi perdido e a formiga quase desapareceu lá.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Escorpião",
+      "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "O que acontece com o corpo de um escorpião quando ele é iluminado por luz ultravioleta no escuro?",
+    "resposta": "Brilha, ficando fluorescente",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scorpion"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Scorpion",
+        "situacao": "ok",
+        "texto": "Scorpions (order Scorpiones) are predatory arachnids with eight legs, a pair of grasping pincers (or chelae) and a narrow, segmented tail, often carried in a characteristic forward curve over the back and always ending with a stinger. The evolutionary history of scorpions goes back to the Silurian Period, approximately 430 million years ago. They mainly live in deserts but have adapted to a wide r\n[…]\nAll known species give live birth and the female cares for the young as their exoskeletons harden, transporting them on her back. The exoskeleton contains fluorescent chemicals and glows under ultraviolet light.\n[…]\nScorpions glow a vibrant blue-green when exposed to certain wavelengths of ultraviolet light, such as that produced by a black light, due to fluorescent chemicals such as beta-carboline in the cuticle. Accordingly, a hand-held ultraviolet lamp has long been a standard tool for nocturnal field surveys of these animals. Fluorescence occurs as a result of sclerotization and increases in intensity with each successive instar. This fluorescence may function in detecting light.\n[…]\nEfforts are made to prevent envenomation and to control scorpion populations. Prevention encompasses personal activities such as checking shoes and clothes before putting them on, not walking in bare feet or sandals, and filling in holes and cracks where scorpions might nest. Street lighting reduces scorpion activity. Control may involve the use of insecticides such as pyrethroids, or gathering scorpions manually with the help of ultraviolet lights.\n[…]\nPryke, L. M. (2016). Scorpion. Reaktion Books. ISBN 978-1-78023-625-4.\n[…]\nStockmann, Roland; Ythier, Eric (2010). Scorpions of the World. N. A. P. Editions. ISBN 978-2-913688-11-7.\n[…]\nAmerican Museum of Natural History - Scorpion Systematics Research Group\n[…]\nCDC – Insects and Scorpions – NIOSH Workplace Safety and Health Topic"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escorpi%C3%A3o",
+        "situacao": "ok",
+        "texto": "Escorpiões (da ordem Scorpiones) são aracnídeos predadores com oito patas, um par de pinças (chamadas de quela) e uma cauda segmentada e estreita, frequentemente curvada caracteristicamente sobre o dorso e sempre terminando em um ferrão. A história evolutiva dos escorpiões remonta a 435 milhões de anos. Eles vivem principalmente em desertos, mas se adaptaram a uma ampla gama de condições ambientai\n[…]\nTodas as espécies conhecidas são vivíparas e a fêmea cuida dos filhotes enquanto seus exoesqueletos endurecem, transportando-os nas costas. O exoesqueleto contém produtos químicos fluorescentes e brilha sob luz ultravioleta.\n[…]\nTambém é conhecido por lacrau ou alacrau. O nome escorpião é derivado do latim scorpio/scorpionis. Lacrau vem do árabe al-'aqrab.\n[…]\nO corpo dos escorpiões é dividido em prossoma e opistossoma, sendo esse dividido em mesossoma e metassoma.\n[…]\nA divisão dos tagmas em Scorpiones se diferencia da maioria dos outros aracnídeos por apresentar prossoma, mesossoma e metassoma. O opistossoma é bastante segmentado, chegando a apresentar doze segmentos. O opistossoma divide-se em mesossoma, com sete segmentos, e metassoma, porção formada pelos cinco segmentos posteriores. Estes constituem a cauda, juntamente com o télson, o último segmento. A cauda termina como um aguilhão e é através deste ferrão que o escorpião inocula sua peçonha.\n[…]\nNo prossoma localizam-se os dois olhos medianos, na saliência cômoro ocular, e os olhos laterais, de cada lado da carapaça. Alguns escorpiões podem brilhar quando expostos à luz ultravioleta (UV), adquirindo uma cor verde-fluorescente, pois seu exoesqueleto é fotossensível. O exoesqueleto do escorpião é muito sensível à radiação ultravioleta.\n[…]\nStockmann, Roland; Ythier, Eric (2010). Scorpions of the World. [S.l.]: N. A. P. Editions. ISBN 978-2-913688-11-7\n[…]\nBiologia, Habitat, Nutrição e Medidas Preventivas dos Escorpiões",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Rola-bosta",
+      "descricao": "Besouros escarabeídeos que se alimentam de fezes e as moldam em bolas para rolar e enterrar."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em noites sem lua, o besouro rola-bosta consegue empurrar sua bola em linha reta guiando-se por quê?",
+    "resposta": "Pela Via Láctea",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dung_beetle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Dung_beetle",
+        "situacao": "ok",
+        "texto": "Dung beetles are beetles that feed on feces. All species of dung beetle belong to the superfamily Scarabaeoidea, most of them to the subfamilies Scarabaeinae and Aphodiinae of the family Scarabaeidae (scarab beetles). As most species of Scarabaeinae feed exclusively on feces, that subfamily is often dubbed true dung beetles. There are dung-feeding beetles which belong to other families, such as th\n[…]\nColeoptera (order), beetles\n[…]\nSome dung beetles are used as food in South East Asia and a variety of dung beetle species have been used therapeutically (and are still being used in traditionally living societies) in potions and folk medicines to treat a number of illnesses and disorders.\n[…]\nHans Christian Andersen's \"The Dung Beetle\" tells the story of a dung beetle who lives in the stable of the king's horses in an imaginary kingdom. When he demands golden shoes like those the king's horse wears and is refused, he flies away and has a series of adventures, which are often precipitated by his feeling of superiority to other animals. He finally returns to the stable having decided (against all logic) that it is for him that the king's horse wears golden shoes.\n[…]\nCatharsius, a dung beetle genus in Africa and Asia\n[…]\nAddo Elephant National Park, site of the largest remaining population of the endangered flightless dung beetle (Circellium bacchus)\n[…]\nList of dung beetle and chafer (Scarabaeoidea) species recorded in Britain\n[…]\nFeature: 'What to do with too much poo' – The success story behind the introduction of dung beetles in Australia at cosmosmagazine.com\n[…]\nDung Beetles in action (video)[link removed] by The WILD Foundation/Boyd Norton\n[…]\nMarcus Byrne The dance of the dung beetle Ted conference about dung beetle behavior.\n[…]\nDung Beetle Ecosystem Engineers Dung Beetle Ecosystem Engineers – expanding the range of dung beetles in Australia and analysing their performance for livestock producers."
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Joaninha",
+      "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Agricultores costumam ver as joaninhas como aliadas porque elas devoram grandes quantidades de qual praga?",
+    "resposta": "Pulgões",
+    "distratores": [
+      "Cupins",
+      "Gafanhotos",
+      "Lesmas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Coccinellidae"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Coccinellidae",
+        "situacao": "ok",
+        "texto": "Coccinellidae ( ) is a widespread family of small beetles. They are commonly known as ladybugs in North America and ladybirds in the United Kingdom, Australia, New Zealand, Ireland, and other English speaking territories; \"lady\" refers to Mary, the mother of Jesus. Entomologists use the names ladybird beetles or lady beetles to avoid confusion with true bugs. The more than 6,000 described species \n[…]\nCoccinellids have been valued in biological pest control, as they prey on agricultural pests such as aphids and scale insects. Their importance in controlling pests was noted as far back as 1814 in England. Their efficiency can vary: sometimes they have a relatively small effect on aphid populations; at others they cause significant seasonal declines.\n[…]\nH. axyridis, C. septempunctata and Hippodamia convergens are the most common causes of ladybird taint in wine. As few as 1.3 to 1.5 coccinellids per 1 kilogram (2.2 lb) of grapes can affect wine quality when they are present during the wine-making process. The Mexican bean beetle is an agricultural pest as it primarily feeds on plants, especially legumes, instead of insects.\n[…]\nCoccinellids have had important roles in culture and religion, being associated with luck, love, fertility and prophecy. \"Ladybird\" is an affectionate term for someone, such as a loved one. In European folklore, an insect acts as a matchmaker, crawling on a woman and then flying to their true love. Coccinellids have been said to predict the future, particularly weather conditions and how well the crops will grow.\n[…]\nCoccinellids have been popularly featured in poems and nursery rhymes, the most famous being Ladybird! Ladybird!. This has come in several forms, including:\n[…]\nHodek, I; Honěk, A; Van Emden, H. F., eds. (2012). Ecology and Behaviour of the Ladybird Beetles (Coccinellidae). John Wiley & Sons. ISBN 978-1-118-22321-5. OCLC 792685088."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Joaninha",
+        "situacao": "ok",
+        "texto": "Coccinellidae (Coccinelídeos) é uma família de de insetos coleópteros, cujas espécies são comummente conhecidas como joaninhas ou coccinelas.\n[…]\nSão relativamente poucas as espécies herbívoras de joaninhas, sendo que todas elas, se subsumem dentro do grupo conhecido como Epilachnini, alimentando-se principalmente de plantas da família das solanáceas e das cucurbitáceas.\n[…]\nPopularmente, nas crenças populares, atribui-se às joaninhas o condão de darem felicidade, sorte e serenidade.\n[…]\nA partir da eclosão, as larvas se dispersam pela planta à procura de alimento, crescem e desenvolvem-se; após a fase larval, transformam em pupa e quando adultos, se dispersam à procura de um novo habitat, mostrando boa mobilidade entre agrossistemas. O ciclo de vida das joaninhas depende muito de cada espécie e da sua dieta, mas no geral, após período que varia entre 2 e 5 dias da postura, as larvas eclodem e começam a se alimentar. Elas em nada se parecem com as joaninhas adultas.\n[…]\nFoi estudado em laboratórios de pesquisas a joaninha Cycloneda sanguinea. Notando maior longevidade e fertilidade em relação as fêmeas deste predador. Outro fator importante, foi levantado em experimentos, quando notou-se em gaiolas fechadas a capacidade em reprodução, produzindo descentes em maior larga escala, quando sua dieta era baseada com pulgões (Hyadaphis foeniculi).\n[…]\nCoccinella septempunctata, da Europa, que apresenta geralmente de uma a sete manchas pretas sob fundo vermelho em cada élitro. Sua larva é azul com pintas amarelas. Também é conhecida pelo nome de joaninha-de-sete-pontos. Existem também joaninhas de cor amarela e verde.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Bicho-de-pé",
+      "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "O bicho-de-pé, que se aloja na pele dos pés de quem anda descalço, é na verdade um tipo de quê?",
+    "resposta": "Pulga",
+    "distratores": [
+      "Piolho",
+      "Carrapato",
+      "Ácaro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tunga_penetrans"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tunga_penetrans",
+        "situacao": "ok",
+        "texto": "Tunga penetrans is a species of flea also known as the jigger, jigger flea, chigoe, chigo, chigoe flea, chigo flea, nigua, sand flea, or burrowing flea. It is a parasitic insect found in most tropical and sub-tropical climates. In its parasitic stage it can cause significant health issues for its hosts, including humans and certain other mammals. An infestation of T. penetrans is called tungiasis.\n[…]\nSynonyms for Tunga penetrans include Sarcopsylla penetrans, Pulex penetrates, and many others.\n[…]\nThe colloquial name jigger may be confused with chigger, a parasitical mite. However, the jigger is a type of flea (Order Siphonaptera). The chigger is a minute arachnid. Mites penetrate the skin and feed on skin cells that are broken down through an enzyme they secrete from their mouth, but they will then leave the host. The adult and the larval forms both feed on other animals. This is not the case with T.\n[…]\npenetrans, as only the adults feed on mammals, and the mature female remains in the host for the rest of her life.\n[…]\nHost species for  T. penetrans'\n[…]\nIn a seminal paper on the biology and pathology of Tunga penetrans, Eisele et al. (2003) provided and detailed the five stages of tungiasis, thereby detailing the in vivo development of the female chigoe flea for the first time. In dividing the natural history of the disease, the Fortaleza Classification formally describes the last part of the female flea's life cycle where it burrows into its host's skin, expels eggs, and dies.\n[…]\nThere are no drugs currently available with proven effectiveness. Surgical extraction still remains the treatment of choice in patients with a low parasite load, such as tourists returning from endemic areas. The only approach to reduce tungiasis-associated morbidity in heavily affected individuals is the application of a repellent to prevent the penetration of sand fleas."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bicho-de-p%C3%A9",
+        "situacao": "ok",
+        "texto": "O Tunga penetrans, comummente conhecido como bicho-de-pé, ou pulga-da-areia em algumas regiões, é um inseto sifonáptero da família dos tungídeos, originário da América Central e América do Sul, tendo sido introduzido inadvertidamente pelo Homem na África subsariana. É conhecido ainda como nígua, tunga, matacanha (também grafado mataquenha) e bitacaia\n[…]\nOs machos possuem espiráculos abdominais todos do mesmo tamanho, enquanto a fêmea tem os espiráculos anteriores diminutos e os posteriores muito desenvolvidos, já que apenas os posteriores ficarão em contato com o ar quando ela penetrar na pele do hospedeiro. O bicho-de-pé tem cor vermelho-acastanhada, com olhos pequenos e fronte angulosa. Como toda as pulgas, é segmentado, mas a fêmea fecundada aumenta de tal forma que se apresenta sem traços de segmentação.\n[…]\nGanhou o nome comum «bicho-de-pé» por penetrar na pele humana, em especial entre os dedos do pé, onde a derme é mais fina e tenra, mas também nas mãos, na sola do pé e no calcanhar. Quem anda descalço em áreas infestadas pelas larvas deste inseto - normalmente lamaçais e terrenos arenosos, como currais, chiqueiros, praias, em locais quentes, sombreados e secos  - é, portanto, a vítima preferencial.[carece de fontes]?\n[…]\nA doença causada pela infestação de bicho-de-pé é chamada tungíase, devido ao nome científico do gênero, Tunga, e pode levar a infecções secundárias e formação de úlceras. A fêmea fica sobre a superfície do solo esperando um hospedeiro, e penetra rapidamente sua epiderme. No ser humano, ataca preferencialmente a região da sola dos pés, no calcanhar, entre os dedos e nos cantos, nas bordas das unhas, e também nas mãos, por serem mais expostas ao chão e ao ambiente externo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Dança das abelhas",
+      "descricao": "Dança do requebrado com que as abelhas operárias indicam às companheiras a direção e a distância de fontes de alimento."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cientista austríaco ganhou o Nobel por decifrar a dança com que as abelhas mostram às companheiras onde há flores?",
+    "resposta": "Karl von Frisch",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Waggle_dance",
+      "https://en.wikipedia.org/wiki/Karl_von_Frisch"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Waggle_dance",
+        "situacao": "ok",
+        "texto": "Waggle dance is a term used in beekeeping and ethology for a particular figure-eight dance of the honey bee. By performing this dance, successful foragers can share information about the direction and distance to patches of flowers yielding nectar and pollen, to water sources, or to new nest-site locations with other members of the colony.\n[…]\nAustrian ethologist and Nobel laureate Karl von Frisch was one of the first who translated the meaning of the waggle dance.\n[…]\nThough first decoded by Karl von Frisch, dancing behavior in bees had been observed and described multiple times prior. Around 100 years before Frisch's discovery, Nicholas Unhoch described dancing behavior of bees as being an indulgence \"in certain pleasures and jollity\". He admitted ignorance as to the purpose of the dancing. 35 years prior to Unhoch's observations, Ernst Spitzner observed bees dancing and interpreted it as transmitting forage resource odors to other nestmates.\n[…]\nAs defined by von Frisch, Tanzsprache (German for 'dance language') is the information about direction, distance, and quality of a resource (such as food or nesting sites) contained within the waggle dance. There is supporting evidence of the waggle dance and \"Tanzsprache\" in Apis dorsata. Similar to other bees, they utilize the dance language to indicate the critical information regarding food resources.\n[…]\nIn line with work in swarm intelligence research involving optimization algorithms inspired by the behavior of social insects (including bees, ants and termites), and vertebrates such as fish and birds, there has been research on using bee waggle dance behavior for efficient fault-tolerant routing.\n[…]\nThe Zigbee RF protocol is named after the waggle dance.\n[…]\nGrooming dance\n[…]\nThe Waggle Dance of the Honeybee, Georgia Tech College of Computing on YouTube\n[…]\nWaggle Dance Infographic - VetSci"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Karl_von_Frisch",
+        "situacao": "ok",
+        "texto": "Karl Ritter von Frisch (20 November 1886 – 12 June 1982) was a German-Austrian ethologist who received the Nobel Prize in Physiology or Medicine in 1973, along with Nikolaas Tinbergen and Konrad Lorenz.\n[…]\nKarl Ritter von Frisch was the son of the surgeon and urologist Anton von Frisch, by his marriage to Marie Exner. Karl was the youngest of four sons, all of whom became university professors. Von Frisch was of partial Jewish heritage.\n[…]\nKarl Ritter von Frisch married Margarete, née Mohr, who died in 1964. Their son, Otto Ritter von Frisch, was director of the State Natural History Museum in Braunschweig, Germany between 1977 and 1995.\n[…]\nFrisch highlighted the errors in Hess's experimental method and asked him to desist.\n[…]\nAs to a sense of hearing, Frisch could not identify this perceptive faculty, but it was assumed that vibrations could be sensed and used for communication during the waggle dance. Confirmation was later provided by Dr. Jürgen Tautz, a bee researcher at Würzburg University's Biocenter.\n[…]\nIn his honor, the Karl Ritter von Frisch Medal of the German Zoological Society (Deutschen Zoologischen Gesellschaft, DZG), is awarded every two years to scientists whose work is distinguished by extraordinary zoological achievements which represent an integration of insights from several different biological disciplines. It is Germany's most important science prize in zoology and includes prize money of 10,000 euros.\n[…]\nTribute to Karl von Frisch by Cyrille Janisset\n[…]\nDance and communication of honey bees\n[…]\nKarl von Frisch on Nobelprize.org  with the nobel Lecture December 12, 1973 Decoding the Language of the Bee\n[…]\nWorks by or about Karl von Frisch at the Internet Archive"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Abelha-africanizada",
+      "descricao": "Híbrido entre abelhas europeias e africanas surgido no Brasil e espalhado pelas Américas, conhecido pela defesa agressiva da colmeia."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "As abelhas africanizadas se espalharam pelas Américas depois de escapar, em 1957, das colmeias experimentais de qual geneticista brasileiro?",
+    "resposta": "Warwick Kerr",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Africanized_bee",
+      "https://en.wikipedia.org/wiki/Warwick_Estevam_Kerr"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Africanized_bee",
+        "situacao": "ok",
+        "texto": "The Africanized bee, also known as the Africanized honey bee (AHB) and colloquially as the \"killer bee\", is a hybrid of the western honey bee (Apis mellifera), produced originally by crossbreeding of the African honey bee (A. m. scutellata) with various European honey bee subspecies such as the Italian honey bee (A. m. ligustica) and the Iberian honey bee (A. m. iberiensis).\n[…]\nAfrican honey bees were first introduced to Brazil in 1956 to increase honey production, but 26 swarms with their queens escaped from their experimental apiary in 1957. Since then, the hybrid has spread throughout South America and arrived in North America in 1985. Hives were found in southern Texas, United States, in 1990.\n[…]\nThe Africanized honey bees in the Western Hemisphere are descended from hives operated by biologist Warwick E. Kerr, who had interbred honey bees from Europe and southern Africa. Kerr was attempting to breed a strain of bees that would produce more honey in tropical conditions than the European strain of honey bee then in use throughout North, Central, and South America.\n[…]\nAccording to Kerr, in October 1957 a visiting beekeeper, noticing that the queen excluders were interfering with the worker bees' movement, removed them, resulting in the accidental release of 26 Tanganyikan swarms of A. m. scutellata. Following this accidental release, the Africanized honey bee swarms spread out and crossbred with local European honey bee colonies.\n[…]\nA more recent publication reports on the genetic admixture of Africanized honey bees in Brazil. The small number of honey bees with African ancestry introduced to Brazil in 1956, which dispersed, hybridized with existing managed populations of European origin, and quickly spread across much of the Americas, exemplifies a massive biological invasion, as discussed earlier in this article."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Warwick_Estevam_Kerr",
+        "situacao": "ok",
+        "texto": "Warwick Estevam Kerr (9 September 1922 – 15 September 2018) was a Brazilian agricultural engineer, biologist and professor notable for his discoveries in the genetics and sex determination of bees.\n[…]\nThe Africanized bee in the western hemisphere is directly descended from 26 Tanzanian queen bees (Apis mellifera scutellata) accidentally released by one of his assistant bee-keepers. When reassembling a hive, the assistant forgot to install the queen excluder. This occurred in 1957 in Rio Claro, São Paulo in the southeast of Brazil from hives operated by Kerr, who had interbred honey bees from Europe and southern Africa.\n[…]\nIn all these positions he never stopped his research on Meliponini, especially the genus Melipona, which is a genus of Neotropical bees that are frequently subject to the predatory action of wild honey gatherers (meleiros in Portuguese). Kerr became well known for his research on the hybridization of the African bee (Apis mellifera scutellata) and the Italian bee (Apis mellifera ligustica). Kerr has 620 publications on various subjects.\n[…]\nW. E. Kerr; Gerace, L; Leister, F; Sofer, W (1975). \"Evolution of the population structure in bees\". Genetics. 79 (1): 73–84. doi:10.1093/genetics/79.1.73. PMC 1213261. PMID 1126622.\n[…]\nW. E. Kerr (1976). \"Population genetic studies in bees. 2 sex-limited genes\". Evolution. 30 (1). Evolution, Vol. 30, No. 1: 94–99. doi:10.2307/2407676. JSTOR 2407676. PMID 28565044.\n[…]\nW. E. Kerr & R. A. da Cunha (1990). \"Sex determination in bees. XXVI Masculinism of workers in the Apidae\". Brazilian Journal of Genetics. 13: 479–489.\n[…]\nW. E. Kerr (1992). \"The bee or not the bee?\". The Times Literary Supplement.\n[…]\nFundação Getulio Vargas: Warwick E. Kerr"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Abelha_africanizada",
+        "situacao": "ok",
+        "texto": "A abelha africanizada ou abelha do mel africanizado, também conhecida coloquialmente como \"abelha assassina\", é uma híbrida de espécies ocidentais de abelha (Apis mellifera) com abelhas africanas (A. m. Scutellata). São produzidas originalmente por cruzamento da abelha africana, com abelhas europeias, como a abelha italiana (A. m. Ligustica) e a abelha ibérica (Apis mellifera iberiensis).\n[…]\nA abelha africanizada foi criada e introduzida pela primeira vez no Brasil na década de 1950, em um esforço para aumentar a produção de mel, mas em 1957, 26 enxames escaparam acidentalmente da quarentena. Desde então, a nova espécie híbrida se espalhou por toda a América do Sul e chegou à América do Norte em 1985. Várias colmeias da espécie foram encontradas no sul do estado americano do Texas em 1990.\n[…]\nAs abelhas africanizadas do hemisfério ocidental são descendentes de colmeias operadas pelo biólogo e geneticista brasileiro Warwick Estevam Kerr, que tinha intercorrido a abelhas da Europa e da África Austral. Kerr estava tentando criar uma cepa de abelhas que produziria mais mel e que melhor se adaptava às condições tropicais (ou seja, mais produtiva) do que a cepa europeia de abelha, atualmente em uso em toda a América do Norte, Central e do Sul.\n[…]\nDe acordo com Kerr, em outubro de 1957, um apicultor visitante que não tinha sido informado, notou que as telas de proteção especiais estavam interferindo nos movimentos das abelhas, e então ele as removeu, o que acabou resultando na liberação acidental de 26 enxames de abelha africana.[carece de fontes]?\n[…]\nNos anos 1970 houve um alarmismo diante da proliferação das abelhas africanizadas. As africanizadas ficaram conhecidas como \"abelhas assassinas\" e protagonizaram filmes sensacionalistas de Hollywood. Até hoje o termo killer-bee é usado neste sentido.\n[…]\n«Abelhas Africanizadas - UFV»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "A Formação do Húmus Vegetal pela Ação das Minhocas",
+      "descricao": "Livro de 1881 sobre o papel das minhocas na formação do solo, último livro científico de Charles Darwin."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que naturalista inglês dedicou seu último livro, publicado em 1881, ao trabalho das minhocas na formação do solo?",
+    "resposta": "Charles Darwin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Formation_of_Vegetable_Mould_through_the_Action_of_Worms"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Formation_of_Vegetable_Mould_through_the_Action_of_Worms",
+        "situacao": "ok",
+        "texto": "The Formation of Vegetable Mould Through the Action of Worms, with Observations on their Habits (sometimes shortened to Worms) is an 1881 book by Charles Darwin on earthworms. It was his last scientific book, and was published shortly before his death (see Darwin from Insectivorous Plants to Worms). Exploring earthworm behaviour and ecology, it continued the theme common throughout his work that g\n[…]\nHe returned to London on October 21, and prepared a paper on worms forming mould. The paper on the role of earthworms in soil formation was read out by Darwin at the Geological Society of London on 1 November 1837. This was an uncommonly mundane subject for the society, and his peers may have hoped to hear of something more grandiose, even seeing this paper as highlighting Darwin's growing idiosyncrasies.\n[…]\nDarwin goes into some detail on the well preserved ruins of Silchester Roman Town, Hampshire, with the help of the Rev. J. G. Joyce. Finally he discusses the case of the Viroconium Roman town ruins at Wroxeter, Shropshire, with the help of Dr. H. Johnson, who made observations including depth of vegetable mould. He concludes that both worms and other causes, such as dust deposition and washing down of soil, have buried such ruins.\n[…]\nRomanes, George J (1881). \"The Formation of Vegetable Mould through the Action of Worms, with Observations on their Habits\". Nature. 24 (624): 553–6. Bibcode:1881Natur..24..553R. doi:10.1038/024553a0. S2CID 42141622.\n[…]\nThe Formation of Vegetable Mould through the Action of Worms with Observations on their Habits LibriVox\n[…]\nThe Formation of Vegetable Mould through the Action of Worms with Observations on their Habits at One More Library\n[…]\nThe formation of vegetable mould through the action of worms, with observations on their habits. London: John Murray. 1881; 326 pages{{cite book}}:  CS1 maint: postscript (link)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Formation_of_Vegetable_Mould_through_the_Action_of_Worms",
+        "situacao": "ok",
+        "texto": "The Formation of Vegetable Mould through the Action of Worms (Brasil: A formação do molde vegetal através da ação de vermes ), (às vezes abreviado como \"Worms\") é um livro de Charles Darwin, de 1881, sobre as minhocas. Foi seu último livro científico e foi publicado pouco antes de sua morte.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Lacraia",
+      "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Apesar do apelido centopeia, nenhuma lacraia tem exatamente cem patas, porque a quantidade de pares de patas é sempre de que tipo?",
+    "resposta": "Ímpar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Centipede"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Centipede",
+        "situacao": "ok",
+        "texto": "Centipedes (from Neo-Latin centi- 'hundred' and Latin pes, pedis 'foot') are predatory arthropods belonging to the class Chilopoda of the subphylum Myriapoda, an arthropod group which includes millipedes and other multi-legged animals. Centipedes are elongated segmented (metameric) animals with one pair of legs per body segment.\n[…]\nThe following cladogram shows the position of the Chilopoda within the arthropods as of 2019:\n[…]\nWithin the myriapods, centipedes are believed to be the first of the extant classes to branch from the last common ancestor. The five orders of centipedes are: Craterostigmomorpha, Geophilomorpha, Lithobiomorpha, Scolopendromorpha, and Scutigeromorpha. These orders are united into the clade Chilopoda by the following synapomorphies:\n[…]\nThe Chilopoda are then split into two clades: the Notostigmophora including the Scutigeromorpha and the Pleurostigmophora including the other four orders. The following physical and developmental traits can be used to separate members of the Pleurostigmomorpha from Notostigmomorpha:\n[…]\nIt was previously believed that Chilopoda was split into Anamorpha (Lithobiomorpha and Scutigeromorpha) and Epimorpha (Geophilomorpha and Scolopendromorpha), based on developmental modes, with the relationship of the Craterostigmomorpha being uncertain. Recent phylogenetic analyses using combined molecular and morphological characters supports the previous phylogeny."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quil%C3%B3pode",
+        "situacao": "ok",
+        "texto": "Os Quilópodes são animais invertebrados terrestres conhecidos popularmente como centopeias ou lacraias, que movimentam-se rapidamente pelo solo como predadores, e que são bastante temidos por suas mordeduras peçonhentas. São animais achatados dorsoventralmente que podem variar de 3 até pouco mais de 30 cm de comprimento, apresentando um número de pares de pernas que varia de 15 a 191.\n[…]\nA maioria dos quilópodes apresentam de poucos a muitos ocelos, mas há muitas linhagens -- geofilomorfos, diversos escolopendromorfos e alguns litobiomorfos habitantes de cavernas -- que não apresentam olhos. Nas lacraias escutigeromorfos, os ocelos estão agrupados e organizados como olhos compostos.\n[…]\nA reprodução das centopeias não envolve nenhuma cópula, e transferência de espermatozoides é indireta. Os machos depositam um saco de esperma (espermatóforo) para a fêmea encontrar e recolher. Em geral, o macho constrói uma pequena teia com seda advinda de uma fiandeira localizada no átrio genital, e o espermatóforo, medindo até vários milímetros, é então colocado nesta teia. A fêmea apanha o espermatóforo e o coloca na sua abertura genital.\n[…]\nMolecularmente, os segmentos das centopeias desenvolvem-se em duas fases distintas. Primeiramente, a cabeça dá origem a um número fixo, ímpar, de segmentos segundo programação por genes Hox, como em todos demais artrópodes.\n[…]\nEm termos de filogenia, a classe de Chilopoda apresenta a filogenia mais estruturada conhecida dentre as demais ordens de Myriapoda, devido à maior quantidade de estudos feitos com esta classe ou pelo número extenso de táxons. A filogenia mais aceita atualmente baseia-se em uma interpretação interdisciplinar de morfologia, desenvolvimento e dados moleculares.\n[…]\nUm poeta tibetano do século XIX costumava alertar seus colegas budistas que: \"aquele que diverte-se assustando os outros está fadado a reencarnar como uma lacraia.\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Besouro",
+      "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Que grupo de insetos reúne o maior número de espécies já descritas pela ciência?",
+    "resposta": "Besouros",
+    "distratores": [
+      "Moscas e mosquitos",
+      "Borboletas e mariposas",
+      "Abelhas, vespas e formigas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beetle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Beetle",
+        "situacao": "ok",
+        "texto": "Beetles are insects that form the order Coleoptera (), in the superorder Holometabola. Their front pair of wings are hardened into wing-cases, elytra, distinguishing them from most other insects. The Coleoptera, with about 400,000 described species, is the largest of all orders, constituting almost 40% of described arthropods and 25% of all known animal species; new species are discovered frequent\n[…]\nHowever, the major impact of beetles on human life is as agricultural, forestry, and horticultural pests. Serious pest species include the boll weevil of cotton, the Colorado potato beetle, the coconut hispine beetle, the mountain pine beetle, and many others. Most beetles, however, do not cause economic damage and some, such as numerous species of lady beetles, are beneficial by helping to control insect pests. The scientific study of beetles is known as coleopterology.\n[…]\nPliny the Elder discusses beetles in his Natural History, describing the stag beetle: \"Some insects, for the preservation of their wings, are covered with an erust (elytra)—the beetle, for instance, the wing of which is peculiarly fine and frail.\n[…]\nBeetle collecting became extremely popular in the Victorian era. The naturalist Alfred Russel Wallace collected (by his own count) a total of 83,200 beetles during the eight years described in his 1869 book The Malay Archipelago, including 2,000 species new to science.\n[…]\nSeveral coleopteran adaptations have attracted interest in biomimetics with possible commercial applications. The bombardier beetle's powerful repellent spray has inspired the development of a fine mist spray technology, claimed to have a low carbon impact compared to aerosol sprays.\n[…]\nBeetle Monuments\n[…]\nWhite, R. E. (1983). Beetles. Houghton Mifflin. ISBN 978-0-395-91089-4.\n[…]\nColeoptera from the Tree of Life Web Project\n[…]\nColeoptera Atlas Archived January 6, 2014, at the Wayback Machine\n[…]\nBeetles – Coleoptera"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Besouro",
+        "situacao": "ok",
+        "texto": "Os besouros são os insetos que formam a ordem dos coleópteros (Coleoptera), pertencente à superordem dos holometábolos. Seu par frontal de asas é endurecido em élitros, distinguindo-os da maioria dos outros insetos.\n[…]\nOs besouros são, de longe, a maior ordem de insetos: as aproximadamente 400 mil espécies representam cerca de 40% de todas as espécies de artrópodes descritas até o momento e cerca de 25% de todas as espécies animais.\n[…]\nOs élitros de besouros representam cerca de 40% de todos os fósseis de insetos encontrados, tornando a ordem o grupo mais abundante do depósito. Os ortópteros ocupam o segundo lugar, com aproximadamente 22% dos espécimes. No total, já foram reconhecidas 66 espécies distribuídas em 11 ordens. Assim como nos depósitos jurássicos de Dorset, ortópteros e coleópteros estão entre os grupos mais abundantes.\n[…]\nO grande número de espécies de besouros apresenta problemas especiais para a classificação. Algumas famílias contêm dezenas de milhares de espécies e precisam ser divididas em subfamílias e grupos. Os polífagos são a maior subordem, contendo mais de 300 mil espécies descritas em mais de 170 famílias, incluindo estafilinídeos, escarabeídeos, meloídeos, lucanídeos e curculionídeos.\n[…]\nComo muitas outras ordens de insetos, possuem garras, geralmente um par, na extremidade do último segmento tarsal de cada perna. Dada a diversidade do grupo, as pernas de muitos coleópteros apresentam ampla diversidade de modificações funcionais. Besouros-aquáticos, incluindo os ditiscídeos, haliplídeos e muitas espécies de hidrofilídeos, têm as pernas, frequentemente o último par, modificadas para natação, tipicamente com fileiras de pelos longos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Zangão",
+      "descricao": "Macho da abelha-europeia, cuja principal função é fecundar a rainha."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Numa colmeia, entre rainha, operárias e zangões, quem nasce de ovos não fecundados?",
+    "resposta": "Os zangões",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Drone_(bee)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Drone_(bee)",
+        "situacao": "ok",
+        "texto": "A drone is a male honey bee. Unlike the female worker bee, a drone has no stinger. It does not gather nectar or pollen and cannot feed without assistance from worker bees. Its only role is to mate with a maiden queen in nuptial flight, and often dies after doing so.\n[…]\nDrones fly in abundance in the early afternoon and are known to congregate in drone congregation areas a good distance away from the hive.\n[…]\nA single drone visits multiple congregation areas during his lifetime, often taking multiple trips per afternoon. A drone's mating flight averages 20–25 minutes, before he must return to the colony to refuel with honey. While at the site, the drones fly around passively, waiting for the arrival of a virgin. When the virgin queen arrives to the congregation area, the drones locate her by visual and olfactory cues.\n[…]\nAt this point, it is a race to mate with the virgin queen, to be genetically represented in the newly founded colony. The swarming drones, as they actively follow the queen, reportedly resemble a \"drone comet\", dissolving and reforming as the drones chase the virgin queen. Drones greatly outnumber the quantity of virgin queens produced per season, so even with multiple mating by the queen, very few drones mate successfully (estimated at less than one in 1,000).\n[…]\nVarroa destructor, a parasitic mite, propagates within the brood cell of bees. The Varroa mite prefers drone brood as it guarantees a longer development period, which is important for its own propagation success. The number of Varroa mites can be kept in check by removing the capped drone brood and either freezing the brood comb or heating it.\n[…]\nClose-up Video of a Drone bee\n[…]\nDrone"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zang%C3%A3o",
+        "situacao": "ok",
+        "texto": "O zangão, zângão ou abelhão é o macho das diversas espécies de abelhas sociais, especialmente da abelha-europeia. Caracteriza-se pelo porte superior às obreiras e pela ausência de ferrão. Alheio às atividades de manutenção da colmeia, não produz mel porque não possui os órgãos essenciais para tais atividades. Sua única função é a de fecundar a abelha rainha, ação que acontece durante o voo nupcial\n[…]\nO zangão nasce de ovos não fecundados: este fenômeno, que é um exemplo de partenogênese, consiste no desenvolvimento de um embrião sem necessidade de fertilização; a rainha, neste caso, não utiliza o sémen do macho (zangão) e põe ovos que contêm apenas o seu material genético. O zangão não possui órgãos de defesa nem de trabalho. Dotado de excepcional visão e olfato, é capaz de detectar rainhas virgens até dez quilômetros de distância.\n[…]\nA árvore genealógica dos zangões é um exemplo claro da Sequência de Fibonacci. Devido ao fato do zangão não possuir pai, apenas mãe, na primeira geração há um membro (o zangão), uma geração antes há um membro (a mãe), duas gerações atrás há dois membros (a mãe e o pai da mãe), tres gerações atrás há tres membros (a mãe do avô e o pai e a mãe da avó), quatro gerações atrás há cinco membros, cinco gerações atrás há oito membros.\n[…]\nAbelha\n[…]\nAbelha operária\n[…]\nAbelha-rainha",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.43 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

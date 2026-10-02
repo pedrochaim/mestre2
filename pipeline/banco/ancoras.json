@@ -1184,7 +1184,8 @@
       "Scarab",
       "Quépri",
       "Khepri",
-      "Scarabaeus sacer"
+      "Scarabaeus sacer",
+      "escaravelho"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Scarab_(artifact)",
@@ -38090,7 +38091,8 @@
     "nome": "Hemocianina",
     "descricao": "Proteína que transporta oxigênio no sangue de moluscos e artrópodes, dando-lhe cor azulada.",
     "variantes": [
-      "Hemocyanin"
+      "Hemocyanin",
+      "haemocyanin"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hemocyanin"
@@ -38532,6 +38534,470 @@
     "descricao": "Pokémon camaleão que muda de cor, da terceira geração, número 352 da Pokédex Nacional.",
     "fontes": [
       "https://bulbapedia.bulbagarden.net/wiki/Kecleon_(Pok%C3%A9mon)"
+    ]
+  },
+  {
+    "id": "joaninha",
+    "nome": "Joaninha",
+    "descricao": "Besouros da família Coccinellidae, pequenos, arredondados e geralmente vermelhos com pintas pretas.",
+    "variantes": [
+      "Coccinellidae",
+      "ladybird",
+      "ladybug"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Coccinellidae"
+    ]
+  },
+  {
+    "id": "viuva_negra",
+    "nome": "Viúva-negra",
+    "descricao": "Aranhas venenosas do gênero Latrodectus, de corpo negro e brilhante, muitas com uma mancha vermelha no abdômen.",
+    "variantes": [
+      "Latrodectus",
+      "black widow"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Latrodectus"
+    ]
+  },
+  {
+    "id": "aedes_aegypti",
+    "nome": "Aedes aegypti",
+    "descricao": "Mosquito de origem africana, transmissor da dengue, da zika, da chikungunya e da febre amarela urbana.",
+    "variantes": [
+      "mosquito da dengue",
+      "Aedes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aedes_aegypti",
+      "https://en.wikipedia.org/wiki/Aedes"
+    ]
+  },
+  {
+    "id": "entomologia",
+    "nome": "Entomologia",
+    "descricao": "Ramo da zoologia que estuda os insetos.",
+    "variantes": [
+      "Entomology"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Entomology"
+    ]
+  },
+  {
+    "id": "esperanca",
+    "nome": "Esperança",
+    "descricao": "Nome popular no Brasil dos insetos ortópteros da família Tettigoniidae, geralmente verdes e parecidos com gafanhotos de antenas longas.",
+    "variantes": [
+      "Tettigoniidae",
+      "tetigonídeo",
+      "katydid"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Tettigoniidae"
+    ]
+  },
+  {
+    "id": "aranha_armadeira",
+    "nome": "Aranha-armadeira",
+    "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+    "variantes": [
+      "Phoneutria",
+      "armadeira",
+      "aranha-de-bananeira"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Phoneutria",
+      "https://pt.wikipedia.org/wiki/Phoneutria"
+    ]
+  },
+  {
+    "id": "tamarutaca",
+    "nome": "Tamarutaca",
+    "descricao": "Crustáceos marinhos da ordem Stomatopoda, com patas raptoriais que golpeiam a presa com enorme velocidade.",
+    "variantes": [
+      "Stomatopoda",
+      "camarão-louva-a-deus",
+      "mantis shrimp",
+      "estomatópode"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mantis_shrimp"
+    ]
+  },
+  {
+    "id": "mariposa_caveira",
+    "nome": "Mariposa-caveira",
+    "descricao": "Mariposas do gênero Acherontia, como a Acherontia atropos, que têm no tórax um desenho parecido com uma caveira.",
+    "variantes": [
+      "Acherontia atropos",
+      "Acherontia",
+      "death's-head hawkmoth",
+      "esfinge-caveira"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Acherontia_atropos",
+      "https://en.wikipedia.org/wiki/Acherontia_styx"
+    ]
+  },
+  {
+    "id": "bicho_pau",
+    "nome": "Bicho-pau",
+    "descricao": "Insetos da ordem Phasmatodea, de corpo alongado e camuflado, que imitam galhos e folhas.",
+    "variantes": [
+      "Phasmatodea",
+      "fasmídeo",
+      "bicho-folha"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Phasmatodea"
+    ]
+  },
+  {
+    "id": "barbeiro",
+    "nome": "Barbeiro",
+    "descricao": "Insetos hematófagos da subfamília Triatominae, transmissores do protozoário causador da doença de Chagas.",
+    "variantes": [
+      "Triatominae",
+      "triatomíneo",
+      "chupança",
+      "kissing bug"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Triatominae",
+      "https://en.wikipedia.org/wiki/Triatominae"
+    ]
+  },
+  {
+    "id": "tardigrado",
+    "nome": "Tardígrado",
+    "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+    "variantes": [
+      "Tardigrada",
+      "water bear"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tardigrade"
+    ]
+  },
+  {
+    "id": "sauva",
+    "nome": "Saúva",
+    "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro.",
+    "variantes": [
+      "Atta",
+      "formiga-cortadeira",
+      "leafcutter ant"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Leafcutter_ant",
+      "https://en.wikipedia.org/wiki/Atta_(ant)"
+    ]
+  },
+  {
+    "id": "cigarra",
+    "nome": "Cigarra",
+    "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra.",
+    "variantes": [
+      "Cicadoidea",
+      "cicada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cicada"
+    ]
+  },
+  {
+    "id": "photuris",
+    "nome": "Photuris",
+    "descricao": "Gênero de vaga-lumes norte-americanos cujas fêmeas imitam os sinais luminosos de outras espécies para caçar.",
+    "variantes": [
+      "vaga-lume femme fatale"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Photuris"
+    ]
+  },
+  {
+    "id": "escorpiao_amarelo",
+    "nome": "Escorpião-amarelo",
+    "descricao": "Escorpião brasileiro (Tityus serrulatus), de veneno perigoso e comum em áreas urbanas.",
+    "variantes": [
+      "Tityus serrulatus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tityus_serrulatus"
+    ]
+  },
+  {
+    "id": "caramujo_gigante_africano",
+    "nome": "Caramujo-gigante-africano",
+    "descricao": "Molusco terrestre (Achatina fulica) nativo da África Oriental, espécie invasora no Brasil.",
+    "variantes": [
+      "Achatina fulica",
+      "Lissachatina fulica",
+      "caramujo-africano"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Achatina_fulica",
+      "https://pt.wikipedia.org/wiki/Achatina_fulica"
+    ]
+  },
+  {
+    "id": "limulo",
+    "nome": "Límulo",
+    "descricao": "Artrópode marinho da família Limulidae, conhecido como caranguejo-ferradura, de carapaça em forma de ferradura e sangue azul.",
+    "variantes": [
+      "caranguejo-ferradura",
+      "horseshoe crab",
+      "Limulus polyphemus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Horseshoe_crab"
+    ]
+  },
+  {
+    "id": "gafanhoto_do_deserto",
+    "nome": "Gafanhoto-do-deserto",
+    "descricao": "Gafanhoto africano e asiático (Schistocerca gregaria) que forma nuvens migratórias devastadoras.",
+    "variantes": [
+      "Schistocerca gregaria",
+      "desert locust"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Desert_locust"
+    ]
+  },
+  {
+    "id": "piolho_de_cobra",
+    "nome": "Piolho-de-cobra",
+    "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+    "variantes": [
+      "Diplopoda",
+      "diplópode",
+      "gongolo",
+      "embuá",
+      "millipede"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Millipede"
+    ]
+  },
+  {
+    "id": "cigarra_periodica",
+    "nome": "Cigarra-periódica",
+    "descricao": "Cigarras norte-americanas do gênero Magicicada, cujas ninfas emergem em massa em ciclos de treze ou dezessete anos.",
+    "variantes": [
+      "Magicicada",
+      "periodical cicada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Periodical_cicadas"
+    ]
+  },
+  {
+    "id": "tatuzinho_de_jardim",
+    "nome": "Tatuzinho-de-jardim",
+    "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+    "variantes": [
+      "tatu-bola-de-jardim",
+      "Armadillidium vulgare",
+      "isópode terrestre",
+      "woodlouse",
+      "pill bug"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Woodlouse"
+    ]
+  },
+  {
+    "id": "tocandira",
+    "nome": "Tocandira",
+    "descricao": "Grande formiga amazônica (Paraponera clavata), conhecida como formiga-bala pela picada extremamente dolorosa.",
+    "variantes": [
+      "Paraponera clavata",
+      "formiga-bala",
+      "bullet ant",
+      "tucandeira"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paraponera_clavata"
+    ]
+  },
+  {
+    "id": "fungo_zumbi",
+    "nome": "Fungo-zumbi",
+    "descricao": "Fungo parasita (Ophiocordyceps unilateralis) que controla o comportamento de formigas antes de matá-las.",
+    "variantes": [
+      "Ophiocordyceps unilateralis",
+      "fungo das formigas-zumbis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ophiocordyceps_unilateralis"
+    ]
+  },
+  {
+    "id": "vespa_de_papel",
+    "nome": "Vespa-de-papel",
+    "descricao": "Vespas sociais, como as do gênero Polistes, que constroem ninhos de material parecido com papel.",
+    "variantes": [
+      "Polistes",
+      "paper wasp",
+      "marimbondo-de-papel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paper_wasp"
+    ]
+  },
+  {
+    "id": "caracol_de_jardim",
+    "nome": "Caracol-de-jardim",
+    "descricao": "Caracol terrestre europeu (Cornu aspersum), comum em jardins e usado como escargot.",
+    "variantes": [
+      "Cornu aspersum",
+      "Helix aspersa",
+      "caracol-comum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cornu_aspersum"
+    ]
+  },
+  {
+    "id": "carmim",
+    "nome": "Carmim",
+    "descricao": "Corante vermelho natural, também chamado ácido carmínico ou cochonilha, usado em alimentos e cosméticos.",
+    "variantes": [
+      "carmine",
+      "corante de cochonilha",
+      "E120"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Carmine"
+    ]
+  },
+  {
+    "id": "bicho_da_seda",
+    "nome": "Bicho-da-seda",
+    "descricao": "Lagarta da mariposa domesticada Bombyx mori, que tece casulos de seda.",
+    "variantes": [
+      "Bombyx mori",
+      "silkworm"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bombyx_mori"
+    ]
+  },
+  {
+    "id": "formiga_lava_pes",
+    "nome": "Formiga-lava-pés",
+    "descricao": "Formiga-de-fogo (Solenopsis invicta) de picada ardida, nativa da América do Sul e invasora em outros continentes.",
+    "variantes": [
+      "Solenopsis invicta",
+      "formiga-de-fogo",
+      "red imported fire ant"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Red_imported_fire_ant"
+    ]
+  },
+  {
+    "id": "escorpiao",
+    "nome": "Escorpião",
+    "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+    "variantes": [
+      "Scorpiones",
+      "lacrau"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Scorpion"
+    ]
+  },
+  {
+    "id": "rola_bosta",
+    "nome": "Rola-bosta",
+    "descricao": "Besouros escarabeídeos que se alimentam de fezes e as moldam em bolas para rolar e enterrar.",
+    "variantes": [
+      "besouro-rola-bosta",
+      "dung beetle",
+      "escaravelho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dung_beetle"
+    ]
+  },
+  {
+    "id": "bicho_de_pe",
+    "nome": "Bicho-de-pé",
+    "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+    "variantes": [
+      "Tunga penetrans",
+      "bicho-do-porco",
+      "tunga",
+      "jigger"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tunga_penetrans"
+    ]
+  },
+  {
+    "id": "danca_das_abelhas",
+    "nome": "Dança das abelhas",
+    "descricao": "Dança do requebrado com que as abelhas operárias indicam às companheiras a direção e a distância de fontes de alimento.",
+    "variantes": [
+      "waggle dance",
+      "dança do requebrado",
+      "dança do oito"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Waggle_dance"
+    ]
+  },
+  {
+    "id": "abelha_africanizada",
+    "nome": "Abelha-africanizada",
+    "descricao": "Híbrido entre abelhas europeias e africanas surgido no Brasil e espalhado pelas Américas, conhecido pela defesa agressiva da colmeia.",
+    "variantes": [
+      "abelha assassina",
+      "Africanized bee"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Africanized_bee"
+    ]
+  },
+  {
+    "id": "a_formacao_do_humus_vegetal_pela_acao_das_minhocas",
+    "nome": "A Formação do Húmus Vegetal pela Ação das Minhocas",
+    "descricao": "Livro de 1881 sobre o papel das minhocas na formação do solo, último livro científico de Charles Darwin.",
+    "variantes": [
+      "The Formation of Vegetable Mould through the Action of Worms"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Formation_of_Vegetable_Mould_through_the_Action_of_Worms"
+    ]
+  },
+  {
+    "id": "besouro",
+    "nome": "Besouro",
+    "descricao": "Insetos da ordem Coleoptera, com o primeiro par de asas endurecido em forma de estojo.",
+    "variantes": [
+      "Coleoptera",
+      "coleóptero",
+      "beetle"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Beetle"
+    ]
+  },
+  {
+    "id": "zangao",
+    "nome": "Zangão",
+    "descricao": "Macho da abelha-europeia, cuja principal função é fecundar a rainha.",
+    "variantes": [
+      "drone",
+      "abelha macho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Drone_(bee)"
     ]
   }
 ]

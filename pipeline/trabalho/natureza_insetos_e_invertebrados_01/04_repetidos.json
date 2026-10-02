@@ -1,0 +1,177 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O louva-a-deus deve seu nome ao jeito como mantém as patas dianteiras dobradas. Com o que essa posição se parece?",
+        "resposta": "Mãos em oração"
+      },
+      "existentes": [
+        {
+          "id": "q02465",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Louva-a-deus"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Por que a abelha operária costuma morrer depois de ferroar uma pessoa?",
+        "resposta": "Perde o ferrão e parte do abdômen"
+      },
+      "existentes": [
+        {
+          "id": "q02459",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Abelha"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "A borboleta-monarca é tóxica para as aves. De que planta, comida na fase de lagarta, vem esse veneno?",
+        "resposta": "Asclépia"
+      },
+      "existentes": [
+        {
+          "id": "q02462",
+          "pergunta": "Que borboleta é esta?",
+          "resposta": "Borboleta-monarca"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Os cupins comem madeira, mas não conseguem digerir a celulose sozinhos. Quem faz esse trabalho por eles?",
+        "resposta": "Microrganismos do intestino"
+      },
+      "existentes": [
+        {
+          "id": "q02463",
+          "pergunta": "Estes insetos evoluíram a partir de qual outro grupo de insetos?",
+          "resposta": "Baratas"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Os antigos egípcios viam o escaravelho empurrando sua bola de esterco como símbolo de qual astro?",
+        "resposta": "Sol"
+      },
+      "existentes": [
+        {
+          "id": "q00070",
+          "pergunta": "No Egito Antigo, o escaravelho era sagrado porque seu hábito de rolar bolas de esterco lembrava o movimento de qual astro pelo céu?",
+          "resposta": "O Sol"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O sangue de lagostas e caranguejos fica azulado porque a molécula que transporta oxigênio contém qual metal?",
+        "resposta": "Cobre"
+      },
+      "existentes": [
+        {
+          "id": "q02531",
+          "pergunta": "O sangue do polvo é azulado porque a proteína que transporta oxigênio nele usa que metal no lugar do ferro?",
+          "resposta": "Cobre"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O grilo não tem ouvidos na cabeça. Em que parte do corpo ficam seus órgãos de audição?",
+        "resposta": "Nas patas dianteiras"
+      },
+      "existentes": [
+        {
+          "id": "q02466",
+          "pergunta": "Que inseto é este?",
+          "resposta": "Grilo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "No outono, as monarcas do leste da América do Norte voam milhares de quilômetros para passar o inverno nas florestas de montanha de qual país?",
+        "resposta": "México"
+      },
+      "existentes": [
+        {
+          "id": "q02462",
+          "pergunta": "Que borboleta é esta?",
+          "resposta": "Borboleta-monarca"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Apesar do apelido centopeia, nenhuma lacraia tem exatamente cem patas, porque a quantidade de pares de patas é sempre de que tipo?",
+        "resposta": "Ímpar"
+      },
+      "existentes": [
+        {
+          "id": "q02460",
+          "pergunta": "A que grupo de animais pertence este bicho?",
+          "resposta": "Miriápodes (quilópodes)"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente só pede a identificação do inseto em imagem; a nova pergunta sobre a origem do nome é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a abelha não responde por que a operária morre após ferroar."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Existente é identificação da borboleta; a nova pergunta pela planta tóxica."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Origem evolutiva dos cupins (baratas) é diferente da digestão da celulose por microrganismos."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o escaravelho egípcio simboliza o Sol por rolar bolas de esterco."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Embora a resposta seja cobre, o fato é sobre outro animal (crustáceos versus polvo); saber um não garante o outro."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Existente é identificação do grilo; a nova pergunta pela localização dos órgãos auditivos."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Existente é identificação da monarca; a nova pergunta pelo destino da migração."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Existente pede o grupo de animais; a nova pergunta sobre o número ímpar de pares de patas é outro fato."
+    }
+  ]
+}
