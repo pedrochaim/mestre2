@@ -1,0 +1,407 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato literal e sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fato conhecido (calcário marinho no cume), mas uma fonte é inexistente e os trechos não o mostram; troquei a fonte e simplifiquei a resposta.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "O calcário do cume do Everest guarda fósseis de animais antigos. Onde viviam esses animais?",
+        "resposta": "No mar",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mount_Everest",
+          "https://en.wikipedia.org/wiki/Geology_of_the_Himalayas"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado do nome confirmado na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colisão com a placa indiana sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem árabe do nome e significado sustentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Poeira do Saara fertilizando a Amazônia está nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Mais imponente' é subjetivo; ancorar no fato verificável de receber cerca de metade da vazão.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Que nome tem a queda das Cataratas do Iguaçu, uma fenda longa e estreita que recebe cerca de metade da vazão do rio?",
+        "resposta": "Garganta do Diabo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Iguazu_Falls",
+          "https://pt.wikipedia.org/wiki/Cataratas_do_Igua%C3%A7u"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado do nome confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Livingstone nomeou as cataratas em honra à rainha Vitória.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A pergunta vaza a resposta: 'vulcão' é derivada de Vulcano, e a âncora é uma categoria genérica.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ayers Rock sustentado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A razão 'quase sempre encoberto' não está nas fontes, e a pergunta quase entrega a resposta (neblina/nuvens).",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Localização no Amazonas confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome homenageia o aviador Jimmie Angel, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hạ Long significa dragão descendo, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A 'toalha de mesa' sobre a Montanha da Mesa é fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dolomieu era francês; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lagoas se formam com a chuva, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Colorado confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Herculano e a Vila dos Papiros confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português diz que a maioria das vítimas morreu pelos tsunamis.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1816 é o Ano sem Verão, ligado ao Tambora.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mary Shelley e o verão de 1816 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explicação do bojo equatorial confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Corrente de Humboldt confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "NASA testa instrumentos para Marte no Atacama.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Colunas de lava basáltica resfriada, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda de Finn McCool confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As pedras não se movem 'sobre' o gelo: são empurradas por placas de gelo movidas pelo vento.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "No Vale da Morte, na Califórnia, pedras deixam rastros ao deslizar sozinhas. O vento as move por meio de finas placas de quê?",
+        "resposta": "Gelo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sailing_stones",
+          "https://en.wikipedia.org/wiki/Racetrack_Playa"
+        ]
+      }
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Ninguém' é absoluto e a resposta está longa; fontes dizem que banhistas não afundam por causa da pressão da água.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Nos fervedouros do Jalapão, no Tocantins, os banhistas não afundam. O que os empurra para cima?",
+        "resposta": "A pressão da água",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jalap%C3%A3o",
+          "https://pt.wikipedia.org/wiki/Parque_Estadual_do_Jalap%C3%A3o"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte em português liga Roraima a O Mundo Perdido, de Conan Doyle.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tríplice fronteira confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Erupção Hoei de 1707, século dezoito, cinzas em Edo.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A série tem na verdade 46 gravuras; o 'trinta e seis' é só o título.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que artista japonês criou a série Trinta e Seis Vistas do Monte Fuji, que inclui A Grande Onda de Kanagawa?",
+        "resposta": "Hokusai",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Thirty-six_Views_of_Mount_Fuji",
+          "https://en.wikipedia.org/wiki/The_Great_Wave_off_Kanagawa"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspiração de Avatar em Zhangjiajie confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "John Ford's Point é amplamente documentado; faroestes de Ford confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tradição da Arca de Noé no Ararat confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aparece em O Enigma do Príncipe, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tufo macio erodido forma as chaminés de fada.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Antártida é o maior deserto do mundo, fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aconcágua é a mais alta fora da Ásia.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mauna Kea é a mais alta medida da base.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Há outros picos acima de 8000 m que não contam como independentes; o enunciado precisa do critério.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "aberta",
+        "pergunta": "Segundo a federação internacional de montanhismo, quantos picos independentes do planeta passam de oito mil metros de altitude?",
+        "resposta": "Catorze",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Eight-thousander"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete países confirmado pela fonte em inglês.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inauguração em 1912 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Paricutín, México, 1943, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Círculo de Fogo contorna o Pacífico.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Kilimanjaro é um estratovulcão isolado.",
+      "reescrita": null
+    }
+  ]
+}
