@@ -1,0 +1,50 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"País separatista\" é pista quase suficiente para a resposta e impreciso (a Confederação não foi reconhecida como país). Trocar por época e ano de uso, que ajudam sem entregar.",
+      "reescrita": {
+        "pergunta": "Esta bandeira foi usada a partir de mil oitocentos e sessenta e um, durante uma guerra civil. De que país ela é?",
+        "resposta": "Estados Confederados da América"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não entrega o nome, afirmações verdadeiras (guardada em Monza, medieval, italiana). Distratores são coroas europeias de mesmo tipo e nenhuma descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelos trechos (adotada durante a Revolução Russa). Enunciado não nomeia o símbolo, distratores são símbolos comunistas curtos e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado verdadeiro e sem vazamento. Os distratores são outros evangeliários insulares, e a imagem é que distingue a resposta, adequado ao nível 2.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O distrator \"Herbário de Dioscórides\" também é um manuscrito com plantas desenhadas, então o enunciado não o exclui. \"Livro de Horas\" é gênero, não obra específica. Também \"medieval\" é discutível para 1404–1438. Troco por século quinze e distratores específicos.",
+      "reescrita": {
+        "pergunta": "Que manuscrito ilustrado do século quinze, com desenhos de plantas, é este?",
+        "resposta": "Manuscrito Voynich",
+        "distratores": [
+          "Códice Gigas",
+          "Livro de Kells",
+          "Códice Leicester"
+        ]
+      }
+    }
+  ]
+}

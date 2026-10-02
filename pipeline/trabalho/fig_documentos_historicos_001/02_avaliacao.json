@@ -1,0 +1,156 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O texto visível (In Congress, July 4, 1776; The unanimous Declaration of the thirteen united States of America) entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O título 'Ato Institucional nº 5, de 13 de dezembro de 1968' está visível e entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É um mapa cheio de legendas, com o título 'Weltkarte des Idrisi' no topo, que entrega o autor. Também é difícil de ler num celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "A bandeira é clara, sem texto, e a resposta é única (primeira bandeira nacional confederada, com 13 estrelas em círculo).",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 1,
+      "pergunta": "De que país separatista do século dezenove é esta bandeira?",
+      "resposta": "Estados Confederados da América",
+      "distratores": [],
+      "ancora": {
+        "nome": "Bandeira dos Estados Confederados (Stars and Bars)",
+        "descricao": "Primeira bandeira nacional dos Estados Confederados da América, usada de 1861 a 1863, com listras vermelhas e brancas e um círculo de estrelas num cantão azul.",
+        "variantes": [
+          "Stars and Bars",
+          "Primeira bandeira nacional confederada"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "É uma xilogravura-diagrama com letras e texto ('Horizon', 'De Kimmen'). O astrolábio aparece pequeno e não é reconhecível pela imagem."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "A foto é nítida e sem texto, e a coroa é distintiva (placas de ouro, esmaltes verdes e gemas). Múltipla com coroas medievais parecidas dá justiça à pergunta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 3,
+      "pergunta": "Que antiga coroa medieval italiana é esta?",
+      "resposta": "Coroa de Ferro da Lombardia",
+      "distratores": [
+        "Coroa de Santo Estêvão",
+        "Coroa de Carlos Magno",
+        "Coroa de Santo Venceslau"
+      ],
+      "ancora": {
+        "nome": "Coroa de Ferro da Lombardia",
+        "descricao": "Coroa-relicário medieval de ouro e gemas, guardada na catedral de Monza, usada na coroação de reis da Itália.",
+        "variantes": [
+          "Coroa de Ferro",
+          "Corona Ferrea",
+          "Iron Crown of Lombardy"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A capa traz 'Constituição' e '1988' em destaque, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A capa traz o texto completo 'Treaty of Peace... Germany... Signed at Versailles, June 28th, 1919', o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "É um mapa com legendas e inscrições (Mundus Novus, Brasil, Africa, Asia). Não é reconhecível como o Atlas Miller pela imagem, e as legendas são miúdas num celular."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "O símbolo é nítido, sem texto, e a resposta é única.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "pergunta": "Que símbolo adotado na Revolução Russa é este?",
+      "resposta": "Foice e martelo",
+      "distratores": [
+        "Estrela vermelha",
+        "Punho cerrado",
+        "Espiga e roda dentada"
+      ],
+      "ancora": {
+        "nome": "Foice e martelo",
+        "descricao": "Símbolo comunista que representa a união entre operários e camponeses, criado em 1918 e adotado na Rússia soviética.",
+        "variantes": [
+          "Martelo e foice",
+          "Hammer and sickle"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Página decorada típica da arte insular, sem texto que entregue a resposta (só poucas letras latinas). Múltipla com manuscritos insulares parecidos dá justiça à pergunta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 3,
+      "pergunta": "Que manuscrito iluminado dos quatro Evangelhos é este?",
+      "resposta": "Livro de Kells",
+      "distratores": [
+        "Evangelhos de Lindisfarne",
+        "Livro de Durrow",
+        "Livro de Armagh"
+      ],
+      "ancora": {
+        "nome": "Livro de Kells",
+        "descricao": "Manuscrito iluminado celta dos quatro Evangelhos, criado por volta do ano 800 e hoje na biblioteca do Trinity College, em Dublin.",
+        "variantes": [
+          "Book of Kells",
+          "Codex Cenannensis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "A página é distintiva (flores vermelhas e azuis, escrita estranha) e a resposta é única. O texto ilegível e o número 29 não entregam a resposta.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 3,
+      "pergunta": "Que manuscrito medieval, com plantas desenhadas, é este?",
+      "resposta": "Manuscrito Voynich",
+      "distratores": [
+        "Códice Gigas",
+        "Herbário de Dioscórides",
+        "Livro de Horas"
+      ],
+      "ancora": {
+        "nome": "Manuscrito Voynich",
+        "descricao": "Códice ilustrado do século quinze, escrito numa escrita jamais decifrada, com desenhos de plantas, figuras astronômicas e outras.",
+        "variantes": [
+          "Voynich manuscript",
+          "Códice Voynich"
+        ]
+      }
+    }
+  ]
+}

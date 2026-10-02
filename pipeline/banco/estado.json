@@ -79,9 +79,10 @@
     "fig_invencoes_002",
     "geografia_rios_e_lagos_01",
     "fig_estadios_002",
-    "fig_cidades_001"
+    "fig_cidades_001",
+    "fig_documentos_historicos_001"
   ],
-  "maior_id": 2182,
+  "maior_id": 2187,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -399,6 +400,16 @@
         "3": 1
       },
       "registradas": 7
+    },
+    "documentos_historicos": {
+      "familias": {
+        "o_que_e": 5
+      },
+      "niveis": {
+        "1": 1,
+        "2": 4
+      },
+      "registradas": 5
     }
   },
   "rendimento": {
