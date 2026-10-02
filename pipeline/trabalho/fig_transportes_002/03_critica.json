@@ -1,0 +1,54 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fabricante, Douglas Aircraft Company, e a época (anos trinta a Segunda Guerra) estão nos trechos. O enunciado não nomeia o avião e só a figura permite chegar à resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Opala foi produzido de 1968 a 1992, então 'dos anos setenta' é impreciso e enganoso. A época correta de lançamento (fim dos anos sessenta) está nos trechos. Os distratores continuam críveis e errados.",
+      "reescrita": {
+        "pergunta": "Que carro brasileiro, lançado no fim dos anos sessenta, é este?",
+        "resposta": "Chevrolet Opala",
+        "distratores": [
+          "Dodge Dart",
+          "Ford Maverick",
+          "Ford Galaxie"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que R. J. Mitchell projetou o Spitfire. O enunciado não vaza o nome e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O SP2 foi construído pela Volkswagen do Brasil de 1972 a 1975, o que confirma 'década de setenta' e a resposta. O enunciado não nomeia o carro.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O primeiro voo do A380 foi em 27 de abril de 2005, confirmado nos trechos. Os distratores são anos plausíveis e errados; 2003 é só o início do programa de produção.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que o Gol foi lançado em 1980 e que a produção vai de 1980 a 2023. A resposta é única, e dar a marca Volkswagen não entrega o modelo.",
+      "reescrita": null
+    }
+  ]
+}

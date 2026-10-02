@@ -90,9 +90,10 @@
     "geografia_povos_e_idiomas_01",
     "fig_modalidades_objetos_002",
     "fig_documentos_historicos_002",
-    "fig_paisagens_001"
+    "fig_paisagens_001",
+    "fig_transportes_002"
   ],
-  "maior_id": 2342,
+  "maior_id": 2348,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -388,15 +389,16 @@
     },
     "transportes": {
       "familias": {
-        "o_que_e": 3,
-        "quem_fez": 1,
-        "quando": 2
+        "o_que_e": 4,
+        "quem_fez": 4,
+        "quando": 4
       },
       "niveis": {
-        "1": 3,
-        "2": 3
+        "1": 5,
+        "2": 5,
+        "3": 2
       },
-      "registradas": 6
+      "registradas": 12
     },
     "cidades": {
       "familias": {
