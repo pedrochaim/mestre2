@@ -1,0 +1,733 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Itália",
+        "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+        "variantes": [
+          "República Italiana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "libano",
+          "nome": "Líbano",
+          "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+          "variantes": [
+            "República Libanesa"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Santa Catarina",
+        "descricao": "Estado da Região Sul do Brasil, entre o Paraná e o Rio Grande do Sul, com capital em Florianópolis.",
+        "variantes": [
+          "SC"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "la_calavera_catrina",
+          "nome": "La Calavera Catrina",
+          "descricao": "Figura de uma caveira feminina elegante de chapéu, símbolo do Dia dos Mortos mexicano.",
+          "variantes": [
+            "Catrina",
+            "La Catrina",
+            "Calavera Garbancera"
+          ]
+        },
+        {
+          "id": "saiga",
+          "nome": "Saiga",
+          "descricao": "Antílope das estepes eurasiáticas com focinho inchado e flexível (Saiga tatarica).",
+          "variantes": [
+            "Antílope-saiga",
+            "Saiga tatarica"
+          ]
+        },
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        },
+        {
+          "id": "lontra_marinha",
+          "nome": "Lontra-marinha",
+          "descricao": "Mamífero marinho do Pacífico Norte, espécie Enhydra lutris.",
+          "variantes": [
+            "Enhydra lutris",
+            "Sea otter"
+          ]
+        },
+        {
+          "id": "magna_carta",
+          "nome": "Magna Carta",
+          "descricao": "Carta de direitos que os barões ingleses impuseram ao rei em 1215, limitando o poder da coroa.",
+          "variantes": [
+            "Magna Charta",
+            "Grande Carta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Quirguistão",
+        "descricao": "País montanhoso e sem litoral da Ásia Central, entre o Cazaquistão, o Uzbequistão, o Tajiquistão e a China.",
+        "variantes": [
+          "Quirguízia",
+          "Kyrgyzstan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "anu_branco",
+          "nome": "Anu-branco",
+          "descricao": "Ave gregária da família dos cuculídeos, de topete e cauda longa, de campos abertos da América do Sul.",
+          "variantes": [
+            "Guira guira",
+            "Guira cuckoo"
+          ]
+        },
+        {
+          "id": "uzbequistao",
+          "nome": "Uzbequistão",
+          "descricao": "País da Ásia Central cuja capital é Tashkent.",
+          "variantes": [
+            "Uzbekistan",
+            "Usbequistão"
+          ]
+        },
+        {
+          "id": "bandeira_do_cazaquistao",
+          "nome": "Bandeira do Cazaquistão",
+          "descricao": "Bandeira nacional do Cazaquistão, azul-turquesa com sol dourado, águia e ornamento vertical na lateral.",
+          "variantes": [
+            "Cazaquistão",
+            "Bandeira do Kazakhstan"
+          ]
+        },
+        {
+          "id": "kiribati",
+          "nome": "Kiribati",
+          "descricao": "País insular do Oceano Pacífico formado por atóis espalhados em torno do equador, cuja capital é Tarawa do Sul.",
+          "variantes": [
+            "República de Kiribati",
+            "Quiribati"
+          ]
+        },
+        {
+          "id": "virus_zika",
+          "nome": "Vírus zika",
+          "descricao": "Vírus transmitido por mosquitos Aedes, identificado pela primeira vez em 1947.",
+          "variantes": [
+            "Zika virus",
+            "ZIKV"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Rio de Janeiro (estado)",
+        "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+        "variantes": [
+          "Rio de Janeiro",
+          "Estado do Rio de Janeiro",
+          "RJ"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro"
+          ]
+        },
+        {
+          "id": "tratado_do_rio_de_janeiro_de_1825",
+          "nome": "Tratado do Rio de Janeiro de 1825",
+          "descricao": "Tratado pelo qual Portugal reconheceu a independência do Brasil em 1825.",
+          "variantes": [
+            "Tratado de Paz e Aliança de 1825"
+          ]
+        },
+        {
+          "id": "roque_santeiro",
+          "nome": "Roque Santeiro",
+          "descricao": "Telenovela da Rede Globo escrita por Dias Gomes e Aguinaldo Silva, exibida em 1985.",
+          "variantes": []
+        },
+        {
+          "id": "assassinato_de_julio_cesar",
+          "nome": "Assassinato de Júlio César",
+          "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+          "variantes": [
+            "Idos de Março",
+            "Assassination of Julius Caesar"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Colômbia",
+        "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+        "variantes": [
+          "República da Colômbia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_colombia",
+          "nome": "Bandeira da Colômbia",
+          "descricao": "Bandeira nacional da Colômbia, tricolor horizontal com faixa amarela dupla, azul e vermelha.",
+          "variantes": [
+            "Colômbia"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Piauí",
+        "descricao": "Estado da Região Nordeste do Brasil, com o menor litoral do país e capital em Teresina.",
+        "variantes": [
+          "Estado do Piauí",
+          "PI"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "estacoes_do_ano",
+          "nome": "Estações do ano",
+          "descricao": "As quatro divisões do ano, primavera, verão, outono e inverno, com mudanças de temperatura e duração do dia.",
+          "variantes": [
+            "Estação do ano",
+            "Season"
+          ]
+        },
+        {
+          "id": "pikachu",
+          "nome": "Pikachu",
+          "descricao": "Pokémon do tipo Elétrico, número 25 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tv_tupi",
+          "nome": "TV Tupi",
+          "descricao": "Rede de televisão brasileira de Assis Chateaubriand, inaugurada em São Paulo em 1950 e extinta em 1980.",
+          "variantes": [
+            "Rede Tupi",
+            "Tupi"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Chile",
+        "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+        "variantes": [
+          "República do Chile"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "seicheles",
+          "nome": "Seicheles",
+          "descricao": "País arquipelágico de 115 ilhas no Oceano Índico, a leste da África continental, cuja capital é Victoria.",
+          "variantes": [
+            "Seychelles",
+            "República das Seicheles"
+          ]
+        },
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pará",
+        "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+        "variantes": [
+          "Estado do Pará",
+          "PA"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_de_spa_francorchamps",
+          "nome": "Circuito de Spa-Francorchamps",
+          "descricao": "Circuito nas Ardenas, na Bélgica.",
+          "variantes": [
+            "Spa-Francorchamps",
+            "Spa"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "farao",
+          "nome": "Faraó",
+          "descricao": "Título dado pelos historiadores modernos aos reis do Egito Antigo",
+          "variantes": [
+            "Pharaoh",
+            "Per-aa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Laos",
+        "descricao": "País sem litoral do Sudeste Asiático, entre Vietnã, Tailândia, Camboja, Mianmar e China, com capital em Vientiane.",
+        "variantes": [
+          "República Democrática Popular do Laos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "lost",
+          "nome": "Lost",
+          "descricao": "Série americana exibida de 2004 a 2010, sobre um grupo de pessoas presas numa ilha misteriosa do Pacífico.",
+          "variantes": [
+            "Lost (série)"
+          ]
+        },
+        {
+          "id": "nepal",
+          "nome": "Nepal",
+          "descricao": "País sem litoral do sul da Ásia, entre a China e a Índia, com capital em Katmandu e o Monte Everest.",
+          "variantes": [
+            "República Democrática Federal do Nepal"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "lacrosse",
+          "nome": "Lacrosse",
+          "descricao": "Esporte de origem indígena norte-americana, jogado com bastões de rede.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Portugal",
+        "descricao": "País do sudoeste da Europa, na Península Ibérica, com Açores e Madeira e capital em Lisboa.",
+        "variantes": [
+          "República Portuguesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "portugal",
+          "nome": "Portugal",
+          "descricao": "País do sudoeste da Europa, na Península Ibérica, de capital Lisboa.",
+          "variantes": [
+            "República Portuguesa"
+          ]
+        },
+        {
+          "id": "lingua_portuguesa",
+          "nome": "Língua portuguesa",
+          "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes",
+          "variantes": [
+            "Português"
+          ]
+        },
+        {
+          "id": "argelia",
+          "nome": "Argélia",
+          "descricao": "País do norte da África cuja capital é Argel.",
+          "variantes": [
+            "Algeria",
+            "República Argelina"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Egito",
+        "descricao": "País do nordeste da África, atravessado pelo rio Nilo, com capital no Cairo.",
+        "variantes": [
+          "República Árabe do Egito"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agitos",
+          "nome": "Agitos",
+          "descricao": "Símbolo dos Jogos Paralímpicos, formado por três meias-luas em vermelho, azul e verde.",
+          "variantes": [
+            "Símbolo paralímpico"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "africa_do_sul",
+          "nome": "África do Sul",
+          "descricao": "País do extremo sul da África com três capitais: Pretória, Cidade do Cabo e Bloemfontein.",
+          "variantes": [
+            "South Africa",
+            "República da África do Sul"
+          ]
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Sergipe",
+        "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju.",
+        "variantes": [
+          "Estado de Sergipe",
+          "SE"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        },
+        {
+          "id": "estadio_de_wembley",
+          "nome": "Estádio de Wembley",
+          "descricao": "Estádio nacional da Inglaterra, em Londres, com um grande arco.",
+          "variantes": []
+        },
+        {
+          "id": "gripe",
+          "nome": "Gripe",
+          "descricao": "Doença respiratória contagiosa causada pelos vírus influenza.",
+          "variantes": [
+            "Influenza",
+            "Flu"
+          ]
+        },
+        {
+          "id": "sega",
+          "nome": "Sega",
+          "descricao": "Empresa japonesa de videogames, criadora do Mega Drive e do Sonic.",
+          "variantes": [
+            "Sega Corporation"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Itália não está entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Estado de Santa Catarina não consta; candidatas são entidades não relacionadas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quirguistão não consta; Uzbequistão e a bandeira do Cazaquistão são outras entidades."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "O estado do Rio de Janeiro é distinto da cidade do Rio de Janeiro."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "O país difere da bandeira da Colômbia."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Piauí não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O país difere da bandeira do Chile."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Estado do Pará não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Laos não consta entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "motivo": "Mesmo país, Portugal, com descrição e variante equivalentes.",
+      "id_existente": "portugal"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Egito não consta entre as candidatas."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Sergipe não consta entre as candidatas."
+    }
+  ]
+}

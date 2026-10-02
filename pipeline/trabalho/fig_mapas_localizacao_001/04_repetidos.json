@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que país faz fronteira por terra com o país destacado neste mapa?",
+        "resposta": "Espanha"
+      },
+      "existentes": [
+        {
+          "id": "q00921",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Portugal"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede o país vizinho de Portugal (Espanha); a existente pede identificar a bandeira de Portugal. Fatos diferentes."
+    }
+  ]
+}

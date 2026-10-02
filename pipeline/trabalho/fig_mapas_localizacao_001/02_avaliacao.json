@@ -1,0 +1,251 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa limpo, Itália em verde-escuro, forma inconfundível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Itália",
+      "destino": 0,
+      "ancora": {
+        "nome": "Itália",
+        "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+        "variantes": [
+          "República Italiana"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mapa de localização limpo, estado em vermelho, reconhecível pelo contorno.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do estado brasileiro destacado neste mapa?",
+      "resposta": "Florianópolis",
+      "distratores": [
+        "Joinville",
+        "Curitiba",
+        "Porto Alegre"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Santa Catarina",
+        "descricao": "Estado da Região Sul do Brasil, entre o Paraná e o Rio Grande do Sul, com capital em Florianópolis.",
+        "variantes": [
+          "SC"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Globo com o país em vermelho, legível e sem texto; Ásia Central é reconhecível pela posição.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Bisqueque (Bishkek)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Quirguistão",
+        "descricao": "País montanhoso e sem litoral da Ásia Central, entre o Cazaquistão, o Uzbequistão, o Tajiquistão e a China.",
+        "variantes": [
+          "Quirguízia",
+          "Quirguistão",
+          "Kyrgyzstan"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com o estado em vermelho, contorno e posição costeira claros.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Rio de Janeiro",
+      "destino": 1,
+      "ancora": {
+        "nome": "Rio de Janeiro (estado)",
+        "descricao": "Estado da Região Sudeste do Brasil, cuja capital é a cidade do Rio de Janeiro.",
+        "variantes": [
+          "Estado do Rio de Janeiro",
+          "RJ"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Globo com a Colômbia em verde, forma reconhecível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Colômbia",
+      "distratores": [
+        "Venezuela",
+        "Peru",
+        "Equador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Colômbia",
+        "descricao": "País do noroeste da América do Sul, com costa no Caribe e no Pacífico, cuja capital é Bogotá.",
+        "variantes": [
+          "República da Colômbia"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com o Piauí em vermelho, formato bem característico.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que estado brasileiro está destacado neste mapa?",
+      "resposta": "Piauí",
+      "destino": 1,
+      "ancora": {
+        "nome": "Piauí",
+        "descricao": "Estado da Região Nordeste do Brasil, com o menor litoral do país e capital em Teresina.",
+        "variantes": [
+          "Estado do Piauí",
+          "PI"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Globo com o Chile em verde, faixa estreita inconfundível; a reivindicação antártica não gera ambiguidade.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Chile",
+      "distratores": [
+        "Argentina",
+        "Peru",
+        "Bolívia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chile",
+        "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+        "variantes": [
+          "República do Chile"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com o Pará em vermelho, grande e bem delimitado.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado brasileiro destacado neste mapa?",
+      "resposta": "Belém",
+      "destino": 1,
+      "ancora": {
+        "nome": "Pará",
+        "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+        "variantes": [
+          "Estado do Pará",
+          "PA"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Globo com o Laos em vermelho, país pequeno mas de formato visível; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Laos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Laos",
+        "descricao": "País sem litoral do Sudeste Asiático, entre Vietnã, Tailândia, Camboja, Mianmar e China, com capital em Vientiane.",
+        "variantes": [
+          "República Democrática Popular do Laos"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Mapa da Europa com Portugal em verde-escuro, incluindo Açores e Madeira; sem texto. Só a Espanha faz fronteira terrestre.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que país faz fronteira por terra com o país destacado neste mapa?",
+      "resposta": "Espanha",
+      "distratores": [
+        "França",
+        "Marrocos",
+        "Itália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Portugal",
+        "descricao": "País do sudoeste da Europa, na Península Ibérica, com Açores e Madeira e capital em Lisboa.",
+        "variantes": [
+          "República Portuguesa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Globo com o Egito em verde, formato quase retangular e posição clara.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país está destacado neste mapa?",
+      "resposta": "Egito",
+      "destino": 0,
+      "ancora": {
+        "nome": "Egito",
+        "descricao": "País do nordeste da África, atravessado pelo rio Nilo, com capital no Cairo.",
+        "variantes": [
+          "República Árabe do Egito"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com Sergipe em vermelho, pequeno mas legível na costa do Nordeste.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a capital do estado brasileiro destacado neste mapa?",
+      "resposta": "Aracaju",
+      "distratores": [
+        "Maceió",
+        "Salvador",
+        "Recife"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Sergipe",
+        "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju.",
+        "variantes": [
+          "Estado de Sergipe",
+          "SE"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "entidades": [
+    {
+      "nome": "Brasil",
+      "titulo": "en:Brazil",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estados Unidos",
+      "titulo": "en:United States",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "China",
+      "titulo": "en:China",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Rússia",
+      "titulo": "en:Russia",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Austrália",
+      "titulo": "en:Australia",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Japão",
+      "titulo": "en:Japan",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chile",
+      "titulo": "en:Chile",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "México",
+      "titulo": "en:Mexico",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Itália",
+      "titulo": "en:Italy",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Portugal",
+      "titulo": "en:Portugal",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "São Paulo",
+      "titulo": "en:São Paulo (state)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio de Janeiro",
+      "titulo": "en:Rio de Janeiro (state)",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Amazonas",
+      "titulo": "en:Amazonas (Brazilian state)",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Índia",
+      "titulo": "en:India",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Egito",
+      "titulo": "en:Egypt",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Peru",
+      "titulo": "en:Peru",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Colômbia",
+      "titulo": "en:Colombia",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Espanha",
+      "titulo": "en:Spain",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Uruguai",
+      "titulo": "en:Uruguay",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Madagascar",
+      "titulo": "en:Madagascar",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mongólia",
+      "titulo": "en:Mongolia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bahia",
+      "titulo": "en:Bahia",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Minas Gerais",
+      "titulo": "en:Minas Gerais",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rio Grande do Sul",
+      "titulo": "en:Rio Grande do Sul",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Santa Catarina",
+      "titulo": "en:Santa Catarina (state)",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Pará",
+      "titulo": "en:Pará",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Mato Grosso",
+      "titulo": "en:Mato Grosso",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Chade",
+      "titulo": "en:Chad",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Laos",
+      "titulo": "en:Laos",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Malawi",
+      "titulo": "en:Malawi",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Butão",
+      "titulo": "en:Bhutan",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quirguistão",
+      "titulo": "en:Kyrgyzstan",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Eritreia",
+      "titulo": "en:Eritrea",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sergipe",
+      "titulo": "en:Sergipe",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Alagoas",
+      "titulo": "en:Alagoas",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Rondônia",
+      "titulo": "en:Rondônia",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Amapá",
+      "titulo": "en:Amapá",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tocantins",
+      "titulo": "en:Tocantins",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Piauí",
+      "titulo": "en:Piauí",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Roraima",
+      "titulo": "en:Roraima",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    }
+  ]
+}
