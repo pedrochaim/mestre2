@@ -213,15 +213,20 @@ export function posicao(id) {
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
-// Recorte do mapa em volta de uma linha (da linha de baixo até `depois` linhas acima), para a aba Turno.
-export function viewBoxRecorte(r, antes = 1, depois = 5) {
+// Recorte do mapa em volta de uma linha (da linha de baixo até `depois` linhas acima), para a aba Turno. Perto do topo,
+// o recorte desce para continuar com a mesma altura.
+export function viewBoxRecorte(r, antes = 1, depois = 4) {
   const { L, A } = tamanhoMapa();
-  const topo = Math.max(0, A - TOPO - (r + depois + .7) * ESP_Y), base = Math.min(A, A - TOPO - (r - antes - .7) * ESP_Y);
+  const alto = (antes + depois + 1.4) * ESP_Y;
+  let base = Math.min(A, A - TOPO - (r - antes - .7) * ESP_Y);
+  let topo = base - alto;
+  if (topo < 0) { topo = 0; base = Math.min(A, alto); }
   return `0 ${topo.toFixed(0)} ${L} ${(base - topo).toFixed(0)}`;
 }
 
 // SVG do mapa com os peões. `cores`: {tema: [fundo, texto]}; `destaque`: ids das casas possíveis da vez;
-// opcoes.escolhido: a casa escolhida; opcoes.viewBox: um recorte (viewBoxRecorte).
+// opcoes.escolhido: a casa escolhida; opcoes.viewBox: um recorte (viewBoxRecorte); opcoes.vez: o id do jogador da vez,
+// cujo peão ganha um anel pulsante; opcoes.peao: escala dos peões (maiores no recorte da aba Turno).
 export function svgMapa(mapa, jogadores, cores, destaque = [], opcoes = {}) {
   const { L, A } = tamanhoMapa();
   const p = [`<rect width="${L}" height="${A}" rx="22" fill="#161615"/>`];
@@ -253,19 +258,25 @@ export function svgMapa(mapa, jogadores, cores, destaque = [], opcoes = {}) {
   // Peões: vários na mesma casa ficam em volta dela.
   const porCasa = new Map();
   for (const j of jogadores) if (j.trilha?.pos && mapa.nos.has(j.trilha.pos)) porCasa.set(j.trilha.pos, [...(porCasa.get(j.trilha.pos) || []), j]);
+  const k0 = opcoes.peao || 1;
   for (const [id, js] of porCasa) {
     const [x, y] = posicao(id);
     js.forEach((j, k) => {
-      const a = -Math.PI / 2 + (k - (js.length - 1) / 2) * .9;
-      const [px, py] = [x + Math.cos(a) * 30, y + Math.sin(a) * 30];
+      const a = -Math.PI / 2 + (k - (js.length - 1) / 2) * 1.15;  // peões vizinhos sem se encavalar
+      const [px, py] = [x + Math.cos(a) * 30 * k0, y + Math.sin(a) * 30 * k0];
       const prof = PROFISSOES[j.trilha.profissao];
       const [c, ct] = cores[prof?.temas[0]] || ["#6b6b66", "#fff"];
       const ini = j.nome.split(/\s+/).filter(Boolean).slice(0, 2).map(s => s[0]).join("").toUpperCase();
-      p.push(`<g class="peao" data-id="${esc(j.id)}"><title>${esc(j.nome)}${prof ? " · " + esc(prof.nome) : ""}</title>
-        <circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="26" fill="transparent"/>
-        <circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="16" fill="#000"/>
-        <circle cx="${px.toFixed(1)}" cy="${py.toFixed(1)}" r="13.5" fill="${c}" stroke="#fff" stroke-width="2.5"/>
-        <text x="${px.toFixed(1)}" y="${py.toFixed(1)}" font-size="10.5" font-weight="800" fill="${ct}" text-anchor="middle" dominant-baseline="central">${esc(ini)}</text></g>`);
+      const [cx, cy] = [px.toFixed(1), py.toFixed(1)];
+      const pulso = j.id === opcoes.vez
+        ? `<circle cx="${cx}" cy="${cy}" r="${19 * k0}" fill="none" stroke="#fff" stroke-width="${3 * k0}">
+             <animate attributeName="r" values="${17 * k0};${24 * k0};${17 * k0}" dur="1.6s" repeatCount="indefinite"/>
+             <animate attributeName="opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/></circle>` : "";
+      p.push(`<g class="peao" data-id="${esc(j.id)}"><title>${esc(j.nome)}${prof ? " · " + esc(prof.nome) : ""}</title>${pulso}
+        <circle cx="${cx}" cy="${cy}" r="${26 * k0}" fill="transparent"/>
+        <circle cx="${cx}" cy="${cy}" r="${16 * k0}" fill="#000"/>
+        <circle cx="${cx}" cy="${cy}" r="${13.5 * k0}" fill="${c}" stroke="#fff" stroke-width="${2.5 * k0}"/>
+        <text x="${cx}" y="${cy}" font-size="${10.5 * k0}" font-weight="800" fill="${ct}" text-anchor="middle" dominant-baseline="central">${esc(ini)}</text></g>`);
     });
   }
   return `<svg viewBox="${opcoes.viewBox || `0 0 ${L} ${A}`}" role="img" aria-label="Mapa da Trilha da Vida">${p.join("")}</svg>`;

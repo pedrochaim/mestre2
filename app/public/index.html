@@ -1017,7 +1017,7 @@
   function desenharTabuleiros() {
     if (arrasto) return;
     $("tabuleiro").innerHTML = $("mesa-tab").innerHTML =
-      ehTrilha() && mapa ? T.svgMapa(mapa, jogadores, CORES, opcoesDaVez().map(n => n.id)) : svgTabuleiro();
+      ehTrilha() && mapa ? T.svgMapa(mapa, jogadores, CORES, opcoesDaVez().map(n => n.id), { vez: vezAtual()?.id }) : svgTabuleiro();
   }
   const pontoSvg = (svg, e) => Object.assign(svg.createSVGPoint(), { x: e.clientX, y: e.clientY })
     .matrixTransform(svg.getScreenCTM().inverse());
@@ -1435,10 +1435,11 @@
     const linhaMapa = el("div", { className: "mapa-linha" });
     const alternar = el("button", { textContent: turno.mapaInteiro ? "Ver só o trecho" : "Mapa inteiro" });
     alternar.onclick = () => { turno.mapaInteiro = !turno.mapaInteiro; desenharTurno(); };
-    linhaMapa.append(el("span", { className: "suave", textContent: possiveis.length ? "Toque numa casa com anel azul, ou use a lista abaixo." : "" }), alternar);
+    linhaMapa.append(el("span", { className: "suave", textContent: possiveis.length ? "Toque numa casa azul" : "" }), alternar);
     const caixaMapa = el("div", { className: "tabuleiro mapa-turno" });
     caixaMapa.innerHTML = T.svgMapa(mapa, jogadores, CORES, possiveis,
-      { escolhido: turno.destino, viewBox: turno.mapaInteiro ? null : T.viewBoxRecorte(T.linhaDe(t.pos)) });
+      { escolhido: turno.destino, vez: jv.id, peao: turno.mapaInteiro ? 1.3 : 1.7,
+        viewBox: turno.mapaInteiro ? null : T.viewBoxRecorte(T.linhaDe(t.pos)) });
     caixaMapa.onclick = e => {
       const svg = caixaMapa.querySelector("svg");
       const pt = pontoSvg(svg, e);
