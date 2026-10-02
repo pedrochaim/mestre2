@@ -1,0 +1,533 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Luva de boxe",
+        "descricao": "Luva acolchoada usada por lutadores em combates e treinos de boxe.",
+        "variantes": [
+          "Luvas de boxe"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luva_de_beisebol",
+          "nome": "Luva de beisebol",
+          "descricao": "Luva de couro usada para apanhar a bola no beisebol.",
+          "variantes": []
+        },
+        {
+          "id": "ringue_de_boxe",
+          "nome": "Ringue de boxe",
+          "descricao": "Espaço quadrado cercado por cordas onde se disputam as lutas de boxe.",
+          "variantes": [
+            "Ringue",
+            "Boxing ring"
+          ]
+        },
+        {
+          "id": "eclipse_lunar",
+          "nome": "Eclipse lunar",
+          "descricao": "Fenômeno em que a Terra fica entre o Sol e a Lua, e sua sombra cobre a Lua.",
+          "variantes": [
+            "Eclipse da Lua",
+            "Lua de sangue"
+          ]
+        },
+        {
+          "id": "bola_de_golfe",
+          "nome": "Bola de golfe",
+          "descricao": "Pequena bola com covinhas na superfície usada no golfe.",
+          "variantes": [
+            "Golf ball"
+          ]
+        },
+        {
+          "id": "falesias_de_moher",
+          "nome": "Falésias de Moher",
+          "descricao": "Penhascos sobre o Oceano Atlântico no condado de Clare, na costa oeste da Irlanda.",
+          "variantes": [
+            "Cliffs of Moher",
+            "Penhascos de Moher"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Corrida com barreiras",
+        "descricao": "Prova de atletismo em que os corredores saltam barreiras posicionadas na pista.",
+        "variantes": [
+          "Provas de barreiras",
+          "Hurdles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga"
+          ]
+        },
+        {
+          "id": "codigo_de_barras",
+          "nome": "Código de barras",
+          "descricao": "Representação de dados em barras paralelas lidas por scanners, criada por Norman Joseph Woodland e Bernard Silver.",
+          "variantes": [
+            "Barcode"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Nunchaku",
+        "descricao": "Arma de artes marciais formada por dois bastões unidos por corda ou corrente.",
+        "variantes": [
+          "Nunchuck",
+          "Nunchaco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lançamento de dardo",
+        "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+        "variantes": [
+          "Arremesso de dardo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acoplamento_de_mare",
+          "nome": "Acoplamento de maré",
+          "descricao": "Sincronização em que um astro leva o mesmo tempo para girar em torno de si e para orbitar outro, como a Lua em relação à Terra.",
+          "variantes": [
+            "Rotação síncrona",
+            "Travamento de maré",
+            "Tidal locking"
+          ]
+        },
+        {
+          "id": "branqueamento_de_corais",
+          "nome": "Branqueamento de corais",
+          "descricao": "Fenômeno em que os corais perdem a cor ao expulsar as algas que vivem em seus tecidos.",
+          "variantes": [
+            "Coral bleaching"
+          ]
+        },
+        {
+          "id": "centro_de_lancamento_de_alcantara",
+          "nome": "Centro de Lançamento de Alcântara",
+          "descricao": "Base brasileira de lançamento de foguetes, próxima à linha do Equador.",
+          "variantes": [
+            "CLA",
+            "Base de Alcântara"
+          ]
+        },
+        {
+          "id": "malhacao_de_judas",
+          "nome": "Malhação de Judas",
+          "descricao": "Costume popular de surrar e queimar um boneco que representa Judas Iscariotes durante a Semana Santa.",
+          "variantes": [
+            "Queima do Judas",
+            "Malhar o Judas"
+          ]
+        },
+        {
+          "id": "a_criacao_de_adao",
+          "nome": "A Criação de Adão",
+          "descricao": "Afresco de Michelangelo no teto da Capela Sistina.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Quadra dura",
+        "descricao": "Quadra de tênis de superfície rígida, de asfalto ou concreto revestido de resina acrílica.",
+        "variantes": [
+          "Hard court",
+          "Quadra rápida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "quadra_de_grama",
+          "nome": "Quadra de grama",
+          "descricao": "Tipo de quadra de tênis com superfície de grama, a original do lawn tennis.",
+          "variantes": [
+            "Grass court",
+            "Quadra de relva"
+          ]
+        },
+        {
+          "id": "duran_duran",
+          "nome": "Duran Duran",
+          "descricao": "Banda britânica de new wave formada em Birmingham em 1978",
+          "variantes": []
+        },
+        {
+          "id": "quadra_de_saibro",
+          "nome": "Quadra de saibro",
+          "descricao": "Quadra de tênis coberta por pó de tijolo, pedra ou xisto triturado, como as de Roland Garros.",
+          "variantes": [
+            "Clay court",
+            "Terre battue"
+          ]
+        },
+        {
+          "id": "leatherface",
+          "nome": "Leatherface",
+          "descricao": "Assassino mascarado com uma motosserra, vilão do filme de terror O Massacre da Serra Elétrica, de 1974.",
+          "variantes": [
+            "Cara de Couro"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Futebol americano",
+        "descricao": "Esporte coletivo de contato jogado com bola oval em campo com traves e linhas de jardas.",
+        "variantes": [
+          "Gridiron",
+          "Football americano"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "guerra_do_futebol",
+          "nome": "Guerra do Futebol",
+          "descricao": "Conflito armado de 1969 entre El Salvador e Honduras, deflagrado em meio a jogos das Eliminatórias da Copa de 1970.",
+          "variantes": [
+            "Guerra das Cem Horas",
+            "Football War",
+            "Guerra del Fútbol"
+          ]
+        },
+        {
+          "id": "gotico_americano",
+          "nome": "Gótico Americano",
+          "descricao": "Quadro de Grant Wood de 1930.",
+          "variantes": []
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "brigadeiro",
+          "nome": "Brigadeiro",
+          "descricao": "Doce brasileiro de leite condensado, chocolate e manteiga, enrolado em bolinhas e coberto de granulado",
+          "variantes": [
+            "Brigadeiro (doce)",
+            "Negrinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nado artístico",
+        "descricao": "Esporte aquático em que nadadoras executam coreografias sincronizadas ao som de música.",
+        "variantes": [
+          "Natação sincronizada",
+          "Nado sincronizado"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "acoplamento_de_mare",
+          "nome": "Acoplamento de maré",
+          "descricao": "Sincronização em que um astro leva o mesmo tempo para girar em torno de si e para orbitar outro, como a Lua em relação à Terra.",
+          "variantes": [
+            "Rotação síncrona",
+            "Travamento de maré",
+            "Tidal locking"
+          ]
+        },
+        {
+          "id": "patinacao_artistica",
+          "nome": "Patinação artística",
+          "descricao": "Esporte em que atletas executam saltos, giros e passos de dança sobre o gelo.",
+          "variantes": [
+            "Patinação artística no gelo",
+            "Figure skating"
+          ]
+        },
+        {
+          "id": "ronaldo_fenomeno",
+          "nome": "Ronaldo Fenômeno",
+          "descricao": "Ex-atacante brasileiro, nascido em 1976, bicampeão mundial com a seleção e três vezes melhor jogador do mundo pela FIFA.",
+          "variantes": [
+            "Ronaldo Nazário",
+            "Ronaldo Luís Nazário de Lima",
+            "R9",
+            "O Fenômeno"
+          ]
+        },
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "nervo_ciatico",
+          "nome": "Nervo ciático",
+          "descricao": "Nervo que desce da região lombar pela parte de trás de cada perna.",
+          "variantes": [
+            "Nervo isquiático",
+            "Sciatic nerve"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Caneleira",
+        "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+        "variantes": [
+          "Protetor de canela",
+          "Caneleiras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão"
+          ]
+        },
+        {
+          "id": "canberra",
+          "nome": "Canberra",
+          "descricao": "Cidade planejada que é a capital da Austrália.",
+          "variantes": []
+        },
+        {
+          "id": "capoeira",
+          "nome": "Capoeira",
+          "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+          "variantes": []
+        },
+        {
+          "id": "mandioca",
+          "nome": "Mandioca",
+          "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+          "variantes": [
+            "Aipim",
+            "Macaxeira",
+            "Manihot esculenta"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Futebol de areia",
+        "descricao": "Variante do futebol jogada na areia por duas equipes de cinco jogadores.",
+        "variantes": [
+          "Beach soccer",
+          "Futebol de praia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volei_de_praia",
+          "nome": "Vôlei de praia",
+          "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+          "variantes": [
+            "Voleibol de praia",
+            "Beach volleyball"
+          ]
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "fontana_di_trevi",
+          "nome": "Fontana di Trevi",
+          "descricao": "Fonte barroca do século dezoito no bairro Trevi, em Roma.",
+          "variantes": [
+            "Fonte de Trevi",
+            "Trevi Fountain"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é luva de boxe; luva de beisebol e ringue são diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde à prova de atletismo."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o nunchaku."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a prova de lançamento de dardo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Quadra dura é superfície distinta de grama e saibro."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o futebol americano."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o nado artístico; patinação artística é outro esporte."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a caneleira."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Futebol de areia é diferente de vôlei de praia e pebolim."
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Par de luvas de boxe, claras; a marca não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que equipamento esportivo é este?",
+      "resposta": "Luva de boxe",
+      "destino": 2,
+      "ancora": {
+        "nome": "Luva de boxe",
+        "descricao": "Luva acolchoada usada por lutadores em combates e treinos de boxe.",
+        "variantes": [
+          "Luvas de boxe"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Prova de corrida com barreiras clara; patrocínios não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prova do atletismo é esta?",
+      "resposta": "Corrida com barreiras",
+      "destino": 0,
+      "ancora": {
+        "nome": "Corrida com barreiras",
+        "descricao": "Prova de atletismo em que os corredores saltam barreiras posicionadas na pista.",
+        "variantes": [
+          "Provas de barreiras",
+          "Hurdles"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Um menino, pessoa comum, em primeiro plano, e há outras pessoas e marcas visíveis."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vários nunchakus do mesmo tipo, claros; distratores de armas de artes marciais.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arma de artes marciais é esta?",
+      "resposta": "Nunchaku",
+      "distratores": [
+        "Tonfa",
+        "Sai",
+        "Kama"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Nunchaku",
+        "descricao": "Arma de artes marciais formada por dois bastões unidos por corda ou corrente.",
+        "variantes": [
+          "Nunchuck",
+          "Nunchaco"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Atleta em plena arremesso de dardo, bem visível; texto parcial no fundo não entrega nada.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que prova do atletismo é esta?",
+      "resposta": "Lançamento de dardo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lançamento de dardo",
+        "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+        "variantes": [
+          "Arremesso de dardo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Quadras de piso acrílico azul e verde, sem texto; piso reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de piso de quadra de tênis é este?",
+      "resposta": "Quadra dura",
+      "distratores": [
+        "Saibro",
+        "Grama",
+        "Carpete"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Quadra dura",
+        "descricao": "Quadra de tênis de superfície rígida, de asfalto ou concreto revestido de resina acrílica.",
+        "variantes": [
+          "Hard court",
+          "Quadra rápida"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Cena clara de futebol americano; só números de camisa, sem nomes.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte é este?",
+      "resposta": "Futebol americano",
+      "destino": 1,
+      "ancora": {
+        "nome": "Futebol americano",
+        "descricao": "Esporte coletivo de contato jogado com bola oval em campo com traves e linhas de jardas.",
+        "variantes": [
+          "Gridiron",
+          "Football americano"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Quatro nadadoras em movimento sincronizado, reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte aquático é este?",
+      "resposta": "Nado artístico",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nado artístico",
+        "descricao": "Esporte aquático em que nadadoras executam coreografias sincronizadas ao som de música.",
+        "variantes": [
+          "Natação sincronizada",
+          "Nado sincronizado"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Desenho a traço em que o florete pode ser confundido com espada ou outra arma de esgrima; resposta não é única."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Legendas e inscrições visíveis (nomes de jogadores, marcas, 'Bat used by...') entregam a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Par de caneleiras com protetor de peito do pé, de uso em lutas; a marca não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que equipamento de proteção é este?",
+      "resposta": "Caneleira",
+      "destino": 2,
+      "ancora": {
+        "nome": "Caneleira",
+        "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+        "variantes": [
+          "Protetor de canela",
+          "Caneleiras"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Jogo na areia com gol e bola, claro; patrocínios não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que esporte é este?",
+      "resposta": "Futebol de areia",
+      "destino": 3,
+      "ancora": {
+        "nome": "Futebol de areia",
+        "descricao": "Variante do futebol jogada na areia por duas equipes de cinco jogadores.",
+        "variantes": [
+          "Beach soccer",
+          "Futebol de praia"
+        ]
+      }
+    }
+  ]
+}
