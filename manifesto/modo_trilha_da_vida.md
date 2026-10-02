@@ -4,7 +4,7 @@
 >
 > As regras de conteúdo (MANIFESTO, Parte I) valem igualmente: o modo muda como as perguntas são usadas, e não as perguntas (princípio 1).
 >
-> Este documento separa **o que o autor decidiu**, **as propostas** que ainda precisam de aprovação e **o que está em aberto**.
+> Este documento separa **o que o autor decidiu** das **propostas**. Em 2026-10-01 o autor aceitou as propostas como estão, para refinar depois.
 
 ## Ideia geral
 
@@ -33,6 +33,8 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 - **Casas de tema amplo:** a pergunta é de um tema inteiro, como no Master.
 - **Casas em Branco:** o jogador pode usar uma carta ou comprar uma carta. **Comprar é de graça.**
 
+**Mão:** cada jogador tem uma **Mão**, que guarda as suas cartas. No app, ela fica no aparelho do jogador.
+
 **Cartas**
 - **Escolha o tema:** o jogador escolhe o tema da pergunta. Os temas amplos também aparecem nas cartas.
 - **Desafio:** uma pergunta, de tema aleatório ou específico, direcionada a um oponente. Se ele acertar, quem jogou a carta anda também. **É cooperativa de propósito:** os dois ganham juntos.
@@ -41,7 +43,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 **Não há dinheiro nem salário.** Saíram do rascunho anterior, com tudo o que dependia deles: patrimônio, casas de Pagamento, Casa própria, Investimento e níveis de carreira.
 
-## Propostas (aguardando aprovação)
+## Propostas (aceitas em 2026-10-01, a refinar)
 
 **Nomes das 28 profissões** (proposta):
 
@@ -133,7 +135,7 @@ Um jogo de "andar no tabuleiro", inspirado no *Jogo da Vida*: cada jogador perco
 
 ## Em aberto
 
-Nenhuma decisão de regra em aberto no momento. As propostas acima aguardam aprovação.
+Nenhuma decisão de regra em aberto no momento. As propostas foram aceitas para refinar depois.
 
 ## Prova de conceito do tabuleiro
 
