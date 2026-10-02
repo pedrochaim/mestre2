@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.39 — 2026-10-01**
+> **Versão preliminar 0.40 — 2026-10-01**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -15,6 +15,7 @@
 > - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
 > - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
 > - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
 
 ---
 
@@ -605,6 +606,17 @@ Também: o custo das chamadas de figura era registrado em `consumo.jsonl` com o 
 
 As regras do jogo ainda não estão todas definidas (princípio 1). Esta seção registra o que já foi decidido sobre **como as perguntas são usadas** numa partida e sobre o **tabuleiro**, inspirado no jogo *Master*, da Grow.
 
+### Modos de jogo
+
+O Mestre2 terá mais de um modo de jogo, todos sobre o mesmo banco de perguntas. Os modos são independentes: cada um tem regras, tabuleiro e estado de partida próprios, e o desenvolvimento de um não muda o outro.
+
+| Modo | Situação | Onde está descrito |
+|---|---|---|
+| **Master** | Em uso e em desenvolvimento. É o modo do app hoje | Esta seção (Papéis, Regras do tabuleiro, Desenho do tabuleiro, Definições) e §16 |
+| **Trilha da Vida** | Em concepção, sem implementação. Inspirado no *Jogo da Vida*: carreira com dois temas de especialidade, fases da vida, encruzilhadas, dinheiro e patrimônio | [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md) |
+
+O que esta seção diz sobre papéis, repetição e sorteio vale para todos os modos, salvo quando o modo disser outra coisa. O que diz sobre o tabuleiro vale para o Modo Master.
+
 ### Papéis
 
 - A cada pergunta há um **questionador**, que lê a pergunta em voz alta, e um **respondente**, que responde.
@@ -853,6 +865,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.40 | 2026-10-01 | Modos de jogo: o tabuleiro atual passa a ser o Modo Master, que continua em desenvolvimento; o Modo Trilha da Vida, inspirado no *Jogo da Vida*, entra em concepção num documento próprio (§15) |
 | 0.39 | 2026-10-01 | Montagem de uma única obra (cenas ou elenco, sem texto) é aceita; primeiro lote de cenas de filmes e séries (§6) |
 | 0.38 | 2026-10-01 | Cinema e TV com figura: cenas de filmes e séries pelo TMDB (sem texto), personagens de filmes e séries no catálogo de personagens, atores com perguntas além do nome; um terço brasileiro; sem spoilers; crédito do TMDB no app (§6, §12, §17) |
 | 0.37 | 2026-10-01 | Política de imagens: arte oficial aceita enquanto o jogo não tiver fins comerciais; catálogo de personagens de anime, mangá e quadrinhos, com imagens do Fandom, do AniList, do superhero-api e da Wikipédia, silhueta quando a imagem permite e a regra de variedade dos pokémon (§6, §12, §14, §17) |
