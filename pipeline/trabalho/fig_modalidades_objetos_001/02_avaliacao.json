@@ -1,0 +1,181 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pessoa comum em primeiro plano ao lado da prancha, foto escura e logotipo de marca visível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Duelo de kendo com shinai bem visível, rostos cobertos pelo capacete; nada no texto entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama a espada de treino usada por estes lutadores?",
+      "resposta": "Shinai",
+      "distratores": [
+        "Bokken",
+        "Katana",
+        "Naginata"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Kendo",
+        "descricao": "Arte marcial japonesa de esgrima com espadas de bambu (shinai) e armadura (bōgu).",
+        "variantes": [
+          "Kendō"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Quadra de grama inconfundível; público ao fundo, jogadores são atletas em partida pública.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de piso tem esta quadra de tênis?",
+      "resposta": "Grama",
+      "destino": 4,
+      "ancora": {
+        "nome": "Quadra de grama",
+        "descricao": "Tipo de quadra de tênis com superfície de grama, a original do lawn tennis.",
+        "variantes": [
+          "Grass court",
+          "Quadra de relva"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Montagem de quatro fotos com atletas e aparelhos diferentes, com crachás e texto visíveis; não há um único assunto claro."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Dupla de dança no gelo em lance característico, patins e pista de gelo visíveis, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano este esporte estreou nos Jogos Olímpicos?",
+      "resposta": "1908",
+      "distratores": [
+        "1896",
+        "1924",
+        "1948"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Patinação artística",
+        "descricao": "Esporte em que atletas executam saltos, giros e passos de dança sobre o gelo.",
+        "variantes": [
+          "Patinação artística no gelo",
+          "Figure skating"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Blocos de partida em fila na pista, claros; a marca Tissot não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama este equipamento do atletismo?",
+      "resposta": "Bloco de partida",
+      "destino": 0,
+      "ancora": {
+        "nome": "Bloco de partida",
+        "descricao": "Equipamento em que corredores de velocidade apoiam os pés na largada de uma prova.",
+        "variantes": [
+          "Blocos de partida",
+          "Starting blocks"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A camisa traz 'USA Basketball' escrito, o que entrega a resposta; também há nomes e números visíveis."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Halterofilista em agachamento profundo com a barra acima da cabeça em pegada aberta, movimento claro; as placas não entregam a resposta.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que movimento da halterofilia é este?",
+      "resposta": "Arranco",
+      "distratores": [
+        "Arremesso",
+        "Desenvolvimento",
+        "Levantamento terra"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Levantamento de peso",
+        "descricao": "Esporte olímpico de força em que atletas levantam uma barra carregada do chão até acima da cabeça.",
+        "variantes": [
+          "Halterofilismo",
+          "Halterofilia",
+          "Weightlifting"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Praticantes amadores comuns em primeiro plano, com patrocínios nas camisas; não são figuras públicas nem festa pública."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Montagem com vários modelos de chuteiras de épocas diferentes e anos escritos, imagem de baixa resolução."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Partida em quadra de grama com jogador em cadeira de rodas esportiva visível em primeiro plano; atletas em evento público.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que modalidade adaptada de tênis é esta?",
+      "resposta": "Tênis em cadeira de rodas",
+      "destino": 4,
+      "ancora": {
+        "nome": "Tênis em cadeira de rodas",
+        "descricao": "Modalidade de tênis adaptada para usuários de cadeira de rodas, em que a bola pode quicar duas vezes.",
+        "variantes": [
+          "Wheelchair tennis"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Prato de prata grande ao fundo, reconhecível; a taça à frente é outro troféu, por isso o enunciado indica o objeto ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que troféu é este grande prato de prata ao fundo da imagem?",
+      "resposta": "Venus Rosewater Dish",
+      "distratores": [
+        "Taça Suzanne Lenglen",
+        "Taça Daphne Akhurst",
+        "Taça Norman Brookes"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Venus Rosewater Dish",
+        "descricao": "Troféu em forma de prato de prata entregue à campeã de simples feminino de Wimbledon desde 1886.",
+        "variantes": [
+          "Prato de água de rosas de Vênus",
+          "Ladies' Singles Trophy"
+        ]
+      }
+    }
+  ]
+}

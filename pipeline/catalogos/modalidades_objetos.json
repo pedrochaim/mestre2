@@ -1,0 +1,291 @@
+{
+  "entidades": [
+    {
+      "nome": "Bola de futebol",
+      "titulo": "en:Ball (association football)",
+      "camada": 1,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Raquete de tênis",
+      "titulo": "en:Racket (sports equipment)",
+      "camada": 1,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Luva de boxe",
+      "titulo": "en:Boxing glove",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Basquete",
+      "titulo": "en:Basketball",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Vôlei",
+      "titulo": "en:Volleyball",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Futebol americano",
+      "titulo": "en:American football",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Taco de beisebol",
+      "titulo": "en:Baseball bat",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Nunchaku",
+      "titulo": "en:Nunchaku",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Saco de pancada",
+      "titulo": "en:Punching bag",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Prancha de surfe",
+      "titulo": "en:Surfboard",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Chuteira",
+      "titulo": "en:Football boot",
+      "camada": 1,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Pódio",
+      "titulo": "en:Podium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ginástica artística",
+      "titulo": "en:Artistic gymnastics",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Tênis de mesa",
+      "titulo": "en:Table tennis",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Quimono de judô",
+      "titulo": "en:Judogi",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Taekwondo",
+      "titulo": "en:Taekwondo",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Kendo",
+      "titulo": "en:Kendo",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Vôlei de praia",
+      "titulo": "en:Beach volleyball",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Futsal",
+      "titulo": "en:Futsal",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Hóquei no gelo",
+      "titulo": "en:Ice hockey",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Patinação artística",
+      "titulo": "en:Figure skating",
+      "camada": 2,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Tiro com arco",
+      "titulo": "en:Archery",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Levantamento de peso",
+      "titulo": "en:Olympic weightlifting",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Lançamento de dardo",
+      "titulo": "en:Javelin throw",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Corrida com barreiras",
+      "titulo": "en:Hurdling",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nado artístico",
+      "titulo": "en:Artistic swimming",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caneleira",
+      "titulo": "en:Shin guard",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Tênis em cadeira de rodas",
+      "titulo": "en:Wheelchair tennis",
+      "camada": 2,
+      "destino": 4,
+      "status": "usada"
+    },
+    {
+      "nome": "Luta greco-romana",
+      "titulo": "en:Greco-Roman wrestling",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Aikido",
+      "titulo": "en:Aikido",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Florete",
+      "titulo": "en:Foil (fencing)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cavalo com alças",
+      "titulo": "en:Pommel horse",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Trave de equilíbrio",
+      "titulo": "en:Balance beam",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lançamento de martelo",
+      "titulo": "en:Hammer throw",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bloco de partida",
+      "titulo": "en:Starting blocks",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Adestramento",
+      "titulo": "en:Dressage",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quadra de grama",
+      "titulo": "en:Grass court",
+      "camada": 3,
+      "destino": 4,
+      "status": "usada"
+    },
+    {
+      "nome": "Quadra dura",
+      "titulo": "en:Hardcourt",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Venus Rosewater Dish",
+      "titulo": "en:Venus Rosewater Dish",
+      "camada": 3,
+      "destino": 4,
+      "status": "usada"
+    },
+    {
+      "nome": "Futebol de areia",
+      "titulo": "en:Beach soccer",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Hurling",
+      "titulo": "en:Hurling",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    }
+  ]
+}
