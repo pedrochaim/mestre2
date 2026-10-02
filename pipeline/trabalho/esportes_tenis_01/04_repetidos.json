@@ -1,0 +1,63 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Por que Novak Djokovic foi desclassificado do US Open de 2020?",
+        "resposta": "Acertou uma bola numa juíza de linha"
+      },
+      "existentes": [
+        {
+          "id": "q01669",
+          "pergunta": "Em que ano este tenista sérvio chegou pela primeira vez ao número um do ranking mundial da ATP?",
+          "resposta": "2011"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que problema físico, que exigiu cirurgias, abreviou a carreira de Gustavo Kuerten, encerrada em 2008?",
+        "resposta": "Lesão no quadril"
+      },
+      "existentes": [
+        {
+          "id": "q00536",
+          "pergunta": "Quem é este atleta?",
+          "resposta": "Gustavo Kuerten (Guga)"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1960, Maria Esther Bueno venceu os quatro torneios de Grand Slam do ano numa mesma modalidade. Qual?",
+        "resposta": "Duplas femininas"
+      },
+      "existentes": [
+        {
+          "id": "q01667",
+          "pergunta": "Esta tenista brasileira é a única sul-americana a vencer o torneio de simples de qual Grand Slam?",
+          "resposta": "Wimbledon"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Desclassificação no US Open 2020 é fato diferente do ano em que chegou ao número um."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A existente apenas identifica o atleta; a nova pergunta sobre lesão no quadril é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Modalidade dos quatro Grand Slams em 1960 é diferente do fato de ser a única sul-americana a vencer Wimbledon."
+    }
+  ]
+}
