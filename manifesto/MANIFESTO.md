@@ -1,6 +1,6 @@
 # Manifesto de Perguntas — Mestre2
 
-> **Versão preliminar 0.37 — 2026-10-01**
+> **Versão preliminar 0.38 — 2026-10-01**
 >
 > Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
 >
@@ -178,7 +178,14 @@ Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questi
 - **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
   - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
   - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
-- **Proibido:** capas de álbuns, pôsteres, logotipos e fotos de imprensa. O texto que costumam ter entrega a resposta.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
 
 ### Diretrizes de criação das perguntas com figura
 
@@ -476,6 +483,8 @@ O esquema foi construído a partir do esquema do projeto anterior (`info/pergunt
 | `imagem` como campo opcional, sem novo `tipo` nem novo ângulo | Uma pergunta com figura pode ser aberta ou múltipla, e o ângulo segue a relação entre resposta e âncora. Campo opcional respeita a regra de evolução |
 | Arte oficial aceita enquanto o jogo não tiver fins comerciais (§6) | Pokémon e personagens de anime, mangá e quadrinhos não têm imagens livres. A licença livre continua sendo o padrão para o resto |
 | Catálogo de personagens com Fandom, AniList, superhero-api e Wikipédia (§6) | Nenhuma fonte cobre tudo: a imagem da Wikipédia às vezes mostra vários personagens ou texto, o AniList só tem o busto, e o Fandom tem arte de corpo inteiro, mas bloqueia robôs (o pipeline baixa pelo curl) |
+| Cenas de filmes e séries pelo TMDB, só as sem texto (§6) | O Commons só tem cenas de produções antigas (trailers e fotos de divulgação em domínio público). O TMDB tem cenas de quase toda produção, em alta resolução, e marca as imagens sem texto. Exige uma chave gratuita, que fica fora do git, porque o repositório é público |
+| Um terço de cinema e TV brasileiros, e nada de spoilers (§6) | O público é brasileiro, e o cinema americano domina qualquer fonte. Uma pergunta sobre o final estraga a obra para quem ainda vai ver |
 | Imagens copiadas para o banco, com o id da pergunta no nome | Licença livre com autor registrado. O nome do arquivo vira o id da pergunta, porque o nome original costuma entregar a resposta, e a cópia não depende de link externo |
 | Perguntas em arquivo estático, fora do Firestore (§16) | O banco é pequeno e só muda quando o pipeline roda. Cada leitura no Firestore seria custo e latência à toa |
 | Crítica com trechos das fontes baixados pelo script, sem web (§11) | Abrindo as fontes por conta própria, o crítico gastava de 12 a 22 turnos por lote, e cada turno relia o contexto inteiro. Com os trechos no prompt, a crítica é uma chamada só: no lote *Idade Média*, custou US$ 0,22, contra US$ 0,72 a 0,89 do Opus com web, e as decisões bateram em 19 de 20 |
@@ -760,7 +769,7 @@ Até hoje, as perguntas com figura foram feitas à mão, numa sessão de convers
 | Natureza | mamíferos (80), aves (70), vida marinha (50), répteis e anfíbios (40), insetos (30), plantas e frutas (30), dinossauros e fósseis (20) |
 | História | retratos de personagens históricos, em pinturas de domínio público (120), monumentos e sítios (110), mapas e bandeiras históricas (70) |
 | Artes e Pensamento | pinturas (125), retratos de escritores, compositores e filósofos (115), esculturas e arquitetura (80) |
-| Entretenimento | pokémon (100), personagens de anime, mangá e quadrinhos (100), músicos e atores em fotos livres (60), instrumentos musicais e jogos de tabuleiro (50) |
+| Entretenimento | pokémon (70), personagens de anime, mangá, quadrinhos, filmes e séries (80), cenas de filmes e séries (80), músicos e atores em fotos livres (45), instrumentos musicais e jogos de tabuleiro (35) |
 | Esportes | atletas (120), estádios e circuitos (85), modalidades, objetos e equipamentos (105) |
 | Ciências | retratos de cientistas (100), astronomia em imagens da NASA, de domínio público (80), invenções e objetos históricos (50), minerais e elementos (40), ilustrações anatômicas antigas (40) |
 | Cotidiano | pratos e bebidas (80), transportes (60), frutas e ingredientes (50), objetos do dia a dia (40), folclore (40), trajes e moda (40) |
@@ -842,6 +851,7 @@ A infraestrutura da sessão 1 ficou pronta em 2026-10-01 (detalhes em `pipeline/
 | 0.31 | 2026-10-01 | Programação até 10 000 perguntas, 25% com figura: metas por tema e subtema, etapa de figuras do pipeline, saturação por âncora no banco inteiro e plano de sessões (§17) |
 | 0.32 | 2026-10-01 | Diretrizes das perguntas com figura (§6): catálogos que atravessam subtemas, famílias de pergunta, três níveis de profundidade, entidades em camadas curadas, regras de variedade, imagens que pedem observação e distratores visualmente parecidos; a escolha de entidades deixa de usar a popularidade (§17) |
 | 0.33 | 2026-10-01 | Quatro subtemas acrescentados (Geografia do Brasil, História da África, Biologia e Genética, Meio Ambiente e Energia), com escopo definido; regra de que a lista só cresce por acréscimo; metas da §17 recalculadas (§3, §17) |
+| 0.38 | 2026-10-01 | Cinema e TV com figura: cenas de filmes e séries pelo TMDB (sem texto), personagens de filmes e séries no catálogo de personagens, atores com perguntas além do nome; um terço brasileiro; sem spoilers; crédito do TMDB no app (§6, §12, §17) |
 | 0.37 | 2026-10-01 | Política de imagens: arte oficial aceita enquanto o jogo não tiver fins comerciais; catálogo de personagens de anime, mangá e quadrinhos, com imagens do Fandom, do AniList, do superhero-api e da Wikipédia, silhueta quando a imagem permite e a regra de variedade dos pokémon (§6, §12, §14, §17) |
 | 0.36 | 2026-10-01 | Variedade dos pokémon nas silhuetas: todas as gerações, formas básicas e intermediárias e pokémon menos conhecidos, e não só os famosos (§6). Perguntas de Pokémon com figura em silhueta, no estilo "Quem é esse pokémon?" do desenho, com a arte colorida revelada na resposta: campo opcional `revelacao` da imagem; as 57 perguntas antigas foram removidas e o primeiro lote novo entrou (§6, §10, §13, §16) |
 | 0.35 | 2026-10-01 | Revisão do pipeline: nome igual não liga mais uma proposta a uma âncora (vai ao juiz), 15 perguntas de homônimos religadas; perguntas com figura passam por crítica e checagem de repetidos; detector de cota estreito, com espera até o horário de liberação; metas de catálogo de até 40% do tema, pelo déficit relativo; limites por âncora completos na Parte I; aviso desatualizado sobre figuras corrigido (§4, §6, §11, §13, §14, §17). App: aba Informações (§16) |

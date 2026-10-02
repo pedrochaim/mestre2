@@ -262,6 +262,117 @@ def _fonte_wikipedia(lingua, titulo):
     return _get(info["url"], json_=False), info["descriptionurl"], [pagina], "", f"Wikipédia ({lingua})"
 
 
+# Cenas de filmes e séries (MANIFESTO §6): imagens de cena do TMDB, só as sem texto. O `titulo` da entidade lista:
+#   tmdb:filme:<título> (<ano>)  ou  tmdb:serie:<título> (<ano>)   a obra no TMDB (título original ou em inglês)
+#   commons:<File:...>                                              reserva: trailer ou foto de divulgação do Commons
+#   en:<Título> ou pt:<Título>                                       artigo da Wikipédia, que vira a fonte da pergunta
+# A chave da API (gratuita) fica na variável TMDB_CHAVE ou em pipeline/tmdb_chave.txt, fora do git.
+TMDB = "https://api.themoviedb.org/3/"
+TMDB_IMAGEM = "https://image.tmdb.org/t/p/w1280"
+ARQ_CHAVE_TMDB = PIPELINE / "tmdb_chave.txt"
+
+
+def chave_tmdb():
+    import os
+    chave = os.environ.get("TMDB_CHAVE") or (ARQ_CHAVE_TMDB.read_text(encoding="utf-8").strip()
+                                             if ARQ_CHAVE_TMDB.exists() else "")
+    return chave or None
+
+
+def _tmdb(caminho, **params):
+    """GET na API do TMDB. Aceita a chave da API (v3) ou o token de leitura (v4, bem mais longo)."""
+    chave = chave_tmdb()
+    if not chave:
+        raise RuntimeError(f"Sem chave do TMDB: defina TMDB_CHAVE ou crie {ARQ_CHAVE_TMDB}")
+    cab = {**UA, "Accept": "application/json"}
+    if len(chave) > 40:
+        cab["Authorization"] = "Bearer " + chave
+    else:
+        params["api_key"] = chave
+    url = TMDB + caminho + "?" + urllib.parse.urlencode(params)
+    with urllib.request.urlopen(urllib.request.Request(url, headers=cab), timeout=60) as r:
+        return json.loads(r.read())
+
+
+def _fonte_tmdb(spec):
+    tipo, _, resto = spec.partition(":")
+    achado = re.fullmatch(r"(.+?)\s*\((\d{4})\)\s*", resto)
+    titulo, ano = (achado.group(1), achado.group(2)) if achado else (resto.strip(), None)
+    filme = tipo == "filme"
+    busca = {"query": titulo, "language": "pt-BR"}
+    if ano:
+        busca["year" if filme else "first_air_date_year"] = ano
+    resultados = _tmdb("search/" + ("movie" if filme else "tv"), **busca).get("results", [])
+    if not resultados:
+        return None
+    obra = resultados[0]
+    caminho = ("movie/" if filme else "tv/") + str(obra["id"])
+    # include_image_language=null: só as imagens sem idioma, ou seja, sem texto (título, legenda)
+    cenas = _tmdb(caminho + "/images", include_image_language="null").get("backdrops", [])
+    cenas = [c for c in cenas if not c.get("iso_639_1")]
+    if not cenas:
+        return None
+    cena = max(cenas, key=lambda c: (c.get("vote_count", 0) > 0, c.get("vote_average", 0)))
+    pagina = "https://www.themoviedb.org/" + caminho
+    data = obra.get("release_date") or obra.get("first_air_date") or ""
+    nome = obra.get("title") or obra.get("name")
+    original = obra.get("original_title") or obra.get("original_name")
+    trecho = f"{nome} ({original}, {data[:4]}). {obra.get('overview') or ''}"[:900]
+    return _get(TMDB_IMAGEM + cena["file_path"], json_=False), pagina, [pagina], trecho, "TMDB"
+
+
+def _fonte_commons(arquivo):
+    d = _get("https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(
+        {"action": "query", "titles": arquivo, "prop": "imageinfo", "iiprop": "url|extmetadata", "iiurlwidth": 1280,
+         "format": "json"}))
+    info = next(iter((d or {}).get("query", {}).get("pages", {}).values()), {}).get("imageinfo", [None])[0]
+    if not info:
+        return None
+    pagina = "https://commons.wikimedia.org/wiki/" + arquivo.replace(" ", "_")
+    autor = _limpar_autor(info.get("extmetadata", {}).get("Artist", {}).get("value"))
+    licenca = info.get("extmetadata", {}).get("LicenseShortName", {}).get("value", "")
+    return _get(info.get("thumburl") or info["url"], json_=False), pagina, [], "", f"Commons ({autor}, {licenca})"
+
+
+def _preparar_cena(ent, pasta, indice):
+    """Uma cena de filme ou série: a imagem colorida, sem silhueta (uma cena nunca é um contorno só)."""
+    fontes_extra, falhas, escolhido = [], [], None
+    for spec in [x.strip() for x in ent["titulo"].split("|") if x.strip()]:
+        tipo, _, resto = spec.partition(":")
+        if tipo in ("en", "pt"):
+            fontes_extra.append(_wiki_url(tipo, resto))
+            continue
+        if escolhido:
+            continue
+        try:
+            r = _fonte_tmdb(resto) if tipo == "tmdb" else _fonte_commons(resto) if tipo == "commons" else None
+        except RuntimeError:
+            raise  # sem chave do TMDB: o lote para, em vez de marcar as entidades como sem imagem
+        except Exception as ex:  # uma fonte fora do ar não derruba o lote: tenta a próxima
+            falhas.append(f"{spec}: {type(ex).__name__}")
+            continue
+        if r and r[0]:
+            escolhido = r
+        else:
+            falhas.append(f"{spec}: sem cena sem texto")
+    if not escolhido:
+        return None, "nenhuma cena: " + "; ".join(falhas)
+    dados, origem, fontes_, trecho, credito = escolhido
+    fontes_ = list(dict.fromkeys(fontes_extra + fontes_))   # a Wikipédia primeiro: é a fonte que o crítico lê melhor
+    if not fontes_:
+        return None, "sem página de fonte para a pergunta (inclua a Wikipédia no titulo)"
+    arquivo = pasta / f"{indice:02d}.jpg"
+    try:
+        _salvar_jpeg(dados, arquivo)
+    except Exception as ex:
+        return None, f"imagem ilegível: {type(ex).__name__}"
+    oficial = credito == "TMDB"
+    return {"imagem": str(arquivo), "origem": origem,
+            "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB" if oficial else credito,
+            "licenca": "Imagem de divulgação; uso não comercial, sem licença livre" if oficial else "Commons",
+            "nome": ent["nome"], "fonte": fontes_, "trecho": trecho}, None
+
+
 def _ampliar(im, lado):
     """Ajusta a figura ao lado pedido, ampliando também: a arte não livre da Wikipédia e do AniList vem pequena."""
     k = lado / max(im.size)
@@ -419,6 +530,9 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
     print(f"\n[{lote_id}] catálogo {cat['id']} ({quantidade} figuras)", flush=True)
     est = banco.estado.setdefault("figuras", {}).setdefault(cat["id"], {"familias": {}, "niveis": {}, "registradas": 0})
 
+    if cat["imagem"] == "cenas" and not chave_tmdb():
+        raise RuntimeError(f"Sem chave do TMDB: defina TMDB_CHAVE ou crie {ARQ_CHAVE_TMDB}")
+
     # 1. seleção e preparo
     sel_arq = pasta / "01_selecao.json"
     selecao = ler_json(sel_arq)
@@ -449,6 +563,7 @@ def executar_lote(cat, banco, canon, config, quantidade=12, lote_id=None):
                 continue
             prep, motivo = (_preparar_pokemon(ent, pasta, len(itens) + 1) if cat["imagem"] == "pokeapi"
                             else _preparar_personagem(ent, pasta, len(itens) + 1) if cat["imagem"] == "personagens"
+                            else _preparar_cena(ent, pasta, len(itens) + 1) if cat["imagem"] == "cenas"
                             else _preparar_wikidata(ent, cat, pasta, len(itens) + 1))
             if prep is None:
                 ent["status"] = "sem_imagem"

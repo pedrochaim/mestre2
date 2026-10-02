@@ -527,7 +527,12 @@
       bloco.append(resumoTema, corpo);
       return bloco;
     });
-    caixa.replaceChildren(topo, ...blocos);
+    const credito = el("p", { className: "suave", style: "margin:1rem 0 .5rem;font-size:.8rem" });
+    credito.append("Cenas de filmes e séries: este produto usa a API do ",
+                   el("a", { href: "https://www.themoviedb.org/", target: "_blank", rel: "noopener", textContent: "TMDB",
+                             style: "color:var(--acento)" }),
+                   ", mas não é endossado nem certificado pelo TMDB.");
+    caixa.replaceChildren(topo, ...blocos, credito);
   }
 
   desenharInfo($("aba-info"));
