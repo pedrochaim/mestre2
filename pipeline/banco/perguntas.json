@@ -71240,5 +71240,559 @@
       "licenca": "CC0"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q04237",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "o_rei_da_vela",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que escritor modernista escreveu O Rei da Vela, peça de 1933 que virou símbolo do tropicalismo na montagem do Teatro Oficina, em 1967?",
+    "resposta": "Oswald de Andrade",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Rei_da_Vela"
+    ]
+  },
+  {
+    "id": "q04238",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "o_fantasma_da_opera_romance",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar musical de sucesso, O Fantasma da Ópera foi um romance francês do início do século vinte. Quem o escreveu?",
+    "resposta": "Gaston Leroux",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Phantom_of_the_Opera_(novel)",
+      "https://en.wikipedia.org/wiki/Gaston_Leroux"
+    ]
+  },
+  {
+    "id": "q04239",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "cats_musical",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "O musical Cats, de Andrew Lloyd Webber, transformou em canções um livro de poemas sobre gatos. Quem é o poeta?",
+    "resposta": "T. S. Eliot",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cats_(musical)",
+      "https://en.wikipedia.org/wiki/Old_Possum%27s_Book_of_Practical_Cats"
+    ]
+  },
+  {
+    "id": "q04240",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "a_ratoeira",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que rainha do romance policial escreveu A Ratoeira, peça de mistério que estreou em Londres em 1952 e passou décadas em cartaz?",
+    "resposta": "Agatha Christie",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Mousetrap"
+    ]
+  },
+  {
+    "id": "q04241",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "teatro_do_oprimido",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que diretor brasileiro criou o Teatro do Oprimido, método em que a plateia deixa de só assistir e entra em cena?",
+    "resposta": "Augusto Boal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Theatre_of_the_Oppressed",
+      "https://en.wikipedia.org/wiki/Augusto_Boal"
+    ]
+  },
+  {
+    "id": "q04242",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "um_bonde_chamado_desejo",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que dramaturgo americano escreveu Um Bonde Chamado Desejo, peça de 1947 com a frágil Blanche e o bruto Stanley Kowalski?",
+    "resposta": "Tennessee Williams",
+    "distratores": [
+      "Arthur Miller",
+      "Eugene O'Neill",
+      "Edward Albee"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/A_Streetcar_Named_Desire"
+    ]
+  },
+  {
+    "id": "q04243",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "hamlet",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Hamlet, o príncipe de Shakespeare que se pergunta se deve ser ou não ser, vive no castelo de Elsinore. Em que país?",
+    "resposta": "Dinamarca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hamlet",
+      "https://en.wikipedia.org/wiki/Kronborg"
+    ]
+  },
+  {
+    "id": "q04244",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "theatro_da_paz",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Inaugurado em 1878, com a riqueza da borracha, o Theatro da Paz é um dos orgulhos de que capital do Norte?",
+    "resposta": "Belém",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Theatro_da_Paz"
+    ]
+  },
+  {
+    "id": "q04245",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "theatro_jose_de_alencar",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Theatro José de Alencar, inaugurado em 1910 com estrutura de ferro trazida da Escócia, fica em que capital?",
+    "resposta": "Fortaleza",
+    "distratores": [
+      "Recife",
+      "São Luís",
+      "Natal"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Theatro_José_de_Alencar"
+    ]
+  },
+  {
+    "id": "q04246",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "teatro_colon",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que capital sul-americana fica o Teatro Colón, casa de ópera inaugurada em 1908 e famosa pela acústica?",
+    "resposta": "Buenos Aires",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Teatro_Colón"
+    ]
+  },
+  {
+    "id": "q04247",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "carmen_opera",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A ópera Carmen, de Bizet, sobre uma cigana que trabalha numa fábrica de cigarros, se passa em que cidade espanhola?",
+    "resposta": "Sevilha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carmen"
+    ]
+  },
+  {
+    "id": "q04248",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "paixao_de_cristo_de_nova_jerusalem",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Encenada todos os anos na Semana Santa, numa cidade-teatro ao ar livre, a Paixão de Cristo de Nova Jerusalém acontece em que estado?",
+    "resposta": "Pernambuco",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Paixão_de_Cristo_de_Nova_Jerusalém",
+      "https://pt.wikipedia.org/wiki/Brejo_da_Madre_de_Deus"
+    ]
+  },
+  {
+    "id": "q04249",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "carlos_gomes",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Carlos Gomes, autor da ópera O Guarani, nasceu em 1836 em que cidade paulista?",
+    "resposta": "Campinas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Carlos_Gomes"
+    ]
+  },
+  {
+    "id": "q04250",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "theatro_municipal_de_sao_paulo",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Projetado pelo escritório de Ramos de Azevedo, o Theatro Municipal de São Paulo foi inaugurado em que ano?",
+    "resposta": "1911",
+    "distratores": [
+      "1922",
+      "1898",
+      "1937"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Theatro_Municipal_de_São_Paulo"
+    ]
+  },
+  {
+    "id": "q04251",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "teatro_alla_scala",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano foi inaugurado o Teatro alla Scala, a casa de ópera de Milão?",
+    "resposta": "1778",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Scala"
+    ]
+  },
+  {
+    "id": "q04252",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "teatro_globe",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Uma reconstrução do Teatro Globe de Shakespeare foi erguida em Londres, perto do local original. Em que década do século vinte ela abriu as portas?",
+    "resposta": "Anos 1990",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shakespeare%27s_Globe"
+    ]
+  },
+  {
+    "id": "q04253",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "teatro_no",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O teatro nô, do Japão, com atores mascarados e movimentos lentos, ganhou sua forma clássica em que século?",
+    "resposta": "Século quatorze",
+    "distratores": [
+      "Século dez",
+      "Século dezessete",
+      "Século dezenove"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Noh"
+    ]
+  },
+  {
+    "id": "q04254",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "casa_de_bonecas",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Casa de Bonecas, de Ibsen, escandalizou o público com Nora deixando marido e filhos. Em que década do século dezenove a peça estreou?",
+    "resposta": "Anos 1870",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/A_Doll%27s_House"
+    ]
+  },
+  {
+    "id": "q04255",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "a_flauta_magica",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A Flauta Mágica estreou em Viena cerca de dois meses antes da morte de seu compositor. Em que ano?",
+    "resposta": "1791",
+    "distratores": [
+      "1756",
+      "1786",
+      "1801"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Magic_Flute"
+    ]
+  },
+  {
+    "id": "q04256",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "opera_garnier",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano foi inaugurada a Ópera Garnier, de Paris, cenário do romance O Fantasma da Ópera?",
+    "resposta": "1875",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Palais_Garnier"
+    ]
+  },
+  {
+    "id": "q04257",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "la_fenice",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Destruído por incêndios e reconstruído mais de uma vez, o teatro de ópera La Fenice, de Veneza, tem um nome bem adequado. O que ele significa?",
+    "resposta": "Fênix",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Fenice"
+    ]
+  },
+  {
+    "id": "q04258",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "teatro_alla_scala",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O famoso teatro de ópera de Milão herdou seu nome de uma construção demolida para lhe dar lugar. Que tipo de construção era?",
+    "resposta": "Uma igreja",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Scala"
+    ]
+  },
+  {
+    "id": "q04259",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "libreto",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O texto cantado de uma ópera se chama libreto. Em italiano, o que essa palavra quer dizer?",
+    "resposta": "Livrinho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Libretto"
+    ]
+  },
+  {
+    "id": "q04260",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "opera",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra ópera chegou até nós pelo italiano, que a herdou do latim. Qual é o significado original dela?",
+    "resposta": "Obra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Opera"
+    ]
+  },
+  {
+    "id": "q04261",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "arma_de_tchekhov",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Que dramaturgo russo dá nome ao princípio de que, se uma arma aparece no primeiro ato, ela precisa disparar até o fim?",
+    "resposta": "Anton Tchekhov",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chekhov%27s_gun"
+    ]
+  },
+  {
+    "id": "q04262",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "deus_ex_machina",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A expressão deus ex machina vem do teatro grego, em que deuses surgiam no alto para resolver a trama. A que máquina ela se refere?",
+    "resposta": "Um guindaste de cena",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deus_ex_machina",
+      "https://en.wikipedia.org/wiki/Mechane"
+    ]
+  },
+  {
+    "id": "q04263",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "rent_musical",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O musical Rent, sobre jovens artistas pobres de Nova York na época da aids, atualiza o enredo de que ópera de Puccini?",
+    "resposta": "La Bohème",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Rent_(musical)"
+    ]
+  },
+  {
+    "id": "q04264",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "pigmaliao_peca",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O musical My Fair Lady, sobre uma florista que aprende a falar como uma dama, adapta que peça de Bernard Shaw?",
+    "resposta": "Pigmalião",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pygmalion_(play)",
+      "https://en.wikipedia.org/wiki/My_Fair_Lady"
+    ]
+  },
+  {
+    "id": "q04265",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "a_megera_domada",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O filme adolescente 10 Coisas que Eu Odeio em Você, de 1999, leva para um colégio americano que comédia de Shakespeare?",
+    "resposta": "A Megera Domada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/10_Things_I_Hate_About_You"
+    ]
+  },
+  {
+    "id": "q04266",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "os_saltimbancos",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O musical infantil Os Saltimbancos, com versões de Chico Buarque, reconta que conto dos irmãos Grimm?",
+    "resposta": "Os Músicos de Bremen",
+    "distratores": [
+      "João e Maria",
+      "Chapeuzinho Vermelho",
+      "Branca de Neve"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Os_Saltimbancos"
+    ]
+  },
+  {
+    "id": "q04267",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "cacilda_becker",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1969, a atriz Cacilda Becker sofreu um derrame no intervalo de uma peça de Samuel Beckett, ainda com o figurino. Que peça era?",
+    "resposta": "Esperando Godot",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Cacilda_Becker"
+    ]
+  },
+  {
+    "id": "q04268",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "antigona_sofocles",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na tragédia de Sófocles, Antígona é condenada à morte pelo rei Creonte por desobedecer a uma ordem dele. O que ela fez?",
+    "resposta": "Enterrou o irmão Polinices",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Antigone_(Sophocles_play)"
+    ]
+  },
+  {
+    "id": "q04269",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "carmen_opera",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Na ópera Carmen, a ária em que a cigana canta que o amor é um pássaro rebelde leva o nome de que ritmo cubano?",
+    "resposta": "Habanera",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Habanera_(aria)"
+    ]
+  },
+  {
+    "id": "q04270",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "a_flauta_magica",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Em A Flauta Mágica, de Mozart, que personagem canta uma ária de vingança famosa por suas notas agudíssimas?",
+    "resposta": "A Rainha da Noite",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Der_H%C3%B6lle_Rache_kocht_in_meinem_Herzen"
+    ]
+  },
+  {
+    "id": "q04271",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "nabucco",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que coro da ópera Nabucco, de Verdi, cantado pelos escravos hebreus no exílio, virou uma espécie de hino informal da Itália?",
+    "resposta": "Va, pensiero",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Va,_pensiero"
+    ]
+  },
+  {
+    "id": "q04272",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "o_anel_do_nibelungo",
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Quantas óperas formam O Anel do Nibelungo, ciclo de Wagner que começa com O Ouro do Reno?",
+    "resposta": "Quatro",
+    "distratores": [
+      "Três",
+      "Cinco",
+      "Seis"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Der_Ring_des_Nibelungen"
+    ]
+  },
+  {
+    "id": "q04273",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "grandes_dionisias",
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Nas Grandes Dionísias de Atenas, cada autor trágico competia com quantas tragédias, seguidas de um drama satírico?",
+    "resposta": "Três",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dionysia"
+    ]
+  },
+  {
+    "id": "q04274",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "hamlet",
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a peça mais longa de William Shakespeare?",
+    "resposta": "Hamlet",
+    "distratores": [
+      "Ricardo Terceiro",
+      "Rei Lear",
+      "Otelo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hamlet"
+    ]
+  },
+  {
+    "id": "q04275",
+    "tema": "Artes e Pensamento",
+    "subtema": "Teatro e Ópera",
+    "ancora": "o_bem_amado_2",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em O Bem-Amado, de Dias Gomes, o prefeito Odorico Paraguaçu vive obcecado por inaugurar que obra na cidade de Sucupira?",
+    "resposta": "O cemitério",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Odorico_Paraguaçu"
+    ]
   }
 ]
