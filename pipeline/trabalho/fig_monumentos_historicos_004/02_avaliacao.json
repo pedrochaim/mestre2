@@ -1,0 +1,227 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A inscrição do frontão (M AGRIPPA L F COS TERTIVM FECIT) aparece legível e entrega a resposta sobre quem fez. Há também uma multidão em primeiro plano."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto noturna nítida e inconfundível do castelo, com a ponte e os anjos. Não há texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que imperador romano mandou construir este edifício para ser o mausoléu de sua família?",
+      "resposta": "Adriano",
+      "distratores": [],
+      "destino": 3,
+      "ancora": {
+        "nome": "Castelo de Santo Ângelo",
+        "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+        "variantes": [
+          "Mausoléu de Adriano",
+          "Castel Sant'Angelo",
+          "Castelo do Santo Anjo"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Templo dórico bem preservado, em vista aérea, sem texto. Dá para reconhecê-lo pela forma e, em múltipla escolha, distinguir de outros templos gregos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que templo grego, muito bem preservado, é este, no alto de uma colina da Ágora de Atenas?",
+      "resposta": "Templo de Hefesto",
+      "distratores": [
+        "Partenon",
+        "Erecteion",
+        "Templo de Poseidon"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Templo de Hefesto",
+        "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+        "variantes": [
+          "Hefesteion",
+          "Teseion"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada frontal clássica, sem texto, e as pessoas são pequenas ao fundo.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que monumento de mármore branco é este?",
+      "resposta": "Taj Mahal",
+      "distratores": [
+        "Tumba de Humayun",
+        "Mesquita Azul",
+        "Templo Dourado"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco em Agra, na Índia, mandado construir pelo imperador mogol Shah Jahan.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fachada manuelina inconfundível, com pessoas pequenas e sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século começou a ser construído este mosteiro, erguido perto do rio Tejo?",
+      "resposta": "Século dezesseis",
+      "distratores": [],
+      "destino": 7,
+      "ancora": {
+        "nome": "Mosteiro dos Jerónimos",
+        "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+        "variantes": [
+          "Mosteiro dos Jerônimos"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "As duas estátuas colossais sentadas são inconfundíveis. Os turistas são pequenos e ficam ao fundo, e não há texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que faraó é representado nestas duas estátuas gigantes?",
+      "resposta": "Amenhotep III",
+      "distratores": [
+        "Ramsés II",
+        "Tutancâmon",
+        "Quéops"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Colossos de Mêmnon",
+        "descricao": "Par de estátuas colossais de Amenhotep III diante do seu templo funerário, em Luxor, no Egito.",
+        "variantes": [
+          "Colossos de Memnon"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Castelo reconhecível pelos telhados vermelhos e torres, sem texto nem pessoas em destaque.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que região histórica da Romênia fica este castelo medieval?",
+      "resposta": "Transilvânia",
+      "distratores": [
+        "Valáquia",
+        "Moldávia",
+        "Bucovina"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Castelo de Bran",
+        "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+        "variantes": [
+          "Castelo do Drácula",
+          "Bran Castle"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Salão imperial reconhecível e sem texto legível. Os visitantes formam uma multidão pequena e anônima, sem destaque.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século começou a construção deste complexo de palácios imperiais?",
+      "resposta": "Século quinze",
+      "distratores": [],
+      "destino": 4,
+      "ancora": {
+        "nome": "Cidade Proibida",
+        "descricao": "Complexo de palácios imperiais no centro de Pequim, na China, residência dos imperadores Ming e Qing.",
+        "variantes": [
+          "Palácio Imperial de Pequim"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A foto mostra um pátio e muros brancos genéricos, sem traços que permitam reconhecer o Castelo de Elmina. Poderia ser outro forte da costa de Gana."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Fachada frontal nítida e inconfundível, sem texto, com pessoas minúsculas. É fácil, mas serve ao nível 1.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que monumento é este?",
+      "resposta": "Arco do Triunfo",
+      "distratores": [],
+      "destino": 7,
+      "ancora": {
+        "nome": "Arco do Triunfo",
+        "descricao": "Arco triunfal na Place Charles de Gaulle, em Paris, mandado construir por Napoleão.",
+        "variantes": [
+          "Arc de Triomphe",
+          "Arco do Triunfo de Paris"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "A fachada de dois andares é inconfundível, sem texto legível. Os turistas são pequenos.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade antiga da atual Turquia ficam as ruínas deste edifício romano?",
+      "resposta": "Éfeso",
+      "distratores": [
+        "Pérgamo",
+        "Halicarnasso",
+        "Troia"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Biblioteca de Celso",
+        "descricao": "Fachada monumental de uma biblioteca romana do século dois em Éfeso, na Turquia.",
+        "variantes": [
+          "Biblioteca de Celsus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua colossal talhada na rocha, reconhecível pela cabeça e pelos pés. Sem texto, e as pessoas são pequenas.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Durante qual dinastia chinesa foi esculpida esta estátua gigante na encosta de um penhasco?",
+      "resposta": "Dinastia Tang",
+      "distratores": [],
+      "destino": 4,
+      "ancora": {
+        "nome": "Buda Gigante de Leshan",
+        "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+        "variantes": [
+          "Grande Buda de Leshan"
+        ]
+      }
+    }
+  ]
+}

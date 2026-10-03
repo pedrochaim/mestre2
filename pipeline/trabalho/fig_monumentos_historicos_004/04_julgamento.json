@@ -1,0 +1,594 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Castelo de Santo Ângelo",
+        "descricao": "Fortaleza cilíndrica em Roma, antigo Mausoléu de Adriano, depois usada pelos papas.",
+        "variantes": [
+          "Mausoléu de Adriano",
+          "Castel Sant'Angelo",
+          "Castelo do Santo Anjo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mausoleu_de_halicarnasso",
+          "nome": "Mausoléu de Halicarnasso",
+          "descricao": "Túmulo monumental do governante Mausolo, na antiga Halicarnasso, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Mausoleum at Halicarnassus"
+          ]
+        },
+        {
+          "id": "salto_alto",
+          "nome": "Salto alto",
+          "descricao": "Calçado com o calcanhar elevado em relação à ponta do pé",
+          "variantes": [
+            "Sapato de salto alto",
+            "High heels"
+          ]
+        },
+        {
+          "id": "catedral_de_sao_basilio",
+          "nome": "Catedral de São Basílio",
+          "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+          "variantes": [
+            "Catedral de São Basílio, o Bem-Aventurado",
+            "Catedral da Intercessão",
+            "Catedral Pokrovsky"
+          ]
+        },
+        {
+          "id": "sol_de_maio",
+          "nome": "Sol de Maio",
+          "descricao": "Sol dourado com rosto humano, emblema nacional que aparece nas bandeiras da Argentina e do Uruguai.",
+          "variantes": [
+            "Sol de Mayo",
+            "Sun of May"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Templo de Hefesto",
+        "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+        "variantes": [
+          "Hefesteion",
+          "Teseion"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "espeon",
+          "nome": "Espeon",
+          "descricao": "Pokémon do tipo Psíquico, número 196 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "templo_de_hatshepsut",
+          "nome": "Templo de Hatshepsut",
+          "descricao": "Templo mortuário em três terraços da faraó Hatshepsut, em Deir el-Bahari, perto de Luxor.",
+          "variantes": [
+            "Templo mortuário de Hatshepsut",
+            "Deir el-Bahari"
+          ]
+        },
+        {
+          "id": "erecteion",
+          "nome": "Erecteion",
+          "descricao": "Templo jônico da Acrópole de Atenas, famoso pelo pórtico das cariátides.",
+          "variantes": [
+            "Erechtheion",
+            "Erecteu"
+          ]
+        },
+        {
+          "id": "eusebio",
+          "nome": "Eusébio",
+          "descricao": "Eusébio da Silva Ferreira, atacante do Benfica e da seleção portuguesa, artilheiro da Copa de 1966.",
+          "variantes": [
+            "Eusébio da Silva Ferreira",
+            "Pantera Negra",
+            "Pérola Negra"
+          ]
+        },
+        {
+          "id": "presepio",
+          "nome": "Presépio",
+          "descricao": "Representação do nascimento de Jesus, com a manjedoura, Maria, José e animais, tradicional no Natal.",
+          "variantes": [
+            "Presépio de Natal",
+            "Nativity scene",
+            "Manjedoura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Taj Mahal",
+        "descricao": "Mausoléu de mármore branco em Agra, na Índia, mandado construir pelo imperador mogol Shah Jahan.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "taj_mahal",
+          "nome": "Taj Mahal",
+          "descricao": "Mausoléu de mármore branco em Agra, na Índia, construído no século dezessete.",
+          "variantes": []
+        },
+        {
+          "id": "lontra_marinha",
+          "nome": "Lontra-marinha",
+          "descricao": "Mamífero marinho do Pacífico Norte, espécie Enhydra lutris.",
+          "variantes": [
+            "Enhydra lutris",
+            "Sea otter"
+          ]
+        },
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Mosteiro dos Jerónimos",
+        "descricao": "Mosteiro manuelino em Belém, Lisboa, ligado às viagens de Vasco da Gama.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "o_livro_dos_espiritos",
+          "nome": "O Livro dos Espíritos",
+          "descricao": "Obra publicada em Paris em 1857, base da doutrina espírita",
+          "variantes": [
+            "The Spirits' Book",
+            "Le Livre des Esprits"
+          ]
+        },
+        {
+          "id": "bolso_relojoeiro",
+          "nome": "Bolso relojoeiro",
+          "descricao": "Bolsinho costurado dentro do bolso dianteiro direito das calças jeans",
+          "variantes": [
+            "Watch pocket",
+            "Bolsinho do jeans"
+          ]
+        },
+        {
+          "id": "numero_primo",
+          "nome": "Número primo",
+          "descricao": "Número natural maior que um que só é divisível por um e por ele mesmo.",
+          "variantes": [
+            "Números primos",
+            "Prime number"
+          ]
+        },
+        {
+          "id": "fonte_dos_quatro_rios",
+          "nome": "Fonte dos Quatro Rios",
+          "descricao": "Fonte barroca de Gian Lorenzo Bernini na Piazza Navona, em Roma, de 1651.",
+          "variantes": [
+            "Fontana dei Quattro Fiumi"
+          ]
+        },
+        {
+          "id": "constituicao_dos_estados_unidos",
+          "nome": "Constituição dos Estados Unidos",
+          "descricao": "Lei suprema dos Estados Unidos, redigida na Convenção de Filadélfia em 1787 e em vigor desde 1789.",
+          "variantes": [
+            "Constituição americana",
+            "Constitution of the United States"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Colossos de Mêmnon",
+        "descricao": "Par de estátuas colossais de Amenhotep III diante do seu templo funerário, em Luxor, no Egito.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "colosso_de_rodes",
+          "nome": "Colosso de Rodes",
+          "descricao": "Estátua gigante de bronze erguida na ilha de Rodes no século três a.C., uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Colossus of Rhodes"
+          ]
+        },
+        {
+          "id": "coco_do_mar",
+          "nome": "Coco-do-mar",
+          "descricao": "Palmeira Lodoicea maldivica, endêmica das Seicheles",
+          "variantes": [
+            "Lodoicea maldivica",
+            "Lodoicea",
+            "coco-de-mer"
+          ]
+        },
+        {
+          "id": "discobolo",
+          "nome": "Discóbolo",
+          "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+          "variantes": [
+            "Discóbolo de Míron",
+            "Discobolus",
+            "Lançador de disco"
+          ]
+        },
+        {
+          "id": "concilio_de_trento",
+          "nome": "Concílio de Trento",
+          "descricao": "Concílio ecumênico da Igreja Católica realizado entre 1545 e 1563",
+          "variantes": [
+            "Council of Trent"
+          ]
+        },
+        {
+          "id": "corn_flakes",
+          "nome": "Corn Flakes",
+          "descricao": "Flocos de milho torrados criados no fim do século dezenove no sanatório de Battle Creek, em Michigan.",
+          "variantes": [
+            "Flocos de milho",
+            "Sucrilhos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Castelo de Bran",
+        "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+        "variantes": [
+          "Castelo do Drácula",
+          "Bran Castle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "bryan_cranston",
+          "nome": "Bryan Cranston",
+          "descricao": "Ator americano conhecido como Walter White em Breaking Bad e Hal em Malcolm.",
+          "variantes": []
+        },
+        {
+          "id": "o_castelo_no_ceu",
+          "nome": "O Castelo no Céu",
+          "descricao": "Filme de animação de 1986 de Hayao Miyazaki, também chamado Laputa.",
+          "variantes": [
+            "Laputa: Castle in the Sky",
+            "Tenkū no Shiro Rapyuta"
+          ]
+        },
+        {
+          "id": "mamona",
+          "nome": "Mamona",
+          "descricao": "Planta Ricinus communis, de cujas sementes se extrai o óleo de rícino",
+          "variantes": [
+            "Ricinus communis",
+            "rícino",
+            "carrapateira",
+            "castor bean"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Cidade Proibida",
+        "descricao": "Complexo de palácios imperiais no centro de Pequim, na China, residência dos imperadores Ming e Qing.",
+        "variantes": [
+          "Palácio Imperial de Pequim"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro"
+          ]
+        },
+        {
+          "id": "cigarra",
+          "nome": "Cigarra",
+          "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra.",
+          "variantes": [
+            "Cicadoidea",
+            "cicada"
+          ]
+        },
+        {
+          "id": "homem_de_pequim",
+          "nome": "Homem de Pequim",
+          "descricao": "Fósseis de Homo erectus encontrados em Zhoukoudian, perto de Pequim, na China, nas décadas de 1920 e 1930.",
+          "variantes": [
+            "Peking Man",
+            "Sinanthropus pekinensis",
+            "Homo erectus pekinensis"
+          ]
+        },
+        {
+          "id": "cidade_do_cabo",
+          "nome": "Cidade do Cabo",
+          "descricao": "Cidade portuária da África do Sul, ao pé da Montanha da Mesa.",
+          "variantes": [
+            "Cape Town"
+          ]
+        },
+        {
+          "id": "14_bis",
+          "nome": "14-bis",
+          "descricao": "Avião de Alberto Santos-Dumont que voou em Paris em 1906.",
+          "variantes": [
+            "Quatorze Bis",
+            "Oiseau de proie"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Arco do Triunfo",
+        "descricao": "Arco triunfal na Place Charles de Gaulle, em Paris, mandado construir por Napoleão.",
+        "variantes": [
+          "Arc de Triomphe",
+          "Arco do Triunfo de Paris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_do_triunfo_de_paris",
+          "nome": "Arco do Triunfo de Paris",
+          "descricao": "Arco monumental na Praça Charles de Gaulle, no alto da Champs-Élysées, encomendado por Napoleão.",
+          "variantes": [
+            "Arc de Triomphe",
+            "Arco do Triunfo"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "arco_de_constantino",
+          "nome": "Arco de Constantino",
+          "descricao": "Arco do triunfo de Roma, entre o Coliseu e o monte Palatino, dedicado em 315.",
+          "variantes": [
+            "Arco di Costantino"
+          ]
+        },
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "radium_girls",
+          "nome": "Radium Girls",
+          "descricao": "Operárias americanas que, nos anos 1920, se contaminaram ao pintar mostradores de relógio com tinta luminosa radioativa.",
+          "variantes": [
+            "Garotas do Rádio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Biblioteca de Celso",
+        "descricao": "Fachada monumental de uma biblioteca romana do século dois em Éfeso, na Turquia.",
+        "variantes": [
+          "Biblioteca de Celsus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "biblioteca_de_assurbanipal",
+          "nome": "Biblioteca de Assurbanipal",
+          "descricao": "Coleção de milhares de tabuletas cuneiformes reunida pelo rei assírio Assurbanipal no século sete antes de Cristo.",
+          "variantes": [
+            "Library of Ashurbanipal"
+          ]
+        },
+        {
+          "id": "biblia_de_gutenberg",
+          "nome": "Bíblia de Gutenberg",
+          "descricao": "Bíblia em latim impressa por Johannes Gutenberg em Mainz, o primeiro grande livro europeu feito com tipos móveis.",
+          "variantes": [
+            "Bíblia de 42 linhas"
+          ]
+        },
+        {
+          "id": "literatura_de_cordel",
+          "nome": "Literatura de cordel",
+          "descricao": "Poesia popular nordestina impressa em folhetos baratos, geralmente ilustrados com xilogravuras.",
+          "variantes": [
+            "Cordel"
+          ]
+        },
+        {
+          "id": "livro_de_kells",
+          "nome": "Livro de Kells",
+          "descricao": "Manuscrito iluminado celta dos quatro Evangelhos, criado por volta do ano 800 e hoje na biblioteca do Trinity College, em Dublin.",
+          "variantes": [
+            "Book of Kells",
+            "Codex Cenannensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Buda Gigante de Leshan",
+        "descricao": "Estátua de Buda de 71 metros esculpida em um penhasco em Leshan, Sichuan, China.",
+        "variantes": [
+          "Grande Buda de Leshan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "a_grande_onda_de_kanagawa",
+          "nome": "A Grande Onda de Kanagawa",
+          "descricao": "Xilogravura de Katsushika Hokusai, de cerca de 1831.",
+          "variantes": [
+            "The Great Wave off Kanagawa"
+          ]
+        },
+        {
+          "id": "grande_nuvem_de_magalhaes",
+          "nome": "Grande Nuvem de Magalhães",
+          "descricao": "Galáxia anã satélite da Via Láctea, visível do Hemisfério Sul, a cerca de 163 mil anos-luz.",
+          "variantes": [
+            "LMC",
+            "Large Magellanic Cloud",
+            "Nuvem Maior de Magalhães"
+          ]
+        },
+        {
+          "id": "bandeira_de_essuatini",
+          "nome": "Bandeira de Essuatíni",
+          "descricao": "Bandeira nacional atual de Essuatíni, antiga Suazilândia, com faixas azul, amarela e vermelha e um escudo nguni com lanças.",
+          "variantes": [
+            "Essuatíni",
+            "Bandeira da Suazilândia",
+            "Bandeira de Eswatini"
+          ]
+        },
+        {
+          "id": "quinteto_de_stephan",
+          "nome": "Quinteto de Stephan",
+          "descricao": "Grupo visual de cinco galáxias na constelação de Pégaso, descoberto em 1877 por Édouard Stephan.",
+          "variantes": [
+            "Stephan's Quintet",
+            "Hickson Compact Group 92",
+            "HCG 92"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Castel Sant'Angelo em Roma não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Templo de Hefesto em Atenas é distinto das candidatas (Erecteion é outro templo)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "taj_mahal",
+      "motivo": "Mesmo mausoléu em Agra."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Mosteiro dos Jerónimos."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Colossos de Mêmnon são distintos das demais estátuas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Castelo de Bran não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Cidade Proibida é distinta das candidatas relacionadas a Pequim."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "arco_do_triunfo_de_paris",
+      "motivo": "Mesmo arco em Paris, encomendado por Napoleão."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Biblioteca de Celso em Éfeso não está entre as candidatas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Buda de Leshan."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que monumento de mármore branco é este?",
+        "resposta": "Taj Mahal"
+      },
+      "existentes": [
+        {
+          "id": "q02014",
+          "pergunta": "O imperador mogol Shah Jahan mandou construir o Taj Mahal para abrigar o túmulo de quem?",
+          "resposta": "Sua esposa Mumtaz Mahal"
+        },
+        {
+          "id": "q02041",
+          "pergunta": "Ao redor do mausoléu de mármore do Taj Mahal, quantos minaretes se erguem?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que monumento é este?",
+        "resposta": "Arco do Triunfo"
+      },
+      "existentes": [
+        {
+          "id": "q02024",
+          "pergunta": "No Fórum Romano há um arco antigo que serviu de modelo ao Arco do Triunfo de Paris. Ele leva o nome de qual imperador?",
+          "resposta": "Tito"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identificação do monumento por imagem. As existentes tratam de quem está no túmulo e de quantos minaretes há, então são outros fatos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede a identificação do Arco do Triunfo. A existente pergunta o nome do imperador do arco romano que serviu de modelo, que é outro fato."
+    }
+  ]
+}
