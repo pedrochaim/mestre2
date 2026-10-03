@@ -1,0 +1,1063 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Zero",
+        "descricao": "O número zero e o algarismo que o representa.",
+        "variantes": [
+          "0",
+          "Número zero"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/0",
+          "https://pt.wikipedia.org/wiki/Zero"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra zero vem de um termo árabe que também deu origem à palavra cifra. O que significa esse termo árabe?",
+      "resposta": "Vazio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/0"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cálculo",
+        "descricao": "Ramo da matemática que estuda derivadas e integrais, também chamado cálculo diferencial e integral.",
+        "variantes": [
+          "Cálculo diferencial e integral",
+          "Calculus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Calculus"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra cálculo vem do latim e designava, na origem, um pequeno objeto usado para contar. Que objeto era esse?",
+      "resposta": "Pedrinha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Calculus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pi",
+        "descricao": "Constante matemática igual à razão entre a circunferência e o diâmetro de um círculo.",
+        "variantes": [
+          "Número pi",
+          "π"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pi",
+          "https://pt.wikipedia.org/wiki/Pi"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A letra grega pi foi escolhida para a razão entre a circunferência e o diâmetro por ser a inicial de que palavra grega?",
+      "resposta": "Perímetro (ou periferia)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fractal",
+        "descricao": "Figura geométrica cujas partes repetem a forma do todo em escalas cada vez menores.",
+        "variantes": [
+          "Fractais"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fractal"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra fractal, criada por Benoît Mandelbrot em 1975, vem de um termo latino com que significado?",
+      "resposta": "Quebrado",
+      "distratores": [
+        "Repetido",
+        "Infinito",
+        "Dobrado"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fractal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Razão áurea",
+        "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+        "variantes": [
+          "Proporção áurea",
+          "Número de ouro",
+          "Golden ratio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Golden_ratio"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A razão áurea costuma ser representada pela letra grega fi, em homenagem a qual escultor da Grécia Antiga?",
+      "resposta": "Fídias",
+      "distratores": [
+        "Praxíteles",
+        "Policleto",
+        "Míron"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Golden_ratio"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Plano cartesiano",
+        "descricao": "Sistema de coordenadas formado por dois eixos perpendiculares, usado para localizar pontos no plano.",
+        "variantes": [
+          "Sistema de coordenadas cartesiano",
+          "Coordenadas cartesianas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cartesian_coordinate_system"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O plano cartesiano, com seus eixos x e y, tem esse nome por causa da forma latina do nome de qual pensador francês?",
+      "resposta": "René Descartes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cartesian_coordinate_system"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fibonacci",
+        "descricao": "Leonardo de Pisa, matemático italiano dos séculos doze e treze.",
+        "variantes": [
+          "Leonardo de Pisa",
+          "Leonardo Fibonacci",
+          "Leonardo Pisano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fibonacci"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O matemático medieval Leonardo de Pisa ficou conhecido pelo apelido Fibonacci. O que esse apelido significa?",
+      "resposta": "Filho de Bonacci",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fibonacci"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Triângulo de Pascal",
+        "descricao": "Arranjo triangular dos coeficientes binomiais, em que cada número é a soma dos dois acima dele.",
+        "variantes": [
+          "Triângulo de Yang Hui",
+          "Triângulo de Tartaglia",
+          "Pascal's triangle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pascal%27s_triangle"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Na China, o triângulo de Pascal é conhecido pelo nome de qual matemático chinês do século treze?",
+      "resposta": "Yang Hui",
+      "distratores": [
+        "Liu Hui",
+        "Zu Chongzhi",
+        "Qin Jiushao"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pascal%27s_triangle"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fórmula de Bhaskara",
+        "descricao": "Nome dado no Brasil à fórmula que resolve equações do segundo grau.",
+        "variantes": [
+          "Fórmula quadrática",
+          "Fórmula resolutiva"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Bhaskara"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No Brasil, a fórmula que resolve as equações do segundo grau leva o nome de qual matemático indiano do século doze?",
+      "resposta": "Bhaskara",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/F%C3%B3rmula_de_Bhaskara",
+        "https://pt.wikipedia.org/wiki/Bhaskara_II"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "1729 (número)",
+        "descricao": "Número natural conhecido como número de Hardy-Ramanujan, o menor que é soma de dois cubos de duas maneiras diferentes.",
+        "variantes": [
+          "Número de Hardy-Ramanujan",
+          "Mil setecentos e vinte e nove"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/1729_(number)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa de uma conversa entre Hardy e Ramanujan, o número mil setecentos e vinte e nove ganhou o apelido de número de que veículo?",
+      "resposta": "Táxi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1729_(number)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "carl_friedrich_gauss",
+        "nome": "Carl Friedrich Gauss",
+        "descricao": "Matemático, astrônomo e físico alemão, o príncipe dos matemáticos.",
+        "variantes": [
+          "Gauss"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Pela grandeza de sua obra, o alemão Carl Friedrich Gauss ganhou que apelido ligado à nobreza?",
+      "resposta": "Príncipe dos matemáticos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lewis Carroll",
+        "descricao": "Escritor e matemático inglês do século dezenove, autor de Alice no País das Maravilhas.",
+        "variantes": [
+          "Charles Lutwidge Dodgson",
+          "Charles Dodgson"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lewis_Carroll"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O matemático inglês Charles Dodgson, professor em Oxford, ficou mundialmente famoso como escritor usando que pseudônimo?",
+      "resposta": "Lewis Carroll",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lewis_Carroll"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Algarismo",
+        "descricao": "Cada um dos símbolos usados para escrever números, de zero a nove.",
+        "variantes": [
+          "Dígito",
+          "Algarismos"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Algarismo"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "As palavras algarismo e algoritmo vêm, ambas, do nome de qual matemático persa do século nove?",
+      "resposta": "Al-Khwarizmi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muhammad_ibn_Musa_al-Khwarizmi",
+        "https://pt.wikipedia.org/wiki/Algarismo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Googol",
+        "descricao": "Nome do número formado pelo algarismo um seguido de cem zeros.",
+        "variantes": [
+          "Gugol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Googol"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que gigante da internet tirou o nome, com a grafia modificada, do googol, o número um seguido de cem zeros?",
+      "resposta": "Google",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Googol"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia do Pi",
+        "descricao": "Data comemorativa da constante pi, celebrada em catorze de março.",
+        "variantes": [
+          "Pi Day"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pi_Day"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O Dia do Pi, comemorado em catorze de março, coincide com o aniversário de nascimento de qual físico famoso?",
+      "resposta": "Albert Einstein",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pi_Day"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ada Lovelace",
+        "descricao": "Matemática inglesa do século dezenove que escreveu sobre a máquina analítica de Charles Babbage.",
+        "variantes": [
+          "Augusta Ada King",
+          "Condessa de Lovelace"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ada_Lovelace"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A matemática inglesa Ada Lovelace, que escreveu sobre a máquina analítica de Babbage, era filha de qual poeta romântico?",
+      "resposta": "Lord Byron",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ada_Lovelace"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Faixa de Möbius",
+        "descricao": "Superfície obtida ao colar as pontas de uma fita depois de meia torção, com uma só face.",
+        "variantes": [
+          "Fita de Möbius",
+          "Banda de Möbius",
+          "Möbius strip"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/M%C3%B6bius_strip"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que símbolo de três setas, desenhado em 1970 por um estudante americano, foi inspirado na faixa de Möbius?",
+      "resposta": "Símbolo da reciclagem",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Recycling_symbol"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cigarra periódica",
+        "descricao": "Cigarras do gênero Magicicada, da América do Norte, que emergem em massa em ciclos de treze ou dezessete anos.",
+        "variantes": [
+          "Magicicada",
+          "Cigarras periódicas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Magicicada"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Algumas cigarras da América do Norte saem da terra em ciclos de treze ou dezessete anos. O que esses dois números têm em comum?",
+      "resposta": "São números primos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Magicicada"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Girassol",
+        "descricao": "Planta da espécie Helianthus annuus, de grandes flores amarelas que acompanham o sol.",
+        "variantes": [
+          "Helianthus annuus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Helianthus_annuus"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "As espirais de sementes no miolo do girassol costumam aparecer em quantidades que pertencem a qual sequência numérica famosa?",
+      "resposta": "Fibonacci",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fibonacci_sequence"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sophie Germain",
+        "descricao": "Matemática francesa dos séculos dezoito e dezenove, conhecida por trabalhos em teoria dos números e elasticidade.",
+        "variantes": [
+          "Marie-Sophie Germain"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sophie_Germain"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A francesa Sophie Germain usou o pseudônimo masculino Monsieur Le Blanc para se corresponder com qual matemático alemão?",
+      "resposta": "Carl Friedrich Gauss",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sophie_Germain"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pascal (unidade)",
+        "descricao": "Unidade de pressão do Sistema Internacional de Unidades.",
+        "variantes": [
+          "Pa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pascal_(unit)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A unidade de pressão do Sistema Internacional e uma linguagem de programação dos anos setenta homenageiam o mesmo matemático francês. Quem?",
+      "resposta": "Blaise Pascal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pascal_(unit)",
+        "https://en.wikipedia.org/wiki/Pascal_(programming_language)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "28 (número)",
+        "descricao": "Número natural vinte e oito, o segundo número perfeito.",
+        "variantes": [
+          "Vinte e oito"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/28_(number)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O seis é igual à soma de seus divisores um, dois e três, e o vinte e oito tem a mesma propriedade. Como se chamam esses números?",
+      "resposta": "Números perfeitos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Perfect_number",
+        "https://en.wikipedia.org/wiki/28_(number)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Último Teorema de Fermat",
+        "descricao": "Teorema enunciado por Pierre de Fermat em 1637 e demonstrado por Andrew Wiles em 1994.",
+        "variantes": [
+          "Último teorema de Fermat",
+          "Fermat's Last Theorem"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Pierre de Fermat afirmou ter uma prova maravilhosa do seu último teorema, mas não a escreveu. Que motivo ele anotou?",
+      "resposta": "A margem do livro era pequena",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sinal de igual",
+        "descricao": "Símbolo matemático formado por dois traços paralelos, que indica igualdade.",
+        "variantes": [
+          "Sinal de igualdade",
+          "Equals sign"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Equals_sign"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1557, o galês Robert Recorde criou o sinal de igual com dois traços paralelos. Que justificativa ele deu para essa escolha?",
+      "resposta": "Nada é mais igual que duas paralelas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Equals_sign"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pascalina",
+        "descricao": "Calculadora mecânica construída por Blaise Pascal no século dezessete.",
+        "variantes": [
+          "Calculadora de Pascal",
+          "Pascaline"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Ainda jovem, Blaise Pascal construiu uma calculadora mecânica, a pascalina. Que trabalho do pai ela devia facilitar?",
+      "resposta": "Cálculo de impostos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Teorema das quatro cores",
+        "descricao": "Teorema segundo o qual quatro cores bastam para colorir qualquer mapa sem que regiões vizinhas tenham a mesma cor.",
+        "variantes": [
+          "Four color theorem",
+          "Teorema das 4 cores"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Four_color_theorem"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a demonstração do teorema das quatro cores, em 1976, gerou desconfiança entre muitos matemáticos?",
+      "resposta": "Dependia de um computador",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Four_color_theorem"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Conjectura do favo de mel",
+        "descricao": "Afirmação, demonstrada por Thomas Hales em 1999, de que a malha hexagonal divide o plano em áreas iguais com o menor perímetro total.",
+        "variantes": [
+          "Honeycomb conjecture",
+          "Teorema do favo de mel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Honeycomb_conjecture"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo uma conjectura demonstrada em 1999, por que a forma hexagonal é a mais vantajosa para os favos das abelhas?",
+      "resposta": "Gasta menos cera para mesma área",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Honeycomb_conjecture"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sistema sexagesimal",
+        "descricao": "Sistema de numeração de base sessenta, usado na antiga Mesopotâmia.",
+        "variantes": [
+          "Base sessenta",
+          "Sexagesimal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sexagesimal"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "A hora tem sessenta minutos por herança do sistema de numeração de base sessenta usado por que povo antigo?",
+      "resposta": "Babilônios",
+      "distratores": [
+        "Egípcios",
+        "Gregos",
+        "Romanos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sexagesimal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "John Nash",
+        "descricao": "Matemático americano do século vinte, retratado no filme Uma Mente Brilhante.",
+        "variantes": [
+          "John Forbes Nash Jr."
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr."
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "John Nash, retratado no filme Uma Mente Brilhante, ganhou o Nobel de Economia em 1994 por seus trabalhos em qual área?",
+      "resposta": "Teoria dos jogos",
+      "distratores": [
+        "Teoria do caos",
+        "Teoria dos grafos",
+        "Teoria das cordas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr."
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Évariste Galois",
+        "descricao": "Matemático francês do século dezenove, cujas ideias deram origem à teoria de Galois.",
+        "variantes": [
+          "Evariste Galois",
+          "Galois"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/%C3%89variste_Galois"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O francês Évariste Galois, cujas ideias revolucionaram a álgebra, morreu em 1832 com apenas vinte anos. O que causou sua morte?",
+      "resposta": "Um duelo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/%C3%89variste_Galois"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Logaritmo",
+        "descricao": "Operação matemática inversa da exponenciação.",
+        "variantes": [
+          "Logaritmos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Logarithm"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que matemático escocês publicou, em 1614, a obra que apresentou os logaritmos ao mundo?",
+      "resposta": "John Napier",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/John_Napier",
+        "https://en.wikipedia.org/wiki/Logarithm"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Símbolo do infinito",
+        "descricao": "Símbolo matemático em forma de oito deitado, que representa o infinito.",
+        "variantes": [
+          "Lemniscata",
+          "Infinity symbol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Infinity_symbol"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que matemático inglês introduziu, em 1655, o símbolo do infinito, parecido com um oito deitado?",
+      "resposta": "John Wallis",
+      "distratores": [
+        "Isaac Barrow",
+        "Robert Recorde",
+        "Edmond Halley"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Infinity_symbol"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Zero",
+        "descricao": "O número zero e o algarismo que o representa.",
+        "variantes": [
+          "0",
+          "Número zero"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/0",
+          "https://pt.wikipedia.org/wiki/Zero"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que matemático indiano do século sete escreveu regras para fazer contas com o zero?",
+      "resposta": "Brahmagupta",
+      "distratores": [
+        "Aryabhata",
+        "Bhaskara",
+        "Madhava"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brahmagupta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Último Teorema de Fermat",
+        "descricao": "Teorema enunciado por Pierre de Fermat em 1637 e demonstrado por Andrew Wiles em 1994.",
+        "variantes": [
+          "Último teorema de Fermat",
+          "Fermat's Last Theorem"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Mais de trezentos anos depois de enunciado, o último teorema de Fermat foi demonstrado em 1994 por qual matemático britânico?",
+      "resposta": "Andrew Wiles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem",
+        "https://en.wikipedia.org/wiki/Andrew_Wiles"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Medalha Fields",
+        "descricao": "Prêmio internacional concedido a cada quatro anos a matemáticos com menos de quarenta anos.",
+        "variantes": [
+          "Fields Medal"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fields_Medal"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 2014, que matemático carioca recebeu a Medalha Fields, um dos prêmios mais importantes da matemática?",
+      "resposta": "Artur Avila",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Artur_Avila",
+        "https://en.wikipedia.org/wiki/Fields_Medal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Conjectura de Poincaré",
+        "descricao": "Problema de topologia proposto por Henri Poincaré em 1904 e resolvido no início do século vinte e um.",
+        "variantes": [
+          "Poincaré conjecture"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que matemático russo demonstrou a conjectura de Poincaré e recusou a Medalha Fields em 2006?",
+      "resposta": "Grigori Perelman",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Grigori_Perelman",
+        "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Rubaiyat",
+        "descricao": "Coleção de quadras poéticas persas atribuídas a Omar Khayyam.",
+        "variantes": [
+          "Rubaiyat de Omar Khayyam",
+          "Rubáiyát"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rubaiyat_of_Omar_Khayyam"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A que matemático e astrônomo persa, estudioso das equações cúbicas, são atribuídos os versos do Rubaiyat?",
+      "resposta": "Omar Khayyam",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Omar_Khayyam",
+        "https://en.wikipedia.org/wiki/Rubaiyat_of_Omar_Khayyam"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hipátia",
+        "descricao": "Filósofa, astrônoma e matemática de Alexandria, assassinada no ano 415.",
+        "variantes": [
+          "Hipátia de Alexandria",
+          "Hypatia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hypatia"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A matemática e filósofa Hipátia foi assassinada por uma multidão em Alexandria, no Egito romano. Em que século?",
+      "resposta": "Século cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hypatia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Malba Tahan",
+        "descricao": "Pseudônimo do professor brasileiro Júlio César de Mello e Souza, autor de O Homem que Calculava.",
+        "variantes": [
+          "Júlio César de Mello e Souza"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Malba_Tahan"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O Dia Nacional da Matemática, no Brasil, celebra o nascimento de Malba Tahan, autor de O Homem que Calculava. Em que data é comemorado?",
+      "resposta": "Seis de maio",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Malba_Tahan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pitágoras",
+        "descricao": "Filósofo e matemático grego do século seis antes de Cristo, nascido em Samos.",
+        "variantes": [
+          "Pitágoras de Samos",
+          "Pythagoras"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pythagoras"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Entre os gregos Pitágoras, Euclides e Arquimedes, qual nasceu primeiro?",
+      "resposta": "Pitágoras",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pythagoras",
+        "https://en.wikipedia.org/wiki/Euclid",
+        "https://en.wikipedia.org/wiki/Archimedes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Liber Abaci",
+        "descricao": "Livro de aritmética escrito por Fibonacci, publicado em 1202.",
+        "variantes": [
+          "Livro do Ábaco",
+          "Liber Abbaci"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Liber_Abaci"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que século Fibonacci publicou o Liber Abaci, livro que ajudou a difundir os algarismos indo-arábicos na Europa?",
+      "resposta": "Século treze",
+      "distratores": [
+        "Século dez",
+        "Século onze",
+        "Século quinze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Liber_Abaci"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Algarismos indo-arábicos",
+        "descricao": "Sistema de numeração posicional decimal, com os algarismos de zero a nove, usado hoje no mundo todo.",
+        "variantes": [
+          "Algarismos arábicos",
+          "Sistema de numeração indo-arábico",
+          "Hindu-Arabic numerals"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Os algarismos de zero a nove são chamados de arábicos, mas em que região do mundo eles foram criados?",
+      "resposta": "Índia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "srinivasa_ramanujan",
+        "nome": "Srinivasa Ramanujan",
+        "descricao": "Matemático indiano do início do século vinte, autodidata, com contribuições à teoria dos números e às séries infinitas.",
+        "variantes": [
+          "Ramanujan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A convite do matemático Hardy, Ramanujan deixou a Índia em 1914 para trabalhar em qual universidade inglesa?",
+      "resposta": "Universidade de Cambridge",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Srinivasa_Ramanujan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Problema das sete pontes de Königsberg",
+        "descricao": "Problema resolvido por Euler em 1736, considerado a origem da teoria dos grafos.",
+        "variantes": [
+          "Sete pontes de Königsberg",
+          "Seven Bridges of Königsberg"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1736, Euler resolveu o famoso problema das sete pontes de uma cidade prussiana. Que nome essa cidade tem hoje?",
+      "resposta": "Kaliningrado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Papiro Rhind",
+        "descricao": "Papiro egípcio com problemas de matemática, copiado pelo escriba Ahmes por volta de 1550 antes de Cristo.",
+        "variantes": [
+          "Papiro de Ahmes",
+          "Rhind Mathematical Papyrus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em que museu está guardado o papiro Rhind, um dos mais importantes textos de matemática do antigo Egito?",
+      "resposta": "Museu Britânico",
+      "distratores": [
+        "Museu do Louvre",
+        "Museu Egípcio do Cairo",
+        "Metropolitan de Nova York"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rhind_Mathematical_Papyrus"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Faixa de Möbius",
+        "descricao": "Superfície obtida ao colar as pontas de uma fita depois de meia torção, com uma só face.",
+        "variantes": [
+          "Fita de Möbius",
+          "Banda de Möbius",
+          "Möbius strip"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/M%C3%B6bius_strip"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Quantas faces tem a faixa de Möbius, uma fita que recebe meia torção antes de ter as pontas coladas?",
+      "resposta": "Uma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/M%C3%B6bius_strip"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Os Elementos",
+        "descricao": "Tratado de geometria e aritmética escrito por Euclides em Alexandria, por volta de 300 antes de Cristo.",
+        "variantes": [
+          "Elementos de Euclides",
+          "Euclid's Elements"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em quantos livros se divide Os Elementos, a obra de geometria escrita por Euclides?",
+      "resposta": "Treze",
+      "distratores": [
+        "Sete",
+        "Dez",
+        "Doze"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Paradoxos de Zenão",
+        "descricao": "Argumentos do filósofo grego Zenão de Eleia sobre o movimento e o infinito.",
+        "variantes": [
+          "Paradoxo de Aquiles e a tartaruga",
+          "Zeno's paradoxes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Num famoso paradoxo de Zenão de Eleia, o veloz Aquiles nunca consegue alcançar que animal numa corrida?",
+      "resposta": "Tartaruga",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zeno%27s_paradoxes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Número primo",
+        "descricao": "Número natural maior que um que só é divisível por um e por ele mesmo.",
+        "variantes": [
+          "Números primos",
+          "Prime number"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Prime_number"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Qual é o único número primo que é par?",
+      "resposta": "Dois",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Prime_number",
+        "https://en.wikipedia.org/wiki/2"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quipu",
+        "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+        "variantes": [
+          "Khipu",
+          "Quipo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quipu"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que sistema de cordões com nós os incas usavam para registrar números e informações?",
+      "resposta": "Quipu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quipu"
+      ]
+    }
+  ]
+}

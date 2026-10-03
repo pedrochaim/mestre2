@@ -1,0 +1,196 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Pela grandeza de sua obra, o alemão Carl Friedrich Gauss ganhou que apelido ligado à nobreza?",
+        "resposta": "Príncipe dos matemáticos"
+      },
+      "existentes": [
+        {
+          "id": "q00865",
+          "pergunta": "Que unidade de medida do campo magnético leva o nome deste matemático alemão?",
+          "resposta": "Gauss"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A matemática inglesa Ada Lovelace, que escreveu sobre a máquina analítica de Babbage, era filha de qual poeta romântico?",
+        "resposta": "Lord Byron"
+      },
+      "existentes": [
+        {
+          "id": "q01042",
+          "pergunta": "Com que máquina de Charles Babbage esta matemática inglesa é famosa por ter trabalhado?",
+          "resposta": "Máquina analítica"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Algumas cigarras da América do Norte saem da terra em ciclos de treze ou dezessete anos. O que esses dois números têm em comum?",
+        "resposta": "São números primos"
+      },
+      "existentes": [
+        {
+          "id": "q02610",
+          "pergunta": "Certas cigarras norte-americanas saem da terra em massa a cada treze ou dezessete anos. Que propriedade matemática esses dois números têm em comum?",
+          "resposta": "São números primos"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "As espirais de sementes no miolo do girassol costumam aparecer em quantidades que pertencem a qual sequência numérica famosa?",
+        "resposta": "Fibonacci"
+      },
+      "existentes": [
+        {
+          "id": "q02695",
+          "pergunta": "Os girassóis jovens acompanham o sol durante o dia, mas os adultos, já floridos, ficam virados para que ponto cardeal?",
+          "resposta": "Leste"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Ainda jovem, Blaise Pascal construiu uma calculadora mecânica, a pascalina. Que trabalho do pai ela devia facilitar?",
+        "resposta": "Cálculo de impostos"
+      },
+      "existentes": [
+        {
+          "id": "q01680",
+          "pergunta": "Que calculadora mecânica do século dezessete, de rodas giratórias, é esta?",
+          "resposta": "Pascalina"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A hora tem sessenta minutos por herança do sistema de numeração de base sessenta usado por que povo antigo?",
+        "resposta": "Babilônios"
+      },
+      "existentes": [
+        {
+          "id": "q03098",
+          "pergunta": "Os sessenta minutos da hora e os sessenta segundos do minuto vêm do sistema de contagem de qual povo antigo?",
+          "resposta": "Sumérios"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Entre os gregos Pitágoras, Euclides e Arquimedes, qual nasceu primeiro?",
+        "resposta": "Pitágoras"
+      },
+      "existentes": [
+        {
+          "id": "q03237",
+          "pergunta": "Em que cidade da Magna Grécia, no sul da atual Itália, Pitágoras fundou sua comunidade de seguidores?",
+          "resposta": "Crotona"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Os algarismos de zero a nove são chamados de arábicos, mas em que região do mundo eles foram criados?",
+        "resposta": "Índia"
+      },
+      "existentes": [
+        {
+          "id": "q00106",
+          "pergunta": "Os algarismos de zero a nove são chamados de arábicos, mas os árabes medievais os aprenderam com matemáticos de que região?",
+          "resposta": "Índia"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A convite do matemático Hardy, Ramanujan deixou a Índia em 1914 para trabalhar em qual universidade inglesa?",
+        "resposta": "Universidade de Cambridge"
+      },
+      "existentes": [
+        {
+          "id": "q01427",
+          "pergunta": "Que matemático indiano do início do século vinte é este?",
+          "resposta": "Srinivasa Ramanujan"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em quantos livros se divide Os Elementos, a obra de geometria escrita por Euclides?",
+        "resposta": "Treze"
+      },
+      "existentes": [
+        {
+          "id": "q03233",
+          "pergunta": "Que matemático de Alexandria escreveu Os Elementos, obra usada no ensino de geometria por mais de dois mil anos?",
+          "resposta": "Euclides"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Apelido de Gauss versus unidade de medida: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pai de Ada Lovelace versus máquina em que trabalhou: fatos diferentes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta sobre as cigarras: números primos."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sequência de Fibonacci nas espirais versus orientação do girassol adulto: fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Finalidade da pascalina (trabalho do pai) versus identificar a calculadora: fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Respostas diferentes (babilônios x sumérios), e a pergunta existente trata de outro enquadramento; na dúvida, nova."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ordem de nascimento versus cidade onde fundou a comunidade: fatos diferentes."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: a origem dos algarismos é a Índia."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Universidade para onde Ramanujan foi versus identificar o matemático: fatos diferentes."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Número de livros versus autor da obra: fatos diferentes."
+    }
+  ]
+}
