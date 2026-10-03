@@ -1,0 +1,1586 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Célula",
+        "descricao": "Unidade estrutural e funcional básica dos seres vivos.",
+        "variantes": [
+          "Cell"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cell_(biology)",
+          "https://pt.wikipedia.org/wiki/C%C3%A9lula"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em 1665, Robert Hooke viu pequenas cavidades na cortiça e as chamou de células. Elas o lembravam de quê?",
+      "resposta": "Celas de monges",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cell_(biology)"
+      ],
+      "ancora": "celula"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Cromossomo",
+        "descricao": "Estrutura do núcleo celular formada por DNA e proteínas, que carrega os genes.",
+        "variantes": [
+          "Cromossoma",
+          "Chromosome"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chromosome",
+          "https://pt.wikipedia.org/wiki/Cromossomo"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os cromossomos ganharam esse nome no século dezenove. Traduzido do grego, ele significa o quê?",
+      "resposta": "Corpo colorido",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chromosome"
+      ],
+      "ancora": "cromossomo"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "mitocondria",
+        "nome": "Mitocôndria",
+        "descricao": "Organela de células eucariotas com dupla membrana, responsável pela respiração aérea e produção de ATP.",
+        "variantes": [
+          "Mitochondrion"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mitochondrion"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome mitocôndria junta duas palavras gregas. Quais são elas?",
+      "resposta": "Fio e grânulo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mitochondrion"
+      ],
+      "ancora": "mitocondria"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "nome": "Homo sapiens",
+        "descricao": "Nome científico da espécie humana moderna.",
+        "variantes": [
+          "Ser humano",
+          "Human"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Human",
+          "https://pt.wikipedia.org/wiki/Homo_sapiens"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em latim, o que quer dizer Homo sapiens, o nome científico da nossa espécie?",
+      "resposta": "Homem sábio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Human",
+        "https://pt.wikipedia.org/wiki/Homo_sapiens"
+      ],
+      "ancora": "homo_sapiens"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Vírus",
+        "descricao": "Agente infeccioso microscópico que só se replica dentro de células vivas.",
+        "variantes": [
+          "Virus"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Virus"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Muito antes de nomear micróbios, a palavra latina vírus significava o quê?",
+      "resposta": "Veneno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Virus"
+      ],
+      "ancora": "virus"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "Bactéria",
+        "descricao": "Microrganismo unicelular procarionte, sem núcleo delimitado.",
+        "variantes": [
+          "Bacteria"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bacteria"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Por causa do formato das primeiras que foram observadas, o nome bactéria vem do grego para qual objeto?",
+      "resposta": "Bastãozinho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bacteria"
+      ],
+      "ancora": "bacteria"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "nome": "Drosophila melanogaster",
+        "descricao": "Mosca-da-fruta usada como organismo-modelo em genética.",
+        "variantes": [
+          "Mosca-da-fruta",
+          "Drosófila"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome da mosca dos laboratórios de genética, Drosophila melanogaster, significa amante do orvalho de barriga de que cor?",
+      "resposta": "Preta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+      ],
+      "ancora": "drosophila_melanogaster"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Ovelha Dolly",
+        "descricao": "Ovelha nascida em 1996 na Escócia, primeiro mamífero clonado a partir de uma célula adulta.",
+        "variantes": [
+          "Dolly (ovelha)",
+          "Dolly the sheep"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dolly_(sheep)"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Clonada a partir de uma célula de glândula mamária, a ovelha Dolly recebeu o nome em homenagem a qual cantora?",
+      "resposta": "Dolly Parton",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dolly_(sheep)"
+      ],
+      "ancora": "ovelha_dolly"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "nome": "Procarionte",
+        "descricao": "Organismo unicelular sem núcleo delimitado por membrana, como bactérias e arqueias.",
+        "variantes": [
+          "Procarioto",
+          "Prokaryote"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Prokaryote"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Bactérias são chamadas de procariontes. O que esse nome, vindo do grego, significa literalmente?",
+      "resposta": "Antes do núcleo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Prokaryote"
+      ],
+      "ancora": "procarionte"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Células HeLa",
+        "descricao": "Linhagem de células humanas cultivadas continuamente desde 1951, retiradas de um tumor de Henrietta Lacks.",
+        "variantes": [
+          "HeLa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/HeLa"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "As células HeLa, cultivadas em laboratório desde 1951, devem esse nome a quê?",
+      "resposta": "Às iniciais de Henrietta Lacks",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/HeLa"
+      ],
+      "ancora": "celulas_hela"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "HMS Beagle",
+        "descricao": "Navio da Marinha Real britânica em que Charles Darwin viajou ao redor do mundo entre 1831 e 1836.",
+        "variantes": [
+          "Beagle"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/HMS_Beagle"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O navio Beagle, em que Darwin deu a volta ao mundo, recebeu esse nome em referência a quê?",
+      "resposta": "Uma raça de cão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/HMS_Beagle"
+      ],
+      "distratores": [
+        "Uma ave marinha",
+        "Um almirante inglês",
+        "Um rio escocês"
+      ],
+      "ancora": "hms_beagle"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "nome": "Antonie van Leeuwenhoek",
+        "descricao": "Comerciante e microscopista holandês do século dezessete, pioneiro da microbiologia.",
+        "variantes": [
+          "Leeuwenhoek"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No século dezessete, como o holandês Leeuwenhoek chamou os seres minúsculos que via em seus microscópios caseiros?",
+      "resposta": "Animálculos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+      ],
+      "ancora": "antonie_van_leeuwenhoek"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "nome": "Mariposa-das-bétulas",
+        "descricao": "Mariposa europeia Biston betularia, exemplo clássico de seleção natural durante a Revolução Industrial.",
+        "variantes": [
+          "Biston betularia",
+          "Peppered moth"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Peppered_moth_evolution"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na Inglaterra do século dezenove, as mariposas-das-bétulas escuras passaram a superar as claras. O que provocou essa mudança?",
+      "resposta": "Fuligem industrial escureceu os troncos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Peppered_moth_evolution"
+      ],
+      "ancora": "mariposa_das_betulas"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "Clorofila",
+        "descricao": "Pigmento das plantas e algas que capta a luz para a fotossíntese.",
+        "variantes": [
+          "Chlorophyll"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chlorophyll"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A clorofila capta luz para a fotossíntese. Por que, então, as folhas que a contêm parecem verdes?",
+      "resposta": "Ela absorve pouco a luz verde",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Clorofila",
+        "https://en.wikipedia.org/wiki/Chlorophyll"
+      ],
+      "ancora": "clorofila"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Gato tricolor",
+        "descricao": "Gato doméstico com pelagem de três cores, branca, preta e laranja.",
+        "variantes": [
+          "Gato cálico",
+          "Calico cat"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Calico_cat"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que gatos de três cores são quase sempre fêmeas?",
+      "resposta": "O gene da cor fica no cromossomo X",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Calico_cat"
+      ],
+      "ancora": "gato_tricolor"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Lamarckismo",
+        "descricao": "Teoria evolutiva de Jean-Baptiste de Lamarck, baseada no uso e desuso e na herança de características adquiridas.",
+        "variantes": [
+          "Lamarquismo",
+          "Lamarckism"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lamarckism"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo Lamarck, por que as girafas teriam desenvolvido pescoços tão longos?",
+      "resposta": "De tanto esticá-los para comer folhas altas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lamarckism"
+      ],
+      "ancora": "lamarckismo"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "A Origem das Espécies",
+        "descricao": "Livro de Charles Darwin, publicado em 1859, que apresenta a teoria da evolução por seleção natural.",
+        "variantes": [
+          "On the Origin of Species",
+          "A Origem das Espécies por Meio da Seleção Natural"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Darwin passou cerca de vinte anos sem publicar sua teoria. Em 1858, o que o fez finalmente se apressar a divulgá-la?",
+      "resposta": "Wallace chegou à mesma ideia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/On_the_Origin_of_Species",
+        "https://en.wikipedia.org/wiki/Alfred_Russel_Wallace"
+      ],
+      "ancora": "a_origem_das_especies"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Banana Cavendish",
+        "descricao": "Grupo de cultivares de banana de mesa, conhecido no Brasil como nanica, propagado por clonagem.",
+        "variantes": [
+          "Banana-nanica",
+          "Cavendish banana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cavendish_banana"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que uma única praga pode ameaçar as plantações de banana Cavendish, a nanica, no mundo inteiro?",
+      "resposta": "Todas são clones geneticamente idênticos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cavendish_banana"
+      ],
+      "ancora": "banana_cavendish"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "DNA mitocondrial",
+        "descricao": "Material genético próprio das mitocôndrias, separado do DNA do núcleo.",
+        "variantes": [
+          "mtDNA",
+          "Mitochondrial DNA"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mitochondrial_DNA"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que o material genético das mitocôndrias é herdado quase sempre só da mãe?",
+      "resposta": "As mitocôndrias vêm do óvulo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mitochondrial_DNA"
+      ],
+      "ancora": "dna_mitocondrial"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Mula",
+        "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+        "variantes": [
+          "Mulo",
+          "Mule"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mule"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a mula, filha de jumento com égua, é quase sempre estéril?",
+      "resposta": "Os cromossomos dos pais não formam pares",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mule"
+      ],
+      "ancora": "mula"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Seleção sexual",
+        "descricao": "Mecanismo evolutivo proposto por Darwin em que características se espalham por aumentarem o sucesso no acasalamento.",
+        "variantes": [
+          "Sexual selection"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sexual_selection"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo Darwin, por que os pavões machos carregam caudas tão enormes e chamativas?",
+      "resposta": "Para atrair as fêmeas",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sexual_selection"
+      ],
+      "ancora": "selecao_sexual"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Fungo",
+        "descricao": "Reino de seres vivos que inclui cogumelos, bolores e leveduras.",
+        "variantes": [
+          "Fungi",
+          "Fungos"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fungus"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Na árvore evolutiva da vida, os fungos são parentes mais próximos de qual grupo?",
+      "resposta": "Animais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fungus",
+        "https://en.wikipedia.org/wiki/Opisthokont"
+      ],
+      "distratores": [
+        "Plantas",
+        "Algas",
+        "Bactérias"
+      ],
+      "ancora": "fungo"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Christian Doppler",
+        "descricao": "Físico austríaco do século dezenove que descreveu o efeito Doppler.",
+        "variantes": [
+          "Doppler"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Christian_Doppler"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Antes das experiências com ervilhas, Gregor Mendel estudou física em Viena com qual professor famoso?",
+      "resposta": "Christian Doppler",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gregor_Mendel",
+        "https://en.wikipedia.org/wiki/Christian_Doppler"
+      ],
+      "distratores": [
+        "Ernst Mach",
+        "Hermann von Helmholtz",
+        "Michael Faraday"
+      ],
+      "ancora": "christian_doppler"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Francis Galton",
+        "descricao": "Polímata inglês do século dezenove que criou o termo eugenia e estudou a hereditariedade.",
+        "variantes": [
+          "Sir Francis Galton"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Francis_Galton"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que parentesco unia Charles Darwin a Francis Galton, o criador da palavra eugenia?",
+      "resposta": "Meios-primos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Francis_Galton"
+      ],
+      "ancora": "francis_galton"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Penicillium",
+        "descricao": "Gênero de fungos que inclui espécies usadas na produção de penicilina e de queijos.",
+        "variantes": [
+          "Penicílio"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penicillium"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O queijo roquefort e o primeiro antibiótico, descoberto por Alexander Fleming em 1928, vêm de fungos de qual gênero?",
+      "resposta": "Penicillium",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penicillium",
+        "https://en.wikipedia.org/wiki/Penicillium_roqueforti"
+      ],
+      "ancora": "penicillium"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Saccharomyces cerevisiae",
+        "descricao": "Espécie de levedura usada na panificação e na fabricação de cerveja e vinho.",
+        "variantes": [
+          "Levedura de padeiro",
+          "Fermento biológico",
+          "Levedura de cerveja"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que microrganismo é responsável tanto por fazer o pão crescer quanto por fermentar a cerveja?",
+      "resposta": "Levedura Saccharomyces cerevisiae",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+      ],
+      "ancora": "saccharomyces_cerevisiae"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Cão doméstico",
+        "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+        "variantes": [
+          "Cachorro",
+          "Canis lupus familiaris",
+          "Dog"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dog"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Para muitos biólogos, o cachorro doméstico é apenas uma subespécie de qual animal selvagem?",
+      "resposta": "Lobo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dog"
+      ],
+      "ancora": "cao_domestico"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Foto 51",
+        "descricao": "Imagem de difração de raios X do DNA obtida em 1952 no King's College de Londres.",
+        "variantes": [
+          "Photo 51",
+          "Fotografia 51"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Photo_51"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A Foto 51, imagem de raios X que revelou a forma em hélice do DNA, foi obtida pela equipe de qual cientista britânica?",
+      "resposta": "Rosalind Franklin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Photo_51"
+      ],
+      "ancora": "foto_51"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Meme",
+        "descricao": "Unidade de ideia ou comportamento que se transmite culturalmente, conceito criado em 1976.",
+        "variantes": [
+          "Meme (conceito)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Meme"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1976, no livro O Gene Egoísta, qual biólogo britânico inventou a palavra meme?",
+      "resposta": "Richard Dawkins",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Meme"
+      ],
+      "ancora": "meme"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Teoria endossimbiótica",
+        "descricao": "Teoria de que mitocôndrias e cloroplastos se originaram de bactérias que passaram a viver dentro de outras células.",
+        "variantes": [
+          "Endossimbiose",
+          "Simbiogênese",
+          "Symbiogenesis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Symbiogenesis"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nos anos sessenta, que bióloga americana defendeu que mitocôndrias e cloroplastos descendem de bactérias engolidas por outras células?",
+      "resposta": "Lynn Margulis",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Symbiogenesis",
+        "https://en.wikipedia.org/wiki/Lynn_Margulis"
+      ],
+      "ancora": "teoria_endossimbiotica"
+    },
+    {
+      "_indice": 35,
+      "_ancora": {
+        "nome": "Nomenclatura binomial",
+        "descricao": "Sistema de nomes científicos de espécies formados por duas palavras, gênero e epíteto específico.",
+        "variantes": [
+          "Nomenclatura binominal",
+          "Binomial nomenclature"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Binomial_nomenclature"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que naturalista sueco do século dezoito consagrou os nomes científicos de duas palavras, como Panthera leo para o leão?",
+      "resposta": "Carl Lineu",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Binomial_nomenclature"
+      ],
+      "ancora": "nomenclatura_binomial"
+    },
+    {
+      "_indice": 36,
+      "_ancora": {
+        "nome": "CRISPR-Cas9",
+        "descricao": "Técnica de edição genética conhecida como tesoura genética.",
+        "variantes": [
+          "CRISPR",
+          "Edição genética CRISPR"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/CRISPR_gene_editing"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 2020, quais duas cientistas ganharam o Nobel de Química pela tesoura genética CRISPR?",
+      "resposta": "Emmanuelle Charpentier e Jennifer Doudna",
+      "fonte": [
+        "https://www.nobelprize.org/prizes/chemistry/2020/summary/",
+        "https://en.wikipedia.org/wiki/CRISPR_gene_editing"
+      ],
+      "ancora": "crispr_cas9"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Transposon",
+        "descricao": "Sequência de DNA capaz de mudar de posição no genoma, os chamados genes saltadores.",
+        "variantes": [
+          "Elemento transponível",
+          "Gene saltador",
+          "Transposable element"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Transposable_element"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Estudando as cores dos grãos de milho, que cientista americana descobriu os chamados genes saltadores?",
+      "resposta": "Barbara McClintock",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Transposable_element",
+        "https://en.wikipedia.org/wiki/Barbara_McClintock"
+      ],
+      "ancora": "transposon"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "Geração espontânea",
+        "descricao": "Antiga teoria de que seres vivos surgiriam espontaneamente da matéria sem vida.",
+        "variantes": [
+          "Abiogênese (teoria antiga)",
+          "Spontaneous generation"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spontaneous_generation"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Usando frascos de gargalo curvo, em forma de pescoço de cisne, que cientista francês derrubou a teoria da geração espontânea?",
+      "resposta": "Louis Pasteur",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spontaneous_generation",
+        "https://en.wikipedia.org/wiki/Louis_Pasteur"
+      ],
+      "ancora": "geracao_espontanea"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Leis de Mendel",
+        "descricao": "Princípios da hereditariedade formulados por Gregor Mendel a partir de cruzamentos de ervilhas.",
+        "variantes": [
+          "Herança mendeliana",
+          "Mendelian inheritance"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mendelian_inheritance"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O trabalho de Mendel passou décadas ignorado. Em que ano suas leis foram redescobertas por três cientistas europeus?",
+      "resposta": "1900",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mendelian_inheritance"
+      ],
+      "distratores": [
+        "1875",
+        "1888",
+        "1912"
+      ],
+      "ancora": "leis_de_mendel"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "nome": "Projeto Genoma Humano",
+        "descricao": "Projeto científico internacional, lançado em 1990, para sequenciar o genoma humano.",
+        "variantes": [
+          "Human Genome Project"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Human_Genome_Project"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Lançado em 1990, em que ano o Projeto Genoma Humano foi declarado concluído?",
+      "resposta": "2003",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Human_Genome_Project"
+      ],
+      "ancora": "projeto_genoma_humano"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "nome": "A Origem das Espécies",
+        "descricao": "Livro de Charles Darwin, publicado em 1859, que apresenta a teoria da evolução por seleção natural.",
+        "variantes": [
+          "On the Origin of Species",
+          "A Origem das Espécies por Meio da Seleção Natural"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano Charles Darwin publicou A Origem das Espécies?",
+      "resposta": "1859",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+      ],
+      "ancora": "a_origem_das_especies"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "nome": "Tentilhões de Darwin",
+        "descricao": "Grupo de pequenas aves aparentadas, com bicos adaptados a diferentes alimentos, estudadas por Darwin.",
+        "variantes": [
+          "Darwin's finches"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Darwin%27s_finches"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que arquipélago do Pacífico vivem os tentilhões de Darwin, famosos pelos bicos adaptados a cada tipo de alimento?",
+      "resposta": "Galápagos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Darwin%27s_finches"
+      ],
+      "ancora": "tentilhoes_de_darwin"
+    },
+    {
+      "_indice": 43,
+      "_ancora": {
+        "nome": "Julgamento do Macaco",
+        "descricao": "Processo judicial de 1925 contra o professor John Scopes por ensinar a evolução humana.",
+        "variantes": [
+          "Julgamento de Scopes",
+          "Scopes Trial",
+          "Scopes Monkey Trial"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Scopes_trial"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1925, um professor foi julgado por ensinar evolução, no famoso Julgamento do Macaco. Em que estado americano isso aconteceu?",
+      "resposta": "Tennessee",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scopes_trial"
+      ],
+      "ancora": "julgamento_de_scopes"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Thermus aquaticus",
+        "descricao": "Bactéria de fontes termais da qual se extrai a enzima Taq polimerase, usada no teste de PCR.",
+        "variantes": [
+          "Taq"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thermus_aquaticus"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A enzima usada no teste de PCR vem de uma bactéria descoberta em fontes termais de qual parque americano?",
+      "resposta": "Yellowstone",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thermus_aquaticus",
+        "https://en.wikipedia.org/wiki/Taq_polymerase"
+      ],
+      "distratores": [
+        "Yosemite",
+        "Grand Canyon",
+        "Everglades"
+      ],
+      "ancora": "thermus_aquaticus"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "id_existente": "gregor_mendel",
+        "nome": "Gregor Mendel",
+        "descricao": "Frade agostiniano austríaco, fundador da genética pelos experimentos com ervilhas.",
+        "variantes": [
+          "Mendel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gregor_Mendel"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em que cidade, hoje na República Tcheca, ficava o mosteiro onde Mendel cruzou suas ervilhas?",
+      "resposta": "Brno",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gregor_Mendel"
+      ],
+      "ancora": "gregor_mendel"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Código genético",
+        "descricao": "Conjunto de regras pelo qual trincas de bases do material genético são traduzidas em aminoácidos.",
+        "variantes": [
+          "Genetic code"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Genetic_code"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantos códons diferentes formam o código genético?",
+      "resposta": "64",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Genetic_code"
+      ],
+      "distratores": [
+        "20",
+        "46",
+        "128"
+      ],
+      "ancora": "codigo_genetico"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Sistema de cinco reinos",
+        "descricao": "Classificação dos seres vivos proposta por Robert Whittaker em 1969.",
+        "variantes": [
+          "Classificação de Whittaker",
+          "Five-kingdom system"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kingdom_(biology)"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Em 1969, o ecólogo Robert Whittaker propôs dividir os seres vivos em quantos reinos?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kingdom_(biology)",
+        "https://en.wikipedia.org/wiki/Robert_H._Whittaker"
+      ],
+      "distratores": [
+        "Três",
+        "Quatro",
+        "Seis"
+      ],
+      "ancora": "sistema_de_cinco_reinos"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Sistema de três domínios",
+        "descricao": "Classificação da vida proposta por Carl Woese em três grandes domínios.",
+        "variantes": [
+          "Three-domain system",
+          "Domínios de Woese"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Three-domain_system"
+        ]
+      },
+      "tema": "Ciências",
+      "subtema": "Biologia e Genética",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Carl Woese dividiu a vida em três domínios: bactérias, eucariontes e qual outro?",
+      "resposta": "Arqueias",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Three-domain_system"
+      ],
+      "distratores": [
+        "Fungos",
+        "Vírus",
+        "Protozoários"
+      ],
+      "ancora": "sistema_de_tres_dominios"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "celula",
+      "nome": "Célula",
+      "descricao": "Unidade estrutural e funcional básica dos seres vivos.",
+      "variantes": [
+        "Cell"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Cell_(biology)",
+        "https://pt.wikipedia.org/wiki/C%C3%A9lula"
+      ]
+    },
+    {
+      "id": "cromossomo",
+      "nome": "Cromossomo",
+      "descricao": "Estrutura do núcleo celular formada por DNA e proteínas, que carrega os genes.",
+      "variantes": [
+        "Cromossoma",
+        "Chromosome"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Chromosome",
+        "https://pt.wikipedia.org/wiki/Cromossomo"
+      ]
+    },
+    {
+      "id": "virus",
+      "nome": "Vírus",
+      "descricao": "Agente infeccioso microscópico que só se replica dentro de células vivas.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Virus"
+      ]
+    },
+    {
+      "id": "bacteria",
+      "nome": "Bactéria",
+      "descricao": "Microrganismo unicelular procarionte, sem núcleo delimitado.",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Bacteria"
+      ]
+    },
+    {
+      "id": "drosophila_melanogaster",
+      "nome": "Drosophila melanogaster",
+      "descricao": "Mosca-da-fruta usada como organismo-modelo em genética.",
+      "variantes": [
+        "Mosca-da-fruta",
+        "Drosófila"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
+      ]
+    },
+    {
+      "id": "ovelha_dolly",
+      "nome": "Ovelha Dolly",
+      "descricao": "Ovelha nascida em 1996 na Escócia, primeiro mamífero clonado a partir de uma célula adulta.",
+      "variantes": [
+        "Dolly (ovelha)",
+        "Dolly the sheep"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Dolly_(sheep)"
+      ]
+    },
+    {
+      "id": "procarionte",
+      "nome": "Procarionte",
+      "descricao": "Organismo unicelular sem núcleo delimitado por membrana, como bactérias e arqueias.",
+      "variantes": [
+        "Procarioto",
+        "Prokaryote"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Prokaryote"
+      ]
+    },
+    {
+      "id": "celulas_hela",
+      "nome": "Células HeLa",
+      "descricao": "Linhagem de células humanas cultivadas continuamente desde 1951, retiradas de um tumor de Henrietta Lacks.",
+      "variantes": [
+        "HeLa"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/HeLa"
+      ]
+    },
+    {
+      "id": "hms_beagle",
+      "nome": "HMS Beagle",
+      "descricao": "Navio da Marinha Real britânica em que Charles Darwin viajou ao redor do mundo entre 1831 e 1836.",
+      "variantes": [
+        "Beagle"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/HMS_Beagle"
+      ]
+    },
+    {
+      "id": "mariposa_das_betulas",
+      "nome": "Mariposa-das-bétulas",
+      "descricao": "Mariposa europeia Biston betularia, exemplo clássico de seleção natural durante a Revolução Industrial.",
+      "variantes": [
+        "Biston betularia",
+        "Peppered moth"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Peppered_moth_evolution"
+      ]
+    },
+    {
+      "id": "clorofila",
+      "nome": "Clorofila",
+      "descricao": "Pigmento das plantas e algas que capta a luz para a fotossíntese.",
+      "variantes": [
+        "Chlorophyll"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Chlorophyll"
+      ]
+    },
+    {
+      "id": "gato_tricolor",
+      "nome": "Gato tricolor",
+      "descricao": "Gato doméstico com pelagem de três cores, branca, preta e laranja.",
+      "variantes": [
+        "Gato cálico",
+        "Calico cat"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Calico_cat"
+      ]
+    },
+    {
+      "id": "lamarckismo",
+      "nome": "Lamarckismo",
+      "descricao": "Teoria evolutiva de Jean-Baptiste de Lamarck, baseada no uso e desuso e na herança de características adquiridas.",
+      "variantes": [
+        "Lamarquismo",
+        "Lamarckism"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Lamarckism"
+      ]
+    },
+    {
+      "id": "a_origem_das_especies",
+      "nome": "A Origem das Espécies",
+      "descricao": "Livro de Charles Darwin, publicado em 1859, que apresenta a teoria da evolução por seleção natural.",
+      "variantes": [
+        "On the Origin of Species",
+        "A Origem das Espécies por Meio da Seleção Natural"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/On_the_Origin_of_Species"
+      ]
+    },
+    {
+      "id": "banana_cavendish",
+      "nome": "Banana Cavendish",
+      "descricao": "Grupo de cultivares de banana de mesa, conhecido no Brasil como nanica, propagado por clonagem.",
+      "variantes": [
+        "Banana-nanica",
+        "Cavendish banana"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Cavendish_banana"
+      ]
+    },
+    {
+      "id": "dna_mitocondrial",
+      "nome": "DNA mitocondrial",
+      "descricao": "Material genético próprio das mitocôndrias, separado do DNA do núcleo.",
+      "variantes": [
+        "mtDNA",
+        "Mitochondrial DNA"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Mitochondrial_DNA"
+      ]
+    },
+    {
+      "id": "mula",
+      "nome": "Mula",
+      "descricao": "Animal híbrido resultante do cruzamento de um jumento com uma égua.",
+      "variantes": [
+        "Mulo",
+        "Mule"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Mule"
+      ]
+    },
+    {
+      "id": "selecao_sexual",
+      "nome": "Seleção sexual",
+      "descricao": "Mecanismo evolutivo proposto por Darwin em que características se espalham por aumentarem o sucesso no acasalamento.",
+      "variantes": [
+        "Sexual selection"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Sexual_selection"
+      ]
+    },
+    {
+      "id": "fungo",
+      "nome": "Fungo",
+      "descricao": "Reino de seres vivos que inclui cogumelos, bolores e leveduras.",
+      "variantes": [
+        "Fungi",
+        "Fungos"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Fungus"
+      ]
+    },
+    {
+      "id": "christian_doppler",
+      "nome": "Christian Doppler",
+      "descricao": "Físico austríaco do século dezenove que descreveu o efeito Doppler.",
+      "variantes": [
+        "Doppler"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Christian_Doppler"
+      ]
+    },
+    {
+      "id": "francis_galton",
+      "nome": "Francis Galton",
+      "descricao": "Polímata inglês do século dezenove que criou o termo eugenia e estudou a hereditariedade.",
+      "variantes": [
+        "Sir Francis Galton"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Francis_Galton"
+      ]
+    },
+    {
+      "id": "saccharomyces_cerevisiae",
+      "nome": "Saccharomyces cerevisiae",
+      "descricao": "Espécie de levedura usada na panificação e na fabricação de cerveja e vinho.",
+      "variantes": [
+        "Levedura de padeiro",
+        "Fermento biológico",
+        "Levedura de cerveja"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae"
+      ]
+    },
+    {
+      "id": "cao_domestico",
+      "nome": "Cão doméstico",
+      "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+      "variantes": [
+        "Cachorro",
+        "Canis lupus familiaris",
+        "Dog"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Dog"
+      ]
+    },
+    {
+      "id": "foto_51",
+      "nome": "Foto 51",
+      "descricao": "Imagem de difração de raios X do DNA obtida em 1952 no King's College de Londres.",
+      "variantes": [
+        "Photo 51",
+        "Fotografia 51"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Photo_51"
+      ]
+    },
+    {
+      "id": "meme",
+      "nome": "Meme",
+      "descricao": "Unidade de ideia ou comportamento que se transmite culturalmente, conceito criado em 1976.",
+      "variantes": [
+        "Meme (conceito)"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Meme"
+      ]
+    },
+    {
+      "id": "teoria_endossimbiotica",
+      "nome": "Teoria endossimbiótica",
+      "descricao": "Teoria de que mitocôndrias e cloroplastos se originaram de bactérias que passaram a viver dentro de outras células.",
+      "variantes": [
+        "Endossimbiose",
+        "Simbiogênese",
+        "Symbiogenesis"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Symbiogenesis"
+      ]
+    },
+    {
+      "id": "nomenclatura_binomial",
+      "nome": "Nomenclatura binomial",
+      "descricao": "Sistema de nomes científicos de espécies formados por duas palavras, gênero e epíteto específico.",
+      "variantes": [
+        "Nomenclatura binominal",
+        "Binomial nomenclature"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Binomial_nomenclature"
+      ]
+    },
+    {
+      "id": "crispr_cas9",
+      "nome": "CRISPR-Cas9",
+      "descricao": "Técnica de edição genética conhecida como tesoura genética.",
+      "variantes": [
+        "CRISPR",
+        "Edição genética CRISPR"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/CRISPR_gene_editing"
+      ]
+    },
+    {
+      "id": "transposon",
+      "nome": "Transposon",
+      "descricao": "Sequência de DNA capaz de mudar de posição no genoma, os chamados genes saltadores.",
+      "variantes": [
+        "Elemento transponível",
+        "Gene saltador",
+        "Transposable element"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Transposable_element"
+      ]
+    },
+    {
+      "id": "geracao_espontanea",
+      "nome": "Geração espontânea",
+      "descricao": "Antiga teoria de que seres vivos surgiriam espontaneamente da matéria sem vida.",
+      "variantes": [
+        "Abiogênese (teoria antiga)",
+        "Spontaneous generation"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Spontaneous_generation"
+      ]
+    },
+    {
+      "id": "leis_de_mendel",
+      "nome": "Leis de Mendel",
+      "descricao": "Princípios da hereditariedade formulados por Gregor Mendel a partir de cruzamentos de ervilhas.",
+      "variantes": [
+        "Herança mendeliana",
+        "Mendelian inheritance"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Mendelian_inheritance"
+      ]
+    },
+    {
+      "id": "projeto_genoma_humano",
+      "nome": "Projeto Genoma Humano",
+      "descricao": "Projeto científico internacional, lançado em 1990, para sequenciar o genoma humano.",
+      "variantes": [
+        "Human Genome Project"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Human_Genome_Project"
+      ]
+    },
+    {
+      "id": "tentilhoes_de_darwin",
+      "nome": "Tentilhões de Darwin",
+      "descricao": "Grupo de pequenas aves aparentadas, com bicos adaptados a diferentes alimentos, estudadas por Darwin.",
+      "variantes": [
+        "Darwin's finches"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Darwin%27s_finches"
+      ]
+    },
+    {
+      "id": "codigo_genetico",
+      "nome": "Código genético",
+      "descricao": "Conjunto de regras pelo qual trincas de bases do material genético são traduzidas em aminoácidos.",
+      "variantes": [
+        "Genetic code"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Genetic_code"
+      ]
+    },
+    {
+      "id": "sistema_de_cinco_reinos",
+      "nome": "Sistema de cinco reinos",
+      "descricao": "Classificação dos seres vivos proposta por Robert Whittaker em 1969.",
+      "variantes": [
+        "Classificação de Whittaker",
+        "Five-kingdom system"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Kingdom_(biology)"
+      ]
+    },
+    {
+      "id": "sistema_de_tres_dominios",
+      "nome": "Sistema de três domínios",
+      "descricao": "Classificação da vida proposta por Carl Woese em três grandes domínios.",
+      "variantes": [
+        "Three-domain system",
+        "Domínios de Woese"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Three-domain_system"
+      ]
+    }
+  ],
+  "variantes": {
+    "mitocondria": [
+      "Mitocôndria",
+      "Mitochondrion"
+    ],
+    "charles_darwin": [
+      "Charles Darwin",
+      "Darwin"
+    ],
+    "gregor_mendel": [
+      "Gregor Mendel",
+      "Mendel"
+    ],
+    "homo_sapiens": [
+      "Homo sapiens",
+      "Ser humano",
+      "Human"
+    ],
+    "antonie_van_leeuwenhoek": [
+      "Antonie van Leeuwenhoek",
+      "Leeuwenhoek"
+    ],
+    "cromossomo_2_humano": [
+      "Cromossomo 2 humano",
+      "Chromosome 2"
+    ],
+    "equidna": [
+      "Equidna",
+      "Echidna",
+      "Tamanduá-espinhoso"
+    ],
+    "hipopotamo": [
+      "Hipopótamo",
+      "Hippopotamus"
+    ],
+    "penicillium": [
+      "Penicillium",
+      "Penicílio"
+    ],
+    "julgamento_de_scopes": [
+      "Julgamento do Macaco",
+      "Julgamento de Scopes",
+      "Scopes Trial",
+      "Scopes Monkey Trial"
+    ],
+    "thermus_aquaticus": [
+      "Thermus aquaticus",
+      "Taq"
+    ],
+    "liquen": [
+      "Líquen",
+      "Líquenes",
+      "Lichen"
+    ],
+    "besouro": [
+      "Besouro",
+      "Coleóptero",
+      "Coleoptera",
+      "Beetle"
+    ]
+  }
+}

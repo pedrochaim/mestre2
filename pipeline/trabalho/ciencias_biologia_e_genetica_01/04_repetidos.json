@@ -1,0 +1,263 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome mitocôndria junta duas palavras gregas. Quais são elas?",
+        "resposta": "Fio e grânulo"
+      },
+      "existentes": [
+        {
+          "id": "q02707",
+          "pergunta": "Que organela da célula é esta, vista ao microscópio eletrônico?",
+          "resposta": "Mitocôndria"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em latim, o que quer dizer Homo sapiens, o nome científico da nossa espécie?",
+        "resposta": "Homem sábio"
+      },
+      "existentes": [
+        {
+          "id": "q02819",
+          "pergunta": "Em 1758, que naturalista sueco, criador da classificação dos seres vivos, deu à nossa espécie o nome científico Homo sapiens?",
+          "resposta": "Carl Lineu"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No século dezessete, como o holandês Leeuwenhoek chamou os seres minúsculos que via em seus microscópios caseiros?",
+        "resposta": "Animálculos"
+      },
+      "existentes": [
+        {
+          "id": "q03618",
+          "pergunta": "Os microscópios com que o holandês Antonie van Leeuwenhoek observou bactérias, no século dezessete, tinham quantas lentes?",
+          "resposta": "Uma só"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Humanos têm um par de cromossomos a menos que chimpanzés e gorilas. O que explica essa diferença?",
+        "resposta": "Fusão de dois cromossomos ancestrais"
+      },
+      "existentes": [
+        {
+          "id": "q02802",
+          "pergunta": "Chimpanzés e gorilas têm vinte e quatro pares de cromossomos, e nós temos vinte e três. Que evento na linhagem humana explica essa diferença?",
+          "resposta": "A fusão de dois cromossomos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O que a equidna e o ornitorrinco fazem de raríssimo entre os mamíferos?",
+        "resposta": "Botam ovos"
+      },
+      "existentes": [
+        {
+          "id": "q00275",
+          "pergunta": "O que a equidna e o ornitorrinco têm em comum que os torna raríssimos entre os mamíferos?",
+          "resposta": "Botam ovos"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Pelos estudos de evolução, qual animal é o parente vivo mais próximo das baleias?",
+        "resposta": "Hipopótamo"
+      },
+      "existentes": [
+        {
+          "id": "q00272",
+          "pergunta": "Vindo do grego, o nome hipopótamo quer dizer o quê?",
+          "resposta": "Cavalo do rio"
+        },
+        {
+          "id": "q00273",
+          "pergunta": "Segundo estudos genéticos, quais animais marinhos são os parentes vivos mais próximos do hipopótamo?",
+          "resposta": "Baleias e golfinhos"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Charles Darwin nasceu exatamente no mesmo dia, mês e ano que qual presidente americano?",
+        "resposta": "Abraham Lincoln"
+      },
+      "existentes": [
+        {
+          "id": "q00866",
+          "pergunta": "Que naturalista é este?",
+          "resposta": "Charles Darwin"
+        },
+        {
+          "id": "q02813",
+          "pergunta": "O que o naturalista Charles Darwin e o presidente americano Abraham Lincoln têm em comum?",
+          "resposta": "Nasceram no mesmo dia"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O queijo roquefort e o primeiro antibiótico, descoberto por Alexander Fleming em 1928, vêm de fungos de qual gênero?",
+        "resposta": "Penicillium"
+      },
+      "existentes": [
+        {
+          "id": "q02658",
+          "pergunta": "O fungo Penicillium, de onde veio a penicilina, tem nome derivado da palavra latina para que objeto?",
+          "resposta": "Pincel"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em 1925, um professor foi julgado por ensinar evolução, no famoso Julgamento do Macaco. Em que estado americano isso aconteceu?",
+        "resposta": "Tennessee"
+      },
+      "existentes": [
+        {
+          "id": "q02793",
+          "pergunta": "Em 1925, no Tennessee, o professor John Scopes foi processado por ensinar evolução numa escola. Que apelido ganhou esse julgamento?",
+          "resposta": "Julgamento do Macaco"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "A enzima usada no teste de PCR vem de uma bactéria descoberta em fontes termais de qual parque americano?",
+        "resposta": "Yellowstone"
+      },
+      "existentes": [
+        {
+          "id": "q02862",
+          "pergunta": "Uma bactéria das fontes termais de Yellowstone forneceu a enzima que tornou prática que técnica de laboratório, usada até em testes de covid?",
+          "resposta": "PCR"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em que cidade, hoje na República Tcheca, ficava o mosteiro onde Mendel cruzou suas ervilhas?",
+        "resposta": "Brno"
+      },
+      "existentes": [
+        {
+          "id": "q00864",
+          "pergunta": "Que monge e cientista é este?",
+          "resposta": "Gregor Mendel"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Um líquen é a união de um fungo com que outro tipo de organismo?",
+        "resposta": "Alga ou cianobactéria"
+      },
+      "existentes": [
+        {
+          "id": "q02875",
+          "pergunta": "Um líquen não é um ser só: é a parceria entre um fungo e que outro tipo de organismo?",
+          "resposta": "Alga (ou cianobactéria)"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Qual destas ordens de insetos tem o maior número de espécies descritas?",
+        "resposta": "Besouros"
+      },
+      "existentes": [
+        {
+          "id": "q02633",
+          "pergunta": "Que grupo de insetos reúne o maior número de espécies já descritas pela ciência?",
+          "resposta": "Besouros"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Etimologia do nome é fato diferente de identificar a organela."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Significado do nome em latim difere de quem o nomeou."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nome dado aos seres vistos é diferente do número de lentes."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: fusão de dois cromossomos explica a diferença."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta: botam ovos."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "q00273 afirma baleias parentes do hipopótamo; mesmo fato em direção inversa."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "q02813 já cobre que Darwin e Lincoln nasceram no mesmo dia."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Gênero do fungo é diferente da etimologia do nome."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Estado do julgamento é diferente do apelido, embora o Tennessee apareça no enunciado da existente; a resposta pedida é outra."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a técnica PCR; a nova pergunta o parque, que aparece no enunciado da outra, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Cidade do mosteiro é fato diferente de identificar Mendel."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: líquen é fungo mais alga ou cianobactéria."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: besouros têm mais espécies descritas."
+    }
+  ]
+}
