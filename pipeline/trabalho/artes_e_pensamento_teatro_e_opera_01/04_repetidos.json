@@ -1,0 +1,277 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na peça Auto da Compadecida, de Ariano Suassuna, quem é a Compadecida do título?",
+        "resposta": "Nossa Senhora"
+      },
+      "existentes": [
+        {
+          "id": "q02921",
+          "pergunta": "Em que pequena cidade do sertão paraibano se passa o Auto da Compadecida, de Ariano Suassuna?",
+          "resposta": "Taperoá"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Na Itália do século dezenove, o grito Viva Verdi escondia uma mensagem política. O que as letras do nome Verdi formavam?",
+        "resposta": "Vittorio Emanuele, Re d'Italia"
+      },
+      "existentes": [
+        {
+          "id": "q03256",
+          "pergunta": "Na luta pela unificação italiana, gritar Viva Verdi era um código. As letras do sobrenome formavam a sigla de qual frase?",
+          "resposta": "Vittorio Emanuele Re d'Italia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Fernanda Montenegro é nome artístico. Qual é o nome de nascimento da grande atriz brasileira?",
+        "resposta": "Arlette Pinheiro Esteves da Silva"
+      },
+      "existentes": [
+        {
+          "id": "q02779",
+          "pergunta": "Quem é esta atriz brasileira?",
+          "resposta": "Fernanda Montenegro"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O luxuoso Teatro Amazonas, inaugurado em Manaus em 1896, foi pago com a riqueza de qual ciclo econômico?",
+        "resposta": "Ciclo da borracha"
+      },
+      "existentes": [
+        {
+          "id": "q00388",
+          "pergunta": "Que teatro é este?",
+          "resposta": "Teatro Amazonas"
+        },
+        {
+          "id": "q02417",
+          "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+          "resposta": "Borracha"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Segundo uma lenda antiga, o dramaturgo grego Ésquilo morreu atingido na cabeça por um animal que uma águia deixou cair. Que animal?",
+        "resposta": "Uma tartaruga"
+      },
+      "existentes": [
+        {
+          "id": "q03214",
+          "pergunta": "Segundo uma lenda antiga, o dramaturgo Ésquilo morreu atingido na cabeça por um animal que uma águia deixou cair. Que animal?",
+          "resposta": "Uma tartaruga"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Na comédia Lisístrata, de Aristófanes, as mulheres de Atenas e Esparta fazem greve de sexo para forçar os maridos a quê?",
+        "resposta": "Acabar com a guerra"
+      },
+      "existentes": [
+        {
+          "id": "q03232",
+          "pergunta": "Que comediógrafo ateniense escreveu a peça em que as mulheres fazem greve de sexo para forçar o fim da guerra?",
+          "resposta": "Aristófanes"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Na estreia de Turandot, em 1926, o maestro Toscanini interrompeu a ópera no meio do último ato. Por quê?",
+        "resposta": "Puccini morreu sem terminá-la"
+      },
+      "existentes": [
+        {
+          "id": "q03265",
+          "pergunta": "Na estreia de Turandot, em 1926, o maestro Toscanini interrompeu a ópera antes do fim. Qual foi o motivo?",
+          "resposta": "Puccini morreu sem terminá-la"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Quem conhece Paris nota no Theatro Municipal do Rio de Janeiro a semelhança com que casa de ópera, que lhe serviu de modelo?",
+        "resposta": "Ópera Garnier"
+      },
+      "existentes": [
+        {
+          "id": "q03180",
+          "pergunta": "O Theatro Municipal do Rio de Janeiro, inaugurado em 1909, teve como modelo que casa de ópera de Paris?",
+          "resposta": "Ópera Garnier"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que arquiteto projetou a Ópera de Sydney, com suas cascas brancas que lembram velas de barco?",
+        "resposta": "Jørn Utzon"
+      },
+      "existentes": [
+        {
+          "id": "q02028",
+          "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+          "resposta": "Jørn Utzon"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em que cidade alemã Richard Wagner ergueu um teatro dedicado às próprias óperas, sede de um festival anual?",
+        "resposta": "Bayreuth"
+      },
+      "existentes": [
+        {
+          "id": "q02240",
+          "pergunta": "Que compositor alemão do século dezenove é este?",
+          "resposta": "Richard Wagner"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "A Ópera de Arame, teatro de tubos de aço e cobertura transparente cercado por um lago, fica em que capital brasileira?",
+        "resposta": "Curitiba"
+      },
+      "existentes": [
+        {
+          "id": "q02035",
+          "pergunta": "Em qual capital brasileira fica a Ópera de Arame, teatro de tubos de aço erguido numa antiga pedreira?",
+          "resposta": "Curitiba"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em que teatro paulistano aconteceu a Semana de Arte Moderna de 1922?",
+        "resposta": "Theatro Municipal de São Paulo"
+      },
+      "existentes": [
+        {
+          "id": "q00158",
+          "pergunta": "A Semana de Arte Moderna foi realizada em 1922, ano escolhido por coincidir com qual comemoração nacional?",
+          "resposta": "Centenário da Independência"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Esperando Godot, de Samuel Beckett, estreou em Paris em que década do século vinte?",
+        "resposta": "Anos 1950"
+      },
+      "existentes": [
+        {
+          "id": "q02979",
+          "pergunta": "A peça Esperando Godot, do irlandês Samuel Beckett, foi escrita originalmente em que língua?",
+          "resposta": "Francês"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "No Auto da Compadecida, que amigo de João Grilo vive contando histórias absurdas e repete não sei, só sei que foi assim?",
+        "resposta": "Chicó"
+      },
+      "existentes": [
+        {
+          "id": "q02921",
+          "pergunta": "Em que pequena cidade do sertão paraibano se passa o Auto da Compadecida, de Ariano Suassuna?",
+          "resposta": "Taperoá"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Quem é a Compadecida vs. cidade onde se passa: fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Viva Verdi = Vittorio Emanuele Re d'Italia."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nome de nascimento é fato diferente de identificar a atriz pela foto."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta q02417: riqueza da borracha financiou o teatro."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Pergunta praticamente idêntica."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Lisístrata de Aristófanes, greve de sexo pelo fim da guerra."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Toscanini interrompeu porque Puccini morreu."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: modelo do Theatro Municipal do Rio é a Ópera Garnier."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: arquiteto da Ópera de Sydney."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Cidade do teatro de Wagner é fato diferente de identificar o compositor."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Ópera de Arame fica em Curitiba."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Local da Semana vs. motivo do ano de 1922: fatos diferentes."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Década da estreia vs. língua original: fatos diferentes."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Personagem Chicó vs. cidade: fatos diferentes."
+    }
+  ]
+}

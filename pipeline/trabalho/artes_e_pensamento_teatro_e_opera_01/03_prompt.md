@@ -1,0 +1,1658 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Teatro e Ópera** (tema **Artes e Pensamento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Teatro Bolshoi",
+      "descricao": "Teatro histórico de ópera e balé em Moscou, sede da companhia Bolshoi."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em russo, o que significa o nome Bolshoi, do famoso teatro de balé e ópera de Moscou?",
+    "resposta": "Grande",
+    "distratores": [
+      "Imperial",
+      "Novo",
+      "Vermelho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bolshoi_Theatre"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bolshoi_Theatre",
+        "situacao": "ok",
+        "texto": "The Bolshoi Theatre (Russian: Большой театр, romanized: Bol'shoy teatr, IPA: [bɐlʲˈʂoj tʲɪˈat(ə)r], lit. 'Large Theater') is a historic opera house in Moscow, Russia, originally designed by architect Joseph Bové. Before the October Revolution it was a part of the Imperial Theatres of the Russian Empire along with Maly Theatre (Small Theatre) in Moscow and a few theatres in Saint Petersburg (Hermit\n[…]\nThe Bolshoi Ballet and Bolshoi Opera are among the oldest and best known ballet and opera companies in the world. It is by far the world's biggest ballet company, with more than 200 dancers. The theatre is the parent company of The Bolshoi Ballet Academy, a leading school of ballet. It has a branch at the Bolshoi Theater School in Joinville, Brazil.\n[…]\nThe renovation included restoring acoustics to the original quality (which had been lost during the Soviet era), as well as restoring the original imperial decor of the Bolshoi. After the renovation, the theater has a maximum capacity of 1,740 seats. Finally, on 28 October 2011, the Bolshoi Theatre re-opened with a concert featuring international artists and the ballet and opera companies. The first staged opera, Ruslan and Lyudmila, followed soon after.\n[…]\nIn a bit of ideological editing, the Bolshoi Theatre appears to be \"destroyed\" by the device of a split screen in Dziga Vertov's Man with a Movie Camera.\n[…]\nOfficial Bolshoi Theatre website (in English)\n[…]\nOfficial Bolshoi Theatre webpages YouTube\n[…]\nOfficial Bolshoi Theatre webpages Facebook\n[…]\nOfficial Bolshoi Theatre webpages VKontakte\n[…]\nOfficial Bolshoi Theatre webpages Twitter\n[…]\nOfficial Bolshoi Theatre webpages  Instagram\n[…]\nBolshoi Theatre in Theatrical Russia Annual Dictionary\n[…]\nBolshoi Theatre School in Brazil website[link removed]\n[…]\nReconstruction of Bolshoi Theatre, Pictures\n[…]\nThe New Stage of Bolshoi Theatre, Pictures\n[…]\nThe Bolshoi Theatre at Google Cultural Institute"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teatro_Bolshoi",
+        "situacao": "ok",
+        "texto": "O Teatro Bolshoi (em russo:  Большой театр - O Grande Teatro) Antes da Revolução de Outubro fazia parte dos Teatros Imperiais do Império Russo, juntamente com o Teatro Maly (Pequeno Teatro) em Moscou e alguns teatros em São Petersburgo (Teatro Hermitage, Teatro Bolshoi (Kamenny), mais tarde Teatro Mariinsky e outros).\n[…]\nO Ballet Bolshoi e a Ópera Bolshoi estão entre as mais antigas e conhecidas companhias de balé e ópera do mundo. É de longe a maior companhia de balé do mundo, com mais de 200 bailarinos. O teatro é a companhia-mãe da Academia de Ballet Bolshoi, uma das principais escolas de balé. Possui filial na Escola do Teatro Bolshoi, em Joinville.\n[…]\nA renovação incluiu restaurar a acústica para a qualidade original (que tinha sido perdida durante a Era Soviética), bem como restaurar a decoração imperial original do Bolshoi.\n[…]\nO Bolshoi tem sido palco de numerosas estreias históricas, incluindo a de 4 de março de 1877 do famoso bailado O Lago dos Cisnes de Pyotr Ilyich Tchaikovsky, e de várias composições de Sergei Rachmaninoff.O Teatro Bolshoi possui uma única filial de sua escola de balé fora da Rússia. A filial situa-se na cidade de Joinville (Santa Catarina), no Brasil.\n[…]\nO arquiteto criador do teatro, o russo Osip Ivanovich Bové, também conhecido como Joseph Bové, também foi o grande reconstrutor de Moscou depois do Incêndio de Moscou em 1812. O edifício que hoje se pode ver foi construído em 1825 sobre os restos do Teatro Petrovsky. O teatro foi inaugurado em 18 de janeiro de 1825 com a representação do ballet \"Cinderela\" do compositor catalão Fernando Sor.\n[…]\n«Página oficial do Teatro Bolshoi» (em inglês e russo)\n[…]\n«Rússia anuncia demissão do diretor do Teatro Bolshoi»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Tragédia",
+      "descricao": "Gênero teatral nascido na Grécia Antiga, centrado no sofrimento e na queda de um herói."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Pela etimologia mais aceita, a palavra grega que deu origem a tragédia significa canto de que animal?",
+    "resposta": "Bode",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tragedy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tragedy",
+        "situacao": "ok",
+        "texto": "A tragedy is a genre of drama based on human suffering, specifically by way of terrible or sorrowful events that befall a main character or cast of characters. Traditionally, the intention of tragedy is to invoke an accompanying catharsis, or a \"pain [that] awakens pleasure,\" for the audience.\n[…]\nThe word \"tragedy\" appears to have been used to describe different phenomena at different times. It derives from Ancient Greek τραγῳδία \"goat song\", which comes from τράγος tragos \"he-goat\" and ᾠδή ōidḗ \"singing, ode.\" Scholars suspect this may be traced to a time when a goat was either the prize in a competition of choral dancing or was what a chorus danced around prior to the animal's ritual sacrifice.\n[…]\nCharacter, a tragedy of moral or ethical character. Tragedies of this nature can be found in Phthiotides and Peleus\n[…]\nModern characters, on the other hand, stand in a wealth of more accidental circumstances, within which one could act this way or that, so that the conflict is, though occasioned by external preconditions, still essentially grounded in the character. The new individuals, in their passions, obey their own nature... simply because they are what they are. Greek heroes also act in accordance with individuality, but in ancient tragedy such individuality is necessarily...\n[…]\na self-contained ethical pathos... In modern tragedy, however, the character in its peculiarity decides in accordance with subjective desires... such that congruity of character with outward ethical aim no longer constitutes an essential basis of tragic beauty...\n[…]\nTragédies en musique\n[…]\nShe-tragedy\n[…]\nRevenge tragedy\n[…]\nTragedy on In Our Time at the BBC\n[…]\nToscano, Alberto. Tragedy. Oxford Research Encyclopedia of Literature.\n[…]\nTaplin, Oliver; Billings, Joshua. \"What is Tragedy?\" (podcast). UK: Oxford University."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trag%C3%A9dia",
+        "situacao": "ok",
+        "texto": "Tragédia (do grego antigo τραγῳδία, composto de τράγος, \"cabra\" e ᾠδή, \"música\") é uma forma de drama que se caracteriza pela sua seriedade e dignidade, pondo frequentemente em causa os deuses, o destino ou a sociedade.\n[…]\nDizia-se que estas apresentações etilizadas e extáticas foram criadas pelos sátiros, seres meio bodes que cercavam Dionísio em suas orgias, e as palavras gregas τράγος, tragos, (bode) e ᾠδή, odé, (canto) foram combinadas na palavra tragosoiodé (algo como \"canções dos bodes\"), da qual a palavra tragédia é derivada. No sentido vulgar, tragédia, desgraça e drama são sinônimos.\n[…]\nSomente 22 anos mais tarde, em 405 a.C., a peça de Eurípedes é encenada, em meio a uma Atenas totalmente abalada e dizimada pela Guerra do Peloponeso: o cidadão ateniense vê que não aceitar Dionísio pode ser desastroso, em função do que acontece com Penteu.\n[…]\nEm anos, estas quatro tragédias gregas causaram o despertar de uma nova filosofia com Sócrates e Platão. Nesse tempo percorrido, formou-se o embrião a filosofia que nortearia, alguns séculos mais tarde, toda a sociedade ocidental.\n[…]\nNa língua portuguesa, a primeira e mais emblemática tragédia clássica é A Castro, de António Ferreira. Escrita em cinco atos e publicada em 1587, a peça retrata a trágica história de Inês de Castro, tema que viria a influenciar diversos dramaturgos europeus. A obra teve grande repercussão e foi traduzida, ainda na época, para diversos idiomas.\n[…]\nNa língua inglesa, as mais famosas e bem sucedidas tragédias foram as escritas por William Shakespeare. As obras de Shakespeare tiveram e tem grande influência na literatura ocidental, e incluem tragédias extremamente famosas, como Romeu e Julieta, Hamlet e Otelo, entre muitas outras.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Deus ex machina",
+      "descricao": "Recurso dramático em que um problema da trama é resolvido de forma súbita por uma intervenção externa, herdado do teatro grego."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No teatro grego, atores no papel de deuses surgiam suspensos por um guindaste. Daí vem a expressão deus ex machina, que significa deus saído de quê?",
+    "resposta": "Da máquina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deus_ex_machina"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Deus_ex_machina",
+        "situacao": "ok",
+        "texto": "Deus ex machina ( DAY-əs ex-MA(H)K-in-ə; Latin: [ˈdɛ.ʊs ɛks ˈmaːkʰɪnaː]; plural: dei ex machina; 'God from the machine') is a plot device, a type of denouement  in which a seemingly unsolvable problem in a story is suddenly or abruptly resolved by an unexpected and unlikely occurrence. Its function is generally to resolve an otherwise irresolvable plot situation, to surprise the audience, to bring\n[…]\nAristotle (in the Poetics 15 1454b1) was the first to use a Greek term equivalent to the Latin phrase deus ex machina to describe the technique as a device to resolve the plot of tragedies. It is generally considered to be undesirable in writing and often implies a lack of creativity on the part of the author. The reasons for this are that it damages the story's internal logic and is often so unlikely that it challenges the reader's suspension of disbelief.\n[…]\nHe comes to the conclusion that critics feel that the deus ex machina is evidence of the author's attempt to ruin the whole of his work and to prevent anyone from putting any importance on his work.\n[…]\nSome 20th-century revisionist criticism suggests that deus ex machina cannot be viewed in these simplified terms, and contends that the device allows mortals to \"probe\" their relationship with the divine. Rush Rehm in particular cites examples of Greek tragedy in which the deus ex machina complicates the lives and attitudes of characters confronted by the deity, while simultaneously bringing the drama home to its audience.\n[…]\nSometimes, the unlikeliness of the deus ex machina plot device is employed deliberately. An example is shown through the comic effect generated in Monty Python's Life of Brian, when Brian, who lives in Judea at the time of Christ, is saved from a high fall by a passing alien spaceship.\n[…]\nThe dictionary definition of deus ex machina at Wiktionary\n[…]\n\"Deus ex Machina\" . New International Encyclopedia. 1905."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deus_ex_machina",
+        "situacao": "ok",
+        "texto": "Deus ex machina (do grego ἀπὸ μηχανῆς θεός: apò mēkhanḗs theós), expressão em latim que significa literalmente \"deus surgiu da máquina\", utilizada para indicar uma solução inesperada/mirabolante (magicamente providenciada por uma divindade) para terminar uma obra ficcional. Um termo que surgiu no teatro greco.\n[…]\nO termo Deus ex machina (\"deus surgiu da máquina\" ou \"deus que desce em uma máquina\") surgiu no teatro na Grécia Antiga, quando muitas peças terminavam com uma divindade/força sobrenatural personificada surgindo (metaforicamente) no palco para resolver impasses da trama encenada. O método teatral então adotado era: descer o ator (que fazia o papel de Deus) no meio da cena, utilizando um guindaste (a máquina). Daí o \"Deus surgiu da máquina\".\n[…]\nJ. R. R. Tolkien se referiu às Grandes Águias que aparecem em vários lugares em O Hobbit e O Senhor dos Anéis como \"uma 'máquina' perigosa\". Esta foi uma carta recusando permissão a um adaptador de filme para ter a A Sociedade do Anel transportada por águias em vez de viajar a pé. Ele sentiu que as águias já haviam sido usadas em excesso como um dispositivo de enredo e elas foram criticadas em outros lugares como um deus ex machina.\n[…]\nassim como levantar um dedo, fazem com a máquina\n[…]\nTal dispositivo foi referido por Horácio em seu Ars Poetica (linhas 191-2), onde ele instrui os poetas que eles nunca devem recorrer a um \"deus da máquina\" para resolver seus enredos \"a menos que uma dificuldade digna do desvendamento de um deus, aconteça\" [nec deus intersit, nisi dignus uindice nodus inciderit; nec quarta loqui persona laboret].\n[…]\nEle chega à conclusão de que os críticos sentem que o deus ex machina é uma evidência da tentativa do autor de arruinar toda a sua obra e impedir que alguém dê qualquer importância à sua obra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Auto da Compadecida",
+      "descricao": "Peça teatral de Ariano Suassuna, de 1955, protagonizada por João Grilo e Chicó."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na peça Auto da Compadecida, de Ariano Suassuna, quem é a Compadecida do título?",
+    "resposta": "Nossa Senhora",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Auto_da_Compadecida"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auto_da_Compadecida",
+        "situacao": "ok",
+        "texto": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita pelo autor brasileiro Ariano Suassuna em 1955. Sua primeira encenação aconteceu em 1956, no Recife, em Pernambuco. A peça também foi encenada em 1974, com direção de João Cândido. Em 2 de outubro de 1957 a peça foi publicada em forma de livro pela editora Agir no Rio de Janeiro.\n[…]\nO Auto da Compadecida projetou Suassuna em todo o país e foi considerada por Sábato Magaldi, em 1962, \"o texto mais popular do moderno teatro brasileiro\".\n[…]\nA peça foi adaptada para o cinema pela primeira vez em 1969, com o filme A Compadecida. A segunda adaptação veio em 1987, com o filme Os Trapalhões no Auto da Compadecida.\n[…]\nEm 1999, foi apresentada como uma minissérie pela Rede Globo de Televisão, que inclusive foi a responsável pela inclusão do artigo \"O\" antes do nome original. A adaptação de maior sucesso, foi editada em 2000 para exibição nos cinemas, contando com alguns personagens, como o Cabo Setenta, Rosinha e Vicentão, que não fazem parte da peça original. Esses personagens adicionais fazem parte da obra Torturas de um Coração, além de elementos de O Santo e a Porca, ambas de autoria de Ariano Suassuna.\n[…]\nAuto da Compadecida foi encenada pela primeira vez no dia 11 de setembro de 1956, no Teatro de Santa Isabel, pelo Teatro Adolescente do Recife, sob direção de Clênio Wanderley, figurino de Victor Moreira e cenários de Aloísio Magalhães, tendo como elenco os seguintes atores:\n[…]\nA Compadecida: Maria do Socorro Raposa Meira\n[…]\nA Compadecida: Córdula Reis\n[…]\nA Compadecida (filme de 1969)\n[…]\nOs Trapalhões no Auto da Compadecida (filme de 1987)\n[…]\nO Auto da Compadecida (minissérie de 1999)\n[…]\nO Auto da Compadecida (filme de 2000)\n[…]\nO Auto da Compadecida (teatro de 2017)\n[…]\nO Auto da Compadecida 2 (filme de 2024)\n[…]\nO Auto da Compadecida, montagem do Grupo Maria Cutia (2025)"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Macbeth",
+      "descricao": "Tragédia de William Shakespeare sobre um general escocês que mata o rei para tomar o trono."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por superstição, atores de língua inglesa evitam dizer Macbeth dentro do teatro. Como costumam chamar essa tragédia?",
+    "resposta": "A peça escocesa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Macbeth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Macbeth",
+        "situacao": "ok",
+        "texto": "The Tragedy of Macbeth, often shortened to Macbeth (), is a tragedy by William Shakespeare, estimated to have been first performed in 1606. It dramatises the physically violent and damaging psychological effects of political ambitions and power. It was first published in the Folio of 1623, possibly from a prompt book, and is Shakespeare's shortest tragedy.\n[…]\nThis behavior results from a superstition that saying the name of the play inside a theatre will bring bad luck to any given production, and perhaps cause physical injury or death to cast members. There are stories of accidents, misfortunes and even deaths taking place during runs of Macbeth.\n[…]\nContrary to popular myth, Shakespeare's tragedy Macbeth is not the unluckiest play as superstition likes to portray it. Exactly the opposite! The origin of the unfortunate moniker dates back to repertory theatre days when each town and village had at least one theatre to entertain the public. If a play was not doing well, it would invariably get 'pulled' and replaced with a sure-fire audience pleaser – Macbeth guaranteed full-houses.\n[…]\nBut for this reason she largely failed when she eventually played Lady Macbeth in 1864: her serious attempt to embody the coarser aspects of Lady Macbeth's character jarred harshly with her public image. Adelaide Ristori, the great Italian actress, brought her Lady Macbeth to London in 1863 in Italian, and again in 1873 in an English translation cut in such a way as to be, in effect, Lady Macbeth's tragedy.\n[…]\nBarry Jackson, at the Birmingham Repertory Theatre in 1923, was the first of the 20th-century directors to costume Macbeth in modern dress.\n[…]\nIn 2021, Saoirse Ronan starred in The Tragedy of Macbeth at the Almeida Theatre in London. The following year a revival production opened on Broadway with Daniel Craig and Ruth Negga to middling reviews.\n[…]\nMacbeth on Film"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Macbeth",
+        "situacao": "ok",
+        "texto": "Macbeth é uma tragédia do dramaturgo inglês William Shakespeare, sobre um regicídio e suas consequências. É a tragédia shakespeariana mais curta, e acredita-se que tenha sido escrita entre 1603 e 1607. O primeiro relato de uma performance da peça é de abril de 1611, quando Simon Forman registrou tê-la visto no Globe Theatre, em Londres. A obra foi publicada pela primeira vez no Folio, de 1623, pos\n[…]\nAs principais fontes de Shakespeare para a tragédia são os relatos dos reis Duff e Duncan nas Crônicas da Inglaterra, Escócia e Irlanda, de 1587, uma história das Ilhas Britânicas familiar a Shakespeare e seus contemporâneos, e pelos escritos do filósofo escocês Hector Boece.\n[…]\nAo longo dos séculos a peça atraiu alguns dos maiores atores de seu tempo para os papéis de Macbeth e Lady Macbeth. A obra já foi adaptada para o cinema, televisão, ópera, quadrinhos e muitas outras mídias. No cinema destacam-se as versões do italiano Mario Caserini (1908), a do austríaco Richard Oswald (1921), a do norte-americano Orson Welles (1948), a do japonês Akira Kurosawa (1957), a do polonês Roman Polanski (1971) e a do australiano Justin Kurzel (2015).\n[…]\nNo teatro brasileiro, a peça ganhou adaptação de Aderbal Freire-Filho e João Dantas e foi interpretada por elenco contando com Daniel Dantas como Macbeth e Renata Sorrah como Lady Macbeth. No cinema, em 2015, foi lançada uma adaptação contemporânea chamada A Floresta que se Move, do diretor Vinícius Coimbra, com Gabriel Braga Nunes e Ana Paula Arósio nos papéis principais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Teatro La Fenice",
+      "descricao": "Principal teatro de ópera de Veneza, inaugurado em 1792."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O principal teatro de ópera de Veneza se chama La Fenice, ou seja, a fênix. Por que recebeu esse nome?",
+    "resposta": "Por renascer após incêndios",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/La_Fenice"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/La_Fenice",
+        "situacao": "ok",
+        "texto": "Teatro La Fenice (pronounced [teˈaːtro la feˈniːtʃe]; \"The Phoenix Theatre\") is a historic opera house in Venice, Italy. It is one of \"the most famous and renowned landmarks in the history of Italian theatre\" and in the history of opera as a whole. Especially in the 19th century, La Fenice became the site of many famous operatic premieres at which several works by the four major bel canto era comp\n[…]\nLa Fenice was rebuilt in 19th-century style on the basis of a design by architect Aldo Rossi who, in order to obtain details of its design, used still photographs from the opening scenes of Luchino Visconti's film Senso (1954), which had been filmed in the house. La Fenice reopened on 14 December 2003 with an inaugural concert of Beethoven, Wagner, and Stravinsky. The first staged opera was a production of La traviata, in November 2004.\n[…]\nEscaping entirely unharmed from the first fire that destroyed the original La Fenice Opera House on the night of December 1836, the entrance, by Selva, was enlarged in 1937 as part of the upgrading works directed by the engineer Eugenio Miozzi.\n[…]\n\"As it was, where it was\", the motto for reconstruction of La Fenice, called for the opera house to be rebuilt as it was before the 1996 fire.\n[…]\nDonna Leon's debut novel, Death at La Fenice (1992), the first in her Commissario (Detective) Guido Brunetti detective series, centers on a mystery surrounding the sensational death by cyanide poisoning of a famous orchestra conductor, in the midst of a production of La traviata at La Fenice. In several scenes the opera house is described in meticulous detail, as it was at the time of writing, prior to the third fire.\n[…]\nRomanelli, Giandomenico et al (1997), Gran Teatro La Fenice, Cologne: Evergreen. ISBN 3-8228-7062-5\n[…]\nLa Fenice website, teatrolafenice.it\n[…]\n\"Teatro la Fenice di Venezia: the long (and shamy) story of a reconstruction\", veniceword.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teatro_La_Fenice",
+        "situacao": "ok",
+        "texto": "O Teatro La Fenice (em português \"A fênix\") é o principal teatro de ópera de Veneza, nordeste da Itália. Destruído várias vezes e reedificado, é sede de uma importante temporada operística e do festival internacional de música contemporânea.\n[…]\nConstruído rapidamente em pouco mais de um ano, foi inaugurado em 16 de maio de 1792 com a ópera de Giovanni Paisiello I giochi di Agrigento.\n[…]\nFoi destruído em 13 de dezembro de 1836 por um incêndio, mas foi reconstruído logo em seguida, repetido o projeto original. Cem anos se passaram e em 1937 foi restaurado por Eugenio Miozzi.\n[…]\nA outra grande tragédia ocorreu em 29 de janeiro de 1996, quando o teatro foi completamente destruído por um incêndio provocado: as chamas foram induzidas por um eletricista, Enrico Carella, na tentativa de evitar punições contratuais por um atraso no serviço que lhe havia sido encomendado.\n[…]\nDepois de oito anos de obras, o teatro foi reinaugurado em 14 de dezembro de 2003 com um concerto dirigido por Riccardo Muti.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Molière",
+      "descricao": "Dramaturgo e ator francês do século dezessete, autor de Tartufo e O Avarento."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Molière era nome artístico. Com que nome foi batizado o autor de O Avarento e Tartufo?",
+    "resposta": "Jean-Baptiste Poquelin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Molière"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Molière",
+        "situacao": "ok",
+        "texto": "Jean-Baptiste Poquelin (French pronunciation: [ʒɑ̃ batist pɔklɛ̃]; 15 January 1622 (baptised) – 17 February 1673), known by his stage name Molière (UK: , US: ; French: [mɔljɛʁ] ), was a French playwright, actor, and poet, widely regarded as one of the great writers in the French language and world literature. His extant works include comedies, farces, tragicomedies, comédie-ballets, and more.\n[…]\nMolière was born in Paris shortly before his christening as Jean Poquelin on 15 January 1622. Known as Jean-Baptiste, he was the first son of Jean Poquelin and Marie Cressé, who had married on 27 April 1621. His mother was the daughter of a prosperous bourgeois family. Upon seeing him for the first time, a maid exclaimed, \"Le nez!\", a reference to the infant's large nose. Molière was called \"Le Nez\" by his family from that time.\n[…]\nMolière is often associated with the claim that comedy castigat ridendo mores or \"criticises customs through humour\" (a phrase in fact coined by his contemporary Jean de Santeuil and sometimes mistaken for a classical Latin proverb).\n[…]\nMolière's friendship with Jean-Baptiste Lully influenced him towards writing his Le Mariage forcé and La Princesse d'Élide (subtitled as Comédie galante mêlée de musique et d'entrées de ballet), written for Les Plaisirs de l'Isle enchantée, royal \"divertissements\", at the Palace of Versailles.\n[…]\nMolière also collaborated with Jean-Baptiste Lully. Lully was a dancer, choreographer, and composer, whose dominant reign at the Paris Opéra lasted 15 years. Under his command, ballet and opera rightly became professional arts unto themselves.\n[…]\nThe 2000 film Le Roi Danse (The King Dances), in which Molière is played by Tchéky Karyo, shows his collaborations with Jean-Baptiste Lully, as well as his illness and on-stage death.\n[…]\nWorks by Molière at Project Gutenberg\n[…]\nMoliere's Verses Plays Publication, Statistics, Words Research (in French)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Moli%C3%A8re",
+        "situacao": "ok",
+        "texto": "Jean-Baptiste Poquelin, mais conhecido como Molière (Paris, 15 de janeiro de 1622 — Paris, 17 de Fevereiro de 1673), foi um dramaturgo, ator e encenador francês, considerado um dos mestres da comédia satírica. Teve um papel de destaque na dramaturgia francesa, até então muito dependente da temática da mitologia grega. Molière usou as suas obras para criticar os costumes da época. Como encenador, f\n[…]\nEm Lyon, Mme Duparc, conhecida como la Marquise, juntou-se à companhia. A marquesa tinha sido cortejada, em vão, por Pierre Corneille, tendo-se tornado, mais tarde, amante de Jean Racine, que ofereceu a Molière a sua tragédia Théagène et Chariclée (uma das suas primeiras obras depois de ter terminado os seus estudos de teologia), mas Molière não a encenou, ainda que tivesse encorajado Racine a seguir a carreira de escritor.\n[…]\n1661 foi ainda o ano da bem sucedida L'École des maris (\"Escola de Maridos\") e de Les Fâcheux (\"Os Importunos\"), com o subtítulo Comédie faite pour les divertissements du Roi (Comédia para divertimento do Rei), já que foi encenada por ocasião de uma série de festas dadas por Nicolas Fouquet em honra do soberano. Estes divertimentos deram azo a que Jean-Baptiste Colbert ordenasse a prisão de Fouquet por gasto desnecessário do erário, e que terminaria com uma sentença de prisão perpétua.\n[…]\nA amizade que estabelecera com Jean Baptiste Lully levou-o a escrever Le Mariage forcé (\"O Casamento Forçado\", de 1664) e La Princesse d'Élide (\"A Princesa Élida\", com o subtítulo \"Comédie galante mêlée de musique et d'entrées de ballet\" - \"Comédia galante com música e números de dança\"), apresentadas nos \"divertissements\" de Versalhes.\n[…]\nTartuffe (Tartufo)\n[…]\nL'avare (O Avarento)\n[…]\nObras de Molière\n[…]\nAs obras de Molière online\n[…]\nBiblioweb.org/-Molière-\n[…]\nMolière no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Giuseppe Verdi",
+      "descricao": "Compositor italiano de óperas do século dezenove, autor de La Traviata, Aida e Rigoletto."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Na Itália do século dezenove, o grito Viva Verdi escondia uma mensagem política. O que as letras do nome Verdi formavam?",
+    "resposta": "Vittorio Emanuele, Re d'Italia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giuseppe_Verdi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Giuseppe_Verdi",
+        "situacao": "ok",
+        "texto": "Giuseppe Fortunino Francesco Verdi ( VAIR-dee; Italian: [dʒuˈzɛppe ˈverdi]; 9 or 10 October 1813 – 27 January 1901) was an Italian composer best known for his operas. He was born near Busseto, a small town in the modern province of Parma, to a family of moderate means, receiving a musical education with the help of a local patron named Antonio Barezzi.\n[…]\nThe growth of the \"identification of Verdi's music with Italian nationalist politics\" perhaps began in the 1840s. In 1848, the nationalist leader Giuseppe Mazzini (whom Verdi had met in London the previous year) requested Verdi (who complied) to write a patriotic hymn.\n[…]\nIt was not until 1859 in Naples, and only then spreading throughout Italy, that the slogan \"Viva Verdi\" was used as an acronym for Viva Vittorio Emanuele Re D'Italia (\"Long live Victor Emmanuel II, King of Italy\"), in reference to the then king of Sardinia and future king of Italy.\n[…]\nIn 1859, Verdi was elected as a member of the new provincial council, and was appointed to head a group of five who would meet with King Vittorio Emanuele II in Turin. They were enthusiastically greeted along the way and in Turin Verdi himself received much of the publicity. On 17 October Verdi met with Cavour, the architect of the initial stages of Italian unification.\n[…]\nThe opportunities of transforming Italian opera by utilising such resources appealed to him.\n[…]\nHistorians have debated how political Verdi's operas were.\n[…]\nBeginning in Naples in 1859 and spreading throughout Italy, the slogan \"Viva VERDI\" was used as an acronym for Viva Vittorio Emanuele Re D'Italia (Long live Victor Emmanuel King of Italy), referring to Victor Emmanuel II. Marco Pizzo argues that after 1815, music became a political tool, and many songwriters expressed ideals of freedom and equality.\n[…]\nBicentennial of Giuseppe Verdi from the Italian Ministry of Culture"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Giuseppe_Verdi",
+        "situacao": "ok",
+        "texto": "Giuseppe Fortunino Francesco Verdi (Roncole, 10 de outubro de 1813 – Milão, 27 de janeiro de 1901) foi um compositor italiano de óperas do período romântico. Sendo na época considerado o maior compositor nacionalista da Itália e um dos mais influentes do século XIX, assim como Richard Wagner (1813–1883) na Alemanha.\n[…]\nApós a Itália ser unificada, em 1861, muitas das óperas de Verdi foram reinterpretadas como Risorgimento. Começando em Nápoles, em 1859, e se espalhando por toda a Itália, o slogan \"Viva VERDI\" foi usado como um acróstico de Viva Vittorio Emanuele Re D'Italia (Vitor Emanuel, Rei da Itália), se referindo a Vítor Emanuel II da Itália, então rei da Sardenha.\n[…]\nVerdi foi eleito como Membro da Câmara dos Deputados em 1861, seguindo um conselho do Primeiro-Ministro Cavour, mas em 1865 ele renunciou ao cargo. Em 1874, ele foi nomeado Senador do Reino, por Vítor Emanuel II da Itália.\n[…]\nVerdi foi um dos primeiros compositores a procurar pacientemente seus talentos particulares. Ele trabalhou junto com seus libretistas e sua expressão dramática foi seu forte. Muitas de suas óperas, especialmente as de 1851 em diante, são um exemplo do repertório padrão. Nenhum outro compositor de ópera italiana conseguiu igualar-se a Verdi, em quesito popularidade, com exceção, talvez, de Giacomo Puccini.\n[…]\nQuando era criança, Giuseppe Verdi costumava tocar na casa dos Barezzi. O instrumento que tocava foi construído por Anton Tomaschek. Giuseppe Verdi era um grande admirador dos pianos de Johann Fritz, tendo utilizado um piano vienense Fritz de 6 pedais desde a criação da sua ópera Rigoletto, em 1851, até à criação da sua ópera Aida, em 1871. Este piano pode ser visitado na Villa Verdi, antiga residência do compositor na Província Placência, em Itália.\n[…]\n«Operas by Giuseppe Verdi»  (MP3)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Maria Callas",
+      "descricao": "Soprano greco-americana (1923–1977), uma das cantoras de ópera mais célebres do século vinte."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Por qual apelido ficou conhecida a soprano Maria Callas, estrela da ópera no século vinte?",
+    "resposta": "La Divina",
+    "distratores": [
+      "La Stupenda",
+      "La Superba",
+      "La Magnifica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Maria_Callas"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Maria_Callas",
+        "situacao": "ok",
+        "texto": "Maria Callas (born Maria Anna Cecilia Sophia Kalogeropoulos; December 2, 1923 – September 16, 1977) was an American and Greek soprano, and one of the most renowned and influential opera singers of the 20th century. Critics praised her bel canto technique, wide-ranging voice, and dramatic interpretations.\n[…]\nHer repertoire ranged from classical opera seria to the bel canto operas of Donizetti, Bellini, and Rossini, and further to the works of Verdi and Puccini, and in her early career to the music dramas of Wagner. Her musical and dramatic talents led to her being hailed as La Divina (\"The Divine One\").\n[…]\nTerrence McNally's play The Lisbon Traviata, which premiered in 1985 at the Manhattan Theatre Club, uses Maria Callas's celebrated recordings of Verdi's La traviata as a recurring point of reference in a story about friendship, romantic relationships, and opera fandom. The opening scene famously revolves around an argument over rival recordings of the opera, with her portrayal of Violetta held up as the standard against which other interpretations are judged.\n[…]\nBizet, Carmen, conducted by Georges Prêtre, studio recording for EMI in stereo, July 1964. It is her only performance of the role, and her only performance of the complete opera; she never appeared in it onstage. The recording used the recitatives added after Bizet's death. Callas's performance caused critic Harold C. Schonberg to speculate in his book The Glorious Ones that Callas perhaps should have sung mezzo roles instead of simply soprano ones. The album would peak at No. 87 in the US.\n[…]\nSeletsky, Robert E. (2004), \"The Performance Practice of Maria Callas: Interpretation and Instinct\", The Opera Quarterly, 20/4, pp. 587–602.\n[…]\nOfficial website of the Maria Callas Museum\n[…]\nMaria Callas at IMDb\n[…]\nMaria Callas on Archive.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Maria_Callas",
+        "situacao": "ok",
+        "texto": "Maria Anna Cecilia Sofia Kalogerópulos (em grego: Μαρία Άννα Καικιλία Σοφία; romaniz.: Maria Anna Cecilia Sofia Kalogerópulos; Nova Iorque, 2 de dezembro de 1923 — Paris, 16 de setembro de 1977), mais conhecida pelo seu nome artístico Maria Callas (em grego: Μαρία Κάλλας; romaniz.: Maria Callas) foi uma soprano greco-americana.\n[…]\nOs críticos elogiavam sua técnica bel canto, sua voz de grande alcance e suas interpretações de profunda análise psicológica, características que a levaram a ser saudada como \"La Divina\". Seu tipo vocal era classificado como o raríssimo soprano absoluto. Seu repertório, por sua vez, variava de ópera-séria clássica para as óperas bel canto de Donizetti, Bellini e Rossini, as obras de Verdi e Puccini; e, no início de sua carreira, para os dramas musicais de Wagner.\n[…]\nSomente voltou a apresentar-se no La Scala em 1960, na ópera Poliuto de Donizetti; ainda em 1958, foi sumariamente demitida do Metropolitan por Rudolf Bing, que desejava que ela alternasse apresentações de La Traviata e Macbeth, óperas de Verdi com exigências vocais muito distintas para o soprano. À exigência de Bing, Callas celebremente respondeu que sua voz não era um elevador.\n[…]\nPoucos sopranos podem rivalizar com Callas no que diz respeito à capacidade de despertar reações intensas entre seus admiradores e detratores. Elevada à categoria de \"mito\" e conhecida mesmo fora do círculo de amantes de ópera, ela criou em torno de si uma legião de entusiastas capazes de defender a todo custo os méritos da cantora. Apesar da mútua amizade, as disputas entre seus fãs e os de Renata Tebaldi tornaram-se célebres, chegando mesmo em alguns casos às vias de fato.\n[…]\nMaria Callas cantou no Teatro Nacional de São Carlos em 27 de março de 1958 a ópera La Traviata, com cenários de Alfredo Furiga e direção musical do maestro Franco Ghione.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Fernanda Montenegro",
+      "descricao": "Atriz brasileira de teatro, cinema e televisão, nascida em 1929 no Rio de Janeiro."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Fernanda Montenegro é nome artístico. Qual é o nome de nascimento da grande atriz brasileira?",
+    "resposta": "Arlette Pinheiro Esteves da Silva",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Fernanda_Montenegro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fernanda_Montenegro",
+        "situacao": "ok",
+        "texto": "Arlette Pinheiro Monteiro Torres (Rio de Janeiro, 16 de outubro de 1929), mais conhecida como Fernanda Montenegro, é uma atriz e escritora brasileira. É frequentemente referenciada como a \"grande dama da dramaturgia brasileira\" e a \"maior atriz da história do Brasil\" pelo extenso trabalho no cinema, teatro e televisão.\n[…]\nFernanda Montenegro nasceu em 16 de outubro de 1929 na então capital federal numa família de classe média. Ao nascer recebeu o nome Arlette Pinheiro Esteves da Silva, sendo seu pai Victorino Esteves da Silva, marceneiro, e sua mãe, Carmen Nieddu, ambos cariocas e filhos de imigrantes europeus.\n[…]\nSeus avós paternos, José Pinheiro da Silva e Ana Albina Esteves, eram imigrantes portugueses (José de Santa Clara-a-Nova, Almodôvar, distrito de Beja, e Ana de Torgueda, concelho de Vila Real).\n[…]\nSeu primeiro papel como radioatriz foi numa obra de Cláudio Fornari, chamada Sinhá Moça Chorou, na qual interpretou Manuela. Arlette permaneceu na emissora por dez anos, inicialmente como locutora e depois como atriz. Foi lá que, ao começar a escrever, adotou o pseudônimo \"Fernanda Montenegro\". Paralelamente, a atriz passou a lecionar português para estrangeiros no Berlitz, curso que havia frequentado por quatro anos.\n[…]\nEm 2010 viveu a protagonista Bete em Passione, de Sílvio de Abreu. Em 2012 protagonizou o último episódio da minissérie As Brasileiras como a artista decadente Mary Torres no episódio Maria do Brasil, e no especial de fim de ano Doce de Mãe em que interpretou Dona Picucha, personagem principal onde foi premiada com o Emmy Internacional de melhor atriz. Pelo Twitter, a então presidente Dilma Rousseff parabenizou Fernanda Montenegro pelo Emmy, afirmando que a atriz é um orgulho do Brasil.\n[…]\nFernanda Montenegro no IMDb\n[…]\nFernanda Montenegro no AdoroCinema\n[…]\nFernanda Montenegro no Memória Globo"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Teatro Globe",
+      "descricao": "Teatro elisabetano de Londres, construído em 1599, onde a companhia de Shakespeare se apresentava."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1613, durante uma peça de Shakespeare, o Teatro Globe, em Londres, pegou fogo e foi destruído. O que provocou o incêndio?",
+    "resposta": "O disparo de um canhão de cena",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Globe_Theatre"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Globe_Theatre",
+        "situacao": "ok",
+        "texto": "The Globe Theatre was a theatre in London associated with William Shakespeare. It was built in 1599 at Southwark, close to the south bank of the Thames, by Shakespeare's playing company, the Lord Chamberlain's Men. It was destroyed by fire on 29 June 1613. A second Globe Theatre was built on the same site by June 1614 and stayed open until the  London theatre closures of 1642. As well as plays by \n[…]\nA modern reconstruction of the Globe, named \"Shakespeare's Globe\", opened in 1997 approximately 750 feet (230 m) from the site of the original theatre.\n[…]\nDover Wilson, however, defers the opening date until September 1599, taking the \"wooden O\" reference to be disparaging and thus unlikely to be used in the Globe's inaugural staging. He suggests that the account of Thomas Platter, a Swiss tourist, describing a performance of Julius Caesar witnessed on 21 September 1599, tells of the more likely first production.\n[…]\nA modern reconstruction of the theatre, named \"Shakespeare's Globe\", opened in 1997, with a production of Henry V. It is an academic approximation of the original design, based on available evidence of the 1599 and 1614 buildings, and is located approximately 750 feet (230 m) from the site of the original theatre.\n[…]\nThe Shakespearean editor Edmond Malone took Oldys's conjecture further, by reporting that the motto was on the theatre's flag of a globe of the Earth on the shoulders of Hercules.\n[…]\nThere would have been a ready understanding of the classical derivation. Shakespeare's complaint in Hamlet (act 2, scene 3) likening the child actors of the Blackfriars Theatre stealing the Globe's custom as \"carrying off Hercules […] and his load too\" alludes to the metaphor.\n[…]\nCurtain Theatre\n[…]\nThe Theatre\n[…]\nShakespearean Playhouses, by Joseph Quincy Adams, Jr. from Project Gutenberg\n[…]\nShakespeare's Globe The 1996 reconstruction\n[…]\nComprehensive Guide to Shakespeare's Globe Theatre"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Globe_Theatre",
+        "situacao": "ok",
+        "texto": "Globe Theatre ou The Globe é um teatro inglês localizado no distrito de Southwark, em Londres. Foi construído em 1599, destruído em 29 de junho de 1613 por um incêndio,  reconstruído no mesmo ano e encerrado permanentemente suas atividades em 1642.\n[…]\nO Globe original foi construído em 1599, durante a época elisabetana, no borough de Southwark, numa área chamada Bankside, na margem esquerda do rio Tâmisa, com as estruturas do primeiro teatro inglês – The Theatre -, erguido em 1576 pelo ator James Carbage e demolido em 1598 depois de ter sua licença cassada.\n[…]\nO Globe foi construído fora das jurisdições inglesas para que pudesse ter seu funcionamento independente dos embargos pela peste ou por risco de incêndio, algo comum nas construções elisabetanas da época. Projetado por Peter Street e contando com a supervisão de Shakespeare, o teatro, apesar de se parecer com o antigo Theatre, teve sua disposição interna adaptada para a valorização das atuações no palco ao centro do teatro.\n[…]\nWilliam Shakespeare tornou-se um de seus sócios, transformando-o em arena para as representações de peças como Hamlet e Rei Lear. Fechado em 1642, após a vitória dos puritanos liderados por Oliver Cromwell na Guerra Civil Inglesa (1642-1649), o teatro foi reconstruído e reinaugurado em 1997. A reconstituição das características originais do Globe foi possível graças a pesquisas arqueológicas, que em 1989 descobriram suas fundações e as ruínas do teatro Rose, construído na mesma época.\n[…]\nA varanda abrigou os músicos e também pode ser usada para cenas que requerem um espaço superior, como a cena da varanda em Romeu e Julieta. Tapetes de junco cobriam o palco, embora só possam ter sido usados ​​se o cenário da peça assim o exigir.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Casa de Bonecas",
+      "descricao": "Peça de Henrik Ibsen, de 1879, sobre Nora, mulher que abandona o marido e os filhos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Para uma montagem alemã de Casa de Bonecas, Ibsen escreveu a contragosto um final alternativo. O que o obrigou a isso?",
+    "resposta": "A recusa da atriz principal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/A_Doll%27s_House"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/A_Doll%27s_House",
+        "situacao": "ok",
+        "texto": "A Doll's House (Danish and Bokmål: Et dukkehjem; also translated as A Doll House) is a three-act play written by Norwegian playwright Henrik Ibsen. It premiered at the Royal Danish Theatre in Copenhagen, Denmark, on 20 December 1879, having been published earlier that month. The play is set in a Norwegian town c. 1879.\n[…]\nDariush Mehrjui's 1992 film Sara is based on A Doll's House, with the plot transferred to Iran. Sara, played by Niki Karimi, is the Nora of Ibsen's play.\n[…]\nIn 1973, Norwegian TV produced an adaptation of A Doll's House titled Et dukkehjem, directed by Arild Brinchmann and starring Lise Fjeldstad as Nora Helmer.\n[…]\nIn 1974, Danish Television produced an adaptation of A Doll's House titled Et dukkehjem, reworked by Leif Panduro, directed by Palle Kjærulff-Schmidt and starring Ghita Nørby as Nora and Preben Neergaard as Thorvald. Also featuring Henning Moritzen, Hanne Borchsenius, Ove Sprogøe, and Lily Broberg.\n[…]\nIn 2017, performance artist Cherdonna Shinatra wrote and starred in a reworking of the play titled \"Cherdonna's Doll House\" under the direction of Ali Mohamed el-Gasseir. The production was staged at 12th Avenue Arts through Washington Ensemble Theatre. Brendan Kiley of The Seattle Times described it as a \"triple-decker satire\" in which \"Cherdonna's version of Ibsen's play about femininity turns into a kind of memoir about Kuehner's neither-here-nor-there career identity.\"\n[…]\nIbsen, Henrick (trans. McLeish). A Doll's House, Nick Hern Books, London, 1994\n[…]\nUnwin, Stephen. Ibsen's A Doll's House (Page to Stage Study Guide). Nick Hern Books, London, 1997\n[…]\nA Doll's House at Project Gutenberg (alternate edition)\n[…]\nA Doll's House public domain audiobook at LibriVox\n[…]\nThe Social Significance of the Modern Drama, a book by Emma Goldman, contains a chapter on A Doll's House."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Uma_Casa_de_Bonecas",
+        "situacao": "ok",
+        "texto": "Uma Casa de Bonecas (no original em norueguês: Et Dukkehjem) é uma peça teatral do dramaturgo norueguês Henrik Ibsen, escrita em 1879. Começou a ser elaborada em 1878 e foi concluída em 1879, sendo representada pela primeira vez no “Det Kongelige Teater”, em Copenhage. No período de dois meses, a peça foi encenada nos principais teatros escandinavos, provocando muitas polêmicas acerca de seu teor,\n[…]\nNa época, mediante as tentativas de emancipação feminina, foi uma peça revolucionária, com grande repercussão entre feministas: a Europa inteira a discutiu. Houve censuras violentas lançadas contra a personagem principal, Nora, pois a época não perdoou seu abandono da casa e dos filhos.\n[…]\nAo receber de seu tradutor alemão Wilhelm Lange, de Berlim, uma comunicação em que havia o temor de que a peça fosse encenada com outros finais, por preferência de grande parte dos teatros alemães, Ibsen resolveu ele mesmo fazer um final alternativo para Nora, para ser usado se necessário. Nessa versão, Nora não sai de casa.\n[…]\nA encenação recebeu boas críticas na imprensa local e foi encenada, nessa versão, em grandes cidades alemãs com a atriz Hedwig Niemann-Raabe como Nora, em Hamburgo, Hannover, Dresden e Berlim, mas não foi um sucesso; no Residenztheater, em Berlim houve protestos e manifestações contra a distorção da peça, até que foi decidido usar a versão original.\n[…]\nFora da Alemanha “Casa de Bonecas” com final alternativo foi encenada apenas em uma vez, no Swedish Riksteatern Swedish, em 1956.\n[…]\nJosé Almino de Alencar e Silva Neto. Digitada, por volta de 2002, acervo da SBAT, baseada nas traduções estadunidense de McGuiness, “Doll’s house”, de Londres, publicado pela Faber and Faber, 1996, e de Marc Auchet, “Une Maison de poupée”, Paris: Librairie Générale Française, 1990. Foi utilizada no espetáculo “Casa de boneca”, sob direção de Bia Lessa, no Rio de Janeiro, em 2002.\n[…]\nIbsen.net",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Teatro Amazonas",
+      "descricao": "Teatro de ópera de Manaus, inaugurado em 1896, famoso por sua cúpula colorida."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O luxuoso Teatro Amazonas, inaugurado em Manaus em 1896, foi pago com a riqueza de qual ciclo econômico?",
+    "resposta": "Ciclo da borracha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
+      "https://en.wikipedia.org/wiki/Amazon_Theatre"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
+        "situacao": "ok",
+        "texto": "Teatro Amazonas é uma casa de ópera localizada em Manaus, no estado do Amazonas, sendo o principal cartão-postal da cidade. Situado no Largo de São Sebastião, no Centro Histórico, foi inaugurado em 1896 para atender ao desejo da elite amazonense da época, que idealizava a cidade à altura dos grandes centros culturais. É amplamente considerado como um dos mais belos teatros do mundo.\n[…]\nPor ser uma obra singular no Brasil e representar o apogeu de Manaus durante o ciclo da borracha, foi reconhecido como Patrimônio Mundial pela UNESCO em 2026.\n[…]\nManaus estava no auge do ciclo da borracha e era embalada pela riqueza provida da extração do látex amazônico, altamente valorizado pelas indústrias europeias e americanas. O projeto arquitetônico foi escolhido pelo Gabinete Português de Engenharia e Arquitetura de Lisboa em 1883. No entanto, devido as discussões sobre o terreno para a construção e os custos do trabalho, foi iniciado em 1884 com a pedra fundamental.\n[…]\nA decoração interna esteve ao encargo do decorador pernambucano, Crispim do Amaral, com exceção do corredor a área mais luxuosa do edifício entregue ao artista italiano Domenico de Angelis. Coordenadas pelo arquiteto italiano Celestial Sacardim, as obras começaram em 1884, tomaram impulso nos anos de 1890–1891, foram interrompidas, retomadas em 1893 e, finalmente, o Teatro Amazonas foi inaugurado no dia 31 de dezembro de 1896.\n[…]\nA mais importante casa de espetáculos do Amazonas tem, ainda, um museu com peças que ajudam a contar sua história, como as maquetes de óperas do compositor alemão Richard Wagner, concebidas pelo designer e cenógrafo inglês Ashley Martin-Davis, para as montagens do ciclo do “Anel do Nibelungo” em diferentes edições do Festival Amazonas de Ópera (FAO). São oito obras que estão expostas no segundo pavimento.\n[…]\n«Museu do Teatro Amazonas»\n[…]\n«Teatro Amazonas no Youtube»\n[…]\n«Viva Manaus»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Amazon_Theatre",
+        "situacao": "ok",
+        "texto": "The Amazon Theatre (Portuguese: Teatro Amazonas) is an opera house located in Manaus, Brazil, in the heart of the Amazon rainforest. It is the location of the annual Festival Amazonas de Ópera (Amazonas Opera Festival) and the home of the Amazonas Philharmonic Orchestra which regularly rehearses and performs at the Amazon Theatre along with choirs, musical concerts and other performances.\n[…]\nBy 1895, when the masonry work and exterior were completed, the decoration of the interior and the installation of electric lighting could begin more rapidly. The theatre was inaugurated on December 31, 1896, with the first performance occurring on January 7, 1897, with the Italian opera, La Gioconda, by Amilcare Ponchielli.\n[…]\nIt is featured twice in novels by Eva Ibbotson: Journey to the River Sea and A Company of Swans. Both are adventure stories set principally in the city of Manaus (where the theatre is situated) and surroundings in 1912. In the former (children's) book a visiting acting group performs the play, Little Lord Fauntleroy at the theatre, which is briefly described.\n[…]\nThe film Pavarotti opens with Luciano Pavarotti traveling to the theatre in 1995 to replicate Caruso's performance there.\n[…]\nThe theatre is mentioned in Daniel Catán's 1996 opera \"Florencia en el Amazonas\" as the location where the titular opera singer Florencia Grimaldi is traveling to give a concert.\n[…]\nBrazilian Belle Époque, the broader cultural and economic period in which the theatre was built\n[…]\nHistory of Manaus, for the development of the city during the Amazon rubber boom\n[…]\nTeatro da Paz, another major 19th-century opera house in the Brazilian Amazon\n[…]\nAuthor and naturalist Sy Montgomery gives a historical account of the building of the theatre in her 2001 book, \"Journey of the Pink Dolphins\".\n[…]\nAmazon Theatre YouTube\n[…]\nAmazon Theatre Gallery of 19 photos of the Amazon Theatre by Jorge Vismara"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Ésquilo",
+      "descricao": "Dramaturgo grego do século quinto antes de Cristo, considerado o pai da tragédia, autor da Oresteia."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma lenda antiga, o dramaturgo grego Ésquilo morreu atingido na cabeça por um animal que uma águia deixou cair. Que animal?",
+    "resposta": "Uma tartaruga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aeschylus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aeschylus",
+        "situacao": "ok",
+        "texto": "Aeschylus (UK: , US: ; Ancient Greek: Αἰσχύλος Aischýlos; c. 525/524 – c. 456/455 BC) was an ancient Greek tragedian, often described as the father of tragedy. Academic knowledge of the genre begins with his work, and understanding of earlier Greek tragedy is largely based on inferences made from reading his surviving plays. According to Aristotle, he expanded the number of characters in the theat\n[…]\nThe theatre was just beginning to evolve when Aeschylus started writing for it. Earlier playwrights such as Thespis had already expanded the cast to include an actor who was able to interact with the chorus. Aeschylus added a second actor, allowing for greater dramatic variety, while the chorus played a less important role. He is sometimes credited with introducing skenographia, or scene-decoration, though Aristotle gives this distinction to Sophocles.\n[…]\nAeschylus is also said to have made the costumes more elaborate and dramatic, and made his actors wear platform boots (cothurni) to make them more visible to the audience. According to a later account of Aeschylus's life, the chorus of Furies in the first performance of the Eumenides were so frightening when they entered that children fainted, patriarchs urinated, pregnant women went into labour.\n[…]\nJ.T. Sheppard argues in the second half of his Aeschylus and Sophocles: Their Work and Influence that Aeschylus and Sophocles have played a major part in the formation of dramatic literature from the Renaissance to the present, specifically in French and Elizabethan drama. He also claims that their influence went beyond just drama and applies to literature in general, citing Milton and the Romantics.\n[…]\nCrane, Gregory. \"Aeschylus (4)\". Perseus Encyclopedia.\n[…]\n\"Aeschylus, II: The Oresteia\" from the Loeb Classical Library, Harvard University Press\n[…]\n\"Aeschylus, III: Fragments\" from the Loeb Classical Library, Harvard University Press"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%89squilo",
+        "situacao": "ok",
+        "texto": "Ésquilo (em grego: Αἰσχύλος; romaniz.: Aiskhýlos; Elêusis, c. 525/524 a.C. – Gela, 456/455 a.C.) foi um dramaturgo da Grécia Antiga. É reconhecido frequentemente como o pai da tragédia, e é o mais antigo dos três trágicos gregos cujas peças ainda existem (os outros são Sófocles e Eurípedes). De acordo com Aristóteles, Ésquilo aumentou o número de personagens usados nas peças para permitir conflito\n[…]\nSobre sua morte, reza a lenda que, ao visitar Gela, na ilha da Sicília, uma ave de rapina (possivelmente uma águia ou um abutre-barbudo, também conhecido por quebra-ossos), confundindo sua careca com uma rocha, deixou cair um casco de tartaruga em sua cabeça, matando-o (o abutre-barbudo é conhecido por jogar ossos em cima de rochas para quebrá-los, e assim, retirar facilmente o tutano).\n[…]\nretornou à Sicília pela última vez, visitando a cidade de Gela, onde veio a morrer em 456 ou 455. Alega-se que teria sido morto por um casco de tartaruga, derrubado das alturas sobre sua cabeça por uma águia ou um abutre. Porém, a história é provavelmente apócrifa. A obra de Ésquilo era tão respeitada pelos atenienses que, após sua morte, suas tragédias passaram a ser as únicas a poderem ser reencenadas nas edições seguintes das competições teatrais da cidade.\n[…]\nCom a exceção desta última, cujo sucesso é incerto, sabe-se com segurança que todas estas venceram a primeira colocação na Dionísia da Cidade. A Vida de Ésquilo alexandrina indica que o dramaturgo teria vencido por treze vezes o torneio.\n[…]\nA mais completa tetralogia de autoria de Ésquilo a ainda existir é A Orestia, de 458 a.C., da qual apenas a peça satírica está faltando. A Orestia é também a única trilogia completa de algum dramaturgo grego descoberta pelos estudiosos modernos. Consiste das peças Agamenon, As Coéforas (Choephoroi) e As Eumênides; Juntas, estas obras narram a sangrenta história da família de Agamenon, rei de Argos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Lisístrata",
+      "descricao": "Comédia de Aristófanes, de 411 antes de Cristo, em que as mulheres gregas fazem greve de sexo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na comédia Lisístrata, de Aristófanes, as mulheres de Atenas e Esparta fazem greve de sexo para forçar os maridos a quê?",
+    "resposta": "Acabar com a guerra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lysistrata"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lysistrata",
+        "situacao": "ok",
+        "texto": "Lysistrata ( or ; Attic Greek: Λυσιστράτη, Lysistrátē, lit. 'army disbander') is an ancient Greek comedy by Aristophanes, first staged in early 411 BCE at Lenaea festival in classical Athens. The play is a comic account of a woman's – Lysistrata's – mission to end the Peloponnesian War between Greek city states by denying sex to all the men of the warring parties and occupying the Acropolis of Ath\n[…]\nPeisander: An Athenian aristocrat and oligarch, he is mentioned here by Lysistrata as typical of a corrupt politician exploiting the war for personal gain. He was previously mentioned in Peace and The Birds\n[…]\nLysistrata belongs to the middle period of Aristophanes's career when he was beginning to diverge significantly from the conventions of Old Comedy. Such variations from convention include:\n[…]\nAgon: The plays of Aristophanes contain formal disputes or agons that are constructed for rhetorical effect. Lysistrata's debate with the proboulos (magistrate) is an unusual agon in that one character (Lysistrata) does a majority of the talking, while the antagonist's dialogue (the magistrate) is reserved for questions or expressions of emotion. The informality of the agon draws attention to the absurdity of a classical woman engaging in public debate.\n[…]\n2016: Animator Richard Williams's Oscar-nominated short film, Prologue, is \"the first part of a feature film loosely based on Aristophanes's anti-war play Lysistrata.\"\n[…]\nAristophanes (1973). The Acharnians: And The Clouds and Lysistrata. Translated by Sommerstein, Alan H. Penguin. ISBN 978-0-14-044287-8.\n[…]\nLysistrata public domain audiobook at LibriVox\n[…]\nLysistrata text in English – The EServer Drama Collection (Iowa State University)\n[…]\nLysistrata audiobook – Listen to streaming audio online and download in MP3 format\n[…]\nNegro Repertory Company: Lysistrata, on the controversial 1937 production of the play by the Seattle Branch of the Federal Theater Project"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lis%C3%ADstrata",
+        "situacao": "ok",
+        "texto": "Lisístrata (em grego ático: Λυσιστράτη \"que dissolve o exército\") é uma comédia famosa de Aristófanes. Escrita e encenada na Atenas clássica em 411 a.C., provavelmente nas Lenéias, um dos festivais anuais atenienses sagrados em homenagem ao deus Dioníso. Nessas festas, além dos rituais de homenagem a Dioníso, havia também dias reservados para as competições de tragédias e comédias. As obras teatra\n[…]\nA peça Lisístrata é um relato cômico sobre as mulheres gregas, lideradas por Lisístrata, uma personagem feminina de caráter forte. Essas mulheres fartas da guerra entre Atenas e Esparta trancam-se num templo e decidem por votação deflagrar uma greve sexual para forçar uma negociação de paz, uma estratégia ousada para acabar com a Guerra do Peloponeso, mas que, no entanto, provoca uma batalha entre os sexos. Segundo Aristófanes, em sua obra, Lisístrata.\n[…]\nLisístrata – personagem principal da peça, é uma mulher ateniense que tenta junto com outras mulheres acabar com a guerra do Peloponeso através de uma greve de sexo.\n[…]\nLampito - é uma mulher espartana, faz o mesmo papel de Lisístrata, mas em Esparta, no intuito de acabar com a guerra por parte dos espartanos.\n[…]\nPressionados, os atenienses procuraram reconstruir seus exércitos com os fundos de reserva para guerra estocados na Acrópole, local ocupado por Lisístrata e as demais mulheres na peça. Dentro deste cenário de batalha e corrupção, Aristófanes foi o maior relator deste período através de suas comédias, Lisístrata e As Tesmoforiantes.\n[…]\nA peça tratava uma rebelião de mulheres atenienses, que, sob a liderança da personagem-título, resolvem fazer greve de sexo para forçar seus maridos a acabarem com a Guerra do Peloponeso (conflito armado entre Atenas e Esparta, ocorrido entre 431 e 404 a.C.).\n[…]\nARISTÓFANES. A Greve do Sexo (Lisístrata) / A Revolução das Mulheres. Tradução de Mário da Gama Kury. Rio de Janeiro: Jorge Zahar, 1996.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Kabuki",
+      "descricao": "Forma tradicional de teatro japonês que combina canto, dança e atuação estilizada, surgida no início do século dezessete."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O kabuki japonês começou com dançarinas, mas tradicionalmente é feito só por homens. O que provocou essa mudança no século dezessete?",
+    "resposta": "O xogunato proibiu as mulheres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kabuki"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kabuki",
+        "situacao": "ok",
+        "texto": "Kabuki (歌舞伎; Japanese pronunciation: [ka.bɯ.kʲi]) is a classical form of Japanese theatre, mixing dramatic performance with traditional dance. Kabuki theatre is known for its heavily stylised performances, its glamorous, highly decorated costumes, and for the elaborate kumadori make-up worn by some of its performers.\n[…]\nKabuki-za\n[…]\nFamous kabuki actor lineages, such as:\n[…]\nKabuki shinpō, a Japanese magazine on kabuki that ran 1879–1897.\n[…]\nKabukibu!, a light novel, manga, and anime series about a boy who loves kabuki\n[…]\nYasuji Toita & Chiaki Yoshida, Kabuki (Osaka: Hoikusha, 1969).\n[…]\nKawatake, Toshio (2006). Kabuki: Baroque Fusion of the Arts. Tokyo: I-House Press.\n[…]\nMatsui, Kesako (2016). Kabuki, a Mirror of Japan: Ten Plays that Offer a Glimpse into Evolving Sensibilities. Tokyo: Japan Publishing Industry Foundation for Culture.\n[…]\nKabuki Web—Shochiku Official Kabuki Website in English\n[…]\nKabuki 21—All about Japan's traditional Theatre Art of Kabuki: The art, the plays, the great stars of today, the legends of the past, the theaters, the history, the glossary, the traditions, the heroes and the derivatives.\n[…]\nNational Diet Library: photograph of Kabuki-za in Kyobashi-ku, Kobiki-cho, Tokyo (1900); Kakuki-za (1901); Kakuki-za (1909); Kabuki-za (1911); Kabuki-za (1912); Kakuki-za (1915)\n[…]\nKabuki prints by Utagawa Kuniyoshi (1798–1861)\n[…]\nJapan Mint: Kabuki Coin Set\n[…]\nAudio recording of the kabuki play Narukami by Ichikawa Danjūrō I at LostPlays.com\n[…]\n1969 'Camera Three' program on Kabuki, (audio only; with Faubion Bowers et al.)\n[…]\nCollection: \"Kabuki Images\" Archived 27 August 2022 at the Wayback Machine from the University of Michigan Museum of Art\n[…]\n\"Kabuki Performance and Expression in Japanese Prints\" exhibition Archived 15 April 2021 at the Wayback Machine at the Museum of Art and Archaeology at the University of Missouri"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kabuki",
+        "situacao": "ok",
+        "texto": "Kabuki (歌舞伎) ou cabúqui é uma forma de teatro japonês, conhecida pelo drama estilizado e a elaborada maquiagem utilizada pelos atores. O significado individual de cada ideograma é canto (ka) (歌), dança (bu) (舞) e habilidade (ki) (伎), e por isso a palavra kabuki é por vezes traduzida como \"a arte de cantar e dançar\". Esses ideogramas, entretanto, são o que se chamam de ateji (ideogramas usados apen\n[…]\nMuito cedo passou esta forma de intervenção artística a figurar como espectáculo de geishas nos lupanares e bordéis de Quioto. Ao longo do século XVII, o Kabuki (cujas formas sofreram uma rápida evolução) foi objecto de sucessivas proibições e reformulações legalmente impostas que tiveram como efeito a interdição, primeiro das  mulheres, depois dos jovens rapazes que as substituíram no palco kabuki, por veicularem ambos uma sensualidade desalinhada com o rígido código moral samurai.\n[…]\nO kabuki tornou-se uma forma comum de entretenimento no estilo de vida Ukiyo, em distritos como Yoshiwara - uma zona de meretrício em Edo. Este tipo de práticas urbanas e todo o mal que dele advinha, especialmente pela variedade de classes sociais que se misturavam em performances de kabuki, não passou despercebido ao shogunato. As mulheres do kabuki, designadas de onna-kabuki, foram proibidas dessas práticas em 1629 por serem demasiado eróticas.\n[…]\nO kabuki moderno masculino, conhecido por yarō-kabuki (jovem kabuki), desenvolveu-se durante estas décadas. Depois das mulheres terem sido proibidas de realizar esta forma de teatro, os atores masculinos praticavam o crossdresser, conhecidos como onnagata (papel de mulher) ou oyama. Os jovens (adolescentes) eram escolhidos para o papel de mulheres, considerada a sua aparência menos masculina e voz não tão grave em comparação com os homens adultos.\n[…]\n«Teatro Kabuki» (em espanhol)\n[…]\n«Kabuki 21 Tudo sobre a arte do teatro tradicional japonês» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Turandot",
+      "descricao": "Última ópera de Giacomo Puccini, ambientada na China e estreada em 1926 no Teatro alla Scala."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na estreia de Turandot, em 1926, o maestro Toscanini interrompeu a ópera no meio do último ato. Por quê?",
+    "resposta": "Ali Puccini parou de compor ao morrer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Turandot"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Turandot",
+        "situacao": "ok",
+        "texto": "Turandot (Italian pronunciation: [turanˈdo] or, prescribed, [turanˈdɔt] ; see below) is an opera in three acts by Giacomo Puccini to a libretto in Italian by Giuseppe Adami and Renato Simoni. Puccini died in 1924, and his opera was left unfinished. The music was completed by Franco Alfano  and premiered on 25 April 1926, almost a year and a half after Puccini's death.\n[…]\nPuccini seems to have had some inkling of the seriousness of his condition: before leaving for Brussels for treatment, he visited Arturo Toscanini and begged him, \"Don't let my Turandot die.\" He died of a heart attack on 29 November 1924.\n[…]\nToscanini recommended that Riccardo Zandonai be engaged to finish the opera. Puccini's son Tonio objected, and eventually Franco Alfano was chosen to flesh out the sketches after Vincenzo Tommasini (who had completed Boito's Nerone after the composer's death) and Pietro Mascagni were rejected. Puccini's publisher Tito Ricordi II decided on Alfano because his opera La leggenda di Sakùntala resembled Turandot in its setting and heavy orchestration.\n[…]\nTurandot premiered at the La Scala opera house in Milan, Italy, on 25 April 1926, a year and five months after Puccini's death. Rosa Raisa played Turandot. Tenors Miguel Fleta and Franco Lo Giudice alternated in the role of Prince Calaf, with Fleta singing the role on opening night. It was conducted by Arturo Toscanini. In the middle of act 3, the orchestra stopped playing. Toscanini turned to the audience and announced, \"Qui finisce l'opera, perché a questo punto il maestro è morto\" (transl.\n[…]\nOthers have reported that Toscanini said, \"Here, the Maestro laid down his pen.\" A newspaper report from 1926 states that Puccini asked Toscanini to stop the opera performance in the middle of act 3. The second and subsequent performances of the 1926 La Scala season included Alfano's ending."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Turandot",
+        "situacao": "ok",
+        "texto": "Turandot, última ópera de Giacomo Puccini, composta em três atos, com libreto de Giuseppe Adami e Renato Simoni,  baseado numa peça (1762) de Carlo Gozzi com a adaptação de Friedrich von Schiller. Estreou no Teatro alla Scala em Milão em 25 de abril de 1926, sob a regência de Arturo Toscanini. Esta ópera ficou inacabada por causa da morte do autor, a 29 de novembro de 1924, sendo completada por Fr\n[…]\nArturo Toscanini não gostou do final que Franco Alfano deu à ópera de Puccini; por isso, na cena de morte de Liù, virou-se para a plateia e disse: \"Senhoras e Senhores, aqui parou Giacomo Puccini\".\n[…]\nEm Turandot, Puccini mostra a veia sadomasoquista que havia manifestado em Suor Angelica, Madama Butterfly e Tosca (\"meus instintos neuróticos\", dizia ele).[carece de fontes]? O triunfo final de duas personagens que se comportam de forma censurável (Turandot e o príncipe Calaf) chocou algumas pessoas, apesar da partitura de um melodismo fluido, extremamente quente, melancólico e sensual, típico de Puccini.\n[…]\nMichael Saffle, 'Exotic' Harmony in La Fanciulla del West and Turandot, in: Jürgen Maehder (ed.), Esotismo e colore locale nell'opera di Puccini, Pisa (Giardini), 1985, pp. 119–130.\n[…]\nArman Schwarz, Mechanism and Tradition in Puccini's Turandot, in: The Opera Quarterly 25/2009, pp. 28–50.\n[…]\nLynn Snook, « In Search of the Riddle Princess Turandot », in: Jürgen Maehder (ed.), Esotismo e colore locale nell'opera di Puccini, Pisa (Giardini), 1985, pp. 131–142.\n[…]\nIvanka Stoïanova, Remarques sur l'actualité de »Turandot«, in: Jürgen Maehder (ed.), Esotismo e colore locale nell'opera di Puccini, Pisa (Giardini), 1985, pp. 199–210.\n[…]\nMarco Uvietta, »È l'ora della prova': un finale Puccini-Berio per Turandot, in: Studi musicali 31/2002, pp. 395–479 ; English translation: »È l'ora della prova«: Berio's finale for Puccini's »Turandot«, in: Cambridge Opera Journal 16/2004, pp. 187–238.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Cyrano de Bergerac (peça)",
+      "descricao": "Peça de Edmond Rostand, de 1897, sobre um espadachim e poeta de nariz enorme apaixonado por Roxane."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na peça de Edmond Rostand, que traço físico faz Cyrano de Bergerac acreditar que jamais será amado por Roxane?",
+    "resposta": "Seu nariz enorme",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cyrano_de_Bergerac_(play)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cyrano_de_Bergerac_(play)",
+        "situacao": "ok",
+        "texto": "Cyrano de Bergerac ( SIRR-ə-noh də BUR-zhə-rak, – BAIR-, French: [siʁano d(ə) bɛʁʒəʁak]) is a French play written in 1897 by Edmond Rostand. The play  includes elements of the life of the 17th-century novelist and playwright Cyrano de Bergerac, along with elements of invention and myth. Cyrano's large nose is based on reality (see the accompanying portrait)  but in performance of the play is usual\n[…]\nCyrano de Bergerac (1950), the first English-language adaptation of the play. José Ferrer played the title role. The film was made on a low budget, but still lost money. Nevertheless, it received critical acclaim, won Ferrer the Academy Award for Best Actor. Mala Powers co-starred as Roxane and William Prince as Christian. Ferrer reprised the role in Cyrano and d'Artagnan, a 1964 film directed by Abel Gance.\n[…]\nAn opera in French, Cyrano de Bergerac, whose libretto by Henri Caïn is based on Rostand's words, was composed by the Italian Franco Alfano and was first presented in an Italian translation in 1936. The original French version has been revived in productions including the Opéra national de Montpellier with Roberto Alagna in 2003, and a 2005 Metropolitan Opera production with Plácido Domingo in the title role.\n[…]\nEino Tamberg composed the opera Cyrano de Bergerac in 1974, to a libretto in Estonian by Jaan Kross, based on Rostand's play.\n[…]\nThe 2016 French play Edmond by Alexis Michalik is a fictionalized behind-the-scenes look at the composition and first performance of Cyrano de Bergerac. It was adapted as the 2018 film Edmond  (distributed in English-speaking countries as Cyrano, My Love).\n[…]\nCyrano de Bergerac at Project Gutenberg\n[…]\nA double sonnet by Rostand about Cyrano\n[…]\n(in French) Livres audio mp3 gratuits 'La tirade du nez' d'Edmond Rostand -  (Association Audiocité).\n[…]\n​Cyrano de Bergerac​ at the Internet Broadway Database\n[…]\nCyrano de Bergerac - 1950 film adaptation on YouTube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cyrano_de_Bergerac_%28pe%C3%A7a_de_teatro%29",
+        "situacao": "ok",
+        "texto": "Cyrano de Bergerac é uma peça de teatro escrita em 1897 por Edmond Rostand, baseada na vida de Hector Savinien de Cyrano de Bergerac, escritor francês.\n[…]\nPor ocasião da estreia da peça, Rostand dedicou-a a Coquelin, que incorporou a alma da personagem com tal vigor, que durante anos o papel nos palcos franceses foi monopólio seu. Coquelin trabalhava a personagem com particular atenção; para o nariz de Cyrano, por exemplo, chegou a exigir cinquenta modelos, em cera, antes de escolher o que mais se adaptava ao papel. O tipo de nariz escolhido foi, pois, o adotado por seus sucessores.\n[…]\nA peça Cyrano de Bergerac foi encenada pela primeira vez em 27 de dezembro de 1897.\n[…]\nA Abril S. A. Cultural e Industrial lançou, em maio de 1976, na sua “Coleção Teatro Vivo”, uma 1ª edição de Cyrano de Bergerac, na tradução de Carlos Porto Carreiro, acrescida de uma biografia de Edmond Rostand e de notas do editor, Victor Civita.\n[…]\nA editora Peixoto Neto lançou em 2007, na série \"Os grandes dramaturgos\", sua 1ª edição de Cyrano de Bergerac com o mesmo texto da peça publicado pela Abril, acrescido de um prefácio de Walter Lima Torres e um posfácio contendo uma nota sobre a peça escrita por Arthur Azevedo, publicada em 1898, além de informações biográficas de Edmond Rostand.\n[…]\nCyrano de Bergerac, de Edmond Rostand – quadrinização em inglês e filipino (1977) da coleção “National Classic Comics” - da National Book Store, Inc. – Manila, Filipinas: [1]\n[…]\nSavinien de Cyrano de Bergerac\n[…]\nCyrano de Bergerac - em francês\n[…]\nROSTAND, Edmond (1976). Cyrano de Bergerac. São Paulo: Abril Cultural- Victor Civita. [S.l.: s.n.] ISBN Coleção teatro Vivo. Introdução.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "O Pagador de Promessas",
+      "descricao": "Peça de Dias Gomes, de 1960, sobre um homem que carrega uma cruz até uma igreja de Salvador."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em O Pagador de Promessas, de Dias Gomes, o protagonista carrega uma cruz até Salvador para pagar uma promessa pela cura de quem?",
+    "resposta": "De seu burro, Nicolau",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Pagador_de_Promessas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Pagador_de_Promessas",
+        "situacao": "ok",
+        "texto": "O Pagador de Promessas é um filme brasileiro de 1962 do gênero drama, dirigido e escrito por Anselmo Duarte, baseado na peça teatral homônima do dramaturgo Dias Gomes. Em seu elenco principal, estão Leonardo Villar, Glória Menezes, Norma Bengell, Dionísio Azevedo e Geraldo Del Rey. A trama segue Zé do Burro que, após ter seu burro atingido por um raio, faz uma promessa em um terreiro de Candomblé.\n[…]\nNa década de 1960, Zé do Burro, um homem humilde, enfrenta a intransigência da Igreja ao tentar cumprir a promessa feita em um terreiro de Candomblé, que era carregar uma pesada cruz de madeira por um longo percurso.\n[…]\nEle é dono de um pequeno pedaço de terra no interior da Bahia. Seu melhor amigo é um burro chamado Nicolau. Quando este adoece, ele não consegue fazer nada para que o animal melhore, então faz uma promessa a uma Mãe de Santo de Candomblé: caso o burro se recupere, promete que dividirá sua terra igualmente entre os mais pobres e carregará uma cruz, desde sua propriedade até a Igreja de Santa Bárbara, em Salvador, onde a oferecerá ao padre local.\n[…]\nLeonardo Villar como Zé do Burro: um homem que enfrenta a intransigência da Igreja ao tentar cumprir a promessa feita em um terreiro de Candomblé\n[…]\nGlória Menezes como Rosa: esposa de Zé do Burro, que o segue fielmente\n[…]\nDionísio Azevedo como Padre Olavo: padre local, representa a autoridade da religião oficial. Se recusa receber a cruz de Zé do Burro após ouvir dele a razão pela qual a carregou e as circunstâncias \"pagãs\" em que a promessa foi feita\n[…]\nO Pagador de Promessas foi rodado em Salvador, capital do estado da Bahia, entre agosto e setembro de 1961. Anselmo Duarte convidou Leonardo Villar para o papel principal, que protagonizou a encenação da peça de Dias Gomes em 1960. A direção de fotografia foi feita pelo inglês Chick Fowle, que trabalhou anteriormente na Companhia Cinematográfica Vera Cruz."
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "José de Anchieta",
+      "descricao": "Padre jesuíta espanhol do século dezesseis, missionário no Brasil e autor de autos teatrais e poemas."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No Brasil do século dezesseis, o jesuíta José de Anchieta escrevia e encenava autos teatrais. Com que objetivo principal?",
+    "resposta": "Catequizar os indígenas",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/José_de_Anchieta"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/José_de_Anchieta",
+        "situacao": "ok",
+        "texto": "José de Anchieta SJ (San Cristóbal de La Laguna, 19 de março de 1534 – Reritiba, 9 de junho de 1597) foi um padre jesuíta espanhol que ingressou na Companhia de Jesus no Reino de Portugal, ficando ao seu serviço, e um dos fundadores das cidades brasileiras de São Paulo e do Rio de Janeiro.\n[…]\nEm 2014 José de Anchieta é declarado padroeiro dos catequistas.\n[…]\nAnchieta ficou menos de três meses em Salvador, partindo para a Capitania de São Vicente no princípio de outubro, com o padre jesuíta Leonardo Nunes, onde conheceria Manuel da Nóbrega e permaneceria por doze anos. Anchieta abriu os caminhos do sertão, aprendendo a língua tupi, catequizando e ensinando latim aos índios. Escreveu a primeira gramática sobre uma língua do tronco tupi: a \"Arte da Gramática da Língua Mais Falada na Costa do Brasil\", que foi publicada em Coimbra em 1595.\n[…]\nO religioso cuidava não apenas de educar e catequizar os indígenas, como também de defendê-los dos abusos dos colonizadores portugueses que queriam não raramente escravizá-los e tomar-lhes as mulheres e filhos. Esteve em Itanhaém e Peruíbe, no litoral sul de São Paulo, na quaresma que antecedeu a sua ida à aldeia de Iperoig, juntamente com o padre Manuel da Nóbrega, em missão de preparo para o armistício com os Tupinambás de Ubatuba (Armistício de Iperoig).\n[…]\nO movimento de catequese influenciou seu teatro e sua poesia, resultando na melhor produção literária do quinhentismo brasileiro. Entre suas contribuições culturais, podemos citar as poesias em verso medieval (sobretudo o poema De Beata Virgine Dei Matre Maria, mais conhecido como Poema à Virgem, com 5786 versos), os autos que misturavam características religiosas e indígenas, a primeira gramática da língua tupi (A Cartilha dos nativos).\n[…]\nMonumento ao Padre José de Anchieta em Tenerife"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "West Side Story",
+      "descricao": "Musical da Broadway de 1957, com música de Leonard Bernstein, sobre gangues rivais em Nova York."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O musical West Side Story troca duas famílias rivais por gangues de Nova York. Que tragédia de Shakespeare ele reconta?",
+    "resposta": "Romeu e Julieta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/West_Side_Story"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/West_Side_Story",
+        "situacao": "ok",
+        "texto": "West Side Story is a musical conceived by Jerome Robbins with music by Leonard Bernstein, lyrics by Stephen Sondheim, and a book by Arthur Laurents.\n[…]\nInspired by William Shakespeare's play Romeo and Juliet, the story is set in the mid-1950s on the Upper West Side of Manhattan in New York City, then a multiracial, blue-collar neighborhood. The musical explores the rivalry between the Jets and the Sharks, two teenage street gangs of different ethnic backgrounds. The Sharks, who are recent migrants from Puerto Rico, and the Jets, who are white, vie for dominance of the neighborhood, and the police try to keep order.\n[…]\nThe other reviews generally joined in speculation about how the new work would influence the course of musical theater. Typical was John Chapman's review in the New York Daily News on September 27, 1957, headed: \"West Side Story a Splendid and Super-Modern Musical Drama\".\n[…]\nAs in Romeo and Juliet, the love between members of two rival groups in West Side Story leads to violent confrontations \"and a tragic ending with an underlying message: Violence breeds violence, so make peace and learn to share turf\". Among the social themes explored in the musical are \"bigotry, cultural misunderstanding and the social failure to fully integrate and empower young people in constructive ways\".\n[…]\nLaurents, Arthur (2009). Mainly on directing: Gypsy, West Side Story, and other musicals. New York: Alfred A. Knopf. ISBN 978-0-307-27088-7.\n[…]\nWells, Elizabeth A. (2010) West Side Story: Cultural Perspectives on an American Musical, Scarecrow Press, Lanham, Maryland, ISBN 978-0-8108-7666-8\n[…]\nTwelve Jazz Versions of West Side Story at Jazz.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/West_Side_Story_%28musical%29",
+        "situacao": "ok",
+        "texto": "West Side Story é um musical com libreto de Arthur Laurents, música de Leonard Bernstein e letras de Stephen Sondheim. É inspirado por Romeu e Julieta de William Shakespeare. Em 2021, estreará em São Paulo no Theatro São Pedro a nova montagem brasileira de West Side Story, estrelada por Beto Sargentelli e Giulia Ndruz. A direção será de Charles Möeller & Cláudio Botelho e a regência e direção musi\n[…]\nA história se passa no bairro de Upper West Side, em Nova Iorque, em meados dos anos 1950, um bairro de minoria étnicas e classe trabalhadora. (No início de 1960, grande parte do bairro seria desmatada em um projeto de renovação urbana do Lincoln Center, mudando o caráter do bairro). O musical explora a rivalidade entre os Jets e os Sharks, duas gangues de rua adolescentes com diferentes origens étnicas. Os membros dos Sharks, de Porto Rico, são insultados pelos Jets, uma gangue branca.\n[…]\nEm 2008 em Portugal estreou no Teatro Politeama com encenação de Filipe La Féria uma versão do musical \"West Side Story - Amor Sem Barreiras\" com Bárbara Barradas, Rui Andrade, Carlos Quintas, Anabela, Lúcia Moniz, Pedro Bargado, Tiago Diogo, Alberto Villar, Cátia Garcia, etc. Ganhou o Globo de Ouro da revista Caras para Melhor Espectáculo do Ano e ainda recebeu mais nove Prémios atribuídos pelo Guia dos Teatros.\n[…]\nEm 2021, estreará no Theatro São Pedro em São Paulo, a nova montagem brasileira de West Side Story estrelada por Beto Sargentelli e Giulia Ndruz. A direção será de Charles Möeller & Cláudio Botelho e a regência e direção musical será de Cláudio Cruz.\n[…]\nWest Side Story (em inglês) no Internet Broadway Database\n[…]\nThe Official West Side Story 50th Anniversary World Tour website\n[…]\nThe Official West Side Story website\n[…]\nWest Side Story at sondheimguide.com\n[…]\n2002 Interview with Chita Rivera on the 1957 stage show of West Side Story\n[…]\nWest Side Story in the canon of Stephen Sondheim",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Miss Saigon",
+      "descricao": "Musical de 1989, de Claude-Michel Schönberg e Alain Boublil, ambientado na Guerra do Vietnã."
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O romance entre um soldado americano e uma jovem vietnamita, no musical Miss Saigon, foi tirado de que ópera de Puccini?",
+    "resposta": "Madama Butterfly",
+    "distratores": [
+      "La Bohème",
+      "Tosca",
+      "Turandot"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Miss_Saigon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Miss_Saigon",
+        "situacao": "ok",
+        "texto": "Miss Saigon is a sung-through stage musical by Claude-Michel Schönberg and Alain Boublil, with lyrics by Boublil and Richard Maltby Jr. It is based on Giacomo Puccini's 1904 opera Madama Butterfly, and similarly tells the tragic tale of a doomed romance involving an Asian woman abandoned by her American lover.\n[…]\nThe setting of the plot is relocated to 1970s Saigon during the Vietnam War, and Madama Butterfly's story of marriage between an American lieutenant and a geisha is replaced by a romance between a United States Marine and a seventeen-year-old South Vietnamese bargirl.\n[…]\nThe musical was Schönberg and Boublil's second major success, following Les Misérables in 1985. As of January 2026, Miss Saigon remains Broadway's fifteenth longest-running show.\n[…]\nThe American scholar Yutian Wong described Miss Saigon as promoting the image of \"an effeminized and infantized Asia serving as a low-budget whorehouse for the West\". The fact that the Vietnam war impoverished many Vietnamese people and forced many women to turn to prostitution in order to survive is not mentioned in Miss Saigon, and establishments such as the fictional Dreamland brothel are portrayed as the norm in Vietnam.\n[…]\nThe Overture Center for the Arts in Madison, Wisconsin had planned to host a touring production of Miss Saigon in April 2019 and had scheduled a panel discussion to showcase Asian American perspectives on the musical's treatment of Asian characters. The Center then postponed the panel discussion indefinitely, prompting a teach-in by the panel's organizers and scheduled speakers. \"Shame on Overture for making a profit off the bodies of Asian bodies and Asian lives\", said Nancy Vue of Freedom Inc.\n[…]\nMusical Cyberspace: Miss Saigon\n[…]\nMiss Saigon – School Edition at the Music Theatre International website\n[…]\n\"Miss Saigon (RUS)\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Miss_Saigon",
+        "situacao": "ok",
+        "texto": "Miss Saigon é um musical de Claude-Michel Schönberg e Alain Boublil. Seu enredo é baseado na ópera Madama Butterfly, de Giacomo Puccini, e da mesma forma narra o conto trágico de um romance envolvendo uma mulher asiática abandonada por seu amante americano.\n[…]\nO cenário da trama é transferido para a década de 1970, em Saigon durante a Guerra do Vietnã, e a história do casamento entre um tenente americano e a menina japonesa Madame Butterfly, é substituída por um romance entre um soldado americano e um menina de bar vietnamita.\n[…]\n\"The American Dream\" - O Engenheiro\n[…]\nKim - Corresponde á Butterfly na Ópera. Kim é a protagonista de Miss Saigon. No Ato 1, Kim trabalhava como Bar Girl em Dreamland, um clube Vietnamita desprezível, propriedade do Engenheiro. Durante a Guerra do Vietnã, muitos soldados americanos iam até esse lugar e numa noite Kim conheceu Chris Scott, que, encantado com sua beleza e inocência acaba por se envolver com a garota.\n[…]\nChris - Corresponde a Pinkerton em Madame Butterfly. Chris Scott é o protagonista de Miss Saigon. No Ato 1, Chris e seu melhor amigo John foram com outros soldados americanos ao Dreamland, um clube Vietnamita desprezível, de propriedade do Engenheiro para beber e se divertir com mulheres. Nesse lugar Chris se encanta com Kim, uma bar girl em seu primeiro dia de serviço no local. Os dois se envolvem e Kim engravida de Chris.\n[…]\nO Engenheiro - Corresponde á Goro em Madame Butterfly. O Engenheiro é o chefe de Kim e é apresentado no começo do musical. No Ato 1, ele é dono de Dreamland, um clube Vietnamita desprezível. O Engenheiro é envolvido com coisas exclusas e sempre negocia com as pessoas para obter o que deseja (até apontarem uma arma em sua cabeça, como Chris faz para passar uma noite com Kim).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "As Bodas de Fígaro",
+      "descricao": "Ópera cômica de Mozart, de 1786, com libreto de Lorenzo Da Ponte."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "As óperas O Barbeiro de Sevilha, de Rossini, e As Bodas de Fígaro, de Mozart, nasceram de peças do mesmo dramaturgo francês. Quem?",
+    "resposta": "Beaumarchais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Marriage_of_Figaro",
+      "https://en.wikipedia.org/wiki/Pierre_Beaumarchais"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Marriage_of_Figaro",
+        "situacao": "ok",
+        "texto": "The Marriage of Figaro (Italian: Le nozze di Figaro, pronounced [le ˈnɔttse di ˈfiːɡaro] ), K. 492, is a commedia per musica (opera buffa) in four acts composed in 1786 by Wolfgang Amadeus Mozart, with an Italian libretto written by Lorenzo Da Ponte. It premiered at the Burgtheater in Vienna on 1 May 1786. The opera's libretto is based on the 1784 stage comedy by Beaumarchais, La folle journée, ou\n[…]\nThe Marriage of Figaro came in first out of the 20 operas featured, with the magazine describing it as being \"one of the supreme masterpieces of operatic comedy, whose rich sense of humanity shines out of Mozart's miraculous score\".\n[…]\nThe opera was the first of three collaborations between Mozart and Da Ponte, followed by Don Giovanni and Così fan tutte. It was Mozart who originally selected Beaumarchais's play and brought it to Da Ponte, who turned it into a libretto in six weeks, rewriting it in poetic Italian and removing all of the original's political references. In particular, Da Ponte replaced Figaro's climactic speech against inherited nobility with an equally angry aria against unfaithful wives.\n[…]\nThe synthesis of accelerating complexity and symmetrical resolution which was at the heart of Mozart's style enabled him to find a musical equivalent for the great stage works which were his dramatic models. The Marriage of Figaro in Mozart's version is the dramatic equal, and in many respects the superior, of Beaumarchais's work.\n[…]\nIn 1819, Henry R. Bishop wrote an adaptation of the opera in English, translating from Beaumarchais's play and re-using some of Mozart's music, while adding some of his own.\n[…]\nIn his 1991 opera, The Ghosts of Versailles, which includes elements of Beaumarchais's third Figaro play (La Mère coupable) and in which the main characters of The Marriage of Figaro also appear, John Corigliano quotes Mozart's opera, especially the overture, several times."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pierre_Beaumarchais",
+        "situacao": "ok",
+        "texto": "Pierre-Augustin Caron de Beaumarchais (pronounced [pjɛʁ oɡystɛ̃ kaʁɔ̃ d(ə) bomaʁʃɛ]; né Caron; 24 January 1732 – 18 May 1799) was a French playwright and diplomat of the Age of Enlightenment. Best known for his three Figaro plays, at various times in his life he was also a watchmaker, inventor, musician, spy, publisher, arms dealer, and revolutionary (both French and American).\n[…]\nFrom the age of ten, Beaumarchais had some education at a \"country school\", where he learned some Latin. At twelve, he left school to apprentice under his father in the craft of watchmaking. He may have used his own experiences during these years as the inspiration for the character of Cherubin when he wrote the Marriage of Figaro. He generally neglected his work, and at one point was evicted by his father, only to be later allowed back after apologising for his poor behaviour.\n[…]\nOver the next three years, Beaumarchais gave many private readings of the play, as well as making revisions to try to pass the censor. The King finally relented and lifted the ban in 1784. The play premiered that year and was enormously popular, even with aristocratic audiences. Mozart's opera based on the play, Le Nozze di Figaro premiered just two years later in Vienna.\n[…]\nIn 1786, Wolfgang Amadeus Mozart composed an opera, Le nozze di Figaro, based on The Marriage of Figaro, with a libretto by Lorenzo Da Ponte based on the play. Several composers, including Paisiello in 1782, wrote operas based on The Barber of Seville. Although not received well at first, Rossini's 1816 version of Barber  is his most successful work and still often performed. In 1966, Darius Milhaud composed an opera, La mère coupable, based on The Guilty Mother.\n[…]\nRivers, John. Figaro: The Life of Beaumarchais (Hutchison & Co., 1922)\n[…]\nBiography: Figaro: The Life of Beaumarchais by John Rivers, public domain audiobook at LibriVox"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Le_nozze_di_Figaro",
+        "situacao": "ok",
+        "texto": "Le nozze di Figaro (em português As bodas de Fígaro) é uma ópera-bufa em quatro atos composta por Wolfgang Amadeus Mozart, sobre libreto de Lorenzo da Ponte, com base na peça homônima de Pierre-Augustin Caron de Beaumarchais (Le Mariage de Figaro). Composta entre 1785 e 1786, estreou em Viena, em 1 de maio de 1786. Diz-se que Mozart começou a ter problemas com sua reputação a partir desta ópera, q\n[…]\nHá, no entanto, quem considere Le Nozze di Figaro como a obra-prima do compositor.\n[…]\nNo entanto, Susanna quebra a sua felicidade quando lhe conta o verdadeiro propósito do seu senhor: a localização do quarto permitir-lhe-á estar mais perto da jovem para exercer o seu direito de pernada. Fígaro, consternado, pergunta à sua prometida como é possível que Almaviva queira fazer uso de um direito que ele mesmo aboliu. A jovem responde que o Conde parece ter-se arrependido de tal decisão. Soa uma campainha e Susanna acode à chamada da Condessa.\n[…]\nEntra Fígaro e diz que foi ele, mas António mostra um envelope que quem saltou pela janela, deixou cair; são, nem mais nem menos, as credenciais de Cherubino. Fígaro diz que Cherubino lho havia dado porque faltava o selo, mas o Conde não fica convencido com a explicação. Nesse mesmo momento, aparecem novamente Bartolo e Marcellina, que reclamam ao Conde o cumprimento da sua demanda, a sua boda com Fígaro.\n[…]\nEntão Marcelina diz que Fígaro é o seu filho, que desapareceu pouco depois de nascer, e que Bartolo é o pai; assim já não tem que se casar com ela. Quando chega Susanna e vê Marcellina e Fígaro abraçados, dá-lhe uma bofetada. E Marcelina explica-lhe a nova situação.\n[…]\n«Áudio da ópera As bodas de Fígaro para baixar»\n[…]\n«Mozart em Viena». video(en)\n[…]\nFígaro - Cesare Siepi;\n[…]\nFígaro - Bryn Terfel;\n[…]\nFígaro - Giuseppe Taddei;\n[…]\nFígaro - Anton Scharinger;\n[…]\nFígaro - Sesto Bruscantini\n[…]\nFígaro - Ferrucio Furlanetto;\n[…]\nFígaro - José Van Dam;\n[…]\nFígaro - Hermann Prey;",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Ópera do Malandro",
+      "descricao": "Musical de Chico Buarque, de 1978, ambientado na Lapa carioca dos anos 1940."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Chico Buarque criou a Ópera do Malandro inspirado numa peça musical de Bertolt Brecht e Kurt Weill. Que peça é essa?",
+    "resposta": "A Ópera dos Três Vinténs",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ópera_do_Malandro"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ópera_do_Malandro",
+        "situacao": "ok",
+        "texto": "Ópera do Malandro é uma peça brasileira do gênero musical escrita por Chico Buarque de Holanda, em 1978, e dirigida por Luís Antônio Martinez Corrêa.\n[…]\nA ideia de escrever uma adaptação para os clássicos Ópera dos Mendigos, de John Gay, e A Ópera dos Três Vinténs, de Bertolt Brecht e Kurt Weill, surgiu durante uma conversa de Chico Buarque com o cineasta moçambicano Ruy Guerra. Tornada realidade anos depois, a peça é dedicada à lembrança de Paulo Pontes.\n[…]\nA Ópera do Malandro, continua fazendo parte de um Brasil conhecido pela maioria dos brasileiros.\n[…]\nTodas as músicas são da autoria de Chico Buarque que, por sua genialidade, consegue harmonizá-las com o texto. Na música Geni e o Zepelim, Geni, é uma travesti, fato que só descobrimos assistindo à peça. Geni, em princípio, não serve para nada. Todavia, quando o comandante de um zepelim reluzente resolve bombardear a cidade, mudando de ideia apenas se tiver uma noite de amor com a travesti, todos resolvem pedir-lhe para ceder aos caprichos do comandante.\n[…]\n\"O malandro (Mack The Knife)\" (Bertolt Brecht e Kurt Weill, trad. Chico Buarque) - João Alegre\n[…]\n\"Ópera do malandro\" (Adapt. por Roger Henrie, trad. por Chico Buarque) (Com trechos das óperas \"Rigoletto\", \"Aida\" e \"La traviata\" por Verdi, da ópera \"Carmen\" por Bizet e da ópera \"Tannhäuser\" por Wagner) - Elenco\n[…]\n\"O malandro (Reprise)\" (Chico Buarque) - João Alegre\n[…]\n\"Final: O malandro/Hino de Duran/Se eu fosse o teu patrão/Ópera do malandro/O malandro\" (Chico Buarque) - Elenco\n[…]\n\"O malandro (instrumental)\" (Chico Buarque) - Instrumental\n[…]\nÓpera do Malandro (filme)\n[…]\nChico Buarque\n[…]\nÓpera do Malandro no site oficial de Chico Buarque"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Gota d'Água (peça)",
+      "descricao": "Peça de Chico Buarque e Paulo Pontes, de 1975, ambientada num conjunto habitacional do Rio de Janeiro."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a peça Gota d'Água, de Chico Buarque e Paulo Pontes, tem em comum com uma tragédia de Eurípides? Ambas contam a história de quem?",
+    "resposta": "Medeia",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gota_d%27%C3%81gua"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gota_d%27%C3%81gua",
+        "situacao": "ok",
+        "texto": "Gota d'água é o título da peça teatral (drama), de autoria dos escritores brasileiros Chico Buarque e Paulo Pontes, escrita em 1975 e publicada em livro homônimo, em 1975, pela editora Civilização Brasileira.\n[…]\nA ideia foi originalmente derivada de um trabalho de Oduvaldo Viana Filho, que adaptara a peça grega clássica de Eurípedes sobre o mito de Medeia, para a televisão, e à memória do qual foi dedicada.\n[…]\nNo teatro permanece a censura. Para liberar a peça, Paulo Pontes teve que negociar alguns cortes. Ainda assim, foi sucesso de público e de crítica. A peça foi premiada com o Prêmio Molière que os autores recusaram em sinal de protesto contra a proibição, no mesmo ano, de obras de outros autores, como \"O abajur lilás\", de Plínio Marcos e \"Rasga coração\", de Oduvaldo Vianna filho.\n[…]\n\"O fundamental é que a vida brasileira possa, novamente, ser devolvida, nos palcos, ao público brasileiro. Esta é a segunda preocupação de Gota d'Água. Nossa tragédia é uma tragédia da vida brasileira.\"\n[…]\nDividida em dois atos, A Gota d'Água espelha uma tragédia urbana, banal nos grandes centros, nas favelas do Rio de Janeiro, onde está ambientada; os sets retratam um botequim, local de encontro dos homens e, ao lado, o set das lavadeiras, onde as personagens femininas conversam. No set da oficina, está o velho Egeu, e onde passam alguns amigos.\n[…]\nRetrata as dificuldades vividas por moradores de um conjunto habitacional, a Vila do Meio-Dia, que na verdade são o pano-de-fundo para o drama vivido por Joana e Jasão que, tal como na peça original, larga a mulher para casar-se com Alma, filha do rico Creonte.\n[…]\nGota d'Água no site oficial de Chico Buarque"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Theatro Municipal do Rio de Janeiro",
+      "descricao": "Teatro de ópera e balé na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Quem conhece Paris nota no Theatro Municipal do Rio de Janeiro a semelhança com que casa de ópera, que lhe serviu de modelo?",
+    "resposta": "Ópera Garnier",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro",
+      "https://en.wikipedia.org/wiki/Theatro_Municipal_(Rio_de_Janeiro)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro",
+        "situacao": "ok",
+        "texto": "O Theatro Municipal do Rio de Janeiro é um dos mais importantes teatros brasileiros. Localiza-se no bairro da Cinelândia, centro do Rio de Janeiro.\n[…]\nNesse contexto, realizou-se um concurso para a construção de um novo teatro, do qual saiu vitorioso o projeto de Francisco de Oliveira Passos (filho do então prefeito Pereira Passos), que contou com a colaboração do francês Albert Guilbert, com um desenho inspirado na Ópera de Paris, de Charles Garnier.\n[…]\nEm seus primórdios, apresentavam-se no teatro apenas companhias e orquestras estrangeiras — especialmente as italianas e francesas —, até que, em 1931, foi criada a Orquestra Sinfônica do Theatro Municipal do Rio de Janeiro.\n[…]\nAlém da orquestra, hoje a casa abriga o Coro do Theatro Municipal do Rio de Janeiro e o Ballet do Theatro Municipal do Rio de Janeiro e são apresentados, majoritariamente, programas de dança e de música erudita.\n[…]\nEm comemoração aos cem anos do Theatro Municipal do Rio de Janeiro, foram iniciadas extensas obras no teatro que, foi totalmente restaurado ao estilo original.\n[…]\nPara resgatar a beleza original ao teatro, construído no início do século anterior, foram investidos 70 milhões de reais nos trabalhos de restauro, que duraram mais de novecentos dias. Já para resgatar o dourado nos ornamentos do teatro, foram utilizadas milhares de folhas de ouro de 23 quilates compradas na Alemanha e que adornam os detalhes da fachada e da cúpula, como detalhou a Secretaria de Cultura do Rio de Janeiro, da qual depende a Fundação Theatro Municipal.\n[…]\nCerca de 250 operários trabalharam durante os quase três anos das obras no prédio, um dos mais belos do centro do Rio de Janeiro."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Theatro_Municipal_(Rio_de_Janeiro)",
+        "situacao": "ok",
+        "texto": "The Theatro Municipal (\"Municipal Theater\") is an opera house in the Centro district of  Rio de Janeiro, Brazil. Built in the early twentieth century, it is considered to be one of the most beautiful and important theaters in the country.\n[…]\nThe building is designed in an eclectic style, inspired by the Paris Opéra of Charles Garnier. The outside walls are inscribed with the names of classic European and Brazilian artists. It is located near the National Library and the National Fine Arts Museum, overlooking the spacious Cinelândia square.\n[…]\nHence arose the opera venue, brainchild of Francisco de Oliveira Passos (Son of then mayor Francisco Pereira Passos) with the cooperation of Albert Guilbert and design inspired by the Paris Opera. Building began in 1905 on a foundation of 1,180 wood poles rooted in groundwater. To decorate the building, the most important Brazilian painters and sculptors of the time were summoned, such as Eliseu Visconti, Rodolfo Amoedo and the Bernardelli brothers, Henrique and Rodolfo.\n[…]\nToday, the Theatro Municipal mostly shows productions of ballet and classical music. In its early heyday, it featured only foreign opera and symphonic orchestra shows, especially from Italian and French companies. In 1931, the Municipal Symphonic Orchestra of Rio de Janeiro was created and celebrities such as Arturo Toscanini, Sarah Bernhardt, Bidu Sayão, Eliane Coelho, Heitor Villa-Lobos, Igor Stravinsky, Paul Hindemith and Alexander Brailowsky highlighted the programs of the Theatro.\n[…]\nMedia related to Theatro Municipal (Rio de Janeiro) at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Método (atuação)",
+      "descricao": "Técnica de interpretação desenvolvida nos Estados Unidos, associada ao Actors Studio e a atores como Marlon Brando."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Marlon Brando e James Dean ficaram famosos pelo Método, técnica de atuação derivada do sistema de que diretor de teatro russo?",
+    "resposta": "Constantin Stanislavski",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Method_acting"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Method_acting",
+        "situacao": "ok",
+        "texto": "Method acting, known as the Method, is a group of rehearsal techniques that seek to encourage sincere and expressive performances through identifying with, understanding, and experiencing a character's inner motivation and emotions. Theatre practitioners built these techniques on Stanislavski's system, developed by the Russian and Soviet actor and director Konstantin Stanislavski and captured in h\n[…]\n\"The Method\" is an elaboration of the \"system\" of acting developed by the Russian theatre practitioner Konstantin Stanislavski (1863–1938). In the first three decades of the 20th century, Stanislavski organized his training, preparation, and rehearsal techniques into a coherent methodology.\n[…]\nEnglish-language readers often confused the first volume on psychological processes with the \"system\" as a whole. Many of the American practitioners who came to be identified with the Method were taught by Boleslawski and Ouspenskaya at the American Laboratory Theatre. The approaches to acting subsequently developed by their students—including Lee Strasberg, Stella Adler, and Sanford Meisner—are often confused with Stanislavski's \"system\".\n[…]\nStella Adler, an actress and acting teacher whose students included Marlon Brando, Warren Beatty, and Robert De Niro, also broke with Strasberg after she studied with Stanislavski. Her version of the method is based on the idea that actors should stimulate emotional experience by imagining the scene's \"given circumstances\", rather than recalling experiences from their own lives.\n[…]\nAmong the concepts and techniques of Method acting are substitution, \"as if\", sense memory, affective memory, and animal work (all of which were first developed by Stanislavski). Contemporary Method actors sometimes seek help from psychologists in the development of their roles.\n[…]\nList of acting techniques\n[…]\nKonstantin Stanislavski"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%A9todo_de_Interpreta%C3%A7%C3%A3o_para_o_Ator",
+        "situacao": "ok",
+        "texto": "Método de Interpretação Para o Ator ou simplesmente O Método, como é conhecido, foi desenvolvido nos palcos norte-americanos, principalmente em Nova York nas décadas de 1930 e 1940.\n[…]\nO método é uma variante do Sistema Stanislavski criado por Constantin Stanislavski e desenvolvido nas três primeiras décadas do século XX e exposto em suas obras em colaboração com vários artistas russos em sua prática no Teatro de Arte de Moscou.\n[…]\nInfluenciou a técnica de vários artistas do cinema norte-americano como Marlon Brando, Daniel Day-Lewis, Montgomery Clift, Marilyn Monroe, James Dean, Paul Newman, Al Pacino, Johnny Depp, Dustin Hoffman, Eli Wallach, Alec Baldwin, Robert De Niro, Jane Fonda e Ellen Burstyn.\n[…]\nComo o método teve muitos elaboradores e divulgadores - Stella Adler, Robert Lewis e Sanford Meisner - cada um deles criou uma pequena variante no entendimento e na adaptação dos ensinamentos do mestre russo. Mesmo Stanislavski modificou seu sistema muitas vezes durante a sua vida.\n[…]\nStanislavski descreveu seu sistema, como ele mesmo o chamou, em quatro livros. Uma autobiografia, e outros livros publicados na forma de um ensaio de teatro, onde um ator iniciante se envolve com problemas de aprendizado: Minha Vida na Arte, A Preparação do Ator, A Construção da Personagem e A Criação do Papel.\n[…]\nStanislavski. My Life in Art. Moscou. Foreign Languages Publishing. House, 1963 (publicado na URSS).\n[…]\nStanislavski. Sobranie sotshinenii (Obras Completas) segunda edição 1988-1999. 9 vols.\n[…]\nStanislavski. Minha Vida na Arte. Tradução de Paulo Bezerra (do original russo). Rio de Janeiro: Civilização Brasileira. 1989.\n[…]\nConstantin Stanislavski\n[…]\nSistema Stanislavski",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Teatro de Arte de Moscou",
+      "descricao": "Companhia teatral russa fundada em 1898 por Stanislavski e Nemirovitch-Dantchenko."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que ave, título de uma peça de Tchekhov que fez sucesso com a companhia, virou o emblema do Teatro de Arte de Moscou?",
+    "resposta": "A gaivota",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moscow_Art_Theatre"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Moscow_Art_Theatre",
+        "situacao": "ok",
+        "texto": "The Moscow Art Theatre (or MAT; Russian: Московский Художественный академический театр (МХАТ), Moskovskiy Hudojestvenny Akademicheskiy Teatr (MHAT)) was a theatre company in Moscow. It was founded in 1898 (1898) by the seminal Russian theatre practitioner Konstantin Stanislavski, together with the playwright and director Vladimir Nemirovich-Danchenko. It was conceived as a venue for naturalistic t\n[…]\nThe theatre was officially renamed The Gorky Moscow Art Theatre in 1932. Desperate not to lose support, Stanislavski tried to appease Stalin by accepting his political limitations on what could be performed while retaining his devotion to naturalistic theatre. As a result, the mid-20th century incarnation of the Moscow Art Theatre took a stylistic turn towards Socialist Realism, which would affect its productions for decades.\n[…]\nIt was not until autumn of 1970 that Oleg Yefremov, an actor, producer, and former student of the Moscow Art Theatre Studios who wanted Russia to once again be a major contender in the theatre world, took over control of the theatre and began to reform it. By the time he arrived to save it, the company was made up of only 150 actors, many of whom were out of practice.\n[…]\nIn 1987, the theatre split into two troupes: the Chekhov Moscow Art Theatre (artistic director Oleg Yefremov) and the Gorky Moscow Art Theatre (artistic director Tatiana Doronina).\n[…]\nArtistic council of the theatre (since 1949 until 1955)\n[…]\nStudio Six Theater Company\n[…]\nOfficial website of the Chekhov Moscow Art Theatre\n[…]\nOfficial website of the Gorky Moscow Art Theatre\n[…]\nChekhov Moscow Art Theatre's channel on YouTube\n[…]\n\"The Moscow Art Theatre: A Model\", a 1917 article by N. Ostrovsky.\n[…]\nVictor Manyukov, Vladimir Prokofyev, Angelina Stepanova, and Vasily Toporkov discuss the Moscow Art Theatre and working with Stanislavski at a 1964 Symposium in New York City. Listen at The WNYC Archives."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teatro_de_Arte_de_Moscou",
+        "situacao": "ok",
+        "texto": "Teatro de Arte de Moscou (em russo:  Московский Художественный Академический Театр, МХАТ) é uma companhia de teatro localizada em Moscou, Rússia, fundada em 1897 por Constantin Stanislavski e Vladímir Ivânovitch Niemiróvitch-Dântchenco.\n[…]\nEscola de Teatro de Arte de Moscou\n[…]\nBanham, Martin, ed. 1998. The Cambridge Guide to Theatre. Cambridge: Cambridge University Press. ISBN 0521434378.\n[…]\nBulgakov, Mikhail. 1996. Black Snow: Theatrical Novel. Trans. Michael Glenny. London: Hodder and Stoughton, 1967. London: Collins-Harvill, 1986, 1991, 1996.\n[…]\nWorrall, Nick. 1996. The Moscow Art Theatre. Theatre Production Studies ser. London and NY: Routledge. ISBN 0415055989.\n[…]\nMedia relacionados com Teatro de Arte de Moscou no Wikimedia Commons\n[…]\n«The Moscow Art Theatre: A Model» (em inglês). 1917 artigo de N. Ostrovsky ]\n[…]\n«O Teatro de Arte no Dizionario dello Spettacolo del '900» (em italiano)\n[…]\n«The Moscow Art Theatre: A Model, artigo de 1917 de N. Ostrovski» (em inglês)\n[…]\n«Site da Northwestern University com fotos, desenhos dos espetáculos dos artistas de teatro russos do início do século XX»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Gioachino Rossini",
+      "descricao": "Compositor italiano de óperas (1792–1868), autor de O Barbeiro de Sevilha e Guilherme Tell."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Um prato clássico de filé com foie gras e trufas, o tournedos, leva o sobrenome de que compositor italiano de óperas?",
+    "resposta": "Gioachino Rossini",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tournedos_Rossini"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tournedos_Rossini",
+        "situacao": "ok",
+        "texto": "Tournedos Rossini is a French steak dish consisting of beef tournedos (filet mignon), sautéed in butter, served on a croûton, and topped with a slice of fresh foie gras briefly sautéed at the last minute. The dish is garnished with slices of black truffle and finished with sauce madère, a Madeira-based sauce.\n[…]\nIt is named after 19th-century composer Gioacchino Rossini. Its invention is attributed to French master chef Marie-Antoine Carême, or  Adolphe Dugléré, or Savoy Hotel chef Auguste Escoffier.\n[…]\nMedia related to Tournedos Rossini at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tournedos_Rossini",
+        "situacao": "ok",
+        "texto": "O Tournedos Rossini é um prato de filé francês, batizado em homenagem ao compositor do século XIX, Gioachino Rossini. Sua invenção é atribuída ao chef francês Marie-Antoine Carême  ou Adolphe Dugléré, ou ao chefe do Hotel Savoy, Auguste Escoffier.\n[…]\nO prato é composto por um filé mignon frito na manteiga, servido com um crouton e coberto com uma fatia quente de foie gras frescas, preparadas rapidamente na frigideira no último minuto. O prato é decorado com fatias de trufa e termina com um molho madeira demi-glace.\n[…]\nMedia relacionados com Tournedos Rossini no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Cavalgada das Valquírias",
+      "descricao": "Trecho orquestral do início do terceiro ato da ópera A Valquíria, de Richard Wagner."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que filme de Francis Ford Coppola a Cavalgada das Valquírias, de Wagner, embala um ataque de helicópteros?",
+    "resposta": "Apocalypse Now",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ride_of_the_Valkyries"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ride_of_the_Valkyries",
+        "situacao": "ok",
+        "texto": "The Ride of the Valkyries (German: Walkürenritt or Ritt der Walküren) is the popular name of the prelude to the first scene of the third and last act of Die Walküre, the second of the four epic music dramas that constitute the operatic cycle Der Ring des Nibelungen (English: The Ring of the Nibelung), composed by Richard Wagner.\n[…]\nThe complete opera Die Walküre was first performed on 26 June 1870 in the National Theatre Munich against the composer's intent. By January of the next year, Wagner was receiving requests for the \"Ride\" to be performed separately, but wrote that such a performance should be considered \"an utter indiscretion\" and forbade \"any such thing\". However, the piece was still printed and sold in Leipzig, and Wagner wrote a complaint to the publisher Schott.\n[…]\nIn the period up to the first performance of the complete Ring cycle, Wagner continued to receive requests for separate performances, his second wife Cosima noting \"Unsavoury letters arrive for R. – requests for the Ride of the Valkyries and I don't know what else.\" Once the Ring had been performed in Bayreuth in 1876, Wagner lifted the embargo. He himself conducted it in London on 12 May 1877, repeating it as an encore.\n[…]\nThe 1941 Battle of Crete saw German airborne operations with paratroopers. Die Deutsche Wochenschau newsreel of 1941-06-04 used Walkürenritt as soundtrack to Junkers Ju 52 airplanes approaching the island at dawn in low flight over the Mediterranean Sea. In similar style, in Apocalypse Now (1979), helicopters attack a Vietnamese village with \"Ride of the Valkyries\" playing on loudspeakers.\n[…]\n\"Ride of the Valkyries\" (act 3): Scores at the International Music Score Library Project\n[…]\nRide of the Valkyries at Project Gutenberg (in MP3 format)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cavalgada_das_Valqu%C3%ADrias",
+        "situacao": "ok",
+        "texto": "Cavalgada das Valquírias (em alemão: Walkürenritt ou Ritt der Walküren) é a denominação popular para o início do ato III da ópera Die Walküre (A Valquíria), a segunda das quatro óperas compostas por Richard Wagner que compõem Der Ring des Nibelungen. O tema principal da cavalgada, o leitmotiv Walkürenritt, foi escrito originalmente em 23 de julho de 1851. Um esboço preliminar da composição foi com\n[…]\nSeparadamente, a Cavalgada costuma ser ouvida em uma versão puramente instrumental, já tendo sido limitada a um mínimo de três minutos. Junto com o coro nupcial de Lohengrin, a Cavalgada das Valquírias é uma das obras mais conhecidas de Wagner.\n[…]\nA Cavalgada das Valquírias tem sido frequentemente usada como tema musical em produções cinematográficas e televisivas, desde 1915 com O Nascimento de uma Nação de D. W. Griffith. Durante a Segunda Guerra Mundial foi utilizada em dois noticiários semanais alemães (Die Deutsche Wochenschau), tematizando a Batalha de Creta e o bombardeamento da linha ferroviária Moscou-São Petersburgo .\n[…]\nMais recentemente, fez parte da trilha sonora no filme Apocalypse Now (1979), na cena em que uma esquadrilha de helicópteros ataca uma vila vietnamita. Desde então, tem sido usada em diversos filmes, jogos eletrônicos e comerciais. Exemplos de uso incluem Valkyrie (2008), Lord of War (2005), Casper (1995), 8½ (1963), Watchmen (2009), Hearts of Iron (2002) e Hearts of Iron III (2009).\n[…]\nEm 24 de fevereiro de 2012 a Lew'Lara\\TBWA produziu uma continuação da propaganda Pôneis Malditos para a Nissan - promovendo a linha 2012/2013 da Nissan Frontier e satirizando a Cavalgada -, com o título Cavalgada dos Pôneis Malditos.\n[…]\nDie Walküre",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Vestido de Noiva",
+      "descricao": "Peça de Nelson Rodrigues estreada em 1943, marco do teatro moderno brasileiro."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1943, a estreia de Vestido de Noiva, de Nelson Rodrigues, revolucionou o teatro brasileiro. Que diretor polonês assinou a montagem?",
+    "resposta": "Zbigniew Ziembinski",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Vestido_de_Noiva",
+      "https://pt.wikipedia.org/wiki/Zbigniew_Ziembinski"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vestido_de_Noiva",
+        "situacao": "ok",
+        "texto": "Vestido de Noiva é uma peça teatral brasileira, de teor psicológico, escrita por Nelson Rodrigues e encenada pela primeira vez em 1943.\n[…]\nVestido de Noiva, filme realizado em 2006 e baseada na obra de Nelson Rodrigues.\n[…]\nNelson Rodrigues (2004). Vestido de Noiva 2ª ed. [S.l.]: Nova Fronteira. 96 páginas. ISBN 8520916198"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zbigniew_Ziembinski",
+        "situacao": "ok",
+        "texto": "Zbigniew Marian Ziembiński (Wieliczka, 17 de março de 1908 — Rio de Janeiro, 18 de outubro de 1978), mais conhecido apenas como Ziembinski, foi um ator e diretor polonês naturalizado brasileiro.\n[…]\nChamado carinhosamente de Zimba, é considerado um dos fundadores do moderno teatro brasileiro por sua encenação inovadora do texto Vestido de Noiva, em 1943 do dramaturgo Nelson Rodrigues. Com esta montagem e por seu processo de ensaio, introduz-se a noção de diretor no teatro brasileiro, aquele que cria uma encenação, quase como um pintor da cena, substituindo a de ensaiador, aquele que se preocupava apenas em distribuir papéis e ordenar a movimentação em cena.\n[…]\nA direção de  Ziembiński de Vestido de Noiva soube equacionar os vários planos propostos por Nelson Rodrigues, que contrastam entre o imaginário, o sonho e a realidade de forma brilhante, aliada à cenografia de Tomás Santa Rosa, com enorme quantidade de variações de luz - fala-se em 132 diferentes efeitos utilizados na encenação, fato marcante na história do teatro brasileiro da época.\n[…]\nEste fato pode ser acompanhado pelos espetáculos que se seguiram a Vestido de Noiva: em 1943, Pelleas e Melisande de Maeterlinck com a mesma companhia, e Anjo Negro, retornando a Nélson Rodrigues, em 1948, com o Teatro Popular de Arte (TPA), onde Ziembinski retoma o estilo expressionista introduzido em sua primeira peça brasileira. Se este texto de Nelson Rodrigues expõe acidamente a questão do racismo, Ziembinski irá sobrepor efeitos que engrossarão o caldo da polêmica e do escândalo.\n[…]\nMICHALSKI, Jan - Ziembiński e o Teatro Brasileiro. FUNARTE. 1995.\n[…]\nVerbete na Enciclopédia de Teatro Itaú Cultural\n[…]\nZiembinski no IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Eles Não Usam Black-Tie",
+      "descricao": "Peça brasileira de 1958 sobre uma família operária durante uma greve, encenada pelo Teatro de Arena."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem escreveu Eles Não Usam Black-Tie, peça sobre uma família operária durante uma greve, encenada pelo Teatro de Arena em 1958?",
+    "resposta": "Gianfrancesco Guarnieri",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gianfrancesco_Guarnieri"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gianfrancesco_Guarnieri",
+        "situacao": "ok",
+        "texto": "Gianfrancesco Sigfrido Benedetto Martinenghi De Guarnieri (Milão, 6 de agosto de 1934 – São Paulo, 22 de julho de 2006) foi um ator, diretor de teatro, dramaturgo e poeta italiano naturalizado brasileiro. Um artista de destaque no Teatro de Arena de São Paulo, sua mais importante obra é Eles Não Usam Black-Tie. Em 2006, foi homenageado na 18ª edição do Prêmio Shell de Teatro de São Paulo, por sua \n[…]\nSua peça de estreia como dramaturgo foi Eles Não Usam Black-Tie, encenada em 1958 pelo Teatro de Arena.\n[…]\nProgramada para encerrar o trabalho do grupo, que vivia uma crise financeira, alcançou sucesso imenso, sendo um dos marcos da renovação do teatro brasileiro da época. A peça, o autor e o elenco foram premiados pelo então governador de São Paulo, Jânio Quadros, e o Arena foi salvo da crise financeira que há tempos assolava o grupo. Paralelamente, o diretor Roberto Santos dava o pontapé inicial no Cinema Novo com o filme O Grande Momento, protagonizado por Guarnieri e Miriam Pérsia.\n[…]\nAtento a isso, o diretor Sandro Polloni encomendou uma peça a Guarnieri para ser encenada pela companhia de Maria Della Costa, esposa de Sandro e de cuja companhia teatral ele era o diretor. Guarnieri saiu do Arena por um tempo para poder realizar esse trabalho com Maria Della Costa. Em 1959 veio à luz Gimba, Presidente dos Valentes. Era o primeiro trabalho de Guarnieri em palco italiano e a direção ficou a cargo de Flávio Rangel.\n[…]\nGianfrancesco Guarnieri gravava no Teatro Oficina a telenovela Belíssima, da Rede Globo, em que interpretava o personagem Pepe, no dia 2 de junho de 2006, quando sentiu-se mal, sendo internado no Hospital Sírio-Libanês, onde veio a falecer de insuficiência renal crônica, cinquenta dias depois, no dia 22 de julho. Foi enterrado no cemitério Jardim da Serra, na cidade de Mairiporã, onde morava.\n[…]\n«Gianfrancesco Guarnieri em Memória Globo»\n[…]\nGianfrancesco Guarnieri no IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "O Juiz de Paz da Roça",
+      "descricao": "Comédia de Martins Pena encenada em 1838, considerada marco inicial da comédia de costumes no Brasil."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Quem escreveu O Juiz de Paz da Roça, comédia de 1838 considerada o marco inicial da comédia de costumes no Brasil?",
+    "resposta": "Martins Pena",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Martins_Pena"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Martins_Pena",
+        "situacao": "ok",
+        "texto": "Luís Carlos Martins Pena (Rio de Janeiro, 5 de novembro de 1815 — Lisboa, 7 de dezembro de 1848) foi dramaturgo, diplomata e introdutor da comédia de costumes no Brasil, tendo sido considerado o Molière brasileiro.\n[…]\nMartins Pena deu ao teatro brasileiro cunho nacional, influenciando, em especial, Artur Azevedo. Sobre sua obra, escreveu o crítico e ensaísta Sílvio Romero (1851-1914): \"...se se perdessem todas as leis, escritos, memórias da história brasileira dos primeiros 50 anos desse século XIX, que está a findar, e nos ficassem somente as comédias de Martins Pena, era possível reconstruir por elas a fisionomia moral de toda esta época\".\n[…]\nMartins Pena, então, percebeu que poderia dar ao teatro uma natureza mais brasileira a partir de tipos, situações e costumes, tanto rurais quanto urbanos, facilmente identificáveis pelo público do Rio de Janeiro. Às cenas rurais, reservou a comicidade e o humor, explorados por meio dos hábitos rústicos e maneiras broncas da curiosa gente rural, quase sempre pessoas ingênuas e de boa índole.\n[…]\nTeatro de Martins Pena. 2 volumes. Rio de Janeiro: Instituto Nacional do Livro, 1965.\n[…]\nO Noviço/O Juiz de Paz na Roça/Quem Casa, Quer Casa. São Paulo: Martin Claret, 2006 (Direito autoral, impressão). 112 p., 18 cm. (Coleção A Obra-Prima de Cada Autor, 29)\n[…]\nComédias. 3 vols. São Paulo: Martins Fontes, 2007. (Coleção Dramaturgos do Brasil)\n[…]\nMartins Pena é o patrono da cadeira 29 da Academia Brasileira de Letras, por escolha de um dos fundadores desta academia, o teatrólogo Artur de Azevedo.\n[…]\nPortal Domínio Público - Biblioteca digital mantida pelo governo brasileiro, com diversas obras em domínio público, inclusive algumas de Martins Pena.\n[…]\nMartins Pena - filmografia na IMDb."
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Auto da Barca do Inferno",
+      "descricao": "Peça teatral portuguesa do início do século dezesseis em que almas são julgadas antes de embarcar."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Quem escreveu o Auto da Barca do Inferno, peça portuguesa do início do século dezesseis em que as almas são julgadas antes de embarcar?",
+    "resposta": "Gil Vicente",
+    "distratores": [
+      "Luís de Camões",
+      "Sá de Miranda",
+      "Bernardim Ribeiro"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Auto_da_Barca_do_Inferno"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auto_da_Barca_do_Inferno",
+        "situacao": "ok",
+        "texto": "O Auto da Barca do Inferno  (ou Auto da Moralidade) é uma complexa alegoria dramática de Gil Vicente, representada pela primeira vez em 1517. É a primeira parte da chamada trilogia das Barcas (sendo que a segunda e a terceira são respetivamente o Auto da Barca do Purgatório e o Auto da Barca da Glória).\n[…]\nEmbora o Auto da Barca do Inferno não integre todos os componentes do processo dramático, Gil Vicente consegue  Auto numa peça teatral, dar unidade de ação através de um único espaço e de duas personagens fixas \"diabo e anjo\".\n[…]\nDiabo: condutor das almas ao Inferno, conhece muito bem cada um dos personagens que lhe cai às mãos; é zombeteiro, irónico e bom argumentador. Gil Vicente não pinta o Diabo como responsável pelos fracassos e males humanos; o Diabo é um juiz, que exibe às claras o lado mais recôndito dos personagens, penetrando nas consciências humanas e revelando o que cada um deles procura esconder.\n[…]\nAo ler Auto da Barca do Inferno, nota-se a importância do papel do personagem Diabo, criado por Gil Vicente em seu mais conhecido auto. De acordo com o autor é um “auto da moralidade”, sua intenção era exemplificar como se dava o comportamento de algumas pessoas que trabalhavam em determinados setores da época (décadas iniciais do século XVI), sendo assim, todos os personagens da obra são alegóricos e de narração dramática.\n[…]\nExiste no Museu Nacional de Arte Antiga, em Lisboa, uma pintura anónima que é quase contemporânea do Auto da Barca do Inferno. Poderá precedê-lo em dois anos. É uma pintura de qualidade e contém, como a obra de Gil Vicente, intenção de crítica social.\n[…]\nSobre o Auto da Barca do Inferno - A Interpretação -1, nos 500 anos do Auto das Barcas\n[…]\nDocumentário RTP sobre o Auto da Barca do Inferno"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Ópera de Sydney",
+      "descricao": "Casa de espetáculos em Sydney, Austrália, inaugurada em 1973, famosa por suas cascas brancas."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que arquiteto projetou a Ópera de Sydney, com suas cascas brancas que lembram velas de barco?",
+    "resposta": "Jørn Utzon",
+    "distratores": [
+      "Oscar Niemeyer",
+      "Frank Gehry",
+      "Alvar Aalto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sydney_Opera_House"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+        "situacao": "ok",
+        "texto": "The Sydney Opera House is a multi-venue performing arts centre in Sydney, New South Wales, Australia. Located on the foreshore of Sydney Harbour, it is widely regarded as one of the world's most famous and distinctive buildings, and a masterpiece of 20th-century architecture.\n[…]\nIn the late 1990s, the Sydney Opera House Trust resumed communication with Utzon in an attempt to effect a reconciliation and to secure his involvement in future changes to the building. In 1999, he was appointed by the trust as a design consultant for future work.\n[…]\nAfter the resignation of Utzon, the Minister for Public Works, Davis Hughes, and the Government Architect, Ted Farmer, organised a team to bring the Sydney Opera House to completion. The architectural work was divided between three appointees who became the Hall, Todd, Littlemore partnership. David Littlemore would manage construction supervision, Lionel Todd contract documentation, while the crucial role of design became the responsibility of Peter Hall.\n[…]\nHall agreed to accept the role on the condition there was no possibility of Utzon returning. Even so, his appointment did not go down well with many of his fellow architects who considered that no one but Utzon should complete the Sydney Opera House. Upon Utzon's dismissal, a rally of protest had marched to Bennelong Point. A petition was also circulated, including in the Government Architects office.\n[…]\nRAIA Commemorative Award, Jørn Utzon – Sydney Opera House, 1992\n[…]\nCompetition drawings submitted by Jørn Utzon to the Opera House Committee\n[…]\n\"Sydney Opera House\". Dictionary of Sydney. Retrieved 8 October 2015. [CC-By-SA]. Includes 'Sydney Opera House' by Laila Ellmoos, 2008 and 'Utzon's Opera House' by Eoghan Lewis, 2014.\n[…]\nSydney Opera House at Google Cultural Institute"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%93pera_de_Sydney",
+        "situacao": "ok",
+        "texto": "A casa da Ópera de Sydney (em inglês Sydney Opera House), também conhecida como Teatro de Sydney, é um dos edifícios de espetáculo mais marcantes em nível mundial, e um dos símbolos da Austrália, localizada na cidade de Sydney.\n[…]\nA construção, projetada por Jørn Utzon, começou em 1959 e está localizada sobre a Baía de Sydney. Apesar de o arquiteto ter abandonado o projeto em 1966, o edifício foi inaugurado em 20 de outubro de 1973.\n[…]\nUtzon ganhou o concurso internacional de arquitetura para a Ópera de Sydney em 1957, aos 38 anos. Havia 232 candidatos e terá sido o arquitecto finlandês Eero Saarinen, que fazia parte do júri, a apoiar o seu projeto. Fez a obra com o engenheiro anglo-dinamarquês Ove Arup e o edifício demorou anos a ser construído (de 1956 a 1973). A polemica instalou-se e, em 1966, quando Jorn Utzon abandonou a direção da obra e a Austrália, para onde se tinha mudado com a sua família.\n[…]\nAlguns pormenores da obra, nomeadamente no seu interior, não foram acabados segundo os seus planos. Utzon nunca chegou a visitar o edifício, mesmo depois de se ter reconciliado com a Fundação da Ópera de Sydney nos anos 1990 e mais tarde o seu filho Jan, também arquitecto, ter feito a renovação do interior do edifício, aproximando-o mais daquilo que o pai tinha projetado.\n[…]\nAinda que às estruturas dos telhados da Casa de Ópera de Sydney sejam habitualmente designadas como cascas (como neste artigo), estas de facto não o são no sentido arquitetônico da palavra, já que estão formadas por painéis pré-fabricados de betão que se apoiam em costillas pré-fabricadas do mesmo material.\n[…]\nDuek-Cohen, Elias, Utzon and the Sydney Opera House, Morgan Publications, Sydney, 1967-1998.\n[…]\nThe Sydney Opera House mapygon",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Richard Wagner",
+      "descricao": "Compositor alemão romântico (1813–1883), autor de dramas musicais como O Anel do Nibelungo."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade alemã Richard Wagner ergueu um teatro dedicado às próprias óperas, sede de um festival anual?",
+    "resposta": "Bayreuth",
+    "distratores": [
+      "Munique",
+      "Dresden",
+      "Leipzig"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bayreuth_Festspielhaus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bayreuth_Festspielhaus",
+        "situacao": "ok",
+        "texto": "The Bayreuth Festspielhaus or Bayreuth Festival Theatre (German: Bayreuther Festspielhaus, pronounced [baɪˈʁɔʏtɐ ˈfɛstʃpiːlˌhaʊs]) is an opera house north of Bayreuth, Germany, built by the 19th-century German composer Richard Wagner and dedicated solely to the performance of his stage works. It is the venue for the annual Bayreuth Festival, for which it was specifically conceived and built. Its o\n[…]\nThe architecture of Festpielhaus accomplished many of Wagner's goals and ideals for the performances of his operas including an improvement on the sound, feel, and overall look of the production.\n[…]\nThe design also corrected the balance of volume between singers and orchestra, creating ideal acoustics for Wagner's operas, which are the only operas performed at the Festspielhaus. However, this arrangement has also made it the most challenging to conduct in, even for the world's best conductors. Not only is the crowded pit enveloped in darkness, but the acoustic reverberation makes it difficult to synchronise the orchestra with the singers.\n[…]\nThe orchestra layout deployed at Bayreuth is unusual in three ways:\n[…]\nThe Festspielhaus remains the venue of the annual Bayreuth Festival, during which Wagner's later operas, such as the Ring cycle and Parsifal, are given on a repertory basis.\n[…]\nList of opera festivals\n[…]\nList of Bayreuth Festival productions of Der Ring des Nibelungen\n[…]\nSpotts, Frederic (1994). Bayreuth: A History of the Wagner Festival. New Haven and London: Yale University Press.\n[…]\nBurlingame, Edward L. (1875). Art, Life, and Theories of Richard Wagner. New York: Henry Holt and Company.\n[…]\nVernon, David (2021). Disturbing the Universe: Wagner's Musikdrama. Edinburgh: Candle Row Press. ISBN 978-1527299245."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bayreuth_Festspielhaus",
+        "situacao": "ok",
+        "texto": "A Bayreuth Festspielhaus (Teatro do Festival de Bayreuth) ou Richard-Wagner-Festspielhaus é uma casa de ópera situada no norte de Bayreuth, Alemanha, usada principalmente para apresentações de óperas compositor alemão Richard Wagner. É a sede do Festival de Bayreuth e a meca dos wagnerianos.\n[…]\nSitua-se na \"Colina Verde\" em alemão:  Grüner Hügel (também chamada \"Colina sagrada\", pelo wagnerianos), em Bayreuth, na Baviera, e foi inaugurada em 1876. Concebida especialmente pelo compositor para a execução das suas obras, foi um projeto revolucionário.\n[…]\nEssas duas obras ocupam um lugar particular em Bayreuth, pois o Festspielhaus foi construído para O Anel e Parsifal foi composta para o Festspielhaus. As cinco outras óperas de maturidade do compositor, criadas em teatros \"tradicionais\", entraram mais tarde para o repertório do Festival.\n[…]\nA pedra fundamental foi colocada em 22 de maio de 1872, numa colina ao norte de Bayreuth. Nas proximidades, foi construída também a Villa Wahnfried, destinada a Wagner e sua família.\n[…]\nA mais famosa peculiaridade do Festspielhaus é o fosso da orquestra, que é coberto, sendo assim, totalmente invisível ao público. Esta foi uma ideia do próprio Wagner, para que o público prestasse atenção no drama no palco, sem se distrair com os movimentos do maestro e dos músicos. Todavia, a cobertura do fosso torna difícil a sincronia entre músicos e cantores. Por isso muitos maestros consideram que reger no festival seja um enorme desafio.\n[…]\nEm 1973, a Bayreuth Festspielhaus tornou-se propriedade da Richard-Wagner-Siftung Bayreuth (\"Fundação Richard-Wagner de Bayreuth\"), cuja sede fica na Villa Wahnfried.\n[…]\nFestival de Bayreuth\n[…]\n(em alemão) (em inglês) (em francês) Museu Richard-Wagner de Bayreuth\n[…]\n«Página sobre Bayreuth Festspielhaus» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Ópera de Arame",
+      "descricao": "Teatro de estrutura tubular de aço e cobertura transparente, cercado por um lago, inaugurado em 1992."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A Ópera de Arame, teatro de tubos de aço e cobertura transparente cercado por um lago, fica em que capital brasileira?",
+    "resposta": "Curitiba",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ópera_de_Arame"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ópera_de_Arame",
+        "situacao": "ok",
+        "texto": "Ópera de Arame é um teatro brasileiro, localizado na cidade de Curitiba, capital do estado do Paraná. Seu nome deriva do estilo construtivo, feito de tubos de aço e estruturas metálicas, coberto com placas transparentes de policarbonato, lembrando a fragilidade de uma construção em arame.\n[…]\nAs estruturas metálicas tubulares, totalizando 360 toneladas de aço, e os 2.400 bancos de tela de arame foram fornecidas pela Brafer Construções Metálicas, empresa de Araucária, na Região Metropolitana de Curitiba.\n[…]\nNa década de 1990, o teatro do Ópera de Arame serviu de palco para o show musical Noite de Gala, da Rede CNT, apresentado por Clodovil Hernandes.\n[…]\nSua influência estética e programática também se disseminou no imaginário sobre a cidade de Curitiba e, de maneira mais ampla, do Brasil. A obra ajudou a legitimar a utilização de estruturas metálicas leves, sistemas aparentes e elementos transparentes. Em projetos posteriores de praças, arenas e fachadas experimentais na cidade e na região, é possível reconhecer ecos dessa estética de exposição estrutural e integração com jardins e espelhos d’água.\n[…]\nA peça inaugural foi Sonho de uma Noite de Verão, na abertura do primeiro Festival de Teatro de Curitiba. Dirigida por Cacá Rosset, com o Teatro do Ornitorrinco, tendo no elenco: Christiane Tricerri, Cacá Rosset, Tácito Rocha, Ary França, Rubens Caribé, José Rubens Chachá, Gerson Steves, Mário César Camargo e outros.\n[…]\nFoi palco, em 4 de abril de 1993, da festa dos 300 anos de Curitiba.\n[…]\nEm 2006 ocorreu o Festival de Dança de Curitiba 2006, no qual quatro mil crianças dançaram o tema Diversidade em Movimento.\n[…]\nEm Outubro de 2011 ocorreu a gravação do DVD Acústico na Ópera de Arame, da dupla sertaneja Fernando e Sorocaba.\n[…]\nLista de teatros do Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Escola do Teatro Bolshoi no Brasil",
+      "descricao": "Escola de balé ligada ao Teatro Bolshoi de Moscou, instalada no Brasil em 2000."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade de Santa Catarina funciona, desde o ano 2000, uma escola de balé ligada ao Teatro Bolshoi de Moscou?",
+    "resposta": "Joinville",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Escola_do_Teatro_Bolshoi_no_Brasil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escola_do_Teatro_Bolshoi_no_Brasil",
+        "situacao": "ok",
+        "texto": "A Escola do Teatro Bolshoi no Brasil é uma tradicional escola de balé existente na cidade de Joinville, no estado de Santa Catarina. Fundada em 2000, é a única filial do Teatro Bolshoi de Moscou e possui alunos de vários estados brasileiros e de outros países. Tem como missão formar artistas cidadãos, promover e difundir a arte-educação.\n[…]\nUm orgulho para o Brasil e para Joinville, cidade sede. A Escola do Teatro Bolshoi no Brasil, com professores russos e brasileiros, forma bailarinos com a mesma precisão, técnica e qualidade artística aplicados na Rússia. O método utilizado é o Vaganova.\n[…]\nA escola é uma instituição com personalidade jurídica, de direito privado, sem fins lucrativos. É mantida pele Governo do Estado de Santa Catarina, pela Prefeitura de Joinville e pelos “Amigos do Bolshoi”, constituído de empresas e pessoas físicas que apoiam o projeto através de serviços prestados pro bono e patrocínios não incentivados ou incentivados por leis de incentivo a cultura municipal, estadual e federal.\n[…]\nEm 2008, a Escola do Teatro Bolshoi no Brasil sentiu a necessidade de criar uma Companhia Jovem, para colher os frutos dos talentos desenvolvidos na instituição. A consolidação da Companhia Jovem da Escola do Teatro Bolshoi no Brasil responde à demanda por crescimento e desenvolvimento da dança no país. O padrão de excelência, que os bailarinos da Companhia Jovem trazem de sua formação, faz com que sejam reconhecidos em todos os seus trabalhos.\n[…]\nTeatro\n[…]\nA Escola do Teatro Bolshoi no Brasil está aberta para visitas, com cobrança de uma taxa, de segunda a sábado, em dois horários: 10h e 14h30. É necessário agendar a visita antecipadamente pelo fone (47) 3422-4070 Ramal 200 ou pelo e-mail recepcao@escolabolshoi.com.br .\n[…]\nTeatro Bolshoi\n[…]\nBalé\n[…]\n«Página da Escola do Teatro Bolshoi no Brasil»"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Aida",
+      "descricao": "Ópera de Giuseppe Verdi, ambientada no Egito antigo, estreada em 1871."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Encomendada pelo governante do Egito, a ópera Aida, de Verdi, estreou em 1871 em que cidade?",
+    "resposta": "Cairo",
+    "distratores": [
+      "Milão",
+      "Alexandria",
+      "Veneza"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Aida"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Aida",
+        "situacao": "ok",
+        "texto": "Aida (or Aïda, Italian: [aˈiːda]) is a tragic opera in four acts by Giuseppe Verdi to an Italian libretto by Antonio Ghislanzoni. Set in the Old Kingdom of Egypt, it was commissioned by Cairo's Khedivial Opera House and had its première there on 24 December 1871, in a performance conducted by Giovanni Bottesini. Today the work holds a central place in the operatic canon, receiving performances eve\n[…]\nBecause the scenery and costumes were stuck in the French capital during the Siege of Paris (1870–71) of the ongoing Franco-Prussian War,  the premiere was delayed and Verdi's Rigoletto was performed instead. The first opera performed at the Khedivial Opera House, Aida eventually premiered in Cairo on 24 December 1871.\n[…]\nAida met with great acclaim when it finally opened in Cairo on 24 December 1871. The costumes and accessories for the première were designed by Auguste Mariette, who also oversaw the design and construction of the sets, which were made in Paris by the Opéra's scene painters Auguste-Alfred Rubé and Philippe Chaperon (acts 1 and 4) and Édouard Desplechin and Jean-Baptiste Lavastre (acts 2 and 3), and shipped to Cairo.\n[…]\nVerdi had also written the role of Aida for the voice of Teresa Stolz, who sang it for the first time at the Milan première. Verdi had asked her fiancé, Angelo Mariani, to conduct the Cairo première, but he declined, so Giovanni Bottesini filled the gap. The Milan Amneris, Maria Waldmann, was his favourite in the role and she repeated it a number of times at his request.\n[…]\nBusch, Hans (1978). Verdi's Aida. The History of an Opera in Letters and Documents. Minneapolis: University of Minnesota Press. ISBN 978-0-8166-0798-3\n[…]\nPitt, Charles; Hassan, Tarek H. A. (1992). \"Cairo\". In Sadie, Stanley (ed.). The New Grove Dictionary of Opera. Vol. 1. London: Macmillan.\n[…]\nAïda : an opera in four acts, 1900 publication, English, digitised by BYU on archive.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Aida",
+        "situacao": "ok",
+        "texto": "Aida é uma ópera em quatro atos, com música de Giuseppe Verdi e libreto de Antonio Ghislanzoni. Sua estreia mundial aconteceu na Casa da Ópera,  no Cairo, em 24 de dezembro de 1871. Aida foi composta por encomenda do governo egípcio para comemorar a inauguração do canal de Suez, fato que ocorreu em 17 de novembro de 1869. Sua estreia, no entanto, ocorreu com 2 anos de atraso por atrasos na composi\n[…]\nNa entrada da cidade egípcia de Tebas, junto ao templo do deus Amon, uma multidão espera a volta dos guerreiros egípcios. Aparece o faraó com o seu cortejo e os sacerdotes. Atrás deles, Amneris com Aida e as suas escravas. O faraó senta-se no seu trono tendo, à sua direita, a sua filha. Depois de um coro de louvor em honra aos deuses e do soberano, uma grande marcha abre a procissão na qual participam os soldados egípcios, seguidos por bailarinos, carros de guerra, estandartes e ídolos.\n[…]\nLa fatal pietra sovra me si chiuse… O terra, addio, scena e duetto di Radamès e Aida\n[…]\nA música da ópera também é o tema de abertura do jogo de computador Victoria: An Empire Under the Sun, da Paradox Interactive.\n[…]\nDom Pedro II cita em seu diário de viagens a seguinte fala:\"Em 10bro(outubro) vão cantar a nova ópera de Verdi aída,assunto da época de Ramessés II e cujo cenário, vestuário e mais acessórios foram feitos em Paris sob a direção de Maritte.Procurei com empenho vê-los,sobretudo por causa de um cenário que representa edifícios de madeira desses tempos,os quais maritte disse-me serem de arquitetura graciosa e semelhante a arábica, mas tudo as achava ainda hermeticamente fechado e o diretor da ópera Dvanet bey,que outrora foi boticário e, segundo maritte manipula as belas artes como se fossem drogas,nada pôde fazer.\n[…]\n{os diários de dom Pedro II no Egito,Júlio gralha}\n[…]\n«Giuseppe Verdi - Aida em MP3 com licença Creative Commons»\n[…]\n«Giuseppe Verdi Official Site»\n[…]\n«Verdi em Portugal»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Semana de Arte Moderna",
+      "descricao": "Festival de arte de fevereiro de 1922, em São Paulo, marco inicial do modernismo brasileiro."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que teatro paulistano aconteceu a Semana de Arte Moderna de 1922?",
+    "resposta": "Theatro Municipal de São Paulo",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Semana_de_Arte_Moderna",
+        "situacao": "ok",
+        "texto": "Semana de Arte Moderna, também chamada de Semana de 22, foi um evento cultural que ocorreu no Theatro Municipal de São Paulo de 13 a 17 de fevereiro de 1922. Contou com exposição de pinturas, esculturas e maquetes arquitetônicas, além de conferências e concertos nas noites dos dias 13, 15 e 17. Foi financiada principalmente por membros da elite paulista que haviam enriquecido com a produção cafeei\n[…]\nJunto de Guilherme de Almeida, Menotti del Picchia e Rubens Borba de Moraes, o grupo cogitou realizar na livraria Jacinto Silva uma exposição de quadros de vanguarda com conferências didáticas, almejando abrir caminhos para novas experiências modernistas. Apenas dias depois, quando Oswald de Andrade, Menotti, Di Cavalcanti e Brecheret se reuniram com Paulo Prado num salão do Automóvel Clube, que começou-se a planejar a concretização do evento, tendo o Theatro Municipal como espaço mais adequado.\n[…]\nEm seguida, buscou-se René Thiollier, da direção do Jornal do Commercio, que se encarregou de entrar em contato com o administrador do Theatro Municipal para fazer a reserva nos dias de 11 a 17 de fevereiro. Dentre todos os nomes da elite cafeeira paulista que ajudaram a financiar o evento, Paulo Prado é o que se destaca, principalmente por ter influenciado outros investidores a contribuírem para a realização da Semana.\n[…]\nAbertura oficial do evento. Espalhadas pelo saguão do Teatro Municipal de São Paulo, várias pinturas e esculturas provocam reações de espanto e repúdio por parte do público. O espetáculo tem início com a confusa conferência de Graça Aranha, intitulada \"A emoção estética da Arte Moderna\".\n[…]\nArte moderna\n[…]\nModernismo\n[…]\nBrito, Mário da Silva (1969). Ângulo e Horizonte. de Oswald de Andrade à ficção científica. São Paulo: Martins\n[…]\nLafetá, João Luiz (2000). 1930. a crítica e o Modernismo. São Paulo: Duas Cidades\n[…]\n«Editorial de 15 de maio de 1978 da Folha de S.Paulo sobre a Semana»"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Os Três Tenores",
+      "descricao": "Trio formado pelos tenores Luciano Pavarotti, Plácido Domingo e José Carreras, que se apresentou em grandes concertos a partir de 1990."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Os Três Tenores se apresentaram juntos pela primeira vez em Roma, em 1990, na véspera de que grande evento esportivo?",
+    "resposta": "A final da Copa do Mundo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Three_Tenors"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Three_Tenors",
+        "situacao": "ok",
+        "texto": "The Three Tenors were an operatic singing trio, termed a supergroup (a title normally reserved for popular music genre groups), active between 1990 and 2003 and consisting of Italian Luciano Pavarotti and Spaniards Plácido Domingo and José Carreras. The trio began their collaboration with a performance at the ancient Baths of Caracalla in Rome, Italy, on 7 July 1990, the eve of the 1990 FIFA World\n[…]\nThe Three Tenors first performed in a concert for the 1990 FIFA World Cup. Zubin Mehta conducted the orchestra of Maggio Musicale Fiorentino and the orchestra of Teatro dell'Opera di Roma. According to the FIFA, the performance captivated audiences. A filmed version of the concert was produced by Herbert Chappell and Gian Carlo Bertelli for Decca and became the highest-selling classical disc in history.\n[…]\nThe three subsequently sang together in concerts produced by Hungarian Tibor Rudas and other producers, at Dodger Stadium in Los Angeles to coincide the final match of the 1994 FIFA World Cup, at the Champ de Mars under the Eiffel Tower during the 1998 FIFA World Cup, and in Yokohama for the 2002 FIFA World Cup. Nearly 50,000 people attended their 1994 concert at Dodger Stadium and around 1.3 billion viewers watched it.\n[…]\nIn 1997 concerts followed at the Melbourne Cricket Ground, at Skydome in Toronto, at Pro Player Stadium in Miami and at Camp Nou in Barcelona. The tour was scheduled to end in Houston with a final concert which was eventually canceled due to very low ticket sales.\n[…]\n(A DVD of The Three Tenors in Bath was issued solely as a corporate gift.) Zubin Mehta conducted the performances in 1990 and 1994. The Paris concert was conducted by James Levine.\n[…]\nThe Canadian sketch comedy series Royal Canadian Air Farce parodied The Three Tenors in a sketch.\n[…]\nIn the Japanese version of Yu-Gi-Oh! 5D's, The Three Emperors of Yliaster are named after the Three Tenors."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Os_Tr%C3%AAs_Tenores",
+        "situacao": "ok",
+        "texto": "Os Três Tenores foi um trio de tenores eruditos formado por Plácido Domingo, José Carreras e Luciano Pavarotti, que cantaram juntos, em concertos, durante a década de 1990 e no início da década de 2000. A primeira performance do trio ocorreu nas Termas de Caracala, em Roma, Itália, em 7 de julho de 1990 - no encerramento da Copa do Mundo de Futebol de 1990. Zubin Mehta conduziu a Orquestra Maggio \n[…]\nOs três cantaram juntos em concertos produzidos pelo húngaro Tibor Rudas, no Estádio dos Dodgers, em Los Angeles no encerramento da Copa do Mundo de 1994, com Zubin Mehta conduzindo a Filarmônica de Los Angeles; sob a Torre Eiffel em Paris, durante a Copa do Mundo de 1998, com James Levine conduzindo e no encerramento da Copa do Mundo de 2002, em Yokohama. Eles também se apresentaram juntos em outros países do mundo, atraindo centenas de milhares de pessoas.\n[…]\nOs concertos foram um grande sucesso comercial e foram acompanhados por uma série de discos de sucessos, incluindo o The Three Tenors in Concert, gravado em 1990, entrando para o livro dos records, por ser o disco erudito mais vendido em toda a história. No concerto de 1994 e 1998, os três tenores lucraram 32 milhões de dólares.\n[…]\nO sucesso dos Três Tenores fez com que inúmeros cantores formassem um conjunto parecido, como os Tenores Israelenses, Tenores Australianos, Três Tenores Canadenses, os Dez Tenores, os Três Tenores e uma Soprano, as Três Sopranos, As Sopranos, os Três Mo' Sopranos, Os Três Contratenores, os Três Tenores Chineses, entre outros.\n[…]\nEm 1995, os sambistas brasileiros Bezerra da Silva, Moreira da Silva e Dicró gravaram o cd Bezerra, Moreira e Dicró - Os 3 Malandros in Concert, sendo uma clara paródia dos 3 tenores.\n[…]\n«Os Três Tenores cantam O Sole Mio, sob a regência de Zubin Mehta, em Roma, 1990.»\n[…]\n«Os Três Tenores interpretam um trecho da Aquarela do Brasil em Los Angeles, 1994.»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Ópera",
+      "descricao": "Gênero de teatro inteiramente cantado, com orquestra, surgido na Itália."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A ópera nasceu em Florença, entre músicos e poetas que queriam recriar o teatro grego. Em que século?",
+    "resposta": "Fim do século dezesseis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Opera"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Opera",
+        "situacao": "ok",
+        "texto": "Opera is a form of Western theatre in which music is a fundamental component and dramatic roles are taken by singers. Such a \"work\" (the literal translation of the Italian word \"opera\") is typically a collaboration between a composer and a librettist and incorporates a number of the performing arts, such as acting, scenery, costume, and sometimes dance or ballet.\n[…]\nDafne by Jacopo Peri was the earliest composition considered opera, as understood today. It was written around 1597, largely under the inspiration of an elite circle of literate Florentine humanists who gathered as the \"Camerata de' Bardi\". Significantly, Dafne was an attempt to revive the classical Greek drama, part of the wider revival of antiquity characteristic of the Renaissance.\n[…]\nHowever, Antônio Carlos Gomes is generally regarded as the most outstanding Brazilian composer, having a relative success in Italy with its Brazilian-themed operas with Italian librettos, such as Il Guarany. Opera in Argentina developed in the 20th century after the inauguration of Teatro Colón in Buenos Aires—with the opera Aurora, by Ettore Panizza, being heavily influenced by the Italian tradition, due to immigration.\n[…]\nAs of June 2008, approximately 125 theatres in 117 U.S. cities carry the showings. The HD video opera transmissions are presented via the same HD digital cinema projectors used for major Hollywood films. European opera houses and festivals including The Royal Opera in London, La Scala in Milan, the Salzburg Festival, La Fenice in Venice, and the Maggio Musicale in Florence have also transmitted their productions to theatres in cities around the world since 2006, including 90 cities in the U.S.\n[…]\nRadio opera\n[…]\nWhat's it about? – Opera plot summaries\n[…]\n\"Opera~Opera article archives\"\n[…]\n\"A History of Opera\". Theatre and Performance. Victoria and Albert Museum. Retrieved 15 February 2011."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/%C3%93pera",
+        "situacao": "ok",
+        "texto": "Ópera (em italiano:  significa obra, em latim, plural de \"opus\", obra) é um gênero artístico teatral que consiste em um drama encenado acompanhada de música, ou seja, composição dramática em que se combinam música instrumental e canto, com presença ou não de diálogo falado. Os cantores são acompanhados por um grupo musical, que em algumas óperas pode ser uma orquestra sinfônica completa.\n[…]\nEstes estabeleceram a partir do início do século XVIII, com o uso libretti em língua alemã, muitas vezes escritos por grandes poetas, como Elmenhorst, Feind, Hunold e Postel, uma tradição operística propriamente germânica. Dois dos mais importantes escritos sobre ópera da época, Dramatologia (1688), de Elmenhorst, e Gedancken von der Opera (1708), sublinham o papel central exercido pelo teatro de ópera de Hamburgo para o estabelecimento de uma tradição operística nacional alemã.\n[…]\nDesconhece-se exatamente quando se começou a cantar ópera em Portugal, mas já antes de 1755 havia um teatro onde se executava ópera em Lisboa e que foi destruído pelo terramoto. Foi já na regência de Dom João, Príncipe do Brasil (futuro Dom João VI), que se inaugurou, em 1793, o Teatro Nacional de São Carlos, com a ópera La ballerina amante, de Cimarosa.\n[…]\nTambém o Teatro Nacional São João, no Porto, foi inaugurado durante a regência do Príncipe do Brasil, e foi palco de inúmeras óperas desde então. Foi no Porto que a célebre cantora lírica Luísa Todi viveu e trabalhou antes de seguir para Londres, onde alcançaria fama internacional. Luísa Todi era natural de Setúbal, terra também estreitamente ligada a ópera.\n[…]\nO principal palco de ópera português continua a ser o Teatro Nacional de S. Carlos, embora outras entidades e companhias apresentem, pontualmente, espectáculos nesta área (como sejam os casos do Teatro Aberto e da ACTA, por exemplo).\n[…]\nFestival de Ópera e Música Clássica de Ponte de Lima\n[…]\nTeatro de ópera",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Esperando Godot",
+      "descricao": "Peça de Samuel Beckett em que dois vagabundos esperam por alguém que nunca chega."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Esperando Godot, de Samuel Beckett, estreou em Paris em que década do século vinte?",
+    "resposta": "Anos 1950",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Waiting_for_Godot"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Waiting_for_Godot",
+        "situacao": "ok",
+        "texto": "Waiting for Godot is a play by Irish playwright and author Samuel Beckett. It was written (1948–1949), first published (1952), and first performed (1953) in French as En attendant Godot. The play is Beckett's own English-language adaptation of the original. Subtitled \"tragicomedy in two acts\", it is his best-known literary work and is regarded by critics as \"one of the most enigmatic plays of mode\n[…]\nThe second story, according to Bair, is that Beckett once encountered a group of spectators at the French Tour de France bicycle race, who told him \"Nous attendons Godot\" – they were waiting for a competitor whose name was Godot.\n[…]\nLike all of Beckett's translations, the English translation of Waiting for Godot is not simply a literal translation of En attendant Godot. \"Small but significant differences separate the French and English text.\n[…]\nA web series adaptation titled While Waiting for Godot was also produced at New York University in 2013, setting the story among the modern-day New York homeless. Directed by Rudi Azank, the English script was based on Beckett's original French manuscript of En attendant Godot (the new title being an alternate translation of the French) prior to censorship from British publishing houses in the 1950s, as well as adaptation to the stage.\n[…]\nA radical transformation was written by Bernard Pautrat, performed at Théâtre National de Strasbourg in 1979–1980: Ils allaient obscurs sous la nuit solitaire (d'après 'En attendant Godot' de Samuel Beckett) (They Went Dark Under the Lonely Night (based on 'Waiting for Godot' by Samuel Beckett)). It features not four actors and the brief appearance of a fifth one (as in Beckett's play), but ten actors. Four of them bore the names of Gogo, Didi, Lucky and Pozzo.\n[…]\nBeckett, Samuel (1988) [1956]. Waiting for Godot. London: Faber and Faber.\n[…]\nBeckett, Samuel (2015). Waiting for Godot. London: Faber and Faber."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/En_attendant_Godot",
+        "situacao": "ok",
+        "texto": "En attendant Godot (no original em francês) ou Waiting for Godot, em inglês (À Espera de Godot em Portugal; Esperando Godot no Brasil), é uma peça de teatro escrita pelo dramaturgo irlandês Samuel Beckett (1906-1989). Escrita originalmente em francês, foi publicada pela primeira vez em 1952 e apresentada no pequeno Théâtre Babylone  em Paris, com direção de Roger Blin (1907-1984). É considerado um\n[…]\nO cenário é o mesmo, apenas a árvore está um pouco diferente, agora com algumas folhas. Estragon e Vladimir iniciam sua jornada na espera de Godot. Surgem novamente Pozzo e Lucky. Pozzo está cego e Lucky mudo. Após a partida destes, aparece novamente um garoto anunciando novamente que Godot não virá, talvez amanhã. O diálogo final, que encerra o ato e a peça  é o seguinte:[carece de fontes]?\n[…]\nNo Brasil, as duas primeiras montagens de \"Esperando Godot\" foram amadoras: uma pela Escola de Arte Dramática - EAD, em 1955, com direção de Alfredo Mesquita e a  outra, com direção de Luiz Carlos Maciel, em Porto Alegre, no ano de 1959.[carece de fontes]?\n[…]\nEm 1976, Antunes Filho dirigiu a primeira montagem brasileira com um elenco apenas de mulheres: Eva Wilma, Lilian Lemmertz, Lélia Abramo, Maria Yuma e Vera Lima. Em 2006, por ocasião do I Centenário de nascimento de Samuel Beckett, Gabriel Villela, também com um elenco feminino, estreou sua versão da obra, no SESC Belenzinho, em São Paulo.\n[…]\nTexto em inglês de \"Waiting for Godot\" - ato 01\n[…]\nTexto em inglês de \"Waiting for Godot\" - ato 02\n[…]\nArtigo em inglês do The Guardian em comemoração aos cinqüenta anos do lançamento de \"Esperando Godot\"\n[…]\nDeutsche Welle - 1953: Estreia a peça \"Esperando Godot\", de Samuel Beckett\n[…]\nMatéria na revista do SESC, sobre o I Centenário de Samuel Beckett, em 2006[ligação inativa]",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Don Giovanni",
+      "descricao": "Ópera de Mozart, de 1787, sobre o sedutor Don Juan e seu criado Leporello."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Na ária do catálogo de Don Giovanni, o criado Leporello enumera as conquistas do patrão. Quantas foram só na Espanha?",
+    "resposta": "Mil e três",
+    "distratores": [
+      "Seiscentas e quarenta",
+      "Noventa e uma",
+      "Cem"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Don_Giovanni"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Don_Giovanni",
+        "situacao": "ok",
+        "texto": "Don Giovanni (Italian pronunciation: [ˈdɔn dʒoˈvanni]; K. 527; full title: Il dissoluto punito, ossia il Don Giovanni, literally 'The Rake Punished, or Don Giovanni') is an opera in two acts with music by Wolfgang Amadeus Mozart to an Italian libretto by Lorenzo Da Ponte. Its subject is a centuries-old Spanish legend about a libertine, Don Juan, as told by playwright Tirso de Molina in his 1630 pl\n[…]\nIn some Germanic and other languages, Leporello's \"Catalogue Aria\" provided the name \"Leporello list\" for pamphlets, as used for brochures, photo albums, computer printouts and other continuous stationery.\n[…]\nMichael Nyman's popular, short band piece In Re Don Giovanni (1981, with later adaptations and revisions) is constructed on a prominent 15-bar phrase in the accompaniment to Leporello's catalogue aria.\n[…]\nIn addition to instrumental works, allusions to Don Giovanni also appear in a number of operas: Nicklausse of Offenbach's The Tales of Hoffmann sings a snatch of Leporello's \"Notte e giorno\", and Rossini quotes from the same aria in the duettino between Selim and Fiorilla following the former's cavatina in act 1 of Il turco in Italia.\n[…]\nRamón Carnicer's opera Don Giovanni Tenorio (1822) is a peculiar reworking of Mozart's opera to adapt it to Rossinian fashion. It comprises new music by Carnicer on a new text (e.g. the first half of act 1), new music on Da Ponte's text (e.g. Leporello's aria) or on a mixture of both (e.g. the new trio for the scene in the cemetery); the whole collated with extensive quotations or entire sections borrowed directly from Mozart (e.g.\n[…]\nGounod, Charles (1970). Mozart's Don Giovanni: A Commentary (from the third French edition of Le Don Juan de Mozart, London, R. Cocks, 1895). Translated by Windeyer Clark; J. P. Hutchinson. New York: Da Capo Press.\n[…]\n\"The online opera guide to Don Giovanni\", opera-inside.com\n[…]\n\"Don Juan: opera en quatre actes, French libretto"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Don_Giovanni",
+        "situacao": "ok",
+        "texto": "Don Giovanni (K. 527; título completo em italiano:  Il dissoluto punito, ossia il Don Giovanni, lit. O Libertino Punido, ou Don Giovanni) é uma ópera em dois atos com música do compositor austríaco Wolfgang Amadeus Mozart e libreto do autor italiano Lorenzo Da Ponte. Sua primeira apresentação foi realizada em Praga, no Teatro di Praga, especializado em ópera italiana (atualmente chamado de Teatro \n[…]\nEsperando fora e queixando-se das durezas do seu trabalho, está o criado de Don Giovanni, Leporello.\n[…]\nEscapa dali e deixa a Leporello o cruel trabalho de obrigar Elvira a escutar a lista das conquistas de Don Giovanni.\n[…]\nDon Giovanni tenta de novo conquistar Zerlina e quando ela grita, os convidados escutam a gritaria e isso alerta Masetto  que percebe que Zerlina está em perigo. Ela entra no salão de festa e vai direto aos braços de seu noivo. Os mascarados (Dona Elvira, Dona Ana e Don Otávio) prestam sua solidariedade à moça em prantos e Don Giovanni entra por outra porta e com ele traz Leporello e o acusa de ser a causa dos gritos de Zerlida e de seu pranto. Diz que irá puní-lo de forma extrema.\n[…]\nDom Otávio saca uma pistola e a coloca na cabeça de Don Giovanni e os três retiram as mascaras e afirmam que ele é um tolo em pensar que os mesmos acreditariam naquela mentira criada por ele, e o acusam de seus crime. Então Leporello consegue por uma faca na mão de Don Giovanni e ele assusta os que o acusavam com a faca, enquanto Leporello derruba a pistola na confusão. Don Giovanni e Leporello fogem e são perseguidos pela turba de acusadores .\n[…]\nE o mesmo sucede com Leporello quando sai a ver o que se passa: é a estátua do Comendador, disposta a cumprir o convite que lhe fez Don Giovanni.\n[…]\n\"Madamina, il catalogo è questo…\" - Leporello\n[…]\n\"Don Giovanni, a cenar teco\" - Don Giovanni, Leporello & Commendatore\n[…]\nAula de Alexandre Innecco: para gostar de Don Giovanni.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Commedia dell'arte",
+      "descricao": "Forma de teatro popular italiano, surgida no século dezesseis, com personagens fixos e improvisação."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que personagem da commedia dell'arte, um criado esperto e brincalhão, veste roupa estampada de losangos coloridos?",
+    "resposta": "Arlequim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harlequin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Harlequin",
+        "situacao": "ok",
+        "texto": "Harlequin (, Italian: Arlecchino, Italian: [arlekˈkiːno]; Lombard: Arlechin, Lombard: [arleˈki]) is the best-known of the comic servant characters (Zanni) from the Italian commedia dell'arte, associated with the city of Bergamo. The role is traditionally believed to have been introduced by the Italian actor-manager Zan Ganassa in the late 16th century.\n[…]\nThe re-interpretation of the \"devil\" stock character as a Zanni character of the commedia dell'arte took place in the 16th century in France. Zan Ganassa, whose troupe is first mentioned in Mantua in the late 1560s, is one of the earliest known actors suggested to have performed the part, although there is \"little hard evidence to support [it]\".\n[…]\nMartinelli's Harlequin also had a black leather half-mask, a moustache and a pointed beard. He was very successful, even playing at court and becoming a favourite of Henry IV of France, to whom he addressed insolent monologues (Compositions de Rhetorique de Mr. Don Arlequin, 1601).\n[…]\nThe character was also performed in Paris at the Comédie-Italienne in Italian by Giambattista Andreini and Angelo Costantini (c. 1654–1729) and in French as Arlequin in the 1660s by Dominique Biancolelli (1636–1688), who combined the Zanni types, \"making his Arlecchino witty, neat, and fluent in a croaking voice, which became as traditional as the squawk of Punch\".\n[…]\nOne of the major distinctions of commedia dell'arte is the use of regional languages. Arlecchino's speech evolved with the character. Originally speaking in a Bergamo dialect of Lombard language, the character adopted a mixture of French, Lombard and Italian dialects when the character became more of a fixture in France so as to help the performers connect to the common masses.\n[…]\nCommedia dell'arte"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arlequim",
+        "situacao": "ok",
+        "texto": "O arlequim (em italiano:  Arlecchino) é um personagem da Commedia dell'arte, cuja função no início se restringia a divertir o público durante os intervalos dos espetáculos. Sua importância foi gradativamente afirmando-se e o seu traje, feito de retalhos multicoloridos geralmente em forma de losango, mais ainda o destacava em cena. Na Commedia dell'arte, forma de teatro popular italiana que também \n[…]\nA imagem do arlequim repete-se ao longo do trabalho de Picasso desde 1901 e especialmente desde 1905, quando quase se tornou o protagonista do assim chamado período rosa. Parece indiscutível que esse caráter da Commedia del arte, como ocorreria nos anos 30 com o minotauro, tornou-se o \"alter ego\" do artista de Málaga. Os especialistas de Picasso queriam ler em arlequim uma testemunha da comédia humana; um iniciado que procura transgredir e transcender as limitações do homem terreno.\n[…]\nEm 1915, Picasso fez uma série de investigações em torno do arlequim, cuja culminação, de acordo com as palavras do artista, era o Arlequim, propriedade do MoMA de Nova York . Outras pinturas famosas são: o pensativo arlequim (1901) do período azul, o tenro Arlequim de 1917, ou o retrato de seu filho Paulo, Arlequim (1924).\n[…]\nArlequim foi um personagem disseminado no Brasil principalmente através dos blocos carnavalescos de rua. O carnaval nordestino principalmente na Bahia e Pernambuco, soube transferir o fenótipo típico do bobo-da-corte para o artista brasileiro, malandro brincalhão cujas peripécias e aventuras sempre acabam prejudicando as pessoas que se relacionam com ele e, vez ou outra, resultam em lições de moral. No Carnaval, o arlequim procura pelas ruas encontrar seu par, Colombina.\n[…]\nDos quadrinhos ao cinema pode-se mencionar a Arlequina, inimiga de Batman e capanga de Coringa, sendo esta uma versão pervertida do enigmático Sr. Quin de Agatha Christie.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Os Três Tenores",
+      "descricao": "Trio formado pelos tenores Luciano Pavarotti, Plácido Domingo e José Carreras, que se apresentou em grandes concertos a partir de 1990."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Os Três Tenores eram Luciano Pavarotti, Plácido Domingo e que outro cantor?",
+    "resposta": "José Carreras",
+    "distratores": [
+      "Andrea Bocelli",
+      "Alfredo Kraus",
+      "Juan Diego Flórez"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Three_Tenors"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Three_Tenors",
+        "situacao": "ok",
+        "texto": "The Three Tenors were an operatic singing trio, termed a supergroup (a title normally reserved for popular music genre groups), active between 1990 and 2003 and consisting of Italian Luciano Pavarotti and Spaniards Plácido Domingo and José Carreras. The trio began their collaboration with a performance at the ancient Baths of Caracalla in Rome, Italy, on 7 July 1990, the eve of the 1990 FIFA World\n[…]\nItalian producer Mario Dradi, along with German producer Elmar Kruse and British composer and producer Herbert Chappell, conceived the idea of the first concert in 1990 in Rome. It was held to raise money for Carreras's foundation, the José Carreras International Leukemia Foundation. It was also a way for his friends Domingo and Pavarotti to welcome Carreras back into the world of opera after undergoing successful treatment for leukemia.\n[…]\nThe concerts were a huge commercial success, and were accompanied by a series of best-selling recordings, including the original Carreras-Domingo-Pavarotti in Concert, subsequently reissued as The Three Tenors In Concert (which holds the Guinness World Record for the best-selling classical music album), The Three Tenors in Concert 1994, The Three Tenors: Paris 1998, The Three Tenors Christmas and The Best of The Three Tenors.\n[…]\nFor their initial appearance together in Rome in 1990, Carreras, Domingo, and Pavarotti agreed to accept relatively small flat fees for the recording rights to their concert, which they then donated to charity. Their album unexpectedly reaped millions in profits for Decca Records, causing some resentment on the part of the tenors, who officially received no royalty payments.\n[…]\nThroughout the Seinfeld episode \"The Doll\", José Carreras is repeatedly referred to as \"the other guy\", while the names of Domingo and Pavarotti are easily recalled.\n[…]\nJosé Carreras\n[…]\nPlacido Domingo\n[…]\nLuciano Pavarotti"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Os_Tr%C3%AAs_Tenores",
+        "situacao": "ok",
+        "texto": "Os Três Tenores foi um trio de tenores eruditos formado por Plácido Domingo, José Carreras e Luciano Pavarotti, que cantaram juntos, em concertos, durante a década de 1990 e no início da década de 2000. A primeira performance do trio ocorreu nas Termas de Caracala, em Roma, Itália, em 7 de julho de 1990 - no encerramento da Copa do Mundo de Futebol de 1990. Zubin Mehta conduziu a Orquestra Maggio \n[…]\nO produtor italiano Mario Dradi teve a ideia inicial de um concerto, assim foi realizado o primeiro concerto, com o objetivo de arrecadar fundos para a Fundação Internacional de Leucemia de José Carreras e também, com o objetivo de Luciano Pavarotti e Plácido Domingo darem as boas-vindas ao seu amigo Carreras, em sua volta aos palcos líricos, depois de se recuperar da leucemia.\n[…]\nOs concertos foram um grande sucesso comercial e foram acompanhados por uma série de discos de sucessos, incluindo o The Three Tenors in Concert, gravado em 1990, entrando para o livro dos records, por ser o disco erudito mais vendido em toda a história. No concerto de 1994 e 1998, os três tenores lucraram 32 milhões de dólares.\n[…]\nO sucesso dos Três Tenores fez com que inúmeros cantores formassem um conjunto parecido, como os Tenores Israelenses, Tenores Australianos, Três Tenores Canadenses, os Dez Tenores, os Três Tenores e uma Soprano, as Três Sopranos, As Sopranos, os Três Mo' Sopranos, Os Três Contratenores, os Três Tenores Chineses, entre outros.\n[…]\nEm 2010, O grupo de humor israelense Latma TV, postou no YouTube uma paródia da conhecida canção napolitana Funiculì Funiculà. No vídeo, que se chama \"Os Três Terrores\", os tais \"três terrores\" são: Ahmedido Domingo (Ahmadinejad), Erdogano Pavarotti (Erdoğan) e Assad Carreras (Bashar al-Assad) que empostam a voz para exaltar \"os benefícios do terrorismo\".\n[…]\n«Os Três Tenores interpretam um trecho da Aquarela do Brasil em Los Angeles, 1994.»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Auto da Compadecida",
+      "descricao": "Peça teatral de Ariano Suassuna, de 1955, protagonizada por João Grilo e Chicó."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "No Auto da Compadecida, que amigo de João Grilo vive contando histórias absurdas e repete não sei, só sei que foi assim?",
+    "resposta": "Chicó",
+    "distratores": [
+      "Severino",
+      "Padre João",
+      "Major Antônio Morais"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Auto_da_Compadecida"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Auto_da_Compadecida",
+        "situacao": "ok",
+        "texto": "Auto da Compadecida é uma peça teatral em forma de auto, em três atos, escrita pelo autor brasileiro Ariano Suassuna em 1955. Sua primeira encenação aconteceu em 1956, no Recife, em Pernambuco. A peça também foi encenada em 1974, com direção de João Cândido. Em 2 de outubro de 1957 a peça foi publicada em forma de livro pela editora Agir no Rio de Janeiro.\n[…]\nDa literatura de cordel, Suassuna pegou emprestado o personagem João Grilo, personagem folclórico presente tanto no Brasil, quanto em Portugal. Também buscou inspiração em dois folhetos de Leandro Gomes de Barros (1865-1918), O Dinheiro, também chamado de O testamento do cachorro e O cavalo que defecava dinheiro.\n[…]\nO Auto da Compadecida projetou Suassuna em todo o país e foi considerada por Sábato Magaldi, em 1962, \"o texto mais popular do moderno teatro brasileiro\".\n[…]\nA peça foi adaptada para o cinema pela primeira vez em 1969, com o filme A Compadecida. A segunda adaptação veio em 1987, com o filme Os Trapalhões no Auto da Compadecida.\n[…]\nAuto da Compadecida foi encenada pela primeira vez no dia 11 de setembro de 1956, no Teatro de Santa Isabel, pelo Teatro Adolescente do Recife, sob direção de Clênio Wanderley, figurino de Victor Moreira e cenários de Aloísio Magalhães, tendo como elenco os seguintes atores:\n[…]\nJoão Grilo: Agildo Ribeiro\n[…]\nChicó:\n[…]\nPadre João: Sandoval Cavalcanti\n[…]\nA Compadecida: Maria do Socorro Raposa Meira\n[…]\nJoão Grilo: Armando Bógus\n[…]\nChicó: Nelson Duarte\n[…]\nPadre João: Felipe Carone\n[…]\nA Compadecida: Córdula Reis\n[…]\nA Compadecida (filme de 1969)\n[…]\nOs Trapalhões no Auto da Compadecida (filme de 1987)\n[…]\nO Auto da Compadecida (minissérie de 1999)\n[…]\nO Auto da Compadecida (filme de 2000)\n[…]\nO Auto da Compadecida (teatro de 2017)\n[…]\nO Auto da Compadecida 2 (filme de 2024)\n[…]\nO Auto da Compadecida, montagem do Grupo Maria Cutia (2025)"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Nelson Rodrigues",
+      "descricao": "Dramaturgo, jornalista e cronista brasileiro (1912–1980), autor de Vestido de Noiva."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Além de dramaturgo, Nelson Rodrigues foi cronista esportivo e torcedor apaixonado de que clube carioca?",
+    "resposta": "Fluminense",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Nelson_Rodrigues"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nelson_Rodrigues",
+        "situacao": "ok",
+        "texto": "Nelson Falcão Rodrigues (Recife, 23 de agosto de 1912 – Rio de Janeiro, 21 de dezembro de 1980) foi um escritor, jornalista, romancista, teatrólogo, contista e cronista de costumes e de futebol brasileiro. É considerado o mais influente dramaturgo do Brasil.\n[…]\nA consagração se seguiria com vários outros sucessos, transformando-o no maior dramaturgo brasileiro do século XX, apesar de suas obras terem sido, quando lançadas, tachadas por críticos como \"obscenas\", \"imorais\" e \"vulgares\". Em 1962, começou a escrever crônicas esportivas, deixando transparecer toda a sua paixão por futebol. Era torcedor do Fluminense, tendo escrito memoráveis textos sobre o Fla-Flu, bem como seu irmão Mário Filho.\n[…]\nComo cronista esportivo, Nelson escreveu textos antológicos sobre o Fluminense Football Club, clube para o qual torcia fervorosamente. A maioria dos textos eram publicados no Jornal dos Sports. Junto com seu irmão, o jornalista Mário Filho, Nelson foi fundamental para que os Fla-Flu tivessem conquistado o prestígio que conquistaram e se tornassem grandes clássicos do futebol brasileiro.\n[…]\nNelson Rodrigues criou e evocava personagens fictícios como Gravatinha e Sobrenatural de Almeida para elaborar textos a respeito dos acontecimentos esportivos relacionados ao clube do coração.\n[…]\nNelson Rodrigues escreveu dezessete peças teatrais. Sua edição completa abrange quatro volumes, divididos segundo critérios do crítico Sábato Magaldi, que agrupou as obras de acordo com suas características, dividindo-as em três grupos: Peças Psicológicas, Míticas e Tragédias Cariocas. Assim, as peças seguem o plano de publicação:\n[…]\nLista de traduções creditadas a Nelson Rodrigues\n[…]\nO tarado romântico: a vida de Nelson Rodrigues. Bruno Vieira Amaral, Observador, 2 setembro de 2017."
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Teatro Amazonas",
+      "descricao": "Teatro de ópera de Manaus, inaugurado em 1896, famoso por sua cúpula colorida."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A cúpula do Teatro Amazonas, em Manaus, é revestida de milhares de escamas de cerâmica. Que cores elas reproduzem?",
+    "resposta": "As da bandeira do Brasil",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Teatro_Amazonas"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
+        "situacao": "ok",
+        "texto": "Teatro Amazonas é uma casa de ópera localizada em Manaus, no estado do Amazonas, sendo o principal cartão-postal da cidade. Situado no Largo de São Sebastião, no Centro Histórico, foi inaugurado em 1896 para atender ao desejo da elite amazonense da época, que idealizava a cidade à altura dos grandes centros culturais. É amplamente considerado como um dos mais belos teatros do mundo.\n[…]\nO Teatro do Amazonas é o principal monumento cultural arquitetônico do Estado e foi tombado como patrimônio histórico em 28 de novembro de 1966. O edifício, que tem capacidade para 701 pessoas, foi restaurado em 1975 pelo governo de Enoque da Silva Reis. Atualmente, o teatro abriga o Festival Amazonas de Ópera, um dos maiores e mais conceituados eventos no contexto da música erudita brasileira.\n[…]\nÉ composta de 36 mil peças de escamas em cerâmica esmaltada e telhas vitrificadas, vindas da Alsácia, na França. Foi adquirida na Casa Koch Frères, em Paris. A pintura ornamental é da autoria de Lourenço Machado. O colorido original, em verde, azul e amarelo é uma analogia à exuberância da bandeira brasileira.\n[…]\nTombado como Patrimônio Histórico Nacional em 1966, o Teatro Amazonas preserva parte da arquitetura e decoração originais. O estilo arquitetônico é renascentista, com detalhes ecléticos. Na área externa, a famosa cúpula chama a atenção pela imponência, composta por 36 mil peças nas cores da bandeira brasileira, importadas da Alsácia, na França.\n[…]\nO Manaus Futebol Clube faz menção ao Teatro Amazonas em seu hino \"O Teatro Amazonas rebrilha com a luz da chama do esplendor\". Também usou a cúpula do teatro para produzir o próprio escudo do clube.\n[…]\nNa minissérie da teledramaturgia brasileira “Amazônia, de Galvez a Chico Mendes” de 2007, o teatro serviu como plano de fundo na primeira parte da minissérie para o cenário de Manaus do século XIX.\n[…]\n«Teatro Amazonas no Youtube»\n[…]\n«Viva Manaus»"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "O Doente Imaginário",
+      "descricao": "Última comédia de Molière, de 1673, sobre um hipocondríaco obcecado por médicos."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Em 1673, Molière passou mal em cena e morreu horas depois. Que peça dele, sobre um hipocondríaco, ele estava interpretando?",
+    "resposta": "O Doente Imaginário",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Imaginary_Invalid",
+      "https://en.wikipedia.org/wiki/Molière"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Imaginary_Invalid",
+        "situacao": "ok",
+        "texto": "The Imaginary Invalid, The Hypochondriac, or The Would-Be Invalid (French title Le Malade imaginaire, [lə malad imaʒinɛːʁ]) is a three-act comédie-ballet by the French playwright Molière with dance sequences and musical interludes (H.495, H.495 a, H.495 b)  by Marc-Antoine Charpentier. It premiered on 10 February 1673 at the Théâtre du Palais-Royal in Paris and was originally choreographed by Pier\n[…]\nMolière had fallen out with the powerful court composer Jean-Baptiste Lully, with whom he had pioneered the comédie-ballet form a decade earlier, and had opted for the collaboration with Charpentier. Le malade imaginaire was Molière's last work. He collapsed during his fourth performance as Argan on 17 February and died soon after.\n[…]\nThe American Conservatory Theater (San Francisco) produced The Imaginary Invalid, an \"adaptation\" by Constance Congdon, directed by Ron Lagomarsino, in 2007.\n[…]\nTheatre Spirits staged a Hindi adaptation of Le Malade imaginaire, titled Hardam Mareez, in September 2007 in the Shri Ram Centre for Performing Arts in Delhi, directed by Sanjeev Sharma.\n[…]\nThe Hypochondriac (a free adaptation of The Imaginary Invalid written by William Moreing) was presented at the Hope Summer Repertory Theater in Holland, Michigan during the summer of 2007, directed by Daina Robins.\n[…]\nLe Malade Imaginaire directed by Vincent Tavernier performed at the Théâtre Graslin in Nantes, with the Concert spirituel; music-director, Hervé Niquet;  choreographer, Marie-Geneviève Massé  (2022); complete production using original/early sources, performing the dance sequences.\n[…]\nA new adaptation of The Imaginary Invalid, written by and starring Bill Irwin, directed by Brandon J. Dirden, and produced by Roundabout Theatre Company, started performance on Broadway at the Todd Haimes Theatre in fall 2026.\n[…]\nThe Imaginary Invalid public domain audiobook at LibriVox"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Molière",
+        "situacao": "ok",
+        "texto": "Jean-Baptiste Poquelin (French pronunciation: [ʒɑ̃ batist pɔklɛ̃]; 15 January 1622 (baptised) – 17 February 1673), known by his stage name Molière (UK: , US: ; French: [mɔljɛʁ] ), was a French playwright, actor, and poet, widely regarded as one of the great writers in the French language and world literature. His extant works include comedies, farces, tragicomedies, comédie-ballets, and more.\n[…]\nIn 1673, during a production of his final play, The Imaginary Invalid, Molière, who suffered from pulmonary tuberculosis, was seized by a coughing fit and a haemorrhage while playing the hypochondriac Argan; he finished the performance but collapsed again and died a few hours later.\n[…]\nMolière suffered from pulmonary tuberculosis, possibly contracted when he was imprisoned for debt as a young man. The circumstances of Molière's death, on 17 February 1673, became legend. He collapsed on stage in a fit of coughing and haemorrhaging while performing in the last play he had written, which had lavish ballets performed to the music of Marc-Antoine Charpentier and which ironically was titled Le Malade imaginaire (The Imaginary Invalid). Molière insisted on completing his performance.\n[…]\nIn his memoir A Terrible Liar, actor Hume Cronyn writes that, in 1962, celebrated actor Laurence Olivier criticized Molière. According to Cronyn, he mentioned to Olivier that he (Cronyn) was about to play the title role in The Miser, and that Olivier then responded \"Molière? Funny as a baby's open grave.\" Cronyn comments on the incident: \"You may imagine how that made me feel. Fortunately, he was dead wrong.\"\n[…]\nSganarelle ou Le Cocu imaginaire (28 May 1660)—Sganarelle, or the Imaginary Cuckold\n[…]\nLe Malade imaginaire (10 February 1673)—The Imaginary Invalid (or The Hypochondriac)\n[…]\nFirst edition of Molière's L'Ecole des Femmes, 1663, in the Aspin Collection at the Library of Trinity College Dublin."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Le_malade_imaginaire",
+        "situacao": "ok",
+        "texto": "Le malade imaginaire (br: O Doente Imaginário / pt: O Doente de Cisma) é a última peça de teatro escrita por Molière. A sua primeira representação teve lugar a 10 de fevereiro de 1673, em Paris. Apenas uma semana depois, a 17 de fevereiro, durante a quarta representação da peça, Molière desmaiou, tendo falecido pouco depois.\n[…]\nA peça, composta por três atos, contemplava, na sua versão original, alguns interlúdios de dança e música, estes últimos da autoria do compositor Marc-Antoine Charpentier.\n[…]\nA peça conta a história de um velho hipocondríaco, Argan, que se julga doente sem de fato o estar, e que, por isso, acata toda e qualquer ordem do médico que, por sua vez, se aproveita da situação.\n[…]\nGarreau, Joseph E. (1984). \"Molière\", pp. 397–418 in McGraw-Hill Encyclopedia of World Drama, Stanley Hochman, editor in chief. New York: McGraw-Hill. ISBN 9780070791695.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
