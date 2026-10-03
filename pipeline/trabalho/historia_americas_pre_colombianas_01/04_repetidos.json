@@ -1,0 +1,165 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em quíchua, o que significa machu, a primeira parte do nome Machu Picchu?",
+        "resposta": "Velho"
+      },
+      "existentes": [
+        {
+          "id": "q00382",
+          "pergunta": "Que sítio arqueológico é este?",
+          "resposta": "Machu Picchu"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No século quinze, Machu Picchu foi construída como propriedade de que imperador inca?",
+        "resposta": "Pachacútec"
+      },
+      "existentes": [
+        {
+          "id": "q00382",
+          "pergunta": "Que sítio arqueológico é este?",
+          "resposta": "Machu Picchu"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Chichén Itzá significa na boca do poço dos itzás. Esse poço é que tipo de formação natural, típica do Iucatã?",
+        "resposta": "Cenote"
+      },
+      "existentes": [
+        {
+          "id": "q00383",
+          "pergunta": "Em que sítio arqueológico fica esta pirâmide?",
+          "resposta": "Chichén Itzá"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Os incas registravam números em cordões coloridos chamados quipus. O que a palavra quipu significa em quíchua?",
+        "resposta": "Nó"
+      },
+      "existentes": [
+        {
+          "id": "q03341",
+          "pergunta": "Que sistema de cordões com nós os incas usavam para registrar números e informações?",
+          "resposta": "Quipu"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O crânio de Luzia, achado em Minas Gerais, ganhou esse nome em homenagem a que famoso fóssil de hominídeo africano?",
+        "resposta": "Lucy"
+      },
+      "existentes": [
+        {
+          "id": "q02787",
+          "pergunta": "O antropólogo Walter Neves batizou o fóssil brasileiro Luzia em homenagem a que outro fóssil famoso?",
+          "resposta": "Lucy"
+        },
+        {
+          "id": "q02788",
+          "pergunta": "Em 2018, o crânio de Luzia ficou semanas soterrado sob escombros por causa de que tragédia no Rio de Janeiro?",
+          "resposta": "Incêndio do Museu Nacional"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "As ruínas maias de Tikal aparecem como a base rebelde da lua Yavin quatro em que filme de 1977?",
+        "resposta": "Star Wars (Guerra nas Estrelas)"
+      },
+      "existentes": [
+        {
+          "id": "q01919",
+          "pergunta": "Esta antiga cidade maia, em ruínas no meio da floresta, fica em que país?",
+          "resposta": "Guatemala"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O sol com rosto humano nas bandeiras da Argentina e do Uruguai costuma ser associado a que deus inca?",
+        "resposta": "Inti"
+      },
+      "existentes": [
+        {
+          "id": "q02377",
+          "pergunta": "Segundo a explicação mais difundida, o Sol de Maio, de rosto humano, na bandeira argentina representa qual deus inca?",
+          "resposta": "Inti"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em que momento astronômico do ano os incas celebravam o Inti Raymi, a festa do Sol em Cusco?",
+        "resposta": "Solstício de inverno, em junho"
+      },
+      "existentes": [
+        {
+          "id": "q00808",
+          "pergunta": "Em Cusco, todo mês de junho, os peruanos revivem o Inti Raymi, uma antiga festa inca. Seu nome em quéchua significa festa de quê?",
+          "resposta": "Do Sol"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Significado de 'machu' em quíchua é fato diferente de identificar o sítio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Imperador que mandou construir é outro fato."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Tipo de formação (cenote) é fato diferente de identificar o sítio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado da palavra quipu difere de identificar o sistema de cordões."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta: Luzia batizada em homenagem a Lucy.",
+      "id_existente": "q02787"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Aparição no filme é fato diferente do país onde fica."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: sol da bandeira associado ao deus Inti.",
+      "id_existente": "q02377"
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Momento astronômico da festa difere do significado do nome."
+    }
+  ]
+}

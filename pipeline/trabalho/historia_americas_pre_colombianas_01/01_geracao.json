@@ -1,0 +1,1051 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Teotihuacan",
+        "descricao": "Antiga cidade pré-colombiana no vale do México, com as pirâmides do Sol e da Lua, abandonada séculos antes dos astecas.",
+        "variantes": [
+          "Teotihuacán"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Teotihuacan"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Teotihuacan é um nome dado pelos astecas séculos depois do abandono da cidade. Ele costuma ser traduzido como lugar de nascimento de quem?",
+      "resposta": "Dos deuses",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Teotihuacan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Avenida dos Mortos",
+        "descricao": "Via principal de Teotihuacan, no México, ladeada pelas pirâmides do Sol e da Lua.",
+        "variantes": [
+          "Calzada de los Muertos",
+          "Avenue of the Dead"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avenue_of_the_Dead"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Os astecas encontraram Teotihuacan já em ruínas e chamaram sua via principal de Avenida dos Mortos. Por que escolheram esse nome?",
+      "resposta": "Achavam que os edifícios eram túmulos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avenue_of_the_Dead"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Império Inca",
+        "descricao": "Estado pré-colombiano andino, centrado em Cusco, que dominou boa parte da costa oeste da América do Sul nos séculos quinze e dezesseis.",
+        "variantes": [
+          "Tawantinsuyu",
+          "Tahuantinsuyo"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Inca_Empire",
+          "https://pt.wikipedia.org/wiki/Império_Inca"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Os incas chamavam seu império de Tawantinsuyu. O que esse nome significa em quíchua?",
+      "resposta": "Quatro regiões unidas",
+      "distratores": [
+        "Filhos do Sol",
+        "Terra do Ouro",
+        "Umbigo do Mundo"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inca_Empire"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "machu_picchu",
+        "nome": "Machu Picchu",
+        "descricao": "Cidadela inca do século quinze nos Andes peruanos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Machu_Picchu"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em quíchua, o que significa machu, a primeira parte do nome Machu Picchu?",
+      "resposta": "Velho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Machu_Picchu"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "machu_picchu",
+        "nome": "Machu Picchu",
+        "descricao": "Cidadela inca do século quinze nos Andes peruanos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Machu_Picchu"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No século quinze, Machu Picchu foi construída como propriedade de que imperador inca?",
+      "resposta": "Pachacútec",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Machu_Picchu",
+        "https://en.wikipedia.org/wiki/Pachacuti"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "chichen_itza",
+        "nome": "Chichén Itzá",
+        "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chichen_Itza"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Chichén Itzá significa na boca do poço dos itzás. Esse poço é que tipo de formação natural, típica do Iucatã?",
+      "resposta": "Cenote",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chichen_Itza",
+        "https://en.wikipedia.org/wiki/Sacred_Cenote"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quetzalcóatl",
+        "descricao": "Divindade mesoamericana conhecida como serpente emplumada, cultuada por astecas e outros povos.",
+        "variantes": [
+          "Quetzalcoatl"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quetzalcoatl"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em náuatle, o nome do deus Quetzalcóatl junta o quetzal, uma ave de penas verdes, a que outro animal?",
+      "resposta": "Serpente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quetzalcoatl"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Huitzilopochtli",
+        "descricao": "Deus asteca da guerra e do sol, patrono dos mexicas de Tenochtitlan.",
+        "variantes": [
+          "Uitzilopochtli"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Huitzilopochtli"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Que pequena ave aparece no nome de Huitzilopochtli, o deus asteca da guerra?",
+      "resposta": "Beija-flor",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Huitzilopochtli"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Olmecas",
+        "descricao": "Civilização pré-colombiana do litoral do golfo do México, famosa pelas cabeças colossais de pedra.",
+        "variantes": [
+          "Olmecs",
+          "Cultura olmeca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olmecs"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os olmecas não se chamavam assim. O nome vem do náuatle dos astecas e quer dizer povo de que material?",
+      "resposta": "Borracha",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olmecs"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Olmecas",
+        "descricao": "Civilização pré-colombiana do litoral do golfo do México, famosa pelas cabeças colossais de pedra.",
+        "variantes": [
+          "Olmecs",
+          "Cultura olmeca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Olmecs"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes povos da Mesoamérica floresceu primeiro?",
+      "resposta": "Olmecas",
+      "distratores": [
+        "Astecas",
+        "Toltecas",
+        "Teotihuacanos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Olmecs"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Quipu",
+        "descricao": "Sistema inca de cordões coloridos com nós usado para registrar números e informações.",
+        "variantes": [
+          "Khipu",
+          "Kipu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Quipu"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Os incas registravam números em cordões coloridos chamados quipus. O que a palavra quipu significa em quíchua?",
+      "resposta": "Nó",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Quipu"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Caribes",
+        "descricao": "Povo indígena das Pequenas Antilhas, também chamado kalinago, que deu nome ao mar do Caribe.",
+        "variantes": [
+          "Kalinago",
+          "Caraíbas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kalinago"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A palavra canibal veio do espanhol e deriva do nome de que povo indígena das Antilhas?",
+      "resposta": "Caribes",
+      "distratores": [
+        "Taínos",
+        "Aruaques",
+        "Lucaios"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cannibalism",
+        "https://en.wikipedia.org/wiki/Kalinago"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Luzia",
+        "descricao": "Esqueleto humano de cerca de onze mil anos encontrado na região de Lagoa Santa, em Minas Gerais.",
+        "variantes": [
+          "Luzia Woman",
+          "Mulher de Lagoa Santa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Luzia_(fóssil)",
+          "https://en.wikipedia.org/wiki/Luzia_Woman"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O crânio de Luzia, achado em Minas Gerais, ganhou esse nome em homenagem a que famoso fóssil de hominídeo africano?",
+      "resposta": "Lucy",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Luzia_(fóssil)",
+        "https://en.wikipedia.org/wiki/Luzia_Woman"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Eldorado",
+        "descricao": "Lenda de uma terra riquíssima em ouro, nascida de um ritual dos muíscas, na atual Colômbia.",
+        "variantes": [
+          "El Dorado"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/El_Dorado"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Antes de virar sinônimo de cidade de ouro, a expressão espanhola El Dorado designava o quê?",
+      "resposta": "Um chefe muísca coberto de ouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/El_Dorado"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tenochtitlan",
+        "descricao": "Capital dos astecas mexicas, erguida numa ilha do lago Texcoco, onde hoje fica a Cidade do México.",
+        "variantes": [
+          "Tenochtitlán",
+          "México-Tenochtitlan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tenochtitlan"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a lenda, os mexicas fundaram Tenochtitlan onde viram uma águia devorando uma serpente, pousada sobre que planta?",
+      "resposta": "Cacto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tenochtitlan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tenochtitlan",
+        "descricao": "Capital dos astecas mexicas, erguida numa ilha do lago Texcoco, onde hoje fica a Cidade do México.",
+        "variantes": [
+          "Tenochtitlán",
+          "México-Tenochtitlan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tenochtitlan"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A capital asteca Tenochtitlan foi erguida numa ilha de que lago, hoje quase todo aterrado sob a Cidade do México?",
+      "resposta": "Lago Texcoco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tenochtitlan",
+        "https://en.wikipedia.org/wiki/Lake_Texcoco"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Queda de Tenochtitlan",
+        "descricao": "Cerco e conquista da capital asteca pelos espanhóis de Hernán Cortés e seus aliados indígenas, em 1521.",
+        "variantes": [
+          "Cerco de Tenochtitlan",
+          "Fall of Tenochtitlan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1520, que doença trazida pelos europeus matou o imperador Cuitláhuac e enfraqueceu Tenochtitlan antes do cerco final?",
+      "resposta": "Varíola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+        "https://en.wikipedia.org/wiki/Cuitláhuac"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guerra civil inca",
+        "descricao": "Conflito entre os irmãos Huáscar e Atahualpa pelo trono inca, pouco antes da chegada de Pizarro.",
+        "variantes": [
+          "Guerra dos Dois Irmãos",
+          "Inca Civil War"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Inca_Civil_War"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A guerra civil entre os irmãos Huáscar e Atahualpa, que enfraqueceu os incas diante de Pizarro, começou após a morte de quem?",
+      "resposta": "Huayna Cápac",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inca_Civil_War"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fenômeno 2012",
+        "descricao": "Conjunto de crenças de que o mundo acabaria ou mudaria radicalmente em 21 de dezembro de 2012.",
+        "variantes": [
+          "2012 phenomenon",
+          "Profecia maia de 2012"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/2012_phenomenon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A crença de que o mundo acabaria em dezembro de 2012 vinha do fim de um ciclo de qual calendário?",
+      "resposta": "Calendário maia de Contagem Longa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/2012_phenomenon"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Linhas de Nazca",
+        "descricao": "Grandes geoglifos de figuras e linhas traçados no deserto do sul do Peru pela cultura Nazca.",
+        "variantes": [
+          "Linhas de Nasca",
+          "Nazca Lines"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nazca_Lines"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que as Linhas de Nazca, riscadas no deserto peruano há cerca de dois mil anos, continuam visíveis até hoje?",
+      "resposta": "Clima seco, sem chuva nem vento",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nazca_Lines"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Terra preta de índio",
+        "descricao": "Solo escuro e muito fértil encontrado em vários pontos da Amazônia, formado por ocupações indígenas antigas.",
+        "variantes": [
+          "Terra preta",
+          "Terra preta arqueológica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Terra_preta"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Por que a terra preta de índio, encontrada em vários pontos da Amazônia, é tão escura e fértil?",
+      "resposta": "Carvão e restos deixados por humanos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Terra_preta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Crânios de Paracas",
+        "descricao": "Crânios alongados encontrados nos sítios da cultura Paracas, no litoral sul do Peru.",
+        "variantes": [
+          "Paracas skulls"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paracas_culture"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Muitos crânios achados em Paracas, no Peru, são muito alongados e alimentam teorias sobre alienígenas. Qual é a explicação real?",
+      "resposta": "Deformação proposital na infância",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Paracas_culture",
+        "https://en.wikipedia.org/wiki/Artificial_cranial_deformation"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guerras floridas",
+        "descricao": "Combates ritualizados entre a Tríplice Aliança asteca e cidades vizinhas, como Tlaxcala.",
+        "variantes": [
+          "Guerra florida",
+          "Xochiyaoyotl",
+          "Flower war"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Flower_war"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Qual era o principal objetivo das guerras floridas, combates combinados entre os astecas e cidades vizinhas?",
+      "resposta": "Capturar prisioneiros para sacrifício",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Flower_war"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kukulcán",
+        "descricao": "Divindade maia da serpente emplumada, cultuada especialmente em Chichén Itzá.",
+        "variantes": [
+          "Kukulkan",
+          "K'uk'ulkan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kukulkan"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que deus asteca corresponde a Kukulcán, divindade maia que dá nome à grande pirâmide de Chichén Itzá?",
+      "resposta": "Quetzalcóatl",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kukulkan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chaac",
+        "descricao": "Deus maia da chuva e dos raios, ligado à agricultura.",
+        "variantes": [
+          "Chac",
+          "Chaak"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chaac"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Chaac, o deus maia da chuva, tinha como equivalente entre os astecas qual deus?",
+      "resposta": "Tláloc",
+      "distratores": [
+        "Huitzilopochtli",
+        "Tezcatlipoca",
+        "Xipe Tótec"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chaac",
+        "https://en.wikipedia.org/wiki/Tlaloc"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tikal",
+        "nome": "Tikal",
+        "descricao": "Antiga cidade maia em ruínas na floresta do Petén, na Guatemala.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tikal"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "As ruínas maias de Tikal aparecem como a base rebelde da lua Yavin quatro em que filme de 1977?",
+      "resposta": "Star Wars (Guerra nas Estrelas)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tikal"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Senhor de Sipán",
+        "descricao": "Governante moche cuja tumba intacta, cheia de joias, foi descoberta em 1987 no norte do Peru.",
+        "variantes": [
+          "Lord of Sipán",
+          "Señor de Sipán"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lord_of_Sipán",
+          "https://pt.wikipedia.org/wiki/Senhor_de_Sipán"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A tumba intacta do Senhor de Sipán, achada no Peru em 1987, é muitas vezes comparada à de que faraó egípcio?",
+      "resposta": "Tutancâmon",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lord_of_Sipán",
+        "https://pt.wikipedia.org/wiki/Senhor_de_Sipán"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tupinambás",
+        "descricao": "Povo tupi que ocupava grande parte do litoral brasileiro na chegada dos portugueses.",
+        "variantes": [
+          "Tupinambá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tupinambás"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O ritual em que os tupinambás devoravam inimigos capturados inspirou que manifesto modernista de Oswald de Andrade, de 1928?",
+      "resposta": "Manifesto Antropófago",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Manifesto_Antropófago"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Muiraquitã",
+        "descricao": "Amuleto de pedra verde, em geral em forma de sapo, produzido por povos antigos da Amazônia.",
+        "variantes": [
+          "Muyrakytã"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Muiraquitã"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que herói de Mário de Andrade passa o romance tentando recuperar seu muiraquitã, amuleto amazônico de pedra verde?",
+      "resposta": "Macunaíma",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Muiraquitã",
+        "https://en.wikipedia.org/wiki/Macunaíma_(novel)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sol de Maio",
+        "descricao": "Sol com rosto humano presente nas bandeiras da Argentina e do Uruguai.",
+        "variantes": [
+          "Sol de Mayo",
+          "Sun of May"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sun_of_May"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O sol com rosto humano nas bandeiras da Argentina e do Uruguai representa que deus inca?",
+      "resposta": "Inti",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sun_of_May"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Coricancha",
+        "descricao": "Principal templo inca, dedicado ao Sol, em Cusco, no Peru.",
+        "variantes": [
+          "Qorikancha",
+          "Templo do Sol de Cusco"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Coricancha"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Sobre as paredes do Coricancha, o templo inca do Sol em Cusco, os espanhóis ergueram que construção?",
+      "resposta": "Convento de Santo Domingo",
+      "distratores": [
+        "Catedral de Cusco",
+        "Convento de São Francisco",
+        "Igreja da Companhia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Coricancha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cahokia",
+        "descricao": "Grande cidade da cultura do Mississippi, com enormes montes de terra, no atual estado de Illinois.",
+        "variantes": [
+          "Cahokia Mounds"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cahokia"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Cahokia, cidade indígena da cultura do Mississippi famosa por seus montes de terra, fica perto de que cidade americana atual?",
+      "resposta": "Saint Louis",
+      "distratores": [
+        "Chicago",
+        "Memphis",
+        "Nova Orleans"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cahokia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manto tupinambá",
+        "descricao": "Manto cerimonial de penas vermelhas dos tupinambás, levado à Europa no período colonial e devolvido ao Brasil em 2024.",
+        "variantes": [
+          "Manto Tupinambá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Manto_tupinambá"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Antes de voltar ao Brasil em 2024, um manto tupinambá de penas vermelhas passou mais de três séculos num museu de que país?",
+      "resposta": "Dinamarca",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Manto_tupinambá"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Manto tupinambá",
+        "descricao": "Manto cerimonial de penas vermelhas dos tupinambás, levado à Europa no período colonial e devolvido ao Brasil em 2024.",
+        "variantes": [
+          "Manto Tupinambá"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Manto_tupinambá"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O manto tupinambá devolvido ao Brasil em 2024 é coberto de penas vermelhas de que ave do litoral brasileiro?",
+      "resposta": "Guará",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Manto_tupinambá"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Atahualpa",
+        "descricao": "Último imperador inca independente, capturado e executado pelos espanhóis de Francisco Pizarro.",
+        "variantes": [
+          "Atahuallpa",
+          "Atawallpa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Atahualpa"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Em 1532, numa emboscada, Francisco Pizarro capturou o imperador inca Atahualpa em que cidade andina?",
+      "resposta": "Cajamarca",
+      "distratores": [
+        "Cusco",
+        "Quito",
+        "Tumbes"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Atahualpa",
+        "https://en.wikipedia.org/wiki/Battle_of_Cajamarca"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Penacho de Moctezuma",
+        "descricao": "Cocar asteca de penas de quetzal tradicionalmente associado ao imperador Moctezuma II.",
+        "variantes": [
+          "Moctezuma's headdress",
+          "Cocar de Montezuma"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Penacho_de_Moctezuma"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O chamado Penacho de Moctezuma, cocar asteca de penas de quetzal, está hoje num museu de que cidade europeia?",
+      "resposta": "Viena",
+      "distratores": [
+        "Madri",
+        "Paris",
+        "Londres"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Penacho_de_Moctezuma",
+        "https://en.wikipedia.org/wiki/Weltmuseum_Wien"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Caral",
+        "descricao": "Sítio arqueológico com pirâmides e praças no vale do Supe, no Peru, centro da civilização Norte Chico.",
+        "variantes": [
+          "Caral-Supe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Caral"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A cidade de Caral, no Peru, já tinha pirâmides por volta de 2600 antes de Cristo. Elas são da mesma época das pirâmides de que país?",
+      "resposta": "Egito",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Caral",
+        "https://en.wikipedia.org/wiki/Norte_Chico_civilization"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Inti Raymi",
+        "descricao": "Grande festa religiosa inca em honra ao deus Sol, celebrada em Cusco.",
+        "variantes": [
+          "Festa do Sol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Inti_Raymi"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que momento astronômico do ano os incas celebravam o Inti Raymi, a festa do Sol em Cusco?",
+      "resposta": "Solstício de inverno, em junho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inti_Raymi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Múmias chinchorro",
+        "descricao": "Múmias preparadas artificialmente pelo povo chinchorro, no litoral do deserto do Atacama, no Chile e no Peru.",
+        "variantes": [
+          "Cultura Chinchorro",
+          "Chinchorro mummies"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Chinchorro_mummies"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Os chinchorros, pescadores do deserto do Atacama, já mumificavam seus mortos cerca de dois mil anos antes de que civilização famosa pela mesma prática?",
+      "resposta": "Egípcios",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Chinchorro_mummies"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "L'Anse aux Meadows",
+        "descricao": "Sítio arqueológico na ilha de Terra Nova, no Canadá, com restos de um povoado nórdico de cerca do ano mil.",
+        "variantes": [
+          "Lanse aux Meadows"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "No Canadá, o sítio de L'Anse aux Meadows guarda um povoado de cerca do ano mil, cinco séculos antes de Colombo. Que povo europeu o construiu?",
+      "resposta": "Vikings",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/L%27Anse_aux_Meadows"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Escrita maia",
+        "descricao": "Sistema de escrita hieroglífica usado pelos maias, com sinais que representam palavras e sílabas.",
+        "variantes": [
+          "Hieróglifos maias",
+          "Maya script"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maya_script"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Nos anos 1950, quem propôs a leitura fonética dos sinais que abriu caminho para decifrar a escrita maia?",
+      "resposta": "Yuri Knorozov",
+      "distratores": [
+        "Eric Thompson",
+        "Linda Schele",
+        "Tatiana Proskouriakoff"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maya_script",
+        "https://en.wikipedia.org/wiki/Yuri_Knorozov"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Numeração maia",
+        "descricao": "Sistema de numeração posicional dos maias, escrito com pontos, barras e um sinal de concha para o zero.",
+        "variantes": [
+          "Algarismos maias",
+          "Maya numerals"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Maya_numerals"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "A numeração maia, que já usava o zero, tinha como base qual número?",
+      "resposta": "Vinte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Maya_numerals"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pirâmide de Kukulcán",
+        "descricao": "Pirâmide escalonada no centro de Chichén Itzá, no México, também chamada El Castillo.",
+        "variantes": [
+          "El Castillo",
+          "Templo de Kukulcán"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Somando as quatro escadarias e o degrau da plataforma do topo, quantos degraus tem a pirâmide de Kukulcán, em Chichén Itzá?",
+      "resposta": "365",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pirâmide de Kukulcán",
+        "descricao": "Pirâmide escalonada no centro de Chichén Itzá, no México, também chamada El Castillo.",
+        "variantes": [
+          "El Castillo",
+          "Templo de Kukulcán"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Nos equinócios, a luz do fim da tarde na escadaria da pirâmide de Kukulcán cria a ilusão de que animal descendo?",
+      "resposta": "Serpente",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/El_Castillo,_Chichen_Itza"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Qhapaq Ñan",
+        "descricao": "Rede de estradas do Império Inca que ligava Cusco a todo o território andino.",
+        "variantes": [
+          "Caminho Inca",
+          "Inca road system",
+          "Capac Ñan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Inca_road_system"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A rede de estradas incas conhecida como Qhapaq Ñan atravessa o território de quantos países atuais?",
+      "resposta": "Seis",
+      "distratores": [
+        "Três",
+        "Quatro",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Inca_road_system"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Confederação Iroquesa",
+        "descricao": "Aliança de nações indígenas do nordeste da América do Norte, também chamada Haudenosaunee.",
+        "variantes": [
+          "Haudenosaunee",
+          "Liga Iroquesa",
+          "Cinco Nações"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iroquois"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Antes da entrada dos tuscaroras, no século dezoito, quantas nações formavam a Confederação Iroquesa?",
+      "resposta": "Cinco",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iroquois"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Popol Vuh",
+        "descricao": "Livro que reúne os mitos de criação e a história dos maias quichés, da Guatemala.",
+        "variantes": [
+          "Popol Wuj"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Popol_Vuh"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No Popol Vuh, livro sagrado dos maias quichés, os deuses falham com barro e com madeira. De que material eles finalmente fazem os humanos?",
+      "resposta": "Milho",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Popol_Vuh"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Chocolate asteca",
+        "descricao": "Bebida amarga de cacau consumida pelos astecas, chamada xocolatl, antecessora do chocolate moderno.",
+        "variantes": [
+          "Xocolatl"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/History_of_chocolate"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Os astecas tomavam o chocolate amargo, espumante e sem açúcar, muitas vezes com um ingrediente ardido. Qual era?",
+      "resposta": "Pimenta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/History_of_chocolate"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilhas flutuantes dos uros",
+        "descricao": "Ilhas artificiais construídas pelo povo uro no lago Titicaca, no Peru.",
+        "variantes": [
+          "Islas de los Uros",
+          "Uros"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Uru_people"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No lago Titicaca, o povo uro vive em ilhas flutuantes feitas de que planta aquática?",
+      "resposta": "Totora",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Uru_people"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cacau",
+        "descricao": "Semente da árvore do cacau, domesticada na América e base do chocolate.",
+        "variantes": [
+          "Semente de cacau",
+          "Cocoa bean"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cocoa_bean"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Entre os astecas, as sementes de cacau tinham que outra função, além de virar bebida?",
+      "resposta": "Moeda",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cocoa_bean"
+      ]
+    }
+  ]
+}
