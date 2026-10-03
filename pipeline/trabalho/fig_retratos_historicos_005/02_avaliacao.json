@@ -1,0 +1,229 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto colorida clara, sem texto; rosto emblemático.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que número identificava o barco-torpedeiro que este homem comandou na Segunda Guerra Mundial?",
+      "resposta": "PT-109",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "John F. Kennedy",
+        "descricao": "35º presidente dos Estados Unidos, de 1961 até seu assassinato em 1963.",
+        "variantes": [
+          "JFK",
+          "John Kennedy"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida, sem texto; figura reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que país este líder fundou como república em 1923, tornando-se seu primeiro presidente?",
+      "resposta": "Turquia",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Mustafa Kemal Atatürk",
+        "descricao": "Marechal e estadista turco, fundador e primeiro presidente da República da Turquia.",
+        "variantes": [
+          "Atatürk",
+          "Mustafa Kemal"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida, sem texto; figura menos conhecida, então múltipla escolha com presidentes da mesma época.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que presidente brasileiro da Primeira República é este?",
+      "resposta": "Campos Sales",
+      "distratores": [
+        "Rodrigues Alves",
+        "Prudente de Morais",
+        "Afonso Pena"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Campos Sales",
+        "descricao": "Manoel Ferraz de Campos Sales, quarto presidente do Brasil, de 1898 a 1902.",
+        "variantes": [
+          "Manuel Ferraz de Campos Sales"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Pintura de Vigée Le Brun nítida, sem texto; retrato emblemático.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi guilhotinada esta rainha da França?",
+      "resposta": "1793",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Maria Antonieta",
+        "descricao": "Rainha da França, esposa de Luís XVI, guilhotinada durante a Revolução Francesa.",
+        "variantes": [
+          "Marie Antoinette"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto antiga nítida, sem texto; figura reconhecível pela barba e pela camisa.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que cor eram as camisas dos voluntários liderados por este homem na unificação da Itália?",
+      "resposta": "Vermelha",
+      "distratores": [
+        "Preta",
+        "Azul",
+        "Verde"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Giuseppe Garibaldi",
+        "descricao": "General e revolucionário italiano, figura central da unificação da Itália.",
+        "variantes": [
+          "Garibaldi"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto legível; bigode característico. Múltipla escolha com outros comandantes alemães.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que comandante alemão da Primeira Guerra Mundial é este?",
+      "resposta": "Paul von Hindenburg",
+      "distratores": [
+        "Erich Ludendorff",
+        "Helmuth von Moltke",
+        "Alfred von Tirpitz"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Paul von Hindenburg",
+        "descricao": "Marechal alemão que comandou o exército na Primeira Guerra e foi presidente da Alemanha de 1925 a 1934.",
+        "variantes": [
+          "Hindenburg"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura nítida, sem texto; a pergunta pede o ano da morte.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano morreu este navegador português?",
+      "resposta": "1521",
+      "distratores": [
+        "1500",
+        "1520",
+        "1524"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Fernão de Magalhães",
+        "descricao": "Navegador português que liderou a expedição que realizou a primeira circum-navegação da Terra.",
+        "variantes": [
+          "Fernando de Magalhães",
+          "Ferdinand Magellan"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O retrato traz a inscrição 'HERNANDO CORTES' no topo, que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto histórica nítida, sem texto; figura reconhecível pelo uniforme.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que imperador japonês é este?",
+      "resposta": "Hirohito (Imperador Shōwa)",
+      "distratores": [],
+      "destino": 7,
+      "ancora": {
+        "nome": "Hirohito",
+        "descricao": "Imperador do Japão de 1926 a 1989, que anunciou a rendição japonesa em 1945.",
+        "variantes": [
+          "Imperador Showa",
+          "Shōwa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pintura nítida de Duplessis, sem texto; retrato emblemático.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano morreu este homem, um dos pais fundadores dos Estados Unidos?",
+      "resposta": "1790",
+      "distratores": [
+        "1776",
+        "1799",
+        "1826"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Benjamin Franklin",
+        "descricao": "Polímata, estadista e inventor americano, um dos pais fundadores dos Estados Unidos.",
+        "variantes": [
+          "Franklin"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura nítida, sem texto; retrato conhecido.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que comitê da Revolução Francesa este homem passou a integrar em julho de 1793?",
+      "resposta": "Comitê de Salvação Pública",
+      "distratores": [],
+      "destino": 5,
+      "ancora": {
+        "nome": "Robespierre",
+        "descricao": "Maximilien de Robespierre, advogado e líder jacobino da Revolução Francesa.",
+        "variantes": [
+          "Maximilien de Robespierre",
+          "Maximilien Robespierre"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Selo soviético com o nome em cirílico (КВАМЕ НКРУМА), datas e legenda visíveis, o que entrega a resposta."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O fato é verdadeiro, mas o comando do barco-torpedeiro na guerra aponta quase sozinho para Kennedy e para o PT-109, então a figura vira enfeite. Não há conserto simples sem trocar a pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O enunciado (fundou como república em 1923, primeiro presidente) já entrega a resposta, Turquia, sem olhar a figura. Qualquer pista que sirva para reescrever também entregaria.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quarto presidente, 1898 a 1902, na Primeira República. Os distratores são presidentes da mesma época e nenhum descreve a imagem. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Maria Antonieta é a rainha da França guilhotinada, então o ano 1793 sai do enunciado sem a figura. A reescrita tira a pista e exige reconhecer a imagem. O ano da morte é confirmado nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que ano morreu esta rainha consorte da França?",
+        "resposta": "1793",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A camisa vermelha dos voluntários de Garibaldi é fato famoso, e a pergunta se responde sem a figura. A reescrita pede o ano da morte, que só se alcança depois de reconhecer o retrato. O ano 1882 está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em que ano morreu este general e revolucionário italiano?",
+        "resposta": "1882",
+        "distratores": [
+          "1861",
+          "1870",
+          "1878"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta pede o reconhecimento direto. Os distratores são alemães da mesma época e nenhum é o homem da figura. O enunciado não vaza o nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morreu em 27 de abril de 1521 em Mactan, e os trechos confirmam. O enunciado não vaza, e os distratores são anos plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É uma pergunta de reconhecimento sem pista no enunciado. O parêntese com o nome póstumo Shōwa é uma observação útil e curta.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franklin morreu em 1790, e os trechos confirmam. O enunciado só traz a pista de pai fundador, que não identifica sozinha. Os distratores (1776, 1799, 1826) estão errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sem a figura, a pergunta sobre o comitê de 1793 se responde por palpite, já que o Comitê de Salvação Pública é o mais famoso, e a imagem não é necessária. A reescrita pede o reconhecimento, com a pista de líder jacobino, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Que líder jacobino da Revolução Francesa é este?",
+        "resposta": "Robespierre (Maximilien de Robespierre)",
+        "distratores": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano morreu este general e revolucionário italiano?",
+        "resposta": "1882"
+      },
+      "existentes": [
+        {
+          "id": "q03915",
+          "pergunta": "Que ligação o herói da unificação italiana Giuseppe Garibaldi tem com a história do Brasil?",
+          "resposta": "Lutou na Revolução Farroupilha"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta trata do ano da morte de Garibaldi (1882); a existente trata da ligação dele com o Brasil (Revolução Farroupilha). São fatos diferentes."
+    }
+  ]
+}
