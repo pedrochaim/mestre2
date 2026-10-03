@@ -130,9 +130,11 @@
     "artes_e_pensamento_teatro_e_opera_01",
     "ciencias_tecnologia_e_computacao_01",
     "fig_monumentos_historicos_003",
-    "historia_americas_pre_colombianas_01"
+    "historia_americas_pre_colombianas_01",
+    "artes_e_pensamento_mitologia_01",
+    "artes_e_pensamento_religioes_01"
   ],
-  "maior_id": 3527,
+  "maior_id": 3573,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -695,9 +697,13 @@
     ],
     "Américas Pré-Colombianas": [
       45
+    ],
+    "Religiões": [
+      46
     ]
   },
   "pausados": [
-    "texto:Povos e Idiomas"
+    "texto:Povos e Idiomas",
+    "texto:Mitologia"
   ]
 }

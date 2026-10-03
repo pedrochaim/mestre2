@@ -11537,7 +11537,8 @@
     "descricao": "Grande festa hindu das luzes, celebrada no outono com lamparinas, velas e fogos.",
     "variantes": [
       "Deepavali",
-      "Dipavali"
+      "Dipavali",
+      "Divali"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Diwali"
@@ -11556,7 +11557,8 @@
     "variantes": [
       "Chanucá",
       "Hanucá",
-      "Chanukah"
+      "Chanukah",
+      "Festa das Luzes"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hanukkah"
@@ -50125,7 +50127,8 @@
       "Sidarta Gautama",
       "Siddhartha Gautama",
       "Buddha",
-      "Gautama Buda"
+      "Gautama Buda",
+      "Buda Gautama"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/The_Buddha",
@@ -52656,5 +52659,527 @@
       "pt": 121,
       "en": 25089
     }
+  },
+  {
+    "id": "isla",
+    "nome": "Islã",
+    "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+    "variantes": [
+      "Islão",
+      "Islamismo",
+      "Islam"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Islam"
+    ]
+  },
+  {
+    "id": "alcorao",
+    "nome": "Alcorão",
+    "descricao": "Livro sagrado do islã, considerado pelos muçulmanos a palavra de Deus revelada a Maomé",
+    "variantes": [
+      "Corão",
+      "Qur'an",
+      "Quran"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Quran"
+    ]
+  },
+  {
+    "id": "pessach",
+    "nome": "Pessach",
+    "descricao": "Festa judaica que celebra a saída dos hebreus do Egito",
+    "variantes": [
+      "Páscoa judaica",
+      "Passover",
+      "Pesach"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Passover"
+    ]
+  },
+  {
+    "id": "sikhismo",
+    "nome": "Sikhismo",
+    "descricao": "Religião monoteísta fundada por Guru Nanak no Punjab, no século quinze",
+    "variantes": [
+      "Siquismo",
+      "Sikhism"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sikhism"
+    ]
+  },
+  {
+    "id": "xintoismo",
+    "nome": "Xintoísmo",
+    "descricao": "Religião tradicional do Japão, centrada no culto aos kami",
+    "variantes": [
+      "Xintô",
+      "Shinto",
+      "Shintoísmo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shinto"
+    ]
+  },
+  {
+    "id": "jesus",
+    "nome": "Jesus",
+    "descricao": "Pregador judeu do século um, figura central do cristianismo",
+    "variantes": [
+      "Jesus Cristo",
+      "Jesus de Nazaré"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jesus"
+    ]
+  },
+  {
+    "id": "dalai_lama",
+    "nome": "Dalai-lama",
+    "descricao": "Título do principal líder espiritual da escola Gelug do budismo tibetano",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dalai_Lama"
+    ]
+  },
+  {
+    "id": "quakers",
+    "nome": "Quakers",
+    "descricao": "Movimento cristão protestante surgido na Inglaterra no século dezessete, oficialmente Sociedade Religiosa dos Amigos",
+    "variantes": [
+      "Quacres",
+      "Sociedade Religiosa dos Amigos",
+      "Religious Society of Friends"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Quakers"
+    ]
+  },
+  {
+    "id": "rastafarianismo",
+    "nome": "Rastafarianismo",
+    "descricao": "Movimento religioso surgido na Jamaica nos anos 1930",
+    "variantes": [
+      "Rastafári",
+      "Rastafari"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rastafari"
+    ]
+  },
+  {
+    "id": "rosh_hashana",
+    "nome": "Rosh Hashaná",
+    "descricao": "Festa que marca o início do ano no calendário judaico",
+    "variantes": [
+      "Rosh Hashanah",
+      "Ano-Novo judaico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rosh_Hashanah"
+    ]
+  },
+  {
+    "id": "noventa_e_cinco_teses",
+    "nome": "Noventa e Cinco Teses",
+    "descricao": "Documento de Martinho Lutero de 1517 que deu início à Reforma Protestante",
+    "variantes": [
+      "95 Teses",
+      "Ninety-five Theses"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ninety-five_Theses"
+    ]
+  },
+  {
+    "id": "igreja_anglicana",
+    "nome": "Igreja Anglicana",
+    "descricao": "Igreja da Inglaterra, separada de Roma no reinado de Henrique VIII",
+    "variantes": [
+      "Igreja da Inglaterra",
+      "Church of England"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Church_of_England"
+    ]
+  },
+  {
+    "id": "concilio_de_trento",
+    "nome": "Concílio de Trento",
+    "descricao": "Concílio ecumênico da Igreja Católica realizado entre 1545 e 1563",
+    "variantes": [
+      "Council of Trent"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Council_of_Trent"
+    ]
+  },
+  {
+    "id": "hegira",
+    "nome": "Hégira",
+    "descricao": "Migração de Maomé e seus seguidores de Meca para Medina, em 622",
+    "variantes": [
+      "Hijra",
+      "Hijrah",
+      "Égira"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hijrah"
+    ]
+  },
+  {
+    "id": "ramada",
+    "nome": "Ramadã",
+    "descricao": "Nono mês do calendário islâmico, dedicado ao jejum",
+    "variantes": [
+      "Ramadão",
+      "Ramadan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ramadan"
+    ]
+  },
+  {
+    "id": "catedral_de_santiago_de_compostela",
+    "nome": "Catedral de Santiago de Compostela",
+    "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+    "variantes": [
+      "Catedral de Compostela",
+      "Santiago de Compostela Cathedral"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Santiago_de_Compostela_Cathedral"
+    ]
+  },
+  {
+    "id": "manuscritos_do_mar_morto",
+    "nome": "Manuscritos do Mar Morto",
+    "descricao": "Manuscritos judaicos antigos descobertos a partir de 1947 em cavernas de Qumran",
+    "variantes": [
+      "Pergaminhos do Mar Morto",
+      "Dead Sea Scrolls"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dead_Sea_Scrolls"
+    ]
+  },
+  {
+    "id": "igreja_ortodoxa",
+    "nome": "Igreja Ortodoxa",
+    "descricao": "Comunhão de igrejas cristãs orientais separadas de Roma desde o Cisma de 1054",
+    "variantes": [
+      "Igreja Católica Ortodoxa",
+      "Eastern Orthodox Church"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eastern_Orthodox_Church"
+    ]
+  },
+  {
+    "id": "abraao",
+    "nome": "Abraão",
+    "descricao": "Patriarca bíblico considerado ancestral espiritual do judaísmo, do cristianismo e do islã",
+    "variantes": [
+      "Abraham",
+      "Ibrahim"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Abraham"
+    ]
+  },
+  {
+    "id": "carma",
+    "nome": "Carma",
+    "descricao": "Conceito do hinduísmo e do budismo segundo o qual as ações geram consequências futuras",
+    "variantes": [
+      "Karma"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Karma"
+    ]
+  },
+  {
+    "id": "chakra_de_ashoka",
+    "nome": "Chakra de Ashoka",
+    "descricao": "Roda azul de vinte e quatro raios no centro da bandeira da Índia, tirada dos pilares do imperador Ashoka",
+    "variantes": [
+      "Ashoka Chakra",
+      "Roda de Ashoka"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ashoka_Chakra"
+    ]
+  },
+  {
+    "id": "tora",
+    "nome": "Torá",
+    "descricao": "Conjunto dos cinco primeiros livros da Bíblia hebraica, base da lei judaica",
+    "variantes": [
+      "Torah"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Torah"
+    ]
+  },
+  {
+    "id": "ahimsa",
+    "nome": "Ahimsa",
+    "descricao": "Princípio de não violência presente no hinduísmo, no budismo e no jainismo",
+    "variantes": [
+      "Ahinsa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ahimsa"
+    ]
+  },
+  {
+    "id": "krishna",
+    "nome": "Krishna",
+    "descricao": "Divindade hindu, herói do Bhagavad Gita",
+    "variantes": [
+      "Críxena"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Krishna"
+    ]
+  },
+  {
+    "id": "zoroastrismo",
+    "nome": "Zoroastrismo",
+    "descricao": "Religião antiga da Pérsia baseada nos ensinamentos do profeta Zoroastro",
+    "variantes": [
+      "Masdeísmo",
+      "Zoroastrianism"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Zoroastrianism"
+    ]
+  },
+  {
+    "id": "papai_noel",
+    "nome": "Papai Noel",
+    "descricao": "Personagem lendário que traz presentes no Natal",
+    "variantes": [
+      "Santa Claus",
+      "Pai Natal",
+      "Bom Velhinho"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Santa_Claus"
+    ]
+  },
+  {
+    "id": "lumbini",
+    "nome": "Lumbini",
+    "descricao": "Local de peregrinação budista apontado pela tradição como lugar de nascimento de Buda",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lumbini"
+    ]
+  },
+  {
+    "id": "nossa_senhora_aparecida",
+    "nome": "Nossa Senhora Aparecida",
+    "descricao": "Imagem de Nossa Senhora da Conceição encontrada em 1717, padroeira do Brasil",
+    "variantes": [
+      "Nossa Senhora da Conceição Aparecida",
+      "Our Lady of Aparecida"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Our_Lady_of_Aparecida"
+    ]
+  },
+  {
+    "id": "templo_dourado",
+    "nome": "Templo Dourado",
+    "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+    "variantes": [
+      "Harmandir Sahib",
+      "Golden Temple"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Golden_Temple"
+    ]
+  },
+  {
+    "id": "conclave",
+    "nome": "Conclave",
+    "descricao": "Reunião dos cardeais da Igreja Católica para eleger um novo papa",
+    "variantes": [
+      "Conclave papal",
+      "Papal conclave"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Papal_conclave"
+    ]
+  },
+  {
+    "id": "primeira_cruzada",
+    "nome": "Primeira Cruzada",
+    "descricao": "Expedição militar cristã de 1096 a 1099 que tomou Jerusalém",
+    "variantes": [
+      "First Crusade"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/First_Crusade"
+    ]
+  },
+  {
+    "id": "companhia_de_jesus",
+    "nome": "Companhia de Jesus",
+    "descricao": "Ordem religiosa católica dos jesuítas, aprovada pelo papa em 1540",
+    "variantes": [
+      "Jesuítas",
+      "Society of Jesus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Society_of_Jesus"
+    ]
+  },
+  {
+    "id": "tao_te_ching",
+    "nome": "Tao Te Ching",
+    "descricao": "Texto clássico chinês, fundamento do taoísmo",
+    "variantes": [
+      "Tao Te King",
+      "Daodejing"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tao_Te_Ching"
+    ]
+  },
+  {
+    "id": "o_livro_dos_espiritos",
+    "nome": "O Livro dos Espíritos",
+    "descricao": "Obra publicada em Paris em 1857, base da doutrina espírita",
+    "variantes": [
+      "The Spirits' Book",
+      "Le Livre des Esprits"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/O_Livro_dos_Espíritos"
+    ]
+  },
+  {
+    "id": "festa_de_iemanja",
+    "nome": "Festa de Iemanjá",
+    "descricao": "Celebração em homenagem ao orixá Iemanjá no bairro do Rio Vermelho, em Salvador",
+    "variantes": [
+      "Dois de Fevereiro",
+      "Festa do Rio Vermelho"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Iemanjá"
+    ]
+  },
+  {
+    "id": "shabat",
+    "nome": "Shabat",
+    "descricao": "Dia semanal de descanso do judaísmo",
+    "variantes": [
+      "Shabbat",
+      "Sabá",
+      "Sabbath"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shabbat"
+    ]
+  },
+  {
+    "id": "concilio_vaticano_ii",
+    "nome": "Concílio Vaticano II",
+    "descricao": "Concílio ecumênico da Igreja Católica realizado no Vaticano entre 1962 e 1965",
+    "variantes": [
+      "Vaticano II",
+      "Second Vatican Council"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Second_Vatican_Council"
+    ]
+  },
+  {
+    "id": "pilares_do_isla",
+    "nome": "Pilares do Islã",
+    "descricao": "Conjunto dos deveres básicos de todo muçulmano, como a oração, o jejum e a peregrinação",
+    "variantes": [
+      "Cinco Pilares do Islã",
+      "Five Pillars of Islam"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Five_Pillars_of_Islam"
+    ]
+  },
+  {
+    "id": "japamala",
+    "nome": "Japamala",
+    "descricao": "Cordão de contas usado para contar orações e mantras no hinduísmo e no budismo",
+    "variantes": [
+      "Mala",
+      "Japa mala"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Japamala"
+    ]
+  },
+  {
+    "id": "bar_mitzva",
+    "nome": "Bar mitzvá",
+    "descricao": "Rito judaico de maioridade religiosa dos meninos",
+    "variantes": [
+      "Bar mitzvah"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bar_and_bat_mitzvah"
+    ]
+  },
+  {
+    "id": "trimurti",
+    "nome": "Trimúrti",
+    "descricao": "Tríade de deuses principais do hinduísmo, ligados à criação, à preservação e à destruição",
+    "variantes": [
+      "Trindade hindu"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Trimurti"
+    ]
+  },
+  {
+    "id": "tanach",
+    "nome": "Tanach",
+    "descricao": "Conjunto das escrituras sagradas do judaísmo, a Bíblia hebraica",
+    "variantes": [
+      "Tanakh",
+      "Bíblia hebraica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hebrew_Bible"
+    ]
+  },
+  {
+    "id": "monte_athos",
+    "nome": "Monte Athos",
+    "descricao": "Península do norte da Grécia ocupada por uma comunidade de mosteiros ortodoxos",
+    "variantes": [
+      "Monte Atos",
+      "Mount Athos",
+      "Montanha Sagrada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mount_Athos"
+    ]
+  },
+  {
+    "id": "maria_mae_de_jesus",
+    "nome": "Maria, mãe de Jesus",
+    "descricao": "Mãe de Jesus, venerada no cristianismo e no islã",
+    "variantes": [
+      "Virgem Maria",
+      "Nossa Senhora",
+      "Maryam"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mary_in_Islam"
+    ]
   }
 ]

@@ -1,0 +1,134 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Siddhartha Gautama ganhou o título de Buda. Qual é o significado dessa palavra sânscrita?",
+        "resposta": "O Desperto, ou Iluminado"
+      },
+      "existentes": [
+        {
+          "id": "q03348",
+          "pergunta": "O título Buda, dado a Sidarta Gautama, significa o quê em sânscrito?",
+          "resposta": "O Desperto"
+        },
+        {
+          "id": "q03349",
+          "pergunta": "Sidarta Gautama, o Buda, nasceu em Lumbini. Em que país atual fica esse lugar?",
+          "resposta": "Nepal"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A festa hindu do Diwali tem um nome sânscrito que descreve o que se vê nas casas durante a celebração. O que ele quer dizer?",
+        "resposta": "Fileira de luzes"
+      },
+      "existentes": [
+        {
+          "id": "q00805",
+          "pergunta": "Diwali, a grande festa hindu celebrada com lamparinas acesas, tem um nome de origem sânscrita. Qual é o seu significado?",
+          "resposta": "Fileira de luzes"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 313, o que o Édito de Milão, dos imperadores Constantino e Licínio, garantiu aos cristãos do Império Romano?",
+        "resposta": "Liberdade de culto"
+      },
+      "existentes": [
+        {
+          "id": "q00086",
+          "pergunta": "Em 313, os imperadores Constantino e Licínio firmaram o Édito de Milão. Que mudança ele trouxe para os cristãos do Império?",
+          "resposta": "Liberdade de culto"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Na tradição judaica, o Hanucá dura oito dias por causa de um milagre no Templo envolvendo que substância?",
+        "resposta": "Azeite"
+      },
+      "existentes": [
+        {
+          "id": "q00806",
+          "pergunta": "A festa judaica em que se acendem as velas de um candelabro de nove braços se chama Hanukkah. O que significa essa palavra hebraica?",
+          "resposta": "Dedicação"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na Lavagem do Bonfim, em Salvador, o Senhor do Bonfim é associado a que orixá do candomblé?",
+        "resposta": "Oxalá"
+      },
+      "existentes": [
+        {
+          "id": "q00345",
+          "pergunta": "Na Lavagem do Bonfim, em Salvador, quase todos vestem branco porque o Senhor do Bonfim é associado a qual orixá?",
+          "resposta": "Oxalá"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que cidade do Pará foi realizado, em 1793, o primeiro Círio de Nazaré?",
+        "resposta": "Belém"
+      },
+      "existentes": [
+        {
+          "id": "q00323",
+          "pergunta": "A palavra círio, que dá nome à grande procissão de outubro em Belém do Pará, significa o quê?",
+          "resposta": "Vela grande"
+        },
+        {
+          "id": "q00324",
+          "pergunta": "Segundo a tradição, por volta de 1700, quem encontrou a imagem de Nossa Senhora de Nazaré às margens de um igarapé em Belém?",
+          "resposta": "O caboclo Plácido"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03348",
+      "motivo": "Ambas perguntam o significado do título Buda em sânscrito."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q00805",
+      "motivo": "Ambas perguntam o significado do nome Diwali: fileira de luzes."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q00086",
+      "motivo": "Ambas perguntam o que o Édito de Milão trouxe aos cristãos: liberdade de culto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a substância do milagre (azeite), não sobre o significado de Hanukkah."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q00345",
+      "motivo": "Ambas perguntam a qual orixá o Senhor do Bonfim é associado: Oxalá."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cidade do primeiro Círio em 1793 é um fato diferente do significado da palavra e do achado da imagem."
+    }
+  ]
+}
