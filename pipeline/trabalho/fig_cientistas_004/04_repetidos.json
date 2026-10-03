@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que cidade sueca nasceu este químico e engenheiro do século dezenove?",
+        "resposta": "Estocolmo"
+      },
+      "existentes": [
+        {
+          "id": "q03594",
+          "pergunta": "Segundo uma história famosa, que erro de um jornal francês, em 1888, teria levado Alfred Nobel a repensar o próprio legado?",
+          "resposta": "Publicar o obituário dele por engano"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata da cidade natal (Estocolmo); a existente trata do erro do jornal sobre o obituário. São fatos diferentes."
+    }
+  ]
+}

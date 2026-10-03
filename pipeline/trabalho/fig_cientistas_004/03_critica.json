@@ -1,0 +1,87 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: escocês do século dezoito que aperfeiçoou uma máquina na Revolução Industrial já entrega 'máquina a vapor' sem ver a figura. Troquei por outro fato sustentado pelo trecho em português.",
+      "reescrita": {
+        "pergunta": "Em que universidade escocesa este engenheiro trabalhava como fabricante de instrumentos quando passou a estudar as máquinas a vapor?",
+        "resposta": "Universidade de Glasgow"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: os teoremas de 1931 sobre limites da matemática respondem sozinhos. Nível 1 deve pedir o reconhecimento, com pista que não identifica sozinha.",
+      "reescrita": {
+        "pergunta": "Que lógico e matemático austríaco do século vinte é este?",
+        "resposta": "Kurt Gödel"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de época e nacionalidade apenas ajuda. Os distratores são alemães do mesmo período e nenhum descreve o retrato.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: simetria e conservação é o teorema de Noether, e a pergunta se responde sem a figura. Nível 1 pede reconhecimento, com pista que não identifica sozinha.",
+      "reescrita": {
+        "pergunta": "Que matemática alemã do início do século vinte é esta?",
+        "resposta": "Emmy Noether"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Enunciado sem vazamento, só com a pista de grupo (filósofo grego). Distratores do mesmo tipo e plausíveis, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Com a imagem, a resposta é única e está nos trechos. A pergunta não nomeia a entidade e não responde sozinha sem a figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 de reconhecimento, com pista de profissão e nacionalidade que não identifica sozinha. Os trechos confirmam.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: a partícula neutra proposta em 1930 para o decaimento beta leva direto a 'neutrino' sem a figura. Troquei pelo princípio do Nobel de 1945, que está nos trechos.",
+      "reescrita": {
+        "pergunta": "Em 1945, este físico austríaco recebeu o Nobel de Física pela descoberta de qual princípio?",
+        "resposta": "Princípio de exclusão",
+        "distratores": [
+          "Princípio da incerteza",
+          "Princípio da equivalência",
+          "Princípio da correspondência"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Vazamento: químico e engenheiro sueco inventor de explosivo leva direto à dinamite. Além disso, ele inventou outros explosivos (gelignite, ballistite), então a resposta não é única. Troquei por um fato que exige reconhecer a figura.",
+      "reescrita": {
+        "pergunta": "Em que cidade sueca nasceu este químico e engenheiro do século dezenove?",
+        "resposta": "Estocolmo"
+      }
+    }
+  ]
+}

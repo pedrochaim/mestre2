@@ -1,0 +1,194 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A gravura traz a legenda 'Hippocrates Hiraclidae F. Covs' e as assinaturas, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato a óleo sem texto, rosto claro e figura pública histórica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que máquina este engenheiro escocês do século dezoito aperfeiçoou, impulsionando a Revolução Industrial?",
+      "resposta": "Máquina a vapor",
+      "destino": 5,
+      "ancora": {
+        "nome": "James Watt",
+        "descricao": "Engenheiro, inventor e químico escocês (1736–1819) que aperfeiçoou a máquina a vapor de Newcomen.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto antiga do jovem Gödel, sem texto, rosto nítido; é a imagem principal usada em seu artigo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famosos teoremas, publicados em 1931, este lógico austríaco apresentou sobre os limites da matemática?",
+      "resposta": "Teoremas da incompletude",
+      "destino": 2,
+      "ancora": {
+        "nome": "Kurt Gödel",
+        "descricao": "Lógico e matemático austríaco (1906–1978), autor dos teoremas da incompletude.",
+        "variantes": [
+          "Kurt Godel"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato a óleo de Humboldt, sem nome visível (só 'Kosmos' parcial no livro, que não entrega o nome). Reconhecível e único.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que naturalista e explorador alemão do século dezenove aparece neste retrato?",
+      "resposta": "Alexander von Humboldt",
+      "distratores": [
+        "Ernst Haeckel",
+        "Justus von Liebig",
+        "Johann Wolfgang Goethe"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Alexander von Humboldt",
+        "descricao": "Naturalista, geógrafo e explorador alemão (1769–1859), pioneiro da biogeografia.",
+        "variantes": [
+          "Humboldt"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto antiga de Emmy Noether, sem texto, rosto claro.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Os teoremas desta matemática alemã ligam a simetria a que conceito da física?",
+      "resposta": "Leis de conservação",
+      "destino": 2,
+      "ancora": {
+        "nome": "Emmy Noether",
+        "descricao": "Matemática alemã (1882–1935), pioneira da álgebra abstrata e autora dos teoremas que ligam simetrias a leis de conservação.",
+        "variantes": [
+          "Amalie Emmy Noether"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Busto de mármore famoso, sem texto, reconhecível; distratores com bustos de filósofos gregos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo grego da Antiguidade este busto representa?",
+      "resposta": "Aristóteles",
+      "distratores": [
+        "Platão",
+        "Sócrates",
+        "Epicuro"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Aristóteles",
+        "descricao": "Filósofo e polímata grego (384–322 a.C.), fundador da escola peripatética no Liceu de Atenas.",
+        "variantes": [
+          "Aristotle"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto de estúdio sem texto, rosto nítido de Pierre Curie.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Quem foi a esposa deste físico francês, também laureada com o Nobel?",
+      "resposta": "Marie Curie",
+      "destino": 0,
+      "ancora": {
+        "nome": "Pierre Curie",
+        "descricao": "Físico francês (1859–1906), pioneiro do estudo da radioatividade e da piezeletricidade, laureado com o Nobel de Física de 1903.",
+        "variantes": [
+          "Pierre Curie, físico"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "O quadro traz a inscrição 'Doctor William Harvey' ao lado do rosto, o que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Pintura barroca de um velho pensativo com globo e livros: não há traços que permitam reconhecer Arquimedes pela imagem, e poderia ser outro sábio."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto de rosto nítida, sem texto, de figura pública muito conhecida.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que astrofísico e divulgador científico americano é este?",
+      "resposta": "Neil deGrasse Tyson",
+      "destino": 7,
+      "ancora": {
+        "nome": "Neil deGrasse Tyson",
+        "descricao": "Astrofísico e divulgador científico americano, diretor do Planetário Hayden em Nova York.",
+        "variantes": [
+          "Neil Tyson"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Foto em preto e branco nítida; a assinatura visível é do fotógrafo e não entrega o nome do físico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que partícula neutra este físico austríaco propôs em 1930 para preservar a conservação da energia no decaimento beta?",
+      "resposta": "Neutrino",
+      "distratores": [
+        "Nêutron",
+        "Pósitron",
+        "Múon"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Wolfgang Pauli",
+        "descricao": "Físico teórico austríaco (1900–1958), Nobel de Física de 1945 pelo princípio de exclusão.",
+        "variantes": [
+          "Pauli"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Fotografia clássica sem texto, rosto nítido de Alfred Nobel.",
+      "familia": "o_que_e",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que explosivo este químico e engenheiro sueco do século dezenove inventou?",
+      "resposta": "Dinamite",
+      "destino": 1,
+      "ancora": {
+        "nome": "Alfred Nobel",
+        "descricao": "Químico, engenheiro e empresário sueco (1833–1896), inventor da dinamite e instituidor do Prêmio Nobel.",
+        "variantes": [
+          "Alfred Bernhard Nobel"
+        ]
+      }
+    }
+  ]
+}
