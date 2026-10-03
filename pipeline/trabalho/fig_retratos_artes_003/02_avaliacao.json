@@ -1,0 +1,254 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "O quadro traz o nome 'Miguel de Cervantes Saavedra' escrito no alto e a assinatura do pintor embaixo, o que entrega a resposta."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de época legível, de figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que poeta brasileiro do século dezenove aparece nesta foto?",
+      "resposta": "Castro Alves",
+      "distratores": [
+        "Álvares de Azevedo",
+        "Gonçalves Dias",
+        "Casimiro de Abreu"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Castro Alves",
+        "descricao": "Poeta e dramaturgo brasileiro do século XIX, conhecido por poemas abolicionistas.",
+        "variantes": [
+          "Antônio Frederico de Castro Alves"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de figura pública.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este compositor italiano escreveu qual destas óperas?",
+      "resposta": "Tosca",
+      "distratores": [
+        "La Traviata",
+        "Aida",
+        "O Barbeiro de Sevilha"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Giacomo Puccini",
+        "descricao": "Compositor italiano de óperas como La bohème, Tosca e Madama Butterfly.",
+        "variantes": [
+          "Puccini"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto antiga, pequena mas legível, sem texto. Figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositora e pianista brasileira do século dezenove aparece nesta foto?",
+      "resposta": "Chiquinha Gonzaga",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Chiquinha Gonzaga",
+        "descricao": "Compositora, pianista e maestrina brasileira, autora da marcha carnavalesca Ó Abre Alas.",
+        "variantes": [
+          "Francisca Edwiges Neves Gonzaga"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto conhecida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor de língua alemã do início do século vinte aparece nesta foto?",
+      "resposta": "Franz Kafka",
+      "distratores": [
+        "Thomas Mann",
+        "Stefan Zweig",
+        "Rainer Maria Rilke"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Franz Kafka",
+        "descricao": "Escritor de língua alemã nascido em Praga, autor de A Metamorfose e O Processo.",
+        "variantes": [
+          "Kafka"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositor e pianista russo aparece nesta foto?",
+      "resposta": "Sergei Rachmaninoff",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Sergei Rachmaninoff",
+        "descricao": "Compositor, pianista e regente russo do final do Romantismo.",
+        "variantes": [
+          "Rachmaninov",
+          "Rachmáninov"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto icônica, bigode característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que filósofo alemão do século dezenove aparece nesta foto?",
+      "resposta": "Friedrich Nietzsche",
+      "distratores": [
+        "Arthur Schopenhauer",
+        "Martin Heidegger",
+        "Max Weber"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Friedrich Nietzsche",
+        "descricao": "Filósofo e filólogo alemão do século XIX, autor de Assim Falou Zaratustra.",
+        "variantes": [
+          "Nietzsche"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto de época legível, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este escritor russo, também médico, escreveu qual destas peças de teatro?",
+      "resposta": "A Gaivota",
+      "distratores": [
+        "Casa de Bonecas",
+        "Hedda Gabler",
+        "Peer Gynt"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Anton Tchekhov",
+        "descricao": "Dramaturgo, contista e médico russo, autor de A Gaivota e Tio Vânia.",
+        "variantes": [
+          "Anton Chekhov",
+          "Anton Tchékhov"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto antiga de baixa resolução, mas legível e sem texto. Múltipla escolha deixa justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que poeta brasileiro do século dezenove aparece nesta foto?",
+      "resposta": "Cruz e Sousa",
+      "distratores": [
+        "Alphonsus de Guimaraens",
+        "Olavo Bilac",
+        "Machado de Assis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cruz e Sousa",
+        "descricao": "Poeta simbolista brasileiro nascido em Desterro, atual Florianópolis.",
+        "variantes": [
+          "João da Cruz e Sousa"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Retrato a óleo célebre. A partitura traz só texto pequeno em latim e francês, que não entrega o nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este compositor alemão do período barroco escreveu qual destas obras?",
+      "resposta": "Concertos de Brandemburgo",
+      "distratores": [
+        "As Quatro Estações",
+        "Música Aquática",
+        "Réquiem em Ré menor"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Johann Sebastian Bach",
+        "descricao": "Compositor alemão do Barroco tardio, autor dos Concertos de Brandemburgo e da Paixão segundo São Mateus.",
+        "variantes": [
+          "J. S. Bach",
+          "Bach"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pintura nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositor austríaco do início do século dezenove aparece neste retrato?",
+      "resposta": "Franz Schubert",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Franz Schubert",
+        "descricao": "Compositor austríaco do Classicismo tardio e início do Romantismo, famoso por seus Lieder.",
+        "variantes": [
+          "Schubert"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este compositor tcheco escreveu qual destas sinfonias?",
+      "resposta": "Sinfonia do Novo Mundo",
+      "distratores": [
+        "Sinfonia Patética",
+        "Sinfonia Escocesa",
+        "Sinfonia Heroica"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Antonín Dvořák",
+        "descricao": "Compositor tcheco do Romantismo, autor da Sinfonia do Novo Mundo.",
+        "variantes": [
+          "Antonin Dvorak",
+          "Dvorak"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que poeta brasileiro do século dezenove aparece nesta foto?",
+        "resposta": "Castro Alves"
+      },
+      "existentes": [
+        {
+          "id": "q02909",
+          "pergunta": "Em 1868, um tiro acidental de espingarda durante uma caçada levou à amputação de que parte do corpo do poeta Castro Alves?",
+          "resposta": "O pé esquerdo"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que escritor de língua alemã do início do século vinte aparece nesta foto?",
+        "resposta": "Franz Kafka"
+      },
+      "existentes": [
+        {
+          "id": "q02944",
+          "pergunta": "Kafka pediu que seus manuscritos fossem queimados depois de sua morte. Por que O Processo acabou publicado mesmo assim?",
+          "resposta": "Max Brod desobedeceu ao pedido"
+        },
+        {
+          "id": "q02968",
+          "pergunta": "Franz Kafka escreveu sua obra publicada em alemão, mas nasceu e passou quase a vida inteira em que cidade?",
+          "resposta": "Praga"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que filósofo alemão do século dezenove aparece nesta foto?",
+        "resposta": "Friedrich Nietzsche"
+      },
+      "existentes": [
+        {
+          "id": "q03742",
+          "pergunta": "Segundo um relato famoso, Nietzsche sofreu um colapso mental em Turim, em 1889, depois de abraçar que animal maltratado na rua?",
+          "resposta": "Um cavalo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Este compositor alemão do período barroco escreveu qual destas obras?",
+        "resposta": "Concertos de Brandemburgo"
+      },
+      "existentes": [
+        {
+          "id": "q03286",
+          "pergunta": "Somando os filhos de seus dois casamentos, quantos filhos teve Johann Sebastian Bach?",
+          "resposta": "Vinte"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade do poeta numa foto; a existente pergunta sobre a amputação, que é outro fato."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade do escritor numa foto. As existentes tratam da publicação de O Processo e da cidade de Kafka, que são outros fatos."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova pede a identidade do filósofo numa foto; a existente trata do colapso em Turim."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pergunta qual obra Bach escreveu; a existente pergunta quantos filhos ele teve."
+    }
+  ]
+}
