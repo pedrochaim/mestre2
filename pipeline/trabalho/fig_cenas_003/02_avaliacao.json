@@ -1,0 +1,221 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto do elenco de uma única série, sem texto; cenário reconhecível para o público brasileiro.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que década estreou esta série humorística brasileira?",
+      "resposta": "Década de 1990",
+      "destino": 1,
+      "ancora": {
+        "nome": "Sai de Baixo",
+        "descricao": "Série humorística brasileira da TV Globo, estreada em 1996, passada num apartamento no Largo do Arouche.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem sem texto, personagem de macacão amarelo com katana, bem reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem dirigiu este filme?",
+      "resposta": "Quentin Tarantino",
+      "destino": 0,
+      "ancora": {
+        "nome": "Kill Bill: Volume 1",
+        "descricao": "Filme de ação de 2003 dirigido por Quentin Tarantino, sobre a vingança da ex-assassina conhecida como A Noiva.",
+        "variantes": [
+          "Kill Bill: Vol. 1",
+          "Kill Bill"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Arte promocional montada, com um rosto numa máquina em explosão; não é reconhecível pela imagem."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Buzz e Woody, personagens inconfundíveis; sem texto que entregue o filme (Lightyear é só parte do traje).",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que filme é esta cena?",
+      "resposta": "Toy Story",
+      "destino": 0,
+      "ancora": {
+        "nome": "Toy Story",
+        "descricao": "Primeiro longa de animação da Pixar, de 1995, sobre os brinquedos Woody e Buzz Lightyear.",
+        "variantes": [
+          "Toy Story: Um Mundo de Aventuras"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Três atrizes em perfil, tom da série claramente reconhecível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que série é esta imagem?",
+      "resposta": "The Crown",
+      "distratores": [
+        "Victoria",
+        "Downton Abbey",
+        "Os Tudors"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "The Crown",
+        "descricao": "Série dramática da Netflix, estreada em 2016, sobre o reinado da rainha Elizabeth II.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto do filme com tratamento gráfico, sem texto que entregue a resposta; casal icônico da Nouvelle Vague.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu este filme francês de 1960?",
+      "resposta": "Jean-Luc Godard",
+      "distratores": [
+        "François Truffaut",
+        "Éric Rohmer",
+        "Claude Chabrol"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Acossado",
+        "descricao": "Filme francês de 1960 de Jean-Luc Godard, com Jean-Paul Belmondo e Jean Seberg, marco da Nouvelle Vague.",
+        "variantes": [
+          "À bout de souffle",
+          "Breathless"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte sem texto com Indiana Jones, chapéu e chicote inconfundíveis.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década foi lançado este filme?",
+      "resposta": "Década de 1980",
+      "distratores": [
+        "Década de 1970",
+        "Década de 1990",
+        "Década de 2000"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Os Caçadores da Arca Perdida",
+        "descricao": "Filme de aventura de 1981 dirigido por Steven Spielberg, com Indiana Jones em busca da Arca da Aliança.",
+        "variantes": [
+          "Raiders of the Lost Ark",
+          "Indiana Jones e os Caçadores da Arca Perdida"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto do elenco de uma única série, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que canal de TV por assinatura exibiu originalmente esta série?",
+      "resposta": "HBO",
+      "destino": 1,
+      "ancora": {
+        "nome": "Família Soprano",
+        "descricao": "Série dramática americana de 1999 sobre o mafioso Tony Soprano, exibida pela HBO.",
+        "variantes": [
+          "The Sopranos",
+          "Os Sopranos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem escura, com metade preta e três rostos pouco reconhecíveis; a série não se identifica por ela."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Batman com o símbolo em chamas num prédio, sem texto; identifica o filme.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu este filme?",
+      "resposta": "Christopher Nolan",
+      "distratores": [
+        "Tim Burton",
+        "Joel Schumacher",
+        "Zack Snyder"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Batman: O Cavaleiro das Trevas",
+        "descricao": "Filme de super-herói de 2008 dirigido por Christopher Nolan, com Christian Bale como Batman e Heath Ledger como Coringa.",
+        "variantes": [
+          "The Dark Knight",
+          "O Cavaleiro das Trevas"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cena da família com caixas de pizza, texto coreano que não entrega a resposta; cena marcante.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano foi lançado este filme sul-coreano?",
+      "resposta": "2019",
+      "destino": 0,
+      "ancora": {
+        "nome": "Parasita",
+        "descricao": "Filme sul-coreano de 2019 dirigido por Bong Joon-ho, sobre uma família pobre que se infiltra numa família rica.",
+        "variantes": [
+          "Gisaengchung",
+          "Parasite"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cena clássica do robô Maria, sem texto, imagem icônica e legível.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem dirigiu este filme mudo alemão?",
+      "resposta": "Fritz Lang",
+      "distratores": [
+        "F. W. Murnau",
+        "Robert Wiene",
+        "G. W. Pabst"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Metrópolis",
+        "descricao": "Filme mudo alemão de ficção científica de 1927 dirigido por Fritz Lang, com o robô Maria.",
+        "variantes": [
+          "Metropolis"
+        ]
+      }
+    }
+  ]
+}

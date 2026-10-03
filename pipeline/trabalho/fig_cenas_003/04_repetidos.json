@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Quem dirigiu este filme?",
+        "resposta": "Quentin Tarantino"
+      },
+      "existentes": [
+        {
+          "id": "q01968",
+          "pergunta": "O macacão amarelo com faixas pretas usado por Uma Thurman em Kill Bill homenageia que astro das artes marciais?",
+          "resposta": "Bruce Lee"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata do diretor do filme; a existente trata da homenagem a Bruce Lee no macacão. São fatos diferentes."
+    }
+  ]
+}

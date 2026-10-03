@@ -1,0 +1,565 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Sai de Baixo",
+        "descricao": "Série humorística brasileira da TV Globo, estreada em 1996, passada num apartamento no Largo do Arouche.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        },
+        {
+          "id": "sol_de_maio",
+          "nome": "Sol de Maio",
+          "descricao": "Sol dourado com rosto humano, emblema nacional que aparece nas bandeiras da Argentina e do Uruguai.",
+          "variantes": [
+            "Sol de Mayo",
+            "Sun of May"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light"
+          ]
+        },
+        {
+          "id": "rio_de_janeiro",
+          "nome": "Rio de Janeiro",
+          "descricao": "Cidade do Sudeste brasileiro, fundada em 1565, que foi capital do Brasil de 1763 a 1960.",
+          "variantes": [
+            "São Sebastião do Rio de Janeiro",
+            "Rio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Kill Bill: Volume 1",
+        "descricao": "Filme de ação de 2003 dirigido por Quentin Tarantino, sobre a vingança da ex-assassina conhecida como A Noiva.",
+        "variantes": [
+          "Kill Bill: Vol. 1",
+          "Kill Bill"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kill_bill_volume_1",
+          "nome": "Kill Bill: Volume 1",
+          "descricao": "Filme de 2003 dirigido por Quentin Tarantino e estrelado por Uma Thurman.",
+          "variantes": [
+            "Kill Bill"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Toy Story",
+        "descricao": "Primeiro longa de animação da Pixar, de 1995, sobre os brinquedos Woody e Buzz Lightyear.",
+        "variantes": [
+          "Toy Story: Um Mundo de Aventuras"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        },
+        {
+          "id": "totoro",
+          "nome": "Totoro",
+          "descricao": "Criatura da floresta que dá nome ao filme Meu Amigo Totoro, de Hayao Miyazaki.",
+          "variantes": [
+            "O Totoro"
+          ]
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        },
+        {
+          "id": "taco",
+          "nome": "Taco",
+          "descricao": "Prato mexicano de tortilla de milho ou trigo dobrada em torno de um recheio.",
+          "variantes": [
+            "Tacos",
+            "Taco al pastor"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "The Crown",
+        "descricao": "Série dramática da Netflix, estreada em 2016, sobre o reinado da rainha Elizabeth II.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "o_corvo",
+          "nome": "O Corvo",
+          "descricao": "Poema narrativo de Edgar Allan Poe, publicado em 1845.",
+          "variantes": [
+            "The Raven"
+          ]
+        },
+        {
+          "id": "heroina",
+          "nome": "Heroína",
+          "descricao": "Droga opioide derivada da morfina, a diacetilmorfina, comercializada originalmente como medicamento.",
+          "variantes": [
+            "Diacetilmorfina",
+            "Diamorfina",
+            "Heroin"
+          ]
+        },
+        {
+          "id": "wayne_gretzky",
+          "nome": "Wayne Gretzky",
+          "descricao": "Jogador canadense de hóquei no gelo, apelidado de The Great One.",
+          "variantes": [
+            "The Great One"
+          ]
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Acossado",
+        "descricao": "Filme francês de 1960 de Jean-Luc Godard, com Jean-Paul Belmondo e Jean Seberg, marco da Nouvelle Vague.",
+        "variantes": [
+          "À bout de souffle",
+          "Breathless"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alossauro",
+          "nome": "Alossauro",
+          "descricao": "Gênero de dinossauro terópode carnívoro do Jurássico Superior, conhecido sobretudo da América do Norte.",
+          "variantes": [
+            "Allosaurus"
+          ]
+        },
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        },
+        {
+          "id": "wi_fi",
+          "nome": "Wi-Fi",
+          "descricao": "Família de padrões de rede local sem fio usada para conectar aparelhos à internet.",
+          "variantes": [
+            "Wifi",
+            "Wireless"
+          ]
+        },
+        {
+          "id": "palacio_de_cnossos",
+          "nome": "Palácio de Cnossos",
+          "descricao": "Grande complexo palaciano da Idade do Bronze em Creta, centro da civilização minoica.",
+          "variantes": [
+            "Cnossos",
+            "Knossos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Os Caçadores da Arca Perdida",
+        "descricao": "Filme de aventura de 1981 dirigido por Steven Spielberg, com Indiana Jones em busca da Arca da Aliança.",
+        "variantes": [
+          "Raiders of the Lost Ark",
+          "Indiana Jones e os Caçadores da Arca Perdida"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "adidas_telstar",
+          "nome": "Adidas Telstar",
+          "descricao": "Bola oficial da Copa do Mundo de 1970, com gomos pretos e brancos.",
+          "variantes": [
+            "Telstar"
+          ]
+        },
+        {
+          "id": "cavalgada_das_valquirias",
+          "nome": "Cavalgada das Valquírias",
+          "descricao": "Trecho orquestral do início do terceiro ato da ópera A Valquíria, de Richard Wagner.",
+          "variantes": [
+            "Ride of the Valkyries",
+            "Walkürenritt"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        },
+        {
+          "id": "os_jogadores_de_cartas",
+          "nome": "Os Jogadores de Cartas",
+          "descricao": "Série de quadros de Paul Cézanne dos anos 1890.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Família Soprano",
+        "descricao": "Série dramática americana de 1999 sobre o mafioso Tony Soprano, exibida pela HBO.",
+        "variantes": [
+          "The Sopranos",
+          "Os Sopranos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "duplo_twist_carpado",
+          "nome": "Duplo twist carpado",
+          "descricao": "Movimento da ginástica artística de solo que entrou no código de pontuação com o nome da ginasta brasileira que o executou primeiro.",
+          "variantes": [
+            "Dos Santos",
+            "Duplo twist carpado (Dos Santos)",
+            "Double Arabian piked"
+          ]
+        },
+        {
+          "id": "os_jetsons",
+          "nome": "Os Jetsons",
+          "descricao": "Desenho animado americano de 1962 sobre uma família que vive num futuro de carros voadores e robôs.",
+          "variantes": [
+            "The Jetsons"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        },
+        {
+          "id": "os_planetas",
+          "nome": "Os Planetas",
+          "descricao": "Suíte orquestral de Gustav Holst, composta durante a Primeira Guerra Mundial, com um movimento para cada planeta.",
+          "variantes": [
+            "The Planets",
+            "Os Planetas (Holst)"
+          ]
+        },
+        {
+          "id": "irmas_bronte",
+          "nome": "Irmãs Brontë",
+          "descricao": "Charlotte, Emily e Anne Brontë, escritoras inglesas do século dezenove, autoras de Jane Eyre e O Morro dos Ventos Uivantes.",
+          "variantes": [
+            "Brontë sisters",
+            "Família Brontë"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Batman: O Cavaleiro das Trevas",
+        "descricao": "Filme de super-herói de 2008 dirigido por Christopher Nolan, com Christian Bale como Batman e Heath Ledger como Coringa.",
+        "variantes": [
+          "The Dark Knight",
+          "O Cavaleiro das Trevas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_noite_estrelada",
+          "nome": "A Noite Estrelada",
+          "descricao": "Quadro de Vincent van Gogh, de 1889, com um céu noturno em espirais.",
+          "variantes": [
+            "The Starry Night"
+          ]
+        },
+        {
+          "id": "cabo_da_boa_esperanca",
+          "nome": "Cabo da Boa Esperança",
+          "descricao": "Promontório rochoso no extremo sudoeste da África do Sul, contornado por Bartolomeu Dias em 1488.",
+          "variantes": [
+            "Cabo das Tormentas",
+            "Cape of Good Hope"
+          ]
+        },
+        {
+          "id": "o_pesadelo_fussli",
+          "nome": "O Pesadelo (Füssli)",
+          "descricao": "Pintura a óleo de Henry Fuseli, de 1781, com uma mulher adormecida, um íncubo sobre o peito e um cavalo ao fundo.",
+          "variantes": [
+            "The Nightmare",
+            "Der Nachtmahr",
+            "O Pesadelo"
+          ]
+        },
+        {
+          "id": "as_viagens_de_marco_polo",
+          "nome": "As Viagens de Marco Polo",
+          "descricao": "Relato das viagens de Marco Polo pela Ásia, escrito por Rustichello de Pisa por volta de 1300.",
+          "variantes": [
+            "O Livro das Maravilhas",
+            "Il Milione",
+            "The Travels of Marco Polo"
+          ]
+        },
+        {
+          "id": "o_espirito_das_leis",
+          "nome": "O Espírito das Leis",
+          "descricao": "Tratado de teoria política publicado por Montesquieu em 1748.",
+          "variantes": [
+            "De l'esprit des lois",
+            "The Spirit of the Laws"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Parasita",
+        "descricao": "Filme sul-coreano de 2019 dirigido por Bong Joon-ho, sobre uma família pobre que se infiltra numa família rica.",
+        "variantes": [
+          "Gisaengchung",
+          "Parasite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        },
+        {
+          "id": "praia",
+          "nome": "Praia",
+          "descricao": "Capital de Cabo Verde, situada na ilha de Santiago.",
+          "variantes": [
+            "Cidade da Praia"
+          ]
+        },
+        {
+          "id": "pastel",
+          "nome": "Pastel",
+          "descricao": "Salgado brasileiro de massa fina frita, em meia-lua ou retângulo, com recheios variados.",
+          "variantes": [
+            "Pastel de feira",
+            "Pastel paulista"
+          ]
+        },
+        {
+          "id": "persepolis_2",
+          "nome": "Persépolis",
+          "descricao": "Capital cerimonial em ruínas do Império Aquemênida, na província de Fars, no Irã.",
+          "variantes": [
+            "Takht-e Jamshid",
+            "Parseh"
+          ]
+        },
+        {
+          "id": "carate",
+          "nome": "Caratê",
+          "descricao": "Arte marcial de golpes de mãos e pés surgida em Okinawa, hoje parte do Japão.",
+          "variantes": [
+            "Karatê",
+            "Karate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Metrópolis",
+        "descricao": "Filme mudo alemão de ficção científica de 1927 dirigido por Fritz Lang, com o robô Maria.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "persepolis",
+          "nome": "Persépolis",
+          "descricao": "Romance gráfico autobiográfico sobre uma infância no Irã, publicado na França a partir de 2000",
+          "variantes": []
+        },
+        {
+          "id": "persepolis_2",
+          "nome": "Persépolis",
+          "descricao": "Capital cerimonial em ruínas do Império Aquemênida, na província de Fars, no Irã.",
+          "variantes": [
+            "Takht-e Jamshid",
+            "Parseh"
+          ]
+        },
+        {
+          "id": "stromboli",
+          "nome": "Stromboli",
+          "descricao": "Ilha vulcânica das Ilhas Eólias, no Mar Tirreno, ao norte da Sicília.",
+          "variantes": [
+            "Ilha de Stromboli",
+            "Monte Stromboli"
+          ]
+        },
+        {
+          "id": "tropicalia",
+          "nome": "Tropicália",
+          "descricao": "Movimento cultural brasileiro do fim dos anos 1960, liderado na música por Caetano Veloso e Gilberto Gil.",
+          "variantes": [
+            "Tropicalismo",
+            "Movimento tropicalista"
+          ]
+        },
+        {
+          "id": "monopoly",
+          "nome": "Monopoly",
+          "descricao": "Jogo de tabuleiro americano de compra e venda de imóveis, lançado pela Parker Brothers em 1935.",
+          "variantes": [
+            "Monopólio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Série de TV; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "kill_bill_volume_1",
+      "motivo": "Mesmo filme de 2003 de Tarantino."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Filme da Pixar; candidatas são entidades distintas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Série da Netflix; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Filme de Godard; candidatas não relacionadas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Filme de 1981; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Série The Sopranos; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Filme de Nolan; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Filme sul-coreano; candidatas não relacionadas."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Filme de Fritz Lang; nenhuma candidata corresponde."
+    }
+  ]
+}
