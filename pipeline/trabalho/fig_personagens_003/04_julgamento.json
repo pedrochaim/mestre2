@@ -1,0 +1,473 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Yoda",
+        "descricao": "Mestre Jedi pequeno e de pele verde da saga Star Wars.",
+        "variantes": [
+          "Mestre Yoda"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda"
+          ]
+        },
+        {
+          "id": "agua_com_gas",
+          "nome": "Água com gás",
+          "descricao": "Água em que se dissolveu gás carbônico sob pressão, base dos refrigerantes.",
+          "variantes": [
+            "Água gaseificada",
+            "Soda",
+            "Carbonated water"
+          ]
+        },
+        {
+          "id": "vodca",
+          "nome": "Vodca",
+          "descricao": "Bebida destilada incolor tradicional da Rússia, da Polônia e de outros países do Leste Europeu",
+          "variantes": [
+            "Vodka",
+            "Vodga"
+          ]
+        },
+        {
+          "id": "ronda",
+          "nome": "Ronda",
+          "descricao": "Samba-canção paulistano composto por Paulo Vanzolini, sobre uma mulher que procura o amado pela noite de São Paulo.",
+          "variantes": []
+        },
+        {
+          "id": "hyoga",
+          "nome": "Hyoga",
+          "descricao": "Cavaleiro de bronze russo de Os Cavaleiros do Zodíaco, mestre dos golpes de gelo.",
+          "variantes": [
+            "Cygnus Hyoga",
+            "Hyoga de Cisne"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Dona Clotilde",
+        "descricao": "Vizinha idosa da vila de Chaves, conhecida como a Bruxa do 71.",
+        "variantes": [
+          "Bruxa do 71 (Dona Clotilde)",
+          "Bruxa do 71"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "codigo_konami",
+          "nome": "Código Konami",
+          "descricao": "Sequência de botões usada como truque em jogos da Konami, criada por Kazuhisa Hashimoto.",
+          "variantes": [
+            "Konami Code",
+            "Contra Code"
+          ]
+        },
+        {
+          "id": "selecao_japonesa_de_voleibol_feminino",
+          "nome": "Seleção Japonesa de Voleibol Feminino",
+          "descricao": "Seleção feminina de vôlei do Japão, campeã olímpica em casa em 1964.",
+          "variantes": [
+            "Japan women's national volleyball team",
+            "Bruxas do Oriente"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Lord Voldemort",
+        "descricao": "Vilão principal da saga Harry Potter, bruxo das trevas sem nariz.",
+        "variantes": [
+          "Voldemort",
+          "Tom Riddle",
+          "Tom Marvolo Riddle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ford_modelo_t",
+          "nome": "Ford Modelo T",
+          "descricao": "Automóvel da Ford fabricado de 1908 a 1927, o primeiro carro produzido em massa em linha de montagem.",
+          "variantes": [
+            "Ford Model T",
+            "Ford Bigode",
+            "Tin Lizzie"
+          ]
+        },
+        {
+          "id": "democrito",
+          "nome": "Demócrito",
+          "descricao": "Filósofo grego pré-socrático (c. 460–370 a.C.), um dos formuladores da teoria atômica.",
+          "variantes": [
+            "Democritus",
+            "Demócrito de Abdera"
+          ]
+        },
+        {
+          "id": "tom_ze",
+          "nome": "Tom Zé",
+          "descricao": "Antônio José Santana Martins, cantor e compositor baiano ligado à Tropicália.",
+          "variantes": [
+            "Antônio José Santana Martins"
+          ]
+        },
+        {
+          "id": "ordem_corintia",
+          "nome": "Ordem coríntia",
+          "descricao": "Ordem arquitetônica clássica grega, a mais ornamentada, com capitel decorado com folhas de acanto.",
+          "variantes": [
+            "Corinthian order",
+            "Estilo coríntio"
+          ]
+        },
+        {
+          "id": "no_unidade",
+          "nome": "Nó (unidade)",
+          "descricao": "Unidade de velocidade usada na navegação marítima e aérea, equivalente a uma milha náutica por hora.",
+          "variantes": [
+            "Knot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Astronauta",
+        "descricao": "Astronauta Pereira, herói espacial brasileiro da Turma da Mônica, de Mauricio de Sousa.",
+        "variantes": [
+          "Astronauta (Turma da Mônica)",
+          "Astronauta Pereira",
+          "Astro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castrato",
+          "nome": "Castrato",
+          "descricao": "Cantor castrado antes da puberdade, muito comum na ópera e na música sacra dos séculos dezessete e dezoito.",
+          "variantes": [
+            "Castrati",
+            "Castrado"
+          ]
+        },
+        {
+          "id": "castor",
+          "nome": "Castor",
+          "descricao": "Roedor semiaquático do gênero Castor, conhecido por construir diques.",
+          "variantes": [
+            "Beaver"
+          ]
+        },
+        {
+          "id": "astro_boy",
+          "nome": "Astro Boy",
+          "descricao": "Menino robô criado por Osamu Tezuka, protagonista do mangá Tetsuwan Atom.",
+          "variantes": [
+            "Tetsuwan Atom",
+            "Mighty Atom"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "estadio_couto_pereira",
+          "nome": "Estádio Couto Pereira",
+          "descricao": "Estádio de futebol de Curitiba, Paraná, casa do Coritiba Foot Ball Club.",
+          "variantes": [
+            "Estádio Major Antônio Couto Pereira",
+            "Couto Pereira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mulher-Maravilha",
+        "descricao": "Heroína amazona da DC Comics, também conhecida como Diana Prince.",
+        "variantes": [
+          "Wonder Woman",
+          "Diana Prince"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mitsuyo_maeda",
+          "nome": "Mitsuyo Maeda",
+          "descricao": "Judoca japonês que se fixou em Belém do Pará e ensinou sua luta à família Gracie.",
+          "variantes": [
+            "Conde Koma",
+            "Count Koma"
+          ]
+        },
+        {
+          "id": "o_principe",
+          "nome": "O Príncipe",
+          "descricao": "Tratado político de Nicolau Maquiavel, escrito por volta de 1513.",
+          "variantes": [
+            "Il Principe",
+            "The Prince"
+          ]
+        },
+        {
+          "id": "conde_dookan",
+          "nome": "Conde Dookan",
+          "descricao": "Lorde Sith da franquia Star Wars, vilão de O Ataque dos Clones e A Vingança dos Sith.",
+          "variantes": [
+            "Count Dooku",
+            "Darth Tyranus"
+          ]
+        },
+        {
+          "id": "bandeira_do_imperio_otomano",
+          "nome": "Bandeira do Império Otomano",
+          "descricao": "Bandeira vermelha com crescente e estrela brancos de cinco pontas, adotada oficialmente pelo Império Otomano em 1844.",
+          "variantes": [
+            "Bandeira otomana"
+          ]
+        },
+        {
+          "id": "odete_roitman",
+          "nome": "Odete Roitman",
+          "descricao": "Vilã da telenovela Vale Tudo, de 1988, interpretada por Beatriz Segall.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Dona Florinda",
+        "descricao": "Personagem do seriado Chaves, mãe da Chiquinha, de bobes no cabelo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "guerras_floridas",
+          "nome": "Guerras floridas",
+          "descricao": "Combates ritualizados entre a Tríplice Aliança asteca e cidades vizinhas, como Tlaxcala.",
+          "variantes": [
+            "Guerra florida",
+            "Xochiyaoyotl",
+            "Flower war"
+          ]
+        },
+        {
+          "id": "onca_pintada",
+          "nome": "Onça-pintada",
+          "descricao": "Grande felino das Américas, espécie Panthera onca.",
+          "variantes": [
+            "Jaguar",
+            "Panthera onca",
+            "Onça"
+          ]
+        },
+        {
+          "id": "mona_lisa",
+          "nome": "Mona Lisa",
+          "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
+          "variantes": [
+            "Gioconda",
+            "La Gioconda",
+            "A Gioconda"
+          ]
+        },
+        {
+          "id": "maria_ii_de_portugal",
+          "nome": "Maria II de Portugal",
+          "descricao": "Rainha de Portugal no século dezenove, filha mais velha de Dom Pedro I e da imperatriz Leopoldina.",
+          "variantes": [
+            "Maria da Glória",
+            "Dona Maria II"
+          ]
+        },
+        {
+          "id": "ocarina",
+          "nome": "Ocarina",
+          "descricao": "Instrumento de sopro de cerâmica, com corpo fechado e furos para os dedos.",
+          "variantes": [
+            "Okarina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Louco",
+        "descricao": "Personagem maluco e loiro da Turma da Mônica que atazana o Cebolinha.",
+        "variantes": [
+          "Licurgo Orival Umbelino Cafiaspirino de Oliveira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "soluco",
+          "nome": "Soluço",
+          "descricao": "Contração involuntária e repetida que produz um som característico na garganta.",
+          "variantes": [
+            "Hiccup",
+            "Singulto"
+          ]
+        },
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        },
+        {
+          "id": "lucario",
+          "nome": "Lucario",
+          "descricao": "Pokémon dos tipos Lutador e Aço, número 448 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "lobo_cinzento",
+          "nome": "Lobo-cinzento",
+          "descricao": "Maior canídeo selvagem (Canis lupus), nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Lobo",
+            "Lobo-comum",
+            "Canis lupus"
+          ]
+        },
+        {
+          "id": "lucy",
+          "nome": "Lucy",
+          "descricao": "Esqueleto fóssil de Australopithecus afarensis com cerca de 3,2 milhões de anos, achado em Hadar, na Etiópia, em 1974.",
+          "variantes": [
+            "AL 288-1",
+            "Dinkinesh",
+            "Lucy (australopiteco)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Misa Amane",
+        "descricao": "Modelo e atriz loira que se torna a segunda Kira em Death Note.",
+        "variantes": [
+          "Misa",
+          "Second Kira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_tamisa",
+          "nome": "Rio Tâmisa",
+          "descricao": "Rio da Inglaterra que atravessa Londres e Oxford e deságua no mar do Norte.",
+          "variantes": [
+            "Tâmisa",
+            "River Thames",
+            "Thames"
+          ]
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        },
+        {
+          "id": "mistral",
+          "nome": "Mistral",
+          "descricao": "Vento frio e forte que sopra do norte pelo vale do Ródano até o Mediterrâneo, no sul da França",
+          "variantes": [
+            "Mistral (vento)"
+          ]
+        },
+        {
+          "id": "olympia_manet",
+          "nome": "Olympia (Manet)",
+          "descricao": "Pintura de Édouard Manet, de 1863, de uma mulher nua reclinada numa cama, com uma criada; está no Museu d'Orsay.",
+          "variantes": [
+            "Olympia",
+            "Olímpia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Yoda; nomes apenas parecidos."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a personagem de Chaves."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Voldemort."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Astronauta Pereira da Turma da Mônica difere de Astro Boy e das demais."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Mulher-Maravilha."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Dona Florinda."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o personagem Louco."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Misa Amane."
+    }
+  ]
+}

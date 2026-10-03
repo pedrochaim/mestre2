@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Yoda reconhecível, sem texto.",
+      "tipo": "aberta",
+      "nivel": 1,
+      "familia": "o_que_e",
+      "destino": 3,
+      "pergunta": "Quem é esse personagem?",
+      "resposta": "Yoda",
+      "ancora": {
+        "nome": "Yoda",
+        "descricao": "Mestre Jedi pequeno e de pele verde da saga Star Wars.",
+        "variantes": [
+          "Mestre Yoda"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A legenda visível cita \"Marquês de Sabugosa\", entregando a resposta; foto histórica de ator, de baixa qualidade."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem é uma foto do cartunista Henfil, não do personagem Fradim."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Cena de Chaves com a personagem bem visível e reconhecível por fãs.",
+      "tipo": "multipla",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "destino": 2,
+      "pergunta": "Que personagem da vila do Chaves é esta?",
+      "resposta": "Dona Clotilde",
+      "distratores": [
+        "Dona Florinda",
+        "Chiquinha",
+        "Paty"
+      ],
+      "ancora": {
+        "nome": "Dona Clotilde",
+        "descricao": "Vizinha idosa da vila de Chaves, conhecida como a Bruxa do 71.",
+        "variantes": [
+          "Bruxa do 71"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Voldemort claramente reconhecível, sem texto.",
+      "tipo": "aberta",
+      "nivel": 1,
+      "familia": "quem_fez",
+      "destino": 3,
+      "pergunta": "Que autora britânica criou este personagem?",
+      "resposta": "J. K. Rowling",
+      "ancora": {
+        "nome": "Lord Voldemort",
+        "descricao": "Vilão principal da saga Harry Potter, bruxo das trevas sem nariz.",
+        "variantes": [
+          "Voldemort",
+          "Tom Riddle",
+          "Tom Marvolo Riddle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Personagem sozinho, de corpo inteiro; silhueta com capacete de domo e antena é característica.",
+      "usar_silhueta": true,
+      "tipo": "multipla",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "destino": 1,
+      "pergunta": "Quem é este personagem de Mauricio de Sousa?",
+      "resposta": "Astronauta",
+      "distratores": [
+        "Capitão Feio",
+        "Jotalhão",
+        "Piteco"
+      ],
+      "ancora": {
+        "nome": "Astronauta",
+        "descricao": "Astronauta Pereira, herói espacial brasileiro da Turma da Mônica, de Mauricio de Sousa.",
+        "variantes": [
+          "Astronauta Pereira",
+          "Astro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arte clara da Mulher-Maravilha, sem texto; a figura de trás é a mesma personagem.",
+      "tipo": "aberta",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "destino": 1,
+      "pergunta": "Que editora de quadrinhos publica as histórias desta heroína?",
+      "resposta": "DC Comics",
+      "ancora": {
+        "nome": "Mulher-Maravilha",
+        "descricao": "Heroína amazona da DC Comics, também conhecida como Diana Prince.",
+        "variantes": [
+          "Wonder Woman",
+          "Diana Prince"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Cena de Chaves com a personagem bem visível e reconhecível.",
+      "tipo": "aberta",
+      "nivel": 1,
+      "familia": "quem_fez",
+      "destino": 2,
+      "pergunta": "Que atriz mexicana interpretava esta personagem do Chaves?",
+      "resposta": "Florinda Meza",
+      "ancora": {
+        "nome": "Dona Florinda",
+        "descricao": "Personagem do seriado Chaves, mãe da Chiquinha, de bobes no cabelo.",
+        "variantes": [
+          "Doña Florinda"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Personagem reconhecível pela imagem colorida; a silhueta de ponta-cabeça é pouco legível.",
+      "usar_silhueta": false,
+      "tipo": "multipla",
+      "nivel": 2,
+      "familia": "o_que_e",
+      "destino": 1,
+      "pergunta": "Que personagem da Turma da Mônica é este?",
+      "resposta": "Louco",
+      "distratores": [
+        "Do Contra",
+        "Xaveco",
+        "Zé Vampir"
+      ],
+      "ancora": {
+        "nome": "Louco",
+        "descricao": "Personagem maluco e loiro da Turma da Mônica que atazana o Cebolinha.",
+        "variantes": [
+          "Licurgo Orival Umbelino Cafiaspirino de Oliveira"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Foto antiga de jornal, de baixa qualidade; atriz maquiada não reconhecível como Emília."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "É o logotipo da novela com o nome escrito, não mostra a personagem Carminha."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Arte oficial clara de Misa; o texto ao fundo (Saint Valentine's Day) não entrega a resposta.",
+      "tipo": "aberta",
+      "nivel": 3,
+      "familia": "com_o_que_se_liga",
+      "destino": 0,
+      "pergunta": "De que mangá é esta personagem?",
+      "resposta": "Death Note",
+      "ancora": {
+        "nome": "Misa Amane",
+        "descricao": "Modelo e atriz loira que se torna a segunda Kira em Death Note.",
+        "variantes": [
+          "Misa",
+          "Second Kira"
+        ]
+      }
+    }
+  ]
+}
