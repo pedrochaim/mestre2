@@ -1,0 +1,748 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Brasil",
+        "descricao": "País da América do Sul, o maior da região, de língua portuguesa e capital em Brasília.",
+        "variantes": [
+          "República Federativa do Brasil"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "brasil",
+          "nome": "Brasil",
+          "descricao": "País da América do Sul, o maior da região, de língua portuguesa e capital Brasília.",
+          "variantes": [
+            "República Federativa do Brasil"
+          ]
+        },
+        {
+          "id": "brasilia",
+          "nome": "Brasília",
+          "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+          "variantes": [
+            "Plano Piloto"
+          ]
+        },
+        {
+          "id": "volkswagen_brasilia",
+          "nome": "Volkswagen Brasília",
+          "descricao": "Carro familiar compacto com motor traseiro da Volkswagen do Brasil, fabricado de 1973 a 1982.",
+          "variantes": [
+            "Brasília",
+            "VW Brasília"
+          ]
+        },
+        {
+          "id": "aquarela_do_brasil",
+          "nome": "Aquarela do Brasil",
+          "descricao": "Samba-exaltação composto por Ary Barroso em 1939.",
+          "variantes": [
+            "Brazil"
+          ]
+        },
+        {
+          "id": "pau_brasil",
+          "nome": "Pau-brasil",
+          "descricao": "Árvore nativa da Mata Atlântica, cuja madeira avermelhada foi o primeiro produto explorado pelos portugueses no Brasil.",
+          "variantes": [
+            "Paubrasilia echinata",
+            "Caesalpinia echinata",
+            "ibirapitanga",
+            "pernambuco"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Bahia",
+        "descricao": "Estado brasileiro da Região Nordeste, cuja capital é Salvador.",
+        "variantes": [
+          "Estado da Bahia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bahia",
+          "nome": "Bahia",
+          "descricao": "Estado da Região Nordeste do Brasil, com capital em Salvador.",
+          "variantes": []
+        },
+        {
+          "id": "piaui",
+          "nome": "Piauí",
+          "descricao": "Estado da Região Nordeste do Brasil, com o menor litoral do país e capital em Teresina.",
+          "variantes": [
+            "Estado do Piauí",
+            "PI"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "lago_baikal",
+          "nome": "Lago Baikal",
+          "descricao": "Lago de água doce no sul da Sibéria, na Rússia, o mais profundo do mundo.",
+          "variantes": [
+            "Baikal",
+            "Baical",
+            "Lake Baikal"
+          ]
+        },
+        {
+          "id": "ahimsa",
+          "nome": "Ahimsa",
+          "descricao": "Princípio de não violência presente no hinduísmo, no budismo e no jainismo",
+          "variantes": [
+            "Ahinsa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Chade",
+        "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+        "variantes": [
+          "República do Chade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chile",
+          "nome": "Chile",
+          "descricao": "País longo e estreito da América do Sul, entre os Andes e o Oceano Pacífico, com capital em Santiago.",
+          "variantes": [
+            "República do Chile"
+          ]
+        },
+        {
+          "id": "cerimonia_do_cha_japonesa",
+          "nome": "Cerimônia do chá japonesa",
+          "descricao": "Ritual tradicional japonês de preparo e serviço do chá, ligado ao zen-budismo.",
+          "variantes": [
+            "Chanoyu",
+            "Chadō",
+            "Sadō"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Rússia",
+        "descricao": "O maior país do mundo, entre a Europa Oriental e a Ásia setentrional, com capital em Moscou.",
+        "variantes": [
+          "Federação Russa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "russia",
+          "nome": "Rússia",
+          "descricao": "País da Europa Oriental e Ásia Setentrional, o maior do mundo em área, cuja capital é Moscou.",
+          "variantes": [
+            "Federação Russa"
+          ]
+        },
+        {
+          "id": "confederacao_iroquesa",
+          "nome": "Confederação Iroquesa",
+          "descricao": "Aliança de nações indígenas do nordeste da América do Norte, também chamada Haudenosaunee.",
+          "variantes": [
+            "Haudenosaunee",
+            "Liga Iroquesa",
+            "Cinco Nações"
+          ]
+        },
+        {
+          "id": "suica",
+          "nome": "Suíça",
+          "descricao": "País sem litoral da Europa Central, confederação de 26 cantões.",
+          "variantes": [
+            "Confederação Suíça",
+            "Switzerland"
+          ]
+        },
+        {
+          "id": "jean_jacques_rousseau",
+          "nome": "Jean-Jacques Rousseau",
+          "descricao": "Filósofo genebrino (1712–1778), autor de O Contrato Social e Emílio.",
+          "variantes": [
+            "Rousseau"
+          ]
+        },
+        {
+          "id": "matrioska",
+          "nome": "Matrioska",
+          "descricao": "Conjunto russo de bonecas de madeira ocas que se encaixam umas dentro das outras.",
+          "variantes": [
+            "Matryoshka",
+            "Boneca russa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Uruguai",
+        "descricao": "País do sudeste da América do Sul, entre a Argentina e o Brasil, com capital em Montevidéu.",
+        "variantes": [
+          "República Oriental do Uruguai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "uruguai",
+          "nome": "Uruguai",
+          "descricao": "País do sudeste da América do Sul entre Argentina e Brasil, cuja capital é Montevidéu.",
+          "variantes": [
+            "República Oriental do Uruguai"
+          ]
+        },
+        {
+          "id": "portugal",
+          "nome": "Portugal",
+          "descricao": "País do sudoeste da Europa, na Península Ibérica, de capital Lisboa.",
+          "variantes": [
+            "República Portuguesa"
+          ]
+        },
+        {
+          "id": "egito",
+          "nome": "Egito",
+          "descricao": "País do nordeste da África, atravessado pelo rio Nilo, com capital no Cairo.",
+          "variantes": [
+            "República Árabe do Egito"
+          ]
+        },
+        {
+          "id": "brasil",
+          "nome": "Brasil",
+          "descricao": "País da América do Sul, o maior da região, de língua portuguesa e capital Brasília.",
+          "variantes": [
+            "República Federativa do Brasil"
+          ]
+        },
+        {
+          "id": "rugbi",
+          "nome": "Rúgbi",
+          "descricao": "Esporte coletivo com bola oval, de origem inglesa.",
+          "variantes": [
+            "Rugby"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Eritreia",
+        "descricao": "País do Chifre da África, na costa do Mar Vermelho, com capital em Asmara.",
+        "variantes": [
+          "Estado da Eritreia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sergipe",
+          "nome": "Sergipe",
+          "descricao": "Menor estado do Brasil em área, na Região Nordeste, entre Bahia e Alagoas, com capital em Aracaju.",
+          "variantes": [
+            "Estado de Sergipe",
+            "SE"
+          ]
+        },
+        {
+          "id": "tanabata",
+          "nome": "Tanabata",
+          "descricao": "Festival japonês das estrelas, em que se penduram pedidos escritos em ramos de bambu.",
+          "variantes": [
+            "Festival das Estrelas",
+            "Festa das Estrelas"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "sirenios",
+          "nome": "Sirênios",
+          "descricao": "Ordem de mamíferos aquáticos herbívoros que inclui peixes-bois e dugongos.",
+          "variantes": [
+            "Sirenia",
+            "Sirênia"
+          ]
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Estados Unidos",
+        "descricao": "País federal da América do Norte com 50 estados e capital em Washington, D.C.",
+        "variantes": [
+          "Estados Unidos da América",
+          "EUA"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "mexico",
+          "nome": "México",
+          "descricao": "País da América do Norte, o mais ao norte da América Latina, cuja capital é a Cidade do México.",
+          "variantes": [
+            "Estados Unidos Mexicanos"
+          ]
+        },
+        {
+          "id": "eu",
+          "nome": "Eu",
+          "descricao": "Único livro de poemas publicado em vida por Augusto dos Anjos, em 1912.",
+          "variantes": [
+            "Eu e Outras Poesias"
+          ]
+        },
+        {
+          "id": "the_star_spangled_banner",
+          "nome": "The Star-Spangled Banner",
+          "descricao": "Hino nacional dos Estados Unidos, com letra de Francis Scott Key escrita em 1814.",
+          "variantes": [
+            "Hino dos Estados Unidos",
+            "A Bandeira Estrelada"
+          ]
+        },
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Índia",
+        "descricao": "País do sul da Ásia, o mais populoso do mundo, com capital em Nova Délhi.",
+        "variantes": [
+          "República da Índia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "india",
+          "nome": "Índia",
+          "descricao": "País do sul da Ásia, o mais populoso do mundo.",
+          "variantes": [
+            "República da Índia"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "turquia",
+          "nome": "Turquia",
+          "descricao": "País entre a Ásia Ocidental e a Europa, de capital Ancara.",
+          "variantes": [
+            "Türkiye",
+            "República da Turquia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Amapá",
+        "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+        "variantes": [
+          "Estado do Amapá"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "sampa",
+          "nome": "Sampa",
+          "descricao": "Canção de Caetano Veloso de 1978, homenagem à cidade de São Paulo.",
+          "variantes": []
+        },
+        {
+          "id": "pampa",
+          "nome": "Pampa",
+          "descricao": "Bioma de campos e planícies do sul do Brasil, do Uruguai e do nordeste da Argentina",
+          "variantes": [
+            "Pampas",
+            "Campos sulinos"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "piaui",
+          "nome": "Piauí",
+          "descricao": "Estado da Região Nordeste do Brasil, com o menor litoral do país e capital em Teresina.",
+          "variantes": [
+            "Estado do Piauí",
+            "PI"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "México",
+        "descricao": "País da América do Norte, ao sul dos Estados Unidos, com capital na Cidade do México.",
+        "variantes": [
+          "Estados Unidos Mexicanos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mexico",
+          "nome": "México",
+          "descricao": "País da América do Norte, o mais ao norte da América Latina, cuja capital é a Cidade do México.",
+          "variantes": [
+            "Estados Unidos Mexicanos"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "cidade_do_mexico",
+          "nome": "Cidade do México",
+          "descricao": "Capital do México, erguida sobre o antigo leito do lago Texcoco.",
+          "variantes": [
+            "Ciudad de México",
+            "Mexico City"
+          ]
+        },
+        {
+          "id": "brasil_1_x_7_alemanha",
+          "nome": "Brasil 1 x 7 Alemanha",
+          "descricao": "Semifinal da Copa do Mundo de 2014, disputada no Mineirão, em Belo Horizonte, em 8 de julho de 2014.",
+          "variantes": [
+            "Mineiraço",
+            "Sete a um",
+            "Brazil v Germany 2014"
+          ]
+        },
+        {
+          "id": "jerico",
+          "nome": "Jericó",
+          "descricao": "Cidade na Cisjordânia habitada desde o Neolítico, famosa por suas antigas muralhas.",
+          "variantes": [
+            "Jericho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Madagascar",
+        "descricao": "País insular do Oceano Índico, a sudeste da África, com capital em Antananarivo.",
+        "variantes": [
+          "República de Madagascar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fossa",
+          "nome": "Fossa",
+          "descricao": "Carnívoro esguio e de cauda longa, parecido com um felino, endêmico de Madagascar (Cryptoprocta ferox).",
+          "variantes": [
+            "Cryptoprocta ferox",
+            "Fossa-de-madagascar"
+          ]
+        },
+        {
+          "id": "angola",
+          "nome": "Angola",
+          "descricao": "País da costa ocidental da África Austral, de língua portuguesa, cuja capital é Luanda.",
+          "variantes": [
+            "República de Angola"
+          ]
+        },
+        {
+          "id": "equador",
+          "nome": "Equador",
+          "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+          "variantes": [
+            "Ecuador",
+            "República do Equador"
+          ]
+        },
+        {
+          "id": "mocambique",
+          "nome": "Moçambique",
+          "descricao": "País lusófono do sudeste da África, banhado pelo Índico.",
+          "variantes": [
+            "República de Moçambique",
+            "Mozambique"
+          ]
+        },
+        {
+          "id": "chiclete",
+          "nome": "Chiclete",
+          "descricao": "Goma de mascar, cuja produção industrial moderna nos Estados Unidos começou com o chicle trazido do México.",
+          "variantes": [
+            "Goma de mascar",
+            "Chewing gum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Alagoas",
+        "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+        "variantes": [
+          "Estado de Alagoas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ilhas_galapagos",
+          "nome": "Ilhas Galápagos",
+          "descricao": "Arquipélago vulcânico do Equador, no oceano Pacífico, famoso por sua fauna única.",
+          "variantes": [
+            "Galápagos",
+            "Arquipélago de Colón",
+            "Galapagos Islands"
+          ]
+        },
+        {
+          "id": "israel",
+          "nome": "Israel",
+          "descricao": "País do Oriente Médio, na costa leste do Mediterrâneo.",
+          "variantes": [
+            "Estado de Israel"
+          ]
+        },
+        {
+          "id": "laos",
+          "nome": "Laos",
+          "descricao": "País sem litoral do Sudeste Asiático, entre Vietnã, Tailândia, Camboja, Mianmar e China, com capital em Vientiane.",
+          "variantes": [
+            "República Democrática Popular do Laos"
+          ]
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "brasil",
+      "motivo": "Mesmo país, descrição e variantes equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "bahia",
+      "motivo": "Mesmo estado da Bahia, capital Salvador."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Chade não consta entre as candidatas; Chile é outro país."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "russia",
+      "motivo": "Mesmo país, Rússia."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "uruguai",
+      "motivo": "Mesmo país, Uruguai."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Eritreia não consta entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "estados_unidos",
+      "motivo": "Mesmo país, descrição equivalente."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "india",
+      "motivo": "Mesmo país, Índia."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Amapá não consta entre as candidatas; Pará é outro estado."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "mexico",
+      "motivo": "Mesmo país, México, não a capital."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Madagascar (país) não consta; Fossa é um animal endêmico."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Alagoas não consta entre as candidatas."
+    }
+  ]
+}

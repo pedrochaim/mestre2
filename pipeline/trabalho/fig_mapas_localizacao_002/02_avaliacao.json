@@ -1,0 +1,241 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mapa de globo limpo, sem texto, Brasil inconfundível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Brasília",
+      "destino": 0,
+      "ancora": {
+        "nome": "Brasil",
+        "descricao": "País da América do Sul, o maior da região, de língua portuguesa e capital em Brasília.",
+        "variantes": [
+          "República Federativa do Brasil"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Mapa do Brasil com a Bahia em vermelho, sem texto, forma reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado destacado neste mapa?",
+      "resposta": "Salvador",
+      "destino": 1,
+      "ancora": {
+        "nome": "Bahia",
+        "descricao": "Estado brasileiro da Região Nordeste, cuja capital é Salvador.",
+        "variantes": [
+          "Estado da Bahia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Globo centrado na África, Chade em posição central e clara, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes países faz fronteira com o país destacado neste mapa?",
+      "resposta": "Níger",
+      "distratores": [
+        "Mali",
+        "Argélia",
+        "Egito"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Chade",
+        "descricao": "País sem litoral da África Central, com capital em N'Djamena.",
+        "variantes": [
+          "República do Chade"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Mapa de globo com a Rússia inconfundível pela enorme extensão; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Moscou",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rússia",
+        "descricao": "O maior país do mundo, entre a Europa Oriental e a Ásia setentrional, com capital em Moscou.",
+        "variantes": [
+          "Federação Russa"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Uruguai pequeno mas bem localizado no globo da América do Sul; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes países faz fronteira com o país destacado neste mapa?",
+      "resposta": "Argentina",
+      "distratores": [
+        "Paraguai",
+        "Chile",
+        "Bolívia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Uruguai",
+        "descricao": "País do sudeste da América do Sul, entre a Argentina e o Brasil, com capital em Montevidéu.",
+        "variantes": [
+          "República Oriental do Uruguai"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Eritreia em vermelho no globo da África, sem texto; pequena, mas localizável no Mar Vermelho.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do país destacado neste mapa?",
+      "resposta": "Asmara",
+      "destino": 0,
+      "ancora": {
+        "nome": "Eritreia",
+        "descricao": "País do Chifre da África, na costa do Mar Vermelho, com capital em Asmara.",
+        "variantes": [
+          "Estado da Eritreia"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Globo centrado na América do Norte, EUA com Alasca e Havaí destacados; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que continente fica o país destacado neste mapa?",
+      "resposta": "América do Norte",
+      "destino": 0,
+      "ancora": {
+        "nome": "Estados Unidos",
+        "descricao": "País federal da América do Norte com 50 estados e capital em Washington, D.C.",
+        "variantes": [
+          "Estados Unidos da América",
+          "EUA"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Índia muito reconhecível no globo; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes países faz fronteira terrestre com o país destacado neste mapa?",
+      "resposta": "Nepal",
+      "distratores": [
+        "Sri Lanka",
+        "Tailândia",
+        "Irã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Índia",
+        "descricao": "País do sul da Ásia, o mais populoso do mundo, com capital em Nova Délhi.",
+        "variantes": [
+          "República da Índia"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Amapá em vermelho no mapa do Brasil, forma e posição característicos; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que região do Brasil fica o estado destacado neste mapa?",
+      "resposta": "Norte",
+      "destino": 1,
+      "ancora": {
+        "nome": "Amapá",
+        "descricao": "Estado brasileiro da Região Norte, na fronteira com a Guiana Francesa, com capital em Macapá.",
+        "variantes": [
+          "Estado do Amapá"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "México claro no globo da América, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes países faz fronteira com o país destacado neste mapa?",
+      "resposta": "Guatemala",
+      "distratores": [
+        "Honduras",
+        "Cuba",
+        "Panamá"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "México",
+        "descricao": "País da América do Norte, ao sul dos Estados Unidos, com capital na Cidade do México.",
+        "variantes": [
+          "Estados Unidos Mexicanos"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ilha inconfundível, isolada no Índico, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que canal separa esta ilha do continente africano?",
+      "resposta": "Canal de Moçambique",
+      "destino": 0,
+      "ancora": {
+        "nome": "Madagascar",
+        "descricao": "País insular do Oceano Índico, a sudeste da África, com capital em Antananarivo.",
+        "variantes": [
+          "República de Madagascar"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Alagoas em vermelho no mapa do Brasil, pequeno mas localizável no litoral do Nordeste; sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Qual é a capital do estado destacado neste mapa?",
+      "resposta": "Maceió",
+      "destino": 1,
+      "ancora": {
+        "nome": "Alagoas",
+        "descricao": "Estado brasileiro do litoral da Região Nordeste, com capital em Maceió.",
+        "variantes": [
+          "Estado de Alagoas"
+        ]
+      }
+    }
+  ]
+}

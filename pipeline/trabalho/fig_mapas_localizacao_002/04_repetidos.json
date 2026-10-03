@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Brasília"
+      },
+      "existentes": [
+        {
+          "id": "q00653",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Brasil"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Qual é a capital do estado destacado neste mapa?",
+        "resposta": "Salvador"
+      },
+      "existentes": [
+        {
+          "id": "q02433",
+          "pergunta": "Que estado brasileiro faz divisa com o maior número de outros estados, oito ao todo?",
+          "resposta": "Bahia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual é a capital do país destacado neste mapa?",
+        "resposta": "Moscou"
+      },
+      "existentes": [
+        {
+          "id": "q01293",
+          "pergunta": "De que país é esta bandeira?",
+          "resposta": "Rússia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Qual destes países faz fronteira com o país destacado neste mapa?",
+        "resposta": "Argentina"
+      },
+      "existentes": [
+        {
+          "id": "q01298",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Montevidéu"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que continente fica o país destacado neste mapa?",
+        "resposta": "América do Norte"
+      },
+      "existentes": [
+        {
+          "id": "q00656",
+          "pergunta": "Que país faz fronteira ao sul com o país desta bandeira?",
+          "resposta": "México"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Qual destes países faz fronteira terrestre com o país destacado neste mapa?",
+        "resposta": "Nepal"
+      },
+      "existentes": [
+        {
+          "id": "q00922",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Nova Délhi"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual destes países faz fronteira com o país destacado neste mapa?",
+        "resposta": "Guatemala"
+      },
+      "existentes": [
+        {
+          "id": "q01292",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Cidade do México"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Capital do país é um fato diferente de identificar a bandeira."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Capital da Bahia difere de ser o estado com mais divisas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Capital da Rússia difere de identificar a bandeira."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Fronteira do Uruguai difere de sua capital."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Continente dos EUA difere de fronteira ao sul."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Fronteira da Índia difere de sua capital."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Fronteira do México difere de sua capital."
+    }
+  ]
+}
