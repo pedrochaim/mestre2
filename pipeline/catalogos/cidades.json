@@ -12,7 +12,7 @@
       "titulo": "en:New York City",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Londres",
@@ -180,7 +180,7 @@
       "titulo": "en:Kyoto",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Florianópolis",
@@ -194,7 +194,7 @@
       "titulo": "en:Hallstatt",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Chefchaouen",
@@ -257,7 +257,7 @@
       "titulo": "en:São Luís, Maranhão",
       "camada": 3,
       "destino": 1,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Valparaíso",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 0,
       "status": "reprovada"
+    },
+    {
+      "nome": "Tóquio",
+      "titulo": "en:Tokyo",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Atenas",
+      "titulo": "en:Athens",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Madri",
+      "titulo": "en:Madrid",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Berlim",
+      "titulo": "en:Berlin",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pequim",
+      "titulo": "en:Beijing",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cairo",
+      "titulo": "en:Cairo",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Washington",
+      "titulo": "en:Washington, D.C.",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sydney",
+      "titulo": "en:Sydney",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Manaus",
+      "titulo": "en:Manaus",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Curitiba",
+      "titulo": "en:Curitiba",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Porto Alegre",
+      "titulo": "en:Porto Alegre",
+      "camada": 1,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Fortaleza",
+      "titulo": "en:Fortaleza",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Foz do Iguaçu",
+      "titulo": "en:Foz do Iguaçu",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Havana",
+      "titulo": "en:Havana",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cartagena",
+      "titulo": "en:Cartagena, Colombia",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cusco",
+      "titulo": "en:Cusco",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Marrakech",
+      "titulo": "en:Marrakesh",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Seul",
+      "titulo": "en:Seoul",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sevilha",
+      "titulo": "en:Seville",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Copenhague",
+      "titulo": "en:Copenhagen",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estocolmo",
+      "titulo": "en:Stockholm",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Montevidéu",
+      "titulo": "en:Montevideo",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Natal",
+      "titulo": "en:Natal, Rio Grande do Norte",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Maceió",
+      "titulo": "en:Maceió",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Campos do Jordão",
+      "titulo": "en:Campos do Jordão",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Blumenau",
+      "titulo": "en:Blumenau",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Siena",
+      "titulo": "en:Siena",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "San Gimignano",
+      "titulo": "en:San Gimignano",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Matera",
+      "titulo": "en:Matera",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Toledo",
+      "titulo": "en:Toledo, Spain",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tallinn",
+      "titulo": "en:Tallinn",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Samarcanda",
+      "titulo": "en:Samarkand",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jaipur",
+      "titulo": "en:Jaipur",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Varanasi",
+      "titulo": "en:Varanasi",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Ushuaia",
+      "titulo": "en:Ushuaia",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "La Paz",
+      "titulo": "en:La Paz",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Diamantina",
+      "titulo": "pt:Diamantina",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cidade de Goiás",
+      "titulo": "pt:Goiás (município)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Lençóis",
+      "titulo": "pt:Lençóis",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Penedo",
+      "titulo": "pt:Penedo (Alagoas)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
     }
   ]
 }

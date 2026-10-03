@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que estado do Nordeste brasileiro fica este centro histórico?",
+        "resposta": "Maranhão"
+      },
+      "existentes": [
+        {
+          "id": "q02444",
+          "pergunta": "Que país europeu fundou, em 1612, a cidade que hoje é a capital do Maranhão, São Luís?",
+          "resposta": "França"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o estado onde fica o centro histórico (Maranhão); a existente pede qual país fundou São Luís em 1612 (França). São fatos diferentes, e saber um não leva ao outro."
+    }
+  ]
+}

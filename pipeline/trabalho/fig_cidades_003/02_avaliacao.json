@@ -1,0 +1,211 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Montagem de seis vistas diferentes (ponte, teatro, estádio, encontro dos rios, monumento); não há um único assunto claro."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Vista aérea genérica de uma cidade média; sem monumento ou traço que permita reconhecer Blumenau com resposta única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Ghats de Varanasi à beira do rio, reconhecíveis; placa em hindi/inglês diz só 'Munshi Ghat', não o nome da cidade.",
+      "pergunta": "Em que cidade indiana ficam estas escadarias de pedra que descem até o rio?",
+      "resposta": "Varanasi (Benares)",
+      "tipo": "multipla",
+      "distratores": [
+        "Haridwar",
+        "Jaipur",
+        "Agra"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Varanasi",
+        "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+        "variantes": [
+          "Benares",
+          "Banaras",
+          "Kashi"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Vista aérea do centro e do porto às margens do Guaíba; reconhecível em múltipla escolha.",
+      "pergunta": "Que capital brasileira, às margens de um grande lago de água doce, aparece nesta vista aérea?",
+      "resposta": "Porto Alegre",
+      "tipo": "multipla",
+      "distratores": [
+        "Belém",
+        "Recife",
+        "Florianópolis"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 1,
+      "ancora": {
+        "nome": "Porto Alegre",
+        "descricao": "Capital do Rio Grande do Sul, na margem leste do lago Guaíba.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Telhados e prédios genéricos, sem marco reconhecível; poderia ser outra cidade caribenha ou latina."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea da cidade velha com telhados vermelhos, igrejas e o mar ao fundo; reconhecível.",
+      "pergunta": "Que capital europeia, às margens do mar Báltico, aparece nesta vista aérea?",
+      "resposta": "Tallinn",
+      "tipo": "multipla",
+      "distratores": [
+        "Riga",
+        "Helsinque",
+        "Vilnius"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Tallinn",
+        "descricao": "Capital da Estônia, no golfo da Finlândia, com cidade velha medieval.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Torre de TV, Reichstag e Portão de Brandemburgo, reconhecíveis; sem texto.",
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Berlim",
+      "tipo": "aberta",
+      "distratores": [],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Berlim",
+        "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+        "variantes": [
+          "Berlin"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Rua tradicional de Quioto (Ninenzaka) com casas de madeira; placas só em japonês. Reconhecível em múltipla escolha.",
+      "pergunta": "Em que cidade japonesa fica esta rua de casas tradicionais de madeira?",
+      "resposta": "Quioto",
+      "tipo": "multipla",
+      "distratores": [
+        "Takayama",
+        "Kanazawa",
+        "Nara"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Quioto",
+        "descricao": "Antiga capital imperial do Japão, na ilha de Honshu, vista na rua histórica Ninenzaka.",
+        "variantes": [
+          "Kyoto"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Vilarejo à beira do lago sob montanhas, com a torre da igreja protestante; imagem clássica e sem texto.",
+      "pergunta": "Que vilarejo alpino, à beira de um lago, é este?",
+      "resposta": "Hallstatt",
+      "tipo": "multipla",
+      "distratores": [
+        "Sankt Wolfgang",
+        "Bled",
+        "Lauterbrunnen"
+      ],
+      "familia": "onde",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Hallstatt",
+        "descricao": "Pequena cidade austríaca à margem do lago Hallstätter See, na região de Salzkammergut.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Skyline do sul de Manhattan com o One World Trade Center, reconhecível; sem texto.",
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Nova York",
+      "tipo": "aberta",
+      "distratores": [],
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Nova York",
+        "descricao": "Maior cidade dos Estados Unidos, vista pelo skyline do sul de Manhattan.",
+        "variantes": [
+          "Nova Iorque",
+          "New York City"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Panorama do vale com telhados de telha e montanhas andinas; reconhecível para quem conhece, justo em múltipla escolha.",
+      "pergunta": "Que cidade andina aparece neste panorama?",
+      "resposta": "Cusco",
+      "tipo": "multipla",
+      "distratores": [
+        "Arequipa",
+        "La Paz",
+        "Quito"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Cusco",
+        "descricao": "Cidade do sudeste do Peru, antiga capital do Império Inca, nos Andes.",
+        "variantes": [
+          "Cuzco"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Casarões com fachadas de azulejo e ruas de pedra do centro histórico, reconhecíveis; sem texto que entregue.",
+      "pergunta": "Em que estado brasileiro fica este centro histórico de casarões de azulejos?",
+      "resposta": "Maranhão",
+      "tipo": "aberta",
+      "distratores": [],
+      "familia": "onde",
+      "nivel": 3,
+      "destino": 1,
+      "ancora": {
+        "nome": "São Luís",
+        "descricao": "Capital do Maranhão, com centro histórico de casarões de azulejos.",
+        "variantes": [
+          "São Luís do Maranhão"
+        ]
+      }
+    }
+  ]
+}

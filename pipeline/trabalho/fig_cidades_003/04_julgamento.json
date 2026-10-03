@@ -1,0 +1,495 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Varanasi",
+        "descricao": "Cidade sagrada hindu às margens do rio Ganges, no estado indiano de Uttar Pradesh.",
+        "variantes": [
+          "Benares",
+          "Banaras",
+          "Kashi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos"
+          ]
+        },
+        {
+          "id": "ancara",
+          "nome": "Ancara",
+          "descricao": "Capital da Turquia desde 1923, na região da Anatólia Central.",
+          "variantes": [
+            "Ankara",
+            "Angorá"
+          ]
+        },
+        {
+          "id": "abacaxi",
+          "nome": "Abacaxi",
+          "descricao": "Fruta tropical da planta Ananas comosus, nativa da América do Sul",
+          "variantes": [
+            "Ananas comosus",
+            "ananás",
+            "pineapple"
+          ]
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "ash_ketchum",
+          "nome": "Ash Ketchum",
+          "descricao": "Treinador protagonista do anime Pokémon, chamado Satoshi no Japão.",
+          "variantes": [
+            "Satoshi",
+            "Ash"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Porto Alegre",
+        "descricao": "Capital do Rio Grande do Sul, na margem leste do lago Guaíba.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "corto_maltese",
+          "nome": "Corto Maltese",
+          "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+          "variantes": [
+            "Corto"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "ratoncito_perez",
+          "nome": "Ratoncito Pérez",
+          "descricao": "Personagem do folclore espanhol e hispano-americano que troca os dentes de leite das crianças por presentes.",
+          "variantes": [
+            "Ratinho Pérez",
+            "Ratón Pérez"
+          ]
+        },
+        {
+          "id": "portugal",
+          "nome": "Portugal",
+          "descricao": "País do sudoeste da Europa, na Península Ibérica, de capital Lisboa.",
+          "variantes": [
+            "República Portuguesa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Tallinn",
+        "descricao": "Capital da Estônia, no golfo da Finlândia, com cidade velha medieval.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "josef_stalin",
+          "nome": "Josef Stálin",
+          "descricao": "Ditador da União Soviética de 1922 a 1953, líder soviético na Segunda Guerra Mundial.",
+          "variantes": [
+            "Joseph Stalin",
+            "Iosif Stálin",
+            "Stalin",
+            "Iosif Djugachvili"
+          ]
+        },
+        {
+          "id": "tintim",
+          "nome": "Tintim",
+          "descricao": "Jovem repórter belga criado por Hergé em 1929, protagonista de As Aventuras de Tintim",
+          "variantes": [
+            "Tintin"
+          ]
+        },
+        {
+          "id": "alison_cerutti",
+          "nome": "Alison Cerutti",
+          "descricao": "Jogador brasileiro de vôlei de praia, campeão olímpico com Bruno Schmidt em 2016.",
+          "variantes": [
+            "Alison Conte Cerutti",
+            "Alison"
+          ]
+        },
+        {
+          "id": "italia",
+          "nome": "Itália",
+          "descricao": "País da Europa meridional, formado por uma península em forma de bota, Sicília e Sardenha.",
+          "variantes": [
+            "República Italiana"
+          ]
+        },
+        {
+          "id": "allianz_arena",
+          "nome": "Allianz Arena",
+          "descricao": "Estádio do Bayern de Munique, de fachada que muda de cor.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Berlim",
+        "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+        "variantes": [
+          "Berlin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "berna",
+          "nome": "Berna",
+          "descricao": "Cidade suíça que funciona como sede do governo federal da Suíça.",
+          "variantes": [
+            "Bern",
+            "Berne"
+          ]
+        },
+        {
+          "id": "belem",
+          "nome": "Belém",
+          "descricao": "Capital do estado do Pará, fundada em 1616 às margens da baía do Guajará.",
+          "variantes": [
+            "Belém do Pará",
+            "Santa Maria de Belém do Grão-Pará"
+          ]
+        },
+        {
+          "id": "brain_virus_de_computador",
+          "nome": "Brain (vírus de computador)",
+          "descricao": "Vírus de computador de 1986 que infectava disquetes de computadores pessoais compatíveis com o IBM PC.",
+          "variantes": [
+            "Brain",
+            "Pakistani Brain"
+          ]
+        },
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga"
+          ]
+        },
+        {
+          "id": "beringia",
+          "nome": "Beríngia",
+          "descricao": "Região entre a Sibéria e o Alasca que, nas eras glaciais, formava uma ponte de terra por onde humanos chegaram à América.",
+          "variantes": [
+            "Ponte terrestre de Bering"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Quioto",
+        "descricao": "Antiga capital imperial do Japão, na ilha de Honshu, vista na rua histórica Ninenzaka.",
+        "variantes": [
+          "Kyoto"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quimono",
+          "nome": "Quimono",
+          "descricao": "Vestimenta tradicional japonesa em forma de T, com mangas largas e presa por uma faixa chamada obi",
+          "variantes": [
+            "Kimono"
+          ]
+        },
+        {
+          "id": "morcego",
+          "nome": "Morcego",
+          "descricao": "Mamífero voador da ordem Chiroptera.",
+          "variantes": [
+            "Quiróptero",
+            "Chiroptera",
+            "Bat"
+          ]
+        },
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "boto_cor_de_rosa",
+          "nome": "Boto-cor-de-rosa",
+          "descricao": "Golfinho de água doce das bacias do Amazonas e do Orinoco, espécie Inia geoffrensis.",
+          "variantes": [
+            "Boto",
+            "Inia geoffrensis",
+            "Amazon river dolphin",
+            "Boto-vermelho"
+          ]
+        },
+        {
+          "id": "no_unidade",
+          "nome": "Nó (unidade)",
+          "descricao": "Unidade de velocidade usada na navegação marítima e aérea, equivalente a uma milha náutica por hora.",
+          "variantes": [
+            "Knot"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Hallstatt",
+        "descricao": "Pequena cidade austríaca à margem do lago Hallstätter See, na região de Salzkammergut.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "converse_all_star",
+          "nome": "Converse All Star",
+          "descricao": "Modelo de tênis de lona da Converse, criado para o basquete no início do século vinte.",
+          "variantes": [
+            "Chuck Taylor All-Star",
+            "Chuck Taylor All Star",
+            "All Star"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Nova York",
+        "descricao": "Maior cidade dos Estados Unidos, vista pelo skyline do sul de Manhattan.",
+        "variantes": [
+          "Nova Iorque",
+          "New York City"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "novak_djokovic",
+          "nome": "Novak Djokovic",
+          "descricao": "Tenista sérvio nascido em 1987, campeão de 24 Grand Slams e medalhista de ouro olímpico em 2024.",
+          "variantes": [
+            "Djokovic",
+            "Novak Đoković"
+          ]
+        },
+        {
+          "id": "oiapoque",
+          "nome": "Oiapoque",
+          "descricao": "Município do Amapá no extremo norte do litoral brasileiro, na fronteira com a Guiana Francesa.",
+          "variantes": []
+        },
+        {
+          "id": "conquista_normanda_da_inglaterra",
+          "nome": "Conquista normanda da Inglaterra",
+          "descricao": "Invasão e conquista da Inglaterra por Guilherme, duque da Normandia, a partir da Batalha de Hastings em 1066.",
+          "variantes": [
+            "Conquista Normanda",
+            "Norman Conquest"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Cusco",
+        "descricao": "Cidade do sudeste do Peru, antiga capital do Império Inca, nos Andes.",
+        "variantes": [
+          "Cuzco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "musculo",
+          "nome": "Músculo",
+          "descricao": "Tecido do corpo capaz de se contrair e produzir movimento.",
+          "variantes": [
+            "Muscle",
+            "Musculus"
+          ]
+        },
+        {
+          "id": "cruzeiro",
+          "nome": "Cruzeiro",
+          "descricao": "Cruzeiro Esporte Clube, clube de futebol de Belo Horizonte fundado em 1921 por imigrantes italianos.",
+          "variantes": [
+            "Cruzeiro Esporte Clube",
+            "Palestra Itália de Belo Horizonte"
+          ]
+        },
+        {
+          "id": "cruzeiro_do_sul",
+          "nome": "Cruzeiro do Sul",
+          "descricao": "Constelação do céu austral, presente na bandeira do Brasil.",
+          "variantes": [
+            "Crux",
+            "Cruzeiro"
+          ]
+        },
+        {
+          "id": "vasco_da_gama",
+          "nome": "Vasco da Gama",
+          "descricao": "Club de Regatas Vasco da Gama, clube carioca fundado em 1898 por remadores.",
+          "variantes": [
+            "Club de Regatas Vasco da Gama",
+            "Vasco",
+            "CR Vasco da Gama"
+          ]
+        },
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "São Luís",
+        "descricao": "Capital do Maranhão, com centro histórico de casarões de azulejos.",
+        "variantes": [
+          "São Luís do Maranhão"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_luis",
+          "nome": "São Luís",
+          "descricao": "Capital do estado do Maranhão, situada na ilha de Upaon-Açu e fundada em 1612.",
+          "variantes": [
+            "São Luís do Maranhão"
+          ]
+        },
+        {
+          "id": "estadio_do_maracana",
+          "nome": "Estádio do Maracanã",
+          "descricao": "Estádio de futebol no Rio de Janeiro, inaugurado para a Copa do Mundo de 1950.",
+          "variantes": [
+            "Maracanã",
+            "Estádio Jornalista Mário Filho",
+            "Maracana Stadium"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis"
+          ]
+        },
+        {
+          "id": "os_lusiadas",
+          "nome": "Os Lusíadas",
+          "descricao": "Poema épico de Luís de Camões, publicado em 1572, sobre a viagem de Vasco da Gama à Índia.",
+          "variantes": [
+            "Lusíadas",
+            "The Lusiads"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Varanasi."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Porto Alegre; Portugal é país."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Tallinn."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Berna é outra cidade; nenhuma é Berlim."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Quioto."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A candidata é um tênis, não Hallstatt."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Nova York."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Cusco."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "sao_luis",
+      "motivo": "Ambas são a capital do Maranhão, São Luís."
+    }
+  ]
+}

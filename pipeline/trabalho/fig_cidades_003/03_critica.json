@@ -1,0 +1,78 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "As escadarias (ghats) de Varanasi são amplamente documentadas. O enunciado não nomeia nem entrega a cidade, e os distratores são indianos e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "A pista do grande lago de água doce entrega a resposta na imagem coberta. Também é discutível: o Guaíba é tratado como lago ou rio, e Palmas fica num lago. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que capital brasileira aparece nesta vista aérea?",
+        "resposta": "Porto Alegre",
+        "distratores": [
+          "Belém",
+          "Recife",
+          "Florianópolis"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tallinn fica no golfo da Finlândia, no mar Báltico, como diz o trecho. A pista não entrega a resposta, e a figura decide entre os distratores.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 emblemático. A pergunta é direta, sem vazamento, e a figura mostra Berlim com clareza.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ninenzaka fica em Quioto. O enunciado não nomeia a cidade, e os distratores são cidades japonesas históricas plausíveis, que a figura distingue.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hallstatt é uma aldeia alpina à beira do Hallstätter See, conforme os trechos. A pista não entrega a resposta, e os distratores são plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1 emblemático. O skyline de Manhattan é inconfundível, e a pergunta não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cusco fica nos Andes, como diz o trecho. A pista \"andina\" não entrega a cidade, e os distratores são cidades andinas plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Casarões de azulejos\" é uma pista forte para São Luís: com a imagem coberta já dá para responder. Troquei por uma pista de região, que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Em que estado do Nordeste brasileiro fica este centro histórico?",
+        "resposta": "Maranhão"
+      }
+    }
+  ]
+}
