@@ -13856,7 +13856,8 @@
     "descricao": "Intoxicação crônica por mercúrio que afetava fabricantes de chapéus de feltro, também chamada eretismo",
     "variantes": [
       "Eretismo",
-      "Mad hatter disease"
+      "Mad hatter disease",
+      "Eretismo mercurial"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Erethism"
@@ -21481,7 +21482,8 @@
     "descricao": "Químico russo que formulou a lei periódica e criou uma versão da tabela periódica dos elementos.",
     "variantes": [
       "Dmitri Mendeleiev",
-      "Dmitri Ivanovich Mendeleev"
+      "Dmitri Ivanovich Mendeleev",
+      "Mendeléiev"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Dmitri_Mendeleev",
@@ -28380,7 +28382,9 @@
     "descricao": "Mineral de fluoreto de cálcio (CaF2), de dureza 4 na escala de Mohs, que forma cristais cúbicos coloridos.",
     "variantes": [
       "Fluorspar",
-      "Espatoflúor"
+      "Espatoflúor",
+      "Fluorite",
+      "Espato-flúor"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Fluorite",
@@ -35154,7 +35158,9 @@
     "nome": "Atmosfera terrestre",
     "descricao": "Camada de gases que envolve a Terra",
     "variantes": [
-      "Atmosfera da Terra"
+      "Atmosfera da Terra",
+      "Ar atmosférico",
+      "Atmosphere of Earth"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Atmosphere_of_Earth"
@@ -46973,5 +46979,424 @@
       "pt": 0,
       "en": 1305
     }
+  },
+  {
+    "id": "helio",
+    "nome": "Hélio",
+    "descricao": "Elemento químico gasoso de número atômico 2, o gás nobre mais leve, usado para encher balões.",
+    "variantes": [
+      "Helium"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/H%C3%A9lio",
+      "https://en.wikipedia.org/wiki/Helium"
+    ]
+  },
+  {
+    "id": "cobalto",
+    "nome": "Cobalto",
+    "descricao": "Elemento químico metálico de número atômico 27, usado em pigmentos azuis e em ligas.",
+    "variantes": [
+      "Cobalt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cobalt",
+      "https://pt.wikipedia.org/wiki/Cobalto"
+    ]
+  },
+  {
+    "id": "bromo",
+    "nome": "Bromo",
+    "descricao": "Elemento químico de número atômico 35, um halogênio que é líquido castanho-avermelhado em temperatura ambiente.",
+    "variantes": [
+      "Bromine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bromine",
+      "https://pt.wikipedia.org/wiki/Bromo"
+    ]
+  },
+  {
+    "id": "hidrogenio",
+    "nome": "Hidrogênio",
+    "descricao": "Elemento químico de número atômico 1, o mais leve de todos, que forma água ao se combinar com o oxigênio.",
+    "variantes": [
+      "Hydrogen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Hydrogen",
+      "https://pt.wikipedia.org/wiki/Hidrog%C3%AAnio"
+    ]
+  },
+  {
+    "id": "tungstenio",
+    "nome": "Tungstênio",
+    "descricao": "Elemento químico metálico de número atômico 74, conhecido pelo altíssimo ponto de fusão e usado em filamentos de lâmpadas.",
+    "variantes": [
+      "Volfrâmio",
+      "Wolfram",
+      "Tungsten"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tungsten",
+      "https://pt.wikipedia.org/wiki/Tungst%C3%AAnio"
+    ]
+  },
+  {
+    "id": "neonio",
+    "nome": "Neônio",
+    "descricao": "Elemento químico gasoso de número atômico 10, um gás nobre famoso pelos letreiros luminosos.",
+    "variantes": [
+      "Néon",
+      "Neon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Neon"
+    ]
+  },
+  {
+    "id": "argonio",
+    "nome": "Argônio",
+    "descricao": "Elemento químico gasoso de número atômico 18, um gás nobre que forma cerca de um por cento do ar.",
+    "variantes": [
+      "Árgon",
+      "Argon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Argon"
+    ]
+  },
+  {
+    "id": "fosforo",
+    "nome": "Fósforo",
+    "descricao": "Elemento químico de número atômico 15, cuja forma branca brilha no escuro.",
+    "variantes": [
+      "Phosphorus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Phosphorus",
+      "https://pt.wikipedia.org/wiki/F%C3%B3sforo"
+    ]
+  },
+  {
+    "id": "amonia",
+    "nome": "Amônia",
+    "descricao": "Composto de nitrogênio e hidrogênio, gás de cheiro forte usado em fertilizantes e produtos de limpeza.",
+    "variantes": [
+      "Amoníaco",
+      "Ammonia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ammonia",
+      "https://pt.wikipedia.org/wiki/Am%C3%B4nia"
+    ]
+  },
+  {
+    "id": "alcool",
+    "nome": "Álcool",
+    "descricao": "Substância orgânica, como o etanol das bebidas e do combustível, cujo nome vem do árabe.",
+    "variantes": [
+      "Etanol",
+      "Alcohol"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alcohol_(chemistry)"
+    ]
+  },
+  {
+    "id": "fermento_biologico",
+    "nome": "Fermento biológico",
+    "descricao": "Levedura usada na panificação, que fermenta os açúcares da massa e a faz crescer.",
+    "variantes": [
+      "Levedura de padeiro",
+      "Saccharomyces cerevisiae",
+      "Baker's yeast"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baker%27s_yeast"
+    ]
+  },
+  {
+    "id": "radium_girls",
+    "nome": "Radium Girls",
+    "descricao": "Operárias americanas que, nos anos 1920, se contaminaram ao pintar mostradores de relógio com tinta luminosa radioativa.",
+    "variantes": [
+      "Garotas do Rádio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Radium_Girls"
+    ]
+  },
+  {
+    "id": "destruicao_da_camada_de_ozonio",
+    "nome": "Destruição da camada de ozônio",
+    "descricao": "Redução da camada de ozônio da estratosfera, incluindo o buraco sobre a Antártida, causada por compostos produzidos pelo homem.",
+    "variantes": [
+      "Buraco na camada de ozônio",
+      "Ozone depletion"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ozone_depletion"
+    ]
+  },
+  {
+    "id": "dinamite",
+    "nome": "Dinamite",
+    "descricao": "Explosivo à base de nitroglicerina absorvida em material poroso, patenteado por Alfred Nobel em 1867.",
+    "variantes": [
+      "Dynamite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dynamite"
+    ]
+  },
+  {
+    "id": "chumbo",
+    "nome": "Chumbo",
+    "descricao": "Elemento químico metálico de número atômico 82, pesado e maleável, usado pelos romanos em encanamentos.",
+    "variantes": [
+      "Lead",
+      "Plumbum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lead",
+      "https://pt.wikipedia.org/wiki/Chumbo"
+    ]
+  },
+  {
+    "id": "niobio",
+    "nome": "Nióbio",
+    "descricao": "Elemento químico metálico de número atômico 41, usado em ligas de aço e com grandes reservas no Brasil.",
+    "variantes": [
+      "Niobium",
+      "Colúmbio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Niobium",
+      "https://pt.wikipedia.org/wiki/Ni%C3%B3bio"
+    ]
+  },
+  {
+    "id": "ytterby",
+    "nome": "Ytterby",
+    "descricao": "Vila da Suécia, perto de Estocolmo, cuja mina deu nome a quatro elementos químicos.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Ytterby"
+    ]
+  },
+  {
+    "id": "grafite",
+    "nome": "Grafite",
+    "descricao": "Mineral formado por carbono em camadas, macio e escuro, usado na ponta dos lápis.",
+    "variantes": [
+      "Grafita",
+      "Graphite"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Graphite"
+    ]
+  },
+  {
+    "id": "cloreto_de_sodio",
+    "nome": "Cloreto de sódio",
+    "descricao": "Composto formado por sódio e cloro, principal componente do sal de cozinha.",
+    "variantes": [
+      "Sal de cozinha",
+      "Sodium chloride"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sodium_chloride"
+    ]
+  },
+  {
+    "id": "corindon",
+    "nome": "Coríndon",
+    "descricao": "Mineral de óxido de alumínio, muito duro, cujas variedades coloridas são o rubi e a safira.",
+    "variantes": [
+      "Corindo",
+      "Corundum"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Corundum"
+    ]
+  },
+  {
+    "id": "vidro",
+    "nome": "Vidro",
+    "descricao": "Material sólido amorfo e transparente, feito principalmente de sílica, usado em janelas e garrafas.",
+    "variantes": [
+      "Glass"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Glass"
+    ]
+  },
+  {
+    "id": "aspirina",
+    "nome": "Aspirina",
+    "descricao": "Medicamento à base de ácido acetilsalicílico, lançado pela Bayer em 1899, usado contra dor, febre e inflamação.",
+    "variantes": [
+      "Ácido acetilsalicílico",
+      "Aspirin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aspirin"
+    ]
+  },
+  {
+    "id": "vulcanizacao",
+    "nome": "Vulcanização",
+    "descricao": "Processo químico que aquece a borracha com enxofre, tornando-a resistente e elástica.",
+    "variantes": [
+      "Vulcanization"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vulcanization"
+    ]
+  },
+  {
+    "id": "nailon",
+    "nome": "Náilon",
+    "descricao": "Fibra sintética criada na empresa DuPont nos anos 1930, usada em meias, tecidos e cordas.",
+    "variantes": [
+      "Nylon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nylon"
+    ]
+  },
+  {
+    "id": "agua_com_gas",
+    "nome": "Água com gás",
+    "descricao": "Água em que se dissolveu gás carbônico sob pressão, base dos refrigerantes.",
+    "variantes": [
+      "Água gaseificada",
+      "Soda",
+      "Carbonated water"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Carbonated_water"
+    ]
+  },
+  {
+    "id": "kevlar",
+    "nome": "Kevlar",
+    "descricao": "Fibra sintética de altíssima resistência criada na DuPont, usada em coletes à prova de bala.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kevlar"
+    ]
+  },
+  {
+    "id": "polvora",
+    "nome": "Pólvora",
+    "descricao": "Mistura explosiva de salitre, enxofre e carvão, a mais antiga conhecida.",
+    "variantes": [
+      "Pólvora negra",
+      "Gunpowder"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gunpowder",
+      "https://pt.wikipedia.org/wiki/P%C3%B3lvora"
+    ]
+  },
+  {
+    "id": "doenca_de_minamata",
+    "nome": "Doença de Minamata",
+    "descricao": "Síndrome neurológica causada por envenenamento por mercúrio de efluentes industriais, identificada nos anos 1950.",
+    "variantes": [
+      "Minamata disease"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Minamata_disease"
+    ]
+  },
+  {
+    "id": "fosforo_de_seguranca",
+    "nome": "Fósforo de segurança",
+    "descricao": "Palito de fósforo que só acende quando riscado na superfície própria da caixa.",
+    "variantes": [
+      "Safety match"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Match"
+    ]
+  },
+  {
+    "id": "acidente_radiologico_de_goiania",
+    "nome": "Acidente radiológico de Goiânia",
+    "descricao": "Contaminação por césio-137 ocorrida em 1987, a partir de um aparelho de radioterapia abandonado.",
+    "variantes": [
+      "Acidente do césio-137",
+      "Goiânia accident"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Acidente_radiol%C3%B3gico_de_Goi%C3%A2nia",
+      "https://en.wikipedia.org/wiki/Goi%C3%A2nia_accident"
+    ]
+  },
+  {
+    "id": "desastre_de_bhopal",
+    "nome": "Desastre de Bhopal",
+    "descricao": "Vazamento de gás tóxico de uma fábrica de pesticidas na cidade indiana de Bhopal, que matou milhares de pessoas.",
+    "variantes": [
+      "Tragédia de Bhopal",
+      "Bhopal disaster"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bhopal_disaster"
+    ]
+  },
+  {
+    "id": "fogos_de_artificio",
+    "nome": "Fogos de artifício",
+    "descricao": "Artefatos pirotécnicos que explodem em luzes coloridas, cujas cores vêm de sais metálicos.",
+    "variantes": [
+      "Fireworks"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fireworks"
+    ]
+  },
+  {
+    "id": "escala_de_mohs",
+    "nome": "Escala de Mohs",
+    "descricao": "Escala de dureza de minerais de um a dez, criada pelo mineralogista alemão Friedrich Mohs em 1812.",
+    "variantes": [
+      "Mohs scale"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mohs_scale",
+      "https://pt.wikipedia.org/wiki/Escala_de_Mohs"
+    ]
+  },
+  {
+    "id": "fritz_haber",
+    "nome": "Fritz Haber",
+    "descricao": "Químico alemão, Nobel de Química de 1918 pela síntese da amônia e responsável pelo uso de gás cloro na Primeira Guerra.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fritz_Haber"
+    ]
+  },
+  {
+    "id": "galio",
+    "nome": "Gálio",
+    "descricao": "Elemento químico metálico de número atômico 31, prateado, que funde a cerca de trinta graus Celsius.",
+    "variantes": [
+      "Gallium"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gallium"
+    ]
+  },
+  {
+    "id": "agua_regia",
+    "nome": "Água régia",
+    "descricao": "Mistura de ácido nítrico e ácido clorídrico capaz de dissolver o ouro e a platina.",
+    "variantes": [
+      "Aqua regia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aqua_regia"
+    ]
   }
 ]

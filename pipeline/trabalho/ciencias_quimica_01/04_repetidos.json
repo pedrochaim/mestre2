@@ -1,0 +1,221 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Os gregos acreditavam que a ametista protegia quem a usava. O nome da pedra significa, em grego, livre de quê?",
+        "resposta": "Embriaguez"
+      },
+      "existentes": [
+        {
+          "id": "q02709",
+          "pergunta": "Que variedade de quartzo é esta?",
+          "resposta": "Ametista"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Inaugurada com a cor avermelhada do cobre, a Estátua da Liberdade ficou verde anos depois. Que processo químico causou essa mudança?",
+        "resposta": "Oxidação do cobre, formando pátina"
+      },
+      "existentes": [
+        {
+          "id": "q02008",
+          "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+          "resposta": "Oxidação do cobre"
+        },
+        {
+          "id": "q02018",
+          "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+          "resposta": "Torre Eiffel"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No século dezenove, chapeleiros sofriam tremores e alterações de humor por causa de que metal usado no preparo do feltro?",
+        "resposta": "Mercúrio"
+      },
+      "existentes": [
+        {
+          "id": "q00941",
+          "pergunta": "Muitos chapeleiros do século dezenove sofriam de tremores e alterações de humor por causa de qual metal usado no preparo do feltro?",
+          "resposta": "Mercúrio"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Durante o Terror da Revolução Francesa, em 1794, por que o químico Lavoisier foi guilhotinado?",
+        "resposta": "Era arrecadador de impostos do rei"
+      },
+      "existentes": [
+        {
+          "id": "q00870",
+          "pergunta": "Que elemento químico este cientista francês nomeou em 1778, ao entender seu papel na combustão?",
+          "resposta": "Oxigênio"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Ao organizar sua tabela periódica, por que Mendeleev deixou alguns espaços vazios?",
+        "resposta": "Para elementos ainda não descobertos"
+      },
+      "existentes": [
+        {
+          "id": "q01423",
+          "pergunta": "Que elemento químico sintético leva o nome do cientista desta foto?",
+          "resposta": "Mendelévio"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "O que o nome do elemento flúor e o nome do fenômeno da fluorescência têm em comum?",
+        "resposta": "Ambos vêm do mineral fluorita"
+      },
+      "existentes": [
+        {
+          "id": "q01860",
+          "pergunta": "A que grupo de minerais pertence este?",
+          "resposta": "Haletos"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A que químico francês se atribui a frase na natureza nada se cria, nada se perde, tudo se transforma?",
+        "resposta": "Antoine Lavoisier"
+      },
+      "existentes": [
+        {
+          "id": "q00870",
+          "pergunta": "Que elemento químico este cientista francês nomeou em 1778, ao entender seu papel na combustão?",
+          "resposta": "Oxigênio"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Em que década do século dezenove Mendeleev apresentou sua primeira tabela periódica?",
+        "resposta": "Década de 1860"
+      },
+      "existentes": [
+        {
+          "id": "q01423",
+          "pergunta": "Que elemento químico sintético leva o nome do cientista desta foto?",
+          "resposta": "Mendelévio"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Em que ano o casal Pierre e Marie Curie anunciou a descoberta do polônio e do rádio?",
+        "resposta": "1898"
+      },
+      "existentes": [
+        {
+          "id": "q00868",
+          "pergunta": "Que elemento químico, batizado em homenagem à terra natal desta cientista, ela descobriu?",
+          "resposta": "Polônio"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O bronze, que deu nome a toda uma era da Pré-História, é uma liga de cobre com qual outro metal?",
+        "resposta": "Estanho"
+      },
+      "existentes": [
+        {
+          "id": "q03093",
+          "pergunta": "O bronze, liga que deu nome a toda uma era da Antiguidade, é feito de cobre com qual outro metal?",
+          "resposta": "Estanho"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No ar que respiramos, o oxigênio fica só em segundo lugar. Qual é o gás mais abundante?",
+        "resposta": "Nitrogênio"
+      },
+      "existentes": [
+        {
+          "id": "q02296",
+          "pergunta": "Em que camada da atmosfera acontecem quase todos os fenômenos do tempo, como nuvens e chuvas?",
+          "resposta": "Troposfera"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Existente pergunta a variedade de quartzo (ametista); a nova pergunta a etimologia do nome. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam por que a estátua ficou verde: oxidação do cobre."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta sobre chapeleiros e mercúrio."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Motivo da guilhotina vs. elemento nomeado por Lavoisier."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Espaços vazios na tabela vs. elemento que leva o nome dele."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Origem do nome flúor/fluorescência vs. grupo mineral."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Autoria da frase vs. elemento nomeado por Lavoisier."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Década da tabela vs. elemento mendelévio."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Ano da descoberta vs. elemento que ela descobriu e nomeou por sua terra natal; fatos distintos."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: bronze é cobre com estanho.",
+      "id_existente": "q03093"
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Gás mais abundante vs. camada dos fenômenos do tempo."
+    }
+  ]
+}
