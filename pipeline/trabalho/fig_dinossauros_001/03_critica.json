@@ -1,0 +1,113 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pista 'pescoço longo' não entrega a resposta. Os distratores são saurópodes distintos, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Permiano é confirmado pelos trechos. Os distratores são períodos do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma 'esqueleto', mas não há garantia de que a imagem mostre um esqueleto. Troquei por 'animal'. O fato (saurópode) é confirmado pelos trechos.",
+      "reescrita": {
+        "pergunta": "A que grupo de dinossauros pertence este animal?",
+        "resposta": "Saurópodes",
+        "distratores": [
+          "Terópodes",
+          "Estegossauros",
+          "Ceratopsídeos"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jurássico e carnívoro estão corretos. Os distratores são carnívoros de outras épocas ou regiões, sem ambiguidade.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Cretáceo é confirmado pelos trechos. Os distratores são plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Em pergunta aberta, 'grupo' admite respostas defensáveis mais amplas, como ornitísquios ou tireóforos. O Kentrossauro é pouco emblemático, então uma múltipla escolha é mais justa.",
+      "reescrita": {
+        "pergunta": "A que grupo de dinossauros pertence este animal?",
+        "resposta": "Estegossauros",
+        "distratores": [
+          "Anquilossauros",
+          "Ceratopsídeos",
+          "Saurópodes"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É carnívoro sul-americano, como dizem os trechos. Os distratores são de outras regiões, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escamas e ossos de peixes foram achados no estômago, e 'entre outras coisas' cobre o iguanodontídeo juvenil. Não dá para responder só com o enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "É mamífero extinto sul-americano, um notoungulado. Os distratores são da mesma categoria, e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Extinta, incapaz de voar' aponta para o dodô, que é a ave extinta mais famosa, então a pista entrega a resposta com a imagem coberta. Tirei 'incapaz de voar'. Os distratores também são aves extintas que não voavam.",
+      "reescrita": {
+        "pergunta": "Que ave extinta é esta?",
+        "resposta": "Dodô",
+        "distratores": [
+          "Moa",
+          "Ave-elefante",
+          "Grande alca"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta fala em 'época', mas o Cretáceo é um período, não uma época. Troquei o distrator por uma época do Cenozoico.",
+      "reescrita": {
+        "pergunta": "Em que época geológica viveu este animal?",
+        "resposta": "Pleistoceno",
+        "distratores": [
+          "Mioceno",
+          "Eoceno",
+          "Oligoceno"
+        ]
+      }
+    }
+  ]
+}

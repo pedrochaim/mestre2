@@ -1,0 +1,261 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Reconstrução clara de saurópode de cauda em chicote; múltipla com saurópodes distintos.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que dinossauro de pescoço longo é este?",
+      "resposta": "Diplodoco",
+      "distratores": [
+        "Braquiossauro",
+        "Saltassauro",
+        "Camarassauro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Diplodoco",
+        "descricao": "Gênero de dinossauro saurópode do Jurássico Superior da América do Norte, de pescoço e cauda muito longos.",
+        "variantes": [
+          "Diplodocus"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Render nítido, vela dorsal inconfundível; resposta única (Permiano).",
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 2,
+      "pergunta": "Em que período viveu este animal extinto?",
+      "resposta": "Permiano",
+      "distratores": [
+        "Triássico",
+        "Jurássico",
+        "Cretáceo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dimetrodonte",
+        "descricao": "Gênero extinto de sinapsídeo do Permiano, com grande vela dorsal, não é dinossauro.",
+        "variantes": [
+          "Dimetrodon"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Esqueleto montado com duplas fileiras de espinhos, reconhecível; pessoas só ao fundo, sem texto que entregue.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "pergunta": "Este esqueleto pertence a que grupo de dinossauros?",
+      "resposta": "Saurópodes",
+      "distratores": [
+        "Terópodes",
+        "Estegossauros",
+        "Ceratopsídeos"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Amargassauro",
+        "descricao": "Gênero de dinossauro saurópode do Cretáceo Inferior da Argentina, com duas fileiras de longos espinhos no pescoço e dorso.",
+        "variantes": [
+          "Amargasaurus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Esqueleto reconstruído em perfil, sem texto; reconhecível por crânio e braços, múltipla para reduzir ambiguidade com outros terópodes.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que dinossauro carnívoro do Jurássico é este?",
+      "resposta": "Alossauro",
+      "distratores": [
+        "Tiranossauro",
+        "Espinossauro",
+        "Carnotauro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Alossauro",
+        "descricao": "Gênero de dinossauro terópode carnívoro do Jurássico Superior, conhecido sobretudo da América do Norte.",
+        "variantes": [
+          "Allosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Esqueleto montado com espinhos longos no colar; época igual para parentes próximos, resposta única.",
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 2,
+      "pergunta": "Em que período viveu este dinossauro?",
+      "resposta": "Cretáceo",
+      "distratores": [
+        "Triássico",
+        "Jurássico",
+        "Permiano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estiracossauro",
+        "descricao": "Gênero de dinossauro ceratopsídeo herbívoro do Cretáceo Superior da América do Norte, com longos espinhos no colar ósseo.",
+        "variantes": [
+          "Styracosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração limpa com espinhos e placas característicos de estegossaurídeo.",
+      "tipo": "aberta",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "pergunta": "A que grupo de dinossauros pertence este animal?",
+      "resposta": "Estegossauros",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Kentrossauro",
+        "descricao": "Gênero de dinossauro estegossaurídeo do Jurássico Superior da Tanzânia, com placas e longos espinhos nas costas e cauda.",
+        "variantes": [
+          "Kentrosaurus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Reconstrução nítida com dois chifres sobre os olhos e braços minúsculos; distratores com chifres ou porte parecido.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que dinossauro carnívoro sul-americano é este?",
+      "resposta": "Carnotauro",
+      "distratores": [
+        "Majungassauro",
+        "Ceratossauro",
+        "Tiranossauro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carnotauro",
+        "descricao": "Gênero de dinossauro terópode abelissaurídeo do Cretáceo Superior da Argentina, com dois chifres sobre os olhos.",
+        "variantes": [
+          "Carnotaurus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Ilustração clara de espinossaurídeo de focinho de crocodilo; pergunta de dieta sustentada pelo trecho e por fósseis com escamas de peixe.",
+      "tipo": "multipla",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "pergunta": "Pelos fósseis, do que este dinossauro se alimentava, entre outras coisas?",
+      "resposta": "Peixes",
+      "distratores": [
+        "Frutos",
+        "Insetos",
+        "Plantas aquáticas"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Barionix",
+        "descricao": "Gênero de dinossauro terópode espinossaurídeo do Cretáceo Inferior da Inglaterra, de focinho alongado e grande garra.",
+        "variantes": [
+          "Baryonyx"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Esqueleto montado, sem texto; distratores de outros mamíferos extintos sul-americanos.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que mamífero extinto sul-americano é este?",
+      "resposta": "Toxodonte",
+      "distratores": [
+        "Megatério",
+        "Gliptodonte",
+        "Macrauquênia"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Toxodonte",
+        "descricao": "Gênero extinto de grande ungulado notoungulado da América do Sul, do Plioceno ao Pleistoceno.",
+        "variantes": [
+          "Toxodon"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Réplica e esqueleto de dodô em museu, sem texto legível; o quadro ao fundo também mostra dodô.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que ave extinta, incapaz de voar, é esta?",
+      "resposta": "Dodô",
+      "distratores": [
+        "Moa",
+        "Ave-elefante",
+        "Grande alca"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dodô",
+        "descricao": "Ave extinta, incapaz de voar, endêmica da ilha Maurício, parente dos pombos.",
+        "variantes": [
+          "Raphus cucullatus",
+          "Dodo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Esqueleto em fundo preto, dois chifres e corcova, reconhecível; época única.",
+      "tipo": "multipla",
+      "familia": "quando",
+      "nivel": 2,
+      "pergunta": "Em que época geológica viveu este animal?",
+      "resposta": "Pleistoceno",
+      "distratores": [
+        "Mioceno",
+        "Eoceno",
+        "Cretáceo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rinoceronte-lanoso",
+        "descricao": "Rinoceronte extinto (Coelodonta antiquitatis) da Eurásia setentrional durante o Pleistoceno, coberto de pelos.",
+        "variantes": [
+          "Rinoceronte-lanudo",
+          "Coelodonta antiquitatis",
+          "Coelodonta"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A ilustração não mostra Tricerátops: chifres longos e curvos sobre os olhos, colar curto e grande focinho lembram Nasutoceratops ou similar; resposta ambígua."
+    }
+  ]
+}

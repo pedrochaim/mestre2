@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que ave extinta é esta?",
+        "resposta": "Dodô"
+      },
+      "existentes": [
+        {
+          "id": "q02490",
+          "pergunta": "O dodô, ave sem voo extinta da ilha Maurício, era um parente grandalhão de que ave comum nas praças das cidades?",
+          "resposta": "Pombo"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do dodô (resposta: Dodô), enquanto a existente pergunta de que ave comum o dodô é parente (resposta: Pombo). São fatos diferentes, e saber uma não leva a saber a outra."
+    }
+  ]
+}
