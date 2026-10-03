@@ -1,0 +1,177 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Prisma triangular decompondo a luz, imagem clara e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto de vidro é este?",
+      "resposta": "Prisma",
+      "destino": 2,
+      "ancora": {
+        "nome": "Prisma",
+        "descricao": "Elemento óptico transparente de superfícies planas, como o prisma triangular que dispersa a luz branca em um espectro.",
+        "variantes": [
+          "Prisma óptico",
+          "Prisma triangular"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "O instrumento parece um octante (arco de um oitavo de círculo), não um sextante; resposta não única. Há também plaqueta com texto do fabricante."
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "É um diagrama cheio de texto, com legenda 'Mr Babbage's Great Calculating Engine' que entrega a resposta; não mostra a máquina."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ampulheta de madeira e vidro, nítida, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Ampulheta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ampulheta",
+        "descricao": "Instrumento com dois bulbos de vidro ligados por um gargalo, pelo qual escoa areia para medir o tempo.",
+        "variantes": [
+          "Relógio de areia"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A base traz o texto 'Cie de l'Industrie Electrique Genève' e a foto antiga não permite distinguir com segurança um dínamo de outro gerador."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Gravura do interior do cinetoscópio, sem texto que entregue a resposta (só a assinatura do ilustrador). Reconhecimento difícil, então múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho do fim do século dezenove é este?",
+      "resposta": "Cinetoscópio",
+      "distratores": [
+        "Fonógrafo",
+        "Zootrópio",
+        "Lanterna mágica"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cinetoscópio",
+        "descricao": "Aparelho de exibição de filmes para um espectador por vez, desenvolvido no laboratório de Thomas Edison por volta de 1890.",
+        "variantes": [
+          "Kinetoscope"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Fita cassete nítida; a marca TDK não entrega a resposta, que é a empresa criadora do formato.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que empresa holandesa criou este formato, lançado em mil novecentos e sessenta e três?",
+      "resposta": "Philips",
+      "distratores": [
+        "Sony",
+        "Panasonic",
+        "Grundig"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Fita cassete",
+        "descricao": "Fita magnética de áudio em caixa plástica, o Compact Cassette, lançado em 1963.",
+        "variantes": [
+          "Cassete",
+          "Compact Cassette",
+          "Fita K7"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Há duas mulheres comuns em primeiro plano e uma placa legível com 'The ENIAC' que entrega a resposta."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Grande roda de madeira com pás, reconhecível como roda d'água, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que máquina é esta?",
+      "resposta": "Roda d'água",
+      "destino": 3,
+      "ancora": {
+        "nome": "Roda d'água",
+        "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+        "variantes": [
+          "Roda de água",
+          "Roda hidráulica",
+          "Azenha"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Relógio de sol de jardim, claro, com números romanos que não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento é este?",
+      "resposta": "Relógio de sol",
+      "destino": 0,
+      "ancora": {
+        "nome": "Relógio de sol",
+        "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+        "variantes": [
+          "Quadrante solar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Eolípila de cobre, esfera com dois bicos curvos; imagem pequena mas legível, sem texto. Múltipla escolha por ser pouco conhecida.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que aparelho a vapor da Antiguidade é este?",
+      "resposta": "Eolípila",
+      "distratores": [
+        "Astrolábio",
+        "Clepsidra",
+        "Ábaco"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Eolípila",
+        "descricao": "Turbina a vapor simples, uma esfera que gira quando a água do recipiente é aquecida, descrita por Heron de Alexandria.",
+        "variantes": [
+          "Máquina de Heron",
+          "Aeolipile",
+          "Eolípila de Heron"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "A placa traz a palavra 'Thermometer' em destaque, que entrega a resposta."
+    }
+  ]
+}

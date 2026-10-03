@@ -1,0 +1,46 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que objeto é este?",
+        "resposta": "Ampulheta"
+      },
+      "existentes": [
+        {
+          "id": "q01353",
+          "pergunta": "Que instrumento antigo de medir o tempo é este?",
+          "resposta": "Ampulheta (relógio de areia)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que empresa criou este formato de áudio, lançado em mil novecentos e sessenta e três?",
+        "resposta": "Philips"
+      },
+      "existentes": [
+        {
+          "id": "q01615",
+          "pergunta": "Que empresa criou este formato de fita magnética, lançado em mil novecentos e sessenta e três?",
+          "resposta": "Philips"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas pedem a identificação do mesmo objeto (ampulheta) a partir da imagem; quem sabe uma sabe a outra.",
+      "id_existente": "q01353"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam qual empresa criou o formato de fita lançado em 1963 (Philips, cassete); mesmo fato.",
+      "id_existente": "q01615"
+    }
+  ]
+}

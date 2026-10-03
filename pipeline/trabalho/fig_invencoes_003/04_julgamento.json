@@ -1,0 +1,451 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Prisma",
+        "descricao": "Elemento óptico transparente de superfícies planas, como o prisma triangular que dispersa a luz branca em um espectro.",
+        "variantes": [
+          "Prisma óptico",
+          "Prisma triangular"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "triangulo_de_pascal",
+          "nome": "Triângulo de Pascal",
+          "descricao": "Arranjo triangular dos coeficientes binomiais, em que cada número é a soma dos dois acima dele.",
+          "variantes": [
+            "Triângulo de Yang Hui",
+            "Triângulo de Tartaglia",
+            "Pascal's triangle"
+          ]
+        },
+        {
+          "id": "fibra_optica",
+          "nome": "Fibra óptica",
+          "descricao": "Filamento fino e transparente que conduz luz e é usado para transmitir dados a longas distâncias.",
+          "variantes": [
+            "Optical fiber"
+          ]
+        },
+        {
+          "id": "pimenta",
+          "nome": "Pimenta",
+          "descricao": "Fruto picante das plantas do gênero Capsicum, como a malagueta e a jalapeño",
+          "variantes": [
+            "Capsicum",
+            "Pimenta-malagueta"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        },
+        {
+          "id": "folia_de_reis",
+          "nome": "Folia de Reis",
+          "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+          "variantes": [
+            "Reisado",
+            "Santos Reis",
+            "Folia de Santos Reis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Ampulheta",
+        "descricao": "Instrumento com dois bulbos de vidro ligados por um gargalo, pelo qual escoa areia para medir o tempo.",
+        "variantes": [
+          "Relógio de areia"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "relogio_de_arremesso",
+          "nome": "Relógio de arremesso",
+          "descricao": "Cronômetro que limita o tempo de cada ataque, adotado pela NBA em 1954 com vinte e quatro segundos.",
+          "variantes": [
+            "Shot clock",
+            "Relógio de 24 segundos",
+            "Regra dos 24 segundos"
+          ]
+        },
+        {
+          "id": "artico",
+          "nome": "Ártico",
+          "descricao": "Região polar ao redor do Polo Norte",
+          "variantes": [
+            "Região Ártica",
+            "Arctic"
+          ]
+        },
+        {
+          "id": "bloco_de_partida",
+          "nome": "Bloco de partida",
+          "descricao": "Equipamento em que corredores de velocidade apoiam os pés na largada de uma prova.",
+          "variantes": [
+            "Blocos de partida",
+            "Starting blocks"
+          ]
+        },
+        {
+          "id": "futebol_de_areia",
+          "nome": "Futebol de areia",
+          "descricao": "Variante do futebol jogada na areia por duas equipes de cinco jogadores.",
+          "variantes": [
+            "Beach soccer",
+            "Futebol de praia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cinetoscópio",
+        "descricao": "Aparelho de exibição de filmes para um espectador por vez, desenvolvido no laboratório de Thomas Edison por volta de 1890.",
+        "variantes": [
+          "Kinetoscope"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "microscopio",
+          "nome": "Microscópio",
+          "descricao": "Instrumento de laboratório usado para examinar objetos pequenos demais para serem vistos a olho nu.",
+          "variantes": [
+            "Microscópio óptico",
+            "Microscope"
+          ]
+        },
+        {
+          "id": "escorpiao",
+          "nome": "Escorpião",
+          "descricao": "Aracnídeos predadores da ordem Scorpiones, com pinças e cauda terminada em ferrão venenoso.",
+          "variantes": [
+            "Scorpiones",
+            "lacrau"
+          ]
+        },
+        {
+          "id": "telescopio",
+          "nome": "Telescópio",
+          "descricao": "Instrumento óptico que usa lentes ou espelhos para observar objetos distantes.",
+          "variantes": [
+            "Luneta",
+            "Telescope"
+          ]
+        },
+        {
+          "id": "kilt",
+          "nome": "Kilt",
+          "descricao": "Peça de vestuário tradicional escocesa, semelhante a uma saia até o joelho, de lã em padrão tartan e com pregas.",
+          "variantes": [
+            "Kilt escocês",
+            "Saiote escocês"
+          ]
+        },
+        {
+          "id": "xintoismo",
+          "nome": "Xintoísmo",
+          "descricao": "Religião tradicional do Japão, centrada no culto aos kami",
+          "variantes": [
+            "Xintô",
+            "Shinto",
+            "Shintoísmo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Fita cassete",
+        "descricao": "Fita magnética de áudio em caixa plástica, o Compact Cassette, lançado em 1963.",
+        "variantes": [
+          "Cassete",
+          "Compact Cassette",
+          "Fita K7"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fita_cassete",
+          "nome": "Fita cassete",
+          "descricao": "Formato analógico de fita magnética para gravação e reprodução de áudio, lançado em 1963.",
+          "variantes": [
+            "Cassete",
+            "Compact Cassette",
+            "K7"
+          ]
+        },
+        {
+          "id": "fiat_147",
+          "nome": "Fiat 147",
+          "descricao": "Carro compacto produzido pela Fiat no Brasil a partir de 1976.",
+          "variantes": [
+            "Fiat 147 a álcool"
+          ]
+        },
+        {
+          "id": "creta",
+          "nome": "Creta",
+          "descricao": "A maior ilha da Grécia, no mar Mediterrâneo, berço da civilização minoica.",
+          "variantes": [
+            "Crete",
+            "Kriti"
+          ]
+        },
+        {
+          "id": "arena_castelao",
+          "nome": "Arena Castelão",
+          "descricao": "Estádio de futebol de Fortaleza, Ceará, inaugurado em 1973 e casa do Ceará e do Fortaleza.",
+          "variantes": [
+            "Estádio Governador Plácido Castelo",
+            "Castelão",
+            "Gigante da Boa Vista"
+          ]
+        },
+        {
+          "id": "escandalo_de_singapura_de_2008",
+          "nome": "Escândalo de Singapura de 2008",
+          "descricao": "Caso em que a Renault mandou Nelson Piquet Júnior bater de propósito no Grande Prêmio de Singapura de 2008.",
+          "variantes": [
+            "Crashgate",
+            "Batida proposital de Singapura"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Roda d'água",
+        "descricao": "Grande roda de madeira com pás ou caçambas que converte a energia da água corrente em força mecânica, usada em moinhos.",
+        "variantes": [
+          "Roda de água",
+          "Roda hidráulica",
+          "Azenha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tardigrado",
+          "nome": "Tardígrado",
+          "descricao": "Animais microscópicos de oito patas do filo Tardigrada, famosos pela resistência a condições extremas.",
+          "variantes": [
+            "Tardigrada",
+            "water bear",
+            "Urso-d'água"
+          ]
+        },
+        {
+          "id": "gota_d_agua_peca",
+          "nome": "Gota d'Água (peça)",
+          "descricao": "Peça de Chico Buarque e Paulo Pontes, de 1975, ambientada num conjunto habitacional do Rio de Janeiro.",
+          "variantes": [
+            "Gota d'Água"
+          ]
+        },
+        {
+          "id": "chakra_de_ashoka",
+          "nome": "Chakra de Ashoka",
+          "descricao": "Roda azul de vinte e quatro raios no centro da bandeira da Índia, tirada dos pilares do imperador Ashoka",
+          "variantes": [
+            "Ashoka Chakra",
+            "Roda de Ashoka"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "cubo_d_agua",
+          "nome": "Cubo d'Água",
+          "descricao": "Centro Nacional de Natação de Pequim, com fachada de bolhas azuis, construído para os Jogos Olímpicos de 2008.",
+          "variantes": [
+            "Water Cube",
+            "Centro Aquático Nacional de Pequim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Relógio de sol",
+        "descricao": "Instrumento com um gnômon que projeta sombra sobre um mostrador marcado com horas.",
+        "variantes": [
+          "Quadrante solar"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "relogio_de_arremesso",
+          "nome": "Relógio de arremesso",
+          "descricao": "Cronômetro que limita o tempo de cada ataque, adotado pela NBA em 1954 com vinte e quatro segundos.",
+          "variantes": [
+            "Shot clock",
+            "Relógio de 24 segundos",
+            "Regra dos 24 segundos"
+          ]
+        },
+        {
+          "id": "ampulheta",
+          "nome": "Ampulheta",
+          "descricao": "Instrumento de medir o tempo com dois bulbos de vidro ligados por um gargalo estreito, por onde escorre areia.",
+          "variantes": [
+            "Relógio de areia",
+            "Hourglass"
+          ]
+        },
+        {
+          "id": "cartier_santos",
+          "nome": "Cartier Santos",
+          "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont.",
+          "variantes": [
+            "Relógio Santos"
+          ]
+        },
+        {
+          "id": "relogio_cuco",
+          "nome": "Relógio cuco",
+          "descricao": "Relógio de parede com um pássaro mecânico que sai de uma portinhola para marcar as horas.",
+          "variantes": [
+            "Cuckoo clock"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Eolípila",
+        "descricao": "Turbina a vapor simples, uma esfera que gira quando a água do recipiente é aquecida, descrita por Heron de Alexandria.",
+        "variantes": [
+          "Máquina de Heron",
+          "Aeolipile",
+          "Eolípila de Heron"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "olympia_manet",
+          "nome": "Olympia (Manet)",
+          "descricao": "Pintura de Édouard Manet, de 1863, de uma mulher nua reclinada numa cama, com uma criada; está no Museu d'Orsay.",
+          "variantes": [
+            "Olympia",
+            "Olímpia"
+          ]
+        },
+        {
+          "id": "maquina_de_escrever",
+          "nome": "Máquina de escrever",
+          "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+          "variantes": [
+            "Typewriter"
+          ]
+        },
+        {
+          "id": "mecanismo_de_anticitera",
+          "nome": "Mecanismo de Anticítera",
+          "descricao": "Antigo aparelho grego de engrenagens, encontrado num naufrágio perto da ilha de Anticítera, usado para prever posições astronômicas.",
+          "variantes": [
+            "Máquina de Anticítera",
+            "Antikythera mechanism"
+          ]
+        },
+        {
+          "id": "tear_de_jacquard",
+          "nome": "Tear de Jacquard",
+          "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+          "variantes": [
+            "Máquina de Jacquard",
+            "Jacquard loom"
+          ]
+        },
+        {
+          "id": "maquina_de_lavar_louca",
+          "nome": "Máquina de lavar louça",
+          "descricao": "Eletrodoméstico que lava pratos e utensílios, patenteado pela americana Josephine Cochrane em 1886.",
+          "variantes": [
+            "Lava-louças",
+            "Dishwasher"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Prisma óptico não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "ampulheta",
+      "motivo": "Mesmo instrumento: dois bulbos de vidro com areia, mesmas variantes."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Cinetoscópio de Edison não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "fita_cassete",
+      "motivo": "Mesmo formato Compact Cassette de 1963."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Roda d'água (moinho) é distinta de todas as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Relógio de sol é um instrumento diferente das candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Eolípila de Heron não corresponde a nenhuma candidata."
+    }
+  ]
+}

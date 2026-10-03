@@ -1,0 +1,69 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento. Os trechos dizem que prismas são tipicamente feitos de vidro. A pista 'de vidro' não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 sem pista. A resposta é única e o enunciado é curto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O cinetoscópio foi desenvolvido entre 1889 e 1892, o que confere com 'fim do século dezenove'. A época ajuda sem entregar a resposta. Os distratores são do mesmo tipo e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam Philips e 1963. O problema é que 'holandesa' vaza a resposta, porque Philips é a única empresa holandesa entre as alternativas e a figura vira enfeite. Tirei a nacionalidade e mantive 'formato de áudio' e o ano, para que ainda seja preciso reconhecer a fita.",
+      "reescrita": {
+        "pergunta": "Que empresa criou este formato de áudio, lançado em mil novecentos e sessenta e três?",
+        "resposta": "Philips",
+        "distratores": [
+          "Sony",
+          "Panasonic",
+          "Grundig"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 sem pista. A resposta é única e específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 sem pista. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A eolípila é a máquina a vapor de Heron, o que os trechos confirmam. O enunciado diz 'a vapor', e isso permite responder sem ver a figura. Além disso, nenhum distrator é a vapor, então a pista elimina todos. Mantive só a época e escolhi distratores também antigos.",
+      "reescrita": {
+        "pergunta": "Que aparelho da Antiguidade é este?",
+        "resposta": "Eolípila",
+        "distratores": [
+          "Astrolábio",
+          "Clepsidra",
+          "Ábaco"
+        ]
+      }
+    }
+  ]
+}

@@ -61,7 +61,7 @@
       "titulo": "en:Hourglass",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Painel solar",
@@ -124,7 +124,7 @@
       "titulo": "en:Sextant",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Barômetro",
@@ -138,7 +138,7 @@
       "titulo": "en:ENIAC",
       "camada": 2,
       "destino": 1,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Gerador de Van de Graaff",
@@ -222,7 +222,7 @@
       "titulo": "en:Aeolipile",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Radiômetro de Crookes",
@@ -278,6 +278,286 @@
       "titulo": "en:Water wheel",
       "camada": 3,
       "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Termômetro",
+      "titulo": "en:Thermometer",
+      "camada": 1,
+      "destino": 2,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Relógio de sol",
+      "titulo": "en:Sundial",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Locomotiva a vapor",
+      "titulo": "en:Steam locomotive",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Walkman",
+      "titulo": "en:Walkman",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Fita cassete",
+      "titulo": "en:Cassette tape",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Disco de vinil",
+      "titulo": "en:Phonograph record",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Calculadora",
+      "titulo": "en:Calculator",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Câmera instantânea (Polaroid)",
+      "titulo": "en:Instant camera",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sputnik 1",
+      "titulo": "en:Sputnik 1",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telescópio Espacial Hubble",
+      "titulo": "en:Hubble Space Telescope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Estetoscópio",
+      "titulo": "en:Stethoscope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Game Boy",
+      "titulo": "en:Game Boy",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Prisma",
+      "titulo": "en:Prism (optics)",
+      "camada": 1,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Prensa móvel de Gutenberg",
+      "titulo": "en:Printing press",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Telégrafo elétrico",
+      "titulo": "en:Electrical telegraph",
+      "camada": 2,
+      "destino": 0,
+      "status": "sem_imagem"
+    },
+    {
+      "nome": "Daguerreótipo",
+      "titulo": "en:Daguerreotype",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bico de Bunsen",
+      "titulo": "en:Bunsen burner",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Contador Geiger",
+      "titulo": "en:Geiger counter",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Válvula termiônica",
+      "titulo": "en:Vacuum tube",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Régua de cálculo",
+      "titulo": "en:Slide rule",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Macintosh 128K",
+      "titulo": "en:Macintosh 128K",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Esfera armilar",
+      "titulo": "en:Armillary sphere",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sismógrafo",
+      "titulo": "en:Seismometer",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Cartão perfurado",
+      "titulo": "en:Punched card",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Dínamo",
+      "titulo": "en:Dynamo",
+      "camada": 2,
+      "destino": 3,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Cinematógrafo",
+      "titulo": "en:Cinematograph",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina analítica",
+      "titulo": "en:Analytical engine",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Colossus",
+      "titulo": "en:Colossus computer",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Z3 de Konrad Zuse",
+      "titulo": "en:Z3 (computer)",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Tubo de Geissler",
+      "titulo": "en:Geissler tube",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Máquina de Wimshurst",
+      "titulo": "en:Wimshurst machine",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Eletroscópio",
+      "titulo": "en:Electroscope",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Interferômetro de Michelson",
+      "titulo": "en:Michelson interferometer",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Planetário mecânico (orrery)",
+      "titulo": "en:Orrery",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Clepsidra",
+      "titulo": "en:Water clock",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cinetoscópio",
+      "titulo": "en:Kinetoscope",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Estereoscópio",
+      "titulo": "en:Stereoscope",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lâmpada de Davy",
+      "titulo": "en:Davy lamp",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tokamak",
+      "titulo": "en:Tokamak",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Teremim",
+      "titulo": "en:Theremin",
+      "camada": 3,
+      "destino": 2,
       "status": "nova"
     }
   ]
