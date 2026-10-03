@@ -1,0 +1,179 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Depois de séculos sob Portugal e anos de ocupação indonésia, o Timor-Leste teve sua independência reconhecida em que ano?",
+        "resposta": "2002"
+      },
+      "existentes": [
+        {
+          "id": "q00794",
+          "pergunta": "Além do português, qual é a outra língua oficial do Timor-Leste?",
+          "resposta": "Tétum"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1703, qual czar fundou São Petersburgo, cidade que depois seria a capital da Rússia por cerca de dois séculos?",
+        "resposta": "Pedro, o Grande"
+      },
+      "existentes": [
+        {
+          "id": "q03677",
+          "pergunta": "Que czar fundou São Petersburgo em 1703, às margens do Báltico, e depois a fez capital da Rússia?",
+          "resposta": "Pedro, o Grande"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1791, qual engenheiro de origem francesa traçou o plano urbano de Washington, com suas grandes avenidas diagonais?",
+        "resposta": "Pierre Charles L'Enfant"
+      },
+      "existentes": [
+        {
+          "id": "q00008",
+          "pergunta": "O distrito onde fica Washington, a capital americana, tem nome derivado do mesmo navegador que batizou qual país sul-americano?",
+          "resposta": "Colômbia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1755, que desastre natural destruiu boa parte de Lisboa, seguido de um tsunami e de incêndios?",
+        "resposta": "Um terremoto"
+      },
+      "existentes": [
+        {
+          "id": "q02648",
+          "pergunta": "Que cidade portuguesa é esta?",
+          "resposta": "Lisboa"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Viena, Bratislava e Belgrado são capitais banhadas pelo mesmo rio. Qual outra capital europeia completa esse grupo?",
+        "resposta": "Budapeste"
+      },
+      "existentes": [
+        {
+          "id": "q02177",
+          "pergunta": "Que cidade europeia é esta?",
+          "resposta": "Budapeste"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Apesar de se estender por milhares de quilômetros de leste a oeste, quantos fusos horários oficiais a China adota?",
+        "resposta": "Um"
+      },
+      "existentes": [
+        {
+          "id": "q01289",
+          "pergunta": "Qual é a capital do país desta bandeira?",
+          "resposta": "Pequim"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Alemão, francês e italiano estão entre as línguas nacionais da Suíça. Quantas línguas nacionais o país tem ao todo?",
+        "resposta": "Quatro"
+      },
+      "existentes": [
+        {
+          "id": "q00916",
+          "pergunta": "Qual é a cidade-sede do governo federal do país desta bandeira?",
+          "resposta": "Berna"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Desde o ano dois mil, qual é a moeda oficial do Equador?",
+        "resposta": "Dólar americano"
+      },
+      "existentes": [
+        {
+          "id": "q00009",
+          "pergunta": "Chile e Equador são os únicos países da América do Sul com qual característica em relação ao Brasil?",
+          "resposta": "Não fazem fronteira com o Brasil"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A ilha caribenha de Hispaniola é dividida entre a República Dominicana e qual outro país?",
+        "resposta": "Haiti"
+      },
+      "existentes": [
+        {
+          "id": "q02232",
+          "pergunta": "Quais dois países dividem a ilha de Hispaniola, no mar do Caribe?",
+          "resposta": "Haiti e República Dominicana"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Ano da independência vs língua oficial."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Pedro, o Grande fundou São Petersburgo em 1703.",
+      "id_existente": "q03677"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Planejador de Washington vs origem do nome do distrito."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Terremoto de 1755 vs identificar a cidade em imagem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Rio compartilhado vs identificar cidade em imagem; fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Fusos horários vs capital."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Línguas nacionais vs capital federal."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Moeda vs fronteira com o Brasil."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Hispaniola dividida entre Haiti e República Dominicana.",
+      "id_existente": "q02232"
+    }
+  ]
+}

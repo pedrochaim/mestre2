@@ -1,0 +1,1058 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Jacarta",
+        "descricao": "Maior cidade da Indonésia, na costa noroeste da ilha de Java.",
+        "variantes": [
+          "Jakarta",
+          "Djakarta",
+          "Batávia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jakarta",
+          "https://pt.wikipedia.org/wiki/Jacarta"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Jacarta, a maior cidade da Indonésia, fica em qual das milhares de ilhas do país?",
+      "resposta": "Java",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Jakarta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Díli",
+        "descricao": "Capital e maior cidade do Timor-Leste.",
+        "variantes": [
+          "Dili"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dili",
+          "https://pt.wikipedia.org/wiki/D%C3%ADli"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A cidade de Díli é a capital de qual país de língua portuguesa?",
+      "resposta": "Timor-Leste",
+      "distratores": [
+        "Cabo Verde",
+        "Guiné-Bissau",
+        "São Tomé e Príncipe"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dili"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Praia",
+        "descricao": "Capital de Cabo Verde, situada na ilha de Santiago.",
+        "variantes": [
+          "Cidade da Praia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Praia"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A cidade da Praia, capital de Cabo Verde, fica em qual ilha do arquipélago?",
+      "resposta": "Ilha de Santiago",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Praia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Baku",
+        "descricao": "Capital e maior cidade do Azerbaijão, na península de Absheron.",
+        "variantes": [
+          "Bacu",
+          "Baki"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Baku"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Baku, a capital do Azerbaijão, fica à beira de qual grande corpo de água?",
+      "resposta": "Mar Cáspio",
+      "distratores": [
+        "Mar Negro",
+        "Mar de Aral",
+        "Golfo Pérsico"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Baku"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tbilisi",
+        "descricao": "Capital e maior cidade da Geórgia, país do Cáucaso, às margens do rio Kura.",
+        "variantes": [
+          "Tíflis",
+          "Tbilissi"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Tbilisi"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Tbilisi, cidade às margens do rio Kura, é a capital de qual país?",
+      "resposta": "Geórgia",
+      "distratores": [
+        "Armênia",
+        "Azerbaijão",
+        "Uzbequistão"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Tbilisi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cabinda",
+        "descricao": "Província-enclave de Angola, separada do resto do país por uma faixa da República Democrática do Congo.",
+        "variantes": [
+          "Província de Cabinda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Cabinda_Province"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Separado do resto do país por uma faixa da República Democrática do Congo, o enclave de Cabinda pertence a qual país?",
+      "resposta": "Angola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Cabinda_Province"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Oblast de Kaliningrado",
+        "descricao": "Exclave da Rússia na costa do Mar Báltico, sem ligação terrestre com o resto do país.",
+        "variantes": [
+          "Kaliningrado",
+          "Kaliningrad"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kaliningrad_Oblast"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Kaliningrado, território russo sem ligação por terra com o resto da Rússia, fica entre a Lituânia e qual outro país?",
+      "resposta": "Polônia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kaliningrad_Oblast"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Gâmbia",
+        "descricao": "País da África Ocidental formado por uma faixa estreita ao longo do rio Gâmbia, com capital em Banjul.",
+        "variantes": [
+          "The Gambia",
+          "Gambia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Gambia",
+          "https://pt.wikipedia.org/wiki/G%C3%A2mbia"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Com exceção do pequeno litoral no Atlântico, a Gâmbia é totalmente cercada por qual país?",
+      "resposta": "Senegal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Gambia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Liechtenstein",
+        "descricao": "Pequeno principado sem litoral nos Alpes, com capital em Vaduz.",
+        "variantes": [
+          "Principado de Liechtenstein"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Liechtenstein"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No coração dos Alpes, o principado de Liechtenstein faz fronteira com a Suíça e com qual outro país?",
+      "resposta": "Áustria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Liechtenstein"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bratislava",
+        "descricao": "Capital e maior cidade da Eslováquia, às margens do Danúbio.",
+        "variantes": [
+          "Pressburg",
+          "Pozsony"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bratislava"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A capital eslovaca, Bratislava, fica colada à fronteira de dois países vizinhos. Quais são eles?",
+      "resposta": "Áustria e Hungria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bratislava"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Abuja",
+        "descricao": "Cidade planejada no centro da Nigéria, capital do país desde 1991.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Abuja"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Planejada no centro do país, Abuja substituiu Lagos como capital da Nigéria em que década?",
+      "resposta": "Anos 1990",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Abuja"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dissolução da Tchecoslováquia",
+        "descricao": "Separação pacífica da Tchecoslováquia em República Tcheca e Eslováquia, conhecida como Divórcio de Veludo.",
+        "variantes": [
+          "Divórcio de Veludo",
+          "Dissolução da Checoslováquia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Dissolution_of_Czechoslovakia"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Num processo apelidado de Divórcio de Veludo, a Tchecoslováquia se dividiu pacificamente em dois países em que ano?",
+      "resposta": "1993",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Dissolution_of_Czechoslovakia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Panamá",
+        "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+        "variantes": [
+          "República do Panamá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "No início do século vinte, o Panamá deixou de fazer parte da Colômbia. Em que ano isso aconteceu?",
+      "resposta": "1903",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Separation_of_Panama_from_Colombia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Essuatíni",
+        "descricao": "Reino sem litoral do sul da África, antes chamado Suazilândia.",
+        "variantes": [
+          "Eswatini",
+          "Suazilândia",
+          "Swaziland"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eswatini"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O rei Mswati Terceiro trocou o nome oficial da Suazilândia para Essuatíni em que ano?",
+      "resposta": "2018",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eswatini"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Timor-Leste",
+        "descricao": "País do Sudeste Asiático, na metade oriental da ilha de Timor, de língua oficial portuguesa e tétum.",
+        "variantes": [
+          "Timor Leste",
+          "East Timor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/East_Timor"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de séculos sob Portugal e anos de ocupação indonésia, o Timor-Leste teve sua independência reconhecida em que ano?",
+      "resposta": "2002",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/East_Timor"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Montenegro",
+        "descricao": "País dos Bálcãs, na costa do Mar Adriático, com capital em Podgorica.",
+        "variantes": [
+          "Montenegro (país)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Montenegro"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de um referendo, o Montenegro se separou da Sérvia e virou um país independente em que ano?",
+      "resposta": "2006",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Montenegro"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Haiti",
+        "descricao": "País caribenho na porção oeste da ilha de Hispaniola, com capital em Porto Príncipe.",
+        "variantes": [
+          "República do Haiti"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Haiti"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Após uma revolução liderada por escravizados, o Haiti proclamou sua independência da França em que ano?",
+      "resposta": "1804",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Haitian_Revolution"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bangladesh",
+        "descricao": "País do sul da Ásia, antes chamado Paquistão Oriental, com capital em Daca.",
+        "variantes": [
+          "Bangladexe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bangladesh"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Antes chamado Paquistão Oriental, Bangladesh conquistou a independência numa guerra em que ano?",
+      "resposta": "1971",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bangladesh_Liberation_War"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "São Petersburgo",
+        "descricao": "Cidade russa às margens do rio Neva, fundada em 1703 e capital da Rússia entre 1712 e 1918.",
+        "variantes": [
+          "Petrogrado",
+          "Leningrado",
+          "Saint Petersburg"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Saint_Petersburg"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1703, qual czar fundou São Petersburgo, cidade que depois seria a capital da Rússia por cerca de dois séculos?",
+      "resposta": "Pedro, o Grande",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Saint_Petersburg"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lima",
+        "descricao": "Capital e maior cidade do Peru, fundada em 1535.",
+        "variantes": [
+          "Cidade dos Reis",
+          "Ciudad de los Reyes"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lima"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1535, qual conquistador espanhol fundou Lima, chamada originalmente de Cidade dos Reis?",
+      "resposta": "Francisco Pizarro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lima"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Santiago do Chile",
+        "descricao": "Capital e maior cidade do Chile, fundada em 1541.",
+        "variantes": [
+          "Santiago",
+          "Santiago de Chile"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Santiago"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1541, qual conquistador espanhol fundou Santiago, a capital chilena?",
+      "resposta": "Pedro de Valdivia",
+      "distratores": [
+        "Diego de Almagro",
+        "Hernán Cortés",
+        "Francisco de Orellana"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Santiago",
+        "https://en.wikipedia.org/wiki/Pedro_de_Valdivia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Madri",
+        "descricao": "Capital e maior cidade da Espanha, no centro da Península Ibérica.",
+        "variantes": [
+          "Madrid"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Madrid"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1561, qual rei transferiu a corte espanhola para Madri, transformando a cidade em capital?",
+      "resposta": "Filipe II",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Madrid",
+        "https://en.wikipedia.org/wiki/Philip_II_of_Spain"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Singapura",
+        "descricao": "Cidade-Estado insular do Sudeste Asiático, na ponta sul da Península Malaia.",
+        "variantes": [
+          "Singapore",
+          "República de Singapura"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Singapore"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1819, qual britânico fundou o entreposto comercial que deu origem à Singapura moderna?",
+      "resposta": "Stamford Raffles",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Stamford_Raffles"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "washington_d_c",
+        "nome": "Washington, D.C.",
+        "descricao": "Capital federal dos Estados Unidos, situada no Distrito de Colúmbia.",
+        "variantes": [
+          "Washington",
+          "Distrito de Colúmbia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Washington,_D.C."
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1791, qual engenheiro de origem francesa traçou o plano urbano de Washington, com suas grandes avenidas diagonais?",
+      "resposta": "Pierre Charles L'Enfant",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Pierre_Charles_L%27Enfant",
+        "https://en.wikipedia.org/wiki/L%27Enfant_Plan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Valeta",
+        "descricao": "Capital de Malta, cidade fortificada fundada em 1566.",
+        "variantes": [
+          "Valletta",
+          "La Valletta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Valletta"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "No século dezesseis, qual ordem de cavaleiros fundou Valeta, a capital de Malta?",
+      "resposta": "Cavaleiros Hospitalários",
+      "distratores": [
+        "Cavaleiros Templários",
+        "Cavaleiros Teutônicos",
+        "Ordem de Santiago"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Valletta"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Paquistão",
+        "descricao": "País do sul da Ásia criado em 1947 na partição da Índia britânica, com capital em Islamabad.",
+        "variantes": [
+          "Pakistan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Pakistan"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1947, qual líder político é considerado o fundador do Paquistão?",
+      "resposta": "Muhammad Ali Jinnah",
+      "distratores": [
+        "Mahatma Gandhi",
+        "Jawaharlal Nehru",
+        "Zulfikar Ali Bhutto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Muhammad_Ali_Jinnah"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Sucre",
+        "descricao": "Cidade boliviana que é a capital constitucional da Bolívia.",
+        "variantes": [
+          "La Plata",
+          "Chuquisaca"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sucre"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A capital constitucional da Bolívia leva o nome de qual general venezuelano, companheiro de Simón Bolívar nas guerras de independência?",
+      "resposta": "Antonio José de Sucre",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sucre",
+        "https://en.wikipedia.org/wiki/Antonio_Jos%C3%A9_de_Sucre"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kinshasa",
+        "descricao": "Capital e maior cidade da República Democrática do Congo, às margens do rio Congo.",
+        "variantes": [
+          "Léopoldville",
+          "Leopoldville"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kinshasa"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Até 1966, a capital congolesa Kinshasa se chamava Léopoldville, em homenagem ao rei de qual país europeu?",
+      "resposta": "Bélgica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kinshasa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Oslo",
+        "descricao": "Capital e maior cidade da Noruega.",
+        "variantes": [
+          "Cristiânia",
+          "Christiania",
+          "Kristiania"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Oslo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Até 1925, a capital da Noruega tinha um nome que homenageava um rei dinamarquês. Como ela se chamava?",
+      "resposta": "Cristiânia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Oslo",
+        "https://en.wikipedia.org/wiki/Christian_IV_of_Denmark"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ulan Bator",
+        "descricao": "Capital e maior cidade da Mongólia.",
+        "variantes": [
+          "Ulaanbaatar",
+          "Ulã Bator",
+          "Urga"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ulaanbaatar"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Ulan Bator, capital da Mongólia, significa herói de qual cor?",
+      "resposta": "Vermelho",
+      "distratores": [
+        "Azul",
+        "Dourado",
+        "Branco"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ulaanbaatar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Adis Abeba",
+        "descricao": "Capital e maior cidade da Etiópia.",
+        "variantes": [
+          "Addis Ababa",
+          "Adis Abeba"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Addis_Ababa"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em amárico, o nome de Adis Abeba, a capital da Etiópia, significa o quê?",
+      "resposta": "Flor nova",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Addis_Ababa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bahrein",
+        "descricao": "País insular do Golfo Pérsico, com capital em Manama.",
+        "variantes": [
+          "Barém",
+          "Bahrain",
+          "Barein"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bahrain"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em árabe, o nome do Bahrein, arquipélago do Golfo Pérsico, significa o quê?",
+      "resposta": "Dois mares",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bahrain"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Singapura",
+        "descricao": "Cidade-Estado insular do Sudeste Asiático, na ponta sul da Península Malaia.",
+        "variantes": [
+          "Singapore",
+          "República de Singapura"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Singapore"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1965, Singapura virou um país independente ao ser expulsa de qual federação?",
+      "resposta": "Malásia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Singapore_in_Malaysia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lisboa",
+        "descricao": "Capital e maior cidade de Portugal, na foz do rio Tejo.",
+        "variantes": [
+          "Lisbon"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lisbon"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1755, que desastre natural destruiu boa parte de Lisboa, seguido de um tsunami e de incêndios?",
+      "resposta": "Um terremoto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+        "https://pt.wikipedia.org/wiki/Sismo_de_Lisboa_de_1755"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Panamá",
+        "descricao": "País da América Central, no istmo entre as Américas, cuja capital é a Cidade do Panamá.",
+        "variantes": [
+          "República do Panamá"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Panama"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A separação entre o Panamá e a Colômbia teve o apoio decisivo de qual país, interessado em construir um canal na região?",
+      "resposta": "Estados Unidos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Separation_of_Panama_from_Colombia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Etiópia",
+        "descricao": "País sem litoral do Chifre da África, com capital em Adis Abeba.",
+        "variantes": [
+          "Ethiopia",
+          "Abissínia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ethiopia"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "A Etiópia já teve litoral no Mar Vermelho. Que acontecimento, nos anos noventa, deixou o país sem saída para o mar?",
+      "resposta": "A independência da Eritreia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ethiopia",
+        "https://en.wikipedia.org/wiki/Eritrea"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cidade do Vaticano",
+        "descricao": "Estado soberano encravado em Roma, sede da Santa Sé e da Igreja Católica.",
+        "variantes": [
+          "Vaticano",
+          "Estado da Cidade do Vaticano"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Vatican_City"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1929, que acordo entre a Itália e a Santa Sé criou o Estado da Cidade do Vaticano?",
+      "resposta": "Tratado de Latrão",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lateran_Treaty",
+        "https://pt.wikipedia.org/wiki/Tratado_de_Latr%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Paraguai",
+        "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
+        "variantes": [
+          "Paraguay"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Paraguay"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Na América do Sul, qual característica geográfica o Paraguai compartilha apenas com a Bolívia?",
+      "resposta": "Não ter saída para o mar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Landlocked_country",
+        "https://en.wikipedia.org/wiki/Paraguay"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Boliviano",
+        "descricao": "Moeda oficial da Bolívia.",
+        "variantes": [
+          "Boliviano (moeda)",
+          "BOB"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bolivian_boliviano"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Os nomes das moedas da Bolívia e da Venezuela remetem a qual personagem histórico?",
+      "resposta": "Simón Bolívar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bolivian_boliviano",
+        "https://en.wikipedia.org/wiki/Venezuelan_bol%C3%ADvar"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Budapeste",
+        "descricao": "Capital e maior cidade da Hungria, às margens do Danúbio.",
+        "variantes": [
+          "Budapest"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Budapest"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Viena, Bratislava e Belgrado são capitais banhadas pelo mesmo rio. Qual outra capital europeia completa esse grupo?",
+      "resposta": "Budapeste",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Danube"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Suriname",
+        "descricao": "País do norte da América do Sul, ex-colônia holandesa, com capital em Paramaribo.",
+        "variantes": [
+          "Surinam",
+          "República do Suriname"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Suriname"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em 1667, pelo Tratado de Breda, os holandeses ficaram com o Suriname e deixaram aos ingleses a colônia que viraria qual cidade?",
+      "resposta": "Nova York",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Treaty_of_Breda_(1667)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "China",
+        "descricao": "País do leste da Ásia, com capital em Pequim.",
+        "variantes": [
+          "República Popular da China"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/China"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Apesar de se estender por milhares de quilômetros de leste a oeste, quantos fusos horários oficiais a China adota?",
+      "resposta": "Um",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Time_in_China"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Suíça",
+        "descricao": "País sem litoral da Europa Central, nos Alpes, com sede de governo em Berna.",
+        "variantes": [
+          "Confederação Suíça",
+          "Switzerland"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Switzerland"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Alemão, francês e italiano estão entre as línguas nacionais da Suíça. Quantas línguas nacionais o país tem ao todo?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Languages_of_Switzerland"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Iugoslávia",
+        "descricao": "República Federal Socialista da Iugoslávia, país dos Bálcãs que existiu de 1945 a 1992.",
+        "variantes": [
+          "República Federal Socialista da Iugoslávia",
+          "Jugoslávia",
+          "Yugoslavia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Socialist_Federal_Republic_of_Yugoslavia"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "A antiga Iugoslávia socialista era formada por quantas repúblicas?",
+      "resposta": "Seis",
+      "distratores": [
+        "Quatro",
+        "Cinco",
+        "Oito"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Socialist_Federal_Republic_of_Yugoslavia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cazaquistão",
+        "descricao": "País da Ásia Central, o maior sem saída para o mar, com capital em Astana.",
+        "variantes": [
+          "Kazakhstan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kazakhstan"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Em área, qual é o maior país do mundo sem saída para o mar?",
+      "resposta": "Cazaquistão",
+      "distratores": [
+        "Mongólia",
+        "Bolívia",
+        "Chade"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Landlocked_country",
+        "https://en.wikipedia.org/wiki/Kazakhstan"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nigéria",
+        "descricao": "País da África Ocidental, no golfo da Guiné, com capital em Abuja.",
+        "variantes": [
+          "Nigeria"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nigeria"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Com mais de duzentos milhões de habitantes, qual é o país mais populoso da África?",
+      "resposta": "Nigéria",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nigeria"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Suriname",
+        "descricao": "País do norte da América do Sul, ex-colônia holandesa, com capital em Paramaribo.",
+        "variantes": [
+          "Surinam",
+          "República do Suriname"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Suriname"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Vizinho do Brasil, o Suriname tem como língua oficial uma herança da colonização. Qual é essa língua?",
+      "resposta": "Neerlandês (holandês)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Suriname"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "equador",
+        "nome": "Equador",
+        "descricao": "País da América do Sul, na costa do Pacífico, cuja capital é Quito.",
+        "variantes": [
+          "Ecuador"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ecuador"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Desde o ano dois mil, qual é a moeda oficial do Equador?",
+      "resposta": "Dólar americano",
+      "distratores": [
+        "Sucre",
+        "Peso equatoriano",
+        "Sol"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ecuadorian_sucre",
+        "https://en.wikipedia.org/wiki/Ecuador"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Hispaniola",
+        "descricao": "Ilha do Caribe dividida entre o Haiti e a República Dominicana.",
+        "variantes": [
+          "Hispaníola",
+          "Ilha de São Domingos",
+          "Española"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hispaniola"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A ilha caribenha de Hispaniola é dividida entre a República Dominicana e qual outro país?",
+      "resposta": "Haiti",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hispaniola"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Reino Unido",
+        "descricao": "País da Europa Ocidental formado por Inglaterra, Escócia, País de Gales e Irlanda do Norte, com capital em Londres.",
+        "variantes": [
+          "Reino Unido da Grã-Bretanha e Irlanda do Norte",
+          "United Kingdom"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/United_Kingdom"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O Reino Unido reúne Inglaterra, Escócia, País de Gales e qual outra nação?",
+      "resposta": "Irlanda do Norte",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Countries_of_the_United_Kingdom"
+      ]
+    }
+  ]
+}
