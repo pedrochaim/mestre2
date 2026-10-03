@@ -1,0 +1,44 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento musical é este?",
+        "resposta": "Berimbau"
+      },
+      "existentes": [
+        {
+          "id": "q00341",
+          "pergunta": "No berimbau, que comanda o ritmo da roda de capoeira, que fruto seco e oco serve de caixa de ressonância?",
+          "resposta": "Cabaça"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este instrumento de percussão é mais associado a qual gênero musical brasileiro?",
+        "resposta": "Samba"
+      },
+      "existentes": [
+        {
+          "id": "q02306",
+          "pergunta": "Que instrumento de percussão brasileiro, pequeno e tocado com baqueta, é este?",
+          "resposta": "Tamborim"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do instrumento (berimbau); a existente pergunta qual fruto serve de caixa de ressonância (cabaça), e o nome do instrumento já aparece no enunciado dela. Os fatos são diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta a qual gênero musical o instrumento se associa (samba). A existente pede o nome do instrumento (tamborim). Saber uma não dá a resposta da outra."
+    }
+  ]
+}

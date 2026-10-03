@@ -1,0 +1,417 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Berimbau",
+        "descricao": "Instrumento musical de um arco com uma corda e cabaça ressonadora, usado na capoeira.",
+        "variantes": [
+          "Berimbau de barriga"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "berimbau",
+          "nome": "Berimbau",
+          "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+          "variantes": [
+            "Berimbau de barriga"
+          ]
+        },
+        {
+          "id": "berlim",
+          "nome": "Berlim",
+          "descricao": "Capital da Alemanha, vista com a torre de TV, o Reichstag e o Portão de Brandemburgo.",
+          "variantes": [
+            "Berlin"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "esgrima",
+          "nome": "Esgrima",
+          "descricao": "Esporte de combate com armas brancas: florete, espada e sabre.",
+          "variantes": []
+        },
+        {
+          "id": "seriema",
+          "nome": "Seriema",
+          "descricao": "Ave terrestre predadora (Cariama cristata), de pernas e bico vermelhos e topete de penas eriçadas, dos campos da América do Sul.",
+          "variantes": [
+            "Seriema-de-perna-vermelha",
+            "Siriema",
+            "Red-legged seriema",
+            "Cariama cristata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tamborim",
+        "descricao": "Pequeno tambor brasileiro de aro, tocado com baqueta, típico do samba.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "tamborim",
+          "nome": "Tamborim",
+          "descricao": "Pequeno tambor de aro brasileiro, de som agudo, usado no samba e no carnaval.",
+          "variantes": []
+        },
+        {
+          "id": "monte_tambora",
+          "nome": "Monte Tambora",
+          "descricao": "Vulcão na ilha de Sumbawa, na Indonésia, cuja erupção de 1815 foi a maior da história registrada.",
+          "variantes": [
+            "Tambora",
+            "Mount Tambora"
+          ]
+        },
+        {
+          "id": "denim",
+          "nome": "Denim",
+          "descricao": "Tecido de algodão resistente em sarja, geralmente azul, usado na confecção de jeans",
+          "variantes": [
+            "Brim"
+          ]
+        },
+        {
+          "id": "lamborghini",
+          "nome": "Lamborghini",
+          "descricao": "Fabricante italiana de carros esportivos fundada por Ferruccio Lamborghini em 1963.",
+          "variantes": [
+            "Automobili Lamborghini"
+          ]
+        },
+        {
+          "id": "amendoim",
+          "nome": "Amendoim",
+          "descricao": "Planta leguminosa Arachis hypogaea, cujas sementes comestíveis se formam sob o solo",
+          "variantes": [
+            "Arachis hypogaea",
+            "peanut"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Triângulo",
+        "descricao": "Instrumento de percussão de metal dobrado em forma triangular, tocado com uma baqueta metálica.",
+        "variantes": [
+          "Triângulo musical"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "triangulo_de_pascal",
+          "nome": "Triângulo de Pascal",
+          "descricao": "Arranjo triangular dos coeficientes binomiais, em que cada número é a soma dos dois acima dele.",
+          "variantes": [
+            "Triângulo de Yang Hui",
+            "Triângulo de Tartaglia",
+            "Pascal's triangle"
+          ]
+        },
+        {
+          "id": "tango",
+          "nome": "Tango",
+          "descricao": "Gênero musical e dança surgidos na região do Rio da Prata, entre Buenos Aires e Montevidéu",
+          "variantes": [
+            "Tango argentino"
+          ]
+        },
+        {
+          "id": "soluco",
+          "nome": "Soluço",
+          "descricao": "Contração involuntária e repetida que produz um som característico na garganta.",
+          "variantes": [
+            "Hiccup",
+            "Singulto"
+          ]
+        },
+        {
+          "id": "gringo",
+          "nome": "Gringo",
+          "descricao": "Palavra usada no Brasil e na América Latina para designar estrangeiros",
+          "variantes": []
+        },
+        {
+          "id": "ringue_de_boxe",
+          "nome": "Ringue de boxe",
+          "descricao": "Espaço quadrado cercado por cordas onde se disputam as lutas de boxe.",
+          "variantes": [
+            "Ringue",
+            "Boxing ring"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Banjo",
+        "descricao": "Instrumento de cordas com caixa circular coberta por uma membrana, de origem afro-americana.",
+        "variantes": [
+          "Banjo de cinco cordas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "libano",
+          "nome": "Líbano",
+          "descricao": "País do Levante, na Ásia Ocidental, banhado pelo Mediterrâneo, cuja capital é Beirute.",
+          "variantes": [
+            "República Libanesa"
+          ]
+        },
+        {
+          "id": "bono",
+          "nome": "Bono",
+          "descricao": "Cantor irlandês, vocalista da banda U2, nascido Paul Hewson",
+          "variantes": [
+            "Paul Hewson",
+            "Bono Vox"
+          ]
+        },
+        {
+          "id": "bangkok",
+          "nome": "Bangkok",
+          "descricao": "Capital da Tailândia, chamada pelos tailandeses de Krung Thep.",
+          "variantes": [
+            "Banguecoque",
+            "Krung Thep"
+          ]
+        },
+        {
+          "id": "rio_tejo",
+          "nome": "Rio Tejo",
+          "descricao": "Maior rio da Península Ibérica, que nasce na Espanha e deságua no Atlântico em Lisboa.",
+          "variantes": [
+            "Tejo",
+            "Tajo",
+            "Tagus"
+          ]
+        },
+        {
+          "id": "forno_de_micro_ondas",
+          "nome": "Forno de micro-ondas",
+          "descricao": "Eletrodoméstico que aquece alimentos com radiação de micro-ondas, desenvolvido a partir da tecnologia de radar.",
+          "variantes": [
+            "Micro-ondas",
+            "Microwave oven"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Rebeca",
+        "descricao": "Instrumento medieval de cordas friccionadas, de corpo em forma de pera ou barco, antepassado do violino.",
+        "variantes": [
+          "Rabeca",
+          "Rebec"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "violino",
+          "nome": "Violino",
+          "descricao": "Instrumento de cordas friccionadas com arco, o menor e mais agudo da família do violino.",
+          "variantes": [
+            "Rabeca"
+          ]
+        },
+        {
+          "id": "franca",
+          "nome": "França",
+          "descricao": "País da Europa Ocidental cuja capital é Paris, com diversos territórios ultramarinos.",
+          "variantes": [
+            "France",
+            "República Francesa"
+          ]
+        },
+        {
+          "id": "respect",
+          "nome": "Respect",
+          "descricao": "Canção de soul lançada em 1965 e consagrada por Aretha Franklin em 1967",
+          "variantes": []
+        },
+        {
+          "id": "peteca",
+          "nome": "Peteca",
+          "descricao": "Brinquedo brasileiro de origem indígena, com base pesada e penas, golpeado com a palma da mão.",
+          "variantes": []
+        },
+        {
+          "id": "tabela_de_basquete",
+          "nome": "Tabela de basquete",
+          "descricao": "Placa vertical presa atrás do aro, na qual a bola pode quicar antes de entrar na cesta.",
+          "variantes": [
+            "Backboard",
+            "Tabela"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gamão",
+        "descricao": "Jogo de tabuleiro para dois jogadores, com dados e quinze peças cada, que andam por vinte e quatro casas triangulares.",
+        "variantes": [
+          "Backgammon"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gramado",
+          "nome": "Gramado",
+          "descricao": "Município turístico da Serra Gaúcha, no Rio Grande do Sul, conhecido pela arquitetura de influência alemã e italiana.",
+          "variantes": []
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "damao",
+          "nome": "Damão",
+          "descricao": "Pequeno mamífero herbívoro da África e do Oriente Médio, ordem Hyracoidea.",
+          "variantes": [
+            "Hírax",
+            "Hyrax"
+          ]
+        },
+        {
+          "id": "salmao",
+          "nome": "Salmão",
+          "descricao": "Peixe migratório da família Salmonidae que vive no mar e sobe os rios para desovar.",
+          "variantes": [
+            "Salmon"
+          ]
+        },
+        {
+          "id": "granma",
+          "nome": "Granma",
+          "descricao": "Iate que levou Fidel Castro e 81 guerrilheiros do México a Cuba em 1956, dando início à Revolução Cubana.",
+          "variantes": [
+            "Iate Granma"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Xadrez chinês",
+        "descricao": "Jogo de estratégia para dois jogadores, popular na China, com peças redondas e um rio no meio do tabuleiro.",
+        "variantes": [
+          "Xiangqi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "shogi",
+          "nome": "Shogi",
+          "descricao": "Jogo de tabuleiro japonês de estratégia, parente do xadrez, com peças pentagonais que podem ser recolocadas após a captura.",
+          "variantes": [
+            "Xadrez japonês"
+          ]
+        },
+        {
+          "id": "jose_de_anchieta",
+          "nome": "José de Anchieta",
+          "descricao": "Padre jesuíta espanhol do século dezesseis, missionário no Brasil e autor de autos teatrais e poemas.",
+          "variantes": [
+            "Padre Anchieta",
+            "São José de Anchieta"
+          ]
+        },
+        {
+          "id": "pecas_de_xadrez_de_lewis",
+          "nome": "Peças de xadrez de Lewis",
+          "descricao": "Conjunto de peças de xadrez medievais do século doze encontrado na Ilha de Lewis, na Escócia.",
+          "variantes": [
+            "Lewis chessmen",
+            "Xadrez de Lewis"
+          ]
+        },
+        {
+          "id": "padre_cicero",
+          "nome": "Padre Cícero",
+          "descricao": "Cícero Romão Batista, sacerdote cearense venerado pela religiosidade popular nordestina e alvo de grandes romarias.",
+          "variantes": [
+            "Padim Ciço",
+            "Cícero Romão Batista"
+          ]
+        },
+        {
+          "id": "juan_manuel_fangio",
+          "nome": "Juan Manuel Fangio",
+          "descricao": "Piloto argentino pentacampeão mundial de Fórmula 1 nos anos cinquenta.",
+          "variantes": [
+            "Fangio"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "berimbau",
+      "motivo": "Mesmo instrumento da capoeira, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "tamborim",
+      "motivo": "Mesmo pequeno tambor de aro do samba."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o instrumento triângulo; Triângulo de Pascal é outra entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o banjo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Rebec medieval é antepassado do violino, distinto do violino, mesmo com a variante Rabeca compartilhada."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o jogo gamão."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Xiangqi é distinto do Shogi e das demais candidatas."
+    }
+  ]
+}

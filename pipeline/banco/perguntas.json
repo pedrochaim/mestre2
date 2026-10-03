@@ -69466,5 +69466,165 @@
     "fonte": [
       "https://en.wikipedia.org/wiki/Eunice_Newton_Foote"
     ]
+  },
+  {
+    "id": "q04164",
+    "tema": "Entretenimento",
+    "subtema": "Música Brasileira",
+    "ancora": "berimbau",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento musical é este?",
+    "resposta": "Berimbau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Berimbau",
+      "https://pt.wikipedia.org/wiki/Berimbau"
+    ],
+    "imagem": {
+      "arquivo": "q04164.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Hn_3berimbau.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04165",
+    "tema": "Entretenimento",
+    "subtema": "Música Brasileira",
+    "ancora": "tamborim",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este instrumento de percussão é mais associado a qual gênero musical brasileiro?",
+    "resposta": "Samba",
+    "distratores": [
+      "Forró",
+      "Sertanejo",
+      "Moda de viola"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tamborim",
+      "https://pt.wikipedia.org/wiki/Tamborim"
+    ],
+    "imagem": {
+      "arquivo": "q04165.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Tamborim.JPG",
+      "autor": "Alno",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04166",
+    "tema": "Entretenimento",
+    "subtema": "Música Brasileira",
+    "ancora": "triangulo",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que instrumento de percussão é este?",
+    "resposta": "Triângulo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Triangle_%28musical_instrument%29",
+      "https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo_%28instrumento_musical%29"
+    ],
+    "imagem": {
+      "arquivo": "q04166.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Triangel1.jpg",
+      "autor": "Žiga",
+      "licenca": "CC0"
+    }
+  },
+  {
+    "id": "q04167",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "banjo",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que instrumento de cordas é este?",
+    "resposta": "Banjo",
+    "distratores": [
+      "Bandolim",
+      "Ukulele",
+      "Alaúde"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Banjo",
+      "https://pt.wikipedia.org/wiki/Banjo"
+    ],
+    "imagem": {
+      "arquivo": "q04167.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Bluegrass_banjo.png",
+      "autor": "Arent",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04168",
+    "tema": "Entretenimento",
+    "subtema": "Música Internacional",
+    "ancora": "rebeca",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Este instrumento, da Idade Média, pertence a que família?",
+    "resposta": "Cordas friccionadas",
+    "distratores": [
+      "Cordas dedilhadas",
+      "Cordas percutidas",
+      "Sopros de palheta"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rabeca",
+      "https://en.wikipedia.org/wiki/Rebec"
+    ],
+    "imagem": {
+      "arquivo": "q04168.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Rebec_fiddle.jpg",
+      "autor": "Bubblecar",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q04169",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "gamao",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que jogo de tabuleiro é este?",
+    "resposta": "Gamão",
+    "distratores": [
+      "Ludo",
+      "Mancala",
+      "Damas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Backgammon",
+      "https://pt.wikipedia.org/wiki/Gam%C3%A3o"
+    ],
+    "imagem": {
+      "arquivo": "q04169.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Backgammon_lg.jpg",
+      "autor": "Ptkfgs",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q04170",
+    "tema": "Entretenimento",
+    "subtema": "Jogos de Tabuleiro e Cartas",
+    "ancora": "xadrez_chines",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que jogo de tabuleiro é este?",
+    "resposta": "Xadrez chinês (Xiangqi)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Xiangqi",
+      "https://pt.wikipedia.org/wiki/Xiangqi"
+    ],
+    "imagem": {
+      "arquivo": "q04170.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Escacs_Xinesos.jpg",
+      "autor": "Francesc Fort",
+      "licenca": "CC BY-SA 4.0"
+    }
   }
 ]

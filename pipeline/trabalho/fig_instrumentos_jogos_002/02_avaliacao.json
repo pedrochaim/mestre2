@@ -1,0 +1,174 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Três berimbaus, mesmo instrumento, sem texto; reconhecível pelo arco e pela cabaça.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento musical é este?",
+      "resposta": "Berimbau",
+      "destino": 0,
+      "ancora": {
+        "nome": "Berimbau",
+        "descricao": "Instrumento musical de um arco com uma corda e cabaça ressonadora, usado na capoeira.",
+        "variantes": [
+          "Berimbau de barriga"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Tamborim com baqueta de várias pontas, sem texto; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este instrumento de percussão é mais associado a qual gênero musical brasileiro?",
+      "resposta": "Samba",
+      "distratores": [
+        "Forró",
+        "Sertanejo",
+        "Moda de viola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tamborim",
+        "descricao": "Pequeno tambor brasileiro de aro, tocado com baqueta, típico do samba.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Aparece texto no painel (Moog, Etherwave Theremin) que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Close do tampo de um instrumento que pode ser confundido com violão ou guitarra portuguesa; não reconhecível como cavaquinho."
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Foto de pessoas com camisetas escritas Olodum, texto que entrega o contexto, e muita gente em primeiro plano."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A palavra ODYSSEY aparece no console, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Triângulo metálico claro, sem texto relevante.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento de percussão é este?",
+      "resposta": "Triângulo",
+      "destino": 0,
+      "ancora": {
+        "nome": "Triângulo",
+        "descricao": "Instrumento de percussão de metal dobrado em forma triangular, tocado com uma baqueta metálica.",
+        "variantes": [
+          "Triângulo musical"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Banjo de cinco cordas em fundo branco, reconhecível pela caixa circular de membrana.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que instrumento de cordas é este?",
+      "resposta": "Banjo",
+      "distratores": [
+        "Bandolim",
+        "Ukulele",
+        "Alaúde"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Banjo",
+        "descricao": "Instrumento de cordas com caixa circular coberta por uma membrana, de origem afro-americana.",
+        "variantes": [
+          "Banjo de cinco cordas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Rebeca medieval com arco, sem texto; a pergunta pela família de instrumentos é respondível pela imagem.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este instrumento, da Idade Média, pertence a que família?",
+      "resposta": "Cordas friccionadas",
+      "distratores": [
+        "Cordas dedilhadas",
+        "Cordas percutidas",
+        "Sopros de palheta"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Rebeca",
+        "descricao": "Instrumento medieval de cordas friccionadas, de corpo em forma de pera ou barco, antepassado do violino.",
+        "variantes": [
+          "Rabeca",
+          "Rebec"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vários violões numa loja, com etiquetas, preços e marcas visíveis; não é um assunto único e tem texto."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tabuleiro de gamão completo, claro e sem texto que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que jogo de tabuleiro é este?",
+      "resposta": "Gamão",
+      "distratores": [
+        "Ludo",
+        "Mancala",
+        "Damas"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Gamão",
+        "descricao": "Jogo de tabuleiro para dois jogadores, com dados e quinze peças cada, que andam por vinte e quatro casas triangulares.",
+        "variantes": [
+          "Backgammon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tabuleiro de xiangqi com rio e peças redondas; reconhecível, sem texto em português.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que jogo de tabuleiro é este?",
+      "resposta": "Xadrez chinês (Xiangqi)",
+      "destino": 2,
+      "ancora": {
+        "nome": "Xadrez chinês",
+        "descricao": "Jogo de estratégia para dois jogadores, popular na China, com peças redondas e um rio no meio do tabuleiro.",
+        "variantes": [
+          "Xiangqi"
+        ]
+      }
+    }
+  ]
+}
