@@ -1,0 +1,409 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado de pianoforte confirmado na fonte; enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cristofori como inventor, com piano já existente em 1700, está na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que Rellstab não mencionou o Lago de Lucerna, acréscimo de Lenz; o enunciado afirma o contrário.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a resposta é longa demais para voz.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "A Sinfonia número noventa e quatro de Haydn ganhou o apelido de Surpresa por causa de que acontece no movimento lento?",
+        "resposta": "Um acorde forte e repentino",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Symphony_No._94_(Haydn)"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bach como homenageado no título do ciclo está sustentado e a pergunta é clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pequena locomotiva do interior' praticamente entrega 'Trenzinho do Caipira'.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "O quarto movimento das Bachianas Brasileiras número dois, de Villa-Lobos, imita uma locomotiva. Que título brasileiro ele recebeu?",
+        "resposta": "O Trenzinho do Caipira",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bachianas_Brasileiras"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Mozart usava sobretudo Amadè; 'usado por Mozart' é impreciso.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome Amadeus, que ficou ligado a Mozart, vem do latim. O que ele significa?",
+        "resposta": "Amado por Deus",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Wolfgang_Amadeus_Mozart"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cor dos cabelos' vaza a resposta e 'batina' não é sustentado; melhor perguntar o significado do apelido.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Em Veneza, Vivaldi era conhecido pelo apelido il Prete Rosso. O que isso significa em português?",
+        "resposta": "O padre ruivo",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Antonio_Vivaldi"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma que 'minute' quer dizer pequena/miniatura.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Acrônimo Viva Vittorio Emanuele Re d'Italia confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Título tirado do poema de Verlaine, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hino a São João Batista confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Napoleão proclamou-se imperador; dedicatória riscada, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado: o recado era que os músicos queriam voltar para casa.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relato de Forkel sobre a insônia do conde, com a ressalva 'segundo um antigo relato'.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plutão só foi descoberto em 1930; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Temor de que a frivolidade prejudicasse sua reputação, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Protesto contra a censura do Império Russo confirmado; o uso de títulos disfarçados é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Toscanini parou porque Puccini morreu sem terminar a ópera.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Castração para preservar a voz aguda, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tradição do rei Jorge II confirmada, com a ressalva 'segundo a tradição'.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia em Dublin em 1742; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a resposta é longa demais.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Na estreia da Nona Sinfonia, em 1824, uma cantora virou Beethoven de frente para a plateia. Por quê?",
+        "resposta": "Ele não ouvia os aplausos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Symphony_No._9_(Beethoven)",
+          "https://pt.wikipedia.org/wiki/Sinfonia_n.%C2%BA_9_%28Beethoven%29"
+        ]
+      }
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Voz do Brasil abre com a ópera de Carlos Gomes, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia no La Scala em 1870 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Participação na Semana de 22 sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Melodia de Ah vous dirai-je, Maman é a de Twinkle Twinkle, equivalente a Brilha, Brilha, Estrelinha.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ode à Alegria adotada como hino europeu, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Motivo da Quinta com o ritmo do V em Morse (BBC, vitória) é bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Uso em 2001: Uma Odisseia no Espaço (1968) confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Música incidental para Sonho de uma Noite de Verão, de Shakespeare.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tema de The Lone Ranger confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Armstrong levou a gravação na Apollo 11, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caixa clara mantém o ritmo; distratores de percussão críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Harpa e xilofone não são instrumentos de teclado, então os distratores são eliminados pelo enunciado.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Na Dança da Fada Açucarada, do Quebra-Nozes, que instrumento de teclado, com som de sininhos, faz a melodia?",
+        "resposta": "Celesta",
+        "distratores": [
+          "Cravo",
+          "Órgão",
+          "Acordeão"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Dance_of_the_Sugar_Plum_Fairy",
+          "https://en.wikipedia.org/wiki/Celesta"
+        ]
+      }
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lobo representado por três trompas; distratores são outros personagens, bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franklin inventou a armônica em 1761; Mozart compôs para ela.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Melodia de Haydn de 1797 para Francisco II, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Música de Francisco Manuel da Silva confirmada; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coração levado a Varsóvia, a pedido dele, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stradivari trabalhava em Cremona, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sete filhos do primeiro casamento e treze do segundo somam vinte.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "104 sinfonias numeradas, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de ordem cronológica trivial, sem contexto e pouco interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Harpa de concerto tem sete pedais, fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos nasceram em 1685, com cerca de um mês de diferença.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Contrabaixo é o maior e mais grave das cordas da orquestra.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "4′33″ consiste em silêncio do intérprete, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Orquestras afinam pelo lá do oboé, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia de 1913 em Paris, famosa pelo tumulto, identificada corretamente.",
+      "reescrita": null
+    }
+  ]
+}

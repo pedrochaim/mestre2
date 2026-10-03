@@ -1,0 +1,45 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em Veneza, Vivaldi era conhecido pelo apelido il Prete Rosso. O que isso significa em português?",
+        "resposta": "O padre ruivo"
+      },
+      "existentes": [
+        {
+          "id": "q02236",
+          "pergunta": "Qual destas obras foi composta por este músico barroco?",
+          "resposta": "As Quatro Estações"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A melodia do hino nacional da Alemanha foi composta originalmente em homenagem ao imperador austríaco. Quem a compôs?",
+        "resposta": "Joseph Haydn"
+      },
+      "existentes": [
+        {
+          "id": "q02354",
+          "pergunta": "A melodia do hino alemão nasceu em 1797 como homenagem ao imperador Francisco Segundo. Quem a compôs?",
+          "resposta": "Joseph Haydn"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "O apelido il Prete Rosso e seu significado é um fato diferente da obra composta por Vivaldi."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem compôs a melodia do hino alemão, com a mesma resposta: Joseph Haydn.",
+      "id_existente": "q02354"
+    }
+  ]
+}
