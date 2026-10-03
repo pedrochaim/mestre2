@@ -1,0 +1,1790 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Antigas Civilizações do Oriente** (tema **História**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Código de Hamurábi",
+      "descricao": "Código de leis babilônico do século dezoito antes de Cristo, gravado numa estela de basalto."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Levada como saque de guerra pelos elamitas, a estela do Código de Hamurábi foi encontrada em 1901 em que antiga cidade, hoje no Irã?",
+    "resposta": "Susa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Code_of_Hammurabi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Code_of_Hammurabi",
+        "situacao": "ok",
+        "texto": "The Code of Hammurabi is a Babylonian legal text composed c. 1753 BC. It is the longest, best-organized, and best-preserved legal text from the ancient Near East. It is written in the Old Babylonian dialect of Akkadian, purportedly by Hammurabi, sixth king of the First Dynasty of Babylon. The primary copy of the text is inscribed on a basalt stele 2.25 m (7 ft 4+1⁄2 in) tall.\n[…]\nThe Code of Lipit-Ishtar of Isin.\n[…]\nThe Louvre stele was found at the site of the ancient Elamite city of Susa. Susa is in modern-day Khuzestan Province, Iran (Persia at the time of excavation). The stele was excavated by the French Archaeological Mission under the direction of Jacques de Morgan. Father Jean-Vincent Scheil published the initial report in the fourth volume of the Reports of the Delegation to Persia (Mémoires de la Délégation en Perse).\n[…]\nAccording to Scheil, the stele's fragments were found on the tell of the Susa acropolis (l'Acropole de Suse), between December 1901 and January 1902. The few, large fragments made assembly easy.\n[…]\nScheil hypothesised that the stele had been taken to Susa by the Elamite king Shutruk-Nakhunte and that he had commissioned the erasure of several columns of laws to write his legend there. It has been proposed that the relief portion of the stele, especially the beards of Hammurabi and Shamash, was similarly \"restored\" at the same time. Roth suggests the stele was taken as plunder from Sippar, where Hammurabi lived towards the end of his reign.\n[…]\nFragments of a second and possibly third stele recording the Code were found along with the Louvre stele at Susa. Over 50 manuscripts containing the laws are known. They were found not only in Susa but also in Babylon, Nineveh, Assur, Borsippa, Nippur, Sippar, Ur, Larsa, and more. Copies were created during Hammurabi's reign, and also after it, since the text became a part of the scribal curriculum."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%B3digo_de_Hamurabi",
+        "situacao": "ok",
+        "texto": "O Código de Hamurabi ou de Hamurábi representa um conjunto de leis escritas, sendo um dos exemplos mais bem preservados desse tipo de texto oriundo da Mesopotâmia. Acredita-se que foi escrito pelo rei Hamurábi, aproximadamente em 1 772 a.C. Foi encontrado por uma expedição francesa em 1901 na região da antiga Mesopotâmia, correspondente à cidade de Susa, no sudoeste do Irã ou Irão.\n[…]\nPontos principais do código de Hamurábi:\n[…]\nDurante as diferentes invasões da Babilônia, o código foi deslocado para a cidade de Susa (no Irã ou Irão atual) por volta de 1 200 a.C. Foi nessa cidade que ele foi descoberto, em dezembro de 1901, pela expedição dirigida por Jacques de Morgan. O abade Jean-Vincent Scheil traduziu a totalidade do código após o retorno a Paris, onde hoje ele pode ser admirado no Museu do Louvre, na sala 3 do Departamento de Antiguidades Orientais.\n[…]\nNo caso da estela de Hamurábi em questão, viajantes de outras regiões, quando em passagem por Susa, tinham a oportunidade de obter cópias para serem lidas por escribas em suas aldeias e para isso normalmente utilizavam o processo similar ao de xilogravura, transcrevendo diretamente da estela para o papel ou papiro, que com o passar do tempo e o uso, por se tratar de material perecível, se perderam, permanecendo apenas essas matrizes de pedra para contar a origem das leis.\n[…]\nÉ um dos mais antigos conjuntos de leis escritas já encontrados, e um dos exemplos mais bem preservados deste tipo de documento da antiga Mesopotâmia. Segundo os cálculos, estima-se que tenha sido elaborado pelo rei Hamurábi por volta de 1 700 a.C. Foi encontrado por uma expedição francesa em 1901 na região da antiga Mesopotâmia correspondente a cidade de Susa, atual Irã.\n[…]\nCódigo de Hammurabi, traduzido para inglês por Leonard William King. - São Paulo: Madras, 2005\n[…]\n«Tradução do código para o inglês»\n[…]\n«Tradução do código para o português» (PDF)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Escrita cuneiforme",
+      "descricao": "Sistema de escrita da antiga Mesopotâmia, feito com marcas impressas em tabuletas de argila."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da escrita cuneiforme, da Mesopotâmia, vem do latim e descreve o formato das marcas feitas no barro. Que formato é esse?",
+    "resposta": "Cunha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cuneiform",
+      "https://pt.wikipedia.org/wiki/Escrita_cuneiforme"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cuneiform",
+        "situacao": "ok",
+        "texto": "Cuneiform is a logo-syllabic writing system that was used to write several languages of the ancient Near East. The script was in active use from the early Bronze Age until the 1st century BC. Cuneiform scripts are marked by and named for the characteristic wedge-shaped impressions (Latin: cuneus) which form their signs. Cuneiform is the earliest known writing system and was originally developed to\n[…]\nThere are many instances of Egypt-Mesopotamia relations at the time of the invention of writing, and standard reconstructions of the development of writing generally place the development of the Sumerian proto-cuneiform script before the development of Egyptian hieroglyphs, with the suggestion the former influenced the latter. Given the lack of direct evidence for the transfer of writing, \"no definitive determination has been made as to the origin of hieroglyphics in ancient Egypt\".\n[…]\nBeginning in the later half of the 1st millennium BC cuneiform rapidly fell into dis-use. In part this was due to the slow replacement of the Akkadian language by the Aramaic, written in the Aramaic alphabet, in Mesopotamia and the growing influence of the Persian\n[…]\nCuneiform has a specific format for transliteration. Because of the script's polyvalence, transliteration requires certain choices of the transliterating scholar, who must decide in the case of each sign which of its several possible meanings is intended in the original document.\n[…]\nCuneiform script was used in many ways in ancient Mesopotamia. Besides the well-known clay tablets and stone inscriptions, cuneiform was also written on wax boards. One example from the 8th century BC was found at Nimrud. The wax contained toxic amounts of arsenic. It was used to record laws, like the Code of Hammurabi. It was also used for recording maps, compiling medical manuals, and documenting religious stories and beliefs, among other uses."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escrita_cuneiforme",
+        "situacao": "ok",
+        "texto": "Escrita cuneiforme é a designação geral dada a certos tipos de escrita feitas com auxílio de objetos em formato de cunha. É, juntamente com os hieróglifos egípcios, o mais antigo tipo conhecido de escrita, tendo sido criado pelos sumérios cerca de 3 200 a.C. Inicialmente, a escrita representava formas do mundo (pictogramas). Com o passar do tempo, por praticidade, as formas foram se tornando mais \n[…]\nO último documento registrado em escrita cuneiforme da sociedade da Mesopotâmia é um almanaque astronômico datado de 75 d.C., onde estão anotados os movimentos dos astros mês a mês.\n[…]\nEm meados do 3º milênio a.C., foi introduzido um novo estilete com ponta em cunha, que era pressionado na argila, produzindo uma escrita cuneiforme em forma de cunha. Esse desenvolvimento tornou a escrita mais rápida e fácil, especialmente ao escrever em argila macia. Ao ajustar a posição relativa do estilete em relação à tabuinha, o escriba podia usar uma única ferramenta para fazer uma variedade de impressões.\n[…]\nPara números, um estilete de ponta redonda era inicialmente usado, até que o estilete de ponta em cunha foi generalizado. A direção da escrita era de cima para baixo e da direita para a esquerda. As tabuinhas de argila cuneiformes podiam ser queimadas em fornos para endurecê-las e, assim, fornecer um registro permanente, ou podiam ser deixadas úmidas e recicladas se a permanência não fosse necessária.\n[…]\nFormava um silabário semi-alfabético, usando muito menos traços de cunha do que o assírio, juntamente com um punhado de logogramas para palavras de ocorrência frequente como \"deus\" (𐏎), \"rei\" (𐏋) ou \"país\" (𐏌). Esta forma quase puramente alfabética da escrita cuneiforme (36 caracteres fonéticos e 8 logogramas), foi especialmente projetada e usada pelos primeiros governantes aquemênidas do século VI a.C. até o século IV a.C.\n[…]\nThe Emacs editor has an input method for Neo-Akkadian Cuneiform"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Babilônia",
+      "descricao": "Antiga cidade da Mesopotâmia, às margens do rio Eufrates, capital de Hamurábi e de Nabucodonosor segundo."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em acadiano, o nome da cidade de Babilônia significava o quê?",
+    "resposta": "Portão dos deuses",
+    "distratores": [
+      "Casa do rei",
+      "Terra entre rios",
+      "Cidade do sol"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Babylon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Babylon",
+        "situacao": "ok",
+        "texto": "Babylon ( BAB-il-on) was an ancient city located on the lower Euphrates river in southern Mesopotamia, within modern-day Hillah, Iraq, about 85 kilometres (53 miles) south of modern-day Baghdad. Babylon functioned as the main cultural and political centre of the Akkadian-speaking region of Babylonia. Its rulers established two important empires in antiquity, the 19th–16th century BC Old Babylonian\n[…]\nDue to Babylon's historical significance as well as references to it in the Bible, the word \"Babylon\" in various languages has acquired a generic meaning of a large, bustling diverse city. Examples include:\n[…]\nBabilonas (Lithuanian name for \"Babylon\") was a real estate development in Lithuania.\n[…]\nOther scholars suggest that Babylon in the book of Revelation has a symbolic significance that extends beyond mere identification with the first century Roman empire.\n[…]\nList of Kings of Babylon\n[…]\nModern Wars and Ancient Governance: Archaeology and Textual Finds from First Millennium BCE Babylon – Odette Boivin – ANE Today – Nov 2022\n[…]\n– The Babylonian Akītu Festival and the Ritual Humiliation of the King – Sam Mirelman – ANE Today – Sep 2022 Archived 2023-06-30 at the Wayback Machine\n[…]\nThe Babylon Project – Freie Universität Berlin\n[…]\nBabylon on In Our Time at the BBC\n[…]\nIraq Image – Babylon Satellite Observation\n[…]\nSite Photographs of Babylon – Oriental Institute Archived 2009-04-27 at the Wayback Machine\n[…]\n1901–1906 Jewish Encyclopedia, Babylon\n[…]\nBeyond Babylon: art, trade, and diplomacy in the second millennium B.C., Issued in connection with an exhibition held Nov. 18, 2008-Mar. 15, 2009, Metropolitan Museum of Art, New York\n[…]\nOsama S. M. Amin, \"Visiting the ancient city of Babylon\", Ancient History Et Cetera, 17 November 2014.\n[…]\nBabylon wrecked by war, The Guardian, January 15, 2005\n[…]\n\"Experts: Iraq invasion harmed historic Babylon\". Associated Press. July 10, 2009.\n[…]\nUNESCO Final Report on Damage Assessment in Babylon"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Babil%C3%B3nia",
+        "situacao": "ok",
+        "texto": "Babilónia (português europeu) ou Babilônia (português brasileiro) (em aramaico: בבל; romaniz.: Babel; em hebraico: בָּבֶל;  Bavel; em árabe: بابل;  Bābil; em acádio: Bāb-ili(m); em sumério: KÁ.DINGIR.RA) foi a cidade central da civilização babilónica, na Mesopotâmia, situada nas margens do rio Eufrates. As suas ruínas encontram-se a norte do centro da cidade atual de Hila, capital da província de \n[…]\nNesta história, Babilónia aparece como uma cidade construída pelos deuses e situada no centro do mundo, no ponto de contacto entre o Céu e a Terra (materializado pelo zigurate, cujo nome significa \"Casa-ligação do Céu e da Terra\"). Geralmente considera-se que foi também nessa época que foi redigido o texto topográfico chamado TINTIR (o mesmo que Babilu), devido ao seu incipit, onde está descrita a localização de todos os locais de culto da cidade, que tinha então o estatuto de cidade santa.\n[…]\nA ascensão política de Babilónia foi progressivamente transportada para o domínio religioso e mitológico na Mesopotâmia antiga, sobretudo devido à instigação dos letrados dos templos da cidade, em primeiro lugar do Esaguila. Isso conjuga-se com a afirmação da preeminência de Marduque como rei dos deuses, que se manifesta na redação do século XII a.C. da “Epopeia da Criação”.\n[…]\nEste relato mitológico descreve como Marduque se tornou o rei dos deuses sendo o único capaz de salvá-los da ameaça representada por Tiamat, ancestral de todos eles que simbolizava o caos. Depois da sua vitória, Marduque criou o mundo com o cadáver de Tiamat e no seu centro, no local onde se juntavam o Céu e a terra, instalou os grandes deuses em Babilónia, a sua cidade que eles construíram, começando pelo seu grande templo.\n[…]\nNo Apocalipse de São João, a \"Grande Prostituta\" tem o nome de Babilónia e a cidade é citada várias vezes como símbolo do mal e do engano.\n[…]\nA cidade só é referida uma vez no Alcorão.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Imortais",
+      "descricao": "Tropa de elite de infantaria pesada do Império Aquemênida, descrita por Heródoto."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Segundo Heródoto, por que a tropa de elite do rei persa era chamada de Imortais?",
+    "resposta": "Cada morto era logo substituído",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Immortals_(Achaemenid_Empire)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Immortals_(Achaemenid_Empire)",
+        "situacao": "ok",
+        "texto": "Immortals (Greek: Ἀθάνατοι, Athánatoi), or Persian Immortals, was the name given by the Greek historian Herodotus to a 10,000-strong unit of elite heavy infantry in the Achaemenid army. They served in a dual capacity, operating as an imperial guard and contributing to the ranks of the standing army. The force mainly consisted of Persians, along with Medes and Elamites. Essential questions regardin\n[…]\nThe Persian denomination of the unit is uncertain. This elite force is only referred to as the \"Immortals\" in sources based on Herodotus. There is evidence from Persian sources of the existence of a permanent corps, which provided a backbone for the tribal levies (raised by satraps) who, together with increasing numbers of mercenaries, made up the bulk of the Achaemenid army.\n[…]\nThe first recurrence of the word \"Immortals\" is in Roman historians' description of an elite cavalry unit in the army of the Sasanian Empire. Primary sources suggest that they numbered around 10,000 men in accordance with tradition, with the main formational difference being that they were heavy cavalry.\n[…]\nBeing elite heavy infantry, the tactics of the Immortals involved heavy infantry formations where they used their bows, short spears, swords and wicker shields, while striking a balance between mobility and protection. They adapted tight phalanx-like formations that were somewhat similar to Greek, but they focused more on adaptability.\n[…]\nHerodotus' account of two warrior elites—the hoplites of Sparta and the Immortals of Persia—facing each other in battle has inspired a set of fanciful depictions of the battle, especially with regard to the Immortals:\n[…]\nIn the video game Prince of Persia: The Lost Crown, the protagonist Sargon is part of an elite group called The Immortals, who in the game serve as soldiers in the Persian army as well as bodyguards to the royal family, including the titular prince."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Imortais",
+        "situacao": "ok",
+        "texto": "Os Imortais (em grego clássico: Ἀθάνατοι) eram a tropa de elite do exército do Império Aquemênida que lutou nas Guerras Médicas. O epíteto \"Imortais\" vem de Heródoto, que os chamou de os \"Dez Mil\" ou \"Atánatos\" (Athánatoi) - do grego, literalmente, imorredouro. Os próprios persas provavelmente não utilizavam-se deste termo, entretanto.\n[…]\nHeródoto menciona que os Imortais eram uma tropa de infantaria pesada, comandados por Hinardes, que mantinha sempre a quantidade de 10.000 homens: cada membro morto, ferido ou gravemente enfermo era imediatamente substituído por outro e, durante as batalhas, os mortos e feridos eram recolhidos pelos companheiros e substituídos rapidamente, dando ao inimigo a impressão de que o grupo não havia sofrido perdas. Em suas fileiras eram aceitos apenas persas e medos.\n[…]\nOs Imortais participaram nas batalhas de Maratona entre os gregos e os persas e Termópilas entre os espartanos e os persas, entre outras, e faziam parte das tropas persas que ocuparam a Grécia no ano de 479 a.C., sob o comando de Mardônio.\n[…]\nRomero, Javier, Cuerpos de élite, Misión Imposible, Círculo Digital, Madri, 2005, ISBN 84-609-6758-1 (Em espanhol)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Jardim persa",
+      "descricao": "Tradição de jardins murados do antigo Irã, cujo termo em persa antigo deu origem à palavra paraíso."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra paraíso vem de um termo do persa antigo. Que tipo de lugar esse termo designava?",
+    "resposta": "Jardim cercado por muros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paradise",
+      "https://en.wikipedia.org/wiki/Persian_gardens"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Paradise",
+        "situacao": "ok",
+        "texto": "In religion and folklore, paradise is a place of everlasting happiness, delight, and bliss. Paradisiacal notions are often laden with pastoral imagery, and may be cosmogonical, eschatological, or both, often contrasted with the miseries of human civilization: in paradise there is only peace, prosperity, and happiness. Paradise is a place of contentment, a land of luxury and fulfillment containing \n[…]\nIt subsequently came to indicate the expansive walled gardens of the First Persian Empire, and was subsequently borrowed into Greek as παράδεισος parádeisos \"park for animals\" in the Anabasis of the early 4th century BCE Athenian Xenophon, Aramaic as pardaysa \"royal park\", and Hebrew as פַּרְדֵּס pardes, \"orchard\" (appearing thrice in the Tanakh; in the Song of Solomon (Song of Songs 4:13), Ecclesiastes (Ecclesiastes 2:5) and Nehemiah (Nehemiah 2:8)).\n[…]\nThe Hebrew word pardes appears only in the post-Exilic period (after 538 BCE); it occurs in the Song of Songs 4:13, Ecclesiastes 2:5, and Nehemiah 2:8, in each case meaning \"park\" or \"garden\", the original Persian meaning of the word, where it describes the royal parks of Cyrus the Great by Xenophon in Anabasis.\n[…]\nHistorical evidence does support the claim that certain Islamic garden structures and mosaics, particularly those of Spanish, Persian and Indian origins, were intended to mirror a scene of paradise as described in the Qur'an.\n[…]\nIn a similar instance, the mosaic within the Great Mosque of Damascus, constructed within a similar timeframe to the Dome of the Rock, features the most noticeable elements of a paradisiacal garden as described in the Qur'an. Therefore, it would not be unreasonable to suggest that the mosaic on the exterior facade of the Great Mosque of Damascus, was similarly intended to replicate an image of paradise in the viewer's mind.\n[…]\nParadise garden"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Persian_gardens",
+        "situacao": "ok",
+        "texto": "In garden design, Persian garden or Iranian garden (Persian: باغ ایرانی) is a style of \"landscape\" garden which emerged in the Achaemenid Empire. Nine historical gardens, all of them in Iran, have been inscribed in UNESCO's World Heritage Sites as The Persian Garden since 2011.\n[…]\nThe heat also makes water important, both in the design and maintenance of the garden. Irrigation may be required, and may be provided via a form of tunnel called a qanat, that transports water from a local aquifer. Well-like structures then connect to the qanat, enabling the drawing of water. Alternatively, an animal-driven Persian well would draw water to the surface. Such wheel systems also moved water around surface water systems, such as those in the chahar bāgh style.\n[…]\nThe Persian style often attempts to integrate indoors with outdoors through the connection of a surrounding garden with an inner courtyard. Designers often place architectural elements such as vaulted arches between the outer and interior areas to open up the divide between them.\n[…]\nThe oldest representational descriptions and illustrations of Persian gardens come from travelers who reached Iran from the west. These accounts include Ibn Battuta in the fourteenth century, Ruy González de Clavijo in the fifteenth century and Engelbert Kaempfer in the seventeenth century. Battuta and Clavijo made only passing references to gardens and did not describe their design, but Kaempfer made careful drawings and converted them into detailed engravings after his return to Europe.\n[…]\nIsfahan \"Persian Garden Design\" website Archived 2016-10-29 at the Wayback Machine. Retrieved 3 January 2012.\n[…]\nAnimated film inspired by the Persian Architecture\n[…]\nFarnoush Tehrāni, The Face of the Persian Garden, in Persian, 13 November 2009."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Para%C3%ADso",
+        "situacao": "ok",
+        "texto": "A palavra paraíso deriva do termo avéstico pairi-daeza (uma área/jardim murado), composto por pairi- (ao redor), um cognato do grego peri-, e -diz (criar, fazer). Uma palavra associada é o sânscrito paradesha que literalmente significa país supremo.\n[…]\nO lugar ideal, na terra ou utopia, outrora representado pelo Jardim do Éden.\n[…]\nA palavra que é agora compreendida como \"lugar aprazível\" passou do persa antigo (paridaeza) para o hebraico (pardes) e deste para o grego paradeisos (παράδεισος), grafado na Septuaginta e significando Jardim do Éden. A palavra persa é transliterado para o hebraico três vezes no Antigo Testamento (Cântico dos Cânticos 4:13, Eclesiastes 2:15, Neemias 2:8).\n[…]\nTambém ocorre 47 vezes na Septuaginta grega, principalmente como uma tradução de \"jardim do Éden\", ou nas profecias sobre a restauração do Éden. Na literatura rabínica a palavra tem vários significados.\n[…]\n2 Cor. 12:4 Foi arrebatado ao paraíso; e ouviu palavras inefáveis, que ao homem não é lícito falar.\n[…]\nOs cristadelfianos interpretam o significado do termo grego do Novo Testamento através dos precedentes no Antigo Testamento grego, especialmente Gênesis 2,8 \"um paraíso no Oriente, no Éden\" (Septuaginta) e, consequentemente, vêm a resposta de Jesus ao pedido do ladrão \"lembra-te de mim quando vieres no teu reino\" como prova de que o reino será a restauração do Éden na Terra.\n[…]\nNo Alcorão, o paraíso é denominado \"Firdous\", a palavra etimologicamente equivalente ao termo original em velho persa, usada no lugar de Paraíso para descrever um lugar aprazível de vida após a morte, acessível aos que oram, fazem doações para a caridade e lêem o Alcorão. Também é usado no Alcorão para descrever os céus em sentido literal, isto é, sobre a Terra.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Chaturanga",
+      "descricao": "Jogo de estratégia da Índia antiga, surgido por volta do século seis, ancestral do xadrez."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome chaturanga, jogo de tabuleiro da Índia antiga, significa em sânscrito quatro divisões de quê?",
+    "resposta": "Do exército",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chaturanga"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chaturanga",
+        "situacao": "ok",
+        "texto": "Chaturanga (Sanskrit: चतुरङ्ग, IAST: caturaṅga, pronounced [tɕɐt̪uˈɾɐŋɡɐ]) is an ancient Indian strategy board game. It is first known from India around the seventh century CE.\n[…]\nThe origin of chaturanga has been a puzzle for centuries. The earliest clear reference comes from north India from the Gupta Empire, dating from the sixth century AD. Banabhatta's Harsha Charitha (c. AD 625) contains the earliest reference to the name chaturanga:\n[…]\nAccording to Stewart Culin, chaturanga was first described in the Hindu text Bhavishya Purana. The Bhavishya Purana is known to include modern additions and interpolations, however, even mentioning British rule of India.\n[…]\nRaja (king): moves one step in any direction (vertical, horizontal or diagonal), the same as the king in chess. There is no castling in chaturanga.\n[…]\nThe general in Chinese xiangqi lacks diagonals, which might be the earliest move of the raja. The minority view that chaturanga developed from a form of xiangqi implies such an evolution, but it is also logical to assume such a move as the case for an Indian proto-chaturanga.\n[…]\nThe same move is used for the boat in Indian chaturaji, a four-player version of chaturanga.\n[…]\nThe move was described c. 1030 by Biruni in his book India.\n[…]\nThis is reminiscent of the aforementioned chaturaji, where the elephant moves as a rook.\n[…]\nChaturanga by Hans Bodlaender, The Chess Variant Pages\n[…]\nChaturanga Archived 2014-09-05 at the Wayback Machine a simple program by Ed Friedlander (Java)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chaturanga",
+        "situacao": "ok",
+        "texto": "Chaturanga é um antigo jogo de tabuleiro indiano que se acredita estar na origem do Jogo de Xadrez, o Shogi e o Makruk, e é relacionado com o Xiang Qi (ou Janggi). Surgiu provavelmente no século VI, sendo considerado o predecessor do Xatranje que, por sua vez, veio a originar o xadrez moderno.\n[…]\nAssim como nos jogos de tabuleiro atuais, o chaturanga se joga com dois jogadores, mas também há uma versão para quatro jogadores, o Chaturaji.\n[…]\nChaturanga é um adjetivo composto por duas palavras, chatur que significa \"quatro\" e anga que significa \"membro\" e tem o significado literal de \"quadripartido\". Em seu sentido original aparece no Rigveda em referência as quatro partes do corpo humano e no Shatapatha Brahmana.\n[…]\nO termo apareceu também no Mahābhārata que existe desde o século V, Ramáiana (século V a.C.), Nitisara (Kamandaki) do início da era cristã e no Atarvaveda Parsistas (~250) tanto com a palavra bata (exército) ou como substantivo neutro ou feminino no sentido de \"exército composto por quatro membros\" e \"exército\" em geral, ficando claro o uso da palavra como nome do exército em sânscrito.\n[…]\nO significado destas quatro partes fica claro da conexão da palavra chaturanga com bigas, elefantes, cavalaria e infantaria no Ramáiana, no Mahābhārata e no Amarakosa no qual o exército é expressamente chamado de hasty-ashwa-ratha-padatam que era a composição do exército desde século IV a.C. de acordo com relatos gregos da invasão do noroeste indiano por Alexandre, o Grande. O historiador grego Megástenes passou algum tempo na corte de Pataliputra no século III a.C.\n[…]\ne afirmou que havia seis divisões no exército: Elefantes, Bigas, Cavalaria, Soldados, suprimentos e barcos. (hasty-aswa-ratha-padati-senepati-karmakara).\n[…]\nXadrez na Índia\n[…]\nChessVariants.org: Chaturanga (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Chaturanga",
+      "descricao": "Jogo de estratégia da Índia antiga, surgido por volta do século seis, ancestral do xadrez."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Jogado na Índia por volta do século seis, o chaturanga é considerado o ancestral de que jogo de tabuleiro hoje popular no mundo todo?",
+    "resposta": "Xadrez",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chaturanga",
+      "https://pt.wikipedia.org/wiki/Chaturanga"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Chaturanga",
+        "situacao": "ok",
+        "texto": "Chaturanga (Sanskrit: चतुरङ्ग, IAST: caturaṅga, pronounced [tɕɐt̪uˈɾɐŋɡɐ]) is an ancient Indian strategy board game. It is first known from India around the seventh century CE.\n[…]\nWhile there is some uncertainty, the prevailing view among chess historians is that chaturanga is the common ancestor of the board games chess, xiangqi (Chinese), janggi (Korean), shogi (Japanese), sittuyin (Burmese), makruk (Thai), ouk chatrang (Cambodian) and modern Indian chess. It was adopted as chatrang (shatranj) in Sassanid Persia, which in turn was the form of chess brought to late-medieval Europe.\n[…]\nThe origin of chaturanga has been a puzzle for centuries. The earliest clear reference comes from north India from the Gupta Empire, dating from the sixth century AD. Banabhatta's Harsha Charitha (c. AD 625) contains the earliest reference to the name chaturanga:\n[…]\nAccording to Stewart Culin, chaturanga was first described in the Hindu text Bhavishya Purana. The Bhavishya Purana is known to include modern additions and interpolations, however, even mentioning British rule of India.\n[…]\nWhile there is some uncertainty, the prevailing view among chess historians is that chaturanga is the common ancestor of the board games chess, xiangqi (Chinese), janggi (Korean), shogi (Japanese), sittuyin (Burmese), makruk (Thai), ouk chatrang (Cambodian) and modern Indian chess.\n[…]\nThe move was described c. 1030 by Biruni in his book India.\n[…]\nThis is reminiscent of the aforementioned chaturaji, where the elephant moves as a rook.\n[…]\nChaturanga by Hans Bodlaender, The Chess Variant Pages\n[…]\nChaturanga Archived 2014-09-05 at the Wayback Machine a simple program by Ed Friedlander (Java)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Chaturanga",
+        "situacao": "ok",
+        "texto": "Chaturanga é um antigo jogo de tabuleiro indiano que se acredita estar na origem do Jogo de Xadrez, o Shogi e o Makruk, e é relacionado com o Xiang Qi (ou Janggi). Surgiu provavelmente no século VI, sendo considerado o predecessor do Xatranje que, por sua vez, veio a originar o xadrez moderno.\n[…]\nAssim como nos jogos de tabuleiro atuais, o chaturanga se joga com dois jogadores, mas também há uma versão para quatro jogadores, o Chaturaji.\n[…]\nNão é possível estabelecer uma comparação entre o chaturanga e jogos de tabuleiro mais antigos. O conhecimento de jogos de tabuleiro indianos mais antigos é vago porque a literatura brâmane e Sutras era religiosa e quase totalmente poética. Somente literatura posterior passou a incluir temas seculares.\n[…]\nEmbora termos indicando jogos de tabuleiro sejam vagos em relação às regras, o termo Ashtāpada (8x8) e dasapada (10x10) são úteis pois usam o mesmo tabuleiro monocromático que outras variantes de xadrez antigas. O significado da palavra Ashtāpada é estabelecido por Patânjali no livro Mahābhāshya escrito no século II, como um tabuleiro em que cada linha tem oito casas monocromáticas, sendo o termo um objeto familiar.\n[…]\nO jogo começa conforme a imagem ao lado.\n[…]\nA Ratha move-se para a frente, para trás ou para os lados, quantas casas o jogador quiser;\n[…]\nOs Bhata podem promover quando eles chegam na última fileira do tabuleiro, mas somente para o mesmo tipo de peça que estava no início da partida na casa ao qual ele chegou. Exemplo: quando um Bhata branco move para a casa onde inicialmente estava um Ashva, ele é promovido a Ashva . Porém, a promoção só é possível se o jogador já tiver perdido a peça a ser promovida.\n[…]\nXadrez na Arábia\n[…]\nXadrez na Índia\n[…]\nChessVariants.org: Chaturanga (em inglês)"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Buda",
+      "descricao": "Sidarta Gautama, mestre espiritual da Índia antiga e fundador do budismo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O título Buda, dado a Sidarta Gautama, significa o quê em sânscrito?",
+    "resposta": "O Desperto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Buddha",
+      "https://pt.wikipedia.org/wiki/Sidarta_Gautama"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Buddha",
+        "situacao": "ok",
+        "texto": "Siddhartha Gautama, most commonly referred to as the Buddha (lit. 'the awakened one'), was a wandering religious teacher who lived in the eastern Indo-Gangetic Plains during the 6th or 5th century BCE and founded Buddhism. According to Buddhist legends, he was born in Lumbini, in what is now Nepal, to royal parents of the Shakya clan, but renounced his home life to live as a wandering ascetic.\n[…]\nThe sources which present a complete picture of the life of Siddhārtha Gautama are a variety of different, and sometimes conflicting, traditional biographies from a later date. These include the Buddhacarita, Lalitavistara Sūtra, Mahāvastu, and the Nidānakathā. Of these, the Buddhacarita is the earliest full biography, an epic poem written by the poet Aśvaghoṣa in the first century CE.\n[…]\nThe ancient Indians were generally unconcerned with chronologies, being more focused on philosophy. Buddhist texts reflect this tendency, providing a clearer picture of what Gautama may have taught than of the dates of the events in his life. These texts contain descriptions of the culture and daily life of ancient India which can be corroborated from the Jain scriptures, and make the Buddha's time the earliest period in Indian history for which significant accounts exist.\n[…]\nThe Life of Buddha, or Prawat Phra Phuttajao, a 2007 Thai animated feature film about the life of Gautama Buddha, based on the Tipitaka.\n[…]\nTathagatha Buddha, a 2008 Indian film by Allani Sridhar. Based on Sadguru Sivananda Murthy's book Gautama Buddha, it stars Sunil Sharma as the Buddha.\n[…]\nSri Siddhartha Gautama, a 2013 Sinhalese epic biographical film based on the life of Lord Buddha.\n[…]\nBefore He Was Buddha: The Life of Siddhartha, by Hammalawa Saddhatissa\n[…]\nFamily of Gautama Buddha\n[…]\nList of places where Gautama Buddha stayed\n[…]\nThe Buddha\n[…]\nWorks by or about Siddhārtha Gautama at the Internet Archive\n[…]\nBuddha on In Our Time at the BBC – BBC Radio 4"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sidarta_Gautama",
+        "situacao": "ok",
+        "texto": "Sidarta Gautama, também chamado Buda (\"o desperto\"), foi um mestre religioso itinerante, ou śramaṇa, que viveu nas planícies indo-gangéticas orientais no século VI ou V a.C. e fundou o budismo. Segundo as narrativas budistas, nasceu em Lumbini, no atual Nepal, em uma família do clã Shakya, e deixou a vida doméstica para viver como asceta itinerante. Depois de mendigar, praticar o ascetismo e medit\n[…]\nNos nicaias, Buda costuma referir-se a si mesmo como Tathāgata. O título \"Buda\", que pode ser traduzido como \"desperto\" ou \"iluminado\", está documentado desde o século III a.C. A comunidade budista reuniu regras de disciplina monástica no Vinaya Piṭaka e discursos atribuídos a ele no Sutta Piṭaka. Esses textos foram transmitidos oralmente em línguas indo-arianas médias.\n[…]\nBuda significa \"desperto\" ou \"iluminado\". O termo vem da raiz sânscrita budh (बुध्), que pode significar acordar, perceber, aprender ou tomar consciência. A raiz também permite a imagem de \"abrir-se\", como uma flor. Assim, Buda é um título, e não um nome pessoal: designa alguém que alcançou bodhi, o despertar. Buddhi, a faculdade de formar conceitos, raciocinar, discernir e compreender, permite distinguir o verdadeiro (satya) do falso.\n[…]\nSammāsambuddho — \"perfeitamente desperto por si mesmo\".\n[…]\nO nascimento, o despertar e a morte de Buda são lembrados na festa de Vesak em vários países teravada. No Nepal, em Bangladesh e na Índia, a comemoração do nascimento também é chamada de Buddha Purnima e ocorre na lua cheia.\n[…]\nO Dhammacakkappavattana Sutta (SN 56) atribui ao Tathāgata a descoberta do Caminho do Meio, distante tanto da entrega aos prazeres quanto da mortificação do corpo. Esse caminho é apresentado como o Nobre Caminho Óctuplo. Em textos posteriores, Gautama aparece cada vez mais sob o título de Buda, \"o desperto\".\n[…]\nTemplo de Mahabodhi, complexo no local tradicional do despertar"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Buda",
+      "descricao": "Sidarta Gautama, mestre espiritual da Índia antiga e fundador do budismo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Sidarta Gautama, o Buda, nasceu em Lumbini. Em que país atual fica esse lugar?",
+    "resposta": "Nepal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lumbini",
+      "https://en.wikipedia.org/wiki/The_Buddha"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lumbini",
+        "situacao": "ok",
+        "texto": "Lumbini (pronounced [/lʊmˈbiːni/] , \"the lovely\" or \"beautiful garden\") is a Buddhist pilgrimage site in the Rupandehi District of Lumbini Province in Nepal. According to sacred texts and Buddhist commentaries, Queen Maya gave birth to Siddhartha Gautama, the Buddha, in Lumbini, c. 563 BCE. Lumbini is one of four most sacred pilgrimage sites pivotal in the life of the Buddha.\n[…]\nIn 2021, The Government of Bangladesh signed an agreement to construct a Buddhist monastery in Lumbini under the chairmanship of former premier of Bangladesh Sheikh Hasina with an intention of keeping a \"symbol of Bangladesh at the birthplace of Lord Gautam Buddha\". Similarly, in 2023, Russian Ambassador to Nepal Aleksei Novikov laid the foundation for the Russian Buddhist monastery in Lumbini to represent Russian Federation as well.\n[…]\nIn 2013, Nepal's central bank introduced a 100-rupee Nepali note featuring Lumbini. The Nepal Rastra Bank said the new note would be accessible only during the Dashain, Nepal's major festival in September or October. It displays a portrait of Mayadevi in metallic silver on the front. The note also has a black dot on it to help visually impaired people recognise it.\n[…]\nIn 2022 on Buddha's Birthday, Indian Prime Minister Narendra Modi and Nepalese Prime Minister Sher Bahadur Deuba, jointly laid the foundation stone for the Indian monastery in Lumbini. Nepal-India cultural events are held annually in Lumbini highlighting the close spiritual and cultural connection between the two countries.\n[…]\nLumbini is a 10-hour drive from Kathmandu and a 30-minute drive from Bhairahawa. The closest airport is Gautam Buddha Airport at Bhairahawa, with flights to and from Kathmandu.\n[…]\nList of stupas in Nepal\n[…]\nList of Buddhist monasteries in Nepal\n[…]\nLumbini - The birthplace of Lord Buddha in Nepal. Completing the Kenzo Tange master Plan. UNESCO.\n[…]\nLumbini at the Open Directory Project"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Buddha",
+        "situacao": "ok",
+        "texto": "Siddhartha Gautama, most commonly referred to as the Buddha (lit. 'the awakened one'), was a wandering religious teacher who lived in the eastern Indo-Gangetic Plains during the 6th or 5th century BCE and founded Buddhism. According to Buddhist legends, he was born in Lumbini, in what is now Nepal, to royal parents of the Shakya clan, but renounced his home life to live as a wandering ascetic.\n[…]\nAccording to the Buddhist tradition, Gautama was born in Lumbini, now in modern-day Nepal, and raised in Kapilavastu. The exact site of ancient Kapilavastu is unknown. It may have been either Piprahwa, Uttar Pradesh, in present-day India, or Tilaurakot, in present-day Nepal. Both places belonged to the Sakya territory, and are located only 24 kilometres (15 mi) apart.\n[…]\nHer son is said to have been born on the way, at Lumbini, in a garden beneath a sal tree. The earliest Buddhist sources state that the Buddha was born to an aristocratic Kshatriya (Pali: khattiya) family called Gautama (Pali: Gotama), who were part of the Shakyas, a tribe of rice-farmers living near the modern border of India and Nepal.\n[…]\nThe day of the Buddha's birth, enlightenment and death is widely celebrated in Theravada countries as Vesak and the day he was conceived as Poson. Buddha's Birthday is called Buddha Purnima in Nepal, Bangladesh, and India as he is believed to have been born on a full moon day.\n[…]\nFor the remaining 40 or 45 years of his life, the Buddha is said to have travelled in the Gangetic Plain, in what is now Uttar Pradesh, Bihar, and southern Nepal, teaching a diverse range of people: from nobles to servants, ascetics and householders, murderers such as Angulimala, and cannibals such as Alavaka.\n[…]\nSri Siddhartha Gautama, a 2013 Sinhalese epic biographical film based on the life of Lord Buddha.\n[…]\nList of places where Gautama Buddha stayed\n[…]\nWorks by or about Siddhārtha Gautama at the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lumbini",
+        "situacao": "ok",
+        "texto": "Lumbini ou Lumpíni é uma localidade do Distrito de Rupandehi, na Zona de Lumbini, na Região Oeste do Nepal. É famoso por ter sido o local onde teria nascido Sidarta Gautama, o fundador do budismo, cerca de 563 a.C.\n[…]\nO sítio foi negligenciado por séculos. Só em 1895, foi redescoberto pelo arqueólogo alemão Alois Führer. Acredita-se que um templo e uma piscina descobertos no sítio sejam originais do tempo em que Buda nasceu.\n[…]\nAté agora, uma das primeiras evidências arqueológicas das estruturas do Budismo em Lumbini datava do século III a.C., do tempo do Imperador Asoka, que promoveu a expansão do Budismo do atual Afeganistão a Bangladesh.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Dinastia Qin",
+      "descricao": "Primeira dinastia imperial da China, de 221 a 206 antes de Cristo, fundada por Qin Shi Huang."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Segundo a teoria mais difundida, o nome ocidental China deriva de que dinastia, a do imperador do Exército de Terracota?",
+    "resposta": "Dinastia Qin",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Names_of_China",
+      "https://en.wikipedia.org/wiki/Qin_dynasty"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Names_of_China",
+        "situacao": "ok",
+        "texto": "China has many contemporary and historical designations given in various languages for the East Asian country known as 中国; 中國; Zhōngguó  ('Central State' or 'Middle Kingdom') in Standard Chinese, a form based on the Beijing dialect of Mandarin.\n[…]\nThe Japanese common noun tōmorokoshi (トウモロコシ, 玉蜀黍), which refers to maize, appears to contain an element cognate with the proper noun formerly used in reference to China.\n[…]\nFrom Chinese Manzi (蠻子, southern barbarians). The division of north and south China under the Jin dynasty and Song dynasty weakened the idea of a unified China, and it was common for non-Han peoples to refer to the politically disparate North and South by different names for some time. While Northern China was called Cathay, Southern China was referred to as Mangi. Manzi often appears in documents of the Mongol-led Yuan dynasty as a disparaging term for Southern China.\n[…]\nSome early scholars believed Mangi to be a corruption of the Persian Machin (ماچين) and Arabic Māṣīn (ماصين), which may be a mistake as these two forms are derived from the Sanskrit Maha Chin meaning Great China.\n[…]\nIn Filipino language, Sungsong was a historical and archaic name for China. In Tiruray, the name meant specifically Hong Kong. The name comes from Proto-Malayo-Polynesian *suŋsuŋ, which meant \"to go against wind or current\". Its application to China in Philippine languages presumably is connected with sailing problems in reaching mainland China from the Philippines.\n[…]\nThe name for China in Chinese Sign Language is performed by trailing the tip of one's fingertip horizontally across the upper end of the chest, from the non-dominant side to the dominant one, and then vertically downwards.\n[…]\nLittle China (ideology)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Qin_dynasty",
+        "situacao": "ok",
+        "texto": "The Qin dynasty ( CHIN) was the first imperial dynasty of China. It is named for its progenitor state of Qin, a fief of the confederal Zhou dynasty (c. 1046–256 BC). Beginning in 230 BC, the Qin under King Ying Zheng engaged in a series of wars conquering each of the rival states that had previously pledged fealty to the Zhou. This culminated in 221 BC with the successful unification of China.\n[…]\nThis enabled numerous large-scale construction projects involving the labour of hundreds of thousands of peasants and convicts – which included the connection of walls along the northern border into what would eventually become the Great Wall of China, a large national road system, and the city-sized Mausoleum of Qin Shi Huang guarded by the life-sized Terracotta Army.\n[…]\nAs a result, men from all over China revolted, attacking officials, raising armies, and declaring themselves kings of seized territories.\n[…]\nQin Shi Huang developed plans to fortify Qin's northern border, to protect against nomadic invasions. The resulting construction formed the base of what later became the Great Wall of China, which joined and strengthened the walls made by feudal lords. Another project built during his rule was the Terracotta Army, intended to protect the emperor after his death. The Terracotta Army was inconspicuous due to its underground location, and was not discovered until 1974.\n[…]\nQin is the likeliest origin for the modern name China and its equivalents in many European languages. The term likely first appeared in the Indo-Aryan languages, attested in Sanskrit as both Cina and Sina, and subsequently entered Greek as Thinai or Sinai. From there it entered the vernacular languages of Europe, e.g. as China in English and Chine in French. This etymology is questioned by some scholars, who suggest that Sina appears in Sanskrit centuries before the Qin dynasty's founding."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nomes_da_China",
+        "situacao": "ok",
+        "texto": "O nome China, similar na maioria das línguas europeias, parece haver chegado à Europa desde o sul da Ásia, ainda que não haja evidências concluintes, o nome poderia ser precedido da Dinastia Qin, a primeira dinastia imperial. Na antiguidade, utilizou-se também o termo Catay, que tem a sua origem do povo altaico kitan, que fundou a Dinastia Liao no século X. Este é o nome no qual se chamava a China\n[…]\nEm contextos geográfico-culturais, o nome \"China\" é utilizado em geral para se referir ao conjunto de territórios administrados pela República Popular da China mais a ilha de Taiwan, reivindicada pela República Popular, mas na realidade independente, baixo ao regime da República da China. A separação política de ambos os territórios desde 1949 faz com que seja frequente a utilização do termo \"China\", como equivalente ao estado da República Popular da China, especialmente em contextos políticos.\n[…]\nDevido à ambiguidade atual no uso do termo \"China\", às vezes se usa a expressão Grande China (Dà Zhōnghuá, 大中华 / 大中華, en chinês), para se referir ao conjunto da China continental, Taiwan (República da China), Hong Kong e Macau.\n[…]\nNa língua chinesa, o país era antigamente denominado mediante o nome da dinastia governante. Desde a queda da última dinastia (a Dinastia Qing), o nome habitual do país é Zhongguó (simplificado: 中国, tradicional: 中國), que pode ser traduzido como \"o país do centro\".\n[…]\nOutra variante do nome é Zhōnghuá (中华 / 中華), utilizado em nomes oficiais tanto da República Popular da China quanto da República da China, que pode ser abreviado simplesmente como Huá, como nome da agência chinesa oficial de notícias Xinhua (新华 / 新華 - \"Nova China\"). Ademais, também existem os nomes poéticos Huáxià (华夏 / 華夏) e Shénzhōu (神州).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Confúcio",
+      "descricao": "Filósofo chinês do século seis antes de Cristo, fundador do confucionismo."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Confúcio é a forma latinizada de um título chinês dado ao filósofo. O que significa esse título?",
+    "resposta": "Mestre Kong",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Confucius"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Confucius",
+        "situacao": "ok",
+        "texto": "Confucius (c. 551 – c. 479 BCE), born Kong Qiu, was a Chinese philosopher of the Spring and Autumn period who is traditionally considered the paragon of Chinese sages. Much of the shared cultural heritage of the Sinosphere originates in the philosophy and teachings of Confucius. His philosophical teachings, called Confucianism, emphasized personal and governmental morality, harmonious social relat\n[…]\nThe name \"Confucius\" is a Latinized form of the Mandarin Chinese Kǒngfūzǐ (孔夫子)—roughly meaning \"Great Master Kong\" or \"Wise Teacher Kong\"—that was coined in the late 16th century by early Jesuit missionaries to China. The more common name in Mandarin Chinese today is Kǒngzǐ (孔子), simply meaning \"Master Kong\". Confucius's family name was Kong (孔, OC:*‍kʰˤoŋʔ) and his given name was Qiu (丘, OC:*‍[k]ʷʰə).\n[…]\nIn the 14th century, a Kong descendant went to Korea, where an estimated 34,000 descendants of Confucius live today. One of the main lineages fled from the Kong ancestral home in Qufu during the Chinese Civil War in the 1940s and eventually settled in Taiwan. There are also branches of the Kong family who have converted to Islam after marrying Muslim women, in Dachuan in Gansu province in the 1800s, and in 1715 in Xuanwei in Yunnan province.\n[…]\nDuring the Cultural Revolution, criticism of Confucius increased, coming to a head when Red Guard soldiers removed the body of Kong Jingyi, a 76th generation Duke Yansheng, from his grave at the Cemetery of Confucius. His body was then hung naked from a tree.\n[…]\nAnti-Confucian sentiment continued to increase in 1973, when Mao Zedong started a Criticize Lin, Criticize Confucius (simplified Chinese: 批林批孔运动; traditional Chinese: 批林批孔運動; pinyin: pī lín pī kǒng yùndòng) campaign, branding Confucius with the name \"Kong Lao'er\" 孔老二, a pun on a Mandarin word for penis. It persisted until 1976 as the Cultural Revolution subsided."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Conf%C3%BAcio",
+        "situacao": "ok",
+        "texto": "Confúcio (孔子, Kǒngzǐ; tradicionalmente c. 551–479 a.C.) foi um filósofo, educador e funcionário do Estado de Lu, na China do Período das Primaveras e Outonos. Em meio às disputas entre governantes e famílias nobres, ensinou que a autoridade deveria se apoiar na virtude e no exemplo, e que os ritos só tinham valor quando praticados com sinceridade.\n[…]\nO nome pelo qual é conhecido em português deriva da latinização de Kong Fuzi (孔夫子, \"Mestre Kong\"), difundida no Ocidente a partir do século XVI. Na nomenclatura tradicional, seu sobrenome ancestral era Zi, o nome do clã era Kong, seu nome pessoal era Qiu e o nome de cortesia era Zhongni. O título Kong Fuzi também era usado para se referir a ele, e sua forma abreviada em chinês é Kongzi (孔子).\n[…]\nA forma é a de diálogos e máximas curtas, sem uma sequência narrativa fixa, com exclamações e mudanças de tom. O título aparece pela primeira vez no capítulo Fangji do Livro dos Ritos, tradicionalmente ligado a Zisi. A reunião das falas também expressava a estima dos alunos pelo mestre. Manuscritos descobertos por arqueólogos ampliaram o conhecimento dos primeiros confucionistas, embora não tenham substituído o lugar dos Analectos na tradição.\n[…]\nA memória dos lugares ligados ao filósofo chegou também às moedas: uma peça comemorativa chinesa de 2003 incluiu Qufu numa série sobre sítios de patrimônio mundial. Ela representa a cidade natal tradicionalmente associada a Confúcio, e não um retrato do filósofo. No cinema, Fei Mu dirigiu Confúcio (1940), centrado nas viagens e nos reveses políticos do mestre.\n[…]\nAnalectos de Confúcio, coleção de falas e episódios atribuídos ao mestre\n[…]\nMêncio, filósofo confucionista de geração posterior\n[…]\nTemplo e Cemitério de Confúcio e Mansão da Família Kong em Qufu, conjunto monumental ligado à sua memória\n[…]\nMansão da família Kong, residência dos descendentes de Confúcio",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Japão",
+      "descricao": "País insular do leste da Ásia, chamado pelos japoneses de Nihon ou Nippon."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em japonês, o Japão se chama Nihon ou Nippon. O que significa esse nome?",
+    "resposta": "Origem do sol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Names_of_Japan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Names_of_Japan",
+        "situacao": "ok",
+        "texto": "The word Japan is an exonym, and is used (in one form or another) by many languages. The Japanese names for Japan are Nihon ([ɲi.hoꜜɴ] , hiragana: にほん) and Nippon ([ɲip.poꜜɴ]  hiragana: にっぽん). They are both written in Japanese using the kanji 日本.\n[…]\nIn English, the modern official title of the country is simply \"Japan\", one of the few countries to have no \"long form\" name. The official Japanese-language name is Nippon-koku or Nihon-koku (日本国), literally \"Nation of Japan\". As an adjective, the term \"Dai-Nippon\" remains popular with Japanese governmental, commercial, or social organizations whose reach extend beyond Japan's geographic borders (e.g., Dai Nippon Printing, Dai Nippon Butoku Kai, etc.).\n[…]\nThough Nippon or Nihon are still by far the most popular names for Japan from within the country, recently the foreign words Japan and even Jipangu (from Cipangu, see below) have been used in Japanese mostly for the purpose of foreign branding.\n[…]\nThe Japanese name for Japan, 日本, can be pronounced either Nihon or Nippon. Both readings come from the on'yomi.\n[…]\nis rarely used. In other cases, uses are variable. The name for the Bank of Japan (日本銀行), for example, is given as NIPPON GINKO on banknotes but is often referred to, such as in the media, as Nihon Ginkō.\n[…]\nThe terms Jepang and Jipang were previously used in both Malay and Indonesian, but are today confined primarily to the Indonesian language. The Japanese introduced Nippon and Dai Nippon into Indonesia during the Japanese Occupation (1942–1945) but the native Jepang remains more common. In Korean, Japan is called Ilbon (Hangul: 일본, Hanja: 日本), which is the Korean pronunciation of the Sino-Korean name, and in Sino-Vietnamese, Japan is called Nhật Bản (also rendered as Nhựt Bổn)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nomes_do_Jap%C3%A3o",
+        "situacao": "ok",
+        "texto": "Há muitos nomes do Japão em português, japonês e outras línguas. A palavra \"Japão\" (ou \"Japon\") é um exônimo, e é usado (de uma forma ou de outra) por um grande número de idiomas. Os nomes japoneses para Japão são Nippon (にっぽん ) e Nihon (にほん ). Ambos são escritos em japonês usando o kanji 日本. O nome japonês Nippon é usado para a maioria dos fins oficiais, inclusive sobre a moeda japonesa, selos po\n[…]\nTanto Nippon quanto Nihon significam, literalmente, \"origem do sol\", isto é, onde o sol se origina, e são muitas vezes traduzidos como a Terra do Sol Nascente. Esta nomenclatura vem de correspondência imperial com a Dinastia Sui chinesa e refere-se a posição do Japão ao oriente em relação à China. Antes de Nihon entrar em uso oficial, o Japão era conhecido como Wa (倭) ou Wakoku (倭国).\n[…]\nNo entanto, a pronúncia Yamato não pode ser formada a partir dos sons dos caracteres que a constituem; refere-se a um lugar no Japão e é especulado como originalmente significando \"Portal da Montanha\" (山戸). Outros nomes originais em textos chineses incluem o país de Yamatai (邪马台国), onde a Rainha Himiko viveu. Quando hi no moto, a maneira indígena japonesa de dizer \"origem do sol\", foi escrito em kanji, foi lhe dado os caracteres 日本.\n[…]\nNippon apareceu na história só no final do séc. VII. O Livro antigo de Tang (舊唐書), uma das Vinte e Quatro Histórias, afirma que o emissário japonês não gostava do nome de seu país Woguo (倭國), e o mudou para Nippon (日本), ou \"Origem do Sol\". Outra crônica do séc. VIII O Verdadeiro Significado de Shiji (史記正義), no entanto, afirma que a Imperatriz chinesa Wu Zetian ordenou que um emissário japonês alterasse o nome do país para Nippon.\n[…]\nA transcrição em katakana ジャパン da palavra inglesa Japan é às vezes encontrada em japonês, por exemplo, nos nomes das organizações que procuram projetar uma imagem internacional.\n[…]\nLíngua japonesa",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Samurai",
+      "descricao": "Classe de guerreiros nobres do Japão pré-moderno, a serviço de senhores feudais."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra samurai vem de um antigo verbo japonês. O que esse verbo significava?",
+    "resposta": "Servir",
+    "distratores": [
+      "Guerrear",
+      "Cavalgar",
+      "Vencer"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samurai"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Samurai",
+        "situacao": "ok",
+        "texto": "The samurai (侍) were members of the professional warrior class in pre-industrial Japan, who served as retainers to the lords. These men came from warrior families and trained from a young age in military arts through private instruction. Swordsmanship, archery, and horsemanship were the primary martial skills; and often in Japanese history, only samurai had the right to even possess these weapons.\n[…]\nThe word \"samurai\" is thought to come from the word \"saburau\" and means \"one who serves [their lord]\", and therefore the samurai are generally defined as retainers or vassals. The warlords who ruled Japan (the daimyo and the shogun) were members of the bushi class but were not referred to as samurai.\n[…]\nEnglish scholars frequently treat samurai and bushi as synonyms. In translating Japanese texts, \"bushi\" (武士) often gets translated to samurai.\n[…]\nDuring the Azuchi–Momoyama period (late Sengoku period), \"samurai\" often referred to wakatō (若党), the lowest-ranking bushi, as exemplified by the provisions of the temporary law Separation Edict enacted by Toyotomi Hideyoshi in 1591. This law regulated the transfer of status classes:samurai (wakatō), chūgen (中間), komono (小者), and arashiko (荒子).\n[…]\nThese four classes and the ashigaru were chōnin (町人, townspeople) and peasants employed by the bushi and fell under the category of buke hōkōnin (武家奉公人, servants of the buke). In times of war, samurai (wakatō) and ashigaru were fighters, while the rest were porters. Generally, samurai (wakatō) could take family names, while some ashigaru could, and only samurai (wakatō) were considered samurai class.\n[…]\nWakatō, like samurai, had different definitions in different periods, meaning a young bushi in the Muromachi period and a rank below kachi (徒士) and above ashigaru in the Edo period.\n[…]\nThe Samurai Archives Japanese History page\n[…]\nHistory of the Samurai\n[…]\nThe Way of the Samurai – Japan: Memoirs of a Secret Empire"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Samurai",
+        "situacao": "ok",
+        "texto": "Samurai (侍, samurai; em português \"servo\", masculino) ou Bushi (武士; em português \"guerreiro\") e Onna-bugeisha (女武芸者; , feminino), era um servidor civil do império e Shogunato japonês, com as funções de cobrador de impostos (coletoria) e administrador de terras (daimyō).\n[…]\nO termo \"samurai\", traduzido do japonês significa \"aquele que serve\". Portanto, sua maior função era servir, com lealdade e empenho. Em troca disso recebiam privilégios, como terras e/ou pagamentos que geralmente eram efetuados em arroz, numa medida denominada koku (200 litros).\n[…]\nNo século X, com o ganho de função militar o termo bushi (武士) foi associado ao samurai, traduzido do japonês significa \"guerreiro\" ou \"homem de armas\" que era usado durante o período Edo. Mas refere-se à \"nobreza guerreira\" e não \"infantaria alistada\". Mais ao longo do tempo, durante a era Tokugawa (Período Edo), eles perderam gradualmente a função militar.\n[…]\nDepois de Bunroku e Keichō no eki, muitas pessoas nascidas na dinastia Joseon foram trazidas para o Japão como prisioneiros ou cooperadores. Alguns deles serviram daimyōs como retentores. Uma das figuras mais proeminentes entre eles foi Kim Yeocheol, que recebeu o nome japonês de Wakita Naokata e foi promovido a comissário da cidade de Kanazawa.\n[…]\nArmaduras Japonesas, de Mario Del Rey: esta obra apresenta não apenas minuciosas e fascinantes informações sobre as armaduras dos antigos guerreiros japoneses, os samurai, mas também um resumo da história do Japão, desde os tempos pré-históricos até o início do processo de modernização do país, na segunda metade do século XIX. Conheça esse universo fascinante dos samurai e as suas armaduras, bem como faça uma viagem cultural à Terra do Sol Nascente.\n[…]\nArquivos Samurai Páginas da História Japonesa\n[…]\nSobre o Samurai",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Rota da Seda",
+      "descricao": "Rede de rotas comerciais que ligava a China ao Mediterrâneo desde a Antiguidade."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No século dezenove, que geógrafo alemão cunhou a expressão Rota da Seda?",
+    "resposta": "Ferdinand von Richthofen",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Silk_Road",
+      "https://en.wikipedia.org/wiki/Ferdinand_von_Richthofen"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Silk_Road",
+        "situacao": "ok",
+        "texto": "The Silk Road was a network of Asian trade routes active from the second century BCE until the mid-15th century. Spanning over 6,400 km (4,000 mi) on land, it played a central role in facilitating economic, cultural, political, and religious interactions between the Eastern and Western worlds.\n[…]\nThe Silk Road derives its name from the lucrative trade in silk, first developed in China, and a major reason for the connection of trade routes into an extensive transcontinental network. It derives from the German term Seidenstraße (literally \"Silk Road\") and was first popularized in 1877 by Ferdinand von Richthofen, who made seven expeditions to China from 1868 to 1872. However, the term itself had been in use in decades prior to that.\n[…]\nThe alternative translation \"Silk Route\" is also used occasionally. Although the term was coined in the 19th century, it did not gain widespread acceptance in academia or popularity among the public until the 20th century. The first book entitled The Silk Road was by Swedish geographer Sven Hedin in 1938.\n[…]\nThe southern stretches of the Silk Road, from Khotan (Xinjiang) to Eastern China, were first used for jade and not silk, as long as 5000 BCE, and are still in use for this purpose. The term \"Jade Road\" would have been more appropriate than \"Silk Road\" had it not been for the far larger and geographically wider nature of the silk trade; the term is in current use in China.\n[…]\nThe Silk Road transmission of Buddhism essentially ended around the 7th century with the rise of Islam in Central Asia.\n[…]\nSilk Road Atlas (University of Washington)\n[…]\n\"The Silk Road,\" a historical overview by Oliver Wild\n[…]\nThe Silk Road Journal, a freely available scholarly journal run by Daniel Waugh\n[…]\n\"The New Silk Road\" – a lecture by Paul Lacourbe at TEDx Danubia 2013"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ferdinand_von_Richthofen",
+        "situacao": "ok",
+        "texto": "Ferdinand Freiherr von Richthofen (5 May 1833 – 6 October 1905), better known in English as Baron von Richthofen, was a German traveller, geographer, and scientist. He is noted for coining the terms \"Seidenstraße\" and \"Seidenstraßen\" = \"Silk Road(s)\" or \"Silk Route(s)\" in 1877. He also standardized the practices of chorography and chorology.\n[…]\nFerdinand von Richthofen was born in Pokój, at that time called Carlsruhe in Prussian Silesia. He was educated in the Roman Catholic Gymnasium in Breslau.\n[…]\nRichthofen, F. (1872). Letter from Baron Richthofen on the Province of Hunan. Shanghai: Re-printed at the \"Ching-foong\" Printing Office. State Library of New South Wales, TQ047868\n[…]\nRichthofen, F. (1872). Letter by Baron von Richthofen, from Si-ngan-fu, on the rebellion in Kansu and Shensi. No. 6. Shanghai: Printed at the office of the 'North-China Herald'. State Library of New South Wales, TQ047868\n[…]\nRines, George Edwin, ed. (1920). \"Richthofen, Ferdinand, Baron von\" . Encyclopedia Americana.\n[…]\nHans-Dietrich Schultz: Ferdinand von Richthofen: The True Founder of Modern Geography?. In: Die Erde: Zeitschrift der Gesellschaft für Erdkunde zu Berlin. Volume 138, Issue 4 (2007), Special Issue \"Ferdinand von Richtofen\", pp. 333–352. (online)\n[…]\nUte Wardenga: Ferdinand von Richthofen - Then and Now. An Introduction. In: Die Erde: Zeitschrift der Gesellschaft für Erdkunde zu Berlin. Volume 138, Issue 4 (2007), Special Issue \"Ferdinand von Richtofen\", pp. 301–311. (online)\n[…]\nUte Wardenga: Ferdinand von Richthofen and the Development of German Geography. In: Die Erde: Zeitschrift der Gesellschaft für Erdkunde zu Berlin. Volume 138, Issue 4 (2007), Special Issue \"Ferdinand von Richtofen\", pp. 313–332. (online)\n[…]\nMedia related to Ferdinand von Richthofen at Wikimedia Commons\n[…]\nWorks by or about Ferdinand von Richthofen at Wikisource"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rota_da_Seda",
+        "situacao": "ok",
+        "texto": "A Rota da Seda (chinês: 絲綢之路; pinyin: sī chóu zhī lù; em persa: راه ابریشم; romaniz.: Râh-e Abrisham; em turco: İpekyolu; em quirguiz: Jibek Jolu) foi uma rede de rotas comerciais asiáticas (principalmente de seda chinesa) iniciada durante a Dinastia Han, ativa do século II a.C. até meados do século XV. Com mais de 6 400 km (4 000 milhas) de extensão, caminho de facilitação das interações econômic\n[…]\nAssim poucos indivíduos percorriam todo o trajeto da Rota da Seda, utilizando uma sucessão de intermediários estabelecidos em diferentes pontos ao longo do caminho.\n[…]\nQuando alcançou o Novo Mundo em 1492, Cristóvão Colombo desejaria criar outra rota da seda até a China. Foi alegado que um dos grandes desapontamentos das nações ocidentais foi encontrar um continente do meio, antes de reconhecer o potencial da América.\n[…]\nDe fato, o espírito da rota da seda resume-se ao desejo de nutrir um intercâmbio entre Oriente e Ocidente, somado com o chamariz dos altos lucros, e que afetou muito a história do mundo durante os últimos três milênios.\n[…]\nNo dia 14 maio de 2017, o presidente da China, Xi Jinping, discursou no Fórum de abertura sobre a \"Nova Rota da Seda\", por meio do qual anunciou o investimento de 70 bilhões de dólares no projeto.\n[…]\nO jogo de computador em estilo MMORPG Silkroad Online tem como tema a rota da seda. É jogado por pessoas de todo o mundo, das mais diversas etnias, interagindo entre si.\n[…]\nO jogo The Legend Of Silkroad, lançado pela Unico Electronics para o Arcade em 1999, tem como tema a rota da seda. No estilo Beat Em Up, semelhante a games como Golden Axe, o jogo conta com 3 heróis que devem salvar uma princesa que fora raptada. Mas para isso, eles deverão enfrentar uma variedade de inimigos, sub-chefes e chefes dos mais variados países. O jogador pode inclusive, selecionar as rotas que quer seguir em determinados momentos da jogatina.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Muralha da China",
+      "descricao": "Série de fortificações construídas ao longo da fronteira norte da China antiga e imperial."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em chinês, a Grande Muralha é chamada de muralha longa de dez mil unidades de uma antiga medida de distância. Que medida é essa?",
+    "resposta": "Li",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Great_Wall_of_China"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Great_Wall_of_China",
+        "situacao": "ok",
+        "texto": "The Great Wall of China is a series of fortifications in China. They were built across the historical northern borders of ancient Chinese states and Imperial China as protection against various nomadic groups from the Eurasian Steppe. The first walls date to the 7th century BC; these were joined together in the Qin dynasty. Successive dynasties expanded the wall system; the best-known sections wer\n[…]\nThe current English name evolved from accounts of \"the Chinese wall\" from early modern European travelers. By the nineteenth century, \"the Great Wall of China\" had become standard in English and French, although other European languages such as German continue to refer to it as \"the Chinese wall\".\n[…]\nUnder Qing rule and the annexation of Mongolia into the empire, China's borders extended beyond the Great Wall; work on it for the purpose of border defense was thus discontinued. Construction nevertheless persisted with projects like the Willow Palisade; following a line similar to that of the Liaodong Wall of the Ming, it was meant to prevent Han Chinese migration into Manchuria.\n[…]\nThe Great Wall of China cannot be seen by the naked human eye from the Moon which orbits around Earth at an average distance of 384,399 kilometres (238,854 mi). Even though the myth has been thoroughly debunked, it is still ingrained in popular culture. The apparent width of the Great Wall as seen from the Moon would be the same as that of a human hair viewed from 3 km (2 mi) away.\n[…]\nLeroy Chiao, a Chinese-American astronaut, took a photograph from the International Space Station that shows the wall. It was so indistinct that the photographer was not certain he had actually captured it. Based on the photograph, the China Daily later reported that the Great Wall can be seen from 'space' with the naked eye, under favorable viewing conditions, if one knows exactly where to look."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Muralha_da_China",
+        "situacao": "ok",
+        "texto": "Grande Muralha da China (chinês tradicional: 萬里長城; chinês simplificado: 万里长城; pinyin: Wànlǐ Chángchéng, literalmente \"muro de dez mil li de comprimento\") é uma série de fortificações na China. Elas foram construídas ao longo das fronteiras históricas do norte dos antigos estados chineses e da China Imperial como proteção contra vários grupos nômades da Estepe Euroasiática. As primeiras muralhas da\n[…]\nDurante muito tempo pensou-se que a Grande Muralha fora construída para proteger o Império Chinês contra a ameaça de invasão por tribos vizinhas. Na verdade, porém, o Império Qin não corria qualquer perigo em relação às tribos do norte quando a muralha começou a ser construída.\n[…]\nCom a morte do imperador Qin Shihuang, iniciou-se na China um período de agitações políticas e de revoltas, durante o qual os trabalhos na Grande Muralha ficaram paralisados. Com a ascensão da Dinastia Han ao poder, por volta de 206 a.C., reiniciou-se o crescimento chinês e os trabalhos na muralha foram retomados ao longo dos séculos até o seu esplendor na Dinastia Ming, por volta do século XV, quando adquiriu os atuais aspectos e uma extensão de cerca de sete mil quilômetros.\n[…]\nA magnitude da obra, entretanto, não impediu as incursões de mongóis, xiambeis e outros povos, que ameaçaram o império chinês ao longo de sua história. Por volta do século XVI perdeu a sua função estratégica, vindo a ser abandonada a partir de 1664, com a expansão chinesa na direção norte na Dinastia Qing. No século XX, na década de 1980, Deng Xiaoping deu prioridade à Grande Muralha como símbolo da China, estimulando uma grande campanha de restauração de diversos trechos.\n[…]\nEm 2012 foi anunciado que a Muralha da China mede 21196 quilômetros na totalidade e aproximadamente 7 metros de altura. Esta medida contempla todas as paredes que foram alguma vez construídas, mesmo as que já não existem.\n[…]\n«Muralha da China». em Fortalezas.org.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Jardins Suspensos da Babilônia",
+      "descricao": "Jardins lendários da Babilônia, contados entre as Sete Maravilhas do Mundo Antigo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição, Nabucodonosor segundo ergueu os Jardins Suspensos para agradar à esposa, saudosa das montanhas verdes de que terra natal?",
+    "resposta": "Média",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon",
+        "situacao": "ok",
+        "texto": "The Hanging Gardens of Babylon were one of the Seven Wonders of the Ancient World listed by Hellenic culture. They were described as a remarkable feat of engineering with an ascending series of tiered gardens containing a wide variety of trees, shrubs, and vines, resembling a large green mountain constructed of mud bricks. It was said to have been built in the ancient city of Babylon, near present\n[…]\nOxford scholar Stephanie Dalley has proposed that the Hanging Gardens of Babylon were actually the well-documented gardens constructed by the Assyrian king Sennacherib (reigned c. 705/704 – c. 681 BC) for his palace at Nineveh; Dalley posits that during the intervening centuries the two sites became confused, and the extensive gardens at Sennacherib's palace were attributed to Nebuchadnezzar II's Babylon.\n[…]\nFinkel, Irving (1988). \"The Hanging Gardens of Babylon\". In Clayton, Peter; Price, Martin (eds.). The Seven Wonders of the Ancient World. New York: Routledge. pp. 38 ff. ISBN 0-415-05036-7.\n[…]\nDalley, Stephanie (2013). The Mystery of the Hanging Garden of Babylon: an elusive World Wonder traced. Oxford University Press. ISBN 978-0-19-966226-5.\n[…]\nDalley, Stephanie. 1994. \"Nineveh, Babylon and the Hanging Gardens: Cuneiform and Classical Sources Reconciled.\" Iraq 56: 45–58. doi:10.2307/4200384.\n[…]\nReade, Julian. 2000. \"Alexander the Great and the Hanging Gardens of Babylon.\" Iraq 62: 195–217. doi:10.2307/4200490.\n[…]\nHow the Seven Wonders of the Ancient World Work: The Hanging Gardens of Babylon\n[…]\nPlants in the Hanging Gardens of Babylon\n[…]\nArtistic Renditions of the Hanging Gardens and the city of Babylon Archived 22 April 2021 at the Wayback Machine\n[…]\nAnimation of 3D virtual Hanging Gardens of Babylon\n[…]\nThe Lost Gardens of Babylon Documentary produced by the PBS Series Secrets of the Dead\n[…]\n3D model of the hanging-gardens-babylon - The Only Progress is Human"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jardins_Suspensos_da_Babil%C3%B3nia",
+        "situacao": "ok",
+        "texto": "Os Jardins Suspensos da Babilônia foram uma das sete maravilhas do mundo antigo, segundo a cultura helênica. Foram descritos como uma notável façanha de engenharia, com uma série ascendente de jardins em terraços contendo uma grande variedade de árvores, arbustos e trepadeiras, assemelhando-se a uma grande montanha verde construída com tijolos de barro. Dizia-se que havia sido construído na antiga\n[…]\nSegundo uma lenda, os Jardins Suspensos foram construídos ao lado de um grandioso palácio conhecido como The Marvel of Mankind, pelo rei neobabilônico Nabucodonosor II (que governou entre 605 e 562 a.C.), para sua esposa meda, a rainha Amitis, porque ela sentia falta das colinas e vales verdejantes de sua terra natal. Isso foi atestado pelo sacerdote babilônico Beroso, escrevendo por volta de 290 a.C., uma descrição que foi posteriormente citada por Flávio Josefo.\n[…]\nNeste palácio ele ergueu calçadas muito altas, sustentadas por pilares de pedra; e plantou o que foi chamado de paraíso suspenso, e encheu-o com todos os tipos de árvores, o que lhe rendeu a perspectiva exata de um país montanhoso. Ele fez isso para satisfazer sua rainha, pois ela havia sido criada em Media, e gostava de locais montanhosos.\n[…]\nExistem controvérsias a respeito de os Jardins Suspensos terem realmente existido ou terem sido apenas uma criação poética, principalmente devido à falta de documentos babilônicos preservados. Nos poucos de que se tem conhecimento, também não há menção à esposa de Nabucodonosor, Amyitis (ou quaisquer outras esposas), embora um casamento político para uma Persa de Media fosse comum na época.\n[…]\nHeródoto, escrevendo sobre a Babilônia próxima do tempo Nabucodonosor II, não menciona os Jardins Suspensos em suas Histórias.\n[…]\nDalley, Stephanie (2013). The Mystery of the Hanging Garden of Babylon: an elusive World Wonder traced. [S.l.]: Oxford University Press. ISBN 978-0-19-966226-5",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Ciro, o Grande",
+      "descricao": "Rei persa do século seis antes de Cristo, fundador do Império Aquemênida."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que o rei persa Ciro, o Grande, é exaltado na Bíblia hebraica como um ungido de Deus?",
+    "resposta": "Libertou os judeus do cativeiro babilônico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cyrus_the_Great"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cyrus_the_Great",
+        "situacao": "ok",
+        "texto": "Cyrus II of Persia (c. 600 – 530 BC), commonly known as Cyrus the Great, was the founder of the Achaemenid Empire. Hailing from Persis, he brought the Achaemenid dynasty to power by defeating the Median Empire and embracing all of the previous civilized states of the ancient Near East, expanding vastly across most of West Asia and much of Central Asia to create what would soon become the largest e\n[…]\nThe United Nations recognizes the tomb of Cyrus the Great and Pasargadae as a UNESCO World Heritage site.\n[…]\nAnd these things God did afford them; for he stirred up the mind of Cyrus, and made him write this throughout all Asia: \"Thus saith Cyrus the king: Since God Almighty hath appointed me to be king of the habitable earth, I believe that he is that God which the nation of the Israelites worship; for indeed he foretold my name by the prophets, and that I should build him a house at Jerusalem, in the country of Judea.\" This was known to Cyrus by his reading the book which Isaiah left behind him of his prophecies; for this prophet said that God had spoken thus to him in a secret vision: \"My will is, that Cyrus, whom I have appointed to be king over many and great nations, send back my people to their own land, and build my temple.\" This was foretold by Isaiah one hundred and forty years before the temple was demolished.\n[…]\nIn the 19th century, a number of prominent Indian Muslim scholars began theorizing that Cyrus the Great is the individual mentioned in the Quran by the name Dhu al-Qarnayn, who is described as travelling west and east (towards the \"setting and rising places of the Sun\") and erecting a large barrier to separate a troubled people from \"Ya'juj and Ma'juj\" in exchange for tribute, with this barrier destined to keep them sealed until their release signals the end of the world and the Day of Judgement.\n[…]\nCyrus the Great Day\n[…]\n2016 Cyrus the Great Revolt"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ciro_II",
+        "situacao": "ok",
+        "texto": "Ciro II (em persa antigo: 𐎤𐎢𐎽𐎢𐏁; romaniz.: Kūruš), mais conhecido como Ciro, o Grande e também chamado de Ciro, o Presbítero, pelos gregos, foi o primeiro Rei dos reis e fundador do Império Aquemênida, que reinou entre 559 e 530 a.C., ano em que morreu em batalha com os masságetas. Pertencente à dinastia dos Aquemênidas, foi sucedido pelo filho, Cambises II.\n[…]\nConquistou a Babilônia em 539 a.C. Segundo o relato bíblico em Isaías 45, Ciro teria recebido uma mensagem de Deus que o ordenava a enviar de volta à Judeia todos os judeus cativos naquela cidade e que o próprio iria ajudá-lo. O autor de famosa declaração que em 537 a.C. autorizava os judeus a regressar à Judeia, pondo fim ao período do Cativeiro Babilônico. Em uma noite de 5/6 de outubro de 539 a.C., acampou em volta de Babilônia com seu exército.\n[…]\nApós conquistar Babilônia, Ciro II não esperou muito e se lançou com as suas tropas para a conquista dos masságetas, um povo que habitava a outra margem do rio Araxes.\n[…]\nCiro, o Grande é venerado na Bíblia hebraica por conquistar a Babilônia e libertar os judeus do cativeiro. Ele é mencionado 23 vezes pelo nome e aludido várias vezes mais.\n[…]\nSegundo a Bíblia, Ciro, o Grande, foi impelido por Deus a decretar que o Templo em Jerusalém fosse reconstruído e que os judeus que quisessem pudessem retornar à sua terra para esse propósito. Além disso, ele mostrou seu interesse no projeto enviando de volta com eles os vasos sagrados que haviam sido retirados do Primeiro Templo e uma soma considerável de dinheiro para comprar materiais de construção. A existência do decreto foi contestada.\n[…]\nNo livro de Esdras (1: 2-4) se apresenta uma versão do édito de Ciro que põe fim ao exílio judeu na Babilônia.\n[…]\nThe Day of Cyrus The Great (Cyrus Day)O Dia de Ciro, o Grande, em Cambridge, Reino Unido\n[…]\nFotografias da Tumba de Ciro, o Grande",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Torre do Silêncio",
+      "descricao": "Estrutura circular elevada usada pelos zoroastristas para expor os mortos às aves de rapina."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que os zoroastristas expunham os mortos aos abutres nas Torres do Silêncio, em vez de enterrá-los ou cremá-los?",
+    "resposta": "Para não contaminar a terra e o fogo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tower_of_Silence"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tower_of_Silence",
+        "situacao": "ok",
+        "texto": "A dakhma (Persian: دخمه), also known as a Tower of Silence (Persian: برجِ خاموشان), is a circular, raised structure built by Zoroastrians for excarnation (that is, the exposure of human corpses to the elements for decomposition), in order to avoid contamination of the soil and other natural elements by the dead bodies. Carrion birds, usually vultures, and other scavengers, consume the flesh. Skele\n[…]\nOne of the earliest literary descriptions of such a building appears in the late 9th-century Epistles of Manushchihr, where the technical term is astodan, 'ossuary'. Another term that appears in the 9th- to 10th-century texts of Zoroastrian tradition (the so-called \"Pahlavi books\") is dakhmag; in its earliest usage, it referred to any place for the dead.\n[…]\nZoroastrian tradition considers human cadavers and animal corpses (in addition to cut hair and nail parings) to be nasu, i.e. unclean, polluting. Specifically, Nasu the corpse demon (daeva), is believed to rush into the body and contaminate everything it comes into contact with. For this reason, the Vīdēvdād (an ecclesiastical code whose title means, 'given against the demons') has rules for disposing of the dead as safely as possible.\n[…]\nThe graves were lined with rocks and plastered with cement to prevent direct contact with the earth. In Kerman, older orthodox Zoroastrians continued to maintain a tower for a few years after a cemetery was built. Yazdi Zoroastrians continued using the Tower of Silence until the city asked them to close it in 1974.\n[…]\nThe right to use the Towers of Silence is a much-debated issue among the Parsi community. The facilities are usually managed by the anjumans, the predominantly conservative local Zoroastrian associations. These usually consist of a nine-member board, including five priests.\n[…]\nVāyu-Vāta, air (vāyu) as a sacred element and the Zoroastrian divinity of wind"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Torre_do_sil%C3%AAncio",
+        "situacao": "ok",
+        "texto": "Uma torre do silêncio (em farsi دخمه, dakhmeh ou dakhmah) é uma construção em forma de torre que possui usos e simbologias funerárias para os adeptos do zoroastrismo.\n[…]\nNessa religião, considera-se os cadáveres impuros, e para não violar a sacramentalidade da terra, recusam-se a enterrar ou cremar um corpo. Em vez disso, depositam o defunto no alto duma construção nas montanhas, onde os abutres vêm e devoram sua carne, após o que são exumados os ossos, e depois disso jogados num curso d'água para seguir direto em direção ao mar, não tocando assim o solo. Porém, esse costume está a  extinguir-se.\n[…]\nNo Irão, a pátria original do zoroastrismo, a derradeira Torre do Silêncio, a de Iazde, foi fechada recentemente, por falta de equipamento humano para mantê-la. Agora, se um zoroastrista morre sem antes deixar registrado oficialmente o desejo de ter seu corpo enviado para que cuidem dele na Índia, e a família não pague as despesas, não haverá para ele um funeral que esteja em conformidade com a sua fé.\n[…]\nA última Torre do Silêncio ainda em actividade, é a de Mumbai, mas mesmo na Índia as comunidades zoroastristas têm encontrado dificuldades para seguir com seu ritual funerário tradicional, que é dispendioso e dificultado pela desaparição cada vez mais acelerada dos abutres. Teme-se que a Torre do Silêncio um dia suma da face da terra, e com ela a religião zoroastriana.\n[…]\nNos dias de hoje, a maioria dos zoroastristas, sejam eles parsis (como são conhecidos na Índia) ou membros de comunidades zoroastristas do Irão, Paquistão, dos Estados Unidos, Reino Unido, Austrália e outros países, são cremados após morrer e suas cinzas jogadas ao mar.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Ashoka",
+      "descricao": "Imperador da dinastia Máuria, que governou quase todo o subcontinente indiano no século três antes de Cristo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que guerra sangrenta, no século três antes de Cristo, levou o imperador indiano Ashoka a se arrepender e abraçar o budismo?",
+    "resposta": "Guerra de Kalinga",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kalinga_War",
+      "https://en.wikipedia.org/wiki/Ashoka"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kalinga_War",
+        "situacao": "ok",
+        "texto": "The Kalinga War (ended c. 261 BCE) was fought in ancient India between the Mauryan Empire under Ashoka the Great and Kalinga, an independent feudal kingdom located on the east coast, in the present-day state of Odisha and northern parts of Andhra Pradesh. It is presumed that the battle was fought on Dhauli hills in Dhauli which is situated on the banks of Daya River. The Kalinga War was one of the\n[…]\nIt could interrupt communications between Mauryan capital Pataliputra and possessions in the central Indian peninsula. Kalinga also controlled the coastline for trade in the Bay of Bengal.\n[…]\nAccording to Megasthenes, the Greek historian at the court of Chandragupta Maurya, the ruler of Kalinga had a powerful army comprising infantry, cavalry and elephants. According to Indian archaeologist Dilip K. Chakrabarti, the Mauryan army marched to Kalinga via Sarguja, a route that was later followed by Samudragupta during his campaign against Kalinga.\n[…]\nBeloved-of-the-Gods, King Priyadarsi (Asoka) conquered the Kalingans eight years after his coronation. One hundred and fifty thousand were deported, one hundred thousand were killed and many more died (from other causes). After the Kalingans had been conquered, Beloved-of-the-Gods came to feel a strong inclination towards the Dharma, a love for the Dharma and for instruction in Dharma. Now Beloved-of-the-Gods feels deep remorse for having conquered the Kalingans.\n[…]\nAshoka's response to the Kalinga War is recorded in the Edicts of Ashoka. The Kalinga War prompted Ashoka, already a non-engaged Buddhist, to devote the rest of his life to ahimsa (non-violence) and to dharma-vijaya (victory through dharma). Following the conquest of Kalinga, Ashoka ended the military expansion of the empire and began an era of more than 40 years of relative peace, harmony, and prosperity.\n[…]\nThe 2001 Indian Hindi-language film Aśoka, is based on Kalinga war"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ashoka",
+        "situacao": "ok",
+        "texto": "Ashoka, also known as Asoka or Aśoka ( ə-SHOH-kə; Sanskrit: [ɐˈɕoːkɐ], IAST: Aśoka; c. 304 – 232 BCE), most commonly known as Ashoka the Great, was Emperor of Magadha from c. 268 BCE until his death, and the third ruler from the Mauryan dynasty. His empire covered a large part of the Indian subcontinent, stretching from present-day Afghanistan in the west to present-day Bangladesh in the east, wit\n[…]\nBased on Sri Lankan tradition, some scholars, such as Eggermont, believe Ashoka converted to Buddhism before the Kalinga war. Critics of this theory argue that if Ashoka were already a Buddhist, he would not have waged the violent Kalinga War. Eggermont explains this anomaly by theorising that Ashoka had his own interpretation of the \"Middle Way\".\n[…]\nThis edict has been inscribed at several places, including Erragudi, Girnar, Kalsi, Maneshra, Shahbazgarhi and Kandahar. However, it is omitted from Ashoka's inscriptions found in the Kalinga region, where Rock Edicts 13 and 14 have been replaced with two separate edicts that make no mention of Ashoka's remorse. One possibility is that Ashoka did not consider it politically appropriate to make such a confession to the people of Kalinga.\n[…]\nAnother possibility is that the Kalinga war and its consequences, as described in Ashoka's rock edicts, are \"more imaginary than real\". This description is meant to impress those far removed from the scene, thus unable to verify its accuracy.\n[…]\nMuch of the knowledge about Ashoka comes from the several inscriptions that he had carved on pillars and rocks throughout the empire. All his inscriptions present him as compassionate and loving. In the Kalinga rock edits, he addresses his people as his \"children\" and mentions that as a father he desires their good.\n[…]\nJaishankar Prasad composed Ashoka ki Chinta (Ashoka's Anxiety), a poem that portrays Ashoka's feelings during the war on Kalinga."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guerra_de_Calinga",
+        "situacao": "ok",
+        "texto": "A Guerra de Calinga ou Kalinga (em sânscrito: कलिंग युद्धम्) foi uma guerra travada em 261−260 a.C. entre o Império Máuria sob Asoca, o Grande (r. 272/268–232 a.C.) e o estado de Calinga, uma república localizada na costa do atual estado indiano de Orissa. Esta guerra foi o único grande conflito travada por Asoca depois de sua ascensão ao trono. Calinga colocou uma enorme resistência, mas não foi \n[…]\nO excessivo derramamento de sangue desta guerra foi o motivo de Asoca adotar o budismo. Após a conquista, ele incorporou a região ao Império Máuria.\n[…]\nDe acordo com o 13º édito de Asoca, a guerra começou no oitavo ano do reinado de Asoca, provavelmente em 261 a.C.. A batalha de Calinga foi travada na margem do Rio Daia entre as forças de Asoca e os habitantes da região. Por meio do 13º édito sabe-se que a batalha foi massiva e causou a morte de mais de 10 000 dos soldados máurias e 100 000 soldados e muitos civis de Calinga, enquanto mais de 150 000 foram deportados.\n[…]\nCom o fim do conflito, Calinga foi anexada ao Império Máuria. Esta guerra teve um efeito profundo sobre as políticas públicas e a personalidade de Asoca. Em decorrência da crueldade dos combates, Asoca, arrependido, converte-se a filosofia não-violenta do budismo. Ele decidiu nunca empreender outra guerra e também instrui seus filhos e netos a \"nunca empreender tal guerra\"; para ele uma conquista devia ser feita mediante a piedade e virtude (Darma-Vijaia).\n[…]\nEste artigo foi inicialmente traduzido, total ou parcialmente, do artigo da Wikipédia em inglês cujo título é «Kalinga war».\n[…]\n«The Edicts of King Ashoka»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Algarismos indo-arábicos",
+      "descricao": "Sistema de numeração decimal posicional criado na Índia e difundido na Europa pelos árabes."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Os algarismos que usamos hoje foram criados na Índia. Por que, então, costumam ser chamados de arábicos?",
+    "resposta": "Chegaram à Europa pelos árabes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hindu–Arabic_numeral_system"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hindu–Arabic_numeral_system",
+        "situacao": "ok",
+        "texto": "The Hindu–Arabic numeral system (also known as the Indo-Arabic numeral system, Hindu numeral system, and Arabic numeral system) is a base ten (decimal) positional numeral system. It is presently the most common decimal system.\n[…]\nLater he obtained from these places the book De multiplicatione et divisione (On Multiplication and Division). After becoming Pope Sylvester II in the year 999 CE, he introduced a new model of abacus, the so-called Abacus of Gerbert, by adopting tokens representing Hindu–Arabic numerals, from one to nine.\n[…]\nLeonardo Fibonacci brought this system to Europe. His book Liber Abaci introduced Modus Indorum (the method of the Indians), today known as Hindu–Arabic numeral system or base-10 positional notation, the use of zero, and the decimal place system to the Latin world. The numeral system came to be called \"Arabic\" by the Europeans. It was used in European mathematics from the 12th century, and entered common use from the 15th century to replace Roman numerals.\n[…]\nChinese and Japanese adopted the Hindu–Arabic numerals in the 19th century, abandoning counting rods.\n[…]\nThe \"Western Arabic\" numerals as they were in common use in Europe since the Baroque period have secondarily found worldwide use together with the Latin alphabet, and even significantly beyond the contemporary spread of the Latin alphabet, intruding into the writing systems in regions where other variants of the Hindu–Arabic numerals had been in use, but also in conjunction with Chinese and Japanese writing (see Chinese numerals, Japanese numerals).\n[…]\nNumeral system\n[…]\nSmith, David Eugene; Karpinski, Louis Charles (1911). The Hindu–Arabic Numerals. Boston; London: Ginn and Company, Publishers. OCLC 1045941557."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sistema_num%C3%A9rico_hindu-ar%C3%A1bico",
+        "situacao": "ok",
+        "texto": "O sistema numérico hindu-arábico ou indo-árabe (também chamado de sistema numérico árabe ou sistema numeral hindu) é um sistema numeral decimal posicional, sendo o mais popular sistema para a representação simbólica de números no mundo.\n[…]\nFoi inventado entre os séculos I e IV por matemáticos indianos. O sistema foi adotado na matemática árabe no século IX. Influentes foram os livros de Muḥammad ibn Mūsā al-Khwārizmī (Sobre o cálculo com números hindus, c. 825) e Al-Kindi (Sobre o uso dos números hindus, c. 830). Mais tarde, o sistema se espalhou para a Europa medieval na Alta Idade Média.\n[…]\nO sistema é baseado em dez (originalmente nove) glifos. Os símbolos (glifos) usados ​​para representar o sistema são, em princípio, independentes do próprio sistema. Os glifos em uso real são descendentes da numeração brami e se dividiram em várias variantes tipográficas desde a Idade Média.\n[…]\nEsses conjuntos de símbolos podem ser divididos em três famílias principais: numerais arábicos ocidentais, usados ​​no Grande Magrebe e na Europa; numerais árabes orientais (também chamados de \"numerais indicativos\"), usados ​​no Oriente Médio, e os numerais indianos, usados ​​no subcontinente indiano.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Exército de Terracota",
+      "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por que milhares de soldados de barro foram enterrados junto ao túmulo do imperador chinês Qin Shi Huang?",
+    "resposta": "Para protegê-lo após a morte",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Terracotta_Army"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Terracotta_Army",
+        "situacao": "ok",
+        "texto": "The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first emperor of China. It is a form of funerary art buried with the emperor in 210–209 BCE in his mausoleum with the purpose of protecting him in his afterlife.\n[…]\nShe said that \"the terracotta warriors may be inspired by Western culture, but were uniquely made by the Chinese,\" and many local elements also contributed to the creation of the Terracotta Army.\n[…]\nBetween 15 June and 17 September 2006 the exhibition entitled \"Los Guerreros de Terracota: Un Ejercito Inmortal\" (\"The Chinese Terracotta Army: An Immortal Army\"), composed of 73 objects, were displayed at the National Museum of Colombia in Bogotá.\n[…]\nIn Italy, from July 2008 to 16 November 2008, five of the warriors of the terracotta army were displayed in Turin at the Museum of Antiquities, and from 16 April 2010 to 5 September 2010 nine statues including officials, lancers and an archer were displayed at the Royal Palace in Milan at the exhibition entitled \"The Two Empires\".\n[…]\nSeveral Terracotta Army figures were on display, along with many other objects, in an exhibit entitled \"Age of Empires: Chinese Art of the Qin and Han Dynasties\" at The Metropolitan Museum of Art in New York City from 3 April 2017 to 16 July 2017.\n[…]\nPortal, Jane (2007). The First Emperor: China's Terracotta Army. Cambridge: Harvard University Press. ISBN 978-0-674-02697-1.\n[…]\nLedderose, Lothar (2000). \"A Magic Army for the Emperor\". Ten Thousand Things: Module and Mass Production in Chinese Art. The A.W. Mellon Lectures in the Fine Arts. Princeton, NJ: Princeton University Press. ISBN 978-0-691-00957-5. Archived from the original on 10 November 2013. Retrieved 15 September 2017.\n[…]\nPeople's Daily article on the Terracotta Army"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ex%C3%A9rcito_de_terracota",
+        "situacao": "ok",
+        "texto": "Exército de terracota, Guerreiros de Xian ou ainda Exército do imperador Qin, é uma coleção de esculturas de terracota representando os exércitos de Qin Shi Huang, o primeiro imperador da China. É uma forma de arte funerária enterrada com o imperador em 210-209 a.C. e cuja finalidade era proteger o governante chinês em sua vida após a morte.\n[…]\nSeria protegido por um exército de soldados em terracota guardados nas proximidades, mas os restos de muitos artesãos e suas ferramentas foram encontrados, o que faz acreditar que tenham sido enterrados com o imperador para impedir que revelassem as riquezas ou as entradas aos salteadores.[carece de fontes]?\n[…]\nAs escavações arqueológicas dos soldados de terracota estão em curso ainda, trinta anos após sua descoberta. Isto se deve à fragilidade natural do material e sua difícil preservação. Terracota é literalmente terra assada, em fornos com temperatura relativamente baixa. Após queimar cada figura, ela era coberta com uma camada de laca, para aumentar a durabilidade. Eram também coloridas para aumentar o realismo da aparência das figuras e de suas roupas e equipamentos.\n[…]\nEscavações no sítio mostraram com grande precisão restos de um incêndio que queimou as estruturas de madeira que abrigavam o exército de terracota, como Sima Qian descreveu em seu livro, consequência de uma revolta liderada pelo general Xiang Yu menos de cinco anos após a morte do imperador. Ele disse que um dos atos do general Yu foi o saque da tumba e seu posterior incêndio.\n[…]\nOs guerreiros de Xian são hoje um fenomenal sítio arqueológico e um ícone do passado distante da China. O poderio do primeiro imperador Qin Shihuang  é evidente na massiva e monumental presença de seus soldados, eternamente prontos a proteger seu líder.[carece de fontes]?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Exército de Terracota",
+      "descricao": "Conjunto de milhares de estatuetas de soldados de barro enterradas junto ao mausoléu de Qin Shi Huang, em Xian."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que década do século vinte agricultores chineses que cavavam um poço encontraram o Exército de Terracota?",
+    "resposta": "Década de 1970",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Terracotta_Army"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Terracotta_Army",
+        "situacao": "ok",
+        "texto": "The Terracotta Army is a collection of terracotta sculptures depicting the armies of Qin Shi Huang, the first emperor of China. It is a form of funerary art buried with the emperor in 210–209 BCE in his mausoleum with the purpose of protecting him in his afterlife.\n[…]\nShe said that \"the terracotta warriors may be inspired by Western culture, but were uniquely made by the Chinese,\" and many local elements also contributed to the creation of the Terracotta Army.\n[…]\nBetween 15 June and 17 September 2006 the exhibition entitled \"Los Guerreros de Terracota: Un Ejercito Inmortal\" (\"The Chinese Terracotta Army: An Immortal Army\"), composed of 73 objects, were displayed at the National Museum of Colombia in Bogotá.\n[…]\nIn Italy, from July 2008 to 16 November 2008, five of the warriors of the terracotta army were displayed in Turin at the Museum of Antiquities, and from 16 April 2010 to 5 September 2010 nine statues including officials, lancers and an archer were displayed at the Royal Palace in Milan at the exhibition entitled \"The Two Empires\".\n[…]\nSeveral Terracotta Army figures were on display, along with many other objects, in an exhibit entitled \"Age of Empires: Chinese Art of the Qin and Han Dynasties\" at The Metropolitan Museum of Art in New York City from 3 April 2017 to 16 July 2017.\n[…]\nPortal, Jane (2007). The First Emperor: China's Terracotta Army. Cambridge: Harvard University Press. ISBN 978-0-674-02697-1.\n[…]\nLedderose, Lothar (2000). \"A Magic Army for the Emperor\". Ten Thousand Things: Module and Mass Production in Chinese Art. The A.W. Mellon Lectures in the Fine Arts. Princeton, NJ: Princeton University Press. ISBN 978-0-691-00957-5. Archived from the original on 10 November 2013. Retrieved 15 September 2017.\n[…]\nPeople's Daily article on the Terracotta Army"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ex%C3%A9rcito_de_terracota",
+        "situacao": "ok",
+        "texto": "Exército de terracota, Guerreiros de Xian ou ainda Exército do imperador Qin, é uma coleção de esculturas de terracota representando os exércitos de Qin Shi Huang, o primeiro imperador da China. É uma forma de arte funerária enterrada com o imperador em 210-209 a.C. e cuja finalidade era proteger o governante chinês em sua vida após a morte.\n[…]\nOs soldados variam em altura de acordo com suas funções, sendo os generais os mais altos. As estátuas incluem guerreiros, carruagens e cavalos. Estimativas atuais são de que nos três poços que contêm o Exército de Terracota, havia mais de oito mil soldados, 130 carruagens com 520 cavalos e 150 soldados de cavalaria, a maioria dos quais ainda estão enterrados nas covas nas proximidades Mausoléu de Qin Shihuang‎.\n[…]\nAs imagens em terracota foram enterradas junto ao mausoléu do primeiro imperador, Qin Shihuang em c. 259-210 a.C. e foram descobertas em março de 1974 por agricultores locais que escavavam um poço de água a leste do monte Lishan, uma elevação de terra feita por mãos humanas e que contém a necrópole do primeiro imperador da dinastia Qin. A construção desse mausoléu começou em 246 a.C. e acredita-se que 700 000 trabalhadores e artesãos levaram 38 anos para a completar.\n[…]\nSeria protegido por um exército de soldados em terracota guardados nas proximidades, mas os restos de muitos artesãos e suas ferramentas foram encontrados, o que faz acreditar que tenham sido enterrados com o imperador para impedir que revelassem as riquezas ou as entradas aos salteadores.[carece de fontes]?\n[…]\n(em inglês) Ledderose, Lothar. \"A Magic Army for the Emperor.\" from \"Ten Thousand Things : Module and Mass Production in Chinese Art\" ed. Lothar Ledderose, (Princeton UP, 2000): 51-73.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Qin Shi Huang",
+      "descricao": "Primeiro imperador da China unificada, fundador da dinastia Qin no século três antes de Cristo."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Obcecado pela imortalidade, o primeiro imperador da China teria morrido depois de ingerir pílulas feitas com que metal?",
+    "resposta": "Mercúrio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Qin_Shi_Huang"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Qin_Shi_Huang",
+        "situacao": "ok",
+        "texto": "Qin Shi Huang (February 259 – 12 July 210 BC) was the founder of the Qin dynasty and the first emperor of China (Chinese: 皇帝; pinyin: Huángdì). He invented the title huángdì rather than reuse the existing title for \"king\" (Chinese: 王; pinyin: wáng); the new title was used by monarchs in China and other countries for the next two millennia.\n[…]\n皇帝, Huángdì or Huang-ti, \"emperor\", a new term coined from\n[…]\nThe cause of Qin Shi Huang's death remains unknown, though he had been worn down by his many years of rule. One hypothesis holds that he was poisoned by an elixir containing mercury, given to him by his court alchemists and physicians in his quest for immortality.\n[…]\nThe main tomb (located at 34°22′53″N 109°15′13″E) containing the emperor has yet to be opened and evidence suggests that it remains relatively intact. Sima Qian's description of the tomb includes replicas of palaces and scenic towers, \"rare utensils and wonderful objects\", 100 rivers made with mercury, representations of \"the heavenly bodies\", and crossbows rigged to shoot anyone who tried to break in. The tomb was built at the foot of Mount Li, 30 kilometers away from Xi'an.\n[…]\nModern archaeologists have located the tomb, and have inserted probes deep into it. The probes revealed abnormally high quantities of mercury, some 100 times the naturally occurring rate, suggesting that some parts of the legend are credible. Secrets were maintained, as most of the workmen who built the tomb were killed.\n[…]\nFirst Emperor: The Man Who Made China (2006) – a drama-documentary special about Qin Shi Huang. James Pax played the emperor. It was shown on Channel 4 in the United Kingdom in 2006.\n[…]\nChina's First Emperor (2008) – a special three-hour documentary by The History Channel. Xu Pengkai played Qin Shi Huang.\n[…]\nQuotations related to Qin Shi Huang at Wikiquote"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Qin_Shihuang",
+        "situacao": "ok",
+        "texto": "Qin Shi Huang Di (Novembro/Dezembro 260 a.C. - 10 de Setembro, 210 a.C.), foi rei do Estado chinês de Qin de 247 a.C. a 221 a.C., e posteriormente tornou-se o primeiro imperador de uma China unificada, de 221 a.C. a 210 a.C., reinando sob a alcunha de Primeiro Imperador.\n[…]\nA palavra huangdi foi traduzida na maioria dos idiomas ocidentais como \"imperador\", uma palavra também com uma longa história que remete a Roma antiga, e que os europeus consideram como superior a \"rei\". Qin Shi Huang adotou o nome Primeiro Imperador (Shi Huangdi, literalmente \"imperador que começa\").\n[…]\nO nome Qin Shi Huang (i.e., \"Primeiro Imperador da Dinastia Qin\") é o nome que aparece no livro Registros do Historiador, escrito por Sima Qian, e é o nome mais aceito atualmente na China para se referir ao Primeiro Imperador. Ocidentais às vezes escrevem \"Qin Shi Huangdi\", o que não é convencional - o mais comum é escrever \"Qin Shi Huang\" ou \"Primeiro Imperador\".\n[…]\nO imperador morreu durante uma viagem para o Leste da China, à procura das lendárias Ilhas dos Imortais (possivelmente localizadas além da costa Leste da China), onde pretendia descobrir o segredo da imortalidade. Supostamente, Qin Shi Huang teria morrido ao beber uma poção, que havia sido preparada pelos cientistas e médicos da corte. A poção, que ironicamente deveria tornar o imperador imortal, continha altas taxas de mercúrio.\n[…]\nNa historiografia tradicional chinesa, o Primeiro Imperador quase sempre foi descrito como um tirano brutal, supersticioso -como resultado de sua suposta obsessão paranóica em atingir a imortalidade (de fato ele morreu por intoxicação por mercúrio contido em suas \"poções\" para atingi-la)-, e muitas vezes foi colocado mesmo como um líder medíocre.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Pólvora",
+      "descricao": "Mistura explosiva de salitre, enxofre e carvão inventada na China medieval."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Por volta do século nove, alquimistas chineses descobriram a pólvora enquanto procuravam o quê?",
+    "resposta": "O elixir da imortalidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gunpowder"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gunpowder",
+        "situacao": "ok",
+        "texto": "Gunpowder, referred to as black powder to distinguish it from modern smokeless powder, is the earliest known chemical explosive. It consists of a mixture of sulfur, charcoal (which is mostly carbon), and potassium nitrate (saltpeter). The sulfur and charcoal act as fuels, while the saltpeter is an oxidizer.\n[…]\nAccording to the Zhenyuan miaodao yaolüe, \"Some have heated together sulfur, realgar and saltpeter with honey; smoke and flames result, so that their hands and faces have been burnt, and even the whole house where they were working burned down.\" Based on these Taoist texts, the invention of gunpowder by Chinese alchemists was likely an accidental byproduct from experiments seeking to create the elixir of life.\n[…]\nIt is difficult to accurately translate original Chinese alchemical texts, which tend to explain phenomena through metaphor, into modern scientific language with rigidly defined terminology in English. Early texts potentially mentioning gunpowder are sometimes marked by a linguistic process where semantic change occurred. For instance, the Arabic word naft transitioned from denoting naphtha to denoting gunpowder, and the Chinese word pào changed in meaning from trebuchet to a cannon.\n[…]\nAnother major area of contention in modern studies of the history of gunpowder is regarding the transmission of gunpowder. While the literary and archaeological evidence supports a Chinese origin for gunpowder and guns, the manner in which gunpowder technology was transferred from China to the West is still under debate.\n[…]\nCannons and Gunpowder\n[…]\nRoyal Gunpowder Mills\n[…]\n\"Ulrich Bretschler's Gunpowder Chemistry page\". Retrieved 1 May 2007.{{cite web}}:  CS1 maint: deprecated archival service (link)\n[…]\nVideo Demonstration of the Medieval Siege Society's Guns, Including showing ignition of gunpowder"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/P%C3%B3lvora",
+        "situacao": "ok",
+        "texto": "A pólvora é a designação genérica de qualquer mistura de substâncias pouco explosivas, que queima com rapidez, usada como carga propelente em armas de fogo, ou agentes explosivos em atividades de mineração ou desobstrução, e também em fogos de artifício. Historiadores creditam a descoberta aos chineses, que teria ocorrido acidentalmente por volta do século IX, pois no ano 1000 os chineses usavam a\n[…]\nDe acordo com o Zhenyuan miaodao yaolüe, \"alguns aqueceram juntos enxofre, realgar e salitre com mel; resultam fumaça e chamas, de modo que suas mãos e rostos foram queimados, e até toda a casa onde estavam trabalhando queimada\".Com base nesses textos taoístas, a invenção da pólvora pelos alquimistas chineses provavelmente foi um subproduto acidental de experimentos que tentavam criar o elixir da vida.\n[…]\nUm texto alquímico chinês datado de 492 observou salitre queimado com uma chama roxa, fornecendo um meio prático e confiável de distingui-lo de outros sais inorgânicos, permitindo assim aos alquimistas avaliar e comparar técnicas de purificação; os primeiros relatos latinos de purificação de salitre são datados após 1200. Originalmente desenvolvida pelos taoístas para fins medicinais, a pólvora foi usada pela primeira vez na guerra por volta de 904 DC.\n[…]\nComo a \"pólvora negra\", eles foram produzidos em diferentes tamanhos de grãos. No Reino Unido, o grão mais fino era conhecido como \"sulfur-free gunpowder\" (SMP). Os grãos mais grossos foram numerados como pólvora sem enxofre (SFG n): 'SFG 12', 'SFG 20', 'SFG 40' e 'SFG 90', por exemplo; onde o número representa a menor malha da peneira BSS, que não retém nenhum grão.\n[…]\nUma equação química simples, comumente citada, para a combustão da \"pólvora negra\" é:\n[…]\nHoje, os explosivos industriais para tais usos ainda são um grande mercado, mas a maior parte do mercado é de explosivos mais novos, em vez de pólvora negra.\n[…]\nSubstituto de pólvora negra",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Angkor Wat",
+      "descricao": "Templo do Império Khmer do século doze, no Camboja."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Antes de se tornar um templo budista, Angkor Wat foi construído no século doze em honra de que deus hindu?",
+    "resposta": "Vixnu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Angkor_Wat"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Angkor_Wat",
+        "situacao": "ok",
+        "texto": "Angkor Wat (; Khmer: អង្គរវត្ត, 'City/Capital of Temples') is a Theravada Buddhist temple complex originally built as a Vaishnava Hindu temple, in Siem Reap, Cambodia. It is the largest religious complex in the world. Located on a site measuring 162.6 hectares (1.6 km2; 401.8 acres) within the medieval capital of Angkor, it was constructed between 1113 and 1150 CE during the reign of the Khmer kin\n[…]\nAngkor Wat was commissioned by the Khmer king Suryavarman II (ruled 1113–c. 1150) in the early 12th century in Yaśodharapura (present-day Angkor), the capital of the Khmer Empire. The construction of the temple commenced in 1122 CE and was completed in 1150 CE. The temple complex was constructed on the suggestion of Divākarapaṇḍita (1040–c. 1120). The temple was dedicated to Hindu god Vishnu and the original religious motifs were derived from Hinduism.\n[…]\nAngkor Wat was therefore also gradually converted into a Buddhist site with many Hindu sculptures replaced by Buddhist art.\n[…]\nMyths associated with Angkor Wat reflect the influence of Buddhist traditions that developed in Cambodia over several centuries. By the 16th and 17th centuries, Theravada Buddhism had become the dominant religious system in the region, contributing to a gradual reinterpretation of the monument from a Hindu temple into a sacred Buddhist site.\n[…]\nLocal Cambodian traditions also reframed Angkor Wat within Buddhist cosmological narratives. Folklore identifies the temple as a site of merit-making, meditation, and spiritual ascent, sometimes described as a gateway between human and divine realms. Additional myths propose that the temple's extensive bas-reliefs encode hidden Buddhist teachings, despite their depiction of Hindu epics.\n[…]\nMultimedia Resources of Angkor Wat March 2023\n[…]\nAngkor Wat and Angkor photo gallery by Jaroslav Poncar May 2010"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Angkor_Wat",
+        "situacao": "ok",
+        "texto": "Angkor Wat (ou Angkor Vat) é um templo situado 5,5 km a norte da cidade de Siem Reap, na província homônima do Camboja. É o maior e mais bem preservado templo dos que integram o assentamento de Angkor. É também o único que restou com significado religioso importante — inicialmente hindu, e depois budista — desde a sua fundação. O templo é o ponto máximo do estilo clássico da arquitetura Khmer.\n[…]\nDedicado inicialmente ao deus Vixnu, o templo combina a tipologia hinduísta do templo-monte — representando o Monte Meru, morada dos deuses — com a tipologia de galerias própria de períodos posteriores. O templo consta de três recintos retangulares concêntricos de altura crescente, rodeados por um lago perimetral de 3,6 km de comprimento e de uma largura de 200 m.\n[…]\nQuer por ser um templo funerário para o rei, quer por estar dedicado ao deus Vixnu (associado ao quadrante oeste do universo), Angkor Wat, ao contrário do restante de templos, está orientado para oeste. Por este motivo, a direção das histórias narradas nos relevos do templo devem ser lidas no senso contrário às agulhas do relógio.\n[…]\nOs recintos segundo e terceiro possuem torres sobre os seus pavilhões. O recinto segundo carece de baixo-relevos, enquanto os relevos do primeiro estão dedicados ao deus Vixnu.\n[…]\nO primeiro recinto, acessível somente para o rei e o sumo sacerdote, é um quadrado de 60 metros de lado que contém, dispostos em quincúncio, os 5 Prasat ou templos piramidais que representam os picos do Monte Meru. Os cinco templetes ficam ligados mediante novos corredores que geram quatro pátios, similares aos do Preah Poan. O prasat central é maior que os demais, e na sua base alberga um amplo nicho de 4,6 m de lado no que se alojava uma estátua de Vixnu.\n[…]\nAmostra o clímax do livro Ramayana, no que o deus Rama (encarnação de Vixnu), ajudado por um exército de monos, derrota o demônio Ravana e resgata a sua esposa Sita.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Quatro Visões",
+      "descricao": "Episódio da tradição budista em que o príncipe Sidarta vê, fora do palácio, um velho, um doente, um morto e um asceta."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Segundo a tradição budista, que três visões de sofrimento, encontradas fora do palácio, levaram o príncipe Sidarta a abandonar a vida de luxo?",
+    "resposta": "Um velho, um doente e um morto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Four_sights"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Four_sights",
+        "situacao": "ok",
+        "texto": "The four sights are four events described in the legendary account of Gautama Buddha's life which led to his realization of the impermanence and the ultimate dissatisfaction of conditioned existence. According to this legend, before these encounters Gautama Siddhartha had been confined to his palace by his father, who feared that he would become an ascetic if he came into contact with sufferings o\n[…]\nSome time after this incident (the accounts differ considerably as to the timing) and realizing the true nature of life after observing the four sights, Siddhārtha left the palace on his horse Kanthaka accompanied only by Channa. This is known as the Great Departure. He sent Channa back with his possessions and began an ascetic life, at the end of which he attained enlightenment as Gautama Buddha. Before this, he saw a group of people meditating and he decided to join them.\n[…]\nIn the early Pali suttas, the four sights as discrete encounters were not mentioned with respect to the historical Buddha Siddhārtha Gautama. Rather, Siddhārtha's insights into old age, sickness and death were abstract considerations.\n[…]\nIn the early Pali sources, the legendary account of the four sights is only described with respect to a previous legendary Buddha Vipassī (Mahāpadāna Sutta, DN 14). In the later works Nidanakatha, Buddhavamsa and the Lalitavistara Sūtra, the account was consequently also applied to Siddhārtha Gautama.\n[…]\nSome accounts say that the four sights were observed by Siddhārtha in one day, during a single journey. Others describe that the four sightings were observed by him on four occasions, or the three bad sights were seen in one trip, and the ascetic on another. Some versions of the story also say that the prince's father had the route beautified and guarded to ensure that he does not see anything that might turn his thoughts towards suffering."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Etemenanki",
+      "descricao": "Grande zigurate da Babilônia, dedicado ao deus Marduk."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O Etemenanki, zigurate dedicado ao deus Marduk na Babilônia, é apontado como possível inspiração de que construção bíblica?",
+    "resposta": "Torre de Babel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Etemenanki"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Etemenanki",
+        "situacao": "ok",
+        "texto": "Etemenanki (Sumerian: 𒂍𒋼𒀭𒆠, romanized: É.TEMEN.AN.KI, lit. 'Temple of the Foundation of Heaven and Earth') was a Babylonian ziggurat dedicated to the Mesopotamian god Marduk. It is now in ruins, which are located about 90 kilometres (56 mi) south of Baghdad. Some scholars have proposed Etemenanki as the ziggurat that may have influenced the biblical account of the Tower of Babel.\n[…]\nFenollós et al. note that \"The 'Tower of Babel' was not built in a single moment, but rather was the result of a complex history of successive constructions, destruction and reconstruction. Its origin dates back to the reign of Hammurabi and continues to this day with its inevitable and definitive destruction.\" The \"Tower,\" as discussed in ancient sources, refers to the monument as it appeared in the Neo-Babylonian period.\n[…]\nI burdened him with a soil-basket of gold and silver and bestowed him on my lord Marduk as a gift.I constructed the building, the replica of E-sarra, in joy and jubilation and raised its top as high as a mountain. For my lord Marduk I made it an object fitting for wonder, just as it was in former times.\n[…]\nIn 2003 scholars discovered in the Schøyen Collection the oldest known representation of the Etemenanki. Carved on a black stone, the \"Tower of Babel Stele\", as it is known, dates to 604–562 BCE, the time of Nebuchadnezzar II.\n[…]\nEven allowing variation in the design of a six-level terraced structure, at that height, the compression stress on the structure would be somewhere around two to three times as much as comparable structures of the same time period. Fenollós et al. propose that, assuming the structure did indeed use a six-level terrace design as depicted in the Tower of Babel stele, the ziggurat was probably closer to 54 meters tall.\n[…]\nIn the Portugal Pack of the video game Civilization VI, Etemenanki was introduced as one of the world wonders."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Etemenanqui",
+        "situacao": "ok",
+        "texto": "Etemenanqui (em sumério: 𒂍𒋼𒀭𒆠; romaniz.: É.TEMEN.AN.KI, Etemenanki; lit. \"templo da fundação do Céu e da Terra\") era o zigurate dedicado ao deus Marduque na cidade de Babilónia. Originalmente uma torre com sete andares, alegadamente com 91 metros de altura, atualmente apenas dele restam vestígios das suas fundações. É comum considerar-se que possivelmente inspirou a história bíblica da Torre de Ba\n[…]\nNão se conhece a época exata da construção original do Etemenanqui. Há uma teoria não provada que afirma que ele remonta ao 2.º milénio a.C.. Segundo o historiador Andrew R.\n[…]\nNuma inscrição real neobabilónica de Nabucodonosor II presente numa estela de Babilónia, alegadamente encontrada pelo arqueólogo Robert Koldewey em 1917 de autenticidade incerta Essa estela, conhecida como \"Estela da Torre de Babel\", foi partida em três pedaços na Antiguidade, dois dos quais fazem atualmente parte da coleção Schøyen, tem a representação mais antiga que se conhece do Etemenanqui e nela pode ler-se: «Etemenanqui Zikkurat Babibli [Zigurate de Babilónia] eu fiz, a maravilha do povo do mundo, levantei o seu cimo até ao céu, fiz portas para as entradas, e cobri-o com betume e tijolos.» O Etemenanqui é representado em baixo relevo, mostrando o seus altos primeiros andares com com lanços de escadas duplos, mais cinco andares em degrau e o templo que coroava a estrutura.\n[…]\nNa última torre há um grande santuário; e nele encontra-se um grande e bem guarnecido leito, com uma mesa de ouro a seu lado. Não há imagens no santuário e ninguém ali passa a noite, exceto uma mulher local, escolhida entre todas as mulheres pelo deus, como dizem os caldeus, que são sacerdotes desse deus.»\n[…]\nÉ provável que esta torre corresponda ao Etemenanqui. Acredita-se que \"Zeus Belo\" se refere ao deus acádio Bel, cujo nome foi helenizado por Heródoto para Zeus Belo. É provável que corresponda ao Etemenanqui.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Sargão da Acádia",
+      "descricao": "Rei mesopotâmico do século vinte e quatro antes de Cristo, fundador do Império Acádio."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A lenda de que foi posto num cesto de junco e lançado ao rio quando bebê aproxima Sargão da Acádia de que personagem bíblico?",
+    "resposta": "Moisés",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sargon_of_Akkad"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sargon_of_Akkad",
+        "situacao": "ok",
+        "texto": "Sargon of Akkad (; Akkadian: 𒊬𒊒𒄀, romanized: Šarrugi; died c. 2279 BC), also known as Sargon the Great, was the first ruler of the Akkadian Empire, known for his conquests of the Sumerian city-states in the 24th to 23rd centuries BC. He is sometimes identified as the first person in recorded history to rule over an empire.\n[…]\nSargon of Akkad is sometimes identified as the first person in recorded history to rule over an empire (in the sense of the central government of a multi-ethnic territory), although earlier Sumerian rulers such as Lugal-zage-si might have a similar claim.\n[…]\nSargon may indeed have introduced the notion of \"empire\" as understood in the later Assyrian period; the Neo-Assyrian Sargon Text, written in the first person, has Sargon challenging later rulers to \"govern the black-headed people\" (i.e. the indigenous population of Mesopotamia) as he did.\n[…]\nThe fanciful adventure film The Scorpion King: Rise of a Warrior (2008) imagines Sargon of Akkad as a murderous army commander wielding black magic. He is the film's main villain, portrayed by Randy Couture.\n[…]\nAmerican Rock Group They Might Be Giants refer to Sargon of Akkad in the track \"The Mesopotamians\" on their 2007 album The Else, along with Hammurabi, Ashurbanipal and Gilgamesh.\n[…]\nCarl Benjamin, British right-wing YouTuber and political commentator, goes by the online pseudonym \"Sargon of Akkad\" on his YouTube channel.\n[…]\nThe Return of Rome expansion pack for the video game Age of Empires II: Definitive Edition features a campaign called \"Sargon of Akkad\", which depicts his conquest of Sumer and the rise of the Akkadian Empire.\n[…]\nList of kings of Akkad\n[…]\nAlbright, W. F., \"A Babylonian Geographical Treatise on Sargon of Akkad's Empire\", Journal of the American Oriental Society, pp. 193–245, 1925\n[…]\nTexts attributed to Sargon of Akkad’s reign on CDLI"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sarg%C3%A3o_da_Ac%C3%A1dia",
+        "situacao": "ok",
+        "texto": "Sargão da Acádia, também conhecido como Sargão, o Grande (em acádio: 𒊬𒊒𒄀; romaniz.: Šarru-kinu; ŠAR.RU.KI.IN; LUGAL.GIN; lit. \"o verdadeiro rei\" ou \"o rei é legítimo\"), foi um rei acádio célebre por sua conquista das cidades-estado sumérias nos séculos XXIV a.C. e XXIII a.C. Fundador da dinastia acadiana Sargão reinou por 56 anos, de 2 270 a.C. a 2 215 a.C. (cronologia curta).\n[…]\nA imagem de Sargão como um indesejado sendo colocado para flutuar num rio lembra a narrativa mais conhecida do nascimento de Moisés. Estudiosos como Joseph Campbell e Otto Rank compararam o relato de Sargão, do século VII, com os nascimentos obscuros de outras figuras heroicas da história e da mitologia, como Buda, Édipo, Páris, Télefo, Semíramis, Perseu, Rômulo, Gilgamexe, Ciro, Jesus, e outros.\n[…]\nSargão foi visto como um modelo para os reis da Mesopotâmia por cerca de dois milênios depois de sua morte; os reis assírios e babilônios se viam como herdeiros do seu império. Reis como Nabonido (reinou de 556 a 539 a.C.) mostrou grande interesse na história da dinastia sargônida, e até mesmo chegou a realizar escavações dos palácios de Sargão e de seus sucessores.\n[…]\nHistórias do poder de Sargão e de seu império podem ter influenciado o corpo de textos do folclore local que foi posteriormente incorporado à Bíblia. Diversos acadêmicos especularam que Sargão pode ter sido a inspiração para a figura bíblica de Ninrode, que aparece no Gênesis, bem como na literatura midráshica e talmúdica. A Bíblia menciona Acádia como uma das primeiras cidades-estado do reino de Ninrode, porém não afirma de maneira explícita que ele a teria construído.\n[…]\nLenda neoassíria de Sargão - history-world.org\n[…]\nBlack, J.A., Cunningham, G., Fluckiger-Hawker, E, Robson, E., and Zólyomi, G., \"The Sargon legend: translation.\" The Electronic Text Corpus of Sumerian Literature, Oxford 1998. [2]\n[…]\nSargon - Lexicorient",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Nabucodonosor segundo",
+      "descricao": "Rei da Babilônia no século seis antes de Cristo, que conquistou Jerusalém."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que compositor italiano levou à ópera o rei babilônico Nabucodonosor, numa obra famosa pelo coro dos escravos hebreus?",
+    "resposta": "Giuseppe Verdi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nabucco"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nabucco",
+        "situacao": "ok",
+        "texto": "Nabucco (Italian pronunciation: [naˈbukko]; short for Nabucodonosor [naˌbukoˈdɔːnozor, -donoˈzɔr], i.e. \"Nebuchadnezzar\") is an Italian-language opera in four acts composed in 1841 by Giuseppe Verdi to an Italian libretto by Temistocle Solera. The libretto is based on the biblical books of 2 Kings, Jeremiah, Lamentations, and Daniel, and on the 1836 play by Auguste Anicet-Bourgeois and Francis Cor\n[…]\nNabucco is the opera that is considered to have permanently established Verdi's reputation as a composer. He commented that \"this is the opera with which my artistic career really begins. And though I had many difficulties to fight against, it is certain that Nabucco was born under a lucky star.\"\n[…]\nThe success of Verdi's first opera, Oberto, led Bartolomeo Merelli, La Scala's impresario, to offer Verdi a contract for three more works. After the failure of his second opera Un giorno di regno (completed in 1840 towards the end of a brutal two-year period during which both of his infant children and then his 26-year-old wife died), Verdi vowed never to compose again.\n[…]\nIn \"An Autobiographical Sketch\", written in 1879, Verdi tells the story of how he came to be twice persuaded by Merelli to change his mind and to write the opera.\n[…]\nPropulsive energetic rhythms are a notable feature of much of the music, contrasted with more lyrical moments, providing dramatic pace. Both the bass Zaccaria in his prayer \"Vieni o Levita\", a quiet piece with the unusual accompaniment of six cellos, and the baritone Nabucco in his mad scene and other passages, are given music of great expressiveness, providing outstanding opportunities for the singers, but the tenor role of Ismaele is comparatively minor, unusual for a Verdi opera.\n[…]\nLibretto to Nabucco (in Italian)\n[…]\nNabucodonosor Archived 7 August 2020 at the Wayback Machine, giuseppeverdi.it (in Italian)\n[…]\nRecording of the opera in the public-domain"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nabucco",
+        "situacao": "ok",
+        "texto": "Nabucco é uma ópera em quatro atos de Giuseppe Verdi, com libreto de Temistocle Solera, escrita em 1842. A ação da ópera conta a história do rei Nabucodonosor II da Babilônia. Foi escrita durante a época da ocupação austríaca no norte da Itália e, por meio da várias analogias, suscitou o sentimento nacionalista italiano.\n[…]\nO Coro dos Escravos Hebreus, no terceiro ato da ópera (Va, pensiero, sull'ali dorate, \"Vai, pensamento, sobre asas douradas\") tornou-se uma música-símbolo do nacionalismo italiano da época. Foi estreada, a 9 de março de 1842, no Teatro alla Scala de Milão.\n[…]\nNabucco, rei da Babilônia, avança sobre Jerusalém, onde sua filha Fenena foi feita refém.\n[…]\nPalácio de Nabucco, na Babilônia.\n[…]\nAbigail acha um pergaminho no qual é dito que ela é filha de escravos, e não de Nabucco. Jura vingança a ele e a Fenena (verdadeira filha de Nabucco). Entra o Sumo Sacerdote e avisa que Fenena mandou libertar os prisioneiros judeus, e que, devido à traição, Abigail será nomeada herdeira do trono, em vez de Fenena.\n[…]\nJardins Suspensos da Babilônia.\n[…]\nNabucco diz para Abigail que há um pergaminho dizendo que ela não é sua filha e sim uma escrava, mas ela já tem em mãos esse pergaminho e o rasga em pedaços. Nabucco chama os guardas, mas não é atendido. Sem saída, roga clemência a Abigail, que permanece irredutível.\n[…]\nEnquanto isso, os judeus permanecem descansando do trabalho escravo, diante das margens do Eufrates, e cantam relembrando sua pátria perdida (Jerusalém).\n[…]\nZacarias profetiza  que eles estarão livres do cativeiro em breve, e Javé vai destruir a cidade de Babilônia.\n[…]\nNabucco acaba com a escravidão dos judeus e anuncia que ele próprio agora é um deles. A estátua de Baal, o falso Deus é destruída e Abigail se envenena suicidando, implorando a Ismael que se una novamente a Fenena.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Estrada Real Persa",
+      "descricao": "Estrada construída no Império Aquemênida, ligando Susa a Sardes, percorrida por mensageiros a cavalo."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Uma frase de Heródoto sobre os mensageiros incansáveis da Estrada Real persa virou lema não oficial de que serviço dos Estados Unidos?",
+    "resposta": "Correio dos Estados Unidos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Royal_Road"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Royal_Road",
+        "situacao": "ok",
+        "texto": "The Royal Road was an ancient highway reorganized and rebuilt for trade in the 5th century BCE by the Achaemenid Empire. The road was built to facilitate rapid communication on the western part of the large empire from Susa to Sardis and was probably perfected under Darius I. Mounted couriers of the Angarium were supposed to travel 1,677 miles (2,699 km) from Susa to Sardis in nine days; the journ\n[…]\nThe course of this road has been reconstructed from the writings of Herodotus, archeological research, and other historical records.\n[…]\nStretches of the Royal Road across the central plateau of Iran, such as the Great Khorasan Road, are coincident with the major trade route known as the Silk Road.\n[…]\nEuclid is said to have replied to King Ptolemy's request for an easier way of learning mathematics that \"there is no Royal Road to geometry\", according to Proclus himself quoting Archimedes. The same sentence is also attributed to Menaechmus replying to Alexander the Great.\n[…]\nCharles Sanders Peirce, in his How to Make Our Ideas Clear (1878), says, \"There is no royal road to logic, and really valuable ideas can only be had at the price of close attention.\"\n[…]\nSigmund Freud famously described dreams as the \"royal road to the unconscious\" (\"Via regia zur Kenntnis des Unbewußten\").\n[…]\nKarl Marx wrote in the 1872 Preface to the French Edition of Das Kapital (Volume 1), \"There is no royal road to science, and only those who do not dread the fatiguing climb of its steep paths have a chance of gaining its luminous summits.\"\n[…]\nThe Royal Road to Romance (1925) is the first book by Richard Halliburton, covering his world travels as a young man from Andorra to Angkor.\n[…]\n\"The Persian Royal Road\". Livius: Articles on Ancient History. Retrieved March 6, 2021.\n[…]\n\"The Royal Road\". The History of Iran on Iran Chamber Society. Retrieved May 5, 2006.\n[…]\nMedia related to Royal Road at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Estrada_Real_Persa",
+        "situacao": "ok",
+        "texto": "A Estrada Real Persa foi uma antiga via construída pelo rei Dario I no século V. Dario construiu a estrada para proporcionar uma comunicação rápida por todo seu grande império, desde Susa até Sardes.\n[…]\nOs mensageiros poderiam percorrer 2.699 km em sete dias. Acerca destes mensageiros, o historiador grego Heródoto registrou: \"Não há nada no mundo que viaje mais rápidos que esses mensageiros persas\". E ainda: \"Nem a neve, nem a chuva, nem o calor e nem a escuridão da noite impedem que realizem a tarefa proposta a eles com a máxima velocidade\".\n[…]\nO traçado da estrada foi reconstruído a partir dos escritos de Heródoto, de outras fontes históricas e de pesquisa arqueológica. Iniciava-se no Oeste do Império, em Sardes (cerca de 60 milhas a Leste de Izmir na atual Turquia), em direção ao Leste através do atual meio-norte da Turquia até Nínive, a antiga capital Assíria (atual Moçul, no Iraque) onde então infletia para o Sul, até à Babilônia (atual Bagdá, no Iraque).\n[…]\nEntretanto, Dário I fez a Estrada Real como é conhecida hoje ao investir na estrutura da estrada e ao unir suas partes completamente, primeiramente como um modo rápido de comunicação usando os pirradaziš do reino, ou mensageiros.\n[…]\nÉ dito que Euclides respondeu ao rei Ptolomeu I à sua pergunta de como aprender matemática mais facilmente que: \"Não há estrada real para a geometria\".\n[…]\nEssa frase foi citada num contexto moderno no ensaio \"No Silver Bullet\", onde Fred Brooks contou sobre os avanços da engenharia de softwares: \"Não há estrada real, mas há uma estrada\".\n[…]\nhttp://www.livius.org/ro-rz/royal_road/royal_road.htm (em inglês)\n[…]\nhttp://www.iranchamber.com/history/achaemenids/royal_road.php (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Inscrição de Behistun",
+      "descricao": "Inscrição em rocha no oeste do Irã, mandada gravar por Dario primeiro em persa antigo, elamita e babilônico."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Gravada em três línguas a mando de Dario primeiro, a inscrição de Behistun ajudou a decifrar o cuneiforme, como que objeto fez com os hieróglifos?",
+    "resposta": "Pedra de Roseta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Behistun_Inscription"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Behistun_Inscription",
+        "situacao": "ok",
+        "texto": "The Behistun inscription (also Bisotun, Bisitun or Bisutun; Persian: بیستون, Old Persian: Bagastana, meaning \"the place of god\") is a multilingual  Achaemenid royal inscription and large rock relief on a cliff at Mount Behistun in the Kermanshah Province of Iran, near the city of Kermanshah in western Iran, established by Darius the Great (r. 522–486 BC).\n[…]\nIn 1835, Sir Henry Rawlinson, an officer of the British East India Company army assigned to the forces of the Shah of Iran, began studying the inscription in earnest. As the town of Bisotun's name was anglicized as \"Behistun\" at this time, the monument became known as the \"Behistun Inscription\". Despite its relative inaccessibility, Rawlinson was able to scale the cliff with the help of a local boy and copy the Old Persian inscription.\n[…]\nIn 2012, the Bisotun Cultural Heritage Center organized an international effort to re-examine the inscription.\n[…]\nBehistun palace\n[…]\n[3]Karaj, Iran, \"A New Reading of the 70th Paragraph of the Behistun Inscription\", Cuneiform Digital Library Bulletin 3, 2024\n[…]\nSaber Amiri Parian, A New Edition of the Elamite Version of the Behistun Inscription (I), Cuneiform Digital Library Bulletin 2017:003.\n[…]\nKing, L. W.; Thompson, R. Campbell (1907). The sculptures and inscription of Darius the Great on the Rock of Behistûn in Persia : a new collation of the Persian, Susian and Babylonian texts, with English translations, etc. British Museum.\n[…]\nThe Behistun Inscription Archived 2016-03-03 at the Wayback Machine, livius.org article by Jona Lendering, including Persian text (in cuneiform and transliteration), King and Thompson's English translation, and additional materials\n[…]\nTolman, Herbert Cushing (1908). The Behistan inscription of King Darius: translation and critical notes to the Persian text with special reference to recent re-examinations of the rock. Vanderbilt University."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Inscri%C3%A7%C3%A3o_de_Beistum",
+        "situacao": "ok",
+        "texto": "Beistum (Behistun), Bisitum (Bisitun) ou Bisutum (Bisutun; em persa: بیستون) é para a escrita cuneiforme o que a Pedra de Roseta é para os hieróglifos: o documento mais importante no deciframento de uma língua até então esquecida. Localiza-se na província de Quermanxá, no Irã, no monte Beistum.\n[…]\nO texto é uma declaração do rei Dario I, e inclui três versões do mesmo texto, escrito em três línguas e alfabetos diferentes: Persa antigo, Elamita e acadiano. Um oficial do exército britânico, Sir Henry Rawlinson, transcreveu a inscrição em duas vezes, em 1835 e 1843. Rawlinson foi capaz de traduzir o texto cuneiforme em Persa antigo em 1838, e os textos em Elamita e Babilônio foram traduzidos pelo mesmo Rawlinson e outros depois de 1843.\n[…]\nApós a queda do Império Aquemênida e de seus sucessores, e o desaparecimento da escrita cuneiforme, o significado da inscrição foi esquecido e interpretações e origens fantasiosas tornaram-se a norma. Durante séculos, em vez de ser atribuída a Dario — um dos primeiros reis persas — acreditou-se ser do reinado de Cosroes II (r. 590–628). Uma lenda surgiu afirmando que havia sido criada por Farade, um amante da mulher de Cosroes, Sirém.\n[…]\nRawlinson pôs-se novamente ao trabalho e traduziu a escrita e a língua babilônia independentemente de Edward Hincks, Julius Oppert e William Henry Fox Talbot, que também contribuíram na decifração; Edwin Norris e outros foram os primeiros a fazer o mesmo para o elamita. Sendo três das línguas primárias da Mesopotâmia, e três variações da escrita cuneiforme, estas decifrações foram uma das chaves para colocar a Assiriologia na era moderna.\n[…]\n«Case Western Reserve University Digital Library». — o texto completo da inscrição de Beistum, em cuneiforme transcrito e tradução em inglês, disponível em formato PDF",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Pasárgada",
+      "descricao": "Antiga capital persa fundada por Ciro, o Grande, na província de Fars, no Irã."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Pasárgada, capital persa de Ciro, o Grande, inspirou que poeta brasileiro a escrever que iria embora para lá?",
+    "resposta": "Manuel Bandeira",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Manuel_Bandeira",
+      "https://en.wikipedia.org/wiki/Pasargadae"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manuel_Bandeira",
+        "situacao": "ok",
+        "texto": "Manuel Carneiro de Sousa Bandeira Filho (Recife, 19 de abril de 1886 – Rio de Janeiro, 13 de outubro de 1968) foi um poeta, crítico literário e de arte, professor e tradutor brasileiro, considerado um dos maiores expoentes da poesia brasileira e uma figura-chave do modernismo no Brasil.\n[…]\nEm 1935, foi nomeado inspetor federal do ensino. Em 1936 foi publicada a \"Homenagem a Manuel Bandeira\", coletânea de estudos sobre sua obra, assinada por alguns dos maiores críticos da época, alcançando assim a consagração pública. De 1938 a 1943, foi professor de literatura no Colégio Pedro II. Em 1940 foi eleito membro da Academia Brasileira de Letras.\n[…]\nManuel Bandeira faleceu no dia 13 de outubro de 1968, com hemorragia gástrica, aos 82 anos de idade, no Rio de Janeiro, e foi sepultado no túmulo 15 do mausoléu da Academia Brasileira de Letras, no Cemitério São João Batista.\n[…]\nLançando mão do tropo português da \"saudade\", poemas como Vou-me embora pra Pasárgada e tantos outros encontram um símile na nostálgica rememoração bandeiriana da infância, da vida de rua, do mundo cotidiano das provincianas cidades brasileiras do início do século. O inapreensível é também o feminino e o erótico. Dividido entre uma idealidade simpática às uniões diáfanas e platônicas e uma carnalidade voluptuosa, Manuel Bandeira é, em muitos de seus poemas, um poeta da culpa.\n[…]\nCD Manuel Bandeira: O Poeta de Botafogo - Gravações inéditas feitas pelo poeta e por Lauro Moreira, tendo como fundo musical peças de Camargo Guarnieri, interpretadas pela pianista Belkiss Carneiro Mendonça, 2005.\n[…]\n«Poemas de Manuel Bandeira»\n[…]\n«Academia Brasileira de Letras - Biografia de Manuel Bandeira»\n[…]\n«Enciclopédia Itaú Cultural - Biografia de Manuel Bandeira»\n[…]\n«Artigo sobre a história de vida de Manuel Bandeira»"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pasargadae",
+        "situacao": "ok",
+        "texto": "Pasargadae (; from Pāθra-gadā, lit. 'protective club'  or 'strong club'; Persian: پاسارگاد, romanized: Pāsārgād) was the capital of the Achaemenid Empire under Cyrus the Great (559–530 BC), located just north of the town of Madar-e-Soleyman and about 90 kilometres (56 mi) to the northeast of the city of Shiraz. It is one of Iran's UNESCO World Heritage Sites. It is considered to be the location of\n[…]\nThe first capital of the Achaemenid Empire, Pasargadae lies in ruins 40 kilometers from Persepolis, in present-day Fars province of Iran. Gardens were of great significance in Persian culture, and the palace complex was constituted by an extensive pattern of gardens stretching from the Tomb of Cyrus to a fortress known as the Tall-i Takht, about three kilometres away, and containing various palaces and other buildings.\n[…]\nIn 1930, the Brazilian poet Manuel Bandeira published a poem called \"Vou-me embora pra Pasárgada\" (\"I'm off to Pasargadae\" in Portuguese), in a book entitled Libertinagem. It tells the story of a man who wants to go to Pasargadae, described in the poem as a utopian city, having the children learned in the school about this \"utopic city created by Manuel Bandeira\". Manuel Bandeira heard the name Pasargadae for the first time when he was 16 years old, reading a book by a Greek author.\n[…]\nThe name of the field of the Persians reminded him of good things, of a place of tranquillity and beauties. Years later, in his apartment, during a moment of sadness and anxiety, he had the idea of \"vou-me embora pra Pasárgada\" (I'm off to Pasargadae) and then created the poem, which surrounds the great part of the Brazilian population's imagination to this day.\n[…]\n\"Pasargad\", Land of Aryan, ATSpace.\n[…]\nPasargad (virtual reconstruction of Pasargadae), Persepolis3D.\n[…]\nPasargadae – Livius\n[…]\nPasargadae, Cultural Heritage Organization of Iran, archived from the original on 2011-10-20"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Bhagavad Gita",
+      "descricao": "Texto sagrado hindu em forma de diálogo entre Krishna e Arjuna, parte do Mahabharata."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Ao ver o primeiro teste da bomba atômica, que físico americano lembrou um verso do Bhagavad Gita: agora me tornei a morte?",
+    "resposta": "J. Robert Oppenheimer",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer",
+      "https://en.wikipedia.org/wiki/Bhagavad_Gita"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/J._Robert_Oppenheimer",
+        "situacao": "ok",
+        "texto": "J. Robert Oppenheimer (born Julius Robert Oppenheimer  ; April 22, 1904 – February 18, 1967) was an American theoretical physicist who served as the director of the Manhattan Project's Los Alamos Laboratory during World War II. He is often called the \"Father of the Atomic Bomb\" for his role in overseeing the development of the first nuclear weapons.\n[…]\nThe question of scientists' responsibility toward humanity inspired Bertolt Brecht's drama Life of Galileo (1955), left its imprint on Friedrich Dürrenmatt's The Physicists, and is the basis of John Adams's 2005 opera Doctor Atomic, which was commissioned to portray Oppenheimer as a modern-day Faust. Heinar Kipphardt's play In the Matter of J. Robert Oppenheimer, after appearing on West German television, had its theatrical release in Berlin and Munich in October 1964.\n[…]\nBorgwardt, Elizabeth (2008). \"Site-specific: The Fractured Humanity of J. Robert Oppenheimer\". Modern Intellectual History. 5 (3): 547–571. doi:10.1017/S1479244308001790. ISSN 1479-2443. S2CID 154948158.\n[…]\nConant, Jennet (2006). 109 East Palace: Robert Oppenheimer and the Secret City of Los Alamos. Simon & Schuster. ISBN 978-0-7432-5007-8. OCLC 57475908.\n[…]\nGoodchild, Peter (1980). J. Robert Oppenheimer: Shatterer of Worlds. Boston: Houghton Mifflin. ISBN 978-0-395-30530-0.\n[…]\nJ. Robert Oppenheimer – Berkeley Historical Plaque Project\n[…]\nJ. Robert Oppenheimer at the Atomic Heritage Foundation\n[…]\nJ. Robert Oppenheimer: An Unparalleled Legacy at the Los Alamos National Laboratory\n[…]\nFBI files: J. Robert Oppenheimer at the Federal Bureau of Investigation\n[…]\nThe Reith Lectures: Robert Oppenheimer – Science and the Common Understanding, on BBC Radio 4, 1953\n[…]\nLecture by Dr. Robert Oppenheimer: Freedom and Necessity in the Sciences at Dartmouth College, 1959\n[…]\nLecture by Dr. Oppenheimer at the University of Michigan, 1962\n[…]\nJ. Robert Oppenheimer at IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bhagavad_Gita",
+        "situacao": "ok",
+        "texto": "The Bhagavad Gita (; Sanskrit: भगवद्गीता, IPA: [ˌbʱɐɡɐʋɐd ˈɡiːtaː], romanized: bhagavad-gītā, lit. 'God's song'), often referred to as the Gita (IAST: Gītā), is a Hindu scripture, likely composed in the second or first century BCE, which forms part of the epic poem Mahabharata. The Bhagavad Gita is a synthesis of various strands of Indian religious thought, including the Vedic concept of dharma (d\n[…]\nAccording to Gambhirananda, the old manuscripts may have had 745 verses, though he agrees that \"700 verses is the generally accepted historic standard.\" Gambhirananda's view is supported by a few versions of chapter 6.43 of the Mahabharata. According to Gita exegesis scholar Robert Minor, these versions state that the Gita is a text where \"Kesava [Krishna] spoke 574 slokas, Arjuna 84, Sanjaya 41, and Dhritarashtra 1\". An authentic manuscript of the Gita with 745 verses has not been found.\n[…]\nRobert Oppenheimer in a 1965 television documentary about the atomic bomb.\n[…]\nAcademic commentaries include those by Jeaneane Fowler, Ithamar Theodor, and Robert Zaehner.\n[…]\nAccording to the exegesis scholar Robert Minor, the Gita is \"probably the most translated of any Asian text\", but many modern versions heavily reflect the views of the organization or person who does the translating and distribution. In Minor's view, the Harvard scholar Franklin Edgerton's English translation and Richard Garbe's German translation are closer to the text than many others.\n[…]\nThe 1995 novel by Steven Pressfield, and its adaptation as the 2000 golf movie The Legend of Bagger Vance by Robert Redford has parallels to the Bhagavad Gita, according to Steven J. Rosen. Steven Pressfield acknowledges that the Gita was his inspiration, the golfer character in his novel is Arjuna, and the caddie is Krishna, states Rosen. The movie, however, uses the plot but glosses over the teachings unlike in the novel."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Robert_Oppenheimer",
+        "situacao": "ok",
+        "texto": "Julius Robert Oppenheimer (Nova Iorque, 22 de abril de 1904 – Princeton, 18 de fevereiro de 1967) foi um físico teórico americano e diretor do Laboratório Nacional Los Alamos durante a Segunda Guerra Mundial. Geralmente é creditado como o \"pai da bomba atômica\", por seu papel no Projeto Manhattan, o empreendimento de pesquisa e desenvolvimento que criou as primeiras armas nucleares.\n[…]\nNo final da década de 1930, Oppenheimer se interessou por astrofísica, provavelmente por sua amizade com Richard Tolman, e publicou uma série de artigos. No primeiro deles, On the Stability of Stellar Neutron Cores (\"Sobre a Estabilidade dos Núcleos de Nêutron Estelares\") (1938), escrito em colaboração com Robert Serber, Oppenheimer explorou as propriedades das anãs brancas.\n[…]\nO estopim da audiência de segurança ocorreu em 7 de novembro de 1953, quando William Liscum Borden, que até o início do ano havia sido diretor executivo do Comitê Conjunto de Energia Atômica do Congresso dos Estados Unidos, enviou uma carta a Hoover dizendo que \"mais provavelmente do que não, J. Robert Oppenheimer é um agente da União Soviética\".\n[…]\nA questão da responsabilidade dos cientistas com a humanidade inspirou o drama A Vida de Galileu (1955) de Bertolt Brecht, deixou sua marca na peça Os Físicos de Friedrich Dürrenmatt e é a base da ópera Doctor Atomic (2005) de John Adams, que foi encomendada para retratar Oppenheimer como um Fausto moderno. A peça In the Matter of J. Robert Oppenheimer de Heinar Kipphardt, após sua exibição na televisão da Alemanha Ocidental, teve seu lançamento teatral em Berlim e Munique, em outubro de 1964.\n[…]\nJ. Robert Oppenheimer– Atomic Heritage Foundation\n[…]\nThe Reith Lectures: Robert Oppenheimer – Science and the Common Understanding, on BBC Radio 4, 1953\n[…]\nLecture by Dr. Robert Oppenheimer: Freedom and Necessity in the Sciences– Dartmouth College, 1959\n[…]\nRobert Oppenheimer no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Yin-yang",
+      "descricao": "Conceito da filosofia chinesa antiga sobre forças opostas e complementares, representado por um círculo dividido."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que país asiático estampa no centro da bandeira o símbolo do yin e yang, em vermelho e azul?",
+    "resposta": "Coreia do Sul",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Flag_of_South_Korea"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Flag_of_South_Korea",
+        "situacao": "ok",
+        "texto": "The national flag of the Republic of Korea (South Korea), also known as the Taegeukgi (Korean: 태극기; Hanja: 太極旗), consists of three components: a white rectangular background, a red and blue taegeuk in its center, accompanied by four black trigrams, one in each corner. The predecessors to the current Taegeukgi were used as the national flag of Korea by the Joseon dynasty, the Korean Empire, as well\n[…]\nThe northern portion of Korea also used the taegukgi even during the partition of Korea in 1945. It was used until the new design was adopted in July 1948.\n[…]\nThe circle in the flag's center symbolizes harmony in the world. Derived from the Chinese I Ching and Taiji (philosophy), known in the west as the Yin and Yang, the blue half represents negative energy (Yin), and the red half represents the positive energy (Yang).\n[…]\nThe name of the South Korean flag is used in the title of a 2004 film about the Korean War, Taegukgi.\n[…]\nA Taegukgi with the word 不遠復 appeared in a 2011 film My Way.\n[…]\nA Taegukgi with the word 大韓獨立 appeared in a stage musical Hero.\n[…]\nThe colors of the taegukgi are specified in the Ordinance Act of the Law concerning the National Flag of the Republic of Korea (Korean: 대한민국 국기법 시행령). The color scheme was unspecified until 1997, when the South Korean government decided to standardize specifications for the flag. On 25 October 1997, a Presidential ordinance on the standard specification of the South Korean flag was promulgated, and that specification was acceded by the National Flag Law in July 2007.\n[…]\nThe days required to display taegukgi are defined by the National Flag Law of the Republic of Korea (대한민국국기법) as follows:\n[…]\nApart from these days, the Government of South Korea and local authorities in South Korea also call for the display of taegukgi in other days under special conditions."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bandeira_da_Coreia_do_Sul",
+        "situacao": "ok",
+        "texto": "A bandeira da Coreia do Sul apresenta no seu centro um círculo dividido em vermelho vivo (em cima) e azul (em baixo) num campo em branco.\n[…]\nTanto o círculo como os quatro desenhos em preto nos cantos são ricos em simbolismo.\n[…]\nRepresentado na bandeira vê-se um círculo dividido em partes iguais e delineado em perfeito equilíbrio, representando o Absoluto, ou a unidade essencial de todo um ser.\n[…]\nAs divisões representam na parte superior (vermelho) o \"yang\" e a inferior (azul) o \"yin\" antigo símbolo do universo originário da China.\n[…]\nNa extremidade inferior esquerda da bandeira, há duas linhas inteiras com uma partida no meio. Isso simboliza o fogo;\n[…]\nNo extremo superior direito está o símbolo da água.\n[…]\nMedia relacionados com Bandeira da Coreia do Sul no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Petra",
+      "descricao": "Cidade dos nabateus, escavada na rocha, no sul da Jordânia."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que filme de 1989, com Harrison Ford, usou a fachada do Tesouro de Petra como entrada do templo do Santo Graal?",
+    "resposta": "Indiana Jones e a Última Cruzada",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Al-Khazneh",
+      "https://en.wikipedia.org/wiki/Petra"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Al-Khazneh",
+        "situacao": "ok",
+        "texto": "Al-Khazneh (Arabic: الخزنة; IPA: [al.xaz.na], \"The Treasury\"), also known as Khaznat el-Far'oun (treasury of the pharaoh), is one of the most elaborate rock-cut tombs in Petra, a city of the Nabatean Kingdom inhabited by the Arabs in ancient times. As with most of the other buildings in this ancient town, including the Monastery (Arabic: Ad Deir), this structure was carved out of a sandstone rock \n[…]\nIn 1812, the city of Petra and Al-Khazneh were noted by Swiss explorer Burckhardt. As Western Europe continued to explore the Middle East, tourism became more common, and by the 1920s, a small hotel had opened near Petra. While Petra was not as popular as larger, more central cities, like Cairo, tourism started changing the economy and social structure of the nearby Bedouin people.\n[…]\nTourism is now a significant source of income in Jordan, comprising around 20% of the GDP. Hotels, souvenir shops, restaurants, and horse rental services are all found within a few-mile radius of Petra itself. While the economic effects have been largely positive, the site faces threats from increased tourism.\n[…]\nThe Treasury has appeared in many Hollywood films, gaining particular fame after being featured in climactic scenes in the 1989 film Indiana Jones and the Last Crusade, in which its façade is represented as the entrance to the final resting place of the Holy Grail. The interior scenes of the temple were filmed at Elstree Studios in England.\n[…]\nPBS's Nova specials Lost City of Stone and Ancient Megastructures: Petra, television series from PBS and National Geographic, were dedicated to the Khazneh, and the theories of Nabatean construction techniques and engineering.\n[…]\n\"Solving the Enigma of Petra and the Nabataeans\"—Biblical Archaeology Review"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Petra",
+        "situacao": "ok",
+        "texto": "Petra (Arabic: ٱلْبَتْراء, romanized: al-Batrāʾ; Ancient Greek: Πέτρα, lit. 'Rock'), originally known to its inhabitants as Raqmu (Nabataean Aramaic: 𐢛𐢚𐢒‎ or 𐢛𐢚𐢓𐢈‎, *Raqēmō), is an ancient city and archaeological site in southern Jordan. Famous for its rock-cut architecture and water conduit systems, Petra is also called the \"Rose City\" because of the colour of the sandstone from which it is carve\n[…]\nIn an attempt to reduce the problems, the Petra National Trust (PNT) was established in 1989. It has worked with numerous local and international organisations on projects that promote the protection, conservation, and preservation of the Petra site. Moreover, UNESCO and ICOMOS recently collaborated to publish their first book on human and natural threats to the sensitive World Heritage sites. They chose Petra as its first and the most important example of threatened landscapes.\n[…]\nThe site appeared in films such as Indiana Jones and the Last Crusade, Arabian Nights, Passion in the Desert, Mortal Kombat Annihilation, Sinbad and the Eye of the Tiger, The Mummy Returns, Krrish 3, Transformers: Revenge of the Fallen, Samsara and Kajraare.\n[…]\n\"The Zamani Project, Petra, Jordan (مشروع زماني، البترا) - MaDiH (مديح)\". maDIH. Archived from the original on 2020-07-12. Retrieved 2020-07-09.\n[…]\nUniversity of Arkansas Petra Project. Retrieved 27 March 2017\n[…]\nOpen Context, \"Petra Great Temple Excavations (Archaeological Data)\", Open Context publication of archaeological data from the 1993–2006\n[…]\nPetra History and Photo Gallery, history with maps. Retrieved 27 March 2017[link removed]\n[…]\nParker, S., R. Talbert, T. Elliott, S. Gillies, S. Gillies, J. Becker. \"Places: 697725 (Petra)\", Pleiades. Retrieved 27 March 2017\n[…]\nSpecial Issue on Petra and Nabatean Culture, Jordan Journal for History and Archaeology, 2020 Archived 2022-12-02 at the Wayback Machine\n[…]\nPhotos of Petra at the American Center of Research"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Al_Khazneh",
+        "situacao": "ok",
+        "texto": "Al Khazneh (\"O tesouro\"; em árabe: الخزنة) é uma das inúmeras construções Romanas de templos na antiga Jordânia na cidade de Petra, uma tumba escavada na face do penhasco e que recebeu uma fachada helenística com pilares.\n[…]\nAl Khazneh foi originalmente construído pelos Romanos como um mausoléu e cripta no início do primeiro século, durante o reinado de Aretas IV, provavelmente como seu próprio mausoléu. Existe uma urna escavada acima da entrada que de acordo com a lenda dos beduínos, contém o tesouro de um faraó.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Papel",
+      "descricao": "Material de escrita feito de fibras vegetais, desenvolvido na China da dinastia Han."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na China da dinastia Han, por volta do ano cento e cinco, que funcionário da corte é tradicionalmente apontado como inventor do papel?",
+    "resposta": "Cai Lun",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cai_Lun"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cai_Lun",
+        "situacao": "ok",
+        "texto": "Cai Lun (Chinese: 蔡伦; courtesy name: Jingzhong (敬仲); c. 50–62 – 121 CE), formerly romanized as Ts'ai Lun, was a Chinese eunuch court official of the Eastern Han dynasty. He occupies a pivotal place in the history of paper due to his addition of pulp via tree bark and hemp ends which resulted in the large-scale manufacture and worldwide spread of paper.\n[…]\nCai's improvements to paper-making are considered to have had an enormous impact on human history, and of those who created China's Four Great Inventions—the compass, gunpowder, papermaking and printing—Cai is the only early figure whose name is known. Although in China he is revered in ancestor worship, deified as the god of papermaking, and appears in Chinese folklore, he is mostly unknown outside of East Asia. His hometown in Leiyang remains an active center of paper production.\n[…]\nAdditionally, Cai is responsible for the earliest known use of tree bark and hemp as ingredients for paper, and it is clear that paper did not see widespread use in China until Cai's improvements. As such, scholars have revised his contributions as ones that furthered an ongoing process instead of a sudden discovery. However, due to the pivotal significance of his improvements and the resulting spread of paper use throughout China, Cai continues to be traditionally credited with inventing paper.\n[…]\nOf those who originated China's Four Great Inventions of the ancient world—the compass, gunpowder, papermaking and printing—the only early figure known is one of papermaking, Cai Lun. Additionally, in comparison to other Chinese inventions such as the writing brush and ink, the development of paper is the best documented in literary sources."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cai_Lun",
+        "situacao": "ok",
+        "texto": "Cai Lun foi um alto funcionário da corte imperial, na dinastia Han, que inventou o papel a partir de casca de amoreira e fibra de bambu, no ano 105.\n[…]\nNa China é tradicionalmente considerado o inventor do papel, pois sob sua administração foi aperfeiçoada a técnica de fabricação do material utilizado para a escrita de documentos, que passou a ter propriedades semelhantes às do papel atual, bem diferentes do papiro e do pergaminho usados ​​antigamente.\n[…]\nEmbora as primeiras formas de papel existissem na China a partir do século II a.C., ele foi responsável pela primeira melhoria e padronização significativa da fabricação de papel, adicionando novos materiais essenciais à sua composição. Segundo as crônicas históricas chinesas, a invenção do papel teria ocorrido no ano 105 d.C.\n[…]\nConsidera-se que as melhorias de Cai na fabricação de papel tiveram um enorme impacto na história humana, e daqueles que criaram as Quatro Grandes Invenções da China - a bússola, a pólvora, a fabricação de papel e a impressão - Cai é o único inventor cujo nome é conhecido. Embora na China ele seja reverenciado no culto aos ancestrais, deificado como o deus da fabricação de papel e apareça no folclore chinês, ele é praticamente desconhecido fora do leste da Ásia.\n[…]\nSua cidade natal em Leiyang continua sendo um centro ativo de produção de papel.==Referências==",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Zero",
+      "descricao": "Número que representa a ausência de quantidade, tratado como número pelos matemáticos da Índia antiga."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "No século sete, que matemático indiano escreveu regras para somar, subtrair e multiplicar usando o zero?",
+    "resposta": "Brahmagupta",
+    "distratores": [
+      "Aryabhata",
+      "Varahamihira",
+      "Panini"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brahmagupta",
+      "https://en.wikipedia.org/wiki/0"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+        "situacao": "ok",
+        "texto": "Brahmagupta  (c. 598 – c. 668 CE) was an Indian mathematician and astronomer who is credited as the first person to understand and formalize the concept of the number zero for nothing in mathematics. He is the author of two early works on mathematics and astronomy: the Brāhmasphuṭasiddhānta (BSS, \"correctly established doctrine of Brahma\", dated 628), a theoretical treatise, and the Khandakhadyaka\n[…]\nThe four fundamental operations (addition, subtraction, multiplication, and division) were known to many cultures before Brahmagupta. This current system is based on the Hindu–Arabic numeral system and first appeared in the Brāhmasphuṭasiddhānta. Brahmagupta describes multiplication in the following way:\n[…]\nIndian arithmetic was known in medieval Europe as modus Indorum meaning \"method of the Indians\". In the Brāhmasphuṭasiddhānta, four methods for multiplication were described, including gomūtrikā, which is said to be close to the present-day methods. In the beginning of chapter twelve of his Brāhmasphuṭasiddhānta, entitled \"Calculation\", he also details operations on fractions.\n[…]\nHere Brahmagupta states that ⁠0/0⁠ = 0 and as for the question of ⁠a/0⁠ where a ≠ 0 he did not commit himself. His rules for arithmetic on negative numbers and zero are quite close to the modern understanding, except that in modern mathematics division by zero is left undefined.\n[…]\nBrahmagupta continues,\n[…]\nBrahmagupta–Fibonacci identity\n[…]\nBrahmagupta's formula\n[…]\nBrahmagupta theorem\n[…]\nBrahmagupta triangle\n[…]\nBhattacharyya, R. K. (2011), \"Brahmagupta: The Ancient Indian Mathematician\", in B. S. Yadav; Man Mohan (eds.), Ancient Indian Leaps into Mathematics, Springer Science & Business Media, pp. 185–192, ISBN 978-0-8176-4695-0\n[…]\nBrahmagupta's Brahma-sphuta-siddhanta edited by Ram Swarup Sharma, Indian Institute of Astronomical and Sanskrit Research, 1966. English introduction, Sanskrit text, Sanskrit and Hindi commentaries (PDF)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/0",
+        "situacao": "ok",
+        "texto": "0 (zero, ) is a number representing an empty quantity. Adding (or subtracting) 0 to any number leaves that number unchanged; in mathematical terminology, 0 is the additive identity of the integers, rational numbers, real numbers, and complex numbers, as well as other algebraic structures. Multiplying any number by 0 results in 0, and consequently dividing by 0 is generally considered to be undefin\n[…]\nThe number 0 is the smallest nonnegative integer, and the largest nonpositive integer. The natural number following 0 is 1 and no natural number precedes 0. The number 0 may or may not be considered a natural number, but it is an integer, and hence a rational number and a real number. Zero is even (that is, a multiple of 2), and is also an integer multiple of any other integer. It is neither a prime number nor a composite number.\n[…]\nSubtraction: x − 0 = x and 0 − x = −x.\n[…]\nThe role of 0 as additive identity generalizes beyond elementary algebra. In abstract algebra, 0 is commonly used to denote a zero element, which is the identity element for addition (if defined on the structure under consideration) and an absorbing element for multiplication (if defined). Examples include identity elements of additive groups and vector spaces. Another example is the zero function (or zero map) on a domain D.\n[…]\nThe rods gave the decimal representation of a number, with an empty space denoting zero. A circa 190 AD, manual, the \"Supplementary Notes on the Art of Figures\", by Xu Yue, also outlines the techniques to add, subtract, multiply, and divide numbers, containing zero values in a decimal power, on counting devices, that include counting rods, and abacus.\n[…]\nRules governing the use of zero appeared in Brahmagupta's Brahmasputha Siddhanta (7th century), which states the sum of zero with itself as zero, and incorrectly describes division by zero in the following way:\n[…]\n\"Zero\". Encyclopedia Americana. 1920."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brahmagupta",
+        "situacao": "ok",
+        "texto": "Brahmagupta (c. 598 – após 665) foi um matemático e astrônomo indiano. É autor de uma das primeiras exposições conhecidas do zero como número e de regras para calcular com ele e com números negativos. Escreveu duas obras antigas sobre matemática e astronomia: o Brāhmasphuṭasiddhānta (BSS, \"doutrina de Brahma corretamente estabelecida\"), tratado teórico datado de 628, e o Khandakhadyaka (\"porção co\n[…]\n0\n[…]\nNa escrita algébrica de Brahmagupta, como na de Diofanto, números postos lado a lado indicavam uma soma. Um ponto acima do subtraendo indicava subtração, e o divisor colocado abaixo do dividendo indicava divisão, ainda sem uma barra de fração. Palavras abreviadas serviam para multiplicação, extração de raízes e incógnitas. Não se sabe se a escrita indiana recebeu alguma influência grega. É possível que as duas formas de abreviação tenham vindo de uma fonte babilônica comum.\n[…]\nAo expor adição, subtração, multiplicação e divisão, Brahmagupta usava métodos baseados no sistema de numeração decimal de origem indiana. Essas operações já eram praticadas por muitos povos antes dele. Para explicar uma maneira de multiplicar, ele compara o número a ser multiplicado a uma corda repetida conforme as partes do multiplicador:\n[…]\nEmbora o zero já servisse como marcador de posição na escrita de números, entre os babilônios e no manuscrito de Bakhshali, o Brāhmasphuṭasiddhānta dá regras para calcular com ele como um número por si só e também com números negativos. Brahmagupta compara quantidades positivas a bens e quantidades negativas a dívidas ao enunciar, no capítulo 18, as regras de adição e subtração:\n[…]\nBrahmagupta toma\n[…]\n0\n[…]\n0\n[…]\n0\n[…]\n0\n[…]\n0\n[…]\n0\n[…]\n0\n[…]\n0\n[…]\nBhattacharyya, R. K. (2011). «Brahmagupta: The Ancient Indian Mathematician». In:  B. S. Yadav e Man Mohan. Ancient Indian Leaps into Mathematics. [S.l.]: Springer Science & Business Media. pp. 185–192. ISBN 978-0-8176-4695-0. Cópia arquivada em 2 de fevereiro de 2026",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "O Conto de Genji",
+      "descricao": "Obra clássica da literatura japonesa escrita por volta do ano mil, na corte do período Heian."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Por volta do ano mil, que dama da corte imperial japonesa escreveu O Conto de Genji?",
+    "resposta": "Murasaki Shikibu",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Tale_of_Genji"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Tale_of_Genji",
+        "situacao": "ok",
+        "texto": "The Tale of Genji (源氏物語, Genji Monogatari) is a classic work of Japanese literature said to have been written by the noblewoman, poet, and lady-in-waiting Murasaki Shikibu around the peak of the Heian period, in the early 11th century. It is the first novel written by a woman to have won global recognition. In Japan, The Tale of Genji has a stature similar to that of Shakespeare's works in English\n[…]\nMurasaki is said to have written the character of Genji based on the Minister on the Left at the time she was at court. Other translators, such as Tyler, believe the character Murasaki no Ue, whom Genji marries, is based on Murasaki Shikibu herself.\n[…]\nEdward Seidensticker, who made the second translation of the Genji, believed that Murasaki Shikibu had not had a planned story structure with an ending as such but would simply have continued writing as long as she could.\n[…]\nHerberth E. Herlitschka: Die Geschichte vom Prinzen Genji, wie sie geschrieben wurde um das Jahr Eintausend unserer Zeitrechnung von Murasaki, genannt Shikibu, Hofdame der Kaiserin von Japan. 2 volumes. Insel-Verlag, Leipzig 1937. (numerous new editions). Translated from Waley.\n[…]\nBowring, Richard John (1988). Murasaki shikibu, The Tale of Genji. Cambridge; New York: Cambridge University Press.\n[…]\nHenitiuk, Valerie (2008). \"Going to Bed with Waley: How Murasaki Shikibu Does and Does Not Become World Literature\". Comparative Literature Studies. 45 (1): 40–61. doi:10.1353/cls.0.0010. JSTOR 25659632. S2CID 161786027.\n[…]\nKamens, Edward B (1993). Approaches to Teaching Murasaki Shikibu's The Tale of Genji. New York: Modern Language Association of America.\n[…]\nKnapp, Bettina L (Spring 1992). \"Lady Murasaki Shikibu's the Tale of Genji: Search for the Mother\". Symposium. 46 (1): 34–48. doi:10.1080/00397709.1992.10733759.\n[…]\nPuette, William J (1983). Guide to the Tale of Genji by Murasaki Shikibu. Rutland, VT: C.E. Tuttle. ISBN 9780804814546."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Genji_Monogatari",
+        "situacao": "ok",
+        "texto": "Genji Monogatari (源氏物語, lit. O Conto de Genji) é um livro de literatura clássica japonesa escrito durante o Período Heian da história do Japão. Com um total de 54 capítulos, a obra foi finalizada em 1008 e posteriormente ilustrada no emakimono \"O Conto de Genji Emaki\", no final do período Heian. O Conto de Genji é atribuído à poetisa e dama de companhia da corte Murasaki Shikibu. É considerado o p\n[…]\nO debate sobre quanto do Genji foi realmente escrito por Murasaki Shikibu já dura séculos e é provável que jamais será resolvido, a menos que alguma grande descoberta arquivística seja feita. É geralmente aceito que o conto foi concluído em sua forma atual de 1021, quando a autora do Sarashina Nikki escreveu um diário famoso sobre sua alegria em adquirir uma cópia completa do conto.\n[…]\nFala-se que Murasaki escreveu sobre o personagem Genji baseado no Ministro da Esquerda na época em que ela estava na corte. Outros tradutores, como Tyler, mencionam o fato de que o personagem Murasaki no ue, que Genji, posteriormente, lhe faz sua esposa é baseado na própria Murasaki Shikibu. Curiosamente Murasaki Shikibu começou a escrever o romance a partir do Suma-capítulo 12 e Akashi-capítulo 13, antes de ela escrever o resto do livro.\n[…]\nEdward Seidensticker, que fez a segunda tradução do Genji, acredita que ele não foi terminado, e que Murasaki Shikibu não tinha uma estrutura planejada da história com um \"final\" e simplesmente foi escrevendo enquanto podia.\n[…]\nA ascensão e queda de Genji\n[…]\n5 Waka murasaki   (若紫, わかむらさき)\n[…]\nBowring, Richard John (1988). Murasaki shikibu, The Tale of Genji (em inglês). Cambridge, Nova Iorque: Cambridge University Press\n[…]\nThe Tale of Genji de Murasaki Shikibu(Mount Mercy College: 1330 Elmhurst Drive, Cedar Rapids, Iowa, EUA) . Versão deste e outros clássicos da literatura disponíveis em linha gratuitamente.\n[…]\nLa novela de Genji. Site em castelhano dedicado à obra de Murasaki Shikibu.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Sismoscópio de Zhang Heng",
+      "descricao": "Instrumento de bronze criado na China da dinastia Han para indicar a direção de terremotos."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "No século dois, que sábio chinês criou um vaso de bronze com dragões e sapos para detectar terremotos?",
+    "resposta": "Zhang Heng",
+    "distratores": [
+      "Cai Lun",
+      "Shen Kuo",
+      "Zu Chongzhi"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zhang_Heng"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zhang_Heng",
+        "situacao": "ok",
+        "texto": "Zhang Heng (Chinese: 張衡; AD 78 – 139), courtesy name Pingzi, formerly romanized Chang Heng, was a Chinese polymathic scientist and statesman who lived during the Eastern Han dynasty. Educated in the capital cities of Luoyang and Chang'an, he achieved success as an astronomer, mathematician, seismologist, hydraulic engineer, inventor, geographer, cartographer, ethnographer, artist, poet, philosophe\n[…]\nIn 132, Zhang Heng presented to the Han court what many historians consider to be his most impressive invention, the first seismoscope. A seismoscope records the motions of Earth's shaking, but unlike a seismometer, it does not retain a time record of those motions. It was named \"earthquake weathervane\" (hòufēng dìdòngyí 候風地動儀), and it was able to roughly determine the direction (out of eight directions) where the earthquake came from.\n[…]\nIt is documented that a physical geography map was first presented by Zhang Heng in 116 AD, called a Dixingtu (地形圖).\n[…]\nAlthough Zhang Heng understood that the sun, moon and planets move in circles, he lacked a model for a logically structured theory and so could not establish a corresponding astronomical theory. Chinese astronomy was most interested in extracting the algebraic features of planetary motion (that is, the length of the cyclic periods) to establish astronomical theories.\n[…]\nFraser, Ian W. (2014). \"Zhang Heng 张衡\". In Brown, Kerry (ed.). The Berkshire Dictionary of Chinese Biography. Great Barrington, MA: Berkshire Publishing. pp. 369–376. ISBN 1-933782-66-8.\n[…]\nKnechtges, David R. (2014). \"Zhang Heng 張衡\". In Knechtges, David R.; Chang, Taiping (eds.). Ancient and Early Medieval Chinese Literature: A Reference Guide, Part Four. Leiden: Brill. pp. 2141–55. ISBN 978-90-04-27217-0.\n[…]\nLien, Y. Edmund (2011). Zhang Heng, Eastern Han Polymath, His Life and Works (PhD thesis). University of Washington."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Zhang_Heng",
+        "situacao": "ok",
+        "texto": "Zhang Heng (chinês simplificado: 张衡; chinês tradicional: 張衡; pinyin: Zhāng Héng; Wade–Giles: Chang Hêng;78–139 d.C.) foi um polímata chinês de Nanyang que viveu durante a dinastia Han. Foi educado nas capitais de Luoyang e Chang'an, e foi um cientista, astrônomo, pintor e erudito da literatura chinesa.\n[…]\nSe Zhang Heng inventou ou não, Ma Jun (200–265 d.C.) sucedeu a Biga no século seguinte.\n[…]\nDurante a Dinastia Han, muitos eruditos incluindo Zhang Heng acreditavam-nos \"oráculos do vento”. Estes oráculos do oculto observava a direção, força, e a cronometragem dos ventos para especular sobre a operação do cosmos e predicar eventos da Terra. Estas ideias influenciavam Zhang Heng a observar as causas do terremoto. Contra a sedimentação de jovens teorias propostas pelos chineses e contemporâneos gregos, Zhang Heng acreditou que os terremotos eram causados pelo vento e o ar, escreveu:\n[…]\nEm 132, Zhang Heng apresentou para a corte de Han que muitos historiadores consideram ser sua invenção mais expressiva, o primeiro sismógrafo. Ele foi nomeado de Houfeng didong yi (候風地動儀, lit. um instrumento para mensurar os ventos sazonais e os movimentos da Terra), e ele foi habilitado à cerca (saída de oito direções) aonde os terremotos venham surgir.\n[…]\nEmbora Zhang Heng entendesse que o sol, a lua e os planetas movem em círculos, ele necessitava de um modelo logicamente estruturado e não somente garantir uma teoria astronômica. A astronomia chinesa foi muito interessada em extrair as características algébricas do movimento planetário (isto é, a duração dos períodos cíclicos) para garantir as teorias astronômicas.\n[…]\n«Zhang Heng, um grande inventor na antiga China, Epoch Times.»\n[…]\n«Zhang Heng em Chinaculture.org» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Porta de Ishtar",
+      "descricao": "Portão monumental da Babilônia, revestido de tijolos vidrados azuis, construído por Nabucodonosor segundo."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A Porta de Ishtar, entrada da Babilônia coberta de tijolos azuis, foi reconstruída em que museu?",
+    "resposta": "Museu de Pérgamo",
+    "distratores": [
+      "Museu Britânico",
+      "Museu do Louvre",
+      "Museu Metropolitano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ishtar_Gate"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ishtar_Gate",
+        "situacao": "ok",
+        "texto": "The Ishtar Gate was the eighth gate to the inner city wall of Babylon (in the area of present-day Hillah, Babylon Governorate, Iraq). It was constructed c. 569 BC by order of King Nebuchadnezzar II on the north side of the city. It was part of a grand walled processional way leading into the city.\n[…]\nA reconstruction of the Ishtar Gate and Processional Way was built at the Pergamon Museum in Berlin out of material excavated by Robert Koldewey. It includes the inscription plaque. It stands 14 m (46 ft) high and 30 m (100 ft) wide. The excavation ran from 1902 to 1914, and, during that time, 14 m (46 ft) of the foundation of the gate was uncovered.\n[…]\nThe rebuilding of Babylon's Ishtar Gate and Processional Way in Berlin was one of the most complex architectural reconstructions in the history of archaeology. Hundreds of crates of glazed brick fragments were carefully desalinated and then pieced together. Fragments were combined with new bricks fired in a specially designed kiln to re-create the correct color and finish. It was a double gate; the part that is shown in the Pergamon Museum today is the smaller, frontal part.\n[…]\nThe Ishtar Gate is frequently used as a prime example in the debate regarding repatriating artifacts of cultural significance to countries affected by war and whether these pieces of material culture are better off in a safer environment where they could be preserved. The example in the case of the Ishtar Gate is concerning its safety in the aftermath of the Iraq War, and whether or not the gate would be safer remaining at the Pergamon Museum where it was damaged by bombs in World War II.\n[…]\nExhibition \"From Fragment to Monument. The Ishtar Gate in Berlin\" at the Pergamonmuseum"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Porta_de_Istar",
+        "situacao": "ok",
+        "texto": "A Porta de Istar foi a oitava porta da cidade mesopotâmica da Babilônia. Foi construída por volta de 575 a.C. por ordem do rei Nabucodonosor II no lado norte da cidade.\n[…]\nO teto e as portas foram feitos em cedro, de acordo com a placa dedicatória. Através do portal corria o caminho procissional lineado por paredes cobertas por leões em tijolos envidraçados (aproximadamente 120 deles).\n[…]\nA reconstrução da Porta de Istar e da via procissional foi feita no Museu do Antigo Oriente Próximo, uma seção do Museu de Pérgamo em Berlim, utilizando o material escavado por Robert Koldewey, tendo sido finalizada em 1930. Inclui também a placa de inscrição. Possui uma altura de 14 metros e extensão de 30 metros. A escavação se deu entre 1902-1914, durante esse tempo foram descobertos 15 metros até a fundação do portal.\n[…]\nPartes do portal e leões da via processional se encontram espalhados por diversos museus ao redor do mundo. Apenas dois museus adquiriram dragões enquanto leões estão em alguns poucos museus. O Museu Arqueológico de Istambul possui leões, dragões e bois.\n[…]\nO Instituto de Arte de Detroit abriga um dragão; o Museu do Louvre, o Museu de Arqueologia e Antropologia da Universidade da Pensilvânia em Filadélfia, o Museu Metropolitano de Arte em Nova Iorque, o Instituto Oriental em Chicago, o Rhode Island School of Design Museum, o Museu Röhsska em Gotemburgo, Suécia, e o Museu de Belas Artes em Boston possuem cada um, leões.\n[…]\nA reprodução da Porta de Istar foi construída no Iraque como entrada de um museu, mas nunca foi concluída.\n[…]\nMuseu do Antigo Oriente Próximo\n[…]\n«Video da Porta de Ishtar no Museu de Pergamon». www.andycarvin.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Biblioteca de Assurbanipal",
+      "descricao": "Coleção de milhares de tabuletas cuneiformes reunida pelo rei assírio Assurbanipal no século sete antes de Cristo."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que capital assíria ficava a biblioteca do rei Assurbanipal, onde foram achadas tabuletas da Epopeia de Gilgamesh?",
+    "resposta": "Nínive",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Library_of_Ashurbanipal",
+        "situacao": "ok",
+        "texto": "The Royal Library of Ashurbanipal, named after Ashurbanipal, the last great king of the Assyrian Empire, is a collection of more than 30,000 clay tablets and fragments containing texts of all kinds and in various languages from the 7th century BCE. Among its holdings was the famous Epic of Gilgamesh.\n[…]\nThe original library documents, however, which would have included leather scrolls, wax boards, and possibly papyri, contained perhaps a much broader spectrum of knowledge than that known from the surviving clay-tablet cuneiform texts. A large share of Ashurbanipal's libraries consisted of writing-boards and not clay tablets.\n[…]\nCreated in collaboration with the University of Mosul and funded by the Townley group, the British Museum has been compiling a catalogue record of artifacts from Ashurbanipal's library since 2002. The goal is to document the library in as much detail as possible in texts and images including sign-transliterations, hand-drawn copies, translations, and high-quality digital images.\n[…]\nFrom 2020-2023 a collaborative project, Reading the Library of Ashurbanipal: A multi-sectional Analysis of Assyriology's Foundational Corpus, was created between the British Museum and LMU Munich explored the library's initial origins. The goal of the project was to examine the scribal notes added to the end of the tablets (known as \"colophons\") to understand how and why the collection was produced. The project was led by Dr. Jon Taylor and Professor Enrique Jiménez.\n[…]\nEpic of Gilgamesh\n[…]\nGreat libraries of the ancient world\n[…]\nAshurbanipal\n[…]\nFincke, Jeanette (2004). \"The British Museum's Ashurbanipal Library Project\". Iraq, 66, Ninevah. 66: 55–60. doi:10.1017/S0021088900001637. S2CID 190727609.\n[…]\nMedia related to Library of Ashurbanipal at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Biblioteca_de_N%C3%ADnive",
+        "situacao": "ok",
+        "texto": "A Biblioteca de Nínive, também conhecida como Biblioteca de Assurbanípal, é uma coleção de milhares de placas em argila contendo textos em escrita cuneiforme sobre vários assuntos, a partir do 7º século a.C. Dentro desse acervo está a famosa Epopeia de Gilgamés e fragmentos do Enuma Elis. Tal biblioteca é considerada a primeira da história, foi encontrada no século XIX por arqueólogos ingleses e f\n[…]\nA Biblioteca de Nínive localizava-se no palácio de Assurbanípal, em Nínive, cidade situada na margem ocidental do rio Tigre, e que foi a capital do Império Assírio (atual Iraque). Tal palácio era a residência oficial do monarca da Assíria, e se localizava a 450 quilômetros da Babilônia.\n[…]\nDos dados do Museu Britânico constam 30.943 \"placas\" em toda a coleção da Biblioteca de Nínive, e os curadores do Museu propõem a emissão de um catálogo atualizado como parte do Projeto Biblioteca de Assurbanípal.\n[…]\nA mais famosa obra literária da Mesopotâmia é a Epopeia de Gilgamés. Gilgamés é uma figura semilendária, rei da cidade-estado de Uruque, por volta de 2 700 a.C., e o que se conhece a respeito deve-se à epopeia construída em torno de seu nome, encontrada em doze plaquetas de argila que constam do acervo da Biblioteca de Nínive.\n[…]\nAntigas tradições persas e armênias indicam que Alexandre, o Grande, ao ver a grande biblioteca do Assurbanípal, em Nínive, inspirou-se para criar sua própria biblioteca. Alexandre morreu antes de criá-la, mas seu amigo e sucessor Ptolomeu supervisionou o início da biblioteca de Alexandre - um projecto que se tornaria a famosa Biblioteca de Alexandria.\n[…]\nEm 1853, o estudioso assírio Hormuzd Rassam (1826-1910), colaborador de Layard continuou as escavações de Nínive e descobriu o restante da Biblioteca; entre suas descobertas consideram-se as tábuas em argila com a Epopeia de Gilgamés, que faziam parte do acervo da Biblioteca de Assurbanípal.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Epopeia de Gilgamesh",
+      "descricao": "Poema épico da antiga Mesopotâmia sobre o rei Gilgamesh de Uruk."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na Epopeia de Gilgamesh, que personagem sobrevive a um grande dilúvio construindo um barco, como Noé?",
+    "resposta": "Utnapishtim",
+    "distratores": [
+      "Enkidu",
+      "Humbaba",
+      "Shamhat"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Utnapishtim",
+      "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Utnapishtim",
+        "situacao": "ok",
+        "texto": "Uta-napishtim or Utnapishtim (Akkadian: 𒌓𒍣, \"he has found life\") was a legendary mortal king of the ancient city of Shuruppak in southern Iraq who, according to the Gilgamesh flood myth, survived the Flood by making and occupying a boat.\n[…]\nHe is called by different names in different traditions: Ziusudra (\"Life of long days\", rendered Xisuthros, Ξίσουθρος in Berossus) in the earliest, Sumerian versions, later Shuruppak (after his city), Atra-hasis (\"exceeding wise\") in the earliest Akkadian sources, and Uta-napishtim (\"he has found life\") in later Akkadian sources such as the Epic of Gilgamesh. His father was the king Ubar-Tutu (\"Friend of the god Tutu\").\n[…]\nIn Mesopotamian narratives he is the Flood Hero, tasked by the god Enki (Akkadian Ea) to create a giant ship to be called Preserver of Life in preparation for a giant flood that will wipe out all life. The character appears in Tablet XI of the Standard Babylonian Epic of Gilgamesh, at the culmination of Gilgamesh's search for immortality. The story of Uta-napishtim has drawn scholarly comparisons due to the similarities between it and the storylines about Noah in the Book of Genesis.\n[…]\nIn the epic, overcome with the death of his friend Enkidu, the hero Gilgamesh sets out on a series of journeys to search for his ancestor Uta-napishtim (Xisouthros) who lives at the mouth of the rivers and has been given eternal life.\n[…]\nGilgamesh obtains the plant from the bottom of the sea in Dilmun (often considered to be current-day Bahrain) but a serpent steals it, and Gilgamesh returns home to the city of Uruk, having abandoned hope of either immortality or renewed youth."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh",
+        "situacao": "ok",
+        "texto": "The Epic of Gilgamesh () is an epic from ancient Mesopotamia that is the world's oldest surviving example of narrative literature. The literary history of Gilgamesh begins with five Sumerian poems about Gilgamesh, king of Uruk, some of which may date to the Third Dynasty of Ur (c. 2100 BCE). These independent stories were later used as source material for a combined epic in Akkadian.\n[…]\nIn the second part of the epic, distress over Enkidu's death causes Gilgamesh to undertake a long and perilous journey to discover the secret of eternal life. Finally, he meets Utnapishtim and his wife, the only humans to survive the flood triggered by the gods (cf. Athra-Hasis). Gilgamesh learns from him that \"Life, which you look for, you will never find. For when the gods created man, they let death be his share, and life withheld in their own hands\".\n[…]\nGilgamesh was given knowledge of how to worship the gods, why death was ordained for human beings, what makes a good king, and how to live a good life. The story of Utnapishtim, the hero of the flood myth, can also be found in the Babylonian epic of Atra-Hasis. The Standard version is also known as iškar Gilgāmeš, \"Series of Gilgamesh\".\n[…]\nTablet nine opens with Gilgamesh roaming the wild wearing skins, grieving for Enkidu. Having now become fearful of his own death, he decides to seek Utnapishtim (\"the Faraway\"), and learn the secret of eternal life.\n[…]\nThe text on the Old Babylonian Meissner fragment (the larger surviving fragment of the Sippar tablet) has been used to reconstruct possible earlier forms of the Epic of Gilgamesh, and it has been suggested that a \"prior form of the story – earlier even than that preserved on the Old Babylonian fragment – may well have ended with Siduri sending Gilgamesh back to Uruk...\" and \"Utnapistim was not originally part of the tale.\"\n[…]\nThe death of Gilgamesh\n[…]\nThe Epic of Gilgamesh by Kovacs, M.G."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Utnapistim",
+        "situacao": "ok",
+        "texto": "Utnapistim ou Utanapistim (em sumério: Ziusudra; em acádio: 𒌓𒍣; romaniz.: Utnapishtim), ou também referido como Atrahasis (lit. \"Muitíssimo sábio\", em acádio), é um personagem da Epopeia de Gilgamés. Ele foi incumbido por Enqui (Ea) de criar um navio gigante a ser chamado de o preservador da Vida em preparação para um dilúvio gigante que destruiria toda a vida. Sua história é parecida com à do Noé\n[…]\nUtnapistim é encarregado por Enqui (Ea) a abandonar suas posses e criar um navio gigante a ser chamado o preservador da vida. Utnapistim foi encarregado de trazer sua esposa, família e parentes junto com os artesãos de sua aldeia, bebês de animais e grãos. O dilúvio que se aproximava acabaria com todos os animais e os seres humanos que não estivessem no navio.\n[…]\nDepois de doze dias na água, Utnapistim abriu a escotilha do seu navio para olhar em volta e viu as encostas do Monte Nisir, onde ele descansou seu navio durante sete dias.\n[…]\nNo sétimo dia, ele enviou uma pomba para fora para ver se a água havia recuado, a pomba não pôde encontrar nada além de água, assim retornou. Então ele enviou uma andorinha, e como antes, voltou, não encontrando nada. Finalmente, Utnapistim enviou um corvo, o corvo viu que as águas tinham recuado, por isso circulou ao redor, mas não retornou. Utnapistim então libertou todos os animais e fez um sacrifício aos deuses.\n[…]\nOs deuses vieram, e porque ele tinha preservado a semente do homem ao permanecer leal e confiante de seus deuses, Utnapistim e sua esposa receberam a imortalidade, bem como um lugar entre os deuses celestiais.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Lamassu",
+      "descricao": "Divindade protetora assíria esculpida nos portões dos palácios, com cabeça humana, asas e corpo de animal."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Os lamassus, guardiões dos portões dos palácios assírios, costumam ter cabeça humana, asas e corpo de que animal?",
+    "resposta": "Touro",
+    "distratores": [
+      "Cavalo",
+      "Camelo",
+      "Elefante"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lamassu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lamassu",
+        "situacao": "ok",
+        "texto": "Lama, Lamma, or Lamassu (Cuneiform: 𒀭𒆗, an.kal; Sumerian: dlammař; later in Akkadian: lamassu; sometimes called a lamassuse) is a Mesopotamian protective deity.\n[…]\nFrom Assyrian times, lamassu were depicted as hybrids, with bodies of either winged bulls or lions and heads of human males. The motif of a winged animal with a human head is common to the Near East, first recorded in Ebla around 3000 BC. The first distinct lamassu motif appeared in Assyria during the reign of Tiglath-Pileser II as a symbol of power.\n[…]\nAlthough lamassu had a different iconography and portrayal in the culture of Sumer, the terms \"lamassu\", \"alad\", and \"shedu\" evolved throughout the Assyro-Akkadian culture from the Sumerian culture to denote the Assyrian-winged-man-bull symbol and statues during the Neo-Assyrian Empire. Eventually, female lamassu were identified as \"apsasû\".\n[…]\nThe lamassu is a celestial being from ancient Mesopotamian religion bearing a human head, symbolising intelligence; a bull's body, symbolizing strength; and an eagle's wings, symbolizing freedom. Sometimes it had the horns and the ears of a bull. It appears frequently in Mesopotamian art. The lamassu and shedu were household protective spirits of the common Assyrian people, becoming associated later as royal protectors, and were placed as sentinels at entrances.\n[…]\nThe Akkadians associated the god Papsukkal with a lamassu and the god Išum with shedu.\n[…]\nLammasu [sic] and shedu are two distinct types of good-aligned creatures in the role-playing game Dungeons & Dragons, with lammasu having the bodies of winged lions and shedu depicted as human-headed winged bulls."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lamassu",
+        "situacao": "ok",
+        "texto": "Lamassu, Lamu ou Lama (cuneiforme: 𒀭𒆗, AN.KAL; em sumério: dlamma; em acádio: lamassu) é uma divindade tutelar da antiga Mesopotâmia, considerada com frequência como sendo do sexo feminino. Utiliza-se com frequência o nome de Sedu (cuneiforme: 𒀭𒆘, AN.KAL×BAD; sumério: dalad; acádio: shēdu; hebraico: שד) para se referir ao equivalente masculino de um lamassu.\n[…]\nEste artigo foi inicialmente traduzido, total ou parcialmente, do artigo da Wikipédia em inglês cujo título é «Lamassu».\n[…]\n«Página sobre o Shêdu». no Museu do Louvre (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Mahabharata",
+      "descricao": "Grande poema épico da Índia antiga, em sânscrito, sobre a guerra entre os Pandavas e os Kauravas."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que diálogo entre o deus Krishna e o guerreiro Arjuna, às vésperas de uma batalha, faz parte do épico indiano Mahabharata?",
+    "resposta": "Bhagavad Gita",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mahabharata",
+      "https://en.wikipedia.org/wiki/Bhagavad_Gita"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mahabharata",
+        "situacao": "ok",
+        "texto": "The Mahābhārata ( mə-HAH-BAR-ə-tə, MAH-hə-; Sanskrit: महाभारतम्, IAST: Mahābhāratam, pronounced [mɐɦaːˈbʱaːrɐt̪ɐm], 'Great Bharata') is one of the two major Sanskrit epics of ancient India revered in Hinduism, the other being the Ramayana. Both are considered smṛti and itihasa texts. The Mahābhārata narrates the events around the Kurukshetra War, while also discussing philosophical concepts, such \n[…]\nA principal element of the Mahābhārata is the Bhagavad Gita, which is a prominent sacred text in Hindu traditions.\n[…]\nThe epic theorizes about dharmayuddha, \"just war\", and the Bhagavad Gita discusses the Vedic concept of dharma (duty, rightful action) in a dialogue between the Pandava prince Arjuna and his charioteer guide Krishna.\n[…]\nBefore the battle, Arjuna, noticing that the opposing army includes his cousins and relatives, including his grandfather Bhishma and his teacher Drona, has grave doubts about the fight. He falls into despair and refuses to fight. At this time, Krishna reminds him of his duty as a Kshatriya to fight for a righteous cause in the famous Bhagavad Gita section of the epic.\n[…]\nIn the Bhagavad Gita, Krishna explains to Arjuna his duties as a warrior and prince and elaborates on different Yogic and Vedantic philosophies, with examples and analogies. This has led to the Gita often being described as a concise guide to Hindu philosophy and a practical, self-contained guide to life. In more modern times, Swami Vivekananda, Netaji Subhas Chandra Bose, Bal Gangadhar Tilak, Mahatma Gandhi and many others used the text to help inspire the Indian independence movement.\n[…]\nChaitanya, Krishna (K.K. Nair). The Mahabharata, A Literary Study, Clarion Books, New Delhi 1985.\n[…]\nHiltebeitel, Alf. The Ritual of Battle, Krishna in the Mahabharata, SUNY Press, New York 1990.\n[…]\nKatz, Ruth Cecily Arjuna in the Mahabharata, University of South Carolina Press, Columbia 1989."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bhagavad_Gita",
+        "situacao": "ok",
+        "texto": "The Bhagavad Gita (; Sanskrit: भगवद्गीता, IPA: [ˌbʱɐɡɐʋɐd ˈɡiːtaː], romanized: bhagavad-gītā, lit. 'God's song'), often referred to as the Gita (IAST: Gītā), is a Hindu scripture, likely composed in the second or first century BCE, which forms part of the epic poem Mahabharata. The Bhagavad Gita is a synthesis of various strands of Indian religious thought, including the Vedic concept of dharma (d\n[…]\nWhile traditionally attributed to the sage Veda Vyasa, the Bhagavad Gita is historiographically regarded as a composite work by multiple authors. Incorporating teachings from the Upanishads and the Samkhya Yoga philosophy, the Bhagavad Gita is set in a framework of dialogue between the Pandava prince Arjuna and his charioteer guide Krishna, an avatar of Vishnu, at the onset of the Kurukshetra War.\n[…]\nNumerous classical and modern thinkers have written commentaries on the Bhagavad Gita with differing views on its essence, and the relation between the individual self (jivatman) and the supreme self (Atman/Brahman) or God (Krishna). The Krishna-Arjuna dialogue has been construed as a metaphor for an immortal dialogue between the individual and the supreme self.\n[…]\nUthaya Sankar SB retold the complete text in Bahasa Malaysia prose as Bhagavad Gita: Dialog Arjuna dan Krishna di Kurukshetra (2021).\n[…]\nIndian independence leaders like Lala Lajpat Rai and Bal Gangadhar Tilak saw the Gita as a text which defended war when necessary and used it to promote armed rebellion against colonial rule. Lajpat Rai wrote an article on the \"Message of the Bhagavad Gita\". He saw the main message as the bravery and courage of Arjuna to fight as a warrior. Bal Gangadhar Tilak saw the Gita as defending killing when necessary for the betterment of society, such as, for example, the killing of Afzal Khan.\n[…]\nBhagavad Gita article in the Internet Encyclopedia of Philosophy\n[…]\nBhagavad Gita poetry at the britannica.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mahabharata",
+        "situacao": "ok",
+        "texto": "O Mahabharata, conhecido também como Maabárata, Mahabarata e Maha-Bharata (devanágari: महाभारत, transl. Mahābhārata), é um dos dois principais textos Smriti e épicos sânscritos da Índia antiga reverenciados no hinduísmo, sendo o outro o Rāmāyaṇa. Ele narra os eventos e as consequências da Guerra de Kurukshetra, uma guerra de sucessão entre dois grupos de primos principescos, os Kauravas e os Pāṇḍa\n[…]\nEle também contém material filosófico e devocional, como uma discussão sobre os quatro \"objetivos da vida\" ou puruṣārtha (12.161). Entre as principais obras e histórias do Mahābhārata estão o Bhagavad Gita, a história de Damayanti, a história de Shakuntala, a história de Pururava e Urvashi, a história de Savitri e Satyavan, a história de Kacha e Devayani, a história de Rishyasringa e uma versão abreviada do Rāmāyaṇa, frequentemente consideradas obras por direito próprio.\n[…]\nAntes que a guerra fosse declarada, Balarama expressou sua infelicidade com o conflito em desenvolvimento e partiu para peregrinar; portanto, ele não participa da batalha em si. Krishna participa de um papel não combatente, como cocheiro (Sarathy) para Arjuna e oferece Narayani Sena consistindo de Abhira gopas para os Kauravas lutarem ao seu lado.\n[…]\nAntes da batalha, Arjuna, percebendo que o exército adversário inclui seus primos e parentes, incluindo seu avô Bhishma e seu professor Drona, tem sérias dúvidas sobre a luta. Ele cai em desespero e se recusa a lutar. Neste momento, Krishna o lembra de seu dever como um Kshatriya de lutar por uma causa justa na famosa seção Bhagavad Gita do épico.\n[…]\nNa música brasileira, o episódio do Bhagavad Gita, em que Krishna dá conselhos a Arjuna, inspirou a canção \"Gita\", de Paulo Coelho e Raul Seixas.==Referências==\n[…]\nKatz, Ruth Cecily Arjuna in the Mahabharata, University of South Carolina Press, Columbia 1989.\n[…]\nOldenberg, H. Das Mahabharata, Göttingen (1922).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Ossos oraculares",
+      "descricao": "Ossos e cascos de tartaruga usados para adivinhação na China antiga, com os textos mais antigos da escrita chinesa."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Os ossos oraculares, que trazem os textos mais antigos da escrita chinesa, foram feitos durante que dinastia?",
+    "resposta": "Dinastia Shang",
+    "distratores": [
+      "Dinastia Zhou",
+      "Dinastia Han",
+      "Dinastia Qin"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Oracle_bone"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Oracle_bone",
+        "situacao": "ok",
+        "texto": "Oracle bones are pieces of ox scapula and turtle plastron which were used in pyromancy – a form of divination – during the Late Shang period (c. 1250 – c. 1050 BCE) in ancient China. Scapulimancy is the specific term if ox scapulae were used for the divination, plastromancy if turtle plastrons were used. A recent count estimated that there were about 13,000 bones with a total of a little over 130,\n[…]\nSpecialists have agreed on the form, meanings, and sound of a little more than a quarter of the characters, roughly 1,200 with certainty, but several hundred more remain under discussion; these known characters comprise much of the core vocabulary of modern Chinese. They provide important information on the late Shang period, and scholars have reconstructed the Shang royal genealogy from the cycle of ancestral sacrifices recorded on oracle bones.\n[…]\nThe vast majority of the inscribed oracle bones were found at the Yinxu site in modern Anyang and date to the reigns of the last nine Shang kings. The diviners named on the bones have been assigned to five periods by Dong Zuobin:\n[…]\nDivinations were typically carried out for the Shang kings in the presence of a diviner. Very few oracle bones were used in divination by other members of the royal family or nobles close to the king. By the latest periods, the Shang kings took over the role of diviner personally.\n[…]\nAfter the founding of Zhou, the Shang practices of bronze casting, pyromancy, and writing continued. Oracle bones that were found in the 1970s have been dated to the Zhou dynasty, with some dating to the Spring and Autumn period; very few, however, were inscribed. It is thought that other methods of divination supplanted pyromancy, such as numerological divination using milfoil (yarrow) in connection with the hexagrams of the I Ching, leading to the decline of inscribed oracle bones."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Osso_or%C3%A1culo",
+        "situacao": "ok",
+        "texto": "Ossos oráculo (chinês: 甲骨; pinyin: jiǎgǔ) são pedaços de escápula de boi e plastrão de tartaruga, que foram usados para piromancia – uma forma de adivinhação – na China antiga, principalmente durante o final da dinastia Shang. Escapulimancia é o termo específico se escápulas de boi forem usadas para adivinhação, plastromancia se forem usados plastrões de tartaruga.\n[…]\nUma contagem recente estimou que havia cerca de 13 mil ossos com um total de pouco mais de 130 mil inscrições em coleções na China e em cerca de quatorze outros países.\n[…]\nNa época do estabelecimento do Instituto de História e Filologia chefiado por Fu Sinian na Academia Sinica em 1928, a origem dos ossos do oráculo remontava à moderna vila de Xiǎotún (小屯村) em Anyang, na província de Henan. Escavações arqueológicas oficiais em 1928-1937 lideradas por Li Ji, o pai da arqueologia chinesa, descobriram 20.000 peças de ossos oráculo, que agora constituem a maior parte da coleção da Academia Sinica em Taiwan e constituem cerca de 1/5 do total descoberto.\n[…]\nQuando decifradas, as inscrições nos ossos oráculo revelaram-se registros das adivinhações realizadas para ou pela família real.\n[…]\nAs inscrições em ossos oráculo foram publicadas à medida que eram descobertas, em fascículos. Posteriormente, muitas coleções de inscrições também foram publicadas. A seguir estão as principais coleções.\n[…]\nchinês: 殷墟文字甲編; pinyin: Yinxu wenzi jiabian",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Santuário de Ise",
+      "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "Pela tradição xintoísta, o grande santuário de Ise, no Japão, é demolido e reconstruído a cada quantos anos?",
+    "resposta": "Vinte",
+    "distratores": [
+      "Doze",
+      "Trinta",
+      "Cinquenta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ise_Grand_Shrine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ise_Grand_Shrine",
+        "situacao": "ok",
+        "texto": "The Ise Shrine (Japanese: 伊勢神宮, Hepburn: Ise Jingū), located in Ise, Mie Prefecture of Japan, is a Shinto shrine dedicated to the solar goddess Amaterasu Ōmikami and the grain goddess Toyouke-hime. Also known simply as Jingū (神宮), Ise Shrine is a shrine complex composed of many Shinto shrines centered on two main shrines, Naikū (内宮) and Gekū (外宮).\n[…]\nThe Inner Shrine, Naikū (also officially known as \"Kōtai Jingū\"), is dedicated to the worship of Amaterasu and is located in the town of Uji-tachi, south of central Ise, where she is believed to dwell. The shrine buildings are made of solid cypress wood and use no nails, instead being joined with wood.\n[…]\nToyouke Daijingu (豊受大神宮) is a shrine to Toyouke-hime, the food goddess, located in Ise Grand Shrine. it is also colloquially known as the Gekū (外宮; lit. 'Outer shrine'). In pilgrimage customs people traditionally visit this shrine first and then the Naikū, which is located 4 kilometres (2.5 mi) to the south.\n[…]\nAmaterasu is linked with Toyouke-hime as the sun is necessary for food to grow. This was prior to the Tenson Korin. Emperor Suinin is said to have established the shrine to worship Amaterasu at a permanent location after many temporary locations. In contrast with Kotai jingu, this shrine is not explicitly mentioned in the Kojiki or the Nihon Shoki.\n[…]\nKotai Jingū is said to hold the Sacred Mirror, one of three Imperial Regalia of Japan said to have been given to the first Emperor by the gods. From a path that follows the line of the outer wall, the distinctive roof of the shrine building can be seen through the trees. In front of the walled shrine compound can be seen an open area which was the location of the rebuilding of the shrine in 2013.\n[…]\nSugari no Ontachi –  One of the sacred treasures of Ise Grand Shrine\n[…]\nGeographic data related to Ise Shrine Naikū at OpenStreetMap"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Santu%C3%A1rio_de_Ise",
+        "situacao": "ok",
+        "texto": "O Santuário Ise é um santuário xintoísta dedicado à deusa do sol, Amaterasu e está situado na cidade de Ise, na província de Mie, no Japão.\n[…]\nTambém é conhecido por Ise Jingu, ou apenas por Jingu (\"o Santuário\") e é um dos mais importantes santuários xintoístas do Japão.\n[…]\nYamatohime fora encarregada pelo pai de encontrar um sitio adequado para realizar oferendas a Amaterasu e percorreu o Japão durante vinte anos até que chegou a Ise e ouviu a voz da deusa dizendo-lhe que aquele era o local onde desejava ser adorada. O reconhecimento a Yamatohime está hoje expresso no santuário que lhe é dedicado, o Yamatohime-no-Miya, construído no percurso entre o Geku e o Naiku.\n[…]\nKotaijingu - santuário principal: Trata-se do local mais sagrado de todo o Ise Jingu, onde está o espírito nigimitama de Amaterasu. É neste local que é conservado o \"Espelho Sagrado\" (Yata no kagami), um dos três tesouros imperiais do Japão, que se crê tenham sido dados por Amaterasu ao primeiro Imperador do Japão.\n[…]\nA arquitetura de Ise Jingu é escrupulosamente preservada. Os edifícios, bem como a ponte de Uji, são completamente reconstruídos a cada 20 anos, numa cerimónia conhecida por Shikinen Sengu. A 61ª primeira cerimónia aconteceu em 1993, estando a próxima prevista para o ano de 2033.\n[…]\nAo longo de cada período de vinte anos vão-se realizando vários rituais preparatórios: desde o abate das árvores que irão fornecer a madeira, ao transporte dos troncos - no qual participa a população da cidade de Ise - no festival de Okihiki, culminando na transferência dos símbolos do kami e do tesouro para o novo edifício, na cerimónia de Sengyo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Quatro Nobres Verdades",
+      "descricao": "Ensinamento central do budismo sobre o sofrimento, sua origem, sua cessação e o caminho para cessá-lo."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em seu primeiro sermão, em Sarnath, quantas nobres verdades sobre o sofrimento Buda ensinou aos discípulos?",
+    "resposta": "Quatro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Four_Noble_Truths"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Four_Noble_Truths",
+        "situacao": "ok",
+        "texto": "In Buddhism, the Four Noble Truths (Sanskrit: चत्वार्यार्यसत्यान, romanized: catvāryāryasatyāni; Pali: cattāri ariyasaccāni; \"The Four arya satya\") are \"the truths of the noble one (the Buddha),\" a statement of how things really are when they are seen correctly. The four truths are\n[…]\nThe teachings on the four noble truths are a provisional teaching, which Shakyamuni Buddha taught according to the people's capacity, while the Lotus Sutra is a direct statement of Shakyamuni's own enlightenment.\n[…]\nFor many western Buddhists, the rebirth doctrine in the Four Noble Truths teaching is a problematic notion.\n[…]\nAccording to Melford Spiro, this approach undermines the Four Noble Truths, for it does not address the existential question for the Buddhist as to \"why live? why not commit suicide, hasten the end of dukkha in current life by ending life\". In traditional Buddhism, rebirth continues the dukkha and the path to cessation of dukkha isn't suicide, but the fourth reality of the Four Noble Truths.\n[…]\nAccording to Keown, it may not be necessary to believe in some of the core Buddhist doctrines to be a Buddhist, but the rebirth, karma, realms of existence and cyclic universe doctrines underpin the Four Noble Truths in Buddhism.\n[…]\nThe Navayana, a modernistic interpretation of Buddhism by the Indian leader and Buddhist scholar B. R. Ambedkar, rejected much of traditional Buddhism, including the Four Noble Truths, karma and rebirth, thus turning his new religion into a vehicle for class struggle and social action. According to Ambedkar, Four Noble Truths was \"the invention of wrong-headed monks\".\n[…]\n\" What are the Four Noble Truths?\"\n[…]\n\" The Four Noble Truths: an overview\", Berzin Archives\n[…]\nThe Four Noble Truths. A Study Guide, Thanissaro Bikkhu\n[…]\nFour Noble Truths, Rigpa Wiki"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quatro_Nobres_Verdades",
+        "situacao": "ok",
+        "texto": "As Quatro Nobres Verdades (em sânscrito:  catvāri āryasatyāni; Wyle: 'phags pa'i bden pa bzhi; em páli:  cattāri ariyasaccāni) são a essência central do budismo, em torno da qual todos os demais ensinamentos budistas se baseiam. Segundo Shariputra, um dos principais discípulos do Buda, as Quatro Nobres Verdades englobam todos os darmas.\n[…]\nO impulso volitivo que fomenta a vida, possibilitado pela força do apego, mantém todos os seres sencientes presos ao samsara, o ciclo de renascimento e morte. Atendendo à problemática do dukkha, o Buda propôs, como forma de colocar termo a esse ciclo, as Quatro Nobre Verdades como solução. Elas são, portanto, a soma de conhecimentos mais importantes que Sidarta Gautama alcançou durante a sua iluminação.\n[…]\nAs Quatro Nobres Verdades aparecem recorrentemente ao longo dos mais antigos textos budistas, nomeadamente nos da tradição Teravada. O budismo Maaiana tende a marginalizar ou desaconselhar as Quatro Nobre Verdades por as considerar, devido à sua severidade, inapropriadas à maioria das pessoas, incentivando antes o caminho do bodicita.\n[…]\nO motivo pelo qual o Buda teria ensinado as nobres verdades com o objetivo de compreender o mecanismo do sofrimento ou insatisfação e alcançar uma felicidade real e estável. Diz-se que ele alcançou este objetivo meditando debaixo da árvore bodhi próximo ao rio Neranjana.\n[…]\nAs Quatro Nobres Verdades são a conclusão de seu entendimento sobre a natureza do \"sofrimento\", sobre a causa fundamental de todo o sofrimento, sobre a fuga do sofrimento e sobre o esforço que uma pessoa pode fazer para alcançar a felicidade.\n[…]\nAs Quatro Nobres Verdades, monges, são reais, infalíveis, e não o contrário. Portanto, elas são chamadas de nobres verdades.\n[…]\nAs Quatro Nobres Verdades constituem o primeiro ensinamento proferido pelo Buda após sua verdadeira iluminação.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Enheduanna",
+      "descricao": "Sacerdotisa do deus da lua em Ur, filha de Sargão da Acádia, autora de hinos sumérios."
+    },
+    "angulo": "comparacao",
+    "tipo": "aberta",
+    "pergunta": "Filha de Sargão da Acádia e sacerdotisa em Ur, quem é considerada a autora mais antiga da história conhecida pelo nome?",
+    "resposta": "Enheduanna",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Enheduanna"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Enheduanna",
+        "situacao": "ok",
+        "texto": "Enheduanna (Sumerian: 𒂗𒃶𒌌𒀭𒈾 Enḫéduanna, also transliterated as Enheduana, En-he2-du7-an-na, or variants; fl. c. 2300 BC) was the entu (high) priestess of the moon god Nanna (Sīn) in the Sumerian city-state of Ur in the reign of her father, Sargon of Akkad (r. c. 2334 – c. 2279 BCE). She was likely appointed by her father as the leader of the religious group at Ur to cement ties between the Akkadia\n[…]\nEnheduanna has been celebrated as the earliest known named author in world history.\n[…]\nHowever, ascribing her popularity to her father appears to be an example of Androcentrism bias in archaeology, given Enheduanna’s enduring position as the first credited author in human history.\n[…]\nThey also note that the concluding section also appears to reference \"some historical events which cannot be elucidated.\" This poem also contains a potential reference to the events described in Inanna and Ebih, which has led Westenholz to suggest that that poem may have been written by Enheduanna as well.\n[…]\nDespite these concerns, Hallo says that there is still little reason to doubt Enheduanna's authorship of these works. Hallo, responding to Miguel Civil, not only still maintains Enheduanna's authorship of all of the works attributed to her, but rejects \"excess skepticism\" in Assyriology as a whole, and noting that \"rather than limit the inferences they draw from it\" other scholars should consider that \"the abundant textual documentation from Mesopotamia...\n[…]\nEnheduanna has also been analyzed as an early rhetorical theorist. Roberta Binkley finds evidence in The Exaltation of Inanna of invention and classical modes of persuasion. Hallo, building on the work of Binkley, compares the sequence of the Hymn to Inanna, Inanna and Ebih, and the Exaltation of Inanna to the biblical Book of Amos, and considers these both evidence of \"the birth of rhetoric in Mesopotamia.\"\n[…]\nDisk of Enheduanna\n[…]\nSeal of Enheduanna"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Enheduana",
+        "situacao": "ok",
+        "texto": "Enheduana (acádio: 𒂗𒃶𒁺𒀭𒈾) também transliterado como Enheduana, En-hedu-ana, e suas variantes foi uma poeta e filósofa suméria, filha do rei Sargão da Acádia. Foi eleita alta sacerdotisa do deus lunar Nana na cidade suméria de Ur. Seu nome é composto pelas palavras \"en\", que significa \"alta sacerdotisa\"; a palavra \"heduana\" é um epíteto poético para a Lua (algo como \"adorno do céu\"), mas que também\n[…]\nEnheduana deixou um grande legado literário, definitivamente escrito por ela, que inclui textos devotados à deusa Inana e uma coleção de hinos conhecido como Hinos Sumérios do Templo. É conhecida por ser uma das primeiras autoras e poetas de nome conhecido e atribuído na história.\n[…]\nEnheduana compôs 42 hinos dirigidos aos templos por toda a Suméria e Acádia, incluindo Eridu, Sipar e Esnuna. Os textos foram reconstruídos com base em 37 placas de argila de Ur e Nippur, a maioria datando dos Antigos Períodos babilônicos e de Ur III. A coleção, conhecida como \"Os Hinos Sumérios do Templo\" foram os primeiros deste tipo. Enheduana assim declama:\n[…]\nAs cópias feitas durante tão longo tempo depois da morte de Edehuana mostram sua grande reputação no reino. A autoria de Enheduana em tantos textos de grande importância levanta a questão da alfabetização feminina na antiga Mesopotâmia; além de Enheduana, as esposas reais são conhecidas por terem encomendado ou talvez composto poesia frequentemente. Os sumérios tinham até uma deusa escriba, Nidaba, o que revela a importância cultural das mulheres e seu papel na sociedade da época.\n[…]\nGrande parte dos trabalhos de Enheduana está disponível com tradução para a língua inglesa no Electronic Text Corpus of Sumerian Literature, tendo sido traduzidos pelo especialista em povos sumérios, Samuel Noah Kramer e pela poeta Diane Wolkstein, no livro Inana, Rainha dos Céus e da Terra: suas histórias e hinos da Suméria, publicado em 1983.\n[…]\nSargão da Acádia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Bússola",
+      "descricao": "Instrumento de orientação magnética surgido na China antiga, na forma de colher apontando para o sul."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de guiar navegadores, as primeiras bússolas chinesas eram usadas em que prática de orientação e adivinhação?",
+    "resposta": "Feng shui (geomancia)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Compass"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Compass",
+        "situacao": "ok",
+        "texto": "A compass is a device that shows the cardinal directions used for navigation and geographic orientation. It typically consists of a magnetized needle or another element, such as a compass card or compass rose, that pivots to align itself with magnetic north. Other methods may be used, including gyroscopes, magnetometers, and GPS receivers.\n[…]\nSome claims state that the first devices utilising lodestone's natural magnetic properties were in ancient Han dynasty China. The earliest mention of a needle's attraction appears in a work composed between 20 and 100 AD, the Lunheng (Balanced Inquiries): \"A lodestone attracts a needle.\" In the 2nd century BC, Chinese geomancers were experimenting with the magnetic properties of lodestone to make a \"south-pointing spoon\" for divination.\n[…]\nThe earth inductor compass (or \"induction compass\") determines directions using the principle of electromagnetic induction, with the Earth's magnetic field acting as the induction field for an electric generator, the measurable output of which varies depending on orientation.\n[…]\nThe luopan, a compass used by feng shui practitioners.\n[…]\nThe modern hand-held protractor compass always has an additional direction-of-travel (DOT) arrow or indicator inscribed on the baseplate. To check one's progress along a course or azimuth, or to ensure that the object in view is indeed the destination, a new compass reading may be taken to the target if visible (here, the large mountain). After pointing the DOT arrow on the baseplate at the target, the compass is oriented so that the needle is superimposed over the orienting arrow in the capsule.\n[…]\nHand compass – Compact magnetic compass\n[…]\nMa, Huan (1997) Ying-yai sheng-lan [The overall survey of the ocean's shores (1433)], Feng, Ch'eng-chün (ed.) and Mills, J.V.G. (transl.), Bangkok: White Lotus Press, ISBN 974-8496-78-3"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/B%C3%BAssola",
+        "situacao": "ok",
+        "texto": "Uma bússola é um instrumento que mostra os pontos cardeais usados na navegação e na orientação geográfica. Em geral, consiste em uma agulha magnetizada ou outro elemento, como um cartão de bússola ou uma rosa dos ventos, que gira até se alinhar com o norte magnético. Outros métodos também podem ser usados, entre eles giroscópios, magnetômetros e receptores do sistema de posicionamento global.\n[…]\nEntre as quatro grandes invenções chinesas, a bússola magnética surgiu primeiro como instrumento de adivinhação, já durante a China da Dinastia Han, a partir de cerca de 206 a.C., e passou a ser usada na navegação pelos chineses da Dinastia Sung no século XI. O primeiro uso registrado de uma bússola na Europa Ocidental ocorreu por volta de 1190 e, no mundo islâmico, no século XIII.\n[…]\nAlgumas interpretações situam os primeiros instrumentos que exploravam as propriedades magnéticas naturais da pedra-imã na China da Dinastia Han. A menção mais antiga à atração de uma agulha está no Lunheng (Investigações equilibradas), obra escrita entre 20 e 100 d.C.: \"Uma pedra-imã atrai uma agulha.\" No século II a.C., geomantes chineses experimentavam as propriedades magnéticas da pedra-imã para produzir uma \"colher que aponta para o sul\" usada em adivinhação.\n[…]\nO luopan, bússola usada por praticantes de feng shui.\n[…]\nComo qualquer dispositivo magnético, a bússola é afetada por materiais ferrosos próximos e por forças eletromagnéticas locais intensas. Bússolas usadas em navegação terrestre não devem ficar perto de objetos de metal ferroso ou de campos eletromagnéticos, como sistemas elétricos e motores de automóveis ou pitões de aço, pois isso pode alterar sua precisão.\n[…]\nMa, Huan. Ying-yai sheng-lan [The overall survey of the ocean's shores (1433)]. Feng, Ch'eng-chün, ed.; Mills, J. V. G., trad. Banguecoque: White Lotus Press, 1997. ISBN 974-8496-78-3.\n[…]\nPaul J. Gans, The Medieval Technology Pages: Compass",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Kofun",
+      "descricao": "Túmulos monumentais de terra construídos no Japão entre os séculos três e sete."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Vistos de cima, os maiores túmulos kofun do Japão antigo têm o formato de quê?",
+    "resposta": "Buraco de fechadura",
+    "distratores": [
+      "Ferradura",
+      "Lua crescente",
+      "Estrela"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Kofun"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Kofun",
+        "situacao": "ok",
+        "texto": "Kofun (古墳; from Sino-Japanese \"ancient burial mound\") are megalithic tombs or tumuli in Northeast Asia. Kofun were mainly constructed in the Japanese archipelago between the middle of the 3rd century to the early 7th century AD.\n[…]\nFor example, in the Mozu kofun group, in Sakai, several of the circular parts are facing north, while others face east. However, there is no such formation in the Yanagimoto kofun group. Haniwa, terracotta figures, were arrayed above and in the surroundings to delimit and protect the sacred areas.\n[…]\nInari Kofun\n[…]\nOichi No.1 Kofun\n[…]\nKajiyama Kofun\n[…]\nKengoshizuka Kofun\n[…]\nGobyo Kofun\n[…]\nDannozuka Kofun\n[…]\nTsukamyojin Kofun\n[…]\nNakaoyama Kofun\n[…]\nNakayamasōen Kofun\n[…]\nKing Noguchi Kofun\n[…]\nMitsuya Kofun\n[…]\nYoshida Kofun\n[…]\nJoenkahofun (上円下方墳) is a rare kind of kofun with a round dome top and a square bottom.\n[…]\nMusashi Fuchū Kumano Jinja Kofun in Fuchū in Tokyo and Miyazuka Kofun are two notable examples.\n[…]\nIshinokarato Kofun\n[…]\nTenmondai Kounai Kofun\n[…]\nMiyazuka Kofun\n[…]\nMusashi Fuchū Kumano Jinja Kofun\n[…]\nYokoanabo (横穴墓; also read ōketsubo, lit. \"horizontal hole grave\") also sometimes referred to as yokoana (横穴) or yokoana kofun (横穴古墳) in Japanese are horizontal caves dug into cliffs and hillsides as graves for lower-ranking rulers. Unlike kofun, they were not built up out of material, but dug into the existing landscape.\n[…]\nThis list includes the \"Mozu-Furuichi Kofun Group: Mounded Tombs of Ancient Japan,\" which was inscribed as a UNESCO World Heritage Site on 6 July 2019.\n[…]\n前方後円墳 (Keyhole-shaped kofun), 上田宏範, 学生社, 東京, 1969.\n[…]\n前方後円墳と古代日朝関係 (Keyhole-shaped kofun and diplomatic relations between ancient Japan and Korea), 朝鮮学会編, 東京, 同成社, 2002.\n[…]\nKofun - World History Encyclopedia\n[…]\nJapanese Archaeology: Kofun Culture\n[…]\n(In Japanese) Decorated Kofun Database"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Kofun",
+        "situacao": "ok",
+        "texto": "Os kofun (古墳; literalmente, “túmulo antigo”) referem-se geralmente aos túmulos megalíticos no Japão; embora num jeito mais estrito refira às grandes construções megalíticas, cuja origem remota pode estar na China, e que foram realizadas como tumbas para as pessoas influentes e de alta hierarquia no Antigo Japão, da segunda metade do século III até a primeira metade do século VII, e cujo nome deu o\n[…]\nOs túmulos kofun tiveram diferentes formas através da sua história: a original foi o kofun circular (円墳, enpun), seguido do kofun retangular (前方後方, zenpō kōhō) e do kofun quadrado (方墳, hōfun). O mais conhecido é o kofun com a forma de olho de fechadura (前方後円, zenpō kōen).\n[…]\nOs zenpō kōen são construções criadas originalmente no Japão.\n[…]\nHildja Yukino Wittig: Megalithgräber in Yamato aus drei Perioden der Kofun-Zeit : mit einem Exkurs über das Fujinoki-kofun (zwischen 560 und 590). Com uma tradução parcial do “Sanryōshi” de Gamō Kunpei (1808). Hänsel-Hohenhausen, Egelsbach 1994, ISBN 3-8267-2070-9\n[…]\n前方後円墳と古代日朝関係 (Os zenpō kōen e relações diplomáticas entre o antigo Japão e Coreia), 朝鮮学会編, 東京, 同成社, 2002.\n[…]\nEste artigo foi inicialmente traduzido, total ou parcialmente, do artigo da Wikipédia em castelhano cujo título é «Kofun», especificamente desta versão.\n[…]\nPeríodo Kofun. Clubmanga.net\n[…]\nEnciclopédia de Kofun da cidade de Sakai (em inglês)\n[…]\nArqueologia japonesa: Cultura Kofun (em inglês)\n[…]\nPeríodo Kofun (em inglês)\n[…]\nArqueologia pré-histórica do Japão (em inglês)\n[…]\nPeríodo Kofun",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
