@@ -1,0 +1,421 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "As fontes apontam a respiração (CO2) dos visitantes; 'calor' não está sustentado.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1963, a caverna de Lascaux, na França, foi fechada ao público porque suas pinturas se deterioravam. O que, vindo dos visitantes, as prejudicava?",
+        "resposta": "A respiração dos visitantes",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Lascaux"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta sai direto do ano 1940 dado no enunciado; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Sautuola era arqueólogo amador, não 'explorador'; resposta imprecisa.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Segundo o relato tradicional, em 1879, quem foi a primeira pessoa a reparar nos bisões pintados no teto da caverna espanhola de Altamira?",
+        "resposta": "María, filha de Sautuola",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cave_of_Altamira"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato amplamente documentado (acusação de falsificação até 1902); pergunta clara.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O filme não mostra a caverna original (usa cenário); a ligação literal é com o romance de Ondaatje adaptado.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "A Caverna dos Nadadores, no deserto egípcio, é citada num romance de Michael Ondaatje, adaptado ao cinema num filme vencedor do Oscar de melhor filme. Qual?",
+        "resposta": "O Paciente Inglês",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Cave_of_Swimmers",
+          "https://pt.wikipedia.org/wiki/Caverna_dos_Nadadores"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fato bem documentado; fonte trata das mudanças climáticas retratadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta, distratores plausíveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ocre é o pigmento clássico das pinturas rupestres; pergunta precisa.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado e pergunta limpa.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fontes sustentam o papel de Niède Guidon.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte dá 'riscada' ou 'pintada'; resposta só com 'pintada' é incompleta.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Gravuras pré-históricas em rocha, como as da Pedra do Ingá, são chamadas de itacoatiaras. Em tupi, o que essa palavra significa?",
+        "resposta": "Pedra riscada (ou pintada)",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Pedra_do_Ing%C3%A1"
+        ]
+      }
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Correta com distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido inspirado em Lucy confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia tupi 'conchas amontoadas' sustenta a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Uso de conchas de sambaquis para fazer cal é bem documentado e aparece na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tradução confirmada nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Antes da agricultura' é impreciso (há indícios de cereais) e os distratores anacrônicos são fáceis demais.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Os enormes pilares de pedra de Göbekli Tepe, na Turquia, foram erguidos numa época em que a agricultura mal começava. Por que tipo de povo?",
+        "resposta": "Caçadores-coletores",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/G%C3%B6bekli_Tepe"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Entrada pelo teto confirmada na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Livro de Josué: trombetas; fato sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Nilo só entra em algumas definições; o enunciado afirma como regra geral.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Na definição mais ampla, o Crescente Fértil, berço da agricultura no Oriente Médio, vai do Nilo até os vales de quais dois rios?",
+        "resposta": "Tigre e Eufrates",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Crescente_F%C3%A9rtil",
+          "https://en.wikipedia.org/wiki/Fertile_Crescent"
+        ]
+      }
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Chama o bronze de 'metal', mas ele próprio é uma liga.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "O bronze, liga que deu nome a toda uma era da Antiguidade, é feito de cobre com qual outro metal?",
+        "resposta": "Estanho",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bronze",
+          "https://en.wikipedia.org/wiki/Bronze"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Thomsen, curador em Copenhague, confirmado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Domesticação única no sul do México há cerca de 9 mil anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome vem de cuneus, cunha; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Autodenominação 'povo de cabeça preta' é bem documentada; pergunta interessante.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem sumeriana do sistema sexagesimal confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hino com a receita mais antiga de cerveja, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aleph boi, bet casa; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jōmon significa padrão de corda; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado em sindi confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Localização no Paquistão confirmada; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Etimologia khalkos + lithos confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cnossos ligado ao Minotauro e ao Labirinto.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ventris, arquiteto autodidata, decifrou em 1952.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome dado por Schliemann; máscara 300-400 anos anterior à época lendária.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Schliemann encontrou a máscara em 1876.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aglomerado de sete estrelas interpretado como Plêiades; 'representariam' é prudente.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O apelido vem dos Alpes de Ötztal (cordilheira), não só do vale.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O homem do gelo de mais de cinco mil anos, achado em 1991 na fronteira entre Áustria e Itália, ganhou o apelido Ötzi por causa de quê?",
+        "resposta": "Dos Alpes de Ötztal, onde foi achado",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/%C3%96tzi"
+        ]
+      }
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ponta de flecha revelada em 2001; 'provavelmente' adequado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tempestade expôs Skara Brae em 1850.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alinhamento com o solstício de inverno confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedras azuis vieram do País de Gales; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lenda bretã de soldados romanos petrificados é conhecida; enunciado marca como lenda.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Men + hir, pedra longa; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Obelix é escultor e entregador de menires; fato exato.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dólmens também são chamados antas em Portugal.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Willendorf fica na Áustria; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escultura de marfim de mamute confirmada na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Flauta de osso de abutre confirmada.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1963, a caverna de Lascaux, na França, foi fechada ao público porque suas pinturas se deterioravam. O que, vindo dos visitantes, as prejudicava?",
+        "resposta": "A respiração dos visitantes"
+      },
+      "existentes": [
+        {
+          "id": "q03066",
+          "pergunta": "Em 1940, na França, quem descobriu as pinturas pré-históricas da caverna de Lascaux?",
+          "resposta": "Quatro adolescentes da região"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O Parque Nacional da Serra da Capivara, com milhares de pinturas rupestres e o sítio da Pedra Furada, fica em que estado brasileiro?",
+        "resposta": "Piauí"
+      },
+      "existentes": [
+        {
+          "id": "q02430",
+          "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+          "resposta": "Piauí"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que arqueóloga brasileira liderou as pesquisas e a luta pela criação do Parque Nacional da Serra da Capivara?",
+        "resposta": "Niède Guidon"
+      },
+      "existentes": [
+        {
+          "id": "q02430",
+          "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+          "resposta": "Piauí"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O apelido Luzia, dado a um crânio humano de cerca de onze mil anos achado em Minas Gerais, homenageia qual fóssil africano famoso?",
+        "resposta": "Lucy"
+      },
+      "existentes": [
+        {
+          "id": "q02787",
+          "pergunta": "O antropólogo Walter Neves batizou o fóssil brasileiro Luzia em homenagem a que outro fóssil famoso?",
+          "resposta": "Lucy"
+        },
+        {
+          "id": "q02788",
+          "pergunta": "Em 2018, o crânio de Luzia ficou semanas soterrado sob escombros por causa de que tragédia no Rio de Janeiro?",
+          "resposta": "Incêndio do Museu Nacional"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "As chamadas pedras azuis de Stonehenge, as menores do monumento, foram trazidas de colinas de que região do Reino Unido?",
+        "resposta": "País de Gales"
+      },
+      "existentes": [
+        {
+          "id": "q00381",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Stonehenge"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a causa do fechamento da caverna, não sobre quem a descobriu."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o estado em que fica o Parque Nacional da Serra da Capivara; resposta Piauí."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a arqueóloga, fato diferente da localização do parque."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Luzia batizada em homenagem a Lucy."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Origem das pedras azuis é fato diferente da identificação do monumento."
+    }
+  ]
+}
