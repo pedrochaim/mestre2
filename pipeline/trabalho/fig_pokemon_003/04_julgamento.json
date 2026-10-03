@@ -1,0 +1,461 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Togepi",
+        "descricao": "Pokémon do tipo Fada, bebê em forma de ovo, número 175 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "togepi",
+          "nome": "Togepi",
+          "descricao": "Pokémon do tipo Fada, número 175 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "utopia",
+          "nome": "Utopia",
+          "descricao": "Ilha imaginária com uma sociedade ideal, descrita no livro de mesmo nome publicado em 1516.",
+          "variantes": [
+            "Utopia (livro)",
+            "Ilha de Utopia"
+          ]
+        },
+        {
+          "id": "utopia_2",
+          "nome": "Utopia",
+          "descricao": "Livro de Thomas More, publicado em 1516, que descreve uma ilha com uma sociedade ideal.",
+          "variantes": [
+            "Utopia (livro)",
+            "Utopia de Thomas More",
+            "A Utopia"
+          ]
+        },
+        {
+          "id": "etiopia",
+          "nome": "Etiópia",
+          "descricao": "País sem litoral do Chifre da África, com capital em Adis Abeba.",
+          "variantes": [
+            "Ethiopia",
+            "Abissínia"
+          ]
+        },
+        {
+          "id": "toga",
+          "nome": "Toga",
+          "descricao": "Manto de lã enrolado ao corpo, traje característico dos cidadãos da Roma Antiga",
+          "variantes": [
+            "Toga romana"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Geodude",
+        "descricao": "Pokémon pedra e terra da primeira geração, uma rocha com dois braços, número 74 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "geodude",
+          "nome": "Geodude",
+          "descricao": "Pokémon dos tipos Pedra e Terra, número 74 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "fondue",
+          "nome": "Fondue",
+          "descricao": "Prato suíço de queijo e vinho derretidos numa panela comum, no qual se mergulham pão e outros alimentos.",
+          "variantes": [
+            "Fondue de queijo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Spheal",
+        "descricao": "Pokémon gelo e água da terceira geração, uma bola com focinho de foca, número 363 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sahel",
+          "nome": "Sahel",
+          "descricao": "Faixa semiárida da África que se estende de leste a oeste logo ao sul do Deserto do Saara",
+          "variantes": [
+            "Sael"
+          ]
+        },
+        {
+          "id": "perola",
+          "nome": "Pérola",
+          "descricao": "Gema orgânica formada dentro de ostras e outros moluscos.",
+          "variantes": [
+            "Pearl"
+          ]
+        },
+        {
+          "id": "circuito_de_spa_francorchamps",
+          "nome": "Circuito de Spa-Francorchamps",
+          "descricao": "Circuito nas Ardenas, na Bélgica.",
+          "variantes": [
+            "Spa-Francorchamps",
+            "Spa"
+          ]
+        },
+        {
+          "id": "hal_9000",
+          "nome": "HAL 9000",
+          "descricao": "Computador fictício com inteligência artificial do filme 2001: Uma Odisseia no Espaço, de 1968.",
+          "variantes": [
+            "HAL"
+          ]
+        },
+        {
+          "id": "arsenal",
+          "nome": "Arsenal",
+          "descricao": "Arsenal Football Club, clube de futebol de Londres fundado em 1886 no bairro de Woolwich.",
+          "variantes": [
+            "Arsenal FC",
+            "Arsenal F.C."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Klefki",
+        "descricao": "Pokémon aço e fada da sexta geração, um chaveiro com chaves, número 707 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "kemet",
+          "nome": "Kemet",
+          "descricao": "Nome que os antigos egípcios davam ao próprio país",
+          "variantes": [
+            "Kmt",
+            "Kemi"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Rattata",
+        "descricao": "Pokémon rato do tipo Normal da primeira geração, número 19 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "batata",
+          "nome": "Batata",
+          "descricao": "Tubérculo comestível da planta Solanum tuberosum, nativa dos Andes",
+          "variantes": [
+            "Solanum tuberosum",
+            "batata-inglesa",
+            "potato"
+          ]
+        },
+        {
+          "id": "sauva",
+          "nome": "Saúva",
+          "descricao": "Formigas cortadeiras do gênero Atta, que cortam folhas e as levam para o formigueiro.",
+          "variantes": [
+            "Atta",
+            "formiga-cortadeira",
+            "leafcutter ant"
+          ]
+        },
+        {
+          "id": "boitata",
+          "nome": "Boitatá",
+          "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia.",
+          "variantes": [
+            "Baitatá",
+            "Mboitatá",
+            "Batatão"
+          ]
+        },
+        {
+          "id": "gravata",
+          "nome": "Gravata",
+          "descricao": "Peça de tecido usada amarrada ao pescoço, sob o colarinho da camisa.",
+          "variantes": [
+            "Necktie",
+            "Cravate"
+          ]
+        },
+        {
+          "id": "krakatoa",
+          "nome": "Krakatoa",
+          "descricao": "Ilha vulcânica no estreito de Sunda, na Indonésia, cuja erupção de 1883 foi uma das mais violentas da história.",
+          "variantes": [
+            "Krakatau",
+            "Cracatoa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sableye",
+        "descricao": "Pokémon sombrio e fantasma da terceira geração, número 302 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "sableye",
+          "nome": "Sableye",
+          "descricao": "Pokémon dos tipos Sombrio e Fantasma, número 302 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "stan_lee",
+          "nome": "Stan Lee",
+          "descricao": "Roteirista e editor americano da Marvel, cocriador do Homem-Aranha, do Hulk e do Quarteto Fantástico",
+          "variantes": [
+            "Stanley Lieber"
+          ]
+        },
+        {
+          "id": "scrabble",
+          "nome": "Scrabble",
+          "descricao": "Jogo de tabuleiro de formar palavras com peças de letras, criado pelo arquiteto americano Alfred Butts.",
+          "variantes": [
+            "Palavras Cruzadas"
+          ]
+        },
+        {
+          "id": "cometa_halley",
+          "nome": "Cometa Halley",
+          "descricao": "Cometa periódico visível a olho nu que volta às proximidades da Terra em intervalos regulares.",
+          "variantes": [
+            "Halley",
+            "1P/Halley",
+            "Halley's Comet"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Chingling",
+        "descricao": "Pokémon psíquico bebê da quarta geração, número 433 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "cintilacao_estelar",
+          "nome": "Cintilação estelar",
+          "descricao": "Variação rápida do brilho das estrelas vistas da superfície da Terra, o popular piscar das estrelas.",
+          "variantes": [
+            "Cintilação",
+            "Twinkling"
+          ]
+        },
+        {
+          "id": "crinolina",
+          "nome": "Crinolina",
+          "descricao": "Armação rígida de aros usada sob as saias para deixá-las amplas e rodadas",
+          "variantes": [
+            "Crinoline",
+            "Saia-balão"
+          ]
+        },
+        {
+          "id": "gengis_khan",
+          "nome": "Gengis Khan",
+          "descricao": "Fundador e primeiro grão-khan do Império Mongol, morto em 1227.",
+          "variantes": [
+            "Genghis Khan",
+            "Chinggis Khan",
+            "Temujin"
+          ]
+        },
+        {
+          "id": "curling",
+          "nome": "Curling",
+          "descricao": "Esporte de inverno em que se desliza uma pedra de granito no gelo até um alvo.",
+          "variantes": []
+        },
+        {
+          "id": "dedo_anelar",
+          "nome": "Dedo anelar",
+          "descricao": "Quarto dedo da mão, onde tradicionalmente se usa a aliança de noivado ou de casamento.",
+          "variantes": [
+            "Anelar",
+            "Ring finger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Abra",
+        "descricao": "Pokémon psíquico da primeira geração, número 63 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "american_basketball_association",
+          "nome": "American Basketball Association",
+          "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976.",
+          "variantes": [
+            "ABA"
+          ]
+        },
+        {
+          "id": "abraao",
+          "nome": "Abraão",
+          "descricao": "Patriarca bíblico considerado ancestral espiritual do judaísmo, do cristianismo e do islã",
+          "variantes": [
+            "Abraham",
+            "Ibrahim"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        },
+        {
+          "id": "abba",
+          "nome": "ABBA",
+          "descricao": "Grupo pop sueco formado em 1972 por Agnetha, Björn, Benny e Anni-Frid",
+          "variantes": []
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Butterfree",
+        "descricao": "Pokémon borboleta do tipo Inseto e Voador da primeira geração, número 12 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "efeito_borboleta",
+          "nome": "Efeito borboleta",
+          "descricao": "Ideia da teoria do caos segundo a qual pequenas mudanças nas condições iniciais podem gerar grandes diferenças, popularizada por Edward Lorenz.",
+          "variantes": [
+            "Butterfly effect"
+          ]
+        },
+        {
+          "id": "terere",
+          "nome": "Tereré",
+          "descricao": "Infusão de erva-mate preparada com água gelada, tradicional no Paraguai e no Centro-Oeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "frequencia_de_letras",
+          "nome": "Frequência de letras",
+          "descricao": "Medida de quantas vezes cada letra aparece nos textos de uma língua",
+          "variantes": [
+            "Letter frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Cottonee",
+        "descricao": "Pokémon planta e fada da quinta geração, uma bola de algodão, número 546 da Pokédex Nacional.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "corto_maltese",
+          "nome": "Corto Maltese",
+          "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+          "variantes": [
+            "Corto"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "togepi",
+      "motivo": "Mesmo Pokémon, Togepi, número 175."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "geodude",
+      "motivo": "Mesmo Pokémon, Geodude, número 74."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Spheal."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Klefki."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Rattata."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "sableye",
+      "motivo": "Mesmo Pokémon, Sableye, número 302."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Chingling."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Pokémon Abra."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Butterfree."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Cottonee."
+    }
+  ]
+}

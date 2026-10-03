@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Togepi evolui só em Togetic. Os distratores são fadas que não evoluem dele.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Snivy evolui em Servine. Os distratores são evoluções de iniciais de Planta de outras gerações.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão de silhueta. Os distratores são parecidos e plausíveis, e nenhum é Geodude.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão de silhueta. Os distratores são do mesmo tipo (gelo e água ou parecidos) e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão de silhueta. O chaveiro tem forma característica, e os distratores são de aço ou objetos e plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Rattata evolui em Raticate, inclusive na forma de Alola. A pergunta não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão de silhueta, com resposta única. A forma de Sableye é reconhecível.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Chingling evolui em Chimecho. Os distratores são plausíveis e nenhum é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta padrão de silhueta, com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Butterfree evolui de Metapod. Os distratores são casulos de outras linhas evolutivas.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Cottonee evolui em Whimsicott com a Pedra do Sol, e o enunciado está correto. A resposta mistura inglês e português entre parênteses, o que atrapalha a leitura em voz alta. Basta a forma em português.",
+      "reescrita": {
+        "pergunta": "Que pedra faz este pokémon evoluir?",
+        "resposta": "Pedra do Sol",
+        "distratores": []
+      }
+    }
+  ]
+}

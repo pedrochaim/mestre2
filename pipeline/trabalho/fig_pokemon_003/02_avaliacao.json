@@ -1,0 +1,236 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Silhueta de ovo com espinhos e pés reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Togetic",
+      "distratores": [
+        "Clefable",
+        "Granbull",
+        "Azumarill"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Togepi",
+        "descricao": "Pokémon do tipo Fada, bebê em forma de ovo, número 175 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Silhueta clara: cabeça alongada, cauda de folhas.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Servine",
+      "distratores": [
+        "Quilladin",
+        "Grotle",
+        "Bayleef"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Snivy",
+        "descricao": "Pokémon inicial do tipo Planta da quinta geração, número 495 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A silhueta não mostra a azeitona da cabeça e parece um pinguim; não corresponde à arte e pode ser confundida com outro pokémon.",
+      "usar_silhueta": false
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Silhueta característica: cabeça rochosa e dois braços.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Geodude",
+      "distratores": [
+        "Graveler",
+        "Roggenrola",
+        "Golem"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Geodude",
+        "descricao": "Pokémon pedra e terra da primeira geração, uma rocha com dois braços, número 74 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Bola com nadadeira caudal, razoavelmente reconhecível; melhor em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Spheal",
+      "distratores": [
+        "Phanpy",
+        "Swinub",
+        "Sealeo"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Spheal",
+        "descricao": "Pokémon gelo e água da terceira geração, uma bola com focinho de foca, número 363 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Chaveiro com chaves, silhueta única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Klefki",
+      "distratores": [
+        "Honedge",
+        "Klink",
+        "Bronzor"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Klefki",
+        "descricao": "Pokémon aço e fada da sexta geração, um chaveiro com chaves, número 707 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Silhueta com bigodes, dentes e cauda enrolada reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Raticate",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Rattata",
+        "descricao": "Pokémon rato do tipo Normal da primeira geração, número 19 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Orelhas pontudas, garras e cauda, silhueta característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Sableye",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Sableye",
+        "descricao": "Pokémon sombrio e fantasma da terceira geração, número 302 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Corpo redondo com os dois sinos em forma de orelhas, silhueta reconhecível por aficionados.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que pokémon este evolui?",
+      "resposta": "Chimecho",
+      "distratores": [
+        "Bronzong",
+        "Natu",
+        "Duskull"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Chingling",
+        "descricao": "Pokémon psíquico bebê da quarta geração, número 433 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cabeça de gato, cauda grande e braços, silhueta clara.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é esse pokémon?",
+      "resposta": "Abra",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Abra",
+        "descricao": "Pokémon psíquico da primeira geração, número 63 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Silhueta de borboleta com antenas, boa forma.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que pokémon este evolui?",
+      "resposta": "Metapod",
+      "distratores": [
+        "Kakuna",
+        "Silcoon",
+        "Cascoon"
+      ],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Butterfree",
+        "descricao": "Pokémon borboleta do tipo Inseto e Voador da primeira geração, número 12 da Pokédex Nacional.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Nuvem de algodão com folhas laterais, silhueta característica.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que pedra faz este pokémon evoluir?",
+      "resposta": "Sun Stone (Pedra do Sol)",
+      "distratores": [],
+      "destino": 0,
+      "usar_silhueta": true,
+      "ancora": {
+        "nome": "Cottonee",
+        "descricao": "Pokémon planta e fada da quinta geração, uma bola de algodão, número 546 da Pokédex Nacional.",
+        "variantes": []
+      }
+    }
+  ]
+}
