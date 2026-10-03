@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de uma planta emblemática. Não há vazamento. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Aquática sagrada em muitas culturas asiáticas' quase entrega o lótus sem a imagem. Basta tirar a pista.",
+      "reescrita": {
+        "pergunta": "Que planta aquática é esta?",
+        "resposta": "Lótus"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Fruta' e 'rasteira' ajudam sem entregar. A melancia é uma trepadeira rastejante e produz um grande fruto, como dizem os trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que 'primavera' e 'buganvília' são nomes populares do gênero. O parêntese evita uma injustiça. O enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O indúsio é a estrutura rendada do Phallus indusiatus, e o trecho cita 'pink-coloured indusium'. Os distratores são termos micológicos plausíveis e nenhum deles está correto. Não há vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado nomeia a entidade ('planta de milho'). Os trechos confirmam que o pendão (tassel) produz o pólen. O nome do milho sai do enunciado.",
+      "reescrita": {
+        "pergunta": "No topo desta gramínea cultivada pelos grãos, há uma estrutura que produz o pólen. Como ela se chama?",
+        "resposta": "Pendão",
+        "distratores": [
+          "Espiga",
+          "Sabugo",
+          "Palha"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Tropical' não é literalmente exato: a planta é nativa da África do Sul, na região do Cabo e de KwaZulu-Natal. A estrelícia é um nome popular igualmente comum e deve constar na resposta.",
+      "reescrita": {
+        "pergunta": "Que flor de cores laranja e azul é esta?",
+        "resposta": "Ave-do-paraíso (estrelícia)"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A pergunta é de reconhecimento e a babosa é uma suculenta, como diz o trecho. A resposta traz 'aloe vera' entre parênteses, e isso é apropriado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são árvores de flores roxas ou lilases, parecidas com a resposta, e nenhum deles está correto. O enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Flor rosada de cinco pétalas, com folhas serrilhadas e caule espinhoso, de roseira silvestre; nítida e legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que flor é esta?",
+      "resposta": "Rosa",
+      "ancora": {
+        "nome": "Rosa",
+        "descricao": "Planta lenhosa do gênero Rosa, da família Rosaceae, ou a flor que ela produz.",
+        "variantes": [
+          "Roseira",
+          "Rosa silvestre",
+          "Rosa (gênero)"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Flor de lótus em close, com o receptáculo amarelo central e as folhas redondas. Nítida e inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que planta aquática sagrada em muitas culturas asiáticas é esta?",
+      "resposta": "Lótus",
+      "ancora": {
+        "nome": "Lótus",
+        "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+        "variantes": [
+          "Flor-de-lótus",
+          "Lótus-sagrado",
+          "Nelumbo nucifera"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Imagem minúscula e de baixa resolução (cerca de 150 pixels), com folhas e flores indistintas. Não fica legível num celular, e a espécie não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Melancias com listras escuras entre as folhas recortadas da planta rasteira. Nítida e reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que fruta cresce nesta planta rasteira?",
+      "resposta": "Melancia",
+      "ancora": {
+        "nome": "Melancia",
+        "descricao": "Planta rasteira Citrullus lanatus, da família Cucurbitaceae, que produz um grande fruto de polpa doce e suculenta.",
+        "variantes": [
+          "Citrullus lanatus"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Close de flores magenta (brácteas) com pequenas flores brancas no centro. Típico da buganvília, nítido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que planta ornamental trepadeira é esta?",
+      "resposta": "Buganvília (primavera)",
+      "ancora": {
+        "nome": "Primavera (buganvília)",
+        "descricao": "Planta trepadeira ornamental do gênero Bougainvillea, com brácteas coloridas que envolvem pequenas flores brancas.",
+        "variantes": [
+          "Buganvília",
+          "Bougainvillea",
+          "Três-marias"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Fungo com chapéu alveolado e saia rendada branca bem visível, inconfundível. Nítido e sem texto.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Este fungo tem uma estrutura branca, rendada, que pende sob o chapéu. Como ela se chama?",
+      "resposta": "Indúsio",
+      "distratores": [
+        "Volva",
+        "Anel",
+        "Himênio"
+      ],
+      "ancora": {
+        "nome": "Cogumelo-véu-de-noiva",
+        "descricao": "Fungo Phallus indusiatus, da família Phallaceae, com chapéu alveolado e uma saia rendada branca, o indúsio.",
+        "variantes": [
+          "Véu-de-noiva",
+          "Phallus indusiatus",
+          "Dictyophora indusiata",
+          "Dama-velada"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pendão (inflorescência masculina) no topo de uma planta de milho, com folhas largas e céu azul. Nítido e sem texto.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "No topo desta planta de milho, como se chama esta estrutura que produz o pólen?",
+      "resposta": "Pendão",
+      "distratores": [
+        "Espiga",
+        "Sabugo",
+        "Palha"
+      ],
+      "ancora": {
+        "nome": "Milho",
+        "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+        "variantes": [
+          "Zea mays",
+          "Maize"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Flor laranja e azul de forma inconfundível, em close nítido, com bom contraste.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que flor tropical é esta?",
+      "resposta": "Ave-do-paraíso",
+      "ancora": {
+        "nome": "Ave-do-paraíso",
+        "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+        "variantes": [
+          "Estrelítzia",
+          "Strelitzia reginae",
+          "Flor-da-rainha"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A flor é inconfundível, mas há uma plaquinha de identificação no jardim botânico, na base. Ela traz texto (nome e família) que pode entregar a resposta, e não dá para garantir que seja ilegível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Roseta de folhas suculentas de borda dentada, típicas da babosa, em foto nítida e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "tipo": "aberta",
+      "pergunta": "Que planta suculenta é esta?",
+      "resposta": "Babosa (aloe vera)",
+      "ancora": {
+        "nome": "Babosa",
+        "descricao": "Planta suculenta Aloe vera, de folhas carnosas e dentadas, originária da Península Arábica.",
+        "variantes": [
+          "Aloe vera",
+          "Aloé",
+          "Aloe barbadensis"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Árvore inteira coberta de flores azul-violeta, nítida e sem texto. Distratores arbóreos de floração roxa tornam a escolha justa.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que árvore florida é esta?",
+      "resposta": "Jacarandá-mimoso",
+      "distratores": [
+        "Ipê-roxo",
+        "Quaresmeira",
+        "Resedá"
+      ],
+      "ancora": {
+        "nome": "Jacarandá-mimoso",
+        "descricao": "Árvore subtropical Jacaranda mimosifolia, nativa do sul da América do Sul, de flores violeta.",
+        "variantes": [
+          "Jacarandá",
+          "Jacaranda mimosifolia",
+          "Jacarandá azul"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Tronco grosso com protuberâncias e copa rala, sem flores nem frutos. Pode ser confundido com baobá, paineira e outras árvores de tronco largo, então a resposta não é única diante da imagem."
+    }
+  ]
+}

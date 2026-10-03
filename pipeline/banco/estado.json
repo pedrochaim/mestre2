@@ -164,9 +164,10 @@
     "fig_ciencia_natural_004",
     "fig_vida_marinha_002",
     "ciencias_meio_ambiente_e_energia_01",
-    "fig_instrumentos_jogos_002"
+    "fig_instrumentos_jogos_002",
+    "fig_plantas_002"
   ],
-  "maior_id": 4170,
+  "maior_id": 4179,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -580,14 +581,15 @@
     },
     "plantas": {
       "familias": {
-        "o_que_e": 5,
-        "com_o_que_se_liga": 1
+        "o_que_e": 12,
+        "com_o_que_se_liga": 1,
+        "que_parte": 2
       },
       "niveis": {
-        "1": 2,
-        "2": 4
+        "1": 8,
+        "2": 7
       },
-      "registradas": 6
+      "registradas": 15
     },
     "dinossauros": {
       "familias": {

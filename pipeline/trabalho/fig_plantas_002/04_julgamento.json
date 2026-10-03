@@ -1,0 +1,565 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Rosa",
+        "descricao": "Planta lenhosa do gênero Rosa, da família Rosaceae, ou a flor que ela produz.",
+        "variantes": [
+          "Roseira",
+          "Rosa silvestre",
+          "Rosa (gênero)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "roma",
+          "nome": "Romã",
+          "descricao": "Fruto da romãzeira (Punica granatum), de casca avermelhada e coroa de sépalas.",
+          "variantes": [
+            "Granada",
+            "Pomegranate"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda"
+          ]
+        },
+        {
+          "id": "roma_2",
+          "nome": "Roma",
+          "descricao": "Capital da Itália, às margens do rio Tibre.",
+          "variantes": [
+            "Rome"
+          ]
+        },
+        {
+          "id": "ilhas_flutuantes_dos_uros",
+          "nome": "Ilhas flutuantes dos uros",
+          "descricao": "Ilhas artificiais construídas pelo povo uro no lago Titicaca, no Peru.",
+          "variantes": [
+            "Islas de los Uros",
+            "Uros"
+          ]
+        },
+        {
+          "id": "croissant",
+          "nome": "Croissant",
+          "descricao": "Pão folhado amanteigado em forma de meia-lua, símbolo da padaria francesa",
+          "variantes": [
+            "Croassã"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Lótus",
+        "descricao": "Planta aquática Nelumbo nucifera, da família Nelumbonaceae, de grandes flores rosadas, sagrada no hinduísmo e no budismo.",
+        "variantes": [
+          "Flor-de-lótus",
+          "Lótus-sagrado",
+          "Nelumbo nucifera"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lotus",
+          "nome": "Lotus",
+          "descricao": "Equipe britânica de Fórmula 1 fundada por Colin Chapman, que competiu de 1958 a 1994.",
+          "variantes": [
+            "Team Lotus"
+          ]
+        },
+        {
+          "id": "lost",
+          "nome": "Lost",
+          "descricao": "Série americana exibida de 2004 a 2010, sobre um grupo de pessoas presas numa ilha misteriosa do Pacífico.",
+          "variantes": [
+            "Lost (série)"
+          ]
+        },
+        {
+          "id": "laos",
+          "nome": "Laos",
+          "descricao": "País sem litoral do Sudeste Asiático, entre Vietnã, Tailândia, Camboja, Mianmar e China, com capital em Vientiane.",
+          "variantes": [
+            "República Democrática Popular do Laos"
+          ]
+        },
+        {
+          "id": "polvo",
+          "nome": "Polvo",
+          "descricao": "Molusco cefalópode marinho de oito braços e corpo mole, do gênero Octopus e afins.",
+          "variantes": [
+            "Octopus"
+          ]
+        },
+        {
+          "id": "corn_flakes",
+          "nome": "Corn Flakes",
+          "descricao": "Flocos de milho torrados criados no fim do século dezenove no sanatório de Battle Creek, em Michigan.",
+          "variantes": [
+            "Flocos de milho",
+            "Sucrilhos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Melancia",
+        "descricao": "Planta rasteira Citrullus lanatus, da família Cucurbitaceae, que produz um grande fruto de polpa doce e suculenta.",
+        "variantes": [
+          "Citrullus lanatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "malaca",
+          "nome": "Malaca",
+          "descricao": "Cidade portuária no estreito de Malaca, conquistada pelos portugueses de Afonso de Albuquerque em 1511.",
+          "variantes": [
+            "Malacca",
+            "Melaka"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        },
+        {
+          "id": "lacraia",
+          "nome": "Lacraia",
+          "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+          "variantes": [
+            "Centopeia",
+            "Quilópode",
+            "Chilopoda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Primavera (buganvília)",
+        "descricao": "Planta trepadeira ornamental do gênero Bougainvillea, com brácteas coloridas que envolvem pequenas flores brancas.",
+        "variantes": [
+          "Buganvília",
+          "Bougainvillea",
+          "Três-marias"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tres_marias",
+          "nome": "Três Marias",
+          "descricao": "Trio de estrelas alinhadas, Alnitak, Alnilam e Mintaka, bem visível no céu brasileiro.",
+          "variantes": [
+            "Cinturão de Órion",
+            "Orion's Belt"
+          ]
+        },
+        {
+          "id": "primavera_silenciosa",
+          "nome": "Primavera Silenciosa",
+          "descricao": "Livro de 1962 da bióloga americana Rachel Carson sobre os efeitos dos pesticidas no ambiente.",
+          "variantes": [
+            "Silent Spring"
+          ]
+        },
+        {
+          "id": "maria_mae_de_jesus",
+          "nome": "Maria, mãe de Jesus",
+          "descricao": "Mãe de Jesus, venerada no cristianismo e no islã",
+          "variantes": [
+            "Virgem Maria",
+            "Nossa Senhora",
+            "Maryam"
+          ]
+        },
+        {
+          "id": "brasilia",
+          "nome": "Brasília",
+          "descricao": "Capital federal do Brasil, cidade planejada inaugurada em 1960.",
+          "variantes": [
+            "Plano Piloto"
+          ]
+        },
+        {
+          "id": "baunilha",
+          "nome": "Baunilha",
+          "descricao": "Especiaria aromática obtida das vagens curadas de plantas do gênero Vanilla",
+          "variantes": [
+            "Vanilla"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cogumelo-véu-de-noiva",
+        "descricao": "Fungo Phallus indusiatus, da família Phallaceae, com chapéu alveolado e uma saia rendada branca, o indúsio.",
+        "variantes": [
+          "Véu-de-noiva",
+          "Phallus indusiatus",
+          "Dictyophora indusiata",
+          "Dama-velada"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vestido_de_noiva",
+          "nome": "Vestido de Noiva",
+          "descricao": "Peça de Nelson Rodrigues estreada em 1943, marco do teatro moderno brasileiro.",
+          "variantes": []
+        },
+        {
+          "id": "marmalade",
+          "nome": "Marmalade",
+          "descricao": "Geleia de frutas cítricas típica da Grã-Bretanha, cujo nome vem do português",
+          "variantes": [
+            "Marmelada"
+          ]
+        },
+        {
+          "id": "venus_de_urbino",
+          "nome": "Vênus de Urbino",
+          "descricao": "Quadro de Ticiano de 1538, na Galeria Uffizi.",
+          "variantes": []
+        },
+        {
+          "id": "lhama",
+          "nome": "Lhama",
+          "descricao": "Camelídeo doméstico sul-americano (Lama glama), usado como animal de carga e fonte de carne e lã nos Andes.",
+          "variantes": [
+            "Llama",
+            "Lama glama"
+          ]
+        },
+        {
+          "id": "estatua_de_zeus_em_olimpia",
+          "nome": "Estátua de Zeus em Olímpia",
+          "descricao": "Estátua colossal de ouro e marfim de Zeus, feita por Fídias, uma das sete maravilhas do mundo antigo.",
+          "variantes": [
+            "Statue of Zeus at Olympia",
+            "Zeus de Olímpia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Milho",
+        "descricao": "Gramínea alta Zea mays, domesticada no México, cultivada pelos grãos.",
+        "variantes": [
+          "Zea mays",
+          "Maize"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "phil_jackson",
+          "nome": "Phil Jackson",
+          "descricao": "Técnico americano campeão da NBA com o Chicago Bulls e com o Los Angeles Lakers.",
+          "variantes": [
+            "Mestre Zen",
+            "Zen Master"
+          ]
+        },
+        {
+          "id": "moais_da_ilha_de_pascoa",
+          "nome": "Moais da Ilha de Páscoa",
+          "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+          "variantes": [
+            "Moai",
+            "Estátuas da Ilha de Páscoa"
+          ]
+        },
+        {
+          "id": "rio_nilo",
+          "nome": "Rio Nilo",
+          "descricao": "Grande rio do nordeste da África que atravessa o Sudão e o Egito até o mar Mediterrâneo.",
+          "variantes": [
+            "Nilo",
+            "Nile"
+          ]
+        },
+        {
+          "id": "erva_mate",
+          "nome": "Erva-mate",
+          "descricao": "Árvore sul-americana Ilex paraguariensis, cujas folhas são usadas no chimarrão e no tereré",
+          "variantes": [
+            "Ilex paraguariensis",
+            "mate",
+            "yerba mate"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Ave-do-paraíso",
+        "descricao": "Planta Strelitzia reginae, nativa da África do Sul, de flor laranja e azul.",
+        "variantes": [
+          "Estrelítzia",
+          "Strelitzia reginae",
+          "Flor-da-rainha"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maracuja",
+          "nome": "Maracujá",
+          "descricao": "Fruto das trepadeiras do gênero Passiflora, cujas flores são chamadas de flor-da-paixão",
+          "variantes": [
+            "Passiflora",
+            "flor-da-paixão",
+            "passion fruit",
+            "maracujazeiro"
+          ]
+        },
+        {
+          "id": "lontra_marinha",
+          "nome": "Lontra-marinha",
+          "descricao": "Mamífero marinho do Pacífico Norte, espécie Enhydra lutris.",
+          "variantes": [
+            "Enhydra lutris",
+            "Sea otter"
+          ]
+        },
+        {
+          "id": "elis_regina",
+          "nome": "Elis Regina",
+          "descricao": "Cantora gaúcha, uma das maiores intérpretes da MPB, morta em 1982.",
+          "variantes": [
+            "Elis Regina Carvalho Costa"
+          ]
+        },
+        {
+          "id": "motor_stirling",
+          "nome": "Motor Stirling",
+          "descricao": "Motor térmico de ciclo fechado que opera pela expansão e contração cíclica de um gás aquecido externamente.",
+          "variantes": [
+            "Stirling engine",
+            "Motor a ar quente"
+          ]
+        },
+        {
+          "id": "belem",
+          "nome": "Belém",
+          "descricao": "Capital do estado do Pará, fundada em 1616 às margens da baía do Guajará.",
+          "variantes": [
+            "Belém do Pará",
+            "Santa Maria de Belém do Grão-Pará"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Babosa",
+        "descricao": "Planta suculenta Aloe vera, de folhas carnosas e dentadas, originária da Península Arábica.",
+        "variantes": [
+          "Aloe vera",
+          "Aloé",
+          "Aloe barbadensis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "alce",
+          "nome": "Alce",
+          "descricao": "Maior espécie de cervo do mundo, de chifres espalmados, que vive nas florestas do Hemisfério Norte (Alces alces).",
+          "variantes": [
+            "Alces alces",
+            "Moose",
+            "Elk"
+          ]
+        },
+        {
+          "id": "alho",
+          "nome": "Alho",
+          "descricao": "Planta bulbosa Allium sativum, cujos bulbos de dentes são usados como tempero.",
+          "variantes": [
+            "Allium sativum"
+          ]
+        },
+        {
+          "id": "ano_sem_verao",
+          "nome": "Ano Sem Verão",
+          "descricao": "O ano de 1816, marcado por frio anormal no hemisfério norte após a erupção do Monte Tambora",
+          "variantes": [
+            "Year Without a Summer",
+            "1816"
+          ]
+        },
+        {
+          "id": "axolote",
+          "nome": "Axolote",
+          "descricao": "Salamandra mexicana (Ambystoma mexicanum) que mantém as brânquias externas na fase adulta.",
+          "variantes": [
+            "Axolotl",
+            "Ambystoma mexicanum"
+          ]
+        },
+        {
+          "id": "baoba",
+          "nome": "Baobá",
+          "descricao": "Árvore do gênero Adansonia, de tronco muito largo, típica da África e de Madagascar",
+          "variantes": [
+            "Adansonia",
+            "embondeiro",
+            "baobab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Jacarandá-mimoso",
+        "descricao": "Árvore subtropical Jacaranda mimosifolia, nativa do sul da América do Sul, de flores violeta.",
+        "variantes": [
+          "Jacarandá",
+          "Jacaranda mimosifolia",
+          "Jacarandá azul"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arara_azul_grande",
+          "nome": "Arara-azul-grande",
+          "descricao": "Maior arara e maior papagaio voador (Anodorhynchus hyacinthinus), de plumagem azul-cobalto com detalhes amarelos no rosto.",
+          "variantes": [
+            "Arara-azul",
+            "Hyacinth macaw",
+            "Anodorhynchus hyacinthinus"
+          ]
+        },
+        {
+          "id": "jacarta",
+          "nome": "Jacarta",
+          "descricao": "Maior cidade da Indonésia, na costa noroeste da ilha de Java.",
+          "variantes": [
+            "Jakarta",
+            "Djakarta",
+            "Batávia"
+          ]
+        },
+        {
+          "id": "ararinha_azul",
+          "nome": "Ararinha-azul",
+          "descricao": "Pequena arara azul (Cyanopsitta spixii) da caatinga do norte da Bahia.",
+          "variantes": [
+            "Arara-azul-de-spix",
+            "Cyanopsitta spixii"
+          ]
+        },
+        {
+          "id": "carranca",
+          "nome": "Carranca",
+          "descricao": "Escultura de rosto feroz, metade humano e metade animal, colocada na proa das embarcações do rio São Francisco.",
+          "variantes": [
+            "Carrancas do São Francisco"
+          ]
+        },
+        {
+          "id": "sagarana",
+          "nome": "Sagarana",
+          "descricao": "Livro de contos de estreia de Guimarães Rosa, publicado em 1946.",
+          "variantes": []
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a planta Rosa."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Lótus planta difere da equipe de F1 Lotus."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Melancia não está entre as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Buganvília é diferente das candidatas; Três Marias é o cinturão de Órion."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o fungo."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Milho não está entre as candidatas."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Strelitzia reginae não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Babosa/Aloe vera não está entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Jacarandá-mimoso não está entre as candidatas."
+    }
+  ]
+}
