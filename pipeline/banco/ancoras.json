@@ -53585,7 +53585,8 @@
     "descricao": "Dióxido de carbono em estado sólido, que sublima direto para gás e é usado como refrigerante.",
     "variantes": [
       "Dióxido de carbono sólido",
-      "CO2 sólido"
+      "CO2 sólido",
+      "Dry ice"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Dry_ice",
@@ -61169,6 +61170,406 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Goblin_shark",
       "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-duende"
+    ]
+  },
+  {
+    "id": "petroleo",
+    "nome": "Petróleo",
+    "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+    "variantes": [
+      "Petroleum",
+      "Óleo cru"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Petr%C3%B3leo",
+      "https://en.wikipedia.org/wiki/Petroleum"
+    ]
+  },
+  {
+    "id": "smog",
+    "nome": "Smog",
+    "descricao": "Tipo de poluição atmosférica urbana que forma uma névoa de fumaça e poluentes sobre as cidades.",
+    "variantes": [
+      "Nevoeiro fotoquímico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Smog"
+    ]
+  },
+  {
+    "id": "chernobyl",
+    "nome": "Chernobyl",
+    "descricao": "Cidade do norte da Ucrânia que deu nome à usina nuclear onde ocorreu o acidente de 1986.",
+    "variantes": [
+      "Chornobyl",
+      "Tchernóbil"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chernobyl"
+    ]
+  },
+  {
+    "id": "central_nuclear_almirante_alvaro_alberto",
+    "nome": "Central Nuclear Almirante Álvaro Alberto",
+    "descricao": "Complexo de usinas nucleares de Angra dos Reis, no estado do Rio de Janeiro.",
+    "variantes": [
+      "Usinas de Angra",
+      "Angra 1 e Angra 2",
+      "Central Nuclear de Angra"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Central_Nuclear_Almirante_%C3%81lvaro_Alberto"
+    ]
+  },
+  {
+    "id": "cubatao",
+    "nome": "Cubatão",
+    "descricao": "Município industrial da Baixada Santista, em São Paulo, famoso pela poluição dos anos oitenta.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cubat%C3%A3o",
+      "https://pt.wikipedia.org/wiki/Cubat%C3%A3o"
+    ]
+  },
+  {
+    "id": "rio_20",
+    "nome": "Rio+20",
+    "descricao": "Conferência das Nações Unidas sobre Desenvolvimento Sustentável, realizada no Rio de Janeiro em 2012.",
+    "variantes": [
+      "Conferência das Nações Unidas sobre Desenvolvimento Sustentável"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/United_Nations_Conference_on_Sustainable_Development"
+    ]
+  },
+  {
+    "id": "eco_92",
+    "nome": "Eco-92",
+    "descricao": "Conferência das Nações Unidas sobre Meio Ambiente e Desenvolvimento, realizada no Rio de Janeiro em 1992.",
+    "variantes": [
+      "Rio-92",
+      "Cúpula da Terra",
+      "Earth Summit"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Earth_Summit"
+    ]
+  },
+  {
+    "id": "primavera_silenciosa",
+    "nome": "Primavera Silenciosa",
+    "descricao": "Livro de 1962 da bióloga americana Rachel Carson sobre os efeitos dos pesticidas no ambiente.",
+    "variantes": [
+      "Silent Spring"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Silent_Spring"
+    ]
+  },
+  {
+    "id": "instituto_chico_mendes_de_conservacao_da_biodiversidade",
+    "nome": "Instituto Chico Mendes de Conservação da Biodiversidade",
+    "descricao": "Autarquia federal brasileira, criada em 2007, que administra as unidades de conservação federais.",
+    "variantes": [
+      "ICMBio"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Instituto_Chico_Mendes_de_Conserva%C3%A7%C3%A3o_da_Biodiversidade"
+    ]
+  },
+  {
+    "id": "acidente_nuclear_de_chernobyl",
+    "nome": "Acidente nuclear de Chernobyl",
+    "descricao": "Explosão do reator 4 da usina nuclear de Chernobyl, na então União Soviética, em abril de 1986.",
+    "variantes": [
+      "Desastre de Chernobyl",
+      "Chernobyl disaster"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chernobyl_disaster"
+    ]
+  },
+  {
+    "id": "grande_nevoeiro_de_londres",
+    "nome": "Grande Nevoeiro de Londres",
+    "descricao": "Episódio de poluição atmosférica que cobriu Londres em dezembro de 1952 e causou milhares de mortes.",
+    "variantes": [
+      "Great Smog of London",
+      "Grande Smog de 1952"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Great_Smog_of_London"
+    ]
+  },
+  {
+    "id": "petrobras",
+    "nome": "Petrobras",
+    "descricao": "Empresa estatal brasileira de petróleo, criada em 1953 no governo Getúlio Vargas.",
+    "variantes": [
+      "Petróleo Brasileiro S.A."
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Petrobras",
+      "https://en.wikipedia.org/wiki/Petrobras"
+    ]
+  },
+  {
+    "id": "salto_de_sete_quedas",
+    "nome": "Salto de Sete Quedas",
+    "descricao": "Conjunto de cachoeiras do rio Paraná, na fronteira entre Brasil e Paraguai, submerso em 1982.",
+    "variantes": [
+      "Sete Quedas",
+      "Salto del Guairá",
+      "Guaíra Falls"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gua%C3%ADra_Falls",
+      "https://pt.wikipedia.org/wiki/Salto_de_Sete_Quedas"
+    ]
+  },
+  {
+    "id": "grande_porcao_de_lixo_do_pacifico",
+    "nome": "Grande Porção de Lixo do Pacífico",
+    "descricao": "Grande acúmulo de detritos, sobretudo plásticos, que flutua no oceano Pacífico Norte.",
+    "variantes": [
+      "Great Pacific garbage patch",
+      "Mancha de lixo do Pacífico",
+      "Ilha de lixo do Pacífico"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Great_Pacific_garbage_patch"
+    ]
+  },
+  {
+    "id": "maquina_de_newcomen",
+    "nome": "Máquina de Newcomen",
+    "descricao": "Máquina a vapor atmosférica construída por Thomas Newcomen em 1712, na Inglaterra.",
+    "variantes": [
+      "Newcomen atmospheric engine",
+      "Máquina atmosférica de Newcomen"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Newcomen_atmospheric_engine"
+    ]
+  },
+  {
+    "id": "simbolo_da_reciclagem",
+    "nome": "Símbolo da reciclagem",
+    "descricao": "Símbolo universal formado por três setas dobradas em ciclo, criado em 1970 para indicar materiais recicláveis.",
+    "variantes": [
+      "Universal recycling symbol",
+      "Símbolo universal da reciclagem"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Recycling_symbol"
+    ]
+  },
+  {
+    "id": "sindrome_da_china",
+    "nome": "Síndrome da China",
+    "descricao": "Filme americano de 1979, com Jane Fonda, sobre o encobrimento de falhas de segurança numa usina nuclear.",
+    "variantes": [
+      "The China Syndrome"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_China_Syndrome"
+    ]
+  },
+  {
+    "id": "carvao_mineral",
+    "nome": "Carvão mineral",
+    "descricao": "Rocha sedimentar combustível formada por restos vegetais soterrados, usada em usinas termelétricas.",
+    "variantes": [
+      "Hulha",
+      "Coal"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Coal"
+    ]
+  },
+  {
+    "id": "dia_mundial_do_meio_ambiente",
+    "nome": "Dia Mundial do Meio Ambiente",
+    "descricao": "Data comemorativa da ONU celebrada todo cinco de junho.",
+    "variantes": [
+      "World Environment Day"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/World_Environment_Day"
+    ]
+  },
+  {
+    "id": "gasolina_com_chumbo",
+    "nome": "Gasolina com chumbo",
+    "descricao": "Gasolina com o aditivo antidetonante chumbo tetraetila, criada nos anos 1920 e depois banida por sua toxicidade.",
+    "variantes": [
+      "Chumbo tetraetila",
+      "Tetraethyllead",
+      "Leaded gasoline"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Tetraethyllead",
+      "https://en.wikipedia.org/wiki/Thomas_Midgley_Jr."
+    ]
+  },
+  {
+    "id": "chuva_acida",
+    "nome": "Chuva ácida",
+    "descricao": "Precipitação com acidez elevada causada por óxidos de enxofre e de nitrogênio lançados na atmosfera.",
+    "variantes": [
+      "Acid rain"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Acid_rain"
+    ]
+  },
+  {
+    "id": "metano",
+    "nome": "Metano",
+    "descricao": "Gás inflamável formado por um carbono e quatro hidrogênios, principal componente do gás natural.",
+    "variantes": [
+      "Methane",
+      "CH4"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Methane"
+    ]
+  },
+  {
+    "id": "cavalo_vapor",
+    "nome": "Cavalo-vapor",
+    "descricao": "Unidade de potência criada no século dezoito para comparar máquinas a vapor com a força de cavalos.",
+    "variantes": [
+      "Horsepower",
+      "HP",
+      "CV"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Horsepower"
+    ]
+  },
+  {
+    "id": "usina_maremotriz_de_la_rance",
+    "nome": "Usina maremotriz de La Rance",
+    "descricao": "Usina que gera eletricidade com a força das marés no estuário do rio Rance, inaugurada em 1966.",
+    "variantes": [
+      "Rance Tidal Power Station",
+      "Usine marémotrice de la Rance"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Rance_Tidal_Power_Station"
+    ]
+  },
+  {
+    "id": "usina_de_tres_gargantas",
+    "nome": "Usina de Três Gargantas",
+    "descricao": "Grande usina hidrelétrica e barragem na província de Hubei, na China.",
+    "variantes": [
+      "Three Gorges Dam",
+      "Barragem das Três Gargantas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Three_Gorges_Dam"
+    ]
+  },
+  {
+    "id": "curva_de_keeling",
+    "nome": "Curva de Keeling",
+    "descricao": "Gráfico das medições contínuas da concentração de gás carbônico na atmosfera, iniciadas em 1958 por Charles David Keeling.",
+    "variantes": [
+      "Keeling Curve"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Keeling_Curve"
+    ]
+  },
+  {
+    "id": "parque_nacional_do_itatiaia",
+    "nome": "Parque Nacional do Itatiaia",
+    "descricao": "Parque nacional criado em 1937 entre os estados do Rio de Janeiro e de Minas Gerais.",
+    "variantes": [
+      "Itatiaia"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Parque_Nacional_do_Itatiaia"
+    ]
+  },
+  {
+    "id": "derramamento_do_exxon_valdez",
+    "nome": "Derramamento do Exxon Valdez",
+    "descricao": "Vazamento de petróleo causado pelo encalhe do petroleiro Exxon Valdez em março de 1989.",
+    "variantes": [
+      "Exxon Valdez oil spill",
+      "Desastre do Exxon Valdez"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Exxon_Valdez_oil_spill"
+    ]
+  },
+  {
+    "id": "dia_da_terra",
+    "nome": "Dia da Terra",
+    "descricao": "Data anual de mobilização ambiental criada nos Estados Unidos em 1970.",
+    "variantes": [
+      "Earth Day"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Earth_Day"
+    ]
+  },
+  {
+    "id": "efeito_fotovoltaico",
+    "nome": "Efeito fotovoltaico",
+    "descricao": "Fenômeno em que certos materiais geram tensão elétrica ao serem expostos à luz, base das células solares.",
+    "variantes": [
+      "Photovoltaic effect"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Photovoltaic_effect"
+    ]
+  },
+  {
+    "id": "efeito_estufa",
+    "nome": "Efeito estufa",
+    "descricao": "Aquecimento da superfície de um planeta causado por gases da atmosfera que retêm o calor irradiado.",
+    "variantes": [
+      "Greenhouse effect"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Efeito_estufa",
+      "https://en.wikipedia.org/wiki/Greenhouse_gas"
+    ]
+  },
+  {
+    "id": "reciclagem_de_aluminio",
+    "nome": "Reciclagem de alumínio",
+    "descricao": "Processo de reaproveitamento de sucata de alumínio, como latas de bebida, para fabricar novas peças.",
+    "variantes": [
+      "Aluminium recycling"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Aluminium_recycling"
+    ]
+  },
+  {
+    "id": "atmosfera_de_venus",
+    "nome": "Atmosfera de Vênus",
+    "descricao": "Camada densa de gases, quase toda de gás carbônico, que envolve o planeta Vênus.",
+    "variantes": [
+      "Atmosphere of Venus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Atmosphere_of_Venus"
+    ]
+  },
+  {
+    "id": "eunice_foote",
+    "nome": "Eunice Foote",
+    "descricao": "Cientista e ativista americana do século dezenove que estudou o aquecimento de gases expostos ao Sol.",
+    "variantes": [
+      "Eunice Newton Foote"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Eunice_Newton_Foote"
     ]
   }
 ]

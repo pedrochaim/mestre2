@@ -1,0 +1,177 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1987, em Goiânia, que material radioativo, retirado de um aparelho de radioterapia abandonado, contaminou mais de duzentas pessoas?",
+        "resposta": "Césio-137"
+      },
+      "existentes": [
+        {
+          "id": "q03156",
+          "pergunta": "Em 1987, uma cápsula de césio cento e trinta e sete, retirada de um aparelho abandonado, provocou um grave acidente radiológico em que cidade brasileira?",
+          "resposta": "Goiânia"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "No acidente radioativo de Goiânia, o pó retirado da cápsula atraiu curiosos porque brilhava no escuro com que cor?",
+        "resposta": "Azul"
+      },
+      "existentes": [
+        {
+          "id": "q03156",
+          "pergunta": "Em 1987, uma cápsula de césio cento e trinta e sete, retirada de um aparelho abandonado, provocou um grave acidente radiológico em que cidade brasileira?",
+          "resposta": "Goiânia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1975, o Brasil lançou o Proálcool para depender menos da gasolina. Que crise mundial motivou o programa?",
+        "resposta": "Crise do petróleo de 1973"
+      },
+      "existentes": [
+        {
+          "id": "q00991",
+          "pergunta": "Em 1975, o Brasil criou o Proálcool para trocar gasolina por álcool nos carros. Que crise mundial motivou o programa?",
+          "resposta": "Crise do petróleo de 1973"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No Japão, a doença de Minamata foi causada pelo despejo no mar de resíduos industriais com que metal?",
+        "resposta": "Mercúrio"
+      },
+      "existentes": [
+        {
+          "id": "q03154",
+          "pergunta": "Uma doença neurológica causada por mercúrio que uma fábrica despejou no mar leva o nome de uma cidade de que país?",
+          "resposta": "Japão"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O gelo-seco, que solta fumaça em festas, é a forma sólida do mesmo gás que é o principal gás do efeito estufa emitido pelo homem. Que gás é esse?",
+        "resposta": "Gás carbônico (dióxido de carbono)"
+      },
+      "existentes": [
+        {
+          "id": "q03578",
+          "pergunta": "Que substância é esta, em forma de pelotas?",
+          "resposta": "Gelo seco"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Além da gasolina, o Ford Modelo T, de 1908, podia rodar com que combustível, usado hoje nos carros flex brasileiros?",
+        "resposta": "Etanol"
+      },
+      "existentes": [
+        {
+          "id": "q00983",
+          "pergunta": "No Brasil, o Ford Modelo T ganhou um apelido por causa das alavancas que ficavam junto ao volante. Qual era?",
+          "resposta": "Ford Bigode"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que químico mexicano dividiu o Nobel de Química de 1995 por seus estudos sobre a destruição da camada de ozônio?",
+        "resposta": "Mario Molina"
+      },
+      "existentes": [
+        {
+          "id": "q03135",
+          "pergunta": "Que compostos, usados em aerossóis e geladeiras, o Protocolo de Montreal mandou eliminar por destruírem a camada de ozônio?",
+          "resposta": "Clorofluorcarbonetos, os CFCs"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Todo ano, na primavera do hemisfério sul, o buraco na camada de ozônio se abre sobre que continente?",
+        "resposta": "Antártida"
+      },
+      "existentes": [
+        {
+          "id": "q03135",
+          "pergunta": "Que compostos, usados em aerossóis e geladeiras, o Protocolo de Montreal mandou eliminar por destruírem a camada de ozônio?",
+          "resposta": "Clorofluorcarbonetos, os CFCs"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na Exposição Universal de Paris, em 1900, um motor a diesel foi apresentado funcionando com óleo de que planta?",
+        "resposta": "Amendoim"
+      },
+      "existentes": [
+        {
+          "id": "q01003",
+          "pergunta": "Que engenheiro alemão, desaparecido de um navio no Canal da Mancha em 1913, inventou o motor que dispensa vela de ignição e inflama o combustível por compressão do ar?",
+          "resposta": "Rudolf Diesel"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a cidade (Goiânia); a nova pergunta o material (césio-137). Fatos diferentes, embora a existente cite o césio no enunciado."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A cor do brilho do pó é um fato diferente da cidade do acidente."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e mesma resposta: a crise que motivou o Proálcool."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pergunta o metal (mercúrio) e a existente o país (Japão). A existente já cita o mercúrio, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A existente pede para identificar o gelo seco em pelotas. A nova pede o gás do qual ele é a forma sólida. Fatos diferentes."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "O combustível alternativo do Modelo T é um fato diferente do apelido no Brasil."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "O Nobel de Mario Molina é um fato diferente dos compostos eliminados pelo Protocolo de Montreal."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O continente onde o buraco se abre é um fato diferente dos compostos que o causam."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "O óleo usado no motor na Exposição de 1900 é um fato diferente de quem inventou o motor."
+    }
+  ]
+}
