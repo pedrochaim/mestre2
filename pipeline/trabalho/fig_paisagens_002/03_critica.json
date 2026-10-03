@@ -1,0 +1,81 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma que a imagem é vista do espaço, o que não se sabe pela descrição. Além disso, 'grande recife' repete parte da resposta.",
+      "reescrita": {
+        "pergunta": "Que formação natural marinha é esta?",
+        "resposta": "Grande Barreira de Coral"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fiorde na Noruega confirmado pelos trechos. Os distratores são fiordes noruegueses críveis e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A gruta fica em Bonito, Mato Grosso do Sul, conforme os trechos. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Stromboli fica nas Ilhas Eólias, na Itália, conforme os trechos. O enunciado não entrega a ilha.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Matterhorn fica nos Alpes, conforme os trechos. Os distratores são montanhas alpinas diferentes e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Half Dome fica no Parque Nacional de Yosemite, conforme os trechos. O enunciado não nomeia a formação e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "As cataratas ficam na fronteira entre Estados Unidos e Canadá, conforme os trechos. O enunciado não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cânion estreito do Arizona' praticamente identifica o Antelope Canyon sem olhar a figura. Falha no teste da imagem coberta.",
+      "reescrita": {
+        "pergunta": "Que cânion é este?",
+        "resposta": "Antelope Canyon"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A Venezuela reivindica a região, conforme o trecho da Wikipédia em português, então é um distrator discutível. Troquei por Colômbia.",
+      "reescrita": {
+        "pergunta": "Em que país ficam estas cataratas?",
+        "resposta": "Guiana",
+        "distratores": [
+          "Suriname",
+          "Brasil",
+          "Colômbia"
+        ]
+      }
+    }
+  ]
+}

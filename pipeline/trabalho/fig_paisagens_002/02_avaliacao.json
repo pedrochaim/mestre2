@@ -1,0 +1,200 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem de satélite com recifes ao longo da costa; reconhecível e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que grande recife, visto do espaço nesta imagem, é este?",
+      "resposta": "Grande Barreira de Coral",
+      "destino": 2,
+      "ancora": {
+        "nome": "Grande Barreira de Coral",
+        "descricao": "Maior sistema de recifes de coral do mundo, no Mar de Coral, na costa de Queensland, Austrália.",
+        "variantes": [
+          "Great Barrier Reef"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista clássica do fiorde com a vila ao fundo, sem texto; distinguível de outros fiordes com distratores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fiorde norueguês é este?",
+      "resposta": "Geirangerfjord",
+      "distratores": [
+        "Nærøyfjord",
+        "Sognefjord",
+        "Lysefjord"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Geirangerfjord",
+        "descricao": "Fiorde no condado de Møre og Romsdal, na Noruega, ramo do Sunnylvsfjord.",
+        "variantes": [
+          "Fiorde de Geiranger",
+          "Geirangerfjorden"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A imagem mostra só uma paisagem desértica com rochas; a estrutura circular não aparece e não é reconhecível."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Crosta de sal hexagonal e montanhas distantes: salares e salinas parecidos existem em vários países, a resposta não é única diante da imagem."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lago azul dentro de caverna com estalactites, característico e sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que estado brasileiro fica esta gruta?",
+      "resposta": "Mato Grosso do Sul",
+      "destino": 3,
+      "ancora": {
+        "nome": "Gruta do Lago Azul",
+        "descricao": "Monumento natural com caverna de lago azul no município de Bonito, Mato Grosso do Sul.",
+        "variantes": [
+          "Monumento Natural da Gruta do Lago Azul"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilha-vulcão cônica com vila na base, sem texto; forma característica.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que país fica esta ilha vulcânica?",
+      "resposta": "Itália",
+      "destino": 2,
+      "ancora": {
+        "nome": "Stromboli",
+        "descricao": "Ilha vulcânica das Ilhas Eólias, no Mar Tirreno, ao norte da Sicília.",
+        "variantes": [
+          "Ilha de Stromboli",
+          "Monte Stromboli"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pico piramidal nevado inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que montanha dos Alpes é esta?",
+      "resposta": "Matterhorn",
+      "distratores": [
+        "Weisshorn",
+        "Dent Blanche",
+        "Eiger"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Matterhorn",
+        "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália, com 4.478 metros.",
+        "variantes": [
+          "Cervino",
+          "Monte Cervino"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Formação de granito com uma face vertical, inconfundível; sem texto.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que parque nacional dos Estados Unidos fica esta formação rochosa?",
+      "resposta": "Yosemite",
+      "destino": 0,
+      "ancora": {
+        "nome": "Half Dome",
+        "descricao": "Domo de granito na extremidade leste do Vale de Yosemite, na Califórnia.",
+        "variantes": [
+          "Meio Domo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Imagem de satélite de uma ilha de contorno comum; não é reconhecível pela forma e a resposta não é defensável só pela imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vista panorâmica com as três quedas, inconfundível, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Que dois países dividem estas cataratas?",
+      "resposta": "Estados Unidos e Canadá",
+      "destino": 1,
+      "ancora": {
+        "nome": "Cataratas do Niágara",
+        "descricao": "Grupo de três quedas d'água no Rio Niágara, na fronteira entre Ontário e Nova York.",
+        "variantes": [
+          "Niagara Falls"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Cânion estreito com feixe de luz, imagem icônica do Upper Antelope Canyon; sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cânion estreito do Arizona é este?",
+      "resposta": "Antelope Canyon",
+      "destino": 0,
+      "ancora": {
+        "nome": "Antelope Canyon",
+        "descricao": "Cânion de fenda (slot canyon) em terras navajo, perto de Page, no Arizona.",
+        "variantes": [
+          "Upper Antelope Canyon"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Queda alta e única sobre penhasco na selva, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país ficam estas cataratas?",
+      "resposta": "Guiana",
+      "distratores": [
+        "Venezuela",
+        "Suriname",
+        "Brasil"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cataratas Kaieteur",
+        "descricao": "Queda d'água de 226 metros no Rio Potaro, no Parque Nacional Kaieteur, na Guiana.",
+        "variantes": [
+          "Kaieteur Falls",
+          "Cataratas de Kaieteur"
+        ]
+      }
+    }
+  ]
+}
