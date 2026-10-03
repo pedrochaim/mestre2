@@ -89,7 +89,7 @@
       "titulo": "en:Saint Basil's Cathedral",
       "camada": 1,
       "destino": 7,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pirâmide do Sol (Teotihuacan)",
@@ -103,7 +103,7 @@
       "titulo": "en:Roman Forum",
       "camada": 2,
       "destino": 3,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Mont-Saint-Michel",
@@ -243,7 +243,7 @@
       "titulo": "en:Ziggurat of Ur",
       "camada": 3,
       "destino": 4,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Göbekli Tepe",
@@ -276,6 +276,286 @@
     {
       "nome": "Santuário do Bom Jesus de Congonhas",
       "titulo": "en:Sanctuary of Bom Jesus do Congonhas",
+      "camada": 3,
+      "destino": 8,
+      "status": "usada"
+    },
+    {
+      "nome": "Pompeia",
+      "titulo": "en:Pompeii",
+      "camada": 1,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Torre Eiffel",
+      "titulo": "en:Eiffel Tower",
+      "camada": 1,
+      "destino": 7,
+      "status": "saturada"
+    },
+    {
+      "nome": "Estátua da Liberdade",
+      "titulo": "en:Statue of Liberty",
+      "camada": 1,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Arco do Triunfo",
+      "titulo": "en:Arc de Triomphe",
+      "camada": 1,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Domo da Rocha",
+      "titulo": "en:Dome of the Rock",
+      "camada": 1,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Muro das Lamentações",
+      "titulo": "en:Western Wall",
+      "camada": 1,
+      "destino": 4,
+      "status": "usada"
+    },
+    {
+      "nome": "Arcos da Lapa",
+      "titulo": "en:Carioca Aqueduct",
+      "camada": 1,
+      "destino": 8,
+      "status": "usada"
+    },
+    {
+      "nome": "Elevador Lacerda",
+      "titulo": "en:Lacerda Elevator",
+      "camada": 1,
+      "destino": 8,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo de Neuschwanstein",
+      "titulo": "en:Neuschwanstein Castle",
+      "camada": 1,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Kremlin de Moscou",
+      "titulo": "en:Moscow Kremlin",
+      "camada": 1,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Big Ben",
+      "titulo": "en:Big Ben",
+      "camada": 1,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Linhas de Nazca",
+      "titulo": "en:Nazca Lines",
+      "camada": 1,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo de Bran",
+      "titulo": "en:Bran Castle",
+      "camada": 1,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Templo de Luxor",
+      "titulo": "en:Luxor Temple",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Vale dos Reis",
+      "titulo": "en:Valley of the Kings",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Porta dos Leões de Micenas",
+      "titulo": "en:Lion Gate",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Biblioteca de Celso",
+      "titulo": "en:Library of Celsus",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Aqueduto de Segóvia",
+      "titulo": "en:Aqueduct of Segovia",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Coluna de Trajano",
+      "titulo": "en:Trajan's Column",
+      "camada": 2,
+      "destino": 3,
+      "status": "usada"
+    },
+    {
+      "nome": "Castelo de Santo Ângelo",
+      "titulo": "en:Castel Sant'Angelo",
+      "camada": 2,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Borobudur",
+      "titulo": "en:Borobudur",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo de Himeji",
+      "titulo": "en:Himeji Castle",
+      "camada": 2,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Cabeças colossais olmecas",
+      "titulo": "en:Olmec colossal heads",
+      "camada": 2,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Carcassonne",
+      "titulo": "en:Carcassonne",
+      "camada": 2,
+      "destino": 6,
+      "status": "usada"
+    },
+    {
+      "nome": "Mesquita-Catedral de Córdoba",
+      "titulo": "en:Mosque–Cathedral of Córdoba",
+      "camada": 2,
+      "destino": 6,
+      "status": "usada"
+    },
+    {
+      "nome": "Mosteiro dos Jerónimos",
+      "titulo": "en:Jerónimos Monastery",
+      "camada": 2,
+      "destino": 7,
+      "status": "nova"
+    },
+    {
+      "nome": "Palmira",
+      "titulo": "en:Palmyra",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Colossos de Mêmnon",
+      "titulo": "en:Colossi of Memnon",
+      "camada": 3,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Pirâmide Curvada",
+      "titulo": "en:Bent Pyramid",
+      "camada": 3,
+      "destino": 1,
+      "status": "usada"
+    },
+    {
+      "nome": "Templo de Hefesto",
+      "titulo": "en:Temple of Hephaestus",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Tesouro de Atreu",
+      "titulo": "en:Treasury of Atreus",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Maison Carrée",
+      "titulo": "en:Maison Carrée",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Baalbek",
+      "titulo": "en:Baalbek",
+      "camada": 3,
+      "destino": 3,
+      "status": "nova"
+    },
+    {
+      "nome": "Buda Gigante de Leshan",
+      "titulo": "en:Leshan Giant Buddha",
+      "camada": 3,
+      "destino": 4,
+      "status": "nova"
+    },
+    {
+      "nome": "Sacsayhuamán",
+      "titulo": "en:Sacsayhuamán",
+      "camada": 3,
+      "destino": 5,
+      "status": "nova"
+    },
+    {
+      "nome": "Porta do Sol de Tiwanaku",
+      "titulo": "en:Gate of the Sun",
+      "camada": 3,
+      "destino": 5,
+      "status": "usada"
+    },
+    {
+      "nome": "Obelisco de Axum",
+      "titulo": "en:Obelisk of Axum",
+      "camada": 3,
+      "destino": 9,
+      "status": "nova"
+    },
+    {
+      "nome": "Krak des Chevaliers",
+      "titulo": "en:Krak des Chevaliers",
+      "camada": 3,
+      "destino": 6,
+      "status": "nova"
+    },
+    {
+      "nome": "Castelo de Elmina",
+      "titulo": "en:Elmina Castle",
+      "camada": 3,
+      "destino": 9,
+      "status": "nova"
+    },
+    {
+      "nome": "Real Forte Príncipe da Beira",
+      "titulo": "pt:Real Forte Príncipe da Beira",
       "camada": 3,
       "destino": 8,
       "status": "nova"

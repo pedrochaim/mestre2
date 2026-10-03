@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano um desastre natural pôs fim a esta cidade romana?",
+        "resposta": "79 d.C."
+      },
+      "existentes": [
+        {
+          "id": "q02015",
+          "pergunta": "O que conservou por séculos as ruas, casas e pinturas da cidade romana de Pompeia?",
+          "resposta": "As cinzas do Vesúvio"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o ano da destruição (79 d.C.); a existente pede o que conservou a cidade (cinzas do Vesúvio). Fatos diferentes: saber um não leva a responder o outro."
+    }
+  ]
+}

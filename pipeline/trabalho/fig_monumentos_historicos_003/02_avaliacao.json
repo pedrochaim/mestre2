@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Catedral inconfundível. Há placas minúsculas na base (nome em inglês e russo), pouco legíveis; convém recortá-las, o que o manifesto permite.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século foi construída esta catedral?",
+      "resposta": "Século dezesseis",
+      "distratores": [
+        "Século catorze",
+        "Século quinze",
+        "Século dezessete"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Catedral de São Basílio",
+        "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+        "variantes": [
+          "Catedral de São Basílio, o Bem-Aventurado",
+          "Catedral da Intercessão",
+          "Catedral Pokrovsky"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Coluna com relevo em espiral e a estátua no topo, bem visível e inconfundível; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que imperador romano mandou erguer esta coluna?",
+      "resposta": "Trajano",
+      "destino": 3,
+      "ancora": {
+        "nome": "Coluna de Trajano",
+        "descricao": "Coluna triunfal romana com relevo em espiral, no Fórum de Trajano, em Roma, que comemora as guerras contra os dácios.",
+        "variantes": [
+          "Coluna Trajana",
+          "Columna Traiani"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Zigurate de tijolos com escadarias, claro e reconhecível. Os soldados no topo são minúsculos. Troquei a família para 'onde', que rende pergunta melhor.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este zigurate?",
+      "resposta": "Iraque",
+      "distratores": [
+        "Irã",
+        "Síria",
+        "Turquia"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "Zigurate de Ur",
+        "descricao": "Grande zigurate sumério do século vinte e um antes de Cristo, construído por Ur-Nammu na antiga cidade de Ur, no sul do Iraque.",
+        "variantes": [
+          "Grande Zigurate de Ur",
+          "Etemenniguru"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Ruínas do fórum de Pompeia com o Vesúvio ao fundo, reconhecíveis; sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano um desastre natural pôs fim a esta cidade romana?",
+      "resposta": "79 d.C.",
+      "destino": 3,
+      "ancora": {
+        "nome": "Pompeia",
+        "descricao": "Cidade romana da Campânia, na Itália, soterrada pela erupção do Vesúvio em 79 d.C.",
+        "variantes": [
+          "Pompeii"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida da cidadela fortificada, com muralhas e torres características; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arquiteto restaurou esta cidadela medieval no século dezenove?",
+      "resposta": "Viollet-le-Duc",
+      "destino": 6,
+      "ancora": {
+        "nome": "Cité de Carcassonne",
+        "descricao": "Cidadela medieval fortificada de Carcassona, no sul da França, restaurada por Viollet-le-Duc no século dezenove.",
+        "variantes": [
+          "Carcassona",
+          "Carcassonne"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Igreja e capelas na colina, reconhecíveis para quem conhece; sem texto. Múltipla com distratores de Minas e do Brasil.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que santuário barroco de Minas Gerais é este?",
+      "resposta": "Santuário do Bom Jesus de Matosinhos",
+      "distratores": [
+        "Santuário do Caraça",
+        "Basílica de Aparecida",
+        "Igreja de São Francisco"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Santuário do Bom Jesus de Congonhas",
+        "descricao": "Santuário barroco do século dezoito em Congonhas, Minas Gerais, com os profetas esculpidos por Aleijadinho.",
+        "variantes": [
+          "Santuário do Bom Jesus de Matosinhos",
+          "Basílica do Bom Jesus de Matosinhos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Vista aérea com a torre sineira, o pátio de laranjeiras e a massa de telhados da mesquita, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade espanhola fica este edifício?",
+      "resposta": "Córdoba",
+      "destino": 6,
+      "ancora": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Grande Mesquita de Córdoba",
+          "Mesquita de Córdova"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Portal monolítico com o relevo central, claro e inconfundível. Troquei para 'onde', porque a datação em séculos é incerta (entre 500 e 950).",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica este sítio arqueológico?",
+      "resposta": "Bolívia",
+      "distratores": [
+        "Peru",
+        "Equador",
+        "Chile"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Porta do Sol de Tiwanaku",
+        "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+        "variantes": [
+          "Porta do Sol",
+          "Puerta del Sol",
+          "Gateway of the Sun"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arcos brancos com a catedral cônica ao fundo, reconhecíveis apesar das árvores à frente e da foto feita por vidro. Troquei 'quem fez' por 'quando', porque a autoria é pouco clara.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi construída esta obra?",
+      "resposta": "Século dezoito",
+      "destino": 8,
+      "ancora": {
+        "nome": "Arcos da Lapa",
+        "descricao": "Aqueduto colonial de arcos brancos no bairro da Lapa, no Rio de Janeiro, construído no século dezoito.",
+        "variantes": [
+          "Aqueduto da Carioca"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Panorama claro, com colunas, arco e ruínas, sem texto; reconhecível por quem conhece Roma.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que conjunto de ruínas da Roma antiga é este?",
+      "resposta": "Fórum Romano",
+      "destino": 3,
+      "ancora": {
+        "nome": "Fórum Romano",
+        "descricao": "Praça cercada por ruínas de edifícios públicos, centro da vida da Roma antiga, entre o Palatino e o Capitólio.",
+        "variantes": [
+          "Foro Romano",
+          "Forum Romanum"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pirâmide com a inclinação quebrada, nítida e única; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que necrópole egípcia fica esta pirâmide?",
+      "resposta": "Dahshur",
+      "distratores": [
+        "Gizé",
+        "Sacará",
+        "Abusir"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Pirâmide Curvada",
+        "descricao": "Pirâmide do faraó Seneferu, da IV dinastia, na necrópole de Dahshur, com a inclinação alterada na parte alta.",
+        "variantes": [
+          "Pirâmide Romboidal",
+          "Pirâmide Inclinada",
+          "Bent Pyramid"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Muro de grandes blocos de pedra, reconhecível. As pessoas ao fundo são pequenas e anônimas. Troquei 'quando' por 'onde' porque a datação é incerta (partes herodianas e posteriores).",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica este muro, lugar de oração?",
+      "resposta": "Jerusalém",
+      "destino": 4,
+      "ancora": {
+        "nome": "Muro das Lamentações",
+        "descricao": "Muro de contenção do Monte do Templo, em Jerusalém, lugar de oração judaica.",
+        "variantes": [
+          "Muro Ocidental",
+          "Kotel",
+          "Western Wall"
+        ]
+      }
+    }
+  ]
+}

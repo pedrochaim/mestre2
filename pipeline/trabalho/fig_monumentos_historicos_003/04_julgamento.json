@@ -1,0 +1,701 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Catedral de São Basílio",
+        "descricao": "Catedral ortodoxa de cúpulas coloridas na Praça Vermelha, em Moscou, construída por ordem de Ivan, o Terrível.",
+        "variantes": [
+          "Catedral de São Basílio, o Bem-Aventurado",
+          "Catedral da Intercessão",
+          "Catedral Pokrovsky"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "central_do_brasil",
+          "nome": "Central do Brasil",
+          "descricao": "Filme brasileiro de 1998 dirigido por Walter Salles, com Fernanda Montenegro e Vinícius de Oliveira.",
+          "variantes": [
+            "Central Station"
+          ]
+        },
+        {
+          "id": "carnaval",
+          "nome": "Carnaval",
+          "descricao": "Festa popular brasileira que precede a Quaresma, com desfiles de escolas de samba e blocos.",
+          "variantes": [
+            "Carnaval do Brasil"
+          ]
+        },
+        {
+          "id": "madona_sistina",
+          "nome": "Madona Sistina",
+          "descricao": "Pintura a óleo de Rafael, de cerca de 1513, que mostra a Virgem com o Menino entre São Sisto e Santa Bárbara; está em Dresden.",
+          "variantes": [
+            "Madonna di San Sisto",
+            "Sistine Madonna",
+            "Madona de São Sisto"
+          ]
+        },
+        {
+          "id": "litoral_do_brasil",
+          "nome": "Litoral do Brasil",
+          "descricao": "Faixa costeira brasileira banhada pelo oceano Atlântico, do Amapá ao Rio Grande do Sul.",
+          "variantes": [
+            "Costa brasileira"
+          ]
+        },
+        {
+          "id": "coroa_imperial_do_brasil",
+          "nome": "Coroa Imperial do Brasil",
+          "descricao": "Coroa de ouro, diamantes e pérolas feita para Dom Pedro II, segundo imperador do Brasil.",
+          "variantes": [
+            "Coroa de Dom Pedro II",
+            "Coroa Diamantina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Coluna de Trajano",
+        "descricao": "Coluna triunfal romana com relevo em espiral, no Fórum de Trajano, em Roma, que comemora as guerras contra os dácios.",
+        "variantes": [
+          "Coluna Trajana",
+          "Columna Traiani"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "luas_de_urano",
+          "nome": "Luas de Urano",
+          "descricao": "Satélites naturais do planeta Urano, batizados com nomes de personagens literários.",
+          "variantes": [
+            "Satélites de Urano",
+            "Moons of Uranus"
+          ]
+        },
+        {
+          "id": "coxinha",
+          "nome": "Coxinha",
+          "descricao": "Salgado brasileiro frito, em forma de gota, recheado com frango desfiado.",
+          "variantes": [
+            "Coxinha de frango"
+          ]
+        },
+        {
+          "id": "semaforo",
+          "nome": "Semáforo",
+          "descricao": "Sinal luminoso que controla o trânsito de veículos e pedestres; o primeiro foi instalado em Londres em 1868.",
+          "variantes": [
+            "Sinal de trânsito",
+            "Farol",
+            "Sinaleiro",
+            "Traffic light"
+          ]
+        },
+        {
+          "id": "ilha_de_marajo",
+          "nome": "Ilha de Marajó",
+          "descricao": "Grande ilha do estado do Pará, na foz do rio Amazonas.",
+          "variantes": [
+            "Marajó",
+            "Marajó Island"
+          ]
+        },
+        {
+          "id": "cueva_de_las_manos",
+          "nome": "Cueva de las Manos",
+          "descricao": "Caverna na Patagônia com centenas de contornos de mãos pintados há milhares de anos.",
+          "variantes": [
+            "Caverna das Mãos",
+            "Cave of the Hands"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Zigurate de Ur",
+        "descricao": "Grande zigurate sumério do século vinte e um antes de Cristo, construído por Ur-Nammu na antiga cidade de Ur, no sul do Iraque.",
+        "variantes": [
+          "Grande Zigurate de Ur",
+          "Etemenniguru"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "etemenanki",
+          "nome": "Etemenanki",
+          "descricao": "Grande zigurate da Babilônia, dedicado ao deus Marduk.",
+          "variantes": [
+            "Zigurate de Babilônia"
+          ]
+        },
+        {
+          "id": "guerra_dos_emus",
+          "nome": "Guerra dos Emus",
+          "descricao": "Operação militar de 1932 em que soldados com metralhadoras tentaram, sem sucesso, reduzir populações de emus que destruíam lavouras.",
+          "variantes": [
+            "Grande Guerra dos Emus",
+            "Emu War"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "bandeira_da_uniao_sovietica",
+          "nome": "Bandeira da União Soviética",
+          "descricao": "Bandeira vermelha com foice e martelo dourados e uma estrela, símbolo da URSS e do comunismo.",
+          "variantes": [
+            "Bandeira da URSS",
+            "Bandeira Vermelha soviética",
+            "Flag of the Soviet Union"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Pompeia",
+        "descricao": "Cidade romana da Campânia, na Itália, soterrada pela erupção do Vesúvio em 79 d.C.",
+        "variantes": [
+          "Pompeii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pompeia",
+          "nome": "Pompeia",
+          "descricao": "Antiga cidade romana perto de Nápoles, soterrada pela erupção do Vesúvio em 79 depois de Cristo.",
+          "variantes": [
+            "Pompeii",
+            "Pompei"
+          ]
+        },
+        {
+          "id": "pompeu",
+          "nome": "Pompeu",
+          "descricao": "Cneu Pompeu Magno, general e político romano do século primeiro antes de Cristo, rival de Júlio César.",
+          "variantes": [
+            "Pompeu Magno",
+            "Cneu Pompeu Magno",
+            "Pompey"
+          ]
+        },
+        {
+          "id": "bocio",
+          "nome": "Bócio",
+          "descricao": "Aumento de volume da glândula tireoide, visível no pescoço.",
+          "variantes": [
+            "Papeira",
+            "Goitre",
+            "Goiter"
+          ]
+        },
+        {
+          "id": "olympia_manet",
+          "nome": "Olympia (Manet)",
+          "descricao": "Pintura de Édouard Manet, de 1863, de uma mulher nua reclinada numa cama, com uma criada; está no Museu d'Orsay.",
+          "variantes": [
+            "Olympia",
+            "Olímpia"
+          ]
+        },
+        {
+          "id": "olimpia_sitio_arqueologico",
+          "nome": "Olímpia (sítio arqueológico)",
+          "descricao": "Santuário de Zeus no Peloponeso, na Grécia, onde eram disputados os Jogos Olímpicos da Antiguidade.",
+          "variantes": [
+            "Olympia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cité de Carcassonne",
+        "descricao": "Cidadela medieval fortificada de Carcassona, no sul da França, restaurada por Viollet-le-Duc no século dezenove.",
+        "variantes": [
+          "Carcassonne",
+          "Carcassona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arcanine",
+          "nome": "Arcanine",
+          "descricao": "Pokémon do tipo Fogo, número 59 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "croissant",
+          "nome": "Croissant",
+          "descricao": "Pão folhado amanteigado em forma de meia-lua, símbolo da padaria francesa",
+          "variantes": [
+            "Croassã"
+          ]
+        },
+        {
+          "id": "carcara",
+          "nome": "Carcará",
+          "descricao": "Falconídeo (Caracara plancus) de topete preto, rosto alaranjado e pernas amarelas, comum em campos abertos da América do Sul.",
+          "variantes": [
+            "Caracará",
+            "Crested caracara",
+            "Caracara plancus"
+          ]
+        },
+        {
+          "id": "maratona",
+          "nome": "Maratona",
+          "descricao": "Corrida de longa distância do atletismo, com percurso oficial de 42,195 quilômetros.",
+          "variantes": [
+            "Marathon"
+          ]
+        },
+        {
+          "id": "araponga",
+          "nome": "Araponga",
+          "descricao": "Cotinga macho de plumagem branca e garganta nua esverdeada (Procnias nudicollis), da Mata Atlântica, de canto metálico muito forte.",
+          "variantes": [
+            "Araponga-comum",
+            "Ferreiro",
+            "Bare-throated bellbird",
+            "Procnias nudicollis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Grande Mesquita de Córdoba",
+          "Mesquita de Córdova"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        },
+        {
+          "id": "batalha_de_corinto_146_a_c",
+          "nome": "Batalha de Corinto (146 a.C.)",
+          "descricao": "Destruição da cidade grega de Corinto pelos romanos em 146 a.C., que marcou o domínio de Roma sobre a Grécia.",
+          "variantes": [
+            "Destruição de Corinto",
+            "Battle of Corinth"
+          ]
+        },
+        {
+          "id": "maquina_de_escrever",
+          "nome": "Máquina de escrever",
+          "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+          "variantes": [
+            "Typewriter"
+          ]
+        },
+        {
+          "id": "tear_de_jacquard",
+          "nome": "Tear de Jacquard",
+          "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+          "variantes": [
+            "Máquina de Jacquard",
+            "Jacquard loom"
+          ]
+        },
+        {
+          "id": "catedral_de_florenca",
+          "nome": "Catedral de Florença",
+          "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+          "variantes": [
+            "Santa Maria del Fiore",
+            "Duomo de Florença"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Porta do Sol de Tiwanaku",
+        "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+        "variantes": [
+          "Porta do Sol",
+          "Puerta del Sol",
+          "Gateway of the Sun"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "inti_raymi",
+          "nome": "Inti Raymi",
+          "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+          "variantes": [
+            "Festa do Sol"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        },
+        {
+          "id": "coreia_do_sul",
+          "nome": "Coreia do Sul",
+          "descricao": "País do leste da Ásia que ocupa a metade sul da Península Coreana, com capital em Seul.",
+          "variantes": [
+            "República da Coreia",
+            "Coreia"
+          ]
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon"
+          ]
+        },
+        {
+          "id": "guerra_do_futebol",
+          "nome": "Guerra do Futebol",
+          "descricao": "Conflito armado de 1969 entre El Salvador e Honduras, deflagrado em meio a jogos das Eliminatórias da Copa de 1970.",
+          "variantes": [
+            "Guerra das Cem Horas",
+            "Football War",
+            "Guerra del Fútbol"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Arcos da Lapa",
+        "descricao": "Aqueduto colonial de arcos brancos no bairro da Lapa, no Rio de Janeiro, construído no século dezoito.",
+        "variantes": [
+          "Aqueduto da Carioca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vasco_da_gama",
+          "nome": "Vasco da Gama",
+          "descricao": "Club de Regatas Vasco da Gama, clube carioca fundado em 1898 por remadores.",
+          "variantes": [
+            "Club de Regatas Vasco da Gama",
+            "Vasco",
+            "CR Vasco da Gama"
+          ]
+        },
+        {
+          "id": "vasco_da_gama_2",
+          "nome": "Vasco da Gama",
+          "descricao": "Navegador português que abriu a rota marítima da Europa à Índia contornando a África.",
+          "variantes": [
+            "Vasco de Gama"
+          ]
+        },
+        {
+          "id": "atol_das_rocas",
+          "nome": "Atol das Rocas",
+          "descricao": "Atol no oceano Atlântico, a nordeste do Brasil, protegido como reserva biológica.",
+          "variantes": [
+            "Rocas Atoll",
+            "Reserva Biológica do Atol das Rocas"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        },
+        {
+          "id": "sapo_cururu",
+          "nome": "Sapo-cururu",
+          "descricao": "Grande sapo nativo das Américas (Rhinella marina), com glândulas de veneno atrás dos olhos, invasor na Austrália.",
+          "variantes": [
+            "Sapo-boi",
+            "Sapo-da-cana",
+            "Rhinella marina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Fórum Romano",
+        "descricao": "Praça cercada por ruínas de edifícios públicos, centro da vida da Roma antiga, entre o Palatino e o Capitólio.",
+        "variantes": [
+          "Foro Romano",
+          "Forum Romanum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fogo_grego",
+          "nome": "Fogo grego",
+          "descricao": "Arma incendiária de composição secreta usada pelo Império Bizantino, sobretudo em batalhas navais.",
+          "variantes": [
+            "Fogo marinho",
+            "Fogo líquido",
+            "Greek fire"
+          ]
+        },
+        {
+          "id": "senado_romano",
+          "nome": "Senado romano",
+          "descricao": "Assembleia política da Roma Antiga, existente desde a Monarquia até o fim do Império.",
+          "variantes": [
+            "Senatus",
+            "Roman Senate"
+          ]
+        },
+        {
+          "id": "fortran",
+          "nome": "Fortran",
+          "descricao": "Linguagem de programação desenvolvida pela IBM nos anos 1950, voltada a cálculos científicos.",
+          "variantes": []
+        },
+        {
+          "id": "calendario_romano",
+          "nome": "Calendário romano",
+          "descricao": "Sistema de contagem do tempo usado na Roma Antiga antes da reforma juliana.",
+          "variantes": [
+            "Roman calendar"
+          ]
+        },
+        {
+          "id": "reino_de_roma",
+          "nome": "Reino de Roma",
+          "descricao": "Período monárquico de Roma, da fundação lendária até a instauração da República.",
+          "variantes": [
+            "Monarquia Romana",
+            "Roman Kingdom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Pirâmide Curvada",
+        "descricao": "Pirâmide do faraó Seneferu, da IV dinastia, na necrópole de Dahshur, com a inclinação alterada na parte alta.",
+        "variantes": [
+          "Pirâmide Romboidal",
+          "Pirâmide Inclinada",
+          "Bent Pyramid"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        },
+        {
+          "id": "piramide_do_louvre",
+          "nome": "Pirâmide do Louvre",
+          "descricao": "Pirâmide de vidro e metal no pátio do Museu do Louvre, em Paris, inaugurada em 1989.",
+          "variantes": [
+            "Louvre Pyramid",
+            "Pyramide du Louvre"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        },
+        {
+          "id": "inti_raymi",
+          "nome": "Inti Raymi",
+          "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+          "variantes": [
+            "Festa do Sol"
+          ]
+        },
+        {
+          "id": "chichen_itza",
+          "nome": "Chichén Itzá",
+          "descricao": "Cidade maia na península de Iucatã, no México, com a pirâmide de Kukulcán.",
+          "variantes": [
+            "Pirâmide de Kukulcán",
+            "El Castillo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Muro das Lamentações",
+        "descricao": "Muro de contenção do Monte do Templo, em Jerusalém, lugar de oração judaica.",
+        "variantes": [
+          "Muro Ocidental",
+          "Kotel",
+          "Western Wall"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        },
+        {
+          "id": "gorila",
+          "nome": "Gorila",
+          "descricao": "Grande primata africano de pelagem escura; na foto, um macho adulto de gorila-ocidental (Gorilla gorilla).",
+          "variantes": [
+            "Gorila-ocidental",
+            "Gorilla gorilla",
+            "Western gorilla"
+          ]
+        },
+        {
+          "id": "grande_otelo",
+          "nome": "Grande Otelo",
+          "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia, parceiro de Oscarito no cinema.",
+          "variantes": [
+            "Sebastião Bernardes de Souza Prata",
+            "Othelo"
+          ]
+        },
+        {
+          "id": "muro_de_berlim",
+          "nome": "Muro de Berlim",
+          "descricao": "Barreira de concreto que cercou Berlim Ocidental entre 1961 e 1989, separando-a de Berlim Oriental e da Alemanha Oriental.",
+          "variantes": [
+            "Berliner Mauer",
+            "Berlin Wall"
+          ]
+        },
+        {
+          "id": "no_unidade",
+          "nome": "Nó (unidade)",
+          "descricao": "Unidade de velocidade usada na navegação marítima e aérea, equivalente a uma milha náutica por hora.",
+          "variantes": [
+            "Knot"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Catedral de São Basílio."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Coluna de Trajano."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Zigurate de Ur difere do Etemenanki da Babilônia e das demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "pompeia",
+      "motivo": "Mesma cidade romana soterrada pelo Vesúvio em 79 d.C."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a cidadela de Carcassonne."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Mesquita-Catedral de Córdoba."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Porta do Sol de Tiwanaku é distinta da Pirâmide do Sol e das demais."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é os Arcos da Lapa."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "O Fórum Romano é um lugar distinto do Senado, do calendário e do Reino de Roma."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "A Pirâmide Curvada é distinta das demais pirâmides candidatas."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Muro das Lamentações; o Muro de Berlim é outro."
+    }
+  ]
+}
