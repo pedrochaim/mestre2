@@ -1,0 +1,1022 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Bug (informática)",
+        "descricao": "Defeito ou falha num programa de computador que faz com que ele funcione errado.",
+        "variantes": [
+          "Bug de software",
+          "Software bug"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Software_bug"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O termo bug, usado para falhas em programas de computador, significa literalmente o quê em inglês?",
+      "resposta": "Inseto",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Software_bug"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Wiki",
+        "descricao": "Tipo de site cujo conteúdo pode ser editado coletivamente pelos próprios usuários, como a Wikipédia.",
+        "variantes": [
+          "WikiWikiWeb"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wiki",
+          "https://pt.wikipedia.org/wiki/Wiki"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra wiki, que deu origem ao nome da Wikipédia, vem de que língua, em que significa rápido?",
+      "resposta": "Havaiano",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wiki"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Google",
+        "descricao": "Empresa americana de tecnologia fundada em 1998 por Larry Page e Sergey Brin, dona do buscador de mesmo nome.",
+        "variantes": [
+          "Google LLC"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Google"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome Google é uma brincadeira com um termo matemático que designa qual número?",
+      "resposta": "Googol, um seguido de cem zeros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Google",
+        "https://en.wikipedia.org/wiki/Googol"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Robô",
+        "descricao": "Máquina capaz de executar tarefas de forma automática; o termo surgiu na peça R.U.R., de Karel Čapek.",
+        "variantes": [
+          "Robot"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Robot"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra robô, popularizada por uma peça de teatro tcheca de 1920, deriva de um termo eslavo que significa o quê?",
+      "resposta": "Trabalho forçado",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Robot",
+        "https://en.wikipedia.org/wiki/R.U.R."
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Emoji",
+        "descricao": "Pictograma usado em mensagens eletrônicas, surgido nos celulares japoneses no fim dos anos 1990.",
+        "variantes": [
+          "Emojis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Emoji"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Apesar de lembrar a palavra emoção, o termo emoji vem de qual língua?",
+      "resposta": "Japonês",
+      "distratores": [
+        "Inglês",
+        "Latim",
+        "Coreano"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Emoji"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Algoritmo",
+        "descricao": "Sequência finita de instruções bem definidas para resolver um problema ou realizar uma tarefa.",
+        "variantes": [
+          "Algorithm"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Algorithm"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A palavra algoritmo deriva do nome de qual matemático persa do século nove?",
+      "resposta": "Al-Khwarizmi",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Algorithm",
+        "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bluetooth",
+        "descricao": "Padrão de comunicação sem fio de curto alcance entre aparelhos eletrônicos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Bluetooth"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "A tecnologia sem fio Bluetooth tem o nome de um rei viking do século dez, que unificou as tribos de qual país?",
+      "resposta": "Dinamarca",
+      "distratores": [
+        "Suécia",
+        "Finlândia",
+        "Islândia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Bluetooth",
+        "https://en.wikipedia.org/wiki/Harald_Bluetooth"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Patinho Feio (computador)",
+        "descricao": "Computador pioneiro projetado e construído na Escola Politécnica da USP em 1972.",
+        "variantes": [
+          "Patinho Feio"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Patinho_Feio_(computador)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Um computador pioneiro, projetado e construído na USP em 1972, ganhou o apelido de qual personagem de conto infantil?",
+      "resposta": "Patinho Feio",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Patinho_Feio_(computador)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lua (linguagem de programação)",
+        "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos.",
+        "variantes": [
+          "Lua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A linguagem de programação brasileira Lua recebeu esse nome por suceder outra linguagem, do mesmo grupo de pesquisa, com nome de astro. Qual?",
+      "resposta": "Sol",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lua (linguagem de programação)",
+        "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos.",
+        "variantes": [
+          "Lua"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em qual universidade brasileira foi criada, em 1993, a linguagem de programação Lua, usada em muitos jogos eletrônicos?",
+      "resposta": "PUC-Rio",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "CAPTCHA",
+        "descricao": "Teste automático usado em sites para distinguir pessoas de programas, como digitar letras distorcidas.",
+        "variantes": [
+          "Captcha"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/CAPTCHA"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "A sigla em inglês dos testes captcha, aqueles de digitar letras distorcidas, inclui o nome de qual cientista da computação?",
+      "resposta": "Alan Turing",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/CAPTCHA"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bug do milênio",
+        "descricao": "Problema de software temido na virada de 1999 para 2000, ligado ao modo como os sistemas registravam o ano.",
+        "variantes": [
+          "Problema do ano 2000",
+          "Y2K"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Year_2000_problem"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Na virada para o ano dois mil, o temido bug do milênio era causado por sistemas que guardavam o ano de que forma?",
+      "resposta": "Com apenas dois dígitos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Year_2000_problem"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Voo 501 do Ariane 5",
+        "descricao": "Voo inaugural do foguete europeu Ariane 5, em 4 de junho de 1996, que terminou com a autodestruição do veículo.",
+        "variantes": [
+          "Ariane flight V88",
+          "Voo V88 do Ariane"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ariane_flight_V88"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1996, o foguete europeu Ariane 5 se autodestruiu menos de um minuto após seu voo inaugural. Qual foi a causa?",
+      "resposta": "Um erro de software",
+      "distratores": [
+        "Um raio",
+        "Vazamento de combustível",
+        "Sabotagem"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ariane_flight_V88"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "alan_turing",
+        "nome": "Alan Turing",
+        "descricao": "Matemático e lógico inglês (1912–1954), pai da ciência da computação teórica.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Alan_Turing"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1952, o matemático Alan Turing, herói da quebra de códigos na guerra, foi condenado pela Justiça britânica por qual motivo?",
+      "resposta": "Homossexualidade",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Alan_Turing"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Napster",
+        "descricao": "Serviço pioneiro de compartilhamento de músicas pela internet, lançado em 1999 por Shawn Fanning.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Napster"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 2001, o programa Napster, que popularizou a troca de músicas pela internet, foi obrigado a sair do ar por qual motivo?",
+      "resposta": "Violação de direitos autorais",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Napster"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arpanet",
+        "descricao": "Rede de computadores criada nos Estados Unidos em 1969, precursora da internet.",
+        "variantes": [
+          "ARPANET"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ARPANET"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1969, ao tentarem enviar a palavra login pela Arpanet, precursora da internet, só as duas primeiras letras chegaram. Por quê?",
+      "resposta": "O sistema travou",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ARPANET"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Arpanet",
+        "descricao": "Rede de computadores criada nos Estados Unidos em 1969, precursora da internet.",
+        "variantes": [
+          "ARPANET"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ARPANET"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Ao entrar em funcionamento, no fim de 1969, a rede Arpanet ligava computadores de quantas instituições americanas?",
+      "resposta": "Quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ARPANET"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Twitter",
+        "descricao": "Rede social de mensagens curtas criada em 2006 nos Estados Unidos.",
+        "variantes": [
+          "X"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Twitter"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O limite original de cento e quarenta caracteres das mensagens do Twitter foi definido para que cada uma coubesse em quê?",
+      "resposta": "Numa mensagem SMS",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Twitter"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Samsung Galaxy Note 7",
+        "descricao": "Celular da Samsung lançado em 2016 e retirado do mercado no mesmo ano.",
+        "variantes": [
+          "Galaxy Note 7"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_7"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 2016, a Samsung recolheu no mundo inteiro o celular Galaxy Note 7 por causa de qual defeito?",
+      "resposta": "Baterias que pegavam fogo",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_7"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mars Climate Orbiter",
+        "descricao": "Sonda da NASA lançada em 1998 para estudar Marte, perdida ao chegar ao planeta em 1999.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1999, a sonda americana Mars Climate Orbiter se perdeu ao chegar a Marte porque duas equipes usaram sistemas diferentes de quê?",
+      "resposta": "Unidades de medida",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Python (linguagem de programação)",
+        "descricao": "Linguagem de programação criada por Guido van Rossum e lançada em 1991.",
+        "variantes": [
+          "Python"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Python_(programming_language)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que grupo humorístico britânico inspirou tanto o termo spam, para mensagens indesejadas, quanto o nome de uma famosa linguagem de programação?",
+      "resposta": "Monty Python",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Python_(programming_language)",
+        "https://en.wikipedia.org/wiki/Spamming"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Herman Hollerith",
+        "descricao": "Inventor americano (1860–1929) das máquinas tabuladoras de cartões perfurados usadas no censo dos Estados Unidos de 1890.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Herman_Hollerith"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A empresa de Herman Hollerith, criador das máquinas de cartões perfurados usadas no censo americano de 1890, deu origem a qual gigante da informática?",
+      "resposta": "IBM",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Herman_Hollerith"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "tear_de_jacquard",
+        "nome": "Tear de Jacquard",
+        "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Jacquard_machine"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que recurso do tear de Jacquard Charles Babbage pretendia usar para programar sua máquina analítica?",
+      "resposta": "Cartões perfurados",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Analytical_engine",
+        "https://en.wikipedia.org/wiki/Jacquard_machine"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Steve Jobs",
+        "descricao": "Empresário americano (1955–2011), cofundador da Apple.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Steve_Jobs"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Afastado da Apple em 1985, Steve Jobs comprou no ano seguinte a divisão de computação gráfica da Lucasfilm, que virou qual estúdio?",
+      "resposta": "Pixar",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "https://en.wikipedia.org/wiki/Pixar"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "transistor",
+        "nome": "Transistor",
+        "descricao": "Dispositivo semicondutor usado para amplificar ou chavear sinais elétricos, bloco básico da eletrônica moderna.",
+        "variantes": [
+          "Transístor"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Transistor"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O transistor foi inventado em 1947 num laboratório americano cujo nome remete a qual inventor escocês?",
+      "resposta": "Alexander Graham Bell",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Transistor",
+        "https://en.wikipedia.org/wiki/Bell_Labs"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "HAL 9000",
+        "descricao": "Computador fictício com inteligência artificial do filme 2001: Uma Odisseia no Espaço, de 1968.",
+        "variantes": [
+          "HAL"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/HAL_9000"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No filme 2001, Uma Odisseia no Espaço, trocando cada letra do computador HAL pela seguinte do alfabeto, obtém-se a sigla de qual empresa?",
+      "resposta": "IBM",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/HAL_9000"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lei de Moore",
+        "descricao": "Previsão de que o número de transistores num chip dobra a intervalos regulares, formulada por Gordon Moore em 1965.",
+        "variantes": [
+          "Moore's law"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Moore%27s_law"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Gordon Moore, que dá nome à previsão de que os transistores num chip dobram a cada dois anos, cofundou qual empresa?",
+      "resposta": "Intel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Moore%27s_law",
+        "https://en.wikipedia.org/wiki/Gordon_Moore"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Android",
+        "descricao": "Sistema operacional para celulares e tablets desenvolvido pelo Google.",
+        "variantes": [
+          "Android (sistema operacional)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Android_(operating_system)"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O sistema Android, dos celulares, é construído sobre o núcleo de qual sistema operacional livre?",
+      "resposta": "Linux",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Android_(operating_system)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Microsoft",
+        "descricao": "Empresa americana de software fundada em 1975 por Bill Gates e Paul Allen.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Microsoft"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O primeiro produto da Microsoft, em 1975, foi uma versão da linguagem Basic para qual microcomputador?",
+      "resposta": "Altair 8800",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Altair_BASIC",
+        "https://en.wikipedia.org/wiki/Microsoft"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Salto de frequência",
+        "descricao": "Técnica de transmissão de rádio em que o sinal troca rapidamente de frequência para evitar interferência e interceptação.",
+        "variantes": [
+          "Espalhamento espectral por salto de frequência",
+          "Frequency-hopping spread spectrum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que atriz de Hollywood patenteou em 1942, com o compositor George Antheil, um sistema de salto de frequência para guiar torpedos?",
+      "resposta": "Hedy Lamarr",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+        "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Apple",
+        "descricao": "Empresa americana de tecnologia fundada em 1976, fabricante do Macintosh e do iPhone.",
+        "variantes": [
+          "Apple Inc.",
+          "Apple Computer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Apple_Inc."
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A Apple foi fundada em 1976 por Steve Jobs, Steve Wozniak e um terceiro sócio, que vendeu sua parte poucos dias depois. Quem?",
+      "resposta": "Ronald Wayne",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ronald_Wayne"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Interface gráfica do usuário",
+        "descricao": "Forma de interagir com o computador por meio de janelas, ícones e um ponteiro controlado pelo mouse.",
+        "variantes": [
+          "GUI",
+          "Interface gráfica"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Graphical_user_interface"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A interface com janelas, ícones e mouse que inspirou o Macintosh foi desenvolvida nos anos setenta no centro de pesquisa de qual empresa de copiadoras?",
+      "resposta": "Xerox",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Graphical_user_interface",
+        "https://en.wikipedia.org/wiki/Xerox_Alto"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Câmera digital",
+        "descricao": "Câmera fotográfica que registra imagens em formato digital, por meio de um sensor eletrônico, em vez de filme.",
+        "variantes": [
+          "Máquina fotográfica digital"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Digital_camera"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1975, o engenheiro Steven Sasson construiu um dos primeiros protótipos de câmera digital trabalhando para qual empresa de fotografia?",
+      "resposta": "Kodak",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Steven_Sasson"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Robótica",
+        "descricao": "Ramo da tecnologia dedicado ao projeto, à construção e ao uso de robôs.",
+        "variantes": [
+          "Robotics"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Robotics"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A palavra robótica apareceu pela primeira vez num conto de 1941 de qual escritor de ficção científica?",
+      "resposta": "Isaac Asimov",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Isaac_Asimov",
+        "https://en.wikipedia.org/wiki/Robotics"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "World Wide Web",
+        "descricao": "Sistema de páginas de hipertexto interligadas e acessadas pela internet, proposto por Tim Berners-Lee em 1989.",
+        "variantes": [
+          "Web",
+          "WWW"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/World_Wide_Web"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1989, em qual centro de pesquisa europeu o britânico Tim Berners-Lee propôs a World Wide Web?",
+      "resposta": "CERN",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/World_Wide_Web"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Linux",
+        "descricao": "Núcleo de sistema operacional livre criado por Linus Torvalds em 1991.",
+        "variantes": [
+          "Kernel Linux"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Linux"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Linus Torvalds começou a criar o Linux em 1991, quando era estudante universitário em qual país?",
+      "resposta": "Finlândia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Linus_Torvalds",
+        "https://en.wikipedia.org/wiki/Linux"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Brain (vírus de computador)",
+        "descricao": "Vírus de computador de 1986 que infectava disquetes de computadores pessoais compatíveis com o IBM PC.",
+        "variantes": [
+          "Brain",
+          "Pakistani Brain"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Brain_(computer_virus)"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Brain, um dos primeiros vírus de computadores pessoais, foi criado em 1986 por dois irmãos de qual país?",
+      "resposta": "Paquistão",
+      "distratores": [
+        "Índia",
+        "Irã",
+        "Turquia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Brain_(computer_virus)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Urna eletrônica brasileira",
+        "descricao": "Equipamento eletrônico de votação usado nas eleições do Brasil.",
+        "variantes": [
+          "Urna eletrônica"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Urna_eletr%C3%B4nica"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano a urna eletrônica foi usada pela primeira vez em eleições no Brasil?",
+      "resposta": "1996",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Urna_eletr%C3%B4nica"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fax",
+        "descricao": "Sistema de transmissão de documentos e imagens por linha telefônica ou fio, também chamado fac-símile.",
+        "variantes": [
+          "Fac-símile",
+          "Telefax"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fax"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "O escocês Alexander Bain patenteou um precursor do fax, capaz de transmitir imagens por fio, em que século?",
+      "resposta": "Século dezenove",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fax",
+        "https://en.wikipedia.org/wiki/Alexander_Bain_(inventor)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mecanismo de Anticítera",
+        "descricao": "Antigo aparelho grego de engrenagens de bronze, achado num naufrágio, usado para calcular posições astronômicas.",
+        "variantes": [
+          "Máquina de Anticítera",
+          "Antikythera mechanism"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O mecanismo de Anticítera, um calculador astronômico de engrenagens achado num naufrágio, foi construído em que época?",
+      "resposta": "Grécia Antiga",
+      "distratores": [
+        "Renascimento italiano",
+        "Império Bizantino",
+        "Revolução Industrial"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Deep Blue",
+        "descricao": "Supercomputador de xadrez desenvolvido pela IBM, que enfrentou Garry Kasparov em 1996 e 1997.",
+        "variantes": [
+          "Deep Blue (computador)"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Em que ano o computador Deep Blue, da IBM, derrotou o campeão mundial Garry Kasparov num confronto completo de xadrez?",
+      "resposta": "1997",
+      "distratores": [
+        "1989",
+        "1993",
+        "2001"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "ENIAC",
+        "descricao": "Computador eletrônico digital de uso geral construído nos Estados Unidos e concluído em 1945.",
+        "variantes": [
+          "Electronic Numerical Integrator and Computer"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/ENIAC"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "O ENIAC, um dos primeiros computadores eletrônicos, concluído nos Estados Unidos em 1945, pesava aproximadamente quanto?",
+      "resposta": "Cerca de 27 toneladas",
+      "distratores": [
+        "Cerca de 300 quilos",
+        "Cerca de 3 toneladas",
+        "Cerca de 270 toneladas"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/ENIAC"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "SMS",
+        "descricao": "Serviço de mensagens curtas de texto entre celulares.",
+        "variantes": [
+          "Short Message Service",
+          "Torpedo",
+          "Mensagem de texto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/SMS"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Uma mensagem SMS tradicional, de texto no celular, tem limite de quantos caracteres?",
+      "resposta": "160",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/SMS"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "SMS",
+        "descricao": "Serviço de mensagens curtas de texto entre celulares.",
+        "variantes": [
+          "Short Message Service",
+          "Torpedo",
+          "Mensagem de texto"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/SMS"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em 1992, no Reino Unido, o primeiro SMS da história foi enviado de um computador para um celular. Qual era a mensagem?",
+      "resposta": "Feliz Natal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/SMS"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fibra óptica",
+        "descricao": "Filamento fino e transparente que conduz luz e é usado para transmitir dados a longas distâncias.",
+        "variantes": [
+          "Optical fiber"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Optical_fiber"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "As fibras ópticas que transportam boa parte dos dados da internet são feitas, em geral, de qual material?",
+      "resposta": "Vidro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Optical_fiber"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mouse",
+        "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela do computador.",
+        "variantes": [
+          "Rato",
+          "Computer mouse"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Computer_mouse"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "O primeiro protótipo de mouse de computador, criado por Douglas Engelbart nos anos sessenta, tinha a carcaça feita de quê?",
+      "resposta": "Madeira",
+      "distratores": [
+        "Plástico",
+        "Vidro",
+        "Alumínio"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Computer_mouse"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fortran",
+        "descricao": "Linguagem de programação desenvolvida pela IBM nos anos 1950, voltada a cálculos científicos.",
+        "variantes": [
+          "FORTRAN"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Fortran"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destas linguagens de programação é a mais antiga?",
+      "resposta": "Fortran",
+      "distratores": [
+        "C",
+        "Java",
+        "Python"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Fortran"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Nokia",
+        "descricao": "Empresa finlandesa de telecomunicações, fundada em 1865, famosa pelos seus telefones celulares.",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nokia"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes de fabricar celulares, a finlandesa Nokia nasceu em 1865 como uma fábrica de quê?",
+      "resposta": "Celulose",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nokia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Samuel Morse",
+        "descricao": "Inventor americano (1791–1872) do telégrafo elétrico e coautor do código Morse.",
+        "variantes": [
+          "Samuel F. B. Morse"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Samuel_Morse"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Antes de se dedicar ao telégrafo e ao código que leva seu nome, o americano Samuel Morse era conhecido em qual profissão?",
+      "resposta": "Pintor",
+      "distratores": [
+        "Escultor",
+        "Poeta",
+        "Arquiteto"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Samuel_Morse"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Roberto Landell de Moura",
+        "descricao": "Padre e inventor gaúcho (1861–1928), pioneiro na transmissão da voz por ondas de rádio.",
+        "variantes": [
+          "Padre Landell de Moura"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+          "https://en.wikipedia.org/wiki/Roberto_Landell_de_Moura"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que padre gaúcho fez, na década de 1890, experiências pioneiras de transmissão da voz humana sem fio?",
+      "resposta": "Roberto Landell de Moura",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+        "https://en.wikipedia.org/wiki/Roberto_Landell_de_Moura"
+      ]
+    }
+  ]
+}

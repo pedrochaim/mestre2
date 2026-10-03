@@ -1,0 +1,1814 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Tecnologia e Computação** (tema **Ciências**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Bug (informática)",
+      "descricao": "Defeito ou falha num programa de computador que faz com que ele funcione errado."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O termo bug, usado para falhas em programas de computador, significa literalmente o quê em inglês?",
+    "resposta": "Inseto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Software_bug"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Software_bug",
+        "situacao": "ok",
+        "texto": "A software bug is a defect (bug) in computer software. A computer program with many or serious bugs may be described as buggy.\n[…]\nDebugging can be a significant part of the software development lifecycle. Maurice Wilkes, an early computing pioneer, described his realization in the late 1940s that\n[…]\nAnother study in 1990 reported that exceptionally good software development processes can achieve deployment failure rates as low as 0.1 per 1000 SLOC. This figure is iterated in literature such as Code Complete by Steve McConnell, and the NASA study on Flight Software Complexity. Some projects even attained zero defects: the firmware in the IBM Wheelwriter typewriter which consists of 63,000 SLOC, and the Space Shuttle software with 500,000 SLOC.\n[…]\nGovernment researchers, companies, and cyber security experts are the people who typically discover software flaws. The report calls for reforming computer crime and copyright laws.\n[…]\nIn the follow-up 1982 novel, 2010: Odyssey Two, and the accompanying 1984 film, 2010: The Year We Make Contact, it is revealed that this action was caused by the computer having been programmed with two conflicting objectives: to fully disclose all its information, and to keep the true purpose of the flight secret from the crew; this conflict caused HAL to become paranoid and eventually homicidal.\n[…]\nThe 2008 Canadian film Control Alt Delete is about a computer programmer at the end of 1999 struggling to fix bugs at his company related to the year 2000 problem (Y2K).\n[…]\nBug bounty program – Rewards offered for reporting software bugs\n[…]\nSoftware rot – Degradation or loss of the use of software over time"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bug",
+        "situacao": "ok",
+        "texto": "Em tecnologia, erros em sistemas e aparelhos eletrônicos recebem diversas designações, dentre elas: falha, defeito no programa, defeito no software, bug, tilt, glitch. Os termos referem-se às áreas de computação, sistemas de informação, eletrônica e muito comum entre adeptos de jogos eletrônicos, embora seja aplicável também na área de cibernética, o que implica a inclusão dos sistemas naturais ta\n[…]\nDe acordo com o Federal Standard 1037C dos Estados Unidos, o termo \"falha\" tem os seguintes significados:\n[…]\nO uso do termo bug (pronúncia em português: [bɐɡ], termo da língua inglesa que significa, neste contexto, \"defeito\", e fora dele, \"inseto\") para descrever defeitos inexplicáveis foi parte do jargão da engenharia por várias décadas; pode originalmente ter sido usado na engenharia mecânica para descrever maus funcionamentos mecânicos. Diz-se que o termo foi criado por Thomas Edison quando um inseto causou problemas de leitura em seu fonógrafo em 1878, mas pode ser que o termo seja mais antigo.\n[…]\nA invenção do termo frequentemente é atribuída a Grace Hopper, ao publicar em 1947 que a causa do mau funcionamento no computador Mark II, da Universidade de Harvard, seria um inseto preso nos contatos de um relê.\n[…]\nO Electronic Numerical Integrator and Computer (ENIAC), primeiro computador digital completamente eletrônico, também contribuiu ao uso da palavra. Ele era movido a válvulas e, assim, atraía milhares de insetos. Como de dezenas a centenas de válvulas queimavam a cada hora, o computador, que ocupava o espaço de uma sala, era aberto frequentemente, e montes de insetos mortos eram varridos para fora.\n[…]\nDiz-se que esses insetos provocavam curtos-circuitos nas placas do ENIAC, levando a falhas nos programas.\n[…]\nA origem do termo glitch é alemã, a partir da palavra glitschig, que significa \"escorregadio\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Wiki",
+      "descricao": "Tipo de site cujo conteúdo pode ser editado coletivamente pelos próprios usuários, como a Wikipédia."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra wiki, que deu origem ao nome da Wikipédia, vem de que língua, em que significa rápido?",
+    "resposta": "Havaiano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wiki"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wiki",
+        "situacao": "ok",
+        "texto": "A wiki (  WIK-ee) is a form of hypertext publication on the internet which is collaboratively edited and managed by its audience directly through a web browser. A typical wiki contains multiple pages that can either be edited by the public or any organization. The name derives from the first user-editable website called WikiWikiWeb – wiki being a Hawaiian word meaning 'quick' (pronounced [ˈviti]).\n[…]\nWikiWikiWeb was the first wiki. Ward Cunningham started developing it in 1994, and installed it on the Internet domain c2.com on March 25, 1995. Cunningham gave it the name after remembering a Honolulu International Airport counter employee telling him to take the \"Wiki Wiki Shuttle\" bus that runs between the airport's terminals, later observing that \"I chose wiki-wiki as an alliterative substitute for 'quick' and thereby avoided naming this stuff quick-web.\"\n[…]\nWikipedia became the most famous wiki site, launched in January 2001 and entering the top ten most popular websites in 2007. In the early 2000s, wikis were increasingly adopted in enterprise as collaborative software. Common uses included project communication, intranets, and documentation, initially for technical users. Some companies use wikis as their collaborative software and as a replacement for static intranets, and some schools and universities use wikis to enhance group learning.\n[…]\nThe English Wikipedia has the largest user base among wikis on the World Wide Web and ranks in the top 10 among all Web sites in terms of traffic. Other large wikis include the WikiWikiWeb, Memory Alpha, Wikivoyage, and previously Susning.nu, a Swedish-language knowledge base. Medical and health-related wiki examples include Ganfyd, an online collaborative medical reference that is edited by medical professionals and invited non-medical experts.\n[…]\nFormer wiki-related events include:\n[…]\nWikiMatrix, a website for comparing wiki software and hosts"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wiki",
+        "situacao": "ok",
+        "texto": "Em informática, wiki ([ˈwiki], do havaiano \"super veloz\") é um sistema de gestão de conteúdo e também uma linguagem de marcação utilizada em websites que contém hipertexto e hiperligações que trabalham com o software wiki, no qual vários usuários modificam/editam colaborativamente ao mesmo tempo o seu conteúdo e/ou a estrutura do wiki diretamente usando um navegador web, com a ajuda de um editor d\n[…]\nA enciclopédia Wikipédia não é um único wiki, esta é uma união de centenas de wikis — cada um pertence a uma língua específica. Além da Wikipédia, há milhares de outros wikis em uso, tanto públicos quanto privados, inclusive wikis a funcionar como recursos de gestão do conhecimento, ferramenta de notas, websites de comunidade e intranets. A Wikipédia em língua inglesa possui a maior coleção de artigos; em setembro de 2016, possuía mais de cinco milhões de artigos.\n[…]\nWard Cunningham, o desenvolvedor do primeiro software wiki, WikiWikiWeb, descreveu-o originalmente como «a base de dados online mais simples que poderia possivelmente funcionar». \"Wiki\" (pronunciado [ˈwiki]) é uma palavra havaiana que significa \"rápido\". O projeto de enciclopédia online Wikipédia é o website baseado em wiki mais popular e é um dos sites mais amplamente vistos no mundo, tendo sido colocado no “top dez” desde 2007.\n[…]\nO termo \"wiki\" na língua havaiana significa \"super veloz\", devido a velocidade de criação e atualização das páginas, uma das características que define a tecnologia colaborativa wiki.\n[…]\nWikipédia\n[…]\nJansson, Kurt (2002): \"Wikipedia. Die Freie Enzyklopädie.\" Lecture at the 19th Chaos Communications Congress (19C3), 27 de Dezembro, Berlim. Descrição online: http://de.wikipedia.org/wiki/Benutzer:Kurt_Jansson/Vortrag_auf_dem_19C3\n[…]\n«How did you come up with the idea for the Wiki?» (em inglês). Uma entrevista em vídeo com Ward Cunningham sobre como ele teve a ideia do Wiki  [ligação inativa]",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Google",
+      "descricao": "Empresa americana de tecnologia fundada em 1998 por Larry Page e Sergey Brin, dona do buscador de mesmo nome."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome Google é uma brincadeira com um termo matemático que designa qual número?",
+    "resposta": "Googol, um seguido de cem zeros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Google",
+      "https://en.wikipedia.org/wiki/Googol"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Google",
+        "situacao": "ok",
+        "texto": "Google LLC ( , GOO-gəl) is an American multinational technology corporation focused on information technology, online advertising, search engine technology, email, cloud computing, software, quantum computing, e-commerce, consumer electronics, and artificial intelligence (AI). It has been referred to as \"the most powerful company in the world\" by the BBC, and is one of the world's most valuable br\n[…]\nEventually, they changed the name to Google; the name of the search engine was a misspelling of the word googol, a very large number written 10100 (1 followed by 100 zeros), picked to signify that the search engine was intended to search a large number of websites.\n[…]\nSubsequent Google Doodles were designed by an outside contractor, until Larry and Sergey asked then-intern Dennis Hwang to design a logo for Bastille Day in 2000. From that point onward, Doodles have been organized and created by a team of employees termed \"Doodlers\". These are sometimes used to promote Google's hoaxes.\n[…]\nIn 2005, articles in The New York Times and other sources began suggesting that Google had lost its anti-corporate, no evil philosophy. In an effort to maintain the company's unique culture, Google designated a Chief Culture Officer whose purpose was to develop and maintain the culture and work on ways to keep true to the core values that the company was founded on. Google has also faced allegations of sexism and ageism from former employees.\n[…]\nIn 2003, after outgrowing two other locations, the company leased an office complex from Silicon Graphics, at 1600 Amphitheatre Parkway in Mountain View, California. The complex became known as the Googleplex, a play on the word googolplex. Three years later, Google bought the property from SGI for $319 million.\n[…]\nOutline of Google – American multinational tech corporation\n[…]\nGoogle Blogger – American online content management system\n[…]\nBusiness data for Google, Inc.:"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Googol",
+        "situacao": "ok",
+        "texto": "A googol is the large number 10100 or ten to the power of one hundred. In decimal notation, it is written as the digit 1 followed by one hundred zeros: 10,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000. Its systematic name is ten duotrigintillion (short scale) or ten sexdecilliard (long scale). Its prime factoriza\n[…]\nA googol is approximately equal to\n[…]\n(factorial of 70). Using an integral, binary numeral system, one would need 333 bits to represent a googol, i.e.,\n[…]\n. However, a googol is well within the maximum bounds of an IEEE 754 double-precision floating point type without full precision in the mantissa.\n[…]\nUsing modular arithmetic, the series of residues (mod n) of one googol, starting with mod 1, is as follows:\n[…]\nThis sequence is the same as that of the residues (mod n) of a googolplex up until the 17th position.\n[…]\nGoogol is a homophone of the company name Google, an intentional misspelling of \"googol\" by the company's founders; it suggests that the search engine provides large quantities of information. In 2004, Kasner's heirs considered suing Google over their use of \"googol\"; however, no suit was ever filed.\n[…]\nSince October 2009, Google has used the domain \"1e100.net\", \"1e100\" being E notation for 1 googol, to identify servers across its network.\n[…]\n\"Googol\" was the £1 million answer in a 2001 episode of the British Who Wants to Be a Millionaire?, which the contestant allegedly won by cheating.\n[…]\nA 1976 Richie Rich comic strip featured \"The Googol\", a masked villain so named because he had once been a US pilot pursued by 100 Zeros in the Second World War.\n[…]\nGoogolplex\n[…]\nWeisstein, Eric W. \"Googol\". MathWorld.\n[…]\nGoogol at PlanetMath.\n[…]\nPadilla, Tony; Symonds, Ria. \"Googol and Googolplex\". Numberphile. Brady Haran. Archived from the original on 2014-03-29. Retrieved 2013-04-06."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Google",
+        "situacao": "ok",
+        "texto": "Google ([ˈɡuːɡəl] GOO-ghəl) é uma empresa multinacional de softwares e serviços online (baseado na nuvem) fundada em 1998 na cidade norte-americana de Menlo Park (estado da Califórnia), que lucra principalmente através da publicidade pelo AdWords. A Google é a principal subsidiária da Alphabet Inc.\n[…]\nMeses depois, eles mudaram o nome para o Google, proveniente de um erro ortográfico da palavra \"googol\", o número um seguido por cem zeros, que foi criado para indicar a quantidade de informação que o motor de busca podia processar, o nome também reflete a missão de organizar uma quantidade aparentemente infinita de informações na web.\n[…]\nO complexo tem sido, desde então, conhecido como o Googleplex, uma brincadeira com a palavra googolplex, o número um seguido de um googol zeros. Três anos depois, o Google iria comprar a propriedade da SGI por 319 milhões de dólares.\n[…]\nA sede do Google em Mountain View, Califórnia, é conhecida como \"Googleplex\", um jogo de palavras com o número googolplex e do fato da sede ser um complexo de edifícios. A entrada está decorada com um piano, lâmpadas de lava, aglomerados de servidores antigos e uma projeção de consultas de pesquisa na parede. Os corredores estão cheios de bolas de exercício e bicicletas. Cada funcionário tem acesso ao centro de recreação da empresa.\n[…]\nEric Schmidt, chefe-executivo do Google, disse em 2007, em uma entrevista ao Financial Times: \"O objetivo é permitir que usuários do Google sejam capazes de fazer perguntas como \"O que vou fazer amanhã? e \"Em qual trabalho devo me ocupar?\". Schmidt reafirmou isso em 2010, em uma entrevista ao Wall Street Journal:\".. Eu realmente acho que a maioria das pessoas não querem o Google para responder suas perguntas, elas querem Google para dizer-lhes o que deve fazer em seguida.\"\n[…]\n«Google»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Robô",
+      "descricao": "Máquina capaz de executar tarefas de forma automática; o termo surgiu na peça R.U.R., de Karel Čapek."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra robô, popularizada por uma peça de teatro tcheca de 1920, deriva de um termo eslavo que significa o quê?",
+    "resposta": "Trabalho forçado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Robot",
+      "https://en.wikipedia.org/wiki/R.U.R."
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Robot",
+        "situacao": "ok",
+        "texto": "A robot is a machine, especially one programmable via a computer, capable of automatically carrying out a complex series of actions. A robot can be guided by an external or internal control device. Robots may be humanoid, but most are task-performing machines prioritizing functionality over aesthetics.\n[…]\nThey looked like real women and could not only speak and use their limbs but were endowed with intelligence and trained in handwork by the immortal gods.\" The words \"robot\" or \"android\" are not used to describe them, but they are nevertheless mechanical devices human in appearance. \"The first use of the word Robot was in Karel Čapek's play R.U.R. (Rossum's Universal Robots) (written in 1920)\". Writer Karel Čapek was born in Czechoslovakia (Czech Republic).\n[…]\nRobots are used in a number of competitive events. Robot combat competitions have been popularized by television shows such as Robot Wars and BattleBots, featuring mostly remotely controlled 'robots' that compete against each other directly using various weaponry, there are also amateur robot combat leagues active globally outside of the televised events. Micromouse events, in which autonomous robots compete to solve mazes or other obstacle courses are also held internationally.\n[…]\nOther works with similar themes include The Mechanical Man, The Terminator, Runaway, RoboCop, the Replicators in Stargate, the Cylons in Battlestar Galactica, the Cybermen and Daleks in Doctor Who, The Matrix, Enthiran and I, Robot. Some fictional robots are programmed to kill and destroy; others gain superhuman intelligence and abilities by upgrading their own software and hardware. Examples of popular media where the robot becomes evil are 2001: A Space Odyssey, Red Planet and Enthiran.\n[…]\nČapek, Karel (1920). R.U.R. , Aventinum, Prague."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/R.U.R.",
+        "situacao": "ok",
+        "texto": "R.U.R. is a 1920 science fiction play by the Czech writer Karel Čapek. \"R.U.R.\" stands for Rossumovi Univerzální Roboti (Rossum's Universal Robots, a phrase that has been used as a subtitle in English versions).\n[…]\nThe robots described in Čapek's play are not robots in the popularly understood sense of an automaton. They are not mechanical devices, but rather artificial\n[…]\nOn 21 June 2024 an adaptation of the play was staged in Australia at Phoenix Theatre, Coniston. The adaptation leaned into the science fiction inspiration it gave, with the scripts alteration containing over 100 references to popular sci-fi franchises otherwise inspired by R.U.R. The play is available to watch on YouTube.\n[…]\nEric, a robot constructed in Britain in 1928 for public appearances, bore the letters \"R.U.R.\" across its chest.\n[…]\nIn the 1977 Doctor Who serial \"The Robots of Death\", the robot servants turn on their human masters under the influence of an individual named Taren Capel.\n[…]\nIn the rebooted science fiction series The Outer Limits (1995), in the remake of the \"I, Robot\" episode from the original 1964 series, the business where the robot Adam Link is built is named \"Rossum Hall Robotics\".\n[…]\nIn the 2016 video game Deus Ex: Mankind Divided, R.U.R. is performed in an underground theater in a dystopian Prague by an \"augmented\" (cyborg) woman who believes herself to be the robot Helena.\n[…]\nThe main protagonist in Peter Brown’s The Wild Robot series (2016-2023) is “a robot character named Rozzum (a subtle nod to Čapek’s play)”.\n[…]\nIn the 2024 American animated movie The Wild Robot, the model name of the protagonist robot is \"ROZZUM Unit 7134\".\n[…]\nOnline facsimile version of the 1920 first edition in Czech."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rob%C3%B4",
+        "situacao": "ok",
+        "texto": "Um robô (do tcheco robota) é um dispositivo, ou grupo de dispositivos, eletromecânicos capazes de realizar trabalhos de maneira autônoma ou pré-programada. Os robôs são comumente utilizados na realização de tarefas em locais mal iluminados, ou na realização de tarefas sujas ou perigosas para os seres humanos.\n[…]\nA palavra 'robô' em si não era nova, tendo sido usada na língua tcheca como robota (que significa servidão, um termo aplicado a camponeses obrigados ao serviço obrigatório sob o sistema feudal). O termo \"robô\" foi aplicado pela primeira vez para se referir a autômatos artificiais na peça R.U.R. em 1920, do escritor tcheco Karel Čapek.\n[…]\nNo entanto, Karel originalmente lhes chamaria de labori (do latim labor, trabalho) mas seu irmão Josef Čapek sugeriu o termo robô (originalmente robot/roboti- singular/plural). Na concepção atual, robôs são compostos de partes mecânicas, enquanto os \"robôs\" de R.U.R.\n[…]\nAlternativamente, o termo robô tem sido utilizado para a designar uma série de máquinas que substituem diretamente o ser humano ou um animal no trabalho ou no lazer. Desta forma, um robô pode ser visto como uma forma de biomímica. A falta do antropomorfismo é provavelmente a principal causa que nos impede de reconhecer uma lavadora de louças altamente complexa como se fosse um robô.\n[…]\nO escritor checo Karel Čapek introduziu a palavra \"Robô\" em sua peça \"R.U.R\" (Rossum's Universal Robots, cujo livro foi lançado no Brasil pela editora Hedra com o título A Fábrica de Robôs), encenada em 1921. O termo \"robô\" realmente não foi criado por Karel Čapek, mas por seu irmão Josef, outro respeitado escritor checo. O termo \"Robô\" vem da palavra checa \"robota\", que significa \"trabalho forçado\".\n[…]\nKit Robô\n[…]\nRobô autônomo\n[…]\nRobô humanoide",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Emoji",
+      "descricao": "Pictograma usado em mensagens eletrônicas, surgido nos celulares japoneses no fim dos anos 1990."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Apesar de lembrar a palavra emoção, o termo emoji vem de qual língua?",
+    "resposta": "Japonês",
+    "distratores": [
+      "Inglês",
+      "Latim",
+      "Coreano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Emoji"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Emoji",
+        "situacao": "ok",
+        "texto": "An emoji ( i-MOH-jee or  ee-MOH-jee; plural emoji or emojis; Japanese: 絵文字, pronounced [emoꜜ(d)ʑi]) is a pictogram, logogram, or ideogram embedded in text and used in electronic messages and web pages. The primary function of modern emoji is to fill in emotional cues otherwise missing from typed conversation as well as to replace words as part of a logographic system.\n[…]\nArrows (8 code points considered emoji),\n[…]\nIn March 2017, the first episode of the fifth season of Samurai Jack featured alien characters who communicate in emoji.\n[…]\nOn July 28, 2017, Sony Pictures Animation released The Emoji Movie, an animated movie featuring the voices of Patrick Stewart, Christina Aguilera, Sofía Vergara, Anna Faris, T. J. Miller, and other notable actors and comedians. It was universally panned, and it has been considered one of the worst animated films.\n[…]\nOn September 3, 2021, Drake released his sixth studio album, Certified Lover Boy. The album's cover art features twelve emoji of pregnant women in varying clothing colors, hair colors, and skin tones.\n[…]\nBlob emoji – Set of emoji by Google\n[…]\nEmojipedia – Online encyclopedia devoted to emoji characters\n[…]\nList of emoji\n[…]\nHouston, Keith (2025). Face with Tears of Joy: A Natural History of Emoji (First (trade paperback) ed.). New York: W. W. Norton & Company. ISBN 978-1-324-07514-1. OCLC 1455397262.\n[…]\nPardes, Arielle (February 1, 2018). \"The WIRED Guide to Emoji\". Wired. ISSN 1059-1028.\n[…]\nUnicode Technical Report #51: Unicode emoji\n[…]\nCategorized listing of emojis with links to individual characters that can be copied to clipboard\n[…]\nThe Unicode FAQ – Emoji & Dingbats\n[…]\nEmoji Symbols – the original proposals for encoding of emoji symbols as Unicode characters\n[…]\nEmojipedia – an online encyclopedia of emoji and their branded variations\n[…]\nemojitracker – list of most popularly used emoji on the Twitter platform; updated in real-time"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Emoji",
+        "situacao": "ok",
+        "texto": "Emoji (絵文字, lit. pictograma) é uma palavra derivada da junção dos seguintes termos em japonês: e (絵, \"imagem\") + moji (文字, \"letra\"). Com origem no Japão, os emojis são ideogramas e smileys usados em mensagens eletrônicas e páginas web, cujo uso está se popularizando para além do país. Eles existem em diversos gêneros, incluindo: expressões faciais, objetos, lugares, animais e tipos de clima.\n[…]\nO Oxford Dictionary nomeou o emoji \"😂\" (Face With Tears of Joy) como \"palavra do ano\" em 2015.\n[…]\nParalelamente ao desenvolvimento japonês, Nicolas Loufrani da Smiley Company começou a transformar emoticons ASCII em gráficos 3D detalhados em 1997. Loufrani criou um \"sistema logográfico\" com 256 ícones categorizados por temas como animais e celebrações, introduzindo a estética circular amarela que mais tarde definiria o \"visual\" da Apple. Em 2003, ele consolidou isso em um \"Dicionário Smiley\" contendo 887 ícones.\n[…]\nDurante anos, as operadoras japonesas usaram esquemas de codificação incompatíveis (Shift JIS), causando “mojibake” (texto corrompido) quando ícones eram enviados entre redes diferentes. A transição para um padrão global começou em 2006, quando o Google mapeou emojis japoneses em códigos Unicode privados para expandir o Gmail no Japão. Em 2007, Google e Apple apresentaram uma proposta formal ao Consórcio Unicode para incluir emojis no padrão internacional.\n[…]\nÀ medida que os emojis se tornaram uma “língua franca global”, os usuários começaram a exigir uma melhor representação. Em 2015, o Unicode 8.0 introduziu modificadores baseados na Escala de Fitzpatrick, permitindo aos usuários escolher entre seis tons de pele. Grupos como o Emojination, fundado por Jennifer 8. Lee, defendiam \"emoji do povo, para o povo\", levando à inclusão do bolinho de massa (🥟), do hijabe (🧕) e dos ícones de menstruação (🩸).\n[…]\nConstrutor de emojis\n[…]\nEmojis mais populares\n[…]\nEmojis para Copiar",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Algoritmo",
+      "descricao": "Sequência finita de instruções bem definidas para resolver um problema ou realizar uma tarefa."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra algoritmo deriva do nome de qual matemático persa do século nove?",
+    "resposta": "Al-Khwarizmi",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Algorithm",
+      "https://en.wikipedia.org/wiki/Al-Khwarizmi"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Algorithm",
+        "situacao": "ok",
+        "texto": "In mathematics and computer science, an algorithm ( ) is any well-defined set of instructions that when followed terminates after a finite number of steps that comprise a solution to a given computational problem. Advanced algorithms may utilize loops and involve many conditionals that decide the next step based on the inputs provided, resulting in long sequences of steps before halting, but all a\n[…]\nAround 825 AD, Persian scientist and polymath al-Khwarizmi wrote kitāb al-ḥisāb al-hindī (\"Book of Indian computation\") and kitab al-jam' wa'l-tafriq al-ḥisāb al-hindī (\"Addition and subtraction in Indian arithmetic\").\n[…]\nIn the early 12th century, Latin translations of these texts involving the Hindu–Arabic numeral system and arithmetic appeared, for example Liber Alghoarismi de practica arismetrice, attributed to John of Seville, and Liber Algoritmi de numero Indorum, attributed to Adelard of Bath. Here, alghoarismi or algoritmi is the Latinization of Al-Khwarizmi's name; the text starts with the phrase Dixit Algoritmi, or \"Thus spoke Al-Khwarizmi\".\n[…]\nIn the 9th century, Muḥammad ibn Mūsā al-Khwārizmī revolutionized the field by establishing the algorithm as a systematic, finite sequence of logical steps to solve mathematical problems. In his influential work, The Compendious Book on Calculation by Completion and Balancing, he moved beyond specific numerical solutions to introduce general procedures for algebraic reduction and balancing.\n[…]\nQuantum algorithm\n[…]\nRandomized algorithm\n[…]\n\"Algorithm\". Encyclopedia of Mathematics. EMS Press. 2001 [1994].\n[…]\nWeisstein, Eric W. \"Algorithm\". MathWorld.\n[…]\nDictionary of Algorithms and Data Structures – National Institute of Standards and Technology\n[…]\nAlgorithm repositories\n[…]\nThe Stony Brook Algorithm Repository – State University of New York at Stony Brook\n[…]\nCollected Algorithms of the ACM – Associations for Computing Machinery"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+        "situacao": "ok",
+        "texto": "Muhammad ibn Musa al-Khwarizmi, or simply al-Khwarizmi (c. 780 – c. 850) was a mathematician active during the Islamic Golden Age, who produced Arabic-language works in mathematics, astronomy, and geography. Around 820, he worked at the House of Wisdom in Baghdad, the contemporary capital city of the Abbasid Caliphate. One of the most prominent scholars of the period, his works were widely influen\n[…]\nAl-Khwarizmi's name was latinized as Algoritmi, making his name the origin of the word \"algorithm.\"\n[…]\nAs part of 12th century wave of Arabic science flowing into Europe via translations, these texts proved to be revolutionary in Europe. Al-Khwarizmi's Latinized name, Algorismus, turned into the name of method used for computations, and survives in the term \"algorithm\". It gradually replaced the previous abacus-based methods used in Europe.\n[…]\nDixit Algorizmi ('Thus spake Al-Khwarizmi') is the starting phrase of a manuscript in the University of Cambridge library, which is generally referred to by its 1857 title Algoritmi de Numero Indorum. It is attributed to the Adelard of Bath, who had translated the astronomical tables in 1126. It is perhaps the closest to Al-Khwarizmi's own writings.\n[…]\nAl-Khwarizmi's work on arithmetic was responsible for introducing the Arabic numerals, based on the Hindu–Arabic numeral system developed in Indian mathematics, to the Western world. The term \"algorithm\" is derived from the algorism, the technique of performing arithmetic with Hindu-Arabic numerals developed by al-Khwārizmī. Both \"algorithm\" and \"algorism\" are derived from the Latinized forms of al-Khwārizmī's name, Algoritmi and Algorismi, respectively.\n[…]\nAl-Khwarizmi (crater) — A crater on the far side of the Moon.\n[…]\n11156 Al-Khwarismi — Main-belt Asteroid, Discovered 1997 Dec 31 by P. G. Comba at Prescott.\n[…]\nMedia related to Muhammad ibn Musa al-Khwarizmi at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Algoritmo",
+        "situacao": "ok",
+        "texto": "Em matemática e ciência da computação, um algoritmo é uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema. Segundo Dasgupta, Papadimitriou e Vazirani; \"Algoritmos são procedimentos precisos, não ambíguos, padronizados, eficientes e corretos.\".\n[…]\nOs historiadores da palavra algoritmo encontraram a origem no sobrenome, Al-Khwarizmi, do matemático persa do século IX Mohamed ben Musa, cujas obras foram traduzidas no ocidente cristão no século XII, tendo uma delas recebido o nome Algorithmi de numero indorum, sobre os algoritmos usando o sistema de numeração decimal (indiano). Outros autores, entretanto, defendem a origem da palavra em Al-goreten (raiz - conceito que se pode aplicar aos cálculos).\n[…]\n\"Álgebra\" e \"algorismo\" também formam formas corrompidas da palavra, pois as pessoas esqueciam as derivações originais. O dicionário \"Vollständiges Mathematisches Lexicon\" (Leipzig, 1747) refere a palavra \"Algorithmus\"; nesta designação estão combinadas as noções de quatro cálculos aritméticos, nomeadamente a adição, multiplicação, subtração e divisão.\n[…]\nPara qualquer processo computacional, o algoritmo precisa estar rigorosamente definido, especificando a maneira que ele se comportará em todas as circunstâncias. A corretividade do algoritmo pode ser provada matematicamente, bem como a quantidade assintótica de tempo e espaço (complexidade) necessários para a sua execução. Estes aspectos dos algoritmos são alvo da análise de algoritmos.\n[…]\nAlguns exemplos genéricos de algoritmos são: uma coreografia, um manual de instruções, uma receita culinária, Técnicas para resolver problemas matemáticos, uma pesquisa na internet, dentre outros.\n[…]\nProjeto de Algoritmos em C\n[…]\nA. Broder, J. Stolfi, Pessimal Algorithms and Simplexity Analysis",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Bluetooth",
+      "descricao": "Padrão de comunicação sem fio de curto alcance entre aparelhos eletrônicos."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A tecnologia sem fio Bluetooth tem o nome de um rei viking do século dez, que unificou as tribos de qual país?",
+    "resposta": "Dinamarca",
+    "distratores": [
+      "Suécia",
+      "Finlândia",
+      "Islândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bluetooth",
+      "https://en.wikipedia.org/wiki/Harald_Bluetooth"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bluetooth",
+        "situacao": "ok",
+        "texto": "Bluetooth is a short-range wireless technology standard that is used for exchanging data between fixed and mobile devices over short distances and building personal area networks (PANs). In the most widely used mode, transmission power is limited to 2.5 milliwatts, giving it a very short range of up to 10 metres (33 ft). It employs UHF radio waves in the ISM bands, from 2.402 GHz to 2.48 GHz.\n[…]\nThe name \"Bluetooth\" was proposed in 1997 by Jim Kardach of Intel, one of the founders of the Bluetooth SIG. The name was inspired by a conversation with Sven Mattisson, who related Scandinavian history through tales from Frans G. Bengtsson's The Long Ships, a historical novel about Vikings and the 10th-century Danish king Harald Bluetooth.\n[…]\nUpon discovering a picture of the runestone of Harald Bluetooth in the book A History of the Vikings by Gwyn Jones, Kardach proposed Bluetooth as the codename for the short-range wireless program.\n[…]\nIn July 2018, Lior Neumann and Eli Biham, researchers at the Technion – Israel Institute of Technology identified a security vulnerability in the latest Bluetooth pairing procedures: Secure Simple Pairing and LE Secure Connections.\n[…]\nThe Bluetooth Innovation World Cup, a marketing initiative of the Bluetooth Special Interest Group (SIG), was an international competition that encouraged the development of innovations for applications leveraging Bluetooth technology in sports, fitness and health care products. The competition aimed to stimulate new markets.\n[…]\nThe Bluetooth Innovation World Cup morphed into the Bluetooth Breakthrough Awards in 2013. Bluetooth SIG subsequently launched the Imagine Blue Award in 2016 at Bluetooth World. The Bluetooth Breakthrough Awards program highlights the most innovative products and applications available today, prototypes coming soon, and student-led projects in the making.\n[…]\nSpecifications at Bluetooth SIG"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Harald_Bluetooth",
+        "situacao": "ok",
+        "texto": "Harald \"Bluetooth\" Gormsson (Old Norse: Haraldr Blátǫnn Gormsson; Danish: Harald Blåtand Gormsen, died c. 985/86) was a king of Denmark and Norway.\n[…]\nThe first documented appearance of Harald's nickname \"Bluetooth\" (as blatan; Old Norse *blátǫnn) is in the Chronicon Roskildense (written c. 1140), alongside the alternative nickname Clac Harald. Clac Harald appears to be a conflation of Harald Bluetooth with the legendary or semi-legendary Harald Klak, son of Halfdan.\n[…]\nAfter his conversion, around the 960s, Harald had his father's body reburied in the church next to the now empty mound. He had the Jelling stones erected to honour his parents. The biography of Harald Bluetooth is summed up by this runic inscription from the Jelling stones:\n[…]\nThe Bluetooth wireless specification design was named after the king in 1997, based on an analogy that the technology would unite devices the way Harald Bluetooth united the tribes of Denmark into a single kingdom. The Bluetooth logo consists of a Younger Futhark bind rune for his initials, H (ᚼ) and B (ᛒ).\n[…]\nHagrold, a 10th-century Danish Viking in Normandy, mentioned as a Danish king, who became conflated with Harald Bluetooth in a later historical account.\n[…]\nThis article incorporates text from the 1913 Catholic Encyclopedia article \"Harold Bluetooth\" by Pius Wittmann, a publication now in the public domain.\n[…]\nLund, Niels (2002). \"Harald Bluetooth - A Saint Very Nearly Made by Adam of Bremen\". In Jesch, Judith (ed.). The Scandinavians from the Vendel Period to the Tenth Century. Woodbridge, UK: Boydell Press. pp. 303–320. ISBN 9781 84383 728 2."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bluetooth",
+        "situacao": "ok",
+        "texto": "Bluetooth é um padrão de tecnologia sem fio de curto alcance usado para troca de dados entre dispositivos fixos e móveis em distâncias curtas e construção de redes de área pessoal (PANs). No modo mais utilizado, a potência de transmissão é limitada a 2,5 miliwatts, proporcionando um alcance muito curto de até 10 metros (33 pés). Emprega ondas de rádio UHF nas bandas ISM, de 2,402 GHz a 2,48 GHz.\n[…]\nO nome \"Bluetooth\" foi proposto em 1997 por Jim Kardach da Intel, um dos fundadores do Bluetooth SIG. O nome foi inspirado por uma conversa com Sven Mattisson, que relatou a história escandinava por meio de contos de The Long Ships, de Frans G. Bengtsson, um romance histórico sobre vikings e o rei dinamarquês do século X, Harald Bluetooth.\n[…]\nBluetooth é a versão anglicizada do escandinavo Blåtand / Blåtann (ou em nórdico antigo blátǫnn). Era o epíteto do rei Harald Bluetooth, que uniu as diferentes tribos dinamarquesas em um único reino; Kardach escolheu o nome para sugerir que o Bluetooth une protocolos de comunicação de maneira semelhante.\n[…]\nA Apple também integrou o Bluetooth 5 em sua nova oferta HomePod lançada em 9 de fevereiro de 2018. O marketing descarta o número do ponto; para que seja apenas \"Bluetooth 5\" (ao contrário do Bluetooth 4.0); a mudança é para \"simplificar nosso marketing, comunicar os benefícios do usuário de forma mais eficaz e facilitar a sinalização de atualizações tecnológicas significativas para o mercado\".\n[…]\nA Bluetooth Innovation World Cup, uma iniciativa de marketing do Bluetooth Special Interest Group (SIG), foi uma competição internacional que incentivou o desenvolvimento de inovações para aplicações que utilizam a tecnologia Bluetooth em produtos esportivos, fitness e de saúde. A competição visava estimular novos mercados.\n[…]\nhttps://rz1.com.br/  Bluetooth: A Tecnologia Sem Fios Que Conectou o Mundo«Página oficial»\n[…]\nWNews: Bluetooth? O que é isso, afinal?",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Patinho Feio (computador)",
+      "descricao": "Computador pioneiro projetado e construído na Escola Politécnica da USP em 1972."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Um computador pioneiro, projetado e construído na USP em 1972, ganhou o apelido de qual personagem de conto infantil?",
+    "resposta": "Patinho Feio",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Patinho_Feio_(computador)"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Patinho_Feio_(computador)",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Lua (linguagem de programação)",
+      "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A linguagem de programação brasileira Lua recebeu esse nome por suceder outra linguagem, do mesmo grupo de pesquisa, com nome de astro. Qual?",
+    "resposta": "Sol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lua_(programming_language)",
+        "situacao": "ok",
+        "texto": "Lua  is a lightweight, high-level, multi-paradigm programming language designed mainly for embedded use in applications. Lua is cross-platform software, since the interpreter of compiled bytecode is written in ANSI C, and Lua has a relatively simple C application programming interface (API) to embed it into applications.\n[…]\nIn 2003, a poll conducted by GameDev.net showed that Lua was the most popular scripting language for game programming. On 12 January 2012, Lua was announced as a winner of the Front Line Award 2011 from the magazine Game Developer in the category Programming Tools.\n[…]\nMany non-game applications also use Lua for extensibility, such as LuaTeX, an implementation of the TeX type-setting language; Redis, a key-value database; ScyllaDB, a wide-column store; Neovim, a text editor; Nginx, a web server; Wireshark, a network packet analyzer; Discordia, a Discord API library; and Pure Data, a visual audio programming language (through the pdlua extension).\n[…]\nAmulet, an ML-like functional programming language, which compiler emits Lua files.\n[…]\nComparison of programming languages\n[…]\nIerusalimschy, R. (2013). Programming in Lua (3rd ed.). Lua.org. ISBN 978-85-903798-5-0. (The 1st ed. is available online.)\n[…]\nGutschmidt, T. (2003). Game Programming with Python, Lua, and Ruby. Course Technology PTR. ISBN 978-1-59200-077-7.\n[…]\nJung, K.; Brown, A. (2007). Beginning Lua Programming. Wrox Press. ISBN 978-0-470-06917-2. Archived from the original on 8 July 2018. Retrieved 7 July 2018.\n[…]\nFigueiredo, L. H.; Celes, W.; Ierusalimschy, R., eds. (2008). Lua Programming Gems. Lua.org. ISBN 978-85-903798-4-3.\n[…]\nHamilton, Naomi (11 September 2008). \"The A-Z of Programming Languages: Lua\". Computerworld. IDG. Archived from the original on 8 July 2018. Retrieved 7 July 2018. Interview with Roberto Ierusalimschy."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lua_%28linguagem_de_programa%C3%A7%C3%A3o%29",
+        "situacao": "ok",
+        "texto": "Lua é uma linguagem de programação interpretada, de script em alto nível, com tipagem dinâmica e multiparadigma, reflexiva e leve, projetada pela Tecgraf da PUC-Rio em 1993 para expandir aplicações em geral, de forma extensível (que une partes de um programa feitas em mais de uma linguagem), para prototipagem e para ser embarcada em softwares complexos, como jogos. Assemelha-se com Python, Ruby e \n[…]\nDo mesmo modo, Lua permite que programadores quando implementam nomes, classes, e outras funções, empreguem poderosas técnicas de programação funcional e completos escopos lexicais.\n[…]\nLua é uma linguagem que suporta apenas um pequeno número de estruturas, tais como dados atômicos, valores booleanos, números (dupla precisão em ponto flutuante por padrão), e strings. As estruturas de dados comuns, tais como matrizes, conjuntos, tabelas, listas, e registros podem ser representados por meio de Lua. Lua não foi construída com suporte para programação orientada a objeto.\n[…]\nO programa Lua fornece 4 tipos diferentes de loops: while, repeat (similar ao do while de outras linguagens), for e o loop genérico. Suas respectivas sintaxes são demonstradas abaixo:\n[…]\nAo se criar uma tabela, os dados inseridos nela ganham automaticamente um índice numérico para identificá-los. Porém, ao contrário de outras linguagens de programação, o primeiro índice recebe o valor de 1, e não 0.\n[…]\nLua consegue ser flexível, intuitiva e dinâmica o suficiente para suportar quase qualquer conceito existente nativamente em outras linguagens por meio das metatables, mesmo que o conceito não esteja descrito nativamente na linguagem.\n[…]\nEm 2013, a Wikimedia Foundation começou a utilizar a linguagem nas predefinições.\n[…]\nLista de linguagens de programação\n[…]\nJung, Kurt; Brown, Aaron (2007). Beginning Lua Programming. Indianapolis: Wiley Publishing. 644 páginas. ISBN 978-0-470-06917-2  !CS1 manut: Nomes múltiplos: lista de autores (link)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Lua (linguagem de programação)",
+      "descricao": "Linguagem de programação criada em 1993 na PUC-Rio, muito usada em jogos eletrônicos."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em qual universidade brasileira foi criada, em 1993, a linguagem de programação Lua, usada em muitos jogos eletrônicos?",
+    "resposta": "PUC-Rio",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lua_(programming_language)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lua_(programming_language)",
+        "situacao": "ok",
+        "texto": "Lua  is a lightweight, high-level, multi-paradigm programming language designed mainly for embedded use in applications. Lua is cross-platform software, since the interpreter of compiled bytecode is written in ANSI C, and Lua has a relatively simple C application programming interface (API) to embed it into applications.\n[…]\nLua originated in 1993 as a language for extending software applications to meet the increasing demand for customization at the time. It provided the basic facilities of most procedural programming languages, but more complicated or domain-specific features were not included; rather, it included mechanisms for extending the language, allowing programmers to implement such features.\n[…]\nLua was created in 1993 by Roberto Ierusalimschy, Luiz Henrique de Figueiredo, and Waldemar Celes, members of the Computer Graphics Technology Group (Tecgraf) at the Pontifical Catholic University of Rio de Janeiro, in Brazil.\n[…]\nLua's predecessors were the data-description and configuration languages Simple Object Language (SOL) and Data-Entry Language (DEL). They had been independently developed at Tecgraf in 1992–1993 to add some flexibility into two different projects (both were interactive graphical programs for engineering applications at Petrobras company). There was a lack of any flow-control structures in SOL and DEL, and Petrobras felt a growing need to add full programming power to them.\n[…]\nComparison of programming languages\n[…]\nFigueiredo, L. H.; Celes, W.; Ierusalimschy, R., eds. (2008). Lua Programming Gems. Lua.org. ISBN 978-85-903798-4-3.\n[…]\nHamilton, Naomi (11 September 2008). \"The A-Z of Programming Languages: Lua\". Computerworld. IDG. Archived from the original on 8 July 2018. Retrieved 7 July 2018. Interview with Roberto Ierusalimschy."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lua_%28linguagem_de_programa%C3%A7%C3%A3o%29",
+        "situacao": "ok",
+        "texto": "Lua é uma linguagem de programação interpretada, de script em alto nível, com tipagem dinâmica e multiparadigma, reflexiva e leve, projetada pela Tecgraf da PUC-Rio em 1993 para expandir aplicações em geral, de forma extensível (que une partes de um programa feitas em mais de uma linguagem), para prototipagem e para ser embarcada em softwares complexos, como jogos. Assemelha-se com Python, Ruby e \n[…]\nA linguagem Lua foi criada, a princípio, para um projeto da Petrobras. Devido à sua eficiência, clareza e facilidade de aprendizado, passou a ser usada em diversos ramos da programação, como no desenvolvimento de jogos (Blizzard Entertainment, por exemplo, usou a linguagem no jogo World of Warcraft), controle de robôs, processamento de texto, etc. Também é frequentemente usada como uma linguagem de propósito geral.\n[…]\nLua foi criada em 1993 por Roberto Ierusalimschy, Luiz Henrique de Figueiredo e Waldemar Celes, membros do Computer Graphics Technology Group na PUC-Rio, a Pontifícia Universidade Católica do Rio de Janeiro, no Brasil. Versões de Lua antes da versão 5.0 foram liberadas sob uma licença similar à licença BSD. A partir da versão 5.0, Lua foi licenciada sob a licença MIT.\n[…]\nO programa Lua fornece 4 tipos diferentes de loops: while, repeat (similar ao do while de outras linguagens), for e o loop genérico. Suas respectivas sintaxes são demonstradas abaixo:\n[…]\nAo se criar uma tabela, os dados inseridos nela ganham automaticamente um índice numérico para identificá-los. Porém, ao contrário de outras linguagens de programação, o primeiro índice recebe o valor de 1, e não 0.\n[…]\nExemplos de empresas que desenvolveram jogos usando a linguagem Lua: LucasArts, Croteam, BioWare, Microsoft, Relic Entertainment, Absolute Studios, Monkeystone Games, Blizzard, SNKPlaymore, Facepunch Studios, KOG.\n[…]\nLista de linguagens de programação\n[…]\nPontifícia Universidade Católica do Rio de Janeiro",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "CAPTCHA",
+      "descricao": "Teste automático usado em sites para distinguir pessoas de programas, como digitar letras distorcidas."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A sigla em inglês dos testes captcha, aqueles de digitar letras distorcidas, inclui o nome de qual cientista da computação?",
+    "resposta": "Alan Turing",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/CAPTCHA"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/CAPTCHA",
+        "situacao": "ok",
+        "texto": "A CAPTCHA ( KAP-chə) is a type of challenge–response Turing test used in computing to determine whether the user is human in order to deter bot attacks and spam.\n[…]\nThe term was coined in 2003 by Luis von Ahn, Manuel Blum, Nicholas J. Hopper, and John Langford. It is a contrived acronym for \"Completely Automated Public Turing test to tell Computers and Humans Apart\". A historically common type of CAPTCHA (displayed as reCAPTCHA v1) was first invented in 1997 by two groups working in parallel. This form of CAPTCHA requires entering a sequence of letters or numbers from a distorted image.\n[…]\nBecause the test is administered by a computer, in contrast to the standard Turing test that is administered by a human, CAPTCHAs are sometimes described as reverse Turing tests.\n[…]\npublished their paper in the ACM Multimedia 2005 Conference, named IMAGINATION (IMAge Generation for INternet AuthenticaTION), proposing a systematic way to image recognition CAPTCHAs. Images are distorted so image recognition approaches cannot recognize them.\n[…]\nAnecdotally, users seemed to find the experience of using Asirra much more enjoyable than a text-based CAPTCHA.\" This solution was described in a 2007 paper to Proceedings of 14th ACM Conference on Computer and Communications Security (CCS). The service was shut down in October 2014.\n[…]\nDefense strategy (computing)\n[…]\nVerification of a human in the loop, or Identification via the Turing Test, Moni Naor, 1996.\n[…]\nInaccessibility of CAPTCHA: Alternatives to Visual Turing Tests on the Web, a W3C Working Group Note.\n[…]\nCAPTCHA History from PARC.\n[…]\nReverse Engineering CAPTCHAs Abram Hindle, Michael W. Godfrey, Richard C. Holt, 2009-08-24"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/CAPTCHA",
+        "situacao": "ok",
+        "texto": "CAPTCHA é um acrônimo da expressão \"Completely Automated Public Turing test to tell Computers and Humans Apart\" (teste de Turing público completamente automatizado para diferenciação entre computadores e humanos): um teste de desafio cognitivo, utilizado como ferramenta antispam, desenvolvido de forma pioneira na universidade de Carnegie-Mellon.\n[…]\nComo o teste é administrado por um computador, em contraste ao teste de Turing padrão que é administrado por um ser humano, este teste é na realidade corretamente descrito como um teste de Turing reverso.\n[…]\nUm tipo comum de CAPTCHA requer que o usuário identifique as letras de uma imagem distorcida, às vezes com a adição de uma sequência obscurecida das letras ou dos dígitos que apareça na tela.\n[…]\nA primeira discussão acerca dos testes automatizados que distinguem seres humanos dos computadores com objetivo de controlar o acesso aos serviços da web aparece em um manuscrito 1996 de Moni Naor do instituto de Weizmann de ciência, intitulado \"Verification of a human in the loop, or Identification via the Turing Test\" (verificação de um ser humano no laço, ou identificação através do teste de Turing).\n[…]\nEmbora CAPTCHAs visuais sejam projetados originalmente para derrotar o software padrão do OCR projetado para a exploração do original, um número de projetos de pesquisa provaram que é possível derrotar muitos CAPTCHAs com programas que são ajustados especificamente para um tipo particular. Para CAPTCHAs com letras distorcidas, a aproximação consiste tipicamente nas seguintes etapas:\n[…]\n«TED - Como o CAPTCHA está ajudando a Digitalizar Livros» (em inglês)\n[…]\n«Inacessibilidade do CAPTCHA: alternativas aos testes visuais de Turing para a Web» (em inglês)\n[…]\n«Inaccessibility of CAPTCHA: Alternatives to Visual Turing Tests on the Web» (em inglês)\n[…]\nDerrotando CAPTCHAs\n[…]\n«Will Solve Captcha for Money?» (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Bug do milênio",
+      "descricao": "Problema de software temido na virada de 1999 para 2000, ligado ao modo como os sistemas registravam o ano."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na virada para o ano dois mil, o temido bug do milênio era causado por sistemas que guardavam o ano de que forma?",
+    "resposta": "Com apenas dois dígitos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Year_2000_problem"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Year_2000_problem",
+        "situacao": "ok",
+        "texto": "The Year 2000 problem (Y2K) was the potential for computer errors on the Gregorian calendar related to the formatting and storage of calendar data for dates in and after the year 2000. Many programs represented four-digit years with only the final two digits, e.g. 1985 as 85, making the year 2000 indistinguishable from 1900. Computer systems' inability to distinguish dates correctly had the potent\n[…]\nRomania also changed its national identification number in response to the Y2K problem, due to the birth year being represented by only two digits. Before 2000, the first digit, which shows the person's sex, was 1 for males and 2 for females. Individuals born since 1 January 2000, have a number starting with 5 if male or 6 if female.\n[…]\nThe total cost of the work done in preparation for Y2K likely surpassed US$300 billion ($561 billion as of May 2025, adjusted for inflation). IDC calculated that the US spent an estimated $134 billion ($251 billion) preparing for Y2K, and another $13 billion ($24 billion) fixing problems in 2000 and 2001. Worldwide, $308 billion ($576 billion) was estimated to have been spent on Y2K remediation.\n[…]\nSkeptics of the need for a massive effort pointed to the absence of Y2K-related problems occurring before 1 January 2000, even though the 2000 financial year commenced in 1999 in many jurisdictions, and a wide range of forward-looking calculations involved dates in 2000 and later years. Estimates undertaken in the leadup to 2000 suggested that around 25% of all problems should have occurred before 2000.\n[…]\nSimilarly, there were few Y2K-related problems in an estimated 1.5 million small businesses that undertook no remediation effort. On 3 January 2000 (the first weekday of the year), the Small Business Administration received an estimated 40 calls from businesses with computer issues, similar to the average. None of the problems were critical."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bug_do_mil%C3%AAnio",
+        "situacao": "ok",
+        "texto": "Bug do milênio' (ou bug do milénio) ou problema do ano 2000, também chamado de bug Y2K, problema Y2K, falha Y2K ou apenas y2k (com o uso do símbolo \"k\" como prefixo kilo-, de milhar), foi o termo usado para se referir ao problema previsto para ocorrer em todos os sistemas informatizados na passagem do ano de 1999 para 2000. Bug é um jargão internacional usado por profissionais e conhecedores de pr\n[…]\nNos sistemas mais antigos, como aqueles na linguagem COBOL e semelhantes, as datas eram armazenadas com apenas 2 dígitos para o ano, ficando os restantes implicitamente entendidos como sendo \"19\". Desta forma cada data armazenada deixava de ocupar oito bytes (dois para o dia, dois para o mês e quatro para o ano), e passava a ocupar somente seis bytes (somente dois no ano). A opção por representar as datas desta forma vinha da necessidade real de economia de memória e espaço de armazenamento.\n[…]\nOs softwares mais modernos, que já utilizavam padrões mais atuais, não teriam problemas em lidar com isso e passariam corretamente para o ano 2000, mas constatou-se que uma infinidade de empresas e instituições de grande porte ainda mantinham em funcionamento programas antigos, em função da confiança adquirida por anos de uso e na sua estabilidade. Para além disso, temiam-se os efeitos que poderiam ser provocados no hardware pelo sistema BIOS, caso este reconhecesse apenas datas de dois dígitos.\n[…]\nEste sistema tinha vida útil até 2025, data escolhida de forma arbitrária pelos desenvolvedores, possivelmente na crença de que em 2025 o sistema já teria sido substituído por simples obsolescência.\n[…]\nAlém disso, o grande desenvolvimento informático ocorreu na segunda metade da década de 1990 (não nas décadas de 1960, 1970 ou mesmo 1980, quando apenas grandes empresas possuíam os supercomputadores que tinham esse erro), quando os sistemas já estavam preparados para o problema.\n[…]\nProblema do ano 10000",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Voo 501 do Ariane 5",
+      "descricao": "Voo inaugural do foguete europeu Ariane 5, em 4 de junho de 1996, que terminou com a autodestruição do veículo."
+    },
+    "angulo": "causa",
+    "tipo": "multipla",
+    "pergunta": "Em 1996, o foguete europeu Ariane 5 se autodestruiu menos de um minuto após seu voo inaugural. Qual foi a causa?",
+    "resposta": "Um erro de software",
+    "distratores": [
+      "Um raio",
+      "Vazamento de combustível",
+      "Sabotagem"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ariane_flight_V88"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ariane_flight_V88",
+        "situacao": "ok",
+        "texto": "Ariane flight V88, also known as Ariane 5 Flight 501, was the failed maiden flight of the Arianespace Ariane 5 rocket, vehicle no. 501, on 4 June 1996. It carried the Cluster spacecraft, a constellation of four European Space Agency research satellites.\n[…]\nThere is reason for concern that a software exception should be allowed, or even required, to cause a processor to halt while handling mission-critical equipment. Indeed, the loss of a proper software function is hazardous because the same software runs in both SRI units. In the case of Ariane 501, this resulted in the switch-off of two still healthy critical units of equipment.Other issues identified in the report focused on testing:\n[…]\nThe purpose of the review process, which involves all major partners in the Ariane 5 programme, is to validate design decisions and to obtain flight qualification. In this process, the limitations of the alignment software were not fully analysed and the possible implications of allowing it to continue to function during flight were not realised.\n[…]\nPost-flight simulations have been carried out on a computer with software of the inertial reference system and with a simulated environment, including the actual trajectory data from the Ariane 501 flight. These simulations have faithfully reproduced the chain of events leading to the failure of the inertial reference systems.\n[…]\nList of software bugs\n[…]\nWired – History's Worst Software Bugs — An article about the top 10 software bugs. The Ariane 5 Flight 501 software glitch is mentioned as one of these bugs.\n[…]\n(in German) Ariane 5 – 501 (1–3) — A good article (in German) where the actual code in question is given."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Voo_Ariane_V88",
+        "situacao": "ok",
+        "texto": "O voo Ariane V88 foi o voo inaugural fracassado, de número 501, do foguete lançador de satélites Ariane 5, fabricado pela Arianespace,  em 4 de junho de 1996. O lançador transportava a nave espacial Cluster, com um total de quatro satélites de pesquisa da Agência Espacial Europeia.\n[…]\nA exceção que ocorreu não se deu por conta de falha aleatória, e sim erro de projeto. A exceção foi detectada, mas tratada de maneira inapropriada, porque adotou-se a visão de que o software deveria ser considerado correto até que se demonstrasse que estivesse em falha [...] Embora a falha tenha ocorrido devido a um erro sistemático de projeto de software, mecanismos podem ser introduzidos para mitigar este tipo de problema.\n[…]\nA especificação do sistema de referência inercial e os testes realizados com o equipamento não incluíram especificamente os dados de trajetória do Ariane 5. Consequentemente, a função de realinhamento não foi testada sob condições simuladas de voo da nave, e o erro de projeto não foi detectado.\n[…]\nSimulações pós voo foram realizadas em um computador com o software do sistema de referência inercial e em um ambiente simulado, incluindo os dados reais da trajetória do voo do Ariane 501. Tais simulações foram capazes de reproduzir fielmente a sequência de eventos que levou à falha dos sistemas de referência inercial.\n[…]\nSpaceflight Now – Cluster II – Ariane 501 explodes no Wayback Machine (arquivado em 2015-03-25), ligação direta para o arquivo de vídeo — Gravação dos segundos finais do voo do foguete.\n[…]\nWired – History's Worst Software Bugs — Artigo sobre as 10 maiores falhas de software já ocorridas, em que o glitch do Ariane 5 é mencionado entre eles (em inglês).\n[…]\nAriane 5 – 501 (1–3) — Artigo que apresenta o código real em questão (em alemão).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Alan Turing",
+      "descricao": "Matemático e lógico inglês (1912–1954), pai da ciência da computação teórica."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1952, o matemático Alan Turing, herói da quebra de códigos na guerra, foi condenado pela Justiça britânica por qual motivo?",
+    "resposta": "Homossexualidade",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Alan_Turing"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Alan_Turing",
+        "situacao": "ok",
+        "texto": "Alan Mathison Turing (; 23 June 1912 – 7 June 1954) was an English mathematician and logician widely regarded as the father of theoretical computer science. He formalised the concepts of algorithm and computation with the Turing machine, a model of a general-purpose computer, and his contributions to cryptanalysis helped the Allies of World War II decipher messages encrypted by the German Enigma m\n[…]\nThousands of people have come together to demand justice for Alan Turing and recognition of the appalling way he was treated. While Turing was dealt with under the law of the time and we can't put the clock back, his treatment was of course utterly unfair and I am pleased to have the chance to say how deeply sorry I and we all are for what happened to him ...\n[…]\nWe ask the HM Government to grant a pardon to Alan Turing for the conviction of \"gross indecency\". In 1952, he was convicted of \"gross indecency\" with another man and was forced to undergo so-called \"organo-therapy\"—chemical castration. Two years later, he killed himself with cyanide, aged just 41. Alan Turing was driven to a terrible despair and early death by the nation he'd done so much to save. This remains a shame on the British government and British history.\n[…]\nAlan Turing Papers – University of Manchester Library\n[…]\nScience in the MakingArchived 4 April 2023 at the Wayback Machine Alan Turing's papers in the Royal Society's archives\n[…]\nHow Alan Turing Cracked The Enigma Code Imperial War Museums\n[…]\nJones, G. James (11 December 2001). \"Alan Turing – Towards a Digital Mind: Part 1\". System Toolbox. The Binary Freedom Project. Archived from the original on 3 August 2007.\n[…]\nAlan Turing site maintained by Andrew Hodges including a short biography\n[…]\nAlan Turing Year Archived 17 February 2019 at the Wayback Machine\n[…]\nAlan Turing and the 'Nature of Spirit' (Old Shirburnian Society)\n[…]\nAlan Turing OBE, PhD, FRS (1912–1954) (Old Shirburnian Society)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Alan_Turing",
+        "situacao": "ok",
+        "texto": "Alan Mathison Turing (Londres, 23 de junho de 1912 – Wilmslow, Cheshire, 7 de junho de 1954) foi um matemático, cientista da computação, lógico, criptoanalista, filósofo e biólogo teórico britânico. Turing foi altamente influente no desenvolvimento da moderna ciência da computação teórica, proporcionando uma formalização dos conceitos de algoritmo e computação com a máquina de Turing, que pode ser\n[…]\nEm 2009, após uma campanha na Internet, o primeiro-ministro britânico Gordon Brown fez um pedido de desculpas público e oficial a Turing em nome do governo britânico pela \"maneira terrível como foi tratado\". A rainha Elizabeth II concedeu a Turing um perdão póstumo em 2013. A \"lei Alan Turing\" é agora um termo informal para uma lei britânica de 2017 que retroativamente perdoou homens advertidos ou condenados sob a legislação histórica que proibia atos homossexuais.\n[…]\nEm agosto de 2009 o programador britânico John Graham-Cumming iniciou uma petição pedindo ao governo britânico que pedisse desculpas pela acusação de Turing como homossexual. A petição recebeu mais de 30 mil assinaturas. O primeiro-ministro, Gordon Brown, reconheceu a petição, divulgando uma declaração em 10 de setembro de 2009 pedindo desculpas e descrevendo o tratamento de Turing como \"terrível\":\n[…]\nPedimos ao Governo de Sua Majestade que conceda perdão a Alan Turing pela condenação de \"atentado ao pudor\". Em 1952, ele foi condenado por \"atentado ao pudor\" com outro homem e foi forçado a se submeter à chamada \"organoterapia\" — castração química. Dois anos depois, ele se matou com cianeto, aos 41 anos. Alan Turing foi levado a um terrível desespero e morte prematura pela nação que ele tanto fez para salvar. Isso continua sendo uma vergonha para o governo britânico e para a história britânica.\n[…]\nComo Alan Turing decifrou o código Enigma Imperial War Museums\n[…]\nCiE 2012: Turing Centenary Conference\n[…]\nAlan Turing - New Scientist",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Napster",
+      "descricao": "Serviço pioneiro de compartilhamento de músicas pela internet, lançado em 1999 por Shawn Fanning."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2001, o programa Napster, que popularizou a troca de músicas pela internet, foi obrigado a sair do ar por qual motivo?",
+    "resposta": "Violação de direitos autorais",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Napster"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Napster",
+        "situacao": "ok",
+        "texto": "Napster was a proprietary peer-to-peer file sharing application primarily associated with the distribution of digital audio files such as MP3s. It was launched in June 1999 by Shawn Fanning and Sean Parker. Due to lawsuits alleging copyright infringement, Napster was shut down in July 2001 and filed for bankruptcy in June 2002.\n[…]\nAlso in July 2001, Napster settled the lawsuits from Metallica and Dr. Dre.\n[…]\nIn December 2011, Napster was sold to Rhapsody, with Best Buy receiving a minority stake in Rhapsody. Rhapsody was created and launched by Listen.com in December 2001 as the first streaming on-demand music subscription service to offer unlimited access to a large library of digital music for a flat monthly fee, using technology from its acquisition of TuneTo.com in April 2001. RealNetworks acquired Listen.com in August 2003 and completed the corporate spin-off of the company in April 2010.\n[…]\nSonic Boom: Napster, MP3, and the New Pioneers of Music (2001) by John Alderman\n[…]\nDownloaded (2013) is a documentary about sharing media on the Internet and includes the history of Napster.\n[…]\nHow Music Got Free (2024), a documentary based on the non-fiction book How Music Got Free mentions file sharing on the Internet with mentions of Napster and other applications.\n[…]\nCarlsson, Bengt; Gustavsson, Rune (2001). \"The Rise and Fall of Napster – An Evolutionary Approach\". Proceedings of the 6th International Computer Science Conference on Active Media Technology.\n[…]\nGreen, Matthew (2002). \"Napster Opens Pandora's Box: Examining How File-Sharing Services Threaten the Enforcement of Copyright on the Internet\". Ohio State Law Journal. 63: 799.\n[…]\nKu, Raymond Shih Ray (2001). \"The Creative Destruction of Copyright: Napster and the New Economics of Digital Technology\". University of Chicago Law Review. doi:10.2139/ssrn.266964. SSRN 266964."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Napster",
+        "situacao": "ok",
+        "texto": "Napster, criado por Shawn Fanning e seu co-fundador Sean Parker, é um serviço de streaming de música pertencente à Rhapsody Internatonal Inc, contando com aproximadamente 40 milhões de faixas. Anteriormente, foi o programa de compartilhamento de arquivos em rede P2P criado em 1999, que protagonizou o primeiro grande episódio na luta jurídica entre a indústria fonográfica e as redes de compartilham\n[…]\nNo início de 2001 não resistiu a uma série de ações legais e o serviço foi fechado em março. Várias companhias da indústria fonográfica decidiram processar o serviço, acusando de promover a pirataria e possibilitar a troca de arquivos de áudio protegidos por direito autoral.\n[…]\nQuando a Sony, proprietária legal dos direitos de suas músicas, utilizou a Digital Millenium Copyright Act (DMCA, sigla para Lei dos Direitos Autorais do Milênio Digital em português), para bloquear usuários que compartilhavam faixas do álbum Renegades por meio do Napster, Morello declarou-se totalmente ofendido com a decisão de sua gravadora, anunciando que outras faixas em MP3 estariam disponíveis para download no site da banda.\n[…]\nNapster Network é uma rede de P2P, a primeira rede popularizada foi a utilizada pelo programa Napster e sendo encerrada em 2001. Foi criada uma rede paralela no final de 2016, chamada também de OpenNap. É importante frisar que o Napster atualmente é um serviço de compra de músicas pela Internet e possui uma estrutura cliente-servidor tradicional.\n[…]\nDezembro de 1999: A RIAA exige US$100 mil por música baixada por quebra dos direitos autorais.\n[…]\nMarço de 2001: Um filtro é instalado nas buscas do Napster para bloquear o download de arquivos listados pelas gravadoras.\n[…]\nJunho de 2001: Chega a Portugal o Napster\n[…]\nSetembro de 2003: Programada a chegada do Napster no Brasil.\n[…]\nMaio de 2008: O Napster se torna um serviço de venda de música online.\n[…]\nHoje, o Napster é um serviço de streaming de música.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Arpanet",
+      "descricao": "Rede de computadores criada nos Estados Unidos em 1969, precursora da internet."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1969, ao tentarem enviar a palavra login pela Arpanet, precursora da internet, só as duas primeiras letras chegaram. Por quê?",
+    "resposta": "O sistema travou",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/ARPANET"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ARPANET",
+        "situacao": "ok",
+        "texto": "The Advanced Research Projects Agency Network (ARPANET) was the first wide-area packet-switched network with distributed control and one of the first computer networks to implement the TCP/IP protocol suite. Both technologies became the technical foundation of the Internet. The ARPANET was established by the Advanced Research Projects Agency (now DARPA) of the United States Department of Defense.\n[…]\nThe first successful host-to-host connection on the ARPANET was made between Stanford Research Institute (SRI) and UCLA, by SRI programmer Bill Duvall and UCLA student programmer Charley Kline, at 10:30 pm PST on 29 October 1969 (6:30 UTC on 30 October 1969). Kline connected from UCLA's SDS Sigma 7 Host computer (in Boelter Hall room 3420) to the Stanford Research Institute's SDS 940 Host computer. Kline typed the command \"login,\" but initially the SDS 940 crashed after he typed two characters.\n[…]\nList of Internet pioneers\n[…]\n\"The Computer History Museum, SRI International, and BBN Celebrate the 40th Anniversary of First ARPANET Transmission\". Computer History Museum. 27 October 2009.\n[…]\nFeinler, E.; Postel, J. (1976). ARPANET Protocol Handbook. SRI International. OCLC 2817630. NTIS ADA027964.\n[…]\nFeinler, Elizabeth J.; Postel, Jonathan B. (January 1978). ARPANET Protocol Handbook. Menlo Park: Network Information Center (NIC), SRI International. ASIN B000EN742K. OCLC 7955574. NIC 7104, NTIS ADA052594.\n[…]\n\"ARPANET Maps 1969 to 1977\". California State University, Dominguez Hills (CSUDH). 4 January 1978. Archived from the original on 19 April 2012. Retrieved 17 May 2012.\n[…]\nWalden, David C. (February 2003). \"Looking back at the ARPANET effort, 34 years later\". Living Internet. East Sandwich, Massachusetts. Retrieved 19 March 2021.\n[…]\nKleinrock, Leonard. \"The Day the Infant Internet Uttered its First Words\". UCLA. Retrieved 11 November 2004. Personal anecdote of the first message ever sent over the ARPANET"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/ARPANET",
+        "situacao": "ok",
+        "texto": "A Advanced Research Projects Agency Network (acrônimo ARPANET; em português: Rede da Agência para Projetos de Pesquisa Avançada) foi uma rede de computadores construída em 1969 para transmissão de dados militares sigilosos e interligação dos departamentos de pesquisa nos Estados Unidos, inicialmente financiada pela então Agência de Projetos de Pesquisa Avançada (ARPA, atual DARPA) do Departamento \n[…]\nNo final do ano, a mesma considerou apenas dois contratantes e outorgou o contrato para construir a rede para a BBN Technologies em 7 de abril de 1969. A equipe inicial de sete pessoas foi muito auxiliada pela especificidade técnica de sua resposta ao RFQ, e assim, rapidamente produziu o primeiro sistema de trabalho. Esta equipe foi liderada por Frank Heart e incluiu Robert Kahn.\n[…]\nO Centro de Pesquisa do Instituto de Pesquisa de Stanford (atual SRI International), onde Douglas Engelbart criara o inovador sistema NLS, um sistema de hipertexto inicial importante, e administraria o Centro de Informação de Rede (NIC) com o SDS 940 e criou o NLS, chamado \"Genie\", sendo o primeiro hospedeiro anexado;\n[…]\nA primeira mensagem bem-sucedida foi enviada pelo programador estudantil da UCLA, Charley Kline, às 22:30 h UTC−8 em 29 de outubro de 1969 (6:30 UTC+0 em 30 de outubro de 1969), na Boelter Hall 3420. A mensagem de Kline foi transmitida do computador SDS 7 da universidade para o computador SDS 940 do Instituto de Pesquisa de Stanford. O texto da mensagem era a palavra \"login\"; em uma tentativa anterior, as letras \"l\" e \"o\" foram enviadas, mas o sistema então caiu.\n[…]\nMedia relacionados com ARPANET no Wikimedia Commons\n[…]\nKleinrock, Leonard. «The Day the Infant Internet Uttered its First Words» [O dia em que a Internet infantil divulgou suas primeiras palavras] (em inglês). UCLA. Consultado em 26 de novembro de 2018  Anedota da primeira mensagem já enviada pela ARPANET",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Arpanet",
+      "descricao": "Rede de computadores criada nos Estados Unidos em 1969, precursora da internet."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Ao entrar em funcionamento, no fim de 1969, a rede Arpanet ligava computadores de quantas instituições americanas?",
+    "resposta": "Quatro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/ARPANET"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ARPANET",
+        "situacao": "ok",
+        "texto": "The Advanced Research Projects Agency Network (ARPANET) was the first wide-area packet-switched network with distributed control and one of the first computer networks to implement the TCP/IP protocol suite. Both technologies became the technical foundation of the Internet. The ARPANET was established by the Advanced Research Projects Agency (now DARPA) of the United States Department of Defense.\n[…]\nThe first successful host-to-host connection on the ARPANET was made between Stanford Research Institute (SRI) and UCLA, by SRI programmer Bill Duvall and UCLA student programmer Charley Kline, at 10:30 pm PST on 29 October 1969 (6:30 UTC on 30 October 1969). Kline connected from UCLA's SDS Sigma 7 Host computer (in Boelter Hall room 3420) to the Stanford Research Institute's SDS 940 Host computer. Kline typed the command \"login,\" but initially the SDS 940 crashed after he typed two characters.\n[…]\nAbout an hour later, after Duvall adjusted parameters on the machine, Kline tried again and successfully logged in. Hence, the first two characters successfully transmitted over the ARPANET were \"lo\". The first permanent ARPANET link was established on 21 November 1969, between the IMP at UCLA and the IMP at the Stanford Research Institute. By 5 December 1969, the initial four-node network was established.\n[…]\nThe starting point for host-to-host communication on the ARPANET in 1969 was the 1822 protocol, which defined the transmission of messages to an IMP. The message format was designed to work unambiguously with a broad range of computer architectures. An 1822 message essentially consisted of a message type, a numeric host address, and a data field.\n[…]\nAccess to the ARPANET was expanded in 1981 when the National Science Foundation (NSF) funded the Computer Science Network (CSNET).\n[…]\n\"Images of ARPANET from 1964 onwards\". The Computer History Museum. Retrieved 29 August 2004. Timeline."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/ARPANET",
+        "situacao": "ok",
+        "texto": "A Advanced Research Projects Agency Network (acrônimo ARPANET; em português: Rede da Agência para Projetos de Pesquisa Avançada) foi uma rede de computadores construída em 1969 para transmissão de dados militares sigilosos e interligação dos departamentos de pesquisa nos Estados Unidos, inicialmente financiada pela então Agência de Projetos de Pesquisa Avançada (ARPA, atual DARPA) do Departamento \n[…]\nEm meados de 1968, Roberts preparou um plano completo para a rede de computadores e deu um relatório a Taylor em 3 de junho, que o aprovou em 21 de junho. Após a aprovação da ARPA, uma solicitação de cotação (RFQ) foi emitida para 140 possíveis licitantes. A maioria das empresas de ciência da computação consideraram a proposta estranha, e apenas doze apresentaram propostas para construir uma rede; Dos doze, a agência considerou apenas quatro como contratados de alto nível.\n[…]\nCada IMP pode suportar até quatro hospedeiros locais e pode se comunicar com até seis IMPs remotos por meio de linhas alugadas. A rede conectou um computador em Utah com três na Califórnia. Mais tarde, o Departamento de Defesa permitiu que as universidades se juntassem à rede para compartilhar recursos.\n[…]\nA ARPANET foi operada pelos militares durante as duas décadas de sua existência, até 1990. A mesma inicial consistia em quatro IMPs:\n[…]\nAssim, a primeira mensagem literal na ARPANET foi \"lo\". Cerca de uma hora depois, após os programadores repararam o código que causou a falha, o computador enviou o nome \"login\" completo. A primeira ligação permanente na ARPANET foi estabelecida em 21 de novembro de 1969, entre o IMP da UCLA e do Instituto. Em 5 de dezembro de 1969, toda a rede de quatro nós foi estabelecida.\n[…]\nMedia relacionados com ARPANET no Wikimedia Commons\n[…]\n«Images of ARPANET from 1964 onwards» [Imagens da ARPANET de 1964 em diante]. The Computer History Museum. Consultado em 29 de agosto de 2004",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Twitter",
+      "descricao": "Rede social de mensagens curtas criada em 2006 nos Estados Unidos."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O limite original de cento e quarenta caracteres das mensagens do Twitter foi definido para que cada uma coubesse em quê?",
+    "resposta": "Numa mensagem SMS",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Twitter"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Twitter",
+        "situacao": "ok",
+        "texto": "X, formerly known as Twitter, is an American microblogging and social networking service owned by SpaceX's artificial intelligence subsidiary SpaceXAI. It is one of the world's largest social media platforms and one of the most-visited websites. Users can share short text messages, images, and videos in short posts (commonly and unofficially known as \"tweets\", in reference to the site's former ter\n[…]\nTwitter banned 7,000 accounts and limited 150,000 more that had ties to QAnon on July 21, 2020. The bans and limits came after QAnon-related accounts began harassing other users through practices of swarming or brigading, coordinated attacks on these individuals through multiple accounts in the weeks prior. Those accounts limited by Twitter will not appear in searches nor be promoted in other Twitter functions.\n[…]\nThe company investigated and attributed these accounts to a single state-run information operation, which originated in Saudi Arabia. The accounts were reported to be a part of a larger group of 88,000 accounts engaged in spammy behavior. However, Twitter did not disclose all of them as some could possibly be legitimate accounts taken over through hacking.\n[…]\nTwitter had been used for a variety of purposes in many industries and scenarios.\n[…]\nX is banned completely in Russia, Iran, China and North Korea, and has been intermittently blocked in numerous countries, including Egypt, Iraq, Nigeria, Turkey, Venezuela and Turkmenistan, on different basis. In 2016, Twitter cooperated with the Israeli government to remove certain content originating outside Israel from tweets seen in Israel.\n[…]\nTufekci, Zeynep (2017). Twitter and Tear Gas: The Power and Fragility of Networked Protest (1st hardcover ed.). New Haven, Conn.: Yale University Press. ISBN 978-0-300-21512-0. OCLC 961312425. Archived from the original on May 30, 2020."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/X_%28rede_social%29",
+        "situacao": "ok",
+        "texto": "X, popularmente conhecido pelo seu nome anterior Twitter e inicialmente chamado de Twttr (\"gorjear\"), é uma rede social virtual e um serviço de microblog, que permite aos usuários enviar e receber atualizações pessoais de outros contatos em textos de até 280 caracteres (25 mil para assinantes do X Premium) conhecidos como posts (anteriormente tweets), por meio do website do serviço, por SMS e por \n[…]\nO Twitter, como era chamado, foi criado em março de 2006 por Jack Dorsey, Evan Williams, Biz Stone e Noah Glass e foi lançado em julho de 2006 nos Estados Unidos. A ideia inicial dos fundadores era que o Twitter fosse uma espécie de \"SMS da internet\" com a limitação de caracteres de uma mensagem de celular. Inicialmente chamada Twttr (sem vogais), o nome da rede social, em inglês, significa gorjear. A ideia é que o usuário da rede social está \"piando\" pela internet.\n[…]\nO Repost (anteriormente \"Retweet\") é uma função do X que consiste em replicar uma determinada mensagem de um usuário para a lista de seguidores, dando crédito a seu autor original. Na página de início do site existe um botão chamado repostar, que faz o envio automático da mensagem para todos seguidores da pessoa. Antigamente, os usuários realizavam isto de forma manual, acrescentando um RT ao lado da @alcunha de quem escreveu.\n[…]\nEm 26 de setembro de 2017, a empresa disponibilizou, em caráter de testes, o limite de 280 caracteres para cada post. A mudança foi aplicada em definitivo a partir de 7 de novembro do mesmo ano.\n[…]\nNo dia 4 de novembro, a ONG SaferNet entrou com mesmo processo no MPF, identificando 1 037 perfis de usuários que postaram mensagens preconceituosas contra nordestinos. Boa parte deles foi listada no Tumblr \"Diga Não à Xenofobia\". Os casos de preconceito no X acabaram repercutindo no exterior, com publicação de uma matéria no jornal The Telegraph, do Reino Unido.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Samsung Galaxy Note 7",
+      "descricao": "Celular da Samsung lançado em 2016 e retirado do mercado no mesmo ano."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 2016, a Samsung recolheu no mundo inteiro o celular Galaxy Note 7 por causa de qual defeito?",
+    "resposta": "Baterias que pegavam fogo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_7"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_7",
+        "situacao": "ok",
+        "texto": "The Samsung Galaxy Note 7 is a discontinued Android-based phablet-sized smartphone developed, produced, and marketed by Samsung Electronics. Unveiled on 2 August 2016, it was officially released on 19 August 2016 as a successor to the Samsung Galaxy Note 5. It re-introduced a microSD card slot and is Samsung's first phone with a USB-C connector. It is also the last phone in the Samsung Galaxy Note\n[…]\nBattery defects caused many Note 7 units to overheat, combust, or explode. On 10 October 2016, Samsung permanently discontinued the Galaxy Note 7 due to these repeated incidents.\n[…]\nOn 4 November 2016, the New Zealand Telecommunications Forum announced it would ban all Galaxy Note 7 phones from use on local mobile networks beginning on 18 November, enforced via IMEI blacklist. On 30 November, Samsung announced that Galaxy Note 7 devices would be banned from Australian wireless networks effective 15 December 2016.\n[…]\nIn December 2016, Samsung announced its intent to cripple the functionality of unreturned Galaxy Note 7 phones in Canada and the United States via software updates. In Canada, an update restricted charge capacity and blocked the phone from connecting to any wireless networks or using Wi-Fi or Bluetooth. In the United States, the update blocked the devices from being recharged in order to \"eliminate their ability to work as mobile devices\".\n[…]\nOn 24 March 2017, Samsung released another update for South Korean users, barring charging of the Galaxy Note 7.\n[…]\nAfter the discontinuation of the Note 7, some features in the device (such as Samsung Pass, Secure Folder, S Pen related features, and Grace UX) were eventually made available in Android Marshmallow (e.g. Galaxy A8 (2016), Galaxy A (2017) series and Galaxy Tab A 10.1 (2016)) and Nougat (e.g. Galaxy Note 5 (via software update), Galaxy S8/S8+ and Galaxy C Pro series)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Samsung_Galaxy_Note_7",
+        "situacao": "ok",
+        "texto": "O Samsung Galaxy Note 7 é um phablet baseado em Android, recolhido e descontinuado, projetado, desenvolvido, produzido e comercializado pela Samsung Electronics. Inaugurado em 2 de agosto de 2016, foi lançado oficialmente em 19 de agosto de 2016 como sucessor do Galaxy Note 5. É o primeiro telefone da Samsung com conector USB-C e o último telefone da série Galaxy Note a ter um botão home físico.\n[…]\nA Samsung suspendeu as vendas do Galaxy Note 7 e anunciou um recall informal em 2 de setembro de 2016, após a descoberta de um defeito de fabricação nas baterias dos telefones, que fez com que algumas unidades gerassem calor excessivo e entrassem em combustão. Depois que um recall formal nos EUA foi anunciado em 15 de setembro de 2016, A Samsung trocou os telefones afetados por uma nova revisão que utilizava baterias de um fornecedor diferente.\n[…]\nNo entanto, após surgirem relatos de incidentes em que os telefones substitutos também pegaram fogo, a Samsung fez um recall do Galaxy Note 7 em todo o mundo em 10 de outubro de 2016 e cessou permanentemente a produção do dispositivo um dia depois. Como medida de segurança, distribuíram caixas à prova de fogo multicamadas com instruções de embalagem.\n[…]\nEm julho de 2017, nove meses após o recall do Note 7, a Samsung lançou uma versão remodelada do Galaxy Note 7, conhecida como Galaxy Note Fan Edition (comercializado como Samsung Galaxy Note FE). Possui bateria menor de 3200 mAh e é fornecido com Android Nougat com Samsung Experience UI, sistema operacional do Galaxy S8. O sucessor do Galaxy Note 7, o Galaxy Note 8, foi anunciado em 23 de agosto de 2017 e lançado quase um mês depois.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Mars Climate Orbiter",
+      "descricao": "Sonda da NASA lançada em 1998 para estudar Marte, perdida ao chegar ao planeta em 1999."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1999, a sonda americana Mars Climate Orbiter se perdeu ao chegar a Marte porque duas equipes usaram sistemas diferentes de quê?",
+    "resposta": "Unidades de medida",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter",
+        "situacao": "ok",
+        "texto": "The Mars Climate Orbiter (formerly the Mars Surveyor '98 Orbiter) was a robotic space probe launched by NASA on December 11, 1998, to study the Martian climate, Martian atmosphere, and surface changes and to act as the communications relay in the Mars Surveyor '98 program for Mars Polar Lander. However, on September 23, 1999, communication with the spacecraft was permanently lost as it went into o\n[…]\nMars Climate Orbiter began the planned orbital insertion maneuver on September 23, 1999, at 09:00:46 UTC. Mars Climate Orbiter went out of radio contact when the spacecraft passed behind Mars at 09:04:52 UTC, 49 seconds earlier than expected, and communication was never reestablished.\n[…]\nOn November 10, 1999, the Mars Climate Orbiter Mishap Investigation Board released a Phase I report, detailing the suspected issues encountered with the loss of the spacecraft.\n[…]\nHowever, during the week between TCM-4 and the orbital insertion maneuver, the navigation team reported that it appeared the insertion altitude could be much lower than planned, at about 150–170 km (93–106 mi). Twenty-four hours prior to orbital insertion, calculations placed the orbiter at an altitude of 110 km (68 mi). 80 km (50 mi) was the minimum altitude that Mars Climate Orbiter was thought to be capable of surviving during this maneuver.\n[…]\nThe loss of the Mars Climate Orbiter took place two and a half months before the loss of the Mars Polar Lander. Inadequate funding and poor management have been cited as underlying causes of the failures. According to Thomas Young, chairman of the Mars Program Independent Assessment Team, the Mars Surveyor '98 program \"was under funded by at least 30%.\"\n[…]\nList of artificial objects on Mars\n[…]\nMars Climate Orbiter arrival at Mars press kit\n[…]\nMars Climate Orbiter Mission Profile by NASA's Solar System Exploration\n[…]\nMars Climate Orbiter Mishap Investigation Board Phase I Report - November 10, 1999"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mars_Climate_Orbiter",
+        "situacao": "ok",
+        "texto": "O Mars Climate Orbiter (MCO),  inicialmente denominado Mars Surveyor '98 Orbiter, foi uma sonda espacial norte-americana projetada e construída pelo Laboratório de Propulsão a Jato (JPL). O MCO foi lançado em 11 de dezembro de 1998 a partir de Cabo Canaveral por um foguete Delta II 7425, alcançando Marte 9,5 meses depois, em 23 de setembro de 1999.\n[…]\nO erro deveu-se a equipe da terra, que fez o uso de medidas inglesas para calcular os parâmetros para a manobra inserção orbital, enviando-os à nave, cujos sistemas, contudo, apenas realizavam cálculos no Sistema Internacional de Unidades.\n[…]\nO Mars Climate Orbiter era uma sonda com a forma aproximada de uma caixa de 2,1 m de altura, 1,6 m de largura e de 2 m de profundidade; constituída  de dois sistemas. O sistema de propulsão e os módulos de pesquisa. A massa total da nave era de 629 kg, incluindo 291 kg de propelente. Seus painéis solares tinham as dimensões de 5,5 por 5,5 metros perfazendo 11 metros quadrados de área.\n[…]\nNo trecho inicial o orbitador se aproximaria um pouco do Sol e chegaria a Marte em uma velocidade menor que a que chegou a sonda Mars Pathfinder, pois esta sonda seguiu uma trajetória Tipo 1, de giro em torno do Sol de menos de 180º e lá chegou a apenas sete meses.\n[…]\nOs trabalhos da comissão independente detectaram erros importantes nos protocolos de comunicação entre os operadores da missão, sendo que, o erro que levou diretamente à perda da sonda, se deveu à utilização de diferentes unidades de medida por parte desses mesmos operadores. Na prática, resulta que os dados de telemetria transmitidos pela sonda para o centro de operações na Terra, utilizavam o sistema métrico (metro e Newton).\n[…]\nMars Polar Lander\n[…]\n«Site da NASA do Mars Climate Orbiter» (em inglês)\n[…]\n«Relatório da Comissão de Inquérito sobre o acidente da Mars Climate Orbiter» (PDF) (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Python (linguagem de programação)",
+      "descricao": "Linguagem de programação criada por Guido van Rossum e lançada em 1991."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que grupo humorístico britânico inspirou tanto o termo spam, para mensagens indesejadas, quanto o nome de uma famosa linguagem de programação?",
+    "resposta": "Monty Python",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "https://en.wikipedia.org/wiki/Spamming"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+        "situacao": "ok",
+        "texto": "Python is a high-level, general-purpose programming language that emphasizes code readability, simplicity, and ease-of-writing with the use of significant indentation, an extensive (\"batteries-included\") standard library, and garbage collection. Python supports multiple programming paradigms but with an emphasis on object-oriented programming and dynamic typing.\n[…]\nPython is widely taught as an introductory programming language.\n[…]\nThe name Python derives from the British comedy series Monty Python's Flying Circus. (See § Naming.)\n[…]\nPython is meant to be a fun language to use. This goal is reflected in the name – a tribute to the British comedy group Monty Python – and in playful approaches to some tutorials and reference materials. For instance, some code examples use the terms \"spam\" and \"eggs\" (in reference to a Monty Python sketch), rather than the typical terms \"foo\" and \"bar\".\n[…]\nThe Snek embedded computing language \"is Python-inspired, but it is not Python. It is possible to write Snek programs that run under a full Python system, but most Python programs will not run under Snek.\" Snek is compatible with 8-bit AVR microcontrollers such as ATmega 328P-based Arduino, as well as larger microcontrollers that are compatible with MicroPython. Snek is an imperative language that (unlike Python) omits object-oriented programming.\n[…]\nPython's name is inspired by the British comedy group Monty Python, whom Python creator Guido van Rossum enjoyed while developing the language. Monty Python references appear frequently in Python code and culture; for example, the metasyntactic variables often used in Python literature are spam and eggs, rather than the traditional foo and bar. Also, the official Python documentation contains various references to Monty Python routines. Python users are sometimes referred to as \"Pythonistas\".\n[…]\nList of Python programming books"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Spamming",
+        "situacao": "ok",
+        "texto": "Spamming is the use of messaging systems to send multiple unsolicited messages (spam) to large numbers of recipients for the purpose of commercial advertising, non-commercial proselytizing, or any prohibited purpose (especially phishing). It can also be repeatedly sending the same message to the same user. The most widely recognized form of spam is email spam.\n[…]\nThe term spam is derived from the 1970 \"Spam\" sketch of the BBC sketch comedy television series Monty Python's Flying Circus. The sketch, set in a cafe, has a waitress reading out a menu where every item but one includes the Spam canned luncheon meat. As the waitress recites the Spam-filled menu, a chorus of Viking patrons drown out all conversations with a song, repeating \"Spam, Spam, Spam, Spam… Lovely Spam! Wonderful Spam!\".\n[…]\nIn the 1980s the term was adopted to describe certain abusive users who frequented BBSs and MUDs, who would repeat \"Spam\" a huge number of times to scroll other users' text off the screen. In early chat-room services and usenetgroups like AOL, they actually flooded the screen with quotes from the Monty Python sketch. This was used as a tactic by insiders of a group that wanted to drive newcomers out of the room so the usual conversation could continue.\n[…]\nIt later came to be used on Usenet to mean excessive multiple posting—the repeated posting of the same message. The unwanted message would appear in many, if not all newsgroups, just as Spam appeared in all the menu items in the Monty Python sketch. One of the earliest people to use \"spam\" in this sense was Joel Furr. This use had also become established—to \"spam\" Usenet was to flood newsgroups with junk messages.\n[…]\nCybertelecom:: Federal spam law and policy\n[…]\nSlamming Spamming Resource on Spam\n[…]\nSpamtrackers SpamWiki: a peer-reviewed spam information and analysis resource.\n[…]\nWhy am I getting all this spam? CDT"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Python",
+        "situacao": "ok",
+        "texto": "Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Foi lançada por Guido van Rossum em 1991. Atualmente, possui um modelo de desenvolvimento comunitário, aberto e gerenciado pela organização sem fins lucrativos Python Software Foundation. Apesar de várias partes da linguagem possuírem padrões e espec\n[…]\nO nome Python teve a sua origem no grupo humorístico britânico Monty Python, criador do programa Monty Python's Flying Circus, embora muitas pessoas façam associação com o réptil do mesmo nome (em português, píton ou pitão).\n[…]\nPython suporta a maioria das técnicas da programação orientada a objeto. Qualquer objeto pode ser usado para qualquer tipo, e o código funcionará enquanto haja métodos e atributos adequados. O conceito de objeto na linguagem é bastante abrangente: classes, funções, números e módulos são todos considerados objetos. Também há suporte para metaclasses, polimorfismo, e herança (inclusive herança múltipla). Há um suporte limitado para variáveis privadas.\n[…]\nPython suporta e faz uso constante de tratamento de exceções como uma forma de testar condições de erro e outros eventos inesperados no programa. É inclusive possível capturar uma exceção causada por um erro de sintaxe. O estilo da linguagem apóia o uso de exceções sempre que uma condição de erro pode aparecer.\n[…]\nA linguagem tem sido embarcada como linguagem de script em diversos softwares, como em programas de edição tridimensional como Maya, Autodesk Softimage, TrueSpace e Blender. Programas de edição de imagem também a usam para scripts, como o GIMP. Para diversos sistema operacionais a linguagem já é um componente padrão, estando disponível em diversas distribuições Linux. O Red Hat Linux usa Python para instalação, configuração e gerenciamento de pacotes.\n[…]\nRuby (linguagem de programação)\n[…]\nPython no GitHub",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Herman Hollerith",
+      "descricao": "Inventor americano (1860–1929) das máquinas tabuladoras de cartões perfurados usadas no censo dos Estados Unidos de 1890."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A empresa de Herman Hollerith, criador das máquinas de cartões perfurados usadas no censo americano de 1890, deu origem a qual gigante da informática?",
+    "resposta": "IBM",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Herman_Hollerith"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Herman_Hollerith",
+        "situacao": "ok",
+        "texto": "Herman Hollerith (February 29, 1860 – November 17, 1929) was a German-American statistician, inventor, and businessman who developed an electromechanical tabulating machine for punched cards to assist in summarizing information and, later, in accounting. His invention of the punched card tabulating machine, patented in 1884, marks the beginning of the era of mechanized binary code and semiautomati\n[…]\nHeide, Lars. \"Herman Hollerith\". In Jeffrey Fear (ed.). Immigrant Entrepreneurship: German-American Business Biographies, 1720 to the Present. German Historical Institute, 2017.\n[…]\nHollerith, Herman (April 1889). \"An Electric Tabulating System\". The Quarterly, Columbia University School of Mines. X (16): 238–255. From the Columbia Univ. History site: This article is the basis for his 1890 Columbia Ph.D. Extracts reprinted in (Randell, 1982).\n[…]\nHollerith, Herman (1890). In connection with the electric tabulation system which has been adopted by U.S. government for the work of the census bureau (PhD dissertation). Columbia University School of Mines.\n[…]\nHollerith, Herman (December 1894). \"The Electrical Tabulating Machine\". Journal of the Royal Statistical Society. 57 (4). Blackwell Publishing: 678–682. doi:10.2307/2979610. JSTOR 2979610. From Randell (1982),\"... brief... fascinating article... describes the way in which tabulators and sorters were used on ... 100 million cards ... 1890 census.\"\n[…]\nThe Research notes on Herman Hollerith collection at Hagley Museum and Library includes the research materials Geoffrey Austrian used to write Herman Hollerith: Forgotten Giant of Information Processing.\n[…]\nRichard Hollerith Papers Finding aids at Hagley Museum and Library. Richard Hollerith was the grandson of Herman Hollerith and part of this collection documents the sale and settlement of the Herman Hollerith estate following the death of his last remaining child, Virginia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Herman_Hollerith",
+        "situacao": "ok",
+        "texto": "Herman Hollerith (Buffalo, 29 de fevereiro de 1860 — Washington, D.C., 17 de novembro de 1929) foi um empresário norte-americano e o principal impulsionador do leitor de cartões perfurados, principal forma de entrada de informação nos computadores da época. Foi também um dos fundadores da IBM, precursor do processamento de dados, e construiu o primeiro computador mecânico.\n[…]\nAs máquinas de cálculo elétricas atualmente utilizadas no Departamento do Censo são resultado dessa sugestão.\"\n[…]\nO sistema criado por Hollerith não era apenas uma máquina isolada, mas um conjunto completo de dispositivos que revolucionou, a \"Arte de Compilar Estatísticas\". O processo iniciava-se com a transcrição dos dados dos formulários do censo para cartões perfurados. Para isso, utilizava-se um dispositivo de perfuração que permitia que um funcionário registrasse dados variáveis em diversas categorias no mesmo cartão.\n[…]\nAlém disso, pilhas de cartões podiam ser pré-perfuradas com dados constantes, como o número do distrito do censo.\n[…]\nO método de tabulação usando cartões perfurados foi adotado no 11º Censo dos Estados Unidos, realizado em 1890. Antes de ganhar o contrato com o Departamento do Censo dos Estados Unidos, a invenção de Hollerith concorreu com três outros sistemas propostos, todos levando aproximadamente oito vezes mais tempo que o seu para tabular os resultados. Seu sistema também era cerca de duas vezes mais rápido que o de seu concorrente mais próximo em tempo total gasto na transcrição em fichas e na tabulação.\n[…]\nUm artigo publicado pela revista \"Scientific American\" em agosto de 1890, destacou que o sucesso e a rapidez do censo realizado naquele ano se deveram ao sistema  inventado por Herman Hollerith, que utilizava cartões perfurados e eletricidade para tabular dados, associando mecânica e estatística teórica.\n[…]\nPágina sobre Hollerith\n[…]\nPágina 2 sobre Hollerith",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Tear de Jacquard",
+      "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que recurso do tear de Jacquard Charles Babbage pretendia usar para programar sua máquina analítica?",
+    "resposta": "Cartões perfurados",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Analytical_engine",
+      "https://en.wikipedia.org/wiki/Jacquard_machine"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Analytical_engine",
+        "situacao": "ok",
+        "texto": "The analytical engine was a proposed digital mechanical general-purpose computer designed by the English mathematician and computer pioneer Charles Babbage. It was first described in 1837 as the successor to Babbage's difference engine, which was a design for a simpler mechanical calculator.\n[…]\nThis emulator does provide a written symbolic instruction set, though this has been constructed by its authors rather than based on Babbage's original works. For example, a factorial program would be written as:\n[…]\nIf the analytical engine had been built, it would have been digital, programmable and Turing-complete. It would, however, have been very slow. Luigi Federico Menabrea reported in Sketch of the Analytical Engine: \"Mr. Babbage believes he can, by his engine, form the product of two numbers, each containing twenty figures, in three minutes\".\n[…]\nMoriarty by Modem, a short story by Jack Nimersheim, describes an alternative history where Babbage's analytical engine was indeed completed and had been deemed highly classified by the British government. The characters of Sherlock Holmes and Moriarty had in reality been a set of prototype programs written for the analytical engine.\n[…]\nThis short story follows Holmes as his program is implemented on modern computers and he is forced to compete against his nemesis yet again in the modern counterparts of Babbage's analytical engine.\n[…]\nCharles Babbage and Ada Lovelace appear in an episode of Doctor Who, \"Spyfall Part 2\", where the engine is displayed and referenced.\n[…]\n\"Image of the \"General Plan of Babbage's great calculating engine\" (1840), plus a modern description of operational & programming features\". Archived from the original on 21 August 2008.\n[…]\nBabbage, Science Museum, London (archived)\n[…]\nPlan 28: Building Charles Babbage's Analytical Engine"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Jacquard_machine",
+        "situacao": "ok",
+        "texto": "The Jacquard machine (French: [ʒakaʁ]) is a device fitted to a loom that simplifies the process of manufacturing textiles with such complex patterns as brocade, damask and matelassé. The resulting ensemble of the loom and Jacquard machine is then called a Jacquard loom. The machine was patented by Joseph Marie Jacquard in 1804, based on earlier inventions by the Frenchmen Basile Bouchon (1725), Je\n[…]\nThis use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, having inspired Charles Babbage's Analytical Engine.\n[…]\nJacquard's invention had a deep influence on Charles Babbage. In that respect, he is viewed by some authors as a precursor of modern computing technology.\n[…]\nThe Jacquard head used replaceable punched cards to control a sequence of operations. It is considered an important step in the history of computing hardware. The ability to change the pattern of the loom's weave by simply changing cards was an important conceptual precursor to the development of computer programming and data entry. Charles Babbage knew of Jacquard machines and planned to use cards to store programs in his Analytical Engine.\n[…]\nSome early computers, such as the 1944 IBM Automatic Sequence Controlled Calculator (Harvard Mark I) received program instructions from a paper tape punched with holes, similar to Jacquard's string of cards. Later computers executed programs from higher-speed memory, though cards were commonly used to load the programs into memory. Punched cards remained in use in computing up until the mid-1980s.\n[…]\nPosselt, Emanuel A. (1892) The Jacquard machine analyzed and explained: the preparation of Jacquard cards and practical hints to learners of Jacquard designing Archived 2020-07-11 at the Wayback Machine – digital facsimile from the Linda Hall Library"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica",
+        "situacao": "ok",
+        "texto": "A máquina analítica, também conhecido como engenho analítico foi proposto pelo professor de matemática e pioneiro da ciência da computação Charles Babbage. A maquina foi descrita pela primeira vez em 1837, como a sucessora da máquina diferencial (um design para um computador mecânico mais simples).\n[…]\nA entrada, consistindo de programas (\"fórmulas\") e dados, seria fornecida à máquina por meio de cartões perfurados, um método utilizado na época para direcionar teares mecânicos, como o tear Jacquard. Para saída, a máquina teria uma impressora, um traçador de curvas e um sino. A máquina também seria capaz de perfurar números em cartões para leitura posterior. Ela empregava aritmética com ponto fixo de base 10.\n[…]\nHavia três leitores separados para os três tipos de cartões. Babbage desenvolveu cerca de duas dezenas de programas para a máquina analítica entre 1837 e 1840, e um programa posteriormente. Esses programas tratavam de polinômios, fórmulas iterativas, eliminação gaussiana e números de Bernoulli.\n[…]\nEssa versão poderia manipular 20 números de 25 dígitos cada, e o que poderia ser feito com esses números ainda seria impressionante. \"É apenas uma questão de cartões e tempo\", escreveu Henry Babbage em 1888, \"... e não há motivo para não usar (vinte mil) cartões, se necessário, em uma máquina analítica para os fins do matemático\".\n[…]\nNa ausência de outras evidências, tive que adotar a mínima suposição padrão de que tanto os cartões de operação quanto os de variáveis só podem ser virados para trás, conforme necessário para implementar os loops usados nos programas de amostra de Babbage. Não haveria dificuldade mecânica ou de microprogramação em colocar a direção do movimento sob o controle do usuário.\n[…]\nEm seu emulador da máquina, o Fourmilab diz:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Steve Jobs",
+      "descricao": "Empresário americano (1955–2011), cofundador da Apple."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Afastado da Apple em 1985, Steve Jobs comprou no ano seguinte a divisão de computação gráfica da Lucasfilm, que virou qual estúdio?",
+    "resposta": "Pixar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steve_Jobs",
+      "https://en.wikipedia.org/wiki/Pixar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Steve_Jobs",
+        "situacao": "ok",
+        "texto": "Steven Paul Jobs  (February 24, 1955 – October 5, 2011) was an American businessman and investor. A pioneer of the personal computer revolution of the 1970s and 1980s, Jobs co-founded Apple Inc. with his early business partner Steve Wozniak as Apple Computer Company in 1976. After the company's board of directors fired him in 1985, he founded NeXT the same year and purchased Pixar in 1986, becomin\n[…]\nIn 1985, Jobs departed Apple after a long power struggle with the company's board and its then-CEO, John Sculley. That same year, Jobs took some Apple employees with him to found NeXT, a computer platform development company that specialized in computers for higher education and business markets, serving as its CEO. In 1986, he bought the computer graphics division of Lucasfilm, which was spun off independently as Pixar.\n[…]\nIn 1986, Jobs funded the spinout of The Graphics Group (later renamed Pixar) from Lucasfilm's computer graphics division for the price of $10 million, $5 million of which was given to the company as capital and $5 million of which was paid to Lucasfilm for technology rights.\n[…]\nBoth Apple and Pixar issued announcements of his death. Apple announced on the same day that they had no plans for a public service, but were encouraging \"well-wishers\" to send their remembrance messages to an email address created to receive such messages. Apple and Microsoft both flew their flags at half-staff throughout their respective headquarters and campuses.\n[…]\nChildhood friend and fellow Apple co-founder Steve Wozniak, former owner of what would become Pixar, George Lucas, his competitor Microsoft co-founder Bill Gates, and President Barack Obama all made statements in response to his death. At his request, Jobs was buried in an unmarked grave at Alta Mesa Memorial Park, the only nonsectarian cemetery in Palo Alto.\n[…]\nSteve Jobs official memorial page at Apple\n[…]\nSteve Jobs profile at Forbes"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Pixar",
+        "situacao": "ok",
+        "texto": "Pixar (), doing business as Pixar Animation Studios, is an American animation studio based in Emeryville, California, known for its critically and commercially successful computer-animated feature films. Pixar is a subsidiary of Walt Disney Studios, a division of the Disney Entertainment segment of the Walt Disney Company. It is one of Disney's three feature animation studios, alongside Walt Disne\n[…]\nThe studio started in 1979 as part of the Lucasfilm computer division. It was known as the Graphics Group before its spin-off as a corporation in 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. The studio's mascot is Luxo Jr., a desk lamp from the studio's 1986 short film of the same name. Disney announced its acquisition of Pixar in January 2006, and completed it in May 2006.\n[…]\nOn March 6, 1991, Steve Jobs bought the company from its employees and became the full owner. He contemplated folding it into NeXT, but the NeXT's co-founders refused. A few months later Pixar made a historic $26 million deal with Disney to produce three computer-animated feature films, the first of which was Toy Story (1995), the product of the technological limitations that challenged CGI.\n[…]\nDespite the income from these projects, the company still continued to lose money, and Steve Jobs, as chairman of the board and now owner, often considered selling it. As late as 1994, Jobs contemplated selling Pixar to other companies such as Hallmark Cards, Microsoft co-founder Paul Allen, and Oracle CEO and co-founder Larry Ellison.\n[…]\nWhen Steve Jobs, chief executive officer of Apple Inc. and Pixar, and John Lasseter, executive vice president of Pixar, decided to move their studios from a leased space in Point Richmond, California, to larger quarters of their own, they chose a 20-acre site in Emeryville, California, formerly occupied by Del Monte Foods, Inc."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Steve_Jobs",
+        "situacao": "ok",
+        "texto": "Steven Paul Jobs (São Francisco, 24 de fevereiro de 1955 – Palo Alto, 5 de outubro de 2011) foi um inventor, empresário e magnata norte-americano do setor da informática. Notabilizou-se como cofundador, presidente e diretor-executivo da Apple Inc. e por revolucionar seis indústrias: computadores pessoais, filmes de animação, música, telefones, tablets e publicações digitais.\n[…]\nAlém de sua ligação com a Apple, foi diretor-executivo da empresa de animação por computação gráfica Pixar, e acionista individual máximo da The Walt Disney Company. Morreu no dia 5 de outubro de 2011, aos 56 anos de idade, devido a um câncer pancreático.\n[…]\nEm 3 de abril de 1977 a nova empresa — Apple Computer Co. — foi oficialmente criada e comprou a antiga sociedade que havia sido formada por Jobs e Wozniak nove meses antes.\n[…]\nEm 1996 a Apple, que estava desenvolvendo um novo sistema operacional, comprou a NeXT Computer, de Steve Jobs, para poder usar o NEXTSTEP como base para o seu novo sistema operacional. Com esta operação, Jobs retornou para a Apple em 1997 como consultor. A Apple estava, entretanto, numa situação financeira frágil e a ponto de fechar.\n[…]\nEm 1986, Jobs comprou da Lucasfilm um estúdio de computação gráfica, o Pixar Studios, por dez milhões de dólares. Com uma parceria estratégica com a Disney criou, produziu e lançou vários filmes em animação 3D de sucesso, tais como o Toy Story, Procurando Nemo, Ratatouille, \"Up, Altas Aventuras\" e \"Aviões\".\n[…]\nCom a compra dos estúdios Pixar pelo grupo de comunicação e entretenimento Walt Disney, Jobs tornou-se o maior acionista individual da Disney, onde deveria ocupar um posto no conselho diretivo, segundo uma nota divulgada pela Disney no dia da aquisição, em 2006.\n[…]\nA Cabeça de Steve Jobs\n[…]\nSteve Wozniak\n[…]\n«Apple - Remembering Steve Jobs» (em inglês). Memorial dedicado a Steve Jobs\n[…]\nObras de Steve Jobs na Open Library",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Transistor",
+      "descricao": "Dispositivo semicondutor usado para amplificar ou chavear sinais elétricos, bloco básico da eletrônica moderna."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O transistor foi inventado em 1947 num laboratório americano cujo nome remete a qual inventor escocês?",
+    "resposta": "Alexander Graham Bell",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Transistor",
+      "https://en.wikipedia.org/wiki/Bell_Labs"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Transistor",
+        "situacao": "ok",
+        "texto": "A transistor is a semiconductor device used to amplify or switch electrical signals and power. It is one of the basic building blocks of modern electronics. It is composed of semiconductor material, usually with at least three terminals for connection to an electronic circuit. A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of termin\n[…]\nPhysicist Julius Edgar Lilienfeld proposed the concept of a field-effect transistor (FET) in 1925, but it was not possible to construct a working device at that time. The first working device was a point-contact transistor invented in 1947 by physicists John Bardeen, Walter Brattain, and William Shockley at Bell Labs who shared the 1956 Nobel Prize in Physics for their achievement.\n[…]\nHaving unearthed Lilienfeld's patents that went into obscurity years earlier, lawyers at Bell Labs advised against Shockley's proposal because the idea of a field-effect transistor that used an electric field as a grid was not new. Instead, what Bardeen, Brattain, and Shockley invented in 1947 was the first point-contact transistor.\n[…]\nBy June 1948, witnessing currents flowing through point-contacts, he produced consistent results using samples of germanium produced by Welker, similar to what Bardeen and Brattain had accomplished earlier in December 1947. Realizing that Bell Labs' scientists had already invented the transistor, the company rushed to get its transistron into production for amplified use in France's telephone network, filing his first transistor patent application on August 13, 1948.\n[…]\nThe 1947 invention of the first transistor at Bell Labs was named an IEEE Milestone in 2009. Other Milestones include the inventions of the junction transistor in 1948 and the MOSFET in 1959.\n[…]\nDiamond transistor\n[…]\nBBC: Building the digital age photo history of transistors\n[…]\nThe Bell Systems Memorial on Transistors"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Bell_Labs",
+        "situacao": "ok",
+        "texto": "Nokia Bell Labs, commonly referred to as Bell Labs, is an American industrial research and development company owned by the Finnish technology company Nokia. With headquarters located in Murray Hill, New Jersey, the company operates several laboratories in the United States and around the world.\n[…]\nIn 1880, when the French government awarded Alexander Graham Bell the Volta Prize of 50,000 francs for the invention of the telephone (equivalent to about US$10,000 at the time, or about $350,000 now), he used the award to fund the Volta Laboratory (also known as the \"Alexander Graham Bell Laboratory\") in Washington, D.C. in collaboration with Sumner Tainter and Bell's cousin Chichester Bell.\n[…]\nIt focused on the analysis, recording, and transmission of sound. Bell used his considerable profits from the laboratory for further research and education advancing the diffusion of knowledge relating to the deaf. This resulted in the founding of the Volta Bureau (c. 1887) at the Washington, D.C. home of his father, linguist Alexander Melville Bell. The carriage house there, at 1527 35th Street N.W., became their headquarters in 1889.\n[…]\nThe Bell Patent Association was formed by Alexander Graham Bell, Thomas Sanders, and Gardiner Hubbard when filing the first patents for the telephone in 1876.\n[…]\nIn 1947, the transistor, arguably the most important invention developed by Bell Laboratories, was invented by John Bardeen, Walter Houser Brattain, and William Bradford Shockley (who subsequently shared the Nobel Prize in Physics in 1956). Also in 1947, Douglas H. Ring of Bell Labs introduced the idea of using hexagonal \"cells\" to reuse frequencies in mobile radiotelephony, laying the theoretical groundwork for modern cellular networks.\n[…]\nBell Laboratories and the Development of Electrical Recording"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Trans%C3%ADstor",
+        "situacao": "ok",
+        "texto": "O transístor ou transistor (do inglês transfer varistor: varistor de transferência) é um dispositivo semicondutor usado para amplificar ou trocar sinais eletrônicos e potência elétrica, considera-se inventado em 1947 pelos físicos estadunidenses John Bardeen, Walter Brattain e William Shockley. É composto de material semicondutor com pelo menos três terminais para conexão a um circuito externo.\n[…]\nDe 17 de novembro de 1947 a 23 de dezembro de 1947, John Bardeen e Walter Brattain da Bell Labs da AT&T em Murray Hill, Nova Jersey, nos Estados Unidos, realizaram experimentos e observaram que quando dois pontos de ouro eram aplicados a um cristal de germânio, um sinal foi produzido com a potência de saída maior que a entrada, sendo considerado assim os inventores do transistor.\n[…]\nDe acordo com Lillian Hoddeson e Vicki Daitch, autores de uma biografia de John Bardeen, Shockley propôs que a primeira patente do Bell Labs para um transístor deveria ser baseada no efeito de campo e que ele fosse reconhecido como o inventor.\n[…]\nTendo desenterrado as patentes de Lilienfeld que haviam entrado na obscuridade anos antes, os advogados da Bell Labs desaconselharam a proposta de Shockley porque a ideia de um transístor de efeito de campo que usasse um campo elétrico como uma \"grade\" não era nova. Em vez disso, o que Bardeen, Brattain e Shockley inventaram em 1947 foi o primeiro transístor de contato pontual.\n[…]\nEm junho de 1948, testemunhando correntes fluindo através de pontos de contato, Mataré produziu resultados consistentes usando amostras de germânio produzidas por Welker, semelhante ao que Bardeen e Brattain haviam realizado antes, em dezembro de 1947. Percebendo que os cientistas da Bell Labs já haviam inventado o transistor antes deles, a empresa se apressou em colocar seu \"transistron\" em produção para uso amplificado na rede de telefonia da França.\n[…]\nTransistor MOSFET\n[…]\nTransistor IGBT",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "HAL 9000",
+      "descricao": "Computador fictício com inteligência artificial do filme 2001: Uma Odisseia no Espaço, de 1968."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "No filme 2001, Uma Odisseia no Espaço, trocando cada letra do computador HAL pela seguinte do alfabeto, obtém-se a sigla de qual empresa?",
+    "resposta": "IBM",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/HAL_9000"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/HAL_9000",
+        "situacao": "ok",
+        "texto": "HAL 9000 (or simply HAL or Hal) is a fictional artificial-intelligence character and the main antagonist in the Space Odyssey series. First appearing in the 1968 film 2001: A Space Odyssey, HAL (Heuristically Programmed Algorithmic Computer) is a sentient general-intelligence computer that controls the systems of the Discovery One spacecraft and interacts with the ship's astronaut crew.\n[…]\nClarke noted that the first film was criticized for having HAL as its only interesting character, and that a great deal of the establishing story on Earth was cut from the film (and even from Clarke's novel). Clarke stated that he had considered Autonomous Mobile Explorer–5 as a name for the computer, then decided on Socrates when writing early drafts, switching in later drafts to Athena, a computer with a female personality, before settling on HAL 9000.\n[…]\nHAL's name, according to Clarke, is derived from Heuristically programmed ALgorithmic computer. After the film was released, fans noticed HAL was a one-letter shift from the name IBM and there has been much speculation since then that this was a dig at the large computer company, something that both Clarke and Kubrick denied. Clarke addressed the issue in The Lost Worlds of 2001:\n[…]\nHAL's capabilities, like all the technology in 2001, were based on the speculation of respected scientists. Marvin Minsky, director of the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) and one of the most influential researchers in the field, was an adviser on the film set. In the mid-1960s, many computer scientists in the field of artificial intelligence were optimistic that machines with HAL's capabilities would exist within a few decades.\n[…]\nList of fictional computers\n[…]\nText excerpts from HAL 9000 in 2001: A Space Odyssey\n[…]\n2001 fills the theater at HAL 9000's \"birthday\" in 1997 at the University of Illinois at Urbana–Champaign"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/HAL_9000",
+        "situacao": "ok",
+        "texto": "HAL 9000 (Heuristically programmed ALgorithmic computer, ou Computador Algorítmico Heuristicamente Programado em tradução livre) é um personagem ficcional da série Odisséia Espacial, de Arthur C. Clarke, e foi imortalizado pela adaptação cinematográfica feita por Stanley Kubrick do primeiro volume da mesma, 2001: A Space Odyssey, de (1968).\n[…]\nAlgumas fontes afirmam que o nome HAL deriva de IBM. De fato, cada letra de HAL é exatamente uma anterior, alfabeticamente, às letras de IBM. Entretanto o autor sempre negou essa informação. \"Teríamos mudado o nome se tivéssemos percebido a coincidência\", escreveu Clarke em seu livro The Lost Worlds of 2001, citando ainda o apoio que a empresa deu durante as filmagens.\n[…]\nO HAL 9000 foi um dos principais personagens da série, aparecendo em todos os livros. Considerado o marco inicial da inteligência artificial, demonstrou não apenas qualidade de processamento mas uma espécie de sentimento próprio, o qual demonstra ao se sacrificar em prol da vida de outros personagens em[carece de fontes]? 2010: Odyssey Two e se desculpar a David Bowman (Odisseia no Espaço) pelos seus atos em 2001.\n[…]\nFoi considerado o principal vilão de 2001: A Space Odyssey porem após sua reprogramação pelo doutor Dr. Chandra este revelou que a culpa pelos incidentes foram os programadores que não contaram a missão para Hal, fazendo com que o computador desenvolvesse um a certa paranoia sobre o objetivo de sua missão. Após seu sacrifício HAL foi englobado pelo monólito, voltando a ser companheiro de David Bowman, trabalhando em conjunto com o monólito para desenvolverem inteligência nos seres de Europa.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Lei de Moore",
+      "descricao": "Previsão de que o número de transistores num chip dobra a intervalos regulares, formulada por Gordon Moore em 1965."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Gordon Moore, que dá nome à previsão de que os transistores num chip dobram a cada dois anos, cofundou qual empresa?",
+    "resposta": "Intel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moore%27s_law",
+      "https://en.wikipedia.org/wiki/Gordon_Moore"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Moore%27s_law",
+        "situacao": "ok",
+        "texto": "Moore's law is the observation that the number of transistors in an integrated circuit (IC) doubles about every two years, with minimal increase in cost. Despite the name, Moore's law describes an empirical relationship, not a scientific law. This type of observation, an experience curve effect, quantifies efficiency gains from learned experience in production.\n[…]\nThe observation is named after Gordon Moore, the co-founder of Fairchild Semiconductor and Intel and former Chief Executive Officer of the latter, who in 1965 noted that the number of components per integrated circuit had been doubling every year, and projected that this rate of growth would continue for at least another decade. In 1975, looking forward to the next decade, he revised the forecast to doubling every two years, a compound annual growth rate (CAGR) of 41%.\n[…]\nThe doubling period is often misquoted as 18 months because of a separate prediction by Moore's colleague, Intel executive David House. In 1975, House noted that Moore's revised law of doubling transistor count every 2 years in turn implied that computer chip performance would roughly double every 18 months, with no increase in power consumption. Mathematically, Moore's law predicted that transistor count would double every 2 years due to shrinking transistor dimensions and other improvements.\n[…]\nPat Gelsinger, former Intel CEO, stated at the end of 2023 that \"we're no longer in the golden era of Moore's Law, it's much, much harder now, so we're probably doubling effectively closer to every three years now, so we've definitely seen a slowing.\"\n[…]\nNvidia CEO Jensen Huang declared Moore's law dead in 2022; several days later, Intel CEO Pat Gelsinger countered with the opposite claim.\n[…]\nIntel press kit – released for Moore's Law's 40th anniversary, with a 1965 sketch by Moore\n[…]\nMoore's Law at Intel"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gordon_Moore",
+        "situacao": "ok",
+        "texto": "Gordon Earle Moore (January 3, 1929 – March 24, 2023) was an American businessman, scientist, engineer, and the co-founder and emeritus chairman of Intel Corporation. He proposed Moore's law, which makes the observation that the number of transistors in an integrated circuit (IC) doubles about every two years.\n[…]\nOn April 11, 2022, Intel renamed its main Oregon site, the Ronler Acres campus in Hillsboro, as 'Gordon Moore Park', and the building formerly known as RA4, as 'Moore Center', after Gordon Moore.\n[…]\nMoore was awarded the 2008 IEEE Medal of Honor for \"pioneering technical roles in integrated-circuit processing, and leadership in the development of MOS memory, the microprocessor computer, and the semiconductor industry\". Moore was featured in the 2011 documentary film Something Ventured, in which he said about Intel's first business plan, \"It was one page, double spaced. It had a lot of typos in it.\"\n[…]\nMoore died at his home in Waimea, Hawaii on March 24, 2023, aged 94. He was remembered by the San Francisco Chronicle as a \"Silicon Valley icon who co-founded Intel.\" The Intel CEO at the time, Pat Gelsinger, remembered him as someone who, \"defined the technology industry through his insight and vision.\"\n[…]\n\"Gordon E. Moore Retired Chief Executive Officer and Chairman of the Board, Chairman Emeritus\". Intel. Archived from the original on October 21, 2016. Retrieved March 2, 2016.\n[…]\nKathleen Day (March 24, 2023). \"Gordon Moore, Silicon Valley pioneer who co-founded Intel, dies at 94\". The Washington Post.{{cite news}}:  CS1 maint: deprecated archival service (link)\n[…]\nHolcomb B. Noble; Katie Hafner (March 26, 2023). \"Gordon E. Moore, Intel Co-Founder Behind Moore's Law, Dies at 94\". The New York Times. Retrieved April 9, 2023.\n[…]\nGordon Moore, Intel Co-Founder, Dies at 94"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lei_de_Moore",
+        "situacao": "ok",
+        "texto": "Lei de Moore é uma expressão referente a observação feita por Gordon Moore (químico estadunidense cofundador da Intel) em 1965 no artigo “Cramming More Components onto Integrated Circuits” sobre a tendência histórica da indústria de microchips e processadores. Ou seja, observação sobre o ritmo da evolução na computação eletrônica, informa que o número de transistores dos chips teria um aumento de \n[…]\nEm 1975, Moore revisou a sua previsão para, a cada dois anos, um aumento de 100% na quantidade de transistores dos chips mantendo seu custo. Porém um colega de Moore previu que esse período seria a cada 18 meses.\n[…]\nInicialmente a lei de Moore não passava de uma observação, mas acabou tornando-se um objetivo para as indústrias de semicondutores, fazendo-as despenderem muitos recursos para poder alcançar as previsões de Moore no nível de desempenho e é isso que torna a Lei de Moore realmente importante, pois sem ela, talvez não tivéssemos um desenvolvimento tão acelerado em nível de hardware e com custos cada vez mais acessíveis.\n[…]\nSegundo Carl Anderson, pesquisador da área de concepção de computadores da IBM, a Lei de Moore pode estar chegando ao fim. Entre os motivos para que Anderson faça tal previsão está o fato de que os engenheiros estão desenvolvendo sistemas que exigem menos recursos do processador e os custos para pesquisas de novos processadores estão cada vez mais altos. Além do fato de que, com o aumento da velocidade, aumenta também o consumo de energia e a dissipação de calor.\n[…]\nNo início de 2014, o departamento de pesquisa da IBM anunciou um teste de novos chips de silício com tecnologia de 7 nm empurrando para novos limites o previsto fim da Lei de Moore.\n[…]\nEm fevereiro de 2017, o CEO da Intel, Brian, disse que a empresa tem investido pesado tanto na Computação Quântica como na Engenharia Neuromórfica.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Android",
+      "descricao": "Sistema operacional para celulares e tablets desenvolvido pelo Google."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O sistema Android, dos celulares, é construído sobre o núcleo de qual sistema operacional livre?",
+    "resposta": "Linux",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Android_(operating_system)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Android_(operating_system)",
+        "situacao": "ok",
+        "texto": "Android is an operating system developed by Google, designed primarily for smartphones and tablets (touchscreen-based mobile devices originally; later for other devices, such as TVs and PCs), based on a modified version of the Linux kernel and other open-source software. First released in 2008, Android is the world's most widely used operating system with 3.9 billion users, and the most used opera\n[…]\nAndroid does not have a native X Window System by default, nor does it support the full set of standard GNU libraries. This made it difficult to port existing Linux applications or libraries to Android, until version r5 of the Android Native Development Kit brought support for applications written completely in C or C++. Libraries written in C may also be used in applications by injection of a small shim and usage of the JNI.\n[…]\nAndroid (all supported versions, as far back as version 4.4 of the Android Open Source Project) has the option to provide a verified boot chain with dm-verity. This is a feature in the Linux kernel that allows for transparent integrity checking of block devices.\n[…]\nThe license does not grant rights to the \"Android\" trademark, so device manufacturers and wireless carriers have to license it from Google under individual contracts. Associated Linux kernel changes are released under the copyleft GNU General Public License version 2, developed by the Open Handset Alliance, with the source code publicly available at all times. The only Android release which was not immediately made available as source code was the tablet-only 3.0 Honeycomb release.\n[…]\nThe idea of an open-source, Linux-based development platform sparked interest, but there were additional worries about Android facing strong competition from established players in the smartphone market, such as Nokia and Microsoft, and rival Linux mobile operating systems that were in development.\n[…]\nAndroid Blogs"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Android",
+        "situacao": "ok",
+        "texto": "Android é um sistema operacional (SO) baseado no núcleo Linux, projetado principalmente para dispositivos eletrônicos móveis (como smartphones e tablets) com tela sensível ao toque ou interface de usuário baseada na manipulação direta; desenvolvido por um consórcio de desenvolvedores conhecido como Open Handset Alliance, sendo o principal colaborador o Google. Possui interface específica para apar\n[…]\nO Google adquiriu Android Inc. em 17 de agosto de 2005; funcionários-chave da recém-comprada empresa, incluindo Rubin, Miner e White, continuaram na companhia após a aquisição. Pouco se sabia sobre a Android Inc. naquele momento, mas muitos especularam que o Google estava planejando entrar no mercado de dispositivos móveis com essa jogada. Dentro do Google, o grupo liderado por Rubin desenvolveu um sistema operacional móvel tendo com base o Kernel Linux.\n[…]\nO sistema Android consiste em um Kernel baseado no Kernel Linux, especificamente do ramo (LTS), suporte a longo tempo. Em janeiro de 2014, a maior parte das versões do Android eram moldadas em cima da versão do Kernel linux 3.4 ou superior, mas a versão específica do kernel depende do dispositivo Android e do processador utilizado por ele. O Android utilizou vários Kernels desde o primeiro, o 2.6.25.\n[…]\nMudanças no kernel do Linux associadas são publicadas sob copyleft sob a licença pública geral versão 2, desenvolvida pela Open Handset Alliance, com o código-fonte disponível publicamente. É típico do Google colaborar com alguma fabricante para produzir um dispositivo (da série Nexus) que seja o carro-chefe do Android, sendo o primeiro a ser lançado e disponibilizado com a nova versão do sistema. Assim que o dispositivo é lançado, o código-fonte da nova versão é liberado publicamente.\n[…]\nEstas são as vantagens mais citadas do Android sobre outros sistemas móveis.\n[…]\nDispositivos com o sistema Android Wear lançados:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Microsoft",
+      "descricao": "Empresa americana de software fundada em 1975 por Bill Gates e Paul Allen."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O primeiro produto da Microsoft, em 1975, foi uma versão da linguagem Basic para qual microcomputador?",
+    "resposta": "Altair 8800",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Altair_BASIC",
+      "https://en.wikipedia.org/wiki/Microsoft"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Altair_BASIC",
+        "situacao": "ok",
+        "texto": "Altair BASIC is a discontinued interpreter for the BASIC programming language that ran on the MITS Altair 8800 and subsequent S-100 bus computers. It was Microsoft's first product (as Micro-Soft), distributed by MITS under a contract. Altair BASIC was the start of the Microsoft BASIC product range.\n[…]\nBill Gates recalls that, when he and Paul Allen read about the Altair in the January 1975 issue of Popular Electronics, they understood that the price of computers would soon drop to the point that selling software for them would be a profitable business. Gates believed that, by providing a BASIC interpreter for the new computer, they could make it more attractive to hobbyists.\n[…]\nIn October 1975, 4K BASIC sold for $150, 8K BASIC for $200, and Extended BASIC for $350 (equivalent to $897 in 2025, equivalent to $1,197 in 2025, and equivalent to $2,094 in 2025, respectively). The prices were discounted to $60, $75, and $150 respectively for those who purchased \"8K of Altair memory, and an Altair I/O board\". The language versions were distributed on paper tape or cassette tape.\n[…]\nMicrosoft Binary Format (MBF) - the floating-point format used by Altair BASIC\n[…]\nBunnell, David (April 1975). \"Altair BASIC — Up and Running\". Computer Notes. 1 (1). Altair Users Group, MITS Inc.: 1, 3. Archived from the original on March 23, 2012. Retrieved 2007-04-18.\n[…]\nAltair BASIC 3.2 (4K) - Annotated Disassembly\n[…]\nAltair BASIC source disassembly, compiled by Reuben Harris and archived at archive.org\n[…]\nWriting an Altair Basic, Interview with Bill Gates, Interviewer: David Allison (DA), Division of Computers, Information, & Society, National Museum of American History, Smithsonian Institution\n[…]\nHistory of Microsoft Video: Bill Gates Talks about Altair Basic, (Lisa Feigenbaum) 24 Jun 2009, The Visual Basic Team, MSDN Blogs"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Microsoft",
+        "situacao": "ok",
+        "texto": "Microsoft Corporation is an American multinational technology company headquartered in Redmond, Washington. The company became influential in the rise of personal computers through software like Windows and has since expanded into areas such as Internet services, cloud computing, artificial intelligence, video gaming, and more. A Big Tech company, Microsoft is the largest software company by reven\n[…]\nFounded in 1975 by Bill Gates and Paul Allen to market BASIC interpreters for the Altair 8800, Microsoft rose to dominate the PC operating system market with MS-DOS in the mid-1980s, followed by Windows. The company's 1986 initial public offering and the subsequent rise in its share price created three billionaires and an estimated 12,000 millionaires among Microsoft employees. Since the 1990s, it has increasingly diversified its business. Steve Ballmer replaced Gates as CEO in 2000.\n[…]\nThe January 1975 issue of Popular Electronics featured Micro Instrumentation and Telemetry Systems's (MITS) Altair 8800 microcomputer, which inspired Allen to suggest that they could program a BASIC interpreter for the device. Gates called MITS and claimed that he had a working interpreter, and MITS requested a demonstration.\n[…]\nAllen worked on a simulator for the Altair while Gates developed the interpreter, and it worked flawlessly when they demonstrated it to MITS in March 1975 in Albuquerque, New Mexico. MITS agreed to distribute it, marketing it as Altair BASIC. Gates and Allen established Microsoft on April 4, 1975, with Gates as CEO, and Allen suggested the name \"Micro-Soft\", short for micro-computer software.\n[…]\nIn January 2020, the company announced a strategy to take the company carbon negative by 2030 and to remove all carbon that it has emitted since its foundation in 1975. On October 9, 2020, Microsoft permanently allowed remote work.\n[…]\nBusiness data for Microsoft Corporation:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Altair_BASIC",
+        "situacao": "ok",
+        "texto": "O Altair BASIC foi um interpretador para a linguagem de programação BASIC que executava no MITS Altair 8800 e subseqüentes computadores utilizando o barramento S-100. Foi o primeiro produto desenvolvido pela Microsoft (ainda como Micro-Soft), distribuído pela MITS sob contrato. O Altair BASIC foi o precursor da linha Microsoft BASIC.\n[…]\nEm março de 2025, para comemorar o 50.º aniversário da Microsoft, Bill Gates disponibilizou o código-fonte original do Altair Basic - em versão digitalizada directamente do papel perfurado. O documento PDF, com 157 páginas, está disponível no seu blog.\n[…]\nBunnell, David (Abril de 1975). «Altair BASIC - Up and Running». Altair Users Group, MITS Inc. Computer Notes. 1 (1): 1, 3. Consultado em 18 de abril de 2007. Arquivado do original em 27 de setembro de 2007\n[…]\nBASIC\n[…]\nMicrosoft BASIC\n[…]\n(em inglês)-Microsoft Altair BASIC legend talks about Linux, CPRM and that very frightening photo. Acessado em 8 de maio de 2007.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Salto de frequência",
+      "descricao": "Técnica de transmissão de rádio em que o sinal troca rapidamente de frequência para evitar interferência e interceptação."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que atriz de Hollywood patenteou em 1942, com o compositor George Antheil, um sistema de salto de frequência para guiar torpedos?",
+    "resposta": "Hedy Lamarr",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+      "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hedy_Lamarr",
+        "situacao": "ok",
+        "texto": "Hedy Lamarr (; born Hedwig Eva Maria Kiesler; November 9, 1914 –  January 19, 2000) was an Austrian and American actress and inventor. Regarded as a successful film star, she also co-invented a radio guidance system during World War II.\n[…]\nAt the beginning of World War II, along with composer George Antheil, Lamarr co-invented a radio guidance system for Allied torpedoes that used spread spectrum and frequency hopping technology to defeat the threat of radio jamming by the Axis powers. This approach, conceptualized as a \"Secret Communication System\", was intended to provide secure, jam-resistant communication for weapon guidance by spreading the signal across multiple frequencies.\n[…]\nAlthough Hedy Lamarr was widely celebrated for her acting career, her technological achievements were not fully recognized until decades later. The frequency-hopping system she co-developed with George Antheil became foundational to later spread spectrum communications technology.\n[…]\nBased on the strength of the initial submission of their ideas to the National Inventors Council (NIC) in late December 1940, in early 1941 the NIC introduced Antheil to Samuel Stuart Mackeown, professor of Electrical Engineering at Caltech, to consult on the electrical systems. Lamarr hired the legal firm of Lyon & Lyon to draft the application for the patent which was granted as U.S. patent 2,292,387 on August 11, 1942, under her legal name Hedy Kiesler Markey.\n[…]\nThe story of Lamarr's frequency-hopping invention and her later recognition as an inventor is the subject of the documentary Bombshell: The Hedy Lamarr Story, which premiered at the Tribeca Film Festival and was later broadcast on American Masters (2017).\n[…]\nHedy Lamarr at IMDb\n[…]\nHedy Lamarr at Reel Classics"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Frequency-hopping_spread_spectrum",
+        "situacao": "ok",
+        "texto": "Frequency-hopping spread spectrum (FHSS) is a method of transmitting radio signals by rapidly changing the carrier frequency among many frequencies occupying a large spectral band. The changes are controlled by a code known to both transmitter and receiver. FHSS is used to avoid interference, to prevent eavesdropping, and to enable code-division multiple access (CDMA) communications.\n[…]\nSpread-spectrum signals are highly resistant to deliberate jamming unless the adversary has knowledge of the frequency-hopping pattern. Military radios generate the frequency-hopping pattern under the control of a secret Transmission Security Key (TRANSEC) that the sender and receiver share in advance. This key is generated by devices such as the KY-57 Speech Security Equipment.\n[…]\nIn 1942, actress Hedy Lamarr and composer George Antheil received U.S. patent 2,292,387 for their \"Secret Communications System\", an early version of frequency hopping using a piano-roll to switch among 88 frequencies to make radio-guided torpedoes harder for enemies to detect or jam. They then donated the patent to the U.S. Navy.\n[…]\nFrequency-hopping ideas may have been rediscovered in the 1950s during patent searches when private companies were independently developing direct-sequence Code Division Multiple Access, a non-frequency-hopping form of spread-spectrum. In 1957, engineers at Sylvania Electronic Systems Division adopted a similar idea, using the recently invented transistor instead of Lamarr's and Antheil's clockwork technology.\n[…]\npatent 6,996,399 for his \"Wireless device and method using frequency hopping and sweep modes.\"\n[…]\nAdaptive frequency-hopping spread spectrum (AFH) as used in Bluetooth improves resistance to radio frequency interference by avoiding crowded frequencies in the hopping sequence. This sort of adaptive transmission is easier to implement with FHSS than with DSSS."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hedy_Lamarr",
+        "situacao": "ok",
+        "texto": "Hedy Lamarr, nome artístico de Hedwig Eva Maria Kiesler (Vienna, 9 de novembro de 1914 — Altamonte Springs, 19 de janeiro de 2000), foi uma atriz e inventora austríaca radicada no Estados Unidos.\n[…]\nJuntos, Antheil e Lamarr submeteram a ideia ao Departamento de Guerra norte-americano, que o recusou, em junho de 1941. Em agosto de 1942, foi patenteado por Antheil e \"Hedy Kiesler Markey\". A versão inicial consistia na troca de 88 frequências e era feito para despistar radares, mas a ideia pareceu difícil de realizar na época.\n[…]\nCom problemas de visão, Hedy Lamarr se retirou da vida pública e se estabeleceu em Miami Beach, na Flórida, em 1981.\n[…]\nHedy e o filho, James Lamarr Loder, cortaram relações abruptamente, quando ele foi morar com outra família. Os dois não se falaram pelos próximos 50 anos e quando Lamarr morreu, James descobriu que ficou fora do testamento da atriz. Ele então entrou na justiça pelo controle dos 3,3 milhões de dólares da atriz em 2000. Ele acabou ficando com 50 mil dólares da fortuna.\n[…]\nHedy Lamarr morreu em Casselberry, na Flórida, em 19 de janeiro de 2000, aos 85 anos. O atestado de óbito cita, como causas da sua morte,  insuficiência cardíaca, doença crônica da válvula cardíaca e doença cardíaca arteriosclerótica. Conforme era seu desejo, seu filho, Anthony Loder, levou suas cinzas para a Áustria e espalhou-as nos Bosques de Viena. Em 2014, um túmulo simbólico foi construído no Cemitério Central de Viena.\n[…]\nPor sua contribuição para o cinema, Hedy Lamarr tem uma estrela na Calçada da Fama, no 6 247 Hollywood Blvd. Ela também foi inspiração para Walt Disney desenhar a Branca de Neve, \"a mais bela\", seu primeiro desenho animado de longa metragem em 1937.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Apple",
+      "descricao": "Empresa americana de tecnologia fundada em 1976, fabricante do Macintosh e do iPhone."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A Apple foi fundada em 1976 por Steve Jobs, Steve Wozniak e um terceiro sócio, que vendeu sua parte poucos dias depois. Quem?",
+    "resposta": "Ronald Wayne",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ronald_Wayne"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ronald_Wayne",
+        "situacao": "ok",
+        "texto": "Ronald Gerald Wayne (born May 17, 1934) is an American retired electronics industry business executive. He co-founded Apple Computer Company—which later became Apple Inc.—as a partnership with Steve Wozniak and Steve Jobs on April 1, 1976, providing administrative oversight and documentation for the new venture. He has been often referred to by media as the 'forgotten founder' of Apple.\n[…]\nRonald Wayne was born in Cleveland, Ohio, on May 17, 1934. He trained as a technical draftsman at the School of Industrial Art High School in New York City.\n[…]\nIn 1976, Wayne was well respected for his sophisticated and comprehensive internal corporate documentation systems at the three-year-old Atari. There, he met coworkers Steve Jobs and Steve Wozniak. To assist in mediation of one of their typically intense discussions about the design of computers and the future of the industry, Wayne invited the pair to his home to facilitate and advise them.\n[…]\nIn the ensuing two-hour conversation about technology and business, Jobs proposed the founding of a computer company led by Wozniak and himself. The two would each hold a 45% stake so that Wayne could receive a 10% stake to act as a tie-breaker in their decisions. As the venture's self-described \"adult in the room\" at age 41, Wayne drafted the original partnership agreement, and the three founded Apple Computer on April 1, 1976.\n[…]\nWayne appeared in the documentary Welcome to Macintosh in 2008, where he describes some of his early experiences with Jobs and Wozniak.\n[…]\nWayne lives in Pahrump, Nevada.\n[…]\nRon Wayne interview by OMT\n[…]\nNPR report \"Lost\" Apple Founder Has No Regrets – June 13, 2010\n[…]\nRon Wayne, Apple Co-Founder, Shares Steve Jobs' \"Richest Man in the Cemetery\" Sentiment Almost Verbatim Archived December 7, 2014, at the Wayback Machine, Village Voice, October 8, 2011\n[…]\nRonald G. Wayne interviewed on the TV show Triangulation on the TWiT.tv network"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ronald_Wayne",
+        "situacao": "ok",
+        "texto": "Ronald Gerald Tito Wayne (Cleveland, Ohio, Estados Unidos; 17 de maio de 1934) é um empresário americano aposentado da indústria eletrônica. Ele co-fundou a Apple Computer (atual Apple Inc.), juntamente com Steve Jobs e Steve Wozniak, em 1º de abril de 1976, proporcionando supervisão administrativa fundamental para o novo empreendimento.\n[…]\nDoze dias depois, ele vendeu sua participação de 10% na nova empresa de volta para Jobs e Wozniak por US$ 800 (equivalente a US$ 3.810 em 2021), e um ano depois aceitou um final de US$ 1.500 (equivalente a US$ 7.143 em 2021) para perder qualquer potenciais reivindicações futuras contra a recém-incorporada Apple.\n[…]\nRon Wayne – Official Website\n[…]\nRon Wayne on Facebook\n[…]\nRon Wayne on Twitter\n[…]\nRon Wayne interview by OMT\n[…]\nNPR report \"Lost\" Apple Founder Has No Regrets – June 13, 2010\n[…]\nRon Wayne, Apple Co-Founder, Shares Steve Jobs' \"Richest Man in the Cemetery\" Sentiment Almost Verbatim, Village Voice, October 8, 2011",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Interface gráfica do usuário",
+      "descricao": "Forma de interagir com o computador por meio de janelas, ícones e um ponteiro controlado pelo mouse."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A interface com janelas, ícones e mouse que inspirou o Macintosh foi desenvolvida nos anos setenta no centro de pesquisa de qual empresa de copiadoras?",
+    "resposta": "Xerox",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Graphical_user_interface",
+      "https://en.wikipedia.org/wiki/Xerox_Alto"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Graphical_user_interface",
+        "situacao": "ok",
+        "texto": "A graphical user interface, or GUI, is a form of user interface that allows users to interact with electronic devices through graphical icons and visual indicators such as secondary notation. In many applications, GUIs are used instead of text-based UIs, which are based on typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-lin\n[…]\nThe term GUI tends not to be applied to other lower-display resolution types of interfaces, such as video games (where heads-up displays (HUDs) are preferred), or not including flat screens like volumetric displays because the term is restricted to the scope of 2D display screens able to describe generic information, in the tradition of the computer science research at the Xerox Palo Alto Research Center.\n[…]\n(A 1968 demonstration of NLS became known as \"The Mother of All Demos\".)  In the 1970s, Engelbart's ideas were further refined and extended to graphics by researchers at Xerox PARC and specifically Alan Kay, who went beyond text-based hyperlinks and used a GUI as the main interface for the Smalltalk programming language, which ran on the Xerox Alto computer, released in 1973. Most modern general-purpose GUIs are derived from this system.\n[…]\nThis effort culminated in the 1973 Xerox Alto, the first computer with a GUI, though the system never reached commercial production.\n[…]\nApple, Digital Research, IBM and Microsoft used many of Xerox's ideas to develop products, and IBM's Common User Access specifications formed the basis of the GUIs used in Microsoft Windows, IBM OS/2 Presentation Manager, and the Unix Motif toolkit and window manager. These ideas evolved to create the interface found in current versions of Microsoft Windows, and in various desktop environments for Unix-like operating systems, such as macOS and Linux.\n[…]\nGraphical User Interface Gallery, screenshots of various GUIs"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Xerox_Alto",
+        "situacao": "ok",
+        "texto": "The Xerox Alto is a computer system developed at Xerox PARC (Palo Alto Research Center) in the 1970s. It is considered one of the first workstations or personal computers, and its development pioneered many aspects of modern computing. The advances include graphical user interface (GUI), computer mouse, Ethernet networking, and the ability to run multiple applications simultaneously.\n[…]\nIn December 1979, Apple Computer's co-founder Steve Jobs visited Xerox PARC, where he was shown the Smalltalk-76 object-oriented programming environment, networking, and most importantly the WYSIWYG, mouse-driven graphical user interface provided by the Alto. At the time, he didn't recognize the significance of the first two, but was excited by the last one.\n[…]\nWith the help of PARC researchers, Xerox eventually developed the Star, based on the Dandelion workstation, and later the cost-reduced Star, the 6085 office system, based on the Daybreak workstation. These machines, based on the Wildflower architecture described in a paper by Butler Lampson, incorporated most of the Alto innovations, including the graphical user interface with icons, windows, folders, Ethernet-based local networking, and network-based laser printer services.\n[…]\nXerox only realized its mistake in the early 1980s, after the Macintosh revolutionized the PC market via its bitmap display and the mouse-centered interface. Both of these were inspired by the Alto. The Xerox Star series was a relative commercial success, but it came too late. The expensive Xerox workstations could not compete against the cheaper GUI-based workstations that arose in the wake of the first Macintosh, and Xerox eventually quit the workstation market.\n[…]\nA microcode-level Xerox Alto simulator\n[…]\nbrainsqueezer/salto_simulator: SALTO - Xerox Alto I/II Simulator (github.com)\n[…]\nSALTO-Xerox Alto emulator (direct download)\n[…]\nConrAltoJS Xerox Alto Online"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Interface_gr%C3%A1fica_do_utilizador",
+        "situacao": "ok",
+        "texto": "Uma interface gráfica de usuário, ou GUI (do inglês graphical user interface), é uma forma de interface de usuário que permite aos usuários interagir com dispositivos eletrônicos por meio de ícones gráficos e indicadores visuais, tais como notação secundária. Em muitas aplicações, as GUIs são utilizadas em vez de UIs baseadas em texto, que se baseiam em comandos digitados ou navegação textual.\n[…]\n(Uma demonstração do NLS em 1968 ficou conhecida como \"A Mãe de Todas as Demonstrações\".) Na década de 1970, as ideias de Engelbart foram ainda mais refinadas e estendidas aos gráficos por pesquisadores do Xerox PARC e, especificamente, Alan Kay, que foi além dos hiperlinks baseados em texto e usou uma GUI como interface principal para a linguagem de programação Smalltalk, que rodava no computador Xerox Alto, lançado em 1973. A maioria das GUIs modernas de uso geral deriva deste sistema.\n[…]\nA GUI do Xerox PARC consistia em elementos gráficos tais como janelas, menus, botões de rádio e caixas de seleção. O conceito de ícones foi introduzido mais tarde por David Canfield Smith, que tinha escrito uma tese sobre o assunto sob a orientação de Kay. A GUI do PARC emprega um dispositivo apontador juntamente com um teclado. Estes aspectos podem ser enfatizados usando o termo alternativo e acrônimo para janelas, ícones, menus, dispositivo apontador (WIMP).\n[…]\nNo entanto, foi uma influência crucial no desenvolvimento contemporâneo do Microsoft Windows.\n[…]\nApple, Digital Research, IBM e Microsoft usaram muitas das ideias da Xerox para desenvolver produtos, e as especificações Common User Access da IBM formaram a base das GUIs usadas no Microsoft Windows, OS/2 Presentation Manager da IBM, e o kit de ferramentas e gerenciador de janelas Unix Motif.\n[…]\nMarcin Wichary's GUIdebook (em inglês), galeria de interfaces gráficas de usuário: mais de 5.500 capturas de tela da história de GUIs, aplicativos e ícones.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Câmera digital",
+      "descricao": "Câmera fotográfica que registra imagens em formato digital, por meio de um sensor eletrônico, em vez de filme."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1975, o engenheiro Steven Sasson construiu um dos primeiros protótipos de câmera digital trabalhando para qual empresa de fotografia?",
+    "resposta": "Kodak",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Steven_Sasson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Steven_Sasson",
+        "situacao": "ok",
+        "texto": "Steven J. Sasson is an American electrical engineer and the inventor of the self-contained (portable) digital camera. He joined Kodak shortly after his graduation from engineering school and retired from Kodak in 2009.\n[…]\nSteven Sasson developed a portable, battery operated, self-contained digital camera at Kodak in 1975. It weighed 8 pounds (3.6 kg) and used a Fairchild CCD image sensor having only 100 × 100 pixels (0.01 megapixels). The images were digitally recorded onto a cassette tape, a process that took twenty-three seconds per image. His camera took images in black and white.\n[…]\nIn 1977, Kodak filed a patent application on some features of Sasson's prototype camera. Titled \"electronic still camera\", the patent listed Sasson and Gareth Lloyd as co-inventors. The issued patent, U.S. patent number 4,131,919, claims an arrangement that allows the CCD to be read out quickly (\"in real time\") into a temporary buffer of random-access memory and then written to storage at the lower speed of the storage device.\n[…]\nSome modern digital cameras still use such an arrangement, which had been described in an earlier MIT patent that also stored digital images using a digital tape recorder, but employed a vidicon sensor rather than a CCD. Sasson's prototype camera was first disclosed publicly in a May, 2000 presentation by Kodak which described the evolution of digital cameras.\n[…]\nHis work on digital cameras began in 1975 with a broad assignment from his supervisor at Eastman Kodak Company, Gareth A. Lloyd: to attempt to build an electronic camera using a commercially available charge-coupled device (CCD). The resulting camera invention was awarded the U.S. patent number 4,131,919."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Steven_Sasson",
+        "situacao": "ok",
+        "texto": "Steven J. Sasson (Brooklyn, Nova Iorque, 4 de julho de 1950) é um engenheiro estadunidense, que construiu a primeira câmera digital em 1975 na Kodak.\n[…]\nSasson estudou engenharia elétrica no Instituto Politécnico Rensselaer, onde obteve os graus de bacharel em 1972 e mestre em 1973. Em seguida trabalhou na Eastman Kodak, onde Gareth A. Lloyd o conduziu para a construção de uma câmera com sensor CCD. Tinha massa de 3,6 kg, era transportável e comportava apenas 10.000 pixel (de acordo com um chip-CCD Fairchild). A imagem era em preto e branco, armazenada em uma fita cassete e projetada em um televisor.\n[…]\nSasson recebeu em 26 de dezembro de 1978 a patente U.S. 4.131.919.\n[…]\nRecebeu o Prêmio de cultura da Associação de Fotografia da Alemanha de 2008, a Medalha Nacional de Tecnologia e Inovação de 2009 e foi induzido no National Inventors Hall of Fame em 2011. Recebeu o IEEE Masaru Ibuka Consumer Electronics Award de 2016.\n[…]\nErste Digitalkamera, Der Mann, der die Zukunft erfand, Kommentierte Fotostrecke, einestages, 27. Oktober 2015",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Robótica",
+      "descricao": "Ramo da tecnologia dedicado ao projeto, à construção e ao uso de robôs."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A palavra robótica apareceu pela primeira vez num conto de 1941 de qual escritor de ficção científica?",
+    "resposta": "Isaac Asimov",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Isaac_Asimov",
+      "https://en.wikipedia.org/wiki/Robotics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Isaac_Asimov",
+        "situacao": "ok",
+        "texto": "Isaac Asimov ( AZ-im-ov; c. January 2, 1920 – April 6, 1992) was an American writer and professor of biochemistry at Boston University. During his lifetime, Asimov was considered one of the \"Big Three\" science fiction writers, along with Robert A. Heinlein and Arthur C. Clarke. He wrote or edited more than 500 books and an estimated 90,000 letters and postcards. Best known for his hard science fic\n[…]\n2010 – In the US Congress bill about the designation of the National Robotics Week as an annual event, a tribute to Isaac Asimov is as follows:\n[…]\n\"Whereas the second week in April each year is designated as 'National Robotics Week', recognizing the accomplishments of Isaac Asimov, who immigrated to America, taught science, wrote science books for children and adults, first used the term robotics, developed the Three Laws of Robotics, and died in April 1992: Now, therefore, be it resolved ...\"\n[…]\nIn 1983 Asimov wrote:\n[…]\nThe Best Science Fiction of Isaac Asimov. Doubleday. 1986.\n[…]\nThe Best Mysteries of Isaac Asimov (1986), Doubleday\n[…]\nIsaac Asimov's Guide to Earth and Space (1991), Random House, ISBN 978-0-449-22059-7\n[…]\nIn Memory Yet Green: The Autobiography of Isaac Asimov, 1920–1954 (1979, Doubleday)\n[…]\nIn Joy Still Felt: The Autobiography of Isaac Asimov, 1954–1978 (1980, Doubleday)\n[…]\nIsaac Asimov's Treasury of Humor (1971), Houghton Mifflin, ISBN 0-395-57226-6\n[…]\nAsimov's Galaxy (1989), Doubleday\n[…]\nIsaac Asimov's Book of Facts (1979), Grosset & Dunlap, ISBN 0-517-36111-6\n[…]\nWorks by Isaac Asimov in eBook form at Standard Ebooks\n[…]\nWorks by Isaac Asimov at Project Gutenberg\n[…]\nWorks by Isaac Asimov at Open Library\n[…]\nWorks by or about Isaac Asimov at the Internet Archive\n[…]\nWorks by Isaac Asimov at LibriVox (public domain audiobooks)\n[…]\nIsaac Asimov at the Internet Speculative Fiction Database\n[…]\nIsaac Asimov at the Internet Book List\n[…]\nIsaac Asimov at IMDb\n[…]\nJenkins' Spoiler-Laden Guide to Isaac Asimov, reviews of all of Asimov's books"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Robotics",
+        "situacao": "ok",
+        "texto": "Robotics is the interdisciplinary study and practice of the design, construction, operation, and use of robots. A roboticist is someone who specializes in robotics. Robotics usually combines four aspects of design work: a power source (e.g. a battery), mechanical construction, a control system (electrical circuits), and software (run by remote control or artificial intelligence).\n[…]\nThe spread of robotics presents both opportunities and challenges for occupational safety and health (OSH). Despite lost wages, the substitution of people working in unhealthy or dangerous environments is an OSH benefit.\n[…]\nOpen-source robotics is based upon publicly available datasets or software that can be used in the process of designing and building robots, eliminating the need to independently conduct potentially expensive and redundant research.\n[…]\nEvolutionary robotics is a methodology that uses evolutionary computation to help design robots, especially the body form, or motion and behavior controllers. In a similar way to natural evolution, a large population of robots is allowed to compete in some way, or their ability to perform a task is measured using a fitness function. Those that perform worst are removed from the population and replaced by a new set with behaviors based on those of the winners.\n[…]\nSwarm robotics is an approach to the coordination of multiple robots as a system which consist of large numbers of mostly simple physical robots.\n[…]\nQuantum robotics is the study of running robotic programs on quantum computers, which will likely outperform digital computers.\n[…]\nAdditional general areas of study include cobots, drones, and nanorobots. Two major academic conferences for robotics research are the International Conference on Robotics and Automation and International Conference on Intelligent Robots and Systems.\n[…]\nIEEE Robotics and Automation Society\n[…]\nJournal of Field Robotics"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Isaac_Asimov",
+        "situacao": "ok",
+        "texto": "Isaac Asimov (em russo: Исаак Юдович Озимов; romaniz.: Isaak Yudavich Azimov; Petrovichi, 2 de janeiro de 1920 — Nova Iorque, 6 de abril de 1992) foi um escritor e bioquímico russo-americano, autor de obras de ficção científica e divulgação científica.\n[…]\nAsimov era um participante habitual em convenções de ficção científica, onde ficava amável e disponível para conversa. Ele respondia pacientemente a dezenas de milhares de perguntas e outro tipo de correio com postais, e gostava de dar autógrafos. Embora gostasse de mostrar seu talento, raramente parecia levar-se a si próprio demasiadamente a sério.\n[…]\nEle demonstrou seu amor por conduzir, em seu conto de ficção científica, Sally, sobre carros-robôs. Um leitor atento reparará que ele faz uma descrição detalhada de um dos carros a que chama 'Giuseppe', de Milão - o que significa que Giuseppe era um Alfa Romeo. Asimov não especificou nenhum outro tipo de veículo em nenhuma das suas histórias, o que levou muitos fãs a considerarem que ele foi contratado por aquela marca de automóvel.\n[…]\nThe Positronic Man (1993) (com Robert Silverberg, um romance baseado no antigo conto de Asimov \"The Bicentennial Man\")\n[…]\nLista de contos e noveletas de Isaac Asimov:\n[…]\nThe Best of Isaac Asimov (1973)\n[…]\nThe Best Mysteries of Isaac Asimov (1986)\n[…]\nIsaac Asimov's Guide to Earth and Space (1991)\n[…]\nIsaac Asimov's Book of Facts (1979)\n[…]\nASIMOV, Isaac (1979). In Memory Yet Green. Nova Iorque: Doubleday. ISBN 038513679X\n[…]\nASIMOV, Isaac (1978). O Futuro Começou. São Paulo: Hemus\n[…]\nKathia Natalie Gomes (2005). Editora DuettoScientific American Brasil Exploradores do Futuro - Isaac Asimov (3). ISSN 1808-6543\n[…]\n«Isaac Asimov Home Page» (em inglês). www.asimovonline.com\n[…]\nIsaac Asimov na Internet Speculative Fiction Database (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "World Wide Web",
+      "descricao": "Sistema de páginas de hipertexto interligadas e acessadas pela internet, proposto por Tim Berners-Lee em 1989."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1989, em qual centro de pesquisa europeu o britânico Tim Berners-Lee propôs a World Wide Web?",
+    "resposta": "CERN",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/World_Wide_Web"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+        "situacao": "ok",
+        "texto": "The World Wide Web (also known as WWW, W3, or simply the Web) is a global interconnected information system that enables content sharing over the Internet. It facilitates access to documents and other web resources according to specific rules of the Hypertext Transfer Protocol (HTTP).\n[…]\nThe Web was invented by English computer scientist Tim Berners-Lee while at CERN in 1989 and opened to the public in 1993. It was conceived as a \"universal linked information system\". Documents and other media content are made available to the network through web servers and can be accessed by programs such as web browsers. Servers and resources on the World Wide Web are identified and located through a character string called a uniform resource locator (URL).\n[…]\nBerners-Lee submitted a proposal to CERN in March 1989, without giving the system a name. He got a working system implemented by the end of 1990, including a browser called  WorldWideWeb (which became the name of the project and of the network) and an HTTP server running at CERN. As part of that development, he defined the first version of the HTTP protocol, the basic URL syntax, and implicitly made HTML the primary document format.\n[…]\nAccording to Paolo Palazzi, who worked at CERN along with Tim Berners-Lee, the popular use of www as subdomain was accidental; the World Wide Web project page was intended to be published at www.cern.ch while info.cern.ch was intended to be the CERN home page; however the DNS records were never switched, and the practice of prepending www to an institution's website domain name was subsequently copied.\n[…]\nBerners-Lee, Tim (August 1996). \"The World Wide Web: Past, Present and Future\". W3C.\n[…]\nW3C Recommendations Reduce \"World Wide Wait\"\n[…]\nWorld Wide Web Size Daily estimated size of the World Wide Web"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/World_Wide_Web",
+        "situacao": "ok",
+        "texto": "A World Wide Web (tradução em português: Rede Mundial de Computadores; em inglês: WWW, A Web) designa um sistema de documentos em hipermídia (ou hipermédia) que são interligados e executados na Internet.\n[…]\nAs ideias por trás da Web podem ser identificadas ainda em 1980, no CERN (Organização Europeia para a Investigação Nuclear), na Suíça, quando Tim Berners-Lee construiu o ENQUIRE. Ainda que diferente da Web atual (2007), o projeto continha algumas das mesmas ideias primordiais, e também algumas ideias da Web semântica. Seu intento original do sistema foi tornar mais fácil o compartilhamento de documentos de pesquisas entre os colegas.\n[…]\nDiferente de sistemas anteriores como o HyperCard, a World Wide Web não era software proprietário, tornando possível a criação de outros sistemas e extensões sem a preocupação de licenciamento. Em 30 de abril de 1993, a CERN anunciou que a World Wide Web seria livre para todos, sem custo. Nos dois meses após o anúncio de que o Gopher já não era mais livre, produziu-se uma mudança para a web. Um antigo navegador popular era o ViolaWWW, que era baseado no HyperCard.\n[…]\nConsidera-se que a grande virada da WWW começou com a introdução do navegador Mosaic em 1993, um navegador gráfico desenvolvido por uma equipe de desenvolvedores universitários da Universidade de Illinois em Urbana-Champaign. Antes de seu lançamento, os gráficos não eram frequentemente misturados com texto em páginas web. A World Wide Web Consortium (W3C) foi fundada em outubro de 1994, após Tim Berners-Lee sair do instituto CERN.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Linux",
+      "descricao": "Núcleo de sistema operacional livre criado por Linus Torvalds em 1991."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Linus Torvalds começou a criar o Linux em 1991, quando era estudante universitário em qual país?",
+    "resposta": "Finlândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Linus_Torvalds",
+      "https://en.wikipedia.org/wiki/Linux"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Linus_Torvalds",
+        "situacao": "ok",
+        "texto": "Linus Benedict Torvalds (born 28 December 1969) is a Finnish and American software engineer who is the creator and lead developer of the Linux kernel since 1991. He also created the distributed version control system Git.\n[…]\nTorvalds was born in Helsinki, Finland, on 28 December 1969, the son of journalists Anna and Nils Torvalds, the grandson of statistician Leo Törnqvist and of poet Ole Torvalds, and the great-grandson of journalist and soldier Toivo Karanko. His parents were campus radicals at the University of Helsinki in the 1960s. His family belongs to the Swedish-speaking minority in Finland.\n[…]\nTorvalds attended the University of Helsinki from 1988 to 1996, graduating with a master's degree in computer science from the NODES research group. His academic career was interrupted after his first year of study when he joined the Finnish Navy Nyland Brigade in the summer of 1989, selecting the 11-month officer training program to fulfill the mandatory military service of Finland. He gained the rank of second lieutenant, with the role of an artillery observer.\n[…]\nTorvalds first encountered the GNU Project in the autumn of 1991 when another Swedish-speaking computer science student, Lars Wirzenius, took him to the Helsinki University of Technology to listen to free-software guru Richard Stallman's speech. Because of the talk and pressure from other contributors, Torvalds would ultimately switch his original license (which forbade commercial use) to Stallman's GNU General Public License version 2 (GPLv2) for his Linux kernel.\n[…]\nLinus's law\n[…]\nJukka Paakki (2011). \"Linus Torvalds\". Biografiskt lexikon för Finland (in Swedish). Helsingfors: Svenska litteratursällskapet i Finland. urn:NBN:fi:sls-5464-1416928958070."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Linux",
+        "situacao": "ok",
+        "texto": "Linux ( LIN-uuks) is a family of free and open-source software Unix-like operating systems based on the Linux kernel, which was first released on 17 September 1991 by Linus Torvalds. Some members of the family are typically packaged as a distribution (a.k.a.\n[…]\nTorvalds began the development of the Linux kernel on Minix and applications written for Minix were also used on Linux. Later, Linux matured and further Linux kernel development took place on Linux systems.\n[…]\nAlthough not released until 1992, due to legal complications, the development of 386BSD, from which NetBSD, OpenBSD and FreeBSD descended, predated that of Linux. Linus Torvalds has stated that if the GNU kernel or 386BSD had been available in 1991, he probably would not have created Linux.\n[…]\nTo facilitate development, the files were uploaded to the FTP server of FUNET in September 1991. Ari Lemmke, Torvalds' coworker at the Helsinki University of Technology (HUT) who was one of the volunteer administrators for the FTP server at the time, did not think that \"Freax\" was a good name, so he named the project \"Linux\" on the server without consulting Torvalds. Later, however, Torvalds consented to \"Linux\".\n[…]\nLinus Torvalds is the lead maintainer for the Linux kernel and guides its development, while Greg Kroah-Hartman is the lead maintainer for the stable branch. Zoë Kooyman is the executive director of the Free Software Foundation, which in turn supports the GNU components. Finally, individuals and corporations develop third-party non-GNU components. These third-party components comprise a vast body of work and may include both kernel modules and user applications and libraries.\n[…]\nLinux kernel website and archives\n[…]\nThe History of Linux in GIT Repository Format 1992–2010 (archived)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Linus_Torvalds",
+        "situacao": "ok",
+        "texto": "Linus Benedict Torvalds (Helsínquia, 28 de dezembro de 1969) é um engenheiro de software, nascido na Finlândia e naturalizado estado-unidense em 2010, criador, e por muito tempo o desenvolvedor mais importante do núcleo Linux, sendo utilizado em importantes sistemas Linux, Android e Chrome OS. É também o criador do Git, sistema de controle de versão amplamente utilizado, e o aplicativo para planej\n[…]\nTorvalds nasceu em Helsínquia, na Finlândia. É filho dos jornalistas Anna e Nils Torvalds, e neto do estatístico Leo Törnqvist e do poeta Ole Torvalds. Seus pais eram radicais do campus da Universidade de Helsínquia, na década de 1960. Sua família pertence à minoria de língua sueca (5,5 % da população da Finlândia). Seu interesse por computadores começou com um Commodore VIC-20. Nessa época, ele fica conhecido por ter escrito um clone do Pac-Man chamado Cool Man.[carece de fontes]?\n[…]\nLinus Torvalds é casado com Tove Torvalds (Monni, de nascimento) — hexacampeã nacional de karatê na Finlândia — a qual ele conheceu no outono de 1993. Linus passava exercícios introdutórios no laboratório de informática para os alunos, e solicitou aos participantes do curso que lhe enviassem um e-mail como teste, no qual ela o convidou para saírem em um primeiro encontro.\n[…]\nTorvalds frequentou a Universidade de Helsínquia, entre 1988 e 1996, obtendo um Mestrado em Ciência da Computação a partir do grupo de pesquisa NODES. Sua carreira acadêmica foi interrompida após seu primeiro ano de estudo universitário, quando ele se juntou ao Exército da Finlândia. Lá, ocupa o posto de Segundo Tenente, com o papel de um oficial de cálculo balístico.\n[…]\nNo verão de 2004, os telespectadores da YLE (a companhia de transmissão pública da Finlândia), colocaram Torvalds em 16º, entre os 100 maiores finlandeses.\n[…]\nLinux\n[…]\nLei de Linus\n[…]\nObras de Linus Torvalds na Open Library",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Brain (vírus de computador)",
+      "descricao": "Vírus de computador de 1986 que infectava disquetes de computadores pessoais compatíveis com o IBM PC."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Brain, um dos primeiros vírus de computadores pessoais, foi criado em 1986 por dois irmãos de qual país?",
+    "resposta": "Paquistão",
+    "distratores": [
+      "Índia",
+      "Irã",
+      "Turquia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brain_(computer_virus)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brain_(computer_virus)",
+        "situacao": "ok",
+        "texto": "Brain is the industry standard name for a computer virus that was released in its first form on 19 January 1986, and is considered to be the first computer virus for the IBM Personal Computer (IBM PC) and compatibles.\n[…]\nThere are many minor and major variations to that version of the text. The virus slows down the floppy disk drive and makes seven kilobytes of memory unavailable to DOS. Brain was written by Basit Farooq Alvi and Amjad Farooq Alvi, who at the time lived in Chah Miran, near Lahore Railway Station, in Lahore, Pakistan. The Alvi brothers told Time magazine they had written it to protect their medical software from illegal copying, and it was supposed to target copyright infringement only.\n[…]\nWelcome to the Dungeon © 1986 Amjads (pvt). BRAIN COMPUTER SERVICES 730 NIZAM\n[…]\nBLOCK ALLAMA IQBAL TOWN LAHORE-PAKISTAN PHONE: 430791,443248,280530. Beware of this VIRUS.... Contact us for vaccination...\n[…]\nThe brothers, with another brother, Shahid Farooq Alvi, continued business in Pakistan, as Brain NET Internet service providers with a company called Brain Telecommunication Limited.\n[…]\nIn 2011, 25 years after Brain was released, Mikko Hyppönen of F-Secure went to Pakistan to interview Amjad and Basit for a documentary. Being inspired by this documentary and its widespread popularity, a group of Pakistani bloggers interviewed Amjad and Basit, under the banner of Bloggerine.\n[…]\nTimeline of computer viruses and worms\n[…]\nDescription of (c)Brain at F-Secure site\n[…]\nBrain: Searching for the first PC virus in Pakistan on YouTube, via YouTube\n[…]\nInformation on the Brain Virus And Variants at textfiles.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brain_%28v%C3%ADrus_de_computador%29",
+        "situacao": "ok",
+        "texto": "©Brain ou simplesmente Brain é um vírus de computador detectado pela primeira vez em janeiro de 1986, sendo considerado por muitos o primeiro vírus conhecido direcionado para o sistema operacional MS-DOS. Apesar disso muitos alegam que este título na verdade pertence ao vírus Elk Cloner por este ser o primeiro vírus a carregar código malicioso. Ele se aloja no setor de boot do disco rígido.\n[…]\nEste vírus é notável por possuir em seu código o endereço e o telefone de contato dos seus desenvolvedores, reproduzido a seguir:\n[…]\nWelcome to the Dungeon © 1986 Basit * Amjad (pvt) Ltd. BRAIN COMPUTER SERVICES 730 NIZAM BLOCK ALLAMA IQBAL TOWN LAHORE-PAKISTAN PHONE: 430791,443248,280530. Beware of this VIRUS.... Contact us for vaccination...\n[…]\nO motivo alegado pelos seus desenvolvedores foi de que eles haviam criado o programa para monitorar a distribuição de cópias piratas de um software médico de monitoramento cardíaco que haviam desenvolvido para o computador da Apple Inc.. Porém o código foi portado por um programador para o sistema operacional DOS, tornando-se um vírus.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Urna eletrônica brasileira",
+      "descricao": "Equipamento eletrônico de votação usado nas eleições do Brasil."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano a urna eletrônica foi usada pela primeira vez em eleições no Brasil?",
+    "resposta": "1996",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Urna_eletr%C3%B4nica"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Urna_eletr%C3%B4nica",
+        "situacao": "ok",
+        "texto": "Urna eletrônica (português brasileiro) ou eletrónica (português europeu) ou máquina de votação é a combinação de equipamentos mecânicos, eletromecânicos ou eletrônico (incluindo software, firmware e documentação necessária para controle do programa e apoiar equipamento), que é usado para definir escrutínios; expressos e contagem de votos; para relatar ou exibir resultados eleitorais; e para manter\n[…]\nEm 2006, a invenção da urna eletrônica foi escolhida como um dos 40 fatos ligados à software e hardware que mudaram rumos nos últimos 40 anos pela \"SUCESU 40 ANOS\", promovido pela SUCESU — Associação de Usuários de Informática e Telecomunicações — por ter tornado as eleições \"mais ágeis, rápidas\" e a apuração \"transparente e segura\".\n[…]\nMáquinas DRE de 1.ª geração começaram a ser usadas em experiências na Índia em 1990, nos Países Baixos em 1991 e no Brasil em 1996, onde passaram a receber a denominação de \"urnas eletrônicas\". E foi no Brasil que pela primeira vez, em 2000, todos os eleitores votaram em urnas eletrônicas. Ainda existe uma controvérsia sobre o voto pelo celular no Brasil por não ter garantia de segurança, sigilo do voto e eficiência.\n[…]\nNa Venezuela, em 2004, foi adotado o \"modelo DRE com voto impresso\", de 2.ª geração. No Paraguai foram feitas experiências com as urnas eletrônicas brasileiras entre 2003 a 2006, mas em 2008 o seu uso foi proibido por falta de confiança no equipamento pelos partidos de oposição.\n[…]\nEm 2014, a Índia passou a usar urnas com voto impresso que atendem ao princípio da independência do software em sistemas eleitorais. O Equador implementará o voto eletrônico em suas eleições em 2017, fazendo um teste em 2014 em algumas províncias, usando as tecnologias desenvolvidas na Argentina, Venezuela e Rússia.\n[…]\nMedia relacionados com Urna eletrônica no Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Fax",
+      "descricao": "Sistema de transmissão de documentos e imagens por linha telefônica ou fio, também chamado fac-símile."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O escocês Alexander Bain patenteou um precursor do fax, capaz de transmitir imagens por fio, em que século?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fax",
+      "https://en.wikipedia.org/wiki/Alexander_Bain_(inventor)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fax",
+        "situacao": "ok",
+        "texto": "Fax (short for facsimile), sometimes called telecopying or telefax (short for telefacsimile), is the telephonic transmission of scanned printed material (both text and images), normally to a telephone number connected to a printer or other output device.\n[…]\nScottish inventor Alexander Bain worked on chemical-mechanical fax-type devices and in 1846 Bain was able to reproduce graphic signs in laboratory experiments. He received British patent 9745 on May 27, 1843, for his \"Electric Printing Telegraph\". Frederick Bakewell made several improvements on Bain's design and demonstrated a telefax machine. The Pantelegraph was invented by the Italian physicist Giovanni Caselli.\n[…]\nThe ITU-T T.85 \"fax profile\" constrains some optional features of the full JBIG standard, such that codecs do not have to keep data about more than the last three pixel rows of an image in memory at any time. This allows the streaming of \"endless\" images, where the height of the image may not be known until the last row is transmitted.\n[…]\nThis negotiation, which includes sending Digital Identification Signals (DIS) and Digital Command Signals (DCS), establishes crucial parameters for the session, such as the highest mutually acceptable transmission speed, resolution, error correction mode (ECM), and compression method. The resulting tone is the audible manifestation of these modems synchronizing and agreeing on the communication rules before the image data transfer (phasing out the tone) begins.\n[…]\nT.6 specifies a compression scheme that reduces the time required to transmit an image by roughly 50-percent.\n[…]\n\"Transmitting Photographs by Telegraph\", Scientific American article, 12 May 1877, p. 297"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Alexander_Bain_(inventor)",
+        "situacao": "ok",
+        "texto": "Alexander Bain (12 October 1810 – 2 January 1877) was a Scottish inventor and engineer who was first to invent and patent the electric clock. He created the first fax machine, known as Bain's facsimile. Bain also installed the railway telegraph lines between Edinburgh and Glasgow.\n[…]\nBain's first patent was dated 11 January 1841, and was in the names of John Barwise, chronometer maker, and Alexander Bain, mechanist. It describes his electric clock which uses a pendulum kept moving by electromagnetic impulses. He improved on this in later patents, including a proposal to derive the required electricity from an \"earth battery\", which consisted of plates of zinc and copper buried in the ground.\n[…]\nAlexander Bain, A Short History of the Electric Clocks\n[…]\nBain's and Bakewell's laboratory mechanisms reproduced poor quality images and were not viable systems because the transmitter and receiver were never truly synchronized. In 1861, the first practical operating electro-mechanical commercially exploited telefax machine, the Pantelegraph, was invented by the Italian physicist Giovanni Caselli. He introduced the first commercial telefax service between Paris and Lyon at least 11 years before the invention of workable telephones.\n[…]\nGunn, Robert P., Alexander Bain of Watten. Genius of the North, Wick 1976\n[…]\nHackmann, W. D., Alexander Bain's Short History of the Electric Clock (1852), London: Turner & Devereux 1973.\n[…]\nAked, C. K., Alexander Bain. The father of electric horology, Antiquarian Horology December, 1974.\n[…]\nU.S. patent 006,837\n[…]\nSignificant Scots: Alexander Bain, electricscotland.com.\n[…]\nAlexander Bain 1811-1877, visitdunkeld.com.\n[…]\nHistory of the Fax Machine: Alexander Bain received the first patent for a fax machine in 1843 Archived 15 March 2009 at Archive-It, inventors.about.com."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fax",
+        "situacao": "ok",
+        "texto": "Fax, faxe, telefax (abreviaturas do termo latino facsimile e telefacsimile) ou telecópia é uma tecnologia das telecomunicações usada para a transferência remota de documentos através da rede telefônica.\n[…]\nA ideia de transmitir e reproduzir documentos à longa distância foi patenteada por Alexander Bain, em 1843. Da união da ideia de Bain com aparelho telefônico criado por Alexander Graham Bell, o primeiro protótipo do fac-símile, mais conhecido como fax, foi criado nos Laboratórios Bell, em 1926.\n[…]\nO serviço funcionava através de um servidor de fax, um software que permite o envio de fax a partir do computador via conexão na Internet. Com a popularização dos scanners, no entanto, o Internet Fax foi perdendo sua utilidade, já que aqueles permitem a digitalização das imagens e o envio por e-mail em conexões banda larga, muito mais rápidas e confiáveis que a conexão discada dos faxes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Mecanismo de Anticítera",
+      "descricao": "Antigo aparelho grego de engrenagens de bronze, achado num naufrágio, usado para calcular posições astronômicas."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O mecanismo de Anticítera, um calculador astronômico de engrenagens achado num naufrágio, foi construído em que época?",
+    "resposta": "Grécia Antiga",
+    "distratores": [
+      "Renascimento italiano",
+      "Império Bizantino",
+      "Revolução Industrial"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Antikythera_mechanism"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Antikythera_mechanism",
+        "situacao": "ok",
+        "texto": "The Antikythera mechanism ( AN-tik-ih-THEER-ə, US also  AN-ty-kih-) is an ancient Greek hand-powered orrery (model of the Solar System) built in the 2nd century BC and discovered in 1901. It is the oldest known example of an analogue computer. It could be used to predict astronomical positions and eclipses decades in advance. It could also be used to track the four-year cycle of athletic games sim\n[…]\nThe Antikythera mechanism is generally referred to as the first known analogue computer. The quality and complexity of the mechanism's manufacture suggests it must have had undiscovered predecessors during the Hellenistic period. Its construction relied on theories of astronomy and mathematics developed by Greek astronomers during the second century BC, and it is estimated to have been built in the late second century BC or the early first century BC.\n[…]\nIn 2022, researchers proposed the mechanism's initial calibration date, not construction date, could have been 23 December 178 BC. Other experts propose 204 BC as a more likely calibration date. Machines with similar complexity did not appear again for around 1,500 years, with early examples being the fourteenth century astronomical clocks of Richard of Wallingford and Giovanni de' Dondi.\n[…]\nIn short, the Antikythera Mechanism was a machine designed to predict celestial phenomena according to the sophisticated astronomical theories current in its day, the sole witness to a lost history of brilliant engineering, a conception of pure genius, one of the great wonders of the ancient world—but it didn't really work very well!\n[…]\n\"The Antikythera Mechanism Exhibitions\". National Hellenic Research Foundation. Archived from the original on 23 April 2012.\n[…]\nWright, M.; Vicentini, M. (25 August 2009). \"Virtual Reconstruction of the Antikythera Mechanism\". Heritage Key. Archived from the original on 7 November 2021 – via YouTube."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/M%C3%A1quina_de_Antic%C3%ADtera",
+        "situacao": "ok",
+        "texto": "A máquina de Anticítera ou mecanismo de Anticítera é o computador analógico e planetário mais antigo que se conhece, criado no século I a.C. na Grécia romana. Era usado para prever posições astronômicas e eclipses, como função de calendário e astrologia. Ela também podia rastrear o ciclo de quatro anos dos jogos atléticos que eram parecidos, mas não idênticos, a uma Olimpíada, o ciclo dos Jogos Ol\n[…]\nO artefato prova que a antiga astronomia e matemática gregas, originadas em grande parte na longa tradição babilônica, eram bem mais avançadas do que até então se imaginava. A revista Nature referiu-o assim: \"O antigo mecanismo de Anticítera não apenas desafia nossas suposições sobre o progresso da tecnologia ao longo das eras - ele nos dá novos esclarecimentos sobre a própria História.\".\n[…]\nIsso sugere que ele tinha 37 engrenagens de bronze que o permitiam seguir os movimentos da Lua e do Sol através do zodíaco, prever eclipses e modelar a órbita irregular da Lua, onde a velocidade da Lua é maior em seu perigeu do que em seu apogeu. Este movimento foi estudado no século II a.C. pelo astrônomo Hiparco de Rodes, e especula-se que ele pode ter sido consultado na construção da máquina.\n[…]\nEssa nova reconstrução deu crédito a antigas menções de tais aparelhos. Cícero, no século I a.C., menciona um instrumento \"recém-construído por Posidónio, que, a cada revolução reproduz os mesmos movimentos do Sol, da Lua e dos cinco planetas\". Tais aparelhos são mencionados em outros lugares também.\n[…]\nTambém dá crédito à ideia de que havia uma antiga tradição grega na tecnologia de mecânica complexa que foi transmitida pelo mundo árabe, onde aparelhos similares, porém mais simples, foram encontrados posteriormente, e poderiam ter sido entregues ou incorporados aos fabricantes de relógio e guindastes europeus.\n[…]\nThe Antikythera Calculator (Italian and English versions)- (Versão Português - Brasil)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Deep Blue",
+      "descricao": "Supercomputador de xadrez desenvolvido pela IBM, que enfrentou Garry Kasparov em 1996 e 1997."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano o computador Deep Blue, da IBM, derrotou o campeão mundial Garry Kasparov num confronto completo de xadrez?",
+    "resposta": "1997",
+    "distratores": [
+      "1989",
+      "1993",
+      "2001"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)",
+        "situacao": "ok",
+        "texto": "Deep Blue was a customized IBM RS/6000 SP supercomputer for chess-playing designed by computer scientist Feng-hsiung Hsu. It was the first computer to win a game, and the first to win a match, against a reigning world champion under regular time controls. Development began in 1985 at Carnegie Mellon University under the name ChipTest. It then moved to IBM, where it was first renamed Deep Thought, \n[…]\nIn 1996, it was used to compete against world champion Garry Kasparov in a six-game match, where it won one, drew two, and lost three games. In 1997, it underwent an upgrade, and in a six-game rematch it defeated Kasparov by winning two games and drawing three. Deep Blue's victory is considered a milestone in the history of artificial intelligence and has been the subject of several books and films.\n[…]\nDeep Blue's hardware was subsequently upgraded, doubling its speed before it faced Kasparov again in May 1997, when it won the six-game rematch 3½–2½. Deep Blue won the deciding game after Kasparov failed to secure his position in the opening, thereby becoming the first computer system to defeat a reigning world champion in a match under standard chess tournament time controls.\n[…]\nThe version of Deep Blue that defeated Kasparov in 1997 typically searched to a depth of six to eight moves, and twenty or more moves in some situations. David Levy and Monty Newborn estimate that each additional ply (half-move) of forward insight increases the playing strength between 50 and 70 Elo points.\n[…]\nThe 1997 tournament awarded a $700,000 first prize to the Deep Blue team and a $400,000 second prize to Kasparov. Carnegie Mellon University awarded an additional $100,000 to the Deep Blue team, a prize created by computer science professor Edward Fredkin in 1980 for the first computer program to beat a reigning world chess champion.\n[…]\nRematch, a 2024 TV miniseries about the 1997 match\n[…]\nDeep Blue IBM at ibm.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Deep_Blue",
+        "situacao": "ok",
+        "texto": "Deep Blue (em português, azul profundo ou azul marinho) foi um supercomputador e um software criados pela IBM especialmente para jogar xadrez; com 256 co-processadores capazes de analisar aproximadamente 200 milhões de posições por segundo.\n[…]\nEm fevereiro de 1996, o campeão do mundo de xadrez, Garry Kasparov, natural do Azerbaijão, atualmente radicado na Rússia, considerado o melhor jogador de todos os tempos, ganhou três partidas, empatou duas e perdeu uma contra Deep Blue, obtendo a pontuação final de 4 a 2 (o empate dá 0,5 ponto para cada um dos lados).\n[…]\nA única derrota de Kasparov nesse torneio foi justamente na primeira partida, a qual passou a ser o primeiro jogo de xadrez em que um computador venceu um campeão do mundo sob regras normais de tempo. Mesmo recuperando-se nos jogos seguintes, ao final do torneio Kasparov declarou que era o último humano campeão de xadrez, talvez prevendo o que aconteceria no ano seguinte.\n[…]\nEm maio de 1997, após uma severa atualização, Deep Blue venceu Kasparov em um novo confronto de 6 partidas, com 2 vitórias, 3 empates e 1 derrota (pontuação final: 3,5 a 2,5), tornando-se o primeiro computador a vencer um campeão mundial de xadrez num torneio com regras de tempo oficiais.\n[…]\nEm 1995, o \"protótipo Deep Blue\" disputou o 8º Campeonato Mundial de Xadrez por Computador. O protótipo Deep Blue empatou com Wchess. Na quinta rodada, o protótipo do Deep Blue jogou como White e perdeu para Fritz.\n[…]\nEm 1997, o Deep Blue foi atualizado novamente. Em junho de 1997, Deep Blue era o 259º supercomputador mais poderoso de acordo com a lista TOP500, atingindo 11,38 GFLOPS no benchmark LINPACK de alto desempenho.\n[…]\nIBM.com, páginas de pesquisa da IBM sobre Deep Blue",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "ENIAC",
+      "descricao": "Computador eletrônico digital de uso geral construído nos Estados Unidos e concluído em 1945."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O ENIAC, um dos primeiros computadores eletrônicos, concluído nos Estados Unidos em 1945, pesava aproximadamente quanto?",
+    "resposta": "Cerca de 27 toneladas",
+    "distratores": [
+      "Cerca de 300 quilos",
+      "Cerca de 3 toneladas",
+      "Cerca de 270 toneladas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/ENIAC"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/ENIAC",
+        "situacao": "ok",
+        "texto": "ENIAC (; Electronic Numerical  Integrator and Computer) was the first programmable, electronic, general-purpose digital computer, completed in 1945. Other computers had some of these features, but ENIAC was the first to have them all. ENIAC was Turing-complete and able to solve \"a large class of numerical problems\" through reprogramming.\n[…]\nBy the end of its operation in 1955, ENIAC contained 18,000 vacuum tubes, 7,200 crystal diodes, 6,000 relays, 70,000 resistors, 10,000 capacitors, and approximately 5,000,000 hand-soldered joints. It weighed more than 30 short tons (27 t), was roughly 10 ft (3 m) tall, 3 ft (1 m) deep, and 100 ft (30 m) long, occupied 300 sq ft (28 m2) and consumed 150 kW of electricity. Input was possible from an IBM card reader and an IBM card punch was used for output.\n[…]\nThe decision included: that the ENIAC inventors had derived the subject matter of the electronic digital computer from Atanasoff;  gave legal recognition to Atanasoff as the inventor of the first electronic digital computer; and put the invention of the electronic digital computer in the public domain.\n[…]\nOral history interview with J. Presper Eckert, Charles Babbage Institute, University of Minnesota. Eckert, a co-inventor of ENIAC, discusses its development at the University of Pennsylvania's Moore School of Electrical Engineering; describes difficulties in securing patent rights for ENIAC and the problems posed by the circulation of John von Neumann's 1945 First Draft of the Report on EDVAC, which placed the ENIAC inventions in the public domain. Interview by Nancy Stern, 28 October 1977.\n[…]\nENIAC chapter in Karl Kempf, Electronic Computers Within The Ordnance Corps, November 1961\n[…]\nENIAC specifications from Ballistic Research Laboratories Report No. 971 December 1955, (A Survey of Domestic Electronic Digital Computing Systems)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/ENIAC",
+        "situacao": "ok",
+        "texto": "Electronic Numerical Integrator and Computer (abreviado ENIAC; em português: computador integrador numérico eletrônico) foi o primeiro dispositivo computacional eletroeletrônico e digital de grande escala, que entrou em funcionamento em fevereiro de 1946 pelos cientistas norte-americanos John Eckert e John Mauchly (da Electronic Control Company). Comenta-se que o primeiro eletroeletrônico foi o Ma\n[…]\nCriado pelos engenheiros John Eckert e John Mauchly na Universidade da Pensilvânia durante os anos de 1937-1943, o ENIAC tinha como objetivo principal computar dados balísticos de artilharia em altas velocidades para ajudar as tropas aliadas na Segunda Guerra Mundial. No entanto, o ENIAC só foi concluído após o fim da guerra, sendo então utilizado nos primeiros anos da Guerra Fria, tendo contribuído para o projeto da bomba de hidrogênio.\n[…]\nO ENIAC pesava cerca de 30 toneladas e ocupava cerca de 180m², ele era tão grande que tinha de ser disposto em U com três painéis sobre rodas, para que os operadores pudessem se mover em torno dele. Foram gastos cerca de US$ 500 000,00 (quinhentos mil) em sua construção.\n[…]\nO ENIAC serviu de inspiração para muitos outros computadores que se seguiram, como o EDVAC (Electronic Discrete Variable Computer); o ORDVAC (Ordnance Variable Automatic Computer); SEAC (Standards Automatic Computer) e o UNIVAC, este último também construído por Eckert e Mauchly para o processamento dos dados dos censos da população americana.\n[…]\nEm 1955, um computador pesava 3 toneladas e consumia 50 kW de potência, tendo um custo de US$ 200 000,00. Uma máquina destas podia realizar 50 multiplicações por segundo. Assim, os primeiros computadores eram também eles máquinas que só estavam ao alcance de grandes empresas ou instituições que tinham necessidades de cálculo muito exigentes e que possuíam as condições económicas para tão grande investimento.\n[…]\nENIAC PROGRAMMERS PROJECT",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "SMS",
+      "descricao": "Serviço de mensagens curtas de texto entre celulares."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Uma mensagem SMS tradicional, de texto no celular, tem limite de quantos caracteres?",
+    "resposta": "160",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/SMS"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/SMS",
+        "situacao": "ok",
+        "texto": "Short Message Service (SMS) is a text messaging service component of most telephone, Internet and mobile device systems. It uses standardized communication protocols that let mobile phones exchange short text messages, typically transmitted over cellular networks.\n[…]\nDeveloped as part of the GSM standards, and based on the SS7 signalling protocol, SMS rolled out on digital cellular networks starting in 1993 and was originally intended for customers to receive alerts from their carrier/operator. The service allows users to send and receive text messages of up to 160 characters, originally to and from GSM phones and later also CDMA and Digital AMPS; it has since been defined and supported on newer networks, including present-day 5G ones.\n[…]\nShort message cell broadcast.\n[…]\nThe popularity of SMS also led to the spontaneous creation of the so-called 'SMS language' phenomenon, where words are shortened in order to deal with the 160 character limit of SMS messages. Usage of SMS for mobile data services became increasingly prominent in the early 2000s due to its ubiquity, reliability, and cold reception of the newer WAP standard. (see Premium-rated services below).\n[…]\nShort messages can be encoded using a variety of alphabets: the default GSM 7-bit alphabet, the 8-bit data alphabet, and the 16-bit UCS-2 or UTF-16 alphabets. Depending on which alphabet the subscriber has configured in the handset, this leads to the maximum individual short message sizes of 160 7-bit characters, 140 8-bit characters, or 70 16-bit characters. GSM 7-bit alphabet support is mandatory for GSM handsets and network elements.\n[…]\nHowever, longer messages may be broken up into multiple texts, depending upon the telephone service provider."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Servi%C3%A7o_de_mensagens_curtas",
+        "situacao": "ok",
+        "texto": "Serviço de mensagens curtas (em inglês: Short Message Service, SMS) é um serviço disponível em celulares (telemóveis) digitais que permite o envio de mensagens curtas (até 160 caracteres) entre estes equipamentos e entre outros dispositivos de mão (handhelds), e até entre telefones fixos (linha-fixa), conhecidas popularmente como mensagens de texto. Este serviço pode ser tarifado ou não, dependend\n[…]\nJá se discute e planeja-se sua evolução através do serviço de mensagens multimídia (em inglês: Multimedia Messaging Service, MMS). Com o MMS, os usuários podem enviar e receber mensagens não mais limitados aos 160 caracteres do SMS, bem como podem enriquecê-las com recursos audiovisuais, como imagens, sons e gráficos.\n[…]\nO GSM 03.38 ou 3GPP TS 23.038 é a norma que define o padrão de codificação de caracteres para elementos da rede GSM; é o alfabeto GSM de 7 bits padronizado pela organização 3GPP que define o: SMS (Short Message Service), USSD (Unstructured Supplementary Service Data) e, CB (Cell Broadcast).\n[…]\nA primeira mensagem de texto (SMS) foi enviada em 3 de dezembro de 1992, quando Neil Papworth, um engenheiro de testes da Sema Group, enviou \"Merry Christmas\" (Feliz Natal) para o telefone Orbitel 901 de seu colega Richard Jarvis.\n[…]\nTais vulnerabilidades são inerentes ao SMS, como um dos serviços mais superiores e bem usados, com uma vulnerabilidade global nas redes GSM. A troca de mensagens por SMS tem algumas vulnerabilidades de segurança extras devido a sua funcionalidade de armazenar e encaminhar, e o problema de SMS falso que pode ser enviados através da Internet.\n[…]\nRede de Telefonia Fixa e Rede de Telefonia Celular\n[…]\nGSM 03.38 to Unicode – como os caracteres do alfabeto padrão GSM de 7 bits são mapeados para Unicode",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "SMS",
+      "descricao": "Serviço de mensagens curtas de texto entre celulares."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 1992, no Reino Unido, o primeiro SMS da história foi enviado de um computador para um celular. Qual era a mensagem?",
+    "resposta": "Feliz Natal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/SMS"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/SMS",
+        "situacao": "ok",
+        "texto": "Short Message Service (SMS) is a text messaging service component of most telephone, Internet and mobile device systems. It uses standardized communication protocols that let mobile phones exchange short text messages, typically transmitted over cellular networks.\n[…]\nShort message cell broadcast.\n[…]\nThe first commercial deployment of a short message service center (SMSC) was by Aldiscon part of Logica (now part of CGI) with Telia (now TeliaSonera) in Sweden in 1993, followed by Fleet Call (now Nextel) in the US, Telenor in Norway and BT Cellnet (now O2 UK).\n[…]\nMessages are sent to a short message service center (SMSC), which provides a \"store and forward\" mechanism. It attempts to send messages to the SMSC's recipients. If a recipient is not reachable, the SMSC queues the message for later retry. Some SMSCs also provide a \"forward and forget\" option where transmission is tried only once. Both mobile terminated (MT, for messages sent to a mobile handset) and mobile originating (MO, for those sent from the mobile handset) operations are supported.\n[…]\nFrom 3GPP Releases 99 and 4 onwards, CAMEL Phase 3 introduced the ability for the Intelligent Network (IN) to control aspects of the Mobile Originated Short Message Service, while CAMEL Phase 4, as part of 3GPP Release 5 and onwards, provides the IN with the ability to control the Mobile Terminated service.\n[…]\nIn the US, carriers have traditionally preferred that A2P messages be sent using a short code rather than a standard long code. In 2021, US carriers introduced a new service called A2P 10DLC, supporting the used of 10-digit long codes for A2P messages. In the United Kingdom A2P messages can be sent with a dynamic 11 character sender ID; however, short codes are used for OPTOUT commands."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Servi%C3%A7o_de_mensagens_curtas",
+        "situacao": "ok",
+        "texto": "Serviço de mensagens curtas (em inglês: Short Message Service, SMS) é um serviço disponível em celulares (telemóveis) digitais que permite o envio de mensagens curtas (até 160 caracteres) entre estes equipamentos e entre outros dispositivos de mão (handhelds), e até entre telefones fixos (linha-fixa), conhecidas popularmente como mensagens de texto. Este serviço pode ser tarifado ou não, dependend\n[…]\nSMS originalmente foi projetado como parte do GSM (Sistema de comunicação móvel global) padrão digital de telefone celular, mas está agora disponível num vasto leque de redes, incluindo redes 3G, 4G e até 5G.\n[…]\nJá se discute e planeja-se sua evolução através do serviço de mensagens multimídia (em inglês: Multimedia Messaging Service, MMS). Com o MMS, os usuários podem enviar e receber mensagens não mais limitados aos 160 caracteres do SMS, bem como podem enriquecê-las com recursos audiovisuais, como imagens, sons e gráficos.\n[…]\nO GSM 03.38 ou 3GPP TS 23.038 é a norma que define o padrão de codificação de caracteres para elementos da rede GSM; é o alfabeto GSM de 7 bits padronizado pela organização 3GPP que define o: SMS (Short Message Service), USSD (Unstructured Supplementary Service Data) e, CB (Cell Broadcast).\n[…]\nA primeira mensagem de texto (SMS) foi enviada em 3 de dezembro de 1992, quando Neil Papworth, um engenheiro de testes da Sema Group, enviou \"Merry Christmas\" (Feliz Natal) para o telefone Orbitel 901 de seu colega Richard Jarvis.\n[…]\nTais vulnerabilidades são inerentes ao SMS, como um dos serviços mais superiores e bem usados, com uma vulnerabilidade global nas redes GSM. A troca de mensagens por SMS tem algumas vulnerabilidades de segurança extras devido a sua funcionalidade de armazenar e encaminhar, e o problema de SMS falso que pode ser enviados através da Internet.\n[…]\nRede de Telefonia Fixa e Rede de Telefonia Celular",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Fibra óptica",
+      "descricao": "Filamento fino e transparente que conduz luz e é usado para transmitir dados a longas distâncias."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As fibras ópticas que transportam boa parte dos dados da internet são feitas, em geral, de qual material?",
+    "resposta": "Vidro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Optical_fiber"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Optical_fiber",
+        "situacao": "ok",
+        "texto": "An optical fiber, or optical fibre, is a flexible glass or plastic fiber that can transmit light from one end to the other. Such fibers are widely used in fiber-optic communication, where they permit transmission over longer distances and at higher bandwidths (data transfer rates) than electrical cables. Fibers are used instead of cables because signals travel along them with less loss and are imm\n[…]\nGlass optical fibers are typically made by drawing, while plastic fibers can be made either by drawing or by extrusion. Optical fibers typically include a core surrounded by a transparent cladding material with a lower index of refraction. Light is kept in the core by the phenomenon of total internal reflection which causes the fiber to act as a waveguide.\n[…]\nThese setups use two kinds of fiber: Optical fibers intended for light transport need to propagate as much light as possible within the core, while optical fibers intended for light distribution are designed to let part of the light leak through their cladding.\n[…]\nAn optical fiber is a cylindrical dielectric waveguide (nonconducting waveguide) that transmits light along its axis through the process of total internal reflection. The fiber consists of a core surrounded by a cladding layer, both of which are made of dielectric materials. To confine the optical signal in the core, the refractive index of the core must be greater than that of the cladding.\n[…]\nThe propagation of light through the core of an optical fiber is based on the total internal reflection of the lightwave, in terms of geometric optics, or guided modes, in terms of an electromagnetic waveguide. In a typical single-mode optical fiber, about 75% of light is propagating through the core material, having a higher refractive index, and about 25% of light is propagating through the cladding, having a lower refractive index."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fibra_%C3%B3ptica",
+        "situacao": "ok",
+        "texto": "Uma fibra óptica, ou fibra ótica, é uma fibra flexível de vidro ou plástico que pode transmitir luz de uma extremidade à outra. Essas fibras são muito usadas na comunicação por fibra óptica, na qual permitem transmissões por distâncias maiores e com largura de banda mais alta, ou seja, maiores taxas de transferência de dados, que os cabos elétricos.\n[…]\nAs fibras ópticas de vidro são normalmente produzidas por trefilagem, enquanto as fibras plásticas podem ser feitas por trefilagem ou extrusão. Em geral, uma fibra óptica tem um núcleo envolvido por uma casca transparente com índice de refração menor. A luz permanece no núcleo por reflexão total, fazendo a fibra atuar como um guia de ondas óptico.\n[…]\né a fração molar do dopante no vidro baseado em SiO2 e\n[…]\nFibras ópticas de vidro são quase sempre feitas de sílica, mas outros materiais, como vidros fluorozirconatos, fluoroaluminatos e vidros calcogenetos, além de materiais cristalinos como a safira, são empregados no infravermelho de maior comprimento de onda e em outras aplicações especializadas. Vidros de sílica e de fluoretos costumam ter índices de refração próximos de 1,5, enquanto alguns calcogenetos podem chegar a 3. A diferença de índice entre núcleo e casca normalmente é inferior a 1%.\n[…]\nOs processos modernos de trefilagem de fibra óptica de vidro usam duas camadas de revestimento. A camada primária interna funciona como amortecedor e reduz a atenuação causada por microcurvaturas. A camada secundária externa protege a primeira contra danos mecânicos, funciona como barreira a forças laterais e pode receber cor para diferenciar os filamentos em cabos com muitas fibras. As camadas são aplicadas durante a trefilagem em velocidades próximas de 100 km/h.\n[…]\nComunicação por fibra óptica, uso das fibras na transmissão de dados por luz",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Mouse",
+      "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela do computador."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "O primeiro protótipo de mouse de computador, criado por Douglas Engelbart nos anos sessenta, tinha a carcaça feita de quê?",
+    "resposta": "Madeira",
+    "distratores": [
+      "Plástico",
+      "Vidro",
+      "Alumínio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Computer_mouse"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Computer_mouse",
+        "situacao": "ok",
+        "texto": "A computer mouse (plural mice; rarely mouses) is a hand-held pointing device that detects two-dimensional motion relative to a surface. This motion is typically translated into the motion of the pointer (called a cursor) on a display, which allows a smooth control of the graphical user interface of a computer.\n[…]\nDouglas Engelbart of the Stanford Research Institute (now SRI International) has been credited in published books by Thierry Bardini, Paul Ceruzzi, Howard Rheingold, and several others as the inventor of the computer mouse. Engelbart was also recognized as such in various obituary titles after his death in July 2013.\n[…]\nIn 1964, Bill English joined ARC, where he helped Engelbart build the first mouse prototype. As noted above, this \"mouse\" was first mentioned in print in a July 1965 report, on which English was the lead author. On 9 December 1968, Engelbart publicly demonstrated the mouse at what would come to be known as The Mother of All Demos. Engelbart never received any royalties for it, as his employer SRI held the patent, which expired before the mouse became widely used in personal computers.\n[…]\nOn 2 October 1968, three years after Engelbart's prototype but more than two months before his public demo, a mouse device named Rollkugelsteuerung (German for \"Trackball control\") was shown in a sales brochure by the German company AEG-Telefunken as an optional input device for the SIG 100 vector graphics terminal, part of the system around their process computer TR 86 and the TR 440 main frame.\n[…]\nThe German company Telefunken published on their early ball mouse on 2 October 1968. Telefunken's mouse was sold as optional equipment for their computer systems. Bill English, builder of Engelbart's original mouse, created a ball mouse in 1972 while working for Xerox PARC."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rato_%28inform%C3%A1tica%29",
+        "situacao": "ok",
+        "texto": "Na tecnologia, o mouse(pt-BR) ou rato(pt-PT?) é um periférico de entrada que junto ao teclado auxilia no processo de entrada de dados em programas com interface gráfica (um dispositivo para Interação homem-computador e entrada de dados) criado pela empresa Xerox (mas somente se tornou um produto comercializado com a Apple).\n[…]\nO rato ou mouse (estrangeirismo: empréstimo do inglês \"mouse\", que significa em português \"camundongo\") tem como função movimentar o cursor (ou apontador) pelo ecrã ou tela do computador que possui, normalmente, quatro tipos de operações: movimento, clique, duplo clique e arrastar e largar.\n[…]\nEngelbart apresentou este periférico pela primeira vez em 9 de dezembro de 1968 denominando-o de \"XY Position Indicator For A Display System\". Constituía-se então em uma pequena caixa de madeira com apenas um botão. O invento de Engelbart ficou sem muita utilização devido à falta de necessidade de tal dispositivo: afinal, a maioria dos computadores utilizava apenas textos sem cursores na tela.\n[…]\nO Windows da Microsoft foi criado à volta dele e navegar na internet seria impossível sem um rato (mouse). Pode-se dizer que, a partir do lançamento do Windows 3.1, em abril de 1992, o lugar do mouse estava assegurado.\n[…]\nNa época, Douglas Engelbart vendeu a patente do \"X-Y Position Indicator\" (rato/mouse) por 10 000 dólares estadunidenses.\n[…]\nNos consoles, o console educacional VTech Socrates de 1988 foi o primeiro a vir com mouse, em 1992 a Nintendo lançou o Super NES Mouse para o SNES. No mesmo ano também foi lançado o Sega Mouse para o Sega CD e o mouse para o PC Engine. Em 1994, foi lançado o Shuttle Mouse para o Sega Saturn e o PlayStation Mouse para o PlayStation no dia do seu lançamento. Em 1999 foi lançado o Nintendo 64 Mouse para o 64DD. Em 2000, foi lançado o Dreamcast Mouse para o Dreamcast.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Fortran",
+      "descricao": "Linguagem de programação desenvolvida pela IBM nos anos 1950, voltada a cálculos científicos."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual destas linguagens de programação é a mais antiga?",
+    "resposta": "Fortran",
+    "distratores": [
+      "C",
+      "Java",
+      "Python"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fortran"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fortran",
+        "situacao": "ok",
+        "texto": "Fortran (; formerly FORTRAN) is a third-generation, compiled, imperative programming language designed for numeric computation and scientific computing.\n[…]\n(line programming)\n[…]\nList of Fortran programming books\n[…]\nEllis, T. M. R.; Phillips, Ivor R.; Lahey, Thomas M. (1994). Fortran 90 Programming (1st ed.). Addison Wesley. ISBN 978-0-201-54446-6.\n[…]\nKupferschmid, Michael (2002). Classical Fortran: Programming for Engineering and Scientific Applications. Marcel Dekker (CRC Press). ISBN 978-0-8247-0802-3. (Supplemental materials)\n[…]\nLorenzo, Mark Jones (2019). Abstracting Away the Machine: The History of the FORTRAN Programming Language (FORmula TRANslation). Independently published. ISBN 978-1082395949.\n[…]\nLoukides, Mike (1990). Unix for FORTRAN Programmers. Sebastopol, CA: O'Reilly & Associates, Inc. ISBN 0-937175-51-X.\n[…]\nMcCracken, Daniel D. (1961). A Guide to FORTRAN Programming. New York: Wiley. LCCN 61016618.\n[…]\nPage, Clive G. (1988). Professional Programmer's Guide to Fortran77 (June 7, 2005 ed.). London: Pitman. ISBN 978-0-273-02856-7. Retrieved May 4, 2010.\n[…]\nValmer Norrod, et al.: A self-study course in FORTRAN programing—Volume I—textbook, Computer Science Corporation El Segundo, California (April 1970). NASA (N70-25287).\n[…]\nValmer Norrod, Sheldom Blecher, and Martha Horton: A self-study course in FORTRAN programing—Volume II—workbook, NASA CR-1478 (April 1970), NASA (N70-25288).\n[…]\nAn introduction to the Fortran programming language, by Reinhold Bader, Nisarg Patel, Leibniz Supercomputing Centre.\n[…]\nVictor Eijkhout : Introduction to Scientific Programming in C++17/Fortran2008, The Art of HPC, volume 3 (PDF) Archived February 5, 2023, at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fortran",
+        "situacao": "ok",
+        "texto": "Fortran, acrônimo de IBM Mathematical FORmula TRANslation System, é uma linguagem de programação voltada para computação científica e técnica, especialmente projetada para executar cálculos complexos com eficiência numa ampla variedade de processadores. Foi inicialmente desenvolvida na década de 1950. Foi normatizada em 1966 e desde então, recebeu revisões em 1978, 1991, 1997, 2004, 2010, 2018 e 2\n[…]\nA IBM começou a trabalhar nele já em 1961 a pedido dos clientes, e começou por remover as características dependentes de máquina do FORTRAN II/III. A linguagem FORTRAN já era um sucesso, sendo largamente adaptada por cientistas para a escrita de programas numericamente intensivos, o que encorajou os programadores a escrever compiladores que gerassem código mais rápido. Começavam a surgir outras versões do FORTRAN.\n[…]\nQuando foi disponibilizado, o FORTRAN já era a linguagem mais usada pela comunidade científica. A ampla disponibilidade de compiladores para diferentes computadores, a simplicidade da linguagem, facilidade para ensiná-la, sua eficiência e as vantagens introduzidas pelo uso de sub-rotinas e compilação independente destas, a capacidade de lidar com números complexos, entre muitas outras características, ajudaram em sua ampla difusão dentro da comunidade científica.\n[…]\nNa mesma época que o FORTRAN 77 surgiu, já existiam outras linguagens de programação como o C, Pascal, Ada e Modula, que haviam introduzido novos conceitos em programação ou fundamentado outros como a tipagem explícita de variáveis e a definição de novos tipos de dados, o que permitia ao programador definir estruturas de dados mais adequadas para resolver problemas; alocação dinâmica de dados; subprogramas recursivos; controle de exceção (uma das principais características da linguagem Ada); e estabelecimento de módulos.\n[…]\nUSER NOTES ON FORTRAN PROGRAMMING (UNFP)\n[…]\nProfessional Programmer's Guide to Fortran77",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Nokia",
+      "descricao": "Empresa finlandesa de telecomunicações, fundada em 1865, famosa pelos seus telefones celulares."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de fabricar celulares, a finlandesa Nokia nasceu em 1865 como uma fábrica de quê?",
+    "resposta": "Celulose",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nokia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Nokia",
+        "situacao": "ok",
+        "texto": "Nokia Corporation is a Finnish multinational telecommunications, information technology, and consumer electronics corporation, originally established as a pulp mill in 1865. Nokia's main headquarters are in Espoo, Finland, in the Helsinki metropolitan area, but the company's actual roots are in the Tampere region of Pirkanmaa.\n[…]\nNokia's history dates from 1865, when mining engineer Fredrik Idestam established a pulp mill on the shores of the Tammerkoski rapids near the town of Tampere, Finland (then a Grand Duchy under the Russian Empire's rule). A second pulp mill was opened in 1868 near the neighboring town of Nokia, where there were better hydropower resources.\n[…]\nIn November 2014, Nokia Technologies launched its first product, the Nokia N1 tablet computer. In July 2015, Nokia Technologies introduced a VR camera called OZO, designed for professional content creators and developed in Tampere, Finland. With its 8 synchronized shutter sensors and 8 microphones, the product can capture stereoscopic 3D video and spatial audio.\n[…]\nHMD Global is a mobile phone company based in Espoo, Finland. The Nokia brand has been licensed by former Nokia employees who founded HMD Global and introduced Nokia-branded Android-based devices to the market in 2017. Initially, Nokia had no investment in the company but retained some input in the development of its devices.\n[…]\nNokia are based at Karaportti in Espoo, Finland, just outside capital Helsinki. It has been its head office since 2014 after moving from the purpose-built Nokia House in Espoo as part of the sale of the mobile phone business to Microsoft. The building in Karaportti was previously the headquarters of NSN (now Nokia Networks).\n[…]\nMartti Häikiö (October 2002). Nokia: The Inside Story. FT / Prentice Hall. ISBN 0-273-65983-9.\n[…]\nBusiness data for Nokia:"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nokia",
+        "situacao": "ok",
+        "texto": "Nokia Corporation (pronúncia em finlandês: [ˈnɔkiɑ], nóquia) é uma empresa multinacional finlandesa fundada em 1865, de infraestruturas de telecomunicações, tecnologia de telecomunicações e tecnologia de consumo. A Nokia tem sede em Keilaniemi, Espoo, cidade vizinha a Helsínquia, capital da Finlândia.\n[…]\nA Microsoft passou a controlar a Divisão de Dispositivos e Serviços da Nokia a partir do dia 25 de abril de 2014, que foi renomeada de Microsoft Mobile Oy. Em outubro de 2014, a Microsoft anunciou que o Nokia Lumia 730/735 e o Nokia Lumia 830 seriam os últimos smartphones fabricados pela empresa a ostentar o nome Nokia. A marca finlandesa continuou, no entanto, a ser utilizada nos celulares básicos.\n[…]\nA Nokia tem uma longa história que remonta a 1865, quando Fredrik Idestam, um engenheiro de minas, criou uma fábrica de transformação de pasta de celulose em papel, perto da cidade de Tampere, na Finlândia (que à época estava integrada no Império Russo). Uma segunda fábrica foi construída em 1868 perto da cidade de Nokia.\n[…]\nA Nokia foi também quem criou o celular mais vendido de sempre, o Nokia 1100 em 2003.\n[…]\nEm 2003, a Nokia fez uma tentativa de entrar no mercado de jogos para celulares ao lançar o aclamado Nokia N-Gage, que se revelou um fracasso a desafiar a supremacia da Nintendo.\n[…]\nA 18 de maio de 2016, a Microsoft anunciou a venda da divisão de telemóveis básicos, bem como a licença que tinha para utilizar a marca Nokia nesses mesmos dispositivos, à HMD Global, e as fábricas da antiga Nokia à FIH Mobile, uma subsidiária da Foxconn. Em simultâneo, a HMD Global, uma start-up finlandesa formada por antigos empregados da Nokia, acordou com a empresa o direito de utilização da marca Nokia, bem como das suas patentes, em smartphones Android.\n[…]\nNokia tune\n[…]\nLista de celulares Nokia\n[…]\nFundação Nokia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Samuel Morse",
+      "descricao": "Inventor americano (1791–1872) do telégrafo elétrico e coautor do código Morse."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Antes de se dedicar ao telégrafo e ao código que leva seu nome, o americano Samuel Morse era conhecido em qual profissão?",
+    "resposta": "Pintor",
+    "distratores": [
+      "Escultor",
+      "Poeta",
+      "Arquiteto"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Samuel_Morse"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Samuel_Morse",
+        "situacao": "ok",
+        "texto": "Samuel Finley Breese Morse (April 27, 1791 – April 2, 1872) was an American inventor and painter. After establishing his reputation as a portrait painter, Morse, in his middle age, contributed to the invention of a single-wire telegraph system based on European telegraphs. He was a co-developer and the namesake of Morse code in 1837 and helped to develop the commercial use of telegraphy.\n[…]\nMorse received a patent for the telegraph in 1847, at the old Beylerbeyi Palace (the present Beylerbeyi Palace was built in 1861–1865 on the same location) in Istanbul, which was issued by Sultan Abdülmecid, who personally tested the new invention. He was elected an Associate Fellow of the American Academy of Arts and Sciences in 1849. The original patent went to the Breese side of the family after the death of Samuel Morse.\n[…]\nLind purchased the Hacienda from his sister when she became a widow. Morse, who often spent his winters at the Hacienda with his daughter and son-in-law, set a two-mile telegraph line connecting his son-in-law's Hacienda to their house in Arroyo. The line was inaugurated on March 1, 1859, in a ceremony flanked by the Spanish and American flags. The first words transmitted by Samuel Morse that day in Puerto Rico were:\n[…]\nBellis, Mary (2009a), Samuel Morse and the Invention of the Telegraph, retrieved April 27, 2020\n[…]\nMcEwen, Neal (1997), Morse Code or Vail Code? Did Samuel F. B. Morse Invent the Code as We Know it Today?, The Telegraph Office, retrieved October 17, 2009\n[…]\nMorse, Samuel F. B. (June 20, 1840), U.S. Patent No. 1647, Telegraph Signs, archived from the original on December 5, 2021, retrieved April 7, 2021\n[…]\nMabee, Carleton, The American Leonardo: A Life of Samuel F. B. Morse, (1943, reissued 1969); William Kloss, Samuel F. B. Morse (1988); Paul J. Staiti, Samuel F. B. Morse (1989) (Knopf, 1944) (Pulitzer Prize winner for biography for 1944)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Samuel_Morse",
+        "situacao": "ok",
+        "texto": "Samuel Finley Breese Morse (27 de abril de 1791 – 2 de abril de 1872) foi um inventor e pintor norte-americano. Após estabelecer sua reputação como retratista, Morse, em sua meia-idade, contribuiu para a invenção de um sistema de telégrafo de fio único baseado em telégrafos europeus. Foi um dos desenvolvedores do Código Morse em 1837 e ajudou a desenvolver o uso comercial da telegrafia.\n[…]\nEle deixou a Inglaterra em 21 de agosto de 1815, para retornar aos Estados Unidos e iniciar sua carreira em tempo integral como pintor. A década de 1815-1825 marcou um crescimento significativo no trabalho de Morse, à medida que ele buscava capturar a essência da cultura e da vida americana. Ele pintou o ex-presidente federalista John Adams (1816). Os federalistas e anti-federalistas entraram em conflito sobre o Dartmouth College.\n[…]\nCom o tempo, o Código Morse que ele desenvolveu se tornaria a principal linguagem da telegrafia no mundo. Ainda é o padrão para transmissão rítmica de dados. Enquanto isso, William Cooke e o professor Charles Wheatstone haviam tomado conhecimento do telégrafo eletromagnético de Wilhelm Weber e Carl Gauss em 1833. Eles haviam chegado ao estágio de lançar um telégrafo comercial antes de Morse, apesar de terem começado mais tarde.\n[…]\nMorse recebeu uma patente para o telégrafo em 1847, no antigo Palácio do Beilerbei (o atual Palácio do Beilerbei foi construído em 1861-1865 no mesmo local) em Istambul, que foi emitida pelo Abdul Majide I, que pessoalmente testou a nova invenção. Ele foi eleito um membro associado da Academia Americana de Artes e Ciências em 1849. A patente original foi para o lado Breese da família após a morte de Samuel Morse.\n[…]\nMorse, Samuel F. B. (20 junho 1840), U.S. Patent No. 1647, Telegraph Signs, consultado em 7 abril 2021, cópia arquivada em 5 dezembro 2021\n[…]\nObras de ou sobre Samuel Morse no Internet Archive",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Roberto Landell de Moura",
+      "descricao": "Padre e inventor gaúcho (1861–1928), pioneiro na transmissão da voz por ondas de rádio."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que padre gaúcho fez, na década de 1890, experiências pioneiras de transmissão da voz humana sem fio?",
+    "resposta": "Roberto Landell de Moura",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+      "https://en.wikipedia.org/wiki/Roberto_Landell_de_Moura"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+        "situacao": "ok",
+        "texto": "Roberto Landell de Moura (Porto Alegre, 21 de janeiro de 1861 – Porto Alegre, 30 de junho de 1928) foi um padre católico, cientista e inventor escoto-brasileiro.\n[…]\nNem a invenção do sistema de transmitir a palavra a distâncias é recente nem foi um inglês o primeiro sábio que resolveu satisfatoriamente esse árduo problema, que envolveu os mais intricados princípios físico-químicos que podem oferecer-se a ciência humana. O que primeiro penetrou e descobriu os grandes segredos da telúrica etérea com glória e proveito, faz pouco mais ou menos um ano foi um brasileiro, foi o nobre sábio o padre Roberto Landell de Moura.\n[…]\nPorque acompanhei passo a passo o estudo de seus inventos sobre telegrafia e telefonia, com e sem fios; porque fui testemunha presencial de várias experiências, todas prodigiosas; e porque tive a honra de me ocupar do sábio e de suas eminentes obras em dois artigos publicados em El Diário Español, de São Paulo, artigos que mereceram a honra de ser reproduzidos no Rio de Janeiro, no Jornal do Comércio, por tudo isto, julgo-me obrigado, agora a sair em defesa do direito de prioridade que assiste ao benemérito brasileiro o padre Roberto Landell de Moura, no que tange à transmissão da palavra falada sem necessidade de fios.\n[…]\nLista dos vinte gaúchos que marcaram o século XX segundo o jornal Zero Hora\n[…]\nMemorial Landell de Moura.\n[…]\nInventário do Acervo Padre Roberto Landell de Moura. Instituto Histórico e Geográfico do Rio Grande do Sul.\n[…]\nDocumentário sobre o padre Landell de Moura. TV Senado.\n[…]\n\"Com fé na ciência: Padre Landell de Moura, o pioneiro do rádio\". Rádio Senado, reportagem especial (áudio), 4 de novembro de 2011. Parte 1, Parte 2."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Roberto_Landell_de_Moura",
+        "situacao": "ok",
+        "texto": "Father Roberto Landell de Moura (January 21, 1861 – June 30, 1928), commonly known as Roberto Landell, was a Brazilian Roman Catholic priest and inventor. He is best known for his attempts in the 1880s to develop long-distance audio transmissions device that combined an improved megaphone device and a photophone (using light beams).\n[…]\nLandell received patents in Brazil and the United States during the first decade of the 1900s in which he also included designs that he claimed could transmit voice using radio waves.\n[…]\nRoberto Landell de Moura was born in Porto Alegre, Brazil in 1861. His father was Ignacio de Moura, and he had five brothers: João, Edmundo and Ricardo (all apothecaries), Dr. Ignacio Landell, a physician, and Pedro Landell de Moura, a São Paulo merchant. He was ordained to the Catholic priesthood in 1886 in Rome, and also conducted studies in the physical sciences.\n[…]\nUltimately, Landell was issued three U.S. patents covering his work:\n[…]\nthe existing evidence points, therefore, to the success of Landell de Moura in the transmission and reception of voice even though the quality did not allow the immediate practical application of the devices created by the Brazilian. The improvement of these in the national territory would depend on a significant contribution of resources based on an awareness of the strategic importance of such technology. Consciousness that did not exist in Brazil then.\n[…]\nMedia related to Roberto Landell de Moura at Wikimedia Commons\n[…]\nWorks by or about Landell de Moura at Wikisource\n[…]\n\"Inventário do Acervo Padre Roberto Landell de Moura: Série Produção Intelectual. Subsérie Estudos\" (Collection of Landell papers). Instituto Histórico e Geográfico do Rio Grande do Sul. (ihgrgs.org.br)\n[…]\nSelected articles about Roberto Landell  (landelldemoura.com.br)"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

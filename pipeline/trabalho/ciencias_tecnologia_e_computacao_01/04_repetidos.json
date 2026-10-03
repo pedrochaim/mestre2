@@ -1,0 +1,160 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Apesar de lembrar a palavra emoção, o termo emoji vem de qual língua?",
+        "resposta": "Japonês"
+      },
+      "existentes": [
+        {
+          "id": "q00878",
+          "pergunta": "Apesar da semelhança, a palavra emoji não tem relação com emoção. Ela junta duas palavras japonesas que significam o quê?",
+          "resposta": "Imagem e caractere"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A tecnologia sem fio Bluetooth tem o nome de um rei viking do século dez, que unificou as tribos de qual país?",
+        "resposta": "Dinamarca"
+      },
+      "existentes": [
+        {
+          "id": "q00871",
+          "pergunta": "O nome Bluetooth homenageia um rei do século dez, apelidado de Dente Azul, que uniu as tribos de qual país?",
+          "resposta": "Dinamarca"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em 1952, o matemático Alan Turing foi condenado pela Justiça britânica por relação com outro homem. Que crime constava da condenação?",
+        "resposta": "Atentado ao pudor"
+      },
+      "existentes": [
+        {
+          "id": "q01039",
+          "pergunta": "Quem é este matemático inglês, considerado o pai da ciência da computação teórica?",
+          "resposta": "Alan Turing"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que recurso do tear de Jacquard Charles Babbage pretendia usar para programar sua máquina analítica?",
+        "resposta": "Cartões perfurados"
+      },
+      "existentes": [
+        {
+          "id": "q02122",
+          "pergunta": "Em que ano foi patenteado o mecanismo instalado no alto deste tear?",
+          "resposta": "1804"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O transistor foi inventado em 1947 num laboratório americano cujo nome remete a qual inventor escocês?",
+        "resposta": "Alexander Graham Bell"
+      },
+      "existentes": [
+        {
+          "id": "q02113",
+          "pergunta": "Que componente eletrônico aparece nesta foto, em vários formatos?",
+          "resposta": "Transistor"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que ano a urna eletrônica foi usada pela primeira vez em eleições no Brasil?",
+        "resposta": "1996"
+      },
+      "existentes": [
+        {
+          "id": "q00904",
+          "pergunta": "Os brasileiros trocaram a cédula de papel pela urna eletrônica aos poucos. Em que ano ela estreou nas eleições do país?",
+          "resposta": "1996"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O mecanismo de Anticítera, um calculador astronômico de engrenagens achado num naufrágio, foi construído em que época?",
+        "resposta": "Grécia Antiga"
+      },
+      "existentes": [
+        {
+          "id": "q03245",
+          "pergunta": "Achado em 1901 num naufrágio grego, o mecanismo de Anticítera, cheio de engrenagens de bronze, servia para quê?",
+          "resposta": "Prever posições dos astros e eclipses"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "O primeiro protótipo de mouse de computador, criado por Douglas Engelbart nos anos sessenta, tinha a carcaça feita de quê?",
+        "resposta": "Madeira"
+      },
+      "existentes": [
+        {
+          "id": "q00902",
+          "pergunta": "Que engenheiro americano apresentou o mouse ao público em 1968, numa demonstração que ficou conhecida como a mãe de todas as demos?",
+          "resposta": "Douglas Engelbart"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nova pergunta a língua de origem (japonês); a existente pergunta o significado das duas palavras (imagem e caractere). Fatos diferentes, embora próximos."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Bluetooth homenageia rei que uniu as tribos da Dinamarca.",
+      "id_existente": "q00871"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Condenação de Turing vs. identificar quem ele é."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Cartões perfurados vs. ano da patente do mecanismo."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Laboratório Bell do transistor vs. identificar o componente na foto."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o ano de estreia da urna eletrônica no Brasil (1996).",
+      "id_existente": "q00904"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Época de construção vs. função do mecanismo."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Material da carcaça vs. quem apresentou o mouse."
+    }
+  ]
+}
