@@ -1,0 +1,488 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No Renascimento, o estilo das catedrais medievais ganhou um nome pejorativo, que o associava a um povo bárbaro. Que nome?",
+        "resposta": "Gótico"
+      },
+      "existentes": [
+        {
+          "id": "q00098",
+          "pergunta": "O estilo das catedrais de Notre-Dame e de Chartres ganhou, séculos depois, um nome pejorativo que o ligava a que povo germânico?",
+          "resposta": "Godos"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O nome Coliseu teria vindo de uma estátua colossal, erguida ali perto, de que imperador romano?",
+        "resposta": "Nero"
+      },
+      "existentes": [
+        {
+          "id": "q00079",
+          "pergunta": "O nome Coliseu provavelmente vem de algo gigantesco que ficava ao lado do anfiteatro. O que era?",
+          "resposta": "Uma estátua colossal de Nero"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em Londres, o nome Big Ben pertence originalmente a qual parte da famosa torre do relógio?",
+        "resposta": "O grande sino"
+      },
+      "existentes": [
+        {
+          "id": "q01997",
+          "pergunta": "Em Londres, o apelido Big Ben se refere originalmente a qual parte da famosa torre do relógio?",
+          "resposta": "O grande sino"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome Partenon vem de um título da deusa Atena. O que esse título significa?",
+        "resposta": "Virgem"
+      },
+      "existentes": [
+        {
+          "id": "q02454",
+          "pergunta": "Em que século antes de Cristo foi construído este templo de Atenas?",
+          "resposta": "Quinto século a.C."
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Santa Sofia, em Istambul, não homenageia nenhuma santa. O que significa seu nome em grego?",
+        "resposta": "Santa Sabedoria"
+      },
+      "existentes": [
+        {
+          "id": "q02452",
+          "pergunta": "Que monumento de Istambul é este?",
+          "resposta": "Santa Sofia"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A Estátua da Liberdade chegou a Nova York com a cor do cobre. Por que ela ficou esverdeada?",
+        "resposta": "Oxidação natural do cobre"
+      },
+      "existentes": [
+        {
+          "id": "q02008",
+          "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+          "resposta": "Oxidação do cobre"
+        },
+        {
+          "id": "q02018",
+          "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+          "resposta": "Torre Eiffel"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A Torre Eiffel foi erguida para uma Exposição Universal que marcava o centenário de que acontecimento histórico?",
+        "resposta": "Revolução Francesa"
+      },
+      "existentes": [
+        {
+          "id": "q02010",
+          "pergunta": "Em 1889, ano do centenário da Revolução Francesa, a Torre Eiffel foi erguida para servir de entrada a qual evento?",
+          "resposta": "A Exposição Universal de Paris"
+        },
+        {
+          "id": "q02516",
+          "pergunta": "Que monumento francês é este?",
+          "resposta": "Torre Eiffel"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Por que a Torre de Pisa começou a se inclinar ainda durante a construção, no século doze?",
+        "resposta": "Solo mole sob a fundação"
+      },
+      "existentes": [
+        {
+          "id": "q02007",
+          "pergunta": "Por que a Torre de Pisa começou a se inclinar ainda durante a obra, no século doze?",
+          "resposta": "Solo mole e fundação rasa"
+        },
+        {
+          "id": "q02451",
+          "pergunta": "Em que região da Itália fica este campanário de catedral?",
+          "resposta": "Toscana"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Segundo o biógrafo Vasari, por que Michelangelo gravou seu nome na faixa que cruza o peito de Maria, na Pietà?",
+        "resposta": "Ouviu atribuírem a obra a outro"
+      },
+      "existentes": [
+        {
+          "id": "q02523",
+          "pergunta": "Em que basílica fica esta escultura de mármore?",
+          "resposta": "Basílica de São Pedro"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Por que o Moisés de Michelangelo, em Roma, tem dois chifres na cabeça?",
+        "resposta": "Tradução latina da Bíblia"
+      },
+      "existentes": [
+        {
+          "id": "q02518",
+          "pergunta": "Em que basílica de Roma fica esta escultura de Michelangelo?",
+          "resposta": "San Pietro in Vincoli"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O imperador mogol Shah Jahan mandou erguer o Taj Mahal como túmulo de quem?",
+        "resposta": "Sua esposa Mumtaz Mahal"
+      },
+      "existentes": [
+        {
+          "id": "q02014",
+          "pergunta": "O imperador mogol Shah Jahan mandou construir o Taj Mahal para abrigar o túmulo de quem?",
+          "resposta": "Sua esposa Mumtaz Mahal"
+        },
+        {
+          "id": "q02041",
+          "pergunta": "Ao redor do mausoléu de mármore do Taj Mahal, quantos minaretes se erguem?",
+          "resposta": "Quatro"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No fim do século dezenove, o luxuoso Teatro Amazonas, em Manaus, foi erguido com a riqueza de que ciclo econômico?",
+        "resposta": "Ciclo da borracha"
+      },
+      "existentes": [
+        {
+          "id": "q00388",
+          "pergunta": "Que teatro é este?",
+          "resposta": "Teatro Amazonas"
+        },
+        {
+          "id": "q02417",
+          "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+          "resposta": "Borracha"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O Pensador, de Rodin, nasceu como parte de um grande portal de bronze inspirado na obra de Dante. Como se chama esse portal?",
+        "resposta": "A Porta do Inferno"
+      },
+      "existentes": [
+        {
+          "id": "q00459",
+          "pergunta": "Quem esculpiu esta estátua?",
+          "resposta": "Auguste Rodin"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "O Atomium, em Bruxelas, representa a célula de um cristal de que metal, ampliada bilhões de vezes?",
+        "resposta": "Ferro"
+      },
+      "existentes": [
+        {
+          "id": "q02040",
+          "pergunta": "As nove esferas do Atomium, em Bruxelas, representam a estrutura ampliada de um cristal de qual metal?",
+          "resposta": "Ferro"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "A estátua da Pequena Sereia, em Copenhague, foi um presente do herdeiro de que famosa cervejaria dinamarquesa?",
+        "resposta": "Carlsberg"
+      },
+      "existentes": [
+        {
+          "id": "q02031",
+          "pergunta": "Em que cidade fica a estátua da Pequena Sereia, inspirada no conto de Hans Christian Andersen?",
+          "resposta": "Copenhague"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Que escultor francês esculpiu a estátua do Cristo Redentor, inaugurada em 1931 no Rio?",
+        "resposta": "Paul Landowski"
+      },
+      "existentes": [
+        {
+          "id": "q02025",
+          "pergunta": "Qual escultor francês criou a estátua do Cristo Redentor, no alto do Corcovado?",
+          "resposta": "Paul Landowski"
+        },
+        {
+          "id": "q02026",
+          "pergunta": "O concreto do Cristo Redentor é revestido por milhares de pequenos triângulos de qual pedra?",
+          "resposta": "Pedra-sabão"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que arquiteto dinamarquês venceu o concurso para a Ópera de Sydney, mas deixou a obra antes de concluí-la?",
+        "resposta": "Jørn Utzon"
+      },
+      "existentes": [
+        {
+          "id": "q02028",
+          "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+          "resposta": "Jørn Utzon"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "Desde 1873, o Davi original de Michelangelo fica protegido num museu, e uma cópia ocupa seu antigo lugar na praça. Em que cidade?",
+        "resposta": "Florença"
+      },
+      "existentes": [
+        {
+          "id": "q00462",
+          "pergunta": "Qual é o nome desta estátua?",
+          "resposta": "Davi"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Em que igreja de Roma fica O Êxtase de Santa Teresa, de Bernini?",
+        "resposta": "Santa Maria della Vittoria"
+      },
+      "existentes": [
+        {
+          "id": "q00461",
+          "pergunta": "Quem esculpiu esta obra?",
+          "resposta": "Gian Lorenzo Bernini"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Em que ano foi lançada a pedra fundamental da Sagrada Família, em Barcelona?",
+        "resposta": "1882"
+      },
+      "existentes": [
+        {
+          "id": "q02037",
+          "pergunta": "Em Barcelona, as obras da basílica da Sagrada Família começaram em qual século?",
+          "resposta": "Século dezenove"
+        },
+        {
+          "id": "q02519",
+          "pergunta": "Em que cidade fica esta basílica?",
+          "resposta": "Barcelona"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "A Vênus de Milo foi desenterrada numa ilha do mar Egeu e levada para a França em que século?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q00460",
+          "pergunta": "Qual é o nome desta estátua?",
+          "resposta": "Vênus de Milo"
+        }
+      ]
+    },
+    {
+      "caso": 22,
+      "nova": {
+        "pergunta": "Como se chama a abertura circular no topo da cúpula do Panteão de Roma, por onde entram luz e chuva?",
+        "resposta": "Óculo"
+      },
+      "existentes": [
+        {
+          "id": "q02520",
+          "pergunta": "Que edifício da Roma antiga é este?",
+          "resposta": "Panteão"
+        }
+      ]
+    },
+    {
+      "caso": 23,
+      "nova": {
+        "pergunta": "No templo Erecteion, na Acrópole de Atenas, estátuas de mulheres fazem o papel de colunas. Como elas se chamam?",
+        "resposta": "Cariátides"
+      },
+      "existentes": [
+        {
+          "id": "q02450",
+          "pergunta": "Em que século antes de Cristo foi construído este templo grego?",
+          "resposta": "Quinto século a.C."
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: nome pejorativo gótico/godos.",
+      "id_existente": "q00098"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: estátua colossal de Nero origem do nome.",
+      "id_existente": "q00079"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta.",
+      "id_existente": "q01997"
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs século de construção."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs identificar o monumento."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: oxidação do cobre.",
+      "id_existente": "q02008"
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Centenário da Revolução já aparece só como contexto; pergunta o evento comemorado, existente pergunta a exposição. Fatos diferentes."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: causa da inclinação.",
+      "id_existente": "q02007"
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Assinatura na Pietà é outro fato."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Chifres vs localização."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: túmulo de Mumtaz Mahal.",
+      "id_existente": "q02014"
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Ciclo da borracha equivale a borracha como riqueza.",
+      "id_existente": "q02417"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Porta do Inferno vs autor."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: ferro.",
+      "id_existente": "q02040"
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Presenteador vs cidade."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "motivo": "Mesmo escultor.",
+      "id_existente": "q02025"
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesmo arquiteto.",
+      "id_existente": "q02028"
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Cidade da cópia vs nome da estátua."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Localização vs autor."
+    },
+    {
+      "caso": 20,
+      "decisao": "nova",
+      "motivo": "Ano exato da pedra fundamental é mais específico; existente pergunta século do início das obras. Na dúvida, nova."
+    },
+    {
+      "caso": 21,
+      "decisao": "nova",
+      "motivo": "Século da descoberta vs nome da estátua."
+    },
+    {
+      "caso": 22,
+      "decisao": "nova",
+      "motivo": "Óculo vs identificar edifício."
+    },
+    {
+      "caso": 23,
+      "decisao": "nova",
+      "motivo": "Cariátides vs século de construção."
+    }
+  ]
+}

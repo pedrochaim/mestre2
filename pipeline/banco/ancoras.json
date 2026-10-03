@@ -1710,7 +1710,8 @@
     "descricao": "Estilo arquitetônico europeu dos séculos doze a dezesseis, típico de catedrais como Notre-Dame de Paris e Chartres.",
     "variantes": [
       "Estilo gótico",
-      "Gothic architecture"
+      "Gothic architecture",
+      "Gótico"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Gothic_architecture",
@@ -6731,7 +6732,10 @@
       "wikidata": "Q18003128",
       "pt": 2376,
       "en": 32108
-    }
+    },
+    "variantes": [
+      "Le Penseur"
+    ]
   },
   {
     "id": "venus_de_milo",
@@ -6746,7 +6750,10 @@
       "wikidata": "Q151952",
       "pt": 2213,
       "en": 38108
-    }
+    },
+    "variantes": [
+      "Afrodite de Milo"
+    ]
   },
   {
     "id": "o_extase_de_santa_teresa",
@@ -6761,7 +6768,10 @@
       "wikidata": "Q1333433",
       "pt": 1603,
       "en": 18230
-    }
+    },
+    "variantes": [
+      "Ecstasy of Saint Teresa"
+    ]
   },
   {
     "id": "davi_michelangelo",
@@ -6776,7 +6786,10 @@
       "wikidata": "Q179900",
       "pt": 4372,
       "en": 60514
-    }
+    },
+    "variantes": [
+      "David"
+    ]
   },
   {
     "id": "charmander",
@@ -30509,7 +30522,8 @@
     "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
     "variantes": [
       "Elizabeth Tower",
-      "Torre Elizabeth"
+      "Torre Elizabeth",
+      "Great Bell"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Big_Ben"
@@ -31000,7 +31014,8 @@
     "descricao": "Estátua de bronze inspirada no conto de Hans Christian Andersen, à beira-mar na capital dinamarquesa.",
     "variantes": [
       "Den lille Havfrue",
-      "The Little Mermaid"
+      "The Little Mermaid",
+      "Pequena Sereia (estátua)"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)"
@@ -37602,7 +37617,9 @@
     "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
     "variantes": [
       "Santa Sofia",
-      "Aya Sofya"
+      "Aya Sofya",
+      "Ayasofya",
+      "Basílica de Santa Sofia"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hagia_Sophia",
@@ -47397,6 +47414,237 @@
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Aqua_regia"
+    ]
+  },
+  {
+    "id": "aleijadinho",
+    "nome": "Aleijadinho",
+    "descricao": "Antônio Francisco Lisboa, escultor e arquiteto do barroco mineiro do século dezoito.",
+    "variantes": [
+      "Antônio Francisco Lisboa"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Aleijadinho"
+    ]
+  },
+  {
+    "id": "mausoleu_de_halicarnasso",
+    "nome": "Mausoléu de Halicarnasso",
+    "descricao": "Túmulo monumental do governante Mausolo, na antiga Halicarnasso, uma das sete maravilhas do mundo antigo.",
+    "variantes": [
+      "Mausoleum at Halicarnassus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus",
+      "https://pt.wikipedia.org/wiki/Mausoléu_de_Halicarnasso"
+    ]
+  },
+  {
+    "id": "brutalismo",
+    "nome": "Brutalismo",
+    "descricao": "Estilo arquitetônico de meados do século vinte, marcado pelo concreto aparente e formas maciças.",
+    "variantes": [
+      "Arquitetura brutalista",
+      "Brutalist architecture"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Brutalist_architecture"
+    ]
+  },
+  {
+    "id": "os_candangos",
+    "nome": "Os Candangos",
+    "descricao": "Escultura de bronze de Bruno Giorgi, oficialmente chamada Os Guerreiros, na Praça dos Três Poderes, em Brasília.",
+    "variantes": [
+      "Os Guerreiros"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bruno_Giorgi",
+      "https://pt.wikipedia.org/wiki/Praça_dos_Três_Poderes"
+    ]
+  },
+  {
+    "id": "bauhaus",
+    "nome": "Bauhaus",
+    "descricao": "Escola alemã de arte, design e arquitetura fundada por Walter Gropius em Weimar, em 1919.",
+    "variantes": [
+      "Staatliches Bauhaus"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bauhaus"
+    ]
+  },
+  {
+    "id": "sede_das_nacoes_unidas",
+    "nome": "Sede das Nações Unidas",
+    "descricao": "Complexo de edifícios da sede da ONU em Manhattan, Nova York, concluído em 1952.",
+    "variantes": [
+      "Sede da ONU",
+      "Headquarters of the United Nations"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Headquarters_of_the_United_Nations"
+    ]
+  },
+  {
+    "id": "theatro_municipal_do_rio_de_janeiro",
+    "nome": "Theatro Municipal do Rio de Janeiro",
+    "descricao": "Teatro na Cinelândia, no centro do Rio de Janeiro, inaugurado em 1909.",
+    "variantes": [
+      "Teatro Municipal do Rio de Janeiro"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Theatro_Municipal_do_Rio_de_Janeiro"
+    ]
+  },
+  {
+    "id": "estatua_de_zeus_em_olimpia",
+    "nome": "Estátua de Zeus em Olímpia",
+    "descricao": "Estátua colossal de ouro e marfim de Zeus, feita por Fídias, uma das sete maravilhas do mundo antigo.",
+    "variantes": [
+      "Statue of Zeus at Olympia"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia"
+    ]
+  },
+  {
+    "id": "camille_claudel",
+    "nome": "Camille Claudel",
+    "descricao": "Escultora francesa, 1864-1943, autora de A Valsa e A Idade Madura.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Camille_Claudel"
+    ]
+  },
+  {
+    "id": "vitoria_de_samotracia",
+    "nome": "Vitória de Samotrácia",
+    "descricao": "Escultura grega helenística de mármore de uma deusa alada, exposta no Louvre.",
+    "variantes": [
+      "Nike de Samotrácia",
+      "Winged Victory of Samothrace"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Winged_Victory_of_Samothrace"
+    ]
+  },
+  {
+    "id": "calcadao_de_copacabana",
+    "nome": "Calçadão de Copacabana",
+    "descricao": "Calçada à beira-mar da praia de Copacabana, no Rio de Janeiro, com desenho de ondas em pedra portuguesa.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Calçada_portuguesa"
+    ]
+  },
+  {
+    "id": "igreja_de_sao_francisco_de_assis_ouro_preto",
+    "nome": "Igreja de São Francisco de Assis (Ouro Preto)",
+    "descricao": "Igreja barroca do século dezoito em Ouro Preto, com projeto atribuído a Aleijadinho.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Igreja_de_São_Francisco_de_Assis_(Ouro_Preto)"
+    ]
+  },
+  {
+    "id": "plano_piloto_de_brasilia",
+    "nome": "Plano Piloto de Brasília",
+    "descricao": "Projeto urbanístico de Brasília, vencedor do concurso de 1957.",
+    "variantes": [
+      "Plano Piloto"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Lúcio_Costa"
+    ]
+  },
+  {
+    "id": "catedral_de_florenca",
+    "nome": "Catedral de Florença",
+    "descricao": "Catedral de Santa Maria del Fiore, em Florença, com grande cúpula renascentista.",
+    "variantes": [
+      "Santa Maria del Fiore",
+      "Duomo de Florença"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Florence_Cathedral"
+    ]
+  },
+  {
+    "id": "os_doze_profetas_aleijadinho",
+    "nome": "Os Doze Profetas (Aleijadinho)",
+    "descricao": "Conjunto de doze estátuas de pedra-sabão de Aleijadinho no adro do Santuário do Bom Jesus de Matosinhos, em Minas Gerais.",
+    "variantes": [
+      "Profetas de Congonhas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Sanctuary_of_Bom_Jesus_do_Congonhas",
+      "https://pt.wikipedia.org/wiki/Aleijadinho"
+    ]
+  },
+  {
+    "id": "marmores_de_elgin",
+    "nome": "Mármores de Elgin",
+    "descricao": "Esculturas do Partenon retiradas de Atenas por Lord Elgin no início do século dezenove.",
+    "variantes": [
+      "Elgin Marbles",
+      "Mármores do Partenon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Elgin_Marbles"
+    ]
+  },
+  {
+    "id": "incendio_da_catedral_de_notre_dame_de_paris",
+    "nome": "Incêndio da Catedral de Notre-Dame de Paris",
+    "descricao": "Incêndio que destruiu o telhado e a agulha da catedral de Notre-Dame, em Paris.",
+    "variantes": [
+      "Notre-Dame de Paris fire"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Notre-Dame_de_Paris_fire"
+    ]
+  },
+  {
+    "id": "fonte_dos_quatro_rios",
+    "nome": "Fonte dos Quatro Rios",
+    "descricao": "Fonte barroca de Gian Lorenzo Bernini na Piazza Navona, em Roma, de 1651.",
+    "variantes": [
+      "Fontana dei Quattro Fiumi"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fontana_dei_Quattro_Fiumi"
+    ]
+  },
+  {
+    "id": "gargula",
+    "nome": "Gárgula",
+    "descricao": "Escultura grotesca no alto de edifícios, sobretudo catedrais góticas, que serve de bica para a água do telhado.",
+    "variantes": [
+      "Gargoyle"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gargoyle"
+    ]
+  },
+  {
+    "id": "piramides_de_gize",
+    "nome": "Pirâmides de Gizé",
+    "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
+    "variantes": [
+      "Complexo de Gizé",
+      "Giza pyramid complex"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Giza_pyramid_complex"
+    ]
+  },
+  {
+    "id": "ordem_corintia",
+    "nome": "Ordem coríntia",
+    "descricao": "Ordem arquitetônica clássica grega, a mais ornamentada, com capitel decorado com folhas de acanto.",
+    "variantes": [
+      "Corinthian order"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Corinthian_order"
     ]
   }
 ]

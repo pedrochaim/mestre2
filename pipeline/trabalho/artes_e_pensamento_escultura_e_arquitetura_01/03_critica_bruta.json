@@ -1,0 +1,407 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato correto, enunciado preciso e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do termo mausoléu confirmada na fonte; sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem pejorativa do termo gótico sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hedge 'teria vindo' adequado; distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Big Ben é o apelido do grande sino, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Partenon vem de parthénos, virgem; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Santa Sofia significa Santa Sabedoria; distratores curtos e do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Béton brut é bem documentado; fonte confirma brut e concreto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Resposta ambígua: a fonte lista também 'casa dos crânios', que combina com 'caveiras'.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome popular confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pátina verde por oxidação do cobre confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Centenário da Revolução Francesa confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundação mal assentada em solo fraco; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Relato de Vasari confirmado e atribuído corretamente.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chifres vêm da Vulgata; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Túmulo de Mumtaz Mahal confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Citação não confirmada nas fontes, com palavras que podem divergir do texto original; fato frágil.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ciclo da borracha confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pressão nazista sobre o fechamento em 1933 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eiffel projetou a armadura de ferro; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Niemeyer no projeto da ONU confirmado; Congresso é fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Porta do Inferno, inspirada em Dante; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspirado na Ópera de Garnier, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fídias, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distratores são pintoras, não escultoras; trocar por escultoras francesas.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Que escultora francesa foi aluna, colaboradora e amante de Auguste Rodin?",
+        "resposta": "Camille Claudel",
+        "distratores": [
+          "Germaine Richier",
+          "Niki de Saint Phalle",
+          "Jane Poupelet"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Camille_Claudel"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cristal de ferro ampliado 165 bilhões de vezes; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Carl Jacobsen, filho do fundador da Carlsberg; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nike confirmada nas duas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Repete o piso' é forte demais; o desenho é inspirado no do Rossio.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O desenho de ondas do calçadão de Copacabana, em pedra portuguesa, é inspirado no piso de que praça de Lisboa?",
+        "resposta": "Praça do Rossio",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Portuguese_pavement",
+          "https://pt.wikipedia.org/wiki/Calçada_portuguesa"
+        ]
+      }
+    },
+    {
+      "indice": 30,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Criou o projeto' é impreciso, pois o projeto envolveu vários nomes; Landowski esculpiu a estátua.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que escultor francês esculpiu a estátua do Cristo Redentor, inaugurada em 1931 no Rio?",
+        "resposta": "Paul Landowski",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+          "https://pt.wikipedia.org/wiki/Cristo_Redentor"
+        ]
+      }
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mestre Ataíde pintou o teto da nave; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lúcio Costa venceu o concurso de 1957.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Brunelleschi e a cúpula; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Utzon venceu o concurso e abandonou a obra; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Profetas em Congonhas; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Davi em Florença desde 1873; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Museu Britânico confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma fonte é página de desambiguação; manter só a fonte válida.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "Em que igreja de Roma fica O Êxtase de Santa Teresa, de Bernini?",
+        "resposta": "Santa Maria della Vittoria",
+        "distratores": [
+          "Santa Maria Maggiore",
+          "Santa Maria in Trastevere",
+          "São João de Latrão"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ecstasy_of_Saint_Teresa"
+        ]
+      }
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedra fundamental em 1882; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Incêndio de 2019 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descoberta em 1820 e levada ao Louvre; século dezenove correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Milhares de triângulos' subestima (são milhões) e a fonte só confirma pedra-sabão; reformular.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "aberta",
+        "pergunta": "Os pequenos ladrilhos triangulares que revestem o Cristo Redentor são feitos de que pedra?",
+        "resposta": "Pedra-sabão",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Christ_the_Redeemer_(statue)",
+          "https://pt.wikipedia.org/wiki/Cristo_Redentor"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Óculo confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cariátides confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio da Prata representa as Américas; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dedicado a Vishnu; confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Função de escoar água confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Grande Pirâmide de Quéops confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Acanto no capitel coríntio confirmado; distratores aceitáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dezoito torres no projeto de Gaudí; confirmado.",
+      "reescrita": null
+    }
+  ]
+}
