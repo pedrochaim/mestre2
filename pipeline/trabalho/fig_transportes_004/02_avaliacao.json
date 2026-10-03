@@ -1,0 +1,191 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Vários balões de ar quente no céu, claros e legíveis; a publicidade nos balões não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de veículo aéreo é este?",
+      "resposta": "Balão de ar quente",
+      "destino": 0,
+      "ancora": {
+        "nome": "Balão de ar quente",
+        "descricao": "Aeronave mais leve que o ar, com um envelope de ar aquecido e uma cesta para os passageiros.",
+        "variantes": [
+          "Balão",
+          "Balão aerostático"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "A placa do carro mostra '1950 2 CV A', o que entrega a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Avião turboélice de perfil, nítido e sem nome na imagem; só o prefixo de matrícula, que não entrega a resposta. A pergunta de época rende bem.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que década voou pela primeira vez este avião brasileiro?",
+      "resposta": "Década de 1960 (1968)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Embraer Bandeirante",
+        "descricao": "Avião turboélice bimotor leve de transporte EMB 110, projetado pela Embraer e lançado no fim dos anos 1960.",
+        "variantes": [
+          "EMB 110",
+          "Embraer EMB 110 Bandeirante",
+          "EMB-110"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto aérea nítida de dois porta-aviões, sem texto; os dois são do mesmo tipo, então a resposta é única.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de navio de guerra é este?",
+      "resposta": "Porta-aviões",
+      "distratores": [
+        "Encouraçado",
+        "Cruzador",
+        "Navio de assalto anfíbio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Porta-aviões",
+        "descricao": "Navio de guerra com convés de voo completo para lançar, recuperar e apoiar aeronaves no mar.",
+        "variantes": [
+          "Porta-aviao",
+          "Navio-aeródromo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto nítida de um Mustang de frente e de lado, sem nome escrito que entregue a resposta; só o emblema do cavalo e o '5.0'.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que empresa americana fabrica este carro esportivo?",
+      "resposta": "Ford",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ford Mustang",
+        "descricao": "Carro esportivo americano fabricado pela Ford desde 1964, que deu nome ao segmento dos pony cars.",
+        "variantes": [
+          "Mustang"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O painel luminoso traz 'Citroën DS' e 'Bj. 1955', e a placa diz '1956'. O texto entrega a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Helicóptero em voo, nítido, com rotor e cauda característicos. O texto LAPD e a matrícula não entregam a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de aeronave é esta?",
+      "resposta": "Helicóptero",
+      "distratores": [
+        "Autogiro",
+        "Convertiplano",
+        "Planador"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Helicóptero",
+        "descricao": "Aeronave de asas rotativas em que a sustentação e a propulsão vêm de rotores que giram na horizontal.",
+        "variantes": [
+          "Helicoptero"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto aérea nítida de um aerodeslizador com saia inflável e hélices de propulsão. O texto visível é só de segurança e numeração, e não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de veículo é este, que desliza sobre um colchão de ar?",
+      "resposta": "Hovercraft (aerodeslizador)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Hovercraft",
+        "descricao": "Veículo anfíbio que se sustenta sobre um colchão de ar produzido por ventiladores, também chamado de aerodeslizador.",
+        "variantes": [
+          "Aerodeslizador",
+          "Veículo sobre colchão de ar",
+          "Air-cushion vehicle"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Uma mulher comum aparece em primeiro plano, à direita, com o rosto visível, em meio a passageiros e pedestres."
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "'LAND ROVER' aparece escrito no capô e na placa dianteira, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "DB5 em foto nítida, de três quartos, sem o nome da marca ou do modelo; a placa 'Hilton & Moss' é de um revendedor e não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que montadora britânica fabricou este carro clássico?",
+      "resposta": "Aston Martin",
+      "destino": 0,
+      "ancora": {
+        "nome": "Aston Martin DB5",
+        "descricao": "Carro esportivo grã-turismo britânico fabricado pela Aston Martin de 1963 a 1965 e famoso por aparecer nos filmes de James Bond.",
+        "variantes": [
+          "DB5"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Lançamento nítido do ônibus espacial. 'Discovery' e 'United States' no casco não dão o nome do veículo nem a época.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que década começaram a voar os veículos espaciais como este?",
+      "resposta": "Década de 1980",
+      "distratores": [
+        "Década de 1960",
+        "Década de 1970",
+        "Década de 1990"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ônibus espacial",
+        "descricao": "Sistema espacial parcialmente reutilizável da NASA, o Space Shuttle, que voou de 1981 a 2011.",
+        "variantes": [
+          "Space Shuttle",
+          "Shuttle",
+          "Ônibus espacial Discovery"
+        ]
+      }
+    }
+  ]
+}

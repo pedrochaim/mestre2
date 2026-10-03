@@ -1,0 +1,80 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. Os trechos descrevem o balão de ar quente.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O primeiro voo foi em 1968 (os dois trechos, 22 ou 26 de outubro), então a década de 1960 está correta. O enunciado não nomeia o avião.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O trecho diz que navios de assalto com helicópteros são um modelo de porta-aviões, então esse distrator pode ser defendido como correto. Troquei por um tipo claramente distinto.",
+      "reescrita": {
+        "pergunta": "Que tipo de navio de guerra é este?",
+        "resposta": "Porta-aviões",
+        "distratores": [
+          "Encouraçado",
+          "Cruzador",
+          "Destróier"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Ford fabrica o Mustang (trechos). O enunciado não entrega a resposta e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com distratores do mesmo tipo (aeronaves) e nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista \"desliza sobre um colchão de ar\" define o hovercraft (\"veículo de colchão de ar\"), então a figura vira enfeite. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que tipo de veículo é este?",
+        "resposta": "Hovercraft (aerodeslizador)",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Aston Martin fabricou o DB5 (trechos). O enunciado só dá país e tipo de carro, sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Veículos espaciais como este\" é ambíguo: pode se referir a naves em geral, que voam desde os anos 1960. O primeiro voo do ônibus espacial foi em 1981.",
+      "reescrita": {
+        "pergunta": "Em que década voou pela primeira vez este veículo espacial americano?",
+        "resposta": "Década de 1980",
+        "distratores": [
+          "Década de 1960",
+          "Década de 1970",
+          "Década de 1990"
+        ]
+      }
+    }
+  ]
+}

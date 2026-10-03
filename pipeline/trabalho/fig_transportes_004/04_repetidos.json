@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que década voou pela primeira vez este veículo espacial americano?",
+        "resposta": "Década de 1980"
+      },
+      "existentes": [
+        {
+          "id": "q02402",
+          "pergunta": "Que tipo de nave da NASA é esta?",
+          "resposta": "Ônibus espacial"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o tipo de nave (ônibus espacial); a nova pergunta a década do primeiro voo. São fatos diferentes."
+    }
+  ]
+}
