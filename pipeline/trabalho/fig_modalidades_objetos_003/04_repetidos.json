@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que prova do atletismo esta estátua grega antiga retrata?",
+        "resposta": "Lançamento de disco"
+      },
+      "existentes": [
+        {
+          "id": "q02525",
+          "pergunta": "Que famosa escultura da Grécia antiga, conhecida por cópias romanas, é esta?",
+          "resposta": "Discóbolo"
+        },
+        {
+          "id": "q03231",
+          "pergunta": "Que escultor grego do século cinco antes de Cristo criou o Discóbolo, a estátua do atleta prestes a lançar o disco?",
+          "resposta": "Míron"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a modalidade esportiva retratada (lançamento de disco). As existentes pedem o nome da escultura (Discóbolo) e o escultor (Míron). São fatos diferentes, e na dúvida decide-se nova."
+    }
+  ]
+}

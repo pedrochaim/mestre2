@@ -1,0 +1,438 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Artes marciais mistas",
+        "descricao": "Esporte de combate de contato total que combina golpes em pé e luta no solo, disputado em ringue com grade.",
+        "variantes": [
+          "MMA",
+          "Mixed martial arts"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mumia_egipcia",
+          "nome": "Múmia egípcia",
+          "descricao": "Corpo humano ou animal preservado artificialmente pelos antigos egípcios para a vida após a morte",
+          "variantes": [
+            "Mummy",
+            "Múmia"
+          ]
+        },
+        {
+          "id": "o_clube_do_mickey",
+          "nome": "O Clube do Mickey",
+          "descricao": "Programa infantil de variedades da Disney exibido de 1989 a 1994 com o título The All-New Mickey Mouse Club",
+          "variantes": [
+            "The All-New Mickey Mouse Club",
+            "MMC"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        },
+        {
+          "id": "museu_de_arte_contemporanea_de_niteroi",
+          "nome": "Museu de Arte Contemporânea de Niterói",
+          "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+          "variantes": [
+            "MAC Niterói",
+            "MAC"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Salto de esqui",
+        "descricao": "Esporte de inverno em que o atleta salta de uma rampa curva sobre esquis, buscando a maior distância.",
+        "variantes": [
+          "Ski jumping"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "salto_de_frequencia",
+          "nome": "Salto de frequência",
+          "descricao": "Técnica de transmissão de rádio em que o sinal troca rapidamente de frequência para evitar interferência e interceptação.",
+          "variantes": [
+            "Espalhamento espectral por salto de frequência",
+            "Frequency-hopping spread spectrum"
+          ]
+        },
+        {
+          "id": "salto_de_sete_quedas",
+          "nome": "Salto de Sete Quedas",
+          "descricao": "Conjunto de cachoeiras do rio Paraná, na fronteira entre Brasil e Paraguai, submerso em 1982.",
+          "variantes": [
+            "Sete Quedas",
+            "Salto del Guairá",
+            "Guaíra Falls"
+          ]
+        },
+        {
+          "id": "sapatinhos_de_rubi",
+          "nome": "Sapatinhos de rubi",
+          "descricao": "Sapatos mágicos vermelhos usados por Dorothy, personagem de Judy Garland, no filme O Mágico de Oz, de 1939.",
+          "variantes": [
+            "Ruby slippers",
+            "Sapatinhos vermelhos de Dorothy",
+            "Sapatos de rubi"
+          ]
+        },
+        {
+          "id": "atol_de_bikini",
+          "nome": "Atol de Bikini",
+          "descricao": "Atol das Ilhas Marshall, no Pacífico, usado pelos Estados Unidos para testes nucleares.",
+          "variantes": [
+            "Bikini Atoll",
+            "Atol de Biquíni"
+          ]
+        },
+        {
+          "id": "pao_de_queijo",
+          "nome": "Pão de queijo",
+          "descricao": "Quitute brasileiro assado feito de polvilho, ovos, leite e queijo, típico de Minas Gerais",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vôlei",
+        "descricao": "Esporte coletivo em que duas equipes de seis jogadores, separadas por uma rede, tentam fazer a bola tocar o chão da quadra adversária.",
+        "variantes": [
+          "Voleibol",
+          "Volleyball"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "volei_de_praia",
+          "nome": "Vôlei de praia",
+          "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+          "variantes": [
+            "Voleibol de praia",
+            "Beach volleyball"
+          ]
+        },
+        {
+          "id": "futevolei",
+          "nome": "Futevôlei",
+          "descricao": "Esporte criado no Rio de Janeiro que mistura regras do vôlei de praia com os fundamentos do futebol.",
+          "variantes": [
+            "Footvolley",
+            "Futvôlei"
+          ]
+        },
+        {
+          "id": "volei_sentado",
+          "nome": "Vôlei sentado",
+          "descricao": "Variante do vôlei para pessoas com deficiência, jogada com os atletas sentados no chão.",
+          "variantes": [
+            "Voleibol sentado",
+            "Sitting volleyball"
+          ]
+        },
+        {
+          "id": "goalball",
+          "nome": "Goalball",
+          "descricao": "Esporte paralímpico coletivo para atletas com deficiência visual, jogado com uma bola sonora.",
+          "variantes": []
+        },
+        {
+          "id": "voce",
+          "nome": "Você",
+          "descricao": "Pronome de tratamento usado no português, sobretudo no Brasil, para a segunda pessoa",
+          "variantes": [
+            "Vosmecê",
+            "Cê"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Discóbolo de Míron",
+        "descricao": "Estátua grega do século quinto a.C. que retrata um atleta no momento de lançar o disco, conhecida por cópias romanas.",
+        "variantes": [
+          "Lançamento de disco",
+          "Discobolus",
+          "Discóbolo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "discobolo",
+          "nome": "Discóbolo",
+          "descricao": "Escultura grega de Míron, do século cinco a.C., que mostra um atleta lançando o disco, conhecida por cópias romanas.",
+          "variantes": [
+            "Discóbolo de Míron",
+            "Discobolus",
+            "Lançador de disco"
+          ]
+        },
+        {
+          "id": "lancamento_de_dardo",
+          "nome": "Lançamento de dardo",
+          "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+          "variantes": [
+            "Arremesso de dardo"
+          ]
+        },
+        {
+          "id": "julgamento_de_scopes",
+          "nome": "Julgamento de Scopes",
+          "descricao": "Processo judicial de 1925, em Dayton, Tennessee, contra o professor John Scopes por ensinar a evolução humana numa escola pública.",
+          "variantes": [
+            "Scopes trial",
+            "Julgamento do Macaco",
+            "Scopes Monkey Trial"
+          ]
+        },
+        {
+          "id": "sol_de_maio",
+          "nome": "Sol de Maio",
+          "descricao": "Sol dourado com rosto humano, emblema nacional que aparece nas bandeiras da Argentina e do Uruguai.",
+          "variantes": [
+            "Sol de Mayo",
+            "Sun of May"
+          ]
+        },
+        {
+          "id": "bolo_de_rolo",
+          "nome": "Bolo de rolo",
+          "descricao": "Bolo de camadas finíssimas de massa enroladas com goiabada, típico do Nordeste brasileiro",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ciclismo de estrada",
+        "descricao": "Modalidade de ciclismo competitivo disputada em ruas e estradas, com chegada em pelotão.",
+        "variantes": [
+          "Ciclismo",
+          "Ciclismo de rua",
+          "Road bicycle racing"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cinismo_escola_filosofica",
+          "nome": "Cinismo (escola filosófica)",
+          "descricao": "Escola filosófica grega de Antístenes e Diógenes de Sinope, que pregava viver com o mínimo e contra as convenções.",
+          "variantes": [
+            "Cínicos",
+            "Cynicism",
+            "Cinismo",
+            "Escola cínica"
+          ]
+        },
+        {
+          "id": "isla",
+          "nome": "Islã",
+          "descricao": "Religião monoteísta fundada por Maomé na Arábia no século sete",
+          "variantes": [
+            "Islão",
+            "Islamismo",
+            "Islam"
+          ]
+        },
+        {
+          "id": "tropicalia",
+          "nome": "Tropicália",
+          "descricao": "Movimento cultural brasileiro do fim dos anos 1960, liderado na música por Caetano Veloso e Gilberto Gil.",
+          "variantes": [
+            "Tropicalismo",
+            "Movimento tropicalista"
+          ]
+        },
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        },
+        {
+          "id": "suzuka",
+          "nome": "Suzuka",
+          "descricao": "Circuito japonês com traçado em forma de oito.",
+          "variantes": [
+            "Suzuka International Racing Course",
+            "Circuito de Suzuka"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Remo",
+        "descricao": "Esporte de corrida de barcos impulsionados por remos presos ao casco por forquetas.",
+        "variantes": [
+          "Rowing"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "remora",
+          "nome": "Rêmora",
+          "descricao": "Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça.",
+          "variantes": [
+            "Peixe-piolho"
+          ]
+        },
+        {
+          "id": "emerson_fittipaldi",
+          "nome": "Emerson Fittipaldi",
+          "descricao": "Piloto brasileiro bicampeão mundial de Fórmula 1, em 1972 e 1974, e bicampeão das 500 Milhas de Indianápolis.",
+          "variantes": [
+            "Emmo"
+          ]
+        },
+        {
+          "id": "frevo",
+          "nome": "Frevo",
+          "descricao": "Ritmo e dança do carnaval de Pernambuco, com passos acrobáticos e sombrinhas coloridas.",
+          "variantes": []
+        },
+        {
+          "id": "gringo",
+          "nome": "Gringo",
+          "descricao": "Palavra usada no Brasil e na América Latina para designar estrangeiros",
+          "variantes": []
+        },
+        {
+          "id": "charles_darwin",
+          "nome": "Charles Darwin",
+          "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+          "variantes": [
+            "Charles Robert Darwin",
+            "Darwin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Lançamento de martelo",
+        "descricao": "Prova de atletismo em que o atleta arremessa uma bola de metal presa por um cabo de aço a uma empunhadura.",
+        "variantes": [
+          "Hammer throw"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lancamento_de_dardo",
+          "nome": "Lançamento de dardo",
+          "descricao": "Prova de atletismo em que se arremessa uma lança o mais longe possível.",
+          "variantes": [
+            "Arremesso de dardo"
+          ]
+        },
+        {
+          "id": "acoplamento_de_mare",
+          "nome": "Acoplamento de maré",
+          "descricao": "Sincronização em que um astro leva o mesmo tempo para girar em torno de si e para orbitar outro, como a Lua em relação à Terra.",
+          "variantes": [
+            "Rotação síncrona",
+            "Travamento de maré",
+            "Tidal locking"
+          ]
+        },
+        {
+          "id": "foice_e_martelo",
+          "nome": "Foice e martelo",
+          "descricao": "Símbolo comunista que representa a união entre operários e camponeses, criado em 1918 e adotado na Rússia soviética.",
+          "variantes": [
+            "Martelo e foice",
+            "Hammer and sickle"
+          ]
+        },
+        {
+          "id": "alinhamentos_de_carnac",
+          "nome": "Alinhamentos de Carnac",
+          "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França.",
+          "variantes": [
+            "Pedras de Carnac",
+            "Carnac stones"
+          ]
+        },
+        {
+          "id": "death_note",
+          "nome": "Death Note",
+          "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele.",
+          "variantes": [
+            "Caderno da Morte"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é MMA."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é salto de esqui."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Vôlei é distinto de suas variantes (praia, sentado) e das demais."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "discobolo",
+      "motivo": "Mesma escultura de Míron, descrição e variantes coincidem."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é ciclismo de estrada."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o esporte remo."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lançamento de martelo é prova diferente do dardo e das demais."
+    }
+  ]
+}
