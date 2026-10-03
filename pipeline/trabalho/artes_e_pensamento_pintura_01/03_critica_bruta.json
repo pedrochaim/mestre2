@@ -1,0 +1,406 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado, enunciado preciso, resposta específica.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome e origem do apelido confirmados; pista não entrega a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Homicídio numa briga e fuga de Roma em 1606 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido herdado do irmão, 'pequeno barril', confirmado; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Giocondo é o sobrenome do marido, Francesco del Giocondo, segundo as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A Wikipédia em português confirma o verniz escurecido como origem do nome.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vinci é a comuna toscana onde ele nasceu; correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado tupi confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fato correto, mas a resposta é uma pessoa e não uma causa; o ângulo certo é conexao.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Tarsila do Amaral pintou o Abaporu como presente de aniversário para quem?",
+        "resposta": "Oswald de Andrade",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Abaporu",
+          "https://en.wikipedia.org/wiki/Abaporu"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Título original confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte em português inexistente; troco por fonte sobre a fragata Méduse, que sustenta a resposta.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "No quadro A Jangada da Medusa, de Géricault, Medusa não é o monstro mitológico. É o nome de quê?",
+        "resposta": "Uma fragata francesa que naufragou",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Raft_of_the_Medusa",
+          "https://en.wikipedia.org/wiki/French_frigate_M%C3%A9duse_(1810)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido dado pela Time confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Gótico' refere-se ao estilo Carpenter Gothic da casa; a janela é só o detalhe mais marcante.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "No título do quadro Gótico Americano, de Grant Wood, a palavra gótico se refere a quê?",
+        "resposta": "Ao estilo arquitetônico da casa ao fundo",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/American_Gothic"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Condição de liberdade e democracia confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Intoxicação por chumbo nas tintas confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Motivo patriótico alegado confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prisão de Apollinaire confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A técnica seca, mais frágil que o afresco, está na fonte em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pergunta trata da origem de um apelido, então o ângulo é nome, e não causa.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Depois da morte de Michelangelo, o pintor Daniele da Volterra ganhou o apelido de fazedor de calções. O que ele fez no Juízo Final?",
+        "resposta": "Cobriu os nus com panos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/The_Last_Judgment_(Michelangelo)",
+          "https://en.wikipedia.org/wiki/Daniele_da_Volterra"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gauguin e a briga de dezembro de 1888 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Catarata confirmada; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Acidente de ônibus aos dezoito anos confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Camembert derretendo ao sol confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crime passional confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Segunda fonte é inexistente; a primeira sustenta o fato.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "A gravura Chuva Súbita sobre a Ponte Ohashi, de Hiroshige, ganhou uma cópia a óleo feita por que pintor holandês, fã da arte japonesa?",
+        "resposta": "Vincent van Gogh",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Sudden_Shower_over_Shin-%C5%8Chashi_Bridge_and_Atake"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vermeer nasceu e trabalhou em Delft, cidade da louça azul e branca.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos não sustentam o fato, e 'dourada' no enunciado vaza 'ouro' da resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Dourado' no enunciado vaza parte do título da resposta.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Um retrato de Klimt, saqueado pelos nazistas e recuperado pela família na Justiça, inspirou que filme de 2015 com Helen Mirren?",
+        "resposta": "A Dama Dourada",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I",
+          "https://en.wikipedia.org/wiki/Woman_in_Gold"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "A página de O Grito diz que a máscara não foi inspirada na pintura, e as fontes divergem.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O 'canto bonito' reservado aos ícones é fato bem documentado sobre a exposição de 1915.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Artigo de Monteiro Lobato em 1917 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Platão com o rosto de Leonardo confirmado; o 'teria' cobre a incerteza.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascido em Creta, confirmado; distratores bons.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Painéis na sede da ONU confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Orangerie e as duas salas ovais confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parque no Piauí, com pinturas rupestres, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintado em Florença em 1888, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Asilo de Saint-Rémy confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeira exposição em 1874, no estúdio de Nadar, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "A Missão chegou ao Rio em 1816, fato bem conhecido; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ano de 1907 confirmado; 'considerado' protege a afirmação.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quatro adolescentes descobriram a caverna em 1940.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O título da série fala em trinta e seis vistas.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Série de 32 telas, uma por sabor, confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crânio anamórfico confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rei e rainha refletidos no espelho, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pigmento feito de múmias egípcias confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Napoleão fez a travessia numa mula, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "International Klein Blue, azul, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pissarro (1830) é mais velho que Degas, Monet e Renoir, e foi chamado de decano do grupo.",
+      "reescrita": null
+    }
+  ]
+}

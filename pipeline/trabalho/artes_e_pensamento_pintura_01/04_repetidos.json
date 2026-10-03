@@ -1,0 +1,368 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Na Itália e na França, a Mona Lisa é chamada de Gioconda. De onde vem esse nome?",
+        "resposta": "Do sobrenome do marido da retratada"
+      },
+      "existentes": [
+        {
+          "id": "q00412",
+          "pergunta": "Em que museu fica este quadro?",
+          "resposta": "Museu do Louvre, em Paris"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A Ronda Noturna, de Rembrandt, mostra na verdade uma cena de dia. O que a fez parecer noturna e lhe rendeu esse nome?",
+        "resposta": "O verniz escurecido com o tempo"
+      },
+      "existentes": [
+        {
+          "id": "q00416",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Rembrandt"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O quadro conhecido como A Mãe de Whistler tem um título original com jeito de composição musical. Qual é?",
+        "resposta": "Arranjo em Cinza e Preto"
+      },
+      "existentes": [
+        {
+          "id": "q00438",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "James McNeill Whistler"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No quadro A Jangada da Medusa, de Géricault, Medusa não é o monstro mitológico. É o nome de quê?",
+        "resposta": "Uma fragata francesa que naufragou"
+      },
+      "existentes": [
+        {
+          "id": "q00426",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Théodore Géricault"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "No título do quadro Gótico Americano, de Grant Wood, a palavra gótico se refere a quê?",
+        "resposta": "Ao estilo arquitetônico da casa ao fundo"
+      },
+      "existentes": [
+        {
+          "id": "q00439",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Grant Wood"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "A Última Ceia, de Leonardo da Vinci, começou a descascar poucos anos depois de pronta. Por quê?",
+        "resposta": "Foi pintada na parede seca, e não em afresco"
+      },
+      "existentes": [
+        {
+          "id": "q00413",
+          "pergunta": "Qual é o nome desta pintura?",
+          "resposta": "A Última Ceia"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Depois da morte de Michelangelo, o pintor Daniele da Volterra ganhou o apelido de fazedor de calções. O que ele fez no Juízo Final?",
+        "resposta": "Cobriu os nus com panos"
+      },
+      "existentes": [
+        {
+          "id": "q01986",
+          "pergunta": "Que artista renascentista italiano pintou este afresco, feito entre 1536 e 1541 no Vaticano?",
+          "resposta": "Michelangelo"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Van Gogh cortou parte da própria orelha em 1888, logo depois de uma briga com que pintor que morava com ele em Arles?",
+        "resposta": "Paul Gauguin"
+      },
+      "existentes": [
+        {
+          "id": "q00418",
+          "pergunta": "Quem é o pintor deste autorretrato?",
+          "resposta": "Vincent van Gogh"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "A gravura Chuva Súbita sobre a Ponte Ohashi, de Hiroshige, ganhou uma cópia a óleo feita por que pintor holandês, fã da arte japonesa?",
+        "resposta": "Vincent van Gogh"
+      },
+      "existentes": [
+        {
+          "id": "q00440",
+          "pergunta": "Que artista japonês criou esta gravura?",
+          "resposta": "Hiroshige"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em 1915, Malevich expôs o Quadrado Negro no alto do canto da sala, lugar que nas casas russas era reservado a quê?",
+        "resposta": "Aos ícones religiosos"
+      },
+      "existentes": [
+        {
+          "id": "q00447",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Kazimir Malevich"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "No afresco A Escola de Atenas, Rafael teria dado ao filósofo Platão o rosto de que outro artista?",
+        "resposta": "Leonardo da Vinci"
+      },
+      "existentes": [
+        {
+          "id": "q00433",
+          "pergunta": "Quem pintou este afresco?",
+          "resposta": "Rafael"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Em que museu de Paris as grandes telas das Ninfeias de Monet ocupam duas salas ovais?",
+        "resposta": "Museu de l'Orangerie"
+      },
+      "existentes": [
+        {
+          "id": "q00420",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Claude Monet"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O Parque Nacional da Serra da Capivara, famoso por milhares de pinturas rupestres, fica em que estado brasileiro?",
+        "resposta": "Piauí"
+      },
+      "existentes": [
+        {
+          "id": "q02430",
+          "pergunta": "Em que estado fica o Parque Nacional da Serra da Capivara, famoso por suas pinturas rupestres pré-históricas?",
+          "resposta": "Piauí"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Pedro Américo pintou Independência ou Morte longe do Brasil. Em que cidade italiana ele fez o quadro?",
+        "resposta": "Florença"
+      },
+      "existentes": [
+        {
+          "id": "q00408",
+          "pergunta": "Que acontecimento da história do Brasil este quadro retrata?",
+          "resposta": "A Independência (o Grito do Ipiranga, em 1822)"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Van Gogh pintou A Noite Estrelada a partir da vista da janela do lugar onde estava internado. Que lugar era esse?",
+        "resposta": "Um asilo psiquiátrico em Saint-Rémy"
+      },
+      "existentes": [
+        {
+          "id": "q00403",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Vincent van Gogh"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "A Grande Onda de Kanagawa, de Hokusai, faz parte de uma série cujo título fala em quantas vistas do Monte Fuji?",
+        "resposta": "Trinta e seis"
+      },
+      "existentes": [
+        {
+          "id": "q00407",
+          "pergunta": "Que artista japonês criou esta gravura?",
+          "resposta": "Hokusai"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que objeto, pintado de forma distorcida e só reconhecível quando visto de lado, aparece no chão do quadro Os Embaixadores, de Holbein?",
+        "resposta": "Uma caveira"
+      },
+      "existentes": [
+        {
+          "id": "q00431",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Hans Holbein, o Jovem"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No quadro As Meninas, de Velázquez, quem aparece refletido no pequeno espelho ao fundo da sala?",
+        "resposta": "O rei e a rainha da Espanha"
+      },
+      "existentes": [
+        {
+          "id": "q00415",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Diego Velázquez"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "No quadro de David, Napoleão cruza os Alpes num cavalo empinado. Na vida real, em que animal ele fez a travessia?",
+        "resposta": "Uma mula"
+      },
+      "existentes": [
+        {
+          "id": "q00437",
+          "pergunta": "Quem pintou este quadro?",
+          "resposta": "Jacques-Louis David"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Origem do nome Gioconda, não o museu."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pergunta o motivo do nome, não o autor."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Título original, não o autor."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Significado de Medusa, não o autor."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Significado de gótico, não o autor."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Causa do descascamento, não o nome da obra."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ação de Volterra, não o autor do afresco."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pintor da briga, fato diferente do autor do autorretrato."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Quem copiou a gravura, não o autor dela."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Lugar de exposição, não o autor."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Rosto de Platão, não o autor."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Museu das Ninfeias, não o autor."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q02430",
+      "motivo": "Mesmo fato: estado da Serra da Capivara."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Cidade onde foi pintado, não o acontecimento retratado."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Local de internação, não o autor."
+    },
+    {
+      "caso": 16,
+      "decisao": "nova",
+      "motivo": "Número de vistas da série, não o autor."
+    },
+    {
+      "caso": 17,
+      "decisao": "nova",
+      "motivo": "Objeto distorcido, não o autor."
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Reflexo no espelho, não o autor."
+    },
+    {
+      "caso": 19,
+      "decisao": "nova",
+      "motivo": "Animal da travessia, não o autor."
+    }
+  ]
+}

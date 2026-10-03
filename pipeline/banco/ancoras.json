@@ -5907,7 +5907,8 @@
     "nome": "Independência ou Morte (pintura)",
     "descricao": "Quadro de Pedro Américo, de 1888, também chamado O Grito do Ipiranga.",
     "variantes": [
-      "O Grito do Ipiranga (quadro)"
+      "O Grito do Ipiranga (quadro)",
+      "O Grito do Ipiranga"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Independência_ou_Morte_(pintura)"
@@ -5973,7 +5974,9 @@
     "nome": "Mona Lisa",
     "descricao": "Retrato pintado por Leonardo da Vinci no início do século dezesseis.",
     "variantes": [
-      "Gioconda"
+      "Gioconda",
+      "La Gioconda",
+      "A Gioconda"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mona_Lisa",
@@ -5999,7 +6002,11 @@
       "wikidata": "Q128910",
       "pt": 5470,
       "en": 81771
-    }
+    },
+    "variantes": [
+      "The Last Supper",
+      "Il Cenacolo"
+    ]
   },
   {
     "id": "a_criacao_de_adao",
@@ -6029,7 +6036,10 @@
       "wikidata": "Q208758",
       "pt": 2682,
       "en": 37489
-    }
+    },
+    "variantes": [
+      "Las Meninas"
+    ]
   },
   {
     "id": "a_ronda_noturna",
@@ -6044,7 +6054,11 @@
       "wikidata": "Q219831",
       "pt": 1054,
       "en": 21992
-    }
+    },
+    "variantes": [
+      "The Night Watch",
+      "De Nachtwacht"
+    ]
   },
   {
     "id": "o_jardim_das_delicias_terrenas",
@@ -6074,7 +6088,10 @@
       "wikidata": "Q19363211",
       "pt": 387,
       "en": 2950
-    }
+    },
+    "variantes": [
+      "Self-Portrait with Bandaged Ear"
+    ]
   },
   {
     "id": "impressao_nascer_do_sol",
@@ -6105,7 +6122,11 @@
       "wikidata": "Q1189907",
       "pt": 731,
       "en": 26413
-    }
+    },
+    "variantes": [
+      "Water Lilies",
+      "Nymphéas"
+    ]
   },
   {
     "id": "o_almoco_dos_barqueiros",
@@ -6195,7 +6216,11 @@
       "wikidata": "Q212616",
       "pt": 1433,
       "en": 22607
-    }
+    },
+    "variantes": [
+      "The Raft of the Medusa",
+      "Le Radeau de la Méduse"
+    ]
   },
   {
     "id": "almoco_na_relva",
@@ -6270,7 +6295,10 @@
       "wikidata": "Q1212937",
       "pt": 498,
       "en": 16309
-    }
+    },
+    "variantes": [
+      "The Ambassadors"
+    ]
   },
   {
     "id": "a_primavera_botticelli",
@@ -6300,7 +6328,11 @@
       "wikidata": "Q186953",
       "pt": 5946,
       "en": 37155
-    }
+    },
+    "variantes": [
+      "The School of Athens",
+      "Scuola di Atene"
+    ]
   },
   {
     "id": "os_jogadores_de_cartas",
@@ -6359,7 +6391,10 @@
       "wikidata": "Q59201",
       "pt": 534,
       "en": 15797
-    }
+    },
+    "variantes": [
+      "Napoleon Crossing the Alps"
+    ]
   },
   {
     "id": "a_mae_de_whistler",
@@ -6374,7 +6409,11 @@
       "wikidata": "Q687182",
       "pt": 147,
       "en": 13735
-    }
+    },
+    "variantes": [
+      "Whistler's Mother",
+      "Arranjo em Cinza e Preto nº 1"
+    ]
   },
   {
     "id": "gotico_americano",
@@ -6389,7 +6428,10 @@
       "wikidata": "Q464782",
       "pt": 436,
       "en": 39577
-    }
+    },
+    "variantes": [
+      "American Gothic"
+    ]
   },
   {
     "id": "chuva_subita_sobre_a_ponte_ohashi",
@@ -6403,7 +6445,10 @@
       "wikidata": "Q5826309",
       "pt": 0,
       "en": 588
-    }
+    },
+    "variantes": [
+      "Sudden Shower over Shin-Ōhashi Bridge and Atake"
+    ]
   },
   {
     "id": "o_balanco_fragonard",
@@ -6505,7 +6550,10 @@
       "wikidata": "Q1170315",
       "pt": 0,
       "en": 7218
-    }
+    },
+    "variantes": [
+      "Black Square"
+    ]
   },
   {
     "id": "tigre_numa_tempestade_tropical",
@@ -30243,7 +30291,8 @@
     "descricao": "Afresco de Michelangelo na parede do altar da Capela Sistina, no Vaticano, pintado entre 1536 e 1541.",
     "variantes": [
       "Il Giudizio Universale",
-      "Juízo Final"
+      "Juízo Final",
+      "The Last Judgment"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/The_Last_Judgment_%28Michelangelo%29",
@@ -44903,6 +44952,319 @@
     "fontes": [
       "https://pt.wikipedia.org/wiki/Efeito_Doppler",
       "https://en.wikipedia.org/wiki/Doppler_effect"
+    ]
+  },
+  {
+    "id": "fauvismo",
+    "nome": "Fauvismo",
+    "descricao": "Movimento de pintura francês do início do século vinte, liderado por Henri Matisse, marcado por cores puras e intensas.",
+    "variantes": [
+      "Fovismo",
+      "Fauvism"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Fauvismo",
+      "https://en.wikipedia.org/wiki/Fauvism"
+    ]
+  },
+  {
+    "id": "caravaggio",
+    "nome": "Caravaggio",
+    "descricao": "Pintor barroco italiano, nascido Michelangelo Merisi, mestre do claro-escuro, que viveu de 1571 a 1610.",
+    "variantes": [
+      "Michelangelo Merisi da Caravaggio",
+      "Michelangelo Merisi"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Caravaggio",
+      "https://en.wikipedia.org/wiki/Caravaggio"
+    ]
+  },
+  {
+    "id": "sandro_botticelli",
+    "nome": "Sandro Botticelli",
+    "descricao": "Pintor renascentista florentino do século quinze, autor de O Nascimento de Vênus e A Primavera.",
+    "variantes": [
+      "Botticelli",
+      "Alessandro di Mariano di Vanni Filipepi"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Sandro_Botticelli",
+      "https://en.wikipedia.org/wiki/Sandro_Botticelli"
+    ]
+  },
+  {
+    "id": "leonardo_da_vinci",
+    "nome": "Leonardo da Vinci",
+    "descricao": "Pintor, inventor e cientista renascentista italiano, autor da Mona Lisa e de A Última Ceia, que viveu de 1452 a 1519.",
+    "variantes": [
+      "Leonardo",
+      "Da Vinci"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Leonardo_da_Vinci",
+      "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+    ]
+  },
+  {
+    "id": "abaporu",
+    "nome": "Abaporu",
+    "descricao": "Quadro de Tarsila do Amaral, de 1928, que mostra uma figura de pés e mãos enormes ao lado de um cacto e de um sol.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Abaporu",
+      "https://en.wikipedia.org/wiki/Abaporu"
+    ]
+  },
+  {
+    "id": "jackson_pollock",
+    "nome": "Jackson Pollock",
+    "descricao": "Pintor expressionista abstrato americano, famoso por respingar e gotejar tinta sobre telas no chão, que viveu de 1912 a 1956.",
+    "variantes": [
+      "Paul Jackson Pollock"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jackson_Pollock",
+      "https://pt.wikipedia.org/wiki/Jackson_Pollock"
+    ]
+  },
+  {
+    "id": "guernica",
+    "nome": "Guernica",
+    "descricao": "Grande painel de Pablo Picasso, de 1937, sobre o bombardeio da cidade basca de Guernica na Guerra Civil Espanhola.",
+    "variantes": [
+      "Guernica (Picasso)"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guernica_(Picasso)",
+      "https://pt.wikipedia.org/wiki/Guernica_(quadro)"
+    ]
+  },
+  {
+    "id": "candido_portinari",
+    "nome": "Candido Portinari",
+    "descricao": "Pintor brasileiro, nascido em Brodowski em 1903 e morto em 1962, autor de Os Retirantes e dos painéis Guerra e Paz.",
+    "variantes": [
+      "Portinari"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Candido_Portinari",
+      "https://en.wikipedia.org/wiki/Candido_Portinari"
+    ]
+  },
+  {
+    "id": "roubo_da_mona_lisa",
+    "nome": "Roubo da Mona Lisa",
+    "descricao": "Furto da Mona Lisa do Museu do Louvre, em agosto de 1911, cometido pelo italiano Vincenzo Peruggia; o quadro foi recuperado em 1913.",
+    "variantes": [
+      "Furto da Mona Lisa"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vincenzo_Peruggia",
+      "https://en.wikipedia.org/wiki/Mona_Lisa"
+    ]
+  },
+  {
+    "id": "claude_monet",
+    "nome": "Claude Monet",
+    "descricao": "Pintor impressionista francês, autor de Impressão, Nascer do Sol e da série das Ninfeias, que viveu de 1840 a 1926.",
+    "variantes": [
+      "Oscar-Claude Monet",
+      "Monet"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Claude_Monet",
+      "https://en.wikipedia.org/wiki/Claude_Monet"
+    ]
+  },
+  {
+    "id": "frida_kahlo",
+    "nome": "Frida Kahlo",
+    "descricao": "Pintora mexicana, famosa por seus autorretratos, que viveu de 1907 a 1954.",
+    "variantes": [
+      "Magdalena Carmen Frida Kahlo y Calderón"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Frida_Kahlo",
+      "https://en.wikipedia.org/wiki/Frida_Kahlo"
+    ]
+  },
+  {
+    "id": "a_persistencia_da_memoria",
+    "nome": "A Persistência da Memória",
+    "descricao": "Quadro surrealista de Salvador Dalí, de 1931, com relógios moles derretendo numa paisagem; está no MoMA, em Nova York.",
+    "variantes": [
+      "The Persistence of Memory",
+      "La persistencia de la memoria"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Persistence_of_Memory"
+    ]
+  },
+  {
+    "id": "almeida_junior",
+    "nome": "Almeida Júnior",
+    "descricao": "Pintor paulista José Ferraz de Almeida Júnior, autor de Caipira Picando Fumo, que viveu de 1850 a 1899.",
+    "variantes": [
+      "José Ferraz de Almeida Júnior"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Almeida_J%C3%BAnior",
+      "https://en.wikipedia.org/wiki/Jos%C3%A9_Ferraz_de_Almeida_J%C3%BAnior"
+    ]
+  },
+  {
+    "id": "johannes_vermeer",
+    "nome": "Johannes Vermeer",
+    "descricao": "Pintor holandês do século dezessete, autor de Moça com Brinco de Pérola e A Leiteira.",
+    "variantes": [
+      "Jan Vermeer",
+      "Vermeer de Delft"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Johannes_Vermeer",
+      "https://en.wikipedia.org/wiki/Johannes_Vermeer"
+    ]
+  },
+  {
+    "id": "retrato_de_adele_bloch_bauer_i",
+    "nome": "Retrato de Adele Bloch-Bauer I",
+    "descricao": "Retrato dourado pintado por Gustav Klimt em 1907, saqueado pelos nazistas e devolvido à família da retratada em 2006.",
+    "variantes": [
+      "Portrait of Adele Bloch-Bauer I",
+      "A Dama Dourada"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Portrait_of_Adele_Bloch-Bauer_I"
+    ]
+  },
+  {
+    "id": "anita_malfatti",
+    "nome": "Anita Malfatti",
+    "descricao": "Pintora modernista brasileira, que viveu de 1889 a 1964 e fez uma polêmica exposição em São Paulo em 1917.",
+    "variantes": [
+      "Anita Catarina Malfatti"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Anita_Malfatti",
+      "https://en.wikipedia.org/wiki/Anita_Malfatti"
+    ]
+  },
+  {
+    "id": "el_greco",
+    "nome": "El Greco",
+    "descricao": "Pintor nascido na Grécia, que fez carreira em Toledo, na Espanha, e viveu de 1541 a 1614.",
+    "variantes": [
+      "Doménikos Theotokópoulos",
+      "O Grego"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/El_Greco",
+      "https://en.wikipedia.org/wiki/El_Greco"
+    ]
+  },
+  {
+    "id": "guerra_e_paz_portinari",
+    "nome": "Guerra e Paz (Portinari)",
+    "descricao": "Par de grandes painéis pintados por Candido Portinari entre 1952 e 1956 e doados pelo Brasil à ONU.",
+    "variantes": [
+      "Painéis Guerra e Paz"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Candido_Portinari"
+    ]
+  },
+  {
+    "id": "primeira_exposicao_impressionista",
+    "nome": "Primeira Exposição Impressionista",
+    "descricao": "Mostra coletiva de Monet, Degas, Renoir, Pissarro e outros, realizada em Paris no antigo estúdio do fotógrafo Nadar, em 1874.",
+    "variantes": [
+      "Exposição de 1874"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Impressionism",
+      "https://pt.wikipedia.org/wiki/Impressionismo"
+    ]
+  },
+  {
+    "id": "missao_artistica_francesa",
+    "nome": "Missão Artística Francesa",
+    "descricao": "Grupo de artistas franceses, entre eles Jean-Baptiste Debret e Nicolas-Antoine Taunay, que chegou ao Rio de Janeiro no reinado de Dom João.",
+    "variantes": [
+      "Missão Francesa"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Miss%C3%A3o_Art%C3%ADstica_Francesa"
+    ]
+  },
+  {
+    "id": "les_demoiselles_d_avignon",
+    "nome": "Les Demoiselles d'Avignon",
+    "descricao": "Quadro de Pablo Picasso com cinco mulheres nuas de formas angulosas, considerado precursor do cubismo; está no MoMA, em Nova York.",
+    "variantes": [
+      "As Senhoritas de Avignon",
+      "As Moças de Avignon"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Les_Demoiselles_d%27Avignon"
+    ]
+  },
+  {
+    "id": "caverna_de_lascaux",
+    "nome": "Caverna de Lascaux",
+    "descricao": "Caverna no sudoeste da França com pinturas rupestres de animais feitas há cerca de dezessete mil anos.",
+    "variantes": [
+      "Lascaux",
+      "Grotte de Lascaux"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Lascaux",
+      "https://pt.wikipedia.org/wiki/Lascaux"
+    ]
+  },
+  {
+    "id": "latas_de_sopa_campbell",
+    "nome": "Latas de Sopa Campbell",
+    "descricao": "Obra de Andy Warhol, de 1962, formada por telas que reproduzem latas de sopa da marca Campbell; está no MoMA, em Nova York.",
+    "variantes": [
+      "Campbell's Soup Cans"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Campbell%27s_Soup_Cans"
+    ]
+  },
+  {
+    "id": "marrom_mumia",
+    "nome": "Marrom múmia",
+    "descricao": "Pigmento castanho usado na pintura europeia entre os séculos dezesseis e vinte, fabricado a partir de restos de múmias egípcias.",
+    "variantes": [
+      "Mummy brown",
+      "Castanho múmia",
+      "Caput mortuum egípcio"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mummy_brown"
+    ]
+  },
+  {
+    "id": "yves_klein",
+    "nome": "Yves Klein",
+    "descricao": "Artista francês, que viveu de 1928 a 1962, conhecido por suas pinturas monocromáticas.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Yves_Klein",
+      "https://pt.wikipedia.org/wiki/Yves_Klein"
+    ]
+  },
+  {
+    "id": "camille_pissarro",
+    "nome": "Camille Pissarro",
+    "descricao": "Pintor impressionista nascido nas Antilhas dinamarquesas em 1830 e morto em 1903, figura central do grupo impressionista.",
+    "variantes": [
+      "Jacob Abraham Camille Pissarro",
+      "Pissarro"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Camille_Pissarro",
+      "https://pt.wikipedia.org/wiki/Camille_Pissarro"
     ]
   }
 ]
