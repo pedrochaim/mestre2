@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que compositor é este?",
+        "resposta": "Wolfgang Amadeus Mozart"
+      },
+      "existentes": [
+        {
+          "id": "q03253",
+          "pergunta": "O nome Amadeus, que ficou ligado a Mozart, vem do latim. O que ele significa?",
+          "resposta": "Amado por Deus"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que compositor romântico é este?",
+        "resposta": "Frédéric Chopin"
+      },
+      "existentes": [
+        {
+          "id": "q03284",
+          "pergunta": "Chopin foi enterrado em Paris, mas, a pedido dele, seu coração foi levado para qual cidade?",
+          "resposta": "Varsóvia"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Qual destes romances foi escrito pelo autor retratado nesta figura?",
+        "resposta": "Crime e Castigo"
+      },
+      "existentes": [
+        {
+          "id": "q02942",
+          "pergunta": "Em 1849, Dostoiévski já estava diante do pelotão de fuzilamento quando a execução foi interrompida. Por quê?",
+          "resposta": "O czar comutou a pena"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que escritor brasileiro é este?",
+        "resposta": "Monteiro Lobato"
+      },
+      "existentes": [
+        {
+          "id": "q02917",
+          "pergunta": "Em 1917, a crítica de Monteiro Lobato que ficou conhecida como Paranoia ou Mistificação atacou a exposição de que pintora?",
+          "resposta": "Anita Malfatti"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Qual destas obras foi composta pelo músico desta foto?",
+        "resposta": "Bachianas Brasileiras"
+      },
+      "existentes": [
+        {
+          "id": "q03272",
+          "pergunta": "O que Villa-Lobos, Anita Malfatti e Mário de Andrade têm em comum no ano de 1922?",
+          "resposta": "Participaram da Semana de Arte Moderna"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que compositor italiano é este?",
+        "resposta": "Giuseppe Verdi"
+      },
+      "existentes": [
+        {
+          "id": "q03256",
+          "pergunta": "Na luta pela unificação italiana, gritar Viva Verdi era um código. As letras do sobrenome formavam a sigla de qual frase?",
+          "resposta": "Vittorio Emanuele Re d'Italia"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Qual destas obras foi escrita pelo poeta retratado nesta figura?",
+        "resposta": "I-Juca-Pirama"
+      },
+      "existentes": [
+        {
+          "id": "q02908",
+          "pergunta": "Em 1864, voltando doente da Europa, Gonçalves Dias morreu perto da costa do Maranhão. Qual foi a causa?",
+          "resposta": "O naufrágio do seu navio"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Identificar o compositor pela imagem é diferente do significado de Amadeus."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar Chopin é diferente de saber para onde foi seu coração."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Romance de Dostoiévski é fato diferente do fuzilamento interrompido."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar Lobato é diferente da crítica a Anita Malfatti."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Obra de Villa-Lobos é diferente da participação na Semana de 22."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Identificar Verdi é diferente do código Viva Verdi."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Obra de Gonçalves Dias é diferente da causa de sua morte."
+    }
+  ]
+}

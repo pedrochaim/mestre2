@@ -1,0 +1,519 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "William Shakespeare",
+        "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+        "variantes": [
+          "Shakespeare",
+          "O Bardo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bugio",
+          "nome": "Bugio",
+          "descricao": "Macacos do gênero Alouatta, das Américas, famosos pelos uivos altíssimos.",
+          "variantes": [
+            "Guariba",
+            "Alouatta",
+            "Howler monkey",
+            "Barbado"
+          ]
+        },
+        {
+          "id": "urso_pardo",
+          "nome": "Urso-pardo",
+          "descricao": "Grande urso (Ursus arctos) de pelagem marrom, nativo da Eurásia e da América do Norte.",
+          "variantes": [
+            "Urso-marrom",
+            "Grizzly",
+            "Ursus arctos"
+          ]
+        },
+        {
+          "id": "barreado",
+          "nome": "Barreado",
+          "descricao": "Prato de carne cozida por muitas horas em panela de barro vedada com massa de farinha, típico do litoral sul do Brasil",
+          "variantes": []
+        },
+        {
+          "id": "o_bem_amado",
+          "nome": "O Bem-Amado",
+          "descricao": "Telenovela da Rede Globo de 1973, escrita por Dias Gomes, sobre o prefeito Odorico Paraguaçu.",
+          "variantes": []
+        },
+        {
+          "id": "leopardo",
+          "nome": "Leopardo",
+          "descricao": "Grande felino do gênero Panthera, de pelagem dourada com rosetas escuras (Panthera pardus).",
+          "variantes": [
+            "Panthera pardus",
+            "Leopardo-africano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Jorge Amado",
+        "descricao": "Escritor brasileiro baiano (1912–2001), autor de Gabriela, Cravo e Canela e Capitães da Areia.",
+        "variantes": [
+          "Jorge Leal Amado de Faria"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_bem_amado",
+          "nome": "O Bem-Amado",
+          "descricao": "Telenovela da Rede Globo de 1973, escrita por Dias Gomes, sobre o prefeito Odorico Paraguaçu.",
+          "variantes": []
+        },
+        {
+          "id": "damas_brasileiras",
+          "nome": "Damas brasileiras",
+          "descricao": "Variante do jogo de damas jogada no Brasil num tabuleiro de oito por oito casas, com dama que anda várias casas.",
+          "variantes": [
+            "Brazilian draughts",
+            "Jogo de damas"
+          ]
+        },
+        {
+          "id": "gramado",
+          "nome": "Gramado",
+          "descricao": "Município turístico da Serra Gaúcha, no Rio Grande do Sul, conhecido pela arquitetura de influência alemã e italiana.",
+          "variantes": []
+        },
+        {
+          "id": "ramada",
+          "nome": "Ramadã",
+          "descricao": "Nono mês do calendário islâmico, dedicado ao jejum",
+          "variantes": [
+            "Ramadão",
+            "Ramadan"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Wolfgang Amadeus Mozart",
+        "descricao": "Compositor clássico austríaco nascido em Salzburgo (1756–1791).",
+        "variantes": [
+          "Mozart"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wolfgang_amadeus_mozart",
+          "nome": "Wolfgang Amadeus Mozart",
+          "descricao": "Compositor austríaco do período clássico, nascido em Salzburgo em 1756.",
+          "variantes": [
+            "Mozart",
+            "Wolfgang Amadé Mozart"
+          ]
+        },
+        {
+          "id": "marta",
+          "nome": "Marta",
+          "descricao": "Marta Vieira da Silva, jogadora eleita seis vezes a melhor do mundo.",
+          "variantes": [
+            "Marta Vieira da Silva"
+          ]
+        },
+        {
+          "id": "marte",
+          "nome": "Marte",
+          "descricao": "Quarto planeta a partir do Sol, conhecido como planeta vermelho.",
+          "variantes": [
+            "Mars",
+            "Planeta vermelho"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        },
+        {
+          "id": "mucarela",
+          "nome": "Muçarela",
+          "descricao": "Queijo fresco italiano de massa filada, originário do sul da Itália",
+          "variantes": [
+            "Mozzarella",
+            "Mussarela"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Frédéric Chopin",
+        "descricao": "Compositor e pianista polonês do início do Romantismo (1810–1849).",
+        "variantes": [
+          "Fryderyk Chopin",
+          "Chopin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "frederic_chopin",
+          "nome": "Frédéric Chopin",
+          "descricao": "Compositor e pianista polonês do romantismo (1810–1849), que viveu e morreu em Paris.",
+          "variantes": [
+            "Chopin",
+            "Fryderyk Chopin"
+          ]
+        },
+        {
+          "id": "china",
+          "nome": "China",
+          "descricao": "País da Ásia Oriental, oficialmente República Popular da China, cuja capital é Pequim.",
+          "variantes": [
+            "República Popular da China",
+            "RPC"
+          ]
+        },
+        {
+          "id": "dinastia_qin",
+          "nome": "Dinastia Qin",
+          "descricao": "Primeira dinastia imperial da China, de 221 a 206 antes de Cristo, fundada por Qin Shi Huang.",
+          "variantes": [
+            "Qin",
+            "Ch'in"
+          ]
+        },
+        {
+          "id": "cigana",
+          "nome": "Cigana",
+          "descricao": "Ave da Amazônia e do Orinoco (Opisthocomus hoazin), de crista eriçada e olho vermelho, que fermenta folhas no sistema digestivo.",
+          "variantes": [
+            "Jacu-cigano",
+            "Hoatzin",
+            "Opisthocomus hoazin",
+            "Hoazin"
+          ]
+        },
+        {
+          "id": "carl_lewis",
+          "nome": "Carl Lewis",
+          "descricao": "Atleta americano, campeão de quatro provas nos Jogos de Los Angeles 1984.",
+          "variantes": [
+            "Frederick Carlton Lewis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Fiódor Dostoiévski",
+        "descricao": "Romancista russo do século dezenove, autor de Crime e Castigo e Os Irmãos Karamázov.",
+        "variantes": [
+          "Dostoevsky",
+          "Fyodor Dostoevsky"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fiodor_dostoievski",
+          "nome": "Fiódor Dostoiévski",
+          "descricao": "Escritor russo (1821–1881), autor de Crime e Castigo e Os Irmãos Karamázov.",
+          "variantes": [
+            "Fyodor Dostoevsky",
+            "Dostoievski"
+          ]
+        },
+        {
+          "id": "duplo_twist_carpado",
+          "nome": "Duplo twist carpado",
+          "descricao": "Movimento da ginástica artística de solo que entrou no código de pontuação com o nome da ginasta brasileira que o executou primeiro.",
+          "variantes": [
+            "Dos Santos",
+            "Duplo twist carpado (Dos Santos)",
+            "Double Arabian piked"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Monteiro Lobato",
+        "descricao": "Escritor brasileiro (1882–1948), criador do Sítio do Picapau Amarelo.",
+        "variantes": [
+          "José Bento Monteiro Lobato"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "monteiro_lobato",
+          "nome": "Monteiro Lobato",
+          "descricao": "Escritor paulista (1882–1948), criador do Sítio do Picapau Amarelo.",
+          "variantes": [
+            "José Bento Renato Monteiro Lobato"
+          ]
+        },
+        {
+          "id": "monte_athos",
+          "nome": "Monte Athos",
+          "descricao": "Península do norte da Grécia ocupada por uma comunidade de mosteiros ortodoxos",
+          "variantes": [
+            "Monte Atos",
+            "Mount Athos",
+            "Montanha Sagrada"
+          ]
+        },
+        {
+          "id": "monte_palatino",
+          "nome": "Monte Palatino",
+          "descricao": "Uma das sete colinas de Roma, onde ficavam as residências dos imperadores romanos.",
+          "variantes": [
+            "Palatino",
+            "Palatine Hill",
+            "Palatium"
+          ]
+        },
+        {
+          "id": "monstro_de_gila",
+          "nome": "Monstro-de-gila",
+          "descricao": "Lagarto venenoso (Heloderma suspectum) do sudoeste dos Estados Unidos e noroeste do México.",
+          "variantes": [
+            "Gila monster",
+            "Heloderma suspectum"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Heitor Villa-Lobos",
+        "descricao": "Compositor e maestro brasileiro (1887–1959), autor das Bachianas Brasileiras e dos Choros.",
+        "variantes": [
+          "Villa-Lobos"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "heitor_villa_lobos",
+          "nome": "Heitor Villa-Lobos",
+          "descricao": "Compositor brasileiro (1887–1959), autor das Bachianas Brasileiras e dos Choros.",
+          "variantes": [
+            "Villa-Lobos",
+            "Villa Lobos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Arthur Schopenhauer",
+        "descricao": "Filósofo alemão (1788–1860), autor de O Mundo como Vontade e Representação.",
+        "variantes": [
+          "Schopenhauer"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "erwin_schrodinger",
+          "nome": "Erwin Schrödinger",
+          "descricao": "Físico teórico austríaco (1887–1961), autor da equação de Schrödinger e Nobel de Física de 1933.",
+          "variantes": [
+            "Schroedinger"
+          ]
+        },
+        {
+          "id": "arthur_ashe",
+          "nome": "Arthur Ashe",
+          "descricao": "Tenista americano (1943-1993), campeão do US Open em 1968 e de Wimbledon em 1975.",
+          "variantes": []
+        },
+        {
+          "id": "abridor_de_latas",
+          "nome": "Abridor de latas",
+          "descricao": "Utensílio de cozinha usado para abrir latas de conserva.",
+          "variantes": [
+            "Can opener",
+            "Abre-latas"
+          ]
+        },
+        {
+          "id": "era_aberta",
+          "nome": "Era Aberta",
+          "descricao": "Período do tênis iniciado em 1968, em que profissionais e amadores passaram a competir nos mesmos torneios.",
+          "variantes": [
+            "Open Era"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Giuseppe Verdi",
+        "descricao": "Compositor italiano de óperas (1813–1901), autor de La Traviata e Aida.",
+        "variantes": [
+          "Verdi"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "giuseppe_verdi",
+          "nome": "Giuseppe Verdi",
+          "descricao": "Compositor italiano de óperas do século dezenove, autor de Aida, La Traviata e Nabucco.",
+          "variantes": [
+            "Verdi"
+          ]
+        },
+        {
+          "id": "palmeiras",
+          "nome": "Palmeiras",
+          "descricao": "Sociedade Esportiva Palmeiras, clube de futebol de São Paulo fundado em 1914 por imigrantes italianos.",
+          "variantes": [
+            "Sociedade Esportiva Palmeiras",
+            "Verdão"
+          ]
+        },
+        {
+          "id": "river_plate",
+          "nome": "River Plate",
+          "descricao": "Club Atlético River Plate, clube de futebol de Buenos Aires fundado em 1901, hoje sediado no bairro de Núñez.",
+          "variantes": [
+            "Club Atlético River Plate",
+            "River",
+            "CARP"
+          ]
+        },
+        {
+          "id": "figado",
+          "nome": "Fígado",
+          "descricao": "Órgão do abdome que processa nutrientes, produz bile e filtra substâncias do sangue.",
+          "variantes": [
+            "Liver"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Gonçalves Dias",
+        "descricao": "Poeta romântico brasileiro (1823–1864), autor de Canção do Exílio.",
+        "variantes": [
+          "Antônio Gonçalves Dias"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "goncalves_dias",
+          "nome": "Gonçalves Dias",
+          "descricao": "Poeta romântico maranhense (1823–1864), autor da Canção do Exílio.",
+          "variantes": [
+            "Antônio Gonçalves Dias"
+          ]
+        },
+        {
+          "id": "antonio_vivaldi",
+          "nome": "Antonio Vivaldi",
+          "descricao": "Compositor e violinista barroco italiano de Veneza (1678–1741), autor de As Quatro Estações.",
+          "variantes": [
+            "Vivaldi",
+            "Antonio Lucio Vivaldi"
+          ]
+        },
+        {
+          "id": "magic_paula",
+          "nome": "Magic Paula",
+          "descricao": "Maria Paula Gonçalves da Silva, armadora brasileira campeã mundial de basquete em 1994.",
+          "variantes": [
+            "Paula",
+            "Maria Paula Gonçalves da Silva"
+          ]
+        },
+        {
+          "id": "tomas_antonio_gonzaga",
+          "nome": "Tomás Antônio Gonzaga",
+          "descricao": "Poeta árcade luso-brasileiro (1744–1810), autor de Marília de Dirceu e participante da Inconfidência Mineira.",
+          "variantes": []
+        },
+        {
+          "id": "tostao",
+          "nome": "Tostão",
+          "descricao": "Eduardo Gonçalves de Andrade, atacante do Cruzeiro e da seleção brasileira campeã mundial em 1970.",
+          "variantes": [
+            "Eduardo Gonçalves de Andrade"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Shakespeare."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Jorge Amado é escritor; candidatas são entidades distintas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "wolfgang_amadeus_mozart",
+      "motivo": "Mesmo compositor austríaco nascido em Salzburgo em 1756."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "frederic_chopin",
+      "motivo": "Mesmo compositor polonês (1810–1849)."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "fiodor_dostoievski",
+      "motivo": "Mesmo escritor russo, autor de Crime e Castigo."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "monteiro_lobato",
+      "motivo": "Mesmo escritor (1882–1948), criador do Sítio do Picapau Amarelo."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "heitor_villa_lobos",
+      "motivo": "Mesmo compositor brasileiro (1887–1959)."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Schopenhauer não consta entre as candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "giuseppe_verdi",
+      "motivo": "Mesmo compositor italiano de Aida e La Traviata."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "goncalves_dias",
+      "motivo": "Mesmo poeta romântico (1823–1864), autor da Canção do Exílio."
+    }
+  ]
+}

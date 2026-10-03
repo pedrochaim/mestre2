@@ -1,0 +1,232 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato Chandos, sem texto, reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destas peças foi escrita pelo autor retratado nesta figura?",
+      "resposta": "Macbeth",
+      "distratores": [
+        "Fausto",
+        "Tartufo",
+        "Antígona"
+      ],
+      "destino": 4,
+      "ancora": {
+        "nome": "William Shakespeare",
+        "descricao": "Dramaturgo e poeta inglês (1564–1616), autor de Hamlet e Romeu e Julieta.",
+        "variantes": [
+          "Shakespeare",
+          "O Bardo"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, escritor muito conhecido no Brasil.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito pelo autor desta foto?",
+      "resposta": "Gabriela, Cravo e Canela",
+      "distratores": [
+        "Vidas Secas",
+        "Dom Casmurro",
+        "O Cortiço"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Jorge Amado",
+        "descricao": "Escritor brasileiro baiano (1912–2001), autor de Gabriela, Cravo e Canela e Capitães da Areia.",
+        "variantes": [
+          "Jorge Leal Amado de Faria"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Foto minúscula e de baixa resolução, rosto pouco reconhecível; ruim num celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato póstumo famoso, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositor é este?",
+      "resposta": "Wolfgang Amadeus Mozart",
+      "destino": 2,
+      "ancora": {
+        "nome": "Wolfgang Amadeus Mozart",
+        "descricao": "Compositor clássico austríaco nascido em Salzburgo (1756–1791).",
+        "variantes": [
+          "Mozart"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Aquarela sem texto; distinguir entre românticos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que compositor romântico é este?",
+      "resposta": "Frédéric Chopin",
+      "distratores": [
+        "Franz Liszt",
+        "Robert Schumann",
+        "Franz Schubert"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Frédéric Chopin",
+        "descricao": "Compositor e pianista polonês do início do Romantismo (1810–1849).",
+        "variantes": [
+          "Fryderyk Chopin",
+          "Chopin"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato de Perov; assinatura em cirílico não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "multipla",
+      "pergunta": "Qual destes romances foi escrito pelo autor retratado nesta pintura?",
+      "resposta": "Crime e Castigo",
+      "distratores": [
+        "Guerra e Paz",
+        "Anna Kariênina",
+        "Pais e Filhos"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Fiódor Dostoiévski",
+        "descricao": "Romancista russo do século dezenove, autor de Crime e Castigo e Os Irmãos Karamázov.",
+        "variantes": [
+          "Dostoevsky",
+          "Fyodor Dostoevsky"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto histórica sem texto, escritor figura pública.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que escritor brasileiro é este?",
+      "resposta": "Monteiro Lobato",
+      "distratores": [
+        "Graciliano Ramos",
+        "Lima Barreto",
+        "Olavo Bilac"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Monteiro Lobato",
+        "descricao": "Escritor brasileiro (1882–1948), criador do Sítio do Picapau Amarelo.",
+        "variantes": [
+          "José Bento Monteiro Lobato"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto pequena mas legível; só assinatura do fotógrafo, sem entregar a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi composta pelo músico desta foto?",
+      "resposta": "Bachianas Brasileiras",
+      "distratores": [
+        "O Guarani",
+        "Rapsódia Húngara",
+        "Quadros de uma Exposição"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Heitor Villa-Lobos",
+        "descricao": "Compositor e maestro brasileiro (1887–1959), autor das Bachianas Brasileiras e dos Choros.",
+        "variantes": [
+          "Villa-Lobos"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto famosa, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que filósofo alemão é este?",
+      "resposta": "Arthur Schopenhauer",
+      "destino": 3,
+      "ancora": {
+        "nome": "Arthur Schopenhauer",
+        "descricao": "Filósofo alemão (1788–1860), autor de O Mundo como Vontade e Representação.",
+        "variantes": [
+          "Schopenhauer"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "O nome 'LVIS DE CAMOES' aparece escrito na imagem e entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Gravura sem texto legível; assinaturas ilegíveis não entregam.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que compositor italiano é este?",
+      "resposta": "Giuseppe Verdi",
+      "destino": 4,
+      "ancora": {
+        "nome": "Giuseppe Verdi",
+        "descricao": "Compositor italiano de óperas (1813–1901), autor de La Traviata e Aida.",
+        "variantes": [
+          "Verdi"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato oval claro; texto no rolo é ilegível e não entrega a resposta.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual destas obras foi escrita pelo poeta retratado nesta pintura?",
+      "resposta": "I-Juca-Pirama",
+      "distratores": [
+        "Iracema",
+        "Marília de Dirceu",
+        "O Navio Negreiro"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gonçalves Dias",
+        "descricao": "Poeta romântico brasileiro (1823–1864), autor de Canção do Exílio.",
+        "variantes": [
+          "Antônio Gonçalves Dias"
+        ]
+      }
+    }
+  ]
+}

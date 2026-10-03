@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Macbeth é de Shakespeare (trechos). Distratores são de outros autores (Goethe/Marlowe, Molière, Sófocles), sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gabriela, Cravo e Canela é de Jorge Amado (trechos). Distratores são de Graciliano, Machado e Aluísio Azevedo.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista nem vazamento. Mozart é emblemático.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chopin foi compositor do Romantismo (trechos). O adjetivo 'romântico' não entrega a resposta. Os distratores não são Chopin.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'pintura', mas 'mostra' não confirma que a imagem seja uma pintura. Pode ser foto. Basta trocar por 'figura'. Crime e Castigo é dele (trechos).",
+      "reescrita": {
+        "pergunta": "Qual destes romances foi escrito pelo autor retratado nesta figura?",
+        "resposta": "Crime e Castigo",
+        "distratores": [
+          "Guerra e Paz",
+          "Anna Kariênina",
+          "Pais e Filhos"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento com múltipla escolha de escritores brasileiros. O enunciado não dá pista. Os distratores são críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bachianas Brasileiras é de Villa-Lobos (trechos). Os distratores são de Carlos Gomes, Liszt e Mussorgsky.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. 'Filósofo alemão' ajuda sem entregar.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto. 'Compositor italiano' ajuda sem entregar.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado afirma 'pintura' sem que 'mostra' confirme. Trocar por 'figura'. I-Juca-Pirama é dele (trechos). Os distratores são de Alencar, Gonzaga e Castro Alves.",
+      "reescrita": {
+        "pergunta": "Qual destas obras foi escrita pelo poeta retratado nesta figura?",
+        "resposta": "I-Juca-Pirama",
+        "distratores": [
+          "Iracema",
+          "Marília de Dirceu",
+          "O Navio Negreiro"
+        ]
+      }
+    }
+  ]
+}
