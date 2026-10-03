@@ -1,0 +1,168 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "O nome Google vem de uma grafia errada de qual termo da matemática, que designa o número um seguido de cem zeros?",
+        "resposta": "Googol"
+      },
+      "existentes": [
+        {
+          "id": "q03426",
+          "pergunta": "O nome Google é uma brincadeira com um termo matemático que designa qual número?",
+          "resposta": "Googol, um seguido de cem zeros"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A Fanta foi criada na Alemanha durante a Segunda Guerra Mundial porque a filial alemã da Coca-Cola não conseguia mais receber o quê?",
+        "resposta": "O xarope da Coca-Cola"
+      },
+      "existentes": [
+        {
+          "id": "q00130",
+          "pergunta": "A Fanta foi criada na Alemanha durante a guerra porque a filial local de uma empresa americana ficou sem qual ingrediente importado?",
+          "resposta": "Xarope da Coca-Cola"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Art Fry teve a ideia do Post-it porque seus marcadores de página viviam caindo de qual livro, usado no coral da igreja?",
+        "resposta": "Hinário"
+      },
+      "existentes": [
+        {
+          "id": "q00883",
+          "pergunta": "Art Fry, da empresa 3M, pensou no Post-it porque seus marcadores de página viviam caindo de um livro que ele usava no coral da igreja. Que livro?",
+          "resposta": "O hinário"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1920, Earle Dickson criou o curativo adesivo Band-Aid para ajudar quem, que vivia se cortando na cozinha?",
+        "resposta": "A esposa dele, Josephine"
+      },
+      "existentes": [
+        {
+          "id": "q00886",
+          "pergunta": "Em 1920, Earle Dickson, funcionário da Johnson e Johnson, montou o primeiro Band-Aid para ajudar uma pessoa que vivia se cortando na cozinha. Quem?",
+          "resposta": "A esposa dele"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que década a São Paulo Alpargatas lançou as sandálias de borracha Havaianas?",
+        "resposta": "Década de 1960"
+      },
+      "existentes": [
+        {
+          "id": "q00896",
+          "pergunta": "As sandálias Havaianas, lançadas no Brasil em 1962, foram inspiradas em qual calçado tradicional japonês?",
+          "resposta": "Zori"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em que ano a empresa alemã Bayer registrou a marca Aspirina?",
+        "resposta": "1899"
+      },
+      "existentes": [
+        {
+          "id": "q03146",
+          "pergunta": "Usada contra dor desde a Antiguidade, o que a casca do salgueiro tem a ver com a aspirina?",
+          "resposta": "É a origem do ácido salicílico"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que ano a boneca Barbie foi apresentada ao público numa feira de brinquedos em Nova York?",
+        "resposta": "1959"
+      },
+      "existentes": [
+        {
+          "id": "q00877",
+          "pergunta": "Lançada em 1959 pela Mattel, a boneca Barbie ganhou esse nome em homenagem a quem?",
+          "resposta": "Barbara, filha da criadora Ruth Handler"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Muito antes dos videogames, a Nintendo foi fundada em Quioto, em 1889, para fabricar o quê?",
+        "resposta": "Cartas de baralho hanafuda"
+      },
+      "existentes": [
+        {
+          "id": "q01345",
+          "pergunta": "Em qual cidade japonesa, antiga capital imperial, a Nintendo foi fundada e mantém sua sede até hoje?",
+          "resposta": "Quioto"
+        },
+        {
+          "id": "q01346",
+          "pergunta": "Quando foi fundada, em 1889, muito antes dos videogames, a Nintendo fabricava qual produto?",
+          "resposta": "Cartas de baralho hanafuda"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que termo/número googol origina o nome Google.",
+      "id_existente": "q03426"
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: falta do xarope da Coca-Cola na Alemanha.",
+      "id_existente": "q00130"
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: o hinário do coral.",
+      "id_existente": "q00883"
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Band-Aid criado para a esposa de Dickson.",
+      "id_existente": "q00886"
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Década de lançamento é diferente da inspiração no zori (embora o ano esteja no enunciado existente, o fato perguntado é outro)."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Ano do registro da marca difere da origem do ácido salicílico."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Ano de apresentação difere da origem do nome."
+    },
+    {
+      "caso": 8,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Nintendo fabricava cartas hanafuda em 1889.",
+      "id_existente": "q01346"
+    }
+  ]
+}

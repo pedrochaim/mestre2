@@ -1,0 +1,493 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nome de Adidas vem de Adi Dassler, confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Leg godt, 'brinque bem', confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ole Kirk Christiansen fundou a Lego em 1932; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Só para parecer' e 'criadores' são imprecisos; o nome foi cunhado por Reuben Mattus para soar dinamarquês.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome do sorvete Häagen-Dazs, criado no Bronx por Reuben Mattus, foi inventado para soar como de qual país europeu?",
+        "resposta": "Dinamarca",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/H%C3%A4agen-Dazs"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte fala em grafia errada de googol, e não em trocadilho.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O nome Google vem de uma grafia errada de qual termo da matemática, que designa o número um seguido de cem zeros?",
+        "resposta": "Googol",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Google",
+          "https://en.wikipedia.org/wiki/Googol"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Horch significa 'ouça' e Audi é sua tradução latina.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Catupiry vem do tupi e significa 'excelente'.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Foi um casal de imigrantes, e o primeiro produto se chamava cremelino; o enunciado é impreciso.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em 1911, em qual estado brasileiro um casal de imigrantes italianos começou a produzir o requeijão que viria a ser o Catupiry?",
+        "resposta": "Minas Gerais",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Catupiry"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sadia = SA + final de Concórdia, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado confuso ('rótulo em inglês e qual nome'); reformular de modo claro.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Qual era o nome em inglês da marca de leite condensado que, no Brasil, o público passou a chamar de Leite Moça?",
+        "resposta": "Milkmaid",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Leite_Mo%C3%A7a"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hering é arenque em alemão e o logotipo tem dois peixes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundada em 1880 pelos irmãos Hering em Blumenau.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Yakult vem de jahurto, iogurte em esperanto.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nestle é diminutivo de ninho no dialeto suábio; o ninho é o logotipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mercedes homenageia a filha de Emil Jellinek.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pessoas que deram nome' é impreciso: os bonecos receberam nomes dos filhos de Ruth Handler.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Os bonecos Barbie e Ken têm os nomes de duas pessoas reais, ligadas à criadora da Barbie. Que parentesco havia entre elas?",
+        "resposta": "Irmãos, filhos de Ruth Handler",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Ken_(doll)",
+          "https://en.wikipedia.org/wiki/Barbie"
+        ]
+      }
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Conexão clara: nomes de marcas que viraram palavras comuns.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Play-Doh era limpador de papel de parede; o plástico-bolha nasceu de um papel de parede 3D.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte inexistente a trocar; distrator Pancho Villa não foi presidente.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "multipla",
+        "pergunta": "Qual ex-presidente mexicano, exilado nos Estados Unidos, apresentou o chicle a Thomas Adams, que depois passou a fabricar chicletes?",
+        "resposta": "Santa Anna",
+        "distratores": [
+          "Benito Juárez",
+          "Porfirio Díaz",
+          "Victoriano Huerta"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Antonio_L%C3%B3pez_de_Santa_Anna",
+          "https://en.wikipedia.org/wiki/Chewing_gum"
+        ]
+      }
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cavalo de Baracca inspirou o símbolo da Ferrari.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Jeca Tatuzinho é de Monteiro Lobato, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado vago e a resposta 'Starbuck' vaza o nome da marca; perguntar o romance.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Qual romance de Herman Melville inspirou o nome da rede de cafeterias Starbucks?",
+        "resposta": "Moby Dick",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Starbucks",
+          "https://en.wikipedia.org/wiki/Starbuck_(Moby-Dick)"
+        ]
+      }
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Subaru é o nome japonês das Plêiades.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fanta surgiu pela falta do xarope da Coca-Cola devido ao embargo da guerra; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O Instituto Brasileiro do Café pediu à Nestlé solução para o excedente de café.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Art Fry queria ancorar marcador no hinário.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dickson criou o Band-Aid para a esposa Josephine.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pietro Ferrero criou a pasta de avelã em Alba por falta de cacau; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crocodilo era o apelido de René Lacoste.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aviator foi feito para pilotos americanos, conforme a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mars viu soldados na Guerra Civil Espanhola comendo chocolate coberto.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que a razão é incerta; é o que Heinz afirmou, então atribuir a ele.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Segundo o próprio Henry Heinz, por que ele escolheu o número cinquenta e sete para o slogan dos seus produtos?",
+        "resposta": "Eram os números da sorte dele e da esposa",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Heinz_57",
+          "https://en.wikipedia.org/wiki/Henry_J._Heinz"
+        ]
+      }
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte de John Pemberton é desambiguação; trocar pela página correta.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Em 1886, na cidade americana de Atlanta, qual farmacêutico criou a fórmula da Coca-Cola?",
+        "resposta": "John Pemberton",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/John_Stith_Pemberton",
+          "https://en.wikipedia.org/wiki/Coca-Cola"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: 'cola' do nome Coca-Cola entrega 'noz-de-cola'.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Melitta Bentz inventou o filtro em 1908 e fundou a empresa.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bayer comercializou a heroína como remédio contra tosse.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Irmãos Kellogg criaram os flocos em Battle Creek.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ruth Wakefield, do Toll House Inn, criou o cookie nos anos 1930.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Danone fundada em Barcelona em 1919.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A receita foi de Emil Baumann e a forma de Tobler; 'criado por Tobler' é impreciso.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em qual cidade suíça foi criado, em 1908, o chocolate Toblerone?",
+        "resposta": "Berna",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Toblerone"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tetra Pak é sueca.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Cujo nome' é ambíguo (país ou bebida); citar a bebida Krating Daeng.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "multipla",
+        "pergunta": "O Red Bull foi inspirado numa bebida energética de qual país asiático, chamada Krating Daeng, que significa touro vermelho?",
+        "resposta": "Tailândia",
+        "distratores": [
+          "Japão",
+          "Vietnã",
+          "Coreia do Sul"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Red_Bull",
+          "https://en.wikipedia.org/wiki/Krating_Daeng"
+        ]
+      }
+    },
+    {
+      "indice": 43,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar o século do ano é artificial, e a origem de 1366 é só o ano da marca; perguntar o ano do rótulo.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Que ano aparece no rótulo da cerveja Stella Artois, ligado à cervejaria Den Hoorn, de Leuven?",
+        "resposta": "1366",
+        "distratores": [
+          "1266",
+          "1416",
+          "1566"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Stella_Artois"
+        ]
+      }
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Havaianas criadas em 1962.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "1899 não é tecnicamente o último ano do século dezenove; perguntar o ano.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano a empresa alemã Bayer registrou a marca Aspirina?",
+        "resposta": "1899",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Aspirin"
+        ]
+      }
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Barbie estreou na feira de brinquedos de Nova York em 1959.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: o nome Palmolive já entrega palma e oliva.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arrendamento de 9 mil anos confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Uma fonte é página de desambiguação; manter só a do Swoosh.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Em 1971, quanto a estudante de design Carolyn Davidson recebeu pelo desenho do símbolo da Nike?",
+        "resposta": "Trinta e cinco dólares",
+        "distratores": [
+          "Trezentos e cinquenta dólares",
+          "Três mil dólares",
+          "Trinta mil dólares"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Swoosh"
+        ]
+      }
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nintendo nasceu para fazer cartas hanafuda.",
+      "reescrita": null
+    }
+  ]
+}
