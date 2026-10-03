@@ -1,0 +1,201 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1516, Thomas More inventou a palavra utopia juntando termos gregos para batizar uma ilha imaginária. O que ela significa literalmente?",
+        "resposta": "Lugar nenhum"
+      },
+      "existentes": [
+        {
+          "id": "q02930",
+          "pergunta": "O título do livro Utopia, de Thomas More, junta duas palavras gregas. O que ele significa literalmente?",
+          "resposta": "Lugar nenhum"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A guilhotina leva o nome de um deputado francês que, em 1789, defendeu um método de execução menos cruel. Qual era a profissão dele?",
+        "resposta": "Médico"
+      },
+      "existentes": [
+        {
+          "id": "q02704",
+          "pergunta": "Que médico francês deu nome a este aparelho?",
+          "resposta": "Joseph-Ignace Guillotin"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O nome da Virgínia, colônia inglesa que virou estado americano, homenageia que rainha que nunca se casou?",
+        "resposta": "Elizabeth I"
+      },
+      "existentes": [
+        {
+          "id": "q01163",
+          "pergunta": "Que esquadra espanhola foi derrotada em 1588, durante o reinado da rainha deste retrato?",
+          "resposta": "Invencível Armada"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1517, Martinho Lutero escreveu suas noventa e cinco teses criticando principalmente a venda de quê pela Igreja?",
+        "resposta": "Indulgências"
+      },
+      "existentes": [
+        {
+          "id": "q03538",
+          "pergunta": "Em 1517, as noventa e cinco teses de Martinho Lutero atacavam sobretudo que prática da Igreja Católica?",
+          "resposta": "Venda de indulgências"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Na década de 1530, Henrique Oitavo rompeu com a Igreja de Roma. Que recusa do papa motivou essa ruptura?",
+        "resposta": "Anular seu primeiro casamento"
+      },
+      "existentes": [
+        {
+          "id": "q01166",
+          "pergunta": "Que rei da Inglaterra aparece neste retrato?",
+          "resposta": "Henrique VIII"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1633, a Inquisição condenou Galileu Galilei à prisão domiciliar por defender que ideia astronômica?",
+        "resposta": "Que a Terra gira em torno do Sol"
+      },
+      "existentes": [
+        {
+          "id": "q01033",
+          "pergunta": "Este cientista italiano apontou um telescópio aperfeiçoado para qual planeta e descobriu suas quatro maiores luas?",
+          "resposta": "Júpiter"
+        },
+        {
+          "id": "q03019",
+          "pergunta": "Segundo uma história provavelmente lendária, de que torre Galileu soltou objetos de pesos diferentes para mostrar que eles caem juntos?",
+          "resposta": "Torre de Pisa"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Nas longas viagens das Grandes Navegações, o escorbuto matava muitos marinheiros. A falta de que nutriente na dieta causava a doença?",
+        "resposta": "Vitamina C"
+      },
+      "existentes": [
+        {
+          "id": "q00615",
+          "pergunta": "Marinheiros em longas viagens sofriam de escorbuto, com gengivas sangrando, por falta de qual vitamina?",
+          "resposta": "Vitamina C"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que destino em comum tiveram o imperador asteca Montezuma e o imperador inca Atahualpa diante dos conquistadores espanhóis?",
+        "resposta": "Foram feitos prisioneiros pelos espanhóis"
+      },
+      "existentes": [
+        {
+          "id": "q03513",
+          "pergunta": "Em 1532, numa emboscada, Francisco Pizarro capturou o imperador inca Atahualpa em que cidade andina?",
+          "resposta": "Cajamarca"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Para corrigir o calendário, o papa Gregório Treze mandou pular dias de outubro de 1582. Quantos dias foram suprimidos?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q00913",
+          "pergunta": "Ao adotar o calendário gregoriano em outubro de 1582, países como Espanha, Portugal e Itália pularam alguns dias para acertar com as estações. Quantos?",
+          "resposta": "Dez"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Luís Quatorze tornou-se rei da França aos quatro anos de idade. Por quantos anos ele reinou?",
+        "resposta": "72 anos"
+      },
+      "existentes": [
+        {
+          "id": "q01357",
+          "pergunta": "Em que ano este rei da França subiu ao trono?",
+          "resposta": "1643"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o significado literal de utopia: lugar nenhum."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta a profissão de Guillotin; a existente pergunta o nome dele. A existente até revela 'médico' no enunciado, mas o fato perguntado é outro (nome vs. profissão)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "A nova trata da origem do nome da Virgínia; a existente trata da Invencível Armada."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam a prática criticada nas teses de Lutero: venda de indulgências."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A existente pede a identificação do rei no retrato; a nova pergunta o motivo da ruptura com Roma."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "A condenação por defender o heliocentrismo é fato diferente das luas de Júpiter e da Torre de Pisa."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que vitamina, a C, cuja falta causa o escorbuto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a cidade da captura de Atahualpa; a nova pergunta o destino comum dos dois imperadores."
+    },
+    {
+      "caso": 9,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quantos dias foram suprimidos em 1582: dez."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "A existente pergunta o ano de ascensão ao trono; a nova pergunta a duração do reinado."
+    }
+  ]
+}

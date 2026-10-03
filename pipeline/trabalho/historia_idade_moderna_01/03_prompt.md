@@ -1,0 +1,1862 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Idade Moderna** (tema **História**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Cabo da Boa Esperança",
+      "descricao": "Promontório rochoso no extremo sudoeste da África do Sul, contornado por Bartolomeu Dias em 1488."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Bartolomeu Dias chamou um cabo do sul da África de Cabo das Tormentas. Que nome o rei dom João Segundo deu a ele depois?",
+    "resposta": "Cabo da Boa Esperança",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cape_of_Good_Hope",
+      "https://pt.wikipedia.org/wiki/Cabo_da_Boa_Esperança"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cape_of_Good_Hope",
+        "situacao": "ok",
+        "texto": "The Cape of Good Hope (Afrikaans: Kaap de Goede Hoop [ˌkaːb də ˌɣudə ˈɦoːp] ; Portuguese: Cabo da Boa Esperança [ˈkaβu ðɐ ˈβoɐ (ɨ)ʃpɨˈɾɐ̃sɐ]) is a rocky headland on the Atlantic coast of the Cape Peninsula in South Africa.\n[…]\nWhen following the western side of the African coastline from the equator, however, the Cape of Good Hope marks the point where a ship begins to travel more eastward than southward. Thus, the first modern rounding of the cape in 1487 by Portuguese explorer Bartolomeu Dias was a milestone in the attempts by the Portuguese to establish direct trade relations with the Far East (although Herodotus mentioned a claim that the Phoenicians had done so far earlier).\n[…]\nDias called the cape Cabo das Tormentas ('Cape of Storms'; Dutch: Stormkaap), which was the original name of the cape.\n[…]\nJust before the Union of South Africa was formed, the term referred to the entire region that in 1910 was to become the Cape of Good Hope Province (usually shortened to the Cape Province).\n[…]\nIn the Early Modern Era, the first European to reach the cape was the Portuguese explorer Bartolomeu Dias on 12 March 1488, who named it the \"Cape of Storms\" (Cabo das Tormentas). It was later renamed by John II of Portugal as \"Cape of Good Hope\" (Cabo da Boa Esperança) because of the great optimism engendered by the opening of a sea route to India and the East.\n[…]\nThe Cape of Good Hope is the legendary home of the Flying Dutchman. According to the legend, crewed by tormented and damned ghostly sailors, it is doomed forever to beat its way through the adjacent waters without ever succeeding in rounding the headland.\n[…]\nCape of Good Hope, Panoramic view\n[…]\nCape of Good Hope is a map by John Arrowsmith in 1842"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cabo_da_Boa_Esperança",
+        "situacao": "ok",
+        "texto": "O cabo da Boa Esperança (em africâner:  Kaap die Goeie Hoop; em inglês:  Cape of Good Hope; em neerlandês:  Kaap de Goede Hoop) ou primitivamente conhecido como cabo das Tormentas localiza-se a sul da Cidade do Cabo e a oeste da baía Falsa, na província do Cabo Ocidental, na África do Sul.Ao contrário do que comumente se acredita, este cabo não é o extremo meridional do continente africano, que é \n[…]\nÉ considerado um dos grandes cabos dos oceanos meridionais, e teve especial significado para os marinheiros durante muitos séculos. É muitas vezes referido em literatura marítima simplesmente como \"o Cabo\". É um ponto importante no percurso da rota dos clippers seguida pelos veleiros para o Extremo Oriente e Austrália, e ainda marcado como passagem em várias corridas de iates.\n[…]\nFoi descoberto pela primeira vez em 1488 pelo navegador português Bartolomeu Dias. Contam as crónicas da época que, como foi avistado depois de vários dias em que os marinheiros sofreram violentas tempestades (tormentas), aquele navegador lhe pôs o nome de cabo das Tormentas. Ao retornar, entretanto, com a notícia, o rei João II de Portugal mudou-lhe o nome porque, ao ser dobrado, mostrou a ligação entre o oceano Atlântico e o oceano Índico e prometia a tão desejada chegada à Índia.\n[…]\nChamou-lhe, por isso, cabo da Boa Esperança — o topónimo que se perpetuou. Nas palavras do cronista:\n[…]\n\"Partidos dali, houve vista daquele grande e notável cabo, ao qual por causa dos perigos e tormentas em o dobrar lhe puseram o nome de Tormentoso, mas el-rei D. João II lhe chamou cabo da Boa Esperança, por aquilo que prometia para o descobrimento da Índia tão desejada\".\n[…]\nO mercador holandês Jan van Riebeeck estabeleceu um posto de reabastecimento no cabo em 6 de abril de 1652, que mais tarde evoluiu para se tornar na Cidade do Cabo.\n[…]\nCabo da Boa Esperança (em português) (em inglês)"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Barroco",
+      "descricao": "Estilo artístico e arquitetônico europeu dos séculos dezessete e dezoito, marcado pelo drama, pelo movimento e pela ornamentação."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O nome do estilo barroco vem de uma palavra portuguesa que designava o quê?",
+    "resposta": "Pérola irregular",
+    "distratores": [
+      "Rocha vulcânica",
+      "Concha marinha",
+      "Vaso de barro"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baroque",
+      "https://pt.wikipedia.org/wiki/Barroco"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Baroque",
+        "situacao": "ok",
+        "texto": "The Baroque (UK:  bə-ROK, US:  bə-ROHK, French: [baʁɔk]) is a Western style of architecture, music, dance, painting, sculpture, poetry, and other arts that flourished from the early 1600s until the 1750s. It followed Renaissance art and Mannerism and preceded the Rococo (in the past often referred to as \"late Baroque\") and Neoclassical styles.\n[…]\nThe English word baroque comes directly from the French. The French word originated the Portuguese term barroco 'a flawed pearl', pointing to the Latin verruca 'wart', or to a word with the Romance suffix -ǒccu (common in pre-Roman Iberia). Other sources suggest a Medieval Latin term used in logic, baroco, as the most likely source.\n[…]\nThe word baroque was also associated with irregular pearls before the 18th century. The French baroque and Portuguese barroco were terms often associated with jewelry. An example from 1531 uses the term to describe pearls in an inventory of Charles V of France's treasures.\n[…]\nLater, the word appears in a 1694 edition of Le Dictionnaire de l'Académie Française, which describes baroque as \"only used for pearls that are imperfectly round.\" A 1728 Portuguese dictionary similarly describes barroco as relating to a \"coarse and uneven pearl\".\n[…]\nIn 1762 Le Dictionnaire de l'Académie Française recorded that the term could figuratively describe something \"irregular, bizarre or unequal\".\n[…]\nAppreciation for the Baroque reappeared with the rise of Postmodernism, a movement that questioned Modernism (the status quo after WW2), and which promoted the inclusion of elements of historic styles in new designs, and appreciation for the pre-Modernist past. Specific references to Baroque are rare, since Postmodernism often included highly simplified elements that were 'quotations' of Classicism in general, like pediments or columns.\n[…]\nThe baroque and rococo culture"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Barroco",
+        "situacao": "ok",
+        "texto": "Barroco é o estilo artístico que floresceu entre o final do século XVI e meados do século XVIII, inicialmente na Itália, difundindo-se em seguida pelos países católicos da Europa e da América, antes de atingir, em uma forma modificada, as áreas protestantes e alguns pontos do Oriente.\n[…]\nDepois de ensaios irregulares na Itália, o sistema acadêmico desabrochou na França no reinado de Luís XIV, onde foram criadas as primeiras academias de abrangência nacional para as várias modalidades da arte e ciências, das quais uma das mais notáveis e influentes foi a Academia Real de Pintura e Escultura.\n[…]\nUsualmente, considera-se que o termo \"barroco\" originalmente significaria \"pérola irregular ou imperfeita\", um termo cuja origem é obscura, pode derivar do português antigo, do espanhol, do francês ou do árabe. Segundo outras opiniões, porém, o termo tem origem em uma fórmula mnemotécnica usada pelos escolásticos para designar um dos modos do silogismo, o que daria ao termo um sentido pejorativo de raciocínio estranho, tortuoso, que confunde o falso com o verdadeiro.\n[…]\nA palavra rapidamente ganhou circulação nas línguas francesa e italiana, mas nas artes plásticas só foi usada no fim do período em questão, quando novos classicistas começaram a criticar excessos e irregularidades de um estilo já então visto como decadente e uma simples degeneração dos princípios clássicos.\n[…]\nAlém disso, o conceito de \"barroco\" tem sido transportado para áreas alheias à arte, como a política, a psicologia, a ética, a história e a ideologia social, fazendo dele mais do que um estilo artístico, mas todo um período histórico, o que englobaria democraticamente todas as variadas expressões na arte, na cultura e na sociedade correntes no período delimitado."
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Nova Amsterdã",
+      "descricao": "Povoado colonial holandês na ilha de Manhattan, capital da Nova Holanda, tomado pelos ingleses em 1664."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Até ser tomada pelos ingleses em 1664, que cidade da América do Norte se chamava Nova Amsterdã?",
+    "resposta": "Nova York",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/New_Amsterdam"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/New_Amsterdam",
+        "situacao": "ok",
+        "texto": "New Amsterdam (Dutch: Nieuw Amsterdam, pronounced [ˌniu.ɑmstərˈdɑm]) was a 17th-century Dutch settlement established at the southern tip of Manhattan Island that served as the seat of the colonial government in New Netherland. The initial trading factory gave rise to the settlement around Fort Amsterdam. The fort was situated on the strategic southern tip of the island of Manhattan and was meant t\n[…]\nIn 1664, the English military seized control over New Amsterdam and renamed it New York after the Duke of York (later James II & VII). After the Second Anglo-Dutch War of 1665–67, England and the United Provinces of the Netherlands agreed to the status quo in the Treaty of Breda.\n[…]\nThe 1625 date of the founding of New Amsterdam is now commemorated in the official Seal of New York City. (Formerly, the year on the seal was 1664, the year of the provisional Articles of Transfer, assuring New Netherlanders that they \"shall keep and enjoy the liberty of their consciences in religion\", negotiated with the English by Peter Stuyvesant and his council.)\n[…]\nThe scholarly conclusion has largely been that the settlement of New Amsterdam is much more like current New York than previously thought. Cultural diversity and a mindset that resembles the American Dream were already present in the first few years of this colony.\n[…]\nOne of New York's Broadway theatres is the New Amsterdam Theatre. The name New Amsterdam is also written on the architrave situated on top of the row of columns in front of the Manhattan Municipal Building, commemorating the name of the Dutch colony.\n[…]\nVerde, Tom (November–December 2021). \"The New York of Anyhony Jsnsen von Salee\". Aramco World: 28–33.\n[…]\nNieuw Amsterdam to New York Archived November 20, 2017, at the Wayback Machine, an audio history from the National Parks of New York Harbor Conservancy\n[…]\nMapping Early New York – interactive map and encyclopedia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nova_Amsterd%C3%A3o",
+        "situacao": "ok",
+        "texto": "Nova Amesterdão (português europeu) ou Nova Amsterdã (português brasileiro)(em neerlandês: Nieuw-Amsterdam) foi o principal assentamento localizado nas colônias neerlandesas. Os Países Baixos tentavam expandir seu território e influência, e nomeava a capital de seus assentamentos a partir do nome de sua própria capital, Amsterdam, tanto nos Novos Países Baixos, que mais tarde se tornaria a cidade \n[…]\nO comerciante dominicano Juan Rodriguez (Jan Rodrigues em holandês e João Rodrigues em português), nascido em Santo Domingo de ascendência portuguesa e africana, chegou à ilha de Manhattan durante o inverno de 1613-1614, caçando para obter peles e negociando com a população local como representante dos holandeses. Ele foi o primeiro habitante americano não nativo registrado do que acabaria se tornando a cidade de Nova York.\n[…]\nTornou-se o maior assentamento neerlandês na América do Norte, a capital dos Novos Países Baixos, permanecendo sob controle neerlandês até 1664, quando foi capturada pelos britânicos. Embora os neerlandeses tenham reassumido o controle de Nova Amsterdã em 1673, os britânicos recuperaram o assentamento no ano seguinte, pelos termos do Tratado de Westminster. Os britânicos renomeariam o assentamento de New York.\n[…]\nMas um dos navios naufragou durante uma tempestade no Caribe. Os sobreviventes tiveram todos os bens roubados por piratas, mas conseguiram carona numa caravela para chegar a Nova Amsterdã, hoje Nova York. Desembarcaram no porto de onde hoje saem os barcos com turistas para visitar a Estátua da Liberdade. Esses Judeus brasileiros em Nova York fundaram a comunidade judaica que se tornou a maior do mundo. O primeiro cemitério judeu da cidade ainda existe.\n[…]\nNew Amsterdam\n[…]\nThe New Amsterdam Trail\n[…]\nNieuw Amsterdam to New York\n[…]\n\"Conditions as Created by their Lords Burgomasters of Amsterdam\"",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Utopia",
+      "descricao": "Livro de Thomas More publicado em 1516, que descreve uma ilha imaginária com uma sociedade ideal."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1516, Thomas More inventou a palavra utopia juntando termos gregos para batizar uma ilha imaginária. O que ela significa literalmente?",
+    "resposta": "Lugar nenhum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Utopia_(book)",
+      "https://en.wikipedia.org/wiki/Utopia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Utopia_(book)",
+        "situacao": "ok",
+        "texto": "Utopia (Latin: Libellus vere aureus, nec minus salutaris quam festivus, de optimo rei publicae statu deque nova insula Utopia, \"A truly golden little book, not less beneficial than enjoyable, about how things should be in a state and about the new island Utopia\") is a work of fiction and socio-political satire by Thomas More (1478–1535), written in Latin and published in 1516 and revised in 1518.\n[…]\nThe first edition contained a woodcut map of the island of Utopia, the Utopian alphabet, verses by Pieter Gillis, Gerard Geldenhouwer, and Cornelius Grapheus, and Thomas More's epistle dedicating the work to Gillis.\n[…]\nThe word 'utopia', invented by More as the name of his fictional island and used as the title of his book, has since entered the English language to describe any imagined place or state of things in which everything is perfect. The antonym 'dystopia' is used for hypothetical places of great suffering or injustice, including systems that present or market themselves as utopian but actually have terrible other sides to them.\n[…]\nAlthough he may not have directly founded the contemporary notion of what has since become known as Utopian and dystopian fiction, More certainly popularised the idea of imagined parallel realities, and some of the early works that owe a debt to Utopia must include The City of the Sun by Tommaso Campanella, Description of the Republic of Christianopolis by Johannes Valentinus Andreae, New Atlantis by Francis Bacon and Candide by Voltaire.\n[…]\nMore, Thomas (1516/1967), \"Utopia\", trans. John P. Dolan, in James J. Greene and John P. Dolan, edd., The Essential Thomas More, New York:  New American Library.\n[…]\nSullivan, E.D.S. (editor) (1983) The Utopian Vision: Seven Essays on the Quincentennial of Sir Thomas More  San Diego State University Press, San Diego, California, ISBN 0-916304-51-5\n[…]\nThomas More and his Utopia by Karl Kautsky"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Utopia",
+        "situacao": "ok",
+        "texto": "A utopia (  yoo-TOH-pee-ə) is an imagined community or society that possesses highly desirable or near-perfect qualities for its residents. The term was coined by Sir Thomas More for his 1516 book Utopia, which describes a fictional island society in the New World, but some utopian visions predate it.\n[…]\nThe word utopia was coined in 1516 from Ancient Greek by the Englishman Sir Thomas More for his Latin text Utopia. It literally translates as \"no place\", coming from the Greek: οὐ (\"not\") and τόπος (\"place\"), and meant any non-existent society, when 'described in considerable detail'. However, in standard usage, the word's meaning has shifted and now usually describes a non-existent society that is intended to be viewed as considerably better than contemporary society.\n[…]\nDuring the 16th century, Thomas More's book Utopia proposed an ideal society of the same name. More's utopia is inspired by Plato's Republic and Aristotle's Politics, and its seriocomic style from the dialogues of Lucian. Utopian socialists and other readers accept this imaginary society as the realistic blueprint for a working nation, while others have postulated that Thomas More intended nothing of the sort.\n[…]\nCritical utopia is a theory conceptualised by literary theorist Tom Moylan. In contrast with utopianism, critical utopia rejects utopia. The idea is highly self-referential, and uses the idea of utopia to advance society while simultaneously critiquing it. A limitation of utopianism is defined: the imagined utopia is significantly distant from current society. Utopia also fails to acknowledge the differences between people that result in differences in experience.\n[…]\nList of utopian literature\n[…]\nDemand the Impossible: Science Fiction and the Utopian Imagination (1986) by Tom Moylan. London: Methuen, 1986."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Utopia_%28livro%29",
+        "situacao": "ok",
+        "texto": "Libellus vere aureus, nec minus salutaris quam festivus, de optimo rei publicae statu deque nova insula Utopia (título original em latim: significa \"Um pequeno livro verdadeiramente dourado, não menos benéfico que entretedor, do melhor estado de uma república e da nova ilha Utopia\"), mais conhecido simplesmente como Utopia, é um livro de 1516 escrito por  Thomas Morus (1478-1535). Escrito em latim\n[…]\nO nome da obra, se originou da composição dos termos gregos \"ou\" (advérbio de negação), \"tópos, ou\" (lugar) e \"ía\" (qualidade, estado).\n[…]\nPortanto, refere-se a um \"não lugar\", um lugar inexistente. Foi esse o modo irônico como o pensador batizou sua sociedade 'perfeita'. A partir dessa obra, a palavra \"utopia\" tornou-se sinônimo de uma sociedade ideal, embora de existência impossível, ou uma ideia generosa, porém, impraticável. Considera-se que muitas das características da ilha descrita por Morus se baseiam na vida em mosteiros.\n[…]\nEsses problemas não existiriam na \"República de Utopia\", lugar onde:\n[…]\nDe acordo com Morus, a ilha de Utopia é:\n[…]\n... duas milhas longa na parte média, que é a parte mais larga, e em nenhuma parte é mais estreita exceto nas suas duas extremidades, onde se afunila. Essas extremidades, que são curvadas formando como que um círculo de cinco milhas de circunferência, fazem com que a ilha tenha o formato de uma lua crescente.\n[…]\nExistem várias religiões na ilha: culto da Lua, culto do Sol, culto do planeta, culto dos mortos e monoteísmo, mas todas são tolerantes entre si. Só o ateísmo é desprezado (porém permitido), por ser visto como uma ameaça para o estado. Como os ateus não acreditam em punição ou recompensa após a morte, eles não teriam razão para se juntar à vida comunitária de Utopia, e desrespeitariam as leis do país visando ao ganho pessoal.\n[…]\nUtopia (sociologia)\n[…]\nUtopia  livro completo em português em domínio público.\n[…]\nUtopia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Guilhotina",
+      "descricao": "Aparelho de decapitação com lâmina em queda livre, usado em massa nas execuções da Revolução Francesa."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A guilhotina leva o nome de um deputado francês que, em 1789, defendeu um método de execução menos cruel. Qual era a profissão dele?",
+    "resposta": "Médico",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Joseph-Ignace_Guillotin",
+      "https://pt.wikipedia.org/wiki/Guilhotina"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Joseph-Ignace_Guillotin",
+        "situacao": "ok",
+        "texto": "Joseph-Ignace Guillotin (French: [ʒozɛf iɲas ɡijɔtɛ̃]) (28 May 1738 – 26 March 1814) was a French physician, politician, and freemason who proposed on 10 October 1789 the use of a device to carry out executions in France, as a less painful method of execution than existing methods. Although he did not invent the guillotine and opposed the death penalty, his name became an eponym for it. The actual\n[…]\nOn 10 October 1789, he proposed that \"the criminal shall be decapitated; this will be done solely by means of a simple mechanism.\" The \"mechanism\" was defined as \"a machine that beheads painlessly\". His proposal appeared in the Royalist periodical, Les Actes des Apôtres. In all, Guillotin proposed six articles:\n[…]\nOn 1 December 1789, Guillotin made a remark during a follow-up speech to the Assembly about capital punishment. He was quoted (or possibly misquoted) as saying, \"Now, with my machine, I cut off your head in the twinkling of an eye, and you never feel it!\" The statement quickly became a popular joke, and a few days after the debate a comic song about Guillotin and \"his\" machine circulated, forever tying his name to it, despite the fact that he was not at all involved in its design or construction.\n[…]\nThe Moniteur of 18 December 1789 deplored the joking but repeated Guillotin's \"twinkling of an eye\" statement for posterity.\n[…]\nJoseph Guillotin was initiated into Freemasonry, in 1765 at \"La Parfaite Union\" lodge in Angoulême. Very active as a mason, he joined several other lodges. As a deputy of the Grand Lodge from 1772 he took part in the birth of the Grand Orient of France and attended all its conventions until 1790. In 1773, he became Worshipful Master of the lodge \"La Concorde Fraternelle\" in Paris. In 1776, he founded the \"La Vérité\" lodge and often attended Les Neuf Sœurs.\n[…]\nMedia related to Joseph Ignace Guillotin at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guilhotina",
+        "situacao": "ok",
+        "texto": "A guilhotina foi um instrumento utilizado durante a Revolução Francesa para aplicar a pena de morte por decapitação. O aparelho é constituído de uma grande armação reta (aproximadamente 4 m de altura) na qual é suspensa uma lâmina trapezoidal pesada (de cerca de 40 kg). As medidas e peso indicados são os das normas francesas. A lâmina é guiada à parte superior da armação por uma corda, e fica mant\n[…]\nFoi o médico francês Joseph-Ignace Guillotin (1738-1814) que sugeriu o uso deste aparelho na aplicação da pena de morte. Guillotin considerava este método de execução mais humano do que o enforcamento ou a decapitação com um machado. Na realidade, a agonia do enforcado podia ser longa, caso o dano aos ossos do pescoço não causasse a morte imediata; já em certas decapitações, o machado não cumpria seu papel ao primeiro golpe, o que aumentava consideravelmente o sofrimento da vítima.\n[…]\nMas não foi ele o inventor desse aparelho de cortar cabeças, usado muitos séculos antes. Guillotin, na verdade, apenas sugeriu sua volta na Revolução Francesa como eficiente método de execução humana. O aparelho serviu para decapitar 2794 \"inimigos da Revolução\" em Paris. Sua primeira inspiração teria surgido diante de uma gravura do alemão Albrecht Dürer, feita no século XVI, na qual o ditador romano Tito Mânlio decapita seu próprio filho com um aparelho semelhante a uma guilhotina.\n[…]\nDesde o primeiro uso da guilhotina, há um debate sobre se a guilhotina proporcionou ou não uma morte tão rápida e indolor quanto Guillotin esperava. Com métodos anteriores de execução que pretendiam ser dolorosos, poucos expressaram preocupação com o nível de sofrimento que infligiam. No entanto, como a guilhotina foi inventada especificamente para ser mais humana, a questão de saber se o condenado experimenta ou não dor foi minuciosamente examinada e permanece um tópico controverso."
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Mapa de Waldseemüller",
+      "descricao": "Mapa-múndi impresso em 1507 pelo cartógrafo alemão Martin Waldseemüller, hoje na Biblioteca do Congresso dos Estados Unidos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1507, um mapa-múndi do cartógrafo alemão Martin Waldseemüller registrou pela primeira vez um nome para o Novo Mundo. Que nome?",
+    "resposta": "América",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Waldseem%C3%BCller_map",
+        "situacao": "ok",
+        "texto": "The Waldseemüller map or Universalis Cosmographia (\"Universal Cosmography\") is a printed wall map of the world by the German cartographer Martin Waldseemüller, originally published in April 1507. It is known as the first map to use the name \"America\". The name America is placed on South America on the main map. As explained in Cosmographiae Introductio, the name was bestowed in honor of the Italia\n[…]\nThe geographers of Italy and Germany, like Martin Waldseemüller and his colleagues, were exponents of a theoretical geography, or cosmography. This means they appealed to theory where their knowledge of the American and Asiatic geography was lacking. That practice differed from the official Portuguese and Spanish cartographers, who omitted from their maps all unexplored coastlines.\n[…]\nBesides Universalis Cosmographia, Waldseemüller published a set of gores for constructing globes. The gores, also containing the inscription America, are believed to have been printed in the same year as the large wall map, since Waldseemüller mentions them in the introduction to his Cosmographiæ Introductio. The Cosmographiae Introductio explained:\n[…]\nLester, Toby: \"A world redrawn: When America showed up on a map, it was the universe that got transformed\", Boston Globe, October 11, 2009\n[…]\nOmohundro Institute of Early American History and Culture, Williamsburg, Virginia (2011). Martin Brückner (ed.). Early American Cartographies (illustrated ed.). Chapel Hill, NC: University of North Carolina Press Books. ISBN 978-0-8078-3469-5. OCLC 761014612. Retrieved April 24, 2014.{{cite book}}:  CS1 maint: multiple names: authors list (link)\n[…]\nBertoloni Meli, Domenico (June 2026). \"Printing the Waldseemüller 1507 and 1516 World Maps\". The Papers of the Bibliographical Society of America. 120 (2). University of Chicago Press: 165–192. doi:10.1086/741326. ISSN 0006-128X.{{cite journal}}:  CS1 maint: date and year (link)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mapa_de_Waldseem%C3%BCller",
+        "situacao": "ok",
+        "texto": "O Mapa de Waldseemüller, ou Universalis Cosmographia, é um mapa do mundo impresso pelo cartografo alemão Martin Waldseemüller, originalmente publicado em abril de 1507.\n[…]\nÉ o primeiro mapa do mundo a utilizar o termo \"América\". Foi desenhada baseando-se no mapa de Ptolomeu, expandido para acomodar as Americas e as altas latitudes.\n[…]\nUma cópia do mapa ainda existe na Biblioteca do Congresso em Washington, D.C..\n[…]\nCosmographiae Introductio\n[…]\nToby Lester, \"Putting America on the Map\", Smithsonian, Volume 40, Number 9, p. 78, December 2009\n[…]\nLester, Toby: The Fourth Part of the World: An Astonishing Epic of Global Discovery, Imperial Ambition, and the Birth of America, Free Press, 2010, 496 p. ISBN 1-4165-3534-9.\n[…]\n1507 Waldseemüller Map from the US Library of Congress\n[…]\nH.Res. 287 \"America\" (AHasting D-FL23) in Congress on July 11, 2007\n[…]\nPope Valley School Cuts 1507 Globe Map for World Geography Month, Riccardo Gaudino, America500tv April 20, 2007.\n[…]\nNational Geographic News: US Buys Oldest Map Marked \"America\"\n[…]\nMartin Waldseemüller - Bell Library: Maps and Mapmakers\n[…]\nWorld Digital Library presentation of Universalis cosmographia secundum Ptholomaei traditionem et Americi Vespucii aliorum que lustrationes or A Map of the Entire World According to the Traditional Method of Ptolemy and Corrected with Other Lands of Amerigo Vespucci. Library of Congress.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Cabo Horn",
+      "descricao": "Promontório na ilha Hornos, no extremo sul do Chile, contornado por navegadores holandeses em 1616."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Batizado por navegadores em 1616, o Cabo Horn, no extremo sul da América, deve seu nome a quê?",
+    "resposta": "À cidade de Hoorn, na Holanda",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cape_Horn"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cape_Horn",
+        "situacao": "ok",
+        "texto": "Cape Horn (Spanish: Cabo de Hornos, pronounced [ˈkaβo ðe ˈoɾnos]) is the southernmost headland of the Tierra del Fuego archipelago of southern Chile, and is located on the small Hornos Island. Although not the most southerly point of South America (which is Águila Islet), Cape Horn marks both the northern boundary of the Drake Passage and where the Atlantic and Pacific Oceans meet.\n[…]\nCape Horn was identified by mariners and first rounded in 1616 by the Dutchmen Willem Schouten and Jacob Le Maire, who named it Kaap Hoorn () after the city of Hoorn in the Netherlands. For decades, Cape Horn was a major milestone on the clipper route, by which sailing ships carried trade around the world. The waters around Cape Horn are particularly hazardous, owing to strong winds, large waves, strong currents and icebergs.\n[…]\nCape Horn is located on Hornos Island in the Hermite Islands group, at the southern end of the Tierra del Fuego archipelago. It marks the northern edge of the Drake Passage, the strait between South America and Antarctica. It is located in Cabo de Hornos National Park, Core of the Cape Horn Biosphere Reserve.\n[…]\nCape Horn is part of the Commune of Cabo de Hornos, whose capital is Puerto Williams; this in turn is part of Antártica Chilena Province, whose capital is also Puerto Williams. The area is part of the Magallanes y la Antártica Chilena Region of Chile. Puerto Toro, a few miles south of Puerto Williams, is the closest town to the cape.\n[…]\n... on 29 January 1616 we saw land againe lying north west and north northwest from us, which was the land that lay South from the straights of Magelan which reacheth Southward, all high hillie lande covered over with snow, ending with a sharpe point which wee called Cape Horne [Kaap Hoorn] ...\n[…]\nAdventurer George Kourounis' expedition to Cape Horn\n[…]\nSailing Way Down South – Ellen MacArthur's rendezvous at Cabo de Hornos"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cabo_Horn",
+        "situacao": "ok",
+        "texto": "O cabo Horn é o ponto mais meridional da América do Sul, excluídas as Ilhas Geórgia do Sul e Sandwich do Sul e as Ilhas Diego Ramírez. Encontra-se na Ilha de Hornos, no arquipélago da Terra do Fogo, na porção pertencente ao Chile. Dos grandes cabos, é o que se encontra mais ao sul e compõe a parte norte do estreito de Drake.\n[…]\nAs condições de navegação ao redor do cabo costumam ser particularmente severas, com fortes ventos, constituindo um marco para navegantes de todos os tipos, até nos dias atuais. Várias regatas de veleiros de oceano, como a Volvo Ocean Race, antiga Whitbread Round the World Race, velejam ao redor do globo passando pelo Cabo Horn.\n[…]\nSeu nome vem da cidade holandesa de Hoorn, patrocinadora de dois navios enviados pela Companhia das Índias Ocidentais no início do século XVII, capitaneados pelo navegador Jacob le Maire com o navegador Willem Schouten, para investigar a hipótese levantada por Francis Drake da existência de uma passagem meridional da América para a Ásia e Índia, que romperia o monopólio do comércio de especiarias pelos portugueses pelo cabo da Boa Esperança, no sul da África.\n[…]\nEm janeiro de 1616, eles transpuseram o cabo pela primeira vez, sob violenta tempestade.\n[…]\nO Cabo Horn é o ponto mais ao sul da América do Sul e pertence ao Chile, suas coordenadas são 55° 58′ 48″ S, 67° 17′ 21″ O, no final da Terra do Fogo, na ilha de Hornos. Ele é ainda o limite norte do estreito de Drake, entre a América e a Antártida. É também o divisor dos oceanos Pacífico e Atlântico. Os outros pontos extremos da América do Sul são: ao norte a Punta Gallinas, na Colômbia, ao leste a Ponta do Seixas, no Brasil, e a oeste a Punta Pariñas, no Peru.\n[…]\nCabo da Boa Esperança\n[…]\n«O temido Cabo Horn, André Magalhães.»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Ivã, o Terrível",
+      "descricao": "Ivã Quarto, grão-príncipe de Moscou coroado czar de toda a Rússia em 1547."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Ivã, o Terrível, foi coroado czar da Rússia em 1547. A palavra czar deriva de que nome romano?",
+    "resposta": "César",
+    "distratores": [
+      "Augusto",
+      "Constantino",
+      "Trajano"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tsar",
+      "https://en.wikipedia.org/wiki/Ivan_the_Terrible"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tsar",
+        "situacao": "ok",
+        "texto": "Tsar, also spelled czar, tzar or csar ( ), is a Slavic title derived from the Latin word caesar. It was intended to mean \"emperor\" in the European medieval sense of the term—a ruler with the same rank as a Roman emperor, holding it by the approval of another emperor or a supreme ecclesiastical official—but was usually considered by Western Europeans to be equivalent to \"king\".\n[…]\nHowever, the first Russian ruler to be formally crowned as tsar of all Russia was Ivan IV (\"the Terrible\"), in 1547. Some foreign ambassadors—namely, Herberstein (in 1516 and 1525), Daniel Printz a Buchau (in 1576 and 1578) and Just Juel (in 1709)—indicated that the word \"tsar\" should not be translated as \"emperor\", because it is applied by Russians to David, Solomon and other Biblical kings, who are simple reges. On the other hand, Jacques Margeret, a bodyguard of False Demetrius I (r.\n[…]\n1605–1606), argues that the title of \"tsar\" is more honorable for Muscovites than \"kaiser\" or \"king\" exactly because it was God and not some earthly potentate who ordained to apply it to David, Solomon, and other kings of Israel. Samuel Collins, a court physician to Tsar Alexis in 1659–66, styled the latter \"Great Emperor\", commenting that \"as for the word Czar, it has so near relation to Cesar... that it may well be granted to signifie Emperour.\n[…]\nLike many lofty titles, such as mogul, tsar or czar has been used in English as a metaphor for positions of high authority since 1866 (referring to U.S. President Andrew Johnson), with a connotation of dictatorial powers and style, fitting since \"autocrat\" was an official title of the Russian emperor (informally referred to as 'the tsar'). Similarly, Speaker of the House Thomas Brackett Reed was called \"Czar Reed\" for his dictatorial control of the House of Representatives in the 1880s and 1890s.\n[…]\nList of Russian monarchs"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ivan_the_Terrible",
+        "situacao": "ok",
+        "texto": "Ivan IV Vasilyevich (Russian: Иван IV Васильевич; 25 August 1530 – 28 March [O.S. 18 March] 1584), commonly known as Ivan the Terrible, was Grand Prince of Moscow and all Russia from 1533 to 1547 and the first Tsar and Grand Prince of all Russia from 1547 until his death in 1584. Ivan's reign was characterised by Russia's transformation from a medieval state to a fledgling empire, but at an immens\n[…]\nTwo weeks after his coronation in 1547, Ivan IV married Anastasia Romanovna, a member of the Romanov family, who became the first Russian tsaritsa.\n[…]\nIn post-Soviet Russia, there was a campaign  to seek the granting of sainthood to Ivan IV, but the Russian Orthodox Church opposed the idea, due to his execution of Metropolitan bishop Philip II, who had been canonised in 1652. The first statue of Ivan the Terrible was officially open in Oryol, Russia, in 2016.\n[…]\nFormally, the statue was unveiled in honor of the 450th anniversary of the founding of Oryol, a Russian city of about 310,000 that was established as a fortress to defend Moscow's southern borders. Informally, there was a big political subtext. The opposition thinks that Ivan the Terrible's rehabilitation echoes Stalin's era. The erection of the statue was widely covered in international media like The Guardian, The Washington Post, Politico, and others.\n[…]\nPerrie, Maureen. The Image of Ivan the Terrible in Russian Folklore (Cambridge University Press, 1987; ISBN 0-521-33075-0, 0-521-89100-0).\n[…]\nPerrie, Maureen. The Cult of Ivan the Terrible in Stalin's Russia. (New York: Palgrave, 2001 ISBN 0-333-65684-9).\n[…]\nPlatt, Kevin M. F.; Brandenberger, David. \"Terribly Romantic, Terribly Progressive, or Terribly Tragic: Rehabilitating Ivan IV under I.V. Stalin\", Russian Review, Vol. 58, No. 4. (Oct. 1999), pp. 635–54.\n[…]\nThe throne of Ivan the Terrible\n[…]\nIvan the Terrible with videos, images and translations from the Russian Archives and State Museums"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Czar",
+        "situacao": "ok",
+        "texto": "Czar, csar, tsar ou tzar (em russo: царь; em búlgaro: цар; em sérvio: цар; ambos pronunciados \"tsár\") era o título usado pelos monarcas dos Império Búlgaro desde 913 e Império Russo entre 1546 e 1917. Foi adotado por Ivã IV da Rússia como um símbolo da natureza da monarquia russa.\n[…]\nEm 1721, Pedro I da Rússia adaptou o título de imperador (Император, Imperator), pelo qual ele e os seus herdeiros foram reconhecidos, e que se tornou uma outra designação para além do termo tsar, igualmente em uso. O termo também foi usado para designar os monarcas da Bulgária e depois da Sérvia.\n[…]\nCzarina ou tsarina é o termo usado para designar a imperatriz, czarevna/tsarevna designa a princesa (filha do czar e da sua esposa), e czaréviche/tsaréviche ou czarévitche/tsarévitche é a forma usado para o herdeiro primogénito homem. Os príncipes não legitimamente herdeiros e familiares próximos recebem a denominação de grão-príncipe (grã-princesa, Velikaya Knyaginya, no feminino) Velikiy Knyaz, equivalente ao infante da Península Ibérica.\n[…]\nO termo \"tsar\" ou \"czar\", tal como o alemão kaiser, tem a sua origem na palavra latina Caesar.\n[…]\nNa opinião do filólogo Antônio Houaiss, a forma preferencial é \"tsar\" por ser mais próxima da pronúncia russa, embora seja mais comum o uso das grafias \"czar\" ou \"tzar\".[carece de fontes]? Dada a influência do autor, a palavra passou a ter algum uso no Brasil.\n[…]\nEm Portugal e no Brasil, czar é a palavra correntemente utilizada.\n[…]\nLista de monarcas da Rússia\n[…]\nNobreza da Rússia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Elizabeth I",
+      "descricao": "Rainha da Inglaterra de 1558 a 1603, última monarca da dinastia Tudor."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome da Virgínia, colônia inglesa que virou estado americano, homenageia que rainha que nunca se casou?",
+    "resposta": "Elizabeth I",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Colony_of_Virginia",
+      "https://en.wikipedia.org/wiki/Elizabeth_I"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Colony_of_Virginia",
+        "situacao": "ok",
+        "texto": "The Colony of Virginia was a British colonial settlement in North America from 1606 to 1776. The first effort to create an English settlement in the area was chartered in 1584 and established in 1585; the resulting Roanoke Colony lasted for three attempts totaling six years. In 1590, the colony was abandoned. But nearly twenty years later, the colony was re-settled at Jamestown, not far north of t\n[…]\nThe name Virginia for a region in North America may have been originally suggested by Raleigh, who named it for Queen Elizabeth I, the \"virgin queen\", in approximately 1584. In addition, the term Wingandacoa may have influenced the name Virginia.\n[…]\nIn 1619, the plantations and developments were divided into four \"incorporations\" or \"citties\", as they were called. These were Charles Cittie, Elizabeth Cittie, Henrico Cittie, and James Cittie, which included the relatively small seat of government for the colony at Jamestown Island. Each of the four \"citties\" (sic) extended across the James River, the main conduit of transportation of the era.\n[…]\nElizabeth Cittie, known initially as Kecoughtan (a Native word with many variations in spelling by the English), also included the areas now known as South Hampton Roads and the Eastern Shore.\n[…]\nThe capital of Virginia remained in Williamsburg until it was moved further inland to Richmond in 1779 during the American Revolution.\n[…]\nThe entrepreneurs of the Virginia Company experimented with several means of making the colony profitable. The orders sent with the first colonists instructed that they search for precious metals (specifically gold). While no gold was found, various products were sent back, including pitch and clapboard. In 1608, early attempts were made at breaking the Continental hold on glassmaking through the creation of a glassworks. In 1619, the colonists built the first ironworks in North America.\n[…]\nLibrary of Congress: Virginia Colony"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Elizabeth_I",
+        "situacao": "ok",
+        "texto": "Elizabeth I (7 September 1533 – 24 March 1603) was Queen of England and Ireland from 17 November 1558 until her death in 1603. She was the last and longest reigning monarch of the House of Tudor. Her eventful reign, and its effect on history and culture, gave name to the Elizabethan era.\n[…]\nWhen no invasion came, the nation rejoiced. Elizabeth's procession to a thanksgiving service at St Paul's Cathedral rivalled that of her coronation as a spectacle. The defeat of the armada was a potent propaganda victory, both for Elizabeth and for Protestant England. The English took their delivery as a symbol of God's favour and of the nation's inviolability under a virgin queen. However, the victory was not a turning point in the war, which continued for another sixteen years.\n[…]\nDuring a revolt in Munster led by Gerald FitzGerald, Earl of Desmond, in 1582, an estimated 30,000 Irish people starved to death. The poet and colonist Edmund Spenser wrote that the victims \"were brought to such wretchedness as that any stony heart would have rued the same\". Elizabeth advised her commanders that the Irish, \"that rude and barbarous nation\", be well treated, but she or her commanders showed no remorse when force and bloodshed served their authoritarian purpose.\n[…]\nIn 1583, Humphrey Gilbert sailed west to establish a colony in Newfoundland. He never returned to England. Gilbert's half-brother Walter Raleigh explored the Atlantic Coast and claimed the territory of Virginia, perhaps named in honour of Elizabeth, the \"Virgin Queen\". This territory was much larger than the present-day state of Virginia, extending from New England to the Carolinas. In 1585, Raleigh returned to Virginia with a small group of people.\n[…]\nWorks by Elizabeth I at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Col%C3%B4nia_da_Virg%C3%ADnia",
+        "situacao": "ok",
+        "texto": "A Colônia da Virgínia, concedida em 1606 e estabelecida em 1607, foi a primeira colônia inglesa duradoura na América do Norte, após tentativas fracassadas de colonização na Terra Nova por Sir Humphrey Gilbert em 1583, e na ilha sul de Roanoke (atualmente Carolina do Norte) por Sir Walter Raleigh no final da década de 1580.\n[…]\nA Colônia da Virgínia foi fundada pela Virginia Company, com os dois primeiros assentamentos em Jamestown, na margem Norte do rio James e a colônia Popham no rio Kennebec, atualmente Maine, ambos em 1607. A colônia Popham rapidamente falhou devido a fome, doenças e conflitos com tribos nativas americanas nos primeiros dois anos.\n[…]\nJamestown ocupava terras pertencentes à Confederação Powhatan e também estava à beira do fracasso antes da chegada de um novo grupo de colonos e suprimentos por navio em 1610. O tabaco se tornou o primeiro item de exportação lucrativo da Virgínia, cuja produção teve um impacto significativo na sociedade e nos padrões de assentamento.\n[…]\nEm 1624, a Carta da Companhia da Virgínia foi revogada pelo rei Jaime I e a colônia da Virgínia foi transferida para a autoridade real como uma colônia da coroa. Após a Guerra Civil Inglesa nas décadas de 1640 e 1650, a colônia da Virgínia foi apelidada de \"O Antigo Domínio\" pelo rei Carlos II por sua lealdade à monarquia inglesa durante a era do Protetorado e da Comunidade da Inglaterra.\n[…]\nColônias do Sul\n[…]\nPeríodo colonial dos Estados Unidos\n[…]\nVirginia Colony",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Miguel de Cervantes",
+      "descricao": "Escritor espanhol, autor de Dom Quixote, que lutou como soldado na Batalha de Lepanto."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Ferido na mão esquerda numa batalha naval contra os turcos, em 1571, Miguel de Cervantes ganhou que apelido?",
+    "resposta": "Manco de Lepanto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "https://pt.wikipedia.org/wiki/Miguel_de_Cervantes"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "situacao": "ok",
+        "texto": "Miguel de Cervantes Saavedra ( sur-VAN-teez, -⁠tiz; Spanish: [miˈɣel de θeɾˈβantes sa(.a)ˈβeðɾa]; 29 September 1547 (assumed) – 22 April 1616) was a Spanish writer widely regarded as the greatest writer in the Spanish language and one of the world's pre-eminent novelists. He is best known for his two-part novel Don Quixote, a work considered to be the first modern novel.\n[…]\nIn 1569, Cervantes was forced to leave Spain and move to Rome, where he worked in the household of a cardinal. In 1570, he enlisted in a Spanish Navy infantry regiment, and was badly wounded at the Battle of Lepanto in October 1571 and lost the use of his left arm and hand. He served as a soldier until 1575, when he was captured by Barbary pirates; after five years in captivity, he was ransomed, and returned to Madrid.\n[…]\nIn September 1571, Cervantes sailed on board the Marquesa, part of the Holy League fleet under Don John of Austria, illegitimate half brother of Phillip II of Spain; on 7 October, they defeated the Ottoman fleet at the Battle of Lepanto. According to his own account, although suffering from malaria, Cervantes was given command of a 12-man skiff, a small boat used for assaulting enemy galleys.\n[…]\nThe Marquesa lost 40 dead, and 120 wounded, including Cervantes, who received three separate wounds, two in the chest, and another that rendered his left arm useless. This last wound is the reason why he later was called \"El manco de Lepanto\" (English: \"The one-handed man of Lepanto\", \"The one-armed man of Lepanto\"), a title that followed him for the rest of his life.\n[…]\nHis actions at Lepanto were a source of pride to the end of his life, while Don John approved no less than four separate pay increases for him.\n[…]\nMiguel de Cervantes Prize\n[…]\nInformation about Miguel de Cervantes\n[…]\nMiguel de Cervantes Collection From the Rare Book and Special Collection Division at the Library of Congress"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "situacao": "ok",
+        "texto": "Miguel de Cervantes Saavedra ([sɜrˈvæntiːz,_ʔtɪz] sur-VAN-teez-,_--tiz; es; 29 de setembro de 1547 (presumido) – 22 de abril de 1616) foi um escritor espanhol amplamente considerado como o maior escritor da língua espanhola e um dos romancistas proeminentes do mundo. Ele é mais conhecido por seu romance em duas partes Dom Quixote, uma obra considerada o primeiro romance moderno.\n[…]\nEm 1569, Cervantes foi forçado a deixar a Espanha e mudar-se para Roma, onde trabalhou na casa de um cardeal. Em 1570, alistou-se em um regimento de infantaria da Marinha Espanhola, foi gravemente ferido na Batalha de Lepanto em outubro de 1571 e perdeu o uso do braço e da mão esquerda. Serviu como soldado até 1575, quando foi capturado por piratas berberes; após cinco anos em cativeiro, foi resgatado e retornou a Madrid.\n[…]\nEm setembro de 1571, Cervantes navegou a bordo da Marquesa, parte da frota da Liga Santa sob o comando de Dom João de Áustria, meio-irmão ilegítimo de Filipe II de Espanha; em 7 de outubro, eles derrotaram a frota do Império Otomano na Batalha de Lepanto. De acordo com seu próprio relato, embora sofresse de malária, Cervantes recebeu o comando de um esquife de 12 homens, um pequeno barco usado para assaltar galés inimigas.\n[…]\nA Marquesa perdeu 40 mortos e 120 feridos, incluindo Cervantes, que recebeu três ferimentos distintos, dois no peito e outro que deixou seu braço esquerdo inútil. Esse último ferimento é a razão pela qual ele mais tarde foi chamado de \"El manco de Lepanto\" (O maneta de Lepanto), um título que o acompanhou pelo resto da vida. Suas ações em Lepanto foram motivo de orgulho até o fim de seus dias, enquanto Dom João aprovou nada menos que quatro aumentos salariais separados para ele.\n[…]\nInstituto Cervantes\n[…]\nInformações sobre Miguel de Cervantes\n[…]\nMiguel de Cervantes Collection Da Divisão de Livros Raros e Coleções Especiais da Biblioteca do Congresso"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Defenestração de Praga de 1618",
+      "descricao": "Episódio de 1618 em que nobres protestantes boêmios atiraram representantes católicos do imperador pela janela do Castelo de Praga."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1618, nobres protestantes atiraram representantes do imperador pela janela de um castelo em Praga. Que guerra esse episódio desencadeou?",
+    "resposta": "Guerra dos Trinta Anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+      "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+        "situacao": "ok",
+        "texto": "The Defenestrations of Prague (Czech: Pražské defenestrace, German: Prager Fenstersturz, Latin: Defenestratio Pragensis) were three incidents in the history of Bohemia in which people were defenestrated (thrown out of a window).\n[…]\nThough already existing in Middle French, the word defenestrate is believed to have first been used in English in reference to the episodes in Prague in 1618 when the disgruntled Protestant estates threw two royal governors and their secretary out of a window of the Hradčany Castle and wrote an extensive apologia explaining their action.\n[…]\nThe first governmental defenestration occurred in 1419, the second in 1483 and the third in 1618, although the term \"Defenestration of Prague\" more commonly refers to the third. Often, however, the 1483 event is not recognized as a \"significant defenestration\", which leads to some ambiguity when the 1618 defenestration is referred to as the \"second Prague defenestration\".\n[…]\nThis defenestration significantly influenced the history of Europe, by causing the Bohemian Estates' Revolt and thus led to the Thirty Years' War.\n[…]\nOn 23 May 1618, four Catholic lords regent, Count Jaroslav Bořita of Martinice, Count Vilem Slavata of Chlum, Adam II von Šternberk (the supreme burgrave), and Matouš Děpolt of Lobkovice (the grand prior), arrived at the Bohemian Chancellery at 8:30 am. After preparing the meeting hall, members of the dissolved assembly of the three main Protestant estates gathered at 9:00 am, led by Count Thurn, who had been deprived of his post as castellan (burgrave) of Karlštejn Castle by the Emperor.\n[…]\nMore events of defenestration have occurred in Prague during its history, but they are not usually called \"defenestrations of Prague\"."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+        "situacao": "ok",
+        "texto": "The Thirty Years' War, fought primarily in Central Europe between 1618 and 1648, was one of the most destructive conflicts in European history. An estimated 4.5 to 8 million soldiers and civilians died from the effects of battle, famine, or disease, with parts of Germany reporting population declines of more than 50%.\n[…]\nElected king of Bohemia in May 1617, Ferdinand reconfirmed Protestant religious freedoms, but his record in Styria led to the suspicion he was only awaiting a chance to overturn them. These concerns were heightened after a series of legal disputes over property were all decided in favour of the Catholic Church. In May 1618, Protestant nobles led by Count Thurn met in Prague Castle with Ferdinand's two Catholic representatives, Vilem Slavata and Jaroslav Borzita.\n[…]\nIn 1618, war broke out in the Valtellina between the Catholic Grisons Rebels and the Protestant Three Leagues. Both Spain and France sent troops to support different factions, with France sending the Duke of Rohan and Spain the Duke of Feria. In 1625, Savoy invaded Genoa with French support, while François d'Estrées invaded the Valtellina. Spain then sent the Duke of Feria and the Marquess of Santa Cruz to relieve Genoa, which happened in April 1625.\n[…]\nThe terms were denounced by Pope Innocent X, for whom the bishoprics ceded to France and Brandenburg were property of the Catholic Church, and thus his to assign. It also disappointed many exiles by accepting Catholicism as the dominant religion in Bohemia, Upper and Lower Austria, all Protestant strongholds prior to 1618. Fighting did not end immediately, since demobilising over 200,000 soldiers took time, and the last Swedish garrison did not leave Germany until 1654."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Defenestra%C3%A7%C3%B5es_de_Praga",
+        "situacao": "ok",
+        "texto": "As Defenestrações de Praga (tcheco: Pražské defenestrace, alemão: Prager Fenstersturz, latim: Defenestratio Pragensis) foram três incidentes na história da Boêmia em que pessoas foram defenestradas (jogadas pela janela).\n[…]\nA primeira e a terceira defenestração ajudaram a desencadear conflitos religiosos prolongados, seja dentro da Boêmia (as Guerras Hussitas, 1ª defenestração) ou além (Guerra dos Trinta Anos, 3ª defenestração), enquanto a segunda ajudou a estabelecer uma paz religiosa no país por 31 anos (Paz de Kutná Hora, 2ª defenestração).\n[…]\nAs guerras hussitas duraram até 1436.\n[…]\nOcorrido em 23 de maio de 1618, foi o estopim da Guerra dos Trinta Anos, quando alguns integrantes da nobreza tcheca atiraram pelas janelas do palácio real de Praga os representantes do sacro imperador romano-germânico Matias.O evento foi reflexo da crescente tensão entre protestantes e a católica casa de Habsburgo, que governava o Sacro Império Romano-Germânico.\n[…]\nComo haviam deposto um rei devidamente escolhido, que também era imperador, os protestantes não conseguiram reunir o apoio internacional necessário para a guerra. Apenas dois anos após a defenestração, Fernando e os católicos recuperaram o poder na Batalha da Montanha Branca em 8 de novembro de 1620. Isso ficou conhecido como a primeira batalha da Guerra dos Trinta Anos.\n[…]\nHouve saques e pilhagem em Praga por semanas após a batalha. Vários meses depois, vinte e sete nobres e cidadãos foram torturados e executados na Praça da Cidade Velha. Doze cabeças foram empaladas em ganchos de ferro e penduradas na Torre da Ponte da Cidade Velha como aviso. Isso contribuiu para o ressentimento que deu origem à Guerra dos Trinta Anos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "95 Teses",
+      "descricao": "Lista de proposições redigida por Martinho Lutero em 1517, marco inicial da Reforma Protestante."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1517, Martinho Lutero escreveu suas noventa e cinco teses criticando principalmente a venda de quê pela Igreja?",
+    "resposta": "Indulgências",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ninety-five_Theses",
+      "https://pt.wikipedia.org/wiki/95_Teses"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Ninety-five_Theses",
+        "situacao": "ok",
+        "texto": "The  Ninety-five Theses or  Disputation on the Power and Efficacy of Indulgences is a list of propositions for an academic disputation written in 1517 by Martin Luther, then a professor of moral theology at the University of Wittenberg, Germany. The Theses are retrospectively considered to have launched the Protestant Reformation and the birth of Protestantism, despite various quasi- or proto-Prot\n[…]\nMartin Luther, professor of moral theology at the University of Wittenberg and town preacher, wrote the Ninety-five Theses against the contemporary practice of the church with respect to indulgences. In the Roman Catholic Church, which was practically the only Christian church in Western Europe at the time, indulgences were part of the economy of salvation.\n[…]\nHe taught that receiving an indulgence presupposed that the penitent had confessed and repented; otherwise, it was worthless. A truly repentant sinner would also not seek an indulgence because they loved God's righteousness and desired the inward punishment of their sin. These sermons seem to have ceased from April to October 1517, presumably while Luther was writing the Ninety-five Theses. He composed a Treatise on Indulgences, apparently in early autumn 1517.\n[…]\nIn theses 41–47, Luther criticizes indulgences on the basis that they discourage works of mercy by those who purchase them. Here, he begins to use the phrase, \"Christians are to be taught...\" to state how he thinks people should be instructed on the value of indulgences.\n[…]\nIn theses 56–66, Martin Luther criticizes the doctrine of the treasury of merit on which the doctrine of indulgences is based. He states that everyday Christians do not understand the doctrine and are being misled. For Luther, the true treasure of the church is the gospel of Jesus Christ. This treasure tends to be hated because it makes \"the first last\", in the words of Matthew 19:30 and 20:16."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/95_Teses",
+        "situacao": "ok",
+        "texto": "As 95 Teses ou Disputação do Doutor Martinho Lutero sobre o Poder e Eficácia das Indulgências (em latim: Disputatio pro declaratione virtutis indulgentiarum) são uma lista de proposições para uma disputa acadêmica escrita em 1517 por Martinho Lutero, professor de teologia moral da Universidade de Vitemberga, Alemanha, as quais iniciaram a Reforma Protestante, um cisma da Igreja Católica que mudou \n[…]\nMartinho Lutero, professor de teologia moral da Universidade de Vitemberga e pregador na cidade, escreveu as 95 Teses contra a prática contemporânea da igreja com respeito às indulgências. Na Igreja Católica, praticamente a única igreja cristã na Europa na época, as indulgências faziam parte do que era chamado de economia da salvação.\n[…]\nEstes sermões cessaram de ser pregados entre abril e outubro de 1517, presumivelmente enquanto Lutero estava escrevendo as 95 Teses. Ele redigiu um Tratado Sobre a Indulgência e a Graça no início do outono de 1517, sendo este um exame cauteloso e uma pesquisa sobre o assunto.\n[…]\nLutero critica a doutrina do tesouro do mérito, ou tesouro da Igreja, que serve de base para a doutrina das indulgências, durante as teses 56–66. Ele afirma que os cristãos não entendem a doutrina verdadeira e estão sendo enganados, pois, para ele, o verdadeiro tesouro da Igreja é o Evangelho de Jesus Cristo. No entanto, este tesouro acaba sendo odiado \"pois faz com que os primeiros sejam os últimos\", segundo palavras de Mateus 19:30 e Mateus 20:16.\n[…]\n31 de outubro de 1517, o dia em que Lutero enviou suas teses à Alberto, foi comemorado como o início da Reforma já em 1527, momento em que Lutero e seus amigos brindaram com um copo de cerveja para comemorar o \"pisoteio das indulgências\". A publicação das Teses foi estabelecida na historiografia da Reforma como o início do movimento por Filipe Melâncton na obra Historia de vita et actis Lutheri de 1548.\n[…]\n95 Teses no Projeto Gutenberg"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Henrique VIII",
+      "descricao": "Rei da Inglaterra de 1509 a 1547, da dinastia Tudor, que rompeu com a Igreja Católica."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Na década de 1530, Henrique Oitavo rompeu com a Igreja de Roma. Que recusa do papa motivou essa ruptura?",
+    "resposta": "Anular seu primeiro casamento",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Henry_VIII",
+      "https://en.wikipedia.org/wiki/English_Reformation"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Henry_VIII",
+        "situacao": "ok",
+        "texto": "Henry VIII (28 June 1491 – 28 January 1547) was King of England and Ireland from 22 April 1509 until his death in 1547.\n[…]\nUnder provisions of the will, if Edward died childless, the throne was to pass to Mary, Henry VIII's daughter by Catherine of Aragon, and her heirs.\n[…]\nHenry's break with Rome incurred the threat of a large-scale French or Spanish invasion. To guard against this, in 1538 he began to build a chain of expensive, state-of-the-art defences along Britain's southern and eastern coasts, from Kent to Cornwall, largely built of material gained from the demolition of the monasteries. These were known as Henry VIII's Device Forts.\n[…]\nThe meeting of the Irish Parliament that proclaimed Henry VIII as king of Ireland was the first meeting attended by the Gaelic Irish chieftains as well as the Anglo-Irish aristocrats.\n[…]\nCultural depictions of Henry VIII – Overview of Henry VIII's portrayals in cultural media\n[…]\nInventory of Henry VIII – 16th-century list of possessions of the Crown\n[…]\nWorks related to \"Persecutions of Protestants by Henry VIII\", in Foxe's Book of Martyrs at Wikisource\n[…]\nHenry VIII at the official website of the British monarchy\n[…]\nHenry VIII at the official website of the Royal Collection Trust\n[…]\nFree scores by Henry VIII at the International Music Score Library Project (IMSLP)\n[…]\nFree scores by Henry VIII in the Choral Public Domain Library (ChoralWiki)\n[…]\nWorks by Henry VIII at Project Gutenberg\n[…]\nWorks by or about Henry VIII at the Internet Archive\n[…]\nWorks by Henry VIII at LibriVox (public domain audiobooks)\n[…]\nPortraits of King Henry VIII at the National Portrait Gallery, London"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/English_Reformation",
+        "situacao": "ok",
+        "texto": "The English Reformation began in 16th-century England when the Church of England  broke away first from the authority of the pope and bishops over the King and then from some doctrines and practices of the Catholic Church. These events were part of the wider European Reformation: various religious and political movements that affected both the practice of Christianity in Western and Central Europe\n[…]\nDisputes between the Church and the Crown had a long history in England as in other areas of Europe, and what is known as the English Reformation initially had more of a political than a theological nature. In 1527, Henry VIII sought an annulment of his 18-year marriage to Catherine of Aragon but Pope Clement VII refused. In response, the Reformation Parliament (1529–1536) passed laws abolishing papal authority in England and declared Henry to be head of the Church of England.\n[…]\nA notable early use of the English word reformation came in 1512, when the English bishops were called together by Henry VIII, notionally to discuss the extirpation of the rump Lollard heresy.\n[…]\nThe Henrician Reformation refers to the period between around 1527 to 1547 when King Henry VIII of England took a series of measures to get matrimonial, political and spiritual authority away from the Pope and Catholic bishops in favour of himself, as well as confiscating considerable property and wealth.\n[…]\nThe Act of Supremacy to install Henry as the supreme head of the English church.\n[…]\nEcclesiastical Memorials, Relating Chiefly to Religion, and the Reformation of It, and the Emergencies of the Church of England, Under King Henry VIII, King Edward VI, and Queen Mary I by John Strype (Clarendon Press, 1822): Vol. I, Pt. I, Vol. I, Pt. II, Vol. II, Pt. I, Vol. II, Pt. II, Vol. III, Pt. I, Vol. III, Pt. II"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Henrique_VIII_de_Inglaterra",
+        "situacao": "ok",
+        "texto": "Henrique VIII (28 de junho de 1491 – 28 de janeiro de 1547) foi rei da Inglaterra e da Irlanda de 1509 até sua morte, em 1547. É amplamente conhecido por seus seis casamentos e por seus esforços para obter a anulação de seu primeiro matrimônio, com Catarina de Aragão.\n[…]\nNão está claro quando Henrique mudou seu ponto de vista sobre a questão enquanto cresciam suas intenções para um segundo casamento. Certamente, por volta de 1527, ele se convenceu que havia quebrado o Levítico 20:21 ao se casar com a viúva de seu irmão, uma autoridade que o papa nunca teve (na visão do rei) para dispensar.\n[…]\nCom Carlos V distraído por políticas internas em seus muitos reinos e ameaças externas, e Henrique e Francisco em relações relativamente boas, questões internas passaram a ser a prioridade do rei na primeira metade da década de 1530. Por exemplo, em 1536 ele deu seu consentimento para os Atos das Leis em Gales de 1535, que legalmente anexavam o País de Gales a Inglaterra e criavam uma única nação.\n[…]\nApesar de especulações que Holbein pintou Ana de maneira muito lisonjeira, é mais provável que o retrato fosse fiel; Holbein permaneceu bem visto na corte. Depois de considerar a pintura de Holbein e ouvir boas descrições dadas por cortesãos, Henrique concordou em se casar com Ana. Porém, ele logo passou a querer anular o casamento. Ela não protestou e confirmou que o casamento jamais fora consumado.\n[…]\nA razão pela qual os irlandeses consideravam o papa como seu suserano era que a Irlanda originalmente tinha sido entregue ao rei Henrique II pelo Papa Adriano IV no século XII como território feudal sob suserania papal. O encontro do parlamento irlandês que o proclamou como rei foi o primeiro com a presença de maiorais dos gaélicos além de aristocratas anglo-irlandeses.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Cândido",
+      "descricao": "Novela satírica de Voltaire publicada em 1759, que ridiculariza o otimismo filosófico."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que catástrofe europeia de 1755 inspirou Voltaire a ridicularizar o otimismo filosófico em seu romance Cândido?",
+    "resposta": "Terremoto de Lisboa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Candide",
+      "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Candide",
+        "situacao": "ok",
+        "texto": "Candide, ou l'Optimisme ( kon-DEED or  kahn-DEED, French: [kɑ̃did] ) is a French satire written by Voltaire, a philosopher of the Age of Enlightenment, first published in 1759. The novella has been widely translated, with English versions titled Candidus: or, All for the Best (1759); Candide: or, The Optimist (1762); and Candide: Optimism (1947). A young man, Candide, lives a sheltered life in an \n[…]\nSeveral historical events inspired Voltaire to write Candide, most notably the publication of Leibniz's \"Monadology\", the Seven Years' War, and the 1755 Lisbon earthquake. Both of the latter catastrophes are frequently referred to in Candide. The earthquake, tsunami, and resulting fires of All Saints' Day had a strong influence on theologians of the day and on Voltaire, who was himself disillusioned by them.\n[…]\nImmediately after the earthquake, unreliable rumours circulated around Europe, sometimes overestimating the severity of the event. Ira Wade, a noted expert on Voltaire and Candide, has analyzed which sources Voltaire might have referenced, speculating that Voltaire's primary source was the 1755 work Relation historique du Tremblement de Terre survenu à Lisbonne by Ange Goudar.\n[…]\nAnother element of the satire focuses on what William F. Bottiglia, author of many published works on Candide, calls the \"sentimental foibles of the age\" and Voltaire's attack on them. Flaws in European culture are highlighted as Candide parodies adventure and romance clichés, mimicking the style of a picaresque novel.\n[…]\nSome critics conjecture that Voltaire meant to spare Pope this ridicule out of respect, although Voltaire's Poème may have been written as a more direct response to Pope's theories. This work is similar to Candide in subject matter, but very different from it in style: the Poème embodies a more serious philosophical argument than Candide.\n[…]\nVoltaire. Candide  (in French) – via Wikisource."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/1755_Lisbon_earthquake",
+        "situacao": "ok",
+        "texto": "The 1755 Lisbon earthquake, also known as the Great Lisbon earthquake, occurred in the Iberian Peninsula and Northwest Africa area on the morning of Saturday, 1 November, 1755 (on the Christian Feast of All Saints); it took place at approximately 09:40 local time. In combination with subsequent fires and a tsunami, the earthquake almost completely destroyed Lisbon and adjoining areas.\n[…]\nThe earthquake and its aftermath strongly influenced the intelligentsia of the European Age of Enlightenment. The noted writer-philosopher Voltaire used the earthquake in Candide and in his Poème sur le désastre de Lisbonne (\"Poem on the Lisbon disaster\"). Voltaire's Candide attacks the notion that all is for the best in this, \"the best of all possible worlds\", a world closely supervised by a benevolent deity. The Lisbon disaster provided a counterexample for Voltaire. Theodor W.\n[…]\nVoltaire's Candide includes a depiction of the main character during the devastation of the earthquake and its aftermath.\n[…]\n1755 Cape Ann earthquake\n[…]\nBraun, Theodore E. D., and John B. Radner, eds. The Lisbon Earthquake of 1755: Representations and Reactions (SVEC 2005:02). Oxford: Voltaire Foundation, 2005. ISBN 978-0-7294-0857-8. Recent scholarly essays on the earthquake and its representations in art, with a focus on Voltaire. (In English and French.)\n[…]\nFonseca, J. D. 1755, O Terramoto de Lisboa, The Lisbon Earthquake. Argumentum, Lisbon, 2004.\n[…]\nThe Lisbon earthquake of 1755: the catastrophe and its European repercussions (published in “The Economia Global e Gestão (Global Economics and Management Review), Lisbon, volume 10 (2004))\n[…]\nImages and historical depictions of the 1755 Lisbon earthquake from the University of California\n[…]\nTsunami Forecast Model Animation: Lisbon 1755 from the Pacific Tsunami Warning Center's official YouTube channel\n[…]\nThe Lisbon Earthquake (1755) from European History Online"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/C%C3%A2ndido%2C_ou_O_Otimismo",
+        "situacao": "ok",
+        "texto": "Candide, ou l'Optimisme é um conto filosófico em tom de sátira publicado pela primeira vez em 1759 por Voltaire, filósofo do Iluminismo. A novela já foi traduzida em centenas de línguas e, em português, seu título costuma ser Cândido ou O Otimismo ou simplesmente Cândido. Foi realizado, ao que parece, em três dias, em 1758, ainda sob a impressão do terremoto de Lisboa, com assinatura de um pseudôn\n[…]\nAinda assim, os eventos discutidos no livro são muitas vezes baseados em acontecimentos históricos, como a Guerra dos Sete Anos e o já citado terremoto de Lisboa de 1755. O problema do mal, tema comum aos filósofos da época, é exposto também neste conto, de forma mais direta e ironicamente: o autor ridiculariza a religião, os teólogos, os governos, o exército, as filosofias e os filósofos por meio de alegorias; de maneira mais conspícua, chega a roubar Leibniz e seu otimismo.\n[…]\nAlém de para ópera, o romance de Voltaire foi adaptado para as telas pelo cineasta brasileiro Amácio Mazzaropi, no filme Candinho — apresentando, no entanto, uma mensagem oposta à de Voltaire, com o sambista Adoniran Barbosa no papel do Prof. Pancrácio (uma versão brasileira de Pangloss, no filme). Na televisão brasileira tanto o conto Cândido quanto o filme de Mazzaroppi foram inspiração para a construção do enredo da telenovela Êta Mundo Bom! (2016) de Walcyr Carrasco.\n[…]\nRecrutado à força pelas tropas búlgaras, testemunha o massacre da guerra. Foge e é recolhido pelo anabatista Jacques. Reencontra Pangloss, envelhecido e vitimado pela sífilis, que o informa da suposta morte de Cunegundes, estuprada por soldados búlgaros. Embarcam com Jacques para Lisboa. Após uma tempestade em que Jacques morre afogado, chegam a Lisboa no dia do terremoto e são vítimas de um auto de fé em que Pangloss é aparentemente enforcado.\n[…]\n— Tudo isso está muito bem dito — respondeu Cândido, — mas devemos cultivar nosso jardim.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Tomada da Bastilha",
+      "descricao": "Ataque popular de 14 de julho de 1789 à fortaleza-prisão da Bastilha, em Paris, marco da Revolução Francesa."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 14 de julho de 1789, por que a multidão de Paris atacou principalmente a fortaleza da Bastilha?",
+    "resposta": "Para obter pólvora e munição",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Storming_of_the_Bastille"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Storming_of_the_Bastille",
+        "situacao": "ok",
+        "texto": "The Storming of the Bastille (French: Prise de la Bastille [pʁiz də la bastij]), also known as Fall of the Bastille, which occurred in Paris, France, on 14 July 1789, was an act of political violence by revolutionary insurgents who attempted to storm and seize control of the medieval armoury, fortress, and political prison known as the Bastille. After four hours of fighting and 94 deaths, the insu\n[…]\nIn France, 14 July is a national holiday called Fête nationale française which commemorates both the anniversary of the storming of the Bastille and the Fête de la Fédération which occurred on its first anniversary in 1790. In English this holiday is commonly referred to as Bastille Day.\n[…]\nThe duke replied: \"No sire, it's not a revolt; it's a revolution.\" Indeed, the storming of the Bastille is suggested to be the founding point of the French Revolution in national discourse.\n[…]\nThe storming of the Bastille has been portrayed as a defining revolutionary act symbolizing the overthrow of tyranny. In reality, the prison held only seven inmates at the time, and by 1789 it had little military significance.\n[…]\nA Tale of Two Cities, the 1859 novel by Charles Dickens, dramatizes the Bastille storming in \"Book The Second – the Golden Thread,\" Chapter 21, \"Echoing Footsteps\"  (\"Seven prisoners released, seven gory heads on pikes, the keys of the accursed fortress of the eight strong towers, some discovered letters and other memorials of prisoners of old time, long dead of broken hearts, – such, and such – like, the loudly echoing footsteps of Saint Antoine escort through the Paris streets in mid-July, one thousand seven hunderd and eighty-nine.\")\n[…]\nMedia related to Storming of the Bastille at Wikimedia Commons\n[…]\nThomas Jefferson's letter to John Jay recounting the storming of the Bastille Archived 10 July 2010 at the Wayback Machine"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tomada_da_Bastilha",
+        "situacao": "ok",
+        "texto": "A Tomada da Bastilha (em francês: Prise de la Bastille), também conhecida como Queda da Bastilha, foi um evento central da Revolução Francesa, ocorrido em 14 de julho de 1789. Embora a Bastilha, fortaleza medieval utilizada como prisão, contivesse apenas sete prisioneiros na época, sua queda é tida como um dos símbolos daquela revolução, e tornou-se um ícone da República Francesa.\n[…]\nNaquele cenário, uma Comuna conseguiu tomar o poder na cidade em 13 de julho. No dia seguinte, um grupo de insurgentes dirigiu-se ao Palácio dos Inválidos, um antigo hospital onde se concentrava a quantidade de quarenta mil fuzis. Correu o boato de que mais armamentos se encontravam estocados num outro lugar, na fortaleza da Bastilha. Marcharam então para lá.\n[…]\nDurante a Tomada, o marquês de Launay, governador da Bastilha, ainda tentou negociar. Os guardas, no entanto, descontrolaram-se, disparando na multidão. Indignado, o povo reunido na praça em frente partiu para o assalto e dali para o massacre. O tiroteio durou aproximadamente quatro horas. O número de mortos foi incerto. Calculam que somaram 98 populares e apenas um defensor da Bastilha.\n[…]\nLaunay teve um fim trágico. Foi decapitado e a sua cabeça espetada na ponta de uma lança desfilou pelas ruas numa celebração macabra. Os presos, soltos, arrastaram-se para fora sob o aplauso comovido da multidão postada nos arredores da fortaleza devassada. Posteriormente, a massa incendiou e destruiu a Bastilha, localizada no bairro Santo Antônio, um dos mais populares de Paris. O episódio, verdadeiramente espetacular, teve um efeito eletrizante.\n[…]\nA queda da Bastilha, no 14 de julho de 1789, ainda hoje é comemorada como o principal feriado e evento francês.\n[…]\n«Deutsche Welle - 1789: Queda da Bastilha»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Conquista do Império Asteca",
+      "descricao": "Campanha espanhola liderada por Hernán Cortés, de 1519 a 1521, que derrubou o Império Asteca."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Durante a conquista espanhola do Império Asteca, em 1520, que doença trazida da Europa matou grande parte da população de Tenochtitlan?",
+    "resposta": "Varíola",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+      "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spanish_conquest_of_the_Aztec_Empire",
+        "situacao": "ok",
+        "texto": "The Spanish conquest of the Aztec Empire, also known as the Conquest of Mexico (Spanish: Conquista española del Imperio azteca), was a pivotal event that took place during the Spanish colonization of the Americas (the broader European colonization of the Americas), marked by the collision of the Aztec Triple Alliance and the Spanish Empire with its American Indian allies.\n[…]\nThe Spanish campaign against the Aztec Empire had its final victory on 13 August 1521, when a coalition army of Spanish Armed forces under Cortés and Tlaxcalan Indian warriors led by Indian commander Chichimecatecuhtli captured the Aztec emperor Cuauhtémoc and the Aztec capital Tenochtitlan. The fall of Tenochtitlan marks the establishment of New Spain, as part of the Spanish Empire, with its capital being Mexico City, built on the ruins of the former empire's capital.\n[…]\nAfter the Spanish conquest of central Mexico, expeditions were sent further northward in Mesoamerica, to the region known as La Gran Chichimeca. The expeditions under Nuño Beltrán de Guzmán were particularly harsh on the Chichimeca population, causing them to rebel under the leadership of Tenamaxtli and thus launch the Mixton War.\n[…]\nThe Aztec Empire ceased to exist with the fall of Tenochtitlan in August 1521. The empire had been composed of separate city-states that had either allied with or been conquered by the Mexica of Tenochtitlan, and rendered tribute to the Mexica while maintaining their internal ruling structures.\n[…]\nAs a result of these unions, as well as concubinage  and secret mistresses, mixed race individuals known as mestizos became the majority of the Mexican population in the centuries following the Spanish conquest.\n[…]\nThe Spanish conquest of the Aztec Empire is the subject of an opera, La Conquista (2005) and of a set of six symphonic poems, La Nueva España (1992–99) by Italian composer Lorenzo Ferrero."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Fall_of_Tenochtitlan",
+        "situacao": "ok",
+        "texto": "The fall of Tenochtitlan, the capital of the Mexica, was an important event in the Spanish conquest of the Mexica. It occurred in 1521 following extensive negotiations between local factions and Spanish conquistador Hernán Cortés. He was aided by La Malinche, his interpreter and companion, and by thousands of indigenous allies, especially Tlaxcaltec warriors.\n[…]\nAlthough numerous battles were fought between the Mexica and the Spanish-led coalition, which was composed mainly of Tlaxcaltec men, it was the siege of Tenochtitlan that directly led to the fall of the Aztec civilization and the ensuing sacking and violence against the survivors. The indigenous population at the time was devastated due to a smallpox epidemic, which killed much of its leadership.\n[…]\nCuauhtemoc then attacked all three Spanish camps simultaneously with his entire army on the feast day of St. John. On the Tacuba Causeway across Lake Texcoco connecting Tenochtitlan to the mainland along a street now known as Puente de Alvarado (Alvarado's Bridge) in Mexico City, Pedro de Alvarado made a mad cavalry charge across a gap in the Causeway. As Alvarado and his cavalry emerged on the other side of the gap with the infantry behind, Aztec canoes filled the gap.\n[…]\nHistory of Mexico\n[…]\nLeón-Portilla, Miguel (Ed.) (1992) [1959]. The Broken Spears: The Aztec Account of the Conquest of Mexico. Ángel María Garibay K. (Nahuatl–Spanish trans.), Lysander Kemp (Spanish–English trans.), Alberto Beltran (illus.) (Expanded and updated ed.). Boston: Beacon Press. ISBN 0-8070-5501-8.\n[…]\nHassig, Ross. Mexico and the Spanish Conquest. New York: Longman, 1994.\n[…]\nHassig, Ross. Mexico and the Spanish Conquest. 2nd ed., Norman: University of Oklahoma Press, 2006. ISBN 0-8061-3793-2 OCLC 64594483\n[…]\nSeven Myths of the Spanish Conquest by Matthew Restall, Oxford University Press (2003) ISBN 0-19-516077-0"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Conquista_do_Imp%C3%A9rio_Asteca",
+        "situacao": "ok",
+        "texto": "A Conquista espanhola do Império Asteca (também chamado de \"Conquista do México\" ou \"Conquista do México-Tenochtitlán\") foi um evento pivotal na história das Américas, marcado pelo choque entre a Tríplice Aliança Asteca e o Império Espanhol e seus aliados indígenas. Ocorrida entre 1519 e 1521, este evento testemunhou o conquistador espanhol Hernán Cortés e seu pequeno exército de soldados europeus\n[…]\nEste era um sistema de governo inerentemente instável, pois essa situação poderia mudar com qualquer alteração do status quo. Uma combinação de fatores, incluindo armamento superior, alianças estratégicas com grupos indígenas oprimidos, descontentes ou oportunistas, e o impacto de doenças europeias, contribuiu para a queda do curto domínio da civilização asteca. Em 1520, a primeira onda de varíola matou entre 5 e 8 milhões de pessoas.\n[…]\nOs espanhóis, tlaxcaltecas e outros reforços indígenas retornaram um ano depois, em 13 de agosto de 1521, a uma civilização que havia sido enfraquecida pela fome, carestia e pela varíola. Isso facilitou a conquista dos astecas restantes. A vitória dos espanhóis é atribuída à ajuda de aliados indígenas, à tecnologia bélica superior e à vulnerabilidade do império asteca devido à propagação da varíola.\n[…]\nA queda do Império Asteca foi o evento chave na formação do Império Espanhol ultramarino, com a Nova Espanha, que mais tarde se tornou o México.\n[…]\nConquista espanhola da Guatemala\n[…]\nConquista espanhola de Chiapas\n[…]\nHistoriadores estimam que entre 80% e 90% da população indígena da Mesoamérica (México e América Central) morreu entre o século XVI e o XVII. A maior causa foram as doenças trazidas pelos europeus — como varíola, sarampo, gripe e tifo — contra as quais os povos locais não tinham imunidade. Só a primeira epidemia de varíola no México (1520–1521) teria matado quase metade da população da região América Central em poucos anos.\n[…]\nConquista do Império Inca",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Estados Gerais de 1789",
+      "descricao": "Assembleia dos três estados da França convocada por Luís XVI em 1789, cuja reunião desencadeou a Revolução Francesa."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1789, Luís Dezesseis convocou os Estados Gerais, que não se reuniam desde 1614. Que problema ele queria resolver?",
+    "resposta": "A crise financeira do reino",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Estates_General_of_1789"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Estates_General_of_1789",
+        "situacao": "ok",
+        "texto": "The Estates General of 1789 (French: États Généraux de 1789) was a general assembly representing the French estates of the realm: the clergy (First Estate), the nobility (Second Estate), and the commoners (Third Estate). Summoned by King Louis XVI, it opened on 5 May 1789 at Versailles, marking the first such meeting since 1614. The assembly was a desperate attempt to resolve a catastrophic fiscal\n[…]\nConversely, the Third Estate demanded voting by head to reflect their numerical majority. This procedural dispute paralyzed the body for six weeks, preventing any progress on the financial crisis. The failure became definitive when the Third Estate broke away to declare itself the National Assembly on 17 June 1789.\n[…]\nThe King found it impossible to establish the Plenary court as several peers refused to participate and civil unrest increased. By 8 August 1788, the King and Brienne cancelled the Plenary court and scheduled the Estates-General for the following May. Following Brienne's resignation on 24 August, the King reappointed Necker as Director-General of Finance, who restored the Parlements to their previous status.\n[…]\nThe Estates-General were summoned by a royal edict dated 24 January 1789.\n[…]\nWhen the king had finished his speech, the Minister of Finance followed suit. In his speech, which would last 2 hours, he mentioned a 56 million deficit, which actually was three times that sum but made no remark of the floating debt. The only remedy he proposed was a new tax. Necker made clear to the deputies that the convening of the Estates General was by no means a consequence of the deficit, but rather a result of the king's goodwill.\n[…]\nHe then advised the representatives of the nobility and the clergy to willingly renounce their financial privileges, but not to collaborate with the Third Estate. He neither mentioned the Constitution nor gave the assembly any guidelines or a work plan."
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Édito de Nantes",
+      "descricao": "Decreto de Henrique IV da França, de 1598, que concedeu tolerância religiosa aos protestantes, revogado por Luís XIV em 1685."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Quando Luís Quatorze revogou o Édito de Nantes, em 1685, que grupo religioso fugiu em massa da França?",
+    "resposta": "Huguenotes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Edict_of_Nantes",
+      "https://en.wikipedia.org/wiki/Huguenots"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Edict_of_Nantes",
+        "situacao": "ok",
+        "texto": "The Edict of Nantes (French: édit de Nantes) was an edict signed in April 1598 by King Henry IV of France that granted the Calvinist Protestants of France, also known as Huguenots, substantial rights in the nation, which was predominantly Catholic.\n[…]\nThe Edict of Saint-Germain, promulgated 36 years earlier by Catherine de Médici, had granted limited tolerance to Huguenots but was overtaken by events, as it was not formally registered until after the Massacre of Vassy on 1 March 1562, which triggered the first of the French Wars of Religion. The Edict of Nantes helped to end the Wars of Religion in France, which had been raging for decades.\n[…]\nIt also ensured that the Protestant minority in France would have a measure of religious and political freedom, and helped to establish France as a more tolerant and pluralistic society. However, the Edict was eventually revoked by King Louis XIV in 1685, leading to a mass exodus of Huguenots from France and a loss of talent and resources for the country.\n[…]\nFreedom of religion\n[…]\nParsons, Jotham, ed. The Edict of Nantes: Five Essays and a New Translation (National Huguenot Society, 1998).\n[…]\nSutherland, Nicola M. \"The Crown, the Huguenots, and the Edict of Nantes.\" in The Huguenot Connection: The Edict of Nantes, Its Revocation, and Early French Migration to South Carolina (Springer, Dordrecht, 1988) pp. 28–48.\n[…]\nSutherland, Nicola Mary. \"The Huguenots and the Edict of Nantes 1598–1629.\" in Huguenots in Britain and their French Background, 1550–1800 (Palgrave Macmillan, 1987) pp. 158–174.\n[…]\nTreasure, Geoffrey. The Huguenots (Yale UP, 2015)\n[…]\nTylor, Charles. The Huguenots in the Seventeenth Century: Including the History of the Edict of Nantes, from Its Enactment in 1598 to Its Revocation in 1685 (1892)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Huguenots",
+        "situacao": "ok",
+        "texto": "The Huguenots ( HEW-gə-nots, UK also  -⁠nohz; French: [yɡ(ə)no]) are a religious group of French Protestants who held to the Reformed (Calvinist) tradition of Protestantism. The term was in common use by around 1550 and may be derived from the name of burgomaster Besançon Hugues, who defended Geneva from Catholic Savoy but then let it fall to Protestantism. Huguenot was frequently used in referenc\n[…]\nThe wars ended with the Edict of Nantes of 1598, which granted the Huguenots substantial religious, political, and military autonomy.\n[…]\nHuguenot rebellions in the 1620s resulted in the abolition of their political and military privileges. They retained the religious provisions of the Edict of Nantes until the rule of Louis XIV, who gradually increased persecution of Protestantism until he issued the Edict of Fontainebleau (1685). This ended legal recognition of Protestantism in France and the Huguenots were subject to violent Dragonnades, forced to either convert to Catholicism (possibly as Nicodemites) or flee as refugees.\n[…]\nAfter the Revocation of the Edict of Nantes in 1685, several Huguenots including Edmund Bohun of Suffolk, England, Pierre Bacot of Touraine France, Jean Postell of Dieppe France, Alexander Pepin, Antoine Poitevin of Orsement France, and Jacques de Bordeaux of Grenoble, immigrated to the Charleston Orange district. They were very successful at marriage and property speculation.\n[…]\nAfter the revocation of the Edict of Nantes in 1685, the Dutch Republic received the largest group of Huguenot refugees, an estimated total of 75,000 to 100,000 people. This was a huge influx, as the entire population of the Dutch Republic amounted to c. 2 million at that time. In 1705, Amsterdam and the area of West Frisia were the first areas to provide full citizenship rights to Huguenot immigrants, followed by the whole Dutch Republic in 1715.\n[…]\nHuguenots of Spitalfields"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Edito_de_Nantes",
+        "situacao": "ok",
+        "texto": "O Edito de Nantes foi um documento histórico assinado em Nantes a 13 de abril de 1598 pelo rei da França Henrique IV. O edito concedia aos huguenotes a garantia de tolerância religiosa após 36 anos de perseguição e massacres por todo o país, com destaque para o Massacre da noite de São Bartolomeu de 1572.\n[…]\nPara a filósofa brasileira Maria Cristina Constança Pissarra, a liberdade religiosa não era uma política de Estado, e sim uma concessão provisória do poder. Isso pode ser identificado pelo fato do Edito de Nantes restringir os espaços nos quais os protestantes poderiam manifestar a sua fé. Além disso, o decreto foi uma concessão do rei Henrique IV da França, mas não de Luís XIV, que o revogaria em 1685.\n[…]\nJá Olivier Christin enxerga o Edito de Nantes como resultado de arranjos jurídicos e administrativos que visavam conter os conflitos religiosos e, por isso, formou-se uma esfera de ação política parcialmente separada da religião, antecipando, gradualmente, a possibilidade da fé se tornar também uma questão particular dos sujeitos, e não uma dimensão pública da vida.\n[…]\nEm 23 de outubro de 1685, o rei Luís XIV da França revogaria o Edito de Nantes com o Edito de Fontainebleau - contrariando a vontade do Papa Inocêncio XI e da Cúria Romana. Os huguenotes voltariam a ser perseguidos e muitos deles fugiriam para o estrangeiro: para a Prússia, para os Estados Unidos e África do Sul. A migração dos huguenotes causou problemas econômicos ao país.\n[…]\nO historiador francês Claude-Carloman de Rulhière assim narrou os episódios que se seguiram à revogação do Edito de Nantes, em especial os tratamentos dos padres e dos juízes aos hereges:\n[…]\nEdito de Fontainebleau\n[…]\nHenrique IV da França\n[…]\nHistória da França\n[…]\nReligião na França",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Galileu Galilei",
+      "descricao": "Astrônomo, físico e matemático italiano dos séculos dezesseis e dezessete, julgado pela Inquisição em 1633."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1633, a Inquisição condenou Galileu Galilei à prisão domiciliar por defender que ideia astronômica?",
+    "resposta": "Que a Terra gira em torno do Sol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Galileo_affair"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Galileo_affair",
+        "situacao": "ok",
+        "texto": "The Galileo affair was an early 17th century political, religious, and scientific controversy regarding the astronomer Galileo Galilei's defence of heliocentrism, the idea that the Earth revolves around the Sun.\n[…]\nIn 1632, Galileo published his Dialogue Concerning the Two Chief World Systems, which defended heliocentrism while describing geocentrists as \"simpletons\". Responding to mounting controversy, the Roman Inquisition tried Galileo in 1633 and found him \"vehemently suspect of heresy\", sentencing him to house arrest. At this point, heliocentric books were banned and Galileo was ordered to abstain from holding, teaching or defending heliocentric ideas after the trial.\n[…]\nTo protect his good name, Galileo requested a letter from Bellarmine stating the truth of the matter. This letter assumed great importance in 1633, as did the question whether Galileo had been ordered not to \"hold or defend\" Copernican ideas (which would have allowed their hypothetical treatment) or not to teach them in any way. If the Inquisition had issued the order not to teach heliocentrism at all, it would have been ignoring Bellarmine's position.\n[…]\nGalileo was found guilty, and the sentence of the Inquisition, issued on 22 June 1633, was in three essential parts:\n[…]\nIn 1758 the Catholic Church dropped the general prohibition of books advocating heliocentrism from the Index of Forbidden Books. It did not, however, explicitly rescind the decisions issued by the Inquisition in its judgement of 1633 against Galileo, or lift the prohibition of uncensored versions of Copernicus's De Revolutionibus or Galileo's Dialogue.\n[…]\nGalileo's letter to the Grand Duchess Christina of 1615\n[…]\nInquisition documents, 1616 and 1633"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Processo_de_Galileu_Galilei",
+        "situacao": "ok",
+        "texto": "O Processo de Galileu Galilei (em italiano:  Il processo a Galileo Galilei) foi uma sequência de eventos, começando em torno de 1610, culminando com o julgamento e condenação de Galileu Galilei pela Inquisição Católica Romana em 1633 por sua defesa do heliocentrismo.\n[…]\nRespondendo a uma controvérsia crescente sobre teologia, astronomia e filosofia, a Inquisição Romana julgou Galileu em 1633 e o acusou de \"suspeito veementemente de heresia\", condenando-o a prisão indefinida. Galileu foi mantido em prisão domiciliar até sua morte em 1642.\n[…]\nNo mundo católico antes do conflito de Galileu com a Igreja, a maioria das pessoas cultas admitia a visão geocêntrica aristotélica de que a Terra era o centro do universo e que todos os corpos celestes giravam em torno da Terra, embora as teorias de Copérnico fossem usadas para reformar o calendário em 1582.\n[…]\nO geoestaticismo concordava com uma interpretação literal das Escrituras em vários lugares, como 1Chronicles 16:30, Psalm 93:1, Psalm 96:10, Psalm 104:5, Ecclesiastes 1:5 (mas veja interpretações variadas de Job 26:7). Heliocentrismo, a teoria de que a Terra era um planeta, que junto com todos os outros girava em torno do Sol, contradizia o geocentrismo e a posição teológica predominante da teoria.\n[…]\nNeste depoimento Attavanti confirmou que Galileu havia defendido as doutrinas copernicanas de um Sol estacionário e uma Terra móvel, e, como consequência, o Tribunal da Inquisição teria eventualmente necessário determinar o status teológico dessas doutrinas. No entanto é possível, como afirmou o embaixador da Toscana, Piero Guiccardini, em uma carta ao Grão-Duque, que a referência real pode ter sido precipitada pela campanha agressiva de Galileu para evitar a condenação do copernicanismo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Escorbuto",
+      "descricao": "Doença causada pela carência de vitamina C, que provoca sangramento nas gengivas e matava muitos marinheiros em longas viagens."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nas longas viagens das Grandes Navegações, o escorbuto matava muitos marinheiros. A falta de que nutriente na dieta causava a doença?",
+    "resposta": "Vitamina C",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scurvy",
+      "https://pt.wikipedia.org/wiki/Escorbuto"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Scurvy",
+        "situacao": "ok",
+        "texto": "Scurvy or scorbutus is a deficiency disease (state of malnutrition) resulting from a lack of vitamin C (ascorbic acid). Early symptoms of deficiency include weakness, fatigue, and sore arms and legs. Without treatment, decreased red blood cells, gum disease, changes to hair, and bleeding from the skin may occur. As scurvy worsens, there can be poor wound healing, personality changes, and finally d\n[…]\nIn contact with air, the copper formed compounds that prevented the absorption of vitamins by the intestines.\n[…]\nIn 1915, New Zealand troops in the Gallipoli Campaign had a lack of vitamin C in their diet which caused many of the soldiers to contract scurvy.\n[…]\nMen in the prison study developed the first signs of scurvy about four weeks after starting the vitamin C-free diet, whereas in the British study, six to eight months were required, possibly because the subjects were pre-loaded with a 70 mg/day supplement for six weeks before the scorbutic diet was fed.\n[…]\nMen in both studies, on a diet devoid or nearly devoid of vitamin C, had blood levels of vitamin C too low to be accurately measured when they developed signs of scurvy, and in the Iowa study, at this time were estimated (by labeled vitamin C dilution) to have a body pool of less than 300 mg, with daily turnover of only 2.5 mg/day.\n[…]\nAscorbic acid is also not synthesized by at least two species of caviidae, the capybara and the guinea pig. Certain birds and fish do not synthesize their vitamin C. All species that do not synthesize ascorbate require it in the diet. Deficiency causes scurvy in humans, and somewhat similar symptoms in other animals.\n[…]\nAnimals that can contract scurvy all lack the L-gulonolactone oxidase (GULO) enzyme, which is required in the last step of vitamin C synthesis. The genomes of these species contain GULO as pseudogenes, which serve as insight into the evolutionary past of the species."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Escorbuto",
+        "situacao": "ok",
+        "texto": "Escorbuto é uma doença causada pela falta de vitamina C (ácido ascórbico). Os sintomas iniciais mais comuns são fraqueza, cansaço e pernas e braços doridos. Se a doença não for tratada na fase inicial, podem-se começar a manifestar sintomas como diminuição do número de glóbulos vermelhos, inflamação das gengivas, alterações no cabelo e hemorragias na pele.\n[…]\nO escorbuto é geralmente causado por insuficiência de vitamina C na dieta. Até que se manifestem os primeiros sintomas é necessário que pelo menos durante um mês não seja ingerida ou seja ingerida muito pouca quantidade de vitamina C. Na época contemporânea, a doença é mais comum entre pessoas com perturbações mentais, hábitos alimentares invulgares, alcoolismo e pessoas idosas que vivem sozinhas. Entre outros fatores de risco estão a má-absorção intestinal e diálise.\n[…]\nO escorbuto é geralmente causado por insuficiência de vitamina C na dieta. Até que se manifestem os primeiros sintomas é necessário que pelo menos durante um mês não seja ingerida ou seja ingerida muito pouca quantidade de vitamina C. Os seres humanos, entre outros animais, necessitam de vitamina C na dieta para produzir colagénio.\n[…]\nNos anos 60 do século XX, o famoso químico americano Linus Pauling apoiou a visão de que as pessoas que sofrem de alguma doença mental como a esquizofrenia, apresentam taxas mais altas de metabolismo do ácido ascórbico, pelo que o consumo de grandes doses de vitamina C pode ajudar a melhorar os sintomas das patologias.\n[…]\nNa atualidade o escorbuto tende a ser uma doença praticamente esquecida, casos raros podem ainda acontecer, especialmente em pessoas submetidas a dietas extremas, idosos negligenciados ou crianças com dietas pobres. Embora a vitamina C seja considerada um nutriente essencial, vários aspetos do seu uso continuam incógnitos."
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Miguel de Cervantes",
+      "descricao": "Escritor espanhol, autor de Dom Quixote, que lutou como soldado na Batalha de Lepanto."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que Miguel de Cervantes, autor de Dom Quixote, e o dramaturgo inglês William Shakespeare têm em comum quanto à morte?",
+    "resposta": "Morreram no mesmo ano, 1616",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+      "https://en.wikipedia.org/wiki/William_Shakespeare"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "situacao": "ok",
+        "texto": "Miguel de Cervantes Saavedra ( sur-VAN-teez, -⁠tiz; Spanish: [miˈɣel de θeɾˈβantes sa(.a)ˈβeðɾa]; 29 September 1547 (assumed) – 22 April 1616) was a Spanish writer widely regarded as the greatest writer in the Spanish language and one of the world's pre-eminent novelists. He is best known for his two-part novel Don Quixote, a work considered to be the first modern novel.\n[…]\nIn Journey to Parnassus, published two years before his death in 1616, Cervantes claimed to have \"lost the movement of the left hand for the glory of the right\". As with much else, the extent of his disability is unclear, the only source being Cervantes himself, while commentators cite his habitual tendency to praise himself. However, they were serious enough to earn him six months in the Civic Hospital at Messina, Sicily.\n[…]\nIt is generally accepted Cervantes died on 22 April 1616 (NS; the Gregorian calendar had superseded the Julian in 1582 in Spain and some other countries). The date of 23 April 1616 was long considered his death date, but is now understood to be his date of burial. 23 April, which is also the death date of William Shakespeare (also in 1616, but not on the same day, as England then used the Julian calendar), is now celebrated as World Book Day.\n[…]\nMexican author Carlos Fuentes suggested that Cervantes and his contemporary William Shakespeare form part of a narrative tradition that includes Homer, Dante, Defoe, Dickens, Balzac, and Joyce.\n[…]\nMiguel de Cervantes Memorial\n[…]\n\"Casket find could lead to remains of Don Quixote author Miguel de Cervantes | Books\". The Guardian. Agence France-Presse. Retrieved 17 March 2015.\n[…]\nBiblioteca Virtual Miguel de Cervantes Spanish web site with multiple Cervantes links and audio of whole of Don Quixote\n[…]\nMiguel de Cervantes (1547–1616): Life and Portrait Archived 12 December 2009 at the Wayback Machine The Cervantes Project. Canavaggio, Jean."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/William_Shakespeare",
+        "situacao": "ok",
+        "texto": "William Shakespeare (c. 23 April 1564 – 23 April 1616) was an English playwright, poet and actor. He is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. He is often called England's national poet and the \"Bard of Avon\" or simply \"the Bard\". His extant works, including collaborations, consist of some 39 plays, 154 sonnets, 3 long narrative poems \n[…]\nThis date, which can be traced to William Oldys and George Steevens, has proved appealing to biographers because Shakespeare died on the same date in 1616. He was the third of eight children, and the eldest surviving son.\n[…]\nSome of Shakespeare's plays were published in quarto editions, beginning in 1594, and by 1598 his name had become a selling point and began to appear on the title pages. Shakespeare continued to act in his own and other plays after his success as a playwright. The 1616 edition of Ben Jonson's Works names him on the cast lists for Every Man in His Humour (1598) and Sejanus His Fall (1603).\n[…]\nShakespeare died on 23 April 1616, at the age of 52. He died within a month of signing his will, a document which he begins by describing himself as being in \"perfect health\". No extant contemporary source explains how or why he died.\n[…]\nHe was survived by his wife and two daughters. Susanna had married a physician, John Hall, in 1607, and Judith had married Thomas Quiney, a vintner, two months before Shakespeare's death. Shakespeare signed his last will and testament on 25 March 1616; the following day, Thomas Quiney, his new son-in-law, was found guilty of fathering an illegitimate son by Margaret Wheeler, and Margaret and her son both died during childbirth.\n[…]\nOutline of William Shakespeare\n[…]\nShakespeare at Home an online resource providing free educational resources on William Shakespeare and the Renaissance world. Activities are dyslexia friendly and suitable for all ages."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Miguel_de_Cervantes",
+        "situacao": "ok",
+        "texto": "Miguel de Cervantes Saavedra ([sɜrˈvæntiːz,_ʔtɪz] sur-VAN-teez-,_--tiz; es; 29 de setembro de 1547 (presumido) – 22 de abril de 1616) foi um escritor espanhol amplamente considerado como o maior escritor da língua espanhola e um dos romancistas proeminentes do mundo. Ele é mais conhecido por seu romance em duas partes Dom Quixote, uma obra considerada o primeiro romance moderno.\n[…]\nEm Viagem do Parnaso, publicado dois anos antes de sua morte em 1616, Cervantes afirmou ter \"perdido o movimento da mão esquerda para a glória da direita\". Como em muitas outras coisas, a extensão de sua deficiência não é clara, sendo a única fonte o próprio Cervantes, enquanto comentaristas citam sua tendência habitual de elogiar a si mesmo. No entanto, os ferimentos foram graves o suficiente para lhe render seis meses no Hospital Cívico de Messina, na Sicília.\n[…]\nEnquanto Cervantes estava no cativeiro, tanto Dom João quanto o Duque de Sessa morreram, privando-o de dois patronos em potencial, enquanto a economia espanhola estava em situação desesperadora. Isso dificultou a busca por emprego; exceto por um período entre 1581 e 1582, quando foi empregado como agente de inteligência no Norte da África, pouco se sabe de seus movimentos antes de 1584.\n[…]\nÉ geralmente aceito que Cervantes morreu em 22 de abril de 1616 (NS; o Calendário gregoriano substituiu o Juliano em 1582 na Espanha e em outros países). A data de 23 de abril de 1616 foi por muito tempo considerada a data de sua morte, mas hoje entende-se que foi a data de seu sepultamento. 23 de abril, que é também a data de morte de William Shakespeare (também em 1616, mas não no mesmo dia, já que a Inglaterra ainda usava o calendário juliano), é agora celebrado como o Dia Mundial do Livro.\n[…]\nMiguel de Cervantes (1547–1616): Vida e Retrato Arquivado em 2009-12-12 no Wayback Machine The Cervantes Project. Jean Canavaggio.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Abel Tasman",
+      "descricao": "Navegador holandês do século dezessete, primeiro europeu a alcançar a Tasmânia e a Nova Zelândia, em 1642."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Os nomes da Nova Zelândia e da Tasmânia homenageiam, respectivamente, uma província e um navegador de que mesmo país europeu?",
+    "resposta": "Países Baixos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Name_of_New_Zealand",
+      "https://en.wikipedia.org/wiki/Abel_Tasman",
+      "https://en.wikipedia.org/wiki/Tasmania"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Name_of_New_Zealand",
+        "situacao": "ok",
+        "texto": "New Zealand (Māori: Aotearoa, pronounced [aɔˈtɛaɾɔa] ) is an island country in the southwestern Pacific Ocean. It comprises two main landmasses—the North Island (Te Ika-a-Māui) and the South Island (Te Waipounamu)—and over 700 smaller islands. It is the sixth-largest island country by area and lies east of Australia across the Tasman Sea and south of the islands of New Caledonia, Fiji, and Tonga.\n[…]\nThe islands of New Zealand were the last large habitable land to be settled by humans. Between about 1280 and 1350, Polynesians began to settle in the islands and subsequently developed a distinctive Māori culture. In 1642, the Dutch explorer Abel Tasman became the first European to sight and record New Zealand. In 1769, the British explorer Captain James Cook became the first European to set foot on and map New Zealand.\n[…]\nThe first European visitor to New Zealand, Dutch explorer Abel Tasman, named the islands Staten Land, believing they were part of the Staten Landt that Jacob Le Maire had sighted off the southern end of South America. The next year, in 1643, Hendrik Brouwer proved that the South American land was just a small island, and Dutch cartographers subsequently renamed Tasman's discovery Nova Zeelandia from Latin, after the Dutch province of Zeeland. This name was later anglicised to New Zealand.\n[…]\nIn a hostile 1642 encounter between Ngāti Tūmatakōkiri and Abel Tasman's crew, four of Tasman's crew members were killed and at least one Māori was hit by canister shot. Europeans did not revisit New Zealand until 1769, when British explorer James Cook mapped almost the entire coastline. Following Cook, New Zealand was visited by numerous European and North American whaling, sealing, and trading ships.\n[…]\nThe provinces are remembered in regional public holidays and sporting rivalries."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Abel_Tasman",
+        "situacao": "ok",
+        "texto": "Abel Janszoon Tasman (Dutch: [ˈaːbəl ˈjɑnszoːn ˈtɑsmɑn]; 1603 – 10 October 1659) was a Dutch seafarer and explorer, best known for his voyages of 1642 and 1644 in the service of the Dutch East India Company (VOC). He was the first European to reach New Zealand, which he named Staten Landt. He also discovered and was the eponym of Tasmania.\n[…]\nIn 1633, Tasman sailed from Texel in the Netherlands to Batavia (now Jakarta), using the southern Brouwer Route. While based in Batavia, he later joined a voyage to Seram Island, in what is now Indonesia's Maluku Province. The expedition was sent after local traders sold spices to European merchants other than the Dutch. Tasman docked to find wood for repairs and was separated from the other ships; a fight broke out with local villagers and at least two of Tasman's men were killed.\n[…]\nThe former passenger/vehicle ferry Abel Tasman\n[…]\nEdward Duyker (ed.) The Discovery of Tasmania: Journal Extracts from the Expeditions of Abel Janszoon Tasman and Marc-Joseph Marion Dufresne 1642 & 1772, St David's Park Publishing/Tasmanian Government Printing Office, Hobart, 1992, pp. 106, ISBN 0-7246-2241-1.\n[…]\nMack, Rüdiger (2019). \"New light on the portraits of Abel Tasman\". The Great Circle. 41 (2). Australian Association for Maritime History: 46–64. JSTOR 26910735.\n[…]\nBeazley, Charles Raymond (1911), \"Tasman, Abel Janszoon\" , in Chisholm, Hugh (ed.), Encyclopædia Britannica, vol. 26 (11th ed.), Cambridge University Press, pp. 437–438\n[…]\nMack, Rudiger (2024), First Encounters: The Early Pacific and European Narratives of Abel Tasman's 1642 Voyage.[1] Feilding, New Zealand: Heritage Press. ISBN 978-1-991097-00-2\n[…]\nMedia related to Abel Tasman at Wikimedia Commons\n[…]\nWorks by Abel Tasman at the Biodiversity Heritage Library\n[…]\nWorks by Abel Tasman at Open Library\n[…]\nWorks by or about Abel Tasman at the Internet Archive"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Tasmania",
+        "situacao": "ok",
+        "texto": "Tasmania (/tæzˈmeɪniə/; palawa kani: Lutruwita) is an island state of Australia. It is located 240 kilometres (150 miles) to the south of the Australian mainland, and is separated from it by the Bass Strait. The state encompasses the main island of Tasmania, the 26th-largest island in the world, and the surrounding 1000 islands. It is Australia's smallest and least populous state, with 573,479 res\n[…]\nTasmania is named after Dutch explorer Abel Tasman, who made the first reported European sighting of the island on 24 November 1642. Tasman named the island Anthony van Diemen's Land after his sponsor Anthony van Diemen, the Governor of the Dutch East Indies. The name was later shortened to Van Diemen's Land by the British. It was officially renamed \"Tasmania\" in honour of its first European discoverer on 1 January 1856.\n[…]\nThe first reported sighting of Tasmania by a European was on 24 November 1642 by Dutch explorer Abel Tasman, who landed at today's Blackman Bay. More than a century later, in 1772, a French expedition led by Marc-Joseph Marion du Fresne landed at (nearby but different) Blackmans Bay, and the following year Tobias Furneaux became the first Englishman to land in Tasmania when he arrived at Adventure Bay, which he named after his ship HMS Adventure.\n[…]\nThis is a part of the also-receding global stereotype that all Australians are or were derived from criminals, even as most convicts were transported for petty crimes. During this period of European settlement, Tasmania was the second centre of power (and a significant port of the British Empire) on the continent after New South Wales, before being surpassed in the latter half of the 19th century by Victoria and regions sustained by mining booms following the cessation of transportation in 1853.\n[…]\nRegions of Tasmania\n[…]\nDiscover Tasmania – official tourism website\n[…]\nGeographic data related to Tasmania at OpenStreetMap"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Nova_Zel%C3%A2ndia",
+        "situacao": "ok",
+        "texto": "Nova Zelândia (em inglês:  New Zealand, pronunciado: [ˈnjuː ˈziː.l(ə)nd]; em maori: Aotearoa, pronunciado: [aɔˈtɛaɾɔa]) é um país insular, oficialmente pertencente à Oceania, no sudoeste do Oceano Pacífico, formado por duas massas de terra principais (comumente chamadas de Ilha Norte e Ilha Sul) e por numerosas ilhas menores, sendo as mais notáveis as ilhas Stewart e Chatham.\n[…]\nRecebeu este nome em homenagem a uma província dos Países Baixos chamada Zelândia, que era a terra natal de seus colonizadores.\n[…]\nAotearoa (muitas vezes traduzido como \"terra da longa nuvem branca\") é o nome māori atual para a Nova Zelândia e também é usado no inglês neozelandês. Não se sabe se os māori tinham um nome para todo o país antes da chegada dos europeus, sendo que Aotearoa originalmente referia-se apenas à Ilha do Norte. Abel Tasman avistou a Nova Zelândia em 1642 e chamou-a de Staten Landt, supondo que o país fosse conectado a um lugar do mesmo nome no extremo sul da América do Sul.\n[…]\nA taxa de desemprego para os jovens foi de 17,4% no trimestre de junho de 2011. A Nova Zelândia tem experimentado uma série de \"fuga de cérebros\" desde 1970, fenômeno que continua ainda hoje. Quase um quarto dos trabalhadores altamente qualificados do país vivem no exterior, a maioria na Austrália e Reino Unido, taxa maior do que a de qualquer outra nação desenvolvida. Nos últimos anos, entretanto, um \"ganho de cérebros\" trouxe profissionais educados da Europa e de países menos desenvolvidos.\n[…]\nO sistema ferroviário percorre o território do país, embora a maioria das linhas seja de transporte de mercadorias, em vez de passageiros. A maioria dos visitantes internacionais chegam por via aérea e a Nova Zelândia tem sete aeroportos internacionais, embora atualmente apenas os aeroportos de Auckland e Christchurch conectem-se diretamente com outros países além de Austrália e Fiji.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "John Adams",
+      "descricao": "Pai fundador dos Estados Unidos, signatário da Declaração de Independência e segundo presidente do país."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "John Adams e Thomas Jefferson, pais fundadores dos Estados Unidos, morreram no mesmo dia de 1826. Que data simbólica era essa?",
+    "resposta": "4 de julho, cinquentenário da independência",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/John_Adams",
+      "https://en.wikipedia.org/wiki/Thomas_Jefferson"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/John_Adams",
+        "situacao": "ok",
+        "texto": "John Adams (October 30, 1735 – July 4, 1826) was a Founding Father and the second president of the United States from 1797 to 1801. Before his presidency, he was a leader of the American Revolution that achieved independence from Great Britain. During the latter part of the Revolutionary War and in the early years of the new nation, he served the Continental Congress of the United States as a seni\n[…]\nIn his 1800 bid for reelection to the presidency, opposition from Federalists and accusations of despotism from Jeffersonians led to Adams losing to his vice president and former friend, Thomas Jefferson. After his defeat, he retired to Massachusetts. He eventually resumed his friendship with Jefferson by initiating a continuing correspondence. John Adams died on July 4, 1826 – the fiftieth anniversary of the adoption of the Declaration of Independence.\n[…]\nDickinson was absent. On July 3, Adams wrote to Abigail that \"yesterday was decided the greatest question which was ever debated in America, and a greater perhaps never was nor will be decided among men.\" He predicted that \"[t]he second day of July, 1776, will be the most memorable epoch in the history of America,\" and would be celebrated annually. Congress approved the Declaration of Independence on July 4.\n[…]\nOn July 4, 1826, the 50th anniversary of the adoption of the Declaration of Independence, Adams died of a heart attack at Peacefield at approximately 6:20 pm. His last words included an acknowledgement of his longtime friend and rival: \"Thomas Jefferson survives.\" Adams was unaware that Jefferson had died several hours before. At 90, Adams was the longest-lived US president until Ronald Reagan surpassed him in 2001.\n[…]\nAccording to biographer David McCullough, \"Adams was both a devout Christian and an independent thinker, and he saw no conflict in that.\"\n[…]\nWorks by or about John Adams at the Internet Archive\n[…]\nJohn Adams on C-SPAN"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+        "situacao": "ok",
+        "texto": "Thomas Jefferson (April 13 [O.S. April 2], 1743 – July 4, 1826) was a Founding Father and the third president of the United States, serving from 1801 to 1809. A prolific writer and philosopher, Jefferson was the primary author of the Declaration of Independence. His political philosophy formed the basis for Jeffersonian democracy, which dominated early American politics alongside federalism.\n[…]\nJefferson was sworn in as president by Chief Justice John Marshall at the new Capitol in Washington, D.C., on March 4, 1801. His inauguration was not attended by outgoing President Adams. In contrast to his two predecessors, Jefferson exhibited a dislike of formal etiquette. Plainly dressed, he chose to walk alongside friends to the Capitol from his nearby boardinghouse instead of arriving by carriage.\n[…]\nWhen Adams died on July 4, 1826, the 50th anniversary of the Declaration of Independence, his last words were an acknowledgment of his longtime friend and rival. \"Thomas Jefferson survives\", Adams said, unaware that Jefferson had died a few hours earlier.\n[…]\nDuring his last hours, he was accompanied by family members and friends. Jefferson died on July 4, 1826, at 12:50 p.m. at age 83, on the 50th anniversary of the adoption of the Declaration of Independence. In the moments prior to his death, Jefferson instructed his treating physician, \"No, doctor, nothing more\", refusing laudanum. But his final significant words were, \"Is it the Fourth?\" or \"This is the Fourth\".\n[…]\nJefferson subscribed to the political ideals expounded by John Locke, Francis Bacon, and Isaac Newton, whom he considered the three greatest men who ever lived. He was also influenced by the writings of Gibbon, Hume, Robertson, Bolingbroke, Montesquieu, and Voltaire. Jefferson thought that the independent yeoman and agrarian life were ideals of republican virtues.\n[…]\nDeclaration of Independence (1776)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/John_Adams",
+        "situacao": "ok",
+        "texto": "John Adams (30 de outubro de 1735 – 4 de julho de 1826) foi um Pai Fundador e o segundo presidente dos Estados Unidos de 1797 a 1801. Antes de sua presidência, foi um líder da Revolução Americana que conquistou a independência do Reino da Grã-Bretanha. Durante a parte final da Guerra de Independência e nos primeiros anos da nova nação, ele serviu ao Congresso Continental dos Estados Unidos como di\n[…]\nEm sua campanha de 1800 para reeleição à presidência, a oposição dos federalistas e as acusações de despotismo dos jeffersonianos fizeram com que Adams perdesse para seu vice-presidente e antigo amigo, Thomas Jefferson. Após a derrota, ele se retirou para Massachusetts. Eventualmente, retomou sua amizade com Jefferson ao iniciar uma correspondência contínua. John Adams morreu em 4 de julho de 1826 — no quinquagésimo aniversário da adoção da Declaração de Independência.\n[…]\nDoze colônias votaram a favor, enquanto Nova York se absteve. Dickinson estava ausente. Em 3 de julho, Adams escreveu a Abigail que \"ontem foi decidida a maior questão que já foi debatida na América, e uma maior talvez nunca foi nem será decidida entre os homens\". Previu que \"o segundo dia de julho de 1776 será a época mais memorável na história da América\" e seria celebrado anualmente. O Congresso aprovou a Declaração de Independência em 4 de julho.\n[…]\nEm 4 de julho de 1826, o 50.º aniversário da adoção da Declaração de Independência, Adams morreu de ataque cardíaco em Peacefield por volta das 18h20. Suas últimas palavras incluíram um reconhecimento ao seu antigo amigo e rival: \"Thomas Jefferson sobrevive\". Adams não sabia que Jefferson morrera algumas horas antes. Aos 90 anos, Adams foi o presidente dos EUA de vida mais longa até que Ronald Reagan o superou em 2001.\n[…]\nDe acordo com o biógrafo David McCullough, \"Adams era tanto um cristão devoto quanto um pensador independente, e não via conflito nisso\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "André Vesálio",
+      "descricao": "Anatomista flamengo autor de De humani corporis fabrica, tratado de anatomia humana publicado em 1543."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que coincidência liga o grande tratado de anatomia de André Vesálio ao livro em que Copérnico pôs o Sol no centro do universo?",
+    "resposta": "Publicados no mesmo ano, 1543",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/De_humani_corporis_fabrica",
+      "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/De_humani_corporis_fabrica",
+        "situacao": "ok",
+        "texto": "De Humani Corporis Fabrica Libri Septem (Latin, \"On the Fabric of the Human Body in Seven Books\") is a set of books on human anatomy written by Andreas Vesalius (1514–1564) and published in 1543. It was a major advance in the history of anatomy over the long-dominant work of Galen, and presented itself as such.\n[…]\nTo accompany the Fabrica, Vesalius published a condensed and less expensive Epitome: at the time of publication in 1543, it cost 10 batzen. As a result, the Epitome became more widely seen than the Fabrica; it contained eight anatomical engravings that condensed visual material from the Fabrica, one illustration of the human skeleton taken directly from the Fabrica, and two new woodcut plates.\n[…]\nO'Malley, C.D. Andreas Vesalius of Brussels, 1514-1564. Berkeley: University of California Press, 1964.\n[…]\nVesalius, Andreas. De humani corporis fabrica libri septem [Title page: Andreae Vesalii Bruxellensis, scholae medicorum Patauinae professoris De humani corporis fabrica libri septem]. Basileae [Basel]: Ex officina Joannis Oporini, 1543.\n[…]\nVesalius, Andreas. The Fabric of the Human Body. An Annotated Translation of the 1543 and 1555 Editions, edited by D.H. Garrison and M.H. Hast, Northwestern University, 2003.\n[…]\nVesalius, Andreas. La Fabrique du corps humain (1543), livre I dans La fabrique de Vésale et autres textes. First translation in French by J. Vons et S. Velut, Paris, BIU Santé, 2014.\n[…]\nAndreae Vesalii Bruxellensis, Dе humani corporis fabrica libri septem, Basileae 1543\n[…]\nAndreas Vesalius. De Humani Corporis Fabrica. Historical Anatomies on the Web. Selected images from the original work. National Library of Medicine.\n[…]\nAndreae Vesalii bruxellensis, scholae medicorum Patavinae professoris, de Humani corporis fabrica Libri septem, Basileae, ex officina Ioannis Oporini, June 1543."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/De_revolutionibus_orbium_coelestium",
+        "situacao": "ok",
+        "texto": "De revolutionibus orbium coelestium (On the Revolutions of the Heavenly Spheres) is the seminal work on the heliocentric theory of the astronomer Nicolaus Copernicus (1473–1543 CE). The book, first printed in 1543 CE in Nuremberg, Holy Roman Empire, offered an alternative model of the universe to Ptolemy's geocentric system, which had been widely accepted since ancient times.\n[…]\nRheticus left Nürnberg to take up his post as professor in Leipzig. Andreas Osiander had taken over the task of supervising the printing and publication.\n[…]\nEven before the 1543 publication of De revolutionibus, rumors circulated\n[…]\nThe works of Copernicus and Zúñiga—the latter for asserting that De revolutionibus was compatible with Catholic faith—were placed on the Index of Forbidden Books by a decree of the Sacred Congregation of the Index of March 5, 1616 (more than 70 years after Copernicus' publication):\n[…]\n1543, Nuremberg, by Johannes Petreius. A copy of this is held by the University of Edinburgh; it had been owned by an astronomer, who filled the pages with scholarly annotations, and subsequently by the Scottish economist Adam Smith. Another copy is held by the Cary Graphic Arts Collection in New York, alongside astronomer Johannes de Sacrobosco's manuscript \"De sphaera mundi\" (On the Sphere of the World), which supports the earlier Ptolemaic model of the universe.\n[…]\nAnother 1543 copy is present in the Special Collections of Leiden University Libraries.\n[…]\n1543, Nuremberg, by Johannes Petreius; online from Harvard University.\n[…]\nCopernicus, Nicolaus (1543) De Revolutionibus Orbium Coelestium; online from Source Library.\n[…]\nGingerich, Owen (2002). An annotated census of Copernicus' De revolutionibus (Nuremberg, 1543 and Basel, 1566). Leiden: Brill (Studia copernicana. Brill's series; v. 2). ISBN 90-04-11466-1.\n[…]\nDe revolutionibus orbium coelestium, from Jagiellon University, Poland."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/De_Humani_Corporis_Fabrica",
+        "situacao": "ok",
+        "texto": "De Humani Corporis Fabrica Libri Septem ou simplesmente De Humani Corporis Fabrica (Da Organização do Corpo Humano) é um livro de anatomia humana, escrito por Andreas Vesalius em 1543. Considerado um dos mais influentes livros científicos de todos os tempos, De Humanis Corporis Fabrica é conhecido sobretudo por suas ilustrações, algumas das mais perfeitas xilogravuras jamais realizadas.\n[…]\nDe Humani Corporis é resultado dos trabalhos de Vesalius como professor da Universidade de Pádua, onde realizou inúmeras dissecações de cadáveres. Nesses estudos, ele refutou grande parte das teorias do médico greco-romano Galeno acerca do corpo humano, expostas por ele nesse trabalho.\n[…]\nLivro II: trata dos músculos e possui as ilustrações mais famosas do livro.\n[…]\nLivro III: menciona o coração e os vasos sanguíneos.\n[…]\nLivro IV: faz uma apresentação do Sistema Nervoso.\n[…]\nLivro V: refere-se aos órgãos abdominais.\n[…]\nLivro VI: trata dos órgãos da região do tórax, incluindo também uma observação de Vesalius sobre a semelhança do coração com um músculo.\n[…]\nLivro VII: descreve o cérebro.\n[…]\nUm exemplo é o caso de Burke e Hare, de 1828, no qual os indivíduos cujos corpos foram entregues aos anatomistas para dissecação foram assassinados especificamente para ganho financeiro.\n[…]\nMais de 700 cópias das edições de 1543 e 1555 permanecem preservadas. Dessas cópias, em 2018, 29 se encontravam em Londres, 20 em Paris, 14 em Boston, 13 em Nova Iorque, 12 em Cambridge, e 11 tanto em Oxford quanto em Roma. A Biblioteca John Hay, na Universidade Brown, detém uma cópia encadernada com pele humana.\n[…]\nAlgumas das imagens, mesmo que separadas por diversas páginas de texto, têm um fundo que constitui um panorama, quando colocadas lado a lado.\n[…]\nO'Malley, CD. Andreas Vesalius of Brussels, 1514-1564. Berkeley: University of California Press, 1964.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Atahualpa",
+      "descricao": "Último imperador inca independente, capturado por Francisco Pizarro em Cajamarca em 1532 e executado em 1533."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que destino em comum tiveram o imperador asteca Montezuma e o imperador inca Atahualpa diante dos conquistadores espanhóis?",
+    "resposta": "Foram feitos prisioneiros pelos espanhóis",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Atahualpa",
+      "https://en.wikipedia.org/wiki/Moctezuma_II"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Atahualpa",
+        "situacao": "ok",
+        "texto": "Atawallpa ( ), also Atahualpa or Ataw Wallpa (Classical Quechua: Ataw Wallpa, pronounced [ˈataw ˈwaʎpa]) (c. 1502 – 29 August 1533), whose regnal name was Caccha Pachacuti Inca Yupanqui Inca (from the caccha idol and to honour the emperor Pachacuti), was the last effective Inca emperor, reigning from April 1532 until his capture and execution in July-August of the following year, as part of the Sp\n[…]\nAtahualpa was the son of the emperor Huayna Cápac, who died around 1525 along with his successor, Ninan Cuyochi, in a smallpox epidemic. Atahualpa initially accepted his half-brother Huáscar as the new emperor, who in turn appointed him as governor of Quito in the north of the empire. The uneasy peace between them deteriorated over the next few years. Atahualpa sought to create an independent state in Quito. From 1529 to 1532, they contested the succession in the Inca Civil War.\n[…]\nAround the same time as Atawallpa's victory, a group of Spanish conquistadors, led by Francisco Pizarro, arrived in the region. In November 1532, they captured Atahualpa during an ambush at Cajamarca. In captivity, Atahualpa gave a ransom in exchange for a promise of release and arranged for the execution of Huáscar. After receiving the ransom, the Spanish accused Atahualpa of treason, conspiracy against the Spanish Crown, and the murder of Huáscar.\n[…]\nIn Quito, the most important football stadium is named Estadio Atahualpa after Atawallpa.\n[…]\nThe closing track of Tyrannosaurus Rex's debut album, My People Were Fair and Had Sky in Their Hair... But Now They're Content to Wear Stars on Their Brows, was entitled \"Frowning Atahuallpa (My Inca Love)\".\n[…]\nHistory of the Inca\n[…]\n[1] Atahualpa – World History Encyclopedia\n[…]\n\"Atahualpa\" . Appletons' Cyclopædia of American Biography. 1900. pp. 113–114."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Moctezuma_II",
+        "situacao": "ok",
+        "texto": "Moctezuma Xocoyotzin (c. 1466 – 29 June 1520), retroactively referred to in European sources as Moctezuma II, and often called Montezuma, was the ninth emperor of the Aztec Empire (also known as the Mexica Empire), reigning from 1502 or 1503 to 1520. Through his marriage with Queen Tlapalizquixochtzin of Ecatepec, one of his two wives, he was also the king consort of the altepetl.\n[…]\nIsabel married consecutively to Cuauhtémoc (the last Mexican sovereign), to a conquistador in Cortés' original group, Alonso Grado (died c. 1527), a poblador (a Spaniard who had arrived after the fall of Tenochtitlán), to Pedro Andrade Gallego (died c. 1531), and to conquistador Juan Cano de Saavedra, who survived her. She had children by the latter two, from whom descend the illustrious families of Andrade-Montezuma and Cano-Montezuma. A nephew of Moctezuma II was Diego de Alvarado Huanitzin.\n[…]\nThe Aztec emperor is the title character in several 18th-century operas: Motezuma (1733) by Antonio Vivaldi; Motezuma (1771) by Josef Mysliveček; Montezuma (1755) by Carl Heinrich Graun; and Montesuma (1781) by Niccolò Antonio Zingarelli. He is also the subject of Roger Sessions' dodecaphonic opera Montezuma (1963), and the protagonist in the modern opera La Conquista (2005) by Italian composer Lorenzo Ferrero, where his part is written in the Nahuatl language.\n[…]\nMoctezuma (spelled Montezuma) is portrayed in Lew Wallace's first novel The Fair God (1873). He is portrayed as influenced by the belief that Cortés was Quetzalcoatl returned, and as a weak and indecisive leader, saving the conquistadores from certain defeat in one battle by ordering the Aztecs to stop.\n[…]\nOn the facade of the Royal Palace of Madrid, there is a statue of the emperor Moctezuma II, along with another of the Inca emperor Atahualpa, among the statues of the kings of the ancient kingdoms that formed Spain."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Atahualpa",
+        "situacao": "ok",
+        "texto": "Atahualpa ou Atahuallpa (quéchua Ataw Wallpa, 30 de março de 1502 – Cajamarca, 26 de julho de 1533) foi o décimo terceiro e último Sapa Inca (imperador inca) de Tahuantinsuyu, como era chamado o Império Inca. Foi o governante de Quito por cinco anos antes de conquistar o Império Inca de seu irmão Huáscar. Depois de derrotar seu irmão, Atahualpa tornou-se muito brevemente o último Sapa Inca (impera\n[…]\nAtahualpa governou Quito pacificamente por 5 anos, até que seu irmão Huáscar tentou conquistar o Reino de Quito anexando a região dos Cañaris.\n[…]\nVoltando para a cidade de Cusco, a capital do império, para tomar posse do trono que recentemente conquistara, Atahualpa parou na cidade andina de Cajamarca, conduzindo um exército de cerca de 80 mil guerreiros, quando foi aprisionado pelo conquistador espanhol Francisco Pizarro, no dia 16 de novembro de 1532.\n[…]\nAtahualpa foi recebido apenas pelo padre Vicente Valverde que, através de um tradutor, imediatamente interpelou Atahualpa exigindo que ele e seu séquito se convertessem ao cristianismo e se submetessem à soberania do rei espanhol, ameaçando-o, pela recusa, de ser considerado um inimigo da Igreja Católica e do Reino da Espanha.\n[…]\nDe acordo com lei espanhola, a esperada recusa de Atahualpa a tal \"exigência\" permitiria que os espanhóis oficialmente declarassem guerra aos incas. Pelo relato dos conquistadores, já havia sido dada um breviário (livro de orações) a Atahualpa que, tendo ouvido a insolente exigência, atirou-a ao chão, constituindo este gesto uma grave ofensa. Atahualpa acabou aprisionado no Templo do Sol.\n[…]\nEm troca da liberdade, Atahualpa concordou em encher de peças de ouro o grande aposento que ocupava, e a dar ao espanhol o dobro daquela quantia, em prata.\n[…]\n«Mistério do túmulo do último imperador inca a um passo de ser desvendado». Yahoo! Notícias Brasil",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Francisco Pizarro",
+      "descricao": "Conquistador espanhol que liderou a conquista do Império Inca na década de 1530."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Hernán Cortés e Francisco Pizarro, conquistadores dos astecas e dos incas, nasceram na mesma região da Espanha. Qual?",
+    "resposta": "Extremadura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Francisco_Pizarro",
+      "https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Francisco_Pizarro",
+        "situacao": "ok",
+        "texto": "Francisco Pizarro, 1st Marquess of the Conquest (; Spanish: [fɾanˈθisko piˈθaro]; c. 1478 – 26 June 1541), was a Spanish conquistador, best known for his expeditions that led to the Spanish conquest of the Inca Empire.\n[…]\nFrancisco Pizarro was born in Trujillo, Spain (then in the Crown of Castile, modern-day Extremadura). He was the illegitimate son of infantry colonel Gonzalo Pizarro (1446–1522) and Francisca González, a woman of poor means. His date of birth is uncertain, but it is believed to be sometime in the 1470s, probably 1475. Little attention was paid to his education and he grew up, and remained, illiterate.\n[…]\nFrancisca Pizarro Yupanqui eventually married her uncle Hernando Pizarro in Spain on 10 October 1537; the third son of Pizarro who was never legitimized, Francisco, by Doña Angelina, a wife of Atahualpa that he had taken as a mistress, died shortly after reaching Spain.\n[…]\nIn the early 1930s, sculptor Ramsay MacDonald created three copies of an anonymous European foot soldier resembling a conquistador with a helmet, wielding a sword and riding a horse. The first copy was offered to Mexico to represent Cortés, though it was rejected. The statue was taken to Lima in 1934 and re-purposed to represent Pizarro. One other copy of the statue was unveiled in Wisconsin.\n[…]\nAfter returning from Peru extremely wealthy, the Pizarro family erected a plateresque-style palace on the corner of the Plaza Mayor in Trujillo. Francisca Pizarro Yupanqui and her uncle/husband Hernando Pizarro ordered the construction of the palace; it features busts of them and others. It instantly became a recognizable symbol of the plaza.\n[…]\nPBS Special: Conquistadors – Pizarro and the conquest of the Incas"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hern%C3%A1n_Cort%C3%A9s",
+        "situacao": "ok",
+        "texto": "Hernán Cortés, 1st Marquis of the Valley of Oaxaca (c. 1485 – 2 December 1547) was a Spanish conquistador, military commander, explorer, captain general, and writer who led an expedition that caused the fall of the Aztec Empire and brought large portions of what is now mainland Mexico under the rule of the King of Castile in the early 16th century. Cortés was part of the generation of Spanish expl\n[…]\nCortés was born around 1485 in the town of Medellín, Extremadura, a poor and desolate province of the Kingdom of Castile. His father was Martín Cortés an hidalgo of distinguished ancestry but slender means. Bartolomé de las Casas, who knew Cortés's father, wrote that he was \"a very poor and humble squire, although an Old Christian and they say a nobleman\". His mother was Catalína Pizarro.\n[…]\nCortés's wife, Catalina Súarez, arrived in New Spain around the summer of 1522, along with her sister and brother. His marriage to Catalina was at this point extremely awkward, since she was a kinswoman of the governor of Cuba, Diego Velázquez, whose authority Cortés had thrown off and who was therefore now his enemy. Catalina lacked the noble title of doña, so at this point, his marriage with her no longer raised his status. Their marriage had been childless.\n[…]\nHernán Cortés is a character in the opera La Conquista (2005) by Italian composer Lorenzo Ferrero, which depicts the major episodes of the Spanish conquest of the Aztec Empire in 1521.\n[…]\ndoña Ana Cortés\n[…]\nGenealogy of Hernán Cortés\n[…]\nThe change of Hernán Cortés's self-image by means of the conquest\n[…]\nHernando Cortes on the Web – web directory with thumbnail galleries\n[…]\nHernan Cortes – The Conquistador of the Aztecs; Informational Link Blog about the History of Cortes, the Aztecs, along with a variety of sources, pictures and educational resources\n[…]\n\"Cortes, Hernando\" Belinda H. Nanney\n[…]\n\"Hernán Cortés, marqués del Valle de Oaxaca\", Encyclopædia Britannica"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Francisco_Pizarro",
+        "situacao": "ok",
+        "texto": "Francisco Pizarro González (Trujillo, 16 de março de 1476 – Lima, 26 de junho de 1541) foi um conquistador e explorador espanhol que entrou para a história como \"o conquistador do Peru\", tendo submetido o Império Inca ao poderio espanhol.\n[…]\nPizarro se aproximou do padre chamado Hernando de Luque, homem de confiança de um rico comerciante da Colômbia, o juiz Gaspar de Espinosa, e por seu intermédio obteve o patrocínio para a planejada conquista do Peru, e no mês de novembro de 1524, Pizarro se fez ao mar com oitenta homens e quatro cavalos.\n[…]\nAí não houve lutas, e afora uns poucos espanhóis deixados em Tumbes, para conter os templários e para conhecer melhor a região, Pizarro prosseguiu mais para o sul até o golfo de Guaiaquil onde seu maviao foi confrontada por grande número de jangadas repletas de guerreiros incas. Trocando informações com os nativos, Pizarro mostrava suas armaduras, arcabuzes e vinho e os nativos falavam abertamente de sua civilização admitindo a existência de ouro, prata e pedras preciosas.\n[…]\nPerseguindo seus objetivos, Pizarro voltou à Espanha e diante da corte de Carlos V fez a apologia dos esplendores do Peru, da qual modificava qualquer custo de catolicismo liberal, fazendo coro com os relatos mais auspiciosos ainda de Hernán Cortés, que retornava da conquista do México. Em 26 de julho de 1529 a rainha assinou a capitulación que autorizava Pizarro conquistar e explorar as riquezas do Peru nomeando-o governador e capitão-geral.\n[…]\nPizarro, Francisco (15 de janeiro de 2009). «Cartas del Marqués Don Francisco Pizarro (1533–1541)». bloknot.info (A. Skromnitsky)\n[…]\n\"Francisco Pizarro response to a petition by Pedro del Barco\", 14 April 1539. From the Collections at the Library of Congress",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Michelangelo",
+      "descricao": "Escultor, pintor e arquiteto do Renascimento italiano, autor do Davi e dos afrescos da Capela Sistina, morto em 1564."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Galileu Galilei nasceu em fevereiro de 1564, apenas três dias antes da morte de que gênio do Renascimento italiano?",
+    "resposta": "Michelangelo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Michelangelo",
+      "https://en.wikipedia.org/wiki/Galileo_Galilei"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Michelangelo",
+        "situacao": "ok",
+        "texto": "Michelangelo di Lodovico Buonarroti Simoni (6 March 1475 – 18 February 1564), known mononymously as Michelangelo, was an Italian sculptor, painter, architect, and poet of the High Renaissance. He was born in the Republic of Florence but was mostly active in Rome from his 30s onwards. His work was inspired by models from classical antiquity and had a lasting influence on Western art.\n[…]\nMichelangelo's mother was Francesca di Neri del Miniato di Siena. The Buonarrotis claimed to descend from the Countess Matilde di Canossa—a claim that remains unproven, but which Michelangelo believed.\n[…]\nThe nature of the poetry has been a source of discomfort to later generations. Michelangelo's grandnephew, Michelangelo Buonarroti the Younger, published the poems in 1623 with the gender of pronouns changed; he also removed words or in other instances insisted that Michelangelo's poems be read allegorically and philosophically, a judgment some modern scholars still repeat today.\n[…]\nAnthony Hughes, for example, says that it is impossible to know whether Michelangelo was sexually active and, while acknowledging that it is a reasonable guess that Michelangelo's sexuality was inclined towards men rather than women, insists the letters and poems Michelangelo addressed to Cavalieri cannot be taken as expressions of personal desire, and should  be understood in the context of the realities of Italian Renaissance culture.\n[…]\nMichelangelo died in Rome on 18 February 1564, at the age of 88. His body was taken from Rome for interment at the Basilica of Santa Croce, fulfilling the maestro's last request to be buried in his beloved Florence. His heir Lionardo Buonarroti commissioned Vasari to design and build the Tomb of Michelangelo, a monumental project that cost 770 scudi, and took over 14 years to complete.\n[…]\nMichelangelus\n[…]\nWorks by Michelangelo at LibriVox (public domain audiobooks)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Galileo_Galilei",
+        "situacao": "ok",
+        "texto": "Galileo di Vincenzo Bonaiuti de' Galilei (15 February 1564 – 8 January 1642), commonly referred to as Galileo Galilei or mononymously as Galileo, was an Italian astronomer, physicist, engineer and  polymath. He was born in Pisa, then part of the Duchy of Florence. Galileo has been called the father of observational astronomy, classical physics, the scientific method, and modern science.\n[…]\nThree of Galileo's five siblings survived infancy. The youngest, Michelangelo (or Michelagnolo), also became a lutenist and composer who added to Galileo's financial burdens for the rest of his life. Michelangelo was unable to contribute his fair share of their father's promised dowries to their brothers-in-law, who later attempted to seek legal remedies for payments due. Michelangelo also occasionally had to borrow funds from Galileo to support his musical endeavours and excursions.\n[…]\nIn 1589, he was appointed to the chair of mathematics in Pisa. In 1591, his father died, and he was entrusted with the care of his younger brother Michelagnolo. In 1592, he moved to the University of Padua where he taught geometry, mechanics, and astronomy until 1610. During this period, Galileo made significant discoveries in both pure fundamental science as well as practical applied science.\n[…]\nA small portion of Viviani's collection, including the manuscripts of Galileo and those of his peers Evangelista Torricelli and Benedetto Castelli, was left to his nephew, Abbot Jacopo Panzanini. This minor collection was preserved until Panzanini's death when it passed to his great-nephews, Carlo and Angelo Panzanini. The books from both Galileo and Viviani's collections began to disperse as the heirs failed to protect their inheritance.\n[…]\nWorks by Galileo Galilei at LibriVox (public domain audiobooks)\n[…]\nWorks by or about Galileo Galilei at the Internet Archive\n[…]\nWorks in Galileo's Personal Library at LibraryThing"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Michelangelo",
+        "situacao": "ok",
+        "texto": "Michelangelo di Lodovico Buonarroti Simoni (Caprese, 6 de março de 1475 — Roma, 18 de fevereiro de 1564), mais conhecido simplesmente como Michelangelo ou Miguel Ângelo, foi um pintor, escultor, poeta, anatomista e arquiteto italiano, considerado um dos maiores criadores da história da arte do ocidente.\n[…]\nPouco depois, em 8 de abril de 1492, Lourenço faleceu, deixando o governo para seu filho Pedro de Médici (Piero), de apenas vinte e um anos de idade. Segundo Condivi, para Michelangelo a morte de seu patrono foi um grande choque, tendo permanecido dias em funda tristeza, incapaz de qualquer ação. Retirou-se para a casa de seu pai, onde esculpiu um Hércules de grandes dimensões, que foi vendido para Francisco I da França, mas do qual não se conhece o paradeiro.\n[…]\nMichelangelo se preocupava com o avanço dos anos e temia a morte, e ainda se envolveu em assuntos familiares para assegurar a perpetuação do nome Buonarroti. Em sua vida afetiva se ligou fortemente a homens jovens, em especial a Tommaso dei Cavalieri, trocando calorosa correspondência e escrevendo-lhes poesias de grande qualidade, tratando do tema do amor na tradição de Petrarca e expressando ideias neoplatônicas.\n[…]\nMichelangelo foi o primeiro artista ocidental a reivindicar consistentemente sua independência criativa, e o prestígio de que desfrutou em vida, considerado um iluminado, um ser tocado pelo divino, desencadeou um processo de inversão das hierarquias do sistema de produção e consumo de arte que culminou na visão romântica do artista como um gênio isolado, incompreendido, semilouco, preocupado apenas com a expressão de si mesmo, atormentado por anelos insatisfeitos pelo infinito, à frente de seu tempo, perseguido por filisteus insensíveis e absolutamente livre de obrigações sociais ou morais para com seu público.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Teresa de Ávila",
+      "descricao": "Religiosa e escritora mística espanhola do século dezesseis, reformadora da Ordem Carmelita, morta em outubro de 1582."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Santa Teresa de Ávila morreu na noite de 4 de outubro de 1582, coincidindo com que mudança na contagem dos dias?",
+    "resposta": "Adoção do calendário gregoriano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Teresa_of_%C3%81vila",
+      "https://en.wikipedia.org/wiki/Gregorian_calendar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Teresa_of_%C3%81vila",
+        "situacao": "ok",
+        "texto": "Teresa of Ávila (born Teresa Sánchez de Cepeda Dávila y Ahumada; 28 March 1515 – 4 or 15 October 1582), religious name Teresa of Jesus, was a Carmelite nun, prominent Spanish mystic and spiritual reformer.\n[…]\nForty years after her death, in 1622, Teresa was canonized by Pope Gregory XV. On 27 September 1970 Pope Paul VI proclaimed Teresa the first female Doctor of the Church in recognition of her centuries-long spiritual legacy to the Catholic Church.\n[…]\nHer final illness overtook her on one of her journeys from Burgos to Alba de Tormes. She died in 1582, just as Catholic Europe was making the switch from the Julian to the Gregorian calendar, which required the excision of the dates of 5–14 October from the calendar. Teresa died either before midnight of 4 October or early in the morning of 15 October, which is celebrated as her feast day. Her last words were, \"My Lord, it is time to move on. Well then, may your will be done.\n[…]\nThe autobiography La Vida de la Santa Madre Teresa de Jesús (The Life of the Holy Mother Teresa of Jesus) was written at Ávila between 1562 and 1565, but published posthumously. Editions include:\n[…]\nNigel Wingrove's 1989 short film Visions of Ecstasy was based on Teresa of Ávila. The film features fantasised sexualised scenes of Teresa with the body of Jesus on the cross. It is the only work to be refused certification by the British Board of Film Classification (BBFC) on the grounds of blasphemy.\n[…]\nCarolyn A. Greene. Castles in the Sand fiction with cited sources about Teresa of Avila Lighthouse Trails Publishing, 2009. ISBN 978-0-9791315-4-7\n[…]\nConvent of St Teresa in Avila\n[…]\nPoems of Saint Teresa\n[…]\nSanta Teresa: an Appreciation, 1900, by Alexander Whyte, from Project Gutenberg"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Gregorian_calendar",
+        "situacao": "ok",
+        "texto": "The Gregorian calendar is the calendar currently used in most parts of the world. It went into effect in October 1582 following the papal bull Inter gravissimas issued by Pope Gregory XIII, which introduced it as a modification of, and replacement for, the Julian calendar.\n[…]\nWhen the new calendar was put in use, the error accumulated in the 13 centuries since the Council of Nicaea was corrected by a deletion of 10 days. The Julian calendar day Thursday, 4 October 1582 was followed by the first day of the Gregorian calendar, Friday, 15 October 1582 (the cycle of weekdays was not affected).\n[…]\nOn 29 September 1582, Philip II of Spain decreed the change from the Julian to the Gregorian calendar. This affected much of Roman Catholic Europe, as Philip was at the time ruler over Spain and Portugal as well as much of Italy. In these territories, as well as in the Polish–Lithuanian Commonwealth and in the Papal States, the new calendar was implemented on the date specified by the bull, with Julian Thursday, 4 October 1582, being followed by Gregorian Friday, 15 October.\n[…]\nFor example, in the case of the few countries that adopted the reformed calendar on the date proposed by Gregory XIII for the calendar's adoption, Friday, 15 October 1582, the preceding date was Thursday, 4 October 1582 (Julian calendar).\n[…]\nIn the 19th century, Sir John Herschel proposed a modification to the Gregorian calendar with 969 leap days every 4,000 years, instead of 970 leap days that the Gregorian calendar would insert over the same period. This would reduce the average year to 365.24225 days. Herschel's proposal would make the year 4000, and multiples thereof, common instead of leap. While this modification has often been proposed since, it has never been officially adopted."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Teresa_de_%C3%81vila",
+        "situacao": "ok",
+        "texto": "Santa Teresa dʼÁvila, O.C.D., conhecida como Santa Teresa de Jesus (Gotarrendura, 28 de março de 1515 – Alba de Tormes, 4 de outubro de 1582), nascida Teresa Sánchez de Cepeda y Ahumada, foi uma freira carmelita, mística e santa católica do século XVI, importante por suas obras sobre a vida contemplativa e espiritual e por sua atuação durante a Contrarreforma.\n[…]\nNos três anos finais de sua vida, Teresa de Ávila, fundou conventos em diversas localidades espanholas. Em 1580, ela estabeleceu conventos em Villanueva de la Jara (localizada em Castilla-La Mancha) e Palencia. No ano seguinte, em 1581, fundou mais um em Soria, e em 1582, completou suas fundações com conventos em Burgos e Granada. Ao todo, Santa Teresa foi responsável pela criação de dezessete conventos, dos quais ela fundou pessoalmente todos, exceto um.\n[…]\nA aflição final acometeu Teresa em uma de suas inúmeras viagens, desta vez no trecho entre Burgos e Alba de Tormes. Ela morreu em 1582, justamente no dia que as nações católicas do mundo estavam fazendo a troca do calendário juliano para o gregoriano, o que requereu a eliminação de todas as datas entre 5 e 14 de outubro do calendário. Assim, ou Teresa morreu antes da meia-noite de 4 de outubro ou nas primeiras horas de 15 de outubro, dia escolhido para celebrar sua festa.\n[…]\nEm 1622, quarenta anos depois de sua morte, Teresa foi canonizada por Gregório XV. Cinco anos antes, as Cortes Generales já haviam escolhido Teresa como padroeira da Espanha ao mesmo tempo que a Universidade de Salamanca conferiu-lhe o diploma de Doctor ecclesiae.\n[…]\nTeresa foi beatificada em 24 de abril de 1614 pelo Papa Paulo V e canonizada em 12 de março de 1622 por Gregório XV. É conhecida como Santa Teresa de Jesus.\n[…]\nAna de Jesús\n[…]\nSanta Teresinha do Menino Jesus\n[…]\nObras de Teresa de Ávila (Santa Teresa de Jesus) na Biblioteca Nacional de Portugal",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Bartolomeu Dias",
+      "descricao": "Navegador português que contornou o extremo sul da África em 1488 e morreu num naufrágio em 1500."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em 1500, Bartolomeu Dias morreu num naufrágio perto do sul da África, comandando um navio da frota de que navegador?",
+    "resposta": "Pedro Álvares Cabral",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bartolomeu_Dias",
+      "https://pt.wikipedia.org/wiki/Bartolomeu_Dias"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Bartolomeu_Dias",
+        "situacao": "ok",
+        "texto": "Bartolomeu Dias (d. 29 May 1500) was a Portuguese mariner and explorer. In February 1488, he became the first European navigator to round the southern tip of Africa and to demonstrate that the most effective southward route for ships is to go diagonally southwest in the open ocean, well to the west of the African coast. His discoveries were later used by Vasco da Gama to establish a sea route betw\n[…]\nIn 1500, he was one of the captains of the second Indian expedition, headed by Pedro Álvares Cabral. This flotilla was the first to reach Brazil, landing there on 22 April 1500 before continuing east to India. Dias perished in May 1500 when captaining a ship near the Cape of Good Hope: four ships, including Dias's, encountered a massive storm off the cape and were lost on 29 May.\n[…]\nThe Bartolomeu Dias Museum Complex (also spelled \"Bartholomeu\"), located at Mossel Bay, features an exhibition displaying the history of early European sea voyagers who discovered sea routes. The local history of 19th-century artifacts and 20th-century photographs are also displayed in this building. The building houses a life-size replica of the ship Bartolomeu Dias and his crew used when they landed in Mossel Bay in 1488.\n[…]\nDias Cross Memorial\n[…]\nDiogo Dias\n[…]\nHowgego, Raymond John, ed. (2003). \"Dias, Bartolomeu\". Encyclopedia of Exploration to 1800. Hordern House. ISBN 1-875567-36-4.\n[…]\nLivermore, Harold V. (2021). \"Bartolomeu Dias\". Encyclopedia Britannica. Retrieved 4 May 2021.\n[…]\nOakley, Robert (2003). \"Dias, Bartolomeu\". In Gerli, E. Michael (ed.). Medieval Iberia : an encyclopedia. New York: Routledge. ISBN 0-415-93918-6. OCLC 50404104.\n[…]\nRavenstein, Ernst Georg (2010). Bartolomeu Dias. William Brooks Greenlee, Pero Vaz de Caminha. England: Viartis. ISBN 978-1-906421-03-8. OCLC 501399584.\n[…]\nMedia related to Bartolomeu Dias at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bartolomeu_Dias",
+        "situacao": "ok",
+        "texto": "Bartolomeu Dias, OM, OMP (ca. 1450 — 29 de maio de 1500) foi um navegador português que ficou célebre por ter sido o primeiro europeu a navegar para além do extremo sul da África, contornando o Cabo da Boa Esperança e chegando ao Oceano Índico a partir do Atlântico, abrindo o caminho marítimo para a Índia.\n[…]\nFoi o principal navegador da esquadra de Pedro Álvares Cabral em 1500. As terras do Brasil, até então desconhecidas pelos portugueses, confundiram os navegadores, que pensaram tratar-se de uma ilha, a que deram o nome de \"Vera Cruz\".\n[…]\nSeria em 1500 o principal navegador da esquadra de Pedro Álvares Cabral. A carta de Pero Vaz de Caminha faz diversas referências a ele, apontando para a confiança que nele tinha o capitão-mor. As terras do Brasil, até então desconhecidas pelos portugueses, confundiram os navegadores, que pensaram tratar-se de uma ilha, a que deram o nome de \"Vera Cruz\".\n[…]\nQuando a armada de Cabral, após sua estada no litoral brasileiro, navegava em direção ao Cabo, um forte temporal causou o naufrágio de quatro navios, entre eles a nau de Bartolomeu Dias.\n[…]\nA primeira representação cartográfica das zonas exploradas por Bartolomeu Dias é o planisfério de Henrique Martelo Germano. Em 1652, o mercador holandês Jan van Riebeeck fundaria um posto comercial na região que, mais tarde, se tornaria a Cidade do Cabo. Bartolomeu Dias voltou ao mar em 1500, no comando de um dos navios da frota de Pedro Álvares Cabral.\n[…]\nPERES, Damião. Uma prioridade portuguesa contestada mas incontestável : a circum-navegação da África Austral por Bartolomeu Dias. Lisboa: Academia Portuguesa de História, 1960\n[…]\nPORTUGAL: Instituto Português do Património Cultural. África e Índico com Bartolomeu Dias: o encontro. Lisboa: Instituto Português do Património Cultural, 1991"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Expedição de Magalhães-Elcano",
+      "descricao": "Expedição espanhola de 1519 a 1522, iniciada por Fernão de Magalhães, que realizou a primeira volta ao mundo."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Fernão de Magalhães morreu nas Filipinas em 1521. Que navegador completou a primeira volta ao mundo, chegando à Espanha em 1522?",
+    "resposta": "Juan Sebastián Elcano",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magellan_expedition",
+      "https://en.wikipedia.org/wiki/Juan_Sebasti%C3%A1n_Elcano"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Magellan_expedition",
+        "situacao": "ok",
+        "texto": "The Magellan expedition, sometimes termed the Magellan–Elcano expedition, was a 16th-century Spanish expedition planned and initially led by Portuguese explorer Ferdinand Magellan and completed by the Spanish navigator Juan Sebastián Elcano which resulted in the first circumnavigation of the Earth. Its purpose was to secure a maritime trade route with the Moluccas, or Spice Islands, in present-day\n[…]\nJuan Sebastián Elcano, a Spanish merchant ship captain living in Seville, embarked seeking the king's pardon for previous misdeeds. Antonio Pigafetta, a Venetian scholar and traveller, asked to be on the voyage, accepting the title of \"supernumerary\" and a modest salary. He became a strict assistant of Magellan and kept a journal. The only other sailor to keep a running account during the voyage would be Francisco Albo, who kept a formal nautical logbook.\n[…]\nThe Victoria set sail via the Indian Ocean route home on 21 December 1521, commanded by Juan Sebastián Elcano. By 6 May 1522 the Victoria rounded the Cape of Good Hope, with only rice for rations. Twenty crewmen died of starvation by 9 July 1522, when Elcano put into Portuguese Cape Verde for provisions. The crew was surprised to learn that the date was actually 10 July 1522, a day after their own meticulous records indicated.\n[…]\nHernando de Bustamante: a deposition on 18 October 1522\n[…]\nJuan Sebastián Elcano: a letter written on 6 September 1522 and a deposition on 18 October 1522\n[…]\nIn 1525, soon after the return of Magellan's expedition, Charles V sent an expedition led by García Jofre de Loaísa to occupy the Moluccas, claiming that they were in his zone of the Treaty of Tordesillas. This expedition included the most notable Spanish navigators, including Juan Sebastián Elcano (who, along with many other sailors, died during the voyage) and the young Andrés de Urdaneta. They had difficulty reaching the Moluccas, docking at Tidore."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Juan_Sebasti%C3%A1n_Elcano",
+        "situacao": "ok",
+        "texto": "Juan Sebastián Elcano (Elkano in modern Basque; also known as del Cano; 1486/1487 – 4 August 1526) was a Spanish navigator, ship-owner and explorer best known for having completed the first circumnavigation of the Earth in the ship Victoria on the Magellan expedition to the Spice Islands.\n[…]\nDomingo Sebastián Elcano and Catalina Portu had eight children, their first son being born in 1481, and Juan Sebastián being the fourth born son. Next came Domingo Elcano, who was given the name of his father and became a priest in Getaria. The four other sons in the family were Martín Pérez, Antón Martín, Juan Martín, and Ochoa Martín. Martín Pérez, Antón Martín and Ochoa Martín were also mariners, and sailed with Juan Sebastián Elcano in the second expedition to the Moluccas.\n[…]\nThe daughters, i.e., Juan Sebastián's sisters, were Sebastiana de Elcano and Inés de Elcano. Apparently Elcano also had a half-sister, María, Domingo's illegitimate daughter.\n[…]\nBefore dying, Juan Sebastián had made a will – one of those signing as a witness was Andrés de Urdaneta.\n[…]\nPrime Minister of Spain Primo de Rivera, however, wanted to restore Elcano's reputation and named a training ship of the Spanish Navy, Juan Sebastián de Elcano (A-71), after him. Franco's regime tried to make Elcano a national mythical figure, using the narrative written by Eustaquio Fernández de Navarrete (1872).\n[…]\nSpanish training ship Juan Sebastián de Elcano\n[…]\nMitchell, Mairin (1958). Elcano the First Circumnavigator. London: Herder Publications.\n[…]\nAuñamendi Encyclopedia: Elcano, Juan Sebastián de (in Spanish)\n[…]\nLast will and testament of Sebastian Elcano\n[…]\nPBS Secrets of the Dead: Magellan's Crossing\n[…]\nIn the Wake of Juan Sebastián Elcano, an online adaptation of the exhibition organized and produced by the Itsasmuseum in Bilbao"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Expedi%C3%A7%C3%A3o_de_Magalh%C3%A3es",
+        "situacao": "ok",
+        "texto": "A expedição de Magalhães foi a primeira viagem ao redor do mundo registrada na história. Foi uma expedição espanhola do século XVI, planejada e liderada pelo explorador português Fernão de Magalhães às Molucas, que partiu da Espanha em 1519, e foi concluída em 1522 pelo navegador espanhol Juan Sebastián Elcano, após cruzar os oceanos Atlântico, Pacífico e Índico, culminando na primeira circum-nave\n[…]\nUma tripulação muito esgotada liderada por Juan Sebastián Elcano finalmente retornou à Espanha em 6 de setembro de 1522, tendo navegado para o oeste através do grande oceano Índico, depois contornando o cabo da Boa Esperança através das águas controladas pelos portugueses e ao norte ao longo da costa da África Ocidental para finalmente chegar à Espanha.\n[…]\nO próprio Magalhães morreu em batalha nas Filipinas e foi sucedido como capitão-general por uma série de oficiais, com Elcano liderando a viagem de volta do Victoria.\n[…]\nJuan Sebastián Elcano, capitão de um navio mercante espanhol que vivia em Sevilha, embarcou em busca do perdão do rei por crimes anteriores. Antonio Pigafetta, estudioso e viajante veneziano, pediu para embarcar, aceitando o título de \"supranumerário\" e um modesto salário. Ele se tornou um assistente estrito de Magalhães e manteve um diário. O único outro marinheiro a manter uma conta corrente durante a viagem seria Francisco Albo, que mantinha um diário de bordo náutico formal.\n[…]\nO Victoria partiu pela rota do Oceano Índico para casa em 21 de dezembro de 1521, comandado por Juan Sebastián Elcano. Em 6 de maio de 1522, o Victoria contornou o Cabo da Boa Esperança, com apenas arroz para rações. Vinte tripulantes morreram de fome até 9 de julho de 1522, quando Elcano atracou em Cabo Verde para provisões. A tripulação ficou surpresa ao saber que a data era na verdade 10 de julho de 1522, um dia após a indicação de seus próprios registros meticulosos.\n[…]\nEm espanhol",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Expedição de Magalhães-Elcano",
+      "descricao": "Expedição espanhola de 1519 a 1522, iniciada por Fernão de Magalhães, que realizou a primeira volta ao mundo."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "A expedição de Fernão de Magalhães partiu da Espanha em 1519 com cinco navios. Quantos deles voltaram após dar a volta ao mundo?",
+    "resposta": "Um",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Magellan_expedition",
+      "https://en.wikipedia.org/wiki/Victoria_(ship)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Magellan_expedition",
+        "situacao": "ok",
+        "texto": "The Magellan expedition, sometimes termed the Magellan–Elcano expedition, was a 16th-century Spanish expedition planned and initially led by Portuguese explorer Ferdinand Magellan and completed by the Spanish navigator Juan Sebastián Elcano which resulted in the first circumnavigation of the Earth. Its purpose was to secure a maritime trade route with the Moluccas, or Spice Islands, in present-day\n[…]\nThe expedition departed Spain in 1519 and returned there in 1522 under the command of Elcano, who continued the voyage after Magellan's death in the Philippines. One of the most significant voyages in the Age of Discovery, the nearly three-year expedition totaled 60,440 km (37,560 mi) and was the first to sail around the earth.\n[…]\nThe expedition endured many hardships, including sabotage and mutinies by the mostly Spanish crew, including Elcano himself; starvation, scurvy, storms, and hostile encounters with indigenous people also beset the voyage. Only about 40 men and one ship—the Victoria—completed the circumnavigation, and Magellan himself died in battle in the Philippines in April 1521.\n[…]\nThese letters likely motivated Magellan to plan an expedition to the islands and would later be presented to Spanish officials when Magellan sought their sponsorship.\n[…]\nMagellan's expedition was the first to circumnavigate the globe and the first to navigate the strait in South America connecting the Atlantic and the Pacific oceans. Magellan's name for the Pacific was adopted by other Europeans.\n[…]\nIn 2017, Portugal submitted an application to UNESCO to honour the circumnavigation route; the proposal was for a World Heritage Site called \"Route of Magellan.\"\n[…]\nMedia related to Magellan-Elcano circumnavigation at Wikimedia Commons\n[…]\n(in Spanish) Primera vuelta al mundo Magallanes-Elcano. V Centenario Archived 9 August 2022 at the Wayback Machine. Official site for the 5th centenary of the expedition."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Victoria_(ship)",
+        "situacao": "ok",
+        "texto": "Victoria or Nao Victoria (Spanish for \"Victory\") was a carrack famed as the first ship to successfully circumnavigate the world. Victoria was part of the Spanish expedition to the Moluccas (now Indonesia's Maluku Islands) commanded by the Portuguese explorer Ferdinand Magellan.\n[…]\nThe expedition began from Seville on 10 August 1519 with five ships and entered the ocean at Sanlúcar de Barrameda in Spain on September 20. However, only two of the ships reached their goal in the Moluccas. Thereafter, Victoria was the only ship to complete the return voyage, crossing uncharted waters of the Indian Ocean under Juan Sebastián de Elcano's command to sail around the world. She returned to Sanlúcar on 6 September 1522.\n[…]\nAt the banquet, most of the crew were killed or poisoned, including Duarte Barbosa and João Serrão, whom the natives wanted to exchange for Western weapons, but was left behind by the remaining crew. Pilot João Carvalho, who had survived the trap, then became the captain of Victoria. In August, near Borneo he was deposed and Juan Sebastián Elcano became captain for the remainder of the expedition.\n[…]\nThe long circumnavigation began in Seville in 1519 and returned to Sanlúcar de Barrameda on 6 September 1522, after sailing 68,000 kilometres (42,000 mi), 35,000 kilometres (22,000 mi) of which was largely unknown to the crew. On 21 December 1521, Victoria sailed on from Tidore in Indonesia alone because the other ships left the convoy due to lack of rations. The ship was in terrible shape, with her sails torn and only kept afloat by continuous pumping of water.\n[…]\nJoyner, Tim (1992). Magellan. International Marine. OCLC 25049890.\n[…]\n\"Ferdinand Magellan and the First Circumnavigation of the World\". Age of Exploration. The Mariners' Museum. Retrieved 28 April 2008."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Expedi%C3%A7%C3%A3o_de_Magalh%C3%A3es",
+        "situacao": "ok",
+        "texto": "A expedição de Magalhães foi a primeira viagem ao redor do mundo registrada na história. Foi uma expedição espanhola do século XVI, planejada e liderada pelo explorador português Fernão de Magalhães às Molucas, que partiu da Espanha em 1519, e foi concluída em 1522 pelo navegador espanhol Juan Sebastián Elcano, após cruzar os oceanos Atlântico, Pacífico e Índico, culminando na primeira circum-nave\n[…]\nA frota inicialmente consistia em cinco navios, sendo o Trinidad a nau capitânia. Todas ou a maioria eram naus (em espanhol: \"carraca\"). O Victoria foi o único navio a completar a circum-navegação. Os detalhes da configuração dos navios não são conhecidos, pois não existem ilustrações contemporâneas de nenhum dos navios. A contabilidade oficial da Casa de Contratação coloca o custo dos navios em 1,3 milhão de maravedis, com outros 1,3 milhão gastos em aparelhamento e transporte.\n[…]\nEm 10 de agosto de 1519, os cinco navios sob o comando de Magalhães deixaram Sevilha e desceram o rio Guadalquivir até Sanlúcar de Barrameda, na foz do rio. Lá eles permaneceram mais de cinco semanas. Finalmente, eles partiram em 20 de setembro de 1519 e deixaram a Espanha.\n[…]\nOs homens permaneceram em San Julián por cinco meses, antes de retomar a busca pelo estreito.\n[…]\nEste conhecimento da língua espanhola foi espalhado por todo o Oceano Índico e até mesmo no Sudeste Asiático após a conquista castelhana do Emirado de Granada forçar os muçulmanos granadinos falantes de espanhol a migrar pelo mundo.\n[…]\nEm 6 de setembro de 1522, Elcano e a tripulação restante da viagem de Magalhães chegaram a Sanlúcar de Barrameda, na Espanha, a bordo do Victoria, quase exatamente três anos após a partida. Eles então navegaram rio acima até Sevilha, e de lá por terra até Valladolid, onde compareceram perante o Imperador. A carga de especiarias que o Victoria trouxe cobriu o custo de toda a expedição.\n[…]\nImpério Espanhol\n[…]\nEm espanhol",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "São Petersburgo",
+      "descricao": "Cidade russa às margens do rio Neva, fundada em 1703 e capital do Império Russo por cerca de dois séculos."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que czar fundou São Petersburgo em 1703, às margens do Báltico, e depois a fez capital da Rússia?",
+    "resposta": "Pedro, o Grande",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Saint_Petersburg"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Saint_Petersburg",
+        "situacao": "ok",
+        "texto": "Saint Petersburg, formerly known as Petrograd (Петроград), and later Leningrad (Ленинград), is the second-largest city in Russia, after Moscow, the nation's capital. Situated on the Neva River at the head of the Gulf of Finland on the Baltic Sea, its area of 1,439 square kilometers (556 sq mi) makes it the smallest administrative division of Russia by area. The city had a population of 5,601,911 r\n[…]\nSaint Petersburg is the fourth-most populous city in Europe, the most populous city on the Baltic Sea, and the world's northernmost city of more than 1 million residents. As the former capital of the Russian Empire, and a historically strategic Baltic port, it is governed as a federal city.\n[…]\nThe city was founded by Tsar Peter the Great on 27 May 1703 on the site of a captured Swedish fortress, and was named after the apostle Saint Peter. In Russia, Saint Petersburg is historically and culturally associated with the birth of the Russian Empire and Russia's entry into modern history as a European great power. It served as a capital of the Tsardom of Russia, and the subsequent Russian Empire, from 1712 to 1918 (being replaced by Moscow for a short period between 1728 and 1730).\n[…]\nSeveral museums provide insight into the Soviet history of Saint Petersburg, including the Museum of the Blockade, which describes the Siege of Leningrad and the Museum of Political History of Russia, which explains many authoritarian features of the USSR.\n[…]\nSome Russian cities are twinned with ones in occupied Ukraine, in particular, Saint Petersburg is twinned with Mariupol. An art symbol of the twinning was unveiled on Palace Square in Saint Petersburg, defaced and removed.\n[…]\nAtchinson, Bob (2010). \"Saint Petersburg, 1900: a photographic travelogue of the capital of Imperial Russia\". Retrieved 9 February 2011. 50 photographs of St. Petersburg from \"Travelogues\" of Burton Holmes (Vol. 8, 1914) and other sources"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Petersburgo",
+        "situacao": "ok",
+        "texto": "São Petersburgo ou Sampetersburgo (russo:  Санкт-Петербу́рг, tr. Sankt-Peterburg) é a segunda maior cidade da Rússia, politicamente incorporada como uma cidade autônoma (ou cidade federal). Ela está localizada ao longo do rio Neva, na entrada do Golfo da Finlândia, no Mar Báltico. Em 1914, o nome da cidade foi mudado para Petrogrado (russo:  Петроград) e, em 1924, para Leningrado (russo:  Ленингра\n[…]\nSão Petersburgo foi fundada pelo czar Pedro, o Grande em 27 de maio de 1703. Entre 1713–1728 e 1732–1918, foi a capital do Império Russo. Em 1918, as instituições da administração central mudaram-se de São Petersburgo (então denominada Petrogrado) para Moscou. Com 5 milhões de habitantes (2012) é a quarta subdivisão federal mais populosa do país. A cidade é um grande centro cultural europeu e também um importante porto russo no Báltico.\n[…]\nO czar Pedro I, o Grande era um grande interessado pela marinha, e aspirava pela construção de um novo porto para o Império Russo, já que a principal cidade portuária do país, Archangelsk, localizava-se no mar Branco, que era bloqueado para navegação durante os meses de inverno rigoroso. Em 12 de maio de 1703, durante a Grande Guerra do Norte, Pedro capturou a cidade de Nyenskans das mãos dos suecos.\n[…]\nEm 27 de maio de 1703, próximo do estuário da ilha de Hare, o czar estabeleceu o Forte de Pedro e Paulo, que daria início à construção da cidade.[carece de fontes]?\n[…]\nO primeiro evento de remo da cidade ocorreu em 1703, por incentivo do czar Pedro, o Grande, após a vitória contra a frota sueca. Os eventos navais eram organizados pela marinha desde a fundação da cidade. O principal grupo marítimo da cidade, o Yacht Club do Neva, é o mais velho do mundo. Mesmo no inverno, quando as superfícies dos rios e lagos se congelam, os praticantes não abandonam as atividades, e navegam sobre o gelo.\n[…]\nArtigo sobre São Petersburgo\n[…]\nLista telefônica de São Petersburgo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Do Contrato Social",
+      "descricao": "Tratado de filosofia política publicado em 1762, que defende a soberania do povo e a vontade geral."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1762, que filósofo nascido em Genebra abriu um tratado político dizendo que o homem nasce livre e por toda parte está acorrentado?",
+    "resposta": "Jean-Jacques Rousseau",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Social_Contract"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Social_Contract",
+        "situacao": "ok",
+        "texto": "The Social Contract, originally published as On the Social Contract; or, Principles of Political Right (French: Du contrat social; ou, Principes du droit politique), is a 1762 French-language book by the Genevan philosopher Jean-Jacques Rousseau.\n[…]\nThe work received a refutation called The Confusion of the Social Contract by Jean-Jacques Rousseau by the Jesuit Alfonso Muzzarelli in Italy in 1794.\n[…]\nI contemplated your august features and saw there the imprint of those dark griefs which the injustice of man inflicted on you.Thomas Carlyle assessed its impact:and now has not Jean Jacques promulgated his new Evangel of a Contrat Social; explaining the whole mystery of Government, and how it is contracted and bargained for,—to universal satisfaction? Theories of Government! Such have been, and will be; in ages of decadence.\n[…]\nAttempt not to swallow it, for thy logical digestion; be thankful, if skilfully planting down this and the other fixed pillar in the chaos, thou prevent its swallowing thee. That a new young generation has exchanged the Sceptic Creed, What shall I believe? for passionate Faith in this Gospel according to Jean Jacques is a further step in the business; and betokens much.He advised: \"In such prophesied Lubberland, of Happiness, Benevolence, and Vice cured of its deformity, trust not, my friends! .\n[…]\nIncorvati, Giovanni (2012) “Du contrat social, or the principles of political right(s). Les citoyens de Rousseau ont la parole en anglais”, in : G. Lobrano, P.P. Onida, Il principio della democrazia. Jean-Jacques Rousseau Du Contrat social (1762), Napoli, Jovene, p. 213-256.\n[…]\nThe Major Political Writings of Jean-Jacques Rousseau including The Social Contract, translated by John T. Scott\n[…]\nDu contrat social (MetaLibri)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Do_Contrato_Social",
+        "situacao": "ok",
+        "texto": "Do Contrato Social ou O Contrato Social (em francês:  Du Contrat Social ou Principes du droit politique, lit. \"Do contrato social ou princípios do direito político\") é uma obra do escritor suíço Jean-Jacques Rousseau, considerada por muitos como uma de suas obras-primas; parte de uma obra mais extensa, as Instituições Políticas, que, por não ter sido completada, teve suas partes menos importantes \n[…]\nNesta obra, Rousseau expõe a sua noção de contrato social, que difere muito das de Hobbes e Locke: para Rousseau, o homem é naturalmente bom, sendo a sociedade, instituição regida pela política, a culpada pela \"degeneração\" dele. O contrato social para Rousseau é um acordo entre indivíduos para se criar uma sociedade, e só então um Estado, isto é, o contrato é um pacto de associação, não de submissão.\n[…]\nNo primeiro livro da obra, Jean-Jacques Rousseau passa em exame as principais questões da vida política. Sua principal preocupação já se expõe na primeira frase do primeiro capítulo deste livro: O homem nasce livre, e por toda a parte encontra-se acorrentado. Nesse sentido, Rousseau começa Do contrato social questionando o motivo de os homens viverem sob os grilhões da vida em sociedade, do porquê de os homens abandonarem o estado de natureza, uma vez que todos nascem homens e livres.\n[…]\nNeste capítulo, o autor fornece uma introdução sobre o assunto mencionado no livro que é a relação entre o direito de vida ou morte e a escravidão. Rousseau indaga porque um homem nascido livre se torna um escravo. Tentando quase se matar.\n[…]\nEste contrato então acaba por ter somente uma cláusula: a alienação de todos os indivíduos e mantê-los iguais. Rousseau resume o pacto social a: cada um de nós põe em comum sua pessoa e todo o seu poder sob a suprema direção da vontade geral; e recebemos, coletivamente, cada membro como parte indivisível do todo.\n[…]\nThe Social Contract - Catholic Encyclopedia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Enciclopédia",
+      "descricao": "Obra coletiva francesa publicada entre 1751 e 1772, que reuniu o saber da época e se tornou símbolo do Iluminismo."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que filósofo francês dirigiu, ao lado de d'Alembert, a Enciclopédia, grande obra do Iluminismo publicada a partir de 1751?",
+    "resposta": "Denis Diderot",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Encyclop%C3%A9die"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Encyclop%C3%A9die",
+        "situacao": "ok",
+        "texto": "The Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers (French for 'Encyclopedia, or a Systematic Dictionary of the Sciences, Arts and Crafts'), better known as the Encyclopédie (French: [ɑ̃siklɔpedi]), was a general encyclopedia published in France between 1751 and 1772, with later supplements, revised editions, an index, and translations. It had many contributors, known\n[…]\nIt was edited by Denis Diderot and, until 1759, co-edited by Jean le Rond d'Alembert.\n[…]\nFor his new editor, Le Breton settled on the mathematician Jean Paul de Gua de Malves. Among those hired by Gua de Malves were the young philosopher Étienne Bonnot de Condillac, the mathematician Jean le Rond d'Alembert, and Denis Diderot. Thirteen months later, in August 1747, Gua de Malves resigned under pressure from Le Breton, having proven an ineffective leader.\n[…]\nDuring this period, Diderot and the publishers changed and apparently falsified the encyclopedia's imprint. The title pages of volumes 1 through 7, published between 1751 and 1757, claimed Paris as the place of publication. However, the title pages of volumes 8 through 17, published together in 1765, show Neufchastel as the place of publication.\n[…]\nEncyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers. Ed. Denis Diderot and Jean Le Rond D'Alembert. 28 vols. [Paris]: [Briasson et al.], 1751–72.\n[…]\nD'Alembert, Jean Le Rond. Preliminary discourse to the Encyclopedia of Diderot, translated by Richard N. Schwab, 1995. ISBN 0-226-13476-8\n[…]\nLough, John. Essays on the Encyclopédie of Diderot and d'Alembert. Oxford UP, 1968.\n[…]\nGuide to the Engraving \"Aiguiller-Bonnetier\" from Diderot's Encyclopedia 1762\n[…]\nEncyclopedia of Diderot and d'Alembert Collaborative Translation Project currently contains a growing collection of articles translated into English (approximately 3,900 articles and sets of plates as of August 2026)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Encyclop%C3%A9die",
+        "situacao": "ok",
+        "texto": "Encyclopédie, ou dictionnaire raisonné des sciences, des arts et des métiers (traduzido da língua francesa, Enciclopédia, ou dicionário racional das ciências, artes e profissões) foi uma das primeiras enciclopédias que alguma vez existiram, tendo sido publicada na França no século XVIII. Os últimos volumes foram publicados em 1772.\n[…]\nEsta grande obra, compreendendo 35 volumes, 71 818 artigos e 2 885 ilustrações, foi editada por Jean Le Rond d'Alembert e Denis Diderot. D'Alembert deixou o projeto antes do seu término, sendo os últimos volumes a obra de Diderot. Muitas das mais notáveis figuras do iluminismo francês contribuíram para a obra, incluindo Voltaire, Rousseau e Montesquieu.\n[…]\nDe acordo com Denis Diderot no artigo \"Encyclopédie\", o objectivo da obra era \"mudar a maneira como as pessoas pensam\". Ele e os outros contribuidores defendiam a secularização da aprendizagem, à distância dos jesuítas. Diderot queria incorporar todo o conhecimento do mundo para a obra, e esperava que o texto pudesse disseminar todas as informações para as gerações atuais e futuras.\n[…]\nd'Alembert de l'Académie royale des Sciences de Paris, de celle de Prusse et de la Société royale de Londres\" (\"Enciclopédia, ou dicionário racional das ciências, artes e profissões, por uma sociedade de pessoas de letras, ordenado pelo senhor Diderot da Academia de Ciências e Belas-letras da Prússia, e quanto à parte matemática pelo senhor d'Alembert da\n[…]\nDenis Diderot — editor chefe; economia, artes mecânicas, filosofia, política, religião, entre outros;\n[…]\nGuide to the Engraving \"Aiguiller-Bonnetier\" from Diderot's Encyclopedia 1762\n[…]\nEncyclopedia of Diderot and d'Alembert Collaborative Translation Project atualmente contém uma coleção crescente de artigos traduzidos para o inglês (3 053 artigos e conjuntos de placas em 30 de setembro de 2020).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Projeção de Mercator",
+      "descricao": "Projeção cartográfica cilíndrica apresentada em 1569, que preserva os ângulos e amplia as áreas próximas dos polos."
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que cartógrafo flamengo criou, em 1569, a famosa projeção de mapa que faz a Groenlândia parecer enorme?",
+    "resposta": "Gerardus Mercator",
+    "distratores": [
+      "Abraham Ortelius",
+      "Willem Blaeu",
+      "Martin Waldseemüller"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mercator_projection"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mercator_projection",
+        "situacao": "ok",
+        "texto": "The Mercator projection () is a conformal cylindrical map projection first presented by Flemish geographer and mapmaker Gerardus Mercator in 1569. In the 18th century, it became the standard map projection for navigation due to its property of representing rhumb lines as straight lines. When applied to world maps, the Mercator projection inflates the size of lands the farther they are from the equ\n[…]\nIn 1541, Flemish geographer and mapmaker Gerardus Mercator included a network of rhumb lines on a terrestrial globe he made for Nicolas Perrenot.\n[…]\nThe development of the Mercator projection represented a major breakthrough in the nautical cartography of the 16th century. However, it was much ahead of its time, since the old navigational and surveying techniques were not compatible with its use in navigation. Two main problems prevented its immediate application: the impossibility of determining the longitude at sea with adequate accuracy and the fact that magnetic directions, instead of geographical directions, were used in navigation.\n[…]\nOnce the Mercator became the usual projection for commercial and educational maps, it came under persistent criticism from cartographers for its unbalanced representation of landmasses and its inability to usefully show the polar regions.\n[…]\nArno Peters stirred controversy beginning in 1972 when he proposed what is now usually called the Gall–Peters projection to remedy the problems of the Mercator, claiming it to be his own original work without referencing prior work by cartographers such as Gall's work from 1855. The projection he promoted is a specific parameterization of the cylindrical equal-area projection.\n[…]\nOblique Mercator projection\n[…]\nTransverse Mercator projection\n[…]\nWeb Mercator projection\n[…]\nAd maiorem Gerardi Mercatoris gloriam – contains high-resolution images of the 1569 world map by Mercator.\n[…]\nMercator's Projection at University of British Columbia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Proje%C3%A7%C3%A3o_de_Mercator",
+        "situacao": "ok",
+        "texto": "A projeção de Mercator é um tipo de projeção cilíndrica do globo terrestre. Nessa projeção, os meridianos são planificados na forma de linhas retas paralelas verticais que são horizontalmente equidistantes, ao passo que os paralelos são planificados na forma de linhas retas paralelas horizontais, de modo que a distância vertical entre dois paralelos sucessivos é tanto menor quanto mais próximos es\n[…]\nEssa projeção foi pela primeira vez apresentada em 1569, pelo cosmógrafo e cartógrafo flamengo Gerhard Kramer (em latim: Gerardus Mercator) através de um grande planisfério que media 250 cm x 128 cm e era constituído por dezoito folhas xilografadas separadamente.\n[…]\nVários autores contribuíram para o aprimoramento da projeção de Mercator:\n[…]\nErhard Etzlaub (c. 1460-1532), geógrafo alemão, produziu pequenos mapas da Europa e África (1511), utilizando uma projeção idêntica à de Mercator, muito antes de este ter apresentado a sua carta do Mundo. Nada se sabe sobre o método utilizado pelo autor.\n[…]\nEdward Wright (c. 1558-1615), matemático inglês, foi o primeiro a formalizar matematicamente a projeção de Mercator (1599). Publicou tabelas destinadas à sua construção (1599, 1610).\n[…]\nThomas Harriot (1560-1621) e Henry Bond (c.1600-1678), matemáticos ingleses que, independentemente, associaram a projeção de Mercator à sua fórmula logarítmica moderna, mais tarde formalmente deduzida através do Cálculo.\n[…]\nProjeção transversa de Mercator\n[…]\nGASPAR, Joaquim (2005) – Cartas e Projecções Cartográficas. 3.ª edição, actualizada e aumentada. Lisboa: Lidel Edições Técnicas.\n[…]\nApplet Java interativo para o estudo da deformações de área, distância e ângulo inerentes à projeção de Mercator\n[…]\nAd maiorem Gerardi Mercatoris gloriam: contém imagens de alta resolução da carta do Mundo de 1569. A projeção de Mercator deforma o formato e as extensões de países e continentes.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Declaração de Independência dos Estados Unidos",
+      "descricao": "Documento aprovado pelo Segundo Congresso Continental em 1776, que proclamou a independência das Treze Colônias."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em que cidade americana o Congresso Continental aprovou a Declaração de Independência dos Estados Unidos, em 1776?",
+    "resposta": "Filadélfia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/United_States_Declaration_of_Independence",
+        "situacao": "ok",
+        "texto": "The Declaration of Independence, headed The unanimous Declaration of the thirteen united States of America on the document directed to be engrossed by Congress on July 19, 1776, is the founding document of the United States. On July 4, 1776, it was adopted unanimously by the Second Continental Congress, who were convened at the Pennsylvania State House, later renamed Independence Hall, in Philadel\n[…]\nWhile some colonists still hoped for reconciliation, public support for independence strengthened considerably in early 1776. In February 1776, colonists learned of Parliament's passage of the Prohibitory Act, which established a blockade of American ports and declared American ships to be enemy vessels. John Adams, a strong supporter of independence, believed that Parliament had effectively declared American independence before Congress had been able to.\n[…]\nIn the campaign to revise Congressional instructions, many Americans formally expressed their support for separation from Great Britain in what were effectively state and local declarations of independence. Historian Pauline Maier identifies more than ninety such declarations that were issued throughout the Thirteen Colonies from April to July 1776. These \"declarations\" took a variety of forms.\n[…]\nCongress next turned its attention to the committee's draft of the declaration. They made significant changes in wording during several days of debate including the removal of nearly a fourth of the text. The final wording of the Declaration of Independence was approved on July 4, 1776, and sent to the printer for publication.\n[…]\nIt is sometimes described as the signing of the Declaration of Independence, but it actually shows the Committee of Five presenting their draft of the Declaration to the Second Continental Congress on June 28, 1776, and not the signing of the document, which took place later.\n[…]\nJournals of the Continental Congress"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Declara%C3%A7%C3%A3o_de_Independ%C3%AAncia_dos_Estados_Unidos",
+        "situacao": "ok",
+        "texto": "Declaração de Independência dos Estados Unidos, formalmente intitulada A Declaração unânime dos treze Estados unidos da América na impressão original, é o documento fundador dos Estados Unidos. Em 4 de julho de 1776, foi adotada por unanimidade pelo Segundo Congresso Continental, reunido na Pennsylvania State House, posteriormente renomeada Independence Hall, na cidade colonial da Filadélfia. Esse\n[…]\nEm 1774, o Parlamento aprovou as Leis Coercitivas, conhecidas nas colônias como Atos Intoleráveis. Essas medidas tinham como objetivo punir os colonos pelo Caso Gaspee de 1772 e pela Festa do Chá de Boston de 1773. Muitos colonos consideraram as Leis Coercitivas uma violação da Constituição britânica e uma ameaça às liberdades de toda a América Britânica. Em setembro de 1774, o Primeiro Congresso Continental reuniu-se na Filadélfia para coordenar uma resposta formal.\n[…]\nA maioria dos colonos ainda esperava reconciliação com a Grã-Bretanha, mesmo após o início dos combates na Guerra Revolucionária Americana, em Lexington e Concord, em abril de 1775. O Segundo Congresso Continental reuniu-se na Pennsylvania State House, posteriormente renomeada Independence Hall, na Filadélfia, em maio de 1775.\n[…]\nO preâmbulo de Adams tinha como objetivo incentivar a derrubada dos governos da Pensilvânia e de Maryland, que ainda estavam sob governo proprietário. O Congresso aprovou o preâmbulo em 15 de maio, após vários dias de debate, mas quatro das colônias do centro votaram contra, e a delegação de Maryland retirou-se em protesto. Adams considerava que seu preâmbulo de 15 de maio já era, na prática, uma declaração americana de independência, embora uma declaração formal ainda precisasse ser feita.\n[…]\nCongressistas signatários da Declaração da Independência dos Estados Unidos\n[…]\nGuerra da Independência dos Estados Unidos\n[…]\nTexto da declaração de independência dos Estados Unidos (em português)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Cerro Rico de Potosí",
+      "descricao": "Montanha rica em prata nos Andes, explorada pelos espanhóis a partir de 1545, que enriqueceu o Império Espanhol."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A cidade colonial de Potosí, cuja montanha de prata enriqueceu a Espanha, fica em que país atual?",
+    "resposta": "Bolívia",
+    "distratores": [
+      "Peru",
+      "Chile",
+      "Argentina"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cerro_Rico",
+      "https://en.wikipedia.org/wiki/Potos%C3%AD"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Cerro_Rico",
+        "situacao": "ok",
+        "texto": "Cerro Rico (Spanish for \"Rich Mountain\"), also known as Cerro Potosí (\"Potosí Mountain\") or Sumaq Urqu (Quechua sumaq \"beautiful, good, pleasant\", and urqu \"mountain\"); is a mountain in the Andes near the Bolivian city of Potosí. Cerro Rico—popularly conceived as being \"made of\" silver ore—is famous for having provided vast quantities of silver to the Spanish Empire, most of which was shipped to m\n[…]\nBolivia's cooperative mining sector, whose center is in Potosí, has been given many privileges including favorable tax treatment to miners and exemption from labor and environmental regulations for cooperatives since the election of socialist president Evo Morales in 2006.\n[…]\nReports in 2019 indicate that the current output of the mines was predominantly tin and zinc by then and only small amounts of silver. One report estimates that a full 88% of the miners in Bolivia, roughly 8,000 to 10,000 (depending on the source making the estimate), including children, were working for the cooperatives. A former miner discussed the great risks of working at Cerro Rico with a reporter, but said that those working there had few other alternatives for earning a living.\n[…]\nOnce Cerro Rico was found to carry predominantly silver ores, mining focus shifted to the harvesting of the more lucrative ore over ores like tin, zinc, and lead found in Porco and Sucre. Now one of the largest silver mines in Bolivia, and in the world, the Cerro Rico de Potosí mine to date has yielded an estimated 60,000 tons of silver, and deposits are thought to still contain estimated reserves of 1.76 billion ounces (50,000 tons) of silver and 540 million tons of ore grading 0.17% tin.\n[…]\nList of mountains in Bolivia\n[…]\nMining in Bolivia\n[…]\nSerrano Bravo, Carlos (2004). Historia de la minería andina boliviana (siglos XVI–XX) (PDF) (in Spanish). Potosí, Bolivia. pp. 1–328.{{cite book}}:  CS1 maint: location missing publisher (link)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Potos%C3%AD",
+        "situacao": "ok",
+        "texto": "Potosí, known as Villa Imperial de Potosí in the colonial period, is the capital city and a municipality of the Department of Potosí in Bolivia. It is one of the highest cities in the world at a nominal 4,067 m (13,343 ft).\n[…]\nDuring the Bolivian War of Independence (1809–1825), Potosí frequently passed between the control of Royalist and Patriot forces. Major leadership mistakes came when the First Auxiliary Army arrived from Buenos Aires (under the command of Juan José Castelli), which led to an increased sense that Potosí required its own independent government.\n[…]\nPotosí continues to be an important administrative center, mining town, tourist attraction, and population center in modern Bolivia. The Potosí Silversmithing School was established in 2011 as part of an industrialization effort.\n[…]\nLocated in the Bolivian tin belt, Cerro Rico de Potosí is the world's largest silver deposit and has been mined since the sixteenth century, producing up to 60,000 tonnes by 1996. Estimates are that much silver still remains in the mines. Potosí became the second largest city, and the site of the first mint, in the Americas. By 1891, low silver prices prompted the change to mining tin, which continued until 1985.\n[…]\nThe city is served by Aeropuerto Capitán Nicolas Rojas, with commercial airline flights by Boliviana de Aviación, Bolivia's flag air carrier. There is also a railroad, the Rio Mulatos-Potosí line.\n[…]\nThe city of San Luis Potosí in Mexico was named after Potosí in Bolivia. In the United States, the name Potosi was optimistically given to lead-mining towns of Potosi, Wisconsin, and Potosi, Missouri, and also to the silver-mining town of Potosi, Nevada.\n[…]\nGeology of Bolivia\n[…]\nPotosi (barque)\n[…]\nSan Cristóbal mine (Bolivia)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Cerro_Rico",
+        "situacao": "ok",
+        "texto": "O Cerro Rico ou Sumaq Urqu é uma montanha localizada na cidade de Potosí, no departamento de Potosí, na Bolívia. Faz parte da cordilheira dos Andes. Foi famosa durante o período de dominação espanhola por possuir as veias de prata mais importantes do mundo. Tem uma altitude aproximada de 4800 metros acima do nível do mar. Atualmente, pode-se visitar a maior mina de seu interior, a mina Pailaviri, \n[…]\nCerro Rico é uma expressão castelhana e Sumaq Urqu é uma expressão quíchua: ambas significam \"montanha bonita\".\n[…]\nA temperatura no interior da mina pode variar de 45 graus Celsius, próximo ao exterior, até temperaturas mais baixas, nos níveis mais baixos da mina. Próximo ao nível de ingresso na mina, a 70 metros de altura, localiza-se o \"El Tío\", representação do demônio ou divindade horrenda possuidora das minas, a quem se fazem oferendas para se poder retirar o metal de seu interior. Pailaviri funciona continuamente desde 1545 e é a mina mais antiga da cidade.\n[…]\nO Cerro Rico se encontra desenhada no escudo da cidade de Arica, no Chile.\n[…]\nFoto de satélite e mapa de Cerro Rico\n[…]\nPotosí, tudo sobre Potosí e seu Cerro Rico",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Castelo de São Jorge da Mina",
+      "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Castelo de São Jorge da Mina, erguido pelos portugueses em 1482 no litoral africano, fica em que país atual?",
+    "resposta": "Gana",
+    "distratores": [
+      "Angola",
+      "Senegal",
+      "Nigéria"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Elmina_Castle"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Elmina_Castle",
+        "situacao": "ok",
+        "texto": "Elmina Castle, or Fort St. George, was erected by the Portuguese in 1482 as Castelo de São Jorge da Mina ('St. George of the Mine Castle'), also known as Castelo da Mina or simply Mina (or Feitoria da Mina), in present-day Elmina, Ghana, formerly the Gold Coast. It holds several profound distinctions: it was the first trading post built on the Gulf of Guinea and is the oldest extant European build\n[…]\nBecause Portuguese royalty had lost interest in African exploration as a result of meagre returns, the Guinea trade was put under the oversight of the Portuguese trader, Fernão Gomes. Upon reaching present-day Elmina, Gomes discovered a thriving gold trade already established among the natives and visiting Arab and Berber traders. He established his own trading post. It became known to the Portuguese as \"A Mina\" (the Mine) because of the gold that could be found there.\n[…]\nThe people of Elmina were offered Portuguese protection against attacks from neighbouring coastal tribes, with whom the Portuguese had much less genial relations, even though they were friendly with the powerful trading nations in the African interior.\n[…]\nElmina Castle is preserved as a Ghanaian national museum. The monument was designated as a World Heritage Monument under UNESCO in 1979. It is a place of pilgrimage for many African Americans seeking to connect with their heritage.\n[…]\nScenes from a season 6 episode of the FX series Snowfall were shot in Elmina Castle. The title of the episode, \"Door of No Return\", is a reference to the symbolic door that millions of Africans were pushed through when they entered a life of slavery through castles like this.\n[…]\nDutch government school of Elmina\n[…]\nHair, P. E. H. The Founding of the Castelo de São Jorge da Mina: an analysis of the sources. Madison: University of Wisconsin, African Studies Program, 1994. ISBN 0-942615-21-2\n[…]\nGhana-pedia webpage - São Jorge da Mina"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Castelo_de_S%C3%A3o_Jorge_da_Mina",
+        "situacao": "ok",
+        "texto": "O Castelo de São Jorge da Mina, também designado por Castelo da Mina, Feitoria da Mina, e posteriormente por Fortaleza de São Jorge da Mina, Fortaleza da Mina, ou simplesmente Mina, localiza-se na atual cidade de Elmina, no Gana, no litoral da África Ocidental. Após a sua ocupação pelos neerlandeses em 1637, o seu nome passou a figurar na cartografia apenas como Elmina.\n[…]\nA feitoria portuguesa da Mina sucedeu, em importância militar e económica, à feitoria de Arguim, de que se tem notícia já a funcionar em 1461 quando a sua capitania foi concedida. Se a ilha de Arguim assinalava o limite da África islamizada, a Mina teve a função inicial de assegurar a soberania e o comércio de Portugal no Golfo da Guiné, constituindo-se no seu principal estabelecimento na costa africana, fonte da riqueza que alimentou a economia do país até se iniciar o ciclo da Índia, após 1498.\n[…]\nPor esse instrumento, na primeira metade do século XVII foi conquistada a costa da Região Nordeste do Brasil e, em 29 de Agosto de 1637, a Fortaleza de São Jorge da Mina, na costa africana, após cinco dias de resistência. Na ocasião, o efetivo português na Mina era de cerca de quarenta homens, doentes e mal-armados. As tropas neerlandesas encontravam-se sob o comando do coronel Van Koin.\n[…]\nO monumento sofreu uma ampla intervenção de restauração e conservação a cargo do governo de Gana na década de 1990 e, atualmente encontra-se aberto à visitação turística.\n[…]\nPorto de escala das embarcações da Carreira da Índia na costa ocidental africana, as iconografias do castelo, em mapas do século XVI (como o Planisfério de Cantino, 1502), mostram uma sólida estrutura acastelada dominada por uma torre de menagem de planta circular, tendo os muros reforçados por torreões, também no formato circular, semelhantes a outros erguidos em estilo manuelino em Portugal à época.\n[…]\nCastelo da Mina no WikiMapia",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Malaca",
+      "descricao": "Cidade portuária no estreito de Malaca, conquistada pelos portugueses de Afonso de Albuquerque em 1511."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Em 1511, Afonso de Albuquerque conquistou Malaca, entreposto vital do comércio de especiarias. Em que país atual fica essa cidade?",
+    "resposta": "Malásia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Capture_of_Malacca_(1511)",
+      "https://en.wikipedia.org/wiki/Malacca"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Capture_of_Malacca_(1511)",
+        "situacao": "ok",
+        "texto": "The governor of Portuguese India Afonso de Albuquerque conquered the city of Malacca in 1511.\n[…]\nThe Kingdom of Malacca is confined on one part by the Kingdom of Kedah and on the other by the Kingdom of Pahang and is 100 leagues long in coastline and 10 leagues into the land to a mountain range which it parted with the Kingdom of Siam. All this land was once subject to the Kingdom of Siam until about ninety years prior (to the arrival of Afonso de Albuquerque to those parts) [...]\n[…]\nTheir artillery, as a rule, is not heavy; formerly they used mortars and swivel-guns made of various metals... Regarding the employment of artillery amongst the Malayos, we know that on the conquest of Malacca in the year 1511, Afonso de Albuquerque captured much small artillery, esmerils, falconets, and medium-sized sakers... The fortresses and fortifications of the Malayos were usually structures composed of earth and placed between plank uprights.\n[…]\nFrom Muar, Mahmuds 80 year old admiral, or laksamana requested authorization from Afonso de Albuquerque to return to Malacca and offered to serve the king of Portugal:This Lassamane was a man of eighty years of age, a good soldier, of good repute and great knowledge: when he perceived that the king of Malaca was lost, he went and settled in Singapura, and after Afonso Dalbuquerque was in possession of Malaca, he came down to the river of Muar and sent to ask a safeguard, declaring that he was desirous of returning to live at Malaca and serving the king of Portugal.\n[…]\nFortress of Malacca\n[…]\nPortuguese Malacca\n[…]\nSiege of Malacca (1568)\n[…]\nDutch Malacca"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Malacca",
+        "situacao": "ok",
+        "texto": "Malacca (Malay: Melaka), officially the Historic State of Malacca (Malay: Melaka Negeri Bersejarah), is a state in Malaysia located in the southern region of the Malay Peninsula, facing the Strait of Malacca. The state is bordered by Negeri Sembilan to the north and west and Johor to the south and east. The exclave of Tanjung Tuan borders Negeri Sembilan to the north. Its capital is Malacca City, \n[…]\nIn April 1511, Afonso de Albuquerque sailed from Goa to Malacca with approximately 1,200 men and 17 or 18 ships. The Portuguese conquered the city on 24 August 1511.\n[…]\nSports-related affairs of Malacca are governed by the Malacca State Sports Council (Malay: Majlis Sukan Negeri Melaka) under the Malacca State Government. Another governing body of sports in Malacca is the Department of Youth and Sports (Malay: Jabatan Belia dan Sukan Negeri Melaka). Malacca is home to several football stadiums, such as Hang Jebat Stadium (the state's main stadium), Hang Tuah Stadium and Tun Fatimah Stadium. Built in 1954, Hang Tuah Stadium is the oldest stadium in Malacca.\n[…]\nThere are four golf courses in Malacca, namely Ayer Keroh Golf and Country Club in Ayer Keroh, Orna Golf and Country Club in Bemban and Tiara Melaka Golf and Country Club in Bukit Katil and A'Famosa Golf Resort in Simpang Ampat. Golf-related paraphernalia in Malacca is showcased at the Malacca Golf Gallery.\n[…]\nMalacca also has a football team known as Melaka United representing Malacca in the Malaysian football league. The Melaka United football team won the first Malaysia Premier League title in 1983, in addition they were the champion of the third division of the Malaysia football league, FAM League Cup, in 2015 before won the second Premier League title a year after it. Melaka United uses the Hang Jebat Stadium in Krubong as their home ground with a capacity of 40,000 spectators.\n[…]\nPLANMalaysia Melaka Structure Plan 2040 portal"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Conquista_de_Malaca_%281511%29",
+        "situacao": "ok",
+        "texto": "A conquista de Malaca pelos Portugueses deu-se em 1511 sob a liderança de Afonso de Albuquerque.\n[…]\nPorém, a cidade fora construída em terreno pantanoso e cercada por inóspita floresta tropical, e precisava importar tudo para seu sustento, como o arroz vital, fornecido pelos javaneses. Para abastecer sua população, Malaca dependia de pelo menos 100 juncos anualmente importando arroz de vários locais: cerca de 50 a 60 juncos de Java, 30 de Sião e 20 de Pegu. Malacca era principalmente uma cidade comercial sem interior agrícola substancial.\n[…]\nNesse mesmo mês, em Lisboa, D. Manuel despachou outra frota sob o comando de Diogo de Vasconcelos para comerciar directamente com Malaca, partindo do pressuposto de que o Sequeira havia conseguido estabelecer relações comerciais com a cidade. Vasconcelos chegou à ilha de Angediva em agosto de 1510, e ali encontrou o Afonso de Albuquerque com a sua frota, preparando-se para conquistar Goa.\n[…]\nEnquanto permaneceu na cidade, Albuquerque recebeu enviados e embaixadores de muitos reinos malaios e indonésios (incluindo o genro do sultão Mamude, o sultão de Pão), com presentes dedicados ao rei de Portugal.\n[…]\nO sultão Mamude retirou-se então para o Sultanato de Pão, onde por pouco não foi assassinado. Mudou-se depois para Bintão, um reino insular a sudeste de Singapura, que ele usurpou e dali continuou a guerrear os portugueses em Malaca, assediando a cidade, o comércio marítimo e sabotando as relações diplomáticas com a China, até que os portugueses finalmente conquistaram Bintão em 1526, e devolveram o território ao seu rei legítimo, que avassalaram.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Mayflower",
+      "descricao": "Navio inglês que levou os peregrinos puritanos à costa de Massachusetts, onde fundaram a colônia de Plymouth."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que ano o navio Mayflower levou os peregrinos ingleses até a costa de Massachusetts?",
+    "resposta": "1620",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mayflower"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mayflower",
+        "situacao": "ok",
+        "texto": "Mayflower was an English square-rigged merchant sailing ship, active from before 1609 until 1622. Her tonnage was 180+, and she was 110 feet (34 meters) long and 25 feet (7.5 meters) in the beam, with several decks. She was notable in that she transported a group of English families, known today as the Pilgrims, from England to the New World in 1620.\n[…]\nAfter 10 weeks at sea, Mayflower, with 102 passengers and a crew of about 30, reached what is today the United States, dropping anchor near the tip of Cape Cod, Massachusetts on 21 November [O.S. 11 November] 1620. The Pilgrims, often conflated with the Puritans (who sought to reform and purify the Church of England from within), sought separation from the church and prayed privately. They believed that the church's resistance to reform and its Roman Catholic past left it beyond redemption.\n[…]\nThe trip to the south coast of England took three days, where the ship took anchor at Southampton on 5 August [O.S. 26 July], 1620. At Southampton, the Pilgrims first saw Mayflower, which was being loaded with provisions.\n[…]\nAccording to author Charles Banks, the officers and crew of Mayflower consisted of a captain, four mates, four quartermasters, surgeon, carpenter, cooper, cooks, boatswains, gunners and about 36 men before the mast, a crew of approximately 50. The entire crew stayed with Mayflower in Plymouth through the winter of 1620–1621, and about half of them died during that time. The remaining crewmen returned to England on Mayflower, which sailed for London on April 15 [O.S. April 5], 1621.\n[…]\nOut of all the voyages to the American colonies from 1620 to 1640, the Mayflower's first crossing of Pilgrim Fathers has become the most culturally iconic and important in the history of migration from Europe to the New World during the Age of Discovery.\n[…]\nPuritan migration to New England (1620–1640)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mayflower",
+        "situacao": "ok",
+        "texto": "Mayflower foi o famoso navio que, em 1620, transportou os chamados Peregrinos, do porto de Southampton, Inglaterra, para o Novo Mundo.\n[…]\nDevido a uma série de problemas no navio, os peregrinos viram-se obrigados a regressar duas vezes, pouco depois de zarpar, para o consertar. A viagem seria feita em dois navios: o Mayflower e o Speedwell, mas problemas de vedação no casco do último impediram a sua partida. Por causa disso, 20 passageiros desistiram da viagem. Os outros foram todos juntos no Mayflower.\n[…]\nOs detalhes a respeito das dimensões da nave são desconhecidos, mas estimaram-se a partir do total da carga e pela forma dos barcos mercantes de 180 ton, que no período tinham entre 90 e 110 pés de comprimento e cerca de 25 pés de largura. O termo ton é utilizado para medir a carga do navio, e deriva da palavra inglesa tum, um barril grande que se usava para transportar vinho.\n[…]\nA rota inicial foi idealizada para ser realizada por dois barcos, juntamente com o Speedwell. A primeira viagem partiu de Southampton, Inglaterra a 5 de agosto de 1620, mas o Speedwell teve um furo e teve de ser consertado em Dartmouth. Numa segunda tentativa, o barco atingiu o Oceano Atlântico, mas uma vez mais viu-se forçado a regressar. Após reorganização de planos a viagem definitiva fez-se apenas no Mayflower.\n[…]\nAntes de desembarcar, os peregrinos escreveram e assinaram o Pacto do Mayflower. Estes não conseguiram chegar à Virgínia, onde tinham permissão de terras. A 5 de abril de 1621 o Mayflower partiu da colônia de Plymouth no Massachusetts, regressando a Inglaterra a 6 de maio de 1621.\n[…]\nList completa de passageiros do Mayflower",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Paz de Vestfália",
+      "descricao": "Conjunto de tratados assinados em Osnabrück e Münster que encerraram a Guerra dos Trinta Anos."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano a Paz de Vestfália encerrou a Guerra dos Trinta Anos?",
+    "resposta": "1648",
+    "distratores": [
+      "1598",
+      "1659",
+      "1685"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peace_of_Westphalia",
+        "situacao": "ok",
+        "texto": "The Peace of Westphalia (German: Westfälischer Friede, pronounced [vɛstˈfɛːlɪʃɐ ˈfʁiːdə] ) is the collective name for two peace treaties signed in October 1648 in the Westphalian cities of Osnabrück and Münster. They ended the Thirty Years' War (1618–1648) and brought peace to the Holy Roman Empire, closing a calamitous period of European history that killed between 4.5 and 8 million people.\n[…]\nIn Münster, negotiations took place between the Holy Roman Empire and France, as well as between the Dutch Republic and Spain who on 30 January 1648 signed a peace treaty ending the Eighty Years' War that was not part of the Peace of Westphalia. Münster had been, since its re-Catholicism in 1535, a strictly mono-denominational community. It housed the Chapter of the Prince-Bishopric of Münster. Only Roman Catholic worship was permitted, while Calvinism and Lutheranism were prohibited.\n[…]\nMuch of the Peace of Westphalia focused on reorganizing the Holy Roman Empire, the main battleground of the Thirty Years' War.\n[…]\nThe Peace of Westphalia also set up new rules for the Reichskammergericht (Imperial Chamber Court), and stipulated that half its judges must be Protestant. Westphalia also called for 50 judges to be appointed, but this number was rarely reached due to financial issues.\n[…]\nThe main tenets of the Peace of Westphalia were:\n[…]\nHistory of Sweden, 1648–1700\n[…]\nCroxton, Derek, and Anuschka Tischer. The Peace of Westphalia: A Historical Dictionary (Greenwood Publishing Group, 2002).\n[…]\nCroxton, Derek (1999). \"The Peace of Westphalia of 1648 and the Origins of Sovereignty\". International History Review. 21 (3): 569–591. doi:10.1080/07075332.1999.9640869.\n[…]\nSchmidt, Sebastian (2011). \"To Order the Minds of Scholars: The Discourse of the Peace of Westphalia in International Relations Literature1\". International Studies Quarterly. 55 (3): 601–623. doi:10.1111/j.1468-2478.2011.00667.x. Historiography."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Paz_de_Vestf%C3%A1lia",
+        "situacao": "ok",
+        "texto": "A chamada Paz de Vestfália (ou de Vestefália, ou ainda Westfália), também conhecida como os Tratados de Münster e Osnabruque (ambas as cidades atualmente na Alemanha), designa uma série de tratados que encerraram a Guerra dos Trinta Anos e também reconheceram oficialmente as Províncias Unidas e a Confederação Suíça. O Tratado Hispano-Neerlandês, que pôs fim à Guerra dos Oitenta Anos, foi assinado \n[…]\nJá o tratado de Vestfália, assinado em 24 de outubro de 1648, em Osnabruque, entre Fernando III, Imperador Romano-Germânico, os demais príncipes alemães, o Reino da França e a Suécia, pôs fim ao conflito entre estas duas últimas potências e o Sacro Império. O Tratado dos Pirenéus (1659), que encerrou a guerra entre França e Espanha, também costuma ser considerado parte da Paz de Vestfália.\n[…]\nEm 1998, no Simpósio sobre a Relevância política da Paz de Vestfália, ou Paz de Vestfália de 1648, o Secretário General da OTAN, Javier Solana,  disse que \"humanidade e democracia [foram] dois princípios essencialmente irrelevantes à ordem original de Vestfália\" e, como crítica, comentou que \"o sistema de Vestfália tinha seus limites.\n[…]\nEm 2000, o Ministro de Assuntos Estrangeiros da Alemanha, Joschka Fischer, em seu discurso proferido na Universidade Humboldt, em Berlim, argumentou que o sistema de políticas europeias estabelecido por Vestfália era obsoleto: \"O centro da concepção de Europa pós-1945 era e ainda é uma rejeição do princípio do equilíbrio de poder e das ambições hegemônicas de cada Estado que emergiram seguindo a Paz de Vestfália em 1648, uma rejeição a qual tomou forma de malha fina de interesses e a transferência de direitos soberanos de Estado-nação para instituições supranacionais europeias\".\n[…]\n«Treaty of Westphalia (Yale Law School)» (em inglês). Texto do Tratado de Vestfália, traduzido para o inglês.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Restauração da Independência de Portugal",
+      "descricao": "Movimento que encerrou a União Ibérica e aclamou dom João IV rei de Portugal, iniciando a dinastia de Bragança."
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que ano Portugal aclamou dom João Quarto como rei e se libertou do domínio espanhol?",
+    "resposta": "1640",
+    "distratores": [
+      "1580",
+      "1615",
+      "1688"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Portuguese_Restoration_War",
+      "https://pt.wikipedia.org/wiki/Restauração_da_Independência"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Portuguese_Restoration_War",
+        "situacao": "ok",
+        "texto": "The Restoration War between Portugal and Spain began in 1641 and ended with the Treaty of Lisbon in 1668, bringing a formal end to the Iberian Union.\n[…]\nThe support of the people became apparent almost immediately and within a matter of hours, Philip III's third cousin John, 8th Duke of Braganza, was acclaimed as King John (João) IV of Portugal. The news spread quickly throughout the country. By 2 December 1640, the day after the coup, John IV, acting in his capacity as sovereign of the country, had sent a letter to the Municipal Chamber of Évora.\n[…]\nAt the time of the revolution in Lisbon (1 December 1640), Portugal had been at war with the Dutch Republic for forty years. Despite Portugal and the Dutch Republic now having a common enemy in Spain, the Dutch continued to attack Portuguese colonies, seizing Angola, São Tomé, and Malacca in 1641.\n[…]\nfirst, an early stage (1640–1646) when a few major engagements demonstrated that the Portuguese could not be easily returned to submission to the Spanish Habsburgs,\n[…]\n1640: A small group of conspirators stormed the royal palace in Lisbon and deposed the Vicereine of Portugal, Margaret of Savoy on 1 December 1640. She famously tried to calm the Portuguese people during demonstrations in the Terreiro do Paço, at the time, Lisbon's main square, but her efforts failed. The Duke of Bragança, head of the senior family among the Portuguese nobility, accepted the throne as John IV of Portugal later the same day.\n[…]\nAmes, Glenn Joseph (2000). Renascent Empire?: The House of Braganza and the Quest for Stability in Portuguese Monsoon Asia, ca. 1640–1683. Amsterdam: Amsterdam University Press. ISBN 9053563822."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Restauração_da_Independência",
+        "situacao": "ok",
+        "texto": "A Restauração da Independência ou Restauração de Portugal, é o nome que se dá ao golpe de Estado revolucionário ocorrido a 1 de Dezembro de 1640, chefiado por um grupo designado de Os Quarenta Conjurados e que se alastrou por todo o Reino, pela revolta dos portugueses contra a tentativa da anulação da independência do Reino de Portugal pela governação da dinastia filipina. O golpe culminou com a i\n[…]\nAté 1640, Portugal esteve sobre o controlo da casa dos Habsburgos, numa monarquia compartilhada com a Espanha, na qual as instituições portuguesas foram conservadas.\n[…]\nA restrição e neutralização de poder e privilégios aos portugueses, junto com a pretensão de uma arrecadação fiscal a nobres e clérigos, e a permanência de uma vice-rainha espanhola em solo português somada aos descumprimentos derradeiros realizados perante as Cortes de Tomar, ajudaram na motivação para a conjuração de 1640.\n[…]\nAs fases da Guerra de Restauração Portuguesa podem ser divididas em três partes distintas: A primeira fase ofensiva (1640-1646), a segunda fase defensiva (1646-1660) e terceira (1660-1668).\n[…]\nApesar de haver combates que contrapunham portugueses e espanhóis, houve conflitos dentro de Portugal que mostravam que a aclamação ao golpe de Dezembro de 1640 não era unitária. Em junho de 1641 houve uma proposta de contragolpe questionando a aclamação de D. João, almejando o regresso de Filipe III, e o Arcebispo Noronha foi responsável por encabeçar este movimento, com a presença de fidalgos, banqueiros, burocratas, eclesiásticos, etc.\n[…]\nEm Portugal, a primeira comemoração oficial da Restauração da Independência deu-se em 1823, no recinto do Picadeiro Real do Palácio de Belém (hoje Museu Nacional dos Coches), com a presença de D. João VI. O acontecimento deu-se não a 1 de Dezembro mas no dia 3, por \"difficuldades grandes\", segundo a Gazeta de Lisboa."
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Calendário gregoriano",
+      "descricao": "Calendário solar instituído pelo papa Gregório XIII em 1582 para corrigir o atraso do calendário juliano."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Para corrigir o calendário, o papa Gregório Treze mandou pular dias de outubro de 1582. Quantos dias foram suprimidos?",
+    "resposta": "Dez",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gregorian_calendar"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gregorian_calendar",
+        "situacao": "ok",
+        "texto": "The Gregorian calendar is the calendar currently used in most parts of the world. It went into effect in October 1582 following the papal bull Inter gravissimas issued by Pope Gregory XIII, which introduced it as a modification of, and replacement for, the Julian calendar.\n[…]\nDuring the period between 1582, when the first countries adopted the Gregorian calendar, and 1923, when the last European country adopted it, it was often necessary to indicate the date of some event in both the Julian calendar and in the Gregorian calendar, for example, \"10/21 February 1750/51\", where the dual year accounts for some countries already beginning their numbered year on 1 January while others were still using some other date.\n[…]\n\"Old Style\" (O.S.) and \"New Style\" (N.S.) indicate dating systems before and after a calendar change, respectively. Usually, this is the change from the Julian calendar to the Gregorian calendar as enacted in various European countries between 1582 and the early 20th century.\n[…]\nExtending the Gregorian calendar backwards to dates preceding its official introduction in a particular jurisdiction produces a proleptic calendar, which should be used with some caution. For ordinary purposes, the dates of events occurring prior to 15 October 1582 are generally shown as they appeared in the Julian calendar, with the year starting on 1 January, and no conversion to a putative Gregorian equivalents.\n[…]\nFor example, in the case of the few countries that adopted the reformed calendar on the date proposed by Gregory XIII for the calendar's adoption, Friday, 15 October 1582, the preceding date was Thursday, 4 October 1582 (Julian calendar).\n[…]\nList of calendars\n[…]\nCalendar Converter\n[…]\nWorld records for mentally calculating the day of the week in the Gregorian Calendar"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Calend%C3%A1rio_gregoriano",
+        "situacao": "ok",
+        "texto": "O calendário gregoriano é o sistema usado na maior parte do mundo, inclusive no Brasil e em Portugal, para organizar os dias em anos, meses e semanas. É a principal referência internacional para datas civis, administrativas e comerciais. Em 2026, o calendário gregoriano fazia parte da vida de cerca de 8 bilhões de pessoas, mais de 96% da população mundial.\n[…]\nO sistema entrou em vigor em 1582, quando o Papa Gregório XIII promulgou a bula Inter gravissimas para reformar o calendário juliano. Como o calendário anterior acumulava um pequeno excesso de tempo a cada ano, suas datas se afastavam lentamente das estações. A reforma eliminou dez datas para corrigir o deslocamento acumulado desde o Primeiro Concílio de Niceia e modificou a distribuição dos anos bissextos para reduzir novos desvios.\n[…]\nA reforma recebeu o nome do papa Gregório XIII, que promulgou a bula Inter gravissimas em 24 de fevereiro de 1582. Seu objetivo era corrigir o calendário juliano e devolver a celebração da Páscoa à época do ano em que ocorria quando a festividade foi introduzida pela Igreja primitiva. Como o sistema juliano considerava que o ano durava exatamente 365,25 dias, a data do equinócio havia se afastado aos poucos daquela observada no céu, afetando também o cálculo da Páscoa.\n[…]\nQuando o calendário entrou em uso, a supressão de dez datas corrigiu o deslocamento acumulado nos treze séculos posteriores ao Concílio de Niceia. A quinta-feira juliana de 4 de outubro de 1582 foi seguida pela sexta-feira gregoriana de 15 de outubro, sem interromper a sequência semanal. Outubro foi escolhido porque tinha menos observâncias religiosas, o que reduziria o efeito da mudança sobre o calendário litúrgico.\n[…]\nCalendário gregoriano proléptico, extensão das regras gregorianas a datas anteriores a 1582\n[…]\n\"The Gregorian Calendar\", programa In Our Time da BBC, em inglês",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Luís XIV",
+      "descricao": "Rei da França de 1643 a 1715, o Rei Sol, construtor de Versalhes."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Luís Quatorze tornou-se rei da França aos quatro anos de idade. Por quantos anos ele reinou?",
+    "resposta": "72 anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Louis_XIV"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Louis_XIV",
+        "situacao": "ok",
+        "texto": "Louis XIV (Louis-Dieudonné; 5 September 1638 – 1 September 1715), known as the \"Sun King\", was King of France from 14 May 1643 until his death in 1715. He is the longest-reigning monarch in history, reigning for 72 years and 110 days. His reign brought about a golden age in French history, marked by a great expansion of the French colonial empire and a flourishing of French culture throughout Euro\n[…]\nLouis supported the royal court of France and those who worked under him. He brought the Académie Française under his patronage and became its \"Protector\". He promoted classical French literature by protecting such writers as Molière, Racine, and La Fontaine. Louis also patronised the visual arts by funding and commissioning artists such as Charles Le Brun, Pierre Mignard, Antoine Coysevox, and Hyacinthe Rigaud.\n[…]\nLouis died of gangrene at Versailles on 1 September 1715, four days before his 77th birthday, after 72 years on the throne. Enduring much pain in his last days, he finally \"yielded up his soul without any effort, like a candle going out\", while reciting the psalm Deus, in adjutorium me festina (O Lord, make haste to help me). His body was laid to rest in the Basilica of Saint-Denis outside Paris.\n[…]\nThis is an incomplete list of Louis XIV's illegitimate children. He reputedly had more, but the difficulty in fully documenting all such births restricts the list only to the better-known or legitimised.\n[…]\nÉléphante de Louis XIV\n[…]\nRanum, Orest, ed. (1972). The Century of Louis XIV. Palgrave Macmillan. doi:10.1007/978-1-349-00497-3. ISBN 978-1-349-00499-7. Archived from the original on 7 February 2018. Retrieved 7 July 2017.\n[…]\nWorks by or about Louis XIV at the Internet Archive\n[…]\nWorks by Louis XIV at LibriVox (public domain audiobooks)\n[…]\nLouis XIV Archived 22 June 2017 at the Wayback Machine at History.com\n[…]\nLe Siècle de Louis XIV by Voltaire, 1751, hosted by French Wikisource"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lu%C3%ADs_XIV_de_Fran%C3%A7a",
+        "situacao": "ok",
+        "texto": "Luís XIV (Saint-Germain-en-Laye, 5 de setembro de 1638 – Versalhes, 1 de setembro de 1715), também designado como Luís, o Grande (em francês:  Louis le Grand; em latim: Ludovicus Magnus), ou Rei-Sol (em francês:  le Roi Soleil), foi o Rei da França e Navarra de 1643 até à sua morte; sendo o mais longo reinado da Europa e mais longo da história (durante 72 anos). Ele foi um dos líderes da crescente\n[…]\nEm 1671, a Academia Francesa (Académie Française) tornou-se uma instituição estatal e o rei tornou-se seu diretor. A publicação do Dicionário da Língua Francesa, compilado pela Academia Francesa, contribuiu para a política governamental de unificação linguística sob o domínio francês. No entanto, Luís XIV só gastou muito em patrocínio artístico durante a primeira metade do seu reinado, acabando por reduzir o seu financiamento à medida que as guerras pioravam as suas finanças.\n[…]\nLuís XIV foi muito atingido pelo infortúnio de perder seus filhos, netos e bisneto num curto périodo de tempo. Como resultado, o mais novo dos três filhos do Duque da Borgonha, o Duque de Anjou, que era o único homem sobrevivente, tornou-se o novo Delfim da França.\n[…]\nO balé foi trazido da Itália para a França por Catarina de Médici em 1533 e foi amplamente apresentado na corte real. Quando Luís XIV ascendeu ao trono aos cinco anos de idade, um grande balé de cinco horas foi produzido, no qual o próprio Luís XIV se apresentou. O rei Luís XIV era um grande admirador do balé e o incentivava. Ele próprio fez sua estreia no palco em 1651, aos quinze anos e fundou a Academia Real de Dança. Foi nessa época que o balé foi sistematizado como a dança que é hoje.\n[…]\nFístula anal de Luís XIV de França\n[…]\nVoltaire, traduzido por Maruyama Kumao, O Século de Luís XIV, quatro volumes, Iwanami Bunko, 1958.\n[…]\nBiografia de Luís XIV na Kotobank\n[…]\nLuís XIV e o Estado todo-poderoso, Dimitri Casali, História Viva",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Catarina de Bragança",
+      "descricao": "Infanta portuguesa, filha de dom João IV, que se casou em 1662 com Carlos II e foi rainha da Inglaterra."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Ao se casar com o rei inglês Carlos Segundo, em 1662, Catarina de Bragança levou como dote Tânger e que cidade indiana?",
+    "resposta": "Bombaim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Catherine_of_Braganza"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Catherine_of_Braganza",
+        "situacao": "ok",
+        "texto": "Catherine of Braganza (25 November 1638 – 31 December 1705) was Queen of England, Scotland and Ireland from 21 May 1662 to 6 February 1685, through her marriage to Charles II of England. After his death, Catherine returned to Portugal and served as regent for her brother Peter II in 1701, and again in 1704–1705.\n[…]\nMeanwhile, the African-American Bethesda Missionary Baptist Church opposed plans for the statue after allegations that Queen Catherine and the House of Braganza had profited from the slave trade had emerged, while Irish-Americans in Queens were upset that the proposed statue would eclipse the Calvary Cemetery, which had been established for the Irish immigrant community in the United States.\n[…]\nThis article incorporates text from a publication now in the public domain: Chisholm, Hugh, ed. (1911). \"Catherine of Braganza\". Encyclopædia Britannica (11th ed.). Cambridge University Press.\n[…]\nDavidson, Lillias Campbell (1908). Catherine of Bragança, Infanta of Portugal, & Queen-Consort of England. London: John Murray.\n[…]\nFernández Suárez, José Ramón (1980). \"España ante la boda de Carlos II Estuardo y la independencia de Portugal: la diplomacia Española\". ES: Revista de filología inglesa (in Spanish) (10): 71–130.\n[…]\nFernández Suárez, José Ramón (1982). \"La persecución religiosa de Carlos II de Inglaterra a través de los embajadores españoles (1666-1685)\". ES: Revista de filología inglesa (in Spanish) (12): 39–98.\n[…]\nWynne, S.M (2008). \"Catherine of Braganza\". Oxford Dictionary of National Biography (online ed.). Oxford University Press. doi:10.1093/ref:odnb/4894. (Subscription, Wikipedia Library access or UK public library membership required.)\n[…]\nMedia related to Catherine of Braganza at Wikimedia Commons\n[…]\nPortraits of Catherine of Braganza at the National Portrait Gallery, London"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Catarina_de_Bragan%C3%A7a",
+        "situacao": "ok",
+        "texto": "Catarina Henriqueta de Bragança (em inglês: Catherine Henrietta of Braganza; Vila Viçosa, 25 de novembro de 1638 – Lisboa, 31 de dezembro de 1705) foi a esposa do Rei Carlos II e Rainha Consorte da Inglaterra, Escócia e Irlanda de 1662 até 1685. Era filha de D. João IV, primeiro monarca português da Casa de Bragança, e de Luísa de Gusmão.\n[…]\nEm 23 de junho de 1661, apesar da oposição espanhola, o contrato matrimonial foi formalmente assinado em Londres, sob a negociação do Conde da Ponte. A Inglaterra assegurou o controle de Tânger, no Norte da África, e das Sete Ilhas de Bombaim, na Índia, além de privilégios comerciais no Brasil e nas Índias Orientais Portuguesas, liberdade religiosa e comercial para os súditos ingleses em Portugal, bem como a quantia de dois milhões de coroas (aproximadamente £ 300.000).\n[…]\nEm 23 de abril de 1662, foi anunciado em Lisboa o contrato de casamento entre o rei Carlos II da Inglaterra e a infanta portuguesa Catarina, aprovado pelo Conselho de Estado. Pouco depois, chegou a frota inglesa comandada pelo Conde de Sandwich, encarregada de conduzir a futura rainha.A ntes do embarque, realizou-se uma cerimônia solene na Sé de Lisboa, com missa e Te Deum, seguida de celebrações públicas.\n[…]\nO distrito de Queens, em Nova Iorque, é tradicionalmente associado a Catarina de Bragança, pois ela era rainha de Inglaterra quando o condado foi estabelecido, em 1683. A designação também seguiria a tradição dos condados vizinhos: Kings County (atual distrito de Brooklyn), nomeado em homenagem ao rei Carlos II, e Richmond County, associado ao seu filho ilegítimo, Jaime Scott, 1.º Duque de Monmouth.\n[…]\nA Catherine Street, anteriormente chamada Brydges Street, no centro de Londres, recebeu esse nome em homenagem a Catarina de Bragança.\n[…]\nBiografia de Catarina de Bragança (em inglês) na Encyclopedia Britannica",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Reis Católicos",
+      "descricao": "Isabel I de Castela e Fernando II de Aragão, casal que uniu as coroas e reinou na Espanha no fim do século quinze."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O casamento de Isabel de Castela com Fernando, em 1469, uniu a coroa castelhana à de que outro reino ibérico?",
+    "resposta": "Aragão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Catholic_Monarchs"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Catholic_Monarchs",
+        "situacao": "ok",
+        "texto": "The Catholic Monarchs were Queen Isabella I of Castile (r. 1474–1504) and King Ferdinand II of Aragon (r. 1479–1516), whose marriage and joint rule marked the de facto unification of Spain. They were both from the House of Trastámara and were second cousins, as they were both descended from John I of Castile. To remove the obstacle that this consanguinity would otherwise have posed to their marria\n[…]\nPope Innocent VIII confirmed Dominican Tomás de Torquemada, a confessor of Isabella, as Grand Inquisitor of Spain, following in the tradition in Aragon of Dominican inquisitors. Torquemada pursued aggressive policies toward converted Jews (conversos) and Muslims moriscos. The pope also granted the Catholic Monarchs the right of patronato real over the ecclesiastical establishment in Granada and the Canary Islands, thereby granting the state control over religious affairs.\n[…]\nUnder the Catholic Monarchs an efficient army loyal to the Crown was created, commanded by Castilian Gonzalo Fernández de Córdoba, known as the Great Captain. Fernández de Córdoba reorganised the military troops on a new combat unit,  tercios reales, which entailed the creation of the first modern army dependent on the crown, regardless of the pretensions of the nobles.\n[…]\nIsabella's death in 1504 ended the remarkably successful political partnership and personal relationship of their marriage. Ferdinand remarried Germaine of Foix in 1505, but they produced no living heir. Had there been one, Aragonese opposed to the union would have likely backed their succession as a chance to re-establish independence, leading to civil war. The Catholic Monarchs' daughter Joanna succeeded to the crown of Castile, but was deemed unfit to rule.\n[…]\nElliott, J.H., Imperial Spain, 1469–1716 (1963; Pelican 1970)\n[…]\nEdwards, John. The Spain of the Catholic Monarchs. Blackwell Publishers. Massachusetts, 2000. ISBN 0-631-22143-3."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Reis_Cat%C3%B3licos",
+        "situacao": "ok",
+        "texto": "Reis Católicos foi a denominação que recebeu o casal composto pela Rainha Dona Isabel de Castela e o Rei Dom Fernando II de Aragão. Concretizaram a união dinástica entre os dois reinos ibéricos, criando a Monarquia Católica, que em 1512 passaria a ser conhecida por Monarquia de Espanha. O seu símbolo conjunto era el yugo y las flechas, numa alusão aos nomes próprios de ambos: Ysabel (grafia antiga\n[…]\nO casamento de Dona Isabel I de Castela com Dom Fernando II de Aragão não antevia o sucesso do casal no governo de Espanha. Com efeito, apesar do contributo, da colaboração para a unificação da atual Espanha, a nobreza não era consensual no que dizia respeito à decisão sobre quem deveria ascender ao trono do país: houvera quem preferisse a Infanta Dona Joana, prometida a Dom Afonso V de Portugal (que, por isso, também concorria ao trono). Porém, Dª. Joana era tida como filha ilegítima de D.\n[…]\nAssim, Isabel I, meia-irmã do rei, faz-se proclamar rainha de Castela nas Cortes de Valladolid de 1473. Em 1479, Fernando II torna-se rei de Aragão e consuma-se a união dos dois reinos que, porém, ainda não era suficientemente forte, já que era cercado por Portugal, em plena expansão, a França dos Valois, a pequena Navarra e o reino de Granada.\n[…]\nNote-se que, desde que o Papa Alexandre VI atribuiu o título de Reis Católicos a Fernando e Isabel, os Monarcas de Castela (e, desde então, de Espanha) são conhecidos pelo título de Sua Majestade Católica, pelo que, com propriedade, todos os Reis que se seguiram a D. Fernando e Dª. Isabel poderiam também ser conhecidos por este título.\n[…]\nIsabel de Aragão, casada com Afonso de Portugal, ficou viúva depois de oito meses de casada. Em seguida casou-se com o primo Manuel I de Portugal, do qual teve um filho, Miguel da Paz em 1498, e morreu no parto.\n[…]\nEm 1500 morreu o seu filho Miguel, que seria o herdeiro das coroas de Portugal, Castela e Aragão.\n[…]\nUnião Ibérica",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Isaac Newton",
+      "descricao": "Físico e matemático inglês, autor dos Principia, que dirigiu a Casa da Moeda Real de 1696 até a morte, em 1727."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Além de revolucionar a física, Isaac Newton passou as últimas três décadas da vida dirigindo que instituição inglesa?",
+    "resposta": "Casa da Moeda Real",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Isaac_Newton"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
+        "situacao": "ok",
+        "texto": "Sir Isaac Newton ( ; 4 January 1643 [O.S. 25 December 1642] – 31 March 1727 [O.S. 20 March 1726]) was an English polymath who was a mathematician, physicist, astronomer, alchemist, theologian, historian and inventor. He was a key figure in the Scientific Revolution and the Enlightenment that followed.\n[…]\nHe generalised the binomial theorem to any real number, introduced the Puiseux series, was the first to state Bézout's theorem, classified most of the cubic plane curves, contributed to the study of Cremona transformations, developed a method for approximating the roots of a function, originated the Newton–Cotes formulas used for numerical integration, and further produced the earliest explicit enunciation of the general Taylor series.\n[…]\nPickover ranked his top ten most influential mathematicians that ever lived, placing Newton first in the list. In The Cambridge Companion to Isaac Newton (2016), he is described as being \"from a very young age, an extraordinary problem-solver, as good, it would appear, as humanity has ever produced\". He is ultimately ranked among the top two or three greatest theoretical scientists ever, alongside James Clerk Maxwell and Albert Einstein, the greatest mathematician ever alongside Carl F.\n[…]\nThe Isaac Newton Institute for Mathematical Sciences, an international research institute for mathematics and its applications at the University of Cambridge, is named in Newton's honour.\n[…]\nThe Institute of Physics, or IOP, has its highest and most prestigious award, the Isaac Newton Medal, named after Newton, which is given for world-leading contributions to physics. It was first awarded in 2008.\n[…]\nWorks by Isaac Newton at Project Gutenberg\n[…]\nBernhardus Varenius, Geographia Generalis, ed. Isaac Newton, 2nd ed. (Cambridge: Joann. Hayes, 1681) from the Internet Archive"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Isaac_Newton",
+        "situacao": "ok",
+        "texto": "Sir Isaac Newton PRS (Woolsthorpe-by-Colsterworth, 25 de dezembro de 1642jul./ 4 de janeiro de 1643greg. – Kensington, 20 de março de 1727jul./ 31 de março de 1727greg) foi um matemático, físico, astrônomo, alquimista, teólogo e escritor britânico (descrito em seus dias como um \"filósofo natural\") amplamente reconhecido como um dos cientistas mais influentes de todos os tempos e como uma figura-ch\n[…]\nFoi cavaleiro da rainha Ana em 1705 e passou as últimas três décadas de sua vida em Londres servindo como diretor (1696–1700) e mestre (1700–1727) da Casa da Moeda Real e como presidente da Royal Society (1703–1727).\n[…]\nNewton tornou-se talvez o mestre mais conhecido da Casa da Moeda após a morte de Thomas Neale em 1699, cargo que Newton ocupou nos últimos 30 anos de sua vida.\n[…]\nComo diretor, e depois como mestre, da Casa da Moeda Real, Newton estimou que 20 por cento das moedas recunhadas durante o Grande Recunhagem de 1696 eram falsificadas. A falsificação era alta traição, punível com o crime ser enforcado, arrastado e esquartejado. Apesar disto, condenar até os criminosos mais flagrantes poderia ser extremamente difícil. No entanto, Newton se mostrou digno da tarefa.\n[…]\nEm abril de 1705, a rainha Ana tornou Newton um cavaleiro durante uma visita real ao Trinity College, Cambridge. É provável que a cavalaria tenha sido motivada por considerações políticas relacionadas às eleições parlamentares em maio de 1705, em vez de qualquer reconhecimento do trabalho ou serviços científicos de Newton como Mestre da Casa da Moeda. Newton foi o segundo cientista a ser cavaleiro, depois de Sir Francis Bacon.\n[…]\nJohn Conduitt, que foi assistente de Newton na Casa da Moeda Real e marido da sobrinha do cientista, também descreveu o evento quando escreveu sobre a vida de Newton:\n[…]\nRelatórios como mestre da casa da moeda (1701–1725)\n[…]\nIsaac Newton (em inglês) no Mathematics Genealogy Project",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Catarina, a Grande",
+      "descricao": "Catarina II, imperatriz da Rússia de 1762 a 1796, nascida princesa de Anhalt-Zerbst."
+    },
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Catarina, a Grande, imperatriz da Rússia no século dezoito, nasceu princesa em outro país. Qual era sua língua materna?",
+    "resposta": "Alemão",
+    "distratores": [
+      "Francês",
+      "Polonês",
+      "Sueco"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Catherine_the_Great"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Catherine_the_Great",
+        "situacao": "ok",
+        "texto": "Catherine II (born Sophie Auguste Friederike von Anhalt-Zerbst; 2 May 1729 – 17 November 1796), known as Catherine the Great, was Empress of Russia from 9 July 1762 until her death in 1796. Before her accession, Catherine had been a royal consort as the wife of Emperor Peter III, whom she overthrew in a coup d'état.\n[…]\nBorn a German princess, Catherine married Peter, a grandson of Peter the Great, at the age of 16. Peter became Emperor of Russia in 1762, reigning for seven months before his deposition and possible assassination at the hands of Catherine. During her reign, she often maintained close alliances with noble favourites such as Count Grigory Orlov and Grigory Potemkin.\n[…]\nShe was a subject in The Royal Diaries series in the book Catherine: The Great Journey, Russia, 1743–1745 by Kristiana Gregory.\n[…]\nN. Aleksandrova portrayed Catherine in the Russian short silent  film Princess Tarakanova (1910).\n[…]\nIrina Pegova portrayed Catherine in Russian adventure comedy film The Crazy Empress (2025), in which Catherine the Great is accidentally transported to modern-day Saint Petersburg.\n[…]\nThe Channel One Russia television series Catherine the Great was released in 2015. Second season of the series was released in 2023. Catherine is portrayed by  Yuliya Snigir (Season 1) and by Elizaveta Boyarskaya (Season 2).\n[…]\nRussian historical documentary film Catherine the Great (2025); the third film in the Rus' franchise. The role of Catherine II was played by three actresses: Anna Mikhalkova, Olga Lerman and Nina Kucheruk.\n[…]\nCatherine is one of the main characters in the ballet Russian Hamlet (1999) by Boris Eifman\n[…]\nThe song \"Catherine the Great\" from the album Foreverland by The Divine Comedy was released as a single on 24 June 2016.\n[…]\nFamily tree of Russian monarchs\n[…]\nCatherine the Great on In Our Time at the BBC"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Catarina_II_da_R%C3%BAssia",
+        "situacao": "ok",
+        "texto": "Catarina II  (Estetino, 2 de maio de 1729 – São Petersburgo, 17 de novembro de 1796), também conhecida como Catarina, a Grande, foi Imperatriz da Rússia de 1762 a 1796. Uma princesa alemã por nascimento, chegou ao poder após um golpe de estado contra seu próprio marido, Pedro III.\n[…]\nDurante o reinado de Catarina II, o desenvolvimento econômico da Rússia permaneceu abaixo dos padrões da Europa Ocidental. Segundo o historiador François Crouzet, o país não possuía um campesinato livre, uma classe média significativa nem um ambiente jurídico favorável à iniciativa privada. Apesar disso, houve algum crescimento industrial, especialmente na produção têxtil na região de Moscou e nas siderúrgicas dos montes Urais, que empregavam majoritariamente servos vinculados às fábricas.\n[…]\nA saúde pública foi uma das prioridades do governo de Catarina II. Inspirada por ideias do cameralismo alemão e da fisiocracia francesa, além de experiências russas anteriores, ela fundou, em 1764, o fundou o Orfanato e Maternidade de Moscou. No ano anterior, inaugurou o Hospital Pavlovskaya. Seu governo também passou a coletar e publicar estatísticas vitais e determinou a modernização dos serviços médicos do exército.\n[…]\nApós esse relacionamento, Catarina envolveu-se com Gregório Orlov, oficial da Guarda Imperial e um dos principais articuladores do golpe de Estado que a levou ao trono em 1762. Dessa relação nasceu Alexei Grigorievich Bobrinsky (1762–1813), cuja paternidade foi amplamente reconhecida. Orlov recebeu o título de conde, propriedades e grande prestígio na corte, mas o relacionamento terminou alguns anos depois.\n[…]\nMassie, Robert K. (2012). Catarina, a Grande: Retrato de uma mulher. Traduzido por Ângela Lobo de Andrade. Rio de Janeiro: Rocco. ISBN 978-85-325-2799-8",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Província da Geórgia",
+      "descricao": "Colônia britânica fundada em 1732 por James Oglethorpe, a mais meridional das Treze Colônias."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Qual das Treze Colônias britânicas da América do Norte foi a última a ser fundada, em 1732?",
+    "resposta": "Geórgia",
+    "distratores": [
+      "Pensilvânia",
+      "Carolina do Norte",
+      "Maryland"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Province_of_Georgia",
+      "https://en.wikipedia.org/wiki/Thirteen_Colonies"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Province_of_Georgia",
+        "situacao": "ok",
+        "texto": "The Province of Georgia (also Georgia Colony) was one of the Southern Colonies in colonial-era British America. Founded as a British proprietary colony in 1732, in 1751 it became a royal colony. In 1775 it was the last of the Thirteen Colonies to support the American Revolution.\n[…]\nAnother reason for the founding of the colony was as a buffer state and a \"garrison province\" which would defend the southern British colonies from Spanish Florida. Oglethorpe imagined a province populated by \"sturdy farmers\" who could guard the border; because of this, the colony's charter prohibited slavery. The ban on slavery was lifted by 1751 and the colony became a royal colony by 1752,  taking over from the Trustees for the Establishment of the Colony of Georgia in America.\n[…]\nDuring the American Revolution Georgia's population was at first divided about exactly how to respond to revolutionary activities and heightened tensions in other provinces. After  violence broke out in Massachusetts in 1775, radical Patriots stormed the royal magazine at Savannah and carried off its ammunition, took control of the provincial government, and drove many Loyalists out of the province.\n[…]\nJames Wright, the last Royal Governor of the Province of Georgia, dismissed the royal assembly in 1775. He was briefly a prisoner of the revolutionaries before escaping to a British warship in February 1776. During the American Revolutionary War Wright was the only royal governor to regain control of part of his colony after British forces captured Savannah on December 29, 1778.\n[…]\nHistory of Georgia (U.S. state)\n[…]\nLOC: Establishing the Georgia Colony 1732–1750\n[…]\nRoyal Charter for the Colony of Georgia, 09 June 1732 from the collection of the Georgia Archives.\n[…]\nColonial Will Books, 1754-1779 from the Georgia Archives"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+        "situacao": "ok",
+        "texto": "The Thirteen Colonies were the British colonies on the Atlantic coast of North America which broke away from the British Crown in the American Revolutionary War (1775–1783), and joined to form the United States of America.\n[…]\nThe Thirteen Colonies in their traditional groupings were: the New England Colonies (Province of New Hampshire, Province of Massachusetts Bay, Colony of Rhode Island and Providence Plantations, and Connecticut Colony); the Middle Colonies (Province of New York, Province of New Jersey, Province of Pennsylvania, and Delaware Colony); and the Southern Colonies (Province of Maryland, Colony of Virginia, Province of North Carolina, Province of South Carolina, and Province of Georgia).\n[…]\nThe Thirteen Colonies were complete with the establishment of the Province of Georgia in 1732, although the term \"Thirteen Colonies\" became current only in the context of the American Revolution.\n[…]\nProvince of Georgia, established as a proprietary colony in 1732; royal colony from 1752.\n[…]\nIn the 1730s, Parliamentarian James Oglethorpe proposed that the area south of the Carolinas be colonized with the \"worthy poor\" of England to provide an alternative to the overcrowded debtors' prisons. Oglethorpe and other English philanthropists secured a royal charter as the Trustees of the colony of Georgia on June 9, 1732.\n[…]\nIn response, the colonies formed bodies of elected representatives known as Provincial Congresses, and colonists began to boycott imported British merchandise. Later in 1774, 12 colonies sent representatives to the First Continental Congress in Philadelphia. During the Second Continental Congress, the remaining colony of Georgia sent delegates as well.\n[…]\nShipbuilding in the American colonies"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Prov%C3%ADncia_da_Ge%C3%B3rgia",
+        "situacao": "ok",
+        "texto": "A Província da Geórgia (ou Colônia da Geórgia) foi uma das Colônias do Sul da América Britânica. Ela foi a última das treze colônias originais estabelecidas pelo Reino da Grã-Bretanha no que mais tarde se tornou os Estados Unidos. Na concessão original, uma estreita faixa da província se estendia até o Oceano Atlantico.\n[…]\nEmbora muitos acreditem que a colônia foi formada para os presos, a colônia foi, na verdade, formada como um local sem escravidão e respeitando os nativos americanos. Oglethorpe teve a visão de torná-la um lugar para devedores, mas ela se transformou em uma colônia real. A seguir está um relato histórico desses primeiros colonos ingleses enviados para a Geórgia:\n[…]\nOglethorpe continuou rio acima para explorar um local adequado para colonização. Em 12 de fevereiro de 1733, Oglethorpe conduziu os colonos à sua chegada em Yamacraw Bluff, no que agora é a cidade de Savannah, e estabeleceu um acampamento com a ajuda de um idoso chefe Creek local, Tomochichi. Uma aldeia indígena Yamacraw ocupou o local, mas Oglethorpe providenciou para que os índios se mudassem. O dia ainda é comemorado como o Dia da Geórgia.\n[…]\nA carta original especificava a colônia como estando entre os rios Savannah e Altamaha, até suas cabeceiras (as cabeceiras do Altamaha estão no rio Ocmulgee), e então se estendendo para oeste \"até os mares do sul\" (Atlântico). A área dentro da carta foi anteriormente parte da concessão original da Província da Carolina, que estava intimamente ligada à Geórgia.\n[…]\nLOC: Establishing the Georgia Colony 1732–1750\n[…]\nSir John Percival papers also called: The Egmont Papers, 1732–1745. University of Georgia Hargrett Library.\n[…]\nCharter of Georgia : 1732\n[…]\nRoyal Charter for the Colony of Georgia, 09 June 1732\n[…]\n1758 Act Dividing Georgia into Parishes\n[…]\nColonial Will Books, 1754-1779 from the Georgia Archives",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Carlos V",
+      "descricao": "Monarca Habsburgo do século dezesseis, rei da Espanha como Carlos I e imperador do Sacro Império Romano-Germânico."
+    },
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que monarca Habsburgo do século dezesseis foi, ao mesmo tempo, rei da Espanha e imperador do Sacro Império Romano-Germânico?",
+    "resposta": "Carlos Quinto",
+    "distratores": [
+      "Filipe Segundo",
+      "Maximiliano Primeiro",
+      "Fernando de Aragão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Charles_V,_Holy_Roman_Emperor",
+        "situacao": "ok",
+        "texto": "Charles V (24 February 1500 – 21 September 1558) was Holy Roman Emperor and Archduke of Austria from 1519 to 1556, King of Spain (as Charles I) from 1516 to 1556, King of Sicily and Naples from 1516 to 1554, and also Lord of the Netherlands and titular Duke of Burgundy (as Charles II) from 1506 to 1555. He was heir to and then head of the rising House of Habsburg.\n[…]\nCharles inherited the Austrian hereditary lands in 1519, as Charles I of Austria, and obtained the election as Holy Roman Emperor against the candidacy of the French king. Since the Imperial election, he was known as Emperor Charles V even outside of Germany. The dynastic motto of the House of Habsburg used by Charles was A.E.I.O.U. (\"Austria Est Imperare Orbi Universo\" — \"it is Austria's destiny to rule the world\"; although its exact meaning remains disputed).\n[…]\nThe titles of king of Hungary, Croatia, etc., were also nominally left to the Spanish line (in particular to Carlos, Prince of Asturias and son of Philip II). However, Charles's Imperial abdication marked the beginning of Ferdinand's suo jure rule in Austria and his other lands: despite the claims of Philip and his descendants, Hungary and Bohemia were left under the nominal and substantial rule of Ferdinand and his successors.\n[…]\nIn the third act of Giuseppe Verdi's opera Ernani, the election of Charles as Holy Roman Emperor is presented. Charles (Don Carlo in the opera) prays before the tomb of Charlemagne. With the announcement that he has been elected as Carlo Quinto, he declares an amnesty, including the eponymous bandit Ernani, who had followed him there to murder him as a rival for the love of Elvira.\n[…]\nCharles V is the main subject of the TVE series Carlos, Rey Emperador and is portrayed by Álvaro Cervantes;\n[…]\nD'Amico, Juan Carlos. Charles Quint, Maître du Monde: Entre Mythe et Réalité, 2004, 290 p. (in French)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carlos_V_do_Sacro_Imp%C3%A9rio_Romano-Germ%C3%A2nico",
+        "situacao": "ok",
+        "texto": "Carlos V (Gante, 24 de fevereiro de 1500 – Cuacos de Yuste, 21 de setembro de 1558) foi o Sacro Imperador Romano e Arquiduque da Áustria a partir de 1519, Rei da Espanha como Carlos I a partir de 1516 e Senhor dos Países Baixos como Duque da Borgonha a partir de 1506.\n[…]\nCom a morte de seu avô paterno Maximiliano, em 1519, ele herdou a Áustria e foi eleito para sucedê-lo como Sacro Imperador Romano. Ele adotou o nome imperial de Carlos V como seu título principal e se denominou um novo Carlos Magno.\n[…]\nCarlos nasceu em 24 de fevereiro de 1500 na cidade flamenga de Gante, parte dos Países Baixos Habsburgos no Sacro Império Romano. Ele era o filho mais velho de Filipe, o Belo da Casa Austríaca de Habsburgo (filho de Maximiliano I da Áustria e Maria da Borgonha) e Joana, a Louca da Casa Espanhola de Trastámara (filha de Fernando de Aragão e Isabel de Castela).\n[…]\nCarlos herdou as terras hereditárias austríacas em 1519, como Carlos I da Áustria, e obteve a eleição como Sacro Imperador Romano, contra a candidatura do rei francês. Desde a eleição imperial, ele era conhecido como imperador Carlos V, mesmo fora da Alemanha, e o lema A.E.I.O.U. da Casa da Áustria adquiriu significado político.\n[…]\nPavia resistiu sozinha e, em 24 de fevereiro de 1525 (no vigésimo quinto aniversário de Carlos), as forças do Imperador lideradas por Carlos de Lannoy capturaram Francisco e esmagaram seu exército na Batalha de Pavia. Em 1535, Francesco II Sforza morreu sem herdeiros e Carlos V anexou o território como um estado imperial vago. Carlos manteve com sucesso todos os seus territórios italianos, embora eles tenham sido invadidos novamente em várias ocasiões durante as Guerras Italianas.\n[…]\n1519–1530: Sua Alteza, o Rei dos Romanos\n[…]\n1558–1558: O Sr. Carlos de Habsburgo.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.
