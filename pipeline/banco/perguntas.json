@@ -61446,5 +61446,185 @@
       "licenca": "Public domain"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q03705",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pudim",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que sobremesa é esta?",
+    "resposta": "Pudim de leite",
+    "distratores": [
+      "Manjar de coco",
+      "Creme brûlée",
+      "Panna cotta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cr%C3%A8me_caramel",
+      "https://pt.wikipedia.org/wiki/Flan"
+    ],
+    "imagem": {
+      "arquivo": "q03705.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Crème_caramel_2.jpg",
+      "autor": "Amanda Coutinho",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q03706",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "poutine",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é típico este prato?",
+    "resposta": "Canadá",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Poutine",
+      "https://pt.wikipedia.org/wiki/Poutine"
+    ],
+    "imagem": {
+      "arquivo": "q03706.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Poutine.JPG",
+      "autor": "Jonathunder",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q03707",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "vinho",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Qual é a matéria-prima principal desta bebida?",
+    "resposta": "Uva",
+    "distratores": [
+      "Maçã",
+      "Pera",
+      "Ameixa"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wine",
+      "https://pt.wikipedia.org/wiki/Vinho"
+    ],
+    "imagem": {
+      "arquivo": "q03707.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Red_and_white_wine_12-2015.jpg",
+      "autor": "A.Savin",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q03708",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "cocada",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que doce brasileiro é este?",
+    "resposta": "Cocada",
+    "distratores": [
+      "Paçoca",
+      "Maria-mole",
+      "Cajuzinho"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cocada",
+      "https://pt.wikipedia.org/wiki/Cocada"
+    ],
+    "imagem": {
+      "arquivo": "q03708.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cocada_de_Muriqui_2.png",
+      "autor": "Avelludo",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q03709",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "takoyaki",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que petisco japonês é este?",
+    "resposta": "Takoyaki",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Takoyaki",
+      "https://pt.wikipedia.org/wiki/Takoyaki"
+    ],
+    "imagem": {
+      "arquivo": "q03709.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Takoyaki_by_yomi955.jpg",
+      "autor": "heiwa4126",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q03710",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "acai_na_tigela",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que preparação é esta?",
+    "resposta": "Açaí na tigela",
+    "distratores": [
+      "Mingau de aveia",
+      "Creme de cupuaçu",
+      "Sorvete de uva"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/A%C3%A7ai_bowl",
+      "https://pt.wikipedia.org/wiki/A%C3%A7a%C3%AD_na_tigela"
+    ],
+    "imagem": {
+      "arquivo": "q03710.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Açaí_na_tigela.jpeg",
+      "autor": "Olga Kreglicka",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q03711",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pe_de_moleque",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que doce brasileiro de festa junina é este?",
+    "resposta": "Pé de moleque",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/P%C3%A9_de_moleque",
+      "https://en.wikipedia.org/wiki/P%C3%A9_de_moleque"
+    ],
+    "imagem": {
+      "arquivo": "q03711.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pe_de_moleque.jpg",
+      "autor": "Meksyk (Wikimedia Commons)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q03712",
+    "tema": "Cotidiano",
+    "subtema": "Culinária e Bebidas",
+    "ancora": "pad_thai",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "De que país é este prato de macarrão?",
+    "resposta": "Tailândia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pad_thai",
+      "https://pt.wikipedia.org/wiki/Pad_thai"
+    ],
+    "imagem": {
+      "arquivo": "q03712.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Phat_Thai_kung_Chang_Khien_street_stall.jpg",
+      "autor": "Takeaway",
+      "licenca": "CC BY-SA 3.0"
+    }
   }
 ]

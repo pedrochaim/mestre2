@@ -1,0 +1,490 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Pudim",
+        "descricao": "Sobremesa de creme gelatinoso assado em banho-maria, coberta com calda de caramelo.",
+        "variantes": [
+          "Pudim de leite",
+          "Flan",
+          "Crème caramel"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "copo_de_leite",
+          "nome": "Copo-de-leite",
+          "descricao": "Zantedeschia aethiopica, planta de origem sul-africana com espata branca em forma de funil.",
+          "variantes": [
+            "Zantedeschia aethiopica",
+            "Lírio-de-calla",
+            "Calla"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "flamengo",
+          "nome": "Flamengo",
+          "descricao": "Clube de Regatas do Flamengo, clube carioca fundado em 1895.",
+          "variantes": [
+            "Clube de Regatas do Flamengo",
+            "CR Flamengo",
+            "Mengão"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "fanta",
+          "nome": "Fanta",
+          "descricao": "Refrigerante criado na Alemanha em 1940 pela filial alemã da Coca-Cola.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Poutine",
+        "descricao": "Prato canadense de batatas fritas com queijo coalhado e molho de carne quente, surgido em Quebec.",
+        "variantes": [
+          "Poutine canadense"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "vinicius_de_moraes",
+          "nome": "Vinicius de Moraes",
+          "descricao": "Poeta, compositor e diplomata carioca, parceiro de Tom Jobim na bossa nova.",
+          "variantes": [
+            "Poetinha"
+          ]
+        },
+        {
+          "id": "playstation",
+          "nome": "PlayStation",
+          "descricao": "Primeiro console de videogame da Sony, lançado em 1994.",
+          "variantes": [
+            "PS1",
+            "PSX",
+            "PSone"
+          ]
+        },
+        {
+          "id": "o_quinze",
+          "nome": "O Quinze",
+          "descricao": "Romance de estreia de Rachel de Queiroz, publicado em 1930.",
+          "variantes": []
+        },
+        {
+          "id": "post_it",
+          "nome": "Post-it",
+          "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
+          "variantes": [
+            "Post-it note",
+            "Nota adesiva",
+            "Bloco autoadesivo"
+          ]
+        },
+        {
+          "id": "christian_louboutin",
+          "nome": "Christian Louboutin",
+          "descricao": "Designer francês de sapatos conhecido pelas solas vermelhas",
+          "variantes": [
+            "Louboutin"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Vinho",
+        "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+        "variantes": [
+          "Vinho tinto",
+          "Vinho branco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "rio_tinto",
+          "nome": "Rio Tinto",
+          "descricao": "Rio do sudoeste da Espanha, na Andaluzia, de águas ácidas e avermelhadas.",
+          "variantes": []
+        },
+        {
+          "id": "cravo_da_india",
+          "nome": "Cravo-da-índia",
+          "descricao": "Botão floral seco da árvore Syzygium aromaticum, usado como tempero",
+          "variantes": [
+            "Syzygium aromaticum",
+            "cravinho",
+            "clove"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        },
+        {
+          "id": "anu_branco",
+          "nome": "Anu-branco",
+          "descricao": "Ave gregária da família dos cuculídeos, de topete e cauda longa, de campos abertos da América do Sul.",
+          "variantes": [
+            "Guira guira",
+            "Guira cuckoo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cocada",
+        "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+        "variantes": [
+          "Cocada branca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cigarra",
+          "nome": "Cigarra",
+          "descricao": "Insetos da superfamília Cicadoidea, cujos machos produzem um canto alto e cujas ninfas vivem sob a terra.",
+          "variantes": [
+            "Cicadoidea",
+            "cicada"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        },
+        {
+          "id": "coala",
+          "nome": "Coala",
+          "descricao": "Marsupial arborícola australiano, espécie Phascolarctos cinereus.",
+          "variantes": [
+            "Phascolarctos cinereus",
+            "Koala"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Takoyaki",
+        "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+        "variantes": [
+          "Bolinho de polvo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bolo_de_rolo",
+          "nome": "Bolo de rolo",
+          "descricao": "Bolo de camadas finíssimas de massa enroladas com goiabada, típico do Nordeste brasileiro",
+          "variantes": []
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        },
+        {
+          "id": "moinho_de_vento",
+          "nome": "Moinho de vento",
+          "descricao": "Máquina de torre movida pela força do vento sobre pás ou velas, usada para moer grãos.",
+          "variantes": [
+            "Moinho de vento vertical",
+            "Windmill"
+          ]
+        },
+        {
+          "id": "estadio_nacional_de_pequim",
+          "nome": "Estádio Nacional de Pequim",
+          "descricao": "Estádio olímpico de 2008, apelidado de Ninho de Pássaro.",
+          "variantes": [
+            "Ninho de Pássaro"
+          ]
+        },
+        {
+          "id": "a_portuguesa",
+          "nome": "A Portuguesa",
+          "descricao": "Hino nacional de Portugal, composto em 1890 por Alfredo Keil, com letra de Henrique Lopes de Mendonça.",
+          "variantes": [
+            "Hino de Portugal"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Açaí na tigela",
+        "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+        "variantes": [
+          "Açaí",
+          "Açaí bowl"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        },
+        {
+          "id": "saci",
+          "nome": "Saci",
+          "descricao": "Personagem do folclore brasileiro, menino negro de uma perna só que usa um gorro vermelho e faz travessuras.",
+          "variantes": [
+            "Saci-pererê",
+            "Saci Pererê"
+          ]
+        },
+        {
+          "id": "maca",
+          "nome": "Maçã",
+          "descricao": "Fruto da macieira (Malus domestica), cultivado no mundo todo.",
+          "variantes": [
+            "Apple"
+          ]
+        },
+        {
+          "id": "jaca",
+          "nome": "Jaca",
+          "descricao": "Enorme fruto da Artocarpus heterophyllus, nativa da Índia, que cresce no tronco da árvore.",
+          "variantes": [
+            "Artocarpus heterophyllus"
+          ]
+        },
+        {
+          "id": "lacraia",
+          "nome": "Lacraia",
+          "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+          "variantes": [
+            "Centopeia",
+            "Quilópode",
+            "Chilopoda"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Pé de moleque",
+        "descricao": "Doce brasileiro de amendoim torrado com rapadura ou açúcar caramelizado.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "umbuzeiro",
+          "nome": "Umbuzeiro",
+          "descricao": "Árvore da caatinga, Spondias tuberosa, que produz o umbu e armazena água nas raízes.",
+          "variantes": [
+            "Spondias tuberosa",
+            "Imbuzeiro",
+            "Pé de umbu"
+          ]
+        },
+        {
+          "id": "lei_de_moore",
+          "nome": "Lei de Moore",
+          "descricao": "Previsão de que o número de transistores num chip dobra a intervalos regulares, formulada por Gordon Moore em 1965.",
+          "variantes": [
+            "Moore's law"
+          ]
+        },
+        {
+          "id": "pao_de_queijo",
+          "nome": "Pão de queijo",
+          "descricao": "Quitute brasileiro assado feito de polvilho, ovos, leite e queijo, típico de Minas Gerais",
+          "variantes": []
+        },
+        {
+          "id": "rede_de_volei",
+          "nome": "Rede de vôlei",
+          "descricao": "Rede que divide a quadra de vôlei, com altura oficial diferente para homens e mulheres.",
+          "variantes": [
+            "Rede de voleibol"
+          ]
+        },
+        {
+          "id": "copo_de_leite",
+          "nome": "Copo-de-leite",
+          "descricao": "Zantedeschia aethiopica, planta de origem sul-africana com espata branca em forma de funil.",
+          "variantes": [
+            "Zantedeschia aethiopica",
+            "Lírio-de-calla",
+            "Calla"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Pad thai",
+        "descricao": "Prato tailandês de macarrão de arroz frito no wok com camarão, ovo, amendoim e broto de feijão.",
+        "variantes": [
+          "Phat thai"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "muay_thai",
+          "nome": "Muay thai",
+          "descricao": "Arte marcial e esporte de combate tradicional da Tailândia, também chamado de boxe tailandês.",
+          "variantes": [
+            "Boxe tailandês"
+          ]
+        },
+        {
+          "id": "hat_trick",
+          "nome": "Hat-trick",
+          "descricao": "Expressão para três gols marcados por um mesmo jogador numa única partida.",
+          "variantes": [
+            "Tripleta"
+          ]
+        },
+        {
+          "id": "keffiyeh",
+          "nome": "Keffiyeh",
+          "descricao": "Lenço quadrado de algodão, tradicional entre homens do Oriente Médio, usado na cabeça e muitas vezes preso por um cordão chamado agal.",
+          "variantes": [
+            "Quefia",
+            "Shemagh",
+            "Ghutrah",
+            "Hattah",
+            "Kufiyya"
+          ]
+        },
+        {
+          "id": "pinata",
+          "nome": "Piñata",
+          "descricao": "Recipiente enfeitado e cheio de doces que as crianças quebram de olhos vendados em festas mexicanas e latino-americanas.",
+          "variantes": [
+            "Pinhata",
+            "Pignatta"
+          ]
+        },
+        {
+          "id": "band_aid",
+          "nome": "Band-Aid",
+          "descricao": "Curativo adesivo lançado pela Johnson & Johnson a partir da ideia de Earle Dickson, em 1920.",
+          "variantes": [
+            "Curativo adesivo"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é pudim/flan."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é poutine."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é vinho."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é cocada."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é takoyaki."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Açaí na tigela é prato, nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é pé de moleque."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pad thai é um prato; muay thai é outra entidade."
+    }
+  ]
+}

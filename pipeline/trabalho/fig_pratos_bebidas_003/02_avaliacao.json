@@ -1,0 +1,205 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pudim com calda de caramelo, claro e reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sobremesa é esta?",
+      "resposta": "Pudim de leite",
+      "distratores": [
+        "Manjar de coco",
+        "Creme brûlée",
+        "Panna cotta"
+      ],
+      "ancora": {
+        "nome": "Pudim",
+        "descricao": "Sobremesa de creme gelatinoso assado em banho-maria, coberta com calda de caramelo.",
+        "variantes": [
+          "Pudim de leite",
+          "Flan",
+          "Crème caramel"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Espetos verticais de carne servem igualmente para döner, shawarma, gyros ou al pastor; a resposta não é única."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Poutine clara: batatas fritas, queijo coalhado e molho escuro.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é típico este prato?",
+      "resposta": "Canadá",
+      "ancora": {
+        "nome": "Poutine",
+        "descricao": "Prato canadense de batatas fritas com queijo coalhado e molho de carne quente, surgido em Quebec.",
+        "variantes": [
+          "Poutine canadense"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duas taças, vinho tinto e branco, imagem limpa e legível.",
+      "destino": 0,
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Qual é a matéria-prima principal desta bebida?",
+      "resposta": "Uva",
+      "distratores": [
+        "Maçã",
+        "Pera",
+        "Ameixa"
+      ],
+      "ancora": {
+        "nome": "Vinho",
+        "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+        "variantes": [
+          "Vinho tinto",
+          "Vinho branco"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Cocada branca em close, razoavelmente reconhecível; múltipla escolha deixa justa.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que doce brasileiro é este?",
+      "resposta": "Cocada",
+      "distratores": [
+        "Paçoca",
+        "Maria-mole",
+        "Marzipã"
+      ],
+      "ancora": {
+        "nome": "Cocada",
+        "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+        "variantes": [
+          "Cocada branca"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Takoyaki com bonito seco, alga e molho, bem reconhecível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que petisco japonês é este?",
+      "resposta": "Takoyaki",
+      "ancora": {
+        "nome": "Takoyaki",
+        "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+        "variantes": [
+          "Bolinho de polvo"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Tigela de açaí com banana, granola, coco e amêndoas; sem texto.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que preparação é esta?",
+      "resposta": "Açaí na tigela",
+      "distratores": [
+        "Mingau de aveia",
+        "Creme de cupuaçu",
+        "Sorvete de uva"
+      ],
+      "ancora": {
+        "nome": "Açaí na tigela",
+        "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+        "variantes": [
+          "Açaí",
+          "Açaí bowl"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Pé de moleque claro; a pergunta sobre estado seria ambígua (SP e MG), então pergunto o nome.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que doce brasileiro de festa junina é este?",
+      "resposta": "Pé de moleque",
+      "ancora": {
+        "nome": "Pé de moleque",
+        "descricao": "Doce brasileiro de amendoim torrado com rapadura ou açúcar caramelizado.",
+        "variantes": [
+          "Pé-de-moleque"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Dois blocos pálidos lisos, sem traços característicos; poderiam ser sabão, queijo ou nugá, e o mochi não é reconhecível."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Costela salgada no espeto junto ao fogo, escura mas legível.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Como se chama, no Brasil, esta forma de assar carne?",
+      "resposta": "Churrasco",
+      "ancora": {
+        "nome": "Churrasco",
+        "descricao": "Carne bovina assada na brasa ou no fogo, típica do Sul do Brasil e do Cone Sul.",
+        "variantes": [
+          "Carne assada na brasa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Pad thai típico, bem visível, com camarão, broto, amendoim e limão.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "De que país é este prato de macarrão?",
+      "resposta": "Tailândia",
+      "ancora": {
+        "nome": "Pad thai",
+        "descricao": "Prato tailandês de macarrão de arroz frito no wok com camarão, ovo, amendoim e broto de feijão.",
+        "variantes": [
+          "Phat thai"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Imagem gerada por IA, com texto visível 'Conteúdo gerado por IA' e prato pouco fiel."
+    }
+  ]
+}

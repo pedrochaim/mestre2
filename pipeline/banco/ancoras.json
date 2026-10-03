@@ -55269,5 +55269,102 @@
       "pt": 86,
       "en": 1944
     }
+  },
+  {
+    "id": "pudim",
+    "nome": "Pudim",
+    "descricao": "Sobremesa de creme gelatinoso assado em banho-maria, coberta com calda de caramelo.",
+    "variantes": [
+      "Pudim de leite",
+      "Flan",
+      "Crème caramel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cr%C3%A8me_caramel",
+      "https://pt.wikipedia.org/wiki/Flan"
+    ]
+  },
+  {
+    "id": "poutine",
+    "nome": "Poutine",
+    "descricao": "Prato canadense de batatas fritas com queijo coalhado e molho de carne quente, surgido em Quebec.",
+    "variantes": [
+      "Poutine canadense"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Poutine",
+      "https://pt.wikipedia.org/wiki/Poutine"
+    ]
+  },
+  {
+    "id": "vinho",
+    "nome": "Vinho",
+    "descricao": "Bebida alcoólica feita da fermentação do suco de uva.",
+    "variantes": [
+      "Vinho tinto",
+      "Vinho branco"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wine",
+      "https://pt.wikipedia.org/wiki/Vinho"
+    ]
+  },
+  {
+    "id": "cocada",
+    "nome": "Cocada",
+    "descricao": "Doce tradicional feito de coco ralado e açúcar.",
+    "variantes": [
+      "Cocada branca"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cocada",
+      "https://pt.wikipedia.org/wiki/Cocada"
+    ]
+  },
+  {
+    "id": "takoyaki",
+    "nome": "Takoyaki",
+    "descricao": "Bolinhas japonesas de massa recheadas com polvo, cobertas com molho, maionese e bonito seco.",
+    "variantes": [
+      "Bolinho de polvo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Takoyaki",
+      "https://pt.wikipedia.org/wiki/Takoyaki"
+    ]
+  },
+  {
+    "id": "acai_na_tigela",
+    "nome": "Açaí na tigela",
+    "descricao": "Lanche brasileiro de polpa de açaí congelada e batida, servida em tigela com granola e banana.",
+    "variantes": [
+      "Açaí",
+      "Açaí bowl"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/A%C3%A7ai_bowl",
+      "https://pt.wikipedia.org/wiki/A%C3%A7a%C3%AD_na_tigela"
+    ]
+  },
+  {
+    "id": "pe_de_moleque",
+    "nome": "Pé de moleque",
+    "descricao": "Doce brasileiro de amendoim torrado com rapadura ou açúcar caramelizado.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/P%C3%A9_de_moleque",
+      "https://en.wikipedia.org/wiki/P%C3%A9_de_moleque"
+    ]
+  },
+  {
+    "id": "pad_thai",
+    "nome": "Pad thai",
+    "descricao": "Prato tailandês de macarrão de arroz frito no wok com camarão, ovo, amendoim e broto de feijão.",
+    "variantes": [
+      "Phat thai"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pad_thai",
+      "https://pt.wikipedia.org/wiki/Pad_thai"
+    ]
   }
 ]

@@ -61,14 +61,14 @@
       "titulo": "en:Churrasco",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Açaí na tigela",
       "titulo": "en:Açaí na tigela",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pamonha",
@@ -89,7 +89,7 @@
       "titulo": "en:Crème caramel",
       "camada": 1,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Sorvete",
@@ -180,14 +180,14 @@
       "titulo": "en:Cocada",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pé de moleque",
       "titulo": "pt:Pé de moleque",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Pastel de nata",
@@ -257,7 +257,7 @@
       "titulo": "en:Mochi",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Bobó de camarão",
@@ -276,6 +276,286 @@
     {
       "nome": "Dim sum",
       "titulo": "en:Dim sum",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arroz-doce",
+      "titulo": "en:Rice pudding",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Doce de leite",
+      "titulo": "en:Dulce de leche",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Farofa",
+      "titulo": "en:Farofa",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Esfirra",
+      "titulo": "en:Sfiha",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Quibe",
+      "titulo": "en:Kibbeh",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Batata frita",
+      "titulo": "en:French fries",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Brownie",
+      "titulo": "en:Chocolate brownie",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Panqueca",
+      "titulo": "en:Pancake",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Café expresso",
+      "titulo": "en:Espresso",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Vinho",
+      "titulo": "en:Wine",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Canjica",
+      "titulo": "pt:Canjica",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Donut",
+      "titulo": "en:Doughnut",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Waffle",
+      "titulo": "en:Waffle",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Milk-shake",
+      "titulo": "en:Milkshake",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Falafel",
+      "titulo": "en:Falafel",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Homus",
+      "titulo": "en:Hummus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Burrito",
+      "titulo": "en:Burrito",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Döner kebab",
+      "titulo": "en:Doner kebab",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Crème brûlée",
+      "titulo": "en:Crème brûlée",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cheesecake",
+      "titulo": "en:Cheesecake",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sangria",
+      "titulo": "en:Sangria",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mojito",
+      "titulo": "en:Mojito",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ratatouille",
+      "titulo": "en:Ratatouille",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Risoto",
+      "titulo": "en:Risotto",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nhoque",
+      "titulo": "en:Gnocchi",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pad thai",
+      "titulo": "en:Pad thai",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Strudel de maçã",
+      "titulo": "en:Apple strudel",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Khachapuri",
+      "titulo": "en:Khachapuri",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Poutine",
+      "titulo": "en:Poutine",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Pavlova",
+      "titulo": "en:Pavlova (cake)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sachertorte",
+      "titulo": "en:Sachertorte",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bouillabaisse",
+      "titulo": "en:Bouillabaisse",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Takoyaki",
+      "titulo": "en:Takoyaki",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Okonomiyaki",
+      "titulo": "en:Okonomiyaki",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arepa",
+      "titulo": "en:Arepa",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Feijão tropeiro",
+      "titulo": "pt:Feijão-tropeiro",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Arroz carreteiro",
+      "titulo": "pt:Arroz carreteiro",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cuscuz paulista",
+      "titulo": "pt:Cuscuz paulista",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Buchada",
+      "titulo": "pt:Buchada",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Negroni",
+      "titulo": "en:Negroni",
       "camada": 3,
       "destino": 0,
       "status": "nova"
