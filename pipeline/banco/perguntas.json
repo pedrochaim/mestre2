@@ -67775,5 +67775,571 @@
       "autor": "Imagem de divulgação dos detentores dos direitos, via TMDB",
       "licenca": "Imagem de divulgação; uso não comercial, sem licença livre"
     }
+  },
+  {
+    "id": "q04062",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "yves_saint_laurent",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O estilista francês Yves Saint Laurent nasceu em 1936 em Orã, cidade de qual país africano?",
+    "resposta": "Argélia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(designer)"
+    ]
+  },
+  {
+    "id": "q04063",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "charles_frederick_worth",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Considerado o pai da alta-costura parisiense, o costureiro Charles Frederick Worth era natural de qual país?",
+    "resposta": "Inglaterra",
+    "distratores": [
+      "Bélgica",
+      "Suíça",
+      "Alemanha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charles_Frederick_Worth"
+    ]
+  },
+  {
+    "id": "q04064",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "gisele_bundchen",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Horizontina, a cidade natal da supermodelo Gisele Bündchen, fica em qual estado brasileiro?",
+    "resposta": "Rio Grande do Sul",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gisele_Bündchen"
+    ]
+  },
+  {
+    "id": "q04065",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "vogue",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A revista Vogue, referência mundial da moda, foi fundada em 1892 em qual cidade?",
+    "resposta": "Nova York",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vogue_(magazine)"
+    ]
+  },
+  {
+    "id": "q04066",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "chopine",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Os chopines, sapatos de plataforma altíssima usados por mulheres entre os séculos quinze e dezessete, ficaram famosos em qual cidade italiana?",
+    "resposta": "Veneza",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chopine"
+    ]
+  },
+  {
+    "id": "q04067",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "paisley",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A estampa em forma de gota curvada chamada paisley leva o nome de uma cidade têxtil de qual país?",
+    "resposta": "Escócia",
+    "distratores": [
+      "Inglaterra",
+      "Irlanda",
+      "País de Gales"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paisley_(design)"
+    ]
+  },
+  {
+    "id": "q04068",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "speedo",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "A marca de moda praia Speedo, cujo nome virou sinônimo de sunga em vários países, nasceu em qual país?",
+    "resposta": "Austrália",
+    "distratores": [
+      "Estados Unidos",
+      "Inglaterra",
+      "Nova Zelândia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Speedo"
+    ]
+  },
+  {
+    "id": "q04069",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "moda_grunge",
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A moda grunge, de camisas xadrez de flanela e jeans rasgado, surgiu com a cena musical de qual cidade americana?",
+    "resposta": "Seattle",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grunge"
+    ]
+  },
+  {
+    "id": "q04070",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "bolsa_chanel_2_55",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A bolsa Chanel 2.55, de alça de corrente, tem esse nome por causa do mês e do ano de lançamento. Quais?",
+    "resposta": "Fevereiro de 1955",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Chanel",
+      "https://en.wikipedia.org/wiki/Coco_Chanel"
+    ]
+  },
+  {
+    "id": "q04071",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "beau_brummell",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "O inglês Beau Brummell, modelo do dândi de casaca escura e gravata impecável, ditou a moda de Londres no início de qual século?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beau_Brummell"
+    ]
+  },
+  {
+    "id": "q04072",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "estilo_imperio",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Na França, o vestido de cintura alta logo abaixo do busto, chamado estilo império, foi a grande moda na época de qual governante?",
+    "resposta": "Napoleão Bonaparte",
+    "distratores": [
+      "Luís quatorze",
+      "Luís quinze",
+      "Carlos dez"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Empire_silhouette"
+    ]
+  },
+  {
+    "id": "q04073",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "crinolina",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A crinolina, armação de aros que deixava as saias femininas enormes e rodadas, foi moda em qual século?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crinoline"
+    ]
+  },
+  {
+    "id": "q04074",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "meia_de_nailon",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "As meias de náilon sumiram das lojas americanas durante qual guerra, quando o náilon passou a ser usado para fabricar paraquedas?",
+    "resposta": "Segunda Guerra Mundial",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nylon_riots"
+    ]
+  },
+  {
+    "id": "q04075",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "bolsa_birkin",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Criada pela Hermès para a atriz e cantora Jane Birkin, a bolsa Birkin foi lançada em qual década?",
+    "resposta": "Anos oitenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Birkin_bag"
+    ]
+  },
+  {
+    "id": "q04076",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "saia_poodle",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A saia rodada de feltro com um cachorrinho poodle aplicado é símbolo da moda jovem americana de qual década?",
+    "resposta": "Anos cinquenta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Poodle_skirt"
+    ]
+  },
+  {
+    "id": "q04077",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "biquini",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em julho de 1946, numa piscina de Paris, qual engenheiro francês apresentou o traje de banho de duas peças chamado biquíni?",
+    "resposta": "Louis Réard",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bikini"
+    ]
+  },
+  {
+    "id": "q04078",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "new_look",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1947, qual estilista francês lançou a coleção de cintura marcada e saias longas e amplas que ficou conhecida como New Look?",
+    "resposta": "Christian Dior",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christian_Dior"
+    ]
+  },
+  {
+    "id": "q04079",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "sutia_em_cone_de_madonna",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Na turnê Blond Ambition, de 1990, Madonna usou um famoso corpete com sutiã em forma de cone. Qual estilista francês o criou?",
+    "resposta": "Jean Paul Gaultier",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Blond_Ambition_World_Tour",
+      "https://en.wikipedia.org/wiki/Jean_Paul_Gaultier"
+    ]
+  },
+  {
+    "id": "q04080",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "seda",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Segundo a lenda chinesa, quem descobriu a seda ao ver um casulo se desenrolar dentro de sua xícara de chá quente?",
+    "resposta": "Imperatriz Leizu",
+    "distratores": [
+      "Imperatriz Cixi",
+      "Imperatriz Wu Zetian",
+      "Confúcio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Leizu",
+      "https://en.wikipedia.org/wiki/Silk"
+    ]
+  },
+  {
+    "id": "q04081",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "chapeu_de_cauboi",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Qual chapeleiro americano do século dezenove criou o chapéu de aba larga que se tornou o clássico chapéu de caubói?",
+    "resposta": "John B. Stetson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cowboy_hat",
+      "https://en.wikipedia.org/wiki/John_B._Stetson"
+    ]
+  },
+  {
+    "id": "q04082",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "rosa_choque",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nos anos trinta, qual estilista italiana radicada em Paris lançou a cor rosa-choque, que virou sua marca registrada?",
+    "resposta": "Elsa Schiaparelli",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Shocking_pink"
+    ]
+  },
+  {
+    "id": "q04083",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "vestido_mondrian",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1965, qual estilista francês lançou vestidos retos inspirados nos quadros de linhas pretas e cores primárias do pintor Piet Mondrian?",
+    "resposta": "Yves Saint Laurent",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(designer)"
+    ]
+  },
+  {
+    "id": "q04084",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "camisa_polo",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Qual tenista francês criou, nos anos vinte, uma camisa de piquê de manga curta para jogar, que deu origem à camisa polo moderna?",
+    "resposta": "René Lacoste",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Polo_shirt"
+    ]
+  },
+  {
+    "id": "q04085",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "rene_lacoste",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Segundo uma versão famosa, o tenista René Lacoste ganhou o apelido de Crocodilo depois de apostar com o capitão da equipe. Que objeto estava em jogo?",
+    "resposta": "Uma mala",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/René_Lacoste",
+      "https://en.wikipedia.org/wiki/Lacoste"
+    ]
+  },
+  {
+    "id": "q04086",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "denim",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O nome do tecido denim vem de uma expressão francesa que significa sarja de qual cidade?",
+    "resposta": "Nîmes",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Denim"
+    ]
+  },
+  {
+    "id": "q04087",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "pijama",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "A palavra pijama vem do persa e significa, literalmente, roupa para qual parte do corpo?",
+    "resposta": "As pernas",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Pajamas"
+    ]
+  },
+  {
+    "id": "q04088",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "caqui",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A palavra cáqui, nome da cor de muitos uniformes militares, vem do persa e significa cor de quê?",
+    "resposta": "Poeira",
+    "distratores": [
+      "Folha seca",
+      "Azeitona",
+      "Camelo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Khaki"
+    ]
+  },
+  {
+    "id": "q04089",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "fedora",
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O chapéu fedora tirou seu nome de uma peça de teatro do século dezenove, protagonizada por qual atriz francesa?",
+    "resposta": "Sarah Bernhardt",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fedora"
+    ]
+  },
+  {
+    "id": "q04090",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "terno_zhongshan",
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Na China, o traje de gola fechada que o Ocidente chama de terno Mao leva o nome de qual líder?",
+    "resposta": "Sun Yat-sen",
+    "distratores": [
+      "Chiang Kai-shek",
+      "Deng Xiaoping",
+      "Zhou Enlai"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zhongshan_suit"
+    ]
+  },
+  {
+    "id": "q04091",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "dr_martens",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O médico alemão Klaus Märtens inventou a sola acolchoada das botas Dr. Martens para aliviar qual problema que ele próprio tinha?",
+    "resposta": "Tornozelo machucado ao esquiar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Dr._Martens"
+    ]
+  },
+  {
+    "id": "q04092",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "monograma_louis_vuitton",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1896, a Louis Vuitton passou a estampar suas malas com as iniciais LV entrelaçadas e flores. Qual era o principal objetivo?",
+    "resposta": "Combater falsificações",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Louis_Vuitton"
+    ]
+  },
+  {
+    "id": "q04093",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "vestido_branco_de_marilyn_monroe",
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "No filme O Pecado Mora ao Lado, de 1955, o vestido branco de Marilyn Monroe esvoaça na cena famosa por causa do quê?",
+    "resposta": "Vento de uma grade do metrô",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Seven_Year_Itch"
+    ]
+  },
+  {
+    "id": "q04094",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "saltos_vermelhos_de_luis_xiv",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Muito antes das solas vermelhas de Louboutin, qual rei francês reservava os sapatos de salto vermelho aos nobres de sua corte?",
+    "resposta": "Luís quatorze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/High-heeled_shoe"
+    ]
+  },
+  {
+    "id": "q04095",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "jodhpur",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "A calça de montaria jodhpur e a cor cáqui dos uniformes chegaram à moda ocidental pelos britânicos, vindas de qual país?",
+    "resposta": "Índia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jodhpurs",
+      "https://en.wikipedia.org/wiki/Khaki"
+    ]
+  },
+  {
+    "id": "q04096",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "caxemira",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "A lã caxemira, macia e cara, usada em suéteres e cachecóis, é obtida do pelo de qual animal?",
+    "resposta": "Cabra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cashmere_wool"
+    ]
+  },
+  {
+    "id": "q04097",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "versace",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "O logotipo da grife italiana Versace traz a cabeça de qual figura da mitologia grega?",
+    "resposta": "Medusa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Versace"
+    ]
+  },
+  {
+    "id": "q04098",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "otzi",
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Ötzi, o homem do gelo de mais de cinco mil anos achado nos Alpes, usava sapatos forrados por dentro com o quê?",
+    "resposta": "Capim seco",
+    "distratores": [
+      "Lã de ovelha",
+      "Penas de ganso",
+      "Algodão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ötzi"
+    ]
+  },
+  {
+    "id": "q04099",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "espartilho",
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "As barbatanas que davam rigidez aos espartilhos eram tradicionalmente feitas de um material tirado de qual animal?",
+    "resposta": "Baleia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Corset"
+    ]
+  },
+  {
+    "id": "q04100",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "queima_de_sutias",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "No protesto contra o concurso Miss América de 1968, origem da expressão queima de sutiãs, o que as manifestantes fizeram de fato com os sutiãs?",
+    "resposta": "Jogaram numa lata de lixo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bra-burning"
+    ]
+  },
+  {
+    "id": "q04101",
+    "tema": "Cotidiano",
+    "subtema": "Moda e Vestuário",
+    "ancora": "bicorne",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que chapéu de feltro, com a aba levantada na frente e atrás, virou marca registrada de Napoleão Bonaparte?",
+    "resposta": "Bicorne",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Bicorne"
+    ]
   }
 ]

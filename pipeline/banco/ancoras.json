@@ -11759,7 +11759,8 @@
     "descricao": "Costume ocidental de a noiva se casar vestida de branco.",
     "variantes": [
       "White wedding",
-      "Casamento branco"
+      "Casamento branco",
+      "White wedding dress"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/White_wedding"
@@ -13134,7 +13135,9 @@
     "nome": "Cartier Santos",
     "descricao": "Relógio de pulso criado por Louis Cartier em 1904 para o aviador Alberto Santos-Dumont.",
     "variantes": [
-      "Relógio Santos"
+      "Relógio Santos",
+      "Relógio Cartier Santos",
+      "Santos de Cartier"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Alberto_Santos-Dumont"
@@ -13367,7 +13370,8 @@
     "descricao": "Chapéu de aba trançado à mão com fibras da palha toquilla.",
     "variantes": [
       "Panama hat",
-      "Chapéu de palha toquilla"
+      "Chapéu de palha toquilla",
+      "Sombrero de paja toquilla"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Panama_hat"
@@ -15873,7 +15877,8 @@
     "descricao": "Sapatos mágicos vermelhos usados por Dorothy, personagem de Judy Garland, no filme O Mágico de Oz, de 1939.",
     "variantes": [
       "Ruby slippers",
-      "Sapatinhos vermelhos de Dorothy"
+      "Sapatinhos vermelhos de Dorothy",
+      "Sapatos de rubi"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Ruby_slippers"
@@ -17251,7 +17256,8 @@
     "descricao": "Peça ajustada, reforçada com barbatanas e fechada por cadarços ou colchetes, usada para modelar o tronco.",
     "variantes": [
       "Corset",
-      "Corselet"
+      "Corselet",
+      "Corpete"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Corset",
@@ -46906,7 +46912,8 @@
     "descricao": "Múmia natural de um homem da Idade do Cobre achada nos Alpes em 1991.",
     "variantes": [
       "Homem do gelo",
-      "Iceman"
+      "Iceman",
+      "Homem de Similaun"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/%C3%96tzi"
@@ -59993,6 +60000,410 @@
     "fontes": [
       "https://pt.wikipedia.org/wiki/Metropolis_%28filme%29",
       "https://www.themoviedb.org/movie/19"
+    ]
+  },
+  {
+    "id": "yves_saint_laurent",
+    "nome": "Yves Saint Laurent",
+    "descricao": "Estilista francês (1936–2008), fundador da grife que leva seu nome",
+    "variantes": [
+      "YSL"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(designer)"
+    ]
+  },
+  {
+    "id": "charles_frederick_worth",
+    "nome": "Charles Frederick Worth",
+    "descricao": "Costureiro do século dezenove radicado em Paris, considerado o pai da alta-costura",
+    "variantes": [
+      "Charles Worth"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Charles_Frederick_Worth"
+    ]
+  },
+  {
+    "id": "gisele_bundchen",
+    "nome": "Gisele Bündchen",
+    "descricao": "Supermodelo brasileira nascida em 1980 em Horizontina",
+    "variantes": [
+      "Gisele"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Gisele_Bündchen",
+      "https://en.wikipedia.org/wiki/Gisele_Bündchen"
+    ]
+  },
+  {
+    "id": "vogue",
+    "nome": "Vogue",
+    "descricao": "Revista de moda e estilo fundada em 1892, publicada pela Condé Nast",
+    "variantes": [
+      "Revista Vogue"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vogue_(magazine)"
+    ]
+  },
+  {
+    "id": "chopine",
+    "nome": "Chopine",
+    "descricao": "Sapato feminino de plataforma altíssima usado na Europa entre os séculos quinze e dezessete",
+    "variantes": [
+      "Chopines",
+      "Chapins"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chopine"
+    ]
+  },
+  {
+    "id": "paisley",
+    "nome": "Paisley",
+    "descricao": "Estampa de motivos em forma de gota curvada, de origem persa, batizada com o nome de uma cidade têxtil escocesa",
+    "variantes": [
+      "Estampa paisley",
+      "Estampa caxemira",
+      "Buta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Paisley_(design)"
+    ]
+  },
+  {
+    "id": "speedo",
+    "nome": "Speedo",
+    "descricao": "Marca de roupas de banho e natação fundada em Sydney",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Speedo"
+    ]
+  },
+  {
+    "id": "moda_grunge",
+    "nome": "Moda grunge",
+    "descricao": "Estilo de vestir dos anos noventa, de camisas de flanela xadrez e jeans rasgado, ligado ao rock grunge",
+    "variantes": [
+      "Grunge fashion",
+      "Estilo grunge"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Grunge"
+    ]
+  },
+  {
+    "id": "bolsa_chanel_2_55",
+    "nome": "Bolsa Chanel 2.55",
+    "descricao": "Bolsa acolchoada da Chanel com alça de corrente, lançada em fevereiro de 1955",
+    "variantes": [
+      "2.55",
+      "Chanel 2.55"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chanel"
+    ]
+  },
+  {
+    "id": "beau_brummell",
+    "nome": "Beau Brummell",
+    "descricao": "George Bryan Brummell, inglês que ditou a moda masculina de Londres e virou modelo do dândi",
+    "variantes": [
+      "George Bryan Brummell",
+      "George Brummell"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Beau_Brummell"
+    ]
+  },
+  {
+    "id": "estilo_imperio",
+    "nome": "Estilo império",
+    "descricao": "Silhueta de vestido de cintura alta, logo abaixo do busto, com saia reta e fluida",
+    "variantes": [
+      "Empire silhouette",
+      "Cintura império"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Empire_silhouette"
+    ]
+  },
+  {
+    "id": "crinolina",
+    "nome": "Crinolina",
+    "descricao": "Armação rígida de aros usada sob as saias para deixá-las amplas e rodadas",
+    "variantes": [
+      "Crinoline",
+      "Saia-balão"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Crinoline"
+    ]
+  },
+  {
+    "id": "meia_de_nailon",
+    "nome": "Meia de náilon",
+    "descricao": "Meia feminina fina feita de náilon, lançada pela DuPont nos Estados Unidos",
+    "variantes": [
+      "Meias de nylon",
+      "Nylons"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Nylon_riots"
+    ]
+  },
+  {
+    "id": "saia_poodle",
+    "nome": "Saia poodle",
+    "descricao": "Saia rodada de feltro com a aplicação de um cachorro poodle, típica da moda jovem americana",
+    "variantes": [
+      "Poodle skirt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Poodle_skirt"
+    ]
+  },
+  {
+    "id": "new_look",
+    "nome": "New Look",
+    "descricao": "Primeira coleção de Christian Dior, de 1947, com cintura marcada e saias amplas",
+    "variantes": [
+      "Corolle"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Christian_Dior"
+    ]
+  },
+  {
+    "id": "sutia_em_cone_de_madonna",
+    "nome": "Sutiã em cone de Madonna",
+    "descricao": "Corpete cor-de-rosa com bojos pontudos em forma de cone usado por Madonna na turnê Blond Ambition, de 1990",
+    "variantes": [
+      "Cone bra"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Blond_Ambition_World_Tour"
+    ]
+  },
+  {
+    "id": "seda",
+    "nome": "Seda",
+    "descricao": "Fibra natural produzida a partir do casulo do bicho-da-seda, originária da China",
+    "variantes": [
+      "Silk"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Silk"
+    ]
+  },
+  {
+    "id": "chapeu_de_cauboi",
+    "nome": "Chapéu de caubói",
+    "descricao": "Chapéu de copa alta e aba larga associado aos vaqueiros do oeste americano",
+    "variantes": [
+      "Cowboy hat",
+      "Chapéu Stetson"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cowboy_hat"
+    ]
+  },
+  {
+    "id": "rosa_choque",
+    "nome": "Rosa-choque",
+    "descricao": "Tom de rosa intenso lançado na moda pela estilista Elsa Schiaparelli em 1937",
+    "variantes": [
+      "Shocking pink",
+      "Rosa shocking"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shocking_pink"
+    ]
+  },
+  {
+    "id": "vestido_mondrian",
+    "nome": "Vestido Mondrian",
+    "descricao": "Vestido reto de 1965 com blocos de cores primárias e linhas pretas inspirado nos quadros de Piet Mondrian",
+    "variantes": [
+      "Mondrian dress",
+      "Coleção Mondrian"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Yves_Saint_Laurent_(designer)"
+    ]
+  },
+  {
+    "id": "camisa_polo",
+    "nome": "Camisa polo",
+    "descricao": "Camisa de malha de manga curta, com gola e abotoamento curto na frente",
+    "variantes": [
+      "Polo shirt"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Polo_shirt"
+    ]
+  },
+  {
+    "id": "denim",
+    "nome": "Denim",
+    "descricao": "Tecido de algodão resistente em sarja, geralmente azul, usado na confecção de jeans",
+    "variantes": [
+      "Brim"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Denim"
+    ]
+  },
+  {
+    "id": "pijama",
+    "nome": "Pijama",
+    "descricao": "Conjunto de roupas folgadas usado para dormir",
+    "variantes": [
+      "Pajamas",
+      "Pyjamas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pajamas"
+    ]
+  },
+  {
+    "id": "caqui",
+    "nome": "Cáqui",
+    "descricao": "Cor bege-amarronzada adotada em uniformes militares a partir do exército britânico na Índia",
+    "variantes": [
+      "Khaki"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Khaki"
+    ]
+  },
+  {
+    "id": "fedora",
+    "nome": "Fedora",
+    "descricao": "Chapéu de feltro macio com aba e copa vincada no centro",
+    "variantes": [
+      "Chapéu fedora"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fedora"
+    ]
+  },
+  {
+    "id": "terno_zhongshan",
+    "nome": "Terno Zhongshan",
+    "descricao": "Traje chinês de túnica com gola fechada, conhecido no Ocidente como terno Mao",
+    "variantes": [
+      "Terno Mao",
+      "Zhongshan suit",
+      "Mao suit"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Zhongshan_suit"
+    ]
+  },
+  {
+    "id": "dr_martens",
+    "nome": "Dr. Martens",
+    "descricao": "Marca de botas de couro com sola de amortecimento de ar, criada pelo médico alemão Klaus Märtens",
+    "variantes": [
+      "Doc Martens",
+      "Docs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dr._Martens"
+    ]
+  },
+  {
+    "id": "monograma_louis_vuitton",
+    "nome": "Monograma Louis Vuitton",
+    "descricao": "Estampa de lona com as iniciais LV entrelaçadas e flores, criada pela Louis Vuitton em 1896",
+    "variantes": [
+      "Monogram Canvas",
+      "Monograma LV"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Louis_Vuitton"
+    ]
+  },
+  {
+    "id": "vestido_branco_de_marilyn_monroe",
+    "nome": "Vestido branco de Marilyn Monroe",
+    "descricao": "Vestido branco frente única usado por Marilyn Monroe no filme O Pecado Mora ao Lado, de 1955",
+    "variantes": [
+      "White dress of Marilyn Monroe"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/The_Seven_Year_Itch"
+    ]
+  },
+  {
+    "id": "saltos_vermelhos_de_luis_xiv",
+    "nome": "Saltos vermelhos de Luís XIV",
+    "descricao": "Sapatos de salto vermelho que, na corte de Luís XIV, eram privilégio dos nobres",
+    "variantes": [
+      "Talons rouges"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/High-heeled_shoe"
+    ]
+  },
+  {
+    "id": "jodhpur",
+    "nome": "Jodhpur",
+    "descricao": "Calça de montaria larga nas coxas e justa da panturrilha ao tornozelo",
+    "variantes": [
+      "Jodhpurs",
+      "Culote de montaria"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Jodhpurs"
+    ]
+  },
+  {
+    "id": "caxemira",
+    "nome": "Caxemira",
+    "descricao": "Lã fina e macia obtida do subpelo de cabras, também chamada cashmere",
+    "variantes": [
+      "Cashmere",
+      "Cachemira"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cashmere_wool"
+    ]
+  },
+  {
+    "id": "versace",
+    "nome": "Versace",
+    "descricao": "Grife italiana de moda de luxo fundada por Gianni Versace em Milão",
+    "variantes": [
+      "Gianni Versace S.r.l."
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Versace"
+    ]
+  },
+  {
+    "id": "queima_de_sutias",
+    "nome": "Queima de sutiãs",
+    "descricao": "Expressão nascida do protesto feminista contra o concurso Miss América de 1968, em Atlantic City",
+    "variantes": [
+      "Bra-burning",
+      "Queima dos sutiãs"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bra-burning"
+    ]
+  },
+  {
+    "id": "bicorne",
+    "nome": "Bicorne",
+    "descricao": "Chapéu de feltro com a aba levantada na frente e atrás, usado por oficiais no fim do século dezoito e início do dezenove",
+    "variantes": [
+      "Bicórnio",
+      "Chapéu bicorne"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bicorne"
     ]
   }
 ]
