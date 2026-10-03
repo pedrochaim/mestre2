@@ -1,0 +1,329 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A escola estoica, fundada por Zenão de Cítio, deve seu nome a que tipo de construção de Atenas onde ele ensinava?",
+        "resposta": "Um pórtico, a Stoa Pintada"
+      },
+      "existentes": [
+        {
+          "id": "q03204",
+          "pergunta": "A escola estoica ganhou esse nome por causa do lugar de Atenas onde Zenão de Cítio dava suas aulas. Que lugar era esse?",
+          "resposta": "O Pórtico Pintado"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "O nome da escola cínica, de Diógenes, vem de uma palavra grega ligada a que animal?",
+        "resposta": "Cão"
+      },
+      "existentes": [
+        {
+          "id": "q03205",
+          "pergunta": "Os filósofos cínicos, como Diógenes, que viviam sem pudor nem posses, receberam um apelido derivado da palavra grega para que animal?",
+          "resposta": "Cão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Thomas More criou a palavra utopia juntando termos gregos. O que ela significa literalmente?",
+        "resposta": "Lugar nenhum"
+      },
+      "existentes": [
+        {
+          "id": "q02930",
+          "pergunta": "O título do livro Utopia, de Thomas More, junta duas palavras gregas. O que ele significa literalmente?",
+          "resposta": "Lugar nenhum"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O nome Confúcio é a forma latinizada de um título chinês dado ao pensador. O que esse título significa?",
+        "resposta": "Mestre Kong"
+      },
+      "existentes": [
+        {
+          "id": "q03351",
+          "pergunta": "O nome Confúcio é a forma latinizada de um título chinês dado ao filósofo. O que significa esse título?",
+          "resposta": "Mestre Kong"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Condenado em Atenas por corromper a juventude, Sócrates morreu em 399 antes de Cristo ao beber que veneno?",
+        "resposta": "Cicuta"
+      },
+      "existentes": [
+        {
+          "id": "q02243",
+          "pergunta": "Qual destes filósofos gregos foi discípulo do filósofo retratado neste busto?",
+          "resposta": "Platão"
+        },
+        {
+          "id": "q03212",
+          "pergunta": "Condenado em Atenas por impiedade e por corromper a juventude, de que forma o filósofo Sócrates foi executado?",
+          "resposta": "Bebendo cicuta"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que catástrofe de 1755, numa capital europeia, abalou a crença no otimismo e marcou Voltaire ao escrever Cândido?",
+        "resposta": "O terremoto de Lisboa"
+      },
+      "existentes": [
+        {
+          "id": "q03661",
+          "pergunta": "Que catástrofe europeia de 1755 inspirou Voltaire a ridicularizar o otimismo filosófico em seu romance Cândido?",
+          "resposta": "Terremoto de Lisboa"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Segundo uma lenda, Pitágoras foi alcançado pelos inimigos porque se recusou a atravessar uma plantação de quê?",
+        "resposta": "Favas"
+      },
+      "existentes": [
+        {
+          "id": "q03237",
+          "pergunta": "Em que cidade da Magna Grécia, no sul da atual Itália, Pitágoras fundou sua comunidade de seguidores?",
+          "resposta": "Crotona"
+        },
+        {
+          "id": "q03332",
+          "pergunta": "Entre os gregos Pitágoras, Euclides e Arquimedes, qual nasceu primeiro?",
+          "resposta": "Pitágoras"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Segundo a lenda, Lao-Tsé escreveu o Tao Te Ching quando ia deixar a China, a pedido de quem?",
+        "resposta": "Um guarda da fronteira"
+      },
+      "existentes": [
+        {
+          "id": "q03562",
+          "pergunta": "A quem a tradição chinesa atribui o Tao Te Ching, texto fundamental do taoísmo?",
+          "resposta": "Lao-Tsé"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Na Universidade de Berlim, Schopenhauer marcou suas aulas no mesmo horário das de que filósofo famoso, e quase ninguém apareceu?",
+        "resposta": "Hegel"
+      },
+      "existentes": [
+        {
+          "id": "q03634",
+          "pergunta": "Que filósofo alemão é este?",
+          "resposta": "Arthur Schopenhauer"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em Cândido, o professor Pangloss repete que vivemos no melhor dos mundos possíveis, ideia de que filósofo alemão, alvo da sátira de Voltaire?",
+        "resposta": "Gottfried Leibniz"
+      },
+      "existentes": [
+        {
+          "id": "q03661",
+          "pergunta": "Que catástrofe europeia de 1755 inspirou Voltaire a ridicularizar o otimismo filosófico em seu romance Cândido?",
+          "resposta": "Terremoto de Lisboa"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Que conquistador teria dito que, se não fosse quem era, gostaria de ser Diógenes, o filósofo que vivia num jarro?",
+        "resposta": "Alexandre, o Grande"
+      },
+      "existentes": [
+        {
+          "id": "q03223",
+          "pergunta": "Segundo a tradição, que conquistador ofereceu a Diógenes o que ele quisesse e ouviu apenas o pedido para sair da frente do sol?",
+          "resposta": "Alexandre, o Grande"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "O lema Ordem e Progresso, da bandeira do Brasil, foi inspirado no pensamento de que filósofo francês?",
+        "resposta": "Auguste Comte"
+      },
+      "existentes": [
+        {
+          "id": "q02349",
+          "pergunta": "O lema Ordem e Progresso, da bandeira brasileira, foi inspirado numa frase de qual filósofo francês?",
+          "resposta": "Auguste Comte"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Que filósofo grego descreveu a Atlântida, ilha poderosa que acabou engolida pelo mar, nos diálogos Timeu e Crítias?",
+        "resposta": "Platão"
+      },
+      "existentes": [
+        {
+          "id": "q02226",
+          "pergunta": "Que filósofo grego narrou, nos diálogos Timeu e Crítias, a história da ilha de Atlântida, engolida pelo mar?",
+          "resposta": "Platão"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Karl Marx morreu em 1883 e está enterrado em que famoso cemitério de Londres?",
+        "resposta": "Cemitério de Highgate"
+      },
+      "existentes": [
+        {
+          "id": "q02238",
+          "pergunta": "Que corrente de pensamento recebeu o nome deste filósofo alemão?",
+          "resposta": "Marxismo"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "A filósofa e matemática Hipátia, morta por uma multidão no ano 415, ensinava em que cidade egípcia?",
+        "resposta": "Alexandria"
+      },
+      "existentes": [
+        {
+          "id": "q03330",
+          "pergunta": "A matemática e filósofa Hipátia foi assassinada por uma multidão em Alexandria, no Egito romano. Em que século?",
+          "resposta": "Século cinco"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "Num famoso paradoxo de Zenão de Eleia, o veloz Aquiles nunca consegue alcançar que adversário numa corrida?",
+        "resposta": "Uma tartaruga"
+      },
+      "existentes": [
+        {
+          "id": "q03339",
+          "pergunta": "Num famoso paradoxo de Zenão de Eleia, o veloz Aquiles nunca consegue alcançar que animal numa corrida?",
+          "resposta": "Tartaruga"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q03204",
+      "motivo": "Mesmo fato: o nome estoico vem do Pórtico Pintado onde Zenão ensinava."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q03205",
+      "motivo": "Mesmo fato: cínicos derivam de 'cão'."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q02930",
+      "motivo": "Mesmo fato: significado literal de Utopia."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q03351",
+      "motivo": "Mesmo fato: significado de Confúcio (Mestre Kong)."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q03212",
+      "motivo": "Mesma pergunta sobre a execução de Sócrates por cicuta."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q03661",
+      "motivo": "Mesmo fato: terremoto de Lisboa e Cândido."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Lenda das favas é fato diferente de Crotona ou ordem cronológica."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Quem pediu o livro (guarda) difere de quem é o autor atribuído."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Anedota com Hegel difere de identificar o filósofo em imagem."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Leibniz como alvo da sátira difere da catástrofe de 1755."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Frase de Alexandre admirando Diógenes é fato distinto do pedido para sair do sol, ainda que a resposta coincida."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "id_existente": "q02349",
+      "motivo": "Mesmo fato: Comte e Ordem e Progresso."
+    },
+    {
+      "caso": 13,
+      "decisao": "repete",
+      "id_existente": "q02226",
+      "motivo": "Mesmo fato: Platão descreveu Atlântida."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Local de sepultamento difere da corrente de pensamento."
+    },
+    {
+      "caso": 15,
+      "decisao": "nova",
+      "motivo": "Cidade onde ensinava difere do século da morte; a cidade aparece no enunciado existente, mas o fato perguntado é outro."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "id_existente": "q03339",
+      "motivo": "Mesma pergunta, tartaruga no paradoxo de Aquiles."
+    }
+  ]
+}
