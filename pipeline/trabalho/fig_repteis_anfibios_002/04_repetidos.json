@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Depois de adultas, estas tartarugas marinhas comem quase só um tipo de vegetal do fundo do mar. Qual?",
+        "resposta": "Capim-marinho"
+      },
+      "existentes": [
+        {
+          "id": "q02051",
+          "pergunta": "Que espécie de tartaruga-marinha é esta?",
+          "resposta": "Tartaruga-verde"
+        },
+        {
+          "id": "q02538",
+          "pergunta": "A tartaruga-verde tem a carapaça oliva ou marrom. De onde vem, então, o verde do seu nome?",
+          "resposta": "Da cor da sua gordura"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que réptil é este?",
+        "resposta": "Tuatara"
+      },
+      "existentes": [
+        {
+          "id": "q02512",
+          "pergunta": "O tuatara, réptil da Nova Zelândia, tem no alto da cabeça uma estrutura sensível à luz. Que apelido ela recebe?",
+          "resposta": "Terceiro olho"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a dieta de adultas (capim-marinho); as existentes tratam da identificação da espécie e da origem do nome. São fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede a identificação do réptil (tuatara) por imagem. A existente pergunta o apelido da estrutura no alto da cabeça (terceiro olho). São fatos diferentes."
+    }
+  ]
+}

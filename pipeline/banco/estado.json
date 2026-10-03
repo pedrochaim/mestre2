@@ -168,9 +168,10 @@
     "fig_plantas_002",
     "fig_personagens_003",
     "fig_retratos_artes_003",
-    "fig_atletas_003"
+    "fig_atletas_003",
+    "fig_repteis_anfibios_002"
   ],
-  "maior_id": 4208,
+  "maior_id": 4217,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -534,14 +535,16 @@
     },
     "repteis_anfibios": {
       "familias": {
-        "o_que_e": 7,
-        "onde": 2
+        "o_que_e": 9,
+        "onde": 7,
+        "que_tipo": 2
       },
       "niveis": {
-        "1": 3,
-        "2": 6
+        "1": 5,
+        "2": 10,
+        "3": 3
       },
-      "registradas": 9
+      "registradas": 18
     },
     "paisagens": {
       "familias": {

@@ -1,0 +1,217 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tartaruga-verde nadando, vista de cima, bem nítida.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Depois de adultas, estas tartarugas marinhas comem quase só um tipo de vegetal do fundo do mar. Qual?",
+      "resposta": "Capim-marinho",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tartaruga-verde",
+        "descricao": "Grande tartaruga marinha da espécie Chelonia mydas, família Cheloniidae.",
+        "variantes": [
+          "Tartaruga-marinha-verde",
+          "Chelonia mydas",
+          "Green sea turtle"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Rã-touro de perfil, bem visível, tímpano grande e papo amarelo.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que grande anfíbio é este?",
+      "resposta": "Rã-touro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Rã-touro",
+        "descricao": "Grande rã norte-americana Lithobates catesbeianus, da família Ranidae.",
+        "variantes": [
+          "Rã-touro-americana",
+          "Lithobates catesbeianus"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Serpente enrolada com padrão característico, nítida.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Esta serpente peçonhenta vive na América do Sul e também numa ilha do Caribe, perto da Venezuela. Que ilha é essa?",
+      "resposta": "Trinidad",
+      "destino": 0,
+      "ancora": {
+        "nome": "Surucucu",
+        "descricao": "Serpente peçonhenta Lachesis muta, a maior víbora das Américas.",
+        "variantes": [
+          "Surucucu-pico-de-jaca",
+          "Lachesis muta",
+          "Cobra-pico-de-jaca"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "O jacaré mostrado não permite distinguir o jacaré-do-papo-amarelo do jacaré-do-pantanal, muito parecido; resposta não única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Lagarto-de-gola com a membrana aberta, imagem clara e inconfundível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que continente vive este lagarto?",
+      "resposta": "Oceania",
+      "distratores": [
+        "África",
+        "Ásia",
+        "América do Sul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lagarto-de-gola",
+        "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+        "variantes": [
+          "Lagarto-de-colar",
+          "Dragão-de-gola",
+          "Chlamydosaurus kingii"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O sapo-pipa aparece de cima como uma forma achatada e pouco definida, parecida com outras espécies de Pipa e com folha ou madeira; difícil reconhecer."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Camaleão-do-iêmen de perfil, com o capacete bem visível.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que península asiática vive naturalmente este camaleão de capacete alto?",
+      "resposta": "Península Arábica",
+      "destino": 0,
+      "ancora": {
+        "nome": "Camaleão-do-iêmen",
+        "descricao": "Camaleão Chamaeleo calyptratus, com capacete alto na cabeça, nativo do Iêmen e da Arábia Saudita.",
+        "variantes": [
+          "Camaleão-velado",
+          "Camaleão",
+          "Chamaeleo calyptratus"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Serpente enrolada com padrão reticulado e cabeça amarelada, nítida.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que píton asiática é esta?",
+      "resposta": "Píton-reticulada",
+      "distratores": [
+        "Píton-birmanesa",
+        "Píton-real",
+        "Píton-tapete"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Píton-reticulada",
+        "descricao": "Píton Malayopython reticulatus, do sul e sudeste da Ásia, a cobra mais longa do mundo.",
+        "variantes": [
+          "Píton-reticulado",
+          "Jiboia-reticulada",
+          "Malayopython reticulatus"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Basilisco-verde macho em perfil, com crista na cabeça, bem nítido.",
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que parte das Américas vive este lagarto verde de crista na cabeça?",
+      "resposta": "América Central",
+      "destino": 0,
+      "ancora": {
+        "nome": "Basilisco-verde",
+        "descricao": "Lagarto Basiliscus plumifrons, verde e de crista na cabeça, nativo da América Central.",
+        "variantes": [
+          "Basilisco-de-penacho",
+          "Lagarto-Jesus-Cristo",
+          "Basiliscus plumifrons"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "É um desenho a nanquim em preto e branco; sem as cores, não dá para reconhecer a coral-verdadeira, e ilustração só vale para o que não pode ser fotografado."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Perereca-de-olhos-vermelhos nítida, inconfundível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que parte do mundo vive esta perereca?",
+      "resposta": "América Central",
+      "distratores": [
+        "Sudeste Asiático",
+        "África Central",
+        "Austrália"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Perereca-de-olhos-vermelhos",
+        "descricao": "Perereca arborícola Agalychnis callidryas, verde com olhos vermelhos, da América Central e noroeste da América do Sul.",
+        "variantes": [
+          "Rã-de-olhos-vermelhos",
+          "Perereca-de-olhos-vermelhos",
+          "Agalychnis callidryas"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Tuatara com a crista dorsal visível sobre pedra; foto razoável, com distratores que ajudam.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que réptil da Nova Zelândia, parecido com um lagarto, é este?",
+      "resposta": "Tuatara",
+      "distratores": [
+        "Iguana-verde",
+        "Dragão-de-komodo",
+        "Lagarto-de-gola"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tuatara",
+        "descricao": "Réptil Sphenodon punctatus, único representante vivo da ordem Rhynchocephalia, endêmico da Nova Zelândia.",
+        "variantes": [
+          "Tuatara-da-nova-zelândia",
+          "Sphenodon punctatus"
+        ]
+      }
+    }
+  ]
+}

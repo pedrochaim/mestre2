@@ -1,0 +1,590 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Tartaruga-verde",
+        "descricao": "Grande tartaruga marinha da espécie Chelonia mydas, família Cheloniidae.",
+        "variantes": [
+          "Tartaruga-marinha-verde",
+          "Chelonia mydas",
+          "Green sea turtle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tartaruga_verde",
+          "nome": "Tartaruga-verde",
+          "descricao": "Grande tartaruga-marinha herbívora (Chelonia mydas) de carapaça oliva a marrom.",
+          "variantes": [
+            "Chelonia mydas",
+            "Tartaruga-aruanã",
+            "Aruanã",
+            "Green sea turtle"
+          ]
+        },
+        {
+          "id": "tartaruga_de_pente",
+          "nome": "Tartaruga-de-pente",
+          "descricao": "Tartaruga marinha tropical (Eretmochelys imbricata) com bico afilado e casco de bordas serrilhadas.",
+          "variantes": [
+            "Hawksbill sea turtle",
+            "Eretmochelys imbricata"
+          ]
+        },
+        {
+          "id": "tartaruga_de_couro",
+          "nome": "Tartaruga-de-couro",
+          "descricao": "Maior tartaruga marinha viva (Dermochelys coriacea), de casco coberto por pele coriácea em vez de placas duras.",
+          "variantes": [
+            "Tartaruga-gigante",
+            "Dermochelys coriacea",
+            "Leatherback"
+          ]
+        },
+        {
+          "id": "tartaruga_cabecuda",
+          "nome": "Tartaruga-cabeçuda",
+          "descricao": "Tartaruga-marinha (Caretta caretta) de cabeça grande, comum no litoral brasileiro.",
+          "variantes": [
+            "Caretta caretta",
+            "Loggerhead"
+          ]
+        },
+        {
+          "id": "tartaruga_de_galapagos",
+          "nome": "Tartaruga-de-galápagos",
+          "descricao": "Maior espécie de jabuti vivo (Chelonoidis niger), nativa de ilhas do arquipélago de Galápagos, no Equador.",
+          "variantes": [
+            "Tartaruga-gigante-de-galápagos",
+            "Galápagos tortoise",
+            "Chelonoidis niger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Rã-touro",
+        "descricao": "Grande rã norte-americana Lithobates catesbeianus, da família Ranidae.",
+        "variantes": [
+          "Rã-touro-americana",
+          "Lithobates catesbeianus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "ra_da_madeira",
+          "nome": "Rã-da-madeira",
+          "descricao": "Rã norte-americana, Lithobates sylvaticus, capaz de sobreviver congelada no inverno.",
+          "variantes": [
+            "Lithobates sylvaticus",
+            "Rana sylvatica",
+            "Wood frog"
+          ]
+        },
+        {
+          "id": "abacate",
+          "nome": "Abacate",
+          "descricao": "Fruto da Persea americana, de casca escura e polpa cremosa com um grande caroço.",
+          "variantes": [
+            "Persea americana"
+          ]
+        },
+        {
+          "id": "teiu",
+          "nome": "Teiú",
+          "descricao": "Grande lagarto preto e branco (Salvator merianae) do leste e centro da América do Sul.",
+          "variantes": [
+            "Teiú-comum",
+            "Tegu",
+            "Salvator merianae",
+            "Teju"
+          ]
+        },
+        {
+          "id": "saturno",
+          "nome": "Saturno",
+          "descricao": "Sexto planeta a partir do Sol, gigante gasoso famoso pelos anéis.",
+          "variantes": [
+            "Saturn"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Surucucu",
+        "descricao": "Serpente peçonhenta Lachesis muta, a maior víbora das Américas.",
+        "variantes": [
+          "Surucucu-pico-de-jaca",
+          "Lachesis muta",
+          "Cobra-pico-de-jaca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chess_musical",
+          "nome": "Chess (musical)",
+          "descricao": "Musical de 1984 sobre um duelo de xadrez entre um americano e um soviético durante a Guerra Fria.",
+          "variantes": [
+            "Chess"
+          ]
+        },
+        {
+          "id": "cobra_palavra_inglesa",
+          "nome": "Cobra (palavra inglesa)",
+          "descricao": "Palavra que o inglês e outras línguas tomaram do português para designar as najas",
+          "variantes": [
+            "Cobra de capelo"
+          ]
+        },
+        {
+          "id": "cranios_de_paracas",
+          "nome": "Crânios de Paracas",
+          "descricao": "Crânios alongados encontrados nos sítios da cultura Paracas, no litoral sul do Peru.",
+          "variantes": [
+            "Paracas skulls"
+          ]
+        },
+        {
+          "id": "a_criacao_de_adao",
+          "nome": "A Criação de Adão",
+          "descricao": "Afresco de Michelangelo no teto da Capela Sistina.",
+          "variantes": []
+        },
+        {
+          "id": "codigo_konami",
+          "nome": "Código Konami",
+          "descricao": "Sequência de botões usada como truque em jogos da Konami, criada por Kazuhisa Hashimoto.",
+          "variantes": [
+            "Konami Code",
+            "Contra Code"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Lagarto-de-gola",
+        "descricao": "Lagarto Chlamydosaurus kingii, de grande membrana no pescoço, nativo do norte da Austrália e sul da Nova Guiné.",
+        "variantes": [
+          "Lagarto-de-colar",
+          "Dragão-de-gola",
+          "Chlamydosaurus kingii"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        },
+        {
+          "id": "francisco_jose_do_nascimento",
+          "nome": "Francisco José do Nascimento",
+          "descricao": "Jangadeiro cearense que liderou em 1881 a greve dos jangadeiros contra o embarque de escravizados em Fortaleza.",
+          "variantes": [
+            "Dragão do Mar",
+            "Chico da Matilde"
+          ]
+        },
+        {
+          "id": "bandeira_de_angola",
+          "nome": "Bandeira de Angola",
+          "descricao": "Bandeira nacional de Angola, vermelha e preta com meia roda dentada, catana e estrela amarelas.",
+          "variantes": [
+            "Flag of Angola"
+          ]
+        },
+        {
+          "id": "grito_de_dolores",
+          "nome": "Grito de Dolores",
+          "descricao": "Chamado à revolta feito na cidade mexicana de Dolores em 16 de setembro de 1810, que iniciou a guerra de independência do México.",
+          "variantes": [
+            "Grito de Independencia",
+            "Cry of Dolores"
+          ]
+        },
+        {
+          "id": "lagartixa",
+          "nome": "Lagartixa",
+          "descricao": "Pequeno lagarto da família dos gecos, capaz de andar em paredes e tetos.",
+          "variantes": [
+            "Geco",
+            "Gecko",
+            "Lagartixa-de-parede"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Camaleão-do-iêmen",
+        "descricao": "Camaleão Chamaeleo calyptratus, com capacete alto na cabeça, nativo do Iêmen e da Arábia Saudita.",
+        "variantes": [
+          "Camaleão",
+          "Camaleão-velado",
+          "Chamaeleo calyptratus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "camelo",
+          "nome": "Camelo",
+          "descricao": "Mamíferos do gênero Camelus, adaptados a desertos e com corcovas nas costas.",
+          "variantes": [
+            "Camelus",
+            "Camel",
+            "Dromedário",
+            "Camelo-bactriano"
+          ]
+        },
+        {
+          "id": "decamerao",
+          "nome": "Decamerão",
+          "descricao": "Coletânea de contos de Giovanni Boccaccio, escrita no século quatorze.",
+          "variantes": [
+            "Decameron",
+            "Decamerone"
+          ]
+        },
+        {
+          "id": "cogumelo_veu_de_noiva",
+          "nome": "Cogumelo-véu-de-noiva",
+          "descricao": "Fungo Phallus indusiatus, da família Phallaceae, com chapéu alveolado e uma saia rendada branca, o indúsio.",
+          "variantes": [
+            "Véu-de-noiva",
+            "Phallus indusiatus",
+            "Dictyophora indusiata",
+            "Dama-velada"
+          ]
+        },
+        {
+          "id": "leao",
+          "nome": "Leão",
+          "descricao": "Grande felino social da África e da Índia, espécie Panthera leo.",
+          "variantes": [
+            "Panthera leo",
+            "Lion"
+          ]
+        },
+        {
+          "id": "uacari_vermelho",
+          "nome": "Uacari-vermelho",
+          "descricao": "Macaco amazônico do gênero Cacajao, de rosto vermelho vivo, cabeça calva e cauda curta.",
+          "variantes": [
+            "Uacari",
+            "Uacari-careca",
+            "Cacajao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Píton-reticulada",
+        "descricao": "Píton Malayopython reticulatus, do sul e sudeste da Ásia, a cobra mais longa do mundo.",
+        "variantes": [
+          "Píton-reticulado",
+          "Jiboia-reticulada",
+          "Malayopython reticulatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mariposa_das_betulas",
+          "nome": "Mariposa-das-bétulas",
+          "descricao": "Mariposa europeia Biston betularia, exemplo clássico de seleção natural durante a Revolução Industrial.",
+          "variantes": [
+            "Biston betularia",
+            "Peppered moth"
+          ]
+        },
+        {
+          "id": "santuario_de_cristo_rei",
+          "nome": "Santuário de Cristo Rei",
+          "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
+          "variantes": [
+            "Cristo Rei",
+            "Sanctuary of Christ the King",
+            "Cristo Rei de Almada"
+          ]
+        },
+        {
+          "id": "pieta_michelangelo",
+          "nome": "Pietà (Michelangelo)",
+          "descricao": "Escultura de mármore de Michelangelo, de 1498-1499, que mostra Maria com Jesus morto no colo, na Basílica de São Pedro.",
+          "variantes": [
+            "Pietà do Vaticano",
+            "La Pietà"
+          ]
+        },
+        {
+          "id": "edito_de_milao",
+          "nome": "Édito de Milão",
+          "descricao": "Acordo de 313 entre os imperadores Constantino e Licínio sobre a tolerância religiosa no Império Romano.",
+          "variantes": [
+            "Edict of Milan"
+          ]
+        },
+        {
+          "id": "piano_de_cauda",
+          "nome": "Piano de cauda",
+          "descricao": "Piano de formato horizontal, com cordas dispostas em estrutura em forma de asa.",
+          "variantes": [
+            "Piano",
+            "Grand piano",
+            "Piano de concerto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Basilisco-verde",
+        "descricao": "Lagarto Basiliscus plumifrons, verde e de crista na cabeça, nativo da América Central.",
+        "variantes": [
+          "Basilisco-de-penacho",
+          "Lagarto-Jesus-Cristo",
+          "Basiliscus plumifrons"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilisco",
+          "nome": "Basilisco",
+          "descricao": "Lagarto da América Central (Basiliscus basiliscus) capaz de correr sobre a superfície da água.",
+          "variantes": [
+            "Basilisco-comum",
+            "Basiliscus basiliscus"
+          ]
+        },
+        {
+          "id": "jesus",
+          "nome": "Jesus",
+          "descricao": "Pregador judeu do século um, figura central do cristianismo",
+          "variantes": [
+            "Jesus Cristo",
+            "Jesus de Nazaré"
+          ]
+        },
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Perereca-de-olhos-vermelhos",
+        "descricao": "Perereca arborícola Agalychnis callidryas, verde com olhos vermelhos, da América Central e noroeste da América do Sul.",
+        "variantes": [
+          "Rã-de-olhos-vermelhos",
+          "Agalychnis callidryas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "barao_vermelho",
+          "nome": "Barão Vermelho",
+          "descricao": "Banda de rock carioca formada em 1981, que revelou o cantor Cazuza.",
+          "variantes": []
+        },
+        {
+          "id": "cardeal",
+          "nome": "Cardeal",
+          "descricao": "Cardeal-de-topete-vermelho, ave sul-americana de cabeça vermelha com topete, dorso cinza e peito branco, da família dos traupídeos.",
+          "variantes": [
+            "Cardeal-de-topete-vermelho",
+            "Paroaria coronata",
+            "Red-crested cardinal"
+          ]
+        },
+        {
+          "id": "cartoes_amarelo_e_vermelho",
+          "nome": "Cartões amarelo e vermelho",
+          "descricao": "Cartões usados pelos árbitros de futebol para advertir e expulsar jogadores, idealizados pelo árbitro inglês Ken Aston.",
+          "variantes": [
+            "Cartão amarelo",
+            "Cartão vermelho",
+            "Penalty card"
+          ]
+        },
+        {
+          "id": "erik_o_vermelho",
+          "nome": "Erik, o Vermelho",
+          "descricao": "Explorador nórdico do século dez que fundou a primeira colônia europeia na Groenlândia.",
+          "variantes": [
+            "Érico, o Vermelho",
+            "Erik the Red",
+            "Eiríkr rauði"
+          ]
+        },
+        {
+          "id": "dia_dos_mortos",
+          "nome": "Dia dos Mortos",
+          "descricao": "Celebração mexicana do início de novembro em que as famílias homenageiam seus mortos com altares e oferendas.",
+          "variantes": [
+            "Día de Muertos",
+            "Día de los Muertos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Tuatara",
+        "descricao": "Réptil Sphenodon punctatus, único representante vivo da ordem Rhynchocephalia, endêmico da Nova Zelândia.",
+        "variantes": [
+          "Tuatara-da-nova-zelândia",
+          "Sphenodon punctatus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tuatara",
+          "nome": "Tuatara",
+          "descricao": "Réptil da Nova Zelândia (Sphenodon punctatus), parecido com um lagarto, último sobrevivente da ordem Rhynchocephalia.",
+          "variantes": [
+            "Sphenodon punctatus"
+          ]
+        },
+        {
+          "id": "tubarao",
+          "nome": "Tubarão",
+          "descricao": "Filme de suspense de 1975 dirigido por Steven Spielberg, sobre um tubarão-branco que ataca banhistas.",
+          "variantes": [
+            "Jaws"
+          ]
+        },
+        {
+          "id": "tubarao_2",
+          "nome": "Tubarão",
+          "descricao": "Peixe cartilaginoso predador da superordem Selachimorpha.",
+          "variantes": [
+            "Tubarões",
+            "Selachimorpha",
+            "Shark"
+          ]
+        },
+        {
+          "id": "nova_zelandia",
+          "nome": "Nova Zelândia",
+          "descricao": "País insular da Oceania, no sudoeste do Pacífico, cuja capital é Wellington.",
+          "variantes": [
+            "New Zealand",
+            "Aotearoa"
+          ]
+        },
+        {
+          "id": "iara",
+          "nome": "Iara",
+          "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+          "variantes": [
+            "Uiara",
+            "Mãe-d'Água",
+            "Yara"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "tartaruga_verde",
+      "motivo": "Mesma espécie Chelonia mydas, mesmas variantes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Rã-touro (Lithobates catesbeianus) não está entre as candidatas; rã-da-madeira é outra espécie."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a serpente Lachesis muta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Lagarto Chlamydosaurus kingii difere do tubarão-cobra e das demais candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Chamaeleo calyptratus não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a píton-reticulada."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Basiliscus plumifrons é espécie distinta de Basiliscus basiliscus."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a perereca Agalychnis callidryas."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "tuatara",
+      "motivo": "Mesma espécie Sphenodon punctatus, ordem Rhynchocephalia, Nova Zelândia."
+    }
+  ]
+}
