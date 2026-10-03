@@ -1,0 +1,404 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas fontes e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Etimologia de Maratona (funcho) é bem documentada, mas 'erva-doce' na resposta é ambíguo com o anis; simplificar para Funcho.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "A planície grega onde os atenienses venceram os persas em 490 antes de Cristo tem nome tirado de uma planta que crescia ali. Qual?",
+        "resposta": "Funcho",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Marathon,_Greece"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estoicismo recebeu o nome do Pórtico Pintado, conforme as fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cínico vem de kyon, cão; pt confirma.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Laconismo associado aos espartanos, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bucéfalo significa cabeça de boi; distratores adequados.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pirro deu nome à vitória pírrica, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Drácon e o adjetivo draconiano, com leis severas; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Que som' é respondido com descrição, não com som; a resposta deve ser o som imitado.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Para os gregos antigos, bárbaro era todo estrangeiro que não falava grego. Que som, parecido com balbucio, essa palavra imitava?",
+        "resposta": "Bar-bar",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Barbarian",
+          "https://pt.wikipedia.org/wiki/B%C3%A1rbaros"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fontes são páginas de desambiguação; trocar por artigo específico. Fato (beber juntos) é bem conhecido.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O banquete grego regado a vinho que dá título a um diálogo de Platão chamava-se simpósio. O que essa palavra significa literalmente?",
+        "resposta": "Beber juntos",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Symposium_(ancient_Greece)"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Olimpíada como período de quatro anos, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Morte de Sócrates por cicuta é fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Péricles morreu na peste de 429, segundo a tradição de Plutarco; aceitável.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda da tartaruga confirmada na pt, enunciado diz 'segundo uma lenda'.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Veio de prata de Láurio em 483 a.C. financiou a frota; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Finalidade da trégua sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Regra de treinadores despidos sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Efialtes revelou a trilha; sustentado pela pt.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Arquimedes morto por soldado romano, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O que provocou a explosão foi a bomba veneziana; a resposta descreve o que explodiu. Reformular pergunta.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1687, quando os venezianos cercaram Atenas, uma explosão destruiu boa parte do Partenon. O que os otomanos guardavam lá dentro?",
+        "resposta": "Pólvora",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Parthenon"
+        ]
+      }
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Terremoto de 226 a.C. após 54 anos, sustentado pela pt.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aristóteles aluno de Platão e tutor de Alexandre; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Anedota de Diógenes e Alexandre sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'O que tinham em comum' admite outras respostas (ouro e marfim); explicitar que se pede o escultor.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que escultor ateniense fez a estátua de Zeus em Olímpia, uma das sete maravilhas do mundo antigo, e também a grande Atena do Partenon?",
+        "resposta": "Fídias",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia",
+          "https://en.wikipedia.org/wiki/Athena_Parthenos"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Enunciado vago e resposta em frase longa; pedir o nome do juramento.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Que juramento, atribuído a um médico grego da ilha de Cós, muitos formandos de medicina ainda prestam hoje?",
+        "resposta": "Juramento de Hipócrates",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Hippocratic_Oath"
+        ]
+      }
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Eratóstenes foi bibliotecário-chefe em Alexandria; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Oráculo de Delfos e Sócrates, sustentado pela pt e pela Apologia.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maratona nasceu da lenda do mensageiro; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chama acesa em Olímpia com espelho parabólico; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Heródoto pai da história e Hipócrates pai da medicina; bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Platão é a fonte da Atlântida em Timeu e Crítias.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tucídides, general e historiador, sustentado; distratores razoáveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Míron criou o Discóbolo; distratores escultores gregos.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lisístrata é de Aristófanes.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Elementos de Euclides, sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Heródoto: Fidípides foi a Esparta.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lenda do banho sustentada pela pt.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vênus de Milo no Louvre desde 1821.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pitágoras fundou comunidade em Crotona.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "776 a.C. é século oito; sustentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reformas de 508 a.C., século seis.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "146 a.C., século dois.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Alexandre morreu aos 32 anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "431 a 404 a.C. são 27 anos.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Esparta tinha dois reis.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Luta completava o pentatlo antigo.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Propileus eram o portão da Acrópole.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Função astronômica sustentada.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O prêmio em Olímpia era a coroa de oliveira (kotinos), fato certo; o trecho pt diz louro, impreciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Coríntia foi a última das três ordens gregas.",
+      "reescrita": null
+    }
+  ]
+}
