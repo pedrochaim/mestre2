@@ -1,0 +1,668 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Muralha da China",
+        "descricao": "Sistema de fortificações construído ao longo das fronteiras setentrionais da China antiga e imperial.",
+        "variantes": [
+          "Grande Muralha da China",
+          "Great Wall of China"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "muralha_da_china",
+          "nome": "Muralha da China",
+          "descricao": "Série de fortificações construídas ao longo da fronteira norte da China antiga e imperial.",
+          "variantes": [
+            "Grande Muralha da China",
+            "Great Wall of China"
+          ]
+        },
+        {
+          "id": "revolta_da_vacina",
+          "nome": "Revolta da Vacina",
+          "descricao": "Motim popular ocorrido no Rio de Janeiro em novembro de 1904 contra a vacinação obrigatória.",
+          "variantes": [
+            "Vaccine Revolt"
+          ]
+        },
+        {
+          "id": "grande_fome_da_irlanda",
+          "nome": "Grande Fome da Irlanda",
+          "descricao": "Período de fome e doenças na Irlanda entre 1845 e 1849, que matou cerca de um milhão de pessoas e provocou emigração em massa.",
+          "variantes": [
+            "Grande Fome Irlandesa",
+            "Great Famine"
+          ]
+        },
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        },
+        {
+          "id": "nebulosa_de_orion",
+          "nome": "Nebulosa de Órion",
+          "descricao": "Nebulosa difusa Messier 42, na constelação de Órion, a região de formação de estrelas massivas mais próxima da Terra.",
+          "variantes": [
+            "Messier 42",
+            "M42",
+            "NGC 1976",
+            "Grande Nebulosa de Órion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Santa Sofia",
+        "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, museu e novamente mesquita, em Istambul.",
+        "variantes": [
+          "Hagia Sophia",
+          "Ayasofya"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        },
+        {
+          "id": "os_cavaleiros_do_zodiaco",
+          "nome": "Os Cavaleiros do Zodíaco",
+          "descricao": "Mangá e anime de Masami Kurumada sobre guerreiros que protegem a deusa Atena, chamado Saint Seiya no Japão.",
+          "variantes": [
+            "Saint Seiya",
+            "Les Chevaliers du Zodiaque"
+          ]
+        },
+        {
+          "id": "caneta_esferografica",
+          "nome": "Caneta esferográfica",
+          "descricao": "Caneta cuja ponta tem uma pequena esfera que distribui a tinta, patenteada em sua forma moderna em 1938.",
+          "variantes": [
+            "Esferográfica",
+            "Ballpoint pen",
+            "Birome"
+          ]
+        },
+        {
+          "id": "santa_catarina",
+          "nome": "Santa Catarina",
+          "descricao": "Estado da Região Sul do Brasil, entre o Paraná e o Rio Grande do Sul, com capital em Florianópolis.",
+          "variantes": [
+            "SC"
+          ]
+        },
+        {
+          "id": "papai_noel",
+          "nome": "Papai Noel",
+          "descricao": "Personagem lendário que traz presentes no Natal",
+          "variantes": [
+            "Santa Claus",
+            "Pai Natal",
+            "Bom Velhinho"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "O Rapto de Proserpina",
+        "descricao": "Grupo escultórico barroco em mármore de Bernini, que mostra Plutão raptando Prosérpina, na Galeria Borghese.",
+        "variantes": [
+          "Rapto de Prosérpina",
+          "The Rape of Proserpina"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_sagracao_da_primavera",
+          "nome": "A Sagração da Primavera",
+          "descricao": "Balé de Igor Stravinsky estreado em Paris em 1913.",
+          "variantes": [
+            "Le Sacre du printemps",
+            "The Rite of Spring"
+          ]
+        },
+        {
+          "id": "pedra_de_roseta",
+          "nome": "Pedra de Roseta",
+          "descricao": "Estela de granodiorito com um decreto de 196 antes de Cristo em três escritas, chave para a decifração dos hieróglifos",
+          "variantes": [
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "id": "as_aves_da_america",
+          "nome": "As Aves da América",
+          "descricao": "Livro de gravuras de aves norte-americanas em tamanho natural, publicado entre 1827 e 1838.",
+          "variantes": [
+            "The Birds of America",
+            "Birds of America"
+          ]
+        },
+        {
+          "id": "o_conto_de_genji",
+          "nome": "O Conto de Genji",
+          "descricao": "Clássico da literatura japonesa escrito no início do século onze por uma dama da corte de Heian.",
+          "variantes": [
+            "Genji Monogatari",
+            "The Tale of Genji"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Grande Pirâmide de Gizé",
+        "descricao": "Maior das pirâmides egípcias de Gizé, túmulo do faraó Quéops.",
+        "variantes": [
+          "Pirâmide de Quéops",
+          "Great Pyramid of Giza"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "piramides_de_gize",
+          "nome": "Pirâmides de Gizé",
+          "descricao": "Conjunto de três grandes pirâmides do Egito Antigo no planalto de Gizé, perto do Cairo.",
+          "variantes": [
+            "Complexo de Gizé",
+            "Giza pyramid complex"
+          ]
+        },
+        {
+          "id": "grande_esfinge_de_gize",
+          "nome": "Grande Esfinge de Gizé",
+          "descricao": "Estátua colossal de calcário com corpo de leão e cabeça humana, no planalto de Gizé, no Egito",
+          "variantes": [
+            "Great Sphinx of Giza",
+            "Esfinge de Gizé",
+            "Abul-Hol"
+          ]
+        },
+        {
+          "id": "piramide_de_djoser",
+          "nome": "Pirâmide de Djoser",
+          "descricao": "Pirâmide de degraus construída em Sacará no século vinte e sete antes de Cristo para o faraó Djoser, considerada a primeira pirâmide egípcia",
+          "variantes": [
+            "Pirâmide de Degraus",
+            "Pyramid of Djoser",
+            "Pirâmide de Zoser"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Arco do Triunfo",
+        "descricao": "Monumento no alto da avenida Champs-Élysées, em Paris, em homenagem aos exércitos franceses.",
+        "variantes": [
+          "Arc de Triomphe",
+          "Arco do Triunfo de Paris"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "arco_do_triunfo_de_paris",
+          "nome": "Arco do Triunfo de Paris",
+          "descricao": "Arco monumental na Praça Charles de Gaulle, no alto da Champs-Élysées, encomendado por Napoleão.",
+          "variantes": [
+            "Arc de Triomphe",
+            "Arco do Triunfo"
+          ]
+        },
+        {
+          "id": "canario",
+          "nome": "Canário",
+          "descricao": "Pequeno passarinho amarelo (Serinus canaria), nativo das Ilhas Canárias, Açores e Madeira, criado como ave de gaiola no mundo todo.",
+          "variantes": [
+            "Canário-doméstico",
+            "Canário-do-reino",
+            "Serinus canaria"
+          ]
+        },
+        {
+          "id": "arco_de_constantino",
+          "nome": "Arco de Constantino",
+          "descricao": "Arco do triunfo de Roma, entre o Coliseu e o monte Palatino, dedicado em 315.",
+          "variantes": [
+            "Arco di Costantino"
+          ]
+        },
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "radium_girls",
+          "nome": "Radium Girls",
+          "descricao": "Operárias americanas que, nos anos 1920, se contaminaram ao pintar mostradores de relógio com tinta luminosa radioativa.",
+          "variantes": [
+            "Garotas do Rádio"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga grande mesquita omíada de Córdoba, hoje catedral católica, na Andaluzia.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Mesquita de Córdova"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "mesquita_catedral_de_cordoba",
+          "nome": "Mesquita-Catedral de Córdoba",
+          "descricao": "Antiga grande mesquita, hoje catedral católica, em Córdoba, na Andaluzia, Espanha, iniciada em 785.",
+          "variantes": [
+            "Mezquita de Córdoba",
+            "Grande Mesquita de Córdoba",
+            "Mesquita de Córdova"
+          ]
+        },
+        {
+          "id": "batalha_de_corinto_146_a_c",
+          "nome": "Batalha de Corinto (146 a.C.)",
+          "descricao": "Destruição da cidade grega de Corinto pelos romanos em 146 a.C., que marcou o domínio de Roma sobre a Grécia.",
+          "variantes": [
+            "Destruição de Corinto",
+            "Battle of Corinth"
+          ]
+        },
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        },
+        {
+          "id": "maquina_de_escrever",
+          "nome": "Máquina de escrever",
+          "descricao": "Máquina mecânica com teclas que imprime caracteres no papel por meio de uma fita de tinta.",
+          "variantes": [
+            "Typewriter"
+          ]
+        },
+        {
+          "id": "tear_de_jacquard",
+          "nome": "Tear de Jacquard",
+          "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+          "variantes": [
+            "Máquina de Jacquard",
+            "Jacquard loom"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro elíptico de Roma, iniciado por Vespasiano e concluído por Tito.",
+        "variantes": [
+          "Anfiteatro Flaviano",
+          "Colosseum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coliseu",
+          "nome": "Coliseu",
+          "descricao": "Anfiteatro Flávio, o grande anfiteatro de Roma inaugurado no ano 80 depois de Cristo.",
+          "variantes": [
+            "Anfiteatro Flávio",
+            "Colosseum",
+            "Colosseo",
+            "Coliseu de Roma",
+            "Anfiteatro Flaviano"
+          ]
+        },
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "clipe_de_papel",
+          "nome": "Clipe de papel",
+          "descricao": "Peça de arame dobrado usada para prender folhas de papel.",
+          "variantes": [
+            "Clipe",
+            "Paper clip"
+          ]
+        },
+        {
+          "id": "olodum",
+          "nome": "Olodum",
+          "descricao": "Bloco afro e grupo percussivo de Salvador, criado em 1979.",
+          "variantes": []
+        },
+        {
+          "id": "ollie",
+          "nome": "Ollie",
+          "descricao": "Manobra básica do skate em que o skatista salta com a prancha sem usar as mãos.",
+          "variantes": [
+            "Ollie (skate)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Busto de Nefertiti",
+        "descricao": "Busto pintado de calcário e estuque que retrata a rainha Nefertiti, no Neues Museum de Berlim.",
+        "variantes": [
+          "Nefertiti Bust"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "eritreia",
+          "nome": "Eritreia",
+          "descricao": "País do Chifre da África, na costa do Mar Vermelho, com capital em Asmara.",
+          "variantes": [
+            "Estado da Eritreia"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Torre de Pisa",
+        "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+        "variantes": [
+          "Torre Inclinada de Pisa",
+          "Leaning Tower of Pisa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_pisa",
+          "nome": "Torre de Pisa",
+          "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+          "variantes": [
+            "Torre Inclinada de Pisa",
+            "Leaning Tower of Pisa"
+          ]
+        },
+        {
+          "id": "torres_del_paine",
+          "nome": "Torres del Paine",
+          "descricao": "Parque nacional da Patagônia chilena, com o maciço de picos de granito Cordillera del Paine.",
+          "variantes": [
+            "Parque Nacional Torres del Paine"
+          ]
+        },
+        {
+          "id": "fibonacci",
+          "nome": "Fibonacci",
+          "descricao": "Leonardo de Pisa, matemático italiano dos séculos doze e treze.",
+          "variantes": [
+            "Leonardo de Pisa",
+            "Leonardo Fibonacci",
+            "Leonardo Pisano"
+          ]
+        },
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó",
+            "Forró pé de serra"
+          ]
+        },
+        {
+          "id": "volei_de_praia",
+          "nome": "Vôlei de praia",
+          "descricao": "Modalidade de vôlei disputada na areia por duplas.",
+          "variantes": [
+            "Voleibol de praia",
+            "Beach volleyball"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Portão de Brandemburgo",
+        "descricao": "Monumento neoclássico do século dezoito em Berlim, encimado por uma quadriga de bronze.",
+        "variantes": [
+          "Brandenburger Tor",
+          "Brandenburg Gate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "portao_de_brandemburgo",
+          "nome": "Portão de Brandemburgo",
+          "descricao": "Portal neoclássico do século dezoito no centro de Berlim, símbolo da reunificação alemã.",
+          "variantes": [
+            "Brandenburger Tor",
+            "Brandenburg Gate"
+          ]
+        },
+        {
+          "id": "aracy_de_carvalho",
+          "nome": "Aracy de Carvalho",
+          "descricao": "Funcionária do consulado brasileiro em Hamburgo que ajudou judeus a fugir do nazismo, reconhecida como Justa entre as Nações.",
+          "variantes": [
+            "Aracy de Carvalho Guimarães Rosa",
+            "Anjo de Hamburgo"
+          ]
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        },
+        {
+          "id": "gluteo_maximo",
+          "nome": "Glúteo máximo",
+          "descricao": "Músculo principal das nádegas, que estende o quadril.",
+          "variantes": [
+            "Gluteus maximus",
+            "Grande glúteo"
+          ]
+        },
+        {
+          "id": "hindenburg",
+          "nome": "Hindenburg",
+          "descricao": "Dirigível alemão de passageiros destruído por um incêndio em Lakehurst, nos Estados Unidos, em 1937.",
+          "variantes": [
+            "LZ 129 Hindenburg",
+            "Desastre do Hindenburg"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Augusto de Prima Porta",
+        "descricao": "Estátua de mármore do imperador Augusto, achada na Villa de Lívia, em Prima Porta, hoje nos Museus Vaticanos.",
+        "variantes": [
+          "Augustus of Prima Porta",
+          "Augusto Prima Porta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "santo_agostinho",
+          "nome": "Santo Agostinho",
+          "descricao": "Filósofo e bispo cristão (354–430), autor de Confissões e A Cidade de Deus.",
+          "variantes": [
+            "Agostinho de Hipona",
+            "Augustine of Hippo"
+          ]
+        },
+        {
+          "id": "manuscritos_do_mar_morto",
+          "nome": "Manuscritos do Mar Morto",
+          "descricao": "Manuscritos judaicos antigos descobertos a partir de 1947 em cavernas de Qumran",
+          "variantes": [
+            "Pergaminhos do Mar Morto",
+            "Dead Sea Scrolls"
+          ]
+        },
+        {
+          "id": "portugues_europeu",
+          "nome": "Português europeu",
+          "descricao": "Variedade da língua portuguesa falada em Portugal",
+          "variantes": [
+            "Português de Portugal",
+            "Português lusitano"
+          ]
+        },
+        {
+          "id": "ano_novo_chines",
+          "nome": "Ano-Novo Chinês",
+          "descricao": "Festa da virada do ano no calendário lunissolar chinês, também chamada Festa da Primavera.",
+          "variantes": [
+            "Festa da Primavera",
+            "Ano-Novo Lunar",
+            "Chinese New Year"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "muralha_da_china",
+      "motivo": "Mesma fortificação, descrições e variantes equivalentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "mesma",
+      "id_existente": "hagia_sophia",
+      "motivo": "Santa Sofia é a Hagia Sophia de Istambul."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a escultura de Bernini."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "grande_piramide_de_gize",
+      "motivo": "Mesma pirâmide de Quéops."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "arco_do_triunfo_de_paris",
+      "motivo": "Mesmo arco em Paris, na Champs-Élysées."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "mesquita_catedral_de_cordoba",
+      "motivo": "Mesmo monumento em Córdoba."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "coliseu",
+      "motivo": "Mesmo anfiteatro de Roma."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Busto de Nefertiti não corresponde à Eritreia."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "torre_de_pisa",
+      "motivo": "Mesma torre, descrições idênticas."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "portao_de_brandemburgo",
+      "motivo": "Mesmo monumento em Berlim."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Estátua de Augusto não está entre as candidatas."
+    }
+  ]
+}

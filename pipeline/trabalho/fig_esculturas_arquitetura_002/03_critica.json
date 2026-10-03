@@ -1,0 +1,87 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não nomeia o país, resposta única e distratores plausíveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A frase está logicamente errada (o estilo não é a 'máxima expressão do edifício'; seria o contrário), 'máxima expressão' não está nos trechos, e a data 537 mais o estilo quase entrega a resposta. Trocada por pergunta de autoria, sustentada pelo trecho em português.",
+      "reescrita": {
+        "pergunta": "Que imperador mandou construir este edifício, concluído no ano quinhentos e trinta e sete?",
+        "resposta": "Justiniano I"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A idade de vinte e três anos é pista de prodígio que ajuda a responder sem a figura. Troquei por época, que ajuda sem entregar (obra de 1621 a 1622).",
+      "reescrita": {
+        "pergunta": "Quem esculpiu este grupo barroco em mármore, no início do século dezessete?",
+        "resposta": "Gian Lorenzo Bernini"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado nos trechos; distratores do mesmo tipo (faraós) e nenhum é o construtor.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Encomendado em 1806 e inaugurado em 1836, o que confirma 'décadas depois'. Sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Localização confirmada; distratores são cidades andaluzas ou espanholas plausíveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vespasiano, Tito e Domiciano formam a dinastia flaviana (trecho em português). A resposta não aparece no enunciado e 'anfiteatro' não basta para identificar o Coliseu.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1, sem vazamento, com resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento nível 1, direta, sem pista no enunciado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Langhans projetou o portão (1788 a 1791), conforme os trechos. Distratores são arquitetos alemães do mesmo período ou do século seguinte, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estátua de Augusto, confirmada nos trechos. A couraça não entrega o nome e os distratores são plausíveis.",
+      "reescrita": null
+    }
+  ]
+}

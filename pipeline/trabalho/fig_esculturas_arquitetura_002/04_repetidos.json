@@ -1,0 +1,181 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que país fica esta construção defensiva?",
+        "resposta": "China"
+      },
+      "existentes": [
+        {
+          "id": "q01926",
+          "pergunta": "Em que país fica esta construção?",
+          "resposta": "China"
+        },
+        {
+          "id": "q03355",
+          "pergunta": "Em chinês, a Grande Muralha é chamada de muralha longa de dez mil unidades de uma antiga medida de distância. Que medida é essa?",
+          "resposta": "Li"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que imperador mandou construir este edifício, concluído no ano quinhentos e trinta e sete?",
+        "resposta": "Justiniano I"
+      },
+      "existentes": [
+        {
+          "id": "q02452",
+          "pergunta": "Que monumento de Istambul é este?",
+          "resposta": "Santa Sofia"
+        },
+        {
+          "id": "q03171",
+          "pergunta": "Santa Sofia, em Istambul, não homenageia nenhuma santa. O que significa seu nome em grego?",
+          "resposta": "Santa Sabedoria"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que faraó mandou construir esta pirâmide para ser seu túmulo?",
+        "resposta": "Quéops"
+      },
+      "existentes": [
+        {
+          "id": "q02449",
+          "pergunta": "Que faraó mandou construir esta pirâmide de Gizé para ser seu túmulo?",
+          "resposta": "Quéops (Khufu)"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Quem encomendou este arco, concluído só décadas depois de iniciado?",
+        "resposta": "Napoleão Bonaparte"
+      },
+      "existentes": [
+        {
+          "id": "q02024",
+          "pergunta": "No Fórum Romano há um arco antigo que serviu de modelo ao Arco do Triunfo de Paris. Ele leva o nome de qual imperador?",
+          "resposta": "Tito"
+        },
+        {
+          "id": "q03883",
+          "pergunta": "Que monumento é este?",
+          "resposta": "Arco do Triunfo"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em que cidade espanhola fica este antigo templo, visto do alto?",
+        "resposta": "Córdoba"
+      },
+      "existentes": [
+        {
+          "id": "q03477",
+          "pergunta": "Em que cidade espanhola fica este edifício?",
+          "resposta": "Córdoba"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que dinastia imperial romana mandou construir este anfiteatro?",
+        "resposta": "Dinastia Flaviana"
+      },
+      "existentes": [
+        {
+          "id": "q00079",
+          "pergunta": "O nome Coliseu provavelmente vem de algo gigantesco que ficava ao lado do anfiteatro. O que era?",
+          "resposta": "Uma estátua colossal de Nero"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Que torre é esta?",
+        "resposta": "Torre de Pisa"
+      },
+      "existentes": [
+        {
+          "id": "q02007",
+          "pergunta": "Por que a Torre de Pisa começou a se inclinar ainda durante a obra, no século doze?",
+          "resposta": "Solo mole e fundação rasa"
+        },
+        {
+          "id": "q02451",
+          "pergunta": "Em que região da Itália fica este campanário de catedral?",
+          "resposta": "Toscana"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que arquiteto projetou este portão neoclássico, construído no fim do século dezoito?",
+        "resposta": "Carl Gotthard Langhans"
+      },
+      "existentes": [
+        {
+          "id": "q02023",
+          "pergunta": "O Portão de Brandemburgo, em Berlim, foi inspirado em qual portal monumental da Acrópole de Atenas?",
+          "resposta": "Os Propileus"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q01926",
+      "motivo": "Ambas perguntam em que país fica a construção; resposta China."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Quem mandou construir é outro fato; existentes tratam do nome do monumento e do significado do nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q02449",
+      "motivo": "Mesma pergunta sobre o faraó que mandou construir a pirâmide, mesma resposta."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Quem encomendou o Arco do Triunfo é fato distinto de identificar o monumento ou do arco de Tito."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "id_existente": "q03477",
+      "motivo": "Ambas perguntam a cidade espanhola do edifício; resposta Córdoba."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Dinastia construtora é diferente da origem do nome Coliseu."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Identificar a torre é diferente da causa da inclinação ou da região onde fica."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "O arquiteto do portão é fato diferente da inspiração nos Propileus."
+    }
+  ]
+}

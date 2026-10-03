@@ -152,9 +152,10 @@
     "fig_paisagens_002",
     "fig_monumentos_historicos_004",
     "fig_mapas_localizacao_002",
-    "historia_idade_contemporanea_01"
+    "historia_idade_contemporanea_01",
+    "fig_esculturas_arquitetura_002"
   ],
-  "maior_id": 3939,
+  "maior_id": 3947,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -553,16 +554,17 @@
     },
     "esculturas_arquitetura": {
       "familias": {
-        "o_que_e": 4,
-        "quem_fez": 2,
-        "onde": 5
+        "o_que_e": 7,
+        "quem_fez": 6,
+        "onde": 5,
+        "que_tipo": 1
       },
       "niveis": {
-        "1": 5,
-        "2": 4,
-        "3": 2
+        "1": 9,
+        "2": 6,
+        "3": 4
       },
-      "registradas": 11
+      "registradas": 19
     },
     "plantas": {
       "familias": {

@@ -1,0 +1,248 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Trecho de Badaling com torre e escadaria, reconhecível; sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que país fica esta construção defensiva?",
+      "resposta": "China",
+      "distratores": [
+        "Índia",
+        "Japão",
+        "Irã"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Muralha da China",
+        "descricao": "Sistema de fortificações construído ao longo das fronteiras setentrionais da China antiga e imperial.",
+        "variantes": [
+          "Grande Muralha da China",
+          "Great Wall of China"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Fachada com cúpula e minaretes, claramente Santa Sofia; sem texto.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que estilo arquitetônico é considerado a máxima expressão deste edifício, concluído no ano 537?",
+      "resposta": "Bizantino",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Santa Sofia",
+        "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, museu e novamente mesquita, em Istambul.",
+        "variantes": [
+          "Hagia Sophia",
+          "Ayasofya"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Escultura barroca em foco, sem texto relevante, reconhecível.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem esculpiu este grupo barroco em mármore, aos vinte e três anos de idade?",
+      "resposta": "Gian Lorenzo Bernini",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Rapto de Proserpina",
+        "descricao": "Grupo escultórico barroco em mármore de Bernini, que mostra Plutão raptando Prosérpina, na Galeria Borghese.",
+        "variantes": [
+          "Rapto de Prosérpina",
+          "The Rape of Proserpina"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Grande Pirâmide em primeiro plano, reconhecível; pessoas pequenas ao fundo.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que faraó mandou construir esta pirâmide para ser seu túmulo?",
+      "resposta": "Quéops",
+      "distratores": [
+        "Quéfren",
+        "Miquerinos",
+        "Djoser"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Grande Pirâmide de Gizé",
+        "descricao": "Maior das pirâmides egípcias de Gizé, túmulo do faraó Quéops.",
+        "variantes": [
+          "Pirâmide de Quéops",
+          "Great Pyramid of Giza"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Fachada frontal clara, sem texto legível; pessoas pequenas.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem encomendou este arco, concluído só décadas depois de iniciado?",
+      "resposta": "Napoleão Bonaparte",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Arco do Triunfo",
+        "descricao": "Monumento no alto da avenida Champs-Élysées, em Paris, em homenagem aos exércitos franceses.",
+        "variantes": [
+          "Arc de Triomphe",
+          "Arco do Triunfo de Paris"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Vista aérea com torre e pátio de laranjeiras, reconhecível e única.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade espanhola fica este antigo templo, visto do alto?",
+      "resposta": "Córdoba",
+      "distratores": [
+        "Sevilha",
+        "Granada",
+        "Toledo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mesquita-Catedral de Córdoba",
+        "descricao": "Antiga grande mesquita omíada de Córdoba, hoje catedral católica, na Andaluzia.",
+        "variantes": [
+          "Mezquita de Córdoba",
+          "Mesquita de Córdova"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Coliseu em vista clara, sem texto que entregue a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que dinastia imperial romana mandou construir este anfiteatro?",
+      "resposta": "Dinastia Flaviana",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Coliseu",
+        "descricao": "Anfiteatro elíptico de Roma, iniciado por Vespasiano e concluído por Tito.",
+        "variantes": [
+          "Anfiteatro Flaviano",
+          "Colosseum"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Busto icônico, fundo preto, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que rainha do Egito antigo este busto retrata?",
+      "resposta": "Nefertiti",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Busto de Nefertiti",
+        "descricao": "Busto pintado de calcário e estuque que retrata a rainha Nefertiti, no Neues Museum de Berlim.",
+        "variantes": [
+          "Nefertiti Bust"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Visitantes do museu em primeiro plano e é uma reconstrução em Berlim, o que torna a resposta de lugar ambígua."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Torre inclinada inconfundível; pessoas pequenas na base.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que torre é esta?",
+      "resposta": "Torre de Pisa",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Torre de Pisa",
+        "descricao": "Campanário inclinado da catedral de Pisa, na Itália.",
+        "variantes": [
+          "Torre Inclinada de Pisa",
+          "Leaning Tower of Pisa"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Portão com quadriga, frente clara; sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que arquiteto projetou este portão neoclássico, construído no fim do século dezoito?",
+      "resposta": "Carl Gotthard Langhans",
+      "distratores": [
+        "Karl Friedrich Schinkel",
+        "Leo von Klenze",
+        "Gottfried Semper"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Portão de Brandemburgo",
+        "descricao": "Monumento neoclássico do século dezoito em Berlim, encimado por uma quadriga de bronze.",
+        "variantes": [
+          "Brandenburger Tor",
+          "Brandenburg Gate"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua em corpo inteiro, bem visível; a inscrição da base é só de catálogo e não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que imperador romano esta estátua, com couraça decorada, retrata?",
+      "resposta": "Augusto",
+      "distratores": [
+        "Júlio César",
+        "Nero",
+        "Trajano"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Augusto de Prima Porta",
+        "descricao": "Estátua de mármore do imperador Augusto, achada na Villa de Lívia, em Prima Porta, hoje nos Museus Vaticanos.",
+        "variantes": [
+          "Augustus of Prima Porta",
+          "Augusto Prima Porta"
+        ]
+      }
+    }
+  ]
+}
