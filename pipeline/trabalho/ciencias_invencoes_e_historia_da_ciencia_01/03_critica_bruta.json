@@ -1,0 +1,396 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado e enunciado preciso.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato confirmado; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A resposta 'vaca' é quase a própria palavra 'vacina' no enunciado, o que é vazamento sem conserto.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Whewell cunhou 'scientist', confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem francesa confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hooke cunhou 'cell' por causa das celas de mosteiro.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Lumière significa luz em francês; fato conhecido e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Por causa do laboratório' não é literalmente sustentado, pois a PT atribui o apelido ao fonógrafo; reformulei de forma precisa.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Thomas Edison ficou conhecido por um apelido ligado ao nome da localidade de Nova Jersey onde instalou seu laboratório. Que apelido?",
+        "resposta": "O Mago de Menlo Park",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Thomas_Edison"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado diz 'padre', que vaza parte da resposta 'Padre Voador'.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Nascido em Santos, o inventor Bartolomeu de Gusmão fez subir um pequeno balão diante do rei, em Lisboa, em 1709. Por que apelido ficou conhecido?",
+        "resposta": "Padre Voador",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Bartolomeu_de_Gusm%C3%A3o",
+          "https://en.wikipedia.org/wiki/Bartolomeu_de_Gusm%C3%A3o"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quinino confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Plunkett buscava um refrigerante, ou seja, gás para geladeiras.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hinário confirmado; o coral é fato conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chapas fotográficas confirmadas.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado ressalva 'segundo uma história famosa' e 'teria', coerente com a fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A premissa sobre 'letras escolhidas' é imprecisa, pois a sequência veio antes, e a resposta é vaga.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franklin é creditado por ambos; a pergunta diz 'atribuídos'.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pedro II visitou a exposição e se impressionou com o telefone; fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Ediswan e a lâmpada incandescente são bem documentados.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "A fonte diz que foi Charles Edison quem pediu os tubos, não Ford; reescrevi conforme a fonte.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Depois da morte de Thomas Edison, um tubo de ensaio rotulado como seu último suspiro foi enviado a que industrial americano, amigo dele?",
+        "resposta": "Henry Ford",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Thomas_Edison"
+        ]
+      }
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Tesla trabalhou para Edison ao chegar a Nova York em 1884.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos nasceram na Escócia.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Frankenstein foi inspirado em parte pelo galvanismo.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem no radar confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Heron no século I confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Remington começou a produção em março de 1873.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Niépce, 1826 ou 1827; 'por volta de' cobre a incerteza.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Especificidade do soro confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Mainz confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Óculos italianos do século treze.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte desambiguada precisa ser trocada, e o enunciado ficava ambíguo.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Por volta de 1780, o inglês William Addis criou uma escova de dentes que virou negócio de família. Em que lugar ele teve a ideia?",
+        "resposta": "Na prisão",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/William_Addis_(entrepreneur)",
+          "https://en.wikipedia.org/wiki/Toothbrush"
+        ]
+      }
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte em inglês inexistente; mantida só a da Wikipédia em português.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Em que cidade paulista o francês Hercule Florence fez, nos anos 1830, experimentos pioneiros de fotografia?",
+        "resposta": "Campinas",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Hercule_Florence"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem chinesa confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Patente de 1843.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Primeiros abridores em 1855.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Fato básico demais e pouco interessante para valer uma pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Concluída em 1454 ou 1455.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ovelha, pato e galo confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Tipos de cerâmica confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem pedais confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escala original invertida confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pintor confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O primeiro voo durou 12 segundos, fato bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Microscópios de lente única.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "O relógio de sol é de longe o mais antigo entre as opções.",
+      "reescrita": null
+    }
+  ]
+}

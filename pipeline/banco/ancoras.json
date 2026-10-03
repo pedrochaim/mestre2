@@ -12889,7 +12889,8 @@
     "variantes": [
       "Fecho de gancho e argola",
       "Hook-and-loop fastener",
-      "Fecho de contato"
+      "Fecho de contato",
+      "Hook-and-loop"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Hook-and-loop_fastener"
@@ -12907,7 +12908,8 @@
     "descricao": "Bloco de papéis autoadesivos removíveis lançado pela empresa americana 3M.",
     "variantes": [
       "Post-it note",
-      "Nota adesiva"
+      "Nota adesiva",
+      "Bloco autoadesivo"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Post-it_note"
@@ -13315,7 +13317,8 @@
     "nome": "Abridor de latas",
     "descricao": "Utensílio de cozinha usado para abrir latas de conserva.",
     "variantes": [
-      "Can opener"
+      "Can opener",
+      "Abre-latas"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Can_opener"
@@ -14598,7 +14601,8 @@
     "nome": "Mayday",
     "descricao": "Palavra usada internacionalmente no rádio como pedido de socorro por aviões e navios.",
     "variantes": [
-      "Mayday (sinal de socorro)"
+      "Mayday (sinal de socorro)",
+      "Mayday mayday mayday"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Mayday"
@@ -15593,7 +15597,10 @@
       "wikidata": "Q9036",
       "pt": 13502,
       "en": 195650
-    }
+    },
+    "variantes": [
+      "Tesla"
+    ]
   },
   {
     "id": "ada_lovelace",
@@ -44530,7 +44537,8 @@
     "descricao": "Peça de teatro do escritor tcheco Karel Čapek, de 1920, sobre trabalhadores artificiais.",
     "variantes": [
       "Rossumovi Univerzální Roboti",
-      "A Fábrica de Robôs"
+      "A Fábrica de Robôs",
+      "Rossum's Universal Robots"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/R.U.R."
@@ -45891,7 +45899,8 @@
     "variantes": [
       "Grau Celsius",
       "Escala centígrada",
-      "Celsius"
+      "Celsius",
+      "Graus Celsius"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Celsius",
@@ -53320,6 +53329,257 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Aeolipile",
       "https://pt.wikipedia.org/wiki/Eol%C3%ADpila"
+    ]
+  },
+  {
+    "id": "william_whewell",
+    "nome": "William Whewell",
+    "descricao": "Filósofo e historiador da ciência inglês do século dezenove, professor em Cambridge.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/William_Whewell"
+    ]
+  },
+  {
+    "id": "robert_hooke",
+    "nome": "Robert Hooke",
+    "descricao": "Cientista inglês do século dezessete, autor do livro Micrographia, sobre observações ao microscópio.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Robert_Hooke"
+    ]
+  },
+  {
+    "id": "teclado_qwerty",
+    "nome": "Teclado QWERTY",
+    "descricao": "Disposição de letras dos teclados criada para as máquinas de escrever de Christopher Sholes, no século dezenove.",
+    "variantes": [
+      "QWERTY"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/QWERTY",
+      "https://pt.wikipedia.org/wiki/QWERTY"
+    ]
+  },
+  {
+    "id": "bartolomeu_de_gusmao",
+    "nome": "Bartolomeu de Gusmão",
+    "descricao": "Padre e inventor nascido em Santos, no Brasil colonial, que demonstrou um pequeno balão de ar quente em Lisboa em 1709.",
+    "variantes": [
+      "Bartolomeu Lourenço de Gusmão",
+      "Padre Voador"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bartolomeu_de_Gusm%C3%A3o",
+      "https://en.wikipedia.org/wiki/Bartolomeu_de_Gusm%C3%A3o"
+    ]
+  },
+  {
+    "id": "estetoscopio",
+    "nome": "Estetoscópio",
+    "descricao": "Instrumento médico para ouvir sons do coração e dos pulmões, inventado pelo francês René Laennec em 1816.",
+    "variantes": [
+      "Estetoscópio de Laennec"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Stethoscope"
+    ]
+  },
+  {
+    "id": "sacarina",
+    "nome": "Sacarina",
+    "descricao": "Adoçante artificial descoberto em 1879 pelo químico Constantin Fahlberg, na Universidade Johns Hopkins.",
+    "variantes": [
+      "Saccharin"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Saccharin"
+    ]
+  },
+  {
+    "id": "mauveina",
+    "nome": "Mauveína",
+    "descricao": "Corante roxo sintético obtido por acaso pelo químico inglês William Perkin em 1856.",
+    "variantes": [
+      "Malva de Perkin",
+      "Mauveine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mauveine"
+    ]
+  },
+  {
+    "id": "teflon",
+    "nome": "Teflon",
+    "descricao": "Nome comercial do politetrafluoretileno, plástico antiaderente descoberto por Roy Plunkett na DuPont em 1938.",
+    "variantes": [
+      "Politetrafluoretileno",
+      "PTFE"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Polytetrafluoroethylene"
+    ]
+  },
+  {
+    "id": "alfred_nobel",
+    "nome": "Alfred Nobel",
+    "descricao": "Químico e industrial sueco (1833–1896), inventor da dinamite e criador do Prêmio Nobel.",
+    "variantes": [
+      "Alfred Bernhard Nobel"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alfred_Nobel"
+    ]
+  },
+  {
+    "id": "oculos_bifocais",
+    "nome": "Óculos bifocais",
+    "descricao": "Óculos com lentes divididas em duas partes, uma para enxergar de longe e outra de perto, atribuídos a Benjamin Franklin.",
+    "variantes": [
+      "Lentes bifocais",
+      "Bifocais"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bifocals"
+    ]
+  },
+  {
+    "id": "joseph_swan",
+    "nome": "Joseph Swan",
+    "descricao": "Físico e químico inglês (1828–1914), pioneiro da lâmpada elétrica e sócio de Edison na empresa Ediswan.",
+    "variantes": [
+      "Joseph Wilson Swan"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Joseph_Swan"
+    ]
+  },
+  {
+    "id": "john_logie_baird",
+    "nome": "John Logie Baird",
+    "descricao": "Engenheiro e inventor escocês (1888–1946), pioneiro da televisão mecânica.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/John_Logie_Baird"
+    ]
+  },
+  {
+    "id": "galvanismo",
+    "nome": "Galvanismo",
+    "descricao": "Contração de músculos provocada por corrente elétrica, estudada por Luigi Galvani no século dezoito.",
+    "variantes": [
+      "Galvanism"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Galvanism"
+    ]
+  },
+  {
+    "id": "vista_da_janela_em_le_gras",
+    "nome": "Vista da janela em Le Gras",
+    "descricao": "Fotografia heliográfica feita por volta de 1826 na França, a mais antiga feita com câmera que se preservou.",
+    "variantes": [
+      "View from the Window at Le Gras",
+      "Point de vue du Gras"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/View_from_the_Window_at_Le_Gras"
+    ]
+  },
+  {
+    "id": "prensa_de_gutenberg",
+    "nome": "Prensa de Gutenberg",
+    "descricao": "Prensa de tipos móveis metálicos desenvolvida por Johannes Gutenberg em meados do século quinze.",
+    "variantes": [
+      "Imprensa de Gutenberg"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Printing_press"
+    ]
+  },
+  {
+    "id": "william_addis",
+    "nome": "William Addis",
+    "descricao": "Empresário inglês do século dezoito que criou um modelo de escova de dentes produzido em série.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/William_Addis"
+    ]
+  },
+  {
+    "id": "hercule_florence",
+    "nome": "Hercule Florence",
+    "descricao": "Inventor e desenhista francês (1804–1879) radicado no Brasil, pioneiro da fotografia no país.",
+    "variantes": [
+      "Antoine Hercule Romuald Florence"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Hercule_Florence",
+      "https://en.wikipedia.org/wiki/Hercule_Florence"
+    ]
+  },
+  {
+    "id": "biblia_de_gutenberg",
+    "nome": "Bíblia de Gutenberg",
+    "descricao": "Bíblia em latim impressa por Johannes Gutenberg em Mainz, o primeiro grande livro europeu feito com tipos móveis.",
+    "variantes": [
+      "Bíblia de 42 linhas"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gutenberg_Bible"
+    ]
+  },
+  {
+    "id": "irmaos_montgolfier",
+    "nome": "Irmãos Montgolfier",
+    "descricao": "Joseph-Michel e Jacques-Étienne Montgolfier, franceses que criaram o balão de ar quente em 1783.",
+    "variantes": [
+      "Montgolfier"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Montgolfier_brothers"
+    ]
+  },
+  {
+    "id": "bi_sheng",
+    "nome": "Bi Sheng",
+    "descricao": "Artesão chinês do século onze, criador da primeira técnica conhecida de impressão com tipos móveis.",
+    "variantes": [
+      "Pi Sheng"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bi_Sheng"
+    ]
+  },
+  {
+    "id": "draisiana",
+    "nome": "Draisiana",
+    "descricao": "Veículo de duas rodas movido com os pés no chão, criado pelo alemão Karl Drais em 1817, ancestral da bicicleta.",
+    "variantes": [
+      "Dandy horse",
+      "Laufmaschine"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dandy_horse"
+    ]
+  },
+  {
+    "id": "wright_flyer",
+    "nome": "Wright Flyer",
+    "descricao": "Avião dos irmãos Wright que voou em Kitty Hawk, nos Estados Unidos, em 17 de dezembro de 1903.",
+    "variantes": [
+      "Flyer",
+      "Flyer I"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wright_Flyer"
+    ]
+  },
+  {
+    "id": "antonie_van_leeuwenhoek",
+    "nome": "Antonie van Leeuwenhoek",
+    "descricao": "Comerciante e cientista holandês do século dezessete, pioneiro da microbiologia com microscópios que ele mesmo fabricava.",
+    "variantes": [
+      "Anton van Leeuwenhoek"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
     ]
   }
 ]
