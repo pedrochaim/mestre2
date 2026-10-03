@@ -1,0 +1,176 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Pedaços de metal cinza não são reconhecíveis como ferro; poderiam ser outro metal."
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Diagrama com muitas legendas em inglês, que entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Esfera polida de azul intenso com veios claros e pontos dourados de pirita, característica do lápis-lazúli; múltipla com pedras azuis parecidas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que pedra azul é esta?",
+      "resposta": "Lápis-lazúli",
+      "distratores": [
+        "Sodalita",
+        "Azurita",
+        "Turquesa"
+      ],
+      "ancora": {
+        "nome": "Lápis-lazúli",
+        "descricao": "Rocha metamórfica azul-escura composta sobretudo de lazurita, usada como pedra semipreciosa.",
+        "variantes": [
+          "Lazurita",
+          "Lapis lazuli"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto da mão de uma pessoa comum; a imagem mostra dedos, e a unha como alvo da pergunta é ambígua."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Hematita botrioidal, com superfície arredondada metálica e cor avermelhada, bem característica; distratores de aspecto parecido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que mineral é este?",
+      "resposta": "Hematita",
+      "distratores": [
+        "Goethita",
+        "Magnetita",
+        "Pirita"
+      ],
+      "ancora": {
+        "nome": "Hematita",
+        "descricao": "Mineral de óxido de ferro (Fe2O3), importante minério de ferro, de cor cinza metálica a vermelha.",
+        "variantes": [
+          "Hematite"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Micrografia eletrônica de uma célula pequena e amorfa; não é reconhecível como plaqueta e poderia ser outra célula."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Portas de metal com crosta marrom-avermelhada típica de ferrugem; imagem clara.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "O que é esta crosta marrom que cobre estas portas de metal?",
+      "resposta": "Ferrugem",
+      "distratores": [
+        "Verdete",
+        "Fuligem",
+        "Mofo"
+      ],
+      "ancora": {
+        "nome": "Ferrugem",
+        "descricao": "Óxido de ferro marrom-avermelhado formado pela reação do ferro com oxigênio na presença de água.",
+        "variantes": [
+          "Óxido de ferro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Desenho clássico de uma ameba com pseudópodes e forma irregular; só há letras abreviadas, que não entregam o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 2,
+      "tipo": "multipla",
+      "pergunta": "Que organismo unicelular é este?",
+      "resposta": "Ameba",
+      "distratores": [
+        "Paramécio",
+        "Euglena",
+        "Volvox"
+      ],
+      "ancora": {
+        "nome": "Ameba",
+        "descricao": "Organismo unicelular que muda de forma ao emitir pseudópodes, representado em desenho de microscopia.",
+        "variantes": [
+          "Amoeba",
+          "Ameboide"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Cristais metálicos prateados não são reconhecíveis como ósmio; muitos metais têm aparência igual. Há ainda uma escala de 1 mm."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Pelotas cilíndricas brancas com névoa característica de gelo seco; múltipla com sólidos brancos parecidos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "tipo": "multipla",
+      "pergunta": "Que substância é esta, em forma de pelotas?",
+      "resposta": "Gelo seco",
+      "distratores": [
+        "Naftalina",
+        "Sal grosso",
+        "Parafina"
+      ],
+      "ancora": {
+        "nome": "Gelo seco",
+        "descricao": "Dióxido de carbono em estado sólido, que sublima direto para gás e é usado como refrigerante.",
+        "variantes": [
+          "Dióxido de carbono sólido",
+          "CO2 sólido"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Diagrama com legendas em inglês que entregam a resposta (Trachea)."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Microscopia de células verdes alongadas de Euglena com a mancha ocular vermelha bem visível perto da ponta.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "destino": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama a pequena mancha vermelha perto da ponta desta célula?",
+      "resposta": "Mancha ocular",
+      "distratores": [
+        "Núcleo",
+        "Vacúolo contrátil",
+        "Cloroplasto"
+      ],
+      "ancora": {
+        "nome": "Euglena",
+        "descricao": "Gênero de protistas unicelulares flagelados, de água doce, com cloroplastos e uma mancha ocular vermelha.",
+        "variantes": [
+          "Euglena viridis",
+          "Euglena gracilis"
+        ]
+      }
+    }
+  ]
+}

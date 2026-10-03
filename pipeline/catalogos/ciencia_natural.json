@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 1,
       "status": "nova"
+    },
+    {
+      "nome": "Prata",
+      "titulo": "en:Silver",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Alumínio",
+      "titulo": "en:Aluminium",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ferro",
+      "titulo": "en:Iron",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ferrugem",
+      "titulo": "en:Rust",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Gelo seco",
+      "titulo": "en:Dry ice",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Dente",
+      "titulo": "en:Tooth",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Língua",
+      "titulo": "en:Tongue",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Impressão digital",
+      "titulo": "en:Fingerprint",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Cordão umbilical",
+      "titulo": "en:Umbilical cord",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Unha",
+      "titulo": "en:Nail (anatomy)",
+      "camada": 1,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Costela",
+      "titulo": "en:Rib",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Intestino delgado",
+      "titulo": "en:Small intestine",
+      "camada": 1,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Aedes aegypti",
+      "titulo": "en:Aedes aegypti",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Coronavírus SARS-CoV-2",
+      "titulo": "en:Severe acute respiratory syndrome coronavirus 2",
+      "camada": 1,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Platina",
+      "titulo": "en:Platinum",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Titânio",
+      "titulo": "en:Titanium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Magnésio",
+      "titulo": "en:Magnesium",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nitrogênio líquido",
+      "titulo": "en:Liquid nitrogen",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Hematita",
+      "titulo": "en:Hematite",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Turquesa",
+      "titulo": "en:Turquoise",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ágata",
+      "titulo": "en:Agate",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Útero",
+      "titulo": "en:Uterus",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Apêndice",
+      "titulo": "en:Appendix (anatomy)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Íris",
+      "titulo": "en:Iris (anatomy)",
+      "camada": 2,
+      "destino": 1,
+      "status": "nova"
+    },
+    {
+      "nome": "Traqueia",
+      "titulo": "en:Trachea",
+      "camada": 2,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Ameba",
+      "titulo": "en:Amoeba",
+      "camada": 2,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "HIV",
+      "titulo": "en:HIV",
+      "camada": 2,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Lítio",
+      "titulo": "en:Lithium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Césio",
+      "titulo": "en:Caesium",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ósmio",
+      "titulo": "en:Osmium",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Bauxita",
+      "titulo": "en:Bauxite",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Mica",
+      "titulo": "en:Mica",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lápis-lazúli",
+      "titulo": "en:Lapis lazuli",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Turmalina",
+      "titulo": "en:Tourmaline",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Plaqueta",
+      "titulo": "en:Platelet",
+      "camada": 3,
+      "destino": 1,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Euglena",
+      "titulo": "en:Euglena",
+      "camada": 3,
+      "destino": 2,
+      "status": "usada"
+    },
+    {
+      "nome": "Volvox",
+      "titulo": "en:Volvox",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Diatomácea",
+      "titulo": "en:Diatom",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Staphylococcus aureus",
+      "titulo": "en:Staphylococcus aureus",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
+    },
+    {
+      "nome": "Barbeiro",
+      "titulo": "en:Triatominae",
+      "camada": 3,
+      "destino": 2,
+      "status": "nova"
     }
   ]
 }

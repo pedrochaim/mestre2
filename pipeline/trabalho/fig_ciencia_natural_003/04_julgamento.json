@@ -1,0 +1,385 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Lápis-lazúli",
+        "descricao": "Rocha metamórfica azul-escura composta sobretudo de lazurita, usada como pedra semipreciosa.",
+        "variantes": [
+          "Lazurita"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fluorita",
+          "nome": "Fluorita",
+          "descricao": "Mineral de fluoreto de cálcio (CaF2), de dureza 4 na escala de Mohs, que forma cristais cúbicos coloridos.",
+          "variantes": [
+            "Fluorspar",
+            "Espatoflúor",
+            "Fluorite",
+            "Espato-flúor"
+          ]
+        },
+        {
+          "id": "malaquita",
+          "nome": "Malaquita",
+          "descricao": "Mineral de carbonato hidróxido de cobre, verde e bandado, de fórmula Cu2CO3(OH)2.",
+          "variantes": [
+            "Malachite"
+          ]
+        },
+        {
+          "id": "malaria",
+          "nome": "Malária",
+          "descricao": "Doença infecciosa causada por parasitas do gênero Plasmodium e transmitida por mosquitos.",
+          "variantes": [
+            "Paludismo",
+            "Impaludismo"
+          ]
+        },
+        {
+          "id": "selecao_italiana_de_futebol",
+          "nome": "Seleção Italiana de Futebol",
+          "descricao": "Seleção nacional de futebol da Itália, campeã mundial em 1934, 1938, 1982 e 2006.",
+          "variantes": [
+            "Azzurra",
+            "Squadra Azzurra"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Hematita",
+        "descricao": "Mineral de óxido de ferro (Fe2O3), importante minério de ferro, de cor cinza metálica a vermelha.",
+        "variantes": [
+          "Hematite"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hemacia",
+          "nome": "Hemácia",
+          "descricao": "Célula do sangue em forma de disco bicôncavo que transporta oxigênio por meio da hemoglobina.",
+          "variantes": [
+            "Glóbulo vermelho",
+            "Eritrócito"
+          ]
+        },
+        {
+          "id": "keffiyeh",
+          "nome": "Keffiyeh",
+          "descricao": "Lenço quadrado de algodão, tradicional entre homens do Oriente Médio, usado na cabeça e muitas vezes preso por um cordão chamado agal.",
+          "variantes": [
+            "Quefia",
+            "Shemagh",
+            "Ghutrah",
+            "Hattah",
+            "Kufiyya"
+          ]
+        },
+        {
+          "id": "chimarrao",
+          "nome": "Chimarrão",
+          "descricao": "Infusão quente de erva-mate tomada na cuia, bebida tradicional do Sul do Brasil",
+          "variantes": [
+            "Mate",
+            "Mate amargo"
+          ]
+        },
+        {
+          "id": "matrix",
+          "nome": "Matrix",
+          "descricao": "Filme de ficção científica de 1999, das irmãs Wachowski, sobre um programador que descobre viver numa realidade simulada.",
+          "variantes": [
+            "The Matrix"
+          ]
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Ferrugem",
+        "descricao": "Óxido de ferro marrom-avermelhado formado pela reação do ferro com oxigênio na presença de água.",
+        "variantes": [
+          "Óxido de ferro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "coroa_de_ferro_da_lombardia",
+          "nome": "Coroa de Ferro da Lombardia",
+          "descricao": "Coroa-relicário medieval de ouro e gemas, guardada na catedral de Monza, usada na coroação de reis da Itália.",
+          "variantes": [
+            "Coroa de Ferro",
+            "Corona Ferrea",
+            "Iron Crown of Lombardy"
+          ]
+        },
+        {
+          "id": "festa_de_iemanja",
+          "nome": "Festa de Iemanjá",
+          "descricao": "Celebração em homenagem ao orixá Iemanjá no bairro do Rio Vermelho, em Salvador",
+          "variantes": [
+            "Dois de Fevereiro",
+            "Festa do Rio Vermelho"
+          ]
+        },
+        {
+          "id": "assassinato_de_julio_cesar",
+          "nome": "Assassinato de Júlio César",
+          "descricao": "Morte de Júlio César a punhaladas por senadores nos Idos de Março de 44 antes de Cristo.",
+          "variantes": [
+            "Idos de Março",
+            "Assassination of Julius Caesar"
+          ]
+        },
+        {
+          "id": "friagem",
+          "nome": "Friagem",
+          "descricao": "Queda brusca de temperatura que atinge partes da Amazônia e do Centro-Oeste brasileiro no inverno",
+          "variantes": []
+        },
+        {
+          "id": "joao_de_barro",
+          "nome": "João-de-barro",
+          "descricao": "Ave sul-americana (Furnarius rufus) que constrói ninhos de barro em forma de forno.",
+          "variantes": [
+            "Forneiro",
+            "Hornero",
+            "Furnarius rufus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ameba",
+        "descricao": "Organismo unicelular que muda de forma ao emitir pseudópodes, representado em desenho de microscopia.",
+        "variantes": [
+          "Amoeba",
+          "Ameboide"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "gamba",
+          "nome": "Gambá",
+          "descricao": "Marsupial americano do gênero Didelphis, comum no Brasil.",
+          "variantes": [
+            "Didelphis",
+            "Saruê",
+            "Opossum",
+            "Timbu"
+          ]
+        },
+        {
+          "id": "ambar",
+          "nome": "Âmbar",
+          "descricao": "Material fóssil translúcido que às vezes preserva insetos e outros pequenos organismos.",
+          "variantes": [
+            "Amber"
+          ]
+        },
+        {
+          "id": "american_basketball_association",
+          "nome": "American Basketball Association",
+          "descricao": "Liga profissional americana de basquete que rivalizou com a NBA de 1967 a 1976.",
+          "variantes": [
+            "ABA"
+          ]
+        },
+        {
+          "id": "amonite",
+          "nome": "Amonite",
+          "descricao": "Grupo extinto de moluscos cefalópodes marinhos de concha em espiral, muito comuns como fósseis.",
+          "variantes": [
+            "Amonoide",
+            "Ammonoidea",
+            "Ammonite"
+          ]
+        },
+        {
+          "id": "samoa",
+          "nome": "Samoa",
+          "descricao": "País insular da Polinésia, no Pacífico Sul, cuja capital é Apia.",
+          "variantes": [
+            "Estado Independente de Samoa",
+            "Samoa Ocidental"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Gelo seco",
+        "descricao": "Dióxido de carbono em estado sólido, que sublima direto para gás e é usado como refrigerante.",
+        "variantes": [
+          "Dióxido de carbono sólido",
+          "CO2 sólido"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "el_greco",
+          "nome": "El Greco",
+          "descricao": "Pintor nascido na Grécia, que fez carreira em Toledo, na Espanha, e viveu de 1541 a 1614.",
+          "variantes": [
+            "Doménikos Theotokópoulos",
+            "O Grego"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "coprolito",
+          "nome": "Coprólito",
+          "descricao": "Fezes fossilizadas de animais, usadas para estudar a dieta de espécies extintas.",
+          "variantes": [
+            "Coprolite",
+            "Coprólitos"
+          ]
+        },
+        {
+          "id": "cem_anos_de_solidao",
+          "nome": "Cem Anos de Solidão",
+          "descricao": "Romance de Gabriel García Márquez, publicado em 1967, ambientado na cidade fictícia de Macondo.",
+          "variantes": [
+            "Cien años de soledad"
+          ]
+        },
+        {
+          "id": "lagartixa",
+          "nome": "Lagartixa",
+          "descricao": "Pequeno lagarto da família dos gecos, capaz de andar em paredes e tetos.",
+          "variantes": [
+            "Geco",
+            "Gecko",
+            "Lagartixa-de-parede"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Euglena",
+        "descricao": "Gênero de protistas unicelulares flagelados, de água doce, com cloroplastos e uma mancha ocular vermelha.",
+        "variantes": [
+          "Euglena viridis",
+          "Euglena gracilis"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "leonhard_euler",
+          "nome": "Leonhard Euler",
+          "descricao": "Matemático e físico suíço do século dezoito, fundador da teoria dos grafos.",
+          "variantes": [
+            "Euler"
+          ]
+        },
+        {
+          "id": "espiga",
+          "nome": "Espiga",
+          "descricao": "Estrela mais brilhante da constelação de Virgem.",
+          "variantes": [
+            "Spica",
+            "Alfa da Virgem",
+            "Alpha Virginis",
+            "Espiga (estrela)",
+            "Alfa Virginis"
+          ]
+        },
+        {
+          "id": "gengar",
+          "nome": "Gengar",
+          "descricao": "Pokémon dos tipos Fantasma e Veneno, número 94 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "quenia",
+          "nome": "Quênia",
+          "descricao": "País da África Oriental com bandeira de escudo maasai e lanças.",
+          "variantes": [
+            "República do Quênia",
+            "Kenya"
+          ]
+        },
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Lápis-lazúli não consta entre as candidatas, que são outros minerais e entidades sem relação."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Hematita é um mineral de ferro e nenhuma candidata descreve essa entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Ferrugem (óxido de ferro) é diferente de todas as candidatas."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Ameba é um organismo unicelular. Nenhuma candidata corresponde a ele."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Gelo seco (CO2 sólido) não aparece entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Euglena é um gênero de protistas e nenhuma candidata corresponde a ele."
+    }
+  ]
+}

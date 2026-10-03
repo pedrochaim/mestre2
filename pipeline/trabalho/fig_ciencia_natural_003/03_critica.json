@@ -1,0 +1,62 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza; distratores são pedras azuis parecidas e nenhum é a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, sem pista; distratores são minerais de ferro/metálicos parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Imagem coberta: 'crosta marrom' sobre 'portas de metal' já entrega ferrugem, e os distratores ficam implausíveis. Retiradas as pistas de cor e material.",
+      "reescrita": {
+        "pergunta": "Que substância é esta que cobre a superfície destas portas?",
+        "resposta": "Ferrugem",
+        "distratores": [
+          "Verdete",
+          "Fuligem",
+          "Mofo"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento sem vazamento; distratores são outros protistas de água doce.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Pelotas' descreve a forma sem entregar a substância; distratores do mesmo tipo (sólidos comuns).",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta 'Mancha ocular' repete a palavra 'mancha' do enunciado (vazamento). O termo também é chamado estigma.",
+      "reescrita": {
+        "pergunta": "Como se chama a pequena estrutura vermelha perto da ponta desta célula?",
+        "resposta": "Mancha ocular (estigma)",
+        "distratores": [
+          "Núcleo",
+          "Vacúolo contrátil",
+          "Cloroplasto"
+        ]
+      }
+    }
+  ]
+}
