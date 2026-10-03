@@ -1,0 +1,224 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Retrato claro, sem texto, figura pública.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este líder revolucionário do século vinte?",
+      "resposta": "Fidel Castro",
+      "destino": 5,
+      "ancora": {
+        "nome": "Fidel Castro",
+        "descricao": "Líder revolucionário cubano que governou Cuba de 1959 a 2011.",
+        "variantes": [
+          "Fidel Alejandro Castro Ruz"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato claro de Wilson, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este presidente americano assumiu o cargo?",
+      "resposta": "1913",
+      "destino": 6,
+      "ancora": {
+        "nome": "Woodrow Wilson",
+        "descricao": "28º presidente dos Estados Unidos, de 1913 a 1921, que liderou o país na Primeira Guerra Mundial.",
+        "variantes": [
+          "Thomas Woodrow Wilson"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Retrato nítido, sem texto legível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este líder da independência africana?",
+      "resposta": "Patrice Lumumba",
+      "destino": 9,
+      "ancora": {
+        "nome": "Patrice Lumumba",
+        "descricao": "Primeiro-ministro do Congo independente em 1960, líder do Movimento Nacional Congolês.",
+        "variantes": [
+          "Patrice Émery Lumumba"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Retrato pintado clássico, sem texto.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que século morreu este governante, retratado numa pintura chinesa sobre seda?",
+      "resposta": "Século treze",
+      "distratores": [
+        "Século onze",
+        "Século quinze",
+        "Século dezessete"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Gengis Khan",
+        "descricao": "Fundador e primeiro grão-khan do Império Mongol, morto em 1227.",
+        "variantes": [
+          "Genghis Khan",
+          "Chinggis Khan",
+          "Temujin"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto antiga legível, sem texto; reconhecimento moderado, por isso múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este diplomata brasileiro do início do século vinte?",
+      "resposta": "Barão do Rio Branco",
+      "distratores": [
+        "Joaquim Nabuco",
+        "Rui Barbosa",
+        "Campos Sales"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Barão do Rio Branco",
+        "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+        "variantes": [
+          "José Maria da Silva Paranhos Júnior",
+          "Rio Branco"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto colorida nítida com cachimbo e quepe característicos, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que general americano é este?",
+      "resposta": "Douglas MacArthur",
+      "distratores": [
+        "George Patton",
+        "Omar Bradley",
+        "Mark Clark"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Douglas MacArthur",
+        "descricao": "General americano, comandante no Pacífico na Segunda Guerra Mundial e da ocupação do Japão.",
+        "variantes": [
+          "General MacArthur"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Pintura de retrato clara; texto minúsculo no globo não entrega o nome.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano morreu este rei, retratado ao lado de um globo?",
+      "resposta": "1826",
+      "destino": 8,
+      "ancora": {
+        "nome": "Dom João VI",
+        "descricao": "Rei do Reino Unido de Portugal, Brasil e Algarves, que transferiu a corte para o Rio de Janeiro em 1808.",
+        "variantes": [
+          "João VI de Portugal",
+          "D. João VI"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "A foto, com uniforme de almirante britânico, é frequentemente confundida com George V; resposta não única."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido, bigode característico, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que estadista francês é este?",
+      "resposta": "Georges Clemenceau",
+      "distratores": [
+        "Raymond Poincaré",
+        "Aristide Briand",
+        "Léon Gambetta"
+      ],
+      "destino": 6,
+      "ancora": {
+        "nome": "Georges Clemenceau",
+        "descricao": "Estadista francês, primeiro-ministro de 1917 a 1920, figura central do Tratado de Versalhes.",
+        "variantes": [
+          "Clemenceau"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A foto mostra um rapaz jovem de perfil, não reconhecível como Che Guevara; identificação duvidosa e imagem de baixa qualidade."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato oficial claro e sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que operação aliada na França, em 1944, foi comandada por este general?",
+      "resposta": "Operação Overlord",
+      "distratores": [
+        "Operação Market Garden",
+        "Operação Barbarossa",
+        "Operação Citadel"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Dwight D. Eisenhower",
+        "descricao": "General americano, comandante supremo aliado na Europa e 34º presidente dos Estados Unidos.",
+        "variantes": [
+          "Eisenhower",
+          "Ike"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato colorido nítido com uniforme naval japonês, sem texto.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano morreu este almirante japonês da Segunda Guerra Mundial?",
+      "resposta": "1943",
+      "destino": 7,
+      "ancora": {
+        "nome": "Isoroku Yamamoto",
+        "descricao": "Almirante da Marinha Imperial Japonesa, comandante da Frota Combinada, morto em 1943.",
+        "variantes": [
+          "Yamamoto"
+        ]
+      }
+    }
+  ]
+}

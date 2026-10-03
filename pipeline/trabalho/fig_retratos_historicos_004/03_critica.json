@@ -1,0 +1,85 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista genérica (líder revolucionário do século vinte) não entrega a resposta; a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura não se sabe qual presidente; 1913 confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista ampla, não identifica sozinha; trechos confirmam que foi líder da independência.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A afirmação 'pintura chinesa sobre seda' descreve a imagem e não está em 'mostra' nem nos trechos; não pode ser verificada. Retirei a afirmação. Morte em 1227 (século treze) confirmada.",
+      "reescrita": {
+        "pergunta": "Em que século morreu este governante medieval da Ásia?",
+        "resposta": "Século treze",
+        "distratores": [
+          "Século onze",
+          "Século quinze",
+          "Século dezessete"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de época e nacionalidade ajuda sem entregar; distratores são brasileiros da mesma época e críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado mínimo, depende da figura; distratores são generais americanos da mesma guerra, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Retratado ao lado de um globo' descreve a imagem sem apoio em 'mostra'; não verificável. Morte em 1826 confirmada. Reescrita sem a pista, sem entregar com 'transferiu a corte'.",
+      "reescrita": {
+        "pergunta": "Em que ano morreu este rei português do início do século dezenove?",
+        "resposta": "1826"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista de nacionalidade e função ajuda sem entregar; distratores franceses da mesma época, nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Overlord é confirmado, mas a pergunta responde-se quase sem a figura (a operação aliada famosa na França em 1944). Os distratores Barbarossa e Citadel são da frente oriental, pouco críveis. Reescrever com outros distratores ou outra pista ainda deixaria o enunciado entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem a figura não se sabe qual almirante; morte em 18 de abril de 1943 confirmada nos trechos.",
+      "reescrita": null
+    }
+  ]
+}
