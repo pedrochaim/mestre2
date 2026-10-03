@@ -1,0 +1,192 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Tomografia 3D de pulmões, limpa, sem texto, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que órgão do corpo humano aparece nesta imagem de tomografia?",
+      "resposta": "Pulmões",
+      "destino": 1,
+      "ancora": {
+        "nome": "Pulmão",
+        "descricao": "Órgão par do sistema respiratório responsável pelas trocas gasosas.",
+        "variantes": [
+          "Pulmões"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": false,
+      "motivo": "Diagrama cheio de texto: os nomes das vértebras e da coluna aparecem escritos e entregam a resposta."
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Microscopia nítida de colônias esféricas com colônias-filhas, reconhecível.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que alga verde, que forma colônias esféricas, aparece nesta imagem de microscópio?",
+      "resposta": "Volvox",
+      "distratores": [
+        "Pandorina",
+        "Eudorina",
+        "Chlamydomonas"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Volvox",
+        "descricao": "Gênero de algas verdes de água doce que formam colônias esféricas de milhares de células.",
+        "variantes": [
+          "Volvox sp."
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Corte de geodo com bandas concêntricas típicas de ágata, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pedra é esta, vista em corte?",
+      "resposta": "Ágata",
+      "distratores": [
+        "Opala",
+        "Jaspe",
+        "Ametista"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ágata",
+        "descricao": "Variedade de calcedônia com bandas coloridas, comum em geodos de rochas vulcânicas.",
+        "variantes": [
+          "Agate"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A ilustração traz legendas em latim, inclusive 'Cochlea', que entrega a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Ilustração limpa da caixa torácica com as costelas coloridas, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que ossos do corpo humano estão destacados em cores nesta ilustração?",
+      "resposta": "Costelas",
+      "destino": 1,
+      "ancora": {
+        "nome": "Costela",
+        "descricao": "Osso longo e curvo que forma a caixa torácica e protege órgãos do tórax.",
+        "variantes": [
+          "Costelas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Macro nítida de olho com íris castanha, sem rosto identificável nem texto.",
+      "familia": "que_parte",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que parte colorida do olho é esta?",
+      "resposta": "Íris",
+      "distratores": [
+        "Córnea",
+        "Esclera",
+        "Retina"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Íris",
+        "descricao": "Estrutura em forma de anel do olho que controla o tamanho da pupila e define a cor dos olhos.",
+        "variantes": [
+          "Iris"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Imagem muito pequena e de baixa resolução, ilegível no celular, e o inseto pode ser confundido com outros percevejos reduvídeos."
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Cristal metálico cinza que não permite reconhecer a prata: pode ser outro metal. Resposta não única diante da imagem."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Cobre nativo cristalino de cor característica, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que elemento químico metálico é este?",
+      "resposta": "Cobre",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cobre",
+        "descricao": "Elemento químico de símbolo Cu e número atômico 29, metal avermelhado condutor de calor e eletricidade.",
+        "variantes": [
+          "Cu",
+          "Cobre nativo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Ampola com metal líquido de brilho dourado, característica do césio; distratores plausíveis em múltipla escolha.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que metal está guardado nesta ampola de vidro?",
+      "resposta": "Césio",
+      "distratores": [
+        "Mercúrio",
+        "Gálio",
+        "Rubídio"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Césio",
+        "descricao": "Elemento químico de símbolo Cs e número atômico 55, metal alcalino dourado que derrete perto da temperatura ambiente.",
+        "variantes": [
+          "Cs",
+          "Cesium",
+          "Caesium"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Cristais de ouro de cor inconfundível; só uma escala discreta, que não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que metal, em forma de cristais, é este?",
+      "resposta": "Ouro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Ouro",
+        "descricao": "Elemento químico de símbolo Au e número atômico 79, metal amarelo, denso e maleável.",
+        "variantes": [
+          "Au",
+          "Gold"
+        ]
+      }
+    }
+  ]
+}

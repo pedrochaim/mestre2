@@ -1,0 +1,76 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1, sem vazamento; pergunta curta e resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado entrega a resposta, porque colônias esféricas de alga verde é a marca do Volvox. Pandorina e Eudorina também formam colônias esféricas, então os distratores também descrevem o enunciado. A reescrita tira a pista e usa distratores que não são colônias esféricas, exceto Pandorina, que se distingue pela imagem.",
+      "reescrita": {
+        "pergunta": "Que gênero de alga verde de água doce aparece nesta imagem de microscópio?",
+        "resposta": "Volvox",
+        "distratores": [
+          "Pandorina",
+          "Spirogyra",
+          "Chlamydomonas"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta curta, sem vazamento. A ágata em corte tem bandas características e os distratores são pedras plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem vazamento; as costelas ficam destacadas na ilustração.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista 'parte colorida do olho' é a definição da íris e responde sem a imagem (teste da imagem coberta). A reescrita tira a pista.",
+      "reescrita": {
+        "pergunta": "Que estrutura do olho aparece em destaque nesta foto de perto?",
+        "resposta": "Íris",
+        "distratores": [
+          "Córnea",
+          "Esclera",
+          "Retina"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1; 'metálico' é uma pista genérica que não entrega o elemento.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega o metal. Os distratores são outros metais líquidos ou alcalinos, e a cor dourada do césio na imagem os diferencia.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Nível 1; 'cristais' é uma pista genérica que não entrega o metal.",
+      "reescrita": null
+    }
+  ]
+}
