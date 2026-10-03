@@ -1,0 +1,178 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Por que Wilhelm Röntgen usou a letra X para batizar os raios que descobriu em 1895?",
+        "resposta": "Porque sua natureza era desconhecida"
+      },
+      "existentes": [
+        {
+          "id": "q00637",
+          "pergunta": "Em 1895, uma das primeiras radiografias da história mostrou a mão, com aliança, da esposa de qual físico alemão?",
+          "resposta": "Wilhelm Röntgen"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1665, Isaac Newton deixou Cambridge e foi para a fazenda da família, onde teria visto a famosa maçã cair. Por que ele saiu da universidade?",
+        "resposta": "A peste fechou a universidade"
+      },
+      "existentes": [
+        {
+          "id": "q00863",
+          "pergunta": "Qual obra de 1687 deste cientista inglês estabeleceu a mecânica clássica?",
+          "resposta": "Principia Mathematica"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Além da física, Isaac Newton dirigiu por décadas que instituição inglesa, onde chegou a perseguir falsificadores?",
+        "resposta": "Casa da Moeda Real"
+      },
+      "existentes": [
+        {
+          "id": "q00863",
+          "pergunta": "Qual obra de 1687 deste cientista inglês estabeleceu a mecânica clássica?",
+          "resposta": "Principia Mathematica"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "O Nobel de Física de 1921 não premiou Einstein pela relatividade. Que fenômeno ele explicou para ganhar o prêmio?",
+        "resposta": "Efeito fotoelétrico"
+      },
+      "existentes": [
+        {
+          "id": "q00860",
+          "pergunta": "Que físico é este?",
+          "resposta": "Albert Einstein"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "O engenheiro Percy Spencer teve a ideia do forno de micro-ondas quando um doce derreteu no seu bolso enquanto ele trabalhava com que equipamento militar?",
+        "resposta": "Radar"
+      },
+      "existentes": [
+        {
+          "id": "q00881",
+          "pergunta": "Nos anos quarenta, o engenheiro Percy Spencer trabalhava perto de um equipamento de radar quando algo derreteu no seu bolso. O que era?",
+          "resposta": "Uma barra de chocolate"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Nos experimentos de Luigi Galvani, que levaram Alessandro Volta à disputa da qual nasceu a pilha elétrica, as pernas de que animal se contraíam?",
+        "resposta": "Rã"
+      },
+      "existentes": [
+        {
+          "id": "q00901",
+          "pergunta": "Em 1800, que físico italiano empilhou discos de metal para criar a pilha elétrica e hoje dá nome à unidade de tensão?",
+          "resposta": "Alessandro Volta"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "O físico Stephen Hawking nasceu em oito de janeiro de 1942, exatamente trezentos anos após a morte de que cientista italiano?",
+        "resposta": "Galileu Galilei"
+      },
+      "existentes": [
+        {
+          "id": "q01422",
+          "pergunta": "Que cientista é este, famoso por seus estudos sobre buracos negros?",
+          "resposta": "Stephen Hawking"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Segundo uma história provavelmente lendária, de que torre Galileu soltou objetos de pesos diferentes para mostrar que eles caem juntos?",
+        "resposta": "Torre de Pisa"
+      },
+      "existentes": [
+        {
+          "id": "q01033",
+          "pergunta": "Este cientista italiano apontou um telescópio aperfeiçoado para qual planeta e descobriu suas quatro maiores luas?",
+          "resposta": "Júpiter"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O que existe entre as duas paredes de uma garrafa térmica tradicional para dificultar a passagem do calor?",
+        "resposta": "Vácuo"
+      },
+      "existentes": [
+        {
+          "id": "q00900",
+          "pergunta": "Que cientista escocês criou, em 1892, o frasco de parede dupla com vácuo que deu origem à garrafa térmica?",
+          "resposta": "James Dewar"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o motivo do nome X; a existente pergunta quem é o físico da radiografia."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Motivo de Newton sair de Cambridge é fato diferente da obra de 1687."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Direção da Casa da Moeda é fato diferente."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nobel de Einstein é fato diferente de identificá-lo."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma anedota de Spencer; saber o contexto do radar e do chocolate é o mesmo fato.",
+      "id_existente": "q00881"
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Animal nos experimentos de Galvani é fato diferente da invenção da pilha por Volta."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Coincidência de data com a morte de Galileu é fato distinto."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Torre de Pisa é diferente das luas de Júpiter."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Vácuo entre as paredes é o princípio; a existente pergunta quem criou o frasco (Dewar), fato diferente."
+    }
+  ]
+}
