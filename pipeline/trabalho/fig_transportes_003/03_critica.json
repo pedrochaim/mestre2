@@ -1,0 +1,65 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Air Force One é um indicativo de chamada, não um modelo. A foto mostra um Boeing VC-25 (ou outro avião), e 'VC-25' ou 'Boeing 747' seriam respostas defensáveis. Não dá para consertar sem entregar a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que os TGV foram construídos pela Alstom (antes Alsthom). O enunciado não vaza a resposta e a figura é necessária para reconhecer o trem. A resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam a construção em 1869. Os distratores são anos plausíveis e errados, e o enunciado não vaza a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Embarcação nordestina' praticamente entrega 'jangada' no teste da imagem coberta. Troquei a pista por uma mais ampla.",
+      "reescrita": {
+        "pergunta": "Que embarcação artesanal de pesca à vela, feita de madeira, é esta?",
+        "resposta": "Jangada",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que o Maverick é da Ford. O enunciado não vaza a resposta, a resposta é única e os distratores são montadoras críveis e erradas.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O fato está nos trechos, mas os distratores são fracos. 'Limusine presidencial' e 'Furgão blindado' são descrições que poderiam caber na imagem, e não nomes do mesmo tipo da resposta. Troquei por alternativas distintas e curtas.",
+      "reescrita": {
+        "pergunta": "Como se chama este veículo especial?",
+        "resposta": "Papamóvel",
+        "distratores": [
+          "Carro-forte",
+          "Jipe de safári",
+          "Carro alegórico"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em inglês diz que o jipe lunar foi usado pela primeira vez em 31 de julho de 1971, na Apollo 15. A resposta 1971 é correta e única, e o enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}

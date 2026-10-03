@@ -131,7 +131,7 @@
       "titulo": "en:TGV",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Maglev de Xangai",
@@ -180,7 +180,7 @@
       "titulo": "en:Mercedes-Benz 300 SL",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "reprovada"
     },
     {
       "nome": "Spitfire",
@@ -215,7 +215,7 @@
       "titulo": "en:Cutty Sark",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Flying Scotsman",
@@ -276,6 +276,286 @@
     {
       "nome": "Locomotiva Baronesa",
       "titulo": "pt:Baronesa (locomotiva)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jangada",
+      "titulo": "en:Jangada",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Carro de boi",
+      "titulo": "pt:Carro de boi",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Balão de ar quente",
+      "titulo": "en:Hot air balloon",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dirigível",
+      "titulo": "en:Airship",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Maria-fumaça (locomotiva a vapor)",
+      "titulo": "en:Steam locomotive",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Air Force One",
+      "titulo": "en:Air Force One",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Mini",
+      "titulo": "en:Mini (Mark I)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Fiat 500",
+      "titulo": "en:Fiat 500 (1957)",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Papamóvel",
+      "titulo": "en:Popemobile",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Riquixá",
+      "titulo": "en:Rickshaw",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Helicóptero",
+      "titulo": "en:Helicopter",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Drakkar (barco viking)",
+      "titulo": "en:Longship",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Porta-aviões",
+      "titulo": "en:Aircraft carrier",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ferrari F40",
+      "titulo": "en:Ferrari F40",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bugatti Veyron",
+      "titulo": "en:Bugatti Veyron",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Land Rover Defender",
+      "titulo": "en:Land Rover Defender",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Toyota Bandeirante",
+      "titulo": "pt:Toyota Bandeirante",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chevrolet Chevette",
+      "titulo": "en:Chevrolet Chevette",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ford Maverick",
+      "titulo": "en:Ford Maverick (1970–1977)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Lambretta",
+      "titulo": "en:Lambretta",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Honda Super Cub",
+      "titulo": "en:Honda Super Cub",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Boeing 737",
+      "titulo": "en:Boeing 737",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Lockheed C-130 Hercules",
+      "titulo": "en:Lockheed C-130 Hercules",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Dirigível da Goodyear",
+      "titulo": "en:Goodyear Blimp",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Bombardeiro B-2 Spirit",
+      "titulo": "en:Northrop B-2 Spirit",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Foguete Saturno V",
+      "titulo": "en:Saturn V",
+      "camada": 2,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Hovercraft",
+      "titulo": "en:Hovercraft",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galeão",
+      "titulo": "en:Galleon",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Locomotiva Big Boy",
+      "titulo": "en:Union Pacific Big Boy",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Navio Vasa",
+      "titulo": "en:Vasa (ship)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "HMS Victory",
+      "titulo": "en:HMS Victory",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Submarino USS Nautilus",
+      "titulo": "en:USS Nautilus (SSN-571)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Demoiselle, de Santos-Dumont",
+      "titulo": "en:Santos-Dumont Demoiselle",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Spirit of St. Louis",
+      "titulo": "en:Spirit of St. Louis",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Embraer KC-390 Millennium",
+      "titulo": "en:Embraer C-390 Millennium",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Jaguar E-Type",
+      "titulo": "en:Jaguar E-Type",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Aston Martin DB5",
+      "titulo": "en:Aston Martin DB5",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Citroën DS",
+      "titulo": "en:Citroën DS",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Jipe lunar (Lunar Roving Vehicle)",
+      "titulo": "en:Lunar Roving Vehicle",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Piaggio Ape",
+      "titulo": "en:Piaggio Ape",
       "camada": 3,
       "destino": 0,
       "status": "nova"

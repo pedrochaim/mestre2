@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que embarcação artesanal de pesca à vela, feita de madeira, é esta?",
+        "resposta": "Jangada"
+      },
+      "existentes": [
+        {
+          "id": "q02305",
+          "pergunta": "Como se chamam os pescadores artesanais que navegam nestas embarcações de madeira do litoral nordestino?",
+          "resposta": "Jangadeiros"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pergunta pede o nome da embarcação (jangada); a existente pede o nome dos pescadores (jangadeiros). São fatos diferentes, e saber um não leva necessariamente ao outro."
+    }
+  ]
+}

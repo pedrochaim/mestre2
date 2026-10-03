@@ -1,0 +1,171 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto nítida do avião presidencial; nenhum texto diz o nome. Monte Rushmore ao fundo é só cenário.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que avião é este?",
+      "resposta": "Air Force One",
+      "destino": 0,
+      "ancora": {
+        "nome": "Air Force One",
+        "descricao": "Indicativo de chamada de aeronave da Força Aérea dos EUA que leva o presidente, em geral o Boeing VC-25.",
+        "variantes": [
+          "VC-25",
+          "Força Aérea Um"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Dois TGV (Sud-Est laranja e Duplex) bem visíveis; o texto SNCF é só a operadora e não entrega o fabricante. Pessoas ao fundo são pequenas.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que empresa fabricou estes trens de alta velocidade?",
+      "resposta": "Alstom",
+      "destino": 0,
+      "ancora": {
+        "nome": "TGV",
+        "descricao": "Trem francês de alta velocidade operado pela SNCF.",
+        "variantes": [
+          "Train à Grande Vitesse"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Veleiro inteiro e reconhecível; o nome no casco é minúsculo e ilegível no celular.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi construído este veleiro?",
+      "resposta": "1869",
+      "distratores": [
+        "1849",
+        "1889",
+        "1909"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cutty Sark",
+        "descricao": "Clíper britânico construído em 1869, preservado em Greenwich, Londres.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Duas jangadas claras, com velas latinas típicas; pessoas distantes e pequenas.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que embarcação nordestina é esta?",
+      "resposta": "Jangada",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jangada",
+        "descricao": "Embarcação de pesca à vela, de madeira, típica do Nordeste do Brasil.",
+        "variantes": [
+          "Jangadas"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Montagem de 13 lançamentos com legendas (Apollo 4, Skylab 1 etc.) e texto visível; entrega e confunde."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: KC-39 na cauda e Força Aérea Brasileira na fuselagem."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Foto histórica com pessoas comuns em primeiro plano (puxadores e passageiras)."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de um Maverick; o emblema é pequeno e não legível, e a placa não ajuda.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que montadora fabricou este carro?",
+      "resposta": "Ford",
+      "distratores": [
+        "Chevrolet",
+        "Dodge",
+        "Plymouth"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ford Maverick",
+        "descricao": "Carro compacto da Ford, produzido a partir de 1970, com versão brasileira de 1973 a 1979.",
+        "variantes": [
+          "Maverick"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Texto visível entrega a resposta: Spirit of St. Louis escrito no capô e N-X-211 Ryan na cauda."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Papamóvel bem visível, com o papa dentro. A Casa Branca ao fundo é cenário.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Como se chama este veículo?",
+      "resposta": "Papamóvel",
+      "distratores": [
+        "Limusine presidencial",
+        "Carro de gala",
+        "Furgão blindado"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Papamóvel",
+        "descricao": "Veículo especial usado pelo papa em aparições públicas.",
+        "variantes": [
+          "Popemobile"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "A placa WI SL 300H e a estrela da Mercedes na grade entregam a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida do jipe lunar, sem texto. O cenário lunar não identifica o veículo.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano este veículo foi usado pela primeira vez na Lua?",
+      "resposta": "1971",
+      "destino": 0,
+      "ancora": {
+        "nome": "Jipe lunar",
+        "descricao": "Veículo elétrico de quatro rodas usado pelos astronautas das missões Apollo 15, 16 e 17.",
+        "variantes": [
+          "Lunar Roving Vehicle",
+          "LRV",
+          "Moon buggy"
+        ]
+      }
+    }
+  ]
+}
