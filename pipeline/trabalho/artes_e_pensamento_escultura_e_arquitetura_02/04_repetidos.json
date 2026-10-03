@@ -1,0 +1,449 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A Alhambra, conjunto de palácios e fortaleza dos reis muçulmanos da Espanha, fica em que cidade da Andaluzia?",
+        "resposta": "Granada"
+      },
+      "existentes": [
+        {
+          "id": "q00386",
+          "pergunta": "Que palácio é este?",
+          "resposta": "Alhambra"
+        },
+        {
+          "id": "q02033",
+          "pergunta": "O conjunto de palácios mouros da Alhambra, último grande reduto muçulmano da Espanha, fica em qual cidade?",
+          "resposta": "Granada"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "A pequena estátua de bronze de um menino fazendo xixi numa fonte, o Manneken Pis, é símbolo de que capital europeia?",
+        "resposta": "Bruxelas"
+      },
+      "existentes": [
+        {
+          "id": "q02032",
+          "pergunta": "A pequena estátua de bronze de um menino fazendo xixi numa fonte, o Manneken Pis, é símbolo de qual cidade europeia?",
+          "resposta": "Bruxelas"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que escultor francês criou a estátua do Cristo Redentor, inaugurada em 1931 no alto do Corcovado?",
+        "resposta": "Paul Landowski"
+      },
+      "existentes": [
+        {
+          "id": "q02025",
+          "pergunta": "Qual escultor francês criou a estátua do Cristo Redentor, no alto do Corcovado?",
+          "resposta": "Paul Landowski"
+        },
+        {
+          "id": "q02026",
+          "pergunta": "O concreto do Cristo Redentor é revestido por milhares de pequenos triângulos de qual pedra?",
+          "resposta": "Pedra-sabão"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que arquiteta nascida na Itália projetou o prédio do MASP, suspenso sobre um grande vão livre na Avenida Paulista?",
+        "resposta": "Lina Bo Bardi"
+      },
+      "existentes": [
+        {
+          "id": "q02030",
+          "pergunta": "Na Avenida Paulista, o prédio do Museu de Arte de São Paulo, suspenso sobre um vão livre, foi projetado por qual arquiteta?",
+          "resposta": "Lina Bo Bardi"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Que rainha estrangeira esteve na inauguração da sede do MASP na Avenida Paulista, em 1968, e inaugurou a Ópera de Sydney, em 1973?",
+        "resposta": "Elizabeth II"
+      },
+      "existentes": [
+        {
+          "id": "q02030",
+          "pergunta": "Na Avenida Paulista, o prédio do Museu de Arte de São Paulo, suspenso sobre um vão livre, foi projetado por qual arquiteta?",
+          "resposta": "Lina Bo Bardi"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Que arquiteto dinamarquês venceu o concurso para a Ópera de Sydney, mas abandonou a obra antes de vê-la pronta?",
+        "resposta": "Jørn Utzon"
+      },
+      "existentes": [
+        {
+          "id": "q02028",
+          "pergunta": "A Ópera de Sydney, com suas cascas brancas em forma de velas, foi projetada por qual arquiteto dinamarquês?",
+          "resposta": "Jørn Utzon"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Encomendada pelo presidente François Mitterrand, a pirâmide de vidro na entrada do Museu do Louvre foi projetada por que arquiteto sino-americano?",
+        "resposta": "I. M. Pei"
+      },
+      "existentes": [
+        {
+          "id": "q02029",
+          "pergunta": "Qual arquiteto sino-americano projetou a pirâmide de vidro que serve de entrada ao Museu do Louvre?",
+          "resposta": "I. M. Pei"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Que czar mandou erguer a Catedral de São Basílio, na Praça Vermelha, para celebrar a conquista da cidade de Kazan?",
+        "resposta": "Ivan, o Terrível"
+      },
+      "existentes": [
+        {
+          "id": "q03471",
+          "pergunta": "Em que século foi construída esta catedral?",
+          "resposta": "Século dezesseis"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Os milhares de guerreiros de terracota de Xian foram feitos para guardar o túmulo de que imperador, o unificador da China?",
+        "resposta": "Qin Shi Huang"
+      },
+      "existentes": [
+        {
+          "id": "q03361",
+          "pergunta": "Por que milhares de soldados de barro foram enterrados junto ao túmulo do imperador chinês Qin Shi Huang?",
+          "resposta": "Para protegê-lo após a morte"
+        },
+        {
+          "id": "q03362",
+          "pergunta": "Em que década do século vinte agricultores chineses que cavavam um poço encontraram o Exército de Terracota?",
+          "resposta": "Década de 1970"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "A fachada do Panteão de Roma traz o nome de Agripa, mas o edifício que vemos hoje foi reconstruído por que imperador, no século dois?",
+        "resposta": "Adriano"
+      },
+      "existentes": [
+        {
+          "id": "q02520",
+          "pergunta": "Que edifício da Roma antiga é este?",
+          "resposta": "Panteão"
+        },
+        {
+          "id": "q03196",
+          "pergunta": "Como se chama a abertura circular no topo da cúpula do Panteão de Roma, por onde entram luz e chuva?",
+          "resposta": "Óculo"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Em novembro de 1889, o palacete neogótico da Ilha Fiscal, no Rio, sediou o último baile do Império. Que acontecimento veio seis dias depois?",
+        "resposta": "Proclamação da República"
+      },
+      "existentes": [
+        {
+          "id": "q02224",
+          "pergunta": "O Baile da Ilha Fiscal, na baía de Guanabara, foi a última grande festa do Império. Ele aconteceu poucos dias antes de qual acontecimento?",
+          "resposta": "Proclamação da República"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "Marco da arquitetura gótica, a Catedral de Notre-Dame de Paris teve sua construção iniciada em que século?",
+        "resposta": "Século doze"
+      },
+      "existentes": [
+        {
+          "id": "q01920",
+          "pergunta": "Que catedral gótica é esta?",
+          "resposta": "Notre-Dame de Paris"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Com sua cor laranja inconfundível, a ponte Golden Gate, em São Francisco, foi aberta ao público em que década?",
+        "resposta": "Década de 1930"
+      },
+      "existentes": [
+        {
+          "id": "q02039",
+          "pergunta": "Apesar do nome dourado, a ponte Golden Gate, em São Francisco, é pintada numa cor de nome oficial próprio. Qual?",
+          "resposta": "Laranja internacional"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Em 1919, o tratado que encerrou a Primeira Guerra Mundial foi assinado em que salão do Palácio de Versalhes?",
+        "resposta": "Galeria dos Espelhos"
+      },
+      "existentes": [
+        {
+          "id": "q02447",
+          "pergunta": "Em que país fica este palácio, residência de reis por mais de um século?",
+          "resposta": "França"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Em Londres, muita gente chama a torre do relógio do Parlamento de Big Ben. Mas, originalmente, esse nome se refere a quê?",
+        "resposta": "Ao grande sino"
+      },
+      "existentes": [
+        {
+          "id": "q01997",
+          "pergunta": "Em Londres, o apelido Big Ben se refere originalmente a qual parte da famosa torre do relógio?",
+          "resposta": "O grande sino"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "O estilo das catedrais medievais de arcos pontudos recebeu dos renascentistas italianos um nome pejorativo, como sinônimo de bárbaro. Ele vem de que povo germânico?",
+        "resposta": "Godos"
+      },
+      "existentes": [
+        {
+          "id": "q00098",
+          "pergunta": "O estilo das catedrais de Notre-Dame e de Chartres ganhou, séculos depois, um nome pejorativo que o ligava a que povo germânico?",
+          "resposta": "Godos"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "Que engenheiro francês, mais famoso por uma torre de ferro em Paris, projetou a estrutura interna da Estátua da Liberdade?",
+        "resposta": "Gustave Eiffel"
+      },
+      "existentes": [
+        {
+          "id": "q02008",
+          "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+          "resposta": "Oxidação do cobre"
+        },
+        {
+          "id": "q02018",
+          "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+          "resposta": "Torre Eiffel"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "O Cristo Rei de braços abertos em Almada, do outro lado do rio Tejo diante de Lisboa, foi inspirado em que monumento brasileiro?",
+        "resposta": "Cristo Redentor"
+      },
+      "existentes": [
+        {
+          "id": "q02019",
+          "pergunta": "Em Almada, de frente para Lisboa, a grande estátua do Cristo Rei foi inspirada em qual monumento brasileiro?",
+          "resposta": "Cristo Redentor"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "O luxuoso Teatro Amazonas, inaugurado em Manaus no fim do século dezenove, foi erguido com a riqueza de que ciclo econômico?",
+        "resposta": "Ciclo da borracha"
+      },
+      "existentes": [
+        {
+          "id": "q00388",
+          "pergunta": "Que teatro é este?",
+          "resposta": "Teatro Amazonas"
+        },
+        {
+          "id": "q02417",
+          "pergunta": "O luxuoso Teatro Amazonas, em Manaus, foi erguido no fim do século dezenove com a riqueza de que produto da floresta?",
+          "resposta": "Borracha"
+        }
+      ]
+    },
+    {
+      "caso": 20,
+      "nova": {
+        "pergunta": "Nos anos sessenta, os templos de Abu Simbel, no Egito, foram cortados em blocos e remontados num terreno mais alto. Para escapar de quê?",
+        "resposta": "Inundação pela represa de Assuã"
+      },
+      "existentes": [
+        {
+          "id": "q00116",
+          "pergunta": "Nos anos sessenta, os templos de Abu Simbel foram cortados em blocos e remontados num terreno mais alto. Que obra os ameaçava?",
+          "resposta": "Alta Represa de Assuã"
+        }
+      ]
+    },
+    {
+      "caso": 21,
+      "nova": {
+        "pergunta": "O Atomium, construído para a Exposição Universal de 1958, representa a estrutura cristalina de que metal, ampliada bilhões de vezes?",
+        "resposta": "Ferro"
+      },
+      "existentes": [
+        {
+          "id": "q02040",
+          "pergunta": "As nove esferas do Atomium, em Bruxelas, representam a estrutura ampliada de um cristal de qual metal?",
+          "resposta": "Ferro"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q02033",
+      "motivo": "Mesma pergunta: cidade da Alhambra, Granada."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "id_existente": "q02032",
+      "motivo": "Mesmo fato: Manneken Pis simboliza Bruxelas."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q02025",
+      "motivo": "Mesmo escultor do Cristo Redentor."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q02030",
+      "motivo": "Mesma arquiteta do MASP."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Rainha Elizabeth II é fato diferente da arquiteta."
+    },
+    {
+      "caso": 6,
+      "decisao": "repete",
+      "id_existente": "q02028",
+      "motivo": "Mesmo arquiteto da Ópera de Sydney."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "id_existente": "q02029",
+      "motivo": "Mesmo arquiteto da pirâmide do Louvre."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Quem mandou construir é diferente do século."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nome do imperador está na pergunta existente q03361, mas o fato perguntado (de quem é o túmulo) não é o mesmo que o motivo ou a década."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Imperador reconstrutor é fato diferente."
+    },
+    {
+      "caso": 11,
+      "decisao": "repete",
+      "id_existente": "q02224",
+      "motivo": "Mesmo fato: baile antes da Proclamação da República."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Século de construção é fato diferente de identificar a catedral."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Década de abertura difere da cor."
+    },
+    {
+      "caso": 14,
+      "decisao": "nova",
+      "motivo": "Salão do tratado difere do país."
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "id_existente": "q01997",
+      "motivo": "Mesmo fato: Big Ben é o sino."
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "id_existente": "q00098",
+      "motivo": "Mesmo fato: nome gótico vem dos godos."
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "id_existente": "q02018",
+      "motivo": "Mesmo fato: Eiffel projetou a estrutura da Estátua da Liberdade."
+    },
+    {
+      "caso": 18,
+      "decisao": "repete",
+      "id_existente": "q02019",
+      "motivo": "Mesmo fato: Cristo Rei inspirado no Cristo Redentor."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "id_existente": "q02417",
+      "motivo": "Borracha é a riqueza que financiou o teatro; mesmo fato."
+    },
+    {
+      "caso": 20,
+      "decisao": "repete",
+      "id_existente": "q00116",
+      "motivo": "Mesmo fato: ameaça da represa de Assuã."
+    },
+    {
+      "caso": 21,
+      "decisao": "repete",
+      "id_existente": "q02040",
+      "motivo": "Mesmo fato: Atomium representa cristal de ferro."
+    }
+  ]
+}

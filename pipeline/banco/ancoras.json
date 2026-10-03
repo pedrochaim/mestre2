@@ -5650,7 +5650,10 @@
       "wikidata": "Q5788",
       "pt": 3347,
       "en": 77310
-    }
+    },
+    "variantes": [
+      "Cidade Rosa"
+    ]
   },
   {
     "id": "angkor_wat",
@@ -5685,7 +5688,9 @@
       "en": 46806
     },
     "variantes": [
-      "Alhambra de Granada"
+      "Alhambra de Granada",
+      "Alambra",
+      "La Alhambra"
     ]
   },
   {
@@ -5712,7 +5717,8 @@
     "nome": "Teatro Amazonas",
     "descricao": "Casa de ópera de Manaus inaugurada em 1896.",
     "variantes": [
-      "Amazon Theatre"
+      "Amazon Theatre",
+      "Teatro Amazonas de Manaus"
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Teatro_Amazonas",
@@ -30804,7 +30810,10 @@
       "wikidata": "Q9141",
       "pt": 5345,
       "en": 133640
-    }
+    },
+    "variantes": [
+      "Tadj Mahal"
+    ]
   },
   {
     "id": "pompeia",
@@ -30862,7 +30871,8 @@
     "descricao": "Monumento religioso em Almada, Portugal, de frente para Lisboa, inaugurado em 1959.",
     "variantes": [
       "Cristo Rei",
-      "Sanctuary of Christ the King"
+      "Sanctuary of Christ the King",
+      "Cristo Rei de Almada"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sanctuary_of_Christ_the_King"
@@ -31066,7 +31076,10 @@
       "wikidata": "Q152072",
       "pt": 1306,
       "en": 21667
-    }
+    },
+    "variantes": [
+      "Menino Mijão"
+    ]
   },
   {
     "id": "opera_de_arame",
@@ -31142,7 +31155,8 @@
     "nome": "Ponte Golden Gate",
     "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937.",
     "variantes": [
-      "Golden Gate Bridge"
+      "Golden Gate Bridge",
+      "Golden Gate"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Golden_Gate_Bridge"
@@ -34058,7 +34072,8 @@
     "nome": "Ilha Fiscal",
     "descricao": "Pequena ilha na baía de Guanabara, no Rio de Janeiro, onde fica um castelo neogótico da antiga alfândega.",
     "variantes": [
-      "Ilha dos Ratos"
+      "Ilha dos Ratos",
+      "Palácio da Ilha Fiscal"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Ilha_Fiscal",
@@ -51875,7 +51890,8 @@
     "variantes": [
       "Catedral de São Basílio, o Bem-Aventurado",
       "Catedral da Intercessão",
-      "Catedral Pokrovsky"
+      "Catedral Pokrovsky",
+      "Saint Basil's Cathedral"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral",
@@ -58573,6 +58589,254 @@
     "fontes": [
       "https://en.wikipedia.org/wiki/Cusco",
       "https://pt.wikipedia.org/wiki/Cusco"
+    ]
+  },
+  {
+    "id": "conjunto_moderno_da_pampulha",
+    "nome": "Conjunto Moderno da Pampulha",
+    "descricao": "Conjunto arquitetônico projetado por Oscar Niemeyer nos anos 1940 em torno da lagoa da Pampulha, com a Igreja de São Francisco de Assis.",
+    "variantes": [
+      "Pampulha",
+      "Igreja da Pampulha",
+      "Pampulha Modern Ensemble"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Conjunto_Moderno_da_Pampulha",
+      "https://en.wikipedia.org/wiki/Pampulha_Modern_Ensemble"
+    ]
+  },
+  {
+    "id": "museu_de_arte_contemporanea_de_niteroi",
+    "nome": "Museu de Arte Contemporânea de Niterói",
+    "descricao": "Museu projetado por Oscar Niemeyer, em forma de disco, sobre um mirante à beira da baía de Guanabara, inaugurado em 1996.",
+    "variantes": [
+      "MAC Niterói",
+      "MAC"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Museu_de_Arte_Contempor%C3%A2nea_de_Niter%C3%B3i",
+      "https://en.wikipedia.org/wiki/Niter%C3%B3i_Contemporary_Art_Museum"
+    ]
+  },
+  {
+    "id": "monte_rushmore",
+    "nome": "Monte Rushmore",
+    "descricao": "Memorial nacional dos Estados Unidos com os rostos de quatro presidentes esculpidos na rocha de uma montanha.",
+    "variantes": [
+      "Mount Rushmore",
+      "Memorial Nacional do Monte Rushmore"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Monte_Rushmore",
+      "https://en.wikipedia.org/wiki/Mount_Rushmore"
+    ]
+  },
+  {
+    "id": "borobudur",
+    "nome": "Borobudur",
+    "descricao": "Templo budista monumental do século nove, na ilha de Java.",
+    "variantes": [
+      "Templo de Borobudur"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Borobudur",
+      "https://en.wikipedia.org/wiki/Borobudur"
+    ]
+  },
+  {
+    "id": "inhotim",
+    "nome": "Inhotim",
+    "descricao": "Instituto Inhotim, museu de arte contemporânea e jardim botânico a céu aberto em Minas Gerais.",
+    "variantes": [
+      "Instituto Inhotim"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Instituto_Inhotim",
+      "https://en.wikipedia.org/wiki/Inhotim"
+    ]
+  },
+  {
+    "id": "edificio_copan",
+    "nome": "Edifício Copan",
+    "descricao": "Edifício residencial sinuoso projetado por Oscar Niemeyer no centro de São Paulo.",
+    "variantes": [
+      "Copan"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Edif%C3%ADcio_Copan",
+      "https://en.wikipedia.org/wiki/Edif%C3%ADcio_Copan"
+    ]
+  },
+  {
+    "id": "monumento_as_bandeiras",
+    "nome": "Monumento às Bandeiras",
+    "descricao": "Grande escultura de granito de Victor Brecheret, junto ao Parque Ibirapuera, em São Paulo, que homenageia as bandeiras.",
+    "variantes": [
+      "Monumento aos Bandeirantes"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Monumento_%C3%A0s_Bandeiras"
+    ]
+  },
+  {
+    "id": "casa_da_cascata",
+    "nome": "Casa da Cascata",
+    "descricao": "Residência construída nos anos 1930 sobre uma queda d'água na Pensilvânia, Estados Unidos.",
+    "variantes": [
+      "Fallingwater",
+      "Casa Kaufmann"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Fallingwater",
+      "https://pt.wikipedia.org/wiki/Casa_da_Cascata"
+    ]
+  },
+  {
+    "id": "basilica_de_sao_pedro",
+    "nome": "Basílica de São Pedro",
+    "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+    "variantes": [
+      "St. Peter's Basilica",
+      "Basílica de São Pedro do Vaticano"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_de_S%C3%A3o_Pedro",
+      "https://en.wikipedia.org/wiki/St._Peter%27s_Basilica"
+    ]
+  },
+  {
+    "id": "passeio_publico_do_rio_de_janeiro",
+    "nome": "Passeio Público do Rio de Janeiro",
+    "descricao": "Jardim público no centro do Rio de Janeiro, construído no fim do século dezoito por ordem do vice-rei Luís de Vasconcelos.",
+    "variantes": [
+      "Passeio Público"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Passeio_P%C3%BAblico_(Rio_de_Janeiro)"
+    ]
+  },
+  {
+    "id": "passaro_no_espaco",
+    "nome": "Pássaro no Espaço",
+    "descricao": "Série de esculturas abstratas de bronze polido e mármore de Constantin Brancusi, iniciada nos anos 1920.",
+    "variantes": [
+      "Bird in Space",
+      "L'Oiseau dans l'espace"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bird_in_Space",
+      "https://en.wikipedia.org/wiki/Brancusi_v._United_States"
+    ]
+  },
+  {
+    "id": "catedral_de_colonia",
+    "nome": "Catedral de Colônia",
+    "descricao": "Catedral gótica da cidade de Colônia, na Alemanha, iniciada em 1248.",
+    "variantes": [
+      "Kölner Dom",
+      "Cologne Cathedral"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cologne_Cathedral",
+      "https://pt.wikipedia.org/wiki/Catedral_de_Col%C3%B4nia"
+    ]
+  },
+  {
+    "id": "museu_guggenheim_bilbao",
+    "nome": "Museu Guggenheim Bilbao",
+    "descricao": "Museu de arte contemporânea projetado por Frank Gehry, inaugurado em 1997 em Bilbao, na Espanha.",
+    "variantes": [
+      "Guggenheim Bilbao",
+      "Guggenheim Museum Bilbao"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
+      "https://pt.wikipedia.org/wiki/Museu_Guggenheim_Bilbao"
+    ]
+  },
+  {
+    "id": "palacio_do_congresso_nacional",
+    "nome": "Palácio do Congresso Nacional",
+    "descricao": "Sede do Poder Legislativo brasileiro em Brasília, projetada por Oscar Niemeyer, com duas cúpulas e duas torres.",
+    "variantes": [
+      "Congresso Nacional",
+      "Edifício do Congresso Nacional"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pal%C3%A1cio_do_Congresso_Nacional",
+      "https://en.wikipedia.org/wiki/National_Congress_of_Brazil"
+    ]
+  },
+  {
+    "id": "estilo_manuelino",
+    "nome": "Estilo manuelino",
+    "descricao": "Estilo arquitetônico português do início do século dezesseis, com motivos marítimos, presente na Torre de Belém e no Mosteiro dos Jerónimos.",
+    "variantes": [
+      "Manuelino",
+      "Gótico português tardio"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Estilo_manuelino",
+      "https://en.wikipedia.org/wiki/Manueline"
+    ]
+  },
+  {
+    "id": "mobile",
+    "nome": "Móbile",
+    "descricao": "Tipo de escultura cinética suspensa, com peças equilibradas que se movem com o ar, criada por Alexander Calder.",
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Mobile_(sculpture)",
+      "https://en.wikipedia.org/wiki/Alexander_Calder"
+    ]
+  },
+  {
+    "id": "premio_pritzker",
+    "nome": "Prêmio Pritzker",
+    "descricao": "Prêmio internacional de arquitetura concedido anualmente desde 1979 pela Fundação Hyatt, nos Estados Unidos.",
+    "variantes": [
+      "Pritzker Architecture Prize"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pr%C3%A9mio_Pritzker",
+      "https://en.wikipedia.org/wiki/Pritzker_Architecture_Prize"
+    ]
+  },
+  {
+    "id": "castelo_de_neuschwanstein",
+    "nome": "Castelo de Neuschwanstein",
+    "descricao": "Castelo romântico do século dezenove nos Alpes da Baviera, mandado erguer pelo rei Luís II.",
+    "variantes": [
+      "Neuschwanstein",
+      "Schloss Neuschwanstein"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Castelo_de_Neuschwanstein",
+      "https://en.wikipedia.org/wiki/Neuschwanstein_Castle"
+    ]
+  },
+  {
+    "id": "touro_de_wall_street",
+    "nome": "Touro de Wall Street",
+    "descricao": "Escultura de bronze de um touro em posição de ataque, de Arturo Di Modica, no distrito financeiro de Nova York.",
+    "variantes": [
+      "Charging Bull",
+      "Touro de Bronze"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Charging_Bull"
+    ]
+  },
+  {
+    "id": "antoni_gaudi",
+    "nome": "Antoni Gaudí",
+    "descricao": "Arquiteto catalão, 1852-1926, autor da Sagrada Família, da Casa Batlló e do Parque Güell, em Barcelona.",
+    "variantes": [
+      "Gaudí",
+      "Antoni Gaudí i Cornet"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Antoni_Gaud%C3%AD",
+      "https://en.wikipedia.org/wiki/Antoni_Gaud%C3%AD"
     ]
   }
 ]
