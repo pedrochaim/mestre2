@@ -138,7 +138,7 @@
       "titulo": "en:Curiosity (rover)",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Voyager 1",
@@ -166,7 +166,7 @@
       "titulo": "en:Carl Sagan",
       "camada": 2,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Estação Espacial Mir",
@@ -222,7 +222,7 @@
       "titulo": "en:Stephan's Quintet",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Arrokoth",
@@ -236,7 +236,7 @@
       "titulo": "en:67P/Churyumov–Gerasimenko",
       "camada": 3,
       "destino": 0,
-      "status": "nova"
+      "status": "usada"
     },
     {
       "nome": "Miranda",
@@ -279,6 +279,286 @@
       "camada": 3,
       "destino": 0,
       "status": "usada"
+    },
+    {
+      "nome": "Telescópio",
+      "titulo": "en:Telescope",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Foguete",
+      "titulo": "en:Rocket",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Satélite artificial",
+      "titulo": "en:Satellite",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Astronauta",
+      "titulo": "en:Astronaut",
+      "camada": 1,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Asteroide",
+      "titulo": "en:Asteroid",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cometa",
+      "titulo": "en:Comet",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Chuva de meteoros",
+      "titulo": "en:Meteor shower",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Meteorito",
+      "titulo": "en:Meteorite",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Cratera de impacto",
+      "titulo": "en:Impact crater",
+      "camada": 1,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Fases da Lua",
+      "titulo": "en:Lunar phase",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galáxia",
+      "titulo": "en:Galaxy",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa",
+      "titulo": "en:Nebula",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Buzz Aldrin",
+      "titulo": "en:Buzz Aldrin",
+      "camada": 1,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Órion (constelação)",
+      "titulo": "en:Orion (constellation)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Ceres",
+      "titulo": "en:Ceres (dwarf planet)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Encélado",
+      "titulo": "en:Enceladus",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Caronte",
+      "titulo": "en:Charon (moon)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Calisto",
+      "titulo": "en:Callisto (moon)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pálido Ponto Azul",
+      "titulo": "en:Pale Blue Dot",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nascer da Terra (Earthrise)",
+      "titulo": "en:Earthrise",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Perseverance",
+      "titulo": "en:Perseverance (rover)",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Falcon 9",
+      "titulo": "en:Falcon 9",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Starship",
+      "titulo": "en:SpaceX Starship",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Módulo lunar Apollo",
+      "titulo": "en:Apollo Lunar Module",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Johannes Kepler",
+      "titulo": "en:Johannes Kepler",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Edwin Hubble",
+      "titulo": "en:Edwin Hubble",
+      "camada": 2,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Cometa NEOWISE",
+      "titulo": "en:C/2020 F3 (NEOWISE)",
+      "camada": 2,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Valles Marineris",
+      "titulo": "en:Valles Marineris",
+      "camada": 3,
+      "destino": 0,
+      "status": "usada"
+    },
+    {
+      "nome": "Betelgeuse",
+      "titulo": "en:Betelgeuse",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Tritão",
+      "titulo": "en:Triton (moon)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa de Carina",
+      "titulo": "en:Carina Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galáxia do Triângulo",
+      "titulo": "en:Triangulum Galaxy",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Galáxias Antenas",
+      "titulo": "en:Antennae Galaxies",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Objeto de Hoag",
+      "titulo": "en:Hoag's Object",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Nebulosa da Tarântula",
+      "titulo": "en:Tarantula Nebula",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Pequena Nuvem de Magalhães",
+      "titulo": "en:Small Magellanic Cloud",
+      "camada": 3,
+      "destino": 0,
+      "status": "reprovada"
+    },
+    {
+      "nome": "Estação Espacial Tiangong",
+      "titulo": "en:Tiangong space station",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Soyuz",
+      "titulo": "en:Soyuz (spacecraft)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "Sojourner",
+      "titulo": "en:Sojourner (rover)",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
+    },
+    {
+      "nome": "ALMA (Atacama Large Millimeter Array)",
+      "titulo": "en:Atacama Large Millimeter Array",
+      "camada": 3,
+      "destino": 0,
+      "status": "nova"
     }
   ]
 }

@@ -1,0 +1,219 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "A imagem é uma renderização isolada que parece ser a sonda Luna 1, não um satélite artificial genérico; a resposta não é única nem reconhecível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto de cometa com cauda longa, sem texto. Dá para reconhecer o tipo de astro, não o cometa específico, então a pergunta é sobre o tipo.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de astro é este, fotografado no céu noturno?",
+      "resposta": "Cometa",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cometa NEOWISE",
+        "descricao": "Cometa de longo período C/2020 F3, descoberto em 2020 pela missão NEOWISE e visível a olho nu no hemisfério norte.",
+        "variantes": [
+          "C/2020 F3",
+          "NEOWISE",
+          "C/2020 F3 (NEOWISE)"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Close de uma galáxia irregular anã sem traços que a distingam de outras galáxias irregulares; não é reconhecível como a Pequena Nuvem de Magalhães."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A imagem mistura vários assuntos (astronauta, janelas da cúpula, Terra) e a pessoa não é reconhecível; a resposta não é única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto de figura pública, sem texto, de rosto reconhecível. Múltipla escolha com distratores de cientistas e divulgadores.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este astrônomo e divulgador científico americano?",
+      "resposta": "Carl Sagan",
+      "distratores": [
+        "Neil deGrasse Tyson",
+        "Stephen Hawking",
+        "Edwin Hubble"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Carl Sagan",
+        "descricao": "Astrônomo e divulgador científico americano (1934–1996), autor e apresentador da série Cosmos.",
+        "variantes": [
+          "Carl Edward Sagan"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Núcleo bilobado e muito característico, sem texto, reconhecível pela imagem da missão. O enunciado não nomeia o astro nem a missão.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que sonda europeia, lançada em 2004, chegou a este astro em 2014?",
+      "resposta": "Rosetta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Cometa 67P/Churyumov-Gerasimenko",
+        "descricao": "Cometa da família de Júpiter, de núcleo bilobado, visitado pela sonda Rosetta da ESA.",
+        "variantes": [
+          "67P",
+          "Chury",
+          "67P/C-G",
+          "Churyumov-Gerasimenko"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto aérea de uma cratera bem preservada, com borda elevada, sem texto. Pergunta de tipo com distratores parecidos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de cratera é esta?",
+      "resposta": "Cratera de impacto",
+      "distratores": [
+        "Caldeira vulcânica",
+        "Dolina cárstica",
+        "Cratera de subsidência"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cratera de impacto",
+        "descricao": "Depressão na superfície de um corpo sólido formada pelo choque em alta velocidade de um objeto menor; a imagem mostra a Meteor Crater, no Arizona.",
+        "variantes": [
+          "Meteor Crater",
+          "Cratera Barringer",
+          "Cratera do Meteoro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Autorretrato nítido do rover em solo marciano, sem texto. O segundo fato (a cratera explorada) exige reconhecê-lo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que cratera de Marte este veículo explora desde 2012?",
+      "resposta": "Cratera Gale",
+      "destino": 0,
+      "ancora": {
+        "nome": "Curiosity",
+        "descricao": "Rover da NASA da missão Mars Science Laboratory, lançado em 2011 e pousado em Marte em 2012.",
+        "variantes": [
+          "Mars Science Laboratory",
+          "MSL"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mosaico de Marte com o grande cânion bem visível, sem texto. Pergunta sobre o tipo de formação.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de formação é a longa faixa escura que cruza este planeta?",
+      "resposta": "Sistema de cânions",
+      "distratores": [
+        "Vulcão gigante",
+        "Calota polar",
+        "Cadeia de crateras"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Valles Marineris",
+        "descricao": "Sistema de cânions de mais de 4 mil km no equador de Marte, o maior do Sistema Solar.",
+        "variantes": [
+          "Vales Mariner",
+          "Mariner Valleys"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida do meteorito Hoba exposto, sem texto. A imagem em si não prova a composição, que é um passo de conhecimento; por isso nível 3 em múltipla escolha.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Quanto à composição, que tipo de meteorito é este grande bloco?",
+      "resposta": "Meteorito de ferro",
+      "distratores": [
+        "Meteorito rochoso",
+        "Meteorito de gelo",
+        "Tectito vítreo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Meteorito Hoba",
+        "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+        "variantes": [
+          "Hoba",
+          "Hoba West"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Fotografia histórica inconfundível, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famosa fotografia espacial, tirada em 1968, é esta?",
+      "resposta": "Nascer da Terra (Earthrise)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nascer da Terra (Earthrise)",
+        "descricao": "Fotografia da Terra surgindo sobre o horizonte lunar, feita por William Anders na missão Apollo 8, em 1968.",
+        "variantes": [
+          "Earthrise",
+          "Nascer da Terra"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem do Webb com cinco galáxias, inconfundível e sem texto. Pergunta sobre a constelação, com distratores do mesmo tipo.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que constelação fica este grupo de galáxias?",
+      "resposta": "Pégaso",
+      "distratores": [
+        "Andrômeda",
+        "Cassiopeia",
+        "Cisne"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Quinteto de Stephan",
+        "descricao": "Grupo visual de cinco galáxias na constelação de Pégaso, descoberto em 1877 por Édouard Stephan.",
+        "variantes": [
+          "Stephan's Quintet",
+          "Hickson Compact Group 92",
+          "HCG 92"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Enunciado não vaza, resposta única e confirmada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Descrição verdadeira e sem vazamento. Os distratores são plausíveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Lançamento em 2004 e chegada em 2014 bastam para responder Rosetta sem olhar a figura. Retirei as datas, e a figura passa a ser necessária.",
+      "reescrita": {
+        "pergunta": "Que sonda da agência espacial europeia foi enviada a este astro?",
+        "resposta": "Rosetta"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta, resposta única, distratores do mesmo tipo e nenhum correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Um rover da NASA em Marte desde 2012 só pode ser o Curiosity, então o enunciado entrega a resposta sem a figura. Retirei o ano.",
+      "reescrita": {
+        "pergunta": "Em que cratera de Marte este veículo da NASA pousou?",
+        "resposta": "Gale"
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sistema de cânions confirmado pelos trechos. O enunciado não vaza e os distratores são do mesmo tipo.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Hoba ser um meteorito de ferro é fato amplamente documentado. Os distratores são fracos: 'de gelo' não existe e tectito não é meteorito.",
+      "reescrita": {
+        "pergunta": "Quanto à composição, que tipo de meteorito é este grande bloco?",
+        "resposta": "Meteorito de ferro",
+        "distratores": [
+          "Meteorito rochoso",
+          "Meteorito ferro-rochoso",
+          "Acondrito lunar"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Famosa fotografia espacial de 1968' quase basta para responder sem a figura. Troquei a data por uma pista mais ampla, a era Apollo.",
+      "reescrita": {
+        "pergunta": "Que famosa fotografia espacial da era Apollo é esta?",
+        "resposta": "Nascer da Terra (Earthrise)"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Constelação Pégaso confirmada pelos trechos. O enunciado não vaza e os distratores são constelações.",
+      "reescrita": null
+    }
+  ]
+}

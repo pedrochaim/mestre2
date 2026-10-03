@@ -61626,5 +61626,210 @@
       "autor": "Takeaway",
       "licenca": "CC BY-SA 3.0"
     }
+  },
+  {
+    "id": "q03713",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cometa_neowise",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que tipo de astro é este, fotografado no céu noturno?",
+    "resposta": "Cometa",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Comet_NEOWISE",
+      "https://pt.wikipedia.org/wiki/C/2020_F3_%28NEOWISE%29"
+    ],
+    "imagem": {
+      "arquivo": "q03713.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:2020-07-13_02-3x-xx-smx_30x30s_300mm_f4_2048px.jpg",
+      "autor": "Maxime Storn",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q03714",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "carl_sagan",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Quem é este astrônomo e divulgador científico americano?",
+    "resposta": "Carl Sagan",
+    "distratores": [
+      "Neil deGrasse Tyson",
+      "Stephen Hawking",
+      "Edwin Hubble"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Carl_Sagan",
+      "https://pt.wikipedia.org/wiki/Carl_Sagan"
+    ],
+    "imagem": {
+      "arquivo": "q03714.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Carl_Sagan_Planetary_Society.JPG",
+      "autor": "NASA/JPL",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q03715",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cometa_67p_churyumov_gerasimenko",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que sonda da agência espacial europeia foi enviada a este astro?",
+    "resposta": "Rosetta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/67P/Churyumov%E2%80%93Gerasimenko",
+      "https://pt.wikipedia.org/wiki/67P/Churyumov-Gerasimenko"
+    ],
+    "imagem": {
+      "arquivo": "q03715.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:67P_Churyumov-Gerasimenko_-_Rosetta_(32755885495).png",
+      "autor": "Justin Cowart",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q03716",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "cratera_de_impacto",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de cratera é esta?",
+    "resposta": "Cratera de impacto",
+    "distratores": [
+      "Caldeira vulcânica",
+      "Dolina cárstica",
+      "Cratera de subsidência"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Impact_crater",
+      "https://pt.wikipedia.org/wiki/Cratera_de_impacto"
+    ],
+    "imagem": {
+      "arquivo": "q03716.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Barringer_Crater_aerial_photo_by_USGS.jpg",
+      "autor": "USGS/D. Roddy",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q03717",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "curiosity",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em que cratera de Marte este veículo da NASA pousou?",
+    "resposta": "Gale",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Curiosity_%28rover%29",
+      "https://pt.wikipedia.org/wiki/Curiosity_%28astrom%C3%B3vel%29"
+    ],
+    "imagem": {
+      "arquivo": "q03717.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Curiosity_rover_self_portrait_at_John_Klein_site_(PIA16764,_cropped).jpg",
+      "autor": "NASA/JPL-Caltech/MSSS",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q03718",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "valles_marineris",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de formação é a longa faixa escura que cruza este planeta?",
+    "resposta": "Sistema de cânions",
+    "distratores": [
+      "Vulcão gigante",
+      "Calota polar",
+      "Cadeia de crateras"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Valles_Marineris",
+      "https://pt.wikipedia.org/wiki/Valles_Marineris"
+    ],
+    "imagem": {
+      "arquivo": "q03718.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mars_Valles_Marineris_EDIT.jpg",
+      "autor": "Mars_Valles_Marineris.jpeg: NASA picture derivative work: Lošmi (talk)",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q03719",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "meteorito_hoba",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Quanto à composição, que tipo de meteorito é este grande bloco?",
+    "resposta": "Meteorito de ferro",
+    "distratores": [
+      "Meteorito rochoso",
+      "Meteorito ferro-rochoso",
+      "Acondrito lunar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Meteorite",
+      "https://pt.wikipedia.org/wiki/Meteorito"
+    ],
+    "imagem": {
+      "arquivo": "q03719.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Namibie_Hoba_Meteorite_05.JPG",
+      "autor": "Calips (Wikimedia Commons)",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q03720",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "nascer_da_terra_earthrise",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que famosa fotografia espacial da era Apollo é esta?",
+    "resposta": "Nascer da Terra (Earthrise)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Earthrise",
+      "https://pt.wikipedia.org/wiki/Nascer_da_Terra"
+    ],
+    "imagem": {
+      "arquivo": "q03720.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:NASA_Earthrise_AS08-14-2383_Apollo_8_1968-12-24.jpg",
+      "autor": "NASA/Bill Anders",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q03721",
+    "tema": "Ciências",
+    "subtema": "Astronomia e Espaço",
+    "ancora": "quinteto_de_stephan",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Em que constelação fica este grupo de galáxias?",
+    "resposta": "Pégaso",
+    "distratores": [
+      "Andrômeda",
+      "Cassiopeia",
+      "Cisne"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Stephan%27s_Quintet",
+      "https://pt.wikipedia.org/wiki/Quinteto_de_Stephan"
+    ],
+    "imagem": {
+      "arquivo": "q03721.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Stephan's_Quintet_taken_by_James_Webb_Space_Telescope.tif",
+      "autor": "Image: National Aeronautics and Space Administration (a U.S. federal government agency; https://www.nasa.gov/) European space agency (https://www.esa.int/), Canadian Space Agency (https://www.asc-csa.",
+      "licenca": "Public domain"
+    }
   }
 ]

@@ -1,0 +1,549 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Cometa NEOWISE",
+        "descricao": "Cometa de longo período C/2020 F3, descoberto em 2020 pela missão NEOWISE e visível a olho nu no hemisfério norte.",
+        "variantes": [
+          "C/2020 F3",
+          "NEOWISE",
+          "C/2020 F3 (NEOWISE)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cetaceos",
+          "nome": "Cetáceos",
+          "descricao": "Infraordem de mamíferos marinhos que reúne baleias, golfinhos e botos.",
+          "variantes": [
+            "Cetacea",
+            "Cetáceo"
+          ]
+        },
+        {
+          "id": "emoji",
+          "nome": "Emoji",
+          "descricao": "Pictogramas usados em mensagens digitais, surgidos nos celulares japoneses no fim dos anos noventa.",
+          "variantes": [
+            "Emojis"
+          ]
+        },
+        {
+          "id": "geysir",
+          "nome": "Geysir",
+          "descricao": "Fonte termal eruptiva no sudoeste da Islândia que deu nome a todos os gêiseres.",
+          "variantes": [
+            "Grande Geysir",
+            "Gêiser"
+          ]
+        },
+        {
+          "id": "neonio",
+          "nome": "Neônio",
+          "descricao": "Elemento químico gasoso de número atômico 10, um gás nobre famoso pelos letreiros luminosos.",
+          "variantes": [
+            "Néon",
+            "Neon"
+          ]
+        },
+        {
+          "id": "houston_comets",
+          "nome": "Houston Comets",
+          "descricao": "Time feminino de Houston que venceu as quatro primeiras temporadas da WNBA, de 1997 a 2000.",
+          "variantes": [
+            "Comets"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Carl Sagan",
+        "descricao": "Astrônomo e divulgador científico americano (1934–1996), autor e apresentador da série Cosmos.",
+        "variantes": [
+          "Carl Edward Sagan"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "carlos_magno",
+          "nome": "Carlos Magno",
+          "descricao": "Rei dos francos e dos lombardos, coroado imperador do Ocidente pelo papa Leão Terceiro.",
+          "variantes": [
+            "Carlos I",
+            "Charlemagne",
+            "Karl der Große"
+          ]
+        },
+        {
+          "id": "carlos_chagas",
+          "nome": "Carlos Chagas",
+          "descricao": "Médico sanitarista e microbiologista brasileiro que descobriu a doença de Chagas em 1909.",
+          "variantes": [
+            "Carlos Justiniano Ribeiro Chagas"
+          ]
+        },
+        {
+          "id": "mar_morto",
+          "nome": "Mar Morto",
+          "descricao": "Lago salgado entre Israel, a Cisjordânia e a Jordânia, alimentado pelo rio Jordão.",
+          "variantes": [
+            "Dead Sea",
+            "Mar Salgado"
+          ]
+        },
+        {
+          "id": "mar_de_aral",
+          "nome": "Mar de Aral",
+          "descricao": "Lago salgado da Ásia Central, entre Cazaquistão e Uzbequistão, que encolheu drasticamente desde o século vinte.",
+          "variantes": [
+            "Aral",
+            "Aral Sea"
+          ]
+        },
+        {
+          "id": "salada_caesar",
+          "nome": "Salada Caesar",
+          "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+          "variantes": [
+            "Caesar salad",
+            "Salada César"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Cometa 67P/Churyumov-Gerasimenko",
+        "descricao": "Cometa da família de Júpiter, de núcleo bilobado, visitado pela sonda Rosetta da ESA.",
+        "variantes": [
+          "67P",
+          "Chury",
+          "67P/C-G",
+          "Churyumov-Gerasimenko"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "escorbuto",
+          "nome": "Escorbuto",
+          "descricao": "Doença causada pela deficiência de vitamina C, comum entre marinheiros em longas viagens.",
+          "variantes": [
+            "Scurvy"
+          ]
+        },
+        {
+          "id": "churros",
+          "nome": "Churros",
+          "descricao": "Massa frita em formato de bastão sulcado, polvilhada de açúcar e canela, de origem ibérica.",
+          "variantes": [
+            "Churro"
+          ]
+        },
+        {
+          "id": "pachisi",
+          "nome": "Pachisi",
+          "descricao": "Jogo de tabuleiro tradicional da Índia, em forma de cruz, ancestral do ludo.",
+          "variantes": [
+            "Parchís",
+            "Chaupar"
+          ]
+        },
+        {
+          "id": "pichu",
+          "nome": "Pichu",
+          "descricao": "Pokémon do tipo Elétrico, número 172 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tchau",
+          "nome": "Tchau",
+          "descricao": "Despedida informal do português brasileiro, vinda do italiano ciao",
+          "variantes": [
+            "Ciao",
+            "Tchao"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Cratera de impacto",
+        "descricao": "Depressão na superfície de um corpo sólido formada pelo choque em alta velocidade de um objeto menor; a imagem mostra a Meteor Crater, no Arizona.",
+        "variantes": [
+          "Meteor Crater",
+          "Cratera Barringer",
+          "Cratera do Meteoro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "cratera_de_chicxulub",
+          "nome": "Cratera de Chicxulub",
+          "descricao": "Cratera de impacto soterrada no México, associada à extinção em massa do fim do Cretáceo.",
+          "variantes": [
+            "Chicxulub crater"
+          ]
+        },
+        {
+          "id": "bandeira_de_monaco",
+          "nome": "Bandeira de Mônaco",
+          "descricao": "Bandeira nacional do Principado de Mônaco, com duas faixas horizontais, vermelha e branca.",
+          "variantes": [
+            "Flag of Monaco"
+          ]
+        },
+        {
+          "id": "catedral_de_santiago_de_compostela",
+          "nome": "Catedral de Santiago de Compostela",
+          "descricao": "Catedral da Galícia, na Espanha, destino final do Caminho de Santiago",
+          "variantes": [
+            "Catedral de Compostela",
+            "Santiago de Compostela Cathedral"
+          ]
+        },
+        {
+          "id": "hipotese_de_alvarez",
+          "nome": "Hipótese de Alvarez",
+          "descricao": "Proposta de 1980 segundo a qual o impacto de um asteroide causou a extinção em massa do fim do Cretáceo.",
+          "variantes": [
+            "Alvarez hypothesis",
+            "Hipótese do impacto"
+          ]
+        },
+        {
+          "id": "piratas_do_tiete",
+          "nome": "Piratas do Tietê",
+          "descricao": "Série de quadrinhos de humor do cartunista Laerte sobre um bando de piratas em São Paulo",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Curiosity",
+        "descricao": "Rover da NASA da missão Mars Science Laboratory, lançado em 2011 e pousado em Marte em 2012.",
+        "variantes": [
+          "Mars Science Laboratory",
+          "MSL"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "musculo",
+          "nome": "Músculo",
+          "descricao": "Tecido do corpo capaz de se contrair e produzir movimento.",
+          "variantes": [
+            "Muscle",
+            "Musculus"
+          ]
+        },
+        {
+          "id": "musselina",
+          "nome": "Musselina",
+          "descricao": "Tecido de algodão leve e de trama fina, usado em vestidos, cortinas e fraldas",
+          "variantes": [
+            "Muslin",
+            "Mousseline"
+          ]
+        },
+        {
+          "id": "sol",
+          "nome": "Sol",
+          "descricao": "Estrela no centro do Sistema Solar.",
+          "variantes": [
+            "O Sol",
+            "Sun"
+          ]
+        },
+        {
+          "id": "sms",
+          "nome": "SMS",
+          "descricao": "Serviço de mensagens curtas de texto entre celulares.",
+          "variantes": [
+            "Short Message Service",
+            "Torpedo",
+            "Mensagem de texto"
+          ]
+        },
+        {
+          "id": "cabeca_de_cuia",
+          "nome": "Cabeça de Cuia",
+          "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+          "variantes": [
+            "Crispim"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Valles Marineris",
+        "descricao": "Sistema de cânions de mais de 4 mil km no equador de Marte, o maior do Sistema Solar.",
+        "variantes": [
+          "Vales Mariner",
+          "Mariner Valleys"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "seattle_mariners",
+          "nome": "Seattle Mariners",
+          "descricao": "Time de beisebol da cidade americana de Seattle, da liga MLB.",
+          "variantes": [
+            "Mariners"
+          ]
+        },
+        {
+          "id": "charles_miller",
+          "nome": "Charles Miller",
+          "descricao": "Charles William Miller, paulistano filho de britânicos, considerado o introdutor do futebol no Brasil.",
+          "variantes": [
+            "Charles William Miller"
+          ]
+        },
+        {
+          "id": "charles_darwin",
+          "nome": "Charles Darwin",
+          "descricao": "Naturalista inglês autor da teoria da evolução por seleção natural.",
+          "variantes": [
+            "Charles Robert Darwin"
+          ]
+        },
+        {
+          "id": "monument_valley",
+          "nome": "Monument Valley",
+          "descricao": "Vale com grandes formações de arenito na fronteira entre Arizona e Utah, nos Estados Unidos, em território navajo.",
+          "variantes": [
+            "Vale dos Monumentos",
+            "Tsé Biiʼ Ndzisgaii"
+          ]
+        },
+        {
+          "id": "cavalo_marinho",
+          "nome": "Cavalo-marinho",
+          "descricao": "Pequeno peixe marinho do gênero Hippocampus, de cabeça parecida com a de um cavalo.",
+          "variantes": [
+            "Hippocampus",
+            "Seahorse"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Meteorito Hoba",
+        "descricao": "Grande meteorito de ferro encontrado na Namíbia, o maior bloco único de ferro de origem natural na superfície terrestre.",
+        "variantes": [
+          "Meteorito",
+          "Hoba",
+          "Hoba West"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "megaterio",
+          "nome": "Megatério",
+          "descricao": "Gênero extinto de preguiça-terrestre gigante que viveu na América do Sul até o fim do Pleistoceno.",
+          "variantes": [
+            "Megatherium",
+            "Preguiça-gigante"
+          ]
+        },
+        {
+          "id": "hyoga",
+          "nome": "Hyoga",
+          "descricao": "Cavaleiro de bronze russo de Os Cavaleiros do Zodíaco, mestre dos golpes de gelo.",
+          "variantes": [
+            "Cygnus Hyoga",
+            "Hyoga de Cisne"
+          ]
+        },
+        {
+          "id": "haroldo",
+          "nome": "Haroldo",
+          "descricao": "Tigre de pelúcia, amigo imaginário de Calvin na tira Calvin e Haroldo, de Bill Watterson",
+          "variantes": [
+            "Hobbes"
+          ]
+        },
+        {
+          "id": "kenny_mccormick",
+          "nome": "Kenny McCormick",
+          "descricao": "Menino de capuz laranja de South Park, famoso por morrer em quase todo episódio das primeiras temporadas.",
+          "variantes": [
+            "Kenny",
+            "Mysterion"
+          ]
+        },
+        {
+          "id": "baoba",
+          "nome": "Baobá",
+          "descricao": "Árvore do gênero Adansonia, de tronco muito largo, típica da África e de Madagascar",
+          "variantes": [
+            "Adansonia",
+            "embondeiro",
+            "baobab"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Nascer da Terra (Earthrise)",
+        "descricao": "Fotografia da Terra surgindo sobre o horizonte lunar, feita por William Anders na missão Apollo 8, em 1968.",
+        "variantes": [
+          "Earthrise",
+          "Nascer da Terra"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atmosfera_terrestre",
+          "nome": "Atmosfera terrestre",
+          "descricao": "Camada de gases que envolve a Terra",
+          "variantes": [
+            "Atmosfera da Terra",
+            "Ar atmosférico",
+            "Atmosphere of Earth"
+          ]
+        },
+        {
+          "id": "canario_da_terra",
+          "nome": "Canário-da-terra",
+          "descricao": "Pequena ave amarela com o alto da cabeça alaranjado, comum em áreas abertas da América do Sul e não aparentada ao canário.",
+          "variantes": [
+            "Canário-da-terra-verdadeiro",
+            "Sicalis flaveola",
+            "Saffron finch"
+          ]
+        },
+        {
+          "id": "arthur_ashe",
+          "nome": "Arthur Ashe",
+          "descricao": "Tenista americano (1943-1993), campeão do US Open em 1968 e de Wimbledon em 1975.",
+          "variantes": []
+        },
+        {
+          "id": "copas_naipe",
+          "nome": "Copas (naipe)",
+          "descricao": "Naipe vermelho do baralho representado por corações, cujo nome em português vem do naipe de taças do baralho latino.",
+          "variantes": [
+            "Hearts",
+            "Naipe de copas"
+          ]
+        },
+        {
+          "id": "tetris",
+          "nome": "Tetris",
+          "descricao": "Jogo de quebra-cabeça com peças que caem, criado pelo russo Alexey Pajitnov em 1984.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Quinteto de Stephan",
+        "descricao": "Grupo visual de cinco galáxias na constelação de Pégaso, descoberto em 1877 por Édouard Stephan.",
+        "variantes": [
+          "Stephan's Quintet",
+          "Hickson Compact Group 92",
+          "HCG 92"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "elefante_branco",
+          "nome": "Elefante branco",
+          "descricao": "Expressão para um bem caro de manter e de pouca utilidade",
+          "variantes": [
+            "White elephant"
+          ]
+        },
+        {
+          "id": "senhor_de_sipan",
+          "nome": "Senhor de Sipán",
+          "descricao": "Governante moche cuja tumba intacta, cheia de joias, foi descoberta em 1987 no norte do Peru.",
+          "variantes": [
+            "Lord of Sipán",
+            "Señor de Sipán"
+          ]
+        },
+        {
+          "id": "alfinete_de_seguranca",
+          "nome": "Alfinete de segurança",
+          "descricao": "Alfinete com mola e presilha que protege a ponta, patenteado pelo americano Walter Hunt em 1849.",
+          "variantes": [
+            "Alfinete de fralda",
+            "Safety pin"
+          ]
+        },
+        {
+          "id": "queda_de_tenochtitlan",
+          "nome": "Queda de Tenochtitlan",
+          "descricao": "Cerco e conquista da capital asteca pelos espanhóis de Hernán Cortés e seus aliados indígenas, em 1521.",
+          "variantes": [
+            "Cerco de Tenochtitlan",
+            "Fall of Tenochtitlan"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cometa NEOWISE."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Carl Sagan."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o cometa 67P."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Conceito geral de cratera de impacto; Chicxulub é uma cratera específica."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o rover Curiosity."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Valles Marineris."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o meteorito Hoba."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a fotografia Earthrise."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Quinteto de Stephan."
+    }
+  ]
+}
