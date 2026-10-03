@@ -1,0 +1,199 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Estrela-do-mar nítida na beira da praia, sem texto.",
+      "pergunta": "Que animal marinho é este?",
+      "resposta": "Estrela-do-mar",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Estrela-do-mar",
+        "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+        "variantes": [
+          "Estrela-do-mar",
+          "Asteroide",
+          "Starfish"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Peixe-leão de frente, com nadadeiras abertas, inconfundível e sem texto.",
+      "pergunta": "Que peixe é este?",
+      "resposta": "Peixe-leão",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-leão",
+        "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+        "variantes": [
+          "Pterois volitans",
+          "Lionfish"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Peixe cinza-azulado de aquário, sem traços inequívocos; pode ser confundido com outras espécies de peixe-lobo, e a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Peixe-palhaço nítido; a pergunta vai além, para a simbiose com a anêmona.",
+      "pergunta": "Que animal marinho abriga este peixe entre seus tentáculos?",
+      "resposta": "Anêmona-do-mar",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-palhaço",
+        "descricao": "Peixe de recife do gênero Amphiprion, laranja com faixas brancas, que vive em simbiose com anêmonas-do-mar.",
+        "variantes": [
+          "Amphiprion ocellaris",
+          "Clownfish"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Peixe-lua com a forma característica de cabeça sem cauda, sem texto.",
+      "pergunta": "Que peixe gigante e achatado é este?",
+      "resposta": "Peixe-lua",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Peixe-lua",
+        "descricao": "Grande peixe ósseo oceânico da espécie Mola mola, de corpo achatado e sem cauda verdadeira.",
+        "variantes": [
+          "Mola mola",
+          "Ocean sunfish"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Celacanto de museu em tanque, de lado, com as nadadeiras lobadas visíveis e sem texto.",
+      "pergunta": "Que peixe de nadadeiras lobadas, aparentado dos primeiros vertebrados terrestres, é este?",
+      "resposta": "Celacanto",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Celacanto",
+        "descricao": "Peixe de nadadeiras lobadas do gênero Latimeria, considerado extinto até ser encontrado vivo em 1938.",
+        "variantes": [
+          "Latimeria chalumnae",
+          "Coelacanth"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Água-viva nítida sobre fundo azul, sem texto.",
+      "pergunta": "Que animal marinho é este?",
+      "resposta": "Água-viva",
+      "tipo": "multipla",
+      "distratores": [
+        "Salpa",
+        "Ctenóforo",
+        "Anêmona-do-mar"
+      ],
+      "familia": "o_que_e",
+      "nivel": 2,
+      "destino": 0,
+      "ancora": {
+        "nome": "Água-viva",
+        "descricao": "Cnidário gelatinoso de corpo em forma de sino, com tentáculos urticantes, na fase de medusa.",
+        "variantes": [
+          "Medusa",
+          "Jellyfish"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Beluga de frente, com a testa bulbosa e a cor clara características, sem texto.",
+      "pergunta": "Que outro cetáceo do Ártico forma, com o animal desta foto, uma família de apenas duas espécies?",
+      "resposta": "Narval",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "destino": 0,
+      "ancora": {
+        "nome": "Beluga",
+        "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+        "variantes": [
+          "Baleia-branca",
+          "Delphinapterus leucas",
+          "Beluga whale"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Raia-manta nítida em águas rasas, com as manchas brancas e as nadadeiras cefálicas visíveis, sem texto.",
+      "pergunta": "Que raia gigante é esta?",
+      "resposta": "Raia-manta",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Raia-manta",
+        "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+        "variantes": [
+          "Jamanta",
+          "Manta",
+          "Manta ray"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Ilustração antiga com várias anêmonas de espécies diferentes e assinatura; é prancha com vários assuntos, e anêmonas podem ser fotografadas."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Espécime de museu mostrando o focinho alongado e os dentes pontiagudos, característicos; sem texto.",
+      "pergunta": "Que tubarão de águas profundas é este?",
+      "resposta": "Tubarão-duende",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-duende",
+        "descricao": "Raro tubarão de águas profundas, Mitsukurina owstoni, de focinho longo e achatado e mandíbulas protráteis.",
+        "variantes": [
+          "Mitsukurina owstoni",
+          "Goblin shark",
+          "Tubarão-goblin"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "É uma ilustração antiga de polvo; polvos podem ser fotografados, e a política só admite ilustração para o que não pode ser fotografado."
+    }
+  ]
+}

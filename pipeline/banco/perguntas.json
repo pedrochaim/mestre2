@@ -68638,5 +68638,189 @@
       "licenca": "CC BY-SA 3.0 de"
     },
     "dificuldade": 3
+  },
+  {
+    "id": "q04110",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "estrela_do_mar",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que animal marinho é este?",
+    "resposta": "Estrela-do-mar",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Starfish",
+      "https://pt.wikipedia.org/wiki/Estrela-do-mar"
+    ],
+    "imagem": {
+      "arquivo": "q04110.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Royal_starfish_(Astropecten_articulatus)_on_the_beach.jpg",
+      "autor": "TheMargue",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q04111",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_leao",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peixe é este?",
+    "resposta": "Peixe-leão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Red_lionfish",
+      "https://pt.wikipedia.org/wiki/Pterois_volitans"
+    ],
+    "imagem": {
+      "arquivo": "q04111.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Pterois_volitans_Manado-e_edit.jpg",
+      "autor": "Photo by Jens Petersen, Edited by User:Olegiwit (cloned in part of fins) and Fir0002 (removed spots and noise)",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q04112",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_palhaco",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que animação da Pixar, lançada em dois mil e três, tem como protagonista este peixe?",
+    "resposta": "Procurando Nemo",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ocellaris_clownfish",
+      "https://pt.wikipedia.org/wiki/Amphiprion_ocellaris"
+    ],
+    "imagem": {
+      "arquivo": "q04112.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Clownfisch_(Amphiprion_ocellaris).jpg",
+      "autor": "Raimond Spekking",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04113",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "peixe_lua",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peixe ósseo oceânico, um dos maiores do mundo, é este?",
+    "resposta": "Peixe-lua",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Ocean_sunfish",
+      "https://pt.wikipedia.org/wiki/Peixe-lua"
+    ],
+    "imagem": {
+      "arquivo": "q04113.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mola_mola.jpg",
+      "autor": "U.S. National Oceanic and Atmospheric Administration",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q04114",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "celacanto",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que peixe raro de águas profundas é este?",
+    "resposta": "Celacanto",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/West_Indian_Ocean_coelacanth"
+    ],
+    "imagem": {
+      "arquivo": "q04114.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Latimeria_Paris.jpg",
+      "autor": "sybarite48",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q04115",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "agua_viva",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal marinho é este?",
+    "resposta": "Água-viva",
+    "distratores": [
+      "Salpa",
+      "Ctenóforo",
+      "Anêmona-do-mar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Jellyfish",
+      "https://pt.wikipedia.org/wiki/%C3%81gua-viva_%28animal%29"
+    ],
+    "imagem": {
+      "arquivo": "q04115.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Jelly_cc11.jpg",
+      "autor": "Dan90266",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q04116",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "beluga",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que outro cetáceo do Ártico forma, com o animal desta foto, uma família de apenas duas espécies?",
+    "resposta": "Narval",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Beluga_whale",
+      "https://pt.wikipedia.org/wiki/Baleia-branca"
+    ],
+    "imagem": {
+      "arquivo": "q04116.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Beluga_oceanografic.jpg",
+      "autor": "Carquinyol from Badalona, Catalunya",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q04117",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "raia_manta",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que raia gigante é esta?",
+    "resposta": "Raia-manta",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Giant_oceanic_manta_ray",
+      "https://pt.wikipedia.org/wiki/Jamanta"
+    ],
+    "imagem": {
+      "arquivo": "q04117.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Manta_birostris-Thailand3.jpg",
+      "autor": "jon hanson from london, UK",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q04118",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "tubarao_duende",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que tubarão de águas profundas é este?",
+    "resposta": "Tubarão-duende",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Goblin_shark",
+      "https://pt.wikipedia.org/wiki/Tubar%C3%A3o-duende"
+    ],
+    "imagem": {
+      "arquivo": "q04118.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Goblin_shark_snout.jpg",
+      "autor": "Hungarian Snow",
+      "licenca": "CC BY-SA 2.0"
+    }
   }
 ]

@@ -1,0 +1,580 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Estrela-do-mar",
+        "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+        "variantes": [
+          "Asteroide",
+          "Starfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        },
+        {
+          "id": "glandula_tireoide",
+          "nome": "Glândula tireoide",
+          "descricao": "Glândula endócrina localizada na parte da frente do pescoço.",
+          "variantes": [
+            "Tireoide",
+            "Tiroide",
+            "Thyroid"
+          ]
+        },
+        {
+          "id": "asterix",
+          "nome": "Asterix",
+          "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+          "variantes": []
+        },
+        {
+          "id": "para",
+          "nome": "Pará",
+          "descricao": "Estado da Região Norte do Brasil, atravessado pelo baixo Amazonas, com capital em Belém.",
+          "variantes": [
+            "Estado do Pará",
+            "PA"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Peixe-leão",
+        "descricao": "Peixe de recife de coral do gênero Pterois, de nadadeiras listradas e espinhos venenosos.",
+        "variantes": [
+          "Pterois volitans",
+          "Lionfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        },
+        {
+          "id": "peixe_palhaco",
+          "nome": "Peixe-palhaço",
+          "descricao": "Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar.",
+          "variantes": [
+            "Peixe-palhaço-laranja",
+            "Clownfish",
+            "Amphiprion"
+          ]
+        },
+        {
+          "id": "peixe_gelo",
+          "nome": "Peixe-gelo",
+          "descricao": "Família de peixes antárticos, Channichthyidae, de sangue quase transparente.",
+          "variantes": [
+            "Channichthyidae",
+            "Peixe-crocodilo-do-gelo",
+            "Icefish"
+          ]
+        },
+        {
+          "id": "idolo_mourisco",
+          "nome": "Ídolo-mourisco",
+          "descricao": "Peixe de recife indo-pacífico (Zanclus cornutus) de faixas pretas e amarelas e barbatana dorsal em filamento.",
+          "variantes": [
+            "Zanclus cornutus",
+            "Peixe-ídolo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Peixe-palhaço",
+        "descricao": "Peixe de recife do gênero Amphiprion, laranja com faixas brancas, que vive em simbiose com anêmonas-do-mar.",
+        "variantes": [
+          "Amphiprion ocellaris",
+          "Clownfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_palhaco",
+          "nome": "Peixe-palhaço",
+          "descricao": "Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar.",
+          "variantes": [
+            "Peixe-palhaço-laranja",
+            "Clownfish",
+            "Amphiprion"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "remora",
+          "nome": "Rêmora",
+          "descricao": "Peixe marinho que se fixa a tubarões e outros animais grandes por uma ventosa na cabeça.",
+          "variantes": [
+            "Peixe-piolho"
+          ]
+        },
+        {
+          "id": "peixe_bolha",
+          "nome": "Peixe-bolha",
+          "descricao": "Peixe de águas profundas, Psychrolutes marcidus, que vive na costa da Austrália e da Nova Zelândia.",
+          "variantes": [
+            "Psychrolutes marcidus",
+            "Blobfish"
+          ]
+        },
+        {
+          "id": "peixe_gelo",
+          "nome": "Peixe-gelo",
+          "descricao": "Família de peixes antárticos, Channichthyidae, de sangue quase transparente.",
+          "variantes": [
+            "Channichthyidae",
+            "Peixe-crocodilo-do-gelo",
+            "Icefish"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Peixe-lua",
+        "descricao": "Grande peixe ósseo oceânico da espécie Mola mola, de corpo achatado e sem cauda verdadeira.",
+        "variantes": [
+          "Mola mola",
+          "Ocean sunfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "peixe_lua",
+          "nome": "Peixe-lua",
+          "descricao": "Grande peixe oceânico de corpo achatado e arredondado (Mola mola), um dos peixes ósseos mais pesados.",
+          "variantes": [
+            "Mola mola",
+            "Ocean sunfish",
+            "Peixe-sol"
+          ]
+        },
+        {
+          "id": "baiacu",
+          "nome": "Baiacu",
+          "descricao": "Peixe da família Tetraodontidae, de corpo roliço, quatro dentes fundidos e capaz de se inflar.",
+          "variantes": [
+            "Peixe-balão",
+            "Tetraodontidae",
+            "Fugu"
+          ]
+        },
+        {
+          "id": "peixe_bolha",
+          "nome": "Peixe-bolha",
+          "descricao": "Peixe de águas profundas, Psychrolutes marcidus, que vive na costa da Austrália e da Nova Zelândia.",
+          "variantes": [
+            "Psychrolutes marcidus",
+            "Blobfish"
+          ]
+        },
+        {
+          "id": "peixe_gelo",
+          "nome": "Peixe-gelo",
+          "descricao": "Família de peixes antárticos, Channichthyidae, de sangue quase transparente.",
+          "variantes": [
+            "Channichthyidae",
+            "Peixe-crocodilo-do-gelo",
+            "Icefish"
+          ]
+        },
+        {
+          "id": "peixe_palhaco",
+          "nome": "Peixe-palhaço",
+          "descricao": "Pequeno peixe de recife alaranjado, da subfamília Amphiprioninae, que vive associado a anêmonas-do-mar.",
+          "variantes": [
+            "Peixe-palhaço-laranja",
+            "Clownfish",
+            "Amphiprion"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Celacanto",
+        "descricao": "Peixe de nadadeiras lobadas do gênero Latimeria, considerado extinto até ser encontrado vivo em 1938.",
+        "variantes": [
+          "Latimeria chalumnae",
+          "Coelacanth"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "celacanto",
+          "nome": "Celacanto",
+          "descricao": "Peixe de nadadeiras lobadas do gênero Latimeria, conhecido antes só por fósseis.",
+          "variantes": [
+            "Latimeria",
+            "Coelacanth"
+          ]
+        },
+        {
+          "id": "cacau",
+          "nome": "Cacau",
+          "descricao": "Árvore Theobroma cacao, cujas sementes são a matéria-prima do chocolate",
+          "variantes": [
+            "Theobroma cacao",
+            "cacaueiro",
+            "cacao"
+          ]
+        },
+        {
+          "id": "lycra",
+          "nome": "Lycra",
+          "descricao": "Fibra sintética elástica, também chamada elastano ou spandex",
+          "variantes": [
+            "Elastano",
+            "Spandex"
+          ]
+        },
+        {
+          "id": "krakatoa",
+          "nome": "Krakatoa",
+          "descricao": "Ilha vulcânica no estreito de Sunda, na Indonésia, cuja erupção de 1883 foi uma das mais violentas da história.",
+          "variantes": [
+            "Krakatau",
+            "Cracatoa"
+          ]
+        },
+        {
+          "id": "pau_de_sebo",
+          "nome": "Pau de sebo",
+          "descricao": "Brincadeira de subir num mastro untado de gordura para alcançar um prêmio no topo, típica das festas juninas.",
+          "variantes": [
+            "Mastro de cocanha",
+            "Cocanha"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Água-viva",
+        "descricao": "Cnidário gelatinoso de corpo em forma de sino, com tentáculos urticantes, na fase de medusa.",
+        "variantes": [
+          "Medusa",
+          "Jellyfish"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "agua_viva",
+          "nome": "Água-viva",
+          "descricao": "Forma nadadora, em geral gelatinosa e em forma de sino, de diversos cnidários marinhos.",
+          "variantes": [
+            "Medusa",
+            "Alforreca",
+            "Jellyfish"
+          ]
+        },
+        {
+          "id": "banana",
+          "nome": "Banana",
+          "descricao": "Fruto comestível das plantas do gênero Musa",
+          "variantes": [
+            "Musa",
+            "bananeira"
+          ]
+        },
+        {
+          "id": "agua_regia",
+          "nome": "Água régia",
+          "descricao": "Mistura de ácido nítrico e ácido clorídrico capaz de dissolver o ouro e a platina.",
+          "variantes": [
+            "Aqua regia"
+          ]
+        },
+        {
+          "id": "turritopsis_dohrnii",
+          "nome": "Turritopsis dohrnii",
+          "descricao": "Pequeno hidrozoário marinho conhecido como água-viva imortal por conseguir rejuvenescer.",
+          "variantes": [
+            "Água-viva imortal",
+            "Immortal jellyfish"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Beluga",
+        "descricao": "Baleia-branca ártica, Delphinapterus leucas, cetáceo sem nadadeira dorsal e com testa bulbosa.",
+        "variantes": [
+          "Baleia-branca",
+          "Delphinapterus leucas",
+          "Beluga whale"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "baleia_azul",
+          "nome": "Baleia-azul",
+          "descricao": "Cetáceo gigante da espécie Balaenoptera musculus.",
+          "variantes": [
+            "Balaenoptera musculus",
+            "Blue whale"
+          ]
+        },
+        {
+          "id": "asa_branca",
+          "nome": "Asa Branca",
+          "descricao": "Toada de baião lançada por Luiz Gonzaga em 1947, sobre a seca no sertão.",
+          "variantes": []
+        },
+        {
+          "id": "lugia",
+          "nome": "Lugia",
+          "descricao": "Pokémon dos tipos Psíquico e Voador, número 249 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "tanach",
+          "nome": "Tanach",
+          "descricao": "Conjunto das escrituras sagradas do judaísmo, a Bíblia hebraica",
+          "variantes": [
+            "Tanakh",
+            "Bíblia hebraica"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Raia-manta",
+        "descricao": "Grande raia do gênero Mobula (antes Manta), de corpo em losango e nadadeiras cefálicas, que se alimenta de plâncton.",
+        "variantes": [
+          "Jamanta",
+          "Manta",
+          "Manta ray"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "anta",
+          "nome": "Anta",
+          "descricao": "Grande mamífero herbívoro de focinho em forma de pequena tromba da América do Sul, espécie Tapirus terrestris.",
+          "variantes": [
+            "Tapirus terrestris",
+            "Tapir",
+            "Anta-brasileira"
+          ]
+        },
+        {
+          "id": "dolmen",
+          "nome": "Dólmen",
+          "descricao": "Monumento megalítico formado por pedras verticais que sustentam uma laje horizontal.",
+          "variantes": [
+            "Anta"
+          ]
+        },
+        {
+          "id": "fanta",
+          "nome": "Fanta",
+          "descricao": "Refrigerante criado na Alemanha em 1940 pela filial alemã da Coca-Cola.",
+          "variantes": []
+        },
+        {
+          "id": "marta",
+          "nome": "Marta",
+          "descricao": "Marta Vieira da Silva, jogadora eleita seis vezes a melhor do mundo.",
+          "variantes": [
+            "Marta Vieira da Silva"
+          ]
+        },
+        {
+          "id": "manga",
+          "nome": "Manga",
+          "descricao": "Fruta tropical da mangueira (Mangifera indica), de origem no sul da Ásia.",
+          "variantes": [
+            "Mango",
+            "Mangifera indica",
+            "mangueira"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Tubarão-duende",
+        "descricao": "Raro tubarão de águas profundas, Mitsukurina owstoni, de focinho longo e achatado e mandíbulas protráteis.",
+        "variantes": [
+          "Mitsukurina owstoni",
+          "Goblin shark",
+          "Tubarão-goblin"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tubarao_baleia",
+          "nome": "Tubarão-baleia",
+          "descricao": "Grande tubarão filtrador (Rhincodon typus) de pele pintada, que se alimenta de plâncton.",
+          "variantes": [
+            "Rhincodon typus",
+            "Whale shark"
+          ]
+        },
+        {
+          "id": "tubarao_cobra",
+          "nome": "Tubarão-cobra",
+          "descricao": "Tubarão de águas profundas (Chlamydoselachus anguineus), de corpo de enguia e guelras franjadas.",
+          "variantes": [
+            "Chlamydoselachus anguineus",
+            "Tubarão-de-gola"
+          ]
+        },
+        {
+          "id": "tubarao",
+          "nome": "Tubarão",
+          "descricao": "Filme de suspense de 1975 dirigido por Steven Spielberg, sobre um tubarão-branco que ataca banhistas.",
+          "variantes": [
+            "Jaws"
+          ]
+        },
+        {
+          "id": "tubarao_2",
+          "nome": "Tubarão",
+          "descricao": "Peixe cartilaginoso predador da superordem Selachimorpha.",
+          "variantes": [
+            "Tubarões",
+            "Selachimorpha",
+            "Shark"
+          ]
+        },
+        {
+          "id": "tubarao_branco",
+          "nome": "Tubarão-branco",
+          "descricao": "Grande tubarão predador (Carcharodon carcharias), de dorso cinzento e ventre branco.",
+          "variantes": [
+            "Carcharodon carcharias",
+            "Tubarão-branco-grande"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Estrela-do-mar (equinodermo) não corresponde a nenhuma candidata; Sírius e Vênus são astros."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Peixe-leão (Pterois) é diferente de todas as candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "peixe_palhaco",
+      "motivo": "Mesmo peixe-palhaço (Amphiprion, simbiose com anêmonas)."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "peixe_lua",
+      "motivo": "Mesma espécie Mola mola."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "celacanto",
+      "motivo": "Mesmo celacanto, gênero Latimeria."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "agua_viva",
+      "motivo": "Mesma entidade: água-viva/medusa, cnidário gelatinoso."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Beluga não está entre as candidatas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Raia-manta não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Tubarão-duende é espécie distinta das candidatas."
+    }
+  ]
+}

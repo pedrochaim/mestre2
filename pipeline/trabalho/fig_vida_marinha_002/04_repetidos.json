@@ -1,0 +1,92 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que animação da Pixar, lançada em dois mil e três, tem como protagonista este peixe?",
+        "resposta": "Procurando Nemo"
+      },
+      "existentes": [
+        {
+          "id": "q02540",
+          "pergunta": "Por que o peixe-palhaço consegue viver entre os tentáculos urticantes da anêmona sem ser queimado?",
+          "resposta": "Tem uma camada de muco protetor"
+        },
+        {
+          "id": "q02541",
+          "pergunta": "Nos peixes-palhaço, quando a fêmea dominante de um grupo morre, o que acontece com o macho reprodutor?",
+          "resposta": "Vira fêmea"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que peixe ósseo oceânico, um dos maiores do mundo, é este?",
+        "resposta": "Peixe-lua"
+      },
+      "existentes": [
+        {
+          "id": "q02535",
+          "pergunta": "Redondo, achatado e cinzento, o peixe-lua recebeu o nome científico Mola, palavra latina para que objeto?",
+          "resposta": "Pedra de moinho"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que peixe raro de águas profundas é este?",
+        "resposta": "Celacanto"
+      },
+      "existentes": [
+        {
+          "id": "q02560",
+          "pergunta": "Em 1938, um celacanto, peixe que se julgava extinto havia milhões de anos, foi pescado na costa de que país?",
+          "resposta": "África do Sul"
+        },
+        {
+          "id": "q02561",
+          "pergunta": "Antes de ser encontrado vivo, o celacanto era conhecido só por fósseis. Os cientistas achavam que ele tinha sumido na mesma época que quais animais famosos?",
+          "resposta": "Dinossauros"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que animal marinho é este?",
+        "resposta": "Água-viva"
+      },
+      "existentes": [
+        {
+          "id": "q02528",
+          "pergunta": "A fase nadadora das águas-vivas leva o nome de uma górgona da mitologia grega, que tinha serpentes no lugar dos cabelos. Que nome é esse?",
+          "resposta": "Medusa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre o filme da Pixar; as existentes tratam de muco protetor e mudança de sexo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pede identificar o peixe-lua; a existente pergunta a origem do nome científico Mola (pedra de moinho)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pede identificar o celacanto pela imagem; as existentes tratam do país da pesca em 1938 e dos animais que sumiram na mesma época."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pede identificar a água-viva; a existente pergunta o nome da fase nadadora (Medusa)."
+    }
+  ]
+}

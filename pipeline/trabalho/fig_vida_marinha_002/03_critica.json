@@ -1,0 +1,79 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista vazada; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta direta de reconhecimento, sem vazamento; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Cobrindo a imagem, 'abriga um peixe entre seus tentáculos' já entrega anêmona-do-mar, então a figura vira enfeite. Troquei por um passo que exige reconhecer o peixe.",
+      "reescrita": {
+        "pergunta": "Que animação da Pixar, lançada em dois mil e três, tem como protagonista este peixe?",
+        "resposta": "Procurando Nemo",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Achatado' é impreciso: o peixe-lua é comprimido lateralmente, como diz o trecho. Basta uma pista segura.",
+      "reescrita": {
+        "pergunta": "Que peixe ósseo oceânico, um dos maiores do mundo, é este?",
+        "resposta": "Peixe-lua",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Cobrindo a imagem, 'nadadeiras lobadas, aparentado dos primeiros vertebrados terrestres' aponta quase direto para o celacanto. A pista também serve aos peixes-pulmonados, e o trecho mostra que eles são os parentes mais próximos dos tetrápodes. Tirei a pista.",
+      "reescrita": {
+        "pergunta": "Que peixe raro de águas profundas é este?",
+        "resposta": "Celacanto",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento em múltipla escolha. Os distratores são do mesmo tipo, curtos, e nenhum descreve uma medusa de sino. O ctenóforo só é chamado de água-viva em sentido tradicional, mas a figura o exclui.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a família Monodontidae tem apenas beluga e narval. Sem a imagem não se sabe qual das duas espécies é a mostrada, então a figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Raia gigante' é só pista de grupo. A resposta 'raia-manta' cobre as espécies do gênero, e a resposta é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Tubarão de águas profundas' é pista de grupo e não identifica a espécie; resposta única.",
+      "reescrita": null
+    }
+  ]
+}
