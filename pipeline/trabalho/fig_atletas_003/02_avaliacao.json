@@ -1,0 +1,225 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Foto amarelada, de baixa qualidade, casual, com outras pessoas coladas; rosto pouco reconhecível, com camiseta de marca visível."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este piloto alemão aposentado conquistou quantos títulos mundiais de Fórmula 1?",
+      "resposta": "Quatro",
+      "destino": 4,
+      "ancora": {
+        "nome": "Sebastian Vettel",
+        "descricao": "Piloto alemão de Fórmula 1, tetracampeão mundial entre 2010 e 2013 pela Red Bull.",
+        "variantes": [
+          "Vettel"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto nítida em quadra, só patrocinador visível; sem nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este tenista brasileiro, especialista em duplas, conquistou em 2017 qual torneio de Grand Slam?",
+      "resposta": "Wimbledon",
+      "distratores": [
+        "Roland Garros",
+        "US Open",
+        "Aberto da Austrália"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Marcelo Melo",
+        "descricao": "Tenista brasileiro de duplas, ex-número 1 do mundo e campeão de Roland Garros 2015 e Wimbledon 2017.",
+        "variantes": [
+          "Marcelo Pinheiro Davi de Melo"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Foto de baixa resolução, casual, com outras pessoas ao redor; pouco reconhecível."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Atleta em pista com uniforme do Brasil, sem nome visível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Esta atleta brasileira é recordista sul-americana em qual prova do atletismo?",
+      "resposta": "Salto com vara",
+      "distratores": [
+        "Salto em distância",
+        "Salto em altura",
+        "Lançamento de dardo"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Fabiana Murer",
+        "descricao": "Atleta brasileira aposentada de salto com vara, campeã mundial em 2011.",
+        "variantes": [
+          "Fabiana de Almeida Murer"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Retrato nítido; texto parcial do cachecol e do chapéu não entrega o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este tenista brasileiro?",
+      "resposta": "Thomaz Bellucci",
+      "distratores": [
+        "Thiago Monteiro",
+        "Ricardo Mello",
+        "João Souza"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Thomaz Bellucci",
+        "descricao": "Ex-tenista brasileiro nascido em Tietê, número 21 do mundo em 2010.",
+        "variantes": [
+          "Tomaz Bellucci"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Close nítido de figura pública, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Esta tenista americana conquistou quantos títulos de simples de Grand Slam?",
+      "resposta": "23",
+      "destino": 3,
+      "ancora": {
+        "nome": "Serena Williams",
+        "descricao": "Tenista americana, ex-número 1 do mundo, com 23 títulos de simples de Grand Slam.",
+        "variantes": [
+          "Serena Jameka Williams"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Retrato nítido com fundo de banner sem nome do atleta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este nadador brasileiro?",
+      "resposta": "Cesar Cielo",
+      "distratores": [
+        "Gustavo Borges",
+        "Thiago Pereira",
+        "Bruno Fratus"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Cesar Cielo",
+        "descricao": "Nadador brasileiro de velocidade, campeão olímpico dos 50 m livre em 2008.",
+        "variantes": [
+          "César Cielo",
+          "César Augusto Cielo Filho"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de figura pública; a camisa mostra só o time e o número, sem o nome.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem é este astro do basquete?",
+      "resposta": "LeBron James",
+      "destino": 2,
+      "ancora": {
+        "nome": "LeBron James",
+        "descricao": "Astro americano do basquete da NBA, conhecido como King James.",
+        "variantes": [
+          "King James"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto que entregue o nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é este ex-tenista americano?",
+      "resposta": "Andre Agassi",
+      "distratores": [
+        "Pete Sampras",
+        "Jim Courier",
+        "Andy Roddick"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Andre Agassi",
+        "descricao": "Ex-tenista americano, ex-número 1 do mundo e campeão de oito torneios de Grand Slam.",
+        "variantes": [
+          "Andre Kirk Agassi"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Retrato nítido de época com camisa de clube sem o nome do jogador; pista não entrega.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este meia brasileiro ganhou dos torcedores italianos qual apelido ligado à cidade onde jogou?",
+      "resposta": "Oitavo Rei de Roma",
+      "destino": 0,
+      "ancora": {
+        "nome": "Paulo Roberto Falcão",
+        "descricao": "Ex-meia brasileiro do Internacional e da Roma, ídolo dos anos 1980.",
+        "variantes": [
+          "Falcão"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido, com bandeira e agasalho do Brasil, sem nome.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Quem é esta atleta brasileira?",
+      "resposta": "Maurren Maggi",
+      "distratores": [
+        "Keila Costa",
+        "Lucimara Silva",
+        "Rosângela Santos"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Maurren Maggi",
+        "descricao": "Ex-atleta brasileira, campeã olímpica do salto em distância em 2008.",
+        "variantes": [
+          "Maurren Higa Maggi"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Esta tenista americana conquistou quantos títulos de simples de Grand Slam?",
+        "resposta": "23"
+      },
+      "existentes": [
+        {
+          "id": "q01917",
+          "pergunta": "Em 2017, Serena Williams venceu o Aberto da Austrália numa condição surpreendente, só revelada meses depois. Qual?",
+          "resposta": "Estava grávida"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova trata do total de títulos de simples de Grand Slam (23). A existente trata da gravidez de Serena no Aberto da Austrália de 2017. São fatos diferentes, e saber um não ajuda a responder o outro."
+    }
+  ]
+}
