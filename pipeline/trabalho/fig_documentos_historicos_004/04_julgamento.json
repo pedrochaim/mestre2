@@ -1,0 +1,556 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Desastre do Hindenburg",
+        "descricao": "Incêndio do dirigível alemão LZ 129 Hindenburg ao atracar em Lakehurst, Nova Jersey, em 1937.",
+        "variantes": [
+          "Hindenburg",
+          "Acidente do Hindenburg"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hindenburg",
+          "nome": "Hindenburg",
+          "descricao": "Dirigível alemão de passageiros destruído por um incêndio em Lakehurst, nos Estados Unidos, em 1937.",
+          "variantes": [
+            "LZ 129 Hindenburg",
+            "Desastre do Hindenburg"
+          ]
+        },
+        {
+          "id": "desastre_do_onibus_espacial_challenger",
+          "nome": "Desastre do ônibus espacial Challenger",
+          "descricao": "Explosão do ônibus espacial Challenger logo após o lançamento, em janeiro de 1986, nos Estados Unidos.",
+          "variantes": [
+            "Space Shuttle Challenger disaster",
+            "Acidente do Challenger"
+          ]
+        },
+        {
+          "id": "werner_heisenberg",
+          "nome": "Werner Heisenberg",
+          "descricao": "Físico teórico alemão (1901–1976), autor do princípio da incerteza e Nobel de Física de 1932.",
+          "variantes": [
+            "Heisenberg"
+          ]
+        },
+        {
+          "id": "tragedia_de_superga",
+          "nome": "Tragédia de Superga",
+          "descricao": "Queda do avião que levava o elenco do Torino, o Grande Torino, na colina de Superga, perto de Turim, em 4 de maio de 1949.",
+          "variantes": [
+            "Desastre aéreo de Superga",
+            "Superga air disaster",
+            "Tragedia di Superga"
+          ]
+        },
+        {
+          "id": "tragedia_de_heysel",
+          "nome": "Tragédia de Heysel",
+          "descricao": "Desastre no estádio de Heysel, em Bruxelas, antes da final da Copa dos Campeões de 1985 entre Liverpool e Juventus, com 39 mortos.",
+          "variantes": [
+            "Desastre de Heysel",
+            "Heysel Stadium disaster"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Pedra do Sol asteca",
+        "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+        "variantes": [
+          "Calendário Asteca",
+          "Piedra del Sol",
+          "Pedra do Sol"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        },
+        {
+          "id": "inti_raymi",
+          "nome": "Inti Raymi",
+          "descricao": "Festa religiosa inca encenada todo mês de junho em Cusco, no Peru.",
+          "variantes": [
+            "Festa do Sol"
+          ]
+        },
+        {
+          "id": "calendario_egipcio",
+          "nome": "Calendário egípcio",
+          "descricao": "Calendário civil solar do Egito Antigo, com doze meses de trinta dias e dias extras no fim do ano",
+          "variantes": [
+            "Egyptian calendar",
+            "Calendário civil egípcio"
+          ]
+        },
+        {
+          "id": "piramide_do_sol_teotihuacan",
+          "nome": "Pirâmide do Sol (Teotihuacan)",
+          "descricao": "Maior pirâmide de Teotihuacan, no México, junto à Avenida dos Mortos.",
+          "variantes": [
+            "Pirâmide do Sol",
+            "Pyramid of the Sun"
+          ]
+        },
+        {
+          "id": "canario_da_terra",
+          "nome": "Canário-da-terra",
+          "descricao": "Pequena ave amarela com o alto da cabeça alaranjado, comum em áreas abertas da América do Sul e não aparentada ao canário.",
+          "variantes": [
+            "Canário-da-terra-verdadeiro",
+            "Sicalis flaveola",
+            "Saffron finch"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Titanic",
+        "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+        "variantes": [
+          "RMS Titanic"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rms_titanic",
+          "nome": "RMS Titanic",
+          "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+          "variantes": [
+            "Titanic"
+          ]
+        },
+        {
+          "id": "titanic",
+          "nome": "Titanic",
+          "descricao": "Filme de 1997 dirigido por James Cameron, sobre um romance a bordo do transatlântico que naufragou em 1912.",
+          "variantes": [
+            "Titanic (1997)"
+          ]
+        },
+        {
+          "id": "lago_titicaca",
+          "nome": "Lago Titicaca",
+          "descricao": "Grande lago de altitude nos Andes, na fronteira entre o Peru e a Bolívia.",
+          "variantes": [
+            "Titicaca",
+            "Lake Titicaca"
+          ]
+        },
+        {
+          "id": "itaca",
+          "nome": "Ítaca",
+          "descricao": "Ilha grega do mar Jônico, apresentada na Odisseia como o reino de Ulisses.",
+          "variantes": [
+            "Ithaca",
+            "Ithaki"
+          ]
+        },
+        {
+          "id": "tico_tico",
+          "nome": "Tico-tico",
+          "descricao": "Pequeno pardal americano (Zonotrichia capensis) de topete e colar ferrugem, comum no Brasil.",
+          "variantes": [
+            "Zonotrichia capensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Máquina Enigma",
+        "descricao": "Máquina eletromecânica de rotores usada para cifrar mensagens, empregada pelas forças armadas da Alemanha nazista.",
+        "variantes": [
+          "Enigma"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "maquina_enigma",
+          "nome": "Máquina Enigma",
+          "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial.",
+          "variantes": [
+            "Enigma"
+          ]
+        },
+        {
+          "id": "jenga",
+          "nome": "Jenga",
+          "descricao": "Jogo de habilidade em que se retiram blocos de madeira de uma torre e se recolocam no topo sem derrubá-la.",
+          "variantes": []
+        },
+        {
+          "id": "eniac",
+          "nome": "ENIAC",
+          "descricao": "Computador eletrônico digital de uso geral construído nos Estados Unidos e concluído em 1945.",
+          "variantes": [
+            "Electronic Numerical Integrator and Computer"
+          ]
+        },
+        {
+          "id": "macunaima_filme",
+          "nome": "Macunaíma (filme)",
+          "descricao": "Filme brasileiro de 1969 dirigido por Joaquim Pedro de Andrade, baseado no livro de Mário de Andrade.",
+          "variantes": [
+            "Macunaima"
+          ]
+        },
+        {
+          "id": "mauna_kea",
+          "nome": "Mauna Kea",
+          "descricao": "Vulcão adormecido na ilha do Havaí, nos Estados Unidos, cuja base fica no fundo do Oceano Pacífico.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Cruz da Ordem de Cristo",
+        "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+        "variantes": [
+          "Cruz de Cristo",
+          "Cruz Portuguesa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "a_portuguesa",
+          "nome": "A Portuguesa",
+          "descricao": "Hino nacional de Portugal, composto em 1890 por Alfredo Keil, com letra de Henrique Lopes de Mendonça.",
+          "variantes": [
+            "Hino de Portugal"
+          ]
+        },
+        {
+          "id": "caravela_portuguesa",
+          "nome": "Caravela-portuguesa",
+          "descricao": "Sifonóforo colonial (Physalia physalis) de flutuador azulado, com tentáculos urticantes.",
+          "variantes": [
+            "Physalia physalis",
+            "Fragata-portuguesa",
+            "Man o' war"
+          ]
+        },
+        {
+          "id": "lingua_portuguesa",
+          "nome": "Língua portuguesa",
+          "descricao": "Língua românica originada no noroeste da Península Ibérica, oficial em países de quatro continentes",
+          "variantes": [
+            "Português"
+          ]
+        },
+        {
+          "id": "bandeira_de_portugal",
+          "nome": "Bandeira de Portugal",
+          "descricao": "Bandeira nacional de Portugal, verde e vermelha com a esfera armilar e o escudo português.",
+          "variantes": [
+            "Bandeira portuguesa"
+          ]
+        },
+        {
+          "id": "cruz_de_borgonha",
+          "nome": "Cruz de Borgonha",
+          "descricao": "Bandeira em forma de cruz de Santo André denteada, estandarte histórico dos duques de Borgonha e depois dos Habsburgos.",
+          "variantes": [
+            "Aspa de Borgonha",
+            "Cruz de Santo André de Borgonha",
+            "Cruz de Borgoña"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Sudário de Turim",
+        "descricao": "Pano de linho com a imagem de um homem, venerado como o sudário de Jesus, guardado em Turim.",
+        "variantes": [
+          "Santo Sudário",
+          "Sindone di Torino"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "sao_januario",
+          "nome": "São Januário",
+          "descricao": "Estádio do Club de Regatas Vasco da Gama, no bairro de São Cristóvão, Rio de Janeiro.",
+          "variantes": [
+            "Estádio Vasco da Gama"
+          ]
+        },
+        {
+          "id": "santuario_de_ise",
+          "nome": "Santuário de Ise",
+          "descricao": "Grande complexo de santuários xintoístas dedicado à deusa Amaterasu, na província de Mie, no Japão.",
+          "variantes": [
+            "Ise Jingu",
+            "Ise Grand Shrine"
+          ]
+        },
+        {
+          "id": "san_siro",
+          "nome": "San Siro",
+          "descricao": "Estádio Giuseppe Meazza, de Milan e Inter, em Milão.",
+          "variantes": []
+        },
+        {
+          "id": "sindrome_de_down",
+          "nome": "Síndrome de Down",
+          "descricao": "Condição genética causada por uma cópia extra do cromossomo 21.",
+          "variantes": [
+            "Trissomia do 21",
+            "Down syndrome"
+          ]
+        },
+        {
+          "id": "muro_de_berlim",
+          "nome": "Muro de Berlim",
+          "descricao": "Barreira de concreto que cercou Berlim Ocidental entre 1961 e 1989, separando-a de Berlim Oriental e da Alemanha Oriental.",
+          "variantes": [
+            "Berliner Mauer",
+            "Berlin Wall"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Peças de xadrez de Lewis",
+        "descricao": "Conjunto de peças de xadrez do século doze, em marfim, achado em 1831 na Ilha de Lewis, na Escócia.",
+        "variantes": [
+          "Lewis chessmen",
+          "Peças de xadrez de Uig"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pecas_de_xadrez_de_lewis",
+          "nome": "Peças de xadrez de Lewis",
+          "descricao": "Conjunto de peças de xadrez medievais do século doze encontrado na Ilha de Lewis, na Escócia.",
+          "variantes": [
+            "Lewis chessmen",
+            "Xadrez de Lewis"
+          ]
+        },
+        {
+          "id": "lewis_hamilton",
+          "nome": "Lewis Hamilton",
+          "descricao": "Piloto britânico heptacampeão mundial de Fórmula 1.",
+          "variantes": []
+        },
+        {
+          "id": "joe_louis_contra_max_schmeling",
+          "nome": "Joe Louis contra Max Schmeling",
+          "descricao": "Revanche de boxe de 1938, em Nova York, entre o americano Joe Louis e o alemão Max Schmeling.",
+          "variantes": [
+            "Joe Louis vs. Max Schmeling",
+            "Louis–Schmeling"
+          ]
+        },
+        {
+          "id": "teatro_de_arte_de_moscou",
+          "nome": "Teatro de Arte de Moscou",
+          "descricao": "Companhia teatral russa fundada em 1898 por Stanislavski e Nemirovitch-Dantchenko.",
+          "variantes": [
+            "Moscow Art Theatre",
+            "MKhAT"
+          ]
+        },
+        {
+          "id": "liquen",
+          "nome": "Líquen",
+          "descricao": "Organismo composto formado pela associação simbiótica entre um fungo e um parceiro fotossintetizante.",
+          "variantes": [
+            "Líquenes",
+            "Lichen"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Bandeira da Alemanha Nazista",
+        "descricao": "Bandeira vermelha com suástica negra em círculo branco, do Partido Nazista e bandeira nacional alemã de 1935 a 1945.",
+        "variantes": [
+          "Bandeira nazista",
+          "Hakenkreuzflagge"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        },
+        {
+          "id": "jolly_roger",
+          "nome": "Jolly Roger",
+          "descricao": "Bandeira negra com caveira e ossos cruzados, hasteada por navios piratas no início do século dezoito.",
+          "variantes": [
+            "Jolly Roger (bandeira pirata)",
+            "Bandeira pirata"
+          ]
+        },
+        {
+          "id": "bandeira_do_cazaquistao",
+          "nome": "Bandeira do Cazaquistão",
+          "descricao": "Bandeira nacional do Cazaquistão, azul-turquesa com sol dourado, águia e ornamento vertical na lateral.",
+          "variantes": [
+            "Cazaquistão",
+            "Bandeira do Kazakhstan"
+          ]
+        },
+        {
+          "id": "bandeira_da_austria",
+          "nome": "Bandeira da Áustria",
+          "descricao": "Bandeira nacional atual da Áustria, com três faixas horizontais iguais vermelha, branca e vermelha.",
+          "variantes": [
+            "Áustria",
+            "Bandeira austríaca"
+          ]
+        },
+        {
+          "id": "bandeira_da_italia",
+          "nome": "Bandeira da Itália",
+          "descricao": "Bandeira nacional atual da Itália, tricolor vertical verde, branca e vermelha.",
+          "variantes": [
+            "Il Tricolore",
+            "Tricolore italiano"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Bandeira do Império Otomano",
+        "descricao": "Bandeira vermelha com crescente e estrela brancos de cinco pontas, adotada oficialmente pelo Império Otomano em 1844.",
+        "variantes": [
+          "Bandeira otomana"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "bandeira_do_peru",
+          "nome": "Bandeira do Peru",
+          "descricao": "Bandeira nacional atual do Peru, com três faixas verticais vermelha, branca e vermelha.",
+          "variantes": [
+            "Peru",
+            "Bandeira peruana"
+          ]
+        },
+        {
+          "id": "aneis_olimpicos",
+          "nome": "Anéis olímpicos",
+          "descricao": "Símbolo dos Jogos Olímpicos, formado por cinco anéis entrelaçados sobre fundo branco.",
+          "variantes": [
+            "Cinco anéis",
+            "Olympic rings",
+            "Bandeira olímpica"
+          ]
+        },
+        {
+          "id": "bandeira_da_india",
+          "nome": "Bandeira da Índia",
+          "descricao": "Bandeira nacional da Índia, tricolor açafrão, branca e verde com a roda azul Ashoka Chakra no centro.",
+          "variantes": [
+            "Tiranga",
+            "Flag of India"
+          ]
+        },
+        {
+          "id": "bandeira_da_alemanha",
+          "nome": "Bandeira da Alemanha",
+          "descricao": "Bandeira nacional da Alemanha, tricolor horizontal preta, vermelha e dourada.",
+          "variantes": [
+            "Alemanha",
+            "Schwarz-Rot-Gold"
+          ]
+        },
+        {
+          "id": "bandeira_da_colombia",
+          "nome": "Bandeira da Colômbia",
+          "descricao": "Bandeira nacional da Colômbia, tricolor horizontal com faixa amarela dupla, azul e vermelha.",
+          "variantes": [
+            "Colômbia"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "mesma",
+      "id_existente": "hindenburg",
+      "motivo": "Mesmo dirigível/incêndio de 1937 em Lakehurst; a candidata inclui 'Desastre do Hindenburg' como variante."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Monólito mexica na Cidade do México; nenhuma candidata corresponde (Porta do Sol é Tiwanaku, Pirâmide do Sol é outra)."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "rms_titanic",
+      "motivo": "Mesmo transatlântico, descrições idênticas; o filme 'titanic' é outra entidade."
+    },
+    {
+      "caso": 4,
+      "decisao": "mesma",
+      "id_existente": "maquina_enigma",
+      "motivo": "Mesma máquina de cifrar de rotores alemã."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "A Cruz da Ordem de Cristo é um símbolo distinto da bandeira, do hino e das demais candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Sudário de Turim; nomes apenas parecidos."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "pecas_de_xadrez_de_lewis",
+      "motivo": "Mesmo conjunto medieval de peças encontrado na Ilha de Lewis."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "A bandeira nazista é diferente da bandeira atual da Alemanha e das demais candidatas."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Bandeira otomana não corresponde a nenhuma candidata."
+    }
+  ]
+}

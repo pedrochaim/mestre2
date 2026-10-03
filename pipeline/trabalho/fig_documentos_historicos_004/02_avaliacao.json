@@ -1,0 +1,209 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Foto histórica icônica, sem texto legível que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano ocorreu este acidente com um dirigível, filmado e fotografado em Nova Jersey?",
+      "resposta": "1937",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Desastre do Hindenburg",
+        "descricao": "Incêndio do dirigível alemão LZ 129 Hindenburg ao atracar em Lakehurst, Nova Jersey, em 1937.",
+        "variantes": [
+          "Hindenburg",
+          "Acidente do Hindenburg"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Escultura inconfundível, sem texto; as cabeças no canto são marginais.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que famosa escultura circular asteca é esta?",
+      "resposta": "Pedra do Sol (Calendário Asteca)",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pedra do Sol asteca",
+        "descricao": "Monólito circular mexica esculpido no início do século dezesseis, exposto no Museu Nacional de Antropologia da Cidade do México.",
+        "variantes": [
+          "Calendário Asteca",
+          "Piedra del Sol",
+          "Pedra do Sol"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Mapa com muitas legendas e textos; não é legível no celular."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto histórica clássica do navio; o nome na proa é minúsculo e ilegível.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que ano afundou este transatlântico britânico, em sua viagem inaugural?",
+      "resposta": "1912",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Titanic",
+        "descricao": "Transatlântico britânico da White Star Line que afundou em 1912 após colidir com um iceberg.",
+        "variantes": [
+          "RMS Titanic"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Manuscrito cheio de texto; não é reconhecível pela imagem e a resposta não é única diante dela."
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "O livro mostra 'Anne Frank' e 'Het Achterhuis' na página, além de legenda, entregando a resposta."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Objeto inconfundível; o texto visível (fabricante, aviso) não nomeia a máquina.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que máquina alemã da Segunda Guerra Mundial é esta?",
+      "resposta": "Enigma",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Máquina Enigma",
+        "descricao": "Máquina eletromecânica de rotores usada para cifrar mensagens, empregada pelas forças armadas da Alemanha nazista.",
+        "variantes": [
+          "Enigma"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Símbolo vetorial limpo, sem texto; distratores de cruzes parecidas dão justiça.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que cruz portuguesa é esta?",
+      "resposta": "Cruz da Ordem de Cristo",
+      "distratores": [
+        "Cruz de Malta",
+        "Cruz de Santiago",
+        "Cruz de Avis"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Cruz da Ordem de Cristo",
+        "descricao": "Cruz vermelha e branca da Ordem de Cristo, símbolo de Portugal associado aos Descobrimentos.",
+        "variantes": [
+          "Cruz de Cristo",
+          "Cruz Portuguesa"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem reconhecida do Sudário, sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século começa a história documentada deste pano de linho, venerado por cristãos?",
+      "resposta": "Século quatorze",
+      "distratores": [],
+      "destino": 3,
+      "ancora": {
+        "nome": "Sudário de Turim",
+        "descricao": "Pano de linho com a imagem de um homem, venerado como o sudário de Jesus, guardado em Turim.",
+        "variantes": [
+          "Santo Sudário",
+          "Sindone di Torino"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Rei e rainha de marfim característicos, sem texto.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Estas peças de xadrez medievais foram esculpidas em marfim de que animal?",
+      "resposta": "Morsa",
+      "distratores": [
+        "Elefante",
+        "Narval",
+        "Mamute"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Peças de xadrez de Lewis",
+        "descricao": "Conjunto de peças de xadrez do século doze, em marfim, achado em 1831 na Ilha de Lewis, na Escócia.",
+        "variantes": [
+          "Lewis chessmen",
+          "Peças de xadrez de Uig"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Bandeira nítida, sem texto, reconhecível e historicamente relevante.",
+      "familia": "quando",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que ano esta bandeira passou a ser a bandeira nacional da Alemanha?",
+      "resposta": "1935",
+      "distratores": [],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira da Alemanha Nazista",
+        "descricao": "Bandeira vermelha com suástica negra em círculo branco, do Partido Nazista e bandeira nacional alemã de 1935 a 1945.",
+        "variantes": [
+          "Bandeira nazista",
+          "Hakenkreuzflagge"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Bandeira limpa, sem texto; múltipla escolha evita confusão com a bandeira da Turquia.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que império usava esta bandeira vermelha no século dezenove?",
+      "resposta": "Império Otomano",
+      "distratores": [
+        "Império Mogol",
+        "Império Persa",
+        "Sultanato de Zanzibar"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Bandeira do Império Otomano",
+        "descricao": "Bandeira vermelha com crescente e estrela brancos de cinco pontas, adotada oficialmente pelo Império Otomano em 1844.",
+        "variantes": [
+          "Bandeira otomana"
+        ]
+      }
+    }
+  ]
+}

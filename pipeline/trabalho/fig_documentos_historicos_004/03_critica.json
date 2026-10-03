@@ -1,0 +1,90 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Acidente com um dirigível' em Nova Jersey, filmado, identifica o Hindenburg sem ver a figura (teste da imagem coberta). Remove-se a pista.",
+      "reescrita": {
+        "pergunta": "Em que ano ocorreu este acidente aéreo nos Estados Unidos?",
+        "resposta": "1937"
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Famosa escultura circular asteca' quase entrega a Pedra do Sol. Tiram-se 'famosa' e 'circular'; resposta simplificada.",
+      "reescrita": {
+        "pergunta": "Que escultura asteca é esta?",
+        "resposta": "Pedra do Sol"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Transatlântico britânico afundado na viagem inaugural' identifica o Titanic sem a imagem. Remove-se a pista.",
+      "reescrita": {
+        "pergunta": "Em que ano naufragou este navio de passageiros?",
+        "resposta": "1912"
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "'Máquina alemã da Segunda Guerra' não identifica sozinha; a figura é necessária. Fato confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a cruz, os distratores são plausíveis e curtos, e a resposta é única diante da figura.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pano de linho venerado por cristãos' identifica o Sudário de Turim sem ver a figura. O fato (1354, século quatorze) está no trecho.",
+      "reescrita": {
+        "pergunta": "Em que século começa a história documentada deste objeto venerado?",
+        "resposta": "Século quatorze"
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Pelo menos três peças são de dente de baleia, então 'foram esculpidas em marfim de morsa' não é literalmente exato para o conjunto. Troca-se por 'a maioria'.",
+      "reescrita": {
+        "pergunta": "A maioria destas peças de xadrez medievais foi esculpida em marfim de que animal?",
+        "resposta": "Morsa",
+        "distratores": [
+          "Elefante",
+          "Narval",
+          "Mamute"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A bandeira nazista já era cooficial em 1933; só em 15 de setembro de 1935 passou a ser a única bandeira nacional. 'Passou a ser a bandeira nacional' é impreciso.",
+      "reescrita": {
+        "pergunta": "Em que ano esta bandeira passou a ser a única bandeira nacional da Alemanha?",
+        "resposta": "1935"
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não entrega a resposta. A bandeira vermelha com crescente e estrela de cinco pontas foi oficializada em 1844. Os distratores são plausíveis e curtos.",
+      "reescrita": null
+    }
+  ]
+}

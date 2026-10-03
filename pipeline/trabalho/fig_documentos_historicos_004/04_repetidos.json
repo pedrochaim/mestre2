@@ -1,0 +1,89 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que ano ocorreu este acidente aéreo nos Estados Unidos?",
+        "resposta": "1937"
+      },
+      "existentes": [
+        {
+          "id": "q00996",
+          "pergunta": "Que banda britânica de rock estampou uma imagem do incêndio do dirigível Hindenburg na capa do seu primeiro disco?",
+          "resposta": "Led Zeppelin"
+        },
+        {
+          "id": "q00997",
+          "pergunta": "Que gás enchia o dirigível alemão Hindenburg, destruído por um incêndio nos Estados Unidos em 1937?",
+          "resposta": "Hidrogênio"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano naufragou este navio de passageiros?",
+        "resposta": "1912"
+      },
+      "existentes": [
+        {
+          "id": "q00978",
+          "pergunta": "O Titanic levava antes do nome as letras erre, eme, esse, sigla inglesa que indicava que ele também transportava o quê?",
+          "resposta": "Correspondência do correio real"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que máquina alemã da Segunda Guerra Mundial é esta?",
+        "resposta": "Enigma"
+      },
+      "existentes": [
+        {
+          "id": "q02121",
+          "pergunta": "Que engenheiro alemão inventou esta máquina, no início do século vinte?",
+          "resposta": "Arthur Scherbius"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "A maioria destas peças de xadrez medievais foi esculpida em marfim de que animal?",
+        "resposta": "Morsa"
+      },
+      "existentes": [
+        {
+          "id": "q01535",
+          "pergunta": "As peças de xadrez de Lewis, do século doze, achadas numa ilha da Escócia, foram esculpidas principalmente em que material?",
+          "resposta": "Marfim de morsa"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00997",
+      "motivo": "A existente já informa o ano 1937 no enunciado, então quem soubesse responderia o ano da nova."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "O ano do naufrágio é um fato diferente do significado da sigla RMS."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar o nome da máquina é diferente de saber quem a inventou."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "id_existente": "q01535",
+      "motivo": "As duas têm como resposta o marfim de morsa nas peças de xadrez."
+    }
+  ]
+}
