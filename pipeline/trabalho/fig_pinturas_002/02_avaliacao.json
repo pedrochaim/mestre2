@@ -1,0 +1,254 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; obra emblemática.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estilo de pintura marca este quadro de 1890, feito por um artista holandês?",
+      "resposta": "Pós-impressionismo",
+      "distratores": [
+        "Impressionismo",
+        "Expressionismo",
+        "Fauvismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Campo de Trigo com Corvos",
+        "descricao": "Pintura a óleo de Vincent van Gogh, de julho de 1890, com um campo de trigo, caminhos de terra e corvos sob céu tempestuoso.",
+        "variantes": [
+          "Wheatfield with Crows",
+          "Korenveld met kraaien",
+          "Trigal com corvos"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto; pergunta por episódio retratado.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que episódio bíblico este quadro flamengo do século dezesseis retrata?",
+      "resposta": "A construção da Torre de Babel",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Torre de Babel (Bruegel)",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1563, em Viena, que mostra a construção da torre bíblica.",
+        "variantes": [
+          "Grande Torre de Babel",
+          "The Tower of Babel",
+          "Torre de Babel de Viena"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Obra clara; a assinatura minúscula no canto não responde a pergunta sobre estilo.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estilo de pintura é este quadro de 1910, feito por um francês autodidata?",
+      "resposta": "Arte naïf",
+      "distratores": [
+        "Fauvismo",
+        "Cubismo",
+        "Surrealismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "O Sonho (Henri Rousseau)",
+        "descricao": "Pintura a óleo de Henri Rousseau, de 1910, com uma mulher nua num divã em meio a uma selva exuberante com leões e um flautista.",
+        "variantes": [
+          "Le Rêve",
+          "The Dream",
+          "O Sonho"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "A assinatura 'Vincent' está visível no vaso e há várias versões muito parecidas da obra, o que torna a resposta pouco única."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, obra emblemática; trocada para quem_fez, que rende pergunta melhor.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor suíço, radicado em Londres, pintou este quadro de 1781?",
+      "resposta": "Henry Fuseli (Johann Heinrich Füssli)",
+      "destino": 0,
+      "ancora": {
+        "nome": "O Pesadelo (Füssli)",
+        "descricao": "Pintura a óleo de Henry Fuseli, de 1781, com uma mulher adormecida, um íncubo sobre o peito e um cavalo ao fundo.",
+        "variantes": [
+          "The Nightmare",
+          "Der Nachtmahr",
+          "O Pesadelo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Paisagem com detalhe (pernas na água) que permite reconhecer o mito; sem texto.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que episódio da mitologia grega este quadro retrata, ao fundo de uma cena de lavoura?",
+      "resposta": "A queda de Ícaro",
+      "destino": 0,
+      "ancora": {
+        "nome": "Paisagem com a Queda de Ícaro",
+        "descricao": "Pintura flamenga do século dezesseis, atribuída a Bruegel ou a cópia de sua composição, em Bruxelas, com um lavrador, um navio e as pernas de Ícaro caindo no mar.",
+        "variantes": [
+          "Landscape with the Fall of Icarus",
+          "A Queda de Ícaro",
+          "Paisagem com a queda de Ícaro"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Obra emblemática e inconfundível; a assinatura minúscula não entrega o título pedido.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que retrato do início do século vinte, de um pintor austríaco, é este?",
+      "resposta": "Retrato de Adele Bloch-Bauer I (A Dama Dourada)",
+      "destino": 0,
+      "ancora": {
+        "nome": "Retrato de Adele Bloch-Bauer I",
+        "descricao": "Pintura de Gustav Klimt, concluída em 1907, com folhas de ouro, que retrata a mulher de um banqueiro vienense.",
+        "variantes": [
+          "A Dama Dourada",
+          "The Lady in Gold",
+          "The Woman in Gold",
+          "Mulher de Ouro"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, composição reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Que estilo de pintura, popular na França do fim do século dezoito, marca este quadro?",
+      "resposta": "Neoclassicismo",
+      "distratores": [
+        "Rococó",
+        "Barroco",
+        "Romantismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Morte de Sócrates",
+        "descricao": "Pintura a óleo de Jacques-Louis David, de 1787, que mostra Sócrates prestes a beber a cicuta cercado de discípulos.",
+        "variantes": [
+          "La Mort de Socrate",
+          "The Death of Socrates"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Imagem clara; texto na proa e assinatura são ilegíveis e não respondem a pergunta sobre o museu.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que museu de Londres fica este quadro pré-rafaelita de 1888?",
+      "resposta": "Tate Britain",
+      "destino": 0,
+      "ancora": {
+        "nome": "A Dama de Shalott (Waterhouse)",
+        "descricao": "Pintura de John William Waterhouse, de 1888, com uma mulher de cabelos ruivos num barco, baseada no poema de Tennyson.",
+        "variantes": [
+          "The Lady of Shalott",
+          "A Senhora de Shalott"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Obra reconhecível, sem texto; troquei para onde porque há três versões e o ano seria ambíguo.",
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade francesa ficava o quarto retratado neste quadro?",
+      "resposta": "Arles",
+      "destino": 0,
+      "ancora": {
+        "nome": "O Quarto em Arles",
+        "descricao": "Pintura de Vincent van Gogh, de 1888, do seu quarto na Casa Amarela, com cama amarela, cadeiras e janela verde.",
+        "variantes": [
+          "Bedroom in Arles",
+          "La Chambre à Arles",
+          "O Quarto de Van Gogh em Arles",
+          "Quarto em Arles"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Obra clara; a assinatura gravada é minúscula e não dá o título; distratores são outros nus reclinados.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintura francesa do início do século dezenove é esta?",
+      "resposta": "A Grande Odalisca",
+      "distratores": [
+        "Olympia",
+        "A Vênus de Urbino",
+        "A Maja Nua"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Grande Odalisca",
+        "descricao": "Pintura a óleo de Ingres, de 1814, de uma odalisca reclinada de costas, com leque de penas de pavão, no Louvre.",
+        "variantes": [
+          "Grande Odalisque",
+          "La Grande Odalisque",
+          "Une Odalisque"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, composição reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "A que período artístico pertence este quadro, pintado em Veneza por volta de 1507?",
+      "resposta": "Renascimento",
+      "distratores": [
+        "Barroco",
+        "Rococó",
+        "Neoclassicismo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "A Tempestade (Giorgione)",
+        "descricao": "Pintura renascentista de Giorgione, de cerca de 1506-1508, com um soldado, uma mulher amamentando e um raio sobre uma paisagem, na Galleria dell'Accademia de Veneza.",
+        "variantes": [
+          "La Tempesta",
+          "The Tempest",
+          "A Tempestade"
+        ]
+      }
+    }
+  ]
+}

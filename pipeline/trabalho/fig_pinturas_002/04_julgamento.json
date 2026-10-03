@@ -1,0 +1,632 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "A Torre de Babel (Bruegel)",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de 1563, em Viena, que mostra a construção da torre bíblica.",
+        "variantes": [
+          "Grande Torre de Babel",
+          "The Tower of Babel",
+          "Torre de Babel de Viena"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        },
+        {
+          "id": "igreja_de_sao_jorge_de_lalibela",
+          "nome": "Igreja de São Jorge de Lalibela",
+          "descricao": "Igreja monolítica cruciforme escavada na rocha em Lalibela, Etiópia, do tempo da dinastia Zagwe.",
+          "variantes": [
+            "Bete Giyorgis",
+            "Bet Giyorgis"
+          ]
+        },
+        {
+          "id": "grande_piramide_de_gize",
+          "nome": "Grande Pirâmide de Gizé",
+          "descricao": "Maior das pirâmides egípcias de Gizé, tumba do faraó Quéops da Quarta Dinastia.",
+          "variantes": [
+            "Pirâmide de Quéops",
+            "Pirâmide de Khufu"
+          ]
+        },
+        {
+          "id": "smilodon",
+          "nome": "Smilodon",
+          "descricao": "Gênero extinto de felino dentes-de-sabre das Américas, que viveu até o fim da última era do gelo.",
+          "variantes": [
+            "Tigre-dentes-de-sabre",
+            "Dente-de-sabre",
+            "Smilodon populator"
+          ]
+        },
+        {
+          "id": "o_conto_de_genji",
+          "nome": "O Conto de Genji",
+          "descricao": "Clássico da literatura japonesa escrito no início do século onze por uma dama da corte de Heian.",
+          "variantes": [
+            "Genji Monogatari",
+            "The Tale of Genji"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "O Sonho (Henri Rousseau)",
+        "descricao": "Pintura a óleo de Henri Rousseau, de 1910, com uma mulher nua num divã em meio a uma selva exuberante com leões e um flautista.",
+        "variantes": [
+          "Le Rêve",
+          "The Dream",
+          "O Sonho"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "hakeem_olajuwon",
+          "nome": "Hakeem Olajuwon",
+          "descricao": "Pivô nigeriano bicampeão da NBA pelo Houston Rockets nos anos 1990.",
+          "variantes": [
+            "Akeem Olajuwon",
+            "The Dream"
+          ]
+        },
+        {
+          "id": "o_grito",
+          "nome": "O Grito",
+          "descricao": "Obra expressionista de Edvard Munch, de 1893.",
+          "variantes": [
+            "The Scream"
+          ]
+        },
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        },
+        {
+          "id": "santorini",
+          "nome": "Santorini",
+          "descricao": "Ilha vulcânica grega das Cíclades, no mar Egeu, formada ao redor de uma caldeira.",
+          "variantes": [
+            "Thira",
+            "Thera"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "O Pesadelo (Füssli)",
+        "descricao": "Pintura a óleo de Henry Fuseli, de 1781, com uma mulher adormecida, um íncubo sobre o peito e um cavalo ao fundo.",
+        "variantes": [
+          "The Nightmare",
+          "Der Nachtmahr",
+          "O Pesadelo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_pensador",
+          "nome": "O Pensador",
+          "descricao": "Escultura de bronze de Auguste Rodin.",
+          "variantes": [
+            "Le Penseur"
+          ]
+        },
+        {
+          "id": "a_ronda_noturna",
+          "nome": "A Ronda Noturna",
+          "descricao": "Quadro de Rembrandt no Rijksmuseum.",
+          "variantes": [
+            "The Night Watch",
+            "De Nachtwacht"
+          ]
+        },
+        {
+          "id": "maquina_enigma",
+          "nome": "Máquina Enigma",
+          "descricao": "Máquina eletromecânica de cifrar com rotores, usada pelos militares alemães na Segunda Guerra Mundial.",
+          "variantes": [
+            "Enigma"
+          ]
+        },
+        {
+          "id": "sao_paulo",
+          "nome": "São Paulo",
+          "descricao": "Capital do estado de São Paulo, cidade fundada em 1554 a partir de um colégio jesuíta.",
+          "variantes": [
+            "São Paulo (cidade)"
+          ]
+        },
+        {
+          "id": "a_noite_estrelada",
+          "nome": "A Noite Estrelada",
+          "descricao": "Quadro de Vincent van Gogh, de 1889, com um céu noturno em espirais.",
+          "variantes": [
+            "The Starry Night"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Paisagem com a Queda de Ícaro",
+        "descricao": "Pintura flamenga do século dezesseis, atribuída a Bruegel ou a cópia de sua composição, em Bruxelas, com um lavrador, um navio e as pernas de Ícaro caindo no mar.",
+        "variantes": [
+          "Landscape with the Fall of Icarus",
+          "A Queda de Ícaro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "as_bodas_de_figaro",
+          "nome": "As Bodas de Fígaro",
+          "descricao": "Ópera cômica de Mozart, de 1786, com libreto de Lorenzo Da Ponte.",
+          "variantes": [
+            "Le nozze di Figaro",
+            "The Marriage of Figaro"
+          ]
+        },
+        {
+          "id": "quadra_de_saibro",
+          "nome": "Quadra de saibro",
+          "descricao": "Quadra de tênis coberta por pó de tijolo, pedra ou xisto triturado, como as de Roland Garros.",
+          "variantes": [
+            "Clay court",
+            "Terre battue"
+          ]
+        },
+        {
+          "id": "arquimedes",
+          "nome": "Arquimedes",
+          "descricao": "Matemático, físico e inventor grego de Siracusa, do século três antes de Cristo, autor do princípio do empuxo.",
+          "variantes": [
+            "Arquimedes de Siracusa",
+            "Archimedes"
+          ]
+        },
+        {
+          "id": "tear_de_jacquard",
+          "nome": "Tear de Jacquard",
+          "descricao": "Tear equipado com a máquina de Jacquard, controlada por uma corrente de cartões perfurados, para tecer padrões complexos.",
+          "variantes": [
+            "Máquina de Jacquard",
+            "Jacquard loom"
+          ]
+        },
+        {
+          "id": "arcos_da_lapa",
+          "nome": "Arcos da Lapa",
+          "descricao": "Aqueduto colonial de arcos brancos no bairro da Lapa, no Rio de Janeiro, construído no século dezoito.",
+          "variantes": [
+            "Aqueduto da Carioca"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Retrato de Adele Bloch-Bauer I",
+        "descricao": "Pintura de Gustav Klimt, concluída em 1907, com folhas de ouro, que retrata a mulher de um banqueiro vienense.",
+        "variantes": [
+          "A Dama Dourada",
+          "The Lady in Gold",
+          "The Woman in Gold",
+          "Mulher de Ouro"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "retrato_de_adele_bloch_bauer_i",
+          "nome": "Retrato de Adele Bloch-Bauer I",
+          "descricao": "Retrato dourado pintado por Gustav Klimt em 1907, saqueado pelos nazistas e devolvido à família da retratada em 2006.",
+          "variantes": [
+            "Portrait of Adele Bloch-Bauer I",
+            "A Dama Dourada"
+          ]
+        },
+        {
+          "id": "razao_aurea",
+          "nome": "Razão áurea",
+          "descricao": "Número irracional aproximadamente igual a um vírgula seis um oito, também chamado proporção áurea ou número de ouro.",
+          "variantes": [
+            "Proporção áurea",
+            "Número de ouro",
+            "Golden ratio"
+          ]
+        },
+        {
+          "id": "luzia",
+          "nome": "Luzia",
+          "descricao": "Esqueleto humano pré-histórico de mulher, com cerca de 11 mil anos, achado na Lapa Vermelha, em Lagoa Santa, Minas Gerais.",
+          "variantes": [
+            "Mulher de Luzia",
+            "Luzia Woman",
+            "Luzia (fóssil)",
+            "Mulher de Lagoa Santa"
+          ]
+        },
+        {
+          "id": "galo_da_madrugada",
+          "nome": "Galo da Madrugada",
+          "descricao": "Bloco de carnaval do Recife, fundado em 1978, cujo símbolo é um galo gigante.",
+          "variantes": [
+            "Galo da Madrugada do Recife"
+          ]
+        },
+        {
+          "id": "venus_de_willendorf",
+          "nome": "Vênus de Willendorf",
+          "descricao": "Estatueta paleolítica de uma figura feminina, esculpida em calcário.",
+          "variantes": [
+            "Venus of Willendorf",
+            "Mulher de Willendorf"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "A Morte de Sócrates",
+        "descricao": "Pintura a óleo de Jacques-Louis David, de 1787, que mostra Sócrates prestes a beber a cicuta cercado de discípulos.",
+        "variantes": [
+          "La Mort de Socrate",
+          "The Death of Socrates"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "kilt",
+          "nome": "Kilt",
+          "descricao": "Peça de vestuário tradicional escocesa, semelhante a uma saia até o joelho, de lã em padrão tartan e com pregas.",
+          "variantes": [
+            "Kilt escocês",
+            "Saiote escocês"
+          ]
+        },
+        {
+          "id": "juramento_de_hipocrates",
+          "nome": "Juramento de Hipócrates",
+          "descricao": "Juramento ético da medicina atribuído a Hipócrates de Cós, prestado por médicos ao se formar.",
+          "variantes": [
+            "Juramento hipocrático",
+            "Hippocratic Oath"
+          ]
+        },
+        {
+          "id": "socrates",
+          "nome": "Sócrates",
+          "descricao": "Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira, meia do Corinthians e capitão da seleção brasileira na Copa de 1982.",
+          "variantes": [
+            "Doutor Sócrates",
+            "Magrão"
+          ]
+        },
+        {
+          "id": "a_escola_de_atenas",
+          "nome": "A Escola de Atenas",
+          "descricao": "Afresco de Rafael nos Palácios do Vaticano.",
+          "variantes": [
+            "The School of Athens",
+            "Scuola di Atene"
+          ]
+        },
+        {
+          "id": "miguel_de_cervantes",
+          "nome": "Miguel de Cervantes",
+          "descricao": "Escritor espanhol, autor de Dom Quixote, que lutou como soldado na Batalha de Lepanto.",
+          "variantes": [
+            "Cervantes",
+            "Miguel de Cervantes Saavedra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "A Dama de Shalott (Waterhouse)",
+        "descricao": "Pintura de John William Waterhouse, de 1888, com uma mulher de cabelos ruivos num barco, baseada no poema de Tennyson.",
+        "variantes": [
+          "The Lady of Shalott",
+          "A Senhora de Shalott"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "senhor_de_sipan",
+          "nome": "Senhor de Sipán",
+          "descricao": "Governante moche cuja tumba intacta, cheia de joias, foi descoberta em 1987 no norte do Peru.",
+          "variantes": [
+            "Lord of Sipán",
+            "Señor de Sipán"
+          ]
+        },
+        {
+          "id": "les_demoiselles_d_avignon",
+          "nome": "Les Demoiselles d'Avignon",
+          "descricao": "Quadro de Pablo Picasso com cinco mulheres nuas de formas angulosas, considerado precursor do cubismo; está no MoMA, em Nova York.",
+          "variantes": [
+            "As Senhoritas de Avignon",
+            "As Moças de Avignon"
+          ]
+        },
+        {
+          "id": "a_vocacao_de_sao_mateus",
+          "nome": "A Vocação de São Mateus",
+          "descricao": "Quadro de Caravaggio em San Luigi dei Francesi, Roma.",
+          "variantes": []
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon"
+          ]
+        },
+        {
+          "id": "o_magico_de_oz",
+          "nome": "O Mágico de Oz",
+          "descricao": "Filme musical americano de 1939, estrelado por Judy Garland, baseado no livro de L. Frank Baum.",
+          "variantes": [
+            "The Wizard of Oz"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "O Quarto em Arles",
+        "descricao": "Pintura de Vincent van Gogh, de 1888, do seu quarto na Casa Amarela, com cama amarela, cadeiras e janela verde.",
+        "variantes": [
+          "Bedroom in Arles",
+          "La Chambre à Arles",
+          "O Quarto de Van Gogh em Arles",
+          "Quarto em Arles"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "quarto_de_despejo",
+          "nome": "Quarto de Despejo",
+          "descricao": "Diário de Carolina Maria de Jesus publicado em 1960, sobre a vida numa favela de São Paulo.",
+          "variantes": [
+            "Quarto de Despejo: Diário de uma Favelada"
+          ]
+        },
+        {
+          "id": "corto_maltese",
+          "nome": "Corto Maltese",
+          "descricao": "Marinheiro e aventureiro dos quadrinhos europeus, de quepe e casaco azul, criado em 1967.",
+          "variantes": [
+            "Corto"
+          ]
+        },
+        {
+          "id": "pocos_de_piche_de_la_brea",
+          "nome": "Poços de piche de La Brea",
+          "descricao": "Conjunto de poças naturais de asfalto em Los Angeles, rico em fósseis de animais da era do gelo.",
+          "variantes": [
+            "La Brea Tar Pits",
+            "Rancho La Brea"
+          ]
+        },
+        {
+          "id": "o_abre_alas",
+          "nome": "Ó Abre Alas",
+          "descricao": "Marcha carnavalesca composta por Chiquinha Gonzaga para o cordão Rosa de Ouro.",
+          "variantes": []
+        },
+        {
+          "id": "a_dama_das_camelias",
+          "nome": "A Dama das Camélias",
+          "descricao": "Romance de Alexandre Dumas Filho, publicado em 1848, sobre a cortesã Marguerite Gautier.",
+          "variantes": [
+            "La Dame aux Camélias"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "A Grande Odalisca",
+        "descricao": "Pintura a óleo de Ingres, de 1814, de uma odalisca reclinada de costas, com leque de penas de pavão, no Louvre.",
+        "variantes": [
+          "Grande Odalisque",
+          "La Grande Odalisque",
+          "Une Odalisque"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_olimpico_de_montreal",
+          "nome": "Estádio Olímpico de Montreal",
+          "descricao": "Estádio com torre inclinada em Montreal, Canadá, principal sede dos Jogos Olímpicos de 1976.",
+          "variantes": [
+            "Olympic Stadium",
+            "Big O",
+            "Stade olympique"
+          ]
+        },
+        {
+          "id": "peste_negra",
+          "nome": "Peste Negra",
+          "descricao": "Pandemia de peste bubônica que devastou a Europa, a Ásia e o Norte da África em meados do século quatorze.",
+          "variantes": [
+            "Grande Peste",
+            "Black Death",
+            "Morte Negra"
+          ]
+        },
+        {
+          "id": "grande_otelo",
+          "nome": "Grande Otelo",
+          "descricao": "Ator, comediante, cantor e compositor brasileiro nascido em Uberlândia, parceiro de Oscarito no cinema.",
+          "variantes": [
+            "Sebastião Bernardes de Souza Prata",
+            "Othelo"
+          ]
+        },
+        {
+          "id": "uisque",
+          "nome": "Uísque",
+          "descricao": "Bebida destilada de cereais maltados e envelhecida em barris, tradicional da Escócia e da Irlanda",
+          "variantes": [
+            "Whisky",
+            "Whiskey"
+          ]
+        },
+        {
+          "id": "garganta_de_olduvai",
+          "nome": "Garganta de Olduvai",
+          "descricao": "Desfiladeiro na Tanzânia, um dos sítios paleoantropológicos mais importantes do mundo, estudado pela família Leakey.",
+          "variantes": [
+            "Olduvai Gorge",
+            "Oldupai"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "A Tempestade (Giorgione)",
+        "descricao": "Pintura renascentista de Giorgione, de cerca de 1506-1508, com um soldado, uma mulher amamentando e um raio sobre uma paisagem, na Galleria dell'Accademia de Veneza.",
+        "variantes": [
+          "La Tempesta",
+          "The Tempest",
+          "A Tempestade"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_vagabundo",
+          "nome": "O Vagabundo",
+          "descricao": "Personagem de chapéu-coco, bengala e bigodinho criado e interpretado por Charlie Chaplin no cinema mudo.",
+          "variantes": [
+            "The Tramp",
+            "Carlitos",
+            "Charlot"
+          ]
+        },
+        {
+          "id": "dois_papas",
+          "nome": "Dois Papas",
+          "descricao": "Filme de 2019 sobre os papas Bento dezesseis e Francisco, com Anthony Hopkins e Jonathan Pryce.",
+          "variantes": [
+            "The Two Popes"
+          ]
+        },
+        {
+          "id": "arte_rupestre",
+          "nome": "Arte rupestre",
+          "descricao": "Pinturas e gravuras pré-históricas feitas em paredes de cavernas e rochas.",
+          "variantes": [
+            "Pintura rupestre",
+            "Rock art"
+          ]
+        },
+        {
+          "id": "tomatina",
+          "nome": "Tomatina",
+          "descricao": "Festa espanhola em que milhares de participantes atiram tomates uns nos outros, na última quarta-feira de agosto.",
+          "variantes": [
+            "La Tomatina"
+          ]
+        },
+        {
+          "id": "ramones",
+          "nome": "Ramones",
+          "descricao": "Banda punk americana formada em Nova York em 1974",
+          "variantes": [
+            "The Ramones"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pintura de Bruegel; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pintura de Rousseau; Olajuwon 'The Dream' é outra entidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pintura de Fuseli; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Pintura sobre Ícaro; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 5,
+      "decisao": "mesma",
+      "id_existente": "retrato_de_adele_bloch_bauer_i",
+      "motivo": "Mesmo quadro de Klimt de 1907, mesmo nome."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Pintura de David; Sócrates candidato é o jogador."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Pintura de Waterhouse; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Pintura de Van Gogh; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Pintura de Ingres; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Pintura de Giorgione; nenhuma candidata corresponde."
+    }
+  ]
+}

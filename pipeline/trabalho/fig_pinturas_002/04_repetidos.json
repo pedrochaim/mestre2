@@ -1,0 +1,25 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que retrato do início do século vinte, de um pintor austríaco, é este?",
+        "resposta": "Retrato de Adele Bloch-Bauer I (A Dama Dourada)"
+      },
+      "existentes": [
+        {
+          "id": "q03054",
+          "pergunta": "Um retrato de Klimt, saqueado pelos nazistas e recuperado pela família na Justiça, inspirou que filme de 2015 com Helen Mirren?",
+          "resposta": "A Dama Dourada"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede o título do retrato (Adele Bloch-Bauer I / A Dama Dourada) a partir de uma imagem; a existente pede o filme de 2015 inspirado no retrato. Quem soubesse o filme não necessariamente identificaria a pintura, e o fato perguntado é diferente."
+    }
+  ]
+}

@@ -140,9 +140,10 @@
     "fig_retratos_artes_002",
     "fig_retratos_historicos_004",
     "fig_transportes_003",
-    "historia_idade_moderna_01"
+    "historia_idade_moderna_01",
+    "fig_pinturas_002"
   ],
-  "maior_id": 3693,
+  "maior_id": 3704,
   "figuras": {
     "bandeiras": {
       "familias": {
@@ -402,15 +403,18 @@
     },
     "pinturas": {
       "familias": {
-        "quem_fez": 5,
-        "o_que_e": 3,
-        "onde": 3
+        "quem_fez": 6,
+        "o_que_e": 5,
+        "onde": 5,
+        "que_tipo": 4,
+        "quando": 2
       },
       "niveis": {
-        "1": 3,
-        "2": 8
+        "1": 9,
+        "2": 9,
+        "3": 4
       },
-      "registradas": 11
+      "registradas": 22
     },
     "modalidades_objetos": {
       "familias": {

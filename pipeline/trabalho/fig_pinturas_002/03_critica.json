@@ -1,0 +1,113 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Van Gogh holandês em 1890 basta para responder o estilo sem ver a figura, e os trechos não citam o estilo. Troquei por um fato sustentado pelos trechos: o museu em que o quadro está.",
+      "reescrita": {
+        "pergunta": "Em que museu de Amesterdão está este quadro, pintado em julho de 1890?",
+        "resposta": "Museu Van Gogh",
+        "distratores": [
+          "Rijksmuseum",
+          "Stedelijk Museum",
+          "Casa de Rembrandt"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A afirmação do enunciado é verdadeira e ele não nomeia o episódio. A figura é necessária.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Francês autodidata' e 1910 apontam para Rousseau e para o naïf sem a figura. Os trechos também não citam o estilo. Troquei por um fato dos trechos: o museu, que exige reconhecer a obra.",
+      "reescrita": {
+        "pergunta": "Em que museu de Nova York está este quadro de 1910?",
+        "resposta": "MoMA (Museu de Arte Moderna)",
+        "distratores": [
+          "Metropolitan Museum",
+          "Museu Guggenheim",
+          "Museu Whitney"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nacionalidade, cidade e ano ajudam sem entregar o nome. O fato é sustentado pelos trechos e é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado é preciso e não nomeia o episódio. A pista da lavoura não entrega a resposta. Fato sustentado pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado dá só época e nacionalidade, e 1907 está nos trechos. A resposta é única, com o apelido entre parênteses.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Popular na França do fim do século dezoito' repete a descrição do estilo e permite responder sem ver a figura. Tirei a pista de época e estilo, mantendo só o ano e o país.",
+      "reescrita": {
+        "pergunta": "Que estilo de pintura marca este quadro francês de 1787?",
+        "resposta": "Neoclassicismo",
+        "distratores": [
+          "Rococó",
+          "Barroco",
+          "Romantismo"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pré-rafaelita, 1888 e Londres são verdadeiros e não entregam o museu. Resposta única, sustentada pelos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O enunciado não nomeia a cidade e a resposta está nos trechos. A figura é necessária para reconhecer o quadro.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1814 é início do século dezenove e a obra é francesa. Os distratores são nus reclinados de outras épocas e países, e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Veneza por volta de 1507' entrega o Renascimento sem ver a figura. Troquei por pedir o pintor, que está nos trechos e exige reconhecer a obra.",
+      "reescrita": {
+        "pergunta": "Que pintor italiano pintou este quadro, de cerca de 1507?",
+        "resposta": "Giorgione",
+        "distratores": [
+          "Ticiano",
+          "Giovanni Bellini",
+          "Carpaccio"
+        ]
+      }
+    }
+  ]
+}
