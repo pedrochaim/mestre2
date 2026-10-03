@@ -1,0 +1,30 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que utensílio de cozinha é este?",
+        "resposta": "Panela de pressão"
+      },
+      "existentes": [
+        {
+          "id": "q02998",
+          "pergunta": "Por que a panela de pressão cozinha os alimentos mais depressa que uma panela comum?",
+          "resposta": "A água ferve acima de cem graus"
+        },
+        {
+          "id": "q02999",
+          "pergunta": "Que físico francês inventou, em 1679, o digestor a vapor, ancestral da panela de pressão?",
+          "resposta": "Denis Papin"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A pergunta nova pede para identificar o utensílio, provavelmente por imagem. As existentes tratam do princípio de funcionamento e do inventor do digestor a vapor. São fatos diferentes, e saber uma não leva a acertar a outra."
+    }
+  ]
+}

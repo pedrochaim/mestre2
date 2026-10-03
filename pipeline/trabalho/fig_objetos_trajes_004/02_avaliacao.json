@@ -1,0 +1,210 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Gravura/desenho de um objeto que poderia ser fotografado; a política só aceita ilustração para o que não pode ser fotografado."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Foto nítida de botas de borracha verdes, sem texto legível que entregue a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que calçado é este?",
+      "resposta": "Galocha",
+      "distratores": [
+        "Coturno",
+        "Botina",
+        "Bota de neve"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Galocha",
+        "descricao": "Bota impermeável de borracha, de cano alto, usada na chuva e no trabalho no campo.",
+        "variantes": [
+          "Bota de borracha",
+          "Wellington boot"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Foto clara de tênis de lona; o texto parcial da etiqueta não entrega o nome do objeto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que calçado é este?",
+      "resposta": "Tênis",
+      "destino": 1,
+      "ancora": {
+        "nome": "Tênis",
+        "descricao": "Calçado esportivo e casual, de solado de borracha e cadarço, aqui um par de lona.",
+        "variantes": [
+          "Sneakers",
+          "Tênis de lona"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Foto nítida de monóculo com cordão, fundo branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que acessório é este, com uma lente presa a um cordão?",
+      "resposta": "Monóculo",
+      "distratores": [
+        "Lupa",
+        "Pince-nez",
+        "Luneta"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Monóculo",
+        "descricao": "Lente circular corretiva usada em um só olho, presa pela órbita e por um cordão.",
+        "variantes": [
+          "Monocle"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Foto clara do chapéu de listras trançadas característico, sem texto.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "De que país é símbolo este chapéu tradicional?",
+      "resposta": "Colômbia",
+      "distratores": [
+        "Equador",
+        "Panamá",
+        "México"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Sombrero vueltiao",
+        "descricao": "Chapéu tradicional trançado em listras, originário do povo indígena Zenú, da Colômbia.",
+        "variantes": [
+          "Chapéu vueltiao"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "Esboço desenhado de um sutiã, que poderia ser fotografado; ilustração não permitida nesse caso."
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto nítida de tamancos de solado de madeira, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que calçado é este?",
+      "resposta": "Tamanco",
+      "destino": 1,
+      "ancora": {
+        "nome": "Tamanco",
+        "descricao": "Calçado de solado grosso e rígido, tradicionalmente de madeira, aqui com tira no tornozelo.",
+        "variantes": [
+          "Clog"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de uma polaina de feltro com botões; o número na tira não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peça de vestuário é esta, usada sobre o sapato?",
+      "resposta": "Polaina",
+      "distratores": [
+        "Caneleira",
+        "Meia-calça",
+        "Sapatilha"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Polaina",
+        "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+        "variantes": [
+          "Spats",
+          "Polainas"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Foto nítida de mochila de trilha; a marca e o texto em polonês não entregam a resposta para o público.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que objeto é este?",
+      "resposta": "Mochila",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mochila",
+        "descricao": "Saco de tecido carregado nas costas por duas alças, aqui uma mochila grande de trilha.",
+        "variantes": [
+          "Mochila de trilha",
+          "Backpack"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto nítida de panela de pressão antiga; o texto parcial na tampa não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que utensílio de cozinha é este?",
+      "resposta": "Panela de pressão",
+      "distratores": [
+        "Caldeirão",
+        "Chaleira",
+        "Fervedor"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Panela de pressão",
+        "descricao": "Recipiente selado que cozinha alimentos com vapor sob alta pressão, aqui um modelo antigo de alumínio.",
+        "variantes": [
+          "Pressure cooker"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Imagem de baixa resolução, recortada, com pessoas comuns em primeiro plano."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Foto nítida de lâmpada de filamento, fundo branco, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de lâmpada é esta?",
+      "resposta": "Incandescente",
+      "destino": 0,
+      "ancora": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+        "variantes": [
+          "Lâmpada de filamento"
+        ]
+      }
+    }
+  ]
+}

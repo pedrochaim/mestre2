@@ -1,0 +1,562 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Galocha",
+        "descricao": "Bota impermeável de borracha, de cano alto, usada na chuva e no trabalho no campo.",
+        "variantes": [
+          "Bota de borracha",
+          "Wellington boot"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "wellington",
+          "nome": "Wellington",
+          "descricao": "Capital da Nova Zelândia, no extremo sul da Ilha Norte.",
+          "variantes": []
+        },
+        {
+          "id": "ciclo_da_borracha",
+          "nome": "Ciclo da borracha",
+          "descricao": "Período de prosperidade da Amazônia brasileira baseado na extração do látex da seringueira, entre o fim do século dezenove e o início do vinte.",
+          "variantes": [
+            "Amazon rubber boom"
+          ]
+        },
+        {
+          "id": "seringueira",
+          "nome": "Seringueira",
+          "descricao": "Árvore amazônica Hevea brasiliensis, cujo látex é a principal fonte de borracha natural",
+          "variantes": [
+            "Hevea brasiliensis",
+            "árvore-da-borracha",
+            "rubber tree"
+          ]
+        },
+        {
+          "id": "federico_garcia_lorca",
+          "nome": "Federico García Lorca",
+          "descricao": "Poeta e dramaturgo espanhol (1898–1936), autor de Bodas de Sangue.",
+          "variantes": [
+            "García Lorca",
+            "Lorca"
+          ]
+        },
+        {
+          "id": "galio",
+          "nome": "Gálio",
+          "descricao": "Elemento químico metálico de número atômico 31, prateado, que funde a cerca de trinta graus Celsius.",
+          "variantes": [
+            "Gallium"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Tênis",
+        "descricao": "Calçado esportivo e casual, de solado de borracha e cadarço, aqui um par de lona.",
+        "variantes": [
+          "Sneakers",
+          "Tênis de lona"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "simon_jogo",
+          "nome": "Simon (jogo)",
+          "descricao": "Brinquedo eletrônico de memória com quatro botões coloridos que acendem em sequência, lançado em 1978.",
+          "variantes": [
+            "Simon",
+            "Genius"
+          ]
+        },
+        {
+          "id": "tetris",
+          "nome": "Tetris",
+          "descricao": "Jogo de quebra-cabeça com peças que caem, criado pelo russo Alexey Pajitnov em 1984.",
+          "variantes": []
+        },
+        {
+          "id": "pastel_de_nata",
+          "nome": "Pastel de nata",
+          "descricao": "Tortinha portuguesa de massa folhada recheada com creme de ovos.",
+          "variantes": [
+            "Pastéis de nata",
+            "Pastel de Belém"
+          ]
+        },
+        {
+          "id": "los_angeles_lakers",
+          "nome": "Los Angeles Lakers",
+          "descricao": "Franquia da NBA sediada em Los Angeles, fundada em Minneapolis em 1947.",
+          "variantes": [
+            "Lakers",
+            "Minneapolis Lakers"
+          ]
+        },
+        {
+          "id": "jeu_de_paume",
+          "nome": "Jeu de paume",
+          "descricao": "Jogo de bola francês, ancestral do tênis, jogado originalmente com a mão e depois com raquete em quadras fechadas.",
+          "variantes": [
+            "Jogo da pela",
+            "Real tennis",
+            "Tênis real"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Monóculo",
+        "descricao": "Lente circular corretiva usada em um só olho, presa pela órbita e por um cordão.",
+        "variantes": [
+          "Monocle"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "oculos",
+          "nome": "Óculos",
+          "descricao": "Armação com lentes usada diante dos olhos para corrigir a visão.",
+          "variantes": [
+            "Glasses",
+            "Eyeglasses"
+          ]
+        },
+        {
+          "id": "moncao",
+          "nome": "Monção",
+          "descricao": "Regime sazonal de ventos que inverte de direção e traz chuvas fortes ao sul da Ásia",
+          "variantes": [
+            "Monções",
+            "Monsoon"
+          ]
+        },
+        {
+          "id": "monopoly",
+          "nome": "Monopoly",
+          "descricao": "Jogo de tabuleiro americano de compra e venda de imóveis, lançado pela Parker Brothers em 1935.",
+          "variantes": [
+            "Monopólio"
+          ]
+        },
+        {
+          "id": "bolo_da_lua",
+          "nome": "Bolo da lua",
+          "descricao": "Bolo chinês redondo e recheado, tradicionalmente oferecido e comido numa festa do calendário lunar",
+          "variantes": [
+            "Mooncake",
+            "Yuebing"
+          ]
+        },
+        {
+          "id": "musculo",
+          "nome": "Músculo",
+          "descricao": "Tecido do corpo capaz de se contrair e produzir movimento.",
+          "variantes": [
+            "Muscle",
+            "Musculus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Sombrero vueltiao",
+        "descricao": "Chapéu tradicional trançado em listras, originário do povo indígena Zenú, da Colômbia.",
+        "variantes": [
+          "Chapéu vueltiao"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "chapeu_coco",
+          "nome": "Chapéu-coco",
+          "descricao": "Chapéu de feltro duro com copa arredondada, criado em Londres em 1849.",
+          "variantes": [
+            "Bowler hat",
+            "Derby",
+            "Chapéu-melão"
+          ]
+        },
+        {
+          "id": "cartola_2",
+          "nome": "Cartola",
+          "descricao": "Chapéu alto de copa reta e aba curta, tradicionalmente preto, usado com trajes formais ocidentais.",
+          "variantes": [
+            "Cartola (chapéu)",
+            "Top hat",
+            "Chapéu alto"
+          ]
+        },
+        {
+          "id": "sombrero",
+          "nome": "Sombrero",
+          "descricao": "Chapéu de aba larga e copa alta, tradicional do México, usado para proteger do sol.",
+          "variantes": [
+            "Sombrero de charro",
+            "Sombrero jarano"
+          ]
+        },
+        {
+          "id": "galaxia_do_sombrero",
+          "nome": "Galáxia do Sombrero",
+          "descricao": "Galáxia Messier 104, nas fronteiras de Virgem e Corvo, vista quase de perfil.",
+          "variantes": [
+            "Galáxia do Sombreiro",
+            "Messier 104",
+            "M104",
+            "NGC 4594",
+            "Sombrero Galaxy"
+          ]
+        },
+        {
+          "id": "jason_todd",
+          "nome": "Jason Todd",
+          "descricao": "Segundo jovem a usar o uniforme de Robin, parceiro do Batman",
+          "variantes": [
+            "Capuz Vermelho",
+            "Red Hood"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Tamanco",
+        "descricao": "Calçado de solado grosso e rígido, tradicionalmente de madeira, aqui com tira no tornozelo.",
+        "variantes": [
+          "Clog"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "taco",
+          "nome": "Taco",
+          "descricao": "Prato mexicano de tortilla de milho ou trigo dobrada em torno de um recheio.",
+          "variantes": [
+            "Tacos",
+            "Taco al pastor"
+          ]
+        },
+        {
+          "id": "ecologia",
+          "nome": "Ecologia",
+          "descricao": "Ciência que estuda as relações dos seres vivos entre si e com o ambiente.",
+          "variantes": [
+            "Ecology",
+            "Oekologie"
+          ]
+        },
+        {
+          "id": "corinthians",
+          "nome": "Corinthians",
+          "descricao": "Sport Club Corinthians Paulista, clube de futebol de São Paulo fundado em 1910.",
+          "variantes": [
+            "Sport Club Corinthians Paulista",
+            "Timão",
+            "SC Corinthians"
+          ]
+        },
+        {
+          "id": "manicoba",
+          "nome": "Maniçoba",
+          "descricao": "Prato paraense feito com folhas moídas de mandioca cozidas longamente com carnes de porco e boi",
+          "variantes": []
+        },
+        {
+          "id": "congada",
+          "nome": "Congada",
+          "descricao": "Manifestação afro-brasileira de cortejo, dança e música que encena a coroação do Rei do Congo.",
+          "variantes": [
+            "Congado",
+            "Congo"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Polaina",
+        "descricao": "Acessório de feltro ou couro que cobre o peito do pé e o tornozelo, preso por botões.",
+        "variantes": [
+          "Spats",
+          "Polainas"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "circuito_de_spa_francorchamps",
+          "nome": "Circuito de Spa-Francorchamps",
+          "descricao": "Circuito nas Ardenas, na Bélgica.",
+          "variantes": [
+            "Spa-Francorchamps",
+            "Spa"
+          ]
+        },
+        {
+          "id": "onibus_espacial",
+          "nome": "Ônibus espacial",
+          "descricao": "Sistema espacial parcialmente reutilizável da NASA, operado de 1981 a 2011.",
+          "variantes": [
+            "Space Shuttle",
+            "Space Transportation System",
+            "STS",
+            "Shuttle"
+          ]
+        },
+        {
+          "id": "patmos",
+          "nome": "Patmos",
+          "descricao": "Pequena ilha grega do arquipélago do Dodecaneso, no mar Egeu.",
+          "variantes": []
+        },
+        {
+          "id": "esparta",
+          "nome": "Esparta",
+          "descricao": "Cidade-Estado grega do Peloponeso, famosa por sua sociedade militarizada.",
+          "variantes": [
+            "Sparta",
+            "Lacedemônia"
+          ]
+        },
+        {
+          "id": "paises_baixos",
+          "nome": "Países Baixos",
+          "descricao": "País da Europa Ocidental cuja capital constitucional é Amsterdã.",
+          "variantes": [
+            "Holanda",
+            "Netherlands",
+            "Reino dos Países Baixos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Mochila",
+        "descricao": "Saco de tecido carregado nas costas por duas alças, aqui uma mochila grande de trilha.",
+        "variantes": [
+          "Mochila de trilha",
+          "Backpack"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "black_jack",
+          "nome": "Black Jack",
+          "descricao": "Mangá de Osamu Tezuka sobre um cirurgião genial que opera sem licença.",
+          "variantes": [
+            "Black Jack (mangá)"
+          ]
+        },
+        {
+          "id": "morchella",
+          "nome": "Morchella",
+          "descricao": "Gênero de fungos comestíveis de chapéu alveolado, as morquelas.",
+          "variantes": [
+            "Morquela",
+            "Morel",
+            "Morchella esculenta"
+          ]
+        },
+        {
+          "id": "filas",
+          "nome": "Filas",
+          "descricao": "Ilha do Nilo, perto de Assuã, famosa pelo complexo de templos dedicado à deusa Ísis",
+          "variantes": [
+            "Philae",
+            "Filae",
+            "Ilha de Filas"
+          ]
+        },
+        {
+          "id": "bandeira_do_chile",
+          "nome": "Bandeira do Chile",
+          "descricao": "Bandeira nacional do Chile, com quadrado azul com estrela branca, faixa branca e faixa vermelha.",
+          "variantes": [
+            "Chile",
+            "La Estrella Solitaria"
+          ]
+        },
+        {
+          "id": "guepardo",
+          "nome": "Guepardo",
+          "descricao": "Felino de pelagem amarelada com manchas sólidas e o animal terrestre mais veloz (Acinonyx jubatus).",
+          "variantes": [
+            "Chita",
+            "Acinonyx jubatus"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Panela de pressão",
+        "descricao": "Recipiente selado que cozinha alimentos com vapor sob alta pressão, aqui um modelo antigo de alumínio.",
+        "variantes": [
+          "Pressure cooker"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "panela_de_pressao",
+          "nome": "Panela de pressão",
+          "descricao": "Panela vedada que cozinha alimentos sob pressão de vapor acima da atmosférica.",
+          "variantes": [
+            "Pressure cooker"
+          ]
+        },
+        {
+          "id": "panteao_de_roma",
+          "nome": "Panteão de Roma",
+          "descricao": "Antigo templo romano com pórtico de colunas e cúpula, em Roma, hoje igreja católica.",
+          "variantes": [
+            "Panteão",
+            "Pantheon"
+          ]
+        },
+        {
+          "id": "o_pagador_de_promessas",
+          "nome": "O Pagador de Promessas",
+          "descricao": "Filme brasileiro de 1962 dirigido por Anselmo Duarte, vencedor da Palma de Ouro em Cannes.",
+          "variantes": [
+            "Keeper of Promises"
+          ]
+        },
+        {
+          "id": "cesta_de_pessego",
+          "nome": "Cesta de pêssego",
+          "descricao": "O cesto de frutas usado como alvo nos primeiros jogos de basquete, em 1891.",
+          "variantes": [
+            "Peach basket",
+            "Cesto original do basquete"
+          ]
+        },
+        {
+          "id": "o_pagador_de_promessas_2",
+          "nome": "O Pagador de Promessas",
+          "descricao": "Peça de Dias Gomes, de 1960, sobre um homem que carrega uma cruz até uma igreja de Salvador.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Lâmpada incandescente",
+        "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+        "variantes": [
+          "Lâmpada de filamento"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "lampada_incandescente",
+          "nome": "Lâmpada incandescente",
+          "descricao": "Lâmpada elétrica que produz luz aquecendo um filamento dentro de um bulbo de vidro.",
+          "variantes": [
+            "Lâmpada de filamento",
+            "Lâmpada elétrica incandescente"
+          ]
+        },
+        {
+          "id": "pegadas_de_laetoli",
+          "nome": "Pegadas de Laetoli",
+          "descricao": "Trilha de pegadas fossilizadas de hominídeos bípedes no sítio de Laetoli, na Tanzânia, descoberta pela equipe de Mary Leakey em 1978.",
+          "variantes": [
+            "Laetoli footprints",
+            "Laetoli"
+          ]
+        },
+        {
+          "id": "santana_do_livramento",
+          "nome": "Santana do Livramento",
+          "descricao": "Município do Rio Grande do Sul na fronteira com o Uruguai, vizinho da cidade de Rivera.",
+          "variantes": [
+            "Sant'Ana do Livramento",
+            "Livramento"
+          ]
+        },
+        {
+          "id": "tamandua_mirim",
+          "nome": "Tamanduá-mirim",
+          "descricao": "Tamanduá sul-americano de porte médio, com uma mancha escura em forma de colete (Tamandua tetradactyla).",
+          "variantes": [
+            "Tamandua tetradactyla",
+            "Tamanduá-de-colete"
+          ]
+        },
+        {
+          "id": "salamandra_de_fogo",
+          "nome": "Salamandra-de-fogo",
+          "descricao": "Anfíbio (Salamandra salamandra) preto com manchas ou listras amarelas, comum na Europa.",
+          "variantes": [
+            "Fire salamander",
+            "Salamandra salamandra"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Galocha é uma bota; nenhuma candidata é o mesmo objeto (Wellington é a capital)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Calçado tênis difere do jeu de paume e das demais candidatas."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Monóculo é distinto de óculos, que é outro objeto."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Sombrero vueltiao colombiano é diferente do sombrero mexicano."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é um tamanco."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Polaina é um acessório; nenhuma candidata corresponde."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é uma mochila."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "panela_de_pressao",
+      "motivo": "Mesma entidade: panela de pressão, com nome e variante idênticos."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "lampada_incandescente",
+      "motivo": "Descrição e nome idênticos."
+    }
+  ]
+}
