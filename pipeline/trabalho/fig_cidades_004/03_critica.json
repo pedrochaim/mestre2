@@ -1,0 +1,59 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Adriático banha qualquer cidade costeira croata (Split, Zadar...), então a figura vira enfeite e a resposta não depende de reconhecê-la. Reconhecer a cidade é o que importa.",
+      "reescrita": {
+        "pergunta": "Que cidade croata é esta?",
+        "resposta": "Dubrovnik"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A pista (corrida de cavalos na praça em forma de concha, cidade italiana) entrega o Palio sem olhar a figura. Troquei por um fato que exige reconhecer a cidade.",
+      "reescrita": {
+        "pergunta": "Em que região da Itália fica esta cidade?",
+        "resposta": "Toscana"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sem vazamento: o enunciado não nomeia a cidade, e há várias capitais estaduais na Austrália, então é preciso reconhecer a figura. Fato confirmado nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores são capitais sul-americanas críveis e curtas, nenhuma é a resposta. O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem vazamento. 'Argentina' é só uma pista de país.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, enunciado sem pistas. Resposta única diante da imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que a parte antiga é cercada por uma curva do Tejo. Sem a figura, 'cidade espanhola' não basta para responder.",
+      "reescrita": null
+    }
+  ]
+}

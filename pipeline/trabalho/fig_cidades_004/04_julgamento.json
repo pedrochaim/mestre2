@@ -1,0 +1,405 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Dubrovnik",
+        "descricao": "Cidade murada da Dalmácia, na Croácia, à beira do Mar Adriático, também chamada Ragusa.",
+        "variantes": [
+          "Ragusa"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "praga",
+          "nome": "Praga",
+          "descricao": "Capital da República Tcheca, às margens do rio Moldava.",
+          "variantes": [
+            "Prague"
+          ]
+        },
+        {
+          "id": "rio_tejo",
+          "nome": "Rio Tejo",
+          "descricao": "Maior rio da Península Ibérica, que nasce na Espanha e deságua no Atlântico em Lisboa.",
+          "variantes": [
+            "Tejo",
+            "Tajo",
+            "Tagus"
+          ]
+        },
+        {
+          "id": "orangotango",
+          "nome": "Orangotango",
+          "descricao": "Grandes primatas de pelagem avermelhada do gênero Pongo, nativos de Bornéu e Sumatra.",
+          "variantes": [
+            "Pongo",
+            "Orangutan",
+            "Orangutã"
+          ]
+        },
+        {
+          "id": "rio_paraguai",
+          "nome": "Rio Paraguai",
+          "descricao": "Rio sul-americano que nasce em Mato Grosso, atravessa o Pantanal e deságua no rio Paraná.",
+          "variantes": [
+            "Paraguai",
+            "Paraguay River",
+            "Río Paraguay"
+          ]
+        },
+        {
+          "id": "paraguai",
+          "nome": "Paraguai",
+          "descricao": "País sem litoral da América do Sul, com capital em Assunção.",
+          "variantes": [
+            "Paraguay"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Siena",
+        "descricao": "Cidade da Toscana, na Itália, famosa pela Piazza del Campo e pela Torre del Mangia.",
+        "variantes": [
+          "Sienna"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "rio_sena",
+          "nome": "Rio Sena",
+          "descricao": "Rio do norte da França que atravessa Paris e deságua no canal da Mancha.",
+          "variantes": [
+            "Sena",
+            "Seine"
+          ]
+        },
+        {
+          "id": "sirenios",
+          "nome": "Sirênios",
+          "descricao": "Ordem de mamíferos aquáticos herbívoros que inclui peixes-bois e dugongos.",
+          "variantes": [
+            "Sirenia",
+            "Sirênia"
+          ]
+        },
+        {
+          "id": "sesta",
+          "nome": "Sesta",
+          "descricao": "Cochilo tradicional depois do almoço, típico da Espanha e de outros países de clima quente.",
+          "variantes": [
+            "Siesta"
+          ]
+        },
+        {
+          "id": "usagi_tsukino",
+          "nome": "Usagi Tsukino",
+          "descricao": "Heroína de Sailor Moon, chamada Serena na dublagem brasileira dos anos noventa.",
+          "variantes": [
+            "Serena",
+            "Sailor Moon (personagem)",
+            "Bunny"
+          ]
+        },
+        {
+          "id": "shinai",
+          "nome": "Shinai",
+          "descricao": "Espada de treino e competição usada no kendô, a esgrima japonesa.",
+          "variantes": [
+            "Espada de bambu do kendô"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Sydney",
+        "descricao": "Maior cidade da Austrália, capital de Nova Gales do Sul, em torno do porto e da Ópera.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "burro_shrek",
+          "nome": "Burro (Shrek)",
+          "descricao": "Burro falante e tagarela, melhor amigo do ogro Shrek nos filmes de animação.",
+          "variantes": [
+            "Donkey",
+            "Burro de Shrek"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Montevidéu",
+        "descricao": "Capital e maior cidade do Uruguai, na margem do Rio da Prata.",
+        "variantes": [
+          "Montevideo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "louva_a_deus",
+          "nome": "Louva-a-deus",
+          "descricao": "Inseto predador da ordem Mantodea, com patas dianteiras adaptadas para capturar presas.",
+          "variantes": [
+            "Mantodea",
+            "Mantis",
+            "Mantídeo"
+          ]
+        },
+        {
+          "id": "montenegro",
+          "nome": "Montenegro",
+          "descricao": "País dos Bálcãs, na costa do Mar Adriático, com capital em Podgorica.",
+          "variantes": [
+            "Montenegro (país)"
+          ]
+        },
+        {
+          "id": "monte_vesuvio",
+          "nome": "Monte Vesúvio",
+          "descricao": "Vulcão no golfo de Nápoles, na Itália, cuja erupção do ano 79 soterrou cidades romanas.",
+          "variantes": [
+            "Vesúvio",
+            "Vesuvius",
+            "Vesuvio"
+          ]
+        },
+        {
+          "id": "matterhorn",
+          "nome": "Matterhorn",
+          "descricao": "Montanha piramidal dos Alpes na fronteira entre Suíça e Itália, com 4.478 metros.",
+          "variantes": [
+            "Cervino",
+            "Monte Cervino"
+          ]
+        },
+        {
+          "id": "amonite",
+          "nome": "Amonite",
+          "descricao": "Grupo extinto de moluscos cefalópodes marinhos de concha em espiral, muito comuns como fósseis.",
+          "variantes": [
+            "Amonoide",
+            "Ammonoidea",
+            "Ammonite"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Ushuaia",
+        "descricao": "Capital da província argentina da Terra do Fogo, considerada a cidade mais ao sul do mundo.",
+        "variantes": []
+      },
+      "candidatas": [
+        {
+          "id": "ushanka",
+          "nome": "Ushanka",
+          "descricao": "Chapéu russo de pele com abas que cobrem as orelhas, usado contra o frio.",
+          "variantes": [
+            "Chapéu de pele russo",
+            "Shapka-ushanka"
+          ]
+        },
+        {
+          "id": "sushi",
+          "nome": "Sushi",
+          "descricao": "Prato japonês de arroz temperado com vinagre combinado a frutos do mar, vegetais ou ovas.",
+          "variantes": [
+            "Sushis",
+            "Nigiri",
+            "Gunkan"
+          ]
+        },
+        {
+          "id": "saiga",
+          "nome": "Saiga",
+          "descricao": "Antílope das estepes eurasiáticas com focinho inchado e flexível (Saiga tatarica).",
+          "variantes": [
+            "Antílope-saiga",
+            "Saiga tatarica"
+          ]
+        },
+        {
+          "id": "samurai",
+          "nome": "Samurai",
+          "descricao": "Classe de guerreiros nobres do Japão pré-moderno, a serviço de senhores feudais.",
+          "variantes": [
+            "Samurais",
+            "Bushi"
+          ]
+        },
+        {
+          "id": "sadia",
+          "nome": "Sadia",
+          "descricao": "Empresa brasileira de alimentos fundada em 1944 por Attilio Fontana em Concórdia, Santa Catarina.",
+          "variantes": [
+            "Sadia S.A."
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Tóquio",
+        "descricao": "Capital e cidade mais populosa do Japão, vista com os arranha-céus de Shinjuku.",
+        "variantes": [
+          "Tokyo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "toyota",
+          "nome": "Toyota",
+          "descricao": "Montadora japonesa de automóveis fundada por Kiichiro Toyoda em 1937.",
+          "variantes": [
+            "Toyota Motor Corporation"
+          ]
+        },
+        {
+          "id": "quipu",
+          "nome": "Quipu",
+          "descricao": "Sistema de cordões com nós usado pelos incas para registrar números e informações.",
+          "variantes": [
+            "Khipu",
+            "Quipo",
+            "Kipu"
+          ]
+        },
+        {
+          "id": "pinoquio",
+          "nome": "Pinóquio",
+          "descricao": "Boneco de madeira cujo nariz cresce quando mente, criado pelo italiano Carlo Collodi em 1883.",
+          "variantes": [
+            "Pinocchio",
+            "As Aventuras de Pinóquio"
+          ]
+        },
+        {
+          "id": "jogos_olimpicos_de_verao_de_2020",
+          "nome": "Jogos Olímpicos de Verão de 2020",
+          "descricao": "Edição dos Jogos Olímpicos realizada em Tóquio, adiada para 2021.",
+          "variantes": [
+            "Tóquio 2020"
+          ]
+        },
+        {
+          "id": "pebolim",
+          "nome": "Pebolim",
+          "descricao": "Jogo de mesa que simula uma partida de futebol com bonequinhos presos em barras giratórias.",
+          "variantes": [
+            "Totó",
+            "Fla-flu",
+            "Futebol de mesa",
+            "Matraquilhos"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Toledo",
+        "descricao": "Cidade histórica da Espanha, capital de Castela-La Mancha, numa curva do rio Tejo.",
+        "variantes": [
+          "Toledo (Espanha)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "raia_eletrica",
+          "nome": "Raia-elétrica",
+          "descricao": "Raia da ordem Torpediniformes capaz de produzir descargas elétricas para atordoar presas.",
+          "variantes": [
+            "Torpedo",
+            "Tremelga",
+            "Electric ray"
+          ]
+        },
+        {
+          "id": "sms",
+          "nome": "SMS",
+          "descricao": "Serviço de mensagens curtas de texto entre celulares.",
+          "variantes": [
+            "Short Message Service",
+            "Torpedo",
+            "Mensagem de texto"
+          ]
+        },
+        {
+          "id": "petroleo",
+          "nome": "Petróleo",
+          "descricao": "Mistura oleosa e inflamável de hidrocarbonetos, extraída do subsolo e usada como fonte de combustíveis.",
+          "variantes": [
+            "Petroleum",
+            "Óleo cru"
+          ]
+        },
+        {
+          "id": "marcha_real",
+          "nome": "Marcha Real",
+          "descricao": "Hino nacional da Espanha, uma das mais antigas marchas usadas como hino na Europa.",
+          "variantes": [
+            "Marcha Granadera",
+            "Hino da Espanha"
+          ]
+        },
+        {
+          "id": "smoking",
+          "nome": "Smoking",
+          "descricao": "Traje masculino de gala com lapelas de cetim, chamado tuxedo nos Estados Unidos",
+          "variantes": [
+            "Tuxedo",
+            "Dinner jacket"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Dubrovnik não está entre as candidatas."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Siena não corresponde a nenhuma candidata."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Sydney é uma cidade; a única candidata é um personagem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Montevidéu não está entre as candidatas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Ushuaia não está entre as candidatas."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Tóquio é a cidade; os Jogos de 2020 são um evento distinto."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Toledo não está entre as candidatas."
+    }
+  ]
+}

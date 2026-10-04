@@ -1,0 +1,162 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Horizonte genérico de prédios sobre mata, sem marco reconhecível; não dá para identificar Foz do Iguaçu."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vista aérea nítida da cidade murada, com porto e telhados laranja, inconfundível.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "pergunta": "Que mar banha esta cidade croata?",
+      "resposta": "Mar Adriático",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Dubrovnik",
+        "descricao": "Cidade murada da Dalmácia, na Croácia, à beira do Mar Adriático, também chamada Ragusa.",
+        "variantes": [
+          "Ragusa"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Praça do Campo e Torre del Mangia, inconfundíveis para quem conhece; a pergunta vai além do nome.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Que corrida de cavalos tradicional acontece na praça em forma de concha desta cidade italiana?",
+      "resposta": "Palio",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Siena",
+        "descricao": "Cidade da Toscana, na Itália, famosa pela Piazza del Campo e pela Torre del Mangia.",
+        "variantes": [
+          "Sienna"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Parte da Ópera de Sydney e o horizonte do porto são identificáveis; as marcas pequenas não entregam a resposta.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "pergunta": "Esta cidade australiana é capital de que estado?",
+      "resposta": "Nova Gales do Sul",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Sydney",
+        "descricao": "Maior cidade da Austrália, capital de Nova Gales do Sul, em torno do porto e da Ópera.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea com o Palácio Salvo e o Rio da Prata ao fundo; reconhecível com múltipla escolha.",
+      "tipo": "multipla",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "pergunta": "Que capital sul-americana é esta?",
+      "resposta": "Montevidéu",
+      "distratores": [
+        "Buenos Aires",
+        "Assunção",
+        "Santiago"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Montevidéu",
+        "descricao": "Capital e maior cidade do Uruguai, na margem do Rio da Prata.",
+        "variantes": [
+          "Montevideo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cidade entre montanhas e o Canal de Beagle, com porto, reconhecível.",
+      "tipo": "aberta",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "pergunta": "Que cidade argentina é esta?",
+      "resposta": "Ushuaia",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Ushuaia",
+        "descricao": "Capital da província argentina da Terra do Fogo, considerada a cidade mais ao sul do mundo.",
+        "variantes": []
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "Praia com prédios e jangadas poderia ser de outras capitais do Nordeste; resposta não é única pela imagem."
+    },
+    {
+      "indice": 8,
+      "aprovado": false,
+      "motivo": "Montagem vertical de vários monumentos, estreita e pequena; pouco legível no celular e sem um único assunto claro."
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Arranha-céus de Shinjuku, Cocoon Tower e o Monte Fuji ao fundo; reconhecível.",
+      "tipo": "aberta",
+      "familia": "onde",
+      "nivel": 1,
+      "pergunta": "Que cidade é esta?",
+      "resposta": "Tóquio",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tóquio",
+        "descricao": "Capital e cidade mais populosa do Japão, vista com os arranha-céus de Shinjuku.",
+        "variantes": [
+          "Tokyo"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "Vista aérea oblíqua de malha urbana sem marco claro; não reconhecível como Sevilha."
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Alcázar, catedral e a curva do rio, vista clássica de Toledo.",
+      "tipo": "aberta",
+      "familia": "com_o_que_se_liga",
+      "nivel": 1,
+      "pergunta": "Que rio contorna esta cidade espanhola?",
+      "resposta": "Tejo",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Toledo",
+        "descricao": "Cidade histórica da Espanha, capital de Castela-La Mancha, numa curva do rio Tejo.",
+        "variantes": [
+          "Toledo (Espanha)"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "Horizonte denso sem marco inequívoco; poderia ser outra metrópole brasileira, e a resposta não é única."
+    }
+  ]
+}
