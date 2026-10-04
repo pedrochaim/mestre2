@@ -1,0 +1,404 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que microbiologista americano, com o aluno Hudson Freeze, isolou nas fontes termais de Yellowstone a bactéria Thermus aquaticus, origem da enzima Taq polimerase?",
+        "resposta": "Thomas Brock"
+      },
+      "existentes": [
+        {
+          "id": "q02862",
+          "pergunta": "Uma bactéria das fontes termais de Yellowstone forneceu a enzima que tornou prática que técnica de laboratório, usada até em testes de covid?",
+          "resposta": "PCR"
+        },
+        {
+          "id": "q03862",
+          "pergunta": "A enzima usada no teste de PCR vem de uma bactéria descoberta em fontes termais de qual parque americano?",
+          "resposta": "Yellowstone"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1967, que bióloga americana defendeu que as mitocôndrias das nossas células descendem de bactérias que passaram a viver dentro de outras células?",
+        "resposta": "Lynn Margulis"
+      },
+      "existentes": [
+        {
+          "id": "q03852",
+          "pergunta": "Nos anos sessenta, que bióloga americana defendeu que mitocôndrias e cloroplastos descendem de bactérias engolidas por outras células?",
+          "resposta": "Lynn Margulis"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "No século dezoito, que naturalista italiano deu aos minúsculos ursos-d'água o nome de tardígrados?",
+        "resposta": "Lazzaro Spallanzani"
+      },
+      "existentes": [
+        {
+          "id": "q02597",
+          "pergunta": "Os tardígrados, animais microscópicos quase indestrutíveis, são conhecidos por um apelido que lembra um mamífero. Qual?",
+          "resposta": "Ursos-d'água"
+        },
+        {
+          "id": "q02843",
+          "pergunta": "Em 2007, tardígrados viajaram presos do lado de fora de uma cápsula em órbita, e muitos sobreviveram. A que condição extrema eles ficaram expostos?",
+          "resposta": "Vácuo e radiação do espaço"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Em 1962, que bióloga americana alertou, no livro Primavera Silenciosa, que pesticidas como o DDT se acumulavam nas cadeias alimentares?",
+        "resposta": "Rachel Carson"
+      },
+      "existentes": [
+        {
+          "id": "q04126",
+          "pergunta": "O título do livro Primavera Silenciosa, de Rachel Carson, evoca uma primavera sem o som de que animais, mortos por pesticidas?",
+          "resposta": "Pássaros"
+        },
+        {
+          "id": "q04127",
+          "pergunta": "Lançado em 1962, o livro Primavera Silenciosa ajudou a levar à proibição agrícola de que inseticida nos Estados Unidos?",
+          "resposta": "DDT"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 2022, ararinhas-azuis criadas em cativeiro foram soltas na caatinga, no município de Curaçá. Em que estado brasileiro?",
+        "resposta": "Bahia"
+      },
+      "existentes": [
+        {
+          "id": "q02491",
+          "pergunta": "A ararinha-azul, ave da caatinga baiana, é a espécie do protagonista de que animação de 2011, dirigida pelo brasileiro Carlos Saldanha?",
+          "resposta": "Rio"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1956, a bactéria Deinococcus radiodurans foi encontrada num alimento que tinha sido esterilizado com radiação. Em que alimento?",
+        "resposta": "Carne enlatada"
+      },
+      "existentes": [
+        {
+          "id": "q02854",
+          "pergunta": "Capaz de resistir a doses enormes de radiação, a bactéria Deinococcus radiodurans ganhou um apelido inspirado em que bárbaro da ficção?",
+          "resposta": "Conan"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "A Gruta do Lago Azul, com um lago subterrâneo de água azul intensa, fica em que município de Mato Grosso do Sul?",
+        "resposta": "Bonito"
+      },
+      "existentes": [
+        {
+          "id": "q03869",
+          "pergunta": "Em que estado brasileiro fica esta gruta?",
+          "resposta": "Mato Grosso do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Depois de anos perfurando o gelo antártico, em que década cientistas russos alcançaram pela primeira vez a água do lago Vostok?",
+        "resposta": "Década de 2010"
+      },
+      "existentes": [
+        {
+          "id": "q02864",
+          "pergunta": "Sob quase quatro quilômetros de gelo antártico, o lago Vostok é estudado como modelo do oceano escondido sob a crosta lisa de que lua de Júpiter?",
+          "resposta": "Europa"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "O lago escondido sob o gelo da Antártida herdou o nome da estação russa Vostok. O que significa vostok em russo?",
+        "resposta": "Leste"
+      },
+      "existentes": [
+        {
+          "id": "q02864",
+          "pergunta": "Sob quase quatro quilômetros de gelo antártico, o lago Vostok é estudado como modelo do oceano escondido sob a crosta lisa de que lua de Júpiter?",
+          "resposta": "Europa"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "Em que ano Jacques Piccard e Don Walsh, a bordo do batiscafo Trieste, chegaram pela primeira vez ao fundo do Abismo Challenger?",
+        "resposta": "1960"
+      },
+      "existentes": [
+        {
+          "id": "q02880",
+          "pergunta": "Em 2012, que cineasta canadense desceu sozinho num submarino até o ponto mais fundo da Fossa das Marianas?",
+          "resposta": "James Cameron"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "O Abismo Challenger, o ponto mais fundo dos oceanos, deve seu nome a quê?",
+        "resposta": "Navio britânico de pesquisa HMS Challenger"
+      },
+      "existentes": [
+        {
+          "id": "q02880",
+          "pergunta": "Em 2012, que cineasta canadense desceu sozinho num submarino até o ponto mais fundo da Fossa das Marianas?",
+          "resposta": "James Cameron"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "De origem tupi, o nome caatinga, bioma do sertão nordestino, significa o quê?",
+        "resposta": "Mata branca"
+      },
+      "existentes": [
+        {
+          "id": "q02256",
+          "pergunta": "Caatinga, nome do bioma do sertão nordestino, vem do tupi e descreve a paisagem na seca. O que esse nome significa?",
+          "resposta": "Mata branca"
+        },
+        {
+          "id": "q02257",
+          "pergunta": "Qual bioma brasileiro existe apenas dentro do território do Brasil?",
+          "resposta": "Caatinga"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "O gêiser Old Faithful, de Yellowstone, tem um nome que quer dizer velho fiel. A que característica dele o nome se refere?",
+        "resposta": "Regularidade das erupções"
+      },
+      "existentes": [
+        {
+          "id": "q02342",
+          "pergunta": "Em que parque nacional fica este famoso gêiser?",
+          "resposta": "Yellowstone"
+        }
+      ]
+    },
+    {
+      "caso": 14,
+      "nova": {
+        "pergunta": "Mesas de pedra isoladas como o monte Roraima são associadas a que romance de Arthur Conan Doyle, sobre um platô habitado por dinossauros?",
+        "resposta": "O Mundo Perdido"
+      },
+      "existentes": [
+        {
+          "id": "q02088",
+          "pergunta": "Acredita-se que o Monte Roraima inspirou um romance de 1912 sobre dinossauros num planalto isolado. Quem escreveu esse livro?",
+          "resposta": "Arthur Conan Doyle"
+        },
+        {
+          "id": "q02089",
+          "pergunta": "O Monte Roraima fica na fronteira entre o Brasil, a Venezuela e qual outro país?",
+          "resposta": "Guiana"
+        }
+      ]
+    },
+    {
+      "caso": 15,
+      "nova": {
+        "pergunta": "Tão seco que seu solo quase não tem micróbios, o deserto do Atacama é usado por cientistas da NASA para simular as condições de que lugar?",
+        "resposta": "Marte"
+      },
+      "existentes": [
+        {
+          "id": "q02082",
+          "pergunta": "Que corrente oceânica fria ajuda a manter o Deserto do Atacama entre os lugares mais secos do planeta?",
+          "resposta": "Corrente de Humboldt"
+        },
+        {
+          "id": "q02083",
+          "pergunta": "Por sua aridez extrema, o Deserto do Atacama é usado pela NASA para testar equipamentos destinados a qual planeta?",
+          "resposta": "Marte"
+        }
+      ]
+    },
+    {
+      "caso": 16,
+      "nova": {
+        "pergunta": "No Vale da Morte, na Califórnia, pedras deixam longos rastros no chão seco, como se andassem sozinhas. O que as empurra?",
+        "resposta": "Placas finas de gelo levadas pelo vento"
+      },
+      "existentes": [
+        {
+          "id": "q02086",
+          "pergunta": "No Vale da Morte, na Califórnia, pedras deixam rastros ao deslizar sozinhas. O vento as move por meio de finas placas de quê?",
+          "resposta": "Gelo"
+        }
+      ]
+    },
+    {
+      "caso": 17,
+      "nova": {
+        "pergunta": "As formigas saúvas cortam folhas, mas não as comem. Para que elas carregam essas folhas até o formigueiro?",
+        "resposta": "Para cultivar fungos"
+      },
+      "existentes": [
+        {
+          "id": "q02598",
+          "pergunta": "As saúvas carregam pedaços de folhas para dentro do formigueiro, mas não os comem. Para que servem essas folhas?",
+          "resposta": "Para cultivar o fungo que as alimenta"
+        }
+      ]
+    },
+    {
+      "caso": 18,
+      "nova": {
+        "pergunta": "No inverno antártico, pinguins-imperadores se amontoam aos milhares, revezando quem fica na borda do grupo. Por que fazem isso?",
+        "resposta": "Para conservar o calor"
+      },
+      "existentes": [
+        {
+          "id": "q01030",
+          "pergunta": "Que pinguim é este, o maior de todos?",
+          "resposta": "Pinguim-imperador"
+        }
+      ]
+    },
+    {
+      "caso": 19,
+      "nova": {
+        "pergunta": "Considerando como deserto todo lugar com pouquíssima chuva ou neve, qual é o maior deserto do mundo?",
+        "resposta": "Antártida"
+      },
+      "existentes": [
+        {
+          "id": "q02097",
+          "pergunta": "Considerando deserto toda região onde quase não chove nem neva, qual é o maior deserto do mundo?",
+          "resposta": "Antártida"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta quem isolou a bactéria; as existentes perguntam PCR e Yellowstone."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Lynn Margulis e a origem bacteriana das mitocôndrias.",
+      "id_existente": "q03852"
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Quem nomeou os tardígrados é fato diferente do apelido ou da exposição ao espaço."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Autora do livro e acúmulo nas cadeias alimentares; as existentes perguntam pássaros e DDT proibido."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Estado da soltura é fato diferente do filme Rio."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Alimento da descoberta é diferente do apelido Conan."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Município é diferente do estado."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Década em que se alcançou a água é diferente da analogia com Europa."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Significado do nome é diferente."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Primeira descida em 1960 é diferente da descida de Cameron em 2012."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Origem do nome é fato diferente."
+    },
+    {
+      "caso": 12,
+      "decisao": "repete",
+      "motivo": "Mesmo significado do nome caatinga.",
+      "id_existente": "q02256"
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Significado do nome é diferente do parque onde fica."
+    },
+    {
+      "caso": 14,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam o romance O Mundo Perdido, de Conan Doyle, ligado ao Roraima; a resposta de uma permite acertar a outra.",
+      "id_existente": "q02088"
+    },
+    {
+      "caso": 15,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: Atacama usado pela NASA para simular Marte.",
+      "id_existente": "q02083"
+    },
+    {
+      "caso": 16,
+      "decisao": "repete",
+      "motivo": "Mesmo fenômeno e mesma explicação: placas de gelo.",
+      "id_existente": "q02086"
+    },
+    {
+      "caso": 17,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: folhas servem para cultivar fungo.",
+      "id_existente": "q02598"
+    },
+    {
+      "caso": 18,
+      "decisao": "nova",
+      "motivo": "Comportamento de amontoar é diferente de identificar o maior pinguim."
+    },
+    {
+      "caso": 19,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta e resposta.",
+      "id_existente": "q02097"
+    }
+  ]
+}

@@ -31880,7 +31880,9 @@
     "variantes": [
       "Sailing stones",
       "Pedras velejadoras",
-      "Pedras de Racetrack Playa"
+      "Pedras de Racetrack Playa",
+      "Pedras deslizantes",
+      "Pedras andantes"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Sailing_stones",
@@ -38290,7 +38292,8 @@
     "descricao": "Pequena arara azul (Cyanopsitta spixii) da caatinga do norte da Bahia.",
     "variantes": [
       "Arara-azul-de-spix",
-      "Cyanopsitta spixii"
+      "Cyanopsitta spixii",
+      "Spix's macaw"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Spix%27s_macaw"
@@ -43464,7 +43467,8 @@
     "nome": "Deinococcus radiodurans",
     "descricao": "Bactéria extremófila famosa pela enorme resistência à radiação ionizante.",
     "variantes": [
-      "Conan, a Bactéria"
+      "Conan, a Bactéria",
+      "D. radiodurans"
     ],
     "fontes": [
       "https://en.wikipedia.org/wiki/Deinococcus_radiodurans"
@@ -70419,6 +70423,354 @@
     ],
     "fontes": [
       "https://pt.wikipedia.org/wiki/Matusal%C3%A9m"
+    ]
+  },
+  {
+    "id": "arqueias",
+    "nome": "Arqueias",
+    "descricao": "Domínio de microrganismos unicelulares, Archaea, distinto das bactérias e comum em ambientes extremos.",
+    "variantes": [
+      "Archaea",
+      "Arqueobactérias"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Archaea",
+      "https://en.wikipedia.org/wiki/Archaea"
+    ]
+  },
+  {
+    "id": "naturgemalde",
+    "nome": "Naturgemälde",
+    "descricao": "Ilustração de 1807 de Alexander von Humboldt que mostra o vulcão Chimborazo e a distribuição das plantas conforme a altitude.",
+    "variantes": [
+      "Tableau physique des Andes",
+      "Quadro físico dos Andes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Alexander_von_Humboldt"
+    ]
+  },
+  {
+    "id": "linha_de_wallace",
+    "nome": "Linha de Wallace",
+    "descricao": "Fronteira biogeográfica no arquipélago malaio que separa a fauna de origem asiática da fauna de origem australiana.",
+    "variantes": [
+      "Wallace Line"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Wallace_Line"
+    ]
+  },
+  {
+    "id": "biosfera",
+    "nome": "Biosfera",
+    "descricao": "Conjunto de todos os ecossistemas da Terra, a camada do planeta onde existe vida.",
+    "variantes": [
+      "Biosphere"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Biosfera",
+      "https://en.wikipedia.org/wiki/Biosphere"
+    ]
+  },
+  {
+    "id": "hipotese_gaia",
+    "nome": "Hipótese Gaia",
+    "descricao": "Hipótese segundo a qual os seres vivos e o ambiente da Terra formam um sistema que se autorregula.",
+    "variantes": [
+      "Hipótese de Gaia",
+      "Teoria de Gaia",
+      "Gaia hypothesis"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Gaia_hypothesis"
+    ]
+  },
+  {
+    "id": "welwitschia",
+    "nome": "Welwitschia",
+    "descricao": "Planta do deserto do Namibe, Welwitschia mirabilis, que vive séculos com apenas duas folhas de crescimento contínuo.",
+    "variantes": [
+      "Welwitschia mirabilis",
+      "Tumbo"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Welwitschia",
+      "https://pt.wikipedia.org/wiki/Welwitschia_mirabilis"
+    ]
+  },
+  {
+    "id": "caverna_dos_cristais",
+    "nome": "Caverna dos Cristais",
+    "descricao": "Caverna na mina de Naica, no estado de Chihuahua, com cristais gigantes de gipsita e calor extremo.",
+    "variantes": [
+      "Cueva de los Cristales",
+      "Cave of the Crystals"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cave_of_the_Crystals"
+    ]
+  },
+  {
+    "id": "foca_do_baikal",
+    "nome": "Foca-do-baikal",
+    "descricao": "Foca de água doce, Pusa sibirica, endêmica do lago Baikal, na Sibéria.",
+    "variantes": [
+      "Nerpa",
+      "Foca-de-baikal",
+      "Pusa sibirica"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Baikal_seal"
+    ]
+  },
+  {
+    "id": "dallol",
+    "nome": "Dallol",
+    "descricao": "Sistema hidrotermal na depressão de Danakil, com fontes ácidas e coloridas num dos lugares mais quentes da Terra.",
+    "variantes": [
+      "Dallol hydrothermal system"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dallol_(hydrothermal_system)",
+      "https://en.wikipedia.org/wiki/Danakil_Depression"
+    ]
+  },
+  {
+    "id": "ra_do_titicaca",
+    "nome": "Rã-do-titicaca",
+    "descricao": "Rã aquática grande, Telmatobius culeus, que respira principalmente pela pele cheia de dobras.",
+    "variantes": [
+      "Telmatobius culeus",
+      "Titicaca water frog"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Titicaca_water_frog"
+    ]
+  },
+  {
+    "id": "arvore_sangue_de_dragao",
+    "nome": "Árvore-sangue-de-dragão",
+    "descricao": "Árvore Dracaena cinnabari, de copa em forma de guarda-chuva e seiva vermelha, endêmica do arquipélago de Socotorá.",
+    "variantes": [
+      "Dracaena cinnabari",
+      "Dragoeiro-de-socotorá"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Dracaena_cinnabari"
+    ]
+  },
+  {
+    "id": "delta_do_okavango",
+    "nome": "Delta do Okavango",
+    "descricao": "Grande delta interior formado pelo rio Okavango, que se espalha no deserto do Kalahari sem chegar ao mar.",
+    "variantes": [
+      "Okavango Delta"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Okavango_Delta"
+    ]
+  },
+  {
+    "id": "saguaro",
+    "nome": "Saguaro",
+    "descricao": "Cacto colunar gigante, Carnegiea gigantea, de braços erguidos, típico do sudoeste dos Estados Unidos e do noroeste do México.",
+    "variantes": [
+      "Carnegiea gigantea"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Saguaro"
+    ]
+  },
+  {
+    "id": "baia_shark",
+    "nome": "Baía Shark",
+    "descricao": "Baía da costa oeste australiana, Patrimônio Mundial, famosa pelos estromatólitos vivos de Hamelin Pool.",
+    "variantes": [
+      "Shark Bay",
+      "Hamelin Pool"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Shark_Bay"
+    ]
+  },
+  {
+    "id": "biosfera_2",
+    "nome": "Biosfera 2",
+    "descricao": "Complexo de vidro no deserto do Arizona que reproduz ecossistemas da Terra em ambiente fechado.",
+    "variantes": [
+      "Biosphere 2"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Biosphere_2"
+    ]
+  },
+  {
+    "id": "parque_nacional_de_yellowstone",
+    "nome": "Parque Nacional de Yellowstone",
+    "descricao": "Parque nacional nos Estados Unidos, sobre um grande sistema vulcânico, famoso por gêiseres e fontes termais.",
+    "variantes": [
+      "Yellowstone National Park",
+      "Yellowstone"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Yellowstone_National_Park"
+    ]
+  },
+  {
+    "id": "estacao_antartica_comandante_ferraz",
+    "nome": "Estação Antártica Comandante Ferraz",
+    "descricao": "Base científica brasileira na ilha Rei George, na Antártida.",
+    "variantes": [
+      "EACF",
+      "Comandante Ferraz"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Ant%C3%A1rtica_Comandante_Ferraz"
+    ]
+  },
+  {
+    "id": "periodo_umido_africano",
+    "nome": "Período Úmido Africano",
+    "descricao": "Fase climática em que o Saara ficou coberto de lagos e vegetação, terminada há cerca de cinco mil anos.",
+    "variantes": [
+      "Saara Verde",
+      "African humid period",
+      "Green Sahara"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/African_humid_period"
+    ]
+  },
+  {
+    "id": "pinguim_de_magalhaes",
+    "nome": "Pinguim-de-magalhães",
+    "descricao": "Pinguim sul-americano, Spheniscus magellanicus, que se reproduz na Patagônia e migra para o norte no inverno.",
+    "variantes": [
+      "Spheniscus magellanicus",
+      "Magellanic penguin"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Pinguim-de-magalh%C3%A3es",
+      "https://en.wikipedia.org/wiki/Magellanic_penguin"
+    ]
+  },
+  {
+    "id": "verme_de_pompeia",
+    "nome": "Verme-de-pompeia",
+    "descricao": "Verme poliqueta das fontes hidrotermais do Pacífico, Alvinella pompejana, que vive em tubos sobre chaminés muito quentes.",
+    "variantes": [
+      "Alvinella pompejana",
+      "Pompeii worm"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Pompeii_worm"
+    ]
+  },
+  {
+    "id": "caranguejo_yeti",
+    "nome": "Caranguejo-yeti",
+    "descricao": "Crustáceo das fontes hidrotermais do Pacífico Sul, Kiwa hirsuta, com garras cobertas de cerdas claras.",
+    "variantes": [
+      "Kiwa hirsuta",
+      "Yeti crab"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Kiwa_hirsuta"
+    ]
+  },
+  {
+    "id": "lula_vampira",
+    "nome": "Lula-vampira",
+    "descricao": "Cefalópode de águas profundas, Vampyroteuthis infernalis, que vive em zonas pobres em oxigênio.",
+    "variantes": [
+      "Vampyroteuthis infernalis",
+      "Vampire squid"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Vampire_squid"
+    ]
+  },
+  {
+    "id": "depressao_de_bodele",
+    "nome": "Depressão de Bodélé",
+    "descricao": "Antigo leito de lago no Chade, uma das principais fontes da poeira do Saara levada pelo vento.",
+    "variantes": [
+      "Bodélé Depression"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Bodélé_Depression"
+    ]
+  },
+  {
+    "id": "cenote",
+    "nome": "Cenote",
+    "descricao": "Poço natural formado pelo desabamento de rocha calcária, que expõe água subterrânea, típico da península de Iucatã.",
+    "variantes": [
+      "Cenotes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Cenote"
+    ]
+  },
+  {
+    "id": "zona_de_exclusao_de_chernobyl",
+    "nome": "Zona de exclusão de Chernobyl",
+    "descricao": "Área isolada ao redor da usina nuclear de Chernobyl, evacuada após o acidente de 1986.",
+    "variantes": [
+      "Chernobyl Exclusion Zone"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chernobyl_Exclusion_Zone"
+    ]
+  },
+  {
+    "id": "caracol_de_pe_escamoso",
+    "nome": "Caracol-de-pé-escamoso",
+    "descricao": "Gastrópode das fontes hidrotermais do Oceano Índico, Chrysomallon squamiferum, com escamas e concha mineralizadas.",
+    "variantes": [
+      "Chrysomallon squamiferum",
+      "Scaly-foot gastropod"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Chrysomallon_squamiferum"
+    ]
+  },
+  {
+    "id": "peixe_pescador",
+    "nome": "Peixe-pescador",
+    "descricao": "Peixes da ordem Lophiiformes, muitos de águas profundas, que atraem presas com uma isca na cabeça.",
+    "variantes": [
+      "Tamboril",
+      "Anglerfish",
+      "Lophiiformes"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/Anglerfish"
+    ]
+  },
+  {
+    "id": "polo_sul",
+    "nome": "Polo Sul",
+    "descricao": "Polo Sul geográfico, ponto mais ao sul da Terra, no planalto antártico.",
+    "variantes": [
+      "Polo Sul geográfico",
+      "South Pole"
+    ],
+    "fontes": [
+      "https://en.wikipedia.org/wiki/South_Pole"
+    ]
+  },
+  {
+    "id": "bromelia",
+    "nome": "Bromélia",
+    "descricao": "Planta da família Bromeliaceae, muitas vezes epífita, cujas folhas em roseta acumulam água.",
+    "variantes": [
+      "Bromeliaceae",
+      "Gravatá"
+    ],
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Bromeliaceae"
     ]
   }
 ]
