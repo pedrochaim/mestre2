@@ -1,0 +1,1501 @@
+{
+  "itens": [
+    {
+      "_indice": 1,
+      "_ancora": {
+        "nome": "Superman",
+        "descricao": "Super-herói da DC Comics vindo do planeta Krypton, criado por Jerry Siegel e Joe Shuster",
+        "variantes": [
+          "Super-Homem"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Superman"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Na capa da revista Action Comics número um, o Superman estreou levantando um carro. Em que ano essa revista chegou às bancas?",
+      "resposta": "1938",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Superman",
+        "https://en.wikipedia.org/wiki/Action_Comics_1"
+      ],
+      "ancora": "superman"
+    },
+    {
+      "_indice": 2,
+      "_ancora": {
+        "nome": "Peanuts",
+        "descricao": "Tira de jornal do americano Charles Schulz, com Charlie Brown e Snoopy",
+        "variantes": [
+          "Minduim"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Peanuts"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Charles Schulz desenhou a tira Peanuts, de Charlie Brown e Snoopy, por quase cinquenta anos. Em que ano ela estreou nos jornais?",
+      "resposta": "1950",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Peanuts"
+      ],
+      "ancora": "peanuts"
+    },
+    {
+      "_indice": 3,
+      "_ancora": {
+        "id_existente": "monica",
+        "nome": "Mônica",
+        "descricao": "Protagonista da Turma da Mônica, de Mauricio de Sousa, menina de vestido vermelho e dentuça.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Turma_da_Mônica"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Mônica surgiu em 1963 como coadjuvante nas tiras do Cebolinha. Em que ano ela ganhou sua própria revista em quadrinhos?",
+      "resposta": "1970",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Turma_da_Mônica",
+        "https://en.wikipedia.org/wiki/Monica_and_Friends"
+      ],
+      "ancora": "monica"
+    },
+    {
+      "_indice": 4,
+      "_ancora": {
+        "id_existente": "mafalda",
+        "nome": "Mafalda",
+        "descricao": "Menina contestadora criada pelo cartunista argentino Quino",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mafalda"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "A tira Mafalda, do argentino Quino, estreou em 1964. Em que ano ele encerrou de vez a publicação dela?",
+      "resposta": "1973",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mafalda"
+      ],
+      "distratores": [
+        "1968",
+        "1980",
+        "1985"
+      ],
+      "ancora": "mafalda"
+    },
+    {
+      "_indice": 5,
+      "_ancora": {
+        "nome": "Turma do Pererê",
+        "descricao": "Revista em quadrinhos de Ziraldo protagonizada por um saci, publicada nos anos 1960",
+        "variantes": [
+          "Pererê"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Turma_do_Pererê"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que ano Ziraldo lançou a revista da Turma do Pererê, estrelada por um saci da mata brasileira?",
+      "resposta": "1960",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Turma_do_Pererê",
+        "https://pt.wikipedia.org/wiki/Ziraldo"
+      ],
+      "ancora": "turma_do_perere"
+    },
+    {
+      "_indice": 6,
+      "_ancora": {
+        "nome": "O Pasquim",
+        "descricao": "Semanário carioca de humor e crítica política que reuniu cartunistas como Jaguar, Ziraldo e Millôr Fernandes",
+        "variantes": [
+          "Pasquim"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/O_Pasquim"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O Pasquim, jornal de humor que reuniu Jaguar, Ziraldo e Millôr Fernandes em plena ditadura, foi lançado no Rio em que ano?",
+      "resposta": "1969",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/O_Pasquim"
+      ],
+      "distratores": [
+        "1964",
+        "1974",
+        "1979"
+      ],
+      "ancora": "o_pasquim"
+    },
+    {
+      "_indice": 7,
+      "_ancora": {
+        "id_existente": "comics_code_authority",
+        "nome": "Comics Code Authority",
+        "descricao": "Órgão de autocensura criado pelas editoras americanas de quadrinhos em 1954",
+        "variantes": [
+          "Comics Code"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Comics_Code_Authority"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "Criado em 1954 como órgão de autocensura dos quadrinhos americanos, o selo do Comics Code foi abandonado de vez pelas últimas editoras em que década?",
+      "resposta": "Década de 2010",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Comics_Code_Authority"
+      ],
+      "distratores": [
+        "Década de 1970",
+        "Década de 1980",
+        "Década de 1990"
+      ],
+      "ancora": "comics_code_authority"
+    },
+    {
+      "_indice": 8,
+      "_ancora": {
+        "nome": "Bidu",
+        "descricao": "Cachorrinho azul criado por Mauricio de Sousa, seu primeiro personagem publicado",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Bidu"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O cãozinho Bidu foi o primeiro personagem que Mauricio de Sousa publicou num jornal. Em que ano isso aconteceu?",
+      "resposta": "1959",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Bidu"
+      ],
+      "distratores": [
+        "1949",
+        "1966",
+        "1972"
+      ],
+      "ancora": "bidu"
+    },
+    {
+      "_indice": 9,
+      "_ancora": {
+        "id_existente": "mulher_maravilha",
+        "nome": "Mulher-Maravilha",
+        "descricao": "Heroína amazona da DC Comics, também conhecida como Diana Prince.",
+        "variantes": [
+          "Wonder Woman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wonder_Woman"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Antes de partir para o mundo dos homens, a Mulher-Maravilha vivia em qual ilha habitada só por amazonas?",
+      "resposta": "Temiscira (Ilha Paraíso)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Themyscira_(DC_Comics)",
+        "https://en.wikipedia.org/wiki/Wonder_Woman"
+      ],
+      "ancora": "mulher_maravilha"
+    },
+    {
+      "_indice": 10,
+      "_ancora": {
+        "nome": "Homem de Ferro",
+        "descricao": "Super-herói da Marvel, identidade do milionário Tony Stark, estreou em 1963",
+        "variantes": [
+          "Iron Man"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Iron_Man"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Na origem do Homem de Ferro, publicada em 1963, o milionário Tony Stark é ferido e capturado em qual país asiático em guerra?",
+      "resposta": "Vietnã",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Iron_Man"
+      ],
+      "ancora": "homem_de_ferro"
+    },
+    {
+      "_indice": 11,
+      "_ancora": {
+        "nome": "Demolidor",
+        "descricao": "Super-herói cego da Marvel, identidade do advogado Matt Murdock",
+        "variantes": [
+          "Daredevil"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O advogado cego Matt Murdock, o Demolidor, protege qual bairro de Nova York, onde cresceu?",
+      "resposta": "Hell's Kitchen (Cozinha do Inferno)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)",
+        "https://en.wikipedia.org/wiki/Hell%27s_Kitchen,_Manhattan"
+      ],
+      "ancora": "demolidor"
+    },
+    {
+      "_indice": 12,
+      "_ancora": {
+        "id_existente": "tio_patinhas",
+        "nome": "Tio Patinhas",
+        "descricao": "Pato bilionário e avarento da Disney, tio do Pato Donald",
+        "variantes": [
+          "Scrooge McDuck"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Scrooge_McDuck"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O Tio Patinhas ganhou sua primeira moeda engraxando sapatos ainda menino, no país onde nasceu. Que país é esse?",
+      "resposta": "Escócia",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Scrooge_McDuck"
+      ],
+      "ancora": "tio_patinhas"
+    },
+    {
+      "_indice": 13,
+      "_ancora": {
+        "id_existente": "asterix",
+        "nome": "Asterix",
+        "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959",
+        "variantes": [
+          "Astérix"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Asterix"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "No ano cinquenta antes de Cristo, a aldeia de Asterix resiste aos romanos em qual região da atual França?",
+      "resposta": "Bretanha (Armórica)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Asterix"
+      ],
+      "ancora": "asterix"
+    },
+    {
+      "_indice": 14,
+      "_ancora": {
+        "nome": "René Goscinny",
+        "descricao": "Roteirista francês de quadrinhos, cocriador de Asterix e roteirista de Lucky Luke",
+        "variantes": [
+          "Goscinny"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/René_Goscinny"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Nascido em Paris, René Goscinny, o roteirista de Asterix, passou a infância e a juventude em qual capital sul-americana?",
+      "resposta": "Buenos Aires",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/René_Goscinny"
+      ],
+      "ancora": "rene_goscinny"
+    },
+    {
+      "_indice": 15,
+      "_ancora": {
+        "nome": "Angelo Agostini",
+        "descricao": "Desenhista pioneiro dos quadrinhos no Brasil, autor de As Aventuras de Nhô Quim, de 1869",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Angelo_Agostini"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Angelo Agostini, pioneiro dos quadrinhos brasileiros no século dezenove, nasceu em qual país europeu?",
+      "resposta": "Itália",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Angelo_Agostini"
+      ],
+      "ancora": "angelo_agostini"
+    },
+    {
+      "_indice": 16,
+      "_ancora": {
+        "nome": "Graúna",
+        "descricao": "Personagem do cartunista Henfil, uma ave nordestina que vive na caatinga com Zeferino e o bode Orelana",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Henfil"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Graúna, de Henfil, vive com o amigo Zeferino e o bode Orelana em qual região brasileira?",
+      "resposta": "Sertão nordestino",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Henfil",
+        "https://en.wikipedia.org/wiki/Henfil"
+      ],
+      "ancora": "grauna"
+    },
+    {
+      "_indice": 17,
+      "_ancora": {
+        "nome": "Condorito",
+        "descricao": "Condor trapalhão dos quadrinhos de humor criado pelo cartunista Pepo em 1949",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Condorito"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O Condorito, um condor trapalhão criado pelo cartunista Pepo em 1949, é personagem dos quadrinhos de qual país?",
+      "resposta": "Chile",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Condorito"
+      ],
+      "distratores": [
+        "Argentina",
+        "Peru",
+        "Bolívia"
+      ],
+      "ancora": "condorito"
+    },
+    {
+      "_indice": 18,
+      "_ancora": {
+        "nome": "Arlequina",
+        "descricao": "Personagem da DC, psiquiatra que vira parceira e namorada do Coringa",
+        "variantes": [
+          "Harley Quinn"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Harley_Quinn"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Arlequina, namorada do Coringa, não nasceu nas revistas. Em que série de televisão ela estreou, em 1992?",
+      "resposta": "Batman: A Série Animada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Harley_Quinn"
+      ],
+      "ancora": "arlequina"
+    },
+    {
+      "_indice": 19,
+      "_ancora": {
+        "nome": "Fantasma",
+        "descricao": "Herói mascarado de roupa roxa criado por Lee Falk em 1936, o espírito que anda",
+        "variantes": [
+          "The Phantom"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Phantom"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Nas tiras de Lee Falk, onde fica o esconderijo do Fantasma, o espírito que anda?",
+      "resposta": "Na Caverna da Caveira",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Phantom"
+      ],
+      "ancora": "fantasma"
+    },
+    {
+      "_indice": 20,
+      "_ancora": {
+        "nome": "Spawn",
+        "descricao": "Anti-herói demoníaco lançado em 1992 pela editora Image Comics",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Spawn_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que desenhista canadense, famoso por seu trabalho no Homem-Aranha, criou o anti-herói Spawn em 1992?",
+      "resposta": "Todd McFarlane",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Spawn_(character)",
+        "https://en.wikipedia.org/wiki/Todd_McFarlane"
+      ],
+      "ancora": "spawn"
+    },
+    {
+      "_indice": 21,
+      "_ancora": {
+        "nome": "Hellboy",
+        "descricao": "Demônio de pele vermelha que combate o sobrenatural, personagem de quadrinhos americano dos anos 1990",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hellboy"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Hellboy, o demônio vermelho que lixa os próprios chifres, foi criado por qual quadrinista americano?",
+      "resposta": "Mike Mignola",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hellboy"
+      ],
+      "ancora": "hellboy"
+    },
+    {
+      "_indice": 22,
+      "_ancora": {
+        "nome": "Sandman",
+        "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+        "variantes": [
+          "The Sandman"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que escritor inglês, autor do livro Coraline, criou no fim dos anos 1980 a série em quadrinhos Sandman?",
+      "resposta": "Neil Gaiman",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)"
+      ],
+      "ancora": "sandman"
+    },
+    {
+      "_indice": 23,
+      "_ancora": {
+        "nome": "Batman: O Cavaleiro das Trevas",
+        "descricao": "Minissérie da DC de 1986 em que um Bruce Wayne idoso volta a ser Batman",
+        "variantes": [
+          "The Dark Knight Returns",
+          "O Retorno do Cavaleiro das Trevas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/The_Dark_Knight_Returns"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1986, quem escreveu e desenhou Batman: O Cavaleiro das Trevas, em que um Bruce Wayne já velho volta à ativa?",
+      "resposta": "Frank Miller",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/The_Dark_Knight_Returns"
+      ],
+      "ancora": "batman_o_cavaleiro_das_trevas_2"
+    },
+    {
+      "_indice": 24,
+      "_ancora": {
+        "nome": "Venom",
+        "descricao": "Vilão da Marvel formado por um simbionte alienígena que já foi o uniforme preto do Homem-Aranha",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Venom_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "A ideia do uniforme preto do Homem-Aranha, que deu origem ao Venom, foi comprada pela Marvel de quem?",
+      "resposta": "Um fã, Randy Schueller",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Venom_(character)"
+      ],
+      "ancora": "venom"
+    },
+    {
+      "_indice": 25,
+      "_ancora": {
+        "nome": "Smurfette",
+        "descricao": "Única smurf feminina da aldeia nas histórias originais dos Smurfs, de Peyo",
+        "variantes": [
+          "Smurfina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Smurfette"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Nas histórias dos Smurfs, quem criou a Smurfette com um feitiço, para semear a discórdia na aldeia?",
+      "resposta": "Gargamel",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Smurfette"
+      ],
+      "ancora": "smurfette"
+    },
+    {
+      "_indice": 26,
+      "_ancora": {
+        "nome": "Rê Bordosa",
+        "descricao": "Personagem boêmia dos quadrinhos de humor brasileiros dos anos 1980, famosa pelas ressacas",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Rê_Bordosa"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que cartunista criou Rê Bordosa, a boêmia de ressaca eterna que estrelou a revista Chiclete com Banana?",
+      "resposta": "Angeli",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Rê_Bordosa"
+      ],
+      "ancora": "re_bordosa"
+    },
+    {
+      "_indice": 27,
+      "_ancora": {
+        "nome": "Níquel Náusea",
+        "descricao": "Rato protagonista de tiras de humor brasileiras publicadas desde os anos 1980",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Níquel_Náusea"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que cartunista paulistano criou, em 1985, a tira do rato Níquel Náusea, publicada na Folha de S.Paulo?",
+      "resposta": "Fernando Gonsales",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Níquel_Náusea",
+        "https://pt.wikipedia.org/wiki/Fernando_Gonsales"
+      ],
+      "ancora": "niquel_nausea"
+    },
+    {
+      "_indice": 28,
+      "_ancora": {
+        "nome": "Amigo da Onça",
+        "descricao": "Personagem de humor publicado na revista O Cruzeiro a partir de 1943, que vive deixando os outros em apuros",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Amigo_da_Onça"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que cartunista pernambucano criou o Amigo da Onça, publicado na revista O Cruzeiro a partir de 1943?",
+      "resposta": "Péricles",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Amigo_da_Onça"
+      ],
+      "distratores": [
+        "J. Carlos",
+        "Millôr Fernandes",
+        "Ziraldo"
+      ],
+      "ancora": "amigo_da_onca"
+    },
+    {
+      "_indice": 29,
+      "_ancora": {
+        "nome": "Turma da Mônica: Laços",
+        "descricao": "Graphic novel de 2013 da Turma da Mônica, adaptada para o cinema em 2019",
+        "variantes": [
+          "Laços"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Turma_da_Mônica:_Laços"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Laços, a história da Turma da Mônica que virou filme em 2019, foi criada em quadrinhos por qual dupla de irmãos?",
+      "resposta": "Vitor e Lu Cafaggi",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Turma_da_Mônica:_Laços",
+        "https://pt.wikipedia.org/wiki/Graphic_MSP"
+      ],
+      "distratores": [
+        "Gêmeos Moon e Bá",
+        "Chico e Paulo Caruso",
+        "Otavio e Gustavo Pandolfo"
+      ],
+      "ancora": "turma_da_monica_lacos"
+    },
+    {
+      "_indice": 30,
+      "_ancora": {
+        "nome": "Marsupilami",
+        "descricao": "Animal fictício amarelo de pintas pretas e cauda enorme, dos quadrinhos franco-belgas, criado em 1952",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marsupilami"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Que quadrinista belga criou em 1952 o Marsupilami, bicho amarelo de pintas pretas e cauda gigante?",
+      "resposta": "André Franquin",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Marsupilami"
+      ],
+      "distratores": [
+        "Hergé",
+        "Peyo",
+        "Morris"
+      ],
+      "ancora": "marsupilami"
+    },
+    {
+      "_indice": 31,
+      "_ancora": {
+        "nome": "Prêmio Eisner",
+        "descricao": "Premiação anual dos quadrinhos americanos entregue na Comic-Con de San Diego",
+        "variantes": [
+          "Eisner Awards",
+          "Will Eisner Comic Industry Awards"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Eisner_Award"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O prêmio chamado de Oscar dos quadrinhos, entregue todo ano na Comic-Con de San Diego, homenageia qual autor?",
+      "resposta": "Will Eisner",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Eisner_Award"
+      ],
+      "ancora": "premio_eisner"
+    },
+    {
+      "_indice": 32,
+      "_ancora": {
+        "nome": "Marvel Comics",
+        "descricao": "Editora americana de quadrinhos, casa do Homem-Aranha, dos X-Men e do Capitão América",
+        "variantes": [
+          "Marvel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Marvel_Comics"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em 1941, quando lançou o Capitão América, a editora que hoje se chama Marvel tinha outro nome. Qual?",
+      "resposta": "Timely Comics",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Timely_Comics",
+        "https://en.wikipedia.org/wiki/Marvel_Comics"
+      ],
+      "ancora": "marvel_comics"
+    },
+    {
+      "_indice": 33,
+      "_ancora": {
+        "nome": "Milu",
+        "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé",
+        "variantes": [
+          "Milou",
+          "Snowy"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Snowy_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "No original em francês, o cão de Tintim se chama Milou. Esse era o apelido de quem na vida de Hergé?",
+      "resposta": "Marie-Louise, sua primeira namorada",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Snowy_(character)"
+      ],
+      "ancora": "milu"
+    },
+    {
+      "_indice": 34,
+      "_ancora": {
+        "nome": "Capitão Haddock",
+        "descricao": "Capitão do mar beberrão e esbravejante, melhor amigo de Tintim",
+        "variantes": [
+          "Captain Haddock",
+          "Capitaine Haddock"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Captain_Haddock"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O sobrenome do capitão Haddock, amigo de Tintim, é em inglês o nome de qual peixe, parente do bacalhau?",
+      "resposta": "Eglefino (hadoque)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Captain_Haddock"
+      ],
+      "ancora": "capitao_haddock"
+    },
+    {
+      "_indice": 37,
+      "_ancora": {
+        "nome": "Gibi",
+        "descricao": "Revista em quadrinhos brasileira lançada em 1939, cujo título virou sinônimo de revista em quadrinhos",
+        "variantes": [
+          "Gibi (revista)"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Gibi"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Antes de virar sinônimo de revista em quadrinhos no Brasil, por causa de uma revista de 1939, a palavra gibi significava o quê?",
+      "resposta": "Menino (moleque)",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Gibi"
+      ],
+      "ancora": "gibi"
+    },
+    {
+      "_indice": 38,
+      "_ancora": {
+        "nome": "René Goscinny",
+        "descricao": "Roteirista francês de quadrinhos, cocriador de Asterix e roteirista de Lucky Luke",
+        "variantes": [
+          "Goscinny"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/René_Goscinny"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que roteirista francês escreveu tanto as aventuras do gaulês Asterix quanto as do caubói Lucky Luke?",
+      "resposta": "René Goscinny",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/René_Goscinny"
+      ],
+      "ancora": "rene_goscinny"
+    },
+    {
+      "_indice": 39,
+      "_ancora": {
+        "nome": "Professor Girassol",
+        "descricao": "Cientista distraído e meio surdo das Aventuras de Tintim, de Hergé",
+        "variantes": [
+          "Trifólio Girassol",
+          "Professor Calculus",
+          "Professeur Tournesol"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Professor_Calculus"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "O distraído Professor Girassol, de Tintim, foi inspirado em qual cientista suíço, pioneiro das viagens de balão à estratosfera?",
+      "resposta": "Auguste Piccard",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Professor_Calculus"
+      ],
+      "distratores": [
+        "Albert Einstein",
+        "Jacques Cousteau",
+        "Wernher von Braun"
+      ],
+      "ancora": "professor_girassol"
+    },
+    {
+      "_indice": 40,
+      "_ancora": {
+        "id_existente": "wolverine",
+        "nome": "Wolverine",
+        "descricao": "Mutante canadense dos X-Men, com garras retráteis de adamantium, criado pela Marvel em 1974",
+        "variantes": [
+          "Logan"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Wolverine_(character)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Antes de entrar para os X-Men, Wolverine estreou em 1974 como adversário de qual gigante verde da Marvel?",
+      "resposta": "Hulk",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Wolverine_(character)"
+      ],
+      "ancora": "wolverine"
+    },
+    {
+      "_indice": 41,
+      "_ancora": {
+        "id_existente": "batman",
+        "nome": "Batman",
+        "descricao": "Super-herói da DC, identidade de Bruce Wayne, estreou em 1939",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Batman"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Em muitas versões, os pais de Bruce Wayne são mortos ao sair do cinema, depois de ver um filme de qual herói mascarado?",
+      "resposta": "Zorro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thomas_Wayne",
+        "https://en.wikipedia.org/wiki/Batman"
+      ],
+      "ancora": "batman"
+    },
+    {
+      "_indice": 42,
+      "_ancora": {
+        "id_existente": "hulk",
+        "nome": "Hulk",
+        "descricao": "Monstro da Marvel, alter ego do cientista Bruce Banner, criado por Stan Lee e Jack Kirby em 1962",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Hulk"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Stan Lee contou que o Hulk misturava o monstro de Frankenstein com qual outro clássico da literatura sobre um homem de duas personalidades?",
+      "resposta": "O Médico e o Monstro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Hulk"
+      ],
+      "ancora": "hulk"
+    },
+    {
+      "_indice": 44,
+      "_ancora": {
+        "nome": "Jornalismo amarelo",
+        "descricao": "Termo americano para a imprensa sensacionalista do fim do século dezenove, equivalente à imprensa marrom",
+        "variantes": [
+          "Yellow journalism",
+          "Imprensa amarela"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Yellow_journalism"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos 1890, um menino careca de camisola, personagem de Richard Outcault, deu nome ao jornalismo sensacionalista americano. Como se chamava esse personagem?",
+      "resposta": "Yellow Kid (Menino Amarelo)",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Yellow_journalism",
+        "https://en.wikipedia.org/wiki/The_Yellow_Kid"
+      ],
+      "ancora": "jornalismo_amarelo"
+    },
+    {
+      "_indice": 45,
+      "_ancora": {
+        "nome": "Capitão Marvel (Shazam)",
+        "descricao": "Super-herói criado em 1939 pela editora Fawcett, que se transforma ao gritar a palavra mágica Shazam",
+        "variantes": [
+          "Shazam",
+          "Captain Marvel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Nos anos 1950, o Capitão Marvel original, que se transforma ao gritar Shazam, sumiu das bancas depois de um processo da DC. Qual era a acusação?",
+      "resposta": "Plágio do Superman",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/National_Comics_Publications_v._Fawcett_Publications",
+        "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)"
+      ],
+      "ancora": "capitao_marvel_shazam"
+    },
+    {
+      "_indice": 46,
+      "_ancora": {
+        "nome": "Capitão Marvel (Shazam)",
+        "descricao": "Super-herói criado em 1939 pela editora Fawcett, que se transforma ao gritar a palavra mágica Shazam",
+        "variantes": [
+          "Shazam",
+          "Captain Marvel"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "Na palavra mágica Shazam, cada letra traz o poder de um herói ou deus antigo. De quem vem a letra H?",
+      "resposta": "Hércules",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)"
+      ],
+      "distratores": [
+        "Hades",
+        "Heitor",
+        "Hefesto"
+      ],
+      "ancora": "capitao_marvel_shazam"
+    },
+    {
+      "_indice": 47,
+      "_ancora": {
+        "nome": "Vingadores",
+        "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1963",
+        "variantes": [
+          "Avengers"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Avengers_(comics)"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Que herói, muitas vezes líder dos Vingadores, ficou fora da formação original de 1963 e só entrou para a equipe na quarta edição?",
+      "resposta": "Capitão América",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Avengers_(comics)"
+      ],
+      "ancora": "vingadores"
+    },
+    {
+      "_indice": 48,
+      "_ancora": {
+        "nome": "Mauricio de Sousa",
+        "descricao": "Quadrinista paulista, criador da Turma da Mônica",
+        "variantes": [
+          "Maurício de Sousa"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mauricio_de_Sousa"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Antes de viver dos quadrinhos, Mauricio de Sousa foi repórter do jornal Folha da Manhã. Que tipo de notícia ele cobria?",
+      "resposta": "Notícias policiais",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mauricio_de_Sousa"
+      ],
+      "ancora": "mauricio_de_sousa"
+    },
+    {
+      "_indice": 49,
+      "_ancora": {
+        "id_existente": "lucky_luke",
+        "nome": "Lucky Luke",
+        "descricao": "Caubói solitário dos quadrinhos franco-belgas, criado por Morris em 1946",
+        "variantes": [],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Lucky_Luke"
+        ]
+      },
+      "tema": "Entretenimento",
+      "subtema": "Quadrinhos",
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Em 1983, o caubói Lucky Luke abandonou o cigarro que vivia pendurado em sua boca. O que passou a levar no lugar?",
+      "resposta": "Um talo de capim",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lucky_Luke"
+      ],
+      "ancora": "lucky_luke"
+    }
+  ],
+  "ancoras_novas": [
+    {
+      "id": "superman",
+      "nome": "Superman",
+      "descricao": "Super-herói da DC Comics vindo do planeta Krypton, criado por Jerry Siegel e Joe Shuster",
+      "variantes": [
+        "Super-Homem"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Superman"
+      ]
+    },
+    {
+      "id": "peanuts",
+      "nome": "Peanuts",
+      "descricao": "Tira de jornal do americano Charles Schulz, com Charlie Brown e Snoopy",
+      "variantes": [
+        "Minduim"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Peanuts"
+      ]
+    },
+    {
+      "id": "turma_do_perere",
+      "nome": "Turma do Pererê",
+      "descricao": "Revista em quadrinhos de Ziraldo protagonizada por um saci, publicada nos anos 1960",
+      "variantes": [
+        "Pererê"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Turma_do_Pererê"
+      ]
+    },
+    {
+      "id": "o_pasquim",
+      "nome": "O Pasquim",
+      "descricao": "Semanário carioca de humor e crítica política que reuniu cartunistas como Jaguar, Ziraldo e Millôr Fernandes",
+      "variantes": [
+        "Pasquim"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/O_Pasquim"
+      ]
+    },
+    {
+      "id": "bidu",
+      "nome": "Bidu",
+      "descricao": "Cachorrinho azul criado por Mauricio de Sousa, seu primeiro personagem publicado",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Bidu"
+      ]
+    },
+    {
+      "id": "homem_de_ferro",
+      "nome": "Homem de Ferro",
+      "descricao": "Super-herói da Marvel, identidade do milionário Tony Stark, estreou em 1963",
+      "variantes": [
+        "Iron Man"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Iron_Man"
+      ]
+    },
+    {
+      "id": "demolidor",
+      "nome": "Demolidor",
+      "descricao": "Super-herói cego da Marvel, identidade do advogado Matt Murdock",
+      "variantes": [
+        "Daredevil"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)"
+      ]
+    },
+    {
+      "id": "rene_goscinny",
+      "nome": "René Goscinny",
+      "descricao": "Roteirista francês de quadrinhos, cocriador de Asterix e roteirista de Lucky Luke",
+      "variantes": [
+        "Goscinny"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/René_Goscinny"
+      ]
+    },
+    {
+      "id": "angelo_agostini",
+      "nome": "Angelo Agostini",
+      "descricao": "Desenhista pioneiro dos quadrinhos no Brasil, autor de As Aventuras de Nhô Quim, de 1869",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Angelo_Agostini"
+      ]
+    },
+    {
+      "id": "grauna",
+      "nome": "Graúna",
+      "descricao": "Personagem do cartunista Henfil, uma ave nordestina que vive na caatinga com Zeferino e o bode Orelana",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Henfil"
+      ]
+    },
+    {
+      "id": "condorito",
+      "nome": "Condorito",
+      "descricao": "Condor trapalhão dos quadrinhos de humor criado pelo cartunista Pepo em 1949",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Condorito"
+      ]
+    },
+    {
+      "id": "arlequina",
+      "nome": "Arlequina",
+      "descricao": "Personagem da DC, psiquiatra que vira parceira e namorada do Coringa",
+      "variantes": [
+        "Harley Quinn"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Harley_Quinn"
+      ]
+    },
+    {
+      "id": "fantasma",
+      "nome": "Fantasma",
+      "descricao": "Herói mascarado de roupa roxa criado por Lee Falk em 1936, o espírito que anda",
+      "variantes": [
+        "The Phantom"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Phantom"
+      ]
+    },
+    {
+      "id": "spawn",
+      "nome": "Spawn",
+      "descricao": "Anti-herói demoníaco lançado em 1992 pela editora Image Comics",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Spawn_(character)"
+      ]
+    },
+    {
+      "id": "hellboy",
+      "nome": "Hellboy",
+      "descricao": "Demônio de pele vermelha que combate o sobrenatural, personagem de quadrinhos americano dos anos 1990",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Hellboy"
+      ]
+    },
+    {
+      "id": "sandman",
+      "nome": "Sandman",
+      "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989",
+      "variantes": [
+        "The Sandman"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)"
+      ]
+    },
+    {
+      "id": "batman_o_cavaleiro_das_trevas_2",
+      "nome": "Batman: O Cavaleiro das Trevas",
+      "descricao": "Minissérie da DC de 1986 em que um Bruce Wayne idoso volta a ser Batman",
+      "variantes": [
+        "The Dark Knight Returns",
+        "O Retorno do Cavaleiro das Trevas"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/The_Dark_Knight_Returns"
+      ]
+    },
+    {
+      "id": "venom",
+      "nome": "Venom",
+      "descricao": "Vilão da Marvel formado por um simbionte alienígena que já foi o uniforme preto do Homem-Aranha",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Venom_(character)"
+      ]
+    },
+    {
+      "id": "smurfette",
+      "nome": "Smurfette",
+      "descricao": "Única smurf feminina da aldeia nas histórias originais dos Smurfs, de Peyo",
+      "variantes": [
+        "Smurfina"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Smurfette"
+      ]
+    },
+    {
+      "id": "re_bordosa",
+      "nome": "Rê Bordosa",
+      "descricao": "Personagem boêmia dos quadrinhos de humor brasileiros dos anos 1980, famosa pelas ressacas",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Rê_Bordosa"
+      ]
+    },
+    {
+      "id": "niquel_nausea",
+      "nome": "Níquel Náusea",
+      "descricao": "Rato protagonista de tiras de humor brasileiras publicadas desde os anos 1980",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Níquel_Náusea"
+      ]
+    },
+    {
+      "id": "amigo_da_onca",
+      "nome": "Amigo da Onça",
+      "descricao": "Personagem de humor publicado na revista O Cruzeiro a partir de 1943, que vive deixando os outros em apuros",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Amigo_da_Onça"
+      ]
+    },
+    {
+      "id": "turma_da_monica_lacos",
+      "nome": "Turma da Mônica: Laços",
+      "descricao": "Graphic novel de 2013 da Turma da Mônica, adaptada para o cinema em 2019",
+      "variantes": [
+        "Laços"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Turma_da_Mônica:_Laços"
+      ]
+    },
+    {
+      "id": "marsupilami",
+      "nome": "Marsupilami",
+      "descricao": "Animal fictício amarelo de pintas pretas e cauda enorme, dos quadrinhos franco-belgas, criado em 1952",
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Marsupilami"
+      ]
+    },
+    {
+      "id": "premio_eisner",
+      "nome": "Prêmio Eisner",
+      "descricao": "Premiação anual dos quadrinhos americanos entregue na Comic-Con de San Diego",
+      "variantes": [
+        "Eisner Awards",
+        "Will Eisner Comic Industry Awards"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Eisner_Award"
+      ]
+    },
+    {
+      "id": "marvel_comics",
+      "nome": "Marvel Comics",
+      "descricao": "Editora americana de quadrinhos, casa do Homem-Aranha, dos X-Men e do Capitão América",
+      "variantes": [
+        "Marvel"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Marvel_Comics"
+      ]
+    },
+    {
+      "id": "milu",
+      "nome": "Milu",
+      "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé",
+      "variantes": [
+        "Milou",
+        "Snowy"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Snowy_(character)"
+      ]
+    },
+    {
+      "id": "capitao_haddock",
+      "nome": "Capitão Haddock",
+      "descricao": "Capitão do mar beberrão e esbravejante, melhor amigo de Tintim",
+      "variantes": [
+        "Captain Haddock",
+        "Capitaine Haddock"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Captain_Haddock"
+      ]
+    },
+    {
+      "id": "gibi",
+      "nome": "Gibi",
+      "descricao": "Revista em quadrinhos brasileira lançada em 1939, cujo título virou sinônimo de revista em quadrinhos",
+      "variantes": [
+        "Gibi (revista)"
+      ],
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Gibi"
+      ]
+    },
+    {
+      "id": "professor_girassol",
+      "nome": "Professor Girassol",
+      "descricao": "Cientista distraído e meio surdo das Aventuras de Tintim, de Hergé",
+      "variantes": [
+        "Trifólio Girassol",
+        "Professor Calculus",
+        "Professeur Tournesol"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Professor_Calculus"
+      ]
+    },
+    {
+      "id": "jornalismo_amarelo",
+      "nome": "Jornalismo amarelo",
+      "descricao": "Termo americano para a imprensa sensacionalista do fim do século dezenove, equivalente à imprensa marrom",
+      "variantes": [
+        "Yellow journalism",
+        "Imprensa amarela"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Yellow_journalism"
+      ]
+    },
+    {
+      "id": "capitao_marvel_shazam",
+      "nome": "Capitão Marvel (Shazam)",
+      "descricao": "Super-herói criado em 1939 pela editora Fawcett, que se transforma ao gritar a palavra mágica Shazam",
+      "variantes": [
+        "Shazam",
+        "Captain Marvel"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)"
+      ]
+    },
+    {
+      "id": "vingadores",
+      "nome": "Vingadores",
+      "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1963",
+      "variantes": [
+        "Avengers"
+      ],
+      "fontes": [
+        "https://en.wikipedia.org/wiki/Avengers_(comics)"
+      ]
+    },
+    {
+      "id": "mauricio_de_sousa",
+      "nome": "Mauricio de Sousa",
+      "descricao": "Quadrinista paulista, criador da Turma da Mônica",
+      "fontes": [
+        "https://pt.wikipedia.org/wiki/Mauricio_de_Sousa"
+      ]
+    }
+  ],
+  "variantes": {
+    "monica": [
+      "Mônica"
+    ],
+    "mafalda": [
+      "Mafalda"
+    ],
+    "comics_code_authority": [
+      "Comics Code Authority",
+      "Comics Code"
+    ],
+    "mulher_maravilha": [
+      "Mulher-Maravilha",
+      "Wonder Woman"
+    ],
+    "tio_patinhas": [
+      "Tio Patinhas",
+      "Scrooge McDuck"
+    ],
+    "asterix": [
+      "Asterix",
+      "Astérix"
+    ],
+    "wolverine": [
+      "Wolverine",
+      "Logan"
+    ],
+    "batman": [
+      "Batman"
+    ],
+    "hulk": [
+      "Hulk"
+    ],
+    "lucky_luke": [
+      "Lucky Luke"
+    ],
+    "ze_carioca": [
+      "Zé Carioca",
+      "José Carioca"
+    ]
+  }
+}

@@ -1,0 +1,1718 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Quadrinhos** (tema **Entretenimento**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Superman",
+      "descricao": "Super-herói da DC Comics vindo do planeta Krypton, criado por Jerry Siegel e Joe Shuster"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Na capa da revista Action Comics número um, o Superman estreou levantando um carro. Em que ano essa revista chegou às bancas?",
+    "resposta": "1938",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Superman",
+      "https://en.wikipedia.org/wiki/Action_Comics_1"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Superman",
+        "situacao": "ok",
+        "texto": "Superman is a superhero created by writer Jerry Siegel and artist Joe Shuster, first appearing in issue #1 of Action Comics, published in the United States on April 18, 1938. Superman has been regularly published in American comic books published by DC Comics since then, and has been adapted to other media including radio serials, novels, films, television shows, theater, and video games.\n[…]\nIn Action Comics #1 (1938), Superman is born on an alien world to a technologically advanced species that resembles humans. Shortly after he is born, his planet is destroyed in a natural cataclysm, but his scientist father foresaw the calamity and saves his baby son by sending him to Earth in a small spaceship. The ship is too small to carry anyone else, so Superman's parents are forced to stay behind and die in the cataclysm.\n[…]\nSince Action Comics #1 (1938), Superman possesses superhuman strength. The cover of Action Comics #1 shows him effortlessly lifting a car over his head. Another classic feat of strength on Superman's part is breaking steel chains. In some stories, he is strong enough to shift the orbits of planets and crush coal into diamond with his bare hands.\n[…]\nSince Action Comics #1 (1938), Superman has a highly durable body, invulnerable for most practical purposes. At the very least, bullets bounce harmlessly off his body. In some stories, such as Kingdom Come, not even a nuclear bomb can harm him.\n[…]\nAction Comics #1 (1938) explained that Superman's strength was common to all Kryptonians because they were a species \"millions of years advanced of our own\". In the first newspaper strips, Jor-El is shown running and leaping like Superman, and Lara survives a building collapsing on her. Later stories explained they evolved superhuman strength simply because of Krypton's higher gravity.\n[…]\nMusic of Superman\n[…]\nSuperman on DC Database, a DC Comics wiki\n[…]\nSuperman on IMDb"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Action_Comics_1",
+        "situacao": "ok",
+        "texto": "Action Comics #1 (cover dated June 1938) is the first issue of the original run of the comic-book/magazine series Action Comics. It features the first appearance of several comic-book heroes—most notably the Jerry Siegel and Joe Shuster creation, Superman—and sold for 10 cents (equivalent to $2 in 2025). It is widely considered to be both the beginning of the superhero genre and the most valuable \n[…]\nAction Comics #1 was an anthology totaling 68 pages, and contained eleven features:\n[…]\nPublished on April 18, 1938 (cover dated June 1938), by National Allied Publications, a corporate predecessor of DC Comics, it is considered the first true superhero comic. Though today Action Comics is a monthly title devoted to Superman, it began, like many early comics, as an anthology.\n[…]\nLiebowitz later said that selecting Superman to run in Action Comics #1 was \"pure accident\" based on deadline pressure and that he selected a \"thrilling\" cover, depicting Superman lifting a car over his head. Christopher Knowles, author of Our Gods Wear Spandex: The Secret History of Comic Book Heroes, compared the cover to Hercules and the Hydra by Antonio del Pollaiuolo.\n[…]\nThe original panels were rewritten and redrawn to create the first page of Action Comics #1:\n[…]\nA CGC 9.0-graded comic, with white pages, was auctioned for sale on eBay in August 2014. The seller, Darren Adams, a comic-book store owner in Federal Way, Washington, had purchased the issue from the estate of a man who had originally bought the issue from a newsstand on its release in 1938.\n[…]\nDC reprinted Action Comics #1 in 1988 as part of the 50th anniversary celebration of Superman that year. This edition reprinted only the Superman story, with a 50¢ U.S.A. cover price.\n[…]\nThe 1988, 1998 and 2000 reprints were published to the page-size standard of the 1988–2000 period, and not the larger page size utilized by Action Comics in 1938."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Superman",
+        "situacao": "ok",
+        "texto": "Superman ou Super-Homem é um super-herói de histórias em quadrinhos publicadas pela DC Comics. O personagem, entretanto, desde os anos 1930 já foi adaptado para diversos outros meios, como cinema, rádio, televisão, literatura e videogame. Superman foi criado pela dupla de autores de quadrinhos Joe Shuster e Jerry Siegel. Sua primeira aparição aconteceu no verão de 1938, na revista Action Comics #1\n[…]\nA primeira aparição do Superman foi em Action Comics #1, em 1938. Já naquele momento, as histórias do personagem se mostraram um sucesso, com a tiragem de 200 mil exemplares da revista esgotando-se rapidamente. A partir de sua quarta edição, Action já começaria a apresentar um significativo aumento em suas vendas, em comparação com os demais títulos da editora: entre 1938 e 1939, já possuía uma tiragem de mais de 500 mil exemplares.\n[…]\nWayne Boring, inicialmente empregado no estúdio de Shuster, começou trabalhando para DC em 1942 fazendo páginas para Superman e Action Comics.\n[…]\nMongul, governante do planeta de gladiadores Warworld, Mongul rivaliza com a força do Superman e sempre tentou derrotar o Homem de Aço;\n[…]\nEm 1946, pouco antes do contrato de Siegel e Shuster com a DC Comics expirar, ambos processaram a editora para anular seu contrato e reter os direitos do personagem. O tribunal arguiu em favor da empresa, alegando que a DC havia comprado legalmente os direitos de Superman quando adquiriram sua primeira história em 1938. Porém os direitos de Superboy continuavam com Siegel, levando a DC a comprá-los em troca de um acordo escrito de que a editora detinha a propriedade legal de Superman.\n[…]\nSuperman apareceu no Brasil pela primeira vez em Dezembro de 1938, no suplemento chamado A Gazetinha #445, do jornal A Gazeta de propriedade do jornalista Cásper Líbero. Com os direitos adquiridos por Adolfo Aizen, as aventuras do Homem de Aço passam para a lendária revista O Lobinho.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Peanuts",
+      "descricao": "Tira de jornal do americano Charles Schulz, com Charlie Brown e Snoopy"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Charles Schulz desenhou a tira Peanuts, de Charlie Brown e Snoopy, por quase cinquenta anos. Em que ano ela estreou nos jornais?",
+    "resposta": "1950",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Peanuts"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Peanuts",
+        "situacao": "ok",
+        "texto": "Peanuts (subtitled featuring \"Good ol' Charlie Brown\" until January 1, 1987) is a syndicated daily and Sunday American comic strip written and illustrated by Charles M. Schulz, which eventually expanded into a media franchise. The strip originally ran from October 2, 1950 to February 13, 2000, continuing in reruns afterward.\n[…]\nPeanuts was originally titled Li'l Folks, a weekly panel cartoon that appeared in the St. Paul Pioneer Press (Schulz's hometown newspaper) from 1947 to 1950. Li'l Folks marked the first appearance of the name \"Charlie Brown\", also featuring a dog that looked much like the early 1950s version of Snoopy.\n[…]\nShermy, a boy with a crew cut, was introduced as one of Charlie Brown's friends in the first strip in 1950, but began disappearing by the end of the decade, last appearing in 1969. Schulz came to dislike Shermy, describing him as \"an extra little boy\", and only used him when he required a character with \"little personality\".\n[…]\nThe first volume (collecting strips from 1950 to 1952) was published in May 2004; the volume containing the final newspaper strips (including all the strips from 1999 and seven strips from 2000, along with the complete run of Li'l Folks) was published in May 2016, with a twenty-sixth volume containing outside-the-daily-strip Peanuts material by Schulz appeared in the fall of that year.\n[…]\nThe Charlie Brown and Snoopy Show (1983–1985)\n[…]\nSnoopy Unleashed (2027)\n[…]\nAn exhibition in partnership with the Charles M. Schulz Museum titled Good Grief, Charlie Brown! Celebrating Snoopy and the Enduring Power of Peanuts opened at Somerset House in London on 25 October 2018, running until 3 March 2019. The exhibition brought together Charles M. Schulz's original Peanuts cartoons with work from a wide range of acclaimed contemporary artists and designers inspired by the cartoon."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Peanuts",
+        "situacao": "ok",
+        "texto": "Peanuts (no Brasil também conhecido como Minduim) é uma tira de jornal escrita e desenhada pelo cartunista norte-americano Charles Schulz que foi publicada de 2 de outubro de 1950 a 12 de fevereiro de 2000. A turma desenhada foi uma das mais populares e influentes da história da mídia. No seu ápice, Peanuts aparecia em mais de 2600 jornais, com um número de leitores estimado em 355 milhões em 75 p\n[…]\nEm 1948, Schulz vendeu um painel de tira cômica para o Saturday Evening Post e continuou a vendê-los entre 1948 e 1950.\n[…]\nEm 1950, Schulz foi para Nova Iorque com muitos projetos de desenhos para uma reunião que foi muito importante em sua carreira. Ele foi a uma reunião da United Feature Syndicate. E então, no dia 2 de outubro de 1950, Peanuts, nome de que no começo Schulz não gostou, fez sua estréia em sete jornais dos Estados Unidos e logo transformou-se em um grande sucesso.\n[…]\nEm 2006 foi produzido um último longa-metragem com a Turma do Charlie Brown. Chama-se He's a Bully, Charlie Brown e foi originalmente idealizado por Charles Schulz e contava, entre os dubladores, com o ator Taylor Lautner, então criança. Foi o último filme que a equipe de Bill Melendez realizou com os personagens, sendo Melendez responsável pelas vozes de Snoopy e Woodstock. Bill faleceu em 2008.\n[…]\nEm 2011, foi lançado o especial para a televisão Happiness Is a Warm Blanket, Charlie Brown, roteirizado por Stephan Pastis (autor da tira Pearls Before Swine) e Craig Schulz (filho de Charles). Em 2014, é lançada uma série curtas produzida pela pelo estúdio Normaal Animation e a France Televisions Distribution. Em novembro de 2015, foi lançado o longa-metragem 3D The Peanuts Movie, produzido pela Blue Sky Studios.\n[…]\nCharlie Brown: Um garoto azarado e melancólico. No Brasil, tem o apelido de \"Minduim\".\n[…]\nSnoopy's Getting Married, Charlie Brown\n[…]\nHe's a Bully, Charlie Brown\n[…]\nSnoopy presents:It's The Small Things,Charlie Brown",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Mônica",
+      "descricao": "Protagonista da Turma da Mônica, de Mauricio de Sousa, menina de vestido vermelho e dentuça."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "A Mônica surgiu em 1963 como coadjuvante nas tiras do Cebolinha. Em que ano ela ganhou sua própria revista em quadrinhos?",
+    "resposta": "1970",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Turma_da_Mônica",
+      "https://en.wikipedia.org/wiki/Monica_and_Friends"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Turma_da_Mônica",
+        "situacao": "ok",
+        "texto": "Turma da Mônica é uma série de histórias em quadrinhos e uma franquia de mídia produzida pela Maurício de Sousa Produções, criada pelo cartunista e empresário Mauricio de Sousa. Foi originada em 1959 em tirinhas de jornal, na qual os personagens principais eram Bidu e Franjinha. A partir dos anos 1960, a série começou a ganhar a identidade atual, com a criação de Mônica e Cebolinha, entre 1960 e 1\n[…]\nDesde 1970, na forma de revista em quadrinhos, os personagens já foram publicados por editoras como a Abril (1970–1986), a Globo (1987–2006) e Panini Comics (2007 até a atualidade), somando quase 2.000 revistas já publicadas para cada personagem. Além disso, também segue com publicação especial de tiras no formato de bolso pela própria Panini e pela L&PM.\n[…]\nMaurício ganhou novamente uma revista para suas criações em 1970, pela editora Abril. A princípio, com o título de \"Mônica e Sua Turma\", vários dos personagens já criados por Maurício nas tirinhas de jornal passaram a aparecer nas revistas, formando a hoje chamada Turma da Mônica. Competindo com quadrinhos estrangeiros como Pato Donald, Zé Carioca e Luluzinha, seus quadrinhos permaneceram firmes nas bancas e ganharam um segundo título, Cebolinha, em 1973.\n[…]\nA série Turma da Mônica tem uma extensa quantidade de personagens principais e secundários. Tem como principais protagonistas Mônica, Cebolinha, Cascão, Magali, Milena e Jeremias, sendo que quase todos têm a sua própria revista em quadrinhos, com exceção de Jeremias. Outros personagens de outras séries criadas por Maurício de Sousa também estão incluídos na Turma da Mônica, fazendo cruzamentos ou citações um sobre outro em várias histórias, entre vários outros personagens.\n[…]\nHá lugares no Brasil com nomes em homenagem aos personagens. Em Campo Grande, por exemplo, há a Rua da Mônica, Rua do Cebolinha, Rua da Magali e Rua do Cascão.\n[…]\nCanal de Turma da Mônica no YouTube"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Monica_and_Friends",
+        "situacao": "ok",
+        "texto": "Monica and Friends (Portuguese: Turma da Mônica), previously published as Monica's Gang in Anglophone territories and as Frizz and Friends in London, is a Brazilian comic book series and media franchise created by Mauricio de Sousa.\n[…]\nSince 1970, in the form of comic books, the characters have been published by publishers such as Abril (1970-1986), Globo (1987-2006) and Panini Comics (2007-present), totaling almost 2,000 issues already published for each character.\n[…]\nThe characters only returned to be published in a monthly comic book from 1970, by publisher Abril, initially under the title of \"Mônica e Sua Turma\" (Monica and Her Gang), later being changed to \"Mônica\" and \"Turma da Mônica\" (Monica's Gang), the latter title used only for merchandising. With so many of the characters ever created by Mauricio in strips of newspaper also began to appear in the comics of Monica's Gang.\n[…]\nMonica and Friends and its related works are released in a number of different books. Firstly, they were published by Editora Abril, from 1970 to 1986, then Editora Globo, from 1987 to 2006. From 2007 on, Panini Comics was chosen to keep the publications. So far there are comic books starring many characters, among the best known and sold are the characters of Monica, Jimmy Five, Smudge, Maggy and Chuck Billy, plus almanacs with republication of classic stories with varying characters.\n[…]\nMônica e a Sereia do Rio (1987)\n[…]\nSe Liga na Turma da Mônica - Volume 2 (2012, direct-to-video)\n[…]\nIn the 1990s, MSP released three CD-ROMs with short stories complemented by minigames: Mônica Dentuça (1995), Cebolinha e Floquinho (1996) and A Roça do Chico Bento (1998). Two CDs for creating comic books with both Monica and Chuck Billy were also released."
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Mafalda",
+      "descricao": "Menina contestadora criada pelo cartunista argentino Quino"
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "A tira Mafalda, do argentino Quino, estreou em 1964. Em que ano o autor deixou de desenhá-la?",
+    "resposta": "1973",
+    "distratores": [
+      "1968",
+      "1980",
+      "1985"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mafalda"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mafalda",
+        "situacao": "ok",
+        "texto": "Mafalda (Spanish: [maˈfalda]) is an Argentine comic strip written and drawn by cartoonist Quino. The strip features a six-year-old girl named Mafalda, who reflects the Argentine middle class and progressive youth, is concerned about humanity and world peace, and has an innocent but serious attitude toward problems. The comic strip ran from 1964 to 1973 and was very popular in Latin America, Europe\n[…]\nPublication resumed six months later, on 2 June 1968, in the weekly Siete Días Ilustrados. Since the cartoons now had to be delivered two weeks before publication, Quino was not able to comment on the news to the same extent. After creating the characters of Mafalda's little brother Guille and her new friend Libertad, he definitively ceased publication of the strip on 25 June 1973.\n[…]\nAfter 1973, Quino still drew Mafalda a few times, mostly to promote human rights. In 1976, he reproduced Mafalda for the UNICEF illustrating the Convention on the Rights of the Child.\n[…]\nMafalda 8 (1973)\n[…]\nBeginning in 2004, Quino's publisher in Argentina, Ediciones de la Flor, started publishing English-language collections of Mafalda strips under the series title Mafalda & Friends. In the United States of America, an English version of Mafalda, translated by Frank Wynne, started being released in 2025 by Elsewhere Editions.\n[…]\nQuino has opposed adapting Mafalda for cinema or theater; however, two series of animated shorts featuring Mafalda have been produced. The first, a series of 260 90-second films, was produced by Daniel Mallo for Argentine television starting in 1972. These were adapted into a full-length movie by Carlos Márquez in 1979 and released in 1981. It remains relatively unknown.\n[…]\nIn 2009, a life-sized statue of Mafalda was installed in front of Quino's old home in the San Telmo neighborhood of Buenos Aires.\n[…]\nHistory of Mafalda in Spanish\n[…]\nUNESCO Courier interview with Quino\n[…]\nMafalda at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mafalda",
+        "situacao": "ok",
+        "texto": "Mafalda foi uma tira escrita e desenhada pelo cartunista argentino Quino. As histórias, apresentando uma menina (Mafalda) preocupada com a humanidade e a paz mundial que se rebela com o estado atual do mundo, apareceram de 1964 a 1973, usufruindo de uma altíssima popularidade na América Latina e Europa.\n[…]\nA publicação recomeçou seis meses mais tarde, em 2 de junho de 1968, no hebdomadário Siete Días Illustrados. Como os quadrinhos tinham que ser entregues duas semanas antes da publicação, Quino era incapaz de comentar as notícias mais recentes. Ele decidiu acabar com a publicação das histórias em 25 de Junho de 1973, afirmando que temia começar a se repetir. Posteriormente, porém, deu a entender que temia represálias políticas.\n[…]\nDesde então, Quino ainda desenhou Mafalda algumas poucas vezes, principalmente para promover campanhas sobre os Direitos Humanos. Por exemplo, em 1976 ele fez um pôster para a UNICEF ilustrando a Declaração Universal dos Direitos da Criança. Em 1979 foi lançado um filme da personagem, com direção de Carlos Márquez.\n[…]\nMafalda 8 (1973)\n[…]\nEl Mundo de Mafalda (1981) (desenho animado)\n[…]\nApesar de Quino ser contrário à ideia de uma adaptação ao cinema ou teatro, duas séries de curtas animados com Mafalda foram produzidas. A primeira, uma série de 260 filmes de 90 segundos, foi produzida por Daniel Mallo para a televisão argentina a partir de 1972. Estes foram adaptados para um longa-metragem por Carlos Márquez em 1979 e lançado em 1981. Permanece relativamente desconhecido.\n[…]\nEm 1993, o cineasta cubano Juan Padrón, um amigo próximo de Quino, dirigiu 104 curtas-metragens animados de Mafalda, apoiados por produtores espanhóis.\n[…]\nEm 2024, uma série animada de Mafalda exclusiva para a Netflix foi anunciada, será escrita pelo diretor Juan José Campanella.==Referências==",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Turma do Pererê",
+      "descricao": "Revista em quadrinhos de Ziraldo protagonizada por um saci, publicada nos anos 1960"
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Ziraldo lançou a revista da Turma do Pererê, estrelada por um saci da mata brasileira, em que década?",
+    "resposta": "Década de 1960",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Turma_do_Pererê",
+      "https://pt.wikipedia.org/wiki/Ziraldo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Turma_do_Pererê",
+        "situacao": "ok",
+        "texto": "A Turma do Pererê é uma série de histórias em quadrinhos brasileira criada pelo autor e cartunista Ziraldo. Foi publicada primeiramente em cartuns em 1959 nas páginas da revista O Cruzeiro. Seus personagens foram criados em 1958. Foi a primeira revista brasileira em quadrinhos que era totalmente colorida.\n[…]\nSegundo Ziraldo em sua autobiografia, \"o Pererê, no dizer de Moacy Cirne, era um dos símbolos da época. Um tempo em que se acreditava que, pelas idéias, poderíamos mudar nossa história\". As histórias se passavam na floresta fictícia brasileira \"Mata do Fundão\".\n[…]\nA revista deu início no começo da década de 1960 sob o nome de Pererê; quando começou a ser publicada mensalmente a partir de outubro de 1960 e durou até abril de 1964, por causa do regime militar na época que baniu todas as revistas das bancas. Os personagens conquistaram rapidamente sucesso entre o público brasileiro o que permitiu que fossem publicadas 43 edições durante sua primeira série. A tiragem, em média, foi de 120 mil exemplares.\n[…]\nDesde então os quadrinhos do Pererê passaram a ser apenas republicados em almanaques nos demais anos, com algumas poucas histórias inéditas dentro deles. Até que em 1980, Ziraldo dedicou-se às histórias do Menino Maluquinho.\n[…]\nQuiquica e Pimentel - Um casal de joão-de-barro que moram na Mata do Fundão e são amigos da Turma do Pererê.\n[…]\nOs personagens da Turma do Pererê frequentemente são referenciados em filmes e desenhos baseados nos personagens de Ziraldo. No filme Menino Maluquinho - O Filme ocorre uma cena em que Maluquinho compra uma revista do Pererê em uma banca de jornais. No desenho Chapeuzinho de Todas as Cores a cada episódio sempre aparece um pôster diferente no quarto da Chapeuzinho mostrando um personagem da Turma do Pererê.[carece de fontes]?"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ziraldo",
+        "situacao": "ok",
+        "texto": "Ziraldo Alves Pinto (Caratinga, 24 de outubro de 1932 – Rio de Janeiro, 6 de abril de 2024) foi um cartunista, chargista, pintor, escritor, dramaturgo, cartazista, caricaturista, poeta, cronista, desenhista, apresentador, humorista, advogado e jornalista brasileiro.\n[…]\nEm 1960, lançou a primeira revista em quadrinhos brasileira feita por um só autor, A Turma do Pererê, que também foi a primeira história em quadrinhos a cores totalmente produzida no Brasil. Embora tenha alcançado uma das maiores tiragens da época, Turma do Pererê foi cancelada em 1964, logo após o início do regime militar no Brasil. Nos anos 1970, a Editora Abril relançou a revista, desta vez, porém, sem o sucesso inicial.\n[…]\nA revista da Turma do Pererê teve outras passagens pelas bancas numa edição encadernada pela Editora Primor no ano de 1986 e em formato de almanaque pela Editora Abril na década de 1990.\n[…]\nEm 1960 recebeu o \"Nobel\" Internacional de Humor no 32º Salão Internacional de Caricaturas de Bruxelas e também o prêmio Merghantealler, principal premiação da imprensa livre da América Latina.\n[…]\nEm 1999 lançou a revista Bundas\", uma publicação de humor sobre o cotidiano que faz uma brincadeira com a revista Caras, esta voltada para o dia a dia de festas e ostentação da elite brasileira. Ziraldo foi também o fundador da revista \"A Palavra\" em 1999.\n[…]\nZiraldo foi homenageado por escolas de samba e afirmou que essa é a maior homenagem que um brasileiro pode receber. No carnaval de São Paulo, foi a Nenê de Vila Matilde em 2003 que celebrou a trajetória do artista. Na Sapucaí, Ziraldo foi enredo da Tradição em 2012.\n[…]\nZiraldo foi fumante durante 40 anos, mas conseguiu abandonar o vício.\n[…]\nA Turma do Pererê (1959 – 1976)\n[…]\nZiraldo no Instagram\n[…]\nZiraldo on Google Cultural Institute\n[…]\nZiraldo no IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "O Pasquim",
+      "descricao": "Semanário carioca de humor e crítica política que reuniu cartunistas como Jaguar, Ziraldo e Millôr Fernandes"
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O Pasquim, jornal de humor que reuniu Jaguar, Ziraldo e Millôr Fernandes em plena ditadura, foi lançado no Rio em que ano?",
+    "resposta": "1969",
+    "distratores": [
+      "1964",
+      "1974",
+      "1979"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/O_Pasquim"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Pasquim",
+        "situacao": "ok",
+        "texto": "O Pasquim foi um semanário alternativo brasileiro, de característica paradoxal, editado entre 26 de junho de 1969 e 11 de novembro de 1991, reconhecido pelo diálogo entre o cenário da contracultura da década de 1960 e por seu papel de oposição ao regime militar.\n[…]\nCom o tempo figuras de destaque na imprensa brasileira, como Ziraldo, Millôr Fernandes, Manoel \"Ciribelli\" Braga, Miguel Paiva, Prósperi, Claudius e Fortuna, se juntaram ao time. A primeira edição finalmente saiu em 22 de junho de 1969, com uma tiragem de 28 mil exemplares, em seis meses chegou a 250 mil.\n[…]\nEm 1969, em função de uma entrevista polêmica feita pelo cartunista Jaguar e os jornalistas Tarso de Castro e Sérgio Cabral com a atriz Leila Diniz, foi instaurada a censura prévia aos meios de comunicação no país, a Lei de Imprensa, que ficou popularmente conhecida pelo nome da atriz. Em novembro de 1970, a maior parte da redação de O Pasquim foi presa depois que o jornal publicou uma sátira do célebre quadro de Dom Pedro às margens do Ipiranga (de autoria de Pedro Américo).\n[…]\nMillôr no Pasquim, 1977, Millôr Fernandes\n[…]\nO Pasquim: antologia, Vol. 1, 1969-1971 (números 1 ao 150); Vol. 2, 1972-1973 (números 150 ao 200); Vol. 3, 1973-1974\n[…]\nEm abril de 2006 a editora Desiderata lançou O Pasquim - Antologia - 1969-1971, uma compilação feita por Jaguar e Sérgio Augusto de matérias e entrevistas das 150 primeiras edições do semanário. O livro foi um sucesso, entrando para a lista de mais vendidos daquele ano e motivando os lançamentos de segundo volume em 2007 e terceiro em 2009.\n[…]\nSig, a mascote do jornal, um rato desenhado pelo cartunista Jaguar.\n[…]\n«Pasquim - A Subversão do Humor - TV Câmara»\n[…]\n«Brasileiros em Roma». , por Chico Buarque (setembro de 1969)\n[…]\n«O Pasquim». Hemeroteca Digital Brasileira"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Comics Code Authority",
+      "descricao": "Órgão de autocensura criado pelas editoras americanas de quadrinhos em 1954"
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Criado em 1954 para censurar os quadrinhos americanos, o selo do Comics Code foi abandonado de vez pelas últimas editoras em que década?",
+    "resposta": "Década de 2010",
+    "distratores": [
+      "Década de 1970",
+      "Década de 1980",
+      "Década de 1990"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Comics_Code_Authority"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Comics_Code_Authority",
+        "situacao": "ok",
+        "texto": "The Comics Code Authority (CCA) was a self-regulatory organization formed in 1954 by the Comics Magazine Association of America that, at the height of its influence, served as a de facto censor for most of the U.S. comic book industry. The code was voluntary, as there was no law requiring its use, and it was designed to reassure advertisers, retailers, and parents about the content of comic books.\n[…]\nThe power of the Code began to wane across the 1960s and 1970s, owing in part to changes in the distribution of comic books, the rise of underground comix, and the emergence of graphic novels and other adult comics. By 2010, only three major publishers still adhered to it: DC Comics, Archie Comics, and the now defunct Bongo Comics. Bongo broke with the CCA in 2010. DC and Archie followed in January 2011, rendering the code defunct.\n[…]\nBongo Comics discontinued using the Code without any announcements regarding its abandonment in 2010.\n[…]\nThe CMAA, at some point in the 2000s, was managed by the trade-organization management firm the Kellen Company, which ceased its involvement in 2009. In 2010, some publishers, including Archie, placed the seal on their comics without submitting them to the CMAA.\n[…]\nArchie Comics President Mike Pellerito said that the code did not affect his company the way that it did others as \"we aren't about to start stuffing bodies into refrigerators.\" DC Comics announced on January 20, 2011, that it would discontinue participation, adopting a rating system similar to Marvel's. The company noted that it submitted comics for approval through December 2010, but would not say to whom they were submitted.\n[…]\nMotion Picture Production Code\n[…]\nNyberg, Amy Kiste. Seal of Approval: History of the Comics Code. Jackson: University Press of Mississippi, 1998.\n[…]\nOriginal Comics Code\n[…]\nFBI, \"Comics Magazine Association of America, 1960\"\n[…]\nComics Code Authority – on Lambiek Comiclopedia"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Comics_Code_Authority",
+        "situacao": "ok",
+        "texto": "O Comics Code Authority foi criada em 1954 pela Comics Magazine Association of America  (Associação Americana de Revistas em Quadrinhos), como uma alternativa à regulamentação governamental. A CCA permitia que as editoras de quadrinhos americanos se autorregulassem quanto ao conteúdo de suas revistas em quadrinhos. O código era voluntário, pois não havia nenhuma lei que exigisse seu uso, embora al\n[…]\nDurante as décadas de 1980 e 1990, houve um afastamento crescente da Comics Code Authority (CCA). Em 1984, a CCA negou o selo de aprovação para a edição #29 de Swamp Thing, mas a DC Comics decidiu continuar publicando a série sem a aprovação. Algumas séries subsequentes da DC, como Watchmen e The Dark Knight Returns (1986), foram lançadas sem jamais receberem o selo da CCA. Em 1993, o selo adulto Vertigo, também da DC, foi lançado já sem qualquer submissão ao Código.\n[…]\nAbandono e legado\n[…]\nA Bongo Comics deixou de usar o selo da CCA silenciosamente, sem nenhum anúncio oficial, em 2010.\n[…]\nA Comics Magazine Association of America (CMAA), responsável pela CCA, foi gerida por uma firma especializada em organizações comerciais, a Kellen Company, até 2009. Em 2010, algumas editoras, como a Archie Comics, chegaram a estampar o selo em seus quadrinhos sem submetê-los à aprovação da CMAA.\n[…]\nA base para esse código brasileiro incluía tanto o conteúdo do Comics Code original quanto os “Mandamentos das Histórias em Quadrinhos” da própria EBAL, criados por Adolfo Aizen ainda em 1954. Esses mandamentos já haviam sido aplicados, por exemplo, na série inglesa Romeo Brown, onde personagens femininas sensuais ganharam roupas mais comportadas. Mesmo quadrinhos americanos que já haviam passado pelo Comics Code nos EUA podiam ser submetidos a uma nova avaliação pelas editoras brasileiras.\n[…]\nComics Code History: The Seal of Approval\n[…]\nCBLDF Receives Comics Code Authority Seal of Approval\n[…]\nComics Code Lambiek",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "Bidu",
+      "descricao": "Cachorrinho azul criado por Mauricio de Sousa, seu primeiro personagem publicado"
+    },
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "O cãozinho Bidu foi o primeiro personagem que Mauricio de Sousa publicou num jornal. Em que ano isso aconteceu?",
+    "resposta": "1959",
+    "distratores": [
+      "1949",
+      "1966",
+      "1972"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Bidu"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Bidu",
+        "situacao": "ok",
+        "texto": "Bidu é um personagem fictício criado pelo cartunista brasileiro Mauricio de Sousa. É um cão azul, inspirado em um Schnauzer miniatura de origem alemã cor prata, meio azulada (nas primeiras edições, o Bidu era cinza). Foi o primeiro personagem de Maurício de Sousa, publicado em uma tira de jornal pela Folha de S.Paulo em 1959, e depois publicado como revista em quadrinho pela Editora Continental. M\n[…]\nA origem de seu nome provém de uma gíria usada nos anos 1960, significando esperteza. O nome surgiu quando Mauricio fez uma enquete com seus colegas jornalistas da redação da Folha da Tarde, até que um deles deu esta sugestão.\n[…]\nBidu foi dublado pelo próprio Maurício de Sousa no filme Turma da Mônica - O Filme: Uma Aventura no Tempo.\n[…]\nBidu foi o primeiro personagem da Turma da Mônica a estrelar uma revista em quadrinhos pela Editora Continental em 1960.\n[…]\nApós a Mônica ganhar título próprio pela Editora Abril nos anos 70, o personagem passou a ter histórias publicadas em revistas da Turma da Mônica e almanaques de reedições.\n[…]\nEm 2008, Bidu aparece em Turma da Mônica Jovem. Antes desta aparição, alguns leitores pensaram que o Bidu poderia estar morto, já que a revista se passa no futuro, onde a Turma está na adolescência.\n[…]\nEm 2009, foi lançado um álbum, em comemoração aos 50 anos do personagem. A edição conta com uma coletânea de histórias do personagem, incluindo uma HQ inédita em estilo mangá e uma versão facsimile de Bidu #1 da Editora Continental. No mesmo ano, o personagem ganha uma história para o álbum MSP 50, álbum que homenageia os 50 anos de carreira de Mauricio de Sousa, escrita e desenhada por Laerte Coutinho.\n[…]\nBugu é o arqui-inimigo do Bidu. Cão oval e amarelo, teria sido baseado no irmão do Mauricio de Sousa, o que justifica seu bordão \"Alô, Mamãe!\".\n[…]\nBidu é o símbolo da empresa de Maurício, a Maurício de Sousa Produções."
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Mulher-Maravilha",
+      "descricao": "Heroína amazona da DC Comics, também conhecida como Diana Prince."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Antes de partir para o mundo dos homens, a Mulher-Maravilha vivia em qual ilha habitada só por amazonas?",
+    "resposta": "Temiscira (Ilha Paraíso)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Themyscira",
+      "https://en.wikipedia.org/wiki/Wonder_Woman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Themyscira",
+        "situacao": "desambiguacao",
+        "texto": "Themiscyra may refer to:\n\nThemiscyra (Pontus), an ancient Greek town, the home of the legendary Amazons\nThemyscira (DC Comics), the fictional island home of DC Comics' Wonder Woman and her fellow Amazons\nThemiscyra Plain, an ancient plain located in modern-day Turkey\nThemiscyra (moth) or Lactura, a genus of ermine moths"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Wonder_Woman",
+        "situacao": "ok",
+        "texto": "Wonder Woman is a superheroine appearing in American comic books published by DC Comics. The character first appeared in All Star Comics #8, published October 21, 1941, with her first feature in Sensation Comics #1 in January 1942. She was created by the American psychologist and writer William Moulton Marston (pen name: Charles Moulton), and artist Harry G. Peter in 1941.\n[…]\nWonder Woman's Amazon training gave her limited telepathy, profound scientific knowledge, and the ability to speak every language – even caveman and Martian languages.\n[…]\nThe tiara allows Wonder Woman to be invulnerable from telepathic attacks, as well as allowing her to telepathically contact people such as the Amazons back on Themyscira using the power of the red star ruby in its center. As a temporary inductee into the Star Sapphires, Wonder Woman gained access to the violet power ring of love. This ring allowed her to alter her costume at will, create solid-light energy constructs, and reveal a person's true love to them.\n[…]\nBut under the new 1987 re-boot of the title, under the editorship of Karen Berger, and with the writing and art of George Perez at the helm of the book, the same-sex appreciation by Wonder Woman and the Amazons was more than hinted-at and this was established quickly in the new run of the title.\n[…]\nWonder Woman is suggested as being queer or bisexual, as she and another Amazon, Io, had reciprocal feelings for each other. Grant Morrison's 2016 comic Wonder Woman: Earth One, which exists parallel to the current DC comics Rebirth canon, Diana is depicted being kissed on her right cheek by a blonde woman who has put her left arm around Diana.\n[…]\nDaniels, Les; Kidd, Chip (2000). Wonder Woman: A Complete History. Chronicle Books. ISBN 0811831213.\n[…]\nHeld, Jacob M., ed. (2017). Wonder Woman and Philosophy: The Amazonian Mystique. Wiley-Blackwell. ISBN 978-1119280750."
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Homem de Ferro",
+      "descricao": "Super-herói da Marvel, identidade do milionário Tony Stark, estreou em 1963"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Na origem do Homem de Ferro, publicada em 1963, o milionário Tony Stark é ferido e capturado em qual país asiático em guerra?",
+    "resposta": "Vietnã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Iron_Man"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Iron_Man",
+        "situacao": "ok",
+        "texto": "Iron Man is a superhero appearing in American comic books published by Marvel Comics. Co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby, the character first appeared in Tales of Suspense #39 in 1962 (cover dated March 1963) and received his own title with Iron Man #1 in 1968. Shortly after his creation, Iron Man became a f\n[…]\nIron Man is the superhero persona of Anthony Edward \"Tony\" Stark, a businessman and engineer who runs the weapons manufacturing company Stark Industries. When Stark was captured in a war zone and sustained a severe heart wound, he built his Iron Man armor and escaped his captors. Iron Man's suits of armor grant him superhuman strength, flight, energy projection, and other abilities. The character was created in response to the Vietnam War as Lee's attempt to create a likeable pro-war character.\n[…]\nFor the first five years of publication, Iron Man represented the United States in Cold War allegories. Growing opposition to the American involvement in Vietnam prompted a shift in Iron Man's characterization, which was part of a larger push by Marvel in the late 1960s to avoid Cold War politics. Over the years, the letters to the editor column in several issues saw extensive political debate.\n[…]\nStark instead builds a suit of armor that sustains his heart, becoming Iron Man. The war zone Stark visited was changed retroactively multiple times by different writers to correspond with the character's age, which is explained by a \"sliding scale of continuity\" in which the timing of significant events in the world of Marvel may change. This conflict was the Vietnam War for the first decades of Iron Man's publication history.\n[…]\nIron Man at Marvel.com\n[…]\nIron Man (Tony Stark) at the Comic Book DB (archived from the original)\n[…]\nTony Stark on Marvel Database, a Marvel Comics wiki"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Homem_de_Ferro",
+        "situacao": "ok",
+        "texto": "Homem de Ferro (no original: Iron Man) é um super-herói que aparece nas histórias em quadrinhos estadunidenses publicadas pela Marvel Comics. Cocriado pelo escritor e editor Stan Lee, desenvolvido pelo roteirista Larry Lieber e desenhado pelos artistas Don Heck e Jack Kirby, o personagem apareceu pela primeira vez em Tales of Suspense #39 em 1962 (capa datada de março de 1963) e recebeu seu própri\n[…]\nO personagem foi criado em resposta à Guerra do Vietnã como uma tentativa de Lee de criar um personagem simpático e pró-guerra. Desde sua criação, o Homem de Ferro tem sido usado para explorar temas políticos, com as primeiras histórias do Homem de Ferro sendo ambientadas na Guerra Fria. O papel do personagem como fabricante de armas provou ser controverso, e a Marvel se afastou da geopolítica na década de 1970.\n[…]\nNa versão original, durante a guerra do Vietnã, o inventor e empresário Tony Stark foi vítima de uma explosão de granada. Stark sobreviveu à explosão mas estilhaços do explosivo se alojaram próximo ao seu coração, ameaçando sua vida. Ele foi capturado e levado até o líder Wong Chu. Restavam apenas alguns dias de vida para o americano, e Wong Chu o forçou a criar uma poderosa arma. Tony não criou uma arma e sim algo que o mantivesse vivo e permitisse derrotar os captores.\n[…]\nAinda na versão original, Tony Stark colaborava com as forças armadas americanas, desenvolvendo armas e máquinas com o objetivo de usá-las na Guerra Fria. Seus inimigos frequentes eram os comunistas (russos, asiáticos ou latino americanos: pessoas que defendiam o comunismo/socialismo). Enfrentavam o Homem de Ferro rivais tecnológicos como o Dínamo Vermelho (ou Escarlate) e o primeiro Homem de Titânio. Ou espiões especiais como a Viúva Negra e o Espião Mestre.\n[…]\nMonge de Ferro\n[…]\nHomem de Titânio\n[…]\nHomem de ferro será um personagem jogável no futuro jogo Marvel Rivals (2024)\n[…]\nHomem de Ferro em Marvel.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Demolidor",
+      "descricao": "Super-herói cego da Marvel, identidade do advogado Matt Murdock"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O advogado cego Matt Murdock, o Demolidor, protege qual bairro de Nova York, onde cresceu?",
+    "resposta": "Hell's Kitchen (Cozinha do Inferno)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)",
+      "https://en.wikipedia.org/wiki/Hell%27s_Kitchen,_Manhattan"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Daredevil_(Marvel_Comics_character)",
+        "situacao": "ok",
+        "texto": "Daredevil is a superhero appearing in American comic books published by Marvel Comics. Created by writer-editor Stan Lee and artist Bill Everett, with some input from Jack Kirby, the character first appeared in Daredevil #1 (April 1964). The basic concept of a blind vigilante was probably inspired by the classical symbol of blind justice; Everett's legally blind daughter, whose hearing was more ac\n[…]\nDaredevil is the alias of Matthew Michael \"Matt\" Murdock, a lawyer from Hell's Kitchen who was blinded in childhood by a chemical accident that enhanced his other senses. Matt hones his physical abilities and superhuman senses under his mentor, the blind and mysterious Stick, becoming an expert in martial arts. Eventually, in ironic contrast to his Catholic upbringing and beliefs, Matt dons a devil-like costume and takes up a dual life of fighting against the criminal underworld in New York City.\n[…]\nThe character debuted in Marvel Comics' Daredevil #1 (cover date April 1964), created by writer-editor Lee and artist Everett. The original costume design was a combination of black, yellow, and red, reminiscent of acrobat tights. The first issue covered the character's origins as well as the murder of his father, boxer \"Battling Jack\" Murdock, who raised young Matthew Michael Murdock in the Hell's Kitchen neighborhood of Manhattan, New York City.\n[…]\nMatthew Murdock is born in Hell's Kitchen, a working-class Irish-American district of New York City. Suffering from post-partum depression, his mother, Maggie, abandons the family and becomes a nun. His father, Jack Murdock, is a struggling professional boxer. Matt's father is loving but controlling and over-protective, and physically abusive on one instance.\n[…]\nIn the original comics, the characters were even implied to be the pet turtles of Matt Murdock, who mutated as a result of the same accident that gave him superpowers."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Hell%27s_Kitchen,_Manhattan",
+        "situacao": "ok",
+        "texto": "Hell's Kitchen—also known as Clinton, or Midtown West on real estate listings—is a neighborhood on the West Side of Midtown Manhattan in New York City, New York, United States. It is generally bordered by 34th Street (or 41st Street) to the south, 59th Street to the north, Eighth Avenue to the east, and the Hudson River to the west.\n[…]\nIn part to qualify for federal aid, New York developed a comprehensive Plan for New York City in 1969–70. While for almost all neighborhoods, the master plan contained few proposals, it was very explicit about the bright future of Hell's Kitchen.\n[…]\nHell's Kitchen is served by four New York City Fire Department (FDNY) fire stations:\n[…]\nThe New York City Department of Education operates the following public elementary schools in Hell's Kitchen as part of Community School District 2:\n[…]\nHell's Kitchen is bounded on the east by the New York City Subway's IND Eighth Avenue Line (A, ​C, and ​E trains). The MTA built the 7 Subway Extension (7 and <7>​ trains) for the aforementioned Hudson Yards development. The extension to 34th Street–Hudson Yards opened on September 13, 2015, making the IRT Flushing Line the westernmost New York City Subway line within Midtown.\n[…]\nThe Marvel superhero Matt Murdock / Daredevil was born and raised in Hell's Kitchen; further, most of the comic's run takes place in the area.\n[…]\nRoute 66 (1960–63), TV show – Buz Murdock, one of the lead characters, grew up in Hell's Kitchen.\n[…]\nDaredevil and Daredevil: Born Again, adaptations of the comic series and character of the same name, are set in Hell's Kitchen. Matt Murdock's alter ego as a secretive and intimidating vigilante is first known to the public and various crime organizations as \"The Man in Black\" and later \"The Devil of Hell's Kitchen\" before his official branding as \"Daredevil\".\n[…]\nHell's Kitchen Neighborhood Association"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Demolidor",
+        "situacao": "ok",
+        "texto": "O Demolidor (no original: Daredevil) é um personagem fictício que aparece nas histórias em quadrinhos estadunidenses publicadas pela Marvel Comics. Criado pelo escritor e editor Stan Lee e pelo artista Bill Everett, com algumas contribuições de Jack Kirby, o personagem apareceu pela primeira vez em Daredevil #1 (abril de 1964).\n[…]\nDemolidor é o pseudônimo de Matthew Michael \"Matt\" Murdock, um advogado de Hell's Kitchen que ficou cego na infância em um acidente químico que aprimorou seus outros sentidos. Após seu pai, Jack, ser morto por gângsteres, Matt aprimora suas habilidades físicas e sentidos sobre-humanos sob a tutela de seu mentor, o cego e misterioso Stick, tornando-se um especialista em artes marciais.\n[…]\nO personagem estreou nem Daredevil #1, da Marvel Comics (data de capa: abril de 1964), criada pelo escritor e editor Stan Lee e pelo artista Bill Everett. O figurino original era uma combinação de preto, amarelo e vermelho, lembrando as calças justas de acrobata. A primeira edição abordou as origens do personagem, bem como o assassinato de seu pai, o boxeador \"Battling Jack\" Murdock, que criou o jovem Matthew Michael Murdock no bairro de Hell's Kitchen, em Manhattan, Nova York.\n[…]\nAssumiu o uniforme e o codinome de Demolidor para vingar seu pai, Jonathan \"Jack\" Murdock, apelidado de \"O Batalhador\", que fora um boxeador em decadência e morto ao recusar-se a \"entregar\" uma luta. Adulto, Matt tem vida dupla: durante o dia, é um simples advogado e, à noite, vigia as ruas de Hell's Kitchen, bairro da Cidade de Nova York. É avesso a participar de grupos de heróis, mas presta assessoria jurídica a muitos deles (como o Quarteto Fantástico).\n[…]\n(Matt Murdock é o advogado do Justiceiro) e Marvel vs. Capcom 3: Fate of Two Worlds (no final de Chris Redfield, Matt é o advogado de acusação contra Albert Wesker)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Tio Patinhas",
+      "descricao": "Pato bilionário e avarento da Disney, tio do Pato Donald"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O Tio Patinhas ganhou sua primeira moeda engraxando sapatos ainda menino, no país onde nasceu. Que país é esse?",
+    "resposta": "Escócia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scrooge_McDuck"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Scrooge_McDuck",
+        "situacao": "ok",
+        "texto": "Scrooge McDuck (occasionally stylized as $crooge McDuck) is a cartoon character created in 1947 for The Walt Disney Company by Carl Barks. Appearing in Disney comics, Scrooge is a Scottish-born American anthropomorphic white duck. Like his nephew, Donald Duck, he has a yellow-orange bill, legs, and webbed feet. He typically wears a red or blue frock coat, a black top hat, pince-nez glasses, and sp\n[…]\nIn 2014, composer Tuomas Holopainen of Nightwish released a conceptual album based on the book, The Life and Times of Scrooge McDuck. The album is titled Music Inspired by the Life and Times of Scrooge. Don Rosa illustrated the cover artwork for the album.\n[…]\nSeveral plans also existed to introduce Scrooge in the Disneyland TV series n the 1950s, but none of the proposed episodes ultimately ended being produced. Al Bertino and Dave Detiege’s pitched episode “Around the World with Donald Duck” would have included a trip to Scrooge’s Castle McDuck in Scotland.\n[…]\nScrooge's first appearance in animated form (save for a brief Mickey Mouse Club television series cameo) ultimately came in Disney's 1967 theatrical short Scrooge McDuck and Money (voiced by Bill Thompson), in which he teaches his nephews basic financial tips.\n[…]\nIn 2015, Scrooge was seen in the Mickey Mouse short \"Goofy's First Love\", where Mickey and Donald are trying to help Goofy find his love. In the 2016 Mickey Mouse Christmas special, \"Duck the Halls\", after Young's death, John Kassir took over voicing Scrooge McDuck, however he later tweeted that he would not be reprising his role in the reboot. Kassir continues to voice the character in subsequent appearances in this series.\n[…]\nClan McDuck and the Duck family\n[…]\nThe Life and Times of Scrooge McDuck, by Don Rosa\n[…]\nMusic Inspired by the Life and Times of Scrooge\n[…]\nScrooge McDuck and Money (1967) – Theatrical film\n[…]\nScrooge McDuck  at Inducks\n[…]\nMarkstein, Donald D. \"Scrooge McDuck\". Toonopedia."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tio_Patinhas",
+        "situacao": "ok",
+        "texto": "Patinhas (Patinhas McPato ou Patinhas McPatinhas no Brasil e Scrooge McDuck na versão original dos EUA), comumente chamado de Tio Patinhas por seu sobrinho Pato Donald e seus sobrinhos-netos Huguinho, Zezinho e Luisinho, é uma personagem americana de ficção criada pelo cartunista Carl Barks, um pato antropomórfico introduzido na banda desenhada Disney em dezembro de 1947.\n[…]\nA idade do Tio Patinhas nunca foi especificada, embora, de acordo com Don Rosa, ele nasceu na Escócia em 1867 e ganhou sua Moedinha Número Um, exatamente dez anos depois. Os episódios de DuckTales (e em muitos quadrinhos europeus) mostram um Patinhas que veio da Escócia no século XIX, mas estava claramente familiarizado com todas as tecnologias e amenidades da década de 1980.\n[…]\nNasceu em 1867 em Glasgow, Escócia, filho de Fergus McDuck e Donilda O'Pata. Barks diz que Patinhas parece ser o renascimento do Capitão P.A. Tinhas. Trabalhando como engraxate, Patinhas ganhou sua primeira moeda de 10 centavos (a famosa Moedinha Número 1) quando tinha 10 anos de idade, em 1877. Essa que viria a se tornar seu precioso amuleto da sorte. Três anos depois (1880), ele partiu para a América. Depois de muitas aventuras finalmente chegou no Klondike, em 1898.\n[…]\nNo episódio \"A Moedinha Número Um\", Patinhas acredita que seu temperamento melhorou devido os sobrinhos e Patrícia (a neta de sua empregada, que veio morar em sua mansão), dizendo que \"pela primeira vez desde que eu deixei a Escócia, eu tenho uma família\". Embora Patinhas esteja longe de ser cruel nos quadrinhos, ele raramente é tão sentimental. Enquanto ainda procura por tesouros em DuckTales, muitos episódios se concentram em tentativas de frustrar os vilões.\n[…]\nPorcolino Leitão --- Agiota com quem Patinhas teve a primeira e única dívida.\n[…]\nInglês: Uncle Scrooge McDuck\n[…]\n«Tio Patinhas» (em inglês). Inducks\n[…]\n«Esquiloscans: Tio Patinhas»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Asterix",
+      "descricao": "Guerreiro gaulês baixinho criado por René Goscinny e Albert Uderzo em 1959"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "No ano cinquenta antes de Cristo, a aldeia de Asterix resiste aos romanos em qual região da atual França?",
+    "resposta": "Bretanha (Armórica)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Asterix"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Asterix",
+        "situacao": "ok",
+        "texto": "Asterix (French: Astérix or Astérix le Gaulois [asteʁiks lə ɡolwa], \"Asterix the Gaul\"; also known as Asterix and Obelix in some adaptations or The Adventures of Asterix) is a French comic album series about a Gaulish village which, thanks to a magic potion that enhances strength, resists the forces of Julius Caesar's Roman Republic Army in the time after the Gallic Wars. Many adventures take the \n[…]\nThe series follows the adventures of a village of Gauls as they resist Roman occupation in 50 BC. They do so using a magic potion, brewed by their druid Getafix (Panoramix in the French version), which temporarily gives the recipient superhuman strength. The protagonists, the title character Asterix and his friend Obelix, have various adventures.\n[…]\nThe main setting for the series is an unnamed coastal village, rumoured to be inspired by Erquy in Armorica (present-day Brittany/Normandy), a province of Gaul (modern France), in the year 50 BC. Julius Caesar has conquered nearly all of Gaul for the Roman Republic during the Gallic Wars. The little Armorican village, however, has held out in this alternate history because the villagers can gain temporary superhuman strength by drinking a magic potion brewed by the village druid, Getafix.\n[…]\nList of Asterix characters\n[…]\nEnglish translations of Asterix\n[…]\nList of Asterix games\n[…]\nList of Asterix volumes\n[…]\nTosina Fernández, Luis J. \"Creatividad paremiológica en las traducciones al castellano de Astérix\" Proverbium vol. 38, 2021, pp. 361–376.\n[…]\nAsterix the Gaul[link removed] at Don Markstein's Toonopedia, from the original on 6 April 2012.\n[…]\nAsterix around the World – The many languages\n[…]\nAlea Jacta Est (Asterix for grown-ups) Each Asterix book is examined in detail\n[…]\nLes allusions culturelles dans Astérix – Cultural allusions (in French)\n[…]\nThe Asterix Annotations – album-by-album explanations of all the historical references and obscure in-jokes"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Asterix",
+        "situacao": "ok",
+        "texto": "Asterix (no Brasil) ou Astérix (em Portugal e outros países lusófonos) (em francês:  Astérix), é uma série de histórias em quadrinhos criada na França por René Goscinny e  Albert Uderzo no ano de 1959, baseada no povo gaulês e em grande parte no tempo do seu grande chefe guerreiro Vercingetorix. Após o falecimento de Goscinny em 1977, Uderzo prosseguiu o trabalho.\n[…]\nEste é o prólogo de todas as edições dos livros de Asterix, o gaulês: \"Estamos no ano 50 antes de Cristo. Toda a Gália foi ocupada pelos romanos ... Toda? Não! Uma aldeia povoada por irredutíveis gauleses ainda resiste ao invasor. E a vida não é nada fácil para as guarnições de legionários romanos nos campos fortificados de Babaorum, Aquarium, Laudanum e Petibonum...\".\n[…]\nAsterix reside com seus amigos em uma pequena aldeia gaulesa situada em uma península na Armórica, ao norte da antiga Gália. Para resistir ao domínio romano, os aldeões contam com a ajuda de uma poção mágica que lhes dá uma força sobre-humana, preparada pelo druida Panoramix. O poder da poção é temporário. A exceção é Obelix, que, por acidente, caiu dentro de um caldeirão cheio da poção quando ainda era um bebê, e daí adquiriu permanentemente a superforça.\n[…]\n■ 41 Astérix na Lusitânia, Editions Albert René, Paris, França, 2025    Argumento : Fabcaro  - Desenho : Didier Conrad\n[…]\nAstérix, Obélix e Panoramix mantiveram os nomes por que já eram conhecidos em Portugal, mas grande parte da aldeia gaulesa mudou mesmo de nome, adaptando o \"jogo de palavras\" francês para o português.\n[…]\nAlém de manter Astérix, Obélix, Panoramix e Ideafix da tradução portuguesa, o chefe da aldeia virou Abracurcix, e Agecanonix, Veteranix. Os acampamentos romanos tem o mesmo nome do francês. Algumas das piadas ganharam versão regional — em Asterix e o Caldeirão, o ator Eleonoradus (piada com Eleonora Duse) virou Toniacarrerus (Tônia Carrero).\n[…]\nAstérix",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "René Goscinny",
+      "descricao": "Roteirista francês de quadrinhos, cocriador de Asterix e roteirista de Lucky Luke"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Nascido em Paris, René Goscinny, o roteirista de Asterix, passou a infância e a juventude em qual capital sul-americana?",
+    "resposta": "Buenos Aires",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/René_Goscinny"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/René_Goscinny",
+        "situacao": "ok",
+        "texto": "René Goscinny (French: [ʁəne ɡɔsini]; Polish: [ɡɔɕˈt͡ɕin.nɘ̟] ; 14 August 1926 – 5 November 1977) was a French comic editor and writer, who created the Asterix comic book series with illustrator Albert Uderzo. Born in France to a Jewish family from Poland, he spent his childhood in Argentina where he attended French schools and later lived in the United States for a short period of time. There he \n[…]\nStanisław and Anna had met in Paris and married in 1919. When René was two, the Gościnnys moved to Buenos Aires, Argentina, where his father had been hired as a chemical engineer. René had a happy childhood in Buenos Aires and studied in French-language schools there. He was often the class clown, probably to compensate for a natural shyness. He started drawing very early on, inspired by the illustrated stories which he enjoyed reading. He used to spend his summer holidays in Piriápolis, Uruguay.\n[…]\nRené Goscinny called Henri Gruel to constitute the technical and artistic teams of the Idéfix studios. The latter directed several animated short films and was responsible for the sound effects of Asterix the Gaul and Asterix and Cleopatra, as well as the two productions by Pierre Tchernia scripted by Goscinny, Le Viager and Les Gaspards.\n[…]\nTalent was lacking and, at Goscinny's request, Henri Gruel sent his friend Serge Caillet, production director on live-action films, to the Paris Chamber of Commerce and Industry to demand the opening of an animated cinema section to supply the studios with young artists, who thus offer employment to students as soon as they leave school. Eventually, they managed to produce their first feature film, The Twelve Tasks of Asterix, with Halas and Batchelor and Dargaud.\n[…]\nGoscinny official site (in French)\n[…]\nAstérix official site\n[…]\nGoscinny biography on Asterix International!\n[…]\nGoscinny biography on Lambiek Comiclopedia\n[…]\nRené Goscinny at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ren%C3%A9_Goscinny",
+        "situacao": "ok",
+        "texto": "René Goscinny (Paris, 14 de agosto de 1926 — Paris, 5 de novembro de 1977) foi um escritor de história em quadrinhos e cineasta francês. Ele é mais conhecido por ser co-criador de personagens como Asterix, Lucky Luke, Iznogoud, Humpá-Pá e O Pequeno Nicolau.\n[…]\nGoscinny, nasceu em Paris, França, em 14 de agosto de 1926, filho de imigrantes judeus poloneses (sua mãe nasceu em Chodorków, atual Ucrânia). Mudou com os seus país para a Argentina em 1928, com dois anos de idade e passou a sua infância em Buenos Aires. O seu pai era professor de Matemática na escola que Goscinny frequentou, mostrando uma notável aptidão para as artes. Muitos de seus primeiros trabalhos foram publicados nas revistas da escola, como Notre Voix e Quartier Latin.\n[…]\nCerca de um ano depois, o seu trabalho tinha melhorado a tal ponto que atraiu a atenção de Georges Troisfontaines, o director da World Press Agency em Bruxelas, na Bélgica. Goscinny foi para a Bélgica encontrar-se com ele acabando também por conhecer o director de arte da Agência Dupuis, Jean-Michel Charlier, acabando por se estabeleceu em Paris, onde fez alguns trabalhos para a Dupuis vindo mais tarde, em 1951, a assumir a gestão do Gabinete de Imprensa de Paris da World Press Agency.\n[…]\nEm 2020, ganhou uma estátua em sua homenagem localizada em Paris.\n[…]\na. ↑ Como parte de uma equipe de roteiristas criando piadas.\n[…]\nb. ↑ As séries Lucky Luke, Modeste et Pompon, Asterix e Iznogoud foram continuadas por outros escritores após a morte de Goscinny.\n[…]\nGoscinny official site (em francês)\n[…]\nAstérix official site\n[…]\nGoscinny biography - Asterix International!\n[…]\nGoscinny biography - Lambiek Comiclopedia\n[…]\nRené Goscinny no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Angelo Agostini",
+      "descricao": "Desenhista pioneiro dos quadrinhos no Brasil, autor de As Aventuras de Nhô Quim, de 1869"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Angelo Agostini, pioneiro dos quadrinhos brasileiros no século dezenove, nasceu em qual país europeu?",
+    "resposta": "Itália",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Angelo_Agostini"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Angelo_Agostini",
+        "situacao": "ok",
+        "texto": "Angelo Agostini (Vercelli, 8 de abril de 1843 — Rio de Janeiro, 28 de janeiro de 1910) foi um desenhista, ilustrador, jornalista e caricaturista ítalo-brasileiro que é considerado o artista gráfico mais importante do Segundo Reinado e um dos pioneiros das histórias em quadrinhos em escala mundial.\n[…]\nSua vida pessoal foi tão turbulenta quanto sua carreira política, marcada por um relacionamento com a pintora Abigail de Andrade que escandalizou a sociedade da época e o forçou a um breve exílio na Europa. Seu legado é celebrado anualmente com o Prêmio Angelo Agostini e o Dia do Quadrinho Nacional, estabelecido na data de sua publicação pioneira.\n[…]\nAngelo Agostini faleceu no Rio de Janeiro em 28 de janeiro de 1910.\n[…]\nAgostini é uma figura central para a história da imprensa, da arte e das histórias em quadrinhos no Brasil. Sua obra é um espelho crítico de um período de profundas transformações no país. Ele não apenas documentou, mas influenciou ativamente os debates sobre a abolição e a República. Como artista, desenvolveu uma linguagem gráfica única e foi pioneiro na criação de narrativas sequenciais que são a base dos quadrinhos modernos.\n[…]\nO legado de Angelo Agostini é celebrado de duas maneiras principais no Brasil:\n[…]\nPrêmio Angelo Agostini: Criado em 1985 pela mesma AQC-SP, é um dos mais importantes e tradicionais prêmios dedicados aos quadrinhos no Brasil. Anualmente, premia os melhores artistas, roteiristas, publicações e personalidades da área, mantendo vivo o nome de seu patrono.\n[…]\nHistória em quadrinhos no Brasil\n[…]\nImprensa no Brasil\n[…]\nEichler Cardoso, Athos; Agostini, Angelo (2002). As aventuras de Nhô-Quim & Zé Caipora: os primeiros quadrinhos brasileiros 1869-1883. [S.l.]: Senado Federal. 192 páginas\n[…]\nAngelo Agostini em Dezenovevinte - Arte Brasileira do Século XIX e início do XX"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Graúna",
+      "descricao": "Personagem do cartunista Henfil, uma ave nordestina que vive na caatinga com Zeferino e o bode Orelana"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A Graúna, de Henfil, vive com o amigo Zeferino e o bode Orelana em qual região brasileira?",
+    "resposta": "Sertão nordestino",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Henfil",
+      "https://en.wikipedia.org/wiki/Henfil"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Henfil",
+        "situacao": "ok",
+        "texto": "Henrique de Souza Filho, universalmente conhecido como Henfil (Ribeirão das Neves, 5 de fevereiro de 1944 – Rio de Janeiro, 4 de janeiro de 1988), foi um influente cartunista, quadrinista, jornalista, escritor e ativista brasileiro. Reconhecido por seu humor ácido, crítico e profundamente engajado com as questões sociais e políticas do Brasil, especialmente durante a ditadura militar, Henfil deixo\n[…]\nA revista se tornou um fenômeno cultural, apresentando ao grande público personagens que se tornariam ícones da cultura brasileira: os fradinhos Cumprido e Baixim (este último, o mais subversivo e iconoclasta), a engajada e irônica Graúna, o intelectualizado e filosófico Bode Orelana, o estereotipado nordestino Zeferino, e o neurótico e desesperançoso Ubaldo, o Paranoico. Através desses personagens, Henfil criticava a ditadura, a hipocrisia social, a desigualdade e os desmandos do poder.\n[…]\nHenfil é considerado um dos maiores e mais importantes cartunistas da história do Brasil. Sua obra transcendeu o humor, tornando-se um registro histórico e uma ferramenta de resistência cultural e política. Sua coragem em enfrentar a censura e a repressão da ditadura militar inspirou uma geração de artistas e jornalistas. Em 2009, seu único filho, Ivan de Souza, criou o Instituto Henfil, com a missão de preservar, pesquisar e divulgar a obra e a memória do artista.\n[…]\nHenfil na China (Editora Codecri, 1980)\n[…]\nO Melhor da Graúna e do Bode Orelana (Editora Record, 1985)\n[…]\nZeferino, O Nordestino (Editora Record, 1985)\n[…]\nAventuras da Turma da Graúna (c. 1975) - Curta-metragem de animação (participação na criação/roteiro).\n[…]\nHenfil (2017) - Dirigido por Angela Zoé.\n[…]\nHistória em quadrinhos no Brasil\n[…]\nHenfil no IMDb\n[…]\nAcervo Henfil no Instituto Iwa (responsável pelo acervo do Instituto Henfil)\n[…]\nObra de Henfil ajuda a entender ditadura militar e geografia do Nordeste (Matéria do Instituto Claro)\n[…]\nHenfil no Memórias da Ditadura"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Henfil",
+        "situacao": "ok",
+        "texto": "Henrique de Souza Filho (5 February 1944 – 4 January 1988), commonly known as Henfil, was a Brazilian cartoonist, caricaturist, journalist and writer, born in Ribeirão das Neves, Minas Gerais.\n[…]\nHenfil also worked in theater, film, television and literature, but political activism was his hallmark, creating fictional characters that made acerbic criticisms of the Brazilian political institutions of the time. A haemophiliac, Henfil contracted AIDS through a blood transfusion and died as a result of the disease in Rio de Janeiro.\n[…]\nFradim Baixim: (name translates roughly as \"Friar Shorty\") a short friar with a sadistic sense of humor. His gesture \"Top! Top!\" made him Henfil's most famous creation.\n[…]\nGraúna – a caatinga bird and ever critic of the \"wonderful south”\n[…]\nCapitão Zeferino: a northeaster \"cangaceiro”\n[…]\nBode Francisco Orelana: intellectual and defender of the status quo.\n[…]\nHerbert \"Betinho\" de Souza – Henfil's brother.\n[…]\nMedia related to Henfil at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Condorito",
+      "descricao": "Condor trapalhão dos quadrinhos de humor criado pelo cartunista Pepo em 1949"
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "O Condorito, um condor trapalhão criado pelo cartunista Pepo em 1949, é personagem dos quadrinhos de qual país?",
+    "resposta": "Chile",
+    "distratores": [
+      "Argentina",
+      "Peru",
+      "Bolívia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Condorito"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Condorito",
+        "situacao": "ok",
+        "texto": "Condorito (Spanish: [kondoˈɾito], transl. Little Condor) is a Chilean comic book and comic strip series that features an anthropomorphic condor living in a fictitious town named Pelotillehue, a typical small Chilean provincial town. He is meant to be a representation of the Chilean people.\n[…]\nIn order for readers in other Spanish-speaking countries to understand the jokes, many of them had to be modified: excessively marked Chileanisms were removed and certain references to Chile were stopped.\n[…]\nIn the film, while the Disney characters are represented as humorous versions of charros, gauchos, etc., Chile was represented as Pedro, a small airplane engaged in his very first flight, whose attempt to fly over the Andes to pick up air mail from Mendoza is humorously depicted. Pepo created Condorito in response to what he perceived as a slight to the image of Chile.\n[…]\nCondorito's following publications were based on a character who came from the countryside driven by the rural-urban migration that lived in Chile during the 1950s; Condorito's personality was that of a joker, witty and mischievous. According to screenwriter Jorge Montealegre, «Condorito's profile in the first cartoons is focused on the Chilean roto [...] where very Chilean institutions are addressed, such as the compadrazgo with Don Chuma and the huacherío through Coné».\n[…]\nCondorito through the 1960s and 1970s held to a conservative perspective on Chile and its society, poking fun at both the new left-wing poets and the hippies. At the first age of the comic, the jokes usually have a very basic context and themes, like African people always represented as primitive cannibals, women as bad drivers or as a jealous wife waiting for her husband to come back from a party, etc."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Condorito",
+        "situacao": "ok",
+        "texto": "Condorito é uma série de tira em quadrinhos chilena protagonizado pelo personagem. Publicado pela primeira vez em 6 de agosto de 1949 e criada pelo cartunista chileno René Ríos Boettiger (Concepción, Chile, 15 de dezembro de 1911 — Santiago, Chile,14 de julho de 2000), conhecido como Pepo. Com o passar dos anos, tornou-se um dos quadrinhos mais populares da América Latina.\n[…]\nA ideia de criar Condorito surgiu a Pepo depois de ver o filme Saludos Amigos (1942), da fábrica da Disney. Nele, o Pato Donald e Pateta fizeram uma viagem simbólica pela América Latina, onde conheceram personagens que deveriam representar os países visitados: Argentina, Brasil, Colômbia, México e Peru. Chile foi representado por um pequeno avião: Pedrito, nome que foi uma homenagem ao então presidente, Pedro Aguirre.\n[…]\nNo filme, o avião de Pedrito tenta cruzar com muita dificuldade a Cordilheira dos Andes para levar o correio até a Argentina. Pepo achou incomum e extremamente pobre a forma como o Chile era representado, então, indignado, começou a trabalhar em um personagem que fosse mais representativo e que encarnasse o chileno comum, no âmbito da campanha de chileno promovida pelos governos radicais (1938-1952). Para isso, inspirou-se no condor-dos-andes, ave que aparece no brasão de armas do Chile.\n[…]\nEntre os dias 1 e 4 de agosto de 2011, foi realizada na cidade chilena de Cumpeo, que faz parte do universo geográfico dos quadrinhos, uma exposição chamada \"Expo Humor\", que apresentou 18 pinturas com quadrinhos de Condorito junto com Carabineiros do Chile. Além das autoridades locais, compareceram Sergio González, um dos cinco cartunistas da revista, além do diretor da revista, Magdalena Aguirre Baeza.\n[…]\nYanez Morales, Luis (2020). Pepo é de Conce. Uma biografia de René Ríos Boettiger, criador de Condorito e o penquista mais famoso do mundo. Hualpén, Concepción: Trama Impresores.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Arlequina",
+      "descricao": "Personagem da DC, psiquiatra que vira parceira e namorada do Coringa"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "A Arlequina, namorada do Coringa, não nasceu nas revistas. Em que tipo de obra ela estreou, em 1992?",
+    "resposta": "Desenho animado do Batman",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Harley_Quinn"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Harley_Quinn",
+        "situacao": "ok",
+        "texto": "Harley Quinn (Dr. Harleen Frances Quinzel) is a character appearing in American comic books published by DC Comics. She was created by Paul Dini and Bruce Timm for Batman: The Animated Series as a henchwoman for the Joker, and debuted in the series' 22nd episode, \"Joker's Favor\", on September 11, 1992.\n[…]\nHarley Quinn was created by Paul Dini and Bruce Timm for the 1992 Batman: The Animated Series episode entitled \"Joker's Favor\" while Dini was writing the episode. For the episode, Dini decided to put henchpeople for the title episode character as comic relief to lighten the story, as Dini described as a dark story. Initially written as an animated equivalent of a walk-on role, Harley Quinn was intended to appear in just one episode.\n[…]\nHarley Quinn first appeared in Batman: The Animated Series (1992–1995), voiced by Arleen Sorkin, who subsequently reprised her role in other DC Animated Universe series, including Superman: The Animated Series (1996–2000), The New Batman Adventures (1997–1999), Static Shock (2000–2004), and Justice League (2001–2004), as well as the film Batman Beyond: Return of the Joker (2000).\n[…]\nHarley Quinn appears in Batman/The Spirit.\n[…]\nHarley Quinn appears in Batman: Rise of Sin Tzu.\n[…]\nHarley Quinn appears in the mobile game Batman: Arkham City Lockdown, a prequel to Arkham City.\n[…]\nHarley Quinn appears in Gotham Knights, voiced by Kari Wahlgren. This version ended her relationship with the Joker and became an informant for Batman, briefly aiding the Gotham Knights before breaking out of Blackgate Penitentiary. She subsequently begins selling neural implants called \"ReQ\", which allegedly help Gotham's citizens with their poor lives but in reality are a way for Harley to mind-control them. After discovering her scheme, the Knights defeat Harley, and she is arrested."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Arlequina",
+        "situacao": "ok",
+        "texto": "Arlequina (Harley Quinn, original em Inglês), cujo nome original é Harleen Frances Quinzel, é uma personagem fictícia da DC Comics que geralmente aparece como inimiga do super-herói Batman no Universo DC. Ela foi criada por Paul Dini e Bruce Timm para a série animada de televisão Batman: A Série Animada, aparecendo pela primeira vez no episódio \"Joker's Favor\" (\"Um Favor para o Coringa\"), que foi \n[…]\nA personagem foi originalmente interpretada por Arleen Sorkin em Batman: A Série Animada e em diversos outros desenhos e filmes animados da DC, apesar de também ter sido interpretada por Tara Strong e Hynden Walch. A primeira atriz a interpreta-lá foi Mia Sara, na série de televisão Birds of Prey. Arlequina estreou nos cinemas em 2016, no filme Esquadrão Suicida, sendo interpretada pela atriz Margot Robbie.\n[…]\nO sucesso e a popularidade de Arlequina em Batman: A Série Animada foi tanto, que a DC Comics a incluiu nas histórias em quadrinhos de Batman. A primeira vez que Arlequina foi retratada nos quadrinhos foi em setembro de 1993, na edição número 12 de The Batman Adventures (Batman - O Desenho da TV). Sua inclusão oficial no Universo DC foi em Batman: Harley Quinn, lançada em outubro de 1999, embora já tivesse aparecido nos Elseworlds Batman: Thrillkiller e Batman: Thrillkiller '62 em 1997.\n[…]\nEntretanto, assim como as histórias em quadrinhos do Coringa, as de Arlequina são mais psicóticas e com menos humor excêntrico do que as da série animada. Apesar de seu comportamento visivelmente mais violento, Harley mostra misericórdia e compaixão de tempos em tempos; ela nomeadamente pára Hera Venenosa de matar Batman, e convencê-la a deixar o herói pendurado amarrado e amordaçado em uma grande estátua. Batman é posteriormente desatado por Batgirl.\n[…]\nHarley Quinn aparece como o protagonista principal em Batman and Harley Quinn, interpretada por Melissa Rauch.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Fantasma",
+      "descricao": "Herói mascarado de roupa roxa criado por Lee Falk em 1936, o espírito que anda"
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Nas tiras de Lee Falk, onde fica o esconderijo do Fantasma, o espírito que anda?",
+    "resposta": "Na Caverna da Caveira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Phantom"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Phantom",
+        "situacao": "ok",
+        "texto": "The Phantom is an American adventure comic strip, first published by Lee Falk in February 1936. The main character, the Phantom, is a fictional costumed crime-fighter who operates from the fictional African country of Bangalla. The character has been adapted for television, film and video games.\n[…]\nIn 2006, Moonstone published a retcon of the Phantom's origin, \"Legacy\", by Raab and Quinn. Three years later the company reintroduced the series as The Phantom: Ghost Who Walks, beginning with issue 0 (a retelling of the first Phantom's origin). The aim was to make the comic darker, grittier and more realistic, similar to the 1930s stories by Lee Falk and Ray Moore. It updated the Phantom, giving him modern accessories, and introduced a number of supporting characters and villains.\n[…]\nBrazilian publisher RGE and German publisher Bastei produced original Phantom stories for their comic books; in Brazil, the Phantom is known as o Fantasma, and wore a red costume until 1990 due to printing issues that prevented the purple from being properly reproduced.\n[…]\nUnder the name \"Kizilmaske\" and with color covers drawn by Turkish artists, older Lee Falk stories of the Phantom has since appeared in Turkish comic books primarily in black and white.\n[…]\nThe entire run of the Phantom newspaper strip was reprinted in Australia by Frew Publications, and edited versions of most stories have been published in the Scandinavian Phantom comics. In the United States, the following Phantom stories (written by Lee Falk) have been reprinted by Nostalgia Press (NP), Pacific Comics Club (PCC) or Comics Revue (CR):\n[…]\nThe 1986 animated series Defenders of the Earth is a team-up between The Phantom, Mandrake the Magician (another hero by Lee Falk), Lothar, and Flash Gordon.\n[…]\nThe Phantom on IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/O_Fantasma",
+        "situacao": "ok",
+        "texto": "O Fantasma é uma tira de jornal do gênero aventura criada pelo roteirista Lee Falk (também criador do Mandrake) e o desenhista Ray Moore, contando as aventuras de um combatente do crime, mascarado e usando uma roupa característica. O personagem atua em um fictício país africano chamado Bangalla. A série começou a ser publicada em jornais diariamente em 17 de fevereiro de 1936, e aos domingos, como\n[…]\nApós jurar ao crânio do assassino de seu pai que lutaria contra o mal, Christopher começou o legado do Fantasma que passaria de pai para filho. Apelidos para o Fantasma incluem \"O espírito que anda\" e \"O Homem que não pode morrer\".\n[…]\nAo contrário de outros heróis fantasiados da ficção, o Fantasma não tem superpoderes e confia em sua força, inteligência e imortalidade de renome para derrotar seus inimigos. O vigésimo primeiro Fantasma é casado com Diana Palmer; eles se conheceram quando ele estudou nos Estados Unidos e têm dois filhos, Kit e Heloise. Ele tem um lobo treinado, chamado Capeto, e um cavalo chamado Herói. Como os Fantasmas anteriores, ele vive na antiga caverna do crânio.\n[…]\nO Fantasma carrega ainda duas pistolas calibre .45 ACP no seu cinturão de couro preto com uma fivela imitando uma caveira, a sua marca característica.\n[…]\nA RGE publicou duas revistas sobre os heróis da australiana Frew: Em  1950 lançou a revista do Águia Negra dedicada ao Sir Falcon e em 1960, a revista Cavaleiro Fantasma, sobre o Phantom Ranger.\n[…]\nEm 2011, a Editorial Kalaco (também pertencente a Franco de Rosa) publicou uma edição de luxo do \"Casamento do Fantasma\". A edição compila as tiras diárias e dominicais desenhadas por Sy Barry e André LeBlanc, e narrado o casamento de Kit Walker e Diana Palmer, tendo dentre os convidados outros personagens criados por Lee Falk: Mandrake, Lothar e Princesa Narda. A RGE já publicara a história em edição especial no final da década de 70.\n[…]\nThe Return of the Phantom",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Spawn",
+      "descricao": "Anti-herói demoníaco lançado em 1992 pela editora Image Comics"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que desenhista canadense, famoso por seu trabalho no Homem-Aranha, criou o anti-herói Spawn em 1992?",
+    "resposta": "Todd McFarlane",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spawn_(character)",
+      "https://en.wikipedia.org/wiki/Todd_McFarlane"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spawn_(character)",
+        "situacao": "ok",
+        "texto": "Albert Francis \"Al\" Simmons, better known as Spawn, is a fictional antihero appearing in a monthly comic book of the same name published by American company Image Comics, as well as in a number of films, television series, and video game adaptations set in the Image Universe. Created by Todd McFarlane, Spawn first appeared in Spawn #1 (May 1992).\n[…]\nIntercompany crossover was written by Frank Miller with the art of Todd McFarlane. Considered part of Spawn and Miller's Dark Knight universe canon.\n[…]\nGunslinger Spawn was the second new-ongoing series was released in October 2021, written by Todd McFarlane and illustrated by Brett Booth. This series focuses on the adventures of Gunslinger Spawn's after becoming trapped in modern times.\n[…]\nIn December 2022, a third intercompany crossover between Batman and Spawn was published. Though the series could have been released as a mini-series it was ultimately released as a one-shot special. The one-shot was written by Todd McFarlane and artist Greg Capullo.\n[…]\nA series focusing on the young speedster who gained his abilities from being experimented on and first appeared in Gunslinger Spawn. Written by McFarlane and illustrated by Marco Failla.\n[…]\nAn upcoming mini-series about adventures of 1977's Spawn before Al Simmons that inspired from Todd Mcfarlane's original design.\n[…]\nI Saw Spawn\n[…]\nSpawn made his animated debut in the HBO animated series Todd McFarlane's Spawn in which Spawn is voiced by Keith David. The series won two Emmys (one in 1998 and another in 1999) and two Golden Reel Awards (1998/1999).\n[…]\nTodd McFarlane's Spawn: The Video Game (1995) (SNES)\n[…]\nThe Dark Saga by Iced Earth is a concept album based upon the Spawn story. The cover of the album, by Greg Capullo and Todd McFarlane, depicts Spawn himself, though due to legal issues, Iced Earth could not use the names of the characters in the songs."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Todd_McFarlane",
+        "situacao": "ok",
+        "texto": "Todd McFarlane (; born March 16, 1961) is a Canadian comic-book creator, best known for his work as an artist on The Amazing Spider-Man and as the creator, writer, and artist on the superhero horror-fantasy series Spawn, as well as being the current President and a co-founder of Image Comics.\n[…]\nTodd McFarlane produced the album art for Iced Earth's 1996 Spawn-based concept album The Dark Saga and Korn's 1998 third studio album Follow the Leader.\n[…]\nThat same year, McFarlane founded Todd McFarlane Entertainment, a film and animation studio. In collaboration with New Line Cinema, it produced the 1997 Spawn film and a new Spawn movie, planned in 2008. Spawn, while critically panned, was a modest box office success, earning $54.8 million domestically, and almost $33 million worldwide, against a $40 million budget.\n[…]\nTodd McFarlane Entertainment also produced the animated series Todd McFarlane's Spawn, (featuring voice work by actor Keith David) which aired on HBO from 1997 until 1999. Ed Bark of The Dallas Morning News called the series a \"very unpleasant viewing experience\" and asked \"why anyone would want to subject themselves to such a relentlessly grim, gruesome dehumanizing experience.\" Nonetheless, the animated series won a 1998 Primetime Emmy Award for Outstanding Achievement in Animation.\n[…]\nA PlayStation 2 game, McFarlane's Evil Prophecy, was released in 2004 by Konami. In it, players battle creatures based on a line of Todd McFarlane's action figures including classic movie monsters such as Frankenstein's monster and Dracula.\n[…]\nBatman/Spawn (2022)\n[…]\nTodd McFarlane at the Comic Book DB (archived from the original)\n[…]\nTodd McFarlane at IMDb\n[…]\nMcFarlane, Todd (July 26, 2002). \"TONY TWIST APPEAL DENIED: Missouri Court Upholds 2000 Ruling\". Spawn.com. Archived at the Internet Archive."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Spawn",
+        "situacao": "ok",
+        "texto": "Spawn é um super-herói e anti-herói fictício dos quadrinhos, aparecendo em uma revista mensal de HQ do mesmo nome, publicada pela empresa americana Image Comics. Criado por Todd McFarlane, Spawn apareceu pela primeira vez em Spawn #1 (maio de 1992). Também é personagem de uma série animada, um filme e vários jogos eletrônicos.\n[…]\nInicialmente, a arte da revista era feita pelo próprio McFarlane. Posteriormente, porém, este passou a fazer apenas a arte-final, oferecendo os demais trabalhos a Greg Capullo. Anos depois, a produção imagética geral ficou sob a responsabilidade de Angel Medina, período em que Capullo passou a desenhar apenas as capas.\n[…]\nMcFarlane também fundou a McFarlane Productions, que fabrica todos os produtos relacionados ao herói, especialmente bonecos e esculturas reconhecidos por seus grandes detalhamentos.\n[…]\nDepois de certo tempo (e muitas lutas), Spawn entra numa mega saga chamada \"Armagedom\", que serviu, entre outras coisas, para redefinir alguns aspectos do universo do herói. Descobre-se aqui que Katie e Jake, os gêmeos de Wanda, eram na verdade Deus e Satã, transformados em bebês por sua 'mãe' (ambos são irmãos), uma entidade que criou este e outros universos, e os deu a seus filhos para que os moldassem.\n[…]\nMalebólgia - é um demônio fictício criado pelo escritor e desenhista Todd McFarlane para ser o criador e principal inimigo de Spawn. Sua primeira aparição foi em Spawn #1. Na ficção, ao conhecer o recém-chegado ao Inferno Al Simmons, Malebólgia vê que ele sente saudades de sua esposa, e então faz um trato com ele: transformá-lo num soldado do Inferno (ato que só pratica de 50 em 50 anos, pois gasta seu poder sobre o necroplasma). Foi estabelecido um pacto entre dois futuros inimigos.\n[…]\nSpawn - In the Demon's Hand (Sega Dreamcast)\n[…]\nSpawn também aparece em Mortal Kombat 11 como DLC.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Hellboy",
+      "descricao": "Demônio de pele vermelha que combate o sobrenatural, personagem de quadrinhos americano dos anos 1990"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Hellboy, o demônio vermelho que lixa os próprios chifres, foi criado por qual quadrinista americano?",
+    "resposta": "Mike Mignola",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hellboy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hellboy",
+        "situacao": "ok",
+        "texto": "Hellboy is a superpowered paranormal investigator created by writer/artist Mike Mignola and appearing in comic books published by Dark Horse Comics. The character first appeared in San Diego Comic-Con Comics #2 (August 1993), and has since appeared in various miniseries, one-shots, and intercompany crossovers. The character has been adapted into four live-action films: Hellboy (2004) and its seque\n[…]\nThe first illustration of a demonic character called \"Hellboy\" by Mike Mignola was drawn in 1991. Drawn for the '91 Great Salt Lake Comic Convention booklet, the illustration depicts a snarling, muscular demon with \"Hell Boy\" printed on his belt buckle that bears little resemblance to the character's ultimate design. Decades later, Mignola reflected that \"I added the Hellboy name at the last minute, and it made me laugh. I wasn't trying to create a character.\n[…]\nFor Hellboy's first stories, Mike Mignola (who had never written a comic story before) conceived the stories but worked with established comic writer John Byrne to write the scripts.\n[…]\nThe first multi-page narrative comic featuring Hellboy was Mike Mignola's Hellboy, a four-page black-and-white story published by Dark Horse Comics's San Diego Comic-Con Comics #2 (August 1993). A promotion for San Diego Comic-Con, the comic saw a limited print run of approximately 1,500 books. It was also reprinted in Comics Buyer's Guide #1069, along with an interview with Mignola. Hellboy travels to an American ghost town, where he encounters Anubis.\n[…]\nHi, My Name is Hellboy by Mike Mignola was a one-page panel ad that related the character's fictional origins. It was published by Diamond Comic Distributors in catalog supplement Celebrate Diversity collector's edition (October 1994). The ad was collected in the trade paperback The Art of Hellboy.\n[…]\nThe Amazing Screw-On Head, another comic book from Dark Horse written and drawn by Mike Mignola."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hellboy",
+        "situacao": "ok",
+        "texto": "Hellboy é um personagem de histórias em quadrinhos criado por Mike Mignola, cujas histórias são editadas nos Estados Unidos pela Dark Horse. No Brasil, já foram lançadas várias revistas pela Mythos Editora, em Portugal, já foram lançados dois álbuns pela Devir Livraria.\n[…]\nO protótipo do personagem apareceu num desenho feito por Mignola na convenção Great Salt Lake Convention de 1991. A primeira história de Hellboy, em preto e branco, foi publicada na revista San Diego Comic Con Comics #2, em agosto de 1993. O personagem ganhou título próprio em março de 1994, com a saga Seed of Destruction (Sementes da Destruição).\n[…]\nSegundo o criador Mike Mignola, a mão direita foi idealizada como uma arma embutida, uma versão moderna do martelo de Thor, da Marvel Comics. A mão direita se tornou um ícone e marca registrada do personagem.\n[…]\nMike Mignola busca inspiração principalmente na Literatura Pulp (como H.P. Lovecraft), nos clássicos dos quadrinhos, nos monstros clássicos, como os do Expressionismo Alemão e nos mitos folclóricos de todo o mundo, principalmente os do leste europeu. As construções Góticas e Vitorianas também marcam presença no universo de Hellboy. Seu estilo foi assim definido por Alan Moore: \"Expressionismo Alemão encontra Jack Kirby.\"\n[…]\nHellboy No Inferno (Mythos Editora, 2015)\n[…]\nO escritor Christopher Golden criou uma série de histórias sobre Hellboy em livros, contando com algumas ilustrações de Mike Mignola. As duas primeiras histórias, The Lost Army e Bones of Giants fazem parte da cronologia oficial do personagem. Nenhuma dessas histórias foi publicada no Brasil.\n[…]\nHellboy aparece numa infinidade de produtos licenciados, como canecas, camisetas, posters, cards e figuras de ação, baseadas tanto nos quadrinhos como nas versões cinematográficas.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Sandman",
+      "descricao": "Série em quadrinhos da DC sobre Sonho, o senhor dos sonhos, iniciada em 1989"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que escritor inglês, autor do livro Coraline, criou no fim dos anos 1980 a série em quadrinhos Sandman?",
+    "resposta": "Neil Gaiman",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Sandman_(comic_book)",
+        "situacao": "ok",
+        "texto": "The Sandman is a dark fantasy comic book series written by Neil Gaiman and published by DC Comics. Its artists include Sam Kieth, Mike Dringenberg, Jill Thompson, Shawn McManus, Marc Hempel, Bryan Talbot, and Michael Zulli, with lettering by Todd Klein and covers by Dave McKean. The original series ran for 75 issues from January 1989 to March 1996. Beginning with issue No.\n[…]\nSandman: 24 Hour Diner, fan film\n[…]\nSandman (Garrett Sanford/Hector Hall), the Bronze Age DC character\n[…]\nBrisbin, Ally; Booth, Paul (February 2013). \"The Sand/wo/man: The Unstable Worlds of Gender in Neil Gaiman's Sandman Series\". The Journal of Popular Culture. 46 (1): 20–37. doi:10.1111/jpcu.12014.\n[…]\nElder, Robert K. (2007). \"Gods and Other Monsters: A Sandman Exit Interview and Philosophical Omnibus\". In Schweitzer, Darrell (ed.). The Neil Gaiman Reader: Essays and Explorations. Holicong, PA: Wildside Press. ISBN 978-0-8095-5625-0.\n[…]\nGaiman, Neil (2006). \"Preface\". In Sanders, Joe (ed.). The Sandman Papers: An Exploration of the Sandman Mythology. Seattle, WA: Fantagraphics Books. ISBN 1-56097-748-5.\n[…]\nParker, Sabadino (2007). Dream's Odyssey: A Jungian Analysis of Neil Gaiman's 'Sandman'. Hartford, CT: Trinity College.\n[…]\nRauch, Stephen (2003). Neil Gaiman's The Sandman and Joseph Campbell: In Search of the Modern Myth. Holicong, PA: Wildside Press. ISBN 1-58715-789-6. (HC). ISBN 1-59224-212-X (TPB).\n[…]\nRawlik, Peter S. (2007). \"The King Forsakes His Throne: Campbellian Hero Icons in Neil Gaiman's 'Sandman'\". In Schweitzer, Darrell (ed.). The Neil Gaiman Reader: Essays and Explorations. Holicong, PA: Wildside Press. ISBN 978-0-8095-5625-0.\n[…]\nSaxton, Julie Myers (2007). \"Dreams and Fairy Tales: The Theme of Rationality in 'A Midsummer Night's Dream' and 'The Sandman'\". In Schweitzer, Darrell (ed.). The Neil Gaiman Reader: Essays and Explorations. Holicong, PA: Wildside Press. ISBN 978-0-8095-5625-0."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sandman_%28revista_em_quadrinhos%29",
+        "situacao": "ok",
+        "texto": "Sandman é uma publicação em série de história em quadrinhos para adultos (banda desenhada em Portugal), escrita por Neil Gaiman e publicada pela Vertigo (selo da DC Comics) em 1989, que descrevem a vida de Sonho - o senhor dos sonhos e governante do Sonhar (o mundo dos sonhos - e sua interação com o universo, o humanos e, outras criaturas.\n[…]\nOs Perpétuos ou Sem Fim (Destino,  Morte, Sonho, Destruição, Desejo, Desespero e Delírio) são um grupo de seres que personificam vários aspectos do universo na série de história em quadrinhos Sandman, de Neil Gaiman.\n[…]\nSandman foi inicialmente publicado como uma série mensal.\n[…]\nSandman, retornou em outubro de 2013, em um novo arco escrito por Neil Gaiman e ilustrado por J. H. Williams III. O arco de seis edições, chamado Overture (Prelúdio), se passa antes do arco 'Prelúdios e Noturnos' e conta os eventos que levaram à captura de Sonho por Roderick Burgess na primeira edição da série mensal.\n[…]\nO primeiro volume de Sandman – Edição Comentada (The Annotated Sandman, no original), foi publicado pela DC Comics em janeiro de 2012 como um grande livro em preto-e-branco com uma introdução de Neil Gaiman e incluiu as edições #1-20 de Sandman. As anotações são apresentadas de página-a-página, com seções citadas do scripts original e a visão de Gaiman para as diversas referências do Universo DC, além de referências históricas e mitológicas incluídas nos quadrinhos.\n[…]\nAinda em 2018, foi publicado um box contendo as seis edições definitivas mais a edição completa de Sandman: Prelúdio. Em 2019, a Panini iniciou a publicação da edição comemorativa de trinta anos da série, porém o primeiro volume apresentou diversos erros de edição que chegaram ao conhecimento do autor, Neil Gaiman, que classificou como \"desapontador\" o ocorrido. Após a repercussão, a editora anunciou um recall da edição.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Batman: O Cavaleiro das Trevas",
+      "descricao": "Minissérie da DC de 1986 em que um Bruce Wayne idoso volta a ser Batman"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1986, quem escreveu e desenhou Batman: O Cavaleiro das Trevas, em que um Bruce Wayne já velho volta à ativa?",
+    "resposta": "Frank Miller",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/The_Dark_Knight_Returns"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Dark_Knight_Returns",
+        "situacao": "ok",
+        "texto": "The Dark Knight Returns (alternatively titled Batman: The Dark Knight Returns but originally titled Batman: The Dark Knight) is a 1986 four-issue superhero comic book miniseries written by Frank Miller and illustrated by Miller and Klaus Janson, with color by Lynn Varley, and published by DC Comics.\n[…]\nIn the early 1980s, DC Comics promoted Batman group editor Dick Giordano to editorial director for the company. Writer-artist Frank Miller was recruited to create The Dark Knight Returns. Giordano said he worked with Miller on the story's plot, and said, \"[t]he version that was finally done was about his fourth or fifth draft. The basic storyline was the same but there were a lot of detours along the way.\"\n[…]\nWhile the comic's ending features Batman faking his death and leading up the Sons of Batman to continue with his crusade against crime, symbolizing that Bruce Wayne dies but Batman lives on, this wasn't the original intention. During the MCM London Comic Con 2018, Miller revealed that in his original plans for the ending of The Dark Knight Returns, Batman was going to be gunned down by the police while fighting them, but the story got away from him and changed his mind.\n[…]\nIn 2022, Heritage Auctions sold the original cover art for the first issue of Miller's Batman: The Dark Knight Returns for $2.4 million, making it the most expensive mainstream American comic book cover art sold publicly.\n[…]\nThe story recounts Batman's first year as a crime-fighter as well as exploring the life of recently transferred Gotham police detective James Gordon – eventually building towards their first encounter and their eventual alliance against Gotham's criminal underworld. The story is considered canon to the mainstream DC Universe as well as Frank Miller's own Dark Knight Universe."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/The_Dark_Knight_Returns",
+        "situacao": "ok",
+        "texto": "The Dark Knight Returns (no Brasil, O Cavaleiro das Trevas; em Portugal, O Retorno do Cavaleiro das Trevas) é uma minissérie em quatro edições publicada entre fevereiro e junho de 1986 pela editora de histórias em quadrinhos americana DC Comics.\n[…]\nEscrita e desenhada por Frank Miller, fazendo sua fama mundialmente e trazendo novos olhares sobre o personagem Batman e principalmente sobre a indústria dos quadrinhos, a série narra uma história de Bruce Wayne, que aos 55 anos de idade retorna da aposentadoria para combater o crime e enfrenta a oposição da força policial de Gotham City e o governo dos Estados Unidos. A história apresenta Carrie Kelley como o novo Robin e culmina com um confronto contra o Superman.\n[…]\nNo início da década de 1980, a DC Comics promoveu o editor de histórias em quadrinhos Dick Giordano com o diretor editorial da empresa. O escritor e desenhista Frank Miller foi recrutado para criar The Dark Knight Returns. Giordano disse que trabalhou com Miller na trama da história, e disse: [A] versão que foi finalmente feita era sobre seu quarto ou quinto projecto.\n[…]\nO Coringa, catatônico no Asilo Arkham, desperta quando assiste à volta do Cavaleiro das Trevas, sentindo-se motivado a retornar à ativa.\n[…]\nAlém desses, Frank Miller anunciou a intenção de escrever uma quarta parte da saga. Em 2019, foi anunciado o one-shot The Dark Knight Returns: The Golden Child, escrito por Miller e com desenhos do artista brasileiro Rafael Grampá, para publicação em dezembro de 2019.\n[…]\nNo filme The Dark Knight Rises, de 2012, o diretor Christopher Nolan usou um número de histórias, incluindo The Dark Knight Returns como influência para o filme, que também dispõe de um mais velho e aposentado Bruce Wayne retomando o papel de Batman.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Venom",
+      "descricao": "Vilão da Marvel formado por um simbionte alienígena que já foi o uniforme preto do Homem-Aranha"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "A ideia do uniforme preto do Homem-Aranha, que deu origem ao Venom, foi comprada pela Marvel de quem?",
+    "resposta": "Um fã, Randy Schueller",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Venom_(character)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Venom_(character)",
+        "situacao": "ok",
+        "texto": "Venom, known formally as \"the Symbiote\", is a character appearing in American comic books published by Marvel Comics. The character is a sentient alien symbiote with an amorphous, liquid-like form, who survives by bonding with a host, usually human. This dual-life form receives enhanced powers and usually refers to itself as \"Venom\".\n[…]\nThe original idea of a new costume for Spider-Man that would later become the character Venom was conceived by a Marvel Comics reader from Norridge, Illinois named Randy Schueller. In 1982, Jim Shooter, Marvel's editor-in-chief at the time, sent Schueller a letter acknowledging Marvel's interest in the idea, which they ended up purchasing from him for $220.\n[…]\nOriginally David Michelinie planned to kill Venom in Amazing Spider-Man #400, and have other villains become the host. However, due to the popularity of the character Marvel would not allow this, leading him to create Carnage instead.\n[…]\nComics journalist and historian Mike Conroy writes of the character: \"What started out as a replacement costume for Spider-Man turned into one of the Marvel web-slinger's greatest nightmares.\" Venom was ranked as the 22nd Greatest Comic Book Villain of All Time in IGN's list of the top 100 comic villains. IGN also ranked Mac Gargan's incarnation of Venom as #17 in their list of \"The Top 50 Avengers\", while the Flash Thompson incarnation was ranked as #27.\n[…]\nThe character was listed as #33 on Empire's 50 Greatest Comic Book Characters and was also ranked at #8 in Marvel's Top 10 Spider-Verse Characters. Spike Chunsoft and Danganronpa mascot Monokuma was designed by Rui Komatsuzaki and Kazutaka Kodaka to partially resemble Venom.\n[…]\n\"Venom (Angelo Fortunate; Spider-Man foe)\". The Appendix to the Handbook of the Marvel Universe\n[…]\nVenom on Marvel Database, a Marvel Comics wiki\n[…]\nVenom at Villains Wiki"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Venom_%28Marvel_Comics%29",
+        "situacao": "ok",
+        "texto": "Venom é um personagem ficcional das histórias em quadrinhos na série do Homem-Aranha do Universo Marvel, publicadas pela Marvel Comics. Apesar de já ter tido minisséries próprias, a maioria de suas aparições é como inimigo do personagem Homem-Aranha. Apesar de ter seu lado como vilão, Venom também é um anti-herói. Seu hospedeiro é Eddie Brock. Venom é um simbionte alienígena formado a partir de um\n[…]\nA característica marcante de Venom, além do uniforme negro, é a desproporcional e assustadora mandíbula, desenhada no traço de Todd MacFarlane. Antes de fundir-se ao simbionte e tornar-se Venom, Eddie Brock era repórter do jornal O Clarim Diário, e foi demitido por Homem-Aranha.\n[…]\n\"Harry Osborn:\" Na série animada Ultimate Homem-Aranha, a origem do simbionte é distinta, se baseando no DNA do Peter Parker capturada pelo Dr. Octopus. O simbionte - denominado Venom - tem vida própria e escapa do laboratório do Dr. Octopus, indo em busca de Peter Parker. Após confrontar o Homem-Aranha, Punho de Ferro, Luke Cage, Tigresa Branca e Nova no apartamento da família Osborn, o simbionte é contido, porém Harry Osborn encontra em seus aposentos uma amostra daquele e resolve guarda-lo.\n[…]\nEm Zumbis Marvel, Eddie é um dos infectados pelos zumbis que rodeiam a terra, quando este ataca o Homem-Aranha, Peter Parker acaba contra-atacando usando os seus recém-adquiridos poderes cósmicos para matar Venom, e este retruca \"o simbiote esta me deixando, eu não sou mais o hospedeiro perfeito.\"\n[…]\nEm Ultimate Spider-Man (Marvel Millenium), Eddie Jr. é um distante amigo de infância de Peter Parker, filho do sócio do pai do Homem-Aranha; se tornou o assassino Venom ao vestir o traje criado pelos pais dos dois, o similar do simbionte alienígena da trama principal de Homem-Aranha.\n[…]\nEm Marvel Mangaverso, o Venom faz parte do Clã Ninja do Homem-Aranha.\n[…]\nSpider-Man 3 (2007), como Venom e roupa preta do Homem-Aranha.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "Smurfette",
+      "descricao": "Única smurf feminina da aldeia nas histórias originais dos Smurfs, de Peyo"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Nas histórias dos Smurfs, quem criou a Smurfette com um feitiço, para semear a discórdia na aldeia?",
+    "resposta": "Gargamel",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Smurfette"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Smurfette",
+        "situacao": "ok",
+        "texto": "Smurfette (French: La Schtroumpfette) is one of the main protagonists from the comic strip The Smurfs. Smurfette was created by the evil wizard Gargamel, the Smurfs' archenemy, in order to spy on them and sow jealousy. However, she decides that she wants to be a real Smurf and Papa Smurf casts a spell that changes her hair from black to blonde as a sign of her transformation. She was the only fema\n[…]\nShe even learned to speak in Smurf language when previously she had spoken in straight human speech in accordance with Gargamel's magic.\n[…]\nHowever, she was then able to spectacularly undo her mistake by disguising herself as the masked \"Lone Smurf\" to lure away Gargamel and Azrael on a chase that both allowed her to incapacitate the villains and to free the Smurfs. At the conclusion of the story, any doubts of the Smurfs regarding Smurfette's loyalty were resolved and she was made a welcome permanent member of their village.\n[…]\nSmurfette's original artificial nature arose again in the sequel episode, \"Smurfette Unmade\". In this story, Gargamel tells his apprentice Scruple (who was an added character by this time) about how he regrets creating her; Scruple comments on how bad it is that Gargamel cannot turn her evil again and he remembers there is a way. They kidnap her and prepare a spell which initially does not seem to work and the Smurfs take her home.\n[…]\nHowever, just as Gargamel is about to get Baby Smurf to test his gold-making potion (over Smurfette's objections), Smurfette's conscience rebels and she changes back into her blond-haired form. Gargamel and Scruple attempt to capture her to prevent themselves from losing again, but Smurfette destroys the potions and sends the Smurfs' archenemies into a tree. They all return home, with Papa Smurf guessing that Smurfette's Smurf nature is too strong to ever be fully removed.\n[…]\nIndonesian: Smurfin\n[…]\nPortuguese: Estrumpfina/Smurfina/Smurfete"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Smurfette",
+        "situacao": "ok",
+        "texto": "A seguir se apresenta a lista de personagens de Les Schtroumpfs, uma franquia de mídia (nomeada como Os Duendes Strunfs e Os Smurfs no Brasil e, em Portugal, Os Estrumpfes no original em francês), criada por Peyo. A história se passa em uma vila localizada no meio de uma floresta na era medieval e nela vivem criaturas pequenas que se autonomeiam Schtroumpfs.\n[…]\nSmurfette, Estrumpfina ou Smurfina (Schtroumpfette no original em francês), criada por Gargamel com objetivo original de caçar os Schtroumpfs, é uma das poucas Schtroumpfs femininas da vila. Ela ajuda nas atividades da vila e é cobiçada por praticamente todos os Schtroumpfs masculinos da vila. Caracterizada por usar vestido branco e gostar de flores.\n[…]\nSassette foi criada pelos Smurfinhos para servir como irmã da Smurfette; é uma Smurfinha. Veste-se com um macacão rosa. Caracterizada por brincar com coisas de menino, apesar de perder essa característica com o tempo, e de chamar o Papai Smurf de \"Papi\" e Gargamel de \"Papi Gargamel\".\n[…]\nHackus foi criado por Gargamel para que pudesse extrair a essência dele, que não foi realizado por não ser originalmente um Smurf. Como sua irmã Vexy, tranformou-se em um Smurf graças a mesma poção que foi usado na Smurfette.\n[…]\nGargamel, também chamado nas primeiras publicações brasileiras como Gargamela , é um humano que vive nos arredores da aldeia dos Schtroumpfs junto a seu gato Cruel. O feiticeiro persegue os Schtroumpfs. A intenção de Gargamel com os Schtroumpfs varia, pode ser: transformá-los em ouro ou pedra filosofal, comê-los ou extrair sua essência. Embora Gargamel já tenha capturado Schtroumpfs e os tenha levado à sua casa inúmeras vezes, ele jamais conseguiu matar nenhum.\n[…]\nAzrael (em Portugal) ou Cruel (no Brasil) é o gato e companheiro fiel do feiticeiro Gargamel.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Rê Bordosa",
+      "descricao": "Personagem boêmia dos quadrinhos de humor brasileiros dos anos 1980, famosa pelas ressacas"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cartunista criou Rê Bordosa, a boêmia que vivia acordando de ressaca numa banheira?",
+    "resposta": "Angeli",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Rê_Bordosa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Rê_Bordosa",
+        "situacao": "ok",
+        "texto": "Rê Bordosa é uma personagem de histórias em quadrinhos humorísticas criada pelo cartunista Angeli, e que abrilhantou as páginas da extinta revista Chiclete com Banana. Rê é uma mulher de aproximadamente 40 anos, alcoólatra, ninfomaníaca, desbocada e desprovida de bom senso, cujas histórias giram em torno de suas manias e desejos.\n[…]\nComo a personagem fez sucesso a ponto de eclipsar o autor, Angeli resolveu matá-la em dezembro de 1987, mas volta e meia ela retorna à mídia.\n[…]\nEm 1995, estreou a peça \"Rê Bordosa, o Ocaso de uma Doida\", escrita por Betty Erthal (que também interpretou a personagem-título) e Angeli. No ano seguinte, a peça ganhou o Troféu HQ Mix de \"melhor adaptação para outro veículo\".\n[…]\nEm 1997, um novo roteiro de teatro para a personagem foi desenvolvido: \"Rê Bordosa, Vida e Morte de uma Porralôca\", de Mário Prata. A peça (cujo roteiro foi disponibilizado pelo próprio autor neste link) permanece inédita até hoje.\n[…]\nA personagem chegou a coestrelar um longa metragem de animação, Wood & Stock: Sexo, Orégano e Rock'n'Roll, onde dividia a cena com Wood & Stock, outros personagens de Angeli. Rita Lee foi responsável pela dublagem de sua voz.\n[…]\nO curta-metragem Dossiê Rê Bordosa, de 2008, animação feita com bonecos de massinha e stop motion, procura desvendar o mistério em torno da morte da personagem mais famosa de Angeli, os reais motivos para o seu assassinato."
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Níquel Náusea",
+      "descricao": "Rato protagonista de tiras de humor brasileiras publicadas desde os anos 1980"
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que cartunista paulista, formado em veterinária, criou o rato Níquel Náusea?",
+    "resposta": "Fernando Gonsales",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Níquel_Náusea",
+      "https://pt.wikipedia.org/wiki/Fernando_Gonsales"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Níquel_Náusea",
+        "situacao": "ok",
+        "texto": "Níquel Náusea é uma tira de banda desenhada, criada pelo cartunista brasileiro Fernando Gonsales em 1985. Os personagens possuem um humor ácido, diversas vezes aproximando-se do humor negro e do nonsense. Seus nomes são paródias de objetos ou situações.\n[…]\nLançada no jornal Folha de S.Paulo, foi publicada também na revista Níquel Náusea, editada por Gonsales, e em coletâneas publicadas pelas editoras Bookmaker e Devir.\n[…]\nNiquel Náusea: Um rato que mora no esgoto, e seu melhor amigo é uma barata (Fliti) viciada em inseticida. É uma alusão ao personagem Mickey Mouse, porém ele alega não ser um camundongo.\n[…]\nRato Ruter: Mais parece um gato gordo, de tão grande que é. Vive perseguindo o Níquel Náusea, e tem este nome por causa de uma empresa - a Roto-Rooter especializada em desentupir canos. O nome Rato Ruter faz uma referência direta a tradicional desentupidora Roto-Rooter.\n[…]\nA rata Gatinha: O Níquel Náusea a considera uma verdadeira \"gata\". Vindo de um rato, não sabemos se deve ser considerado um elogio, mas… Ela possui uma incrível capacidade de gerar filhotes, que são educados com todo o carinho que o método \"tapão na oreia\" permite.\n[…]\nA tira Níquel Náusea ganhou o Troféu HQ Mix 18 vezes, sendo 11 na categoria \"melhor tira nacional\" (1990 a 1992, 1994, 1995, 1997, 2002, 2004, 2008, 2009 e 2013) e 7 como \"melhor publicação de tiras\", pelas coletâneas publicadas pela Devir (2004 a 2007 e 2009 a 2011)."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Fernando_Gonsales",
+        "situacao": "ok",
+        "texto": "Fernando Gonsales (São Paulo, 3 de fevereiro de 1961) é um cartunista brasileiro, cujo principal personagem é o rato Níquel Náusea – nome que também intitula a tira de jornal em que aparece.\n[…]\nEsse tipo de quadrinho, com personagens “soltos”, são alternados com as tiras de personagens fixos, entre os quais a barata Fliti, a rata Gatinha o rato Ruter – além do próprio Níquel Náusea. Outro personagem criado por Gonsales é o mago Vostradeis.\n[…]\nAlém dos quadrinhos, Fernando Gonsales também faz ilustrações para livros, matérias de revistas e para publicidade. Em 2005 colaborou com a linha de sandálias “Havaianas Cartunistas” criando um desenho com o tema Amazônia, ao lado de outros quatro cartunistas brasileiros, que trabalharam em cima de outros “temas nacionais”. Fora da esfera do desenho, criou roteiros para o extinto programa de televisão TV Colosso, da emissora Rede Globo.\n[…]\nGonsales teve seus quadrinhos compilados no livro Os Ratos Também Choram pela editora Bookmakers em parceria com o site Cybercomix em 1999, e pela editora Devir nos livros:\n[…]\nManteve por um período de 10 anos a revista Níquel Náusea, de periodicidade irregular - entre 1986 e 1996, foram publicadas 29 edições. Ao final de 2005, seu acervo já contava com mais de 5000 tiras. Novas tirinhas podem ser vistas diariamente em seu site.\n[…]\nGonsales ganhou por 2 vezes o Prêmio Angelo Agostini, mantido pela AQC-ESP, um de melhor roteirista e outro de melhor desenhista, e por 14 vezes o Troféu HQ Mix, entre 1989 e 2004, nas seguintes categorias:\n[…]\nPersonagem destaque do ano para Níquel Náusea em 1998\n[…]\nMelhor revista de humor - Níquel Náusea em 1992\n[…]\nMelhor álbum de humor - Níquel Náusea em 1999 e Com mil demônios em 2002"
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Amigo da Onça",
+      "descricao": "Personagem de humor publicado na revista O Cruzeiro a partir de 1943, que vive deixando os outros em apuros"
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que cartunista pernambucano criou o Amigo da Onça, publicado na revista O Cruzeiro a partir de 1943?",
+    "resposta": "Péricles",
+    "distratores": [
+      "J. Carlos",
+      "Millôr Fernandes",
+      "Ziraldo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Amigo_da_Onça"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Amigo_da_Onça",
+        "situacao": "ok",
+        "texto": "O Amigo da Onça é um personagem de cartoons e histórias em quadrinhos  criado por Péricles de Andrade Maranhão (14 de agosto de 1924 - 31 de dezembro de 1961) e publicado em um cartoon pela primeira vez na revista O Cruzeiro em 23 de outubro de 1943.\n[…]\nEm 1989, foi publicado na revista Semanário com roteiros de Jal e arte de Octavio Cariello.\n[…]\nO famoso personagem foi criado pelo cartunista pernambucano Péricles de Andrade Maranhão, em 1943, a pedido de Leão Gondim, editor da revista O Cruzeiro, inspirado nos cartoons Enemies of Man da revista americana Esquire e El enemigo del Hombre, personagem criado por Guillermo Divito para a revista argentina Patoruzú.\n[…]\nApós a morte do autor, em 1962, o personagem continuou sendo publicado, desenhado pelo ilustrador Getulio Delphim (durante dois anos) - amigo e parceiro de Péricles na produção de outros personagens (Oliveira, o Trapalhão e Laurindo Capoeira) que não chegou a ser lançado devido à morte de Péricles. Péricles era muito ciumento com seu personagem, por isso Getúlio assinava \"Equipe de \"O Cruzeiro\". Após esses dois anos, o cartunista Carlos Estevão desenhou o personagem até 1972.\n[…]\nEm 2005, foi lançado o curta-metragem A Última do Amigo da Onça, o curta é inspirado em uma história em quadrinhos produzida por Ofeliano de Almeida, que também produziu storyboards para o filme, a trama apresenta um fictício encontro entre Péricles (Osvaldo Mil) e sua criação (Fábio Lago), em 2006, o ator Fábio Lago foi premiado como melhor ator na 33ª Jornada Internacional de Cinema da Bahia, e no Festival Primeiro Plano em Juiz de Fora, no mesmo ano, Ofeliano de Almeida como melhor argumento no Festival Guarnicê de Cinema.\n[…]\nCanal de O Amigo da Onça no YouTube Canal do projeto da série animada"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Turma da Mônica: Laços",
+      "descricao": "Graphic novel de 2013 da Turma da Mônica, adaptada para o cinema em 2019"
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Laços, a história da Turma da Mônica que virou filme em 2019, foi criada em quadrinhos por qual dupla de irmãos?",
+    "resposta": "Vitor e Lu Cafaggi",
+    "distratores": [
+      "Gêmeos Moon e Bá",
+      "Chico e Paulo Caruso",
+      "Otavio e Gustavo Pandolfo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Turma_da_Mônica:_Laços",
+      "https://pt.wikipedia.org/wiki/Graphic_MSP"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Turma_da_Mônica:_Laços",
+        "situacao": "ok",
+        "texto": "Turma da Mônica: Laços é um romance gráfico publicado em 2013 pela Panini Comics como parte do projeto Graphic MSP, que traz releituras dos personagens da Turma da Mônica sob a visão de artistas brasileiros dos mais variados estilos.\n[…]\nTurma da Mônica: Laços foi escrito e desenhados pelos irmãos Vitor e Lu Cafaggi e conta a história da amizade entre as crianças Mônica, Cebolinha, Cascão e Magali, que vivem uma aventura quando saem à procura de Floquinho, o cãozinho do Cebolinha, que havia fugido de casa. O livro ganhou o 26º Troféu HQ Mix nas categorias Edição especial nacional e Publicação infantojuvenil.\n[…]\nEm 2015, foi publicada uma continuação chamada Turma da Mônica: Lições e, em dezembro do mesmo ano, foi anunciado o lançamento de um filme live-action baseado em Laços, lançado em 27 de junho de 2019. Em 2017, foi lançada mais uma sequência, Turma da Mônica: Lembranças.\n[…]\nFloquinho desapareceu. Para encontrar seu cachorro, Cebolinha contará com a ajuda de seus amigos Cascão, Mônica e Magali, em um plano \"infalível\".\n[…]\nA inspiração dos irmãos Cafaggi para a história em quadrinhos veio de filmes infantis dos anos 1980, como Conta Comigo e Os Goonies.\n[…]\nEm 2019, a Turma da Mônica - Laços foi adaptada um filme live-action de mesmo nome. Uma sequência de Laços, que será baseada em Turma da Mônica - Lições, está atualmente em desenvolvimento com data de estreia prevista para 10 de dezembro de 2020."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Graphic_MSP",
+        "situacao": "ok",
+        "texto": "Graphic MSP é um selo editorial da MSP Estúdios criado com a proposta de revisitar personagens clássicos do estúdio, em formato de graphic novel, por meio de releituras autorais assinadas por quadrinistas brasileiros consagrados e iniciantes.\n[…]\nO sucesso do selo resultou em adaptações para outras mídias. A trilogia da Turma da Mônica, de Vitor e Lu Cafaggi, deu origem a dois filmes em live-action: Turma da Mônica: Laços e Turma da Mônica: Lições. Já a saga do Astronauta, de Danilo Beyruth, serviu de base para a série de animação homônima, produzida pela HBO.\n[…]\nRepublicações reunindo títulos publicados com a adição de uma curta história inédita.\n[…]\nTurma da Mônica: Laços (filme)\n[…]\nTurma da Mônica: Lições (filme)\n[…]\nTurma da Mônica - A Série"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Marsupilami",
+      "descricao": "Animal fictício amarelo de pintas pretas e cauda enorme, dos quadrinhos franco-belgas, criado em 1952"
+    },
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que quadrinista belga criou em 1952 o Marsupilami, bicho amarelo de pintas pretas e cauda gigante?",
+    "resposta": "André Franquin",
+    "distratores": [
+      "Hergé",
+      "Peyo",
+      "Morris"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marsupilami"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Marsupilami",
+        "situacao": "ok",
+        "texto": "Marsupilami is a Belgian comic book character and fictional animal species created by Belgian comic artist André Franquin. Its first appearance was in the 31 January 1952 issue of the Franco-Belgian comics magazine Spirou. Since then it appeared regularly in the popular Belgian comics series Spirou & Fantasio, as a pet of the main characters, until Franquin stopped working on the series; the chara\n[…]\n1. La Queue du Marsupilami (The tail of Marsupilami, 10/1987). Art by Batem and Franquin, story by Greg.\n[…]\nAn early example of an English-language translation of Spirou & Fantasio was published in 1960, when the Franquin story Le nid des Marsupilamis was printed in the weekly British boys' magazine Knockout, under the title Dickie and Birdbath Watch the Woggle. In that early localization, Spirou was called \"Dickie\", Fantasio was \"Birdbath\", Seccotine was \"Cousin Constance\", the Marsupilami was \"the Woggle\", and the female Marsupilami was \"the Wiggle.\"\n[…]\nThe British publishing company Cinebook have published English-language translations of Spirou & Fantasio, including some of Franquin's albums featuring the Marsupilami. The first of Franquin's albums that they translated was The Marsupilami Thieves, which they released in 2013. In 2017, Cinebook began to release English translations of the spin-off series Marsupilami.\n[…]\nThe original Marsupilami stories by Franquin never featured a gorilla or elephant in the Marsupilami's wild habitat, since those species are native to Africa, whereas the Marsupilami species in the comics was said to come from South America. Another change is that Marsupilami can speak; his comic counterpart can only mimic sound like a parrot. In this version, Marsupilami is voiced by Steve Mackall. Shnookums and Meat was a secondary segment on this show.\n[…]\nMarsupilami on Franquin.com Archived 25 September 2008 at the Wayback Machine (in French)\n[…]\nMarsupilami at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Marsupilami",
+        "situacao": "ok",
+        "texto": "Marsupilami é uma série de banda desenhada criada por André Franquin., em 1952.\n[…]\nA primeira vez que o Marsupilami apareceu foi na revista de banda desenhada Jornal Spirou, a 13 de Março de 1952 em \"Os Herdeiros\" (Spirou Et Les Héritiers). Uma das condições para Fantásio receber a herança de seu tio era ter de ir à floresta da Palombia e capturar um marsupilami, um animal de cor amarela com manchas pretas e uma longa cauda, nunca visto aos olhos dos humanos (excepto pelo tio de Fantásio).\n[…]\nO Nome Marsupilami vem da fusão de \"marsupial\" com Pilou-Pilou (um personagem que Franquim adorava quando era criança) e \"Ami\" (amigo em francês).\n[…]\n0. Capturez un Marsupilami!, 2002 - Franquin (desenhos e roteiro)\n[…]\n1. La queue du Marsupilami, 1987 - Batem e Franquin (desenhos), Greg (roteiro)\n[…]\nL'Encyclopedie Du Marsupilami, 1991 - Cambier et Verhoest (texto), Batem e Franquin (desenhos)\n[…]\nN.º 00 - Capturem um Marsupilami, Março de 2004  - Capturez un Marsupilami ! © Marsu Prodution, 2002 - Franquin, Batem, Greg.\n[…]\nN.º 01 - A Cauda do Marsupilami, Maio de 2004 - La queue du Marsupilami, © Marsu Prodution, 1987 - Franquin, Batem, Greg.\n[…]\nN.º 04 - O Pólen do Monte Urticando - Le pollen du Monte Urticando, © Marsu Prodution, 1989 - Franquin, Batem, Yann.\n[…]\nN.º 15 - Que Palhaçada é Esta? - C'est quoi ce cirque ?! © Marsu Prodution, 1989 - Franquin, Batem, Cenário: Dugomier.\n[…]\nN.º 07 – O Olho da Boavista, Novembro de 2006 - L’or De Boavista - © Marsu Prodution, 1992 - Franquin, Batem, Cenário: Yann\n[…]\nFranquin\n[…]\nMarsupial\n[…]\nFranquin.com (em francês)\n[…]\nO Marsupilami em Franquin.com (em francês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Prêmio Eisner",
+      "descricao": "Premiação anual dos quadrinhos americanos entregue na Comic-Con de San Diego"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O prêmio chamado de Oscar dos quadrinhos, entregue todo ano na Comic-Con de San Diego, homenageia qual autor?",
+    "resposta": "Will Eisner",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Eisner_Award"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Eisner_Award",
+        "situacao": "ok",
+        "texto": "The Will Eisner Comic Industry Awards, commonly shortened to the Eisner Awards, are awards for creative achievement in American comic books. They are regarded as the most prestigious and significant awards in the comic industry and often referred to as the industry's equivalent of the Academy Awards.\n[…]\nThe first Eisners were conferred in 1988, for works published in 1987. The Eisner Awards ceremony has been held at San Diego Comic-Con every year since 1991. The awards are named in honor of pioneering cartoonist and writer Will Eisner, who was a regular participant in the ceremony until his death in 2005.\n[…]\nThere was no Eisner Awards ceremony, or awards distributed, in 1990, due to widespread balloting mix-ups. The previous administrator, Dave Olbrich, left the position, and Jackie Estrada has been the award administrator since 1990. The Eisner Awards ceremony has been held at San Diego Comic-Con every year since 1991.\n[…]\nOther comics-related awards:\n[…]\nInkwell Awards\n[…]\nArchive of 2005 Eisner awards from Comic-Con.org. WebCitation archive. Original page.\n[…]\n2006 Eisner Award winners, Comic-Con.org. WebCitation archive.\n[…]\n2007 Eisner Award winners, Comic-Con.org. WebCitation archive.\n[…]\n2008 Eisner Award winners, Comic-Con.org. WebCitation archive.\n[…]\n2009 Eisner Award winners, Comic-Con.org. WebCitation archive.\n[…]\n1985-1989 Eisner Award winners, Comic-Con International San Diego. Archived[link removed] from the original on July 3, 2013.\n[…]\n1991-1999 Eisner Award winners, Comic-Con International San Diego. Archived[link removed] from the original on February 1, 2014\n[…]\n2000-2009 Eisner Award winners, Comic-Con International San Diego. Archived[link removed] from the original on February 1, 2015.\n[…]\n2010-2020 Eisner Award winners, Comic-Con International San Diego. Archived from the original on October 30, 2020."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Eisner_Award",
+        "situacao": "ok",
+        "texto": "The Will Eisner Comic Industry Awards (comumente abreviado como Eisner Awards e ocasionalmente traduzidos em Língua portuguesa como Prémios Will Eisner ou Prémios Eisner) é um prêmio que distingue feitos nas Histórias em quadrinhos.\n[…]\nEntre 1985 e 1987, a editora Fantagraphics Books promoveu o Kirby Awards, uma premiação dedicada à indústria dos quadrinhos e com os vencedores recebendo seus prêmios sempre com a presença do artista Jack Kirby. As edições do Kirby Awards eram organizadas por Dave Olbrich, um funcionário da editora. Em 1987, com a saída de Olbrich, a Fangraphics decidiu encerrar o Kirby Awards e instituiu o Harvey Awards, cujo nome é uma homenagem à Harvey Kurtzman.\n[…]\nOlbrich, por sua vez, fundou no mesmo ano o \"Will Eisner Comic Industry Awards\".\n[…]\nPor dois anos o próprio Olbrich organizou a premiação até que, ao ver-se incapaz de reunir os fundos necessários para realizar a edição de 1990 - que acabou não ocorrendo - ele decidiu transferir a responsabilidade para a própria Comic-Con, que desde 1990 emprega Jackie Estrada para organizá-lo. Por isso, a cerimônia do Eisner Award passou a ser realizada na San Diego Comic Con a partir de 1991.\n[…]\nEm 2006, foi anunciado que os arquivos dos Prêmios Eisner [\"Eisner Awards\", no original] seriam guardados na Biblioteca James Branch Cabell da Virginia Commonwealth University em Richmond, VA.\n[…]\nO Eisner Awards premia as seguintes categorias\n[…]\nEisner Award for Best Publication for Early Readers (2012–presente)\n[…]\nThe Will Eisner Award Hall of Fame (1987–1989, 1991–presente)\n[…]\nOutros prêmios relacionados com quadrinhos concedidos no San Diego Comic Con:\n[…]\nThe Bill Finger Award For Excellence In Comic Book Writing (2005–presente)\n[…]\nOutros prêmios relacionados com quadrinhos:",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Marvel Comics",
+      "descricao": "Editora americana de quadrinhos, casa do Homem-Aranha, dos X-Men e do Capitão América"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Em 1941, quando lançou o Capitão América, a editora que hoje se chama Marvel tinha outro nome. Qual?",
+    "resposta": "Timely Comics",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Timely_Comics",
+      "https://en.wikipedia.org/wiki/Marvel_Comics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Timely_Comics",
+        "situacao": "ok",
+        "texto": "Timely Comics was the common name for the earliest comic book arm of American publisher Martin Goodman, which would evolve to become Marvel Comics by the 1960s.\n[…]\nSimon brought along his collaborator, artist Jack Kirby, followed by artist Syd Shores. Goodman then formed Timely Comics, Inc., beginning with comics cover-dated April 1941 or Spring 1941.\n[…]\nTimely's other major competitors were Fawcett Publications (with Captain Marvel, introduced in 1940); Quality Comics (with Plastic Man and Blackhawk, both in 1941); and Lev Gleason Publications (with Daredevil, introduced in 1940 and unrelated to the 1960s Marvel hero).\n[…]\nThe precise end-point of the Golden Age of comics is vague, but for Timely, at least, it appears to have ended with the cancellation of Captain America Comics at issue #75 (Feb. 1950) –  by which time the series had already been Captain America's Weird Tales for two issues, with the finale featuring merely anthological horror/suspense tales and no superheroes.\n[…]\nIn 2015, Marvel registered the trademark \"Timely Comics\". The following year, Marvel announced that Timely Comics would be the name of a new imprint of low-priced reprint comics.\n[…]\nPublisher Martin Goodman's business strategy involved having his various magazines and comic books published by a number of companies all operating out of the same office and with the same staff. One of these shell companies under which Timely Comics was published was named Marvel Comics by at least Marvel Mystery Comics #55 (May 1944).\n[…]\nList of characters making multiple appearances, either in Timely Comics solely or in Timely and subsequent companies Atlas Comics and Marvel Comics."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Marvel_Comics",
+        "situacao": "ok",
+        "texto": "Marvel Comics is an American comic book publisher, a property of the Walt Disney Company since December 31, 2009, and a subsidiary of Disney Publishing Worldwide since March 2023. Marvel was founded in 1939 by Martin Goodman as Timely Comics, and by 1951 had generally become known as Atlas Comics. The Marvel era began in August 1961 with the launch of The Fantastic Four and other superhero titles \n[…]\nThe company's first true editor, writer-artist Joe Simon, teamed with artist Jack Kirby to create one of the first patriotically themed superheroes, Captain America, in Captain America Comics #1 (March 1941). It, too, proved a hit, with sales of nearly one million. Goodman formed Timely Comics, Inc., beginning with comics cover-dated April 1941 or Spring 1941.\n[…]\nGoodman hired his wife's 16-year-old cousin, Stanley Lieber, as a general office assistant in 1939. When editor Simon left the company in late 1941, Goodman made Lieber—by then writing pseudonymously as \"Stan Lee\"—interim editor of the comics line, a position Lee kept for decades except for three years during his military service in World War II. Lee wrote extensively for Timely, contributing to a number of different titles.\n[…]\nAs well, some comics' covers, such as All Surprise Comics #12 (Winter 1946–47), were labeled \"A Marvel Magazine\" many years before Goodman would formally adopt the name in 1961. The company began identifying the group of its comic division as Marvel Comic Group, on some comics cover-dated November 1948, when the company set up an in-house editorial board to compete with the likes of DC and Fawcett, though the legal name was still Timely.\n[…]\nin the McGraw-Hill Building, where it originated as Timely Comics in 1939\n[…]\nTimely Comics\n[…]\nList of magazines released by Marvel Comics in the 1970s\n[…]\nLists of Marvel Comics characters\n[…]\nList of current Marvel Comics publications\n[…]\nList of Timely and Atlas Comics publications"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Timely_Comics",
+        "situacao": "ok",
+        "texto": "Timely Comics é o nome comum para o grupo de corporações que foi o primeiro braço de quadrinhos do editor americano Martin Goodman, e a entidade que evoluiria na década de 1960 para se tornar a Marvel Comics.\n[…]\nFundada em 1939, durante a era chamada de Era de ouro das histórias em quadrinhos americanas, \"Timely\" era o nome genérico para a divisão de revistas em quadrinhos da editora de revistas pulp de Goodman, cuja estratégia de negócios envolvia ter uma infinidade de entidades corporativas, todas produzindo o mesmo produto. A primeira publicação da empresa em 1939 usou a Timely Publications, baseada em sua empresa existente no Edifício McGraw-Hill, na 330 West 42nd Street, na cidade de Nova York.\n[…]\nEm 1942, mudou-se para o 14º andar do Empire State Building, onde permaneceu até 1951. Em 2016, a Marvel anunciou que Timely Comics seria o nome de um novo selo de reimpressões de histórias em quadrinhos de preços baixos.\n[…]\nSimon trouxe seu colaborador, o desenhista Jack Kirby, seguido pelo desenhista Syd Shores. Goodman então formou a Timely Comics, Inc., começando com os quadrinhos datados de abril de 1941 ou primavera (Hemisfério Norte) de 1941.\n[…]\nO historiador Jess Nevins, por outro lado, escreve que \"Timely Publications [foi como] o grupo [de empresas] de Goodman se tornou conhecido; antes disso, era conhecido como 'Red Circle' por causa do logotipo que Goodman havia colocado em suas revistas pulp. ...\" O banco de dados Grand Comics identifica 23 edições de quadrinhos Goodman de 1944 a 1959 com a marca Red Circle, Inc, e uma única edição de 1948 sob a Red Circle Magazines Corp.\n[…]\nHowe, Sean. Marvel Comics : a história secreta, Leya Brasil, 2013 ISBN 9788598903514",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Milu",
+      "descricao": "Fox terrier branco, cão companheiro de Tintim nos quadrinhos de Hergé"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "No original em francês, o cão de Tintim se chama Milou. Esse era o apelido de quem na vida de Hergé?",
+    "resposta": "Primeira namorada de Hergé",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snowy_(character)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Snowy_(character)",
+        "situacao": "ok",
+        "texto": "Snowy (French: Milou [milu]) is a fictional character in The Adventures of Tintin, the comics series by Belgian cartoonist Hergé. Snowy is a white Wire Fox Terrier who is a companion to Tintin, the series' protagonist. Snowy made his debut on 10 January 1929 in the first installment of Tintin in the Land of the Soviets, which was serialised in Le Petit Vingtième until May 1930.\n[…]\nSnowy is modeled in part on a Fox Terrier at a café that Hergé used to frequent. Milou, Snowy's original French name, was the nickname of Hergé's first girlfriend.\n[…]\nHergé never had a dog in his family until his last years; however, in 1929 he was a regular at a café where the proprietor had a terrier. This dog was a major source of inspiration for Snowy.\n[…]\nSnowy's original French name Milou—an abbreviation of Marie-Louise—is borrowed from the nickname of Hergé's first girlfriend, Marie-Louise Van Cutsem. Marie-Louise's father disapproved of Hergé's low social standing, and the young couple's relationship consequently deteriorated. Nevertheless, Hergé remained fond of Marie-Louise, and made her the namesake of Tintin's most trusted friend.\n[…]\nAt the end of the run of Tintin in the Land of the Soviets on 8 May 1930, a mock reception for Snowy and Tintin was conducted at Brussels' Gare du Nord railway station. There Snowy was played by Hergé's cafékeeper's Fox Terrier. In The Adventures of Tintin television series, Snowy is voiced by Susan Roman. However, Snowy's comments are not present.\n[…]\nPeeters, Benoît (2012) [2002]. Hergé: Son of Tintin. Tina A. Kover (translator). Baltimore, Maryland: Johns Hopkins University Press. ISBN 978-1-4214-0454-7.\n[…]\nThompson, Harry (1991). Tintin: Hergé & His Creation. London: John Murray (Publishers). ISBN 978-1-84854-672-1."
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Capitão Haddock",
+      "descricao": "Capitão do mar beberrão e esbravejante, melhor amigo de Tintim"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O sobrenome do capitão Haddock, amigo de Tintim, é em inglês o nome de que tipo de animal?",
+    "resposta": "Peixe",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Captain_Haddock"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Captain_Haddock",
+        "situacao": "ok",
+        "texto": "Captain Archibald Haddock (French: Capitaine Archibald Haddock) is a character in the comic book series The Adventures of Tintin. He is Tintin's best friend, a sea captain in the merchant navy, and was introduced in The Crab with the Golden Claws. Haddock was initially depicted as a weak and alcoholic character, but in later albums he became more respectable and genuinely heroic (notably in the se\n[…]\nHaddock's name was suggested by Hergé's wife, who noted over a fish dinner that haddock was a \"sad English fish\". Hergé then utilised the name for the English captain he had just introduced. Haddock remained without a first name until the last completed story, Tintin and the Picaros (1976), when the name Archibald was suggested. As Haddock's role grew, Hergé expanded his character, basing him upon aspects of friends, with his characteristic temper somewhat inspired by Tintin colourist E.P.\n[…]\nAnother famous merchant navy captain named Haddock was Herbert Haddock of Rugby, Warwickshire, skipper of RMS Olympic during the early 20th century.\n[…]\nAt the time Captain Haddock was first introduced, just before the Second World War, his manners presented a moral problem to Hergé. As a sailor, Haddock ought to have very colourful language. However, Hergé had to balance that against the character's appearing in a Catholic children's magazine. The solution reportedly came when Hergé took advantage of a situation he had become embroiled in during 1933, shortly after the \"Four Powers Act\" had come into being.\n[…]\nConsequently Hergé actively started collecting difficult or dirty-sounding words for use in the captain's next anger attacks and on occasion even searched dictionaries to come up with inspiration.\n[…]\nDavid's Favourite Captain Haddock Curses Archived 28 May 2014 at the Wayback Machine\n[…]\nCaptain Haddock's Curses - an A to Z list"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Capit%C3%A3o_Haddock",
+        "situacao": "ok",
+        "texto": "Capitão Archibald Haddock (1912-1996) é um personagem da série de banda desenhada (português europeu) ou história em quadrinhos (português brasileiro) As Aventuras de Tintim, criado pelo quadrinista belga Hergé.\n[…]\nÉ um antigo capitão da marinha mercante francesa, trapalhão, de bom caráter, generoso, tem atos de coragem, mal-humorado, mas também engraçado com as suas distrações. É parceiro valioso de Tintim nas suas aventuras, mas não gosta quando este se envolve em perigosas aventuras. Nunca reage muito bem às peripécias que lhe vão surgindo pela frente, gritando muitas vezes \"raios\" e \"coriscos\" ou \"com mil milhões de macacos!\".\n[…]\nPouco se sabe sobre o seu passado, mas pode-se afirmar que durante mais de 20 anos navegou com o Capitão Chester, que Haddock reencontra no albúm A Estrela Misteriosa. Quanto à família de Haddock, conhece-se um dos seus antepassados, o cavaleiro Francisco de Hadoque (François de Hadoque), que trabalhava para o rei Luis XIV, de França.\n[…]\nO Cavaleiro de Hadoque recebeu este título e uma grande propriedade (o Château de Moulinsart), depois de derrotar Rackham, o Terrível, que era um pirata temido em toda a Europa. O Cavaleiro de Hadoque era também o capitão da famosa caravela Licorne.\n[…]\nCapitão Haddock é o presidente da L.M.A, a Liga dos Marinheiros Anti-Alcoólicos. Mesmo assim, é grande apreciador de álcool, principalmente de uísque, mas quer deixar de beber porque sabe que lhe faz mal.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Charlie Brown",
+      "descricao": "Menino azarado protagonista da tira Peanuts, de Charles Schulz, dono do Snoopy"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Charles Schulz tirou o nome de Charlie Brown, o dono do Snoopy, de uma pessoa real. Quem era ela?",
+    "resposta": "Um colega de trabalho de Schulz",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Charlie_Brown"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Charlie_Brown",
+        "situacao": "ok",
+        "texto": "Charles \"Charlie\" Brown is a fictional character and the principal protagonist of the American comic strip Peanuts, created by Charles M. Schulz and syndicated in daily and Sunday newspapers in numerous countries worldwide. Depicted as a \"lovable loser\", Charlie Brown is a popular and widely recognized cartoon character. Charlie Brown is characterized as a person who frequently suffers, and as a r\n[…]\nCharlie Brown and Snoopy reached new heights on May 18, 1969, when they became the names of the command module and lunar module, respectively, for the Apollo 10 mission. While not included in the official mission logo, Charlie Brown and Snoopy became semi-official mascots for the mission. Charles Schulz drew an original picture of Charlie Brown in a spacesuit; this drawing was hidden aboard the craft to be found by the astronauts once they were in orbit.\n[…]\nCharlie Brown is normally referred to by his full name (with the exceptions of Peppermint Patty who calls him \"Chuck\", Marcie, Eudora, Violet and Emily who call him 'Charles', Peggy Jean who calls him \"Brownie Charles\", and Sally Brown who calls him \"Big Brother\", though on extremely rare occasions, Lucy, Violet, Patty and Frieda did call him just \"Charlie\"). Charlie Brown's catchphrase is \"good grief\". Like Schulz, Charlie Brown is the son of a barber.\n[…]\nSome of these victories are hitting a game-winning home run off a pitch by a minor character named Royanne on a strip from 1993, and his victory over Joe Agate (another minor character) in a game of marbles on a strip from 1995. Although Charlie Brown is often unlucky within the strip's storylines, in some ways Charles M. Schulz created through the ever-persevering character \"the most shining example of the American success story in the comic strip field.\"\n[…]\nCharlie Brown, along with Snoopy, was ranked eighth on TV Guide's 50 Greatest Cartoon Characters of All Time."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Charlie_Brown",
+        "situacao": "ok",
+        "texto": "Charlie Brown é o protagonista do desenho animado Peanuts de Charles M. Schulz.\n[…]\nCharlie Brown e seu criador são ambos filhos de barbeiros, mas enquanto o trabalho de Schulz é descrito como o \"mais brilhante exemplo da história estadunidense de sucesso\", Charlie Brown é um exemplo da \"grande história estadunidense de fracasso\", já que ele falha em quase tudo o que tenta fazer.\n[…]\nCharlie Brown foi um dos personagens originais de Peanuts quando a série estreou em 1950, e o centro da primeira piada. À parte das diferenças estilísticas no desenho de Schulz na época, Charlie Brown sempre permaneceu com a mesma aparência. Ele vestia, entretanto, uma camiseta lisa; a listra em zigue-zague foi adicionada ainda durante o primeiro ano da série, em 21 de dezembro de 1950, de modo a caracterizá-lo um pouco mais.\n[…]\nSeu nome tem sido creditado por várias fontes a um amigo de infância de Schulz, ou ao escritor Charles Brockden Brown.\n[…]\nGeralmente todos os outros personagens se referem a ele por nome e sobrenome, \"Charlie Brown\", raramente por somente \"Charlie\". Notáveis exceções são Sally, que geralmente o chama de \"irmãozão\"; Snoopy, que o chama de \"garoto da cabeça redonda\"; e Patty Pimentinha e Marcie, que geralmente o chamam de \"Chuck\" e \"Charles\", respectivamente (no Brasil, Patty o chama de \"Minduim\", derivado do título Peanuts).\n[…]\nPágina de Charles M. Schulz no IMDB, consta lista de filmes e participações\n[…]\nPágina do museu Charles M. Schulz",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Ziraldo",
+      "descricao": "Cartunista e escritor mineiro, criador do Menino Maluquinho e da Turma do Pererê"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O cartunista mineiro Ziraldo recebeu um nome inventado, que junta pedaços dos nomes de quais pessoas?",
+    "resposta": "Da mãe e do pai",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Ziraldo"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ziraldo",
+        "situacao": "ok",
+        "texto": "Ziraldo Alves Pinto (Caratinga, 24 de outubro de 1932 – Rio de Janeiro, 6 de abril de 2024) foi um cartunista, chargista, pintor, escritor, dramaturgo, cartazista, caricaturista, poeta, cronista, desenhista, apresentador, humorista, advogado e jornalista brasileiro.\n[…]\nFoi o criador de personagens famosos, como o Menino Maluquinho, e foi um dos mais conhecidos e aclamados escritores infantis de seu tempo. Ziraldo foi pai de três filhos, a cineasta Daniela Thomas, o compositor Antonio Pinto e a diretora de teatro Fabrízia Alves Pinto. Faleceu em sua residência no estado do Rio de Janeiro, Lagoa Rodrigo de Freitas em 6 de abril de 2024 aos 91 anos.\n[…]\nZiraldo passou toda a infância em Caratinga. Era irmão do também desenhista, cartunista, jornalista e escritor Zélio Alves Pinto e também de Ziralzi Alves Pinto. Estudou dois anos no Rio de Janeiro e voltou a Caratinga, tendo concluído o módulo científico (atual ensino médio). Formou-se em Direito pela Universidade Federal de Minas Gerais em 1957. Seu talento no desenho já se manifestava desde essa época, tendo publicado um desenho no jornal Folha de Minas com apenas 6 anos de idade.\n[…]\nO cartunista foi casado com Vilma Gontijo Alves Pinto de 1958 até a morte dela em 2000, quando aos 66 anos ela sofreu um infarto enquanto dormia. Ziraldo casou-se novamente, dessa vez com Márcia Martins da Silva.\n[…]\nEm 31 de março de 2011, Ziraldo, seu irmão Zélio Alves Pinto e mais 9 pessoas foram condenados por improbidade administrativa na realização, em 2003, do primeiro Festival Internacional do Humor Gráfico das Cataratas do Iguaçu (Festhumor) e no \"Fantur - Iguaçu dê uma volta por aqui\", em ação movida em 2006 pelo Ministério Público Federal.\n[…]\nZiraldo no Instagram\n[…]\nZiraldo on Google Cultural Institute\n[…]\nZiraldo no IMDb"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Gibi",
+      "descricao": "Revista em quadrinhos brasileira lançada em 1939, cujo título virou sinônimo de revista em quadrinhos"
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Antes de virar sinônimo de revista em quadrinhos no Brasil, por causa de uma revista de 1939, a palavra gibi significava o quê?",
+    "resposta": "Moleque, menino negro",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Gibi"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gibi",
+        "situacao": "ok",
+        "texto": "Uma revista em quadrinhos ou gibi é uma publicação periódica, geralmente financiada por publicidade ou por leitores, destinada à publicação de histórias em quadrinhos. Durante grande parte do século XX, foi o formato mais frequente de publicação de histórias em quadrinhos.\n[…]\nA primeira revista em quadrinhos moderna, Famous Funnies, foi lançada nos Estados Unidos em 1933, e seu conteúdo continha republicações de tiras de jornal.\n[…]\nUma revista em quadrinhos difere dos álbuns e graphic novels causa de sua impressão menos luxuosa (lombada e capa mole, papel de baixa qualidade), geralmente com uma encadernação com grampos. Para reduzir os custos na maioria dos vários periódicos publicados, podem ser produzidos com poucas tintas, algumas até impressas em preto e branco, onde a técnica do claro-escuro pode ser utilizada.\n[…]\nOs outros dois grandes mercados quadrinhos são o mercado franco-belga e japonês. Na Espanha, a revista TBO foi a mais importante publicação, responsável pela popularização no país, de  a ponto de dar origem ao termo \"tebeo\" como sinônimo de histórias em quadrinhos. Em 1939, no Brasil, o grupo Globo lançou a revista intitulada Gibi. Originalmente, a palavra \"gibi\" significava \"menino\" mas com o tempo tornou-se sinônimo de revistas em quadrinhos no Brasil  (ver: História em quadrinhos no Brasil).\n[…]\nAté a década de 1990, havia uma grande oferta de revistas especializadas, mas em todo o mundo desde o final da década de 1990 com o surgimento de novas mídias, como a Internet e a globalização, algumas revistas notáveis publicadas desapareceram e houve uma redução das revistas em quadrinhos, das quais poucas permanecem, comparadas ao período de seu maior esplendor.\n[…]\nDia do Quadrinho Nacional\n[…]\nPrêmios de quadrinhos do Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "René Goscinny",
+      "descricao": "Roteirista francês de quadrinhos, cocriador de Asterix e roteirista de Lucky Luke"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que roteirista francês escreveu tanto as aventuras do gaulês Asterix quanto as do caubói Lucky Luke?",
+    "resposta": "René Goscinny",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/René_Goscinny"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/René_Goscinny",
+        "situacao": "ok",
+        "texto": "René Goscinny (French: [ʁəne ɡɔsini]; Polish: [ɡɔɕˈt͡ɕin.nɘ̟] ; 14 August 1926 – 5 November 1977) was a French comic editor and writer, who created the Asterix comic book series with illustrator Albert Uderzo. Born in France to a Jewish family from Poland, he spent his childhood in Argentina where he attended French schools and later lived in the United States for a short period of time. There he \n[…]\nStanisław and Anna had met in Paris and married in 1919. When René was two, the Gościnnys moved to Buenos Aires, Argentina, where his father had been hired as a chemical engineer. René had a happy childhood in Buenos Aires and studied in French-language schools there. He was often the class clown, probably to compensate for a natural shyness. He started drawing very early on, inspired by the illustrated stories which he enjoyed reading. He used to spend his summer holidays in Piriápolis, Uruguay.\n[…]\nAfter Goscinny's death, Uderzo began to write Asterix himself and continued the series, although at a much slower pace, until passing the series over in 2011 to writer Jean-Yves Ferri and illustrator Didier Conrad. Tabary similarly began to write Iznogoud himself, whereas Morris continued Lucky Luke with various other writers.\n[…]\nSince 1996, the René Goscinny Award is presented at the yearly Angoulême International Comics Festival in France as an encouragement for young comic writers.\n[…]\nRené Goscinny called Henri Gruel to constitute the technical and artistic teams of the Idéfix studios. The latter directed several animated short films and was responsible for the sound effects of Asterix the Gaul and Asterix and Cleopatra, as well as the two productions by Pierre Tchernia scripted by Goscinny, Le Viager and Les Gaspards.\n[…]\nGoscinny official site (in French)\n[…]\nAstérix official site\n[…]\nGoscinny biography on Asterix International!\n[…]\nGoscinny biography on Lambiek Comiclopedia\n[…]\nRené Goscinny at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Ren%C3%A9_Goscinny",
+        "situacao": "ok",
+        "texto": "René Goscinny (Paris, 14 de agosto de 1926 — Paris, 5 de novembro de 1977) foi um escritor de história em quadrinhos e cineasta francês. Ele é mais conhecido por ser co-criador de personagens como Asterix, Lucky Luke, Iznogoud, Humpá-Pá e O Pequeno Nicolau.\n[…]\nOs seus primeiros trabalhos foram para a Dupuis, mas ao mesmo tempo, trabalhou no desenvolvimento dos seus próprios personagens, nomeadamente Humpá-Pá. Em 1955, com a parceria de Morris, foi lançado o extremamente bem sucedido \"Lucky Luke\". Nesse mesmo ano, após um desentendimento, Goscinny abandonou a World Press Agency e, juntamente com Charlier, Uderzo e Jean Hebrard, criaram os syndicates independentes Edipress e Edifrance.\n[…]\nAinda nesse ano, lançaram a revista Pilote onde começaram a mostrar as obras de vários artistas novos e talentosos. Goscinny também criou o livro para crianças Le Petit Nicolas, com Jean-Jacques Sempé e, em 1956, escreveu editoriais e histórias para a Pilote bem como argumentos para filmes.\n[…]\nEm 1974, juntamente com Uderzo fundou os Estúdios Idefix para fazer versões animadas de Astérix, sendo a sua primeira produção \"Os doze trabalhos de Astérix\", tendo obtido um enorme sucesso. Posteriormente, produziram uma versão cinematográfica de \"Lucky Luke\".\n[…]\nCom Uderzo, Goscinny também recebeu vários prémios e foi considerado um herói nacional em França. Infelizmente, o trabalho duro e o esforço tinham feito estragos, vindo a morrer de ataque cardíaco a 5 de novembro de 1977, aos 51 anos de idade.\n[…]\nb. ↑ As séries Lucky Luke, Modeste et Pompon, Asterix e Iznogoud foram continuadas por outros escritores após a morte de Goscinny.\n[…]\nGoscinny official site (em francês)\n[…]\nGoscinny biography - Asterix International!\n[…]\nGoscinny biography - Lambiek Comiclopedia\n[…]\nRené Goscinny no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Professor Girassol",
+      "descricao": "Cientista distraído e meio surdo das Aventuras de Tintim, de Hergé"
+    },
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "O distraído Professor Girassol, de Tintim, foi inspirado em qual cientista suíço, pioneiro das viagens de balão à estratosfera?",
+    "resposta": "Auguste Piccard",
+    "distratores": [
+      "Albert Einstein",
+      "Jacques Cousteau",
+      "Wernher von Braun"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Professor_Calculus"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Professor_Calculus",
+        "situacao": "ok",
+        "texto": "Professor Cuthbert Calculus (French: Professeur Tryphon Tournesol [pʁɔ.fɛ.sœʁ tʁi.fɔ̃ tuʁ.nə.sɔl], meaning 'Professor Tryphon Sunflower' or, more scientifically, 'Professor Tryphon Litmus' – papier tournesol is 'litmus paper' in English) is a fictional character in The Adventures of Tintin, the comics series by Belgian cartoonist Hergé.\n[…]\nCalculus is partly modeled on inventor Auguste Piccard (1884–1962), Hergé stated in an interview with Numa Sadoul: \"Calculus is a reduced scale Piccard, as the real chap was very tall. He had an interminable neck that sprouted from a collar that was much too large... I made Calculus a mini-Piccard, otherwise I would have had to enlarge the frames of the cartoon strip.\" The Swiss physics professor held a teaching appointment in Brussels when Hergé spotted his unmistakable figure in the street.\n[…]\nIn The Castafiore Emerald, Bianca Castafiore mentions that Calculus is \"famous for his balloon ascensions\", an ironic reference to Piccard.\n[…]\nPhilippe Goddin has suggested that Calculus' deafness was inspired by Paul Eydt, whom Hergé had known at Le Vingtième Siècle where Tintin's adventures had first appeared. Cuthbert Calculus' original French name is \"Tryphon Tournesol\" and Tryphon was the name of Hergé's plumber.\n[…]\nCalculus' original French name was \"Tournesol\" which is not only the French term for \"litmus paper\" but also for sunflower. In the 1970s and 1980s, he starred in a series of cartoon television commercials for Fruit d'or products which included cooking oil and mayonnaise made from sunflower oil. Some of the ads would conclude with him floating up into the air to demonstrate how they kept a good healthy balance. Other characters from the books were also included.\n[…]\nA pseudonym variation was used on an album by Stephen Duffy – see Tin Tin and \"Dr. Calculus\"."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Professor_Girassol",
+        "situacao": "ok",
+        "texto": "Eis uma lista dos personagens presentes nas Aventuras de Tintim, série de histórias em quadrinhos criada pelo belga Hergé, e dos álbuns em que eles aparecem:\n[…]\nGirassol\n[…]\nO professor Trifólio Girassol (Tryphon Tournesol, no original em francês) é um cientista quase surdo, que entende e age diante de tudo de maneira equivocada como resultado de sua deficiência auditiva.\n[…]\nO personagem teria sido inspirado no explorador suíço Auguste Piccard, inventor do batiscafo e pioneiro na exploração de águas profundas, além de reconhecido balonista.\n[…]\nÉ geralmente visto como uma forma mais \"moderna\" de caráter, em contraste com os mais velhos arquétipos, como o ríspido capitão do mar e o professor distraído, que habitam os primeiros trabalhos de Hergé.\n[…]\nChefe da polícia secreta de Bordúria, aparece pela primeira vez no álbum O Caso Girassol. Nesta aventura, os serviços secretos de Bordúria pretendem sequestrar o Professor Girassol, que vivia com Tintim e o Capitão Haddock no castelo de Moulinsart, e assim obter informações sobre um novo invento do professor que poderia ser utilizado como arma de guerra.\n[…]\nO coronel tenta vingar-se de Tintim em Tintim e os Tímpanos (ou Tintim e os Pícaros). Sponsz está na república de San Theodoros como conselheiro militar, disfarçado com barba e cavanhaque, usando a identidade de coronel Esponja. Ele aproveita uma visita de Bianca Castafiore para realizar um plano que atraia Tintim, Haddock e Girassol a Las Dopicos, a capital de San Theodoros, para assim livrar-se deles para sempre.\n[…]\nTopolino (Alfredo) (L'Affaire Tournesol)\n[…]\nIgor Wagner (Le Sceptre d'Ottokar-L'Affaire Tournesol-Tintin et les Picaros-Les Bijoux de la Castafiore)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Wolverine",
+      "descricao": "Mutante canadense dos X-Men, com garras retráteis de adamantium, criado pela Marvel em 1974"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Antes de entrar para os X-Men, Wolverine estreou em 1974 brigando com qual gigante verde da Marvel, na revista dele?",
+    "resposta": "Hulk",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wolverine_(character)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wolverine_(character)",
+        "situacao": "ok",
+        "texto": "Wolverine is a superhero appearing in American comic books published by Marvel Comics. The character first appeared in the comic book The Incredible Hulk #180 (1974) and is best known as a member of the superhero team, the X-Men. Wolverine is the alias of James \"Logan\" Howlett, a mutant born in Canada in the late 19th century. He possesses a range of superpowers including highly advanced self-heal\n[…]\nMarvel Comics editor-in-chief Roy Thomas wanted to create a Canadian superhero and decided that wolverines were a typical Canadian animal that could inspire such a hero. He asked artist John Romita Sr. and writer Len Wein to devise a character of Canadian origin named Wolverine. Romita designed Wolverine's costume. Wolverine first appeared in the final \"teaser\" panel of The Incredible Hulk #180 (cover-dated October 1974), written by Wein and penciled by Herb Trimpe.\n[…]\nThe character then appeared in a number of advertisements in various Marvel Comics publications before making his first major appearance in The Incredible Hulk #181 (November 1974), again by the Wein–Trimpe team. In 2009, Trimpe said he \"distinctly remembers\" Romita's sketch and that, according to him, Romita and Wein \"sewed the monster together [while he] shocked it to life\".\n[…]\nWolverine was originally introduced as an antagonist of the Hulk. They have fought multiple times, but also occasionally team up against other foes. Wolverine's archenemy is Sabretooth, who shares the same basic powers and abilities with him. Sabretooth is somewhat older than Logan, and was also a participant in the Weapon X program. Wolverine has also frequently battled Lady Deathstrike, a samurai cyborg whose father invented the process of bonding adamantium to bone.\n[…]\nDeadpool & Wolverine became the highest grossing R-rated film ever made.\n[…]\nWolverine (Logan/James Howlett) at Marvel.com\n[…]\nWolverine (Earth-58163) at Marvel.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Wolverine",
+        "situacao": "ok",
+        "texto": "Wolverine (James \"Logan\" Howlett) é um personagem fictício que aparece nas histórias em quadrinhos estadunidenses publicadas pela Marvel Comics. Criado pelo escritor Len Wein e pelo diretor de arte da Marvel, John Romita Sr., com sua primeira aparição publicada escrita por Wein e desenhada pelo artista Herb Trimpe, o personagem surgiu pela primeira vez em The Incredible Hulk #180 (outubro de 1974)\n[…]\nEu pensei: 'Se um homem tem garras assim, como ele coçaria o nariz ou amarraria seus cadarços?\" Wolverine apareceu pela primeira vez no painel final de The Incredible Hulk #180 (publicado em outubro de 1974), escrito por Len Wein e desenhado a lápis por Herb Trimpe.\n[…]\nO personagem, então, apareceu em uma série de propagandas em várias publicações da Marvel Comics antes de fazer sua primeira grande aparição em The Incredible Hulk #181 (publicado em novembro de 1974) novamente pela equipe Wein-Trimpe. Em 2009, Trimpe disse que \"lembra claramente\" o esboço de Romita e que, \"do jeito que via, [Romita e Wein] costuraram o monstro juntos e ele lhe deu vida\", mesmo que \"fosse apenas um desses secundários ou terciários\".\n[…]\nJames e Heather Hudson o ajudam a recuperar sua humanidade após sua fuga, e Logan começa a trabalhar como um agente da inteligência Canadense chamado Departamento H. Ele se torna Wolverine, um dos primeiros super-heróis do Canadá. Em sua primeira missão, ele é despachado para impedir a destruição causada por uma briga entre o Hulk e o Wendigo.\n[…]\nEm 2009 a Lionsgate produziu o longa Hulk Vs. Wolverine (segundo episódio da minissérie Hulk Vs.). Nesse episódio o Hulk cruza a fronteira do Canadá e causa muito caos e destruição, com isso o governo canadense contrata o Wolverine para deter o Hulk. O longa também conta com a presença do Ômega Vermelho, Dentes de Sabre, Lady Letal e Deadpool.\n[…]\nWolverine e Hulk se reencontram novamente na serie animada Hulk e os Agentes de S.M.A.S.H.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Batman",
+      "descricao": "Super-herói da DC, identidade de Bruce Wayne, estreou em 1939"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em muitas versões, os pais de Bruce Wayne são mortos ao sair do cinema, depois de ver um filme de qual herói mascarado?",
+    "resposta": "Zorro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Thomas_Wayne",
+      "https://en.wikipedia.org/wiki/Batman"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Thomas_Wayne",
+        "situacao": "ok",
+        "texto": "Dr. Thomas Wayne, M.D. is a fictional character appearing in American comic books published by DC Comics. He is the father of Bruce Wayne, and husband of Martha Wayne as well as the paternal grandfather of Damian Wayne. Wayne was introduced in Detective Comics #33 (November 1939), the first exposition of Batman's origin story. A gifted surgeon and philanthropist to Gotham City, Wayne inherited the\n[…]\nFollowing the Crisis on Infinite Earths, Thomas as the \"First Batman\" was retconned – he instead attends the masquerade ball as Zorro. This was retconned once more in the pages of Superman/Batman, where Superman, hoping to reverse some universe-altering change in the time streams, lands in a version of Gotham City in which Thomas never died, finding him giving out Halloween candy in the original Batman costume.\n[…]\nAn alternate universe version of Thomas Wayne appears in Batman: Castle of the Bat. This version was resurrected as a Frankenstein-like creature after Bruce Wayne discovered his disembodied, preserved brain.\n[…]\nAn alternate universe version of Thomas Wayne appears in the Flashpoint event. This version became Batman to avenge the death of his son Bruce Wayne, with his wife Martha becoming a version of the Joker. Following his introduction in Flashpoint, Thomas makes subsequent appearances in the events Convergence, The Button, and Flashpoint Beyond.\n[…]\nAn alternate universe version of Thomas Wayne from Earth-Two who succeeded Bruce as Batman using the Miraclo pill appears in The New 52.\n[…]\nAn alternate universe version of Thomas Wayne appears in DC Comics Bombshells. This version was saved by Batwoman, leading Bruce Wayne to become Batman in the latter's honor.\n[…]\nThomas Wayne appears in Batman: The Dark Knight Returns, voiced by Bruce Timm.\n[…]\nThe Flashpoint Batman's outfit appears as a costume for Bruce Wayne / Batman in Injustice: Gods Among Us.\n[…]\nThomas Wayne appears in Batman: Arkham VR."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Batman",
+        "situacao": "ok",
+        "texto": "Batman is a superhero who appears in American comic books published by DC Comics. Batman was created by writer Bill Finger and artist Bob Kane, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in the fictional Gotham City. Originally a\n[…]\nAs an aristocratic hero with a double identity, Batman has predecessors in the Scarlet Pimpernel (created by Baroness Emmuska Orczy, 1903) and Zorro (created by Johnston McCulley, 1919). Like them, Batman performs his heroic deeds in secret, averts suspicion by playing aloof in public, and marks his work with a signature symbol. Kane noted the influence of the films The Mark of Zorro (1920) and The Bat Whispers (1930) in the creation of the character's iconography.\n[…]\nBruce officially adopts Tim Drake, an orphan, as his son. Subsequently, Batman meets Damian Wayne, his son with Talia al Ghul.\n[…]\nMore than just a caretaker, Alfred is a trusted ally and sometimes sidekick, sharing Wayne Manor with Bruce and contributing to Batman's mission.\n[…]\nThe role eventually passed to Damian Wayne, the 10-year-old son of Bruce Wayne and Talia al Ghul, in the late 2000s. Damian's tenure as Robin temporarily ended when the character was killed off in the pages of Batman Incorporated in 2013. He was brought back to life and returned to the role the next year.\n[…]\nAnother love interest is intrepid reporter Vicki Vale, who debuted in Batman #49 (1948), and was inspired by Superman's girlfriend, reporter Lois Lane. Vicki frequently tried to prove that Bruce Wayne was Batman, but never succeeded.\n[…]\nAdditionally, members of the group Batman Incorporated, Bruce Wayne's experiment at franchising his brand of vigilantism, have at times stood in as the official Batman in cities around the world."
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Hulk",
+      "descricao": "Monstro da Marvel, alter ego do cientista Bruce Banner, criado por Stan Lee e Jack Kirby em 1962"
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Stan Lee contou que o Hulk misturava o monstro de Frankenstein com qual outro clássico da literatura sobre um homem de duas personalidades?",
+    "resposta": "O Médico e o Monstro",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hulk"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hulk",
+        "situacao": "ok",
+        "texto": "The Hulk is a superhero appearing in American comic books published by Marvel Comics. Created by writer Stan Lee and artist Jack Kirby, the character first appeared in the debut issue of The Incredible Hulk (May 1962). In his comic book appearances, the character, who has dissociative identity disorder (DID), is primarily represented by the alter ego Hulk, an immense, green-skinned, hulking brute,\n[…]\nThe Hulk was created by Stan Lee and Jack Kirby. Lee cited influence from Frankenstein and Dr. Jekyll and Mr. Hyde in the Hulk's creation:\n[…]\nIt was patently apparent that [the monstrous character the] Thing was the most popular character in [Marvel's recently created superhero team the] Fantastic Four. ... For a long time, I'd been aware of the fact that people were more likely to favor someone who was less than perfect. ... It's a safe bet that you remember Quasimodo, but how easily can you name any of the heroic, handsomer, more glamorous characters in The Hunchback of Notre Dame? And then there's Frankenstein ...\n[…]\nOver the long publication history of the Hulk's adventures, many recurring characters have featured prominently, including his best friend and sidekick Rick Jones, love interest and wife Betty Ross and her father, the often adversarial General \"Thunderbolt\" Ross. Both Banner and Hulk have families created in their respective personas.\n[…]\nGeneral Ross' right-hand man, Major Glenn Talbot, also loves Betty and is torn between pursuing Hulk and trying to gain Betty's love more honorably. Rick Jones serves as the Hulk's friend and sidekick in these early tales. The Hulk's archenemies are the Abomination and the Leader. The Abomination is more monstrous-looking, twice as strong as the Hulk at normal levels (however, the Abomination's strength levels do not increase when he gets angry) and wreaks havoc for fun and pleasure.\n[…]\nHulk at the Grand Comics Database\n[…]\nHulk on IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hulk",
+        "situacao": "ok",
+        "texto": "O Hulk é um personagem fictício que aparece nas histórias em quadrinhos estadunidenses publicadas pela Marvel Comics. Criado pelo escritor Stan Lee e pelo artista Jack Kirby, o personagem apareceu pela primeira vez na edição de estreia de The Incredible Hulk #1 (maio de 1962).\n[…]\nEm uma entrevista, Stan Lee disse que ambos criadores se inspiraram fortemente no clássico livro de Robert Louis Stevenson, The Strange Case of Dr. Jekyll and Mr. Hyde (em português, O Estranho Caso de Dr. Jekyll e Sr. Hyde ou, também, O Médico e o Monstro) e no personagem Frankenstein, criado pelo escritora britânica Mary Shelley.\n[…]\nBanner desenhou a bomba de raios gama que causou sua aflição, e por ironia do seu destino, ele é autoinfligido; e tem sido um dos temas mais comuns e persistentes. Arie Kaplan descreve o personagem assim: \"Bruce Banner vive em um constante estado de pânico, sempre desconfiado de que o monstro dentro dele vai surgir, e, portanto, ele não pode formar ligações significativas com ninguém \".\n[…]\nHomem-Absorvente\n[…]\nNa minissérie escrita por Neil Gaiman chamada 1602, a contraparte do Hulk chama-se David Banner, ele é um servo do Rei James da Escócia, que obedece a todas as suas ordens sem titubear. No final da minissérie, ele se transforma em um monstro bruto e cinza.\n[…]\nEm 2016 Hulk ganha um novo filme animado chamado Hulk: Onde os Monstros Habitam.\n[…]\nEm O Incrível Hulk, há cinco anos Bruce Banner (Edward Norton) se transformou em um monstro grande e verde após testar em si mesmo raios gama, usando como base o soro do super soldado criado durante a Segunda Guerra Mundial. O experimento falha e Bruce acaba ferindo sua namorada, Betty Ross (Liv Tyler), e o pai dela, general Ross (William Hurt ).\n[…]\n«Hulk: As origens do monstro no site Omelete»\n[…]\nHulk (em inglês) no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Zé Carioca",
+      "descricao": "Papagaio malandro carioca criado pela Disney em 1942"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Zé Carioca estreou num filme da Disney de 1942, feito para aproximar os Estados Unidos da América Latina. Que política americana motivou o filme?",
+    "resposta": "Política da Boa Vizinhança",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/José_Carioca",
+      "https://en.wikipedia.org/wiki/Saludos_Amigos"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/José_Carioca",
+        "situacao": "ok",
+        "texto": "José \"Zé\" Carioca ( zhoh-ZAY KARR-ee-OH-kə; Portuguese: [ʒuˈzɛ kaˈɾjɔkɐ]) is a cartoon anthropomorphic parrot created by American cartoonist and animator Walt Disney during a trip to Rio de Janeiro in 1941 as a resource to support the relations between Latin America and the US during World War II (as part of the Good Neighbor Policy). It is alleged by some journalists that Disney presented the cha\n[…]\nThe Walt Disney Company then incorporated the idea, being introduced in the 1942 film Saludos Amigos as a friend of Donald Duck, described by Time as \"a dapper Brazilian parrot, who is as superior to Donald Duck as the Duck was to Mickey Mouse.\" He speaks Portuguese. He returned in the 1944 film The Three Caballeros along with Donald and a Mexican rooster named Panchito Pistoles. José is from Rio de Janeiro, Brazil (thus the name \"Carioca\", which is a term used for a person born in Rio).\n[…]\nIn April 2007, Disney re-introduced José Carioca (along with the third Caballero, Panchito) in the newly revamped ride at Epcot's Mexico Pavilion with entirely new animation and a new storyline. It has been dubbed \"The Gran Fiesta Tour\". After being reunited, The Three Caballeros are set to play a show in Mexico City. But Donald goes missing. José and Panchito must search throughout Mexico for Donald as he takes in various sights around Mexico.\n[…]\nIn 2002, José Carioca appears in the games of the Disney Sports series produced by Konami for Nintendo's GameCube and Game Boy Advance platforms, José is part of The TinyRockets teams alongside Huey, Dewey, and Louie, the games are Disney Sports Soccer (Association football), Disney Sports Basketball (basketball) and Disney Sports Football (American football).\n[…]\nJosé Carioca at Don Markstein's Toonopedia. Archived[link removed] from the original on October 22, 2016.\n[…]\nJosé \"Joe\" Carioca in the HooZoo\n[…]\nJosé \"Joe\" Carioca in a Who's who in Duckburg"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Saludos_Amigos",
+        "situacao": "ok",
+        "texto": "Saludos Amigos (Spanish for \"Greetings, Friends\") is a 1942 American live-action/animated anthology film produced by Walt Disney and released by RKO Radio Pictures. Set in Latin America, the featurette is made up of four different segments; Donald Duck stars in two of them and Goofy stars in one. It also features the first appearance of José Carioca, the malandro Brazilian parrot. Saludos Amigos p\n[…]\nThe film was a success, helping launch the international popularity of Donald Duck and leading Disney to produce The Three Caballeros (1944), another government-funded film aimed at Latin American goodwill.\n[…]\nThe film also inspired Chilean cartoonist René Ríos Boettiger to create Condorito, one of Latin America's most ubiquitous cartoon characters. Ríos perceived that the character Pedro, a small, incapable airplane, was a slight to Chileans and created a comic that could supposedly rival Disney's comic characters.\n[…]\nIn the segment, the Disney artists make a cartoon where Donald Duck visits Lake Titicaca in Bolivia and Peru and meets some of the locals, including an obstinate llama as an American tourist. When Donald tries to ride the llama over a bridge, he ends up falling into the sea and rows away in pots and pans.\n[…]\nWhen the bee flies out of his mouth, Donald sees a paint brush creating a brand-new character, José Carioca from Rio de Janeiro, Brazil, who shows Donald Duck around South America, lets him have a drink of cachaça with him, which is so spicy for Donald that he starts hiccuping, and introduces him to the samba (complete with the songs \"Aquarela do Brasil\" and \"Tico-Tico no Fubá\").\n[…]\nJosé do Patrocínio Oliveira – José Carioca (used in the Brazilian Portuguese version)\n[…]\nList of American films of 1942\n[…]\nBerndt Morris, Elizabeth; Morris, Charles  Walt Disney and Diplomacy: The Musical Impact of Aquarela do Brasil  Latin American Music Center\n[…]\nSaludos Amigos at Disney A to Z"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Z%C3%A9_Carioca",
+        "situacao": "ok",
+        "texto": "Zé Carioca é o apelido (alcunha em português europeu) do papagaio José Carioca (nos Estados Unidos e nos Países Baixos, também chamado de Joe Carioca), personagem fictício desenvolvido no começo da década de 1940 pelos estúdios Walt Disney. Ele é retratado como o típico malandro carioca, sempre escapando dos problemas com o jeitinho característico. Sua primeira aparição foi no filme Saludos Amigos\n[…]\nO personagem brasileiro foi criado durante a Segunda Guerra Mundial, na verdade fez parte de uma estratégia chamada de política de boa vizinhança dirigida pelo governo dos Estados Unidos para melhorar as relações e obter apoio político dos países latino-americanos.\n[…]\nO papagaio José Carioca (vulgo Zé Carioca) foi criado para o filme Alô, amigos (Saludos Amigos), de 1942, lançado nos EUA no ano seguinte pela Disney. Antes do lançamento americano, tiras de jornal foram publicadas com as aventuras do Zé Carioca.\n[…]\nJosé Zé Carioca, o querido papagaio, representante do Brasil.\n[…]\nZé Carioca aparece ao lado de Donald e do Aracuã no segmento Blame It on the Samba do filme Tempo de Melodia (1948).\n[…]\nZé Carioca e Panchito - Silly Simphonies 1942-1945\n[…]\nAs incoerências e desatualização na composição do Zé Carioca, se explicam pelo fato de que o personagem não foi concebido com o objetivo do formato sequencial dos quadrinhos, mas sim para um breve curta homenageando a América Latina (que mais tarde tornar-se-iam dois). Não foi pensado no futuro que o personagem teria quando o próprio Walt Disney criou o personagem, que não era um favelado, sequer um caloteiro, apenas um entusiasta do Brasil.\n[…]\nMorcego Verde (1975) - Super-herói encarnado pelo papagaio, que luta contra o crime com seus métodos nada convencionais, e faz uso da morcegocleta (popularmente conhecida como “a bicicleta do vizinho”). Embora desconverse, todos sabem se tratar do Zé Carioca – paródia do Batman.\n[…]\nZé Carioca (em inglês) no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Jornalismo amarelo",
+      "descricao": "Termo americano para a imprensa sensacionalista do fim do século dezenove, equivalente à imprensa marrom"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em inglês, a imprensa sensacionalista ganhou o apelido de jornalismo amarelo por causa de qual personagem de quadrinhos de 1895?",
+    "resposta": "Yellow Kid (o Menino Amarelo)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Yellow_journalism",
+      "https://en.wikipedia.org/wiki/The_Yellow_Kid"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Yellow_journalism",
+        "situacao": "ok",
+        "texto": "In journalism, yellow journalism is the use of eye-catching headlines and sensationalized exaggerations for increased sales, while the yellow press are American newspapers which do so. This term is chiefly used in American English, whereas in the United Kingdom, the similar term tabloid journalism is more common. Yellow journalism emerged in the intense battle for readers by two newspapers in New \n[…]\ncan be written without an acknowledgment that whatever of justice and freedom and progress was accomplished by the Spanish–American War was due to the enterprise and tenacity of yellow journalists, many of whom lie in unremembered graves.\"\n[…]\nWhen McKinley was shot on September 6, 1901, critics accused Hearst's Yellow Journalism of driving Leon Czolgosz to the deed. It was later presumed that Hearst did not know of Bierce's column, and he claimed to have pulled Brisbane's after it ran in a first edition, but the incident would haunt him for the rest of his life, and all but destroyed his presidential ambitions.\n[…]\nPulitzer, haunted by his \"yellow sins,\" returned the World to its crusading roots as the new century dawned. By the time of his death in 1911, the World was a widely respected publication, and would remain a leading progressive paper until its demise in 1931. Its name lived on in the Scripps-Howard New York World-Telegram, and then later the New York World-Telegram and Sun in 1950, and finally was last used by the New York World-Journal-Tribune from September 1966 to May 1967.\n[…]\nThe Yellow Journal\n[…]\nWood, Mary (February 2, 2004), \"Selling the Kid: The Role of Yellow Journalism\", The Yellow Kid on the Paper Stage: Acting out Class Tensions and Racial Divisions in the New Urban Environment, American Studies at the University of Virginia, archived from the original on November 7, 2014, retrieved October 17, 2007"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/The_Yellow_Kid",
+        "situacao": "ok",
+        "texto": "The Yellow Kid (Mickey Dugan) is an American comic-strip character that appeared from 1895 to 1898 in Joseph Pulitzer's New York World, and later William Randolph Hearst's New York Journal. Created and drawn by Richard F.\n[…]\nThe Yellow Kid is also famous for its connection to the coining of the term \"yellow journalism\". The idea of \"yellow journalism\" referred to stories that were sensationalized for the sake of selling papers, and was so named after the \"Yellow Kid\" cartoons. Through his cartoons, Outcault's work aimed his humor and social commentary at Pulitzer's adult readership.\n[…]\nThe character who would later become the Yellow Kid first appeared on the scene in a minor supporting role in a single-panel cartoon published in the strip Feudal Pride in Hogan's Alley on 2 June 1894 in Truth magazine. There were a few more Hogan's Alley cartoons featuring the Hogan's Alley kids over the rest of 1894 and the beginning of 1895.\n[…]\nIn 1896, Outcault was hired away at a much higher salary to William Randolph Hearst's New York Journal where he drew the Yellow Kid in a new full-page color strip which was significantly violent and even vulgar compared to his first panels for Truth magazine.\n[…]\nOutcault produced three subsequent series of Yellow Kid strips at the Journal, each lasting no more than four months:\n[…]\nThe two newspapers that ran the Yellow Kid, Pulitzer's World and Hearst's Journal, quickly became known as the yellow kid papers. This was contracted to the yellow papers and the term yellow kid journalism was at last shortened to yellow journalism, describing the two newspapers' editorial practices of taking (sometimes even fictionalized) sensationalism and profit as priorities in journalism."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Imprensa_marrom",
+        "situacao": "ok",
+        "texto": "Imprensa marrom é uma expressão de cunho pejorativo, utilizada popularmente no Brasil para se referir à imprensa sensacionalista - isto é, veículos de comunicação (principalmente jornais, mas também revistas e emissoras de rádio e TV) que buscam elevadas audiências e vendagem através da divulgação exagerada de fatos e acontecimentos, sem compromisso com a autenticidade. É uma transgressão da ética\n[…]\nO termo \"Yellow Press\" surgiu especificamente devido a uma popular tira de quadrinhos colorida chamada \"The Yellow Kid\" (O Garoto Amarelo), que ambos os jornais usaram como arma nessa guerra de circulação, tornando-se um símbolo desse tipo de jornalismo sensacionalista.The Yellow Kid foi um personagem de histórias em quadrinhos criado por Richard F. Outcault, publicado entre 1894 e 1898 nos jornais New York World e New York Journal.\n[…]\nO personagem aparecia em tiras ambientadas no cenário urbano conhecido como \"Hogan’s Alley\", representando crianças em áreas populares de Nova York e caracterizado pela camisola amarela distinta.O nome do personagem tornou-se associado ao termo “imprensa amarela” em inglês (\"yellow journalism\"), usado para descrever o estilo sensacionalista de jornalismo que proliferou nos Estados Unidos na década de 1890, especialmente durante a guerra pela circulação entre os jornais de Joseph Pulitzer e William Randolph Hearst.Originalmente publicado no New York World de Pulitzer, o personagem tornou-se tão popular que Hearst contratou Outcault para o seu New York Journal em 1896, iniciando uma batalha judicial e editorial pela exclusividade do garoto.\n[…]\nOs excessos associados à imprensa amarela no final do século XIX, marcados pelo sensacionalismo, pela dramatização de eventos e pela flexibilização dos critérios de verificação factual, tiveram impactos duradouros sobre o campo do jornalismo.\n[…]\nImprensa rosa\n[…]\nImprensa marrom - Jornal O Globo (em português)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Capitão Marvel (Shazam)",
+      "descricao": "Super-herói criado em 1939 pela editora Fawcett, que se transforma ao gritar a palavra mágica Shazam"
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Nos anos 1950, o Capitão Marvel original, que se transforma ao gritar Shazam, sumiu das bancas depois de um processo da DC. Qual era a acusação?",
+    "resposta": "Plágio do Superman",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/National_Comics_Publications_v._Fawcett_Publications",
+      "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/National_Comics_Publications_v._Fawcett_Publications",
+        "situacao": "ok",
+        "texto": "National Comics Publications v. Fawcett Publications, 191 F.2d 594 (2d Cir. 1951). was a decision by the United States Court of Appeals for the Second Circuit in a twelve-year legal battle between National Comics (also known as Detective Comics and DC Comics) and the Fawcett Comics division of Fawcett Publications, concerning Fawcett's Captain Marvel character being an infringement on the copyrigh\n[…]\nThe trial was decided in Fawcett's (Captain Marvel's) favor because of information Fawcett's lawyers had uncovered about Superman's copyright status. The defense lawyers provided evidence that National Comics and the McClure Syndicate failed to copyright several of their  Superman newspaper comic strips, and the trial judge decided that National had abandoned its Superman copyright such that it was no longer valid.\n[…]\nThe trial judge did find, however, that Captain Marvel was an illegal copy of National's Superman.\n[…]\nNational appealed the decision in 1951 to the United States Court of Appeals for the Second Circuit, with Judge Learned Hand presiding. Judge Hand's ruling in National's favor reversed a part of the trial court's decision. National's Superman copyright was held valid but the McClure strip was not under copyright, and the finding that Captain Marvel was an infringement of that copyright was affirmed.\n[…]\nJudge Hand’s ruling focused on the similarities between the stories and elements used in Captain Marvel and Superman comics, rather than explicitly separating the character concept from the narrative similarities. The case was sent back to a lower court to determine whether specific elements, such as storylines and superpowered feats, constituted infringement.\n[…]\nSuperman v Captain Marvel (comic book covers used in trial) at the Wayback Machine (archived January 28, 2020)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)",
+        "situacao": "ok",
+        "texto": "Shazam (), also known as  Captain Marvel and The Captain, is a superhero appearing in American comic books originally published by Fawcett Comics and currently published by DC Comics. Artist C. C. Beck and writer Bill Parker created the character in 1939. Shazam first appeared in Whiz Comics #2 (cover-dated Feb. 1940), published by Fawcett Comics.\n[…]\nThe real Captain Marvel would finally meet Superman in Justice League of America #137, two years later (although he met Lex Luthor in Shazam! #15, November/December 1974).\n[…]\nBecause of licensing issues and the development of the Shazam! feature film at New Line Cinema, Captain Marvel and characters related to him could not appear in the DC Animated Universe. A planned appearance in Superman: The Animated Series went unproduced, as did a proposed Shazam! series for Cartoon Network pitched by Paul Dini and Alex Ross around the same time.\n[…]\nCaptain Marvel appears in Superman/Shazam!: The Return of Black Adam, voiced again by Jerry O'Connell, while Billy Batson is voiced by Zach Callison.\n[…]\nWhile publishing its Shazam! revival in the 1970s, DC Comics published a story in Superman #276 (June 1974) featuring a battle between the Man of Steel and a thinly disguised version of Captain Marvel called Captain Thunder, a reference to the character's original name. He apparently battles against a Monster League, who cast a spell to make him evil, but Superman helps him break free.\n[…]\nIn Shazam! #30 (1977), Dr. Sivana creates several steel creatures to destroy Pittsburgh's steel mills, after getting the idea from reading an issue of Action Comics. He finally creates a Superman robot made of a super-steel to destroy Captain Marvel. They both hit each other at the same moment, and the robot is destroyed.\n[…]\nCaptain Marvel on DC Database, a DC Comics wiki\n[…]\nCaptain Marvel (1941), the Republic Pictures serial"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Capitão Marvel (Shazam)",
+      "descricao": "Super-herói criado em 1939 pela editora Fawcett, que se transforma ao gritar a palavra mágica Shazam"
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Na palavra mágica Shazam, cada letra traz o poder de um herói ou deus antigo. De quem vem a letra H?",
+    "resposta": "Hércules",
+    "distratores": [
+      "Hermes",
+      "Hades",
+      "Heitor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)",
+        "situacao": "ok",
+        "texto": "Shazam (), also known as  Captain Marvel and The Captain, is a superhero appearing in American comic books originally published by Fawcett Comics and currently published by DC Comics. Artist C. C. Beck and writer Bill Parker created the character in 1939. Shazam first appeared in Whiz Comics #2 (cover-dated Feb. 1940), published by Fawcett Comics.\n[…]\nWhiz Comics #2 (cover-dated Feb. 1940) was published in late 1939. Captain Marvel, the comic's lead feature, introduced audiences to Billy Batson, an orphaned 12-year-old boy who, by speaking the name of the ancient wizard Shazam, is struck by a magic lightning bolt and transformed into the adult superhero Captain Marvel. Shazam's name was an acronym derived from the six immortal elders who grant Captain Marvel his superpowers: Solomon, Hercules, Atlas, Zeus, Achilles, and Mercury.\n[…]\nThe six children, collectively known as \"S.H.A.Z.A.M.\", each possess one of the six attributes of the power of Shazam, and must say the magic word together to become Captain Thunder. They are: Eugene Choi, who possesses the wisdom of Solomon; Pedro Peña, who possesses the strength of Hercules; Mary Batson, Freddy Freeman and Billy Batson, who possess the stamina of Atlas, the power of Zeus, and the courage of Achilles, respectively; and Darla Dudley who possesses the speed of Mercury.\n[…]\nWith the wizard Shazam absent from this series, Billy received his powers and counsel directly from the six \"immortal elders\" represented in the \"Shazam\" name, who were depicted via animation: Solomon, Hercules, Atlas, Zeus, Achilles, and Mercury. Shazam! starred Michael Gray as Billy Batson, with both Jackson Bostwick (season 1) and John Davey (seasons 2 and 3) as Captain Marvel.\n[…]\nCaptain Marvel on the DC Animated Universe Wiki, an external wiki\n[…]\nCaptain Marvel (1941), the Republic Pictures serial"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Shazam_%28DC_Comics%29",
+        "situacao": "ok",
+        "texto": "Shazam, como era conhecido também como Capitão, anteriormente como Capitão Marvel, é um personagem fictício e super-herói das histórias em quadrinhos pertencente à editora DC Comics, onde seu alter-ego é uma criança, Billy Batson, que se transformava num herói gritando “Shazam!”.\n[…]\nOs poderes do Capitão Marvel são oriundos de seis personagens que lhe concedem tais características — sendo eles, Salomão (sabedoria), Hércules (vasta força física), Atlas (resistência, invulnerabilidade), Zeus (poderes mágicos), Aquiles (coragem) e Mércurio (velocidade, capacidade de voo). Shazam é designado, pelos próprios deuses que lhes concedem os poderes, como o Campeão da Humanidade.\n[…]\nApós os eventos de Flashpoint, nos Novos 52, foram mantidos Billy Batson (Shazam), Freddy Freeman (Shazam Jr.) e Mary Bromfield (Lady Shazam), cada um possui um poder, coragem de Arquiles, poder de Zeus e resistência de Atlas, respectivamente, sendo adicionados Eugene Choi (sabedoria de Salomão), Pedro Peña (força Hércules) e a Darla Dudley (velocidade de Mercúrio), a fusão dos seis irmãos forma o Capitão Trovão. O sétimo campeão é o pai biológico de Billy, C.C.\n[…]\nEm 1983, uma proposta para uma versão atualizada do Capitão Marvel foi submetida a DC por Roy Thomas, Don Newton, e Jerry Ordway. Esta versão do personagem, para ser um habitante da Terra-1, enquanto que o Capitão Marvel habitava universo da Terra-S, essa versão trazia um afro-americano chamado \"Willie Fawcett\" (como na história 1974), que falou a palavra mágica \"Shazam!\" para se tornar Captain Thunder.\n[…]\nCaptain Thunder (2011)\n[…]\nCapitão Marvel é detentor do poder de Shazam, que extrai os dons de Salomão (sabedoria); de Hércules (força); de Atlas (vigor); de Zeus (poder); de Aquiles (coragem); e de Mercúrio (velocidade).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Vingadores",
+      "descricao": "Equipe de super-heróis da Marvel criada por Stan Lee e Jack Kirby em 1963"
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que herói, muitas vezes líder dos Vingadores, ficou fora da formação original de 1963 e só entrou para a equipe na quarta edição?",
+    "resposta": "Capitão América",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Avengers_(comics)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Avengers_(comics)",
+        "situacao": "ok",
+        "texto": "The Avengers are a superhero team appearing in American comic books published by Marvel Comics, created by writer-editor Stan Lee and artist/co-plotter Jack Kirby. The team made its debut in The Avengers #1 (cover-dated September 1963). Labeled \"Earth's Mightiest Heroes\", the original Avengers consisted of Iron Man, Ant-Man, Hulk, Thor, and Wasp. Captain America was discovered trapped in ice in is\n[…]\nCaptain America: The Winter Soldier's exhibit, \"Captain America: The Living Legend and Symbol of Courage\", featured a meet and greet experience.\n[…]\nIn the Battleworld domain of the Walled City of New York, the Avengers consist of Captain America, Hulk, Iron Man, Rage, Scarlet Witch, She-Hulk, Spider-Man, and Thor.\n[…]\nIn the Ultimate Marvel Universe, the Avengers are named the Ultimates, and were formed by Nick Fury to protect America against superhuman threats. They first appeared in The Ultimates by Mark Millar and Bryan Hitch. After the events of The Ultimates 2, the team left S.H.I.E.L.D. employment to become independent and financed by Tony Stark.\n[…]\nA Black Ops team called the Avengers debuted sometime after the Ultimatum storyline. This version was a project headed by Nick Fury and Gregory Stark to bring Captain America back. Its known members consisted of War Machine, Hawkeye, Black Widow, Spider, Tyrone Cash, Red Wasp, and Nerd Hulk (an intelligent clone of Hulk who lacks Hulk's rage). Additional members included Punisher and Blade.\n[…]\nThe Avengers: Earth's Mightiest Heroes was based on the early adventures of the team, but also used many elements from other runs. The TV show ran for two seasons, from 2010 to 2012, and started presenting the original Avengers line-up founded by Iron Man, Thor, Ant-Man, Wasp and the Hulk, who temporarily leaves the group after battling the Enchantress and Executioner. Captain America later joins the team, replacing Hulk during his absence."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Vingadores",
+        "situacao": "ok",
+        "texto": "Vingadores ou Os Vingadores (The Avengers no original em inglês) são um grupo de super-heróis de história em quadrinhos publicados nos Estados Unidos pela editora Marvel Comics. O grupo também aparece em adaptações da Marvel para cinema, desenho animado e jogos eletrônicos.\n[…]\nOs heróis mais conhecidos são a formação original de Thor, Homem de Ferro, Homem-Formiga e a Vespa, e Hulk, além de seu primeiro recruta, o Capitão América (introduzido na quarta edição). A equipe, inspirada na Liga da Justiça da DC Comics, tem molde de um clube, inclusive com o mordomo do Homem de Ferro, Jarvis, os servindo.\n[…]\nA escalação da equipe mudou quase que instantaneamente: o Homem-Formiga se tornou o Gigante, e o Hulk, ao perceber o quanto os outros temiam sua personalidade instável, deixou-a ao final da segunda edição. A tentativa de conter o Hulk levou os Vingadores a combater Namor, O Príncipe Submarino, e isso por sua vez, levou a equipe ao primeiro marco em sua história - o retorno do Capitão América, em The Avengers #4 (Março de 1964).\n[…]\nOs membros originais a participar dos Vingadores são conhecidos como \"membros fundadores\", responsáveis pelo bom nome da equipe. Capitão América ganhou o título de \"membro fundador\" no lugar do Hulk (como revelado em Avengers Vol. 3 #1, de fevereiro de 1998).\n[…]\nConsequentemente, outras equipes de heróis surgiram para combater Osborn. Entre elas, uma nova formação dos Novos Vingadores: Ronin (Clint Barton) (líder), Luke Cage, Homem-Aranha (Peter Parker), Wolverine (James Howlett), Mulher-Aranha, Harpia (Bobbi Morse), Miss Marvel (Carol Danvers) e Capitão América (Bucky Barnes).\n[…]\ncomo ilustrador regular, os membros da equipe são Capitão América (Bucky), Homem de Ferro, Thor, Wolverine, Homem-Aranha, Mulher-Aranha e Gavião Arqueiro.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Mauricio de Sousa",
+      "descricao": "Quadrinista paulista, criador da Turma da Mônica"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Antes de viver dos quadrinhos, Mauricio de Sousa foi repórter do jornal Folha da Manhã. Que tipo de notícia ele cobria?",
+    "resposta": "Notícias policiais",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Mauricio_de_Sousa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mauricio_de_Sousa",
+        "situacao": "ok",
+        "texto": "Mauricio Araújo de Sousa OMC (Santa Isabel, 27 de outubro de 1935) é um cartunista, empresário e escritor brasileiro. Ganhou notoriedade nacional e internacional por ter criado a série de histórias em quadrinhos infantis Turma da Mônica, para a qual desenvolveu mais de 200 personagens. Com mais de seis décadas de carreira, Sousa é amplamente referenciado como um dos maiores cartunistas da história\n[…]\nNascido em uma família de artistas, Sousa começou sua carreira como repórter policial, quando criou seu primeiro personagem, o cão Bidu. Inspirado em sua infância e em seus filhos, desenvolveu personagens icônicos como Mônica, Cebolinha, Cascão e Magali, que se tornaram ícones da cultura popular brasileira.\n[…]\nO pai de Maurício criticava o governo Vargas em seus jornais Vespa e A Caveira. Em 1940, a polícia invadiu e destruiu sua gráfica, e a família passou a morar em São Paulo por dois anos.\n[…]\nMauricio queria viver profissionalmente do desenho. Para isso, em 1954, procurou emprego de desenhista em São Paulo, mas só conseguiu uma vaga de repórter policial na Folha da Manhã. Passou cinco anos escrevendo esse tipo de reportagem, que ilustrava com desenhos bem aceitos pelos leitores. Mauricio de Sousa começou a desenhar histórias em quadrinhos em 18 de julho de 1959, quando uma história do cãozinho Bidu, seu primeiro personagem, foi aprovada pelo jornal.\n[…]\nEm 20 de março de 2008, seu filho mais novo, Marcelo, sua ex-esposa Marinalva Pereira dos Santos, mãe de Marcelo, e o filho dela, Vitor Hugo, então com 2 anos de idade, foram sequestrados numa residência na zona rural de São José dos Campos por uma quadrilha. Foram levados para São Sebastião, litoral paulista, e libertados pela polícia civil em 6 de abril.\n[…]\nEm 6 de dezembro de 2024, durante o painel da Mauricio de Sousa Produções na CCXP24, foi confirmado que a cinebiografia Mauricio de Sousa: O Filme chegaria aos cinemas em 2025."
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Lucky Luke",
+      "descricao": "Caubói solitário dos quadrinhos franco-belgas, criado por Morris em 1946"
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Em 1983, o caubói Lucky Luke abandonou o cigarro que vivia pendurado em sua boca. O que passou a levar no lugar?",
+    "resposta": "Um talo de capim",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lucky_Luke"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lucky_Luke",
+        "situacao": "ok",
+        "texto": "Lucky Luke is a Western comic album series created by Belgian cartoonist, Maurice De Bevere, best known by the pen name Morris, in 1946. Morris drew the series and wrote some of the early adventures while his brother, Louis, wrote and co-wrote some other ones until 1955, after which he started collaborating with French writer René Goscinny. Their partnership lasted until Goscinny's death in 1977. \n[…]\nLucky Luke 2 (1991)\n[…]\nIn 1983, Hanna-Barbera Productions, France 3, Gaumont, Extrafilm Berlin and Morris collaborated to produce the animated TV series Lucky Luke, which ran for 26 episodes and was based on original album stories. The series' main voice actors were William Callaway as Lucky Luke, Robert Ridgely as Jolly Jumper, Paul Reubens as Bushwack, Frank Welker as Joe Dalton, Rick Dees as Jack Dalton, Fred Travalena as William Dalton, Bob Holt as Averell Dalton, and Mitzi McCall as Ma Dalton.\n[…]\nLucky Luke – Tiger Handheld – 1984\n[…]\nGo West! A Lucky Luke Adventure – DS, Windows, Wii – 2007\n[…]\nIn 2022, the Belgian government included a tribute to Lucky Luke in the visa pages of its newly redesigned passport. It features a blank silhouette of Luke and Jolly Jumper in Monument Valley, with the full detail of the characters being revealed under UV light.\n[…]\nLefèvre, Pascal. 1998. \"Lucky Luke, a 'lonesome cowboy' for more than half a century. In The Low Countries, 1998–1999\". In The Low Countries: Arts and Society in Flanders and the Netherlands: A Yearbook, 1998-99. Stichting Ons Erfdeel.\n[…]\nLucky Luke official site (in French)\n[…]\nEnglish publisher of Lucky Luke - Cinebook Ltd\n[…]\nLucky Luke English publications\n[…]\nList of Lucky Luke games at MobyGames\n[…]\nIn Brussels, a wall is dedicated to Lucky Luke.\n[…]\nGerman editions of Lucky Luke\n[…]\nGoscinny website on Lucky Luke[link removed] (in French)\n[…]\nEuro Book's Lucky Luke 24 Albums Set (2009)\n[…]\nCine Books Lucky Luke #1-10 Albums Set (2008)\n[…]\nTara Press's Lucky Luke 5 Albums Set (2007)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lucky_Luke",
+        "situacao": "ok",
+        "texto": "Lucky Luke é uma série de banda desenhada ou história em quadrinhos, de origem franco-belga, ambientada no Velho Oeste americano e criada em 1946 por Morris.\n[…]\nLucky Luke caracterizou-se por ter sempre ao canto da boca um cigarro, mas a partir de 1983 Morris decidiu substituir o mesmo por uma palha, o que lhe valeu o reconhecimento da Organização Mundial de Saúde (OMS), recebendo a 7 de Abril de 1988 em Genebra uma medalha, pelas jornadas mundiais sem tabaco.\n[…]\nBilly The Kid — Outro inimigo recorrente de Lucky Luke. Ele é um dos bandidos mais perigosos do velho oeste.\n[…]\nEm 1983, a Hanna-Barbera Productions, a France 3, a Gaumont Film Company, a Extrafilm Berlin e Morris colaboraram para produzir a série de animação para televisão Lucky Luke, que teve 26 episódios e foi baseada em histórias originais dos álbuns.\n[…]\nA série italiana de televisão Lucky Luke, foi baseada nos filmes do ano anterior e novamente estrelada por Terence Hill. Em 2001, a Xilam produziu a série animada de 52 episódios Les Nouvelles aventures de Lucky Luke (As Novas Aventuras de Lucky Luke). Ela foi lançada em um conjunto de oito DVDs com áudio em francês e inglês. Esta série também apresentou o Coronel Custer, que nesta versão é um anão que odeia índios.\n[…]\nA Xilam produziu mais duas séries animadas com Lucky Luke: Rintindumb (2006) e Les Dalton (fr) (2010).\n[…]\nLes Dalton en cavale (1983)\n[…]\nGo West! A Lucky Luke Adventure\n[…]\nLucky Luke (1991)\n[…]\nLucky Luke 2 (1991)\n[…]\nLucky Luke (2009)\n[…]\n(em francês) Site Oficial do Lucky Luke\n[…]\n(em inglês) Edições do Lucky Luke em Inglês\n[…]\n(em português) Lucky Luke: O Cowboy mais rápido que a própria sombra![ligação inativa]",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "Lucy van Pelt",
+      "descricao": "Menina mandona da tira Peanuts, de Charles Schulz, irmã de Linus"
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Na tira Peanuts, quanto a mandona Lucy cobra por consulta na sua barraquinha de conselhos psiquiátricos?",
+    "resposta": "Cinco centavos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lucy_van_Pelt"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Lucy_van_Pelt",
+        "situacao": "ok",
+        "texto": "Lucille \"Lucy\" Van Pelt is a fictional character in the syndicated comic strip Peanuts, written and drawn by Charles Schulz. She is the older sister of Linus and Rerun. Lucy is characterized as a \"fussbudget\", crabby, bossy and opinionated girl who bullies most other characters in the strip, particularly Linus and Charlie Brown.\n[…]\nThe third new character in Peanuts after Violet and Schroeder, Lucy made her debut on March 3, 1952. Originally based on Schulz's adopted daughter Meredith, Lucy was a goggle-eyed toddler who continually annoyed her parents and the older kids. Her future irascibility was hinted at in a 1953 strip when she tells Charlie Brown that she'd just been expelled from nursery school.\n[…]\nLucy was named for Louanne Van Pelt (1929–2015), a former neighbor of Schulz in Colorado Springs, Colorado. According to David Michaelis of Time, she was modeled after Schulz's first wife, Joyce.\n[…]\nThe football strips became an annual tradition, and Schulz did one nearly every year for the rest of the strip's run, becoming a core part of Peanuts lore. The most controversial example is in the animated special It's Your First Kiss, Charlie Brown. During an actual football game with many spectators, Lucy pulls the ball away on Charlie Brown four times keeping him from making any scoring plays and causing the team to lose the Homecoming game by one point.\n[…]\nAlthough clearly innocent, he is blamed for the loss even by Lucy herself. In the Peanuts specials, this first happens in It's the Great Pumpkin, Charlie Brown. In A Charlie Brown Thanksgiving, Lucy says that \"the biggest, most important tradition of all is the kicking off of the football\", readying Charlie Brown to kick the football before she once again pulls it out from under him."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lucy_van_Pelt",
+        "situacao": "ok",
+        "texto": "Peanuts (no Brasil também conhecido como Minduim) é uma tira de jornal escrita e desenhada pelo cartunista norte-americano Charles Schulz que foi publicada de 2 de outubro de 1950 a 12 de fevereiro de 2000. A turma desenhada foi uma das mais populares e influentes da história da mídia. No seu ápice, Peanuts aparecia em mais de 2600 jornais, com um número de leitores estimado em 355 milhões em 75 p\n[…]\nEm 2011, foi lançado o especial para a televisão Happiness Is a Warm Blanket, Charlie Brown, roteirizado por Stephan Pastis (autor da tira Pearls Before Swine) e Craig Schulz (filho de Charles). Em 2014, é lançada uma série curtas produzida pela pelo estúdio Normaal Animation e a France Televisions Distribution. Em novembro de 2015, foi lançado o longa-metragem 3D The Peanuts Movie, produzido pela Blue Sky Studios.\n[…]\nA United Feature Syndicate continuou a distribuir a tira até 27 de fevereiro de 2011, quando a Universal Uclick assumiu a distribuição, encerrando mais de 60 anos de gestão da United Media sobre Peanuts. Em maio de 2017, a canadense DHX Media (atualmente WildBrain) anunciou que adquiriria as marcas de entretenimento da Iconix, incluindo a participação de 80% na Peanuts Worldwide e os direitos integrais da marca Strawberry Shortcake, por US$ 345 milhões.\n[…]\nDois meses após a conclusão da venda, a DHX eliminou o restante de sua dívida ao assinar um contrato de agência de cinco anos, multimilionário, com a CAA-GBG Global Brand Management Group para representar a marca Peanuts na China e no restante da Ásia, exceto o Japão.. Em 19 de dezembro de 2025, a Sony anunciou que adquiriu a marca Peanuts por US$ 457 milhões.\n[…]\nRerun: O irmão mais novo de Lucy e Linus.\n[…]\nLucy Must Be Traded, Charlie Brown\n[…]\nSnoopy presents:Lucy's school\n[…]\nPeanuts Collector Club\n[…]\nAAUGH.com Peanuts Book Collecting Guide\n[…]\nPeanuts Animation and Reprints Page\n[…]\nTiras diárias dos Peanuts em Português",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

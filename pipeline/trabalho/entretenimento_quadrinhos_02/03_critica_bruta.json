@@ -1,0 +1,477 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capa com o carro e data de abril de 1938 confirmadas nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Estreia em 2 de outubro de 1950 e fim em 2000 confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Revista mensal da Mônica pela Abril em 1970 confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Quino ainda desenhou Mafalda depois de 1973; o correto é dizer que encerrou a publicação da tira.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "A tira Mafalda, do argentino Quino, estreou em 1964. Em que ano ele encerrou de vez a publicação dela?",
+        "resposta": "1973",
+        "distratores": [
+          "1968",
+          "1980",
+          "1985"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Mafalda"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Perguntar a década é vago; o ano 1960 é sustentado pelas fontes.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "aberta",
+        "pergunta": "Em que ano Ziraldo lançou a revista da Turma do Pererê, estrelada por um saci da mata brasileira?",
+        "resposta": "1960",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Turma_do_Pererê",
+          "https://pt.wikipedia.org/wiki/Ziraldo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lançamento em junho de 1969 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O Código era autorregulação, não censura oficial; ajustar a descrição.",
+      "reescrita": {
+        "angulo": "tempo",
+        "tipo": "multipla",
+        "pergunta": "Criado em 1954 como órgão de autocensura dos quadrinhos americanos, o selo do Comics Code foi abandonado de vez pelas últimas editoras em que década?",
+        "resposta": "Década de 2010",
+        "distratores": [
+          "Década de 1970",
+          "Década de 1980",
+          "Década de 1990"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Comics_Code_Authority"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Bidu como primeiro personagem em tira de jornal em 1959 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte da Themyscira é página de desambiguação; trocar pela URL correta.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Antes de partir para o mundo dos homens, a Mulher-Maravilha vivia em qual ilha habitada só por amazonas?",
+        "resposta": "Temiscira (Ilha Paraíso)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Themyscira_(DC_Comics)",
+          "https://en.wikipedia.org/wiki/Wonder_Woman"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Vietnã na origem original confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hell's Kitchen confirmado nas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascido na Escócia, moeda ganha como engraxate, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Aldeia na Armórica (atual Bretanha) no ano 50 a.C. confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Infância em Buenos Aires confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nascido em Vercelli, Itália.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Graúna da caatinga e Zeferino nordestino; resposta compatível.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Condorito é chileno, criado por Pepo em 1949.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta era a categoria; pedir a série específica.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "A Arlequina, namorada do Coringa, não nasceu nas revistas. Em que série de televisão ela estreou, em 1992?",
+        "resposta": "Batman: A Série Animada",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Harley_Quinn"
+        ]
+      }
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Caverna do crânio/caveira como moradia do Fantasma confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "McFarlane, canadense, Spider-Man e Spawn confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Hellboy criado por Mike Mignola.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sandman de Neil Gaiman, início em 1989.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Escrita e desenhada por Frank Miller em 1986.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ideia comprada do fã Randy Schueller confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Smurfette criada por Gargamel para semear discórdia.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Detalhe da banheira não verificado; trocar por descrição segura.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que cartunista criou Rê Bordosa, a boêmia de ressaca eterna que estrelou a revista Chiclete com Banana?",
+        "resposta": "Angeli",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Rê_Bordosa"
+        ]
+      }
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A formação em veterinária não é sustentada nem certa; usar fato verificado.",
+      "reescrita": {
+        "angulo": "autoria",
+        "tipo": "aberta",
+        "pergunta": "Que cartunista paulistano criou, em 1985, a tira do rato Níquel Náusea, publicada na Folha de S.Paulo?",
+        "resposta": "Fernando Gonsales",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Níquel_Náusea",
+          "https://pt.wikipedia.org/wiki/Fernando_Gonsales"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Péricles, pernambucano, criou o Amigo da Onça em 1943.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Laços escrito e desenhado pelos irmãos Vitor e Lu Cafaggi.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Franquin, 1952; distratores belgas críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Prêmio nomeado em honra de Will Eisner.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Timely Comics confirmado como nome da época.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta mais específica: nomear a namorada.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "No original em francês, o cão de Tintim se chama Milou. Esse era o apelido de quem na vida de Hergé?",
+        "resposta": "Marie-Louise, sua primeira namorada",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Snowy_(character)"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Resposta 'peixe' é categoria; pedir o peixe específico.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "O sobrenome do capitão Haddock, amigo de Tintim, é em inglês o nome de qual peixe, parente do bacalhau?",
+        "resposta": "Eglefino (hadoque)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Captain_Haddock"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Fontes divergem sobre a origem do nome; resposta não sustentada nos trechos.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fato não aparece nos trechos e não tenho certeza suficiente.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz apenas 'menino'; resposta específica demais.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Antes de virar sinônimo de revista em quadrinhos no Brasil, por causa de uma revista de 1939, a palavra gibi significava o quê?",
+        "resposta": "Menino (moleque)",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Gibi"
+        ]
+      }
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Goscinny escreveu Asterix e Lucky Luke; ângulo distinto da outra pergunta.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Inspiração em Auguste Piccard confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Revista dele' é ambígua; esclarecer que é a revista do Hulk.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "Antes de entrar para os X-Men, Wolverine estreou em 1974 como adversário de qual gigante verde da Marvel?",
+        "resposta": "Hulk",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Wolverine_(character)"
+        ]
+      }
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pais de Bruce Wayne saem de um filme do Zorro; fato amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lee citou Frankenstein e Jekyll e Hyde.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Política da Boa Vizinhança confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A palavra 'amarelo' no enunciado vaza a resposta Menino Amarelo.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Nos anos 1890, um menino careca de camisola, personagem de Richard Outcault, deu nome ao jornalismo sensacionalista americano. Como se chamava esse personagem?",
+        "resposta": "Yellow Kid (Menino Amarelo)",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Yellow_journalism",
+          "https://en.wikipedia.org/wiki/The_Yellow_Kid"
+        ]
+      }
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Processo da DC por cópia do Superman confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Distrator Hermes pode ser confundido com Mercúrio e gerar disputa; trocar.",
+      "reescrita": {
+        "angulo": "composicao",
+        "tipo": "multipla",
+        "pergunta": "Na palavra mágica Shazam, cada letra traz o poder de um herói ou deus antigo. De quem vem a letra H?",
+        "resposta": "Hércules",
+        "distratores": [
+          "Hades",
+          "Heitor",
+          "Hefesto"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Captain_Marvel_(DC_Comics)"
+        ]
+      }
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Capitão América entrou na edição quatro, fora da formação original.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Repórter policial na Folha da Manhã confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Em 1983 o cigarro foi trocado por uma palha.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Valor cobrado não aparece nos trechos e variou ao longo da tira.",
+      "reescrita": null
+    }
+  ]
+}
