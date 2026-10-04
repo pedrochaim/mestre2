@@ -1,0 +1,99 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, sem pista; resposta correta e específica o bastante.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Que emite luz\" entrega que é um vaga-lume; a figura vira enfeite. Tirar a pista e manter a pergunta sobre o grupo.",
+      "reescrita": {
+        "pergunta": "A que grupo de insetos pertence este animal?",
+        "resposta": "Besouros"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o nome inglês banana spider para Phoneutria. O enunciado não nomeia a aranha e exige reconhecê-la.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de assunto emblemático, sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pergunta de reconhecimento. \"Camuflado\" é uma pista leve que não identifica sozinha, pois bichos-pau também são camuflados.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Distratores do mesmo tipo e visualmente parecidos (esperança, grilo, louva-a-deus), nenhum deles correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que é um crustáceo terrestre. O enunciado não entrega a resposta e exige reconhecer o animal.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o nome tocandira. Os distratores são formigas críveis e nenhum descreve a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O parêntese esclarece a equivalência mosquito/pernilongo. Os distratores são dípteros ou insetos voadores críveis, e nenhum deles é correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam o nome piolho-de-cobra para diplópodes. Os distratores são animais alongados parecidos.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Peripato\" é um nome popular restrito a um gênero. O grupo geral é conhecido como verme-aveludado, e o parêntese evita injustiça.",
+      "reescrita": {
+        "pergunta": "Que animal é este?",
+        "resposta": "Peripato (verme-aveludado)",
+        "distratores": [
+          "Lesma",
+          "Lagarta",
+          "Planária"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que minhocas são do filo Annelida. O enunciado não vaza a resposta.",
+      "reescrita": null
+    }
+  ]
+}

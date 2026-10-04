@@ -85919,5 +85919,249 @@
       "licenca": "CC BY-SA 3.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q05078",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "mosca_domestica",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que inseto é este?",
+    "resposta": "Mosca",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Housefly",
+      "https://pt.wikipedia.org/wiki/Musca_domestica"
+    ],
+    "imagem": {
+      "arquivo": "q05078.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Musca_domestica_housefly.jpg",
+      "autor": "Muhammad Mahdi Karim",
+      "licenca": "GFDL 1.2"
+    }
+  },
+  {
+    "id": "q05079",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "vaga_lume",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A que grupo de insetos pertence este animal?",
+    "resposta": "Besouros",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Firefly",
+      "https://pt.wikipedia.org/wiki/Vaga-lume"
+    ],
+    "imagem": {
+      "arquivo": "q05079.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Firefly_Nevit_02670_cr.jpg",
+      "autor": "Nevit Dilmen (talk)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q05080",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "aranha_armadeira",
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Em inglês, esta aranha sul-americana é chamada de aranha de qual fruta?",
+    "resposta": "Banana",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phoneutria",
+      "https://pt.wikipedia.org/wiki/Armadeira"
+    ],
+    "imagem": {
+      "arquivo": "q05080.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Aranha_armadeira(Phoneutria_nigriventer)_por_Rodrigo_Tetsuo_Argenton_(4).jpg",
+      "autor": "Rodrigo Tetsuo Argenton",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q05081",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "barata",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que inseto é este?",
+    "resposta": "Barata",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Cockroach",
+      "https://pt.wikipedia.org/wiki/Barata"
+    ],
+    "imagem": {
+      "arquivo": "q05081.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Blaberus_giganteus_MHNT_dos.jpg",
+      "autor": "Didier Descouens",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q05082",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "inseto_folha",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que inseto camuflado é este?",
+    "resposta": "Inseto-folha",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Phylliidae",
+      "https://pt.wikipedia.org/wiki/Fili%C3%ADdeos"
+    ],
+    "imagem": {
+      "arquivo": "q05082.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:LeafInsect.jpg",
+      "autor": "Sandilya Theuerkauf",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q05083",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "gafanhoto",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de inseto é este?",
+    "resposta": "Gafanhoto",
+    "distratores": [
+      "Esperança",
+      "Grilo",
+      "Louva-a-deus"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grasshopper"
+    ],
+    "imagem": {
+      "arquivo": "q05083.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Oxya_yezoensis_November_2007_WUXGA.jpg",
+      "autor": "Laitche",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05084",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "tocandira",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que formiga é esta?",
+    "resposta": "Tocandira",
+    "distratores": [
+      "Saúva",
+      "Formiga-de-fogo",
+      "Formiga-correição"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Paraponera_clavata",
+      "https://pt.wikipedia.org/wiki/Formiga-cabo-verde"
+    ],
+    "imagem": {
+      "arquivo": "q05084.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Paraponera_clavata.jpg",
+      "autor": "Hans Hillewaert",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q05085",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "mosquito",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que tipo de inseto é este?",
+    "resposta": "Mosquito (pernilongo)",
+    "distratores": [
+      "Mutuca",
+      "Libélula",
+      "Mosca-varejeira"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mosquito",
+      "https://pt.wikipedia.org/wiki/Culic%C3%ADdeos"
+    ],
+    "imagem": {
+      "arquivo": "q05085.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mosquito_2007-2.jpg",
+      "autor": "Alvesgaspar",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q05086",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "piolho_de_cobra",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal é este?",
+    "resposta": "Piolho-de-cobra",
+    "distratores": [
+      "Lacraia",
+      "Minhoca",
+      "Lagarta"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Millipede",
+      "https://pt.wikipedia.org/wiki/Dipl%C3%B3pode"
+    ],
+    "imagem": {
+      "arquivo": "q05086.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Millipede.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q05087",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "peripato",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal é este?",
+    "resposta": "Peripato (verme-aveludado)",
+    "distratores": [
+      "Lesma",
+      "Lagarta",
+      "Planária"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Onychophora",
+      "https://pt.wikipedia.org/wiki/Onychophora"
+    ],
+    "imagem": {
+      "arquivo": "q05087.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Onycophora.jpg",
+      "autor": "Bruno Vellutini from São Paulo/São Sebastião, Brasil",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q05088",
+    "tema": "Natureza",
+    "subtema": "Insetos e Invertebrados",
+    "ancora": "minhoca",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "A que filo de animais pertence este?",
+    "resposta": "Anelídeos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Earthworm",
+      "https://pt.wikipedia.org/wiki/Minhoca"
+    ],
+    "imagem": {
+      "arquivo": "q05088.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Earthworm.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "GFDL 1.2"
+    }
   }
 ]

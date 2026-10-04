@@ -1,0 +1,784 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Mosca-doméstica",
+        "descricao": "Mosca comum Musca domestica, cosmopolita, que convive com os humanos.",
+        "variantes": [
+          "Musca domestica",
+          "Mosca"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "morsa",
+          "nome": "Morsa",
+          "descricao": "Grande mamífero marinho do Ártico com presas longas, espécie Odobenus rosmarus.",
+          "variantes": [
+            "Odobenus rosmarus",
+            "Walrus"
+          ]
+        },
+        {
+          "id": "oscar",
+          "nome": "Oscar",
+          "descricao": "Prêmio anual da Academia de Artes e Ciências Cinematográficas dos Estados Unidos.",
+          "variantes": [
+            "Academy Awards",
+            "Prêmios da Academia"
+          ]
+        },
+        {
+          "id": "cao_domestico",
+          "nome": "Cão doméstico",
+          "descricao": "Canídeo domesticado pelo ser humano, classificado como Canis familiaris ou Canis lupus familiaris.",
+          "variantes": [
+            "Cachorro",
+            "Canis lupus familiaris",
+            "Dog"
+          ]
+        },
+        {
+          "id": "moa",
+          "nome": "Moa",
+          "descricao": "Grupo extinto de grandes aves sem asas que viviam na Nova Zelândia.",
+          "variantes": [
+            "Moas",
+            "Dinornithiformes"
+          ]
+        },
+        {
+          "id": "jose_mojica_marins",
+          "nome": "José Mojica Marins",
+          "descricao": "Cineasta e ator paulista, pioneiro do cinema de terror no Brasil.",
+          "variantes": [
+            "Mojica"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Vaga-lume",
+        "descricao": "Besouro da família Lampyridae, conhecido por emitir luz para atrair parceiros.",
+        "variantes": [
+          "Pirilampo",
+          "Lampyridae",
+          "Firefly"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "almofariz_e_pilao",
+          "nome": "Almofariz e pilão",
+          "descricao": "Conjunto de uma tigela e uma peça em forma de bastão usado para triturar ingredientes.",
+          "variantes": [
+            "Pilão",
+            "Gral",
+            "Almofariz"
+          ]
+        },
+        {
+          "id": "lampiao",
+          "nome": "Lampião",
+          "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+          "variantes": [
+            "Virgulino Ferreira da Silva",
+            "Rei do Cangaço"
+          ]
+        },
+        {
+          "id": "viagem_a_lua",
+          "nome": "Viagem à Lua",
+          "descricao": "Filme mudo francês de 1902, famoso pela imagem de um foguete cravado no olho da Lua.",
+          "variantes": [
+            "Le Voyage dans la Lune",
+            "A Trip to the Moon"
+          ]
+        },
+        {
+          "id": "pirita",
+          "nome": "Pirita",
+          "descricao": "Mineral de sulfeto de ferro, de brilho metálico dourado.",
+          "variantes": [
+            "Pyrite"
+          ]
+        },
+        {
+          "id": "celacanto",
+          "nome": "Celacanto",
+          "descricao": "Peixe de nadadeiras lobadas do gênero Latimeria, conhecido antes só por fósseis.",
+          "variantes": [
+            "Latimeria",
+            "Coelacanth"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Aranha-armadeira",
+        "descricao": "Aranha do gênero Phoneutria, errante e de picada perigosa, encontrada na América do Sul.",
+        "variantes": [
+          "Armadeira",
+          "Phoneutria",
+          "Aranha-da-banana",
+          "Brazilian wandering spider"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "aranha_armadeira",
+          "nome": "Aranha-armadeira",
+          "descricao": "Aranhas sul-americanas do gênero Phoneutria, errantes e de veneno potente, comuns no Brasil.",
+          "variantes": [
+            "Phoneutria",
+            "armadeira",
+            "aranha-de-bananeira"
+          ]
+        },
+        {
+          "id": "rio_madeira",
+          "nome": "Rio Madeira",
+          "descricao": "Grande afluente da margem direita do rio Amazonas, que banha Porto Velho, em Rondônia.",
+          "variantes": [
+            "Madeira",
+            "Madeira River"
+          ]
+        },
+        {
+          "id": "ra_da_madeira",
+          "nome": "Rã-da-madeira",
+          "descricao": "Rã norte-americana, Lithobates sylvaticus, capaz de sobreviver congelada no inverno.",
+          "variantes": [
+            "Lithobates sylvaticus",
+            "Rana sylvatica",
+            "Wood frog"
+          ]
+        },
+        {
+          "id": "arena_da_baixada",
+          "nome": "Arena da Baixada",
+          "descricao": "Estádio de futebol em Curitiba, Paraná, casa do Athletico Paranaense, também chamado Estádio Mario Celso Petraglia.",
+          "variantes": [
+            "Estádio Mario Celso Petraglia",
+            "Ligga Arena",
+            "Kyocera Arena"
+          ]
+        },
+        {
+          "id": "charmander",
+          "nome": "Charmander",
+          "descricao": "Pokémon do tipo Fogo, número 4 da Pokédex Nacional.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Barata",
+        "descricao": "Inseto da ordem Blattodea, de corpo achatado e hábitos noturnos, alguns deles pragas domésticas.",
+        "variantes": [
+          "Blattodea",
+          "Cockroach"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "boitata",
+          "nome": "Boitatá",
+          "descricao": "Ser do folclore brasileiro em forma de serpente de fogo que protege os campos contra quem os incendeia.",
+          "variantes": [
+            "Baitatá",
+            "Mboitatá",
+            "Batatão"
+          ]
+        },
+        {
+          "id": "marta",
+          "nome": "Marta",
+          "descricao": "Marta Vieira da Silva, jogadora eleita seis vezes a melhor do mundo.",
+          "variantes": [
+            "Marta Vieira da Silva"
+          ]
+        },
+        {
+          "id": "aorta",
+          "nome": "Aorta",
+          "descricao": "Artéria principal do corpo, que sai do ventrículo esquerdo do coração.",
+          "variantes": []
+        },
+        {
+          "id": "futbol_club_barcelona",
+          "nome": "Futbol Club Barcelona",
+          "descricao": "Clube de futebol da cidade de Barcelona, na Espanha, fundado em 1899.",
+          "variantes": [
+            "Barcelona",
+            "Barça",
+            "FC Barcelona"
+          ]
+        },
+        {
+          "id": "rio_da_prata",
+          "nome": "Rio da Prata",
+          "descricao": "Estuário sul-americano entre a Argentina e o Uruguai, às margens do qual ficam Buenos Aires e Montevidéu.",
+          "variantes": [
+            "Río de la Plata",
+            "River Plate",
+            "Prata"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Inseto-folha",
+        "descricao": "Inseto da família Phylliidae, que imita folhas verdes como camuflagem.",
+        "variantes": [
+          "Filiídeo",
+          "Phylliidae",
+          "Leaf insect",
+          "Folha-ambulante"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "fidipides",
+          "nome": "Fidípides",
+          "descricao": "Corredor ateniense que, segundo Heródoto, levou um pedido de ajuda antes da Batalha de Maratona.",
+          "variantes": [
+            "Pheidippides",
+            "Filípides"
+          ]
+        },
+        {
+          "id": "grilo",
+          "nome": "Grilo",
+          "descricao": "Inseto ortóptero de corpo cilíndrico e antenas longas, cujos machos cantam esfregando as asas.",
+          "variantes": [
+            "Gryllidae",
+            "Grylloidea",
+            "cricket"
+          ]
+        },
+        {
+          "id": "bicho_pau",
+          "nome": "Bicho-pau",
+          "descricao": "Insetos da ordem Phasmatodea, de corpo alongado e camuflado, que imitam galhos e folhas.",
+          "variantes": [
+            "Phasmatodea",
+            "fasmídeo",
+            "bicho-folha"
+          ]
+        },
+        {
+          "id": "golfinho",
+          "nome": "Golfinho",
+          "descricao": "Cetáceos com dentes da família Delphinidae, como o golfinho-nariz-de-garrafa.",
+          "variantes": [
+            "Delphinidae",
+            "Dolphin",
+            "Golfinhos"
+          ]
+        },
+        {
+          "id": "pinguim_2",
+          "nome": "Pinguim",
+          "descricao": "Ave marinha não voadora da família Spheniscidae, do Hemisfério Sul.",
+          "variantes": [
+            "Pinguins",
+            "Spheniscidae"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Gafanhoto",
+        "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
+        "variantes": [
+          "Caelifera",
+          "Grasshopper"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "caneleira",
+          "nome": "Caneleira",
+          "descricao": "Protetor usado sobre a canela para evitar lesões em esportes e lutas.",
+          "variantes": [
+            "Protetor de canela",
+            "Caneleiras"
+          ]
+        },
+        {
+          "id": "cranio",
+          "nome": "Crânio",
+          "descricao": "Estrutura óssea que envolve e protege o cérebro dos vertebrados.",
+          "variantes": [
+            "Caveira",
+            "Cabeça óssea"
+          ]
+        },
+        {
+          "id": "capoeira",
+          "nome": "Capoeira",
+          "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+          "variantes": []
+        },
+        {
+          "id": "caxemira",
+          "nome": "Caxemira",
+          "descricao": "Lã fina e macia obtida do subpelo de cabras, também chamada cashmere",
+          "variantes": [
+            "Cashmere",
+            "Cachemira"
+          ]
+        },
+        {
+          "id": "calipateira",
+          "nome": "Calipateira",
+          "descricao": "Mulher de Rodes que, segundo Pausânias, entrou disfarçada de treinador nos Jogos de Olímpia para ver o filho competir.",
+          "variantes": [
+            "Kallipateira",
+            "Ferenice de Rodes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Tatuzinho-de-jardim",
+        "descricao": "Crustáceo terrestre Armadillidium vulgare, que se enrola em bola ao ser ameaçado.",
+        "variantes": [
+          "Tatuzinho",
+          "Tatu-bola",
+          "Armadillidium vulgare",
+          "Bicho-de-conta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tatu_bola",
+          "nome": "Tatu-bola",
+          "descricao": "Tatu sul-americano que se enrola em bola, gênero Tolypeutes.",
+          "variantes": [
+            "Tolypeutes"
+          ]
+        },
+        {
+          "id": "tatuzinho_de_jardim",
+          "nome": "Tatuzinho-de-jardim",
+          "descricao": "Pequeno crustáceo terrestre da ordem Isopoda que se enrola em bola quando ameaçado.",
+          "variantes": [
+            "tatu-bola-de-jardim",
+            "Armadillidium vulgare",
+            "isópode terrestre",
+            "woodlouse",
+            "pill bug"
+          ]
+        },
+        {
+          "id": "velcro",
+          "nome": "Velcro",
+          "descricao": "Sistema de fecho de gancho e argola inventado pelo engenheiro suíço George de Mestral.",
+          "variantes": [
+            "Fecho de gancho e argola",
+            "Hook-and-loop fastener",
+            "Fecho de contato",
+            "Hook-and-loop"
+          ]
+        },
+        {
+          "id": "hashi",
+          "nome": "Hashi",
+          "descricao": "Par de palitos usado como talher no Japão, na China e em outros países do Leste Asiático.",
+          "variantes": [
+            "Chopsticks",
+            "Pauzinhos",
+            "Palitinhos"
+          ]
+        },
+        {
+          "id": "bicho_de_pe",
+          "nome": "Bicho-de-pé",
+          "descricao": "Pulga parasita (Tunga penetrans) cuja fêmea se instala na pele, geralmente dos pés.",
+          "variantes": [
+            "Tunga penetrans",
+            "bicho-do-porco",
+            "tunga",
+            "jigger"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Tocandira",
+        "descricao": "Formiga Paraponera clavata, de ferroada dolorosíssima, das florestas da América Central e do Sul.",
+        "variantes": [
+          "Formiga-bala",
+          "Formiga-cabo-verde",
+          "Paraponera clavata",
+          "Bullet ant"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "tocandira",
+          "nome": "Tocandira",
+          "descricao": "Grande formiga amazônica (Paraponera clavata), conhecida como formiga-bala pela picada extremamente dolorosa.",
+          "variantes": [
+            "Paraponera clavata",
+            "formiga-bala",
+            "bullet ant",
+            "tucandeira"
+          ]
+        },
+        {
+          "id": "cupim",
+          "nome": "Cupim",
+          "descricao": "Inseto social da infraordem Isoptera, que se alimenta de madeira e matéria vegetal em decomposição e é aparentado às baratas.",
+          "variantes": [
+            "Térmita",
+            "Isoptera",
+            "formiga-branca"
+          ]
+        },
+        {
+          "id": "shinkansen",
+          "nome": "Shinkansen",
+          "descricao": "Rede japonesa de trens de alta velocidade, inaugurada em 1964 e conhecida como trem-bala.",
+          "variantes": [
+            "Trem-bala japonês",
+            "Bullet train"
+          ]
+        },
+        {
+          "id": "toga_candida",
+          "nome": "Toga cândida",
+          "descricao": "Toga branqueada com giz que os romanos usavam ao disputar um cargo público.",
+          "variantes": []
+        },
+        {
+          "id": "formiga",
+          "nome": "Formiga",
+          "descricao": "Miraildes Maciel Mota, volante da seleção brasileira feminina entre 1995 e 2021.",
+          "variantes": [
+            "Miraildes Maciel Mota"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Mosquito",
+        "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+        "variantes": [
+          "Pernilongo",
+          "Muriçoca",
+          "Culicidae"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "pernalonga",
+          "nome": "Pernalonga",
+          "descricao": "Coelho cinza dos desenhos animados Looney Tunes e Merrie Melodies, da Warner Bros.",
+          "variantes": [
+            "Bugs Bunny"
+          ]
+        },
+        {
+          "id": "terno_zhongshan",
+          "nome": "Terno Zhongshan",
+          "descricao": "Traje chinês de túnica com gola fechada, conhecido no Ocidente como terno Mao",
+          "variantes": [
+            "Terno Mao",
+            "Zhongshan suit",
+            "Mao suit"
+          ]
+        },
+        {
+          "id": "cuica",
+          "nome": "Cuíca",
+          "descricao": "Tambor de fricção usado no samba, com uma vareta presa ao centro do couro.",
+          "variantes": []
+        },
+        {
+          "id": "ourico_do_mar",
+          "nome": "Ouriço-do-mar",
+          "descricao": "Equinodermo marinho de corpo globoso coberto de espinhos, da classe Echinoidea.",
+          "variantes": [
+            "Ouriço",
+            "Sea urchin"
+          ]
+        },
+        {
+          "id": "quioto",
+          "nome": "Quioto",
+          "descricao": "Antiga capital imperial do Japão, na ilha de Honshu, vista na rua histórica Ninenzaka.",
+          "variantes": [
+            "Kyoto"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Piolho-de-cobra",
+        "descricao": "Miriápode da classe Diplopoda, de corpo cilíndrico segmentado e dois pares de patas por segmento.",
+        "variantes": [
+          "Embuá",
+          "Diplópode",
+          "Millipede"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "piolho_de_cobra",
+          "nome": "Piolho-de-cobra",
+          "descricao": "Artrópodes da classe Diplopoda, de corpo cilíndrico com dois pares de patas por segmento, que se enrolam quando ameaçados.",
+          "variantes": [
+            "Diplopoda",
+            "diplópode",
+            "gongolo",
+            "embuá",
+            "millipede"
+          ]
+        },
+        {
+          "id": "lacraia",
+          "nome": "Lacraia",
+          "descricao": "Artrópode predador e venenoso da classe Chilopoda, com um par de patas por segmento do corpo.",
+          "variantes": [
+            "Centopeia",
+            "Quilópode",
+            "Chilopoda"
+          ]
+        },
+        {
+          "id": "estados_unidos",
+          "nome": "Estados Unidos",
+          "descricao": "República federal da América do Norte com 50 estados e capital em Washington, D.C.",
+          "variantes": [
+            "Estados Unidos da América",
+            "EUA",
+            "América"
+          ]
+        },
+        {
+          "id": "ema",
+          "nome": "Ema",
+          "descricao": "Grande ave não voadora sul-americana (Rhea americana), a maior ave do Brasil.",
+          "variantes": [
+            "Nhandu",
+            "Rhea americana"
+          ]
+        },
+        {
+          "id": "emu",
+          "nome": "Emu",
+          "descricao": "Grande ave corredora não voadora da Austrália (Dromaius novaehollandiae).",
+          "variantes": [
+            "Dromaius novaehollandiae"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Peripato",
+        "descricao": "Animal do filo Onychophora, de corpo mole e muitas patas curtas, que captura presas com jato de muco.",
+        "variantes": [
+          "Onicóforo",
+          "Verme-de-veludo",
+          "Velvet worm",
+          "Onychophora"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "dissolucao_da_tchecoslovaquia",
+          "nome": "Dissolução da Tchecoslováquia",
+          "descricao": "Separação pacífica da Tchecoslováquia em República Tcheca e Eslováquia, conhecida como Divórcio de Veludo.",
+          "variantes": [
+            "Divórcio de Veludo",
+            "Dissolução da Checoslováquia"
+          ]
+        },
+        {
+          "id": "johannes_vermeer",
+          "nome": "Johannes Vermeer",
+          "descricao": "Pintor holandês do século dezessete, autor de Moça com Brinco de Pérola e A Leiteira.",
+          "variantes": [
+            "Jan Vermeer",
+            "Vermeer de Delft"
+          ]
+        },
+        {
+          "id": "halicephalobus_mephisto",
+          "nome": "Halicephalobus mephisto",
+          "descricao": "Espécie de nematoide encontrada a mais de um quilômetro de profundidade em minas de ouro da África do Sul.",
+          "variantes": [
+            "Verme-do-diabo",
+            "Devil's worm"
+          ]
+        },
+        {
+          "id": "sprigatito",
+          "nome": "Sprigatito",
+          "descricao": "Pokémon do tipo Planta, número 906 da Pokédex Nacional.",
+          "variantes": []
+        },
+        {
+          "id": "mouse",
+          "nome": "Mouse",
+          "descricao": "Dispositivo apontador manual usado para controlar o cursor na tela de um computador.",
+          "variantes": [
+            "Computer mouse",
+            "Rato"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Minhoca",
+        "descricao": "Anelídeo terrestre da classe Oligochaeta que vive no solo.",
+        "variantes": [
+          "Minhoca-de-terra",
+          "Earthworm",
+          "Oligochaeta"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "qhapaq_nan",
+          "nome": "Qhapaq Ñan",
+          "descricao": "Rede de estradas do Império Inca que ligava Cusco a todo o território andino.",
+          "variantes": [
+            "Caminho Inca",
+            "Inca road system",
+            "Capac Ñan"
+          ]
+        },
+        {
+          "id": "dia_da_terra",
+          "nome": "Dia da Terra",
+          "descricao": "Data anual de mobilização ambiental criada nos Estados Unidos em 1970.",
+          "variantes": [
+            "Earth Day"
+          ]
+        },
+        {
+          "id": "tampinha_de_garrafa",
+          "nome": "Tampinha de garrafa",
+          "descricao": "Tampa metálica de bordas onduladas para garrafas, a crown cork, patenteada por William Painter em 1892.",
+          "variantes": [
+            "Crown cork",
+            "Tampa coroa"
+          ]
+        },
+        {
+          "id": "mandioca",
+          "nome": "Mandioca",
+          "descricao": "Raiz da planta Manihot esculenta, base alimentar indígena e ingrediente central da cozinha brasileira",
+          "variantes": [
+            "Aipim",
+            "Macaxeira",
+            "Manihot esculenta",
+            "cassava",
+            "mandioca-brava"
+          ]
+        },
+        {
+          "id": "henrique_mecking",
+          "nome": "Henrique Mecking",
+          "descricao": "Enxadrista brasileiro nascido em Santa Cruz do Sul, conhecido como Mequinho, que esteve entre os melhores do mundo nos anos setenta.",
+          "variantes": [
+            "Mequinho"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a mosca-doméstica."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Vaga-lume não consta entre as candidatas, que só têm nomes parecidos."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "aranha_armadeira",
+      "motivo": "Mesmo gênero Phoneutria, mesmo nome e variantes."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a barata."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Inseto-folha (Phylliidae) é diferente do bicho-pau (Phasmatodea), embora relacionados."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o gafanhoto."
+    },
+    {
+      "caso": 7,
+      "decisao": "mesma",
+      "id_existente": "tatuzinho_de_jardim",
+      "motivo": "Mesmo crustáceo, Armadillidium vulgare. O tatu-bola é outra entidade."
+    },
+    {
+      "caso": 8,
+      "decisao": "mesma",
+      "id_existente": "tocandira",
+      "motivo": "Mesma formiga, Paraponera clavata."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o mosquito."
+    },
+    {
+      "caso": 10,
+      "decisao": "mesma",
+      "id_existente": "piolho_de_cobra",
+      "motivo": "Mesma classe Diplopoda, mesmo nome."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o peripato (Onychophora)."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a minhoca."
+    }
+  ]
+}

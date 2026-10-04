@@ -1,0 +1,87 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em inglês, esta aranha sul-americana é chamada de aranha de qual fruta?",
+        "resposta": "Banana"
+      },
+      "existentes": [
+        {
+          "id": "q02591",
+          "pergunta": "A aranha armadeira ganhou esse nome pela postura de ataque. Que parte do corpo ela mantém erguida ao atacar?",
+          "resposta": "As patas dianteiras"
+        },
+        {
+          "id": "q02602",
+          "pergunta": "A picada da aranha armadeira pode provocar nos homens uma ereção dolorosa. Por isso, seu veneno é estudado para tratar qual problema?",
+          "resposta": "Disfunção erétil"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Apesar de viver em terra e parecer um inseto, este animal pertence a qual grupo?",
+        "resposta": "Crustáceos"
+      },
+      "existentes": [
+        {
+          "id": "q02611",
+          "pergunta": "Apesar de viver na terra úmida dos jardins, o tatuzinho-de-jardim é parente mais próximo de qual destes animais?",
+          "resposta": "Camarão"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que formiga é esta?",
+        "resposta": "Tocandira"
+      },
+      "existentes": [
+        {
+          "id": "q02613",
+          "pergunta": "Que povo indígena da Amazônia usa luvas cheias de formigas-tocandira num ritual de passagem dos meninos para a vida adulta?",
+          "resposta": "Sateré-Mawé"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que animal é este?",
+        "resposta": "Piolho-de-cobra"
+      },
+      "existentes": [
+        {
+          "id": "q02607",
+          "pergunta": "Macacos-prego já foram vistos esfregando piolhos-de-cobra no próprio pelo. O que eles ganham com isso?",
+          "resposta": "Proteção contra mosquitos"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nome em inglês (banana spider) é um fato diferente da postura de ataque ou do uso do veneno."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que o tatuzinho-de-jardim é crustáceo apesar de viver em terra; acertar uma leva a acertar a outra (camarão/crustáceos)."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Identificar a formiga é diferente de saber qual povo usa o ritual."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Identificar o animal é diferente do benefício que macacos-prego obtêm ao esfregá-lo."
+    }
+  ]
+}

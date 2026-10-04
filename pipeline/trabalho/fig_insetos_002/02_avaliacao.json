@@ -1,0 +1,271 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Mosca em close, nítida; reconhecível como mosca-doméstica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que inseto é este?",
+      "resposta": "Mosca",
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosca-doméstica",
+        "descricao": "Mosca comum Musca domestica, cosmopolita, que convive com os humanos.",
+        "variantes": [
+          "Musca domestica",
+          "Mosca"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Vaga-lume (fêmea ou larva) emitindo luz verde, nítido; pergunta sobre o grupo de insetos.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Este inseto que emite luz pertence a que grupo de insetos?",
+      "resposta": "Besouros",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vaga-lume",
+        "descricao": "Besouro da família Lampyridae, conhecido por emitir luz para atrair parceiros.",
+        "variantes": [
+          "Pirilampo",
+          "Lampyridae",
+          "Firefly"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Armadeira bem visível, com pose e padrão característicos.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em inglês, esta aranha sul-americana é chamada de aranha de qual fruta?",
+      "resposta": "Banana",
+      "destino": 0,
+      "ancora": {
+        "nome": "Aranha-armadeira",
+        "descricao": "Aranha do gênero Phoneutria, errante e de picada perigosa, encontrada na América do Sul.",
+        "variantes": [
+          "Armadeira",
+          "Phoneutria",
+          "Aranha-da-banana",
+          "Brazilian wandering spider"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Barata sobre fundo branco, nítida e inconfundível; a escala de 1 cm não entrega a resposta.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que inseto é este?",
+      "resposta": "Barata",
+      "destino": 0,
+      "ancora": {
+        "nome": "Barata",
+        "descricao": "Inseto da ordem Blattodea, de corpo achatado e hábitos noturnos, alguns deles pragas domésticas.",
+        "variantes": [
+          "Blattodea",
+          "Cockroach"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Inseto-folha camuflado sobre folha; forma muito característica.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que inseto camuflado é este?",
+      "resposta": "Inseto-folha",
+      "destino": 0,
+      "ancora": {
+        "nome": "Inseto-folha",
+        "descricao": "Inseto da família Phylliidae, que imita folhas verdes como camuflagem.",
+        "variantes": [
+          "Filiídeo",
+          "Phylliidae",
+          "Leaf insect",
+          "Folha-ambulante"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Casal de gafanhotos verdes em caule, nítido; múltipla com insetos parecidos.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de inseto é este?",
+      "resposta": "Gafanhoto",
+      "distratores": [
+        "Esperança",
+        "Grilo",
+        "Louva-a-deus"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Gafanhoto",
+        "descricao": "Inseto saltador herbívoro da subordem Caelifera, de antenas curtas.",
+        "variantes": [
+          "Caelifera",
+          "Grasshopper"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Tatuzinho-de-jardim em perfil, nítido; pergunta além do nome sobre o grupo zoológico.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Apesar de viver em terra e parecer um inseto, este animal pertence a qual grupo?",
+      "resposta": "Crustáceos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Tatuzinho-de-jardim",
+        "descricao": "Crustáceo terrestre Armadillidium vulgare, que se enrola em bola ao ser ameaçado.",
+        "variantes": [
+          "Tatuzinho",
+          "Tatu-bola",
+          "Armadillidium vulgare",
+          "Bicho-de-conta"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Formiga grande, nítida, com cabeça arredondada e corpo esguio; aceitável em múltipla com outras formigas.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que formiga é esta?",
+      "resposta": "Tocandira",
+      "distratores": [
+        "Saúva",
+        "Formiga-de-fogo",
+        "Formiga-correição"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tocandira",
+        "descricao": "Formiga Paraponera clavata, de ferroada dolorosíssima, das florestas da América Central e do Sul.",
+        "variantes": [
+          "Formiga-bala",
+          "Formiga-cabo-verde",
+          "Paraponera clavata",
+          "Bullet ant"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Mosquito de pernas listradas, nítido; múltipla com outros insetos voadores.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que tipo de inseto é este?",
+      "resposta": "Mosquito (pernilongo)",
+      "distratores": [
+        "Mutuca",
+        "Libélula",
+        "Mosca-varejeira"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Mosquito",
+        "descricao": "Díptero da família Culicidae, de pernas longas, cujas fêmeas sugam sangue.",
+        "variantes": [
+          "Pernilongo",
+          "Muriçoca",
+          "Culicidae"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Piolho-de-cobra alaranjado, corpo cilíndrico com dois pares de patas por segmento; nítido.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Piolho-de-cobra",
+      "distratores": [
+        "Lacraia",
+        "Minhoca",
+        "Lagarta"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Piolho-de-cobra",
+        "descricao": "Miriápode da classe Diplopoda, de corpo cilíndrico segmentado e dois pares de patas por segmento.",
+        "variantes": [
+          "Embuá",
+          "Diplópode",
+          "Millipede"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Peripato azulado com patas lobopodais visíveis; forma distinta entre os alternativos.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal é este?",
+      "resposta": "Peripato",
+      "distratores": [
+        "Lesma",
+        "Lagarta",
+        "Planária"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Peripato",
+        "descricao": "Animal do filo Onychophora, de corpo mole e muitas patas curtas, que captura presas com jato de muco.",
+        "variantes": [
+          "Onicóforo",
+          "Verme-de-veludo",
+          "Velvet worm",
+          "Onychophora"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Minhoca em solo, nítida; pergunta sobre o filo.",
+      "familia": "que_tipo",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "A que filo de animais pertence este?",
+      "resposta": "Anelídeos",
+      "destino": 0,
+      "ancora": {
+        "nome": "Minhoca",
+        "descricao": "Anelídeo terrestre da classe Oligochaeta que vive no solo.",
+        "variantes": [
+          "Minhoca-de-terra",
+          "Earthworm",
+          "Oligochaeta"
+        ]
+      }
+    }
+  ]
+}
