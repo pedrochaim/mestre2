@@ -1,0 +1,1067 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "nome": "Gana",
+        "descricao": "País da África Ocidental, antiga colônia britânica da Costa do Ouro, independente desde 1957.",
+        "variantes": [
+          "Ghana",
+          "República de Gana"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ghana",
+          "https://pt.wikipedia.org/wiki/Gana"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Ao se tornar independente em 1957, a Costa do Ouro adotou o nome de qual antigo império africano, que ficava a centenas de quilômetros dali?",
+      "resposta": "Império de Gana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ghana"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Zimbábue",
+        "descricao": "Ruínas de uma cidade medieval de pedra no sudeste do atual Zimbábue, capital de um reino entre os séculos onze e quinze.",
+        "variantes": [
+          "Great Zimbabwe",
+          "Grande Zimbabwe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do país Zimbábue foi tirado de umas ruínas medievais. Na língua xona, ele costuma ser traduzido como casas de quê?",
+      "resposta": "Pedra",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Zimbábue",
+        "descricao": "Ruínas de uma cidade medieval de pedra no sudeste do atual Zimbábue, capital de um reino entre os séculos onze e quinze.",
+        "variantes": [
+          "Great Zimbabwe",
+          "Grande Zimbabwe"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Os colonizadores europeus atribuíam o Grande Zimbábue a fenícios ou árabes. Que povo africano de fato construiu essas muralhas de pedra?",
+      "resposta": "Ancestrais do povo xona",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Zimbabwe"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Burkina Faso",
+        "descricao": "País da África Ocidental, chamado Alto Volta até 1984.",
+        "variantes": [
+          "Burquina Faso",
+          "Alto Volta"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Burkina_Faso"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Em 1984, o Alto Volta passou a se chamar Burkina Faso. O que significa esse novo nome?",
+      "resposta": "Terra dos homens íntegros",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Burkina_Faso"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Língua suaíli",
+        "descricao": "Língua banta falada na costa e no interior da África Oriental, com forte influência do árabe.",
+        "variantes": [
+          "Suaíli",
+          "Swahili",
+          "Kiswahili"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Swahili_language"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome suaíli, dado a uma língua e a uma cultura do leste africano, vem de uma palavra árabe. O que ela significa?",
+      "resposta": "Costas",
+      "distratores": [
+        "Comerciantes",
+        "Ilhas",
+        "Ventos"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Swahili_language"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "nelson_mandela",
+        "nome": "Nelson Mandela",
+        "descricao": "Líder antiapartheid e primeiro presidente negro da África do Sul, de 1994 a 1999.",
+        "variantes": [
+          "Madiba",
+          "Rolihlahla Mandela"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nelson_Mandela"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Nelson Mandela recebeu ao nascer o nome xossa Rolihlahla. Em linguagem coloquial, o que esse nome significa?",
+      "resposta": "Encrenqueiro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nelson_Mandela"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "haile_selassie",
+        "nome": "Hailé Selassié",
+        "descricao": "Imperador da Etiópia de 1930 a 1974, figura divina no movimento rastafári.",
+        "variantes": [
+          "Haile Selassie",
+          "Tafari Makonnen",
+          "Ras Tafari"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Haile_Selassie"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Tafari Makonnen reinou na Etiópia com seu nome de batismo, Hailé Selassié. O que esse nome significa?",
+      "resposta": "Poder da Trindade",
+      "distratores": [
+        "Leão de Judá",
+        "Luz do Mundo",
+        "Eleito de Deus"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Haile_Selassie"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kinshasa",
+        "descricao": "Capital da República Democrática do Congo, às margens do rio Congo.",
+        "variantes": [
+          "Quinxassa",
+          "Léopoldville"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kinshasa"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Até 1966, a capital do Congo levava o nome de um rei belga. Como a cidade se chamava então?",
+      "resposta": "Léopoldville",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kinshasa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Zaire",
+        "descricao": "Nome oficial da atual República Democrática do Congo de 1971 a 1997, sob o regime de Mobutu.",
+        "variantes": [
+          "República do Zaire"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zaire"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "O nome Zaire, que o ditador Mobutu deu ao Congo, deriva de uma palavra da língua quicongo. O que ela significa?",
+      "resposta": "Rio",
+      "distratores": [
+        "Floresta",
+        "Terra",
+        "Liberdade"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Zaire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Njinga Mbandi",
+        "descricao": "Rainha dos reinos de Ndongo e Matamba, no atual território de Angola, que resistiu aos portugueses no século dezessete.",
+        "variantes": [
+          "Rainha Ginga",
+          "Nzinga",
+          "Rainha Jinga",
+          "Ana de Sousa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Ao ser batizada pelos portugueses em Luanda, a rainha Njinga, de Ndongo e Matamba, recebeu que nome cristão?",
+      "resposta": "Ana de Sousa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Nzinga_of_Ndongo_and_Matamba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Costa dos Escravos",
+        "descricao": "Trecho do litoral do golfo da Guiné, nos atuais Togo, Benim e oeste da Nigéria, grande centro do tráfico atlântico.",
+        "variantes": [
+          "Slave Coast"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Slave_Coast_of_West_Africa"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Na época do tráfico atlântico, que nome os europeus davam ao litoral dos atuais Togo, Benim e oeste da Nigéria?",
+      "resposta": "Costa dos Escravos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Slave_Coast_of_West_Africa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Monróvia",
+        "descricao": "Capital da Libéria, fundada em 1822 por colonos afro-americanos.",
+        "variantes": [
+          "Monrovia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Monrovia"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Monróvia, a capital da Libéria, tem esse nome em homenagem a qual presidente dos Estados Unidos?",
+      "resposta": "James Monroe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Monrovia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mansa Musa",
+        "descricao": "Governante do Império do Mali no século quatorze, famoso pela riqueza em ouro e pela peregrinação a Meca.",
+        "variantes": [
+          "Musa I do Mali",
+          "Kanku Musa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mansa_Musa",
+          "https://pt.wikipedia.org/wiki/Mansa_Musa"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1324, a caminho de Meca, Mansa Musa gastou e doou tanto ouro no Cairo que provocou que efeito na economia da cidade?",
+      "resposta": "Queda do valor do ouro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mansa_Musa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Levante de Soweto",
+        "descricao": "Protestos de estudantes negros em Soweto, na África do Sul, iniciados em 16 de junho de 1976 e reprimidos pela polícia.",
+        "variantes": [
+          "Revolta de Soweto",
+          "Soweto uprising"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Soweto_uprising"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Em 1976, milhares de estudantes de Soweto saíram às ruas contra a imposição do ensino em que língua?",
+      "resposta": "Africâner",
+      "distratores": [
+        "Inglês",
+        "Zulu",
+        "Holandês"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Soweto_uprising"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Crise de Suez",
+        "descricao": "Conflito de 1956 em que Reino Unido, França e Israel invadiram o Egito.",
+        "variantes": [
+          "Guerra de Suez",
+          "Suez Crisis"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Suez_Crisis"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1956, que decisão do presidente egípcio Gamal Abdel Nasser provocou a invasão do Egito por britânicos, franceses e israelenses?",
+      "resposta": "Nacionalização do Canal de Suez",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Suez_Crisis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Massacre de Sharpeville",
+        "descricao": "Ataque da polícia sul-africana contra manifestantes negros em Sharpeville, em 21 de março de 1960.",
+        "variantes": [
+          "Sharpeville massacre"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Sharpeville_massacre"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1960, a polícia sul-africana atirou numa multidão em Sharpeville. Contra que tipo de lei do apartheid essas pessoas protestavam?",
+      "resposta": "Leis do passe",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sharpeville_massacre"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Libéria",
+        "descricao": "País da África Ocidental, criado no século dezenove como colônia de negros libertos vindos dos Estados Unidos.",
+        "variantes": [
+          "Liberia",
+          "República da Libéria"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Liberia"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "No início do século dezenove, uma sociedade americana criou a colônia que deu origem à Libéria. Com que objetivo?",
+      "resposta": "Assentar negros libertos americanos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Liberia",
+        "https://en.wikipedia.org/wiki/American_Colonization_Society"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Genocídio em Ruanda",
+        "descricao": "Massacre de tutsis e hutus moderados em Ruanda, entre abril e julho de 1994.",
+        "variantes": [
+          "Genocídio de Ruanda",
+          "Rwandan genocide"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rwandan_genocide"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em abril de 1994, que acontecimento desencadeou o genocídio em Ruanda?",
+      "resposta": "Derrubada do avião presidencial",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rwandan_genocide",
+        "https://en.wikipedia.org/wiki/Assassination_of_Juv%C3%A9nal_Habyarimana_and_Cyprien_Ntaryamira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bronzes de Benim",
+        "descricao": "Milhares de placas e esculturas de metal do Reino de Benim, na atual Nigéria, levadas pelos britânicos em 1897.",
+        "variantes": [
+          "Benin Bronzes",
+          "Bronzes do Benim"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Benin_Bronzes"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Em 1897, que acontecimento levou milhares de Bronzes de Benim, da atual Nigéria, para museus da Europa?",
+      "resposta": "Expedição punitiva britânica",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Benin_Bronzes",
+        "https://en.wikipedia.org/wiki/Benin_Expedition_of_1897"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Shaka",
+        "descricao": "Rei zulu do início do século dezenove, que transformou os zulus num poderoso reino militar no sul da África.",
+        "variantes": [
+          "Shaka Zulu",
+          "Chaka"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Shaka"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "multipla",
+      "pergunta": "Como se chama o período de guerras e migrações forçadas causado pela expansão do Reino Zulu de Shaka, no início do século dezenove?",
+      "resposta": "Mfecane",
+      "distratores": [
+        "Grande Trek",
+        "Ubuntu",
+        "Indaba"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mfecane"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Independência de Angola",
+        "descricao": "Fim do domínio colonial português em Angola, em 11 de novembro de 1975.",
+        "variantes": [
+          "Guerra de Independência de Angola"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Angolan_War_of_Independence"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que acontecimento em Portugal, em abril de 1974, abriu caminho para a independência de Angola e Moçambique?",
+      "resposta": "Revolução dos Cravos",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Carnation_Revolution",
+        "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_dos_Cravos"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Igrejas de Lalibela",
+        "descricao": "Conjunto de igrejas monolíticas escavadas na rocha na cidade de Lalibela, na Etiópia, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Igrejas escavadas na rocha de Lalibela",
+          "Rock-Hewn Churches, Lalibela"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela",
+          "https://en.wikipedia.org/wiki/Lalibela"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição, as igrejas de Lalibela foram feitas como uma Nova Jerusalém depois que a cidade santa caiu, em 1187, nas mãos de qual sultão?",
+      "resposta": "Saladino",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lalibela"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Igrejas de Lalibela",
+        "descricao": "Conjunto de igrejas monolíticas escavadas na rocha na cidade de Lalibela, na Etiópia, Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Igrejas escavadas na rocha de Lalibela",
+          "Rock-Hewn Churches, Lalibela"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Na Etiópia, quantas igrejas medievais escavadas na rocha formam o conjunto de Lalibela?",
+      "resposta": "Onze",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rock-Hewn_Churches,_Lalibela"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dinastia salomônica",
+        "descricao": "Casa imperial da Etiópia, que reinou de 1270 a 1974 e se dizia descendente do rei Salomão.",
+        "variantes": [
+          "Solomonic dynasty",
+          "Casa de Salomão"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Solomonic_dynasty"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "A dinastia imperial etíope, de Hailé Selassié, afirmava descender do rei Salomão e de qual rainha bíblica?",
+      "resposta": "Rainha de Sabá",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Solomonic_dynasty"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilha de Moçambique",
+        "descricao": "Ilha no norte de Moçambique, antiga capital da colônia portuguesa e Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Island of Mozambique"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Island_of_Mozambique"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que poeta português, voltando da Índia, viveu na pobreza na Ilha de Moçambique por volta de 1568?",
+      "resposta": "Luís de Camões",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Lu%C3%ADs_de_Cam%C3%B5es",
+        "https://en.wikipedia.org/wiki/Island_of_Mozambique"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Albert Luthuli",
+        "descricao": "Presidente do Congresso Nacional Africano e líder antiapartheid sul-africano, laureado com o Nobel da Paz de 1960.",
+        "variantes": [
+          "Albert Lutuli",
+          "Albert John Luthuli"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Albert_Luthuli"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que prêmio internacional une os sul-africanos Albert Luthuli, Desmond Tutu e Nelson Mandela?",
+      "resposta": "Nobel da Paz",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Albert_Luthuli",
+        "https://en.wikipedia.org/wiki/List_of_Nobel_Peace_Prize_laureates"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Amílcar Cabral",
+        "descricao": "Líder anticolonial que fundou o partido da independência da Guiné-Bissau e de Cabo Verde, assassinado em 1973.",
+        "variantes": [
+          "Amilcar Cabral"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Am%C3%ADlcar_Cabral"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Sob a liderança de Amílcar Cabral, que país insular africano lutou pela independência no mesmo partido que a Guiné-Bissau?",
+      "resposta": "Cabo Verde",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Am%C3%ADlcar_Cabral",
+        "https://en.wikipedia.org/wiki/African_Party_for_the_Independence_of_Guinea_and_Cape_Verde"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Zanzibar",
+        "descricao": "Arquipélago na costa da Tanzânia, antigo sultanato e centro do comércio suaíli de especiarias e escravizados.",
+        "variantes": [
+          "Zanzibar Island",
+          "Unguja"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Zanzibar"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que astro do rock britânico nasceu em 1946 em Zanzibar, na costa da atual Tanzânia?",
+      "resposta": "Freddie Mercury",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Freddie_Mercury"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Império do Mali",
+        "descricao": "Império da África Ocidental que dominou o Sahel do século treze ao dezesseis, famoso pelo ouro e por Tombuctu.",
+        "variantes": [
+          "Mali Empire",
+          "Reino do Mali"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mali_Empire"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Que viajante marroquino do século quatorze visitou o Império do Mali e deixou um relato sobre a sua corte?",
+      "resposta": "Ibn Battuta",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ibn_Battuta",
+        "https://en.wikipedia.org/wiki/Mali_Empire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Império do Mali",
+        "descricao": "Império da África Ocidental que dominou o Sahel do século treze ao dezesseis, famoso pelo ouro e por Tombuctu.",
+        "variantes": [
+          "Mali Empire",
+          "Reino do Mali"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Mali_Empire"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que herói, celebrado numa epopeia cantada pelos griôs, fundou o Império do Mali no século treze?",
+      "resposta": "Sundiata Keita",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Sundiata_Keita",
+        "https://en.wikipedia.org/wiki/Mali_Empire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bolsa Rhodes",
+        "descricao": "Bolsa de pós-graduação na Universidade de Oxford, criada em 1902 pelo testamento de Cecil Rhodes.",
+        "variantes": [
+          "Rhodes Scholarship"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Rhodes_Scholarship"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que a antiga Rodésia, na África, e uma famosa bolsa de estudos da Universidade de Oxford têm em comum?",
+      "resposta": "O nome de Cecil Rhodes",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Rhodes_Scholarship",
+        "https://en.wikipedia.org/wiki/Rhodesia"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Thomas Sankara",
+        "descricao": "Militar e presidente revolucionário de Burkina Faso de 1983 a 1987, assassinado num golpe.",
+        "variantes": [
+          "Thomas Isidore Noël Sankara"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Thomas_Sankara"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "Pelo carisma e pelas ideias revolucionárias, o presidente Thomas Sankara, de Burkina Faso, era comparado a qual guerrilheiro latino-americano?",
+      "resposta": "Che Guevara",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Thomas_Sankara"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Luanda",
+        "descricao": "Capital de Angola, fundada pelos portugueses em 1576 e ocupada pelos holandeses de 1641 a 1648.",
+        "variantes": [
+          "São Paulo da Assunção de Loanda"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Luanda"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "Em 1648, uma armada comandada por Salvador Correia de Sá retomou Luanda dos holandeses. De que cidade brasileira ela partiu?",
+      "resposta": "Rio de Janeiro",
+      "distratores": [
+        "Salvador",
+        "Santos",
+        "São Luís"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Salvador_Correia_de_S%C3%A1",
+        "https://en.wikipedia.org/wiki/Luanda"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Batalha de Adwa",
+        "descricao": "Vitória do Império Etíope sobre o exército italiano em 1º de março de 1896.",
+        "variantes": [
+          "Batalha de Adua",
+          "Battle of Adwa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Battle_of_Adwa"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1896, que imperador etíope comandou a vitória sobre o exército italiano na Batalha de Adwa?",
+      "resposta": "Menelik II",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Battle_of_Adwa",
+        "https://en.wikipedia.org/wiki/Menelik_II"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mesquita de Djinguereber",
+        "descricao": "Mesquita de barro em Tombuctu, no Mali, construída no século quatorze.",
+        "variantes": [
+          "Djinguereber Mosque",
+          "Djingareyber"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Por volta de 1327, que governante do Mali mandou erguer a Mesquita de Djinguereber, em Tombuctu?",
+      "resposta": "Mansa Musa",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Djinguereber_Mosque"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Castelo de São Jorge da Mina",
+        "descricao": "Fortaleza construída pelos portugueses em 1482 na Costa do Ouro, depois usada no tráfico atlântico.",
+        "variantes": [
+          "Castelo de Elmina",
+          "Elmina Castle",
+          "São Jorge da Mina"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Elmina_Castle"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Erguido pelos portugueses em 1482, o Castelo de São Jorge da Mina fica em que país atual?",
+      "resposta": "Gana",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Elmina_Castle"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pirâmides de Méroe",
+        "descricao": "Conjunto de pirâmides núbias erguidas pelos reis de Cuxe perto da antiga cidade de Méroe.",
+        "variantes": [
+          "Pirâmides núbias",
+          "Meroë pyramids"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Nubian_pyramids",
+          "https://en.wikipedia.org/wiki/Mero%C3%AB"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "As pirâmides de Méroe, erguidas pelos reis de Cuxe, ficam em que país atual?",
+      "resposta": "Sudão",
+      "distratores": [
+        "Etiópia",
+        "Chade",
+        "Líbia"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Mero%C3%AB"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilha de Gorée",
+        "descricao": "Pequena ilha diante de Dacar, símbolo do tráfico atlântico de escravizados e Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Gorée",
+          "Ilha de Goreia"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Gor%C3%A9e"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "A Ilha de Gorée, símbolo do tráfico atlântico de escravizados, fica em que país?",
+      "resposta": "Senegal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Gor%C3%A9e"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Kunta Kinte",
+        "descricao": "Africano escravizado retratado por Alex Haley no livro Raízes, de 1976, como seu antepassado.",
+        "variantes": [
+          "Kunta Kinteh"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Kunta_Kinte"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "Kunta Kinte, protagonista do livro Raízes, de Alex Haley, nasceu numa aldeia de que país africano atual?",
+      "resposta": "Gâmbia",
+      "distratores": [
+        "Senegal",
+        "Gana",
+        "Serra Leoa"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Kunta_Kinte"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "obelisco_de_axum",
+        "nome": "Obelisco de Axum",
+        "descricao": "Estela de fonolito de 24 metros, do século quarto, na cidade de Axum, na Etiópia.",
+        "variantes": [
+          "Estela de Axum",
+          "Obelisk of Axum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Obelisk_of_Axum"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Levado pelas tropas de Mussolini em 1937, o obelisco de Axum ficou exposto em que cidade europeia até ser devolvido à Etiópia?",
+      "resposta": "Roma",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Obelisk_of_Axum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ano da África",
+        "descricao": "O ano de 1960, em que dezessete países africanos se tornaram independentes.",
+        "variantes": [
+          "Year of Africa"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Year_of_Africa"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Que ano ficou conhecido como Ano da África, porque dezessete países do continente se tornaram independentes?",
+      "resposta": "1960",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Year_of_Africa"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ezana",
+        "descricao": "Rei de Axum no século quarto, o primeiro governante do reino a adotar o cristianismo.",
+        "variantes": [
+          "Ezana de Axum",
+          "Ezana of Axum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ezana_of_Axum"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que século o rei Ezana, de Axum, na atual Etiópia, adotou o cristianismo?",
+      "resposta": "Século quatro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ezana_of_Axum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Escravidão na Mauritânia",
+        "descricao": "Prática da escravidão hereditária na Mauritânia, abolida oficialmente em 1981 e criminalizada em 2007.",
+        "variantes": [
+          "Slavery in Mauritania"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Slavery_in_Mauritania"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Mauritânia foi o último país do mundo a abolir oficialmente a escravidão. Em que ano isso aconteceu?",
+      "resposta": "1981",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Slavery_in_Mauritania"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Guerra da Argélia",
+        "descricao": "Guerra de independência da Argélia contra a França, de 1954 a 1962.",
+        "variantes": [
+          "Guerra de Independência da Argélia",
+          "Algerian War"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Algerian_War"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Depois de cerca de oito anos de guerra, em que ano a Argélia conquistou a independência da França?",
+      "resposta": "1962",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Algerian_War"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Conferência de Berlim",
+        "descricao": "Reunião de potências em Berlim, entre 1884 e 1885, que estabeleceu regras para a ocupação colonial da África.",
+        "variantes": [
+          "Conferência do Congo",
+          "Berlin Conference"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Berlin_Conference",
+          "https://pt.wikipedia.org/wiki/Confer%C3%AAncia_de_Berlim"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Quantos países participaram da Conferência de Berlim, entre 1884 e 1885, que regulou a partilha da África sem nenhum africano à mesa?",
+      "resposta": "Catorze",
+      "distratores": [
+        "Sete",
+        "Vinte",
+        "Trinta e dois"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Berlin_Conference"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Comércio transaariano",
+        "descricao": "Rede de rotas de caravanas que cruzavam o Saara, ligando o norte da África aos reinos do Sahel.",
+        "variantes": [
+          "Trans-Saharan trade",
+          "Rotas transaarianas"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Trans-Saharan_trade"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "No comércio transaariano medieval, que produto extraído do deserto era trocado pelo ouro dos reinos do Sahel?",
+      "resposta": "Sal",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Trans-Saharan_trade"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Grande Mesquita de Djenné",
+        "descricao": "Mesquita de barro na cidade de Djenné, no Mali, reconstruída em 1907 e Patrimônio Mundial da UNESCO.",
+        "variantes": [
+          "Great Mosque of Djenné",
+          "Mesquita de Djenné"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "A Grande Mesquita de Djenné, no Mali, é reformada todo ano numa festa popular. De que material ela é feita?",
+      "resposta": "Tijolos de barro",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Império de Gana",
+        "descricao": "Império da África Ocidental, nas atuais Mauritânia e Mali, que prosperou com o comércio de ouro até o século treze.",
+        "variantes": [
+          "Ghana Empire",
+          "Império do Gana",
+          "Wagadu"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Ghana_Empire"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "multipla",
+      "pergunta": "Qual destes impérios da África Ocidental surgiu primeiro?",
+      "resposta": "Império de Gana",
+      "distratores": [
+        "Império do Mali",
+        "Império Songai",
+        "Império Axante"
+      ],
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Ghana_Empire",
+        "https://en.wikipedia.org/wiki/Mali_Empire"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ilha Robben",
+        "descricao": "Ilha na baía da Mesa, diante da Cidade do Cabo, usada como prisão de presos políticos durante o apartheid.",
+        "variantes": [
+          "Robben Island"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Robben_Island"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Em que ilha diante da Cidade do Cabo Nelson Mandela passou dezoito dos seus vinte e sete anos de prisão?",
+      "resposta": "Ilha Robben",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Robben_Island"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Axum",
+        "descricao": "Cidade no norte da Etiópia, antiga capital do Reino de Axum.",
+        "variantes": [
+          "Aksum"
+        ],
+        "fontes": [
+          "https://en.wikipedia.org/wiki/Axum"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "aberta",
+      "pergunta": "Que objeto bíblico a Igreja Ortodoxa Etíope afirma guardar numa capela da cidade de Axum?",
+      "resposta": "Arca da Aliança",
+      "fonte": [
+        "https://en.wikipedia.org/wiki/Axum",
+        "https://en.wikipedia.org/wiki/Church_of_Our_Lady_Mary_of_Zion"
+      ]
+    }
+  ]
+}

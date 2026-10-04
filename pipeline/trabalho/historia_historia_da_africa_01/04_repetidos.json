@@ -1,0 +1,139 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Nelson Mandela recebeu ao nascer o nome xossa Rolihlahla. Em linguagem coloquial, o que esse nome significa?",
+        "resposta": "Encrenqueiro"
+      },
+      "existentes": [
+        {
+          "id": "q01549",
+          "pergunta": "Que regime de segregação racial este líder ajudou a derrubar na África do Sul?",
+          "resposta": "Apartheid"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Tafari Makonnen reinou na Etiópia com seu nome de batismo, Hailé Selassié. O que esse nome significa?",
+        "resposta": "Poder da Trindade"
+      },
+      "existentes": [
+        {
+          "id": "q01556",
+          "pergunta": "Que religião nascida na Jamaica considera este imperador etíope uma figura divina?",
+          "resposta": "Rastafári"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Até 1966, a capital do Congo levava o nome de um rei belga. Como a cidade se chamava então?",
+        "resposta": "Léopoldville"
+      },
+      "existentes": [
+        {
+          "id": "q04019",
+          "pergunta": "Até 1966, a capital congolesa Kinshasa se chamava Léopoldville, em homenagem ao rei de qual país europeu?",
+          "resposta": "Bélgica"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "No início do século dezenove, uma sociedade americana criou a colônia que deu origem à Libéria. Com que objetivo?",
+        "resposta": "Assentar negros libertos americanos"
+      },
+      "existentes": [
+        {
+          "id": "q00016",
+          "pergunta": "No século dezenove, a Libéria foi fundada na África como destino de qual grupo vindo dos Estados Unidos?",
+          "resposta": "Afro-americanos libertos"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Erguido pelos portugueses em 1482, o Castelo de São Jorge da Mina fica em que país atual?",
+        "resposta": "Gana"
+      },
+      "existentes": [
+        {
+          "id": "q03683",
+          "pergunta": "O Castelo de São Jorge da Mina, erguido pelos portugueses em 1482 no litoral africano, fica em que país atual?",
+          "resposta": "Gana"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Levado pelas tropas de Mussolini em 1937, o obelisco de Axum ficou exposto em que cidade europeia até ser devolvido à Etiópia?",
+        "resposta": "Roma"
+      },
+      "existentes": [
+        {
+          "id": "q04702",
+          "pergunta": "Que reino africano ergueu esta estela no século quarto?",
+          "resposta": "Reino de Axum"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Em que ilha diante da Cidade do Cabo Nelson Mandela passou dezoito dos seus vinte e sete anos de prisão?",
+        "resposta": "Ilha Robben"
+      },
+      "existentes": [
+        {
+          "id": "q02211",
+          "pergunta": "O que liga a ilha Robben, diante da Cidade do Cabo, ao líder sul-africano Nelson Mandela?",
+          "resposta": "Ele ficou preso lá"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Significado do nome de nascimento, fato diferente do apartheid."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Significado do nome vs. religião rastafári."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "A existente já traz o nome Léopoldville e a nova pergunta pelo mesmo fato, na direção inversa."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam que a Libéria foi fundada para ex-escravizados americanos libertos."
+    },
+    {
+      "caso": 5,
+      "decisao": "repete",
+      "motivo": "Mesma pergunta: país do Castelo de São Jorge da Mina, Gana."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Cidade onde o obelisco ficou exposto vs. reino que o ergueu."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Ambas tratam da ligação entre Mandela e a ilha Robben, onde ele esteve preso."
+    }
+  ]
+}
