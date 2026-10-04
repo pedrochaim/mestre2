@@ -1,0 +1,161 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": false,
+      "motivo": "Panorama de museu com duas pessoas comuns em primeiro plano e a máquina pouco reconhecível como máquina a vapor, sem forma emblemática."
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Gravura colorida clara de uma esfera armilar, reconhecível. Os rótulos em francês na gravura não dizem o nome do objeto. Autoria é difusa (inventada separadamente na China e na Grécia), então troquei para o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento astronômico antigo, feito de anéis, é este?",
+      "resposta": "Esfera armilar",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Esfera armilar",
+        "descricao": "Modelo da esfera celeste formado por anéis metálicos que representam círculos astronômicos como a eclíptica.",
+        "variantes": [
+          "Armila",
+          "Astrolábio esférico"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "Render técnico em corte do ITER, colorido e cheio de componentes, com figura humana minúscula. Não é reconhecível como tokamak por leigos e a resposta não é única."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Aparecem três discos de tamanhos diferentes, e o rótulo do disco do meio traz o texto 'FLOPPY DISK', que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Render 3D limpo, sem texto, com o objeto reconhecível. Quem fez/quando não rendem uma boa pergunta (projeto de Mariotte, sem data clara), então fiz o_que_e.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que aparelho de mesa, com esferas metálicas suspensas que batem umas nas outras, é este?",
+      "resposta": "Pêndulo de Newton",
+      "distratores": [],
+      "destino": 2,
+      "ancora": {
+        "nome": "Pêndulo de Newton",
+        "descricao": "Aparelho com esferas metálicas suspensas em fila que demonstra a conservação do momento e da energia.",
+        "variantes": [
+          "Berço de Newton",
+          "Newton's cradle"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Foto nítida, sem texto, de um radiômetro de Crookes, que é inconfundível pelas pás dentro do bulbo de vidro.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em 1873, quem inventou este aparelho de pás giratórias dentro de um bulbo de vidro?",
+      "resposta": "William Crookes",
+      "distratores": [
+        "Michael Faraday",
+        "Lord Kelvin",
+        "Joseph Priestley"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Radiômetro de Crookes",
+        "descricao": "Bulbo de vidro com vácuo parcial e pás que giram sob a luz, inventado por William Crookes em 1873.",
+        "variantes": [
+          "Moinho de luz",
+          "Crookes radiometer"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Foto limpa, sem texto, de um estetoscópio, reconhecível de imediato.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que instrumento médico é este?",
+      "resposta": "Estetoscópio",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "Estetoscópio",
+        "descricao": "Instrumento médico usado para auscultar sons internos do corpo, inventado por René Laennec em 1816.",
+        "variantes": [
+          "Stethoscope"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Foto nítida de um cartão perfurado IBM de 80 colunas. Há dígitos e caracteres impressos, mas nenhum texto que diga o nome. Reconhecível, e a pergunta de autoria seria ambígua (Jacquard ou Hollerith), então fiz o_que_e em múltipla.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que meio de armazenar dados, usado nos primeiros computadores, é este?",
+      "resposta": "Cartão perfurado",
+      "distratores": [
+        "Fita perfurada",
+        "Cartão magnético",
+        "Disquete"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Cartão perfurado",
+        "descricao": "Cartão de papel rígido que guarda informações pela presença ou ausência de furos, usado em teares e computadores.",
+        "variantes": [
+          "Cartão de pontos",
+          "Punched card"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "Há texto visível ('ZEISS AEROTOPO' e 'Prüfungstafel für stereoskopisches Sehen') que entrega a resposta, e o aparelho parece apenas uma armação com lentes."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Foto histórica clara do 14-bis, com a forma de células de caixa característica e o número 14, sem texto que entregue o nome.",
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Quem projetou e pilotou esta aeronave pioneira, fotografada na França em 1906?",
+      "resposta": "Alberto Santos-Dumont",
+      "distratores": [],
+      "destino": 0,
+      "ancora": {
+        "nome": "14-bis",
+        "descricao": "Biplano canard projetado e pilotado por Alberto Santos-Dumont, que voou em Paris em 1906.",
+        "variantes": [
+          "Quatorze-bis",
+          "Oiseau de proie"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Texto visível na válvula ('JAN 12AX7WA Philips ECG') e nas caixas ao fundo ('TUBE'), o que entrega a resposta."
+    },
+    {
+      "indice": 12,
+      "aprovado": false,
+      "motivo": "O objeto parece uma lamparina de segurança tipo Wolf, com carcaça de metal ranhurada, e não uma lâmpada de Davy com tela de malha. A resposta não é única."
+    }
+  ]
+}

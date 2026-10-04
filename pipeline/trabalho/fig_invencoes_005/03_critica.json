@@ -1,0 +1,63 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'feito de anéis' descreve o próprio instrumento (armila = anel); a figura vira enfeite.",
+      "reescrita": {
+        "pergunta": "Que instrumento astronômico, comum antes do telescópio, é este?",
+        "resposta": "Esfera armilar"
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "O enunciado descreve o aparelho por completo (esferas suspensas que batem); dá para responder sem ver a figura.",
+      "reescrita": {
+        "pergunta": "Que aparelho de mesa, usado para demonstrar princípios da física, é este?",
+        "resposta": "Pêndulo de Newton"
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'pás giratórias dentro de um bulbo de vidro' mais o ano de 1873 identificam o aparelho sem a figura. Troca por pista que ajuda sem entregar.",
+      "reescrita": {
+        "pergunta": "Em 1873, que químico britânico inventou este aparelho?",
+        "resposta": "William Crookes",
+        "distratores": [
+          "Michael Faraday",
+          "Lord Kelvin",
+          "Joseph Priestley"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Nível 1 direto, sem pista que entregue a resposta; resposta única.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pista genérica, não entrega a resposta; distratores do mesmo tipo e nenhum correto para a imagem.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'fotografada na França em 1906' não é verificável para esta foto específica; a época e o lugar ainda facilitam demais o palpite.",
+      "reescrita": {
+        "pergunta": "Quem projetou e pilotou esta aeronave pioneira?",
+        "resposta": "Alberto Santos-Dumont"
+      }
+    }
+  ]
+}

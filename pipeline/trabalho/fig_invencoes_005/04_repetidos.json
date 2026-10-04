@@ -1,0 +1,49 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que instrumento médico é este?",
+        "resposta": "Estetoscópio"
+      },
+      "existentes": [
+        {
+          "id": "q03590",
+          "pergunta": "Em 1816, o médico francês René Laennec inventou o estetoscópio para evitar que situação constrangedora?",
+          "resposta": "Encostar o ouvido no peito de uma paciente"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem projetou e pilotou esta aeronave pioneira?",
+        "resposta": "Alberto Santos-Dumont"
+      },
+      "existentes": [
+        {
+          "id": "q00979",
+          "pergunta": "O avião com que Santos Dumont voou em Paris, em 1906, se chamava Quatorze Bis. De onde veio esse nome?",
+          "resposta": "Foi testado preso ao dirigível número quatorze"
+        },
+        {
+          "id": "q02702",
+          "pergunta": "Em que ano este avião realizou voos públicos nos arredores de Paris?",
+          "resposta": "1906"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "A nova pede a identificação do instrumento (estetoscópio); a existente pergunta qual situação constrangedora motivou a invenção. Fatos diferentes."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta quem projetou e pilotou a aeronave (Santos-Dumont). As existentes tratam da origem do nome 14-Bis e do ano dos voos públicos, que são fatos diferentes."
+    }
+  ]
+}
