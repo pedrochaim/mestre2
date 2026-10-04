@@ -1,0 +1,273 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "A cidade de Parintins, palco da disputa entre Garantido e Caprichoso, fica numa ilha do rio Amazonas. Como se chama essa ilha?",
+        "resposta": "Ilha Tupinambarana"
+      },
+      "existentes": [
+        {
+          "id": "q00300",
+          "pergunta": "No Festival de Parintins, o boi Garantido é representado pelo vermelho. Qual é o nome do boi rival, de cor azul?",
+          "resposta": "Caprichoso"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em 1717, três pescadores encontraram nas redes a imagem que viria a ser Nossa Senhora Aparecida. Em que rio eles pescavam?",
+        "resposta": "Rio Paraíba do Sul"
+      },
+      "existentes": [
+        {
+          "id": "q03556",
+          "pergunta": "Em 1717, pescadores encontraram a imagem de Nossa Senhora Aparecida nas águas de que rio?",
+          "resposta": "Paraíba do Sul"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Em janeiro, as baianas lavam com água de cheiro as escadarias da Igreja do Bonfim, em Salvador. Em que dia da semana acontece essa lavagem?",
+        "resposta": "Quinta-feira"
+      },
+      "existentes": [
+        {
+          "id": "q00345",
+          "pergunta": "Na Lavagem do Bonfim, em Salvador, quase todos vestem branco porque o Senhor do Bonfim é associado a qual orixá?",
+          "resposta": "Oxalá"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Muita gente acredita que a boneca abayomi surgiu nos navios negreiros, mas na verdade ela foi criada em que década?",
+        "resposta": "Anos 1980"
+      },
+      "existentes": [
+        {
+          "id": "q05181",
+          "pergunta": "Que boneca artesanal afro-brasileira é esta?",
+          "resposta": "Abayomi"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Em 1970, no Recife, qual escritor paraibano lançou o Movimento Armorial, que criava arte erudita a partir da cultura popular nordestina?",
+        "resposta": "Ariano Suassuna"
+      },
+      "existentes": [
+        {
+          "id": "q02892",
+          "pergunta": "Ariano Suassuna batizou seu movimento artístico de Armorial, palavra que designa uma coleção de quê?",
+          "resposta": "Brasões"
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "nova": {
+        "pergunta": "Em 1899, quem compôs Ó Abre Alas, considerada a primeira marchinha de carnaval do Brasil?",
+        "resposta": "Chiquinha Gonzaga"
+      },
+      "existentes": [
+        {
+          "id": "q01208",
+          "pergunta": "Em que ano Chiquinha Gonzaga compôs a marcha Ó Abre Alas, para o cordão carnavalesco Rosa de Ouro?",
+          "resposta": "1899"
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "nova": {
+        "pergunta": "Símbolo da música sertaneja de raiz, a viola caipira tradicional tem quantas cordas, arranjadas em pares?",
+        "resposta": "Dez"
+      },
+      "existentes": [
+        {
+          "id": "q01212",
+          "pergunta": "Na formação mais comum, quantas cordas tem a viola caipira, instrumento da música sertaneja de raiz?",
+          "resposta": "Dez"
+        },
+        {
+          "id": "q02636",
+          "pergunta": "Que instrumento de cordas brasileiro é este?",
+          "resposta": "Viola caipira"
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "nova": {
+        "pergunta": "Antes de dar nome à luta afro-brasileira, a palavra capoeira, de origem tupi, designava que tipo de terreno?",
+        "resposta": "Mato ralo, já cortado"
+      },
+      "existentes": [
+        {
+          "id": "q01974",
+          "pergunta": "A capoeira virou crime no Código Penal criado logo após a Proclamação da República. De que ano é esse código?",
+          "resposta": "1890"
+        },
+        {
+          "id": "q04699",
+          "pergunta": "Que manifestação afro-brasileira, que mistura luta, dança e música, é esta?",
+          "resposta": "Capoeira"
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "nova": {
+        "pergunta": "Que crime cometeu o pescador Crispim para ser amaldiçoado a vagar pelos rios com a cabeça enorme, como o Cabeça de Cuia?",
+        "resposta": "Matou a própria mãe"
+      },
+      "existentes": [
+        {
+          "id": "q00306",
+          "pergunta": "A lenda do Cabeça de Cuia, pescador amaldiçoado, se passa no encontro dos rios Poti e Parnaíba, em qual capital nordestina?",
+          "resposta": "Teresina"
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "nova": {
+        "pergunta": "O ronco da cuíca, tão típico do samba, nasce da fricção com um pano úmido de qual peça presa por dentro ao centro do couro?",
+        "resposta": "Uma vareta de bambu"
+      },
+      "existentes": [
+        {
+          "id": "q01215",
+          "pergunta": "Que instrumento do samba tem uma vareta presa ao couro, esfregada por dentro com um pano úmido para dar um som de ronco?",
+          "resposta": "Cuíca"
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "nova": {
+        "pergunta": "Na folia de reis, que personagens mascarados e brincalhões representam os soldados de Herodes que perseguiam o Menino Jesus?",
+        "resposta": "Os palhaços"
+      },
+      "existentes": [
+        {
+          "id": "q00338",
+          "pergunta": "Os grupos da folia de reis começam a visitar as casas no Natal. Em que dia do ano eles encerram a jornada?",
+          "resposta": "6 de janeiro"
+        },
+        {
+          "id": "q02308",
+          "pergunta": "Que manifestação folclórica brasileira do ciclo natalino é esta?",
+          "resposta": "Folia de Reis"
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "nova": {
+        "pergunta": "No candomblé, os três atabaques se chamam rum, rumpi e lé. Qual deles é o maior e de som mais grave?",
+        "resposta": "Rum"
+      },
+      "existentes": [
+        {
+          "id": "q05180",
+          "pergunta": "Que instrumento de percussão brasileiro é este?",
+          "resposta": "Atabaque"
+        }
+      ]
+    },
+    {
+      "caso": 13,
+      "nova": {
+        "pergunta": "Na roda de capoeira tocam três berimbaus: gunga, médio e viola. Qual deles, de cabaça maior, tem o som mais grave?",
+        "resposta": "Gunga"
+      },
+      "existentes": [
+        {
+          "id": "q00341",
+          "pergunta": "No berimbau, que comanda o ritmo da roda de capoeira, que fruto seco e oco serve de caixa de ressonância?",
+          "resposta": "Cabaça"
+        },
+        {
+          "id": "q04164",
+          "pergunta": "Que instrumento musical é este?",
+          "resposta": "Berimbau"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta sobre a ilha de Parintins, não sobre o boi rival."
+    },
+    {
+      "caso": 2,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: rio Paraíba do Sul onde a imagem foi encontrada."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Dia da semana da lavagem, diferente do orixá associado."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Década de criação da abayomi, fato distinto da identificação da boneca."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Autor do movimento versus significado da palavra Armorial."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Autoria da marchinha versus ano; a existente já dá Chiquinha na pergunta, mas o fato perguntado difere (ano vs compositora)."
+    },
+    {
+      "caso": 7,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: número de cordas da viola caipira."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Significado original da palavra capoeira, fato diferente."
+    },
+    {
+      "caso": 9,
+      "decisao": "nova",
+      "motivo": "Crime de Crispim versus localização da lenda."
+    },
+    {
+      "caso": 10,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: vareta presa ao couro da cuíca esfregada com pano úmido."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Palhaços como soldados de Herodes, fato distinto."
+    },
+    {
+      "caso": 12,
+      "decisao": "nova",
+      "motivo": "Qual atabaque é o maior, fato distinto da identificação do instrumento."
+    },
+    {
+      "caso": 13,
+      "decisao": "nova",
+      "motivo": "Qual berimbau é o mais grave, distinto da cabaça como ressonador."
+    }
+  ]
+}

@@ -1,0 +1,990 @@
+{
+  "perguntas": [
+    {
+      "ancora": {
+        "id_existente": "festival_folclorico_de_parintins",
+        "nome": "Festival Folclórico de Parintins",
+        "descricao": "Festa anual de bois-bumbás realizada em Parintins, no Amazonas, com a disputa entre os bois Garantido e Caprichoso.",
+        "variantes": [
+          "Festival de Parintins"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festival_Folcl%C3%B3rico_de_Parintins"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "A cidade de Parintins, palco da disputa entre Garantido e Caprichoso, fica numa ilha do rio Amazonas. Como se chama essa ilha?",
+      "resposta": "Ilha Tupinambarana",
+      "distratores": [
+        "Ilha de Marajó",
+        "Ilha do Bananal",
+        "Ilha de Maracá"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Parintins",
+        "https://pt.wikipedia.org/wiki/Ilha_Tupinambarana"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Artesanato de capim dourado",
+        "descricao": "Artesanato de bolsas, chapéus e bijuterias tecido com a haste brilhante do capim-dourado, típico do Tocantins.",
+        "variantes": [
+          "Capim-dourado"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capim-dourado"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Bolsas, chapéus e bijuterias de capim dourado, que brilham como ouro, são o artesanato típico de qual região do Tocantins?",
+      "resposta": "Jalapão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Capim-dourado",
+        "https://pt.wikipedia.org/wiki/Jalap%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Paneleiras de Goiabeiras",
+        "descricao": "Artesãs capixabas que fazem à mão as panelas de barro pretas usadas na moqueca capixaba, ofício registrado como patrimônio imaterial.",
+        "variantes": [
+          "Ofício das Paneleiras de Goiabeiras"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Paneleiras_de_Goiabeiras"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "As panelas de barro pretas da moqueca capixaba são feitas pelas paneleiras do bairro de Goiabeiras. Esse bairro fica em qual capital?",
+      "resposta": "Vitória",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Paneleiras_de_Goiabeiras",
+        "https://pt.wikipedia.org/wiki/Moqueca_capixaba"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Bonecas de barro do Vale do Jequitinhonha",
+        "descricao": "Esculturas de cerâmica, sobretudo bonecas de figuras femininas, feitas por artesãs do Vale do Jequitinhonha.",
+        "variantes": [
+          "Cerâmica do Vale do Jequitinhonha"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Vale_do_Jequitinhonha"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "As famosas bonecas de barro feitas pelas artesãs do Vale do Jequitinhonha são tradição de qual estado brasileiro?",
+      "resposta": "Minas Gerais",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Vale_do_Jequitinhonha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Irmandade da Boa Morte",
+        "descricao": "Confraria religiosa baiana formada por mulheres negras, que realiza todo mês de agosto a Festa da Boa Morte.",
+        "variantes": [
+          "Festa da Boa Morte",
+          "Irmandade de Nossa Senhora da Boa Morte"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Irmandade_da_Boa_Morte"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Todo mês de agosto, a Irmandade da Boa Morte, formada por mulheres negras, faz sua festa em qual cidade do Recôncavo Baiano?",
+      "resposta": "Cachoeira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Irmandade_da_Boa_Morte"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Imagem de Nossa Senhora Aparecida",
+        "descricao": "Pequena imagem de terracota de Nossa Senhora da Conceição encontrada por pescadores em 1717 e venerada como padroeira do Brasil.",
+        "variantes": [
+          "Nossa Senhora da Conceição Aparecida"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Nossa_Senhora_da_Concei%C3%A7%C3%A3o_Aparecida"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Em 1717, três pescadores encontraram nas redes a imagem que viria a ser Nossa Senhora Aparecida. Em que rio eles pescavam?",
+      "resposta": "Rio Paraíba do Sul",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Nossa_Senhora_da_Concei%C3%A7%C3%A3o_Aparecida"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "J. Borges",
+        "descricao": "José Francisco Borges, xilogravurista e cordelista pernambucano famoso pelas capas de folhetos de cordel.",
+        "variantes": [
+          "José Francisco Borges"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/J._Borges"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "O xilogravurista J. Borges, cujas gravuras ilustram capas de cordel, tinha seu ateliê em qual cidade do agreste pernambucano?",
+      "resposta": "Bezerros",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/J._Borges"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Tambor de crioula",
+        "descricao": "Dança afro-brasileira de roda, com tambores e a umbigada chamada punga, registrada como patrimônio cultural do Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "De que estado brasileiro é o tambor de crioula, dança afro-brasileira de roda marcada pela punga, uma espécie de umbigada?",
+      "resposta": "Maranhão",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Tambor_de_crioula"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Marabaixo",
+        "descricao": "Dança e música afro-brasileira com saias rodadas e caixas de percussão, ligada a festas religiosas populares.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Marabaixo"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "multipla",
+      "pergunta": "O marabaixo, dança afro-brasileira de saias rodadas e caixas de percussão, é uma tradição típica de qual estado do Norte?",
+      "resposta": "Amapá",
+      "distratores": [
+        "Pará",
+        "Acre",
+        "Roraima"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Marabaixo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Boi de mamão",
+        "descricao": "Folguedo popular do litoral do Sul do Brasil, com personagens como o boi, a bernúncia e a Maricota.",
+        "variantes": [
+          "Boi-de-mamão"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Boi_de_mam%C3%A3o"
+        ]
+      },
+      "angulo": "lugar",
+      "tipo": "aberta",
+      "pergunta": "Com a bernúncia, que engole crianças, e a gigante Maricota, o folguedo do boi de mamão é tradição típica de qual estado?",
+      "resposta": "Santa Catarina",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Boi_de_mam%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dia do Saci",
+        "descricao": "Data comemorativa brasileira dedicada ao saci e ao folclore nacional, criada em contraposição ao Halloween.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dia_do_Saci"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Criado para fazer frente ao Halloween e valorizar o folclore nacional, o Dia do Saci é comemorado em que data?",
+      "resposta": "31 de outubro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dia_do_Saci"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cirio_de_nazare",
+        "nome": "Círio de Nazaré",
+        "descricao": "Grande procissão católica em honra de Nossa Senhora de Nazaré realizada em Belém do Pará em outubro.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/C%C3%ADrio_de_Nazar%C3%A9"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em Belém do Pará, a grande procissão do Círio de Nazaré sai às ruas em qual domingo de outubro?",
+      "resposta": "Segundo domingo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/C%C3%ADrio_de_Nazar%C3%A9"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lavagem_do_bonfim",
+        "nome": "Lavagem do Bonfim",
+        "descricao": "Festa popular de Salvador em que baianas lavam as escadarias da Igreja do Senhor do Bonfim com água perfumada.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lavagem_do_Bonfim"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em janeiro, as baianas lavam com água de cheiro as escadarias da Igreja do Bonfim, em Salvador. Em que dia da semana acontece essa lavagem?",
+      "resposta": "Quinta-feira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lavagem_do_Bonfim"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cosme e Damião",
+        "descricao": "Santos gêmeos médicos do cristianismo, cuja festa popular no Brasil inclui a distribuição de doces às crianças.",
+        "variantes": [
+          "São Cosme e São Damião"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cosme_e_Dami%C3%A3o"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Em que dia de setembro muitas famílias brasileiras distribuem saquinhos de doces às crianças em homenagem a Cosme e Damião?",
+      "resposta": "27 de setembro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cosme_e_Dami%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Semana Farroupilha",
+        "descricao": "Festa tradicionalista do Rio Grande do Sul, com desfiles e acampamentos gaúchos, que lembra a Revolução Farroupilha.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Semana_Farroupilha"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "A Semana Farroupilha, com desfiles de gaúchos pilchados, termina na data que marca o início da Revolução Farroupilha. Que data é essa?",
+      "resposta": "20 de setembro",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Semana_Farroupilha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lobisomem",
+        "descricao": "Criatura lendária, homem que se transforma em lobo ou bicho peludo, presente no folclore brasileiro de origem europeia.",
+        "variantes": [
+          "Lobishomem"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lobisomem"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Segundo a crença popular brasileira, em que noite da semana o lobisomem se transforma e sai correndo pelas encruzilhadas?",
+      "resposta": "Sexta-feira",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lobisomem"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "abayomi",
+        "nome": "Abayomi",
+        "descricao": "Boneca de pano afro-brasileira feita sem costura e sem cola, criada por Lena Martins na década de 1980.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Abayomi"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Muita gente acredita que a boneca abayomi surgiu nos navios negreiros, mas na verdade ela foi criada em que década?",
+      "resposta": "Anos 1980",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Abayomi"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "lampiao",
+        "nome": "Lampião",
+        "descricao": "Virgulino Ferreira da Silva, o mais famoso líder do cangaço no sertão nordestino, morto em 1938.",
+        "variantes": [
+          "Virgulino Ferreira da Silva"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lampi%C3%A3o_(cangaceiro)",
+          "https://en.wikipedia.org/wiki/Lampi%C3%A3o"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "aberta",
+      "pergunta": "Lampião, Maria Bonita e parte do bando foram mortos numa emboscada na Grota de Angico, em Sergipe. Em que ano?",
+      "resposta": "1938",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lampi%C3%A3o_(cangaceiro)",
+        "https://en.wikipedia.org/wiki/Lampi%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lança-perfume",
+        "descricao": "Spray de éter perfumado, em frascos de vidro ou metal, muito usado nos bailes e desfiles de carnaval até ser proibido no Brasil.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lan%C3%A7a-perfume"
+        ]
+      },
+      "angulo": "tempo",
+      "tipo": "multipla",
+      "pergunta": "O lança-perfume, que perfumava os bailes de carnaval desde o começo do século vinte, foi proibido por decreto presidencial em que década?",
+      "resposta": "Anos 1960",
+      "distratores": [
+        "Anos 1930",
+        "Anos 1980",
+        "Anos 2000"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lan%C3%A7a-perfume"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Festa do Divino",
+        "descricao": "Festa católica popular em honra do Espírito Santo, trazida de Portugal, com coroação de imperador e folias.",
+        "variantes": [
+          "Festa do Divino Espírito Santo"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festa_do_Divino"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Trazida ao Brasil pelos portugueses, a Festa do Divino teria sido criada no século quatorze por iniciativa de qual rainha de Portugal?",
+      "resposta": "Rainha Santa Isabel",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_do_Divino"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Dicionário do Folclore Brasileiro",
+        "descricao": "Obra de referência sobre lendas, festas e costumes populares do Brasil, publicada em 1954.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lu%C3%ADs_da_C%C3%A2mara_Cascudo"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Publicado em 1954 e até hoje obra de referência, o Dicionário do Folclore Brasileiro foi escrito por qual pesquisador potiguar?",
+      "resposta": "Luís da Câmara Cascudo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lu%C3%ADs_da_C%C3%A2mara_Cascudo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Missão de Pesquisas Folclóricas",
+        "descricao": "Expedição de 1938 do Departamento de Cultura de São Paulo que gravou e registrou músicas e danças populares do Norte e Nordeste.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Miss%C3%A3o_de_Pesquisas_Folcl%C3%B3ricas"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1938, a Missão de Pesquisas Folclóricas gravou cantos e danças do Norte e do Nordeste por iniciativa de qual escritor modernista?",
+      "resposta": "Mário de Andrade",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Miss%C3%A3o_de_Pesquisas_Folcl%C3%B3ricas"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Movimento Armorial",
+        "descricao": "Movimento artístico lançado no Recife em 1970 que buscava criar uma arte erudita a partir da cultura popular nordestina.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Movimento_Armorial"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1970, no Recife, qual escritor paraibano lançou o Movimento Armorial, que criava arte erudita a partir da cultura popular nordestina?",
+      "resposta": "Ariano Suassuna",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Movimento_Armorial"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Centro Esportivo de Capoeira Angola",
+        "descricao": "Academia de capoeira angola fundada em Salvador, referência na preservação desse estilo tradicional.",
+        "variantes": [
+          "CECA"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mestre_Pastinha"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em Salvador, que mestre fundou o Centro Esportivo de Capoeira Angola e se tornou o grande símbolo desse estilo tradicional?",
+      "resposta": "Mestre Pastinha",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mestre_Pastinha"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Filhos de Gandhy",
+        "descricao": "Afoxé do carnaval de Salvador, fundado em 1949, cujos integrantes desfilam de branco e azul com turbantes e colares.",
+        "variantes": [
+          "Afoxé Filhos de Gandhy"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Filhos_de_Gandhy"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "multipla",
+      "pergunta": "Em 1949, que grupo de trabalhadores de Salvador fundou o afoxé Filhos de Gandhy, que desfila de branco e azul no carnaval?",
+      "resposta": "Estivadores",
+      "distratores": [
+        "Pescadores",
+        "Ferroviários",
+        "Pedreiros"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Filhos_de_Gandhy"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Ó Abre Alas",
+        "descricao": "Marcha composta em 1899 para o cordão carnavalesco Rosa de Ouro, considerada a primeira marchinha de carnaval.",
+        "variantes": [
+          "Ó Abre Alas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/%C3%93_Abre_Alas"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Em 1899, quem compôs Ó Abre Alas, considerada a primeira marchinha de carnaval do Brasil?",
+      "resposta": "Chiquinha Gonzaga",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/%C3%93_Abre_Alas",
+        "https://pt.wikipedia.org/wiki/Chiquinha_Gonzaga"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lendas do Sul",
+        "descricao": "Livro de 1913 que reúne lendas gaúchas como O Negrinho do Pastoreio, A Salamanca do Jarau e O Boitatá.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Sim%C3%B5es_Lopes_Neto"
+        ]
+      },
+      "angulo": "autoria",
+      "tipo": "aberta",
+      "pergunta": "Que escritor gaúcho reuniu, no livro Lendas do Sul, de 1913, histórias como a do Negrinho do Pastoreio?",
+      "resposta": "Simões Lopes Neto",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Sim%C3%B5es_Lopes_Neto"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lobisomem",
+        "descricao": "Criatura lendária, homem que se transforma em lobo ou bicho peludo, presente no folclore brasileiro de origem europeia.",
+        "variantes": [
+          "Lobishomem"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Lobisomem"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Segundo a crença popular brasileira, vira lobisomem o menino que nasce depois de quantas irmãs mulheres seguidas?",
+      "resposta": "Seis",
+      "distratores": [
+        "Três",
+        "Sete",
+        "Doze"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Lobisomem"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pular ondas no Réveillon",
+        "descricao": "Costume brasileiro de pular ondas no mar à meia-noite da virada do ano, fazendo pedidos, ligado a Iemanjá.",
+        "variantes": [
+          "Pular as sete ondas"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ano-Novo"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "aberta",
+      "pergunta": "Na virada do ano, muitos brasileiros vestidos de branco pulam ondas no mar fazendo pedidos. Quantas ondas manda a tradição?",
+      "resposta": "Sete",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ano-Novo",
+        "https://en.wikipedia.org/wiki/New_Year%27s_Eve"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "viola_caipira",
+        "nome": "Viola caipira",
+        "descricao": "Instrumento de cordas símbolo da música sertaneja de raiz.",
+        "variantes": [
+          "Viola de dez cordas",
+          "Viola sertaneja"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Viola_caipira"
+        ]
+      },
+      "angulo": "numero",
+      "tipo": "multipla",
+      "pergunta": "Símbolo da música sertaneja de raiz, a viola caipira tradicional tem quantas cordas, arranjadas em pares?",
+      "resposta": "Dez",
+      "distratores": [
+        "Seis",
+        "Oito",
+        "Catorze"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Viola_caipira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Caipora",
+        "descricao": "Ser do folclore brasileiro protetor dos animais e das florestas, que castiga os caçadores.",
+        "variantes": [
+          "Caapora"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Caipora"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome da Caipora, protetora dos animais que castiga os maus caçadores, vem do tupi. O que ele significa?",
+      "resposta": "Habitante do mato",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Caipora"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Mamulengo",
+        "descricao": "Teatro popular de bonecos de luva e vara do Nordeste, especialmente de Pernambuco.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mamulengo"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "O nome do mamulengo, teatro popular de bonecos de Pernambuco, viria de qual expressão sobre o jeito de manipular os bonecos?",
+      "resposta": "Mão molenga",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mamulengo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lenda da mandioca",
+        "descricao": "Lenda indígena tupi sobre a menina Mani, de cujo túmulo teria brotado a mandioca.",
+        "variantes": [
+          "Lenda de Mani"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Mandioca"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "multipla",
+      "pergunta": "Segundo uma lenda tupi, a mandioca brotou no túmulo da indiazinha Mani, enterrada dentro da oca. O que o nome da planta significaria?",
+      "resposta": "Casa de Mani",
+      "distratores": [
+        "Filha de Mani",
+        "Raiz de Mani",
+        "Corpo de Mani"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Mandioca"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "capoeira",
+        "nome": "Capoeira",
+        "descricao": "Arte marcial afro-brasileira que combina luta, dança, música e acrobacia.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Capoeira"
+        ]
+      },
+      "angulo": "nome",
+      "tipo": "aberta",
+      "pergunta": "Antes de batizar a luta afro-brasileira, a palavra capoeira, de origem tupi, designava que tipo de terreno?",
+      "resposta": "Mato ralo, já cortado",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Capoeira"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Fogueira de São João",
+        "descricao": "Grande fogueira acesa nas festas juninas brasileiras, sobretudo na véspera do dia de São João, 24 de junho.",
+        "variantes": [
+          "Fogueira junina"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Festa_junina"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Segundo a tradição católica, por que se acendem fogueiras nas festas de São João?",
+      "resposta": "Isabel avisou Maria do nascimento de João",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Festa_junina"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "cabeca_de_cuia",
+        "nome": "Cabeça de Cuia",
+        "descricao": "Lenda piauiense do pescador Crispim, amaldiçoado a vagar pelos rios de Teresina com a cabeça enorme.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cabe%C3%A7a_de_Cuia"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Que crime cometeu o pescador Crispim para ser amaldiçoado a vagar pelos rios com a cabeça enorme, como o Cabeça de Cuia?",
+      "resposta": "Matou a própria mãe",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cabe%C3%A7a_de_Cuia"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "iara",
+        "nome": "Iara",
+        "descricao": "Sereia do folclore brasileiro que vive nos rios e encanta pescadores com seu canto.",
+        "variantes": [
+          "Uiara",
+          "Mãe-d'água"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Iara_(mitologia)"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "Numa versão conhecida da lenda, a jovem guerreira Iara foi jogada no rio pelo próprio pai. O que ela tinha feito?",
+      "resposta": "Matou os irmãos",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Iara_(mitologia)"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "dia_do_folclore",
+        "nome": "Dia do Folclore",
+        "descricao": "Data comemorativa brasileira dedicada às tradições populares, instituída por decreto em 1965.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Dia_do_Folclore"
+        ]
+      },
+      "angulo": "causa",
+      "tipo": "aberta",
+      "pergunta": "O Dia do Folclore cai em 22 de agosto por causa de algo que o inglês William Thoms fez nessa data, em 1846. O quê?",
+      "resposta": "Criou o termo folklore",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Dia_do_Folclore",
+        "https://pt.wikipedia.org/wiki/Folclore"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cuíca",
+        "descricao": "Instrumento de percussão brasileiro de som roncado, usado no samba, tocado pela fricção de uma haste presa ao couro.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cu%C3%ADca"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "O ronco da cuíca, tão típico do samba, nasce da fricção com um pano úmido de qual peça presa por dentro ao centro do couro?",
+      "resposta": "Uma vareta de bambu",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cu%C3%ADca"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Maracatu nação",
+        "descricao": "Cortejo carnavalesco afro-brasileiro de Pernambuco, também chamado maracatu de baque virado, com rei, rainha e batuque.",
+        "variantes": [
+          "Maracatu de baque virado"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Maracatu"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "multipla",
+      "pergunta": "No cortejo do maracatu de baque virado, a dama do paço carrega uma boneca sagrada vestida a rigor. Como se chama essa boneca?",
+      "resposta": "Calunga",
+      "distratores": [
+        "Abayomi",
+        "Maricota",
+        "Iabá"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Maracatu"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "folia_de_reis",
+        "nome": "Folia de Reis",
+        "descricao": "Cortejo religioso popular que percorre casas cantando a visita dos Reis Magos ao Menino Jesus.",
+        "variantes": [
+          "Reisado",
+          "Terno de Reis"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Folia_de_Reis"
+        ]
+      },
+      "angulo": "composicao",
+      "tipo": "aberta",
+      "pergunta": "Na folia de reis, que personagens mascarados e brincalhões representam os soldados de Herodes que perseguiam o Menino Jesus?",
+      "resposta": "Os palhaços",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Folia_de_Reis"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "São Jorge no Rio de Janeiro",
+        "descricao": "Devoção popular carioca ao santo guerreiro São Jorge, celebrado em 23 de abril e sincretizado com um orixá.",
+        "variantes": [
+          "Festa de São Jorge"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Ogum"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "No Rio de Janeiro, o santo guerreiro São Jorge, montado em seu cavalo, é associado a qual orixá, senhor do ferro?",
+      "resposta": "Ogum",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ogum"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cosme e Damião",
+        "descricao": "Santos gêmeos médicos do cristianismo, cuja festa popular no Brasil inclui a distribuição de doces às crianças.",
+        "variantes": [
+          "São Cosme e São Damião"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cosme_e_Dami%C3%A3o"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "multipla",
+      "pergunta": "No sincretismo afro-brasileiro, os santos gêmeos Cosme e Damião correspondem a quais orixás?",
+      "resposta": "Ibejis",
+      "distratores": [
+        "Exus",
+        "Iabás",
+        "Voduns"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Ibeji",
+        "https://pt.wikipedia.org/wiki/Cosme_e_Dami%C3%A3o"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Boiuna",
+        "descricao": "Monstro do folclore amazônico, serpente gigantesca e escura que vive nos rios, também chamada Cobra Grande.",
+        "variantes": [
+          "Cobra Grande",
+          "Boiúna"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Boiuna"
+        ]
+      },
+      "angulo": "conexao",
+      "tipo": "aberta",
+      "pergunta": "O que os nomes do Boitatá, guardião dos campos, e da Boiuna, monstro gigante dos rios amazônicos, têm em comum?",
+      "resposta": "Vêm do tupi mboi, cobra",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Boiuna",
+        "https://pt.wikipedia.org/wiki/Boitat%C3%A1"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "atabaque",
+        "nome": "Atabaque",
+        "descricao": "Tambor alto e de madeira, de origem afro-brasileira, afinado por cordas e cunhas.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Atabaque"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "No candomblé, os três atabaques se chamam rum, rumpi e lé. Qual deles é o maior e de som mais grave?",
+      "resposta": "Rum",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Atabaque"
+      ]
+    },
+    {
+      "ancora": {
+        "id_existente": "berimbau",
+        "nome": "Berimbau",
+        "descricao": "Instrumento de corda de arco e cabaça que comanda o ritmo da roda de capoeira.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Berimbau"
+        ]
+      },
+      "angulo": "comparacao",
+      "tipo": "aberta",
+      "pergunta": "Na roda de capoeira tocam três berimbaus: gunga, médio e viola. Qual deles, de cabaça maior, tem o som mais grave?",
+      "resposta": "Gunga",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Berimbau"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Lenda do guaraná",
+        "descricao": "Lenda do povo indígena Sateré-Mawé sobre a origem do guaraná a partir dos olhos de um menino.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Guaran%C3%A1"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Segundo uma lenda do povo Sateré-Mawé, que fruto amazônico nasceu dos olhos de um menino morto e enterrado, e por isso parece um olho?",
+      "resposta": "Guaraná",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Guaran%C3%A1"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Pedro Malasartes",
+        "descricao": "Personagem malandro e espertalhão dos contos populares de origem portuguesa, muito difundido no Brasil.",
+        "variantes": [
+          "Pedro Malazartes"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Pedro_Malasartes"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Que personagem malandro dos contos populares, vindo de Portugal, vive enganando fazendeiros ricos e poderosos com sua esperteza?",
+      "resposta": "Pedro Malasartes",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Pedro_Malasartes"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Entrudo",
+        "descricao": "Festa popular de origem portuguesa, antecessora do carnaval brasileiro, em que se atiravam água, farinha e limões de cheiro.",
+        "variantes": [],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Entrudo"
+        ]
+      },
+      "angulo": "identidade",
+      "tipo": "aberta",
+      "pergunta": "Antes do carnaval moderno, que folia trazida de Portugal tinha como graça atirar água, farinha e limões de cheiro nas pessoas?",
+      "resposta": "Entrudo",
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Entrudo"
+      ]
+    },
+    {
+      "ancora": {
+        "nome": "Cuca",
+        "descricao": "Bruxa do folclore brasileiro, de origem ibérica, que pega crianças desobedientes, popularizada pelo Sítio do Picapau Amarelo.",
+        "variantes": [
+          "Coca"
+        ],
+        "fontes": [
+          "https://pt.wikipedia.org/wiki/Cuca_(folclore)"
+        ]
+      },
+      "angulo": "atributo",
+      "tipo": "multipla",
+      "pergunta": "Nas histórias do Sítio do Picapau Amarelo, de Monteiro Lobato, a bruxa Cuca aparece com a forma de qual animal?",
+      "resposta": "Jacaré",
+      "distratores": [
+        "Coruja",
+        "Sapo",
+        "Serpente"
+      ],
+      "fonte": [
+        "https://pt.wikipedia.org/wiki/Cuca_(folclore)"
+      ]
+    }
+  ]
+}

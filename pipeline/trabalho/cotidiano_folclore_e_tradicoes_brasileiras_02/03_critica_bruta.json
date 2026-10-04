@@ -1,0 +1,420 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pelas páginas (Parintins fica na Ilha Tupinambarana); distratores críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte de capim-dourado inexistente; mantém pergunta e usa só a página do Jalapão.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "Bolsas, chapéus e bijuterias de capim dourado, que brilham como ouro, são o artesanato típico de qual região do Tocantins?",
+        "resposta": "Jalapão",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Jalap%C3%A3o"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Fonte das paneleiras inexistente; basta a página da moqueca capixaba, que sustenta o fato.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "As panelas de barro pretas da moqueca capixaba são feitas pelas paneleiras do bairro de Goiabeiras. Esse bairro fica em qual capital?",
+        "resposta": "Vitória",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Moqueca_capixaba"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte não menciona as bonecas e a resposta é quase óbvia pelo nome do vale; fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Festa da Boa Morte em Cachoeira, sustentado pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rio Paraíba do Sul confirmado no trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que nasceu e residiu em Bezerros, não menciona ateliê; ajusta o enunciado.",
+      "reescrita": {
+        "angulo": "lugar",
+        "tipo": "aberta",
+        "pergunta": "O xilogravurista J. Borges, cujas gravuras ilustram capas de cordel, nasceu e viveu até morrer em qual cidade do agreste pernambucano?",
+        "resposta": "Bezerros",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/J._Borges"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Maranhão sustentado pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Marabaixo típico do Amapá, distratores do Norte críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Boi de mamão típico de Santa Catarina.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "31 de outubro confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Segundo domingo de outubro confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Quinta-feira confirmada no trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Costume popular de doces no dia 27 de setembro confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Semana termina em 20 de setembro, início da revolução em 1835.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "A crença varia por região (sexta e também terça), então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Criada na década de 1980, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Morte em 1938 na Grota do Angico, em Sergipe.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Decreto de 1961 de Jânio Quadros, anos 1960.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rainha Santa Isabel, por volta de 1320, século quatorze.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Dicionário do Folclore Brasileiro de Câmara Cascudo, 1954, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Missão idealizada por Mário de Andrade.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ariano Suassuna, paraibano, principal nome do movimento.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Pastinha fundou o Centro Esportivo de Capoeira Angola, fato bem conhecido.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fundado por estivadores portuários em 1949.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Chiquinha Gonzaga, 1899, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lendas do Sul (1913) de Simões Lopes Neto.",
+      "reescrita": null
+    },
+    {
+      "indice": 28,
+      "decisao": "reescrever",
+      "apoio": "contradito",
+      "motivo": "O trecho fala em sete mulheres seguidas, não seis.",
+      "reescrita": {
+        "angulo": "numero",
+        "tipo": "multipla",
+        "pergunta": "Segundo uma versão da crença popular brasileira, vira lobisomem o menino que nasce depois de quantas irmãs mulheres seguidas?",
+        "resposta": "Sete",
+        "distratores": [
+          "Três",
+          "Cinco",
+          "Nove"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Lobisomem"
+        ]
+      }
+    },
+    {
+      "indice": 29,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "As fontes citadas não sustentam o fato das sete ondas; não verificável.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Dez cordas em cinco pares confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado 'habitante do mato' confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem 'mão molenga' confirmada, com 'viria' adequado à controvérsia.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "Etimologia é contestada e 'oca' no enunciado vaza 'casa'; atribui a Câmara Cascudo e vira aberta.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Segundo o folclorista Câmara Cascudo, o nome da mandioca, ligada à lenda tupi da indiazinha Mani, significa o quê?",
+        "resposta": "Casa de Mani",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Mandioca"
+        ]
+      }
+    },
+    {
+      "indice": 34,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Evita o verbo 'batizar', que não é literal.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "aberta",
+        "pergunta": "Antes de dar nome à luta afro-brasileira, a palavra capoeira, de origem tupi, designava que tipo de terreno?",
+        "resposta": "Mato ralo, já cortado",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Capoeira"
+        ]
+      }
+    },
+    {
+      "indice": 35,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte não sustenta a explicação da fogueira e a resposta é uma frase longa.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Crispim matou a mãe, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente e versões da lenda variam; não verificável.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "descartar",
+      "apoio": "contradito",
+      "motivo": "Fonte inexistente, trecho dá 1845, e a pergunta sobre 'folklore' vaza a resposta com 'Folclore'.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Haste/vareta de bambu presa ao centro do couro, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Calungas do maracatu nação, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Palhaços/bastiões representam soldados de Herodes na folia, bem documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "São Jorge sincretizado com Ogum, senhor do ferro.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ibejis sincretizados com Cosme e Damião.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos vêm do tupi mboi, cobra; boa pergunta de conexão.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Rum é o maior e mais grave, confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Gunga é o berimbau de tom mais grave.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Guaraná assemelha-se a olhos e é ligado aos Sateré-Mawé.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pedro Malasartes confirmado pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Entrudo confirmado, antecessor do carnaval.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; Cuca como jacaré no Sítio é fato bem conhecido, troca a fonte.",
+      "reescrita": {
+        "angulo": "atributo",
+        "tipo": "multipla",
+        "pergunta": "Nas histórias do Sítio do Picapau Amarelo, de Monteiro Lobato, a bruxa Cuca aparece com a forma de qual animal?",
+        "resposta": "Jacaré",
+        "distratores": [
+          "Coruja",
+          "Sapo",
+          "Serpente"
+        ],
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/S%C3%ADtio_do_Picapau_Amarelo"
+        ]
+      }
+    }
+  ]
+}
