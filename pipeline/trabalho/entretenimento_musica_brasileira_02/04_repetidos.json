@@ -1,0 +1,64 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "No carnaval de Salvador de 1950, que dupla saiu tocando instrumentos elétricos num velho Ford e deu origem ao trio elétrico?",
+        "resposta": "Dodô e Osmar"
+      },
+      "existentes": [
+        {
+          "id": "q00335",
+          "pergunta": "No carnaval de Salvador de 1950, que dupla saiu às ruas tocando num velho Ford equipado com alto-falantes, dando origem ao trio elétrico?",
+          "resposta": "Dodô e Osmar"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Em que ano estreou na TV Record o programa Jovem Guarda, comandado por Roberto Carlos, Erasmo Carlos e Wanderléa?",
+        "resposta": "1965"
+      },
+      "existentes": [
+        {
+          "id": "q01173",
+          "pergunta": "O nome do programa Jovem Guarda teria sido inspirado numa frase atribuída a qual líder revolucionário?",
+          "resposta": "Lênin"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "O poeta e diplomata Vinicius de Moraes foi aposentado à força do Itamaraty por qual ato da ditadura militar?",
+        "resposta": "O AI-5"
+      },
+      "existentes": [
+        {
+          "id": "q01189",
+          "pergunta": "Longe da música, que carreira Vinicius de Moraes seguiu, a mesma do escritor Guimarães Rosa?",
+          "resposta": "Diplomata"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "motivo": "Mesmo fato: a dupla Dodô e Osmar no carnaval de 1950 que originou o trio elétrico.",
+      "id_existente": "q00335"
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Ano de estreia do programa é fato diferente da inspiração do nome."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Aposentadoria forçada pelo AI-5 é fato diferente da carreira diplomática em geral."
+    }
+  ]
+}
