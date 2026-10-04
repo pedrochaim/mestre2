@@ -1,0 +1,86 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria correta e sustentada pelos trechos; o enunciado não vaza e os distratores são pintores renascentistas italianos críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Estudo de espirais douradas' entrega a obra e o pintor sem olhar a figura. Época e país bastam.",
+      "reescrita": {
+        "pergunta": "Que pintor austríaco do começo do século vinte fez esta obra?",
+        "resposta": "Gustav Klimt"
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "O leilão recorde é pista famosa que entrega a resposta, e recordes podem ser batidos. Há muitos Salvator Mundi renascentistas, então a resposta não é única.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Banquete camponês' é pista que descreve a obra e o estilo do autor, então a figura vira enfeite. Basta manter época e região.",
+      "reescrita": {
+        "pergunta": "Que pintor flamengo do século dezesseis fez este quadro?",
+        "resposta": "Pieter Bruegel, o Velho",
+        "distratores": [
+          "Hieronymus Bosch",
+          "Jan van Eyck",
+          "Peter Paul Rubens"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Os trechos dizem que o quadro foi doado à Pinacoteca di Brera, que fica em Milão (fato bem documentado). O enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Retrato de um médico, em Auvers-sur-Oise' identifica a obra sem a figura. Além disso, o distrator 1894 é implausível, porque Van Gogh morreu em 1890.",
+      "reescrita": {
+        "pergunta": "Em que ano foi pintado este retrato?",
+        "resposta": "1890",
+        "distratores": [
+          "1887",
+          "1888",
+          "1889"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria confirmada nos trechos; distratores são artistas alemães do Renascimento críveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a obra está no Prado, em Madri; o enunciado não vaza.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos confirmam que a obra está no Hermitage, em São Petersburgo; o enunciado não vaza.",
+      "reescrita": null
+    }
+  ]
+}

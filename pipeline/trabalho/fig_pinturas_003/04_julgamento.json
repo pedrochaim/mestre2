@@ -1,0 +1,436 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "A Virgem das Rochas",
+        "descricao": "Pintura renascentista de Leonardo da Vinci com a Virgem, o menino Jesus, São João Batista criança e um anjo numa gruta rochosa.",
+        "variantes": [
+          "Madonna das Rochas",
+          "Vergine delle rocce",
+          "Virgin of the Rocks"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "atol_das_rocas",
+          "nome": "Atol das Rocas",
+          "descricao": "Atol no oceano Atlântico, a nordeste do Brasil, protegido como reserva biológica.",
+          "variantes": [
+            "Rocas Atoll",
+            "Reserva Biológica do Atol das Rocas"
+          ]
+        },
+        {
+          "id": "galo_da_serra",
+          "nome": "Galo-da-serra",
+          "descricao": "Cotinga macho de plumagem laranja viva e crista em meia-lua (Rupicola rupicola), das florestas do nordeste da América do Sul.",
+          "variantes": [
+            "Galo-da-serra-guianense",
+            "Guianan cock-of-the-rock",
+            "Rupicola rupicola"
+          ]
+        },
+        {
+          "id": "a_origem_das_especies",
+          "nome": "A Origem das Espécies",
+          "descricao": "Livro de Charles Darwin, publicado em 1859, que apresenta a teoria da evolução por seleção natural.",
+          "variantes": [
+            "On the Origin of Species",
+            "A Origem das Espécies por Meio da Seleção Natural"
+          ]
+        },
+        {
+          "id": "seringueira",
+          "nome": "Seringueira",
+          "descricao": "Árvore amazônica Hevea brasiliensis, cujo látex é a principal fonte de borracha natural",
+          "variantes": [
+            "Hevea brasiliensis",
+            "árvore-da-borracha",
+            "rubber tree"
+          ]
+        },
+        {
+          "id": "pupila",
+          "nome": "Pupila",
+          "descricao": "Abertura escura no centro da íris, por onde a luz entra no olho.",
+          "variantes": [
+            "Menina dos olhos",
+            "Pupil"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Casamento Camponês (Bruegel)",
+        "descricao": "Pintura de 1567 de Pieter Bruegel, o Velho, que mostra um banquete de casamento camponês num celeiro.",
+        "variantes": [
+          "A Boda Camponesa",
+          "The Peasant Wedding"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "la_bombonera",
+          "nome": "La Bombonera",
+          "descricao": "Estádio do Boca Juniors, em Buenos Aires.",
+          "variantes": []
+        },
+        {
+          "id": "sapo_cururu",
+          "nome": "Sapo-cururu",
+          "descricao": "Grande sapo nativo das Américas (Rhinella marina), com glândulas de veneno atrás dos olhos, invasor na Austrália.",
+          "variantes": [
+            "Sapo-boi",
+            "Sapo-da-cana",
+            "Rhinella marina"
+          ]
+        },
+        {
+          "id": "vestido_de_noiva_branco",
+          "nome": "Vestido de noiva branco",
+          "descricao": "Costume ocidental de a noiva se casar vestida de branco.",
+          "variantes": [
+            "White wedding",
+            "Casamento branco",
+            "White wedding dress"
+          ]
+        },
+        {
+          "id": "roda_de_capoeira",
+          "nome": "Roda de capoeira",
+          "descricao": "Círculo de pessoas, música e canto no qual se joga capoeira, reconhecido como patrimônio cultural imaterial.",
+          "variantes": [
+            "Roda"
+          ]
+        },
+        {
+          "id": "salada_caesar",
+          "nome": "Salada Caesar",
+          "descricao": "Salada de alface-romana, croûtons, parmesão e molho à base de ovo, anchova e limão",
+          "variantes": [
+            "Caesar salad",
+            "Salada César"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "O Beijo (Hayez)",
+        "descricao": "Pintura de 1859 de Francesco Hayez, do Romantismo italiano, que mostra um casal se beijando, guardada na Pinacoteca di Brera.",
+        "variantes": [
+          "Il bacio",
+          "The Kiss (Hayez)"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "o_beijo_klimt",
+          "nome": "O Beijo (Klimt)",
+          "descricao": "Quadro de Gustav Klimt, de 1908, com folhas de ouro.",
+          "variantes": [
+            "The Kiss"
+          ]
+        },
+        {
+          "id": "white_day",
+          "nome": "White Day",
+          "descricao": "Data japonesa em que os homens retribuem os presentes recebidos no Dia dos Namorados.",
+          "variantes": [
+            "Dia Branco",
+            "Howaito Dē"
+          ]
+        },
+        {
+          "id": "morro_do_pai_inacio",
+          "nome": "Morro do Pai Inácio",
+          "descricao": "Elevação de topo plano no município de Palmeiras, na Chapada Diamantina, Bahia.",
+          "variantes": [
+            "Pai Inácio"
+          ]
+        },
+        {
+          "id": "barao_do_rio_branco",
+          "nome": "Barão do Rio Branco",
+          "descricao": "José Maria da Silva Paranhos Júnior, diplomata brasileiro que resolveu as fronteiras do país no início do século vinte.",
+          "variantes": [
+            "José Maria da Silva Paranhos Júnior",
+            "Rio Branco"
+          ]
+        },
+        {
+          "id": "rio_branco",
+          "nome": "Rio Branco",
+          "descricao": "Capital do estado do Acre, às margens do rio Acre.",
+          "variantes": [
+            "Rio Branco (Acre)"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Retrato do Dr. Gachet",
+        "descricao": "Retrato do médico Paul Gachet pintado por Vincent van Gogh em 1890, em duas versões.",
+        "variantes": [
+          "Portrait of Dr. Gachet",
+          "Retrato do Doutor Gachet"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estadio_do_dragao",
+          "nome": "Estádio do Dragão",
+          "descricao": "Estádio de futebol na cidade do Porto, em Portugal, casa do FC Porto desde 2003.",
+          "variantes": [
+            "Dragão",
+            "Estádio do Dragão do Porto"
+          ]
+        },
+        {
+          "id": "pitaia",
+          "nome": "Pitaia",
+          "descricao": "Fruta de um cacto do gênero Selenicereus, de casca rosa com escamas, também chamada pitahaya.",
+          "variantes": [
+            "Pitaya",
+            "Fruta-do-dragão",
+            "Dragon fruit"
+          ]
+        },
+        {
+          "id": "riacho_do_ipiranga",
+          "nome": "Riacho do Ipiranga",
+          "descricao": "Curso d'água de São Paulo às margens do qual Dom Pedro proclamou a Independência do Brasil em 1822.",
+          "variantes": [
+            "Ribeirão do Ipiranga",
+            "Rio Ipiranga",
+            "Ipiranga"
+          ]
+        },
+        {
+          "id": "tratado_de_versalhes",
+          "nome": "Tratado de Versalhes",
+          "descricao": "Tratado de paz assinado em 1919 entre a Alemanha e os Aliados, que encerrou formalmente a Primeira Guerra Mundial.",
+          "variantes": [
+            "Treaty of Versailles"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Mãos em Oração (Dürer)",
+        "descricao": "Desenho a pena e guache branco sobre papel azul de Albrecht Dürer, estudo das mãos de um apóstolo.",
+        "variantes": [
+          "Mãos que Oram",
+          "Praying Hands",
+          "Estudo das mãos de um apóstolo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "forca_expedicionaria_brasileira",
+          "nome": "Força Expedicionária Brasileira",
+          "descricao": "Força militar brasileira que lutou ao lado dos Aliados na campanha da Itália, entre 1944 e 1945.",
+          "variantes": [
+            "FEB",
+            "Brazilian Expeditionary Force",
+            "Pracinhas"
+          ]
+        },
+        {
+          "id": "carta_de_baralho",
+          "nome": "Carta de baralho",
+          "descricao": "Cartão de papel ou plástico com figuras e números usado em jogos de cartas.",
+          "variantes": [
+            "Playing card",
+            "Baralho"
+          ]
+        },
+        {
+          "id": "breaking_bad",
+          "nome": "Breaking Bad",
+          "descricao": "Série americana criada por Vince Gilligan, sobre um professor de química que passa a produzir metanfetamina.",
+          "variantes": []
+        },
+        {
+          "id": "monte_roraima",
+          "nome": "Monte Roraima",
+          "descricao": "Tepui de topo plano na tríplice fronteira entre Brasil, Venezuela e Guiana.",
+          "variantes": [
+            "Roraima",
+            "Mount Roraima",
+            "Tepui Roraima"
+          ]
+        },
+        {
+          "id": "homem_de_pequim",
+          "nome": "Homem de Pequim",
+          "descricao": "Fósseis de Homo erectus encontrados em Zhoukoudian, perto de Pequim, na China, nas décadas de 1920 e 1930.",
+          "variantes": [
+            "Peking Man",
+            "Sinanthropus pekinensis",
+            "Homo erectus pekinensis"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "O Triunfo da Morte (Bruegel)",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de cerca de 1562, com exércitos de esqueletos massacrando os vivos, no Museu do Prado.",
+        "variantes": [
+          "The Triumph of Death",
+          "O Triunfo da Morte"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "death_note",
+          "nome": "Death Note",
+          "descricao": "Mangá e anime de Tsugumi Ohba e Takeshi Obata sobre um caderno que mata quem tem o nome escrito nele.",
+          "variantes": [
+            "Caderno da Morte"
+          ]
+        },
+        {
+          "id": "paris_roubaix",
+          "nome": "Paris-Roubaix",
+          "descricao": "Clássica de ciclismo de um dia no norte da França, famosa pelos trechos de calçamento de pedra.",
+          "variantes": [
+            "Inferno do Norte"
+          ]
+        },
+        {
+          "id": "arco_do_triunfo_de_paris",
+          "nome": "Arco do Triunfo de Paris",
+          "descricao": "Arco monumental na Praça Charles de Gaulle, no alto da Champs-Élysées, encomendado por Napoleão.",
+          "variantes": [
+            "Arc de Triomphe",
+            "Arco do Triunfo"
+          ]
+        },
+        {
+          "id": "atmosfera_terrestre",
+          "nome": "Atmosfera terrestre",
+          "descricao": "Camada de gases que envolve a Terra",
+          "variantes": [
+            "Atmosfera da Terra",
+            "Ar atmosférico",
+            "Atmosphere of Earth"
+          ]
+        },
+        {
+          "id": "doze_uvas_da_sorte",
+          "nome": "Doze uvas da sorte",
+          "descricao": "Costume espanhol de comer uvas acompanhando as badaladas da meia-noite do Ano-Novo.",
+          "variantes": [
+            "Las doce uvas",
+            "Twelve Grapes"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "O Retorno do Filho Pródigo (Rembrandt)",
+        "descricao": "Pintura a óleo de Rembrandt, dos últimos anos de sua vida, que mostra o filho pródigo ajoelhado diante do pai, no Hermitage.",
+        "variantes": [
+          "The Return of the Prodigal Son",
+          "O Filho Pródigo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "golfinho_rotador",
+          "nome": "Golfinho-rotador",
+          "descricao": "Pequeno golfinho tropical (Stenella longirostris), famoso pelos saltos em que gira no ar.",
+          "variantes": [
+            "Stenella longirostris",
+            "Spinner dolphin"
+          ]
+        },
+        {
+          "id": "o_carnaval_dos_animais",
+          "nome": "O Carnaval dos Animais",
+          "descricao": "Suíte musical humorística de Camille Saint-Saëns, de 1886, com movimentos sobre animais.",
+          "variantes": [
+            "Le Carnaval des animaux",
+            "The Carnival of the Animals"
+          ]
+        },
+        {
+          "id": "o_voo_do_dragao",
+          "nome": "O Voo do Dragão",
+          "descricao": "Filme de artes marciais de 1972 escrito, dirigido e estrelado por Bruce Lee.",
+          "variantes": [
+            "The Way of the Dragon"
+          ]
+        },
+        {
+          "id": "a_jangada_da_medusa",
+          "nome": "A Jangada da Medusa",
+          "descricao": "Quadro de Théodore Géricault no Louvre.",
+          "variantes": [
+            "The Raft of the Medusa",
+            "Le Radeau de la Méduse"
+          ]
+        },
+        {
+          "id": "o_espirito_das_leis",
+          "nome": "O Espírito das Leis",
+          "descricao": "Tratado de teoria política publicado por Montesquieu em 1748.",
+          "variantes": [
+            "De l'esprit des lois",
+            "The Spirit of the Laws"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Leonardo."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Bruegel."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "O Beijo de Hayez é distinto do Beijo de Klimt (outro pintor, outra obra)."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde ao retrato de Van Gogh."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o desenho de Dürer."
+    },
+    {
+      "caso": 6,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Bruegel."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a pintura de Rembrandt."
+    }
+  ]
+}

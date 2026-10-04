@@ -1,0 +1,212 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto; versão do Louvre.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor renascentista italiano fez este quadro?",
+      "resposta": "Leonardo da Vinci",
+      "distratores": [
+        "Rafael Sanzio",
+        "Michelangelo",
+        "Sandro Botticelli"
+      ],
+      "ancora": {
+        "nome": "A Virgem das Rochas",
+        "descricao": "Pintura renascentista de Leonardo da Vinci com a Virgem, o menino Jesus, São João Batista criança e um anjo numa gruta rochosa.",
+        "variantes": [
+          "Madonna das Rochas",
+          "Vergine delle rocce",
+          "Virgin of the Rocks"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto legível que entregue a resposta (só rabiscos de estudo).",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que pintor austríaco do começo do século vinte fez este estudo de espirais douradas?",
+      "resposta": "Gustav Klimt",
+      "ancora": {
+        "nome": "A Árvore da Vida (Klimt)",
+        "descricao": "Estudo de Gustav Klimt, de 1909, para o friso do Palácio Stoclet, com uma árvore de espirais douradas.",
+        "variantes": [
+          "A Árvore da Vida, Friso Stoclet",
+          "The Tree of Life, Stoclet Frieze"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "A assinatura 'Courbet' aparece no canto inferior esquerdo e entrega a resposta de autoria."
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, obra emblemática.",
+      "destino": 0,
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que quadro renascentista, vendido num leilão por valor recorde, é este?",
+      "resposta": "Salvator Mundi",
+      "ancora": {
+        "nome": "Salvator Mundi (Leonardo)",
+        "descricao": "Pintura atribuída a Leonardo da Vinci que mostra Cristo abençoando e segurando um orbe de cristal.",
+        "variantes": [
+          "Salvator Mundi",
+          "Salvador do Mundo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "A inscrição latina com o nome do artista e o monograma AD aparecem na imagem e entregam a resposta."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Cena clara, sem texto.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que pintor flamengo do século dezesseis fez este quadro de um banquete camponês?",
+      "resposta": "Pieter Bruegel, o Velho",
+      "distratores": [
+        "Hieronymus Bosch",
+        "Jan van Eyck",
+        "Peter Paul Rubens"
+      ],
+      "ancora": {
+        "nome": "Casamento Camponês (Bruegel)",
+        "descricao": "Pintura de 1567 de Pieter Bruegel, o Velho, que mostra um banquete de casamento camponês num celeiro.",
+        "variantes": [
+          "A Boda Camponesa",
+          "The Peasant Wedding"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, obra famosa.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade italiana fica o museu que guarda este quadro romântico?",
+      "resposta": "Milão",
+      "ancora": {
+        "nome": "O Beijo (Hayez)",
+        "descricao": "Pintura de 1859 de Francesco Hayez, do Romantismo italiano, que mostra um casal se beijando, guardada na Pinacoteca di Brera.",
+        "variantes": [
+          "Il bacio",
+          "The Kiss (Hayez)"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Imagem clara; texto nas lombadas é minúsculo e não entrega a resposta.",
+      "destino": 0,
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que ano foi pintado este retrato de um médico, em Auvers-sur-Oise?",
+      "resposta": "1890",
+      "distratores": [
+        "1882",
+        "1886",
+        "1894"
+      ],
+      "ancora": {
+        "nome": "Retrato do Dr. Gachet",
+        "descricao": "Retrato do médico Paul Gachet pintado por Vincent van Gogh em 1890, em duas versões.",
+        "variantes": [
+          "Portrait of Dr. Gachet",
+          "Retrato do Doutor Gachet"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": false,
+      "motivo": "A assinatura 'G. Caillebotte 1875' está visível e entrega o autor."
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Desenho claro, sem texto, obra emblemática.",
+      "destino": 0,
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que artista alemão do Renascimento desenhou estas mãos?",
+      "resposta": "Albrecht Dürer",
+      "distratores": [
+        "Hans Holbein",
+        "Lucas Cranach",
+        "Matthias Grünewald"
+      ],
+      "ancora": {
+        "nome": "Mãos em Oração (Dürer)",
+        "descricao": "Desenho a pena e guache branco sobre papel azul de Albrecht Dürer, estudo das mãos de um apóstolo.",
+        "variantes": [
+          "Mãos que Oram",
+          "Praying Hands",
+          "Estudo das mãos de um apóstolo"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Imagem clara, sem texto, obra reconhecível.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica o museu que guarda este quadro flamengo do século dezesseis?",
+      "resposta": "Madri",
+      "ancora": {
+        "nome": "O Triunfo da Morte (Bruegel)",
+        "descricao": "Pintura a óleo de Pieter Bruegel, o Velho, de cerca de 1562, com exércitos de esqueletos massacrando os vivos, no Museu do Prado.",
+        "variantes": [
+          "The Triumph of Death",
+          "O Triunfo da Morte"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Imagem clara; assinatura quase ilegível no canto, não entrega a resposta.",
+      "destino": 0,
+      "familia": "onde",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que cidade fica o museu que guarda este quadro holandês do século dezessete?",
+      "resposta": "São Petersburgo",
+      "ancora": {
+        "nome": "O Retorno do Filho Pródigo (Rembrandt)",
+        "descricao": "Pintura a óleo de Rembrandt, dos últimos anos de sua vida, que mostra o filho pródigo ajoelhado diante do pai, no Hermitage.",
+        "variantes": [
+          "The Return of the Prodigal Son",
+          "O Filho Pródigo"
+        ]
+      }
+    }
+  ]
+}
