@@ -1,0 +1,93 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em que século foi concluída esta torre de Londres?",
+        "resposta": "Século dezenove"
+      },
+      "existentes": [
+        {
+          "id": "q01997",
+          "pergunta": "Em Londres, o apelido Big Ben se refere originalmente a qual parte da famosa torre do relógio?",
+          "resposta": "O grande sino"
+        },
+        {
+          "id": "q04695",
+          "pergunta": "Que famosa torre de relógio é esta?",
+          "resposta": "Big Ben (Torre Elizabeth)"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que famoso conjunto de geoglifos é este?",
+        "resposta": "Linhas de Nazca"
+      },
+      "existentes": [
+        {
+          "id": "q03500",
+          "pergunta": "Por que as Linhas de Nazca, riscadas no deserto peruano há cerca de dois mil anos, continuam visíveis até hoje?",
+          "resposta": "Clima seco e sem vento"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que artista renascentista projetou a cúpula desta basílica?",
+        "resposta": "Michelangelo"
+      },
+      "existentes": [
+        {
+          "id": "q03969",
+          "pergunta": "Já com mais de setenta anos, que artista renascentista foi nomeado arquiteto da Basílica de São Pedro e projetou sua enorme cúpula?",
+          "resposta": "Michelangelo"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que engenheiro francês construiu a estrutura metálica desta estátua?",
+        "resposta": "Gustave Eiffel"
+      },
+      "existentes": [
+        {
+          "id": "q02008",
+          "pergunta": "A Estátua da Liberdade era avermelhada quando nova. Por que ficou esverdeada com o tempo?",
+          "resposta": "Oxidação do cobre"
+        },
+        {
+          "id": "q02018",
+          "pergunta": "O engenheiro francês cuja empresa projetou a estrutura interna de ferro da Estátua da Liberdade dá nome a qual monumento de Paris?",
+          "resposta": "Torre Eiffel"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o século de conclusão da torre; as existentes tratam do apelido e da identificação da torre."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Pede identificar o conjunto de geoglifos; a existente pergunta por que continuam visíveis."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "motivo": "Ambas perguntam quem projetou a cúpula da Basílica de São Pedro, com resposta Michelangelo."
+    },
+    {
+      "caso": 4,
+      "decisao": "repete",
+      "motivo": "q02018 pergunta o mesmo fato (Eiffel e a estrutura de ferro da Estátua da Liberdade), apenas na direção inversa.",
+      "id_existente": "q02018"
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "proposta": {
+        "nome": "Castelo de Himeji",
+        "descricao": "Complexo de castelo feudal japonês de fachada branca, na cidade de Himeji, província de Hyōgo.",
+        "variantes": [
+          "Himeji-jō",
+          "Castelo da Garça Branca",
+          "Shirasagi-jō"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "castelo_de_bran",
+          "nome": "Castelo de Bran",
+          "descricao": "Castelo medieval na Transilvânia, Romênia, divulgado como o Castelo do Drácula.",
+          "variantes": [
+            "Castelo do Drácula",
+            "Bran Castle"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        },
+        {
+          "id": "cha_na_gra_bretanha",
+          "nome": "Chá na Grã-Bretanha",
+          "descricao": "Hábito britânico de beber chá, que se tornou um símbolo cultural do país",
+          "variantes": [
+            "Tea in the United Kingdom",
+            "Hábito do chá inglês"
+          ]
+        },
+        {
+          "id": "gra_bretanha",
+          "nome": "Grã-Bretanha",
+          "descricao": "A maior ilha do arquipélago britânico, no noroeste da Europa.",
+          "variantes": [
+            "Great Britain",
+            "Ilha da Grã-Bretanha"
+          ]
+        },
+        {
+          "id": "casa_branca",
+          "nome": "Casa Branca",
+          "descricao": "Residência oficial e local de trabalho do presidente dos Estados Unidos, em Washington, D.C.",
+          "variantes": [
+            "White House"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "proposta": {
+        "nome": "Obelisco de Axum",
+        "descricao": "Estela de fonolito de 24 metros, do século quarto, na cidade de Axum, na Etiópia.",
+        "variantes": [
+          "Estela de Axum",
+          "Obelisco de Aksum"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "obelisco_de_luxor",
+          "nome": "Obelisco de Luxor",
+          "descricao": "Obelisco do tempo de Ramsés II que ficava na entrada do Templo de Luxor e foi levado para Paris no século dezenove",
+          "variantes": [
+            "Luxor Obelisk",
+            "Obélisque de Louxor"
+          ]
+        },
+        {
+          "id": "sirius",
+          "nome": "Sírius",
+          "descricao": "Estrela da constelação do Cão Maior, a mais brilhante do céu noturno.",
+          "variantes": [
+            "Alfa do Cão Maior",
+            "Estrela do Cão"
+          ]
+        },
+        {
+          "id": "venus",
+          "nome": "Vênus",
+          "descricao": "Segundo planeta a partir do Sol, coberto por uma atmosfera densa de gás carbônico.",
+          "variantes": [
+            "Estrela d'Alva"
+          ]
+        },
+        {
+          "id": "estrela_do_mar",
+          "nome": "Estrela-do-mar",
+          "descricao": "Equinodermo da classe Asteroidea, geralmente com cinco braços ao redor de um disco central.",
+          "variantes": [
+            "Asteroide",
+            "Starfish"
+          ]
+        },
+        {
+          "id": "bico_de_bunsen",
+          "nome": "Bico de Bunsen",
+          "descricao": "Queimador a gás de laboratório, de chama aberta única, usado para aquecer, esterilizar e fazer combustão.",
+          "variantes": [
+            "Bunsen burner",
+            "Bico de gás"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "proposta": {
+        "nome": "Big Ben",
+        "descricao": "Torre do relógio do Palácio de Westminster, em Londres, hoje chamada Torre Elizabeth.",
+        "variantes": [
+          "Torre Elizabeth",
+          "Elizabeth Tower",
+          "Grande Relógio de Westminster"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "big_ben",
+          "nome": "Big Ben",
+          "descricao": "Grande sino da torre do relógio do Palácio de Westminster, em Londres; o apelido se estende à própria torre.",
+          "variantes": [
+            "Elizabeth Tower",
+            "Torre Elizabeth",
+            "Great Bell"
+          ]
+        },
+        {
+          "id": "big_bang",
+          "nome": "Big Bang",
+          "descricao": "Teoria cosmológica segundo a qual o universo se expande a partir de um estado inicial muito quente e denso.",
+          "variantes": [
+            "Teoria do Big Bang",
+            "Grande Explosão"
+          ]
+        },
+        {
+          "id": "elizabeth_i",
+          "nome": "Elizabeth I",
+          "descricao": "Rainha da Inglaterra de 1558 a 1603, última monarca da dinastia Tudor.",
+          "variantes": [
+            "Isabel I",
+            "Elizabeth I da Inglaterra",
+            "Rainha Virgem",
+            "Isabel I da Inglaterra"
+          ]
+        },
+        {
+          "id": "grande_berta",
+          "nome": "Grande Berta",
+          "descricao": "Obus pesado alemão de 420 milímetros fabricado pela Krupp e usado contra as fortalezas belgas e francesas na Primeira Guerra Mundial.",
+          "variantes": [
+            "Big Bertha",
+            "Dicke Bertha"
+          ]
+        },
+        {
+          "id": "torre_de_belem",
+          "nome": "Torre de Belém",
+          "descricao": "Fortificação do século dezesseis à beira do Tejo, em Lisboa.",
+          "variantes": [
+            "Torre de São Vicente",
+            "Belém Tower"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "proposta": {
+        "nome": "Ruínas de São Miguel das Missões",
+        "descricao": "Ruínas da redução jesuítica de São Miguel Arcanjo, no Rio Grande do Sul, uma das Sete Povos das Missões.",
+        "variantes": [
+          "Sítio Arqueológico de São Miguel Arcanjo",
+          "São Miguel Arcanjo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "michelangelo",
+          "nome": "Michelangelo",
+          "descricao": "Escultor, pintor e arquiteto do Renascimento italiano, autor do Davi e dos afrescos da Capela Sistina, morto em 1564.",
+          "variantes": [
+            "Michelangelo Buonarroti",
+            "Miguel Ângelo"
+          ]
+        },
+        {
+          "id": "bisao_americano",
+          "nome": "Bisão-americano",
+          "descricao": "Grande bovino de corcova e juba espessa, nativo da América do Norte (Bison bison).",
+          "variantes": [
+            "Bison bison",
+            "Búfalo-americano",
+            "American bison"
+          ]
+        },
+        {
+          "id": "caramujo_gigante_africano",
+          "nome": "Caramujo-gigante-africano",
+          "descricao": "Molusco terrestre (Achatina fulica) nativo da África Oriental, espécie invasora no Brasil.",
+          "variantes": [
+            "Achatina fulica",
+            "Lissachatina fulica",
+            "caramujo-africano"
+          ]
+        },
+        {
+          "id": "castelo_de_sao_jorge_da_mina",
+          "nome": "Castelo de São Jorge da Mina",
+          "descricao": "Fortaleza construída pelos portugueses em 1482 no litoral da África Ocidental, centro do comércio de ouro e depois de escravizados.",
+          "variantes": [
+            "Castelo de Elmina",
+            "Elmina Castle",
+            "São Jorge da Mina"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "proposta": {
+        "nome": "Real Forte Príncipe da Beira",
+        "descricao": "Fortaleza portuguesa do século dezoito na margem do rio Guaporé, em Costa Marques, Rondônia.",
+        "variantes": [
+          "Forte Príncipe da Beira"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "um_maluco_no_pedaco",
+          "nome": "Um Maluco no Pedaço",
+          "descricao": "Sitcom americana exibida de 1990 a 1996, estrelada por Will Smith como um jovem da Filadélfia que vai morar com os tios ricos em Bel-Air.",
+          "variantes": [
+            "The Fresh Prince of Bel-Air"
+          ]
+        },
+        {
+          "id": "o_principe",
+          "nome": "O Príncipe",
+          "descricao": "Tratado político de Nicolau Maquiavel, escrito por volta de 1513.",
+          "variantes": [
+            "Il Principe",
+            "The Prince"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "provincia_da_georgia",
+          "nome": "Província da Geórgia",
+          "descricao": "Colônia britânica fundada em 1732 por James Oglethorpe, a mais meridional das Treze Colônias.",
+          "variantes": [
+            "Colônia da Geórgia",
+            "Province of Georgia"
+          ]
+        },
+        {
+          "id": "forro",
+          "nome": "Forró",
+          "descricao": "Gênero musical e dança do Nordeste brasileiro, e a palavra que os nomeia",
+          "variantes": [
+            "forrobodó",
+            "Forró pé de serra"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 6,
+      "proposta": {
+        "nome": "Linhas de Nazca",
+        "descricao": "Conjunto de geoglifos traçados no deserto de Nazca, no sul do Peru, entre 500 a.C. e 500 d.C.",
+        "variantes": [
+          "Linhas de Nasca",
+          "Nazca lines"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "linhas_de_nazca",
+          "nome": "Linhas de Nazca",
+          "descricao": "Grandes geoglifos de figuras e linhas traçados no deserto do sul do Peru pela cultura Nazca.",
+          "variantes": [
+            "Linhas de Nasca",
+            "Nazca Lines"
+          ]
+        },
+        {
+          "id": "ilha_de_pascoa",
+          "nome": "Ilha de Páscoa",
+          "descricao": "Ilha chilena isolada no Pacífico Sul, famosa pelas estátuas moai.",
+          "variantes": [
+            "Rapa Nui",
+            "Easter Island",
+            "Isla de Pascua"
+          ]
+        },
+        {
+          "id": "lenda_da_vitoria_regia",
+          "nome": "Lenda da vitória-régia",
+          "descricao": "Lenda indígena amazônica sobre a jovem Naiá, transformada em planta aquática pela Lua.",
+          "variantes": [
+            "Lenda de Naiá"
+          ]
+        },
+        {
+          "id": "alinhamentos_de_carnac",
+          "nome": "Alinhamentos de Carnac",
+          "descricao": "Milhares de menires enfileirados perto de Carnac, na Bretanha, França.",
+          "variantes": [
+            "Pedras de Carnac",
+            "Carnac stones"
+          ]
+        },
+        {
+          "id": "pascalina",
+          "nome": "Pascalina",
+          "descricao": "Calculadora mecânica de rodas inventada por Blaise Pascal em 1642.",
+          "variantes": [
+            "Máquina de Pascal",
+            "Calculadora de Pascal",
+            "Pascaline"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 7,
+      "proposta": {
+        "nome": "Porta dos Leões de Micenas",
+        "descricao": "Entrada principal da cidadela micênica da Idade do Bronze, com relevo de dois leões, na Grécia.",
+        "variantes": [
+          "Portão dos Leões",
+          "Lion Gate"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "porta_do_sol_de_tiwanaku",
+          "nome": "Porta do Sol de Tiwanaku",
+          "descricao": "Portal monolítico esculpido pela cultura Tiwanaku, perto do Lago Titicaca, na Bolívia.",
+          "variantes": [
+            "Porta do Sol",
+            "Puerta del Sol",
+            "Gateway of the Sun"
+          ]
+        },
+        {
+          "id": "homem_leao_de_hohlenstein_stadel",
+          "nome": "Homem-Leão de Hohlenstein-Stadel",
+          "descricao": "Estatueta paleolítica com corpo humano e cabeça de leão, achada numa caverna alemã.",
+          "variantes": [
+            "Löwenmensch",
+            "Homem-Leão",
+            "Lion-man"
+          ]
+        },
+        {
+          "id": "ponte_golden_gate",
+          "nome": "Ponte Golden Gate",
+          "descricao": "Ponte pênsil sobre o estreito de Golden Gate, em São Francisco, inaugurada em 1937.",
+          "variantes": [
+            "Golden Gate Bridge",
+            "Golden Gate"
+          ]
+        },
+        {
+          "id": "ariranha",
+          "nome": "Ariranha",
+          "descricao": "Lontra gigante dos rios da América do Sul, espécie Pteronura brasiliensis.",
+          "variantes": [
+            "Pteronura brasiliensis",
+            "Giant otter",
+            "Lontra-gigante"
+          ]
+        },
+        {
+          "id": "revolta_dos_males",
+          "nome": "Revolta dos Malês",
+          "descricao": "Levante de africanos escravizados e libertos ocorrido em Salvador, na Bahia, em janeiro de 1835.",
+          "variantes": [
+            "Levante dos Malês"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 8,
+      "proposta": {
+        "nome": "Baalbek",
+        "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+        "variantes": [
+          "Heliópolis",
+          "Templo de Baco"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "borobudur",
+          "nome": "Borobudur",
+          "descricao": "Templo budista monumental do século nove, na ilha de Java.",
+          "variantes": [
+            "Templo de Borobudur"
+          ]
+        },
+        {
+          "id": "templo_dourado",
+          "nome": "Templo Dourado",
+          "descricao": "Principal santuário do sikhismo, o Harmandir Sahib",
+          "variantes": [
+            "Harmandir Sahib",
+            "Golden Temple"
+          ]
+        },
+        {
+          "id": "templo_de_hefesto",
+          "nome": "Templo de Hefesto",
+          "descricao": "Templo dórico muito bem preservado, no noroeste da Ágora de Atenas, dedicado a Hefesto.",
+          "variantes": [
+            "Hefesteion",
+            "Teseion"
+          ]
+        },
+        {
+          "id": "metropolis",
+          "nome": "Metrópolis",
+          "descricao": "Filme mudo alemão de ficção científica de 1927 dirigido por Fritz Lang, com o robô Maria.",
+          "variantes": []
+        },
+        {
+          "id": "florianopolis",
+          "nome": "Florianópolis",
+          "descricao": "Capital do estado de Santa Catarina, situada em grande parte na Ilha de Santa Catarina.",
+          "variantes": [
+            "Desterro",
+            "Nossa Senhora do Desterro",
+            "Floripa"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 9,
+      "proposta": {
+        "nome": "Basílica de São Pedro",
+        "descricao": "Basílica renascentista na Cidade do Vaticano, concluída em 1626.",
+        "variantes": [
+          "Basílica Papal de São Pedro",
+          "Saint Peter's Basilica"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "basilica_de_sao_pedro",
+          "nome": "Basílica de São Pedro",
+          "descricao": "Basílica renascentista no Vaticano, com grande cúpula, principal templo da Igreja Católica.",
+          "variantes": [
+            "St. Peter's Basilica",
+            "Basílica de São Pedro do Vaticano"
+          ]
+        },
+        {
+          "id": "sao_petersburgo",
+          "nome": "São Petersburgo",
+          "descricao": "Cidade russa às margens do rio Neva, fundada em 1703 e capital do Império Russo por cerca de dois séculos.",
+          "variantes": [
+            "Saint Petersburg",
+            "Petrogrado",
+            "Leningrado"
+          ]
+        },
+        {
+          "id": "basilisco_verde",
+          "nome": "Basilisco-verde",
+          "descricao": "Lagarto Basiliscus plumifrons, verde e de crista na cabeça, nativo da América Central.",
+          "variantes": [
+            "Basilisco-de-penacho",
+            "Lagarto-Jesus-Cristo",
+            "Basiliscus plumifrons"
+          ]
+        },
+        {
+          "id": "hagia_sophia",
+          "nome": "Hagia Sophia",
+          "descricao": "Antiga catedral bizantina de Constantinopla, depois mesquita, em Istambul, concluída em 537.",
+          "variantes": [
+            "Santa Sofia",
+            "Aya Sofya",
+            "Ayasofya",
+            "Basílica de Santa Sofia"
+          ]
+        },
+        {
+          "id": "dia_de_sao_patricio",
+          "nome": "Dia de São Patrício",
+          "descricao": "Festa irlandesa de 17 de março em honra do padroeiro da Irlanda, celebrada com desfiles e a cor verde.",
+          "variantes": [
+            "Saint Patrick's Day",
+            "St. Patrick's Day"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 10,
+      "proposta": {
+        "nome": "Vale dos Reis",
+        "descricao": "Vale na margem oeste do Nilo, perto de Luxor, com tumbas escavadas na rocha para faraós.",
+        "variantes": [
+          "Valley of the Kings"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "grande_vale_do_rift",
+          "nome": "Grande Vale do Rift",
+          "descricao": "Sistema de fendas tectônicas que corta o leste da África, onde o continente está se partindo.",
+          "variantes": [
+            "Vale do Rift",
+            "Rift do Leste Africano",
+            "Great Rift Valley"
+          ]
+        },
+        {
+          "id": "lima",
+          "nome": "Lima",
+          "descricao": "Capital e maior cidade do Peru, fundada em 1535.",
+          "variantes": [
+            "Cidade dos Reis",
+            "Ciudad de los Reyes"
+          ]
+        },
+        {
+          "id": "dia_do_rei",
+          "nome": "Dia do Rei",
+          "descricao": "Feriado nacional dos Países Baixos em homenagem ao aniversário do monarca.",
+          "variantes": [
+            "Koningsdag",
+            "King's Day"
+          ]
+        },
+        {
+          "id": "valles_marineris",
+          "nome": "Valles Marineris",
+          "descricao": "Sistema de cânions de mais de 4 mil km no equador de Marte, o maior do Sistema Solar.",
+          "variantes": [
+            "Vales Mariner",
+            "Mariner Valleys"
+          ]
+        },
+        {
+          "id": "monument_valley",
+          "nome": "Monument Valley",
+          "descricao": "Vale com grandes formações de arenito na fronteira entre Arizona e Utah, nos Estados Unidos, em território navajo.",
+          "variantes": [
+            "Vale dos Monumentos",
+            "Tsé Biiʼ Ndzisgaii"
+          ]
+        }
+      ]
+    },
+    {
+      "caso": 11,
+      "proposta": {
+        "nome": "Tesouro de Atreu",
+        "descricao": "Grande tumba tholos micênica, de cerca de 1300 a 1250 a.C., em Micenas, na Grécia.",
+        "variantes": [
+          "Túmulo de Agamêmnon",
+          "Treasury of Atreus"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "touro_de_wall_street",
+          "nome": "Touro de Wall Street",
+          "descricao": "Escultura de bronze de um touro em posição de ataque, de Arturo Di Modica, no distrito financeiro de Nova York.",
+          "variantes": [
+            "Charging Bull",
+            "Touro de Bronze"
+          ]
+        },
+        {
+          "id": "tumulo_dos_vagalumes",
+          "nome": "Túmulo dos Vagalumes",
+          "descricao": "Filme de animação de 1988 do Studio Ghibli sobre dois irmãos órfãos no fim da Segunda Guerra Mundial.",
+          "variantes": [
+            "Grave of the Fireflies",
+            "Hotaru no Haka"
+          ]
+        },
+        {
+          "id": "mascara_de_agamenon",
+          "nome": "Máscara de Agamenon",
+          "descricao": "Máscara funerária de ouro encontrada em Micenas em 1876.",
+          "variantes": [
+            "Mask of Agamemnon"
+          ]
+        },
+        {
+          "id": "tour_de_france",
+          "nome": "Tour de France",
+          "descricao": "Volta ciclística da França, a mais tradicional das grandes voltas do ciclismo.",
+          "variantes": [
+            "Volta da França"
+          ]
+        },
+        {
+          "id": "colossos_de_memnon",
+          "nome": "Colossos de Mêmnon",
+          "descricao": "Par de estátuas colossais de Amenhotep III diante do seu templo funerário, em Luxor, no Egito.",
+          "variantes": []
+        }
+      ]
+    },
+    {
+      "caso": 12,
+      "proposta": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Escultura neoclássica colossal na Ilha da Liberdade, no porto de Nova York, presente da França aos Estados Unidos.",
+        "variantes": [
+          "Liberty Enlightening the World",
+          "A Liberdade Iluminando o Mundo"
+        ]
+      },
+      "candidatas": [
+        {
+          "id": "estatua_da_liberdade",
+          "nome": "Estátua da Liberdade",
+          "descricao": "Estátua de cobre presenteada pela França, na Ilha da Liberdade, em Nova York.",
+          "variantes": [
+            "Statue of Liberty",
+            "A Liberdade Iluminando o Mundo"
+          ]
+        },
+        {
+          "id": "a_liberdade_guiando_o_povo",
+          "nome": "A Liberdade Guiando o Povo",
+          "descricao": "Quadro de Eugène Delacroix, de 1830.",
+          "variantes": [
+            "Liberty Leading the People"
+          ]
+        },
+        {
+          "id": "moais_da_ilha_de_pascoa",
+          "nome": "Moais da Ilha de Páscoa",
+          "descricao": "Estátuas monolíticas esculpidas pelo povo Rapa Nui na Ilha de Páscoa.",
+          "variantes": [
+            "Moai",
+            "Estátuas da Ilha de Páscoa"
+          ]
+        },
+        {
+          "id": "liberia",
+          "nome": "Libéria",
+          "descricao": "País da costa oeste da África cuja capital é Monróvia.",
+          "variantes": [
+            "República da Libéria"
+          ]
+        },
+        {
+          "id": "ano_novo_chines",
+          "nome": "Ano-Novo Chinês",
+          "descricao": "Festa da virada do ano no calendário lunissolar chinês, também chamada Festa da Primavera.",
+          "variantes": [
+            "Festa da Primavera",
+            "Ano-Novo Lunar",
+            "Chinese New Year"
+          ]
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o castelo de Himeji."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Obelisco de Axum é distinto do de Luxor."
+    },
+    {
+      "caso": 3,
+      "decisao": "mesma",
+      "id_existente": "big_ben",
+      "motivo": "Mesma torre/sino do Palácio de Westminster; o apelido abrange a torre e as variantes coincidem."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata corresponde às ruínas jesuíticas."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o forte."
+    },
+    {
+      "caso": 6,
+      "decisao": "mesma",
+      "id_existente": "linhas_de_nazca",
+      "motivo": "Mesmos geoglifos de Nazca."
+    },
+    {
+      "caso": 7,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é a Porta dos Leões de Micenas."
+    },
+    {
+      "caso": 8,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é Baalbek."
+    },
+    {
+      "caso": 9,
+      "decisao": "mesma",
+      "id_existente": "basilica_de_sao_pedro",
+      "motivo": "Mesma basílica no Vaticano."
+    },
+    {
+      "caso": 10,
+      "decisao": "nova",
+      "motivo": "Nenhuma candidata é o Vale dos Reis egípcio."
+    },
+    {
+      "caso": 11,
+      "decisao": "nova",
+      "motivo": "Tumba tholos distinta da Máscara de Agamenon e das demais."
+    },
+    {
+      "caso": 12,
+      "decisao": "mesma",
+      "id_existente": "estatua_da_liberdade",
+      "motivo": "Mesma estátua em Nova York."
+    }
+  ]
+}

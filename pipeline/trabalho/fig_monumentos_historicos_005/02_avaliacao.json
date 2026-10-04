@@ -1,0 +1,267 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Castelo branco de Himeji bem visível, sem texto, inconfundível.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que castelo japonês é este?",
+      "resposta": "Castelo de Himeji",
+      "destino": 4,
+      "ancora": {
+        "nome": "Castelo de Himeji",
+        "descricao": "Complexo de castelo feudal japonês de fachada branca, na cidade de Himeji, província de Hyōgo.",
+        "variantes": [
+          "Himeji-jō",
+          "Castelo da Garça Branca",
+          "Shirasagi-jō"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Estela de Axum nítida, sem texto, formato característico.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que reino africano ergueu esta estela no século quarto?",
+      "resposta": "Reino de Axum",
+      "destino": 9,
+      "ancora": {
+        "nome": "Obelisco de Axum",
+        "descricao": "Estela de fonolito de 24 metros, do século quarto, na cidade de Axum, na Etiópia.",
+        "variantes": [
+          "Estela de Axum",
+          "Obelisco de Aksum"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Torre do Big Ben nítida, sem texto legível que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Em que século foi concluída esta torre de Londres?",
+      "resposta": "Século dezenove (1859)",
+      "destino": 7,
+      "ancora": {
+        "nome": "Big Ben",
+        "descricao": "Torre do relógio do Palácio de Westminster, em Londres, hoje chamada Torre Elizabeth.",
+        "variantes": [
+          "Torre Elizabeth",
+          "Elizabeth Tower",
+          "Grande Relógio de Westminster"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Fachada em ruínas das Missões, nítida e sem texto.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que ordem religiosa construiu esta redução, hoje em ruínas?",
+      "resposta": "Jesuítas",
+      "distratores": [
+        "Franciscanos",
+        "Beneditinos",
+        "Dominicanos"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Ruínas de São Miguel das Missões",
+        "descricao": "Ruínas da redução jesuítica de São Miguel Arcanjo, no Rio Grande do Sul, uma das Sete Povos das Missões.",
+        "variantes": [
+          "Sítio Arqueológico de São Miguel Arcanjo",
+          "São Miguel Arcanjo"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Vista aérea da fortaleza em estrela, sem texto; múltipla escolha com fortes coloniais.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que fortaleza colonial, às margens de um rio na floresta, é esta?",
+      "resposta": "Forte Príncipe da Beira",
+      "distratores": [
+        "Forte de Coimbra",
+        "Forte dos Reis Magos",
+        "Forte de Macapá"
+      ],
+      "destino": 8,
+      "ancora": {
+        "nome": "Real Forte Príncipe da Beira",
+        "descricao": "Fortaleza portuguesa do século dezoito na margem do rio Guaporé, em Costa Marques, Rondônia.",
+        "variantes": [
+          "Forte Príncipe da Beira"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Geoglifo de Nazca nítido, sem texto; povo único.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que povo andino traçou esta figura gigante no deserto?",
+      "resposta": "Nazca",
+      "distratores": [
+        "Inca",
+        "Moche",
+        "Chavín"
+      ],
+      "destino": 5,
+      "ancora": {
+        "nome": "Linhas de Nazca",
+        "descricao": "Conjunto de geoglifos traçados no deserto de Nazca, no sul do Peru, entre 500 a.C. e 500 d.C.",
+        "variantes": [
+          "Linhas de Nasca",
+          "Nazca lines"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Portão dos Leões nítido, sem texto.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que civilização da Idade do Bronze construiu a cidadela cuja entrada é esta?",
+      "resposta": "Micênica",
+      "destino": 2,
+      "ancora": {
+        "nome": "Porta dos Leões de Micenas",
+        "descricao": "Entrada principal da cidadela micênica da Idade do Bronze, com relevo de dois leões, na Grécia.",
+        "variantes": [
+          "Portão dos Leões",
+          "Lion Gate"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Templo romano de Baco em Baalbek, nítido e sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que sítio arqueológico romano é este?",
+      "resposta": "Baalbek",
+      "distratores": [
+        "Palmira",
+        "Jerash",
+        "Leptis Magna"
+      ],
+      "destino": 3,
+      "ancora": {
+        "nome": "Baalbek",
+        "descricao": "Cidade e sítio arqueológico romano no Vale do Beca, no Líbano, aqui o Templo de Baco.",
+        "variantes": [
+          "Heliópolis",
+          "Templo de Baco"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Fachada da Basílica de São Pedro nítida; inscrição latina não entrega a resposta.",
+      "familia": "quem_fez",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que artista renascentista projetou a cúpula desta basílica?",
+      "resposta": "Michelangelo",
+      "distratores": [
+        "Brunelleschi",
+        "Palladio",
+        "Borromini"
+      ],
+      "destino": 7,
+      "ancora": {
+        "nome": "Basílica de São Pedro",
+        "descricao": "Basílica renascentista na Cidade do Vaticano, concluída em 1626.",
+        "variantes": [
+          "Basílica Papal de São Pedro",
+          "Saint Peter's Basilica"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Vale com entrada de tumba, sem texto; pessoas pequenas e distantes. Múltipla ajuda no reconhecimento.",
+      "familia": "quando",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que período do Egito Antigo foram escavadas as tumbas deste vale?",
+      "resposta": "Novo Império",
+      "distratores": [
+        "Antigo Império",
+        "Médio Império",
+        "Período Tardio"
+      ],
+      "destino": 1,
+      "ancora": {
+        "nome": "Vale dos Reis",
+        "descricao": "Vale na margem oeste do Nilo, perto de Luxor, com tumbas escavadas na rocha para faraós.",
+        "variantes": [
+          "Valley of the Kings"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Entrada do Tesouro de Atreu nítida, sem texto legível.",
+      "familia": "onde",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Em que cidade antiga da Grécia fica esta tumba em forma de colmeia?",
+      "resposta": "Micenas",
+      "distratores": [
+        "Tirinto",
+        "Pilos",
+        "Cnossos"
+      ],
+      "destino": 2,
+      "ancora": {
+        "nome": "Tesouro de Atreu",
+        "descricao": "Grande tumba tholos micênica, de cerca de 1300 a 1250 a.C., em Micenas, na Grécia.",
+        "variantes": [
+          "Túmulo de Agamêmnon",
+          "Treasury of Atreus"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Estátua da Liberdade nítida, sem texto que entregue a resposta.",
+      "familia": "quem_fez",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que engenheiro francês construiu a estrutura metálica desta estátua?",
+      "resposta": "Gustave Eiffel",
+      "destino": 7,
+      "ancora": {
+        "nome": "Estátua da Liberdade",
+        "descricao": "Escultura neoclássica colossal na Ilha da Liberdade, no porto de Nova York, presente da França aos Estados Unidos.",
+        "variantes": [
+          "Liberty Enlightening the World",
+          "A Liberdade Iluminando o Mundo"
+        ]
+      }
+    }
+  ]
+}

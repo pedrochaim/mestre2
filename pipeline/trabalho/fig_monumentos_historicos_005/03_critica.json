@@ -1,0 +1,116 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto de um monumento emblemático, sem pista que entregue a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos atribuem a estela ao Reino de Axum no século quarto. O enunciado não nomeia a entidade e exige reconhecer a estela.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A resposta traz o ano entre parênteses, e os trechos divergem sobre ele (1858 ou 1859). O século dezenove é seguro, então o ano sai.",
+      "reescrita": {
+        "pergunta": "Em que século foi concluída esta torre de Londres?",
+        "resposta": "Século dezenove",
+        "distratores": []
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A palavra \"redução\" entrega os jesuítas sem olhar a figura. Pergunta-se o estado, o que exige reconhecer as ruínas.",
+      "reescrita": {
+        "pergunta": "Em que estado brasileiro ficam estas ruínas de uma antiga missão do século dezoito?",
+        "resposta": "Rio Grande do Sul",
+        "distratores": [
+          "Santa Catarina",
+          "Paraná",
+          "Mato Grosso do Sul"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Às margens de um rio na floresta\" também descreve distratores como o Forte de Macapá e o Forte de Coimbra. O enunciado passa a se apoiar no fato de ser um forte português do interior do Brasil, e os distratores são trocados.",
+      "reescrita": {
+        "pergunta": "Que fortaleza portuguesa do século dezoito, construída no interior do Brasil, é esta?",
+        "resposta": "Forte Príncipe da Beira",
+        "distratores": [
+          "Forte dos Reis Magos",
+          "Forte de Santa Cruz",
+          "Forte de São Marcelo"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "\"Povo andino\" e \"figura gigante no deserto\" entregam os Nazca sem a imagem. A pergunta passa a pedir o nome do conjunto de geoglifos.",
+      "reescrita": {
+        "pergunta": "Que famoso conjunto de geoglifos é este?",
+        "resposta": "Linhas de Nazca",
+        "distratores": [
+          "Gigante de Atacama",
+          "Cavalo de Uffington",
+          "Gigante de Cerne Abbas"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "A civilização micênica é confirmada pelos trechos. O enunciado não a nomeia e Idade do Bronze sozinha não basta para responder.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os distratores são sítios romanos do mesmo tipo e nenhum deles é Baalbek. A figura é necessária para responder.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Michelangelo projetou a cúpula, o que é amplamente documentado e consta nos trechos. Brunelleschi, Palladio e Borromini são distratores críveis e errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos situam as tumbas na época do Reino Novo (Novo Império), da XVIII à XX dinastia. Os distratores são outros períodos do Egito.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O Tesouro de Atreu fica em Micenas, e os distratores são outros sítios micênicos ou minoicos que não abrigam esta tumba.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Os trechos dizem que a estrutura metálica foi construída por Gustave Eiffel. O enunciado exige reconhecer a estátua e não a nomeia.",
+      "reescrita": null
+    }
+  ]
+}

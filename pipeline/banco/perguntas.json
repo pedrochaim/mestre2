@@ -79589,5 +79589,235 @@
       "licenca": "CC BY-SA 2.0"
     },
     "dificuldade": 5
+  },
+  {
+    "id": "q04701",
+    "tema": "História",
+    "subtema": "Antigas Civilizações do Oriente",
+    "ancora": "castelo_de_himeji",
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que castelo japonês é este?",
+    "resposta": "Castelo de Himeji",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Himeji_Castle",
+      "https://pt.wikipedia.org/wiki/Castelo_de_Himeji"
+    ],
+    "imagem": {
+      "arquivo": "q04701.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Himeji_Castle,_Hyōgo_Prefecture;_August_2018_(04).jpg",
+      "autor": "_steffen",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q04702",
+    "tema": "História",
+    "subtema": "História da África",
+    "ancora": "obelisco_de_axum",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que reino africano ergueu esta estela no século quarto?",
+    "resposta": "Reino de Axum",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Obelisk_of_Axum",
+      "https://pt.wikipedia.org/wiki/Obelisco_de_Axum"
+    ],
+    "imagem": {
+      "arquivo": "q04702.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Rome_Stele.jpg",
+      "autor": "Ondřej Žváček",
+      "licenca": "CC BY 2.5"
+    }
+  },
+  {
+    "id": "q04703",
+    "tema": "História",
+    "subtema": "Idade Moderna",
+    "ancora": "big_ben",
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Em que século foi concluída esta torre de Londres?",
+    "resposta": "Século dezenove",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Big_Ben",
+      "https://pt.wikipedia.org/wiki/Big_Ben"
+    ],
+    "imagem": {
+      "arquivo": "q04703.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster,_London.jpg",
+      "autor": "Christian David",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04704",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "ruinas_de_sao_miguel_das_missoes",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Em que estado brasileiro ficam estas ruínas de uma antiga missão do século dezoito?",
+    "resposta": "Rio Grande do Sul",
+    "distratores": [
+      "Santa Catarina",
+      "Paraná",
+      "Mato Grosso do Sul"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/S%C3%ADtio_Arqueol%C3%B3gico_de_S%C3%A3o_Miguel_Arcanjo",
+      "https://en.wikipedia.org/wiki/Ruins_of_S%C3%A3o_Miguel_das_Miss%C3%B5es"
+    ],
+    "imagem": {
+      "arquivo": "q04704.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Ruinas-saomiguel1.jpg",
+      "autor": "Leandro Kibisz (Loco085)",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q04705",
+    "tema": "História",
+    "subtema": "História do Brasil",
+    "ancora": "real_forte_principe_da_beira",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que fortaleza portuguesa do século dezoito, construída no interior do Brasil, é esta?",
+    "resposta": "Forte Príncipe da Beira",
+    "distratores": [
+      "Forte dos Reis Magos",
+      "Forte de Santa Cruz",
+      "Forte de São Marcelo"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Real_Forte_Pr%C3%ADncipe_da_Beira",
+      "https://en.wikipedia.org/wiki/Forte_Pr%C3%ADncipe_da_Beira"
+    ],
+    "imagem": {
+      "arquivo": "q04705.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Forte_Príncipe_da_Beira.jpg",
+      "autor": "Israelvalejr",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04706",
+    "tema": "História",
+    "subtema": "Américas Pré-Colombianas",
+    "ancora": "linhas_de_nazca",
+    "angulo": "autoria",
+    "tipo": "multipla",
+    "pergunta": "Que famoso conjunto de geoglifos é este?",
+    "resposta": "Linhas de Nazca",
+    "distratores": [
+      "Gigante de Atacama",
+      "Cavalo de Uffington",
+      "Gigante de Cerne Abbas"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nazca_lines",
+      "https://pt.wikipedia.org/wiki/Linhas_de_Nasca"
+    ],
+    "imagem": {
+      "arquivo": "q04706.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Líneas_de_Nazca,_Nazca,_Perú,_2015-07-29,_DD_58.JPG",
+      "autor": "Diego Delso",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04707",
+    "tema": "História",
+    "subtema": "Grécia Antiga",
+    "ancora": "porta_dos_leoes_de_micenas",
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que civilização da Idade do Bronze construiu a cidadela cuja entrada é esta?",
+    "resposta": "Micênica",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Lion_Gate",
+      "https://pt.wikipedia.org/wiki/Port%C3%A3o_dos_Le%C3%B5es"
+    ],
+    "imagem": {
+      "arquivo": "q04707.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Lions-Gate-Mycenae.jpg",
+      "autor": "Andreas Trepte",
+      "licenca": "CC BY-SA 2.5"
+    }
+  },
+  {
+    "id": "q04708",
+    "tema": "História",
+    "subtema": "Roma Antiga",
+    "ancora": "baalbek",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que sítio arqueológico romano é este?",
+    "resposta": "Baalbek",
+    "distratores": [
+      "Palmira",
+      "Jerash",
+      "Leptis Magna"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Baalbek",
+      "https://pt.wikipedia.org/wiki/Baalbek"
+    ],
+    "imagem": {
+      "arquivo": "q04708.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Temple_of_Bacchus.jpg",
+      "autor": "Saadedine AL SAIDI",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q04709",
+    "tema": "História",
+    "subtema": "Egito Antigo",
+    "ancora": "vale_dos_reis",
+    "angulo": "tempo",
+    "tipo": "multipla",
+    "pergunta": "Em que período do Egito Antigo foram escavadas as tumbas deste vale?",
+    "resposta": "Novo Império",
+    "distratores": [
+      "Antigo Império",
+      "Médio Império",
+      "Período Tardio"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Valley_of_the_Kings",
+      "https://pt.wikipedia.org/wiki/Vale_dos_Reis"
+    ],
+    "imagem": {
+      "arquivo": "q04709.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Luxor,_Tal_der_Könige_(1995,_860x605).jpg",
+      "autor": "Fotograf/Photographer: Peter J. Bubenik (1995)",
+      "licenca": "CC BY-SA 2.0"
+    }
+  },
+  {
+    "id": "q04710",
+    "tema": "História",
+    "subtema": "Grécia Antiga",
+    "ancora": "tesouro_de_atreu",
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em que cidade antiga da Grécia fica esta tumba em forma de colmeia?",
+    "resposta": "Micenas",
+    "distratores": [
+      "Tirinto",
+      "Pilos",
+      "Cnossos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Treasury_of_Atreus",
+      "https://pt.wikipedia.org/wiki/Tesouro_de_Atreu"
+    ],
+    "imagem": {
+      "arquivo": "q04710.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Treasury_of_Atreus_Mycenae.jpg",
+      "autor": "Ken Russell Salvador",
+      "licenca": "CC BY 2.0"
+    }
   }
 ]
