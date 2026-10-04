@@ -1,0 +1,149 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pintura famosa, sem texto legível que entregue a resposta.",
+      "familia": "quando",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que revolução francesa este quadro retrata?",
+      "resposta": "Revolução de Julho (1830)",
+      "destino": 1,
+      "ancora": {
+        "nome": "A Liberdade guiando o povo",
+        "descricao": "Pintura romântica de Eugène Delacroix, de 1830, que celebra a Revolução de Julho.",
+        "variantes": [
+          "Liberty Leading the People",
+          "La Liberté guidant le peuple"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Joia reconhecível, sem texto; o enunciado não a nomeia.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que joalheiro americano foi o último dono particular desta gema?",
+      "resposta": "Harry Winston",
+      "destino": 1,
+      "ancora": {
+        "nome": "Diamante Hope",
+        "descricao": "Diamante azul de 45,52 quilates, vindo da Índia, hoje no Smithsonian.",
+        "variantes": [
+          "Hope Diamond",
+          "Azul da França"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": false,
+      "motivo": "O brasão da bandeira traz texto legível (República Rio-Grandense, 20 de setembro de 1835) que entrega a resposta."
+    },
+    {
+      "indice": 4,
+      "aprovado": false,
+      "motivo": "Documento cheio de texto, com o nome de Lutero e o ano 1517 legíveis, o que entrega a resposta."
+    },
+    {
+      "indice": 5,
+      "aprovado": true,
+      "motivo": "Diagrama T-O claro e inconfundível; os rótulos (Ásia, Europa, África) não entregam o tipo de mapa.",
+      "familia": "o_que_e",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que tipo de mapa-múndi medieval é este?",
+      "resposta": "Mapa T-O (T e O)",
+      "destino": 3,
+      "ancora": {
+        "nome": "Mapa T-O",
+        "descricao": "Tipo de mapa-múndi medieval que representa a Afro-Eurásia como um círculo dividido em três partes por um T.",
+        "variantes": [
+          "Mapa T e O",
+          "T and O map",
+          "Mapa isidoriano"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "aprovado": false,
+      "motivo": "A legenda 'Pedro Alvares Cabral' está escrita na gravura e entrega o nome."
+    },
+    {
+      "indice": 7,
+      "aprovado": false,
+      "motivo": "A folha de rosto traz o título 'Os Lusíadas' e o autor, o que entrega a resposta."
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Coroa nítida, sem texto; a pergunta vai além do reconhecimento.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que governante mandou fazer esta coroa para a própria coroação como rei da Boêmia?",
+      "resposta": "Carlos IV",
+      "destino": 3,
+      "ancora": {
+        "nome": "Coroa de São Venceslau",
+        "descricao": "Coroa das joias da Boêmia, feita em 1346 para Carlos IV e dedicada ao padroeiro São Venceslau.",
+        "variantes": [
+          "Coroa de Venceslau",
+          "Crown of Saint Wenceslas",
+          "Svatováclavská koruna"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "aberta",
+      "pergunta": "Quem é este líder sul-africano?",
+      "resposta": "Nelson Mandela",
+      "destino": 1,
+      "ancora": {
+        "nome": "Nelson Mandela",
+        "descricao": "Líder antiapartheid e primeiro presidente negro da África do Sul, de 1994 a 1999.",
+        "variantes": [
+          "Nelson Rolihlahla Mandela",
+          "Madiba"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": false,
+      "motivo": "A folha de rosto traz o título e o autor, com o ano 1859, o que entrega a resposta."
+    },
+    {
+      "indice": 11,
+      "aprovado": false,
+      "motivo": "Mapa cheio de legendas e textos, com muitos assuntos na mesma imagem; não é legível num celular."
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Retrato nítido de figura pública, sem texto legível; a pergunta vai além do nome.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "aberta",
+      "pergunta": "Que partido político este homem liderou?",
+      "resposta": "Partido Nazista",
+      "destino": 1,
+      "ancora": {
+        "nome": "Adolf Hitler",
+        "descricao": "Ditador da Alemanha de 1933 a 1945, líder do Partido Nazista.",
+        "variantes": [
+          "Hitler"
+        ]
+      }
+    }
+  ]
+}

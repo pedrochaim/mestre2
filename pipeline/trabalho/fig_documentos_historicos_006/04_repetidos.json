@@ -1,0 +1,69 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que revolução francesa este quadro retrata?",
+        "resposta": "Revolução de Julho (1830)"
+      },
+      "existentes": [
+        {
+          "id": "q00411",
+          "pergunta": "Que revolução este quadro celebra?",
+          "resposta": "Revolução de Julho, de 1830"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Quem é este líder sul-africano?",
+        "resposta": "Nelson Mandela"
+      },
+      "existentes": [
+        {
+          "id": "q01549",
+          "pergunta": "Que regime de segregação racial este líder ajudou a derrubar na África do Sul?",
+          "resposta": "Apartheid"
+        },
+        {
+          "id": "q04913",
+          "pergunta": "Nelson Mandela recebeu ao nascer o nome xossa Rolihlahla. Em linguagem coloquial, o que esse nome significa?",
+          "resposta": "Encrenqueiro"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Que partido político este homem liderou?",
+        "resposta": "Partido Nazista"
+      },
+      "existentes": [
+        {
+          "id": "q01160",
+          "pergunta": "Que ditador alemão aparece nesta foto?",
+          "resposta": "Adolf Hitler"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q00411",
+      "motivo": "Ambas perguntam qual revolução o quadro retrata/celebra; resposta igual (Revolução de Julho)."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Identificar a pessoa na imagem é um fato diferente do apartheid ou do significado do nome xossa; as existentes até revelam o nome, mas não perguntam a identidade."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Partido liderado é fato diferente da identidade do ditador na foto."
+    }
+  ]
+}
