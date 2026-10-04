@@ -93150,5 +93150,218 @@
       "autor": "Orest Kiprensky",
       "licenca": "Public domain"
     }
+  },
+  {
+    "id": "q05505",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "pepino_do_mar",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que animal marinho do fundo do mar é este?",
+    "resposta": "Pepino-do-mar",
+    "distratores": [
+      "Anêmona-do-mar",
+      "Lírio-do-mar",
+      "Esponja-do-mar"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Sea_cucumber",
+      "https://pt.wikipedia.org/wiki/Pepino-do-mar"
+    ],
+    "imagem": {
+      "arquivo": "q05505.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Cucumaria_miniata.jpg",
+      "autor": "Jan Haaga",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05506",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "nudibranquio",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que molusco marinho colorido é este?",
+    "resposta": "Nudibrânquio (lesma-do-mar)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Nudibranch",
+      "https://pt.wikipedia.org/wiki/Nudibranchia"
+    ],
+    "imagem": {
+      "arquivo": "q05506.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Berghia_coerulescens_(Laurillard,_1830).jpg",
+      "autor": "Géry PARENT",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05507",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "polvo_mimetico",
+    "angulo": "identidade",
+    "tipo": "multipla",
+    "pergunta": "Que polvo do Indo-Pacífico é este?",
+    "resposta": "Polvo-mimético",
+    "distratores": [
+      "Polvo-comum",
+      "Polvo-de-anéis-azuis",
+      "Wunderpus"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mimic_octopus",
+      "https://pt.wikipedia.org/wiki/Polvo-m%C3%ADmico"
+    ],
+    "imagem": {
+      "arquivo": "q05507.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Mimic_Octopus_2.jpg",
+      "autor": "Steve Childs",
+      "licenca": "CC BY 2.0"
+    }
+  },
+  {
+    "id": "q05508",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "caranguejo_fantasma",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que caranguejo da areia das praias é este?",
+    "resposta": "Caranguejo-fantasma",
+    "distratores": [
+      "Caranguejo-ermitão",
+      "Siri-azul",
+      "Caranguejo-aranha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Crab"
+    ],
+    "imagem": {
+      "arquivo": "q05508.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Crab.png",
+      "autor": "Kalyani Patake",
+      "licenca": "CC BY-SA 4.0"
+    }
+  },
+  {
+    "id": "q05509",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "polvo_dumbo",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que polvo é este?",
+    "resposta": "Polvo-dumbo",
+    "distratores": [
+      "Polvo-comum",
+      "Polvo-mimético",
+      "Polvo-cobertor"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Grimpoteuthis",
+      "https://pt.wikipedia.org/wiki/Grimpoteuthis"
+    ],
+    "imagem": {
+      "arquivo": "q05509.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Dumbo-hires_(cropped).jpg",
+      "autor": "NOAA Okeanos Explorer",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05510",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "moreia",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que peixe é este, escondido entre os corais?",
+    "resposta": "Moreia",
+    "distratores": [
+      "Congro",
+      "Peixe-trombeta",
+      "Peixe-agulha"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Moray_eel",
+      "https://pt.wikipedia.org/wiki/Muraenidae"
+    ],
+    "imagem": {
+      "arquivo": "q05510.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Moray_eel.jpg",
+      "autor": "Mstroeck at en.wikipedia",
+      "licenca": "CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "q05511",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "lula_vampira",
+    "angulo": "conexao",
+    "tipo": "multipla",
+    "pergunta": "Este molusco das profundezas foi descrito, em 1903, como que tipo de animal?",
+    "resposta": "Polvo",
+    "distratores": [
+      "Lula",
+      "Choco",
+      "Náutilo"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vampire_squid",
+      "https://pt.wikipedia.org/wiki/Vampyroteuthis_infernalis"
+    ],
+    "imagem": {
+      "arquivo": "q05511.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Vampyroteuthis_infernalis.jpg",
+      "autor": "Carl Chun",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05512",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "vieira",
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Que molusco de duas conchas é este?",
+    "resposta": "Vieira",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Scallop"
+    ],
+    "imagem": {
+      "arquivo": "q05512.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Scallop_eyes.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
+  },
+  {
+    "id": "q05513",
+    "tema": "Natureza",
+    "subtema": "Vida Marinha",
+    "ancora": "remora",
+    "angulo": "atributo",
+    "tipo": "multipla",
+    "pergunta": "Que peixe de corpo alongado é este?",
+    "resposta": "Rêmora",
+    "distratores": [
+      "Barracuda",
+      "Peixe-agulha",
+      "Cavala"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Remora",
+      "https://pt.wikipedia.org/wiki/R%C3%AAmora"
+    ],
+    "imagem": {
+      "arquivo": "q05513.jpg",
+      "origem": "https://commons.wikimedia.org/wiki/File:Spearfish_remora.jpg",
+      "autor": "Autor desconhecido",
+      "licenca": "Public domain"
+    }
   }
 ]

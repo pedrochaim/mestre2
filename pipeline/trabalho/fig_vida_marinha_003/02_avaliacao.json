@@ -1,0 +1,260 @@
+{
+  "itens": [
+    {
+      "indice": 1,
+      "aprovado": true,
+      "motivo": "Pepino-do-mar com tentáculos estendidos em primeiro plano; estrela e ouriço ao fundo, mas o assunto é claro.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que animal marinho, em primeiro plano, estende estes tentáculos ramificados?",
+      "resposta": "Pepino-do-mar",
+      "distratores": [
+        "Anêmona-do-mar",
+        "Lírio-do-mar",
+        "Esponja-do-mar"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Pepino-do-mar",
+        "descricao": "Equinoderma da classe Holothuroidea, de corpo alongado e pele coriácea, que vive no fundo do mar.",
+        "variantes": [
+          "Holotúria",
+          "Holothuroidea"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "aprovado": true,
+      "motivo": "Nudibrânquio colorido, nítido e inconfundível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Este molusco marinho colorido pertence a que grupo?",
+      "resposta": "Nudibrânquio",
+      "destino": 0,
+      "ancora": {
+        "nome": "Nudibrânquio",
+        "descricao": "Molusco gastrópode marinho sem concha na fase adulta, da ordem Nudibranchia, de cores vistosas.",
+        "variantes": [
+          "Lesma-do-mar",
+          "Nudibranchia"
+        ]
+      }
+    },
+    {
+      "indice": 3,
+      "aprovado": true,
+      "motivo": "Polvo de braços listrados abertos sobre a areia, com padrão característico do polvo-mimético.",
+      "familia": "o_que_e",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que polvo de braços listrados é este?",
+      "resposta": "Polvo-mimético",
+      "distratores": [
+        "Polvo-comum",
+        "Polvo-de-anéis-azuis",
+        "Polvo-gigante-do-Pacífico"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Polvo-mimético",
+        "descricao": "Polvo do Indo-Pacífico, Thaumoctopus mimicus, capaz de imitar outros animais marinhos.",
+        "variantes": [
+          "Thaumoctopus mimicus",
+          "Mimic octopus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "aprovado": true,
+      "motivo": "Caranguejo-fantasma na areia, com olhos em hastes; nítido.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que caranguejo de praia, com olhos em hastes erguidas, é este?",
+      "resposta": "Caranguejo-fantasma",
+      "distratores": [
+        "Caranguejo-ermitão",
+        "Chama-maré",
+        "Siri-azul"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Caranguejo-fantasma",
+        "descricao": "Caranguejo de praia do gênero Ocypode, de olhos em hastes longas, que vive na areia.",
+        "variantes": [
+          "Maria-farinha",
+          "Ocypode"
+        ]
+      }
+    },
+    {
+      "indice": 5,
+      "aprovado": false,
+      "motivo": "Só aparecem a cabeça e o bico, com linhas e casco do barco; poderia ser marlim ou outro peixe-de-bico, resposta não única."
+    },
+    {
+      "indice": 6,
+      "aprovado": true,
+      "motivo": "Polvo-dumbo nítido, com nadadeiras em forma de orelha, sobre fundo escuro.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que polvo das profundezas do oceano é este?",
+      "resposta": "Polvo-dumbo",
+      "distratores": [
+        "Polvo-comum",
+        "Polvo-de-anéis-azuis",
+        "Polvo-mimético"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Polvo-dumbo",
+        "descricao": "Polvo de águas profundas do gênero Grimpoteuthis, com duas nadadeiras em forma de orelha.",
+        "variantes": [
+          "Grimpoteuthis",
+          "Dumbo octopus"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "aprovado": true,
+      "motivo": "Arraia-manta nítida, com as nadadeiras cefálicas visíveis.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que arraia gigante é esta?",
+      "resposta": "Arraia-manta",
+      "destino": 0,
+      "ancora": {
+        "nome": "Arraia-manta",
+        "descricao": "Grande arraia do gênero Mobula (antes Manta), com nadadeiras cefálicas junto à boca, que nada em mar aberto.",
+        "variantes": [
+          "Manta",
+          "Jamanta",
+          "Manta ray"
+        ]
+      }
+    },
+    {
+      "indice": 8,
+      "aprovado": true,
+      "motivo": "Moreia de pintas claras com a boca aberta entre corais; nítida.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe é este, escondido entre os corais?",
+      "resposta": "Moreia",
+      "distratores": [
+        "Congro",
+        "Peixe-trombeta",
+        "Peixe-agulha"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Moreia",
+        "descricao": "Peixe alongado da família Muraenidae, sem nadadeiras peitorais, que vive em tocas nos recifes.",
+        "variantes": [
+          "Muraenidae",
+          "Moray eel"
+        ]
+      }
+    },
+    {
+      "indice": 9,
+      "aprovado": true,
+      "motivo": "Ilustração científica antiga, sem texto, mostrando a lula-vampira com a membrana entre os braços; reconhecível.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 3,
+      "tipo": "multipla",
+      "pergunta": "Este molusco das profundezas foi descrito, em 1903, como que tipo de animal?",
+      "resposta": "Polvo",
+      "distratores": [
+        "Lula",
+        "Choco",
+        "Náutilo"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Lula-vampira-do-inferno",
+        "descricao": "Cefalópode de águas profundas, Vampyroteuthis infernalis, único membro vivo da ordem Vampyromorphida.",
+        "variantes": [
+          "Vampyroteuthis infernalis",
+          "Vampire squid"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "aprovado": true,
+      "motivo": "Close da vieira com olhos azuis ao longo do manto; reconhecível.",
+      "familia": "que_tipo",
+      "nivel": 1,
+      "tipo": "aberta",
+      "pergunta": "Que molusco de duas conchas é este?",
+      "resposta": "Vieira",
+      "destino": 0,
+      "ancora": {
+        "nome": "Vieira",
+        "descricao": "Molusco bivalve marinho da família Pectinidae, com muitos olhos pequenos na borda do manto.",
+        "variantes": [
+          "Scallop",
+          "Pectinidae"
+        ]
+      }
+    },
+    {
+      "indice": 11,
+      "aprovado": true,
+      "motivo": "Tubarão-baleia nítido, de lado, com padrão de pintas característico.",
+      "familia": "com_o_que_se_liga",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Este peixe se alimenta principalmente de quê?",
+      "resposta": "Plâncton",
+      "distratores": [
+        "Focas e pinguins",
+        "Lulas gigantes",
+        "Caranguejos e mexilhões"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Tubarão-baleia",
+        "descricao": "Maior peixe vivo, Rhincodon typus, tubarão filtrador de pintas claras no dorso.",
+        "variantes": [
+          "Rhincodon typus",
+          "Whale shark"
+        ]
+      }
+    },
+    {
+      "indice": 12,
+      "aprovado": true,
+      "motivo": "Gravura antiga de peixe alongado com o disco de sucção na cabeça, sem texto; reconhecível com múltipla escolha.",
+      "familia": "que_tipo",
+      "nivel": 2,
+      "tipo": "multipla",
+      "pergunta": "Que peixe de corpo alongado é este, ilustrado em gravura antiga?",
+      "resposta": "Rêmora",
+      "distratores": [
+        "Barracuda",
+        "Peixe-agulha",
+        "Cavala"
+      ],
+      "destino": 0,
+      "ancora": {
+        "nome": "Rêmora",
+        "descricao": "Peixe da família Echeneidae, com disco de sucção na cabeça com o qual se prende a animais maiores.",
+        "variantes": [
+          "Echeneidae",
+          "Peixe-piolho",
+          "Remora"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "O enunciado afirma detalhes da foto (primeiro plano, tentáculos ramificados) que 'mostra' não confirma. A pista de tentáculos também deixa a anêmona e o lírio-do-mar defensáveis. Simplifiquei para reconhecimento.",
+      "reescrita": {
+        "pergunta": "Que animal marinho do fundo do mar é este?",
+        "resposta": "Pepino-do-mar",
+        "distratores": [
+          "Anêmona-do-mar",
+          "Lírio-do-mar",
+          "Esponja-do-mar"
+        ]
+      }
+    },
+    {
+      "indice": 2,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Pertence a que grupo' é ambíguo: molusco, gastrópode e lesma-do-mar também seriam defensáveis. Reformulei para pedir o nome do animal.",
+      "reescrita": {
+        "pergunta": "Que molusco marinho colorido é este?",
+        "resposta": "Nudibrânquio (lesma-do-mar)"
+      }
+    },
+    {
+      "indice": 3,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Braços listrados' não consta em 'mostra', e o wunderpus, parente próximo, também é listrado. Retirei a pista e troquei um distrator por uma espécie visualmente parecida.",
+      "reescrita": {
+        "pergunta": "Que polvo do Indo-Pacífico é este?",
+        "resposta": "Polvo-mimético",
+        "distratores": [
+          "Polvo-comum",
+          "Polvo-de-anéis-azuis",
+          "Wunderpus"
+        ]
+      }
+    },
+    {
+      "indice": 4,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Olhos em haste valem para qualquer caranguejo e para o chama-maré, que é um dos distratores. Troquei a pista e o distrator.",
+      "reescrita": {
+        "pergunta": "Que caranguejo da areia das praias é este?",
+        "resposta": "Caranguejo-fantasma",
+        "distratores": [
+          "Caranguejo-ermitão",
+          "Siri-azul",
+          "Caranguejo-aranha"
+        ]
+      }
+    },
+    {
+      "indice": 6,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Das profundezas' elimina todos os distratores, que não são de águas profundas, e a figura vira enfeite. Tirei a pista e usei distratores visualmente parecidos.",
+      "reescrita": {
+        "pergunta": "Que polvo é este?",
+        "resposta": "Polvo-dumbo",
+        "distratores": [
+          "Polvo-comum",
+          "Polvo-mimético",
+          "Polvo-cobertor"
+        ]
+      }
+    },
+    {
+      "indice": 7,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "'Arraia gigante' é quase um apelido da arraia-manta e entrega a resposta sem olhar a figura.",
+      "reescrita": {
+        "pergunta": "Que arraia é esta?",
+        "resposta": "Arraia-manta"
+      }
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Reconhecimento direto, com pista genérica de habitat. Os distratores são peixes alongados e plausíveis, e nenhum está correto.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho em português confirma que em 1903 foi descrita por engano como polvo. A resposta é única e os distratores são do mesmo tipo. Pergunta de nível 3 sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Reconhecimento simples e bem enquadrado. A pista 'duas conchas' é genérica e a imagem decide a resposta.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "O trecho confirma que se alimenta quase exclusivamente de plâncton. A figura é necessária para identificar o peixe e os distratores são claramente errados.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "'Ilustrado em gravura antiga' não consta em 'mostra' e pode ser falso para esta imagem. Retirei essa afirmação.",
+      "reescrita": {
+        "pergunta": "Que peixe de corpo alongado é este?",
+        "resposta": "Rêmora",
+        "distratores": [
+          "Barracuda",
+          "Peixe-agulha",
+          "Cavala"
+        ]
+      }
+    }
+  ]
+}

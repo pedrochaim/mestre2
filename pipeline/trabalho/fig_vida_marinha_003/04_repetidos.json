@@ -1,0 +1,84 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Que arraia é esta?",
+        "resposta": "Arraia-manta"
+      },
+      "existentes": [
+        {
+          "id": "q04117",
+          "pergunta": "Que raia gigante é esta?",
+          "resposta": "Raia-manta"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Este molusco das profundezas foi descrito, em 1903, como que tipo de animal?",
+        "resposta": "Polvo"
+      },
+      "existentes": [
+        {
+          "id": "q04824",
+          "pergunta": "O nome científico da lula-vampira, que vive em águas profundas pobres em oxigênio, quer dizer lula-vampira de onde?",
+          "resposta": "Do inferno"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Este peixe se alimenta principalmente de quê?",
+        "resposta": "Plâncton"
+      },
+      "existentes": [
+        {
+          "id": "q02567",
+          "pergunta": "Qual é o maior peixe vivo do mundo, um gigante manso que se alimenta de plâncton?",
+          "resposta": "Tubarão-baleia"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Que peixe de corpo alongado é este?",
+        "resposta": "Rêmora"
+      },
+      "existentes": [
+        {
+          "id": "q02852",
+          "pergunta": "O nome rêmora, peixe que pega carona grudado em tubarões, vem do latim e lembra uma antiga crença de que ele fazia o quê com os navios?",
+          "resposta": "Atrasava ou segurava os navios"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "repete",
+      "id_existente": "q04117",
+      "motivo": "Ambas pedem identificar a raia-manta a partir da imagem; mesma resposta."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "A nova pergunta é sobre a classificação em 1903 como polvo; a existente é sobre o significado do nome científico."
+    },
+    {
+      "caso": 3,
+      "decisao": "repete",
+      "id_existente": "q02567",
+      "motivo": "A existente já traz que o tubarão-baleia se alimenta de plâncton; quem soubesse responderia a nova."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A nova pede identificar o peixe (rêmora); a existente pergunta sobre a crença da origem do nome, outro fato."
+    }
+  ]
+}
