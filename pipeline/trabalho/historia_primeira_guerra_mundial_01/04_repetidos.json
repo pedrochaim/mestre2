@@ -1,0 +1,106 @@
+{
+  "casos": [
+    {
+      "caso": 1,
+      "nova": {
+        "pergunta": "Em 1917, por que o governo alemão ajudou Lenin a voltar do exílio na Suíça para a Rússia num trem lacrado?",
+        "resposta": "Para tirar a Rússia da guerra"
+      },
+      "existentes": [
+        {
+          "id": "q01552",
+          "pergunta": "Que grupo revolucionário este líder russo comandou na Revolução de 1917?",
+          "resposta": "Bolcheviques"
+        }
+      ]
+    },
+    {
+      "caso": 2,
+      "nova": {
+        "pergunta": "Que batalha de 1916 teve entre seus combatentes o jovem Tolkien, do lado britânico, e Adolf Hitler, do lado alemão?",
+        "resposta": "Batalha do Somme"
+      },
+      "existentes": [
+        {
+          "id": "q02970",
+          "pergunta": "Em que cidade nasceu, em 1892, o escritor Tolkien, autor de O Senhor dos Anéis?",
+          "resposta": "Bloemfontein"
+        }
+      ]
+    },
+    {
+      "caso": 3,
+      "nova": {
+        "pergunta": "Depois de abdicar em 1918, para que país vizinho o kaiser Guilherme II partiu para o exílio, onde viveu até morrer?",
+        "resposta": "Países Baixos"
+      },
+      "existentes": [
+        {
+          "id": "q01554",
+          "pergunta": "Em que ano este imperador alemão abdicou?",
+          "resposta": "1918"
+        }
+      ]
+    },
+    {
+      "caso": 4,
+      "nova": {
+        "pergunta": "Berlim deveria sediar os Jogos Olímpicos de 1916, cancelados pela guerra. Em que ano a cidade finalmente recebeu as Olimpíadas?",
+        "resposta": "1936"
+      },
+      "existentes": [
+        {
+          "id": "q00694",
+          "pergunta": "Os Jogos Olímpicos de 1916, cancelados por causa da Primeira Guerra Mundial, seriam realizados em que cidade?",
+          "resposta": "Berlim"
+        }
+      ]
+    },
+    {
+      "caso": 5,
+      "nova": {
+        "pergunta": "Durante a Primeira Guerra, Marie Curie organizou ambulâncias equipadas com que tecnologia para examinar soldados feridos perto do front?",
+        "resposta": "Raios X"
+      },
+      "existentes": [
+        {
+          "id": "q00868",
+          "pergunta": "Que elemento químico, batizado em homenagem à terra natal desta cientista, ela descobriu?",
+          "resposta": "Polônio"
+        },
+        {
+          "id": "q03158",
+          "pergunta": "Em que ano o casal Pierre e Marie Curie anunciou a descoberta do polônio e do rádio?",
+          "resposta": "1898"
+        }
+      ]
+    }
+  ],
+  "decisoes": [
+    {
+      "caso": 1,
+      "decisao": "nova",
+      "motivo": "Pergunta o motivo da ajuda alemã a Lenin, não o grupo que ele liderou."
+    },
+    {
+      "caso": 2,
+      "decisao": "nova",
+      "motivo": "Batalha do Somme é fato distinto do local de nascimento de Tolkien."
+    },
+    {
+      "caso": 3,
+      "decisao": "nova",
+      "motivo": "Pergunta o país do exílio, não o ano da abdicação."
+    },
+    {
+      "caso": 4,
+      "decisao": "nova",
+      "motivo": "A existente pergunta a cidade de 1916; a nova pergunta o ano em que Berlim sediou os Jogos (1936). Fatos diferentes."
+    },
+    {
+      "caso": 5,
+      "decisao": "nova",
+      "motivo": "Raios X nas ambulâncias é fato diferente do polônio e da data da descoberta."
+    }
+  ]
+}

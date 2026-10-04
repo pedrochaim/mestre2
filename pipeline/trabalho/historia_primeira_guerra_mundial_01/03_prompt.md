@@ -1,0 +1,1754 @@
+Você é o crítico de perguntas do Mestre2, um jogo de quiz em que as perguntas são **lidas em voz alta**. As regras de conteúdo do MANIFESTO, no final desta mensagem, definem o que é uma boa pergunta.
+
+Você recebeu um lote de perguntas geradas automaticamente para o subtema **Primeira Guerra Mundial** (tema **História**). Avalie **cada uma**, independentemente, e decida:
+
+- **aprovar:** passa em todos os critérios.
+- **reescrever:** tem um problema corrigível. Devolva em `reescrita` a versão corrigida **completa** (`angulo`, `tipo`, `pergunta`, `resposta`, `fonte` e, se o tipo for `multipla`, exatamente 3 `distratores`). **Toda decisão `reescrever` precisa vir com `reescrita` preenchida**, mesmo quando a correção é pequena, como trocar um distrator ou encurtar a resposta: sem ela, a pergunta se perde. Nas decisões `aprovar` e `descartar`, `reescrita` é `null`.
+- **descartar:** o problema não tem conserto, ou o fato é fraco demais para valer uma pergunta.
+
+Em `motivo`, explique a decisão em uma frase curta. Na dúvida entre reescrever e descartar, descarte: o MANIFESTO diz "menos e melhor".
+
+# O que verificar
+
+1. **Precisão literal (obrigatório):** leia o enunciado palavra por palavra. Cada verbo, adjetivo e afirmação precisa ser **literalmente** verdadeiro, e não só a resposta. Desconfie especialmente de verbos como *batizou*, *inventou*, *descobriu*, *fundou*, *criou*, e de palavras como *único*, *primeiro*, *maior*, *sempre*, *nunca*. Exemplo: dizer que Colombo *batizou* a Colômbia é falso, porque o país recebeu o nome *em homenagem* a ele. Se houver qualquer imprecisão, reescreva.
+2. **Fato e fonte (obrigatório):** você não tem acesso à internet. Cada pergunta traz em `trechos` o que o pipeline baixou das URLs de `fonte`: a abertura de cada página e as passagens mais ligadas à pergunta, separadas por `[…]`. Quando as fontes estão em inglês, pode vir também o artigo equivalente da Wikipédia em português, marcado em `observacao`: ele serve para conferir o fato, mas não é fonte da pergunta. Confira o fato nesses trechos e informe em `apoio`:
+   - `trecho`: um trecho sustenta a resposta e o enunciado;
+   - `conhecimento`: os trechos não mostram o fato, mas ele é amplamente documentado e você tem certeza dele. Use com parcimônia; na dúvida, descarte;
+   - `contradito`: um trecho contradiz o enunciado ou a resposta. Reescreva de acordo com o trecho, ou descarte.
+
+   Se uma fonte vier com `situacao` `inexistente` ou `desambiguacao`, troque-a na `reescrita` por uma URL da Wikipédia de que você tenha alta confiança (ela será conferida depois). Fonte `inacessivel` não é defeito da pergunta: confira o fato nas outras fontes.
+3. **Todos os critérios de qualidade** do MANIFESTO §8: resposta única, sem vazamento, atemporal, verificável, precisa, justa, interessante, audível e bem classificada.
+4. **Redação para voz** do MANIFESTO §7, incluindo resposta **específica** (o nome da coisa, e não a categoria).
+5. **Âncora:** respeita a regra de granularidade (MANIFESTO §4) e é de fato a entidade sobre a qual está o fato perguntado? Se a granularidade estiver errada, descarte.
+6. **Ângulo:** é o mais específico que serve (MANIFESTO §5)? Se não for, reescreva com o ângulo correto.
+7. **Distratores** (só em `multipla`): críveis, da mesma categoria da resposta e com no máximo 4 palavras (MANIFESTO §6).
+8. **Duplicatas:** se duas perguntas do lote perguntam o mesmo fato, mantenha a melhor e descarte a outra.
+
+Devolva exatamente uma avaliação para cada pergunta, usando o `indice` informado.
+
+# Lote
+
+[
+  {
+    "indice": 1,
+    "ancora": {
+      "nome": "Grande Berta",
+      "descricao": "Obus pesado alemão de 420 milímetros fabricado pela Krupp e usado contra as fortalezas belgas e francesas na Primeira Guerra Mundial."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "O gigantesco canhão alemão apelidado de Grande Berta teria recebido esse nome em referência a quem?",
+    "resposta": "Bertha Krupp",
+    "distratores": [
+      "Bertha Benz",
+      "Bertha von Suttner",
+      "Imperatriz Augusta Vitória"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Big_Bertha_(howitzer)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Big_Bertha_(howitzer)",
+        "situacao": "ok",
+        "texto": "The 42 centimeter kurze Marinekanone 14 L/12 (short naval cannon), or Minenwerfer-Gerät (M-Gerät), popularly known by the name of Big Bertha, was a German siege howitzer built by Krupp AG in Essen, Germany and fielded by the Imperial German Army from 1914 to 1918. The M-Gerät had a 42 cm (17 in) calibre barrel, making it one of the largest artillery pieces ever fielded.\n[…]\nAlthough the Gamma-Gerät had the destructive power the General Staff required and could outrange French and Belgian fort guns, it could only be emplaced near rail lines and took 24 hours to prepare. As early as 1907, Krupp began development of siege artillery transported by gun carriage. Testing resulted in a 28 cm (11 in) howitzer transportable over road and countryside but it was rejected by the APK, as was Krupp's 30.5-centimetre model.\n[…]\nFinally, in late 1911, Krupp and the APK developed a wheeled 42-centimetre howitzer, the 42-centimetre kurze Marinekanone 14 L/12 or Minenwerfer-Gerät (M-Gerät). The APK ordered its first M-Gerät in July 1912 and another in February 1913. Tests of the gun's mobility began in December 1913 and found that gas-powered tractors were best for pulling it.\n[…]\nTest firing, at one point observed by Kaiser Wilhelm II, began in February 1914, and Krupp estimated that the M-Gerät would be complete by October 1914.\n[…]\nKrupp eventually built 12 M-Gerät howitzers.\n[…]\nThe nickname \"Big Bertha\" appeared early in the war, when German soldiers named the guns Dicke Berta at the Battle of Liège, a reference to Bertha Krupp, who had inherited the Krupp works from her father. The name spread to German newspapers and then to Allied troops as \"Big Bertha\" and became slang for all heavy German artillery, but especially the 42-centimetre guns.\n[…]\nDuffey, Michael. \"Big Bertha\". firstworldwar.com. Retrieved 5 September 2018."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Grande_Berta_%28obus%29",
+        "situacao": "ok",
+        "texto": "O kurze Marinekanone 14 L/12 de 420 mm (canhão naval curto), ou Minenwerfer-Gerät (M-Gerät), popularmente conhecido como Grande Bertha ou Berta Gorda , Bertha Gorda (originalmente chamado pelos alemães de Dicker Bertha e pelos franceses de Grosse Bertha) era um obus de cerco alemão construído pela Krupp AG em Essen, Alemanha e utilizada pelo Exército Imperial Alemão de 1914 a 1918.\n[…]\nOs soldados alemães deram à poderosa peça de artilharia a alcunha de \"Grande Bertha\", que depois se espalhou, através dos jornais alemães, aos Aliados, que a utilizaram genericamente para designar todas as peças de artilharia alemã superpesadas, o que poderá explicar a confusão com o Canhão de Paris, utilizado em 1918, depois de todas as Grandes Bertas terem sido retirados de serviço.\n[…]\nStorz, Dieter (16 de abril de 2015). «Dicke Bertha». International Encyclopedia of the First World War. Consultado em 5 de setembro de 2018\n[…]\nDuffey, Michael. «Big Bertha». firstworldwar.com. Consultado em 5 de setembro de 2018",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 2,
+    "ancora": {
+      "nome": "Tanque de guerra",
+      "descricao": "Veículo blindado de combate com lagartas, criado pelos britânicos e estreado na Primeira Guerra Mundial."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Para manter o segredo, os britânicos deram aos seus primeiros blindados o nome em código tank, fingindo que eram o quê?",
+    "resposta": "Reservatórios de água",
+    "distratores": [
+      "Caldeiras a vapor",
+      "Tratores agrícolas",
+      "Vagões de carga"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Tank",
+      "https://en.wikipedia.org/wiki/Mark_I_tank"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Tank",
+        "situacao": "ok",
+        "texto": "A tank is an armoured fighting vehicle intended as a primary offensive weapon in front-line ground combat. Tank designs are a balance of heavy firepower, strong armour, and battlefield mobility provided by tracks and a powerful engine; their main armament is often mounted within a turret. They are a mainstay of modern 20th and 21st century ground forces and a key part of combined arms combat.\n[…]\nTanks are susceptible to mechanical failure of engine and transmission systems, particularly at maximum burst speeds. Consequently, wheeled tank transporters and rail transport are used wherever possible for non-combat tank transport. Tank mobility is very restricted compared to wheeled armoured fighting vehicles. Most operational mobility in blitzkrieg tank operations was conducted at the pedestrian pace of 5 kilometres per hour (3.1 mph), and that was only achieved on the roads of France.\n[…]\nDriver – The driver drives the tank, and also performs routine maintenance on the automotive features.\n[…]\nWell-designed crew stations, giving proper consideration to comfort and ergonomics, are important to the combat-effectiveness of a tank, as they limit fatigue and speed up individual actions.\n[…]\nFor example, in the case of tactical capability requirements, increasing protection by adding armour will result in an increase in weight and therefore decrease in mobility; increasing firepower by installing a larger gun will force the designer team to increase armour, the therefore weight of the tank by retaining same internal volume to ensure crew efficiency during combat.\n[…]\nSome tank designs that were fielded in significant numbers, such as Tiger I and M60A2 proved to be too complex or expensive to manufacture, and made unsustainable demands on the logistics services support of the armed forces. The affordability of the design therefore takes precedence over the combat capability requirements."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Mark_I_tank",
+        "situacao": "ok",
+        "texto": "British heavy tanks were a series of related armoured fighting vehicles developed by the UK during the First World War. The Mark I was the world's first tank, a tracked, armed, and armoured vehicle, to enter combat. The name \"tank\" was initially a code name to maintain secrecy and disguise its true purpose. The tank was developed in 1915 to break the stalemate of trench warfare.\n[…]\nA single male survives. This is the only surviving Mark I and the world's oldest surviving combat tank. It is part of the collection at the Bovington Tank Museum. It is painted to represent Number 705, C19, Clan Leslie although its identity and wartime history are unknown. There are indications that it may have served as a driver-training tank and it has been suggested it is Number 702, which would make it the second Mark I built.\n[…]\nMark IV Female Liberty: displayed at United States Army Ordnance Museum, Aberdeen, Maryland. Originally named Britannia, Renamed Liberty, the tank joined the Ordnance Museum collection in 1919. After decades of exposure to the elements, it is in poor condition, but about to undergo restoration.\n[…]\nA Mark V is at the Kubinka Tank Museum, Russia.\n[…]\nA Mark VIII Liberty tank originally at the Aberdeen Proving Ground, Maryland, in 2010 was transferred to the National Armor and Cavalry Museum at Fort Benning, GA. The vehicle was originally assigned to the American 67th Infantry Regiment (Heavy Tanks) at Fort Benning.\n[…]\nA Liberty tank is preserved at Rock Island Arsenal, Illinois.\n[…]\nHeadquarters, Tank Corps, 1 December 1917, British Army: \"Instructions for the training of the Tank Corps in France\" Deprecated link archived 8 December 2012 at archive.today. Includes Mk IV & V tank specifications.\n[…]\nArticle on the preserved Arkhangelsk tank\n[…]\nArchaeological discovery: the Mark IV tank of Flesquières (Battle of Cambrai 1917)\n[…]\nWebsite of The Tank Museum at Bovington Camp U.K."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Carro_de_combate",
+        "situacao": "ok",
+        "texto": "Um tanque (também chamado de carro de combate) é um veículo blindado de combate projetado como arma ofensiva primária no combate terrestre de linha de frente. Os projetos de tanques buscam um equilíbrio entre pesado poder de fogo, forte blindagem e mobilidade no campo de batalha fornecida por lagartas e um motor potente; seu armamento principal geralmente é montado dentro de uma torre.\n[…]\nA palavra tank (tanque) foi aplicada pela primeira vez em um contexto militar aos \"navios terrestres\" (landships) britânicos em 1915, para manter sua natureza em segredo antes de entrarem em serviço.\n[…]\nDurante a Primeira Guerra Mundial, as fontes alemãs tendiam a se referir aos tanques britânicos como tanks e aos seus próprios como Kampfwagen. Mais tarde, os tanques passaram a ser chamados de \"Panzer\" (blindagem), uma forma abreviada do termo completo \"Panzerkampfwagen\", literalmente \"veículo blindado de combate\". Em árabe, os tanques são chamados de Dabbāba. A mesma palavra é usada em Turoyo (um dialeto ocidental do Aramaico), mas o Swadaya, um dialeto oriental, usa rashupta em seu lugar.\n[…]\nA Grã-Bretanha produziu cerca de 2 600 tanques de vários tipos durante a guerra. O primeiro tanque a entrar em combate recebeu a designação D1, um Mark I Macho britânico, durante a Batalha de Flers-Courcelette (parte da ofensiva mais ampla da Batalha do Somme) em 15 de setembro de 1916.\n[…]\nOs tanques anfíbios são especialmente projetados ou adaptados para operações na água, como pela inclusão de esnórqueis e saias, mas são raros nos exércitos modernos. Veículos de assalto anfíbio especialmente construídos ou veículos de transporte de pessoal blindados são usados, sem tanques, em assaltos anfíbios. Avanços como a ponte móvel EFA e pontes de tesoura lançadas por veículos blindados também reduziram o impedimento ao avanço de tanques que os rios representavam na Segunda Guerra Mundial.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 3,
+    "ancora": {
+      "nome": "Gripe espanhola",
+      "descricao": "Pandemia de gripe que se espalhou pelo mundo entre 1918 e 1920, no fim da Primeira Guerra Mundial."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por que a pandemia de 1918 ficou conhecida como gripe espanhola?",
+    "resposta": "A imprensa espanhola noticiava sem censura",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Spanish_flu",
+      "https://pt.wikipedia.org/wiki/Gripe_espanhola"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Spanish_flu",
+        "situacao": "ok",
+        "texto": "The 1918–1920 flu pandemic, also known as the Great Influenza epidemic or by the misleading name Spanish flu, was an exceptionally deadly global influenza pandemic caused by the H1N1 subtype of the influenza A virus. The earliest probable cases were documented in March 1918 in Haskell County, Kansas, United States, with further cases recorded in France, Germany and the United Kingdom in April.\n[…]\nChina was one of the few regions of the world seemingly less affected by the Spanish flu pandemic, where several studies have documented a comparatively mild flu season in 1918. (This is disputed due to lack of data during the Warlord Period.) This has led to speculation that the Spanish flu pandemic originated in China, as the lower mortality rates may be explained by the Chinese population's previously acquired immunity to the flu virus.\n[…]\nA 2009 study in Influenza and Other Respiratory Viruses based on data from fourteen European countries estimated a total of 2.64 million excess deaths in Europe attributable to the Spanish flu during the 1918–1919 phase of the pandemic. This represents a mortality rate of about 1.1% of the European population (c. 250 million in 1918), considerably higher than the mortality rate in the U.S., which the authors hypothesize is likely due to the severe effects of the war in Europe.\n[…]\nIn 2007, Kobasa et al. reported that monkeys (Macaca fascicularis) infected with the recreated flu strain exhibited classic symptoms of the 1918 pandemic, and died from an overreaction of the immune system. This may explain why the Spanish flu had its surprising effect on younger, healthier people, as a person with a stronger immune system would potentially have a stronger overreaction.\n[…]\n1918 flu pandemic in India – Known in India as \"Bombay Fever\"\n[…]\nList of Spanish flu cases\n[…]\nWe Heard the Bells: The Influenza of 1918 – NIH interviews with Spanish Flu survivors."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gripe_espanhola",
+        "situacao": "ok",
+        "texto": "A gripe espanhola, também conhecida como gripe de 1918, foi uma vasta e mortal pandemia do vírus influenza. De janeiro de 1918 a dezembro de 1920, infectou uma estimativa de 500 milhões de pessoas, cerca de um quarto da população mundial na época. Estima-se que o número de mortos esteja entre 17 milhões e 50 milhões, e possivelmente até 100 milhões, tornando-a uma das epidemias mais mortais da his\n[…]\nDurante a Primeira Guerra Mundial, os países aliados frequentemente chamaram a pandemia de \"gripe espanhola.\" Isso ocorreu principalmente pois a pandemia recebeu maior atenção da imprensa na Espanha do que no resto do mundo, uma vez que o país não estava envolvido na guerra e não havia censura. Na Espanha, recebeu o nome de \"gripe francesa\". Em Portugal é mais conhecida como \"gripe pneumónica\" ou simplesmente \"a pneumónica\".\n[…]\nEm agosto de 1918, uma estirpe mais virulenta apareceu simultaneamente em Brest (França), Freetown (Serra Leoa) e em Boston (Massachusetts). A gripe espanhola também se espalhou pela Irlanda, transportada para lá por soldados irlandeses que retornavam para a casa. Os Aliados da Primeira Guerra Mundial passaram a chamá-la de gripe espanhola, principalmente porque a pandemia recebeu maior atenção da imprensa depois que se moveu da França para a Espanha em novembro de 1918.\n[…]\nPor ter relações familiares em ambos os lados envolvidos no conflito, o rei Afonso XIII optou por deixar a Espanha neutra, evitando a censura de guerra no país.\n[…]\nApesar das altas taxas de morbidade e mortalidade geradas pela pandemia, a gripe espanhola começou a desaparecer da conscientização do público ao longo das décadas seguintes até a chegada de notícias sobre a gripe aviária e outras pandemias nos anos 1990 e 2000. Consequentemente, alguns historiadores rotularam a gripe espanhola de \"pandemia esquecida\".\n[…]\nGripe asiática\n[…]\nThe American Influenza Epidemic of 1918–1919: A Digital Encyclopedia"
+      }
+    ]
+  },
+  {
+    "indice": 4,
+    "ancora": {
+      "nome": "Telegrama Zimmermann",
+      "descricao": "Mensagem secreta alemã de 1917, interceptada pelos britânicos, que propunha uma aliança militar ao México contra os Estados Unidos."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O telegrama de 1917 em que a Alemanha propunha uma aliança ao México leva o nome de quem o enviou. Quem foi?",
+    "resposta": "Arthur Zimmermann",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Zimmermann_Telegram"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Zimmermann_Telegram",
+        "situacao": "ok",
+        "texto": "The Zimmermann telegram (or Zimmermann note or Zimmermann cable) was a secret diplomatic communication issued from the German Foreign Office on January 17, 1917, that proposed a military contract between the German Empire and Mexico if the United States entered World War I against Germany. With Germany's aid, Mexico would recover Texas, Arizona, and New Mexico. The telegram was intercepted by Brit\n[…]\nRevelation of the  contents enraged Americans, especially after German State Secretary for Foreign Affairs Arthur Zimmermann publicly admitted on March 3, 1917, that the telegram was genuine. It helped to generate support for the American declaration of war on Germany in April 1917.\n[…]\nThe message came in the form of a coded telegram dispatched by Arthur Zimmermann, the State Secretary of Foreign Affairs of the German Empire on January 17, 1917. The message was sent to the German ambassador to Mexico, Heinrich von Eckardt. Zimmermann sent the telegram in anticipation of the resumption of unrestricted submarine warfare by Germany on February 1, which the German government knew would almost certainly lead to war with the United States.\n[…]\nZimmerman.\n[…]\nThe Swedish diplomatic message holding the Zimmerman telegram went from Stockholm to Buenos Aires over British submarine telegraph cables, and then moved from Buenos Aires to Mexico over the cable network of a United States company.\n[…]\nIt is true.\" Then, on March 29, 1917, Zimmermann gave a speech in the Reichstag in which he admitted that the telegram was genuine. Zimmermann hoped that Americans would understand that the idea was that Germany would not fund Mexico's war with the United States unless the Americans joined World War I. Nevertheless, in his speech Zimmermann questioned how the Washington government obtained the telegram.\n[…]\nOur Documents – Zimmermann Telegram (1917)\n[…]\nZimmermann Telegram: The Original Document"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Telegrama_Zimmermann",
+        "situacao": "ok",
+        "texto": "O Telegrama Zimmermann (em alemão: Zimmermann-Depesche; em espanhol: Telegrama Zimmermann) foi um telegrama codificado despachado por radiofrequência pelo ministro do exterior do Império Alemão, Arthur Zimmermann, em 16 de janeiro de 1917, para o embaixador alemão no México, Heinrich von Eckardt, no auge da Primeira Guerra Mundial.\n[…]\nO telegrama instruía o embaixador para se aproximar com o governo mexicano com a proposta de formar uma aliança militar contra os Estados Unidos. A proposta prometia ao México suas antigas terras tomadas pelos Estados Unidos caso o país aceitasse o acordo. O telegrama foi interceptado e decodificado por britânicos e seu conteúdo apressou a entrada dos Estados Unidos na Primeira Guerra Mundial em abril.\n[…]\nBoghardt, Thomas. The Zimmermann Telegram: Intelligence, Diplomacy, and America's Entry into World War I (2012) excerpt and text search; 319pp\n[…]\nBoghardt, Thomas (novembro de 2003). The Zimmermann Telegram: Diplomacy, Intelligence and The American Entry into World War I (PDF). Col: Working Paper Series. Washington DC: The BMW Center for German and European Studies Edmund A. Walsh School of Foreign Service, Georgetown University. 6-04. Cópia arquivada (PDF) em 2 de setembro de 2006 ; 35pp\n[…]\nLink, Arthur S. (1965). Wilson: Campaigns for Progressivism and Peace: 1916–1917. [S.l.: s.n.]\n[…]\nPommerin, Reiner (1996). «Reichstagsrede Zimmermanns (Auszug), 30. März 1917». 'Quellen zu den deutsch-amerikanischen Beziehungen. Darmstadt: Wissenschaftliche Buchgesellschaft Vol. 1. pp. 213–16\n[…]\nSingh, Simon (8 de setembro de 1999). «The Zimmermann Telegraph». The Independent. Independent Print Limited. Consultado em 14 de agosto de 2014. Cópia arquivada em 1999\n[…]\nTuchman, Barbara W. (1958). The Zimmermann Telegram. [S.l.: s.n.] ISBN 0-345-32425-0",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 5,
+    "ancora": {
+      "nome": "Manfred von Richthofen",
+      "descricao": "Aviador de caça alemão da Primeira Guerra Mundial, o ás com mais vitórias aéreas creditadas no conflito, morto em combate em 1918."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Por qual apelido ficou famoso o ás da aviação alemã Manfred von Richthofen?",
+    "resposta": "Barão Vermelho",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Manfred_von_Richthofen",
+      "https://pt.wikipedia.org/wiki/Manfred_von_Richthofen"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Manfred_von_Richthofen",
+        "situacao": "ok",
+        "texto": "Rittmeister Manfred Albrecht Freiherr von Richthofen (German: [ˈmanfreːt fɔn ˈʁɪçthoːfn̩]; 2 May 1892 – 21 April 1918), known in English as Baron von Richthofen or the Red Baron, was a German fighter pilot with the German Air Force during World War I. He is considered the ace-of-aces of the war, being officially credited with 80 air combat victories.\n[…]\nRichthofen was a Freiherr (literally \"Free Lord\"), a title of nobility often translated as \"baron\". That is not a given name nor strictly a hereditary title, since all male members of the family were entitled to it, even during the lifetime of their father. Richthofen painted his aircraft red, which, combined with his title, led to him being called the \"Red Baron\" (), both inside and outside Germany. During his lifetime, he was more frequently described in German as der Rote Kampfflieger.\n[…]\nAllmers, Henning (1999). \"Manfred Freiherr von Richthofen's Medical Record: Was the \"Red Baron\" fit to fly?\". Lancet. 354: 502–504.\n[…]\nMiller, Geoffrey. \"The Death of Manfred von Richthofen: Who fired the fatal shot?\". Sabretache: The Journal and Proceedings of the Military Historical Society of Australia. XXXIX (2).\n[…]\nWorks by Freiherr von Manfred Richthofen at Project Gutenberg\n[…]\nWorks by or about Manfred von Richthofen at the Internet Archive\n[…]\nWorks by Manfred von Richthofen at LibriVox (public domain audiobooks)\n[…]\nComplete text of The Red Fighter Pilot by Manfred von Richthofen Archived 8 January 2007 at the Wayback Machine at The War Times Journal\n[…]\nHistoric footage of Manfred von Richthofen posing and conversing with fellow pilots, circa 1917.\n[…]\nSilent historical film of the 1918 funeral of Captain Baron von Richthofen provided by Australian Screen Online\n[…]\nFootage of the reburial of The Red Baron in 1925\n[…]\nNewspaper clippings about Manfred von Richthofen in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Manfred_von_Richthofen",
+        "situacao": "ok",
+        "texto": "Manfred Albrecht Freiherr von Richthofen (Breslau, 2 de maio de 1892 – Vaux-sur-Somme, 21 de abril de 1918), também conhecido como Barão Vermelho, foi um piloto de caça alemão na Primeira Guerra Mundial e é considerado ainda hoje como o \"ás dos ases\". Servindo no braço aéreo do Exército Imperial Alemão (Luftstreitkräfte), ele foi um líder militar, e como piloto se tornou um ás da aviação, obtendo \n[…]\nEsse título combinado ao fato de que ele tinha seus aviões pintados de vermelho, levaram Richthofen a ser chamado de \"Barão Vermelho\", tanto dentro quanto fora da Alemanha.\n[…]\nOs outros apelidos de Richthofen incluíram: Petit Rouge (pequeno vermelho) e Le Diable Rouge (diabo vermelho) atribuídos pelos franceses, e Red Knight (Cavaleiro Vermelho) atribuído pelos ingleses.\n[…]\nApesar da associação feita pelo público em geral entre Richthofen e o Fokker Dr.I, apenas 19 das suas 80 vitórias foram obtidas com esse tipo de avião. Foi o seu Albatros D.III, número de série 789/16 que recebeu a pintura em vermelho brilhante pela primeira vez, no final de janeiro de 1917, e com o qual ele obteve seu apelido e reputação.\n[…]\nRichthofen foi homenageado por uma banda de rock brasileira, sendo atribuída como nome a ela um dos apelidos do piloto: Barão Vermelho.\n[…]\nNo jogo League of Legends, o personagem Corki possuí uma \"skin\" em homenagem a Richthofen, chamada Corki Barão Vermelho.\n[…]\nNo famoso e violento caso brasileiro sobre a família Von Richthofen, Manfred Von Richthofen (pai de Suzane Von Richthofen) é considerado descendente do Barão Vermelho, inclusive, em quesitos de homenagem, tendo o mesmo nome que ele. O renomado piloto tinha grande influência na família brasileira, servindo de exemplo de orgulho para todos.\n[…]\nCaamaño, J. Eduardo. Barão Vermelho: A biografia do piloto mais famoso da Primeira Guerra Mundial. Rio de Janeiro: Denied Books, 2014. ASIN B00KYZJ1BK"
+      }
+    ]
+  },
+  {
+    "indice": 6,
+    "ancora": {
+      "nome": "Poilu",
+      "descricao": "Apelido informal dado ao soldado de infantaria francês da Primeira Guerra Mundial."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Os soldados franceses da Primeira Guerra eram chamados de poilus. O que essa palavra significa?",
+    "resposta": "Peludos",
+    "distratores": [
+      "Valentes",
+      "Enlameados",
+      "Pequeninos"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Poilu"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Poilu",
+        "situacao": "ok",
+        "texto": "Poilu (; French: [pwaly] ) is an informal term for a late 18th century–early 20th century French infantryman, meaning, literally, 'hairy one'. It is still widely used as a term of endearment for the French infantry of World War I. The word carries the sense of the infantryman's typically rustic, agricultural background, and derives from the bushy moustaches and other facial hair affected by many F\n[…]\nThe poilu was particularly known for his love of pinard, his ration of cheap wine.\n[…]\nThe stereotype of the poilu was of bravery and endurance, but not always of unquestioning obedience. At the disastrous Chemin des Dames offensive of 1917 under General Robert Nivelle, they were said to have gone into no man's land making bleating noises—a collective bit of gallows humour signalling the idea that they were being sent as lambs to the slaughter. Outstanding for its mixture of horror and heroism, this spectacle proved a sobering one.\n[…]\nThe last surviving poilu from World War I was Pierre Picault. However, French authorities recognised Lazare Ponticelli—who had served in the French Foreign Legion as an Italian citizen—as the last poilu, as he was the last veteran whose service met the strict official criteria. Lazare Ponticelli died in Le Kremlin-Bicêtre on 12 March 2008, aged 110.\n[…]\nA Very Long Engagement, a French film in which poilus are featured\n[…]\nVerdun: Visions of History, a silent French film about poilus in the Battle of Verdun\n[…]\nBarthas, Louis (2015) [1st pub. Maspero:1978]. Poilu: The World War I Notebooks of Corporal Louis Barthas, Barrelmaker, 1914–1918 [Les Carnets de guerre de Louis Barthas, tonnelier: 1914–1918] (in French). Translated by Strauss, Edward M. Yale University Press. p. 426. ISBN 978-0-300-21248-8."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Poilu",
+        "situacao": "ok",
+        "texto": "Poilu (\"Peludo\", em tradução literal) é um termo informal e amigável utilizado para indicar membros da infantaria francesa da Primeira Guerra Mundial (1914-1918).\n[…]\nEm 2006 o mais novo dos quatro poilus ainda remanescentes em França, Renné Riffaud com 107 anos de idade na época, participara de ato em memória aos 88 anos do armistício; no dia anterior falecera, aos 111 anos, o poilu mais velho, Maurice Floquet; no ano de 2003 ainda haviam noventa dos ex-combatentes, ao passo em que em 1986 era noventa mil.\n[…]\nO último poilu sobrevivente foi Lazare Ponticelli, falecido em 12 de Março de 2008 aos 110 anos; apesar de nascido na Itália, Ponticelli se alistara na Legião Estrangeira aos dezesseis anos e mentindo sobre sua idade; Ponticelli era avesso às homenagens pois, dizia: \"os primeiros que caíram tinham tanto direito a honras quanto eu, que sou o último\"; a 20 de janeiro havia falecido, com essa mesma idade, Louis de Cazenave.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 7,
+    "ancora": {
+      "nome": "Mata Hari",
+      "descricao": "Dançarina holandesa, nascida Margaretha Zelle, executada na França em 1917 sob acusação de espionagem para a Alemanha."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A dançarina holandesa executada como espiã em 1917 usava o nome artístico Mata Hari, que em malaio significa o quê?",
+    "resposta": "Olho do dia",
+    "distratores": [
+      "Flor da noite",
+      "Estrela da manhã",
+      "Lua de prata"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mata_Hari"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mata_Hari",
+        "situacao": "ok",
+        "texto": "Margaretha Geertruida MacLeod (née Zelle, Dutch: [mɑrɣaːˈreːtaː ɣeːrˈtrœydaː ˈzɛlə]; 7 August 1876 – 15 October 1917), better known by the stage name Mata Hari ( MAH-tə HAR-ee, Dutch: [ˈmaːtaː ˈɦaːri]; Indonesian for 'sun', lit. 'eye of the day'), was a Dutch exotic dancer and courtesan who was convicted of being a spy for Germany during World War I. She was executed by firing squad in France.\n[…]\nIn January 1917, Kalle transmitted radio messages to Berlin describing the helpful activities of a German spy code-named H-21, whose biography so closely matched Zelle's that it was obvious they were one and the same. The Deuxième Bureau intercepted the messages, and from the information contained within they identified H-21 as Mata Hari.\n[…]\nAlthough news reports that were following her execution claimed she had admitted to spying for Germany, Mata Hari actually made no such confession. She maintained throughout her ordeal that she had never been a German spy. At her trial, Zelle vehemently insisted that her sympathies were with the Allies and declared her passionate love of France, her adopted homeland.\n[…]\nMata Hari's sealed trial and other related documents, a total of 1,275 pages, were declassified by the French Army in 2017, one hundred years after her execution.\n[…]\nMata Hari, as Margarete Gertrude Zelle, is one of the playable characters in the 2001 JRPG Playstation 2 game Shadow Hearts.\n[…]\nIn the asymmetrical horror game Identity V, the survivor Margaretha Zelle (Female Dancer) is named after Mata Hari. The survivor Maratha Behamfil (Coordinator) also used the name \"Margaretha Hari\" as an alias.\n[…]\nKim Soo-im – South Korean interpreter (1911–1950), known as the Korean Mata Hari\n[…]\nMulti-language (nl, fr, de, en) website on Mata Hari\n[…]\n\"The Execution of Mata Hari, 1917\", EyeWitness to History, www.eyewitnesstohistory.com (2005)\n[…]\n\"Mata Hari\", from History Magazine. Complete text, images, video"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Mata_Hari",
+        "situacao": "ok",
+        "texto": "Margaretha Geertruida MacLeod (nascida Zelle; 7 de agosto de 1876 - 15 de outubro de 1917), mais conhecida pelo nome artístico Mata Hari, foi uma dançarina exótica holandesa e cortesã que foi condenada por ser espiã para o Império Alemão durante a Primeira Guerra Mundial. Ela foi executada por fuzilaria na França.\n[…]\nAmigos de Margaretha nos Países Baixos se recordam dela escrevendo para eles nessa época dizendo que havia adotado o nome Mata Hari, a palavra para \"sol\" na língua indonésia local (literalmente, \"olho do dia\").\n[…]\nEm janeiro de 1917, Major Kalle transmitiu mensagens de rádio para Berlim descrevendo as atividades úteis de uma espiã alemã codinome H-21, cuja biografia correspondia tão estreitamente à de Zelle que era óbvio que o Agente H-21 não podia ser ninguém senão Mata Hari. O Deuxième Bureau interceptou as mensagens e, a partir das informações que continham, identificou H-21 como Mata Hari.\n[…]\nPorque realmente não espiava, é terrível que eu não possa me defender.\" O momento mais terrível e angustiante para Mata Hari durante o julgamento ocorreu quando seu amante Maslov—agora profundamente amargado como resultado de perder seu olho em combate—recusou testemunhar por ela e lhe disse que não se importava se fosse condenada. Quando Zelle soube que Maslov a havia abandonado, desmaiou.\n[…]\nUm porta-voz da Mata Hari Foundation argumentou que, no máximo, Zelle era uma espiã de baixo nível que fornecia nenhum segredo a nenhum dos lados, afirmando: \"Acreditamos que há dúvidas suficientes sobre o dossiê de informações que foi usado para condená-la para justificar reabertura do caso. Talvez ela não fosse totalmente inocente, mas parece claro que não era a mestra-espiã cuja informação enviou milhares de soldados à morte, como foi afirmado.\"\n[…]\nMata Hari (1985) no IMDb\n[…]\nMata Hari (2016) no IMDb",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 8,
+    "ancora": {
+      "nome": "RMS Lusitania",
+      "descricao": "Transatlântico britânico afundado por um submarino alemão na costa da Irlanda em maio de 1915."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O transatlântico Lusitânia, afundado por um submarino alemão em 1915, tinha o nome de uma província romana que corresponde, em grande parte, a que país atual?",
+    "resposta": "Portugal",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/RMS_Lusitania",
+      "https://en.wikipedia.org/wiki/Lusitania"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/RMS_Lusitania",
+        "situacao": "ok",
+        "texto": "RMS Lusitania was a British ocean liner launched by the Cunard Line in 1906 as a Royal Mail Ship. She was the world's largest passenger ship until the completion of her sister Mauretania three months later. In 1907, she gained the Blue Riband appellation for the fastest Atlantic crossing, which had been held by German ships for a decade.\n[…]\nThough reserved for conversion as an armed merchant cruiser, Lusitania was not commissioned as such during World War I, but continued a transatlantic passenger service, sometimes carrying war materials in her cargo. The German submarine U-20 hit her with a torpedo on 7 May 1915 at 14:10, 11 nautical miles (20 km; 13 mi) off the Old Head of Kinsale, Ireland, leading to her sinking about 18 minutes later.\n[…]\nThe ship was designed by Leonard Peskett and built by John Brown and Company of Clydebank, Scotland. The ship's name was taken from Lusitania, an ancient Roman province on the west of the Iberian Peninsula—the region that is now southern Portugal and Extremadura (Spain). Her sister ship, Mauretania, was named for the ancient land on the nearby northwest African coast.\n[…]\nThe issue was hotly debated within the U.S. government in the weeks following the sinking, and the U.S. and German governments exchanged correspondence. German officials continued to argue that Lusitania was a legitimate military target. German Foreign Minister Von Jagow cited the claims that she was listed as an armed merchant cruiser, she was using neutral flags, and she had been ordered to ram submarines—in contravention of the Cruiser Rules.\n[…]\nBetween 1931 and 1935, an American syndicate comprising Simon Lake, an important submarine inventor, and a US Navy officer, Captain H.H. Railey, negotiated a contract with the Admiralty and other British authorities to partially salvage Lusitania."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Lusitania",
+        "situacao": "ok",
+        "texto": "Lusitania (; Classical Latin: [luːsiːˈtaːnia]) was an ancient Roman province encompassing most of modern-day Portugal (south of the Douro River) and a large portion of western Spain (the present Extremadura and Province of Salamanca). Romans named the region after the Lusitanians, an Indo-European tribe inhabiting the lands.\n[…]\nIn modern parlance, Lusitania is often synonymous with Portugal, despite the Roman province's capital being located in modern Mérida, Spain.\n[…]\nThe first area colonized by the Lusitani was probably the Douro valley and the region of Beira Alta (present day Portugal); in Beira, they stayed until they defeated the Celtici and other tribes, then they expanded to cover a territory that reached Estremadura before the arrival of the Romans.\n[…]\nConventus Scalabitanus, with capital in Scalabis Iulia (Santarém, Portugal)\n[…]\nConventus Pacensis, with capital in Pax Iulia (Beja, Portugal)\n[…]\nAs with the Roman names of many European countries, Lusitania was and is often used as an alternative name for Portugal, especially in formal or literary and poetic contexts. The 16th-century colony that would eventually become Brazil was initially founded as \"New Lusitania\".\n[…]\nIn common use are such terms as Lusophone, meaning Portuguese-speaking, and Lusitanic, referring to the Community of Portuguese Language Countries—once Portugal's colonies and presently independent countries still sharing some common heritage. Prior to his invasion in 1807, Napoleon Bonaparte proposed the establishment of a French-backed puppet Kingdom of Northern Lusitania as one of the successor states to Portugal under the assumption that such a campaign would result in an easy French victory.\n[…]\nLusitanian mythology\n[…]\nLusitanian language\n[…]\nNational Archaeology Museum (Portugal)\n[…]\nHistory of Portugal\n[…]\nTimeline of Portuguese history"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/RMS_Lusitania",
+        "situacao": "ok",
+        "texto": "O RMS Lusitania foi um navio de passageiros britânico que esteve em operação durante o início do século XX. A embarcação foi detentora da Flâmula Azul e, brevemente, o maior navio de passageiros do mundo até a conclusão de seu navio irmão, o Mauretania. A Cunard Line lançou o Lusitania em 1906, em uma época de forte concorrência pelo comércio do Atlântico Norte. Ele fez um total de 202 travessias \n[…]\nCom o início das hostilidades, os temores pela segurança do Lusitania e de outros grandes transatlânticos aumentaram. Durante 1914-1915, muitos transatlânticos se tornaram navios de transporte de tropas ou navio-hospitalar, mas este transatlântico foi o oposto de tudo isso, e continuando no serviço comercial. Embora as reservas de passagens não fossem de forma alguma fortes durante aquele outono e inverno, mas a demanda era forte o suficiente para mantê-lo no serviço civil.\n[…]\nEm 4 de fevereiro de 1915, a Alemanha declarou os mares ao redor da Grã-Bretanha e Irlanda uma zona de guerra: a partir de 18 de fevereiro, os navios aliados na área seriam afundados sem aviso prévio. Esta não foi uma guerra submarina totalmente irrestritacomo esforços seriam feitos para evitar afundar navios neutros. O Lusitania estava programado para chegar a Liverpool em 6 de março de 1915, com isso, o Almirantado emitiu suas instruções específicas sobre como evitar submarinos.\n[…]\nEm 17 de abril de 1915, o Lusitania deixou Liverpool pela última vez e fazendo a sua 201ª viagem transatlântica, agora sob o comando do experiente capitão, William Thomas Turner, o navio acabou chegando a Nova Iorque em 24 de abril. Um grupo de germano-americanos, esperando evitar controvérsias se o transatlântico fosse atacado por um submarino, discutiu suas preocupações com um representante da embaixada alemã.\n[…]\nPeople of the Lusitania - biografias de tripulantes e passageiros da última viagem (em inglês)\n[…]\nRMS Lusitania no wrecksite",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 9,
+    "ancora": {
+      "nome": "Winnie, a ursa",
+      "descricao": "Ursa-negra levada à Inglaterra por um oficial canadense durante a Primeira Guerra Mundial, que viveu no Zoológico de Londres e inspirou o Ursinho Pooh."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "A ursa que inspirou o Ursinho Pooh foi levada a Londres por um soldado canadense na Primeira Guerra. Ela tinha o nome de que cidade?",
+    "resposta": "Winnipeg",
+    "distratores": [
+      "Toronto",
+      "Montreal",
+      "Vancouver"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Winnie_(bear)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Winnie_(bear)",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 10,
+    "ancora": {
+      "nome": "Divisão Naval em Operações de Guerra",
+      "descricao": "Esquadra da Marinha do Brasil enviada em 1918 para patrulhar o Atlântico ao lado dos Aliados na Primeira Guerra Mundial."
+    },
+    "angulo": "nome",
+    "tipo": "multipla",
+    "pergunta": "Em 1918, perto de Gibraltar, navios brasileiros atiraram contra o que pensavam ser submarinos, mas eram animais marinhos. Que apelido o episódio ganhou?",
+    "resposta": "Batalha das Toninhas",
+    "distratores": [
+      "Batalha das Baleias",
+      "Batalha dos Tubarões",
+      "Batalha das Sardinhas"
+    ],
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Divis%C3%A3o_Naval_em_Opera%C3%A7%C3%B5es_de_Guerra"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Divis%C3%A3o_Naval_em_Opera%C3%A7%C3%B5es_de_Guerra",
+        "situacao": "ok",
+        "texto": "A Divisão Naval em Operações de Guerra (DNOG) foi uma esquadra naval da Marinha do Brasil criada para patrulhar o Oceano Atlântico, evitando a ação dos submarinos alemães (U-boats) no contexto da Primeira Guerra Mundial. Atuou sob comando britânico no litoral do noroeste da África, entre Dacar e Gibraltar, entre agosto e novembro de 1918.\n[…]\nA partir de 1917, o Império Alemão ampliou as operações de guerra submarina, que se tornaram irrestritas nas águas europeias. Com isso, os navios brasileiros, que transportavam gêneros alimentícios, passaram a ser passíveis de sofrer ataques, o que se registrou em 5 de abril desse mesmo ano, quando o vapor Paraná foi torpedeado, registrando-se três vítimas. Desse modo, a 11 de abril, o país rompeu relações diplomáticas com os países da Tríplice Aliança.\n[…]\nPara comandá-la o então Ministro da Marinha, Almirante Alexandrino de Alencar, designou um dos oficiais de maior prestígio no meio naval brasileiro à época, o Contra-Almirante Pedro Max Fernando Frontin, nomeado a 30 de janeiro de 1918.\n[…]\nA partir de 7 de maio, a Esquadra da DNOG iniciou a viagem rumo ao litoral Nordeste do Brasil. Pelo Aviso Secreto nº 235 do Ministro da Marinha, datado de 14 de maio, o Contra-Almirante Frontin achava-se investido de poderes excepcionais, dos quais nunca abusou. Aportaram em Salvador, Recife e Natal, aproveitando, o seu comandante, para prosseguir exercitando os seus subordinados, cumprindo um programa de adestramento previamente traçado em diversas fainas de guerra.\n[…]\nHalpern, Paul G. ”A naval history of World War I” (\"História naval da Primeira Guerra Mundial\") (em inglês) U.S.Naval Institute 1994\n[…]\nMaia, Prado (1961). D.N.O.G. (Divisão Naval em Operações de Guerra), 1917-1918: uma página esquecida da história da Marinha Brasileira. [S.l.]: Serviço de Documentação Geral da Marinha. OCLC 22210405"
+      }
+    ]
+  },
+  {
+    "indice": 11,
+    "ancora": {
+      "nome": "Trench coat",
+      "descricao": "Casaco impermeável comprido, adotado por oficiais britânicos e franceses na Primeira Guerra Mundial e depois popularizado na moda civil."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "Usado por oficiais britânicos na Primeira Guerra, o casaco impermeável conhecido como trench coat tem um nome inglês que faz referência a quê?",
+    "resposta": "Às trincheiras",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Trench_coat"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Trench_coat",
+        "situacao": "ok",
+        "texto": "A trench coat is a variety of coat made of waterproof heavy-duty fabric. Originally developed for British Army officers before the First World War, they became popular while used in the trenches, hence the name.\n[…]\nOriginally made from gabardine, a worsted wool fabric waterproofed using lanolin before weaving, the traditional colour of a trench coat was khaki. Traditionally trench coats are double-breasted with 10 front buttons, wide lapels, a storm flap, and pockets that button-close. The coat is belted at the waist with a self-belt, with raglan sleeves ending in cuff straps around the wrists that also buckle, to keep water from running down the forearm when using binoculars in the rain.\n[…]\nThe trench coat was developed as an alternative to the heavy serge greatcoats worn by British and French soldiers in the First World War. Invention of the trench coat is claimed by two British luxury clothing manufacturers, Burberry and Aquascutum, with Aquascutum's claim dating back to the 1850s. Thomas Burberry had invented gabardine fabric in 1879 and submitted a design for a British Army officer's raincoat to the War Office in 1901.\n[…]\nWhile similar, the heavy metal and Goth fashion trend of black oilcloth dusters are incorrectly referred to as trench coats. Early media reports of the 1999 Columbine High School massacre initially associated the perpetrators (Eric Harris and Dylan Klebold) with the school's \"Trenchcoat Mafia\", a clique who allegedly wore conspicuous black Australian oilcloth dusters. In the copycat W. R. Myers High School shooting days later, it was rumoured the shooter had worn a trench coat.\n[…]\nCoat (clothing)\n[…]\nChesterfield coat\n[…]\nMedia related to Trenchcoats at Wikimedia Commons"
+      }
+    ]
+  },
+  {
+    "indice": 12,
+    "ancora": {
+      "nome": "Gás mostarda",
+      "descricao": "Arma química vesicante usada pelos alemães a partir de 1917 na Primeira Guerra Mundial."
+    },
+    "angulo": "nome",
+    "tipo": "aberta",
+    "pergunta": "O gás mostarda também tem um nome derivado da cidade belga onde os alemães o usaram em combate pela primeira vez, em 1917. Que cidade?",
+    "resposta": "Ypres",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Mustard_gas",
+      "https://pt.wikipedia.org/wiki/G%C3%A1s_mostarda"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Mustard_gas",
+        "situacao": "ok",
+        "texto": "Mustard gas or sulfur mustard are names commonly used for the organosulfur chemical compound bis(2-chloroethyl) sulfide, which has the chemical structure S(CH2CH2Cl)2, as well as other species. In the wider sense, compounds with the substituents −SCH2CH2X or −N(CH2CH2X)2 are known as sulfur mustards or nitrogen mustards, respectively, where X = Cl or Br. Such compounds are potent alkylating agents\n[…]\nThe name of mustard gas derived from its yellow color, smell of mustard, and burning sensation on eyes. The term was first used in 1917 during World War I when Germans used the chemical in combat.\n[…]\nHQ – A blend of distilled mustard (HD) and sesquimustard (Q).\n[…]\nMustard gas was first used in World War I by the German army against British and Canadian soldiers near Ypres, Belgium, on July 12, 1917, and later also against the French Second Army. Yperite is \"a name used by the French, because the compound was first used at Ypres.\" The Allies used mustard gas for the first time on November 1917 at Cambrai, France, after the armies had captured a stockpile of German mustard shells.\n[…]\nKeen as Mustard\n[…]\nSelenium mustard\n[…]\nTextbook of Military Medicine – Intensive overview of mustard gas Includes many references to scientific literature\n[…]\nIyriboz Y (2004). \"A Recent Exposure to Mustard Gas in the United States: Clinical Findings of a Cohort (n = 247) 6 Years After Exposure\". MedGenMed. 6 (4): 4. PMC 1480580. PMID 15775831. Shows photographs taken in 1996 showing people with mustard gas burns.\n[…]\nUMDNJ-Rutgers University CounterACT Research Center of Excellence A research center studying mustard gas, includes searchable reference library with many early references on mustard gas.\n[…]\nClayton W, Howard AJ, Thomson D (May 25, 1946). \"Treatment of Mustard Gas Burns\". British Medical Journal. 1 (4455): 797–799. doi:10.1136/bmj.1.4455.797. PMC 2058956. PMID 20786722.\n[…]\nsurgical treatment of mustard gas burns"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/G%C3%A1s_mostarda",
+        "situacao": "ok",
+        "texto": "Gás Mostarda, EA-1033, Levinstein, iperita, Kampfstoff, Mostarda de enxofre, pelos códigos HD, código dado a mistura com pureza de 90% para 99%, código que significa destilado de gás mostarda. Gás mostarda (Levinstein), ou H, código dado a uma forma mais impura do gás mostarda, simplesmente dado ao agente não destilado (pós síntese), tendo uma pureza abaixo dos 90%, aproximadamente 70% de pureza, \n[…]\nDevido a sua alta volatilidade, sua cor, em líquido, é levado também em vapor, mas a cor do vapor vai depender, em geral, da temperatura onde está disseminado. O cheiro de alho e mostarda é característico de locais muito contaminados pelo agente. O cheiro de alho é proveniente de seus derivados oxidados, como o sulfona de gás mostarda, sulfeto de vinila, sulfóxido de gás mostarda e diversos outros derivados.\n[…]\nYpres, uma cidade belga, foi o primeiro alvo desta nova arma química, na altura denominada de Hun Stoffe (abreviação: HS, ou apenas H). Nesta altura devido ao baixo conhecimento acerca dos efeitos tóxicos desta substância, os soldados alemães eram apenas equipados com máscaras de proteção, ficando a pele desprotegida e somando assim mais de 1,3 milhões de mórbidos, dos quais 90 mil se encontravam num estado muito muito grave.\n[…]\nGás mostarda é obtido perante dois processos. O primeiro inicia na a preparação de fosgênio. Fosgênio é preparado na condensação do monóxido de carbono com gás cloro. Uma quantidade superior de cloro age como solvente. A reação é, então, feita abaixo da temperatura de fervura do Cloro. o monóxido de carbono é, lentamente, liberado sobre a solução , onde o fosgênio se condensa.\n[…]\nNota: É, históricamente, adicionado um excesso de Fosgênio para seu emprego, em mistura com Gás mostarda, em combate. O uso desta mistura tende a ser muito mais tóxica. A mistura, de ambos, vem junto com o WM, no qual da maior estabilidade a hidrólise."
+      }
+    ]
+  },
+  {
+    "indice": 13,
+    "ancora": {
+      "nome": "Divisão Naval em Operações de Guerra",
+      "descricao": "Esquadra da Marinha do Brasil enviada em 1918 para patrulhar o Atlântico ao lado dos Aliados na Primeira Guerra Mundial."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1918, a esquadra brasileira enviada à guerra perdeu muitos marinheiros durante a escala em Dacar, na África. O que os matou?",
+    "resposta": "Gripe espanhola",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Divis%C3%A3o_Naval_em_Opera%C3%A7%C3%B5es_de_Guerra",
+      "https://en.wikipedia.org/wiki/Brazil_during_World_War_I"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Divis%C3%A3o_Naval_em_Opera%C3%A7%C3%B5es_de_Guerra",
+        "situacao": "ok",
+        "texto": "A Divisão Naval em Operações de Guerra (DNOG) foi uma esquadra naval da Marinha do Brasil criada para patrulhar o Oceano Atlântico, evitando a ação dos submarinos alemães (U-boats) no contexto da Primeira Guerra Mundial. Atuou sob comando britânico no litoral do noroeste da África, entre Dacar e Gibraltar, entre agosto e novembro de 1918.\n[…]\nVapor Macau (ex-vapor Palatia), afundado ao largo da costa da Espanha a 23 de outubro de 1917.\n[…]\nPara comandá-la o então Ministro da Marinha, Almirante Alexandrino de Alencar, designou um dos oficiais de maior prestígio no meio naval brasileiro à época, o Contra-Almirante Pedro Max Fernando Frontin, nomeado a 30 de janeiro de 1918.\n[…]\nDurante essa estadia em Freetown, os brasileiros começaram a contrair o vírus da Gripe Espanhola, moléstia ainda desconhecida no Brasil e que vitimava os nativos.\n[…]\nA permanência neste porto africano previa ser rápida, limitando-se ao reabastecimento e alguns reparos. Estendeu-se, porém, por causa da Gripe Espanhola que se alastrava entre os brasileiros, contagiando a quase todos, paralisando os serviços e descontrolando os planos. Faleceram 464 homens. Atendendo ao imperativo desejo do Almirantado Britânico, o Piauí partiu a 9 de setembro para as ilhas de Cabo Verde, levando oito doentes a bordo.\n[…]\nNa altura de São Vicente a situação sanitária se agravou diante da disseminação da gripe; contudo, o ar mais salubre contribuiu para o restabelecimento de muitos. Algumas patrulhas foram executadas. Em 19 de outubro, o Piauí regressou a Dacar, deixando sepultados, naquela possessão portuguesa, quatro elementos de sua tripulação.\n[…]\nBrasil na Primeira Guerra Mundial\n[…]\nMaia, Prado (1961). D.N.O.G. (Divisão Naval em Operações de Guerra), 1917-1918: uma página esquecida da história da Marinha Brasileira. [S.l.]: Serviço de Documentação Geral da Marinha. OCLC 22210405"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazil_during_World_War_I",
+        "situacao": "ok",
+        "texto": "During World War I (1914–1918), Brazil initially adopted a neutral position in accordance with the Hague Convention as an attempt to maintain markets for its export products, mainly coffee, latex, and industrially manufactured items.\n[…]\n501 was issued on January 30, 1918, thus establishing the Naval Division for War Operations (Divisão Naval em Operações de Guerra, or DNOG), a naval fleet composed of units drawn from the fleets that formed the Navy in Brazil. The dreadnoughts Minas Geraes and São Paulo, as well as the Bahia and Rio Grande do Sul, were some of the major warships of the DNOG.\n[…]\nThe DNOG comprised the following vessels:\n[…]\nThe DNOG was initially tasked to patrol the Atlantic maritime area covered by the triangle between the city of Dakar on the African coast, the island of São Vicente, Cape Verde, and Gibraltar at the entrance to the Mediterranean. The Division would remain under the orders of the British Admiralty, represented by Admiral Hischcot Grant. As Commander, the Minister appointed one of the most well-regarded officers at the time, Admiral Pedro de Frontin, on January 30, 1918.\n[…]\nMaia, Prado, 1961, D.N.O.G. (Divisão Naval em Operações de Guerra), 1914–1918: uma página esquecida da história da Marinha Brasileira (in Portuguese) ('DNOG – Naval Fleet in War Operations, 1914–1918: A forgotten page of Brazilian Navy History') (Brazilian) Navy General Documentation Service, OCLC 22210405\n[…]\nCompagnon, Olivier, 2014, O Adeus à Europa. A América Latina e a Grande Guerra (Argentina e Brasil, 1914–1939), Rio de Janeiro, Editora Rocco, ISBN 9788532529275\n[…]\nCristina Luna: Brazilian Naval Division for War Operations (DNOG), in: 1914–1918-online. International Encyclopedia of the First World War."
+      }
+    ]
+  },
+  {
+    "indice": 14,
+    "ancora": {
+      "nome": "Navio Macau",
+      "descricao": "Navio mercante brasileiro torpedeado por um submarino alemão em outubro de 1917, pouco antes de o Brasil entrar na Primeira Guerra Mundial."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em outubro de 1917, depois que um submarino alemão afundou o navio mercante brasileiro Macau, que decisão o Brasil tomou?",
+    "resposta": "Declarou guerra à Alemanha",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Brasil_na_Primeira_Guerra_Mundial",
+      "https://en.wikipedia.org/wiki/Brazil_during_World_War_I"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brasil_na_Primeira_Guerra_Mundial",
+        "situacao": "ok",
+        "texto": "O Brasil na Primeira Guerra Mundial (1914-1918) tinha uma posição neutra respaldada pela Convenção de Haia, buscando não restringir os seus produtos exportados na época, principalmente o café. A Alemanha era, na época, o principal parceiro comercial do Brasil, sendo seguida pela Inglaterra e pela França. Após o afundamento de navios mercantes brasileiros por submarinos da Marinha Imperial Alemã, o\n[…]\nEm 1 de novembro uma multidão danificou casas, clubes e fábricas em Petrópolis, entre eles o restaurante Brahma (completamente destruído), a Gesellschaft Germania, a escola alemã, a empresa Arp, o Diário Alemão, entre outros. Ao mesmo tempo, em outras capitais houve pequenos distúrbios. Novos episódios com violência só ocorreriam quando da declaração de guerra do Brasil à Alemanha em outubro.\n[…]\nNo dia 11 de abril de 1917 o Brasil rompeu relações diplomáticas com a coligação formada entre a Alemanha e a Áustria-Hungria, e, em 20 de maio, o navio Tijuca foi torpedeado perto da costa francesa por submarino alemão. Nos meses seguintes, o governo brasileiro confiscou 42 navios alemães que estavam em portos brasileiros, como uma indenização de guerra, essa quantia considerável de navios passou a corresponder a um quarto da frota brasileira.\n[…]\nNo dia 26 de maio de 1917, o vapor brasileiro Lapa foi atingido por três tiros do canhão de um submarino alemão.\n[…]\nEm 18 de outubro de 1917, um outro navio mercante, Macau, foi torpedeado por submarino alemão U-93. No dia 23 de outubro de 1917 o cargueiro nacional Macau, um dos navios arrestados, foi torpedeado pelo submarino alemão U-93, perto da costa da Espanha, e seu comandante feito prisioneiro. Com a pressão popular contra a Alemanha, no dia 26 de outubro de 1917, o país declarou guerra à aliança germânica.\n[…]\nUniformes brasileiros na Primeira Guerra Mundial (em português e inglês)\n[…]\nNavios estrangeiros atacados no Brasil durante Primeira Guerra Mundial"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazil_during_World_War_I",
+        "situacao": "ok",
+        "texto": "During World War I (1914–1918), Brazil initially adopted a neutral position in accordance with the Hague Convention as an attempt to maintain markets for its export products, mainly coffee, latex, and industrially manufactured items.\n[…]\nHowever, following the repeated sinking of Brazilian merchant ships by German submarines, President Venceslau Brás declared war against the Central Powers in 1917. Brazil then became the only country in South America to be directly involved in the war. Brazil's major contribution was the Brazilian Navy's patrol of areas in the Atlantic Ocean.\n[…]\nViolent repression followed a general strike late in 1917, and the declaration of war in October also served as a means to declare a state of emergency and persecute opponents.\n[…]\nOctober 18, 1917: U-93 torpedoed the steamship Macau near the coast of Spain and took the captain prisoner\n[…]\nOctober 26, 1917: Brazil declared war on the Central Powers with limited popular support\n[…]\nFaria, Ivan Rodrigues de, 1996 Participação do Brasil na Primeira Guerra Mundial (in Portuguese) ('Brazil's participation in World War I') Brazilian Army Journal, Rio – DPHCEx, (p. 67)\n[…]\nMaia, Prado, 1961, D.N.O.G. (Divisão Naval em Operações de Guerra), 1914–1918: uma página esquecida da história da Marinha Brasileira (in Portuguese) ('DNOG – Naval Fleet in War Operations, 1914–1918: A forgotten page of Brazilian Navy History') (Brazilian) Navy General Documentation Service, OCLC 22210405\n[…]\nCompagnon, Olivier, 2014, O Adeus à Europa. A América Latina e a Grande Guerra (Argentina e Brasil, 1914–1939), Rio de Janeiro, Editora Rocco, ISBN 9788532529275\n[…]\n[3] Timetable and War Declaration\n[…]\nBrazil's Explanation to the Vatican of the Reasons for War, October 1917."
+      }
+    ]
+  },
+  {
+    "indice": 15,
+    "ancora": {
+      "nome": "Tratado de Versalhes",
+      "descricao": "Tratado de paz assinado em 1919 entre a Alemanha e os Aliados, que encerrou formalmente a Primeira Guerra Mundial."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Pelo Tratado de Versalhes, a Alemanha teve de devolver à França que região, que havia tomado dela em 1871?",
+    "resposta": "Alsácia-Lorena",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+        "situacao": "ok",
+        "texto": "The Treaty of Versailles was a peace treaty signed on 28 June 1919. As the most important treaty of World War I, it ended the state of war between Germany and most of the Allied Powers. It was signed in the Palace of Versailles, exactly five years after the assassination of Archduke Franz Ferdinand, the proximate cause of the war. The other Central Powers on the German side signed separate treatie\n[…]\nThe treaty itself was signed in the Hall of Mirrors in the Palace of Versailles, which had considerable historical resonance. The Second German Empire had been proclaimed in the Hall of Mirrors in 1871, after the German siege of Paris at the conclusion of the Franco-Prussian War, which deeply humiliated the French.\n[…]\nThe treaty restored the provinces of Alsace-Lorraine to France by rescinding the treaties of Versailles and Frankfurt of 1871 as they pertained to this issue.\n[…]\nFinally, Peukert argued that it was the Great Depression and the turn to a nationalist policy of autarky within Germany at the same time that finished off the Weimar Republic, not the Treaty of Versailles.\n[…]\nHermann Göring first met Adolf Hitler at a speech which Hitler gave at a rally against French demands for the extradition of alleged German war criminals under the Versailles treaty.\n[…]\nLittle Treaty of Versailles\n[…]\nTreaty of Versailles Resource Guide from the Library of Congress\n[…]\nThe consequences of the Treaty of Versailles for today's world\n[…]\n\"Versailles Revisted\" (Review of Manfred Boemeke, Gerald Feldman and Elisabeth Glaser, The Treaty of Versailles: A Reassessment after 75 Years. Cambridge, UK: German Historical Institute, Washington, and Cambridge University Press, 1998), Strategic Studies 9:2 (Spring 2000), 191–205\n[…]\nMap of Europe and the impact of the Versailles Treaty Archived 16 March 2015 at the Wayback Machine at omniatlas.com\n[…]\nThe Signing of the Peace Treaty, silent film (Youtube Premium): Link"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tratado_de_Versalhes_%281919%29",
+        "situacao": "ok",
+        "texto": "O Tratado de Versalhes foi um tratado de paz assinado em 28 de junho de 1919. Sendo o tratado mais importante da Primeira Guerra Mundial, ele encerrou oficialmente o estado de guerra entre a Alemanha e a maioria das potências aliadas. Foi assinado no Palácio de Versalhes, exatamente cinco anos após o assassinato do arquiduque Francisco Fernando, a causa imediata da guerra. As outras nações dos Imp\n[…]\nEstes incluíam a evacuação alemã da França ocupada, da Bélgica, de Luxemburgo, da Alsácia-Lorena e da margem esquerda do Reno (áreas que passariam a ser administradas pelos Aliados de acordo com os termos do armistício), a entrega de vultosa quantidade de material bélico e o compromisso assumido de \"reparação pelos danos causados\".\n[…]\nO tratado restituiu as províncias da Alsácia-Lorena à soberania da França, revogando expressamente as cláusulas territoriais dos tratados de Versalhes e de Frankfurt de 1871.\n[…]\nA França conseguiu justificar juridicamente a reintegração dessas províncias ao divulgar uma carta confidencial enviada pelo rei prussiano à imperatriz Eugênia, na qual Guilherme I admitia que a anexação da Alsácia-Lorena em 1871 tivera propósito estritamente militar de defesa estratégica e não de expansão territorial legítima. O estatuto de Schleswig-Holstein foi condicionado à realização de consultas plebiscitárias posteriores (ver Plebiscitos de Schleswig).\n[…]\nA assinatura do documento foi recebida em Versalhes com aclamações efusivas, cânticos e comemorações nas ruas. Em Paris, a população celebrou o término oficial do conflito armado, a restituição da Alsácia e da Lorena e o fato de a Alemanha ter aceitado indenizar o país pelas devastações da guerra.\n[…]\nA Alemanha liquidou formalmente as últimas dívidas históricas vinculadas ao Tratado de Versalhes — cujo montante fora reduzido em 50% pelo Acordo de Dívidas de Londres em 1953 — no ano de 2010.\n[…]\nPequeno Tratado de Versalhes",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 16,
+    "ancora": {
+      "nome": "Vladimir Lenin",
+      "descricao": "Revolucionário russo, líder dos bolcheviques na Revolução de Outubro de 1917 e fundador do Estado soviético."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1917, por que o governo alemão ajudou Lenin a voltar do exílio na Suíça para a Rússia num trem lacrado?",
+    "resposta": "Para tirar a Rússia da guerra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Vladimir_Lenin"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Vladimir_Lenin",
+        "situacao": "ok",
+        "texto": "Vladimir Ilyich Ulyanov (22 April [O.S. 10 April] 1870 – 21 January 1924), better known as Vladimir Lenin, was a Russian revolutionary, politician, and political theorist. He served as the first and founding head of government of Soviet Russia from 1917 to 1924 and of the Soviet Union from 1922 to 1924. Ideologically a Marxist, his developments to the ideology are called Leninism.\n[…]\nSeveral non-Russian nations had secured independence from the Russian Republic after 1917, but five were forcibly re-united into the new Soviet Union in 1922, while others repelled Soviet invasions. With his health failing, Lenin died in Gorki, and Joseph Stalin succeeded him as the pre-eminent figure in the Soviet government.\n[…]\nIn August 1917, while Lenin was in Finland, General Lavr Kornilov, the commander-in-chief of the Russian Army, sent troops to Petrograd in what appeared to be a military coup attempt against the Provisional Government. Premier Alexander Kerensky turned to the Petrograd Soviet, including its Bolshevik members, for help, allowing the revolutionaries to organise workers as Red Guards to defend the city.\n[…]\nLenin expected Russia's aristocracy and bourgeoisie to oppose his government but believed that the numerical superiority of the lower classes, coupled with the Bolsheviks' organizational skills, would ensure a swift victory. He did not anticipate the intensity of the violent opposition that ensued. The resulting Russian Civil War (1917–1923) pitted the Bolshevik Red Army against the anti-Bolshevik Whites, with the Reds ultimately emerging victorious.\n[…]\nHe adapted his ideas according to changing circumstances, including the pragmatic realities of governing Russia amid war, famine, and economic collapse. As Leninism developed, Lenin revised the established Marxist orthodoxy and introduced innovations in Marxist thought.\n[…]\nWorks by Vladimir Lenin at Project Gutenberg"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Lenin",
+        "situacao": "ok",
+        "texto": "Vladimir Ilyich Ulianov, mais conhecido pelo pseudônimo Lenin (português brasileiro) ou Lenine (português europeu) (Simbirsk, 22 de abril de 1870 – Gorki, 21 de janeiro de 1924), foi um revolucionário comunista, político e teórico político russo que serviu como chefe de governo da Rússia Soviética de 1917 a 1924 e da União Soviética de 1922 até sua morte.\n[…]\nOrganizou um plano com outros dissidentes para negociar uma passagem para eles através da Alemanha, com quem a Rússia estava em guerra. Reconhecendo que esses dissidentes poderiam causar problemas para seus inimigos russos, o governo alemão concordou em permitir que 32 cidadãos russos viajassem em um vagão ferroviário através de seu território, entre eles Lenin e sua esposa.\n[…]\nEm contraste, os mencheviques acreditavam que a Rússia não estava suficientemente desenvolvida para a transição socialista e acusaram Lenin de tentar mergulhar a nova República na guerra civil.\n[…]\nDepois do Tratado de Brest-Litovski, os Socialistas Revolucionários de Esquerda abandonaram o governo de coalizão e passaram a considerar os bolcheviques como traidores da revolução. Em julho de 1918, o Socialista Revolucionário de Esquerda Yakov Grigoryevich Blumkin assassinou o embaixador alemão na Rússia, Wilhelm von Mirbach, esperando que o incidente diplomático levasse a uma guerra revolucionária relançada contra a Alemanha.\n[…]\nAlém disso, de acordo com o historiador James Ryan, Lenin era \"o primeiro e mais significativo teórico marxista a elevar dramaticamente o papel da violência como instrumento revolucionário\". Lenin incorporou mudanças em suas próprias crenças, e as realidades pragmáticas de governar a Rússia em meio à guerra, à fome e ao colapso econômico resultaram em se desviar de muitas das ideias marxistas que ele articulou antes da Revolução de Outubro.\n[…]\n«Vladimir Lenin». no Arquivo Marxista na Internet",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 17,
+    "ancora": {
+      "nome": "Táxis do Marne",
+      "descricao": "Táxis de Paris requisitados pelo exército francês em setembro de 1914, durante a Primeira Batalha do Marne."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1914, durante a Primeira Batalha do Marne, por que o exército francês requisitou centenas de táxis de Paris?",
+    "resposta": "Para levar soldados ao front",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Taxis_of_the_Marne"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Taxis_of_the_Marne",
+        "situacao": "inexistente",
+        "texto": ""
+      }
+    ]
+  },
+  {
+    "indice": 18,
+    "ancora": {
+      "nome": "Horário de verão",
+      "descricao": "Prática de adiantar os relógios em uma hora durante parte do ano para aproveitar melhor a luz do dia."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1916, em plena guerra, a Alemanha adotou o horário de verão em todo o país. Com que objetivo?",
+    "resposta": "Economizar carvão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Daylight_saving_time"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Daylight_saving_time",
+        "situacao": "ok",
+        "texto": "Daylight saving time (DST), also referred to as daylight savings time, daylight time (United States and Canada), or summer time (United Kingdom, European Union, and others), is the practice of advancing clocks to (in theory) make better use of the longer daylight available during summer by having darkness fall at a later clock time.\n[…]\nHistorically, there is evidence that ancient societies adopted seasonal changes to their timekeeping to make better use of daylight. However, these were changes to the time divisions of the day rather than setting the whole clock forward. In a satirical letter to the editor of the Journal de Paris in 1784, Benjamin Franklin suggested that if Parisians could only wake up earlier in the summer they would economize on candle and oil usage, but he did not propose changing the clocks.\n[…]\nIt has been argued that clock shifts correlate with decreased economic efficiency and that in 2000, the daylight-saving effect implied an estimated one-day loss of $31 billion on US stock exchanges. Others have asserted that the observed results depend on methodology and disputed the findings, though the original authors have refuted points raised by disputers.\n[…]\nIn interviews, the authors caution that this work is from a circadian health perspective and that other factors should be considered in policy decisions such as economic and safety impacts of time policy.\n[…]\nAs of 2025, polls indicate a slight majority of those polled in the United States favor abolishing DST, with momentum gaining in all areas where the practice persists either to abolish DST and switch permanently to standard time, or to make DST permanent. Common arguments for abolishing or making DST permanent include health risks, economic costs, lost sleep, and disruptions to daily routines.\n[…]\nSources for time zone and daylight saving time data"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hor%C3%A1rio_de_ver%C3%A3o",
+        "situacao": "ok",
+        "texto": "Horário de verão é a prática de adiantar os relógios uma hora durante os meses da primavera e do verão, com o alegado objetivo de economizar energia nas regiões que mais recebem luminosidade solar nesse período do ano. Normalmente, os países que adotam essa medida avançam uma hora no início da primavera e retornam para o horário padrão (ou de inverno) no outono.\n[…]\nA ideia moderna do horário de verão foi proposta pelo anglo-neozelandês George Hudson em 1895 e pelo inglês William Willett em 1907. Episodicamente, foi utilizada pela primeira vez na cidade canadiana de Port Arthur, Ontário Setentrional, em 1908. O horário de verão foi aplicado em escala nacional pela primeira vez pela Alemanha e a Áustria-Hungria a 30 de abril de 1916, durante a Primeira Guerra Mundial, para poupança do carvão. Os outros países beligerantes seguiram-lhes o exemplo.\n[…]\nWillett morreu em 1915, um ano antes de a Alemanha, durante a Primeira Guerra Mundial, adotar sua tese como medida para economizar carvão, e tornar-se, assim, o primeiro país no mundo a implantar o horário de verão, no dia 30 de abril de 1916. Logo depois da Alemanha, o império Austro-Húngaro abraçou a ideia. O Reino Unido, a França e outros países beligerantes anunciaram poucos dias depois a mesma decisão.\n[…]\nNa União Europeia, o horário de verão inicia-se à 01h00 (01 AM) da Hora Universal (\"Greenwich Mean Time\"), no último domingo de março, e finalizando-se no último de outubro.\n[…]\nUm estudo do professor Weily Toro Machado, da Universidade do Estado de Mato Grosso (Unemat), com o título Daylight Saving Time and incidence of Myocardial Infarction: Evidence from a regression discontinuity design, publicado na Revista Economics Letters em 2015. indica que a alteração abrupta no relógio biológico dos cidadãos afetados pela medida eleva em até 8,5% a incidência de infartos.\n[…]\nHorário de verão em Portugal",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 19,
+    "ancora": {
+      "nome": "Papoula da lembrança",
+      "descricao": "Papoula vermelha usada, sobretudo nos países da Comunidade Britânica, como símbolo em memória dos soldados mortos em guerra."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Que poema escrito em 1915 por um médico militar canadense fez da papoula vermelha um símbolo dos soldados mortos?",
+    "resposta": "In Flanders Fields (Nos Campos de Flandres)",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Remembrance_poppy",
+      "https://en.wikipedia.org/wiki/In_Flanders_Fields"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Remembrance_poppy",
+        "situacao": "ok",
+        "texto": "A remembrance poppy is an artificial flower worn in some countries to commemorate their military personnel who died in war. Remembrance poppies are produced by veterans' associations, which exchange the poppies for charitable donations used to give financial and practical support to members and veterans of the armed forces.\n[…]\nInspired by the war poem \"In Flanders Fields\" and promoted by Moina Michael, they were first used near the end of World War I to commemorate British Empire and United States military casualties of the war. Anna Guérin established the first \"Poppy Days\" to raise funds for veterans, widows, orphans and liberty bonds, as well as charities such as the Red Cross.\n[…]\nReferences to war and poppies in Flanders can be found as early as the 19th century, in the book The Scottish Soldiers of Fortune by James Grant:\n[…]\nThe opening lines of the World War I poem \"In Flanders Fields\" refer to Flanders poppies growing among the graves of war victims in a region of Belgium. The poem is written from the point of view of the fallen soldiers and in its last verse, the soldiers call on the living to continue the conflict. The poem was written by Canadian physician John McCrae on 3 May 1915 after witnessing the death of his friend and fellow soldier the day before.\n[…]\nIn Australia, cloth and paper remembrance poppies, also called the Flanders poppies, have been distributed by the Returned and Services League of Australia since 1921 as official memorial flowers for Remembrance Day. The practice of wearing a remembrance poppy is generally reserved for Remembrance Day in Australia, and is typically not observed on other holidays that commemorate military veterans, like Anzac Day.\n[…]\nBleuet de France – the cornflower of France, the French equivalent of the remembrance poppy"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/In_Flanders_Fields",
+        "situacao": "ok",
+        "texto": "\"In Flanders Fields\" is a war poem in the form of a rondeau, written during the First World War by Canadian physician Lieutenant-Colonel John McCrae. He was inspired to write it on May 3, 1915, after presiding over the funeral of friend and fellow soldier Lieutenant Alexis Helmer, who died in the Second Battle of Ypres. According to legend, fellow soldiers retrieved the poem after McCrae, initiall\n[…]\nThe poem and poppy are prominent Remembrance Day symbols throughout the Commonwealth of Nations, particularly in Canada, where \"In Flanders Fields\" is one of the nation's best-known literary works. The poem is also widely known in the United States, where it is associated with Veterans Day and Memorial Day.\n[…]\nOn January 28, 1918, he died at the military hospital in Wimereux and was buried there with full military honours. A book of his works, featuring \"In Flanders Fields\", was published the following year.\n[…]\n\"In Flanders Fields\" is very popular in Canada, where it is a staple of Remembrance Day ceremonies and may be the best-known literary piece among English Canadians. It has an official French adaptation, entitled \"Au champ d'honneur\", written by Jean Pariseau and used by the Canadian government in French and bilingual ceremonies. With an excerpted appearance on the ten-dollar bill from 2001 to 2013, the Royal Canadian Mint has released poppy-themed quarters on several occasions.\n[…]\nInspired by \"In Flanders Fields\", American professor Moina Michael resolved at the war's conclusion in 1918 to wear a red poppy year-round to honour the soldiers who had died in the war. She also wrote a poem in response called \"We Shall Keep the Faith\". She distributed silk poppies to her peers and campaigned to have them adopted as an official symbol of remembrance by the American Legion. Madame E.\n[…]\nMilitary history of Canada during World War I\n[…]\nIn Flanders Fields public domain audiobook at LibriVox"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Papoila_da_lembran%C3%A7a",
+        "situacao": "ok",
+        "texto": "A papoula da lembrança é uma flor artificial que se usa desde 1921 para comemorar militares que morreram na guerra, e que representa uma papoila. Inspiradas no poema da Primeira Guerra Mundial \"In Flanders Fields\", e promovidas pela académica estadunidense Moina Michael, foram adoptadas pela primeira vez pela Legião Americana para comemorar os soldados estadunidenses mortos nessa guerra (1914–1918\n[…]\nHoje em dia, utilizam-se principalmente no Reino Unido, Canadá, Austrália e Nova Zelândia para comemorar os seus homens e mulheres mortos em todos os conflitos. Ali, pequenas papoilas artificiais usam-se com frequência na roupa que conduz ao Dia da Lembrança/Dia do Armistício e as coroas de papoilas com frequência se colocam nos monumentos de guerra. Na Austrália e Nova Zelândia, também se usam no Dia ANZAC. Usam-se também nos Estados Unidos, ainda que em quantidade menor.\n[…]\nEste artigo foi inicialmente traduzido, total ou parcialmente, do artigo da Wikipédia em inglês cujo título é «Remembrance poppy».",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 20,
+    "ancora": {
+      "nome": "Campanha de Galípoli",
+      "descricao": "Tentativa fracassada dos Aliados, em 1915 e 1916, de tomar o estreito de Dardanelos ao Império Otomano."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "O fracasso da campanha de Galípoli, em 1915, custou a Winston Churchill que cargo no governo britânico?",
+    "resposta": "Primeiro Lorde do Almirantado",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gallipoli_campaign",
+      "https://en.wikipedia.org/wiki/Winston_Churchill"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gallipoli_campaign",
+        "situacao": "ok",
+        "texto": "The Gallipoli campaign, the Dardanelles campaign, the Defence of Gallipoli or the Battle of Gallipoli (Turkish: Gelibolu Muharebesi, Çanakkale Muharebeleri or Çanakkale Savaşı) was a military campaign in the First World War on the Gallipoli Peninsula (now Gelibolu) from 19 February 1915 to 9 January 1916. The Allied powers (Britain, France and the Russian Empire) unsuccessfully attempted to make t\n[…]\nIn March 1915, the Allied fleet failed to force a passage through the Dardanelles. An amphibious landing on the Gallipoli peninsula began in April 1915. In January 1916, after eight months' fighting, with approximately 250,000 casualties on each side, the land campaign was abandoned and the invasion force was withdrawn, resulting in an Ottoman victory.\n[…]\nIt was a costly campaign for the Allied powers and the Ottoman Empire as well as for the sponsors of the expedition, especially the First Lord of the Admiralty (1911–1915), Winston Churchill.\n[…]\nChurchill wanted to use a large number of obsolete battleships, which could not operate against the German High Seas Fleet, in a Dardanelles operation, with a small occupation force provided by the army. It was hoped that an attack on the Ottomans would also draw Bulgaria and Greece into the war on the Entente side. On 2 January 1915, Grand Duke Nicholas of Russia appealed to Britain for assistance against the Ottomans, who were campaigning in the Caucasus.\n[…]\nThe influence of Kitchener waned after the British coalition government formed in May 1915 (partly because of the growing sense of failure in the Dardanelles) and culminated in Kitchener being over-ruled on support for the French at Salonika in early December 1915, when his influence on the Cabinet was at its lowest. The campaign gave confidence to the Ottomans in their ability to defeat the Entente.\n[…]\n\"Despatches\". The campaign at the Dardanelles (Gallipoli). The Long Long Trail."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Winston_Churchill",
+        "situacao": "ok",
+        "texto": "Sir Winston Leonard Spencer Churchill (30 November 1874 – 24 January 1965) was a British statesman, military officer, and writer who was Prime Minister of the United Kingdom from 1940 to 1945, during the Second World War, and again from 1951 to 1955. For some 62 of the years between 1900 and 1964, he was a member of Parliament (MP) and represented a total of five constituencies over that time.\n[…]\nAsquith's Liberal government, Churchill was president of the Board of Trade and later Home Secretary, championing prison reform and workers' social security. As First Lord of the Admiralty before and during the First World War he oversaw the disastrous naval attack on the Dardanelles (a prelude to the Gallipoli campaign) and was demoted to Chancellor of the Duchy of Lancaster. He resigned in November 1915 and joined the Royal Scots Fusiliers on the Western Front for six months.\n[…]\nChurchill was interested in the Middle Eastern theatre, and wanted to relieve pressure on the Russians in the Caucasus by staging attacks against Turkey in the Dardanelles. He hoped that the British could even seize Constantinople. Approval was given and, in March 1915, an Anglo-French task force attempted a naval bombardment of Turkish defences. In April, the Mediterranean Expeditionary Force, including the Australian and New Zealand Army Corps (ANZAC), began its assault at Gallipoli.\n[…]\nChurchill mishandled the election campaign by resorting to party politics and trying to denigrate Labour. On 4 June, he committed a serious gaffe by saying in a radio broadcast that a Labour government would require \"some form of Gestapo\" to enforce its agenda. It backfired and Attlee made political capital by saying in his reply broadcast next day: \"The voice we heard last night was that of Mr Churchill, but the mind was that of Lord Beaverbrook\".\n[…]\n191 artworks by or after Winston Churchill at the Art UK site"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Campanha_de_Gal%C3%ADpoli",
+        "situacao": "ok",
+        "texto": "A Campanha de Galípoli (em turco: Çanakkale Muharebeleri), também conhecida como Batalha dos Dardanelos, teve como palco a península de Galípoli (em turco: Gelibolu) no que é hoje a Turquia ocidental, de 25 de abril de 1915 a 9 de janeiro de 1916, durante a Primeira Guerra Mundial. As Potências Aliadas da Entente (Grã-Bretanha, França e Império Russo) tentaram, sem sucesso, forçar o Império Otoman\n[…]\nWinston Churchill, então Primeiro Lorde do Almirantado, impaciente com o lento avanço que o almirante sir Sackville Hamilton Carden realizava em Galípoli, exigiu que o próximo estágio do plano fosse iniciado. O plano consistia em um avanço de toda frota aliada à luz do dia, protegendo os caça-minas que deveriam limpar a área minada. O almirante Carden, com sérias dificuldades para tomar tal decisão, começou a apresentar sinais de estresse e insônia.\n[…]\nEm 18 de março de 1915, os 18 navios de guerra da frota aliada penetraram no estreito. A frota foi distribuída em três linhas pelo almirante Carden, sendo duas britânicas e uma francesa, com navios de apoio no flanco e dois em reserva:\n[…]\nO vice-almirante sir John de Robeck informou Winston Churchill que não seria possível capturar a península de Galípoli sem a ajuda do exército. O general sir Ian Hamilton, comandante da Força Expedicionária do Mediterrâneo aquartelada na ilha grega de Lemnos, participou em 22 de março de uma conferência com o almirante Robeck a bordo do HMS Queen Elizabeth, onde tomaram a decisão de realizar o desembarque anfíbio em larga escala em Galípoli.\n[…]\nLíderes do exército grego informaram lorde Horatio Herbert Kitchener, Secretário de Estado da Guerra, que ele precisaria de cerca de 150 000 homens para tomar Galípoli. Kitchener concluiu que somente a metade seria necessária. Enviou a experiente 29.º Divisão Britânica para se juntar às tropas da Austrália, Nova Zelândia e tropas coloniais francesas em Lemnos.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 21,
+    "ancora": {
+      "nome": "Casa de Windsor",
+      "descricao": "Casa real do Reino Unido, que adotou esse nome em 1917, no reinado de Jorge V."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Em 1917, por que a família real britânica trocou seu sobrenome de origem alemã por Windsor?",
+    "resposta": "Pelo sentimento antialemão da guerra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/House_of_Windsor"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/House_of_Windsor",
+        "situacao": "ok",
+        "texto": "The House of Windsor is the current royal house of the United Kingdom and other Commonwealth realms. The house's name was inspired by the historic Windsor Castle. The house was founded on 17 July 1917, when King George V changed the name of the royal house from the German Saxe-Coburg and Gotha to the English Windsor due to anti-German sentiment during the First World War.\n[…]\nEventually in 1901, a line of the House of Saxe-Coburg and Gotha succeeded the House of Hanover to the British monarchy with the accession of King Edward VII, son of Queen Victoria and Prince Albert of Saxe-Coburg and Gotha. In 1917, the name of the British royal house was changed from the German Saxe-Coburg and Gotha to the English Windsor, taking its name from the royal residence in Berkshire.\n[…]\nHigh anti-German sentiment amongst the people of the British Empire during the First World War reached a peak in March 1917, when the Gotha G.IV, a heavy aircraft capable of crossing the English Channel, began bombing London directly and became a household name. In the same year, on 15 March, King George's first cousin Emperor Nicholas II of Russia was forced to abdicate, which raised the spectre of the eventual abolition of all the monarchies in Europe.\n[…]\nThe 1917 proclamation stated that the name of the Royal House and all British descendants of Victoria and Albert in the male line were to bear the name of Windsor, except for women who married into other families.\n[…]\nMonarchy of Canada § Royal family and house\n[…]\nLongford, Elizabeth Harman (Countess of Longford). The Royal House of Windsor. Revised ed. Crown, 1984.\n[…]\nRoberts, Andrew. The House of Windsor. University of California Press, 2000.\n[…]\nHouse of Windsor from royal.uk\n[…]\nHouse of Windsor Tree from royal.gov.uk (Lord Culloden & Albert+Leopold Windsor are missing)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Casa_de_Windsor",
+        "situacao": "ok",
+        "texto": "A Casa de Windsor é a casa real reinante de 15 Estados independentes da Comunidade das Nações, além de ter governado o Império Britânico e o Reino Unido desde 1917. Atualmente, os reinos sob sua soberania incluem: Reino Unido, Canadá, Austrália, Nova Zelândia, Jamaica, Bahamas, Granada, Papua-Nova Guiné, Ilhas Salomão, Tuvalu, Santa Lúcia, São Vicente e Granadinas, Belize, Antígua e Barbuda e São \n[…]\nCriada oficialmente em 1917, durante a Primeira Guerra Mundial, quando o rei Jorge V decidiu alterar o nome da casa reinante de Saxe-Coburgo-Gota para Windsor, devido ao forte sentimento anti-germânico no Reino Unido. O nome \"Windsor\" foi escolhido em homenagem ao Castelo de Windsor, uma das residências oficiais da família real. Desde a morte da rainha Isabel II em 8 de setembro de 2022, Carlos III ocupa o trono britânico.\n[…]\nO nome foi mudado de Saxe-Coburgo-Gota para o inglês Windsor (do \"Castelo de Windsor\") em 1917 por causa do sentimento antialemão no Império Britânico durante a Primeira Guerra Mundial. Houve cinco monarcas britânicos da casa de Windsor até hoje: quatro reis, incluindo o atual, Carlos III, e uma rainha, Isabel II. Durante o reinado da casa de Windsor, grandes mudanças ocorreram na sociedade britânica.\n[…]\nO rei Eduardo VII e, por sua vez, o seu filho Jorge V, eram membros da família ducal alemã Saxe-Coburgo-Gota, em virtude de sua descendência do príncipe Alberto de Saxe-Coburgo-Gota, marido e consorte da rainha Vitória. O sentimento antialemão entre os ingleses atingiu um pico em março de 1917, quando o Gotha G.IV, um avião pesado capaz de atravessar o Canal da Mancha, começou a bombardear Londres diretamente e tornou-se um nome familiar.\n[…]\nSua filha e herdeira, a princesa Isabel, Duquesa de Edimburgo, tornou rainha reinante de uma nação pós-guerra e de um império acabando aos poucos.\n[…]\nFamília real britânica\n[…]\nPríncipe britânico",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 22,
+    "ancora": {
+      "nome": "Gavrilo Princip",
+      "descricao": "Jovem nacionalista sérvio-bósnio que matou o arquiduque Francisco Ferdinando em Sarajevo em 1914."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Condenado pelo atentado de Sarajevo, por que Gavrilo Princip escapou da pena de morte?",
+    "resposta": "Tinha menos de vinte anos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Gavrilo_Princip"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Gavrilo_Princip",
+        "situacao": "ok",
+        "texto": "Gavrilo Princip (Serbian Cyrillic: Гаврило Принцип, pronounced [ɡǎʋrilo prǐnt͡sip]; 25 July 1894 – 28 April 1918) was a Bosnian Serb student who assassinated Archduke Franz Ferdinand, heir presumptive to the throne of Austria-Hungary, and his wife Sophie, Duchess of Hohenberg, in Sarajevo on 28 June 1914. The assassination set off the July Crisis, a series of events that within one month led to th\n[…]\nDuring the Yugoslavian era, Latin Bridge, the site of the assassination, was renamed Princip's Bridge in remembrance; it reverted to its old name Latinska Cuprija in 1992. In Sarajevo about a half-dozen memorials to Gavrilo Princip have been erected on the site and torn down with each change in power.\n[…]\nAs the centenary of the assassination neared, an apolitical plaque was put up at the corner where the assassination took place, which states: \"From this place on 28 June 1914, Gavrilo Princip assassinated the heir to the Austro-Hungarian throne Franz Ferdinand and his wife Sofia.\" On 21 April 2014, a bust of Princip was unveiled in Tovariševo, and on the centenary itself, a statue was erected in East Sarajevo.\n[…]\nMacDowall, Andrew (27 June 2014). \"Villain or hero? Sarajevo is split on archduke's assassin Gavrilo Princip\". the Guardian.\n[…]\nSavary, Michèle (2004). Sarajevo 1914: vie et mort de Gavrilo Princip. L'AGE D'HOMME. ISBN 978-2-8251-1891-7.\n[…]\nVilliers, Peter (2010). Gavrila Princip: The Assassin Who Started the First World War. Unknown Publisher. ISBN 978-0-9566211-0-8.\n[…]\nGavrilo Princips Bekenntnisse. Zwei Manuscripte Princips, Aufzeichungen Seines Gefängnispsychiaters Dr. Pappenheim Aus Gesprächen Von Feber ... Über Das Attentat, Princips Leben und Seine Politischen und Sozialen Anschauungen. Mit Einführung und Kommentar Von R.P. Wien: Lechner und Son. 1926.\n[…]\nGavrilo Princip's statement during trial\n[…]\nPrison interview with Gavrilo Princip"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Gavrilo_Princip",
+        "situacao": "ok",
+        "texto": "Gavrilo Princip (em sérvio: Гаврило Принцип; Obljaj, 25 de julho de 1894 – Terezín, 28 de abril de 1918) foi um militante e estudante sérvio-bósnio que foi responsável pelo assassinato do arquiduque Francisco Ferdinando, herdeiro do Império Austro-Húngaro, e sua esposa Sofia, Duquesa de Hohenberg, em Sarajevo, em 28 de junho de 1914.\n[…]\nPrincip nasceu no oeste da Bósnia em uma família sérvia pobre. Aos 13 anos de idade foi mandado para Sarajevo, a capital da Bósnia ocupada pela Áustria, para estudar. Foi na escola que começou a engajar com movimentos políticos. Em 1911, Gavrilo se juntou ao grupo Jovem Bósnia, uma sociedade local secreta com o objetivo de libertar a Bósnia do domínio austríaco e alcançar a unificação dos eslavos do sul.\n[…]\nNo domingo de 28 de junho de 1914, durante a visita do casal real (Francisco Ferdinando e Sofia Chotek) a Sarajevo, o jovem Princip feriu mortalmente o arquiduque austríaco e sua esposa com sua pistola FN Model 1910, disparando contra o veículo do casal, um Gräf & Stift Bois de Bologne, que havia, inesperadamente, parado na sua frente a 1,5 metros de distância. O casal faleceu no mesmo dia.\n[…]\nPrincip foi preso imediatamente e foi julgado ao lado de vinte e quatro outros indivíduos, todos bósnios e, portanto, súditos austro-húngaros. No julgamento, Gavrilo Princip afirmou: \"Eu sou um nacionalista iugoslavo, visando a unificação de todos os iugoslavos, e não me importo com qual forma de estado, mas deve ser livre da Áustria.\" Princip foi poupado da pena de morte devido à sua idade (19 anos) e foi sentenciado a 20 anos de prisão. Foi aprisionado na Fortaleza de Terezín.\n[…]\nO legado deixado por Princip é um tema controverso e comunidades da Bósnia e da Sérvia continuam incapazes de concordar como tanto o evento de Sarajevo quanto Princip devem ser lembrados.\n[…]\nAssassinato de Sarajevo",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 23,
+    "ancora": {
+      "nome": "Agatha Christie",
+      "descricao": "Escritora inglesa de romances policiais, criadora dos detetives Hercule Poirot e Miss Marple."
+    },
+    "angulo": "causa",
+    "tipo": "aberta",
+    "pergunta": "Trabalhando na farmácia de um hospital durante a Primeira Guerra, Agatha Christie aprendeu muito sobre o quê, arma frequente em seus crimes?",
+    "resposta": "Venenos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Agatha_Christie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Agatha_Christie",
+        "situacao": "ok",
+        "texto": "Dame Agatha Mary Clarissa Mallowan, Lady Mallowan (née Miller, 15 September 1890 – 12 January 1976), usually known by her first married name, Agatha Christie, was an English author known for her 66 detective novels and 14 short-story collections, particularly those revolving around fictional detectives Hercule Poirot (with the novel debut being The Mysterious Affair at Styles in 1920), Tommy and T\n[…]\nGillian Gill notes that the murder method in Christie's first detective novel, The Mysterious Affair at Styles, \"comes right out of Agatha Christie's work in the hospital dispensary\". In an interview with journalist Marcelle Bernstein, Christie stated, \"I don't like messy deaths ...\n[…]\nOther portrayals, such as the Hungarian film Kojak Budapesten (1980), create their own scenarios involving Christie's criminal skills. In the TV play Murder by the Book (1986), Christie (Dame Peggy Ashcroft) murders one of her fictional-turned-real characters, Poirot. Christie features as a character in Gaylord Larsen's Dorothy and Agatha and The London Blitz Murders by Max Allan Collins.\n[…]\nAgatha Christie indult – an oecumenical request to which Christie was signatory seeking permission for the occasional use of the Tridentine (Latin) mass in England and Wales\n[…]\nAgatha Christie Award (Japan) – literary award for unpublished mystery novels\n[…]\nWorks by Agatha Christie at Project Gutenberg\n[…]\nWorks by or about Agatha Christie at the Internet Archive\n[…]\nWorks by Agatha Christie at Open Library\n[…]\nWorks by Agatha Christie in eBook form at Standard Ebooks\n[…]\nAgatha Christie business papers at the University of Exeter. Archived 1 October 2023 at the Wayback Machine\n[…]\nAgatha Christie (oral history) at the Imperial War Museum\n[…]\nAgatha Christie at IMDb\n[…]\nAgatha Christie and Sir Max Mallowan at Oxfordshire Blue Plaques Board's website. Archived 29 May 2020 at the Wayback Machine\n[…]\nAgatha Christie at PBS.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Agatha_Christie",
+        "situacao": "ok",
+        "texto": "Agatha Mary Clarissa Christie DBE, nascida Agatha Mary Clarissa Miller; (Torquay, 15 de setembro de 1890 — Wallingford, 12 de janeiro de 1976), popularmente conhecida como Agatha Christie, foi uma escritora britânica que atuou como romancista, contista, dramaturga e poetisa. Destacou-se no subgênero romance policial, tendo ganhado popularmente, em vida, a alcunha de \"Rainha/Dama do Crime\" (\"Queen/\n[…]\nConheceu o Coronel Archibald Christie, piloto do Corpo Real de Aviadores em 1912, e manteve com ele um romance tempestuoso. Casaram-se em 24 de dezembro de 1914. Enquanto o marido esteve na Primeira Guerra Mundial, Agatha trabalhou em um hospital e em uma farmácia, funções que influenciaram seu trabalho: muitos dos assassinatos em seus livros foram cometidos com o uso de veneno. Em 1919, teve com Archibald sua primeira e única filha, Rosalind. Em 1926, a mãe de Agatha, Clara, morreu.\n[…]\nLista de vendas das primeiras edições dos livros de Agatha, segundo a Agatha Christie Ltd.\n[…]\nAgatha Christie, apesar de não gostar muito de falar em público, em sua Autobiografia, fala muito sobre seu estilo de escrita, a autora possuía uma vasta coleção de livros de Charles Dickens, PG Wodehouse e Lewis Carroll. Agatha também ganhou fama criando livros de mistério satirizando obras infantis, como foi o caso de Five Little Pigs. Em suas obras a autora frequentemente usava como espaço pequenas vilas ou aldeias inglesas, outro ponto comum, é que a maioria de suas obras tinha um médico.\n[…]\nEm qualquer lugar Agatha recebia inspiração para escrever, possuía um caderno, que levava sempre consigo para anotar suas ideias, referentes a enredos, venenos fatais ou crimes que lia nos jornais. Em algumas ocasiões chegou a provocar sua mente, dizendo que viveria com a obra até que ela estivesse pronta. Foi assim com The Murder of Roger Ackroyd, a escritora a todo momento ajustava os detalhes da trama.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 24,
+    "ancora": {
+      "nome": "Jorge V",
+      "descricao": "Rei do Reino Unido de 1910 a 1936, que reinou durante a Primeira Guerra Mundial."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O rei britânico Jorge V, o kaiser Guilherme II e o czar Nicolau II, que se enfrentaram ou se aliaram na guerra, tinham que parentesco entre si?",
+    "resposta": "Eram primos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/George_V"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/George_V",
+        "situacao": "ok",
+        "texto": "George V (George Frederick Ernest Albert; 3 June 1865 – 20 January 1936) was King of the United Kingdom and the British Dominions, and Emperor of India, from 6 May 1910 until his death in 1936.\n[…]\nIn November 1891, George's brother, Albert Victor, became engaged to their second cousin once removed Princess Victoria Mary of Teck, known as \"May\" within the family. Her parents were Francis, Duke of Teck (a member of a morganatic, cadet branch of the House of Württemberg), and Princess Mary Adelaide of Cambridge, a male-line granddaughter of George III and a first cousin of Queen Victoria.\n[…]\nIn October 1894, George's maternal uncle-by-marriage, Alexander III of Russia, died. At the request of his father, \"out of respect for poor dear Uncle Sasha's memory\", George joined his parents in Saint Petersburg for the funeral.\n[…]\nHe and his parents remained in Russia for the wedding a week later of the new Russian emperor, his maternal first cousin Nicholas II, to one of George's paternal first cousins, Princess Alix of Hesse and by Rhine, who had once been considered as a potential bride for George's elder brother.\n[…]\nOn 4 August 1914, George wrote in his diary, \"I held a council at 10:45 to declare war with Germany. It is a terrible catastrophe but it is not our fault. ... Please to God it may soon be over.\" From 1914 to 1918, Britain and its allies were at war with the Central Powers, led by the German Empire. German Kaiser Wilhelm II, who for the British public came to symbolise all the horrors of the war, was the King's first cousin.\n[…]\nChisholm, Hugh (1922), \"George V.\" , Encyclopædia Britannica, vol. 31 (12th ed.){{cite encyclopedia}}:  CS1 maint: overridden setting (link)"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jorge_V_do_Reino_Unido",
+        "situacao": "ok",
+        "texto": "Jorge V (nascido Jorge Frederico Ernesto Alberto em inglês:  George Frederick Ernest Albert; Londres, 3 de junho de 1865 – Sandringham, 20 de janeiro de 1936) foi Rei do Reino Unido e dos Domínios Britânicos e Imperador da Índia de 1910 até sua morte, patriarca e primeiro monarca britânico da Casa de Windsor. Segundo filho varão do rei Eduardo VII e da rainha Alexandra da Dinamarca.\n[…]\nJorge compensou seus parentes varões com a criação de títulos britânicos, como seu primo, o príncipe Luís de Battenberg — que fora forçado, no início da guerra, a renunciar ao cargo de First Sea Lord em virtude do sentimento antialemão —, que tornou-se Luís Mountbatten, 1º Marquês de Milford Haven, ou os irmãos da rainha Maria, que se tornaram, respectivamente, Adolfo de Cambridge, 1.º Marquês de Cambridge, e Alexandre de Cambridge, 1.º Conde de Athlone.\n[…]\nQuando o czar Nicolau II da Rússia, primo-irmão de Jorge (suas mães eram irmãs), foi deposto pela Revolução Russa de 1917, o governo britânico ofereceu asilo para ele e sua família; mas, diante do agravamento das condições de vida do povo e do temor de que a revolução pudesse chegar ao Reino Unido, o rei ponderou que a presença de membros da família imperial russa, dadas as circunstâncias, pudesse ser inadequada.\n[…]\nEm 1922, um navio da Marinha Real foi enviado à Grécia para resgatar os seus primos, o príncipe André e a princesa Alice. André era filho do rei Jorge I da Grécia, irmão da rainha Alexandra, e Alice era filha de Luís de Battenberg, um dos príncipes alemães que receberam títulos de nobreza britânica em 1917. Entre os filhos do casal estava o príncipe Filipe, que mais tarde se casaria com a neta de Jorge, a rainha Isabel II do Reino Unido. A monarquia grega foi restaurada pouco antes.\n[…]\nDocumentos relacionados a Jorge V preservados nos Arquivos Nacionais (Reino Unido)\n[…]\nRetratos de Jorge V na National Portrait Gallery",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 25,
+    "ancora": {
+      "nome": "J. R. R. Tolkien",
+      "descricao": "Escritor britânico, autor de O Hobbit e O Senhor dos Anéis, que serviu como oficial na Primeira Guerra Mundial."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que batalha de 1916 teve entre seus combatentes o jovem Tolkien, do lado britânico, e Adolf Hitler, do lado alemão?",
+    "resposta": "Batalha do Somme",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+      "https://en.wikipedia.org/wiki/Adolf_Hitler"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/J._R._R._Tolkien",
+        "situacao": "ok",
+        "texto": "John Ronald Reuel Tolkien (; 3 January 1892 – 2 September 1973) was an English writer and academic philologist. He was the author of the high fantasy works The Hobbit (1937) and The Lord of the Rings (1954–1955).\n[…]\nJohn Ronald Reuel Tolkien was born on 3 January 1892 in Bloemfontein in the Orange Free State (later annexed by the British Empire; now Free State Province in the Republic of South Africa), to Arthur Reuel Tolkien, an English bank manager, and his wife Mabel, née Suffield. The couple had left England when Arthur was promoted to head the Bloemfontein office of the British bank for which he worked.\n[…]\nTolkien had one sibling, his younger brother, Hilary Arthur Reuel Tolkien, who was born on 17 February 1894.\n[…]\nTolkien arrived at the Somme in early July 1916. In between terms behind the lines at Bouzincourt, he participated in the assaults on the Schwaben Redoubt and the Leipzig salient. Tolkien's time in combat was a terrible stress for Edith, who feared that every knock on the door might carry news of her husband's death. Edith could track her husband's movements on a map of the Western Front. The Reverend Mervyn S.\n[…]\nMany of his dearest school friends were killed in the war. Among their number were Rob Gilson of the Tea Club and Barrovian Society, who was killed on the first day of the Somme while leading his men in the assault on Beaumont Hamel. Fellow T.C.B.S. member Geoffrey Smith was killed during the battle, when a German artillery shell landed on a first-aid post. Tolkien's battalion was almost completely wiped out following his return to England.\n[…]\nThe Tolkien Estate Website\n[…]\nWorks by J. R. R. Tolkien at Project Gutenberg\n[…]\nWorks by or about J. R. R. Tolkien at the Internet Archive"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+        "situacao": "ok",
+        "texto": "Adolf Hitler (20 April 1889 – 30 April 1945) was an Austrian-born  German politician who was dictator of Germany in the Nazi era from 1933 until his suicide in 1945. He rose to power as the leader of the Nazi Party, becoming the chancellor of Germany in 1933 and then taking the title of Führer und Reichskanzler in 1934. Germany's invasion of Poland on 1 September 1939 under his leadership marked t\n[…]\nDuring his service at headquarters, Hitler pursued his artistic interests, drawing cartoons and providing instructions for an army newspaper. During the Battle of the Somme in October 1916, he was wounded in the left thigh when a shell exploded in the dispatch runners' dugout. Hitler spent almost two months recovering in hospital at Beelitz, returning to his regiment on 5 March 1917. He was present at the Battle of Arras of 1917 and the Battle of Passchendaele.\n[…]\nAt the time of Hitler's release from prison, politics in Germany had become less combative, and the economy had improved, limiting Hitler's opportunities for political agitation. As a result of the failed Beer Hall Putsch, the Nazi Party and its affiliated organisations were banned in Bavaria.\n[…]\nThe historian Friedrich Meinecke described Hitler as \"one of the great examples of the singular and incalculable power of personality in historical life\". The English historian Hugh Trevor-Roper saw him as \"among the 'terrible simplifiers' of history, the most systematic, the most historical, the most philosophical, and yet the coarsest, cruelest, least magnanimous conqueror the world has ever known\". For the historian John M.\n[…]\nA psychological analysis of Adolf Hitler Wartime Office of Strategic Services analysis by Walter Charles Langer\n[…]\nWorks by Adolf Hitler at Open Library\n[…]\nWorks by or about Adolf Hitler at the Internet Archive\n[…]\nNewspaper clippings about Adolf Hitler in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/J._R._R._Tolkien",
+        "situacao": "ok",
+        "texto": "John Ronald Reuel Tolkien, CBE, FRSL, conhecido mundialmente como J. R. R. Tolkien (Bloemfontein, 3 de janeiro de 1892 – Bournemouth, 2 de setembro de 1973), foi um escritor, professor universitário e filólogo britânico, nascido na atual África do Sul, que recebeu o título de doutor em Letras e Filologia pela Universidade de Liège e Dublin, em 1954. É autor das obras como O Hobbit, O Senhor dos An\n[…]\nEm 28 de março de 1972, Tolkien foi nomeado Comendador da Ordem do Império Britânico pela Rainha Elizabeth II.\n[…]\nEm 1914, ano em que começou a Primeira Guerra Mundial, Tolkien ficou noivo de Edith Bratt. No ano seguinte, recebeu, com honras, o diploma de licenciatura em Literatura em Língua Inglesa. A graduação e os méritos não o libertaram da convocatória militar e, em 1916, depois de casar-se com Edith Bratt, foi chamado para a guerra. Tolkien sobreviveu à Batalha do Somme (província de Soma), uma malsucedida incursão na França e Bélgica, onde morreram mais de 500 mil combatentes.\n[…]\nJohn Ronald Reuel Tolkien foi membro da direção do New English Dictionary (1918-1920), professor de Língua Inglesa na Universidade de Leeds, na cátedra Rawlinson & Bosworth, posto ligado à Faculdade Pembroke (em Oxford) (1920-1925), professor de anglo-saxão (inglês arcaico) em Oxford (1925-1945) e professor de Língua e Literatura Inglesa em Merton (1945-1959), o que caracteriza um jeito próprio de lidar com os livros e a mitologia sempre presente em seus livros.\n[…]\nEm 2013, é lançada a segunda parte: O Hobbit: A Desolação de Smaug, e em 2014 é lançada a terceira e última parte: O Hobbit: A Batalha dos cinco exércitos. Além disso, em 2022, a série \"O Senhor dos Anéis: Os Anéis de Poder\" estreou na Amazon Prime Video, trazendo uma nova adaptação do universo de Tolkien, situada na Segunda Era da Terra Média, milhares de anos antes dos eventos de \"O Hobbit\" e \"O Senhor dos Anéis\".\n[…]\n«Cartas de J. R. R. Tolkien»",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 26,
+    "ancora": {
+      "nome": "Walt Disney",
+      "descricao": "Animador e empresário americano, fundador da Walt Disney Company e criador do Mickey Mouse."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Na época da Primeira Guerra, que função o jovem Walt Disney e o escritor Ernest Hemingway exerceram na Cruz Vermelha?",
+    "resposta": "Motoristas de ambulância",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Walt_Disney",
+      "https://en.wikipedia.org/wiki/Ernest_Hemingway"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Walt_Disney",
+        "situacao": "ok",
+        "texto": "Walter Elias Disney ( DIZ-nee; December 5, 1901 – December 15, 1966) was an American animator, film producer, voice actor, and entrepreneur. A pioneer of the American animation industry, he introduced several developments in the production of cartoons. As a film producer, he holds the record for most Academy Awards won (22) and nominations (59) by an individual. He was presented with two Golden Gl\n[…]\nWalter Elias Disney was born on December 5, 1901, at 1249 N Tripp Avenue in the Hermosa neighborhood of Chicago, Illinois, United States. He was the fourth son of Elias Disney, who was born in the Province of Canada to Anglo-Irish parents, and Flora (née Call), an American of German and English descent. Aside from Walt, the sons of Elias and Flora were Herbert, Raymond and Roy; and the couple had a fifth child, Ruth, in December 1903.\n[…]\nIn mid-1918, Disney attempted to join the United States Army to fight the Germans, but he was rejected as too young. After forging the date of birth on his birth certificate, he joined the Red Cross in September 1918 as an ambulance driver. Disney was shipped to France but arrived in November, after the armistice. He drew cartoons on the side of his ambulance for decoration and had some of his work published in the army newspaper Stars and Stripes.\n[…]\nDisney had been a heavy smoker since World War I. He did not use cigarettes with filters and had smoked a pipe as a young man. In early November 1966, he was diagnosed with lung cancer and was treated with cobalt therapy. Believing the treatment to have been successful, he returned to work. However, on November 30 he felt unwell and was taken by ambulance from his home to St. Joseph Hospital where, on December 15, at age 65, he died of circulatory collapse caused by the cancer.\n[…]\nThe Walt Disney Birthplace\n[…]\nFBI Records: The Vault – Walter Elias Disney from the Federal Bureau of Investigation"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Ernest_Hemingway",
+        "situacao": "ok",
+        "texto": "Ernest Miller Hemingway ( HEM-ing-way; July 21, 1899 – July 2, 1961) was an American novelist, short-story writer, and journalist. Known for an economical, understated style that influenced later 20th-century writers, he has been romanticized for his adventurous lifestyle and outspoken, blunt public image. Some of his seven novels, six short-story collections and two non-fiction works have become \n[…]\nHemingway was raised in Oak Park, Illinois. After high school, he spent six months as a reporter for The Kansas City Star before enlisting in the Red Cross. He served as an ambulance driver on the Italian Front in World War I and was seriously wounded by shrapnel in 1918. In 1921, Hemingway moved to Paris, where he worked as a foreign correspondent for the Toronto Star and was influenced by the modernist writers and artists of the \"Lost Generation\" expatriate community.\n[…]\nHemingway wanted to go to war and tried to enlist in the U.S. Army but was not accepted because he had poor eyesight. Instead he volunteered to a Red Cross recruitment effort in December 1917 and signed on to be an ambulance driver with the American Red Cross Motor Corps in Italy. In May 1918, he sailed from New York, and arrived in Paris as the city was under bombardment from German artillery. That June he arrived at the Italian Front as a volunteer with the A.R.C..\n[…]\nOne of Hemingway's closest friendships from his Red Cross service was with William \"Bill\" Dodge Horne Jr., a fellow ambulance driver in Italy. Horne was later a groomsman at Hemingway's first wedding and an honorary pallbearer at his funeral. Horne preserved a personal archive of their correspondence, photographs, and recollections—materials now housed at Princeton University Library.\n[…]\nErnest Hemingway's journalism at The Archive of American Journalism\n[…]\nErnest Hemingway on Nobelprize.org\n[…]\nFBI Records: The Vault, Subject: Ernest Hemingway"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Walt_Disney",
+        "situacao": "ok",
+        "texto": "Walter Elias Disney (Chicago, 5 de dezembro de 1901 — Los Angeles, 15 de dezembro de 1966) conhecido como Walt Disney foi um produtor cinematográfico, cineasta, diretor, roteirista, dublador, animador, empreendedor, filantropo e cofundador da The Walt Disney Company.\n[…]\nAos 16 anos, começou a estudar arte, além de ter participado da Ordem Demolay. Como não havia atingido a maioridade, foi-lhe recusada permissão quando procurou alistar-se no Exército durante a Primeira Guerra Mundial. Conjuntamente com um amigo, decidiu então juntar-se à Cruz Vermelha. Pouco tempo depois, foi enviado para França, onde passou um ano a dirigir ambulâncias da Cruz Vermelha.\n[…]\nPara superar a fase difícil e contornar os prejuízos, Ub Iwerks criou para Walt Disney o Mickey Mouse em 1928 para competir com o sucesso do Gato Félix. O camundongo, desenhado a partir de uma série de círculos, provou ser ideal para o desenho animado e se tornaria o personagem de maior sucesso dos estúdios Disney. Nessa época, a produtora passou a ser mais bem organizada: Roy cuidava da parte financeira, Walt produzia e dirigia, e Iwerks desenhava.\n[…]\nDepois da guerra, Walt Disney estava com sua empresa arruinada. Walt tinha duas opções: ou fazia um filme ou vendia a empresa. Decidiu, assim, fazer o filme Cinderela. O filme foi um sucesso e gerou riqueza para que a empresa continuasse.\n[…]\nMas Walt Disney não trabalhou apenas com desenhos animados. Seu primeiro longa-metragem com atores foi A Ilha do Tesouro (1950). O primeiro sobre a natureza foi O Drama do Deserto (1953). Em 1954, fez 20.000 léguas submarinas, baseado na obra do escritor francês Júlio Verne.\n[…]\nClássicos Disney\n[…]\nWalt Disney no IMDb\n[…]\n«Walt Disney Family Museum» (em inglês)\n[…]\n«\"Inside Walt Disney\", por Neal Gabler» (em inglês). www.npr.org",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 27,
+    "ancora": {
+      "nome": "Vagão de Compiègne",
+      "descricao": "Vagão-restaurante ferroviário na floresta de Compiègne onde foram assinados o armistício de 1918 e o armistício franco-alemão de 1940."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que o armistício que encerrou os combates em 1918 e a rendição francesa a Hitler em 1940 têm em comum?",
+    "resposta": "Foram assinados no mesmo vagão",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Compi%C3%A8gne_Wagon",
+      "https://en.wikipedia.org/wiki/Armistice_of_22_June_1940"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Compi%C3%A8gne_Wagon",
+        "situacao": "ok",
+        "texto": "The Compiègne Wagon (2419D) was a train carriage in which the armistices of the First World War and the Battle of France  in World War II were signed. The wagon, which was a dining car, hosted both treaty meetings at the same spot in the Forest of Compiègne, France, almost 22 years apart. It was built by the Belgian-founded French company Compagnie Internationale des Wagons-Lits in May 1914. The c\n[…]\nDuring the First World War, the Compiègne Wagon had been the dining car on the personal train of Marshal Ferdinand Foch. In November 1918, it hosted the armistice talks between the Allied Powers and the German Empire. After the war, it was put on museum display at the Glade of the Armistice in France.\n[…]\nHowever, after the victorious invasion of France by Nazi Germany, Adolf Hitler, in a symbolic act to show total subjugation of the French, had the wagon moved back to its exact spot of the 1918 Armistice for the signing of the 1940 Armistice. After the signing, the Glade of the Armistice was destroyed and the Compiègne Wagon was taken to Germany. It was destroyed by the SS near the end of World War II.\n[…]\nIn 1950, Compagnie Internationale des Wagons-Lits donated an identical dining car (from the same fleet) to the museum to replace the original Compiègne Wagon. It remains on display at the Glade of Armistice museum, Rethondes.\n[…]\nFollowing Nazi Germany's decisive victory in the Battle of France, Adolf Hitler ordered that the same railway carriage in which the 1918 Armistice had been signed be re-used for the second \"armistice at Compiègne\". On 21 June 1940, the car was removed from its museum building and placed on the exact spot it had been in 1918. On 22 June 1940 the signing took place. American journalist William Shirer, who was present, reported:"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Armistice_of_22_June_1940",
+        "situacao": "ok",
+        "texto": "The Armistice of 22 June 1940 (French: Armistice du 22 juin 1940; German: Waffenstillstand vom 22. Juni), sometimes referred to as the Second Armistice at Compiègne, was an agreement signed at 18:36 on 22 June 1940 near Compiègne, France, by officials of Nazi Germany and the French Third Republic. It became effective at midnight on 25 June.\n[…]\nThe French were also permitted to retain control of all of their non-European territories. Adolf Hitler deliberately chose Compiègne Forest as the site to sign the armistice because of its symbolic role as the site of the Armistice of 11 November 1918 that signaled the end of World War I with Germany's surrender.\n[…]\nWhen Adolf Hitler received word from the French government that it wished to negotiate an armistice, he selected Compiègne Forest as the place for the negotiations. Compiègne had been the site of the 1918 Armistice, which ended World War I with Germany's surrender. As an act of revenge Hitler held the signing in the Compiègne Wagon, the same rail carriage where the Germans had signed the 1918 Armistice.\n[…]\nIt is afire with scorn, anger, hate, revenge, triumph.\" Then, on 21 June 1940, in the same railway carriage in which the 1918 Armistice had been signed (removed from a museum building and placed exactly where it was in 1918), Hitler sat in the same chair in which Marshal Ferdinand Foch had sat when he faced the representatives of the defeated German Empire.\n[…]\nAdolf Hitler had a number of reasons for agreeing to an armistice. He wanted to ensure that France did not continue to fight from French North Africa, and he wanted to ensure that the French Navy was taken out of the war. In addition, leaving a French government in place would relieve Germany of the considerable burden of administering French territory, particularly as he turned his attentions towards Britain."
+      }
+    ]
+  },
+  {
+    "indice": 28,
+    "ancora": {
+      "nome": "Manfred von Richthofen",
+      "descricao": "Aviador de caça alemão da Primeira Guerra Mundial, o ás com mais vitórias aéreas creditadas no conflito, morto em combate em 1918."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que personagem de quadrinhos sobe no telhado de sua casinha imaginando duelos aéreos contra o ás alemão Manfred von Richthofen?",
+    "resposta": "Snoopy",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Snoopy"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Snoopy",
+        "situacao": "ok",
+        "texto": "Snoopy is one of the central characters in the comic strip Peanuts by American cartoonist Charles M. Schulz. He also appears in all of the Peanuts films and television specials. Debuting in the strip on October 4, 1950, the original drawings of Snoopy were inspired by Spike, one of Schulz's childhood dogs.\n[…]\nA largely anthropomorphic beagle, Snoopy is nearly the polar opposite of his owner, Charlie Brown: he is capable in multiple areas, quick-witted, imaginative, and independent. Snoopy usually spends his days sleeping flat on top of his doghouse or engaging in flights of fancy.\n[…]\nSnoopy is a loyal, imaginative, and good-natured beagle who is prone to imagining fantasy lives, including being an author, a college student known as \"Joe Cool\", an attorney, and a World War I flying ace. He is perhaps best known in this last persona, wearing an aviator's helmet and goggles and a scarf while carrying a swagger stick (like a stereotypical British Army officer of World War I and II).\n[…]\nAll of his fantasies have a similar formula. Snoopy pretends to be something, usually \"world famous\", and fails. His short \"novels\" are never published. His Sopwith Camel is consistently shot down by his imaginary rival enemy, the German flying ace, the \"Red Baron\". Schulz said of Snoopy's character in a 1997 interview: \"He has to retreat into his fanciful world in order to survive. Otherwise, he leads kind of a dull, miserable life. I don't envy dogs the lives they have to live.\"\n[…]\nSchulz was a keen bridge player, and Peanuts occasionally included bridge references. In 1997 the American Contract Bridge League (ACBL) awarded both Snoopy and Woodstock the honorary rank of Life Master, and Schulz was delighted.\n[…]\nSnoopy’s quote was so deep (Part 1)\n[…]\nThe complete text of Snoopy's It Was a Dark and Stormy Night"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Snoopy",
+        "situacao": "ok",
+        "texto": "Snoopy é o beagle de estimação de Charlie Brown na tira em quadrinhos Peanuts, criada por Charles Schulz.\n[…]\nUm dos primeiros desenvolvimentos do personagem de Snoopy foi a sua tendência para dormir no telhado da sua casa, em vez de dentro dela. Depois, Snoopy passou a andar apenas com duas pernas como um humano. Isso rapidamente se tornou tão comum que quase não se notou quando Snoopy começou a revelar uma variedade de alter egos, a personalidade mais notável é a do piloto da Primeira Guerra Mundial.\n[…]\nPara compor esta faceta, ele põe os seus óculos de aviador, o seu capacete e voa no seu Sopwith Camel (na verdade, a sua casota), lutando contra Manfred von Richthofen (o Barão Vermelho), que aparece indiretamente representado pelas balas que atingem a sua casota.\n[…]\nA exceção do seu dono, Charlie Brown, o melhor amigo de Snoopy é o pequeno pássaro amarelo Woodstock, que apenas \"fala\" em marcas da apóstrofe. O seu arquinimigo (além Manfred von Richthofen) é o invisível \"Gato estúpido da porta ao lado\" (também chamado \"Terceira guerra mundial\"). Durante uma série das séries diárias,Snoopy antagonizou o gato a cada dia, e a pata do gato fazia movimentos gigantes que dizimavam a casinha recém-construída de Snoopy numa extensão maior que no dia anterior.\n[…]\nEmbora Snoopy frequentemente menciona que ele foi um dos oito filhotes, os dois outros irmãos jamais apareceram na história em quadrinhos. De acordo com o especial animado Snoopy's Reunion, eles são chamados de Molly e Rover. Todos eles formavam  uma banda , com Snoopy na guitarra acústica.\n[…]\nSnoopy e Lacoste celebram o personagem",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 29,
+    "ancora": {
+      "nome": "Galeria dos Espelhos",
+      "descricao": "Grande salão do Palácio de Versalhes, onde foi proclamado o Império Alemão em 1871 e assinado o Tratado de Versalhes em 1919."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que a proclamação do Império Alemão, em 1871, e a assinatura do tratado de paz que puniu a Alemanha, em 1919, têm em comum?",
+    "resposta": "Ocorreram na Galeria dos Espelhos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hall_of_Mirrors"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hall_of_Mirrors",
+        "situacao": "ok",
+        "texto": "The Hall of Mirrors (French: Grande Galerie, Galerie des Glaces, Galerie de Louis XIV) is a grand Baroque style gallery and one of the most emblematic rooms in the royal Palace of Versailles near Paris, France. The grandiose ensemble of the hall and its adjoining salons was intended to illustrate the power of the absolutist monarch Louis XIV. Located on the first floor (piano nobile) of the palace\n[…]\nThe Hall of Mirrors has been the scene of events of great historic significance, including the Proclamation of the German Empire and the signing of the Treaty of Versailles.\n[…]\nThe Hall of Mirrors is—besides the Palace Chapel, completed in the early 18th century, the Court Opera and the Galerie des Batailles—one of the largest rooms in the palace. It is 73 m (240 ft) long and 10.50 m (34.4 ft) deep. With its height of 12.30 m (40.4 ft) it reaches to the Attic floor of the Corps de Logis. The square windows on the upper floor, which can be seen from the outside, only serve aesthetic purposes, as there are no rooms inside.\n[…]\nThe Second German Empire was established in the Hall of Mirrors on 18 January 1871, after the German siege of Paris at the conclusion of the Franco-Prussian War. In a ceremony led by Otto von Bismarck, the Prussian king, William I, the assembled German princes and lords declared William I the German emperor in the Hall of Mirrors.\n[…]\nA few decades later French Prime Minister Georges Clemenceau consciously chose the Hall of Mirrors as the site to sign the Treaty of Versailles on 28 June 1919, that officially ended World War I. Thus, the Entente dismantled the German Empire in the very room where it had been proclaimed.\n[…]\nFullscreen interactive panoramic image of Hall of Mirrors\n[…]\nMedia related to Hall of Mirrors (Palace of Versailles) at Wikimedia Commons"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Galeria_dos_Espelhos",
+        "situacao": "ok",
+        "texto": "A Galeria dos Espelhos (Galerie des Glaces) é uma das principais galerias do Palácio de Versalhes, em Versalhes, França. A sua construção data de 1678, no reinado de Luís XIV.\n[…]\nUma das características da galeria, são os 17 arcos revestidos com espelho que refletem as 17 janelas em arco viradas para o jardim. Cada arco contém 21 espelhos, num total de 357, utilizados para decorar a galeria. Os arcos estão fixados entre pilastras de mármore cujos capitéis ilustram os símbolos da França. Estes capiteis revestidos a bronze incluem a flor-de-lis e o galo gaulês.\n[…]\nJacquiot, Joseph (1985). «Remarques critiques sur les inscriptions de la galerie de Versailles, par Boileau-Despéaux». Colloque de Versailles\n[…]\nKimball, Fiske (março de 1940). «Mansart and LeBrun and the Genesis of the Grand Galerie de Versailles». The Art Bulletin. 22 (1): 1–6. JSTOR 3046675. doi:10.2307/3046675\n[…]\nLangner, Johannes (1982). «Le Brun interprête de l'histoire de Louis XIV: à propos d'un tableau de la Galerie des Glaces à Versailles». Formes. Spring: 21–26\n[…]\nMontagu, Jenifer (novembro de 1992). «Le Brun's Early Designs for the Grand Galerie: some comments on the drawings». Gazette des Beaux-Arts. 6 pér., tome 120: 195–206\n[…]\nSabatier, Gérard (1985). «Versailles, ou le sens perdu, manière de montrer la galerie des glaces aux 17e et 18e siècles». Colloque de Versailles\n[…]\nVerlet, Pierre (1985). «Les guéridons de la Galerie des Glaces». Bulletin de la société de l'art français: 129–135.\n[…]\n(em francês) Galerie des Glaces\n[…]\n(em francês) La galerie des Glaces em Chateau Versailles",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 30,
+    "ancora": {
+      "nome": "Batalha de Verdun",
+      "descricao": "Batalha travada entre franceses e alemães em 1916, perto da cidade de Verdun, uma das mais longas e sangrentas da Primeira Guerra Mundial."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que militar francês, celebrado como herói de Verdun, chefiou décadas depois o governo colaboracionista de Vichy?",
+    "resposta": "Philippe Pétain",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Philippe_P%C3%A9tain"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Philippe_P%C3%A9tain",
+        "situacao": "ok",
+        "texto": "Henri Philippe Benoni Omar Joseph Pétain (French: [filip petɛ̃]; 24 April 1856 – 23 July 1951), also known as Marshal Pétain (French: maréchal Pétain, [maʁeʃal petɛ̃]), was a French military officer, dictator, and politician who commanded the French Army in World War I and later became the head of the Axis-collaborationist regime of Vichy France, from 1940 to 1944, during World War II.\n[…]\nAfter Germany and Italy occupied all of France in November 1942, Pétain's government worked closely with the German military administration.\n[…]\nOn 11 November 1942, German forces invaded the unoccupied zone of Southern France in response to Allied landings in North Africa and Darlan's agreement to support the Allies. Although Vichy France nominally remained in existence, civilian administration of almost all France being under it, Pétain became nothing more than a figurehead, as the Germans had negated the pretence of an \"independent\" government at Vichy.\n[…]\nFollowing the liberation of France, on 8 September 1944, Pétain and other members of the French cabinet at Vichy were relocated by the Germans to the Sigmaringen enclave in Germany, where they became a government-in-exile until April 1945. Pétain, however, having been forced to leave France, refused to participate in this government and Fernand de Brinon now headed the \"government commission\".\n[…]\nAfter his conviction, the court stripped Pétain of all military ranks and honours, excepting the distinction of Marshal of France.\n[…]\nThe retention of the title is often brought by Pétain apologists, the French government has made clear, by law and by its refusal to honour Philippe Pétain with national or military burial, that he has been stripped of this distinction.)\n[…]\nHerbert R. Lottman, Philippe Pétain, 1984\n[…]\nArticle on Philippe Pétain by the Académie française\n[…]\nNewspaper clippings about Philippe Pétain in the 20th Century Press Archives of the ZBW"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Philippe_P%C3%A9tain",
+        "situacao": "ok",
+        "texto": "Henri Philippe Benoni Omer Joseph Pétain (Cauchy-à-la-Tour, 24 de abril de 1856 – Île d'Yeu, 23 de julho de 1951), geralmente apelidado de Marechal Pétain, e, em seu país de origem O Leão de Verdun, foi um oficial general francês que alcançou a distinção de Marechal da França e posteriormente atuou como chefe de estado da França de Vichy, de 1940 a 1944. Pétain, que tinha 84 anos em 1940, tornou-s\n[…]\nApós a guerra, Pétain foi julgado e condenado por traição, e sujeito à degradação militar. Ele foi originalmente condenado à morte, mas por causa de sua liderança militar excepcional na Primeira Guerra Mundial, particularmente durante a Batalha de Verdun, foi reconhecido como um herói nacional da França e teve sua sentença comutada para prisão perpétua. Cumpriu sua pena na prisão de Île d'Yeu, uma ilha ao largo da costa do Atlântico. Acabou morrendo na prisão em Forte de Pierre de Levée, em 1951.\n[…]\nEm 10 de julho, uma lei \"constitucional\" foi aprovada nas duas câmaras reunidas na Assembleia Nacional no cassino de Vichy. A lei deu ao marechal Pétain todos os poderes governamentais e buscava a promulgação de uma nova Constituição, que nunca veria a luz. O Estado francês permaneceria durante todo o mandato de Pétain como um governo provisório, de fato.\n[…]\nNo final do julgamento de Pétain, ele foi condenado por todas as acusações. O júri condenou-o à morte por uma maioria de um voto. Devido à sua idade avançada, o Tribunal pediu que a sentença não fosse realizada. De Gaulle, presidente do Governo Provisório da República Francesa no final da guerra, comutou a sentença em prisão perpétua devido à idade de Pétain e suas contribuições militares na Primeira Guerra Mundial.\n[…]\nApós sua condenação, o Tribunal despojou Pétain de suas patentes militares e honras, salvo pela distinção de Marechal da França.\n[…]\nMedia relacionados com Philippe Pétain no Wikimedia Commons",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 31,
+    "ancora": {
+      "nome": "Hercule Poirot",
+      "descricao": "Detetive belga fictício criado por Agatha Christie, que estreou no romance O Misterioso Caso de Styles."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "O que liga o detetive Hercule Poirot, de Agatha Christie, à Primeira Guerra Mundial?",
+    "resposta": "Era um refugiado belga da guerra",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Hercule_Poirot"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Hercule_Poirot",
+        "situacao": "ok",
+        "texto": "Hercule Poirot (UK:  , US:  , French: [ɛʁkyl pwaʁo]) is a recurring fictional Belgian detective created by the English writer Agatha Christie. Poirot is Christie's most famous and longest-running character, appearing in 33 novels (starting with The Mysterious Affair at Styles), two plays (Black Coffee and Alibi) and 51 short stories published between 1920 and 1975.\n[…]\nChristie, Agatha (1975). Curtain: Poirot's Last Case. HarperCollins. ISBN 978-0-00-712112-0.\n[…]\nChristie, Agatha (1 September 2011b). The Dream: A Hercule Poirot Short Story. HarperCollins Publishers. ISBN 978-0-00-745198-2.\n[…]\nChristie, Agatha (14 June 2011c) [1966]. Third Girl: A Hercule Poirot Mystery. HarperCollins. ISBN 978-0-06-207376-1.\n[…]\nChristie, Agatha (12 April 2012). The Kidnapped Prime Minister: A Hercule Poirot Short Story (ebook ed.). HarperCollins Publishers. ISBN 978-0-00-748658-8.\n[…]\nChristie, Agatha (2013) [1999]. Hercule Poirot: The Complete Short Stories: A Hercule Poirot Collection with Foreword by Charles Todd. HarperCollins. ISBN 978-0-06-225165-7.\n[…]\nChristie, Agatha (9 July 2013a). The Lost Mine: A Hercule Poirot Story. HarperCollins. ISBN 978-0-06-229818-8.\n[…]\nChristie, Agatha (23 July 2013b). Double Sin: A Hercule Poirot Story. HarperCollins. ISBN 978-0-06-229845-4.\n[…]\nHart, Anne (2004). Agatha Christie's Poirot: The Life and Times of Hercule Poirot. London: Harper and Collins.\n[…]\nKretzschmar, Judith; Stoppe, Sebastian; Vollberg, Susanne, eds. (2016). Hercule Poirot trifft Miss Marple. Agatha Christie intermedial [Hercule Poirot meets Miss Marple] (in German). Darmstadt: Büchner. ISBN 978-3-941310-48-3.\n[…]\nVermandere, Martine (2016). \"Case closed? De speurtocht naar de inspiratie voor Agatha Christie's Hercule Poirot\" [Case closed? The search for the inspiration for Agatha Christie's Hercule Poirot]. Brood & Rozen (in Dutch). 21 (1). doi:10.21825/br.v21i1.9945. hdl:1854/LU-8041744."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Hercule_Poirot",
+        "situacao": "ok",
+        "texto": "Hercule Poirot ou simplesmente Poirot é um grande detetive fictício e protagonista da maioria dos livros de Agatha Christie , um dos mais famosos detetives da ficção policial. Um grande número das obras onde Poirot aparece se tornaram filmes, séries de televisão, rádio e teatro. Foi vivido no cinema por Albert Finney, por Sir Peter Ustinov e por Kenneth Branagh e na série televisiva por David Such\n[…]\nO detetive aparece em mais de 40 romances de Agatha Christie e protagoniza desde 1989 a série britânica Agatha Christie's Poirot onde é interpretado por David Suchet.\n[…]\nDe nacionalidade belga (embora muitos o julguem francês), Poirot é uma personagem extremamente extravagante, não é nada modesto, e está sempre se gabando da forma como usa as suas células cinzentas. Possui um grande e belo bigode que é o que melhor o identifica, e tem sempre uma aparência elegante e impecável. O seu nome é deliberadamente absurdo, pois Hercule relembra o herói Hércules da mitologia grega, porém o detetive é um homem pequeno.\n[…]\nNos livros de Agatha Christie, Poirot vive na Farraway Street, 14, onde está localizado o Florin Court, mais conhecido como Whitehaven Mansions.\n[…]\nPara evitar que continuassem a explorar seu personagem depois de sua morte, Agatha Christie decidiu matar Poirot em um romance escrito na década de 1940, mas que, segundo ordens expressas suas, só deveria ser publicado após sua morte.\n[…]\nPorém Sophie Hannah, fez um livro (Os Crimes do Monograma) com a autorização da família de Agatha Christie para colocar Poirot nesse livro. Em 2016 publicou um segundo livro Closed Casket com Poirot.\n[…]\nHercule Poirot's Christmas (1938)\n[…]\nAgatha Christie's Poirot, Exibida pela ITV, produzida na Inglaterra no formato de Série\n[…]\nAgatha Christie no Meitantei Poirot to Marple, exibida pela NHK, produzida no Japão em estilo de série Animê\n[…]\nAgatha Christie\n[…]\n«Imagem de Hercule Poirot»\n[…]\nsite dedicado ao detetive (inglês )",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 32,
+    "ancora": {
+      "nome": "Arquiduque Francisco Ferdinando",
+      "descricao": "Herdeiro do trono do Império Austro-Húngaro, cujo assassinato em Sarajevo desencadeou a Primeira Guerra Mundial."
+    },
+    "angulo": "conexao",
+    "tipo": "aberta",
+    "pergunta": "Que banda escocesa de rock, famosa nos anos dois mil, tem o nome do herdeiro austríaco morto em Sarajevo?",
+    "resposta": "Franz Ferdinand",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Franz_Ferdinand_(band)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Franz_Ferdinand_(band)",
+        "situacao": "ok",
+        "texto": "Franz Ferdinand are  a Scottish rock band formed in Glasgow in 2002. Their original line-up was composed of Alex Kapranos (lead vocals, guitar, keyboards), Nick McCarthy (guitar, keyboards, vocals), Bob Hardy (bass) and Paul Thomson (drums, percussion, backing vocals).\n[…]\nNME named Franz Ferdinand the best album of 2004, and placed it 38th on their 100 Best Albums of All Time list.\n[…]\nThe band performed \"Take Me Out\" as a live medley with Los Lonely Boys, Maroon 5, The Black Eyed Peas and Gwen Stefani at the 47th Annual Grammy Awards in 2005, in which \"Take Me Out\" was nominated for Best Rock Performance by a Duo or Group with Vocal and Franz Ferdinand was nominated for Best Alternative Album. \"Take Me Out\" was featured on the video games NHL 2005, Madden NFL 2005 and the breakthrough game Guitar Hero. The album has sold around 3.6 million copies worldwide.\n[…]\n9 in the Billboard 200 chart in the United States. The second single, \"No You Girls\" saw success both in the charts and on the radio prior to release, eventually reaching No. 7 on the US Modern Rock Chart and was performed by Franz Ferdinand on Comic Relief 2009 Top of The Pops special. \"Can't Stop Feeling\" was released on 6 July as the third single from the album and on 28 August, \"What She Came For\" was released as the 4th single in the form of a remix single.\n[…]\nIn 2022, Franz Ferdinand's single, \"This Fire\" served as the opening theme song for the Polish-Japanese animated series, Cyberpunk: Edgerunners.\n[…]\nFranz Ferdinand (2004)\n[…]\nTonight: Franz Ferdinand (2009)\n[…]\nHiatt, Brian (2005). \"Hot Scots – Franz Ferdinand get rock fans dancing again\" Rolling Stone (Retrieved 16 June 2006)\n[…]\nFranz Ferdinand book out later this month Rebecca Nicholson (2 Nov 2007). Retrieved 30 November 2008"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Franz_Ferdinand_%28banda%29",
+        "situacao": "ok",
+        "texto": "Franz Ferdinand é uma banda de rock formada em 2002 em Glasgow, Escócia. A banda é formada por Alex Kapranos (vocal e guitarra), Bob Hardy (baixo), junto com Dino Bardot, Julian Corrie e Audrey Tait. Com influências da banda Talking Heads e outras da década de 1980, sem deixar de lado a pegada e ritmos dançantes do indie rock dos anos 2000, foi considerada uma das grandes revelações da cena musica\n[…]\nFoi executada por Franz Ferdinand no Top of The Pops especial. \"Can't Stop Feeling\" foi lançado no dia 6 de julho como o 3.º single do álbum e sobre o 28 de agosto, \"What She Came For\" foi lançado como single de número 4 sob a forma de um remix único. A banda tocou What She Came For no The Tonight Show com Conan O'Brien na quarta-feira, 26 de agosto de 2009.\n[…]\nA banda também fez um cover de Britney Spears Womanizer. Em fevereiro de 2009, o Festival de Glastonbury anunciou Franz Ferdinand como a primeira grande banda a tocar no festival do ano. A banda também anunciou uma turnê nos Estados Unidos durante a primavera, para divulgar o novo álbum. A banda foi também uma das principais atrações do Big Weekend em Swindon. Em 6 de maio de 2009 foi anunciado que o Franz Ferdinand seria a banda de abertura de um show do Green Day.\n[…]\nEm 1 de junho de 2009 a banda lançou o Blood: Franz Ferdinand, uma coletânea que inclui versões das músicas de Tonight: Franz Ferdinand.\n[…]\nEm 2021, Paul Thomson anunciou sua saída da banda, com a baterista Audrey Tait assumindo o instrumento, e o Franz Ferdinand lançou uma nova canção, \"Billy Goodbye\", que seria incluída na coletânea de 2022, Hits to the Head. O primeiro disco com Tait, The Human Fear, foi lançado em  10 de Janeiro de 2025.\n[…]\nFranz Ferdinand (2004)\n[…]\nTonight: Franz Ferdinand (2009)\n[…]\nFFS (com a banda Sparks)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 33,
+    "ancora": {
+      "nome": "Nada de Novo no Front",
+      "descricao": "Romance de 1929 sobre a vida e a morte de soldados alemães na Primeira Guerra Mundial."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que escritor alemão, ex-combatente, publicou em 1929 o romance Nada de Novo no Front?",
+    "resposta": "Erich Maria Remarque",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/All_Quiet_on_the_Western_Front",
+        "situacao": "ok",
+        "texto": "All Quiet on the Western Front (German: Im Westen nichts Neues, lit. 'In the west, nothing new') is a semi-autobiographical novel by Erich Maria Remarque, a German veteran of World War I. The book describes the German soldiers' extreme physical and mental trauma during the war as well as the detachment from civilian life felt by many upon returning home from the war. It is billed by some as \"the g\n[…]\nThe 1929 English translation by Arthur Wesley Wheen gives the title as All Quiet on the Western Front. The literal translation of \"Im Westen nichts Neues\" is \"Nothing New in the West\", with \"West\" being the Western Front; the phrase refers to the content of an official communiqué at the end of the novel.\n[…]\nWith All Quiet on the Western Front, Remarque emerged as an eloquent spokesman for a generation that had been, in his own words, \"destroyed by war, even though it might have escaped its shells.\" Remarque's harshest critics, in turn, were his countrymen, many of whom felt the book denigrated the German war effort, and that Remarque had exaggerated the horrors of war to further his pacifist agenda. The strongest voices against Remarque came from the emerging Nazi Party and its ideological allies.\n[…]\nMuch of the literary criticism came from Salomo Friedlaender, who wrote a book Hat Erich Maria Remarque wirklich gelebt? \"Did Erich Maria Remarque really live?\" (under the pen name Mynona), which was, in its turn, criticized in: Hat Mynona wirklich gelebt? \"Did Mynona really live?\" by Kurt Tucholsky. Friedlaender's criticism was mainly personal in nature—he attacked Remarque as being egocentric and greedy.\n[…]\nRemarque publicly stated that he wrote All Quiet on the Western Front for personal reasons, not for profit, as Friedlaender had charged.\n[…]\nAll Quiet on the Western Front public domain audiobook at LibriVox\n[…]\nAll Quiet on the Western Front (1930) on Youtube"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Im_Westen_nichts_Neues",
+        "situacao": "ok",
+        "texto": "Im Westen nichts Neues (Brasil: Nada de Novo no Front / Portugal: A Oeste Nada de Novo) é um romance do escritor alemão Erich Maria Remarque, um veterano da Primeira Guerra Mundial, sobre os horrores daquela guerra e também a profunda indiferença da vida civil alemã sentida por muitos homens que retornavam das frentes de batalha.\n[…]\nO livro foi primeiro publicado na Alemanha em janeiro de 1929 e vendeu um milhão de cópias em menos de um ano na Alemanha, e mais outro milhão no exterior. Em 1930, foi adaptado para o cinema por Lewis Milestone com o título de All Quiet on the Western Front, vencendo o Oscar daquele ano.\n[…]\nPara ele, as batalhas serviam apenas para conquistar pequenos e inúteis pedaços de terra, nada mais.\n[…]\nO filme All Quiet on the Western Front (bra: Sem Novidade no Front; prt: A Oeste Nada de Novo), de 1930, é baseado no romance. O filme é estrelado por Louis Wolheim, Lew Ayres, John Wray, Arnold Lucy e Ben Alexander e foi produzido pelos estúdios Universal. Foi indicado ao Oscar daquele ano (a terceira edição) em quatro categorias: Melhor filme, Melhor Diretor (para Lewis Mileston), Melhor Roteiro Adaptado e Melhor Fotografia, vencendo as duas primeiras categorias citadas.\n[…]\nUm novo filme baseado no romance foi lançado em 2022, entitulado All Quiet On The Western Front (bra: Nada De Novo No Front). É a primeira adaptação cinematográfica utilizando a língua alemã. Dirigido e escrito por Edward Berger, o filme é estrelado pelos atores Felix Kammerer (como Paul Bäumer), Albrecht Schuch (como Stanislaus \"Kat\" Katczinsky) e Daniel Brühl (como Matthias Erzberger). O filme debutou no 47º Festival Internacional de Cinema de Toronto no dia 12 de setembro de 2022.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 34,
+    "ancora": {
+      "nome": "Batalha de Tannenberg",
+      "descricao": "Batalha de agosto de 1914 na Prússia Oriental em que o exército alemão derrotou o Segundo Exército russo."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1914, que dupla de generais alemães comandou a grande vitória sobre os russos em Tannenberg?",
+    "resposta": "Hindenburg e Ludendorff",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battle_of_Tannenberg"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Tannenberg",
+        "situacao": "ok",
+        "texto": "The Battle of Tannenberg, also known as the Second Battle of Tannenberg, was fought between Russia and Germany between 26 and 30 August 1914, the first month of World War I. The battle resulted in the encirclement and the almost complete destruction of the Russian 2nd Army by the German 8th Army and the suicide of its commanding general, Alexander Samsonov. A series of follow-up battles (First Mas\n[…]\nThe outcome brought considerable prestige to the German army commander, General Paul von Hindenburg, and his rising staff officer, General Erich Ludendorff. Although the battle actually took place near Allenstein (Olsztyn), Hindenburg named it after Tannenberg, 30 km (19 mi) to the west, in order to avenge the Teutonic Knights' defeat at the Battle of Grunwald 500 years earlier.\n[…]\nThose Russians who tried to break through by dashing across open fields heavy with crops were mowed down. They were in a cauldron centered at Frogenau, west of Tannenberg, and throughout the day they were relentlessly pounded by artillery. Many surrendered – long columns of prisoners jammed the roads away from the battleground. Hindenburg and Ludendorff watched from a hilltop, with only a single field telephone line; thereafter they stayed closer to the telephone network.\n[…]\nOn 31 August Hindenburg formally reported to Kaiser Wilhelm II that three Russian army corps (13th, 15th and 23rd) had been destroyed. The two corps (1st and 6th) that had not been caught in the cauldron had been severely bloodied and were retreating back to Poland. He requested that the battle be named Tannenberg (an imaginative touch that both Ludendorff and Hoffmann claimed as their own).\n[…]\nHindenburg was hailed as an epic hero and Ludendorff was praised, but Hoffmann was generally ignored by the press.\n[…]\nSweetman, John (2004). Tannenberg 1914. London: Cassell. ISBN 978-0-304-35635-5."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batalha_de_Tannenberg_%281914%29",
+        "situacao": "ok",
+        "texto": "A Batalha de Tannenberg foi um grande confronto militar travado durante a Primeira Guerra Mundial entre os exércitos alemão e russo, que ocorreu a zona sul de Allenstein (hoje, Olsztyn), Prússia Oriental, no período de 26 a 30 de agosto de 1914. O lado alemão, representado pelo 8º Exército, possuía 150 000 combatentes, enquanto o 2º Exército Russo contava com 230 000 homens. A batalha foi vencida \n[…]\nLudendorff, que já se destacara na Frente Ocidental pela sua energia demonstrada durante a Batalha de Liège, foi trazido de automóvel da região em torno de Namur até Coblença para o Grande Quartel-General, aonde ele entrou por volta das 18:00 H. Um trem especial o levou dali para o Leste. Em Hannover, o General Hindenburg embarcou nesse trem. Ao meio-dia do dia seguinte, os dois Generais chegaram ao seu destino na Prússia Oriental: Marienburg.\n[…]\nNo dia 23 de agosto, por volta das 14:00 H, o sucessor de Prittwitz, o General de Infantaria von Hindenburg, e seu Chefe de Estado-Maior, o Major-General Ludendorff, reuniram-se em Marienburg. O 2º Exército Russo (Exército de Narew) estava penetrando no sul da Prússia Oriental, estendendo-se por uma faixa de largura de 60 Km entre Soldau, Neidenburg e Ortelsburg.[carece de fontes]?\n[…]\nJá antes da nomeação de Hindenburg, o I. Corpo de Exército do General Hermann von François havia sido despachado de Gumbinnen por via férrea para o Sul, concentrando-se a Oeste do eixo de formação do 2º Exército Russo. Depois de saber das posições e das ordens inimigas através de reconhecimento aéreo e captação de mensagens de rádio russas não-codificadas, o General Ludendorff ativou uma manobra geral de evacuação de todo o restante de seu exército.\n[…]\nO resultado a longo prazo dessa vitória se deu mais a nível de prestigio político-militar para Paul von Hindenburg e Erich Ludendorff, que foram elevados a um status de semideuses pelos alemães.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 35,
+    "ancora": {
+      "nome": "Brasil na Primeira Guerra Mundial",
+      "descricao": "Participação brasileira no conflito, a partir da declaração de guerra à Alemanha em outubro de 1917."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Em 1917, que presidente brasileiro declarou guerra à Alemanha?",
+    "resposta": "Venceslau Brás",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_during_World_War_I",
+      "https://pt.wikipedia.org/wiki/Venceslau_Br%C3%A1s"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazil_during_World_War_I",
+        "situacao": "ok",
+        "texto": "During World War I (1914–1918), Brazil initially adopted a neutral position in accordance with the Hague Convention as an attempt to maintain markets for its export products, mainly coffee, latex, and industrially manufactured items.\n[…]\nHowever, following the repeated sinking of Brazilian merchant ships by German submarines, President Venceslau Brás declared war against the Central Powers in 1917. Brazil then became the only country in South America to be directly involved in the war. Brazil's major contribution was the Brazilian Navy's patrol of areas in the Atlantic Ocean.\n[…]\nOctober 26, 1917: Brazil declared war on the Central Powers with limited popular support\n[…]\nThe administration of Venceslau Brás, which was in its last year in office, made statements implying that it did not intend to involve the country deeper into the conflict. Nevertheless, in early 1918, a confidential report commissioned by the presidential candidate elected that year, Rodrigues Alves, was completed. This report, regarding the entry of Brazil into the conflict, was coordinated by the parliamentary expert on foreign policy and military affairs, João Pandiá Calógeras.\n[…]\nBrazil in World War II\n[…]\nFaria, Ivan Rodrigues de, 1996 Participação do Brasil na Primeira Guerra Mundial (in Portuguese) ('Brazil's participation in World War I') Brazilian Army Journal, Rio – DPHCEx, (p. 67)\n[…]\nMaia, Prado, 1961, D.N.O.G. (Divisão Naval em Operações de Guerra), 1914–1918: uma página esquecida da história da Marinha Brasileira (in Portuguese) ('DNOG – Naval Fleet in War Operations, 1914–1918: A forgotten page of Brazilian Navy History') (Brazilian) Navy General Documentation Service, OCLC 22210405\n[…]\nInformation about Brazil's participation in the World War I conflict."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Venceslau_Br%C3%A1s",
+        "situacao": "ok",
+        "texto": "Venceslau Brás Pereira Gomes (São Caetano da Vargem Grande, 26 de fevereiro de 1868 – Itajubá, 15 de maio de 1966) foi um empresário, advogado e político brasileiro; presidente do Brasil entre 1914 e 1918, com um pequeno afastamento de um mês em 1917 por motivo de doença. Seu vice-presidente foi Urbano Santos da Costa Araújo.\n[…]\nDevido às dificuldades em importar produtos manufaturados da Europa durante o seu mandato, causadas pela guerra, Venceslau Brás incentivou a industrialização nacional, porém de forma inadequada, já que o país ainda era essencialmente agrícola, e o governo necessitava de armamentos bélicos, que requeriam uma indústria mais sofisticada que a do Brasil de 1914.\n[…]\nLogo de início, teve de combater a Guerra do Contestado (crise herdada do governo anterior) e, após debelar a revolta, mediou a disputa de terras entre os Estados do Paraná e Santa Catarina, tendo sido um dos fatores a dar origem ao conflito. Venceslau Brás definiu em 1916 os atuais limites entre Paraná e Santa Catarina.\n[…]\nCircula pela tradição oral que Venceslau Brás, durante o período como presidente, teria se tratado de uma lesão de longo termo na perna com a matriarca do samba Tia Ciata, de forma bem sucedida. Conhecida mãe-de-santo e erveira, Ciata teria recusado qualquer tipo de remuneração pelo tratamento, mas logo após o episódio, seu marido, funcionário público, foi promovido para a chefia de gabinete do chefe de polícia, e as festas em sua casa passaram a ser autorizadas.\n[…]\nÉ homenageado por meio de três cidades, sendo uma em Minas Gerais, Wenceslau Braz, outra no Paraná, Wenceslau Brás, e outra em São Paulo, Presidente Venceslau.\n[…]\nCAVALCANTI, Pedro, A Presidência Wenceslau Brás, Editora Universidade de Brasília, 1981.\n[…]\nSILVA, Hélio, Venceslau Brás - 9.º Presidente do Brasil, Editora Três, 1983."
+      }
+    ]
+  },
+  {
+    "indice": 36,
+    "ancora": {
+      "nome": "Liga das Nações",
+      "descricao": "Organização internacional criada após a Primeira Guerra Mundial para preservar a paz, antecessora da ONU."
+    },
+    "angulo": "autoria",
+    "tipo": "aberta",
+    "pergunta": "Que presidente americano foi o principal idealizador da Liga das Nações, criada após a guerra?",
+    "resposta": "Woodrow Wilson",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/League_of_Nations"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/League_of_Nations",
+        "situacao": "ok",
+        "texto": "The League of Nations (LN or LoN; French: Société des Nations [sɔsjete de nɑsjɔ̃], SdN) was the first worldwide intergovernmental organisation whose principal mission was to maintain world peace. It was founded on 10 January 1920 by the Paris Peace Conference that ended the First World War. The main organisation ceased operations on 18 April 1946 when many of its components were relocated into the\n[…]\npresident Woodrow Wilson won the Nobel Peace Prize for his role as the leading architect of the League. Despite this, he was ultimately unsuccessful in getting his country to join it.\n[…]\nAmerican president Woodrow Wilson instructed Edward M. House to draft a US plan which reflected Wilson's own idealistic views (first articulated in the Fourteen Points of January 1918), as well as the work of the Phillimore Commission. The outcome of House's work and Wilson's own first draft proposed the termination of \"unethical\" state behaviour, including forms of espionage and dishonesty.\n[…]\npresident Woodrow Wilson strongly insisted that instead of annexation, these territories should be assisted under League of Nations supervision in achieving self-governance and eventual independence depending on the inhabitants' choices. This proposal conflicted with Britain's interests at the time, as it sought to maintain dominance in the Middle East, protect its oil and trade routes, and limit French influence in the region.\n[…]\nRepresentation at the League was often a problem. Though it was intended to encompass all nations, many never joined, or their period of membership was short. The most conspicuous absentee was the United States. President Woodrow Wilson had been a driving force behind the League's formation and strongly influenced the form it took, but the US Senate voted not to join on 19 November 1919.\n[…]\nFrance and the League of Nations\n[…]\nLatin America and the League of Nations\n[…]\nLeague of Nations chronology"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Sociedade_das_Na%C3%A7%C3%B5es",
+        "situacao": "ok",
+        "texto": "Sociedade das Nações (em francês: Société des Nations [sɔsjete de nɑsjɔ̃], SdN), também conhecida como Liga das Nações (em inglês: League of Nations, LN ou LoN), foi a primeira organização intergovernamental de alcance mundial cuja principal missão era manter a paz mundial. Foi fundada em 10 de janeiro de 1920 pela Conferência de Paz de Paris, que encerrou a Primeira Guerra Mundial.\n[…]\nEm 1919, o presidente dos Estados Unidos Woodrow Wilson recebeu o Prêmio Nobel da Paz por seu papel como principal arquiteto da Sociedade. Apesar disso, não conseguiu fazer com que seu país aderisse à organização.\n[…]\nConseguiram a concordância de ministros das Relações Exteriores relutantes que, em geral, consideravam ineficaz a criação de tal organismo, mas aceitaram participar ou não obstruir a formação de uma instituição neutra de mediação caso outras nações concordassem e o presidente Woodrow Wilson tomasse a iniciativa. Em plena guerra, Wilson recusou.\n[…]\nMuitos dirigentes britânicos e franceses queriam anexar as colônias das Potências Centrais derrotadas, mas o presidente estadunidense Woodrow Wilson insistiu firmemente que, em vez de anexadas, essas regiões deveriam receber auxílio sob a supervisão da Sociedade das Nações para alcançar o autogoverno e, por fim, a independência, conforme a vontade de seus habitantes.\n[…]\nA representação na Sociedade foi frequentemente problemática. Embora a organização tivesse sido concebida para abranger todas as nações, muitas nunca aderiram ou permaneceram como membros por pouco tempo. A ausência mais evidente foi a dos Estados Unidos. O presidente Woodrow Wilson havia sido uma força motriz na criação da Sociedade e influenciara fortemente a forma que ela assumiu, mas o Senado estadunidense votou contra a adesão em 19 de novembro de 1919.\n[…]\nCronologia da Sociedade das Nações\n[…]\nArquivos da Sociedade das Nações do Escritório das Nações Unidas em Genebra",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 37,
+    "ancora": {
+      "nome": "Guilherme II",
+      "descricao": "Último imperador da Alemanha e rei da Prússia, de 1888 até sua abdicação em 1918."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "Depois de abdicar em 1918, para que país vizinho o kaiser Guilherme II partiu para o exílio, onde viveu até morrer?",
+    "resposta": "Países Baixos",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Wilhelm_II"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Wilhelm_II",
+        "situacao": "ok",
+        "texto": "Wilhelm II (Friedrich Wilhelm Viktor Albert; 27 January 1859 – 4 June 1941) was the last German Emperor from 1888 until his abdication in 1918. His fall from power marked the end of the German Empire as well as the Hohenzollern dynasty's 400-year rule over Prussia.\n[…]\nWilhelm was at the Imperial Army headquarters in Spa, Belgium, when the uprisings in Berlin and other centres took him by surprise in late 1918. Mutiny among the ranks of his beloved Kaiserliche Marine, the imperial navy, profoundly shocked him. After the outbreak of the German Revolution, Wilhelm could not make up his mind whether to abdicate. Up to that point, he accepted that he would likely have to give up the imperial crown, but still hoped to retain the Prussian kingship.\n[…]\nOn 2 December 1919, Wilhelm wrote to Mackensen, denouncing the November Revolution of 1918 and his own forced abdication as the \"deepest, most disgusting shame ever perpetrated by a person in history, the Germans have done to themselves ... egged on and misled by the tribe of Judah ... Let no German ever forget this, nor rest until these parasites have been destroyed and exterminated from German soil!\"\n[…]\nWilliam II. – The last days of the German Monarchy (original title: \"Wilhelm II. – Die letzten Tage des Deutschen Kaiserreichs\"), about the abdication and flight of the last German Kaiser. Germany/Belgium, 2007. Produced by seelmannfilm and German Television. Written and directed by Christoph Weinert.\n[…]\nRupert Julian played Wilhelm II in the 1918 Hollywood propaganda film The Kaiser, the Beast of Berlin.\n[…]\nWilhelminism on society, politics, culture, art and architecture of Germany 1890–1918\n[…]\nNewspaper clippings about Wilhelm II in the 20th Century Press Archives of the ZBW\n[…]\nKaiser Wilhelm II at IMDb"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Guilherme_II_da_Alemanha",
+        "situacao": "ok",
+        "texto": "Guilherme II (em alemão:  Wilhelm II; Friedrich Wilhelm Viktor Albert; Frederico Guilherme Vítor Alberto; Berlim, 27 de janeiro de 1859 – Doorn, 4 de junho de 1941) foi o último Imperador da Alemanha e Rei da Prússia de 1888 até sua abdicação em 1918, que marcou o fim do Império Alemão, bem como o governo de 300 anos da Dinastia Hohenzollern na Prússia.\n[…]\nPerdendo o apoio dos militares de seu país e de muitos de seus súditos, Guilherme foi forçado a abdicar durante a Revolução Alemã de 1918-1919, que converteu a Alemanha em um estado democrático instável conhecido como República de Weimar. Guilherme posteriormente fugiu para o exílio nos  Países Baixos, onde permaneceu durante a ocupação pela Alemanha Nazista em 1940, antes de morrer lá em 1941.\n[…]\nEntretanto, Guilherme II impediu qualquer invasão dos Países Baixos.\n[…]\nGuilherme estava no quartel-general do Exército Imperial em Spa, Bélgica, quando as revoltas em Berlim e outros centros o pegaram de surpresa no final de 1918. O motim entre as fileiras de sua amada Kaiserliche Marine, a marinha imperial, o chocou profundamente. Após a eclosão da Revolução Alemã, Guilherme não conseguia decidir se abdicaria. Até aquele momento, ele aceitou que provavelmente teria que abrir mão da coroa imperial, mas ainda esperava manter o reinado prussiano.\n[…]\nGuilherme morreu de embolia pulmonar em Doorn, Países Baixos, em 4 de junho de 1941, aos 82 anos, poucas semanas antes da invasão do Eixo à União Soviética. Apesar do seu ressentimento pessoal e animosidade em relação à monarquia, Hitler queria trazer o corpo do Kaiser de volta a Berlim para um funeral de estado, pois Hitler sentia que tal funeral, com ele próprio a desempenhar o papel de herdeiro aparente do trono, seria útil para explorar para propaganda.\n[…]\nPaíses Baixos:\n[…]\nGuilherminismo\n[…]\nClark, Christopher M. Kaiser Wilhelm II (2000).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 38,
+    "ancora": {
+      "nome": "Adeus às Armas",
+      "descricao": "Romance de Ernest Hemingway, de 1929, sobre um motorista de ambulância americano na Primeira Guerra Mundial."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O romance Adeus às Armas, de Hemingway, sobre um motorista de ambulância americano, se passa principalmente no front de que país?",
+    "resposta": "Itália",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/A_Farewell_to_Arms"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/A_Farewell_to_Arms",
+        "situacao": "ok",
+        "texto": "A Farewell to Arms is a novel by American writer Ernest Hemingway, set during the Italian campaign of World War I. First published in 1929, it is a first-person account of an American, Frederic Henry, serving as a lieutenant (Italian: tenente) in the ambulance corps of the Italian Army. The novel describes a love affair between the American expatriate and an English nurse, Catherine Barkley.\n[…]\nLieutenant Frederic Henry: An American serving in the Italian Army as an officer directing ambulance drivers.\n[…]\nFrederic and his fellow drivers (Passini, Manera, Gordini and Gavuzzi) take the ambulance toward the front line. Passini is killed in a mortar attack. Frederic is severely wounded in the knee on the Italian front and is sent to the hospital.\n[…]\nSurgeon Rinaldi visits Frederic in the hospital and praises him for his heroism, but Frederic denies any display of such. Rinaldi also tells him that he will be shifted to a hospital in Milan soon for a better treatment. Frederic requests him to have Catherine there as a nurse. The priest pays a visit. In a discussion again, Frederic expresses his views against war. Meanwhile, America has declared war on Germany, and the Italian army is also anxious about war against Austria.\n[…]\nThe novel was partly based on Hemingway's own experiences serving in the Italian campaigns during the First World War. The inspiration for Catherine Barkley was Agnes von Kurowsky, a nurse who cared for Hemingway in a hospital in Milan after he had been wounded. He had planned to marry her, but she spurned his love when he returned to America. Kitty Cannell, a Paris-based fashion correspondent, became Helen Ferguson.\n[…]\nThe 1996 film In Love and War, directed by Richard Attenborough and starring Chris O'Donnell and Sandra Bullock, depicts Hemingway's life in Italy as an ambulance driver in the events prior to his writing of A Farewell to Arms."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Adeus_%C3%A0s_Armas",
+        "situacao": "ok",
+        "texto": "Adeus às Armas (A Farewell to Arms no original ) é um romance de Ernest Hemingway de tom autobiográfico publicado em 1929.\n[…]\nConta a história um tenente norte-americano Frederic Henry, que serve no exército italiano durante a Primeira Guerra Mundial como condutor de ambulâncias. O romance desenvolve-se em torno da sua trágica paixão por uma enfermeira inglesa. É um romance de amor e sofrimento, de lealdade e deserção.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 39,
+    "ancora": {
+      "nome": "Batalha da Jutlândia",
+      "descricao": "Batalha naval de 1916 entre a Grande Frota britânica e a Frota de Alto-Mar alemã, no Mar do Norte."
+    },
+    "angulo": "lugar",
+    "tipo": "multipla",
+    "pergunta": "Em 1916, as frotas britânica e alemã travaram a Batalha da Jutlândia no mar, perto da costa de que país?",
+    "resposta": "Dinamarca",
+    "distratores": [
+      "Noruega",
+      "Países Baixos",
+      "Bélgica"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Battle_of_Jutland"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Battle_of_Jutland",
+        "situacao": "ok",
+        "texto": "The Battle of Jutland (German: Skagerrakschlacht, lit. 'Battle of the Skagerrak') was a naval battle between Britain's Royal Navy Grand Fleet, under Admiral Sir John Jellicoe, and the Imperial German Navy's High Seas Fleet, under Vice-Admiral Reinhard Scheer, during the First World War. The battle unfolded in extensive manoeuvring and three main engagements from 31 May to 1 June 1916, off the Nort\n[…]\nBeatty's force of six ships of the 1st and 2nd Battlecruiser Squadrons plus the 5th Battle Squadron of four fast battleships left the Firth of Forth at around the same time; Jellicoe intended to rendezvous with him 90 mi (78 nmi; 140 km) west of the mouth of the Skagerrak off the coast of Jutland and wait for the Germans to appear or for their intentions to become clear. The planned position would give him the widest range of responses to likely German moves.\n[…]\nIn 1916 Contreadmiral Friedrich von Kühlwetter (1865–1931) wrote a detailed analysis of the battle and published it in a book under the title Skagerrak (first anonymously published), which was reprinted in large numbers until after World War II and had a huge influence in keeping the battle in public memory amongst Germans as it was not tainted by the ideology of the Third Reich. Kühlwetter built the School for Naval Officers at Mürwik near Flensburg, where he is still remembered.\n[…]\nWW1 Centenary News – Battle of Jutland\n[…]\nHenry Allingham Last known survivor of the Battle of Jutland\n[…]\nTable of Jutland Casualties Listed by Ship\n[…]\ngermannavalwarfare.info Some Original Documents from the British Admiralty, Room 40, regarding the Battle of Jutland: Photocopies from The National Archives, Kew, Richmond, UK.\n[…]\nBattle of Jutland Crew Lists Project\n[…]\nBattle of Jutland Crew Lists Project Wiki\n[…]\nMemorial park for the Battle of Jutland Archived 20 May 2017 at the Wayback Machine\n[…]\nBattle-of-Jutland.com The website owner has a package of original documents"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Batalha_da_Jutl%C3%A2ndia",
+        "situacao": "ok",
+        "texto": "A Batalha da Jutlândia, chamada em alemão da Batalha de Skagerrak, foi uma batalha naval travada entre a Grande Frota da Marinha Real Britânica, sob o comando do Almirante Sir John Jellicoe, e a Frota de Alto Mar da Marinha Imperial Alemã, sob o comando do Vice-Almirante Reinhard Scheer, durante a Primeira Guerra Mundial.\n[…]\nA batalha se desenrolou em extensas manobras e três confrontos principais (a ação do cruzador de batalha, a ação da frota e a ação noturna), de 31 de maio a 1º de junho de 1916, na costa do Mar do Norte da Península da Jutlândia dinamarquesa. Foi a maior batalha naval e o único confronto em grande escala de navios de guerra da guerra.\n[…]\nOs alemães planejavam usar o grupo de reconhecimento rápido do vice-almirante Franz Hipper de cinco modernos cruzadores de batalha para atrair os esquadrões de cruzadores de batalha do vice-almirante Sir David Beatty para o caminho da principal frota alemã. Eles posicionaram submarinos com antecedência nas rotas prováveis ​​dos navios britânicos.\n[…]\nA retirada de Beatty ao avistar a Frota de Alto Mar, que os britânicos não sabiam estar em mar aberto, reverteria o curso da batalha ao atrair a frota alemã em perseguição à Grande Frota Britânica. Entre 18h30, quando o sol estava se pondo no horizonte oeste, iluminando as forças alemãs, e o anoitecer por volta das 20h30, as duas frotas - totalizando 250 navios entre elas - se enfrentaram diretamente duas vezes.\n[…]\nA \" frota alemã em ser\" continuou a representar uma ameaça, exigindo que os britânicos mantivessem seus encouraçados concentrados no Mar do Norte, mas a batalha reforçou a política alemã de evitar qualquer contato frota a frota.\n[…]\n\"A Batalha da Jutlândia\" (em português)\n[…]\n\"Centenary News Lookahead: Battle of Jutland\" (em inglês)",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 40,
+    "ancora": {
+      "nome": "Atentado de Sarajevo",
+      "descricao": "Assassinato do arquiduque Francisco Ferdinando e de sua esposa em 28 de junho de 1914, estopim da Primeira Guerra Mundial."
+    },
+    "angulo": "lugar",
+    "tipo": "aberta",
+    "pergunta": "O atentado que matou o herdeiro austro-húngaro em 1914 ocorreu numa cidade que hoje é capital de que país?",
+    "resposta": "Bósnia e Herzegovina",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Assassination_of_Archduke_Franz_Ferdinand",
+        "situacao": "ok",
+        "texto": "Archduke Franz Ferdinand of Austria, heir presumptive to the Austro-Hungarian throne, and his wife, Sophie, Duchess of Hohenberg, were assassinated by Bosnian Serb student Gavrilo Princip in Sarajevo on 28 June 1914. They were shot at close range while being driven through the provincial capital of Bosnia and Herzegovina, formally annexed by Austria-Hungary in 1908. The incident was one of the key\n[…]\nUnder the guise of cultural activities, it operated to undermine the loyalty of Bosnian Serbs to the Habsburg regime. In the five years leading up to 1914, lone assassins – mostly Serb citizens of Austria-Hungary – made a series of unsuccessful assassination attempts in Croatia-Slavonia and Bosnia and Herzegovina against Austro-Hungarian officials.\n[…]\nAnti-Serb rioting broke out in Sarajevo and various other places within Austria-Hungary in the hours following the assassination until order was restored by the military. On the night of the assassination, country-wide anti-Serb pogroms and demonstrations were also organized in other parts of the Austro-Hungarian Empire, particularly on the territory of modern-day Bosnia and Herzegovina and Croatia.\n[…]\nThe court heard arguments regarding Princip's age, as there was some doubt as to his true date of birth but concluded that Princip was under 20 at the time of the assassination. Because Bosnia and Herzegovina had not been assigned to Austria or to Hungary, the Austro-Hungarian Finance Minister administered Bosnia and Herzegovina and had responsibility for recommending clemency to the emperor.\n[…]\nThe bronze medallion of Ferdinand and Sophie, which was part of a monument that was erected on the site of the assassination and demolished in 1918 during Yugoslav rule, is currently preserved in the National Gallery of Bosnia and Herzegovina in Sarajevo.\n[…]\nNewsreels about Franz Ferdinand's assassination at www.europeanfilmgateway.eu"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Atentado_de_Sarajevo",
+        "situacao": "ok",
+        "texto": "O Atentado de Sarajevo foi o assassinato do arquiduque Francisco Ferdinando da Áustria, considerado um dos principais eventos que levaram à Primeira Guerra Mundial. O arquiduque, herdeiro presuntivo do trono austro-húngaro, e sua esposa, Sofia, Duquesa de Hohenberg, foram assassinados em 28 de junho de 1914 pelo estudante sérvio-bósnio Gavrilo Princip.\n[…]\nEm 1913, o imperador Francisco José I da Áustria encarregou seu sobrinho e herdeiro, o arquiduque Francisco Ferdinando de assistir as manobras militares que ocorreram na Bósnia em junho de 1914. Após a inspeção, o arquiduque planejava visitar Sarajevo com sua esposa, onde inauguraria as novas instalações do museu público. Segundo o seu filho mais velho, o duque Maximiliano, a duquesa Sofia teria acompanhado o marido por temer por sua segurança.\n[…]\nEmbora a reunião de Toulouse, em janeiro de 1914, tenha trazido ao debate os nomes de várias personalidades austro-húngaras (incluindo Francisco Ferdinando) como possíveis alvos dos atentados, os participantes decidiram-se por enviar Mehmedbašić a Sarajevo para matar o governador da Bósnia, Oskar Potiorek.\n[…]\nFrancisco Ferdinando morreu 10 minutos depois.\n[…]\nComo a Bósnia e Herzegovina não pertencia formalmente ao Império Austro-Húngaro, o governador bósnio — e ministro das finanças austríaco — Leon Biliński pediu clemência a Francisco José I para os condenados à morte. O imperador atendeu a dois dos pedidos.\n[…]\nPor isso fui para Loznica e, neste mesmo dia ou pouco depois, enviei Rade e o professor para a Bósnia. Logo depois ocorreu o assassinato, em Sarajevo, do arquiduque Francisco Ferdinando\". Na véspera de sua execução, Malobabić disse a um padre: \"Mandaram-me ir para Sarajevo, quando o assassinato estava para acontecer e, quando tudo acabou, mandaram-me voltar e cumprir outras missões, e então houve a eclosão da guerra\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 41,
+    "ancora": {
+      "nome": "Armistício de 11 de novembro de 1918",
+      "descricao": "Acordo entre os Aliados e a Alemanha que encerrou os combates da Primeira Guerra Mundial."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "No dia 11 de novembro de 1918, a que horas o armistício entrou em vigor e as armas silenciaram?",
+    "resposta": "Às onze horas da manhã",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Armistice_of_11_November_1918",
+        "situacao": "ok",
+        "texto": "The Armistice of 11 November 1918 was the armistice that ended fighting on land, at sea, and in the air in World War I between the Entente and their last remaining opponent, Germany. It was signed in a railroad car in the Compiègne Forest, near the town of Compiègne. Previous armistices had been agreed with Bulgaria, the Ottoman Empire and Austria-Hungary.\n[…]\nAlso known as the Armistice of Compiègne (French: Armistice de Compiègne, German: Waffenstillstand von Compiègne) from the town near the place where it was officially agreed to at 5:00 a.m. by the Allied Supreme Commander, French Marshal Ferdinand Foch, it came into force at 11:00 a.m. Paris Time (11:00 UT) on 11 November 1918 and marked a victory for the Entente and a defeat for Germany, although not formally a surrender.\n[…]\nThe Armistice was agreed upon at 5:00 a.m. on 11 November 1918, to come into effect at 11:00 a.m. Paris Time (noon Berlin Time, 11:00 UT), for which reason the occasion is sometimes referred to as \"the eleventh hour of the eleventh day of the eleventh month\". Signatures were made, depending on the source of information, between 5:00 a.m. and 5:45 a.m. Paris time.\n[…]\nFirst Armistice (11 November 1918 – 13 December 1918)\n[…]\nCentenary of the Armistice of 11 November 1918\n[…]\nArmistice between the Allied Governments and Germany . 11 November 1918 – via Wikisource.\n[…]\nCuthbertson, Guy (2018). Peace at Last: A Portrait of Armistice Day, 11 November 1918. Yale University Press. ISBN 9780300254877.\n[…]\nLa convention d'armistice du 11 novembre 1918 The Armistice agreement (in French – link updated, accessed 13 February 2014)\n[…]\nWaffenstillstandsbedingungen der Alliierten Compiègne, 11. November 1918 (German text of the Armistice, abbreviated)\n[…]\nMap of Europe on Armistice Day at omniatlas.com\n[…]\nThe Moment the Guns Fell Silent – American Front, Moselle River 11 November 1918 – Metro.co.uk"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Armist%C3%ADcio_de_Compi%C3%A8gne",
+        "situacao": "ok",
+        "texto": "Nota: Não confundir com Segundo Armistício de Compiègne, assinado em 1940 por representantes da França e da Alemanha Nazista.\n[…]\nO Armistício de Compiègne, foi um armistício assinado em 11 de novembro de 1918 entre os Aliados e a Alemanha, dentro de um vagão-restaurante de uma composição ferroviária que se encontrava na floresta de Compiègne, com o objetivo de encerrar as hostilidades na frente ocidental da Primeira Guerra Mundial. Os principais signatários do armistício foram Marechal Ferdinand Foch, comandante-em-chefe das forças da Tríplice Entente, Hope, Rosslyn Wemyss, e Matthias Erzberger, o representante alemão.\n[…]\nNo dia 6 de novembro, uma delegação alemã liderada por Matthias Erzberger parte para a França, encontrando com o marechal francês Ferdinand Foch na manhã do dia 8 de novembro em uma localização secreta, próxima de Compiègne.\n[…]\nA delegação alemã se identificou e fez suas propostas aos representantes da Tríplice Entente. No dia seguinte, uma lista de demandas por parte das nações da Tríplice Entente foi entregue a delegação alemã, e foram dadas 72 horas para aprovar essas demandas.\n[…]\nO Armistício de Compiègne foi anunciado por Ferdinand Foch. Acompanhado pelo primeiro-ministro Georges Clemenceau e um representante britânico, Foch declara que: \"As hostilidades irão cessar em todo o fronte a partir do dia 11 de novembro, às 11 horas. Tropas aliadas não irão, até que recebam novas instruções, avançar em território inimigo após esta data\".\n[…]\nArmistício\n[…]\nDia do Armistício\n[…]\nWikisource. Convention d'armistice du 11 novembre 1918 (em francês).",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 42,
+    "ancora": {
+      "nome": "Jogos Olímpicos de 1916",
+      "descricao": "Olimpíadas de verão que seriam realizadas em Berlim e foram canceladas por causa da Primeira Guerra Mundial."
+    },
+    "angulo": "tempo",
+    "tipo": "aberta",
+    "pergunta": "Berlim deveria sediar os Jogos Olímpicos de 1916, cancelados pela guerra. Em que ano a cidade finalmente recebeu as Olimpíadas?",
+    "resposta": "1936",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/1916_Summer_Olympics"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/1916_Summer_Olympics",
+        "situacao": "ok",
+        "texto": "The 1916 Summer Olympics (German: Olympische Sommerspiele 1916), officially known as the Games of the VI Olympiad (German: Spiele der VI. Olympiade), were scheduled to be held in Berlin, Germany, but they were cancelled due to the outbreak of World War I, the first time in the twenty-year history of the Games. Berlin was selected as the host city during the 14th IOC Session in Stockholm on 4 July \n[…]\nAfter the 1916 Games were cancelled, Berlin would eventually host the 1936 Summer Olympics, twenty years later.\n[…]\nBerlin returned to Olympic bidding in 1931, when it beat Barcelona, Spain, for the right to host the 1936 Summer Olympics, the last Olympics before the outbreak of World War II.\n[…]\nAt the beginning of 1914, there were fast preparations for the upcoming Olympic Games. First, they had to build the stadium, which took a very long time. After that, Carl Diem, General Secretary of the Organising Committee for the 1916 Games, had to focus on financing the games, which was difficult because the cost would come to about 1,321 million marks (US$738,902,671).\n[…]\nOn 8 August 1915, the stadium was reopened to hold \"war competitions\" in swimming and cycling, but on 10 February 1916, the Competition Committee of the DRAfOS finally got together again, not since the beginning of the war. They had decided that there would be small games that would take place to get different athletes a chance to compete.\n[…]\nDespite the efforts of Coubertin, Diem and many others, the official games had to be canceled and only resumed in 1920, after the end of the war. The Summer Olympics ultimately took place in Berlin in 1936, twenty years after they were supposed to happen, and eighteen years after the war had ended.\n[…]\nOlympic Games abandoned due to war\n[…]\n1916 Summer Olympics\n[…]\n1940 Summer Olympics\n[…]\n1940 Winter Olympics\n[…]\n1944 Summer Olympics\n[…]\n1944 Winter Olympics"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Jogos_Ol%C3%ADmpicos_de_Ver%C3%A3o_de_1916",
+        "situacao": "ok",
+        "texto": "Os Jogos Olímpicos de 1916 (em alemão: Olympische Spiele 1916), conhecidos oficialmente como Jogos da VI Olimpíada, seriam os sextos Jogos Olímpicos da era moderna. Deveriam ser realizados em Berlim, capital das Alemanha entre 28 de maio e 10 de julho, o que não aconteceu, devido à Primeira Guerra Mundial.\n[…]\nEm maio de 1912, o Comité Olímpico Internacional escolheu Berlim como cidade organizadora dos Jogos da VI Olimpíada, em detrimento de Alexandria, Amesterdão, Bruxelas, Budapeste e Cleveland. Quando se iniciou a primeira guerra mundial, em 1914 os preparativos dos Jogos não foram interrompidos, pois não se previa que a guerra durasse tantos anos, mas o prolongamento do conflito tornou impossível a realização do evento.\n[…]\nOs Jogos da VI Olimpíada foram concedidos a Berlim na 15.ª Sessão do COI, em Estocolmo em 4 de julho de 1912, durante os Jogos anteriores e a favorita era Budapeste. Outras cidades também manifestaram interesse em sediar os próximos Jogos: Alexandria, Amesterdão, Bruxelas e Cleveland.\n[…]\nO Conselho Imperial Alemão para os Jogos Olímpicos pensou que a guerra terminaria antes de 1916 e continuou com os preparativos para as Olimpíadas. Em março de 1915, o Conselho Imperial Alemão anunciou que todos os sistemas estavam em andamento, mas que apenas nações aliadas à Alemanha e nações neutras seriam convidadas para os Jogos.\n[…]\nIsso não foi bem visto pelo COI e várias cidades dos Estados Unidos se ofereceram para sediar o evento, incluindo Chicago, Nova Iorque, Newark, Cleveland, São Francisco e Filadélfia. Amesterdão se preparou para substituir os antigos anfitriões e adiar os Jogos para agosto e setembro. Em uma carta ao The New York Times em março de 1915, Coubertin admitiu que os Jogos Olímpicos de 1916 poderiam não ser realizados, mas não seriam removidos de Berlim.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 43,
+    "ancora": {
+      "nome": "Catorze Pontos",
+      "descricao": "Programa de paz apresentado pelo presidente americano Woodrow Wilson ao Congresso em janeiro de 1918."
+    },
+    "angulo": "numero",
+    "tipo": "aberta",
+    "pergunta": "Em janeiro de 1918, o presidente dos Estados Unidos apresentou ao Congresso um plano de paz dividido em quantos pontos?",
+    "resposta": "Catorze",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Fourteen_Points"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Fourteen_Points",
+        "situacao": "ok",
+        "texto": "The Fourteen Points was a statement of principles for peace that was to be used for peace negotiations in order to end World War I. The principles were outlined in a January 8, 1918, speech on war aims and peace terms to the United States Congress by President Woodrow Wilson. However, his main Allied colleagues (Georges Clemenceau of France, David Lloyd George of the United Kingdom, and Vittorio E\n[…]\nIn his speech to Congress, President Wilson declared fourteen points which he regarded as the only possible basis of an enduring peace:\n[…]\nAs a major public statement of war aims, it became the basis for the terms of the German surrender at the end of the First World War. After the speech, Colonel House worked to secure the acceptance of the Fourteen Points by Entente leaders. On October 16, 1918, President Woodrow Wilson and Sir William Wiseman, the head of British intelligence in America, had an interview.\n[…]\nIn late October 1918, President Wilson's close adviser Colonel House asked Frank I. Cobb and Walter Lippmann to write an analysis of the Fourteen Points which he then sent to US Secretary of State Robert Lansing. In this analysis, Cobb and Lippmann elaborated on each of the Fourteen Points in extremely great detail.\n[…]\nSnell, John L. (1954). \"Wilson on Germany and the Fourteen Points\". Journal of Modern History. 26 (4): 364–369. doi:10.1086/237737. JSTOR 1876113. S2CID 143980616.\n[…]\nWilson, Woodrow. \"Address of the President of the United States: delivered at a joint session of the two houses of Congress, January 8, 1918\" online\n[…]\nText of Wilson's message to Congress outlining 14 points January 8, 1918\n[…]\nInterpretation of President Wilson's Fourteen Points Archived 2011-03-07 at the Wayback Machine by Edward M. House\n[…]\n\"President Wilson's Fourteen Points\" from the World War I Document Archive\n[…]\nArthur Balfour's speech on the Fourteen Points to Parliament, on February 27, 1918 – firstworldwar.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Quatorze_Pontos",
+        "situacao": "ok",
+        "texto": "Os \"Quatorze Pontos\" constituíam um plano para a paz mundial a ser tidos em conta nas negociações da paz após a Primeira Guerra Mundial, elucidados pelo Presidente dos Estados Unidos da América Woodrow Wilson num discurso, a 8 de Janeiro de 1918.\n[…]\nA Europa em geral recebeu calorosamente os Catorze Pontos de Wilson, mas os seus principais colegas líderes Aliados (Georges Clemenceau da França, David Lloyd George do Reino Unido, e Vittorio Emanuele Orlando da Itália) eram cépticos quanto à aplicabilidade do idealismo Wilsoniano.\n[…]\nO discurso feito por Wilson a 8 de Janeiro de 1918 expunha uma política de livre-cambismo, divulgação de tratados, democracia e autodeterminação dos povos. O discurso dos Catorze Pontos foi a única declaração explícita dos objetivos de guerra feita por qualquer uma das nações beligerantes da Primeira Guerra Mundial (alguns Estados deram indicações gerais dos seus objetivos; a maioria manteve em segredo os seus objetivos pós-guerra).\n[…]\nEmbora o idealismo de Wilson permeasse os Quatorze Pontos, ele também tinha objetivos mais práticos em mente. Ele esperava manter a Rússia na guerra, convencendo os bolcheviques de que eles receberiam uma paz melhor dos Aliados, para reforçar o moral dos Aliados e para minar o apoio alemão à guerra. O discurso foi bem recebido nos Estados Unidos e nações aliadas e até mesmo pelo líder bolchevique Vladimir Lênin, como um marco do esclarecimento nas relações internacionais.\n[…]\nEsta visão estava expressa nos seus Catorze Pontos; a enunciar:\n[…]\nTexto da mensagem de Wilson ao Congresso delineando 14 pontos 8 de janeiro de 1918\n[…]\nDiscurso de Arthur Balfour sobre os Quatorze Pontos ao Parlamento, em 27 de fevereiro de 1918 – firstworldwar.com",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 44,
+    "ancora": {
+      "nome": "Tratado de Versalhes",
+      "descricao": "Tratado de paz assinado em 1919 entre a Alemanha e os Aliados, que encerrou formalmente a Primeira Guerra Mundial."
+    },
+    "angulo": "numero",
+    "tipo": "multipla",
+    "pergunta": "O Tratado de Versalhes limitou o exército alemão a, no máximo, quantos soldados?",
+    "resposta": "Cem mil",
+    "distratores": [
+      "Cinquenta mil",
+      "Duzentos e cinquenta mil",
+      "Quinhentos mil"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Treaty_of_Versailles"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Treaty_of_Versailles",
+        "situacao": "ok",
+        "texto": "The Treaty of Versailles was a peace treaty signed on 28 June 1919. As the most important treaty of World War I, it ended the state of war between Germany and most of the Allied Powers. It was signed in the Palace of Versailles, exactly five years after the assassination of Archduke Franz Ferdinand, the proximate cause of the war. The other Central Powers on the German side signed separate treatie\n[…]\nShort of allowing Germany to keep all the conquests of the Treaty of Brest-Litovsk, Evans argued that there was nothing that could have been done to persuade the German right to accept Versailles.\n[…]\nFinally, Peukert argued that it was the Great Depression and the turn to a nationalist policy of autarky within Germany at the same time that finished off the Weimar Republic, not the Treaty of Versailles.\n[…]\nThe Treaty of Versailles resulted in the creation of several thousand miles of new boundaries, with maps playing a central role in the negotiations at Paris. The plebiscites initiated due to the treaty have drawn much comment. Historian Robert Peckham wrote that the issue of Schleswig \"was premised on a gross simplification of the region's history. ...\n[…]\nHermann Göring first met Adolf Hitler at a speech which Hitler gave at a rally against French demands for the extradition of alleged German war criminals under the Versailles treaty.\n[…]\nLittle Treaty of Versailles\n[…]\nTreaty of Versailles Resource Guide from the Library of Congress\n[…]\nThe consequences of the Treaty of Versailles for today's world\n[…]\n\"Versailles Revisted\" (Review of Manfred Boemeke, Gerald Feldman and Elisabeth Glaser, The Treaty of Versailles: A Reassessment after 75 Years. Cambridge, UK: German Historical Institute, Washington, and Cambridge University Press, 1998), Strategic Studies 9:2 (Spring 2000), 191–205\n[…]\nMap of Europe and the impact of the Versailles Treaty Archived 16 March 2015 at the Wayback Machine at omniatlas.com"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tratado_de_Versalhes_%281919%29",
+        "situacao": "ok",
+        "texto": "O Tratado de Versalhes foi um tratado de paz assinado em 28 de junho de 1919. Sendo o tratado mais importante da Primeira Guerra Mundial, ele encerrou oficialmente o estado de guerra entre a Alemanha e a maioria das potências aliadas. Foi assinado no Palácio de Versalhes, exatamente cinco anos após o assassinato do arquiduque Francisco Fernando, a causa imediata da guerra. As outras nações dos Imp\n[…]\nA historiadora Ewa Thompson ressalta que o Tratado de Versalhes facultou a dezenas de nacionalidades da Europa Central e Oriental a oportunidade histórica de libertar-se da dominação colonial imperial exercida historicamente pelos impérios vizinhos — realidade comumente negligenciada pela historiografia ocidental clássica, amiúde voltada a examinar a perspectiva e os ressentimentos alemães.\n[…]\nDurante a conferência preparatória, os britânicos defendiam a extinção do recrutamento obrigatório alemão com a criação de um exército voluntário reduzido, enquanto a delegação francesa insistia em admitir um exército conscrito de até 200.000 homens para justificar a manutenção de suas próprias guarnições metropolitanas. A fixação de um teto de 100.000 soldados profissionais resultou de um compromisso entre Londres e Paris.\n[…]\nO Tratado de Versalhes suscitou um rancor permanente e generalizado na Alemanha, amplamente explorado por Adolf Hitler em sua escalada rumo ao poder. O pilar central de sua propaganda apoiava-se no mito da facada pelas costas (Dolchstoßlegende), que pregava que os exércitos imperiais não haviam sido derrotados nas frentes de batalha, mas sim traídos internamente por líderes republicanos, socialistas e judeus que haviam assinado o armistício e a capitulação de Versalhes.\n[…]\nPequeno Tratado de Versalhes\n[…]\nAspects of British Policy and the Treaty of Versailles (em inglês). [S.l.]: Routledge. 2020\n[…]\nGuia de Recursos sobre o Tratado de Versalhes na Biblioteca do Congresso dos EUA",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 45,
+    "ancora": {
+      "nome": "Tríplice Aliança",
+      "descricao": "Aliança militar formada em 1882 entre Alemanha, Áustria-Hungria e Itália."
+    },
+    "angulo": "composicao",
+    "tipo": "multipla",
+    "pergunta": "Antes da guerra, que país formava a Tríplice Aliança com a Alemanha e a Áustria-Hungria, mas acabou lutando contra elas?",
+    "resposta": "Itália",
+    "distratores": [
+      "Rússia",
+      "Bulgária",
+      "Grécia"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Triple_Alliance_(1882)"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Triple_Alliance_(1882)",
+        "situacao": "ok",
+        "texto": "The Triple Alliance was a defensive military alliance between Germany, Austria-Hungary, and Italy. It was formed on 20 May 1882 and renewed periodically until it expired in 1915 during World War I. Germany and Austria-Hungary had been closely allied since 1879. Italy was looking for support against France shortly after it lost North African ambitions to the French. Each member promised mutual supp\n[…]\nItaly had several motives for joining the existing Austro-German alliance. The Italian government at that time was controlled by conservatives, who sympathized ideologically with the two monarchies. Also, Catholic Austria was a traditional protector of the Papacy, which Italy had poor relations with. However, perhaps most importantly, Italy was seeking potential allies against France.\n[…]\nHowever, Italian public opinion remained unenthusiastic about their country's alignment with Austria-Hungary, a past enemy of Italian unification and whose Italian-populated districts in the Trentino and Istria were seen as occupied territories by Italian irredentists. In the years before World War I, many distinguished military analysts predicted that Italy would attack its supposed ally in the event of a large scale conflict.\n[…]\nOn its own hand, the Austro-Hungarian General Staff maintained at least from 1903 plans for a possible war against Rome. Mutual suspicions led to reinforcement of the frontier and speculation in the press about a war between the two countries into the first decade of the 20th century. As late as 1911, Count Franz Conrad von Hötzendorf, the chief of the Austro-Hungarian General Staff, was advocating a preemptive strike against Austria's supposed Italian ally.\n[…]\nPribram, Alfred Francis (ed.)(1921). The Secret Treaties of Austria-Hungary, 1879–1914 Vol. 2. The most thorough history of the Triple Alliance, with text of major documents."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tr%C3%ADplice_Alian%C3%A7a_%281882%29",
+        "situacao": "ok",
+        "texto": "Tríplice Aliança (em alemão:  Dreibund, em italiano:  Triplice Alleanza) foi uma aliança militar defensiva entre o Império Alemão, a Áustria-Hungria e o Reino da Itália. Foi formado em 20 de maio de 1882 e renovado periodicamente até expirar em 1915 durante a Primeira Guerra Mundial. A Alemanha e a Áustria-Hungria eram estreitamente aliadas desde 1879. A Itália buscava apoio contra a França pouco \n[…]\nApós negociações paralelas com a Tríplice Aliança (que visava manter a Itália neutra) e a Tríplice Entente (que visava fazer a Itália entrar no conflito), a Itália se aliou à Tríplice Entente e declarou guerra à Áustria-Hungria.\n[…]\nIncapaz de mediar entre os impérios otomano e russo sobre o controle da Sérvia, a Áustria-Hungria declarou neutralidade quando o conflito entre os impérios se transformou em guerra. Para combater os interesses russos e franceses na Europa, uma aliança foi concluída com a Alemanha em outubro de 1879 e com a Itália em maio de 1882.\n[…]\nAo aderir à Aliança, a Itália esperava garantir-se apoio em caso de agressão estrangeira. A aliança principal obrigava qualquer país signatário a apoiar as outras partes se dois outros países atacassem. A Alemanha havia vencido uma guerra contra a França em 1870 e era um aliado natural da Itália. Assim, a Itália se viu se conformando com seu inimigo histórico, a Áustria-Hungria, contra o qual a Itália havia travado três guerras nos 34 anos anteriores à assinatura do primeiro tratado.\n[…]\nEssa previsão foi reforçada pela invasão e anexação da Líbia pela Itália, colocando-a em conflito com o Império Otomano apoiado pela Alemanha.\n[…]\nA razão oficial da Romênia para não se aliar à Tríplice Aliança quando a guerra começou era a mesma da Itália: a Tríplice Aliança era uma aliança defensiva, mas a Alemanha e a Áustria-Hungria haviam tomado a ofensiva.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 46,
+    "ancora": {
+      "nome": "Conferência de Paz de Paris",
+      "descricao": "Encontro dos países vencedores em 1919 e 1920 que definiu os tratados de paz após a Primeira Guerra Mundial."
+    },
+    "angulo": "composicao",
+    "tipo": "aberta",
+    "pergunta": "Que brasileiro chefiou a delegação do país na Conferência de Paz de Paris, em 1919, e foi eleito presidente enquanto estava lá?",
+    "resposta": "Epitácio Pessoa",
+    "fonte": [
+      "https://pt.wikipedia.org/wiki/Epit%C3%A1cio_Pessoa",
+      "https://en.wikipedia.org/wiki/Epit%C3%A1cio_Pessoa"
+    ],
+    "trechos": [
+      {
+        "url": "https://pt.wikipedia.org/wiki/Epit%C3%A1cio_Pessoa",
+        "situacao": "ok",
+        "texto": "Epitácio Lindolfo da Silva Pessoa (Umbuzeiro, 23 de maio de 1865 – Petrópolis, 13 de fevereiro de 1942) foi um magistrado, diplomata, professor universitário, jurista e político brasileiro, filiado ao Partido Republicano Mineiro. Foi o 11.º presidente do Brasil entre os anos de 1919 a 1922, tendo o seu governo marcado por revoltas militares que acabariam na Revolução de 1930, a qual levou Getúlio \n[…]\nCom o fim da Primeira Guerra Mundial, chefiou a delegação do Brasil na Conferência de Paz de Versalhes, em 1919. Rui Barbosa, indicado chefe da delegação, renunciou, sendo substituído por Epitácio. A delegação brasileira, apoiada pelos Estados Unidos, obteve bons resultados quanto aos problemas que mais de perto interessavam ao Brasil: a venda do café brasileiro armazenado em portos europeus e os 70 navios alemães apreendidos pelo Brasil durante a guerra.\n[…]\nEpitácio disputou a sucessão de Delfim Moreira, vice-presidente da república que assumiu a presidência devido ao falecimento do presidente eleito Rodrigues Alves. Foi indicado candidato a presidente quando representava o Brasil na Conferência de Versalhes. Nas eleições de 13 de abril de 1919, Epitácio teve 286 373 votos contra 116 414 votos dados ao já septuagenário Rui Barbosa, vencendo as eleições sem nem ter saído da França. Retornou ao Brasil em 21 de junho de 1919.\n[…]\nA eleição de Epitácio Pessoa ocorreu quando ele estava na França, caso único na história da república brasileira. Sua eleição também foi a única na República Velha que não ocorreu na data oficial das eleições presidenciais: 1 de março.\n[…]\n\"O movimento operário brasileiro\" (1906) - ensaio de Epitácio Pessoa sobre o movimento operário no Brasil.\n[…]\nSILVA, Hélio, Epitácio Pessoa 11º Presidente do Brasil, Editora Três, 1984.\n[…]\nO governo Epitácio Pessoa no site oficial da Presidência da República do Brasil\n[…]\nBiografia de Epitácio da Silva Pessoa no UOL Educação (em português)"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Epit%C3%A1cio_Pessoa",
+        "situacao": "ok",
+        "texto": "Epitácio Lindolfo da Silva Pessoa (Portuguese pronunciation: [epiˈtasju lĩˈdowfu da ˈsiwvɐ peˈso(w)ɐ]; 23 May 1865 – 13 February 1942) was a Brazilian politician and jurist who served as the 11th president of Brazil between 1919 and 1922, when Rodrigues Alves was unable to take office due to illness, after being elected in 1918. His government was marked by the beginning of the tenentist movement \n[…]\nIn 1921, President Epitácio Pessoa, concerned about causing a geopolitical faux pas, is known for having banned any non-white players from Brazil national football team.\n[…]\nAfter leaving the presidency, Epitácio Pessoa was elected to be a Justice of the Permanent Court of International Justice at The Hague, and stayed on the bench until November 1930. From 1924 until the Revolution of 1930, he was a senator for Paraíba. He supported the revolution, which implemented the ideals of earlier army revolts. The assassination of his nephew João Pessoa was a strong emotional blow to Epitácio, and in its aftermath he retired from public life.\n[…]\nVice-presidents\n[…]\n__________ Perfis Parliamentares 07 – Epitácio Pessoa, Editora Câmara dos Deputados, 1978.\n[…]\n__________ Bacharel Epitácio Pessoa e o Glorioso Levante Militar de 5 de Julho, Editora S / E, 1922.\n[…]\n__________ 1º Centenário de Nascimento de Epitácio Pessoa, Editora A União, 1965.\n[…]\nPessoa, Epitácio, Obras Completas, Editora Instituto Nacional do Livro, 1955.\n[…]\nPessoa, Mário, Legalismo e Coragem em Epitácio Pessoa, Editora Imprensa Universitária, 1965.\n[…]\nMelo, Fernando, Epitácio Pessoa uma Biografia, Editora Idéia, 2005.\n[…]\nSilva, Hélio, Epitácio Pessoa 11º Presidente do Brasil, Editora Três, 1984.\n[…]\nValadão, Haroldo, Epitácio Pessoa Jurista da Codificação Americana do Direito Internacional, Rio de Janeiro, 1977.\n[…]\nZenaide, Hélio Nóbrega, Epitácio Pessoa, Editora A União, 2000.\n[…]\nO governo Epitácio Pessoa no sítio oficial da Presidência da República do Brasil"
+      }
+    ]
+  },
+  {
+    "indice": 47,
+    "ancora": {
+      "nome": "Brasil na Primeira Guerra Mundial",
+      "descricao": "Participação brasileira no conflito, a partir da declaração de guerra à Alemanha em outubro de 1917."
+    },
+    "angulo": "comparacao",
+    "tipo": "multipla",
+    "pergunta": "Entre estes quatro países aliados, qual entrou por último na Primeira Guerra Mundial?",
+    "resposta": "Brasil",
+    "distratores": [
+      "Estados Unidos",
+      "Itália",
+      "Japão"
+    ],
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Brazil_during_World_War_I",
+      "https://en.wikipedia.org/wiki/American_entry_into_World_War_I"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Brazil_during_World_War_I",
+        "situacao": "ok",
+        "texto": "During World War I (1914–1918), Brazil initially adopted a neutral position in accordance with the Hague Convention as an attempt to maintain markets for its export products, mainly coffee, latex, and industrially manufactured items.\n[…]\nBrazil's main military involvement in World War I took place at sea. In particular, the Secretary of the Navy ordered the use of naval power in the anti-submarine campaign, with Admiral Alexandre Faria de Alencar organizing a task force that would allow the effective participation of the Brazilian Navy in World War I. Ministerial Notice No.\n[…]\nBrazil in World War II\n[…]\nDonato, Hernâni, 1987 Dicionário das Batalhas Brasileiras (\"Dictionary of Brazilian Battles\") (in Portuguese) IBRASA, 1987 ISBN 8534800340\n[…]\nFaria, Ivan Rodrigues de, 1996 Participação do Brasil na Primeira Guerra Mundial (in Portuguese) ('Brazil's participation in World War I') Brazilian Army Journal, Rio – DPHCEx, (p. 67)\n[…]\nFrota, Guilherme de Andrea, 2000 500 Anos de História do Brasil (in Portuguese) Brazilian Army Press, ISBN 8570112777\n[…]\nMaia, Prado, 1961, D.N.O.G. (Divisão Naval em Operações de Guerra), 1914–1918: uma página esquecida da história da Marinha Brasileira (in Portuguese) ('DNOG – Naval Fleet in War Operations, 1914–1918: A forgotten page of Brazilian Navy History') (Brazilian) Navy General Documentation Service, OCLC 22210405\n[…]\nCompagnon, Olivier, 2014, O Adeus à Europa. A América Latina e a Grande Guerra (Argentina e Brasil, 1914–1939), Rio de Janeiro, Editora Rocco, ISBN 9788532529275\n[…]\nCristina Luna: Brazilian Naval Division for War Operations (DNOG), in: 1914–1918-online. International Encyclopedia of the First World War.\n[…]\nInformation about Brazil's participation in the World War I conflict."
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/American_entry_into_World_War_I",
+        "situacao": "ok",
+        "texto": "The United States entered World War I on April 6, 1917, more than two and a half years after the war began in Austria-Hungary. Apart from an Anglophile element urging early support for the British and an anti-tsarist element sympathizing with Germany's war against Russia, American public opinion had generally reflected a desire to stay out of the war.\n[…]\nPershing, particularly during the final Hundred Days Offensive.\n[…]\nThe US steel industry had faced difficulties and declining profits during the recession of 1913–1914. As war began in Europe, however, the increased demand for tools of war began a period of heightened productivity that alleviated many US industrial companies from the low-growth environment of the recession. Bethlehem Steel took particular advantage of the increased demand for armaments abroad.\n[…]\nIn the case of Alaska, which was at the time a territory, thousands of Serbian immigrants and Serbian-Americans volunteered early to join the U.S. Army shortly after the declaration of war, after the community had been outspokenly in favor of the US's entry into the war before this. During the First World War, many Serbian Americans volunteered to fight overseas, with thousands coming from Alaska.\n[…]\nTwenty years after World War I ended, 70% of Americans polled believed that US participation in the war had been a mistake.\n[…]\nCauses of World War I\n[…]\nItalian entry into World War I\n[…]\nJapanese entry into World War I\n[…]\nUnited States in World War I\n[…]\nUnited States home front during World War I\n[…]\nMiller, Alisa: Press/Journalism (USA), in: 1914-1918-online. International Encyclopedia of the First World War.\n[…]\nWells, Robert A.: Propaganda at Home (USA), in: 1914-1918-online. International Encyclopedia of the First World War.\n[…]\nWorld War I: Declarations of War from Around the Globe – How America Entered the Great War\n[…]\nToday in History: U.S. Enters World War I"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Brasil_na_Primeira_Guerra_Mundial",
+        "situacao": "ok",
+        "texto": "O Brasil na Primeira Guerra Mundial (1914-1918) tinha uma posição neutra respaldada pela Convenção de Haia, buscando não restringir os seus produtos exportados na época, principalmente o café. A Alemanha era, na época, o principal parceiro comercial do Brasil, sendo seguida pela Inglaterra e pela França. Após o afundamento de navios mercantes brasileiros por submarinos da Marinha Imperial Alemã, o\n[…]\nA abertura dos portos brasileiros a unidades aliadas e a responsabilidade pelo patrulhamento do Atlântico Sul pela esquadra brasileira foram as primeiras ações em apoio ao esforço de guerra aliado. A Divisão Naval em Operações de Guerra, comandada pelo contra-almirante Pedro Max Fernando Frontin, incorporou-se à esquadra britânica em Gibraltar e realizou o primeiro esforço naval brasileiro em águas internacionais.\n[…]\nO maior contingente foi de ítalo-brasileiros (italianos residentes no Brasil e seus descendentes). Quando a Itália entrou na guerra em maio de 1915 (ao lado dos Aliados), o Reino convocou reservistas e aceitou voluntários no exterior. Jornais ítalo-brasileiros, como o Fanfulla de São Paulo, incentivaram o alistamento.\n[…]\nNa revista A Defesa Nacional, por eles fundada, o sentimento germanófilo predominava. Entretanto, após a guerra o Brasil contratou uma Missão Militar Francesa. As lições da Primeira Guerra influenciaram a decisão brasileira de participar ativamente na Segunda.\n[…]\nDaróz, Carlos. \"O Brasil na Primeira Guerra Mundial\" Editora Contexto 2016. ISBN 9788572449526\n[…]\nFaria, Ivan Rodrigues de. \"Participação do Brasil na Primeira Guerra Mundial\" (em português) ('Brazil's participation in World War I') Brazilian Army Journal, Rio - DPHCEx, 1996 (Page 67)\n[…]\nO Brasil na Primeira Guerra Mundial e a DNOG – Grandes Guerras\n[…]\nNavios Brasileiros\n[…]\nUniformes brasileiros na Primeira Guerra Mundial (em português e inglês)\n[…]\nNavios estrangeiros atacados no Brasil durante Primeira Guerra Mundial",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 48,
+    "ancora": {
+      "nome": "Marie Curie",
+      "descricao": "Física e química polonesa naturalizada francesa, pioneira no estudo da radioatividade e ganhadora de dois prêmios Nobel."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Durante a Primeira Guerra, Marie Curie organizou ambulâncias equipadas com que tecnologia para examinar soldados feridos perto do front?",
+    "resposta": "Raios X",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Marie_Curie"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Marie_Curie",
+        "situacao": "ok",
+        "texto": "Maria Salomea Skłodowska Curie  (née Skłodowska; 7 November 1867 – 4 July 1934), better known as Marie Curie, was a Polish and naturalised-French physicist and chemist. She shared the 1903 Nobel Prize in Physics with her husband, Pierre Curie, \"for their joint researches on the  radioactivity phenomena discovered by Professor Henri Becquerel\".\n[…]\nIn addition to her Nobel Prizes, she received numerous other honours and tributes; in 1995, she became the first woman to be entombed on her own merits in the Paris Panthéon, and Poland declared 2011 the Year of Marie Curie during the International Year of Chemistry. Curie is the subject of numerous biographies, including Madame Curie by her daughter Ève. The synthetic element curium is named in her honour.\n[…]\nThe Marie Skłodowska-Curie Actions fellowship program of the European Union for young scientists wishing to work in a foreign country\n[…]\nMaria Curie-Skłodowska University in Lublin, Poland\n[…]\nMaria Skłodowska-Curie National Research Institute of Oncology in Poland\n[…]\nÈve Curie (Marie Curie's daughter), Madame Curie, 1938.\n[…]\n2014: Marie Curie, une femme sur le front, a French-Belgian film, directed by Alain Brunard and starring Dominique Reymond.\n[…]\nKaczorowska, Teresa (2011). Córka mazowieckich równin, czyli, Maria Skłodowska-Curie z Mazowsza [Daughter of the Mazovian Plains: Maria Skłodowska–Curie of Mazowsze] (in Polish). Związek Literatów Polskich, Oddział w Ciechanowie. ISBN 978-83-89408-36-5. Retrieved 15 March 2016.\n[…]\nOlov Enquist, Per (2006). The Book about Blanche and Marie. New York: Overlook. ISBN 978-1-58567-668-2. A 2004 novel by Per Olov Enquist featuring Maria Skłodowska-Curie, neurologist Jean-Martin Charcot, and his Salpêtrière patient \"Blanche\" (Marie Wittman). The English translation was published in 2006.\n[…]\nWorks by Marie Curie at Project Gutenberg\n[…]\nMarie Curie on Nobelprize.org"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Marie_Curie",
+        "situacao": "ok",
+        "texto": "Marie Skłodowska-Curie, nascida Maria Salomea Skłodowska (Varsóvia, 7 de novembro de 1867 — Passy, 4 de julho de 1934), foi uma física e química polonesa naturalizada francesa, que conduziu pesquisas pioneiras sobre radioatividade. Foi a primeira mulher a ganhar o Prêmio Nobel, sendo também a primeira pessoa e a única mulher a ganhá-lo duas vezes, além de ser a única pessoa a ter ganhado o Prêmio \n[…]\nDurante a Primeira Guerra Mundial, Curie reconheceu que os soldados feridos eram mais bem socorridos quando eram operados o mais rapidamente possível. Ela viu a necessidade de centros radiológicos de campo perto das linhas de frente para ajudar os cirurgiões do campo de batalha.\n[…]\nOs efeitos nocivos da radiação ionizante não eram conhecidos na época de seu trabalho, que haviam sido realizados sem as medidas de segurança desenvolvidas posteriormente. Ela carregava tubos de ensaio contendo isótopos radioativos no bolso e os guardava na gaveta da mesa, observando a fraca luz que as substâncias emitiam no escuro. Curie também foi exposta a raios-X de equipamentos não blindados enquanto servia como radiologista em hospitais de campanha durante a guerra.\n[…]\nVárias instituições levam seu nome, começando pelos dois institutos Curie: o Instituto de Oncologia Maria Skłodowska-Curie, em Varsóvia, e o Institut Curie, em Paris. Ela é a padroeira da Universidade Maria Curie-Skłodowska, em Lublin, fundada em 1944; e da Universidade Pierre e Marie Curie (Paris VI), a principal universidade de ciências da França. Na Grã-Bretanha, o Marie Curie Cancer Care foi organizado em 1948 para cuidar dos doentes terminais.\n[…]\nMarie Curie, une femme sur le front, telefilme franco-belga lançado em 2014, sobre suas ações na Primeira Guerra Mundial. No longa-metragem, Curie é interpretada por Dominique Reymond, que por sua atuação, ganhou o prêmio de \"Melhor Atriz\" no \"Luchon Television Creations Festival\".",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 49,
+    "ancora": {
+      "nome": "Trégua de Natal",
+      "descricao": "Série de cessar-fogos informais entre soldados britânicos e alemães na Frente Ocidental no Natal de 1914."
+    },
+    "angulo": "atributo",
+    "tipo": "aberta",
+    "pergunta": "Segundo relatos da Trégua de Natal de 1914, soldados britânicos e alemães chegaram a praticar juntos que esporte na terra de ninguém?",
+    "resposta": "Futebol",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/Christmas_truce"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Christmas_truce",
+        "situacao": "ok",
+        "texto": "The Christmas truce was a series of widespread unofficial ceasefires mainly along the Western Front of the First World War around Christmas in 1914.\n[…]\nOn 29 October 2021, the Swedish heavy-metal band Sabaton released their single \"Christmas Truce\" about the events of the Christmas Truce in 1914, followed 40 days later by an animated story video set to the song in cooperation with the animated history YouTube channel Yarnhub.\n[…]\nA Christmas Truce memorial was unveiled in Frelinghien, France, on 11 November 2008. At the spot where their regimental ancestors came out from their trenches to play football on Christmas Day 1914, men from the 1st Battalion, the Royal Welch Fusiliers played a football match with the German Battalion 371. The Germans won 2–1.\n[…]\nAnother re-enactment is held each year in Ploegsteert on the last weekend before Christmas. This is the place where a football match was played in 1914 during the Truce. This re-enactment gradually gained importance to include a bivouac, permanent trenches, a football match, public support and a peace candle ceremony\n[…]\nUnderstanding the 1914 Christmas Truce and the evidence for football by Simon Jones.\n[…]\nChristmas Truce 1914\n[…]\nSimple Gifts: 25 December 1914 on YouTube – R.O. Blechman presents Simple Gifts (1977 animation TV special) 25 December 1914 segment inspired by the legendary Christmas Truce. Captain Hulse's letter narrated by David Jones.\n[…]\nThe evolution of trust (An interactive visualisation of the Christmas truce as well as the evolution of trust)\n[…]\nAlexandre Lafon: Christmas Truce, in: 1914-1918-online. International Encyclopedia of the First World War."
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/Tr%C3%A9gua_de_Natal",
+        "situacao": "ok",
+        "texto": "Trégua de Natal (em inglês, Christmas truce; em alemão, Weihnachtsfrieden) é o termo usado para descrever o armistício informal ocorrido ao longo da Frente Ocidental no Natal de 1914, durante a Primeira Guerra Mundial. Durante a semana que antecedeu o Natal, soldados alemães e britânicos trocaram saudações festivas e canções entre suas trincheiras; na ocasião, a tensão foi reduzida a ponto dos ind\n[…]\nNa véspera de Natal e no Dia de Natal, muitos soldados de ambos os lados — bem como, unidades francesas ainda que em menor número — se aventuraram na \"terra de ninguém\", onde se encontraram, trocaram alimentos e presentes, e entoaram cantos natalinos ao longo de diversos encontros. As tropas de ambos os lados também foram amigáveis o suficiente para jogarem partidas de futebol.\n[…]\nO historiador americano Stanley Weintraub calculou em, aproximadamente, cem mil soldados de ambos os lados, aderindo em algum momento às tréguas de natal de 1914. Embora não houvesse nenhuma trégua oficial, soldados britânicos e alemães estavam envolvidos em cessar-fogos da frente ocidental.\n[…]\n“Os alemães alinhados de um lado, os britânicos de outro, os oficiais à frente, todos de cabeça descoberta.” É sabido foi realizada, ao menos, uma partida de futebol amistosa envolvendo soldados franceses, alemães e ingleses, em Saint-Yves, durante o dia de Natal. A trégua também permitiu que os soldados mortos recentemente pudessem ser trazidos de volta para suas linhas para poderem ser enterrados. Foram realizados vários funerais em conjunto.\n[…]\nUm memorial da Trégua de Natal foi inaugurado em Frelinghien, França, em 11 de novembro de 2008. Neste mesmo dia, no local onde no dia de Natal de 1914 seus antepassados ​​regimentais saíram de suas trincheiras para jogar futebol, homens do 1º Batalhão dos Royal Welch Fusiliers jogaram uma partida de futebol com o Batalhão alemão 371. Os alemães venceram por 2-1.",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  },
+  {
+    "indice": 50,
+    "ancora": {
+      "nome": "T. E. Lawrence",
+      "descricao": "Oficial e escritor britânico que atuou junto às forças árabes na revolta contra o Império Otomano durante a Primeira Guerra Mundial."
+    },
+    "angulo": "identidade",
+    "tipo": "aberta",
+    "pergunta": "Que oficial britânico apoiou a Revolta Árabe contra os otomanos na Primeira Guerra e virou tema de um famoso filme de 1962?",
+    "resposta": "T. E. Lawrence, o Lawrence da Arábia",
+    "fonte": [
+      "https://en.wikipedia.org/wiki/T._E._Lawrence"
+    ],
+    "trechos": [
+      {
+        "url": "https://en.wikipedia.org/wiki/T._E._Lawrence",
+        "situacao": "ok",
+        "texto": "Thomas Edward Lawrence (16 August 1888 – 19 May 1935) was a British Army officer, archaeologist, diplomat and writer known for his role during the Arab Revolt and Sinai and Palestine campaign against the Ottoman Empire in the First World War. The breadth and variety of his activities and associations, and Lawrence's ability to describe them vividly in writing, earned him international fame as Lawr\n[…]\nInterest in Lawrence as a source of artistic inspiration for stage and screen began in his lifetime. Lowell Thomas' films and lectures, With Allenby in Palestine and Lawrence in Arabia, were seen by over 3 million people in the early 1920s and made Lawrence an international celebrity. George Bernard Shaw, a friend, drew on Lawrence's character for the role of Private Napoleon Meek in his play of 1931, Too True to Be Good.\n[…]\nThe 1960s saw a revival of interest, beginning with Terence Rattigan's play Ross, which premiered in 1960, with Alec Guinness in the lead role. The play explored Lawrence's life as Aircraftsman Ross in the early 1930s. It was revived for a limited run at the Chichester Festival Theatre in 2016, with Joseph Fiennes playing the lead. In December 1962 David Lean's film, Lawrence of Arabia, was released, with Peter O'Toole in the title role.\n[…]\nHis retreat from public life formed the subject of Howard Brenton's play Lawrence After Arabia, commissioned for a 2016 premiere at the Hampstead Theatre to mark the centenary of the outbreak of the Arab Revolt.\n[…]\nThomas, L. (2014) [1924]. With Lawrence in Arabia. Nabu Press. ISBN 978-1-295-83025-1.\n[…]\n\"Creating History: Lowell Thomas and Lawrence of Arabia\" online history exhibit at Clio Visualizing History.\n[…]\nFootage of Lawrence of Arabia with publisher FN Doubleday and at a picnic\n[…]\nLawrence of Arabia: The Battle for the Arab World, directed by James Hawes. PBS Home Video, 21 October 2003. (ASIN B0000BWVND)\n[…]\nThe T.E. Lawrence Society"
+      },
+      {
+        "url": "https://pt.wikipedia.org/wiki/T._E._Lawrence",
+        "situacao": "ok",
+        "texto": "Thomas Edward Lawrence (16 de agosto de 1888 – 19 de maio de 1935) foi um oficial do Exército Britânico, arqueólogo, diplomata e escritor, conhecido por seu papel durante a Revolta Árabe e a Campanha do Sinai e Palestina contra o Império Otomano na Primeira Guerra Mundial.\n[…]\nA amplitude e a variedade de suas atividades e associações, somadas à capacidade de Lawrence de descrevê-las vividamente por escrito, renderam-lhe fama internacional como Lawrence da Arábia, título utilizado para o filme de 1962 baseado em suas atividades de guerra.\n[…]\nApós a eclosão da guerra em 1914, Lawrence juntou-se ao Exército Britânico e foi colocado no Gabinete Árabe, uma unidade de inteligência militar no Sultanato do Egito. Em 1916, viajou para a Mesopotâmia e para a Península Arábica em missões de inteligência e envolveu-se na Revolta Árabe contra o domínio otomano. Lawrence foi por fim designado para a Missão Militar Britânica no Hejaz como oficial de ligação com o Emir Faiçal, um dos líderes da revolta.\n[…]\nNo século XXI, Robert Pattinson interpretou Lawrence no filme de 2015 de Werner Herzog, Queen of the Desert, que se centra no tempo de Gertrude Bell na Arábia e retrata a amizade entre os dois. No palco, The Oxford Roof Climbers Rebellion, escrita por Stephen Massicotte e estreada em Toronto em 2006, explorou as reações de Lawrence à guerra e a sua amizade com Robert Graves.\n[…]\nO seu afastamento da vida pública constituiu o tema da peça de Howard Brenton, Lawrence After Arabia, encomendada para uma estreia em 2016 no Hampstead Theatre para assinalar o centenário da eclosão da Revolta Árabe.\n[…]\n\"Creating History: Lowell Thomas and Lawrence of Arabia\" online history exhibit na Clio Visualizing History.\n[…]\nFilmagem de Lawrence da Arábia com o editor F. N. Doubleday e em um piquenique",
+        "observacao": "artigo equivalente em português, lido pelo pipeline; não é fonte da pergunta"
+      }
+    ]
+  }
+]
+
+---
+
+# MANIFESTO
+
+# Manifesto de Perguntas — Mestre2
+
+> **Versão preliminar 0.44 — 2026-10-02**
+>
+> Este documento define **o que é uma boa pergunta** no Mestre2 e **como o banco de perguntas é organizado e produzido**. Vale para qualquer pessoa ou modelo que crie, revise ou processe perguntas.
+>
+> Ele tem duas partes:
+> - **Parte I — Regras de conteúdo (§1 a §9):** o que uma pergunta deve ser. É a parte que o gerador e o crítico automáticos recebem.
+> - **Parte II — Organização e processo (§10 a §18):** esquemas, fluxo de produção, decisões, pendências, o jogo, o app e a programação até 10 000 perguntas. É a referência de quem mantém o projeto.
+>
+> Arquivos relacionados:
+> - [`pergunta.schema.json`](pergunta.schema.json) e [`ancora.schema.json`](ancora.schema.json): esquemas
+> - [`temas_subtemas.json`](temas_subtemas.json): lista canônica de temas e subtemas
+> - [`exemplos_perguntas.json`](exemplos_perguntas.json) · [`exemplos_ancoras.json`](exemplos_ancoras.json)
+> - [`proposta_temas_subtemas.md`](proposta_temas_subtemas.md): histórico da revisão da lista canônica
+> - [`../pipeline/README.md`](../pipeline/README.md): o pipeline que produz as perguntas
+> - [`../app/`](../app/): o app que usa as perguntas numa partida (§16)
+> - [`modo_trilha_da_vida.md`](modo_trilha_da_vida.md): rascunho do segundo modo de jogo, em concepção (§15)
+
+---
+
+# Parte I — Regras de conteúdo
+
+## 1. Princípios
+
+1. **As perguntas vêm antes das regras.** O banco não depende de nenhuma regra de jogo. Um bom banco serve a qualquer regra, e o contrário não é verdade.
+2. **A pergunta é ouvida, não lida.** Quem responde nunca vê o texto, e só vê uma figura quando a pergunta tiver uma (§6). Quem lê é um jogador comum, não um apresentador, e o papel muda a cada pergunta (§15). Se não funciona em voz alta, não funciona.
+3. **Uma pergunta, uma resposta.** Se duas respostas podem ser defendidas, a pergunta está errada.
+4. **Profundidade vem do fato, não da obscuridade.** Uma pergunta surpreendente sobre algo famoso vale mais que uma pergunta sobre algo que ninguém conhece.
+5. **A variedade é medida, não esperada.** Cada pergunta tem uma âncora e um ângulo, e o equilíbrio do banco é conferido com números.
+6. **Toda pergunta tem fonte e resiste ao tempo.** Nada de "atual", "recente" ou recordes que ainda podem ser batidos.
+7. **Errar deve ser interessante.** Quem erra deve pensar "que legal", e não "que injusto".
+8. **Menos e melhor.** Na dúvida, descarte.
+9. **O esquema é estável.** Ele só muda por acréscimo de campos opcionais, nunca por remoção, renomeação ou mudança de tipo (§10).
+10. **O fluxo é automático.** Nenhuma etapa depende de aprovação humana. A revisão humana é uma auditoria opcional, não um gargalo (§11).
+
+---
+
+## 2. Como uma pergunta é classificada
+
+Cada pergunta tem quatro coordenadas:
+
+| Coordenada | Responde a | Origem dos valores |
+|---|---|---|
+| `tema` | Qual área do conhecimento? | Lista fechada (§3) |
+| `subtema` | Qual recorte dentro do tema? | Lista fechada (§3) |
+| `ancora` | Sobre quem ou o quê, especificamente? | Cadastro de âncoras (§4) |
+| `angulo` | Que tipo de coisa se pergunta? | Lista fechada (§5) |
+
+- **`tema` e `subtema`** organizam o banco e permitem encomendar lotes.
+- **`ancora`** controla a **profundidade** e a **repetição**: quantas perguntas existem sobre cada entidade.
+- **`angulo`** controla a **variedade**: a mesma âncora, perguntada de ângulos diferentes, gera perguntas genuinamente diferentes.
+
+---
+
+## 3. Temas e subtemas
+
+A lista canônica tem **8 temas e 73 subtemas** e fica em [`temas_subtemas.json`](temas_subtemas.json):
+
+| Tema | Subtemas |
+|---|---|
+| Geografia | Países e Capitais · Cidades e Monumentos · Relevo e Maravilhas Naturais · Rios e Lagos · Oceanos, Mares e Ilhas · Clima e Biomas · Povos e Idiomas · Bandeiras e Símbolos · Geografia do Brasil |
+| História | Pré-História e Idade do Bronze · Egito Antigo · Grécia Antiga · Roma Antiga · Antigas Civilizações do Oriente · Américas Pré-Colombianas · Idade Média · Idade Moderna · Idade Contemporânea · Primeira Guerra Mundial · Segunda Guerra Mundial · História do Brasil · História da África |
+| Natureza | Mamíferos · Aves, Répteis e Anfíbios · Vida Marinha · Insetos e Invertebrados · Plantas e Fungos · Dinossauros e Fósseis · Evolução Humana · Ecossistemas e Ambientes Extremos · Geologia e História da Terra |
+| Ciências | Astronomia e Espaço · Física · Química · Matemática · Corpo Humano e Medicina · Tecnologia e Computação · Invenções e História da Ciência · Biologia e Genética · Meio Ambiente e Energia |
+| Artes e Pensamento | Literatura Brasileira · Literatura Mundial · Pintura · Escultura e Arquitetura · Música Clássica · Teatro e Ópera · Mitologia · Religiões · Filosofia |
+| Entretenimento | Cinema · Séries e TV · Música Brasileira · Música Internacional · Jogos Eletrônicos · Anime e Mangá · Quadrinhos · Jogos de Tabuleiro e Cartas |
+| Esportes | Futebol · Vôlei · Basquete · Tênis · Automobilismo · Olimpíadas · Lutas e Artes Marciais · Outras Modalidades |
+| Cotidiano | Culinária e Bebidas · Língua Portuguesa e Expressões · Marcas e Produtos · Folclore e Tradições Brasileiras · Costumes pelo Mundo · Objetos do Dia a Dia · Moda e Vestuário · Transportes |
+
+- Cada pergunta tem **um tema e um subtema**, escritos **exatamente** como na lista, com acentos e maiúsculas.
+- Uma **pequena sobreposição** entre subtemas é tolerada.
+- **A lista só cresce por acréscimo.** Nenhum subtema é renomeado, dividido ou fundido, para não reclassificar perguntas já existentes.
+- **Escopo dos subtemas acrescentados em 2026-10-01:**
+  - *Geografia do Brasil:* estados, capitais, regiões, relevo e rios do Brasil. Países e Capitais fica com os outros países.
+  - *História da África:* reinos, impérios e personagens africanos, da Antiguidade à descolonização. O Egito faraônico continua em Egito Antigo.
+  - *Biologia e Genética:* células, DNA, hereditariedade, evolução e classificação dos seres vivos. O corpo humano e as doenças continuam em Corpo Humano e Medicina.
+  - *Meio Ambiente e Energia:* fontes de energia, poluição, reciclagem, aquecimento global e conservação. Climas e biomas continuam em Geografia › Clima e Biomas.
+- **Regra de desempate:** quando dois subtemas servem, vale **o mais específico**. Uma pergunta sobre o Dia D é *Segunda Guerra Mundial*, e não *Idade Contemporânea*.
+
+---
+
+## 4. Âncoras
+
+A âncora é **a entidade sobre a qual a pergunta é feita**: uma pessoa, lugar, obra, evento, espécie, objeto ou conceito específico.
+
+- **A âncora é o assunto, não necessariamente a resposta.** Em "Quem fundou o Império Mongol?", a âncora é *Império Mongol*, e a resposta é Gengis Khan.
+- **Uma única âncora por pergunta:** a entidade sobre a qual está o fato perguntado. Em perguntas de `comparacao` e `conexao`, escolha a entidade **menos óbvia**, porque é nela que está o conhecimento. Em "O que o planeta anão Plutão e o elemento plutônio têm em comum?", a âncora é *Plutônio*.
+- **Regra de granularidade:** a âncora é **uma entidade específica**, com nome próprio ou como um conceito bem delimitado, e **nunca uma área inteira**.
+
+| ✅ Âncora | ❌ Não é âncora (é tema ou subtema) |
+|---|---|
+| Copa do Mundo FIFA de 1970 | Futebol |
+| Pelé | Futebolistas brasileiros |
+| Penicilina | Medicina |
+| Império Mongol | Idade Média |
+
+Cada âncora é registrada com:
+- **`nome`:** forma preferida em português;
+- **`descricao`:** uma frase que identifica a entidade sem ambiguidade. É o que separa *Mercúrio, o planeta* de *Mercúrio, o elemento químico*;
+- **`variantes`:** outras grafias e nomes da entidade, como "Genghis Khan" para Gengis Khan. São variantes do **nome da âncora**, e não respostas aceitas para uma pergunta;
+- **`fontes`:** uma ou mais URLs confiáveis sobre a entidade, em qualquer idioma.
+
+**Popularidade e dificuldade estimada.** O pipeline mede quanto cada âncora é procurada na Wikipédia e usa isso para estimar a dificuldade das perguntas sobre ela. O LLM não participa dessa estimativa (§12).
+- **Medida:** média mensal de visitas de pessoas (sem robôs) aos artigos da âncora na Wikipédia em **português** e em **inglês**, nos últimos 12 meses completos. Os dois artigos são ligados pelo item do Wikidata.
+- **Pontuação:** média geométrica que dá 2/3 do peso ao português, o público do jogo, e 1/3 ao inglês, a fama mundial. O inglês é antes convertido para a escala do português (÷15). Se faltar o artigo numa das línguas, vale só a outra.
+- **Dificuldade**, de 1 (fácil) a 5 (difícil), por faixas fixas da pontuação: ≥ 20 000 visitas por mês → 1 · ≥ 5 000 → 2 · ≥ 1 500 → 3 · ≥ 500 → 4 · abaixo → 5. As faixas são fixas para que a dificuldade de uma pergunta não mude quando o banco cresce.
+- **Uso apenas ilustrativo:** a dificuldade só é **exibida**, na ficha da pergunta no app. Ela **não é usada** para nenhuma decisão do projeto: nem no sorteio, nem em proporções do banco, encomendas, regras de variedade, crítica, pontuação ou tabuleiro. Também não é enviada ao gerador nem ao crítico.
+- **Limites:** é uma estimativa da **fama da âncora**, e não da pergunta. Não enxerga o ângulo, então um fato obscuro sobre algo famoso continua difícil. Também confunde interesse com conhecimento: um conceito conhecido de todos, mas pouco pesquisado, como os cartões amarelo e vermelho, sai difícil.
+
+**Limites por âncora** (o pipeline descarta o que passar deles):
+- no máximo **2 perguntas por âncora** em cada lote, nunca com o mesmo ângulo;
+- no máximo **2 perguntas com o mesmo ângulo** para uma mesma âncora, no banco inteiro;
+- no máximo **3 perguntas por âncora** no banco inteiro, somando texto e figura, e no máximo **2 com figura**;
+- uma pergunta nova não pode perguntar **o mesmo fato** que outra já existente sobre a mesma âncora, mesmo com outras palavras.
+
+**Homônimos são âncoras diferentes.** Nome igual não basta: Pelé e a pele, o clube Cruzeiro e a constelação do Cruzeiro do Sul, a cidade de Washington e George Washington, um país e a sua bandeira ou a sua seleção são entidades distintas. É a `descricao` que decide.
+
+---
+
+## 5. Ângulos
+
+O ângulo é **o tipo de conhecimento pedido**. Ele é definido pela **relação entre a resposta e a âncora**: para classificar uma pergunta, complete a frase *"a resposta é ___ da âncora"*.
+
+| `angulo` | A resposta é… | Exemplo |
+|---|---|---|
+| `autoria` | Quem criou, descobriu, fundou ou venceu a âncora | "Em 1928, quem descobriu a penicilina?" |
+| `tempo` | Quando ela ocorreu, ou a ordem em relação a outra coisa | "Em que século caiu Constantinopla?" |
+| `lugar` | Onde ela está, ocorreu ou surgiu | "Em que país fica Machu Picchu?" |
+| `numero` | Uma quantidade ou medida dela | "Quantos ossos tem o corpo humano adulto?" |
+| `nome` | A origem do nome, um apelido ou um significado | "O nome Venezuela significa pequena versão de qual cidade?" |
+| `causa` | O porquê dela, ou uma consequência dela | "Que doença matou boa parte da população da Europa no século quatorze?" |
+| `composicao` | Uma parte, um membro ou um ingrediente dela | "Que fruta é a base do guacamole?" |
+| `atributo` | Uma característica, propriedade ou função dela | "Qual é a moeda do Japão?" |
+| `comparacao` | A que se destaca num grupo por um critério | "Qual é o maior oceano do mundo?" |
+| `conexao` | O traço comum entre ela e outra entidade | "O que o planeta anão Plutão e o elemento plutônio têm em comum?" |
+| `identidade` | A própria âncora, a partir de uma descrição | "Em que livro uma raposa ensina que somos responsáveis por aquilo que cativamos?" |
+
+- **Prioridade:** quando mais de um ângulo servir, vale o **mais específico**. `identidade` e `atributo` são os mais genéricos e só valem **quando nenhum outro serve**.
+- **Variedade dentro do ângulo:** perguntas do mesmo ângulo não devem seguir o mesmo molde de frase. Cinco perguntas do tipo "X é a cidade famosa, mas qual é a capital?" cansam, mesmo que cada uma seja boa.
+- Os ângulos `conexao` e `nome` costumam produzir as perguntas mais memoráveis e devem ser **encomendados ativamente**.
+
+---
+
+## 6. Tipos de pergunta
+
+| `tipo` | Como é jogada | Campo extra |
+|---|---|---|
+| `aberta` | O questionador lê e o respondente responde livremente | — |
+| `multipla` | O questionador lê a pergunta e depois as alternativas | `distratores`: exatamente 3 |
+
+- Os valores fixos, como os de `tipo` e `angulo`, são sempre minúsculos e sem acento. O app traduz para exibição.
+- **Verdadeiro ou falso não existe.** Funciona mal em voz alta e dá 50% de acerto no chute.
+
+### Distratores
+
+- São as **alternativas erradas**. Ficam **separadas** da resposta, e **o app embaralha** as quatro opções na hora de exibir.
+- Devem ser **críveis**: da mesma categoria, época e escala da resposta. Em obras de ficção, pelo menos um vem da mesma franquia.
+- Cada alternativa tem **no máximo 4 palavras**, porque ninguém guarda quatro frases longas de memória.
+- Só existem em perguntas do tipo `multipla`.
+
+### Perguntas com figura
+
+Uma pergunta de qualquer tipo pode ter uma **figura** (campo `imagem`). O questionador lê o enunciado em voz alta e **mostra a figura** ao respondente. O texto e a resposta continuam fora da vista dele.
+
+> **Só escreve uma pergunta com figura quem examinou a imagem.** O gerador de texto nunca cria perguntas com figura: elas saem da etapa de figuras, em que o LLM abre cada imagem antes de escrever (§17). Uma pergunta sem o campo `imagem` nunca se refere a uma foto ou figura.
+
+- **A figura é a pergunta.** A resposta sai de **reconhecer o que a imagem mostra**: "Que cidade é esta?", "Que animal é este?", "Qual é este pokémon?", "Quem pintou este quadro?", "Em que museu fica este quadro?". Teste: se trocar "este animal" pelo nome dele deixasse a pergunta igualmente boa, a figura é só enfeite, e a pergunta está errada.
+- **O enunciado é curto** e diz o que se deve reconhecer (cidade, animal, monumento). Pode trazer uma pista que **ajude a distinguir**, mas que **não identifique sozinha**. Teste: cubra a imagem e leia só o enunciado; se dá para responder, a pista entrega a resposta, e a figura virou enfeite. Pistas que entregam: "Que estadista, chamado de Chanceler de Ferro, é este?" (Bismarck), "Que astro é este, o único satélite natural da Terra?" (Lua), "Que prato, feito com feijão preto e carnes, é este?" (feijoada), "Quem é esta jogadora, apelidada de Rainha?" (Hortência). Pistas que ajudam sem entregar: a época, o país, o grupo ("Que pintor holandês do século dezessete…", "Que felino africano é este?").
+- **Âncora e ângulo:** a âncora é o que aparece na figura. Perguntar o que ela é dá o ângulo `identidade`; perguntar algo que só se sabe depois de reconhecê-la usa o ângulo correspondente (`autoria` para o pintor, `lugar` para o museu). As regras de variedade (§9), que limitam `identidade`, valem para os lotes do gerador e não para as perguntas com figura.
+- **Tipos de figura:** lugares (cidades, monumentos, paisagens), animais, plantas, objetos e artesanato, festas populares, contornos de mapa, personagens de lendas, obras de arte em domínio público (pinturas, gravuras), pokémon e personagens de anime, mangá, quadrinhos e desenhos animados. Pinturas com direitos autorais, como as de Tarsila do Amaral, Portinari ou Dalí, ficam de fora por enquanto, porque não há fonte boa de imagem para elas.
+- **Um único assunto por imagem:** nada de montagens nem pranchas com assuntos diferentes, como várias espécies ou várias obras. **Exceção:** uma montagem com cenas ou com o elenco de **uma única obra** vale, porque o assunto continua sendo um só (os retratos dos protagonistas de *Os Normais*, por exemplo), desde que não tenha texto. Montagens de pôster, com título ou créditos, continuam proibidas. Vale foto; ilustração ou escultura só para o que não pode ser fotografado, como os personagens de lendas (Saci, Mula sem cabeça).
+- **Pessoas:** figuras públicas, ou brincantes e participantes de festas públicas (Parintins, bumba meu boi, cavalhadas). Fotos de pessoas comuns em outros contextos continuam proibidas.
+- **Recorte permitido:** uma placa ou legenda que entregue a resposta pode ser cortada da imagem, já que as licenças livres permitem obras derivadas.
+- **Política de imagens:** por padrão, imagens do Wikimedia Commons com licença livre (CC BY, CC BY-SA ou domínio público). **Enquanto o jogo não tiver fins comerciais, a arte oficial também é aceita** onde não existe imagem livre: pokémon e personagens de anime, mangá e quadrinhos. Autor, licença ou crédito e a página de origem são sempre registrados. Se o jogo passar a ter fins comerciais, essas imagens precisam ser revistas.
+- **Exceção, Pokémon:** a arte oficial, com o crédito "© Nintendo / Creatures / GAME FREAK", e a Bulbapedia como fonte da âncora e da pergunta. A imagem vem do Bulbagarden Archives ou, como a Bulbapedia bloqueia acesso automatizado, da mesma arte oficial no repositório público do PokéAPI (`raw.githubusercontent.com/PokeAPI/sprites`), que fica registrado em `origem`. É arte oficial, aceita pela política de imagens acima, e não licença livre.
+- **Pokémon em silhueta:** como na vinheta "Quem é esse pokémon?" do desenho, a figura da pergunta é a **silhueta preta** da arte oficial sobre raios azuis e amarelos, e a arte colorida, sobre o mesmo fundo, só aparece em "Mostrar resposta" (campo `revelacao` da imagem). A silhueta precisa ser reconhecível pela forma; se for uma mancha, ou se puder ser confundida com outro pokémon, a pergunta é reprovada.
+- **Variedade dos pokémon:** "Quem é esse pokémon?" não deve ficar só nos muito conhecidos (Pikachu, os iniciais, os lendários famosos). Entram também pokémon de **todas as gerações**, **formas básicas e intermediárias**, e não só a evolução final (Charmeleon, Ivysaur, Pupitar, Grovyle), e pokémon **menos conhecidos**, que só quem jogou aquela geração reconhece. Os emblemáticos continuam, mas como uma parte pequena do catálogo. Para os menos conhecidos, a múltipla escolha com distratores de silhueta parecida deixa a pergunta justa.
+- **Personagens de anime, mangá e quadrinhos:** a arte oficial do personagem, com o crédito "Arte oficial dos detentores dos direitos, via <fonte>". As fontes, em ordem: os wikis de fãs do **Fandom** (que costumam ter arte de corpo inteiro com fundo transparente), o **AniList** (anime e mangá), o **superhero-api** (heróis e vilões da Marvel e da DC) e a **Wikipédia** (a imagem do quadro de informações). A fonte da pergunta é a página do personagem no Fandom, no AniList ou na Wikipédia.
+  - **Silhueta quando a imagem permite:** com fundo transparente, **um personagem sozinho**, de corpo inteiro e contorno característico, a figura vira silhueta com revelação, como nos pokémon. Senão, a pergunta mostra a imagem colorida e vai além do nome (a obra, o autor, o grupo) ou pede o nome em múltipla escolha, com distratores parecidos. Quem decide é o redator que abre a imagem.
+  - **Variedade:** a mesma regra dos pokémon. No máximo 1 em cada 5 personagens é um protagonista emblemático (Goku, Naruto, Mônica, Homem-Aranha). Os outros são coadjuvantes, vilões e personagens de obras menos famosas, de várias épocas e países, com uma boa parte de quadrinhos brasileiros.
+- **Cinema e TV:** três tipos de figura.
+  - **Cenas de filmes e séries** (catálogo `cenas`): imagens de cena do **TMDB** (The Movie Database), só as **sem texto**, e, como reserva, trailers e fotos de divulgação em domínio público do Commons. Perguntas: de que filme ou série é a cena, quem dirigiu, em que década se passa ou foi lançado, que ator interpreta o personagem que aparece. A fonte da pergunta é o artigo da Wikipédia, com a página do TMDB.
+  - **Personagens de filmes e séries** (catálogo `personagens`, o mesmo de anime e quadrinhos): Darth Vader, Chaves, Harry Potter. A imagem precisa mostrar **o personagem pedido**: um redirecionamento pode trocá-lo por outro (no Fandom, "Darth Vader" leva à página de Anakin Skywalker, com o Anakin sem máscara).
+  - **Atores e atrizes** (catálogo `musicos_atores`): fotos livres do Commons, de preferência com uma pergunta que vai além do nome (o filme pelo qual ganhou um prêmio, o personagem que marcou a carreira).
+  - **Variedade:** no máximo 1 em cada 5 é um emblemático (O Poderoso Chefão, Star Wars, Friends). Cerca de **um terço é brasileiro** (filmes, novelas, humorísticos, séries), e o resto varia de décadas e de países, e não fica só em Hollywood.
+  - **Sem spoilers:** nada de perguntar sobre o final, a reviravolta ou a morte de um personagem.
+  - **Crédito do TMDB:** o app informa que usa a API do TMDB e não é endossado nem certificado por ele, como pedem os termos de uso.
+- **Proibido:** capas de álbuns, pôsteres, telas de título, logotipos, fotos de imprensa e cenas com legenda ou com o nome da obra escrito. O texto entrega a resposta.
+
+### Diretrizes de criação das perguntas com figura
+
+O objetivo é variedade e profundidade: o banco não deve virar uma sequência de "que animal é este?" sobre os bichos mais famosos.
+
+**1. Catálogos de figura.** As perguntas com figura saem de **catálogos**, que são listas de entidades do mesmo tipo: bandeiras, mamíferos, pinturas, estádios, retratos, pokémon. Um catálogo não pertence a um subtema. Cada entidade vai para o subtema em que ela se encaixa melhor, e o mesmo catálogo pode alimentar vários temas:
+- **Retratos:** História (governantes, líderes), Ciências (cientistas), Artes e Pensamento (escritores, compositores, filósofos), Esportes (atletas), Entretenimento (músicos, atores).
+- **Pinturas:** Artes e Pensamento › Pintura, ou História, quando retratam um acontecimento.
+- **Bandeiras:** Geografia › Bandeiras e Símbolos (as atuais) e História (as históricas).
+- **Edifícios:** Geografia › Cidades e Monumentos, Escultura e Arquitetura, ou o subtema histórico da época.
+
+Um subtema não precisa ter perguntas de texto para receber perguntas com figura, e a âncora de uma figura não precisa ter perguntas de texto.
+
+**2. A âncora é o que aparece na imagem**, mesmo quando a pergunta vai além do reconhecimento. A saturação por âncora (§17) soma perguntas de texto e com figura.
+
+**3. Famílias de pergunta.** Toda pergunta com figura começa por reconhecer a imagem. O que muda é o que se pergunta depois:
+
+| Família | Ângulo | O que se pergunta | Exemplos |
+|---|---|---|---|
+| **O que é** | `identidade` | O nome do que aparece | "Que animal é este?", "Qual é este pokémon?", "Que estádio é este?" |
+| **Quem fez** | `autoria` | O autor da obra, do projeto ou da invenção | "Quem pintou este quadro?", "Que arquiteto projetou este prédio?" |
+| **Onde** | `lugar` | Onde o assunto fica ou de onde vem | "Que cidade é esta?", "De que país é esta bandeira?", "Em que museu fica este quadro?" |
+| **Quando** | `tempo` | A época ou o acontecimento | "Que acontecimento este quadro retrata?", "Em que século esta igreja foi construída?" |
+| **Que parte** | `composicao` | Uma parte ou detalhe destacado | "De que quadro é este detalhe?", "Como se chama esta peça do motor?" |
+| **Que tipo** | `atributo` | O estilo, a técnica, a categoria | "Que estilo arquitetônico é este?", "Que técnica de pintura é esta?" |
+| **Com o que se liga** | `conexao` | Um segundo fato, que só se alcança depois de reconhecer a imagem | "Em que pokémon este evolui?", "Que clube manda os jogos neste estádio?" |
+
+**4. Três níveis de profundidade**, definidos pela pergunta e não pela fama da âncora:
+- **Nível 1, reconhecer:** o assunto é emblemático e a pergunta é direta ("Que pintura é esta?" para a Mona Lisa). Em geral, aberta.
+- **Nível 2, distinguir:** é preciso separar o assunto de outros parecidos, como a espécie exata, a cidade a partir de um bairro, o pintor entre contemporâneos, ou um detalhe em vez da obra inteira. Em geral, múltipla escolha com distratores do mesmo tipo.
+- **Nível 3, ir além:** reconhecer e dar um passo de conhecimento (a família "com o que se liga", "quando" ou "que tipo"). O enunciado nunca nomeia o assunto da imagem.
+
+Em cada catálogo, a mistura alvo é de **40% no nível 1, 40% no nível 2 e 20% no nível 3**. O nível é escolhido na hora de escrever a pergunta, e não estimado depois (§4).
+
+**5. Escolha das entidades em camadas.** Cada catálogo é uma lista **curada**, montada a partir de listas da Wikipédia e do Wikidata e revisada pelo LLM ou por uma pessoa, em três camadas: **emblemáticos** (o que quase todo mundo reconhece), **conhecidos** (o que o público informado reconhece) e **de aficionado** (o que só quem gosta do assunto reconhece). Cada lote de figuras tira entidades das três camadas, para não esgotar primeiro os emblemáticos. A popularidade na Wikipédia não decide a escolha (§4).
+
+**6. Regras de variedade das perguntas com figura**, além das de §9:
+- num lote de figuras, **pelo menos duas famílias**, quando o catálogo permite mais de uma;
+- nas perguntas com figura de um tema, **pelo menos três catálogos**, e nenhum catálogo passa de **40%** delas (as metas dos catálogos respeitam esse teto, e o autopiloto faz os catálogos de um tema crescerem juntos);
+- uma família não passa de **60%** de um catálogo (por exemplo, nem toda pintura é "quem pintou?");
+- no máximo **duas perguntas com figura por âncora**, de famílias diferentes e com imagens diferentes (a obra inteira e um detalhe, a fachada e uma vista aérea).
+
+**7. Imagens que pedem observação.** Além da imagem principal do Wikidata, valem um detalhe recortado de uma obra, um ângulo menos visto de um lugar ou uma foto histórica. O recorte é permitido (§6). A imagem nunca pode ser ambígua: se o detalhe também existe em outra obra, a pergunta está errada.
+
+**8. Distratores de figura** (múltipla escolha): do mesmo catálogo e **visualmente parecidos** com a resposta (outro felino de manchas, outra catedral gótica, outro pintor impressionista), e nenhum deles pode também descrever a imagem.
+
+**Critérios da figura**, além dos de §8:
+- [ ] **Nada na imagem entrega a resposta:** placas, legendas, letreiros, marcas d'água, bandeiras.
+- [ ] **Resposta única diante da imagem:** atenção a réplicas, paisagens parecidas e monumentos que ficam entre duas cidades. A Ponte Luís I liga o Porto a Vila Nova de Gaia, por isso a pergunta é pela cidade "do outro lado da ponte".
+- [ ] **Legível num celular** a um braço de distância.
+- [ ] **O enunciado é verdadeiro para esta foto específica**, e não só para o assunto: o ponto de vista, o lado e o que aparece nela.
+- [ ] **Nem óbvia nem impossível:** a Torre Eiffel de frente é fácil demais; um bairro qualquer de uma cidade grande, difícil demais. A imagem precisa ter o que permite reconhecer o assunto (a silhueta, o monumento, a pelagem). Para assuntos menos conhecidos, use `multipla`.
+
+---
+
+## 7. Redação para voz
+
+**Enunciado (`pergunta`):**
+1. **No máximo 30 palavras**, idealmente até 20.
+2. **O contexto vem primeiro e a pergunta por último:** "Em 1928, num laboratório de Londres, quem descobriu a penicilina?".
+3. **Nada que dependa de ver o texto:** sem parênteses, aspas, travessões, siglas impronunciáveis, símbolos (%, °, &) ou fórmulas.
+4. **Números e séculos por extenso quando a leitura é ambígua:** "no século quatorze", e não "no séc. XIV".
+5. **Sem perguntas de grafia**, como "como se escreve…".
+6. **Sem negação**, como "qual destes NÃO…". Em voz alta, o "não" se perde.
+7. **Sem vazamento:** o enunciado não contém a resposta, parte dela nem palavra derivada dela.
+   - ❌ "O que significam os nomes das **capitais** Seul e Astana?" → "Capital"
+   - ❌ "Palmeiras e Cruzeiro, fundados por imigrantes **italianos**, tinham que nome?" → "Palestra Itália"
+8. **Público informado, mas leigo:** evite termos técnicos desnecessários.
+
+**Resposta (`resposta`):**
+- É **direta**: uma palavra, um termo ou uma frase curta, com no máximo cerca de 5 palavras.
+- É **específica**: o nome da coisa, e não a categoria. "Corruíra", e não "um pássaro".
+- **Não há lista de variantes.** A resposta é a forma mais completa e mais conhecida, e o questionador julga com bom senso.
+- **Parênteses só quando for muito apropriado**, com uma observação curta que evite uma injustiça evidente, como um nome de nascimento muito conhecido: `"Gengis Khan (nascido Temujin)"`. Na maioria das perguntas, não há parênteses.
+- Não traz explicações nem justificativas.
+
+**Fontes (`fonte`):**
+- São URLs puras, e não links em markdown.
+- São específicas: a página que sustenta **aquele fato**, e não a página inicial de um site.
+
+---
+
+## 8. Critérios de qualidade
+
+Toda pergunta precisa passar em **todos** os critérios abaixo:
+
+- [ ] **Resposta única:** não existe outra resposta defensável. Atenção a apelidos, cargos e títulos: Yashin tinha mais de um apelido, e Weah teve mais de um cargo político.
+- [ ] **Sem vazamento:** nem pelo enunciado, nem pelos distratores.
+- [ ] **Atemporal:** continua correta daqui a 10 anos.
+- [ ] **Verificável:** a fonte citada sustenta a resposta.
+- [ ] **Precisa:** cada afirmação do enunciado é **literalmente** verdadeira, e não só a resposta. Desconfie de verbos como *batizou*, *inventou*, *fundou* e de palavras como *único*, *primeiro*, *maior*. "O navegador que batizou a Colômbia" é falso: o país recebeu o nome em homenagem a Colombo.
+- [ ] **Justa:** um especialista diria "boa pergunta", e não "que detalhe arbitrário".
+- [ ] **Interessante:** acertar dá prazer, ou errar ensina algo.
+- [ ] **Audível:** cabe na memória de quem ouve e segue §7.
+- [ ] **Bem classificada:** tema, subtema, âncora e ângulo são coerentes com o conteúdo.
+
+---
+
+## 9. Regras de variedade
+
+**Em cada lote (tipicamente 20 a 50 perguntas de um subtema):**
+- No máximo **25% num mesmo ângulo**.
+- Pelo menos **6 ângulos diferentes**.
+- `identidade` + `atributo` somam no máximo **30%**.
+- No máximo **2 perguntas por âncora**, nunca com o mesmo ângulo (§4).
+- **Prefira âncoras novas.** O gerador recebe a lista das âncoras e perguntas já existentes no subtema, para não repetir.
+
+**No banco, por subtema:**
+- `conexao` + `nome` somam pelo menos **20%**.
+- A distribuição por ângulo e por âncora é acompanhada pelo relatório do pipeline, e os lotes seguintes são **encomendados para preencher as lacunas**.

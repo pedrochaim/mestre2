@@ -1,0 +1,392 @@
+{
+  "avaliacoes": [
+    {
+      "indice": 1,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fato sustentado pela fonte; distratores críveis e curtos.",
+      "reescrita": null
+    },
+    {
+      "indice": 2,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Fonte confirma o codinome secreto; o disfarce de reservatórios de água é amplamente documentado.",
+      "reescrita": null
+    },
+    {
+      "indice": 3,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Explicação sustentada pela Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 4,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada e sem vazamento.",
+      "reescrita": null
+    },
+    {
+      "indice": 5,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Apelido confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 6,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado literal confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 7,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Significado confirmado; distratores plausíveis.",
+      "reescrita": null
+    },
+    {
+      "indice": 8,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Origem do nome confirmada na fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 9,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; o homem era oficial veterinário, e o destino foi a Inglaterra; fato conhecido.",
+      "reescrita": {
+        "angulo": "nome",
+        "tipo": "multipla",
+        "pergunta": "A ursa-negra que inspirou o Ursinho Pooh foi levada à Inglaterra por um oficial veterinário canadense na Primeira Guerra. O nome dela homenageava que cidade?",
+        "resposta": "Winnipeg",
+        "distratores": [
+          "Toronto",
+          "Montreal",
+          "Vancouver"
+        ],
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Winnipeg_(bear)"
+        ]
+      }
+    },
+    {
+      "indice": 10,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Episódio conhecido da DNOG; a pergunta é interessante e os distratores servem.",
+      "reescrita": null
+    },
+    {
+      "indice": 11,
+      "decisao": "descartar",
+      "apoio": "trecho",
+      "motivo": "Vazamento: trench já significa trincheira; a resposta é quase evidente.",
+      "reescrita": null
+    },
+    {
+      "indice": 12,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Fonte confirma Ypres como local do primeiro uso e origem de 'iperita'.",
+      "reescrita": null
+    },
+    {
+      "indice": 13,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A fonte diz que o contágio começou em Freetown; remover o local e a escala em Dacar evita imprecisão.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1918, a esquadra brasileira enviada à guerra perdeu muitos marinheiros em portos africanos, sem combate. O que os matou?",
+        "resposta": "Gripe espanhola",
+        "fonte": [
+          "https://pt.wikipedia.org/wiki/Divis%C3%A3o_Naval_em_Opera%C3%A7%C3%B5es_de_Guerra"
+        ]
+      }
+    },
+    {
+      "indice": 14,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 15,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pelo trecho.",
+      "reescrita": null
+    },
+    {
+      "indice": 16,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Motivação alemã bem documentada; fonte em português corrobora o interesse alemão.",
+      "reescrita": null
+    },
+    {
+      "indice": 17,
+      "decisao": "reescrever",
+      "apoio": "conhecimento",
+      "motivo": "Fonte inexistente; troquei por artigo da batalha, e o fato é amplamente conhecido.",
+      "reescrita": {
+        "angulo": "causa",
+        "tipo": "aberta",
+        "pergunta": "Em 1914, durante a Primeira Batalha do Marne, por que o exército francês requisitou centenas de táxis de Paris?",
+        "resposta": "Para levar soldados ao front",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/First_Battle_of_the_Marne"
+        ]
+      }
+    },
+    {
+      "indice": 18,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Economia de carvão confirmada na Wikipédia em português.",
+      "reescrita": null
+    },
+    {
+      "indice": 19,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Poema, autor e data confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 20,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Cargo confirmado pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 21,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Causa confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 22,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Idade como motivo confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 23,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sustentada pelas fontes.",
+      "reescrita": null
+    },
+    {
+      "indice": 24,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Parentesco de primos confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 25,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos estiveram no Somme em 1916.",
+      "reescrita": null
+    },
+    {
+      "indice": 26,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambos foram motoristas de ambulância da Cruz Vermelha.",
+      "reescrita": null
+    },
+    {
+      "indice": 27,
+      "decisao": "reescrever",
+      "apoio": "trecho",
+      "motivo": "A 'rendição' de 1940 foi um armistício; usar o termo preciso.",
+      "reescrita": {
+        "angulo": "conexao",
+        "tipo": "aberta",
+        "pergunta": "O que o armistício que encerrou os combates em 1918 e o armistício franco-alemão de 1940 têm em comum quanto ao local da assinatura?",
+        "resposta": "Foram assinados no mesmo vagão",
+        "fonte": [
+          "https://en.wikipedia.org/wiki/Compi%C3%A8gne_Wagon",
+          "https://en.wikipedia.org/wiki/Armistice_of_22_June_1940"
+        ]
+      }
+    },
+    {
+      "indice": 28,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmada pelas fontes sobre Snoopy.",
+      "reescrita": null
+    },
+    {
+      "indice": 29,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmada pela fonte.",
+      "reescrita": null
+    },
+    {
+      "indice": 30,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Pétain confirmado como herói de Verdun e chefe de Vichy.",
+      "reescrita": null
+    },
+    {
+      "indice": 31,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "Pergunta vaga, resposta longa e conexão fraca, que a fonte não mostra.",
+      "reescrita": null
+    },
+    {
+      "indice": 32,
+      "decisao": "descartar",
+      "apoio": "conhecimento",
+      "motivo": "A fonte não mostra a origem do nome, que tem nuances (cavalo de corrida); fato fraco.",
+      "reescrita": null
+    },
+    {
+      "indice": 33,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Autoria e ano confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 34,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 35,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 36,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Wilson como principal arquiteto confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 37,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Exílio nos Países Baixos confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 38,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Ambientação na frente italiana confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 39,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Costa da Jutlândia dinamarquesa confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 40,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Sarajevo é a capital da Bósnia e Herzegovina.",
+      "reescrita": null
+    },
+    {
+      "indice": 41,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Onze horas confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 42,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "1936 confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 43,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Catorze pontos confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 44,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Teto de cem mil soldados confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 45,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Itália confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 46,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Confirmada.",
+      "reescrita": null
+    },
+    {
+      "indice": 47,
+      "decisao": "aprovar",
+      "apoio": "conhecimento",
+      "motivo": "Brasil entrou em outubro de 1917, depois de Japão, Itália e EUA.",
+      "reescrita": null
+    },
+    {
+      "indice": 48,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Centros radiológicos de campo confirmados.",
+      "reescrita": null
+    },
+    {
+      "indice": 49,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Futebol confirmado.",
+      "reescrita": null
+    },
+    {
+      "indice": 50,
+      "decisao": "aprovar",
+      "apoio": "trecho",
+      "motivo": "Lawrence e o filme de 1962 confirmados.",
+      "reescrita": null
+    }
+  ]
+}
